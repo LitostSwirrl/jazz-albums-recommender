@@ -1,0 +1,130 @@
+[
+  {
+    "id": "early-jazz",
+    "name": "Early Jazz / New Orleans",
+    "period": "1900s - 1920s",
+    "years": [1900, 1929],
+    "description": "The birthplace of jazz, emerging from the cultural melting pot of New Orleans. This era saw the fusion of African rhythms, blues, ragtime, and brass band traditions into a new, improvisational art form.",
+    "characteristics": [
+      "Collective improvisation",
+      "Dixieland style",
+      "Brass-heavy ensembles",
+      "Ragtime influences",
+      "Blues roots"
+    ],
+    "keyArtists": ["louis-armstrong", "jelly-roll-morton", "king-oliver"],
+    "color": "#8B4513"
+  },
+  {
+    "id": "swing",
+    "name": "Swing Era",
+    "period": "1930s - 1940s",
+    "years": [1930, 1945],
+    "description": "The golden age of big bands and dance music. Swing brought jazz into the mainstream, with large orchestras playing arranged music that emphasized rhythm and melody.",
+    "characteristics": [
+      "Big band format",
+      "Written arrangements",
+      "Dance-oriented",
+      "Section playing",
+      "Call and response"
+    ],
+    "keyArtists": ["duke-ellington", "count-basie", "benny-goodman"],
+    "color": "#DAA520"
+  },
+  {
+    "id": "bebop",
+    "name": "Bebop",
+    "period": "1940s - 1950s",
+    "years": [1940, 1955],
+    "description": "A revolutionary movement that transformed jazz from dance music into an art form for listening. Bebop featured complex harmonies, fast tempos, and virtuosic improvisation.",
+    "characteristics": [
+      "Complex chord changes",
+      "Fast tempos",
+      "Small combos",
+      "Virtuosic solos",
+      "Intellectualized approach"
+    ],
+    "keyArtists": ["charlie-parker", "dizzy-gillespie", "thelonious-monk"],
+    "color": "#4169E1"
+  },
+  {
+    "id": "cool-jazz",
+    "name": "Cool Jazz",
+    "period": "1950s",
+    "years": [1949, 1960],
+    "description": "A reaction to bebop's intensity, cool jazz emphasized relaxed tempos, lighter tones, and sophisticated arrangements. It brought a more restrained, contemplative approach to improvisation.",
+    "characteristics": [
+      "Relaxed tempos",
+      "Lighter tone",
+      "Sophisticated arrangements",
+      "Classical influences",
+      "West Coast sound"
+    ],
+    "keyArtists": ["miles-davis", "chet-baker", "dave-brubeck"],
+    "color": "#87CEEB"
+  },
+  {
+    "id": "hard-bop",
+    "name": "Hard Bop",
+    "period": "1950s - 1960s",
+    "years": [1953, 1965],
+    "description": "A return to jazz's roots, hard bop incorporated gospel, blues, and R&B influences. It maintained bebop's complexity while adding a more soulful, funky feel.",
+    "characteristics": [
+      "Blues influences",
+      "Gospel elements",
+      "Soulful melodies",
+      "Blue Note sound",
+      "Accessible yet complex"
+    ],
+    "keyArtists": ["art-blakey", "horace-silver", "lee-morgan"],
+    "color": "#DC143C"
+  },
+  {
+    "id": "free-jazz",
+    "name": "Free Jazz / Avant-Garde",
+    "period": "1960s",
+    "years": [1958, 1970],
+    "description": "Breaking free from conventional structures, free jazz abandoned fixed chord changes and often standard rhythm. It was a radical exploration of sound and expression.",
+    "characteristics": [
+      "No fixed chord changes",
+      "Collective improvisation",
+      "Extended techniques",
+      "Political expression",
+      "Experimental sounds"
+    ],
+    "keyArtists": ["ornette-coleman", "john-coltrane", "cecil-taylor"],
+    "color": "#9932CC"
+  },
+  {
+    "id": "fusion",
+    "name": "Fusion",
+    "period": "1970s",
+    "years": [1969, 1980],
+    "description": "The electric revolution. Fusion combined jazz improvisation with rock rhythms, electric instruments, and funk grooves, creating a high-energy hybrid genre.",
+    "characteristics": [
+      "Electric instruments",
+      "Rock rhythms",
+      "Funk influences",
+      "Extended compositions",
+      "Studio experimentation"
+    ],
+    "keyArtists": ["herbie-hancock", "weather-report", "chick-corea"],
+    "color": "#FF6347"
+  },
+  {
+    "id": "contemporary",
+    "name": "Contemporary / Modern",
+    "period": "1980s - Present",
+    "years": [1980, 2025],
+    "description": "Modern jazz encompasses diverse styles from neo-traditionalism to avant-garde experimentation, hip-hop fusion, and electronic influences. It honors tradition while pushing boundaries.",
+    "characteristics": [
+      "Genre blending",
+      "Neo-traditionalism",
+      "Hip-hop influences",
+      "Electronic elements",
+      "Global perspectives"
+    ],
+    "keyArtists": ["wynton-marsalis", "brad-mehldau", "robert-glasper"],
+    "color": "#2E8B57"
+  }
+]
