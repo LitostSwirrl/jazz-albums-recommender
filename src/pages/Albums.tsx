@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import albumsData from '../data/albums.json';
 import erasData from '../data/eras.json';
+import { AlbumCover } from '../components/AlbumCover';
 import type { Album, Era } from '../types';
 
 const albums = albumsData as Album[];
@@ -28,8 +29,8 @@ export function Albums() {
               to={`/album/${album.id}`}
               className="group p-6 rounded-lg bg-zinc-900 border border-zinc-800 hover:border-zinc-600 transition-all"
             >
-              <div className="w-full aspect-square bg-zinc-800 rounded-lg flex items-center justify-center text-6xl mb-4 group-hover:scale-105 transition-transform">
-                💿
+              <div className="mb-4 group-hover:scale-105 transition-transform">
+                <AlbumCover coverUrl={album.coverUrl} title={album.title} size="md" />
               </div>
 
               <h2 className="text-lg font-bold text-white group-hover:text-amber-400 transition-colors">

@@ -2,6 +2,7 @@ import { useParams, Link } from 'react-router-dom';
 import albumsData from '../data/albums.json';
 import artistsData from '../data/artists.json';
 import erasData from '../data/eras.json';
+import { AlbumCover } from '../components/AlbumCover';
 import type { Album as AlbumType, Artist, Era } from '../types';
 
 const albums = albumsData as AlbumType[];
@@ -39,8 +40,8 @@ export function Album() {
 
       {/* Header */}
       <header className="flex flex-col md:flex-row gap-8 mb-12">
-        <div className="w-64 h-64 bg-zinc-800 rounded-lg flex items-center justify-center text-8xl flex-shrink-0">
-          💿
+        <div className="flex-shrink-0">
+          <AlbumCover coverUrl={album.coverUrl} title={album.title} size="lg" />
         </div>
         <div className="flex-1">
           <h1 className="text-4xl font-bold mb-2">{album.title}</h1>

@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import erasData from '../data/eras.json';
 import albumsData from '../data/albums.json';
+import { AlbumCover } from '../components/AlbumCover';
 import type { Era, Album } from '../types';
 
 const eras = erasData as Era[];
@@ -53,10 +54,8 @@ export function Home() {
               to={`/album/${album.id}`}
               className="group p-6 rounded-lg bg-zinc-900 border border-zinc-800 hover:border-zinc-600 transition-all"
             >
-              <div className="mb-4">
-                <div className="w-full aspect-square bg-zinc-800 rounded-lg flex items-center justify-center text-6xl mb-4 group-hover:scale-105 transition-transform">
-                  💿
-                </div>
+              <div className="mb-4 group-hover:scale-105 transition-transform">
+                <AlbumCover coverUrl={album.coverUrl} title={album.title} size="md" />
               </div>
               <h3 className="font-semibold text-white group-hover:text-amber-400 transition-colors">
                 {album.title}

@@ -2,6 +2,7 @@ import { useParams, Link } from 'react-router-dom';
 import erasData from '../data/eras.json';
 import artistsData from '../data/artists.json';
 import albumsData from '../data/albums.json';
+import { AlbumCover } from '../components/AlbumCover';
 import type { Era as EraType, Artist, Album } from '../types';
 
 const eras = erasData as EraType[];
@@ -103,7 +104,9 @@ export function Era() {
                 to={`/album/${album.id}`}
                 className="p-4 rounded-lg bg-zinc-900 border border-zinc-800 hover:border-zinc-600 transition-all group"
               >
-                <div className="text-4xl mb-3">💿</div>
+                <div className="mb-3 group-hover:scale-105 transition-transform">
+                  <AlbumCover coverUrl={album.coverUrl} title={album.title} size="sm" />
+                </div>
                 <h3 className="font-semibold text-white group-hover:text-amber-400 transition-colors">
                   {album.title}
                 </h3>
