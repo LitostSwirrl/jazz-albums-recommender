@@ -4,7 +4,7 @@ import { Home, Eras, Era, Artists, Artist, Albums, Album, InfluenceGraph, Timeli
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/jazz-albums-recommender">
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
