@@ -70,4 +70,10 @@ Content is curated from reliable sources:
 ## Current Status
 
 ✅ **Phase 1: Foundation** - COMPLETE
-🚧 **Phase 2: Core Content** - Need to expand to 100 albums
+✅ **Phase 2: Core Content** - 85+ albums, 45+ artists added
+🚧 **Phase 3: Visualization** - Artist influence graph pending
+
+## Content Stats
+- **Albums**: 85+ essential albums across all eras
+- **Artists**: 45+ jazz legends with full bios
+- **Eras**: 8 distinct periods from 1920s to present
