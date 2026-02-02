@@ -5,3 +5,5 @@ export { Artists } from './Artists';
 export { Artist } from './Artist';
 export { Albums } from './Albums';
 export { Album } from './Album';
+export { InfluenceGraph } from './InfluenceGraph';
+export { Timeline } from './Timeline';

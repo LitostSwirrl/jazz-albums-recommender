@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Layout } from './components/layout';
-import { Home, Eras, Era, Artists, Artist, Albums, Album } from './pages';
+import { Home, Eras, Era, Artists, Artist, Albums, Album, InfluenceGraph, Timeline } from './pages';
 
 function App() {
   return (
@@ -14,6 +14,8 @@ function App() {
           <Route path="/artist/:id" element={<Artist />} />
           <Route path="/albums" element={<Albums />} />
           <Route path="/album/:id" element={<Album />} />
+          <Route path="/influence" element={<InfluenceGraph />} />
+          <Route path="/timeline" element={<Timeline />} />
         </Route>
       </Routes>
     </BrowserRouter>
