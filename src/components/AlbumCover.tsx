@@ -75,11 +75,10 @@ export function AlbumCover({ coverUrl, title, size = 'md', className = '', eraCo
   const [imageLoading, setImageLoading] = useState(true);
 
   // Only try to load if we have a URL that looks valid
-  // Reject fake coverartarchive URLs (text IDs like "zodiac-suite" or bare UUIDs)
+  // Reject fake coverartarchive URLs (text IDs like "zodiac-suite" instead of UUIDs)
   const hasValidUrl = coverUrl &&
     coverUrl.startsWith('http') &&
-    !coverUrl.match(/coverartarchive\.org\/release\/[a-z-]+\/front$/) &&
-    !coverUrl.match(/coverartarchive\.org\/release\/[a-f0-9-]{36}\/front$/);
+    !coverUrl.match(/coverartarchive\.org\/release\/[a-z][a-z-]+\/front$/);
   const showFallback = !hasValidUrl || imageError;
 
   const color = eraColor || getTitleColor(title);
