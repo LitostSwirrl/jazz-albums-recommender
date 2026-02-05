@@ -3,6 +3,8 @@ import {
   ReactFlow,
   Background,
   ReactFlowProvider,
+  Handle,
+  Position,
 } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
 import { Link } from 'react-router-dom';
@@ -26,17 +28,21 @@ function MiniArtistNode({ data }: { data: MiniNodeData }) {
   const borderColor = era ? eraColors[era.id] || '#71717a' : '#71717a';
 
   return (
-    <Link
-      to={`/artist/${artist.id}`}
-      className={`block px-2 py-1 rounded text-center transition-all duration-200 hover:scale-105 ${
-        isCenter ? 'bg-zinc-800 border-2' : 'bg-zinc-900 border'
-      }`}
-      style={{ borderColor }}
-    >
-      <div className={`text-xs font-medium text-white truncate max-w-[80px] ${isCenter ? 'text-sm' : ''}`}>
-        {artist.name}
-      </div>
-    </Link>
+    <>
+      <Handle type="target" position={Position.Top} className="!bg-transparent !border-0 !w-0 !h-0" />
+      <Link
+        to={`/artist/${artist.id}`}
+        className={`block px-2 py-1 rounded text-center transition-all duration-200 hover:scale-105 ${
+          isCenter ? 'bg-zinc-800 border-2' : 'bg-zinc-900 border'
+        }`}
+        style={{ borderColor }}
+      >
+        <div className={`text-xs font-medium text-white truncate max-w-[80px] ${isCenter ? 'text-sm' : ''}`}>
+          {artist.name}
+        </div>
+      </Link>
+      <Handle type="source" position={Position.Bottom} className="!bg-transparent !border-0 !w-0 !h-0" />
+    </>
   );
 }
 
@@ -114,14 +120,16 @@ function MiniInfluenceNetworkInner({ artist, allArtists, eras }: MiniInfluenceNe
         id: `${inf.id}->${artist.id}`,
         source: inf.id,
         target: artist.id,
-        style: { stroke: '#f59e0b', strokeWidth: 1.5 },
+        type: 'smoothstep',
+        style: { stroke: '#f59e0b', strokeWidth: 2 },
         animated: true,
       })),
       ...influenced.map((inf) => ({
         id: `${artist.id}->${inf.id}`,
         source: artist.id,
         target: inf.id,
-        style: { stroke: '#f59e0b', strokeWidth: 1.5 },
+        type: 'smoothstep',
+        style: { stroke: '#f59e0b', strokeWidth: 2 },
         animated: true,
       })),
     ];
@@ -145,6 +153,10 @@ function MiniInfluenceNetworkInner({ artist, allArtists, eras }: MiniInfluenceNe
         nodes={nodes}
         edges={edges}
         nodeTypes={nodeTypes}
+        defaultEdgeOptions={{
+          type: 'smoothstep',
+          style: { stroke: '#f59e0b', strokeWidth: 2 },
+        }}
         fitView
         panOnDrag={false}
         zoomOnScroll={false}
