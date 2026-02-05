@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import artistsData from '../data/artists.json';
 import erasData from '../data/eras.json';
 import type { Artist, Era } from '../types';
+import { ArtistPhoto } from '../components/ArtistPhoto';
 
 const artists = artistsData as Artist[];
 const eras = erasData as Era[];
@@ -26,8 +27,13 @@ export function Artists() {
             to={`/artist/${artist.id}`}
             className="group p-6 rounded-lg bg-zinc-900 border border-zinc-800 hover:border-zinc-600 transition-all"
           >
-            <div className="w-16 h-16 rounded-full bg-zinc-800 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
-              🎵
+            <div className="mb-4 group-hover:scale-110 transition-transform">
+              <ArtistPhoto
+                imageUrl={artist.imageUrl}
+                name={artist.name}
+                size="lg"
+                showInstrument={artist.instruments[0]}
+              />
             </div>
 
             <h2 className="text-xl font-bold text-white group-hover:text-amber-400 transition-colors">

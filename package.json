@@ -13,7 +13,9 @@
   },
   "homepage": "https://litostswirrl.github.io/jazz-albums-recommender",
   "dependencies": {
+    "@types/dagre": "^0.7.53",
     "@xyflow/react": "^12.10.0",
+    "dagre": "^0.8.5",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.13.0"
@@ -33,6 +35,7 @@
     "tailwindcss": "^4.1.18",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.46.4",
-    "vite": "^7.2.4"
+    "vite": "^7.2.4",
+    "vite-plugin-commonjs": "^0.10.4"
   }
 }

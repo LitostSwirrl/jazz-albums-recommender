@@ -4,432 +4,1019 @@
     "name": "Louis Armstrong",
     "birthYear": 1901,
     "deathYear": 1971,
-    "bio": "Louis Armstrong was the most influential figure in jazz history. His innovative trumpet playing, distinctive gravelly voice, and charismatic stage presence helped define what jazz could be. He pioneered scat singing and transformed the role of the soloist in jazz.",
-    "instruments": ["trumpet", "vocals"],
-    "eras": ["early-jazz", "swing"],
-    "influences": ["dizzy-gillespie", "miles-davis", "chet-baker"],
-    "influencedBy": ["king-oliver"],
-    "keyAlbums": ["hot-fives-sevens"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Louis_Armstrong"
+    "bio": "Louis Armstrong was the most influential figure in jazz history, fundamentally transforming the music from collective improvisation to a soloist's art form. Born in New Orleans in 1901, he developed his revolutionary trumpet style through work with King Oliver and Fletcher Henderson before forming his legendary Hot Five and Hot Seven groups in the 1920s. His innovative trumpet playing combined unprecedented technical virtuosity with emotional depth, while his distinctive gravelly voice and charismatic stage presence made him jazz's first true superstar. Armstrong pioneered scat singing, influenced countless musicians across all genres, and remained a beloved entertainer until his death in 1971. His recordings from the 1920s remain cornerstones of American music.",
+    "instruments": [
+      "trumpet",
+      "vocals"
+    ],
+    "eras": [
+      "early-jazz",
+      "swing"
+    ],
+    "influences": [
+      "dizzy-gillespie",
+      "miles-davis",
+      "chet-baker",
+      "roy-eldridge",
+      "clark-terry",
+      "hugh-masekela"
+    ],
+    "influencedBy": [
+      "king-oliver",
+      "buddy-bolden"
+    ],
+    "keyAlbums": [
+      "hot-fives-sevens"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Louis_Armstrong",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Louis_Armstrong_in_Color_%28restored%29.jpg"
   },
   {
     "id": "duke-ellington",
     "name": "Duke Ellington",
     "birthYear": 1899,
     "deathYear": 1974,
-    "bio": "Edward Kennedy 'Duke' Ellington was a composer, pianist, and bandleader who led his orchestra for nearly 50 years. He composed thousands of pieces and is considered one of the greatest composers in American music history.",
-    "instruments": ["piano", "composer"],
-    "eras": ["swing", "bebop"],
-    "influences": ["charles-mingus", "thelonious-monk"],
-    "influencedBy": [],
-    "keyAlbums": ["ellington-at-newport", "money-jungle"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Duke_Ellington"
+    "bio": "Edward Kennedy 'Duke' Ellington was a visionary composer, pianist, and bandleader who led his orchestra for nearly 50 years, creating an unparalleled body of work. He composed over 1,000 pieces ranging from three-minute masterpieces like 'Mood Indigo' to extended suites like 'Black, Brown and Beige,' transcending the boundaries between jazz and classical music. Ellington's genius lay in writing specifically for his sidemen—Johnny Hodges, Harry Carney, Cootie Williams—treating his orchestra as a single instrument with unique tonal colors. His Cotton Club residency in the late 1920s brought him fame, but his creativity never waned, producing landmark albums even into the 1960s. Widely considered one of the greatest composers in American music history, his influence extends far beyond jazz into the fabric of 20th-century music.",
+    "instruments": [
+      "piano",
+      "composer"
+    ],
+    "eras": [
+      "swing",
+      "bebop"
+    ],
+    "influences": [
+      "charles-mingus",
+      "thelonious-monk",
+      "sun-ra",
+      "abdullah-ibrahim",
+      "maria-schneider",
+      "carla-bley"
+    ],
+    "influencedBy": [
+      "james-p-johnson",
+      "willie-the-lion-smith"
+    ],
+    "keyAlbums": [
+      "ellington-at-newport",
+      "money-jungle"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Duke_Ellington",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Duke_Ellington_-_publicity.JPG"
   },
   {
     "id": "charlie-parker",
     "name": "Charlie Parker",
     "birthYear": 1920,
     "deathYear": 1955,
-    "bio": "Charlie 'Bird' Parker was an alto saxophonist and composer who, along with Dizzy Gillespie, pioneered bebop. His virtuosic technique, innovative harmonies, and rhythmic complexity revolutionized jazz improvisation.",
-    "instruments": ["alto saxophone"],
-    "eras": ["bebop"],
-    "influences": ["john-coltrane", "ornette-coleman", "sonny-rollins"],
-    "influencedBy": ["lester-young"],
-    "keyAlbums": ["jazz-at-massey-hall"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Charlie_Parker"
+    "bio": "Charlie 'Bird' Parker was an alto saxophonist and composer who, along with Dizzy Gillespie, pioneered bebop and forever changed the course of jazz. His virtuosic technique, innovative use of chord extensions, and lightning-fast runs over complex harmonies created a new vocabulary for improvisation that musicians still study today. Parker's genius emerged from Kansas City's jam session culture, and by his early twenties, he was revolutionizing jazz at clubs along 52nd Street in New York. Despite struggling with heroin addiction throughout his career, he recorded prolifically for Savoy and Dial labels, producing masterpieces like 'Ko-Ko,' 'Ornithology,' and 'Confirmation.' His death at 34 robbed jazz of its most innovative voice, but his musical DNA lives on in virtually every saxophonist who followed.",
+    "instruments": [
+      "alto saxophone"
+    ],
+    "eras": [
+      "bebop"
+    ],
+    "influences": [
+      "john-coltrane",
+      "ornette-coleman",
+      "sonny-rollins",
+      "cannonball-adderley",
+      "jackie-mclean",
+      "eric-dolphy",
+      "dexter-gordon",
+      "phil-woods",
+      "sadao-watanabe"
+    ],
+    "influencedBy": [
+      "lester-young",
+      "buster-smith",
+      "art-tatum"
+    ],
+    "keyAlbums": [
+      "jazz-at-massey-hall"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Charlie_Parker",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Portrait_of_Charlie_Parker_in_1947.jpg"
   },
   {
     "id": "dizzy-gillespie",
     "name": "Dizzy Gillespie",
     "birthYear": 1917,
     "deathYear": 1993,
-    "bio": "John Birks 'Dizzy' Gillespie was a trumpet virtuoso who co-founded bebop with Charlie Parker. Known for his bent trumpet and puffed cheeks, he was also instrumental in developing Afro-Cuban jazz.",
-    "instruments": ["trumpet"],
-    "eras": ["bebop"],
-    "influences": ["miles-davis", "lee-morgan", "freddie-hubbard"],
-    "influencedBy": ["louis-armstrong", "roy-eldridge"],
-    "keyAlbums": ["jazz-at-massey-hall"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Dizzy_Gillespie"
+    "bio": "John Birks 'Dizzy' Gillespie was a trumpet virtuoso who co-founded bebop with Charlie Parker and became one of jazz's greatest ambassadors. His technical mastery allowed him to execute dazzling runs at breakneck tempos, while his harmonic innovations helped define the bebop language. Beyond bebop, Gillespie was instrumental in developing Afro-Cuban jazz, collaborating with Cuban percussionist Chano Pozo to create groundbreaking fusions like 'Manteca' and 'A Night in Tunisia.' Known for his bent trumpet, puffed cheeks, and ebullient personality, he balanced virtuosity with showmanship and humor. Gillespie mentored countless young musicians and led State Department-sponsored tours that spread jazz worldwide, remaining a vital force in music until his death in 1993.",
+    "instruments": [
+      "trumpet"
+    ],
+    "eras": [
+      "bebop"
+    ],
+    "influences": [
+      "miles-davis",
+      "lee-morgan",
+      "freddie-hubbard",
+      "clifford-brown",
+      "arturo-sandoval",
+      "jon-faddis",
+      "terumasa-hino"
+    ],
+    "influencedBy": [
+      "louis-armstrong",
+      "roy-eldridge",
+      "mario-bauza"
+    ],
+    "keyAlbums": [
+      "jazz-at-massey-hall"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Dizzy_Gillespie",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Dizzy_Gillespie_by_Carl_Van_Vechten_%28cropped%29_%282%29.jpg"
   },
   {
     "id": "miles-davis",
     "name": "Miles Davis",
     "birthYear": 1926,
     "deathYear": 1991,
-    "bio": "Miles Davis was one of the most influential and acclaimed figures in jazz history. He was at the forefront of nearly every major development in jazz from the 1940s through the 1990s, including bebop, cool jazz, hard bop, modal jazz, and jazz fusion.",
-    "instruments": ["trumpet"],
-    "eras": ["bebop", "cool-jazz", "hard-bop", "fusion"],
-    "influences": ["herbie-hancock", "john-coltrane", "wayne-shorter"],
-    "influencedBy": ["charlie-parker", "dizzy-gillespie"],
-    "keyAlbums": ["kind-of-blue", "birth-of-the-cool", "bitches-brew", "in-a-silent-way"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Miles_Davis"
+    "bio": "Miles Davis was one of the most influential and acclaimed figures in jazz history, a relentless innovator who reshaped the music multiple times across five decades. He was at the forefront of nearly every major development in jazz from the 1940s through the 1990s: bebop with Charlie Parker, cool jazz with his nonet, hard bop with his first great quintet, modal jazz with 'Kind of Blue,' and electric fusion with 'Bitches Brew.' Davis had an extraordinary gift for assembling legendary bands—his sidemen included John Coltrane, Herbie Hancock, Wayne Shorter, Tony Williams, and Keith Jarrett. His spare, lyrical trumpet style prioritized space and emotion over technical display, influencing musicians far beyond jazz. A cultural icon who collaborated with Prince and appeared on MTV, Davis remained artistically restless until his death in 1991.",
+    "instruments": [
+      "trumpet"
+    ],
+    "eras": [
+      "bebop",
+      "cool-jazz",
+      "hard-bop",
+      "fusion"
+    ],
+    "influences": [
+      "herbie-hancock",
+      "john-coltrane",
+      "wayne-shorter",
+      "chick-corea",
+      "john-mclaughlin",
+      "weather-report",
+      "kenny-garrett",
+      "wallace-roney",
+      "masabumi-kikuchi",
+      "terumasa-hino"
+    ],
+    "influencedBy": [
+      "charlie-parker",
+      "dizzy-gillespie",
+      "ahmad-jamal",
+      "clark-terry"
+    ],
+    "keyAlbums": [
+      "kind-of-blue",
+      "birth-of-the-cool",
+      "bitches-brew",
+      "in-a-silent-way"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Miles_Davis",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Miles_Davis_by_Palumbo_cropped.jpg"
   },
   {
     "id": "john-coltrane",
     "name": "John Coltrane",
     "birthYear": 1926,
     "deathYear": 1967,
-    "bio": "John Coltrane was a saxophonist and composer whose work dramatically shaped the course of jazz. Starting in hard bop, he evolved through modal jazz to free jazz, always pushing the boundaries of the music.",
-    "instruments": ["tenor saxophone", "soprano saxophone"],
-    "eras": ["hard-bop", "free-jazz"],
-    "influences": ["pharoah-sanders", "wayne-shorter", "kamasi-washington"],
-    "influencedBy": ["charlie-parker", "miles-davis"],
-    "keyAlbums": ["a-love-supreme", "giant-steps", "blue-train", "ascension", "meditations"],
-    "wikipedia": "https://en.wikipedia.org/wiki/John_Coltrane"
+    "bio": "John Coltrane was a saxophonist and composer whose spiritual quest and technical mastery dramatically shaped the course of jazz. Starting in hard bop with Miles Davis and Thelonious Monk, he evolved through modal jazz to increasingly intense free jazz explorations, always pushing the boundaries of what the saxophone could express. His 'sheets of sound' technique—rapid arpeggios cascading through chord changes—became his signature, while albums like 'Giant Steps,' 'My Favorite Things,' and 'A Love Supreme' are considered sacred texts of jazz. Coltrane's classic quartet with McCoy Tyner, Jimmy Garrison, and Elvin Jones produced some of the most powerful music in jazz history. His death from liver cancer at just 40 ended a career of unprecedented artistic growth, but his influence on subsequent generations remains immeasurable.",
+    "instruments": [
+      "tenor saxophone",
+      "soprano saxophone"
+    ],
+    "eras": [
+      "hard-bop",
+      "free-jazz"
+    ],
+    "influences": [
+      "pharoah-sanders",
+      "wayne-shorter",
+      "kamasi-washington",
+      "archie-shepp",
+      "albert-ayler",
+      "alice-coltrane",
+      "joe-henderson",
+      "michael-brecker",
+      "jan-garbarek",
+      "billy-harper",
+      "sonny-sharrock"
+    ],
+    "influencedBy": [
+      "charlie-parker",
+      "miles-davis",
+      "sonny-rollins",
+      "dexter-gordon",
+      "johnny-hodges"
+    ],
+    "keyAlbums": [
+      "a-love-supreme",
+      "giant-steps",
+      "blue-train",
+      "ascension",
+      "meditations"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Coltrane",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/John_Coltrane_1963_cropped_ver2.jpg"
   },
   {
     "id": "thelonious-monk",
     "name": "Thelonious Monk",
     "birthYear": 1917,
     "deathYear": 1982,
-    "bio": "Thelonious Monk was a pianist and composer known for his unique improvisational style and contributions to bebop. His angular melodies, dissonant harmonies, and eccentric playing style made him one of jazz's most distinctive voices.",
-    "instruments": ["piano", "composer"],
-    "eras": ["bebop", "hard-bop"],
-    "influences": ["herbie-hancock", "cecil-taylor"],
-    "influencedBy": ["duke-ellington"],
-    "keyAlbums": ["brilliant-corners", "monks-dream", "straight-no-chaser", "at-carnegie-hall"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Thelonious_Monk"
+    "bio": "Thelonious Monk was a pianist and composer whose idiosyncratic style made him one of jazz's most distinctive and uncompromising voices. His angular melodies, dissonant harmonies, and percussive attack stood in stark contrast to the flowing bebop style, yet his compositions—'Round Midnight,' 'Straight, No Chaser,' 'Blue Monk'—became jazz standards. Monk was a house pianist at Minton's Playhouse where bebop was born, but his music always stood apart, full of unexpected silences, whole-tone runs, and cluster chords. After years of obscurity and a wrongful cabaret card revocation, he achieved major recognition in the late 1950s with Riverside and Columbia recordings that revealed his genius to a wider audience. His influence extends beyond jazz into avant-garde and art music, proving that originality trumps convention.",
+    "instruments": [
+      "piano",
+      "composer"
+    ],
+    "eras": [
+      "bebop",
+      "hard-bop"
+    ],
+    "influences": [
+      "herbie-hancock",
+      "cecil-taylor",
+      "andrew-hill",
+      "randy-weston",
+      "mal-waldron",
+      "carla-bley",
+      "ran-blake",
+      "masabumi-kikuchi",
+      "abdullah-ibrahim"
+    ],
+    "influencedBy": [
+      "duke-ellington",
+      "james-p-johnson",
+      "art-tatum"
+    ],
+    "keyAlbums": [
+      "brilliant-corners",
+      "monks-dream",
+      "straight-no-chaser",
+      "at-carnegie-hall"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Thelonious_Monk",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06191%29.jpg"
   },
   {
     "id": "art-blakey",
     "name": "Art Blakey",
     "birthYear": 1919,
     "deathYear": 1990,
-    "bio": "Art Blakey was a drummer and bandleader who led the Jazz Messengers for over 35 years. His hard-driving style and talent for discovering young musicians made the Messengers the most important training ground in jazz.",
-    "instruments": ["drums"],
-    "eras": ["hard-bop"],
-    "influences": ["wynton-marsalis", "terence-blanchard"],
-    "influencedBy": ["kenny-clarke"],
-    "keyAlbums": ["moanin", "a-night-at-birdland", "buhaina", "caravan"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Art_Blakey"
+    "bio": "Art Blakey was a drummer and bandleader whose Jazz Messengers served as the most important finishing school in jazz for over 35 years. His thunderous, polyrhythmic drumming and signature press roll drove the hard bop sound, combining bebop complexity with blues feeling and gospel fire. Blakey had an uncanny talent for discovering young musicians—his alumni include Wayne Shorter, Lee Morgan, Freddie Hubbard, Wynton and Branford Marsalis, and dozens more who became major artists. The Messengers' sound was instantly recognizable: urgent, swinging, and uncompromising in its commitment to acoustic jazz even as fusion took over. Blakey remained a vital force until his death in 1990, ensuring that hard bop's flame never died and inspiring new generations to carry the tradition forward.",
+    "instruments": [
+      "drums"
+    ],
+    "eras": [
+      "hard-bop"
+    ],
+    "influences": [
+      "wynton-marsalis",
+      "terence-blanchard",
+      "branford-marsalis",
+      "kenny-garrett",
+      "donald-harrison",
+      "mulgrew-miller",
+      "billy-harper",
+      "jazz-epistles"
+    ],
+    "influencedBy": [
+      "kenny-clarke",
+      "chick-webb",
+      "sid-catlett"
+    ],
+    "keyAlbums": [
+      "moanin",
+      "a-night-at-birdland",
+      "buhaina",
+      "caravan"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Art_Blakey",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Art_blakey_studio_portrait.jpg"
   },
   {
     "id": "ornette-coleman",
     "name": "Ornette Coleman",
     "birthYear": 1930,
     "deathYear": 2015,
-    "bio": "Ornette Coleman was an alto saxophonist, violinist, and composer who was one of the founders of free jazz. His 1960 album 'Free Jazz' gave the movement its name and his concept of 'harmolodics' influenced generations.",
-    "instruments": ["alto saxophone", "violin", "trumpet"],
-    "eras": ["free-jazz"],
-    "influences": ["pat-metheny", "james-blood-ulmer"],
-    "influencedBy": ["charlie-parker"],
-    "keyAlbums": ["the-shape-of-jazz-to-come", "free-jazz"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Ornette_Coleman"
+    "bio": "Ornette Coleman was an alto saxophonist, violinist, and composer who revolutionized jazz by liberating it from chord changes and conventional song forms. His 1959 debut 'The Shape of Jazz to Come' and 1960's 'Free Jazz'—a collective improvisation that gave the movement its name—were initially controversial but proved prophetic. Coleman's self-taught approach and plastic alto saxophone produced a raw, vocal-like tone that divided audiences: some heard noise, others heard pure emotion. His theoretical concept of 'harmolodics'—treating melody, harmony, and rhythm as equal—influenced everyone from Pat Metheny to punk rockers. Coleman continued exploring through electric bands like Prime Time, classical compositions, and collaborations until his death in 2015, remaining one of music's most fearless innovators.",
+    "instruments": [
+      "alto saxophone",
+      "violin",
+      "trumpet"
+    ],
+    "eras": [
+      "free-jazz"
+    ],
+    "influences": [
+      "pat-metheny",
+      "james-blood-ulmer",
+      "don-cherry",
+      "cecil-taylor",
+      "art-ensemble",
+      "john-zorn",
+      "henry-threadgill",
+      "dudu-pukwana",
+      "geri-allen"
+    ],
+    "influencedBy": [
+      "charlie-parker",
+      "thelonious-monk"
+    ],
+    "keyAlbums": [
+      "the-shape-of-jazz-to-come",
+      "free-jazz"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Ornette_Coleman",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Ornette-Coleman-2008-Heidelberg-schindelbeck.jpg"
   },
   {
     "id": "herbie-hancock",
     "name": "Herbie Hancock",
     "birthYear": 1940,
-    "bio": "Herbie Hancock is a pianist, keyboardist, and composer who has been a vital part of every major jazz movement since the 1960s. From his work with Miles Davis to his pioneering electronic experiments, he continues to innovate.",
-    "instruments": ["piano", "keyboards"],
-    "eras": ["hard-bop", "fusion", "contemporary"],
-    "influences": ["robert-glasper", "brad-mehldau"],
-    "influencedBy": ["miles-davis", "thelonious-monk"],
-    "keyAlbums": ["maiden-voyage", "head-hunters", "empyrean-isles", "takin-off", "thrust"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Herbie_Hancock"
+    "bio": "Herbie Hancock is a pianist, keyboardist, and composer who has remained at the cutting edge of music for over six decades. As a member of Miles Davis's second great quintet from 1963-68, he helped redefine jazz rhythm and harmony while recording classic Blue Note albums like 'Maiden Voyage' and 'Empyrean Isles' as a leader. Hancock then pioneered jazz-funk fusion with 'Head Hunters' (1973), which became one of the first jazz albums to go platinum. His 1983 hit 'Rockit' made him an MTV staple and introduced hip-hop scratching to mainstream audiences. A Buddhist practitioner and technological enthusiast, Hancock continues to collaborate with artists from every genre, his curiosity and openness making him a bridge between jazz tradition and contemporary music.",
+    "instruments": [
+      "piano",
+      "keyboards"
+    ],
+    "eras": [
+      "hard-bop",
+      "fusion",
+      "contemporary"
+    ],
+    "influences": [
+      "robert-glasper",
+      "brad-mehldau",
+      "geri-allen",
+      "jason-moran",
+      "matthew-shipp",
+      "vijay-iyer"
+    ],
+    "influencedBy": [
+      "miles-davis",
+      "thelonious-monk",
+      "bill-evans",
+      "oscar-peterson"
+    ],
+    "keyAlbums": [
+      "maiden-voyage",
+      "head-hunters",
+      "empyrean-isles",
+      "takin-off",
+      "thrust"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Herbie_Hancock",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Herbie_Hancock_2023.jpg"
   },
   {
     "id": "bill-evans",
     "name": "Bill Evans",
     "birthYear": 1929,
     "deathYear": 1980,
-    "bio": "Bill Evans was a pianist who redefined the jazz piano trio. His introspective, harmonically sophisticated style and his emphasis on interplay between trio members influenced every pianist who followed.",
-    "instruments": ["piano"],
-    "eras": ["cool-jazz", "hard-bop"],
-    "influences": ["keith-jarrett", "brad-mehldau", "fred-hersch"],
-    "influencedBy": ["bud-powell"],
-    "keyAlbums": ["sunday-at-the-village-vanguard", "waltz-for-debby", "portrait-in-jazz", "blue-in-green"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Bill_Evans"
+    "bio": "Bill Evans was a pianist who redefined the jazz piano trio through his introspective approach, impressionistic voicings, and unprecedented emphasis on collective improvisation. His work on Miles Davis's 'Kind of Blue' helped launch modal jazz, but it was with his own trios—particularly with bassist Scott LaFaro and drummer Paul Motian—that he revolutionized small group interaction. Evans's sophisticated harmonic language drew from classical composers like Debussy and Ravel, bringing new colors to jazz piano. Despite personal tragedies, including LaFaro's death in a 1961 car accident, and struggles with drug addiction, he continued producing deeply moving music for two more decades. His influence on subsequent pianists—Keith Jarrett, Brad Mehldau, Fred Hersch—is immeasurable.",
+    "instruments": [
+      "piano"
+    ],
+    "eras": [
+      "cool-jazz",
+      "hard-bop"
+    ],
+    "influences": [
+      "keith-jarrett",
+      "brad-mehldau",
+      "fred-hersch",
+      "chick-corea",
+      "herbie-hancock",
+      "john-taylor",
+      "yuki-arimasa",
+      "enrico-pieranunzi"
+    ],
+    "influencedBy": [
+      "bud-powell",
+      "nat-king-cole",
+      "lennie-tristano"
+    ],
+    "keyAlbums": [
+      "sunday-at-the-village-vanguard",
+      "waltz-for-debby",
+      "portrait-in-jazz",
+      "blue-in-green"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Bill_Evans",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Bill_Evans_%281961_publicity_photo_by_Steve_Schapiro%29.jpg"
   },
   {
     "id": "charles-mingus",
     "name": "Charles Mingus",
     "birthYear": 1922,
     "deathYear": 1979,
-    "bio": "Charles Mingus was a bassist, composer, and bandleader known for his volatile personality and deeply personal music. His compositions combined elements of gospel, blues, classical, and free jazz into a unique vision.",
-    "instruments": ["bass", "composer"],
-    "eras": ["hard-bop", "free-jazz"],
-    "influences": ["dave-holland"],
-    "influencedBy": ["duke-ellington", "charlie-parker"],
-    "keyAlbums": ["mingus-ah-um", "the-black-saint", "blues-and-roots"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Charles_Mingus"
+    "bio": "Charles Mingus was a bassist, composer, and bandleader whose volcanic personality matched the intensity of his deeply personal music. His compositions combined elements of gospel, blues, classical music, and collective improvisation into extended works that told stories and made political statements. Albums like 'Mingus Ah Um' and 'The Black Saint and the Sinner Lady' are acknowledged masterpieces, blending Ellingtonian sophistication with raw emotional power. Mingus demanded complete commitment from his musicians, sometimes stopping performances to berate sidemen who weren't meeting his standards. His autobiography 'Beneath the Underdog' and his workshop approach to rehearsals influenced generations of jazz composers and bandleaders who followed his uncompromising artistic vision.",
+    "instruments": [
+      "bass",
+      "composer"
+    ],
+    "eras": [
+      "hard-bop",
+      "free-jazz"
+    ],
+    "influences": [
+      "dave-holland",
+      "charlie-haden",
+      "henry-threadgill",
+      "carla-bley",
+      "maria-schneider"
+    ],
+    "influencedBy": [
+      "duke-ellington",
+      "charlie-parker",
+      "red-norvo"
+    ],
+    "keyAlbums": [
+      "mingus-ah-um",
+      "the-black-saint",
+      "blues-and-roots"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Charles_Mingus",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Charles_Mingus_1976_cropped.jpg"
   },
   {
     "id": "wayne-shorter",
     "name": "Wayne Shorter",
     "birthYear": 1933,
     "deathYear": 2023,
-    "bio": "Wayne Shorter was a saxophonist and composer whose work with Art Blakey, Miles Davis, and Weather Report established him as one of jazz's most important voices. His cryptic, evocative compositions became standards.",
-    "instruments": ["tenor saxophone", "soprano saxophone", "composer"],
-    "eras": ["hard-bop", "fusion"],
-    "influences": ["branford-marsalis"],
-    "influencedBy": ["john-coltrane"],
-    "keyAlbums": ["speak-no-evil", "juju", "night-dreamer", "odyssey-of-iska"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Wayne_Shorter"
+    "bio": "Wayne Shorter was a saxophonist and composer whose enigmatic music and cryptic compositions established him as one of jazz's most important creative forces. His tenure with Art Blakey's Jazz Messengers (1959-63) and Miles Davis's second great quintet (1964-70) produced some of the era's most adventurous music, while his Blue Note albums as a leader—'Speak No Evil,' 'JuJu,' 'Night Dreamer'—are touchstones of modern jazz. As co-founder of Weather Report, Shorter helped define jazz-fusion's artistic possibilities. His compositions, with their elusive melodies and unexpected harmonies, became standards that continue to challenge and inspire musicians. Shorter remained creatively vital into his 80s, his music increasingly abstract yet emotionally profound, until his death in 2023.",
+    "instruments": [
+      "tenor saxophone",
+      "soprano saxophone",
+      "composer"
+    ],
+    "eras": [
+      "hard-bop",
+      "fusion"
+    ],
+    "influences": [
+      "branford-marsalis",
+      "chris-potter",
+      "mark-turner",
+      "joe-lovano",
+      "ravi-coltrane"
+    ],
+    "influencedBy": [
+      "john-coltrane",
+      "miles-davis",
+      "art-blakey"
+    ],
+    "keyAlbums": [
+      "speak-no-evil",
+      "juju",
+      "night-dreamer",
+      "odyssey-of-iska"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Wayne_Shorter",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Wayne-Shorter_in_Amsterdam%2C_1980.jpg"
   },
   {
     "id": "sonny-rollins",
     "name": "Sonny Rollins",
     "birthYear": 1930,
-    "bio": "Sonny Rollins is a tenor saxophonist known for his powerful sound, thematic improvisation, and longevity. His famous sabbatical practicing on the Williamsburg Bridge became part of jazz legend.",
-    "instruments": ["tenor saxophone"],
-    "eras": ["hard-bop"],
-    "influences": ["joe-henderson"],
-    "influencedBy": ["charlie-parker", "coleman-hawkins"],
-    "keyAlbums": ["saxophone-colossus", "the-bridge"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Sonny_Rollins"
+    "bio": "Sonny Rollins is a tenor saxophonist whose massive sound, thematic improvisation, and uncompromising artistic standards have made him jazz's greatest living legend. His 1956 album 'Saxophone Colossus' established him as Coltrane's equal, featuring the calypso 'St. Thomas' which became his signature tune. Famous for his sabbaticals—including a period practicing on the Williamsburg Bridge walkway to avoid disturbing neighbors—Rollins has repeatedly withdrawn from the scene to reassess his music. His improvisations are architectural marvels, building on motifs and developing themes with a logic that connects him to Coleman Hawkins and the saxophone's deepest traditions. Now in his 90s, Rollins remains revered as a musician who never stopped challenging himself.",
+    "instruments": [
+      "tenor saxophone"
+    ],
+    "eras": [
+      "hard-bop"
+    ],
+    "influences": [
+      "joe-henderson"
+    ],
+    "influencedBy": [
+      "charlie-parker",
+      "coleman-hawkins"
+    ],
+    "keyAlbums": [
+      "saxophone-colossus",
+      "the-bridge"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Sonny_Rollins",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sonny_Rollins_2011.jpg"
   },
   {
     "id": "dave-brubeck",
     "name": "Dave Brubeck",
     "birthYear": 1920,
     "deathYear": 2012,
-    "bio": "Dave Brubeck was a pianist and composer who brought jazz to mainstream audiences. His experiments with odd time signatures and his quartet with Paul Desmond produced some of the best-selling jazz albums ever.",
-    "instruments": ["piano", "composer"],
-    "eras": ["cool-jazz"],
-    "influences": [],
-    "influencedBy": [],
-    "keyAlbums": ["time-out"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Dave_Brubeck"
+    "bio": "Dave Brubeck was a pianist and composer who brought jazz to mainstream audiences through his experiments with unusual time signatures and classical influences. His quartet with alto saxophonist Paul Desmond became one of the most popular groups in jazz, culminating in 'Time Out' (1959)—the first jazz album to sell a million copies, featuring 'Take Five' and 'Blue Rondo à la Turk.' Brubeck studied with classical composer Darius Milhaud and brought European ideas about polytonality and counterpoint into jazz. His college campus tours in the 1950s helped establish jazz as serious art music for a new generation. Brubeck continued performing and composing into his 90s, receiving the Grammy Lifetime Achievement Award and influencing countless musicians with his intellectual yet accessible approach.",
+    "instruments": [
+      "piano",
+      "composer"
+    ],
+    "eras": [
+      "cool-jazz"
+    ],
+    "influences": [
+      "don-ellis"
+    ],
+    "influencedBy": [
+      "darius-milhaud",
+      "arnold-schoenberg"
+    ],
+    "keyAlbums": [
+      "time-out"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Dave_Brubeck",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Dave_Brubeck_%281964%29.jpg"
   },
   {
     "id": "chet-baker",
     "name": "Chet Baker",
     "birthYear": 1929,
     "deathYear": 1988,
-    "bio": "Chet Baker was a trumpeter and vocalist whose intimate, vulnerable style made him a jazz icon. Despite struggles with addiction, he produced beautiful, melancholic music throughout his career.",
-    "instruments": ["trumpet", "vocals"],
-    "eras": ["cool-jazz"],
-    "influences": [],
-    "influencedBy": ["miles-davis"],
-    "keyAlbums": ["chet-baker-sings"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Chet_Baker"
+    "bio": "Chet Baker was a trumpeter and vocalist whose intimate, vulnerable style made him the romantic hero of West Coast jazz. Rising to fame with Gerry Mulligan's pianoless quartet in 1952, his cool, understated trumpet and breathy vocals on songs like 'My Funny Valentine' captured the imagination of a generation. Baker's struggles with heroin addiction led to prison time in Italy and years of obscurity, yet he repeatedly returned with music of startling beauty. His later recordings, with their weathered voice and economical trumpet, carry a melancholic depth that speaks of hard-won wisdom. Baker's death from a fall in Amsterdam in 1988 ended a turbulent life, but his influence on the sound of jazz romance endures.",
+    "instruments": [
+      "trumpet",
+      "vocals"
+    ],
+    "eras": [
+      "cool-jazz"
+    ],
+    "influences": [
+      "enrico-rava",
+      "tomasz-stanko"
+    ],
+    "influencedBy": [
+      "miles-davis",
+      "louis-armstrong"
+    ],
+    "keyAlbums": [
+      "chet-baker-sings"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Chet_Baker",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Chet_Baker_%281955_portrait%29.jpg"
   },
   {
     "id": "stan-getz",
     "name": "Stan Getz",
     "birthYear": 1927,
     "deathYear": 1991,
-    "bio": "Stan Getz was a tenor saxophonist known for his warm, lyrical tone. His collaborations with Brazilian musicians in the early 1960s helped spark the bossa nova craze in America.",
-    "instruments": ["tenor saxophone"],
-    "eras": ["cool-jazz"],
-    "influences": [],
-    "influencedBy": ["lester-young"],
-    "keyAlbums": ["getz-gilberto"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Stan_Getz"
+    "bio": "Stan Getz was a tenor saxophonist whose warm, lyrical tone earned him the nickname 'The Sound.' Emerging from the Four Brothers saxophone section of Woody Herman's band, Getz became a leading voice of cool jazz in the 1950s before sparking the bossa nova craze with his collaborations with João Gilberto and Antônio Carlos Jobim. 'Getz/Gilberto' (1964) became one of the best-selling jazz albums ever, its 'The Girl from Ipanema' a worldwide hit. But Getz was far more than a one-hit wonder—his pure tone and melodic invention made him essential listening across five decades. Despite personal struggles with addiction, his final recordings showed undiminished beauty, cementing his legacy as one of the saxophone's great melodists.",
+    "instruments": [
+      "tenor saxophone"
+    ],
+    "eras": [
+      "cool-jazz"
+    ],
+    "influences": [
+      "jan-garbarek",
+      "charles-lloyd"
+    ],
+    "influencedBy": [
+      "lester-young",
+      "charlie-parker"
+    ],
+    "keyAlbums": [
+      "getz-gilberto"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Stan_Getz",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Stan_Getz%2C_tenor_saxophonist_at_Kastrup_Airport_CPH%2C_Copenhagen_%28cropped%29.jpg"
   },
   {
     "id": "cannonball-adderley",
     "name": "Cannonball Adderley",
     "birthYear": 1928,
     "deathYear": 1975,
-    "bio": "Julian 'Cannonball' Adderley was an alto saxophonist known for his soulful, blues-drenched playing. His work with Miles Davis and his own quintet helped define the soul jazz movement.",
-    "instruments": ["alto saxophone"],
-    "eras": ["hard-bop"],
-    "influences": [],
-    "influencedBy": ["charlie-parker"],
-    "keyAlbums": ["somethin-else", "mercy-mercy-mercy"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Cannonball_Adderley"
+    "bio": "Julian 'Cannonball' Adderley was an alto saxophonist whose joyful, blues-drenched playing made him one of jazz's most beloved figures. Arriving in New York from Florida in 1955, he was immediately hailed as the 'new Bird,' though his style was earthier and more blues-rooted than Parker's. His work with Miles Davis on 'Kind of Blue' showcased his lyrical side, while his own quintet with brother Nat produced soul jazz classics like 'Mercy, Mercy, Mercy.' Cannonball's warmth and humor made him an effective ambassador for jazz, hosting educational concerts and TV programs. His sudden death from a stroke at 46 robbed jazz of one of its most communicative voices, but his influence lives on in every saxophonist who plays from the heart.",
+    "instruments": [
+      "alto saxophone"
+    ],
+    "eras": [
+      "hard-bop"
+    ],
+    "influences": [
+      "david-sanborn",
+      "gary-bartz"
+    ],
+    "influencedBy": [
+      "charlie-parker",
+      "nat-adderley"
+    ],
+    "keyAlbums": [
+      "somethin-else",
+      "mercy-mercy-mercy"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Cannonball_Adderley",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Cannonball_Adderley_press_photo_1966.jpg"
   },
   {
     "id": "lee-morgan",
     "name": "Lee Morgan",
     "birthYear": 1938,
     "deathYear": 1972,
-    "bio": "Lee Morgan was a trumpet prodigy who became one of hard bop's most distinctive voices. His funky hit 'The Sidewinder' brought jazz to jukebox audiences before his tragic murder at age 33.",
-    "instruments": ["trumpet"],
-    "eras": ["hard-bop"],
-    "influences": [],
-    "influencedBy": ["clifford-brown", "dizzy-gillespie"],
-    "keyAlbums": ["the-sidewinder", "search-for-the-new-land", "live-at-the-lighthouse"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Lee_Morgan"
+    "bio": "Lee Morgan was a trumpet prodigy who became one of hard bop's most distinctive and dynamic voices. Joining Dizzy Gillespie's big band at 18 and recording his first Blue Note album at 19, Morgan possessed a bright, brassy tone and rhythmic swagger that made him instantly recognizable. His 1964 hit 'The Sidewinder' brought jazz to jukeboxes and launched a wave of funky jazz, while albums like 'Search for the New Land' showed his artistic depth. Morgan's personal life was turbulent, marked by heroin addiction and complicated relationships, culminating in his murder by common-law wife Helen Moore at Slug's Saloon in 1972. His tragically short career left behind a body of work that continues to inspire trumpeters with its fire, wit, and soulfulness.",
+    "instruments": [
+      "trumpet"
+    ],
+    "eras": [
+      "hard-bop"
+    ],
+    "influences": [
+      "woody-shaw",
+      "tom-harrell"
+    ],
+    "influencedBy": [
+      "clifford-brown",
+      "dizzy-gillespie",
+      "miles-davis"
+    ],
+    "keyAlbums": [
+      "the-sidewinder",
+      "search-for-the-new-land",
+      "live-at-the-lighthouse"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Lee_Morgan",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Lee_Morgan_%281959%29.jpg"
   },
   {
     "id": "horace-silver",
     "name": "Horace Silver",
     "birthYear": 1928,
     "deathYear": 2014,
-    "bio": "Horace Silver was a pianist, composer, and bandleader who helped create the hard bop sound. His funky, gospel-influenced compositions like 'Song for My Father' became jazz standards.",
-    "instruments": ["piano", "composer"],
-    "eras": ["hard-bop"],
-    "influences": [],
-    "influencedBy": ["bud-powell"],
-    "keyAlbums": ["song-for-my-father"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Horace_Silver"
+    "bio": "Horace Silver was a pianist, composer, and bandleader whose funky, gospel-influenced music helped define the hard bop sound. A co-founder of the Jazz Messengers with Art Blakey before going solo, Silver created a body of compositions—'Song for My Father,' 'Sister Sadie,' 'Nica's Dream'—that became jazz standards played by musicians everywhere. His piano style combined bebop sophistication with earthy blues feeling and Latin rhythms, creating an irresistible groove that made his Blue Note albums consistent sellers. Silver's quintets served as launching pads for young talent including Blue Mitchell, Junior Cook, and Joe Henderson. Later exploring spirituality and wellness through music, Silver remained a unique voice whose influence on soul jazz and funk is immeasurable.",
+    "instruments": [
+      "piano",
+      "composer"
+    ],
+    "eras": [
+      "hard-bop"
+    ],
+    "influences": [
+      "herbie-hancock",
+      "bobby-timmons",
+      "cedar-walton"
+    ],
+    "influencedBy": [
+      "bud-powell",
+      "thelonious-monk"
+    ],
+    "keyAlbums": [
+      "song-for-my-father"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Horace_Silver",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Horace_Silver_by_Dmitri_Savitski_1989.jpg"
   },
   {
     "id": "eric-dolphy",
     "name": "Eric Dolphy",
     "birthYear": 1928,
     "deathYear": 1964,
-    "bio": "Eric Dolphy was a multi-instrumentalist whose work on alto saxophone, bass clarinet, and flute pushed jazz toward the avant-garde while remaining melodic and accessible.",
-    "instruments": ["alto saxophone", "bass clarinet", "flute"],
-    "eras": ["free-jazz"],
-    "influences": [],
-    "influencedBy": ["charlie-parker"],
-    "keyAlbums": ["out-to-lunch"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Eric_Dolphy"
+    "bio": "Eric Dolphy was a multi-instrumentalist whose visionary work on alto saxophone, bass clarinet, and flute pushed jazz toward the avant-garde while retaining deep melodic beauty. His playing leaped between registers and employed unusual intervals that initially puzzled critics but influenced generations of adventurous musicians. Dolphy's masterpiece 'Out to Lunch!' remains one of the most important albums in jazz, its angular compositions and liberated improvisations pointing toward new possibilities. He worked extensively with Charles Mingus, John Coltrane, and Ornette Coleman, bridging different camps of the avant-garde. His death in Berlin at 36 from undiagnosed diabetes robbed jazz of a true original whose bass clarinet work alone revolutionized how that instrument is played in jazz.",
+    "instruments": [
+      "alto saxophone",
+      "bass clarinet",
+      "flute"
+    ],
+    "eras": [
+      "free-jazz"
+    ],
+    "influences": [
+      "anthony-braxton",
+      "james-carter",
+      "ken-vandermark"
+    ],
+    "influencedBy": [
+      "charlie-parker",
+      "ornette-coleman"
+    ],
+    "keyAlbums": [
+      "out-to-lunch"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Eric_Dolphy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/86/Eric_Dolphy.jpg"
   },
   {
     "id": "keith-jarrett",
     "name": "Keith Jarrett",
     "birthYear": 1945,
-    "bio": "Keith Jarrett is a pianist known for his completely improvised solo concerts and his Standards Trio. His Köln Concert became the best-selling solo jazz and piano album ever.",
-    "instruments": ["piano"],
-    "eras": ["fusion", "contemporary"],
-    "influences": ["brad-mehldau"],
-    "influencedBy": ["bill-evans"],
-    "keyAlbums": ["the-koln-concert", "my-song", "solo-concerts", "standards-vol-1"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Keith_Jarrett"
+    "bio": "Keith Jarrett is a pianist whose completely improvised solo concerts and rigorous trio work have made him one of jazz's most celebrated and controversial figures. His 'Köln Concert' (1975) became the best-selling solo jazz and piano album in history, its long-form improvisations revealing a musical imagination of extraordinary depth. With his American quartet in the 1970s, Jarrett explored free improvisation, while his 'Standards Trio' with Gary Peacock and Jack DeJohnette created definitive interpretations of the jazz songbook. Known for his demanding concert requirements and onstage vocalizations, Jarrett has divided audiences even as he influenced countless pianists. A stroke in 2018 ended his performing career, but his vast recorded legacy—spanning classical, jazz, and pure improvisation—ensures his place in music history.",
+    "instruments": [
+      "piano"
+    ],
+    "eras": [
+      "fusion",
+      "contemporary"
+    ],
+    "influences": [
+      "brad-mehldau",
+      "fred-hersch",
+      "bobo-stenson",
+      "lars-jansson"
+    ],
+    "influencedBy": [
+      "bill-evans",
+      "miles-davis",
+      "art-blakey"
+    ],
+    "keyAlbums": [
+      "the-koln-concert",
+      "my-song",
+      "solo-concerts",
+      "standards-vol-1"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Keith_Jarrett",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Keith_Jarrett.jpg"
   },
   {
     "id": "wynton-marsalis",
     "name": "Wynton Marsalis",
     "birthYear": 1961,
-    "bio": "Wynton Marsalis is a trumpeter, composer, and educator who led the neo-traditional jazz movement. As director of Jazz at Lincoln Center, he has been jazz's most prominent advocate.",
-    "instruments": ["trumpet"],
-    "eras": ["contemporary"],
+    "bio": "Wynton Marsalis is a trumpeter, composer, and educator who led the neo-traditional jazz movement and became the music's most prominent institutional advocate. Arriving in New York in 1979 with stunning technique and deep knowledge of jazz history, he championed a return to acoustic jazz rooted in the tradition of Louis Armstrong and Duke Ellington. His work with Art Blakey and his own quintets produced acclaimed recordings, while his Pulitzer Prize-winning oratorio 'Blood on the Fields' extended jazz into extended composition. As founding director of Jazz at Lincoln Center, Marsalis built jazz's first major permanent institution and brought the music to millions through education and media. Though sometimes criticized for his conservative aesthetic, his impact on jazz education and advocacy is unparalleled.",
+    "instruments": [
+      "trumpet"
+    ],
+    "eras": [
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["miles-davis", "art-blakey"],
-    "keyAlbums": ["black-codes"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Wynton_Marsalis"
+    "influencedBy": [
+      "miles-davis",
+      "art-blakey"
+    ],
+    "keyAlbums": [
+      "black-codes"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Wynton_Marsalis",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Wynton_Marsalis_2009_09_13.jpg"
   },
   {
     "id": "weather-report",
     "name": "Weather Report",
     "birthYear": 1970,
     "deathYear": 1986,
-    "bio": "Weather Report was a jazz fusion band co-led by Wayne Shorter and Joe Zawinul. With Jaco Pastorius on bass, they created some of the most sophisticated and popular fusion music.",
-    "instruments": ["band"],
-    "eras": ["fusion"],
+    "bio": "Weather Report was a jazz fusion band co-led by saxophonist Wayne Shorter and keyboardist Joe Zawinul that set the standard for sophisticated electric jazz. Formed in 1970 from Miles Davis alumni, the group evolved from spacious, atmospheric improvisation to the driving grooves of 'Heavy Weather' (1977), whose 'Birdland' became an anthem. The addition of bass virtuoso Jaco Pastorius brought a new level of virtuosity and showmanship. Weather Report balanced compositional craft with improvisational freedom, electronic textures with acoustic depth, creating music that appealed to jazz purists and rock audiences alike. Through personnel changes and stylistic evolution over 16 years, Shorter and Zawinul maintained a creative vision that influenced virtually every fusion band that followed.",
+    "instruments": [
+      "band"
+    ],
+    "eras": [
+      "fusion"
+    ],
     "influences": [],
-    "influencedBy": ["miles-davis"],
-    "keyAlbums": ["heavy-weather"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Weather_Report"
+    "influencedBy": [
+      "miles-davis"
+    ],
+    "keyAlbums": [
+      "heavy-weather"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Weather_Report",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Weather_Report_19810611_shinjuku_fn23.jpg"
   },
   {
     "id": "chick-corea",
     "name": "Chick Corea",
     "birthYear": 1941,
     "deathYear": 2021,
-    "bio": "Chick Corea was a pianist and composer who worked in bebop, fusion, and classical settings. His Return to Forever band and his acoustic recordings influenced generations of pianists.",
-    "instruments": ["piano", "keyboards"],
-    "eras": ["hard-bop", "fusion"],
-    "influences": [],
-    "influencedBy": ["miles-davis", "bill-evans"],
-    "keyAlbums": ["return-to-forever", "now-he-sings"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Chick_Corea"
+    "bio": "Chick Corea was a pianist and composer whose restless creativity took him through bebop, avant-garde, fusion, classical, and back again across a six-decade career. His tenure with Miles Davis in the late 1960s helped birth electric jazz, while his Return to Forever band brought fusion to arenas with its Latin-tinged, virtuosic sound. Corea's compositions—'Spain,' 'La Fiesta,' 'Windows'—became standards, their memorable melodies and harmonic sophistication appealing to players and listeners alike. A devoted Scientologist whose beliefs influenced his view of music as communication, Corea collaborated prolifically with artists from Herbie Hancock to Béla Fleck. His sudden death from cancer in 2021 ended a career remarkable for its consistency, productivity, and joyful spirit.",
+    "instruments": [
+      "piano",
+      "keyboards"
+    ],
+    "eras": [
+      "hard-bop",
+      "fusion"
+    ],
+    "influences": [
+      "gonzalo-rubalcaba",
+      "michel-camilo",
+      "danilo-perez"
+    ],
+    "influencedBy": [
+      "miles-davis",
+      "bill-evans",
+      "horace-silver"
+    ],
+    "keyAlbums": [
+      "return-to-forever",
+      "now-he-sings"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Chick_Corea",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Chick_Corea_%28ZMF_2019%29_IMGP8025_%28cropped%29.jpg"
   },
   {
     "id": "pat-metheny",
     "name": "Pat Metheny",
     "birthYear": 1954,
-    "bio": "Pat Metheny is a guitarist and composer known for his distinctive tone and eclectic style. His Pat Metheny Group brought jazz to wider audiences while he also explored avant-garde territory.",
-    "instruments": ["guitar"],
-    "eras": ["fusion", "contemporary"],
-    "influences": [],
-    "influencedBy": ["ornette-coleman", "jim-hall"],
-    "keyAlbums": ["bright-size-life"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Pat_Metheny"
+    "bio": "Pat Metheny is a guitarist and composer whose distinctive shimmering tone, eclectic vision, and relentless touring have made him one of jazz's most successful artists. Since bursting onto the scene with 'Bright Size Life' at 21, Metheny has explored territory from lyrical ECM soundscapes to Ornette Coleman's harmolodics to his Orchestrion robot orchestra. His Pat Metheny Group, with longtime collaborator Lyle Mays, created a sophisticated yet accessible sound that won multiple Grammys and packed concert halls worldwide. Metheny's guitar technique—combining bebop vocabulary, folk-influenced melodies, and technological innovation—has influenced every jazz guitarist who followed. Now entering his sixth decade as a performer, he remains restlessly creative, consistently challenging both himself and his audience.",
+    "instruments": [
+      "guitar"
+    ],
+    "eras": [
+      "fusion",
+      "contemporary"
+    ],
+    "influences": [
+      "kurt-rosenwinkel",
+      "lage-lund",
+      "julian-lage"
+    ],
+    "influencedBy": [
+      "ornette-coleman",
+      "jim-hall",
+      "wes-montgomery"
+    ],
+    "keyAlbums": [
+      "bright-size-life"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Pat_Metheny",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Pat_metheny_orch2.jpg"
   },
   {
     "id": "robert-glasper",
     "name": "Robert Glasper",
     "birthYear": 1978,
-    "bio": "Robert Glasper is a pianist who bridges jazz, hip-hop, and R&B. His Black Radio albums brought jazz to contemporary audiences and influenced a generation of musicians.",
-    "instruments": ["piano", "keyboards"],
-    "eras": ["contemporary"],
-    "influences": [],
-    "influencedBy": ["herbie-hancock"],
-    "keyAlbums": ["black-radio"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Robert_Glasper"
+    "bio": "Robert Glasper is a pianist and producer who has been instrumental in bridging jazz, hip-hop, and R&B into a new creative synthesis. Growing up in Houston church music, he developed a style that honors jazz harmony while embracing the rhythms and textures of contemporary Black music. His 'Black Radio' albums, featuring collaborations with artists from Erykah Badu to Kendrick Lamar, brought jazz to audiences who might never enter a traditional jazz club. Glasper's influence extends beyond his recordings—his aesthetic has shaped a generation of musicians who see no contradiction between jazz tradition and hip-hop innovation. Through his Experiment ensemble and production work, he continues to define what jazz sounds like in the 21st century.",
+    "instruments": [
+      "piano",
+      "keyboards"
+    ],
+    "eras": [
+      "contemporary"
+    ],
+    "influences": [
+      "christian-sands",
+      "james-francies",
+      "jon-batiste"
+    ],
+    "influencedBy": [
+      "herbie-hancock",
+      "j-dilla",
+      "ahmad-jamal"
+    ],
+    "keyAlbums": [
+      "black-radio"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Robert_Glasper",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/RG_Trio_3.jpg"
   },
   {
     "id": "esperanza-spalding",
     "name": "Esperanza Spalding",
     "birthYear": 1984,
-    "bio": "Esperanza Spalding is a bassist, singer, and composer who became the youngest jazz artist to win the Grammy for Best New Artist. Her genre-blending music pushes jazz forward.",
-    "instruments": ["bass", "vocals"],
-    "eras": ["contemporary"],
+    "bio": "Esperanza Spalding is a bassist, singer, and composer whose genre-defying music has positioned her as one of contemporary jazz's most adventurous voices. A prodigy who joined the Berklee faculty at 20, she gained wide recognition when her 2011 Best New Artist Grammy upset Justin Bieber. Spalding's music draws on Brazilian styles, R&B, classical composition, and jazz tradition, each album exploring new territory. Her 'Emily's D+Evolution' project reinvented her as an alter-ego rocker, while 'Songwrights Apothecary Lab' applied music therapy principles to composition. With her rapid-fire scat singing, virtuosic bass work, and intellectual curiosity, Spalding continues to challenge assumptions about what jazz can be and whom it can reach.",
+    "instruments": [
+      "bass",
+      "vocals"
+    ],
+    "eras": [
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["jaco-pastorius"],
-    "keyAlbums": ["esperanza"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Esperanza_Spalding"
+    "influencedBy": [
+      "jaco-pastorius"
+    ],
+    "keyAlbums": [
+      "esperanza"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Esperanza_Spalding",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Esperanza_Spalding%2C_2009.jpg"
   },
   {
     "id": "kamasi-washington",
     "name": "Kamasi Washington",
     "birthYear": 1981,
-    "bio": "Kamasi Washington is a tenor saxophonist who brought jazz to new audiences through his work with Kendrick Lamar and his epic album 'The Epic'. His spiritual jazz draws on Coltrane's legacy.",
-    "instruments": ["tenor saxophone"],
-    "eras": ["contemporary"],
+    "bio": "Kamasi Washington is a tenor saxophonist and composer whose spiritual jazz has brought the music to new audiences hungry for depth and transcendence. Growing up in Los Angeles with a jazz-musician father, Washington developed in a community of like-minded players before gaining wider attention through his work with Kendrick Lamar and Flying Lotus. His 2015 triple album 'The Epic' was a statement of ambition that announced jazz's continued relevance to younger listeners. Washington's sound draws explicitly on John Coltrane and Pharoah Sanders, combining cosmic spirituality with accessible melodies. As a bandleader and community builder, he has created an aesthetic that connects the 1970s spiritual jazz tradition to contemporary concerns about identity, justice, and meaning.",
+    "instruments": [
+      "tenor saxophone"
+    ],
+    "eras": [
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["john-coltrane", "pharoah-sanders"],
-    "keyAlbums": ["the-epic"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Kamasi_Washington"
+    "influencedBy": [
+      "john-coltrane",
+      "pharoah-sanders"
+    ],
+    "keyAlbums": [
+      "the-epic"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Kamasi_Washington",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/POS17_%40Kristsll-397_%2836005903335%29_%28cropped%29.jpg"
   },
   {
     "id": "brad-mehldau",
     "name": "Brad Mehldau",
     "birthYear": 1970,
-    "bio": "Brad Mehldau is a pianist known for his introspective style and classical influences. His trio's approach to standards and pop covers redefined contemporary jazz piano.",
-    "instruments": ["piano"],
-    "eras": ["contemporary"],
+    "bio": "Brad Mehldau is a pianist whose introspective, harmonically rich style has defined the sound of contemporary jazz piano. Emerging in the 1990s as a fresh voice in piano trio music, he developed an approach that combined Bill Evans's lyricism with a new harmonic vocabulary influenced by classical music and rock. His 'Art of the Trio' series established him as his generation's leading pianist, while his interpretations of pop songs from Radiohead to Nick Drake expanded jazz's repertoire. Mehldau's left-hand independence and ability to maintain multiple melodic lines have influenced countless younger pianists. Beyond his trio, his solo concerts and collaborations with artists from Pat Metheny to Joshua Redman reveal an artist of exceptional range and depth.",
+    "instruments": [
+      "piano"
+    ],
+    "eras": [
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["bill-evans", "keith-jarrett"],
-    "keyAlbums": ["investigations"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Brad_Mehldau"
+    "influencedBy": [
+      "bill-evans",
+      "keith-jarrett"
+    ],
+    "keyAlbums": [
+      "investigations"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Brad_Mehldau",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Brad_Mehldau.jpg"
   },
   {
     "id": "max-roach",
     "name": "Max Roach",
     "birthYear": 1924,
     "deathYear": 2007,
-    "bio": "Max Roach was a drummer and composer who helped create bebop and was a powerful voice for civil rights. His musical sophistication elevated the role of drums in jazz.",
-    "instruments": ["drums"],
-    "eras": ["bebop", "hard-bop"],
-    "influences": ["art-blakey"],
-    "influencedBy": ["kenny-clarke"],
-    "keyAlbums": ["we-insist", "study-in-brown"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Max_Roach"
+    "bio": "Max Roach was a drummer and composer who helped create bebop and spent his entire career pushing jazz forward while advocating for civil rights and Black dignity. His work on Charlie Parker's revolutionary recordings established new possibilities for jazz drumming, while his quintet with Clifford Brown produced hard bop masterpieces. Roach's 'We Insist! Freedom Now Suite' was a landmark political statement that used music to protest segregation and apartheid. He explored percussion ensembles, collaborated with rappers, and taught at the university level, always insisting that jazz was serious music deserving respect. His virtuosic technique, compositional sophistication, and activist consciousness made him one of jazz's most complete artists.",
+    "instruments": [
+      "drums"
+    ],
+    "eras": [
+      "bebop",
+      "hard-bop"
+    ],
+    "influences": [
+      "art-blakey"
+    ],
+    "influencedBy": [
+      "kenny-clarke"
+    ],
+    "keyAlbums": [
+      "we-insist",
+      "study-in-brown"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Max_Roach",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Max_Roach%2C_Three_Deuces%2C_ca._1947.jpg"
   },
   {
     "id": "clifford-brown",
     "name": "Clifford Brown",
     "birthYear": 1930,
     "deathYear": 1956,
-    "bio": "Clifford Brown was a trumpet prodigy whose warm tone and fluid technique made him one of the most influential trumpeters in jazz. His death in a car accident at 25 was a tremendous loss.",
-    "instruments": ["trumpet"],
-    "eras": ["hard-bop"],
-    "influences": ["lee-morgan", "freddie-hubbard"],
-    "influencedBy": ["dizzy-gillespie"],
-    "keyAlbums": ["study-in-brown"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Clifford_Brown"
+    "bio": "Clifford Brown was a trumpet prodigy whose warm, burnished tone and fluid technique made him one of the most influential trumpeters in jazz history despite his tragically brief career. In just four years of major recordings before his death at 25, 'Brownie' established a style that combined Dizzy Gillespie's virtuosity with a more lyrical, melodic approach. His quintet with Max Roach produced a string of classic albums, while his ballad playing set new standards for beauty and emotional depth. Unlike many of his contemporaries, Brown lived clean—no drugs, no alcohol—making his death in a car accident even more cruel. His influence on subsequent trumpeters, from Lee Morgan to Freddie Hubbard to Wynton Marsalis, is immeasurable.",
+    "instruments": [
+      "trumpet"
+    ],
+    "eras": [
+      "hard-bop"
+    ],
+    "influences": [
+      "lee-morgan",
+      "freddie-hubbard"
+    ],
+    "influencedBy": [
+      "dizzy-gillespie"
+    ],
+    "keyAlbums": [
+      "study-in-brown"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Clifford_Brown",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Clifford_Brown_1956.jpg"
   },
   {
     "id": "cecil-taylor",
     "name": "Cecil Taylor",
     "birthYear": 1929,
     "deathYear": 2018,
-    "bio": "Cecil Taylor was a pianist whose percussive, atonal style made him free jazz's most uncompromising voice. His virtuosic technique and energy were legendary.",
-    "instruments": ["piano"],
-    "eras": ["free-jazz"],
-    "influences": [],
-    "influencedBy": ["thelonious-monk"],
-    "keyAlbums": ["unit-structures"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Cecil_Taylor"
+    "bio": "Cecil Taylor was a pianist whose volcanic, percussive style made him free jazz's most uncompromising and demanding voice. Drawing on classical composers like Bartók and Stockhausen as much as jazz, Taylor developed an approach that treated the piano as a percussion instrument, producing dense cascades of notes at superhuman speed and intensity. His performances could last hours, leaving audiences exhausted and transformed. Initially marginalized—he worked as a dishwasher between gigs—Taylor eventually gained recognition as a visionary, receiving MacArthur and Kyoto prizes. His influence extends beyond pianists to anyone who believes in music as pure energy and expression. Taylor performed into his 80s, his commitment to artistic integrity never wavering.",
+    "instruments": [
+      "piano"
+    ],
+    "eras": [
+      "free-jazz"
+    ],
+    "influences": [
+      "matthew-shipp",
+      "marilyn-crispell",
+      "alexander-von-schlippenbach"
+    ],
+    "influencedBy": [
+      "thelonious-monk",
+      "duke-ellington",
+      "dave-brubeck"
+    ],
+    "keyAlbums": [
+      "unit-structures"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Cecil_Taylor",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Cecil_taylor_E5122329-2.jpg"
   },
   {
     "id": "andrew-hill",
     "name": "Andrew Hill",
     "birthYear": 1931,
     "deathYear": 2007,
-    "bio": "Andrew Hill was a pianist and composer whose angular, unconventional music bridged post-bop and the avant-garde. His Blue Note albums are among the label's most adventurous.",
-    "instruments": ["piano", "composer"],
-    "eras": ["free-jazz"],
+    "bio": "Andrew Hill was a pianist and composer whose angular, unconventional music bridged post-bop and the avant-garde in ways that still sound fresh today. His Blue Note albums from the 1960s—especially 'Point of Departure'—are among the label's most adventurous and uncompromising recordings. Hill's compositions featured unexpected rhythmic displacements, unusual forms, and harmonic ambiguity that challenged his sidemen and listeners alike. After years of academic work and relative obscurity, he returned to active performance in the 2000s with new recordings that confirmed his continuing creativity. His influence on contemporary pianists who seek to push boundaries while maintaining a connection to jazz tradition remains profound.",
+    "instruments": [
+      "piano",
+      "composer"
+    ],
+    "eras": [
+      "free-jazz"
+    ],
     "influences": [],
-    "influencedBy": ["thelonious-monk"],
-    "keyAlbums": ["point-of-departure"],
+    "influencedBy": [
+      "thelonious-monk"
+    ],
+    "keyAlbums": [
+      "point-of-departure"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Andrew_Hill"
   },
   {
@@ -437,89 +1024,180 @@
     "name": "Freddie Hubbard",
     "birthYear": 1938,
     "deathYear": 2008,
-    "bio": "Freddie Hubbard was a trumpet virtuoso who brought fiery energy to hard bop. His work on countless Blue Note sessions and his fusion explorations made him one of jazz's most recorded trumpeters.",
-    "instruments": ["trumpet"],
-    "eras": ["hard-bop", "fusion"],
-    "influences": [],
-    "influencedBy": ["clifford-brown", "miles-davis"],
-    "keyAlbums": ["hub-tones", "red-clay"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Freddie_Hubbard"
+    "bio": "Freddie Hubbard was a trumpet virtuoso whose blazing technique and fiery energy made him one of hard bop's most exciting voices. His work appears on countless Blue Note classics—including Dolphy's 'Out to Lunch,' Coltrane's 'Ascension,' and Hancock's 'Maiden Voyage'—as well as his own outstanding albums like 'Ready for Freddie' and 'Hub-Tones.' In the 1970s, Hubbard achieved commercial success with fusion albums like 'Red Clay,' though critics debated whether accessibility compromised his artistry. A lip injury in the 1990s limited his playing, but his influence on subsequent trumpeters—from Woody Shaw to Roy Hargrove—ensures his legacy. At his best, Hubbard combined technical mastery with emotional intensity in a way few trumpeters have matched.",
+    "instruments": [
+      "trumpet"
+    ],
+    "eras": [
+      "hard-bop",
+      "fusion"
+    ],
+    "influences": [
+      "woody-shaw",
+      "roy-hargrove",
+      "terence-blanchard",
+      "terumasa-hino"
+    ],
+    "influencedBy": [
+      "clifford-brown",
+      "miles-davis",
+      "lee-morgan"
+    ],
+    "keyAlbums": [
+      "hub-tones",
+      "red-clay"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Freddie_Hubbard",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Freddie_Hubbard_1976.jpg"
   },
   {
     "id": "mccoy-tyner",
     "name": "McCoy Tyner",
     "birthYear": 1938,
     "deathYear": 2020,
-    "bio": "McCoy Tyner was a pianist whose powerful, percussive style was central to John Coltrane's classic quartet. His left-hand voicings and modal approach influenced generations.",
-    "instruments": ["piano"],
-    "eras": ["hard-bop", "free-jazz"],
-    "influences": [],
-    "influencedBy": ["bud-powell"],
-    "keyAlbums": ["extensions"],
-    "wikipedia": "https://en.wikipedia.org/wiki/McCoy_Tyner"
+    "bio": "McCoy Tyner was a pianist whose powerful, percussive style became central to John Coltrane's classic quartet and influenced virtually every jazz pianist who followed. His thundering left-hand voicings, built on fourths rather than traditional chord structures, created a new harmonic language for modal jazz. With Coltrane from 1960-65, Tyner provided the harmonic foundation for masterpieces like 'A Love Supreme' and 'My Favorite Things.' His solo career on Blue Note and Milestone produced dozens of albums featuring his muscular attack and sweeping runs. Even as trends changed, Tyner remained committed to acoustic piano and his distinctive approach, a titan of jazz piano until his death in 2020.",
+    "instruments": [
+      "piano"
+    ],
+    "eras": [
+      "hard-bop",
+      "free-jazz"
+    ],
+    "influences": [
+      "chick-corea",
+      "joey-calderazzo",
+      "marc-cary"
+    ],
+    "influencedBy": [
+      "bud-powell",
+      "art-tatum",
+      "john-coltrane"
+    ],
+    "keyAlbums": [
+      "extensions"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/McCoy_Tyner",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Mccoy_Tyner_1973_gh_%28cropped%29.jpg"
   },
   {
     "id": "alice-coltrane",
     "name": "Alice Coltrane",
     "birthYear": 1937,
     "deathYear": 2007,
-    "bio": "Alice Coltrane was a pianist, harpist, and composer who forged her own spiritual path after her husband John's death. Her blend of jazz and Eastern spirituality was unique.",
-    "instruments": ["piano", "harp"],
-    "eras": ["free-jazz"],
+    "bio": "Alice Coltrane was a pianist, harpist, and composer who forged her own spiritual and musical path after her husband John's death in 1967. Taking over his band, she developed a unique sound blending jazz improvisation with the drone-based music of India, creating shimmering, devotional soundscapes unlike anything else in jazz. Albums like 'Journey in Satchidananda' and 'Ptah, the El Daoud' introduced the harp as a jazz instrument and explored new spiritual territory. Alice later became Swamini Turiyasangitananda, founding an ashram and recording devotional music. Before her death in 2007, she returned to jazz performance, and posthumous reissues have brought new appreciation for her visionary work that anticipated ambient and new age music.",
+    "instruments": [
+      "piano",
+      "harp"
+    ],
+    "eras": [
+      "free-jazz"
+    ],
     "influences": [],
-    "influencedBy": ["john-coltrane"],
-    "keyAlbums": ["journey-in-satchidananda"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Alice_Coltrane"
+    "influencedBy": [
+      "john-coltrane"
+    ],
+    "keyAlbums": [
+      "journey-in-satchidananda"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Alice_Coltrane",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Alice_Coltrane_1972.jpg"
   },
   {
     "id": "joe-henderson",
     "name": "Joe Henderson",
     "birthYear": 1937,
     "deathYear": 2001,
-    "bio": "Joe Henderson was a tenor saxophonist known for his distinctive sound and ability to play inside and outside the changes. His Blue Note sessions are among the label's best.",
-    "instruments": ["tenor saxophone"],
-    "eras": ["hard-bop"],
+    "bio": "Joe Henderson was a tenor saxophonist whose smoky, distinctive sound and ability to navigate between inside and outside playing made him one of jazz's most respected musicians. His 1960s Blue Note sessions as a leader and sideman—with Kenny Dorham, Horace Silver, and Andrew Hill—rank among the label's finest work. Henderson's style balanced harmonic sophistication with earthy blues feeling, his solos building with inexorable logic. After years of relative obscurity, his Verve albums in the 1990s brought mainstream recognition, including Grammys for his tributes to Billy Strayhorn and Miles Davis. Henderson's influence pervades contemporary tenor playing, though few can match his combination of intellect and soul.",
+    "instruments": [
+      "tenor saxophone"
+    ],
+    "eras": [
+      "hard-bop"
+    ],
     "influences": [],
-    "influencedBy": ["sonny-rollins", "john-coltrane"],
-    "keyAlbums": ["mode-for-joe", "inner-urge"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Joe_Henderson"
+    "influencedBy": [
+      "sonny-rollins",
+      "john-coltrane"
+    ],
+    "keyAlbums": [
+      "mode-for-joe",
+      "inner-urge"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Joe_Henderson",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Joe_Henderson_2.jpg"
   },
   {
     "id": "bud-powell",
     "name": "Bud Powell",
     "birthYear": 1924,
     "deathYear": 1966,
-    "bio": "Bud Powell was the most influential bebop pianist, translating Charlie Parker's ideas to the keyboard. Despite mental health struggles, his virtuosity was unmatched.",
-    "instruments": ["piano"],
-    "eras": ["bebop"],
-    "influences": ["bill-evans", "herbie-hancock"],
-    "influencedBy": ["art-tatum"],
-    "keyAlbums": ["in-walked-bud"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Bud_Powell"
+    "bio": "Bud Powell was the most influential bebop pianist, translating Charlie Parker's horn-like ideas to the keyboard and establishing modern jazz piano in the process. His right hand played with the speed, precision, and harmonic complexity of the great horn players, while his left provided spare, punctuating chords—a revolutionary approach that replaced stride piano's busy left hand. Powell's genius was marred by mental illness, likely worsened by a police beating in 1945 that caused lasting damage. His recordings from the late 1940s and early 1950s capture a mind operating at superhuman levels, influencing every jazz pianist from Bill Evans to Herbie Hancock to the present day.",
+    "instruments": [
+      "piano"
+    ],
+    "eras": [
+      "bebop"
+    ],
+    "influences": [
+      "bill-evans",
+      "herbie-hancock"
+    ],
+    "influencedBy": [
+      "art-tatum"
+    ],
+    "keyAlbums": [
+      "in-walked-bud"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Bud_Powell",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Bud_Powell_1960.jpg"
   },
   {
     "id": "albert-ayler",
     "name": "Albert Ayler",
     "birthYear": 1936,
     "deathYear": 1970,
-    "bio": "Albert Ayler was a tenor saxophonist whose raw, primal sound pushed free jazz to its limits. His influence extended beyond jazz into punk and noise music.",
-    "instruments": ["tenor saxophone"],
-    "eras": ["free-jazz"],
-    "influences": [],
-    "influencedBy": [],
-    "keyAlbums": ["spiritual-unity", "new-york-eye-and-ear"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Albert_Ayler"
+    "bio": "Albert Ayler was a tenor saxophonist whose raw, primal sound pushed free jazz to its spiritual and sonic limits. His wide vibrato, folk-like melodies, and extreme dynamics were like nothing else in jazz—a sound that could be joyous, terrifying, or transcendent, often simultaneously. Albums like 'Spiritual Unity' and 'Ghosts' stripped music to its emotional essence, influencing not just jazz musicians but punk rockers, noise artists, and anyone seeking music's rawest possibilities. Even John Coltrane, at his most adventurous, called Ayler 'the father.' His mysterious death in New York's East River in 1970 ended a brief career whose impact continues to reverberate through experimental music.",
+    "instruments": [
+      "tenor saxophone"
+    ],
+    "eras": [
+      "free-jazz"
+    ],
+    "influences": [
+      "peter-brotzmann",
+      "david-murray",
+      "charles-gayle"
+    ],
+    "influencedBy": [
+      "john-coltrane",
+      "sidney-bechet"
+    ],
+    "keyAlbums": [
+      "spiritual-unity",
+      "new-york-eye-and-ear"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Albert_Ayler",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Albert_Ayler_%281967%E2%80%9368_photo_portrait_for_ABC_Impulse%21%29.jpg"
   },
   {
     "id": "dave-holland",
     "name": "Dave Holland",
     "birthYear": 1946,
-    "bio": "Dave Holland is a bassist who worked with Miles Davis before becoming an influential bandleader. His ECM albums helped define contemporary jazz bass playing.",
-    "instruments": ["bass"],
-    "eras": ["fusion", "contemporary"],
+    "bio": "Dave Holland is a bassist and composer whose work from Miles Davis's electric bands to his own ensembles has made him one of jazz's most influential figures. Joining Davis at 22, he played on landmark recordings including 'Bitches Brew' before forming Circle with Chick Corea and developing his own voice. His ECM albums established new standards for jazz bass playing and small group composition, while his big band pushed contemporary jazz orchestration forward. Holland's warm acoustic sound and impeccable time make him a first-call sideman, while his compositions demonstrate formal sophistication and rhythmic adventure. A tireless educator and collaborator, he continues to mentor younger musicians and lead innovative groups.",
+    "instruments": [
+      "bass"
+    ],
+    "eras": [
+      "fusion",
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["charles-mingus"],
-    "keyAlbums": ["conference-of-the-birds"],
+    "influencedBy": [
+      "charles-mingus"
+    ],
+    "keyAlbums": [
+      "conference-of-the-birds"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Dave_Holland"
   },
   {
@@ -527,100 +1205,195 @@
     "name": "Donald Byrd",
     "birthYear": 1932,
     "deathYear": 2013,
-    "bio": "Donald Byrd was a trumpeter who moved from hard bop to jazz-funk with great commercial success. His 1970s albums became hip-hop sampling staples.",
-    "instruments": ["trumpet"],
-    "eras": ["hard-bop", "fusion"],
+    "bio": "Donald Byrd was a trumpeter who successfully navigated from hard bop to jazz-funk, achieving commercial success while influencing hip-hop culture. In the 1950s and 60s, he was a respected hard bop player whose Blue Note sessions featured future stars like Herbie Hancock and Wayne Shorter. His 1970s pivot to funk, especially 'Black Byrd' and 'Places and Spaces' produced with the Mizell Brothers, made him one of the most commercially successful jazz artists of the era. These albums became foundational sources for hip-hop sampling in the 1990s, introducing Byrd to new generations. A dedicated educator who earned a law degree and taught at Howard University, Byrd mentored countless young musicians while maintaining his own artistic evolution.",
+    "instruments": [
+      "trumpet"
+    ],
+    "eras": [
+      "hard-bop",
+      "fusion"
+    ],
     "influences": [],
-    "influencedBy": ["clifford-brown"],
-    "keyAlbums": ["money-in-the-pocket", "places-and-spaces"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Donald_Byrd"
+    "influencedBy": [
+      "clifford-brown"
+    ],
+    "keyAlbums": [
+      "money-in-the-pocket",
+      "places-and-spaces"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Donald_Byrd",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Donald_Byrd.jpg"
   },
   {
     "id": "billy-cobham",
     "name": "Billy Cobham",
     "birthYear": 1944,
-    "bio": "Billy Cobham is a drummer whose work with Mahavishnu Orchestra and his solo albums defined jazz-rock drumming. His technique and power influenced rock and metal drummers.",
-    "instruments": ["drums"],
-    "eras": ["fusion"],
-    "influences": [],
-    "influencedBy": [],
-    "keyAlbums": ["spectrum"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Billy_Cobham"
+    "bio": "Billy Cobham is a drummer whose explosive technique with Mahavishnu Orchestra defined the possibilities of jazz-rock drumming. His polyrhythmic approach, blinding speed, and sheer power on albums like 'Birds of Fire' and his solo 'Spectrum' set new standards that influenced not just jazz drummers but rock and metal players worldwide. Born in Panama and raised in New York, Cobham developed his style through work with Horace Silver and Miles Davis before joining John McLaughlin's groundbreaking fusion group. His drum solos became legendary showcases of technique and musicality. While trends have shifted, Cobham's influence on modern drumming—his double bass drum work, electronic experimentation, and uncompromising intensity—remains pervasive.",
+    "instruments": [
+      "drums"
+    ],
+    "eras": [
+      "fusion"
+    ],
+    "influences": [
+      "dennis-chambers",
+      "dave-weckl",
+      "vinnie-colaiuta"
+    ],
+    "influencedBy": [
+      "tony-williams",
+      "elvin-jones"
+    ],
+    "keyAlbums": [
+      "spectrum"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Billy_Cobham",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Billy_Cobham.jpg"
   },
   {
     "id": "john-mclaughlin",
     "name": "John McLaughlin",
     "birthYear": 1942,
-    "bio": "John McLaughlin is a guitarist whose Mahavishnu Orchestra created some of fusion's most intense music. His virtuosity and spiritual approach influenced generations.",
-    "instruments": ["guitar"],
-    "eras": ["fusion"],
-    "influences": [],
-    "influencedBy": ["miles-davis"],
-    "keyAlbums": ["birds-of-fire"],
-    "wikipedia": "https://en.wikipedia.org/wiki/John_McLaughlin_(musician)"
+    "bio": "John McLaughlin is a guitarist whose Mahavishnu Orchestra created some of the most intense, spiritually charged music in jazz history. His lightning-fast technique, complex compositions, and incorporation of Indian classical music established new possibilities for jazz guitar. After contributing to Miles Davis's electric explorations on 'Bitches Brew' and 'In a Silent Way,' McLaughlin formed Mahavishnu in 1971, combining jazz improvisation with rock's power. His acoustic work with Shakti pioneered world music fusion, while his ongoing collaborations continue to push boundaries. A devoted practitioner of Sri Chinmoy's teachings, McLaughlin has always approached music as a spiritual discipline, influencing guitarists from Al Di Meola to progressive metal players.",
+    "instruments": [
+      "guitar"
+    ],
+    "eras": [
+      "fusion"
+    ],
+    "influences": [
+      "pat-metheny",
+      "al-di-meola",
+      "ryo-kawasaki",
+      "allan-holdsworth"
+    ],
+    "influencedBy": [
+      "miles-davis",
+      "john-coltrane",
+      "wes-montgomery"
+    ],
+    "keyAlbums": [
+      "birds-of-fire"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/John_McLaughlin_(musician)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/John_McLaughlin_Blue_Note_2016.JPG"
   },
   {
     "id": "ahmad-jamal",
     "name": "Ahmad Jamal",
     "birthYear": 1930,
     "deathYear": 2023,
-    "bio": "Ahmad Jamal was a pianist whose use of space and dynamics influenced Miles Davis and countless others. His live recordings at the Pershing became jazz classics.",
-    "instruments": ["piano"],
-    "eras": ["cool-jazz"],
-    "influences": ["miles-davis"],
-    "influencedBy": [],
-    "keyAlbums": ["at-the-pershing"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Ahmad_Jamal"
+    "bio": "Ahmad Jamal was a pianist whose revolutionary use of space, dynamics, and arrangement influenced the entire course of modern jazz. His 1958 live recording 'At the Pershing' became one of the best-selling jazz albums ever, its version of 'Poinciana' a jukebox hit. Miles Davis openly credited Jamal's approach—his pauses, his sense of drama, his integration of the trio as a complete unit—as a primary influence. Jamal's belief that 'what you leave out is as important as what you put in' anticipated minimalism and changed how pianists thought about accompaniment. Recording and performing into his 90s until his death in 2023, Jamal remained a singular artist whose influence pervades contemporary jazz piano.",
+    "instruments": [
+      "piano"
+    ],
+    "eras": [
+      "cool-jazz"
+    ],
+    "influences": [
+      "miles-davis",
+      "herbie-hancock",
+      "robert-glasper",
+      "jason-moran"
+    ],
+    "influencedBy": [
+      "erroll-garner",
+      "nat-king-cole"
+    ],
+    "keyAlbums": [
+      "at-the-pershing"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Ahmad_Jamal",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Ahmad_Jamal_KK.jpg"
   },
   {
     "id": "terence-blanchard",
     "name": "Terence Blanchard",
     "birthYear": 1962,
-    "bio": "Terence Blanchard is a trumpeter and composer known for his film scores for Spike Lee and his powerful post-bop albums. He continues the Jazz Messengers tradition.",
-    "instruments": ["trumpet", "composer"],
-    "eras": ["contemporary"],
+    "bio": "Terence Blanchard is a trumpeter and composer who has extended the Jazz Messengers tradition while becoming one of Hollywood's most respected film composers. Taking over Art Blakey's trumpet chair alongside fellow New Orleans native Wynton Marsalis, he developed a warm, singing tone and dramatic sensibility that transferred naturally to cinema. His collaboration with Spike Lee has produced over 20 film scores, while his concert works like 'A Tale of God's Will' documented Hurricane Katrina's devastation. In 2021, his opera 'Fire Shut Up in My Bones' became the first by a Black composer staged at the Metropolitan Opera. Blanchard continues to lead powerful groups, mentor young musicians, and compose music that addresses social justice.",
+    "instruments": [
+      "trumpet",
+      "composer"
+    ],
+    "eras": [
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["art-blakey"],
-    "keyAlbums": ["congo-square"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Terence_Blanchard"
+    "influencedBy": [
+      "art-blakey"
+    ],
+    "keyAlbums": [
+      "congo-square"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Terence_Blanchard",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Terence_Blanchard_performing.jpg"
   },
   {
     "id": "grant-green",
     "name": "Grant Green",
     "birthYear": 1935,
     "deathYear": 1979,
-    "bio": "Grant Green was a guitarist whose single-note lines and soulful approach made him a Blue Note favorite. His later funk recordings became sampling sources.",
-    "instruments": ["guitar"],
-    "eras": ["hard-bop"],
-    "influences": [],
-    "influencedBy": [],
-    "keyAlbums": ["idle-moments"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Grant_Green"
+    "bio": "Grant Green was a guitarist whose single-note lines, earthy blues feeling, and soulful approach made him one of Blue Note's most recorded artists. Unlike many jazz guitarists who explored complex chord voicings, Green focused on horn-like melodies with a warm, slightly distorted tone that was instantly recognizable. His 1960s albums, particularly 'Idle Moments,' are considered classics, while his 1970s funk recordings became essential sources for hip-hop samplers. Green's unpretentious style—direct, bluesy, deeply swinging—has influenced generations of jazz and R&B guitarists. His premature death at 43 from a heart attack cut short a career that was just reaching new audiences through his funk explorations.",
+    "instruments": [
+      "guitar"
+    ],
+    "eras": [
+      "hard-bop"
+    ],
+    "influences": [
+      "mark-whitfield",
+      "russell-malone"
+    ],
+    "influencedBy": [
+      "charlie-christian",
+      "charlie-parker"
+    ],
+    "keyAlbums": [
+      "idle-moments"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Grant_Green",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/81/Grant_Green_guitarist.jpg"
   },
   {
     "id": "yusef-lateef",
     "name": "Yusef Lateef",
     "birthYear": 1920,
     "deathYear": 2013,
-    "bio": "Yusef Lateef was a multi-instrumentalist who pioneered the use of world music in jazz. His incorporation of Eastern instruments and scales opened new possibilities.",
-    "instruments": ["tenor saxophone", "flute", "oboe"],
-    "eras": ["hard-bop"],
+    "bio": "Yusef Lateef was a multi-instrumentalist and philosopher who pioneered the incorporation of world music into jazz decades before 'world music' became a category. His use of instruments like the oboe, bamboo flute, and shanai, along with his exploration of Middle Eastern and Asian scales, opened new sonic possibilities for jazz. Albums like 'Eastern Sounds' introduced listeners to musical traditions beyond the Western canon while maintaining jazz's improvisational core. After converting to Islam in 1950, Lateef approached music as spiritual practice, earning a doctorate and writing extensively on music education. His influence on the world music movement and jazz's global consciousness makes him one of the music's most far-sighted figures.",
+    "instruments": [
+      "tenor saxophone",
+      "flute",
+      "oboe"
+    ],
+    "eras": [
+      "hard-bop"
+    ],
     "influences": [],
     "influencedBy": [],
-    "keyAlbums": ["eastern-sounds"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Yusef_Lateef"
+    "keyAlbums": [
+      "eastern-sounds"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Yusef_Lateef",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Yusef_Lateef.jpg"
   },
   {
     "id": "roy-ayers",
     "name": "Roy Ayers",
     "birthYear": 1940,
-    "bio": "Roy Ayers is a vibraphonist whose jazz-funk group Ubiquity created some of the most sampled music in hip-hop. 'Everybody Loves the Sunshine' became a classic.",
-    "instruments": ["vibraphone"],
-    "eras": ["fusion"],
+    "bio": "Roy Ayers is a vibraphonist whose jazz-funk innovations with Ubiquity made him one of the most sampled artists in hip-hop history. Starting as a hard bop vibraphonist influenced by Milt Jackson, Ayers pivoted to funk in the 1970s, creating a sound that merged jazz sophistication with danceable grooves. Songs like 'Everybody Loves the Sunshine' and 'Running Away' became hip-hop building blocks, sampled by artists from A Tribe Called Quest to Mary J. Blige. Ayers' warm vibes tone, smooth vocals, and positive energy created a template for contemporary jazz-influenced R&B. Now in his 80s, he continues performing and has seen his influence acknowledged by generations of musicians who grew up on his sampled legacy.",
+    "instruments": [
+      "vibraphone"
+    ],
+    "eras": [
+      "fusion"
+    ],
     "influences": [],
     "influencedBy": [],
-    "keyAlbums": ["taking-some-time"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Roy_Ayers"
+    "keyAlbums": [
+      "taking-some-time"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Roy_Ayers",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Roy_ayers_1976.jpg"
   },
   {
     "id": "sun-ra",
@@ -628,12 +1401,30 @@
     "birthYear": 1914,
     "deathYear": 1993,
     "bio": "Sun Ra claimed to be from Saturn and led his Arkestra for over 40 years, pioneering Afrofuturism and space jazz. His cosmic philosophy and experimental music challenged every convention. From swing to electronic music to free jazz, Sun Ra explored it all while wearing Egyptian regalia and preaching interplanetary consciousness.",
-    "instruments": ["piano", "synthesizer", "organ"],
-    "eras": ["swing", "free-jazz", "fusion"],
-    "influences": ["cecil-taylor", "ornette-coleman"],
-    "influencedBy": ["duke-ellington", "fletcher-henderson"],
-    "keyAlbums": ["space-is-the-place", "lanquidity"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Sun_Ra"
+    "instruments": [
+      "piano",
+      "synthesizer",
+      "organ"
+    ],
+    "eras": [
+      "swing",
+      "free-jazz",
+      "fusion"
+    ],
+    "influences": [
+      "cecil-taylor",
+      "ornette-coleman"
+    ],
+    "influencedBy": [
+      "duke-ellington",
+      "fletcher-henderson"
+    ],
+    "keyAlbums": [
+      "space-is-the-place",
+      "lanquidity"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Sun_Ra",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Sun_Ra_%281973_publicity_photo_-_Impulse_ABC_Dunhill%29.jpg"
   },
   {
     "id": "pharoah-sanders",
@@ -641,12 +1432,27 @@
     "birthYear": 1940,
     "deathYear": 2022,
     "bio": "Pharoah Sanders was the leading voice of spiritual jazz after John Coltrane's death. His saxophone sound could be ecstatic or tender, always reaching for transcendence. From 'The Creator Has a Master Plan' to his late-career renaissance with Floating Points, Sanders sought the divine through music.",
-    "instruments": ["tenor saxophone", "soprano saxophone"],
-    "eras": ["free-jazz", "contemporary"],
-    "influences": ["kamasi-washington"],
-    "influencedBy": ["john-coltrane"],
-    "keyAlbums": ["karma", "jewels-of-thought", "journey-in-satchidananda"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Pharoah_Sanders"
+    "instruments": [
+      "tenor saxophone",
+      "soprano saxophone"
+    ],
+    "eras": [
+      "free-jazz",
+      "contemporary"
+    ],
+    "influences": [
+      "kamasi-washington"
+    ],
+    "influencedBy": [
+      "john-coltrane"
+    ],
+    "keyAlbums": [
+      "karma",
+      "jewels-of-thought",
+      "journey-in-satchidananda"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Pharoah_Sanders",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Pharoah_Sanders_photo.jpg"
   },
   {
     "id": "bobby-hutcherson",
@@ -654,12 +1460,27 @@
     "birthYear": 1941,
     "deathYear": 2016,
     "bio": "Bobby Hutcherson liberated the vibraphone from its cool jazz associations, bringing it into the avant-garde while maintaining its lyrical beauty. His work with Eric Dolphy, Andrew Hill, and Jackie McLean defined the adventurous side of 1960s Blue Note.",
-    "instruments": ["vibraphone", "marimba"],
-    "eras": ["hard-bop", "free-jazz"],
-    "influences": [],
-    "influencedBy": ["milt-jackson"],
-    "keyAlbums": ["total-eclipse"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Bobby_Hutcherson"
+    "instruments": [
+      "vibraphone",
+      "marimba"
+    ],
+    "eras": [
+      "hard-bop",
+      "free-jazz"
+    ],
+    "influences": [
+      "stefon-harris",
+      "joel-ross"
+    ],
+    "influencedBy": [
+      "milt-jackson",
+      "thelonious-monk"
+    ],
+    "keyAlbums": [
+      "total-eclipse"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Bobby_Hutcherson",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Bh_070701.jpg"
   },
   {
     "id": "jackie-mclean",
@@ -667,23 +1488,49 @@
     "birthYear": 1931,
     "deathYear": 2006,
     "bio": "Jackie McLean's alto saxophone had a distinctive cry that became more adventurous over time. A bebop disciple who embraced the avant-garde, he proved that emotional directness and formal innovation were compatible.",
-    "instruments": ["alto saxophone"],
-    "eras": ["bebop", "hard-bop", "free-jazz"],
-    "influences": [],
-    "influencedBy": ["charlie-parker"],
-    "keyAlbums": ["destination-out", "one-step-beyond"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Jackie_McLean"
+    "instruments": [
+      "alto saxophone"
+    ],
+    "eras": [
+      "bebop",
+      "hard-bop",
+      "free-jazz"
+    ],
+    "influences": [
+      "gary-bartz",
+      "greg-osby",
+      "abraham-burton"
+    ],
+    "influencedBy": [
+      "charlie-parker",
+      "bud-powell"
+    ],
+    "keyAlbums": [
+      "destination-out",
+      "one-step-beyond"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Jackie_McLean",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Jackie_McLean.jpg"
   },
   {
     "id": "grachan-moncur",
     "name": "Grachan Moncur III",
     "birthYear": 1937,
     "bio": "Grachan Moncur III brought a new vocabulary to the trombone, sliding between the inside and outside with unique authority. His compositions for Blue Note were among the label's most adventurous, and his playing influenced a generation of avant-garde trombonists.",
-    "instruments": ["trombone"],
-    "eras": ["free-jazz"],
+    "instruments": [
+      "trombone"
+    ],
+    "eras": [
+      "free-jazz"
+    ],
     "influences": [],
-    "influencedBy": ["j-j-johnson"],
-    "keyAlbums": ["evolution", "some-other-stuff"],
+    "influencedBy": [
+      "j-j-johnson"
+    ],
+    "keyAlbums": [
+      "evolution",
+      "some-other-stuff"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Grachan_Moncur_III"
   },
   {
@@ -692,11 +1539,25 @@
     "birthYear": 1923,
     "deathYear": 2011,
     "bio": "Sam Rivers was a multi-instrumentalist and composer whose loft Studio Rivbea became the headquarters of 1970s avant-garde jazz. His playing moved fluidly between structure and freedom, always grounded in blues and swing.",
-    "instruments": ["tenor saxophone", "soprano saxophone", "flute", "piano"],
-    "eras": ["free-jazz", "contemporary"],
+    "instruments": [
+      "tenor saxophone",
+      "soprano saxophone",
+      "flute",
+      "piano"
+    ],
+    "eras": [
+      "free-jazz",
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["john-coltrane"],
-    "keyAlbums": ["fuchsia-swing-song", "contours", "conference-of-the-birds"],
+    "influencedBy": [
+      "john-coltrane"
+    ],
+    "keyAlbums": [
+      "fuchsia-swing-song",
+      "contours",
+      "conference-of-the-birds"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Sam_Rivers"
   },
   {
@@ -705,24 +1566,58 @@
     "birthYear": 1936,
     "deathYear": 1995,
     "bio": "Don Cherry's pocket trumpet was the voice of freedom from Ornette Coleman's quartet to his own world music explorations. He became a global citizen of music, incorporating traditions from around the world into a personal, joyful vision.",
-    "instruments": ["pocket trumpet", "piano", "percussion"],
-    "eras": ["free-jazz", "contemporary"],
-    "influences": [],
-    "influencedBy": ["ornette-coleman"],
-    "keyAlbums": ["complete-communion", "codona"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Don_Cherry_(musician)"
+    "instruments": [
+      "pocket trumpet",
+      "piano",
+      "percussion"
+    ],
+    "eras": [
+      "free-jazz",
+      "contemporary"
+    ],
+    "influences": [
+      "nils-petter-molvaer",
+      "arve-henriksen",
+      "ibrahim-maalouf"
+    ],
+    "influencedBy": [
+      "ornette-coleman",
+      "miles-davis"
+    ],
+    "keyAlbums": [
+      "complete-communion",
+      "codona"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Don_Cherry_(musician)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/DonCherry.jpg"
   },
   {
     "id": "archie-shepp",
     "name": "Archie Shepp",
     "birthYear": 1937,
     "bio": "Archie Shepp brought Black nationalist politics directly into avant-garde jazz. His saxophone could be raw and violent or tender and bluesy, always with a sense of historical consciousness. He linked the fire music of the 1960s to jazz tradition and R&B roots.",
-    "instruments": ["tenor saxophone", "soprano saxophone"],
-    "eras": ["free-jazz"],
-    "influences": [],
-    "influencedBy": ["john-coltrane", "ben-webster"],
-    "keyAlbums": ["fire-music", "mama-too-tight", "the-magic-of-juju"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Archie_Shepp"
+    "instruments": [
+      "tenor saxophone",
+      "soprano saxophone"
+    ],
+    "eras": [
+      "free-jazz"
+    ],
+    "influences": [
+      "david-s-ware",
+      "charles-gayle"
+    ],
+    "influencedBy": [
+      "john-coltrane",
+      "ben-webster"
+    ],
+    "keyAlbums": [
+      "fire-music",
+      "mama-too-tight",
+      "the-magic-of-juju"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Archie_Shepp",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Archie_shepp_Warszawa_1.jpg"
   },
   {
     "id": "peter-brotzmann",
@@ -730,24 +1625,51 @@
     "birthYear": 1941,
     "deathYear": 2023,
     "bio": "Peter Brötzmann was the godfather of European free improvisation. His 'Machine Gun' album remains the most intense free jazz recording ever made. For over 50 years, his uncompromising saxophone defined the extreme edge of improvised music.",
-    "instruments": ["tenor saxophone", "alto saxophone", "clarinet"],
-    "eras": ["free-jazz"],
+    "instruments": [
+      "tenor saxophone",
+      "alto saxophone",
+      "clarinet"
+    ],
+    "eras": [
+      "free-jazz"
+    ],
     "influences": [],
-    "influencedBy": ["albert-ayler"],
-    "keyAlbums": ["machine-gun"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Peter_Brötzmann"
+    "influencedBy": [
+      "albert-ayler"
+    ],
+    "keyAlbums": [
+      "machine-gun"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Peter_Brötzmann",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Peter_Broetzmann_05N2754.jpg"
   },
   {
     "id": "art-ensemble",
     "name": "Art Ensemble of Chicago",
     "birthYear": 1967,
     "bio": "The Art Ensemble of Chicago was the flagship group of the AACM, blending free improvisation with theater, African traditions, and jazz history. Their motto—'Great Black Music: Ancient to the Future'—captured their comprehensive vision. Lester Bowie, Roscoe Mitchell, Joseph Jarman, Malachi Favors, and Don Moye created a unique collective sound.",
-    "instruments": ["trumpet", "saxophone", "bass", "drums", "percussion"],
-    "eras": ["free-jazz", "contemporary"],
+    "instruments": [
+      "trumpet",
+      "saxophone",
+      "bass",
+      "drums",
+      "percussion"
+    ],
+    "eras": [
+      "free-jazz",
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["sun-ra", "ornette-coleman"],
-    "keyAlbums": ["nice-guys", "les-stances-a-sophie"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Art_Ensemble_of_Chicago"
+    "influencedBy": [
+      "sun-ra",
+      "ornette-coleman"
+    ],
+    "keyAlbums": [
+      "nice-guys",
+      "les-stances-a-sophie"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Art_Ensemble_of_Chicago",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Art_Ensemble_of_Chicago_%281978%29.jpg"
   },
   {
     "id": "dexter-gordon",
@@ -755,24 +1677,49 @@
     "birthYear": 1923,
     "deathYear": 1990,
     "bio": "Dexter Gordon's massive tenor sound and behind-the-beat phrasing influenced generations of saxophonists. After pioneering bebop tenor in the 1940s, he spent years in European exile before a triumphant comeback. His acting role in 'Round Midnight' earned an Oscar nomination.",
-    "instruments": ["tenor saxophone"],
-    "eras": ["bebop", "hard-bop"],
-    "influences": ["joe-henderson", "michael-brecker"],
-    "influencedBy": ["lester-young", "charlie-parker"],
-    "keyAlbums": ["our-man-in-paris", "go"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Dexter_Gordon"
+    "instruments": [
+      "tenor saxophone"
+    ],
+    "eras": [
+      "bebop",
+      "hard-bop"
+    ],
+    "influences": [
+      "joe-henderson",
+      "michael-brecker"
+    ],
+    "influencedBy": [
+      "lester-young",
+      "charlie-parker"
+    ],
+    "keyAlbums": [
+      "our-man-in-paris",
+      "go"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Dexter_Gordon",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Dexter_Gordon1.jpg"
   },
   {
     "id": "billy-harper",
     "name": "Billy Harper",
     "birthYear": 1943,
     "bio": "Billy Harper's volcanic tenor saxophone carried the spiritual jazz tradition into the 1970s and beyond. A Lee Morgan sideman who went on to lead his own powerful groups, his compositions combine Coltrane's intensity with melodic accessibility.",
-    "instruments": ["tenor saxophone"],
-    "eras": ["fusion", "contemporary"],
+    "instruments": [
+      "tenor saxophone"
+    ],
+    "eras": [
+      "fusion",
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["john-coltrane"],
-    "keyAlbums": ["capra-black"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Billy_Harper"
+    "influencedBy": [
+      "john-coltrane"
+    ],
+    "keyAlbums": [
+      "capra-black"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Billy_Harper",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Billy_Harper_photo_2.jpg"
   },
   {
     "id": "sonny-sharrock",
@@ -780,12 +1727,22 @@
     "birthYear": 1940,
     "deathYear": 1994,
     "bio": "Sonny Sharrock invented free jazz guitar, using distortion and feedback decades before noise rock. His violent, expressive playing influenced punk, metal, and experimental music. With his wife Linda, he created some of the most intense duet music ever recorded.",
-    "instruments": ["guitar"],
-    "eras": ["free-jazz", "fusion"],
+    "instruments": [
+      "guitar"
+    ],
+    "eras": [
+      "free-jazz",
+      "fusion"
+    ],
     "influences": [],
-    "influencedBy": ["john-coltrane"],
-    "keyAlbums": ["black-woman"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Sonny_Sharrock"
+    "influencedBy": [
+      "john-coltrane"
+    ],
+    "keyAlbums": [
+      "black-woman"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Sonny_Sharrock",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/2b/Sonny_Sharrock.jpg"
   },
   {
     "id": "jaco-pastorius",
@@ -793,12 +1750,29 @@
     "birthYear": 1951,
     "deathYear": 1987,
     "bio": "Jaco Pastorius revolutionized the electric bass, transforming it from a supporting instrument into a lead voice. His fretless technique, use of harmonics, and melodic brilliance with Weather Report and as a solo artist changed music forever. His tragic early death robbed jazz of a unique genius.",
-    "instruments": ["bass"],
-    "eras": ["fusion"],
-    "influences": [],
-    "influencedBy": [],
-    "keyAlbums": ["jaco-pastorius", "word-of-mouth", "heavy-weather"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Jaco_Pastorius"
+    "instruments": [
+      "bass"
+    ],
+    "eras": [
+      "fusion"
+    ],
+    "influences": [
+      "esperanza-spalding",
+      "marcus-miller",
+      "victor-wooten",
+      "john-patitucci"
+    ],
+    "influencedBy": [
+      "james-jamerson",
+      "jerry-jemmott"
+    ],
+    "keyAlbums": [
+      "jaco-pastorius",
+      "word-of-mouth",
+      "heavy-weather"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Jaco_Pastorius",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Jaco_Pastorius_with_bass_1980.jpg"
   },
   {
     "id": "mary-lou-williams",
@@ -806,12 +1780,29 @@
     "birthYear": 1910,
     "deathYear": 1981,
     "bio": "Mary Lou Williams was a composer, arranger, and pianist who evolved through every era of jazz from swing to avant-garde. She arranged for Duke Ellington and Benny Goodman, mentored Thelonious Monk, and composed jazz masses after her conversion to Catholicism. Her longevity and adaptability were unmatched.",
-    "instruments": ["piano"],
-    "eras": ["swing", "bebop", "hard-bop"],
-    "influences": [],
-    "influencedBy": [],
-    "keyAlbums": ["zodiac-suite", "black-christ-of-the-andes"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Mary_Lou_Williams"
+    "instruments": [
+      "piano"
+    ],
+    "eras": [
+      "swing",
+      "bebop",
+      "hard-bop"
+    ],
+    "influences": [
+      "thelonious-monk",
+      "bud-powell",
+      "geri-allen"
+    ],
+    "influencedBy": [
+      "lovie-austin",
+      "fats-waller"
+    ],
+    "keyAlbums": [
+      "zodiac-suite",
+      "black-christ-of-the-andes"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Mary_Lou_Williams",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Mary_Lou_Williams_%28Gottlieb_09231%29_-_Crop.jpg"
   },
   {
     "id": "abbey-lincoln",
@@ -819,12 +1810,23 @@
     "birthYear": 1930,
     "deathYear": 2010,
     "bio": "Abbey Lincoln transformed from a glamorous supper club singer into one of jazz's most politically engaged and artistically uncompromising vocalists. Her work with Max Roach on 'We Insist!' made her a civil rights icon. Her late-career albums showed an artist of profound depth and wisdom.",
-    "instruments": ["vocals"],
-    "eras": ["hard-bop", "contemporary"],
+    "instruments": [
+      "vocals"
+    ],
+    "eras": [
+      "hard-bop",
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["billie-holiday"],
-    "keyAlbums": ["abbey-is-blue", "straight-ahead"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Abbey_Lincoln"
+    "influencedBy": [
+      "billie-holiday"
+    ],
+    "keyAlbums": [
+      "abbey-is-blue",
+      "straight-ahead"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Abbey_Lincoln",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Abbey_Lincoln_in_1966.jpg"
   },
   {
     "id": "carla-bley",
@@ -832,12 +1834,26 @@
     "birthYear": 1936,
     "deathYear": 2023,
     "bio": "Carla Bley was a composer, bandleader, and pianist whose work ranged from the sprawling jazz opera 'Escalator over the Hill' to witty big band charts. Self-taught and iconoclastic, she helped found the Jazz Composer's Orchestra and influenced countless musicians with her sardonic, sophisticated music.",
-    "instruments": ["piano", "organ"],
-    "eras": ["free-jazz", "fusion", "contemporary"],
+    "instruments": [
+      "piano",
+      "organ"
+    ],
+    "eras": [
+      "free-jazz",
+      "fusion",
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["thelonious-monk"],
-    "keyAlbums": ["escalator-over-the-hill", "dinner-music", "social-studies"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Carla_Bley"
+    "influencedBy": [
+      "thelonious-monk"
+    ],
+    "keyAlbums": [
+      "escalator-over-the-hill",
+      "dinner-music",
+      "social-studies"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Carla_Bley",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Carla_Bley_2009.JPG"
   },
   {
     "id": "betty-carter",
@@ -845,11 +1861,21 @@
     "birthYear": 1929,
     "deathYear": 1998,
     "bio": "Betty Carter's vocal improvisation approached instrumental virtuosity. Her rhythmic daring, extended improvisations, and uncompromising artistry made her a musician's musician. She ran her own label for years and mentored countless young players through her working bands.",
-    "instruments": ["vocals"],
-    "eras": ["bebop", "contemporary"],
+    "instruments": [
+      "vocals"
+    ],
+    "eras": [
+      "bebop",
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["charlie-parker"],
-    "keyAlbums": ["betty-carter-album", "look-what-i-got"],
+    "influencedBy": [
+      "charlie-parker"
+    ],
+    "keyAlbums": [
+      "betty-carter-album",
+      "look-what-i-got"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Betty_Carter"
   },
   {
@@ -858,12 +1884,23 @@
     "birthYear": 1932,
     "deathYear": 1986,
     "bio": "Dorothy Ashby proved the harp could swing, pioneering jazz harp in the 1950s and 1960s. Her soul jazz and Afrocentric recordings were ahead of their time and have been rediscovered by crate-digging producers sampling her grooves.",
-    "instruments": ["harp"],
-    "eras": ["hard-bop", "fusion"],
-    "influences": ["alice-coltrane"],
+    "instruments": [
+      "harp"
+    ],
+    "eras": [
+      "hard-bop",
+      "fusion"
+    ],
+    "influences": [
+      "alice-coltrane"
+    ],
     "influencedBy": [],
-    "keyAlbums": ["in-a-mellow-tone", "afro-harping"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Dorothy_Ashby"
+    "keyAlbums": [
+      "in-a-mellow-tone",
+      "afro-harping"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Dorothy_Ashby",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b8/Dorothy_Ashby_%2B_Autograph.jpg"
   },
   {
     "id": "geri-allen",
@@ -871,12 +1908,23 @@
     "birthYear": 1957,
     "deathYear": 2017,
     "bio": "Geri Allen was the leading jazz pianist of her generation, synthesizing Cecil Taylor's energy with Herbie Hancock's sophistication. Her work with Ornette Coleman, Betty Carter, and her own groups showed a complete artist. Her premature death was a profound loss.",
-    "instruments": ["piano"],
-    "eras": ["contemporary"],
+    "instruments": [
+      "piano"
+    ],
+    "eras": [
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["cecil-taylor", "herbie-hancock"],
-    "keyAlbums": ["geri-allen-trio", "twylight"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Geri_Allen"
+    "influencedBy": [
+      "cecil-taylor",
+      "herbie-hancock"
+    ],
+    "keyAlbums": [
+      "geri-allen-trio",
+      "twylight"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Geri_Allen",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Geri-allen-by-pablo-secca.jpg"
   },
   {
     "id": "nina-simone",
@@ -884,12 +1932,24 @@
     "birthYear": 1933,
     "deathYear": 2003,
     "bio": "Nina Simone was classically trained pianist who became the High Priestess of Soul. Her music defied categorization—jazz, blues, folk, classical, and protest song all fused in her powerful voice and piano. Civil rights anthems like 'Mississippi Goddam' made her a political icon.",
-    "instruments": ["piano", "vocals"],
-    "eras": ["hard-bop", "contemporary"],
+    "instruments": [
+      "piano",
+      "vocals"
+    ],
+    "eras": [
+      "hard-bop",
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["billie-holiday"],
-    "keyAlbums": ["nina-at-town-hall", "pastel-blues"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Nina_Simone"
+    "influencedBy": [
+      "billie-holiday"
+    ],
+    "keyAlbums": [
+      "nina-at-town-hall",
+      "pastel-blues"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Nina_Simone",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Nina_Simone_-1969.jpg"
   },
   {
     "id": "shirley-scott",
@@ -897,12 +1957,23 @@
     "birthYear": 1934,
     "deathYear": 2002,
     "bio": "Shirley Scott was the Queen of the Organ, bringing sophistication to soul jazz. Her partnership with Stanley Turrentine produced classic Blue Note sessions, and her swing and blues feeling never wavered. She proved the Hammond B-3 could be an instrument of subtlety as well as power.",
-    "instruments": ["organ", "piano"],
-    "eras": ["hard-bop"],
+    "instruments": [
+      "organ",
+      "piano"
+    ],
+    "eras": [
+      "hard-bop"
+    ],
     "influences": [],
-    "influencedBy": ["jimmy-smith"],
-    "keyAlbums": ["shirley-scott-trio", "blue-flames"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Shirley_Scott"
+    "influencedBy": [
+      "jimmy-smith"
+    ],
+    "keyAlbums": [
+      "shirley-scott-trio",
+      "blue-flames"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Shirley_Scott",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/ac/Shirley_Scott.jpg"
   },
   {
     "id": "sarah-vaughan",
@@ -910,24 +1981,48 @@
     "birthYear": 1924,
     "deathYear": 1990,
     "bio": "Sarah Vaughan possessed perhaps the most magnificent voice in jazz history. Her operatic range, perfect pitch, and harmonic sophistication allowed her to improvise like an instrumentalist. Known as 'The Divine One' and 'Sassy,' she set the standard for jazz singing.",
-    "instruments": ["vocals", "piano"],
-    "eras": ["bebop", "hard-bop"],
+    "instruments": [
+      "vocals",
+      "piano"
+    ],
+    "eras": [
+      "bebop",
+      "hard-bop"
+    ],
     "influences": [],
-    "influencedBy": ["billie-holiday", "ella-fitzgerald"],
-    "keyAlbums": ["sarah-vaughan-clifford-brown", "sassy-swings-the-tivoli"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Sarah_Vaughan"
+    "influencedBy": [
+      "billie-holiday",
+      "ella-fitzgerald"
+    ],
+    "keyAlbums": [
+      "sarah-vaughan-clifford-brown",
+      "sassy-swings-the-tivoli"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Sarah_Vaughan",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Sarah_Vaughan_-_William_P._Gottlieb_-_No._1.jpg"
   },
   {
     "id": "cassandra-wilson",
     "name": "Cassandra Wilson",
     "birthYear": 1955,
     "bio": "Cassandra Wilson revitalized jazz vocals for a new generation, blending jazz with blues, roots music, and folk in innovative arrangements. Her smoky, dark voice and eclectic taste brought her Grammy Awards and critical acclaim.",
-    "instruments": ["vocals"],
-    "eras": ["contemporary"],
+    "instruments": [
+      "vocals"
+    ],
+    "eras": [
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["betty-carter", "abbey-lincoln"],
-    "keyAlbums": ["blue-light-til-dawn", "new-moon-daughter"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Cassandra_Wilson"
+    "influencedBy": [
+      "betty-carter",
+      "abbey-lincoln"
+    ],
+    "keyAlbums": [
+      "blue-light-til-dawn",
+      "new-moon-daughter"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Cassandra_Wilson",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Cassandra_Wilson.jpg"
   },
   {
     "id": "shirley-horn",
@@ -935,24 +2030,45 @@
     "birthYear": 1934,
     "deathYear": 2005,
     "bio": "Shirley Horn's intimate, unhurried approach to singing and self-accompaniment set her apart. Miles Davis was an early champion, and late-career recognition on Verve brought her a wider audience. Her silences were as eloquent as her notes.",
-    "instruments": ["vocals", "piano"],
-    "eras": ["hard-bop", "contemporary"],
+    "instruments": [
+      "vocals",
+      "piano"
+    ],
+    "eras": [
+      "hard-bop",
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["nat-king-cole"],
-    "keyAlbums": ["here-today-tomorrow", "close-enough"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Shirley_Horn"
+    "influencedBy": [
+      "nat-king-cole"
+    ],
+    "keyAlbums": [
+      "here-today-tomorrow",
+      "close-enough"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Shirley_Horn",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4d/Shirley_Horn_ppmsca.08325.jpg"
   },
   {
     "id": "terri-lyne-carrington",
     "name": "Terri Lyne Carrington",
     "birthYear": 1965,
     "bio": "Terri Lyne Carrington is a drummer, composer, and producer who has worked with jazz greats while developing her own projects celebrating women in jazz. A child prodigy endorsed by Berklee at 11, she became one of the most respected drummers of her generation.",
-    "instruments": ["drums"],
-    "eras": ["contemporary"],
+    "instruments": [
+      "drums"
+    ],
+    "eras": [
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["tony-williams"],
-    "keyAlbums": ["terri-lyne-carrington"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Terri_Lyne_Carrington"
+    "influencedBy": [
+      "tony-williams"
+    ],
+    "keyAlbums": [
+      "terri-lyne-carrington"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Terri_Lyne_Carrington",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Terrylynecarrington.jpg"
   },
   {
     "id": "carmen-mcrae",
@@ -960,12 +2076,24 @@
     "birthYear": 1920,
     "deathYear": 1994,
     "bio": "Carmen McRae brought impeccable diction, sophisticated phrasing, and a sardonic wit to jazz vocals. A Billie Holiday disciple who developed her own distinctive style, she was also a fine pianist. Her between-song commentary became legendary.",
-    "instruments": ["vocals", "piano"],
-    "eras": ["hard-bop", "contemporary"],
+    "instruments": [
+      "vocals",
+      "piano"
+    ],
+    "eras": [
+      "hard-bop",
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["billie-holiday"],
-    "keyAlbums": ["modern-sounds", "great-american-songbook"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Carmen_McRae"
+    "influencedBy": [
+      "billie-holiday"
+    ],
+    "keyAlbums": [
+      "modern-sounds",
+      "great-american-songbook"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Carmen_McRae",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Carmen_McRae_1960_press_photo.jpg"
   },
   {
     "id": "django-reinhardt",
@@ -973,24 +2101,50 @@
     "birthYear": 1910,
     "deathYear": 1953,
     "bio": "Django Reinhardt invented European jazz. Despite having only two functioning fingers on his fretting hand after a caravan fire, the Romani guitarist developed a virtuosic technique that remains unmatched. His partnership with violinist Stéphane Grappelli created gypsy jazz.",
-    "instruments": ["guitar"],
-    "eras": ["swing"],
-    "influences": [],
-    "influencedBy": [],
-    "keyAlbums": ["django"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Django_Reinhardt"
+    "instruments": [
+      "guitar"
+    ],
+    "eras": [
+      "swing"
+    ],
+    "influences": [
+      "joe-pass",
+      "bireli-lagrene",
+      "jim-hall"
+    ],
+    "influencedBy": [
+      "eddie-lang",
+      "louis-armstrong"
+    ],
+    "keyAlbums": [
+      "django"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Django_Reinhardt",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Django_Reinhardt_%28Gottlieb_07301%29.jpg"
   },
   {
     "id": "jan-garbarek",
     "name": "Jan Garbarek",
     "birthYear": 1947,
     "bio": "Jan Garbarek's crystalline saxophone tone defines the ECM aesthetic. The Norwegian saxophonist evokes Nordic landscapes with his spacious, haunting sound. From free jazz to Gregorian chant, his explorations have made him ECM's signature artist.",
-    "instruments": ["tenor saxophone", "soprano saxophone"],
-    "eras": ["contemporary"],
+    "instruments": [
+      "tenor saxophone",
+      "soprano saxophone"
+    ],
+    "eras": [
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["john-coltrane"],
-    "keyAlbums": ["saxophone-supremacy", "officium", "witchi-tai-to"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Jan_Garbarek"
+    "influencedBy": [
+      "john-coltrane"
+    ],
+    "keyAlbums": [
+      "saxophone-supremacy",
+      "officium",
+      "witchi-tai-to"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Jan_Garbarek",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Jan_Garbarek_Operaen_Oslo_Jazzfestival_%28185843%29.jpg"
   },
   {
     "id": "masabumi-kikuchi",
@@ -998,23 +2152,45 @@
     "birthYear": 1939,
     "deathYear": 2015,
     "bio": "Masabumi Kikuchi was Japan's most influential jazz pianist, moving from straight-ahead to avant-garde to fusion over a career spanning 50 years. His work with Miles Davis sidemen and his own groups established Japanese jazz on the world stage.",
-    "instruments": ["piano"],
-    "eras": ["fusion", "contemporary"],
+    "instruments": [
+      "piano"
+    ],
+    "eras": [
+      "fusion",
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["miles-davis", "thelonious-monk"],
-    "keyAlbums": ["yatra-ta"],
-    "wikipedia": "https://en.wikipedia.org/wiki/Masabumi_Kikuchi"
+    "influencedBy": [
+      "miles-davis",
+      "thelonious-monk"
+    ],
+    "keyAlbums": [
+      "yatra-ta"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Masabumi_Kikuchi",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8d/AE-Masabumi-Kikuchi.jpg"
   },
   {
     "id": "sadao-watanabe",
     "name": "Sadao Watanabe",
     "birthYear": 1933,
     "bio": "Sadao Watanabe is Japan's most commercially successful jazz artist, known for his smooth alto saxophone and crossover appeal. His explorations of Brazilian and African music expanded jazz's global reach.",
-    "instruments": ["alto saxophone", "soprano saxophone", "flute"],
-    "eras": ["hard-bop", "fusion"],
+    "instruments": [
+      "alto saxophone",
+      "soprano saxophone",
+      "flute"
+    ],
+    "eras": [
+      "hard-bop",
+      "fusion"
+    ],
     "influences": [],
-    "influencedBy": ["charlie-parker"],
-    "keyAlbums": ["sadao-watanabe-mbali"],
+    "influencedBy": [
+      "charlie-parker"
+    ],
+    "keyAlbums": [
+      "sadao-watanabe-mbali"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Sadao_Watanabe"
   },
   {
@@ -1022,11 +2198,22 @@
     "name": "Terumasa Hino",
     "birthYear": 1942,
     "bio": "Terumasa Hino is Japan's most internationally recognized jazz trumpeter. Influenced by Miles Davis and Freddie Hubbard, he developed his own powerful style that bridges hard bop, fusion, and spiritual jazz.",
-    "instruments": ["trumpet", "flugelhorn"],
-    "eras": ["fusion", "contemporary"],
+    "instruments": [
+      "trumpet",
+      "flugelhorn"
+    ],
+    "eras": [
+      "fusion",
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["miles-davis", "freddie-hubbard"],
-    "keyAlbums": ["spiritual-nature"],
+    "influencedBy": [
+      "miles-davis",
+      "freddie-hubbard"
+    ],
+    "keyAlbums": [
+      "spiritual-nature"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Terumasa_Hino"
   },
   {
@@ -1035,11 +2222,19 @@
     "birthYear": 1936,
     "deathYear": 1990,
     "bio": "Chris McGregor was a white South African pianist who led the multi-racial Blue Notes, forced into exile by apartheid. His Brotherhood of Breath big band in London fused South African township jazz with European free improvisation, creating a unique sound.",
-    "instruments": ["piano"],
-    "eras": ["free-jazz"],
+    "instruments": [
+      "piano"
+    ],
+    "eras": [
+      "free-jazz"
+    ],
     "influences": [],
-    "influencedBy": ["duke-ellington"],
-    "keyAlbums": ["jazz-in-africa"],
+    "influencedBy": [
+      "duke-ellington"
+    ],
+    "keyAlbums": [
+      "jazz-in-africa"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Chris_McGregor"
   },
   {
@@ -1047,11 +2242,22 @@
     "name": "The Blue Notes",
     "birthYear": 1960,
     "bio": "The Blue Notes were a multi-racial South African group whose existence defied apartheid. Forced into exile, members including Chris McGregor, Dudu Pukwana, and Mongezi Feza influenced the London jazz scene and spread South African jazz worldwide.",
-    "instruments": ["saxophone", "trumpet", "piano", "bass", "drums"],
-    "eras": ["hard-bop", "free-jazz"],
+    "instruments": [
+      "saxophone",
+      "trumpet",
+      "piano",
+      "bass",
+      "drums"
+    ],
+    "eras": [
+      "hard-bop",
+      "free-jazz"
+    ],
     "influences": [],
     "influencedBy": [],
-    "keyAlbums": ["blue-notes-legacy"],
+    "keyAlbums": [
+      "blue-notes-legacy"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/The_Blue_Notes"
   },
   {
@@ -1059,11 +2265,23 @@
     "name": "Jazz Epistles",
     "birthYear": 1959,
     "bio": "The Jazz Epistles were South Africa's first bebop group, featuring Abdullah Ibrahim and Hugh Masekela. They recorded only one album before the Sharpeville massacre ended their brief existence, but that album launched modern South African jazz.",
-    "instruments": ["piano", "trumpet", "saxophone", "bass", "drums"],
-    "eras": ["hard-bop"],
+    "instruments": [
+      "piano",
+      "trumpet",
+      "saxophone",
+      "bass",
+      "drums"
+    ],
+    "eras": [
+      "hard-bop"
+    ],
     "influences": [],
-    "influencedBy": ["jazz-messengers"],
-    "keyAlbums": ["township-jive"],
+    "influencedBy": [
+      "jazz-messengers"
+    ],
+    "keyAlbums": [
+      "township-jive"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/The_Jazz_Epistles"
   },
   {
@@ -1071,11 +2289,23 @@
     "name": "Abdullah Ibrahim",
     "birthYear": 1934,
     "bio": "Abdullah Ibrahim (born Dollar Brand) is the most important South African jazz musician. His hypnotic 'Mannenberg' became the anthem of the anti-apartheid movement. His music blends Cape Town's musical traditions with American jazz and African spirituality.",
-    "instruments": ["piano"],
-    "eras": ["hard-bop", "fusion", "contemporary"],
+    "instruments": [
+      "piano"
+    ],
+    "eras": [
+      "hard-bop",
+      "fusion",
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["duke-ellington", "thelonious-monk"],
-    "keyAlbums": ["mannenberg", "african-marketplace"],
+    "influencedBy": [
+      "duke-ellington",
+      "thelonious-monk"
+    ],
+    "keyAlbums": [
+      "mannenberg",
+      "african-marketplace"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Abdullah_Ibrahim"
   },
   {
@@ -1084,11 +2314,24 @@
     "birthYear": 1939,
     "deathYear": 2018,
     "bio": "Hugh Masekela's trumpet brought South African jazz to the world. His 1968 hit 'Grazing in the Grass' topped the US pop charts. An exile for 30 years, he returned to celebrate liberation and continued performing until his death.",
-    "instruments": ["trumpet", "flugelhorn"],
-    "eras": ["hard-bop", "fusion", "contemporary"],
+    "instruments": [
+      "trumpet",
+      "flugelhorn"
+    ],
+    "eras": [
+      "hard-bop",
+      "fusion",
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["clifford-brown", "miles-davis"],
-    "keyAlbums": ["grazin-in-the-grass", "inhlupeko"],
+    "influencedBy": [
+      "clifford-brown",
+      "miles-davis"
+    ],
+    "keyAlbums": [
+      "grazin-in-the-grass",
+      "inhlupeko"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Hugh_Masekela"
   },
   {
@@ -1097,11 +2340,19 @@
     "birthYear": 1938,
     "deathYear": 1990,
     "bio": "Dudu Pukwana's alto saxophone wailed with the joy and pain of exile. A Blue Notes member who remained in London, his groups blended South African township rhythms with free improvisation, influencing the British jazz scene.",
-    "instruments": ["alto saxophone"],
-    "eras": ["free-jazz"],
+    "instruments": [
+      "alto saxophone"
+    ],
+    "eras": [
+      "free-jazz"
+    ],
     "influences": [],
-    "influencedBy": ["ornette-coleman"],
-    "keyAlbums": ["sounds-of-liberation"],
+    "influencedBy": [
+      "ornette-coleman"
+    ],
+    "keyAlbums": [
+      "sounds-of-liberation"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Dudu_Pukwana"
   },
   {
@@ -1110,11 +2361,18 @@
     "birthYear": 1933,
     "deathYear": 2020,
     "bio": "Manu Dibango was a Cameroonian saxophonist whose 'Soul Makossa' became one of the most sampled songs in history. He pioneered the fusion of African rhythms with jazz and funk, influencing Afrobeat and inspiring Michael Jackson.",
-    "instruments": ["saxophone", "vibraphone"],
-    "eras": ["fusion"],
+    "instruments": [
+      "saxophone",
+      "vibraphone"
+    ],
+    "eras": [
+      "fusion"
+    ],
     "influences": [],
     "influencedBy": [],
-    "keyAlbums": ["afrodisia"],
+    "keyAlbums": [
+      "afrodisia"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Manu_Dibango"
   },
   {
@@ -1122,11 +2380,18 @@
     "name": "Egberto Gismonti",
     "birthYear": 1947,
     "bio": "Egberto Gismonti is a Brazilian multi-instrumentalist whose music spans classical, jazz, and Brazilian folk traditions. His guitar and piano work for ECM brought him international acclaim, creating music that evokes the Amazon rainforest.",
-    "instruments": ["guitar", "piano"],
-    "eras": ["contemporary"],
+    "instruments": [
+      "guitar",
+      "piano"
+    ],
+    "eras": [
+      "contemporary"
+    ],
     "influences": [],
     "influencedBy": [],
-    "keyAlbums": ["saudades"],
+    "keyAlbums": [
+      "saudades"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Egberto_Gismonti"
   },
   {
@@ -1135,11 +2400,20 @@
     "birthYear": 1930,
     "deathYear": 2014,
     "bio": "Kenny Wheeler was a Canadian-British trumpeter and fluegelhornist whose fragile, lyrical sound and sophisticated compositions defined a European chamber jazz aesthetic. His ECM albums with Keith Jarrett and Dave Holland are masterpieces.",
-    "instruments": ["trumpet", "flugelhorn"],
-    "eras": ["contemporary"],
+    "instruments": [
+      "trumpet",
+      "flugelhorn"
+    ],
+    "eras": [
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["miles-davis"],
-    "keyAlbums": ["gnu-high"],
+    "influencedBy": [
+      "miles-davis"
+    ],
+    "keyAlbums": [
+      "gnu-high"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Kenny_Wheeler"
   },
   {
@@ -1148,11 +2422,19 @@
     "birthYear": 1942,
     "deathYear": 2015,
     "bio": "John Taylor was a British pianist whose delicate touch and harmonic sophistication made him central to the ECM aesthetic. His trio Azimuth and work with Kenny Wheeler created some of the finest European jazz.",
-    "instruments": ["piano"],
-    "eras": ["contemporary"],
+    "instruments": [
+      "piano"
+    ],
+    "eras": [
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["bill-evans"],
-    "keyAlbums": ["azimuth"],
+    "influencedBy": [
+      "bill-evans"
+    ],
+    "keyAlbums": [
+      "azimuth"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/John_Taylor_(jazz)"
   },
   {
@@ -1160,11 +2442,19 @@
     "name": "Ran Blake",
     "birthYear": 1935,
     "bio": "Ran Blake is a pianist and educator whose Third Stream approach blends jazz with classical music, film noir, and Eastern European folk traditions. His sparse, mysterious style is utterly distinctive.",
-    "instruments": ["piano"],
-    "eras": ["contemporary"],
+    "instruments": [
+      "piano"
+    ],
+    "eras": [
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["thelonious-monk"],
-    "keyAlbums": ["looking-east"],
+    "influencedBy": [
+      "thelonious-monk"
+    ],
+    "keyAlbums": [
+      "looking-east"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Ran_Blake"
   },
   {
@@ -1172,11 +2462,20 @@
     "name": "Ryo Kawasaki",
     "birthYear": 1947,
     "bio": "Ryo Kawasaki is a Japanese guitarist and electronic music pioneer whose jazz-funk fusion albums became cult classics. His guitar synthesizer explorations anticipated later electronic jazz.",
-    "instruments": ["guitar", "synthesizer"],
-    "eras": ["fusion"],
+    "instruments": [
+      "guitar",
+      "synthesizer"
+    ],
+    "eras": [
+      "fusion"
+    ],
     "influences": [],
-    "influencedBy": ["john-mclaughlin"],
-    "keyAlbums": ["kosmos"],
+    "influencedBy": [
+      "john-mclaughlin"
+    ],
+    "keyAlbums": [
+      "kosmos"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Ryo_Kawasaki"
   },
   {
@@ -1184,11 +2483,19 @@
     "name": "Yuki Arimasa",
     "birthYear": 1965,
     "bio": "Yuki Arimasa is a Japanese pianist whose lyrical style blends Bill Evans's influence with his own distinctive touch. His Village Vanguard appearance marked a milestone for Japanese jazz.",
-    "instruments": ["piano"],
-    "eras": ["contemporary"],
+    "instruments": [
+      "piano"
+    ],
+    "eras": [
+      "contemporary"
+    ],
     "influences": [],
-    "influencedBy": ["bill-evans"],
-    "keyAlbums": ["at-village-vanguard"],
+    "influencedBy": [
+      "bill-evans"
+    ],
+    "keyAlbums": [
+      "at-village-vanguard"
+    ],
     "wikipedia": "https://ja.wikipedia.org/wiki/有馬祐輝"
   }
 ]

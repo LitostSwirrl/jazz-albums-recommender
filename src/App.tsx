@@ -1,10 +1,18 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Layout } from './components/layout';
-import { Home, Eras, Era, Artists, Artist, Albums, Album, InfluenceGraph, Timeline } from './pages';
+import { Home } from './pages/Home';
+import { Eras } from './pages/Eras';
+import { Era } from './pages/Era';
+import { Artists } from './pages/Artists';
+import { Artist } from './pages/Artist';
+import { Albums } from './pages/Albums';
+import { Album } from './pages/Album';
+import { Timeline } from './pages/Timeline';
+import { InfluenceGraph } from './pages/InfluenceGraph';
 
 function App() {
   return (
-    <BrowserRouter basename="/jazz-albums-recommender">
+    <HashRouter>
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
@@ -14,11 +22,11 @@ function App() {
           <Route path="/artist/:id" element={<Artist />} />
           <Route path="/albums" element={<Albums />} />
           <Route path="/album/:id" element={<Album />} />
-          <Route path="/influence" element={<InfluenceGraph />} />
           <Route path="/timeline" element={<Timeline />} />
+          <Route path="/influence" element={<InfluenceGraph />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

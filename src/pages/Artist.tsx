@@ -3,6 +3,8 @@ import artistsData from '../data/artists.json';
 import albumsData from '../data/albums.json';
 import erasData from '../data/eras.json';
 import type { Artist as ArtistType, Album, Era } from '../types';
+import { MiniInfluenceNetwork } from '../components/graph';
+import { ArtistPhoto } from '../components/ArtistPhoto';
 
 const artists = artistsData as ArtistType[];
 const albums = albumsData as Album[];
@@ -41,9 +43,13 @@ export function Artist() {
 
       {/* Header */}
       <header className="flex flex-col md:flex-row gap-8 mb-12">
-        <div className="w-32 h-32 rounded-full bg-zinc-800 flex items-center justify-center text-5xl flex-shrink-0">
-          🎵
-        </div>
+        <ArtistPhoto
+          imageUrl={artist.imageUrl}
+          name={artist.name}
+          size="xl"
+          showInstrument={artist.instruments[0]}
+          className="flex-shrink-0"
+        />
         <div>
           <h1 className="text-4xl font-bold mb-2">{artist.name}</h1>
           <p className="text-xl text-zinc-400 mb-4">
@@ -80,9 +86,30 @@ export function Artist() {
         )}
       </section>
 
-      {/* Influence Network */}
+      {/* Influence Network Visual */}
       <section className="mb-12">
-        <h2 className="text-2xl font-bold mb-6">Influence Network</h2>
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="text-2xl font-bold">Influence Network</h2>
+          <Link
+            to="/influence"
+            className="text-amber-400 hover:text-amber-300 text-sm flex items-center gap-1"
+          >
+            Explore full network
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </Link>
+        </div>
+        <p className="text-zinc-500 text-sm mb-4">
+          {influencedByArtists.length > 0 && `Influenced by ${influencedByArtists.length} artist${influencedByArtists.length > 1 ? 's' : ''}`}
+          {influencedByArtists.length > 0 && influencedArtists.length > 0 && ' · '}
+          {influencedArtists.length > 0 && `Influenced ${influencedArtists.length} artist${influencedArtists.length > 1 ? 's' : ''}`}
+        </p>
+        <MiniInfluenceNetwork artist={artist} allArtists={artists} eras={eras} />
+      </section>
+
+      {/* Influence Lists */}
+      <section className="mb-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Influenced By */}
           <div>
@@ -96,11 +123,12 @@ export function Artist() {
                     className="block p-3 rounded bg-zinc-900 border border-zinc-800 hover:border-zinc-600 transition-all"
                   >
                     <span className="text-white hover:text-amber-400">{a.name}</span>
+                    <span className="text-xs text-zinc-500 ml-2">{a.instruments.slice(0, 2).join(', ')}</span>
                   </Link>
                 ))}
               </div>
             ) : (
-              <p className="text-zinc-600">No data available</p>
+              <p className="text-zinc-600">No documented influences</p>
             )}
           </div>
 
@@ -116,11 +144,12 @@ export function Artist() {
                     className="block p-3 rounded bg-zinc-900 border border-zinc-800 hover:border-zinc-600 transition-all"
                   >
                     <span className="text-white hover:text-amber-400">{a.name}</span>
+                    <span className="text-xs text-zinc-500 ml-2">{a.instruments.slice(0, 2).join(', ')}</span>
                   </Link>
                 ))}
               </div>
             ) : (
-              <p className="text-zinc-600">No data available</p>
+              <p className="text-zinc-600">No documented influence</p>
             )}
           </div>
         </div>

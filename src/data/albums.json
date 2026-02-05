@@ -7,12 +7,21 @@
     "year": 1925,
     "label": "Okeh",
     "era": "early-jazz",
-    "genres": ["early jazz", "dixieland"],
+    "genres": [
+      "early jazz",
+      "dixieland"
+    ],
     "description": "A collection of recordings that revolutionized jazz. Armstrong's innovative trumpet solos and scat singing transformed jazz from ensemble music to a soloist's art form.",
     "significance": "These recordings established the vocabulary of jazz improvisation. Armstrong's virtuosity and creativity set the template for every jazz soloist who followed.",
-    "keyTracks": ["West End Blues", "Heebie Jeebies", "Potato Head Blues", "Struttin' with Some Barbecue"],
-    "coverUrl": "https://coverartarchive.org/release/8d1d8c8d-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/241493"
+    "keyTracks": [
+      "West End Blues",
+      "Heebie Jeebies",
+      "Potato Head Blues",
+      "Struttin' with Some Barbecue"
+    ],
+    "coverUrl": "https://coverartarchive.org/release/979e6785-76eb-46db-87da-3cae447ed5c1/front-250",
+    "discogs": "https://www.discogs.com/master/241493",
+    "spotifyUrl": "https://open.spotify.com/album/1fw3JJvlzlyRGDNVRQOzOK"
   },
   {
     "id": "ellington-at-newport",
@@ -22,12 +31,20 @@
     "year": 1956,
     "label": "Columbia",
     "era": "swing",
-    "genres": ["big band", "swing"],
+    "genres": [
+      "big band",
+      "swing"
+    ],
     "description": "A legendary live recording that revitalized Ellington's career. Paul Gonsalves' 27-chorus tenor solo on 'Diminuendo and Crescendo in Blue' drove the crowd into a frenzy.",
     "significance": "This concert marked Ellington's triumphant comeback and proved big band jazz still had the power to move audiences in the bebop era.",
-    "keyTracks": ["Diminuendo and Crescendo in Blue", "Newport Jazz Festival Suite", "Jeep's Blues"],
-    "coverUrl": "https://coverartarchive.org/release/d4f8b8d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/132925"
+    "keyTracks": [
+      "Diminuendo and Crescendo in Blue",
+      "Newport Jazz Festival Suite",
+      "Jeep's Blues"
+    ],
+    "coverUrl": "https://coverartarchive.org/release/50964f66-665e-412a-ba1e-a779debfca87/13147758291-500.jpg",
+    "discogs": "https://www.discogs.com/master/132925",
+    "spotifyUrl": "https://open.spotify.com/album/5tPwVABx8wCLPgzKxoQaup"
   },
   {
     "id": "kind-of-blue",
@@ -37,12 +54,35 @@
     "year": 1959,
     "label": "Columbia",
     "era": "cool-jazz",
-    "genres": ["modal jazz", "cool jazz"],
-    "description": "The best-selling jazz album of all time, Kind of Blue introduced modal jazz to the world. Recorded in just two sessions with minimal rehearsal, the album captures spontaneous creativity at its peak.",
-    "significance": "Revolutionized jazz by moving away from chord-based improvisation to scales (modes), opening new harmonic possibilities. It remains the quintessential introduction to jazz.",
-    "keyTracks": ["So What", "Freddie Freeloader", "Blue in Green", "All Blues", "Flamenco Sketches"],
-    "coverUrl": "https://coverartarchive.org/release/6feb41a4-1e0e-4e2e-adab-d7f84c0a5cb0/front",
-    "discogs": "https://www.discogs.com/master/5460"
+    "genres": [
+      "modal jazz",
+      "cool jazz"
+    ],
+    "description": "The best-selling jazz album of all time, Kind of Blue introduced modal jazz to the world. Recorded at Columbia's 30th Street Studio in New York on March 2 and April 22, 1959, the album captures spontaneous creativity at its peak—most tracks were first takes with minimal rehearsal. The legendary sextet featured John Coltrane and Cannonball Adderley on saxophones, pianist Bill Evans (Wynton Kelly on 'Freddie Freeloader'), bassist Paul Chambers, and drummer Jimmy Cobb. Evans contributed the album's modal framework, drawing from impressionist composers like Ravel and his studies with theorist George Russell.",
+    "significance": "Revolutionized jazz by moving away from bebop's complex chord changes to modal improvisation based on scales, opening new harmonic possibilities that influenced countless musicians across genres from rock to hip-hop. It remains the quintessential introduction to jazz, selling over five million copies and consistently ranking among the greatest albums ever recorded in any genre.",
+    "keyTracks": [
+      "So What",
+      "Freddie Freeloader",
+      "Blue in Green",
+      "All Blues",
+      "Flamenco Sketches"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/18416863-1777-4687-bc96-a87056b21664/3644146825-500.jpg",
+    "discogs": "https://www.discogs.com/master/5460",
+    "spotifyUrl": "https://open.spotify.com/album/1weenld61qoidwYuZ1GESA",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ylXk1LBvIqU",
+    "reviews": [
+      {
+        "quote": "The greatest jazz album ever made, and one of the most significant records in the history of American music.",
+        "source": "AllMusic",
+        "author": "Thom Jurek",
+        "rating": 5
+      },
+      {
+        "quote": "Not just one of the greatest jazz albums of all time, but one of the greatest albums of all time, period.",
+        "source": "Rolling Stone"
+      }
+    ]
   },
   {
     "id": "a-love-supreme",
@@ -52,12 +92,34 @@
     "year": 1965,
     "label": "Impulse!",
     "era": "free-jazz",
-    "genres": ["spiritual jazz", "modal jazz", "avant-garde jazz"],
-    "description": "A four-part suite that represents Coltrane's spiritual awakening and devotion. It's both deeply personal and universally moving, blending complex improvisation with profound emotional depth.",
-    "significance": "One of the most influential albums in jazz history, it demonstrated that jazz could be a vehicle for deep spiritual expression. The album bridged modal jazz and the emerging free jazz movement.",
-    "keyTracks": ["Acknowledgement", "Resolution", "Pursuance", "Psalm"],
-    "coverUrl": "https://coverartarchive.org/release/b1e26560-60e5-4236-bbdb-9aa5a8d8ee19/front",
-    "discogs": "https://www.discogs.com/master/90918"
+    "genres": [
+      "spiritual jazz",
+      "modal jazz",
+      "avant-garde jazz"
+    ],
+    "description": "A four-part suite that represents Coltrane's spiritual awakening and devotion to God. Recorded in a single session on December 9, 1964, at Van Gelder Studio in New Jersey with his classic quartet—McCoy Tyner on piano, Jimmy Garrison on bass, and Elvin Jones on drums—the album blends complex improvisation with profound emotional and spiritual depth. The famous four-note motif ('A Love Supreme') that opens 'Acknowledgement' becomes a meditative chant, while 'Psalm' features Coltrane 'playing' the words of a poem he wrote for the liner notes.",
+    "significance": "One of the most influential albums in jazz history, demonstrating that jazz could be a vehicle for deep spiritual expression. The album bridged modal jazz and the emerging free jazz movement, selling over one million copies and inspiring musicians from Carlos Santana to Kendrick Lamar. It earned Coltrane a devoted cult following that persists today.",
+    "keyTracks": [
+      "Acknowledgement",
+      "Resolution",
+      "Pursuance",
+      "Psalm"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/1a23ef07-4d6f-444f-8680-96ba21651d72/14048476831-500.jpg",
+    "discogs": "https://www.discogs.com/master/90918",
+    "spotifyUrl": "https://open.spotify.com/album/7Eoz7hJvaX1eFkbpQxC5PA",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ll3CMgiUPuU",
+    "reviews": [
+      {
+        "quote": "A Love Supreme is one of the landmark recordings in jazz history, a series of incantations and prayers that sounds like a man struggling to find God.",
+        "source": "Pitchfork",
+        "rating": 5
+      },
+      {
+        "quote": "Coltrane's most famous album is a deeply spiritual work that transcends genre boundaries.",
+        "source": "The Guardian"
+      }
+    ]
   },
   {
     "id": "blue-train",
@@ -67,12 +129,29 @@
     "year": 1958,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["hard bop"],
-    "description": "Coltrane's only album as a leader for Blue Note, featuring an all-star lineup. The title track became one of his signature tunes, showcasing his powerful sound and innovative approach.",
-    "significance": "A masterpiece of hard bop that demonstrates Coltrane's growing command as a leader and composer. It bridges the gap between hard bop and his later modal explorations.",
-    "keyTracks": ["Blue Train", "Moment's Notice", "Locomotion", "I'm Old Fashioned"],
-    "coverUrl": "https://coverartarchive.org/release/a3d8b6e8-0c3f-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/45188"
+    "genres": [
+      "hard bop"
+    ],
+    "description": "Coltrane's only album as a leader for Blue Note Records, recorded on September 15, 1957, at Rudy Van Gelder's studio in Hackensack, New Jersey. The all-star sextet featured Lee Morgan on trumpet, Curtis Fuller on trombone, Kenny Drew on piano, Paul Chambers on bass, and Philly Joe Jones on drums. The title track became one of Coltrane's signature tunes, with its memorable melody and his powerful, driving solo. 'Moment's Notice' showcases his rapid chord-change improvisation that would later evolve into 'Giant Steps.'",
+    "significance": "A masterpiece of hard bop that demonstrates Coltrane's growing command as a bandleader and composer. It bridges the gap between hard bop and his later modal explorations, featuring the complex harmonic substitutions that would become his trademark 'Coltrane changes.' The iconic cover photo by Francis Wolff became one of the most recognizable images in jazz.",
+    "keyTracks": [
+      "Blue Train",
+      "Moment's Notice",
+      "Locomotion",
+      "I'm Old Fashioned"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/675e3f05-0acd-4809-a37a-39a965057d9b/13077003105-500.jpg",
+    "discogs": "https://www.discogs.com/master/45188",
+    "spotifyUrl": "https://open.spotify.com/album/2Z11cXWEa2qqYQBGkJrCga",
+    "youtubeUrl": "https://www.youtube.com/watch?v=XpZHUVjQydI",
+    "reviews": [
+      {
+        "quote": "Blue Train showcases Coltrane at his most commanding, leading an all-star group through some of his finest compositions.",
+        "source": "AllMusic",
+        "author": "Stephen Thomas Erlewine",
+        "rating": 5
+      }
+    ]
   },
   {
     "id": "moanin",
@@ -82,12 +161,29 @@
     "year": 1958,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["hard bop", "soul jazz"],
-    "description": "The definitive hard bop album, featuring Bobby Timmons' iconic gospel-influenced title track. This album epitomizes the Jazz Messengers' blend of sophistication and soul.",
-    "significance": "Defined the hard bop sound and became a template for countless jazz albums. The title track remains one of the most recognizable jazz compositions ever written.",
-    "keyTracks": ["Moanin'", "Are You Real", "Along Came Betty", "The Drum Thunder Suite"],
-    "coverUrl": "https://coverartarchive.org/release/e4d8c8d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/50099"
+    "genres": [
+      "hard bop",
+      "soul jazz"
+    ],
+    "description": "The definitive hard bop album, recorded on October 30, 1958, at Rudy Van Gelder's studio with the classic Messengers lineup: Lee Morgan on trumpet, Benny Golson on tenor saxophone, Bobby Timmons on piano, and Jymie Merritt on bass. Timmons' iconic gospel-influenced title track opens with one of the most recognizable piano riffs in jazz, immediately establishing the album's blend of church and bop. Golson's sophisticated compositions, including 'Along Came Betty' and 'Blues March,' showcase the band's range from soulful blues to intricate arrangements.",
+    "significance": "Defined the hard bop sound and became a template for countless jazz albums that followed. The title track's call-and-response structure, derived from Black church music, proved that jazz could be both intellectually rigorous and emotionally direct. Blakey's powerful drumming and Timmons' funky piano established the foundation for soul jazz.",
+    "keyTracks": [
+      "Moanin'",
+      "Are You Real",
+      "Along Came Betty",
+      "The Drum Thunder Suite"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/8390c403-5f75-4b55-958d-9c39a76cc9d2/2801027798-500.jpg",
+    "discogs": "https://www.discogs.com/master/50099",
+    "spotifyUrl": "https://open.spotify.com/album/2D4kqfmUPMNlVSGpYmNx5X",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Cv9NSR-2DwM",
+    "reviews": [
+      {
+        "quote": "The quintessential hard bop album, Moanin' defined what the Jazz Messengers stood for and influenced countless musicians.",
+        "source": "DownBeat",
+        "rating": 5
+      }
+    ]
   },
   {
     "id": "brilliant-corners",
@@ -97,12 +193,28 @@
     "year": 1957,
     "label": "Riverside",
     "era": "bebop",
-    "genres": ["bebop", "hard bop"],
-    "description": "A challenging album that showcases Monk's unique compositional vision. The title track was so difficult that no complete take exists—the final version is edited together from multiple attempts.",
-    "significance": "Demonstrates Monk's uncompromising vision and the challenge of playing his angular compositions. It helped establish him as one of jazz's most important composers.",
-    "keyTracks": ["Brilliant Corners", "Ba-lue Bolivar Ba-lues-are", "Pannonica", "I Surrender, Dear"],
-    "coverUrl": "https://coverartarchive.org/release/f5e8d8d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/64073"
+    "genres": [
+      "bebop",
+      "hard bop"
+    ],
+    "description": "A challenging album that showcases Monk's unique compositional vision, recorded in 1956 with an all-star group including Sonny Rollins and Max Roach. The title track was so rhythmically and melodically complex that after 25 takes, no complete version existed—the final version was spliced together from multiple attempts. The session featured unusual instrumentation including celeste, adding to Monk's distinctive sound. 'Pannonica' is a beautiful ballad dedicated to his patron, the Baroness Pannonica de Koenigswarter.",
+    "significance": "Demonstrates Monk's uncompromising vision and the extraordinary challenge of playing his angular, unpredictable compositions. The album established him as one of jazz's most important composers and earned him wider recognition after years of being dismissed as eccentric. It helped launch Monk's commercial breakthrough period that culminated in his Time magazine cover.",
+    "keyTracks": [
+      "Brilliant Corners",
+      "Ba-lue Bolivar Ba-lues-are",
+      "Pannonica",
+      "I Surrender, Dear"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/6569f988-b81f-41c1-a3bc-4b447aacf258/9197945331-500.jpg",
+    "discogs": "https://www.discogs.com/master/64073",
+    "spotifyUrl": "https://open.spotify.com/album/5gWF47eGSbv4BOfxoFcQtd",
+    "reviews": [
+      {
+        "quote": "Monk's singular genius is fully on display, with compositions that challenge and reward in equal measure.",
+        "source": "AllMusic",
+        "rating": 5
+      }
+    ]
   },
   {
     "id": "the-shape-of-jazz-to-come",
@@ -112,12 +224,21 @@
     "year": 1959,
     "label": "Atlantic",
     "era": "free-jazz",
-    "genres": ["free jazz", "avant-garde jazz"],
-    "description": "A revolutionary album that dispensed with chord changes, allowing the melody and collective improvisation to guide the music. Coleman's approach shocked and divided the jazz world.",
-    "significance": "Launched the free jazz movement and permanently changed the boundaries of what jazz could be. Its influence extends far beyond jazz into rock, punk, and experimental music.",
-    "keyTracks": ["Lonely Woman", "Eventually", "Peace", "Congeniality"],
-    "coverUrl": "https://coverartarchive.org/release/g6f8e8d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/70259"
+    "genres": [
+      "free jazz",
+      "avant-garde jazz"
+    ],
+    "description": "A revolutionary album that dispensed with traditional chord changes, allowing melody and collective improvisation to guide the music. Recorded in May 1959 at Radio Recorders in Hollywood with Don Cherry on cornet, Charlie Haden on bass, and Billy Higgins on drums, Coleman's pianoless quartet created a liberating new approach to jazz. 'Lonely Woman,' with its haunting melody and free-flowing rhythm, became his signature piece. The album's title prophetically announced a new direction for jazz.",
+    "significance": "Launched the free jazz movement and permanently changed the boundaries of what jazz could be. Coleman's 'harmolodic' approach—treating melody, harmony, and rhythm as equals—shocked the jazz establishment but influenced countless musicians from John Coltrane to Sonic Youth. The album extends far beyond jazz, shaping rock, punk, and experimental music for decades.",
+    "keyTracks": [
+      "Lonely Woman",
+      "Eventually",
+      "Peace",
+      "Congeniality"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/c4a1b794-7bb5-411a-a876-7af045cf6f22/12407949899-500.jpg",
+    "discogs": "https://www.discogs.com/master/70259",
+    "spotifyUrl": "https://open.spotify.com/album/2iPH3iUmpa9ufIpwY76keF"
   },
   {
     "id": "head-hunters",
@@ -127,12 +248,22 @@
     "year": 1973,
     "label": "Columbia",
     "era": "fusion",
-    "genres": ["jazz-funk", "fusion"],
-    "description": "A groundbreaking fusion of jazz, funk, and electronic music. The album features the Fender Rhodes, clavinet, and synthesizers, creating a danceable yet sophisticated sound.",
-    "significance": "Became the first jazz album to go platinum, proving jazz could reach a mass audience without sacrificing artistic integrity. Its influence on hip-hop and electronic music is immeasurable.",
-    "keyTracks": ["Chameleon", "Watermelon Man", "Sly", "Vein Melter"],
-    "coverUrl": "https://coverartarchive.org/release/h7g8f8d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/49991"
+    "genres": [
+      "jazz-funk",
+      "fusion"
+    ],
+    "description": "A groundbreaking fusion of jazz, funk, and electronic music that redefined what jazz could sound like. Recorded in 1973 with the Headhunters band—Bennie Maupin on saxophones, Paul Jackson on bass, Harvey Mason on drums, and Bill Summers on percussion—Hancock layered Fender Rhodes, clavinet, and ARP synthesizers over deep, hypnotic grooves. The 15-minute 'Chameleon' opens with one of the most iconic bass lines in music history. 'Watermelon Man' reimagines Hancock's earlier hit with African-influenced percussion.",
+    "significance": "Became the first jazz album to go platinum, proving jazz could reach a mass audience without sacrificing artistic integrity. Its funky, synthesizer-driven sound directly influenced the birth of hip-hop, acid jazz, and electronic dance music. Countless artists have sampled these tracks, from Us3 to A Tribe Called Quest.",
+    "keyTracks": [
+      "Chameleon",
+      "Watermelon Man",
+      "Sly",
+      "Vein Melter"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/4908b149-5db4-4d4b-a088-aaa2260bf975/29905723855-500.jpg",
+    "discogs": "https://www.discogs.com/master/49991",
+    "spotifyUrl": "https://open.spotify.com/album/5fmIolILp5NAtNYiRPjhzA",
+    "youtubeUrl": "https://www.youtube.com/watch?v=WYRrIBqKsJ4"
   },
   {
     "id": "maiden-voyage",
@@ -142,12 +273,21 @@
     "year": 1965,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["modal jazz", "hard bop"],
+    "genres": [
+      "modal jazz",
+      "hard bop"
+    ],
     "description": "A concept album evoking the sea, featuring some of Hancock's most beautiful compositions. The title track has become a jazz standard, beloved for its floating, meditative quality.",
     "significance": "Expanded jazz's emotional palette with its impressionistic approach. It demonstrated that jazz could be atmospheric and accessible while remaining harmonically sophisticated.",
-    "keyTracks": ["Maiden Voyage", "The Eye of the Hurricane", "Little One", "Dolphin Dance"],
-    "coverUrl": "https://coverartarchive.org/release/i8h8g8d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/72831"
+    "keyTracks": [
+      "Maiden Voyage",
+      "The Eye of the Hurricane",
+      "Little One",
+      "Dolphin Dance"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/05020b1f-e614-4c0a-b2d3-e8fadb4a3db6/10016111496-500.jpg",
+    "discogs": "https://www.discogs.com/master/72831",
+    "spotifyUrl": "https://open.spotify.com/album/4PMwCdbTTBTgyMh8dbTVRb"
   },
   {
     "id": "time-out",
@@ -157,12 +297,22 @@
     "year": 1959,
     "label": "Columbia",
     "era": "cool-jazz",
-    "genres": ["cool jazz", "west coast jazz"],
-    "description": "Famous for featuring unusual time signatures, Time Out introduced jazz to mainstream audiences. 'Take Five' in 5/4 time became one of the best-selling jazz singles ever.",
-    "significance": "Proved that experimental concepts could be commercially successful. It remains one of the best-selling jazz albums of all time and introduced many listeners to jazz.",
-    "keyTracks": ["Take Five", "Blue Rondo à la Turk", "Strange Meadow Lark", "Three to Get Ready"],
-    "coverUrl": "https://coverartarchive.org/release/j9i8h8d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/49817"
+    "genres": [
+      "cool jazz",
+      "west coast jazz"
+    ],
+    "description": "Famous for featuring unusual time signatures, Time Out introduced jazz to mainstream audiences with its accessible yet innovative approach. Recorded in 1959 with Paul Desmond on alto saxophone, Eugene Wright on bass, and Joe Morello on drums, the album explores odd meters like 9/8 ('Blue Rondo à la Turk') and 5/4 ('Take Five,' composed by Desmond). The quartet's cool, West Coast sound made complex rhythms feel natural and swinging. The distinctive album cover by Neil Fujita became an icon of modernist design.",
+    "significance": "Proved that experimental concepts could be commercially successful, becoming the first jazz album to sell over one million copies. 'Take Five' remains one of the most recognized jazz compositions worldwide. The album introduced many listeners to jazz and demonstrated that rhythmic innovation could be both intellectual and accessible.",
+    "keyTracks": [
+      "Take Five",
+      "Blue Rondo à la Turk",
+      "Strange Meadow Lark",
+      "Three to Get Ready"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/2bed0407-f5b1-4cd5-a723-470e743fe5ef/23581644557-500.jpg",
+    "discogs": "https://www.discogs.com/master/49817",
+    "spotifyUrl": "https://open.spotify.com/album/0nTTEAhCZsbbeplyDMIFuA",
+    "youtubeUrl": "https://www.youtube.com/watch?v=kc34Uj8wlmE"
   },
   {
     "id": "bitches-brew",
@@ -172,12 +322,21 @@
     "year": 1970,
     "label": "Columbia",
     "era": "fusion",
-    "genres": ["jazz fusion", "jazz-rock"],
-    "description": "A double album that shattered the boundaries between jazz and rock. Featuring multiple electric keyboards, electric bass, and rock drumming, it created a dense, otherworldly soundscape.",
-    "significance": "Launched the jazz fusion movement and influenced countless rock and electronic musicians. Its studio-as-instrument approach pioneered techniques still used today.",
-    "keyTracks": ["Pharaoh's Dance", "Bitches Brew", "Spanish Key", "Miles Runs the Voodoo Down"],
-    "coverUrl": "https://coverartarchive.org/release/k0j9i8d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/5502"
+    "genres": [
+      "jazz fusion",
+      "jazz-rock"
+    ],
+    "description": "A double album that shattered the boundaries between jazz and rock, recorded in August 1969 with an extraordinary ensemble including Wayne Shorter, Chick Corea, Joe Zawinul, John McLaughlin, Dave Holland, and multiple drummers. Producer Teo Macero's revolutionary editing techniques spliced and layered performances into a dense, otherworldly soundscape. The sessions were largely improvised around sketches Miles provided, creating an organic yet alien sonic world. Mati Klarwein's striking Afrofuturist cover art perfectly captured the album's revolutionary spirit.",
+    "significance": "Launched the jazz fusion movement and became the first jazz album to sell 500,000 copies in its first year. Its studio-as-instrument approach pioneered production techniques still used today. The album influenced not just fusion but progressive rock, ambient music, and electronic music. Musicians from Santana to Radiohead cite it as foundational.",
+    "keyTracks": [
+      "Pharaoh's Dance",
+      "Bitches Brew",
+      "Spanish Key",
+      "Miles Runs the Voodoo Down"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/e45b3ca2-fe5d-4d2d-a957-301e5d25168f/23117303483-500.jpg",
+    "discogs": "https://www.discogs.com/master/5502",
+    "spotifyUrl": "https://open.spotify.com/album/3Q0zkOZEOC855ErOOJ1AdO"
   },
   {
     "id": "birth-of-the-cool",
@@ -187,12 +346,20 @@
     "year": 1957,
     "label": "Capitol",
     "era": "cool-jazz",
-    "genres": ["cool jazz"],
+    "genres": [
+      "cool jazz"
+    ],
     "description": "Compiled from 1949-50 sessions, this album introduced a new approach: lighter textures, unusual instrumentation (French horn, tuba), and sophisticated arrangements by Gil Evans and Gerry Mulligan.",
     "significance": "Named and defined the cool jazz movement. Its influence on West Coast jazz and the Third Stream movement was immense.",
-    "keyTracks": ["Move", "Jeru", "Moon Dreams", "Boplicity"],
-    "coverUrl": "https://coverartarchive.org/release/l1k0j9d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/68485"
+    "keyTracks": [
+      "Move",
+      "Jeru",
+      "Moon Dreams",
+      "Boplicity"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/a17b2680-53b2-3889-aea9-98e0c1bdcbb3/15732788179-500.jpg",
+    "discogs": "https://www.discogs.com/master/68485",
+    "spotifyUrl": "https://open.spotify.com/album/0QWea2w5Y6pSoSWHuc7JMf"
   },
   {
     "id": "mingus-ah-um",
@@ -202,12 +369,21 @@
     "year": 1959,
     "label": "Columbia",
     "era": "hard-bop",
-    "genres": ["hard bop", "post-bop"],
+    "genres": [
+      "hard bop",
+      "post-bop"
+    ],
     "description": "A masterpiece that pays tribute to jazz history while pushing it forward. Mingus's compositional genius shines through pieces that reference gospel, blues, and his jazz heroes.",
     "significance": "Showcased Mingus as one of jazz's greatest composers and bandleaders. 'Goodbye Pork Pie Hat' became one of the most beloved jazz elegies.",
-    "keyTracks": ["Better Git It in Your Soul", "Goodbye Pork Pie Hat", "Boogie Stop Shuffle", "Fables of Faubus"],
-    "coverUrl": "https://coverartarchive.org/release/m2l1k0d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/63516"
+    "keyTracks": [
+      "Better Git It in Your Soul",
+      "Goodbye Pork Pie Hat",
+      "Boogie Stop Shuffle",
+      "Fables of Faubus"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/96c5cc73-798b-49d8-9708-51fcaf81931a/10086625953-500.jpg",
+    "discogs": "https://www.discogs.com/master/63516",
+    "spotifyUrl": "https://open.spotify.com/album/7pojWP7x9uEFSJgw765khA"
   },
   {
     "id": "saxophone-colossus",
@@ -217,12 +393,20 @@
     "year": 1956,
     "label": "Prestige",
     "era": "hard-bop",
-    "genres": ["hard bop"],
+    "genres": [
+      "hard bop"
+    ],
     "description": "The album that established Rollins as one of the greatest tenor saxophonists. 'St. Thomas' became his signature tune, showcasing his Caribbean heritage and melodic genius.",
     "significance": "Demonstrated that hard bop could be both intellectually rigorous and emotionally accessible. Rollins's thematic improvisation influenced generations of saxophonists.",
-    "keyTracks": ["St. Thomas", "You Don't Know What Love Is", "Strode Rode", "Moritat"],
-    "coverUrl": "https://coverartarchive.org/release/n3m2l1d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/97856"
+    "keyTracks": [
+      "St. Thomas",
+      "You Don't Know What Love Is",
+      "Strode Rode",
+      "Moritat"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/80f9cd5f-e5e6-4718-829b-bcf25f1111d6/19939011636-500.jpg",
+    "discogs": "https://www.discogs.com/master/97856",
+    "spotifyUrl": "https://open.spotify.com/album/2dtjLAwt7Cq763h6AupyPZ"
   },
   {
     "id": "the-black-saint",
@@ -232,10 +416,17 @@
     "year": 1963,
     "label": "Impulse!",
     "era": "hard-bop",
-    "genres": ["avant-garde jazz", "third stream"],
+    "genres": [
+      "avant-garde jazz",
+      "third stream"
+    ],
     "description": "A six-part ballet conceived as a single work, this is Mingus's most ambitious composition. Dense, emotional, and cinematic, it defies easy categorization.",
     "significance": "Pushed the boundaries of jazz composition into orchestral territory. The album's liner notes, written by Mingus's psychiatrist, added to its mystique.",
-    "keyTracks": ["Track A - Solo Dancer", "Track B - Duet Solo Dancers", "Track C - Group Dancers"],
+    "keyTracks": [
+      "Track A - Solo Dancer",
+      "Track B - Duet Solo Dancers",
+      "Track C - Group Dancers"
+    ],
     "coverUrl": "https://coverartarchive.org/release/o4n3m2d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/103728"
   },
@@ -247,12 +438,21 @@
     "year": 1966,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["hard bop", "post-bop"],
+    "genres": [
+      "hard bop",
+      "post-bop"
+    ],
     "description": "A pinnacle of 1960s Blue Note recordings, featuring cryptic, angular compositions and a stellar band including Herbie Hancock and Freddie Hubbard.",
     "significance": "Established Shorter as one of jazz's most important composers. His mysterious, cinematic style influenced countless musicians.",
-    "keyTracks": ["Speak No Evil", "Witch Hunt", "Fee-Fi-Fo-Fum", "Dance Cadaverous"],
-    "coverUrl": "https://coverartarchive.org/release/p5o4n3d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/78524"
+    "keyTracks": [
+      "Speak No Evil",
+      "Witch Hunt",
+      "Fee-Fi-Fo-Fum",
+      "Dance Cadaverous"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/bd56c588-0ed1-465d-a699-0d6c6f3207cc/16577002285-500.jpg",
+    "discogs": "https://www.discogs.com/master/78524",
+    "spotifyUrl": "https://open.spotify.com/album/4XFdCNG4qolHR4nm5vhwBd"
   },
   {
     "id": "out-to-lunch",
@@ -262,12 +462,21 @@
     "year": 1964,
     "label": "Blue Note",
     "era": "free-jazz",
-    "genres": ["avant-garde jazz", "free jazz"],
+    "genres": [
+      "avant-garde jazz",
+      "free jazz"
+    ],
     "description": "Dolphy's masterpiece, recorded months before his untimely death. The angular compositions and unconventional instrumentation (vibraphone, bass clarinet) created a unique sonic world.",
     "significance": "A landmark of avant-garde jazz that remained accessible. Dolphy's multi-instrumentalism and compositional vision were ahead of their time.",
-    "keyTracks": ["Hat and Beard", "Something Sweet, Something Tender", "Gazzelloni", "Out to Lunch"],
-    "coverUrl": "https://coverartarchive.org/release/q6p5o4d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/78541"
+    "keyTracks": [
+      "Hat and Beard",
+      "Something Sweet, Something Tender",
+      "Gazzelloni",
+      "Out to Lunch"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/c499b943-9a5b-4cfb-b5ca-bce50e7edce8/9175622363-500.jpg",
+    "discogs": "https://www.discogs.com/master/78541",
+    "spotifyUrl": "https://open.spotify.com/album/2iaiI4nHOV0c3YxUVqv2eN"
   },
   {
     "id": "sunday-at-the-village-vanguard",
@@ -277,12 +486,21 @@
     "year": 1961,
     "label": "Riverside",
     "era": "cool-jazz",
-    "genres": ["cool jazz", "piano trio"],
+    "genres": [
+      "cool jazz",
+      "piano trio"
+    ],
     "description": "Recorded live at the legendary Village Vanguard, this album captures the revolutionary interplay between Evans, bassist Scott LaFaro, and drummer Paul Motian.",
     "significance": "Redefined the piano trio format. The three-way conversation between piano, bass, and drums became the model for all jazz piano trios that followed.",
-    "keyTracks": ["Gloria's Step", "My Man's Gone Now", "Solar", "Alice in Wonderland"],
+    "keyTracks": [
+      "Gloria's Step",
+      "My Man's Gone Now",
+      "Solar",
+      "Alice in Wonderland"
+    ],
     "coverUrl": "https://coverartarchive.org/release/r7q6p5d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/102463"
+    "discogs": "https://www.discogs.com/master/102463",
+    "spotifyUrl": "https://open.spotify.com/album/68e5Cxo3UmbgYbE2tWm8Ov"
   },
   {
     "id": "giant-steps",
@@ -292,12 +510,20 @@
     "year": 1960,
     "label": "Atlantic",
     "era": "hard-bop",
-    "genres": ["hard bop"],
+    "genres": [
+      "hard bop"
+    ],
     "description": "The culmination of Coltrane's harmonic explorations, featuring the famous 'Coltrane changes' - a complex chord progression that became a rite of passage for jazz musicians.",
     "significance": "The title track's chord changes remain one of the most challenging in jazz. This album marked the peak of Coltrane's 'sheets of sound' period.",
-    "keyTracks": ["Giant Steps", "Cousin Mary", "Countdown", "Naima"],
-    "coverUrl": "https://coverartarchive.org/release/s8r7q6d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/76093"
+    "keyTracks": [
+      "Giant Steps",
+      "Cousin Mary",
+      "Countdown",
+      "Naima"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/59eece9d-0b48-4282-ba91-45bd7758e633/7483974620-500.jpg",
+    "discogs": "https://www.discogs.com/master/76093",
+    "spotifyUrl": "https://open.spotify.com/album/7cZ6oBx0SEUPDAoxJtxNDh"
   },
   {
     "id": "money-jungle",
@@ -307,12 +533,21 @@
     "year": 1963,
     "label": "United Artists",
     "era": "hard-bop",
-    "genres": ["avant-garde jazz", "piano trio"],
+    "genres": [
+      "avant-garde jazz",
+      "piano trio"
+    ],
     "description": "An explosive trio session with Charles Mingus and Max Roach. Three jazz giants from different generations create music of startling intensity and beauty.",
     "significance": "Proved that Ellington could hold his own with the avant-garde. The generational clash produced some of the most exciting music of all three careers.",
-    "keyTracks": ["Money Jungle", "Fleurette Africaine", "Very Special", "Caravan"],
-    "coverUrl": "https://coverartarchive.org/release/t9s8r7d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/103891"
+    "keyTracks": [
+      "Money Jungle",
+      "Fleurette Africaine",
+      "Very Special",
+      "Caravan"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/0389a429-0dcc-3b0d-949b-0cbfd8351354/24445018745-500.jpg",
+    "discogs": "https://www.discogs.com/master/103891",
+    "spotifyUrl": "https://open.spotify.com/album/5I3aoewqDpP4TglIl9O7su"
   },
   {
     "id": "the-sidewinder",
@@ -322,12 +557,21 @@
     "year": 1964,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["hard bop", "soul jazz"],
+    "genres": [
+      "hard bop",
+      "soul jazz"
+    ],
     "description": "A commercial breakthrough that brought jazz to jukebox audiences. The funky title track became a surprise hit, introducing hard bop to a wider audience.",
     "significance": "Demonstrated that artistic jazz could also be commercially viable. The 'Sidewinder' beat influenced countless soul jazz recordings.",
-    "keyTracks": ["The Sidewinder", "Totem Pole", "Gary's Notebook", "Boy, What a Night"],
-    "coverUrl": "https://coverartarchive.org/release/u0t9s8d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/78497"
+    "keyTracks": [
+      "The Sidewinder",
+      "Totem Pole",
+      "Gary's Notebook",
+      "Boy, What a Night"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/6b09dbc1-b4be-4fb9-9996-886b32852a19/15723875333-500.jpg",
+    "discogs": "https://www.discogs.com/master/78497",
+    "spotifyUrl": "https://open.spotify.com/album/5yhhdRQNY08xnU40Tm3zzi"
   },
   {
     "id": "song-for-my-father",
@@ -337,12 +581,21 @@
     "year": 1965,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["hard bop", "soul jazz"],
+    "genres": [
+      "hard bop",
+      "soul jazz"
+    ],
     "description": "Silver's tribute to his Cape Verdean father features one of the most recognizable bass lines in jazz. The album perfects his signature blend of hard bop and Latin rhythms.",
     "significance": "The title track's riff was later sampled by Steely Dan for 'Rikki Don't Lose That Number.' Silver's funky hard bop style influenced generations.",
-    "keyTracks": ["Song for My Father", "The Natives Are Restless Tonight", "Que Pasa", "Calcutta Cutie"],
-    "coverUrl": "https://coverartarchive.org/release/v1u0t9d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/78466"
+    "keyTracks": [
+      "Song for My Father",
+      "The Natives Are Restless Tonight",
+      "Que Pasa",
+      "Calcutta Cutie"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/127d130d-a465-4e46-b30a-44f8693f25b4/15723860231-500.jpg",
+    "discogs": "https://www.discogs.com/master/78466",
+    "spotifyUrl": "https://open.spotify.com/album/4LEnATSqKeANOJ0mLUAuCE"
   },
   {
     "id": "at-carnegie-hall",
@@ -352,10 +605,17 @@
     "year": 1957,
     "label": "Blue Note",
     "era": "bebop",
-    "genres": ["bebop"],
+    "genres": [
+      "bebop"
+    ],
     "description": "A historic live recording capturing two jazz giants together. Coltrane's intense explorations complement Monk's angular genius perfectly.",
     "significance": "Documents the brief but legendary collaboration between Monk and Coltrane, two of jazz's most distinctive voices.",
-    "keyTracks": ["Monk's Mood", "Evidence", "Crepuscule with Nellie", "Nutty"],
+    "keyTracks": [
+      "Monk's Mood",
+      "Evidence",
+      "Crepuscule with Nellie",
+      "Nutty"
+    ],
     "coverUrl": "https://coverartarchive.org/release/w2v1u0d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/254523"
   },
@@ -367,11 +627,17 @@
     "year": 1961,
     "label": "Atlantic",
     "era": "free-jazz",
-    "genres": ["free jazz", "avant-garde"],
+    "genres": [
+      "free jazz",
+      "avant-garde"
+    ],
     "description": "A 37-minute continuous improvisation by two quartets playing simultaneously. The album that gave the free jazz movement its name.",
     "significance": "Defined the aesthetic of free jazz: collective improvisation without predetermined structure. Its influence extended to rock, punk, and experimental music.",
-    "keyTracks": ["Free Jazz, Part 1", "Free Jazz, Part 2"],
-    "coverUrl": "https://coverartarchive.org/release/x3w2v1d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
+    "keyTracks": [
+      "Free Jazz, Part 1",
+      "Free Jazz, Part 2"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/d45fdf4a-986a-4aff-89a9-be5717b5248a/26157872144-500.jpg",
     "discogs": "https://www.discogs.com/master/70289"
   },
   {
@@ -382,11 +648,19 @@
     "year": 1954,
     "label": "Pacific Jazz",
     "era": "cool-jazz",
-    "genres": ["cool jazz", "vocal jazz"],
+    "genres": [
+      "cool jazz",
+      "vocal jazz"
+    ],
     "description": "Baker's vulnerable, intimate vocal style created a new paradigm for male jazz singers. His understated trumpet and vocals made him an unlikely teen idol.",
     "significance": "Proved that jazz vocals could be introverted and intimate. Baker's romantic fragility influenced generations of singers.",
-    "keyTracks": ["My Funny Valentine", "But Not for Me", "Time After Time", "I Fall in Love Too Easily"],
-    "coverUrl": "https://coverartarchive.org/release/y4x3w2d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
+    "keyTracks": [
+      "My Funny Valentine",
+      "But Not for Me",
+      "Time After Time",
+      "I Fall in Love Too Easily"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/dc0bbfac-ccd4-4c43-a6d7-cfd8b167b137/20467064971-500.jpg",
     "discogs": "https://www.discogs.com/master/188764"
   },
   {
@@ -397,12 +671,21 @@
     "year": 1964,
     "label": "Verve",
     "era": "cool-jazz",
-    "genres": ["bossa nova", "cool jazz"],
+    "genres": [
+      "bossa nova",
+      "cool jazz"
+    ],
     "description": "The album that sparked the bossa nova craze in America. 'The Girl from Ipanema' featuring Astrud Gilberto became one of the most recorded songs ever.",
     "significance": "Created a new genre by fusing Brazilian rhythms with American jazz. Its commercial success opened doors for world music in jazz.",
-    "keyTracks": ["The Girl from Ipanema", "Corcovado", "Desafinado", "O Grande Amor"],
-    "coverUrl": "https://coverartarchive.org/release/z5y4x3d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/109789"
+    "keyTracks": [
+      "The Girl from Ipanema",
+      "Corcovado",
+      "Desafinado",
+      "O Grande Amor"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/1cb544a7-f1d6-4159-9661-8645cbaf257c/32266373665-500.jpg",
+    "discogs": "https://www.discogs.com/master/109789",
+    "spotifyUrl": "https://open.spotify.com/album/08HyQbnGbDvcZmEM5hPRrr"
   },
   {
     "id": "somethin-else",
@@ -412,12 +695,20 @@
     "year": 1958,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["hard bop"],
+    "genres": [
+      "hard bop"
+    ],
     "description": "Nominally Adderley's album, but Miles Davis's presence and arrangements give it a special character. The opening track became a definitive version of 'Autumn Leaves.'",
     "significance": "A perfect example of hard bop's blend of sophistication and soul. The collaboration between Adderley and Davis was magic.",
-    "keyTracks": ["Autumn Leaves", "Love for Sale", "Somethin' Else", "One for Daddy-O"],
-    "coverUrl": "https://coverartarchive.org/release/a6z5y4d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/78462"
+    "keyTracks": [
+      "Autumn Leaves",
+      "Love for Sale",
+      "Somethin' Else",
+      "One for Daddy-O"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/1edd139d-4779-4057-8e12-13c783674f0d/34246979600-500.jpg",
+    "discogs": "https://www.discogs.com/master/78462",
+    "spotifyUrl": "https://open.spotify.com/album/3Wu0chxAm4GxSeRnIIf2Om"
   },
   {
     "id": "empyrean-isles",
@@ -427,11 +718,19 @@
     "year": 1964,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["hard bop", "post-bop"],
+    "genres": [
+      "hard bop",
+      "post-bop"
+    ],
     "description": "Features 'Cantaloupe Island,' one of the most sampled jazz tracks ever. The album showcases Hancock's ability to blend accessibility with sophistication.",
     "significance": "Bridged hard bop and the emerging jazz-funk sound. 'Cantaloupe Island' became a hip-hop staple decades later.",
-    "keyTracks": ["Cantaloupe Island", "The Egg", "Oliloqui Valley", "One Finger Snap"],
-    "coverUrl": "https://coverartarchive.org/release/b7a6z5d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
+    "keyTracks": [
+      "Cantaloupe Island",
+      "The Egg",
+      "Oliloqui Valley",
+      "One Finger Snap"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/d730086f-b493-4df7-9a82-e73a6e9a7c64/8705369968-500.jpg",
     "discogs": "https://www.discogs.com/master/78502"
   },
   {
@@ -442,10 +741,17 @@
     "year": 1953,
     "label": "Debut",
     "era": "bebop",
-    "genres": ["bebop"],
+    "genres": [
+      "bebop"
+    ],
     "description": "The only recorded meeting of Charlie Parker, Dizzy Gillespie, Bud Powell, Charles Mingus, and Max Roach. Despite technical problems, it captures bebop's greatest players together.",
     "significance": "Documents the bebop era's all-star summit. The concert has become legendary as the greatest bebop performance ever recorded.",
-    "keyTracks": ["Perdido", "Salt Peanuts", "All the Things You Are", "Wee"],
+    "keyTracks": [
+      "Perdido",
+      "Salt Peanuts",
+      "All the Things You Are",
+      "Wee"
+    ],
     "coverUrl": "https://coverartarchive.org/release/c8b7a6d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/181234"
   },
@@ -457,11 +763,19 @@
     "year": 1960,
     "label": "Atlantic",
     "era": "hard-bop",
-    "genres": ["hard bop", "soul jazz"],
+    "genres": [
+      "hard bop",
+      "soul jazz"
+    ],
     "description": "Mingus's response to critics who said he'd forgotten the blues. A powerful, gospel-drenched session that proved he could be earthy without sacrificing sophistication.",
     "significance": "Showed that avant-garde ambitions and blues roots weren't mutually exclusive. The album's raw energy influenced countless musicians.",
-    "keyTracks": ["Wednesday Night Prayer Meeting", "Moanin'", "Tensions", "E's Flat Ah's Flat Too"],
-    "coverUrl": "https://coverartarchive.org/release/d9c8b7d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
+    "keyTracks": [
+      "Wednesday Night Prayer Meeting",
+      "Moanin'",
+      "Tensions",
+      "E's Flat Ah's Flat Too"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/19572e11-8668-4fb2-959c-8a4f186b092b/6227989646-500.jpg",
     "discogs": "https://www.discogs.com/master/103726"
   },
   {
@@ -472,12 +786,21 @@
     "year": 1977,
     "label": "Columbia",
     "era": "fusion",
-    "genres": ["jazz fusion", "jazz-funk"],
+    "genres": [
+      "jazz fusion",
+      "jazz-funk"
+    ],
     "description": "The commercial peak of jazz fusion, featuring Jaco Pastorius's revolutionary bass work. 'Birdland' became the most recognizable fusion track ever.",
     "significance": "Proved fusion could be sophisticated and commercially successful. Pastorius's fretless bass playing changed the instrument forever.",
-    "keyTracks": ["Birdland", "A Remark You Made", "Teen Town", "Palladium"],
-    "coverUrl": "https://coverartarchive.org/release/e0d9c8d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/40515"
+    "keyTracks": [
+      "Birdland",
+      "A Remark You Made",
+      "Teen Town",
+      "Palladium"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/62eba4e5-264a-4d9d-a885-bd2d5a4ee26c/18622429822-500.jpg",
+    "discogs": "https://www.discogs.com/master/40515",
+    "spotifyUrl": "https://open.spotify.com/album/2M9F2yYsUvqiBPwUGeNvn1"
   },
   {
     "id": "return-to-forever",
@@ -487,12 +810,21 @@
     "year": 1972,
     "label": "ECM",
     "era": "fusion",
-    "genres": ["jazz fusion", "Latin jazz"],
+    "genres": [
+      "jazz fusion",
+      "Latin jazz"
+    ],
     "description": "The debut of Corea's influential band, blending Brazilian rhythms, electric instruments, and acoustic jazz into a new synthesis.",
     "significance": "Helped define the ECM sound and the more lyrical side of fusion. The band became one of the most influential fusion groups.",
-    "keyTracks": ["Return to Forever", "Crystal Silence", "What Game Shall We Play Today", "La Fiesta"],
-    "coverUrl": "https://coverartarchive.org/release/f1e0d9d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/169312"
+    "keyTracks": [
+      "Return to Forever",
+      "Crystal Silence",
+      "What Game Shall We Play Today",
+      "La Fiesta"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/0a779a9f-c0ad-3661-880f-b4277365738e/4327744677-500.jpg",
+    "discogs": "https://www.discogs.com/master/169312",
+    "spotifyUrl": "https://open.spotify.com/album/6M0IAJHwQ6dFNtTkFsXCJc"
   },
   {
     "id": "in-a-silent-way",
@@ -502,12 +834,19 @@
     "year": 1969,
     "label": "Columbia",
     "era": "fusion",
-    "genres": ["jazz fusion", "ambient jazz"],
+    "genres": [
+      "jazz fusion",
+      "ambient jazz"
+    ],
     "description": "The bridge between Miles's acoustic and electric periods. Dreamy, atmospheric, and revolutionary in its use of studio editing and electric instruments.",
     "significance": "Created a new jazz aesthetic: spacious, ambient, and hypnotic. It paved the way for Bitches Brew and all of fusion.",
-    "keyTracks": ["Shhh/Peaceful", "In a Silent Way/It's About That Time"],
-    "coverUrl": "https://coverartarchive.org/release/g2f1e0d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/5496"
+    "keyTracks": [
+      "Shhh/Peaceful",
+      "In a Silent Way/It's About That Time"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/a6b26059-6e82-45ca-b24f-8e5c82292cd4/35557853283-500.jpg",
+    "discogs": "https://www.discogs.com/master/5496",
+    "spotifyUrl": "https://open.spotify.com/album/0Hs3BomCdwIWRhgT57x22T"
   },
   {
     "id": "the-koln-concert",
@@ -517,12 +856,21 @@
     "year": 1975,
     "label": "ECM",
     "era": "contemporary",
-    "genres": ["solo piano", "improvised music"],
+    "genres": [
+      "solo piano",
+      "improvised music"
+    ],
     "description": "A completely improvised solo piano concert that became the best-selling solo jazz and piano album ever. Jarrett created an hour of music spontaneously.",
     "significance": "Proved that totally improvised music could reach a mass audience. Its influence on solo piano music has been immense.",
-    "keyTracks": ["Part I", "Part IIa", "Part IIb", "Part IIc"],
-    "coverUrl": "https://coverartarchive.org/release/h3g2f1d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/138926"
+    "keyTracks": [
+      "Part I",
+      "Part IIa",
+      "Part IIb",
+      "Part IIc"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/d3348057-a87d-408e-99d2-34d6bf15e7b0/7579697195-500.jpg",
+    "discogs": "https://www.discogs.com/master/138926",
+    "spotifyUrl": "https://open.spotify.com/album/0I8vpSE1bSmysN2PhmHoQg"
   },
   {
     "id": "black-codes",
@@ -532,10 +880,18 @@
     "year": 1985,
     "label": "Columbia",
     "era": "contemporary",
-    "genres": ["post-bop", "neo-traditional jazz"],
+    "genres": [
+      "post-bop",
+      "neo-traditional jazz"
+    ],
     "description": "Marsalis's artistic breakthrough, moving beyond his earlier, more derivative work to forge his own voice within the tradition.",
     "significance": "Announced the neo-traditional movement and proved that young musicians could engage with tradition without being trapped by it.",
-    "keyTracks": ["Black Codes", "For Wee Folks", "Delfeayo's Dilemma", "Phryzzinian Man"],
+    "keyTracks": [
+      "Black Codes",
+      "For Wee Folks",
+      "Delfeayo's Dilemma",
+      "Phryzzinian Man"
+    ],
     "coverUrl": "https://coverartarchive.org/release/i4h3g2d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/418269"
   },
@@ -547,11 +903,19 @@
     "year": 1965,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["hard bop", "post-bop"],
+    "genres": [
+      "hard bop",
+      "post-bop"
+    ],
     "description": "A mysterious, evocative album showcasing Shorter's unique compositional voice. Every track is a gem of mid-60s Blue Note.",
     "significance": "Established Shorter's signature style: moody, oblique, and unforgettable. The album influenced the direction of jazz composition.",
-    "keyTracks": ["JuJu", "Deluge", "House of Jade", "Mahjong"],
-    "coverUrl": "https://coverartarchive.org/release/j5i4h3d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
+    "keyTracks": [
+      "JuJu",
+      "Deluge",
+      "House of Jade",
+      "Mahjong"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/6212044d-287e-4740-a50a-7f589856a818/15724302888-500.jpg",
     "discogs": "https://www.discogs.com/master/78520"
   },
   {
@@ -562,12 +926,21 @@
     "year": 1961,
     "label": "Riverside",
     "era": "cool-jazz",
-    "genres": ["cool jazz", "piano trio"],
+    "genres": [
+      "cool jazz",
+      "piano trio"
+    ],
     "description": "Recorded the same day as Sunday at the Village Vanguard, this album captures the trio's more lyrical side. The title track, written for Evans's niece, became a standard.",
     "significance": "Demonstrated the piano trio's potential for intimate, chamber-like jazz. Its influence on modern jazz piano is incalculable.",
-    "keyTracks": ["Waltz for Debby", "My Foolish Heart", "Detour Ahead", "Milestones"],
-    "coverUrl": "https://coverartarchive.org/release/k6j5i4d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/102462"
+    "keyTracks": [
+      "Waltz for Debby",
+      "My Foolish Heart",
+      "Detour Ahead",
+      "Milestones"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/f1f43c39-4c7f-40ed-bb08-33ba6d6d6c34/21779513938-500.jpg",
+    "discogs": "https://www.discogs.com/master/102462",
+    "spotifyUrl": "https://open.spotify.com/album/3SNo2NOIHpUN6AxIXiaixC"
   },
   {
     "id": "night-dreamer",
@@ -577,11 +950,18 @@
     "year": 1964,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["hard bop"],
+    "genres": [
+      "hard bop"
+    ],
     "description": "Shorter's debut as a leader for Blue Note, featuring Lee Morgan. The album introduced his distinctive compositional style to a wider audience.",
     "significance": "Marked the beginning of Shorter's extraordinary run of Blue Note albums. His compositions became jazz standards.",
-    "keyTracks": ["Night Dreamer", "Oriental Folk Song", "Virgo", "Black Nile"],
-    "coverUrl": "https://coverartarchive.org/release/l7k6j5d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
+    "keyTracks": [
+      "Night Dreamer",
+      "Oriental Folk Song",
+      "Virgo",
+      "Black Nile"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/9f24ffe6-6c21-48eb-9c0b-0bd1cb00878a/15724200995-500.jpg",
     "discogs": "https://www.discogs.com/master/78516"
   },
   {
@@ -592,10 +972,17 @@
     "year": 1954,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["hard bop"],
+    "genres": [
+      "hard bop"
+    ],
     "description": "A live recording that captured the energy and excitement of hard bop at its birth. Clifford Brown's trumpet and Blakey's drums create electric interplay.",
     "significance": "One of the first great hard bop recordings, establishing the template for the Jazz Messengers and countless groups to follow.",
-    "keyTracks": ["Split Kick", "A Night in Tunisia", "Mayreh", "Quicksilver"],
+    "keyTracks": [
+      "Split Kick",
+      "A Night in Tunisia",
+      "Mayreh",
+      "Quicksilver"
+    ],
     "coverUrl": "https://coverartarchive.org/release/m8l7k6d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/78448"
   },
@@ -607,11 +994,19 @@
     "year": 1965,
     "label": "Blue Note",
     "era": "free-jazz",
-    "genres": ["avant-garde jazz", "post-bop"],
+    "genres": [
+      "avant-garde jazz",
+      "post-bop"
+    ],
     "description": "A landmark of avant-garde jazz featuring Eric Dolphy, Kenny Dorham, and Joe Henderson. Hill's angular compositions push the boundaries while remaining listenable.",
     "significance": "Proved that avant-garde jazz could be structured and accessible. Hill's unique harmonic language influenced generations.",
-    "keyTracks": ["Refuge", "New Monastery", "Spectrum", "Flight 19"],
-    "coverUrl": "https://coverartarchive.org/release/n9m8l7d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
+    "keyTracks": [
+      "Refuge",
+      "New Monastery",
+      "Spectrum",
+      "Flight 19"
+    ],
+    "coverUrl": "https://coverartarchive.org/release/35fd3bd6-b85e-43c1-ace4-ba478742f2a1/11745674603-500.jpg",
     "discogs": "https://www.discogs.com/master/78544"
   },
   {
@@ -622,10 +1017,16 @@
     "year": 1965,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["hard bop"],
+    "genres": [
+      "hard bop"
+    ],
     "description": "A compilation reference - Hubbard's Blue Note sessions defined hard bop trumpet. His fiery technique and soulful phrasing made him the era's dominant trumpeter.",
     "significance": "Hubbard brought new energy to hard bop trumpet, bridging the gap between Clifford Brown and the avant-garde.",
-    "keyTracks": ["Open Sesame", "Hub-Tones", "Ready for Freddie"],
+    "keyTracks": [
+      "Open Sesame",
+      "Hub-Tones",
+      "Ready for Freddie"
+    ],
     "coverUrl": "https://coverartarchive.org/release/o0n9m8d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/78509"
   },
@@ -637,11 +1038,17 @@
     "year": 1966,
     "label": "Blue Note",
     "era": "free-jazz",
-    "genres": ["free jazz", "avant-garde"],
+    "genres": [
+      "free jazz",
+      "avant-garde"
+    ],
     "description": "Taylor's most celebrated recording, featuring two extended pieces of dense, complex free improvisation. The music is demanding but rewarding.",
     "significance": "Established Taylor as free jazz's most uncompromising voice. His percussive piano style influenced countless avant-garde musicians.",
-    "keyTracks": ["Steps", "Unit Structure/As of a Now/Section"],
-    "coverUrl": "https://coverartarchive.org/release/p1o0n9d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
+    "keyTracks": [
+      "Steps",
+      "Unit Structure/As of a Now/Section"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/f30f6185-b20c-445a-b945-bcea693fc8c1/36835050447-500.jpg",
     "discogs": "https://www.discogs.com/master/190476"
   },
   {
@@ -652,10 +1059,18 @@
     "year": 1970,
     "label": "Columbia",
     "era": "fusion",
-    "genres": ["jazz-rock", "fusion"],
+    "genres": [
+      "jazz-rock",
+      "fusion"
+    ],
     "description": "Recorded at Bill Graham's famous rock venue, this album captures Miles's electric band at peak intensity, playing for a rock audience.",
     "significance": "Documented Miles's successful crossover to rock audiences. The band's energy and volume influenced both jazz and rock musicians.",
-    "keyTracks": ["Wednesday Miles", "Thursday Miles", "Friday Miles", "Saturday Miles"],
+    "keyTracks": [
+      "Wednesday Miles",
+      "Thursday Miles",
+      "Friday Miles",
+      "Saturday Miles"
+    ],
     "coverUrl": "https://coverartarchive.org/release/q2p1o0d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/5508"
   },
@@ -667,11 +1082,19 @@
     "year": 1974,
     "label": "Columbia",
     "era": "fusion",
-    "genres": ["jazz-funk", "fusion"],
+    "genres": [
+      "jazz-funk",
+      "fusion"
+    ],
     "description": "The follow-up to Head Hunters continued Hancock's exploration of funk, featuring the Headhunters band and even deeper grooves.",
     "significance": "Solidified Hancock's position as fusion's most commercially successful artist while maintaining artistic integrity.",
-    "keyTracks": ["Palm Grease", "Actual Proof", "Butterfly", "Spank-A-Lee"],
-    "coverUrl": "https://coverartarchive.org/release/r3q2p1d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
+    "keyTracks": [
+      "Palm Grease",
+      "Actual Proof",
+      "Butterfly",
+      "Spank-A-Lee"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/c5caeea7-7b96-39ef-8306-032f1f4776f1/8728957198-500.jpg",
     "discogs": "https://www.discogs.com/master/50000"
   },
   {
@@ -682,11 +1105,19 @@
     "year": 1976,
     "label": "ECM",
     "era": "fusion",
-    "genres": ["jazz fusion", "ECM jazz"],
+    "genres": [
+      "jazz fusion",
+      "ECM jazz"
+    ],
     "description": "Metheny's debut as a leader, featuring Jaco Pastorius on bass. The album introduced his distinctive guitar sound and compositional voice.",
     "significance": "Launched Metheny's influential career and showcased a new direction for jazz guitar. His ECM sound influenced a generation.",
-    "keyTracks": ["Bright Size Life", "Unity Village", "Missouri Uncompromised", "Omaha Celebration"],
-    "coverUrl": "https://coverartarchive.org/release/s4r3q2d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
+    "keyTracks": [
+      "Bright Size Life",
+      "Unity Village",
+      "Missouri Uncompromised",
+      "Omaha Celebration"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/b60d1bc5-a18c-38ca-a26b-6e040d5d7acb/15735856891-500.jpg",
     "discogs": "https://www.discogs.com/master/113478"
   },
   {
@@ -697,10 +1128,18 @@
     "year": 1978,
     "label": "ECM",
     "era": "contemporary",
-    "genres": ["ECM jazz", "chamber jazz"],
+    "genres": [
+      "ECM jazz",
+      "chamber jazz"
+    ],
     "description": "A beautiful quartet album featuring Jan Garbarek's distinctive saxophone. The title track became one of Jarrett's most beloved compositions.",
     "significance": "Defined the ECM aesthetic: spacious, lyrical, and Nordic. The European Quartet's sound influenced countless musicians.",
-    "keyTracks": ["My Song", "Questar", "Tabarka", "Country"],
+    "keyTracks": [
+      "My Song",
+      "Questar",
+      "Tabarka",
+      "Country"
+    ],
     "coverUrl": "https://coverartarchive.org/release/t5s4r3d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/138934"
   },
@@ -712,12 +1151,21 @@
     "year": 2012,
     "label": "Blue Note",
     "era": "contemporary",
-    "genres": ["jazz hip-hop", "R&B jazz"],
+    "genres": [
+      "jazz hip-hop",
+      "R&B jazz"
+    ],
     "description": "A groundbreaking fusion of jazz with hip-hop and R&B, featuring collaborations with Erykah Badu, Lupe Fiasco, and Bilal.",
     "significance": "Proved jazz could engage with contemporary Black music without losing its identity. It won the Grammy for Best R&B Album.",
-    "keyTracks": ["Lift Off", "Afro Blue", "Cherish the Day", "Letter to Hermione"],
-    "coverUrl": "https://coverartarchive.org/release/u6t5s4d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/412469"
+    "keyTracks": [
+      "Lift Off",
+      "Afro Blue",
+      "Cherish the Day",
+      "Letter to Hermione"
+    ],
+    "coverUrl": "https://coverartarchive.org/release/f202506d-74c1-40ec-8a8e-f800076fbdce/9280874905-500.jpg",
+    "discogs": "https://www.discogs.com/master/412469",
+    "spotifyUrl": "https://open.spotify.com/album/1yqUCdbw73DpnHBVDwNa3X"
   },
   {
     "id": "esperanza",
@@ -727,11 +1175,19 @@
     "year": 2008,
     "label": "Heads Up",
     "era": "contemporary",
-    "genres": ["jazz", "world music"],
+    "genres": [
+      "jazz",
+      "world music"
+    ],
     "description": "The album that introduced Spalding to a wider audience, showcasing her virtuosic bass playing, distinctive vocals, and genre-blending compositions.",
     "significance": "Announced a major new voice in jazz who would go on to win the Grammy for Best New Artist over Justin Bieber.",
-    "keyTracks": ["Ponta de Areia", "Mela", "I Know You Know", "Espera"],
-    "coverUrl": "https://coverartarchive.org/release/v7u6t5d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
+    "keyTracks": [
+      "Ponta de Areia",
+      "Mela",
+      "I Know You Know",
+      "Espera"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/ee53f89e-346e-4cab-a8ee-8c253ab25d95/26709462882-500.jpg",
     "discogs": "https://www.discogs.com/master/287612"
   },
   {
@@ -742,12 +1198,21 @@
     "year": 2015,
     "label": "Brainfeeder",
     "era": "contemporary",
-    "genres": ["spiritual jazz", "jazz fusion"],
+    "genres": [
+      "spiritual jazz",
+      "jazz fusion"
+    ],
     "description": "A sprawling three-hour triple album that announced Washington as a major new voice in jazz. Ambitious, spiritual, and accessible.",
     "significance": "Brought jazz to a new audience through collaborations with Kendrick Lamar and Flying Lotus. It sparked renewed interest in spiritual jazz.",
-    "keyTracks": ["Change of the Guard", "Askim", "The Rhythm Changes", "Cherokee"],
-    "coverUrl": "https://coverartarchive.org/release/w8v7u6d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
-    "discogs": "https://www.discogs.com/master/853917"
+    "keyTracks": [
+      "Change of the Guard",
+      "Askim",
+      "The Rhythm Changes",
+      "Cherokee"
+    ],
+    "coverUrl": "https://coverartarchive.org/release/b303e6b3-216c-4cf5-ad0c-96c70e9b60a6/11149439118-500.jpg",
+    "discogs": "https://www.discogs.com/master/853917",
+    "spotifyUrl": "https://open.spotify.com/album/2j2q2ySuVk43eHB8wI5XQj"
   },
   {
     "id": "we-insist",
@@ -757,11 +1222,19 @@
     "year": 1960,
     "label": "Candid",
     "era": "hard-bop",
-    "genres": ["protest jazz", "hard bop"],
+    "genres": [
+      "protest jazz",
+      "hard bop"
+    ],
     "description": "A powerful musical statement on the civil rights movement, featuring Abbey Lincoln's searing vocals and Roach's driving drums.",
     "significance": "One of the first jazz albums to directly address civil rights. Its uncompromising message influenced politically conscious jazz.",
-    "keyTracks": ["Driva' Man", "Freedom Day", "Triptych: Prayer/Protest/Peace", "All Africa"],
-    "coverUrl": "https://coverartarchive.org/release/x9w8v7d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
+    "keyTracks": [
+      "Driva' Man",
+      "Freedom Day",
+      "Triptych: Prayer/Protest/Peace",
+      "All Africa"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/3f83df01-bdca-461c-b655-9252d255d0fd/3661639583-500.jpg",
     "discogs": "https://www.discogs.com/master/183478"
   },
   {
@@ -772,10 +1245,17 @@
     "year": 1999,
     "label": "Warner Bros.",
     "era": "contemporary",
-    "genres": ["post-bop", "piano trio"],
+    "genres": [
+      "post-bop",
+      "piano trio"
+    ],
     "description": "Part of Mehldau's acclaimed Art of the Trio series, showcasing his unique approach to standards and original compositions.",
     "significance": "Established Mehldau as the most important jazz pianist of his generation. His classical influences brought new depth to the piano trio.",
-    "keyTracks": ["The Very Thought of You", "Sehnsucht", "Young at Heart"],
+    "keyTracks": [
+      "The Very Thought of You",
+      "Sehnsucht",
+      "Young at Heart"
+    ],
     "coverUrl": "https://coverartarchive.org/release/y0x9w8d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/376654"
   },
@@ -787,11 +1267,17 @@
     "year": 1966,
     "label": "Impulse!",
     "era": "free-jazz",
-    "genres": ["free jazz", "spiritual jazz"],
+    "genres": [
+      "free jazz",
+      "spiritual jazz"
+    ],
     "description": "An extreme free jazz session with 11 musicians creating walls of sound. Coltrane's most radical statement, dividing audiences and critics.",
     "significance": "Pushed free jazz to its limits. Its intensity and spirituality influenced noise music, metal, and avant-garde rock.",
-    "keyTracks": ["Ascension (Edition I)", "Ascension (Edition II)"],
-    "coverUrl": "https://coverartarchive.org/release/z1y0x9d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
+    "keyTracks": [
+      "Ascension (Edition I)",
+      "Ascension (Edition II)"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/06ea40db-8b62-3edc-a854-16618892e835/24153546528-500.jpg",
     "discogs": "https://www.discogs.com/master/90949"
   },
   {
@@ -802,11 +1288,19 @@
     "year": 1960,
     "label": "Riverside",
     "era": "cool-jazz",
-    "genres": ["cool jazz", "piano trio"],
+    "genres": [
+      "cool jazz",
+      "piano trio"
+    ],
     "description": "The first studio album by Evans's classic trio with Scott LaFaro and Paul Motian. Their interactive approach revolutionized the piano trio format.",
     "significance": "Established the template for modern jazz piano trio playing. The three-way conversation between instruments became the gold standard.",
-    "keyTracks": ["Autumn Leaves", "Witchcraft", "Blue in Green", "Come Rain or Come Shine"],
-    "coverUrl": "https://coverartarchive.org/release/a2z1y0d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
+    "keyTracks": [
+      "Autumn Leaves",
+      "Witchcraft",
+      "Blue in Green",
+      "Come Rain or Come Shine"
+    ],
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/en/5/52/Portrait_in_jazz.jpg",
     "discogs": "https://www.discogs.com/master/102459"
   },
   {
@@ -817,11 +1311,18 @@
     "year": 1955,
     "label": "EmArcy",
     "era": "hard-bop",
-    "genres": ["hard bop"],
+    "genres": [
+      "hard bop"
+    ],
     "description": "A definitive hard bop album showcasing Brown's brilliant trumpet and Roach's dynamic drumming. The co-led quintet was a model of democratic jazz.",
     "significance": "Established Brown as the most promising trumpeter of his generation before his tragic death. His influence lived on through Lee Morgan, Freddie Hubbard, and others.",
-    "keyTracks": ["Cherokee", "Jacqui", "Swingin'", "Lands End"],
-    "coverUrl": "https://coverartarchive.org/release/b3a2z1d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
+    "keyTracks": [
+      "Cherokee",
+      "Jacqui",
+      "Swingin'",
+      "Lands End"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/928c547b-c0cb-420c-8233-a4b3df2b5727/3682570077-500.jpg",
     "discogs": "https://www.discogs.com/master/187234"
   },
   {
@@ -832,10 +1333,18 @@
     "year": 1971,
     "label": "Blue Note",
     "era": "fusion",
-    "genres": ["jazz fusion", "avant-garde"],
+    "genres": [
+      "jazz fusion",
+      "avant-garde"
+    ],
     "description": "Shorter's exploration of electronic textures and world music influences, bridging his Blue Note period and his work with Weather Report.",
     "significance": "Showed Shorter's restless creativity as he moved from acoustic to electric jazz. It presaged his Weather Report innovations.",
-    "keyTracks": ["Wind", "Storm", "Calm", "De Pois Do Amor, O Vazio"],
+    "keyTracks": [
+      "Wind",
+      "Storm",
+      "Calm",
+      "De Pois Do Amor, O Vazio"
+    ],
     "coverUrl": "https://coverartarchive.org/release/c4b3a2d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/191234"
   },
@@ -847,11 +1356,19 @@
     "year": 1967,
     "label": "Columbia",
     "era": "bebop",
-    "genres": ["bebop", "hard bop"],
+    "genres": [
+      "bebop",
+      "hard bop"
+    ],
     "description": "A classic quartet album featuring Charlie Rouse. The title track became one of Monk's most famous compositions.",
     "significance": "Captures Monk's mature quartet in peak form. His influence on jazz harmony and melody is fully displayed.",
-    "keyTracks": ["Straight, No Chaser", "Japanese Folk Song", "We See", "Green Chimneys"],
-    "coverUrl": "https://coverartarchive.org/release/d5c4b3d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
+    "keyTracks": [
+      "Straight, No Chaser",
+      "Japanese Folk Song",
+      "We See",
+      "Green Chimneys"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/896dbec2-4d30-465e-a048-34b6b839868c/7236855297-500.jpg",
     "discogs": "https://www.discogs.com/master/241987"
   },
   {
@@ -862,11 +1379,18 @@
     "year": 1963,
     "label": "Columbia",
     "era": "bebop",
-    "genres": ["bebop"],
+    "genres": [
+      "bebop"
+    ],
     "description": "Monk's first album for Columbia, featuring his classic quartet. The album brought his music to a wider audience.",
     "significance": "Marked Monk's commercial breakthrough without compromising his unique vision. His singular style remained intact.",
-    "keyTracks": ["Monk's Dream", "Body and Soul", "Bright Mississippi", "Bolivar Blues"],
-    "coverUrl": "https://coverartarchive.org/release/e6d5c4d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
+    "keyTracks": [
+      "Monk's Dream",
+      "Body and Soul",
+      "Bright Mississippi",
+      "Bolivar Blues"
+    ],
+    "coverUrl": "https://coverartarchive.org/release/ac8527cf-4ece-4e22-a50b-46120f9b5702/41289556612-500.jpg",
     "discogs": "https://www.discogs.com/master/85234"
   },
   {
@@ -877,10 +1401,18 @@
     "year": 1958,
     "label": "Argo",
     "era": "cool-jazz",
-    "genres": ["cool jazz", "piano trio"],
+    "genres": [
+      "cool jazz",
+      "piano trio"
+    ],
     "description": "A live recording that became one of the best-selling jazz albums of its era. Jamal's use of space and dynamics was revolutionary.",
     "significance": "Influenced Miles Davis's conception of space in music. Jamal's light touch and dramatic pauses changed jazz piano.",
-    "keyTracks": ["But Not for Me", "Poinciana", "Surrey with the Fringe on Top", "Moonlight in Vermont"],
+    "keyTracks": [
+      "But Not for Me",
+      "Poinciana",
+      "Surrey with the Fringe on Top",
+      "Moonlight in Vermont"
+    ],
     "coverUrl": "https://coverartarchive.org/release/f7e6d5d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/219456"
   },
@@ -892,10 +1424,18 @@
     "year": 2006,
     "label": "Blue Note",
     "era": "contemporary",
-    "genres": ["post-bop", "contemporary jazz"],
+    "genres": [
+      "post-bop",
+      "contemporary jazz"
+    ],
     "description": "Blanchard's tribute to New Orleans and its Congo Square heritage, recorded before and after Hurricane Katrina.",
     "significance": "A powerful statement about New Orleans' cultural importance and resilience. Blanchard's film scoring influence is evident.",
-    "keyTracks": ["Congo Square", "Levees", "Ghost of Congo Square", "The Water"],
+    "keyTracks": [
+      "Congo Square",
+      "Levees",
+      "Ghost of Congo Square",
+      "The Water"
+    ],
     "coverUrl": "https://coverartarchive.org/release/g8f7e6d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/456789"
   },
@@ -907,10 +1447,18 @@
     "year": 1962,
     "label": "RCA Victor",
     "era": "hard-bop",
-    "genres": ["hard bop", "post-bop"],
+    "genres": [
+      "hard bop",
+      "post-bop"
+    ],
     "description": "Rollins's triumphant return after a two-year sabbatical spent practicing on the Williamsburg Bridge. He came back stronger than ever.",
     "significance": "Documented one of jazz's great comebacks. Rollins emerged with renewed vigor and a broader musical palette.",
-    "keyTracks": ["Without a Song", "Where Are You?", "John S.", "The Bridge"],
+    "keyTracks": [
+      "Without a Song",
+      "Where Are You?",
+      "John S.",
+      "The Bridge"
+    ],
     "coverUrl": "https://coverartarchive.org/release/h9g8f7d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/97876"
   },
@@ -922,10 +1470,18 @@
     "year": 1972,
     "label": "Columbia",
     "era": "fusion",
-    "genres": ["jazz-funk", "experimental"],
+    "genres": [
+      "jazz-funk",
+      "experimental"
+    ],
     "description": "Miles's most radical album, fusing funk, rock, and African rhythms. Initially reviled, it's now considered a pioneering work.",
     "significance": "Ahead of its time, it influenced hip-hop, electronic music, and post-punk. Its reputation has grown enormously.",
-    "keyTracks": ["On the Corner", "Black Satin", "One and One", "Helen Butte"],
+    "keyTracks": [
+      "On the Corner",
+      "Black Satin",
+      "One and One",
+      "Helen Butte"
+    ],
     "coverUrl": "https://coverartarchive.org/release/i0h9g8d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/5516"
   },
@@ -937,10 +1493,18 @@
     "year": 1970,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["post-bop", "modal jazz"],
+    "genres": [
+      "post-bop",
+      "modal jazz"
+    ],
     "description": "A powerful statement featuring Alice Coltrane on harp. Tyner's muscular piano style and modal approach are fully developed.",
     "significance": "Showed Tyner's growth beyond his Coltrane Quartet years. His percussive left hand technique influenced generations.",
-    "keyTracks": ["Message from the Nile", "The Wanderer", "Survival Blues", "His Blessings"],
+    "keyTracks": [
+      "Message from the Nile",
+      "The Wanderer",
+      "Survival Blues",
+      "His Blessings"
+    ],
     "coverUrl": "https://coverartarchive.org/release/j1i0h9d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/191567"
   },
@@ -952,10 +1516,18 @@
     "year": 1971,
     "label": "Impulse!",
     "era": "free-jazz",
-    "genres": ["spiritual jazz", "world music"],
+    "genres": [
+      "spiritual jazz",
+      "world music"
+    ],
     "description": "A deeply spiritual album featuring harp, Pharoah Sanders, and Eastern influences. Alice Coltrane forged her own unique path.",
     "significance": "Established Alice Coltrane's independent voice. Her blend of jazz and spirituality influenced new age and ambient music.",
-    "keyTracks": ["Journey in Satchidananda", "Shiva-Loka", "Stopover Bombay", "Something About John Coltrane"],
+    "keyTracks": [
+      "Journey in Satchidananda",
+      "Shiva-Loka",
+      "Stopover Bombay",
+      "Something About John Coltrane"
+    ],
     "coverUrl": "https://coverartarchive.org/release/k2j1i0d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/103912"
   },
@@ -967,10 +1539,17 @@
     "year": 1964,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["hard bop"],
+    "genres": [
+      "hard bop"
+    ],
     "description": "An ambitious concept album featuring Wayne Shorter. Morgan's most mature statement before 'The Sidewinder's' commercial success.",
     "significance": "Showed Morgan's growth as a composer and thinker. The title track's mysterious mood was innovative for hard bop.",
-    "keyTracks": ["Search for the New Land", "The Joker", "Mr. Kenyatta", "Melancholee"],
+    "keyTracks": [
+      "Search for the New Land",
+      "The Joker",
+      "Mr. Kenyatta",
+      "Melancholee"
+    ],
     "coverUrl": "https://coverartarchive.org/release/l3k2j1d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/78495"
   },
@@ -982,10 +1561,18 @@
     "year": 1966,
     "label": "Capitol",
     "era": "hard-bop",
-    "genres": ["soul jazz", "hard bop"],
+    "genres": [
+      "soul jazz",
+      "hard bop"
+    ],
     "description": "A live recording featuring Joe Zawinul's funky title track. The album brought soul jazz to pop audiences.",
     "significance": "The title track became a crossover hit, proving jazz could reach mainstream audiences while maintaining integrity.",
-    "keyTracks": ["Mercy, Mercy, Mercy", "Fun", "Games", "Sticks"],
+    "keyTracks": [
+      "Mercy, Mercy, Mercy",
+      "Fun",
+      "Games",
+      "Sticks"
+    ],
     "coverUrl": "https://coverartarchive.org/release/m4l3k2d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/183456"
   },
@@ -997,10 +1584,16 @@
     "year": 1961,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["hard bop"],
+    "genres": [
+      "hard bop"
+    ],
     "description": "A soulful hard bop session featuring Pepper Adams's baritone sax. Byrd's warm trumpet tone is showcased beautifully.",
     "significance": "Demonstrates hard bop's soulful side. Byrd would later move into funk, but here he's pure hard bop.",
-    "keyTracks": ["Money in the Pocket", "Lover Come Back to Me", "Jorgie's"],
+    "keyTracks": [
+      "Money in the Pocket",
+      "Lover Come Back to Me",
+      "Jorgie's"
+    ],
     "coverUrl": "https://coverartarchive.org/release/n5m4l3d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/191823"
   },
@@ -1012,10 +1605,17 @@
     "year": 1975,
     "label": "Blue Note",
     "era": "fusion",
-    "genres": ["jazz-funk", "fusion"],
+    "genres": [
+      "jazz-funk",
+      "fusion"
+    ],
     "description": "Byrd's successful move into jazz-funk, featuring the Larry and Fonce Mizell production team. It became a hip-hop sampling staple.",
     "significance": "Bridged jazz and R&B audiences. Its influence on hip-hop production has been immense.",
-    "keyTracks": ["Change (Makes You Want to Hustle)", "Places and Spaces", "Wind Parade"],
+    "keyTracks": [
+      "Change (Makes You Want to Hustle)",
+      "Places and Spaces",
+      "Wind Parade"
+    ],
     "coverUrl": "https://coverartarchive.org/release/o6n5m4d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/78578"
   },
@@ -1027,10 +1627,18 @@
     "year": 1973,
     "label": "Atlantic",
     "era": "fusion",
-    "genres": ["jazz-rock", "fusion"],
+    "genres": [
+      "jazz-rock",
+      "fusion"
+    ],
     "description": "An explosive fusion album featuring Tommy Bolin on guitar. Cobham's drumming redefined what was possible in jazz-rock.",
     "significance": "One of fusion's most influential albums. Its virtuosity and power influenced rock and metal drummers.",
-    "keyTracks": ["Quadrant 4", "Stratus", "Red Baron", "Spectrum"],
+    "keyTracks": [
+      "Quadrant 4",
+      "Stratus",
+      "Red Baron",
+      "Spectrum"
+    ],
     "coverUrl": "https://coverartarchive.org/release/p7o6n5d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/102345"
   },
@@ -1042,10 +1650,18 @@
     "year": 1973,
     "label": "Columbia",
     "era": "fusion",
-    "genres": ["jazz-rock", "fusion"],
+    "genres": [
+      "jazz-rock",
+      "fusion"
+    ],
     "description": "The pinnacle of John McLaughlin's electric band, featuring intense compositions and virtuosic playing.",
     "significance": "Defined the louder, more aggressive side of fusion. Its influence on progressive rock was immense.",
-    "keyTracks": ["Birds of Fire", "Miles Beyond", "Celestial Terrestrial Commuters", "One Word"],
+    "keyTracks": [
+      "Birds of Fire",
+      "Miles Beyond",
+      "Celestial Terrestrial Commuters",
+      "One Word"
+    ],
     "coverUrl": "https://coverartarchive.org/release/q8p7o6d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/37456"
   },
@@ -1057,10 +1673,16 @@
     "year": 1985,
     "label": "Passport",
     "era": "fusion",
-    "genres": ["jazz fusion"],
+    "genres": [
+      "jazz fusion"
+    ],
     "description": "The debut of guitarist Scott Henderson and bassist Gary Willis's influential band, pushing fusion technique to new extremes.",
     "significance": "Influenced a generation of fusion guitarists with its technical demands and inventive compositions.",
-    "keyTracks": ["Canine", "Stella", "Spears"],
+    "keyTracks": [
+      "Canine",
+      "Stella",
+      "Spears"
+    ],
     "coverUrl": "https://coverartarchive.org/release/r9q8p7d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/287654"
   },
@@ -1072,10 +1694,17 @@
     "year": 1972,
     "label": "Blue Note",
     "era": "fusion",
-    "genres": ["soul jazz", "jazz-funk"],
+    "genres": [
+      "soul jazz",
+      "jazz-funk"
+    ],
     "description": "Foster's organ-driven debut featuring the title track, later famously sampled by A Tribe Called Quest.",
     "significance": "Bridged soul jazz and the emerging funk movement. Its influence on hip-hop cannot be overstated.",
-    "keyTracks": ["Mystic Brew", "Summer Song", "Chunky"],
+    "keyTracks": [
+      "Mystic Brew",
+      "Summer Song",
+      "Chunky"
+    ],
     "coverUrl": "https://coverartarchive.org/release/s0r9q8d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/191234"
   },
@@ -1087,10 +1716,18 @@
     "year": 1961,
     "label": "Riverside",
     "era": "cool-jazz",
-    "genres": ["cool jazz", "piano trio"],
+    "genres": [
+      "cool jazz",
+      "piano trio"
+    ],
     "description": "The second studio album by Evans's legendary trio, continuing their revolutionary approach to interaction.",
     "significance": "Further developed the trio's conversational approach. The intimacy and interplay became a model for all piano trios.",
-    "keyTracks": ["Israel", "Haunted Heart", "Beautiful Love", "Elsa"],
+    "keyTracks": [
+      "Israel",
+      "Haunted Heart",
+      "Beautiful Love",
+      "Elsa"
+    ],
     "coverUrl": "https://coverartarchive.org/release/t1s0r9d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/102461"
   },
@@ -1102,10 +1739,18 @@
     "year": 1966,
     "label": "Impulse!",
     "era": "free-jazz",
-    "genres": ["free jazz", "spiritual jazz"],
+    "genres": [
+      "free jazz",
+      "spiritual jazz"
+    ],
     "description": "A five-part suite with two drummers, featuring both the classic quartet and Pharoah Sanders. Intense, spiritual, and overwhelming.",
     "significance": "Pushed Coltrane's spiritual jazz to its extreme. Its intensity influenced noise music and spiritual jazz revivals.",
-    "keyTracks": ["The Father and the Son and the Holy Ghost", "Love", "Consequences", "Serenity"],
+    "keyTracks": [
+      "The Father and the Son and the Holy Ghost",
+      "Love",
+      "Consequences",
+      "Serenity"
+    ],
     "coverUrl": "https://coverartarchive.org/release/u2t1s0d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/90942"
   },
@@ -1117,10 +1762,17 @@
     "year": 1966,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["hard bop", "post-bop"],
+    "genres": [
+      "hard bop",
+      "post-bop"
+    ],
     "description": "Henderson's masterful Blue Note debut as a leader, showcasing his distinctive sound and compositional abilities.",
     "significance": "Established Henderson as a major voice on tenor saxophone. His blend of inside and outside playing was influential.",
-    "keyTracks": ["Mode for Joe", "A Shade of Jade", "Caribbean Fire Dance"],
+    "keyTracks": [
+      "Mode for Joe",
+      "A Shade of Jade",
+      "Caribbean Fire Dance"
+    ],
     "coverUrl": "https://coverartarchive.org/release/v3u2t1d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/78512"
   },
@@ -1132,10 +1784,18 @@
     "year": 1965,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["hard bop", "post-bop"],
+    "genres": [
+      "hard bop",
+      "post-bop"
+    ],
     "description": "A fiery album featuring McCoy Tyner's powerful piano. Henderson pushes hard bop toward its avant-garde edges.",
     "significance": "Showed that hard bop could be adventurous without abandoning its roots. Henderson's influence on later saxophonists was immense.",
-    "keyTracks": ["Inner Urge", "Isotope", "El Barrio", "Night and Day"],
+    "keyTracks": [
+      "Inner Urge",
+      "Isotope",
+      "El Barrio",
+      "Night and Day"
+    ],
     "coverUrl": "https://coverartarchive.org/release/w4v3u2d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/78511"
   },
@@ -1147,10 +1807,17 @@
     "year": 1962,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["hard bop"],
+    "genres": [
+      "hard bop"
+    ],
     "description": "Hancock's stunning debut featuring 'Watermelon Man,' which became a hit and jazz standard.",
     "significance": "Launched Hancock's extraordinary career. 'Watermelon Man' proved jazz could be funky and accessible.",
-    "keyTracks": ["Watermelon Man", "Three Bags Full", "Empty Pockets", "Driftin'"],
+    "keyTracks": [
+      "Watermelon Man",
+      "Three Bags Full",
+      "Empty Pockets",
+      "Driftin'"
+    ],
     "coverUrl": "https://coverartarchive.org/release/x5w4v3d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/78499"
   },
@@ -1162,10 +1829,18 @@
     "year": 1968,
     "label": "Solid State",
     "era": "hard-bop",
-    "genres": ["post-bop", "piano trio"],
+    "genres": [
+      "post-bop",
+      "piano trio"
+    ],
     "description": "Corea's breakthrough trio album with Miroslav Vitous and Roy Haynes. The title track showcases his brilliant pianism.",
     "significance": "Established Corea as a major voice in jazz piano. The album's energy and sophistication influenced generations.",
-    "keyTracks": ["Now He Sings, Now He Sobs", "Steps - What Was", "Matrix", "Windows"],
+    "keyTracks": [
+      "Now He Sings, Now He Sobs",
+      "Steps - What Was",
+      "Matrix",
+      "Windows"
+    ],
     "coverUrl": "https://coverartarchive.org/release/y6x5w4d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/169302"
   },
@@ -1177,10 +1852,16 @@
     "year": 1975,
     "label": "Bootleg",
     "era": "contemporary",
-    "genres": ["jazz standards"],
+    "genres": [
+      "jazz standards"
+    ],
     "description": "Not an album but the most influential jazz fake book, containing lead sheets for hundreds of standards and jazz compositions.",
     "significance": "Became the de facto curriculum for jazz education. Its illegal origins and eventual legitimization reflect jazz's complex relationship with the music industry.",
-    "keyTracks": ["All The Things You Are", "Autumn Leaves", "Blue Bossa"],
+    "keyTracks": [
+      "All The Things You Are",
+      "Autumn Leaves",
+      "Blue Bossa"
+    ],
     "coverUrl": "https://coverartarchive.org/release/z7y6x5d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/000000"
   },
@@ -1192,10 +1873,17 @@
     "year": 1951,
     "label": "Blue Note",
     "era": "bebop",
-    "genres": ["bebop"],
+    "genres": [
+      "bebop"
+    ],
     "description": "The definitive bebop piano album, showcasing Powell's virtuosic technique and harmonic sophistication.",
     "significance": "Established the template for bebop piano. Powell's right-hand lines and left-hand comping influenced every jazz pianist who followed.",
-    "keyTracks": ["Un Poco Loco", "Parisian Thoroughfare", "A Night in Tunisia", "Bouncing with Bud"],
+    "keyTracks": [
+      "Un Poco Loco",
+      "Parisian Thoroughfare",
+      "A Night in Tunisia",
+      "Bouncing with Bud"
+    ],
     "coverUrl": "https://coverartarchive.org/release/a8z7y6d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/78441"
   },
@@ -1207,10 +1895,17 @@
     "year": 1966,
     "label": "ESP-Disk",
     "era": "free-jazz",
-    "genres": ["free jazz", "avant-garde"],
+    "genres": [
+      "free jazz",
+      "avant-garde"
+    ],
     "description": "Soundtrack to a Michael Snow film, featuring some of free jazz's most intense collective improvisation.",
     "significance": "Ayler's raw, primal saxophone sound influenced punk, noise, and free improvisation worldwide.",
-    "keyTracks": ["AY", "ITT", "Don Cherry"],
+    "keyTracks": [
+      "AY",
+      "ITT",
+      "Don Cherry"
+    ],
     "coverUrl": "https://coverartarchive.org/release/b9a8z7d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/198765"
   },
@@ -1222,10 +1917,18 @@
     "year": 1965,
     "label": "ESP-Disk",
     "era": "free-jazz",
-    "genres": ["free jazz", "spiritual jazz"],
+    "genres": [
+      "free jazz",
+      "spiritual jazz"
+    ],
     "description": "A foundational free jazz album with a raw, spiritual intensity. Ayler's saxophone cries and wails with primal power.",
     "significance": "Influenced countless free jazz musicians and inspired John Coltrane's late period explorations.",
-    "keyTracks": ["Ghosts: First Variation", "The Wizard", "Spirits", "Ghosts: Second Variation"],
+    "keyTracks": [
+      "Ghosts: First Variation",
+      "The Wizard",
+      "Spirits",
+      "Ghosts: Second Variation"
+    ],
     "coverUrl": "https://coverartarchive.org/release/c0b9a8d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/182345"
   },
@@ -1237,10 +1940,16 @@
     "year": 1973,
     "label": "ECM",
     "era": "contemporary",
-    "genres": ["solo piano", "improvised music"],
+    "genres": [
+      "solo piano",
+      "improvised music"
+    ],
     "description": "Early solo concerts that established Jarrett's approach to completely improvised performance.",
     "significance": "Paved the way for The Köln Concert and proved that totally improvised solo piano could captivate audiences.",
-    "keyTracks": ["Bremen, July 12, 1973", "Lausanne, March 20, 1973"],
+    "keyTracks": [
+      "Bremen, July 12, 1973",
+      "Lausanne, March 20, 1973"
+    ],
     "coverUrl": "https://coverartarchive.org/release/d1c0b9d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/138924"
   },
@@ -1252,10 +1961,18 @@
     "year": 1973,
     "label": "ECM",
     "era": "contemporary",
-    "genres": ["avant-garde jazz", "ECM jazz"],
+    "genres": [
+      "avant-garde jazz",
+      "ECM jazz"
+    ],
     "description": "Holland's landmark album featuring Sam Rivers and Anthony Braxton, blending composition and free improvisation.",
     "significance": "Established Holland as a bandleader and the ECM aesthetic. Its democratic group improvisation was influential.",
-    "keyTracks": ["Four Winds", "Conference of the Birds", "Interception", "Now Here (Nowhere)"],
+    "keyTracks": [
+      "Four Winds",
+      "Conference of the Birds",
+      "Interception",
+      "Now Here (Nowhere)"
+    ],
     "coverUrl": "https://coverartarchive.org/release/e2d1c0d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/156789"
   },
@@ -1267,10 +1984,18 @@
     "year": 1983,
     "label": "ECM",
     "era": "contemporary",
-    "genres": ["piano trio", "standards"],
+    "genres": [
+      "piano trio",
+      "standards"
+    ],
     "description": "The debut of Jarrett's Standards Trio with Gary Peacock and Jack DeJohnette, redefining how standards could be played.",
     "significance": "Launched one of jazz's most celebrated groups. Their approach to standards influenced generations of pianists.",
-    "keyTracks": ["Meaning of the Blues", "All the Things You Are", "It Never Entered My Mind", "The Masquerade Is Over"],
+    "keyTracks": [
+      "Meaning of the Blues",
+      "All the Things You Are",
+      "It Never Entered My Mind",
+      "The Masquerade Is Over"
+    ],
     "coverUrl": "https://coverartarchive.org/release/f3e2d1d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/138967"
   },
@@ -1282,10 +2007,17 @@
     "year": 1961,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["hard bop"],
+    "genres": [
+      "hard bop"
+    ],
     "description": "A classic Messengers album featuring the potent front line of Freddie Hubbard and Wayne Shorter.",
     "significance": "Captured the Messengers at a creative peak. Shorter's compositions showed his growing stature as a writer.",
-    "keyTracks": ["Backstage Sally", "Contemplation", "Bu's Delight", "Reincarnation Blues"],
+    "keyTracks": [
+      "Backstage Sally",
+      "Contemplation",
+      "Bu's Delight",
+      "Reincarnation Blues"
+    ],
     "coverUrl": "https://coverartarchive.org/release/g4f3e2d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/78471"
   },
@@ -1297,10 +2029,17 @@
     "year": 1963,
     "label": "Riverside",
     "era": "hard-bop",
-    "genres": ["hard bop"],
+    "genres": [
+      "hard bop"
+    ],
     "description": "A powerful live recording featuring the exotic title track. The Messengers swing hard throughout.",
     "significance": "Showed the Messengers' versatility and ability to transform standards into hard bop vehicles.",
-    "keyTracks": ["Caravan", "Sweet 'n' Sour", "In the Wee Small Hours", "Skylark"],
+    "keyTracks": [
+      "Caravan",
+      "Sweet 'n' Sour",
+      "In the Wee Small Hours",
+      "Skylark"
+    ],
     "coverUrl": "https://coverartarchive.org/release/h5g4f3d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/103456"
   },
@@ -1312,10 +2051,18 @@
     "year": 1970,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["hard bop", "soul jazz"],
+    "genres": [
+      "hard bop",
+      "soul jazz"
+    ],
     "description": "A triple album capturing Morgan's working quintet at their peak. Extended improvisations showcase his mature style.",
     "significance": "Documents Morgan's evolution beyond soul jazz into more adventurous territory. Tragically, he would be killed two years later.",
-    "keyTracks": ["Speedball", "Peyote", "The Sidewinder", "Neophilia"],
+    "keyTracks": [
+      "Speedball",
+      "Peyote",
+      "The Sidewinder",
+      "Neophilia"
+    ],
     "coverUrl": "https://coverartarchive.org/release/i6h5g4d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/78500"
   },
@@ -1327,10 +2074,18 @@
     "year": 1961,
     "label": "Moodsville",
     "era": "hard-bop",
-    "genres": ["hard bop", "world music"],
+    "genres": [
+      "hard bop",
+      "world music"
+    ],
     "description": "Lateef's exploration of Eastern music incorporated oboe, flute, and non-Western scales into a jazz context.",
     "significance": "Pioneered world music in jazz. His multi-instrumentalism and cross-cultural approach opened new possibilities.",
-    "keyTracks": ["The Plum Blossom", "Blues for the Orient", "Snafu", "Love Theme from 'Spartacus'"],
+    "keyTracks": [
+      "The Plum Blossom",
+      "Blues for the Orient",
+      "Snafu",
+      "Love Theme from 'Spartacus'"
+    ],
     "coverUrl": "https://coverartarchive.org/release/j7i6h5d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/219876"
   },
@@ -1342,10 +2097,18 @@
     "year": 1965,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["hard bop", "soul jazz"],
+    "genres": [
+      "hard bop",
+      "soul jazz"
+    ],
     "description": "A masterpiece featuring Joe Henderson and Bobby Hutcherson. The 15-minute title track is a slow-burn classic.",
     "significance": "Showed that jazz could be spacious and meditative without losing its soul. Green's understated guitar was hypnotic.",
-    "keyTracks": ["Idle Moments", "Jean de Fleur", "Django", "Nomad"],
+    "keyTracks": [
+      "Idle Moments",
+      "Jean de Fleur",
+      "Django",
+      "Nomad"
+    ],
     "coverUrl": "https://coverartarchive.org/release/k8j7i6d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/78505"
   },
@@ -1357,10 +2120,17 @@
     "year": 1962,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["hard bop"],
+    "genres": [
+      "hard bop"
+    ],
     "description": "A soulful session featuring Herbie Hancock. Hubbard's fiery trumpet is balanced by lyrical moments.",
     "significance": "Established Hubbard as hard bop's premier trumpeter after Clifford Brown. His technique and ideas were groundbreaking.",
-    "keyTracks": ["Hub-Tones", "Prophet Jennings", "Lament for Booker", "You're My Everything"],
+    "keyTracks": [
+      "Hub-Tones",
+      "Prophet Jennings",
+      "Lament for Booker",
+      "You're My Everything"
+    ],
     "coverUrl": "https://coverartarchive.org/release/l9k8j7d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/78509"
   },
@@ -1372,10 +2142,18 @@
     "year": 1970,
     "label": "CTI",
     "era": "fusion",
-    "genres": ["jazz-funk", "fusion"],
+    "genres": [
+      "jazz-funk",
+      "fusion"
+    ],
     "description": "Hubbard's successful crossover to jazz-funk, featuring Herbie Hancock and Ron Carter. The title track became his signature tune.",
     "significance": "Bridged hard bop and fusion without losing artistic credibility. CTI's lush production was influential.",
-    "keyTracks": ["Red Clay", "Delphia", "Suite Sioux", "The Intrepid Fox"],
+    "keyTracks": [
+      "Red Clay",
+      "Delphia",
+      "Suite Sioux",
+      "The Intrepid Fox"
+    ],
     "coverUrl": "https://coverartarchive.org/release/m0l9k8d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/103234"
   },
@@ -1387,10 +2165,17 @@
     "year": 1972,
     "label": "Polydor",
     "era": "fusion",
-    "genres": ["jazz-funk", "soul jazz"],
+    "genres": [
+      "jazz-funk",
+      "soul jazz"
+    ],
     "description": "Ayers's vibraphone meets funk in a groovy fusion. His band Ubiquity created some of the era's most sampled music.",
     "significance": "A cornerstone of jazz-funk that became essential hip-hop source material. 'Everybody Loves the Sunshine' from this era is iconic.",
-    "keyTracks": ["We Live in Brooklyn, Baby", "Ain't Got Time", "Pretty Brown Skin"],
+    "keyTracks": [
+      "We Live in Brooklyn, Baby",
+      "Ain't Got Time",
+      "Pretty Brown Skin"
+    ],
     "coverUrl": "https://coverartarchive.org/release/n1m0l9d8-39f8-4c5e-9e5c-1f9c2d8b8d8d/front",
     "discogs": "https://www.discogs.com/master/187654"
   },
@@ -1402,10 +2187,19 @@
     "year": 1973,
     "label": "Blue Thumb",
     "era": "free-jazz",
-    "genres": ["avant-garde jazz", "afrofuturism", "free jazz"],
+    "genres": [
+      "avant-garde jazz",
+      "afrofuturism",
+      "free jazz"
+    ],
     "description": "The soundtrack to Sun Ra's only feature film, blending cosmic philosophy with avant-garde jazz. Ra's Arkestra creates otherworldly textures using electronic keyboards, African percussion, and free improvisation.",
     "significance": "The definitive statement of Sun Ra's Afrofuturist vision. The album posits space as a metaphor for Black liberation and imagination, influencing generations of musicians from George Clinton to Flying Lotus.",
-    "keyTracks": ["Space Is the Place", "Images", "Discipline 27-II", "Sea of Sounds"],
+    "keyTracks": [
+      "Space Is the Place",
+      "Images",
+      "Discipline 27-II",
+      "Sea of Sounds"
+    ],
     "coverUrl": "https://coverartarchive.org/release/space-is-place/front",
     "discogs": "https://www.discogs.com/master/105234"
   },
@@ -1417,10 +2211,19 @@
     "year": 1978,
     "label": "Philly Jazz",
     "era": "fusion",
-    "genres": ["ambient jazz", "space jazz", "funk"],
+    "genres": [
+      "ambient jazz",
+      "space jazz",
+      "funk"
+    ],
     "description": "An unusually accessible Sun Ra album, featuring languid grooves and ethereal keyboards. Often called his 'chill-out' record, it's a gateway drug to his more challenging work.",
     "significance": "Proof that Sun Ra could create deeply hypnotic music without sacrificing his cosmic vision. The album has been rediscovered by electronic music producers seeking organic textures.",
-    "keyTracks": ["Lanquidity", "Where Pathways Meet", "That's How I Feel", "Twin Stars of Thence"],
+    "keyTracks": [
+      "Lanquidity",
+      "Where Pathways Meet",
+      "That's How I Feel",
+      "Twin Stars of Thence"
+    ],
     "coverUrl": "https://coverartarchive.org/release/lanquidity/front",
     "discogs": "https://www.discogs.com/master/198234"
   },
@@ -1432,10 +2235,16 @@
     "year": 1969,
     "label": "Impulse!",
     "era": "free-jazz",
-    "genres": ["spiritual jazz", "avant-garde jazz"],
+    "genres": [
+      "spiritual jazz",
+      "avant-garde jazz"
+    ],
     "description": "A 33-minute meditation featuring Leon Thomas's legendary yodeling vocals and Sanders's transcendent saxophone. 'The Creator Has a Master Plan' became the anthem of spiritual jazz.",
     "significance": "The most commercially successful spiritual jazz album, proving that challenging music could move mainstream audiences. Its message of peace and unity resonated during the tumultuous late 1960s.",
-    "keyTracks": ["The Creator Has a Master Plan", "Colors"],
+    "keyTracks": [
+      "The Creator Has a Master Plan",
+      "Colors"
+    ],
     "coverUrl": "https://coverartarchive.org/release/karma-sanders/front",
     "discogs": "https://www.discogs.com/master/93421"
   },
@@ -1447,10 +2256,17 @@
     "year": 1969,
     "label": "Impulse!",
     "era": "free-jazz",
-    "genres": ["spiritual jazz", "free jazz"],
+    "genres": [
+      "spiritual jazz",
+      "free jazz"
+    ],
     "description": "Sanders at his most ecstatic and devotional, with Lonnie Liston Smith on piano providing celestial accompaniment. The album moves from intense free passages to moments of sublime beauty.",
     "significance": "Demonstrates the full range of Sanders's spiritual jazz vision—from ecstatic screaming to tender meditation. A touchstone for the contemporary spiritual jazz revival.",
-    "keyTracks": ["Hum-Allah-Hum-Allah-Hum-Allah", "Sun in Aquarius", "Janus"],
+    "keyTracks": [
+      "Hum-Allah-Hum-Allah-Hum-Allah",
+      "Sun in Aquarius",
+      "Janus"
+    ],
     "coverUrl": "https://coverartarchive.org/release/jewels-thought/front",
     "discogs": "https://www.discogs.com/master/93445"
   },
@@ -1462,10 +2278,18 @@
     "year": 1964,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["avant-garde jazz", "post-bop"],
+    "genres": [
+      "avant-garde jazz",
+      "post-bop"
+    ],
     "description": "Hill's debut as a leader, featuring Joe Henderson's fierce tenor and Richard Davis's exploratory bass. Angular melodies and unexpected rhythmic shifts create a music both cerebral and passionate.",
     "significance": "Announced a major new voice in jazz composition. Hill's approach—neither fully free nor strictly bop—created a third path that influenced countless musicians seeking their own voice.",
-    "keyTracks": ["Black Fire", "Pumpkin", "Subterfuge", "McNeil Island"],
+    "keyTracks": [
+      "Black Fire",
+      "Pumpkin",
+      "Subterfuge",
+      "McNeil Island"
+    ],
     "coverUrl": "https://coverartarchive.org/release/black-fire/front",
     "discogs": "https://www.discogs.com/master/78567"
   },
@@ -1477,10 +2301,18 @@
     "year": 1964,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["avant-garde jazz", "post-bop"],
+    "genres": [
+      "avant-garde jazz",
+      "post-bop"
+    ],
     "description": "Recorded just months after his debut, featuring an adventurous sextet with Bobby Hutcherson's vibraphone adding shimmering colors. Hill's compositions grow more complex and unpredictable.",
     "significance": "Solidified Hill's reputation as Blue Note's most daring composer. The interaction between Hutcherson's vibes and Hill's piano created a new sonic template.",
-    "keyTracks": ["Siete Ocho", "Flea Flop", "Yokada Yokada", "Alfred"],
+    "keyTracks": [
+      "Siete Ocho",
+      "Flea Flop",
+      "Yokada Yokada",
+      "Alfred"
+    ],
     "coverUrl": "https://coverartarchive.org/release/judgment-hill/front",
     "discogs": "https://www.discogs.com/master/78589"
   },
@@ -1492,10 +2324,18 @@
     "year": 1968,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["post-bop", "modal jazz"],
+    "genres": [
+      "post-bop",
+      "modal jazz"
+    ],
     "description": "Hutcherson's vibraphone and marimba create an otherworldly atmosphere over Chick Corea's piano and Joe Chambers's masterful drumming. Each track inhabits its own sonic universe.",
     "significance": "Pushed the vibraphone beyond its cool jazz associations into darker, more mysterious territory. A cult favorite among musicians and collectors.",
-    "keyTracks": ["Total Eclipse", "Herzog", "Pompeian", "Matrix"],
+    "keyTracks": [
+      "Total Eclipse",
+      "Herzog",
+      "Pompeian",
+      "Matrix"
+    ],
     "coverUrl": "https://coverartarchive.org/release/total-eclipse/front",
     "discogs": "https://www.discogs.com/master/93567"
   },
@@ -1507,10 +2347,18 @@
     "year": 1964,
     "label": "Blue Note",
     "era": "free-jazz",
-    "genres": ["avant-garde jazz", "hard bop"],
+    "genres": [
+      "avant-garde jazz",
+      "hard bop"
+    ],
     "description": "McLean takes the leap into freedom, supported by Grachan Moncur III's otherworldly trombone and Bobby Hutcherson's crystalline vibes. The title says it all—this is music going somewhere new.",
     "significance": "Documented McLean's brave transition from hard bop to the avant-garde. His cry-like alto became more emotional and less predictable, inspiring future generations of saxophonists.",
-    "keyTracks": ["Love and Hate", "Esoteric", "Kahlil the Prophet", "Riff Raff"],
+    "keyTracks": [
+      "Love and Hate",
+      "Esoteric",
+      "Kahlil the Prophet",
+      "Riff Raff"
+    ],
     "coverUrl": "https://coverartarchive.org/release/destination-out/front",
     "discogs": "https://www.discogs.com/master/78612"
   },
@@ -1522,10 +2370,18 @@
     "year": 1963,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["avant-garde jazz", "post-bop"],
+    "genres": [
+      "avant-garde jazz",
+      "post-bop"
+    ],
     "description": "Features the incredible young Tony Williams on drums and Grachan Moncur III's debut as composer. McLean balances on the edge between structure and freedom.",
     "significance": "Introduced Grachan Moncur III to the jazz world. Williams, just 17, demonstrated the revolutionary drumming that would transform Miles's second quintet.",
-    "keyTracks": ["Saturday and Sunday", "Frankenstein", "Blue Rondo", "Ghost Town"],
+    "keyTracks": [
+      "Saturday and Sunday",
+      "Frankenstein",
+      "Blue Rondo",
+      "Ghost Town"
+    ],
     "coverUrl": "https://coverartarchive.org/release/one-step-beyond/front",
     "discogs": "https://www.discogs.com/master/78598"
   },
@@ -1537,10 +2393,17 @@
     "year": 1964,
     "label": "Blue Note",
     "era": "free-jazz",
-    "genres": ["avant-garde jazz"],
+    "genres": [
+      "avant-garde jazz"
+    ],
     "description": "Moncur's debut as leader, with Jackie McLean, Bobby Hutcherson, and Tony Williams. His trombone sounds like no one else—sliding, moaning, speaking in tongues.",
     "significance": "A overlooked masterpiece of 1960s jazz. Moncur created a new vocabulary for the trombone that influenced Roswell Rudd and later avant-garde trombonists.",
-    "keyTracks": ["Evolution", "Air Raid", "The Coaster", "Monk in Wonderland"],
+    "keyTracks": [
+      "Evolution",
+      "Air Raid",
+      "The Coaster",
+      "Monk in Wonderland"
+    ],
     "coverUrl": "https://coverartarchive.org/release/evolution-moncur/front",
     "discogs": "https://www.discogs.com/master/78634"
   },
@@ -1552,10 +2415,17 @@
     "year": 1965,
     "label": "Blue Note",
     "era": "free-jazz",
-    "genres": ["avant-garde jazz"],
+    "genres": [
+      "avant-garde jazz"
+    ],
     "description": "Even more adventurous than 'Evolution,' featuring Wayne Shorter and Herbie Hancock. Moncur's writing is more spacious, giving his all-star band room to explore.",
     "significance": "Captures the avant-garde side of musicians better known for their mainstream work. Hancock and Shorter stretch into territory they rarely explored on record.",
-    "keyTracks": ["Gnostic", "Thandiwa", "The Twins", "Nomadic"],
+    "keyTracks": [
+      "Gnostic",
+      "Thandiwa",
+      "The Twins",
+      "Nomadic"
+    ],
     "coverUrl": "https://coverartarchive.org/release/some-other-stuff/front",
     "discogs": "https://www.discogs.com/master/78656"
   },
@@ -1567,10 +2437,18 @@
     "year": 1965,
     "label": "Blue Note",
     "era": "free-jazz",
-    "genres": ["avant-garde jazz", "free jazz"],
+    "genres": [
+      "avant-garde jazz",
+      "free jazz"
+    ],
     "description": "Rivers's Blue Note debut showcases his multi-instrumental prowess on tenor, soprano, and flute. Jaki Byard's piano adds an encyclopedic range of jazz history.",
     "significance": "Introduced Rivers as a major voice in the new music. His approach—rooted in tradition but reaching toward freedom—influenced the loft jazz movement he would later help create.",
-    "keyTracks": ["Fuchsia Swing Song", "Downstairs Blues Upstairs", "Cyclic Episode", "Beatrice"],
+    "keyTracks": [
+      "Fuchsia Swing Song",
+      "Downstairs Blues Upstairs",
+      "Cyclic Episode",
+      "Beatrice"
+    ],
     "coverUrl": "https://coverartarchive.org/release/fuchsia-swing-song/front",
     "discogs": "https://www.discogs.com/master/78678"
   },
@@ -1582,10 +2460,17 @@
     "year": 1967,
     "label": "Blue Note",
     "era": "free-jazz",
-    "genres": ["avant-garde jazz"],
+    "genres": [
+      "avant-garde jazz"
+    ],
     "description": "Rivers pushes further into abstraction while maintaining his bluesy roots. Freddie Hubbard, Herbie Hancock, and Ron Carter provide an A-list rhythm section.",
     "significance": "Showed that the avant-garde could swing. Rivers's ability to move fluidly between inside and outside playing became a template for future improvisers.",
-    "keyTracks": ["Point of Many Returns", "Dance of the Tripedal", "Euterpe", "Mellifluous Cacophony"],
+    "keyTracks": [
+      "Point of Many Returns",
+      "Dance of the Tripedal",
+      "Euterpe",
+      "Mellifluous Cacophony"
+    ],
     "coverUrl": "https://coverartarchive.org/release/contours-rivers/front",
     "discogs": "https://www.discogs.com/master/78690"
   },
@@ -1597,10 +2482,16 @@
     "year": 1966,
     "label": "Blue Note",
     "era": "free-jazz",
-    "genres": ["avant-garde jazz", "world jazz"],
+    "genres": [
+      "avant-garde jazz",
+      "world jazz"
+    ],
     "description": "Cherry's pocket trumpet leads a group including Gato Barbieri through a continuous 20-minute suite. World music elements emerge naturally alongside free improvisation.",
     "significance": "Pointed toward the world music direction Cherry would pursue. The suite structure and collective interplay influenced the AACM and European free jazz scenes.",
-    "keyTracks": ["Complete Communion", "Elephantasy"],
+    "keyTracks": [
+      "Complete Communion",
+      "Elephantasy"
+    ],
     "coverUrl": "https://coverartarchive.org/release/complete-communion/front",
     "discogs": "https://www.discogs.com/master/78712"
   },
@@ -1612,10 +2503,18 @@
     "year": 1965,
     "label": "Impulse!",
     "era": "free-jazz",
-    "genres": ["free jazz", "avant-garde jazz"],
+    "genres": [
+      "free jazz",
+      "avant-garde jazz"
+    ],
     "description": "Shepp's incendiary saxophone meets poetry, African rhythms, and collective improvisation. The album is both musically radical and explicitly political.",
     "significance": "Merged Black nationalist politics with avant-garde music more directly than any previous jazz record. Shepp became the most politically outspoken of the New Thing musicians.",
-    "keyTracks": ["Hambone", "Los Olvidados", "Malcolm, Malcolm—Semper Malcolm", "Prelude to a Kiss"],
+    "keyTracks": [
+      "Hambone",
+      "Los Olvidados",
+      "Malcolm, Malcolm—Semper Malcolm",
+      "Prelude to a Kiss"
+    ],
     "coverUrl": "https://coverartarchive.org/release/fire-music/front",
     "discogs": "https://www.discogs.com/master/94567"
   },
@@ -1627,10 +2526,18 @@
     "year": 1967,
     "label": "Impulse!",
     "era": "free-jazz",
-    "genres": ["free jazz", "avant-garde jazz"],
+    "genres": [
+      "free jazz",
+      "avant-garde jazz"
+    ],
     "description": "Features Roswell Rudd's trombone adding New Orleans flavor to Shepp's fire. Grachan Moncur III and Tommy Turrentine create a wall of brass around Shepp's volcanic tenor.",
     "significance": "Demonstrated that free jazz could embrace jazz history rather than reject it. Shepp's mix of Ellington, blues, and the avant-garde created a template for musicians like David Murray.",
-    "keyTracks": ["A Portrait of Robert Thompson", "Mama Too Tight", "Basheer", "Theme for Ernie"],
+    "keyTracks": [
+      "A Portrait of Robert Thompson",
+      "Mama Too Tight",
+      "Basheer",
+      "Theme for Ernie"
+    ],
     "coverUrl": "https://coverartarchive.org/release/mama-too-tight/front",
     "discogs": "https://www.discogs.com/master/94589"
   },
@@ -1642,10 +2549,17 @@
     "year": 1967,
     "label": "Impulse!",
     "era": "free-jazz",
-    "genres": ["spiritual jazz", "afrocentric jazz"],
+    "genres": [
+      "spiritual jazz",
+      "afrocentric jazz"
+    ],
     "description": "A 25-minute title track featuring African percussion alongside Shepp's increasingly R&B-influenced tenor. The album embraces African spirituality as a source of musical and political power.",
     "significance": "One of the first jazz albums to explicitly draw on African musical and spiritual traditions. Its Afrocentric approach influenced the Black Arts Movement and later Afrocentric jazz.",
-    "keyTracks": ["The Magic of Ju-Ju", "You're What This Day Is All About", "Sorry 'Bout That"],
+    "keyTracks": [
+      "The Magic of Ju-Ju",
+      "You're What This Day Is All About",
+      "Sorry 'Bout That"
+    ],
     "coverUrl": "https://coverartarchive.org/release/magic-juju/front",
     "discogs": "https://www.discogs.com/master/94601"
   },
@@ -1657,10 +2571,17 @@
     "year": 1968,
     "label": "BRÖ",
     "era": "free-jazz",
-    "genres": ["free improvisation", "free jazz"],
+    "genres": [
+      "free improvisation",
+      "free jazz"
+    ],
     "description": "The most extreme free jazz record ever made. Three saxophones, two bassists, and two drummers create a wall of sound that literalizes the album's violent title.",
     "significance": "Defined European free jazz as distinct from its American counterpart—rawer, more industrial, less concerned with swing. It remains a rite of passage for adventurous listeners.",
-    "keyTracks": ["Machine Gun", "Responsible", "Music for Han Bennink"],
+    "keyTracks": [
+      "Machine Gun",
+      "Responsible",
+      "Music for Han Bennink"
+    ],
     "coverUrl": "https://coverartarchive.org/release/machine-gun/front",
     "discogs": "https://www.discogs.com/master/115678"
   },
@@ -1672,10 +2593,18 @@
     "year": 1979,
     "label": "ECM",
     "era": "free-jazz",
-    "genres": ["avant-garde jazz", "AACM"],
+    "genres": [
+      "avant-garde jazz",
+      "AACM"
+    ],
     "description": "The AACM's flagship group at their most accessible, blending free improvisation with reggae, funk, and theatrical elements. Their motto: 'Great Black Music—Ancient to the Future.'",
     "significance": "Introduced the Art Ensemble to wider audiences through ECM's distribution. The album's playful approach challenged stereotypes about avant-garde jazz being humorless.",
-    "keyTracks": ["Nice Guys", "Ja", "Folkus", "Cyp"],
+    "keyTracks": [
+      "Nice Guys",
+      "Ja",
+      "Folkus",
+      "Cyp"
+    ],
     "coverUrl": "https://coverartarchive.org/release/nice-guys/front",
     "discogs": "https://www.discogs.com/master/95678"
   },
@@ -1687,10 +2616,18 @@
     "year": 1970,
     "label": "Pathé",
     "era": "free-jazz",
-    "genres": ["avant-garde jazz", "AACM", "film music"],
+    "genres": [
+      "avant-garde jazz",
+      "AACM",
+      "film music"
+    ],
     "description": "The soundtrack to a French film, featuring Fontella Bass's vocals on 'Theme de Yoyo.' The group creates a suite moving from free improvisation to funky R&B.",
     "significance": "Showed the Art Ensemble's range and their ability to work in commercial contexts without compromising. 'Theme de Yoyo' became a rare avant-garde dance floor hit.",
-    "keyTracks": ["Theme de Yoyo", "Theme de Celine", "Variations sur un Theme de Monteverdi"],
+    "keyTracks": [
+      "Theme de Yoyo",
+      "Theme de Celine",
+      "Variations sur un Theme de Monteverdi"
+    ],
     "coverUrl": "https://coverartarchive.org/release/les-stances/front",
     "discogs": "https://www.discogs.com/master/95690"
   },
@@ -1702,10 +2639,18 @@
     "year": 1967,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["post-bop", "modal jazz"],
+    "genres": [
+      "post-bop",
+      "modal jazz"
+    ],
     "description": "Tyner's first album after leaving Coltrane's group, featuring Joe Henderson and introducing the powerful left-hand voicings that would become his signature.",
     "significance": "Established Tyner as a major leader and composer. His quartets throughout the late 1960s defined the post-Coltrane aesthetic.",
-    "keyTracks": ["Passion Dance", "Contemplation", "Four by Five", "Search for Peace"],
+    "keyTracks": [
+      "Passion Dance",
+      "Contemplation",
+      "Four by Five",
+      "Search for Peace"
+    ],
     "coverUrl": "https://coverartarchive.org/release/real-mccoy/front",
     "discogs": "https://www.discogs.com/master/78734"
   },
@@ -1717,10 +2662,18 @@
     "year": 1972,
     "label": "Milestone",
     "era": "fusion",
-    "genres": ["spiritual jazz", "modal jazz"],
+    "genres": [
+      "spiritual jazz",
+      "modal jazz"
+    ],
     "description": "Tyner's masterpiece as a leader, featuring his thunderous piano against African percussion. The 23-minute title track is a journey through African-influenced spiritual jazz.",
     "significance": "Demonstrated that spiritual jazz could be powerful rather than merely meditative. Tyner's percussive attack influenced generations of pianists.",
-    "keyTracks": ["Sahara", "Valley of Life", "Ebony Queen", "A Prayer for My Family"],
+    "keyTracks": [
+      "Sahara",
+      "Valley of Life",
+      "Ebony Queen",
+      "A Prayer for My Family"
+    ],
     "coverUrl": "https://coverartarchive.org/release/sahara-tyner/front",
     "discogs": "https://www.discogs.com/master/103890"
   },
@@ -1732,10 +2685,17 @@
     "year": 1963,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["hard bop"],
+    "genres": [
+      "hard bop"
+    ],
     "description": "Gordon's expatriate masterpiece, recorded with Bud Powell and Kenny Clarke in Paris. His massive tone and behind-the-beat phrasing never sounded better.",
     "significance": "Documented Gordon's European renaissance. His relaxed, storytelling approach influenced countless tenor players including Joe Henderson and Michael Brecker.",
-    "keyTracks": ["Scrapple from the Apple", "Willow Weep for Me", "Broadway", "Stairway to the Stars"],
+    "keyTracks": [
+      "Scrapple from the Apple",
+      "Willow Weep for Me",
+      "Broadway",
+      "Stairway to the Stars"
+    ],
     "coverUrl": "https://coverartarchive.org/release/our-man-paris/front",
     "discogs": "https://www.discogs.com/master/78756"
   },
@@ -1747,10 +2707,17 @@
     "year": 1962,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["hard bop"],
+    "genres": [
+      "hard bop"
+    ],
     "description": "Gordon's triumphant return to recording after years of obscurity. Sonny Clark's piano and Billy Higgins's drums provide perfect support for his majestic tenor.",
     "significance": "Marked Gordon's comeback and reminded the jazz world of his importance. His version of 'Cheese Cake' became definitive.",
-    "keyTracks": ["Cheese Cake", "I Guess I'll Hang My Tears Out to Dry", "Second Balcony Jump", "Love for Sale"],
+    "keyTracks": [
+      "Cheese Cake",
+      "I Guess I'll Hang My Tears Out to Dry",
+      "Second Balcony Jump",
+      "Love for Sale"
+    ],
     "coverUrl": "https://coverartarchive.org/release/go-gordon/front",
     "discogs": "https://www.discogs.com/master/78778"
   },
@@ -1762,11 +2729,19 @@
     "year": 1975,
     "label": "ECM",
     "era": "contemporary",
-    "genres": ["solo piano", "improvisation"],
+    "genres": [
+      "solo piano",
+      "improvisation"
+    ],
     "description": "A completely improvised solo piano concert that became the best-selling solo jazz album ever. Jarrett transforms simple motifs into extended meditations.",
     "significance": "Proved that pure improvisation could reach massive audiences. The album's emotional directness and accessibility influenced the new age movement—for better or worse.",
-    "keyTracks": ["Part I", "Part IIa", "Part IIb", "Part IIc"],
-    "coverUrl": "https://coverartarchive.org/release/koln-concert/front",
+    "keyTracks": [
+      "Part I",
+      "Part IIa",
+      "Part IIb",
+      "Part IIc"
+    ],
+    "coverUrl": "http://coverartarchive.org/release/aabcea88-6489-4fde-957a-ba5fc755cd74/12526746034-500.jpg",
     "discogs": "https://www.discogs.com/master/74321"
   },
   {
@@ -1777,10 +2752,17 @@
     "year": 1973,
     "label": "Strata-East",
     "era": "fusion",
-    "genres": ["spiritual jazz", "post-bop"],
+    "genres": [
+      "spiritual jazz",
+      "post-bop"
+    ],
     "description": "Harper's volcanic tenor leads a sextet through extended spiritual jazz explorations. The title track builds over 20 minutes from meditation to catharsis.",
     "significance": "A Strata-East label classic that documents the post-Coltrane spiritual jazz scene at its peak. Harper's influence on David Murray and other next-generation players was profound.",
-    "keyTracks": ["Capra Black", "Cry of Hunger", "Soulful Song for My Grandfather"],
+    "keyTracks": [
+      "Capra Black",
+      "Cry of Hunger",
+      "Soulful Song for My Grandfather"
+    ],
     "coverUrl": "https://coverartarchive.org/release/capra-black/front",
     "discogs": "https://www.discogs.com/master/105890"
   },
@@ -1792,10 +2774,18 @@
     "year": 1965,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["soul jazz", "Latin jazz"],
+    "genres": [
+      "soul jazz",
+      "Latin jazz"
+    ],
     "description": "Green's guitar meets Latin rhythms on this overlooked gem. McCoy Tyner's piano and Elvin Jones's drums from the Coltrane quartet add unexpected fire.",
     "significance": "Demonstrated Green's versatility beyond the soul jazz he became known for. The Latin-jazz fusion predated later trends by decades.",
-    "keyTracks": ["My Favorite Things", "Matador", "Bedouin", "Green's Greenery"],
+    "keyTracks": [
+      "My Favorite Things",
+      "Matador",
+      "Bedouin",
+      "Green's Greenery"
+    ],
     "coverUrl": "https://coverartarchive.org/release/music-matador/front",
     "discogs": "https://www.discogs.com/master/78812"
   },
@@ -1807,10 +2797,18 @@
     "year": 1967,
     "label": "Blue Note",
     "era": "hard-bop",
-    "genres": ["soul jazz", "hard bop"],
+    "genres": [
+      "soul jazz",
+      "hard bop"
+    ],
     "description": "One of Green's most soulful sessions, featuring Bobby Hutcherson's vibes adding shimmer to Green's bluesy lines. Larry Young's organ provides the perfect bed.",
     "significance": "Captures Green at his most relaxed and expressive. His single-note lines tell stories with the directness of a great blues singer.",
-    "keyTracks": ["Lazy Afternoon", "Street of Dreams", "I Wish You Love", "Somewhere in the Night"],
+    "keyTracks": [
+      "Lazy Afternoon",
+      "Street of Dreams",
+      "I Wish You Love",
+      "Somewhere in the Night"
+    ],
     "coverUrl": "https://coverartarchive.org/release/street-dreams/front",
     "discogs": "https://www.discogs.com/master/78834"
   },
@@ -1822,10 +2820,18 @@
     "year": 1969,
     "label": "Blue Note",
     "era": "fusion",
-    "genres": ["post-bop", "experimental jazz"],
+    "genres": [
+      "post-bop",
+      "experimental jazz"
+    ],
     "description": "Shorter's most experimental Blue Note album, featuring three guitarists and Brazilian vocalist Maria Booker. The music floats free of conventional jazz structures.",
     "significance": "Bridged Shorter's Blue Note work with his later Weather Report direction. Its textural approach anticipated ambient and world music fusions.",
-    "keyTracks": ["Super Nova", "Swee-Pea", "Capricorn", "Water Babies"],
+    "keyTracks": [
+      "Super Nova",
+      "Swee-Pea",
+      "Capricorn",
+      "Water Babies"
+    ],
     "coverUrl": "https://coverartarchive.org/release/super-nova/front",
     "discogs": "https://www.discogs.com/master/78856"
   },
@@ -1837,10 +2843,17 @@
     "year": 1967,
     "label": "Impulse!",
     "era": "free-jazz",
-    "genres": ["spiritual jazz", "avant-garde jazz"],
+    "genres": [
+      "spiritual jazz",
+      "avant-garde jazz"
+    ],
     "description": "Features the 17-minute Afrocentric title track with Juno Lewis's chanting and African percussion. The album includes 'Welcome,' one of Coltrane's most beautiful ballads.",
     "significance": "Documents Coltrane's embrace of African spiritual traditions. The album's mix of meditative beauty and ecstatic release captures his late-period range.",
-    "keyTracks": ["Kulu Sé Mama", "Welcome", "Vigil"],
+    "keyTracks": [
+      "Kulu Sé Mama",
+      "Welcome",
+      "Vigil"
+    ],
     "coverUrl": "https://coverartarchive.org/release/kulu-se-mama/front",
     "discogs": "https://www.discogs.com/master/94234"
   },
@@ -1852,10 +2865,16 @@
     "year": 1967,
     "label": "Impulse!",
     "era": "free-jazz",
-    "genres": ["free jazz", "spiritual jazz"],
+    "genres": [
+      "free jazz",
+      "spiritual jazz"
+    ],
     "description": "Coltrane's final concert, recorded four months before his death. The music reaches unprecedented levels of intensity as Coltrane and Rashied Ali create sheets of sound.",
     "significance": "The most extreme document of Coltrane's final period. Its uncompromising intensity divided listeners but inspired the punk rock ethos of total commitment.",
-    "keyTracks": ["Ogunde", "My Favorite Things"],
+    "keyTracks": [
+      "Ogunde",
+      "My Favorite Things"
+    ],
     "coverUrl": "https://coverartarchive.org/release/olatunji-concert/front",
     "discogs": "https://www.discogs.com/master/94256"
   },
@@ -1867,10 +2886,18 @@
     "year": 1961,
     "label": "Prestige",
     "era": "hard-bop",
-    "genres": ["hard bop", "avant-garde jazz"],
+    "genres": [
+      "hard bop",
+      "avant-garde jazz"
+    ],
     "description": "Dolphy and Booker Little's legendary Five Spot residency, captured weeks before Little's death at 23. The interplay between their horns is miraculous.",
     "significance": "Documents one of jazz's great partnerships tragically cut short. Little's mature brilliance at such a young age remains stunning.",
-    "keyTracks": ["Fire Waltz", "Bee Vamp", "The Prophet", "Aggression"],
+    "keyTracks": [
+      "Fire Waltz",
+      "Bee Vamp",
+      "The Prophet",
+      "Aggression"
+    ],
     "coverUrl": "https://coverartarchive.org/release/five-spot-vol1/front",
     "discogs": "https://www.discogs.com/master/95123"
   },
@@ -1882,10 +2909,18 @@
     "year": 1962,
     "label": "New Jazz",
     "era": "hard-bop",
-    "genres": ["hard bop", "avant-garde jazz"],
+    "genres": [
+      "hard bop",
+      "avant-garde jazz"
+    ],
     "description": "Dolphy's quintet explores the boundaries between hard bop and freedom. Booker Little's final studio recordings are heartbreakingly beautiful.",
     "significance": "Features some of Dolphy's most lyrical playing alongside his more angular explorations. The album balances accessibility with adventure.",
-    "keyTracks": ["Mrs. Parker of K.C.", "Far Cry", "Miss Ann", "Left Alone"],
+    "keyTracks": [
+      "Mrs. Parker of K.C.",
+      "Far Cry",
+      "Miss Ann",
+      "Left Alone"
+    ],
     "coverUrl": "https://coverartarchive.org/release/far-cry/front",
     "discogs": "https://www.discogs.com/master/95145"
   },
@@ -1897,10 +2932,18 @@
     "year": 1969,
     "label": "Vortex",
     "era": "free-jazz",
-    "genres": ["free jazz", "avant-rock"],
+    "genres": [
+      "free jazz",
+      "avant-rock"
+    ],
     "description": "The first free jazz guitar album, featuring Linda Sharrock's remarkable vocals alongside Sonny's distorted, violent guitar. Nothing sounded like this before.",
     "significance": "Invented free jazz guitar. Sharrock's noise-rock approach influenced no wave, hardcore punk, and metal decades later.",
-    "keyTracks": ["Black Woman", "Blind Willie", "Peanut", "Portrait of Linda in Three Colors"],
+    "keyTracks": [
+      "Black Woman",
+      "Blind Willie",
+      "Peanut",
+      "Portrait of Linda in Three Colors"
+    ],
     "coverUrl": "https://coverartarchive.org/release/black-woman/front",
     "discogs": "https://www.discogs.com/master/106234"
   },
@@ -1912,10 +2955,18 @@
     "year": 1973,
     "label": "ECM",
     "era": "contemporary",
-    "genres": ["avant-garde jazz", "chamber jazz"],
+    "genres": [
+      "avant-garde jazz",
+      "chamber jazz"
+    ],
     "description": "Holland's bass leads a pianoless quartet featuring Sam Rivers on reeds and Anthony Braxton on reeds. The music breathes and converses like chamber music.",
     "significance": "Defined a new approach to small-group jazz—collective, compositionally sophisticated, and dynamically subtle. A template for 1970s avant-garde.",
-    "keyTracks": ["Conference of the Birds", "Interception", "Q&A", "See-Saw"],
+    "keyTracks": [
+      "Conference of the Birds",
+      "Interception",
+      "Q&A",
+      "See-Saw"
+    ],
     "coverUrl": "https://coverartarchive.org/release/conference-birds/front",
     "discogs": "https://www.discogs.com/master/106256"
   },
@@ -1927,10 +2978,18 @@
     "year": 1976,
     "label": "Epic",
     "era": "fusion",
-    "genres": ["jazz fusion", "progressive"],
+    "genres": [
+      "jazz fusion",
+      "progressive"
+    ],
     "description": "Pastorius's solo debut, featuring his revolutionary fretless bass technique. Overdubs create a one-man orchestra on tracks like the stunning 'Portrait of Tracy.'",
     "significance": "Reinvented the electric bass as a lead and harmonic instrument. His technique—harmonics, distortion, melodic brilliance—influenced every bassist who followed.",
-    "keyTracks": ["Donna Lee", "Portrait of Tracy", "Come On, Come Over", "Continuum"],
+    "keyTracks": [
+      "Donna Lee",
+      "Portrait of Tracy",
+      "Come On, Come Over",
+      "Continuum"
+    ],
     "coverUrl": "https://coverartarchive.org/release/jaco-pastorius/front",
     "discogs": "https://www.discogs.com/master/40678"
   },
@@ -1942,10 +3001,18 @@
     "year": 1981,
     "label": "Warner Bros.",
     "era": "fusion",
-    "genres": ["jazz fusion", "big band"],
+    "genres": [
+      "jazz fusion",
+      "big band"
+    ],
     "description": "Pastorius's ambitious big band project, featuring Herbie Hancock and Wayne Shorter. The arrangements blend jazz sophistication with funk grooves.",
     "significance": "Showed Pastorius's compositional ambitions beyond bass virtuosity. The big band arrangements were innovative but the album's excess hinted at troubles to come.",
-    "keyTracks": ["Crisis", "Three Views of a Secret", "Liberty City", "John and Mary"],
+    "keyTracks": [
+      "Crisis",
+      "Three Views of a Secret",
+      "Liberty City",
+      "John and Mary"
+    ],
     "coverUrl": "https://coverartarchive.org/release/word-of-mouth/front",
     "discogs": "https://www.discogs.com/master/40690"
   },
@@ -1957,10 +3024,18 @@
     "year": 1959,
     "label": "Contemporary",
     "era": "free-jazz",
-    "genres": ["avant-garde jazz", "free jazz"],
+    "genres": [
+      "avant-garde jazz",
+      "free jazz"
+    ],
     "description": "Early Taylor with a more conventional rhythm section, but his percussive attack and dense clusters are already apparent. Earl Griffith's vibes add unexpected colors.",
     "significance": "Documents Taylor's style before it became fully abstract. The tension between his radical piano and the walking bass creates fascinating friction.",
-    "keyTracks": ["Looking Ahead", "African Violets", "Excursion on a Wobbly Rail", "Toll"],
+    "keyTracks": [
+      "Looking Ahead",
+      "African Violets",
+      "Excursion on a Wobbly Rail",
+      "Toll"
+    ],
     "coverUrl": "https://coverartarchive.org/release/looking-ahead/front",
     "discogs": "https://www.discogs.com/master/106278"
   },
@@ -1972,10 +3047,18 @@
     "year": 1975,
     "label": "Freedom",
     "era": "free-jazz",
-    "genres": ["free improvisation", "avant-garde jazz"],
+    "genres": [
+      "free improvisation",
+      "avant-garde jazz"
+    ],
     "description": "Taylor's solo piano at the Montreux Jazz Festival. An hour of uninterrupted improvisation ranging from explosive clusters to surprisingly tender passages.",
     "significance": "The definitive solo Taylor document. His approach to the piano as percussion instrument reaches full maturity.",
-    "keyTracks": ["Abyss", "Petals and Filaments", "Jitney No. 2", "Crossing"],
+    "keyTracks": [
+      "Abyss",
+      "Petals and Filaments",
+      "Jitney No. 2",
+      "Crossing"
+    ],
     "coverUrl": "https://coverartarchive.org/release/silent-tongues/front",
     "discogs": "https://www.discogs.com/master/106290"
   },
@@ -1987,10 +3070,18 @@
     "year": 1971,
     "label": "Impulse!",
     "era": "free-jazz",
-    "genres": ["spiritual jazz", "modal jazz"],
+    "genres": [
+      "spiritual jazz",
+      "modal jazz"
+    ],
     "description": "Alice Coltrane's masterpiece, featuring Pharoah Sanders and her signature harp. The music creates a devotional atmosphere influenced by Eastern spirituality and her guru Swami Satchidananda.",
     "significance": "Established Alice Coltrane as a major artist in her own right, not just John's widow. Her synthesis of Indian classical music, jazz, and spiritual devotion created a new genre.",
-    "keyTracks": ["Journey in Satchidananda", "Shiva-Loka", "Something About John Coltrane", "Isis and Osiris"],
+    "keyTracks": [
+      "Journey in Satchidananda",
+      "Shiva-Loka",
+      "Something About John Coltrane",
+      "Isis and Osiris"
+    ],
     "coverUrl": "https://coverartarchive.org/release/journey-satchidananda/front",
     "discogs": "https://www.discogs.com/master/106312"
   },
@@ -2002,10 +3093,18 @@
     "year": 1970,
     "label": "Impulse!",
     "era": "free-jazz",
-    "genres": ["spiritual jazz", "avant-garde jazz"],
+    "genres": [
+      "spiritual jazz",
+      "avant-garde jazz"
+    ],
     "description": "Alice's second album features Joe Henderson and Pharoah Sanders on twin tenors, creating dense textures over her modal piano. The title refers to an Egyptian creator god.",
     "significance": "Showed Alice developing her own compositional voice. The combination of two contrasting tenor saxophonists creates a unique sound.",
-    "keyTracks": ["Ptah, the El Daoud", "Turiya & Ramakrishna", "Blue Nile", "Mantra"],
+    "keyTracks": [
+      "Ptah, the El Daoud",
+      "Turiya & Ramakrishna",
+      "Blue Nile",
+      "Mantra"
+    ],
     "coverUrl": "https://coverartarchive.org/release/ptah-el-daoud/front",
     "discogs": "https://www.discogs.com/master/106334"
   },
@@ -2017,10 +3116,18 @@
     "year": 1971,
     "label": "Impulse!",
     "era": "free-jazz",
-    "genres": ["avant-garde jazz", "orchestral jazz"],
+    "genres": [
+      "avant-garde jazz",
+      "orchestral jazz"
+    ],
     "description": "Alice's most ambitious work, adding strings arranged by Ornette Coleman. Her harp and organ float over orchestral textures in a meditation on cosmic unity.",
     "significance": "One of the most unusual jazz albums ever made. The combination of free jazz and orchestral strings influenced later spiritual jazz composers.",
-    "keyTracks": ["Universal Consciousness", "Battle at Armageddon", "Oh Allah", "Hare Krishna"],
+    "keyTracks": [
+      "Universal Consciousness",
+      "Battle at Armageddon",
+      "Oh Allah",
+      "Hare Krishna"
+    ],
     "coverUrl": "https://coverartarchive.org/release/universal-consciousness/front",
     "discogs": "https://www.discogs.com/master/106356"
   },
@@ -2032,10 +3139,18 @@
     "year": 1945,
     "label": "Asch",
     "era": "swing",
-    "genres": ["third stream", "progressive jazz"],
+    "genres": [
+      "third stream",
+      "progressive jazz"
+    ],
     "description": "A groundbreaking suite depicting the twelve astrological signs, performed at Town Hall with the New York Philharmonic. Williams was composing extended jazz works decades before it was common.",
     "significance": "One of the first extended jazz compositions. Williams bridged the swing era and bebop, earning respect from both camps while charting her own path.",
-    "keyTracks": ["Aries", "Taurus", "Gemini", "Scorpio"],
+    "keyTracks": [
+      "Aries",
+      "Taurus",
+      "Gemini",
+      "Scorpio"
+    ],
     "coverUrl": "https://coverartarchive.org/release/zodiac-suite/front",
     "discogs": "https://www.discogs.com/master/107234"
   },
@@ -2047,10 +3162,17 @@
     "year": 1964,
     "label": "Saba",
     "era": "hard-bop",
-    "genres": ["jazz vocals", "spiritual jazz"],
+    "genres": [
+      "jazz vocals",
+      "spiritual jazz"
+    ],
     "description": "A liturgical jazz mass written after Williams's conversion to Catholicism. The album blends sacred music with jazz harmonies in a deeply personal statement of faith.",
     "significance": "Pioneered the jazz mass genre later explored by Duke Ellington and Dave Brubeck. Williams's spiritual commitment gave the music authenticity and depth.",
-    "keyTracks": ["Black Christ of the Andes", "Anima Christi", "Praise the Lord"],
+    "keyTracks": [
+      "Black Christ of the Andes",
+      "Anima Christi",
+      "Praise the Lord"
+    ],
     "coverUrl": "https://coverartarchive.org/release/black-christ/front",
     "discogs": "https://www.discogs.com/master/107256"
   },
@@ -2062,10 +3184,18 @@
     "year": 1959,
     "label": "Riverside",
     "era": "hard-bop",
-    "genres": ["vocal jazz", "hard bop"],
+    "genres": [
+      "vocal jazz",
+      "hard bop"
+    ],
     "description": "Lincoln's breakthrough album, showcasing her dramatic delivery and emotional depth. Her interpretations of standards reveal the songs' hidden darkness.",
     "significance": "Established Lincoln as a serious jazz artist, not just a glamorous singer. Her intense, theatrical approach influenced generations of jazz vocalists.",
-    "keyTracks": ["Afro Blue", "Let Up", "Thursday's Child", "Lost in the Stars"],
+    "keyTracks": [
+      "Afro Blue",
+      "Let Up",
+      "Thursday's Child",
+      "Lost in the Stars"
+    ],
     "coverUrl": "https://coverartarchive.org/release/abbey-is-blue/front",
     "discogs": "https://www.discogs.com/master/107278"
   },
@@ -2077,10 +3207,18 @@
     "year": 1961,
     "label": "Candid",
     "era": "hard-bop",
-    "genres": ["vocal jazz", "avant-garde jazz"],
+    "genres": [
+      "vocal jazz",
+      "avant-garde jazz"
+    ],
     "description": "Lincoln's most political album, featuring Max Roach's band with Eric Dolphy and Booker Little. Her vocals on 'When Malindy Sings' are both beautiful and defiant.",
     "significance": "Part of the cultural moment that included We Insist! The music insists that jazz vocals can carry political weight and formal innovation.",
-    "keyTracks": ["Blue Monk", "When Malindy Sings", "In the Red", "African Woman"],
+    "keyTracks": [
+      "Blue Monk",
+      "When Malindy Sings",
+      "In the Red",
+      "African Woman"
+    ],
     "coverUrl": "https://coverartarchive.org/release/straight-ahead/front",
     "discogs": "https://www.discogs.com/master/107290"
   },
@@ -2092,10 +3230,19 @@
     "year": 1971,
     "label": "JCOA",
     "era": "fusion",
-    "genres": ["jazz opera", "avant-garde jazz", "rock"],
+    "genres": [
+      "jazz opera",
+      "avant-garde jazz",
+      "rock"
+    ],
     "description": "A sprawling three-LP jazz opera featuring words by Paul Haines and performances by everyone from Jack Bruce to Don Cherry. The music defies all genre boundaries.",
     "significance": "The most ambitious jazz composition of its era. Bley's vision created a work that remains unmatched in scope and eclecticism.",
-    "keyTracks": ["Hotel Overture", "Rawalpindi Blues", "Detective Writer Daughter", "...And It's Again"],
+    "keyTracks": [
+      "Hotel Overture",
+      "Rawalpindi Blues",
+      "Detective Writer Daughter",
+      "...And It's Again"
+    ],
     "coverUrl": "https://coverartarchive.org/release/escalator/front",
     "discogs": "https://www.discogs.com/master/107312"
   },
@@ -2107,10 +3254,18 @@
     "year": 1977,
     "label": "Watt",
     "era": "fusion",
-    "genres": ["jazz-rock", "avant-garde jazz"],
+    "genres": [
+      "jazz-rock",
+      "avant-garde jazz"
+    ],
     "description": "Bley's sardonic take on restaurant background music, featuring Michael Mantler's trumpet and Steve Swallow's bass. The ironic surface conceals sophisticated compositions.",
     "significance": "Demonstrated Bley's wit and her ability to work in accessible forms without sacrificing intelligence. The album's humor is distinctly European.",
-    "keyTracks": ["Ida Lupino", "Wrong Key Donkey", "Dining Alone", "Sing Me Softly of the Blues"],
+    "keyTracks": [
+      "Ida Lupino",
+      "Wrong Key Donkey",
+      "Dining Alone",
+      "Sing Me Softly of the Blues"
+    ],
     "coverUrl": "https://coverartarchive.org/release/dinner-music/front",
     "discogs": "https://www.discogs.com/master/107334"
   },
@@ -2122,10 +3277,18 @@
     "year": 1981,
     "label": "Watt",
     "era": "contemporary",
-    "genres": ["big band", "avant-garde jazz"],
+    "genres": [
+      "big band",
+      "avant-garde jazz"
+    ],
     "description": "Bley's big band plays her compositions with precision and fire. Steve Swallow's bass guitar and Gary Valente's trombone are featured throughout.",
     "significance": "Showed that avant-garde sensibilities could work in a big band format. Bley's arrangements are witty, sophisticated, and swinging.",
-    "keyTracks": ["Reactionary Tango", "Copyright Royalties", "Walking Batteriewoman", "Utviklingssang"],
+    "keyTracks": [
+      "Reactionary Tango",
+      "Copyright Royalties",
+      "Walking Batteriewoman",
+      "Utviklingssang"
+    ],
     "coverUrl": "https://coverartarchive.org/release/social-studies/front",
     "discogs": "https://www.discogs.com/master/107356"
   },
@@ -2137,10 +3300,18 @@
     "year": 1979,
     "label": "Bet-Car",
     "era": "contemporary",
-    "genres": ["vocal jazz", "bebop"],
+    "genres": [
+      "vocal jazz",
+      "bebop"
+    ],
     "description": "A double live album capturing Carter's extraordinary vocal improvisations. Her scatting and rhythmic daring approach instrumental virtuosity.",
     "significance": "The definitive document of Carter's genius. Her ability to deconstruct and reconstruct melodies in real time is unmatched in jazz vocals.",
-    "keyTracks": ["Sounds (Movin' On)", "I Think I Got It Now", "My Favorite Things", "The Trolley Song"],
+    "keyTracks": [
+      "Sounds (Movin' On)",
+      "I Think I Got It Now",
+      "My Favorite Things",
+      "The Trolley Song"
+    ],
     "coverUrl": "https://coverartarchive.org/release/audience-betty/front",
     "discogs": "https://www.discogs.com/master/107378"
   },
@@ -2152,10 +3323,18 @@
     "year": 1988,
     "label": "Verve",
     "era": "contemporary",
-    "genres": ["vocal jazz", "bebop"],
+    "genres": [
+      "vocal jazz",
+      "bebop"
+    ],
     "description": "Carter's Grammy-winning comeback album, featuring her working trio. Her interpretations are radically personal, transforming standards into new compositions.",
     "significance": "Introduced Carter to a new generation after years of self-produced independence. Her uncompromising artistry finally received mainstream recognition.",
-    "keyTracks": ["Look What I Got", "The Man I Love", "That Sunday, That Summer", "Tight"],
+    "keyTracks": [
+      "Look What I Got",
+      "The Man I Love",
+      "That Sunday, That Summer",
+      "Tight"
+    ],
     "coverUrl": "https://coverartarchive.org/release/look-what-i-got/front",
     "discogs": "https://www.discogs.com/master/107390"
   },
@@ -2167,10 +3346,18 @@
     "year": 1961,
     "label": "Argo",
     "era": "hard-bop",
-    "genres": ["soul jazz", "hard bop"],
+    "genres": [
+      "soul jazz",
+      "hard bop"
+    ],
     "description": "Ashby brings the harp into bebop territory, proving the instrument could swing. Her light touch and sophisticated harmonies create a unique sound.",
     "significance": "Pioneered jazz harp in an era when the instrument was considered unsuitable for jazz. Ashby influenced Alice Coltrane and later harpists.",
-    "keyTracks": ["In a Mellow Tone", "Bohemia After Dark", "Dancing in the Dark", "Moonlight in Vermont"],
+    "keyTracks": [
+      "In a Mellow Tone",
+      "Bohemia After Dark",
+      "Dancing in the Dark",
+      "Moonlight in Vermont"
+    ],
     "coverUrl": "https://coverartarchive.org/release/mellow-tone-ashby/front",
     "discogs": "https://www.discogs.com/master/107412"
   },
@@ -2182,10 +3369,18 @@
     "year": 1968,
     "label": "Cadet",
     "era": "fusion",
-    "genres": ["soul jazz", "afrocentric jazz"],
+    "genres": [
+      "soul jazz",
+      "afrocentric jazz"
+    ],
     "description": "Ashby's grooviest album, blending her harp with African percussion, funky bass, and soulful arrangements. The result is unlike anything else in jazz.",
     "significance": "Created an Afrocentric soul jazz sound that predated similar experiments by decades. Recently rediscovered by crate diggers and sampled extensively.",
-    "keyTracks": ["Afro-Harping", "Soul Vibrations", "Life Has Its Trials", "Action Line"],
+    "keyTracks": [
+      "Afro-Harping",
+      "Soul Vibrations",
+      "Life Has Its Trials",
+      "Action Line"
+    ],
     "coverUrl": "https://coverartarchive.org/release/afro-harping/front",
     "discogs": "https://www.discogs.com/master/107434"
   },
@@ -2197,10 +3392,18 @@
     "year": 1984,
     "label": "Minor Music",
     "era": "contemporary",
-    "genres": ["avant-garde jazz", "post-bop"],
+    "genres": [
+      "avant-garde jazz",
+      "post-bop"
+    ],
     "description": "Allen's debut trio album with Anthony Cox and Andrew Cyrille. Her angular piano and compositional sophistication announced a major new voice.",
     "significance": "Introduced Allen as the leading pianist of her generation. Her synthesis of Cecil Taylor's energy and harmonic sophistication created a personal style.",
-    "keyTracks": ["The Printmakers", "Home Grown", "In the Middle", "Dolphy's Dance"],
+    "keyTracks": [
+      "The Printmakers",
+      "Home Grown",
+      "In the Middle",
+      "Dolphy's Dance"
+    ],
     "coverUrl": "https://coverartarchive.org/release/printmakers/front",
     "discogs": "https://www.discogs.com/master/107456"
   },
@@ -2212,10 +3415,18 @@
     "year": 1989,
     "label": "Minor Music",
     "era": "contemporary",
-    "genres": ["post-bop", "avant-garde jazz"],
+    "genres": [
+      "post-bop",
+      "avant-garde jazz"
+    ],
     "description": "Allen's trio with Charlie Haden and Paul Motian explores the intersection of freedom and lyricism. The music breathes with space and emotional depth.",
     "significance": "Demonstrated Allen's ability to work with jazz legends on equal terms. The intergenerational dialogue produced some of her finest work.",
-    "keyTracks": ["Twylight", "Lonely Woman", "For John Malachi", "In Appreciation"],
+    "keyTracks": [
+      "Twylight",
+      "Lonely Woman",
+      "For John Malachi",
+      "In Appreciation"
+    ],
     "coverUrl": "https://coverartarchive.org/release/twylight/front",
     "discogs": "https://www.discogs.com/master/107478"
   },
@@ -2227,10 +3438,18 @@
     "year": 1959,
     "label": "Colpix",
     "era": "hard-bop",
-    "genres": ["vocal jazz", "classical crossover"],
+    "genres": [
+      "vocal jazz",
+      "classical crossover"
+    ],
     "description": "Simone's concert debut showcases her classical training alongside her jazz and folk influences. Her intensity and dramatic flair are already fully formed.",
     "significance": "Established Simone as a unique voice—neither jazz nor classical nor folk, but all three fused into something new and powerful.",
-    "keyTracks": ["Black Is the Color of My True Love's Hair", "Wild Is the Wind", "Summertime", "Fine and Mellow"],
+    "keyTracks": [
+      "Black Is the Color of My True Love's Hair",
+      "Wild Is the Wind",
+      "Summertime",
+      "Fine and Mellow"
+    ],
     "coverUrl": "https://coverartarchive.org/release/nina-town-hall/front",
     "discogs": "https://www.discogs.com/master/107490"
   },
@@ -2242,10 +3461,18 @@
     "year": 1965,
     "label": "Philips",
     "era": "hard-bop",
-    "genres": ["vocal jazz", "blues"],
+    "genres": [
+      "vocal jazz",
+      "blues"
+    ],
     "description": "Features Simone's devastating 10-minute version of 'Sinnerman.' The album's emotional range spans quiet introspection to cathartic release.",
     "significance": "Contains some of Simone's most powerful performances. 'Sinnerman' became a anthem of spiritual struggle and release.",
-    "keyTracks": ["Sinnerman", "Be My Husband", "Strange Fruit", "Tell Me More and More and Then Some"],
+    "keyTracks": [
+      "Sinnerman",
+      "Be My Husband",
+      "Strange Fruit",
+      "Tell Me More and More and Then Some"
+    ],
     "coverUrl": "https://coverartarchive.org/release/pastel-blues/front",
     "discogs": "https://www.discogs.com/master/107512"
   },
@@ -2257,10 +3484,18 @@
     "year": 1961,
     "label": "Prestige",
     "era": "hard-bop",
-    "genres": ["soul jazz", "hard bop"],
+    "genres": [
+      "soul jazz",
+      "hard bop"
+    ],
     "description": "The Queen of the Organ pays tribute to Silver's funky compositions. Scott's Hammond B-3 swings hard over Junior Mance's arrangements.",
     "significance": "Demonstrated that the jazz organ could be soulful and sophisticated. Scott's influence on soul jazz organists was immense.",
-    "keyTracks": ["Senor Blues", "Doodlin'", "The Preacher", "Nica's Dream"],
+    "keyTracks": [
+      "Senor Blues",
+      "Doodlin'",
+      "The Preacher",
+      "Nica's Dream"
+    ],
     "coverUrl": "https://coverartarchive.org/release/scott-plays-silver/front",
     "discogs": "https://www.discogs.com/master/107534"
   },
@@ -2272,10 +3507,18 @@
     "year": 1964,
     "label": "Prestige",
     "era": "hard-bop",
-    "genres": ["soul jazz", "hard bop"],
+    "genres": [
+      "soul jazz",
+      "hard bop"
+    ],
     "description": "Scott's organ meets Stanley Turrentine's soulful tenor in one of their best collaborations. The music balances blues feeling with bop sophistication.",
     "significance": "Documented one of jazz's great partnerships. The Scott-Turrentine sound defined soul jazz organ combos.",
-    "keyTracks": ["Blue Flames", "Deep Down Soul", "The Lamp Is Low", "Secret Love"],
+    "keyTracks": [
+      "Blue Flames",
+      "Deep Down Soul",
+      "The Lamp Is Low",
+      "Secret Love"
+    ],
     "coverUrl": "https://coverartarchive.org/release/blue-flames/front",
     "discogs": "https://www.discogs.com/master/107556"
   },
@@ -2287,10 +3530,18 @@
     "year": 1955,
     "label": "EmArcy",
     "era": "hard-bop",
-    "genres": ["vocal jazz", "hard bop"],
+    "genres": [
+      "vocal jazz",
+      "hard bop"
+    ],
     "description": "The Divine One meets the trumpet master for one of the greatest vocal jazz albums ever. Brown's accompaniments are tasteful and inspired.",
     "significance": "Proved that Vaughan could hold her own with the finest instrumentalists. The chemistry between voice and trumpet is magical.",
-    "keyTracks": ["Lullaby of Birdland", "September Song", "I'm Glad There Is You", "Jim"],
+    "keyTracks": [
+      "Lullaby of Birdland",
+      "September Song",
+      "I'm Glad There Is You",
+      "Jim"
+    ],
     "coverUrl": "https://coverartarchive.org/release/sarah-clifford/front",
     "discogs": "https://www.discogs.com/master/107578"
   },
@@ -2302,10 +3553,17 @@
     "year": 1963,
     "label": "Mercury",
     "era": "hard-bop",
-    "genres": ["vocal jazz"],
+    "genres": [
+      "vocal jazz"
+    ],
     "description": "A live recording from Copenhagen capturing Vaughan at her swinging best. Her trio provides sympathetic support as she improvises with abandon.",
     "significance": "The finest live document of Vaughan's genius. Her scatting and rhythmic daring rival any instrumentalist.",
-    "keyTracks": ["I Cried for You", "Misty", "I Feel Pretty", "What Is This Thing Called Love?"],
+    "keyTracks": [
+      "I Cried for You",
+      "Misty",
+      "I Feel Pretty",
+      "What Is This Thing Called Love?"
+    ],
     "coverUrl": "https://coverartarchive.org/release/sassy-tivoli/front",
     "discogs": "https://www.discogs.com/master/107590"
   },
@@ -2317,10 +3575,18 @@
     "year": 1993,
     "label": "Blue Note",
     "era": "contemporary",
-    "genres": ["vocal jazz", "blues"],
+    "genres": [
+      "vocal jazz",
+      "blues"
+    ],
     "description": "Wilson's breakthrough, blending jazz, blues, and roots music in innovative arrangements. Her dark, smoky voice reinterprets songs from Robert Johnson to Van Morrison.",
     "significance": "Revitalized jazz vocals for a new generation. Wilson's approach—rooted but experimental—influenced countless singers.",
-    "keyTracks": ["You Don't Know What Love Is", "Black Crow", "Sankofa", "Hellhound on My Trail"],
+    "keyTracks": [
+      "You Don't Know What Love Is",
+      "Black Crow",
+      "Sankofa",
+      "Hellhound on My Trail"
+    ],
     "coverUrl": "https://coverartarchive.org/release/blue-light-dawn/front",
     "discogs": "https://www.discogs.com/master/107612"
   },
@@ -2332,10 +3598,19 @@
     "year": 1996,
     "label": "Blue Note",
     "era": "contemporary",
-    "genres": ["vocal jazz", "blues", "folk"],
+    "genres": [
+      "vocal jazz",
+      "blues",
+      "folk"
+    ],
     "description": "Wilson continues her eclectic approach, covering Neil Young, U2, and Hank Williams alongside originals. The production by Craig Street creates haunting atmospheres.",
     "significance": "Expanded the boundaries of what jazz vocals could encompass. The album's success proved there was an audience for adventurous vocal jazz.",
-    "keyTracks": ["Strange Fruit", "Last Train to Clarksville", "Harvest Moon", "Death Letter"],
+    "keyTracks": [
+      "Strange Fruit",
+      "Last Train to Clarksville",
+      "Harvest Moon",
+      "Death Letter"
+    ],
     "coverUrl": "https://coverartarchive.org/release/new-moon-daughter/front",
     "discogs": "https://www.discogs.com/master/107634"
   },
@@ -2347,10 +3622,18 @@
     "year": 1992,
     "label": "Verve",
     "era": "contemporary",
-    "genres": ["vocal jazz", "ballads"],
+    "genres": [
+      "vocal jazz",
+      "ballads"
+    ],
     "description": "Horn's masterpiece, produced by Johnny Mandel with lush strings. Her intimate delivery and impeccable timing make each song a meditation.",
     "significance": "Brought Horn long-overdue recognition late in her career. The album's patient, unhurried approach influenced a generation of singers.",
-    "keyTracks": ["Here's to Life", "If You Love Me", "Where Do You Start?", "Estate"],
+    "keyTracks": [
+      "Here's to Life",
+      "If You Love Me",
+      "Where Do You Start?",
+      "Estate"
+    ],
     "coverUrl": "https://coverartarchive.org/release/heres-to-life/front",
     "discogs": "https://www.discogs.com/master/107656"
   },
@@ -2362,10 +3645,17 @@
     "year": 1989,
     "label": "Verve",
     "era": "contemporary",
-    "genres": ["vocal jazz", "ballads"],
+    "genres": [
+      "vocal jazz",
+      "ballads"
+    ],
     "description": "Horn's quiet intensity and self-accompaniment create an atmosphere of late-night intimacy. Her silences are as eloquent as her notes.",
     "significance": "Demonstrated that less could be more in jazz vocals. Horn's influence on Diana Krall and other singer-pianists was profound.",
-    "keyTracks": ["Close Enough for Love", "I Love You, Paris", "You Won't Forget Me"],
+    "keyTracks": [
+      "Close Enough for Love",
+      "I Love You, Paris",
+      "You Won't Forget Me"
+    ],
     "coverUrl": "https://coverartarchive.org/release/close-enough/front",
     "discogs": "https://www.discogs.com/master/107678"
   },
@@ -2377,10 +3667,18 @@
     "year": 2011,
     "label": "Concord",
     "era": "contemporary",
-    "genres": ["jazz fusion", "contemporary jazz"],
+    "genres": [
+      "jazz fusion",
+      "contemporary jazz"
+    ],
     "description": "A Grammy-winning celebration of women in jazz, featuring Esperanza Spalding, Cassandra Wilson, and others. Carrington's drumming anchors sophisticated arrangements.",
     "significance": "Highlighted the depth of female talent in contemporary jazz. The all-women concept was both political statement and artistic triumph.",
-    "keyTracks": ["Transformation", "Michelle", "Echo", "Unconditional Love"],
+    "keyTracks": [
+      "Transformation",
+      "Michelle",
+      "Echo",
+      "Unconditional Love"
+    ],
     "coverUrl": "https://coverartarchive.org/release/mosaic-project/front",
     "discogs": "https://www.discogs.com/master/107690"
   },
@@ -2392,10 +3690,17 @@
     "year": 1962,
     "label": "Columbia",
     "era": "hard-bop",
-    "genres": ["vocal jazz"],
+    "genres": [
+      "vocal jazz"
+    ],
     "description": "McRae's tribute to Billie Holiday, performed with Ray Bryant's trio. Her interpretations honor Lady Day while adding her own sophisticated phrasing.",
     "significance": "One of the finest Holiday tribute albums. McRae's diction and timing were unmatched among jazz singers of her generation.",
-    "keyTracks": ["Lover Man", "Good Morning Heartache", "God Bless the Child", "Them There Eyes"],
+    "keyTracks": [
+      "Lover Man",
+      "Good Morning Heartache",
+      "God Bless the Child",
+      "Them There Eyes"
+    ],
     "coverUrl": "https://coverartarchive.org/release/mcrae-lover-man/front",
     "discogs": "https://www.discogs.com/master/107712"
   },
@@ -2407,10 +3712,17 @@
     "year": 1972,
     "label": "Atlantic",
     "era": "contemporary",
-    "genres": ["vocal jazz"],
+    "genres": [
+      "vocal jazz"
+    ],
     "description": "A live recording showcasing McRae's brilliant between-song commentary alongside her impeccable interpretations. Her wit matches her musicianship.",
     "significance": "Captured McRae's complete artistry—singer, pianist, and entertainer. Her spoken introductions became legendary.",
-    "keyTracks": ["Alfie", "If You Could See Me Now", "Baltimore Oriole", "I'm Always Drunk in San Francisco"],
+    "keyTracks": [
+      "Alfie",
+      "If You Could See Me Now",
+      "Baltimore Oriole",
+      "I'm Always Drunk in San Francisco"
+    ],
     "coverUrl": "https://coverartarchive.org/release/mcrae-songbook/front",
     "discogs": "https://www.discogs.com/master/107734"
   },
@@ -2422,10 +3734,18 @@
     "year": 1949,
     "label": "Vogue",
     "era": "swing",
-    "genres": ["gypsy jazz", "swing"],
+    "genres": [
+      "gypsy jazz",
+      "swing"
+    ],
     "description": "The Romani guitar genius who created an entirely new jazz vocabulary. With just two functioning fingers on his left hand, Django's technique and creativity were miraculous.",
     "significance": "Invented European jazz. Django's influence extends from jazz to rock to countless guitarists who marvel at his impossible virtuosity.",
-    "keyTracks": ["Minor Swing", "Nuages", "Djangology", "Swing 39"],
+    "keyTracks": [
+      "Minor Swing",
+      "Nuages",
+      "Djangology",
+      "Swing 39"
+    ],
     "coverUrl": "https://coverartarchive.org/release/djangology/front",
     "discogs": "https://www.discogs.com/master/108234"
   },
@@ -2437,10 +3757,17 @@
     "year": 1979,
     "label": "ECM",
     "era": "contemporary",
-    "genres": ["ECM jazz", "Nordic jazz"],
+    "genres": [
+      "ECM jazz",
+      "Nordic jazz"
+    ],
     "description": "The Norwegian saxophonist's crystalline tone defines the ECM aesthetic. His playing evokes Nordic landscapes—vast, cold, and hauntingly beautiful.",
     "significance": "Helped define European jazz as distinct from American traditions. Garbarek's influence on Scandinavian jazz was profound.",
-    "keyTracks": ["Parce Mihi Domine", "Lillekort", "Entering"],
+    "keyTracks": [
+      "Parce Mihi Domine",
+      "Lillekort",
+      "Entering"
+    ],
     "coverUrl": "https://coverartarchive.org/release/saxophone-supremacy/front",
     "discogs": "https://www.discogs.com/master/108256"
   },
@@ -2452,10 +3779,18 @@
     "year": 1994,
     "label": "ECM",
     "era": "contemporary",
-    "genres": ["sacred jazz", "early music"],
+    "genres": [
+      "sacred jazz",
+      "early music"
+    ],
     "description": "Garbarek's saxophone floats over medieval and Renaissance choral music. The unlikely combination creates a timeless, spiritual atmosphere.",
     "significance": "Became ECM's best-selling album ever. The fusion of ancient and modern proved there was a mass audience for meditative, boundary-crossing music.",
-    "keyTracks": ["Parce Mihi Domine", "Beata Viscera", "Credo", "Sanctus"],
+    "keyTracks": [
+      "Parce Mihi Domine",
+      "Beata Viscera",
+      "Credo",
+      "Sanctus"
+    ],
     "coverUrl": "https://coverartarchive.org/release/officium/front",
     "discogs": "https://www.discogs.com/master/108278"
   },
@@ -2467,10 +3802,18 @@
     "year": 1972,
     "label": "ECM",
     "era": "contemporary",
-    "genres": ["solo piano", "free jazz"],
+    "genres": [
+      "solo piano",
+      "free jazz"
+    ],
     "description": "Jarrett's first solo piano album for ECM, establishing the template for his legendary solo concerts. Fully improvised, emotionally direct, and technically brilliant.",
     "significance": "Launched Jarrett's solo career and helped define the ECM aesthetic. The album's success proved audiences would embrace pure improvisation.",
-    "keyTracks": ["In Front", "Ritooria", "My Lady, My Child", "Lalene"],
+    "keyTracks": [
+      "In Front",
+      "Ritooria",
+      "My Lady, My Child",
+      "Lalene"
+    ],
     "coverUrl": "https://coverartarchive.org/release/facing-you/front",
     "discogs": "https://www.discogs.com/master/108290"
   },
@@ -2482,10 +3825,18 @@
     "year": 1976,
     "label": "ECM",
     "era": "contemporary",
-    "genres": ["chamber jazz", "ECM jazz"],
+    "genres": [
+      "chamber jazz",
+      "ECM jazz"
+    ],
     "description": "Dave Holland's bass, John Abercrombie's guitar, and Jack DeJohnette's drums create intimate, conversational music. The trio format allows maximum interplay.",
     "significance": "Defined a new approach to jazz trio—spacious, dynamic, and collectively improvised. The ECM production enhanced the music's intimacy.",
-    "keyTracks": ["Unshielded Desire", "Waiting", "Jamala", "Back-Woods Song"],
+    "keyTracks": [
+      "Unshielded Desire",
+      "Waiting",
+      "Jamala",
+      "Back-Woods Song"
+    ],
     "coverUrl": "https://coverartarchive.org/release/gateway/front",
     "discogs": "https://www.discogs.com/master/108312"
   },
@@ -2497,10 +3848,18 @@
     "year": 1974,
     "label": "ECM",
     "era": "contemporary",
-    "genres": ["ECM jazz", "chamber jazz"],
+    "genres": [
+      "ECM jazz",
+      "chamber jazz"
+    ],
     "description": "Jarrett's European quartet with Jan Garbarek, Palle Danielsson, and Jon Christensen. The music blends American jazz with Nordic lyricism.",
     "significance": "Created a distinctly European jazz sound. The quartet's interplay influenced countless European musicians.",
-    "keyTracks": ["Spiral Dance", "Long as You Know You're Living Yours", "Belonging", "The Windup"],
+    "keyTracks": [
+      "Spiral Dance",
+      "Long as You Know You're Living Yours",
+      "Belonging",
+      "The Windup"
+    ],
     "coverUrl": "https://coverartarchive.org/release/belonging/front",
     "discogs": "https://www.discogs.com/master/108334"
   },
@@ -2512,10 +3871,18 @@
     "year": 1971,
     "label": "Philips",
     "era": "fusion",
-    "genres": ["Japanese jazz", "jazz-rock"],
+    "genres": [
+      "Japanese jazz",
+      "jazz-rock"
+    ],
     "description": "The legendary Japanese pianist's fusion masterpiece, combining electronics, rock energy, and avant-garde experimentation. Kikuchi's vision was decades ahead.",
     "significance": "Pioneered Japanese jazz-rock. Kikuchi's influence on Japanese musicians from Ryuichi Sakamoto onward was immense.",
-    "keyTracks": ["Yatra-ta", "Green Caterpillar", "Malagueña", "Once Upon a Time"],
+    "keyTracks": [
+      "Yatra-ta",
+      "Green Caterpillar",
+      "Malagueña",
+      "Once Upon a Time"
+    ],
     "coverUrl": "https://coverartarchive.org/release/yatra-ta/front",
     "discogs": "https://www.discogs.com/master/108356"
   },
@@ -2527,10 +3894,17 @@
     "year": 2003,
     "label": "Verve",
     "era": "contemporary",
-    "genres": ["piano trio", "post-bop"],
+    "genres": [
+      "piano trio",
+      "post-bop"
+    ],
     "description": "A rare Japanese artist to perform at the legendary Vanguard. Arimasa's lyrical style blends Bill Evans's influence with his own sensibility.",
     "significance": "Demonstrated that Japanese jazz had fully matured. Arimasa represents the globalization of jazz.",
-    "keyTracks": ["How Deep Is the Ocean", "My Foolish Heart", "Softly as in a Morning Sunrise"],
+    "keyTracks": [
+      "How Deep Is the Ocean",
+      "My Foolish Heart",
+      "Softly as in a Morning Sunrise"
+    ],
     "coverUrl": "https://coverartarchive.org/release/arimasa-vanguard/front",
     "discogs": "https://www.discogs.com/master/108378"
   },
@@ -2542,10 +3916,18 @@
     "year": 1977,
     "label": "RVC",
     "era": "fusion",
-    "genres": ["jazz-funk", "fusion"],
+    "genres": [
+      "jazz-funk",
+      "fusion"
+    ],
     "description": "Japanese guitarist Kawasaki's cosmic fusion, blending synthesizers, funk bass, and virtuosic guitar. The album grooves hard while reaching for the stars.",
     "significance": "A cult classic of Japanese jazz-funk. Kawasaki's guitar synthesizer pioneering influenced later electronic jazz.",
-    "keyTracks": ["Juice", "Raisins", "Bamboo Child", "Little Tree"],
+    "keyTracks": [
+      "Juice",
+      "Raisins",
+      "Bamboo Child",
+      "Little Tree"
+    ],
     "coverUrl": "https://coverartarchive.org/release/kosmik-suite/front",
     "discogs": "https://www.discogs.com/master/108390"
   },
@@ -2557,10 +3939,18 @@
     "year": 1974,
     "label": "Flying Disk",
     "era": "fusion",
-    "genres": ["afro jazz", "fusion"],
+    "genres": [
+      "afro jazz",
+      "fusion"
+    ],
     "description": "Japanese alto saxophonist Watanabe records in Kenya with African musicians. The result blends Japanese precision with African rhythmic vitality.",
     "significance": "A pioneering cross-cultural collaboration. Watanabe helped establish jazz as a global music, not just American or European.",
-    "keyTracks": ["Mbali Africa", "Kenya Ya", "Masai", "Jambo"],
+    "keyTracks": [
+      "Mbali Africa",
+      "Kenya Ya",
+      "Masai",
+      "Jambo"
+    ],
     "coverUrl": "https://coverartarchive.org/release/mbali-africa/front",
     "discogs": "https://www.discogs.com/master/108412"
   },
@@ -2572,10 +3962,17 @@
     "year": 1972,
     "label": "Three Blind Mice",
     "era": "fusion",
-    "genres": ["spiritual jazz", "Japanese jazz"],
+    "genres": [
+      "spiritual jazz",
+      "Japanese jazz"
+    ],
     "description": "The Japanese trumpeter's spiritual jazz statement, influenced by Miles Davis and Coltrane but with distinctly Eastern sensibilities.",
     "significance": "Showed that spiritual jazz could transcend cultural boundaries. Hino became Japan's most internationally recognized jazz artist.",
-    "keyTracks": ["Mellow Dream", "Alone, Alone and Alone", "Spiritual Nature"],
+    "keyTracks": [
+      "Mellow Dream",
+      "Alone, Alone and Alone",
+      "Spiritual Nature"
+    ],
     "coverUrl": "https://coverartarchive.org/release/spiritual-nature/front",
     "discogs": "https://www.discogs.com/master/108434"
   },
@@ -2587,10 +3984,18 @@
     "year": 1970,
     "label": "RCA",
     "era": "free-jazz",
-    "genres": ["South African jazz", "free jazz"],
+    "genres": [
+      "South African jazz",
+      "free jazz"
+    ],
     "description": "South African exiles blend their homeland's township jazz with European free improvisation. The big band roars with political passion and joy.",
     "significance": "Documented the South African jazz diaspora. McGregor's multi-racial band was both musical statement and political act against apartheid.",
-    "keyTracks": ["Davashe's Dream", "MRA", "Andromeda", "Kongi's Theme"],
+    "keyTracks": [
+      "Davashe's Dream",
+      "MRA",
+      "Andromeda",
+      "Kongi's Theme"
+    ],
     "coverUrl": "https://coverartarchive.org/release/jazz-in-africa/front",
     "discogs": "https://www.discogs.com/master/108456"
   },
@@ -2602,10 +4007,18 @@
     "year": 1964,
     "label": "Gallo",
     "era": "hard-bop",
-    "genres": ["South African jazz", "mbaqanga"],
+    "genres": [
+      "South African jazz",
+      "mbaqanga"
+    ],
     "description": "The legendary South African group before their exile. Township jazz meets hard bop with a distinctly African rhythmic pulse.",
     "significance": "Captured South African jazz at its peak before apartheid forced musicians into exile. The Blue Notes became the nucleus of the London jazz scene.",
-    "keyTracks": ["Kippie", "Poppie", "Township Bop", "Ke Tla Moya"],
+    "keyTracks": [
+      "Kippie",
+      "Poppie",
+      "Township Bop",
+      "Ke Tla Moya"
+    ],
     "coverUrl": "https://coverartarchive.org/release/blue-notes-concert/front",
     "discogs": "https://www.discogs.com/master/108478"
   },
@@ -2617,10 +4030,18 @@
     "year": 1960,
     "label": "Gallo",
     "era": "hard-bop",
-    "genres": ["South African jazz", "hard bop"],
+    "genres": [
+      "South African jazz",
+      "hard bop"
+    ],
     "description": "South Africa's first bebop album, featuring Abdullah Ibrahim (then Dollar Brand) and Hugh Masekela. Modern jazz meets African melody.",
     "significance": "The only album by South Africa's first modern jazz group, recorded months before the Sharpeville massacre changed everything.",
-    "keyTracks": ["Blues for Hughie", "Scullery Department", "Vary-oo-Vum", "Dollar's Moods"],
+    "keyTracks": [
+      "Blues for Hughie",
+      "Scullery Department",
+      "Vary-oo-Vum",
+      "Dollar's Moods"
+    ],
     "coverUrl": "https://coverartarchive.org/release/jazz-epistles/front",
     "discogs": "https://www.discogs.com/master/108490"
   },
@@ -2632,10 +4053,18 @@
     "year": 1974,
     "label": "Sun",
     "era": "fusion",
-    "genres": ["Cape jazz", "South African jazz"],
+    "genres": [
+      "Cape jazz",
+      "South African jazz"
+    ],
     "description": "The anthem of the anti-apartheid movement. Ibrahim's hypnotic piano vamp became a symbol of resistance and hope.",
     "significance": "The most important South African jazz recording. 'Mannenberg' became a rallying cry for freedom, played at protests and celebrations.",
-    "keyTracks": ["Mannenberg", "Soweto Is Where It's At", "Cape Town Fringe", "The Pilgrim"],
+    "keyTracks": [
+      "Mannenberg",
+      "Soweto Is Where It's At",
+      "Cape Town Fringe",
+      "The Pilgrim"
+    ],
     "coverUrl": "https://coverartarchive.org/release/mannenberg/front",
     "discogs": "https://www.discogs.com/master/108512"
   },
@@ -2647,10 +4076,18 @@
     "year": 1980,
     "label": "Elektra Musician",
     "era": "contemporary",
-    "genres": ["Cape jazz", "world jazz"],
+    "genres": [
+      "Cape jazz",
+      "world jazz"
+    ],
     "description": "Ibrahim's portrait of African life, blending jazz sophistication with Cape Town's musical traditions. His band Ekaya creates a joyful, spiritual sound.",
     "significance": "Introduced Ibrahim to wider American audiences. The album's positive energy contrasted with the despair of apartheid.",
-    "keyTracks": ["African Marketplace", "Zimbabwe", "The Wedding", "Soweto"],
+    "keyTracks": [
+      "African Marketplace",
+      "Zimbabwe",
+      "The Wedding",
+      "Soweto"
+    ],
     "coverUrl": "https://coverartarchive.org/release/african-marketplace/front",
     "discogs": "https://www.discogs.com/master/108534"
   },
@@ -2662,10 +4099,18 @@
     "year": 1968,
     "label": "Uni",
     "era": "fusion",
-    "genres": ["Afro-jazz", "pop jazz"],
+    "genres": [
+      "Afro-jazz",
+      "pop jazz"
+    ],
     "description": "Features Masekela's #1 pop hit. His trumpet and flugelhorn blend African melodies with American R&B production.",
     "significance": "The biggest crossover hit in African jazz history. Masekela became an ambassador for South African music worldwide.",
-    "keyTracks": ["Grazing in the Grass", "Bajabula Bonke", "Ha Lese Li Di Khanna", "Do Me So La So So"],
+    "keyTracks": [
+      "Grazing in the Grass",
+      "Bajabula Bonke",
+      "Ha Lese Li Di Khanna",
+      "Do Me So La So So"
+    ],
     "coverUrl": "https://coverartarchive.org/release/grazin-grass/front",
     "discogs": "https://www.discogs.com/master/108556"
   },
@@ -2677,10 +4122,18 @@
     "year": 1994,
     "label": "Triloka",
     "era": "contemporary",
-    "genres": ["South African jazz", "world music"],
+    "genres": [
+      "South African jazz",
+      "world music"
+    ],
     "description": "Recorded after Mandela's release, celebrating the end of apartheid. Masekela's joy is palpable as he performs with South African musicians at home.",
     "significance": "Documented the euphoria of South Africa's liberation. Masekela had been an exile for three decades.",
-    "keyTracks": ["Stimela", "Bring Him Back Home", "Mandela", "Thuma Mina"],
+    "keyTracks": [
+      "Stimela",
+      "Bring Him Back Home",
+      "Mandela",
+      "Thuma Mina"
+    ],
     "coverUrl": "https://coverartarchive.org/release/hope-masekela/front",
     "discogs": "https://www.discogs.com/master/108578"
   },
@@ -2692,10 +4145,18 @@
     "year": 1978,
     "label": "Jika",
     "era": "free-jazz",
-    "genres": ["South African jazz", "free jazz"],
+    "genres": [
+      "South African jazz",
+      "free jazz"
+    ],
     "description": "Pukwana's alto saxophone wails over township rhythms and free improvisation. The music is both a mourning for exile and celebration of survival.",
     "significance": "The definitive document of exiled South African jazz. Pukwana's mix of freedom and tradition influenced the London jazz scene.",
-    "keyTracks": ["Hamba Kahle", "Siyaya", "B My Dear", "Izikhalo"],
+    "keyTracks": [
+      "Hamba Kahle",
+      "Siyaya",
+      "B My Dear",
+      "Izikhalo"
+    ],
     "coverUrl": "https://coverartarchive.org/release/hamba-kahle/front",
     "discogs": "https://www.discogs.com/master/108590"
   },
@@ -2707,10 +4168,17 @@
     "year": 1973,
     "label": "Fiesta",
     "era": "fusion",
-    "genres": ["Afro-jazz", "makossa"],
+    "genres": [
+      "Afro-jazz",
+      "makossa"
+    ],
     "description": "Features 'Soul Makossa,' one of the most sampled songs in history. The Cameroonian saxophonist fuses makossa rhythms with funk and jazz.",
     "significance": "Pioneered Afrobeat before Fela. Michael Jackson's 'Wanna Be Startin' Somethin'' borrowed its chant, creating one of music's first copyright disputes.",
-    "keyTracks": ["Soul Makossa", "Lily", "Super Kumba"],
+    "keyTracks": [
+      "Soul Makossa",
+      "Lily",
+      "Super Kumba"
+    ],
     "coverUrl": "https://coverartarchive.org/release/afrodisia/front",
     "discogs": "https://www.discogs.com/master/108612"
   },
@@ -2722,10 +4190,18 @@
     "year": 1976,
     "label": "Columbia",
     "era": "fusion",
-    "genres": ["world fusion", "Indian classical"],
+    "genres": [
+      "world fusion",
+      "Indian classical"
+    ],
     "description": "McLaughlin trades his electric guitar for acoustic, exploring Indian classical music with virtuoso Indian musicians. The fusion is organic, not gimmicky.",
     "significance": "The most successful fusion of jazz and Indian classical music. McLaughlin's devotion to Indian tradition earned respect from purists.",
-    "keyTracks": ["Joy", "Lotus Feet", "What Need Have I for This", "India"],
+    "keyTracks": [
+      "Joy",
+      "Lotus Feet",
+      "What Need Have I for This",
+      "India"
+    ],
     "coverUrl": "https://coverartarchive.org/release/shakti/front",
     "discogs": "https://www.discogs.com/master/108634"
   },
@@ -2737,10 +4213,18 @@
     "year": 1979,
     "label": "ECM",
     "era": "contemporary",
-    "genres": ["world jazz", "chamber jazz"],
+    "genres": [
+      "world jazz",
+      "chamber jazz"
+    ],
     "description": "Don Cherry's pocket trumpet, Collin Walcott's sitar and tabla, and Nana Vasconcelos's percussion create world music before the term existed.",
     "significance": "Pioneered the fusion of jazz with global folk traditions. The trio's approach influenced countless world music projects.",
-    "keyTracks": ["Codona", "Mumakata", "New Light", "Race Face"],
+    "keyTracks": [
+      "Codona",
+      "Mumakata",
+      "New Light",
+      "Race Face"
+    ],
     "coverUrl": "https://coverartarchive.org/release/codona/front",
     "discogs": "https://www.discogs.com/master/108656"
   },
@@ -2752,10 +4236,18 @@
     "year": 1992,
     "label": "GM Recordings",
     "era": "contemporary",
-    "genres": ["third stream", "film noir jazz"],
+    "genres": [
+      "third stream",
+      "film noir jazz"
+    ],
     "description": "Blake's solo piano explores Eastern European and Mediterranean melodies. His sparse, mysterious style evokes film noir and classical modernism.",
     "significance": "Expanded jazz's harmonic vocabulary beyond American and African sources. Blake's 'Third Stream' approach influenced art music composers.",
-    "keyTracks": ["Puccini's Rome", "Lush Life", "Tea for Two", "Varna"],
+    "keyTracks": [
+      "Puccini's Rome",
+      "Lush Life",
+      "Tea for Two",
+      "Varna"
+    ],
     "coverUrl": "https://coverartarchive.org/release/looking-east/front",
     "discogs": "https://www.discogs.com/master/108678"
   },
@@ -2767,10 +4259,18 @@
     "year": 1977,
     "label": "ECM",
     "era": "contemporary",
-    "genres": ["ECM jazz", "chamber jazz"],
+    "genres": [
+      "ECM jazz",
+      "chamber jazz"
+    ],
     "description": "British pianist John Taylor leads a trio with vocalist Norma Winstone and trumpeter Kenny Wheeler. The music floats in ECM's trademark spaciousness.",
     "significance": "Defined British ECM jazz. The trio's delicate interplay influenced the European chamber jazz movement.",
-    "keyTracks": ["Azimuth", "Sirens' Song", "O", "The Tunnel"],
+    "keyTracks": [
+      "Azimuth",
+      "Sirens' Song",
+      "O",
+      "The Tunnel"
+    ],
     "coverUrl": "https://coverartarchive.org/release/azimuth/front",
     "discogs": "https://www.discogs.com/master/108690"
   },
@@ -2782,10 +4282,18 @@
     "year": 1974,
     "label": "ECM",
     "era": "contemporary",
-    "genres": ["Nordic jazz", "fusion"],
+    "genres": [
+      "Nordic jazz",
+      "fusion"
+    ],
     "description": "Garbarek's breakthrough, featuring his interpretation of Jim Pepper's Native American-influenced title track. Bobo Stenson's piano adds harmonic depth.",
     "significance": "Established Garbarek as ECM's signature artist. The album's mix of world music, free jazz, and Nordic atmospherics defined a new style.",
-    "keyTracks": ["Witchi-Tai-To", "Kukka", "Svevende", "Air"],
+    "keyTracks": [
+      "Witchi-Tai-To",
+      "Kukka",
+      "Svevende",
+      "Air"
+    ],
     "coverUrl": "https://coverartarchive.org/release/witchi-tai-to/front",
     "discogs": "https://www.discogs.com/master/108712"
   },
@@ -2797,10 +4305,17 @@
     "year": 1976,
     "label": "ECM",
     "era": "contemporary",
-    "genres": ["ECM jazz", "post-bop"],
+    "genres": [
+      "ECM jazz",
+      "post-bop"
+    ],
     "description": "Canadian-British trumpeter Wheeler's masterpiece with Keith Jarrett, Dave Holland, and Jack DeJohnette. His lyrical, fragile tone and complex compositions are perfectly showcased.",
     "significance": "Established Wheeler as a major composer and bandleader. The album's beauty and sophistication influenced a generation of composers.",
-    "keyTracks": ["Heyoke", "Smatter", "Gnu Suite"],
+    "keyTracks": [
+      "Heyoke",
+      "Smatter",
+      "Gnu Suite"
+    ],
     "coverUrl": "https://coverartarchive.org/release/gnu-high/front",
     "discogs": "https://www.discogs.com/master/108734"
   },
@@ -2812,10 +4327,18 @@
     "year": 1981,
     "label": "ECM",
     "era": "contemporary",
-    "genres": ["Brazilian jazz", "chamber jazz"],
+    "genres": [
+      "Brazilian jazz",
+      "chamber jazz"
+    ],
     "description": "The Brazilian multi-instrumentalist's most acclaimed ECM album, with Jan Garbarek and Charlie Haden. Amazon rainforest meets Nordic fjords.",
     "significance": "One of the finest cross-cultural collaborations in jazz. Gismonti's guitar and piano work spans classical, jazz, and Brazilian folk.",
-    "keyTracks": ["Palhaço", "Dança das Cabeças", "Frevo", "Baião Malandro"],
+    "keyTracks": [
+      "Palhaço",
+      "Dança das Cabeças",
+      "Frevo",
+      "Baião Malandro"
+    ],
     "coverUrl": "https://coverartarchive.org/release/saudades/front",
     "discogs": "https://www.discogs.com/master/108756"
   }

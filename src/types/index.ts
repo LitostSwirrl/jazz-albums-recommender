@@ -34,6 +34,14 @@ export interface Artist {
   wikipedia?: string;
 }
 
+export interface CriticReview {
+  quote: string;
+  source: string;
+  author?: string;
+  rating?: number;
+  url?: string;
+}
+
 export interface Album {
   id: string;
   title: string;
@@ -49,4 +57,7 @@ export interface Album {
   coverUrl?: string;
   discogs?: string;
   allMusic?: string;
+  spotifyUrl?: string;
+  youtubeUrl?: string;
+  reviews?: CriticReview[];
 }
