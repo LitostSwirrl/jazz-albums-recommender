@@ -3,6 +3,7 @@ import erasData from '../data/eras.json';
 import artistsData from '../data/artists.json';
 import albumsData from '../data/albums.json';
 import { AlbumCover } from '../components/AlbumCover';
+import { SEO } from '../components/SEO';
 import type { Era as EraType, Artist, Album } from '../types';
 
 const eras = erasData as EraType[];
@@ -29,6 +30,10 @@ export function Era() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
+      <SEO
+        title={`${era.name} Era (${era.period})`}
+        description={era.description.slice(0, 160)}
+      />
       {/* Breadcrumb */}
       <div className="mb-6">
         <Link to="/eras" className="text-zinc-500 hover:text-zinc-300">

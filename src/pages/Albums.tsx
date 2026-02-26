@@ -3,6 +3,7 @@ import { Link, useSearchParams } from 'react-router-dom';
 import albumsData from '../data/albums.json';
 import erasData from '../data/eras.json';
 import { AlbumCover } from '../components/AlbumCover';
+import { SEO } from '../components/SEO';
 import type { Album, Era } from '../types';
 
 const albums = albumsData as Album[];
@@ -97,6 +98,10 @@ export function Albums() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
+      <SEO
+        title="Essential Jazz Albums"
+        description="Explore 100+ essential jazz albums that define the genre, from bebop classics to contemporary masterpieces. Filter by era, genre, and label."
+      />
       <div className="mb-8">
         <h1 className="text-4xl font-bold mb-2">Essential Albums</h1>
         <p className="text-zinc-400">

@@ -5,7 +5,6 @@ interface ArtistPhotoProps {
   name: string;
   size?: 'sm' | 'md' | 'lg' | 'xl';
   className?: string;
-  showInstrument?: string;
 }
 
 const sizeClasses = {
@@ -54,28 +53,12 @@ function getNameColor(name: string): string {
   return colors[Math.abs(hash) % colors.length];
 }
 
-// Instrument emoji mapping
-const instrumentEmoji: Record<string, string> = {
-  'trumpet': '',
-  'saxophone': '',
-  'piano': '',
-  'bass': '',
-  'drums': '',
-  'guitar': '',
-  'trombone': '',
-  'vocals': '',
-  'vibraphone': '',
-  'clarinet': '',
-  'flute': '',
-  'organ': '',
-};
 
 export function ArtistPhoto({
   imageUrl,
   name,
   size = 'md',
   className = '',
-  showInstrument
 }: ArtistPhotoProps) {
   const [imageError, setImageError] = useState(false);
   const [imageLoading, setImageLoading] = useState(true);
@@ -85,7 +68,6 @@ export function ArtistPhoto({
 
   const color = getNameColor(name);
   const initials = getInitials(name);
-  const instrumentIcon = showInstrument ? instrumentEmoji[showInstrument.toLowerCase()] : null;
 
   return (
     <div
@@ -98,8 +80,11 @@ export function ArtistPhoto({
     >
       {!showFallback && (
         <img
+          loading="lazy"
           src={imageUrl}
           alt={`${name} photo`}
+          crossOrigin="anonymous"
+          referrerPolicy="no-referrer"
           className={`w-full h-full object-cover transition-opacity duration-300 ${
             imageLoading ? 'opacity-0' : 'opacity-100'
           }`}
@@ -115,9 +100,6 @@ export function ArtistPhoto({
           >
             {initials}
           </div>
-          {instrumentIcon && size !== 'sm' && (
-            <div className="text-xs mt-0.5">{instrumentIcon}</div>
-          )}
         </div>
       )}
       {!showFallback && imageLoading && (

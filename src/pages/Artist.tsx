@@ -5,6 +5,8 @@ import erasData from '../data/eras.json';
 import type { Artist as ArtistType, Album, Era } from '../types';
 import { MiniInfluenceNetwork } from '../components/graph';
 import { ArtistPhoto } from '../components/ArtistPhoto';
+import { AlbumCover } from '../components/AlbumCover';
+import { SEO } from '../components/SEO';
 
 const artists = artistsData as ArtistType[];
 const albums = albumsData as Album[];
@@ -32,6 +34,12 @@ export function Artist() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
+      <SEO
+        title={artist.name}
+        description={artist.bio.slice(0, 160)}
+        image={artist.imageUrl}
+        type="profile"
+      />
       {/* Breadcrumb */}
       <div className="mb-6">
         <Link to="/artists" className="text-zinc-500 hover:text-zinc-300">
@@ -47,7 +55,6 @@ export function Artist() {
           imageUrl={artist.imageUrl}
           name={artist.name}
           size="xl"
-          showInstrument={artist.instruments[0]}
           className="flex-shrink-0"
         />
         <div>
@@ -166,7 +173,9 @@ export function Artist() {
                 to={`/album/${album.id}`}
                 className="group p-4 rounded-lg bg-zinc-900 border border-zinc-800 hover:border-zinc-600 transition-all"
               >
-                <div className="text-4xl mb-3">💿</div>
+                <div className="mb-3 w-full">
+                  <AlbumCover coverUrl={album.coverUrl} title={album.title} size="sm" />
+                </div>
                 <h3 className="font-semibold text-white group-hover:text-amber-400 transition-colors">
                   {album.title}
                 </h3>

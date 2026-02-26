@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import erasData from '../data/eras.json';
+import { SEO } from '../components/SEO';
 import type { Era } from '../types';
 
 const eras = erasData as Era[];
@@ -7,6 +8,10 @@ const eras = erasData as Era[];
 export function Eras() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
+      <SEO
+        title="Jazz Eras"
+        description="Explore the evolution of jazz through eight distinct periods, from early jazz and swing to bebop, hard bop, free jazz, fusion, and contemporary styles."
+      />
       <h1 className="text-4xl font-bold mb-2">Jazz Eras</h1>
       <p className="text-zinc-400 mb-8">
         Explore the evolution of jazz through eight distinct periods

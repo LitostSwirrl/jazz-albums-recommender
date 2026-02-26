@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom';
 import erasData from '../data/eras.json';
 import albumsData from '../data/albums.json';
 import artistsData from '../data/artists.json';
+import { SEO } from '../components/SEO';
+import { AlbumCover } from '../components/AlbumCover';
 import type { Era, Album, Artist, EraId } from '../types';
 
 const eras = erasData as Era[];
@@ -40,6 +42,10 @@ function getKeyAlbums(eraId: EraId): Album[] {
 export function Timeline() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
+      <SEO
+        title="Jazz Timeline"
+        description="Explore 100+ years of jazz evolution from New Orleans to the present day. Discover how each era built on what came before while pushing music into new territory."
+      />
       <div className="mb-12 text-center">
         <h1 className="text-4xl font-bold mb-4">Jazz Through Time</h1>
         <p className="text-xl text-zinc-400 max-w-2xl mx-auto">
@@ -148,10 +154,8 @@ export function Timeline() {
                         to={`/album/${album.id}`}
                         className="flex items-center gap-3 p-2 rounded-lg bg-zinc-800/50 hover:bg-zinc-800 transition-colors group"
                       >
-                        <div
-                          className="w-10 h-10 rounded bg-zinc-700 flex items-center justify-center text-lg"
-                        >
-                          💿
+                        <div className="w-10 h-10 flex-shrink-0">
+                          <AlbumCover coverUrl={album.coverUrl} title={album.title} size="sm" />
                         </div>
                         <div className="flex-1 min-w-0">
                           <div className="text-sm font-medium text-white group-hover:text-amber-400 truncate transition-colors">

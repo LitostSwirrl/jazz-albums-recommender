@@ -75,10 +75,13 @@ export function AlbumCover({ coverUrl, title, size = 'md', className = '', eraCo
   const [imageLoading, setImageLoading] = useState(true);
 
   // Only try to load if we have a URL that looks valid
-  // Reject fake coverartarchive URLs (text IDs like "zodiac-suite" instead of UUIDs)
+  // Reject fake coverartarchive URLs:
+  // 1. Text IDs like "zodiac-suite" or "five-spot-vol1" instead of UUIDs
+  // 2. Fake UUIDs with pattern "-39f8-4c5e-9e5c-1f9c2d8b8d8d" (placeholder suffix)
   const hasValidUrl = coverUrl &&
     coverUrl.startsWith('http') &&
-    !coverUrl.match(/coverartarchive\.org\/release\/[a-z][a-z-]+\/front$/);
+    !coverUrl.match(/coverartarchive\.org\/release\/[a-z][a-z0-9-]+\/front$/) &&
+    !coverUrl.includes('-39f8-4c5e-9e5c-1f9c2d8b8d8d');
   const showFallback = !hasValidUrl || imageError;
 
   const color = eraColor || getTitleColor(title);
@@ -95,6 +98,7 @@ export function AlbumCover({ coverUrl, title, size = 'md', className = '', eraCo
     >
       {!showFallback && coverUrl && (
         <img
+          loading="lazy"
           src={getProxiedUrl(coverUrl)}
           alt={`${title} album cover`}
           crossOrigin="anonymous"

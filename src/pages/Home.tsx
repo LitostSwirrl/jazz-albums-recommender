@@ -4,6 +4,7 @@ import albumsData from '../data/albums.json';
 import artistsData from '../data/artists.json';
 import { AlbumCover } from '../components/AlbumCover';
 import { ArtistPhoto } from '../components/ArtistPhoto';
+import { SEO } from '../components/SEO';
 import type { Era, Album, Artist } from '../types';
 
 const eras = erasData as Era[];
@@ -33,6 +34,10 @@ export function Home() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
+      <SEO
+        title="Your Jazz Library"
+        description="A curated guide to 100 essential jazz albums from New Orleans to today. Explore jazz history, discover artists, and understand how they shaped each other."
+      />
       {/* Hero Section */}
       <section className="text-center mb-16">
         <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent">
@@ -193,7 +198,6 @@ export function Home() {
                   imageUrl={artist.imageUrl}
                   name={artist.name}
                   size="lg"
-                  showInstrument={artist.instruments[0]}
                 />
               </div>
               <h3 className="font-semibold text-white text-sm group-hover:text-amber-400 transition-colors">

@@ -3,6 +3,7 @@ import artistsData from '../data/artists.json';
 import erasData from '../data/eras.json';
 import type { Artist, Era } from '../types';
 import { ArtistPhoto } from '../components/ArtistPhoto';
+import { SEO } from '../components/SEO';
 
 const artists = artistsData as Artist[];
 const eras = erasData as Era[];
@@ -15,6 +16,10 @@ export function Artists() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
+      <SEO
+        title="Jazz Artists"
+        description="Discover the legends who shaped jazz history. Explore profiles of 45+ influential jazz musicians from Louis Armstrong to Kamasi Washington."
+      />
       <h1 className="text-4xl font-bold mb-2">Jazz Artists</h1>
       <p className="text-zinc-400 mb-8">
         Discover the legends who shaped jazz history
@@ -32,7 +37,6 @@ export function Artists() {
                 imageUrl={artist.imageUrl}
                 name={artist.name}
                 size="lg"
-                showInstrument={artist.instruments[0]}
               />
             </div>
 

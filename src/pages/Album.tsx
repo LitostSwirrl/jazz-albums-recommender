@@ -6,6 +6,7 @@ import { AlbumCover } from '../components/AlbumCover';
 import { ArtistPhoto } from '../components/ArtistPhoto';
 import { RelatedAlbums } from '../components/discovery/RelatedAlbums';
 import { SpotifyIcon, YouTubeIcon } from '../components/icons';
+import { SEO } from '../components/SEO';
 import type { Album as AlbumType, Artist, Era } from '../types';
 
 const albums = albumsData as AlbumType[];
@@ -32,6 +33,12 @@ export function Album() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
+      <SEO
+        title={`${album.title} by ${album.artist}`}
+        description={album.description.slice(0, 160)}
+        image={album.coverUrl}
+        type="music.album"
+      />
       {/* Breadcrumb */}
       <div className="mb-6">
         <Link to="/albums" className="text-zinc-500 hover:text-zinc-300">
@@ -228,7 +235,6 @@ export function Album() {
               imageUrl={artist.imageUrl}
               name={artist.name}
               size="lg"
-              showInstrument={artist.instruments[0]}
             />
             <div>
               <h3 className="text-lg font-semibold text-white group-hover:text-amber-400 transition-colors">

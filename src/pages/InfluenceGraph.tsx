@@ -14,6 +14,7 @@ import '@xyflow/react/dist/style.css';
 import artistsData from '../data/artists.json';
 import albumsData from '../data/albums.json';
 import erasData from '../data/eras.json';
+import { SEO } from '../components/SEO';
 import type { Artist, Era, Album } from '../types';
 import {
   ArtistNode,
@@ -175,6 +176,10 @@ function InfluenceGraphInner() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
+      <SEO
+        title="Artist Influence Network"
+        description="Explore how jazz musicians influenced each other across generations. Discover connections between artists and trace the evolution of jazz through influence relationships."
+      />
       <div className="mb-6">
         <h1 className="text-4xl font-bold mb-2">Artist Influence Network</h1>
         <p className="text-zinc-400 mb-4">
