@@ -211,6 +211,25 @@ export function Home() {
         </div>
       </section>
 
+      {/* Jazz & Society */}
+      <section className="mb-16">
+        <Link
+          to="/context"
+          className="block p-6 rounded-xl bg-gradient-to-br from-red-900/20 via-amber-900/20 to-purple-900/20 border border-zinc-700 hover:border-amber-500/50 transition-all group"
+        >
+          <h2 className="text-xl font-bold text-amber-400 mb-2 group-hover:text-amber-300 transition-colors">
+            Jazz & Society
+          </h2>
+          <p className="text-zinc-400 text-sm mb-3">
+            Jazz never existed in a vacuum. Explore how civil rights, war, economics, and
+            technology shaped the music — and how the music shaped the world.
+          </p>
+          <span className="text-amber-400 text-sm group-hover:underline">
+            Explore the parallel timeline →
+          </span>
+        </Link>
+      </section>
+
       {/* Educational Quote */}
       <section className="p-8 rounded-xl bg-gradient-to-r from-zinc-900 to-zinc-800 border border-zinc-700">
         <blockquote className="text-xl text-zinc-300 italic mb-4">

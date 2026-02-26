@@ -4,7 +4,7 @@ export function Footer() {
       <div className="max-w-6xl mx-auto px-4 text-center text-zinc-500 text-sm">
         <p>A personal jazz listening guide</p>
         <p className="mt-2">
-          Data sourced from Wikipedia, MusicBrainz, Discogs, and AllMusic
+          Data sourced from Wikipedia and MusicBrainz
         </p>
       </div>
     </footer>

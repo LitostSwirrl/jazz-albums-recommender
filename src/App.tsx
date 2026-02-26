@@ -16,6 +16,7 @@ const Artist = lazy(() => import('./pages/Artist').then(m => ({ default: m.Artis
 const Album = lazy(() => import('./pages/Album').then(m => ({ default: m.Album })));
 const Timeline = lazy(() => import('./pages/Timeline').then(m => ({ default: m.Timeline })));
 const InfluenceGraph = lazy(() => import('./pages/InfluenceGraph').then(m => ({ default: m.InfluenceGraph })));
+const ParallelTimeline = lazy(() => import('./pages/ParallelTimeline').then(m => ({ default: m.ParallelTimeline })));
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
               <Route path="/album/:id" element={<Album />} />
               <Route path="/timeline" element={<Timeline />} />
               <Route path="/influence" element={<InfluenceGraph />} />
+              <Route path="/context" element={<ParallelTimeline />} />
             </Route>
           </Routes>
         </Suspense>

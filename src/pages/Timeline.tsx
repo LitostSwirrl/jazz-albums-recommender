@@ -216,12 +216,18 @@ export function Timeline() {
       </div>
 
       {/* Navigation */}
-      <div className="mt-12 flex justify-center gap-4">
+      <div className="mt-12 flex flex-wrap justify-center gap-4">
         <Link
-          to="/influence"
+          to="/context"
           className="px-6 py-3 rounded-lg bg-amber-500 text-black font-semibold hover:bg-amber-400 transition-colors"
         >
-          View Influence Network →
+          Jazz & Society →
+        </Link>
+        <Link
+          to="/influence"
+          className="px-6 py-3 rounded-lg border border-zinc-700 text-zinc-300 hover:border-zinc-500 transition-colors"
+        >
+          Influence Network →
         </Link>
         <Link
           to="/albums"

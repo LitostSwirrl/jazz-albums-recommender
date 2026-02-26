@@ -71,10 +71,18 @@ export function Header() {
                   <Link
                     to="/influence"
                     role="menuitem"
-                    className="block px-4 py-3 text-zinc-300 hover:bg-zinc-700 hover:text-white transition-colors rounded-b-lg focus:outline-none focus:bg-zinc-700"
+                    className="block px-4 py-3 text-zinc-300 hover:bg-zinc-700 hover:text-white transition-colors focus:outline-none focus:bg-zinc-700"
                   >
                     <div className="font-medium">Influence Network</div>
                     <div className="text-xs text-zinc-500">Artist connections</div>
+                  </Link>
+                  <Link
+                    to="/context"
+                    role="menuitem"
+                    className="block px-4 py-3 text-zinc-300 hover:bg-zinc-700 hover:text-white transition-colors rounded-b-lg focus:outline-none focus:bg-zinc-700"
+                  >
+                    <div className="font-medium">Jazz & Society</div>
+                    <div className="text-xs text-zinc-500">History & context</div>
                   </Link>
                 </div>
               )}
@@ -149,6 +157,13 @@ export function Header() {
                 className="text-amber-400 hover:text-amber-300 transition-colors py-2"
               >
                 Influence Network
+              </Link>
+              <Link
+                to="/context"
+                onClick={() => setMobileMenuOpen(false)}
+                className="text-amber-400 hover:text-amber-300 transition-colors py-2"
+              >
+                Jazz & Society
               </Link>
             </div>
           </div>

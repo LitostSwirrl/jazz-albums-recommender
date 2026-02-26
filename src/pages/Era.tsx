@@ -1,10 +1,13 @@
 import { useParams, Link } from 'react-router-dom';
+import { useState } from 'react';
 import erasData from '../data/eras.json';
 import artistsData from '../data/artists.json';
 import albumsData from '../data/albums.json';
 import { AlbumCover } from '../components/AlbumCover';
+import { HistoricalEventCard } from '../components/context/HistoricalEventCard';
 import { SEO } from '../components/SEO';
-import type { Era as EraType, Artist, Album } from '../types';
+import { getEventsByEra } from '../utils/historicalContext';
+import type { Era as EraType, Artist, Album, EraId } from '../types';
 
 const eras = erasData as EraType[];
 const artists = artistsData as Artist[];
@@ -73,6 +76,9 @@ export function Era() {
         </div>
       </section>
 
+      {/* Historical Context */}
+      <EraHistoricalContext eraId={era.id} />
+
       {/* Key Artists */}
       <section className="mb-12">
         <h2 className="text-2xl font-bold mb-6">Key Artists</h2>
@@ -125,5 +131,44 @@ export function Era() {
         )}
       </section>
     </div>
+  );
+}
+
+const INITIAL_VISIBLE = 3;
+
+function EraHistoricalContext({ eraId }: { eraId: EraId }) {
+  const events = getEventsByEra(eraId);
+  const [expanded, setExpanded] = useState(false);
+
+  if (events.length === 0) return null;
+
+  const visible = expanded ? events : events.slice(0, INITIAL_VISIBLE);
+  const remaining = events.length - INITIAL_VISIBLE;
+
+  return (
+    <section className="mb-12">
+      <div className="flex items-center justify-between mb-6">
+        <h2 className="text-2xl font-bold">Historical Context</h2>
+        <Link
+          to="/context"
+          className="text-amber-400 hover:text-amber-300 text-sm"
+        >
+          Full Timeline →
+        </Link>
+      </div>
+      <div className="space-y-4">
+        {visible.map((event) => (
+          <HistoricalEventCard key={event.id} event={event} />
+        ))}
+      </div>
+      {remaining > 0 && !expanded && (
+        <button
+          onClick={() => setExpanded(true)}
+          className="mt-4 text-sm text-amber-400 hover:text-amber-300 transition-colors"
+        >
+          Show {remaining} more event{remaining > 1 ? 's' : ''} →
+        </button>
+      )}
+    </section>
   );
 }

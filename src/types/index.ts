@@ -55,9 +55,30 @@ export interface Album {
   significance: string;
   keyTracks: string[];
   coverUrl?: string;
-  discogs?: string;
-  allMusic?: string;
   spotifyUrl?: string;
+  appleMusicUrl?: string;
+  youtubeMusicUrl?: string;
   youtubeUrl?: string;
   reviews?: CriticReview[];
+}
+
+export type HistoricalEventCategory =
+  | 'civil-rights'
+  | 'economics'
+  | 'politics'
+  | 'technology'
+  | 'globalization';
+
+export interface HistoricalEvent {
+  id: string;
+  title: string;
+  year: number;
+  endYear?: number;
+  category: HistoricalEventCategory;
+  description: string;
+  jazzConnection: string;
+  era: EraId;
+  relatedArtistIds?: string[];
+  relatedAlbumIds?: string[];
+  source?: string;
 }

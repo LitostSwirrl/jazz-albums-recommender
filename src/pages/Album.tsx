@@ -5,8 +5,10 @@ import erasData from '../data/eras.json';
 import { AlbumCover } from '../components/AlbumCover';
 import { ArtistPhoto } from '../components/ArtistPhoto';
 import { RelatedAlbums } from '../components/discovery/RelatedAlbums';
-import { SpotifyIcon, YouTubeIcon } from '../components/icons';
+import { HistoricalEventCard } from '../components/context/HistoricalEventCard';
+import { SpotifyIcon, AppleMusicIcon, YouTubeMusicIcon, YouTubeIcon } from '../components/icons';
 import { SEO } from '../components/SEO';
+import { getEventsForAlbum } from '../utils/historicalContext';
 import type { Album as AlbumType, Artist, Era } from '../types';
 
 const albums = albumsData as AlbumType[];
@@ -113,6 +115,9 @@ export function Album() {
         <p className="text-zinc-300 leading-relaxed">{album.significance}</p>
       </section>
 
+      {/* Historical Context */}
+      <AlbumHistoricalContext albumId={album.id} />
+
       {/* Critics Reviews */}
       {album.reviews && album.reviews.length > 0 && (
         <section className="mb-12">
@@ -166,13 +171,11 @@ export function Album() {
         </ul>
       </section>
 
-      {/* Listen & Learn More */}
-      <section className="mb-12">
-        <h2 className="text-2xl font-bold mb-4">Listen & Learn More</h2>
-
-        {/* Streaming Links */}
-        {(album.spotifyUrl || album.youtubeUrl) && (
-          <div className="flex flex-wrap gap-4 mb-4">
+      {/* Listen */}
+      {(album.spotifyUrl || album.appleMusicUrl || album.youtubeMusicUrl || album.youtubeUrl) && (
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold mb-4">Listen</h2>
+          <div className="flex flex-wrap gap-3">
             {album.spotifyUrl && (
               <a
                 href={album.spotifyUrl}
@@ -181,7 +184,29 @@ export function Album() {
                 className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#1DB954] text-black font-medium hover:bg-[#1ed760] transition-colors"
               >
                 <SpotifyIcon className="w-5 h-5" />
-                Listen on Spotify
+                Spotify
+              </a>
+            )}
+            {album.appleMusicUrl && (
+              <a
+                href={album.appleMusicUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#FA243C] text-white font-medium hover:bg-[#d91e33] transition-colors"
+              >
+                <AppleMusicIcon className="w-5 h-5" />
+                Apple Music
+              </a>
+            )}
+            {album.youtubeMusicUrl && (
+              <a
+                href={album.youtubeMusicUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#FF0000] text-white font-medium hover:bg-[#cc0000] transition-colors"
+              >
+                <YouTubeMusicIcon className="w-5 h-5" />
+                YouTube Music
               </a>
             )}
             {album.youtubeUrl && (
@@ -189,39 +214,15 @@ export function Album() {
                 href={album.youtubeUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#FF0000] text-white font-medium hover:bg-[#cc0000] transition-colors"
+                className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-zinc-700 text-white font-medium hover:bg-zinc-600 transition-colors"
               >
                 <YouTubeIcon className="w-5 h-5" />
-                Watch on YouTube
+                YouTube
               </a>
             )}
           </div>
-        )}
-
-        {/* Reference Links */}
-        <div className="flex flex-wrap gap-4">
-          {album.discogs && (
-            <a
-              href={album.discogs}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-4 py-2 rounded bg-zinc-800 text-zinc-300 hover:bg-zinc-700 transition-colors"
-            >
-              View on Discogs →
-            </a>
-          )}
-          {album.allMusic && (
-            <a
-              href={album.allMusic}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-4 py-2 rounded bg-zinc-800 text-zinc-300 hover:bg-zinc-700 transition-colors"
-            >
-              View on AllMusic →
-            </a>
-          )}
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* Artist info */}
       {artist && (
@@ -252,5 +253,22 @@ export function Album() {
         <RelatedAlbums currentAlbum={album} allAlbums={albums} />
       </section>
     </div>
+  );
+}
+
+function AlbumHistoricalContext({ albumId }: { albumId: string }) {
+  const events = getEventsForAlbum(albumId);
+
+  if (events.length === 0) return null;
+
+  return (
+    <section className="mb-12">
+      <h2 className="text-2xl font-bold mb-4">The World Around This Album</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {events.map((event) => (
+          <HistoricalEventCard key={event.id} event={event} compact />
+        ))}
+      </div>
+    </section>
   );
 }
