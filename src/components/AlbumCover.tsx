@@ -53,19 +53,10 @@ function getTitleColor(title: string): string {
   return colors[Math.abs(hash) % colors.length];
 }
 
-// Handle image URLs - archive.org and commons work directly, others may need proxy
+// Proxy all external images through wsrv.nl for fast cached delivery
 function getProxiedUrl(url: string): string {
-  // Archive.org URLs work directly with CORS
-  if (url.includes('archive.org')) {
-    return url;
-  }
-  // Wikipedia Commons images work directly
-  if (url.includes('/wikipedia/commons/')) {
-    return url;
-  }
-  // For Wikipedia/en fair use images, use wsrv.nl proxy
-  if (url.includes('upload.wikimedia.org')) {
-    return `https://wsrv.nl/?url=${encodeURIComponent(url)}&w=400&output=jpg`;
+  if (url.includes('archive.org') || url.includes('wikimedia.org') || url.includes('coverartarchive.org')) {
+    return `https://wsrv.nl/?url=${encodeURIComponent(url)}&w=500&output=webp`;
   }
   return url;
 }
