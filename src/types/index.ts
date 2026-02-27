@@ -34,6 +34,23 @@ export interface Artist {
   wikipedia?: string;
 }
 
+export type ConnectionSourceType = 'wikipedia' | 'allmusic' | 'book' | 'interview' | 'liner-notes';
+
+export interface ConnectionSource {
+  type: ConnectionSourceType;
+  url?: string;
+  title?: string;
+  quote?: string;
+}
+
+export interface ArtistConnection {
+  from: string;
+  to: string;
+  explanation: string;
+  sources: ConnectionSource[];
+  verified: boolean;
+}
+
 export interface CriticReview {
   quote: string;
   source: string;

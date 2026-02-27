@@ -16,8 +16,10 @@ import albumsData from '../data/albums.json';
 import erasData from '../data/eras.json';
 import { SEO } from '../components/SEO';
 import type { Artist, Era, Album } from '../types';
+import { getVerificationStats } from '../utils/connections';
 import {
   ArtistNode,
+  ConnectionEdge,
   SearchPanel,
   PathFinder,
   FocusControls,
@@ -35,6 +37,26 @@ const nodeTypes = {
   artist: ArtistNode,
 };
 
+const edgeTypes = {
+  connection: ConnectionEdge,
+};
+
+function VerificationBadge() {
+  const stats = getVerificationStats();
+  if (stats.total === 0) return null;
+
+  return (
+    <span className="flex items-center gap-2">
+      <span className="text-emerald-500">
+        <svg className="w-3.5 h-3.5 inline" fill="currentColor" viewBox="0 0 20 20">
+          <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+        </svg>
+      </span>
+      {stats.total} connections sourced ({stats.wikiCount} Wikipedia, {stats.total - stats.wikiCount} editorial)
+    </span>
+  );
+}
+
 function InfluenceGraphInner() {
   const { fitView, setCenter } = useReactFlow();
 
@@ -43,7 +65,7 @@ function InfluenceGraphInner() {
   const [focusDepth, setFocusDepth] = useState(2);
 
   // Path finding state
-  const [currentPath, setCurrentPath] = useState<string[] | null>(undefined as unknown as string[] | null);
+  const [currentPath, setCurrentPath] = useState<string[] | null>(null);
   const [pathSearched, setPathSearched] = useState(false);
 
   // Era filter state - default to bebop for a focused starting view
@@ -93,7 +115,7 @@ function InfluenceGraphInner() {
     }));
   }, [layoutedNodes, currentPath]);
 
-  // Enhanced edges with path highlighting - preserve markerEnd for arrows
+  // Enhanced edges with path highlighting - preserve markerEnd and dasharray
   const enhancedEdges = useMemo(() => {
     return layoutedEdges.map((edge) => {
       const isPathEdge = pathSet.has(edge.id) || pathSet.has(`${edge.target}->${edge.source}`);
@@ -102,10 +124,11 @@ function InfluenceGraphInner() {
         style: {
           stroke: isPathEdge ? '#fbbf24' : '#f59e0b',
           strokeWidth: isPathEdge ? 4 : 2,
+          strokeDasharray: isPathEdge ? undefined : edge.style?.strokeDasharray,
           opacity: 1,
         },
         animated: isPathEdge,
-        markerEnd: edge.markerEnd, // Explicitly preserve arrow markers
+        markerEnd: edge.markerEnd,
       };
     });
   }, [layoutedEdges, pathSet]);
@@ -119,7 +142,7 @@ function InfluenceGraphInner() {
     setEdges(enhancedEdges);
   }, [enhancedNodes, enhancedEdges, setNodes, setEdges]);
 
-  // Handle node click - highlight connections and preserve arrows
+  // Handle node click - highlight connections and preserve arrows + dasharray
   const onNodeClick = useCallback((_event: React.MouseEvent, node: Node) => {
     setEdges((eds) =>
       eds.map((edge) => {
@@ -132,7 +155,7 @@ function InfluenceGraphInner() {
             stroke: isPathEdge ? '#fbbf24' : isConnected ? '#22d3ee' : '#f59e0b',
             strokeWidth: isPathEdge ? 4 : isConnected ? 3 : 2,
           },
-          markerEnd: edge.markerEnd, // Preserve arrow markers
+          markerEnd: edge.markerEnd,
         };
       })
     );
@@ -342,7 +365,7 @@ function InfluenceGraphInner() {
           artists={artists}
           onFindPath={handleFindPath}
           onClear={handleClearPath}
-          currentPath={pathSearched ? currentPath : undefined as unknown as string[] | null}
+          currentPath={pathSearched ? currentPath : null}
           artistMap={artistMap}
         />
       </div>
@@ -352,7 +375,10 @@ function InfluenceGraphInner() {
         {eras.map((era) => (
           <button
             key={era.id}
-            onClick={() => handleFocusArtist(artists.find((a) => a.eras[0] === era.id)!)}
+            onClick={() => {
+              const found = artists.find((a) => a.eras[0] === era.id);
+              if (found) handleFocusArtist(found);
+            }}
             className="flex items-center gap-2 hover:opacity-80 transition-opacity"
           >
             <div
@@ -373,8 +399,9 @@ function InfluenceGraphInner() {
           onEdgesChange={onEdgesChange}
           onNodeClick={onNodeClick}
           nodeTypes={nodeTypes}
+          edgeTypes={edgeTypes}
           defaultEdgeOptions={{
-            type: 'smoothstep',
+            type: 'connection',
             style: { stroke: '#f59e0b', strokeWidth: 2 },
             animated: false,
           }}
@@ -402,6 +429,7 @@ function InfluenceGraphInner() {
         <span>Showing {nodes.length} artists</span>
         <span>{edges.length} connections</span>
         {focusArtist && <span>Focused on {focusArtist.name}</span>}
+        <VerificationBadge />
       </div>
 
       {/* Instructions */}
@@ -414,6 +442,8 @@ function InfluenceGraphInner() {
           <li><strong>Click artist name</strong> - Visit their full profile</li>
           <li><strong>Drag/Scroll</strong> - Pan and zoom the graph</li>
           <li>Arrows flow from <em>influencer</em> to <em>influenced</em></li>
+          <li><strong>Solid lines</strong> = Wikipedia-sourced &middot; <strong>Dashed lines</strong> = editorial (book references)</li>
+          <li><strong>Hover edges</strong> to see connection details</li>
         </ul>
       </div>
     </div>

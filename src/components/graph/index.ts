@@ -1,6 +1,9 @@
 // Nodes
 export { ArtistNode } from './nodes/ArtistNode';
 
+// Edges
+export { ConnectionEdge } from './edges/ConnectionEdge';
+
 // Controls
 export { SearchPanel } from './controls/SearchPanel';
 export { PathFinder } from './controls/PathFinder';

@@ -2,6 +2,7 @@ import { useMemo } from 'react';
 import { MarkerType } from '@xyflow/react';
 import type { Node, Edge } from '@xyflow/react';
 import type { Artist, Era, Album } from '../../../types';
+import { getConnection } from '../../../utils/connections';
 
 export interface GraphNode extends Node {
   data: {
@@ -116,55 +117,39 @@ export function useInfluenceGraph(
     const edges: Edge[] = [];
     const edgeSet = new Set<string>();
 
-    relevantArtists.forEach((artist) => {
-      // Edges from influencers to this artist
-      artist.influencedBy.forEach((influencerId) => {
-        if (nodeIds.has(influencerId)) {
-          const edgeId = `${influencerId}->${artist.id}`;
-          if (!edgeSet.has(edgeId)) {
-            edgeSet.add(edgeId);
-            edges.push({
-              id: edgeId,
-              source: influencerId,
-              target: artist.id,
-              type: 'smoothstep',
-              animated: false,
-              style: { stroke: '#f59e0b', strokeWidth: 2 },
-              markerEnd: {
-                type: MarkerType.ArrowClosed,
-                color: '#f59e0b',
-                width: 20,
-                height: 20,
-              },
-            });
-          }
-        }
-      });
+    function addEdge(sourceId: string, targetId: string) {
+      const edgeId = `${sourceId}->${targetId}`;
+      const reverseId = `${targetId}->${sourceId}`;
+      if (edgeSet.has(edgeId) || edgeSet.has(reverseId)) return;
+      if (!nodeIds.has(sourceId) || !nodeIds.has(targetId)) return;
 
-      // Edges from this artist to influenced
-      artist.influences.forEach((influencedId) => {
-        if (nodeIds.has(influencedId)) {
-          const edgeId = `${artist.id}->${influencedId}`;
-          const reverseId = `${influencedId}->${artist.id}`;
-          if (!edgeSet.has(edgeId) && !edgeSet.has(reverseId)) {
-            edgeSet.add(edgeId);
-            edges.push({
-              id: edgeId,
-              source: artist.id,
-              target: influencedId,
-              type: 'smoothstep',
-              animated: false,
-              style: { stroke: '#f59e0b', strokeWidth: 2 },
-              markerEnd: {
-                type: MarkerType.ArrowClosed,
-                color: '#f59e0b',
-                width: 20,
-                height: 20,
-              },
-            });
-          }
-        }
+      edgeSet.add(edgeId);
+      const conn = getConnection(sourceId, targetId);
+      const hasDirectSource = conn?.sources.some((s) => s.type === 'wikipedia') ?? false;
+      edges.push({
+        id: edgeId,
+        source: sourceId,
+        target: targetId,
+        type: 'connection',
+        animated: false,
+        style: {
+          stroke: '#f59e0b',
+          strokeWidth: 2,
+          strokeDasharray: hasDirectSource ? undefined : '6 3',
+        },
+        data: conn ? { explanation: conn.explanation, verified: conn.verified } : undefined,
+        markerEnd: {
+          type: MarkerType.ArrowClosed,
+          color: '#f59e0b',
+          width: 20,
+          height: 20,
+        },
       });
+    }
+
+    relevantArtists.forEach((artist) => {
+      artist.influencedBy.forEach((influencerId) => addEdge(influencerId, artist.id));
+      artist.influences.forEach((influencedId) => addEdge(artist.id, influencedId));
     });
 
     return { nodes, edges, artistMap };

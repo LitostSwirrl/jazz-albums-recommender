@@ -1,16 +1,104 @@
+import { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import artistsData from '../data/artists.json';
 import albumsData from '../data/albums.json';
 import erasData from '../data/eras.json';
-import type { Artist as ArtistType, Album, Era } from '../types';
+import type { Artist as ArtistType, Album, Era, ArtistConnection } from '../types';
 import { MiniInfluenceNetwork } from '../components/graph';
 import { ArtistPhoto } from '../components/ArtistPhoto';
 import { AlbumCover } from '../components/AlbumCover';
 import { SEO } from '../components/SEO';
+import { getConnection } from '../utils/connections';
 
 const artists = artistsData as ArtistType[];
 const albums = albumsData as Album[];
 const eras = erasData as Era[];
+
+function SourceBadge({ source }: { source: ArtistConnection['sources'][number] }) {
+  const labels: Record<ArtistConnection['sources'][number]['type'], string> = {
+    wikipedia: 'Wikipedia',
+    allmusic: 'AllMusic',
+    book: 'Book',
+    interview: 'Interview',
+    'liner-notes': 'Liner Notes',
+  };
+  const label = labels[source.type];
+
+  if (source.url) {
+    return (
+      <a
+        href={source.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-xs bg-zinc-800 text-zinc-400 hover:text-amber-400 transition-colors"
+      >
+        {label}
+        <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+        </svg>
+      </a>
+    );
+  }
+
+  return (
+    <span className="inline-flex items-center px-2 py-0.5 rounded text-xs bg-zinc-800 text-zinc-500">
+      {label}
+      {source.title && `: ${source.title}`}
+    </span>
+  );
+}
+
+function ConnectionCard({ artist, connection }: { artist: ArtistType; connection?: ArtistConnection }) {
+  const [expanded, setExpanded] = useState(false);
+  const hasDetails = connection && (connection.explanation || connection.sources.length > 0);
+
+  return (
+    <div className="rounded bg-zinc-900 border border-zinc-800 hover:border-zinc-600 transition-all">
+      <div className="flex items-center justify-between p-3">
+        <Link to={`/artist/${artist.id}`} className="flex-1 min-w-0">
+          <span className="text-white hover:text-amber-400">{artist.name}</span>
+          <span className="text-xs text-zinc-500 ml-2">{artist.instruments.slice(0, 2).join(', ')}</span>
+        </Link>
+        <div className="flex items-center gap-2 ml-2 flex-shrink-0">
+          {connection?.verified && (
+            <span className="text-emerald-500" title="Source verified">
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+              </svg>
+            </span>
+          )}
+          {hasDetails && (
+            <button
+              onClick={() => setExpanded(!expanded)}
+              className="text-zinc-500 hover:text-zinc-300 transition-colors"
+              title={expanded ? 'Hide details' : 'Show connection details'}
+            >
+              <svg className={`w-4 h-4 transition-transform ${expanded ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+          )}
+        </div>
+      </div>
+      {expanded && connection && (
+        <div className="px-3 pb-3 border-t border-zinc-800">
+          {connection.explanation && (
+            <p className="text-sm text-zinc-400 mt-2 leading-relaxed italic">
+              &ldquo;{connection.explanation}&rdquo;
+            </p>
+          )}
+          {connection.sources.length > 0 && (
+            <div className="flex flex-wrap gap-1.5 mt-2">
+              {connection.sources.map((source, i) => (
+                <SourceBadge key={i} source={source} />
+              ))}
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
 
 export function Artist() {
   const { id } = useParams<{ id: string }>();
@@ -124,14 +212,11 @@ export function Artist() {
             {influencedByArtists.length > 0 ? (
               <div className="space-y-2">
                 {influencedByArtists.map((a) => (
-                  <Link
+                  <ConnectionCard
                     key={a.id}
-                    to={`/artist/${a.id}`}
-                    className="block p-3 rounded bg-zinc-900 border border-zinc-800 hover:border-zinc-600 transition-all"
-                  >
-                    <span className="text-white hover:text-amber-400">{a.name}</span>
-                    <span className="text-xs text-zinc-500 ml-2">{a.instruments.slice(0, 2).join(', ')}</span>
-                  </Link>
+                    artist={a}
+                    connection={getConnection(a.id, artist.id)}
+                  />
                 ))}
               </div>
             ) : (
@@ -145,14 +230,11 @@ export function Artist() {
             {influencedArtists.length > 0 ? (
               <div className="space-y-2">
                 {influencedArtists.map((a) => (
-                  <Link
+                  <ConnectionCard
                     key={a.id}
-                    to={`/artist/${a.id}`}
-                    className="block p-3 rounded bg-zinc-900 border border-zinc-800 hover:border-zinc-600 transition-all"
-                  >
-                    <span className="text-white hover:text-amber-400">{a.name}</span>
-                    <span className="text-xs text-zinc-500 ml-2">{a.instruments.slice(0, 2).join(', ')}</span>
-                  </Link>
+                    artist={a}
+                    connection={getConnection(artist.id, a.id)}
+                  />
                 ))}
               </div>
             ) : (
