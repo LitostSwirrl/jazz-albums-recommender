@@ -20,7 +20,8 @@
     ],
     "keyAlbums": [
       "abbey-is-blue",
-      "straight-ahead"
+      "straight-ahead",
+      "la-chanteuse-de-jazz-idale"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Abbey_Lincoln",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Abbey_Lincoln_in_1966.jpg"
@@ -47,7 +48,8 @@
     ],
     "keyAlbums": [
       "mannenberg",
-      "african-marketplace"
+      "african-marketplace",
+      "mannenberg-is-where-its-happening"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Abdullah_Ibrahim",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Abdullah_Ibrahim_06N4688.jpg"
@@ -66,7 +68,11 @@
     "influencedBy": [
       "jackie-mclean"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "the-magician",
+      "for-real",
+      "legacy"
+    ],
     "bio": "Abraham Augustus Burton Jr. is an American saxophonist and bandleader.",
     "wikipedia": "https://en.wikipedia.org/wiki/Abraham_Burton",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Abraham_Burton_01_%28crop_1%29.jpg"
@@ -95,7 +101,9 @@
       "count-basie"
     ],
     "keyAlbums": [
-      "at-the-pershing"
+      "at-the-pershing",
+      "cry-young",
+      "live-in-paris-1971-lost-ortf-recordings"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Ahmad_Jamal",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Ahmad_Jamal_KK.jpg"
@@ -115,7 +123,11 @@
     "influencedBy": [
       "john-mclaughlin"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "cielo-e-terra",
+      "the-rite-of-strings",
+      "di-meola-plays-piazzolla"
+    ],
     "bio": "Albert Laurence Di Meola is an American guitarist. Known for his work in jazz fusion and world music, he had his breakthrough after joining Chick Corea's Return to Forever group in 1974. He launched, from 1976 afterwards, a successful and critically acclaimed solo career, noted for his technical mastery, complex compositions and explorations of Latin music. Highlights of his work are Elegant Gypsy, his Friday Night in San Francisco collaboration and the World Sinfonia trilogy.",
     "wikipedia": "https://en.wikipedia.org/wiki/Al_Di_Meola",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Al_Di_Meola_2006_1.jpg"
@@ -143,7 +155,8 @@
     ],
     "keyAlbums": [
       "spiritual-unity",
-      "new-york-eye-and-ear"
+      "new-york-eye-and-ear",
+      "witches-devils"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Albert_Ayler",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Albert_Ayler_%281967%E2%80%9368_photo_portrait_for_ABC_Impulse%21%29.jpg"
@@ -168,7 +181,9 @@
       "sun-ra"
     ],
     "keyAlbums": [
-      "globe-unity"
+      "globe-unity",
+      "idylle-und-katastrophen",
+      "stranger-than-love"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Alexander_von_Schlippenbach",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Alexander_von_Schlippenbach_2008.jpg"
@@ -215,7 +230,11 @@
     "influencedBy": [
       "john-mclaughlin"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "iou",
+      "heavy-machinery",
+      "none-too-soon"
+    ],
     "bio": "Allan Holdsworth was a British jazz and rock guitarist, violinist and composer. He contributed to numerous bands, including Soft Machine, U.K., The Tony Williams Lifetime, Pierre Moerlen's Gong, Bruford, Level 42, and Planet X, in addition to solo work in multiple genres.",
     "deathYear": 2017,
     "wikipedia": "https://en.wikipedia.org/wiki/Allan_Holdsworth",
@@ -239,7 +258,9 @@
       "freddie-hubbard"
     ],
     "keyAlbums": [
-      "on-the-tender-spot"
+      "on-the-tender-spot",
+      "origami-harvest",
+      "honey-from-a-winter-stone"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Ambrose_Akinmusire",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Ambrose_Akinmusire.jpg"
@@ -261,9 +282,12 @@
     "influences": [],
     "influencedBy": [],
     "keyAlbums": [
-      "ammmusic"
+      "ammmusic",
+      "the-inexhaustible-document",
+      "the-nameless-uncarved-block"
     ],
-    "wikipedia": "https://en.wikipedia.org/wiki/AMM_(group)"
+    "wikipedia": "https://en.wikipedia.org/wiki/AMM_(group)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/The_Billboard_1919-08-16-_Vol_31_Iss_33_%28IA_sim_billboard_1919-08-16_31_33%29.pdf/page1-500px-The_Billboard_1919-08-16-_Vol_31_Iss_33_%28IA_sim_billboard_1919-08-16_31_33%29.pdf.jpg"
   },
   {
     "id": "andrew-hill",
@@ -303,9 +327,12 @@
     "influences": [],
     "influencedBy": [],
     "keyAlbums": [
-      "experience-and-judgment"
+      "experience-and-judgment",
+      "ballads-blues-bey",
+      "pages-from-an-imaginary-life"
     ],
-    "wikipedia": "https://en.wikipedia.org/wiki/Andy_Bey"
+    "wikipedia": "https://en.wikipedia.org/wiki/Andy_Bey",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Richard_Avedon.jpg"
   },
   {
     "id": "anthony-braxton",
@@ -335,7 +362,9 @@
       "roscoe-mitchell"
     ],
     "keyAlbums": [
-      "for-alto"
+      "for-alto",
+      "nine-compositions-hill-2000",
+      "triotone"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Anthony_Braxton",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Anthony_Braxton.jpg"
@@ -456,7 +485,8 @@
     ],
     "keyAlbums": [
       "nice-guys",
-      "les-stances-a-sophie"
+      "les-stances-a-sophie",
+      "the-third-decade"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Art_Ensemble_of_Chicago",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Art_Ensemble_of_Chicago_%281978%29.jpg"
@@ -483,7 +513,11 @@
       "jimmy-smith"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "the-genius-of-art-tatum-9",
+      "more-of-the-greatest-piano-of-them-all",
+      "in-private"
+    ],
     "bio": "Arthur Tatum Jr. was an American jazz pianist who is widely regarded as one of the greatest ever. From early in his career, fellow musicians acclaimed Tatum's technical ability as extraordinary. Tatum also extended jazz piano's vocabulary and boundaries far beyond his initial stride influences, and established new ground through innovative use of reharmonization, voicing, and bitonality.",
     "deathYear": 1956,
     "wikipedia": "https://en.wikipedia.org/wiki/Art_Tatum",
@@ -508,9 +542,11 @@
     ],
     "keyAlbums": [
       "lenox-avenue-breakdown",
-      "in-the-tradition"
+      "in-the-tradition",
+      "hipmotism"
     ],
-    "wikipedia": "https://en.wikipedia.org/wiki/Arthur_Blythe"
+    "wikipedia": "https://en.wikipedia.org/wiki/Arthur_Blythe",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Arthur_Blythe_1989.jpg/500px-Arthur_Blythe_1989.jpg"
   },
   {
     "id": "arturo-sandoval",
@@ -529,7 +565,11 @@
     "influencedBy": [
       "dizzy-gillespie"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "turi",
+      "for-love-or-country",
+      "christmas-at-notre-dame"
+    ],
     "bio": "Arturo Sandoval is a Cuban-American jazz trumpeter, pianist, timbalero, and composer. While living in his native Cuba, Sandoval was influenced by jazz musicians Charlie Parker, Clifford Brown, and Dizzy Gillespie. In 1977 he met Gillespie, who became his friend and mentor and helped him defect from Cuba while on tour with the United Nation Orchestra. Sandoval became an American naturalized citizen in 1998. His life was the subject of the film For Love or Country: The Arturo Sandoval Story (2000) starring Andy García.",
     "wikipedia": "https://en.wikipedia.org/wiki/Arturo_Sandoval",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Arturo_Sandoval_photo.jpg"
@@ -549,7 +589,11 @@
     "influencedBy": [
       "don-cherry"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "uma-elmo",
+      "motions-in-muricosmos",
+      "haihara"
+    ],
     "bio": "Arve Henriksen is a Norwegian trumpeter.",
     "wikipedia": "https://en.wikipedia.org/wiki/Arve_Henriksen",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/After_the_Wildfire_2025-017.jpg"
@@ -571,7 +615,9 @@
       "jimmy-smith"
     ],
     "keyAlbums": [
-      "face-to-face"
+      "face-to-face",
+      "stop-and-listen",
+      "behind-the-8-ball"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Baby_Face_Willette"
   },
@@ -595,7 +641,11 @@
       "archie-shepp"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "king-of-the-tenors",
+      "previously-unreleased-recordings",
+      "tenor-titans"
+    ],
     "bio": "Benjamin Francis Webster was an American jazz tenor saxophonist. He performed in the United States and Europe and made many recordings with Duke Ellington, Billie Holiday, Johnny Hodges, and others.",
     "deathYear": 1973,
     "wikipedia": "https://en.wikipedia.org/wiki/Ben_Webster",
@@ -617,7 +667,11 @@
     "influencedBy": [
       "duke-ellington"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "the-king-swings",
+      "in-moscow-1962",
+      "benny-goodman-with-arturo-toscanini-bla-bartk-joseph-szigeti-earl-wild"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Benny_Goodman",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Benny_Goodman_1942.jpg"
   },
@@ -642,7 +696,8 @@
     ],
     "keyAlbums": [
       "betty-carter-album",
-      "look-what-i-got"
+      "look-what-i-got",
+      "love-notes"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Betty_Carter",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Betty_Carter.jpg"
@@ -668,9 +723,12 @@
       "abdullah-ibrahim"
     ],
     "keyAlbums": [
-      "celebration"
+      "celebration",
+      "beauty-of-sunrise",
+      "beyond-the-stars"
     ],
-    "wikipedia": "https://en.wikipedia.org/wiki/Bheki_Mseleku"
+    "wikipedia": "https://en.wikipedia.org/wiki/Bheki_Mseleku",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6e/Bheki_Mseleku.jpg"
   },
   {
     "id": "bill-evans",
@@ -726,7 +784,11 @@
     "influencedBy": [
       "jim-hall"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "this-land",
+      "el-viaje",
+      "it-happened-again"
+    ],
     "bio": "William Richard Frisell is an American jazz guitarist. He first came to prominence at ECM Records in the 1980s, as both a session player and a leader. He went on to work in a variety of contexts, notably as a participant in the Downtown Scene in New York City, where he formed a long working relationship with composer and saxophonist John Zorn. He was also a longtime member of veteran drummer Paul Motian's groups from the early 1980s until Motian's death in 2011.",
     "wikipedia": "https://en.wikipedia.org/wiki/Bill_Frisell",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Bill_Frisell_Trio_05_%28cropped%29.jpg"
@@ -752,7 +814,11 @@
       "carmen-mcrae"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "lover-man",
+      "songs-for-distingu-lovers",
+      "in-europe-1954-1958"
+    ],
     "bio": "Billie Holiday was an American jazz and swing music singer. Nicknamed \"Lady Day\" by her friend and music partner, Lester Young, Holiday made significant contributions to jazz music and pop singing. Her vocal style, strongly influenced by jazz instrumentalists, inspired a new way of manipulating phrasing and tempo. Holiday was known for her vocal delivery and improvisational skills.",
     "deathYear": 1959,
     "wikipedia": "https://en.wikipedia.org/wiki/Billie_Holiday",
@@ -779,7 +845,9 @@
       "elvin-jones"
     ],
     "keyAlbums": [
-      "spectrum"
+      "spectrum",
+      "incoming",
+      "by-design"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Billy_Cobham",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Billy_Cobham.jpg"
@@ -802,7 +870,9 @@
       "art-blakey"
     ],
     "keyAlbums": [
-      "capra-black"
+      "capra-black",
+      "the-believer",
+      "destiny-is-yours"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Billy_Harper",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Billy_Harper_photo_2.jpg"
@@ -821,7 +891,11 @@
     "influencedBy": [
       "django-reinhardt"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "to-bi-or-not-to-bi",
+      "mouvements",
+      "zum-trotz-featuring-bireli-lagrene"
+    ],
     "bio": "Biréli Lagrène is a French jazz guitarist who came to prominence in the 1980s for his Django Reinhardt–influenced style. He often performs in swing, jazz fusion, and post-bop styles.",
     "wikipedia": "https://en.wikipedia.org/wiki/Bir%C3%A9li_Lagr%C3%A8ne",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Bireli_aux_Granges_le_26.08.06.jpg"
@@ -842,9 +916,12 @@
       "herbie-hancock"
     ],
     "keyAlbums": [
-      "blacks-and-blues"
+      "blacks-and-blues",
+      "dig-this",
+      "satin-doll"
     ],
-    "wikipedia": "https://en.wikipedia.org/wiki/Bobbi_Humphrey"
+    "wikipedia": "https://en.wikipedia.org/wiki/Bobbi_Humphrey",
+    "imageUrl": "https://commons.wikimedia.org/w/resources/assets/file-type-icons/fileicon-ogg.png"
   },
   {
     "id": "bobby-hutcherson",
@@ -869,7 +946,8 @@
       "thelonious-monk"
     ],
     "keyAlbums": [
-      "total-eclipse"
+      "total-eclipse",
+      "full-circle"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Bobby_Hutcherson",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Bh_070701.jpg"
@@ -893,7 +971,11 @@
     "influencedBy": [
       "horace-silver"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "soul-time",
+      "this-here-is-bobby-timmons",
+      "got-to-get-it"
+    ],
     "bio": "Robert Henry Timmons was an American jazz pianist and composer. He was a sideman in Art Blakey's Jazz Messengers for two periods, between which he was part of Cannonball Adderley's band. Several of Timmons' compositions written when part of these bands – including \"Moanin'\", \"Dat Dere\", and \"This Here\" – enjoyed commercial success and brought him more attention. In the early and mid-1960s he led a series of piano trios that toured and recorded extensively.",
     "deathYear": 1974,
     "wikipedia": "https://en.wikipedia.org/wiki/Bobby_Timmons",
@@ -916,7 +998,9 @@
       "keith-jarrett"
     ],
     "keyAlbums": [
-      "war-orphans"
+      "war-orphans",
+      "parish",
+      "mingus-by-five"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Bobo_Stenson",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Bobo_Stenson.jpg"
@@ -939,7 +1023,9 @@
       "herbie-hancock"
     ],
     "keyAlbums": [
-      "investigations"
+      "investigations",
+      "chris-thile-brad-mehldau",
+      "the-art-of-the-trio-volume-3-songs"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Brad_Mehldau",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Brad_Mehldau.jpg"
@@ -961,7 +1047,11 @@
       "art-blakey",
       "wayne-shorter"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "royal-garden-blues",
+      "i-heard-you-twice-the-first-time",
+      "american-spectrum"
+    ],
     "bio": "Branford Marsalis is an American saxophonist, composer, and bandleader. While primarily known for his work in jazz as the leader of the Branford Marsalis Quartet, he also performs frequently as a soloist with classical ensembles and has led the group Buckshot LeFonque. From 1992 to 1995 he led The Tonight Show Band.",
     "wikipedia": "https://en.wikipedia.org/wiki/Branford_Marsalis",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/BMarsalis%402011WYPS2.jpg"
@@ -983,9 +1073,12 @@
       "jimmy-smith"
     ],
     "keyAlbums": [
-      "the-honeydripper"
+      "the-honeydripper",
+      "gin-and-orange",
+      "on-with-it"
     ],
-    "wikipedia": "https://en.wikipedia.org/wiki/Jack_McDuff"
+    "wikipedia": "https://en.wikipedia.org/wiki/Jack_McDuff",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/43/Jack_McDuff_photo.jpg"
   },
   {
     "id": "bud-powell",
@@ -1014,7 +1107,9 @@
       "mary-lou-williams"
     ],
     "keyAlbums": [
-      "in-walked-bud"
+      "in-walked-bud",
+      "moon-glow",
+      "birdland-53"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Bud_Powell",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Bud_Powell_1960.jpg"
@@ -1061,10 +1156,15 @@
       "charlie-parker"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "roman-candle",
+      "figure-8",
+      "basement-tapes-unfinishedsuppressed"
+    ],
     "bio": "Henry Franklin \"Buster\" Smith, also known as Professor Smith, was an American jazz alto saxophonist and mentor to Charlie Parker. Smith was instrumental in instituting the Texas Sax Sound with Count Basie and Lester Young in the 1930s.",
     "deathYear": 1991,
-    "wikipedia": "https://en.wikipedia.org/wiki/Buster_Smith"
+    "wikipedia": "https://en.wikipedia.org/wiki/Buster_Smith",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Antoine%27s_Restaurant_New_Orleans_souvenir_history_1930s.pdf/page1-500px-Antoine%27s_Restaurant_New_Orleans_souvenir_history_1930s.pdf.jpg"
   },
   {
     "id": "cal-tjader",
@@ -1084,7 +1184,9 @@
       "dave-brubeck"
     ],
     "keyAlbums": [
-      "soul-sauce"
+      "soul-sauce",
+      "latin-kick",
+      "hip-vibrations"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Cal_Tjader",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Cal_Tjader.jpg"
@@ -1111,7 +1213,8 @@
     ],
     "keyAlbums": [
       "somethin-else",
-      "mercy-mercy-mercy"
+      "mercy-mercy-mercy",
+      "nancy-wilson-cannonball-adderley"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Cannonball_Adderley",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Cannonball_Adderley_press_photo_1966.jpg"
@@ -1165,7 +1268,8 @@
     ],
     "keyAlbums": [
       "modern-sounds",
-      "great-american-songbook"
+      "great-american-songbook",
+      "carmen-for-cool-ones"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Carmen_McRae",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Carmen_McRae_1960_press_photo.jpg"
@@ -1188,7 +1292,8 @@
     ],
     "keyAlbums": [
       "blue-light-til-dawn",
-      "new-moon-daughter"
+      "new-moon-daughter",
+      "blue-skies"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Cassandra_Wilson",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Cassandra_Wilson.jpg"
@@ -1243,7 +1348,9 @@
       "horace-silver"
     ],
     "keyAlbums": [
-      "eastern-rebellion"
+      "eastern-rebellion",
+      "breakthrough",
+      "beyond-mobius"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Cedar_Walton",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Cedar_Walton.jpg"
@@ -1271,7 +1378,11 @@
       "albert-ayler",
       "archie-shepp"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "consecration",
+      "unto-i-am",
+      "gayle-force"
+    ],
     "bio": "Charles Gayle was an American free jazz musician. Initially known as a saxophonist who came to prominence in the 1990s after decades of obscurity, Gayle also performed as pianist, bass clarinetist, bassist, and percussionist.",
     "deathYear": 2023,
     "wikipedia": "https://en.wikipedia.org/wiki/Charles_Gayle",
@@ -1296,7 +1407,11 @@
     "influencedBy": [
       "stan-getz"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "canto",
+      "sangam",
+      "discovery-nirvana"
+    ],
     "bio": "Charles Lloyd is an American jazz musician and composer. He primarily plays tenor saxophone and flute and occasionally other reed instruments, including alto saxophone and the Hungarian tárogató. Lloyd's primary band since 2007 has been a quartet including pianist Jason Moran, acoustic bassist Reuben Rogers, and drummer Eric Harland.",
     "wikipedia": "https://en.wikipedia.org/wiki/Charles_Lloyd_(jazz_musician)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/CL_hi_res_blue.jpg"
@@ -1350,7 +1465,11 @@
       "grant-green"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "memorable-sessions-in-jazz",
+      "live-sessions-at-mintons-playhouse",
+      "after-hours-monroes-harlem-mintons"
+    ],
     "bio": "Charles Henry Christian was an American swing and jazz guitarist. He was among the first electric guitarists and was a key figure in the development of bebop and cool jazz who transformed the electric guitar from a rhythm instrument into a leading solo voice in jazz. He gained national exposure as a member of the Benny Goodman Sextet and Orchestra from August 1939 to June 1941.",
     "deathYear": 1942,
     "wikipedia": "https://en.wikipedia.org/wiki/Charlie_Christian",
@@ -1378,7 +1497,9 @@
     ],
     "keyAlbums": [
       "liberation-music-orchestra",
-      "emerald-tears"
+      "emerald-tears",
+      "gitane",
+      "jasmine"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Charlie_Haden",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Charlie_Haden.jpg"
@@ -1423,7 +1544,9 @@
       "art-tatum"
     ],
     "keyAlbums": [
-      "jazz-at-massey-hall"
+      "jazz-at-massey-hall",
+      "bird-and-diz",
+      "dial-masters-roost-sessions"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Charlie_Parker",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Portrait_of_Charlie_Parker_in_1947.jpg"
@@ -1450,7 +1573,9 @@
       "louis-armstrong"
     ],
     "keyAlbums": [
-      "chet-baker-sings"
+      "chet-baker-sings",
+      "the-most-important-jazz-album-of-196465",
+      "cool-cat"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Chet_Baker",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Chet_Baker_%281955_portrait%29.jpg"
@@ -1482,7 +1607,8 @@
     ],
     "keyAlbums": [
       "return-to-forever",
-      "now-he-sings"
+      "now-he-sings",
+      "doppelkonzert-krnungskonzert"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Chick_Corea",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Chick_Corea_%28ZMF_2019%29_IMGP8025_%28cropped%29.jpg"
@@ -1505,7 +1631,8 @@
     "keyAlbums": [],
     "bio": "William Henry \"Chick\" Webb was an American jazz and swing music drummer and band leader.",
     "deathYear": 1939,
-    "wikipedia": "https://en.wikipedia.org/wiki/Chick_Webb"
+    "wikipedia": "https://en.wikipedia.org/wiki/Chick_Webb",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/930205_cecil_taylor_web_%28programmaboekje%29.pdf/page1-500px-930205_cecil_taylor_web_%28programmaboekje%29.pdf.jpg"
   },
   {
     "id": "chris-mcgregor",
@@ -1526,7 +1653,9 @@
       "duke-ellington"
     ],
     "keyAlbums": [
-      "jazz-in-africa"
+      "jazz-in-africa",
+      "in-his-good-time",
+      "grandmothers-teaching"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Chris_McGregor",
     "imageUrl": "https://live.staticflickr.com/4365/36565779991_8bc47c9887_b.jpg"
@@ -1546,7 +1675,11 @@
     "influencedBy": [
       "wayne-shorter"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "concord-duo-series-volume-ten",
+      "transatlantic",
+      "sunrise-reprise"
+    ],
     "bio": "Chris Potter is an American jazz saxophonist, composer, and multi-instrumentalist.",
     "wikipedia": "https://en.wikipedia.org/wiki/Chris_Potter_(jazz_saxophonist)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Chris_Potter_in_Vienna%2C_2019_1.jpg"
@@ -1565,7 +1698,11 @@
     "influencedBy": [
       "robert-glasper"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "christmas-stories",
+      "embracing-dawn",
+      "malene-christian"
+    ],
     "bio": "Christian Sylvester Sands is an American jazz pianist and composer. His third album for Mack Avenue Records, Be Water, was released in 2020 and received a Grammy Award nomination in the Best Instrumental Composition category for the song \"Be Water II\".",
     "wikipedia": "https://en.wikipedia.org/wiki/Christian_Sands",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Christian-sands.jpg"
@@ -1593,7 +1730,11 @@
     "influencedBy": [
       "louis-armstrong"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "the-trumpet-kings-meet-joe-turner",
+      "daylight-express",
+      "one-on-one"
+    ],
     "bio": "Clark Virgil Terry Jr. was an American swing and bebop trumpeter, a pioneer of the flugelhorn in jazz, and a composer and educator.",
     "deathYear": 2015,
     "wikipedia": "https://en.wikipedia.org/wiki/Clark_Terry",
@@ -1621,7 +1762,9 @@
       "dizzy-gillespie"
     ],
     "keyAlbums": [
-      "study-in-brown"
+      "study-in-brown",
+      "the-beginning-and-the-end",
+      "at-the-cotton-club-1956"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Clifford_Brown",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Clifford_Brown_1956.jpg"
@@ -1647,7 +1790,11 @@
       "sonny-rollins"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "accent-on-tenor-sax",
+      "commodore-classics-in-swing-coleman-hawkins",
+      "standards-warhorses"
+    ],
     "bio": "Coleman Randolph Hawkins, nicknamed \"Hawk\" and sometimes \"Bean\", was an American jazz tenor saxophonist. One of the first prominent jazz musicians on his instrument, as Joachim E. Berendt explained: \"There were some tenor players before him, but the instrument was not an acknowledged jazz horn.\" Hawkins biographer John Chilton described the prevalent styles of tenor saxophone solos prior to Hawkins as \"mooing\" and \"rubbery belches\".",
     "deathYear": 1969,
     "wikipedia": "https://en.wikipedia.org/wiki/Coleman_Hawkins",
@@ -1674,7 +1821,11 @@
       "duke-ellington",
       "louis-armstrong"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "inside-basie-outside",
+      "get-together",
+      "count-basie-and-his-great-vocalists"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Count_Basie",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Count_Basie_%281955_Kriegsmann_portrait_-_square_crop%29.jpg"
   },
@@ -1692,7 +1843,11 @@
     "influencedBy": [
       "chick-corea"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "tales-from-the-reefs",
+      "the-roy-haynes-trio",
+      "secrets-are-the-best-stories"
+    ],
     "bio": "Danilo Pérez is a Panamanian pianist, composer, educator, and a social activist.",
     "wikipedia": "https://en.wikipedia.org/wiki/Danilo_P%C3%A9rez",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Danilo_perez_panama_jazz_fest_2012.jpg"
@@ -1717,7 +1872,8 @@
     "keyAlbums": [
       "infernal-machines"
     ],
-    "wikipedia": "https://en.wikipedia.org/wiki/Darcy_James_Argue"
+    "wikipedia": "https://en.wikipedia.org/wiki/Darcy_James_Argue",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Darcy_James_Argue_06N5508.jpg/500px-Darcy_James_Argue_06N5508.jpg"
   },
   {
     "id": "darius-milhaud",
@@ -1768,7 +1924,9 @@
       "arnold-schoenberg"
     ],
     "keyAlbums": [
-      "time-out"
+      "time-out",
+      "just-you-just-me",
+      "lullabies"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Dave_Brubeck",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Dave_Brubeck_%281964%29.jpg"
@@ -1812,7 +1970,11 @@
     "influencedBy": [
       "billy-cobham"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "master-plan",
+      "heads-up",
+      "hard-wired"
+    ],
     "bio": "Dave Weckl is an American jazz fusion drummer and the leader of the Dave Weckl Band. He was inducted into the Modern Drummer Hall of Fame in 2000.",
     "wikipedia": "https://en.wikipedia.org/wiki/Dave_Weckl",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Dave_Weckl_Kongsberg_Jazzfestival_2018_%28171010%29.jpg"
@@ -1837,7 +1999,9 @@
       "julius-hemphill"
     ],
     "keyAlbums": [
-      "flowers-for-albert"
+      "flowers-for-albert",
+      "shakills-warrior",
+      "gwotet"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/David_Murray_(musician)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/David_Murray_Palais_des_Beaux-Arts_de_Bruxelles_en_2010.jpg"
@@ -1881,7 +2045,11 @@
     "influencedBy": [
       "cannonball-adderley"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "taking-off",
+      "david-sanborn",
+      "heart-to-heart"
+    ],
     "bio": "David William Sanborn was an American alto saxophonist. He worked in many musical genres; his solo recordings typically blended jazz with instrumental pop and R&B. He began playing the saxophone at the age of 11 and released his first solo album, Taking Off, in 1975.",
     "deathYear": 2024,
     "wikipedia": "https://en.wikipedia.org/wiki/David_Sanborn",
@@ -1902,7 +2070,11 @@
     "influencedBy": [
       "billy-cobham"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "getting-even",
+      "boston-t-party",
+      "trypnotyx"
+    ],
     "bio": "Dennis Milton Chambers is an American jazz fusion and funk drummer. He was inducted into the Modern Drummer Hall of Fame in 2001.",
     "wikipedia": "https://en.wikipedia.org/wiki/Dennis_Chambers",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Dennis_Chambers_Kongsberg_Jazzfestival_2017_%28190928%29.jpg"
@@ -1924,7 +2096,9 @@
     ],
     "influencedBy": [],
     "keyAlbums": [
-      "solo-guitar"
+      "solo-guitar",
+      "guitar-solos-2",
+      "standards"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Derek_Bailey_(guitarist)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Derek_Bailey.jpg"
@@ -1953,7 +2127,8 @@
     ],
     "keyAlbums": [
       "our-man-in-paris",
-      "go"
+      "go",
+      "one-flight-up"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Dexter_Gordon",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Dexter_Gordon1.jpg"
@@ -1985,7 +2160,10 @@
       "mario-bauza"
     ],
     "keyAlbums": [
-      "jazz-at-massey-hall"
+      "jazz-at-massey-hall",
+      "gillespiana",
+      "the-trumpet-kings-meet-joe-turner-gillespie",
+      "a-jazz-hour-with-dizzy-gillespie"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Dizzy_Gillespie",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Dizzy_Gillespie_by_Carl_Van_Vechten_%28cropped%29_%282%29.jpg"
@@ -2013,7 +2191,8 @@
       "louis-armstrong"
     ],
     "keyAlbums": [
-      "django"
+      "django",
+      "the-great-artistry-of-django-reinhardt"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Django_Reinhardt",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Django_Reinhardt_%28Gottlieb_07301%29.jpg"
@@ -2045,7 +2224,8 @@
     ],
     "keyAlbums": [
       "complete-communion",
-      "codona"
+      "codona",
+      "it-is-revealed"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Don_Cherry_(musician)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/DonCherry.jpg"
@@ -2069,7 +2249,11 @@
     "influencedBy": [
       "dave-brubeck"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "how-time-passes",
+      "the-new-don-ellis-band-goes-underground",
+      "connection"
+    ],
     "bio": "Donald Johnson Ellis was an American jazz trumpeter, drummer, composer, and bandleader. He is best known for his extensive musical experimentation, particularly in the area of time signatures. Later in his life he worked as a film composer, contributing a score to 1971's The French Connection and 1973's The Seven-Ups.",
     "deathYear": 1978,
     "wikipedia": "https://en.wikipedia.org/wiki/Don_Ellis",
@@ -2114,7 +2298,11 @@
     "influencedBy": [
       "art-blakey"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "crystal-stair",
+      "the-power-of-cool",
+      "heroes"
+    ],
     "bio": "Donald Harrison Jr. is an American jazz saxophonist and the Big Chief of The Congo Square Nation Afro-New Orleans Cultural Group from New Orleans, Louisiana.",
     "wikipedia": "https://en.wikipedia.org/wiki/Donald_Harrison",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Donald_Harrison%2C_Jr..jpg"
@@ -2138,7 +2326,8 @@
     "influencedBy": [],
     "keyAlbums": [
       "in-a-mellow-tone",
-      "afro-harping"
+      "afro-harping",
+      "blue-haze"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Dorothy_Ashby",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b8/Dorothy_Ashby_%2B_Autograph.jpg"
@@ -2160,9 +2349,12 @@
       "ornette-coleman"
     ],
     "keyAlbums": [
-      "sounds-of-liberation"
+      "sounds-of-liberation",
+      "diamond-express",
+      "radebe-they-shoot-to-kill"
     ],
-    "wikipedia": "https://en.wikipedia.org/wiki/Dudu_Pukwana"
+    "wikipedia": "https://en.wikipedia.org/wiki/Dudu_Pukwana",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7e/Dudu_Pukwana.jpg"
   },
   {
     "id": "duke-ellington",
@@ -2200,7 +2392,8 @@
     ],
     "keyAlbums": [
       "ellington-at-newport",
-      "money-jungle"
+      "money-jungle",
+      "blue-note-jazz-inspiration"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Duke_Ellington",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Duke_Ellington_-_publicity.JPG"
@@ -2220,7 +2413,9 @@
       "django-reinhardt"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "bix-beiderbecke-and-frankie-trumbauer-volume-one"
+    ],
     "bio": "Eddie Lang was an American musician who is credited as the father of jazz guitar. During the 1920s, he gave the guitar a prominence it previously lacked as a solo instrument, as part of a band or orchestra, and as accompaniment for vocalists. He recorded duets with guitarists Lonnie Johnson and Carl Kress and jazz violinist Joe Venuti, and played rhythm guitar in the Paul Whiteman Orchestra and was the favoured accompanist of Bing Crosby.",
     "deathYear": 1933,
     "wikipedia": "https://en.wikipedia.org/wiki/Eddie_Lang",
@@ -2243,7 +2438,9 @@
       "mccoy-tyner"
     ],
     "keyAlbums": [
-      "harlem-river-drive"
+      "harlem-river-drive",
+      "superimposition",
+      "palo-p-rumba"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Eddie_Palmieri",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Eddie_Palmieri_2.jpg"
@@ -2263,7 +2460,8 @@
     "influences": [],
     "influencedBy": [],
     "keyAlbums": [
-      "saudades"
+      "saudades",
+      "alma"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Egberto_Gismonti",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Egberto_Gismonti_y_la_Orquesta_Nacional_de_M%C3%BAsica_Argentina_%E2%80%9CJuan_de_Dios_Filiberto%E2%80%9D_-_35208410112.jpg"
@@ -2288,7 +2486,11 @@
       "sarah-vaughan"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "ella-at-dukes-place",
+      "ella-fitzgeralds-christmas",
+      "ella-loves-cole"
+    ],
     "bio": "Ella Jane Fitzgerald was an American singer, songwriter and composer, sometimes referred to as the \"First Lady of Song\", \"Queen of Jazz\", and \"Lady Ella\". She was noted for her purity of tone, impeccable diction, phrasing, timing, intonation, absolute pitch, and a \"horn-like\" improvisational ability, particularly in her scat singing.",
     "deathYear": 1996,
     "wikipedia": "https://en.wikipedia.org/wiki/Ella_Fitzgerald",
@@ -2313,7 +2515,11 @@
       "billy-cobham"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "time-capsule",
+      "earth-jones",
+      "at-this-point-in-time"
+    ],
     "bio": "Elvin Ray Jones was an American jazz drummer of the post-bop era. Most famously a member of John Coltrane's quartet, with whom he recorded from late 1960 to late 1965, Jones appeared on such albums as My Favorite Things, A Love Supreme, Ascension and Live at Birdland. After 1966, Jones led his own trio, and later larger groups under the name The Elvin Jones Jazz Machine. His brothers Hank and Thad were also celebrated jazz musicians with whom he occasionally recorded.",
     "deathYear": 2004,
     "wikipedia": "https://en.wikipedia.org/wiki/Elvin_Jones",
@@ -2335,7 +2541,11 @@
     "influencedBy": [
       "bill-evans"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "the-dream-before-us",
+      "play-morricone",
+      "works-and-improvisations-1685"
+    ],
     "bio": "Enrico Pieranunzi is an Italian jazz pianist. He combines classical technique with jazz.",
     "wikipedia": "https://en.wikipedia.org/wiki/Enrico_Pieranunzi",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Enrico_Pieranunzi01_39178.jpg"
@@ -2358,7 +2568,11 @@
     "influencedBy": [
       "chet-baker"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "tribute-to-mingus",
+      "where-are-you",
+      "vento"
+    ],
     "bio": "Enrico Rava, is an Italian jazz trumpeter. He started on trombone, then changed to the trumpet after hearing Miles Davis.",
     "wikipedia": "https://en.wikipedia.org/wiki/Enrico_Rava",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Enrico-rava_DSC08463.jpg"
@@ -2412,7 +2626,11 @@
       "ahmad-jamal"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "gone-with-garner",
+      "solo-flight",
+      "the-most-happy-piano"
+    ],
     "bio": "Erroll Louis Garner was an American jazz pianist and composer known for his swing playing and ballads. His instrumental ballad \"Misty\", his best-known composition, has become a jazz standard. It was first recorded in 1956 with Mitch Miller and his orchestra, and played a prominent part in the 1971 motion picture Play Misty for Me.",
     "deathYear": 1977,
     "wikipedia": "https://en.wikipedia.org/wiki/Erroll_Garner",
@@ -2435,7 +2653,9 @@
       "jaco-pastorius"
     ],
     "keyAlbums": [
-      "esperanza"
+      "esperanza",
+      "porto-da-madama",
+      "12-little-spells"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Esperanza_Spalding",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Esperanza_Spalding%2C_2009.jpg"
@@ -2458,7 +2678,9 @@
       "alexander-von-schlippenbach"
     ],
     "keyAlbums": [
-      "saxophone-solos"
+      "saxophone-solos",
+      "improvvisazioni",
+      "2001"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Evan_Parker",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Evan_Parker_Vortex_London_28th_June_2014.jpg"
@@ -2481,7 +2703,11 @@
       "mary-lou-williams"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "jazz-giants",
+      "fats-waller-thru-the-30s",
+      "happy-birthday-fats"
+    ],
     "bio": "Thomas Wright \"Fats\" Waller was an American jazz pianist, organist, composer, and singer. His innovations in the Harlem stride style laid much of the basis for modern jazz piano. A widely popular star in the jazz and swing eras, he toured internationally, achieving critical and commercial success in the United States and Europe. His best-known compositions, \"Ain't Misbehavin'\" and \"Honeysuckle Rose\", were inducted into the Grammy Hall of Fame in 1984 and 1999, respectively.",
     "deathYear": 1943,
     "wikipedia": "https://en.wikipedia.org/wiki/Fats_Waller",
@@ -2504,7 +2730,11 @@
       "sun-ra"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "first-impressions",
+      "duke-ellington-fletcher-henderson-artie-shaw-and-their-orchestras",
+      "smack"
+    ],
     "bio": "James Fletcher Hamilton Henderson was an American pianist, bandleader, arranger and composer, important in the development of big band jazz and swing music. He was one of the most prolific black musical arrangers and, along with Duke Ellington, is considered one of the most influential arrangers and bandleaders in jazz history. Henderson's influence was vast. He helped bridge the gap between the Dixieland and the swing eras. He was often known as \"Smack\" Henderson.",
     "deathYear": 1952,
     "wikipedia": "https://en.wikipedia.org/wiki/Fletcher_Henderson",
@@ -2526,7 +2756,9 @@
       "miles-davis"
     ],
     "keyAlbums": [
-      "open-your-eyes-you-can-fly"
+      "open-your-eyes-you-can-fly",
+      "the-midnight-sun",
+      "speak-no-evil-purim"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Flora_Purim",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Flora_Purim_%282007%29.jpg"
@@ -2547,7 +2779,11 @@
       "bill-evans",
       "keith-jarrett"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "thelonious-fred-hersch-plays-monk",
+      "songs-lullabies",
+      "da-vinci"
+    ],
     "bio": "Fred Hersch is an American jazz pianist, composer, and a 17-time Grammy nominée. He was the first person to play weeklong engagements as a solo pianist at the Village Vanguard in New York City. He has written and recorded more than 75 original compositions.",
     "wikipedia": "https://en.wikipedia.org/wiki/Fred_Hersch",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Fred-hersch_DSC05858.jpg"
@@ -2606,7 +2842,9 @@
       "jackie-mclean"
     ],
     "keyAlbums": [
-      "harlem-bush-music-taifa"
+      "harlem-bush-music-taifa",
+      "music-is-my-sanctuary",
+      "harlem-sunset"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Gary_Bartz",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Gary_Bartz_2011.jpg"
@@ -2632,7 +2870,8 @@
     ],
     "keyAlbums": [
       "geri-allen-trio",
-      "twylight"
+      "twylight",
+      "shades-of-change"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Geri_Allen",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Geri-allen-by-pablo-secca.jpg"
@@ -2657,7 +2896,11 @@
       "maria-schneider"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "the-gil-evans-orchestra-plays-the-music-of-jimi-hendrix",
+      "live-under-the-sky-tokyo-84",
+      "walking-through-the-clouds-live-1984"
+    ],
     "bio": "Ian Ernest Gilmore Evans was a Canadian–American jazz pianist, arranger, composer and bandleader. He is widely recognized as one of the greatest orchestrators in jazz, playing an important role in the development of cool jazz, modal jazz, free jazz, and jazz fusion. He is best known for his acclaimed collaborations with Miles Davis.",
     "deathYear": 1988,
     "wikipedia": "https://en.wikipedia.org/wiki/Gil_Evans",
@@ -2677,7 +2920,11 @@
     "influencedBy": [
       "chick-corea"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "suite-4-y-20",
+      "xxi-century",
+      "pdron-rubalcaba"
+    ],
     "bio": "Gonzalo Rubalcaba is a Cuban jazz pianist and composer.",
     "wikipedia": "https://en.wikipedia.org/wiki/Gonzalo_Rubalcaba",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Gonzalo_Rubalcaba_at_MIFF_%28cropped%29.jpg"
@@ -2699,7 +2946,8 @@
     ],
     "keyAlbums": [
       "evolution",
-      "some-other-stuff"
+      "some-other-stuff",
+      "inner-cry-blues"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Grachan_Moncur_III",
     "imageUrl": "https://live.staticflickr.com/5603/15197442453_f7430e7e74_b.jpg"
@@ -2748,7 +2996,11 @@
     "influencedBy": [
       "jackie-mclean"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "3-d-lifestyles",
+      "round-and-round",
+      "channel-three"
+    ],
     "bio": "Greg Osby is an American jazz saxophonist and composer.",
     "wikipedia": "https://en.wikipedia.org/wiki/Greg_Osby",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Greg_Osby_photo.jpg"
@@ -2802,7 +3054,8 @@
     ],
     "keyAlbums": [
       "air-song",
-      "when-was-that"
+      "when-was-that",
+      "listen-ship"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Henry_Threadgill",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Henry_Threadgill_2014.jpg"
@@ -2869,7 +3122,9 @@
       "miles-davis"
     ],
     "keyAlbums": [
-      "slaves-mass"
+      "slaves-mass",
+      "a-msica-livre-de-hermeto-paschoal",
+      "eu-e-eles"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Hermeto_Pascoal",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Hermeto_Pascoal.jpg"
@@ -2898,7 +3153,9 @@
       "thelonious-monk"
     ],
     "keyAlbums": [
-      "song-for-my-father"
+      "song-for-my-father",
+      "silver-n-brass",
+      "jazz-has-a-sense-of-humor"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Horace_Silver",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Horace_Silver_by_Dmitri_Savitski_1989.jpg"
@@ -2926,7 +3183,8 @@
     ],
     "keyAlbums": [
       "grazin-in-the-grass",
-      "inhlupeko"
+      "inhlupeko",
+      "hugh-masekelas-latest"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Hugh_Masekela",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Womex2011_-_Crawfurd6468_%286299756789%29.jpg"
@@ -2946,7 +3204,11 @@
     "influencedBy": [
       "don-cherry"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "diagnostic",
+      "40-melodies",
+      "first-noel"
+    ],
     "bio": "Ibrahim Maalouf is a French-Lebanese trumpeter, producer, arranger, and composer.\nIn 2022, he became the first Lebanese instrumentalist nominated at the Grammy Awards for his album Queen of Sheba in collaboration with Angélique Kidjo.",
     "wikipedia": "https://en.wikipedia.org/wiki/Ibrahim_Maalouf",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Ibrahim_Maalouf_-_Festival_du_Bout_du_Monde_2014_-_005_%28cropped%29.jpg"
@@ -2972,9 +3234,12 @@
       "thelonious-monk"
     ],
     "keyAlbums": [
-      "tetterettet"
+      "tetterettet",
+      "east-of-the-sun",
+      "instant-composers-pool-recordings-from-1967"
     ],
-    "wikipedia": "https://en.wikipedia.org/wiki/Instant_Composers_Pool"
+    "wikipedia": "https://en.wikipedia.org/wiki/Instant_Composers_Pool",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Willem_Breukers_Instant_Pool_geeft_concert_op_boot_in_Amsterdamse_grachten%2C_Bestanddeelnr_926-5901.jpg/500px-Willem_Breukers_Instant_Pool_geeft_concert_op_boot_in_Amsterdamse_grachten%2C_Bestanddeelnr_926-5901.jpg"
   },
   {
     "id": "j-dilla",
@@ -2990,7 +3255,11 @@
       "robert-glasper"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "the-official-jay-dee-instrumental-series-volume-1-unreleased",
+      "ruff-draft",
+      "smell-the-daisy-da-inner-soul-of-yancy"
+    ],
     "bio": "James Dewitt Yancey, better known by the stage names J Dilla and Jay Dee, was an American record producer, rapper, and composer. He emerged from the mid-1990s underground hip hop scene in Detroit, Michigan, as a member of the group Slum Village. He was a founding member of the Soulquarians, a musical collective active during the late 1990s and early 2000s. Yancey and Madlib collaborated as the duo Jaylib, releasing the album Champion Sound. Yancey's final album, Donuts, was released three days before his death. He was also known for producing The Pharcyde album Labcabincalifornia.",
     "deathYear": 2006,
     "wikipedia": "https://en.wikipedia.org/wiki/J_Dilla",
@@ -3078,7 +3347,8 @@
     "keyAlbums": [
       "jaco-pastorius",
       "word-of-mouth",
-      "heavy-weather"
+      "heavy-weather",
+      "live-under-the-sky-tokyo-84-pastorius"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Jaco_Pastorius",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Jaco_Pastorius_with_bass_1980.jpg"
@@ -3101,7 +3371,9 @@
       "ornette-coleman"
     ],
     "keyAlbums": [
-      "tales-of-captain-black"
+      "tales-of-captain-black",
+      "black-and-blues",
+      "harmolodic-guitar-with-strings"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/James_Blood_Ulmer",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/JamesBloodUlmer08.JPG"
@@ -3120,7 +3392,11 @@
     "influencedBy": [
       "eric-dolphy"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "duets",
+      "the-real-quietstorm",
+      "for-now"
+    ],
     "bio": "James Carter is an American jazz musician widely recognized for his technical virtuosity on saxophones and a variety of woodwinds. He is the cousin of noted jazz violinist Regina Carter.",
     "wikipedia": "https://en.wikipedia.org/wiki/James_Carter_(musician)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/James_Carter_Newport_Jazz_Festival.jpg"
@@ -3140,7 +3416,10 @@
     "influencedBy": [
       "robert-glasper"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "flight",
+      "purest-form"
+    ],
     "bio": "James Francies is an American jazz pianist, keyboardist, composer, and arranger. He grew up in Houston but moved to New York to continue his musical studies. Following performances and recordings with various musicians, his first album as leader was released by Blue Note Records in 2018.",
     "wikipedia": "https://en.wikipedia.org/wiki/James_Francies",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/James_Francies_Blue_Note_May_2024.jpg"
@@ -3188,7 +3467,11 @@
       "thelonious-monk"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "fats-waller-favorites",
+      "snowy-morning-blues",
+      "runnin-wild-1921-1926"
+    ],
     "bio": "James Price Johnson was an American pianist and composer. A pioneer of stride piano, he was one of the most important pianists in the early era of recording, and like Jelly Roll Morton, one of the key figures in the evolution of ragtime into what was eventually called jazz. Johnson was a major influence on Count Basie, Duke Ellington, Art Tatum, Thelonious Monk, and Fats Waller, who was his student.",
     "deathYear": 1955,
     "wikipedia": "https://en.wikipedia.org/wiki/James_P._Johnson",
@@ -3234,7 +3517,11 @@
       "herbie-hancock",
       "ahmad-jamal"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "black-stars",
+      "hagars-song",
+      "refract"
+    ],
     "bio": "Jason Moran is an American jazz pianist, composer, and educator involved in multimedia art and theatrical installations.",
     "wikipedia": "https://en.wikipedia.org/wiki/Jason_Moran_(musician)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Jason-moran.jpg"
@@ -3262,7 +3549,8 @@
     "keyAlbums": [
       "township-jive"
     ],
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Jazz_Epistles"
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Jazz_Epistles",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/The_Atlantic_Monthly_Volume_130.djvu/page1-500px-The_Atlantic_Monthly_Volume_130.djvu.jpg"
   },
   {
     "id": "jeanne-lee",
@@ -3281,9 +3569,13 @@
       "ran-blake"
     ],
     "keyAlbums": [
-      "the-newest-sound-around"
+      "the-newest-sound-around",
+      "spirits",
+      "oasis",
+      "natural-affinities"
     ],
-    "wikipedia": "https://en.wikipedia.org/wiki/Jeanne_Lee"
+    "wikipedia": "https://en.wikipedia.org/wiki/Jeanne_Lee",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/JeanneLee.jpg/500px-JeanneLee.jpg"
   },
   {
     "id": "jelly-roll-morton",
@@ -3302,7 +3594,11 @@
       "louis-armstrong"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "mr-jelly-lord",
+      "the-library-of-congress-recordings-by-alan-lomax",
+      "volume-1-1923-1929"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Jelly_Roll_Morton",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Jelly_Roll_Morton_%28c._1927%29.jpg"
   },
@@ -3348,7 +3644,10 @@
       "charlie-parker",
       "django-reinhardt"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "dialogues",
+      "jim-hall-basses"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Jim_Hall_(musician)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Jim_Hall_1.jpg"
   },
@@ -3376,7 +3675,9 @@
       "art-tatum"
     ],
     "keyAlbums": [
-      "back-at-the-chicken-shack"
+      "back-at-the-chicken-shack",
+      "blue-bash",
+      "prayer-meetin"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Jimmy_Smith_(musician)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Jimmy_Smith.jpg"
@@ -3398,7 +3699,9 @@
       "miles-davis"
     ],
     "keyAlbums": [
-      "funky-stuff"
+      "funky-stuff",
+      "2463am",
+      "endless-chain"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Jiro_Inagaki"
   },
@@ -3420,9 +3723,11 @@
     ],
     "keyAlbums": [
       "free-form",
-      "indo-jazz-suite"
+      "indo-jazz-suite",
+      "poetry-and-jazz-in-concert-record-one"
     ],
-    "wikipedia": "https://en.wikipedia.org/wiki/Joe_Harriott"
+    "wikipedia": "https://en.wikipedia.org/wiki/Joe_Harriott",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/941114_Michael_Moore_%26_Co_web_%28programmaboekje%29.pdf/page1-500px-941114_Michael_Moore_%26_Co_web_%28programmaboekje%29.pdf.jpg"
   },
   {
     "id": "joe-henderson",
@@ -3469,7 +3774,11 @@
     "influencedBy": [
       "wayne-shorter"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "the-mezzo-sax-encounter",
+      "our-daily-bread",
+      "trio-tapestry"
+    ],
     "bio": "Joseph Salvatore Lovano is an American jazz multi-instrumentalist. Though best known as a tenor saxophonist, Lovano has also recorded on alto clarinet, flute and drums, amongst other instruments. He has earned a Grammy Award and several mentions in Down Beat magazine's critics' & readers' polls. His wife is singer Judi Silvano, with whom he records and performs. Lovano was a longtime member of the late drummer Paul Motian‘s trio alongside guitarist Bill Frisell.",
     "wikipedia": "https://en.wikipedia.org/wiki/Joe_Lovano",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/LovanoVlcsnap-2024-09-14-10h00m42s153.png"
@@ -3493,7 +3802,11 @@
     "influencedBy": [
       "django-reinhardt"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "a-sign-of-the-times",
+      "virtuoso-no-4",
+      "checkmate"
+    ],
     "bio": "Joe Pass was an American jazz guitarist. Pass recorded and performed live with pianist Oscar Peterson, composer Duke Ellington, and vocalist Ella Fitzgerald, and he is generally esteemed as one of the most notable jazz guitarists of the 20th century for his solo guitar playing, found on recordings such as Virtuoso.",
     "deathYear": 1994,
     "wikipedia": "https://en.wikipedia.org/wiki/Joe_Pass",
@@ -3513,7 +3826,11 @@
     "influencedBy": [
       "bobby-hutcherson"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "kingmaker",
+      "broken-circles",
+      "who-are-you"
+    ],
     "bio": "Joel Ross is an American jazz vibraphonist currently living in Brooklyn. Born and raised in Chicago, he was introduced to music by playing drums at his father's church, and got a musical education in high school and college. He later moved to New York City, where he developed into a professional jazz musician, signing with Blue Note Records.",
     "wikipedia": "https://en.wikipedia.org/wiki/Joel_Ross_(vibraphonist)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Marquis_Hill_Blacktet_27_oktober_2017_BIM_Amsterdam_-_Joel_Ross_%2851335817457%29.jpg"
@@ -3532,7 +3849,11 @@
     "influencedBy": [
       "mccoy-tyner"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "traveler-joey-calderazzo",
+      "fast-company",
+      "joey-calderazzo"
+    ],
     "bio": "Joseph Dominick Calderazzo is an American jazz pianist and brother of musician Gene Calderazzo. He played extensively in bands led by Michael Brecker and Branford Marsalis, and has also led his own bands.",
     "wikipedia": "https://en.wikipedia.org/wiki/Joey_Calderazzo"
   },
@@ -3612,7 +3933,8 @@
       "wes-montgomery"
     ],
     "keyAlbums": [
-      "birds-of-fire"
+      "birds-of-fire",
+      "love-devotion-surrender"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/John_McLaughlin_(musician)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/John_McLaughlin_Blue_Note_2016.JPG"
@@ -3633,7 +3955,11 @@
     "influencedBy": [
       "jaco-pastorius"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "heart-of-the-bass",
+      "now",
+      "images"
+    ],
     "bio": "John Patitucci is an American jazz bassist and composer.",
     "wikipedia": "https://en.wikipedia.org/wiki/John_Patitucci",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/John_Patitucci_Kongsberg_Jazzfestival_2018_%28170909%29.jpg"
@@ -3655,7 +3981,9 @@
       "bill-evans"
     ],
     "keyAlbums": [
-      "azimuth"
+      "azimuth",
+      "insight",
+      "double-exposure"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/John_Taylor_(jazz)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/John_Taylor.jpg"
@@ -3675,7 +4003,11 @@
     "influencedBy": [
       "ornette-coleman"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "school",
+      "masada-anniversary-edition-volume-1-masada-guitars",
+      "malphas-book-of-angels-volume-3"
+    ],
     "bio": "John Zorn is an American composer, conductor, producer, arranger and saxophonist who \"deliberately resists category\". Zorn's avant-garde compositions and experimental improvisations meld jazz, rock, hardcore, classical, contemporary, surf, metal, soundtrack, ambient, Jewish and world music performed by \"often unexpected groups of players.. getting startling, unrepeatable results\". Rolling Stone noted that \"[alt]hough Zorn has operated almost entirely outside the mainstream, he's gradually asserted himself as one of the most influential musicians of our time\".",
     "wikipedia": "https://en.wikipedia.org/wiki/John_Zorn",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Fotograf%C3%ADa-_Gerardo_Luna-_Secretar%C3%ADa_de_Cultura_de_la_Ciudad_de_M%C3%A9xico.jpg"
@@ -3702,7 +4034,11 @@
       "john-coltrane"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "alto-blue",
+      "dont-sleep-in-the-subway",
+      "blue-hodge"
+    ],
     "bio": "John Cornelius Hodges was an American alto saxophonist, best known for solo work with Duke Ellington's big band. He played lead alto in the saxophone section for many years. Hodges was also featured on soprano saxophone, but refused to play soprano after 1940. Along with Benny Carter, Hodges is considered to be one of the definitive alto saxophone players of the big band era.",
     "deathYear": 1970,
     "wikipedia": "https://en.wikipedia.org/wiki/Johnny_Hodges",
@@ -3723,7 +4059,11 @@
     "influencedBy": [
       "robert-glasper"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "times-in-new-orleans",
+      "hollywood-africans",
+      "big-money"
+    ],
     "bio": "Jonathan Michael Batiste is an American singer, songwriter, musician, composer, bandleader, television personality and actor. He has recorded and performed with artists including Alicia Keys, Stevie Wonder, Prince, Willie Nelson, Lenny Kravitz, ASAP Rocky, Ed Sheeran, Lana Del Rey, Roy Hargrove, Juvenile, Mavis Staples and Lauryn Hill. Batiste appeared nightly with his band, Stay Human, as bandleader and musical director on The Late Show with Stephen Colbert from 2015 to 2022.",
     "wikipedia": "https://en.wikipedia.org/wiki/Jon_Batiste",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Jon_Batiste_2023.jpg"
@@ -3744,7 +4084,11 @@
     "influencedBy": [
       "dizzy-gillespie"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "youngblood",
+      "legacy-faddis",
+      "oscar-peterson-jon-faddis"
+    ],
     "bio": "Jon Faddis is an American jazz trumpet player, conductor, composer, and educator, renowned for both his playing and for his expertise in the field of music education. Upon his first appearance on the scene, he became known for his ability to closely mirror the sound of trumpet icon Dizzy Gillespie, who was his mentor along with pianist Stan Kenton and trumpeter Bill Catalano.",
     "wikipedia": "https://en.wikipedia.org/wiki/Jon_Faddis",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Jon_Faddis_with_the_Navy_Band_Commodores.jpg"
@@ -3763,7 +4107,11 @@
     "influencedBy": [
       "pat-metheny"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "arclight",
+      "mount-royal",
+      "chesed-the-book-beriah-volume-4"
+    ],
     "bio": "Julian Price Lage is an American guitarist and composer.",
     "wikipedia": "https://en.wikipedia.org/wiki/Julian_Lage",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Julian_Lage.jpg"
@@ -3789,9 +4137,12 @@
       "ornette-coleman"
     ],
     "keyAlbums": [
-      "dogon-ad"
+      "dogon-ad",
+      "oakland-duets",
+      "roi-boy-the-gotham-minstrels"
     ],
-    "wikipedia": "https://en.wikipedia.org/wiki/Julius_Hemphill"
+    "wikipedia": "https://en.wikipedia.org/wiki/Julius_Hemphill",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Julius_Hemphill.jpg"
   },
   {
     "id": "kamasi-washington",
@@ -3810,7 +4161,9 @@
       "pharoah-sanders"
     ],
     "keyAlbums": [
-      "the-epic"
+      "the-epic",
+      "light-of-the-world",
+      "fearless-movement"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Kamasi_Washington",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/POS17_%40Kristsll-397_%2836005903335%29_%28cropped%29.jpg"
@@ -3862,7 +4215,11 @@
     "influencedBy": [
       "eric-dolphy"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "foreground-music",
+      "the-nows",
+      "east-by-northwest"
+    ],
     "bio": "Ken Vandermark is an American composer, saxophonist, and clarinetist.",
     "wikipedia": "https://en.wikipedia.org/wiki/Ken_Vandermark",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Ken_Vandermark.jpg"
@@ -3887,7 +4244,9 @@
       "django-reinhardt"
     ],
     "keyAlbums": [
-      "midnight-blue"
+      "midnight-blue",
+      "kenny-burrell",
+      "lucky-so-and-so"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Kenny_Burrell",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Kenny_Burrell.jpg"
@@ -3913,7 +4272,11 @@
       "max-roach"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "telefunken-blues",
+      "jazz-pictures-at-an-exibition",
+      "musique-sacre"
+    ],
     "bio": "Kenneth Clarke Spearman, known professionally as Kenny Clarke and nicknamed Klook, was an American jazz drummer and bandleader. A major innovator of the bebop style of drumming, he pioneered the use of the ride cymbal to keep time rather than the hi-hat, along with the use of the bass drum for irregular accents.",
     "deathYear": 1985,
     "wikipedia": "https://en.wikipedia.org/wiki/Kenny_Clarke",
@@ -3938,7 +4301,11 @@
       "miles-davis",
       "art-blakey"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "pursuance-the-music-of-john-coltrane",
+      "standard-of-language",
+      "no-parking-tow-away-zone"
+    ],
     "bio": "Kenny Garrett is an American post-bop jazz musician and composer who gained recognition in his youth as a member of the Duke Ellington Orchestra and for his time with Miles Davis's band. Garrett's primary instruments are alto and soprano saxophone and flute. Since 1985, he has pursued a solo career.",
     "wikipedia": "https://en.wikipedia.org/wiki/Kenny_Garrett",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Kenny_Garrett_%282013%29.jpg"
@@ -3961,7 +4328,9 @@
       "miles-davis"
     ],
     "keyAlbums": [
-      "gnu-high"
+      "gnu-high",
+      "touch",
+      "island"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Kenny_Wheeler",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Kenny_Wheeler.jpg"
@@ -3983,7 +4352,10 @@
       "duke-ellington"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "great-original-performances-1923-1930",
+      "the-legend-of-king-oliver-remastered"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/King_Oliver",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/King_Oliver_%281915_portrait%29.jpg"
   },
@@ -4002,7 +4374,11 @@
     "influencedBy": [
       "pat-metheny"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "everything-will-be-all-right",
+      "heartcore",
+      "the-chopin-project"
+    ],
     "bio": "Kurt Rosenwinkel is an American jazz guitarist, composer, bandleader, producer, educator, keyboardist and record label owner.",
     "wikipedia": "https://en.wikipedia.org/wiki/Kurt_Rosenwinkel",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Jeff_%27Tain%27_Watts_Trio_25_november_2018_BIM_Amsterdam_-_Kurt_Rosenwinkel_%2851430761926%29.jpg"
@@ -4021,7 +4397,11 @@
     "influencedBy": [
       "pat-metheny"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "early-songs",
+      "life-of-the-party",
+      "terrible-animals"
+    ],
     "bio": "Lage Fosheim Lund is a Norwegian jazz guitarist who lives in New York.",
     "wikipedia": "https://en.wikipedia.org/wiki/Lage_Lund",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Lage_Lund_kvartett_Nasjonal_Jazzscene_2020_%28213018%29.jpg"
@@ -4043,7 +4423,11 @@
     "influencedBy": [
       "jimmy-smith"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "lawrence-of-newark",
+      "larry-youngs-fuel",
+      "spaceball"
+    ],
     "bio": "Larry Young was an American jazz organist and occasional pianist. Young's early work was strongly influenced by the soul jazz of Jimmy Smith, but he later pioneered a more experimental, modal approach to the Hammond B-3.",
     "deathYear": 1978,
     "wikipedia": "https://en.wikipedia.org/wiki/Larry_Young_(musician)",
@@ -4064,7 +4448,11 @@
     "influencedBy": [
       "keith-jarrett"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "a-night-in-bilbao",
+      "one-poem-one-painting",
+      "ballads"
+    ],
     "bio": "Lars Jansson is a Swedish jazz pianist and composer.",
     "wikipedia": "https://en.wikipedia.org/wiki/Lars_Jansson_(composer)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Lars-jansson.jpg"
@@ -4118,7 +4506,11 @@
       "bill-evans"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "holiday-in-piano",
+      "new-york-improvisations",
+      "out-of-mind"
+    ],
     "bio": "Leonard Joseph Tristano was an American jazz pianist, composer, arranger, and teacher of jazz improvisation.",
     "deathYear": 1978,
     "wikipedia": "https://en.wikipedia.org/wiki/Lennie_Tristano",
@@ -4141,9 +4533,12 @@
       "pharoah-sanders"
     ],
     "keyAlbums": [
-      "spirits-known-and-unknown"
+      "spirits-known-and-unknown",
+      "the-leon-thomas-album",
+      "leon-thomas-in-berlin"
     ],
-    "wikipedia": "https://en.wikipedia.org/wiki/Leon_Thomas_(musician)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Leon_Thomas_(musician)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Drury_High_School_-_Nathanite_%28IA_druryhighschooln1921unse%29.pdf/page1-500px-Drury_High_School_-_Nathanite_%28IA_druryhighschooln1921unse%29.pdf.jpg"
   },
   {
     "id": "lester-young",
@@ -4166,7 +4561,11 @@
       "dexter-gordon"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "lester-young-with-the-oscar-peterson-trio-2",
+      "the-president",
+      "dont-you-know-who-i-think-i-am"
+    ],
     "bio": "Lester Willis Young, nicknamed \"Pres\" or \"Prez\", was an American jazz tenor saxophonist and occasional clarinetist.",
     "deathYear": 1959,
     "wikipedia": "https://en.wikipedia.org/wiki/Lester_Young",
@@ -4190,7 +4589,9 @@
       "miles-davis"
     ],
     "keyAlbums": [
-      "expansions"
+      "expansions",
+      "exotic-mysteries",
+      "lonnie-liston-smith-jid017"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Lonnie_Liston_Smith",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Lonnie_Liston_Smith.jpg"
@@ -4212,7 +4613,9 @@
       "charlie-parker"
     ],
     "keyAlbums": [
-      "alligator-bogaloo"
+      "alligator-bogaloo",
+      "lou-takes-off",
+      "mr-shing-a-ling"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Lou_Donaldson",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Lou_Donaldson.jpg"
@@ -4247,7 +4650,8 @@
       "jelly-roll-morton"
     ],
     "keyAlbums": [
-      "hot-fives-sevens"
+      "hot-fives-sevens",
+      "hello-dolly"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Louis_Armstrong",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Louis_Armstrong_in_Color_%28restored%29.jpg"
@@ -4338,7 +4742,9 @@
     "influences": [],
     "influencedBy": [],
     "keyAlbums": [
-      "afrodisia"
+      "afrodisia",
+      "deliverance",
+      "sax-lounge-emotion"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Manu_Dibango",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/LesEscales2019ManuDibango_03_%28cropped%29.jpg"
@@ -4357,7 +4763,11 @@
     "influencedBy": [
       "mccoy-tyner"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "rhodes-ahead-vol-1",
+      "for-the-love-of-abbey",
+      "blackanomics"
+    ],
     "bio": "Marc Cary is an American jazz pianist based out of New York City. Cary has played and recorded with a number of well-known musicians, including Dizzy Gillespie, Betty Carter, Roy Hargrove, Arthur Taylor, Abbey Lincoln, Carlos Garnett, Erykah Badu, Meshell Ndegeocello, Stefon Harris, Lauryn Hill, Ani DiFranco, Jackie McLean, Q-Tip, and Carmen McRae.",
     "wikipedia": "https://en.wikipedia.org/wiki/Marc_Cary",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Marc_Cary.jpg"
@@ -4377,7 +4787,11 @@
     "influencedBy": [
       "jaco-pastorius"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "silver-rain",
+      "renaissance",
+      "afrodeezia"
+    ],
     "bio": "William Henry Marcus Miller Jr. is an American musician, songwriter, and record producer. He has worked with trumpeter Miles Davis, pianist Herbie Hancock, singer Luther Vandross, and saxophonists Wayne Shorter and David Sanborn, among others. He was the main songwriter and producer on three of Davis's albums: Tutu (1986), Music from Siesta (1987), and Amandla (1989).",
     "wikipedia": "https://en.wikipedia.org/wiki/Marcus_Miller",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Marcus_Miller_at_Stockholm_Jazz_Fest_2009.jpg"
@@ -4403,7 +4817,9 @@
       "charles-mingus"
     ],
     "keyAlbums": [
-      "concert-in-the-garden"
+      "concert-in-the-garden",
+      "live-plays-the-music-of-maria-schneider-kurt-weill",
+      "winter-morning-walks"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Maria_Schneider_(musician)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Maria_Schneider%2C_2007.jpg"
@@ -4424,7 +4840,11 @@
     "influencedBy": [
       "cecil-taylor"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "parallel-moments",
+      "songs-along-the-way",
+      "our-daily-bread-crispell"
+    ],
     "bio": "Marilyn Crispell is an American jazz pianist and composer. Scott Yanow described her as \"a powerful player... who has her own way of using space... She is near the top of her field.\" Jon Pareles of The New York Times wrote: \"Hearing Marilyn Crispell play solo piano is like monitoring an active volcano... She is one of a very few pianists who rise to the challenge of free jazz.\" In addition to her own extensive work as a soloist or bandleader, Crispell is known as a longtime member of saxophonist Anthony Braxton's quartet in the 1980s and '90s.",
     "wikipedia": "https://en.wikipedia.org/wiki/Marilyn_Crispell",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Marilyn_Crispell_in_music_is_%28Speaking_Portraits%29_%28Vol._I%29.jpg"
@@ -4451,7 +4871,10 @@
       "dizzy-gillespie"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "afro-cuban-jazz",
+      "messidors-finest-volume-1"
+    ],
     "bio": "Prudencio Mario Bauzá Cárdenas was an Afro-Cuban jazz bandleader, and jazz musician. He was among the first to introduce Cuban music to the United States by bringing Cuban musical styles to the New York City jazz scene. While Cuban bands had had popular jazz tunes in their repertoire for years, Bauzá's composition \"Tangá\" was the first piece to blend jazz harmony and arranging technique, with jazz soloists and Afro-Cuban rhythms. It is considered the first true Afro-Cuban jazz tune.",
     "deathYear": 1993,
     "wikipedia": "https://en.wikipedia.org/wiki/Mario_Bauz%C3%A1",
@@ -4471,7 +4894,11 @@
     "influencedBy": [
       "wayne-shorter"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "in-this-world",
+      "hikmet",
+      "libretto-dialogues-vol-1"
+    ],
     "bio": "Mark Turner is an American jazz saxophonist.",
     "wikipedia": "https://en.wikipedia.org/wiki/Mark_Turner_(musician)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Mark_Turner_1.JPG"
@@ -4490,7 +4917,11 @@
     "influencedBy": [
       "grant-green"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "patrice",
+      "fingerpainting-the-music-of-herbie-hancock",
+      "forever-love"
+    ],
     "bio": "Mark Whitfield is an American jazz guitarist.",
     "wikipedia": "https://en.wikipedia.org/wiki/Mark_Whitfield",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Mark_Whitfield.jpg"
@@ -4513,7 +4944,9 @@
       "derek-bailey"
     ],
     "keyAlbums": [
-      "amaryllis-belladonna"
+      "amaryllis-belladonna",
+      "crackleknob",
+      "bone-bells"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Mary_Halvorson",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Mary_Halvorson.jpg"
@@ -4543,7 +4976,8 @@
     ],
     "keyAlbums": [
       "zodiac-suite",
-      "black-christ-of-the-andes"
+      "black-christ-of-the-andes",
+      "lady-piano"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Mary_Lou_Williams",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Mary_Lou_Williams_%28Gottlieb_09231%29_-_Crop.jpg"
@@ -4567,7 +5001,9 @@
       "thelonious-monk"
     ],
     "keyAlbums": [
-      "yatra-ta"
+      "yatra-ta",
+      "on-the-move",
+      "sunrise"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Masabumi_Kikuchi",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8d/AE-Masabumi-Kikuchi.jpg"
@@ -4591,9 +5027,12 @@
       "roscoe-mitchell"
     ],
     "keyAlbums": [
-      "coin-coin-chapter-two"
+      "coin-coin-chapter-two",
+      "coin-coin-chapter-one-gens-de-couleur-libres",
+      "coin-coin-chapter-four-memphis"
     ],
-    "wikipedia": "https://en.wikipedia.org/wiki/Matana_Roberts"
+    "wikipedia": "https://en.wikipedia.org/wiki/Matana_Roberts",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Matana_Roberts.jpg"
   },
   {
     "id": "matthew-shipp",
@@ -4611,7 +5050,11 @@
       "herbie-hancock",
       "cecil-taylor"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "antipop-consortium-vs-matthew-shipp",
+      "art-of-the-improviser",
+      "live-at-scholes-street-studio"
+    ],
     "bio": "Matthew Shipp is an American avant-garde jazz pianist, composer, and bandleader.",
     "wikipedia": "https://en.wikipedia.org/wiki/Matthew_Shipp",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Jemeel_Moondoc_Quartet%2C_5_februari_2016_BIM_Amsterdam_-_Matthew_Shipp_%2851312009148%29.jpg"
@@ -4637,7 +5080,9 @@
     ],
     "keyAlbums": [
       "we-insist",
-      "study-in-brown"
+      "study-in-brown",
+      "percussion-bitter-sweet",
+      "streams-of-consciousness"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Max_Roach",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Max_Roach%2C_Three_Deuces%2C_ca._1947.jpg"
@@ -4689,7 +5134,11 @@
       "john-coltrane",
       "dexter-gordon"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "hearts-and-numbers",
+      "two-blocks-from-the-edge",
+      "in-out-and-around"
+    ],
     "bio": "Michael Leonard Brecker was an American jazz saxophonist and composer. Over a four‑decade career, he recorded widely in jazz and popular music and appeared on more than 900 albums as a leader and sideman. He received 15 Grammy Awards from the Recording Academy, was inducted into the DownBeat Hall of Fame in 2007, and received an honorary doctor of music degree from Berklee College of Music in 2004. He died in New York City in 2007 from complications of leukemia following a 2005 diagnosis of myelodysplastic syndrome.",
     "deathYear": 2007,
     "wikipedia": "https://en.wikipedia.org/wiki/Michael_Brecker",
@@ -4710,7 +5159,11 @@
     "influencedBy": [
       "chick-corea"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "on-fire",
+      "on-the-other-hand",
+      "solo"
+    ],
     "bio": "Michel Camilo is a Dominican pianist and composer. He specializes in jazz, Latin and classical piano work.",
     "wikipedia": "https://en.wikipedia.org/wiki/Michel_Camilo",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Michel_Camilo_Hiromi_Piano_Duets_%2820259524529%29.jpg"
@@ -4796,7 +5249,11 @@
       "bobby-hutcherson"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "bags-flutes",
+      "ray-brown-milt-jackson",
+      "rooftop-storys"
+    ],
     "bio": "Milton Jackson, nicknamed \"Bags\", was an American jazz vibraphonist. He is especially remembered for his cool swinging solos as a member of the Modern Jazz Quartet and his penchant for collaborating with hard bop and post-bop players.",
     "deathYear": 1999,
     "wikipedia": "https://en.wikipedia.org/wiki/Milt_Jackson",
@@ -4824,7 +5281,9 @@
     ],
     "influencedBy": [],
     "keyAlbums": [
-      "levels-and-degrees-of-light"
+      "levels-and-degrees-of-light",
+      "1-oqa19",
+      "spihumonesty"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Muhal_Richard_Abrams",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Muhal_Richard_Abrams_2006.jpg"
@@ -4844,7 +5303,11 @@
     "influencedBy": [
       "art-blakey"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "from-day-to-day",
+      "solo-miller",
+      "grews-tune"
+    ],
     "bio": "Mulgrew Miller was an American jazz pianist, composer, and educator. As a child he played in churches and was influenced on piano by Ramsey Lewis and then Oscar Peterson. Aspects of their styles remained in his playing, but he added the greater harmonic freedom of McCoy Tyner and others in developing as a hard bop player and then in creating his own style, which influenced others from the 1980s on.",
     "deathYear": 2013,
     "wikipedia": "https://en.wikipedia.org/wiki/Mulgrew_Miller",
@@ -4870,7 +5333,11 @@
       "cannonball-adderley"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "branching-out",
+      "sayin-somethin",
+      "the-scavenger"
+    ],
     "bio": "Nathaniel Carlyle Adderley was an American jazz trumpeter and composer. He was the younger brother of saxophonist Julian \"Cannonball\" Adderley, with whom he played for many years.",
     "deathYear": 2000,
     "wikipedia": "https://en.wikipedia.org/wiki/Nat_Adderley",
@@ -4896,7 +5363,11 @@
       "shirley-horn"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "dear-lonely-hearts",
+      "the-piano-soul-of-nat-king-cole",
+      "nat-king-cole-golden-treasury-unforgettable"
+    ],
     "bio": "Nathaniel Adams Coles, known professionally as Nat King Cole, was an American singer, jazz pianist, and actor. Cole's career as a jazz and pop vocalist started in the late 1930s and spanned almost three decades where he found success and recorded over 100 songs that became hits on the pop charts.",
     "deathYear": 1965,
     "wikipedia": "https://en.wikipedia.org/wiki/Nat_King_Cole",
@@ -4920,7 +5391,9 @@
       "roscoe-mitchell"
     ],
     "keyAlbums": [
-      "mandorla-awakening-ii"
+      "mandorla-awakening-ii",
+      "liberation-narratives",
+      "all-things-are"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Nicole_Mitchell_(musician)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Nicole_Mitchell_%28musician%29.jpg"
@@ -4940,7 +5413,11 @@
     "influencedBy": [
       "don-cherry"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "np3",
+      "baboon-moon",
+      "unifony-iii"
+    ],
     "bio": "Nils Petter Molvær, also known as NPM, is a Norwegian jazz trumpeter, composer, and record producer. He is considered a pioneer of future jazz, a genre that fuses jazz and electronic music, best showcased on his most commercially successful album, Khmer.",
     "wikipedia": "https://en.wikipedia.org/wiki/Nils_Petter_Molv%C3%A6r",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Nils_Petter_Molv%C3%A6r_2022.jpg"
@@ -4965,7 +5442,8 @@
     ],
     "keyAlbums": [
       "nina-at-town-hall",
-      "pastel-blues"
+      "pastel-blues",
+      "to-love-somebody"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Nina_Simone",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Nina_Simone_-1969.jpg"
@@ -5010,7 +5488,8 @@
     ],
     "keyAlbums": [
       "the-shape-of-jazz-to-come",
-      "free-jazz"
+      "free-jazz",
+      "sound-museum-hidden-man"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Ornette_Coleman",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Ornette-Coleman-2008-Heidelberg-schindelbeck.jpg"
@@ -5035,7 +5514,11 @@
       "herbie-hancock"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "oscar-peterson-plays-george-gershwin",
+      "in-the-key-of-oscar",
+      "bursting-out-with-the-all-star-big-band-swinging-brass"
+    ],
     "bio": "Oscar Emmanuel Peterson was a Canadian jazz pianist and composer. As a virtuoso who is considered to be one of the greatest jazz pianists of all time, Peterson released more than 200 recordings, won eight Grammy Awards, as well as a lifetime achievement award from the Recording Academy, and received numerous other awards and honours. He played thousands of concerts worldwide in a career lasting more than 60 years. He was called the \"Maharaja of the keyboard\" by Duke Ellington, simply \"O.P.\" by his friends, and was informally known in the jazz community as \"the King of inside swing\".",
     "deathYear": 2007,
     "wikipedia": "https://en.wikipedia.org/wiki/Oscar_Peterson",
@@ -5058,7 +5541,10 @@
       "kenny-burrell",
       "grant-green"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "the-visit",
+      "well-be-together-again"
+    ],
     "wikipedia": "https://en.wikipedia.org/wiki/Pat_Martino",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Pat_Martino.jpg"
   },
@@ -5086,7 +5572,9 @@
       "john-mclaughlin"
     ],
     "keyAlbums": [
-      "bright-size-life"
+      "bright-size-life",
+      "question-and-answer",
+      "zero-tolerance-for-silence"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Pat_Metheny",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Pat_metheny_orch2.jpg"
@@ -5110,7 +5598,9 @@
       "albert-ayler"
     ],
     "keyAlbums": [
-      "machine-gun"
+      "machine-gun",
+      "1-2-3",
+      "no-hard-feelings-for-steve-lacy"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Peter_Brötzmann",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Peter_Broetzmann_05N2754.jpg"
@@ -5166,7 +5656,11 @@
     "influencedBy": [
       "charlie-parker"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "rights-of-swing",
+      "the-little-big-band-real-life",
+      "blues-for-new-orleans"
+    ],
     "bio": "Philip Wells Woods was an American jazz alto saxophonist, clarinetist, bandleader, and composer.",
     "deathYear": 2015,
     "wikipedia": "https://en.wikipedia.org/wiki/Phil_Woods",
@@ -5190,7 +5684,9 @@
       "thelonious-monk"
     ],
     "keyAlbums": [
-      "looking-east"
+      "looking-east",
+      "that-certain-feeling",
+      "all-that-is-tied"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Ran_Blake",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Ran_Blake.jpg"
@@ -5214,7 +5710,11 @@
     "influencedBy": [
       "thelonious-monk"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "little-niles",
+      "african-cookbook",
+      "the-healers"
+    ],
     "bio": "Randolph Edward \"Randy\" Weston was an American jazz pianist and composer whose creativity was inspired by his ancestral African connection.",
     "deathYear": 2018,
     "wikipedia": "https://en.wikipedia.org/wiki/Randy_Weston",
@@ -5236,7 +5736,11 @@
     "influencedBy": [
       "wayne-shorter"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "from-the-round-box",
+      "blending-times",
+      "in-movement"
+    ],
     "bio": "Ravi Coltrane is an American jazz saxophonist. Co-owner of the record label RKM Music, he has produced music for pianist Luis Perdomo, guitarist David Gilmore, and trumpeter Ralph Alessi.",
     "wikipedia": "https://en.wikipedia.org/wiki/Ravi_Coltrane",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Ravi_Coltrane_at_the_Blue_Note%2C_March_7%2C_2023-L1002389.jpg"
@@ -5264,7 +5768,11 @@
       "charles-mingus"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "blues-and-vanilla",
+      "benny-carter-all-stars",
+      "vibes-a-la-red"
+    ],
     "bio": "Red Norvo was an American musician, one of jazz's early vibraphonists, known as \"Mr. Swing\". He helped establish the xylophone, marimba, and vibraphone as jazz instruments. His recordings included \"Dance of the Octopus\", \"Bughouse\", \"Knockin' on Wood\", \"Congo Blues\", and \"Hole in the Wall\".",
     "deathYear": 1999,
     "wikipedia": "https://en.wikipedia.org/wiki/Red_Norvo",
@@ -5288,9 +5796,12 @@
       "ornette-coleman"
     ],
     "keyAlbums": [
-      "the-peoples-republic"
+      "the-peoples-republic",
+      "vietnam",
+      "the-psyche"
     ],
-    "wikipedia": "https://en.wikipedia.org/wiki/Revolutionary_Ensemble"
+    "wikipedia": "https://en.wikipedia.org/wiki/Revolutionary_Ensemble",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/CD30_be_glad_then_america_web_booklet%281%29.pdf/page1-500px-CD30_be_glad_then_america_web_booklet%281%29.pdf.jpg"
   },
   {
     "id": "robert-glasper",
@@ -5315,7 +5826,9 @@
       "ahmad-jamal"
     ],
     "keyAlbums": [
-      "black-radio"
+      "black-radio",
+      "canvas",
+      "everythings-beautiful"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Robert_Glasper",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/RG_Trio_3.jpg"
@@ -5341,7 +5854,9 @@
       "jimmy-smith"
     ],
     "keyAlbums": [
-      "mystic-brew"
+      "mystic-brew",
+      "on-the-avenue",
+      "the-racer"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Ronnie_Foster",
     "imageUrl": "https://live.staticflickr.com/4283/35087297863_6853b6007e_b.jpg"
@@ -5370,7 +5885,9 @@
       "muhal-richard-abrams"
     ],
     "keyAlbums": [
-      "sound"
+      "sound",
+      "old-quartet",
+      "conversations-ii"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Roscoe_Mitchell",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Roscoe_Mitchell_2006.jpg"
@@ -5389,7 +5906,9 @@
     "influences": [],
     "influencedBy": [],
     "keyAlbums": [
-      "taking-some-time"
+      "taking-some-time",
+      "you-send-me",
+      "double-trouble"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Roy_Ayers",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Roy_ayers_1976.jpg"
@@ -5416,7 +5935,11 @@
     "influencedBy": [
       "louis-armstrong"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "the-oscar-peterson-trio-at-newport",
+      "the-trumpet-kings-meet-joe-turner-eldridge",
+      "little-jazz-the-jimmy-ryan-all-stars"
+    ],
     "bio": "David Roy Eldridge, nicknamed \"Little Jazz\", was an American jazz trumpeter. His sophisticated use of harmony, including the use of tritone substitutions, his virtuosic solos exhibiting a departure from the dominant style of jazz trumpet innovator Louis Armstrong, and his strong impact on Dizzy Gillespie mark him as one of the most influential musicians of the swing era and a precursor of bebop.",
     "deathYear": 1989,
     "wikipedia": "https://en.wikipedia.org/wiki/Roy_Eldridge",
@@ -5438,7 +5961,11 @@
     "influencedBy": [
       "freddie-hubbard"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "oscar-peterson-meets-roy-hargrove-and-ralph-moore",
+      "roy-hargrove-with-strings-moment-to-moment",
+      "nothing-serious"
+    ],
     "bio": "Roy Anthony Hargrove was an American jazz musician and composer whose principal instruments were the trumpet and flugelhorn. He achieved critical acclaim after winning two Grammy Awards for differing styles of jazz in 1998 and 2002. Hargrove primarily played in the hard bop style for the majority of his albums, but also had a penchant for genre-crossing exploration and collaboration with a variety of hip-hop, neo soul, R&B and alternative rock artists.",
     "deathYear": 2018,
     "wikipedia": "https://en.wikipedia.org/wiki/Roy_Hargrove",
@@ -5458,7 +5985,11 @@
     "influencedBy": [
       "grant-green"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "russell-malone",
+      "bluebird",
+      "golden-striker-live-at-theaterstbchen-kassel"
+    ],
     "bio": "Russell Lamar Malone was an American jazz guitarist. He began working with Jimmy Smith in 1988 and went on to work with Harry Connick Jr. and Diana Krall throughout the 1990s.",
     "deathYear": 2024,
     "wikipedia": "https://en.wikipedia.org/wiki/Russell_Malone",
@@ -5485,7 +6016,8 @@
       "scenery",
       "mellow-dream"
     ],
-    "wikipedia": "https://en.wikipedia.org/wiki/Ryo_Fukui"
+    "wikipedia": "https://en.wikipedia.org/wiki/Ryo_Fukui",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ryo_Fukui.png/500px-Ryo_Fukui.png"
   },
   {
     "id": "ryo-kawasaki",
@@ -5504,7 +6036,8 @@
       "john-mclaughlin"
     ],
     "keyAlbums": [
-      "kosmos"
+      "kosmos",
+      "natures-revenge"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Ryo_Kawasaki",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Ryo_Kawasaki_performing_in_Croatia_Dec_15%2C_2018.jpg"
@@ -5528,7 +6061,9 @@
       "charlie-parker"
     ],
     "keyAlbums": [
-      "sadao-watanabe-mbali"
+      "sadao-watanabe-mbali",
+      "collaboration",
+      "bossa-nova-67"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Sadao_Watanabe",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Sadao_Watanabe_jazz_musician.jpg"
@@ -5556,7 +6091,8 @@
     "keyAlbums": [
       "fuchsia-swing-song",
       "contours",
-      "conference-of-the-birds"
+      "conference-of-the-birds",
+      "capricorn-rising"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Sam_Rivers",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Sam_Rivers_flute.jpg"
@@ -5582,7 +6118,8 @@
     ],
     "keyAlbums": [
       "sarah-vaughan-clifford-brown",
-      "sassy-swings-the-tivoli"
+      "sassy-swings-the-tivoli",
+      "carols-of-christmas"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Sarah_Vaughan",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Sarah_Vaughan_-_William_P._Gottlieb_-_No._1.jpg"
@@ -5606,7 +6143,9 @@
       "jaco-pastorius"
     ],
     "keyAlbums": [
-      "tribal-tech"
+      "tribal-tech",
+      "vital-tech-tones",
+      "well-to-the-bone"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Scott_Henderson",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Scott_Henderson.JPG"
@@ -5631,7 +6170,8 @@
     ],
     "keyAlbums": [
       "here-today-tomorrow",
-      "close-enough"
+      "close-enough",
+      "youre-my-thrill"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Shirley_Horn",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4d/Shirley_Horn_ppmsca.08325.jpg"
@@ -5657,7 +6197,8 @@
     ],
     "keyAlbums": [
       "shirley-scott-trio",
-      "blue-flames"
+      "blue-flames",
+      "shirleys-sounds"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Shirley_Scott",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/ac/Shirley_Scott.jpg"
@@ -5704,7 +6245,11 @@
       "albert-ayler"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "ambiance-bechet",
+      "duets-bechet",
+      "bunk-bechet-in-boston"
+    ],
     "bio": "Sidney Joseph Bechet was an American jazz saxophonist, clarinetist, and composer. He was one of the first important soloists in jazz, and first recorded several months before trumpeter Louis Armstrong. His erratic temperament hampered his career, and not until the late 1940s did he earn wide acclaim. Bechet spent much of his later life in France.",
     "deathYear": 1959,
     "wikipedia": "https://en.wikipedia.org/wiki/Sidney_Bechet",
@@ -5731,9 +6276,12 @@
       "miles-davis"
     ],
     "keyAlbums": [
-      "pimp-master"
+      "pimp-master",
+      "pimp-of-the-year",
+      "6"
     ],
-    "wikipedia": "https://en.wikipedia.org/wiki/Soil_%26_%22Pimp%22_Sessions"
+    "wikipedia": "https://en.wikipedia.org/wiki/Soil_%26_%22Pimp%22_Sessions",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Midorin_in_Iwaki.JPG/500px-Midorin_in_Iwaki.JPG"
   },
   {
     "id": "sonny-rollins",
@@ -5758,7 +6306,8 @@
     ],
     "keyAlbums": [
       "saxophone-colossus",
-      "the-bridge"
+      "the-bridge",
+      "reel-life"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Sonny_Rollins",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sonny_Rollins_2011.jpg"
@@ -5781,7 +6330,8 @@
       "john-coltrane"
     ],
     "keyAlbums": [
-      "black-woman"
+      "black-woman",
+      "faith-moves"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Sonny_Sharrock",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/2b/Sonny_Sharrock.jpg"
@@ -5802,9 +6352,12 @@
     "influences": [],
     "influencedBy": [],
     "keyAlbums": [
-      "your-queen-is-a-reptile"
+      "your-queen-is-a-reptile",
+      "burn",
+      "black-to-the-future"
     ],
-    "wikipedia": "https://en.wikipedia.org/wiki/Sons_of_Kemet"
+    "wikipedia": "https://en.wikipedia.org/wiki/Sons_of_Kemet",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Sons_of_Kemet_01.jpg/500px-Sons_of_Kemet_01.jpg"
   },
   {
     "id": "stan-getz",
@@ -5827,7 +6380,9 @@
       "charlie-parker"
     ],
     "keyAlbums": [
-      "getz-gilberto"
+      "getz-gilberto",
+      "blue-skies-getz",
+      "stan-getz-and-gerry-mulligan-stan-getz-and-the-oscar-peterson-trio"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Stan_Getz",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Stan_Getz%2C_tenor_saxophonist_at_Kastrup_Airport_CPH%2C_Copenhagen_%28cropped%29.jpg"
@@ -5847,7 +6402,11 @@
     "influencedBy": [
       "bobby-hutcherson"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "a-cloud-of-red-dust",
+      "black-action-figure",
+      "the-grand-unification-theory"
+    ],
     "bio": "Stefon DeLeon Harris is an American jazz vibraphonist.",
     "wikipedia": "https://en.wikipedia.org/wiki/Stefon_Harris",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Stefon_Harris.jpg"
@@ -5880,7 +6439,8 @@
     ],
     "keyAlbums": [
       "space-is-the-place",
-      "lanquidity"
+      "lanquidity",
+      "pink-elephants-on-parade"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Sun_Ra",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Sun_Ra_%281973_publicity_photo_-_Impulse_ABC_Dunhill%29.jpg"
@@ -5902,9 +6462,12 @@
       "freddie-hubbard"
     ],
     "keyAlbums": [
-      "rising-son"
+      "rising-son",
+      "bitter-and-high",
+      "add-a-zero"
     ],
-    "wikipedia": "https://en.wikipedia.org/wiki/Takuya_Kuroda"
+    "wikipedia": "https://en.wikipedia.org/wiki/Takuya_Kuroda",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Takuya_Kuroda.gif/500px-Takuya_Kuroda.gif"
   },
   {
     "id": "terence-blanchard",
@@ -5924,7 +6487,9 @@
       "freddie-hubbard"
     ],
     "keyAlbums": [
-      "congo-square"
+      "congo-square",
+      "crystal-stair-blanchard",
+      "jazz-in-film"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Terence_Blanchard",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Terence_Blanchard_performing.jpg"
@@ -5945,7 +6510,9 @@
       "tony-williams"
     ],
     "keyAlbums": [
-      "terri-lyne-carrington"
+      "terri-lyne-carrington",
+      "quintessence",
+      "money-jungle-provocative-in-blue"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Terri_Lyne_Carrington",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Terrylynecarrington.jpg"
@@ -5970,7 +6537,9 @@
       "dizzy-gillespie"
     ],
     "keyAlbums": [
-      "spiritual-nature"
+      "spiritual-nature",
+      "alone-alone-and-alone",
+      "transfusion"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Terumasa_Hino",
     "imageUrl": "https://live.staticflickr.com/811/40163092825_fb81a52473_b.jpg"
@@ -5994,7 +6563,9 @@
     "influences": [],
     "influencedBy": [],
     "keyAlbums": [
-      "blue-notes-legacy"
+      "blue-notes-legacy",
+      "blue-notes-for-mongezi",
+      "1979-06-21-eindhoven-netherlands"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/The_Blue_Notes",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Blue_Notes_Tribute_Orkestra.jpg"
@@ -6016,7 +6587,10 @@
       "jazz-epistles"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "horace-silver-and-the-jazz-messengers",
+      "morning-with-swing-jazz-guitar-trumpet-saxophone-more-melodies-of-piano-instrumental-smooth-jazz-music"
+    ],
     "bio": "The Jazz Messengers were a hard bop jazz group founded in 1953 by drummer Art Blakey and pianist Horace Silver. Under Blakey's leadership for over 35 years, the group served as the most important training ground for young jazz musicians, with alumni including Wayne Shorter, Lee Morgan, Freddie Hubbard, Wynton Marsalis, Keith Jarrett, and dozens more. The group defined the hard bop sound and maintained the highest standards of swinging, blues-drenched jazz.",
     "wikipedia": "https://en.wikipedia.org/wiki/The_Jazz_Messengers",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/12-17-1960_17717_Art_Blakey_%286331548858%29_%28cropped%29.jpg"
@@ -6038,7 +6612,11 @@
       "terri-lyne-carrington"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "third-plane",
+      "civilization",
+      "the-story-of-neptune"
+    ],
     "bio": "Anthony Tillmon Williams was an American jazz drummer. Williams first gained fame as a member of Miles Davis's Second Great Quintet at just seventeen years old, becoming one of the most innovative drummers in jazz history. He later pioneered jazz fusion with his own group The Tony Williams Lifetime, blending rock energy with jazz sophistication. His polyrhythmic playing and dynamic approach to the drum kit influenced generations of drummers across jazz and rock.",
     "wikipedia": "https://en.wikipedia.org/wiki/Tony_Williams_(drummer)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Tony_Williams_DownBeat.jpg",
@@ -6106,7 +6684,11 @@
     "influencedBy": [
       "lee-morgan"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "stories",
+      "visions",
+      "is-that-so"
+    ],
     "bio": "Tom Harrell is an American jazz trumpeter, flugelhornist, composer, and arranger. Voted Trumpeter of the Year of 2018 by Jazz Journalists Association, Harrell has won awards and grants throughout his career, including multiple Trumpeter of the Year awards from DownBeat magazine, SESAC Jazz Award, BMI Composers Award, and Prix Oscar du Jazz. He received a Grammy Award nomination for his big band album, Time's Mirror.",
     "wikipedia": "https://en.wikipedia.org/wiki/Tom_Harrell",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Tom_Harrell_2011.jpg"
@@ -6130,7 +6712,9 @@
       "chet-baker"
     ],
     "keyAlbums": [
-      "soul-of-things"
+      "soul-of-things",
+      "balladyna",
+      "the-copenhagen-session-vol-2"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Tomasz_Sta%C5%84ko",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Tomasz_Stanko_2016.jpg"
@@ -6155,7 +6739,9 @@
       "sonny-rollins"
     ],
     "keyAlbums": [
-      "mexican-green"
+      "mexican-green",
+      "tubbys-new-groove",
+      "the-syndicate-live-at-the-hopbine-1968-vol1"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Tubby_Hayes",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e1/Tubby_hayes.jpg"
@@ -6180,7 +6766,9 @@
       "anthony-braxton"
     ],
     "keyAlbums": [
-      "inner-spectrum-of-variables"
+      "inner-spectrum-of-variables",
+      "evanescences",
+      "alloy"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Tyshawn_Sorey",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Tyshawn_Sorey_2018_%28cropped%29.jpg"
@@ -6199,7 +6787,11 @@
     "influencedBy": [
       "jaco-pastorius"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "soul-circus",
+      "trypnotyx-wooten",
+      "slow-down"
+    ],
     "bio": "Victor Lemonte Wooten is an American bassist, songwriter, and record producer. He has been the bassist for Béla Fleck and the Flecktones since the group's formation in 1988 and a member of the band SMV with two other bassists, Stanley Clarke and Marcus Miller. From 2017 to 2019, he recorded as the bassist for the metal band Nitro.",
     "wikipedia": "https://en.wikipedia.org/wiki/Victor_Wooten",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Victor_Wooten.jpg"
@@ -6218,7 +6810,11 @@
     "influencedBy": [
       "herbie-hancock"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "in-what-language",
+      "raw-materials",
+      "accelerando"
+    ],
     "bio": "Vijay Iyer is a composer, pianist, bandleader, producer, writer, and professor based in New York City. The New York Times has called him a \"social conscience, multimedia collaborator, system builder, rhapsodist, historical thinker and multicultural gateway\". Iyer received a 2013 MacArthur Fellowship, a Doris Duke Performing Artist Award, a United States Artists Fellowship, a Grammy nomination, and the Alpert Award in the Arts.",
     "wikipedia": "https://en.wikipedia.org/wiki/Vijay_Iyer",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Vijay_Iyer_performing_in_San_Francisco%2C_2023-09-21%2C_zoomed-in.jpg"
@@ -6238,7 +6834,11 @@
     "influencedBy": [
       "billy-cobham"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "vinnie-colaiuta",
+      "jing-chi",
+      "mondo-trio"
+    ],
     "bio": "Vincent Peter \"Vinnie\" Colaiuta is an American drummer known for his technical mastery who has worked as a session musician in many genres. He was inducted into the Modern Drummer Hall of Fame in 1996 and the Classic Drummer Hall of Fame in 2014. Colaiuta has won one Grammy Award and has been nominated twice. Since the late 1970s, he has recorded and toured with Frank Zappa, Joni Mitchell, and Sting, among many other appearances in the studio and in concert.",
     "wikipedia": "https://en.wikipedia.org/wiki/Vinnie_Colaiuta",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Vinnie_Colaiuta_crop.jpg"
@@ -6258,7 +6858,11 @@
     "influencedBy": [
       "miles-davis"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "verses",
+      "the-quintet",
+      "prototype"
+    ],
     "bio": "Wallace Roney was an American jazz trumpeter. He won one Grammy award and was nominated twice.",
     "deathYear": 2020,
     "wikipedia": "https://en.wikipedia.org/wiki/Wallace_Roney",
@@ -6317,7 +6921,9 @@
       "miles-davis"
     ],
     "keyAlbums": [
-      "heavy-weather"
+      "heavy-weather",
+      "weather-report",
+      "tale-spinnin"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Weather_Report",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Weather_Report_19810611_shinjuku_fn23.jpg"
@@ -6341,7 +6947,11 @@
       "john-mclaughlin"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "cannonball-adderley-and-the-poll-winners",
+      "boss-guitar",
+      "tequila"
+    ],
     "bio": "John Leslie \"Wes\" Montgomery was an American jazz guitarist. Montgomery was known for his unusual technique of plucking the strings with the side of his thumb and for his extensive use of octaves, which gave him a distinctive sound.",
     "deathYear": 1968,
     "wikipedia": "https://en.wikipedia.org/wiki/Wes_Montgomery",
@@ -6367,7 +6977,11 @@
       "duke-ellington"
     ],
     "influencedBy": [],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "music-on-my-mind",
+      "jazz-in-paris-music-on-my-mind",
+      "grand-piano-duets"
+    ],
     "bio": "William Henry Joseph Bonaparte Bertholf Smith, nicknamed \"the Lion\", was an American jazz and stride pianist.",
     "deathYear": 1973,
     "wikipedia": "https://en.wikipedia.org/wiki/Willie_%22the_Lion%22_Smith",
@@ -6393,7 +7007,11 @@
       "lee-morgan",
       "freddie-hubbard"
     ],
-    "keyAlbums": [],
+    "keyAlbums": [
+      "rosewood",
+      "setting-standards",
+      "the-eternal-triangle"
+    ],
     "bio": "Woody Herman Shaw Jr. was an American jazz trumpeter, flugelhornist, cornetist, composer, arranger, band leader, and educator. Shaw is widely known as one of the 20th century's most important and influential jazz trumpeters and composers. He is often credited with revolutionizing the technical and harmonic language of modern jazz trumpet playing, and is regarded by many as one of the major innovators of the instrument. He was an acclaimed virtuoso, mentor, and spokesperson for jazz and worked and recorded alongside many of the leading musicians of his time.",
     "deathYear": 1989,
     "wikipedia": "https://en.wikipedia.org/wiki/Woody_Shaw",
@@ -6419,9 +7037,12 @@
       "ornette-coleman"
     ],
     "keyAlbums": [
-      "revue"
+      "revue",
+      "dances-and-ballads",
+      "breath-of-life"
     ],
-    "wikipedia": "https://en.wikipedia.org/wiki/World_Saxophone_Quartet"
+    "wikipedia": "https://en.wikipedia.org/wiki/World_Saxophone_Quartet",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/World_Saxophone_Quartet.jpg/500px-World_Saxophone_Quartet.jpg"
   },
   {
     "id": "wynton-marsalis",
@@ -6440,7 +7061,9 @@
       "art-blakey"
     ],
     "keyAlbums": [
-      "black-codes"
+      "black-codes",
+      "baroque-music-for-trumpets",
+      "sweet-release-ghost-story"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Wynton_Marsalis",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Wynton_Marsalis_2009_09_13.jpg"
@@ -6461,7 +7084,9 @@
       "bill-evans"
     ],
     "keyAlbums": [
-      "at-village-vanguard"
+      "at-village-vanguard",
+      "forest",
+      "in-the-spirit-of-blues"
     ],
     "wikipedia": "https://ja.wikipedia.org/wiki/有馬祐輝"
   },
@@ -6482,7 +7107,8 @@
     "influences": [],
     "influencedBy": [],
     "keyAlbums": [
-      "eastern-sounds"
+      "eastern-sounds",
+      "the-african-american-epic-suite"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Yusef_Lateef",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Yusef_Lateef.jpg"
@@ -6506,8 +7132,10 @@
       "john-coltrane"
     ],
     "keyAlbums": [
-      "zimology"
+      "zimology",
+      "zimphonic-suites"
     ],
-    "wikipedia": "https://en.wikipedia.org/wiki/Zim_Ngqawana"
+    "wikipedia": "https://en.wikipedia.org/wiki/Zim_Ngqawana",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Zim_Ngqawana_2.jpg"
   }
 ]

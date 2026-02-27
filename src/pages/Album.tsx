@@ -34,7 +34,7 @@ export function Album() {
   const era = eras.find((e) => e.id === album.era);
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-12">
+    <div className="max-w-6xl mx-auto px-4 py-12 page-enter">
       <SEO
         title={`${album.title} by ${album.artist}`}
         description={album.description.slice(0, 160)}
@@ -56,7 +56,7 @@ export function Album() {
           <AlbumCover coverUrl={album.coverUrl} title={album.title} size="lg" />
         </div>
         <div className="flex-1">
-          <h1 className="text-4xl font-bold mb-2">{album.title}</h1>
+          <h1 className="text-4xl font-bold mb-2 font-display">{album.title}</h1>
           <Link
             to={`/artist/${album.artistId}`}
             className="text-2xl text-amber-400 hover:text-amber-300 transition-colors"

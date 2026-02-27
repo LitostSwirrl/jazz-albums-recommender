@@ -7,12 +7,12 @@ const eras = erasData as Era[];
 
 export function Eras() {
   return (
-    <div className="max-w-6xl mx-auto px-4 py-12">
+    <div className="max-w-6xl mx-auto px-4 py-12 page-enter">
       <SEO
         title="Jazz Eras"
         description="Explore the evolution of jazz through eight distinct periods, from early jazz and swing to bebop, hard bop, free jazz, fusion, and contemporary styles."
       />
-      <h1 className="text-4xl font-bold mb-2">Jazz Eras</h1>
+      <h1 className="text-4xl font-bold mb-2 font-display">Jazz Eras</h1>
       <p className="text-zinc-400 mb-8">
         Explore the evolution of jazz through eight distinct periods
       </p>
@@ -36,7 +36,7 @@ export function Eras() {
               />
 
               <div
-                className="p-6 rounded-lg bg-zinc-900 border border-zinc-800 group-hover:border-zinc-600 transition-all"
+                className="p-6 rounded-xl bg-zinc-900 border border-zinc-800 group-hover:border-zinc-600 hover:shadow-xl hover:shadow-black/20 transition-all duration-300"
                 style={{ borderLeftColor: era.color, borderLeftWidth: '4px' }}
               >
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">

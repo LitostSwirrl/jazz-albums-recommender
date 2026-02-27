@@ -41,15 +41,15 @@ function getKeyAlbums(eraId: EraId): Album[] {
 
 export function Timeline() {
   return (
-    <div className="max-w-6xl mx-auto px-4 py-12">
+    <div className="max-w-6xl mx-auto px-4 py-12 page-enter">
       <SEO
         title="Jazz Timeline"
-        description="Explore 100+ years of jazz evolution from New Orleans to the present day. Discover how each era built on what came before while pushing music into new territory."
+        description="Explore a century of jazz evolution from New Orleans to the present day. Discover how each era built on what came before while pushing music into new territory."
       />
       <div className="mb-12 text-center">
-        <h1 className="text-4xl font-bold mb-4">Jazz Through Time</h1>
+        <h1 className="text-4xl font-bold mb-4 font-display">Jazz Through Time</h1>
         <p className="text-xl text-zinc-400 max-w-2xl mx-auto">
-          From New Orleans to the present day, explore 100+ years of jazz evolution.
+          From New Orleans to the present day, explore a century of jazz evolution.
           Each era built on what came before while pushing music into new territory.
         </p>
       </div>
@@ -219,19 +219,19 @@ export function Timeline() {
       <div className="mt-12 flex flex-wrap justify-center gap-4">
         <Link
           to="/context"
-          className="px-6 py-3 rounded-lg bg-amber-500 text-black font-semibold hover:bg-amber-400 transition-colors"
+          className="px-6 py-3 rounded-xl bg-amber-500 text-black font-semibold hover:bg-amber-400 transition-colors"
         >
           Jazz & Society →
         </Link>
         <Link
           to="/influence"
-          className="px-6 py-3 rounded-lg border border-zinc-700 text-zinc-300 hover:border-zinc-500 transition-colors"
+          className="px-6 py-3 rounded-xl border border-zinc-700 text-zinc-300 hover:border-zinc-500 transition-colors"
         >
           Influence Network →
         </Link>
         <Link
           to="/albums"
-          className="px-6 py-3 rounded-lg border border-zinc-700 text-zinc-300 hover:border-zinc-500 transition-colors"
+          className="px-6 py-3 rounded-xl border border-zinc-700 text-zinc-300 hover:border-zinc-500 transition-colors"
         >
           Browse All Albums
         </Link>

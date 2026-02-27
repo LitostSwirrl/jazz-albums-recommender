@@ -198,13 +198,13 @@ function InfluenceGraphInner() {
   }, [fitView]);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8">
+    <div className="max-w-7xl mx-auto px-4 py-8 page-enter">
       <SEO
         title="Artist Influence Network"
         description="Explore how jazz musicians influenced each other across generations. Discover connections between artists and trace the evolution of jazz through influence relationships."
       />
       <div className="mb-6">
-        <h1 className="text-4xl font-bold mb-2">Artist Influence Network</h1>
+        <h1 className="text-4xl font-bold mb-2 font-display">Artist Influence Network</h1>
         <p className="text-zinc-400 mb-4">
           Explore how jazz musicians influenced each other across generations.
           Search for an artist, find connections between two musicians, or click to explore.

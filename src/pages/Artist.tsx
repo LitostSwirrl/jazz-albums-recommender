@@ -121,7 +121,7 @@ export function Artist() {
   const influencedByArtists = artists.filter((a) => artist.influencedBy.includes(a.id));
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-12">
+    <div className="max-w-6xl mx-auto px-4 py-12 page-enter">
       <SEO
         title={artist.name}
         description={artist.bio.slice(0, 160)}
@@ -146,7 +146,7 @@ export function Artist() {
           className="flex-shrink-0"
         />
         <div>
-          <h1 className="text-4xl font-bold mb-2">{artist.name}</h1>
+          <h1 className="text-4xl font-bold mb-2 font-display">{artist.name}</h1>
           <p className="text-xl text-zinc-400 mb-4">
             {artist.birthYear}–{artist.deathYear || 'present'} · {artist.instruments.join(', ')}
           </p>

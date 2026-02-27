@@ -32,7 +32,7 @@ export function Era() {
   const eraAlbums = albums.filter((a) => a.era === era.id);
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-12">
+    <div className="max-w-6xl mx-auto px-4 py-12 page-enter">
       <SEO
         title={`${era.name} Era (${era.period})`}
         description={era.description.slice(0, 160)}
@@ -51,7 +51,7 @@ export function Era() {
         className="p-8 rounded-lg mb-8"
         style={{ backgroundColor: era.color + '20', borderLeft: `4px solid ${era.color}` }}
       >
-        <h1 className="text-4xl font-bold mb-2">{era.name}</h1>
+        <h1 className="text-4xl font-bold mb-2 font-display">{era.name}</h1>
         <p className="text-xl text-zinc-400 font-mono">{era.period}</p>
       </header>
 
