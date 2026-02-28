@@ -122,7 +122,7 @@ function MiniInfluenceNetworkInner({ artist, allArtists, eras }: MiniInfluenceNe
         target: artist.id,
         type: 'smoothstep',
         style: { stroke: '#f59e0b', strokeWidth: 2 },
-        animated: true,
+        animated: false,
       })),
       ...influenced.map((inf) => ({
         id: `${artist.id}->${inf.id}`,
@@ -130,7 +130,7 @@ function MiniInfluenceNetworkInner({ artist, allArtists, eras }: MiniInfluenceNe
         target: inf.id,
         type: 'smoothstep',
         style: { stroke: '#f59e0b', strokeWidth: 2 },
-        animated: true,
+        animated: false,
       })),
     ];
 

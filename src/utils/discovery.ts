@@ -56,7 +56,7 @@ export function getRelatedAlbums(
   currentAlbum: Album,
   allAlbums: Album[],
   limit: number = 4
-): { genre: Album[]; label: Album[]; year: Album[]; artist: Album[] } {
+): { genre: Album[]; label: Album[]; year: Album[]; artist: Album[]; secondaryArtists: { artistId: string; albums: Album[] }[] } {
   const otherAlbums = allAlbums.filter((a) => a.id !== currentAlbum.id);
 
   // Same genre (primary genre)
@@ -76,12 +76,25 @@ export function getRelatedAlbums(
     .filter((a) => Math.abs(a.year - currentAlbum.year) <= 2)
     .slice(0, limit);
 
-  // Same artist
+  // Same artist (primary)
   const artist = otherAlbums
     .filter((a) => a.artistId === currentAlbum.artistId)
     .slice(0, limit);
 
-  return { genre, label, year, artist };
+  // Secondary artists — albums by featured collaborators
+  const secondaryArtists: { artistId: string; albums: Album[] }[] = [];
+  if (currentAlbum.secondaryArtistIds) {
+    for (const secId of currentAlbum.secondaryArtistIds) {
+      const secAlbums = otherAlbums
+        .filter((a) => a.artistId === secId)
+        .slice(0, limit);
+      if (secAlbums.length > 0) {
+        secondaryArtists.push({ artistId: secId, albums: secAlbums });
+      }
+    }
+  }
+
+  return { genre, label, year, artist, secondaryArtists };
 }
 
 // Get a random album

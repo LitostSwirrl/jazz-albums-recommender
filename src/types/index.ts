@@ -64,6 +64,7 @@ export interface Album {
   title: string;
   artist: string;
   artistId: string;
+  secondaryArtistIds?: string[];
   year: number;
   label: string;
   era: EraId;
@@ -76,6 +77,7 @@ export interface Album {
   appleMusicUrl?: string;
   youtubeMusicUrl?: string;
   youtubeUrl?: string;
+  wikipedia?: string;
   reviews?: CriticReview[];
 }
 

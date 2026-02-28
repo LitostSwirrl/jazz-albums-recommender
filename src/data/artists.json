@@ -73,7 +73,7 @@
       "for-real",
       "legacy"
     ],
-    "bio": "Abraham Augustus Burton Jr. is an American saxophonist and bandleader.",
+    "bio": "Abraham Augustus Burton Jr. (born March 17, 1971) is an American saxophonist and bandleader. Burton was born in New York City on March 17, 1971, and was raised in Greenwich Village. He studied at the Hartt School from 1989 to 1993, graduating in music.",
     "wikipedia": "https://en.wikipedia.org/wiki/Abraham_Burton",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Abraham_Burton_01_%28crop_1%29.jpg"
   },
@@ -103,7 +103,9 @@
     "keyAlbums": [
       "at-the-pershing",
       "cry-young",
-      "live-in-paris-1971-lost-ortf-recordings"
+      "live-in-paris-1971-lost-ortf-recordings",
+      "pittsburgh",
+      "nature-the-essence-part-iii"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Ahmad_Jamal",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Ahmad_Jamal_KK.jpg"
@@ -307,7 +309,9 @@
       "thelonious-monk"
     ],
     "keyAlbums": [
-      "point-of-departure"
+      "point-of-departure",
+      "dance-with-death",
+      "verona-rag"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Andrew_Hill",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Andrew_Hill.jpg"
@@ -457,7 +461,10 @@
       "moanin",
       "a-night-at-birdland",
       "buhaina",
-      "caravan"
+      "caravan",
+      "ritual-the-modern-jazz-messengers",
+      "jody",
+      "blues-march"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Art_Blakey",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Art_blakey_studio_portrait.jpg"
@@ -490,6 +497,29 @@
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Art_Ensemble_of_Chicago",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Art_Ensemble_of_Chicago_%281978%29.jpg"
+  },
+  {
+    "id": "art-pepper",
+    "name": "Art Pepper",
+    "birthYear": 1925,
+    "bio": "Arthur Edward Pepper Jr. was an American jazz musician, most known as an alto saxophonist. He occasionally performed and recorded on tenor saxophone, clarinet and bass clarinet. Active primarily in West Coast jazz, Pepper first came to prominence in Stan Kenton's big band.",
+    "instruments": [
+      "alto saxophone"
+    ],
+    "eras": [
+      "cool-jazz"
+    ],
+    "influences": [],
+    "influencedBy": [],
+    "keyAlbums": [
+      "straight-life-the-savoy-sessions",
+      "the-art-of-pepper-volume-3",
+      "straight-life",
+      "renascence"
+    ],
+    "deathYear": 1982,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Art_Pepper.jpg/330px-Art_Pepper.jpg",
+    "wikipedia": "https://en.wikipedia.org/wiki/Art_Pepper"
   },
   {
     "id": "art-tatum",
@@ -594,7 +624,7 @@
       "motions-in-muricosmos",
       "haihara"
     ],
-    "bio": "Arve Henriksen is a Norwegian trumpeter.",
+    "bio": "Arve Henriksen (born 22 March 1968) is a Norwegian trumpeter. Henriksen was born in Stranda Municipality and educated on the Jazz program at Trondheim Musikkonservatorium; he later studied music pedagogy, while he played in Bodega Band (1987–88), Luft (1987–89), Veslefrekk from 1989, Close Enough 1990–92, Nutrio from 1990, and recorded with Bjørn Alterhaug and Tre Små Kinesere (1990). After graduating in 1991, he joined the Trio Midt-Norge and Piggy Bop.",
     "wikipedia": "https://en.wikipedia.org/wiki/Arve_Henriksen",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/After_the_Wildfire_2025-017.jpg"
   },
@@ -619,7 +649,8 @@
       "stop-and-listen",
       "behind-the-8-ball"
     ],
-    "wikipedia": "https://en.wikipedia.org/wiki/Baby_Face_Willette"
+    "wikipedia": "https://en.wikipedia.org/wiki/Baby_Face_Willette",
+    "imageUrl": "https://cdn-images.dzcdn.net/images/artist/b5dfca4a5c4666d6dbad98cf6db85f05/500x500-000000-80-0-0.jpg"
   },
   {
     "id": "ben-webster",
@@ -723,7 +754,7 @@
       "abdullah-ibrahim"
     ],
     "keyAlbums": [
-      "celebration",
+      "celebration-mseleku",
       "beauty-of-sunrise",
       "beyond-the-stars"
     ],
@@ -764,7 +795,10 @@
       "sunday-at-the-village-vanguard",
       "waltz-for-debby",
       "portrait-in-jazz",
-      "blue-in-green"
+      "blue-in-green",
+      "you-must-believe-in-spring",
+      "symbiosis",
+      "a-rare-original"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Bill_Evans",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Bill_Evans_%281961_publicity_photo_by_Steve_Schapiro%29.jpg"
@@ -901,6 +935,27 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Bireli_aux_Granges_le_26.08.06.jpg"
   },
   {
+    "id": "blue-mitchell",
+    "name": "Blue Mitchell",
+    "birthYear": 1930,
+    "bio": "Richard Allen \"Blue\" Mitchell was an American trumpeter and composer who worked in jazz, rhythm and blues, soul, rock and funk. He recorded albums as leader and sideman for Riverside, Mainstream Records, and Blue Note. He is also credited as the most recorded trumpeter with jazz organ, accumulating 27 sideman recordings in the genre.",
+    "instruments": [
+      "trumpet"
+    ],
+    "eras": [
+      "hard-bop"
+    ],
+    "influences": [],
+    "influencedBy": [],
+    "keyAlbums": [
+      "african-violet",
+      "summer-soft"
+    ],
+    "deathYear": 1979,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Blue_Mitchell_Portrait_%28cropped%29.jpg/330px-Blue_Mitchell_Portrait_%28cropped%29.jpg",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blue_Mitchell"
+  },
+  {
     "id": "bobbi-humphrey",
     "name": "Bobbi Humphrey",
     "birthYear": 1950,
@@ -921,7 +976,7 @@
       "satin-doll"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Bobbi_Humphrey",
-    "imageUrl": "https://commons.wikimedia.org/w/resources/assets/file-type-icons/fileicon-ogg.png"
+    "imageUrl": "https://cdn-images.dzcdn.net/images/artist/275a819204539a1b268210efd64ea081/500x500-000000-80-0-0.jpg"
   },
   {
     "id": "bobby-hutcherson",
@@ -947,7 +1002,9 @@
     ],
     "keyAlbums": [
       "total-eclipse",
-      "full-circle"
+      "full-circle",
+      "waiting",
+      "oblique"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Bobby_Hutcherson",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Bh_070701.jpg"
@@ -1004,6 +1061,27 @@
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Bobo_Stenson",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Bobo_Stenson.jpg"
+  },
+  {
+    "id": "booker-little",
+    "name": "Booker Little",
+    "birthYear": 1938,
+    "bio": "Booker Little Jr. was an American jazz trumpeter and composer. He appeared on many recordings in his short career, both as a sideman and as a leader. Little performed with Max Roach, John Coltrane, and Eric Dolphy and was strongly influenced by Sonny Rollins and Clifford Brown. He died aged 23.",
+    "instruments": [
+      "trumpet"
+    ],
+    "eras": [
+      "hard-bop"
+    ],
+    "influences": [],
+    "influencedBy": [],
+    "keyAlbums": [
+      "booker-little",
+      "out-front"
+    ],
+    "deathYear": 1961,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6c/Booker_little_jr.jpg",
+    "wikipedia": "https://en.wikipedia.org/wiki/Booker_Little"
   },
   {
     "id": "brad-mehldau",
@@ -1109,7 +1187,9 @@
     "keyAlbums": [
       "in-walked-bud",
       "moon-glow",
-      "birdland-53"
+      "birdland-53",
+      "swingin-with-bud",
+      "time-waits"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Bud_Powell",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Bud_Powell_1960.jpg"
@@ -1140,28 +1220,20 @@
     "name": "Buster Smith",
     "birthYear": 1904,
     "instruments": [
-      "musician"
+      "saxophone",
+      "clarinet",
+      "guitar"
     ],
     "eras": [
       "early-jazz",
-      "swing",
-      "bebop",
-      "cool-jazz",
-      "hard-bop",
-      "free-jazz",
-      "fusion",
-      "contemporary"
+      "swing"
     ],
     "influences": [
       "charlie-parker"
     ],
     "influencedBy": [],
-    "keyAlbums": [
-      "roman-candle",
-      "figure-8",
-      "basement-tapes-unfinishedsuppressed"
-    ],
-    "bio": "Henry Franklin \"Buster\" Smith, also known as Professor Smith, was an American jazz alto saxophonist and mentor to Charlie Parker. Smith was instrumental in instituting the Texas Sax Sound with Count Basie and Lester Young in the 1930s.",
+    "keyAlbums": [],
+    "bio": "Henry 'Buster' Smith (1904-1991) was an American jazz alto saxophonist, clarinetist, and guitarist from Texas. A key figure in the Kansas City jazz scene, he mentored the young Charlie Parker and co-wrote 'One O'Clock Jump' with Count Basie. His only album as leader, 'The Legendary Buster Smith' (1959), was recorded for Atlantic Records.",
     "deathYear": 1991,
     "wikipedia": "https://en.wikipedia.org/wiki/Buster_Smith",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Antoine%27s_Restaurant_New_Orleans_souvenir_history_1930s.pdf/page1-500px-Antoine%27s_Restaurant_New_Orleans_souvenir_history_1930s.pdf.jpg"
@@ -1214,7 +1286,9 @@
     "keyAlbums": [
       "somethin-else",
       "mercy-mercy-mercy",
-      "nancy-wilson-cannonball-adderley"
+      "nancy-wilson-cannonball-adderley",
+      "love-sex-and-the-zodiac",
+      "sophisticated-swing"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Cannonball_Adderley",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Cannonball_Adderley_press_photo_1966.jpg"
@@ -1324,7 +1398,10 @@
       "sun-ra"
     ],
     "keyAlbums": [
-      "unit-structures"
+      "unit-structures",
+      "conquistador",
+      "the-cecil-taylor-unit",
+      "dreaming-of-the-masters-volume-2-thelonious-sphere-monk"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Cecil_Taylor",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Cecil_taylor_E5122329-2.jpg"
@@ -1445,7 +1522,14 @@
     "keyAlbums": [
       "mingus-ah-um",
       "the-black-saint",
-      "blues-and-roots"
+      "blues-and-roots",
+      "pithecanthropus-erectus",
+      "four-trombones",
+      "the-clown",
+      "charles-mingus-presents-charles-mingus",
+      "mingus-mingus-mingus-mingus-mingus",
+      "let-my-children-hear-music",
+      "pithecanthropus-erectus-the-clown"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Charles_Mingus",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Charles_Mingus_1976_cropped.jpg"
@@ -1546,7 +1630,10 @@
     "keyAlbums": [
       "jazz-at-massey-hall",
       "bird-and-diz",
-      "dial-masters-roost-sessions"
+      "dial-masters-roost-sessions",
+      "jam-session",
+      "blue-rondo",
+      "small-group-sessions-2"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Charlie_Parker",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Portrait_of_Charlie_Parker_in_1947.jpg"
@@ -1608,7 +1695,10 @@
     "keyAlbums": [
       "return-to-forever",
       "now-he-sings",
-      "doppelkonzert-krnungskonzert"
+      "doppelkonzert-krnungskonzert",
+      "the-meeting",
+      "solo-piano-portraits",
+      "remembrance"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Chick_Corea",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Chick_Corea_%28ZMF_2019%29_IMGP8025_%28cropped%29.jpg"
@@ -1629,7 +1719,7 @@
     ],
     "influencedBy": [],
     "keyAlbums": [],
-    "bio": "William Henry \"Chick\" Webb was an American jazz and swing music drummer and band leader.",
+    "bio": "William Henry \"Chick\" Webb (February 10, 1905 – June 16, 1939) was an American jazz and swing music drummer and band leader. Webb was born in Baltimore, Maryland, to William H. and Marie Webb. The year of his birth is disputed.",
     "deathYear": 1939,
     "wikipedia": "https://en.wikipedia.org/wiki/Chick_Webb",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/930205_cecil_taylor_web_%28programmaboekje%29.pdf/page1-500px-930205_cecil_taylor_web_%28programmaboekje%29.pdf.jpg"
@@ -1680,7 +1770,7 @@
       "transatlantic",
       "sunrise-reprise"
     ],
-    "bio": "Chris Potter is an American jazz saxophonist, composer, and multi-instrumentalist.",
+    "bio": "Chris Potter (born January 1, 1971) is an American jazz saxophonist, composer, and multi-instrumentalist. Potter first came to prominence as a sideman with trumpeter Red Rodney (1992–1993), before extended stints with drummer Paul Motian (1994–2009), bassist Dave Holland (1999–2007), trumpeter Dave Douglas (1998–2003) and session work, while also maintaining an active solo career.",
     "wikipedia": "https://en.wikipedia.org/wiki/Chris_Potter_(jazz_saxophonist)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Chris_Potter_in_Vienna%2C_2019_1.jpg"
   },
@@ -1848,7 +1938,7 @@
       "the-roy-haynes-trio",
       "secrets-are-the-best-stories"
     ],
-    "bio": "Danilo Pérez is a Panamanian pianist, composer, educator, and a social activist.",
+    "bio": "Danilo Pérez (born December 29, 1965) is a Panamanian pianist, composer, educator, and a social activist. His music is a blend of Panamanian roots with elements of Latin American folk music, jazz, European impressionism, African, and other musical heritages that promote music as a multi-dimensional bridge between people.",
     "wikipedia": "https://en.wikipedia.org/wiki/Danilo_P%C3%A9rez",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Danilo_perez_panama_jazz_fest_2012.jpg"
   },
@@ -1926,7 +2016,9 @@
     "keyAlbums": [
       "time-out",
       "just-you-just-me",
-      "lullabies"
+      "lullabies",
+      "in-their-own-sweet-way",
+      "classics-from-the-master-tape-c"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Dave_Brubeck",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Dave_Brubeck_%281964%29.jpg"
@@ -2023,7 +2115,7 @@
       "archie-shepp"
     ],
     "keyAlbums": [],
-    "bio": "David Spencer Ware was an American jazz saxophonist, composer, and bandleader.",
+    "bio": "David Spencer Ware (November 7, 1949 – October 18, 2012) was an American jazz saxophonist, composer, and bandleader. Ware was born in Plainfield, New Jersey, and grew up in Scotch Plains, New Jersey. While in high school he attended music camp at the University of Connecticut taught by Ron Carter, Charlie Mariano, and Alan Dawson and played in his school's bands as well as in the New Jersey All-State band.",
     "deathYear": 2012,
     "wikipedia": "https://en.wikipedia.org/wiki/David_S._Ware",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/David_s_ware.jpg"
@@ -2096,7 +2188,7 @@
     ],
     "influencedBy": [],
     "keyAlbums": [
-      "solo-guitar",
+      "solo-guitar-bailey",
       "guitar-solos-2",
       "standards"
     ],
@@ -2128,7 +2220,9 @@
     "keyAlbums": [
       "our-man-in-paris",
       "go",
-      "one-flight-up"
+      "one-flight-up",
+      "tenor-titans-gordon",
+      "more-than-you-know"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Dexter_Gordon",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Dexter_Gordon1.jpg"
@@ -2163,7 +2257,10 @@
       "jazz-at-massey-hall",
       "gillespiana",
       "the-trumpet-kings-meet-joe-turner-gillespie",
-      "a-jazz-hour-with-dizzy-gillespie"
+      "a-jazz-hour-with-dizzy-gillespie",
+      "bird-and-diz-gillespie",
+      "the-source",
+      "oop-pop-a-da"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Dizzy_Gillespie",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Dizzy_Gillespie_by_Carl_Van_Vechten_%28cropped%29_%282%29.jpg"
@@ -2278,7 +2375,9 @@
     ],
     "keyAlbums": [
       "money-in-the-pocket",
-      "places-and-spaces"
+      "places-and-spaces",
+      "soul-junction",
+      "the-creeper"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Donald_Byrd",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Donald_Byrd.jpg"
@@ -2349,7 +2448,6 @@
       "ornette-coleman"
     ],
     "keyAlbums": [
-      "sounds-of-liberation",
       "diamond-express",
       "radebe-they-shoot-to-kill"
     ],
@@ -2393,7 +2491,19 @@
     "keyAlbums": [
       "ellington-at-newport",
       "money-jungle",
-      "blue-note-jazz-inspiration"
+      "blue-note-jazz-inspiration",
+      "masterpieces-by-ellington",
+      "such-sweet-thunder",
+      "ellington-indigos-expanded-edition",
+      "duke-ellington-meets-coleman-hawkins",
+      "ella-at-dukes-place-ellington",
+      "the-far-east-suite",
+      "music-by-ellington-bartk",
+      "the-popular-duke-ellington",
+      "the-intimate-ellington",
+      "concept-of-freedom",
+      "columbia-jazz-profiles",
+      "lullaby-of-birdland"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Duke_Ellington",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Duke_Ellington_-_publicity.JPG"
@@ -2489,7 +2599,9 @@
     "keyAlbums": [
       "ella-at-dukes-place",
       "ella-fitzgeralds-christmas",
-      "ella-loves-cole"
+      "ella-loves-cole",
+      "ella-fitzgerald-sings-the-george-and-ira-gershwin-song-book",
+      "bing-ella"
     ],
     "bio": "Ella Jane Fitzgerald was an American singer, songwriter and composer, sometimes referred to as the \"First Lady of Song\", \"Queen of Jazz\", and \"Lady Ella\". She was noted for her purity of tone, impeccable diction, phrasing, timing, intonation, absolute pitch, and a \"horn-like\" improvisational ability, particularly in her scat singing.",
     "deathYear": 1996,
@@ -2546,7 +2658,7 @@
       "play-morricone",
       "works-and-improvisations-1685"
     ],
-    "bio": "Enrico Pieranunzi is an Italian jazz pianist. He combines classical technique with jazz.",
+    "bio": "Enrico Pieranunzi (born 5 December 1949) is an Italian jazz pianist. He combines classical technique with jazz. The son of Renata Brillantini and Alvaro Pieranunzi, Enrico Pieranunzi was encouraged to study music at a young age. His father was a jazz guitarist.",
     "wikipedia": "https://en.wikipedia.org/wiki/Enrico_Pieranunzi",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Enrico_Pieranunzi01_39178.jpg"
   },
@@ -2602,7 +2714,9 @@
       "ornette-coleman"
     ],
     "keyAlbums": [
-      "out-to-lunch"
+      "out-to-lunch",
+      "conversations",
+      "here-and-there"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Eric_Dolphy",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/86/Eric_Dolphy.jpg"
@@ -2817,7 +2931,9 @@
     ],
     "keyAlbums": [
       "hub-tones",
-      "red-clay"
+      "red-clay",
+      "ready-for-freddie",
+      "mistral"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Freddie_Hubbard",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Freddie_Hubbard_1976.jpg"
@@ -2877,6 +2993,28 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Geri-allen-by-pablo-secca.jpg"
   },
   {
+    "id": "gerry-mulligan",
+    "name": "Gerry Mulligan",
+    "birthYear": 1927,
+    "bio": "Gerald Joseph Mulligan, also known as Jeru, was an American jazz saxophonist, clarinetist, pianist, composer and arranger. Though primarily known as one of the leading jazz baritone saxophonists—playing the instrument with a light and airy tone in the era of cool jazz—Mulligan was also a significant arranger working with Claude Thornhill, Miles Davis, Stan Kenton, and others.",
+    "instruments": [
+      "baritone saxophone"
+    ],
+    "eras": [
+      "cool-jazz"
+    ],
+    "influences": [],
+    "influencedBy": [],
+    "keyAlbums": [
+      "mulligan-meets-monk",
+      "toot-toot-tootsie",
+      "stan-getz-and-gerry-mulligan-stan-getz-and-the-oscar-peterson-trio-mulligan"
+    ],
+    "deathYear": 1996,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Gerry_Mulligan_%281980s_portrait_by_William_P._Gottlieb%29.jpg/330px-Gerry_Mulligan_%281980s_portrait_by_William_P._Gottlieb%29.jpg",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gerry_Mulligan"
+  },
+  {
     "id": "gil-evans",
     "name": "Gil Evans",
     "birthYear": 1912,
@@ -2925,7 +3063,7 @@
       "xxi-century",
       "pdron-rubalcaba"
     ],
-    "bio": "Gonzalo Rubalcaba is a Cuban jazz pianist and composer.",
+    "bio": "Gonzalo Rubalcaba (born May 27, 1963) is a Cuban jazz pianist and composer. Rubalcaba was born Gonzalo Julio González Fonseca in Havana, Cuba into a musical family. He adopted his great-grandmother's name for professional use, just as did his father, Guillermo Rubalcaba (born Guillermo González Camejo) and his grandfather, Jacobo Rubalcaba (born Jacobo González Rubalcaba). With Orquesta Aragón, Rubalcaba toured France and Africa in 1983.",
     "wikipedia": "https://en.wikipedia.org/wiki/Gonzalo_Rubalcaba",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Gonzalo_Rubalcaba_at_MIFF_%28cropped%29.jpg"
   },
@@ -3001,9 +3139,30 @@
       "round-and-round",
       "channel-three"
     ],
-    "bio": "Greg Osby is an American jazz saxophonist and composer.",
+    "bio": "Greg Osby (born August 3, 1960) is an American jazz saxophonist and composer. Born in St. Louis, Missouri, Osby studied at Howard University, then at the Berklee College of Music. He moved to New York City in 1982, where he played with Jaki Byard, Jim Hall, Muhal Richard Abrams, Andrew Hill, Jack DeJohnette, Dizzy Gillespie, and Herbie Hancock. In 1985, he joined DeJohnette's group Special Edition.",
     "wikipedia": "https://en.wikipedia.org/wiki/Greg_Osby",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Greg_Osby_photo.jpg"
+  },
+  {
+    "id": "hampton-hawes",
+    "name": "Hampton Hawes",
+    "birthYear": 1928,
+    "bio": "Hampton Barnett Hawes Jr. was an American jazz pianist. He was the author of the memoir Raise Up Off Me, which won the Deems-Taylor Award for music writing in 1975.",
+    "instruments": [
+      "piano"
+    ],
+    "eras": [
+      "hard-bop"
+    ],
+    "influences": [],
+    "influencedBy": [],
+    "keyAlbums": [
+      "the-trio-volume-3-everybody-likes-hampton-hawes",
+      "key-for-two"
+    ],
+    "deathYear": 1977,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Hampton_Hawes_in_Japan_%281953%29.jpg/330px-Hampton_Hawes_in_Japan_%281953%29.jpg",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hampton_Hawes"
   },
   {
     "id": "hank-mobley",
@@ -3097,7 +3256,12 @@
       "head-hunters",
       "empyrean-isles",
       "takin-off",
-      "thrust"
+      "thrust",
+      "speak-like-a-child",
+      "mwandishi",
+      "future-shock",
+      "mwandishi-complete-warner-bros-recordings",
+      "river-the-joni-letters"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Herbie_Hancock",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Herbie_Hancock_2023.jpg"
@@ -3155,7 +3319,9 @@
     "keyAlbums": [
       "song-for-my-father",
       "silver-n-brass",
-      "jazz-has-a-sense-of-humor"
+      "jazz-has-a-sense-of-humor",
+      "silver-n-strings-play-the-music-of-the-spheres",
+      "stories-from-the-sea-club"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Horace_Silver",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Horace_Silver_by_Dmitri_Savitski_1989.jpg"
@@ -3316,7 +3482,9 @@
     ],
     "keyAlbums": [
       "destination-out",
-      "one-step-beyond"
+      "one-step-beyond",
+      "a-ghetto-lullaby",
+      "fat-jazz"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Jackie_McLean",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Jackie_McLean.jpg"
@@ -3703,7 +3871,8 @@
       "2463am",
       "endless-chain"
     ],
-    "wikipedia": "https://en.wikipedia.org/wiki/Jiro_Inagaki"
+    "wikipedia": "https://en.wikipedia.org/wiki/Jiro_Inagaki",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Swing-Journal-1963-January-1.jpg"
   },
   {
     "id": "joe-harriott",
@@ -3722,7 +3891,7 @@
       "charlie-parker"
     ],
     "keyAlbums": [
-      "free-form",
+      "free-form-harriott",
       "indo-jazz-suite",
       "poetry-and-jazz-in-concert-record-one"
     ],
@@ -3750,7 +3919,9 @@
     ],
     "keyAlbums": [
       "mode-for-joe",
-      "inner-urge"
+      "inner-urge",
+      "black-is-the-color",
+      "akio"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Joe_Henderson",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Joe_Henderson_2.jpg"
@@ -3855,7 +4026,8 @@
       "joey-calderazzo"
     ],
     "bio": "Joseph Dominick Calderazzo is an American jazz pianist and brother of musician Gene Calderazzo. He played extensively in bands led by Michael Brecker and Branford Marsalis, and has also led his own bands.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Joey_Calderazzo"
+    "wikipedia": "https://en.wikipedia.org/wiki/Joey_Calderazzo",
+    "imageUrl": "https://cdn-images.dzcdn.net/images/artist/f2b0d2a3d5ad502e04ac45936828703d/500x500-000000-80-0-0.jpg"
   },
   {
     "id": "john-coltrane",
@@ -3904,7 +4076,12 @@
       "giant-steps",
       "blue-train",
       "ascension",
-      "meditations"
+      "meditations",
+      "my-favorite-things",
+      "crescent",
+      "selflessness-featuring-my-favorite-things",
+      "bassoon-xx",
+      "ballads-coltrane"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/John_Coltrane",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/John_Coltrane_1963_cropped_ver2.jpg"
@@ -3960,7 +4137,7 @@
       "now",
       "images"
     ],
-    "bio": "John Patitucci is an American jazz bassist and composer.",
+    "bio": "John Patitucci (born December 22, 1959) is an American jazz bassist and composer. John James Patitucci was born in Brooklyn, New York. He began playing the electric bass at age 10, performing and composing at age 12, and at age 15, started playing the acoustic bass, as well as piano by age 16. He listened to bass parts in R&B songs on the radio and on his grandfather's jazz records.",
     "wikipedia": "https://en.wikipedia.org/wiki/John_Patitucci",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/John_Patitucci_Kongsberg_Jazzfestival_2018_%28170909%29.jpg"
   },
@@ -4112,7 +4289,7 @@
       "mount-royal",
       "chesed-the-book-beriah-volume-4"
     ],
-    "bio": "Julian Price Lage is an American guitarist and composer.",
+    "bio": "Julian Price Lage (born December 25, 1987) is an American guitarist and composer. A child prodigy, Lage performed at the 2000 Grammy Awards at age 12, and at 15, became a faculty member of the Stanford Jazz Workshop. He released his debut album, Sounding Point, in 2009 on EmArcy Records. He was signed to Blue Note Records in 2021, with whom he has released the albums Squint (2021), View with a Room (2022), The Layers EP (2023), Speak to Me (2024), and Scenes from Above (2026).",
     "wikipedia": "https://en.wikipedia.org/wiki/Julian_Lage",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Julian_Lage.jpg"
   },
@@ -4220,7 +4397,7 @@
       "the-nows",
       "east-by-northwest"
     ],
-    "bio": "Ken Vandermark is an American composer, saxophonist, and clarinetist.",
+    "bio": "Ken Vandermark (born September 22, 1964) is an American composer, saxophonist, and clarinetist. A fixture on the Chicago-area music scene since the 1990s, Vandermark has earned wide critical praise for his playing and his multilayered compositions, which typically balance intricate orchestration with passionate improvisation. He has led or been a member of many groups, has collaborated with many other musicians, and was awarded a 1999 MacArthur Fellowship.",
     "wikipedia": "https://en.wikipedia.org/wiki/Ken_Vandermark",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Ken_Vandermark.jpg"
   },
@@ -4246,7 +4423,9 @@
     "keyAlbums": [
       "midnight-blue",
       "kenny-burrell",
-      "lucky-so-and-so"
+      "lucky-so-and-so",
+      "2-guitars",
+      "blue-bash-burrell"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Kenny_Burrell",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Kenny_Burrell.jpg"
@@ -4281,6 +4460,28 @@
     "deathYear": 1985,
     "wikipedia": "https://en.wikipedia.org/wiki/Kenny_Clarke",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Finale_Internationaal_Jazz_Festival_Loosdrecht%2C_drummer_Kenny_Clarke%2C_Bestanddeelnr_924-7968.jpg"
+  },
+  {
+    "id": "kenny-dorham",
+    "name": "Kenny Dorham",
+    "birthYear": 1924,
+    "deathYear": 1972,
+    "bio": "McKinley Howard \"Kenny\" Dorham was an American jazz trumpeter, composer, and occasional singer. Dorham's talent is frequently lauded by critics and other musicians, but he never received the kind of attention or public recognition from the jazz establishment that many of his peers did. For this reason, writer Gary Giddins said that Dorham's name has become \"virtually synonymous with 'underrated'.\"",
+    "instruments": [
+      "trumpet"
+    ],
+    "eras": [
+      "bebop",
+      "hard-bop"
+    ],
+    "influences": [],
+    "influencedBy": [],
+    "keyAlbums": [
+      "modern-jazz-trumpets",
+      "round-about-midnight-at-the-cafe-bohemia-volume-i"
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Kenny_Dorham_holding_trumpet.jpg/330px-Kenny_Dorham_holding_trumpet.jpg",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kenny_Dorham"
   },
   {
     "id": "kenny-garrett",
@@ -4402,7 +4603,7 @@
       "life-of-the-party",
       "terrible-animals"
     ],
-    "bio": "Lage Fosheim Lund is a Norwegian jazz guitarist who lives in New York.",
+    "bio": "Lage Fosheim Lund (born 12 December 1977) is a Norwegian jazz guitarist who lives in New York. Initially aspiring to become a professional skateboarder, Lund began playing guitar at the age of 13. He later founded a jazz trio and performing in local clubs. Lund earned a scholarship and attended the Berklee College of Music in Boston, where he regularly performed at Wally's Cafe.",
     "wikipedia": "https://en.wikipedia.org/wiki/Lage_Lund",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Lage_Lund_kvartett_Nasjonal_Jazzscene_2020_%28213018%29.jpg"
   },
@@ -4453,9 +4654,31 @@
       "one-poem-one-painting",
       "ballads"
     ],
-    "bio": "Lars Jansson is a Swedish jazz pianist and composer.",
+    "bio": "Lars Jansson (born 1951) is a Swedish jazz pianist and composer. Jansson grew up in Örebro, Sweden, where he was bored by his lessons at the community music school. In his early teens, a relative lent him records of Miles Davis, Ben Webster, and Mose Allison. During the 1960s, he followed the fashion and developed an interest in the organ.",
     "wikipedia": "https://en.wikipedia.org/wiki/Lars_Jansson_(composer)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Lars-jansson.jpg"
+  },
+  {
+    "id": "lee-konitz",
+    "name": "Lee Konitz",
+    "birthYear": 1927,
+    "bio": "Leon \"Lee\" Konitz was an American jazz alto saxophonist and composer.",
+    "instruments": [
+      "alto saxophone"
+    ],
+    "eras": [
+      "cool-jazz"
+    ],
+    "influences": [],
+    "influencedBy": [],
+    "keyAlbums": [
+      "lone-lee",
+      "on-track",
+      "thingin"
+    ],
+    "deathYear": 2020,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Konitz_Lee_Koeln_altes_pfandhaus_201207.jpg/330px-Konitz_Lee_Koeln_altes_pfandhaus_201207.jpg",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lee_Konitz"
   },
   {
     "id": "lee-morgan",
@@ -4482,7 +4705,9 @@
     "keyAlbums": [
       "the-sidewinder",
       "search-for-the-new-land",
-      "live-at-the-lighthouse"
+      "live-at-the-lighthouse",
+      "dizzy-atmosphere",
+      "another-monday-night-at-birdland"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Lee_Morgan",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Lee_Morgan_%281959%29.jpg"
@@ -4651,7 +4876,10 @@
     ],
     "keyAlbums": [
       "hot-fives-sevens",
-      "hello-dolly"
+      "hello-dolly",
+      "louis-armstrong-meets-oscar-peterson",
+      "louie-and-the-dukes-of-dixieland",
+      "armstrong-alumni-allstars"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Louis_Armstrong",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Louis_Armstrong_in_Color_%28restored%29.jpg"
@@ -4673,7 +4901,7 @@
       "chris-mcgregor"
     ],
     "keyAlbums": [
-      "spirits-rejoice"
+      "spirits-rejoice-moholo"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Louis_Moholo-Moholo",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Louis_Moholo_2.jpg"
@@ -4721,7 +4949,7 @@
       "thelonious-monk"
     ],
     "keyAlbums": [
-      "free-at-last"
+      "free-at-last-waldron"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Mal_Waldron",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Mal_Waldron.jpg"
@@ -4899,7 +5127,7 @@
       "hikmet",
       "libretto-dialogues-vol-1"
     ],
-    "bio": "Mark Turner is an American jazz saxophonist.",
+    "bio": "Mark Turner (born November 10, 1965) is an American jazz saxophonist. Born in Fairborn, Ohio and raised in Palos Verdes Estates, California, Turner originally intended to become a commercial artist. In elementary school, he played the clarinet, followed by the alto and tenor saxophones in high school.",
     "wikipedia": "https://en.wikipedia.org/wiki/Mark_Turner_(musician)",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Mark_Turner_1.JPG"
   },
@@ -4922,7 +5150,7 @@
       "fingerpainting-the-music-of-herbie-hancock",
       "forever-love"
     ],
-    "bio": "Mark Whitfield is an American jazz guitarist.",
+    "bio": "Mark Whitfield (born October 6, 1966) is an American jazz guitarist. Whitfield was born in Lindenhurst, New York. He has worked with Jack McDuff, Jimmy Smith, Courtney Pine, Nicholas Payton, and Chris Botti. In 2000, Whitfield released an instructional guitar video titled Mark Whitfield: Star Licks Master Sessions for Star Licks Productions.",
     "wikipedia": "https://en.wikipedia.org/wiki/Mark_Whitfield",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Mark_Whitfield.jpg"
   },
@@ -5001,7 +5229,6 @@
       "thelonious-monk"
     ],
     "keyAlbums": [
-      "yatra-ta",
       "on-the-move",
       "sunrise"
     ],
@@ -5055,7 +5282,7 @@
       "art-of-the-improviser",
       "live-at-scholes-street-studio"
     ],
-    "bio": "Matthew Shipp is an American avant-garde jazz pianist, composer, and bandleader.",
+    "bio": "Matthew Shipp (born December 7, 1960) is an American avant-garde jazz pianist, composer, and bandleader. Shipp was raised in Wilmington, Delaware. His mother was a friend of trumpeter Clifford Brown. He began playing piano at five years old.",
     "wikipedia": "https://en.wikipedia.org/wiki/Matthew_Shipp",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Jemeel_Moondoc_Quartet%2C_5_februari_2016_BIM_Amsterdam_-_Matthew_Shipp_%2851312009148%29.jpg"
   },
@@ -5082,7 +5309,9 @@
       "we-insist",
       "study-in-brown",
       "percussion-bitter-sweet",
-      "streams-of-consciousness"
+      "streams-of-consciousness",
+      "pretty-for-the-people",
+      "lift-every-voice-and-sing"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Max_Roach",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Max_Roach%2C_Three_Deuces%2C_ca._1947.jpg"
@@ -5112,7 +5341,10 @@
       "john-coltrane"
     ],
     "keyAlbums": [
-      "extensions"
+      "extensions",
+      "time-for-tyner",
+      "journey-and-turning-point",
+      "land-of-giants"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/McCoy_Tyner",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Mccoy_Tyner_1973_gh_%28cropped%29.jpg"
@@ -5224,7 +5456,15 @@
       "kind-of-blue",
       "birth-of-the-cool",
       "bitches-brew",
-      "in-a-silent-way"
+      "in-a-silent-way",
+      "dizzy-gillespie-and-modern-trumpets",
+      "round-about-midnight",
+      "milestones",
+      "sketches-of-spain",
+      "esp",
+      "miles-smiles",
+      "agharta",
+      "milestones-1945-1954"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Miles_Davis",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Miles_Davis_by_Palumbo_cropped.jpg"
@@ -5443,7 +5683,9 @@
     "keyAlbums": [
       "nina-at-town-hall",
       "pastel-blues",
-      "to-love-somebody"
+      "to-love-somebody",
+      "little-girl-blue",
+      "i-put-a-spell-on-you"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Nina_Simone",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Nina_Simone_-1969.jpg"
@@ -5489,7 +5731,10 @@
     "keyAlbums": [
       "the-shape-of-jazz-to-come",
       "free-jazz",
-      "sound-museum-hidden-man"
+      "sound-museum-hidden-man",
+      "science-fiction",
+      "skies-of-america",
+      "soapsuds-soapsuds"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Ornette_Coleman",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Ornette-Coleman-2008-Heidelberg-schindelbeck.jpg"
@@ -5517,7 +5762,9 @@
     "keyAlbums": [
       "oscar-peterson-plays-george-gershwin",
       "in-the-key-of-oscar",
-      "bursting-out-with-the-all-star-big-band-swinging-brass"
+      "bursting-out-with-the-all-star-big-band-swinging-brass",
+      "oscar-peterson-jon-faddis-peterson",
+      "unmistakable-zenph-re-performance"
     ],
     "bio": "Oscar Emmanuel Peterson was a Canadian jazz pianist and composer. As a virtuoso who is considered to be one of the greatest jazz pianists of all time, Peterson released more than 200 recordings, won eight Grammy Awards, as well as a lifetime achievement award from the Recording Academy, and received numerous other awards and honours. He played thousands of concerts worldwide in a career lasting more than 60 years. He was called the \"Maharaja of the keyboard\" by Duke Ellington, simply \"O.P.\" by his friends, and was informally known in the jazz community as \"the King of inside swing\".",
     "deathYear": 2007,
@@ -5574,10 +5821,34 @@
     "keyAlbums": [
       "bright-size-life",
       "question-and-answer",
-      "zero-tolerance-for-silence"
+      "zero-tolerance-for-silence",
+      "the-unity-sessions",
+      "moondial",
+      "the-lore"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Pat_Metheny",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Pat_metheny_orch2.jpg"
+  },
+  {
+    "id": "paul-chambers",
+    "name": "Paul Chambers",
+    "birthYear": 1935,
+    "bio": "Paul Laurence Dunbar Chambers Jr. was an American jazz double bassist. A fixture of rhythm sections during the 1950s and 1960s, he has become one of the most widely-known jazz bassists of the hard bop era. He was also known for his bowed solos.",
+    "instruments": [
+      "double bass"
+    ],
+    "eras": [
+      "hard-bop"
+    ],
+    "influences": [],
+    "influencedBy": [],
+    "keyAlbums": [
+      "go-chambers",
+      "jazz-in-japan-recorded-in-tokyo"
+    ],
+    "deathYear": 1969,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/72/Paul_Laurence_Dunbar_Chambers%2C_Jr..jpg",
+    "wikipedia": "https://en.wikipedia.org/wiki/Paul_Chambers"
   },
   {
     "id": "peter-brotzmann",
@@ -5630,7 +5901,9 @@
     "keyAlbums": [
       "karma",
       "jewels-of-thought",
-      "journey-in-satchidananda"
+      "journey-in-satchidananda",
+      "deaf-dumb-blind-summun-bukmun-umyun",
+      "izipho-zam-my-gifts"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Pharoah_Sanders",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Pharoah_Sanders_photo.jpg"
@@ -5661,7 +5934,7 @@
       "the-little-big-band-real-life",
       "blues-for-new-orleans"
     ],
-    "bio": "Philip Wells Woods was an American jazz alto saxophonist, clarinetist, bandleader, and composer.",
+    "bio": "Philip Wells Woods (November 2, 1931 – September 29, 2015) was an American jazz alto saxophonist, clarinetist, bandleader, and composer. Woods was born in Springfield, Massachusetts. After inheriting a saxophone at age 12, he began taking lessons from Harvey LaRose at a local music shop. His heroes on the alto saxophone included Benny Carter and Johnny Hodges.",
     "deathYear": 2015,
     "wikipedia": "https://en.wikipedia.org/wiki/Phil_Woods",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Phil_Woods_1978.jpg"
@@ -5684,7 +5957,6 @@
       "thelonious-monk"
     ],
     "keyAlbums": [
-      "looking-east",
       "that-certain-feeling",
       "all-that-is-tied"
     ],
@@ -5885,7 +6157,7 @@
       "muhal-richard-abrams"
     ],
     "keyAlbums": [
-      "sound",
+      "sound-roscoe-mitchell",
       "old-quartet",
       "conversations-ii"
     ],
@@ -6013,7 +6285,7 @@
       "bill-evans"
     ],
     "keyAlbums": [
-      "scenery",
+      "scenery-ryo-fukui",
       "mellow-dream"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Ryo_Fukui",
@@ -6119,7 +6391,9 @@
     "keyAlbums": [
       "sarah-vaughan-clifford-brown",
       "sassy-swings-the-tivoli",
-      "carols-of-christmas"
+      "carols-of-christmas",
+      "in-the-land-of-hi-fi",
+      "the-george-gershwin-songbook-volume-2"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Sarah_Vaughan",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Sarah_Vaughan_-_William_P._Gottlieb_-_No._1.jpg"
@@ -6307,7 +6581,11 @@
     "keyAlbums": [
       "saxophone-colossus",
       "the-bridge",
-      "reel-life"
+      "reel-life",
+      "sonny-rollins-volume-2",
+      "sonny-rollins-and-the-big-brass",
+      "sonny-side-up",
+      "toot-toot-tootsie-rollins"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Sonny_Rollins",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sonny_Rollins_2011.jpg"
@@ -6382,7 +6660,9 @@
     "keyAlbums": [
       "getz-gilberto",
       "blue-skies-getz",
-      "stan-getz-and-gerry-mulligan-stan-getz-and-the-oscar-peterson-trio"
+      "stan-getz-and-gerry-mulligan-stan-getz-and-the-oscar-peterson-trio",
+      "i-grandi-del-jazz-stan-gets-the-oscar-peterson-trio",
+      "the-other-side-of-stan-getz"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Stan_Getz",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Stan_Getz%2C_tenor_saxophonist_at_Kastrup_Airport_CPH%2C_Copenhagen_%28cropped%29.jpg"
@@ -6407,7 +6687,7 @@
       "black-action-figure",
       "the-grand-unification-theory"
     ],
-    "bio": "Stefon DeLeon Harris is an American jazz vibraphonist.",
+    "bio": "Stefon DeLeon Harris (born March 23, 1973) is an American jazz vibraphonist. A native of Albany, New York, Harris intended to work for the New York Philharmonic until he heard the music of Charlie Parker. During the 1990s he recorded with Charlie Hunter and Steve Turre as a session musician. He signed with Blue Note, which released his debut album, A Cloud of Red Dust (1998).",
     "wikipedia": "https://en.wikipedia.org/wiki/Stefon_Harris",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Stefon_Harris.jpg"
   },
@@ -6440,7 +6720,11 @@
     "keyAlbums": [
       "space-is-the-place",
       "lanquidity",
-      "pink-elephants-on-parade"
+      "pink-elephants-on-parade",
+      "the-heliocentric-worlds-of-sun-ra-volume-1",
+      "when-spaceships-appear",
+      "ellingtonia-vol-1",
+      "sleeping-beauty"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Sun_Ra",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Sun_Ra_%281973_publicity_photo_-_Impulse_ABC_Dunhill%29.jpg"
@@ -6596,33 +6880,6 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/12-17-1960_17717_Art_Blakey_%286331548858%29_%28cropped%29.jpg"
   },
   {
-    "id": "tony-williams",
-    "name": "Tony Williams",
-    "birthYear": 1945,
-    "instruments": [
-      "drums"
-    ],
-    "eras": [
-      "hard-bop",
-      "free-jazz",
-      "fusion"
-    ],
-    "influences": [
-      "billy-cobham",
-      "terri-lyne-carrington"
-    ],
-    "influencedBy": [],
-    "keyAlbums": [
-      "third-plane",
-      "civilization",
-      "the-story-of-neptune"
-    ],
-    "bio": "Anthony Tillmon Williams was an American jazz drummer. Williams first gained fame as a member of Miles Davis's Second Great Quintet at just seventeen years old, becoming one of the most innovative drummers in jazz history. He later pioneered jazz fusion with his own group The Tony Williams Lifetime, blending rock energy with jazz sophistication. His polyrhythmic playing and dynamic approach to the drum kit influenced generations of drummers across jazz and rock.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Tony_Williams_(drummer)",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Tony_Williams_DownBeat.jpg",
-    "deathYear": 1997
-  },
-  {
     "id": "thelonious-monk",
     "name": "Thelonious Monk",
     "birthYear": 1917,
@@ -6662,10 +6919,38 @@
       "brilliant-corners",
       "monks-dream",
       "straight-no-chaser",
-      "at-carnegie-hall"
+      "at-carnegie-hall",
+      "genius-of-modern-music-vol-1",
+      "mulligan-meets-monk-monk",
+      "thelonious-himself",
+      "solo-monk-monk",
+      "monks-blues",
+      "solo-monk",
+      "monks-music"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Thelonious_Monk",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06191%29.jpg"
+  },
+  {
+    "id": "tina-brooks",
+    "name": "Tina Brooks",
+    "birthYear": 1932,
+    "bio": "Harold Floyd \"Tina\" Brooks was an American jazz tenor saxophonist and composer best remembered for his work in the hard bop style.",
+    "instruments": [
+      "tenor saxophone"
+    ],
+    "eras": [
+      "hard-bop"
+    ],
+    "influences": [],
+    "influencedBy": [],
+    "keyAlbums": [
+      "minor-move",
+      "music-from-the-connection-composed-by-freddie-redd"
+    ],
+    "deathYear": 1974,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e8/Tina_Brooks.jpg",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tina_Brooks"
   },
   {
     "id": "tom-harrell",
@@ -6720,6 +7005,33 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Tomasz_Stanko_2016.jpg"
   },
   {
+    "id": "tony-williams",
+    "name": "Tony Williams",
+    "birthYear": 1945,
+    "instruments": [
+      "drums"
+    ],
+    "eras": [
+      "hard-bop",
+      "free-jazz",
+      "fusion"
+    ],
+    "influences": [
+      "billy-cobham",
+      "terri-lyne-carrington"
+    ],
+    "influencedBy": [],
+    "keyAlbums": [
+      "third-plane",
+      "civilization",
+      "the-story-of-neptune"
+    ],
+    "bio": "Anthony Tillmon Williams was an American jazz drummer. Williams first gained fame as a member of Miles Davis's Second Great Quintet at just seventeen years old, becoming one of the most innovative drummers in jazz history. He later pioneered jazz fusion with his own group The Tony Williams Lifetime, blending rock energy with jazz sophistication. His polyrhythmic playing and dynamic approach to the drum kit influenced generations of drummers across jazz and rock.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tony_Williams_(drummer)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Tony_Williams_DownBeat.jpg",
+    "deathYear": 1997
+  },
+  {
     "id": "tubby-hayes",
     "name": "Tubby Hayes",
     "birthYear": 1935,
@@ -6772,6 +7084,20 @@
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Tyshawn_Sorey",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Tyshawn_Sorey_2018_%28cropped%29.jpg"
+  },
+  {
+    "id": "various-artists",
+    "name": "Various Artists",
+    "birthYear": 0,
+    "bio": "Compilation or collection featuring multiple contributing artists.",
+    "instruments": [],
+    "eras": [
+      "contemporary"
+    ],
+    "influences": [],
+    "influencedBy": [],
+    "keyAlbums": [],
+    "wikipedia": "https://en.wikipedia.org/wiki/Various_artists"
   },
   {
     "id": "victor-wooten",
@@ -6863,7 +7189,7 @@
       "the-quintet",
       "prototype"
     ],
-    "bio": "Wallace Roney was an American jazz trumpeter. He won one Grammy award and was nominated twice.",
+    "bio": "Wallace Roney (May 25, 1960 – March 31, 2020) was an American jazz (hard bop and post-bop) trumpeter. He won one Grammy award and was nominated twice. Roney took lessons from Clark Terry and Dizzy Gillespie and studied with Miles Davis from 1985 until the latter's death in 1991. Wallace credited Davis as having helped to challenge and shape his creative approach to life as well as being his music instructor, mentor, and friend; he was the only trumpet player Davis personally mentored.",
     "deathYear": 2020,
     "wikipedia": "https://en.wikipedia.org/wiki/Wallace_Roney",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Wallace_Roney_Quintet_25_maart_2015_BIM_Amsterdam_-_Wallace_Roney_%2851298397037%29.jpg"
@@ -6899,7 +7225,8 @@
       "speak-no-evil",
       "juju",
       "night-dreamer",
-      "odyssey-of-iska"
+      "odyssey-of-iska",
+      "alegra"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Wayne_Shorter",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Wayne-Shorter_in_Amsterdam%2C_1980.jpg"
@@ -6923,7 +7250,9 @@
     "keyAlbums": [
       "heavy-weather",
       "weather-report",
-      "tale-spinnin"
+      "tale-spinnin",
+      "domino-theory",
+      "sportin-life"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Weather_Report",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Weather_Report_19810611_shinjuku_fn23.jpg"
@@ -6950,7 +7279,9 @@
     "keyAlbums": [
       "cannonball-adderley-and-the-poll-winners",
       "boss-guitar",
-      "tequila"
+      "tequila",
+      "navy-swing",
+      "the-ndr-hamburg-studio-recordings"
     ],
     "bio": "John Leslie \"Wes\" Montgomery was an American jazz guitarist. Montgomery was known for his unusual technique of plucking the strings with the side of his thumb and for his extensive use of octaves, which gave him a distinctive sound.",
     "deathYear": 1968,
@@ -7010,7 +7341,9 @@
     "keyAlbums": [
       "rosewood",
       "setting-standards",
-      "the-eternal-triangle"
+      "the-eternal-triangle",
+      "little-reds-fantasy",
+      "tokyo-1981"
     ],
     "bio": "Woody Herman Shaw Jr. was an American jazz trumpeter, flugelhornist, cornetist, composer, arranger, band leader, and educator. Shaw is widely known as one of the 20th century's most important and influential jazz trumpeters and composers. He is often credited with revolutionizing the technical and harmonic language of modern jazz trumpet playing, and is regarded by many as one of the major innovators of the instrument. He was an acclaimed virtuoso, mentor, and spokesperson for jazz and worked and recorded alongside many of the leading musicians of his time.",
     "deathYear": 1989,
@@ -7037,7 +7370,7 @@
       "ornette-coleman"
     ],
     "keyAlbums": [
-      "revue",
+      "revue-wsq",
       "dances-and-ballads",
       "breath-of-life"
     ],
@@ -7108,7 +7441,9 @@
     "influencedBy": [],
     "keyAlbums": [
       "eastern-sounds",
-      "the-african-american-epic-suite"
+      "the-african-american-epic-suite",
+      "the-diverse-yusef-lateef",
+      "tenors-of-yusef-lateef-ricky-ford"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Yusef_Lateef",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Yusef_Lateef.jpg"

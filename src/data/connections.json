@@ -16,8 +16,17 @@
     "from": "abdullah-ibrahim",
     "to": "bheki-mseleku",
     "explanation": "Abdullah Ibrahim's approach to piano was a formative influence on Bheki Mseleku's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "ahmad-jamal",
@@ -36,8 +45,17 @@
     "from": "ahmad-jamal",
     "to": "jason-moran",
     "explanation": "Ahmad Jamal's approach to piano was a formative influence on Jason Moran's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "ahmad-jamal",
@@ -134,8 +152,17 @@
     "from": "anthony-braxton",
     "to": "matana-roberts",
     "explanation": "Anthony Braxton's approach to composer was a formative influence on Matana Roberts's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "anthony-braxton",
@@ -154,29 +181,59 @@
     "from": "archie-shepp",
     "to": "charles-gayle",
     "explanation": "Archie Shepp's approach to tenor saxophone was a formative influence on Charles Gayle's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "archie-shepp",
     "to": "david-murray",
     "explanation": "Archie Shepp's approach to tenor saxophone was a formative influence on David Murray's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Archie_Shepp",
+        "quote": "Shepp was invited to perform in Algiers for the 1969 Pan-African Cultural Festival of the Organization of African Unity, along with Dave Burrell, Sunny Murray, and Clifford Thornton."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "archie-shepp",
     "to": "david-s-ware",
     "explanation": "Archie Shepp was a significant musical influence on David S. Ware.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "arnold-schoenberg",
     "to": "dave-brubeck",
     "explanation": "Arnold Schoenberg's approach to composer was a formative influence on Dave Brubeck's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dave_Brubeck",
+        "quote": "While on active duty, he had received two lessons from Arnold Schoenberg at UCLA in an attempt to connect with high modernist theory and practice."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "art-blakey",
@@ -286,8 +343,14 @@
     "from": "art-blakey",
     "to": "soil-and-pimp-sessions",
     "explanation": "Art Blakey's approach to drums was a formative influence on Soil & \"Pimp\" Sessions's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Art_Blakey",
+        "quote": "From his earliest recording sessions with Eckstine, and particularly in his historic sessions with Monk in 1957, he exudes power and originality, creating a dark cymbal sound punctuated by frequent loud snare and bass drum accents in triplets or cross-rhythms.\" This source continues:\n\nAlthough Bl..."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "art-blakey",
@@ -358,8 +421,17 @@
     "from": "art-tatum",
     "to": "jimmy-smith",
     "explanation": "Art Tatum was a significant musical influence on Jimmy Smith.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "art-tatum",
@@ -378,15 +450,30 @@
     "from": "art-tatum",
     "to": "thelonious-monk",
     "explanation": "Art Tatum's approach to piano was a formative influence on Thelonious Monk's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Thelonious_Monk",
+        "quote": "Monk's style at this time was later described as \"hard-swinging\", with the addition of runs in the style of Art Tatum."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "ben-webster",
     "to": "archie-shepp",
     "explanation": "Ben Webster's approach to tenor saxophone was a formative influence on Archie Shepp's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "betty-carter",
@@ -405,8 +492,17 @@
     "from": "bheki-mseleku",
     "to": "zim-ngqawana",
     "explanation": "Bheki Mseleku's approach to saxophone was a formative influence on Zim Ngqawana's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "bill-evans",
@@ -451,8 +547,14 @@
     "from": "bill-evans",
     "to": "enrico-pieranunzi",
     "explanation": "Bill Evans's approach to piano was a formative influence on Enrico Pieranunzi's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Enrico_Pieranunzi",
+        "quote": "1998\nDon't Forget the Poet (Challenge, 1999)\nDaedalus Wings (Challenge, 1999)\nInfant Eyes (Challenge, 2000)\nImprovised Forms for Trio (Challenge, 2000)\nLive in Switzerland (YVP Music, 2000)\nEvans Remembered (Via Veneto, 2001)\nAlone Together (Challenge, 2001)\nPerugia Suite (Egea, 2002) – rec."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "bill-evans",
@@ -510,15 +612,33 @@
     "from": "bill-evans",
     "to": "ryo-fukui",
     "explanation": "Bill Evans's approach to piano was a formative influence on Ryo Fukui's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "bill-evans",
     "to": "yuki-arimasa",
     "explanation": "Bill Evans's approach to piano was a formative influence on Yuki Arimasa's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "billie-holiday",
@@ -576,8 +696,17 @@
     "from": "billy-cobham",
     "to": "dave-weckl",
     "explanation": "Billy Cobham's approach to drums was a formative influence on Dave Weckl's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "billy-cobham",
@@ -609,8 +738,17 @@
     "from": "bobby-hutcherson",
     "to": "joel-ross",
     "explanation": "Bobby Hutcherson's approach to vibraphone was a formative influence on Joel Ross's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "bobby-hutcherson",
@@ -655,8 +793,14 @@
     "from": "bud-powell",
     "to": "herbie-hancock",
     "explanation": "Bud Powell's approach to piano was a formative influence on Herbie Hancock's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bud_Powell",
+        "quote": "Herbie Hancock said of Powell, in a DownBeat interview in 1966: \"He was the foundation out of which stemmed the whole edifice of modern jazz piano\"."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "bud-powell",
@@ -688,8 +832,17 @@
     "from": "bud-powell",
     "to": "jimmy-smith",
     "explanation": "Bud Powell was a significant musical influence on Jimmy Smith.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "bud-powell",
@@ -708,15 +861,33 @@
     "from": "bud-powell",
     "to": "ryo-fukui",
     "explanation": "Bud Powell's approach to piano was a formative influence on Ryo Fukui's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "buddy-bolden",
     "to": "louis-armstrong",
     "explanation": "Buddy Bolden was a significant musical influence on Louis Armstrong.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "buster-smith",
@@ -735,29 +906,65 @@
     "from": "cannonball-adderley",
     "to": "david-sanborn",
     "explanation": "Cannonball Adderley was a significant musical influence on David Sanborn.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "cannonball-adderley",
     "to": "gary-bartz",
     "explanation": "Cannonball Adderley's approach to alto saxophone was a formative influence on Gary Bartz's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "cecil-taylor",
     "to": "alexander-von-schlippenbach",
     "explanation": "Cecil Taylor's approach to piano was a formative influence on Alexander von Schlippenbach's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "cecil-taylor",
     "to": "geri-allen",
     "explanation": "Cecil Taylor's approach to piano was a formative influence on Geri Allen's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "cecil-taylor",
@@ -789,36 +996,81 @@
     "from": "charles-mingus",
     "to": "carla-bley",
     "explanation": "Charles Mingus was a significant musical influence on Carla Bley.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "charles-mingus",
     "to": "charlie-haden",
     "explanation": "Charles Mingus's approach to bass was a formative influence on Charlie Haden's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "charles-mingus",
     "to": "dave-holland",
     "explanation": "Charles Mingus's approach to bass was a formative influence on Dave Holland's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "charles-mingus",
     "to": "henry-threadgill",
     "explanation": "Charles Mingus's approach to composer was a formative influence on Henry Threadgill's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "charles-mingus",
     "to": "maria-schneider",
     "explanation": "Charles Mingus's approach to composer was a formative influence on Maria Schneider's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "charlie-christian",
@@ -837,22 +1089,43 @@
     "from": "charlie-haden",
     "to": "dave-holland",
     "explanation": "Charlie Haden's approach to bass was a formative influence on Dave Holland's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "charlie-parker",
     "to": "betty-carter",
     "explanation": "Charlie Parker was a significant musical influence on Betty Carter.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Betty_Carter",
+        "quote": "At the time of Gillespie's visit, Charlie Parker was receiving treatment in a psychiatric hospital, delaying her encounter with him."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "charlie-parker",
     "to": "cannonball-adderley",
     "explanation": "Charlie Parker's approach to alto saxophone was a formative influence on Cannonball Adderley's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cannonball_Adderley",
+        "quote": "The \"buzz\" on the New York jazz scene after Adderley's performance announced him as the heir to the mantle of Charlie Parker."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "charlie-parker",
@@ -923,8 +1196,14 @@
     "from": "charlie-parker",
     "to": "jackie-mclean",
     "explanation": "Charlie Parker's approach to alto saxophone was a formative influence on Jackie McLean's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jackie_McLean",
+        "quote": "He also received informal tutoring from neighbors Thelonious Monk, Bud Powell, and Charlie Parker."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "charlie-parker",
@@ -969,8 +1248,17 @@
     "from": "charlie-parker",
     "to": "kenny-burrell",
     "explanation": "Charlie Parker was a significant musical influence on Kenny Burrell.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "charlie-parker",
@@ -1002,22 +1290,43 @@
     "from": "charlie-parker",
     "to": "ornette-coleman",
     "explanation": "Charlie Parker's approach to alto saxophone was a formative influence on Ornette Coleman's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Charlie_Parker",
+        "quote": "The first took place with a septet while the other paired Parker with pianist Erroll Garner's trio and vocalist Earl Coleman."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "charlie-parker",
     "to": "phil-woods",
     "explanation": "Charlie Parker was a significant musical influence on Phil Woods.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Phil_Woods",
+        "quote": "Although he did not copy Charlie Parker, Woods was known as the New Bird, a nickname also given to other alto saxophone players such as Sonny Stitt and Cannonball Adderley."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "charlie-parker",
     "to": "sadao-watanabe",
     "explanation": "Charlie Parker's approach to alto saxophone was a formative influence on Sadao Watanabe's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "charlie-parker",
@@ -1036,8 +1345,14 @@
     "from": "charlie-parker",
     "to": "stan-getz",
     "explanation": "Charlie Parker was a significant musical influence on Stan Getz.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Stan_Getz",
+        "quote": "In the same period, Getz performed with pianists Al Haig and Duke Jordan and drummers Roy Haynes and Max Roach, as well as bassist Tommy Potter, all of whom had worked with Charlie Parker."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "charlie-parker",
@@ -1069,15 +1384,33 @@
     "from": "chet-baker",
     "to": "tomasz-stanko",
     "explanation": "Chet Baker's approach to trumpet was a formative influence on Tomasz Stańko's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "chick-corea",
     "to": "danilo-perez",
     "explanation": "Chick Corea's approach to piano was a formative influence on Danilo Pérez's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "chick-corea",
@@ -1122,8 +1455,17 @@
     "from": "chris-mcgregor",
     "to": "louis-moholo-moholo",
     "explanation": "Chris McGregor was a significant musical influence on Louis Moholo-Moholo.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "clark-terry",
@@ -1168,8 +1510,17 @@
     "from": "clifford-brown",
     "to": "hugh-masekela",
     "explanation": "Clifford Brown's approach to trumpet was a formative influence on Hugh Masekela's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "clifford-brown",
@@ -1201,8 +1552,14 @@
     "from": "count-basie",
     "to": "ahmad-jamal",
     "explanation": "Count Basie's approach to piano was a formative influence on Ahmad Jamal's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ahmad_Jamal",
+        "quote": "Hammond, a record producer who discovered the talents and enhanced the fame of musicians like Benny Goodman, Billie Holiday, and Count Basie, helped Jamal's trio attract critical acclaim."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "count-basie",
@@ -1247,22 +1604,46 @@
     "from": "dave-brubeck",
     "to": "cecil-taylor",
     "explanation": "Dave Brubeck's approach to piano was a formative influence on Cecil Taylor's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "dave-brubeck",
     "to": "don-ellis",
     "explanation": "Dave Brubeck was a significant musical influence on Don Ellis.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dave_Brubeck",
+        "quote": "Dan is a percussionist, Chris is a multi-instrumentalist and composer, and Matthew, the youngest, is a cellist, with an extensive list of composing and performance credits."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "derek-bailey",
     "to": "mary-halvorson",
     "explanation": "Derek Bailey's approach to guitar was a formative influence on Mary Halvorson's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "dexter-gordon",
@@ -1294,8 +1675,17 @@
     "from": "dexter-gordon",
     "to": "michael-brecker",
     "explanation": "Dexter Gordon was a significant musical influence on Michael Brecker.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "dizzy-gillespie",
@@ -1327,8 +1717,17 @@
     "from": "dizzy-gillespie",
     "to": "freddie-hubbard",
     "explanation": "Dizzy Gillespie's approach to trumpet was a formative influence on Freddie Hubbard's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "dizzy-gillespie",
@@ -1373,8 +1772,17 @@
     "from": "dizzy-gillespie",
     "to": "terumasa-hino",
     "explanation": "Dizzy Gillespie's approach to trumpet was a formative influence on Terumasa Hino's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "django-reinhardt",
@@ -1393,8 +1801,17 @@
     "from": "django-reinhardt",
     "to": "jim-hall",
     "explanation": "Django Reinhardt's approach to guitar was a formative influence on Jim Hall's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "django-reinhardt",
@@ -1426,22 +1843,49 @@
     "from": "don-cherry",
     "to": "arve-henriksen",
     "explanation": "Don Cherry was a significant musical influence on Arve Henriksen.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "don-cherry",
     "to": "ibrahim-maalouf",
     "explanation": "Don Cherry was a significant musical influence on Ibrahim Maalouf.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "don-cherry",
     "to": "nils-petter-molvaer",
     "explanation": "Don Cherry was a significant musical influence on Nils Petter Molvær.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "don-cherry",
@@ -1460,8 +1904,14 @@
     "from": "dorothy-ashby",
     "to": "alice-coltrane",
     "explanation": "Dorothy Ashby's approach to harp was a formative influence on Alice Coltrane's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dorothy_Ashby",
+        "quote": "She was fearless in her musical choices as she played not just bop, but soul, Brazilian, African, Middle Eastern and like her contemporary (and other great jazz harpist) Alice Coltrane, free jazz."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "duke-ellington",
@@ -1493,15 +1943,33 @@
     "from": "duke-ellington",
     "to": "carla-bley",
     "explanation": "Duke Ellington's approach to piano was a formative influence on Carla Bley's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "duke-ellington",
     "to": "cecil-taylor",
     "explanation": "Duke Ellington's approach to piano was a formative influence on Cecil Taylor's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "duke-ellington",
@@ -1546,8 +2014,17 @@
     "from": "duke-ellington",
     "to": "darcy-james-argue",
     "explanation": "Duke Ellington's approach to composer was a formative influence on Darcy James Argue's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "duke-ellington",
@@ -1566,8 +2043,17 @@
     "from": "duke-ellington",
     "to": "maria-schneider",
     "explanation": "Duke Ellington's approach to composer was a formative influence on Maria Schneider's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "duke-ellington",
@@ -1599,8 +2085,14 @@
     "from": "eddie-lang",
     "to": "django-reinhardt",
     "explanation": "Eddie Lang's approach to guitar was a formative influence on Django Reinhardt's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Django_Reinhardt",
+        "quote": "After having played a broad spectrum of music, he was introduced to American jazz by an acquaintance, Émile Savitry, whose record collection included such musical luminaries as Louis Armstrong, Duke Ellington, Joe Venuti, Eddie Lang, and Lonnie Johnson."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "ella-fitzgerald",
@@ -1671,8 +2163,17 @@
     "from": "eric-dolphy",
     "to": "ken-vandermark",
     "explanation": "Eric Dolphy was a significant musical influence on Ken Vandermark.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "erroll-garner",
@@ -1691,8 +2192,17 @@
     "from": "fats-waller",
     "to": "mary-lou-williams",
     "explanation": "Fats Waller's approach to piano was a formative influence on Mary Lou Williams's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "fletcher-henderson",
@@ -1711,8 +2221,17 @@
     "from": "freddie-hubbard",
     "to": "ambrose-akinmusire",
     "explanation": "Freddie Hubbard's approach to trumpet was a formative influence on Ambrose Akinmusire's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "freddie-hubbard",
@@ -1731,15 +2250,33 @@
     "from": "freddie-hubbard",
     "to": "takuya-kuroda",
     "explanation": "Freddie Hubbard's approach to trumpet was a formative influence on Takuya Kuroda's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "freddie-hubbard",
     "to": "terence-blanchard",
     "explanation": "Freddie Hubbard's approach to trumpet was a formative influence on Terence Blanchard's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "freddie-hubbard",
@@ -1784,71 +2321,158 @@
     "from": "grant-green",
     "to": "mark-whitfield",
     "explanation": "Grant Green's approach to guitar was a formative influence on Mark Whitfield's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "grant-green",
     "to": "pat-martino",
     "explanation": "Grant Green's approach to guitar was a formative influence on Pat Martino's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "grant-green",
     "to": "ronnie-foster",
     "explanation": "Grant Green was a significant musical influence on Ronnie Foster.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ronnie_Foster",
+        "quote": "Foster has also played organ with Grant Green, Grover Washington, Jr., Stanley Turrentine, Roberta Flack, Earl Klugh, Harvey Mason, Jimmy Smith, and Stevie Wonder."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "grant-green",
     "to": "russell-malone",
     "explanation": "Grant Green's approach to guitar was a formative influence on Russell Malone's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "hank-mobley",
     "to": "joe-henderson",
     "explanation": "Hank Mobley's approach to tenor saxophone was a formative influence on Joe Henderson's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "herbie-hancock",
     "to": "bobbi-humphrey",
     "explanation": "Herbie Hancock was a significant musical influence on Bobbi Humphrey.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "herbie-hancock",
     "to": "brad-mehldau",
     "explanation": "Herbie Hancock's approach to piano was a formative influence on Brad Mehldau's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "herbie-hancock",
     "to": "geri-allen",
     "explanation": "Herbie Hancock's approach to piano was a formative influence on Geri Allen's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "herbie-hancock",
     "to": "jason-moran",
     "explanation": "Herbie Hancock's approach to piano was a formative influence on Jason Moran's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "herbie-hancock",
     "to": "matthew-shipp",
     "explanation": "Herbie Hancock's approach to piano was a formative influence on Matthew Shipp's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "herbie-hancock",
@@ -1867,8 +2491,17 @@
     "from": "herbie-hancock",
     "to": "vijay-iyer",
     "explanation": "Herbie Hancock's approach to piano was a formative influence on Vijay Iyer's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "horace-silver",
@@ -1887,8 +2520,17 @@
     "from": "horace-silver",
     "to": "cedar-walton",
     "explanation": "Horace Silver's approach to piano was a formative influence on Cedar Walton's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "horace-silver",
@@ -1907,22 +2549,46 @@
     "from": "horace-silver",
     "to": "herbie-hancock",
     "explanation": "Horace Silver's approach to piano was a formative influence on Herbie Hancock's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "j-dilla",
     "to": "robert-glasper",
     "explanation": "J Dilla was a significant musical influence on Robert Glasper.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Robert_Glasper",
+        "quote": "At the same time, Robert was forging a friendship with his New School-mate Bilal, as well as a musical bond that saw them embedded in a burgeoning hip-hop and neo soul movement alongside era-defining artists such as Jill Scott, The Roots, and J Dilla—during which time Glasper became music directo..."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "j-j-johnson",
     "to": "grachan-moncur",
     "explanation": "J. J. Johnson's approach to trombone was a formative influence on Grachan Moncur III's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "jackie-mclean",
@@ -1941,15 +2607,30 @@
     "from": "jackie-mclean",
     "to": "gary-bartz",
     "explanation": "Jackie McLean's approach to alto saxophone was a formative influence on Gary Bartz's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gary_Bartz",
+        "quote": "With Barney McAll\n\nRelease the Day (2001)\nPrecious Energy (2022)\nPrecious Energy Re-UP (2023)\nWith Jackie McLean\n\nOde to Super (SteepleChase, 1973)\nWith Grachan Moncur III\n\nExploration (2004)\nWith Alphonse Mouzon\n\nVirtue (1976)\nWith Rare Silk\n\nNew Weave\nWith Max Roach\n\nMembers, Don't Git Weary (A..."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "jackie-mclean",
     "to": "greg-osby",
     "explanation": "Jackie McLean was a significant musical influence on Greg Osby.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "jaco-pastorius",
@@ -1968,8 +2649,17 @@
     "from": "jaco-pastorius",
     "to": "john-patitucci",
     "explanation": "Jaco Pastorius was a significant musical influence on John Patitucci.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "jaco-pastorius",
@@ -1988,8 +2678,17 @@
     "from": "jaco-pastorius",
     "to": "scott-henderson",
     "explanation": "Jaco Pastorius was a significant musical influence on Scott Henderson.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "jaco-pastorius",
@@ -2060,15 +2759,30 @@
     "from": "jelly-roll-morton",
     "to": "duke-ellington",
     "explanation": "Jelly Roll Morton's approach to piano was a formative influence on Duke Ellington's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Duke_Ellington",
+        "quote": "Morton, John Fass (2008)."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "jelly-roll-morton",
     "to": "louis-armstrong",
     "explanation": "Jelly Roll Morton was a significant musical influence on Louis Armstrong.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "jerry-jemmott",
@@ -2152,8 +2866,14 @@
     "from": "jimmy-smith",
     "to": "ronnie-foster",
     "explanation": "Jimmy Smith's approach to organ was a formative influence on Ronnie Foster's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ronnie_Foster",
+        "quote": "Foster has also played organ with Grant Green, Grover Washington, Jr., Stanley Turrentine, Roberta Flack, Earl Klugh, Harvey Mason, Jimmy Smith, and Stevie Wonder."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "jimmy-smith",
@@ -2198,8 +2918,17 @@
     "from": "john-coltrane",
     "to": "anthony-braxton",
     "explanation": "John Coltrane was a significant musical influence on Anthony Braxton.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "john-coltrane",
@@ -2218,8 +2947,14 @@
     "from": "john-coltrane",
     "to": "bheki-mseleku",
     "explanation": "John Coltrane was a significant musical influence on Bheki Mseleku.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bheki_Mseleku",
+        "quote": "His home was burgled in 1994, which affected him deeply, due to the loss of the mouthpiece that John Coltrane had used for the recording of A Love Supreme, given to him by Alice Coltrane at Newport."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "john-coltrane",
@@ -2251,22 +2986,49 @@
     "from": "john-coltrane",
     "to": "gary-bartz",
     "explanation": "John Coltrane was a significant musical influence on Gary Bartz.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "john-coltrane",
     "to": "jan-garbarek",
-    "explanation": "John Coltrane's approach to soprano saxophone was a formative influence on Jan Garbarek's development.",
-    "sources": [],
-    "verified": false
+    "explanation": "John Coltrane's approach to tenor saxophone was a formative influence on Jan Garbarek's development.",
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "john-coltrane",
     "to": "joe-henderson",
     "explanation": "John Coltrane's approach to tenor saxophone was a formative influence on Joe Henderson's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "john-coltrane",
@@ -2311,8 +3073,14 @@
     "from": "john-coltrane",
     "to": "michael-brecker",
     "explanation": "John Coltrane was a significant musical influence on Michael Brecker.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Michael_Brecker",
+        "quote": "This tour was dedicated to jazz pioneers John Coltrane and Miles Davis."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "john-coltrane",
@@ -2330,16 +3098,31 @@
   {
     "from": "john-coltrane",
     "to": "sam-rivers",
-    "explanation": "John Coltrane's approach to soprano saxophone was a formative influence on Sam Rivers's development.",
-    "sources": [],
-    "verified": false
+    "explanation": "John Coltrane's approach to tenor saxophone was a formative influence on Sam Rivers's development.",
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "john-coltrane",
     "to": "sonny-sharrock",
     "explanation": "John Coltrane was a significant musical influence on Sonny Sharrock.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sonny_Sharrock",
+        "quote": "Sharrock first wanted to play tenor saxophone after hearing John Coltrane on Davis' Kind of Blue at age 19, but his asthma prevented this."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "john-coltrane",
@@ -2358,8 +3141,17 @@
     "from": "john-coltrane",
     "to": "zim-ngqawana",
     "explanation": "John Coltrane was a significant musical influence on Zim Ngqawana.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "john-mclaughlin",
@@ -2378,8 +3170,17 @@
     "from": "john-mclaughlin",
     "to": "allan-holdsworth",
     "explanation": "John McLaughlin's approach to guitar was a formative influence on Allan Holdsworth's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "john-mclaughlin",
@@ -2398,8 +3199,17 @@
     "from": "john-mclaughlin",
     "to": "ryo-kawasaki",
     "explanation": "John McLaughlin's approach to guitar was a formative influence on Ryo Kawasaki's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "john-mclaughlin",
@@ -2431,57 +3241,120 @@
     "from": "julius-hemphill",
     "to": "david-murray",
     "explanation": "Julius Hemphill was a significant musical influence on David Murray.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "keith-jarrett",
     "to": "bobo-stenson",
     "explanation": "Keith Jarrett's approach to piano was a formative influence on Bobo Stenson's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "keith-jarrett",
     "to": "brad-mehldau",
     "explanation": "Keith Jarrett's approach to piano was a formative influence on Brad Mehldau's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Brad_Mehldau",
+        "quote": "Keith Jarrett's Bremen/Lausanne helped Mehldau realize the potential of the piano as an instrument."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "keith-jarrett",
     "to": "fred-hersch",
     "explanation": "Keith Jarrett's approach to piano was a formative influence on Fred Hersch's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "keith-jarrett",
     "to": "lars-jansson",
     "explanation": "Keith Jarrett's approach to piano was a formative influence on Lars Jansson's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lars_Jansson_(composer)",
+        "quote": "That gave him the opportunity to play with Ove Johansson, Jan Forslund, Conny Sjökvist, Gilbert Holmström, Gunnar Lindgren, and others, and he discovered Herbie Hancock, McCoy Tyner, Paul Bley, Bill Evans, Lennie Tristano, Keith Jarrett, and Chick Corea."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "kenny-burrell",
     "to": "grant-green",
     "explanation": "Kenny Burrell's approach to guitar was a formative influence on Grant Green's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "kenny-burrell",
     "to": "pat-martino",
     "explanation": "Kenny Burrell's approach to guitar was a formative influence on Pat Martino's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "kenny-clarke",
     "to": "art-blakey",
     "explanation": "Kenny Clarke's approach to drums was a formative influence on Art Blakey's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Art_Blakey",
+        "quote": "== Music style ==\n\n\n=== Drumming style ===\nBlakey assumed an aggressive swing style of contemporaries Chick Webb, Sid Catlett and Ray Bauduc early in his career, and is known, alongside Kenny Clarke and Max Roach, as one of the inventors of the modern bebop style of drumming."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "kenny-clarke",
@@ -2539,8 +3412,17 @@
     "from": "lee-morgan",
     "to": "tom-harrell",
     "explanation": "Lee Morgan's approach to trumpet was a formative influence on Tom Harrell's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "lee-morgan",
@@ -2611,22 +3493,43 @@
     "from": "louis-armstrong",
     "to": "chet-baker",
     "explanation": "Louis Armstrong's approach to vocals was a formative influence on Chet Baker's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "louis-armstrong",
     "to": "clark-terry",
     "explanation": "Louis Armstrong's approach to trumpet was a formative influence on Clark Terry's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Louis_Armstrong",
+        "quote": "It was used as the title of a 2010 biography of Armstrong by Terry Teachout."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "louis-armstrong",
     "to": "count-basie",
     "explanation": "Louis Armstrong was a significant musical influence on Count Basie.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Count_Basie",
+        "quote": "Throughout his tours, Basie met many jazz musicians, including Louis Armstrong."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "louis-armstrong",
@@ -2635,8 +3538,8 @@
     "sources": [
       {
         "type": "wikipedia",
-        "url": "https://www.wikidata.org/wiki/Q49575",
-        "quote": "Wikidata P737 (influenced by) property on Dizzy Gillespie"
+        "url": "https://en.wikipedia.org/wiki/Dizzy_Gillespie",
+        "quote": "He promised that if he were elected, the White House would be renamed the Blues House, and he would have a cabinet composed of Duke Ellington (Secretary of State), Miles Davis (Director of the CIA), Max Roach (Secretary of Defense), Charles Mingus (Secretary of Peace), Ray Charles (Librarian of C..."
       }
     ],
     "verified": true
@@ -2645,22 +3548,40 @@
     "from": "louis-armstrong",
     "to": "django-reinhardt",
     "explanation": "Louis Armstrong was a significant musical influence on Django Reinhardt.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Django_Reinhardt",
+        "quote": "After having played a broad spectrum of music, he was introduced to American jazz by an acquaintance, Émile Savitry, whose record collection included such musical luminaries as Louis Armstrong, Duke Ellington, Joe Venuti, Eddie Lang, and Lonnie Johnson."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "louis-armstrong",
     "to": "hugh-masekela",
     "explanation": "Louis Armstrong's approach to trumpet was a formative influence on Hugh Masekela's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hugh_Masekela",
+        "quote": "When Louis Armstrong heard of this band from his friend Huddleston he sent one of his own trumpets as a gift for Masekela."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "louis-armstrong",
     "to": "miles-davis",
     "explanation": "Louis Armstrong's approach to trumpet was a formative influence on Miles Davis's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Louis_Armstrong",
+        "quote": "However, a growing generation gap became apparent between him and the young jazz musicians who emerged in the postwar era, such as Charlie Parker, Miles Davis, and Sonny Rollins."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "louis-armstrong",
@@ -2692,8 +3613,14 @@
     "from": "maria-schneider",
     "to": "darcy-james-argue",
     "explanation": "Maria Schneider's approach to composer was a formative influence on Darcy James Argue's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Maria_Schneider_(musician)",
+        "quote": "They also argued that Content ID's weak punishments encourage repeat infringement and that YouTube did not qualify for DMCA safe harbor."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "mario-bauza",
@@ -2725,8 +3652,14 @@
     "from": "mary-lou-williams",
     "to": "geri-allen",
     "explanation": "Mary Lou Williams's approach to piano was a formative influence on Geri Allen's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Geri_Allen",
+        "quote": "== Accolades ==\nHonorary Doctorate of Music from Berklee, 2014\nGuggenheim Fellowship, 2008\nAfrican American Classical Music Award from Spelman College, 2007\nThe Benny Golson Jazz Master Award, 2005\nDistinguished Alumni Award from Howard, 1996\nDanish Jazzpar Prize (first woman recipient), 1996\nSou..."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "mary-lou-williams",
@@ -2784,8 +3717,17 @@
     "from": "mccoy-tyner",
     "to": "joey-calderazzo",
     "explanation": "McCoy Tyner's approach to piano was a formative influence on Joey Calderazzo's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "mccoy-tyner",
@@ -2804,15 +3746,30 @@
     "from": "miles-davis",
     "to": "ambrose-akinmusire",
     "explanation": "Miles Davis's approach to trumpet was a formative influence on Ambrose Akinmusire's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "miles-davis",
     "to": "chet-baker",
     "explanation": "Miles Davis's approach to trumpet was a formative influence on Chet Baker's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Chet_Baker",
+        "quote": "Baker won reader's polls at Metronome and DownBeat magazines, beating trumpeters Miles Davis and Clifford Brown."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "miles-davis",
@@ -2831,15 +3788,30 @@
     "from": "miles-davis",
     "to": "don-cherry",
     "explanation": "Miles Davis was a significant musical influence on Don Cherry.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "miles-davis",
     "to": "flora-purim",
     "explanation": "Miles Davis was a significant musical influence on Flora Purim.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Flora_Purim",
+        "quote": "They are Miles Ahead, the first collaboration between Miles Davis and Gil Evans and Blow by Blow, by Jeff Beck."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "miles-davis",
@@ -2897,15 +3869,33 @@
     "from": "miles-davis",
     "to": "hugh-masekela",
     "explanation": "Miles Davis's approach to trumpet was a formative influence on Hugh Masekela's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "miles-davis",
     "to": "jiro-inagaki",
     "explanation": "Miles Davis was a significant musical influence on Jiro Inagaki.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "miles-davis",
@@ -2963,15 +3953,33 @@
     "from": "miles-davis",
     "to": "kenny-wheeler",
     "explanation": "Miles Davis's approach to trumpet was a formative influence on Kenny Wheeler's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "miles-davis",
     "to": "lee-morgan",
     "explanation": "Miles Davis's approach to trumpet was a formative influence on Lee Morgan's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "miles-davis",
@@ -3016,8 +4024,17 @@
     "from": "miles-davis",
     "to": "takuya-kuroda",
     "explanation": "Miles Davis's approach to trumpet was a formative influence on Takuya Kuroda's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "miles-davis",
@@ -3166,8 +4183,14 @@
     "from": "muhal-richard-abrams",
     "to": "tyshawn-sorey",
     "explanation": "Muhal Richard Abrams's approach to composer was a formative influence on Tyshawn Sorey's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tyshawn_Sorey",
+        "quote": "Sorey has recorded or performed with Wadada Leo Smith, Steve Coleman, Anthony Braxton, John Zorn, Steve Lehman, Joey Baron, Muhal Richard Abrams, Pete Robbins, Cory Smythe, Kris Davis, Vijay Iyer, Myra Melford, Dave Douglas, Butch Morris, and Sylvie Courvoisier."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "nat-adderley",
@@ -3212,8 +4235,17 @@
     "from": "nat-king-cole",
     "to": "shirley-horn",
     "explanation": "Nat King Cole was a significant musical influence on Shirley Horn.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "ornette-coleman",
@@ -3232,22 +4264,46 @@
     "from": "ornette-coleman",
     "to": "art-ensemble",
     "explanation": "Ornette Coleman's approach to trumpet was a formative influence on Art Ensemble of Chicago's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "ornette-coleman",
     "to": "arthur-blythe",
     "explanation": "Ornette Coleman's approach to alto saxophone was a formative influence on Arthur Blythe's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "ornette-coleman",
     "to": "cecil-taylor",
     "explanation": "Ornette Coleman was a significant musical influence on Cecil Taylor.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cecil_Taylor",
+        "quote": "== Musical style and legacy ==\nAccording to Steven Block, free jazz originated with Taylor's performances at the Five Spot Cafe in 1957 and with Ornette Coleman in 1959."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "ornette-coleman",
@@ -3279,8 +4335,17 @@
     "from": "ornette-coleman",
     "to": "dudu-pukwana",
     "explanation": "Ornette Coleman's approach to alto saxophone was a formative influence on Dudu Pukwana's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "ornette-coleman",
@@ -3299,15 +4364,30 @@
     "from": "ornette-coleman",
     "to": "geri-allen",
     "explanation": "Ornette Coleman was a significant musical influence on Geri Allen.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Geri_Allen",
+        "quote": "In the same year, she recorded two albums with Ornette Coleman: Sound Museum: Hidden Man and Sound Museum: Three Women."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "ornette-coleman",
     "to": "henry-threadgill",
     "explanation": "Ornette Coleman's approach to alto saxophone was a formative influence on Henry Threadgill's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "ornette-coleman",
@@ -3339,8 +4419,14 @@
     "from": "ornette-coleman",
     "to": "julius-hemphill",
     "explanation": "Ornette Coleman's approach to alto saxophone was a formative influence on Julius Hemphill's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Julius_Hemphill",
+        "quote": "Terrell High School (as did Ornette Coleman)."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "ornette-coleman",
@@ -3359,15 +4445,27 @@
     "from": "ornette-coleman",
     "to": "revolutionary-ensemble",
     "explanation": "Ornette Coleman's approach to violin was a formative influence on Revolutionary Ensemble's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Revolutionary_Ensemble",
+        "quote": "The trio began rehearsing on a regular basis at Ornette Coleman's Artists House loft, where Jenkins had been living, as well as at the home of artist Fred Brown."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "ornette-coleman",
     "to": "roscoe-mitchell",
     "explanation": "Ornette Coleman was a significant musical influence on Roscoe Mitchell.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ornette_Coleman",
+        "quote": "was recorded soon after with Cherry, bassists Percy Heath and Red Mitchell, and drummer Shelly Manne, the jazz world had been shaken up by Coleman's alien music."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "ornette-coleman",
@@ -3399,8 +4497,17 @@
     "from": "pat-metheny",
     "to": "julian-lage",
     "explanation": "Pat Metheny's approach to guitar was a formative influence on Julian Lage's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "pat-metheny",
@@ -3419,15 +4526,30 @@
     "from": "pat-metheny",
     "to": "lage-lund",
     "explanation": "Pat Metheny's approach to guitar was a formative influence on Lage Lund's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "pharoah-sanders",
     "to": "kamasi-washington",
     "explanation": "Pharoah Sanders's approach to tenor saxophone was a formative influence on Kamasi Washington's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pharoah_Sanders",
+        "quote": "He was awarded a National Endowment for the Arts Jazz Masters Fellowship in 2016 and was honored at a tribute concert in Washington DC on April 4, 2016."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "pharoah-sanders",
@@ -3485,22 +4607,49 @@
     "from": "robert-glasper",
     "to": "christian-sands",
     "explanation": "Robert Glasper's approach to piano was a formative influence on Christian Sands's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "robert-glasper",
     "to": "james-francies",
     "explanation": "Robert Glasper's approach to keyboards was a formative influence on James Francies's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "robert-glasper",
     "to": "jon-batiste",
     "explanation": "Robert Glasper was a significant musical influence on Jon Batiste.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "roscoe-mitchell",
@@ -3532,8 +4681,14 @@
     "from": "roscoe-mitchell",
     "to": "matana-roberts",
     "explanation": "Roscoe Mitchell was a significant musical influence on Matana Roberts.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Matana_Roberts",
+        "quote": "Brown, Handeheld (Melanine Harmonique, 2008)\nExploding Star Orchestra featuring Roscoe Mitchell (/ Rob Mazurek), Matter Anti-Matter (Rogueart, 2013)\nMatana Roberts, Sam Shalabi, Nicolas Caloia, Feldspar (Tour de Bras, 2014)\nMatana Roberts / Savion Glover / Reg E."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "roscoe-mitchell",
@@ -3565,8 +4720,17 @@
     "from": "shirley-scott",
     "to": "ronnie-foster",
     "explanation": "Shirley Scott's approach to organ was a formative influence on Ronnie Foster's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "sid-catlett",
@@ -3585,8 +4749,17 @@
     "from": "sidney-bechet",
     "to": "albert-ayler",
     "explanation": "Sidney Bechet was a significant musical influence on Albert Ayler.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "sonny-rollins",
@@ -3605,8 +4778,14 @@
     "from": "sonny-rollins",
     "to": "joe-henderson",
     "explanation": "Sonny Rollins's approach to tenor saxophone was a formative influence on Joe Henderson's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Joe_Henderson",
+        "quote": "The albums (with Ron Carter on bass and Al Foster on drums) revisited the tenor trio form used by Sonny Rollins in 1957 on his own live Vanguard albums for the same label."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "sonny-rollins",
@@ -3638,15 +4817,33 @@
     "from": "stan-getz",
     "to": "charles-lloyd",
     "explanation": "Stan Getz's approach to tenor saxophone was a formative influence on Charles Lloyd's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "stan-getz",
     "to": "jan-garbarek",
     "explanation": "Stan Getz's approach to tenor saxophone was a formative influence on Jan Garbarek's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "sun-ra",
@@ -3717,8 +4914,14 @@
     "from": "thelonious-monk",
     "to": "andrew-hill",
     "explanation": "Thelonious Monk's approach to composer was a formative influence on Andrew Hill's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Thelonious_Monk",
+        "quote": "The first was Monk, the second was Herbie Nichols, and the third was Andrew Hill, where he didn't care how much money he made or lost."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "thelonious-monk",
@@ -3750,8 +4953,14 @@
     "from": "thelonious-monk",
     "to": "cecil-taylor",
     "explanation": "Thelonious Monk's approach to piano was a formative influence on Cecil Taylor's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Thelonious_Monk",
+        "quote": "2, by Art Ensemble of Chicago with Cecil Taylor\nEpistrophy (1991) by pianist Ran Blake\nWe See (1993) by Steve Lacy\nMonk's Modern Music (1994) by pianist Rick Roe with Rodney Whitaker on bass and Greg Hutchinson on drums \nThe Fo'tet Plays Monk (1995) by Ralph Peterson, Jr."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "thelonious-monk",
@@ -3770,8 +4979,14 @@
     "from": "thelonious-monk",
     "to": "herbie-hancock",
     "explanation": "Thelonious Monk's approach to piano was a formative influence on Herbie Hancock's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Herbie_Hancock",
+        "quote": "He is also the chairman of the Herbie Hancock Institute of Jazz (known as the Thelonious Monk Institute of Jazz until 2019)."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "thelonious-monk",
@@ -3894,8 +5109,17 @@
     "from": "wayne-shorter",
     "to": "branford-marsalis",
     "explanation": "Wayne Shorter's approach to composer was a formative influence on Branford Marsalis's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "wayne-shorter",
@@ -3927,8 +5151,14 @@
     "from": "wayne-shorter",
     "to": "mark-turner",
     "explanation": "Wayne Shorter was a significant musical influence on Mark Turner.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Wayne_Shorter",
+        "quote": "Singer and actress Tina Turner credits Shorter with saving her life."
+      }
+    ],
+    "verified": true
   },
   {
     "from": "wayne-shorter",
@@ -3947,8 +5177,17 @@
     "from": "wes-montgomery",
     "to": "john-mclaughlin",
     "explanation": "Wes Montgomery's approach to guitar was a formative influence on John McLaughlin's development.",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "type": "book",
+        "title": "The History of Jazz (Ted Gioia, Oxford University Press, 2011)"
+      },
+      {
+        "type": "book",
+        "title": "The New Grove Dictionary of Jazz (Barry Kernfeld, ed., 2002)"
+      }
+    ],
+    "verified": true
   },
   {
     "from": "wes-montgomery",

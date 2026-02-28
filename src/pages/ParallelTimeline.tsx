@@ -236,7 +236,12 @@ function EventCard({ event, config, relatedArtists }: EventCardProps) {
       </div>
       <h3 className="font-semibold text-white text-sm mb-1">{event.title}</h3>
       <p className="text-zinc-400 text-xs leading-relaxed mb-2">{event.description}</p>
-      <p className="text-zinc-300 text-xs leading-relaxed italic mb-3">{event.jazzConnection}</p>
+      <div
+        className="p-2 rounded-lg bg-zinc-800/50 border-l-2 mb-3"
+        style={{ borderLeftColor: config.color + '60' }}
+      >
+        <p className="text-zinc-300 text-xs leading-relaxed">{event.jazzConnection}</p>
+      </div>
 
       {/* Related artist chips */}
       {relatedArtists.length > 0 && (

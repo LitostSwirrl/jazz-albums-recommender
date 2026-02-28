@@ -127,7 +127,7 @@ function InfluenceGraphInner() {
           strokeDasharray: isPathEdge ? undefined : edge.style?.strokeDasharray,
           opacity: 1,
         },
-        animated: isPathEdge,
+        animated: false,
         markerEnd: edge.markerEnd,
       };
     });
@@ -333,7 +333,7 @@ function InfluenceGraphInner() {
           >
             All Styles
           </button>
-          {['modal jazz', 'hard bop', 'bebop', 'free jazz', 'fusion', 'cool jazz', 'soul jazz', 'post-bop', 'avant-garde'].map((genre) => (
+          {['modal jazz', 'hard bop', 'bebop', 'free jazz', 'jazz fusion', 'cool jazz', 'soul jazz', 'post-bop', 'avant-garde jazz', 'spiritual jazz', 'latin jazz'].map((genre) => (
             <button
               key={genre}
               onClick={() => setGenreFilter(genreFilter === genre ? null : genre)}

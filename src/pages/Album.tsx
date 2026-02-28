@@ -93,7 +93,14 @@ export function Album() {
           </div>
 
           <div className="flex flex-wrap gap-2 mt-4">
-            {album.genres.map((genre) => (
+            {album.genres
+              .filter((g) => {
+                if (!era) return true;
+                const genreLower = g.toLowerCase();
+                const eraParts = era.name.toLowerCase().split('/').map((s) => s.trim());
+                return !eraParts.some((part) => part === genreLower);
+              })
+              .map((genre) => (
               <Link
                 key={genre}
                 to={`/albums?genre=${encodeURIComponent(genre)}`}
@@ -113,6 +120,16 @@ export function Album() {
 
         <h3 className="text-xl font-semibold mb-3 text-amber-400">Why It Matters</h3>
         <p className="text-zinc-300 leading-relaxed">{album.significance}</p>
+        {album.wikipedia && (
+          <a
+            href={album.wikipedia}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-4 text-amber-400 hover:text-amber-300"
+          >
+            Read more on Wikipedia →
+          </a>
+        )}
       </section>
 
       {/* Historical Context */}
@@ -250,7 +267,7 @@ export function Album() {
       {/* Related Albums */}
       <section>
         <h2 className="text-2xl font-bold mb-6">Discover More</h2>
-        <RelatedAlbums currentAlbum={album} allAlbums={albums} />
+        <RelatedAlbums currentAlbum={album} allAlbums={albums} allArtists={artists} />
       </section>
     </div>
   );
