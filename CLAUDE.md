@@ -4,7 +4,7 @@ A personal jazz listening guide and companion application.
 
 ## Project Overview
 
-This is a static reference site to explore jazz history, discover 758 curated albums, and understand connections between 262 artists across different eras.
+This is a static reference site to explore jazz history, discover 1000 curated albums, and understand connections between 275 artists across different eras.
 
 ## Tech Stack
 
@@ -70,11 +70,11 @@ Content is curated from reliable sources:
 ## Current Status
 
 ✅ **Phase 1: Foundation** - COMPLETE
-✅ **Phase 2: Core Content** - 758 albums, 262 artists added
+✅ **Phase 2: Core Content** - 1000 albums, 275 artists added
 ✅ **Phase 3: Visualization** - Artist influence graph with 377 connections
 
 ## Content Stats
-- **Albums**: 758 curated albums across all eras
-- **Artists**: 262 jazz legends with full bios
+- **Albums**: 1000 curated albums across all eras
+- **Artists**: 275 jazz legends with full bios
 - **Eras**: 8 distinct periods from 1920s to present
 - **Connections**: 377 source-verified artist connections

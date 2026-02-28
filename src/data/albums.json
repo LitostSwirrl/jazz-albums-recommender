@@ -49,6 +49,186 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Hot_Fives_%26_Sevens"
   },
   {
+    "id": "bix-beiderbecke-and-the-chicago-cornets",
+    "title": "Bix Beiderbecke and the Chicago Cornets",
+    "artist": "Bix Beiderbecke",
+    "artistId": "bix-beiderbecke",
+    "year": 1926,
+    "label": "Unknown",
+    "era": "early-jazz",
+    "genres": [
+      "contemporary jazz"
+    ],
+    "description": "With Bix Beiderbecke and the Chicago Cornets (1926), Bix Beiderbecke crafts a contemporary jazz session that balances technical mastery and emotional depth. The recording reflects the communal, improvisational spirit of early jazz.",
+    "significance": "Demonstrates Bix Beiderbecke's command of contemporary jazz and their place within the broader jazz lineage.",
+    "keyTracks": [],
+    "coverUrl": "",
+    "appleMusicUrl": "https://music.apple.com/us/album/bix-beiderbecke-and-the-chicago-cornets/1412822323?uo=4"
+  },
+  {
+    "id": "singin-the-blues-beiderbecke",
+    "title": "Singin' the Blues",
+    "artist": "Bix Beiderbecke",
+    "artistId": "bix-beiderbecke",
+    "year": 1927,
+    "label": "Unknown",
+    "era": "early-jazz",
+    "genres": [
+      "contemporary jazz"
+    ],
+    "description": "Singin' the Blues is the first LP album by American bluesman B.B. King, released in 1957 by the Bihari brothers on their Crown budget label. It is a compilation album whose songs were issued between 1951 and 1956 on singles by RPM Records and most had reached the Top 10 on Billboard's Race/R&B singles charts. King continued to perform and record several of the songs throughout his career, such as \"Every Day I Have the Blues\", \"Woke Up This Morning\", and \"Sweet Little Angel\".",
+    "significance": "A noteworthy album in Bix Beiderbecke's body of work within the early jazz tradition.",
+    "keyTracks": [],
+    "coverUrl": "",
+    "appleMusicUrl": "https://music.apple.com/us/album/bix-beiderbecke-vol-i-singin-the-blues/193147812?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Singin'_the_Blues"
+  },
+  {
+    "id": "aint-misbehavin-waller",
+    "title": "Ain't Misbehavin'",
+    "artist": "Fats Waller",
+    "artistId": "fats-waller",
+    "year": 1929,
+    "label": "Unknown",
+    "era": "early-jazz",
+    "genres": [
+      "early jazz"
+    ],
+    "description": "First released in 1929, Ain't Misbehavin' is an essential chapter in Fats Waller's recorded output, rooted in early jazz. The recording reflects the communal, improvisational spirit of early jazz.",
+    "significance": "Represents a key chapter in Fats Waller's evolving artistic vision.",
+    "keyTracks": [],
+    "coverUrl": "",
+    "appleMusicUrl": "https://music.apple.com/us/album/aint-misbehavin/1152534183?uo=4",
+    "spotifyUrl": "https://open.spotify.com/album/4ZJUujJNkQChPMUecepdCu"
+  },
+  {
+    "id": "quintette-du-hot-club-de-france",
+    "title": "Quintette du Hot Club de France",
+    "artist": "Django Reinhardt",
+    "artistId": "django-reinhardt",
+    "year": 1934,
+    "label": "Unknown",
+    "era": "swing",
+    "genres": [
+      "swing",
+      "big band"
+    ],
+    "description": "The Quintette du Hot Club de France, often abbreviated \"QdHCdF\" or \"QHCF\", was a jazz group founded in France in 1934 by the guitarist Django Reinhardt and the violinist Stéphane Grappelli. It was active in one form or another until 1948.",
+    "significance": "An essential document of Django Reinhardt's artistry during the swing era period.",
+    "keyTracks": [],
+    "coverUrl": "",
+    "appleMusicUrl": "https://music.apple.com/us/album/quintette-du-hot-club-de-france/696084052?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Quintette_du_Hot_Club_de_France",
+    "spotifyUrl": "https://open.spotify.com/album/3ER7iEz2tNyD7NT36ZNIAb"
+  },
+  {
+    "id": "rhythm-is-our-business",
+    "title": "Rhythm Is Our Business",
+    "artist": "Jimmie Lunceford",
+    "artistId": "jimmie-lunceford",
+    "year": 1934,
+    "label": "Unknown",
+    "era": "swing",
+    "genres": [
+      "contemporary jazz"
+    ],
+    "description": "With Rhythm Is Our Business (1934), Jimmie Lunceford crafts a contemporary jazz session that balances technical mastery and emotional depth.",
+    "significance": "Adds to Jimmie Lunceford's reputation as a leading voice in contemporary jazz.",
+    "keyTracks": [],
+    "coverUrl": "",
+    "appleMusicUrl": "https://music.apple.com/us/album/167254948",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rhythm_Is_Our_Business"
+  },
+  {
+    "id": "for-dancers-only-lunceford",
+    "title": "For Dancers Only",
+    "artist": "Jimmie Lunceford",
+    "artistId": "jimmie-lunceford",
+    "year": 1937,
+    "label": "Unknown",
+    "era": "swing",
+    "genres": [
+      "contemporary jazz"
+    ],
+    "description": "For Dancers Only is an album by jazz pianist Junior Mance and bassist Martin Rivera that was released on the Sackville label in 1983. Though the front cover credits the album to Junior Mance and Martin Rivera, the spine and disc label both credit it to Junior Mance alone, and the liner notes characterize Rivera as a sideman.",
+    "significance": "A noteworthy album in Jimmie Lunceford's body of work within the swing era tradition.",
+    "keyTracks": [],
+    "coverUrl": "",
+    "appleMusicUrl": "https://music.apple.com/us/album/for-dancers-only-us-release/1443856876?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/For_Dancers_Only"
+  },
+  {
+    "id": "the-joint-is-jumpin",
+    "title": "The Joint Is Jumpin'",
+    "artist": "Fats Waller",
+    "artistId": "fats-waller",
+    "year": 1937,
+    "label": "Unknown",
+    "era": "swing",
+    "genres": [
+      "early jazz"
+    ],
+    "description": "With The Joint Is Jumpin' (1937), Fats Waller crafts a early jazz session that balances technical mastery and emotional depth.",
+    "significance": "Adds to Fats Waller's reputation as a leading voice in early jazz.",
+    "keyTracks": [],
+    "coverUrl": "",
+    "appleMusicUrl": "https://music.apple.com/us/album/the-joint-is-jumpin/1497788670?uo=4",
+    "spotifyUrl": "https://open.spotify.com/album/5LLjKuJLsR8NlGibxNlRhK"
+  },
+  {
+    "id": "jack-teagarden-big-eight",
+    "title": "Jack Teagarden's Big Eight / Pee Wee Russell's Rhythmakers",
+    "artist": "Jack Teagarden",
+    "artistId": "jack-teagarden",
+    "year": 1938,
+    "label": "Unknown",
+    "era": "swing",
+    "genres": [
+      "contemporary jazz"
+    ],
+    "description": "With Jack Teagarden's Big Eight / Pee Wee Russell's Rhythmakers (1938), Jack Teagarden crafts a contemporary jazz session that balances technical mastery and emotional depth. The arrangement carries the rhythmic drive and ensemble polish of the swing era.",
+    "significance": "Represents a key chapter in Jack Teagarden's evolving artistic vision.",
+    "keyTracks": [],
+    "coverUrl": ""
+  },
+  {
+    "id": "lunceford-special",
+    "title": "Lunceford Special",
+    "artist": "Jimmie Lunceford",
+    "artistId": "jimmie-lunceford",
+    "year": 1940,
+    "label": "Unknown",
+    "era": "swing",
+    "genres": [
+      "contemporary jazz"
+    ],
+    "description": "Lunceford Special, released in 1940, captures Jimmie Lunceford at a creative peak, blending contemporary jazz with personal expression. The performances bristle with the harmonic daring and velocity that defined bebop.",
+    "significance": "An essential document of Jimmie Lunceford's artistry during the bebop period.",
+    "keyTracks": [],
+    "coverUrl": "",
+    "appleMusicUrl": "https://music.apple.com/us/album/lunceford-special/291377571?uo=4"
+  },
+  {
+    "id": "django-reinhardt-et-son-quintette",
+    "title": "Nuages",
+    "artist": "Django Reinhardt",
+    "artistId": "django-reinhardt",
+    "year": 1940,
+    "label": "Unknown",
+    "era": "swing",
+    "genres": [
+      "swing",
+      "big band"
+    ],
+    "description": "\"Nuages\" is one of the best-known compositions by Django Reinhardt. He recorded at least thirteen versions of the tune, which is a jazz standard and a mainstay of the gypsy swing repertoire. English and French lyrics have been added to the piece, which was originally an instrumental work. The title translated into English is \"Clouds\", but the adaptation with English lyrics is titled \"It's the Bluest Kind of Blues\".",
+    "significance": "An important entry in Django Reinhardt's discography, showcasing their contribution to swing.",
+    "keyTracks": [],
+    "coverUrl": "",
+    "appleMusicUrl": "https://music.apple.com/us/album/nuages/1443281972?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nuages",
+    "spotifyUrl": "https://open.spotify.com/album/6VNknNIbmdzuIrtApjCYy7"
+  },
+  {
     "id": "zodiac-suite",
     "title": "The Zodiac Suite",
     "artist": "Mary Lou Williams",
@@ -141,7 +321,8 @@
       "I Mean You",
       "Thelonious"
     ],
-    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fa87f990c-88ff-4f6c-9014-e7a200a294b4%2F32953962253-500.jpg&w=500&output=webp"
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fa87f990c-88ff-4f6c-9014-e7a200a294b4%2F32953962253-500.jpg&w=500&output=webp",
+    "spotifyUrl": "https://open.spotify.com/album/3dw9k0UHKn25TfksiJuNGE"
   },
   {
     "id": "gone-with-garner",
@@ -206,7 +387,8 @@
     "keyTracks": [],
     "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/88/34/54/mzi.jfmfsusp.jpg/600x600bb.jpg",
     "appleMusicUrl": "https://music.apple.com/us/album/masterpieces-by-ellington/216994034?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Masterpieces_by_Ellington"
+    "wikipedia": "https://en.wikipedia.org/wiki/Masterpieces_by_Ellington",
+    "spotifyUrl": "https://open.spotify.com/album/3R9yODkiRDJsege1C8HduR"
   },
   {
     "id": "modern-jazz-trumpets",
@@ -221,6 +403,29 @@
     ],
     "description": "Modern Jazz Trumpets is an album released by Prestige Records in 1951 with music by four jazz trumpeters: Fats Navarro, Dizzy Gillespie, Miles Davis and Kenny Dorham. The album was released on the 10\" LP format and includes the first recordings by Davis for Prestige.",
     "significance": "An important entry in Kenny Dorham's discography, showcasing their contribution to jazz.",
+    "keyTracks": [
+      "Dynamo",
+      "About Midnight",
+      "Diggin’ Dizzy",
+      "When I Grow Too Old",
+      "Move"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Ff5453a0d-414c-4974-b26f-9ceea9b35887%2F38624907346-500.jpg&w=500&output=webp",
+    "wikipedia": "https://en.wikipedia.org/wiki/Modern_Jazz_Trumpets"
+  },
+  {
+    "id": "modern-jazz-trumpets-davis",
+    "title": "Modern Jazz Trumpets",
+    "artist": "Miles Davis",
+    "artistId": "miles-davis",
+    "year": 1951,
+    "label": "Prestige",
+    "era": "bebop",
+    "genres": [
+      "bebop"
+    ],
+    "description": "Modern Jazz Trumpets is an album released by Prestige Records in 1951 with music by four jazz trumpeters: Fats Navarro, Dizzy Gillespie, Miles Davis and Kenny Dorham. The album was released on the 10\" LP format and includes the first recordings by Davis for Prestige.",
+    "significance": "An essential document of Miles Davis's artistry during the bebop period.",
     "keyTracks": [
       "Dynamo",
       "About Midnight",
@@ -326,7 +531,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F48cb5326-8573-4434-903c-387e84ced0d0%2F33851838036-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/bird-and-diz-expanded-edition/1435957132?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Bird_and_Diz"
+    "wikipedia": "https://en.wikipedia.org/wiki/Bird_and_Diz",
+    "spotifyUrl": "https://open.spotify.com/album/7LVNnSl6UhjkLepWoPLqg1"
   },
   {
     "id": "dizzy-gillespie-and-modern-trumpets",
@@ -351,6 +557,29 @@
     "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/29/a5/b9/29a5b96c-8d4c-74c5-a886-58623e33de4c/mzi.gemrcyis.jpg/600x600bb.jpg"
   },
   {
+    "id": "on-parade",
+    "title": "On Parade",
+    "artist": "Sidney Bechet",
+    "artistId": "sidney-bechet",
+    "year": 1952,
+    "label": "Disques Vogue",
+    "era": "early-jazz",
+    "genres": [
+      "early jazz"
+    ],
+    "description": "Released on Disques Vogue in 1952, On Parade is a compelling jazz statement by Sidney Bechet. The performances bristle with the harmonic daring and velocity that defined bebop. Highlights include 'Le marchand de poissons' and 'Si tu vois ma mère'.",
+    "significance": "Represents a key chapter in Sidney Bechet's evolving artistic vision.",
+    "keyTracks": [
+      "Le marchand de poissons",
+      "Si tu vois ma mère",
+      "Wabash Blues",
+      "Dans les rues d'Antibes",
+      "Strike up the Band"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F750ad93e-d41a-4af9-99ca-97d5e9b6ea4f%2F23772169033-500.jpg&w=500&output=webp",
+    "wikipedia": "https://en.wikipedia.org/wiki/On_Parade"
+  },
+  {
     "id": "solo-flight",
     "title": "Solo Flight",
     "artist": "Erroll Garner",
@@ -373,6 +602,28 @@
     "coverUrl": "https://coverartarchive.org/release/26430f09-d9b1-4c76-961a-0b9896b203b3/26878499647-500.jpg",
     "appleMusicUrl": "https://music.apple.com/us/album/solo-time-the-erroll-garner-collection-vol-4-5/1444154304",
     "spotifyUrl": "https://open.spotify.com/album/0u5ZFXg2N7BbHaw4JNd2W1"
+  },
+  {
+    "id": "young-man-with-a-horn",
+    "title": "Young Man With a Horn",
+    "artist": "Miles Davis",
+    "artistId": "miles-davis",
+    "year": 1952,
+    "label": "Blue Note",
+    "era": "bebop",
+    "genres": [
+      "bebop"
+    ],
+    "description": "Young Man With a Horn documents a 1952 studio date for Blue Note, with Miles Davis leading a tight jazz ensemble. Highlights include 'Dear Old Stockholm' and 'Would'n You'.",
+    "significance": "Demonstrates Miles Davis's command of jazz and their place within the broader jazz lineage.",
+    "keyTracks": [
+      "Dear Old Stockholm",
+      "Would'n You",
+      "Yesterdays",
+      "Chance It",
+      "Donna"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Faf3a09c5-d484-4091-abb1-382a06aae029%2F3666853310-500.jpg&w=500&output=webp"
   },
   {
     "id": "holiday-in-piano",
@@ -445,7 +696,8 @@
       "Bounce Blues"
     ],
     "coverUrl": "https://coverartarchive.org/release/6f5a29be-1014-4361-bc95-3c57126f5084/24870052189-500.jpg",
-    "appleMusicUrl": "https://music.apple.com/us/album/king-of-the-tenors-expanded-edition/1444100603"
+    "appleMusicUrl": "https://music.apple.com/us/album/king-of-the-tenors-expanded-edition/1444100603",
+    "spotifyUrl": "https://open.spotify.com/album/2Lqk81OEcLDPxcY5ZGmB4v"
   },
   {
     "id": "memorable-sessions-in-jazz",
@@ -494,6 +746,24 @@
     "appleMusicUrl": "https://music.apple.com/us/album/oscar-peterson-plays-george-gershwin/1445664036",
     "spotifyUrl": "https://open.spotify.com/album/0KFgCHlZfsDrremrORQ3PP",
     "youtubeUrl": "https://www.youtube.com/playlist?list=PLyqAz2idXOaWiUl6Gbi3zuGczUH-nBonI"
+  },
+  {
+    "id": "the-eminent-jay-jay-johnson-vol-1",
+    "title": "The Eminent Jay Jay Johnson, Volume 1",
+    "artist": "J. J. Johnson",
+    "artistId": "j-j-johnson",
+    "year": 1953,
+    "label": "Unknown",
+    "era": "bebop",
+    "genres": [
+      "swing",
+      "big band"
+    ],
+    "description": "First released in 1953, The Eminent Jay Jay Johnson, Volume 1 is an essential chapter in J. J. Johnson's recorded output, rooted in swing. The performances bristle with the harmonic daring and velocity that defined bebop.",
+    "significance": "Demonstrates J. J. Johnson's command of swing and their place within the broader jazz lineage.",
+    "keyTracks": [],
+    "coverUrl": "",
+    "spotifyUrl": "https://open.spotify.com/album/0ZHKjqOSVlY5IDSjSe6Ngm"
   },
   {
     "id": "the-great-artistry-of-django-reinhardt",
@@ -572,6 +842,27 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Chet_Baker_Sings"
   },
   {
+    "id": "lester-young-with-the-oscar-peterson-trio-1",
+    "title": "Lester Young with The Oscar Peterson Trio #1",
+    "artist": "Lester Young",
+    "artistId": "lester-young",
+    "year": 1954,
+    "label": "Blue Star",
+    "era": "swing",
+    "genres": [
+      "swing"
+    ],
+    "description": "Issued by Blue Star in 1954, Lester Young with The Oscar Peterson Trio #1 presents Lester Young in a jazz context that highlights their improvisational gifts. The performances bristle with the harmonic daring and velocity that defined bebop. Notable tracks include 'Ad Lib Blues' and 'I Can't Get Started'.",
+    "significance": "An essential document of Lester Young's artistry during the bebop period.",
+    "keyTracks": [
+      "Ad Lib Blues",
+      "I Can't Get Started",
+      "Just You, Just Me",
+      "Almost Like Being in Love"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F461d6791-66e2-4453-9a0b-4ad152606a17%2F18575124244-500.jpg&w=500&output=webp"
+  },
+  {
     "id": "lester-young-with-the-oscar-peterson-trio-2",
     "title": "Lester Young with the Oscar Peterson Trio #2",
     "artist": "Lester Young",
@@ -595,6 +886,54 @@
     "spotifyUrl": "https://open.spotify.com/album/7JkisS9bjzaQCgJ9btGjfq",
     "youtubeUrl": "https://www.youtube.com/playlist?list=PLBJenJIJrq0yfABa96j-ugxg6ddYfZFkz",
     "wikipedia": "https://en.wikipedia.org/wiki/Lester_Young_with_the_Oscar_Peterson_Trio"
+  },
+  {
+    "id": "louis-armstrong-plays-wc-handy",
+    "title": "Louis Armstrong Plays W.C. Handy",
+    "artist": "Louis Armstrong",
+    "artistId": "louis-armstrong",
+    "year": 1954,
+    "label": "Columbia",
+    "era": "swing",
+    "genres": [
+      "swing"
+    ],
+    "description": "Louis Armstrong Plays W. C. Handy is a 1954 studio release by Louis Armstrong and His All Stars, described by Allmusic as \"Louis Armstrong's finest record of the 1950s\" and \"essential music for all serious jazz collections\". Columbia CD released the album on CD in 1986 in a much altered form, with alternative versions in place of many of the original songs, but restored the original with its 1997 re-issue, which also included additional tracks: a brief interview by the producer, George Avakian, with W. C. Handy; a joke told by Louis Armstrong; and several rehearsal versions of the songs.",
+    "significance": "A noteworthy album in Louis Armstrong's body of work within the hard bop tradition.",
+    "keyTracks": [
+      "St. Louis Blues",
+      "Yellow Dog Blues",
+      "Loveless Love",
+      "Aunt Hagar's Blues",
+      "Long Gone (From Bowlin’ Green)"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fb402ad20-974a-4ab3-9d46-f73d88ad2499%2F24519372559-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/louis-armstrong-plays-w-c-handy/158691605?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Louis_Armstrong_Plays_W.C._Handy",
+    "spotifyUrl": "https://open.spotify.com/album/6yvbyi8LOzXI59WkW6QzG2"
+  },
+  {
+    "id": "tatum-carter-bellson",
+    "title": "Tatum, Carter, Bellson",
+    "artist": "Art Tatum",
+    "artistId": "art-tatum",
+    "year": 1954,
+    "label": "Clef Records",
+    "era": "swing",
+    "genres": [
+      "swing"
+    ],
+    "description": "Tatum, Carter, Bellson, released in 1954, captures Art Tatum at a creative peak, blending jazz with personal expression. The performances bristle with the harmonic daring and velocity that defined bebop. The set list features 'My Blue Heaven' and 'Blues in B Flat' among its standout moments.",
+    "significance": "Demonstrates Art Tatum's command of jazz and their place within the broader jazz lineage.",
+    "keyTracks": [
+      "My Blue Heaven",
+      "Blues in B Flat",
+      "Street of Dreams",
+      "Idaho",
+      "'s Wonderful"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F014b598c-3ba4-4576-83c6-2be17fc7fe67%2F7140013238-500.jpg&w=500&output=webp",
+    "spotifyUrl": "https://open.spotify.com/album/198wLhT78pa7uzUUZnT2Ll"
   },
   {
     "id": "the-president",
@@ -667,7 +1006,8 @@
       "Don’t Be on the Outside"
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fd0b0bb40-521f-4aac-8c1b-d61113ae5e78%2F3726938829-500.jpg&w=500&output=webp",
-    "wikipedia": "https://en.wikipedia.org/wiki/In_the_Land_of_Hi-Fi_(Sarah_Vaughan_album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/In_the_Land_of_Hi-Fi_(Sarah_Vaughan_album)",
+    "spotifyUrl": "https://open.spotify.com/album/4dKbs1IepsLdxwHUqNFe3x"
   },
   {
     "id": "sarah-vaughan-clifford-brown",
@@ -744,7 +1084,26 @@
       "Telefunken Blues"
     ],
     "coverUrl": "https://coverartarchive.org/release/be25a06f-137a-4841-839e-5b6533491032/18572658351-500.jpg",
-    "appleMusicUrl": "https://music.apple.com/gb/album/telefunken-blues-bonus-track-version/686413503"
+    "appleMusicUrl": "https://music.apple.com/gb/album/telefunken-blues-bonus-track-version/686413503",
+    "spotifyUrl": "https://open.spotify.com/album/6nwyZPu6a0zbk0SFML8HW4"
+  },
+  {
+    "id": "the-eminent-jay-jay-johnson-vol-2",
+    "title": "The Eminent Jay Jay Johnson, Volume 2",
+    "artist": "J. J. Johnson",
+    "artistId": "j-j-johnson",
+    "year": 1955,
+    "label": "Unknown",
+    "era": "bebop",
+    "genres": [
+      "swing",
+      "big band"
+    ],
+    "description": "First released in 1955, The Eminent Jay Jay Johnson, Volume 2 is an essential chapter in J. J. Johnson's recorded output, rooted in swing. The performances bristle with the harmonic daring and velocity that defined bebop.",
+    "significance": "Adds to J. J. Johnson's reputation as a leading voice in swing.",
+    "keyTracks": [],
+    "coverUrl": "",
+    "spotifyUrl": "https://open.spotify.com/album/0D804G8lfZrGosEkptNr93"
   },
   {
     "id": "the-genius-of-art-tatum-9",
@@ -865,7 +1224,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F31efffb2-659e-4d11-8356-2d58de45b824%2F26059137682-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/pithecanthropus-erectus/299036715?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Pithecanthropus_Erectus_(album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Pithecanthropus_Erectus_(album)",
+    "spotifyUrl": "https://open.spotify.com/album/4kZ55sjjRKgCphjOmSMR7o"
   },
   {
     "id": "saxophone-colossus",
@@ -893,6 +1253,29 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Saxophone_Colossus"
   },
   {
+    "id": "the-benny-goodman-story-vol-2",
+    "title": "The Benny Goodman Story, Vol. 2",
+    "artist": "Benny Goodman",
+    "artistId": "benny-goodman",
+    "year": 1956,
+    "label": "Decca Records",
+    "era": "swing",
+    "genres": [
+      "big band",
+      "swing"
+    ],
+    "description": "The Benny Goodman Story, Vol. 2 documents a 1956 studio date for Decca Records, with Benny Goodman leading a tight big band ensemble. Highlights include 'Memories of You' and 'China Boy'.",
+    "significance": "An important entry in Benny Goodman's discography, showcasing their contribution to big band.",
+    "keyTracks": [
+      "Memories of You",
+      "China Boy",
+      "Moonglow",
+      "Avalon",
+      "And The Angels Sing"
+    ],
+    "coverUrl": ""
+  },
+  {
     "id": "the-trio-volume-3-everybody-likes-hampton-hawes",
     "title": "The Trio, Volume 3: Everybody Likes Hampton Hawes",
     "artist": "Hampton Hawes",
@@ -912,7 +1295,8 @@
       "I Remember You",
       "A Night in Tunisia"
     ],
-    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F353ad0ff-8eec-450d-82a7-d80fa78e9d98%2F26688122517-500.jpg&w=500&output=webp"
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F353ad0ff-8eec-450d-82a7-d80fa78e9d98%2F26688122517-500.jpg&w=500&output=webp",
+    "spotifyUrl": "https://open.spotify.com/album/4Ck3aHZ1wxSwPUaNcRgDa7"
   },
   {
     "id": "2-guitars",
@@ -1063,7 +1447,30 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Ffea74c0f-4ad7-4ff9-8c05-06e40e3125d1%2F17686359381-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/dizzy-atmosphere/1741386605?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Dizzy_Atmosphere_(album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Dizzy_Atmosphere_(album)",
+    "spotifyUrl": "https://open.spotify.com/album/4LxOGUu7YnoBosOZEMCrBW"
+  },
+  {
+    "id": "ella-and-her-fellas",
+    "title": "Ella and Her Fellas",
+    "artist": "Ella Fitzgerald",
+    "artistId": "ella-fitzgerald",
+    "year": 1957,
+    "label": "Decca Records",
+    "era": "swing",
+    "genres": [
+      "swing"
+    ],
+    "description": "With Ella and Her Fellas (1957), Ella Fitzgerald crafts a jazz session that balances technical mastery and emotional depth. Tracks such as 'You Won’t Be Satisfied (Until You Break My Heart)' and 'That’s the Way It Is' anchor the program.",
+    "significance": "An important entry in Ella Fitzgerald's discography, showcasing their contribution to jazz.",
+    "keyTracks": [
+      "You Won’t Be Satisfied (Until You Break My Heart)",
+      "That’s the Way It Is",
+      "Stone Cold Dead in the Market (He Had It Coming)",
+      "I Gotta Have My Baby Back",
+      "Sentimental Journey"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F0d275bc5-65eb-42d7-8364-bcd1ec121ac0%2F35931497825-500.jpg&w=500&output=webp"
   },
   {
     "id": "four-trombones",
@@ -1084,7 +1491,52 @@
       "Ow!",
       "Chazzanova"
     ],
-    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fb589089d-09e7-4826-8678-38c160901a84%2F24560656171-500.jpg&w=500&output=webp"
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fb589089d-09e7-4826-8678-38c160901a84%2F24560656171-500.jpg&w=500&output=webp",
+    "spotifyUrl": "https://open.spotify.com/album/4SOABsYZI7CqHsFMypO7ov"
+  },
+  {
+    "id": "jay-and-kai",
+    "title": "Jay and Kai",
+    "artist": "J. J. Johnson",
+    "artistId": "j-j-johnson",
+    "year": 1957,
+    "label": "Unknown",
+    "era": "cool-jazz",
+    "genres": [
+      "swing",
+      "big band"
+    ],
+    "description": "Jay and Kai is an album by American jazz trombonists J. J. Johnson and Kai Winding featuring performances recorded in 1955 and 1956 for the Columbia label.",
+    "significance": "An important entry in J. J. Johnson's discography, showcasing their contribution to swing.",
+    "keyTracks": [],
+    "coverUrl": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jay_and_Kai",
+    "spotifyUrl": "https://open.spotify.com/album/1rgE4kGv6jmDhY6JXM6dk8"
+  },
+  {
+    "id": "jazz-by-sun-ra",
+    "title": "Jazz by Sun Ra",
+    "artist": "Sun Ra",
+    "artistId": "sun-ra",
+    "year": 1957,
+    "label": "Transition",
+    "era": "hard-bop",
+    "genres": [
+      "hard bop"
+    ],
+    "description": "Jazz By Sun Ra is the debut album by Sun Ra. The record label for the first pressing says \"07-12-56\", presumably when it was recorded. The LP originally appeared on Tom Wilson's short-lived Transition Records. In the mid-1960s it was purchased by Delmark Records owner Bob Koester, finally being reissued in 1967.",
+    "significance": "An important entry in Sun Ra's discography, showcasing their contribution to jazz.",
+    "keyTracks": [
+      "Brainville",
+      "Call for All Demons",
+      "Transition",
+      "Possession",
+      "Street Named Hell"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F48c97c50-df33-48ff-853c-7971d64cb5e3%2F13933501054-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/jazz-by-sun-ra/903406198?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jazz_by_Sun_Ra",
+    "spotifyUrl": "https://open.spotify.com/album/6sCBzSHjDYeyMAnBX29pj1"
   },
   {
     "id": "louis-armstrong-meets-oscar-peterson",
@@ -1108,7 +1560,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fc6736765-9d4d-4ff8-8411-bd62523a6dba%2F19775919082-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/louis-armstrong-meets-oscar-peterson-expanded-edition/1425262446?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Louis_Armstrong_Meets_Oscar_Peterson"
+    "wikipedia": "https://en.wikipedia.org/wiki/Louis_Armstrong_Meets_Oscar_Peterson",
+    "spotifyUrl": "https://open.spotify.com/album/6EX3QQ06sp8JgyJudZyLow"
   },
   {
     "id": "mulligan-meets-monk",
@@ -1132,7 +1585,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F93404803-e5ae-438d-9b6f-1fd0bf94ad0c%2F28036569899-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/mulligan-meets-monk-remastered/1442851934?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Mulligan_Meets_Monk"
+    "wikipedia": "https://en.wikipedia.org/wiki/Mulligan_Meets_Monk",
+    "spotifyUrl": "https://open.spotify.com/album/0DP7rKNRJBZri2PexCwiDJ"
   },
   {
     "id": "mulligan-meets-monk-monk",
@@ -1156,7 +1610,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F5cf64d06-a221-46d0-9756-1cb8266e4a47%2F20056989216-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/mulligan-meets-monk-remastered/1442851934?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Mulligan_Meets_Monk"
+    "wikipedia": "https://en.wikipedia.org/wiki/Mulligan_Meets_Monk",
+    "spotifyUrl": "https://open.spotify.com/album/0DP7rKNRJBZri2PexCwiDJ"
   },
   {
     "id": "pretty-for-the-people",
@@ -1171,6 +1626,29 @@
     ],
     "description": "Pretty for the People is an album by American jazz composer and arranger A. K. Salim featuring Kenny Dorham and Johnny Griffin recorded in 1957 for the Savoy label.",
     "significance": "A noteworthy album in Max Roach's body of work within the hard bop tradition.",
+    "keyTracks": [
+      "Blu-Binsky",
+      "R.U.1.2.",
+      "Shirley Ray",
+      "Ba-Lu-Ee-Du",
+      "Pretty for the People"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fed3f1fa7-6405-4339-a24f-08d537b98dcc%2F17000645126-500.jpg&w=500&output=webp",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pretty_for_the_People"
+  },
+  {
+    "id": "pretty-for-the-people-dorham",
+    "title": "Pretty for the People",
+    "artist": "Kenny Dorham",
+    "artistId": "kenny-dorham",
+    "year": 1957,
+    "label": "Savoy Records",
+    "era": "hard-bop",
+    "genres": [
+      "hard bop"
+    ],
+    "description": "Pretty for the People is an album by American jazz composer and arranger A. K. Salim featuring Kenny Dorham and Johnny Griffin recorded in 1957 for the Savoy label.",
+    "significance": "Represents a key chapter in Kenny Dorham's evolving artistic vision.",
     "keyTracks": [
       "Blu-Binsky",
       "R.U.1.2.",
@@ -1201,7 +1679,8 @@
       "Reflections",
       "You Stepped Out of a Dream"
     ],
-    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fca9f5e91-3e48-484b-bfe5-b135b2d86e07%2F3491741499-500.jpg&w=500&output=webp"
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fca9f5e91-3e48-484b-bfe5-b135b2d86e07%2F3491741499-500.jpg&w=500&output=webp",
+    "spotifyUrl": "https://open.spotify.com/album/25ACUc57rxmBER5Jp0zYuK"
   },
   {
     "id": "such-sweet-thunder",
@@ -1220,7 +1699,8 @@
     "keyTracks": [],
     "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/9e/ce/30/9ece309d-9561-0dbd-6ac5-8de383283f43/886445222494.jpg/600x600bb.jpg",
     "appleMusicUrl": "https://music.apple.com/us/album/such-sweet-thunder/999653167?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Such_Sweet_Thunder"
+    "wikipedia": "https://en.wikipedia.org/wiki/Such_Sweet_Thunder",
+    "spotifyUrl": "https://open.spotify.com/album/2atnsiXP0oFjUE7SGFdzNA"
   },
   {
     "id": "the-clown",
@@ -1243,7 +1723,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F55a6c226-6f8b-426c-b40d-549afd7888d5%2F2352379120-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/the-clown/298682127?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Clown_(album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Clown_(album)",
+    "spotifyUrl": "https://open.spotify.com/album/2XtydLjClSxUt6uMA9Zhpb"
   },
   {
     "id": "the-most-happy-piano",
@@ -1292,7 +1773,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F60e3ae01-7304-4528-9d30-c03cb1fb5de8%2F20180138703-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/thelonious-himself-remastered-2025/1811922695?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Thelonious_Himself"
+    "wikipedia": "https://en.wikipedia.org/wiki/Thelonious_Himself",
+    "spotifyUrl": "https://open.spotify.com/album/7FSTPnDgqub9Pv6G7yfXay"
   },
   {
     "id": "round-about-midnight",
@@ -1315,7 +1797,8 @@
       "Tadd's Delight"
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F98bf409f-28bb-406c-a319-0271ed051b28%2F1649715651-500.jpg&w=500&output=webp",
-    "appleMusicUrl": "https://music.apple.com/us/album/round-about-midnight-mono-version/832081417?uo=4"
+    "appleMusicUrl": "https://music.apple.com/us/album/round-about-midnight-mono-version/832081417?uo=4",
+    "spotifyUrl": "https://open.spotify.com/album/4VUawqEDCHHfrUe77ScQ2K"
   },
   {
     "id": "at-the-pershing",
@@ -1397,7 +1880,8 @@
       "Branching Out"
     ],
     "coverUrl": "https://coverartarchive.org/release/82c81f01-639d-46ea-8e5e-76e1382deef8/1704899583-500.jpg",
-    "appleMusicUrl": "https://music.apple.com/jp/album/branching-out-mono-version/775429897"
+    "appleMusicUrl": "https://music.apple.com/jp/album/branching-out-mono-version/775429897",
+    "spotifyUrl": "https://open.spotify.com/album/5ZtIDBE6cvtJEi11aOoarZ"
   },
   {
     "id": "carmen-for-cool-ones",
@@ -1424,6 +1908,31 @@
     "spotifyUrl": "https://open.spotify.com/album/4RLJWFVdHJb5h41wRyVDhP"
   },
   {
+    "id": "ella-fitzgerald-sings-the-irving-berlin-song-book",
+    "title": "Ella Fitzgerald Sings the Irving Berlin Song Book",
+    "artist": "Ella Fitzgerald",
+    "artistId": "ella-fitzgerald",
+    "year": 1958,
+    "label": "His Master’s Voice",
+    "era": "swing",
+    "genres": [
+      "swing"
+    ],
+    "description": "Ella Fitzgerald Sings the Irving Berlin Song Book is a 1958 studio album by the American jazz singer Ella Fitzgerald, with a studio orchestra conducted and arranged by Paul Weston, focusing on the songs of Irving Berlin. It was part of the popular and influential Songbook series.",
+    "significance": "An important entry in Ella Fitzgerald's discography, showcasing their contribution to jazz.",
+    "keyTracks": [
+      "Let’s Face the Music and Dance",
+      "You’re Laughing at Me",
+      "Let Yourself Go",
+      "You Can Have Him",
+      "Russian Lullaby"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F333eacea-46b7-4204-b85d-193ffa3662dc%2F14320334045-500.jpg&w=500&output=webp",
+    "spotifyUrl": "https://open.spotify.com/album/2hK70fCNOlYgTg0sQMzPbj",
+    "appleMusicUrl": "https://music.apple.com/us/album/ella-fitzgerald-sings-the-irving-berlin-song-book/1469580881?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ella_Fitzgerald_Sings_the_Irving_Berlin_Song_Book"
+  },
+  {
     "id": "ellington-indigos-expanded-edition",
     "title": "Ellington Indigos (Expanded Edition)",
     "artist": "Duke Ellington",
@@ -1445,7 +1954,56 @@
       "The Sky Fell Down - Mono Version"
     ],
     "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/5f/d3/f8/5fd3f839-a4b0-c32c-690a-2a0a984e2006/196589828163.jpg/600x600bb.jpg",
-    "appleMusicUrl": "https://music.apple.com/us/album/ellington-indigos-expanded-edition/1667021975?uo=4"
+    "appleMusicUrl": "https://music.apple.com/us/album/ellington-indigos-expanded-edition/1667021975?uo=4",
+    "spotifyUrl": "https://open.spotify.com/album/5BymHphSwXImKUTljcMJvu"
+  },
+  {
+    "id": "going-for-myself",
+    "title": "Going for Myself",
+    "artist": "Lester Young",
+    "artistId": "lester-young",
+    "year": 1958,
+    "label": "Verve",
+    "era": "cool-jazz",
+    "genres": [
+      "cool jazz"
+    ],
+    "description": "Going For Myself is an album by Harry \"Sweets\" Edison and Lester Young, accompanied by Oscar Peterson. The album is one of Young's last studio recordings.",
+    "significance": "Adds to Lester Young's reputation as a leading voice in jazz.",
+    "keyTracks": [
+      "Flic",
+      "Love Is Here to Stay",
+      "St. Tropez",
+      "Waldorf Blues",
+      "Sunday"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F7b346e97-4151-4241-b8d2-a695d729af08%2F24943046889-500.jpg&w=500&output=webp",
+    "wikipedia": "https://en.wikipedia.org/wiki/Going_for_Myself"
+  },
+  {
+    "id": "lady-in-satin",
+    "title": "Lady in Satin",
+    "artist": "Billie Holiday",
+    "artistId": "billie-holiday",
+    "year": 1958,
+    "label": "Columbia",
+    "era": "cool-jazz",
+    "genres": [
+      "vocal jazz"
+    ],
+    "description": "Lady in Satin is an album by the jazz singer Billie Holiday, released in 1958 on Columbia Records, catalogue CL 1157 in mono and CS 8048 in stereo. It is the penultimate album completed by the singer, and the last to be released in her lifetime. Her final album, Last Recording, was recorded in March 1959, and released just after her death. The original album was produced by Irving Townsend and engineered by Fred Plaut.",
+    "significance": "Demonstrates Billie Holiday's command of jazz and their place within the broader jazz lineage.",
+    "keyTracks": [
+      "I'm a Fool to Want You",
+      "For Heaven's Sake",
+      "You Don't Know What Love Is",
+      "I Get Along Without You Very Well",
+      "For All We Know"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F729c730c-b146-429b-a7f3-6a6bd1616c60%2F21623162558-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/lady-in-satin/1689286255?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lady_in_Satin",
+    "spotifyUrl": "https://open.spotify.com/album/0pLuAY7eODzqm0NQG7ybQJ"
   },
   {
     "id": "latin-kick",
@@ -1495,7 +2053,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F8f663ff6-b63f-4501-86ae-40b3cc41448b%2F16085186464-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/little-girl-blue-2021-stereo-remaster/1568988846?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Little_Girl_Blue_(album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Little_Girl_Blue_(album)",
+    "spotifyUrl": "https://open.spotify.com/album/4WF9ycmYVDpvNs7zzVcZN8"
   },
   {
     "id": "little-niles",
@@ -1568,7 +2127,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F35aad81c-a2e3-46f9-a18d-1b8c51b482fa%2F5724543706-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/milestones/250998382?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Milestones_(Miles_Davis_album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Milestones_(Miles_Davis_album)",
+    "spotifyUrl": "https://open.spotify.com/album/56I4vUYWQ4aXLiyfo8XuZv"
   },
   {
     "id": "minor-move",
@@ -1592,7 +2152,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fc239244a-e133-460f-bfde-77d776260ac9%2F44363306608-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/minor-move-expanded-edition/1483150575?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Minor_Move"
+    "wikipedia": "https://en.wikipedia.org/wiki/Minor_Move",
+    "spotifyUrl": "https://open.spotify.com/album/4GrsULBbNQkESCQRNKa5ZM"
   },
   {
     "id": "moanin",
@@ -1698,7 +2259,34 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fc38dfdd0-44f0-475c-932f-6b998953c80a%2F18781832459-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/sonny-rollins-and-the-big-brass-expanded-edition/1453758034?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Sonny_Rollins_and_the_Big_Brass"
+    "wikipedia": "https://en.wikipedia.org/wiki/Sonny_Rollins_and_the_Big_Brass",
+    "spotifyUrl": "https://open.spotify.com/album/3Vd8AghmGoyho1b5YxvgRD"
+  },
+  {
+    "id": "the-atomic-mr-basie",
+    "title": "The Atomic Mr. Basie",
+    "artist": "Count Basie",
+    "artistId": "count-basie",
+    "year": 1958,
+    "label": "Roulette",
+    "era": "swing",
+    "genres": [
+      "big band",
+      "swing"
+    ],
+    "description": "The Atomic Mr. Basie (originally called Basie, also known as E=MC2 and reissued in 1994 as The Complete Atomic Basie) is a 1958 album by Count Basie, featuring the song arrangements of Neal Hefti and the Count Basie Orchestra. It is included in the book 1001 Albums You Must Hear Before You Die, Will Fulford-Jones calling it \"Basie's last great record.\" It was voted number 411 in the third edition of Colin Larkin's All Time Top 1000 Albums (2000).",
+    "significance": "Represents a key chapter in Count Basie's evolving artistic vision.",
+    "keyTracks": [
+      "The Kid From Red Bank",
+      "Duet",
+      "After Supper",
+      "Flight of the Foo Birds",
+      "Double‐O"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F835490a5-7bb2-4cba-830d-b79d1ffc4222%2F5445022341-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/the-atomic-mr-basie/691483986?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Atomic_Mr._Basie",
+    "spotifyUrl": "https://open.spotify.com/album/6V2Ei5zNNSr9eey8qk4wAG"
   },
   {
     "id": "the-oscar-peterson-trio-at-newport",
@@ -1795,7 +2383,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fc162072e-b819-4660-980e-10bbe9f6ddbe%2F16819369800-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/ella-fitzgerald-sings-the-george-and-ira-gershwin-song-book/1469619207?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Ella_Fitzgerald_Sings_the_George_and_Ira_Gershwin_Song_Book"
+    "wikipedia": "https://en.wikipedia.org/wiki/Ella_Fitzgerald_Sings_the_George_and_Ira_Gershwin_Song_Book",
+    "spotifyUrl": "https://open.spotify.com/album/2vz9bOelnO5EoDBPkzEJjt"
   },
   {
     "id": "go-chambers",
@@ -1818,7 +2407,8 @@
       "Ease It"
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F26ceb7a9-8532-482b-a225-f2be1c909c1b%2F15853299996-500.jpg&w=500&output=webp",
-    "wikipedia": "https://en.wikipedia.org/wiki/Go_(Paul_Chambers_album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Go_(Paul_Chambers_album)",
+    "spotifyUrl": "https://open.spotify.com/album/1KEDxep6dfRXPJPrsSo3ty"
   },
   {
     "id": "kind-of-blue",
@@ -1959,7 +2549,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F9d4b4979-9b75-47cd-a40b-ba84b3712a57%2F1970621483-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/sonny-side-up/1843995623?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Sonny_Side_Up"
+    "wikipedia": "https://en.wikipedia.org/wiki/Sonny_Side_Up",
+    "spotifyUrl": "https://open.spotify.com/album/3bV8IGgytTqBJvvO07kxWp"
   },
   {
     "id": "the-shape-of-jazz-to-come",
@@ -1985,6 +2576,31 @@
     "spotifyUrl": "https://open.spotify.com/album/2iPH3iUmpa9ufIpwY76keF",
     "appleMusicUrl": "https://music.apple.com/us/album/the-shape-of-jazz-to-come-mono/921051612",
     "youtubeUrl": "https://www.youtube.com/watch?v=coFQFk7BDwg"
+  },
+  {
+    "id": "thelonious-alone-in-san-francisco",
+    "title": "Thelonious Alone in San Francisco",
+    "artist": "Thelonious Monk",
+    "artistId": "thelonious-monk",
+    "year": 1959,
+    "label": "Riverside",
+    "era": "hard-bop",
+    "genres": [
+      "hard bop"
+    ],
+    "description": "Thelonious Alone in San Francisco is jazz pianist Thelonious Monk's third solo album, recorded in 1959.",
+    "significance": "An essential document of Thelonious Monk's artistry during the hard bop period.",
+    "keyTracks": [
+      "Blue Monk",
+      "Ruby, My Dear",
+      "Round Lights",
+      "Everything Happens to Me",
+      "You Took the Words Right Out of My Heart"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F25910177-91bd-4ec7-9e2e-2e9a9fd8ba86%2F20056992405-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/thelonious-alone-in-san-francisco/1592273101?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Thelonious_Alone_in_San_Francisco",
+    "spotifyUrl": "https://open.spotify.com/album/5xOjgloikzuQ1mTs2mqedk"
   },
   {
     "id": "time-out",
@@ -2058,7 +2674,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F48a0059b-5229-4c13-87f0-4fcbb674753c%2F27708737220-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/booker-little-and-friend-remastered-2013/689045310?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Booker_Little_(album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Booker_Little_(album)",
+    "spotifyUrl": "https://open.spotify.com/album/0twakPw6aDIemJCBgS37dT"
   },
   {
     "id": "cannonball-adderley-and-the-poll-winners",
@@ -2103,7 +2720,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fa6d0840e-cb4f-4ed3-9156-f60ed7a9d1a5%2F12672875200-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/charles-mingus-presents-charles-mingus-remastered/1610350703?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Charles_Mingus_Presents_Charles_Mingus"
+    "wikipedia": "https://en.wikipedia.org/wiki/Charles_Mingus_Presents_Charles_Mingus",
+    "spotifyUrl": "https://open.spotify.com/album/6f6YzqZI0jGcU5qJflbUdh"
   },
   {
     "id": "free-form-harriott",
@@ -2228,6 +2846,31 @@
     "appleMusicUrl": "https://music.apple.com/us/album/louie-and-the-dukes-of-dixieland/1486633279?uo=4"
   },
   {
+    "id": "mingus-dynasty",
+    "title": "Mingus Dynasty",
+    "artist": "Charles Mingus",
+    "artistId": "charles-mingus",
+    "year": 1960,
+    "label": "Columbia",
+    "era": "hard-bop",
+    "genres": [
+      "hard bop"
+    ],
+    "description": "Mingus Dynasty is a jazz album by Charles Mingus, recorded in 1959 and released on Columbia Records in May 1960. It is a companion album to his 1959 record Mingus Ah Um, and was inducted in the Grammy Hall of Fame in 1999. The title alludes to Mingus's ancestry, which was partially Chinese.",
+    "significance": "A noteworthy album in Charles Mingus's body of work within the hard bop tradition.",
+    "keyTracks": [
+      "Slop",
+      "Diane",
+      "Song With Orange",
+      "Gunslinging Bird",
+      "Things Ain’t What They Used to Be"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F7c40b866-61fb-4c41-9b03-32f640553a43%2F28654748180-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/mingus-dynasty/157428642?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mingus_Dynasty",
+    "spotifyUrl": "https://open.spotify.com/album/4J2iFLCLHjuA07RlzVzLKh"
+  },
+  {
     "id": "portrait-in-jazz",
     "title": "Portrait in Jazz",
     "artist": "Bill Evans Trio",
@@ -2277,7 +2920,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F7ca3579c-8e9c-4a0c-b7c0-853b54e25a10%2F32958482507-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/sketches-of-spain/832060615?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Sketches_of_Spain"
+    "wikipedia": "https://en.wikipedia.org/wiki/Sketches_of_Spain",
+    "spotifyUrl": "https://open.spotify.com/album/56WqCnM5giX57Jr3aAN2aK"
   },
   {
     "id": "soul-junction",
@@ -2292,6 +2936,29 @@
     ],
     "description": "Soul Junction is an album by the jazz pianist and composer Red Garland. It was released in 1960 through Prestige Records. It features tracks recorded on November 15, 1957, the same day the pieces for All Mornin' Long were recorded, with the same lineup.",
     "significance": "A noteworthy album in Donald Byrd's body of work within the hard bop tradition.",
+    "keyTracks": [
+      "Soul Junction",
+      "Woody'n You",
+      "Birk's Works",
+      "I've Got It Bad",
+      "Hallelujah"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F0f3c8db2-f276-4c8a-ae95-28f9375038f4%2F9087942294-500.jpg&w=500&output=webp",
+    "wikipedia": "https://en.wikipedia.org/wiki/Soul_Junction"
+  },
+  {
+    "id": "soul-junction-coltrane",
+    "title": "Soul Junction",
+    "artist": "John Coltrane",
+    "artistId": "john-coltrane",
+    "year": 1960,
+    "label": "Prestige",
+    "era": "hard-bop",
+    "genres": [
+      "hard bop"
+    ],
+    "description": "Soul Junction is an album by the jazz pianist and composer Red Garland. It was released in 1960 through Prestige Records. It features tracks recorded on November 15, 1957, the same day the pieces for All Mornin' Long were recorded, with the same lineup.",
+    "significance": "A noteworthy album in John Coltrane's body of work within the hard bop tradition.",
     "keyTracks": [
       "Soul Junction",
       "Woody'n You",
@@ -2623,6 +3290,31 @@
     "spotifyUrl": "https://open.spotify.com/album/7BLkiBvw0852WzoC5YVoxT"
   },
   {
+    "id": "midnight-special",
+    "title": "Midnight Special",
+    "artist": "Jimmy Smith",
+    "artistId": "jimmy-smith",
+    "year": 1961,
+    "label": "Blue Note",
+    "era": "hard-bop",
+    "genres": [
+      "hard bop"
+    ],
+    "description": "Midnight Special is an album by the American jazz organist Jimmy Smith, recorded in 1960 and released on the Blue Note label. The album was recorded at the same session that produced Back at the Chicken Shack (1960).",
+    "significance": "Represents a key chapter in Jimmy Smith's evolving artistic vision.",
+    "keyTracks": [
+      "Midnight Special",
+      "A Subtle One",
+      "Jumpin' the Blues",
+      "Why Was I Born",
+      "One O'Clock Jump"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F110924d1-b172-4dd6-a049-1f2c847fdf4b%2F13513754314-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/midnight-special/1443938784?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Midnight_Special_(Jimmy_Smith_album)",
+    "spotifyUrl": "https://open.spotify.com/album/06gaOfTDym5Jf8FZNxwCnZ"
+  },
+  {
     "id": "money-in-the-pocket",
     "title": "Money in the Pocket",
     "artist": "Donald Byrd",
@@ -2687,7 +3379,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fa5625f22-265e-40b8-b3a7-1891587ae453%2F18781582488-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/my-favorite-things/962193155?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/My_Favorite_Things_(John_Coltrane_album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/My_Favorite_Things_(John_Coltrane_album)",
+    "spotifyUrl": "https://open.spotify.com/album/3nLStxdTkSzihxm7FTLzCP"
   },
   {
     "id": "out-front",
@@ -2711,7 +3404,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F2267e593-8439-4902-9201-fa587f6855ca%2F26680530777-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/out-front-remastered-feat-max-roach/1635194699?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Out_Front_(Booker_Little_album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Out_Front_(Booker_Little_album)",
+    "spotifyUrl": "https://open.spotify.com/album/15QQxPy6AbNHVBgnQx7x4y"
   },
   {
     "id": "percussion-bitter-sweet",
@@ -2760,6 +3454,30 @@
     "coverUrl": "https://coverartarchive.org/release/dc4949be-1e95-4da1-ab2e-c947b13060d2/33687886701-500.jpg",
     "appleMusicUrl": "https://music.apple.com/us/album/rights-of-swing/603490733",
     "spotifyUrl": "https://open.spotify.com/album/3o9hV5EHfdTas5OgNCJ56V"
+  },
+  {
+    "id": "screamin-the-blues",
+    "title": "Screamin' the Blues",
+    "artist": "Eric Dolphy",
+    "artistId": "eric-dolphy",
+    "year": 1961,
+    "label": "Prestige",
+    "era": "free-jazz",
+    "genres": [
+      "hard bop"
+    ],
+    "description": "Screamin' the Blues is an album by American saxophonist Oliver Nelson, originally released in 1961 on New Jazz Records.",
+    "significance": "A noteworthy album in Eric Dolphy's body of work within the free jazz tradition.",
+    "keyTracks": [
+      "Screamin' the Blues",
+      "March on, March On",
+      "The Drive",
+      "The Meetin'",
+      "Three Seconds"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F635f03c6-5b34-47e0-9098-f2882bb1ef3e%2F35855117554-500.jpg&w=500&output=webp",
+    "wikipedia": "https://en.wikipedia.org/wiki/Screamin'_the_Blues",
+    "spotifyUrl": "https://open.spotify.com/album/6SZMqkZQ2IJaXT2awTi1eM"
   },
   {
     "id": "shirley-scott-trio",
@@ -2890,6 +3608,53 @@
     "wikipedia": "https://en.wikipedia.org/wiki/The_Honeydripper_(Jack_McDuff_album)"
   },
   {
+    "id": "thelonious-monk-with-john-coltrane",
+    "title": "Thelonious Monk with John Coltrane",
+    "artist": "Thelonious Monk",
+    "artistId": "thelonious-monk",
+    "year": 1961,
+    "label": "Jazzland",
+    "era": "hard-bop",
+    "genres": [
+      "hard bop"
+    ],
+    "description": "Thelonious Monk with John Coltrane is a 1961 album by Thelonious Monk issued on Jazzland Records, a subsidiary of Riverside Records. It consists of material recorded four years earlier when Monk worked extensively with John Coltrane, issued after Coltrane had become a leader and jazz star in his own right.",
+    "significance": "Adds to Thelonious Monk's reputation as a leading voice in jazz.",
+    "keyTracks": [
+      "Ruby, My Dear",
+      "Trinkle, Tinkle",
+      "Off Minor",
+      "Nutty",
+      "Epistrophy"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F4f1b80df-2f09-47ef-828a-e609332653ca%2F20056980642-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/thelonious-monk-with-john-coltrane/1687598475?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Thelonious_Monk_with_John_Coltrane",
+    "spotifyUrl": "https://open.spotify.com/album/7AOFwOsk4PY6tp3cNTSHJh"
+  },
+  {
+    "id": "together",
+    "title": "Together!",
+    "artist": "Elvin Jones",
+    "artistId": "elvin-jones",
+    "year": 1961,
+    "label": "Atlantic",
+    "era": "hard-bop",
+    "genres": [
+      "hard bop"
+    ],
+    "description": "First released in 1961, Together! is an essential chapter in Elvin Jones's recorded output, rooted in hard bop. The music pulses with the soulful intensity and blues-rooted fire of hard bop. Highlights include 'Le Roi' and 'Beau-Ty'.",
+    "significance": "An important entry in Elvin Jones's discography, showcasing their contribution to hard bop.",
+    "keyTracks": [
+      "Le Roi",
+      "Beau-Ty",
+      "Brown Sugar"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F56ec70d0-012f-47cc-8b86-a10a5e54a06b%2F21621976847-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/puttin-it-together/1443157276?uo=4",
+    "spotifyUrl": "https://open.spotify.com/album/6EbV0EhTVUB01z3H4tDuLe"
+  },
+  {
     "id": "waltz-for-debby",
     "title": "Waltz for Debby",
     "artist": "Bill Evans Trio",
@@ -2914,6 +3679,30 @@
     "appleMusicUrl": "https://music.apple.com/us/album/waltz-for-debby-original-jazz-classics-remasters-with/1440942198",
     "youtubeUrl": "https://www.youtube.com/watch?v=mtIp4DPt5lo",
     "wikipedia": "https://en.wikipedia.org/wiki/Waltz_for_Debby"
+  },
+  {
+    "id": "where",
+    "title": "Where?",
+    "artist": "Eric Dolphy",
+    "artistId": "eric-dolphy",
+    "year": 1961,
+    "label": "New Jazz",
+    "era": "free-jazz",
+    "genres": [
+      "free jazz"
+    ],
+    "description": "Where? is the debut album by bassist Ron Carter recorded in 1961 at Van Gelder Studio and released on the New Jazz label. Some reissues of the album appear under Eric Dolphy's name.",
+    "significance": "Demonstrates Eric Dolphy's command of jazz and their place within the broader jazz lineage.",
+    "keyTracks": [
+      "Rally",
+      "Bass Duet",
+      "Softly, as in a Morning Sunrise",
+      "Where?",
+      "Yes Indeed"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F9c6d9381-99af-486f-a775-616a1d2f78aa%2F8153312938-500.jpg&w=500&output=webp",
+    "wikipedia": "https://en.wikipedia.org/wiki/Where%3F_(album)",
+    "spotifyUrl": "https://open.spotify.com/album/5yq6rIBdVmlEbWJ56QBZmM"
   },
   {
     "id": "modern-sounds",
@@ -2959,7 +3748,8 @@
       "Near You",
       "Yearning (Just for You)"
     ],
-    "coverUrl": "https://coverartarchive.org/release/f7646924-315f-4ec3-82ce-eb0eae829a14/33299586419-500.jpg"
+    "coverUrl": "https://coverartarchive.org/release/f7646924-315f-4ec3-82ce-eb0eae829a14/33299586419-500.jpg",
+    "spotifyUrl": "https://open.spotify.com/album/6knZwJ3Qp0uBe7NEiDIrTw"
   },
   {
     "id": "far-cry",
@@ -3062,6 +3852,31 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=Fvy553GFY64"
   },
   {
+    "id": "money-jungle-mingus",
+    "title": "Money Jungle",
+    "artist": "Charles Mingus",
+    "artistId": "charles-mingus",
+    "year": 1962,
+    "label": "United Artists Jazz",
+    "era": "hard-bop",
+    "genres": [
+      "hard bop",
+      "post-bop"
+    ],
+    "description": "Money Jungle is a studio album by the pianist Duke Ellington with the double bassist Charles Mingus and the drummer Max Roach. It was recorded on September 17, 1962, and released in February 1963 by United Artists Jazz. All but one of the compositions were written by Ellington, with four of the seven on the original LP being recorded for the first time on this album. Later releases on CD added eight tracks from the same recording session.",
+    "significance": "An important entry in Charles Mingus's discography, showcasing their contribution to hard bop.",
+    "keyTracks": [
+      "Money Jungle",
+      "Les Fleurs Africaines (African Flower)",
+      "Very Special",
+      "Warm Valley",
+      "Wig Wise"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F6a3d8dfe-bc72-4010-861e-a3f51723a4b7%2F11706688261-500.jpg&w=500&output=webp",
+    "wikipedia": "https://en.wikipedia.org/wiki/Money_Jungle",
+    "spotifyUrl": "https://open.spotify.com/album/5I3aoewqDpP4TglIl9O7su"
+  },
+  {
     "id": "nancy-wilson-cannonball-adderley",
     "title": "Nancy Wilson / Cannonball Adderley",
     "artist": "Cannonball Adderley",
@@ -3108,7 +3923,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Ff6e8e4d7-5043-4feb-b784-39c73e580abd%2F4521865808-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/ready-for-freddie-the-rudy-van-gelder-edition-remastered/715902693?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Ready_for_Freddie"
+    "wikipedia": "https://en.wikipedia.org/wiki/Ready_for_Freddie",
+    "spotifyUrl": "https://open.spotify.com/album/7ljBRFcxkKGij4vjfAnlcT"
   },
   {
     "id": "stop-and-listen",
@@ -3213,6 +4029,48 @@
     "secondaryArtistIds": [
       "jeanne-lee"
     ]
+  },
+  {
+    "id": "think-well-of-me",
+    "title": "Think Well of Me",
+    "artist": "Jack Teagarden",
+    "artistId": "jack-teagarden",
+    "year": 1962,
+    "label": "Unknown",
+    "era": "swing",
+    "genres": [
+      "contemporary jazz"
+    ],
+    "description": "Think Well of Me is a 1962 studio album by trombonist/vocalist Jack Teagarden, performing songs by Willard Robison, accompanied by an orchestra arranged and conducted by Bob Brookmeyer or Russ Case, that was released by the Verve label.",
+    "significance": "Represents a key chapter in Jack Teagarden's evolving artistic vision.",
+    "keyTracks": [],
+    "coverUrl": "",
+    "appleMusicUrl": "https://music.apple.com/us/album/think-well-of-me/1443824103?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Think_Well_of_Me"
+  },
+  {
+    "id": "whats-new",
+    "title": "What’s New?",
+    "artist": "Sonny Rollins",
+    "artistId": "sonny-rollins",
+    "year": 1962,
+    "label": "RCA Victor",
+    "era": "hard-bop",
+    "genres": [
+      "hard bop"
+    ],
+    "description": "A showcase for Sonny Rollins's tenor saxophone, What’s New? (1962) draws from the jazz vocabulary with authority. The music pulses with the soulful intensity and blues-rooted fire of hard bop. Tracks such as 'If Ever I Would Leave You' and 'Jungoso' anchor the program.",
+    "significance": "An essential document of Sonny Rollins's artistry during the hard bop period.",
+    "keyTracks": [
+      "If Ever I Would Leave You",
+      "Jungoso",
+      "Bluesongo",
+      "The Night Has a Thousand Eyes",
+      "Brownskin Girl"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F835a9de4-2689-4749-8948-6a6428f5c712%2F20224330736-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/whats-new/377298202?uo=4",
+    "spotifyUrl": "https://open.spotify.com/album/7v7yJN13QM7aLs4cQ7r9ii"
   },
   {
     "id": "back-at-the-chicken-shack",
@@ -3355,7 +4213,8 @@
       "Love Me"
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F73efd083-c4fe-4d94-b4ce-1cb8094f61eb%2F9281235372-500.jpg&w=500&output=webp",
-    "wikipedia": "https://en.wikipedia.org/wiki/Conversations_(Eric_Dolphy_album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Conversations_(Eric_Dolphy_album)",
+    "spotifyUrl": "https://open.spotify.com/album/7EFKi9DLIXbwxvkyS2LGt5"
   },
   {
     "id": "duke-ellington-meets-coleman-hawkins",
@@ -3371,6 +4230,32 @@
     ],
     "description": "Duke Ellington Meets Coleman Hawkins is a jazz album by Duke Ellington and Coleman Hawkins that was recorded on August 18, 1962, and released in February 1963 by Impulse! Records.",
     "significance": "An important entry in Duke Ellington's discography, showcasing their contribution to big band.",
+    "keyTracks": [
+      "Limbo Jazz",
+      "Mood Indigo",
+      "Ray Charles' Place",
+      "Wanderlust",
+      "You Dirty Dog"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F43c55c3a-c3e8-33c7-ae87-73387cbf3bdd%2F16701372562-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/duke-ellington-meets-coleman-hawkins/1444036475?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Duke_Ellington_Meets_Coleman_Hawkins",
+    "spotifyUrl": "https://open.spotify.com/album/0Kggi4r3OcApji9xJI3olG"
+  },
+  {
+    "id": "duke-ellington-meets-coleman-hawkins-hawkins",
+    "title": "Duke Ellington Meets Coleman Hawkins",
+    "artist": "Coleman Hawkins",
+    "artistId": "coleman-hawkins",
+    "year": 1963,
+    "label": "impulse!",
+    "era": "hard-bop",
+    "genres": [
+      "big band",
+      "swing"
+    ],
+    "description": "Duke Ellington Meets Coleman Hawkins is a jazz album by Duke Ellington and Coleman Hawkins that was recorded on August 18, 1962, and released in February 1963 by Impulse! Records.",
+    "significance": "An important entry in Coleman Hawkins's discography, showcasing their contribution to big band.",
     "keyTracks": [
       "Limbo Jazz",
       "Mood Indigo",
@@ -3580,6 +4465,30 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Sassy_Swings_the_Tivoli"
   },
   {
+    "id": "stan-getz-with-guest-artist-laurindo-almeida",
+    "title": "Stan Getz With Guest Artist Laurindo Almeida",
+    "artist": "Stan Getz",
+    "artistId": "stan-getz",
+    "year": 1963,
+    "label": "Verve",
+    "era": "cool-jazz",
+    "genres": [
+      "latin jazz"
+    ],
+    "description": "Stan Getz With Guest Artist Laurindo Almeida is an album by American saxophonist Stan Getz and guitarist Laurindo Almeida, recorded in 1963 and issued on Verve as V/V6-8665.",
+    "significance": "A noteworthy album in Stan Getz's body of work within the free jazz tradition.",
+    "keyTracks": [
+      "Minina Moca",
+      "Once Again",
+      "Winter Moon",
+      "Do What You Do, Do",
+      "Samba da Sahra"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F7a5bc2f5-7225-420f-9d01-4fabab84dcab%2F7991442135-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/stan-getz-with-guest-artist-laurindo-almeida-feat/1443127411?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stan_Getz_with_Guest_Artist_Laurindo_Almeida"
+  },
+  {
     "id": "the-black-saint",
     "title": "The Black Saint and the Sinner Lady",
     "artist": "Charles Mingus",
@@ -3603,6 +4512,31 @@
     "appleMusicUrl": "https://music.apple.com/us/album/the-black-saint-and-the-sinner-lady/1471359682",
     "youtubeUrl": "https://www.youtube.com/watch?v=hP_vjfC0FlM",
     "wikipedia": "https://en.wikipedia.org/wiki/The_Black_Saint_and_the_Sinner_Lady"
+  },
+  {
+    "id": "the-latin-bit",
+    "title": "The Latin Bit",
+    "artist": "Grant Green",
+    "artistId": "grant-green",
+    "year": 1963,
+    "label": "Blue Note",
+    "era": "hard-bop",
+    "genres": [
+      "latin jazz"
+    ],
+    "description": "The Latin Bit is an album by American jazz guitarist Grant Green featuring performances recorded in 1962 and released on the Blue Note label. It is a loose concept album inspired by Latin American music. It features tenor saxophonist Ike Quebec, pianists Sonny Clark and John Adriano Acea, bassist Wendell Marshall and percussionists Willie Bobo, Garvin Masseaux and “Patato” Valdes.",
+    "significance": "Represents a key chapter in Grant Green's evolving artistic vision.",
+    "keyTracks": [
+      "Mambo Inn",
+      "Besame Mucho",
+      "Mama Inez",
+      "Brazil",
+      "Tico Tico"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F46edfe83-4498-4a5c-9af3-d8ae25788d89%2F32275361968-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/the-latin-bit-the-rudy-van-gelder-edition/716598141?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Latin_Bit",
+    "spotifyUrl": "https://open.spotify.com/album/25R1tDWaQANYeIQb60rwiX"
   },
   {
     "id": "black-christ-of-the-andes",
@@ -3907,7 +4841,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F70d13ec1-e731-3775-b70f-c1a2fb416828%2F8878798092-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/mingus-mingus-mingus-mingus-mingus/1444104538?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Mingus_Mingus_Mingus_Mingus_Mingus"
+    "wikipedia": "https://en.wikipedia.org/wiki/Mingus_Mingus_Mingus_Mingus_Mingus",
+    "spotifyUrl": "https://open.spotify.com/album/12DCd8u80PoRIvBgjQrtuH"
   },
   {
     "id": "night-dreamer",
@@ -4002,7 +4937,8 @@
       "Red Top"
     ],
     "coverUrl": "https://coverartarchive.org/release/a31a5bcf-2959-4531-b0ec-0ab8d6eb809c/32228477297-500.jpg",
-    "appleMusicUrl": "https://music.apple.com/us/album/prayer-meetin-the-rudy-van-gelder-edition-remastered/716452524"
+    "appleMusicUrl": "https://music.apple.com/us/album/prayer-meetin-the-rudy-van-gelder-edition-remastered/716452524",
+    "spotifyUrl": "https://open.spotify.com/album/64YCPfhaVROS1Ai2Y54mcB"
   },
   {
     "id": "search-for-the-new-land",
@@ -4284,7 +5220,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F3a58fcbd-3884-4f36-be5a-d97b966fc797%2F32933894059-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/e-s-p-2022-remaster/203773370?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/E.S.P._(Miles_Davis_album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/E.S.P._(Miles_Davis_album)",
+    "spotifyUrl": "https://open.spotify.com/album/4AeaLfaovthnN1rO3OrMNH"
   },
   {
     "id": "fire-music",
@@ -4360,7 +5297,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fb3a5b78e-17bc-324c-86eb-c0b894fb3237%2F27579833673-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/i-put-a-spell-on-you/1445667726?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/I_Put_a_Spell_on_You_(album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/I_Put_a_Spell_on_You_(album)",
+    "spotifyUrl": "https://open.spotify.com/album/3ofZeSWPHZOE5WC2tNZDez"
   },
   {
     "id": "idle-moments",
@@ -4612,7 +5550,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F21b363b7-e40e-4f8c-a6e3-613a06226fa0%2F21120304379-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/solo-monk-expanded-edition/186320155?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Solo_Monk"
+    "wikipedia": "https://en.wikipedia.org/wiki/Solo_Monk",
+    "spotifyUrl": "https://open.spotify.com/album/74rgfTDIK5HpLIGHRqgsCS"
   },
   {
     "id": "some-other-stuff",
@@ -4738,7 +5677,8 @@
       "Of Heavenly Things"
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F46ac1762-c6d1-40b6-bef2-1301203c1e69%2F34577909139-500.jpg&w=500&output=webp",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Heliocentric_Worlds_of_Sun_Ra%2C_Volume_One"
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Heliocentric_Worlds_of_Sun_Ra%2C_Volume_One",
+    "spotifyUrl": "https://open.spotify.com/album/4oYyPuHK9d1kRTG4Jeu4g4"
   },
   {
     "id": "a-sign-of-the-times",
@@ -4855,7 +5795,8 @@
       "Azure"
     ],
     "coverUrl": "https://coverartarchive.org/release/c84f2fae-e3c6-40c1-894c-ea2c918c4e21/37486268509-500.jpg",
-    "appleMusicUrl": "https://music.apple.com/us/album/ella-at-dukes-place/1425196755"
+    "appleMusicUrl": "https://music.apple.com/us/album/ella-at-dukes-place/1425196755",
+    "spotifyUrl": "https://open.spotify.com/album/1pznhTLv7PV8Lx9lqMJJ5I"
   },
   {
     "id": "ella-at-dukes-place-ellington",
@@ -4878,7 +5819,8 @@
       "Azure"
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F6b2c460c-373c-4b86-a6da-3da670a90ce0%2F14101579852-500.jpg&w=500&output=webp",
-    "appleMusicUrl": "https://music.apple.com/us/album/ella-at-dukes-place/1425196755?uo=4"
+    "appleMusicUrl": "https://music.apple.com/us/album/ella-at-dukes-place/1425196755?uo=4",
+    "spotifyUrl": "https://open.spotify.com/album/1pznhTLv7PV8Lx9lqMJJ5I"
   },
   {
     "id": "globe-unity",
@@ -4953,7 +5895,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fcfa96f5a-e365-463e-9656-5845770bcd4a%2F15316826176-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/here-and-there/1443132025?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Here_and_There_(Eric_Dolphy_album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Here_and_There_(Eric_Dolphy_album)",
+    "spotifyUrl": "https://open.spotify.com/album/4wZeuwV1x7cqcyD6U6nhZu"
   },
   {
     "id": "indo-jazz-suite",
@@ -5314,7 +6257,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F97284445-2b6c-4e7e-9b8c-a47a6edbc6ca%2F15728046216-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/conquistador-the-rudy-van-gelder-edition-remastered/716542511?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Conquistador!"
+    "wikipedia": "https://en.wikipedia.org/wiki/Conquistador!",
+    "spotifyUrl": "https://open.spotify.com/album/69OZHsomLpQigZdQuTWHqx"
   },
   {
     "id": "contours",
@@ -5721,7 +6665,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F218e9378-8a84-4acb-b786-0b8661c4b8fc%2F37486794394-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/far-east-suite/1209208698?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Far_East_Suite"
+    "wikipedia": "https://en.wikipedia.org/wiki/Far_East_Suite",
+    "spotifyUrl": "https://open.spotify.com/album/1MmGKLtZaHQyhBAris2AkK"
   },
   {
     "id": "the-magic-of-juju",
@@ -5821,6 +6766,29 @@
     "spotifyUrl": "https://open.spotify.com/album/1XEPKavl3nlI2qVt8HuA5n",
     "appleMusicUrl": "https://music.apple.com/us/album/afro-harping/1443481982",
     "youtubeUrl": "https://www.youtube.com/watch?v=Ojuz4XlxKmM"
+  },
+  {
+    "id": "clarinet-concertos-nos-1-and-2",
+    "title": "Clarinet Concertos Nos. 1 And 2",
+    "artist": "Benny Goodman",
+    "artistId": "benny-goodman",
+    "year": 1968,
+    "label": "RCA Red Seal",
+    "era": "swing",
+    "genres": [
+      "swing",
+      "big band"
+    ],
+    "description": "Benny Goodman's Clarinet Concertos Nos. 1 And 2, cut for RCA Red Seal in 1968, stands as a distinguished entry in the swing canon. The set list features 'Concerto for Clarinet and Orchestra no. 1 in F minor, op. 73: I. Allegro' and 'Concerto for Clarinet and Orchestra no. 1 in F minor, op. 73: II. Adagio ma non troppo' among its standout moments.",
+    "significance": "Demonstrates Benny Goodman's command of swing and their place within the broader jazz lineage.",
+    "keyTracks": [
+      "Concerto for Clarinet and Orchestra no. 1 in F minor, op. 73: I. Allegro",
+      "Concerto for Clarinet and Orchestra no. 1 in F minor, op. 73: II. Adagio ma non troppo",
+      "Concerto for Clarinet and Orchestra no. 1 in F minor, op. 73: III. Rondo. Allegretto",
+      "Concerto for Clarinet and Orchestra no. 2 in E-flat major, op. 74: I. Allegro",
+      "Concerto for Clarinet and Orchestra no. 2 in E-flat major, op. 74: II. Andante con moto"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Faa920ce1-ebae-4c95-8cf5-50de194ad9fa%2F36442114585-500.jpg&w=500&output=webp"
   },
   {
     "id": "grazin-in-the-grass",
@@ -5946,6 +6914,30 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Now_He_Sings%2C_Now_He_Sobs"
   },
   {
+    "id": "piano-starts-here",
+    "title": "Piano Starts Here",
+    "artist": "Art Tatum",
+    "artistId": "art-tatum",
+    "year": 1968,
+    "label": "Columbia",
+    "era": "swing",
+    "genres": [
+      "swing"
+    ],
+    "description": "Piano Starts Here, released in 1968, captures Art Tatum at a creative peak, blending jazz with personal expression. Highlights include 'Tea for Two' and 'St. Louis Blues'.",
+    "significance": "An important entry in Art Tatum's discography, showcasing their contribution to jazz.",
+    "keyTracks": [
+      "Tea for Two",
+      "St. Louis Blues",
+      "Tiger Rag",
+      "Sophisticated Lady",
+      "How High the Moon"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F8e60f7fa-86ca-4906-ba4b-9c157f2e5bac%2F21103179669-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/piano-starts-here/157401507?uo=4",
+    "spotifyUrl": "https://open.spotify.com/album/1FCIddh80qKhpueDBsLNfr"
+  },
+  {
     "id": "selflessness-featuring-my-favorite-things",
     "title": "Selflessness, Featuring My Favorite Things",
     "artist": "John Coltrane",
@@ -5964,7 +6956,8 @@
       "Selflessness"
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F8e5cef62-e621-47ba-a20d-986758a0c8f5%2F42071816182-500.jpg&w=500&output=webp",
-    "appleMusicUrl": "https://music.apple.com/us/album/selflessness/1443655117?uo=4"
+    "appleMusicUrl": "https://music.apple.com/us/album/selflessness/1443655117?uo=4",
+    "spotifyUrl": "https://open.spotify.com/album/6TmkM0K2k52kGdvJGdq29H"
   },
   {
     "id": "speak-like-a-child",
@@ -5988,7 +6981,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F09fbe547-2f17-4843-bc42-09db1a80b6c3%2F6311865793-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/speak-like-a-child/1444110917?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Speak_Like_a_Child_(album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Speak_Like_a_Child_(album)",
+    "spotifyUrl": "https://open.spotify.com/album/5KnNC5kCRiEGk7dZMjr07r"
   },
   {
     "id": "the-piano-soul-of-nat-king-cole",
@@ -6058,7 +7052,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F0931f0f9-b34c-4130-9ddc-449f22b1e667%2F26159709316-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/time-for-tyner/1443282060?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Time_for_Tyner"
+    "wikipedia": "https://en.wikipedia.org/wiki/Time_for_Tyner",
+    "spotifyUrl": "https://open.spotify.com/album/1q2RwlhPN4zVbhlHMV393p"
   },
   {
     "id": "total-eclipse",
@@ -6304,7 +7299,8 @@
       "Brilliant Corners"
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fcd54baa6-186c-4052-ada7-71cb93ff220b%2F9887797614-500.jpg&w=500&output=webp",
-    "appleMusicUrl": "https://music.apple.com/us/album/monks-blues/192797451?uo=4"
+    "appleMusicUrl": "https://music.apple.com/us/album/monks-blues/192797451?uo=4",
+    "spotifyUrl": "https://open.spotify.com/album/5WuHIfyckUx0FPAG45aNFh"
   },
   {
     "id": "musique-sacre",
@@ -6841,7 +7837,31 @@
     "significance": "An important entry in Leon Thomas's discography, showcasing their contribution to jazz.",
     "keyTracks": [],
     "coverUrl": "https://coverartarchive.org/release/25708b9f-7710-4faf-83f4-c3cb9d4c7ecb/9405790594-500.jpg",
-    "appleMusicUrl": "https://music.apple.com/us/album/the-leon-thomas-album/1621375923"
+    "appleMusicUrl": "https://music.apple.com/us/album/the-leon-thomas-album/1621375923",
+    "spotifyUrl": "https://open.spotify.com/album/3bdFR4oBOTVSp7Yf37XRwV"
+  },
+  {
+    "id": "transition",
+    "title": "Transition",
+    "artist": "John Coltrane",
+    "artistId": "john-coltrane",
+    "year": 1970,
+    "label": "impulse!",
+    "era": "free-jazz",
+    "genres": [
+      "free jazz"
+    ],
+    "description": "Transition is an album of music by jazz saxophonist John Coltrane, recorded in 1965 but released posthumously only in 1970. As its title indicates, Transition was a bridge between classic quartet recordings like A Love Supreme and the more experimental works of Coltrane's last years.",
+    "significance": "An essential document of John Coltrane's artistry during the free jazz period.",
+    "keyTracks": [
+      "Transition",
+      "Dear Lord",
+      "Suite: Prayer and Meditation: Day / Peace and After / Prayer and Meditation: Evening / Affirmation / Prayer and Meditation: 4 A.M."
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fd5076d7c-5425-439a-82de-df9c7a0f6f9b%2F24240976871-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/transition/1443142813?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Transition_(John_Coltrane_album)",
+    "spotifyUrl": "https://open.spotify.com/album/43m52YBJ08y7XAuSsVRpvL"
   },
   {
     "id": "escalator-over-the-hill",
@@ -6891,7 +7911,8 @@
     ],
     "coverUrl": "https://dn710600.ca.archive.org/0/items/mbid-33375c1a-5788-4bb0-b3d1-0d7eb53b6d02/mbid-33375c1a-5788-4bb0-b3d1-0d7eb53b6d02-14485937750_thumb500.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=KzlNC_y5XkA",
-    "appleMusicUrl": "https://music.apple.com/us/album/harlem-bush-music-uhuru/1442971084"
+    "appleMusicUrl": "https://music.apple.com/us/album/harlem-bush-music-uhuru/1442971084",
+    "spotifyUrl": "https://open.spotify.com/album/031Ay5otjVJvC6OLAkT23D"
   },
   {
     "id": "harlem-river-drive",
@@ -6968,7 +7989,8 @@
     ],
     "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/94/e2/7e/mzi.ieylxcnl.jpg/600x600bb.jpg",
     "appleMusicUrl": "https://music.apple.com/us/album/lift-every-voice-and-sing-with-the-j-c-white-singers/310537806?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Lift_Every_Voice_and_Sing_(album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Lift_Every_Voice_and_Sing_(album)",
+    "spotifyUrl": "https://open.spotify.com/album/5x7xAvC1Re3azpzANT4qxf"
   },
   {
     "id": "mwandishi",
@@ -6992,7 +8014,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F901a3877-a0ed-44bb-a3d4-87fcded5cf9e%2F14741915528-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/mwandishi/818619053?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Mwandishi"
+    "wikipedia": "https://en.wikipedia.org/wiki/Mwandishi",
+    "spotifyUrl": "https://open.spotify.com/album/2mqMMupKZi5wBf7bXiqDR5"
   },
   {
     "id": "on-with-it",
@@ -7193,6 +8216,29 @@
     "youtubeUrl": "https://www.youtube.com/playlist?list=PL38ctkEUA2XaJcIoiMhB1uBaK_ZTSbZKc"
   },
   {
+    "id": "art-blakey-his-jazz-messengers",
+    "title": "Art Blakey & His Jazz Messengers",
+    "artist": "Art Blakey",
+    "artistId": "art-blakey",
+    "year": 1972,
+    "label": "impulse!",
+    "era": "fusion",
+    "genres": [
+      "hard bop"
+    ],
+    "description": "A showcase for Art Blakey's drums, Art Blakey & His Jazz Messengers (1972) draws from the hard bop vocabulary with authority. Tracks such as 'Alamode' and 'Invitation' anchor the program.",
+    "significance": "Represents a key chapter in Art Blakey's evolving artistic vision.",
+    "keyTracks": [
+      "Alamode",
+      "Invitation",
+      "Circus",
+      "You Don't Know What Love Is",
+      "I Hear a Rhapsody"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fc2b51834-6010-4ad1-b034-a1e69a25864f%2F37372655674-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/jazz-messengers/1443223815?uo=4"
+  },
+  {
     "id": "black-is-the-color",
     "title": "Black Is the Color",
     "artist": "Joe Henderson",
@@ -7263,7 +8309,8 @@
     ],
     "coverUrl": "https://coverartarchive.org/release/0f85e945-aaa7-406d-9c61-462b92df0199/5529916064-500.jpg",
     "appleMusicUrl": "https://music.apple.com/us/album/connection/1625973890",
-    "wikipedia": "https://en.wikipedia.org/wiki/Connection_(Don_Ellis_album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Connection_(Don_Ellis_album)",
+    "spotifyUrl": "https://open.spotify.com/album/2IIKXCnl2zuj31uvma88yd"
   },
   {
     "id": "dig-this",
@@ -7367,6 +8414,32 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Facing_You"
   },
   {
+    "id": "i-sing-the-body-electric",
+    "title": "I Sing the Body Electric",
+    "artist": "Weather Report",
+    "artistId": "weather-report",
+    "year": 1972,
+    "label": "Columbia",
+    "era": "fusion",
+    "genres": [
+      "avant-garde jazz",
+      "jazz fusion"
+    ],
+    "description": "I Sing the Body Electric is the second studio album released by the American jazz fusion band Weather Report in 1972.",
+    "significance": "Demonstrates Weather Report's command of avant-garde jazz and their place within the broader jazz lineage.",
+    "keyTracks": [
+      "Unknown Soldier",
+      "The Moors",
+      "Crystal",
+      "Second Sunday in August",
+      "Medley: Vertical Invader / T.H. / Dr Honoris Causa"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fb193f29d-ac56-40bf-b603-24645dc54ca6%2F16296439512-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/i-sing-the-body-electric/206103475?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/I_Sing_the_Body_Electric_(album)",
+    "spotifyUrl": "https://open.spotify.com/album/4YONjOkR8gd9iMc2Z4cCfA"
+  },
+  {
     "id": "let-my-children-hear-music",
     "title": "Let My Children Hear Music",
     "artist": "Charles Mingus",
@@ -7389,7 +8462,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F904f83f2-c0b4-4e12-84bf-d41246dfc64b%2F40882388765-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/let-my-children-hear-music/191449521?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Let_My_Children_Hear_Music"
+    "wikipedia": "https://en.wikipedia.org/wiki/Let_My_Children_Hear_Music",
+    "spotifyUrl": "https://open.spotify.com/album/03zH4bkGb2jSZAQIVW2px1"
   },
   {
     "id": "mystic-brew",
@@ -7515,7 +8589,35 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F705c372a-b045-40a4-93e0-72954d24ccdd%2F26557769215-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/the-complete-science-fiction-sessions/157384509?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Science_Fiction_(Ornette_Coleman_album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Science_Fiction_(Ornette_Coleman_album)",
+    "spotifyUrl": "https://open.spotify.com/album/1WEi45sOKRTSC1UkQWN74b"
+  },
+  {
+    "id": "shades-of-green",
+    "title": "Shades of Green",
+    "artist": "Grant Green",
+    "artistId": "grant-green",
+    "year": 1972,
+    "label": "Blue Note",
+    "era": "fusion",
+    "genres": [
+      "jazz fusion",
+      "jazz-funk",
+      "soul jazz"
+    ],
+    "description": "Shades of Green is an album by American jazz guitarist Grant Green featuring performances recorded in 1971 and released on the Blue Note label.",
+    "significance": "Represents a key chapter in Grant Green's evolving artistic vision.",
+    "keyTracks": [
+      "I Don't Want Nobody to Give Me Nothing (Open Up the Door I'll Get It Myself) / Cold Sweat (medley)",
+      "Sunrise, Sunset",
+      "Never My Love",
+      "Got to Be There",
+      "California Green"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F47ffd53b-ca32-3c2a-b56f-f945b6766875%2F14838795194-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/shades-of-green/1371805399?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shades_of_Green_(album)",
+    "spotifyUrl": "https://open.spotify.com/album/5MbulfHpo8YYXgd9tymjRQ"
   },
   {
     "id": "skies-of-america",
@@ -7541,7 +8643,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F0018ffd7-1105-4a48-b920-a2471af84cef%2F33110263348-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/skies-of-america/298137743?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Skies_of_America"
+    "wikipedia": "https://en.wikipedia.org/wiki/Skies_of_America",
+    "spotifyUrl": "https://open.spotify.com/album/71ZTPSnaNizoaYB6JaISqg"
   },
   {
     "id": "spiritual-nature",
@@ -8128,6 +9231,31 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=UFsSXVkdi_I"
   },
   {
+    "id": "illuminations",
+    "title": "Illuminations",
+    "artist": "Alice Coltrane",
+    "artistId": "alice-coltrane",
+    "year": 1974,
+    "label": "Columbia",
+    "era": "fusion",
+    "genres": [
+      "free jazz",
+      "jazz fusion"
+    ],
+    "description": "On Illuminations (1974), Alice Coltrane delivers a focused exploration of free jazz, recorded for Columbia. Among its key performances are 'Guru Sri Chinmoy Aphorism' and 'Angel of Air / Angel of Water'.",
+    "significance": "Adds to Alice Coltrane's reputation as a leading voice in free jazz.",
+    "keyTracks": [
+      "Guru Sri Chinmoy Aphorism",
+      "Angel of Air / Angel of Water",
+      "Bliss: The Eternal Now",
+      "Angel of Sunlight",
+      "Illuminations"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fdebbb9a3-40ec-4ac8-97f4-c8b969fea56d%2F40582423363-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/illuminations/288346421?uo=4",
+    "spotifyUrl": "https://open.spotify.com/album/2uikR6eZ1HzoGH4Ki6eneU"
+  },
+  {
     "id": "love-sex-and-the-zodiac",
     "title": "Love, Sex, and the Zodiac",
     "artist": "Cannonball Adderley",
@@ -8190,7 +9318,8 @@
       "Mannenberg",
       "The Pilgrim"
     ],
-    "coverUrl": "https://coverartarchive.org/release/c15ddad4-e41f-44c1-9368-0009e99ea774/26097602070-500.jpg"
+    "coverUrl": "https://coverartarchive.org/release/c15ddad4-e41f-44c1-9368-0009e99ea774/26097602070-500.jpg",
+    "spotifyUrl": "https://open.spotify.com/album/211IJ33ehIcOM2fdMCxJRp"
   },
   {
     "id": "sadao-watanabe-mbali",
@@ -8268,6 +9397,28 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Satin_Doll_(Bobbi_Humphrey_album)"
   },
   {
+    "id": "summit-reunin-cumbre",
+    "title": "Summit (Reunión cumbre)",
+    "artist": "Gerry Mulligan",
+    "artistId": "gerry-mulligan",
+    "year": 1974,
+    "label": "Erre T.V.",
+    "era": "fusion",
+    "genres": [
+      "cool jazz"
+    ],
+    "description": "Gerry Mulligan's Summit (Reunión cumbre), cut for Erre T.V. in 1974, stands as a distinguished entry in the cool jazz canon. The album channels the electric energy and cross-genre experimentation of the fusion era. Notable tracks include '20 Years Ago' and 'Close Your Eyes and Listen'.",
+    "significance": "Represents a key chapter in Gerry Mulligan's evolving artistic vision.",
+    "keyTracks": [
+      "20 Years Ago",
+      "Close Your Eyes and Listen",
+      "Years of Solitude",
+      "Deus Xango",
+      "20 Years After"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Ff98382dc-9b0b-3ea3-8adf-ed086947b18d%2F27814585914-500.jpg&w=500&output=webp"
+  },
+  {
     "id": "thrust",
     "title": "Thrust",
     "artist": "Herbie Hancock",
@@ -8342,7 +9493,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F328eabf3-3679-4458-bf14-a3ea172a6edc%2F22558649707-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/agharta/207340921?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Agharta_(album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Agharta_(album)",
+    "spotifyUrl": "https://open.spotify.com/album/7ACMLIVtCkZP7EzxzsZISW"
   },
   {
     "id": "air-song",
@@ -8516,7 +9668,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fe738f209-9fe2-4a7f-8d0d-b897dde98826%2F21477421373-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/lone-lee/158933614?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Lone-Lee"
+    "wikipedia": "https://en.wikipedia.org/wiki/Lone-Lee",
+    "spotifyUrl": "https://open.spotify.com/album/122GCwi2DEKRO0wvv4YcDa"
   },
   {
     "id": "old-quartet",
@@ -8804,7 +9957,8 @@
     ],
     "coverUrl": "https://coverartarchive.org/release/b7d69d54-321c-49fc-bf59-ea897edce86b/27933927433-500.jpg",
     "appleMusicUrl": "https://music.apple.com/us/album/balladyna/1696075197",
-    "wikipedia": "https://en.wikipedia.org/wiki/Balladyna_(album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Balladyna_(album)",
+    "spotifyUrl": "https://open.spotify.com/album/46IBvUEk8pAzqZhp7fnCNl"
   },
   {
     "id": "blue-notes-for-mongezi",
@@ -9118,7 +10272,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F58208e53-86c7-440e-b51a-24530d0c8b24%2F10455668349-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/waiting/1444210702?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Waiting_(Bobby_Hutcherson_album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Waiting_(Bobby_Hutcherson_album)",
+    "spotifyUrl": "https://open.spotify.com/album/1OpeqkzvDFGYwrnRcReJsR"
   },
   {
     "id": "well-be-together-again",
@@ -9269,6 +10424,25 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=3i2-BMTx3Vo"
   },
   {
+    "id": "easy-living",
+    "title": "Easy Living",
+    "artist": "Sonny Rollins",
+    "artistId": "sonny-rollins",
+    "year": 1977,
+    "label": "Unknown",
+    "era": "fusion",
+    "genres": [
+      "jazz fusion"
+    ],
+    "description": "Easy Living is an album by jazz saxophonist Sonny Rollins, released on the Milestone label in 1977, featuring performances by Rollins with George Duke, Paul Jackson and Tony Williams with Byron Miller and Bill Summers added on one track.",
+    "significance": "A noteworthy album in Sonny Rollins's body of work within the jazz fusion tradition.",
+    "keyTracks": [],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F07eef604-a48d-4ef1-b187-991b6751e759%2F41411854613-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/easy-living/1533732306?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Easy_Living_(Sonny_Rollins_album)",
+    "spotifyUrl": "https://open.spotify.com/album/4fu74fZthJwv3EU2mYoLZv"
+  },
+  {
     "id": "emerald-tears",
     "title": "Emerald Tears",
     "artist": "Dave Holland",
@@ -9393,6 +10567,30 @@
     "spotifyUrl": "https://open.spotify.com/album/32gEmtQdGJ3Osa9J06yveR"
   },
   {
+    "id": "sit-on-it",
+    "title": "Sit on It!",
+    "artist": "Jimmy Smith",
+    "artistId": "jimmy-smith",
+    "year": 1977,
+    "label": "Mercury Records",
+    "era": "fusion",
+    "genres": [
+      "jazz-funk"
+    ],
+    "description": "A showcase for Jimmy Smith's organ, Sit on It! (1977) draws from the jazz vocabulary with authority. The album channels the electric energy and cross-genre experimentation of the fusion era. The set list features 'Give Up the Booty' and 'Can’t Hide Love' among its standout moments.",
+    "significance": "Represents a key chapter in Jimmy Smith's evolving artistic vision.",
+    "keyTracks": [
+      "Give Up the Booty",
+      "Can’t Hide Love",
+      "Cherrystones",
+      "My Place in Space",
+      "Born to Groove / From You to Me to You"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Ff0bd5259-eb91-4a30-af22-e12a26197c0c%2F10430921357-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/sit-on-it/1379066709?uo=4",
+    "spotifyUrl": "https://open.spotify.com/album/31fjoccSlSpQSnndErAGGN"
+  },
+  {
     "id": "slaves-mass",
     "title": "Slaves Mass",
     "artist": "Hermeto Pascoal",
@@ -9511,7 +10709,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F459c28db-fc1e-4c05-abc2-a6568a9aa53c%2F16792058831-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/african-violet/1438775755?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/African_Violet_(album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/African_Violet_(album)",
+    "spotifyUrl": "https://open.spotify.com/album/5IuVXe6f20tJmsaTFZN0eo"
   },
   {
     "id": "exotic-mysteries",
@@ -9584,7 +10783,8 @@
       "Tomorrow’s Destiny"
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F98b412e2-b0bb-4789-b51f-31bb0b80c38a%2F16903274233-500.jpg&w=500&output=webp",
-    "appleMusicUrl": "https://music.apple.com/us/album/little-reds-fantasy/1439399058?uo=4"
+    "appleMusicUrl": "https://music.apple.com/us/album/little-reds-fantasy/1439399058?uo=4",
+    "spotifyUrl": "https://open.spotify.com/album/1pMoeJBi4kmZYkDkJqQiWG"
   },
   {
     "id": "my-song",
@@ -9750,7 +10950,8 @@
     ],
     "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/fe/5d/51/fe5d5160-0ccc-6c63-947e-f5a322e98afe/00602577065842.rgb.jpg/600x600bb.jpg",
     "appleMusicUrl": "https://music.apple.com/us/album/summer-soft/1438775466?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Summer_Soft"
+    "wikipedia": "https://en.wikipedia.org/wiki/Summer_Soft",
+    "spotifyUrl": "https://open.spotify.com/album/62NlslXnQ33fuA6znzI0m5"
   },
   {
     "id": "the-cecil-taylor-unit",
@@ -9771,7 +10972,8 @@
       "Holiday en masque"
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F5d710b44-6398-4ae2-a9c8-ad879324a79b%2F36874193069-500.jpg&w=500&output=webp",
-    "appleMusicUrl": "https://music.apple.com/us/album/cecil-taylor-unit/392791338?uo=4"
+    "appleMusicUrl": "https://music.apple.com/us/album/cecil-taylor-unit/392791338?uo=4",
+    "spotifyUrl": "https://open.spotify.com/album/0A7ZwikrjzQ20h753I7nVn"
   },
   {
     "id": "third-plane",
@@ -9797,6 +10999,30 @@
     "appleMusicUrl": "https://music.apple.com/us/album/third-plane/1442993579",
     "spotifyUrl": "https://open.spotify.com/album/6fazIXnwSy7mMtcxxayhIx",
     "youtubeUrl": "https://www.youtube.com/playlist?list=PLfJndz0utgOP2-ZwQ0_q3kB9367w3Z_nY"
+  },
+  {
+    "id": "third-plane-hancock",
+    "title": "Third Plane",
+    "artist": "Herbie Hancock",
+    "artistId": "herbie-hancock",
+    "year": 1978,
+    "label": "JVC",
+    "era": "fusion",
+    "genres": [
+      "post-bop"
+    ],
+    "description": "Third Plane is an album by jazz bassist Ron Carter, released on the Milestone label in 1977. It features performances by Carter, Herbie Hancock and Tony Williams.",
+    "significance": "Demonstrates Herbie Hancock's command of jazz and their place within the broader jazz lineage.",
+    "keyTracks": [
+      "Third Plane",
+      "Quiet Times",
+      "Lawra",
+      "Stella by Starlight",
+      "United Blues"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F114a07f8-bd59-4f84-9020-8127d28b6ca9%2F33345793160-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/third-plane/1442993579?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Third_Plane"
   },
   {
     "id": "you-send-me",
@@ -10021,7 +11247,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F9af7c097-3fc2-40cb-a190-7834d704fefb%2F32241523522-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/oblique-the-rudy-van-gelder-edition-remastered/716323685?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Oblique_(album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Oblique_(album)",
+    "spotifyUrl": "https://open.spotify.com/album/7pTAH0ua0JF7uYvT613Pc4"
   },
   {
     "id": "saxophone-supremacy",
@@ -10067,7 +11294,8 @@
       "Some Day"
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F7b5c5a5f-5785-4b4c-885e-bd6b3c1feb4c%2F28738920831-500.jpg&w=500&output=webp",
-    "wikipedia": "https://en.wikipedia.org/wiki/Soapsuds%2C_Soapsuds"
+    "wikipedia": "https://en.wikipedia.org/wiki/Soapsuds%2C_Soapsuds",
+    "spotifyUrl": "https://open.spotify.com/album/1H54r7cHXkM1mrjA0t8I3Y"
   },
   {
     "id": "tales-of-captain-black",
@@ -10119,6 +11347,56 @@
     "spotifyUrl": "https://open.spotify.com/album/19sY1QgcDOQLe8MpHOfYTx",
     "appleMusicUrl": "https://music.apple.com/us/album/the-audience-with-betty-carter-live/1443220010",
     "youtubeUrl": "https://www.youtube.com/watch?v=RD7V7xTL0QE"
+  },
+  {
+    "id": "the-joy-of-flying",
+    "title": "The Joy of Flying",
+    "artist": "Tony Williams",
+    "artistId": "tony-williams",
+    "year": 1979,
+    "label": "CBS",
+    "era": "fusion",
+    "genres": [
+      "jazz fusion"
+    ],
+    "description": "The Joy of Flying is a jazz fusion album by Tony Williams. It was recorded at the end of the Tony Williams Lifetime years, and is considered his first solo album since 1966. It included three duets, two with Mahavishnu Orchestra keyboardist Jan Hammer, and one with free jazz pianist Cecil Taylor, and three different quartets: the first featured Hammer along with guitarist George Benson and bassist\nPaul Jackson, the second featured pianist Herbie Hancock, bassist Stanley Clarke and Tom Scott on Lyricon, and the third featured guitarist Ronnie Montrose, keyboardist Brian Auger, and bass guitarist Mario Cipollina. \"Hip Skip\" also featured a five-piece horn section.",
+    "significance": "Represents a key chapter in Tony Williams's evolving artistic vision.",
+    "keyTracks": [
+      "Going Far",
+      "Hip Skip",
+      "Hittin’ on 6",
+      "Open Fire",
+      "Tony"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fc670172a-bc91-468e-ab62-21d2067b4f4f%2F6199649983-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/the-joy-of-flying/295510099?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Joy_of_Flying",
+    "spotifyUrl": "https://open.spotify.com/album/5reG1N5X6du4yzslYBuxUt"
+  },
+  {
+    "id": "very-rare",
+    "title": "Very R.A.R.E.",
+    "artist": "Elvin Jones",
+    "artistId": "elvin-jones",
+    "year": 1979,
+    "label": "Trio",
+    "era": "fusion",
+    "genres": [
+      "bebop"
+    ],
+    "description": "Very R.A.R.E. is an album by drummer Elvin Jones, recorded in 1979 and released on the Japanese Trio label.",
+    "significance": "Demonstrates Elvin Jones's command of bebop and their place within the broader jazz lineage.",
+    "keyTracks": [
+      "Sweet Mama",
+      "Passion Flower",
+      "Zange",
+      "Tin Tin Deo",
+      "Pitter Pat"
+    ],
+    "coverUrl": "",
+    "appleMusicUrl": "https://music.apple.com/us/album/very-r-a-r-e-ep/1327650774?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Very_R.A.R.E.",
+    "spotifyUrl": "https://open.spotify.com/album/4ErWLNgYZzGXHZ0DWLPbRj"
   },
   {
     "id": "african-marketplace",
@@ -10191,6 +11469,54 @@
     "coverUrl": "https://coverartarchive.org/release/517ae803-7cd3-414c-8ba6-bd3bc097b479/35964267515-500.jpg"
   },
   {
+    "id": "inner-glow",
+    "title": "Inner Glow",
+    "artist": "Bobby Hutcherson",
+    "artistId": "bobby-hutcherson",
+    "year": 1980,
+    "label": "Blue Note",
+    "era": "contemporary",
+    "genres": [
+      "contemporary jazz"
+    ],
+    "description": "Inner Glow is an album by American jazz vibraphonist Bobby Hutcherson recorded in 1975 and originally released on the Japanese Blue Note label. While never issued in the U.S. the tracks were included on the Mosaic Records box set Mosaic Select 26: Bobby Hutcherson, released in 2007.",
+    "significance": "An essential document of Bobby Hutcherson's artistry during the modern jazz period.",
+    "keyTracks": [
+      "Boodaa",
+      "Cowboy Bob",
+      "Searchin' the Trane",
+      "Inner Glow",
+      "Roses Poses"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fb4139de0-d59e-42f5-a12a-d6f7c74b8d37%2F18281403326-500.jpg&w=500&output=webp",
+    "wikipedia": "https://en.wikipedia.org/wiki/Inner_Glow"
+  },
+  {
+    "id": "medina",
+    "title": "Medina",
+    "artist": "Bobby Hutcherson",
+    "artistId": "bobby-hutcherson",
+    "year": 1980,
+    "label": "Blue Note Classic",
+    "era": "contemporary",
+    "genres": [
+      "post-bop"
+    ],
+    "description": "Medina is an album by jazz vibraphonist Bobby Hutcherson. It was released in 1980 on Blue Note Records featuring six tracks recorded on 11 August 1969. The CD reissue added five tracks (#7–11) recorded in 1968, previously released on vinyl in 1979, under the title Spiral.",
+    "significance": "Demonstrates Bobby Hutcherson's command of jazz and their place within the broader jazz lineage.",
+    "keyTracks": [
+      "Avis",
+      "Comes Spring",
+      "Dave’s Chant",
+      "Orientale",
+      "Medina"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F428be744-825e-4216-a3cf-1c2e25ecc517%2F39494662955-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/medina-spiral/716626996?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Medina_(album)",
+    "spotifyUrl": "https://open.spotify.com/album/08KqUD4g3oL8zKeyaQf2eX"
+  },
+  {
     "id": "revue-wsq",
     "title": "Revue",
     "artist": "World Saxophone Quartet",
@@ -10237,7 +11563,8 @@
       "Portrait of the Aspiring Self (Written 1978)"
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fe3a3c202-4108-410d-9393-5ada8b776fae%2F18529283616-500.jpg&w=500&output=webp",
-    "appleMusicUrl": "https://music.apple.com/us/album/silver-n-strings-play-the-music-of-the-spheres/1466126349?uo=4"
+    "appleMusicUrl": "https://music.apple.com/us/album/silver-n-strings-play-the-music-of-the-spheres/1466126349?uo=4",
+    "spotifyUrl": "https://open.spotify.com/album/1uuQnWV1G4H4I2qk1XPnZu"
   },
   {
     "id": "spihumonesty",
@@ -10280,7 +11607,30 @@
       "I Do Believe",
       "Believe, For It Is True"
     ],
-    "coverUrl": "https://coverartarchive.org/release/6233d4e7-596a-4359-a785-5a0de5d99017/36821072459-500.jpg"
+    "coverUrl": "https://coverartarchive.org/release/6233d4e7-596a-4359-a785-5a0de5d99017/36821072459-500.jpg",
+    "spotifyUrl": "https://open.spotify.com/album/08IKf7GjpognazeNbaE6Jn"
+  },
+  {
+    "id": "herbie-hancock-trio-with-ron-carter-tony-williams",
+    "title": "Herbie Hancock Trio with Ron Carter + Tony Williams",
+    "artist": "Tony Williams",
+    "artistId": "tony-williams",
+    "year": 1981,
+    "label": "CBS/Sony",
+    "era": "contemporary",
+    "genres": [
+      "contemporary jazz"
+    ],
+    "description": "On Herbie Hancock Trio with Ron Carter + Tony Williams (1981), Tony Williams delivers a focused exploration of jazz, recorded for CBS/Sony. The album reflects the stylistic breadth and global awareness of contemporary jazz. Among its key performances are 'Stablemates' and 'Dolphin Dance'.",
+    "significance": "A noteworthy album in Tony Williams's body of work within the modern jazz tradition.",
+    "keyTracks": [
+      "Stablemates",
+      "Dolphin Dance",
+      "A Slight Smile",
+      "That Old Black Magic",
+      "La Maison gorée"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Ff306833d-973e-48ae-94f0-82fc9c6584ba%2F33348806649-500.jpg&w=500&output=webp"
   },
   {
     "id": "mistral",
@@ -10377,7 +11727,8 @@
     ],
     "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/a8/f2/9a/a8f29a52-92dd-af30-80e9-dc7b679b567a/00602537771158.rgb.jpg/600x600bb.jpg",
     "appleMusicUrl": "https://music.apple.com/us/album/the-creeper/1444210930?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Creeper_(album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Creeper_(album)",
+    "spotifyUrl": "https://open.spotify.com/album/4O7FqXEkmgr3OYgjHQlVv5"
   },
   {
     "id": "the-source",
@@ -10474,7 +11825,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F03a59e5e-f439-4fd1-bc3d-1447a26bed6c%2F42370831652-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/you-must-believe-in-spring-remastered-2022/1613990570?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/You_Must_Believe_in_Spring_(Bill_Evans_album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/You_Must_Believe_in_Spring_(Bill_Evans_album)",
+    "spotifyUrl": "https://open.spotify.com/album/4wRlW4dwNOMa408LaTpG9n"
   },
   {
     "id": "2463am",
@@ -10588,7 +11940,8 @@
       "Swedish Pastry"
     ],
     "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/0d/c4/9e/0dc49e98-bbe4-61e0-aa25-3e64488a2f04/886446405636.jpg/600x600bb.jpg",
-    "appleMusicUrl": "https://music.apple.com/us/album/swingin-with-bud/1211747005?uo=4"
+    "appleMusicUrl": "https://music.apple.com/us/album/swingin-with-bud/1211747005?uo=4",
+    "spotifyUrl": "https://open.spotify.com/album/0BU5RnrZFEDLpo5eoJ9Hvy"
   },
   {
     "id": "when-was-that",
@@ -10661,7 +12014,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F53f8961c-2efd-424d-bd93-6413f852a3cc%2F1260637806-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/future-shock/157473816?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Future_Shock_(Herbie_Hancock_album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Future_Shock_(Herbie_Hancock_album)",
+    "spotifyUrl": "https://open.spotify.com/album/108uNBYGawRo3aQiaA7lQY"
   },
   {
     "id": "new-york-improvisations",
@@ -10780,7 +12134,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fd2d21a05-6a05-4bea-8570-bd9434aa22a7%2F43055352341-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/domino-theory/295519868?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Domino_Theory_(album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Domino_Theory_(album)",
+    "spotifyUrl": "https://open.spotify.com/album/0tXYdgzPsy67uuS0Ugirb7"
   },
   {
     "id": "full-circle",
@@ -10849,7 +12204,8 @@
       "Tickle Toe",
       "Suzy the Poodle"
     ],
-    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fd8e759f3-5945-48df-88fa-def8f95db515%2F22334941906-500.jpg&w=500&output=webp"
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fd8e759f3-5945-48df-88fa-def8f95db515%2F22334941906-500.jpg&w=500&output=webp",
+    "spotifyUrl": "https://open.spotify.com/album/3fCef0lBayT2rxN776sJbk"
   },
   {
     "id": "geri-allen-trio",
@@ -11012,7 +12368,8 @@
       "Pearl on the Half‐Shell"
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fafb0eadd-d046-4736-ab68-54407e056203%2F13320931602-500.jpg&w=500&output=webp",
-    "appleMusicUrl": "https://music.apple.com/us/album/sportin-life/192743258?uo=4"
+    "appleMusicUrl": "https://music.apple.com/us/album/sportin-life/192743258?uo=4",
+    "spotifyUrl": "https://open.spotify.com/album/7am7e8BJWpEIx5kQiWxvho"
   },
   {
     "id": "stranger-than-love",
@@ -11146,7 +12503,8 @@
       "Karatê"
     ],
     "coverUrl": "https://coverartarchive.org/release/4a5cff76-c9e5-4a1c-be31-3e4e8a3c4681/27455969528-500.jpg",
-    "appleMusicUrl": "https://music.apple.com/us/album/alma/1685103905"
+    "appleMusicUrl": "https://music.apple.com/us/album/alma/1685103905",
+    "spotifyUrl": "https://open.spotify.com/album/4N01EOnws0Omkf5O8b8kMj"
   },
   {
     "id": "benny-carter-all-stars",
@@ -11170,6 +12528,29 @@
     ],
     "coverUrl": "https://coverartarchive.org/release/2e6bf659-4bbe-4bf8-9e03-f7f1d7f08980/7645236327-500.jpg",
     "appleMusicUrl": "https://music.apple.com/gb/album/benny-carter-all-stars/1445880258"
+  },
+  {
+    "id": "drum-night-at-birdland",
+    "title": "Drum Night At Birdland",
+    "artist": "Art Blakey",
+    "artistId": "art-blakey",
+    "year": 1986,
+    "label": "Vogue France",
+    "era": "hard-bop",
+    "genres": [
+      "hard bop"
+    ],
+    "description": "Drum Night At Birdland documents a 1986 studio date for Vogue France, with Art Blakey leading a tight hard bop ensemble. Among its key performances are 'Wee Dot' and 'Solo Philly Joe Jones'.",
+    "significance": "A noteworthy album in Art Blakey's body of work within the modern jazz tradition.",
+    "keyTracks": [
+      "Wee Dot",
+      "Solo Philly Joe Jones",
+      "Solo Art Blakey",
+      "Now's The Time",
+      "Solo Philly Joe Jones"
+    ],
+    "coverUrl": "",
+    "appleMusicUrl": "https://music.apple.com/us/album/gretsch-drum-night-at-birdland-vol-2-live/1232411793?uo=4"
   },
   {
     "id": "get-together",
@@ -11287,7 +12668,8 @@
       "A Night in Tunisia",
       "Autumn in New York"
     ],
-    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/e0/82/6c/e0826cef-ea9b-d393-142c-840108960469/00602547154835.rgb.jpg/600x600bb.jpg"
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/e0/82/6c/e0826cef-ea9b-d393-142c-840108960469/00602547154835.rgb.jpg/600x600bb.jpg",
+    "spotifyUrl": "https://open.spotify.com/album/5Ebfr97h9GFzqx68SXhKG0"
   },
   {
     "id": "civilization",
@@ -11335,7 +12717,8 @@
       "Endicott",
       "Slam"
     ],
-    "coverUrl": "https://coverartarchive.org/release/ced80b16-70c6-46f2-9b8b-328cc5fdb5d3/18171284749-500.jpg"
+    "coverUrl": "https://coverartarchive.org/release/ced80b16-70c6-46f2-9b8b-328cc5fdb5d3/18171284749-500.jpg",
+    "spotifyUrl": "https://open.spotify.com/album/2F2z3tEtAfNRSxRVf5WSay"
   },
   {
     "id": "crystal-stair-blanchard",
@@ -11357,7 +12740,8 @@
       "Endicott",
       "Slam"
     ],
-    "coverUrl": "https://coverartarchive.org/release/ced80b16-70c6-46f2-9b8b-328cc5fdb5d3/18171284749-500.jpg"
+    "coverUrl": "https://coverartarchive.org/release/ced80b16-70c6-46f2-9b8b-328cc5fdb5d3/18171284749-500.jpg",
+    "spotifyUrl": "https://open.spotify.com/album/2F2z3tEtAfNRSxRVf5WSay"
   },
   {
     "id": "dances-and-ballads",
@@ -11402,7 +12786,30 @@
       "Mboa"
     ],
     "coverUrl": "https://coverartarchive.org/release/e58b87c5-2d39-4ce9-8411-d892b69325ce/25800217190-500.jpg",
-    "appleMusicUrl": "https://music.apple.com/us/album/deliverance/1037709037"
+    "appleMusicUrl": "https://music.apple.com/us/album/deliverance/1037709037",
+    "spotifyUrl": "https://open.spotify.com/album/2HBlDeZ8Zy0y3d4A02majZ"
+  },
+  {
+    "id": "nightwind",
+    "title": "Nightwind",
+    "artist": "Herbie Hancock",
+    "artistId": "herbie-hancock",
+    "year": 1987,
+    "label": "Optimism, Incorporated",
+    "era": "contemporary",
+    "genres": [
+      "jazz-funk"
+    ],
+    "description": "A showcase for Herbie Hancock's piano, Nightwind (1987) draws from the jazz vocabulary with authority. Notable tracks include 'When the Lights Go Out' and 'Nightwind'.",
+    "significance": "An essential document of Herbie Hancock's artistry during the modern jazz period.",
+    "keyTracks": [
+      "When the Lights Go Out",
+      "Nightwind",
+      "Roberta",
+      "Believe It!",
+      "Tilt"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Faae7eb28-917d-412d-a761-86bd2091b957%2F21994317584-500.jpg&w=500&output=webp"
   },
   {
     "id": "quintessence",
@@ -11445,6 +12852,30 @@
       "Mbizo Radebe (They Shoot to Kill), Pt. 2"
     ],
     "coverUrl": "https://coverartarchive.org/release/027eed95-16ff-4780-ae83-01d19d832c05/35536653795-500.jpg"
+  },
+  {
+    "id": "satchmo",
+    "title": "Satchmo",
+    "artist": "Louis Armstrong",
+    "artistId": "louis-armstrong",
+    "year": 1987,
+    "label": "Pickwick Compact Discs",
+    "era": "early-jazz",
+    "genres": [
+      "early jazz"
+    ],
+    "description": "Louis Daniel Armstrong, nicknamed \"Satchmo\", \"Satch\", and \"Pops\", was an American jazz and blues trumpeter and vocalist. He was among the most influential figures in jazz. His career spanned five decades and several eras in the history of jazz. Armstrong received numerous accolades including the Grammy Award for Best Male Vocal Performance for Hello, Dolly! in 1965, as well as a posthumous win for the Grammy Lifetime Achievement Award in 1972.",
+    "significance": "An important entry in Louis Armstrong's discography, showcasing their contribution to early jazz.",
+    "keyTracks": [
+      "Back o' Town Blues",
+      "I Want a Big Butter and Egg Man",
+      "(Back Home In) Indiana",
+      "Tiger Rag",
+      "(What Did I Have to do to Get) Black and Blue"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Faab18034-4d5f-43b5-a8a6-9ba247ceb239%2F20842531538-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/satchmo-ambassador-of-jazz/1422637267?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Louis_Armstrong"
   },
   {
     "id": "the-healers",
@@ -11510,7 +12941,8 @@
       "Night Life"
     ],
     "coverUrl": "https://coverartarchive.org/release/9b350532-6f87-41f6-9f2c-c5204282b621/29851922905-500.jpg",
-    "appleMusicUrl": "https://music.apple.com/us/album/the-racer/1651759964"
+    "appleMusicUrl": "https://music.apple.com/us/album/the-racer/1651759964",
+    "spotifyUrl": "https://open.spotify.com/album/06cKew1BbJdfEAroSjt4T6"
   },
   {
     "id": "verona-rag",
@@ -11634,6 +13066,29 @@
     "coverUrl": "https://coverartarchive.org/release/c8e300de-4135-4ed2-b6ff-8b78333ee60b/22840951749-500.jpg"
   },
   {
+    "id": "jazz-at-storyville",
+    "title": "Jazz at Storyville",
+    "artist": "Sidney Bechet",
+    "artistId": "sidney-bechet",
+    "year": 1988,
+    "label": "Black Lion",
+    "era": "early-jazz",
+    "genres": [
+      "swing"
+    ],
+    "description": "With Jazz at Storyville (1988), Sidney Bechet crafts a jazz session that balances technical mastery and emotional depth. Tracks such as 'C Jam Blues' and 'Crazy Rhythm' anchor the program.",
+    "significance": "Demonstrates Sidney Bechet's command of jazz and their place within the broader jazz lineage.",
+    "keyTracks": [
+      "C Jam Blues",
+      "Crazy Rhythm",
+      "Jazz Me Blues",
+      "Basin Street Blues",
+      "Indiana"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fcb7b2e74-4616-4f07-b7f2-9868eec7c29e%2F20337630109-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/jazz-at-storyville/105400671?uo=4"
+  },
+  {
     "id": "look-what-i-got",
     "title": "Look What I Got!",
     "artist": "Betty Carter",
@@ -11724,7 +13179,8 @@
       "The Search",
       "Ibrahim"
     ],
-    "coverUrl": "https://coverartarchive.org/release/7700e586-da0d-4dbb-afb9-f727feb4a5a9/24932093043-500.jpg"
+    "coverUrl": "https://coverartarchive.org/release/7700e586-da0d-4dbb-afb9-f727feb4a5a9/24932093043-500.jpg",
+    "spotifyUrl": "https://open.spotify.com/album/4iDU0BwLhM8KxzWBEUEK1f"
   },
   {
     "id": "stories",
@@ -11772,7 +13228,8 @@
       "Nostrand and Fulton"
     ],
     "coverUrl": "https://coverartarchive.org/release/433cebdd-105b-4853-ba9f-5adbc055a078/8107765113-500.jpg",
-    "appleMusicUrl": "https://music.apple.com/gb/album/the-eternal-triangle/1443168009"
+    "appleMusicUrl": "https://music.apple.com/gb/album/the-eternal-triangle/1443168009",
+    "spotifyUrl": "https://open.spotify.com/album/3SKszu8G7UQoP3v7wL7uRc"
   },
   {
     "id": "the-gil-evans-orchestra-plays-the-music-of-jimi-hendrix",
@@ -11890,6 +13347,28 @@
     "coverUrl": "https://coverartarchive.org/release/eb3ff102-36e8-42f4-8662-074951cb5bde/2840305849-500.jpg",
     "appleMusicUrl": "https://music.apple.com/us/album/snowbound/1624479259",
     "spotifyUrl": "https://open.spotify.com/album/3eRBK6EFh23QTDQjq51hjf"
+  },
+  {
+    "id": "chet-baker-live-in-rosenheim",
+    "title": "Chet Baker live in Rosenheim",
+    "artist": "Chet Baker",
+    "artistId": "chet-baker",
+    "year": 1989,
+    "label": "Unknown",
+    "era": "contemporary",
+    "genres": [
+      "cool jazz"
+    ],
+    "description": "First released in 1989, Chet Baker live in Rosenheim is an essential chapter in Chet Baker's recorded output, rooted in cool jazz. The album reflects the stylistic breadth and global awareness of contemporary jazz. Tracks such as 'Funk in deep freeze' and 'I'm a fool to want you' anchor the program.",
+    "significance": "An essential document of Chet Baker's artistry during the modern jazz period.",
+    "keyTracks": [
+      "Funk in deep freeze",
+      "I'm a fool to want you",
+      "Portrait in black and white",
+      "In a sentimental mood",
+      "If I should lose you"
+    ],
+    "coverUrl": ""
   },
   {
     "id": "close-enough",
@@ -12010,6 +13489,30 @@
     "coverUrl": "https://coverartarchive.org/release/9cb33c15-b705-4253-8228-3e87eee656da/27035491588-500.jpg"
   },
   {
+    "id": "jazz-street",
+    "title": "Jazz Street",
+    "artist": "Jaco Pastorius",
+    "artistId": "jaco-pastorius",
+    "year": 1989,
+    "label": "Timeless Records",
+    "era": "contemporary",
+    "genres": [
+      "jazz fusion"
+    ],
+    "description": "Red Rose Speedway is the second studio album by the British-American rock band Wings, although credited to \"Paul McCartney and Wings\". It was released through Apple Records in the United States on 30 April 1973 and in the United Kingdom on 4 May, preceded by its lead single, the ballad \"My Love\". The artist name change was made in the belief that the public's unfamiliarity with the band had been responsible for the weak commercial performance of the group's 1971 debut album Wild Life.",
+    "significance": "Demonstrates Jaco Pastorius's command of jazz and their place within the broader jazz lineage.",
+    "keyTracks": [
+      "No Slack",
+      "Jazz Street",
+      "Miles Mode",
+      "May Day",
+      "Wedding Waltz"
+    ],
+    "coverUrl": "",
+    "appleMusicUrl": "https://music.apple.com/us/album/jazz-street/300072902?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Red_Rose_Speedway"
+  },
+  {
     "id": "live-sessions-at-mintons-playhouse",
     "title": "Live Sessions at Minton's Playhouse",
     "artist": "Charlie Christian",
@@ -12057,6 +13560,30 @@
     "wikipedia": "https://en.wikipedia.org/wiki/On_Fire_(Michel_Camilo_album)"
   },
   {
+    "id": "piano-reflections",
+    "title": "Piano Reflections",
+    "artist": "Duke Ellington",
+    "artistId": "duke-ellington",
+    "year": 1989,
+    "label": "Capitol Jazz",
+    "era": "swing",
+    "genres": [
+      "swing"
+    ],
+    "description": "The Duke Plays Ellington is an album by American pianist, composer and bandleader Duke Ellington featuring trio sessions recorded for the Capitol label in 1953. The album was rereleased with additional tracks on CD as Piano Reflections in 1989",
+    "significance": "A noteworthy album in Duke Ellington's body of work within the modern jazz tradition.",
+    "keyTracks": [
+      "Who Knows?",
+      "Retrospective",
+      "B Sharp Blues",
+      "Passion Flower",
+      "Dancers in Love"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fdfd79eeb-f021-470f-9f6a-1e46d0c91773%2F37486995786-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/piano-reflections/726130259?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Duke_Plays_Ellington"
+  },
+  {
     "id": "pittsburgh",
     "title": "Pittsburgh",
     "artist": "Ahmad Jamal",
@@ -12078,7 +13605,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fe3c00051-b1a4-4533-9809-492e1ae88f82%2F19081215620-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/pittsburgh/68071819?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Pittsburgh_(album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Pittsburgh_(album)",
+    "spotifyUrl": "https://open.spotify.com/album/6LhrLB75wqBPtUpC21Q79A"
   },
   {
     "id": "solo-monk",
@@ -12101,7 +13629,33 @@
       "Ruby, My Dear"
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fa0a913f3-69a5-4ee7-9133-439fd91e79ec%2F39061556671-500.jpg&w=500&output=webp",
-    "appleMusicUrl": "https://music.apple.com/us/album/solo-monk-expanded-edition/186320155?uo=4"
+    "appleMusicUrl": "https://music.apple.com/us/album/solo-monk-expanded-edition/186320155?uo=4",
+    "spotifyUrl": "https://open.spotify.com/album/4Bxg4OFb2wA6IjoeuWilRF"
+  },
+  {
+    "id": "the-best-thing-for-you",
+    "title": "The Best Thing for You",
+    "artist": "Chet Baker",
+    "artistId": "chet-baker",
+    "year": 1989,
+    "label": "A&M Records",
+    "era": "contemporary",
+    "genres": [
+      "contemporary jazz"
+    ],
+    "description": "The Best Thing for You is an album by trumpeter Chet Baker which was recorded in 1977 but not released on the A&M label until 1989, after the performer's death. The tracks were rereleased as part of the double CD reissue of You Can't Go Home Again in 2000 with previously unreleased tracks and alternate takes.",
+    "significance": "Adds to Chet Baker's reputation as a leading voice in jazz.",
+    "keyTracks": [
+      "The Best Thing for You",
+      "I’m Getting Sentimental Over You / You’ve Changed",
+      "Oh, You Crazy Moon",
+      "How Deep Is the Ocean",
+      "If You Could See Me Now"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F6e814c88-4372-4e62-9aa2-c9464674cb64%2F4603876790-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/the-best-thing-for-you/1442964380?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Best_Thing_for_You_(album)",
+    "spotifyUrl": "https://open.spotify.com/album/1gZzYXjnyUVVNgn6gS28YQ"
   },
   {
     "id": "twylight",
@@ -12127,6 +13681,45 @@
     "spotifyUrl": "https://open.spotify.com/album/6xb4dNbhX5KD0C9U9o9ZZx",
     "appleMusicUrl": "https://music.apple.com/us/album/twylight/552618948",
     "youtubeUrl": "https://www.youtube.com/watch?v=MucG24HZgPo"
+  },
+  {
+    "id": "west-42nd-street",
+    "title": "West 42nd Street",
+    "artist": "Kenny Dorham",
+    "artistId": "kenny-dorham",
+    "year": 1989,
+    "label": "Black Lion",
+    "era": "hard-bop",
+    "genres": [
+      "hard bop"
+    ],
+    "description": "A showcase for Kenny Dorham's trumpet, West 42nd Street (1989) draws from the hard bop vocabulary with authority. Among its key performances are 'Avars (take 3)' and 'Stella by Starlight (take 1)'.",
+    "significance": "An essential document of Kenny Dorham's artistry during the modern jazz period.",
+    "keyTracks": [
+      "Avars (take 3)",
+      "Stella by Starlight (take 1)",
+      "Stella by Starlight (take 2)",
+      "Why Not? (take 1)",
+      "Why Not? (take 2)"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fef664b2a-2764-4799-8833-45bcea2aa858%2F35207330891-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/west-42nd-st/144800254?uo=4"
+  },
+  {
+    "id": "bix-beiderbecke-vol-1",
+    "title": "Bix Beiderbecke, Vol. 1: Singin'  the Blues",
+    "artist": "Bix Beiderbecke",
+    "artistId": "bix-beiderbecke",
+    "year": 1990,
+    "label": "Unknown",
+    "era": "early-jazz",
+    "genres": [
+      "contemporary jazz"
+    ],
+    "description": "Bix Beiderbecke, Vol. 1: Singin'  the Blues, released in 1990, captures Bix Beiderbecke at a creative peak, blending contemporary jazz with personal expression.",
+    "significance": "A noteworthy album in Bix Beiderbecke's body of work within the modern jazz tradition.",
+    "keyTracks": [],
+    "coverUrl": ""
   },
   {
     "id": "david-sanborn",
@@ -12299,6 +13892,30 @@
     "appleMusicUrl": "https://music.apple.com/us/album/question-and-answer/1849540150",
     "spotifyUrl": "https://open.spotify.com/album/1p4NGsGHAGYkWF7Sf7Lb1n",
     "wikipedia": "https://en.wikipedia.org/wiki/Question_and_Answer_(album)"
+  },
+  {
+    "id": "satchmo-armstrong",
+    "title": "Satchmo",
+    "artist": "Louis Armstrong",
+    "artistId": "louis-armstrong",
+    "year": 1990,
+    "label": "Sony Music",
+    "era": "early-jazz",
+    "genres": [
+      "early jazz"
+    ],
+    "description": "Louis Daniel Armstrong, nicknamed \"Satchmo\", \"Satch\", and \"Pops\", was an American jazz and blues trumpeter and vocalist. He was among the most influential figures in jazz. His career spanned five decades and several eras in the history of jazz. Armstrong received numerous accolades including the Grammy Award for Best Male Vocal Performance for Hello, Dolly! in 1965, as well as a posthumous win for the Grammy Lifetime Achievement Award in 1972.",
+    "significance": "Demonstrates Louis Armstrong's command of early jazz and their place within the broader jazz lineage.",
+    "keyTracks": [
+      "I Got Rhythm",
+      "Stardust",
+      "Chinatown My Chinatown",
+      "St. Louis Blues",
+      "Body And Soul"
+    ],
+    "coverUrl": "",
+    "appleMusicUrl": "https://music.apple.com/us/album/satchmo-ambassador-of-jazz/1422637267?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Louis_Armstrong"
   },
   {
     "id": "the-art-of-pepper-volume-3",
@@ -12557,7 +14174,8 @@
       "In the Flesh"
     ],
     "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/e3/c8/22e3c8f8-ef62-0a36-c360-302411c4989e/1651.jpg/600x600bb.jpg",
-    "appleMusicUrl": "https://music.apple.com/us/album/faith-moves/1833220568"
+    "appleMusicUrl": "https://music.apple.com/us/album/faith-moves/1833220568",
+    "spotifyUrl": "https://open.spotify.com/album/1E2cFDxt7kVcEYbFJ9P77P"
   },
   {
     "id": "hipmotism",
@@ -12651,7 +14269,8 @@
       "Baby M's Bayou Blues"
     ],
     "coverUrl": "https://coverartarchive.org/release/1aa8dcfd-3c49-45eb-a121-e93bba96c76b/44444191415-500.jpg",
-    "appleMusicUrl": "https://music.apple.com/us/album/patrice/357900643"
+    "appleMusicUrl": "https://music.apple.com/us/album/patrice/357900643",
+    "spotifyUrl": "https://open.spotify.com/album/4E84SLb0P94hvklUZ675Tx"
   },
   {
     "id": "shakills-warrior",
@@ -12726,7 +14345,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fd854d707-eda4-4d93-8aa4-509e744f11a3%2F36552965433-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/straight-life-remastered-single/877871498?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Straight_Life_(Art_Pepper_album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Straight_Life_(Art_Pepper_album)",
+    "spotifyUrl": "https://open.spotify.com/album/3fCef0lBayT2rxN776sJbk"
   },
   {
     "id": "that-certain-feeling",
@@ -12810,7 +14430,8 @@
       "All I Want Is You",
       "Till U Comeback"
     ],
-    "coverUrl": "https://coverartarchive.org/release/b89f7840-a5a3-4516-b549-4eb425f54af9/31265765062-500.jpg"
+    "coverUrl": "https://coverartarchive.org/release/b89f7840-a5a3-4516-b549-4eb425f54af9/31265765062-500.jpg",
+    "spotifyUrl": "https://open.spotify.com/album/4FXATdXU2Cthe5999sHrKt"
   },
   {
     "id": "visions",
@@ -12861,6 +14482,29 @@
     "appleMusicUrl": "https://music.apple.com/us/album/the-quintet-jazz-at-massey-hall-live-1953/1422672706"
   },
   {
+    "id": "basies-basement",
+    "title": "Basie's Basement",
+    "artist": "Count Basie",
+    "artistId": "count-basie",
+    "year": 1992,
+    "label": "Bluebird",
+    "era": "swing",
+    "genres": [
+      "big band",
+      "swing"
+    ],
+    "description": "A showcase for Count Basie's piano, Basie's Basement (1992) draws from the big band vocabulary with authority. The set list features 'Hey Pretty Baby' and 'Seventh Avenue Express' among its standout moments.",
+    "significance": "Represents a key chapter in Count Basie's evolving artistic vision.",
+    "keyTracks": [
+      "Hey Pretty Baby",
+      "Seventh Avenue Express",
+      "Walking Slow Behind You",
+      "Mister Roberts' Roost",
+      "Don't You Want a Man Like Me"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F7e870677-0abf-406e-8418-b1906973b45b%2F15960267511-500.jpg&w=500&output=webp"
+  },
+  {
     "id": "by-design",
     "title": "By Design",
     "artist": "Billy Cobham",
@@ -12909,6 +14553,28 @@
     "appleMusicUrl": "https://music.apple.com/us/album/celebration/1716599880",
     "youtubeUrl": "https://www.youtube.com/watch?v=8NCTjRzYr6U",
     "wikipedia": "https://en.wikipedia.org/wiki/Celebration_(Bheki_Mseleku_album)"
+  },
+  {
+    "id": "compact-jazz-gerry-mulligan",
+    "title": "Compact Jazz: Gerry Mulligan",
+    "artist": "Gerry Mulligan",
+    "artistId": "gerry-mulligan",
+    "year": 1992,
+    "label": "Verve",
+    "era": "cool-jazz",
+    "genres": [
+      "cool jazz"
+    ],
+    "description": "Gerry Mulligan's baritone saxophone artistry is on full display on Compact Jazz: Gerry Mulligan, a 1992 Verve release steeped in cool jazz. The set list features 'Bernie's Tune' and 'Festive Minor' among its standout moments.",
+    "significance": "An important entry in Gerry Mulligan's discography, showcasing their contribution to cool jazz.",
+    "keyTracks": [
+      "Bernie's Tune",
+      "Festive Minor",
+      "The Lady Is a Tramp",
+      "Blue at the Roots",
+      "Sweet and Lonely"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Ff81ca9a4-cae4-468e-bf43-f63c618e83d3%2F33738751042-500.jpg&w=500&output=webp"
   },
   {
     "id": "double-trouble",
@@ -13071,6 +14737,30 @@
     "appleMusicUrl": "https://music.apple.com/us/album/the-jazz-soul-of-oscar-peterson/1443155598"
   },
   {
+    "id": "kansas-city-7",
+    "title": "Kansas City 7",
+    "artist": "Count Basie",
+    "artistId": "count-basie",
+    "year": 1992,
+    "label": "Pablo",
+    "era": "swing",
+    "genres": [
+      "swing"
+    ],
+    "description": "Recorded in 1992 for Pablo, Kansas City 7 showcases Count Basie's piano work in the jazz tradition. The album reflects the stylistic breadth and global awareness of contemporary jazz. Highlights include 'Jaylock' and 'Exactly Like You'.",
+    "significance": "Represents a key chapter in Count Basie's evolving artistic vision.",
+    "keyTracks": [
+      "Jaylock",
+      "Exactly Like You",
+      "I'll Always Be in Love With You",
+      "If I Could Be With You One Hour Tonight",
+      "Honi Coles"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F0b1954aa-78d8-4f04-9e0c-7897bf8805ed%2F14032365142-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/kansas-city-7/1443219864?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kansas_City_7"
+  },
+  {
     "id": "natural-affinities",
     "title": "Natural Affinities",
     "artist": "Jeanne Lee",
@@ -13096,6 +14786,29 @@
     "youtubeUrl": "https://www.youtube.com/playlist?list=PLIyoFsIz2Ou5hshG8O8cDi2dOz9VuKdZ9"
   },
   {
+    "id": "plays-and-plays-and-plays",
+    "title": "Plays and Plays and Plays",
+    "artist": "Dave Brubeck",
+    "artistId": "dave-brubeck",
+    "year": 1992,
+    "label": "Original Jazz Classics",
+    "era": "cool-jazz",
+    "genres": [
+      "cool jazz"
+    ],
+    "description": "First released in 1992, Plays and Plays and Plays is an essential chapter in Dave Brubeck's recorded output, rooted in cool jazz. The album reflects the stylistic breadth and global awareness of contemporary jazz. Highlights include 'Sweet Cleo Brown' and 'I’m Old Fashioned'.",
+    "significance": "Represents a key chapter in Dave Brubeck's evolving artistic vision.",
+    "keyTracks": [
+      "Sweet Cleo Brown",
+      "I’m Old Fashioned",
+      "Love Is Here to Stay",
+      "Indian Summer",
+      "In Search of a Theme"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F5241d778-53fb-4352-8ea3-fe5f1f360296%2F4643898659-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/plays-and-plays-and-plays/1443626408?uo=4"
+  },
+  {
     "id": "russell-malone",
     "title": "Russell Malone",
     "artist": "Russell Malone",
@@ -13116,7 +14829,8 @@
       "St. Louis Blues"
     ],
     "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/eb/aa/b4/ebaab49c-02c4-5552-428f-5bf65606df83/mzi.yosizskg.jpg/600x600bb.jpg",
-    "appleMusicUrl": "https://music.apple.com/us/album/ray-brown-monty-alexander-russell-malone/108192869"
+    "appleMusicUrl": "https://music.apple.com/us/album/ray-brown-monty-alexander-russell-malone/108192869",
+    "spotifyUrl": "https://open.spotify.com/album/1dKFVqG6O2hk8FrxX6hmQ6"
   },
   {
     "id": "suite-4-y-20",
@@ -13191,7 +14905,8 @@
     ],
     "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/50/de/52/50de5250-e21b-9175-6cce-8c5e0074df30/00025218673020.rgb.jpg/600x600bb.jpg",
     "appleMusicUrl": "https://music.apple.com/us/album/the-intimate-ellington-remastered/1443556901?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Intimate_Ellington"
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Intimate_Ellington",
+    "spotifyUrl": "https://open.spotify.com/album/3Xa6A6fXBb9aNJoKWq9fyF"
   },
   {
     "id": "the-story-of-neptune",
@@ -13311,7 +15026,8 @@
       "Fall Out"
     ],
     "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/c3/25/bf/mzi.tigvprof.jpg/600x600bb.jpg",
-    "appleMusicUrl": "https://music.apple.com/us/album/capricorn-rising/318156446"
+    "appleMusicUrl": "https://music.apple.com/us/album/capricorn-rising/318156446",
+    "spotifyUrl": "https://open.spotify.com/album/4f352Cxv1T9s8mCVMBaYYy"
   },
   {
     "id": "consecration",
@@ -13501,7 +15217,8 @@
       "Love"
     ],
     "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9e/92/65/9e926590-2bbc-6ba5-9579-50a3a10c9067/mzi.wdelymjp.jpg/600x600bb.jpg",
-    "appleMusicUrl": "https://music.apple.com/us/album/the-traveler/1513481114"
+    "appleMusicUrl": "https://music.apple.com/us/album/the-traveler/1513481114",
+    "spotifyUrl": "https://open.spotify.com/album/1VgdWd0l0IzirYSLZP9AQk"
   },
   {
     "id": "virtuoso-no-4",
@@ -13692,7 +15409,8 @@
       "Jessica"
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fff28ddfe-bb7d-48b8-9854-e45f5b68f194%2F8714754526-500.jpg&w=500&output=webp",
-    "appleMusicUrl": "https://music.apple.com/us/album/mwandishi/818619053?uo=4"
+    "appleMusicUrl": "https://music.apple.com/us/album/mwandishi/818619053?uo=4",
+    "spotifyUrl": "https://open.spotify.com/album/2mqMMupKZi5wBf7bXiqDR5"
   },
   {
     "id": "officium",
@@ -13790,6 +15508,29 @@
     "wikipedia": "https://en.wikipedia.org/wiki/This_Land_(Bill_Frisell_album)"
   },
   {
+    "id": "tidal-wave",
+    "title": "Tidal Wave",
+    "artist": "Fletcher Henderson",
+    "artistId": "fletcher-henderson",
+    "year": 1994,
+    "label": "Squirrel Thing Recordings",
+    "era": "swing",
+    "genres": [
+      "early jazz"
+    ],
+    "description": "A 1994 Squirrel Thing Recordings session, Tidal Wave finds Fletcher Henderson pushing deeper into early jazz territory. The album reflects the stylistic breadth and global awareness of contemporary jazz. The set list features 'Hocus Pocus' and 'Hocus Pocus (alternative version)' among its standout moments.",
+    "significance": "A noteworthy album in Fletcher Henderson's body of work within the modern jazz tradition.",
+    "keyTracks": [
+      "Hocus Pocus",
+      "Hocus Pocus (alternative version)",
+      "Phantom Phantasy",
+      "Harlem Madness",
+      "Tidal Wave"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F09399262-2372-4f4d-a8d0-424ec0b21f05%2F28821258605-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/tidal-wave/1444079959?uo=4"
+  },
+  {
     "id": "vinnie-colaiuta",
     "title": "Vinnie Colaiuta",
     "artist": "Vinnie Colaiuta",
@@ -13856,6 +15597,29 @@
       "Zero Tolerance for Silence, Part 5"
     ],
     "coverUrl": "https://coverartarchive.org/release/a77bc793-50bc-31e6-951d-264563db7729/43062348183-500.jpg"
+  },
+  {
+    "id": "1924-1936",
+    "title": "1924-1936",
+    "artist": "Fletcher Henderson",
+    "artistId": "fletcher-henderson",
+    "year": 1995,
+    "label": "Giants of Jazz",
+    "era": "swing",
+    "genres": [
+      "early jazz"
+    ],
+    "description": "Fletcher Henderson's 1924-1936, cut for Giants of Jazz in 1995, stands as a distinguished entry in the early jazz canon. The album reflects the stylistic breadth and global awareness of contemporary jazz. Tracks such as 'Christopher Columbus' and 'Moten Stomp (Moten Swing)' anchor the program.",
+    "significance": "A noteworthy album in Fletcher Henderson's body of work within the modern jazz tradition.",
+    "keyTracks": [
+      "Christopher Columbus",
+      "Moten Stomp (Moten Swing)",
+      "Rhythm of the Tambourine",
+      "Back in Your Own Backyard",
+      "Sing You Sinners"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F3534758d-fd77-4aee-80cf-9a9f5e58f024%2F31108350244-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/1924-1936/65119890?uo=4"
   },
   {
     "id": "blue-skies-getz",
@@ -14539,6 +16303,29 @@
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F505e34e7-b2da-4d89-92a9-72e2d9d1997d%2F24812851348-500.jpg&w=500&output=webp"
   },
   {
+    "id": "blue-rondo-brubeck",
+    "title": "Blue Rondo",
+    "artist": "Dave Brubeck",
+    "artistId": "dave-brubeck",
+    "year": 1997,
+    "label": "Tudor",
+    "era": "cool-jazz",
+    "genres": [
+      "cool jazz"
+    ],
+    "description": "Blue Rondo documents a 1997 studio date for Tudor, with Dave Brubeck leading a tight cool jazz ensemble. The album reflects the stylistic breadth and global awareness of contemporary jazz. Highlights include 'Blue Rondo a la Turk' and 'Première rhapsodie'.",
+    "significance": "Represents a key chapter in Dave Brubeck's evolving artistic vision.",
+    "keyTracks": [
+      "Blue Rondo a la Turk",
+      "Première rhapsodie",
+      "Waltz for Debby",
+      "Clarinet Sonatina, H.42: I. Modere",
+      "Clarinet Sonatina, H.42: II. Lent et soutenu"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F505e34e7-b2da-4d89-92a9-72e2d9d1997d%2F24812851348-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/blue-rondo-reissue/1443413489?uo=4"
+  },
+  {
     "id": "canto",
     "title": "Canto",
     "artist": "Charles Lloyd",
@@ -14561,7 +16348,8 @@
     ],
     "coverUrl": "https://coverartarchive.org/release/c48c4ca7-23a0-4184-b118-c646c6da599c/19902204611-500.jpg",
     "appleMusicUrl": "https://music.apple.com/us/album/canto/1444220148",
-    "wikipedia": "https://en.wikipedia.org/wiki/Canto_(Charles_Lloyd_album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Canto_(Charles_Lloyd_album)",
+    "spotifyUrl": "https://open.spotify.com/album/2Qs84wdI9DBnTPMbMbBSFZ"
   },
   {
     "id": "fingerpainting-the-music-of-herbie-hancock",
@@ -14866,7 +16654,8 @@
     "significance": "An important entry in Clark Terry's discography, showcasing their contribution to jazz.",
     "keyTracks": [],
     "coverUrl": "https://coverartarchive.org/release/24250b14-cc38-4ece-b9fa-ff1b7374ebde/23700851884-500.jpg",
-    "appleMusicUrl": "https://music.apple.com/us/album/daylight-express/1443823945"
+    "appleMusicUrl": "https://music.apple.com/us/album/daylight-express/1443823945",
+    "spotifyUrl": "https://open.spotify.com/album/2tmWCWVCAbeS7KwbqTiMsN"
   },
   {
     "id": "fast-company",
@@ -15049,7 +16838,8 @@
       "Cat's Cradle"
     ],
     "coverUrl": "https://coverartarchive.org/release/447067cf-178f-46bc-80be-36c0ee835722/35379733652-500.jpg",
-    "appleMusicUrl": "https://music.apple.com/gb/album/two-blocks-from-the-edge/1442837144"
+    "appleMusicUrl": "https://music.apple.com/gb/album/two-blocks-from-the-edge/1442837144",
+    "spotifyUrl": "https://open.spotify.com/album/0S1E6j9tFSQvoaHrnoqLjj"
   },
   {
     "id": "vital-tech-tones",
@@ -15123,7 +16913,8 @@
       "After the Day Is Done"
     ],
     "coverUrl": "https://coverartarchive.org/release/01ad6eec-3d4f-4c82-ad21-b6160535f9cf/4466032957-500.jpg",
-    "appleMusicUrl": "https://music.apple.com/us/album/black-action-figure/724537961"
+    "appleMusicUrl": "https://music.apple.com/us/album/black-action-figure/724537961",
+    "spotifyUrl": "https://open.spotify.com/album/6huo1p5NB08WUebFEgVbQ3"
   },
   {
     "id": "bunk-bechet-in-boston",
@@ -15361,6 +17152,32 @@
     "spotifyUrl": "https://open.spotify.com/album/4kGrYlbB3WXy6FqZ9ge5fO"
   },
   {
+    "id": "april-in-paris",
+    "title": "April in Paris",
+    "artist": "Count Basie",
+    "artistId": "count-basie",
+    "year": 2000,
+    "label": "Duoline",
+    "era": "swing",
+    "genres": [
+      "swing",
+      "big band"
+    ],
+    "description": "April in Paris is an album by pianist/bandleader Count Basie and His Orchestra, his first released on the Verve label, recorded in 1955 and 1956.",
+    "significance": "Adds to Count Basie's reputation as a leading voice in swing.",
+    "keyTracks": [
+      "Jumpin' At The Woodside",
+      "Blue And Sentimental",
+      "Sent for You Yesterday",
+      "Blues In Hoss's Flat",
+      "Who Me?"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F15bf3ad4-5029-4511-b489-42cb20a78421%2F39299242210-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/april-in-paris/1485773659?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/April_in_Paris_(album)",
+    "spotifyUrl": "https://open.spotify.com/album/4wHW2qVD6tkmF8vwuEUBd6"
+  },
+  {
     "id": "for-love-or-country",
     "title": "For Love or Country",
     "artist": "Arturo Sandoval",
@@ -15503,6 +17320,28 @@
     "coverUrl": "https://coverartarchive.org/release/d417160b-37b1-4b07-b6ee-564f0a62f7ba/35925302956-500.jpg"
   },
   {
+    "id": "live-from-the-royal-roost",
+    "title": "Live! from the Royal Roost",
+    "artist": "Lester Young",
+    "artistId": "lester-young",
+    "year": 2000,
+    "label": "Unique Jazz",
+    "era": "swing",
+    "genres": [
+      "early jazz"
+    ],
+    "description": "Live! from the Royal Roost documents a 2000 studio date for Unique Jazz, with Lester Young leading a tight early jazz ensemble. The album reflects the stylistic breadth and global awareness of contemporary jazz. The set list features 'Theme' and 'Bebop Boogie (Boppin' Boogie)' among its standout moments.",
+    "significance": "An essential document of Lester Young's artistry during the modern jazz period.",
+    "keyTracks": [
+      "Theme",
+      "Bebop Boogie (Boppin' Boogie)",
+      "I Cover The Waterfront",
+      "How High The Moon",
+      "Sunday"
+    ],
+    "coverUrl": ""
+  },
+  {
     "id": "nine-compositions-hill-2000",
     "title": "Nine Compositions (Hill) 2000",
     "artist": "Anthony Braxton",
@@ -15593,7 +17432,8 @@
       "Straight Life"
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F21fe68ba-322f-4fbc-bf78-73636e171b84%2F7127088193-500.jpg&w=500&output=webp",
-    "appleMusicUrl": "https://music.apple.com/us/album/renascence-live-at-the-bach-dancing-and-dynamite/1532293540?uo=4"
+    "appleMusicUrl": "https://music.apple.com/us/album/renascence-live-at-the-bach-dancing-and-dynamite/1532293540?uo=4",
+    "spotifyUrl": "https://open.spotify.com/album/7kkzKp5nS0NGr4GaQKTgtI"
   },
   {
     "id": "roy-hargrove-with-strings-moment-to-moment",
@@ -15756,7 +17596,8 @@
       "To the Mothers in Brazil"
     ],
     "coverUrl": "https://coverartarchive.org/release/a66a7faa-6427-45d8-8a0f-26c57cc3d24d/27161992216-500.jpg",
-    "appleMusicUrl": "https://music.apple.com/us/album/ballads/1438922143"
+    "appleMusicUrl": "https://music.apple.com/us/album/ballads/1438922143",
+    "spotifyUrl": "https://open.spotify.com/album/245O4AIJGcZSkHZTX7PSIc"
   },
   {
     "id": "black-stars",
@@ -15781,7 +17622,8 @@
     "coverUrl": "https://coverartarchive.org/release/5be25324-cbde-4575-a600-caf367d768d7/20128258915-500.jpg",
     "appleMusicUrl": "https://music.apple.com/us/album/black-stars/724770726",
     "youtubeUrl": "https://www.youtube.com/playlist?list=PLBJenJIJrq0wyfHmuzi8Uq1_bE9Hds9Fl",
-    "wikipedia": "https://en.wikipedia.org/wiki/Black_Stars_(album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Black_Stars_(album)",
+    "spotifyUrl": "https://open.spotify.com/album/05e3xBETUGc3vLlg4tl9mE"
   },
   {
     "id": "jazz-in-paris-music-on-my-mind",
@@ -15926,7 +17768,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F8779868e-0d5b-4a66-859b-041d532c1aae%2F24010707654-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/monks-music-remastered/1440565683?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Monk's_Music"
+    "wikipedia": "https://en.wikipedia.org/wiki/Monk's_Music",
+    "spotifyUrl": "https://open.spotify.com/album/5VTHqe7GnSKHRqq9qF8O5G"
   },
   {
     "id": "on-the-move",
@@ -16255,6 +18098,29 @@
     "appleMusicUrl": "https://music.apple.com/us/album/soul-of-things/1444125007"
   },
   {
+    "id": "swings",
+    "title": "Swings",
+    "artist": "Art Tatum",
+    "artistId": "art-tatum",
+    "year": 2002,
+    "label": "High Definition Jazz",
+    "era": "swing",
+    "genres": [
+      "swing"
+    ],
+    "description": "A showcase for Art Tatum's piano, Swings (2002) draws from the jazz vocabulary with authority. The album reflects the stylistic breadth and global awareness of contemporary jazz. Highlights include 'I Know That You Know' and 'Fifty Second Street Blues'.",
+    "significance": "An essential document of Art Tatum's artistry during the modern jazz period.",
+    "keyTracks": [
+      "I Know That You Know",
+      "Fifty Second Street Blues",
+      "St. Louis Blues",
+      "Gang O'Notes",
+      "Between Midnight and Down"
+    ],
+    "coverUrl": "",
+    "appleMusicUrl": "https://music.apple.com/us/album/swings/509350593?uo=4"
+  },
+  {
     "id": "the-official-jay-dee-instrumental-series-volume-1-unreleased",
     "title": "The Official Jay Dee Instrumental Series, Volume 1: Unreleased",
     "artist": "J Dilla",
@@ -16325,7 +18191,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fc9f60ce6-688e-4482-a553-7a5cdfcd3f14%2F37298555511-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/alegr%C3%ADa/1443163887?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Alegr%C3%ADa_(Wayne_Shorter_album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Alegr%C3%ADa_(Wayne_Shorter_album)",
+    "spotifyUrl": "https://open.spotify.com/album/0Gsc2yc178lgc0gKA5GlXH"
   },
   {
     "id": "antipop-consortium-vs-matthew-shipp",
@@ -16488,7 +18355,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Ffb36f40d-d841-4c49-aa4c-496830ea50f7%2F24719159724-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/land-of-giants/1676547473?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Land_of_Giants"
+    "wikipedia": "https://en.wikipedia.org/wiki/Land_of_Giants",
+    "spotifyUrl": "https://open.spotify.com/album/2AyIauVkF2idfuwnH69amW"
   },
   {
     "id": "masada-anniversary-edition-volume-1-masada-guitars",
@@ -16654,7 +18522,8 @@
       "Love for Sale"
     ],
     "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/b4/ae/64b4ae71-b858-bf01-1866-685102c160de/22CRGIM35077.rgb.jpg/600x600bb.jpg",
-    "appleMusicUrl": "https://music.apple.com/us/album/bluebird/1655211818"
+    "appleMusicUrl": "https://music.apple.com/us/album/bluebird/1655211818",
+    "spotifyUrl": "https://open.spotify.com/album/1R2d2ZMwelyL9Us8vHfynx"
   },
   {
     "id": "concert-in-the-garden",
@@ -16803,6 +18672,30 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Prototype_(Wallace_Roney_album)"
   },
   {
+    "id": "the-love-songs",
+    "title": "The Love Songs",
+    "artist": "Billie Holiday",
+    "artistId": "billie-holiday",
+    "year": 2004,
+    "label": "Deja Vu",
+    "era": "swing",
+    "genres": [
+      "swing",
+      "big band"
+    ],
+    "description": "The Love Songs may refer to:The Love Songs , 1997\nThe Love Songs , 1997\nThe Love Songs , 2007\nThe Love Songs , 1984\nThe Love Songs, a compilation album by Dionne Warwick, 1989\nThe Love Songs, a compilation album by Westlife, 2014",
+    "significance": "Represents a key chapter in Billie Holiday's evolving artistic vision.",
+    "keyTracks": [
+      "Body and Soul",
+      "All of Me",
+      "Mean to Me",
+      "He's Funny That Way",
+      "The Very Thought of You"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F18530f0a-ca46-44f1-a6c5-eebfd9e524ed%2F37050126826-500.jpg&w=500&output=webp",
+    "spotifyUrl": "https://open.spotify.com/album/3MXpFQDq1cTE4WfGZDAsY4"
+  },
+  {
     "id": "the-other-side-of-stan-getz",
     "title": "The Other Side of Stan Getz",
     "artist": "Stan Getz",
@@ -16892,7 +18785,8 @@
       "Fine Tuning"
     ],
     "coverUrl": "https://coverartarchive.org/release/80ff7c2f-d1e9-4dd4-bb23-d27f70b5856a/19020308933-500.jpg",
-    "appleMusicUrl": "https://music.apple.com/us/album/channel-three/716631336"
+    "appleMusicUrl": "https://music.apple.com/us/album/channel-three/716631336",
+    "spotifyUrl": "https://open.spotify.com/album/7FIWaLLwsOK5okE6phXomf"
   },
   {
     "id": "concept-of-freedom",
@@ -16915,7 +18809,8 @@
       "Comp. No. 257 (30, 31, 46, 69, 90 & 136) / Freedom No. 1, 4 & 6 From the Sacred Concert No. 2: Part Iv",
       "Comp. No. 257 (30, 31, 46, 69, 90 & 136) / Freedom No. 1, 4 & 6 From the Sacred Concert No. 2: Part V"
     ],
-    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fd3316ce5-4427-4e4e-9a16-64b847bbf209%2F28266766125-500.jpg&w=500&output=webp"
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fd3316ce5-4427-4e4e-9a16-64b847bbf209%2F28266766125-500.jpg&w=500&output=webp",
+    "spotifyUrl": "https://open.spotify.com/album/3Sf2FzVlMSGXKhKGulRS1K"
   },
   {
     "id": "hikmet",
@@ -17373,7 +19268,8 @@
       "The Shadow of Your Smile"
     ],
     "coverUrl": "https://coverartarchive.org/release/2d9793cd-94a3-4a35-a721-ba86d559db07/41238278517-500.jpg",
-    "appleMusicUrl": "https://music.apple.com/us/album/wdr-big-band-djangology-solo-to-bi-or-not-to-bi/1436321881"
+    "appleMusicUrl": "https://music.apple.com/us/album/wdr-big-band-djangology-solo-to-bi-or-not-to-bi/1436321881",
+    "spotifyUrl": "https://open.spotify.com/album/4U0UCjfBnCUbnURotEGTBL"
   },
   {
     "id": "bossa-nova-67",
@@ -17490,7 +19386,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F3b0c580d-93d2-4dfc-8701-0aba35f93d24%2F8721151018-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/river-the-joni-letters-expanded-edition/1442944918?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/River%3A_The_Joni_Letters"
+    "wikipedia": "https://en.wikipedia.org/wiki/River%3A_The_Joni_Letters",
+    "spotifyUrl": "https://open.spotify.com/album/3GwR5VxaMzB01ay6qIT3Yq"
   },
   {
     "id": "ruff-draft",
@@ -17538,6 +19435,30 @@
     ],
     "coverUrl": "https://coverartarchive.org/release/0f23ead6-81a5-46ef-8978-81849658909c/17105215575-500.jpg",
     "appleMusicUrl": "https://music.apple.com/us/album/standards/1189754310"
+  },
+  {
+    "id": "the-man-i-love",
+    "title": "The Man I Love",
+    "artist": "Billie Holiday",
+    "artistId": "billie-holiday",
+    "year": 2007,
+    "label": "AVM Music",
+    "era": "swing",
+    "genres": [
+      "swing",
+      "big band"
+    ],
+    "description": "The Man I Love is an album by jazz singer Peggy Lee with an orchestra arranged by Nelson Riddle and conducted by Frank Sinatra. This was Lee's first album after returning to Capitol.",
+    "significance": "Adds to Billie Holiday's reputation as a leading voice in swing.",
+    "keyTracks": [
+      "God Bless the Child",
+      "Fine and Mellow",
+      "Tell Me More",
+      "I'll Get By",
+      "How Am I to Know"
+    ],
+    "coverUrl": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Man_I_Love_(album)"
   },
   {
     "id": "columbia-jazz-profiles",
@@ -17634,6 +19555,29 @@
     "spotifyUrl": "https://open.spotify.com/album/6sXFjbarAVw84NLm1UdlfH",
     "youtubeUrl": "https://www.youtube.com/watch?v=zFz7wrgMLzI",
     "appleMusicUrl": "https://music.apple.com/us/album/the-very-best-of-fats-waller/268465647"
+  },
+  {
+    "id": "jacos-first-band",
+    "title": "Jaco's First Band",
+    "artist": "Jaco Pastorius",
+    "artistId": "jaco-pastorius",
+    "year": 2008,
+    "label": "Holiday Park Records",
+    "era": "contemporary",
+    "genres": [
+      "jazz fusion"
+    ],
+    "description": "Recorded in 2008 for Holiday Park Records, Jaco's First Band showcases Jaco Pastorius's bass work in the jazz fusion tradition. Notable tracks include 'Think' and 'Something You Got'.",
+    "significance": "An essential document of Jaco Pastorius's artistry during the modern jazz period.",
+    "keyTracks": [
+      "Think",
+      "Something You Got",
+      "Ninety Nine and a Half (won't Do) / Soul Medley",
+      "You Don't Miss Your Water",
+      "Tell Daddy"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F0177c63e-5dbe-4137-b27e-da689f029027%2F34517683044-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/jaco/1527493240?uo=4"
   },
   {
     "id": "light-of-the-world",
@@ -17800,7 +19744,8 @@
       "Love Chant",
       "Haitian Fight Song"
     ],
-    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F7060d264-1d4d-46f3-91d2-4dd1ac200290%2F10075300593-500.jpg&w=500&output=webp"
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F7060d264-1d4d-46f3-91d2-4dd1ac200290%2F10075300593-500.jpg&w=500&output=webp",
+    "spotifyUrl": "https://open.spotify.com/album/4A0eXLKmxQ3bpjQF07VPiw"
   },
   {
     "id": "time-waits",
@@ -17824,7 +19769,8 @@
     ],
     "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/02/60/61026059-855a-1b1f-5474-7d99a145d54a/13ULAIM49078.rgb.jpg/600x600bb.jpg",
     "appleMusicUrl": "https://music.apple.com/us/album/time-waits-the-amazing-bud-powell-vol-4/724751887?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Time_Waits"
+    "wikipedia": "https://en.wikipedia.org/wiki/Time_Waits",
+    "spotifyUrl": "https://open.spotify.com/album/4GxQznOnt2L9ZgyBJXaqGH"
   },
   {
     "id": "ballads-coltrane",
@@ -17848,7 +19794,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F4330f907-26de-4d72-b2e2-8c089a3ebbfc%2F44123543568-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/ballads-deluxe-edition/1452848179?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/Ballads_(John_Coltrane_album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Ballads_(John_Coltrane_album)",
+    "spotifyUrl": "https://open.spotify.com/album/245O4AIJGcZSkHZTX7PSIc"
   },
   {
     "id": "bitter-and-high",
@@ -17919,7 +19866,8 @@
       "Pirlouit",
       "11:11"
     ],
-    "coverUrl": "https://coverartarchive.org/release/1dff6b75-764e-4f58-8914-266e7a749303/25589759923-500.jpg"
+    "coverUrl": "https://coverartarchive.org/release/1dff6b75-764e-4f58-8914-266e7a749303/25589759923-500.jpg",
+    "spotifyUrl": "https://open.spotify.com/album/5r9uElBJym1xx3Bf7poWJ1"
   },
   {
     "id": "jasmine",
@@ -17996,7 +19944,8 @@
     "coverUrl": "https://coverartarchive.org/release/1517770c-4246-48a2-99ef-8a477183782e/40830911793-500.jpg",
     "appleMusicUrl": "https://music.apple.com/us/album/solo/351809303",
     "youtubeUrl": "https://www.youtube.com/playlist?list=OLAK5uy_n6fg11hXVL32LYGnWLG0PL0HNBtXzOrPc",
-    "wikipedia": "https://en.wikipedia.org/wiki/Solo_(Mulgrew_Miller_album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Solo_(Mulgrew_Miller_album)",
+    "spotifyUrl": "https://open.spotify.com/album/6fo8KASBuGXPJbB2VqiGk0"
   },
   {
     "id": "volume-1-1923-1929",
@@ -18066,7 +20015,8 @@
       "Jordu"
     ],
     "coverUrl": "https://coverartarchive.org/release/7e230921-7917-4f59-8083-6c955aff2fa4/25592338737-500.jpg",
-    "appleMusicUrl": "https://music.apple.com/jp/album/at-the-cotton-club-1956/316515658"
+    "appleMusicUrl": "https://music.apple.com/jp/album/at-the-cotton-club-1956/316515658",
+    "spotifyUrl": "https://open.spotify.com/album/37OB4hgRsrYwfbUM47fafL"
   },
   {
     "id": "baboon-moon",
@@ -18451,7 +20401,8 @@
       "Alpha 01/10/10",
       "Oleo"
     ],
-    "coverUrl": "https://coverartarchive.org/release/112c4cba-87c9-4f2c-89a9-105eab6b569f/37130188231-500.jpg"
+    "coverUrl": "https://coverartarchive.org/release/112c4cba-87c9-4f2c-89a9-105eab6b569f/37130188231-500.jpg",
+    "spotifyUrl": "https://open.spotify.com/album/5JTruZFNFw9qPRsWpxuuRm"
   },
   {
     "id": "renaissance",
@@ -18993,7 +20944,8 @@
       "Waltz for Debby",
       "Chick Talks: About Stevie Wonder"
     ],
-    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fd73ed2cb-2b46-4b72-a184-230c54cac574%2F11618194104-500.jpg&w=500&output=webp"
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fd73ed2cb-2b46-4b72-a184-230c54cac574%2F11618194104-500.jpg&w=500&output=webp",
+    "spotifyUrl": "https://open.spotify.com/album/5aypgOWQ4Jc79an0Z6QvGI"
   },
   {
     "id": "sophisticated-swing",
@@ -19087,7 +21039,8 @@
       "Hadrians Wall"
     ],
     "coverUrl": "https://coverartarchive.org/release/964c251b-b229-4763-ae6f-b0a179914220/37826420095-500.jpg",
-    "appleMusicUrl": "https://music.apple.com/us/album/in-out-and-around-feat-michael-brecker-george-mraz-al-foster/292090002"
+    "appleMusicUrl": "https://music.apple.com/us/album/in-out-and-around-feat-michael-brecker-george-mraz-al-foster/292090002",
+    "spotifyUrl": "https://open.spotify.com/album/1Fpt7GLdA9akk4VhwmkVAn"
   },
   {
     "id": "porto-da-madama",
@@ -19387,7 +21340,8 @@
     "keyTracks": [],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fb57634cf-e456-4a8e-82d1-057a2e040eac%2F32345906965-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/the-unity-sessions-live/1091429608?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Unity_Sessions"
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Unity_Sessions",
+    "spotifyUrl": "https://open.spotify.com/album/6wqTI8qqCvvDaczdTFHylC"
   },
   {
     "id": "beyond-mobius",
@@ -19482,7 +21436,8 @@
       "Too Many of Our Young",
       "Blackman Unfinished"
     ],
-    "coverUrl": ""
+    "coverUrl": "",
+    "spotifyUrl": "https://open.spotify.com/album/4xlpLCc6hEKQXoVs5ylKez"
   },
   {
     "id": "mandorla-awakening-ii",
@@ -19605,7 +21560,8 @@
       "Thang",
       "Touch in Mine"
     ],
-    "coverUrl": "https://coverartarchive.org/release/170ab15e-8b99-4f9b-94bf-600bcb5e222e/21242442834-500.jpg"
+    "coverUrl": "https://coverartarchive.org/release/170ab15e-8b99-4f9b-94bf-600bcb5e222e/21242442834-500.jpg",
+    "spotifyUrl": "https://open.spotify.com/album/3mWCkfWvAFi8FSgfLNrVfg"
   },
   {
     "id": "christmas-at-notre-dame",
@@ -19627,7 +21583,8 @@
       "Joy to the World",
       "O Come All Ye Faithful"
     ],
-    "coverUrl": "https://coverartarchive.org/release/53a56c44-965b-453a-a2be-c143e682a5ff/30568943582-500.jpg"
+    "coverUrl": "https://coverartarchive.org/release/53a56c44-965b-453a-a2be-c143e682a5ff/30568943582-500.jpg",
+    "spotifyUrl": "https://open.spotify.com/album/5AZHc4nwOMGflrOAf3Kiky"
   },
   {
     "id": "flight",
@@ -19721,7 +21678,8 @@
       "particle / spectra",
       "Free, White and 21"
     ],
-    "coverUrl": "https://coverartarchive.org/release/3f6a4d66-17f2-4f06-9814-1718de06781b/21658125418-500.jpg"
+    "coverUrl": "https://coverartarchive.org/release/3f6a4d66-17f2-4f06-9814-1718de06781b/21658125418-500.jpg",
+    "spotifyUrl": "https://open.spotify.com/album/5i65fkPmv06tmr6a1oPsxg"
   },
   {
     "id": "rooftop-storys",
@@ -19907,6 +21865,29 @@
     "youtubeUrl": "https://www.youtube.com/playlist?list=PL3vVcwcNdjsu6bDJnPIxF2Gs-_Y19f6sw"
   },
   {
+    "id": "moon-glow-goodman",
+    "title": "Moon Glow",
+    "artist": "Benny Goodman",
+    "artistId": "benny-goodman",
+    "year": 2019,
+    "label": "Reborn Recordings",
+    "era": "swing",
+    "genres": [
+      "swing",
+      "big band"
+    ],
+    "description": "Benny Goodman's Moon Glow, cut for Reborn Recordings in 2019, stands as a distinguished entry in the swing canon. Tracks such as 'Keep on Doin' What You're Doin'' and 'Riffin' the Scotch' anchor the program.",
+    "significance": "Adds to Benny Goodman's reputation as a leading voice in swing.",
+    "keyTracks": [
+      "Keep on Doin' What You're Doin'",
+      "Riffin' the Scotch",
+      "Love Me or Leave Me",
+      "Why Couldn't It Be Poor Little Me?",
+      "Georgia Jubilee"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F64c9dee4-b1a3-445a-bddb-d7ea2834d9ad%2F43873561311-500.jpg&w=500&output=webp"
+  },
+  {
     "id": "morning-with-swing-jazz-guitar-trumpet-saxophone-more-melodies-of-piano-instrumental-smooth-jazz-music",
     "title": "Morning with Swing Jazz: Guitar, Trumpet, Saxophone & More, Melodies of Piano, Instrumental Smooth Jazz Music",
     "artist": "The Jazz Messengers",
@@ -19929,6 +21910,30 @@
     "coverUrl": "https://coverartarchive.org/release/0ada6308-4998-4469-90ca-340dc0c2c5a0/37019663510-500.jpg",
     "spotifyUrl": "https://open.spotify.com/album/4PQPi2f1DUV6OmRKqPqR6O",
     "youtubeUrl": "https://www.youtube.com/playlist?list=OLAK5uy_nHnyPHJQvnmqSWCglKTlV7zYClzlgPxHE"
+  },
+  {
+    "id": "solo-piano-at-wkcr-1977",
+    "title": "Solo Piano at WKCR, 1977",
+    "artist": "Sun Ra",
+    "artistId": "sun-ra",
+    "year": 2019,
+    "label": "Unknown",
+    "era": "contemporary",
+    "genres": [
+      "swing",
+      "big band"
+    ],
+    "description": "With Solo Piano at WKCR, 1977 (2019), Sun Ra crafts a swing session that balances technical mastery and emotional depth. The album reflects the stylistic breadth and global awareness of contemporary jazz. Notable tracks include 'Bluesy Improvisation' and 'St. Louis Blues'.",
+    "significance": "A noteworthy album in Sun Ra's body of work within the modern jazz tradition.",
+    "keyTracks": [
+      "Bluesy Improvisation",
+      "St. Louis Blues",
+      "Sophisticated Lady",
+      "Another Improv Blues",
+      "Agitated Ostinato in Seven"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Ffc07c3ff-d51a-4533-a8bf-3a8b5291cb16%2F34585426222-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/solo-piano-at-wkcr-1977/1455986924?uo=4"
   },
   {
     "id": "40-melodies",
@@ -19976,7 +21981,8 @@
       "Triumph of Society"
     ],
     "coverUrl": "https://coverartarchive.org/release/1101919e-a317-4502-a7a7-573eafc09dfc/25583360510-500.jpg",
-    "appleMusicUrl": "https://music.apple.com/us/album/broken-circles-feat-charles-altura-joel-ross-matt-brewer/1621146317"
+    "appleMusicUrl": "https://music.apple.com/us/album/broken-circles-feat-charles-altura-joel-ross-matt-brewer/1621146317",
+    "spotifyUrl": "https://open.spotify.com/album/07EuMDPiPtorKEw7bNmXf8"
   },
   {
     "id": "instant-composers-pool-recordings-from-1967",
@@ -20291,6 +22297,31 @@
     "spotifyUrl": "https://open.spotify.com/album/2MwFWOm7oD1ZbnidYUJ2gl",
     "youtubeUrl": "https://www.youtube.com/playlist?list=OLAK5uy_kOsCE3PfeASZdIw4e4TdyxKsZipmXnESc",
     "wikipedia": "https://en.wikipedia.org/wiki/Ibrahim_Maalouf"
+  },
+  {
+    "id": "kirtan-turiya-sings",
+    "title": "Kirtan: Turiya Sings",
+    "artist": "Alice Coltrane",
+    "artistId": "alice-coltrane",
+    "year": 2021,
+    "label": "impulse!",
+    "era": "contemporary",
+    "genres": [
+      "contemporary jazz"
+    ],
+    "description": "Kirtan: Turiya Sings is an album by Alice Coltrane. It was recorded on June 23, 1981, at Redwing Sound in Los Angeles, California, and was released in 2021 by Impulse! Records. The album, a stripped-down version of 1982's Turiya Sings, features Coltrane on vocals and organ.",
+    "significance": "An important entry in Alice Coltrane's discography, showcasing their contribution to jazz.",
+    "keyTracks": [
+      "Jagadishwar",
+      "Jai Ramachandra",
+      "Krishna Krishna",
+      "Rama Katha",
+      "Yamuna Tira Vihari"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F705195d2-efdc-414f-9dfa-a212c62283aa%2F29899577968-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/kirtan-turiya-sings/1568333963?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kirtan%3A_Turiya_Sings",
+    "spotifyUrl": "https://open.spotify.com/album/4tAK7NuAunKHYEiof5ikyG"
   },
   {
     "id": "purest-form",
@@ -20630,6 +22661,29 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Christmas_in_popular_culture"
   },
   {
+    "id": "ellington-in-order-volume-4-1932",
+    "title": "Ellington In Order, Volume 4 (1932)",
+    "artist": "Duke Ellington",
+    "artistId": "duke-ellington",
+    "year": 2023,
+    "label": "Legacy",
+    "era": "swing",
+    "genres": [
+      "swing",
+      "big band"
+    ],
+    "description": "Recorded in 2023 for Legacy, Ellington In Order, Volume 4 (1932) showcases Duke Ellington's piano work in the swing tradition. Among its key performances are 'Moon over Dixie' and 'It Don't Mean A Thing (If It Ain't Got That Swing)'.",
+    "significance": "An important entry in Duke Ellington's discography, showcasing their contribution to swing.",
+    "keyTracks": [
+      "Moon over Dixie",
+      "It Don't Mean A Thing (If It Ain't Got That Swing)",
+      "Lazy Rhapsody (a/k/a Creole Rhapsody - Take B)",
+      "Lazy Rhapsody (a/k/a Creole Rhapsody - Take A)",
+      "Mood Indigo/Hot and Bothered/Creole Love Call (Take 3 - Mono)"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F58bbae61-4a92-4f28-a209-6ae948f7f596%2F36768003102-500.jpg&w=500&output=webp"
+  },
+  {
     "id": "lonnie-liston-smith-jid017",
     "title": "Lonnie Liston Smith JID017",
     "artist": "Lonnie Liston Smith",
@@ -20892,7 +22946,8 @@
       "Get Lit"
     ],
     "coverUrl": "https://coverartarchive.org/release/3b76a10d-1fd7-4eab-a537-eb04636a703b/38728842792-500.jpg",
-    "wikipedia": "https://en.wikipedia.org/wiki/Fearless_Movement_(album)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Fearless_Movement_(album)",
+    "spotifyUrl": "https://open.spotify.com/album/0Jy18n9qpKS4RyDYmaPpdL"
   },
   {
     "id": "moondial",
@@ -20916,7 +22971,8 @@
     ],
     "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fc1742941-0a5e-4edd-b8b1-e6fe68f22c67%2F39449029501-500.jpg&w=500&output=webp",
     "appleMusicUrl": "https://music.apple.com/us/album/moondial/1733722355?uo=4",
-    "wikipedia": "https://en.wikipedia.org/wiki/MoonDial"
+    "wikipedia": "https://en.wikipedia.org/wiki/MoonDial",
+    "spotifyUrl": "https://open.spotify.com/album/0hmklFBXE5I23JCDF7UBbx"
   },
   {
     "id": "motions-in-muricosmos",
@@ -21276,6 +23332,27 @@
     "spotifyUrl": "https://open.spotify.com/album/69mJdRh6JuOJGqlsm5qfdh"
   },
   {
+    "id": "1974-11-09-northwestern-university-evanston-il",
+    "title": "1974-11-09 Northwestern University Evanston IL",
+    "artist": "Weather Report",
+    "artistId": "weather-report",
+    "year": null,
+    "label": "Unknown",
+    "era": "fusion",
+    "genres": [
+      "jazz fusion"
+    ],
+    "description": "'1974-11-09 Northwestern University Evanston IL' features Weather Report in a distinctive jazz setting. The album channels the electric energy and cross-genre experimentation of the fusion era. Among its key performances are 'Nubian Sundance' and 'Dr Honoris Causa---Freezing Fire---Directions'.",
+    "significance": "Adds to Weather Report's reputation as a leading voice in jazz fusion.",
+    "keyTracks": [
+      "Nubian Sundance",
+      "Dr Honoris Causa---Freezing Fire---Directions",
+      "Dom Um Romao Solo---Scarlet Woman",
+      "Jungle Book---Boogie Woogie Waltz"
+    ],
+    "coverUrl": ""
+  },
+  {
     "id": "1979-06-21-eindhoven-netherlands",
     "title": "1979-06-21, Eindhoven, Netherlands",
     "artist": "The Blue Notes",
@@ -21382,7 +23459,8 @@
       "Hodge Podge"
     ],
     "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/dc/5b/0b/dc5b0b1f-e2c9-7353-f0bc-c08921dd3184/cover.jpg/600x600bb.jpg",
-    "appleMusicUrl": "https://music.apple.com/gb/album/blue-hodge-mono-version/767164352"
+    "appleMusicUrl": "https://music.apple.com/gb/album/blue-hodge-mono-version/767164352",
+    "spotifyUrl": "https://open.spotify.com/album/0LLcYdsjdrOLa88bUiT2Lj"
   },
   {
     "id": "blues-march",
@@ -21498,6 +23576,30 @@
     "coverUrl": ""
   },
   {
+    "id": "hawkins-alive-at-the-village-gate",
+    "title": "Hawkins! Alive! At the Village Gate",
+    "artist": "Coleman Hawkins",
+    "artistId": "coleman-hawkins",
+    "year": null,
+    "label": "Unknown",
+    "era": "swing",
+    "genres": [
+      "early jazz"
+    ],
+    "description": "Hawkins! Alive! At the Village Gate is a live album by saxophonist Coleman Hawkins which was recorded at the Village Gate in 1962 and released on the Verve label.",
+    "significance": "Demonstrates Coleman Hawkins's command of early jazz and their place within the broader jazz lineage.",
+    "keyTracks": [
+      "All The Things You Are",
+      "Joshua Fit The Battle Of Jericho",
+      "Mack The Knife",
+      "Talk Of The Town",
+      "Bean And The Boys"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2F3e48ea0e-91cc-4a54-ae5b-8fb0b89a597b%2F39769460480-500.jpg&w=500&output=webp",
+    "appleMusicUrl": "https://music.apple.com/us/album/hawkins-alive-at-the-village-gate-live-1962-expanded/1456319434?uo=4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hawkins!_Alive!_At_the_Village_Gate"
+  },
+  {
     "id": "heart-to-heart",
     "title": "Heart to Heart",
     "artist": "David Sanborn",
@@ -21521,6 +23623,28 @@
     "appleMusicUrl": "https://music.apple.com/us/album/heart-to-heart/357955709",
     "spotifyUrl": "https://open.spotify.com/album/7dwi1U9XoT8pB1rK1UEJsk",
     "youtubeUrl": "https://www.youtube.com/playlist?list=PLj4bN84r7UoMIaDQ0C0aMdNW7Y1uSjpES"
+  },
+  {
+    "id": "in-concert",
+    "title": "In Concert",
+    "artist": "Stan Getz",
+    "artistId": "stan-getz",
+    "year": null,
+    "label": "CMA Music Production",
+    "era": "cool-jazz",
+    "genres": [
+      "cool jazz"
+    ],
+    "description": "On 'In Concert', Stan Getz explores new creative ground. The session exudes the understated elegance and sophisticated lyricism of the cool jazz school. Among its key performances are 'Autumn Leaves' and 'Billie's Bounce'.",
+    "significance": "An essential document of Stan Getz's artistry during the cool jazz period.",
+    "keyTracks": [
+      "Autumn Leaves",
+      "Billie's Bounce",
+      "Heart Place",
+      "Kali-Au",
+      "Chappaqua"
+    ],
+    "coverUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcoverartarchive.org%2Frelease%2Fb0badc9a-7ecf-436f-a6b4-ca22db723733%2F34448205225-500.jpg&w=500&output=webp"
   },
   {
     "id": "in-the-spirit-of-blues",

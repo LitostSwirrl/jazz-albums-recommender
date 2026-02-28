@@ -24,40 +24,61 @@ ARTISTS_PATH = os.path.join(BASE_DIR, "src", "data", "artists.json")
 OUTPUT_PATH = "/tmp/expansion_plan.json"
 
 # Tier definitions: artist-id -> target album count
+# Round 2 targets — era-balanced expansion (912 → 1000)
 TIER_1 = {
-    "miles-davis": 12,
-    "duke-ellington": 12,
-    "charles-mingus": 10,
-    "john-coltrane": 10,
-    "thelonious-monk": 10,
-    "herbie-hancock": 10,
+    "miles-davis": 16,
+    "duke-ellington": 17,
+    "charles-mingus": 12,
+    "john-coltrane": 14,
+    "thelonious-monk": 13,
+    "herbie-hancock": 12,
 }
 
 TIER_2 = {
-    "sonny-rollins": 7,
-    "art-blakey": 7,
+    "sonny-rollins": 9,
+    "art-blakey": 9,
     "bill-evans": 7,
     "ornette-coleman": 6,
     "dizzy-gillespie": 6,
     "charlie-parker": 6,
     "cecil-taylor": 6,
-    "sun-ra": 7,
+    "sun-ra": 9,
     "mccoy-tyner": 6,
     "chick-corea": 6,
     "pat-metheny": 6,
     "wayne-shorter": 6,
     "pharoah-sanders": 6,
+    # Early-jazz / Swing — promoted to Tier 2
+    "louis-armstrong": 8,
+    "count-basie": 7,
+    "billie-holiday": 6,
+    "ella-fitzgerald": 7,
+    "lester-young": 6,
+    "art-tatum": 6,
 }
 
-TIER_3 = {aid: 5 for aid in [
-    "louis-armstrong", "dexter-gordon", "sarah-vaughan", "ella-fitzgerald",
-    "nina-simone", "eric-dolphy", "lee-morgan", "freddie-hubbard",
-    "kenny-dorham", "horace-silver", "cannonball-adderley", "keith-jarrett",
-    "weather-report", "max-roach", "bud-powell", "dave-brubeck",
-    "stan-getz", "wes-montgomery", "oscar-peterson", "ahmad-jamal",
-    "donald-byrd", "bobby-hutcherson", "jackie-mclean", "woody-shaw",
-    "kenny-burrell", "yusef-lateef", "andrew-hill", "joe-henderson",
-]}
+TIER_3 = {
+    # Original Tier 3 artists
+    "dexter-gordon": 5, "sarah-vaughan": 5, "nina-simone": 5,
+    "lee-morgan": 5, "freddie-hubbard": 5,
+    "horace-silver": 5, "cannonball-adderley": 5, "keith-jarrett": 6,
+    "max-roach": 5, "bud-powell": 5,
+    "wes-montgomery": 5, "oscar-peterson": 5, "ahmad-jamal": 5,
+    "donald-byrd": 5, "jackie-mclean": 5, "woody-shaw": 5,
+    "kenny-burrell": 5, "yusef-lateef": 5, "andrew-hill": 5, "joe-henderson": 5,
+    # Early-jazz / Swing deepening
+    "benny-goodman": 6, "coleman-hawkins": 5, "sidney-bechet": 5,
+    "fletcher-henderson": 5, "fats-waller": 5, "django-reinhardt": 4,
+    # Cool-jazz deepening
+    "chet-baker": 5, "stan-getz": 7, "dave-brubeck": 7, "gerry-mulligan": 5,
+    # Hard-bop gaps
+    "j-j-johnson": 3, "kenny-dorham": 4, "elvin-jones": 5, "tony-williams": 5,
+    "jimmy-smith": 5, "grant-green": 6,
+    # Free-jazz deepening
+    "eric-dolphy": 7, "alice-coltrane": 6, "bobby-hutcherson": 7,
+    # Fusion deepening
+    "weather-report": 7, "jaco-pastorius": 5,
+}
 
 # Merge all tiers into one lookup
 ALL_TIERS = {}
@@ -106,6 +127,27 @@ CURATED_MUST_HAVE = {
         "Speak Like a Child",
         "Future Shock",
     ],
+    # Round 2 — early-jazz / swing canonical albums
+    "louis-armstrong": [
+        "Satchmo at Symphony Hall",
+    ],
+    "count-basie": [
+        "The Atomic Mr. Basie",
+        "April in Paris",
+    ],
+    "billie-holiday": [
+        "Lady in Satin",
+        "Songs for Distingué Lovers",
+    ],
+    "art-tatum": [
+        "Piano Starts Here",
+    ],
+    "lester-young": [
+        "The President Plays with the Oscar Peterson Trio",
+    ],
+    "alice-coltrane": [
+        "Journey in Satchidananda",
+    ],
 }
 
 # ---------------------------------------------------------------------------
@@ -113,103 +155,52 @@ CURATED_MUST_HAVE = {
 # ---------------------------------------------------------------------------
 
 NEW_ARTISTS = [
+    # Round 2 — fill critical early-jazz/swing gaps
     {
-        "id": "art-pepper",
-        "name": "Art Pepper",
-        "instrument": "alto saxophone",
-        "style": "cool-jazz/hard-bop",
-        "birth_year": 1925,
-        "death_year": 1982,
-        "suggested_albums": 4,
-        "notes": "West Coast alto legend; Art Pepper Meets the Rhythm Section, "
-                 "Smack Up, Living Legend, Winter Moon",
-    },
-    {
-        "id": "gerry-mulligan",
-        "name": "Gerry Mulligan",
-        "instrument": "baritone saxophone",
-        "style": "cool-jazz",
-        "birth_year": 1927,
-        "death_year": 1996,
+        "id": "bix-beiderbecke",
+        "name": "Bix Beiderbecke",
+        "instrument": "cornet, piano",
+        "style": "early-jazz",
+        "birth_year": 1903,
+        "death_year": 1931,
         "suggested_albums": 3,
-        "notes": "Pioneered pianoless quartet; Mulligan Meets Monk, "
-                 "Night Lights, What Is There to Say?",
+        "notes": "Lyrical cornetist, first great white jazz soloist; "
+                 "Singin' the Blues, In a Mist, At the Jazz Band Ball",
     },
     {
-        "id": "lee-konitz",
-        "name": "Lee Konitz",
-        "instrument": "alto saxophone",
-        "style": "cool-jazz",
-        "birth_year": 1927,
-        "death_year": 2020,
+        "id": "jimmie-lunceford",
+        "name": "Jimmie Lunceford",
+        "instrument": "bandleader, alto saxophone",
+        "style": "swing",
+        "birth_year": 1902,
+        "death_year": 1947,
         "suggested_albums": 3,
-        "notes": "Tristano school, Birth of the Cool; Subconscious-Lee, "
-                 "Motion, The Real Lee Konitz",
+        "notes": "Precision swing orchestra; Rhythm Is Our Business, "
+                 "Lunceford Special, For Dancers Only",
     },
     {
-        "id": "hampton-hawes",
-        "name": "Hampton Hawes",
-        "instrument": "piano",
-        "style": "hard-bop",
-        "birth_year": 1928,
-        "death_year": 1977,
+        "id": "jack-teagarden",
+        "name": "Jack Teagarden",
+        "instrument": "trombone, vocals",
+        "style": "swing/early-jazz",
+        "birth_year": 1905,
+        "death_year": 1964,
         "suggested_albums": 2,
-        "notes": "West Coast bop piano; The Trio Vol. 1, All Night Session!",
-    },
-    {
-        "id": "tina-brooks",
-        "name": "Tina Brooks",
-        "instrument": "tenor saxophone",
-        "style": "hard-bop",
-        "birth_year": 1932,
-        "death_year": 1974,
-        "suggested_albums": 2,
-        "notes": "Tragically under-recorded Blue Note tenor; True Blue, "
-                 "Back to the Tracks",
-    },
-    {
-        "id": "blue-mitchell",
-        "name": "Blue Mitchell",
-        "instrument": "trumpet",
-        "style": "hard-bop",
-        "birth_year": 1930,
-        "death_year": 1979,
-        "suggested_albums": 2,
-        "notes": "Riverside hard-bop trumpeter; Blue's Moods, The Thing to Do",
-    },
-    {
-        "id": "booker-little",
-        "name": "Booker Little",
-        "instrument": "trumpet",
-        "style": "hard-bop/free-jazz",
-        "birth_year": 1938,
-        "death_year": 1961,
-        "suggested_albums": 2,
-        "notes": "Died at 23, bridged hard-bop and free; Out Front, "
-                 "Booker Little and Friend",
-    },
-    {
-        "id": "paul-chambers",
-        "name": "Paul Chambers",
-        "instrument": "bass",
-        "style": "hard-bop",
-        "birth_year": 1935,
-        "death_year": 1969,
-        "suggested_albums": 2,
-        "notes": "First-call bassist for Miles quintet; Bass on Top, "
-                 "Whims of Chambers",
+        "notes": "Greatest jazz trombonist of swing era; "
+                 "Jack Teagarden's Big Eight, Think Well of Me",
     },
 ]
 
 # Artists that were listed as candidates but already exist in artists.json
 ALREADY_EXISTING_ARTISTS = [
-    "abbey-lincoln",
-    "betty-carter",
-    "elvin-jones",
-    "grant-green",
-    "jimmy-smith",
-    "mal-waldron",
-    "mccoy-tyner",
+    "abbey-lincoln", "betty-carter", "elvin-jones", "grant-green",
+    "jimmy-smith", "mal-waldron", "mccoy-tyner",
+    # Round 1 artists that now exist
+    "art-pepper", "gerry-mulligan", "lee-konitz", "hampton-hawes",
+    "tina-brooks", "blue-mitchell", "booker-little", "paul-chambers",
+    # Already existed before both rounds
+    "sidney-bechet", "fletcher-henderson", "art-tatum", "fats-waller",
+    "django-reinhardt",
 ]
 
 
