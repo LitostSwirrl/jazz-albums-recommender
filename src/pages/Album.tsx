@@ -1,7 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
 import albumsData from '../data/albums.json';
 import artistsData from '../data/artists.json';
-import erasData from '../data/eras.json';
 import { AlbumCover } from '../components/AlbumCover';
 import { ArtistPhoto } from '../components/ArtistPhoto';
 import { RelatedAlbums } from '../components/discovery/RelatedAlbums';
@@ -9,12 +8,10 @@ import { HistoricalEventCard } from '../components/context/HistoricalEventCard';
 import { SpotifyIcon, AppleMusicIcon, YouTubeMusicIcon, YouTubeIcon } from '../components/icons';
 import { SEO } from '../components/SEO';
 import { getEventsForAlbum } from '../utils/historicalContext';
-import type { Album as AlbumType, Artist, Era } from '../types';
+import type { Album as AlbumType, Artist } from '../types';
 
 const albums = albumsData as AlbumType[];
 const artists = artistsData as Artist[];
-const eras = erasData as Era[];
-
 export function Album() {
   const { id } = useParams<{ id: string }>();
   const album = albums.find((a) => a.id === id);
@@ -31,7 +28,6 @@ export function Album() {
   }
 
   const artist = artists.find((a) => a.id === album.artistId);
-  const era = eras.find((e) => e.id === album.era);
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-12 page-enter">
@@ -78,29 +74,10 @@ export function Album() {
             >
               {album.label}
             </Link>
-            {era && (
-              <>
-                <span>·</span>
-                <Link
-                  to={`/era/${era.id}`}
-                  className="px-3 py-1 rounded-full text-sm hover:opacity-80 transition-opacity"
-                  style={{ backgroundColor: era.color + '30', color: era.color }}
-                >
-                  {era.name}
-                </Link>
-              </>
-            )}
           </div>
 
           <div className="flex flex-wrap gap-2 mt-4">
-            {album.genres
-              .filter((g) => {
-                if (!era) return true;
-                const genreLower = g.toLowerCase();
-                const eraParts = era.name.toLowerCase().split('/').map((s) => s.trim());
-                return !eraParts.some((part) => part === genreLower);
-              })
-              .map((genre) => (
+            {album.genres.map((genre) => (
               <Link
                 key={genre}
                 to={`/albums?genre=${encodeURIComponent(genre)}`}

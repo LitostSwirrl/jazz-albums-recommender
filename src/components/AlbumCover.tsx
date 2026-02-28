@@ -18,7 +18,7 @@ const sizeClasses = {
 };
 
 const defaultWidths = {
-  sm: 250,
+  sm: 200,
   md: 500,
   lg: 512,
 };
