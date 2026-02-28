@@ -295,6 +295,7 @@ function AlbumStrip({ matchedAlbums }: AlbumStripProps) {
                 coverUrl={album.coverUrl}
                 title={album.title}
                 size="sm"
+                pixelWidth={120}
               />
             </div>
             <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 bg-zinc-800 text-[9px] text-zinc-300 px-1.5 py-0.5 rounded whitespace-nowrap opacity-0 group-hover/album:opacity-100 transition-opacity pointer-events-none z-20">

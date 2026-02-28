@@ -1,13 +1,16 @@
 import { useParams, Link } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import erasData from '../data/eras.json';
 import artistsData from '../data/artists.json';
 import albumsData from '../data/albums.json';
 import { AlbumCover } from '../components/AlbumCover';
 import { HistoricalEventCard } from '../components/context/HistoricalEventCard';
 import { SEO } from '../components/SEO';
+import { Pagination } from '../components/Pagination';
 import { getEventsByEra } from '../utils/historicalContext';
 import type { Era as EraType, Artist, Album, EraId } from '../types';
+
+const ERA_ALBUMS_PER_PAGE = 36;
 
 const eras = erasData as EraType[];
 const artists = artistsData as Artist[];
@@ -29,7 +32,24 @@ export function Era() {
   }
 
   const eraArtists = artists.filter((a) => a.eras.includes(era.id));
-  const eraAlbums = albums.filter((a) => a.era === era.id);
+  const eraAlbums = useMemo(
+    () => albums.filter((a) => a.era === era.id),
+    [era.id]
+  );
+  const [albumPage, setAlbumPage] = useState(1);
+
+  // Reset page when navigating between eras
+  const [prevEraId, setPrevEraId] = useState(era.id);
+  if (era.id !== prevEraId) {
+    setPrevEraId(era.id);
+    setAlbumPage(1);
+  }
+
+  const albumTotalPages = Math.ceil(eraAlbums.length / ERA_ALBUMS_PER_PAGE);
+  const paginatedAlbums = useMemo(() => {
+    const start = (albumPage - 1) * ERA_ALBUMS_PER_PAGE;
+    return eraAlbums.slice(start, start + ERA_ALBUMS_PER_PAGE);
+  }, [eraAlbums, albumPage]);
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-12 page-enter">
@@ -105,27 +125,42 @@ export function Era() {
       </section>
 
       {/* Albums from this Era */}
-      <section>
-        <h2 className="text-2xl font-bold mb-6">Essential Albums</h2>
+      <section id="essential-albums">
+        <h2 className="text-2xl font-bold mb-6">
+          Essential Albums
+          <span className="text-base font-normal text-zinc-500 ml-3">
+            {eraAlbums.length} albums
+          </span>
+        </h2>
         {eraAlbums.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {eraAlbums.map((album) => (
-              <Link
-                key={album.id}
-                to={`/album/${album.id}`}
-                className="p-4 rounded-lg bg-zinc-900 border border-zinc-800 hover:border-zinc-600 transition-all group"
-              >
-                <div className="mb-3 group-hover:scale-105 transition-transform">
-                  <AlbumCover coverUrl={album.coverUrl} title={album.title} size="sm" />
-                </div>
-                <h3 className="font-semibold text-white group-hover:text-amber-400 transition-colors">
-                  {album.title}
-                </h3>
-                <p className="text-zinc-400">{album.artist}</p>
-                <p className="text-sm text-zinc-500">{album.year}</p>
-              </Link>
-            ))}
-          </div>
+          <>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {paginatedAlbums.map((album) => (
+                <Link
+                  key={album.id}
+                  to={`/album/${album.id}`}
+                  className="p-4 rounded-lg bg-zinc-900 border border-zinc-800 hover:border-zinc-600 transition-all group"
+                >
+                  <div className="mb-3 group-hover:scale-105 transition-transform">
+                    <AlbumCover coverUrl={album.coverUrl} title={album.title} size="sm" />
+                  </div>
+                  <h3 className="font-semibold text-white group-hover:text-amber-400 transition-colors">
+                    {album.title}
+                  </h3>
+                  <p className="text-zinc-400">{album.artist}</p>
+                  <p className="text-sm text-zinc-500">{album.year}</p>
+                </Link>
+              ))}
+            </div>
+            <Pagination
+              currentPage={albumPage}
+              totalPages={albumTotalPages}
+              onPageChange={(page) => {
+                setAlbumPage(page);
+                document.getElementById('essential-albums')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            />
+          </>
         ) : (
           <p className="text-zinc-500">No albums listed yet for this era.</p>
         )}

@@ -1,9 +1,12 @@
 import { useState } from 'react';
+import { getProxiedUrl } from '../utils/imageProxy';
 
 interface AlbumCoverProps {
   coverUrl?: string;
   title: string;
   size?: 'sm' | 'md' | 'lg';
+  pixelWidth?: number;
+  priority?: boolean;
   className?: string;
   eraColor?: string;
 }
@@ -12,6 +15,12 @@ const sizeClasses = {
   sm: 'w-full aspect-square',
   md: 'w-full aspect-square',
   lg: 'w-64 h-64',
+};
+
+const defaultWidths = {
+  sm: 250,
+  md: 500,
+  lg: 512,
 };
 
 const iconSizes = {
@@ -53,30 +62,30 @@ function getTitleColor(title: string): string {
   return colors[Math.abs(hash) % colors.length];
 }
 
-// Proxy all external images through wsrv.nl for fast cached delivery
-function getProxiedUrl(url: string): string {
-  if (url.includes('archive.org') || url.includes('wikimedia.org') || url.includes('coverartarchive.org')) {
-    return `https://wsrv.nl/?url=${encodeURIComponent(url)}&w=500&output=webp`;
-  }
-  return url;
-}
+// Check if a /front URL has a valid UUID release ID (not a text slug)
+const UUID_FRONT_PATTERN = /coverartarchive\.org\/release\/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\/front$/;
+const ANY_FRONT_PATTERN = /coverartarchive\.org\/release\/[^/]+\/front$/;
 
-export function AlbumCover({ coverUrl, title, size = 'md', className = '', eraColor }: AlbumCoverProps) {
+export function AlbumCover({ coverUrl, title, size = 'md', pixelWidth, priority, className = '', eraColor }: AlbumCoverProps) {
   const [imageError, setImageError] = useState(false);
   const [imageLoading, setImageLoading] = useState(true);
 
   // Only try to load if we have a URL that looks valid
   // Reject fake coverartarchive URLs:
-  // 1. Text IDs like "zodiac-suite" or "five-spot-vol1" instead of UUIDs
+  // 1. Text IDs like "zodiac-suite" instead of UUIDs — but allow valid UUID /front redirects
   // 2. Fake UUIDs with pattern "-39f8-4c5e-9e5c-1f9c2d8b8d8d" (placeholder suffix)
+  const isTextSlugFront = coverUrl
+    ? ANY_FRONT_PATTERN.test(coverUrl) && !UUID_FRONT_PATTERN.test(coverUrl)
+    : false;
   const hasValidUrl = coverUrl &&
     coverUrl.startsWith('http') &&
-    !coverUrl.match(/coverartarchive\.org\/release\/[a-z][a-z0-9-]+\/front$/) &&
+    !isTextSlugFront &&
     !coverUrl.includes('-39f8-4c5e-9e5c-1f9c2d8b8d8d');
   const showFallback = !hasValidUrl || imageError;
 
   const color = eraColor || getTitleColor(title);
   const initials = getInitials(title);
+  const width = pixelWidth ?? defaultWidths[size];
 
   return (
     <div
@@ -89,8 +98,10 @@ export function AlbumCover({ coverUrl, title, size = 'md', className = '', eraCo
     >
       {!showFallback && coverUrl && (
         <img
-          loading="lazy"
-          src={getProxiedUrl(coverUrl)}
+          loading={priority ? 'eager' : 'lazy'}
+          fetchPriority={priority ? 'high' : 'auto'}
+          decoding="async"
+          src={getProxiedUrl(coverUrl, width)}
           alt={`${title} album cover`}
           crossOrigin="anonymous"
           referrerPolicy="no-referrer"

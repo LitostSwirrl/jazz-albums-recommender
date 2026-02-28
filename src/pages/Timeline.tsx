@@ -155,7 +155,7 @@ export function Timeline() {
                         className="flex items-center gap-3 p-2 rounded-lg bg-zinc-800/50 hover:bg-zinc-800 transition-colors group"
                       >
                         <div className="w-10 h-10 flex-shrink-0">
-                          <AlbumCover coverUrl={album.coverUrl} title={album.title} size="sm" />
+                          <AlbumCover coverUrl={album.coverUrl} title={album.title} size="sm" pixelWidth={120} />
                         </div>
                         <div className="flex-1 min-w-0">
                           <div className="text-sm font-medium text-white group-hover:text-amber-400 truncate transition-colors">

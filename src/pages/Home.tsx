@@ -58,7 +58,7 @@ export function Home() {
         <div className="absolute inset-0 grid grid-cols-6 grid-rows-4 gap-1 opacity-[0.07] rotate-[-2deg] scale-110 pointer-events-none">
           {mosaicAlbums.map((album) => (
             <div key={album.id} className="aspect-square overflow-hidden">
-              <AlbumCover coverUrl={album.coverUrl} title={album.title} size="sm" />
+              <AlbumCover coverUrl={album.coverUrl} title={album.title} size="sm" pixelWidth={200} />
             </div>
           ))}
         </div>

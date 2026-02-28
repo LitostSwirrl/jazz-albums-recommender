@@ -53,7 +53,7 @@ export function Album() {
       {/* Header */}
       <header className="flex flex-col md:flex-row gap-8 mb-12">
         <div className="flex-shrink-0">
-          <AlbumCover coverUrl={album.coverUrl} title={album.title} size="lg" />
+          <AlbumCover coverUrl={album.coverUrl} title={album.title} size="lg" priority />
         </div>
         <div className="flex-1">
           <h1 className="text-4xl font-bold mb-2 font-display">{album.title}</h1>

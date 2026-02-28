@@ -143,6 +143,7 @@ export function Artist() {
           imageUrl={artist.imageUrl}
           name={artist.name}
           size="xl"
+          priority
           className="flex-shrink-0"
         />
         <div>

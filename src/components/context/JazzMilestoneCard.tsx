@@ -13,7 +13,7 @@ export function JazzMilestoneCard({ album }: JazzMilestoneCardProps) {
       className="flex items-center gap-3 p-3 rounded-lg bg-zinc-900 border border-zinc-800 hover:border-amber-500/50 transition-all group"
     >
       <div className="w-12 h-12 flex-shrink-0">
-        <AlbumCover coverUrl={album.coverUrl} title={album.title} size="sm" />
+        <AlbumCover coverUrl={album.coverUrl} title={album.title} size="sm" pixelWidth={120} />
       </div>
       <div className="flex-1 min-w-0">
         <div className="text-sm font-medium text-white group-hover:text-amber-400 truncate transition-colors">

@@ -5,6 +5,9 @@ import erasData from '../data/eras.json';
 import type { Artist, Era } from '../types';
 import { ArtistPhoto } from '../components/ArtistPhoto';
 import { SEO } from '../components/SEO';
+import { Pagination } from '../components/Pagination';
+
+const ARTISTS_PER_PAGE = 24;
 
 const artists = artistsData as Artist[];
 const eras = erasData as Era[];
@@ -13,6 +16,7 @@ export function Artists() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedEra, setSelectedEra] = useState<string | null>(null);
   const [selectedInstrument, setSelectedInstrument] = useState<string | null>(null);
+  const [currentPage, setCurrentPage] = useState(1);
 
   const getEraColor = (eraId: string) => {
     const era = eras.find((e) => e.id === eraId);
@@ -58,6 +62,12 @@ export function Artists() {
     return result;
   }, [searchQuery, selectedEra, selectedInstrument]);
 
+  const totalPages = Math.ceil(filteredArtists.length / ARTISTS_PER_PAGE);
+  const paginatedArtists = useMemo(() => {
+    const start = (currentPage - 1) * ARTISTS_PER_PAGE;
+    return filteredArtists.slice(start, start + ARTISTS_PER_PAGE);
+  }, [filteredArtists, currentPage]);
+
   const hasActiveFilters = !!(searchQuery || selectedEra || selectedInstrument);
 
   return (
@@ -89,14 +99,14 @@ export function Artists() {
         <input
           type="text"
           value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
+          onChange={(e) => { setSearchQuery(e.target.value); setCurrentPage(1); }}
           placeholder="Search by name or instrument..."
           aria-label="Search artists"
           className="w-full pl-12 pr-4 py-3 bg-zinc-900 border border-zinc-700 rounded-xl text-white placeholder-zinc-500 focus:outline-none focus:border-amber-500 transition-colors"
         />
         {searchQuery && (
           <button
-            onClick={() => setSearchQuery('')}
+            onClick={() => { setSearchQuery(''); setCurrentPage(1); }}
             aria-label="Clear search"
             className="absolute right-4 top-1/2 -translate-y-1/2 text-zinc-500 hover:text-white transition-colors"
           >
@@ -114,7 +124,7 @@ export function Artists() {
           {eras.map((era) => (
             <button
               key={era.id}
-              onClick={() => setSelectedEra(selectedEra === era.id ? null : era.id)}
+              onClick={() => { setSelectedEra(selectedEra === era.id ? null : era.id); setCurrentPage(1); }}
               className={`px-3 py-1.5 text-sm rounded-full border transition-all ${
                 selectedEra === era.id
                   ? 'border-transparent text-black font-medium'
@@ -135,7 +145,7 @@ export function Artists() {
           {topInstruments.map((inst) => (
             <button
               key={inst}
-              onClick={() => setSelectedInstrument(selectedInstrument === inst ? null : inst)}
+              onClick={() => { setSelectedInstrument(selectedInstrument === inst ? null : inst); setCurrentPage(1); }}
               className={`px-3 py-1.5 text-sm rounded-full border transition-all ${
                 selectedInstrument === inst
                   ? 'bg-amber-500 border-amber-500 text-black font-medium'
@@ -178,6 +188,7 @@ export function Artists() {
               setSearchQuery('');
               setSelectedEra(null);
               setSelectedInstrument(null);
+              setCurrentPage(1);
             }}
             className="text-sm text-zinc-500 hover:text-white underline"
           >
@@ -187,7 +198,7 @@ export function Artists() {
       )}
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {filteredArtists.map((artist) => (
+        {paginatedArtists.map((artist) => (
           <Link
             key={artist.id}
             to={`/artist/${artist.id}`}
@@ -231,6 +242,15 @@ export function Artists() {
         ))}
       </div>
 
+      <Pagination
+        currentPage={currentPage}
+        totalPages={totalPages}
+        onPageChange={(page) => {
+          setCurrentPage(page);
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }}
+      />
+
       {/* Empty State */}
       {filteredArtists.length === 0 && (
         <div className="text-center py-12">
@@ -240,6 +260,7 @@ export function Artists() {
               setSearchQuery('');
               setSelectedEra(null);
               setSelectedInstrument(null);
+              setCurrentPage(1);
             }}
             className="mt-4 text-amber-400 hover:text-amber-300"
           >

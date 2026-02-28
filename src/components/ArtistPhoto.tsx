@@ -1,9 +1,11 @@
 import { useState } from 'react';
+import { getProxiedUrl } from '../utils/imageProxy';
 
 interface ArtistPhotoProps {
   imageUrl?: string;
   name: string;
   size?: 'sm' | 'md' | 'lg' | 'xl';
+  priority?: boolean;
   className?: string;
 }
 
@@ -12,6 +14,13 @@ const sizeClasses = {
   md: 'w-16 h-16',
   lg: 'w-24 h-24',
   xl: 'w-32 h-32',
+};
+
+const defaultWidths = {
+  sm: 80,
+  md: 128,
+  lg: 192,
+  xl: 256,
 };
 
 const textSizes = {
@@ -58,6 +67,7 @@ export function ArtistPhoto({
   imageUrl,
   name,
   size = 'md',
+  priority,
   className = '',
 }: ArtistPhotoProps) {
   const [imageError, setImageError] = useState(false);
@@ -68,6 +78,7 @@ export function ArtistPhoto({
 
   const color = getNameColor(name);
   const initials = getInitials(name);
+  const width = defaultWidths[size];
 
   return (
     <div
@@ -80,8 +91,10 @@ export function ArtistPhoto({
     >
       {!showFallback && (
         <img
-          loading="lazy"
-          src={imageUrl}
+          loading={priority ? 'eager' : 'lazy'}
+          fetchPriority={priority ? 'high' : 'auto'}
+          decoding="async"
+          src={getProxiedUrl(imageUrl ?? '', width)}
           alt={`${name} photo`}
           crossOrigin="anonymous"
           referrerPolicy="no-referrer"
