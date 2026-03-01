@@ -19,17 +19,17 @@ export function HistoricalEventCard({ event, compact = false }: HistoricalEventC
   if (compact) {
     return (
       <div
-        className="p-4 rounded-lg bg-zinc-900 border border-zinc-800"
+        className="p-4 rounded-lg bg-surface border border-border shadow-card"
         style={{ borderLeftWidth: '3px', borderLeftColor: config.color }}
       >
         <div className="flex items-start justify-between gap-2 mb-2">
           <CategoryBadge category={event.category} />
-          <span className="text-xs text-zinc-500 font-mono whitespace-nowrap">
+          <span className="text-xs text-warm-gray font-mono whitespace-nowrap">
             {formatEventYear(event)}
           </span>
         </div>
-        <h4 className="font-semibold text-white text-sm mb-1">{event.title}</h4>
-        <p className="text-zinc-400 text-sm leading-relaxed">{event.jazzConnection}</p>
+        <h4 className="font-semibold text-charcoal text-sm mb-1">{event.title}</h4>
+        <p className="text-warm-gray text-sm leading-relaxed">{event.jazzConnection}</p>
       </div>
     );
   }
@@ -39,24 +39,24 @@ export function HistoricalEventCard({ event, compact = false }: HistoricalEventC
 
   return (
     <div
-      className="p-5 rounded-lg bg-zinc-900 border border-zinc-800"
+      className="p-5 rounded-lg bg-surface border border-border shadow-card"
       style={{ borderLeftWidth: '4px', borderLeftColor: config.color }}
     >
       <div className="flex items-start justify-between gap-3 mb-3">
         <CategoryBadge category={event.category} size="md" />
-        <span className="text-sm text-zinc-500 font-mono whitespace-nowrap">
+        <span className="text-sm text-warm-gray font-mono whitespace-nowrap">
           {formatEventYear(event)}
         </span>
       </div>
 
-      <h3 className="text-lg font-bold text-white mb-2">{event.title}</h3>
-      <p className="text-zinc-400 text-sm leading-relaxed mb-3">{event.description}</p>
+      <h3 className="text-lg font-bold text-charcoal mb-2">{event.title}</h3>
+      <p className="text-warm-gray text-sm leading-relaxed mb-3">{event.description}</p>
 
-      <div className="p-3 rounded-md bg-zinc-800/50 mb-3">
-        <p className="text-sm font-medium text-zinc-300 mb-1" style={{ color: config.color }}>
+      <div className="p-3 rounded-md bg-cream mb-3">
+        <p className="text-sm font-medium text-charcoal mb-1" style={{ color: config.color }}>
           Jazz Connection
         </p>
-        <p className="text-zinc-300 text-sm leading-relaxed">{event.jazzConnection}</p>
+        <p className="text-charcoal text-sm leading-relaxed">{event.jazzConnection}</p>
       </div>
 
       {(relatedArtists.length > 0 || relatedAlbums.length > 0) && (
@@ -65,7 +65,7 @@ export function HistoricalEventCard({ event, compact = false }: HistoricalEventC
             <Link
               key={artist.id}
               to={`/artist/${artist.id}`}
-              className="px-2 py-1 text-xs rounded-full bg-zinc-800 text-zinc-300 hover:bg-zinc-700 hover:text-amber-400 transition-colors"
+              className="px-2 py-1 text-xs rounded-full bg-cream text-charcoal border border-border hover:border-coral hover:text-coral transition-colors"
             >
               {artist.name}
             </Link>
@@ -74,7 +74,7 @@ export function HistoricalEventCard({ event, compact = false }: HistoricalEventC
             <Link
               key={album.id}
               to={`/album/${album.id}`}
-              className="px-2 py-1 text-xs rounded-full bg-amber-500/10 text-amber-400 hover:bg-amber-500/20 transition-colors"
+              className="px-2 py-1 text-xs rounded-full bg-coral/10 text-coral hover:bg-coral/20 transition-colors"
             >
               {album.title}
             </Link>

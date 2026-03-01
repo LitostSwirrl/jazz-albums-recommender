@@ -42,17 +42,14 @@ function getInitials(name: string): string {
 // Generate a consistent color based on name
 function getNameColor(name: string): string {
   const colors = [
-    '#f59e0b', // amber
-    '#eab308', // yellow
-    '#84cc16', // lime
-    '#22c55e', // green
-    '#14b8a6', // teal
-    '#06b6d4', // cyan
-    '#3b82f6', // blue
-    '#8b5cf6', // violet
-    '#a855f7', // purple
-    '#ec4899', // pink
-    '#f43f5e', // rose
+    '#D95B43', // coral
+    '#3B8686', // teal
+    '#C7B042', // mustard
+    '#556B2F', // olive
+    '#1A1A2E', // navy
+    '#8B6914', // dark gold
+    '#7B4B94', // plum
+    '#B8383B', // brick red
   ];
 
   let hash = 0;
@@ -82,11 +79,9 @@ export function ArtistPhoto({
 
   return (
     <div
-      className={`rounded-full flex items-center justify-center overflow-hidden relative ${sizeClasses[size]} ${className}`}
+      className={`rounded-full flex items-center justify-center overflow-hidden relative border-2 border-border ${sizeClasses[size]} ${className}`}
       style={{
-        backgroundColor: showFallback ? `${color}20` : '#27272a',
-        borderColor: `${color}60`,
-        borderWidth: '2px'
+        backgroundColor: showFallback ? `${color}20` : undefined,
       }}
     >
       {!showFallback && (
@@ -108,7 +103,7 @@ export function ArtistPhoto({
       {showFallback && (
         <div className="flex flex-col items-center justify-center">
           <div
-            className={`font-bold ${textSizes[size]}`}
+            className={`font-bold text-warm-gray ${textSizes[size]}`}
             style={{ color }}
           >
             {initials}
@@ -116,7 +111,7 @@ export function ArtistPhoto({
         </div>
       )}
       {!showFallback && imageLoading && (
-        <div className="absolute inset-0 flex items-center justify-center bg-zinc-800">
+        <div className="absolute inset-0 flex items-center justify-center bg-border-light">
           <div className={`animate-pulse ${textSizes[size]}`} style={{ color }}>
             {initials}
           </div>

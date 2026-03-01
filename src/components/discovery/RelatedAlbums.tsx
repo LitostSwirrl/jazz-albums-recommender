@@ -52,7 +52,7 @@ export function RelatedAlbums({ currentAlbum, allAlbums, allArtists }: RelatedAl
     <div className="space-y-8">
       {sections.slice(0, 3).map((section) => (
         <div key={section.title}>
-          <h3 className="text-lg font-semibold text-zinc-300 mb-4">{section.title}</h3>
+          <h3 className="text-lg font-semibold font-heading text-charcoal mb-4">{section.title}</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {section.albums.slice(0, 4).map((album) => (
               <Link
@@ -63,10 +63,10 @@ export function RelatedAlbums({ currentAlbum, allAlbums, allArtists }: RelatedAl
                 <div className="mb-2 group-hover:scale-105 transition-transform">
                   <AlbumCover coverUrl={album.coverUrl} title={album.title} size="sm" />
                 </div>
-                <h4 className="text-sm font-medium text-white group-hover:text-amber-400 transition-colors truncate">
+                <h4 className="text-sm font-medium text-charcoal group-hover:text-coral transition-colors truncate">
                   {album.title}
                 </h4>
-                <p className="text-xs text-zinc-500 truncate">{album.artist}</p>
+                <p className="text-xs text-warm-gray truncate">{album.artist}</p>
               </Link>
             ))}
           </div>

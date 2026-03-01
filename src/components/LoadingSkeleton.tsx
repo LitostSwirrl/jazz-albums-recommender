@@ -1,10 +1,11 @@
 export function LoadingSkeleton() {
   return (
-    <div className="min-h-screen bg-zinc-950 flex items-center justify-center">
-      <div className="animate-pulse flex flex-col items-center gap-4">
-        <div className="w-16 h-16 bg-zinc-800 rounded-full" />
-        <div className="w-32 h-4 bg-zinc-800 rounded" />
-        <div className="text-zinc-600 text-sm">Loading...</div>
+    <div className="min-h-screen bg-cream flex items-center justify-center">
+      <div className="flex flex-col items-center gap-6">
+        <div className="geometric-spinner" />
+        <div className="font-mono uppercase tracking-wider text-warm-gray text-sm">
+          Loading...
+        </div>
       </div>
     </div>
   );

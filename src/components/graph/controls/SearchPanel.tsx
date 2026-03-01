@@ -59,10 +59,10 @@ export function SearchPanel({ artists, onSelect, placeholder = 'Search artists..
           }}
           onFocus={() => setIsOpen(true)}
           placeholder={placeholder}
-          className="w-full px-4 py-2 pl-10 bg-zinc-900 border border-zinc-700 rounded-lg text-white placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent"
+          className="w-full px-4 py-2 pl-10 bg-surface border border-border rounded-lg text-charcoal placeholder-warm-gray focus:outline-none focus:ring-2 focus:ring-coral focus:border-transparent"
         />
         <svg
-          className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-500"
+          className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-warm-gray"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -79,21 +79,21 @@ export function SearchPanel({ artists, onSelect, placeholder = 'Search artists..
       {isOpen && filteredArtists.length > 0 && (
         <div
           ref={dropdownRef}
-          className="absolute z-50 w-full mt-1 bg-zinc-900 border border-zinc-700 rounded-lg shadow-xl overflow-hidden"
+          className="absolute z-50 w-full mt-1 bg-surface border border-border rounded-lg shadow-elevated overflow-hidden"
         >
           {filteredArtists.map((artist) => (
             <button
               key={artist.id}
               onClick={() => handleSelect(artist)}
-              className="w-full px-4 py-2 text-left hover:bg-zinc-800 transition-colors flex items-center justify-between"
+              className="w-full px-4 py-2 text-left hover:bg-cream transition-colors flex items-center justify-between"
             >
               <div>
-                <div className="text-white font-medium">{artist.name}</div>
-                <div className="text-xs text-zinc-500">
+                <div className="text-charcoal font-medium">{artist.name}</div>
+                <div className="text-xs text-warm-gray">
                   {artist.instruments.slice(0, 2).join(', ')}
                 </div>
               </div>
-              <span className="text-xs text-zinc-600">
+              <span className="text-xs text-warm-gray/60">
                 {artist.influences.length + artist.influencedBy.length} connections
               </span>
             </button>
@@ -102,7 +102,7 @@ export function SearchPanel({ artists, onSelect, placeholder = 'Search artists..
       )}
 
       {isOpen && query && filteredArtists.length === 0 && (
-        <div className="absolute z-50 w-full mt-1 bg-zinc-900 border border-zinc-700 rounded-lg shadow-xl p-4 text-center text-zinc-500">
+        <div className="absolute z-50 w-full mt-1 bg-surface border border-border rounded-lg shadow-elevated p-4 text-center text-warm-gray">
           No artists found
         </div>
       )}

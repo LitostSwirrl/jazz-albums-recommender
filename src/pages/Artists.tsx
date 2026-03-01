@@ -76,15 +76,15 @@ export function Artists() {
         title="Jazz Artists"
         description={`Discover the legends who shaped jazz history. Explore profiles of ${artists.length} influential jazz musicians from Louis Armstrong to Kamasi Washington.`}
       />
-      <h1 className="text-4xl font-bold mb-2 font-display">Jazz Artists</h1>
-      <p className="text-zinc-400 mb-6">
+      <h1 className="text-4xl font-bold mb-2 font-display text-charcoal">Jazz Artists</h1>
+      <p className="text-warm-gray mb-6">
         {filteredArtists.length} {hasActiveFilters ? 'artists matching your filters' : 'legends who shaped jazz history'}
       </p>
 
       {/* Search Bar */}
       <div className="mb-6 relative">
         <svg
-          className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-zinc-500"
+          className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-warm-gray"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -102,13 +102,13 @@ export function Artists() {
           onChange={(e) => { setSearchQuery(e.target.value); setCurrentPage(1); }}
           placeholder="Search by name or instrument..."
           aria-label="Search artists"
-          className="w-full pl-12 pr-4 py-3 bg-zinc-900 border border-zinc-700 rounded-xl text-white placeholder-zinc-500 focus:outline-none focus:border-amber-500 transition-colors"
+          className="w-full pl-12 pr-4 py-3 bg-surface border border-border rounded-xl text-charcoal placeholder:text-warm-gray focus:outline-none focus:border-coral focus:ring-1 focus:ring-coral transition-colors"
         />
         {searchQuery && (
           <button
             onClick={() => { setSearchQuery(''); setCurrentPage(1); }}
             aria-label="Clear search"
-            className="absolute right-4 top-1/2 -translate-y-1/2 text-zinc-500 hover:text-white transition-colors"
+            className="absolute right-4 top-1/2 -translate-y-1/2 text-warm-gray hover:text-charcoal transition-colors"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -119,7 +119,7 @@ export function Artists() {
 
       {/* Era Filter */}
       <div className="mb-4">
-        <h3 className="text-sm font-semibold text-zinc-500 mb-2">Filter by Era</h3>
+        <h3 className="text-sm font-semibold text-warm-gray mb-2">Filter by Era</h3>
         <div className="flex flex-wrap gap-2">
           {eras.map((era) => (
             <button
@@ -127,8 +127,8 @@ export function Artists() {
               onClick={() => { setSelectedEra(selectedEra === era.id ? null : era.id); setCurrentPage(1); }}
               className={`px-3 py-1.5 text-sm rounded-full border transition-all ${
                 selectedEra === era.id
-                  ? 'border-transparent text-black font-medium'
-                  : 'border-zinc-700 text-zinc-400 hover:border-zinc-500 hover:text-zinc-200'
+                  ? 'border-transparent text-white font-medium'
+                  : 'border-border text-warm-gray hover:border-charcoal hover:text-charcoal'
               }`}
               style={selectedEra === era.id ? { backgroundColor: era.color } : {}}
             >
@@ -140,7 +140,7 @@ export function Artists() {
 
       {/* Instrument Filter */}
       <div className="mb-6">
-        <h3 className="text-sm font-semibold text-zinc-500 mb-2">Filter by Instrument</h3>
+        <h3 className="text-sm font-semibold text-warm-gray mb-2">Filter by Instrument</h3>
         <div className="flex flex-wrap gap-2">
           {topInstruments.map((inst) => (
             <button
@@ -148,8 +148,8 @@ export function Artists() {
               onClick={() => { setSelectedInstrument(selectedInstrument === inst ? null : inst); setCurrentPage(1); }}
               className={`px-3 py-1.5 text-sm rounded-full border transition-all ${
                 selectedInstrument === inst
-                  ? 'bg-amber-500 border-amber-500 text-black font-medium'
-                  : 'border-zinc-700 text-zinc-400 hover:border-zinc-500 hover:text-zinc-200'
+                  ? 'bg-coral border-coral text-white font-medium'
+                  : 'border-border text-warm-gray hover:border-charcoal hover:text-charcoal'
               }`}
             >
               {inst}
@@ -161,10 +161,10 @@ export function Artists() {
       {/* Active Filters */}
       {hasActiveFilters && (
         <div className="mb-6 flex items-center gap-3 flex-wrap">
-          <span className="text-sm text-zinc-500">Active filters:</span>
+          <span className="text-sm text-warm-gray">Active filters:</span>
           {searchQuery && (
-            <span className="px-2 py-1 text-xs rounded-full bg-zinc-700 text-zinc-300">
-              "{searchQuery}"
+            <span className="px-2 py-1 text-xs rounded-full bg-border-light text-charcoal">
+              &ldquo;{searchQuery}&rdquo;
             </span>
           )}
           {selectedEra && (
@@ -179,7 +179,7 @@ export function Artists() {
             </span>
           )}
           {selectedInstrument && (
-            <span className="px-2 py-1 text-xs rounded-full bg-amber-500/20 text-amber-400">
+            <span className="px-2 py-1 text-xs rounded-full bg-coral/20 text-coral">
               {selectedInstrument}
             </span>
           )}
@@ -190,7 +190,7 @@ export function Artists() {
               setSelectedInstrument(null);
               setCurrentPage(1);
             }}
-            className="text-sm text-zinc-500 hover:text-white underline"
+            className="text-sm text-warm-gray hover:text-charcoal underline"
           >
             Clear all
           </button>
@@ -202,7 +202,7 @@ export function Artists() {
           <Link
             key={artist.id}
             to={`/artist/${artist.id}`}
-            className="group p-6 rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-600 hover:shadow-xl hover:shadow-black/20 transition-all duration-300 hover:scale-[1.03]"
+            className="group p-6 rounded-xl bg-surface shadow-card hover:shadow-card-hover hover:-translate-y-1 transition-all duration-300"
           >
             <div className="mb-4 group-hover:scale-110 transition-transform duration-300">
               <ArtistPhoto
@@ -212,15 +212,15 @@ export function Artists() {
               />
             </div>
 
-            <h2 className="text-xl font-bold text-white group-hover:text-amber-400 transition-colors">
+            <h2 className="text-xl font-bold text-charcoal font-heading group-hover:text-coral transition-colors">
               {artist.name}
             </h2>
 
-            <p className="text-zinc-500 text-sm mb-3">
-              {artist.birthYear}–{artist.deathYear || 'present'}
+            <p className="text-warm-gray text-sm mb-3">
+              {artist.birthYear}\u2013{artist.deathYear || 'present'}
             </p>
 
-            <p className="text-zinc-400 text-sm mb-4">
+            <p className="text-warm-gray text-sm mb-4">
               {artist.instruments.join(', ')}
             </p>
 
@@ -254,7 +254,7 @@ export function Artists() {
       {/* Empty State */}
       {filteredArtists.length === 0 && (
         <div className="text-center py-12">
-          <p className="text-zinc-500">No artists match your filters.</p>
+          <p className="text-warm-gray">No artists match your filters.</p>
           <button
             onClick={() => {
               setSearchQuery('');
@@ -262,7 +262,7 @@ export function Artists() {
               setSelectedInstrument(null);
               setCurrentPage(1);
             }}
-            className="mt-4 text-amber-400 hover:text-amber-300"
+            className="mt-4 text-coral hover:text-coral/80"
           >
             Clear filters
           </button>

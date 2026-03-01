@@ -71,26 +71,26 @@ export function ParallelTimeline() {
 
       {/* Header */}
       <header className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-3 font-display bg-gradient-to-r from-amber-400 via-red-400 to-purple-400 bg-clip-text text-transparent">
+        <h1 className="text-4xl font-bold mb-3 font-display text-charcoal">
           Jazz & Society
         </h1>
-        <p className="text-xl text-zinc-400 max-w-2xl mx-auto mb-2">
+        <p className="text-xl text-warm-gray max-w-2xl mx-auto mb-2">
           Jazz never existed in a vacuum. Explore how racial justice, economics, politics,
-          technology, and globalization shaped — and were shaped by — the music.
+          technology, and globalization shaped &mdash; and were shaped by &mdash; the music.
         </p>
-        <p className="text-sm text-zinc-500">
-          {allEvents.length} events · {totalAlbums} albums in context
+        <p className="text-sm text-warm-gray">
+          {allEvents.length} events &middot; {totalAlbums} albums in context
         </p>
       </header>
 
       {/* Category Filter */}
       <div className="mb-8 flex flex-col items-center gap-3">
-        <p className="text-sm text-zinc-500">Filter by category</p>
+        <p className="text-sm text-warm-gray">Filter by category</p>
         <CategoryFilter activeCategories={activeCategories} onToggle={handleToggle} />
         {activeCategories.length > 0 && (
           <button
             onClick={() => setActiveCategories([])}
-            className="text-xs text-zinc-500 hover:text-zinc-300 transition-colors"
+            className="text-xs text-warm-gray hover:text-charcoal transition-colors"
           >
             Clear filters ({eventCount} of {allEvents.length} events shown)
           </button>
@@ -98,7 +98,7 @@ export function ParallelTimeline() {
       </div>
 
       {/* Category Legend */}
-      <div className="mb-10 p-4 rounded-xl bg-zinc-900 border border-zinc-800">
+      <div className="mb-10 p-4 rounded-xl bg-surface border border-border shadow-card">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
           {(Object.entries(EVENT_CATEGORIES) as [HistoricalEventCategory, typeof EVENT_CATEGORIES[HistoricalEventCategory]][]).map(
             ([key, config]) => (
@@ -107,7 +107,7 @@ export function ParallelTimeline() {
                   className="w-3 h-3 rounded-full flex-shrink-0"
                   style={{ backgroundColor: config.color }}
                 />
-                <span className="text-sm text-zinc-400">{config.label}</span>
+                <span className="text-sm text-warm-gray">{config.label}</span>
               </div>
             ),
           )}
@@ -117,7 +117,7 @@ export function ParallelTimeline() {
       {/* Parallel Timeline */}
       <div className="relative">
         {/* Center line - desktop only */}
-        <div className="absolute left-1/2 top-0 bottom-0 w-px bg-zinc-700 -translate-x-1/2 hidden lg:block" />
+        <div className="absolute left-1/2 top-0 bottom-0 w-px bg-border -translate-x-1/2 hidden lg:block" />
 
         {timelineEntries.map((entry, index) => {
           if (entry.type === 'era-start' && entry.era) {
@@ -139,19 +139,19 @@ export function ParallelTimeline() {
 
       {/* Bottom CTA */}
       <div className="mt-16 text-center">
-        <p className="text-zinc-400 mb-6">
+        <p className="text-warm-gray mb-6">
           Want to dive deeper into any era?
         </p>
         <div className="flex flex-wrap justify-center gap-3">
           <Link
             to="/timeline"
-            className="px-6 py-3 rounded-xl bg-amber-500 text-black font-semibold hover:bg-amber-400 transition-colors"
+            className="px-6 py-3 rounded-xl bg-coral text-white font-semibold hover:bg-coral/90 transition-colors"
           >
             Musical Timeline
           </Link>
           <Link
             to="/eras"
-            className="px-6 py-3 rounded-xl border border-zinc-700 text-zinc-300 hover:border-zinc-500 transition-colors"
+            className="px-6 py-3 rounded-xl border border-border text-charcoal hover:border-charcoal transition-colors"
           >
             Browse All Eras
           </Link>
@@ -166,7 +166,7 @@ function EraMarker({ era }: { era: Era }) {
     <div className="relative my-8">
       <div className="hidden lg:flex items-center justify-center">
         <div
-          className="absolute left-1/2 -translate-x-1/2 w-5 h-5 rounded-full border-4 border-zinc-950 z-10"
+          className="absolute left-1/2 -translate-x-1/2 w-5 h-5 rounded-full border-4 border-cream z-10"
           style={{ backgroundColor: era.color }}
         />
       </div>
@@ -176,12 +176,12 @@ function EraMarker({ era }: { era: Era }) {
       >
         <Link
           to={`/era/${era.id}`}
-          className="text-lg font-bold hover:underline"
+          className="text-lg font-bold font-heading hover:underline"
           style={{ color: era.color }}
         >
           {era.name}
         </Link>
-        <div className="text-sm text-zinc-500 font-mono">{era.period}</div>
+        <div className="text-sm text-warm-gray font-mono">{era.period}</div>
       </div>
     </div>
   );
@@ -225,22 +225,22 @@ interface EventCardProps {
 function EventCard({ event, config, relatedArtists }: EventCardProps) {
   return (
     <div
-      className="p-4 rounded-xl bg-zinc-900 border border-zinc-800 transition-all hover:border-zinc-700"
+      className="p-4 rounded-xl bg-surface border border-border shadow-card transition-all hover:shadow-card-hover"
       style={{ borderLeftWidth: '3px', borderLeftColor: config.color }}
     >
       <div className="flex items-start justify-between gap-2 mb-2">
         <CategoryBadge category={event.category} />
-        <span className="text-xs text-zinc-500 font-mono">
+        <span className="text-xs text-warm-gray font-mono">
           {formatEventYear(event)}
         </span>
       </div>
-      <h3 className="font-semibold text-white text-sm mb-1">{event.title}</h3>
-      <p className="text-zinc-400 text-xs leading-relaxed mb-2">{event.description}</p>
+      <h3 className="font-semibold text-charcoal text-sm mb-1">{event.title}</h3>
+      <p className="text-warm-gray text-xs leading-relaxed mb-2">{event.description}</p>
       <div
-        className="p-2 rounded-lg bg-zinc-800/50 border-l-2 mb-3"
+        className="p-2 rounded-lg bg-cream border-l-2 mb-3"
         style={{ borderLeftColor: config.color + '60' }}
       >
-        <p className="text-zinc-300 text-xs leading-relaxed">{event.jazzConnection}</p>
+        <p className="text-charcoal text-xs leading-relaxed">{event.jazzConnection}</p>
       </div>
 
       {/* Related artist chips */}
@@ -250,7 +250,7 @@ function EventCard({ event, config, relatedArtists }: EventCardProps) {
             <Link
               key={artist.id}
               to={`/artist/${artist.id}`}
-              className="px-1.5 py-0.5 text-[10px] rounded bg-zinc-800 text-zinc-300 hover:bg-zinc-700 transition-colors"
+              className="px-1.5 py-0.5 text-[10px] rounded bg-cream border border-border text-charcoal hover:text-coral transition-colors"
             >
               {artist.name}
             </Link>
@@ -272,8 +272,8 @@ interface AlbumStripProps {
 
 function AlbumStrip({ matchedAlbums }: AlbumStripProps) {
   return (
-    <div className="mt-2 pt-2 border-t border-zinc-800">
-      <p className="text-[10px] text-zinc-600 uppercase tracking-wider mb-1.5">
+    <div className="mt-2 pt-2 border-t border-border">
+      <p className="text-[10px] text-warm-gray uppercase tracking-wider mb-1.5">
         Music of the moment
       </p>
       <div className="flex gap-1.5 overflow-x-auto pb-1 scrollbar-thin">
@@ -282,12 +282,12 @@ function AlbumStrip({ matchedAlbums }: AlbumStripProps) {
             key={album.id}
             to={`/album/${album.id}`}
             className="flex-shrink-0 group/album relative"
-            title={`${album.title} — ${album.artist} (${album.year})`}
+            title={`${album.title} \u2014 ${album.artist} (${album.year})`}
           >
             <div
               className={`w-14 h-14 rounded-lg overflow-hidden transition-transform duration-200 group-hover/album:scale-110 ${
                 matchType === 'explicit'
-                  ? 'ring-1 ring-amber-500/50'
+                  ? 'ring-1 ring-coral/50'
                   : ''
               }`}
             >
@@ -298,7 +298,7 @@ function AlbumStrip({ matchedAlbums }: AlbumStripProps) {
                 pixelWidth={120}
               />
             </div>
-            <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 bg-zinc-800 text-[9px] text-zinc-300 px-1.5 py-0.5 rounded whitespace-nowrap opacity-0 group-hover/album:opacity-100 transition-opacity pointer-events-none z-20">
+            <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 bg-surface border border-border text-[9px] text-charcoal px-1.5 py-0.5 rounded whitespace-nowrap opacity-0 group-hover/album:opacity-100 transition-opacity pointer-events-none z-20 shadow-card">
               {album.title.length > 20 ? album.title.slice(0, 20) + '...' : album.title}
             </div>
           </Link>

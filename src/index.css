@@ -1,13 +1,85 @@
 @import "tailwindcss";
 
+/* ── Mid-Century Modern Design Tokens ── */
+
 @theme {
-  --font-display: 'Playfair Display', Georgia, serif;
+  /* Typography */
+  --font-display: 'Syne', system-ui, sans-serif;
+  --font-heading: 'Young Serif', Georgia, serif;
+  --font-body: 'Outfit', system-ui, sans-serif;
+  --font-mono: 'Courier Prime', 'Courier New', monospace;
+
+  /* Core palette */
+  --color-cream: #FAF7F0;
+  --color-surface: #FFFFFF;
+  --color-charcoal: #2A2A2A;
+  --color-warm-gray: #6B6259;
+  --color-border: #E8E0D4;
+  --color-border-light: #F0EBE3;
+
+  /* Accent palette */
+  --color-coral: #D95B43;
+  --color-teal: #3B8686;
+  --color-mustard: #C7B042;
+  --color-olive: #556B2F;
+  --color-navy: #1A1A2E;
+
+  /* Era colors */
+  --color-era-early-jazz: #8B6914;
+  --color-era-swing: #D95B43;
+  --color-era-bebop: #3B8686;
+  --color-era-cool-jazz: #6B8E8E;
+  --color-era-hard-bop: #B8383B;
+  --color-era-free-jazz: #7B4B94;
+  --color-era-fusion: #D97B3E;
+  --color-era-contemporary: #2B6B5E;
+
+  /* Shadows */
+  --shadow-card: 0 1px 3px rgba(42, 42, 42, 0.08), 0 4px 12px rgba(42, 42, 42, 0.04);
+  --shadow-card-hover: 0 4px 16px rgba(42, 42, 42, 0.12), 0 8px 32px rgba(42, 42, 42, 0.06);
+  --shadow-elevated: 0 8px 24px rgba(42, 42, 42, 0.14), 0 16px 48px rgba(42, 42, 42, 0.08);
+
+  /* Easing */
+  --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
 }
+
+/* ── Base Styles ── */
+
+html {
+  font-family: var(--font-body);
+  color: var(--color-charcoal);
+  background-color: var(--color-cream);
+}
+
+::selection {
+  background-color: var(--color-coral);
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-warm-gray);
+}
+
+/* ── Keyframe Animations ── */
 
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(12px);
+    transform: translateY(20px);
   }
   to {
     opacity: 1;
@@ -15,6 +87,57 @@
   }
 }
 
+@keyframes slideReveal {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes spinDiamond {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes gentleFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+/* ── Custom Utilities ── */
+
 @utility page-enter {
-  animation: fadeInUp 0.3s ease-out;
+  animation: fadeInUp 0.4s var(--ease-smooth);
+}
+
+@utility scroll-reveal {
+  animation: slideReveal 0.5s var(--ease-smooth) both;
+}
+
+@utility stagger-1 { animation-delay: 0.05s; }
+@utility stagger-2 { animation-delay: 0.1s; }
+@utility stagger-3 { animation-delay: 0.15s; }
+@utility stagger-4 { animation-delay: 0.2s; }
+@utility stagger-5 { animation-delay: 0.25s; }
+@utility stagger-6 { animation-delay: 0.3s; }
+
+@utility geometric-spinner {
+  width: 24px;
+  height: 24px;
+  border: 3px solid var(--color-border);
+  border-top-color: var(--color-coral);
+  transform: rotate(45deg);
+  animation: spinDiamond 0.8s linear infinite;
 }

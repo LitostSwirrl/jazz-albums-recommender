@@ -47,7 +47,7 @@ function VerificationBadge() {
 
   return (
     <span className="flex items-center gap-2">
-      <span className="text-emerald-500">
+      <span className="text-emerald-600">
         <svg className="w-3.5 h-3.5 inline" fill="currentColor" viewBox="0 0 20 20">
           <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
         </svg>
@@ -122,7 +122,7 @@ function InfluenceGraphInner() {
       return {
         ...edge,
         style: {
-          stroke: isPathEdge ? '#fbbf24' : '#f59e0b',
+          stroke: isPathEdge ? '#C7B042' : '#D95B43',
           strokeWidth: isPathEdge ? 4 : 2,
           strokeDasharray: isPathEdge ? undefined : edge.style?.strokeDasharray,
           opacity: 1,
@@ -152,7 +152,7 @@ function InfluenceGraphInner() {
           ...edge,
           style: {
             ...edge.style,
-            stroke: isPathEdge ? '#fbbf24' : isConnected ? '#22d3ee' : '#f59e0b',
+            stroke: isPathEdge ? '#C7B042' : isConnected ? '#3B8686' : '#D95B43',
             strokeWidth: isPathEdge ? 4 : isConnected ? 3 : 2,
           },
           markerEnd: edge.markerEnd,
@@ -204,71 +204,71 @@ function InfluenceGraphInner() {
         description="Explore how jazz musicians influenced each other across generations. Discover connections between artists and trace the evolution of jazz through influence relationships."
       />
       <div className="mb-6">
-        <h1 className="text-4xl font-bold mb-2 font-display">Artist Influence Network</h1>
-        <p className="text-zinc-400 mb-4">
+        <h1 className="text-4xl font-bold mb-2 font-display text-charcoal">Artist Influence Network</h1>
+        <p className="text-warm-gray mb-4">
           Explore how jazz musicians influenced each other across generations.
           Search for an artist, find connections between two musicians, or click to explore.
         </p>
 
         {/* Getting Started Panel - prominent instructions */}
         {showInstructions && (
-          <div className="mb-4 p-4 rounded-lg bg-gradient-to-r from-amber-900/20 to-zinc-900 border border-amber-500/30">
+          <div className="mb-4 p-4 rounded-lg bg-surface border border-coral/30 shadow-card">
             <div className="flex items-center justify-between mb-3">
-              <h3 className="text-lg font-semibold text-amber-400">Getting Started</h3>
+              <h3 className="text-lg font-semibold text-coral font-heading">Getting Started</h3>
               <button
                 onClick={() => setShowInstructions(false)}
-                className="text-sm text-zinc-500 hover:text-zinc-300 transition-colors"
+                className="text-sm text-warm-gray hover:text-charcoal transition-colors"
               >
                 Hide
               </button>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               <div className="flex items-start gap-3">
-                <div className="w-7 h-7 rounded-full bg-amber-500/20 flex items-center justify-center shrink-0">
-                  <span className="text-amber-400 font-bold text-sm">1</span>
+                <div className="w-7 h-7 rounded-full bg-coral/10 flex items-center justify-center shrink-0">
+                  <span className="text-coral font-bold text-sm">1</span>
                 </div>
                 <div>
-                  <p className="text-white font-medium text-sm">Choose an Era</p>
-                  <p className="text-xs text-zinc-400">Filter by jazz period (starts with Bebop)</p>
+                  <p className="text-charcoal font-medium text-sm">Choose an Era</p>
+                  <p className="text-xs text-warm-gray">Filter by jazz period (starts with Bebop)</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <div className="w-7 h-7 rounded-full bg-amber-500/20 flex items-center justify-center shrink-0">
-                  <span className="text-amber-400 font-bold text-sm">2</span>
+                <div className="w-7 h-7 rounded-full bg-coral/10 flex items-center justify-center shrink-0">
+                  <span className="text-coral font-bold text-sm">2</span>
                 </div>
                 <div>
-                  <p className="text-white font-medium text-sm">Click Any Artist</p>
-                  <p className="text-xs text-zinc-400">Highlight their connections</p>
+                  <p className="text-charcoal font-medium text-sm">Click Any Artist</p>
+                  <p className="text-xs text-warm-gray">Highlight their connections</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <div className="w-7 h-7 rounded-full bg-amber-500/20 flex items-center justify-center shrink-0">
-                  <span className="text-amber-400 font-bold text-sm">3</span>
+                <div className="w-7 h-7 rounded-full bg-coral/10 flex items-center justify-center shrink-0">
+                  <span className="text-coral font-bold text-sm">3</span>
                 </div>
                 <div>
-                  <p className="text-white font-medium text-sm">Find Connections</p>
-                  <p className="text-xs text-zinc-400">Trace paths between two musicians</p>
+                  <p className="text-charcoal font-medium text-sm">Find Connections</p>
+                  <p className="text-xs text-warm-gray">Trace paths between two musicians</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <div className="w-7 h-7 rounded-full bg-amber-500/20 flex items-center justify-center shrink-0">
-                  <span className="text-amber-400 font-bold text-sm">4</span>
+                <div className="w-7 h-7 rounded-full bg-coral/10 flex items-center justify-center shrink-0">
+                  <span className="text-coral font-bold text-sm">4</span>
                 </div>
                 <div>
-                  <p className="text-white font-medium text-sm">Explore Freely</p>
-                  <p className="text-xs text-zinc-400">Drag to pan, scroll to zoom</p>
+                  <p className="text-charcoal font-medium text-sm">Explore Freely</p>
+                  <p className="text-xs text-warm-gray">Drag to pan, scroll to zoom</p>
                 </div>
               </div>
             </div>
-            <p className="mt-3 text-xs text-zinc-500">
-              Tip: Arrows flow from <em>influencer</em> → <em>influenced</em>. Click "All Eras" to see the full network.
+            <p className="mt-3 text-xs text-warm-gray">
+              Tip: Arrows flow from <em>influencer</em> &rarr; <em>influenced</em>. Click &ldquo;All Eras&rdquo; to see the full network.
             </p>
           </div>
         )}
         {!showInstructions && (
           <button
             onClick={() => setShowInstructions(true)}
-            className="mb-4 text-sm text-amber-500 hover:text-amber-400 transition-colors"
+            className="mb-4 text-sm text-coral hover:text-coral/80 transition-colors"
           >
             Show instructions
           </button>
@@ -279,7 +279,7 @@ function InfluenceGraphInner() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
         {/* Search Panel */}
         <div>
-          <label className="block text-sm text-zinc-400 mb-2">Search & Center</label>
+          <label className="block text-sm text-warm-gray mb-2">Search & Center</label>
           <SearchPanel
             artists={artists}
             onSelect={handleSearchSelect}
@@ -289,14 +289,14 @@ function InfluenceGraphInner() {
 
         {/* Era Filter */}
         <div>
-          <label className="block text-sm text-zinc-400 mb-2">Filter by Era</label>
+          <label className="block text-sm text-warm-gray mb-2">Filter by Era</label>
           <div className="flex flex-wrap gap-2">
             <button
               onClick={() => setEraFilter(null)}
               className={`px-3 py-1.5 rounded-full text-sm transition-colors ${
                 !eraFilter
-                  ? 'bg-amber-600 text-white'
-                  : 'bg-zinc-800 text-zinc-400 hover:bg-zinc-700'
+                  ? 'bg-coral text-white'
+                  : 'bg-cream border border-border text-warm-gray hover:border-charcoal hover:text-charcoal'
               }`}
             >
               All Eras
@@ -308,7 +308,7 @@ function InfluenceGraphInner() {
                 className={`px-3 py-1.5 rounded-full text-sm transition-colors ${
                   eraFilter === era.id
                     ? 'text-white'
-                    : 'bg-zinc-800 text-zinc-400 hover:bg-zinc-700'
+                    : 'bg-cream border border-border text-warm-gray hover:border-charcoal hover:text-charcoal'
                 }`}
                 style={eraFilter === era.id ? { backgroundColor: eraColors[era.id] } : {}}
               >
@@ -321,14 +321,14 @@ function InfluenceGraphInner() {
 
       {/* Genre/Style Filter */}
       <div className="mb-6">
-        <label className="block text-sm text-zinc-400 mb-2">Filter by Style</label>
+        <label className="block text-sm text-warm-gray mb-2">Filter by Style</label>
         <div className="flex flex-wrap gap-2">
           <button
             onClick={() => setGenreFilter(null)}
             className={`px-3 py-1.5 rounded-full text-sm transition-colors ${
               !genreFilter
-                ? 'bg-amber-600 text-white'
-                : 'bg-zinc-800 text-zinc-400 hover:bg-zinc-700'
+                ? 'bg-coral text-white'
+                : 'bg-cream border border-border text-warm-gray hover:border-charcoal hover:text-charcoal'
             }`}
           >
             All Styles
@@ -339,8 +339,8 @@ function InfluenceGraphInner() {
               onClick={() => setGenreFilter(genreFilter === genre ? null : genre)}
               className={`px-3 py-1.5 rounded-full text-sm transition-colors capitalize ${
                 genreFilter === genre
-                  ? 'bg-amber-600 text-white'
-                  : 'bg-zinc-800 text-zinc-400 hover:bg-zinc-700'
+                  ? 'bg-coral text-white'
+                  : 'bg-cream border border-border text-warm-gray hover:border-charcoal hover:text-charcoal'
               }`}
             >
               {genre}
@@ -385,13 +385,13 @@ function InfluenceGraphInner() {
               className="w-3 h-3 rounded-full"
               style={{ backgroundColor: eraColors[era.id] }}
             />
-            <span className="text-sm text-zinc-400">{era.name}</span>
+            <span className="text-sm text-warm-gray">{era.name}</span>
           </button>
         ))}
       </div>
 
-      {/* Graph Container */}
-      <div className="h-[600px] rounded-lg border border-zinc-800 overflow-hidden bg-zinc-950">
+      {/* Graph Container - KEEP DARK for contrast */}
+      <div className="h-[600px] rounded-lg border border-border overflow-hidden bg-navy">
         <ReactFlow
           nodes={nodes}
           edges={edges}
@@ -402,7 +402,7 @@ function InfluenceGraphInner() {
           edgeTypes={edgeTypes}
           defaultEdgeOptions={{
             type: 'connection',
-            style: { stroke: '#f59e0b', strokeWidth: 2 },
+            style: { stroke: '#D95B43', strokeWidth: 2 },
             animated: false,
           }}
           fitView
@@ -411,21 +411,21 @@ function InfluenceGraphInner() {
           edgesReconnectable={false}
           elevateEdgesOnSelect
         >
-          <Background color="#27272a" gap={20} />
-          <Controls className="bg-zinc-900 border-zinc-700" />
+          <Background color="#2A2A40" gap={20} />
+          <Controls className="bg-navy border-white/10" />
           <MiniMap
             nodeColor={(node) => {
               const era = (node.data as { era?: Era }).era;
-              return era ? eraColors[era.id] || '#71717a' : '#71717a';
+              return era ? eraColors[era.id] || '#4A4A5A' : '#4A4A5A';
             }}
             maskColor="rgba(0, 0, 0, 0.8)"
-            className="bg-zinc-900 border-zinc-700"
+            className="bg-navy border-white/10"
           />
         </ReactFlow>
       </div>
 
       {/* Stats */}
-      <div className="mt-4 flex items-center gap-6 text-sm text-zinc-500">
+      <div className="mt-4 flex items-center gap-6 text-sm text-warm-gray">
         <span>Showing {nodes.length} artists</span>
         <span>{edges.length} connections</span>
         {focusArtist && <span>Focused on {focusArtist.name}</span>}
@@ -433,17 +433,17 @@ function InfluenceGraphInner() {
       </div>
 
       {/* Instructions */}
-      <div className="mt-6 p-4 rounded-lg bg-zinc-900 border border-zinc-800">
-        <h3 className="font-semibold text-amber-400 mb-2">How to Explore</h3>
-        <ul className="text-sm text-zinc-400 space-y-1">
-          <li><strong>Search</strong> - Find an artist and center the view on them</li>
-          <li><strong>Find Connection</strong> - Discover how two artists are linked</li>
-          <li><strong>Click artist</strong> - Highlight their direct connections</li>
-          <li><strong>Click artist name</strong> - Visit their full profile</li>
-          <li><strong>Drag/Scroll</strong> - Pan and zoom the graph</li>
+      <div className="mt-6 p-4 rounded-lg bg-surface border border-border shadow-card">
+        <h3 className="font-semibold text-coral font-heading mb-2">How to Explore</h3>
+        <ul className="text-sm text-warm-gray space-y-1">
+          <li><strong className="text-charcoal">Search</strong> - Find an artist and center the view on them</li>
+          <li><strong className="text-charcoal">Find Connection</strong> - Discover how two artists are linked</li>
+          <li><strong className="text-charcoal">Click artist</strong> - Highlight their direct connections</li>
+          <li><strong className="text-charcoal">Click artist name</strong> - Visit their full profile</li>
+          <li><strong className="text-charcoal">Drag/Scroll</strong> - Pan and zoom the graph</li>
           <li>Arrows flow from <em>influencer</em> to <em>influenced</em></li>
-          <li><strong>Solid lines</strong> = Wikipedia-sourced &middot; <strong>Dashed lines</strong> = editorial (book references)</li>
-          <li><strong>Hover edges</strong> to see connection details</li>
+          <li><strong className="text-charcoal">Solid lines</strong> = Wikipedia-sourced &middot; <strong className="text-charcoal">Dashed lines</strong> = editorial (book references)</li>
+          <li><strong className="text-charcoal">Hover edges</strong> to see connection details</li>
         </ul>
       </div>
     </div>

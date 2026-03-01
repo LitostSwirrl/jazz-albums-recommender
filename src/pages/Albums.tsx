@@ -19,8 +19,8 @@ const SORT_OPTION_VALUES = ['year-asc', 'year-desc', 'artist-az', 'title-az'] as
 const SORT_OPTIONS: { value: SortOption; label: string }[] = [
   { value: 'year-asc', label: 'Year (oldest)' },
   { value: 'year-desc', label: 'Year (newest)' },
-  { value: 'artist-az', label: 'Artist A–Z' },
-  { value: 'title-az', label: 'Title A–Z' },
+  { value: 'artist-az', label: 'Artist A\u2013Z' },
+  { value: 'title-az', label: 'Title A\u2013Z' },
 ];
 
 function isValidSortOption(value: string | null): value is SortOption {
@@ -201,8 +201,8 @@ export function Albums() {
       />
 
       <div className="mb-8">
-        <h1 className="text-4xl font-bold mb-2 font-display">Essential Albums</h1>
-        <p className="text-zinc-400">
+        <h1 className="text-4xl font-bold mb-2 font-display text-charcoal">Essential Albums</h1>
+        <p className="text-warm-gray">
           {filteredAlbums.length} albums{' '}
           {hasActiveFilters ? 'matching your filters' : 'that define jazz history'}
         </p>
@@ -211,7 +211,7 @@ export function Albums() {
       {/* Search Bar */}
       <div className="mb-6 relative">
         <svg
-          className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-zinc-500"
+          className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-warm-gray"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -229,13 +229,13 @@ export function Albums() {
           onChange={(e) => setSearchQuery(e.target.value)}
           placeholder="Search by title, artist, label, or genre..."
           aria-label="Search albums"
-          className="w-full pl-12 pr-4 py-3 bg-zinc-900 border border-zinc-700 rounded-xl text-white placeholder-zinc-500 focus:outline-none focus:border-amber-500 transition-colors"
+          className="w-full pl-12 pr-4 py-3 bg-surface border border-border rounded-xl text-charcoal placeholder:text-warm-gray focus:outline-none focus:border-coral focus:ring-1 focus:ring-coral transition-colors"
         />
         {searchQuery && (
           <button
             onClick={() => setSearchQuery('')}
             aria-label="Clear search"
-            className="absolute right-4 top-1/2 -translate-y-1/2 text-zinc-500 hover:text-white transition-colors"
+            className="absolute right-4 top-1/2 -translate-y-1/2 text-warm-gray hover:text-charcoal transition-colors"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -255,7 +255,7 @@ export function Albums() {
               updateFilter('sort', value === 'year-asc' ? null : value);
             }
           }}
-          className="px-3 py-1.5 bg-zinc-900 border border-zinc-700 rounded-lg text-sm text-zinc-300 focus:outline-none focus:border-amber-500"
+          className="px-3 py-1.5 bg-surface border border-border rounded-lg text-sm text-charcoal focus:outline-none focus:border-coral focus:ring-1 focus:ring-coral"
         >
           {SORT_OPTIONS.map((opt) => (
             <option key={opt.value} value={opt.value}>
@@ -267,7 +267,7 @@ export function Albums() {
 
       {/* Era Filter */}
       <div className="mb-4">
-        <h3 className="text-sm font-semibold text-zinc-500 mb-2">Filter by Era</h3>
+        <h3 className="text-sm font-semibold text-warm-gray mb-2">Filter by Era</h3>
         <div className="flex flex-wrap gap-2">
           {eras.map((era) => (
             <button
@@ -279,8 +279,8 @@ export function Albums() {
               }}
               className={`px-3 py-1.5 text-sm rounded-full border transition-all ${
                 selectedEra === era.id
-                  ? 'border-transparent text-black font-medium'
-                  : 'border-zinc-700 text-zinc-400 hover:border-zinc-500 hover:text-zinc-200'
+                  ? 'border-transparent text-white font-medium'
+                  : 'border-border text-warm-gray hover:border-charcoal hover:text-charcoal'
               }`}
               style={selectedEra === era.id ? { backgroundColor: era.color } : {}}
             >
@@ -292,7 +292,7 @@ export function Albums() {
 
       {/* Genre Filter */}
       <div className="mb-4">
-        <h3 className="text-sm font-semibold text-zinc-500 mb-2">Filter by Genre</h3>
+        <h3 className="text-sm font-semibold text-warm-gray mb-2">Filter by Genre</h3>
         <div className="flex flex-wrap gap-2">
           {visibleGenres.map((genre) => (
             <button
@@ -305,8 +305,8 @@ export function Albums() {
               }}
               className={`px-3 py-1.5 text-sm rounded-full border transition-all ${
                 selectedGenre?.toLowerCase() === genre.toLowerCase()
-                  ? 'bg-amber-500 border-amber-500 text-black font-medium'
-                  : 'border-zinc-700 text-zinc-400 hover:border-zinc-500 hover:text-zinc-200'
+                  ? 'bg-coral border-coral text-white font-medium'
+                  : 'border-border text-warm-gray hover:border-charcoal hover:text-charcoal'
               }`}
             >
               {genre}
@@ -315,7 +315,7 @@ export function Albums() {
           {genresByFrequency.length > 12 && (
             <button
               onClick={() => setShowAllGenres((v) => !v)}
-              className="px-3 py-1.5 text-sm text-amber-400 hover:text-amber-300 transition-colors"
+              className="px-3 py-1.5 text-sm text-coral hover:text-coral/80 transition-colors"
             >
               {showAllGenres ? 'Show less' : `Show all (${genresByFrequency.length})`}
             </button>
@@ -325,7 +325,7 @@ export function Albums() {
 
       {/* Label Filter */}
       <div className="mb-6">
-        <h3 className="text-sm font-semibold text-zinc-500 mb-2">Filter by Label</h3>
+        <h3 className="text-sm font-semibold text-warm-gray mb-2">Filter by Label</h3>
         <div className="flex flex-wrap gap-2">
           {visibleLabels.map((label) => (
             <button
@@ -338,8 +338,8 @@ export function Albums() {
               }}
               className={`px-3 py-1.5 text-sm rounded-full border transition-all ${
                 selectedLabel?.toLowerCase() === label.toLowerCase()
-                  ? 'bg-cyan-500 border-cyan-500 text-black font-medium'
-                  : 'border-zinc-700 text-zinc-400 hover:border-zinc-500 hover:text-zinc-200'
+                  ? 'bg-teal border-teal text-white font-medium'
+                  : 'border-border text-warm-gray hover:border-charcoal hover:text-charcoal'
               }`}
             >
               {label}
@@ -348,7 +348,7 @@ export function Albums() {
           {labelsByFrequency.length > 12 && (
             <button
               onClick={() => setShowAllLabels((v) => !v)}
-              className="px-3 py-1.5 text-sm text-cyan-400 hover:text-cyan-300 transition-colors"
+              className="px-3 py-1.5 text-sm text-teal hover:text-teal/80 transition-colors"
             >
               {showAllLabels ? 'Show less' : `Show all (${labelsByFrequency.length})`}
             </button>
@@ -359,10 +359,10 @@ export function Albums() {
       {/* Active Filters */}
       {hasActiveFilters && (
         <div className="mb-6 flex items-center gap-3 flex-wrap">
-          <span className="text-sm text-zinc-500">Active filters:</span>
+          <span className="text-sm text-warm-gray">Active filters:</span>
           {searchQuery && (
-            <span className="px-2 py-1 text-xs rounded-full bg-zinc-700 text-zinc-300">
-              "{searchQuery}"
+            <span className="px-2 py-1 text-xs rounded-full bg-border-light text-charcoal">
+              &ldquo;{searchQuery}&rdquo;
             </span>
           )}
           {selectedEra && (
@@ -377,18 +377,18 @@ export function Albums() {
             </span>
           )}
           {selectedGenre && (
-            <span className="px-2 py-1 text-xs rounded-full bg-amber-500/20 text-amber-400">
+            <span className="px-2 py-1 text-xs rounded-full bg-coral/20 text-coral">
               {selectedGenre}
             </span>
           )}
           {selectedLabel && (
-            <span className="px-2 py-1 text-xs rounded-full bg-cyan-500/20 text-cyan-400">
+            <span className="px-2 py-1 text-xs rounded-full bg-teal/20 text-teal">
               {selectedLabel}
             </span>
           )}
           <button
             onClick={clearFilters}
-            className="text-sm text-zinc-500 hover:text-white underline"
+            className="text-sm text-warm-gray hover:text-charcoal underline"
           >
             Clear all
           </button>
@@ -397,9 +397,9 @@ export function Albums() {
 
       {/* Pagination Summary */}
       {filteredAlbums.length > 0 && (
-        <div className="mb-4 flex items-center justify-between text-sm text-zinc-500">
+        <div className="mb-4 flex items-center justify-between text-sm text-warm-gray">
           <span>
-            Showing {startIdx + 1}–{Math.min(endIdx, filteredAlbums.length)} of{' '}
+            Showing {startIdx + 1}\u2013{Math.min(endIdx, filteredAlbums.length)} of{' '}
             {filteredAlbums.length} albums
           </span>
           {totalPages > 1 && (
@@ -418,20 +418,20 @@ export function Albums() {
             <Link
               key={album.id}
               to={`/album/${album.id}`}
-              className="group p-6 rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-600 hover:shadow-xl hover:shadow-black/20 transition-all duration-300 hover:scale-[1.03]"
+              className="group p-6 rounded-xl bg-surface shadow-card hover:shadow-card-hover hover:-translate-y-1 transition-all duration-300"
             >
               <div className="mb-4 group-hover:scale-105 transition-transform duration-300">
                 <AlbumCover coverUrl={album.coverUrl} title={album.title} size="md" />
               </div>
 
-              <h2 className="text-lg font-bold text-white group-hover:text-amber-400 transition-colors">
+              <h2 className="text-lg font-bold text-charcoal font-heading group-hover:text-coral transition-colors">
                 {album.title}
               </h2>
 
-              <p className="text-zinc-400">{album.artist}</p>
+              <p className="text-warm-gray">{album.artist}</p>
 
               <div className="flex items-center justify-between mt-3">
-                <span className="text-zinc-500">{album.year}</span>
+                <span className="text-warm-gray">{album.year}</span>
                 {era && (
                   <span
                     className="px-2 py-0.5 text-xs rounded"
@@ -447,7 +447,7 @@ export function Albums() {
 
               <div className="flex flex-wrap gap-1 mt-2">
                 {album.genres.slice(0, 2).map((genre) => (
-                  <span key={genre} className="text-xs text-zinc-600">
+                  <span key={genre} className="text-xs text-warm-gray">
                     {genre}
                   </span>
                 ))}
@@ -460,10 +460,10 @@ export function Albums() {
       {/* Empty State */}
       {filteredAlbums.length === 0 && (
         <div className="text-center py-12">
-          <p className="text-zinc-500">No albums match your filters.</p>
+          <p className="text-warm-gray">No albums match your filters.</p>
           <button
             onClick={clearFilters}
-            className="mt-4 text-amber-400 hover:text-amber-300"
+            className="mt-4 text-coral hover:text-coral/80"
           >
             Clear filters
           </button>
@@ -481,4 +481,3 @@ export function Albums() {
     </div>
   );
 }
-

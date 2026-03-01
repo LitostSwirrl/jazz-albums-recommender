@@ -13,7 +13,7 @@
       "Blues roots"
     ],
     "keyArtists": ["louis-armstrong", "jelly-roll-morton", "king-oliver"],
-    "color": "#8B4513"
+    "color": "#8B6914"
   },
   {
     "id": "swing",
@@ -29,7 +29,7 @@
       "Call and response"
     ],
     "keyArtists": ["duke-ellington", "count-basie", "benny-goodman"],
-    "color": "#DAA520"
+    "color": "#D95B43"
   },
   {
     "id": "bebop",
@@ -45,7 +45,7 @@
       "Intellectualized approach"
     ],
     "keyArtists": ["charlie-parker", "dizzy-gillespie", "thelonious-monk"],
-    "color": "#4169E1"
+    "color": "#3B8686"
   },
   {
     "id": "cool-jazz",
@@ -61,7 +61,7 @@
       "West Coast sound"
     ],
     "keyArtists": ["miles-davis", "chet-baker", "dave-brubeck"],
-    "color": "#87CEEB"
+    "color": "#6B8E8E"
   },
   {
     "id": "hard-bop",
@@ -77,7 +77,7 @@
       "Accessible yet complex"
     ],
     "keyArtists": ["art-blakey", "horace-silver", "lee-morgan"],
-    "color": "#DC143C"
+    "color": "#B8383B"
   },
   {
     "id": "free-jazz",
@@ -93,7 +93,7 @@
       "Experimental sounds"
     ],
     "keyArtists": ["ornette-coleman", "john-coltrane", "cecil-taylor"],
-    "color": "#9932CC"
+    "color": "#7B4B94"
   },
   {
     "id": "fusion",
@@ -109,7 +109,7 @@
       "Studio experimentation"
     ],
     "keyArtists": ["herbie-hancock", "weather-report", "chick-corea"],
-    "color": "#FF6347"
+    "color": "#D97B3E"
   },
   {
     "id": "contemporary",
@@ -125,6 +125,6 @@
       "Global perspectives"
     ],
     "keyArtists": ["wynton-marsalis", "brad-mehldau", "robert-glasper"],
-    "color": "#2E8B57"
+    "color": "#2B6B5E"
   }
 ]

@@ -25,7 +25,7 @@ interface MiniNodeData {
 
 function MiniArtistNode({ data }: { data: MiniNodeData }) {
   const { artist, era, isCenter } = data;
-  const borderColor = era ? eraColors[era.id] || '#71717a' : '#71717a';
+  const borderColor = era ? eraColors[era.id] || '#4A4A5A' : '#4A4A5A';
 
   return (
     <>
@@ -33,7 +33,7 @@ function MiniArtistNode({ data }: { data: MiniNodeData }) {
       <Link
         to={`/artist/${artist.id}`}
         className={`block px-2 py-1 rounded text-center transition-all duration-200 hover:scale-105 ${
-          isCenter ? 'bg-zinc-800 border-2' : 'bg-zinc-900 border'
+          isCenter ? 'bg-white/10 border-2' : 'bg-navy border'
         }`}
         style={{ borderColor }}
       >
@@ -121,7 +121,7 @@ function MiniInfluenceNetworkInner({ artist, allArtists, eras }: MiniInfluenceNe
         source: inf.id,
         target: artist.id,
         type: 'smoothstep',
-        style: { stroke: '#f59e0b', strokeWidth: 2 },
+        style: { stroke: '#D95B43', strokeWidth: 2 },
         animated: false,
       })),
       ...influenced.map((inf) => ({
@@ -129,7 +129,7 @@ function MiniInfluenceNetworkInner({ artist, allArtists, eras }: MiniInfluenceNe
         source: artist.id,
         target: inf.id,
         type: 'smoothstep',
-        style: { stroke: '#f59e0b', strokeWidth: 2 },
+        style: { stroke: '#D95B43', strokeWidth: 2 },
         animated: false,
       })),
     ];
@@ -141,21 +141,21 @@ function MiniInfluenceNetworkInner({ artist, allArtists, eras }: MiniInfluenceNe
 
   if (!hasConnections) {
     return (
-      <div className="text-center text-zinc-500 py-8">
+      <div className="text-center text-warm-gray py-8">
         No documented influence connections for this artist.
       </div>
     );
   }
 
   return (
-    <div className="h-[250px] rounded-lg border border-zinc-800 overflow-hidden bg-zinc-950">
+    <div className="h-[250px] rounded-lg border border-border overflow-hidden bg-navy">
       <ReactFlow
         nodes={nodes}
         edges={edges}
         nodeTypes={nodeTypes}
         defaultEdgeOptions={{
           type: 'smoothstep',
-          style: { stroke: '#f59e0b', strokeWidth: 2 },
+          style: { stroke: '#D95B43', strokeWidth: 2 },
         }}
         fitView
         panOnDrag={false}
@@ -167,7 +167,7 @@ function MiniInfluenceNetworkInner({ artist, allArtists, eras }: MiniInfluenceNe
         elementsSelectable={false}
         preventScrolling={false}
       >
-        <Background color="#27272a" gap={20} />
+        <Background color="#2A2A40" gap={20} />
       </ReactFlow>
     </div>
   );

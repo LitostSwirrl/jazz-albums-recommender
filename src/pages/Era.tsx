@@ -23,9 +23,9 @@ export function Era() {
   if (!era) {
     return (
       <div className="max-w-6xl mx-auto px-4 py-12 text-center">
-        <h1 className="text-2xl font-bold text-red-400">Era not found</h1>
-        <Link to="/eras" className="text-amber-400 hover:underline mt-4 inline-block">
-          ← Back to Eras
+        <h1 className="text-2xl font-bold text-red-500">Era not found</h1>
+        <Link to="/eras" className="text-coral hover:underline mt-4 inline-block">
+          &larr; Back to Eras
         </Link>
       </div>
     );
@@ -59,36 +59,36 @@ export function Era() {
       />
       {/* Breadcrumb */}
       <div className="mb-6">
-        <Link to="/eras" className="text-zinc-500 hover:text-zinc-300">
+        <Link to="/eras" className="text-warm-gray hover:text-charcoal">
           Eras
         </Link>
-        <span className="text-zinc-600 mx-2">/</span>
-        <span className="text-zinc-300">{era.name}</span>
+        <span className="text-warm-gray mx-2">/</span>
+        <span className="text-charcoal">{era.name}</span>
       </div>
 
       {/* Header */}
       <header
         className="p-8 rounded-lg mb-8"
-        style={{ backgroundColor: era.color + '20', borderLeft: `4px solid ${era.color}` }}
+        style={{ backgroundColor: era.color + '15', borderLeft: `4px solid ${era.color}` }}
       >
-        <h1 className="text-4xl font-bold mb-2 font-display">{era.name}</h1>
-        <p className="text-xl text-zinc-400 font-mono">{era.period}</p>
+        <h1 className="text-4xl font-bold mb-2 font-display text-charcoal">{era.name}</h1>
+        <p className="text-xl text-warm-gray font-mono">{era.period}</p>
       </header>
 
       {/* Description */}
       <section className="mb-12">
-        <p className="text-lg text-zinc-300 leading-relaxed">{era.description}</p>
+        <p className="text-lg text-charcoal leading-relaxed">{era.description}</p>
       </section>
 
       {/* Characteristics */}
       <section className="mb-12">
-        <h2 className="text-2xl font-bold mb-4">Characteristics</h2>
+        <h2 className="text-2xl font-bold mb-4 font-heading text-charcoal">Characteristics</h2>
         <div className="flex flex-wrap gap-3">
           {era.characteristics.map((char) => (
             <span
               key={char}
               className="px-4 py-2 rounded-full text-sm"
-              style={{ backgroundColor: era.color + '30', color: era.color }}
+              style={{ backgroundColor: era.color + '20', color: era.color }}
             >
               {char}
             </span>
@@ -101,34 +101,34 @@ export function Era() {
 
       {/* Key Artists */}
       <section className="mb-12">
-        <h2 className="text-2xl font-bold mb-6">Key Artists</h2>
+        <h2 className="text-2xl font-bold mb-6 font-heading text-charcoal">Key Artists</h2>
         {eraArtists.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {eraArtists.map((artist) => (
               <Link
                 key={artist.id}
                 to={`/artist/${artist.id}`}
-                className="p-4 rounded-lg bg-zinc-900 border border-zinc-800 hover:border-zinc-600 transition-all group"
+                className="p-4 rounded-lg bg-surface shadow-card hover:shadow-card-hover transition-all group"
               >
-                <h3 className="font-semibold text-white group-hover:text-amber-400 transition-colors">
+                <h3 className="font-semibold text-charcoal font-heading group-hover:text-coral transition-colors">
                   {artist.name}
                 </h3>
-                <p className="text-sm text-zinc-500">
+                <p className="text-sm text-warm-gray">
                   {artist.instruments.join(', ')}
                 </p>
               </Link>
             ))}
           </div>
         ) : (
-          <p className="text-zinc-500">No artists listed yet for this era.</p>
+          <p className="text-warm-gray">No artists listed yet for this era.</p>
         )}
       </section>
 
       {/* Albums from this Era */}
       <section id="essential-albums">
-        <h2 className="text-2xl font-bold mb-6">
+        <h2 className="text-2xl font-bold mb-6 font-heading text-charcoal">
           Essential Albums
-          <span className="text-base font-normal text-zinc-500 ml-3">
+          <span className="text-base font-normal text-warm-gray ml-3">
             {eraAlbums.length} albums
           </span>
         </h2>
@@ -139,16 +139,16 @@ export function Era() {
                 <Link
                   key={album.id}
                   to={`/album/${album.id}`}
-                  className="p-4 rounded-lg bg-zinc-900 border border-zinc-800 hover:border-zinc-600 transition-all group"
+                  className="p-4 rounded-lg bg-surface shadow-card hover:shadow-card-hover transition-all group"
                 >
                   <div className="mb-3 group-hover:scale-105 transition-transform">
                     <AlbumCover coverUrl={album.coverUrl} title={album.title} size="sm" />
                   </div>
-                  <h3 className="font-semibold text-white group-hover:text-amber-400 transition-colors">
+                  <h3 className="font-semibold text-charcoal font-heading group-hover:text-coral transition-colors">
                     {album.title}
                   </h3>
-                  <p className="text-zinc-400">{album.artist}</p>
-                  <p className="text-sm text-zinc-500">{album.year}</p>
+                  <p className="text-warm-gray">{album.artist}</p>
+                  <p className="text-sm text-warm-gray">{album.year}</p>
                 </Link>
               ))}
             </div>
@@ -162,7 +162,7 @@ export function Era() {
             />
           </>
         ) : (
-          <p className="text-zinc-500">No albums listed yet for this era.</p>
+          <p className="text-warm-gray">No albums listed yet for this era.</p>
         )}
       </section>
     </div>
@@ -183,12 +183,12 @@ function EraHistoricalContext({ eraId }: { eraId: EraId }) {
   return (
     <section className="mb-12">
       <div className="flex items-center justify-between mb-6">
-        <h2 className="text-2xl font-bold">Historical Context</h2>
+        <h2 className="text-2xl font-bold font-heading text-charcoal">Historical Context</h2>
         <Link
           to="/context"
-          className="text-amber-400 hover:text-amber-300 text-sm"
+          className="text-coral hover:text-coral/80 text-sm"
         >
-          Full Timeline →
+          Full Timeline &rarr;
         </Link>
       </div>
       <div className="space-y-4">
@@ -199,9 +199,9 @@ function EraHistoricalContext({ eraId }: { eraId: EraId }) {
       {remaining > 0 && !expanded && (
         <button
           onClick={() => setExpanded(true)}
-          className="mt-4 text-sm text-amber-400 hover:text-amber-300 transition-colors"
+          className="mt-4 text-sm text-coral hover:text-coral/80 transition-colors"
         >
-          Show {remaining} more event{remaining > 1 ? 's' : ''} →
+          Show {remaining} more event{remaining > 1 ? 's' : ''} &rarr;
         </button>
       )}
     </section>

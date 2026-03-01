@@ -42,7 +42,7 @@ export function Pagination({ currentPage, totalPages, onPageChange }: Pagination
         onClick={() => onPageChange(currentPage - 1)}
         disabled={currentPage <= 1}
         aria-label="Previous page"
-        className="px-3 py-2 rounded-lg border border-zinc-700 text-zinc-400 hover:border-zinc-500 hover:text-white disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+        className="px-3 py-2 rounded-lg border border-border text-warm-gray hover:border-coral hover:text-coral disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
       >
         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -51,7 +51,7 @@ export function Pagination({ currentPage, totalPages, onPageChange }: Pagination
 
       {getPageNumbers().map((page, i) =>
         page === 'ellipsis' ? (
-          <span key={`ellipsis-${i}`} className="px-2 text-zinc-600">
+          <span key={`ellipsis-${i}`} className="px-2 text-warm-gray">
             ...
           </span>
         ) : (
@@ -59,10 +59,10 @@ export function Pagination({ currentPage, totalPages, onPageChange }: Pagination
             key={page}
             onClick={() => onPageChange(page)}
             aria-current={page === currentPage ? 'page' : undefined}
-            className={`px-3.5 py-2 rounded-lg text-sm font-medium transition-colors ${
+            className={`px-3.5 py-2 rounded-lg text-sm font-medium font-mono transition-colors ${
               page === currentPage
-                ? 'bg-amber-500 text-black'
-                : 'border border-zinc-700 text-zinc-400 hover:border-zinc-500 hover:text-white'
+                ? 'bg-coral text-white'
+                : 'border border-border text-warm-gray hover:border-coral hover:text-coral'
             }`}
           >
             {page}
@@ -74,7 +74,7 @@ export function Pagination({ currentPage, totalPages, onPageChange }: Pagination
         onClick={() => onPageChange(currentPage + 1)}
         disabled={currentPage >= totalPages}
         aria-label="Next page"
-        className="px-3 py-2 rounded-lg border border-zinc-700 text-zinc-400 hover:border-zinc-500 hover:text-white disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+        className="px-3 py-2 rounded-lg border border-border text-warm-gray hover:border-coral hover:text-coral disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
       >
         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

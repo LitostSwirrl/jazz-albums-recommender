@@ -30,7 +30,7 @@ function SourceBadge({ source }: { source: ArtistConnection['sources'][number] }
         href={source.url}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-xs bg-zinc-800 text-zinc-400 hover:text-amber-400 transition-colors"
+        className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-xs bg-cream text-warm-gray hover:text-coral transition-colors"
       >
         {label}
         <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -41,7 +41,7 @@ function SourceBadge({ source }: { source: ArtistConnection['sources'][number] }
   }
 
   return (
-    <span className="inline-flex items-center px-2 py-0.5 rounded text-xs bg-zinc-800 text-zinc-500">
+    <span className="inline-flex items-center px-2 py-0.5 rounded text-xs bg-cream text-warm-gray">
       {label}
       {source.title && `: ${source.title}`}
     </span>
@@ -53,11 +53,11 @@ function ConnectionCard({ artist, connection }: { artist: ArtistType; connection
   const hasDetails = connection && (connection.explanation || connection.sources.length > 0);
 
   return (
-    <div className="rounded bg-zinc-900 border border-zinc-800 hover:border-zinc-600 transition-all">
+    <div className="rounded-lg bg-surface border border-border hover:border-coral/50 transition-all">
       <div className="flex items-center justify-between p-3">
         <Link to={`/artist/${artist.id}`} className="flex-1 min-w-0">
-          <span className="text-white hover:text-amber-400">{artist.name}</span>
-          <span className="text-xs text-zinc-500 ml-2">{artist.instruments.slice(0, 2).join(', ')}</span>
+          <span className="text-charcoal hover:text-coral transition-colors">{artist.name}</span>
+          <span className="text-xs text-warm-gray ml-2">{artist.instruments.slice(0, 2).join(', ')}</span>
         </Link>
         <div className="flex items-center gap-2 ml-2 flex-shrink-0">
           {connection?.verified && (
@@ -70,7 +70,7 @@ function ConnectionCard({ artist, connection }: { artist: ArtistType; connection
           {hasDetails && (
             <button
               onClick={() => setExpanded(!expanded)}
-              className="text-zinc-500 hover:text-zinc-300 transition-colors"
+              className="text-warm-gray hover:text-charcoal transition-colors"
               title={expanded ? 'Hide details' : 'Show connection details'}
             >
               <svg className={`w-4 h-4 transition-transform ${expanded ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -81,9 +81,9 @@ function ConnectionCard({ artist, connection }: { artist: ArtistType; connection
         </div>
       </div>
       {expanded && connection && (
-        <div className="px-3 pb-3 border-t border-zinc-800">
+        <div className="px-3 pb-3 border-t border-border">
           {connection.explanation && (
-            <p className="text-sm text-zinc-400 mt-2 leading-relaxed italic">
+            <p className="text-sm text-warm-gray mt-2 leading-relaxed italic">
               &ldquo;{connection.explanation}&rdquo;
             </p>
           )}
@@ -107,9 +107,9 @@ export function Artist() {
   if (!artist) {
     return (
       <div className="max-w-6xl mx-auto px-4 py-12 text-center">
-        <h1 className="text-2xl font-bold text-red-400">Artist not found</h1>
-        <Link to="/artists" className="text-amber-400 hover:underline mt-4 inline-block">
-          ← Back to Artists
+        <h1 className="text-2xl font-bold text-coral">Artist not found</h1>
+        <Link to="/artists" className="text-coral hover:text-coral/80 mt-4 inline-block">
+          &larr; Back to Artists
         </Link>
       </div>
     );
@@ -130,26 +130,27 @@ export function Artist() {
       />
       {/* Breadcrumb */}
       <div className="mb-6">
-        <Link to="/artists" className="text-zinc-500 hover:text-zinc-300">
+        <Link to="/artists" className="text-warm-gray hover:text-coral transition-colors">
           Artists
         </Link>
-        <span className="text-zinc-600 mx-2">/</span>
-        <span className="text-zinc-300">{artist.name}</span>
+        <span className="text-border mx-2">/</span>
+        <span className="text-charcoal">{artist.name}</span>
       </div>
 
       {/* Header */}
       <header className="flex flex-col md:flex-row gap-8 mb-12">
-        <ArtistPhoto
-          imageUrl={artist.imageUrl}
-          name={artist.name}
-          size="xl"
-          priority
-          className="flex-shrink-0"
-        />
+        <div className="flex-shrink-0 shadow-elevated border-4 border-border rounded-lg overflow-hidden">
+          <ArtistPhoto
+            imageUrl={artist.imageUrl}
+            name={artist.name}
+            size="xl"
+            priority
+          />
+        </div>
         <div>
-          <h1 className="text-4xl font-bold mb-2 font-display">{artist.name}</h1>
-          <p className="text-xl text-zinc-400 mb-4">
-            {artist.birthYear}–{artist.deathYear || 'present'} · {artist.instruments.join(', ')}
+          <h1 className="text-4xl md:text-5xl font-display text-charcoal mb-2">{artist.name}</h1>
+          <p className="text-xl text-warm-gray mb-4 font-mono">
+            {artist.birthYear}&ndash;{artist.deathYear || 'present'} &middot; {artist.instruments.join(', ')}
           </p>
           <div className="flex flex-wrap gap-2">
             {artistEras.map((era) => (
@@ -157,7 +158,7 @@ export function Artist() {
                 key={era.id}
                 to={`/era/${era.id}`}
                 className="px-3 py-1 rounded-full text-sm hover:opacity-80 transition-opacity"
-                style={{ backgroundColor: era.color + '30', color: era.color }}
+                style={{ backgroundColor: era.color + '20', color: era.color }}
               >
                 {era.name}
               </Link>
@@ -168,16 +169,18 @@ export function Artist() {
 
       {/* Biography */}
       <section className="mb-12">
-        <h2 className="text-2xl font-bold mb-4">Biography</h2>
-        <p className="text-lg text-zinc-300 leading-relaxed">{artist.bio}</p>
+        <h2 className="text-2xl font-heading text-charcoal mb-4">Biography</h2>
+        <p className="text-lg text-charcoal/80 leading-relaxed [&::first-letter]:text-5xl [&::first-letter]:font-display [&::first-letter]:text-coral [&::first-letter]:float-left [&::first-letter]:mr-3 [&::first-letter]:mt-1 [&::first-letter]:leading-none">
+          {artist.bio}
+        </p>
         {artist.wikipedia && (
           <a
             href={artist.wikipedia}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block mt-4 text-amber-400 hover:text-amber-300"
+            className="inline-block mt-4 text-coral hover:text-coral/80 transition-colors"
           >
-            Read more on Wikipedia →
+            Read more on Wikipedia &rarr;
           </a>
         )}
       </section>
@@ -185,10 +188,10 @@ export function Artist() {
       {/* Influence Network Visual */}
       <section className="mb-12">
         <div className="flex items-center justify-between mb-4">
-          <h2 className="text-2xl font-bold">Influence Network</h2>
+          <h2 className="text-2xl font-heading text-charcoal">Influence Network</h2>
           <Link
             to="/influence"
-            className="text-amber-400 hover:text-amber-300 text-sm flex items-center gap-1"
+            className="text-coral hover:text-coral/80 text-sm flex items-center gap-1 transition-colors"
           >
             Explore full network
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -196,9 +199,9 @@ export function Artist() {
             </svg>
           </Link>
         </div>
-        <p className="text-zinc-500 text-sm mb-4">
+        <p className="text-warm-gray text-sm mb-4">
           {influencedByArtists.length > 0 && `Influenced by ${influencedByArtists.length} artist${influencedByArtists.length > 1 ? 's' : ''}`}
-          {influencedByArtists.length > 0 && influencedArtists.length > 0 && ' · '}
+          {influencedByArtists.length > 0 && influencedArtists.length > 0 && ' \u00b7 '}
           {influencedArtists.length > 0 && `Influenced ${influencedArtists.length} artist${influencedArtists.length > 1 ? 's' : ''}`}
         </p>
         <MiniInfluenceNetwork artist={artist} allArtists={artists} eras={eras} />
@@ -209,7 +212,7 @@ export function Artist() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Influenced By */}
           <div>
-            <h3 className="text-lg font-semibold text-zinc-400 mb-4">Influenced by</h3>
+            <h3 className="text-lg font-heading text-warm-gray mb-4">Influenced by</h3>
             {influencedByArtists.length > 0 ? (
               <div className="space-y-2">
                 {influencedByArtists.map((a) => (
@@ -221,13 +224,13 @@ export function Artist() {
                 ))}
               </div>
             ) : (
-              <p className="text-zinc-600">No documented influences</p>
+              <p className="text-warm-gray/60">No documented influences</p>
             )}
           </div>
 
           {/* Influenced */}
           <div>
-            <h3 className="text-lg font-semibold text-zinc-400 mb-4">Influenced</h3>
+            <h3 className="text-lg font-heading text-warm-gray mb-4">Influenced</h3>
             {influencedArtists.length > 0 ? (
               <div className="space-y-2">
                 {influencedArtists.map((a) => (
@@ -239,7 +242,7 @@ export function Artist() {
                 ))}
               </div>
             ) : (
-              <p className="text-zinc-600">No documented influence</p>
+              <p className="text-warm-gray/60">No documented influence</p>
             )}
           </div>
         </div>
@@ -247,27 +250,27 @@ export function Artist() {
 
       {/* Discography */}
       <section>
-        <h2 className="text-2xl font-bold mb-6">Key Albums</h2>
+        <h2 className="text-2xl font-heading text-charcoal mb-6">Key Albums</h2>
         {artistAlbums.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {artistAlbums.map((album) => (
               <Link
                 key={album.id}
                 to={`/album/${album.id}`}
-                className="group p-4 rounded-lg bg-zinc-900 border border-zinc-800 hover:border-zinc-600 transition-all"
+                className="group p-4 rounded-lg bg-surface border border-border shadow-card hover:shadow-card-hover transition-all"
               >
-                <div className="mb-3 w-full">
+                <div className="mb-3 w-full rounded-sm overflow-hidden">
                   <AlbumCover coverUrl={album.coverUrl} title={album.title} size="sm" />
                 </div>
-                <h3 className="font-semibold text-white group-hover:text-amber-400 transition-colors">
+                <h3 className="font-semibold text-charcoal group-hover:text-coral transition-colors">
                   {album.title}
                 </h3>
-                <p className="text-sm text-zinc-500">{album.year} · {album.label}</p>
+                <p className="text-sm text-warm-gray font-mono">{album.year} &middot; {album.label}</p>
               </Link>
             ))}
           </div>
         ) : (
-          <p className="text-zinc-500">No albums listed yet.</p>
+          <p className="text-warm-gray">No albums listed yet.</p>
         )}
       </section>
     </div>

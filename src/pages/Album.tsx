@@ -19,9 +19,9 @@ export function Album() {
   if (!album) {
     return (
       <div className="max-w-6xl mx-auto px-4 py-12 text-center">
-        <h1 className="text-2xl font-bold text-red-400">Album not found</h1>
-        <Link to="/albums" className="text-amber-400 hover:underline mt-4 inline-block">
-          ← Back to Albums
+        <h1 className="text-2xl font-bold text-coral">Album not found</h1>
+        <Link to="/albums" className="text-coral hover:text-coral/80 mt-4 inline-block">
+          &larr; Back to Albums
         </Link>
       </div>
     );
@@ -39,38 +39,40 @@ export function Album() {
       />
       {/* Breadcrumb */}
       <div className="mb-6">
-        <Link to="/albums" className="text-zinc-500 hover:text-zinc-300">
+        <Link to="/albums" className="text-warm-gray hover:text-coral transition-colors">
           Albums
         </Link>
-        <span className="text-zinc-600 mx-2">/</span>
-        <span className="text-zinc-300">{album.title}</span>
+        <span className="text-border mx-2">/</span>
+        <span className="text-charcoal">{album.title}</span>
       </div>
 
       {/* Header */}
       <header className="flex flex-col md:flex-row gap-8 mb-12">
-        <div className="flex-shrink-0">
+        <div className="flex-shrink-0 rounded-sm overflow-hidden shadow-elevated">
           <AlbumCover coverUrl={album.coverUrl} title={album.title} size="lg" priority />
         </div>
         <div className="flex-1">
-          <h1 className="text-4xl font-bold mb-2 font-display">{album.title}</h1>
+          <h1 className="text-4xl md:text-5xl font-display text-charcoal uppercase tracking-wide mb-2">
+            {album.title}
+          </h1>
           <Link
             to={`/artist/${album.artistId}`}
-            className="text-2xl text-amber-400 hover:text-amber-300 transition-colors"
+            className="text-2xl text-coral font-heading hover:text-coral/80 transition-colors"
           >
             {album.artist}
           </Link>
 
-          <div className="flex flex-wrap items-center gap-4 mt-4 text-zinc-400">
+          <div className="flex flex-wrap items-center gap-4 mt-4 font-mono text-warm-gray">
             <Link
               to={`/albums?year=${album.year}`}
-              className="hover:text-amber-400 transition-colors"
+              className="hover:text-coral transition-colors"
             >
               {album.year}
             </Link>
-            <span>·</span>
+            <span>&middot;</span>
             <Link
               to={`/albums?label=${encodeURIComponent(album.label)}`}
-              className="hover:text-amber-400 transition-colors"
+              className="hover:text-coral transition-colors"
             >
               {album.label}
             </Link>
@@ -81,7 +83,7 @@ export function Album() {
               <Link
                 key={genre}
                 to={`/albums?genre=${encodeURIComponent(genre)}`}
-                className="px-3 py-1 rounded-full text-sm bg-zinc-800 text-zinc-300 hover:bg-amber-500/20 hover:text-amber-400 transition-colors"
+                className="px-3 py-1 rounded-full text-sm bg-cream border border-border text-charcoal hover:bg-coral/10 hover:text-coral hover:border-coral transition-colors"
               >
                 {genre}
               </Link>
@@ -92,19 +94,19 @@ export function Album() {
 
       {/* Description */}
       <section className="mb-12">
-        <h2 className="text-2xl font-bold mb-4">About This Album</h2>
-        <p className="text-lg text-zinc-300 leading-relaxed mb-6">{album.description}</p>
+        <h2 className="text-2xl font-heading text-charcoal mb-4">About This Album</h2>
+        <p className="text-lg text-charcoal/80 leading-relaxed mb-6">{album.description}</p>
 
-        <h3 className="text-xl font-semibold mb-3 text-amber-400">Why It Matters</h3>
-        <p className="text-zinc-300 leading-relaxed">{album.significance}</p>
+        <h3 className="text-xl font-heading text-coral mb-3">Why It Matters</h3>
+        <p className="text-charcoal/80 leading-relaxed">{album.significance}</p>
         {album.wikipedia && (
           <a
             href={album.wikipedia}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block mt-4 text-amber-400 hover:text-amber-300"
+            className="inline-block mt-4 text-coral hover:text-coral/80 transition-colors"
           >
-            Read more on Wikipedia →
+            Read more on Wikipedia &rarr;
           </a>
         )}
       </section>
@@ -115,22 +117,22 @@ export function Album() {
       {/* Critics Reviews */}
       {album.reviews && album.reviews.length > 0 && (
         <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-4">What Critics Said</h2>
+          <h2 className="text-2xl font-heading text-charcoal mb-4">What Critics Said</h2>
           <div className="space-y-4">
             {album.reviews.map((review, index) => (
               <blockquote
                 key={index}
-                className="p-4 rounded-lg bg-zinc-900 border-l-4 border-amber-500"
+                className="p-5 rounded-lg bg-surface border-l-4 border-coral shadow-card"
               >
-                <p className="text-zinc-300 italic mb-2">"{review.quote}"</p>
-                <footer className="text-sm text-zinc-500">
-                  — {review.author && `${review.author}, `}
+                <p className="text-charcoal font-heading italic mb-2">&ldquo;{review.quote}&rdquo;</p>
+                <footer className="text-sm text-warm-gray">
+                  &mdash; {review.author && `${review.author}, `}
                   {review.url ? (
                     <a
                       href={review.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-amber-400 hover:underline"
+                      className="text-coral hover:underline"
                     >
                       {review.source}
                     </a>
@@ -138,7 +140,7 @@ export function Album() {
                     <span>{review.source}</span>
                   )}
                   {review.rating && (
-                    <span className="ml-2 text-amber-400">({review.rating}/5)</span>
+                    <span className="ml-2 text-coral">({review.rating}/5)</span>
                   )}
                 </footer>
               </blockquote>
@@ -149,17 +151,17 @@ export function Album() {
 
       {/* Key Tracks */}
       <section className="mb-12">
-        <h2 className="text-2xl font-bold mb-4">Key Tracks</h2>
+        <h2 className="text-2xl font-heading text-charcoal mb-4">Key Tracks</h2>
         <ul className="space-y-2">
           {album.keyTracks.map((track, index) => (
             <li
               key={track}
-              className="flex items-center gap-4 p-3 rounded bg-zinc-900 border border-zinc-800"
+              className="flex items-center gap-4 p-3 rounded-lg bg-surface border border-border"
             >
-              <span className="w-8 h-8 flex items-center justify-center rounded-full bg-zinc-800 text-zinc-400 text-sm">
+              <span className="w-8 h-8 flex items-center justify-center rounded-full border-2 border-coral text-coral text-sm font-mono">
                 {index + 1}
               </span>
-              <span className="text-white">{track}</span>
+              <span className="text-charcoal">{track}</span>
             </li>
           ))}
         </ul>
@@ -168,14 +170,14 @@ export function Album() {
       {/* Listen */}
       {(album.spotifyUrl || album.appleMusicUrl || album.youtubeMusicUrl || album.youtubeUrl) && (
         <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-4">Listen</h2>
+          <h2 className="text-2xl font-heading text-charcoal mb-4">Listen</h2>
           <div className="flex flex-wrap gap-3">
             {album.spotifyUrl && (
               <a
                 href={album.spotifyUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#1DB954] text-black font-medium hover:bg-[#1ed760] transition-colors"
+                className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#1DB954] text-white font-medium hover:bg-[#1ed760] transition-colors"
               >
                 <SpotifyIcon className="w-5 h-5" />
                 Spotify
@@ -208,7 +210,7 @@ export function Album() {
                 href={album.youtubeUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-zinc-700 text-white font-medium hover:bg-zinc-600 transition-colors"
+                className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-charcoal/80 text-white font-medium hover:bg-charcoal transition-colors"
               >
                 <YouTubeIcon className="w-5 h-5" />
                 YouTube
@@ -220,8 +222,8 @@ export function Album() {
 
       {/* Artist info */}
       {artist && (
-        <section className="mb-12 p-6 rounded-lg bg-zinc-900 border border-zinc-800">
-          <h2 className="text-xl font-bold mb-4">About the Artist</h2>
+        <section className="mb-12 p-6 rounded-lg bg-surface border border-border shadow-card">
+          <h2 className="text-xl font-heading text-charcoal mb-4">About the Artist</h2>
           <Link
             to={`/artist/${artist.id}`}
             className="flex items-center gap-4 group"
@@ -232,10 +234,10 @@ export function Album() {
               size="lg"
             />
             <div>
-              <h3 className="text-lg font-semibold text-white group-hover:text-amber-400 transition-colors">
+              <h3 className="text-lg font-semibold text-charcoal group-hover:text-coral transition-colors">
                 {artist.name}
               </h3>
-              <p className="text-zinc-500">{artist.instruments.join(', ')}</p>
+              <p className="text-warm-gray">{artist.instruments.join(', ')}</p>
             </div>
           </Link>
         </section>
@@ -243,7 +245,7 @@ export function Album() {
 
       {/* Related Albums */}
       <section>
-        <h2 className="text-2xl font-bold mb-6">Discover More</h2>
+        <h2 className="text-2xl font-heading text-charcoal mb-6">Discover More</h2>
         <RelatedAlbums currentAlbum={album} allAlbums={albums} allArtists={artists} />
       </section>
     </div>
@@ -257,7 +259,7 @@ function AlbumHistoricalContext({ albumId }: { albumId: string }) {
 
   return (
     <section className="mb-12">
-      <h2 className="text-2xl font-bold mb-4">The World Around This Album</h2>
+      <h2 className="text-2xl font-heading text-charcoal mb-4">The World Around This Album</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {events.map((event) => (
           <HistoricalEventCard key={event.id} event={event} compact />

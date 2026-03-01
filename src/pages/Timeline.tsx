@@ -11,14 +11,14 @@ const albums = albumsData as Album[];
 const artists = artistsData as Artist[];
 
 const eraColors: Record<string, string> = {
-  'early-jazz': '#f59e0b',
-  'swing': '#eab308',
-  'bebop': '#84cc16',
-  'cool-jazz': '#22d3ee',
-  'hard-bop': '#3b82f6',
-  'free-jazz': '#a855f7',
-  'fusion': '#ec4899',
-  'contemporary': '#f43f5e',
+  'early-jazz': '#8B6914',
+  'swing': '#D95B43',
+  'bebop': '#3B8686',
+  'cool-jazz': '#6B8E8E',
+  'hard-bop': '#B8383B',
+  'free-jazz': '#7B4B94',
+  'fusion': '#D97B3E',
+  'contemporary': '#2B6B5E',
 };
 
 function getEraStats(eraId: EraId) {
@@ -47,8 +47,8 @@ export function Timeline() {
         description="Explore a century of jazz evolution from New Orleans to the present day. Discover how each era built on what came before while pushing music into new territory."
       />
       <div className="mb-12 text-center">
-        <h1 className="text-4xl font-bold mb-4 font-display">Jazz Through Time</h1>
-        <p className="text-xl text-zinc-400 max-w-2xl mx-auto">
+        <h1 className="text-4xl font-bold mb-4 font-display text-charcoal">Jazz Through Time</h1>
+        <p className="text-xl text-warm-gray max-w-2xl mx-auto">
           From New Orleans to the present day, explore a century of jazz evolution.
           Each era built on what came before while pushing music into new territory.
         </p>
@@ -57,7 +57,7 @@ export function Timeline() {
       {/* Visual Timeline */}
       <div className="relative">
         {/* Center line */}
-        <div className="absolute left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-amber-500 via-purple-500 to-rose-500 transform -translate-x-1/2 hidden md:block" />
+        <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-charcoal transform -translate-x-1/2 hidden md:block" />
 
         {eras.map((era, index) => {
           const stats = getEraStats(era.id);
@@ -76,12 +76,12 @@ export function Timeline() {
               {/* Timeline dot */}
               <div
                 className="hidden md:block absolute left-1/2 top-8 w-6 h-6 rounded-full border-4 transform -translate-x-1/2 z-10"
-                style={{ backgroundColor: color, borderColor: '#18181b' }}
+                style={{ backgroundColor: color, borderColor: '#FAF7F0' }}
               />
 
               {/* Era card */}
               <div
-                className="p-6 rounded-xl border-2 bg-zinc-900/80 backdrop-blur transition-all hover:scale-[1.02]"
+                className="p-6 rounded-xl border-2 bg-surface shadow-card transition-all hover:shadow-card-hover hover:scale-[1.02]"
                 style={{ borderColor: color }}
               >
                 {/* Header */}
@@ -89,12 +89,12 @@ export function Timeline() {
                   <div>
                     <Link
                       to={`/era/${era.id}`}
-                      className="text-2xl font-bold hover:underline"
+                      className="text-2xl font-bold font-heading hover:underline"
                       style={{ color }}
                     >
                       {era.name}
                     </Link>
-                    <div className="text-zinc-500 font-mono text-sm mt-1">
+                    <div className="text-warm-gray font-mono text-sm mt-1">
                       {era.period}
                     </div>
                   </div>
@@ -102,12 +102,12 @@ export function Timeline() {
                     <div className="text-2xl font-bold" style={{ color }}>
                       {stats.albumCount}
                     </div>
-                    <div className="text-xs text-zinc-500">albums</div>
+                    <div className="text-xs text-warm-gray">albums</div>
                   </div>
                 </div>
 
                 {/* Description */}
-                <p className="text-zinc-300 mb-4 leading-relaxed">
+                <p className="text-charcoal mb-4 leading-relaxed">
                   {era.description}
                 </p>
 
@@ -126,7 +126,7 @@ export function Timeline() {
 
                 {/* Key Artists */}
                 <div className="mb-4">
-                  <h4 className="text-sm font-semibold text-zinc-400 mb-2">
+                  <h4 className="text-sm font-semibold text-warm-gray mb-2">
                     Key Artists
                   </h4>
                   <div className="flex flex-wrap gap-2">
@@ -134,7 +134,7 @@ export function Timeline() {
                       <Link
                         key={artist.id}
                         to={`/artist/${artist.id}`}
-                        className="px-3 py-1 text-sm rounded-full bg-zinc-800 text-zinc-300 hover:bg-zinc-700 transition-colors"
+                        className="px-3 py-1 text-sm rounded-full bg-cream border border-border text-charcoal hover:text-coral transition-colors"
                       >
                         {artist.name}
                       </Link>
@@ -144,7 +144,7 @@ export function Timeline() {
 
                 {/* Key Albums */}
                 <div>
-                  <h4 className="text-sm font-semibold text-zinc-400 mb-2">
+                  <h4 className="text-sm font-semibold text-warm-gray mb-2">
                     Essential Albums
                   </h4>
                   <div className="space-y-2">
@@ -152,17 +152,17 @@ export function Timeline() {
                       <Link
                         key={album.id}
                         to={`/album/${album.id}`}
-                        className="flex items-center gap-3 p-2 rounded-lg bg-zinc-800/50 hover:bg-zinc-800 transition-colors group"
+                        className="flex items-center gap-3 p-2 rounded-lg bg-cream hover:bg-border-light transition-colors group"
                       >
                         <div className="w-10 h-10 flex-shrink-0">
                           <AlbumCover coverUrl={album.coverUrl} title={album.title} size="sm" pixelWidth={200} priority />
                         </div>
                         <div className="flex-1 min-w-0">
-                          <div className="text-sm font-medium text-white group-hover:text-amber-400 truncate transition-colors">
+                          <div className="text-sm font-medium text-charcoal group-hover:text-coral truncate transition-colors">
                             {album.title}
                           </div>
-                          <div className="text-xs text-zinc-500 truncate">
-                            {album.artist} · {album.year}
+                          <div className="text-xs text-warm-gray truncate">
+                            {album.artist} &middot; {album.year}
                           </div>
                         </div>
                       </Link>
@@ -176,7 +176,7 @@ export function Timeline() {
                   className="inline-flex items-center gap-1 mt-4 text-sm font-medium hover:underline"
                   style={{ color }}
                 >
-                  Explore {era.name} →
+                  Explore {era.name} &rarr;
                 </Link>
               </div>
             </div>
@@ -185,30 +185,30 @@ export function Timeline() {
       </div>
 
       {/* Era Connections */}
-      <div className="mt-16 p-8 rounded-xl bg-zinc-900 border border-zinc-800">
-        <h2 className="text-2xl font-bold mb-6 text-center">How Eras Connect</h2>
+      <div className="mt-16 p-8 rounded-xl bg-surface border border-border shadow-card">
+        <h2 className="text-2xl font-bold mb-6 text-center font-heading text-charcoal">How Eras Connect</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-          <div className="p-4 rounded-lg bg-zinc-800/50">
-            <div className="text-amber-400 font-semibold mb-2">Early Jazz → Swing</div>
-            <p className="text-sm text-zinc-400">
+          <div className="p-4 rounded-lg bg-cream border border-border-light">
+            <div className="text-coral font-semibold mb-2">Early Jazz &rarr; Swing</div>
+            <p className="text-sm text-warm-gray">
               New Orleans pioneers created the vocabulary; big bands scaled it up for dance halls.
             </p>
           </div>
-          <div className="p-4 rounded-lg bg-zinc-800/50">
-            <div className="text-green-400 font-semibold mb-2">Swing → Bebop</div>
-            <p className="text-sm text-zinc-400">
+          <div className="p-4 rounded-lg bg-cream border border-border-light">
+            <div className="text-teal font-semibold mb-2">Swing &rarr; Bebop</div>
+            <p className="text-sm text-warm-gray">
               Young rebels turned dance music into art music, emphasizing virtuosity and complexity.
             </p>
           </div>
-          <div className="p-4 rounded-lg bg-zinc-800/50">
-            <div className="text-cyan-400 font-semibold mb-2">Bebop → Cool/Hard Bop</div>
-            <p className="text-sm text-zinc-400">
+          <div className="p-4 rounded-lg bg-cream border border-border-light">
+            <div className="text-teal font-semibold mb-2">Bebop &rarr; Cool/Hard Bop</div>
+            <p className="text-sm text-warm-gray">
               Two paths diverged: West Coast cool sophistication vs. East Coast blues-drenched intensity.
             </p>
           </div>
-          <div className="p-4 rounded-lg bg-zinc-800/50">
-            <div className="text-purple-400 font-semibold mb-2">Hard Bop → Free Jazz</div>
-            <p className="text-sm text-zinc-400">
+          <div className="p-4 rounded-lg bg-cream border border-border-light">
+            <div className="text-coral font-semibold mb-2">Hard Bop &rarr; Free Jazz</div>
+            <p className="text-sm text-warm-gray">
               The ultimate rebellion: abandoning chord changes entirely for pure expression.
             </p>
           </div>
@@ -219,19 +219,19 @@ export function Timeline() {
       <div className="mt-12 flex flex-wrap justify-center gap-4">
         <Link
           to="/context"
-          className="px-6 py-3 rounded-xl bg-amber-500 text-black font-semibold hover:bg-amber-400 transition-colors"
+          className="px-6 py-3 rounded-xl bg-coral text-white font-semibold hover:bg-coral/90 transition-colors"
         >
-          Jazz & Society →
+          Jazz & Society &rarr;
         </Link>
         <Link
           to="/influence"
-          className="px-6 py-3 rounded-xl border border-zinc-700 text-zinc-300 hover:border-zinc-500 transition-colors"
+          className="px-6 py-3 rounded-xl border border-border text-charcoal hover:border-charcoal transition-colors"
         >
-          Influence Network →
+          Influence Network &rarr;
         </Link>
         <Link
           to="/albums"
-          className="px-6 py-3 rounded-xl border border-zinc-700 text-zinc-300 hover:border-zinc-500 transition-colors"
+          className="px-6 py-3 rounded-xl border border-border text-charcoal hover:border-charcoal transition-colors"
         >
           Browse All Albums
         </Link>

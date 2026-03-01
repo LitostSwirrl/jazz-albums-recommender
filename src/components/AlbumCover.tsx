@@ -42,17 +42,14 @@ function getInitials(title: string): string {
 // Generate a consistent color based on title
 function getTitleColor(title: string): string {
   const colors = [
-    '#f59e0b', // amber
-    '#eab308', // yellow
-    '#84cc16', // lime
-    '#22c55e', // green
-    '#14b8a6', // teal
-    '#06b6d4', // cyan
-    '#3b82f6', // blue
-    '#8b5cf6', // violet
-    '#a855f7', // purple
-    '#ec4899', // pink
-    '#f43f5e', // rose
+    '#D95B43', // coral
+    '#3B8686', // teal
+    '#C7B042', // mustard
+    '#556B2F', // olive
+    '#1A1A2E', // navy
+    '#8B6914', // dark gold
+    '#7B4B94', // plum
+    '#B8383B', // brick red
   ];
 
   let hash = 0;
@@ -89,9 +86,9 @@ export function AlbumCover({ coverUrl, title, size = 'md', pixelWidth, priority,
 
   return (
     <div
-      className={`rounded-lg flex items-center justify-center overflow-hidden relative ${sizeClasses[size]} ${className}`}
+      className={`rounded-sm flex items-center justify-center overflow-hidden relative ${sizeClasses[size]} ${className}`}
       style={{
-        backgroundColor: showFallback ? `${color}15` : '#27272a',
+        backgroundColor: showFallback ? `${color}15` : undefined,
         borderColor: showFallback ? `${color}40` : 'transparent',
         borderWidth: showFallback ? '1px' : '0'
       }}
@@ -120,13 +117,13 @@ export function AlbumCover({ coverUrl, title, size = 'md', pixelWidth, priority,
           >
             {initials}
           </div>
-          <div className={`${size === 'lg' ? 'text-sm' : 'text-xs'} text-zinc-500 mt-1`}>
+          <div className={`${size === 'lg' ? 'text-sm' : 'text-xs'} text-warm-gray mt-1`}>
             {size === 'lg' && 'Album'}
           </div>
         </div>
       )}
       {!showFallback && imageLoading && (
-        <div className="absolute inset-0 flex items-center justify-center bg-zinc-800">
+        <div className="absolute inset-0 flex items-center justify-center bg-border-light">
           <div className={`animate-pulse ${iconSizes[size]}`} style={{ color }}>
             {initials}
           </div>

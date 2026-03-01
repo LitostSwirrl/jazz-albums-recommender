@@ -46,16 +46,16 @@ export function Home() {
   const influentialArtists = useMemo(() => getInfluentialArtists(), []);
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-12 page-enter">
+    <div className="page-enter">
       <SEO
         title="Your Jazz Library"
         description={`A curated guide to ${albums.length} jazz albums from New Orleans to today. Explore jazz history, discover ${artists.length} artists, and understand how they shaped each other.`}
       />
 
-      {/* Hero Section with Mosaic Background */}
-      <section className="relative text-center mb-16 overflow-hidden rounded-2xl py-16 px-4">
+      {/* Hero Section — Full-bleed Navy */}
+      <section className="relative text-center overflow-hidden bg-navy py-20 md:py-28 px-4 -mx-4 sm:-mx-6 lg:-mx-8 mb-16">
         {/* Album cover mosaic background */}
-        <div className="absolute inset-0 grid grid-cols-6 grid-rows-4 gap-1 opacity-[0.07] rotate-[-2deg] scale-110 pointer-events-none">
+        <div className="absolute inset-0 grid grid-cols-6 grid-rows-4 gap-1 opacity-[0.06] rotate-[-2deg] scale-110 pointer-events-none">
           {mosaicAlbums.map((album) => (
             <div key={album.id} className="aspect-square overflow-hidden">
               <AlbumCover coverUrl={album.coverUrl} title={album.title} size="sm" pixelWidth={200} />
@@ -64,24 +64,24 @@ export function Home() {
         </div>
 
         {/* Hero content */}
-        <div className="relative z-10">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4 font-display bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent">
+        <div className="relative z-10 max-w-4xl mx-auto">
+          <h1 className="text-6xl md:text-8xl font-display text-white uppercase tracking-wider mb-6">
             Your Jazz Library
           </h1>
-          <p className="text-xl text-zinc-400 max-w-2xl mx-auto mb-8">
+          <p className="text-xl text-white/70 font-body max-w-2xl mx-auto mb-10">
             A curated guide to jazz history — from New Orleans to today.
             Explore albums, understand the music, and discover how artists shaped each other.
           </p>
-          <div className="flex justify-center gap-4">
+          <div className="flex justify-center gap-4 flex-wrap">
             <Link
               to="/timeline"
-              className="px-6 py-3 bg-amber-500 text-black font-semibold rounded-xl hover:bg-amber-400 transition-colors"
+              className="px-8 py-3.5 bg-coral text-white font-semibold rounded-lg hover:bg-coral/90 transition-colors"
             >
               Start with the Timeline
             </Link>
             <Link
               to="/albums"
-              className="px-6 py-3 border border-zinc-700 text-zinc-300 rounded-xl hover:border-zinc-500 transition-colors"
+              className="px-8 py-3.5 border border-white/30 text-white rounded-lg hover:bg-white/10 transition-colors"
             >
               Browse Albums
             </Link>
@@ -89,208 +89,223 @@ export function Home() {
         </div>
       </section>
 
-      {/* Stats Bar */}
-      <section className="mb-16">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {[
-            { value: albums.length, label: 'Albums' },
-            { value: artists.length, label: 'Artists' },
-            { value: eras.length, label: 'Eras' },
-            { value: '100+', label: 'Years' },
-          ].map((stat) => (
-            <div
-              key={stat.label}
-              className="text-center p-4 rounded-xl bg-zinc-900/50 border border-zinc-800"
-            >
-              <div className="text-3xl font-bold text-amber-400 font-display">
-                {stat.value}
+      <div className="max-w-6xl mx-auto px-4">
+        {/* Stats Bar */}
+        <section className="mb-16">
+          <div className="flex items-center justify-center divide-x divide-border">
+            {[
+              { value: albums.length, label: 'Albums' },
+              { value: artists.length, label: 'Artists' },
+              { value: eras.length, label: 'Eras' },
+              { value: '100+', label: 'Years' },
+            ].map((stat) => (
+              <div
+                key={stat.label}
+                className="text-center px-8 md:px-12 py-4"
+              >
+                <div className="text-5xl font-display text-coral">
+                  {stat.value}
+                </div>
+                <div className="font-mono text-warm-gray uppercase tracking-widest text-xs mt-2">
+                  {stat.label}
+                </div>
               </div>
-              <div className="text-xs text-zinc-500 uppercase tracking-wider mt-1">
-                {stat.label}
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
+            ))}
+          </div>
+        </section>
 
-      {/* Learning Paths */}
-      <section className="mb-16">
-        <h2 className="text-2xl font-bold mb-6 font-display">Where to Begin</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <Link
-            to="/era/bebop"
-            className="p-6 rounded-xl bg-gradient-to-br from-lime-900/30 to-zinc-900 border border-lime-800/30 hover:border-lime-700/50 hover:shadow-xl hover:shadow-black/20 transition-all duration-300 group"
-          >
-            <h3 className="text-xl font-bold text-lime-400 mb-2">New to Jazz?</h3>
-            <p className="text-zinc-400 text-sm">
-              Start with Bebop — the revolutionary sound that made jazz an art form.
-              Charlie Parker, Dizzy Gillespie, and the birth of modern jazz.
-            </p>
-            <span className="text-lime-400 text-sm mt-3 inline-block group-hover:underline">
-              Explore Bebop →
-            </span>
-          </Link>
-
-          <Link
-            to="/era/hard-bop"
-            className="p-6 rounded-xl bg-gradient-to-br from-blue-900/30 to-zinc-900 border border-blue-800/30 hover:border-blue-700/50 hover:shadow-xl hover:shadow-black/20 transition-all duration-300 group"
-          >
-            <h3 className="text-xl font-bold text-blue-400 mb-2">Want Soul & Groove?</h3>
-            <p className="text-zinc-400 text-sm">
-              Hard Bop brought blues and gospel back into jazz.
-              Art Blakey, Horace Silver, and music that swings hard.
-            </p>
-            <span className="text-blue-400 text-sm mt-3 inline-block group-hover:underline">
-              Explore Hard Bop →
-            </span>
-          </Link>
-
-          <Link
-            to="/era/free-jazz"
-            className="p-6 rounded-xl bg-gradient-to-br from-purple-900/30 to-zinc-900 border border-purple-800/30 hover:border-purple-700/50 hover:shadow-xl hover:shadow-black/20 transition-all duration-300 group"
-          >
-            <h3 className="text-xl font-bold text-purple-400 mb-2">Ready to Go Deep?</h3>
-            <p className="text-zinc-400 text-sm">
-              Free Jazz broke all the rules.
-              Ornette Coleman, John Coltrane's later work, and pure expression.
-            </p>
-            <span className="text-purple-400 text-sm mt-3 inline-block group-hover:underline">
-              Explore Free Jazz →
-            </span>
-          </Link>
-        </div>
-      </section>
-
-      {/* Era Journey */}
-      <section className="mb-16">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="text-2xl font-bold font-display">The Jazz Journey</h2>
-          <Link to="/timeline" className="text-amber-400 hover:text-amber-300 text-sm">
-            Full Timeline →
-          </Link>
-        </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {eras.map((era) => (
+        {/* Learning Paths */}
+        <section className="mb-16">
+          <h2 className="text-2xl font-heading text-charcoal mb-6">Where to Begin</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <Link
-              key={era.id}
-              to={`/era/${era.id}`}
-              className="p-4 rounded-xl border border-zinc-800 hover:border-zinc-600 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-black/20"
-              style={{ borderLeftColor: era.color, borderLeftWidth: '4px' }}
+              to="/era/bebop"
+              className="bg-surface shadow-card hover:shadow-card-hover rounded-lg overflow-hidden transition-all duration-300 group"
             >
-              <h3 className="font-semibold text-white">{era.name}</h3>
-              <p className="text-sm text-zinc-500">{era.period}</p>
-              <p className="text-xs text-zinc-600 mt-2 line-clamp-2">
-                {era.characteristics.slice(0, 2).join(', ')}
-              </p>
+              <div className="h-1" style={{ backgroundColor: '#3B8686' }} />
+              <div className="p-6">
+                <h3 className="text-xl font-heading text-charcoal mb-2">New to Jazz?</h3>
+                <p className="text-warm-gray text-sm leading-relaxed">
+                  Start with Bebop — the revolutionary sound that made jazz an art form.
+                  Charlie Parker, Dizzy Gillespie, and the birth of modern jazz.
+                </p>
+                <span className="text-coral text-sm mt-4 inline-block group-hover:underline">
+                  Explore Bebop &rarr;
+                </span>
+              </div>
             </Link>
-          ))}
-        </div>
-      </section>
 
-      {/* Era Highlights — 1 standout per era */}
-      <section className="mb-16">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="text-2xl font-bold font-display">Highlights from Every Era</h2>
-          <Link to="/albums" className="text-amber-400 hover:text-amber-300 text-sm">
-            View all {albums.length} albums →
-          </Link>
-        </div>
-        <div className="flex gap-4 overflow-x-auto pb-4 scrollbar-thin -mx-4 px-4">
-          {eras.map((era) => {
-            const album = getEraHighlightAlbum(era.id);
-            if (!album) return null;
-            return (
+            <Link
+              to="/era/hard-bop"
+              className="bg-surface shadow-card hover:shadow-card-hover rounded-lg overflow-hidden transition-all duration-300 group"
+            >
+              <div className="h-1" style={{ backgroundColor: '#B8383B' }} />
+              <div className="p-6">
+                <h3 className="text-xl font-heading text-charcoal mb-2">Want Soul & Groove?</h3>
+                <p className="text-warm-gray text-sm leading-relaxed">
+                  Hard Bop brought blues and gospel back into jazz.
+                  Art Blakey, Horace Silver, and music that swings hard.
+                </p>
+                <span className="text-coral text-sm mt-4 inline-block group-hover:underline">
+                  Explore Hard Bop &rarr;
+                </span>
+              </div>
+            </Link>
+
+            <Link
+              to="/era/free-jazz"
+              className="bg-surface shadow-card hover:shadow-card-hover rounded-lg overflow-hidden transition-all duration-300 group"
+            >
+              <div className="h-1" style={{ backgroundColor: '#7B4B94' }} />
+              <div className="p-6">
+                <h3 className="text-xl font-heading text-charcoal mb-2">Ready to Go Deep?</h3>
+                <p className="text-warm-gray text-sm leading-relaxed">
+                  Free Jazz broke all the rules.
+                  Ornette Coleman, John Coltrane's later work, and pure expression.
+                </p>
+                <span className="text-coral text-sm mt-4 inline-block group-hover:underline">
+                  Explore Free Jazz &rarr;
+                </span>
+              </div>
+            </Link>
+          </div>
+        </section>
+
+        {/* Era Journey */}
+        <section className="mb-16">
+          <div className="flex items-center justify-between mb-6">
+            <h2 className="text-2xl font-heading text-charcoal">The Jazz Journey</h2>
+            <Link to="/timeline" className="text-coral hover:text-coral/80 text-sm transition-colors">
+              Full Timeline &rarr;
+            </Link>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {eras.map((era) => (
               <Link
                 key={era.id}
-                to={`/album/${album.id}`}
-                className="flex-shrink-0 w-48 group"
+                to={`/era/${era.id}`}
+                className="p-4 rounded-lg bg-surface shadow-card border border-border hover:shadow-card-hover transition-all duration-300 hover:scale-[1.02]"
+                style={{ borderLeftColor: era.color, borderLeftWidth: '4px' }}
               >
-                <div className="relative rounded-xl overflow-hidden mb-3 group-hover:scale-105 transition-transform duration-300">
-                  <AlbumCover coverUrl={album.coverUrl} title={album.title} size="md" />
-                  <div
-                    className="absolute bottom-0 left-0 right-0 px-2 py-1 text-[10px] font-semibold uppercase tracking-wider text-center"
-                    style={{ backgroundColor: era.color + 'CC', color: '#000' }}
-                  >
-                    {era.name.split(' ')[0]}
-                  </div>
-                </div>
-                <h3 className="font-semibold text-white text-sm group-hover:text-amber-400 transition-colors truncate">
-                  {album.title}
-                </h3>
-                <p className="text-zinc-400 text-xs truncate">{album.artist}</p>
+                <h3 className="font-semibold text-charcoal">{era.name}</h3>
+                <p className="text-sm text-warm-gray">{era.period}</p>
+                <p className="text-xs text-warm-gray/70 mt-2 line-clamp-2">
+                  {era.characteristics.slice(0, 2).join(', ')}
+                </p>
               </Link>
-            );
-          })}
-        </div>
-      </section>
-
-      {/* Artist Connections */}
-      <section className="mb-16">
-        <div className="flex items-center justify-between mb-6">
-          <div>
-            <h2 className="text-2xl font-bold font-display">How Artists Connect</h2>
-            <p className="text-zinc-500 text-sm">Jazz is a conversation across generations</p>
+            ))}
           </div>
-          <Link to="/influence" className="text-amber-400 hover:text-amber-300 text-sm">
-            View Influence Map →
-          </Link>
-        </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-          {influentialArtists.map((artist) => (
-            <Link
-              key={artist.id}
-              to={`/artist/${artist.id}`}
-              className="p-4 rounded-xl bg-zinc-900 border border-zinc-800 hover:border-amber-500/50 hover:shadow-xl hover:shadow-black/20 transition-all duration-300 text-center group"
-            >
-              <div className="mx-auto mb-3">
-                <ArtistPhoto
-                  imageUrl={artist.imageUrl}
-                  name={artist.name}
-                  size="lg"
-                />
-              </div>
-              <h3 className="font-semibold text-white text-sm group-hover:text-amber-400 transition-colors">
-                {artist.name}
-              </h3>
-              <p className="text-xs text-zinc-500 mt-1">
-                {artist.instruments[0]}
-              </p>
+        </section>
+
+        {/* Era Highlights — 1 standout per era */}
+        <section className="mb-16">
+          <div className="flex items-center justify-between mb-6">
+            <h2 className="text-2xl font-heading text-charcoal">Highlights from Every Era</h2>
+            <Link to="/albums" className="text-coral hover:text-coral/80 text-sm transition-colors">
+              View all {albums.length} albums &rarr;
             </Link>
-          ))}
-        </div>
-      </section>
+          </div>
+          <div className="flex gap-4 overflow-x-auto pb-4 scrollbar-thin -mx-4 px-4">
+            {eras.map((era) => {
+              const album = getEraHighlightAlbum(era.id);
+              if (!album) return null;
+              return (
+                <Link
+                  key={era.id}
+                  to={`/album/${album.id}`}
+                  className="flex-shrink-0 w-48 group"
+                >
+                  <div className="relative rounded-sm overflow-hidden mb-3 shadow-card group-hover:shadow-card-hover transition-all duration-300 group-hover:scale-[1.03]">
+                    <AlbumCover coverUrl={album.coverUrl} title={album.title} size="md" />
+                    <div
+                      className="absolute bottom-0 left-0 right-0 px-2 py-1 text-[10px] font-mono font-semibold uppercase tracking-wider text-center"
+                      style={{ backgroundColor: era.color + 'CC', color: '#fff' }}
+                    >
+                      {era.name.split(' ')[0]}
+                    </div>
+                  </div>
+                  <h3 className="font-semibold text-charcoal text-sm group-hover:text-coral transition-colors truncate">
+                    {album.title}
+                  </h3>
+                  <p className="text-warm-gray text-xs truncate">{album.artist}</p>
+                </Link>
+              );
+            })}
+          </div>
+        </section>
 
-      {/* Jazz & Society */}
-      <section className="mb-16">
-        <Link
-          to="/context"
-          className="block p-6 rounded-xl bg-gradient-to-br from-red-900/20 via-amber-900/20 to-purple-900/20 border border-zinc-700 hover:border-amber-500/50 hover:shadow-xl hover:shadow-black/20 transition-all duration-300 group"
-        >
-          <h2 className="text-xl font-bold text-amber-400 mb-2 group-hover:text-amber-300 transition-colors font-display">
-            Jazz & Society
-          </h2>
-          <p className="text-zinc-400 text-sm mb-3">
-            Jazz never existed in a vacuum. Explore how civil rights, war, economics, and
-            technology shaped the music — and how the music shaped the world.
+        {/* Artist Connections */}
+        <section className="mb-16">
+          <div className="flex items-center justify-between mb-6">
+            <div>
+              <h2 className="text-2xl font-heading text-charcoal">How Artists Connect</h2>
+              <p className="text-warm-gray text-sm">Jazz is a conversation across generations</p>
+            </div>
+            <Link to="/influence" className="text-coral hover:text-coral/80 text-sm transition-colors">
+              View Influence Map &rarr;
+            </Link>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+            {influentialArtists.map((artist) => (
+              <Link
+                key={artist.id}
+                to={`/artist/${artist.id}`}
+                className="p-4 rounded-lg bg-surface border border-border shadow-card hover:border-coral/50 hover:shadow-card-hover transition-all duration-300 text-center group"
+              >
+                <div className="mx-auto mb-3">
+                  <ArtistPhoto
+                    imageUrl={artist.imageUrl}
+                    name={artist.name}
+                    size="lg"
+                  />
+                </div>
+                <h3 className="font-semibold text-charcoal text-sm group-hover:text-coral transition-colors">
+                  {artist.name}
+                </h3>
+                <p className="text-xs text-warm-gray mt-1">
+                  {artist.instruments[0]}
+                </p>
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        {/* Jazz & Society */}
+        <section className="mb-16">
+          <Link
+            to="/context"
+            className="block p-8 rounded-lg bg-navy text-white hover:shadow-elevated transition-all duration-300 group"
+          >
+            <h2 className="text-xl font-heading text-white mb-2 group-hover:text-coral transition-colors">
+              Jazz & Society
+            </h2>
+            <p className="text-white/70 text-sm mb-3">
+              Jazz never existed in a vacuum. Explore how civil rights, war, economics, and
+              technology shaped the music — and how the music shaped the world.
+            </p>
+            <span className="text-coral text-sm group-hover:underline">
+              Explore the parallel timeline &rarr;
+            </span>
+          </Link>
+        </section>
+
+        {/* Educational Quote */}
+        <section className="p-10 rounded-lg bg-surface shadow-card border border-border mb-12">
+          <blockquote className="relative">
+            <span className="absolute -top-4 -left-2 text-6xl text-coral/30 font-display leading-none select-none">&ldquo;</span>
+            <p className="text-2xl text-charcoal font-heading italic leading-relaxed pl-6">
+              Jazz is not just music, it's a way of life, it's a way of being, a way of thinking.
+            </p>
+            <span className="absolute -bottom-6 right-0 text-6xl text-coral/30 font-display leading-none select-none">&rdquo;</span>
+          </blockquote>
+          <cite className="block text-coral font-heading mt-6 pl-6 not-italic">— Nina Simone</cite>
+          <p className="text-warm-gray text-sm mt-4 pl-6">
+            This guide is your companion to understanding that way of thinking.
+            Each album tells a story. Each artist is part of a tradition.
+            Explore, listen, and let the music speak.
           </p>
-          <span className="text-amber-400 text-sm group-hover:underline">
-            Explore the parallel timeline →
-          </span>
-        </Link>
-      </section>
-
-      {/* Educational Quote */}
-      <section className="p-8 rounded-xl bg-gradient-to-r from-zinc-900 to-zinc-800 border border-zinc-700">
-        <blockquote className="text-xl text-zinc-300 italic mb-4 font-display">
-          "Jazz is not just music, it's a way of life, it's a way of being, a way of thinking."
-        </blockquote>
-        <cite className="text-amber-400">— Nina Simone</cite>
-        <p className="text-zinc-500 text-sm mt-4">
-          This guide is your companion to understanding that way of thinking.
-          Each album tells a story. Each artist is part of a tradition.
-          Explore, listen, and let the music speak.
-        </p>
-      </section>
+        </section>
+      </div>
     </div>
   );
 }
