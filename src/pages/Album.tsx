@@ -85,12 +85,12 @@ export function Album() {
           </div>
 
           {/* Era + Genre distinction */}
-          <div className="flex flex-wrap items-start gap-3 mt-4">
+          <div className="flex flex-col gap-3 mt-4">
             {/* Era badge */}
             {era && (
               <Link
                 to={`/era/${era.id}`}
-                className="flex items-center gap-2 px-3 py-1.5 rounded border-l-4 bg-surface border border-border hover:opacity-80 transition-opacity"
+                className="inline-flex items-center gap-2 px-3 py-1.5 rounded border-l-4 bg-surface border border-border hover:opacity-80 transition-opacity self-start"
                 style={{ borderLeftColor: era.color }}
               >
                 <span className="text-[10px] uppercase tracking-wider font-semibold text-warm-gray">Era</span>
@@ -99,17 +99,20 @@ export function Album() {
             )}
 
             {/* Genre pills */}
-            <div className="flex flex-wrap gap-2">
-              {album.genres.map((genre) => (
-                <Link
-                  key={genre}
-                  to={`/albums?genre=${encodeURIComponent(genre)}`}
-                  className="px-3 py-1 rounded-full text-sm bg-surface border border-border text-charcoal hover:bg-coral/10 hover:text-coral hover:border-coral transition-colors"
-                >
-                  {genre}
-                </Link>
-              ))}
-            </div>
+            {album.genres.length > 0 && (
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="text-[10px] uppercase tracking-wider font-semibold text-warm-gray">Genre</span>
+                {album.genres.map((genre) => (
+                  <Link
+                    key={genre}
+                    to={`/albums?genre=${encodeURIComponent(genre)}`}
+                    className="px-3 py-1 rounded-full text-sm bg-surface border border-border text-charcoal hover:bg-coral/10 hover:text-coral hover:border-coral transition-colors"
+                  >
+                    {genre}
+                  </Link>
+                ))}
+              </div>
+            )}
           </div>
 
           {/* Forward-looking indicator */}
