@@ -445,9 +445,12 @@ export function Albums() {
                 )}
               </div>
 
-              <div className="flex flex-wrap gap-1 mt-2">
+              <div className="flex flex-wrap gap-1.5 mt-2">
                 {album.genres.slice(0, 2).map((genre) => (
-                  <span key={genre} className="text-xs text-warm-gray">
+                  <span
+                    key={genre}
+                    className="px-2 py-0.5 text-xs rounded-full bg-border-light text-warm-gray"
+                  >
                     {genre}
                   </span>
                 ))}

@@ -1,4 +1,4 @@
-import type { Album, Artist } from '../types';
+import type { Album, Artist, EraId } from '../types';
 
 // Get all unique genres from albums
 export function getAllGenres(albums: Album[]): string[] {
@@ -157,6 +157,77 @@ export function getRandomArtist(
   if (filtered.length === 0) return null;
 
   return filtered[Math.floor(Math.random() * filtered.length)];
+}
+
+// Map genres to their "home" era (where they originated)
+const GENRE_ERA_MAP: Record<string, EraId> = {
+  'early jazz': 'early-jazz',
+  'dixieland': 'early-jazz',
+  'swing': 'swing',
+  'big band': 'swing',
+  'bebop': 'bebop',
+  'cool jazz': 'cool-jazz',
+  'bossa nova': 'cool-jazz',
+  'chamber jazz': 'cool-jazz',
+  'hard bop': 'hard-bop',
+  'soul jazz': 'hard-bop',
+  'post-bop': 'hard-bop',
+  'modal jazz': 'hard-bop',
+  'free jazz': 'free-jazz',
+  'avant-garde jazz': 'free-jazz',
+  'free improvisation': 'free-jazz',
+  'spiritual jazz': 'free-jazz',
+  'loft jazz': 'free-jazz',
+  'experimental': 'free-jazz',
+  'jazz fusion': 'fusion',
+  'jazz-funk': 'fusion',
+  'contemporary jazz': 'contemporary',
+  'acid jazz': 'contemporary',
+  'smooth jazz': 'contemporary',
+};
+
+const ERA_ORDER: EraId[] = [
+  'early-jazz', 'swing', 'bebop', 'cool-jazz',
+  'hard-bop', 'free-jazz', 'fusion', 'contemporary',
+];
+
+const ERA_DISPLAY_NAMES: Record<EraId, string> = {
+  'early-jazz': 'Early Jazz',
+  'swing': 'Swing',
+  'bebop': 'Bebop',
+  'cool-jazz': 'Cool Jazz',
+  'hard-bop': 'Hard Bop',
+  'free-jazz': 'Free Jazz',
+  'fusion': 'Fusion',
+  'contemporary': 'Contemporary',
+};
+
+/**
+ * Check if an album's genres suggest forward-looking music beyond its era.
+ * Returns ahead: true if any genre belongs to an era 2+ positions later.
+ */
+export function isForwardLooking(album: Album): {
+  ahead: boolean;
+  futureEra?: string;
+  futureEraId?: EraId;
+} {
+  const albumEraIdx = ERA_ORDER.indexOf(album.era);
+  if (albumEraIdx === -1) return { ahead: false };
+
+  for (const genre of album.genres) {
+    const genreEra = GENRE_ERA_MAP[genre];
+    if (!genreEra) continue;
+    const genreEraIdx = ERA_ORDER.indexOf(genreEra);
+    if (genreEraIdx - albumEraIdx >= 2) {
+      return {
+        ahead: true,
+        futureEra: ERA_DISPLAY_NAMES[genreEra],
+        futureEraId: genreEra,
+      };
+    }
+  }
+
+  return { ahead: false };
 }
 
 // Generate URL slugs

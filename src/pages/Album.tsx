@@ -1,6 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
 import albumsData from '../data/albums.json';
 import artistsData from '../data/artists.json';
+import erasData from '../data/eras.json';
 import { AlbumCover } from '../components/AlbumCover';
 import { ArtistPhoto } from '../components/ArtistPhoto';
 import { RelatedAlbums } from '../components/discovery/RelatedAlbums';
@@ -8,10 +9,13 @@ import { HistoricalEventCard } from '../components/context/HistoricalEventCard';
 import { SpotifyIcon, AppleMusicIcon, YouTubeMusicIcon, YouTubeIcon } from '../components/icons';
 import { SEO } from '../components/SEO';
 import { getEventsForAlbum } from '../utils/historicalContext';
-import type { Album as AlbumType, Artist } from '../types';
+import { isForwardLooking } from '../utils/discovery';
+import type { Album as AlbumType, Artist, Era } from '../types';
 
 const albums = albumsData as AlbumType[];
 const artists = artistsData as Artist[];
+const eras = erasData as Era[];
+
 export function Album() {
   const { id } = useParams<{ id: string }>();
   const album = albums.find((a) => a.id === id);
@@ -28,6 +32,8 @@ export function Album() {
   }
 
   const artist = artists.find((a) => a.id === album.artistId);
+  const era = eras.find((e) => e.id === album.era);
+  const forwardLooking = isForwardLooking(album);
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-12 page-enter">
@@ -78,17 +84,40 @@ export function Album() {
             </Link>
           </div>
 
-          <div className="flex flex-wrap gap-2 mt-4">
-            {album.genres.map((genre) => (
+          {/* Era + Genre distinction */}
+          <div className="flex flex-wrap items-start gap-3 mt-4">
+            {/* Era badge */}
+            {era && (
               <Link
-                key={genre}
-                to={`/albums?genre=${encodeURIComponent(genre)}`}
-                className="px-3 py-1 rounded-full text-sm bg-surface border border-border text-charcoal hover:bg-coral/10 hover:text-coral hover:border-coral transition-colors"
+                to={`/era/${era.id}`}
+                className="flex items-center gap-2 px-3 py-1.5 rounded border-l-4 bg-surface border border-border hover:opacity-80 transition-opacity"
+                style={{ borderLeftColor: era.color }}
               >
-                {genre}
+                <span className="text-[10px] uppercase tracking-wider font-semibold text-warm-gray">Era</span>
+                <span className="text-sm font-medium text-charcoal">{era.name.split(' ')[0]}</span>
               </Link>
-            ))}
+            )}
+
+            {/* Genre pills */}
+            <div className="flex flex-wrap gap-2">
+              {album.genres.map((genre) => (
+                <Link
+                  key={genre}
+                  to={`/albums?genre=${encodeURIComponent(genre)}`}
+                  className="px-3 py-1 rounded-full text-sm bg-surface border border-border text-charcoal hover:bg-coral/10 hover:text-coral hover:border-coral transition-colors"
+                >
+                  {genre}
+                </Link>
+              ))}
+            </div>
           </div>
+
+          {/* Forward-looking indicator */}
+          {forwardLooking.ahead && forwardLooking.futureEra && (
+            <p className="mt-3 text-sm italic text-warm-gray">
+              <span className="not-italic">&rarr;</span> Recorded during the {era?.name.split(' ')[0]} period, but pointing toward {forwardLooking.futureEra}
+            </p>
+          )}
         </div>
       </header>
 
