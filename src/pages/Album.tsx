@@ -100,13 +100,16 @@ export function Album() {
 
             {/* Genre pills */}
             {album.genres.length > 0 && (
-              <div className="flex flex-wrap items-center gap-2">
+              <div
+                className="flex flex-wrap items-center gap-2 px-3 py-1.5 rounded border-l-4 bg-surface border border-border self-start"
+                style={{ borderLeftColor: era?.color }}
+              >
                 <span className="text-[10px] uppercase tracking-wider font-semibold text-warm-gray">Genre</span>
                 {album.genres.map((genre) => (
                   <Link
                     key={genre}
                     to={`/albums?genre=${encodeURIComponent(genre)}`}
-                    className="px-3 py-1 rounded-full text-sm bg-surface border border-border text-charcoal hover:bg-coral/10 hover:text-coral hover:border-coral transition-colors"
+                    className="px-2.5 py-0.5 rounded-full text-sm bg-border/50 text-charcoal hover:bg-coral/10 hover:text-coral transition-colors"
                   >
                     {genre}
                   </Link>

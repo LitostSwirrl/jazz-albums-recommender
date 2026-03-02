@@ -42,7 +42,7 @@ function getInitials(title: string): string {
 // Generate a consistent color based on title
 function getTitleColor(title: string): string {
   const colors = [
-    '#E63946', // coral
+    '#C2694F', // coral (burnt sienna)
     '#4ECDC4', // teal
     '#D4A843', // mustard
     '#7DA87D', // olive
