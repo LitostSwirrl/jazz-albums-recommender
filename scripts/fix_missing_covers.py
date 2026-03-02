@@ -159,9 +159,11 @@ def phase_a_unwrap_wsrv(albums: list, apply: bool) -> int:
             continue
         real_url = unwrap_wsrv_url(url)
         if real_url:
-            normalized = normalize_caa_url(real_url)
+            # Fix http → https but keep original image file path
+            if real_url.startswith("http://"):
+                real_url = real_url.replace("http://", "https://", 1)
             if apply:
-                album["coverUrl"] = normalized
+                album["coverUrl"] = real_url
             count += 1
 
     print(f"Phase A: Unwrapped {count} wsrv.nl proxy URLs")
@@ -174,29 +176,12 @@ def phase_b_fix_http(albums: list, apply: bool) -> int:
     for album in albums:
         url = album.get("coverUrl", "")
         if url.startswith("http://coverartarchive.org"):
-            new_url = normalize_caa_url(url.replace("http://", "https://"))
+            new_url = url.replace("http://", "https://", 1)
             if apply:
                 album["coverUrl"] = new_url
             count += 1
 
     print(f"Phase B: Fixed {count} http:// → https:// URLs")
-    return count
-
-
-def phase_c_normalize_caa(albums: list, apply: bool) -> int:
-    """Phase C: Normalize all coverartarchive.org URLs to /front-500 pattern."""
-    count = 0
-    for album in albums:
-        url = album.get("coverUrl", "")
-        if not url or "coverartarchive.org" not in url:
-            continue
-        normalized = normalize_caa_url(url)
-        if normalized != url:
-            if apply:
-                album["coverUrl"] = normalized
-            count += 1
-
-    print(f"Phase C: Normalized {count} CAA URLs to /front-500 pattern")
     return count
 
 
@@ -227,26 +212,6 @@ def phase_d_search_missing(albums: list, apply: bool) -> int:
             print(f"  - {a['id']}: {a['title']} by {a['artist']}")
 
     return fixed
-
-
-def phase_e_fix_archive_org(albums: list, apply: bool) -> int:
-    """Phase E: Fix broken archive.org/items URLs by normalizing to /front-500."""
-    count = 0
-    for album in albums:
-        url = album.get("coverUrl", "")
-        if not url:
-            continue
-        # archive.org/items URLs that contain mbid- can be mapped to CAA
-        match = re.search(r"archive\.org/\d+/items/mbid-([a-f0-9-]{36})", url)
-        if match:
-            uuid = match.group(1)
-            new_url = f"https://coverartarchive.org/release/{uuid}/front-500"
-            if apply:
-                album["coverUrl"] = new_url
-            count += 1
-
-    print(f"Phase E: Fixed {count} archive.org/items URLs")
-    return count
 
 
 def fix_artist_photos(artists: list, apply: bool) -> int:
@@ -287,17 +252,11 @@ def main() -> None:
 
     total_album_fixes = 0
 
-    # Phase A: Unwrap wsrv.nl
+    # Phase A: Unwrap wsrv.nl proxy URLs (keep original image paths)
     total_album_fixes += phase_a_unwrap_wsrv(albums, apply)
 
     # Phase B: Fix http -> https
     total_album_fixes += phase_b_fix_http(albums, apply)
-
-    # Phase C: Normalize all CAA URLs
-    total_album_fixes += phase_c_normalize_caa(albums, apply)
-
-    # Phase E: Fix archive.org/items URLs
-    total_album_fixes += phase_e_fix_archive_org(albums, apply)
 
     # Phase D: Search for missing covers
     total_album_fixes += phase_d_search_missing(albums, apply)
