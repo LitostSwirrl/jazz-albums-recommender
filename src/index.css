@@ -1,43 +1,45 @@
 @import "tailwindcss";
 
-/* ── Mid-Century Modern Design Tokens ── */
+/* ── Dark Editorial Magazine Design Tokens ── */
+/* NOTE: Token names preserved from original for zero-breakage migration.
+   Values are swapped: "cream" is now dark bg, "charcoal" is now light text, etc. */
 
 @theme {
-  /* Typography */
-  --font-display: 'Syne', system-ui, sans-serif;
-  --font-heading: 'Young Serif', Georgia, serif;
-  --font-body: 'Outfit', system-ui, sans-serif;
-  --font-mono: 'Courier Prime', 'Courier New', monospace;
+  /* Typography — Editorial magazine stack */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-heading: 'DM Serif Display', Georgia, serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
 
-  /* Core palette */
-  --color-cream: #FAF7F0;
-  --color-surface: #FFFFFF;
-  --color-charcoal: #2A2A2A;
-  --color-warm-gray: #6B6259;
-  --color-border: #E8E0D4;
-  --color-border-light: #F0EBE3;
+  /* Core palette — Dark mode (values swapped) */
+  --color-cream: #0D0D0D;
+  --color-surface: #161616;
+  --color-charcoal: #F5F0EB;
+  --color-warm-gray: #8A8A8A;
+  --color-border: #2A2A2A;
+  --color-border-light: #1F1F1F;
 
-  /* Accent palette */
-  --color-coral: #D95B43;
-  --color-teal: #3B8686;
-  --color-mustard: #C7B042;
-  --color-olive: #556B2F;
-  --color-navy: #1A1A2E;
+  /* Accent palette — Editorial */
+  --color-coral: #E63946;
+  --color-teal: #A8DADC;
+  --color-mustard: #D4A843;
+  --color-olive: #7DA87D;
+  --color-navy: #0A0A0A;
 
-  /* Era colors */
-  --color-era-early-jazz: #8B6914;
-  --color-era-swing: #D95B43;
-  --color-era-bebop: #3B8686;
-  --color-era-cool-jazz: #6B8E8E;
-  --color-era-hard-bop: #B8383B;
-  --color-era-free-jazz: #7B4B94;
-  --color-era-fusion: #D97B3E;
-  --color-era-contemporary: #2B6B5E;
+  /* Era colors — Brightened for dark background legibility */
+  --color-era-early-jazz: #C9A84C;
+  --color-era-swing: #E6704E;
+  --color-era-bebop: #4ECDC4;
+  --color-era-cool-jazz: #84B4B4;
+  --color-era-hard-bop: #D04E51;
+  --color-era-free-jazz: #A06BCA;
+  --color-era-fusion: #E89B4C;
+  --color-era-contemporary: #3DA68E;
 
-  /* Shadows */
-  --shadow-card: 0 1px 3px rgba(42, 42, 42, 0.08), 0 4px 12px rgba(42, 42, 42, 0.04);
-  --shadow-card-hover: 0 4px 16px rgba(42, 42, 42, 0.12), 0 8px 32px rgba(42, 42, 42, 0.06);
-  --shadow-elevated: 0 8px 24px rgba(42, 42, 42, 0.14), 0 16px 48px rgba(42, 42, 42, 0.08);
+  /* Shadows — Subtle glows for dark mode */
+  --shadow-card: 0 1px 3px rgba(255, 255, 255, 0.02), 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-card-hover: 0 4px 16px rgba(255, 255, 255, 0.04), 0 8px 32px rgba(0, 0, 0, 0.4);
+  --shadow-elevated: 0 8px 24px rgba(0, 0, 0, 0.5), 0 0 1px rgba(255, 255, 255, 0.05);
 
   /* Easing */
   --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
@@ -116,6 +118,15 @@ html {
   }
 }
 
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
 /* ── Custom Utilities ── */
 
 @utility page-enter {
@@ -140,4 +151,10 @@ html {
   border-top-color: var(--color-coral);
   transform: rotate(45deg);
   animation: spinDiamond 0.8s linear infinite;
+}
+
+@utility editorial-rule {
+  height: 1px;
+  background: var(--color-border);
+  border: none;
 }

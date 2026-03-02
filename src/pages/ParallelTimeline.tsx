@@ -237,7 +237,7 @@ function EventCard({ event, config, relatedArtists }: EventCardProps) {
       <h3 className="font-semibold text-charcoal text-sm mb-1">{event.title}</h3>
       <p className="text-warm-gray text-xs leading-relaxed mb-2">{event.description}</p>
       <div
-        className="p-2 rounded-lg bg-cream border-l-2 mb-3"
+        className="p-2 rounded-lg bg-border border-l-2 mb-3"
         style={{ borderLeftColor: config.color + '60' }}
       >
         <p className="text-charcoal text-xs leading-relaxed">{event.jazzConnection}</p>
@@ -250,7 +250,7 @@ function EventCard({ event, config, relatedArtists }: EventCardProps) {
             <Link
               key={artist.id}
               to={`/artist/${artist.id}`}
-              className="px-1.5 py-0.5 text-[10px] rounded bg-cream border border-border text-charcoal hover:text-coral transition-colors"
+              className="px-1.5 py-0.5 text-[10px] rounded bg-border border border-border text-charcoal hover:text-coral transition-colors"
             >
               {artist.name}
             </Link>

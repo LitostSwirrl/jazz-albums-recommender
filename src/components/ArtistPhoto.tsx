@@ -42,14 +42,14 @@ function getInitials(name: string): string {
 // Generate a consistent color based on name
 function getNameColor(name: string): string {
   const colors = [
-    '#D95B43', // coral
-    '#3B8686', // teal
-    '#C7B042', // mustard
-    '#556B2F', // olive
-    '#1A1A2E', // navy
-    '#8B6914', // dark gold
-    '#7B4B94', // plum
-    '#B8383B', // brick red
+    '#E63946', // coral
+    '#4ECDC4', // teal
+    '#D4A843', // mustard
+    '#7DA87D', // olive
+    '#A06BCA', // plum
+    '#C9A84C', // gold
+    '#84B4B4', // ice
+    '#D04E51', // brick red
   ];
 
   let hash = 0;

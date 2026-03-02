@@ -55,7 +55,7 @@ export function Home() {
       {/* Hero Section — Full-bleed Navy */}
       <section className="relative text-center overflow-hidden bg-navy py-20 md:py-28 px-4 -mx-4 sm:-mx-6 lg:-mx-8 mb-16">
         {/* Album cover mosaic background */}
-        <div className="absolute inset-0 grid grid-cols-6 grid-rows-4 gap-1 opacity-[0.06] rotate-[-2deg] scale-110 pointer-events-none">
+        <div className="absolute inset-0 grid grid-cols-6 grid-rows-4 gap-1 opacity-[0.15] rotate-[-2deg] scale-110 pointer-events-none">
           {mosaicAlbums.map((album) => (
             <div key={album.id} className="aspect-square overflow-hidden">
               <AlbumCover coverUrl={album.coverUrl} title={album.title} size="sm" pixelWidth={200} />
@@ -122,7 +122,7 @@ export function Home() {
               to="/era/bebop"
               className="bg-surface shadow-card hover:shadow-card-hover rounded-lg overflow-hidden transition-all duration-300 group"
             >
-              <div className="h-1" style={{ backgroundColor: '#3B8686' }} />
+              <div className="h-[2px]" style={{ backgroundColor: '#4ECDC4' }} />
               <div className="p-6">
                 <h3 className="text-xl font-heading text-charcoal mb-2">New to Jazz?</h3>
                 <p className="text-warm-gray text-sm leading-relaxed">
@@ -139,7 +139,7 @@ export function Home() {
               to="/era/hard-bop"
               className="bg-surface shadow-card hover:shadow-card-hover rounded-lg overflow-hidden transition-all duration-300 group"
             >
-              <div className="h-1" style={{ backgroundColor: '#B8383B' }} />
+              <div className="h-[2px]" style={{ backgroundColor: '#D04E51' }} />
               <div className="p-6">
                 <h3 className="text-xl font-heading text-charcoal mb-2">Want Soul & Groove?</h3>
                 <p className="text-warm-gray text-sm leading-relaxed">
@@ -156,7 +156,7 @@ export function Home() {
               to="/era/free-jazz"
               className="bg-surface shadow-card hover:shadow-card-hover rounded-lg overflow-hidden transition-all duration-300 group"
             >
-              <div className="h-1" style={{ backgroundColor: '#7B4B94' }} />
+              <div className="h-[2px]" style={{ backgroundColor: '#A06BCA' }} />
               <div className="p-6">
                 <h3 className="text-xl font-heading text-charcoal mb-2">Ready to Go Deep?</h3>
                 <p className="text-warm-gray text-sm leading-relaxed">

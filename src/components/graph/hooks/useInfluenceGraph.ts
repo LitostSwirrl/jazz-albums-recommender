@@ -20,14 +20,14 @@ export interface GraphData {
 }
 
 export const eraColors: Record<string, string> = {
-  'early-jazz': '#8B6914',
-  'swing': '#D95B43',
-  'bebop': '#3B8686',
-  'cool-jazz': '#6B8E8E',
-  'hard-bop': '#B8383B',
-  'free-jazz': '#7B4B94',
-  'fusion': '#D97B3E',
-  'contemporary': '#2B6B5E',
+  'early-jazz': '#C9A84C',
+  'swing': '#E6704E',
+  'bebop': '#4ECDC4',
+  'cool-jazz': '#84B4B4',
+  'hard-bop': '#D04E51',
+  'free-jazz': '#A06BCA',
+  'fusion': '#E89B4C',
+  'contemporary': '#3DA68E',
 };
 
 function getNodeSize(influenceCount: number): 'sm' | 'md' | 'lg' | 'xl' {
@@ -41,48 +41,36 @@ export function useInfluenceGraph(
   artists: Artist[],
   eras: Era[],
   albums: Album[],
-  filter?: { focusArtistId?: string; depth?: number; eraFilter?: string; genreFilter?: string }
+  filter?: { eraFilter?: string; pathArtistIds?: string[] }
 ): GraphData {
   return useMemo(() => {
     const artistMap = new Map(artists.map((a) => [a.id, a]));
     const eraMap = new Map(eras.map((e) => [e.id, e]));
-
-    // Build artist-to-genres map from albums
-    const artistGenres = new Map<string, Set<string>>();
-    albums.forEach((album) => {
-      const genres = artistGenres.get(album.artistId) || new Set();
-      album.genres.forEach((g) => genres.add(g.toLowerCase()));
-      artistGenres.set(album.artistId, genres);
-    });
 
     // Filter to artists with connections
     let relevantArtists = artists.filter(
       (a) => a.influences.length > 0 || a.influencedBy.length > 0
     );
 
-    // Apply era filter
-    if (filter?.eraFilter) {
+    // Path mode: show path artists + 1-hop neighbors
+    if (filter?.pathArtistIds && filter.pathArtistIds.length >= 2) {
+      const pathSet = new Set(filter.pathArtistIds);
+      const expandedSet = new Set(pathSet);
+      for (const artistId of pathSet) {
+        const artist = artistMap.get(artistId);
+        if (!artist) continue;
+        for (const neighborId of [...artist.influences, ...artist.influencedBy]) {
+          if (artistMap.has(neighborId)) {
+            expandedSet.add(neighborId);
+          }
+        }
+      }
+      relevantArtists = relevantArtists.filter((a) => expandedSet.has(a.id));
+    } else if (filter?.eraFilter) {
+      // Default era filter mode
       relevantArtists = relevantArtists.filter((a) =>
         a.eras.includes(filter.eraFilter as Artist['eras'][number])
       );
-    }
-
-    // Apply genre filter
-    if (filter?.genreFilter) {
-      relevantArtists = relevantArtists.filter((a) => {
-        const genres = artistGenres.get(a.id);
-        return genres?.has(filter.genreFilter!.toLowerCase());
-      });
-    }
-
-    // Apply focus filter (N-hop neighborhood)
-    if (filter?.focusArtistId && filter?.depth !== undefined) {
-      const focusSet = getNeighborhood(
-        filter.focusArtistId,
-        filter.depth,
-        artistMap
-      );
-      relevantArtists = relevantArtists.filter((a) => focusSet.has(a.id));
     }
 
     // Calculate influence counts
@@ -100,7 +88,7 @@ export function useInfluenceGraph(
       return {
         id: artist.id,
         type: 'artist',
-        position: { x: 0, y: 0 }, // Will be set by layout
+        position: { x: 0, y: 0 },
         data: {
           artist,
           era,
@@ -133,14 +121,14 @@ export function useInfluenceGraph(
         type: 'connection',
         animated: false,
         style: {
-          stroke: '#D95B43',
+          stroke: '#E63946',
           strokeWidth: 2,
           strokeDasharray: hasDirectSource ? undefined : '6 3',
         },
         data: conn ? { explanation: conn.explanation, verified: conn.verified } : undefined,
         markerEnd: {
           type: MarkerType.ArrowClosed,
-          color: '#D95B43',
+          color: '#E63946',
           width: 20,
           height: 20,
         },
@@ -153,7 +141,7 @@ export function useInfluenceGraph(
     });
 
     return { nodes, edges, artistMap };
-  }, [artists, eras, albums, filter?.focusArtistId, filter?.depth, filter?.eraFilter, filter?.genreFilter]);
+  }, [artists, eras, albums, filter?.eraFilter, filter?.pathArtistIds]);
 }
 
 // Get N-hop neighborhood around a focus artist
@@ -217,5 +205,8 @@ export function findShortestPath(
     }
   }
 
-  return null; // No path found
+  return null;
 }
+
+// Re-export for backward compatibility
+export { getNeighborhood };

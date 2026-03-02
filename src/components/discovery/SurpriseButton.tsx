@@ -34,7 +34,7 @@ export function SurpriseButton({ albums, artists, variant = 'button', className 
     return (
       <button
         onClick={handleSurprise}
-        className={`p-2 rounded-lg bg-cream hover:bg-border text-coral hover:text-coral/80 transition-colors ${className}`}
+        className={`p-2 rounded-lg bg-surface hover:bg-border text-coral hover:text-coral/80 transition-colors ${className}`}
         title="Surprise me!"
       >
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

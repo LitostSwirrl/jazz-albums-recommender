@@ -11,14 +11,14 @@ const albums = albumsData as Album[];
 const artists = artistsData as Artist[];
 
 const eraColors: Record<string, string> = {
-  'early-jazz': '#8B6914',
-  'swing': '#D95B43',
-  'bebop': '#3B8686',
-  'cool-jazz': '#6B8E8E',
-  'hard-bop': '#B8383B',
-  'free-jazz': '#7B4B94',
-  'fusion': '#D97B3E',
-  'contemporary': '#2B6B5E',
+  'early-jazz': '#C9A84C',
+  'swing': '#E6704E',
+  'bebop': '#4ECDC4',
+  'cool-jazz': '#84B4B4',
+  'hard-bop': '#D04E51',
+  'free-jazz': '#A06BCA',
+  'fusion': '#E89B4C',
+  'contemporary': '#3DA68E',
 };
 
 function getEraStats(eraId: EraId) {
@@ -76,7 +76,7 @@ export function Timeline() {
               {/* Timeline dot */}
               <div
                 className="hidden md:block absolute left-1/2 top-8 w-6 h-6 rounded-full border-4 transform -translate-x-1/2 z-10"
-                style={{ backgroundColor: color, borderColor: '#FAF7F0' }}
+                style={{ backgroundColor: color, borderColor: '#0D0D0D' }}
               />
 
               {/* Era card */}
@@ -134,7 +134,7 @@ export function Timeline() {
                       <Link
                         key={artist.id}
                         to={`/artist/${artist.id}`}
-                        className="px-3 py-1 text-sm rounded-full bg-cream border border-border text-charcoal hover:text-coral transition-colors"
+                        className="px-3 py-1 text-sm rounded-full bg-surface border border-border text-charcoal hover:text-coral transition-colors"
                       >
                         {artist.name}
                       </Link>
@@ -152,7 +152,7 @@ export function Timeline() {
                       <Link
                         key={album.id}
                         to={`/album/${album.id}`}
-                        className="flex items-center gap-3 p-2 rounded-lg bg-cream hover:bg-border-light transition-colors group"
+                        className="flex items-center gap-3 p-2 rounded-lg bg-surface hover:bg-border transition-colors group"
                       >
                         <div className="w-10 h-10 flex-shrink-0">
                           <AlbumCover coverUrl={album.coverUrl} title={album.title} size="sm" pixelWidth={200} priority />
@@ -188,25 +188,25 @@ export function Timeline() {
       <div className="mt-16 p-8 rounded-xl bg-surface border border-border shadow-card">
         <h2 className="text-2xl font-bold mb-6 text-center font-heading text-charcoal">How Eras Connect</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-          <div className="p-4 rounded-lg bg-cream border border-border-light">
+          <div className="p-4 rounded-lg bg-surface border border-border">
             <div className="text-coral font-semibold mb-2">Early Jazz &rarr; Swing</div>
             <p className="text-sm text-warm-gray">
               New Orleans pioneers created the vocabulary; big bands scaled it up for dance halls.
             </p>
           </div>
-          <div className="p-4 rounded-lg bg-cream border border-border-light">
+          <div className="p-4 rounded-lg bg-surface border border-border">
             <div className="text-teal font-semibold mb-2">Swing &rarr; Bebop</div>
             <p className="text-sm text-warm-gray">
               Young rebels turned dance music into art music, emphasizing virtuosity and complexity.
             </p>
           </div>
-          <div className="p-4 rounded-lg bg-cream border border-border-light">
+          <div className="p-4 rounded-lg bg-surface border border-border">
             <div className="text-teal font-semibold mb-2">Bebop &rarr; Cool/Hard Bop</div>
             <p className="text-sm text-warm-gray">
               Two paths diverged: West Coast cool sophistication vs. East Coast blues-drenched intensity.
             </p>
           </div>
-          <div className="p-4 rounded-lg bg-cream border border-border-light">
+          <div className="p-4 rounded-lg bg-surface border border-border">
             <div className="text-coral font-semibold mb-2">Hard Bop &rarr; Free Jazz</div>
             <p className="text-sm text-warm-gray">
               The ultimate rebellion: abandoning chord changes entirely for pure expression.

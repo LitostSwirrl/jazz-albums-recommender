@@ -5,9 +5,7 @@ export { ArtistNode } from './nodes/ArtistNode';
 export { ConnectionEdge } from './edges/ConnectionEdge';
 
 // Controls
-export { SearchPanel } from './controls/SearchPanel';
-export { PathFinder } from './controls/PathFinder';
-export { FocusControls } from './controls/FocusControls';
+export { ArtistDropdown } from './controls/ArtistDropdown';
 
 // Components
 export { MiniInfluenceNetwork } from './MiniInfluenceNetwork';

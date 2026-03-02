@@ -38,11 +38,11 @@ function ArtistNodeComponent({ data, selected }: ArtistNodeProps) {
   const borderColor = era ? eraColors[era.id] || '#4A4A5A' : '#4A4A5A';
 
   const baseClasses = `
-    block rounded-lg bg-navy border-2 text-center transition-all duration-200
+    block rounded-lg bg-surface border-2 text-center transition-all duration-200
     ${sizeClasses[size]}
     ${dimmed ? 'opacity-30' : 'opacity-100'}
-    ${highlighted || selected ? 'ring-2 ring-teal ring-offset-2 ring-offset-navy' : ''}
-    ${isPathNode ? 'ring-2 ring-coral ring-offset-2 ring-offset-navy' : ''}
+    ${highlighted || selected ? 'ring-2 ring-teal ring-offset-2 ring-offset-cream' : ''}
+    ${isPathNode ? 'ring-2 ring-coral ring-offset-2 ring-offset-cream' : ''}
     hover:scale-105
   `;
 
@@ -54,10 +54,10 @@ function ArtistNodeComponent({ data, selected }: ArtistNodeProps) {
         className={baseClasses}
         style={{ borderColor }}
       >
-        <div className={`font-semibold text-white truncate ${textSizeClasses[size]}`}>
+        <div className={`font-semibold text-charcoal truncate ${textSizeClasses[size]}`}>
           {artist.name}
         </div>
-        <div className="text-xs text-white/50 truncate">
+        <div className="text-xs text-warm-gray truncate">
           {artist.instruments.slice(0, 2).join(', ')}
         </div>
         {era && (
@@ -69,7 +69,7 @@ function ArtistNodeComponent({ data, selected }: ArtistNodeProps) {
           </div>
         )}
         {influenceCount > 0 && (
-          <div className="text-xs text-white/30 mt-1">
+          <div className="text-xs text-warm-gray/50 mt-1">
             {influenceCount} connections
           </div>
         )}

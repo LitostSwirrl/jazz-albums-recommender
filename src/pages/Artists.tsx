@@ -217,7 +217,7 @@ export function Artists() {
             </h2>
 
             <p className="text-warm-gray text-sm mb-3">
-              {artist.birthYear}\u2013{artist.deathYear || 'present'}
+              {artist.birthYear}&ndash;{artist.deathYear || 'present'}
             </p>
 
             <p className="text-warm-gray text-sm mb-4">

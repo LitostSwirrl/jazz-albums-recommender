@@ -83,7 +83,7 @@ export function Album() {
               <Link
                 key={genre}
                 to={`/albums?genre=${encodeURIComponent(genre)}`}
-                className="px-3 py-1 rounded-full text-sm bg-cream border border-border text-charcoal hover:bg-coral/10 hover:text-coral hover:border-coral transition-colors"
+                className="px-3 py-1 rounded-full text-sm bg-surface border border-border text-charcoal hover:bg-coral/10 hover:text-coral hover:border-coral transition-colors"
               >
                 {genre}
               </Link>
@@ -210,7 +210,7 @@ export function Album() {
                 href={album.youtubeUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-charcoal/80 text-white font-medium hover:bg-charcoal transition-colors"
+                className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#333333] text-white font-medium hover:bg-[#444444] transition-colors"
               >
                 <YouTubeIcon className="w-5 h-5" />
                 YouTube

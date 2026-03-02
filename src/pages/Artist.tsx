@@ -30,7 +30,7 @@ function SourceBadge({ source }: { source: ArtistConnection['sources'][number] }
         href={source.url}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-xs bg-cream text-warm-gray hover:text-coral transition-colors"
+        className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-xs bg-border text-warm-gray hover:text-coral transition-colors"
       >
         {label}
         <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -41,7 +41,7 @@ function SourceBadge({ source }: { source: ArtistConnection['sources'][number] }
   }
 
   return (
-    <span className="inline-flex items-center px-2 py-0.5 rounded text-xs bg-cream text-warm-gray">
+    <span className="inline-flex items-center px-2 py-0.5 rounded text-xs bg-border text-warm-gray">
       {label}
       {source.title && `: ${source.title}`}
     </span>

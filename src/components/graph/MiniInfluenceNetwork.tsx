@@ -33,11 +33,11 @@ function MiniArtistNode({ data }: { data: MiniNodeData }) {
       <Link
         to={`/artist/${artist.id}`}
         className={`block px-2 py-1 rounded text-center transition-all duration-200 hover:scale-105 ${
-          isCenter ? 'bg-white/10 border-2' : 'bg-navy border'
+          isCenter ? 'bg-border border-2' : 'bg-surface border'
         }`}
         style={{ borderColor }}
       >
-        <div className={`text-xs font-medium text-white truncate max-w-[80px] ${isCenter ? 'text-sm' : ''}`}>
+        <div className={`text-xs font-medium text-charcoal truncate max-w-[80px] ${isCenter ? 'text-sm' : ''}`}>
           {artist.name}
         </div>
       </Link>
@@ -121,7 +121,7 @@ function MiniInfluenceNetworkInner({ artist, allArtists, eras }: MiniInfluenceNe
         source: inf.id,
         target: artist.id,
         type: 'smoothstep',
-        style: { stroke: '#D95B43', strokeWidth: 2 },
+        style: { stroke: '#E63946', strokeWidth: 2 },
         animated: false,
       })),
       ...influenced.map((inf) => ({
@@ -129,7 +129,7 @@ function MiniInfluenceNetworkInner({ artist, allArtists, eras }: MiniInfluenceNe
         source: artist.id,
         target: inf.id,
         type: 'smoothstep',
-        style: { stroke: '#D95B43', strokeWidth: 2 },
+        style: { stroke: '#E63946', strokeWidth: 2 },
         animated: false,
       })),
     ];
@@ -155,7 +155,7 @@ function MiniInfluenceNetworkInner({ artist, allArtists, eras }: MiniInfluenceNe
         nodeTypes={nodeTypes}
         defaultEdgeOptions={{
           type: 'smoothstep',
-          style: { stroke: '#D95B43', strokeWidth: 2 },
+          style: { stroke: '#E63946', strokeWidth: 2 },
         }}
         fitView
         panOnDrag={false}
@@ -167,7 +167,7 @@ function MiniInfluenceNetworkInner({ artist, allArtists, eras }: MiniInfluenceNe
         elementsSelectable={false}
         preventScrolling={false}
       >
-        <Background color="#2A2A40" gap={20} />
+        <Background color="#1A1A2E" gap={20} />
       </ReactFlow>
     </div>
   );

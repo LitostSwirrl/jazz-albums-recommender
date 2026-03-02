@@ -1,4 +1,4 @@
-import { useCallback, useState, useMemo, useEffect } from 'react';
+import { useCallback, useState, useMemo, useEffect, useRef } from 'react';
 import {
   ReactFlow,
   Background,
@@ -17,17 +17,17 @@ import erasData from '../data/eras.json';
 import { SEO } from '../components/SEO';
 import type { Artist, Era, Album } from '../types';
 import { getVerificationStats } from '../utils/connections';
+import { ArtistPhoto } from '../components/ArtistPhoto';
 import {
   ArtistNode,
   ConnectionEdge,
-  SearchPanel,
-  PathFinder,
-  FocusControls,
   useInfluenceGraph,
   useGraphLayout,
   findShortestPath,
   eraColors,
 } from '../components/graph';
+import { ArtistDropdown } from '../components/graph/controls/ArtistDropdown';
+import type { ArtistDropdownHandle } from '../components/graph/controls/ArtistDropdown';
 
 const artists = artistsData as Artist[];
 const albums = albumsData as Album[];
@@ -41,13 +41,21 @@ const edgeTypes = {
   connection: ConnectionEdge,
 };
 
+// Popular path presets
+const POPULAR_PATHS: { fromId: string; toId: string; label: string }[] = [
+  { fromId: 'miles-davis', toId: 'john-coltrane', label: 'Miles Davis \u2192 John Coltrane' },
+  { fromId: 'charlie-parker', toId: 'sonny-rollins', label: 'Charlie Parker \u2192 Sonny Rollins' },
+  { fromId: 'duke-ellington', toId: 'count-basie', label: 'Duke Ellington \u2192 Count Basie' },
+  { fromId: 'art-blakey', toId: 'wynton-marsalis', label: 'Art Blakey \u2192 Wynton Marsalis' },
+];
+
 function VerificationBadge() {
   const stats = getVerificationStats();
   if (stats.total === 0) return null;
 
   return (
     <span className="flex items-center gap-2">
-      <span className="text-emerald-600">
+      <span className="text-emerald-400">
         <svg className="w-3.5 h-3.5 inline" fill="currentColor" viewBox="0 0 20 20">
           <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
         </svg>
@@ -57,40 +65,61 @@ function VerificationBadge() {
   );
 }
 
+function PathResult({ path, artistMap }: { path: string[]; artistMap: Map<string, Artist> }) {
+  return (
+    <div className="mt-4 p-4 bg-surface border border-coral/30 rounded-lg">
+      <div className="text-sm text-coral mb-3 font-mono">
+        Connected in {path.length - 1} degree{path.length > 2 ? 's' : ''} of separation
+      </div>
+      <div className="flex flex-wrap items-center gap-2">
+        {path.map((id, index) => {
+          const artist = artistMap.get(id);
+          if (!artist) return null;
+          return (
+            <span key={id} className="flex items-center gap-2">
+              <ArtistPhoto imageUrl={artist.imageUrl} name={artist.name} size="sm" />
+              <span className="text-charcoal font-medium text-sm">{artist.name}</span>
+              {index < path.length - 1 && (
+                <svg className="w-4 h-4 text-coral mx-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              )}
+            </span>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
 function InfluenceGraphInner() {
-  const { fitView, setCenter } = useReactFlow();
+  const { fitView } = useReactFlow();
 
-  // Focus state
-  const [focusArtist, setFocusArtist] = useState<Artist | null>(null);
-  const [focusDepth, setFocusDepth] = useState(2);
+  const [fromArtist, setFromArtist] = useState<Artist | null>(null);
+  const [toArtist, setToArtist] = useState<Artist | null>(null);
+  const toDropdownRef = useRef<ArtistDropdownHandle>(null);
 
-  // Path finding state
-  const [currentPath, setCurrentPath] = useState<string[] | null>(null);
-  const [pathSearched, setPathSearched] = useState(false);
+  const artistMap = useMemo(() => new Map(artists.map((a) => [a.id, a])), []);
 
-  // Era filter state - default to bebop for a focused starting view
-  const [eraFilter, setEraFilter] = useState<string | null>('bebop');
+  // Auto-find path when both artists are selected
+  const currentPath = useMemo(() => {
+    if (!fromArtist || !toArtist) return null;
+    if (fromArtist.id === toArtist.id) return null;
+    return findShortestPath(fromArtist.id, toArtist.id, artistMap);
+  }, [fromArtist, toArtist, artistMap]);
 
-  // Genre filter state
-  const [genreFilter, setGenreFilter] = useState<string | null>(null);
+  // Graph filter: path mode or default bebop
+  const filter = useMemo(() => {
+    if (currentPath && currentPath.length >= 2) {
+      return { pathArtistIds: currentPath };
+    }
+    return { eraFilter: 'bebop' };
+  }, [currentPath]);
 
-  // Instructions visibility
-  const [showInstructions, setShowInstructions] = useState(true);
-
-  // Get graph data with filters
-  const filter = useMemo(() => ({
-    focusArtistId: focusArtist?.id,
-    depth: focusArtist ? focusDepth : undefined,
-    eraFilter: eraFilter || undefined,
-    genreFilter: genreFilter || undefined,
-  }), [focusArtist, focusDepth, eraFilter, genreFilter]);
-
-  const { nodes: graphNodes, edges: graphEdges, artistMap } = useInfluenceGraph(artists, eras, albums, filter);
-
-  // Apply dagre layout
+  const { nodes: graphNodes, edges: graphEdges } = useInfluenceGraph(artists, eras, albums, filter);
   const { nodes: layoutedNodes, edges: layoutedEdges } = useGraphLayout(graphNodes, graphEdges);
 
-  // Apply path highlighting to edges
+  // Apply path highlighting
   const pathSet = useMemo(() => {
     if (!currentPath || currentPath.length < 2) return new Set<string>();
     const set = new Set<string>();
@@ -101,7 +130,6 @@ function InfluenceGraphInner() {
     return set;
   }, [currentPath]);
 
-  // Enhanced nodes with path highlighting
   const enhancedNodes = useMemo(() => {
     if (!currentPath) return layoutedNodes;
     const pathNodeSet = new Set(currentPath);
@@ -115,14 +143,13 @@ function InfluenceGraphInner() {
     }));
   }, [layoutedNodes, currentPath]);
 
-  // Enhanced edges with path highlighting - preserve markerEnd and dasharray
   const enhancedEdges = useMemo(() => {
     return layoutedEdges.map((edge) => {
       const isPathEdge = pathSet.has(edge.id) || pathSet.has(`${edge.target}->${edge.source}`);
       return {
         ...edge,
         style: {
-          stroke: isPathEdge ? '#C7B042' : '#D95B43',
+          stroke: isPathEdge ? '#D4A843' : '#E63946',
           strokeWidth: isPathEdge ? 4 : 2,
           strokeDasharray: isPathEdge ? undefined : edge.style?.strokeDasharray,
           opacity: 1,
@@ -136,13 +163,27 @@ function InfluenceGraphInner() {
   const [nodes, setNodes, onNodesChange] = useNodesState(enhancedNodes);
   const [edges, setEdges, onEdgesChange] = useEdgesState(enhancedEdges);
 
-  // Update nodes/edges when data changes
   useEffect(() => {
     setNodes(enhancedNodes);
     setEdges(enhancedEdges);
   }, [enhancedNodes, enhancedEdges, setNodes, setEdges]);
 
-  // Handle node click - highlight connections and preserve arrows + dasharray
+  // Auto-fit when path changes
+  useEffect(() => {
+    if (currentPath && currentPath.length >= 2) {
+      setTimeout(() => fitView({ duration: 800, padding: 0.3 }), 200);
+    }
+  }, [currentPath, fitView]);
+
+  // Auto-focus "To" dropdown after selecting "From"
+  const handleFromSelect = useCallback((artist: Artist | null) => {
+    setFromArtist(artist);
+    if (artist && !toArtist) {
+      setTimeout(() => toDropdownRef.current?.focus(), 100);
+    }
+  }, [toArtist]);
+
+  // Handle node click
   const onNodeClick = useCallback((_event: React.MouseEvent, node: Node) => {
     setEdges((eds) =>
       eds.map((edge) => {
@@ -152,7 +193,7 @@ function InfluenceGraphInner() {
           ...edge,
           style: {
             ...edge.style,
-            stroke: isPathEdge ? '#C7B042' : isConnected ? '#3B8686' : '#D95B43',
+            stroke: isPathEdge ? '#D4A843' : isConnected ? '#A8DADC' : '#E63946',
             strokeWidth: isPathEdge ? 4 : isConnected ? 3 : 2,
           },
           markerEnd: edge.markerEnd,
@@ -161,236 +202,113 @@ function InfluenceGraphInner() {
     );
   }, [setEdges, pathSet]);
 
-  // Handle search selection - center on artist
-  const handleSearchSelect = useCallback((artist: Artist) => {
-    const node = nodes.find((n) => n.id === artist.id);
-    if (node) {
-      setCenter(node.position.x + 80, node.position.y + 40, { zoom: 1.2, duration: 800 });
+  // Handle popular path preset click
+  const handlePresetClick = useCallback((fromId: string, toId: string) => {
+    const from = artistMap.get(fromId);
+    const to = artistMap.get(toId);
+    if (from && to) {
+      setFromArtist(from);
+      setToArtist(to);
     }
-  }, [nodes, setCenter]);
+  }, [artistMap]);
 
-  // Handle focus on artist
-  const handleFocusArtist = useCallback((artist: Artist) => {
-    setFocusArtist(artist);
-    setCurrentPath(null);
-    setPathSearched(false);
-    setTimeout(() => fitView({ duration: 800 }), 100);
-  }, [fitView]);
-
-  // Handle path finding
-  const handleFindPath = useCallback((startId: string, endId: string) => {
-    const path = findShortestPath(startId, endId, artistMap);
-    setCurrentPath(path);
-    setPathSearched(true);
-    if (path) {
-      setTimeout(() => fitView({ duration: 800, padding: 0.2 }), 100);
-    }
-  }, [artistMap, fitView]);
-
-  const handleClearPath = useCallback(() => {
-    setCurrentPath(null);
-    setPathSearched(false);
-  }, []);
-
-  const handleClearFocus = useCallback(() => {
-    setFocusArtist(null);
-    setTimeout(() => fitView({ duration: 800 }), 100);
-  }, [fitView]);
+  const showPresets = !fromArtist && !toArtist;
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-8 page-enter">
       <SEO
-        title="Artist Influence Network"
-        description="Explore how jazz musicians influenced each other across generations. Discover connections between artists and trace the evolution of jazz through influence relationships."
+        title="Connection Finder"
+        description="Trace influence paths between jazz musicians. Discover how artists shaped each other across generations."
       />
-      <div className="mb-6">
-        <h1 className="text-4xl font-bold mb-2 font-display text-charcoal">Artist Influence Network</h1>
-        <p className="text-warm-gray mb-4">
-          Explore how jazz musicians influenced each other across generations.
-          Search for an artist, find connections between two musicians, or click to explore.
-        </p>
 
-        {/* Getting Started Panel - prominent instructions */}
-        {showInstructions && (
-          <div className="mb-4 p-4 rounded-lg bg-surface border border-coral/30 shadow-card">
-            <div className="flex items-center justify-between mb-3">
-              <h3 className="text-lg font-semibold text-coral font-heading">Getting Started</h3>
-              <button
-                onClick={() => setShowInstructions(false)}
-                className="text-sm text-warm-gray hover:text-charcoal transition-colors"
-              >
-                Hide
-              </button>
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-              <div className="flex items-start gap-3">
-                <div className="w-7 h-7 rounded-full bg-coral/10 flex items-center justify-center shrink-0">
-                  <span className="text-coral font-bold text-sm">1</span>
-                </div>
-                <div>
-                  <p className="text-charcoal font-medium text-sm">Choose an Era</p>
-                  <p className="text-xs text-warm-gray">Filter by jazz period (starts with Bebop)</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="w-7 h-7 rounded-full bg-coral/10 flex items-center justify-center shrink-0">
-                  <span className="text-coral font-bold text-sm">2</span>
-                </div>
-                <div>
-                  <p className="text-charcoal font-medium text-sm">Click Any Artist</p>
-                  <p className="text-xs text-warm-gray">Highlight their connections</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="w-7 h-7 rounded-full bg-coral/10 flex items-center justify-center shrink-0">
-                  <span className="text-coral font-bold text-sm">3</span>
-                </div>
-                <div>
-                  <p className="text-charcoal font-medium text-sm">Find Connections</p>
-                  <p className="text-xs text-warm-gray">Trace paths between two musicians</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="w-7 h-7 rounded-full bg-coral/10 flex items-center justify-center shrink-0">
-                  <span className="text-coral font-bold text-sm">4</span>
-                </div>
-                <div>
-                  <p className="text-charcoal font-medium text-sm">Explore Freely</p>
-                  <p className="text-xs text-warm-gray">Drag to pan, scroll to zoom</p>
-                </div>
-              </div>
-            </div>
-            <p className="mt-3 text-xs text-warm-gray">
-              Tip: Arrows flow from <em>influencer</em> &rarr; <em>influenced</em>. Click &ldquo;All Eras&rdquo; to see the full network.
-            </p>
-          </div>
-        )}
-        {!showInstructions && (
-          <button
-            onClick={() => setShowInstructions(true)}
-            className="mb-4 text-sm text-coral hover:text-coral/80 transition-colors"
-          >
-            Show instructions
-          </button>
-        )}
+      {/* Header */}
+      <div className="mb-6">
+        <h1 className="text-4xl font-bold mb-2 font-display text-charcoal">Connection Finder</h1>
+        <p className="text-warm-gray">
+          Select two artists to trace their influence path.
+        </p>
       </div>
 
-      {/* Controls Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-        {/* Search Panel */}
-        <div>
-          <label className="block text-sm text-warm-gray mb-2">Search & Center</label>
-          <SearchPanel
-            artists={artists}
-            onSelect={handleSearchSelect}
-            placeholder="Search artist to center view..."
-          />
-        </div>
-
-        {/* Era Filter */}
-        <div>
-          <label className="block text-sm text-warm-gray mb-2">Filter by Era</label>
+      {/* Popular paths showcase */}
+      {showPresets && (
+        <div className="mb-6">
+          <p className="text-xs text-warm-gray uppercase tracking-widest mb-3 font-mono">Try these paths</p>
           <div className="flex flex-wrap gap-2">
-            <button
-              onClick={() => setEraFilter(null)}
-              className={`px-3 py-1.5 rounded-full text-sm transition-colors ${
-                !eraFilter
-                  ? 'bg-coral text-white'
-                  : 'bg-cream border border-border text-warm-gray hover:border-charcoal hover:text-charcoal'
-              }`}
-            >
-              All Eras
-            </button>
-            {eras.map((era) => (
+            {POPULAR_PATHS.map((preset) => (
               <button
-                key={era.id}
-                onClick={() => setEraFilter(eraFilter === era.id ? null : era.id)}
-                className={`px-3 py-1.5 rounded-full text-sm transition-colors ${
-                  eraFilter === era.id
-                    ? 'text-white'
-                    : 'bg-cream border border-border text-warm-gray hover:border-charcoal hover:text-charcoal'
-                }`}
-                style={eraFilter === era.id ? { backgroundColor: eraColors[era.id] } : {}}
+                key={`${preset.fromId}-${preset.toId}`}
+                onClick={() => handlePresetClick(preset.fromId, preset.toId)}
+                className="px-4 py-2 rounded-lg bg-surface border border-border text-charcoal text-sm hover:border-coral hover:text-coral transition-colors"
               >
-                {era.name.split(' ')[0]}
+                {preset.label}
               </button>
             ))}
           </div>
         </div>
-      </div>
+      )}
 
-      {/* Genre/Style Filter */}
+      {/* Two dropdowns */}
       <div className="mb-6">
-        <label className="block text-sm text-warm-gray mb-2">Filter by Style</label>
-        <div className="flex flex-wrap gap-2">
-          <button
-            onClick={() => setGenreFilter(null)}
-            className={`px-3 py-1.5 rounded-full text-sm transition-colors ${
-              !genreFilter
-                ? 'bg-coral text-white'
-                : 'bg-cream border border-border text-warm-gray hover:border-charcoal hover:text-charcoal'
-            }`}
-          >
-            All Styles
-          </button>
-          {['modal jazz', 'hard bop', 'bebop', 'free jazz', 'jazz fusion', 'cool jazz', 'soul jazz', 'post-bop', 'avant-garde jazz', 'spiritual jazz', 'latin jazz'].map((genre) => (
-            <button
-              key={genre}
-              onClick={() => setGenreFilter(genreFilter === genre ? null : genre)}
-              className={`px-3 py-1.5 rounded-full text-sm transition-colors capitalize ${
-                genreFilter === genre
-                  ? 'bg-coral text-white'
-                  : 'bg-cream border border-border text-warm-gray hover:border-charcoal hover:text-charcoal'
-              }`}
-            >
-              {genre}
-            </button>
-          ))}
+        <div className="grid grid-cols-1 md:grid-cols-[1fr_auto_1fr] gap-4 items-start">
+          <div>
+            <label className="block text-xs text-warm-gray uppercase tracking-widest mb-2 font-mono">From Artist</label>
+            <ArtistDropdown
+              artists={artists}
+              selectedArtist={fromArtist}
+              onSelect={handleFromSelect}
+              placeholder="Search by name or instrument..."
+              excludeArtistId={toArtist?.id}
+            />
+          </div>
+
+          {/* Arrow connector */}
+          <div className="hidden md:flex items-center pt-7">
+            <svg className="w-8 h-8 text-coral" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </div>
+
+          <div>
+            <label className="block text-xs text-warm-gray uppercase tracking-widest mb-2 font-mono">To Artist</label>
+            <ArtistDropdown
+              ref={toDropdownRef}
+              artists={artists}
+              selectedArtist={toArtist}
+              onSelect={setToArtist}
+              placeholder="Search by name or instrument..."
+              excludeArtistId={fromArtist?.id}
+            />
+          </div>
         </div>
-      </div>
 
-      {/* Focus Controls */}
-      <div className="mb-4">
-        <FocusControls
-          focusArtist={focusArtist}
-          depth={focusDepth}
-          onDepthChange={setFocusDepth}
-          onClearFocus={handleClearFocus}
-        />
-      </div>
-
-      {/* Path Finder */}
-      <div className="mb-6">
-        <PathFinder
-          artists={artists}
-          onFindPath={handleFindPath}
-          onClear={handleClearPath}
-          currentPath={pathSearched ? currentPath : null}
-          artistMap={artistMap}
-        />
+        {/* Path result */}
+        {fromArtist && toArtist && currentPath && (
+          <PathResult path={currentPath} artistMap={artistMap} />
+        )}
+        {fromArtist && toArtist && !currentPath && (
+          <div className="mt-4 p-4 bg-surface border border-border rounded-lg">
+            <p className="text-warm-gray text-sm">
+              No documented influence path between <span className="text-charcoal font-medium">{fromArtist.name}</span> and <span className="text-charcoal font-medium">{toArtist.name}</span>.
+              They may be from unrelated jazz traditions.
+            </p>
+          </div>
+        )}
       </div>
 
       {/* Era Legend */}
       <div className="flex flex-wrap gap-3 mb-4">
         {eras.map((era) => (
-          <button
-            key={era.id}
-            onClick={() => {
-              const found = artists.find((a) => a.eras[0] === era.id);
-              if (found) handleFocusArtist(found);
-            }}
-            className="flex items-center gap-2 hover:opacity-80 transition-opacity"
-          >
+          <div key={era.id} className="flex items-center gap-2">
             <div
               className="w-3 h-3 rounded-full"
               style={{ backgroundColor: eraColors[era.id] }}
             />
-            <span className="text-sm text-warm-gray">{era.name}</span>
-          </button>
+            <span className="text-xs text-warm-gray">{era.name}</span>
+          </div>
         ))}
       </div>
 
-      {/* Graph Container - KEEP DARK for contrast */}
+      {/* Graph Container */}
       <div className="h-[600px] rounded-lg border border-border overflow-hidden bg-navy">
         <ReactFlow
           nodes={nodes}
@@ -402,7 +320,7 @@ function InfluenceGraphInner() {
           edgeTypes={edgeTypes}
           defaultEdgeOptions={{
             type: 'connection',
-            style: { stroke: '#D95B43', strokeWidth: 2 },
+            style: { stroke: '#E63946', strokeWidth: 2 },
             animated: false,
           }}
           fitView
@@ -411,15 +329,15 @@ function InfluenceGraphInner() {
           edgesReconnectable={false}
           elevateEdgesOnSelect
         >
-          <Background color="#2A2A40" gap={20} />
-          <Controls className="bg-navy border-white/10" />
+          <Background color="#1A1A2E" gap={20} />
+          <Controls className="bg-surface border-border" />
           <MiniMap
             nodeColor={(node) => {
               const era = (node.data as { era?: Era }).era;
               return era ? eraColors[era.id] || '#4A4A5A' : '#4A4A5A';
             }}
             maskColor="rgba(0, 0, 0, 0.8)"
-            className="bg-navy border-white/10"
+            className="bg-navy border-border"
           />
         </ReactFlow>
       </div>
@@ -428,23 +346,7 @@ function InfluenceGraphInner() {
       <div className="mt-4 flex items-center gap-6 text-sm text-warm-gray">
         <span>Showing {nodes.length} artists</span>
         <span>{edges.length} connections</span>
-        {focusArtist && <span>Focused on {focusArtist.name}</span>}
         <VerificationBadge />
-      </div>
-
-      {/* Instructions */}
-      <div className="mt-6 p-4 rounded-lg bg-surface border border-border shadow-card">
-        <h3 className="font-semibold text-coral font-heading mb-2">How to Explore</h3>
-        <ul className="text-sm text-warm-gray space-y-1">
-          <li><strong className="text-charcoal">Search</strong> - Find an artist and center the view on them</li>
-          <li><strong className="text-charcoal">Find Connection</strong> - Discover how two artists are linked</li>
-          <li><strong className="text-charcoal">Click artist</strong> - Highlight their direct connections</li>
-          <li><strong className="text-charcoal">Click artist name</strong> - Visit their full profile</li>
-          <li><strong className="text-charcoal">Drag/Scroll</strong> - Pan and zoom the graph</li>
-          <li>Arrows flow from <em>influencer</em> to <em>influenced</em></li>
-          <li><strong className="text-charcoal">Solid lines</strong> = Wikipedia-sourced &middot; <strong className="text-charcoal">Dashed lines</strong> = editorial (book references)</li>
-          <li><strong className="text-charcoal">Hover edges</strong> to see connection details</li>
-        </ul>
       </div>
     </div>
   );

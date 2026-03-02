@@ -52,7 +52,7 @@ export function HistoricalEventCard({ event, compact = false }: HistoricalEventC
       <h3 className="text-lg font-bold text-charcoal mb-2">{event.title}</h3>
       <p className="text-warm-gray text-sm leading-relaxed mb-3">{event.description}</p>
 
-      <div className="p-3 rounded-md bg-cream mb-3">
+      <div className="p-3 rounded-md bg-border mb-3">
         <p className="text-sm font-medium text-charcoal mb-1" style={{ color: config.color }}>
           Jazz Connection
         </p>
@@ -65,7 +65,7 @@ export function HistoricalEventCard({ event, compact = false }: HistoricalEventC
             <Link
               key={artist.id}
               to={`/artist/${artist.id}`}
-              className="px-2 py-1 text-xs rounded-full bg-cream text-charcoal border border-border hover:border-coral hover:text-coral transition-colors"
+              className="px-2 py-1 text-xs rounded-full bg-surface text-charcoal border border-border hover:border-coral hover:text-coral transition-colors"
             >
               {artist.name}
             </Link>

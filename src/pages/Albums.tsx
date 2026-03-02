@@ -338,7 +338,7 @@ export function Albums() {
               }}
               className={`px-3 py-1.5 text-sm rounded-full border transition-all ${
                 selectedLabel?.toLowerCase() === label.toLowerCase()
-                  ? 'bg-teal border-teal text-white font-medium'
+                  ? 'bg-teal border-teal text-cream font-medium'
                   : 'border-border text-warm-gray hover:border-charcoal hover:text-charcoal'
               }`}
             >
@@ -399,7 +399,7 @@ export function Albums() {
       {filteredAlbums.length > 0 && (
         <div className="mb-4 flex items-center justify-between text-sm text-warm-gray">
           <span>
-            Showing {startIdx + 1}\u2013{Math.min(endIdx, filteredAlbums.length)} of{' '}
+            Showing {startIdx + 1}&ndash;{Math.min(endIdx, filteredAlbums.length)} of{' '}
             {filteredAlbums.length} albums
           </span>
           {totalPages > 1 && (
