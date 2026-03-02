@@ -76,10 +76,11 @@ export function getRelatedAlbums(
     .filter((a) => Math.abs(a.year - currentAlbum.year) <= 2)
     .slice(0, limit);
 
-  // Same artist (primary)
+  // Same artist (primary) — show more since it's horizontally scrollable
+  const artistLimit = Math.min(limit * 2, 16);
   const artist = otherAlbums
     .filter((a) => a.artistId === currentAlbum.artistId)
-    .slice(0, limit);
+    .slice(0, artistLimit);
 
   // Secondary artists — albums by featured collaborators
   const secondaryArtists: { artistId: string; albums: Album[] }[] = [];
@@ -87,7 +88,7 @@ export function getRelatedAlbums(
     for (const secId of currentAlbum.secondaryArtistIds) {
       const secAlbums = otherAlbums
         .filter((a) => a.artistId === secId)
-        .slice(0, limit);
+        .slice(0, artistLimit);
       if (secAlbums.length > 0) {
         secondaryArtists.push({ artistId: secId, albums: secAlbums });
       }
