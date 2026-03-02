@@ -10,7 +10,7 @@ interface RelatedAlbumsProps {
 }
 
 export function RelatedAlbums({ currentAlbum, allAlbums, allArtists }: RelatedAlbumsProps) {
-  const related = getRelatedAlbums(currentAlbum, allAlbums, 4);
+  const related = getRelatedAlbums(currentAlbum, allAlbums, 8);
   const artistMap = allArtists
     ? new Map(allArtists.map((a) => [a.id, a]))
     : null;
@@ -53,12 +53,12 @@ export function RelatedAlbums({ currentAlbum, allAlbums, allArtists }: RelatedAl
       {sections.slice(0, 3).map((section) => (
         <div key={section.title}>
           <h3 className="text-lg font-semibold font-heading text-charcoal mb-4">{section.title}</h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {section.albums.slice(0, 4).map((album) => (
+          <div className="flex gap-4 overflow-x-auto pb-2 scrollbar-thin">
+            {section.albums.slice(0, 8).map((album) => (
               <Link
                 key={album.id}
                 to={`/album/${album.id}`}
-                className="group"
+                className="group flex-shrink-0 w-36 md:w-44"
               >
                 <div className="mb-2 group-hover:scale-105 transition-transform">
                   <AlbumCover coverUrl={album.coverUrl} title={album.title} size="sm" />
