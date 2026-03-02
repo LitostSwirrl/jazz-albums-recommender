@@ -43,7 +43,7 @@ export function RelatedAlbums({ currentAlbum, allAlbums, allArtists }: RelatedAl
     sections.push({ title: `More from ${currentAlbum.label}`, albums: related.label });
   }
   if (related.year.length > 0) {
-    sections.push({ title: `Albums from ${currentAlbum.year}`, albums: related.year });
+    sections.push({ title: `Albums from around ${currentAlbum.year}`, albums: related.year });
   }
 
   if (sections.length === 0) return null;

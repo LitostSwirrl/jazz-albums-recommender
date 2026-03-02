@@ -7572,7 +7572,8 @@
       "singin-the-blues-beiderbecke",
       "bix-beiderbecke-vol-1"
     ],
-    "deathYear": 1931
+    "deathYear": 1931,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Bix_Beiderbecke_cropped.jpg"
   },
   {
     "id": "jimmie-lunceford",
@@ -7592,7 +7593,8 @@
       "for-dancers-only-lunceford",
       "lunceford-special"
     ],
-    "deathYear": 1947
+    "deathYear": 1947,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Jimmie_Lunceford_August_1946_%28Gottlieb%29.jpg"
   },
   {
     "id": "jack-teagarden",
@@ -7612,6 +7614,7 @@
       "jack-teagarden-big-eight",
       "think-well-of-me"
     ],
-    "deathYear": 1964
+    "deathYear": 1964,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Jack_Teagarden_Billboard.jpg"
   }
 ]
