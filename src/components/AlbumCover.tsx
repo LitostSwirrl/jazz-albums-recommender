@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { getProxiedUrl } from '../utils/imageProxy';
+import { hashColor } from '../utils/colors';
 
 interface AlbumCoverProps {
   coverUrl?: string;
@@ -40,24 +41,7 @@ function getInitials(title: string): string {
 }
 
 // Generate a consistent color based on title
-function getTitleColor(title: string): string {
-  const colors = [
-    '#C2694F', // coral (burnt sienna)
-    '#4ECDC4', // teal
-    '#D4A843', // mustard
-    '#7DA87D', // olive
-    '#A06BCA', // plum
-    '#C9A84C', // gold
-    '#84B4B4', // ice
-    '#D04E51', // brick red
-  ];
-
-  let hash = 0;
-  for (let i = 0; i < title.length; i++) {
-    hash = title.charCodeAt(i) + ((hash << 5) - hash);
-  }
-  return colors[Math.abs(hash) % colors.length];
-}
+const getTitleColor = hashColor;
 
 // Check if a /front URL has a valid UUID release ID (not a text slug)
 const UUID_FRONT_PATTERN = /coverartarchive\.org\/release\/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\/front$/;

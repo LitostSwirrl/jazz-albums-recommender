@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { getProxiedUrl } from '../utils/imageProxy';
+import { hashColor } from '../utils/colors';
 
 interface ArtistPhotoProps {
   imageUrl?: string;
@@ -40,24 +41,7 @@ function getInitials(name: string): string {
 }
 
 // Generate a consistent color based on name
-function getNameColor(name: string): string {
-  const colors = [
-    '#E63946', // coral
-    '#4ECDC4', // teal
-    '#D4A843', // mustard
-    '#7DA87D', // olive
-    '#A06BCA', // plum
-    '#C9A84C', // gold
-    '#84B4B4', // ice
-    '#D04E51', // brick red
-  ];
-
-  let hash = 0;
-  for (let i = 0; i < name.length; i++) {
-    hash = name.charCodeAt(i) + ((hash << 5) - hash);
-  }
-  return colors[Math.abs(hash) % colors.length];
-}
+const getNameColor = hashColor;
 
 
 export function ArtistPhoto({
@@ -79,7 +63,7 @@ export function ArtistPhoto({
 
   return (
     <div
-      className={`rounded-full flex items-center justify-center overflow-hidden relative border-2 border-border ${sizeClasses[size]} ${className}`}
+      className={`rounded-full flex items-center justify-center overflow-hidden relative border border-border/50 ${sizeClasses[size]} ${className}`}
       style={{
         backgroundColor: showFallback ? `${color}20` : undefined,
       }}

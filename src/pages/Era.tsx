@@ -71,7 +71,7 @@ export function Era() {
         className="p-8 rounded-lg mb-8"
         style={{ backgroundColor: era.color + '15', borderLeft: `4px solid ${era.color}` }}
       >
-        <h1 className="text-4xl font-bold mb-2 font-display text-charcoal">{era.name}</h1>
+        <h1 className="text-4xl mb-2 font-display text-charcoal">{era.name}</h1>
         <p className="text-xl text-warm-gray font-mono">{era.period}</p>
       </header>
 
@@ -82,7 +82,7 @@ export function Era() {
 
       {/* Characteristics */}
       <section className="mb-12">
-        <h2 className="text-2xl font-bold mb-4 font-heading text-charcoal">Characteristics</h2>
+        <h2 className="text-2xl mb-4 font-heading text-charcoal">Characteristics</h2>
         <div className="flex flex-wrap gap-3">
           {era.characteristics.map((char) => (
             <span
@@ -101,7 +101,7 @@ export function Era() {
 
       {/* Key Artists */}
       <section className="mb-12">
-        <h2 className="text-2xl font-bold mb-6 font-heading text-charcoal">Key Artists</h2>
+        <h2 className="text-2xl mb-6 font-heading text-charcoal">Key Artists</h2>
         {eraArtists.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {eraArtists.map((artist) => (
@@ -126,7 +126,7 @@ export function Era() {
 
       {/* Albums from this Era */}
       <section id="essential-albums">
-        <h2 className="text-2xl font-bold mb-6 font-heading text-charcoal">
+        <h2 className="text-2xl mb-6 font-heading text-charcoal">
           Essential Albums
           <span className="text-base font-normal text-warm-gray ml-3">
             {eraAlbums.length} albums
@@ -183,7 +183,7 @@ function EraHistoricalContext({ eraId }: { eraId: EraId }) {
   return (
     <section className="mb-12">
       <div className="flex items-center justify-between mb-6">
-        <h2 className="text-2xl font-bold font-heading text-charcoal">Historical Context</h2>
+        <h2 className="text-2xl font-heading text-charcoal">Historical Context</h2>
         <Link
           to="/context"
           className="text-coral hover:text-coral/80 text-sm"
