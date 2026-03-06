@@ -76,7 +76,7 @@ export function Artists() {
         title="Jazz Artists"
         description={`Discover the legends who shaped jazz history. Explore profiles of ${artists.length} influential jazz musicians from Louis Armstrong to Kamasi Washington.`}
       />
-      <h1 className="text-4xl font-bold mb-2 font-display text-charcoal">Jazz Artists</h1>
+      <h1 className="text-4xl mb-2 font-display text-charcoal">Jazz Artists</h1>
       <p className="text-warm-gray mb-6">
         {filteredArtists.length} {hasActiveFilters ? 'artists matching your filters' : 'legends who shaped jazz history'}
       </p>

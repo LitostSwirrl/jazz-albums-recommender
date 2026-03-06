@@ -81,6 +81,16 @@ export interface Album {
   reviews?: CriticReview[];
 }
 
+export interface CuratedPlaylist {
+  id: string;
+  name: string;
+  description: string;
+  mood: string;
+  tags: string[];
+  albums: string[];       // albumIds in curation order
+  coverAlbumId: string;   // album whose cover is used as playlist hero image
+}
+
 export type HistoricalEventCategory =
   | 'civil-rights'
   | 'economics'

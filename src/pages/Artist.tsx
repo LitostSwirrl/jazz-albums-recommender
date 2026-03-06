@@ -83,7 +83,7 @@ function ConnectionCard({ artist, connection }: { artist: ArtistType; connection
       {expanded && connection && (
         <div className="px-3 pb-3 border-t border-border">
           {connection.explanation && (
-            <p className="text-sm text-warm-gray mt-2 leading-relaxed italic">
+            <p className="text-sm text-warm-gray mt-2 leading-relaxed font-heading italic">
               &ldquo;{connection.explanation}&rdquo;
             </p>
           )}

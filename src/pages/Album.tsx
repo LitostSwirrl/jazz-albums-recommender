@@ -69,12 +69,13 @@ export function Album() {
           </Link>
 
           <div className="flex flex-wrap items-center gap-4 mt-4 font-mono text-warm-gray">
-            <Link
-              to={`/albums?year=${album.year}`}
-              className="hover:text-coral transition-colors"
-            >
-              {album.year}
-            </Link>
+            {album.year ? (
+              <Link to={`/albums?year=${album.year}`} className="hover:text-coral transition-colors">
+                {album.year}
+              </Link>
+            ) : (
+              <span className="text-warm-gray/50 font-heading italic text-sm not-italic font-mono">Year unknown</span>
+            )}
             <span>&middot;</span>
             <Link
               to={`/albums?label=${encodeURIComponent(album.label)}`}
@@ -120,7 +121,7 @@ export function Album() {
 
           {/* Forward-looking indicator */}
           {forwardLooking.ahead && forwardLooking.futureEra && (
-            <p className="mt-3 text-sm italic text-warm-gray">
+            <p className="mt-3 text-sm font-heading italic text-warm-gray">
               <span className="not-italic">&rarr;</span> Recorded during the {era?.name.split(' ')[0]} period, but pointing toward {forwardLooking.futureEra}
             </p>
           )}
@@ -131,9 +132,15 @@ export function Album() {
       <section className="mb-12">
         <h2 className="text-2xl font-heading text-charcoal mb-4">About This Album</h2>
         <p className="text-lg text-charcoal/80 leading-relaxed mb-6">{album.description}</p>
+        {/^.{10,60} is a .{5,40} (album|record) by .{5,40} from \d{4}/i.test(album.description) && (
+          <p className="text-xs text-warm-gray/50 font-mono -mt-4 mb-6">Limited editorial info available</p>
+        )}
 
         <h3 className="text-xl font-heading text-coral mb-3">Why It Matters</h3>
         <p className="text-charcoal/80 leading-relaxed">{album.significance}</p>
+        {/^A .{5,40} (entry|album|recording) from \d{4}/i.test(album.significance) && (
+          <p className="text-xs text-warm-gray/50 font-mono mt-2">Limited editorial info available</p>
+        )}
         {album.wikipedia && (
           <a
             href={album.wikipedia}
@@ -187,19 +194,23 @@ export function Album() {
       {/* Key Tracks */}
       <section className="mb-12">
         <h2 className="text-2xl font-heading text-charcoal mb-4">Key Tracks</h2>
-        <ul className="space-y-2">
-          {album.keyTracks.map((track, index) => (
-            <li
-              key={track}
-              className="flex items-center gap-4 p-3 rounded-lg bg-surface border border-border"
-            >
-              <span className="w-8 h-8 flex items-center justify-center rounded-full border-2 border-coral text-coral text-sm font-mono">
-                {index + 1}
-              </span>
-              <span className="text-charcoal">{track}</span>
-            </li>
-          ))}
-        </ul>
+        {album.keyTracks.length === 0 ? (
+          <p className="text-warm-gray/60 font-heading italic text-sm">Key tracks not yet listed.</p>
+        ) : (
+          <ul className="space-y-2">
+            {album.keyTracks.map((track, index) => (
+              <li
+                key={track}
+                className="flex items-center gap-4 p-3 rounded-lg bg-surface border border-border"
+              >
+                <span className="w-8 h-8 flex items-center justify-center rounded-full border-2 border-coral text-coral text-sm font-mono">
+                  {index + 1}
+                </span>
+                <span className="text-charcoal">{track}</span>
+              </li>
+            ))}
+          </ul>
+        )}
       </section>
 
       {/* Listen */}
@@ -252,6 +263,23 @@ export function Album() {
               </a>
             )}
           </div>
+          {album.spotifyUrl && (() => {
+            const match = album.spotifyUrl.match(/album\/([A-Za-z0-9]+)/);
+            if (!match) return null;
+            return (
+              <div className="mt-6 rounded-xl overflow-hidden">
+                <iframe
+                  src={`https://open.spotify.com/embed/album/${match[1]}?utm_source=generator&theme=0`}
+                  width="100%"
+                  height="352"
+                  frameBorder="0"
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                  title={`${album.title} on Spotify`}
+                />
+              </div>
+            );
+          })()}
         </section>
       )}
 
