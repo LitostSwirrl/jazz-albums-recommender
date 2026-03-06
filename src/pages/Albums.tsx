@@ -5,6 +5,7 @@ import erasData from '../data/eras.json';
 import { AlbumCover } from '../components/AlbumCover';
 import { SEO } from '../components/SEO';
 import { Pagination } from '../components/Pagination';
+import { normalizeSearchStr } from '../utils/strings';
 import type { Album, Era } from '../types';
 
 const albums = albumsData as Album[];
@@ -118,13 +119,13 @@ export function Albums() {
     let result = [...albums];
 
     if (searchQuery.trim()) {
-      const q = searchQuery.toLowerCase().trim();
+      const q = normalizeSearchStr(searchQuery);
       result = result.filter(
         (album) =>
-          album.title.toLowerCase().includes(q) ||
-          album.artist.toLowerCase().includes(q) ||
-          album.label.toLowerCase().includes(q) ||
-          album.genres.some((g) => g.toLowerCase().includes(q))
+          normalizeSearchStr(album.title).includes(q) ||
+          normalizeSearchStr(album.artist).includes(q) ||
+          normalizeSearchStr(album.label).includes(q) ||
+          album.genres.some((g) => normalizeSearchStr(g).includes(q))
       );
     }
 
