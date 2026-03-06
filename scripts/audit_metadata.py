@@ -27,6 +27,10 @@ TEMPLATE_SIG = re.compile(
 )
 
 # Map genres to eras (mirrors discovery.ts logic)
+EXEMPT_ERAS = {"early-jazz", "swing"}
+LINK_FIELDS = ["spotifyUrl", "appleMusicUrl", "youtubeMusicUrl", "youtubeUrl"]
+
+# Map genres to eras (mirrors discovery.ts logic)
 GENRE_ERA_MAP: dict[str, str] = {
     "dixieland": "early-jazz",
     "new orleans jazz": "early-jazz",
@@ -73,10 +77,20 @@ def main() -> None:
         artists: list[dict] = json.load(f)
 
     album_ids = {a["id"] for a in albums}
+    artist_ids = {a["id"] for a in artists}
 
     issues: dict[str, list[dict]] = defaultdict(list)
 
     for album in albums:
+        # 0. Broken artistId (no matching artist entry)
+        artist_id = album.get("artistId", "")
+        if artist_id and artist_id not in artist_ids:
+            issues["broken_artist_id"].append({
+                "id": album.get("id", "?"),
+                "title": album.get("title", "?"),
+                "artist": album.get("artist", "?"),
+                "artistId": artist_id,
+            })
         aid = album.get("id", "?")
         title = album.get("title", "?")
         artist = album.get("artist", "?")
@@ -111,9 +125,13 @@ def main() -> None:
                 "snippet": sig[:100] + "…",
             })
 
-        # 6. Genre/era mismatch (genre suggests era 3+ positions away, to reduce false positives)
-        # "contemporary jazz" is excluded — it's used loosely across all eras
+        # 6. Missing streaming links (non-exempt eras only)
         era = album.get("era", "")
+        if era not in EXEMPT_ERAS and not any(album.get(f) for f in LINK_FIELDS):
+            issues["missing_streaming_links"].append({"id": aid, "title": title, "artist": artist, "era": era})
+
+        # 7. Genre/era mismatch (genre suggests era 3+ positions away, to reduce false positives)
+        # "contemporary jazz" is excluded — it's used loosely across all eras
         genres = album.get("genres", [])
         for genre in genres:
             mapped = GENRE_ERA_MAP.get(genre.lower())
@@ -155,6 +173,14 @@ def main() -> None:
                 lines.append(row_fn(row))
         lines.append("")
 
+    section(
+        "broken_artist_id", "Broken artistId (no matching artist entry)",
+        lambda r: f"- `{r['id']}` — **{r['title']}** by {r['artist']} (artistId: `{r['artistId']}`)",
+    )
+    section(
+        "missing_streaming_links", "Missing Streaming Links (non-exempt eras)",
+        lambda r: f"- `{r['id']}` — **{r['title']}** by {r['artist']} [{r['era']}]",
+    )
     section(
         "missing_year", "Missing Year",
         lambda r: f"- `{r['id']}` — **{r['title']}** by {r['artist']}",

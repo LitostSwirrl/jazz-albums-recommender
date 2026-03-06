@@ -15,7 +15,7 @@ export function getProxiedUrl(url: string, width: number): string {
     url.includes('dzcdn.net');
 
   if (needsProxy) {
-    return `https://wsrv.nl/?url=${encodeURIComponent(url)}&w=${width}&output=webp`;
+    return `https://wsrv.nl/?url=${encodeURIComponent(url)}&w=${width}&output=webp&maxage=7d`;
   }
 
   return url;
