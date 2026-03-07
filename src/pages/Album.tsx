@@ -206,7 +206,19 @@ export function Album() {
                 <span className="w-8 h-8 flex items-center justify-center rounded-full border-2 border-coral text-coral text-sm font-mono">
                   {index + 1}
                 </span>
-                <span className="text-charcoal">{track}</span>
+                {album.spotifyUrl ? (
+                  <a
+                    href={`https://open.spotify.com/search/${encodeURIComponent(track + ' ' + album.artist)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-charcoal hover:text-accent transition-colors flex items-center gap-1.5"
+                  >
+                    {track}
+                    <SpotifyIcon className="w-3.5 h-3.5 opacity-40" />
+                  </a>
+                ) : (
+                  <span className="text-charcoal">{track}</span>
+                )}
               </li>
             ))}
           </ul>
