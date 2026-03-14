@@ -158,16 +158,18 @@ export function Albums() {
   const goToPage = useCallback(
     (page: number) => {
       setCurrentPage(page);
-      const newParams = new URLSearchParams(searchParams);
-      if (page > 1) {
-        newParams.set('page', String(page));
-      } else {
-        newParams.delete('page');
-      }
-      setSearchParams(newParams, { replace: true });
-      topRef.current?.scrollIntoView({ behavior: 'smooth' });
+      setSearchParams((prev) => {
+        const newParams = new URLSearchParams(prev);
+        if (page > 1) {
+          newParams.set('page', String(page));
+        } else {
+          newParams.delete('page');
+        }
+        return newParams;
+      }, { replace: true });
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     },
-    [searchParams, setSearchParams]
+    [setSearchParams]
   );
 
   const updateFilter = (key: string, value: string | null) => {

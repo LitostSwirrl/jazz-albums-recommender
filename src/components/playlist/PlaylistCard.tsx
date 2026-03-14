@@ -24,7 +24,7 @@ const MOOD_LABELS: Record<string, string> = {
 
 export function PlaylistCard({ playlist, albums }: PlaylistCardProps) {
   const coverAlbum = albums.find((a) => a.id === playlist.coverAlbumId);
-  const albumCount = playlist.albums.length;
+  const trackCount = playlist.tracks.length;
 
   return (
     <Link
@@ -66,7 +66,7 @@ export function PlaylistCard({ playlist, albums }: PlaylistCardProps) {
             ))}
           </div>
           <span className="text-xs font-mono text-warm-gray/70 shrink-0 ml-2">
-            {albumCount} albums
+            {trackCount} tracks
           </span>
         </div>
       </div>

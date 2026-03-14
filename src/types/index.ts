@@ -81,14 +81,19 @@ export interface Album {
   reviews?: CriticReview[];
 }
 
+export interface PlaylistTrack {
+  albumId: string;
+  track: string;
+}
+
 export interface CuratedPlaylist {
   id: string;
   name: string;
   description: string;
   mood: string;
   tags: string[];
-  albums: string[];       // albumIds in curation order
-  coverAlbumId: string;   // album whose cover is used as playlist hero image
+  tracks: PlaylistTrack[];
+  coverAlbumId: string;
 }
 
 export type HistoricalEventCategory =
