@@ -1,4 +1,5 @@
 const SPOTIFY_API = 'https://api.spotify.com/v1';
+const PKCE_VERIFIER_KEY = 'spotify_pkce_verifier';
 
 interface SpotifyTrackInput {
   trackName: string;
@@ -10,6 +11,86 @@ interface CreatePlaylistResult {
   tracksFound: number;
   tracksTotal: number;
 }
+
+// --- PKCE helpers ---
+
+function generateRandomString(length: number): string {
+  const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-._~';
+  const values = crypto.getRandomValues(new Uint8Array(length));
+  return Array.from(values, (v) => chars[v % chars.length]).join('');
+}
+
+async function sha256(plain: string): Promise<ArrayBuffer> {
+  return crypto.subtle.digest('SHA-256', new TextEncoder().encode(plain));
+}
+
+function base64urlEncode(buffer: ArrayBuffer): string {
+  return btoa(String.fromCharCode(...new Uint8Array(buffer)))
+    .replace(/\+/g, '-')
+    .replace(/\//g, '_')
+    .replace(/=+$/, '');
+}
+
+// --- Auth ---
+
+export function hasSpotifyClientId(): boolean {
+  return !!import.meta.env.VITE_SPOTIFY_CLIENT_ID;
+}
+
+function getRedirectUri(): string {
+  return `${window.location.origin}${import.meta.env.BASE_URL}`;
+}
+
+export async function getSpotifyAuthUrl(): Promise<string> {
+  const clientId = import.meta.env.VITE_SPOTIFY_CLIENT_ID;
+  if (!clientId) throw new Error('VITE_SPOTIFY_CLIENT_ID not configured');
+
+  const codeVerifier = generateRandomString(64);
+  sessionStorage.setItem(PKCE_VERIFIER_KEY, codeVerifier);
+
+  const codeChallenge = base64urlEncode(await sha256(codeVerifier));
+
+  const params = new URLSearchParams({
+    client_id: clientId,
+    response_type: 'code',
+    redirect_uri: getRedirectUri(),
+    scope: 'playlist-modify-public',
+    code_challenge_method: 'S256',
+    code_challenge: codeChallenge,
+    show_dialog: 'false',
+  });
+
+  return `https://accounts.spotify.com/authorize?${params}`;
+}
+
+export async function exchangeCodeForToken(code: string): Promise<string> {
+  const clientId = import.meta.env.VITE_SPOTIFY_CLIENT_ID;
+  const codeVerifier = sessionStorage.getItem(PKCE_VERIFIER_KEY);
+  if (!codeVerifier) throw new Error('PKCE verifier not found');
+
+  const res = await fetch('https://accounts.spotify.com/api/token', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: new URLSearchParams({
+      client_id: clientId,
+      grant_type: 'authorization_code',
+      code,
+      redirect_uri: getRedirectUri(),
+      code_verifier: codeVerifier,
+    }),
+  });
+
+  if (!res.ok) {
+    const body = await res.text();
+    throw new Error(`Token exchange failed: ${body}`);
+  }
+
+  const data = await res.json();
+  sessionStorage.removeItem(PKCE_VERIFIER_KEY);
+  return data.access_token;
+}
+
+// --- API ---
 
 async function spotifyFetch(path: string, token: string, options?: RequestInit) {
   const res = await fetch(`${SPOTIFY_API}${path}`, {
@@ -27,38 +108,14 @@ async function spotifyFetch(path: string, token: string, options?: RequestInit) 
   return res.json();
 }
 
-export function getSpotifyAuthUrl(): string {
-  const clientId = import.meta.env.VITE_SPOTIFY_CLIENT_ID;
-  if (!clientId) throw new Error('VITE_SPOTIFY_CLIENT_ID not configured');
-
-  const redirectUri = `${window.location.origin}${import.meta.env.BASE_URL}`;
-  const scope = 'playlist-modify-public';
-
-  const params = new URLSearchParams({
-    client_id: clientId,
-    response_type: 'token',
-    redirect_uri: redirectUri,
-    scope,
-    show_dialog: 'false',
-  });
-
-  return `https://accounts.spotify.com/authorize?${params}`;
-}
-
-export function hasSpotifyClientId(): boolean {
-  return !!import.meta.env.VITE_SPOTIFY_CLIENT_ID;
-}
-
 export async function createSpotifyPlaylist(
   token: string,
   name: string,
   description: string,
   tracks: SpotifyTrackInput[],
 ): Promise<CreatePlaylistResult> {
-  // 1. Get current user
   const user = await spotifyFetch('/me', token);
 
-  // 2. Search for each track
   const trackUris: string[] = [];
   for (const { trackName, artistName } of tracks) {
     const q = encodeURIComponent(`track:${trackName} artist:${artistName}`);
@@ -69,7 +126,6 @@ export async function createSpotifyPlaylist(
     }
   }
 
-  // 3. Create playlist
   const playlist = await spotifyFetch(`/users/${user.id}/playlists`, token, {
     method: 'POST',
     body: JSON.stringify({
@@ -79,7 +135,6 @@ export async function createSpotifyPlaylist(
     }),
   });
 
-  // 4. Add tracks (Spotify allows max 100 per request)
   if (trackUris.length > 0) {
     await spotifyFetch(`/playlists/${playlist.id}/tracks`, token, {
       method: 'POST',

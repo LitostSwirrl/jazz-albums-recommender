@@ -4,13 +4,13 @@ import { HelmetProvider } from 'react-helmet-async'
 import './index.css'
 import App from './App.tsx'
 
-// Handle Spotify OAuth callback in popup
-if (window.opener && window.location.hash.includes('access_token')) {
-  const params = new URLSearchParams(window.location.hash.substring(1));
-  const accessToken = params.get('access_token');
-  if (accessToken) {
+// Handle Spotify OAuth PKCE callback in popup
+if (window.opener) {
+  const params = new URLSearchParams(window.location.search);
+  const code = params.get('code');
+  if (code) {
     window.opener.postMessage(
-      { type: 'spotify-auth', accessToken },
+      { type: 'spotify-auth', code },
       window.location.origin,
     );
     window.close();
