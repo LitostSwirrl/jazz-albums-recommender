@@ -78,7 +78,7 @@ function MiniInfluenceNetworkInner({ artist, allArtists, eras }: MiniInfluenceNe
         position: { x: centerX, y: centerY },
         data: {
           artist,
-          era: eraMap.get(artist.eras[0]),
+          era: eraMap.get(artist.eras?.[0]),
           isCenter: true,
         },
       },
@@ -93,7 +93,7 @@ function MiniInfluenceNetworkInner({ artist, allArtists, eras }: MiniInfluenceNe
         position: { x: centerX + offset, y: 20 },
         data: {
           artist: inf,
-          era: eraMap.get(inf.eras[0]),
+          era: eraMap.get(inf.eras?.[0]),
           isCenter: false,
         },
       });
@@ -108,7 +108,7 @@ function MiniInfluenceNetworkInner({ artist, allArtists, eras }: MiniInfluenceNe
         position: { x: centerX + offset, y: 180 },
         data: {
           artist: inf,
-          era: eraMap.get(inf.eras[0]),
+          era: eraMap.get(inf.eras?.[0]),
           isCenter: false,
         },
       });

@@ -257,11 +257,14 @@ def main():
             artists.append({
                 "id": artist_slug,
                 "name": artist,
+                "birthYear": 0,
                 "bio": f"{artist} was one of the defining figures of {era_label}, whose recordings remain essential listening.",
-                "era": era,
-                "genres": ERA_GENRES.get(era, ["jazz"]),
-                "influences": [], "influenced": [],
-                "keyAlbums": [], "photoUrl": "",
+                "instruments": [],
+                "eras": [era],
+                "influences": [],
+                "influencedBy": [],
+                "keyAlbums": [],
+                "imageUrl": "",
             })
             artist_id_set.add(artist_slug)
             artist_map[artist] = artist_slug

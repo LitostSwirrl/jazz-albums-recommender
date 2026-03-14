@@ -83,7 +83,7 @@ export function useInfluenceGraph(
     // Create nodes
     const nodes: GraphNode[] = relevantArtists.map((artist) => {
       const influenceCount = influenceCounts.get(artist.id) || 0;
-      const era = eraMap.get(artist.eras[0]);
+      const era = eraMap.get(artist.eras?.[0]);
 
       return {
         id: artist.id,
