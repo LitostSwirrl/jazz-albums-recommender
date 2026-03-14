@@ -3,6 +3,7 @@ import { SpotifyIcon } from '../icons';
 import {
   hasSpotifyClientId,
   getSpotifyAuthUrl,
+  exchangeCodeForToken,
   createSpotifyPlaylist,
 } from '../../utils/spotifyPlaylist';
 
@@ -23,10 +24,11 @@ export function SaveToSpotify({
   const [result, setResult] = useState<{ url: string; found: number; total: number } | null>(null);
   const [error, setError] = useState('');
 
-  const handleToken = useCallback(
-    async (token: string) => {
+  const handleCode = useCallback(
+    async (code: string) => {
       setStatus('saving');
       try {
+        const token = await exchangeCodeForToken(code);
         const res = await createSpotifyPlaylist(
           token,
           playlistName,
@@ -47,23 +49,20 @@ export function SaveToSpotify({
     function onMessage(e: MessageEvent) {
       if (e.origin !== window.location.origin) return;
       if (e.data?.type !== 'spotify-auth') return;
-      handleToken(e.data.accessToken);
+      handleCode(e.data.code);
     }
     window.addEventListener('message', onMessage);
     return () => window.removeEventListener('message', onMessage);
-  }, [handleToken]);
+  }, [handleCode]);
 
   if (!hasSpotifyClientId()) return null;
 
-  const handleClick = () => {
+  const handleClick = async () => {
     if (status === 'done' || status === 'saving') return;
     setStatus('auth');
     setError('');
-    window.open(
-      getSpotifyAuthUrl(),
-      'spotify-auth',
-      'width=500,height=700,left=200,top=100',
-    );
+    const authUrl = await getSpotifyAuthUrl();
+    window.open(authUrl, 'spotify-auth', 'width=500,height=700,left=200,top=100');
   };
 
   if (status === 'done' && result) {
