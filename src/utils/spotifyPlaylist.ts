@@ -54,7 +54,7 @@ export async function getSpotifyAuthUrl(): Promise<string> {
     client_id: clientId,
     response_type: 'code',
     redirect_uri: getRedirectUri(),
-    scope: 'playlist-modify-public',
+    scope: 'playlist-modify-public user-read-private',
     code_challenge_method: 'S256',
     code_challenge: codeChallenge,
     show_dialog: 'false',
@@ -102,6 +102,9 @@ async function spotifyFetch(path: string, token: string, options?: RequestInit) 
     },
   });
   if (!res.ok) {
+    if (res.status === 403) {
+      throw new Error('Spotify rejected the request. Add your Spotify email to your app\'s User Management in the Developer Dashboard.');
+    }
     const body = await res.text();
     throw new Error(`Spotify API ${res.status}: ${body}`);
   }
