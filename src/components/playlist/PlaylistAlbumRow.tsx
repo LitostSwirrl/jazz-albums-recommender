@@ -4,6 +4,7 @@ import type { Album } from '../../types';
 
 interface PlaylistAlbumRowProps {
   album: Album;
+  trackName: string;
   index: number;
   eraColor?: string;
   isEmbedOpen: boolean;
@@ -17,6 +18,7 @@ function getSpotifyAlbumId(spotifyUrl: string): string | null {
 
 export function PlaylistAlbumRow({
   album,
+  trackName,
   index,
   eraColor,
   isEmbedOpen,
@@ -44,18 +46,24 @@ export function PlaylistAlbumRow({
 
         {/* Info */}
         <div className="flex-1 min-w-0">
-          <Link
-            to={`/album/${album.id}`}
-            className="block text-sm font-medium text-charcoal hover:text-coral transition-colors truncate"
-          >
-            {album.title}
-          </Link>
-          <Link
-            to={`/artist/${album.artistId}`}
-            className="block text-xs text-warm-gray hover:text-coral transition-colors truncate"
-          >
-            {album.artist}
-          </Link>
+          <span className="block text-sm font-medium text-charcoal truncate">
+            {trackName}
+          </span>
+          <div className="flex items-center gap-1.5 text-xs text-warm-gray truncate">
+            <Link
+              to={`/artist/${album.artistId}`}
+              className="hover:text-coral transition-colors"
+            >
+              {album.artist}
+            </Link>
+            <span>&middot;</span>
+            <Link
+              to={`/album/${album.id}`}
+              className="hover:text-coral transition-colors truncate"
+            >
+              {album.title}
+            </Link>
+          </div>
         </div>
 
         {/* Year */}

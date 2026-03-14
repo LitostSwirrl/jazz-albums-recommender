@@ -43,9 +43,12 @@ export function Playlist() {
     );
   }
 
-  const playlistAlbums = playlist.albums
-    .map((aid) => albums.find((a) => a.id === aid))
-    .filter((a): a is Album => !!a);
+  const playlistTracks = playlist.tracks
+    .map((t) => {
+      const album = albums.find((a) => a.id === t.albumId);
+      return album ? { album, trackName: t.track } : null;
+    })
+    .filter((t): t is { album: Album; trackName: string } => !!t);
 
   const coverAlbum = albums.find((a) => a.id === playlist.coverAlbumId);
 
@@ -99,21 +102,22 @@ export function Playlist() {
               </Link>
             ))}
             <span className="px-3 py-1 text-xs font-mono text-warm-gray/60">
-              {playlistAlbums.length} albums
+              {playlistTracks.length} tracks
             </span>
           </div>
         </div>
       </div>
 
-      {/* Album list */}
+      {/* Track list */}
       <div className="space-y-2">
-        {playlistAlbums.length === 0 ? (
-          <p className="text-warm-gray text-center py-8">No albums loaded for this playlist.</p>
+        {playlistTracks.length === 0 ? (
+          <p className="text-warm-gray text-center py-8">No tracks loaded for this playlist.</p>
         ) : (
-          playlistAlbums.map((album, i) => (
+          playlistTracks.map(({ album, trackName }, i) => (
             <PlaylistAlbumRow
-              key={album.id}
+              key={`${album.id}-${trackName}`}
               album={album}
+              trackName={trackName}
               index={i}
               eraColor={getEraColor(album)}
               isEmbedOpen={openEmbedId === album.id}
