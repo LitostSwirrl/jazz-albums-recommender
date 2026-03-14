@@ -5,6 +5,7 @@ import albumsData from '../data/albums.json';
 import erasData from '../data/eras.json';
 import { AlbumCover } from '../components/AlbumCover';
 import { PlaylistAlbumRow } from '../components/playlist/PlaylistAlbumRow';
+import { SaveToSpotify } from '../components/playlist/SaveToSpotify';
 import { SEO } from '../components/SEO';
 import type { CuratedPlaylist, Album, Era } from '../types';
 
@@ -91,7 +92,7 @@ export function Playlist() {
           </span>
           <h1 className="text-3xl font-display text-charcoal mb-3">{playlist.name}</h1>
           <p className="text-warm-gray leading-relaxed mb-4">{playlist.description}</p>
-          <div className="flex flex-wrap gap-1.5">
+          <div className="flex flex-wrap gap-1.5 mb-4">
             {playlist.tags.map((tag) => (
               <Link
                 key={tag}
@@ -105,6 +106,14 @@ export function Playlist() {
               {playlistTracks.length} tracks
             </span>
           </div>
+          <SaveToSpotify
+            playlistName={playlist.name}
+            playlistDescription={playlist.description}
+            tracks={playlistTracks.map(({ album, trackName }) => ({
+              trackName,
+              artistName: album.artist,
+            }))}
+          />
         </div>
       </div>
 
@@ -129,27 +138,43 @@ export function Playlist() {
         )}
       </div>
 
-      {/* Related playlists by tag */}
-      {playlist.tags.length > 0 && (
+      {/* Other playlists */}
+      {playlists.length > 1 && (
         <section className="mt-12">
-          <h2 className="text-xl font-heading text-charcoal mb-4">More Playlists</h2>
-          <div className="flex flex-wrap gap-2">
+          <Link
+            to="/playlists"
+            className="text-xl font-heading text-charcoal hover:text-coral transition-colors mb-4 inline-block"
+          >
+            More Playlists &rarr;
+          </Link>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
             {playlists
-              .filter(
-                (p) =>
-                  p.id !== playlist.id &&
-                  p.tags.some((t) => playlist.tags.includes(t))
-              )
+              .filter((p) => p.id !== playlist.id)
               .slice(0, 4)
-              .map((p) => (
-                <Link
-                  key={p.id}
-                  to={`/playlists/${p.id}`}
-                  className="px-4 py-2 rounded-lg bg-surface border border-border text-sm text-charcoal hover:text-coral hover:border-coral transition-colors"
-                >
-                  {p.name}
-                </Link>
-              ))}
+              .map((p) => {
+                const cover = albums.find((a) => a.id === p.coverAlbumId);
+                return (
+                  <Link
+                    key={p.id}
+                    to={`/playlists/${p.id}`}
+                    className="flex items-center gap-3 p-3 rounded-lg bg-surface border border-border hover:border-coral hover:shadow-card transition-all group"
+                  >
+                    {cover && (
+                      <div className="w-10 h-10 rounded overflow-hidden shrink-0">
+                        <AlbumCover coverUrl={cover.coverUrl} title={cover.title} size="sm" />
+                      </div>
+                    )}
+                    <div className="min-w-0">
+                      <span className="block text-sm font-medium text-charcoal group-hover:text-coral transition-colors truncate">
+                        {p.name}
+                      </span>
+                      <span className="block text-xs text-warm-gray truncate">
+                        {p.tracks.length} tracks
+                      </span>
+                    </div>
+                  </Link>
+                );
+              })}
           </div>
         </section>
       )}
