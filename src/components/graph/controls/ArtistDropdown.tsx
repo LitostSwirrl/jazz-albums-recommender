@@ -135,7 +135,7 @@ export const ArtistDropdown = forwardRef<ArtistDropdownHandle, ArtistDropdownPro
           <div className="flex-1 min-w-0">
             <div className="text-charcoal font-medium truncate text-sm">{selectedArtist.name}</div>
             <div className="text-xs text-warm-gray truncate">
-              {selectedArtist.instruments.slice(0, 2).join(', ')}
+              {(selectedArtist.instruments || []).slice(0, 2).join(', ')}
             </div>
           </div>
           <button

@@ -114,7 +114,7 @@ export function Era() {
                   {artist.name}
                 </h3>
                 <p className="text-sm text-warm-gray">
-                  {artist.instruments.join(', ')}
+                  {(artist.instruments || []).join(', ')}
                 </p>
               </Link>
             ))}

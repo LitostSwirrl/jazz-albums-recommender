@@ -150,7 +150,7 @@ export function Artist() {
         <div>
           <h1 className="text-4xl md:text-5xl font-display text-charcoal mb-2">{artist.name}</h1>
           <p className="text-xl text-warm-gray mb-4 font-mono">
-            {artist.birthYear}&ndash;{artist.deathYear || 'present'} &middot; {artist.instruments.join(', ')}
+            {artist.birthYear}&ndash;{artist.deathYear || 'present'} &middot; {(artist.instruments || []).join(', ')}
           </p>
           <div className="flex flex-wrap gap-2">
             {artistEras.map((era) => (

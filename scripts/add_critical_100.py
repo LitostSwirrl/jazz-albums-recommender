@@ -389,16 +389,17 @@ def build_artist(artist: str, era: str) -> dict:
     return {
         "id": slugify(artist),
         "name": artist,
+        "birthYear": 0,
         "bio": (
             f"{artist} was one of the defining figures of {era_label}, "
             f"whose recordings remain essential listening for anyone exploring the tradition."
         ),
-        "era": era,
-        "genres": ERA_GENRES.get(era, ["jazz"]),
+        "instruments": [],
+        "eras": [era],
         "influences": [],
-        "influenced": [],
+        "influencedBy": [],
         "keyAlbums": [],
-        "photoUrl": "",
+        "imageUrl": "",
     }
 
 

@@ -263,7 +263,7 @@ export function Home() {
                   {artist.name}
                 </h3>
                 <p className="text-xs text-warm-gray mt-1">
-                  {artist.instruments[0]}
+                  {artist.instruments?.[0] || ''}
                 </p>
               </Link>
             ))}
