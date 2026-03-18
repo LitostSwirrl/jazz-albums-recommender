@@ -5,9 +5,9 @@
    Values are swapped: "cream" is now dark bg, "charcoal" is now light text, etc. */
 
 @theme {
-  /* Typography — Editorial magazine stack */
-  --font-display: 'Playfair Display', Georgia, serif;
-  --font-heading: 'DM Serif Display', Georgia, serif;
+  /* Typography — Clean sans-serif stack */
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-heading: 'Inter', system-ui, sans-serif;
   --font-body: 'DM Sans', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', 'Courier New', monospace;
 
