@@ -8,6 +8,7 @@ import { TodaysPick } from '../components/home/TodaysPick';
 import { RandomAlbumPicker } from '../components/home/RandomAlbumPicker';
 import { CarouselSection } from '../components/home/CarouselSection';
 import { AlbumCarousel } from '../components/home/AlbumCarousel';
+import { LazySection } from '../components/home/LazySection';
 import { GenreRows } from '../components/home/GenreRow';
 import { ArtistSpotlight } from '../components/home/ArtistSpotlight';
 import { QuickLinksGrid } from '../components/home/QuickLinksGrid';
@@ -19,7 +20,6 @@ const albums = albumsData as Album[];
 const artists = artistsData as Artist[];
 
 export function Home() {
-  // Build era album carousels (shuffled daily, different seed per era)
   const eraCarousels = useMemo(() => {
     const daySeed = Math.floor(Date.now() / 86400000);
     return eras.map((era, idx) => {
@@ -27,7 +27,7 @@ export function Home() {
       const shuffled = seededShuffle(eraAlbums, daySeed + idx + 100);
       return { era, albums: shuffled.slice(0, 20) };
     }).filter((c) => c.albums.length > 0);
-  }, []); // eras and albums are module-level constants
+  }, []);
 
   return (
     <div className="page-enter">
@@ -37,39 +37,43 @@ export function Home() {
       />
 
       <div className="max-w-7xl mx-auto px-4">
-        {/* Hero: Featured Album */}
+        {/* Above the fold: eager-load images */}
         <HeroFeature albums={albums} eras={eras} />
 
-        {/* Today's Pick: Weather-mood-matched albums */}
         <TodaysPick albums={albums} />
 
-        {/* Random Album Picker: Vinyl Reveal */}
-        <RandomAlbumPicker albums={albums} eras={eras} />
+        {/* Below the fold: lazy-load sections as they approach viewport */}
+        <LazySection>
+          <RandomAlbumPicker albums={albums} eras={eras} />
+        </LazySection>
 
-        {/* Era Carousels */}
-        {eraCarousels.map(({ era, albums: eraAlbums }) => (
-          <CarouselSection
-            key={era.id}
-            title={era.name}
-            linkTo={`/era/${era.id}`}
-          >
-            <AlbumCarousel
-              albums={eraAlbums}
-              cardSize="sm"
-              showYear
-              showEraTag={false}
-            />
-          </CarouselSection>
+        {eraCarousels.map(({ era, albums: eraAlbums }, idx) => (
+          <LazySection key={era.id}>
+            <CarouselSection
+              title={era.name}
+              linkTo={`/era/${era.id}`}
+            >
+              <AlbumCarousel
+                albums={eraAlbums}
+                cardSize="sm"
+                showYear
+                eagerCount={idx === 0 ? 5 : 0}
+              />
+            </CarouselSection>
+          </LazySection>
         ))}
 
-        {/* Genre Collections */}
-        <GenreRows albums={albums} />
+        <LazySection>
+          <GenreRows albums={albums} />
+        </LazySection>
 
-        {/* Artist Spotlight */}
-        <ArtistSpotlight artists={artists} albums={albums} />
+        <LazySection>
+          <ArtistSpotlight artists={artists} albums={albums} />
+        </LazySection>
 
-        {/* Quick Links */}
-        <QuickLinksGrid />
+        <LazySection>
+          <QuickLinksGrid />
+        </LazySection>
       </div>
     </div>
   );

@@ -7,6 +7,7 @@ interface AlbumCardProps {
   size?: 'sm' | 'md' | 'lg';
   showYear?: boolean;
   showEraTag?: boolean;
+  priority?: boolean;
   className?: string;
 }
 
@@ -16,7 +17,14 @@ const sizeWidths: Record<string, string> = {
   lg: 'w-56',
 };
 
-export function AlbumCard({ album, size = 'md', showYear = false, showEraTag = false, className = '' }: AlbumCardProps) {
+// Optimized pixel widths for carousel cards (matched to actual rendered size on 2x retina)
+const pixelWidths: Record<string, number> = {
+  sm: 288,   // w-36 = 144px * 2x
+  md: 352,   // w-44 = 176px * 2x
+  lg: 448,   // w-56 = 224px * 2x
+};
+
+export function AlbumCard({ album, size = 'md', showYear = false, showEraTag = false, priority = false, className = '' }: AlbumCardProps) {
   return (
     <Link
       to={`/album/${album.id}`}
@@ -24,7 +32,13 @@ export function AlbumCard({ album, size = 'md', showYear = false, showEraTag = f
     >
       <div className="relative rounded-sm overflow-hidden mb-2 shadow-card group-hover:shadow-card-hover transition-all duration-300 group-hover:scale-[1.03] aspect-square">
         <div className="absolute inset-0">
-          <AlbumCover coverUrl={album.coverUrl} title={album.title} size="sm" />
+          <AlbumCover
+            coverUrl={album.coverUrl}
+            title={album.title}
+            size="sm"
+            pixelWidth={pixelWidths[size]}
+            priority={priority}
+          />
         </div>
         {showEraTag && (
           <div className="absolute bottom-0 left-0 right-0 px-2 py-0.5 text-[10px] font-mono font-semibold uppercase tracking-wider text-center bg-black/60 text-white z-10">

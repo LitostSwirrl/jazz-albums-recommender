@@ -55,7 +55,7 @@ export function TodaysPick({ albums }: TodaysPickProps) {
       title="Today's Pick"
       subtitle={moodDescription}
     >
-      <AlbumCarousel albums={picks} cardSize="md" showYear />
+      <AlbumCarousel albums={picks} cardSize="md" showYear eagerCount={5} />
     </CarouselSection>
   );
 }

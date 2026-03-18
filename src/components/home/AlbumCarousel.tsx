@@ -7,6 +7,7 @@ interface AlbumCarouselProps {
   cardSize?: 'sm' | 'md' | 'lg';
   showYear?: boolean;
   showEraTag?: boolean;
+  eagerCount?: number;
   className?: string;
 }
 
@@ -16,7 +17,7 @@ const cardWidths: Record<string, number> = {
   lg: 224 + 16,  // w-56 + gap-4
 };
 
-export function AlbumCarousel({ albums, cardSize = 'md', showYear = false, showEraTag = false, className = '' }: AlbumCarouselProps) {
+export function AlbumCarousel({ albums, cardSize = 'md', showYear = false, showEraTag = false, eagerCount = 0, className = '' }: AlbumCarouselProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(false);
@@ -77,13 +78,14 @@ export function AlbumCarousel({ albums, cardSize = 'md', showYear = false, showE
         className="flex gap-4 overflow-x-auto pb-2 scrollbar-thin scroll-smooth"
         style={{ scrollSnapType: 'x mandatory' }}
       >
-        {albums.map((album) => (
+        {albums.map((album, index) => (
           <div key={album.id} style={{ scrollSnapAlign: 'start' }}>
             <AlbumCard
               album={album}
               size={cardSize}
               showYear={showYear}
               showEraTag={showEraTag}
+              priority={index < eagerCount}
             />
           </div>
         ))}
