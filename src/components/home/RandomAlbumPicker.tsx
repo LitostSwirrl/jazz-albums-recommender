@@ -1,6 +1,5 @@
 import { useState, useRef, useCallback, useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { AlbumCover } from '../AlbumCover';
 import { getRandomAlbum } from '../../utils/discovery';
 import { getProxiedUrl } from '../../utils/imageProxy';
 import type { Album, Era } from '../../types';
@@ -149,12 +148,10 @@ export function RandomAlbumPicker({ albums, eras }: RandomAlbumPickerProps) {
 
           {phase === 'revealed' && selectedAlbum && (
             <div className="w-full h-full rounded-sm overflow-hidden shadow-elevated animate-[albumReveal_0.4s_ease-out]">
-              <AlbumCover
-                coverUrl={selectedAlbum.coverUrl}
-                title={selectedAlbum.title}
-                size="sm"
-                pixelWidth={512}
-                className="!w-full !h-full"
+              <img
+                src={selectedAlbum.coverUrl ? getProxiedUrl(selectedAlbum.coverUrl, 512) : ''}
+                alt={`${selectedAlbum.title} album cover`}
+                className="w-full h-full object-cover"
               />
             </div>
           )}

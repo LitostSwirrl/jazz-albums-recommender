@@ -23,9 +23,11 @@ export function AlbumCard({ album, size = 'md', showYear = false, showEraTag = f
       className={`flex-shrink-0 ${sizeWidths[size]} group ${className}`}
     >
       <div className="relative rounded-sm overflow-hidden mb-2 shadow-card group-hover:shadow-card-hover transition-all duration-300 group-hover:scale-[1.03] aspect-square">
-        <AlbumCover coverUrl={album.coverUrl} title={album.title} size="sm" className="!w-full !h-full" />
+        <div className="absolute inset-0">
+          <AlbumCover coverUrl={album.coverUrl} title={album.title} size="sm" />
+        </div>
         {showEraTag && (
-          <div className="absolute bottom-0 left-0 right-0 px-2 py-0.5 text-[10px] font-mono font-semibold uppercase tracking-wider text-center bg-black/60 text-white">
+          <div className="absolute bottom-0 left-0 right-0 px-2 py-0.5 text-[10px] font-mono font-semibold uppercase tracking-wider text-center bg-black/60 text-white z-10">
             {album.era.replaceAll('-', ' ')}
           </div>
         )}
