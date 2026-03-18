@@ -25,6 +25,21 @@ export function RandomAlbumPicker({ albums, eras }: RandomAlbumPickerProps) {
   const timerRef = useRef<ReturnType<typeof setInterval>>(null);
   const recentRef = useRef<string[]>([]);
 
+  // When era filter changes, immediately show a random album from that era
+  const handleEraChange = useCallback((eraId: string | null) => {
+    setFilterEra(eraId);
+    const filter = eraId ? { era: eraId } : undefined;
+    const picked = getRandomAlbum(albums, selectedAlbum?.id, filter);
+    if (picked) {
+      setSelectedAlbum(picked);
+      setPhase('revealed');
+      if (picked.coverUrl) {
+        const img = new Image();
+        img.src = getProxiedUrl(picked.coverUrl, 512);
+      }
+    }
+  }, [albums, selectedAlbum?.id]);
+
   // Preload a pool of cover images on mount so spinning shows real art
   const coverPool = useMemo(() => {
     const withCovers = albums.filter((a) => a.coverUrl);
@@ -102,7 +117,7 @@ export function RandomAlbumPicker({ albums, eras }: RandomAlbumPickerProps) {
       {/* Era filter chips */}
       <div className="flex flex-wrap gap-2 mb-6">
         <button
-          onClick={() => setFilterEra(null)}
+          onClick={() => handleEraChange(null)}
           className={`px-3 py-1 rounded-full text-xs font-mono uppercase tracking-wider transition-colors ${
             !filterEra
               ? 'bg-coral text-white'
@@ -114,7 +129,7 @@ export function RandomAlbumPicker({ albums, eras }: RandomAlbumPickerProps) {
         {eras.map((era) => (
           <button
             key={era.id}
-            onClick={() => setFilterEra(era.id)}
+            onClick={() => handleEraChange(era.id)}
             className={`px-3 py-1 rounded-full text-xs font-mono uppercase tracking-wider transition-colors ${
               filterEra === era.id
                 ? 'text-white'
