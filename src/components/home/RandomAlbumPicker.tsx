@@ -15,7 +15,13 @@ export function RandomAlbumPicker({ albums, eras }: RandomAlbumPickerProps) {
   // Start with a random album pre-loaded so the section isn't empty
   const initialAlbum = useMemo(() => {
     const withCovers = albums.filter((a) => a.coverUrl);
-    return withCovers[Math.floor(Math.random() * withCovers.length)] ?? null;
+    const picked = withCovers[Math.floor(Math.random() * withCovers.length)] ?? null;
+    // Eagerly start fetching so the image is cached when we render
+    if (picked?.coverUrl) {
+      const img = new Image();
+      img.src = getProxiedUrl(picked.coverUrl, 512);
+    }
+    return picked;
   }, [albums]);
 
   const [phase, setPhase] = useState<Phase>('revealed');

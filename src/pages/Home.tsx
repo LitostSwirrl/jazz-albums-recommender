@@ -12,7 +12,9 @@ import { LazySection } from '../components/home/LazySection';
 import { GenreRows } from '../components/home/GenreRow';
 import { ArtistSpotlight } from '../components/home/ArtistSpotlight';
 import { QuickLinksGrid } from '../components/home/QuickLinksGrid';
-import { seededShuffle } from '../utils/random';
+import { seededShuffle, seededPick } from '../utils/random';
+import { getTodaysPicks } from '../utils/weatherMood';
+import { usePreloadImages } from '../hooks/usePreloadImages';
 import type { Era, Album, Artist } from '../types';
 
 const eras = erasData as Era[];
@@ -28,6 +30,35 @@ export function Home() {
       return { era, albums: shuffled.slice(0, 20) };
     }).filter((c) => c.albums.length > 0);
   }, []);
+
+  // Compute above-the-fold cover URLs for preloading
+  const preloadUrls = useMemo(() => {
+    const urls: (string | undefined)[] = [];
+
+    // Hero album
+    const heroAlbum = seededPick(
+      albums.filter((a) => a.coverUrl && a.description.length > 100),
+      Math.floor(Date.now() / 86400000)
+    );
+    if (heroAlbum) urls.push(heroAlbum.coverUrl);
+
+    // Today's Pick (first 5)
+    const todaysPicks = getTodaysPicks(albums, null);
+    for (const pick of todaysPicks.slice(0, 5)) {
+      urls.push(pick.coverUrl);
+    }
+
+    // Initial random album for the picker
+    const withCovers = albums.filter((a) => a.coverUrl);
+    if (withCovers.length > 0) {
+      urls.push(withCovers[Math.floor(Math.random() * withCovers.length)].coverUrl);
+    }
+
+    return urls;
+  }, []);
+
+  // Inject <link rel="preload"> into <head> immediately
+  usePreloadImages(preloadUrls, 500);
 
   return (
     <div className="page-enter">
