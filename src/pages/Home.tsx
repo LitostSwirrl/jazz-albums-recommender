@@ -51,7 +51,6 @@ export function Home() {
           <CarouselSection
             key={era.id}
             title={era.name}
-            subtitle={era.period}
             linkTo={`/era/${era.id}`}
           >
             <AlbumCarousel

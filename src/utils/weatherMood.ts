@@ -225,75 +225,21 @@ export function getTodaysPicks(albums: Album[], weather: WeatherData | null): Al
 
 // ── Mood Description ──
 
-const WEATHER_LABELS: Record<string, string> = {
-  clear: 'Clear skies',
-  cloudy: 'Overcast',
-  fog: 'Misty',
-  drizzle: 'Light rain',
-  rain: 'Rainy',
-  ice: 'Icy',
-  snow: 'Snowy',
-  showers: 'Scattered showers',
-  storm: 'Stormy',
-};
-
-const TIME_LABELS: Record<string, string> = {
-  morning: 'morning',
-  afternoon: 'afternoon',
-  evening: 'evening',
-  night: 'late night',
-};
-
+// Mood description -- no weather or location details exposed to user
 export function getMoodDescription(weather: WeatherData | null): string {
-  const time = getTimeOfDay();
-  const timeLabel = TIME_LABELS[time];
-
-  if (!weather) {
-    const descriptions: Record<string, string> = {
-      morning: 'Start your morning with something that moves',
-      afternoon: 'Afternoon listening -- jazz for the moment',
-      evening: 'Evening jazz for winding down',
-      night: 'Late night -- time for quiet contemplation',
-    };
-    return descriptions[time];
-  }
-
-  const category = getWeatherCategory(weather.weatherCode);
-  const weatherLabel = WEATHER_LABELS[category];
-  const temp = Math.round(weather.temperature);
-
-  // Build a descriptive phrase based on dominant mood
   const mood = buildMoodProfile(weather);
   const maxDim = (Object.entries(mood) as [MoodKey, number][])
     .sort((a, b) => b[1] - a[1])[0][0];
 
   const moodPhrases: Record<MoodKey, string> = {
-    energy: 'jazz that hits hard',
-    warmth: 'warm, soulful sounds',
-    introspection: 'introspective, searching jazz',
-    darkness: 'moody, intense listening',
-    groove: 'deep grooves and rhythm',
+    energy: 'Picked for energy -- jazz that hits hard',
+    warmth: 'Picked for warmth -- soulful, inviting sounds',
+    introspection: 'Picked for depth -- introspective, searching jazz',
+    darkness: 'Picked for intensity -- moody, powerful listening',
+    groove: 'Picked for groove -- deep rhythm and swing',
   };
 
-  return `${weatherLabel} ${temp}\u00B0C ${timeLabel} -- ${moodPhrases[maxDim]}`;
-}
-
-// ── Weather Emoji ──
-
-export function getWeatherEmoji(weatherCode: number): string {
-  const category = getWeatherCategory(weatherCode);
-  const emojis: Record<string, string> = {
-    clear: '\u2600\uFE0F',
-    cloudy: '\u2601\uFE0F',
-    fog: '\uD83C\uDF2B\uFE0F',
-    drizzle: '\uD83C\uDF26\uFE0F',
-    rain: '\uD83C\uDF27\uFE0F',
-    ice: '\uD83E\uDDCA',
-    snow: '\u2744\uFE0F',
-    showers: '\uD83C\uDF26\uFE0F',
-    storm: '\u26C8\uFE0F',
-  };
-  return emojis[category] ?? '\u2601\uFE0F';
+  return moodPhrases[maxDim];
 }
 
 // ── Fetch Weather ──
