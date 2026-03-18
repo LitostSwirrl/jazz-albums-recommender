@@ -28,7 +28,7 @@ export function AlbumCard({ album, size = 'md', showYear = false, showEraTag = f
   return (
     <Link
       to={`/album/${album.id}`}
-      className={`flex-shrink-0 ${sizeWidths[size]} group ${className}`}
+      className={`block flex-shrink-0 ${sizeWidths[size]} group ${className}`}
     >
       <div className="relative rounded-sm overflow-hidden mb-2 shadow-card group-hover:shadow-card-hover transition-all duration-300 group-hover:scale-[1.03] aspect-square">
         <div className="absolute inset-0">

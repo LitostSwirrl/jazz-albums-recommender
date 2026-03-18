@@ -12,8 +12,14 @@ interface RandomAlbumPickerProps {
 type Phase = 'idle' | 'spinning' | 'revealed';
 
 export function RandomAlbumPicker({ albums, eras }: RandomAlbumPickerProps) {
-  const [phase, setPhase] = useState<Phase>('idle');
-  const [selectedAlbum, setSelectedAlbum] = useState<Album | null>(null);
+  // Start with a random album pre-loaded so the section isn't empty
+  const initialAlbum = useMemo(() => {
+    const withCovers = albums.filter((a) => a.coverUrl);
+    return withCovers[Math.floor(Math.random() * withCovers.length)] ?? null;
+  }, [albums]);
+
+  const [phase, setPhase] = useState<Phase>('revealed');
+  const [selectedAlbum, setSelectedAlbum] = useState<Album | null>(initialAlbum);
   const [spinIndex, setSpinIndex] = useState(0);
   const [filterEra, setFilterEra] = useState<string | null>(null);
   const timerRef = useRef<ReturnType<typeof setInterval>>(null);
