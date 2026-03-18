@@ -20,20 +20,32 @@ This is a static reference site to explore jazz history, discover 1000 curated a
 ```
 src/
 ├── components/
+│   ├── home/        # Landing page: carousels, hero, picker, today's pick
 │   ├── layout/      # Header, Footer, Navigation
+│   ├── discovery/   # Related albums, surprise button
+│   ├── playlist/    # Playlist cards, Spotify integration
 │   ├── timeline/    # Era timeline components
 │   └── graph/       # Artist influence graph
 ├── data/
-│   ├── eras.json    # Jazz era definitions
-│   ├── artists.json # Artist profiles
-│   └── albums.json  # Album data (758 albums)
+│   ├── eras.json    # Jazz era definitions (8 eras)
+│   ├── artists.json # Artist profiles (275 artists)
+│   ├── albums.json  # Album data (1000 albums)
+│   └── playlists.json # Curated playlists
+├── hooks/
+│   └── useWeather.ts # Geolocation + Open-Meteo weather hook
 ├── pages/
-│   ├── Home.tsx
-│   ├── Era.tsx
-│   ├── Artist.tsx
-│   └── Album.tsx
+│   ├── Home.tsx     # Spotify-style landing with carousels
+│   ├── Albums.tsx   # Filterable album grid
+│   ├── Era.tsx      # Era detail
+│   ├── Artist.tsx   # Artist profile + influence network
+│   └── Album.tsx    # Album detail
 ├── types/           # TypeScript interfaces
-└── utils/           # Helper functions
+└── utils/
+    ├── weatherMood.ts  # Weather-to-mood engine (5 dimensions, 30+ genres)
+    ├── random.ts       # Seeded PRNG for daily content rotation
+    ├── localStorage.ts # Pick history tracking
+    ├── discovery.ts    # Album filtering & recommendation
+    └── ...             # Image proxy, connections, colors, etc.
 ```
 
 ## Code Standards
@@ -72,6 +84,17 @@ Content is curated from reliable sources:
 ✅ **Phase 1: Foundation** - COMPLETE
 ✅ **Phase 2: Core Content** - 1000 albums, 275 artists added
 ✅ **Phase 3: Visualization** - Artist influence graph with 377 connections
+✅ **Phase 4: Discovery** - Spotify-style landing, Today's Pick, random album picker
+
+## Landing Page Features
+
+- **Hero Feature**: Daily rotating featured album with era-colored gradient
+- **Today's Pick**: 8 weather-mood-matched albums via Open-Meteo API (rule-based mood engine with 5 dimensions: energy, warmth, introspection, darkness, groove). Falls back to time+season when geolocation is denied. 7-day no-repeat history via localStorage.
+- **Random Album Picker**: "Vinyl Reveal" spin animation with era filter chips
+- **Era Carousels**: One scrollable row per era (8 rows)
+- **Genre Collections**: 6 curated groupings (Deep Grooves, For the Bold, Cool & Calm, etc.)
+- **Artist Spotlight**: Daily featured artist with discography carousel
+- **Quick Links Grid**: Navigation to all major sections
 
 ## Content Stats
 - **Albums**: 1000 curated albums across all eras
