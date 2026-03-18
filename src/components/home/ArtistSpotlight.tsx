@@ -12,10 +12,10 @@ interface ArtistSpotlightProps {
 
 export function ArtistSpotlight({ artists, albums }: ArtistSpotlightProps) {
   const spotlight = useMemo(() => {
-    // Pick artists with 4+ albums that have covers
+    // Pick artists with 3+ albums that have covers
     const candidates = artists.filter((artist) => {
       const artistAlbums = albums.filter((a) => a.artistId === artist.id && a.coverUrl);
-      return artistAlbums.length >= 4;
+      return artistAlbums.length >= 3;
     });
 
     if (candidates.length === 0) return null;
