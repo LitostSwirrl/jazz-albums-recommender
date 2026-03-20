@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import artistsData from '../data/artists.json';
 import erasData from '../data/eras.json';
 import type { Artist, Era } from '../types';
@@ -13,10 +13,22 @@ const artists = artistsData as Artist[];
 const eras = erasData as Era[];
 
 export function Artists() {
-  const [searchQuery, setSearchQuery] = useState('');
+  const [searchParams, setSearchParams] = useSearchParams();
+  const searchQuery = searchParams.get('q') || '';
   const [selectedEra, setSelectedEra] = useState<string | null>(null);
   const [selectedInstrument, setSelectedInstrument] = useState<string | null>(null);
   const [currentPage, setCurrentPage] = useState(1);
+
+  const updateSearch = (value: string) => {
+    const params = new URLSearchParams(searchParams);
+    if (value) {
+      params.set('q', value);
+    } else {
+      params.delete('q');
+    }
+    setSearchParams(params);
+    setCurrentPage(1);
+  };
 
   const getEraColor = (eraId: string) => {
     const era = eras.find((e) => e.id === eraId);
@@ -99,14 +111,14 @@ export function Artists() {
         <input
           type="text"
           value={searchQuery}
-          onChange={(e) => { setSearchQuery(e.target.value); setCurrentPage(1); }}
+          onChange={(e) => updateSearch(e.target.value)}
           placeholder="Search by name or instrument..."
           aria-label="Search artists"
           className="w-full pl-12 pr-4 py-3 bg-surface border border-border rounded-xl text-charcoal placeholder:text-warm-gray focus:outline-none focus:border-coral focus:ring-1 focus:ring-coral transition-colors"
         />
         {searchQuery && (
           <button
-            onClick={() => { setSearchQuery(''); setCurrentPage(1); }}
+            onClick={() => updateSearch('')}
             aria-label="Clear search"
             className="absolute right-4 top-1/2 -translate-y-1/2 text-warm-gray hover:text-charcoal transition-colors"
           >
@@ -185,7 +197,7 @@ export function Artists() {
           )}
           <button
             onClick={() => {
-              setSearchQuery('');
+              updateSearch('');
               setSelectedEra(null);
               setSelectedInstrument(null);
               setCurrentPage(1);
@@ -257,7 +269,7 @@ export function Artists() {
           <p className="text-warm-gray">No artists match your filters.</p>
           <button
             onClick={() => {
-              setSearchQuery('');
+              updateSearch('');
               setSelectedEra(null);
               setSelectedInstrument(null);
               setCurrentPage(1);
