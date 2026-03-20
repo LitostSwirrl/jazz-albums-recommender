@@ -25,11 +25,11 @@ Grouped by type:
 
 1. **Artists section** (heading + up to 5 results)
    - Each row: name + instruments (e.g. "Miles Davis -- trumpet")
-   - "View all N results" link if more than 5 matches
+   - "View all N results" link if more than 5 matches -- navigates to `/artists?q={query}`
 
 2. **Albums section** (heading + up to 5 results)
    - Each row: title + artist + year (e.g. "Kind of Blue -- Miles Davis (1959)")
-   - "View all N results" link if more than 5 matches
+   - "View all N results" link if more than 5 matches -- navigates to `/albums?q={query}`
 
 - Hover highlights the row
 - No results state: "No results for [query]"
@@ -44,12 +44,18 @@ All close the popup and reset the search input back to icon-only.
 
 ## Search Logic
 
-- Debounced input (300ms)
+- Debounced input (150ms) -- dataset is in-memory so shorter debounce feels snappier
 - Minimum 2 characters before results appear
-- Popup only appears when there are results to show (nothing shown on empty input)
+- Popup appears when query is >= 2 characters (shows "No results" message if nothing matches)
 - Case-insensitive substring matching via `includes()`
-- Fields searched: album title, album artist name, artist name, artist instruments
-- Scoring: exact prefix match ranks higher than mid-string match
+- Fields searched: album title, album artist name, artist name, artist instruments (`string[]` -- iterate and match within each element)
+- Scoring weights:
+  - Artist name prefix match: 100
+  - Artist name substring match: 50
+  - Artist instrument match: 20
+  - Album title prefix match: 100
+  - Album title substring match: 50
+  - Album artist name match: 30
 - Results sorted by score within each group
 - Selecting a result navigates to `/artist/:id` or `/album/:id` via React Router
 
@@ -70,20 +76,31 @@ One new file: `src/components/layout/SearchBar.tsx`
 - Click-outside detection via ref + document event listener
 - Escape key listener for dismissal
 
+### Changes To Other Files
+
+- `Header.tsx`: import and render SearchBar; coordinate with mobile menu state
+- `Artists.tsx`: add `useSearchParams()` support for `?q=` param (Albums.tsx already has this)
+
 ### No Changes To
 
 - Routing (App.tsx)
 - Data loading
-- Other components
 - No new dependencies
 - No new utility files (filtering logic lives in the component)
 
 ## Keyboard & Accessibility
 
-- Escape closes the popup and input
-- Results are navigable (hover highlights)
-- Input has appropriate `aria-label` and `role="combobox"` attributes
+- Escape closes the popup and input; handler uses `stopPropagation()` to avoid conflicting with Header's existing Escape listener
+- Up/Down arrow keys move a `highlightedIndex` through results; Enter selects the highlighted result
+- Active result gets `aria-selected="true"`
+- When search expands, input receives focus automatically; when collapsed, focus returns to the search icon button
+- Input has `aria-label` and `role="combobox"` attributes
 - Popup has `role="listbox"`, results have `role="option"`
+
+## Layering
+
+- Popup uses `z-50`, consistent with other header overlays (Explore dropdown, mobile menu)
+- Opening search closes the mobile menu if open (and vice versa)
 
 ## Mobile Behavior
 
@@ -91,3 +108,8 @@ One new file: `src/components/layout/SearchBar.tsx`
 - Expanded input takes full width of header
 - Popup is full-width below the header
 - Touch-friendly result rows with adequate tap targets
+
+## Integration Notes
+
+- Albums.tsx already supports URL query param `?q=` for search -- "View all" links leverage this
+- Artists.tsx does not currently sync filters to URL -- add `?q=` support to Artists.tsx so "View all" links work
