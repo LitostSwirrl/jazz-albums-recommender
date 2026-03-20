@@ -36,10 +36,8 @@ export function SearchBar({ onOpenChange }: SearchBarProps) {
           <input
             ref={inputRef}
             type="text"
-            role="combobox"
+            role="searchbox"
             aria-label="Search artists and albums"
-            aria-expanded={false}
-            aria-autocomplete="list"
             placeholder="Search artists, albums..."
             className="bg-transparent border-b border-warm-gray/40 text-charcoal text-sm outline-none flex-1 min-w-0 md:w-56 py-1 placeholder:text-warm-gray/60 focus:border-coral transition-colors"
             onKeyDown={(e) => {
@@ -51,7 +49,7 @@ export function SearchBar({ onOpenChange }: SearchBarProps) {
           />
           <button
             onClick={close}
-            className="text-warm-gray hover:text-charcoal transition-colors p-0.5"
+            className="text-warm-gray hover:text-charcoal transition-colors p-0.5 focus:outline-none focus:ring-2 focus:ring-coral rounded"
             aria-label="Close search"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
