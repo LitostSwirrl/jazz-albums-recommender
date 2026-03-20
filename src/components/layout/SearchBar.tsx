@@ -194,17 +194,17 @@ export function SearchBar({ onOpenChange, forceClose }: SearchBarProps) {
             <div
               id="search-results-listbox"
               role="listbox"
-              className="absolute top-full right-0 mt-2 w-[calc(100vw-2rem)] md:w-96 max-h-[400px] overflow-y-auto rounded-xl bg-charcoal/80 backdrop-blur-xl border border-white/10 shadow-2xl z-50"
+              className="absolute top-full right-0 mt-2 w-[calc(100vw-2rem)] md:w-96 max-h-[400px] overflow-y-auto rounded-xl bg-surface border border-border shadow-elevated z-50"
             >
               {!hasResults ? (
-                <div className="px-4 py-6 text-sm text-white/50 text-center">
+                <div className="px-4 py-6 text-sm text-warm-gray text-center">
                   No results for {debouncedQuery}
                 </div>
               ) : (
                 <>
                   {topArtists.length > 0 && (
                     <div>
-                      <div className="px-4 pt-3 pb-1 text-xs font-semibold uppercase tracking-wider text-white/40">
+                      <div className="px-4 pt-3 pb-1 text-xs font-semibold uppercase tracking-wider text-warm-gray">
                         Artists
                       </div>
                       {topArtists.map(({ artist }, i) => (
@@ -214,15 +214,15 @@ export function SearchBar({ onOpenChange, forceClose }: SearchBarProps) {
                           role="option"
                           aria-selected={highlightedIndex === i}
                           className={`w-full text-left px-4 py-2.5 transition-colors flex items-baseline gap-2 ${
-                            highlightedIndex === i ? 'bg-white/15' : 'hover:bg-white/10'
+                            highlightedIndex === i ? 'bg-border/50' : 'hover:bg-border/30'
                           }`}
                           onClick={() => {
                             navigate(`/artist/${artist.id}`);
                             close();
                           }}
                         >
-                          <span className="text-sm text-white truncate">{artist.name}</span>
-                          <span className="text-xs text-white/40 truncate shrink-0">
+                          <span className="text-sm text-charcoal truncate">{artist.name}</span>
+                          <span className="text-xs text-warm-gray truncate shrink-0">
                             -- {artist.instruments.slice(0, 3).join(', ')}
                           </span>
                         </button>
@@ -242,12 +242,12 @@ export function SearchBar({ onOpenChange, forceClose }: SearchBarProps) {
                   )}
 
                   {topArtists.length > 0 && topAlbums.length > 0 && (
-                    <div className="border-t border-white/10" />
+                    <div className="border-t border-border" />
                   )}
 
                   {topAlbums.length > 0 && (
                     <div>
-                      <div className="px-4 pt-3 pb-1 text-xs font-semibold uppercase tracking-wider text-white/40">
+                      <div className="px-4 pt-3 pb-1 text-xs font-semibold uppercase tracking-wider text-warm-gray">
                         Albums
                       </div>
                       {topAlbums.map(({ album }, i) => {
@@ -259,15 +259,15 @@ export function SearchBar({ onOpenChange, forceClose }: SearchBarProps) {
                           role="option"
                           aria-selected={highlightedIndex === flatIndex}
                           className={`w-full text-left px-4 py-2.5 transition-colors flex items-baseline gap-2 ${
-                            highlightedIndex === flatIndex ? 'bg-white/15' : 'hover:bg-white/10'
+                            highlightedIndex === flatIndex ? 'bg-border/50' : 'hover:bg-border/30'
                           }`}
                           onClick={() => {
                             navigate(`/album/${album.id}`);
                             close();
                           }}
                         >
-                          <span className="text-sm text-white truncate">{album.title}</span>
-                          <span className="text-xs text-white/40 truncate shrink-0">
+                          <span className="text-sm text-charcoal truncate">{album.title}</span>
+                          <span className="text-xs text-warm-gray truncate shrink-0">
                             -- {album.artist} ({album.year})
                           </span>
                         </button>
