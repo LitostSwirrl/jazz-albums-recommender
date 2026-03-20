@@ -98,10 +98,11 @@ export function Header() {
                 </div>
               )}
             </div>
+            <SearchBar onOpenChange={handleSearchOpenChange} forceClose={mobileMenuOpen} />
           </div>
 
-          {/* Search + mobile hamburger */}
-          <div className="flex items-center gap-2">
+          {/* Search (mobile) + hamburger */}
+          <div className="flex md:hidden items-center gap-2">
             <SearchBar onOpenChange={handleSearchOpenChange} forceClose={mobileMenuOpen} />
             <button
               className="md:hidden p-2 text-warm-gray hover:text-coral focus:outline-none focus:ring-2 focus:ring-coral rounded"
