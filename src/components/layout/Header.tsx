@@ -5,10 +5,7 @@ import { SearchBar } from './SearchBar';
 export function Header() {
   const [showExplore, setShowExplore] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [searchOpen, setSearchOpen] = useState(false);
-
   const handleSearchOpenChange = (open: boolean) => {
-    setSearchOpen(open);
     if (open) {
       setMobileMenuOpen(false);
       setShowExplore(false);
@@ -108,11 +105,7 @@ export function Header() {
             <SearchBar onOpenChange={handleSearchOpenChange} forceClose={mobileMenuOpen} />
             <button
               className="md:hidden p-2 text-warm-gray hover:text-coral focus:outline-none focus:ring-2 focus:ring-coral rounded"
-              onClick={() => {
-                const opening = !mobileMenuOpen;
-                setMobileMenuOpen(opening);
-                if (opening) setSearchOpen(false);
-              }}
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               aria-expanded={mobileMenuOpen}
               aria-controls="mobile-menu"
               aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}

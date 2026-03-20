@@ -57,6 +57,7 @@ export function SearchBar({ onOpenChange, forceClose }: SearchBarProps) {
       setIsOpen(false);
       setQuery('');
       setDebouncedQuery('');
+      setHighlightedIndex(-1);
       onOpenChange?.(false);
     }
   }, [forceClose]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -152,6 +153,8 @@ export function SearchBar({ onOpenChange, forceClose }: SearchBarProps) {
             role="combobox"
             aria-label="Search artists and albums"
             aria-expanded={showPopup}
+            aria-controls={showPopup ? 'search-results-listbox' : undefined}
+            aria-activedescendant={highlightedIndex >= 0 ? `search-result-${highlightedIndex}` : undefined}
             placeholder="Search artists, albums..."
             value={query}
             onChange={(e) => setQuery(e.target.value)}
@@ -189,6 +192,7 @@ export function SearchBar({ onOpenChange, forceClose }: SearchBarProps) {
 
           {showPopup && (
             <div
+              id="search-results-listbox"
               role="listbox"
               className="absolute top-full right-0 mt-2 w-[calc(100vw-2rem)] md:w-96 max-h-[400px] overflow-y-auto rounded-xl bg-charcoal/80 backdrop-blur-xl border border-white/10 shadow-2xl z-50"
             >
@@ -206,6 +210,7 @@ export function SearchBar({ onOpenChange, forceClose }: SearchBarProps) {
                       {topArtists.map(({ artist }, i) => (
                         <button
                           key={artist.id}
+                          id={`search-result-${i}`}
                           role="option"
                           aria-selected={highlightedIndex === i}
                           className={`w-full text-left px-4 py-2.5 transition-colors flex items-baseline gap-2 ${
@@ -250,6 +255,7 @@ export function SearchBar({ onOpenChange, forceClose }: SearchBarProps) {
                         return (
                         <button
                           key={album.id}
+                          id={`search-result-${flatIndex}`}
                           role="option"
                           aria-selected={highlightedIndex === flatIndex}
                           className={`w-full text-left px-4 py-2.5 transition-colors flex items-baseline gap-2 ${
