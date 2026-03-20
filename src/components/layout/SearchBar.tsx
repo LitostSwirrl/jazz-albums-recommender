@@ -26,6 +26,7 @@ export function SearchBar({ onOpenChange, forceClose }: SearchBarProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [query, setQuery] = useState('');
   const [debouncedQuery, setDebouncedQuery] = useState('');
+  const [highlightedIndex, setHighlightedIndex] = useState(-1);
   const inputRef = useRef<HTMLInputElement>(null);
   const iconRef = useRef<HTMLButtonElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -40,6 +41,7 @@ export function SearchBar({ onOpenChange, forceClose }: SearchBarProps) {
     setIsOpen(false);
     setQuery('');
     setDebouncedQuery('');
+    setHighlightedIndex(-1);
     onOpenChange?.(false);
     iconRef.current?.focus();
   };
@@ -65,6 +67,10 @@ export function SearchBar({ onOpenChange, forceClose }: SearchBarProps) {
     }, 150);
     return () => clearTimeout(timer);
   }, [query]);
+
+  useEffect(() => {
+    setHighlightedIndex(-1);
+  }, [debouncedQuery]);
 
   useEffect(() => {
     if (!isOpen) return;
@@ -126,6 +132,13 @@ export function SearchBar({ onOpenChange, forceClose }: SearchBarProps) {
   const topAlbums = scoredAlbums.slice(0, 5);
   const hasResults = topArtists.length > 0 || topAlbums.length > 0;
 
+  const allResults = useMemo(() => {
+    const results: Array<{ type: 'artist'; id: string } | { type: 'album'; id: string }> = [];
+    topArtists.forEach(({ artist }) => results.push({ type: 'artist', id: artist.id }));
+    topAlbums.forEach(({ album }) => results.push({ type: 'album', id: album.id }));
+    return results;
+  }, [topArtists, topAlbums]);
+
   return (
     <div ref={containerRef} className="relative">
       {isOpen ? (
@@ -146,6 +159,20 @@ export function SearchBar({ onOpenChange, forceClose }: SearchBarProps) {
             onKeyDown={(e) => {
               if (e.key === 'Escape') {
                 e.stopPropagation();
+                close();
+                return;
+              }
+              if (!showPopup || !hasResults) return;
+              if (e.key === 'ArrowDown') {
+                e.preventDefault();
+                setHighlightedIndex((prev) => (prev + 1) % allResults.length);
+              } else if (e.key === 'ArrowUp') {
+                e.preventDefault();
+                setHighlightedIndex((prev) => (prev - 1 + allResults.length) % allResults.length);
+              } else if (e.key === 'Enter' && highlightedIndex >= 0) {
+                e.preventDefault();
+                const selected = allResults[highlightedIndex];
+                navigate(`/${selected.type === 'artist' ? 'artist' : 'album'}/${selected.id}`);
                 close();
               }
             }}
@@ -176,12 +203,14 @@ export function SearchBar({ onOpenChange, forceClose }: SearchBarProps) {
                       <div className="px-4 pt-3 pb-1 text-xs font-semibold uppercase tracking-wider text-white/40">
                         Artists
                       </div>
-                      {topArtists.map(({ artist }) => (
+                      {topArtists.map(({ artist }, i) => (
                         <button
                           key={artist.id}
                           role="option"
-                          aria-selected={false}
-                          className="w-full text-left px-4 py-2.5 hover:bg-white/10 transition-colors flex items-baseline gap-2"
+                          aria-selected={highlightedIndex === i}
+                          className={`w-full text-left px-4 py-2.5 transition-colors flex items-baseline gap-2 ${
+                            highlightedIndex === i ? 'bg-white/15' : 'hover:bg-white/10'
+                          }`}
                           onClick={() => {
                             navigate(`/artist/${artist.id}`);
                             close();
@@ -216,12 +245,16 @@ export function SearchBar({ onOpenChange, forceClose }: SearchBarProps) {
                       <div className="px-4 pt-3 pb-1 text-xs font-semibold uppercase tracking-wider text-white/40">
                         Albums
                       </div>
-                      {topAlbums.map(({ album }) => (
+                      {topAlbums.map(({ album }, i) => {
+                        const flatIndex = topArtists.length + i;
+                        return (
                         <button
                           key={album.id}
                           role="option"
-                          aria-selected={false}
-                          className="w-full text-left px-4 py-2.5 hover:bg-white/10 transition-colors flex items-baseline gap-2"
+                          aria-selected={highlightedIndex === flatIndex}
+                          className={`w-full text-left px-4 py-2.5 transition-colors flex items-baseline gap-2 ${
+                            highlightedIndex === flatIndex ? 'bg-white/15' : 'hover:bg-white/10'
+                          }`}
                           onClick={() => {
                             navigate(`/album/${album.id}`);
                             close();
