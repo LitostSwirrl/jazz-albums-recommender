@@ -271,7 +271,8 @@ export function SearchBar({ onOpenChange, forceClose }: SearchBarProps) {
                             -- {album.artist} ({album.year})
                           </span>
                         </button>
-                      ))}
+                        );
+                      })}
                       {scoredAlbums.length > 5 && (
                         <button
                           className="w-full text-left px-4 py-2 text-xs text-coral hover:text-coral/80 transition-colors"
