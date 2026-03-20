@@ -2,9 +2,10 @@ import { useState, useRef, useEffect } from 'react';
 
 interface SearchBarProps {
   onOpenChange?: (isOpen: boolean) => void;
+  forceClose?: boolean;
 }
 
-export function SearchBar({ onOpenChange }: SearchBarProps) {
+export function SearchBar({ onOpenChange, forceClose }: SearchBarProps) {
   const [isOpen, setIsOpen] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const iconRef = useRef<HTMLButtonElement>(null);
@@ -25,6 +26,13 @@ export function SearchBar({ onOpenChange }: SearchBarProps) {
       inputRef.current?.focus();
     }
   }, [isOpen]);
+
+  useEffect(() => {
+    if (forceClose && isOpen) {
+      setIsOpen(false);
+      onOpenChange?.(false);
+    }
+  }, [forceClose]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div className="relative">
