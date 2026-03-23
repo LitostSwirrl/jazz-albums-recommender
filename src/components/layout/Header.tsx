@@ -40,7 +40,6 @@ export function Header() {
               { to: '/eras', label: 'Eras' },
               { to: '/artists', label: 'Artists' },
               { to: '/albums', label: 'Albums' },
-              { to: '/playlists', label: 'Playlists' },
             ].map((link) => (
               <Link
                 key={link.to}
@@ -136,7 +135,6 @@ export function Header() {
                 { to: '/eras', label: 'Eras' },
                 { to: '/artists', label: 'Artists' },
                 { to: '/albums', label: 'Albums' },
-                { to: '/playlists', label: 'Playlists' },
               ].map((link) => (
                 <Link
                   key={link.to}

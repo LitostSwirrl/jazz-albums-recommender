@@ -81,21 +81,6 @@ export interface Album {
   reviews?: CriticReview[];
 }
 
-export interface PlaylistTrack {
-  albumId: string;
-  track: string;
-}
-
-export interface CuratedPlaylist {
-  id: string;
-  name: string;
-  description: string;
-  mood: string;
-  tags: string[];
-  tracks: PlaylistTrack[];
-  coverAlbumId: string;
-  spotifyUrl?: string;
-}
 
 export type HistoricalEventCategory =
   | 'civil-rights'
