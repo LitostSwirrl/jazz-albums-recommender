@@ -16,7 +16,12 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-LASTFM_API_KEY = os.environ.get('LASTFM_API_KEY', '***REMOVED***')
+LASTFM_API_KEY = os.environ.get('LASTFM_API_KEY', '')
+
+if not LASTFM_API_KEY:
+    print('Error: LASTFM_API_KEY environment variable is required.')
+    print('  export LASTFM_API_KEY=your_api_key')
+    sys.exit(1)
 CACHE_FILE = '/tmp/era_lastfm_cache.json'
 WIKIDATA_CACHE_FILE = '/tmp/era_wikidata_cache.json'
 DATA_DIR = os.path.join(os.path.dirname(__file__), '..', 'src', 'data')

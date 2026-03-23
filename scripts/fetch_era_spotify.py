@@ -18,8 +18,14 @@ import urllib.parse
 import urllib.request
 import base64
 
-SPOTIFY_CLIENT_ID = os.environ.get('SPOTIFY_CLIENT_ID', '***REMOVED***')
-SPOTIFY_CLIENT_SECRET = os.environ.get('SPOTIFY_CLIENT_SECRET', '***REMOVED***')
+SPOTIFY_CLIENT_ID = os.environ.get('SPOTIFY_CLIENT_ID', '')
+SPOTIFY_CLIENT_SECRET = os.environ.get('SPOTIFY_CLIENT_SECRET', '')
+
+if not SPOTIFY_CLIENT_ID or not SPOTIFY_CLIENT_SECRET:
+    print('Error: SPOTIFY_CLIENT_ID and SPOTIFY_CLIENT_SECRET environment variables are required.')
+    print('  export SPOTIFY_CLIENT_ID=your_client_id')
+    print('  export SPOTIFY_CLIENT_SECRET=your_client_secret')
+    sys.exit(1)
 
 CACHE_FILE = '/tmp/era_spotify_cache.json'
 WIKIDATA_CACHE_FILE = '/tmp/era_wikidata_cache.json'
