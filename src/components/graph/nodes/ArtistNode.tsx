@@ -35,7 +35,7 @@ const textSizeClasses = {
 
 function ArtistNodeComponent({ data, selected }: ArtistNodeProps) {
   const { artist, era, influenceCount, size, highlighted, dimmed, isPathNode } = data;
-  const borderColor = era ? eraColors[era.id] || '#4A4A5A' : '#4A4A5A';
+  const borderColor = era ? eraColors[era.id] || '#332f2b' : '#332f2b';
 
   const baseClasses = `
     block rounded-lg bg-surface border-2 text-center transition-all duration-200

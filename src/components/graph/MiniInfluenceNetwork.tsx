@@ -25,7 +25,7 @@ interface MiniNodeData {
 
 function MiniArtistNode({ data }: { data: MiniNodeData }) {
   const { artist, era, isCenter } = data;
-  const borderColor = era ? eraColors[era.id] || '#4A4A5A' : '#4A4A5A';
+  const borderColor = era ? eraColors[era.id] || '#332f2b' : '#332f2b';
 
   return (
     <>
@@ -121,7 +121,7 @@ function MiniInfluenceNetworkInner({ artist, allArtists, eras }: MiniInfluenceNe
         source: inf.id,
         target: artist.id,
         type: 'smoothstep',
-        style: { stroke: '#E63946', strokeWidth: 2 },
+        style: { stroke: '#a89a7d', strokeWidth: 2 },
         animated: false,
       })),
       ...influenced.map((inf) => ({
@@ -129,7 +129,7 @@ function MiniInfluenceNetworkInner({ artist, allArtists, eras }: MiniInfluenceNe
         source: artist.id,
         target: inf.id,
         type: 'smoothstep',
-        style: { stroke: '#E63946', strokeWidth: 2 },
+        style: { stroke: '#a89a7d', strokeWidth: 2 },
         animated: false,
       })),
     ];
@@ -155,7 +155,7 @@ function MiniInfluenceNetworkInner({ artist, allArtists, eras }: MiniInfluenceNe
         nodeTypes={nodeTypes}
         defaultEdgeOptions={{
           type: 'smoothstep',
-          style: { stroke: '#E63946', strokeWidth: 2 },
+          style: { stroke: '#a89a7d', strokeWidth: 2 },
         }}
         fitView
         panOnDrag={false}
@@ -167,7 +167,7 @@ function MiniInfluenceNetworkInner({ artist, allArtists, eras }: MiniInfluenceNe
         elementsSelectable={false}
         preventScrolling={false}
       >
-        <Background color="#1A1A2E" gap={20} />
+        <Background color="#1a1917" gap={20} />
       </ReactFlow>
     </div>
   );

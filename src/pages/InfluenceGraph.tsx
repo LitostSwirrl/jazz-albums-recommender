@@ -55,7 +55,7 @@ function VerificationBadge() {
 
   return (
     <span className="flex items-center gap-2">
-      <span className="text-emerald-400">
+      <span className="text-coral">
         <svg className="w-3.5 h-3.5 inline" fill="currentColor" viewBox="0 0 20 20">
           <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
         </svg>
@@ -149,7 +149,7 @@ function InfluenceGraphInner() {
       return {
         ...edge,
         style: {
-          stroke: isPathEdge ? '#D4A843' : '#E63946',
+          stroke: isPathEdge ? '#c5b8ab' : '#a89a7d',
           strokeWidth: isPathEdge ? 4 : 2,
           strokeDasharray: isPathEdge ? undefined : edge.style?.strokeDasharray,
           opacity: 1,
@@ -193,7 +193,7 @@ function InfluenceGraphInner() {
           ...edge,
           style: {
             ...edge.style,
-            stroke: isPathEdge ? '#D4A843' : isConnected ? '#A8DADC' : '#E63946',
+            stroke: isPathEdge ? '#c5b8ab' : isConnected ? '#b5b0a8' : '#a89a7d',
             strokeWidth: isPathEdge ? 4 : isConnected ? 3 : 2,
           },
           markerEnd: edge.markerEnd,
@@ -320,7 +320,7 @@ function InfluenceGraphInner() {
           edgeTypes={edgeTypes}
           defaultEdgeOptions={{
             type: 'connection',
-            style: { stroke: '#E63946', strokeWidth: 2 },
+            style: { stroke: '#a89a7d', strokeWidth: 2 },
             animated: false,
           }}
           fitView
@@ -329,12 +329,12 @@ function InfluenceGraphInner() {
           edgesReconnectable={false}
           elevateEdgesOnSelect
         >
-          <Background color="#1A1A2E" gap={20} />
+          <Background color="#1a1917" gap={20} />
           <Controls className="bg-surface border-border" />
           <MiniMap
             nodeColor={(node) => {
               const era = (node.data as { era?: Era }).era;
-              return era ? eraColors[era.id] || '#4A4A5A' : '#4A4A5A';
+              return era ? eraColors[era.id] || '#332f2b' : '#332f2b';
             }}
             maskColor="rgba(0, 0, 0, 0.8)"
             className="bg-navy border-border"
