@@ -102,11 +102,9 @@ async function spotifyFetch(path: string, token: string, options?: RequestInit) 
     },
   });
   if (!res.ok) {
-    if (res.status === 403) {
-      throw new Error('Spotify rejected the request. Add your Spotify email to your app\'s User Management in the Developer Dashboard.');
-    }
-    const body = await res.text();
-    throw new Error(`Spotify API ${res.status}: ${body}`);
+    const body = await res.json().catch(() => null);
+    const reason = body?.error?.message ?? body?.error ?? `HTTP ${res.status}`;
+    throw new Error(`Spotify: ${reason}`);
   }
   return res.json();
 }
