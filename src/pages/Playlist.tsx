@@ -5,7 +5,7 @@ import albumsData from '../data/albums.json';
 import erasData from '../data/eras.json';
 import { AlbumCover } from '../components/AlbumCover';
 import { PlaylistAlbumRow } from '../components/playlist/PlaylistAlbumRow';
-import { SaveToSpotify } from '../components/playlist/SaveToSpotify';
+import { SpotifyIcon } from '../components/icons';
 import { SEO } from '../components/SEO';
 import type { CuratedPlaylist, Album, Era } from '../types';
 
@@ -106,14 +106,17 @@ export function Playlist() {
               {playlistTracks.length} tracks
             </span>
           </div>
-          <SaveToSpotify
-            playlistName={playlist.name}
-            playlistDescription={playlist.description}
-            tracks={playlistTracks.map(({ album, trackName }) => ({
-              trackName,
-              artistName: album.artist,
-            }))}
-          />
+          {playlist.spotifyUrl && (
+            <a
+              href={playlist.spotifyUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#1DB954] text-white font-medium hover:bg-[#1ed760] transition-colors"
+            >
+              <SpotifyIcon className="w-5 h-5" />
+              Open in Spotify
+            </a>
+          )}
         </div>
       </div>
 

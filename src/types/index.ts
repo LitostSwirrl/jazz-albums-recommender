@@ -94,6 +94,7 @@ export interface CuratedPlaylist {
   tags: string[];
   tracks: PlaylistTrack[];
   coverAlbumId: string;
+  spotifyUrl?: string;
 }
 
 export type HistoricalEventCategory =
