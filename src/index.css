@@ -5,41 +5,41 @@
    Values are swapped: "cream" is now dark bg, "charcoal" is now light text, etc. */
 
 @theme {
-  /* Typography — Clean sans-serif stack */
-  --font-display: 'Space Grotesk', system-ui, sans-serif;
-  --font-heading: 'Inter', system-ui, sans-serif;
-  --font-body: 'DM Sans', system-ui, sans-serif;
+  /* Typography -- Serif stack */
+  --font-display: 'DM Serif Display', Georgia, serif;
+  --font-heading: 'Source Serif 4', Georgia, serif;
+  --font-body: 'Source Serif 4', Georgia, serif;
   --font-mono: 'JetBrains Mono', 'Courier New', monospace;
 
-  /* Core palette — Dark mode (values swapped) */
-  --color-cream: #0D0D0D;
-  --color-surface: #161616;
-  --color-charcoal: #F5F0EB;
-  --color-warm-gray: #8A8A8A;
-  --color-border: #2A2A2A;
-  --color-border-light: #1F1F1F;
+  /* Core palette -- Warm-gray monochrome */
+  --color-cream: #1a1917;
+  --color-surface: #242220;
+  --color-charcoal: #e8e4df;
+  --color-warm-gray: #9a9590;
+  --color-border: #332f2b;
+  --color-border-light: #2a2725;
 
-  /* Accent palette — Editorial */
-  --color-coral: #C2694F;
-  --color-teal: #A8DADC;
-  --color-mustard: #D4A843;
-  --color-olive: #7DA87D;
-  --color-navy: #0A0A0A;
+  /* Accent palette -- Desaturated warm */
+  --color-coral: #a89a7d;
+  --color-teal: #b5b0a8;
+  --color-mustard: #a89a7d;
+  --color-olive: #9a9590;
+  --color-navy: #141210;
 
-  /* Era colors — Brightened for dark background legibility */
-  --color-era-early-jazz: #C9A84C;
-  --color-era-swing: #E6704E;
-  --color-era-bebop: #4ECDC4;
-  --color-era-cool-jazz: #84B4B4;
-  --color-era-hard-bop: #D04E51;
-  --color-era-free-jazz: #A06BCA;
-  --color-era-fusion: #E89B4C;
-  --color-era-contemporary: #3DA68E;
+  /* Era colors -- Warm-gray scale (dark to light) */
+  --color-era-early-jazz: #6b6358;
+  --color-era-swing: #7a7168;
+  --color-era-bebop: #897f75;
+  --color-era-cool-jazz: #988d83;
+  --color-era-hard-bop: #a79b90;
+  --color-era-free-jazz: #b6a99d;
+  --color-era-fusion: #c5b8ab;
+  --color-era-contemporary: #d4c7b9;
 
-  /* Shadows — Subtle glows for dark mode */
-  --shadow-card: 0 1px 3px rgba(255, 255, 255, 0.02), 0 4px 12px rgba(0, 0, 0, 0.3);
-  --shadow-card-hover: 0 4px 16px rgba(255, 255, 255, 0.04), 0 8px 32px rgba(0, 0, 0, 0.4);
-  --shadow-elevated: 0 8px 24px rgba(0, 0, 0, 0.5), 0 0 1px rgba(255, 255, 255, 0.05);
+  /* Shadows -- Warm tint */
+  --shadow-card: 0 1px 3px rgba(20, 18, 16, 0.1), 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-card-hover: 0 4px 16px rgba(20, 18, 16, 0.15), 0 8px 32px rgba(0, 0, 0, 0.4);
+  --shadow-elevated: 0 8px 24px rgba(0, 0, 0, 0.5), 0 0 1px rgba(232, 228, 223, 0.05);
 
   /* Easing */
   --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
