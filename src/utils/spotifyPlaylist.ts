@@ -54,10 +54,10 @@ export async function getSpotifyAuthUrl(): Promise<string> {
     client_id: clientId,
     response_type: 'code',
     redirect_uri: getRedirectUri(),
-    scope: 'playlist-modify-public user-read-private',
+    scope: 'playlist-modify-public playlist-modify-private user-read-private',
     code_challenge_method: 'S256',
     code_challenge: codeChallenge,
-    show_dialog: 'false',
+    show_dialog: 'true',
   });
 
   return `https://accounts.spotify.com/authorize?${params}`;
@@ -132,7 +132,7 @@ export async function createSpotifyPlaylist(
     body: JSON.stringify({
       name,
       description: `${description} — curated by Jazz Albums Recommender`,
-      public: true,
+      public: false,
     }),
   });
 
