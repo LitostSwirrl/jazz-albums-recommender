@@ -104,7 +104,7 @@ async function spotifyFetch(path: string, token: string, options?: RequestInit) 
   if (!res.ok) {
     const body = await res.json().catch(() => null);
     const reason = body?.error?.message ?? body?.error ?? `HTTP ${res.status}`;
-    throw new Error(`Spotify: ${reason}`);
+    throw new Error(`Spotify ${res.status} on ${path}: ${reason}`);
   }
   return res.json();
 }
