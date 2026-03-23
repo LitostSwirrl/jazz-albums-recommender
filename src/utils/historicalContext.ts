@@ -10,11 +10,11 @@ interface CategoryConfig {
 }
 
 export const EVENT_CATEGORIES: Record<HistoricalEventCategory, CategoryConfig> = {
-  'civil-rights':  { label: 'Racial Justice',       color: '#E63946', icon: 'fist' },
-  'economics':     { label: 'Economics & Industry',  color: '#3DA68E', icon: 'dollar' },
-  'politics':      { label: 'Politics & War',        color: '#D04E51', icon: 'flag' },
-  'technology':    { label: 'Recording & Tech',      color: '#A8DADC', icon: 'mic' },
-  'globalization': { label: 'Global Diaspora',       color: '#A06BCA', icon: 'globe' },
+  'civil-rights':  { label: 'Racial Justice',       color: '#a89a7d', icon: 'fist' },
+  'economics':     { label: 'Economics & Industry',  color: '#897f75', icon: 'dollar' },
+  'politics':      { label: 'Politics & War',        color: '#7a7168', icon: 'flag' },
+  'technology':    { label: 'Recording & Tech',      color: '#b5b0a8', icon: 'mic' },
+  'globalization': { label: 'Global Diaspora',       color: '#988d83', icon: 'globe' },
 };
 
 export const ALL_CATEGORIES: HistoricalEventCategory[] = [

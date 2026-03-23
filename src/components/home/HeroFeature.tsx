@@ -20,7 +20,7 @@ export function HeroFeature({ albums, eras }: HeroFeatureProps) {
   if (!featured) return null;
 
   const era = eras.find((e) => e.id === featured.era);
-  const eraColor = era?.color ?? '#C2694F';
+  const eraColor = era?.color ?? '#a89a7d';
 
   return (
     <section className="relative overflow-hidden rounded-xl mb-10 -mx-4 sm:mx-0">
@@ -28,7 +28,7 @@ export function HeroFeature({ albums, eras }: HeroFeatureProps) {
       <div
         className="absolute inset-0"
         style={{
-          background: `linear-gradient(135deg, ${eraColor}30 0%, #0D0D0D 60%, #0A0A0A 100%)`,
+          background: `linear-gradient(135deg, ${eraColor}30 0%, #1a1917 60%, #141210 100%)`,
         }}
       />
       <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-transparent to-transparent" />
