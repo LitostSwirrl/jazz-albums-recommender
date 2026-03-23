@@ -23,13 +23,10 @@ export function Playlists() {
     <div className="max-w-6xl mx-auto px-4 py-12 page-enter">
       <SEO
         title="Jazz Playlists"
-        description="AI-curated jazz playlists for every mood and moment — from bright morning sessions to late-night explorations."
+        description="Curated jazz playlists for every mood."
       />
 
-      <h1 className="text-4xl mb-2 font-display text-charcoal">Playlists</h1>
-      <p className="text-warm-gray mb-8">
-        Curated listening journeys drawn from {albums.length.toLocaleString()} albums.
-      </p>
+      <h1 className="text-4xl mb-8 font-display text-charcoal">Playlists</h1>
 
       {/* Tag filter */}
       <div className="flex flex-wrap gap-2 mb-10">

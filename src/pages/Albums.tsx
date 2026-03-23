@@ -200,15 +200,16 @@ export function Albums() {
     <div ref={topRef} className="max-w-6xl mx-auto px-4 py-12 page-enter">
       <SEO
         title="Essential Jazz Albums"
-        description={`Explore ${albums.length} jazz albums that define the genre, from bebop classics to contemporary masterpieces. Filter by era, genre, and label.`}
+        description={`${albums.length} jazz albums across 8 eras.`}
       />
 
       <div className="mb-8">
         <h1 className="text-4xl font-bold mb-2 font-display text-charcoal">Essential Albums</h1>
-        <p className="text-warm-gray">
-          {filteredAlbums.length} albums{' '}
-          {hasActiveFilters ? 'matching your filters' : 'that define jazz history'}
-        </p>
+        {hasActiveFilters && (
+          <p className="text-warm-gray">
+            {filteredAlbums.length} albums matching your filters
+          </p>
+        )}
       </div>
 
       {/* Search Bar */}

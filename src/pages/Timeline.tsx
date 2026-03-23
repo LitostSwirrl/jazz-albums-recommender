@@ -48,10 +48,6 @@ export function Timeline() {
       />
       <div className="mb-12 text-center">
         <h1 className="text-4xl font-bold mb-4 font-display text-charcoal">Jazz Through Time</h1>
-        <p className="text-xl text-warm-gray max-w-2xl mx-auto">
-          From New Orleans to the present day, explore a century of jazz evolution.
-          Each era built on what came before while pushing music into new territory.
-        </p>
       </div>
 
       {/* Visual Timeline */}

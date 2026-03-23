@@ -74,10 +74,6 @@ export function ParallelTimeline() {
         <h1 className="text-4xl font-bold mb-3 font-display text-charcoal">
           Jazz & Society
         </h1>
-        <p className="text-xl text-warm-gray max-w-2xl mx-auto mb-2">
-          Jazz never existed in a vacuum. Explore how racial justice, economics, politics,
-          technology, and globalization shaped &mdash; and were shaped by &mdash; the music.
-        </p>
         <p className="text-sm text-warm-gray">
           {allEvents.length} events &middot; {totalAlbums} albums in context
         </p>

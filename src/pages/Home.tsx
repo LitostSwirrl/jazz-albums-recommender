@@ -64,7 +64,7 @@ export function Home() {
     <div className="page-enter">
       <SEO
         title="Your Jazz Library"
-        description={`A curated guide to ${albums.length} jazz albums from New Orleans to today. Explore jazz history, discover ${artists.length} artists, and understand how they shaped each other.`}
+        description="1000 jazz albums, 275 artists, 8 eras."
       />
 
       <div className="max-w-7xl mx-auto px-4">

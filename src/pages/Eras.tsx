@@ -10,12 +10,9 @@ export function Eras() {
     <div className="max-w-6xl mx-auto px-4 py-12 page-enter">
       <SEO
         title="Jazz Eras"
-        description="Explore the evolution of jazz through eight distinct periods, from early jazz and swing to bebop, hard bop, free jazz, fusion, and contemporary styles."
+        description="8 jazz eras from the 1900s to present."
       />
-      <h1 className="text-4xl font-bold mb-2 font-display text-charcoal">Jazz Eras</h1>
-      <p className="text-warm-gray mb-8">
-        Explore the evolution of jazz through eight distinct periods
-      </p>
+      <h1 className="text-4xl font-bold mb-8 font-display text-charcoal">Jazz Eras</h1>
 
       {/* Timeline */}
       <div className="relative">

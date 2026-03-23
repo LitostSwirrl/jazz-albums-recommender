@@ -86,12 +86,14 @@ export function Artists() {
     <div className="max-w-6xl mx-auto px-4 py-12 page-enter">
       <SEO
         title="Jazz Artists"
-        description={`Discover the legends who shaped jazz history. Explore profiles of ${artists.length} influential jazz musicians from Louis Armstrong to Kamasi Washington.`}
+        description={`${artists.length} jazz artists across all eras.`}
       />
       <h1 className="text-4xl mb-2 font-display text-charcoal">Jazz Artists</h1>
-      <p className="text-warm-gray mb-6">
-        {filteredArtists.length} {hasActiveFilters ? 'artists matching your filters' : 'legends who shaped jazz history'}
-      </p>
+      {hasActiveFilters && (
+        <p className="text-warm-gray mb-6">
+          {filteredArtists.length} artists matching your filters
+        </p>
+      )}
 
       {/* Search Bar */}
       <div className="mb-6 relative">
