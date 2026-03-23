@@ -1,200 +1,234 @@
 #!/usr/bin/env python3
-"""
-AI-curated playlist generator using Claude API.
-Reads 1,000 albums from albums.json and asks Claude to curate themed playlists.
-Output: src/data/playlists.json
+"""Generate song-based playlists from album keyTracks data."""
 
-Requires: pip install anthropic
-Usage: ANTHROPIC_API_KEY=sk-... python3 scripts/generate_playlists.py
-"""
 import json
-import os
-import sys
+import random
 from pathlib import Path
 
-try:
-    import anthropic
-except ImportError:
-    print("Missing dependency: pip install anthropic")
-    sys.exit(1)
+ROOT = Path(__file__).resolve().parent.parent
+ALBUMS_PATH = ROOT / "src" / "data" / "albums.json"
+OUTPUT_PATH = ROOT / "src" / "data" / "playlists.json"
 
-ROOT = Path(__file__).parent.parent
-ALBUMS_FILE = ROOT / "src" / "data" / "albums.json"
-OUTPUT_FILE = ROOT / "src" / "data" / "playlists.json"
+random.seed(42)  # Reproducible output
 
-PLAYLIST_THEMES = [
+PLAYLIST_DEFS = [
     {
         "id": "morning-jazz",
         "name": "Morning Jazz",
         "mood": "morning",
-        "prompt_theme": "bright, energizing, optimistic, flowing — ideal for a morning coffee or commute. Think uptempo swing, breezy cool jazz, melodic post-bop.",
+        "description": "Bright, melodic jazz for starting the day.",
+        "tags": ["bright", "energizing", "melodic"],
+        "genres": ["cool jazz", "bossa nova", "vocal jazz", "swing"],
+        "eras": [],
+        "labels": [],
     },
     {
-        "id": "sunday-afternoon",
-        "name": "Sunday Afternoon",
+        "id": "afternoon-groove",
+        "name": "Afternoon Groove",
         "mood": "afternoon",
-        "prompt_theme": "relaxed, warm, accessible — the kind of music you play on a slow Sunday afternoon. Mix of lyrical ballads, easy swing, and gentle bossa nova-influenced jazz.",
+        "description": "Hard-swinging grooves for the middle of the day.",
+        "tags": ["groovy", "warm", "rhythmic"],
+        "genres": ["hard bop", "post-bop", "soul jazz"],
+        "eras": [],
+        "labels": [],
     },
     {
         "id": "evening-wind-down",
         "name": "Evening Wind Down",
         "mood": "evening",
-        "prompt_theme": "cool, introspective, intimate — perfect for the hour before dinner or unwinding after work. Slower tempos, rich harmonies, reflective mood.",
+        "description": "Cool, unhurried jazz for the evening.",
+        "tags": ["relaxed", "warm", "easy"],
+        "genres": ["cool jazz", "modal jazz", "vocal jazz"],
+        "eras": ["cool-jazz", "bebop"],
+        "labels": [],
     },
     {
         "id": "late-night",
         "name": "Late Night",
         "mood": "night",
-        "prompt_theme": "dark, atmospheric, searching — smoky late-night club energy. Free jazz, noir ballads, sparse piano, extended improvisations.",
+        "description": "Dark, searching jazz for after midnight.",
+        "tags": ["dark", "introspective", "late-night"],
+        "genres": ["free jazz", "avant-garde jazz", "modal jazz"],
+        "eras": ["free-jazz"],
+        "labels": [],
     },
     {
         "id": "first-listen",
-        "name": "First Listen",
+        "name": "Gateway to Jazz",
         "mood": "gateway",
-        "prompt_theme": "the perfect introduction to jazz for someone new. Accessible, iconic, immediately appealing albums that represent the best of the genre without being intimidating.",
+        "description": "Entry points across every era.",
+        "tags": ["essential", "accessible", "classic"],
+        "genres": [],
+        "eras": [],
+        "labels": [],
     },
     {
         "id": "deep-focus",
         "name": "Deep Focus",
         "mood": "cerebral",
-        "prompt_theme": "complex, intellectually engaging — for deep listening sessions. Modal jazz, intricate bebop, avant-garde works that reward close attention.",
+        "description": "Complex, demanding jazz that rewards close listening.",
+        "tags": ["complex", "cerebral", "deep-cuts"],
+        "genres": ["free jazz", "avant-garde jazz", "experimental", "free improvisation"],
+        "eras": [],
+        "labels": [],
     },
     {
-        "id": "heartbreak-and-blue",
-        "name": "Heartbreak & Blue",
+        "id": "blue-hours",
+        "name": "Blue Hours",
         "mood": "melancholy",
-        "prompt_theme": "melancholy, emotionally raw, tender — ballads and blues-inflected albums about loss, longing, and vulnerability.",
+        "description": "Ballads and blues-drenched jazz.",
+        "tags": ["melancholy", "slow", "emotional"],
+        "genres": ["blues", "vocal jazz", "cool jazz"],
+        "eras": [],
+        "labels": [],
     },
     {
-        "id": "joy-ride",
-        "name": "Joy Ride",
+        "id": "joyful-noise",
+        "name": "Joyful Noise",
         "mood": "joyful",
-        "prompt_theme": "jubilant, exuberant, swinging — pure joy and vitality. Hard-driving swing, celebratory hard bop, funky soul jazz.",
+        "description": "Upbeat, high-energy jazz that swings hard.",
+        "tags": ["joyful", "energizing", "upbeat"],
+        "genres": ["swing", "bebop", "soul jazz", "latin jazz"],
+        "eras": [],
+        "labels": [],
     },
     {
-        "id": "nyc-sound",
-        "name": "NYC Sound",
+        "id": "city-streets",
+        "name": "City Streets",
         "mood": "urban",
-        "prompt_theme": "quintessential New York jazz — the Blue Note sound, Village Vanguard sessions, the gritty energy of 1950s-60s Manhattan clubs. Hard bop, post-bop.",
+        "description": "Hard bop and soul jazz from the city.",
+        "tags": ["urban", "gritty", "soulful"],
+        "genres": ["hard bop", "post-bop", "soul jazz"],
+        "eras": ["hard-bop"],
+        "labels": [],
     },
     {
-        "id": "paris-sessions",
-        "name": "Paris Sessions",
+        "id": "european-voices",
+        "name": "European Voices",
         "mood": "european",
-        "prompt_theme": "cool, refined, European sensibility — jazz recorded in or influenced by Paris and the European scene. ECM aesthetic, cool jazz, chamber jazz.",
+        "description": "ECM aesthetics and European jazz traditions.",
+        "tags": ["atmospheric", "european", "chamber"],
+        "genres": ["chamber jazz", "contemporary jazz", "world jazz"],
+        "eras": [],
+        "labels": ["ECM"],
     },
     {
-        "id": "spirit-and-soul",
-        "name": "Spirit & Soul",
+        "id": "spiritual-jazz",
+        "name": "Spiritual Jazz",
         "mood": "spiritual",
-        "prompt_theme": "spiritual, searching, transcendent — albums with a sense of reaching beyond. Free jazz, Coltrane-influenced spirituality, soul jazz gospel energy.",
+        "description": "Gospel-inflected, transcendent jazz.",
+        "tags": ["spiritual", "transcendent", "devotional"],
+        "genres": ["spiritual jazz", "free jazz"],
+        "eras": [],
+        "labels": [],
     },
     {
         "id": "electric-era",
         "name": "Electric Era",
         "mood": "fusion",
-        "prompt_theme": "electric, funky, boundary-crossing — jazz fusion at its best. Miles Davis electric period, Weather Report, Return to Forever, Mahavishnu Orchestra.",
+        "description": "Jazz meets rock, funk, and electronics.",
+        "tags": ["electric", "funky", "fusion"],
+        "genres": ["jazz fusion", "jazz-funk"],
+        "eras": [],
+        "labels": [],
     },
 ]
 
 
-def build_album_catalog(albums: list[dict]) -> str:
-    """Build a compact catalog string for the Claude prompt."""
-    lines = []
-    for a in albums:
-        year = a.get("year") or "?"
-        genres = ", ".join(a.get("genres", [])[:2])
-        lines.append(f'- id: "{a["id"]}" | {a["title"]} by {a["artist"]} ({year}) | {genres}')
-    return "\n".join(lines)
+def matches_playlist(album: dict, pdef: dict) -> bool:
+    """Check if an album matches a playlist definition's criteria."""
+    if pdef["mood"] == "gateway":
+        return bool(album.get("spotifyUrl"))
+
+    album_genres = [g.lower() for g in album.get("genres", [])]
+    album_era = album.get("era", "")
+    album_label = album.get("label", "")
+
+    genre_match = any(
+        g.lower() in album_genres for g in pdef["genres"]
+    ) if pdef["genres"] else False
+
+    era_match = album_era in pdef["eras"] if pdef["eras"] else False
+
+    label_match = any(
+        l.lower() in album_label.lower() for l in pdef["labels"]
+    ) if pdef["labels"] else False
+
+    return genre_match or era_match or label_match
 
 
-def generate_playlist(client: anthropic.Anthropic, theme: dict, catalog: str, album_ids: set[str]) -> dict:
-    print(f"  Generating: {theme['name']}...")
+def build_playlist(albums: list[dict], pdef: dict) -> dict:
+    """Build a single playlist from matching albums."""
+    if pdef["mood"] == "gateway":
+        era_buckets: dict[str, list[dict]] = {}
+        for a in albums:
+            if not a.get("keyTracks"):
+                continue
+            era = a.get("era", "")
+            if era not in era_buckets:
+                era_buckets[era] = []
+            era_buckets[era].append(a)
 
-    prompt = f"""You are a jazz curator. From the album catalog below, select 12-15 albums for a themed playlist.
+        matching = []
+        for era, bucket in sorted(era_buckets.items()):
+            with_spotify = [a for a in bucket if a.get("spotifyUrl")]
+            without = [a for a in bucket if not a.get("spotifyUrl")]
+            random.shuffle(with_spotify)
+            random.shuffle(without)
+            matching.extend((with_spotify + without)[:4])
+    else:
+        matching = [a for a in albums if matches_playlist(a, pdef) and a.get("keyTracks")]
+        random.shuffle(matching)
 
-THEME: "{theme['name']}"
-CHARACTER: {theme['prompt_theme']}
+    tracks: list[dict] = []
+    artist_count: dict[str, int] = {}
+    used_albums: list[dict] = []
 
-INSTRUCTIONS:
-- Choose albums that genuinely fit the theme's character and mood
-- Prefer variety in era and artist (avoid picking 3 albums by same artist)
-- Order them for best listening flow
-- Return ONLY valid JSON, no explanation
+    for album in matching:
+        artist = album.get("artist", "")
+        if artist_count.get(artist, 0) >= 2:
+            continue
 
-RESPONSE FORMAT:
-{{
-  "albums": ["album-id-1", "album-id-2", ...],
-  "description": "2-3 sentence evocative description of this playlist",
-  "tags": ["tag1", "tag2"]
-}}
+        key_tracks = album.get("keyTracks", [])
+        if not key_tracks:
+            continue
 
-Tags should be 1-3 short descriptive words (e.g., "mellow", "classic", "late-night", "essential", "deep-cuts").
+        track = random.choice(key_tracks)
+        tracks.append({"albumId": album["id"], "track": track})
+        artist_count[artist] = artist_count.get(artist, 0) + 1
+        used_albums.append(album)
 
-ALBUM CATALOG:
-{catalog}"""
+        if len(tracks) >= 25:
+            break
 
-    message = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=1024,
-        messages=[{"role": "user", "content": prompt}],
-    )
-
-    raw = message.content[0].text.strip()
-
-    # Extract JSON if wrapped in code block
-    if "```" in raw:
-        raw = raw.split("```")[1]
-        if raw.startswith("json"):
-            raw = raw[4:]
-        raw = raw.strip()
-
-    data = json.loads(raw)
-
-    # Validate album IDs
-    valid_albums = [aid for aid in data["albums"] if aid in album_ids]
-    invalid = [aid for aid in data["albums"] if aid not in album_ids]
-    if invalid:
-        print(f"    Warning: {len(invalid)} invalid IDs removed: {invalid[:3]}")
+    cover_album_id = used_albums[0]["id"] if used_albums else matching[0]["id"] if matching else "kind-of-blue"
 
     return {
-        "id": theme["id"],
-        "name": theme["name"],
-        "mood": theme["mood"],
-        "description": data["description"],
-        "tags": data.get("tags", [])[:3],
-        "albums": valid_albums,
-        "coverAlbumId": valid_albums[0] if valid_albums else "",
+        "id": pdef["id"],
+        "name": pdef["name"],
+        "mood": pdef["mood"],
+        "description": pdef["description"],
+        "tags": pdef["tags"],
+        "tracks": tracks,
+        "coverAlbumId": cover_album_id,
     }
 
 
-def main() -> None:
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        print("Error: ANTHROPIC_API_KEY environment variable not set")
-        sys.exit(1)
+def main():
+    with open(ALBUMS_PATH) as f:
+        albums = json.load(f)
 
-    with open(ALBUMS_FILE) as f:
-        albums: list[dict] = json.load(f)
+    playlists = [build_playlist(albums, pdef) for pdef in PLAYLIST_DEFS]
 
-    album_ids = {a["id"] for a in albums}
-    catalog = build_album_catalog(albums)
+    with open(OUTPUT_PATH, "w") as f:
+        json.dump(playlists, f, indent=2, ensure_ascii=False)
 
-    print(f"Loaded {len(albums)} albums. Generating {len(PLAYLIST_THEMES)} playlists...")
+    for p in playlists:
+        count = len(p['tracks'])
+        warning = " ** LOW TRACK COUNT" if count < 10 else ""
+        print(f"  {p['name']}: {count} tracks{warning}")
 
-    client = anthropic.Anthropic(api_key=api_key)
-    playlists = []
-
-    for theme in PLAYLIST_THEMES:
-        try:
-            playlist = generate_playlist(client, theme, catalog, album_ids)
-            playlists.append(playlist)
-            print(f"    Done: {len(playlist['albums'])} albums, tags: {playlist['tags']}")
-        except Exception as e:
-            print(f"    Error generating {theme['name']}: {e}")
-
-    OUTPUT_FILE.write_text(json.dumps(playlists, indent=2, ensure_ascii=False))
-    print(f"\nWritten {len(playlists)} playlists to {OUTPUT_FILE}")
+    print(f"\nWrote {len(playlists)} playlists to {OUTPUT_PATH}")
 
 
 if __name__ == "__main__":
