@@ -20,14 +20,14 @@ export interface GraphData {
 }
 
 export const eraColors: Record<string, string> = {
-  'early-jazz': '#C9A84C',
-  'swing': '#E6704E',
-  'bebop': '#4ECDC4',
-  'cool-jazz': '#84B4B4',
-  'hard-bop': '#D04E51',
-  'free-jazz': '#A06BCA',
-  'fusion': '#E89B4C',
-  'contemporary': '#3DA68E',
+  'early-jazz': '#6b6358',
+  'swing': '#7a7168',
+  'bebop': '#897f75',
+  'cool-jazz': '#988d83',
+  'hard-bop': '#a79b90',
+  'free-jazz': '#b6a99d',
+  'fusion': '#c5b8ab',
+  'contemporary': '#d4c7b9',
 };
 
 function getNodeSize(influenceCount: number): 'sm' | 'md' | 'lg' | 'xl' {
@@ -121,14 +121,14 @@ export function useInfluenceGraph(
         type: 'connection',
         animated: false,
         style: {
-          stroke: '#E63946',
+          stroke: '#a89a7d',
           strokeWidth: 2,
           strokeDasharray: hasDirectSource ? undefined : '6 3',
         },
         data: conn ? { explanation: conn.explanation, verified: conn.verified } : undefined,
         markerEnd: {
           type: MarkerType.ArrowClosed,
-          color: '#E63946',
+          color: '#a89a7d',
           width: 20,
           height: 20,
         },

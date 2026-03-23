@@ -11,14 +11,14 @@ const albums = albumsData as Album[];
 const artists = artistsData as Artist[];
 
 const eraColors: Record<string, string> = {
-  'early-jazz': '#C9A84C',
-  'swing': '#E6704E',
-  'bebop': '#4ECDC4',
-  'cool-jazz': '#84B4B4',
-  'hard-bop': '#D04E51',
-  'free-jazz': '#A06BCA',
-  'fusion': '#E89B4C',
-  'contemporary': '#3DA68E',
+  'early-jazz': '#6b6358',
+  'swing': '#7a7168',
+  'bebop': '#897f75',
+  'cool-jazz': '#988d83',
+  'hard-bop': '#a79b90',
+  'free-jazz': '#b6a99d',
+  'fusion': '#c5b8ab',
+  'contemporary': '#d4c7b9',
 };
 
 function getEraStats(eraId: EraId) {
@@ -76,7 +76,7 @@ export function Timeline() {
               {/* Timeline dot */}
               <div
                 className="hidden md:block absolute left-1/2 top-8 w-6 h-6 rounded-full border-4 transform -translate-x-1/2 z-10"
-                style={{ backgroundColor: color, borderColor: '#0D0D0D' }}
+                style={{ backgroundColor: color, borderColor: '#1a1917' }}
               />
 
               {/* Era card */}
