@@ -27,7 +27,13 @@ export function Home() {
     return eras.map((era, idx) => {
       const eraAlbums = albums.filter((a) => a.era === era.id && a.coverUrl);
       const shuffled = seededShuffle(eraAlbums, daySeed + idx + 100);
-      return { era, albums: shuffled.slice(0, 20) };
+      const seen = new Set<string>();
+      const unique = shuffled.filter((a) => {
+        if (seen.has(a.title)) return false;
+        seen.add(a.title);
+        return true;
+      });
+      return { era, albums: unique.slice(0, 20) };
     }).filter((c) => c.albums.length > 0);
   }, []);
 

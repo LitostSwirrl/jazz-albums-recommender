@@ -35,7 +35,13 @@ export function GenreRows({ albums }: GenreRowsProps) {
         ) && a.coverUrl
       );
       const shuffled = seededShuffle(matching, daySeed + idx);
-      return { ...collection, albums: shuffled.slice(0, 20) };
+      const seen = new Set<string>();
+      const unique = shuffled.filter((a) => {
+        if (seen.has(a.title)) return false;
+        seen.add(a.title);
+        return true;
+      });
+      return { ...collection, albums: unique.slice(0, 20) };
     }).filter((c) => c.albums.length >= 4);
   }, [albums, daySeed]);
 
