@@ -8,7 +8,7 @@ interface SEOProps {
 }
 
 export function SEO({ title, description, image, type = 'website' }: SEOProps) {
-  const fullTitle = `${title} | Jazz Guide`;
+  const fullTitle = `${title} | Smack Cats`;
   const siteUrl = 'https://litostswirrl.github.io/jazz-albums-recommender';
 
   return (

@@ -5,10 +5,10 @@
    Values are swapped: "cream" is now dark bg, "charcoal" is now light text, etc. */
 
 @theme {
-  /* Typography -- Serif stack */
-  --font-display: 'DM Serif Display', Georgia, serif;
-  --font-heading: 'Source Serif 4', Georgia, serif;
-  --font-body: 'Source Serif 4', Georgia, serif;
+  /* Typography — Sans stack */
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-heading: 'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', 'Courier New', monospace;
 
   /* Core palette -- Warm-gray monochrome */
