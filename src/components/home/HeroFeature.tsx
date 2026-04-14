@@ -11,7 +11,7 @@ interface HeroFeatureProps {
 
 export function HeroFeature({ albums, eras }: HeroFeatureProps) {
   const featured = useMemo(() => {
-    const withCovers = albums.filter((a) => a.coverUrl && a.description.length > 100);
+    const withCovers = albums.filter((a) => a.coverUrl && a.albumDNA.length > 100);
     if (withCovers.length === 0) return null;
     const daySeed = Math.floor(Date.now() / 86400000);
     return seededPick(withCovers, daySeed) ?? null;
@@ -60,7 +60,7 @@ export function HeroFeature({ albums, eras }: HeroFeatureProps) {
             {featured.artist} &middot; {featured.year}
           </p>
           <p className="text-sm text-white/50 mb-6 line-clamp-2 max-w-xl">
-            {featured.significance}
+            {featured.albumDNA}
           </p>
           <div className="flex gap-3 justify-center md:justify-start">
             <Link

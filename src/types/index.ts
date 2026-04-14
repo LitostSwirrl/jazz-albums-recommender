@@ -69,8 +69,7 @@ export interface Album {
   label: string;
   era: EraId;
   genres: string[];
-  description: string;
-  significance: string;
+  albumDNA: string;
   keyTracks: string[];
   coverUrl?: string;
   spotifyUrl?: string;

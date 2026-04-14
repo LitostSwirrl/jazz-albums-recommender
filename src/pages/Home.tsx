@@ -43,7 +43,7 @@ export function Home() {
 
     // Hero album
     const heroAlbum = seededPick(
-      albums.filter((a) => a.coverUrl && a.description.length > 100),
+      albums.filter((a) => a.coverUrl && a.albumDNA.length > 100),
       Math.floor(Date.now() / 86400000)
     );
     if (heroAlbum) urls.push(heroAlbum.coverUrl);

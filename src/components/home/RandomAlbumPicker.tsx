@@ -208,9 +208,9 @@ export function RandomAlbumPicker({ albums, eras }: RandomAlbumPickerProps) {
                   {selectedEra.name}
                 </span>
               )}
-              {selectedAlbum.significance && (
+              {selectedAlbum.albumDNA && (
                 <p className="text-warm-gray/70 text-xs mt-3 line-clamp-3 max-w-sm">
-                  {selectedAlbum.significance}
+                  {selectedAlbum.albumDNA}
                 </p>
               )}
             </div>

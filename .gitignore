@@ -27,3 +27,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+scripts/out/albums_pre_dna_backup.json

@@ -1,0 +1,111 @@
+[
+  {
+    "id": "armstrong-alumni-allstars",
+    "title": "Armstrong Alumni Allstars",
+    "artist": "Louis Armstrong",
+    "year": 2001,
+    "albumDNA_head": "Jazz is a music genre that originated in the African-American communities of New Orleans, Louisiana, in the late 19th and early 20th centuries. Its roots are in blues, ragtime, European harmony, African rhythmic rituals, spirituals, hymns, marches, vaudeville ",
+    "score": 1.0,
+    "signals": [
+      "DNA mentions other known artist(s) ['The Blue Notes'] but not own artist 'Louis Armstrong'",
+      "own artist name absent from albumDNA (word-bounded)"
+    ]
+  },
+  {
+    "id": "bitches-brew",
+    "title": "Bitches Brew",
+    "artist": "Miles Davis",
+    "year": 1970,
+    "albumDNA_head": "A double album that shattered the boundaries between jazz and rock, recorded in August 1969 with an extraordinary ensemble including Wayne Shorter, Chick Corea, Joe Zawinul, John McLaughlin, Dave Holland, and multiple drummers. Producer Teo Macero's revolution",
+    "score": 1.0,
+    "signals": [
+      "DNA mentions other known artist(s) ['Chick Corea', 'Dave Holland', 'John McLaughlin'] but not own artist 'Miles Davis'",
+      "own artist name absent from albumDNA (word-bounded)"
+    ]
+  },
+  {
+    "id": "christmas-stories",
+    "title": "Christmas Stories",
+    "artist": "Christian Sands",
+    "year": 2023,
+    "albumDNA_head": "Christmas themes have long been an inspiration to artists and writers. A prominent aspect of Christian media, the topic first appeared in literature and in music. Filmmakers have picked up on this wealth of material, with both adaptations of Christmas novels, ",
+    "score": 1.0,
+    "signals": [
+      "DNA mentions other known artist(s) ['Charlie Christian', 'Various Artists'] but not own artist 'Christian Sands'",
+      "own artist name absent from albumDNA (word-bounded)"
+    ]
+  },
+  {
+    "id": "free-jazz",
+    "title": "Free Jazz: A Collective Improvisation",
+    "artist": "Ornette Coleman Double Quartet",
+    "year": 1961,
+    "albumDNA_head": "Free Jazz: A Collective Improvisation is a studio album by American jazz saxophonist Ornette Coleman, released in September 1961 by Atlantic Records. The recording session took place on December 21, 1960, at A&R Studios in New York City. The sole outtake from ",
+    "score": 1.0,
+    "signals": [
+      "DNA mentions other known artist(s) ['Ornette Coleman'] but not own artist 'Ornette Coleman Double Quartet'",
+      "own artist name absent from albumDNA (word-bounded)"
+    ]
+  },
+  {
+    "id": "kind-of-blue",
+    "title": "Kind of Blue",
+    "artist": "Miles Davis",
+    "year": 1959,
+    "albumDNA_head": "The best-selling jazz album of all time, Kind of Blue introduced modal jazz to the world. Recorded at Columbia's 30th Street Studio in New York on March 2 and April 22, 1959, the album captures spontaneous creativity at its peak—most tracks were first takes wi",
+    "score": 1.0,
+    "signals": [
+      "DNA mentions other known artist(s) ['Bill Evans', 'Cannonball Adderley', 'Gil Evans'] but not own artist 'Miles Davis'",
+      "own artist name absent from albumDNA (word-bounded)"
+    ]
+  },
+  {
+    "id": "pimp-master",
+    "title": "Pimp Master",
+    "artist": "Soil & \"Pimp\" Sessions",
+    "year": 2004,
+    "albumDNA_head": "Tokyo's most explosive jazz collective delivers a riotous debut of what they call 'death jazz'—a high-energy collision of hard bop, punk attitude, and club-music intensity. The sextet plays with reckless abandon while maintaining serious improvisational chops.",
+    "score": 1.0,
+    "signals": [
+      "own artist name absent from albumDNA (word-bounded)",
+      "wikipedia match: Pimp Master (jaccard 0.04)",
+      "very low overlap with Wikipedia abstract"
+    ]
+  },
+  {
+    "id": "solo-piano-at-wkcr-1977",
+    "title": "Solo Piano at WKCR, 1977",
+    "artist": "Sun Ra",
+    "year": 2019,
+    "albumDNA_head": "Charles Parker Jr., nicknamed \"Bird\" or \"Yardbird\", was an American jazz saxophonist, bandleader, and composer. Parker was a highly influential soloist and leading figure in the development of bebop, a form of jazz characterized by fast tempos, virtuosic techn",
+    "score": 1.0,
+    "signals": [
+      "DNA mentions other known artist(s) ['Evan Parker'] but not own artist 'Sun Ra'",
+      "own artist name absent from albumDNA (word-bounded)"
+    ]
+  },
+  {
+    "id": "the-newest-sound-around",
+    "title": "The Newest Sound Around",
+    "artist": "Ran Blake & Jeanne Lee",
+    "year": 1962,
+    "albumDNA_head": "Pianist Ran Blake and vocalist Jeanne Lee's radical debut reimagines pop standards and gospel songs as stark, intimate noir miniatures. Lee's ethereal, speech-like singing and Blake's dark, Monk-influenced piano create an atmosphere of haunting beauty and psyc",
+    "score": 1.0,
+    "signals": [
+      "DNA mentions other known artist(s) ['Jeanne Lee', 'Ran Blake', 'Thelonious Monk'] but not own artist 'Ran Blake & Jeanne Lee'",
+      "own artist name absent from albumDNA (word-bounded)"
+    ]
+  },
+  {
+    "id": "your-queen-is-a-reptile",
+    "title": "Your Queen Is a Reptile",
+    "artist": "Sons of Kemet",
+    "year": 2018,
+    "albumDNA_head": "Shabaka Hutchings' incendiary ensemble—featuring two drummers and a tuba—delivers a politically charged album that names each track after a Black woman who could replace the British monarch. The music is a riotous fusion of jazz, Caribbean rhythms, grime, and ",
+    "score": 1.0,
+    "signals": [
+      "DNA mentions other known artist(s) ['Revolutionary Ensemble'] but not own artist 'Sons of Kemet'",
+      "own artist name absent from albumDNA (word-bounded)"
+    ]
+  }
+]

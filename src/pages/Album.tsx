@@ -39,7 +39,7 @@ export function Album() {
     <div className="max-w-6xl mx-auto px-4 py-12 page-enter">
       <SEO
         title={`${album.title} by ${album.artist}`}
-        description={album.description.slice(0, 160)}
+        description={album.albumDNA.slice(0, 160)}
         image={album.coverUrl}
         type="music.album"
       />
@@ -128,19 +128,10 @@ export function Album() {
         </div>
       </header>
 
-      {/* Description */}
+      {/* Album DNA */}
       <section className="mb-12">
-        <h2 className="text-2xl font-heading text-charcoal mb-4">About This Album</h2>
-        <p className="text-lg text-charcoal/80 leading-relaxed mb-6">{album.description}</p>
-        {/^.{10,60} is a .{5,40} (album|record) by .{5,40} from \d{4}/i.test(album.description) && (
-          <p className="text-xs text-warm-gray/50 font-mono -mt-4 mb-6">Limited editorial info available</p>
-        )}
-
-        <h3 className="text-xl font-heading text-coral mb-3">Why It Matters</h3>
-        <p className="text-charcoal/80 leading-relaxed">{album.significance}</p>
-        {/^A .{5,40} (entry|album|recording) from \d{4}/i.test(album.significance) && (
-          <p className="text-xs text-warm-gray/50 font-mono mt-2">Limited editorial info available</p>
-        )}
+        <h2 className="text-2xl font-heading text-charcoal mb-4">Album DNA</h2>
+        <p className="text-lg text-charcoal/80 leading-relaxed">{album.albumDNA}</p>
         {album.wikipedia && (
           <a
             href={album.wikipedia}

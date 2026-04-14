@@ -1,0 +1,38 @@
+[
+  {
+    "id": "armstrong-alumni-allstars",
+    "title": "Armstrong Alumni Allstars",
+    "artist": "Louis Armstrong",
+    "year": 2001,
+    "albumDNA_head": "Jazz is a music genre that originated in the African-American communities of New Orleans, Louisiana, in the late 19th and early 20th centuries. Its roots are in blues, ragtime, European harmony, African rhythmic rituals, spirituals, hymns, marches, vaudeville ",
+    "score": 1.0,
+    "signals": [
+      "DNA mentions other known artist(s) ['The Blue Notes'] but not own artist 'Louis Armstrong'",
+      "own artist name absent from albumDNA (word-bounded)"
+    ]
+  },
+  {
+    "id": "christmas-stories",
+    "title": "Christmas Stories",
+    "artist": "Christian Sands",
+    "year": 2023,
+    "albumDNA_head": "Christmas themes have long been an inspiration to artists and writers. A prominent aspect of Christian media, the topic first appeared in literature and in music. Filmmakers have picked up on this wealth of material, with both adaptations of Christmas novels, ",
+    "score": 1.0,
+    "signals": [
+      "DNA mentions other known artist(s) ['Charlie Christian', 'Various Artists'] but not own artist 'Christian Sands'",
+      "own artist name absent from albumDNA (word-bounded)"
+    ]
+  },
+  {
+    "id": "solo-piano-at-wkcr-1977",
+    "title": "Solo Piano at WKCR, 1977",
+    "artist": "Sun Ra",
+    "year": 2019,
+    "albumDNA_head": "Charles Parker Jr., nicknamed \"Bird\" or \"Yardbird\", was an American jazz saxophonist, bandleader, and composer. Parker was a highly influential soloist and leading figure in the development of bebop, a form of jazz characterized by fast tempos, virtuosic techn",
+    "score": 1.0,
+    "signals": [
+      "DNA mentions other known artist(s) ['Evan Parker'] but not own artist 'Sun Ra'",
+      "own artist name absent from albumDNA (word-bounded)"
+    ]
+  }
+]
