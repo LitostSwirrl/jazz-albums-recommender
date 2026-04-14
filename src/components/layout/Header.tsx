@@ -29,8 +29,8 @@ export function Header() {
       <nav className="max-w-6xl mx-auto px-4 py-5" aria-label="Main navigation">
         <div className="flex items-center justify-between">
           <Link to="/" className="font-display uppercase tracking-[0.2em] text-xl hover:opacity-80 transition-opacity">
-            <span className="text-coral font-black">Jazz</span>
-            <span className="text-charcoal font-bold ml-1">Guide</span>
+            <span className="text-coral font-black">Smack</span>
+            <span className="text-charcoal font-bold ml-1">Cats</span>
           </Link>
 
           {/* Desktop nav */}
