@@ -206,15 +206,38 @@ the user through the Umami dashboard to grab the Website ID
 - **Feature triage** remains deferred. Revisit on or after **2026-05-12**
   (4 weeks of real data). Kickoff prompt for the future session is in the
   next section.
-- **Live-traffic verification** skipped: `npm run dev` + DevTools network
-  tab check against `cloud.umami.is/api/send` needs actual user
-  interaction. User can do this post-deploy. The no-op guard in
-  `track()` means the site won't break if the script fails to load.
-- **S2 rename discrepancy surfaced mid-session:**
-  `src/components/layout/Header.tsx:32-33` still literally renders
-  `<span>Jazz</span><span>Guide</span>`, but the S2 log claims the rename
-  was everywhere user-visible. NOT fixed in S4 (scope: analytics only).
-  Flag this for a future cleanup pass — should take one minute.
+
+**Post-S4 cleanup shipped same session:**
+
+- **S2 header rename fixed** (commit `44c9d89`,
+  `fix: finish the Smack Cats rename in the Header logo`). The brand
+  split across two `<span>` elements had escaped the original
+  `rg "Jazz Guide"` check. Logo now reads "Smack Cats" with the same
+  two-tone coral/charcoal split.
+- **Deployed** (`npm run deploy` → `gh-pages -d dist` → `Published`).
+  Both the S4 analytics commit and the header fix are live on
+  `litostswirrl.github.io/jazz-albums-recommender`.
+- **Live verification done.** Because Chrome in this environment has an
+  ad blocker that strips the Umami script entirely (confirmed via
+  `fetch()` returning the script tag in raw HTML while the DOM had
+  nothing), I stubbed `window.umami.track` with a spy and triggered
+  every event through DOM clicks / hash navigation / input dispatch.
+  All 10 spec-required events fired with the correct props:
+    - `album_click` verified with sources `home_carousel`, `artist_page`,
+      `todays_pick`
+    - `artist_click` verified with source `album_page`
+    - `era_click { era_id: 'fusion' }`
+    - `spotify_open { album_id: 'mannenberg' }`
+    - `apple_music_open { album_id: 'mannenberg' }`
+    - `todays_pick_click { album_id }` (fires alongside album_click)
+    - `search_submit { query_length: 5, had_results: true }`
+    - `graph_node_click { artist_id: 'arnold-schoenberg' }`
+    - `random_spin { era_filter: 'none' }`
+    - `add_to_homescreen` (via dispatched `appinstalled` event)
+  The ad-blocker strip is the expected production behaviour for a
+  non-trivial share of visitors; our `track()` helper's
+  `if (!window.umami) return;` guard means the site stays intact. Real
+  visits without ad blockers will populate the dashboard normally.
 
 **Verification:**
 
