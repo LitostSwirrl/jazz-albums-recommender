@@ -2,6 +2,7 @@ import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { AlbumCover } from '../AlbumCover';
 import { seededPick } from '../../utils/random';
+import { track } from '../../utils/analytics';
 import type { Album, Era } from '../../types';
 
 interface HeroFeatureProps {
@@ -65,6 +66,7 @@ export function HeroFeature({ albums, eras }: HeroFeatureProps) {
           <div className="flex gap-3 justify-center md:justify-start">
             <Link
               to={`/album/${featured.id}`}
+              onClick={() => track('album_click', { album_id: featured.id, source: 'home_carousel' })}
               className="px-6 py-2.5 bg-coral text-white font-semibold rounded-lg hover:bg-coral/90 transition-colors text-sm"
             >
               Explore Album
@@ -74,6 +76,7 @@ export function HeroFeature({ albums, eras }: HeroFeatureProps) {
                 href={featured.spotifyUrl}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => track('spotify_open', { album_id: featured.id })}
                 className="px-6 py-2.5 border border-white/30 text-white rounded-lg hover:bg-white/10 transition-colors text-sm"
               >
                 Listen on Spotify

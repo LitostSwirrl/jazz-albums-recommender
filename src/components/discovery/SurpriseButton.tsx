@@ -2,6 +2,7 @@ import { useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import type { Album, Artist } from '../../types';
 import { getRandomAlbum, getRandomArtist } from '../../utils/discovery';
+import { track } from '../../utils/analytics';
 
 interface SurpriseButtonProps {
   albums: Album[];
@@ -20,11 +21,13 @@ export function SurpriseButton({ albums, artists, variant = 'button', className 
     if (isAlbum) {
       const album = getRandomAlbum(albums);
       if (album) {
+        track('album_click', { album_id: album.id, source: 'random' });
         navigate(`/album/${album.id}`);
       }
     } else {
       const artist = getRandomArtist(artists);
       if (artist) {
+        track('artist_click', { artist_id: artist.id, source: 'surprise_button' });
         navigate(`/artist/${artist.id}`);
       }
     }

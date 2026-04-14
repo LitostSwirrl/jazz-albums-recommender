@@ -6,6 +6,7 @@ import type { Artist, Era } from '../types';
 import { ArtistPhoto } from '../components/ArtistPhoto';
 import { SEO } from '../components/SEO';
 import { Pagination } from '../components/Pagination';
+import { track } from '../utils/analytics';
 
 const ARTISTS_PER_PAGE = 24;
 
@@ -216,6 +217,7 @@ export function Artists() {
           <Link
             key={artist.id}
             to={`/artist/${artist.id}`}
+            onClick={() => track('artist_click', { artist_id: artist.id, source: 'artist_grid' })}
             className="group p-6 rounded-xl bg-surface shadow-card hover:shadow-card-hover hover:-translate-y-1 transition-all duration-300"
           >
             <div className="mb-4 group-hover:scale-110 transition-transform duration-300">

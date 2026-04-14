@@ -155,17 +155,111 @@ Append-only. Each session writes an entry at the end.
 
 ---
 
-## Next session
+## S4 — Analytics install (2026-04-15)
 
-Paste this into a fresh chat to kick off S4:
+**Provider chosen:** Umami Cloud (spec default). User signed up mid-session
+and pasted the API key `api_6CV6Us…` — which is the server-side read
+credential, not the client-side Website ID. Flagged the distinction, walked
+the user through the Umami dashboard to grab the Website ID
+(`64877654-bcc7-40f4-a769-e8744a6c519a`). API key stashed in
+`.env.local` (gitignored via `*.local`); Website ID is public and lives in
+`index.html`.
+
+**Shipped:**
+
+- `index.html`: added `<script defer src="https://cloud.umami.is/script.js"
+  data-website-id="64877654-...">` in `<head>`.
+- `src/types/analytics.d.ts`: declares `window.umami.track` typing.
+- `src/utils/analytics.ts`: exports `track()` helper that no-ops when the
+  Umami script is blocked / absent (ad blockers, dev environments without
+  network). Also exports `AlbumClickSource` union matching the spec's
+  source enum.
+- **10 custom events wired** across 17 source files:
+  - `album_click` — AlbumCard gets a `trackSource` prop; AlbumCarousel
+    plumbs it through; callers set `'home_carousel'` (Home era carousels,
+    GenreRow), `'todays_pick'`, `'artist_page'` (ArtistSpotlight +
+    Artist.tsx discography), `'album_grid'` (Albums.tsx, Era.tsx,
+    Timeline.tsx), `'related'` (RelatedAlbums), `'search'` (SearchBar),
+    `'random'` (RandomAlbumPicker + SurpriseButton).
+  - `artist_click` — source values: `'album_page'`, `'artist_spotlight'`,
+    `'connection_card'`, `'era_page'`, `'artist_grid'`, `'timeline'`,
+    `'search'`, `'surprise_button'`.
+  - `era_click` — on all era links in Album.tsx, Artist.tsx, Era.tsx,
+    Eras.tsx, Timeline.tsx.
+  - `random_spin` — fires on the Vinyl Reveal spin button with
+    `{ era_filter: <eraId> | 'none' }`.
+  - `search_submit` — fires on each debounced query settle with length ≥ 2,
+    with `{ query_length, had_results }`. No query text logged (PII).
+  - `todays_pick_click` — fires alongside `album_click` whenever
+    trackSource is `'todays_pick'`.
+  - `graph_node_click` — ArtistNode in InfluenceGraph (the Mini graph on
+    artist pages uses a separate internal node component, so no
+    double-fire).
+  - `spotify_open` / `apple_music_open` — on the "Listen" buttons on
+    Album.tsx. `spotify_open` also fires from the HeroFeature "Listen on
+    Spotify" button.
+  - `add_to_homescreen` — App.tsx listens for the browser's `appinstalled`
+    event.
+
+**Deferred / open:**
+
+- **Feature triage** remains deferred. Revisit on or after **2026-05-12**
+  (4 weeks of real data). Kickoff prompt for the future session is in the
+  next section.
+- **Live-traffic verification** skipped: `npm run dev` + DevTools network
+  tab check against `cloud.umami.is/api/send` needs actual user
+  interaction. User can do this post-deploy. The no-op guard in
+  `track()` means the site won't break if the script fails to load.
+- **S2 rename discrepancy surfaced mid-session:**
+  `src/components/layout/Header.tsx:32-33` still literally renders
+  `<span>Jazz</span><span>Guide</span>`, but the S2 log claims the rename
+  was everywhere user-visible. NOT fixed in S4 (scope: analytics only).
+  Flag this for a future cleanup pass — should take one minute.
+
+**Verification:**
+
+- `npm run typecheck` → exit 0.
+- `npm run build` → exit 0 (4m 21s, 571 modules, pre-existing chunk-size
+  warning unrelated to S4).
+- `dist/index.html` confirmed to contain the Umami script tag with the
+  correct Website ID.
+- `rg "track\('(\w+)'"` showed all 10 spec-required event names present
+  and no typos.
+
+**Memory updates:**
+
+- Updated `project_v2_overhaul.md` — S4 marked DONE; added deferred-triage
+  reminder + S2 header discrepancy.
+- Created `reference_umami_credentials.md` — points at `.env.local` for
+  the API key + documents the public Website ID.
+- Updated `MEMORY.md` index for both.
+
+**Triage candidates to revisit once data exists** (do NOT pre-judge before
+the numbers are in):
+
+- Today's Pick (weather-mood engine)
+- Random Album Picker (Vinyl Reveal)
+- Artist influence graph (React Flow — rendering cost)
+- Genre Collections vs Era Carousels vs Artist Spotlight (overlap)
+- Quick Links Grid (nav redundancy)
+
+## Next session — DATA-DEPENDENT, run on or after 2026-05-12
+
+No automatic kickoff. Wait until roughly 4 weeks of analytics have
+accumulated (i.e. 2026-05-12 onwards assuming S4 deploys today).
+
+When ready, paste this into a fresh chat:
 
 ```
-I'm continuing the jazz site v2 overhaul. S3 is done (data audit & Album DNA).
+Open the Umami analytics dashboard for the Smack Cats jazz site (Website ID
+lives in ~/.claude/projects/-Users-jinsoon-Documents-Work-Music-Projects-jazz-albums-recommends/memory/reference_umami_credentials.md).
+Pull all custom event counts over the last 4 weeks (album_click,
+artist_click, era_click, random_spin, search_submit, todays_pick_click,
+graph_node_click, spotify_open, apple_music_open, add_to_homescreen). Break
+down album_click by source. Rank features by engagement. Present me with
+concrete cut candidates, using the dashboard numbers as evidence for each.
+Do not pre-judge — let the data decide.
 
-Please read these files in order, then execute S4:
-1. docs/superpowers/specs/2026-04-14-overhaul-master.md
-2. docs/superpowers/specs/2026-04-14-s4-analytics-install-design.md
-3. docs/superpowers/logs/2026-04-14-overhaul-log.md (for what S2 and S3 shipped)
-
-Follow the spec exactly. At the end, update memory, append a log entry, and note that feature triage is now deferred until 2–4 weeks of analytics data accumulate. Don't ask for clarifications unless truly stuck.
+If dashboard access is easier through the REST API, the API key is
+UMAMI_API_KEY in /Users/jinsoon/Documents/Work/Music Projects/jazz_albums_recommends/.env.local.
 ```

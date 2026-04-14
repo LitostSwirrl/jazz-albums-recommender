@@ -8,6 +8,7 @@ import { HistoricalEventCard } from '../components/context/HistoricalEventCard';
 import { SEO } from '../components/SEO';
 import { Pagination } from '../components/Pagination';
 import { getEventsByEra } from '../utils/historicalContext';
+import { track } from '../utils/analytics';
 import type { Era as EraType, Artist, Album, EraId } from '../types';
 
 const ERA_ALBUMS_PER_PAGE = 36;
@@ -108,6 +109,7 @@ export function Era() {
               <Link
                 key={artist.id}
                 to={`/artist/${artist.id}`}
+                onClick={() => track('artist_click', { artist_id: artist.id, source: 'era_page' })}
                 className="p-4 rounded-lg bg-surface shadow-card hover:shadow-card-hover transition-all group"
               >
                 <h3 className="font-semibold text-charcoal font-heading group-hover:text-coral transition-colors">
@@ -139,6 +141,7 @@ export function Era() {
                 <Link
                   key={album.id}
                   to={`/album/${album.id}`}
+                  onClick={() => track('album_click', { album_id: album.id, source: 'album_grid' })}
                   className="p-4 rounded-lg bg-surface shadow-card hover:shadow-card-hover transition-all group"
                 >
                   <div className="mb-3 group-hover:scale-105 transition-transform">

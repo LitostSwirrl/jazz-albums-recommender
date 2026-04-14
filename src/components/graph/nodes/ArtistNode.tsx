@@ -3,6 +3,7 @@ import { Handle, Position } from '@xyflow/react';
 import { Link } from 'react-router-dom';
 import type { Artist, Era } from '../../../types';
 import { eraColors } from '../hooks/useInfluenceGraph';
+import { track } from '../../../utils/analytics';
 
 interface ArtistNodeData {
   artist: Artist;
@@ -51,6 +52,7 @@ function ArtistNodeComponent({ data, selected }: ArtistNodeProps) {
       <Handle type="target" position={Position.Top} className="!bg-warm-gray !w-2 !h-2" />
       <Link
         to={`/artist/${artist.id}`}
+        onClick={() => track('graph_node_click', { artist_id: artist.id })}
         className={baseClasses}
         style={{ borderColor }}
       >

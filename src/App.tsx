@@ -1,8 +1,9 @@
-import { lazy, Suspense } from 'react';
+import { lazy, Suspense, useEffect } from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Layout } from './components/layout';
 import { LoadingSkeleton } from './components/LoadingSkeleton';
 import { ErrorBoundary } from './components/ErrorBoundary';
+import { track } from './utils/analytics';
 
 // Eager load main pages for fast initial navigation
 import { Home } from './pages/Home';
@@ -19,6 +20,12 @@ const InfluenceGraph = lazy(() => import('./pages/InfluenceGraph').then(m => ({ 
 const ParallelTimeline = lazy(() => import('./pages/ParallelTimeline').then(m => ({ default: m.ParallelTimeline })));
 
 function App() {
+  useEffect(() => {
+    const onInstalled = () => track('add_to_homescreen');
+    window.addEventListener('appinstalled', onInstalled);
+    return () => window.removeEventListener('appinstalled', onInstalled);
+  }, []);
+
   return (
     <ErrorBoundary>
       <HashRouter>

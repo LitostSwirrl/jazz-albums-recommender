@@ -1,5 +1,6 @@
 import { useRef, useState, useEffect, useCallback } from 'react';
 import { AlbumCard } from './AlbumCard';
+import type { AlbumClickSource } from '../../utils/analytics';
 import type { Album } from '../../types';
 
 interface AlbumCarouselProps {
@@ -8,6 +9,7 @@ interface AlbumCarouselProps {
   showYear?: boolean;
   showEraTag?: boolean;
   eagerCount?: number;
+  trackSource?: AlbumClickSource;
   className?: string;
 }
 
@@ -17,7 +19,7 @@ const cardWidths: Record<string, number> = {
   lg: 224 + 16,  // w-56 + gap-4
 };
 
-export function AlbumCarousel({ albums, cardSize = 'md', showYear = false, showEraTag = false, eagerCount = 0, className = '' }: AlbumCarouselProps) {
+export function AlbumCarousel({ albums, cardSize = 'md', showYear = false, showEraTag = false, eagerCount = 0, trackSource, className = '' }: AlbumCarouselProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(false);
@@ -86,6 +88,7 @@ export function AlbumCarousel({ albums, cardSize = 'md', showYear = false, showE
               showYear={showYear}
               showEraTag={showEraTag}
               priority={index < eagerCount}
+              trackSource={trackSource}
             />
           </div>
         ))}

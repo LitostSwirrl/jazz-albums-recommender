@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import type { Album, Artist } from '../../types';
 import { AlbumCover } from '../AlbumCover';
 import { getRelatedAlbums } from '../../utils/discovery';
+import { track } from '../../utils/analytics';
 
 interface RelatedAlbumsProps {
   currentAlbum: Album;
@@ -59,6 +60,7 @@ export function RelatedAlbums({ currentAlbum, allAlbums, allArtists }: RelatedAl
               <Link
                 key={album.id}
                 to={`/album/${album.id}`}
+                onClick={() => track('album_click', { album_id: album.id, source: 'related' })}
                 className="group flex-shrink-0 w-36 md:w-44"
               >
                 <div className="mb-2 group-hover:scale-105 transition-transform">

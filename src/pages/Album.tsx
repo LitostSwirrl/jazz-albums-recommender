@@ -10,6 +10,7 @@ import { SpotifyIcon, AppleMusicIcon, YouTubeMusicIcon, YouTubeIcon } from '../c
 import { SEO } from '../components/SEO';
 import { getEventsForAlbum } from '../utils/historicalContext';
 import { isForwardLooking } from '../utils/discovery';
+import { track } from '../utils/analytics';
 import type { Album as AlbumType, Artist, Era } from '../types';
 
 const albums = albumsData as AlbumType[];
@@ -63,6 +64,7 @@ export function Album() {
           </h1>
           <Link
             to={`/artist/${album.artistId}`}
+            onClick={() => track('artist_click', { artist_id: album.artistId, source: 'album_page' })}
             className="text-2xl text-coral font-heading hover:text-coral/80 transition-colors"
           >
             {album.artist}
@@ -91,6 +93,7 @@ export function Album() {
             {era && (
               <Link
                 to={`/era/${era.id}`}
+                onClick={() => track('era_click', { era_id: era.id })}
                 className="inline-flex items-center gap-2 px-3 py-1.5 rounded border-l-4 bg-surface border border-border hover:opacity-80 transition-opacity self-start"
                 style={{ borderLeftColor: era.color }}
               >
@@ -226,6 +229,7 @@ export function Album() {
                 href={album.spotifyUrl}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => track('spotify_open', { album_id: album.id })}
                 className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#1DB954] text-white font-medium hover:bg-[#1ed760] transition-colors"
               >
                 <SpotifyIcon className="w-5 h-5" />
@@ -237,6 +241,7 @@ export function Album() {
                 href={album.appleMusicUrl}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => track('apple_music_open', { album_id: album.id })}
                 className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#FA243C] text-white font-medium hover:bg-[#d91e33] transition-colors"
               >
                 <AppleMusicIcon className="w-5 h-5" />
@@ -292,6 +297,7 @@ export function Album() {
           <h2 className="text-xl font-heading text-charcoal mb-4">About the Artist</h2>
           <Link
             to={`/artist/${artist.id}`}
+            onClick={() => track('artist_click', { artist_id: artist.id, source: 'album_page' })}
             className="flex items-center gap-4 group"
           >
             <ArtistPhoto

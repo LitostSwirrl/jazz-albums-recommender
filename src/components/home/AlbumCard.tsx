@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { AlbumCover } from '../AlbumCover';
+import { track, type AlbumClickSource } from '../../utils/analytics';
 import type { Album } from '../../types';
 
 interface AlbumCardProps {
@@ -8,6 +9,7 @@ interface AlbumCardProps {
   showYear?: boolean;
   showEraTag?: boolean;
   priority?: boolean;
+  trackSource?: AlbumClickSource;
   className?: string;
 }
 
@@ -24,10 +26,19 @@ const pixelWidths: Record<string, number> = {
   lg: 448,   // w-56 = 224px * 2x
 };
 
-export function AlbumCard({ album, size = 'md', showYear = false, showEraTag = false, priority = false, className = '' }: AlbumCardProps) {
+export function AlbumCard({ album, size = 'md', showYear = false, showEraTag = false, priority = false, trackSource, className = '' }: AlbumCardProps) {
+  const handleClick = () => {
+    if (!trackSource) return;
+    track('album_click', { album_id: album.id, source: trackSource });
+    if (trackSource === 'todays_pick') {
+      track('todays_pick_click', { album_id: album.id });
+    }
+  };
+
   return (
     <Link
       to={`/album/${album.id}`}
+      onClick={handleClick}
       className={`block flex-shrink-0 ${sizeWidths[size]} group ${className}`}
     >
       <div className="relative rounded-sm overflow-hidden mb-2 shadow-card group-hover:shadow-card-hover transition-all duration-300 group-hover:scale-[1.03] aspect-square">

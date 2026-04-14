@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import erasData from '../data/eras.json';
 import { SEO } from '../components/SEO';
+import { track } from '../utils/analytics';
 import type { Era } from '../types';
 
 const eras = erasData as Era[];
@@ -24,6 +25,7 @@ export function Eras() {
             <Link
               key={era.id}
               to={`/era/${era.id}`}
+              onClick={() => track('era_click', { era_id: era.id })}
               className="group block relative pl-0 md:pl-20"
             >
               {/* Timeline dot */}

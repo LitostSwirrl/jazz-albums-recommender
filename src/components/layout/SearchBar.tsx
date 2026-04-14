@@ -2,6 +2,7 @@ import { useState, useRef, useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import albumsData from '../../data/albums.json';
 import artistsData from '../../data/artists.json';
+import { track } from '../../utils/analytics';
 import type { Album, Artist } from '../../types';
 
 const albums = albumsData as Album[];
@@ -133,6 +134,14 @@ export function SearchBar({ onOpenChange, forceClose }: SearchBarProps) {
   const topAlbums = scoredAlbums.slice(0, 5);
   const hasResults = topArtists.length > 0 || topAlbums.length > 0;
 
+  useEffect(() => {
+    if (debouncedQuery.length < 2) return;
+    track('search_submit', {
+      query_length: debouncedQuery.length,
+      had_results: hasResults,
+    });
+  }, [debouncedQuery, hasResults]);
+
   const allResults = useMemo(() => {
     const results: Array<{ type: 'artist'; id: string } | { type: 'album'; id: string }> = [];
     topArtists.forEach(({ artist }) => results.push({ type: 'artist', id: artist.id }));
@@ -175,6 +184,11 @@ export function SearchBar({ onOpenChange, forceClose }: SearchBarProps) {
               } else if (e.key === 'Enter' && highlightedIndex >= 0) {
                 e.preventDefault();
                 const selected = allResults[highlightedIndex];
+                if (selected.type === 'artist') {
+                  track('artist_click', { artist_id: selected.id, source: 'search' });
+                } else {
+                  track('album_click', { album_id: selected.id, source: 'search' });
+                }
                 navigate(`/${selected.type === 'artist' ? 'artist' : 'album'}/${selected.id}`);
                 close();
               }
@@ -217,6 +231,7 @@ export function SearchBar({ onOpenChange, forceClose }: SearchBarProps) {
                             highlightedIndex === i ? 'bg-border/50' : 'hover:bg-border/30'
                           }`}
                           onClick={() => {
+                            track('artist_click', { artist_id: artist.id, source: 'search' });
                             navigate(`/artist/${artist.id}`);
                             close();
                           }}
@@ -262,6 +277,7 @@ export function SearchBar({ onOpenChange, forceClose }: SearchBarProps) {
                             highlightedIndex === flatIndex ? 'bg-border/50' : 'hover:bg-border/30'
                           }`}
                           onClick={() => {
+                            track('album_click', { album_id: album.id, source: 'search' });
                             navigate(`/album/${album.id}`);
                             close();
                           }}

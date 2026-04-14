@@ -9,6 +9,7 @@ import { ArtistPhoto } from '../components/ArtistPhoto';
 import { AlbumCover } from '../components/AlbumCover';
 import { SEO } from '../components/SEO';
 import { getConnection } from '../utils/connections';
+import { track } from '../utils/analytics';
 
 const artists = artistsData as ArtistType[];
 const albums = albumsData as Album[];
@@ -55,7 +56,11 @@ function ConnectionCard({ artist, connection }: { artist: ArtistType; connection
   return (
     <div className="rounded-lg bg-surface border border-border hover:border-coral/50 transition-all">
       <div className="flex items-center justify-between p-3">
-        <Link to={`/artist/${artist.id}`} className="flex-1 min-w-0">
+        <Link
+          to={`/artist/${artist.id}`}
+          onClick={() => track('artist_click', { artist_id: artist.id, source: 'connection_card' })}
+          className="flex-1 min-w-0"
+        >
           <span className="text-charcoal hover:text-coral transition-colors">{artist.name}</span>
           <span className="text-xs text-warm-gray ml-2">{artist.instruments.slice(0, 2).join(', ')}</span>
         </Link>
@@ -157,6 +162,7 @@ export function Artist() {
               <Link
                 key={era.id}
                 to={`/era/${era.id}`}
+                onClick={() => track('era_click', { era_id: era.id })}
                 className="px-3 py-1 rounded-full text-sm hover:opacity-80 transition-opacity"
                 style={{ backgroundColor: era.color + '20', color: era.color }}
               >
@@ -257,6 +263,7 @@ export function Artist() {
               <Link
                 key={album.id}
                 to={`/album/${album.id}`}
+                onClick={() => track('album_click', { album_id: album.id, source: 'artist_page' })}
                 className="group p-4 rounded-lg bg-surface border border-border shadow-card hover:shadow-card-hover transition-all"
               >
                 <div className="mb-3 w-full rounded-sm overflow-hidden">

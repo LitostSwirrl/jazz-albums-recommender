@@ -6,6 +6,7 @@ import { AlbumCover } from '../components/AlbumCover';
 import { SEO } from '../components/SEO';
 import { Pagination } from '../components/Pagination';
 import { normalizeSearchStr } from '../utils/strings';
+import { track } from '../utils/analytics';
 import type { Album, Era } from '../types';
 
 const albums = albumsData as Album[];
@@ -422,6 +423,7 @@ export function Albums() {
             <Link
               key={album.id}
               to={`/album/${album.id}`}
+              onClick={() => track('album_click', { album_id: album.id, source: 'album_grid' })}
               className="group p-6 rounded-xl bg-surface shadow-card hover:shadow-card-hover hover:-translate-y-1 transition-all duration-300"
             >
               <div className="mb-4 group-hover:scale-105 transition-transform duration-300">

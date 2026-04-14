@@ -53,7 +53,7 @@ export function GenreRows({ albums }: GenreRowsProps) {
           title={collection.title}
           linkTo={collection.linkTo}
         >
-          <AlbumCarousel albums={collection.albums} cardSize="sm" />
+          <AlbumCarousel albums={collection.albums} cardSize="sm" trackSource="home_carousel" />
         </CarouselSection>
       ))}
     </>

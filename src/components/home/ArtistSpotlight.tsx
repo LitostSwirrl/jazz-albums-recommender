@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArtistPhoto } from '../ArtistPhoto';
 import { AlbumCarousel } from './AlbumCarousel';
 import { seededPick } from '../../utils/random';
+import { track } from '../../utils/analytics';
 import type { Album, Artist } from '../../types';
 
 interface ArtistSpotlightProps {
@@ -43,7 +44,11 @@ export function ArtistSpotlight({ artists, albums }: ArtistSpotlightProps) {
             Artist Spotlight
           </span>
           <h2 className="text-xl font-heading text-charcoal">
-            <Link to={`/artist/${artist.id}`} className="hover:text-coral transition-colors">
+            <Link
+              to={`/artist/${artist.id}`}
+              onClick={() => track('artist_click', { artist_id: artist.id, source: 'artist_spotlight' })}
+              className="hover:text-coral transition-colors"
+            >
               {artist.name}
             </Link>
           </h2>
@@ -52,7 +57,7 @@ export function ArtistSpotlight({ artists, albums }: ArtistSpotlightProps) {
           </p>
         </div>
       </div>
-      <AlbumCarousel albums={artistAlbums} cardSize="sm" showYear />
+      <AlbumCarousel albums={artistAlbums} cardSize="sm" showYear trackSource="artist_page" />
     </section>
   );
 }

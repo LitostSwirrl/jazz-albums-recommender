@@ -95,6 +95,7 @@ export function Home() {
                 cardSize="sm"
                 showYear
                 eagerCount={idx === 0 ? 5 : 0}
+                trackSource="home_carousel"
               />
             </CarouselSection>
           </LazySection>

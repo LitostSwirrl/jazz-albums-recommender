@@ -2,6 +2,7 @@ import { useState, useRef, useCallback, useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { getRandomAlbum } from '../../utils/discovery';
 import { getProxiedUrl } from '../../utils/imageProxy';
+import { track } from '../../utils/analytics';
 import type { Album, Era } from '../../types';
 
 interface RandomAlbumPickerProps {
@@ -66,6 +67,7 @@ export function RandomAlbumPicker({ albums, eras }: RandomAlbumPickerProps) {
   }, []);
 
   const spin = useCallback(() => {
+    track('random_spin', { era_filter: filterEra ?? 'none' });
     const filter = filterEra ? { era: filterEra } : undefined;
     const excludeId = recentRef.current[recentRef.current.length - 1];
 
@@ -226,6 +228,7 @@ export function RandomAlbumPicker({ albums, eras }: RandomAlbumPickerProps) {
             {phase === 'revealed' && selectedAlbum && (
               <Link
                 to={`/album/${selectedAlbum.id}`}
+                onClick={() => track('album_click', { album_id: selectedAlbum.id, source: 'random' })}
                 className="px-5 py-2.5 bg-coral text-white font-semibold rounded-lg hover:bg-coral/90 transition-colors text-sm"
               >
                 Explore Album

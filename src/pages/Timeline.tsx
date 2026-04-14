@@ -4,6 +4,7 @@ import albumsData from '../data/albums.json';
 import artistsData from '../data/artists.json';
 import { SEO } from '../components/SEO';
 import { AlbumCover } from '../components/AlbumCover';
+import { track } from '../utils/analytics';
 import type { Era, Album, Artist, EraId } from '../types';
 
 const eras = erasData as Era[];
@@ -85,6 +86,7 @@ export function Timeline() {
                   <div>
                     <Link
                       to={`/era/${era.id}`}
+                      onClick={() => track('era_click', { era_id: era.id })}
                       className="text-2xl font-bold font-heading hover:underline"
                       style={{ color }}
                     >
@@ -130,6 +132,7 @@ export function Timeline() {
                       <Link
                         key={artist.id}
                         to={`/artist/${artist.id}`}
+                        onClick={() => track('artist_click', { artist_id: artist.id, source: 'timeline' })}
                         className="px-3 py-1 text-sm rounded-full bg-surface border border-border text-charcoal hover:text-coral transition-colors"
                       >
                         {artist.name}
@@ -148,6 +151,7 @@ export function Timeline() {
                       <Link
                         key={album.id}
                         to={`/album/${album.id}`}
+                        onClick={() => track('album_click', { album_id: album.id, source: 'album_grid' })}
                         className="flex items-center gap-3 p-2 rounded-lg bg-surface hover:bg-border transition-colors group"
                       >
                         <div className="w-10 h-10 flex-shrink-0">
