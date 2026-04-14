@@ -7,6 +7,10 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Session handoff logs are part of the spec chain — always track
+!docs/superpowers/logs/
+!docs/superpowers/logs/**
+
 node_modules
 dist
 dist-ssr
