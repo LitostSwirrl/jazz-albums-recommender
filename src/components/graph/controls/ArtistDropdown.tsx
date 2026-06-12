@@ -60,10 +60,13 @@ export const ArtistDropdown = forwardRef<ArtistDropdownHandle, ArtistDropdownPro
       return () => document.removeEventListener('mousedown', handleMouseDown);
     }, []);
 
-    // Reset highlighted index when filtered results change
-    useEffect(() => {
+    // Reset highlighted index when filtered results change (adjust state during render
+    // rather than in an effect, so it does not trigger an extra commit).
+    const [prevFiltered, setPrevFiltered] = useState(filteredArtists);
+    if (prevFiltered !== filteredArtists) {
+      setPrevFiltered(filteredArtists);
       setHighlightedIndex(-1);
-    }, [filteredArtists]);
+    }
 
     // Scroll highlighted item into view
     useEffect(() => {

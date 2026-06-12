@@ -19,5 +19,11 @@ export default defineConfig([
       ecmaVersion: 2020,
       globals: globals.browser,
     },
+    rules: {
+      // This project builds with @vitejs/plugin-react, not the React Compiler, so the
+      // compiler's manual-memoization-preservation diagnostics are advisory noise rather
+      // than correctness issues. Re-enable if the React Compiler is adopted in the build.
+      'react-hooks/preserve-manual-memoization': 'off',
+    },
   },
 ])

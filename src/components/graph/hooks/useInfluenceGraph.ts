@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { MarkerType } from '@xyflow/react';
 import type { Node, Edge } from '@xyflow/react';
-import type { Artist, Era, Album } from '../../../types';
+import type { Artist, Era } from '../../../types';
 import { getConnection } from '../../../utils/connections';
 
 export interface GraphNode extends Node {
@@ -40,7 +40,6 @@ function getNodeSize(influenceCount: number): 'sm' | 'md' | 'lg' | 'xl' {
 export function useInfluenceGraph(
   artists: Artist[],
   eras: Era[],
-  albums: Album[],
   filter?: { eraFilter?: string; pathArtistIds?: string[] }
 ): GraphData {
   return useMemo(() => {
@@ -141,7 +140,7 @@ export function useInfluenceGraph(
     });
 
     return { nodes, edges, artistMap };
-  }, [artists, eras, albums, filter?.eraFilter, filter?.pathArtistIds]);
+  }, [artists, eras, filter?.eraFilter, filter?.pathArtistIds]);
 }
 
 // Get N-hop neighborhood around a focus artist

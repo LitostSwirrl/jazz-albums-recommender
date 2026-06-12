@@ -96,9 +96,12 @@ export function Albums() {
   const visibleGenres = showAllGenres ? genresByFrequency : genresByFrequency.slice(0, 12);
   const visibleLabels = showAllLabels ? labelsByFrequency : labelsByFrequency.slice(0, 12);
 
-  // Debounce search URL sync
+  // Debounce search URL sync. Keep a ref to the latest params (updated in an effect,
+  // not during render) so the debounced writer reads fresh values without resubscribing.
   const searchParamsRef = useRef(searchParams);
-  searchParamsRef.current = searchParams;
+  useEffect(() => {
+    searchParamsRef.current = searchParams;
+  }, [searchParams]);
 
   useEffect(() => {
     const timer = setTimeout(() => {

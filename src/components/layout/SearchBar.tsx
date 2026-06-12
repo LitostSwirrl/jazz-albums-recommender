@@ -53,12 +53,16 @@ export function SearchBar({ onOpenChange, forceClose }: SearchBarProps) {
     }
   }, [isOpen]);
 
+  // Close imperatively when the parent raises forceClose, then notify it. An effect is
+  // correct here: it responds to an external prop signal and calls the parent callback.
   useEffect(() => {
     if (forceClose && isOpen) {
+      /* eslint-disable react-hooks/set-state-in-effect */
       setIsOpen(false);
       setQuery('');
       setDebouncedQuery('');
       setHighlightedIndex(-1);
+      /* eslint-enable react-hooks/set-state-in-effect */
       onOpenChange?.(false);
     }
   }, [forceClose]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -70,9 +74,13 @@ export function SearchBar({ onOpenChange, forceClose }: SearchBarProps) {
     return () => clearTimeout(timer);
   }, [query]);
 
-  useEffect(() => {
+  // Reset the keyboard highlight whenever the debounced query changes (adjust during
+  // render rather than in an effect, avoiding an extra commit).
+  const [prevDebounced, setPrevDebounced] = useState(debouncedQuery);
+  if (prevDebounced !== debouncedQuery) {
+    setPrevDebounced(debouncedQuery);
     setHighlightedIndex(-1);
-  }, [debouncedQuery]);
+  }
 
   useEffect(() => {
     if (!isOpen) return;

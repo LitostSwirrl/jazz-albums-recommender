@@ -112,7 +112,7 @@ function clamp(v: number): number {
 
 export function buildMoodProfile(weather: WeatherData | null): MoodProfile {
   // Start with a neutral base if no weather
-  let mood: MoodProfile = weather
+  const mood: MoodProfile = weather
     ? { ...WEATHER_MOOD[getWeatherCategory(weather.weatherCode)] ?? WEATHER_MOOD.cloudy }
     : { energy: 0.5, warmth: 0.5, introspection: 0.4, darkness: 0.3, groove: 0.5 };
 

@@ -24,5 +24,5 @@ export function usePreloadImages(coverUrls: (string | undefined)[], width: numbe
         link.remove();
       }
     };
-  }, []); // run once on mount
+  }, [coverUrls, width]);
 }

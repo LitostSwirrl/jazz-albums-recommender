@@ -20,6 +20,9 @@ export function useWeather(): UseWeatherResult {
   const [locationDenied, setLocationDenied] = useState(false);
 
   useEffect(() => {
+    // Hydrates from sessionStorage on mount, then falls back to geolocation. The
+    // synchronous setState on the cache / no-geolocation paths is intentional on mount.
+    /* eslint-disable react-hooks/set-state-in-effect */
     let cancelled = false;
 
     // Check sessionStorage cache first (valid for 30 minutes)
@@ -76,6 +79,7 @@ export function useWeather(): UseWeatherResult {
       { timeout: 8000, maximumAge: 600000 }
     );
 
+    /* eslint-enable react-hooks/set-state-in-effect */
     return () => { cancelled = true; };
   }, []);
 

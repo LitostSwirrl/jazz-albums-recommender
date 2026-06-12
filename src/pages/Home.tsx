@@ -12,7 +12,7 @@ import { LazySection } from '../components/home/LazySection';
 import { GenreRows } from '../components/home/GenreRow';
 import { ArtistSpotlight } from '../components/home/ArtistSpotlight';
 import { QuickLinksGrid } from '../components/home/QuickLinksGrid';
-import { seededShuffle, seededPick } from '../utils/random';
+import { seededShuffle, seededPick, DAY_SEED } from '../utils/random';
 import { getTodaysPicks } from '../utils/weatherMood';
 import { usePreloadImages } from '../hooks/usePreloadImages';
 import type { Era, Album, Artist } from '../types';
@@ -23,10 +23,9 @@ const artists = artistsData as Artist[];
 
 export function Home() {
   const eraCarousels = useMemo(() => {
-    const daySeed = Math.floor(Date.now() / 86400000);
     return eras.map((era, idx) => {
       const eraAlbums = albums.filter((a) => a.era === era.id && a.coverUrl);
-      const shuffled = seededShuffle(eraAlbums, daySeed + idx + 100);
+      const shuffled = seededShuffle(eraAlbums, DAY_SEED + idx + 100);
       const seen = new Set<string>();
       const unique = shuffled.filter((a) => {
         if (seen.has(a.title)) return false;
@@ -44,7 +43,7 @@ export function Home() {
     // Hero album
     const heroAlbum = seededPick(
       albums.filter((a) => a.coverUrl && a.albumDNA.length > 100),
-      Math.floor(Date.now() / 86400000)
+      DAY_SEED
     );
     if (heroAlbum) urls.push(heroAlbum.coverUrl);
 
@@ -56,9 +55,8 @@ export function Home() {
 
     // Initial random album for the picker
     const withCovers = albums.filter((a) => a.coverUrl);
-    if (withCovers.length > 0) {
-      urls.push(withCovers[Math.floor(Math.random() * withCovers.length)].coverUrl);
-    }
+    const randomCover = seededPick(withCovers, DAY_SEED + 7);
+    if (randomCover?.coverUrl) urls.push(randomCover.coverUrl);
 
     return urls;
   }, []);

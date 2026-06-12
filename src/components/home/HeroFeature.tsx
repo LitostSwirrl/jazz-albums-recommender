@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { AlbumCover } from '../AlbumCover';
-import { seededPick } from '../../utils/random';
+import { seededPick, DAY_SEED } from '../../utils/random';
 import { track } from '../../utils/analytics';
 import type { Album, Era } from '../../types';
 
@@ -14,8 +14,7 @@ export function HeroFeature({ albums, eras }: HeroFeatureProps) {
   const featured = useMemo(() => {
     const withCovers = albums.filter((a) => a.coverUrl && a.albumDNA.length > 100);
     if (withCovers.length === 0) return null;
-    const daySeed = Math.floor(Date.now() / 86400000);
-    return seededPick(withCovers, daySeed) ?? null;
+    return seededPick(withCovers, DAY_SEED) ?? null;
   }, [albums]);
 
   if (!featured) return null;

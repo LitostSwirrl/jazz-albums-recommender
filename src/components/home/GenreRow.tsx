@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { CarouselSection } from './CarouselSection';
 import { AlbumCarousel } from './AlbumCarousel';
-import { seededShuffle } from '../../utils/random';
+import { seededShuffle, DAY_SEED } from '../../utils/random';
 import type { Album } from '../../types';
 
 interface GenreCollection {
@@ -25,8 +25,6 @@ interface GenreRowsProps {
 }
 
 export function GenreRows({ albums }: GenreRowsProps) {
-  const daySeed = Math.floor(Date.now() / 86400000);
-
   const collections = useMemo(() => {
     return GENRE_COLLECTIONS.map((collection, idx) => {
       const matching = albums.filter((a) =>
@@ -34,7 +32,7 @@ export function GenreRows({ albums }: GenreRowsProps) {
           collection.genres.some((cg) => g.toLowerCase() === cg.toLowerCase())
         ) && a.coverUrl
       );
-      const shuffled = seededShuffle(matching, daySeed + idx);
+      const shuffled = seededShuffle(matching, DAY_SEED + idx);
       const seen = new Set<string>();
       const unique = shuffled.filter((a) => {
         if (seen.has(a.title)) return false;
@@ -43,7 +41,7 @@ export function GenreRows({ albums }: GenreRowsProps) {
       });
       return { ...collection, albums: unique.slice(0, 20) };
     }).filter((c) => c.albums.length >= 4);
-  }, [albums, daySeed]);
+  }, [albums]);
 
   return (
     <>

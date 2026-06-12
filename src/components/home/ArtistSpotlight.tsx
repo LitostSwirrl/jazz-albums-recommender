@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { ArtistPhoto } from '../ArtistPhoto';
 import { AlbumCarousel } from './AlbumCarousel';
-import { seededPick } from '../../utils/random';
+import { seededPick, DAY_SEED } from '../../utils/random';
 import { track } from '../../utils/analytics';
 import type { Album, Artist } from '../../types';
 
@@ -21,8 +21,7 @@ export function ArtistSpotlight({ artists, albums }: ArtistSpotlightProps) {
 
     if (candidates.length === 0) return null;
 
-    const daySeed = Math.floor(Date.now() / 86400000);
-    const artist = seededPick(candidates, daySeed + 42);
+    const artist = seededPick(candidates, DAY_SEED + 42);
     if (!artist) return null;
     const artistAlbums = albums
       .filter((a) => a.artistId === artist.id && a.coverUrl)

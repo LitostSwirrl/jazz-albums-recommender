@@ -20,6 +20,27 @@ const albums = albumsData as Album[];
 export function Era() {
   const { id } = useParams<{ id: string }>();
   const era = eras.find((e) => e.id === id);
+  const eraId = era?.id;
+
+  // All hooks run before the early return so hook order stays stable across renders.
+  const eraAlbums = useMemo(
+    () => albums.filter((a) => a.era === eraId),
+    [eraId]
+  );
+  const [albumPage, setAlbumPage] = useState(1);
+
+  // Reset page when navigating between eras
+  const [prevEraId, setPrevEraId] = useState(eraId);
+  if (eraId !== prevEraId) {
+    setPrevEraId(eraId);
+    setAlbumPage(1);
+  }
+
+  const albumTotalPages = Math.ceil(eraAlbums.length / ERA_ALBUMS_PER_PAGE);
+  const paginatedAlbums = useMemo(() => {
+    const start = (albumPage - 1) * ERA_ALBUMS_PER_PAGE;
+    return eraAlbums.slice(start, start + ERA_ALBUMS_PER_PAGE);
+  }, [eraAlbums, albumPage]);
 
   if (!era) {
     return (
@@ -33,24 +54,6 @@ export function Era() {
   }
 
   const eraArtists = artists.filter((a) => a.eras.includes(era.id));
-  const eraAlbums = useMemo(
-    () => albums.filter((a) => a.era === era.id),
-    [era.id]
-  );
-  const [albumPage, setAlbumPage] = useState(1);
-
-  // Reset page when navigating between eras
-  const [prevEraId, setPrevEraId] = useState(era.id);
-  if (era.id !== prevEraId) {
-    setPrevEraId(era.id);
-    setAlbumPage(1);
-  }
-
-  const albumTotalPages = Math.ceil(eraAlbums.length / ERA_ALBUMS_PER_PAGE);
-  const paginatedAlbums = useMemo(() => {
-    const start = (albumPage - 1) * ERA_ALBUMS_PER_PAGE;
-    return eraAlbums.slice(start, start + ERA_ALBUMS_PER_PAGE);
-  }, [eraAlbums, albumPage]);
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-12 page-enter">

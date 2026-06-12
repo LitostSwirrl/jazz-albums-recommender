@@ -12,10 +12,9 @@ import {
 import type { Node } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
 import artistsData from '../data/artists.json';
-import albumsData from '../data/albums.json';
 import erasData from '../data/eras.json';
 import { SEO } from '../components/SEO';
-import type { Artist, Era, Album } from '../types';
+import type { Artist, Era } from '../types';
 import { getVerificationStats } from '../utils/connections';
 import { ArtistPhoto } from '../components/ArtistPhoto';
 import {
@@ -30,7 +29,6 @@ import { ArtistDropdown } from '../components/graph/controls/ArtistDropdown';
 import type { ArtistDropdownHandle } from '../components/graph/controls/ArtistDropdown';
 
 const artists = artistsData as Artist[];
-const albums = albumsData as Album[];
 const eras = erasData as Era[];
 
 const nodeTypes = {
@@ -116,7 +114,7 @@ function InfluenceGraphInner() {
     return { eraFilter: 'bebop' };
   }, [currentPath]);
 
-  const { nodes: graphNodes, edges: graphEdges } = useInfluenceGraph(artists, eras, albums, filter);
+  const { nodes: graphNodes, edges: graphEdges } = useInfluenceGraph(artists, eras, filter);
   const { nodes: layoutedNodes, edges: layoutedEdges } = useGraphLayout(graphNodes, graphEdges);
 
   // Apply path highlighting
