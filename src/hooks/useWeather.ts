@@ -47,7 +47,12 @@ export function useWeather(): UseWeatherResult {
       async (position) => {
         if (cancelled) return;
         const { latitude, longitude } = position.coords;
-        const data = await fetchWeather(latitude, longitude);
+        // Round to ~1km precision before sharing with the weather API — enough for
+        // weather-mood matching, while handing a less precise location to a third party.
+        const data = await fetchWeather(
+          Math.round(latitude * 100) / 100,
+          Math.round(longitude * 100) / 100
+        );
         if (cancelled) return;
 
         if (data) {

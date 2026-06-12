@@ -10,6 +10,7 @@ import { Home } from './pages/Home';
 import { Albums } from './pages/Albums';
 import { Artists } from './pages/Artists';
 import { Eras } from './pages/Eras';
+import { NotFound } from './pages/NotFound';
 
 // Lazy load detail pages and heavy components
 const Era = lazy(() => import('./pages/Era').then(m => ({ default: m.Era })));
@@ -18,6 +19,8 @@ const Album = lazy(() => import('./pages/Album').then(m => ({ default: m.Album }
 const Timeline = lazy(() => import('./pages/Timeline').then(m => ({ default: m.Timeline })));
 const InfluenceGraph = lazy(() => import('./pages/InfluenceGraph').then(m => ({ default: m.InfluenceGraph })));
 const ParallelTimeline = lazy(() => import('./pages/ParallelTimeline').then(m => ({ default: m.ParallelTimeline })));
+const Paths = lazy(() => import('./pages/Paths').then(m => ({ default: m.Paths })));
+const Path = lazy(() => import('./pages/Path').then(m => ({ default: m.Path })));
 
 function App() {
   useEffect(() => {
@@ -39,9 +42,12 @@ function App() {
               <Route path="/artist/:id" element={<Artist />} />
               <Route path="/albums" element={<Albums />} />
               <Route path="/album/:id" element={<Album />} />
+              <Route path="/paths" element={<Paths />} />
+              <Route path="/path/:id" element={<Path />} />
               <Route path="/timeline" element={<Timeline />} />
               <Route path="/influence" element={<InfluenceGraph />} />
               <Route path="/context" element={<ParallelTimeline />} />
+              <Route path="*" element={<NotFound />} />
             </Route>
           </Routes>
         </Suspense>

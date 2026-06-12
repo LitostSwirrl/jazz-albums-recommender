@@ -1,0 +1,126 @@
+{
+  "agenda": "Smack Cats is a jazz guide built for players, not collectors. We care less about release dates and personnel trivia than about what a working musician can lift off a record and use the same night: a way to bend a phrase, voice a chord, sit behind the beat. The history that matters here is the history you can hear and steal, the line that runs from Charlie Christian's amplified single notes through Wes Montgomery's octaves to Mary Halvorson's bent chords. Every record on this site is one somebody actually cut, and we point you at the specific moves worth copying rather than asking you to admire the canon from a distance. The paths below are arguments, not playlists: opinionated routes through the catalog that each trace one idea about how the music got made and how you might make your own.",
+  "paths": [
+    {
+      "id": "guitar-lineage",
+      "title": "Six Strings, One Conversation",
+      "subtitle": "How the jazz guitar learned to talk, from Django to Halvorson",
+      "rationale": "The whole instrument turns on one invention: Charlie Christian treating the guitar as a horn, playing long single-note lines instead of strumming chords behind the band. Everyone after him is answering that, whether it is Wes Montgomery thumbing octaves, Grant Green's blues economy, Jim Hall's chamber restraint, or Mary Halvorson bending pitch until the harmony warps. Django sits at the front as the European root the Americans absorbed, and the line stays unbroken into the present.",
+      "forThePlayer": "Track how each player gets a vocal, horn-like attack out of pick and string, then steal the comping language: Burrell's blues double-stops, Hall's open chamber voicings, Metheny's wide intervals, Halvorson's pitch-bending chords. Play along and copy the phrasing before you copy the notes.",
+      "albumIds": [
+        "quintette-du-hot-club-de-france",
+        "after-hours-monroes-harlem-mintons",
+        "kenny-burrell",
+        "midnight-blue",
+        "idle-moments",
+        "boss-guitar",
+        "full-house-wes-montgomery",
+        "smokin-at-the-half-note-wes-montgomery",
+        "el-hombre",
+        "concierto-jim-hall",
+        "bright-size-life",
+        "heartcore",
+        "arclight",
+        "amaryllis-belladonna"
+      ]
+    },
+    {
+      "id": "broke-the-language",
+      "title": "Records That Broke the Language",
+      "subtitle": "Each one rewrote what jazz could say next",
+      "rationale": "These are the hinge records, the ones where a musician got tired of the old grammar and forced a new one. Bebop crammed the bar full of notes; Miles emptied it out with modes on Kind of Blue; Coltrane answered with the vertical density of Giant Steps; Ornette threw out the chord changes entirely. Heard in order it is an argument between more and less, between running the harmony and abandoning it.",
+      "forThePlayer": "Study the trade-off each record makes: Giant Steps shows you harmony at maximum speed, Kind of Blue shows you space and modal patience, Ornette shows you melody freed from the chord chart. Learn one Coltrane pattern and one modal vamp and you already have two opposite tools for the same tune.",
+      "albumIds": [
+        "genius-of-modern-music-vol-1",
+        "bird-and-diz",
+        "study-in-brown",
+        "saxophone-colossus",
+        "brilliant-corners",
+        "milestones",
+        "kind-of-blue",
+        "giant-steps",
+        "the-shape-of-jazz-to-come",
+        "out-to-lunch",
+        "miles-smiles",
+        "speak-no-evil"
+      ]
+    },
+    {
+      "id": "late-night-tone",
+      "title": "After Midnight",
+      "subtitle": "Ballads, breath, and the sound of a held note",
+      "rationale": "Ballad playing is where tone has nowhere to hide. Strip the tempo away and all that is left is sound, time, and how you enter and leave a note. Miles muting his trumpet to a whisper, Coltrane finally relaxing into standards on Ballads, Billie Holiday's wrecked and unbearable Lady in Satin, Jim Hall's guitar breathing around a string section. The lesson runs from the loudest free players to the quietest crooners: restraint is a technique, not an absence of one.",
+      "forThePlayer": "Listen to attack and decay, to how long a phrase is held and where the silence falls. Steal the vibrato and the note placement, not the licks. On guitar, copy Jim Hall and Grant Green's habit of leaving half the bar empty so the tone can ring.",
+      "albumIds": [
+        "round-about-midnight",
+        "chet-baker-sings",
+        "ballads-coltrane",
+        "lady-in-satin",
+        "you-must-believe-in-spring",
+        "waltz-for-debby",
+        "concierto-jim-hall",
+        "crescent",
+        "street-of-dreams",
+        "my-song"
+      ]
+    },
+    {
+      "id": "groove-and-grease",
+      "title": "In the Pocket",
+      "subtitle": "Soul jazz, the organ trio, and the funk that followed",
+      "rationale": "This is the music that never left the dance and the church. Hard bop's bluesy, back-beat wing, the Blue Note organ-trio sound, and the funk it grew into, all built on one principle: the groove is the composition. Horace Silver's gospel chords, Jimmy Smith riding the Hammond B-3, Lee Morgan's boogaloo hit, Herbie's Headhunters and Glasper's hip-hop pulse are the same idea forty years apart.",
+      "forThePlayer": "Lock into the feel: where the comping chords land against the backbeat, how the bass and drums leave a hole for you. Steal the organ-trio chord stabs, the blues phrasing, and the discipline of repeating a riff until it becomes hypnotic instead of boring.",
+      "albumIds": [
+        "moanin",
+        "song-for-my-father",
+        "somethin-else",
+        "back-at-the-chicken-shack",
+        "the-sidewinder",
+        "midnight-blue",
+        "empyrean-isles",
+        "head-hunters",
+        "heavy-weather",
+        "black-radio"
+      ]
+    },
+    {
+      "id": "avant-leap",
+      "title": "The Leap",
+      "subtitle": "When the music left the chord changes behind",
+      "rationale": "The free jazz break was not noise for its own sake; it was a bet that feeling, texture, and collective listening could carry a performance without a chord chart or a steady tempo. Mingus pushed the orchestra to the edge, Ornette's collective improvisation split the band into two quartets at once, Ayler turned hymns into screams, Alice Coltrane found a spiritual calm on the far side of it. Sharrock and Halvorson show the leap was never a dead end but an open door later players keep walking through.",
+      "forThePlayer": "Practice listening, not soloing: the skill here is reacting to the room in real time, trading texture instead of trading fours. Try playing free for one chorus, then snapping back to the form, and steal Halvorson's trick of bending a single note until it becomes the whole harmonic event.",
+      "albumIds": [
+        "mingus-ah-um",
+        "the-black-saint",
+        "free-jazz",
+        "the-shape-of-jazz-to-come",
+        "ascension",
+        "spiritual-unity",
+        "unit-structures",
+        "out-to-lunch",
+        "journey-in-satchidananda",
+        "ask-the-ages",
+        "amaryllis-belladonna"
+      ]
+    },
+    {
+      "id": "first-night",
+      "title": "Start Here Tonight",
+      "subtitle": "Ten records that open the door without dumbing it down",
+      "rationale": "Every newcomer gets handed Kind of Blue and then abandoned. This path keeps going: ten records that are immediately enjoyable but reward repeat listening, spanning cool, hard bop, bossa nova, and the modern scene. Nothing here is a warm-up for the real stuff; these are the real stuff, chosen because the melody hooks you on the first pass and the playing keeps you on the tenth.",
+      "forThePlayer": "Use these to build a starter songbook: learn the heads to So What, Cantaloupe Island, Take Five, and The Sidewinder and you can already sit in. Notice how a strong melody and a clear groove do most of the work before anyone solos.",
+      "albumIds": [
+        "kind-of-blue",
+        "time-out",
+        "somethin-else",
+        "blue-train",
+        "getz-gilberto",
+        "song-for-my-father",
+        "maiden-voyage",
+        "the-sidewinder",
+        "waltz-for-debby",
+        "the-epic"
+      ]
+    }
+  ]
+}

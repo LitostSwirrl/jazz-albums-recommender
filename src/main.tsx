@@ -11,3 +11,13 @@ createRoot(document.getElementById('root')!).render(
     </HelmetProvider>
   </StrictMode>,
 )
+
+// Register the service worker in production for offline support and instant repeat visits.
+// Progressive enhancement: failures are swallowed so the app still works without it.
+if (import.meta.env.PROD && 'serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker
+      .register(`${import.meta.env.BASE_URL}sw.js`, { updateViaCache: 'none' })
+      .catch(() => {})
+  })
+}

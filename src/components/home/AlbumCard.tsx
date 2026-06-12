@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { AlbumCover } from '../AlbumCover';
 import { track, type AlbumClickSource } from '../../utils/analytics';
+import { prefetchRoute } from '../../utils/prefetch';
 import type { Album } from '../../types';
 
 interface AlbumCardProps {
@@ -39,6 +40,8 @@ export function AlbumCard({ album, size = 'md', showYear = false, showEraTag = f
     <Link
       to={`/album/${album.id}`}
       onClick={handleClick}
+      onMouseEnter={() => prefetchRoute('album')}
+      onFocus={() => prefetchRoute('album')}
       className={`block flex-shrink-0 ${sizeWidths[size]} group ${className}`}
     >
       <div className="relative rounded-sm overflow-hidden mb-2 shadow-card group-hover:shadow-card-hover transition-all duration-300 group-hover:scale-[1.03] aspect-square">

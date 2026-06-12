@@ -1,0 +1,85 @@
+{
+  "checked": 38,
+  "corrections": [
+    {
+      "albumId": "milestones",
+      "field": "label",
+      "current": "CBS",
+      "corrected": "Columbia",
+      "sourceUrl": "https://www.jazzdisco.org/miles-davis/catalog/",
+      "note": "Milestones (1958) was released in the US on Columbia (CL 1193 / CS 1193). 'CBS' was only the international/parent branding; for a US-catalog the correct label is Columbia. The album's own DNA prose already says Columbia."
+    },
+    {
+      "albumId": "miles-smiles",
+      "field": "label",
+      "current": "Unknown",
+      "corrected": "Columbia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Miles_Smiles",
+      "note": "Miles Smiles (1967) was released on Columbia (CL 2601 mono / CS 9401 stereo), recorded Oct 24-25 1966 at Columbia 30th Street Studio. Confirmed via Wikipedia infobox, milesdavis.com, and Discogs."
+    },
+    {
+      "albumId": "such-sweet-thunder",
+      "field": "label",
+      "current": "Unknown",
+      "corrected": "Columbia",
+      "sourceUrl": "https://news.columbia.edu/news/columbia-connects-shakespeare-and-ellington-such-sweet-thunder",
+      "note": "Such Sweet Thunder (1957) was originally released on Columbia (CL 1033). Confirmed via Columbia University news page, Wikipedia infobox, and Discogs original-pressing listings."
+    },
+    {
+      "albumId": "crescent",
+      "field": "albumDNA",
+      "current": "Alongside Coltrane on tenor saxophone, the album features McCoy Tyner (piano), Jimmy Garrison and Elvin Jones (drums) playing original Coltrane compositions.",
+      "corrected": "Alongside Coltrane on tenor saxophone, the album features McCoy Tyner (piano), Jimmy Garrison (bass) and Elvin Jones (drums) playing original Coltrane compositions.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Crescent_(John_Coltrane_album)",
+      "note": "Personnel error: the prose groups Jimmy Garrison with Elvin Jones as '(drums)'. Garrison is the bassist (double bass); only Elvin Jones plays drums. Wikipedia infobox: 'Jimmy Garrison - double bass; Elvin Jones - drums.'"
+    },
+    {
+      "albumId": "bitches-brew",
+      "field": "albumDNA",
+      "current": "Launched the jazz fusion movement and became the first jazz album to sell 500,000 copies in its first year.",
+      "corrected": "Launched the jazz fusion movement and became Miles Davis's first gold record (RIAA Gold 1976, Platinum 2003), selling roughly 400,000 copies in its first year.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bitches_Brew",
+      "note": "The superlative 'first jazz album to sell 500,000 copies in its first year' is unsupported. Sources cite ~400,000 first-year sales; RIAA Gold (500,000) certification came in 1976, six years after release, and was Davis's first gold record (not a jazz-wide first). Platinum in 2003. RIAA database: certification dated 2003-09-22."
+    },
+    {
+      "albumId": "song-for-my-father",
+      "field": "albumDNA",
+      "current": "The title track's riff was later sampled by Steely Dan for 'Rikki Don't Lose That Number.'",
+      "corrected": "The title track's bass intro was later borrowed by Steely Dan for 'Rikki Don't Lose That Number' (an interpolation Donald Fagen has disputed, calling it a generic Brazilian bass line).",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Rikki_Don%27t_Lose_That_Number",
+      "note": "Not a sample. Steely Dan's 1974 track borrows/interpolates the unison piano-and-bass intro figure as played by the band, not a digital sample; and the borrowing is disputed by Donald Fagen, who denied the similarity. 'Sampled' is the wrong term."
+    },
+    {
+      "albumId": "afrodisia",
+      "field": "albumDNA",
+      "current": "Pioneered Afrobeat before Fela.",
+      "corrected": "A makossa-funk landmark and one of the most influential African records in global pop.",
+      "sourceUrl": "https://www.discogs.com/release/3795506-Manu-Dibango-Soul-Makossa",
+      "note": "Genre error. 'Soul Makossa' (1972) is makossa/soul-funk (Discogs tags: Funk/Soul, makossa), not Afrobeat. Afrobeat is the specific Nigerian genre pioneered by Fela Kuti and Tony Allen; Dibango was Cameroonian and his signature genre is makossa. Crediting him with pioneering Afrobeat 'before Fela' conflates two distinct genres."
+    },
+    {
+      "albumId": "giant-steps",
+      "field": "albumDNA",
+      "current": "This was Coltrane's first album as leader for the label, with which he had signed a new contract the previous year.",
+      "corrected": "This was Coltrane's first album as sole leader for the label, with which he had signed a new contract the previous year.",
+      "sourceUrl": "https://magazine.waxpoetics.com/article/john-coltrane-evolutionary-jump-1960-masterpiece-giant-steps/",
+      "note": "Giant Steps was NOT Coltrane's first Atlantic album as leader: 'Bags & Trane' (co-led with Milt Jackson, recorded Aug 1959, released 1959) preceded it. Giant Steps was his first album as SOLE leader for Atlantic. Wax Poetics: it 'wasn't even his debut Atlantic album, the first being 1959's Bags & Trane.'"
+    },
+    {
+      "albumId": "my-favorite-things",
+      "field": "albumDNA",
+      "current": "It was the first album to feature Coltrane playing soprano saxophone.",
+      "corrected": "It was the first released album to feature Coltrane playing soprano saxophone.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Avant-Garde_(album)",
+      "note": "Coltrane's earliest soprano-saxophone recording was the Don Cherry session of June 28, 1960 (released later, in 1966, on 'The Avant-Garde'), which predates the My Favorite Things sessions (Oct 1960). As a statement about the first RELEASED album with his soprano it is defensible; as worded ('first album to feature') it is misleading. Adding 'released' makes it accurate."
+    },
+    {
+      "albumId": "django-reinhardt",
+      "field": "bio",
+      "current": "Django Reinhardt invented European jazz.",
+      "corrected": "Django Reinhardt was the first major jazz voice to emerge from Europe.",
+      "sourceUrl": "https://www.britannica.com/biography/Django-Reinhardt",
+      "note": "artists.json bio. 'Invented European jazz' is an overstatement no reputable source supports; jazz was already played across Europe in the 1920s before Reinhardt rose. Sources frame him as 'one of the first major jazz talents to emerge in Europe' / the first important European jazz guitarist (Wikipedia, Britannica). NOTE: this correction targets src/data/artists.json (artistId django-reinhardt), not albums.json."
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
 import albumsData from '../data/albums.json';
+import albumsDetailData from '../data/albumsDetail.json';
 import artistsData from '../data/artists.json';
 import erasData from '../data/eras.json';
 import { AlbumCover } from '../components/AlbumCover';
@@ -11,9 +12,10 @@ import { SEO } from '../components/SEO';
 import { getEventsForAlbum } from '../utils/historicalContext';
 import { isForwardLooking } from '../utils/discovery';
 import { track } from '../utils/analytics';
-import type { Album as AlbumType, Artist, Era } from '../types';
+import type { Album as AlbumType, AlbumDetail, Artist, Era } from '../types';
 
 const albums = albumsData as AlbumType[];
+const albumsDetail = albumsDetailData as Record<string, AlbumDetail>;
 const artists = artistsData as Artist[];
 const eras = erasData as Era[];
 
@@ -35,6 +37,9 @@ export function Album() {
   const artist = artists.find((a) => a.id === album.artistId);
   const era = eras.find((e) => e.id === album.era);
   const forwardLooking = isForwardLooking(album);
+  const detail: AlbumDetail = albumsDetail[album.id] ?? {};
+  const keyTracks = detail.keyTracks ?? [];
+  const reviews = detail.reviews ?? [];
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-12 page-enter">
@@ -135,9 +140,9 @@ export function Album() {
       <section className="mb-12">
         <h2 className="text-2xl font-heading text-charcoal mb-4">Album DNA</h2>
         <p className="text-lg text-charcoal/80 leading-relaxed">{album.albumDNA}</p>
-        {album.wikipedia && (
+        {detail.wikipedia && (
           <a
-            href={album.wikipedia}
+            href={detail.wikipedia}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block mt-4 text-coral hover:text-coral/80 transition-colors"
@@ -151,11 +156,11 @@ export function Album() {
       <AlbumHistoricalContext albumId={album.id} />
 
       {/* Critics Reviews */}
-      {album.reviews && album.reviews.length > 0 && (
+      {reviews.length > 0 && (
         <section className="mb-12">
           <h2 className="text-2xl font-heading text-charcoal mb-4">What Critics Said</h2>
           <div className="space-y-4">
-            {album.reviews.map((review, index) => (
+            {reviews.map((review, index) => (
               <blockquote
                 key={index}
                 className="p-5 rounded-lg bg-surface border-l-4 border-coral shadow-card"
@@ -188,11 +193,11 @@ export function Album() {
       {/* Key Tracks */}
       <section className="mb-12">
         <h2 className="text-2xl font-heading text-charcoal mb-4">Key Tracks</h2>
-        {album.keyTracks.length === 0 ? (
+        {keyTracks.length === 0 ? (
           <p className="text-warm-gray/60 font-heading italic text-sm">Key tracks not yet listed.</p>
         ) : (
           <ul className="space-y-2">
-            {album.keyTracks.map((track, index) => (
+            {keyTracks.map((track, index) => (
               <li
                 key={track}
                 className="flex items-center gap-4 p-3 rounded-lg bg-surface border border-border"

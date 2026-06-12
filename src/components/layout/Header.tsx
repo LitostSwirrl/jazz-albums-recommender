@@ -37,6 +37,7 @@ export function Header() {
           <div className="hidden md:flex gap-8 items-center">
             {[
               { to: '/', label: 'Home' },
+              { to: '/paths', label: 'Paths' },
               { to: '/eras', label: 'Eras' },
               { to: '/artists', label: 'Artists' },
               { to: '/albums', label: 'Albums' },
@@ -132,6 +133,7 @@ export function Header() {
             <div className="flex flex-col space-y-1">
               {[
                 { to: '/', label: 'Home' },
+                { to: '/paths', label: 'Paths' },
                 { to: '/eras', label: 'Eras' },
                 { to: '/artists', label: 'Artists' },
                 { to: '/albums', label: 'Albums' },

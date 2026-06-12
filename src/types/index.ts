@@ -24,13 +24,17 @@ export interface Artist {
   name: string;
   birthYear: number;
   deathYear?: number;
-  bio: string;
   instruments: string[];
   eras: EraId[];
   influences: string[];
   influencedBy: string[];
   keyAlbums: string[];
   imageUrl?: string;
+}
+
+// Heavy, detail-page-only fields. Loaded lazily via artistsDetail.json (Artist route only).
+export interface ArtistDetail {
+  bio: string;
   wikipedia?: string;
 }
 
@@ -70,12 +74,16 @@ export interface Album {
   era: EraId;
   genres: string[];
   albumDNA: string;
-  keyTracks: string[];
   coverUrl?: string;
   spotifyUrl?: string;
   appleMusicUrl?: string;
   youtubeMusicUrl?: string;
   youtubeUrl?: string;
+}
+
+// Heavy, detail-page-only fields. Loaded lazily via albumsDetail.json (Album route only).
+export interface AlbumDetail {
+  keyTracks?: string[];
   wikipedia?: string;
   reviews?: CriticReview[];
 }
@@ -100,4 +108,19 @@ export interface HistoricalEvent {
   relatedArtistIds?: string[];
   relatedAlbumIds?: string[];
   source?: string;
+}
+
+// Curated, opinionated listening routes ("the agenda"). See src/data/paths.json.
+export interface CuratedPath {
+  id: string;
+  title: string;
+  subtitle: string;
+  rationale: string;
+  forThePlayer: string;
+  albumIds: string[];
+}
+
+export interface PathsData {
+  agenda: string;
+  paths: CuratedPath[];
 }

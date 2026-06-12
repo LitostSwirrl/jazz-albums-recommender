@@ -1,0 +1,56 @@
+{
+  "repairs": [
+    {
+      "albumId": "the-legend-of-king-oliver-remastered",
+      "albumDNA": "Joseph \"King\" Oliver was one of the founding figures of recorded jazz, the New Orleans cornetist and bandleader who mentored a young Louis Armstrong and led the influential Creole Jazz Band of the early 1920s. This remastered collection gathers his recordings, from the collective-improvisation stomp of \"Dipper Mouth Blues\" to later sides like \"St James Infirmary,\" and showcases the growling, plunger-muted cornet sound that shaped the music's first generation. It is a window onto where jazz began, when the New Orleans style was being captured on disc for the very first time.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/King_Oliver",
+        "https://en.wikipedia.org/wiki/Dippermouth_Blues",
+        "https://64parishes.org/entry/king-oliver",
+        "https://trackingangle.com/music/centennial-king-olivers-creole-jazz-band"
+      ],
+      "note": "Original prose was about pop artist King Princess. Replaced with King Oliver. The dataset title labels this a remastered compilation (2020, Master Tape Records); its keyTracks span Oliver's 1920s catalogue (the 1923 'Dipper Mouth Blues' plus later sides), so prose describes it as a remastered collection of his recordings rather than naming one specific session, to avoid overstating contents. Personnel of the 1923 Creole Jazz Band (Armstrong, Dodds brothers, Lil Hardin, Dutrey, Bill Johnson) verified but left general since the comp is career-spanning."
+    },
+    {
+      "albumId": "who-are-you",
+      "albumDNA": "Who Are You? is the 2020 Blue Note album from vibraphonist Joel Ross, one of the most gifted players to emerge on his instrument in recent years, and the follow-up to his debut KingMaker. Rather than a tidy statement of identity, Ross treats the record as a set of open questions about where his music can go, leaning into risk and storytelling with his working group, which includes saxophonist Immanuel Wilkins. Harpist Brandee Younger guests on several tracks, among them a reading of John Coltrane's \"After the Rain,\" giving the session a searching, spacious feel. It is a strong showcase for a young bandleader still mapping out his sound.",
+      "sources": [
+        "https://www.jazztimes.com/reviews/albums/joel-ross-who-are-you-blue-note/",
+        "https://www.bluenote.com/spotlight/joel-ross-asks-who-are-you/",
+        "https://jazztrail.net/blog/joel-ross-who-are-you-album-review",
+        "https://rateyourmusic.com/release/album/joel-ross/who-are-you/"
+      ],
+      "note": "Original prose was about Diana Ross / The Supremes. Replaced with Joel Ross. Personnel (Immanuel Wilkins, Brandee Younger, 'After the Rain') and the KingMaker debut reference are confirmed across Blue Note and JazzTimes/JazzTrail reviews. 'After the Rain' is both a confirmed feature and a dataset keyTrack."
+    },
+    {
+      "albumId": "forever-love",
+      "albumDNA": "Forever Love is jazz guitarist Mark Whitfield's 1997 Verve album, a warm program built around standards and ballads that highlights his clean, lyrical chord-melody playing. The repertoire leans into the songbook, with pieces such as \"My One and Only Love\" and \"Nature Boy,\" and vocalist Diana Krall guests on a few tracks. It is an unhurried, romantic set that shows Whitfield as a melodist first, a good entry point into his playing for anyone who loves the sound of a guitar handling a ballad.",
+      "sources": [
+        "https://www.allmusic.com/album/forever-love-mw0000092516",
+        "https://jazztimes.com/archives/mark-whitfield-forever-love/",
+        "https://www.discogs.com/release/4386826-Mark-Whitfield-Forever-Love"
+      ],
+      "note": "Original prose was about gospel figure Thomas Whitfield (wrong Whitfield). Replaced with guitarist Mark Whitfield. Verve 1997, recorded at Avatar Studios NYC; Diana Krall guest vocals and the standards-and-ballads character confirmed via AllMusic, JazzTimes and Discogs. Named tracks ('My One and Only Love', 'Nature Boy') are dataset keyTracks. Exact arranger credit kept out of prose to stay general."
+    },
+    {
+      "albumId": "nancy-wilson-cannonball-adderley",
+      "albumDNA": "Nancy Wilson / Cannonball Adderley, released by Capitol in 1962, pairs the young singer with the Cannonball Adderley Quintet for one of the great vocal-meets-hard-bop summits of the era. The set splits between Wilson's vocal features, including the signature \"Save Your Love for Me,\" and instrumental tracks where the band, with Nat Adderley on cornet and Joe Zawinul on piano, stretches out on its own. Wilson called her role \"a sort of easy-going third horn,\" and that blend of soulful singing and swinging small-group jazz carried the album onto the pop charts. It remains a definitive showcase of her phrasing and the Adderley group's warmth.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nancy_Wilson/Cannonball_Adderley",
+        "https://www.allmusic.com/album/nancy-wilson-cannonball-adderley-mw0000194135",
+        "https://www.discogs.com/release/6519284-Nancy-Wilson-Cannonball-Adderley-Nancy-Wilson-Cannonball-Adderley"
+      ],
+      "note": "Original prose was duplicated verbatim from the 'Somethin' Else' entry (wrong album entirely). Rewritten for the actual Wilson/Adderley album. Verified: Capitol, recorded June-Aug 1961, released Feb 1962, reached No. 30 on Billboard Top LPs; personnel Cannonball Adderley (alto), Nat Adderley (cornet), Joe Zawinul (piano), Sam Jones (bass), Louis Hayes (drums); seven vocal + five instrumental tracks; Wilson's 'third horn' quote from liner notes. 'Save Your Love for Me' is a dataset keyTrack and the album's signature number."
+    },
+    {
+      "albumId": "behind-the-8-ball",
+      "albumDNA": "Behind the 8 Ball is the soul-jazz organist Baby Face Willette's final album, recorded in late 1964 and issued by Argo (Chess) in 1965. Cut in Chicago, it captures his gospel- and blues-soaked Hammond organ at its loosest and hardest-hitting, looser and grittier than the more polished sessions he had made earlier for Blue Note. Tracks like the title cut and \"Roll 'em Pete\" lay down deep, churchy grooves built for the organ-combo sound of the period. It is a raw, underrated document of one of the music's most soulful and elusive organ players.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Behind_the_8_Ball",
+        "https://www.discogs.com/release/3698858-Baby-Face-Willette-Behind-The-8-Ball",
+        "https://onmilwaukee.com/articles/baby-face-willette"
+      ],
+      "note": "Original prose described a different Willette album, 'Face to Face' (his 1961 Blue Note debut), wrongly placing this on Blue Note in 1961. Corrected: 'Behind the 8 Ball' was recorded Nov 30 1964 at Ter Mar Studio, Chicago, and released by Argo in 1965; it was his last LP. The 'hotter/grittier than his Blue Note dates' characterization is paraphrased from All About Jazz coverage cited in the Wikipedia entry; kept general rather than quoted. Title track and 'Roll 'em Pete' are dataset keyTracks. Dataset lists year 1965 (release); recording year 1964 noted as context, prose uses 'recorded in late 1964 and issued ... in 1965' to reconcile."
+    }
+  ]
+}

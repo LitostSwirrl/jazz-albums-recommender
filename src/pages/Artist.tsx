@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import artistsData from '../data/artists.json';
+import artistsDetailData from '../data/artistsDetail.json';
 import albumsData from '../data/albums.json';
 import erasData from '../data/eras.json';
-import type { Artist as ArtistType, Album, Era, ArtistConnection } from '../types';
+import type { Artist as ArtistType, ArtistDetail, Album, Era, ArtistConnection } from '../types';
 import { MiniInfluenceNetwork } from '../components/graph';
 import { ArtistPhoto } from '../components/ArtistPhoto';
 import { AlbumCover } from '../components/AlbumCover';
@@ -12,6 +13,7 @@ import { getConnection } from '../utils/connections';
 import { track } from '../utils/analytics';
 
 const artists = artistsData as ArtistType[];
+const artistsDetail = artistsDetailData as Record<string, ArtistDetail>;
 const albums = albumsData as Album[];
 const eras = erasData as Era[];
 
@@ -120,6 +122,7 @@ export function Artist() {
     );
   }
 
+  const detail: ArtistDetail = artistsDetail[artist.id] ?? { bio: '' };
   const artistAlbums = albums.filter((a) => a.artistId === artist.id);
   const artistEras = eras.filter((e) => artist.eras.includes(e.id));
   const influencedArtists = artists.filter((a) => artist.influences.includes(a.id));
@@ -129,7 +132,7 @@ export function Artist() {
     <div className="max-w-6xl mx-auto px-4 py-12 page-enter">
       <SEO
         title={artist.name}
-        description={artist.bio.slice(0, 160)}
+        description={detail.bio.slice(0, 160)}
         image={artist.imageUrl}
         type="profile"
       />
@@ -177,11 +180,11 @@ export function Artist() {
       <section className="mb-12">
         <h2 className="text-2xl font-heading text-charcoal mb-4">Biography</h2>
         <p className="text-lg text-charcoal/80 leading-relaxed [&::first-letter]:text-5xl [&::first-letter]:font-display [&::first-letter]:text-coral [&::first-letter]:float-left [&::first-letter]:mr-3 [&::first-letter]:mt-1 [&::first-letter]:leading-none">
-          {artist.bio}
+          {detail.bio}
         </p>
-        {artist.wikipedia && (
+        {detail.wikipedia && (
           <a
-            href={artist.wikipedia}
+            href={detail.wikipedia}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block mt-4 text-coral hover:text-coral/80 transition-colors"
