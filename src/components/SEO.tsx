@@ -9,7 +9,7 @@ interface SEOProps {
 
 export function SEO({ title, description, image, type = 'website' }: SEOProps) {
   const fullTitle = `${title} | Smack Cats`;
-  const siteUrl = 'https://litostswirrl.github.io/jazz-albums-recommender';
+  const siteUrl = 'https://smack-cats-jazz.web.app';
 
   return (
     <Helmet>

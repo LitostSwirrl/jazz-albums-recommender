@@ -10,9 +10,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "firebase deploy --only hosting"
+    "deploy": "firebase deploy --only hosting --project smack-cats-jazz"
   },
-  "homepage": "https://litostswirrl.github.io/jazz-albums-recommender",
+  "homepage": "https://smack-cats-jazz.web.app",
   "dependencies": {
     "@types/dagre": "^0.7.53",
     "@xyflow/react": "^12.10.0",
