@@ -13,7 +13,7 @@ import { GenreRows } from '../components/home/GenreRow';
 import { ArtistSpotlight } from '../components/home/ArtistSpotlight';
 import { QuickLinksGrid } from '../components/home/QuickLinksGrid';
 import { seededShuffle, seededPick, DAY_SEED } from '../utils/random';
-import { getTodaysPicks } from '../utils/weatherMood';
+import { getDailyPicks } from '../utils/discovery';
 import { usePreloadImages } from '../hooks/usePreloadImages';
 import type { Era, Album, Artist } from '../types';
 
@@ -48,7 +48,7 @@ export function Home() {
     if (heroAlbum) urls.push(heroAlbum.coverUrl);
 
     // Today's Pick (first 5)
-    const todaysPicks = getTodaysPicks(albums, null);
+    const todaysPicks = getDailyPicks(albums);
     for (const pick of todaysPicks.slice(0, 5)) {
       urls.push(pick.coverUrl);
     }

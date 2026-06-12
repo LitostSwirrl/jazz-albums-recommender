@@ -1,4 +1,11 @@
 import type { Album, Artist, EraId } from '../types';
+import { DAY_SEED, seededShuffle } from './random';
+
+// Eight albums chosen for today, rotating daily by date alone (no location or weather).
+export function getDailyPicks(albums: Album[], count = 8): Album[] {
+  const withCovers = albums.filter((a) => a.coverUrl && a.albumDNA.length > 80);
+  return seededShuffle(withCovers, DAY_SEED + 17).slice(0, count);
+}
 
 // Get all unique genres from albums
 export function getAllGenres(albums: Album[]): string[] {
