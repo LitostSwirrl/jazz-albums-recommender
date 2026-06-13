@@ -1,0 +1,325 @@
+[
+ {
+  "id": "karma",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is largely verbatim from the entity-matched Wikipedia page (May 1969, Impulse!, AS 9181, Pitchfork #53 all confirmed). MB search match (sim 1.0) confirms 1969, impulse! AS-9181; keyTracks match ('The Creator Has a Master Plan' matches Parts I/II; 'Colors' exact). 'The most commercially successful spiritual jazz album' is an editorial superlative not strictly checkable, but wiki supports exceptional popularity ('mainstream FM radio airplay, surely the closest the avant-garde movement came to a \"hit\"')."
+ },
+ {
+  "id": "key-for-two",
+  "verdict": "clean",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "artist", "ours": "Hampton Hawes", "evidence": "Hampton Hawes, Martial Solal", "evidenceQuote": "artists: [\"Hampton Hawes\", \"Martial Solal\"]", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid (authoritative for artist credit) co-credits the release to Hampton Hawes AND Martial Solal; ours bills Hawes alone and the prose ('a compelling contemporary jazz statement by Hampton Hawes') never mentions Solal. Treated as primary-artist billing / incomplete credit rather than a contradiction (Hawes is genuinely a credited artist), so not factual_error - but a repair-writer should surface the co-credit on this two-pianist album. Everything else verifies: BYG Records, 1969, all 5 keyTracks on the MB tracklist. No Wikipedia page found; wikipediaUrl is null."
+ },
+ {
+  "id": "monks-blues",
+  "verdict": "entity_mismatch",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Monk's Dream is an album by jazz pianist Thelonious Monk, released by Columbia Records in January 1963.", "problem": "Prose describes a different album entirely: Monk's Dream (1963, Columbia), not our item Monk's Blues (1969). Classic title-search collision.", "evidenceQuote": "releaseGroup: title \"Monk’s Blues\", firstReleaseDate \"1969\"", "source": "mb"},
+   {"ourClaim": "It was Monk's first album for Columbia following his five-year recording period with Riverside Records.", "problem": "Fact about Monk's Dream (1963), copied verbatim from the Monk's Dream Wikipedia page; does not describe Monk's Blues.", "evidenceQuote": "shortDescription: \"1963 studio album by Thelonious Monk\" (page: Monk's Dream (Thelonious Monk album))", "source": "wiki"}
+  ],
+  "notes": "The item's structured fields are fine: embedded MB release confirms title Monk's Blues, release-group first release 1969, label CBS (the embedded release is a 1990 French CBS CD reissue), and all 5 keyTracks are on the MB tracklist. Only the albumDNA prose and the stored wikipediaUrl belong to Monk's Dream (1963). Repair: rewrite prose for Monk's Blues (1969 big-band Columbia/CBS album) and replace or drop the wiki link."
+ },
+ {
+  "id": "power-to-the-people",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Wiki page (stored_url, entity-matched) confirms 1969 Milestone release and the named personnel: Herbie Hancock, Ron Carter, Jack DeJohnette. MB (sim 1.0) confirms year/label/catalog MSP 9024. All 4 keyTracks on MB tracklist ('Opus One Point Five' matches 'Opus One-Point-Five'). Remaining prose is editorial framing (socially conscious masterwork, bridged mainstream and avant-garde)."
+ },
+ {
+  "id": "spirits-known-and-unknown",
+  "verdict": "factual_error",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Spirits Known and Unknown"],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match (sim 1.0) confirms artist/year/label (Flying Dutchman FD-10115, 1969). KeyTrack 'Spirits Known and Unknown' is NOT on the MB 7-track listing (The Creator Has a Master Plan (Peace) / One / Echoes / Song for My Father / Damn Nam (Ain't Goin' to Vietnam) / Malcolm's Gone / Let the Rain Fall on Me) - a purported title track absent from the only tracklist in evidence. Other 3 keyTracks match. 'Debut' claim and Pharoah Sanders' participation are unverifiable from pack evidence (no personnel data, no wiki page). MB is search-method, so treat the missing title track as strong but not airtight."
+ },
+ {
+  "id": "super-nova",
+  "verdict": "unverifiable",
+  "confidence": 0.5,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "1969", "evidence": "1970-03", "evidenceQuote": "releaseGroup.firstReleaseDate: \"1970-03\"", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "Evidence is split on release year: MB release-group firstReleaseDate is 1970-03, but the entity-matched Wikipedia page's shortDescription says '1969 studio album by Wayne Shorter', supporting ours. Recorded Aug 29 / Sep 2, 1969 per wiki. Cannot resolve from the pack; do NOT auto-correct 1969 to 1970 against Wikipedia - needs human adjudication. Everything else checks: prose is verbatim from the matched wiki page (twelfth album, five originals plus Jobim's 'Dindi', Water Babies provenance), and all 4 keyTracks are on the MB tracklist."
+ },
+ {
+  "id": "the-new-don-ellis-band-goes-underground",
+  "verdict": "entity_mismatch",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Don Ellis at Fillmore is a live double-LP by big band leader Don Ellis which was released in 1970.", "problem": "Prose describes a different album: Don Ellis at Fillmore (1970 live double LP). Our item is the 1969 studio album The New Don Ellis Band Goes Underground.", "evidenceQuote": "title: \"The New Don Ellis Band Goes Underground\", date: \"1969\", primaryType: \"Album\"", "source": "mb"}
+  ],
+  "notes": "Embedded MB release confirms the item's fields: 1969, Columbia CS 9889, and all 5 keyTracks on the tracklist. The albumDNA is the Don Ellis at Fillmore wiki page's opening sentence (stored wikipediaUrl is that wrong page) plus artist-bio filler about The French Connection / The Seven-Ups film scores, which describes the artist not the album and is unverifiable here. Also note MB credits the release to 'The New Don Ellis Band, Patti Allen' while ours bills 'Don Ellis' (primary-artist convention, not flagged). Repair: rewrite prose for Goes Underground and fix the wiki link."
+ },
+ {
+  "id": "to-love-somebody",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is verbatim from the entity-matched wiki page ('Nuff Said! follow-up, Bee Gees title song, second British hit after 'Ain't Got No, I Got Life'). Embedded MB release confirms 1969; label shown as RCA Victor (ours 'RCA' is the standard shorthand, not flagged). KeyTrack 'Revolution, Parts 1 & 2' matches MB's split 'Revolution, Part 1'/'Revolution, Part 2' (wiki: 'The song is split into two parts'); other 4 keyTracks exact."
+ },
+ {
+  "id": "alive-grant-green",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Let's Stay Together"],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Right entity: wiki confirms Cliche Lounge, Newark 1970, Blue Note, organ combo; MB (sim 1.0) confirms 1970, BST-84360, Live. But keyTrack 'Let's Stay Together' appears on NEITHER the MB 4-track original listing nor the wiki tracklist including the 1993 CD bonus tracks (Hey, Western Union Man / It's Your Thing / Maiden Voyage) - track not on the album per all available evidence. Other 3 keyTracks match. 'Popular with DJs and hip-hop producers' is editorial, loosely supported by the AllMusic quote about acid jazz and beat-sampling."
+ },
+ {
+  "id": "bitches-brew",
+  "verdict": "unverifiable",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (sim 1.0) confirms title/artist/1970/Columbia and all 4 keyTracks (incl. 'Pharaoh's Dance'); no Wikipedia evidence (opensearch empty, no stored URL). Right entity beyond doubt, no contradictions, but many substantive claims are uncheckable against the pack: double-album format, August 1969 recording, personnel (Shorter, Corea, Zawinul, McLaughlin, Holland, multiple drummers), Teo Macero's editing, Mati Klarwein cover, RIAA Gold 1976 / Platinum 2003, ~400,000 first-year sales, Santana/Radiohead citations. (Background note, not evidence: these claims look standard for this album, but the pack cannot confirm them.)"
+ },
+ {
+  "id": "deaf-dumb-blind-summun-bukmun-umyun",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose verbatim from the entity-matched wiki page (A & R Studios, July 1, 1970, Impulse!, Arabic title meaning). Embedded MB release confirms 1970, impulse! AS 9199, and both keyTracks exactly."
+ },
+ {
+  "id": "extensions",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "1970", "evidence": "1972", "evidenceQuote": "releaseGroup.firstReleaseDate: \"1972\"", "source": "mb"},
+   {"field": "year", "ours": "1970", "evidence": "January 1973", "evidenceQuote": "It was recorded on February 9, 1970, but not released until January 1973.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Year field 1970 is the RECORDING year; both evidence sources contradict it as release year (MB release-group 1972; wiki 'not released until January 1973', shortDescription '1973 studio album'). The item's own prose says January 1973, so the field contradicts the item's own text. The dataset's convention elsewhere (e.g. Transition: recorded 1965, year=1970 release) is release year. Note the evidence itself splits 1972 vs 1973 - repair should pick with care. Everything else verifies: eleventh album, personnel incl. Alice Coltrane on harp on 3 of 4 tracks, all 4 keyTracks on MB tracklist."
+ },
+ {
+  "id": "jazz-in-africa",
+  "verdict": "entity_mismatch",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "unsure"},
+  "wikiLinkVerdict": "unsure",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "1970", "evidence": "1971", "evidenceQuote": "it was recorded in 1970, and was issued on LP by the short-lived Neon imprint of RCA Records in 1971 as the label's second release", "source": "wiki"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Chris McGregor's Brotherhood of Breath is the debut album by South African pianist and composer Chris McGregor's big band of the same name.", "problem": "Prose describes an album titled 'Chris McGregor's Brotherhood of Breath' (1971, Neon/RCA), not an album titled 'Jazz in Africa'. No evidence that an album called 'Jazz in Africa' by this band exists: MB search returned zero candidates.", "evidenceQuote": "resolvedTitle: \"Chris McGregor's Brotherhood of Breath\"; shortDescription: \"1971 studio album by Chris McGregor's Brotherhood of Breath\"", "source": "wiki"}
+  ],
+  "notes": "Identity tangle. Ours.title 'Jazz in Africa' has NO supporting evidence anywhere (MB searchCandidates empty; the stored wiki page is about the differently-titled debut album). The prose, the Joe Boyd / Neon-RCA / Fledg'ling details, and 3 of 4 keyTracks (Davashe's Dream, MRA, Andromeda) all belong to the 1971 debut 'Chris McGregor's Brotherhood of Breath'; keyTrack 'Kongi's Theme' is on neither tracklist in evidence. Two repair paths: (a) retitle the item to the debut album (then fix year to 1971, label to Neon/RCA, drop Kongi's Theme), or (b) the intended entity really is some 'Jazz in Africa' release - background memory (NOT citable) suggests 'Jazz in Africa' is a Jazz Epistles title and 'Kongi's Theme' comes from McGregor's 1963 'Jazz: The African Sound'; a human should check. wikiLinkVerdict 'unsure' because the page is plausibly the intended album but does not match the shipped title."
+ },
+ {
+  "id": "les-stances-a-sophie",
+  "verdict": "entity_mismatch",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "The Art Ensemble of Chicago is an avant-garde jazz group that grew out of the Association for the Advancement of Creative Musicians (AACM) in the late 1960s.", "problem": "The bulk of the prose describes the BAND (AACM origins, little instruments, costumes and face paint, 500 instruments in Europe 1969), not the album Les Stances a Sophie. Content about a group when the item is an album; stored wikipediaUrl is the band article.", "evidenceQuote": "shortDescription: \"American avant-garde jazz group\" (page: Art Ensemble of Chicago)", "source": "wiki"}
+  ],
+  "notes": "The item itself resolves fine: MB (sim 1.0) matches the 1970 soundtrack release and ALL 6 keyTracks. The band page even confirms the album exists ('Les Stances a Sophie with singer Fontella Bass... the soundtrack to the French movie of the same title', 1970). The final two prose sentences ARE album-specific and consistent ('Theme de Yoyo' is the opening track), but the factual skeleton is the band bio. Label caveat: ours says Pathe; the MB evidence release is a US Nessa Records pressing (1970) - the original French label is not in evidence, so Pathe is unconfirmed but NOT contradicted (labels are pressing-specific); do not auto-change. Repair: rewrite prose about the album; link the album's wiki page if one exists."
+ },
+ {
+  "id": "liberation-music-orchestra",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Wiki (entity-matched) confirms personnel claims (Don Cherry, Dewey Redman, Carla Bley with 'much of the arranging'), Spanish Civil War source songs, 1970, Haden's first as leader. MB confirms impulse! AS-9183, 1970. KeyTracks: 'El Quinto Regimiento/Los Cuatro Generales' matches MB's combined medley track, others exact ('Song for Che' matches 'Song for Chè'). Remaining prose is editorial."
+ },
+ {
+  "id": "live-at-the-lighthouse",
+  "verdict": "factual_error",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "1970", "evidence": "1971-04", "evidenceQuote": "releaseGroup.firstReleaseDate: \"1971-04\"", "source": "mb"},
+   {"field": "year", "ours": "1970", "evidence": "1971", "evidenceQuote": "Live at the Lighthouse is a live album by jazz trumpeter Lee Morgan, released on the Blue Note label in 1971.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Year field 1970 is the RECORDING year (July 1970 at the Lighthouse); both MB and wiki give release 1971, and the item's own prose says 'released on the Blue Note label in 1971' - field contradicts evidence and its own text. All other prose verifies verbatim against the matched wiki page (quintet personnel, Hermosa Beach, double LP, 1996 CD expansion); both keyTracks on MB tracklist. 'Killed two years later' is approximately right per wiki (recorded July 1970, died February 1972) - not flagged."
+ },
+ {
+  "id": "at-fillmore",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose verbatim from the entity-matched wiki page (Fillmore East June 17-20 1970, double LP, Jarrett/Corea double keyboards, opened for Laura Nyro). MB confirms 1970, Columbia G 30038, Live, and all 4 day-titled keyTracks."
+ },
+ {
+  "id": "ptah-the-el-daoud",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose verbatim from the matched wiki page: third solo album, Dix Hills basement session January 26 1970, two contrasting tenors (Sanders/Henderson) confirmed. All 4 keyTracks on MB tracklist ('Turiya & Ramakrishna' matches 'Turiya and Ramakrishna'). Minor source discrepancy, not ours: prose/wiki say released September 1970, MB release date is 1970-07 - month-level conflict between evidence sources; ours.year 1970 consistent with both."
+ },
+ {
+  "id": "red-clay",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose verbatim from the matched wiki page (first CTI album, Billboard #20 entry June 20 1970). MB confirms 1970, CTI, and all 4 keyTracks. The stored URL is the unqualified title 'Red_Clay' but it resolves directly to the Freddie Hubbard album article (shortDescription '1970 studio album by Freddie Hubbard'), so the shipped link is correct."
+ },
+ {
+  "id": "superimposition",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose verbatim from the matched wiki page (twelfth studio album, Tico 1970, salsa side A / descargas side B, John Storm Roberts praise). The embedded MB release is the 2006 Fania CD reissue - consistent, since wiki confirms Fania (owner of the Tico catalogue) reissued it in 2006; release-group first release is 1970. KeyTracks all match: 'La malanga' is contained in MB's 'Se acabo la malanga' (wiki confirms the short form), and 'Cholocate Ice Cream' matches MB's identically spelled track (sic in both)."
+ },
+ {
+  "id": "the-diverse-yusef-lateef",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose matches the entity-matched wiki page nearly verbatim (1970, R&B/soul and world-music influences). Embedded MB release confirms 1970, Atlantic SD 1548, and all 4 keyTracks exactly."
+ },
+ {
+  "id": "the-leon-thomas-album",
+  "verdict": "unverifiable",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MB release (authoritative) verifies title, artist, 1970, Flying Dutchman FDS-132, and all 5 keyTracks exactly. No Wikipedia evidence (opensearch empty, no stored URL). Unverifiable substantive claims: 'second album' (ordinal discography position) and 'vocalist and percussionist' role; also 'free jazz entry' is a genre characterization with no evidence either way. No contradictions."
+ },
+ {
+  "id": "transition",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose verbatim from the matched wiki page (recorded 1965, released posthumously 1970, bridge between A Love Supreme and late experimental work). Embedded MB release confirms 1970-07, impulse! AS-9195, and all 3 keyTracks including the full Suite title, exactly."
+ },
+ {
+  "id": "escalator-over-the-hill",
+  "verdict": "clean",
+  "confidence": 0.93,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "artist", "ours": "Carla Bley", "evidence": "Carla Bley, Paul Haines", "evidenceQuote": "artists: [\"Carla Bley\", \"Paul Haines\"]", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "Prose verbatim from the matched wiki page (chronotransduction, words by Paul Haines, music by Carla Bley, Michael Mantler production, Jazz Composer's Orchestra). MB confirms 1971, JCOA Records; all 6 keyTracks on the MB tracklist. MB and wiki shortDescription both credit the album jointly to Carla Bley AND Paul Haines while ours bills Bley alone - treated as primary-artist billing convention, not factual_error, especially since the prose itself credits Haines for the words. Superlatives ('most ambitious jazz composition of its era') are editorial."
+ },
+ {
+  "id": "harlem-bush-music-taifa",
+  "verdict": "unverifiable",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Weak evidence only: MB returned searchCandidates without a release. Top candidate (score 100) corroborates the entity - exact title 'Harlem Bush Music: Taifa', artist 'Gary Bartz NTU Troop' (consistent with prose's 'Bartz's NTU Troop'), firstReleaseDate 1971 matching ours. But no label data (Milestone unverifiable) and no tracklist (all 4 keyTracks unverifiable). No Wikipedia evidence. Background-knowledge flag (NOT citable, for human review): 'Celestial Blues' and 'Uhuru Sasa' may belong to the companion album Harlem Bush Music: Uhuru rather than Taifa - check a tracklist source before trusting keyTracks."
+ }
+]

@@ -1,0 +1,314 @@
+[
+ {
+  "id": "lonnie-liston-smith",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed. birthYear 1940 (born December 28, 1940), piano/keyboards, formative work with Pharoah Sanders and Miles Davis, and forming the Cosmic Echoes all verify against the page lead. Unverifiable: the claim that his album 'Expansions' became a jazz-funk classic and a DJ/sampling favorite - the extract truncates around 1974, before any mention of Expansions (1975). No contradictions found; deathYear null is consistent with the page (born 1940, no death reported)."
+ },
+ {
+  "id": "lou-donaldson",
+  "verdict": "unverifiable",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed; 1926-2024 (November 1, 1926 - November 9, 2024), alto saxophone, Charlie Parker influence in his formative years, and 'Alligator Bogaloo' dated 1967 (listed as a signature song) all verify. Unverifiable: 'became one of Blue Note's biggest sellers' - no label or sales information for that album in the extract (Blue Note appears only regarding the Art Blakey Birdland sessions he played on). 'Helping to create the soul jazz subgenre' treated as editorial framing of the evidenced 'soulful, bluesy approach'. No contradictions."
+ },
+ {
+  "id": "louis-armstrong",
+  "verdict": "unverifiable",
+  "confidence": 0.65,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed; born New Orleans 1901, died 1971, trumpet/vocals, work with King Oliver and Fletcher Henderson, the shift from collective improvisation to solo performance, gravelly voice, beloved-entertainer status, and cross-genre influence all verify. Unverifiable: 'formed his legendary Hot Five and Hot Seven groups in the 1920s' (extract truncates before his recording career; universally documented but not citable from this evidence) and 'pioneered scat singing' (evidence says only 'skilled at scat singing'). No contradictions."
+ },
+ {
+  "id": "louis-moholo-moholo",
+  "verdict": "factual_error",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "deathYear", "ours": null, "evidence": "2025", "evidenceQuote": "Louis Tebogo Moholo (10 March 1940 - 13 June 2025) was a South African jazz drummer.", "source": "wiki"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Louis Moholo-Moholo is a South African drummer and percussionist", "problem": "Present-tense bio for an artist the evidence shows died on 13 June 2025", "evidenceQuote": "Moholo died after a lengthy illness in Cape Town, on 13 June 2025, at the age of 85.", "source": "wiki"}
+  ],
+  "notes": "Everything else verifies: born 1940 in Langa, Cape Town; founding member of the Blue Notes with Chris McGregor, Dyani, Moyake, Feza, Pukwana; emigrated 1964 and settled in London 1965 ('fled apartheid' is fair framing of the exile-community context); Brotherhood of Breath member; played with Cecil Taylor. Stored URL title 'Louis_Moholo-Moholo' resolves to the 'Louis Moholo' page about the same person (he adopted the doubled surname after 2005). Repair: set deathYear 2025, move bio to past tense."
+ },
+ {
+  "id": "lovie-austin",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim from the Wikipedia lead; birth/death years (September 19, 1887 - July 8, 1972) and piano (one of the best female jazz blues piano players; played piano in vaudeville) all match. No issues."
+ },
+ {
+  "id": "mal-waldron",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "All substantive claims verify: 1925-2002; Billie Holiday's regular accompanist from April 1957 until her death in July 1959 (supports 'last regular accompanist'); 1963 heroin-overdose breakdown that left him unable to play or remember music, with gradual recovery; permanent move to Europe in the mid-1960s; gravitation toward free jazz; style featuring repetition of notes and motifs. 'Near-fatal', 'anticipated minimalism', and 'influenced many European improvisers' are editorial embellishments, not contradicted by evidence."
+ },
+ {
+  "id": "manu-dibango",
+  "verdict": "clean",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "1933-2020, Cameroonian, saxophone and vibraphone, fusion of jazz/funk/traditional Cameroonian music, Soul Makossa sampling fame, and the Michael Jackson 'Wanna Be Startin' Somethin'' borrowing all verify. 'One of the most sampled songs in history' is consistent with the evidence's 'most sampled African song' and 'most sampled African musician in history'. 'Influencing Afrobeat' is an uncited influence characterization (Fela Kuti appears in evidence only as a collaborator); treated as editorial, not a checkable claim."
+ },
+ {
+  "id": "marc-cary",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim from the Wikipedia lead; born January 29, 1967; pianist; the full collaborator list (Gillespie, Carter, Hargrove, Taylor, Lincoln, Garnett, Badu, Ndegeocello, Harris, Hill, DiFranco, McLean, Q-Tip, McRae) matches exactly. No issues."
+ },
+ {
+  "id": "marcus-miller",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "instruments", "ours": "trumpet", "evidence": "bass (primary); also clarinet, keyboards, saxophone, guitar", "evidenceQuote": "He became classically trained as a clarinetist and later learned to play keyboards, saxophone, and guitar in addition to bass.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Bio prose is verbatim from the Wikipedia lead and fully verifies (worked with Miles Davis, Hancock, Vandross, Shorter, Sanborn; main songwriter/producer on Tutu 1986, Music from Siesta 1987, Amandla 1989; born June 14, 1959). The instruments field is wrong: evidence documents him as a bassist ('Miller has played bass on more than 500 recordings'; signature Fender Jazz Bass section) and never attributes trumpet to him. 'Trumpet' was likely mis-extracted from 'trumpeter Miles Davis' in the bio's first sentence. Repair: instruments should be bass (electric bass) plus optionally bass clarinet/keyboards."
+ },
+ {
+  "id": "maria-schneider",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed; born November 27, 1960; 'composer, conductor' fits the evidenced 'composer and jazz orchestra leader'; Concert in the Garden as her first Grammy-winning album, produced via the fan-funded ArtistShare platform, verifies. Unverifiable: '18-piece orchestra' (no ensemble size in evidence), the phrasing 'first Grammy-winning album released exclusively via the internet' (evidence says first such award-winning album produced by ArtistShare; internet-only release is not stated), and 'Brazilian traditions' as an influence. No contradictions."
+ },
+ {
+  "id": "marilyn-crispell",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim from the Wikipedia lead (Scott Yanow and Jon Pareles quotes, longtime member of Anthony Braxton's quartet in the 1980s-90s, confirmed in body as 1983-1995). Born March 30, 1947; piano. No issues."
+ },
+ {
+  "id": "mario-bauza",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim from the Wikipedia lead, including the 'Tanga'/first-true-Afro-Cuban-jazz-tune claims. 1911-1993 (April 28, 1911 - July 11, 1993). All three instruments documented in the body: child-prodigy clarinetist, learned alto saxophone in 1930, took up trumpet for the Machin date and became Chick Webb's lead trumpeter. No issues."
+ },
+ {
+  "id": "mark-turner",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio matches the Wikipedia lead and body nearly verbatim: born November 10, 1965, in Fairborn, raised in Palos Verdes Estates, intended to become a commercial artist, clarinet in elementary school then alto and tenor saxophones in high school. Ours adds the state glosses 'Ohio' and 'California', which the extract does not state (CSU Long Beach attendance is consistent with a California upbringing); trivial disambiguation, not contradicted. No issues."
+ },
+ {
+  "id": "mark-whitfield",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim from the page: born October 6, 1966, Lindenhurst, New York; worked with Jack McDuff, Jimmy Smith, Courtney Pine, Nicholas Payton, Chris Botti; 2000 Star Licks instructional video. Guitar confirmed. No issues."
+ },
+ {
+  "id": "mary-halvorson",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed; born October 16, 1980; guitarist-composer; student of Anthony Braxton; 2019 MacArthur 'Genius' Grant - all verify. Unverifiable: Derek Bailey influence, pitch-shifting pedals (no gear/technique detail in extract), and the album 'Amaryllis & Belladonna', which does not appear in the extract's discography discussion. Caution for repair: the conjoined title is suspicious - background knowledge (not citable as evidence) says Amaryllis and Belladonna were released as two companion albums in 2022; worth checking before reuse. No contradictions in the evidence itself."
+ },
+ {
+  "id": "mary-lou-williams",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed; 1910-1981; piano; 'wrote and arranged for Duke Ellington and Benny Goodman' and 'friend, mentor, and teacher to Thelonious Monk' verify verbatim; 1954 conversion to Catholicism verifies. Unverifiable: 'composed jazz masses' - the extract truncates at the 1957 Newport return, before her sacred works are discussed (widely documented, e.g. Mary Lou's Mass, but not citable from this evidence). 'Evolved through every era of jazz' and 'longevity and adaptability were unmatched' treated as editorial. No contradictions."
+ },
+ {
+  "id": "masabumi-kikuchi",
+  "verdict": "unverifiable",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed; 1939-2015 (19 October 1939 - 6 July 2015); Japanese pianist; 'career spanning 50 years' roughly supported (professional from c. 1960 to 2015). Unverifiable: 'his work with Miles Davis sidemen' - evidence lists collaborators (Gary Peacock, Elvin Jones, Paul Motian; Kochi ensemble with Al Foster, Dave Liebman, Steve Grossman, Reggie Lucas, James Mtume) without identifying any as Davis sidemen (several are, per general knowledge, but that is not citable; the lead itself says he worked with Miles Davis directly). 'Japan's most influential jazz pianist' and 'established Japanese jazz on the world stage' treated as editorial superlatives. No contradictions."
+ },
+ {
+  "id": "matana-roberts",
+  "verdict": "factual_error",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "works she calls 'sound quilts'", "problem": "Our bio refers to Roberts as 'she'; the evidence page consistently uses they/them pronouns for Roberts throughout", "evidenceQuote": "They have previously been a member of the Association for the Advancement of Creative Musicians (AACM), and a member of the B.R.C. (Black Rock Coalition).", "source": "wiki"}
+  ],
+  "notes": "Entity confirmed; born 1975; alto saxophone (DownBeat Rising Star alto sax 2017) and composer verify; AACM membership verifies ('inheritor of the AACM tradition' is fair); multichapter Coin Coin project exploring history, memory and ancestry verifies. Flagged contradiction: pronoun usage ('she' vs the page's consistent they/them). Also unverifiable: 'vocalist' as an instrument (evidence says saxophonist and clarinetist; no vocals mentioned) and the quoted term 'sound quilts' (not in extract). Repair should fix pronouns and recheck the instruments list."
+ },
+ {
+  "id": "matthew-shipp",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim from the page: born December 7, 1960; raised in Wilmington, Delaware; mother a friend of Clifford Brown; began piano at five. Avant-garde jazz pianist confirmed. No issues."
+ },
+ {
+  "id": "max-roach",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed; 1924-2007; drums; bebop pioneer; played on Parker's most important records (Savoy November 1945 session); 1954 quintet with Clifford Brown as prime hard bop example; We Insist! Freedom Now Suite (1960); M'Boom percussion ensemble; taught at UMass Amherst - all verify. Unverifiable: 'collaborated with rappers' (extract truncates in the 1980s) and the framing that We Insist! protested 'segregation and apartheid' (evidence gives only its Emancipation-centennial origin; the protest framing is standard history but not citable here). No contradictions."
+ },
+ {
+  "id": "mccoy-tyner",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed; 1938-2020 (died March 6, 2020); piano; Coltrane quartet exactly 1960-65; harmonic foundation for A Love Supreme and My Favorite Things (both listed as quartet classics); solo career on Blue Note (1967-70) then Milestone (19 albums) - all verify; 'influenced virtually every jazz pianist' matches 'widely imitated... one of the most... influential jazz pianists of all time'. Unverifiable: voicings 'built on fourths' (standard musicology, but the extract never describes quartal voicings - only the album title Reaching Fourth) and lifelong commitment to acoustic piano (extract truncates mid-1970s). No contradictions."
+ },
+ {
+  "id": "michael-brecker",
+  "verdict": "factual_error",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "instruments", "ours": "composer", "evidence": "saxophonist (tenor saxophone primary) and composer", "evidenceQuote": "Michael Leonard Brecker (March 29, 1949 - January 13, 2007) was an American jazz saxophonist and composer.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Bio prose is verbatim from the Wikipedia lead and fully verifies: 900+ albums, 15 Grammys, DownBeat Hall of Fame 2007, Berklee honorary doctorate 2004, died in New York City in 2007 from leukemia complications after a 2005 MDS diagnosis; birthYear 1949 correct. The error is confined to the instruments field, which lists only the role 'composer' and omits his documented instrument - evidence: 'settling on the tenor saxophone as his primary instrument in his sophomore year of high school'. This is a mislabel/omission rather than an affirmative contradiction, but as shipped the field misrepresents him. Repair: instruments should be tenor saxophone (optionally plus composer if roles are allowed in this field)."
+ },
+ {
+  "id": "michel-camilo",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim from the page lead: Dominican pianist and composer specializing in jazz, Latin and classical piano work. Born April 4, 1954. No issues."
+ },
+ {
+  "id": "miles-davis",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed; 1926-1991; trumpet; nearly five-decade career at the forefront of bebop (Parker quintet 1944-48), cool jazz (Birth of the Cool sessions), early hard bop, modal jazz (Kind of Blue), and fusion (Bitches Brew); sidemen Coltrane, Hancock, Shorter, and Tony Williams all named in evidence; death 1991 verifies. Unverifiable: Keith Jarrett as a sideman, the Prince collaboration, and MTV appearances - none appear in the truncated extract ('his nonet' is also unnamed there; evidence credits the Birth of the Cool sessions without naming the ensemble). No contradictions."
+ },
+ {
+  "id": "milt-jackson",
+  "verdict": "factual_error",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "instruments", "ours": "musician", "evidence": "vibraphone (vibraphonist; on occasion also sang and played piano)", "evidenceQuote": "Milton Jackson (January 1, 1923 - October 9, 1999), nicknamed \"Bags\", was an American jazz vibraphonist.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Bio prose is verbatim from the Wikipedia lead and verifies (Modern Jazz Quartet, hard bop/post-bop collaborations); 1923-1999 correct. The error is confined to the instruments field: the generic placeholder 'musician' is not an instrument, and his documented instrument (vibraphone) is missing - likely an extraction failure. Repair: instruments should be vibraphone."
+ }
+]

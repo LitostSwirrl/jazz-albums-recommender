@@ -1,0 +1,122 @@
+[
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "ella-and-her-fellas",
+    "field": "albumDNA",
+    "repairClass": "entity_mismatch",
+    "before": "Like Someone in Love is a 1957 studio album by the American jazz singer Ella Fitzgerald, with a studio orchestra arranged and conducted by Frank DeVol. This album represents a fine example of Ella's singing from this period, recorded at the same time as her albums with Louis Armstrong.",
+    "after": "Ella and Her Fellas is a 1957 album by Ella Fitzgerald, issued on Decca Records (DL 8477). It collects sides Fitzgerald cut alongside various partners, including \"Stone Cold Dead in the Market (He Had It Coming)\" and \"The Frim Fram Sauce.\" Other tracks include \"It's Only a Paper Moon\" and \"Baby, It's Cold Outside.\"",
+    "sourceUrl": ["https://musicbrainz.org/release/0d275bc5-65eb-42d7-8364-bcd1ec121ac0"],
+    "evidenceUsed": "MusicBrainz release: title, year (releaseGroup firstReleaseDate 1957), label Decca DL 8477, track names.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "the-oscar-peterson-trio-at-newport",
+    "field": "albumDNA",
+    "repairClass": "entity_mismatch",
+    "before": "Oscar Peterson and Roy Eldridge is an album by Oscar Peterson, on which he is accompanied by Roy Eldridge. Trumpeter Roy Eldridge's hard bop sensibility is on display in this 1958 session, a document of the cool jazz era.",
+    "after": "The Oscar Peterson Trio at Newport is a 1958 live album on Verve, credited to The Oscar Peterson Trio with Roy Eldridge, Sonny Stitt, and Jo Jones. The set runs through pieces such as \"Joy Spring,\" \"52nd Street Theme,\" and \"Monitor Blues.\"",
+    "sourceUrl": ["https://musicbrainz.org/release/7cb25011-3d06-3491-bcfb-00f51e0ad2bc"],
+    "evidenceUsed": "MusicBrainz release: title, year (releaseGroup firstReleaseDate 1958), label Verve, credited artists, track names.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "louie-and-the-dukes-of-dixieland",
+    "field": "albumDNA",
+    "repairClass": "entity_mismatch",
+    "before": "I've Got the World on a String is a 1960 album by Louis Armstrong, arranged by Russell Garcia. It was recorded on the same day as Armstrong's 1958 album Louis Under the Stars; the previous day he had finished recording Ella and Louis Again with Ella Fitzgerald.",
+    "after": "Louie and the Dukes of Dixieland is a 1960 album pairing Louis Armstrong with The Dukes of Dixieland. The program leans on traditional New Orleans material, including \"Bourbon Street Parade,\" \"South,\" and \"Just a Closer Walk With Thee.\"",
+    "sourceUrl": ["https://musicbrainz.org/release/a4d633d9-4da7-4add-b724-fcee869fd434"],
+    "evidenceUsed": "MusicBrainz release: title, year (releaseGroup firstReleaseDate 1960), credited artists (Louis Armstrong, The Dukes of Dixieland), track names. Label left unstated (this item's evidence does not confirm Audio Fidelity).",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "the-piano-soul-of-nat-king-cole",
+    "field": "albumDNA",
+    "repairClass": "entity_mismatch",
+    "before": "Nathaniel Adams Coles, known professionally as Nat King Cole, was an American singer, jazz pianist, and actor. Cole's career as a jazz and pop vocalist started in the late 1930s and spanned almost three decades where he found success and recorded over 100 songs that became hits on the pop charts.",
+    "after": "The Piano Soul of Nat King Cole is a 1968 album on Pickwick/33 Records (SPC-3187). It gathers standards-based performances, including \"April in Paris,\" \"My Heart Stood Still,\" and \"I Want to Be Happy.\"",
+    "sourceUrl": ["https://musicbrainz.org/release/02fabc89-5eeb-40d8-8a9a-12e7ff4b218d"],
+    "evidenceUsed": "MusicBrainz release: title, year (releaseGroup firstReleaseDate 1968), label Pickwick/33 SPC-3187, track names.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "malphas-book-of-angels-volume-3",
+    "field": "albumDNA",
+    "repairClass": "entity_mismatch",
+    "before": "Orobas: Book of Angels Volume 4 is an album by Koby Israelite performing compositions from John Zorn's second Masada book, \"The Book of Angels\". Part of Tzadik's jazz fusion catalog. John Zorn's Tzadik label spans the avant-garde from jazz to experimental music.",
+    "after": "Malphas: Book of Angels, Volume 3 is a 2006 album on John Zorn's Tzadik label, performed by Mark Feldman and Sylvie Courvoisier. The pieces, drawn from Zorn's Book of Angels series, include \"Azriel,\" \"Kafziel,\" and \"Lahariel.\"",
+    "sourceUrl": ["https://musicbrainz.org/release/4a570475-8e6b-43a6-a023-cfd5eff0821d"],
+    "evidenceUsed": "MusicBrainz release: title, year (releaseGroup firstReleaseDate 2006-01-24), label Tzadik, performing artists (Mark Feldman, Sylvie Courvoisier), track names.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "artistsDetail",
+    "id": "bheki-mseleku",
+    "field": "bio",
+    "repairClass": "factual_error",
+    "before": "Bheki Mseleku was a South African pianist, saxophonist, and composer of extraordinary gifts who blended jazz with Zulu musical traditions and deep spirituality. His 1992 album 'Celebration' on Verve Records featured Joe Henderson and Pharoah Sanders and introduced his unique vision to an international audience. Despite struggles with health and addiction, Mseleku's music achieved a transcendent beauty that drew comparisons to John Coltrane's spiritual explorations.",
+    "after": "Bheki Mseleku was a South African pianist, saxophonist, and composer of extraordinary gifts who blended jazz with Zulu musical traditions and deep spirituality. His 1991 album 'Celebration' on World Circuit, featuring Courtney Pine among British players, earned a Mercury Music Prize nomination; he was then signed by Verve, whose first album for him featured Joe Henderson, Abbey Lincoln, and Elvin Jones. Despite struggles with health, Mseleku's music achieved a transcendent beauty that drew comparisons to John Coltrane's spiritual explorations.",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Bheki_Mseleku"],
+    "evidenceUsed": "Wikipedia (entityMatch yes): Celebration year/label (World Circuit, 1991), Courtney Pine + British players, Mercury Prize nomination, later Verve albums with Joe Henderson/Abbey Lincoln/Elvin Jones. Removed unsupported 'Pharoah Sanders' and 'addiction'.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "artistsDetail",
+    "id": "world-saxophone-quartet",
+    "field": "bio",
+    "repairClass": "factual_error",
+    "before": "The World Saxophone Quartet is a groundbreaking ensemble consisting of four saxophonists—originally Julius Hemphill, Oliver Lake, David Murray, and Hamiet Bluiett—performing without a rhythm section. Founded in 1976, the group proved that four saxophones could generate the full range of jazz expression, from funky grooves to free improvisation to lush harmonies. Their 'Revue' album is a landmark of collective improvisation and composition.",
+    "after": "The World Saxophone Quartet was a groundbreaking ensemble consisting of four saxophonists—originally Julius Hemphill, Oliver Lake, David Murray, and Hamiet Bluiett—performing without a rhythm section. Founded in 1977, the group proved that four saxophones could generate the full range of jazz expression, from funky grooves to free improvisation to lush harmonies. Their 'Revue' album is a landmark of collective improvisation and composition.",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/World_Saxophone_Quartet"],
+    "evidenceUsed": "Wikipedia (entityMatch yes): founding year 1977 ('founded in 1977'); lead uses past tense 'was' (ensemble split in 2016), so present-tense 'is' corrected to 'was'.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "artistsDetail",
+    "id": "tito-puente",
+    "field": "bio",
+    "repairClass": "factual_error",
+    "before": "Tito Puente was one of the defining figures of Swing, whose recordings remain essential listening for anyone exploring the tradition.",
+    "after": "Tito Puente was one of the defining figures of mambo and Latin jazz, whose recordings remain essential listening for anyone exploring the tradition.",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Tito_Puente"],
+    "evidenceUsed": "Wikipedia (entityMatch yes): 'He composed dance-oriented mambo and Latin jazz music'; short description 'American Latin jazz and mambo musician (1923-2000)'.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "tenor-titans",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Recorded for Storyville Records in 1997, Tenor Titans presents tenor saxophonist Ben Webster working in a swing vein. The date includes \"Stickey Wicket\" and \"Do Nothing Till You Here From Me\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond. Awarded Magister of Music at Fryderyk Chopin University of Music, Warsaw.",
+    "after": "Recorded for Storyville Records in 1997, Tenor Titans presents tenor saxophonist Ben Webster working in a swing vein. The date includes \"Stickey Wicket\" and \"Do Nothing Till You Here From Me\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond.",
+    "sourceUrl": ["https://musicbrainz.org/release/cf4672bc-0201-45e2-8fdd-2c3817af3b9b"],
+    "evidenceUsed": "MusicBrainz release confirms title/year/label/tracks. Removed the contaminant final sentence (the Magister of Music credential, lifted from the wrong-entity Tomasz Szukalski wiki page); preserved the rest verbatim.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "hi-de-ho-man-cab-calloway",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Recorded in 2008, Hi De Ho Man showcases Cab Calloway at the height of their creative powers, offering one of the finest expressions of Swing. Hi De Ho Man remains a landmark of Swing, cementing Cab Calloway's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Released in 1974, Hi De Ho Man showcases Cab Calloway at the height of their creative powers, offering one of the finest expressions of Swing. Hi De Ho Man remains a landmark of Swing, cementing Cab Calloway's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "sourceUrl": ["https://musicbrainz.org/release/37b96b34-eb82-4c1c-b90c-3a65a9437a46"],
+    "evidenceUsed": "MusicBrainz release and release-group both dated 1974 (a Columbia compilation); corrected the false 'Recorded in 2008' to 'Released in 1974' (no recording date in evidence). Rest preserved verbatim.",
+    "thinEvidence": false
+  }
+]

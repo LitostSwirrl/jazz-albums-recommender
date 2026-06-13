@@ -1,0 +1,313 @@
+[
+ {
+  "id": "life-of-the-party",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match (sim 1.0) confirms Lage Lund, 2022, and all five keyTracks appear in the MB tracklist. Label 'Unknown' is honest (MB has no label). Wikipedia opensearch returned the unrelated Planet Smashers ska album (1999) — different entity, discarded for fact-checking; no URL shipped so the wrong link is not exposed to users. albumDNA is editorial filler plus verifiable track/artist/year facts."
+ },
+ {
+  "id": "live-at-scholes-street-studio",
+  "verdict": "clean",
+  "confidence": 0.88,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["[untitled]", "[untitled]"],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "embedded_mbid is authoritative: title, date 2022-11-04, label gaucimusic, and Matt Shipp credit all match ours (Matthew Shipp = Matt Shipp; album is a Stephen Gauci quartet date with Shipp/Parker/Mela). albumDNA correctly names the two tracks 'Improvisation I' and 'Improvisation II', which are the full MB tracklist. keyTracks field, however, ships two literal '[untitled]' placeholders rather than the real names — flagged as mismatch for a repair writer (should be 'Improvisation I' / 'Improvisation II'). Prose is fully consistent so verdict stays clean."
+ },
+ {
+  "id": "live-in-paris-1971-lost-ortf-recordings",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "embedded_mbid confirms Ahmad Jamal, label Transversales Disques, release 2022-10-14. All three keyTracks (Bogota, Manhattan Reflections, Effendi) are the full MB tracklist. Archival live release: 1971 performance issued 2022, so the 2022 year is the release year and is consistent (not anachronistic). 'cool jazz' is editorial genre labeling, not flagged."
+ },
+ {
+  "id": "slow-down",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "embedded_mbid confirms title S'low Down, 2022-08-26, Vix Records, Victor Wooten (with Steve Bailey as Bass Extremes). All five keyTracks in MB tracklist. The appended bio sentence (Flecktones since 1988, SMV with Clarke and Miller) matches the stored Victor Wooten Wikipedia page (our entity) almost verbatim. 'free jazz' is an odd but editorial genre tag, not flagged. wikiLink correct."
+ },
+ {
+  "id": "the-chopin-project",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "embedded_mbid confirms Kurt Rosenwinkel (with Jean-Paul Brodbeck), Heartcore Records, 2022-04-22. All five keyTracks (Chopin etudes/preludes) match the MB tracklist verbatim. Stored Wikipedia page is Kurt Rosenwinkel (our entity). Remaining prose is editorial."
+ },
+ {
+  "id": "bing-ella",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "embedded_mbid confirms 'Bing & Ella' (Bing Crosby & Ella Fitzgerald), Primary Wave, 2023-04-25 — a 2023 compilation pairing the two. Ella is credited so entity matches. All five keyTracks in MB tracklist. The bio sentence is lifted from the stored Ella Fitzgerald Wikipedia page (our entity) and is consistent EXCEPT ours inserts 'absolute pitch' into the list of attributes; the wiki extract lists 'purity of tone, impeccable diction, phrasing, timing, intonation, and a horn-like improvisational ability' with no mention of absolute pitch. That insertion is unverifiable against the evidence (absence, not contradiction) — kept clean but noted for the repair writer."
+ },
+ {
+  "id": "christmas-stories",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "embedded_mbid confirms Christian Sands, Mack Avenue Records (MAC1206), 2023-10-06. All five keyTracks match the MB tracklist. The stored Wikipedia URL points to the generic 'Christmas in popular culture' article — NOT about this album or Christian Sands; wikiLink is wrong_entity (site ships a bad link) and the page is discarded for fact-checking. Prose fully supported by MB, so verdict clean."
+ },
+ {
+  "id": "ellington-in-order-volume-4-1932",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "embedded_mbid confirms Duke Ellington, label Legacy, release 2023-09-15. This is a 2023 chronological compilation of Ellington's 1932 recordings (alternate takes throughout). All five keyTracks match the MB tracklist. albumDNA says 'Recorded in 2023 for Legacy' which is imprecise — the music was recorded in 1932; 2023 is the compilation's release date. MB has no recording-date field to quote as a contradiction, so this is noted, not flagged as factual_error per the absence-is-not-contradiction rule."
+ },
+ {
+  "id": "lonnie-liston-smith-jid017",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "embedded_mbid confirms Lonnie Liston Smith (Jazz Is Dead, cat. 17, 2023-04-28, with Ali Shaheed Muhammad & Adrian Younge). All five keyTracks in MB tracklist. The trailing bio fragment ('...American jazz, soul, and funk musician who played with Pharoah Sanders and Miles Davis before forming the Cosmic Echoes...') matches the stored Lonnie Liston Smith Wikipedia page (our entity). albumDNA prose is grammatically broken ('...beyond. is an American...') but factually consistent — worth a copy-edit, not a factual flag."
+ },
+ {
+  "id": "our-daily-bread",
+  "verdict": "clean",
+  "confidence": 0.93,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "embedded_mbid confirms Joe Lovano / Trio Tapestry (with Crispell & Castaldi), ECM, 2023-05-05, eight tracks. albumDNA is taken verbatim from the stored 'Our Daily Bread (album)' Wikipedia page (our entity) — band's third release, eight originals by Lovano — all consistent. keyTrack 'Our Daily Bread' is in the MB tracklist. Label 'ECM' = MB 'ECM Records'. wikiLink correct."
+ },
+ {
+  "id": "our-daily-bread-crispell",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Same release (same MBID) as our-daily-bread, here credited to Marilyn Crispell, who is a credited MB artist — entity matches. Tracks 'All Twelve' and 'Grace Notes' (and keyTrack 'Our Daily Bread') are in the MB tracklist. Bio sentences ('one of a very few pianists who rise to the challenge of free jazz'; 'longtime member of Anthony Braxton's quartet in the 1980s and 90s') match the stored Marilyn Crispell Wikipedia page (our entity) verbatim. ECM/Manfred Eicher line is editorial. wikiLink correct."
+ },
+ {
+  "id": "pdron-rubalcaba",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "a collaborative album by Cuban pianist Gonzalo Rubalcaba and guitarist Jorge Pedrón", "problem": "The collaborator's name and instrument are wrong. The album is a duo with Pierrick Pedron (an alto saxophonist), not a guitarist named 'Jorge Pedron'. The name 'Jorge Pedron' is fabricated.", "evidenceQuote": "Pierrick Pédron", "source": "mb"},
+   {"ourClaim": "Pedrón's guitar work in an intimate chamber setting", "problem": "Attributes guitar to the collaborator; the credited partner is Pierrick Pedron, listed in our entity's own discography simply as the Pedron Rubalcaba co-leader.", "evidenceQuote": "Pédron Rubalcaba with Pierrick Pédron (mars 2023)", "source": "wiki"}
+  ],
+  "notes": "Right album (embedded_mbid: title 'Pédron Rubalcaba', GAZEBO GAZ 217, 2023-06-09; Gonzalo Rubalcaba is a credited artist and 'Cuban pianist' matches the stored Rubalcaba Wikipedia page). All five keyTracks match the MB tracklist. The error is the collaborator: MB credits 'Pierrick Pédron' and the Rubalcaba discography lists 'Pédron Rubalcaba with Pierrick Pédron', but ours invents 'guitarist Jorge Pedrón'. Wrong first name and wrong instrument. Evidence does not state Pierrick Pedron's instrument explicitly, so the 'guitarist' descriptor is technically unverifiable from the pack, but the NAME contradiction alone is a clear factual_error. wikiLink (Gonzalo Rubalcaba page) is about our entity = correct."
+ },
+ {
+  "id": "refract",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "embedded_mbid confirms Jason Moran (with Marcus Gilmore & BlankFor.ms), Red Hook Records, 2023-09-01. All five keyTracks (Onset I/II, Tape Loop A, etc.) match the MB tracklist. 'pianist Jason Moran' agrees with the stored Jason Moran (musician) Wikipedia page (our entity). wikiLink correct."
+ },
+ {
+  "id": "trio-tapestry",
+  "verdict": "clean",
+  "confidence": 0.78,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "embedded_mbid confirms 'Trio Tapestry' by Joe Lovano, ECM. All five keyTracks match the MB tracklist exactly, and the personnel named (Crispell piano, Castaldi percussion) align with the same trio seen in the our-daily-bread release. albumDNA narrates the original album history: 'recorded in March 2018 and released on ECM January the following year' (i.e. Jan 2019), 'his debut as bandleader for the label'. The MB release here is dated 2023 (releaseGroup firstReleaseDate 2023, and our year field is 2023), which does not match a Jan-2019 release — likely this MBID is a later pressing/reissue. There is no quotable evidence passage contradicting the 2018/2019 recording-and-release narrative, so per absence-is-not-contradiction this is left clean with a flag: the 2018/2019 dates are unverifiable against this pack and sit oddly next to the 2023 release date. 'man percussionist' is a garble for 'and percussionist'."
+ },
+ {
+  "id": "unifony-iii",
+  "verdict": "clean",
+  "confidence": 0.88,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "embedded_mbid confirms 'Unifony III', Volkoren (VOLKOREN94), 2023-11-03; Nils Petter Molvaer is a credited artist (project with Eggersman/Borger/Brennan). All five keyTracks match the MB tracklist. 'trumpeter' is not confirmed by the pack evidence (no instrument field) but is not contradicted; not flagged."
+ },
+ {
+  "id": "blackanomics",
+  "verdict": "clean",
+  "confidence": 0.88,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match (sim 1.0): title Blackanomics, Sessionheads United, 2024-09-20, sole credit Marc Cary. All five keyTracks match the MB tracklist. 'pianist' is not in the pack evidence but is not contradicted. No Wikipedia page returned."
+ },
+ {
+  "id": "embracing-dawn",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "embedded_mbid confirms Christian Sands, Mack Avenue Records, 2024-09-27. All five keyTracks match the MB tracklist. The appended bio sentence (Be Water, 2020, Grammy nomination for 'Be Water II') matches the stored Christian Sands Wikipedia page (our entity) verbatim. wikiLink correct."
+ },
+ {
+  "id": "fearless-movement",
+  "verdict": "factual_error",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Shoto Mas Inc.", "evidence": "Young", "evidenceQuote": "It was released on May 3, 2024, through Young.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Right album: embedded_mbid and the stored 'Fearless Movement (album)' Wikipedia page both confirm Kamasi Washington, 2024-05-03, and the albumDNA is lifted verbatim from that wiki page (correct entity, fifth studio album, West Coast Get Down personnel, etc.). All five keyTracks match the MB tracklist. The structured label field is wrong: ours says 'Shoto Mas Inc.' while MB authoritative label is 'Young' and the wiki says 'released... through Young'. (The albumDNA text itself correctly says 'through Young'; only the label field disagrees.) Flagged factual_error on the label field."
+ },
+ {
+  "id": "moondial",
+  "verdict": "factual_error",
+  "confidence": 0.62,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "BMG", "evidence": "Modern Recordings", "evidenceQuote": "Modern Recordings", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "Right album: embedded_mbid and the stored 'MoonDial' Wikipedia page both confirm Pat Metheny, 2024-07-26, baritone-guitar solo album; albumDNA is verbatim from that wiki page (correct entity). All five keyTracks match the MB tracklist. Label-field discrepancy: ours 'BMG' vs MB authoritative 'Modern Recordings'. Modern Recordings is in practice a BMG imprint, so 'BMG' is the parent rather than a wrong entity (comparable to the spec's CBS/Columbia example), but recorded as a fieldIssue/factual_error since the authoritative string differs. Low confidence because this is a parent/imprint relationship, not a true contradiction; a repair writer may prefer to keep 'Modern Recordings'."
+ },
+ {
+  "id": "pink-elephants-on-parade",
+  "verdict": "entity_mismatch",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "\"Pink Elephants on Parade\" is a song and scene from the 1941 Disney animated feature film Dumbo in which Dumbo and Timothy Q. Mouse, having accidentally become intoxicated, see pink elephants sing, dance, and play musical instruments during a hallucination sequence.", "problem": "The entire albumDNA describes the Disney 'Dumbo' film song/scene, a different kind of thing, not the Sun Ra Arkestra album. Classic disambiguation-collision: the prose was scraped from the Wikipedia article about the Disney song.", "evidenceQuote": "Pink Elephants on Parade — Sun Ra, Arkestra — tracks: The Forest of No Return; Someday My Prince Will Come; Zip-A-Dee-Doo-Dah; Let's Go Fly a Kite; Second Star to the Right; Pink Elephants on Parade...", "source": "mb"}
+  ],
+  "notes": "The album fields are correct for the Sun Ra Arkestra release (embedded_mbid: 'Pink Elephants on Parade', Sun Ra/Arkestra, 2024-07-05 — a live-recordings collection of Disney covers), and all six keyTracks (with venue suffixes like '(9:30 Club)', '(Regatta Bar 1990)') match the MB tracklist ignoring suffixes, so keyTracksVerdict is ok. But the albumDNA prose is entirely about the 1941 Dumbo film song/scene — wrong entity content (a film sequence, not the album). Verdict entity_mismatch reflects the hijacked prose; entityMatch.musicbrainz is 'yes' only because the MB release genuinely is our album. Repair writer must rewrite albumDNA to describe the Sun Ra Arkestra album."
+ },
+ {
+  "id": "remembrance",
+  "verdict": "factual_error",
+  "confidence": 0.68,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Thirty Tigers", "evidence": "Béla Fleck Productions Inc.", "evidenceQuote": "Béla Fleck Productions Inc.", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "Right album: embedded_mbid confirms 'Remembrance' by Chick Corea & Béla Fleck, 2024-05-10. All five keyTracks match the MB tracklist. The albumDNA is a generic Chick Corea biography lifted verbatim from the stored 'Chick Corea discography' Wikipedia page (about our artist — born 1941 Chelsea, Tones for Joan's Bones 1966, played with Miles Davis/Stan Getz, composed Spain/La Fiesta/Windows); every bio fact checks out against that extract, and it is a legitimate (if album-irrelevant) artist bio, NOT wrong-entity content. The bio text is also truncated mid-word ('La Fiesta', and 'Wi.'). Only issue: label field ours 'Thirty Tigers' vs MB authoritative 'Béla Fleck Productions Inc.' (Thirty Tigers is plausibly the distributor, not the label). Recorded as a label fieldIssue/factual_error; confidence moderate given the distributor/label ambiguity. wikiLink is the Chick Corea discography page = about our entity = correct."
+ },
+ {
+  "id": "add-a-zero",
+  "verdict": "clean",
+  "confidence": 0.88,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "embedded_mbid confirms 'Add a Zero', 2025-05-16; Takuya Kuroda is a credited artist (quintet with Chris McCarthy et al.). All five keyTracks match the MB tracklist. Label 'Unknown' is honest (MB has no label). No Wikipedia page returned."
+ },
+ {
+  "id": "big-money",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "embedded_mbid confirms 'BIG MONEY' by Jon Batiste, 2025-08-22, Interscope Records (also Verve). keyTrack 'BIG MONEY' (and the named 'LEAN ON MY LOVE') are in the MB tracklist. The opensearch Wikipedia page 'Big Money (album)' is about our entity (ninth studio album by Jon Batiste, Aug 22 2025, Interscope/Verve) and corroborates, but no URL was stored so wikiLink is none_stored. Calling it 'jazz' is editorial (wiki frames Batiste as a singer; the album won Best Americana Album) — genre labeling is opinion, not flagged."
+ },
+ {
+  "id": "bone-bells",
+  "verdict": "clean",
+  "confidence": 0.88,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "embedded_mbid confirms 'Bone Bells', Pyroclastic Records, 2025-03-14; Mary Halvorson is a credited artist (co-led duo with Sylvie Courvoisier). All five keyTracks match the MB tracklist. Crediting only Halvorson while omitting co-leader Courvoisier is acceptable editorial framing, not a mismatch. No Wikipedia page returned."
+ },
+ {
+  "id": "haihara",
+  "verdict": "clean",
+  "confidence": 0.87,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match (sim 1.0): 'Haihara', 2025-11-07, Arve Henriksen (with Robert Jurjendal). All five keyTracks match the MB tracklist. Label 'Unknown' is honest. Wikipedia opensearch returned the unrelated 'Ha Ha Ha (album)' by Natalie Gauci (2012) — different entity, discarded; no URL stored so no bad link is exposed."
+ }
+]

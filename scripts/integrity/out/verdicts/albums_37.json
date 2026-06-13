@@ -1,0 +1,322 @@
+[
+ {
+  "id": "stan-getz-and-the-oscar-peterson-trio-stan-getz",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 2020, Stan Getz and the Oscar Peterson Trio showcases Stan Getz at the height of their creative powers", "problem": "2020 is the Verve Reissues reissue date, not the recording year; the original release-group dates to 1957", "evidenceQuote": "releaseGroup.firstReleaseDate: \"1957\"", "source": "mb"}
+  ],
+  "notes": "MB embedded_mbid release is a 2020-01-17 Verve Reissues reissue (country XW); release-group firstReleaseDate 1957. Artist credit (Stan Getz, Oscar Peterson) and all 6 keyTracks match the MB tracklist (which also has 'Bronx Blues'). Only the 'Recorded in 2020' claim is wrong — it cites the reissue year. label='Various' not checked (no single-label evidence; MB shows Verve Reissues)."
+ },
+ {
+  "id": "smokin-at-the-half-note-wes-montgomery",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid release credits Wynton Kelly Trio + Wes Montgomery (release-group firstReleaseDate 1965, secondaryType Live). All 3 keyTracks (No Blues, If You Could See Me Now, Unit 7) match the MB tracklist. year is null in ours so no recording-year claim to check; DNA is editorial only. No contradictions."
+ },
+ {
+  "id": "doin-allright-dexter-gordon",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match sim 1.0, Dexter Gordon, Blue Note BLP 4077, 1961. keyTracks match: 'For Regulars Only (alternate take)' matches base track 'For Regulars Only' (alternate-take suffix ignored per spec); the other 5 match verbatim. year null, no recording-year claim. No contradictions."
+ },
+ {
+  "id": "open-sesame-freddie-hubbard",
+  "verdict": "factual_error",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 2002, Open Sesame showcases Freddie Hubbard at the height of their creative powers", "problem": "Recorded June 19, 1960, not 2002; 2002 is a Blue Note reissue year", "evidenceQuote": "Open Sesame is the debut album by then 22 years old jazz trumpeter Freddie Hubbard, recorded on June 19, 1960, by Rudy Van Gelder", "source": "wiki"}
+  ],
+  "notes": "Wiki page 'Open Sesame (Freddie Hubbard album)' is our entity (yes). MB embedded release is a 2002 reissue (country XE); release-group firstReleaseDate 1960. All 6 keyTracks match. Only 'Recorded in 2002' is wrong (reissue year vs 1960 recording). ours.wikipediaUrl is null so wikiLinkVerdict=none_stored even though a correct page exists."
+ },
+ {
+  "id": "the-freedom-book-booker-ervin",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Stella by Starlight"],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 1997, The Freedom Book showcases Booker Ervin at the height of their creative powers", "problem": "MB dates the release and release-group to 1963, not 1997", "evidenceQuote": "release.date: \"1963\"; releaseGroup.firstReleaseDate: \"1963\"", "source": "mb"}
+  ],
+  "notes": "MB search sim 1.0, Booker Ervin, Prestige PR 7295, 1963. 'Recorded in 1997' contradicted by MB 1963 date. keyTracks: 5 of 6 match the MB tracklist (A Lunar Tune, Cry Me Not, Grant's Stand, A Day to Mourn, Al's In); 'Stella by Starlight' is NOT in the MB tracklist. keyTracks mismatch does not raise the verdict above factual_error per spec."
+ },
+ {
+  "id": "a-garland-of-red-red-garland",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 2006, A Garland of Red showcases Red Garland at the height of their creative powers", "problem": "2006 is a Japanese reissue date; release-group dates to 1956", "evidenceQuote": "releaseGroup.firstReleaseDate: \"1956\"", "source": "mb"}
+  ],
+  "notes": "MB embedded release is a 2006-06-21 JP reissue (Prestige VICJ-41538); release-group firstReleaseDate 1956. Artist 'Red Garland Trio' matches. All 6 keyTracks match the MB tracklist (which also has Constallation, Blue Red). Only the recording-year claim is wrong."
+ },
+ {
+  "id": "overseas-tommy-flanagan",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search sim 1.0 (Tommy Flanagan Trio, Prestige, 1958) and wiki 'Overseas (album)' both our entity. year null so no recording-year claim. keyTracks all match (ours 'Beats Up' = MB 'Beat's Up'; 'Skal Brothers' = MB 'Skal Brothers' / wiki 'Skål Brothers' — punctuation/diacritic-insensitive). No contradictions."
+ },
+ {
+  "id": "we-free-kings-rahsaan-roland-kirk",
+  "verdict": "no_evidence",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search returned no release and no candidates. Wiki opensearch resolved to 'We Three Kings (disambiguation)' — a different title (Christmas carol and unrelated albums), NOT 'We Free Kings'; discarded as wrong entity. No evidence document survived entity-matching. keyTracks null. (Background: this is a real 1961 Rahsaan Roland Kirk Mercury album, but pack evidence cannot confirm it — unverifiable, not corrected.)"
+ },
+ {
+  "id": "the-sermon-jimmy-smith",
+  "verdict": "factual_error",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 1987, The Sermon! showcases Jimmy Smith at the height of their creative powers", "problem": "Recorded 1957-1958 and released 1959, not 1987", "evidenceQuote": "The Sermon! is the eleventh studio album by jazz organist Jimmy Smith, recorded on August 25, 1957 and February 25, 1958 and released on Blue Note in 1959", "source": "wiki"}
+  ],
+  "notes": "MB search sim 1.0 and wiki both our entity (Jimmy Smith, Blue Note, 1959). All 3 keyTracks match. Only 'Recorded in 1987' is wrong — the album predates that by ~30 years."
+ },
+ {
+  "id": "movin-wes-wes-montgomery",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search sim 1.0 confirms entity (Wes Montgomery, Verve V/V6 8610, 1964). Wiki opensearch resolved to 'Movie (disambiguation)' — wrong entity (films), discarded. year null, no recording-year claim. All 6 keyTracks match (ours curly-apostrophe 'Movin' Wes, Part I' = MB 'Movin' Wes (Part I)'). No contradictions."
+ },
+ {
+  "id": "inception-mccoy-tyner",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search sim 1.0 (McCoy Tyner, Impulse! AS 18, 1962) and wiki 'Inception (McCoy Tyner album)' both our entity. 'Recorded in 1962' is consistent: wiki 'released on the Impulse! label in 1962', 'Recorded on January 10 ... 1962'. All 6 keyTracks match. clean."
+ },
+ {
+  "id": "the-blues-and-the-abstract-truth-oliver-nelson",
+  "verdict": "clean",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search sim 1.0, Oliver Nelson; all 6 keyTracks match (ours 'Hoe-Down' = MB 'Hoedown'). year is null so no recording-year claim. The matched MB release/release-group is dated 2015 (Hallmark reissue) — an odd entry for what is the 1961 Impulse! original, but with year null there is nothing to flag, and the tracklist confirms the entity. clean."
+ },
+ {
+  "id": "spellbound-clifford-jordan",
+  "verdict": "factual_error",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 2007, Spellbound showcases Clifford Jordan at the height of their creative powers", "problem": "Recorded in 1960, not 2007; 2007 is a Japanese reissue date", "evidenceQuote": "Spellbound is an album by jazz saxophonist Clifford Jordan which was recorded in 1960 and released on the Riverside label.", "source": "wiki"}
+  ],
+  "notes": "MB embedded release is a 2007-01-24 JP reissue (Riverside VICJ-41820); release-group firstReleaseDate 1960-11. Wiki 'Spellbound (Clifford Jordan album)' is our entity. All 6 keyTracks match. Only 'Recorded in 2007' is wrong."
+ },
+ {
+  "id": "wayne-shorter-juju-wayne-shorter",
+  "verdict": "no_evidence",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search returned no release and no candidates; wiki opensearch returned no page or candidates. No evidence document available. keyTracks null. Title is oddly formatted ('Wayne Shorter: Juju') but nothing in the pack can verify the entity. (Background: JuJu is a real 1964 Blue Note album, but unverifiable from pack evidence.)"
+ },
+ {
+  "id": "cornbread-lee-morgan",
+  "verdict": "factual_error",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 2013, Cornbread showcases Lee Morgan at the height of their creative powers", "problem": "Recorded September 1965 (released 1967), not 2013", "evidenceQuote": "Recorded in September 1965 but released on the Blue Note label in early 1967", "source": "wiki"}
+  ],
+  "notes": "MB search sim 1.0 (Lee Morgan, Blue Note BLP 4222, 1965) and wiki 'Cornbread (album)' both our entity. All 5 keyTracks match. Only 'Recorded in 2013' is wrong."
+ },
+ {
+  "id": "standards-vol-1-keith-jarrett",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "unsure", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB had no confident release (topArtistSimilarity 0.47, release=null); only a searchCandidate 'Standards, Vol. 1' by Keith Jarrett, Gary Peacock, Jack DeJohnette, firstReleaseDate 1983 (weak per spec). That candidate is consistent with ours (same title, artist, year 1983) and gives no contradiction, but carries no tracklist, so the 5 keyTracks cannot be checked. No wiki. Right entity is likely but the substantive claims are unverifiable."
+ },
+ {
+  "id": "the-jazz-composers-orchestra-jazz-composers-orchestra",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded release (JCOA Records JD 3001, 1968) and wiki 'The Jazz Composer's Orchestra (album)' both our entity. 'Recorded in 1968' consistent with wiki '1968 album ... recorded over a period of six months'. All 4 keyTracks (Communications #8/#9/#10, Preview) match the MB tracklist. clean."
+ },
+ {
+  "id": "a-swingin-affair-dexter-gordon",
+  "verdict": "factual_error",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 1987, A Swingin' Affair showcases Dexter Gordon at the height of their creative powers", "problem": "Recorded in 1962 (released 1964), not 1987", "evidenceQuote": "A Swingin' Affair is an album recorded in 1962 by saxophonist Dexter Gordon, recorded two days after Go! with the same line-up, but not released for two years.", "source": "wiki"}
+  ],
+  "notes": "MB search sim 1.0 (Dexter Gordon, Blue Note BLP 4133, 1962) and wiki both our entity. All 6 keyTracks match. Only 'Recorded in 1987' is wrong."
+ },
+ {
+  "id": "dance-mania-tito-puente",
+  "verdict": "factual_error",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 2009, Dance Mania showcases Tito Puente at the height of their creative powers", "problem": "2009 is a reissue date; the album is a 1958 studio album", "evidenceQuote": "Dance Mania is a studio album by American musician Tito Puente. The album was added to the National Recording Registry in 2002.", "source": "wiki"}
+  ],
+  "notes": "MB embedded release is a 2009-04-21 DE reissue (Discos 605 / Legacy / RCA); release-group firstReleaseDate 1958; wiki short description '1958 studio album by Tito Puente'. All 6 keyTracks match. Only 'Recorded in 2009' is wrong. Genre label 'Swing' in DNA is editorial (Latin/mambo would be more apt) — not flagged per spec."
+ },
+ {
+  "id": "lullaby-of-birdland-george-shearing",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded release (George Shearing, MGM Records, 1953) is our entity; 'Recorded in 1953' consistent with MB date 1953 and release-group 1953. All 6 keyTracks match the MB tracklist. Wiki opensearch resolved to 'Lullaby of Birdland (album)' = a 1994 Lee Konitz/Barry Harris live album — DIFFERENT entity (same title), discarded for fact-check. No contradictions against the matched MB evidence."
+ },
+ {
+  "id": "the-poll-winners-ride-again-barney-kessel",
+  "verdict": "no_evidence",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search returned no release and no candidates; wiki opensearch returned no page or candidates. No evidence document available. keyTracks null. Nothing in the pack can verify the entity."
+ },
+ {
+  "id": "all-night-session-vol-1-hampton-hawes",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search sim 1.0 but the matched release is a 2013 compilation 'Three Classic Albums Plus: All Night Session Vol. 1 & 2 & 3' (Avid Jazz), release-group firstReleaseDate 2013. All 6 keyTracks (Jordu, Groovin' High, Takin' Care, Broadway, Hampton's Pulpit, I'll Remember April) appear on this comp's tracklist, so the entity matches. 'Recorded in 2013' is the compilation/reissue date and almost certainly wrong for the original session, but the pack carries NO evidence of the original recording year (no wiki, MB only has the 2013 comp), so the year claim is unverifiable rather than a provable factual_error. Flag for a repair-writer."
+ },
+ {
+  "id": "the-dual-role-of-bob-brookmeyer-bob-brookmeyer",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 1989, The Dual Role of Bob Brookmeyer showcases Bob Brookmeyer at the height of their creative powers", "problem": "1989 is an Original Jazz Classics reissue date; release-group dates to 1955", "evidenceQuote": "releaseGroup.firstReleaseDate: \"1955\"", "source": "mb"}
+  ],
+  "notes": "MB embedded release is dated 1989 (OJC reissue OJCCD-1729-2; original Prestige P-7066), but release-group firstReleaseDate is 1955. 'Recorded in 1989' is contradicted by the 1955 release-group date. All 6 keyTracks match the MB tracklist. Bob Brookmeyer is our entity."
+ },
+ {
+  "id": "last-train-from-overbrook-james-moody",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded release (James Moody, Argo LP 637-S, 1958), release-group firstReleaseDate 1958. 'Recorded in 1958' is consistent. All 6 keyTracks match the MB tracklist. No wiki. clean."
+ },
+ {
+  "id": "out-of-the-afternoon-roy-haynes",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "unsure", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB had no confident release (topArtistSimilarity 0.71, release=null); searchCandidate 'Out of the Afternoon' by Roy Haynes Quartet, firstReleaseDate 1962 (score 100), is consistent with ours and gives no contradiction, but carries no tracklist, so the 6 keyTracks cannot be checked. year null, no recording-year claim. No wiki. Right entity is likely but substantive claims are unverifiable."
+ }
+]

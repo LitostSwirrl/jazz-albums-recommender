@@ -1,0 +1,226 @@
+[
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "genius-of-modern-music-vol-1-thelonious-monk",
+    "field": "year",
+    "before": 2013,
+    "after": 1956,
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Genius_of_Modern_Music:_Volume_1"],
+    "evidence": "Wikipedia: 1956 compilation album by Thelonious Monk on Blue Note (BLP 1510)."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "genius-of-modern-music-vol-1-thelonious-monk",
+    "field": "label",
+    "before": "Various",
+    "after": "Blue Note",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Genius_of_Modern_Music:_Volume_1"],
+    "evidence": "Wikipedia infobox: label Blue Note Records, produced by Alfred Lion."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "genius-of-modern-music-vol-1-thelonious-monk",
+    "field": "wikipedia",
+    "before": null,
+    "after": "https://en.wikipedia.org/wiki/Genius_of_Modern_Music:_Volume_1",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Genius_of_Modern_Music:_Volume_1"],
+    "evidence": "Correct English Wikipedia article for this Thelonious Monk album."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "genius-of-modern-music-vol-1-thelonious-monk",
+    "field": "albumDNA",
+    "before": "Recorded in 2013, Genius of Modern Music Vol. 1 showcases Thelonious Monk at the height of their creative powers, offering one of the finest expressions of Bebop. Genius of Modern Music Vol. 1 remains a landmark of Bebop, cementing Thelonious Monk's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Genius of Modern Music, Volume 1 is a Blue Note compilation, released in 1956, of Thelonious Monk's first recordings as a leader, cut over sessions from 1947 to 1952 and produced by Alfred Lion. It gathers early statements of Monk originals including \"'Round Midnight,\" \"Ruby My Dear,\" \"Epistrophy,\" and \"Well You Needn't.\"",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Genius_of_Modern_Music:_Volume_1"],
+    "evidence": "Wikipedia: Monk's first leader sessions (1947-1952), assembled on Blue Note in 1956; track list includes the named Monk compositions. Replaces DNA that falsely claimed a 2013 recording date."
+  },
+
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "the-amazing-bud-powell-vol-2-bud-powell",
+    "field": "year",
+    "before": null,
+    "after": 1954,
+    "sourceUrl": ["https://en.wikipedia.org/wiki/The_Amazing_Bud_Powell,_Vol._2"],
+    "evidence": "Wikipedia infobox: released 1954 (recorded Aug 14, 1953), Blue Note BLP 5041, ten-inch LP."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "the-amazing-bud-powell-vol-2-bud-powell",
+    "field": "label",
+    "before": "Various",
+    "after": "Blue Note",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/The_Amazing_Bud_Powell,_Vol._2"],
+    "evidence": "Wikipedia infobox: Blue Note Records (BLP 5041)."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "the-amazing-bud-powell-vol-2-bud-powell",
+    "field": "keyTracks",
+    "before": null,
+    "after": ["Autumn in New York", "Reets and I", "Glass Enclosure", "Collard Greens and Black-Eyed Peas", "Polka Dots and Moonbeams"],
+    "sourceUrl": ["https://en.wikipedia.org/wiki/The_Amazing_Bud_Powell,_Vol._2"],
+    "evidence": "Tracks from the Wikipedia track listing for the original 10-inch BLP 5041; 'Glass Enclosure' is the album's noted Powell composition."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "the-amazing-bud-powell-vol-2-bud-powell",
+    "field": "wikipedia",
+    "before": null,
+    "after": "https://en.wikipedia.org/wiki/The_Amazing_Bud_Powell,_Vol._2",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/The_Amazing_Bud_Powell,_Vol._2"],
+    "evidence": "Correct English Wikipedia article for this Bud Powell album."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "the-amazing-bud-powell-vol-2-bud-powell",
+    "field": "albumDNA",
+    "before": "The Amazing Bud Powell Vol. 2 stands among Bud Powell's most celebrated works, capturing the essential spirit of Bebop. The Amazing Bud Powell Vol. 2 remains a landmark of Bebop, cementing Bud Powell's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "The Amazing Bud Powell, Vol. 2 is a bebop piano session that pianist Bud Powell recorded for Blue Note at WOR Studios in New York on August 14, 1953, with George Duvivier on bass and Art Taylor on drums, issued on a ten-inch LP in 1954. It includes Powell's own \"Glass Enclosure\" alongside standards such as \"Autumn in New York\" and \"I Want to Be Happy.\"",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/The_Amazing_Bud_Powell,_Vol._2"],
+    "evidence": "Wikipedia: recording date, personnel, label and 1954 release; 'Glass Enclosure' and the named standards are on the track listing. Replaces generic boilerplate."
+  },
+
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "we-insist-freedom-now-suite-max-roach",
+    "field": "year",
+    "before": 2011,
+    "after": 1961,
+    "sourceUrl": ["https://en.wikipedia.org/wiki/We_Insist!"],
+    "evidence": "Wikipedia: released January 1961 on Candid (recorded Aug 31 & Sep 6, 1960)."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "we-insist-freedom-now-suite-max-roach",
+    "field": "label",
+    "before": "Various",
+    "after": "Candid",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/We_Insist!"],
+    "evidence": "Wikipedia: Candid Records, produced by Nat Hentoff."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "we-insist-freedom-now-suite-max-roach",
+    "field": "wikipedia",
+    "before": null,
+    "after": "https://en.wikipedia.org/wiki/We_Insist!",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/We_Insist!"],
+    "evidence": "Correct English Wikipedia article for Max Roach's We Insist! Freedom Now Suite."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "we-insist-freedom-now-suite-max-roach",
+    "field": "albumDNA",
+    "before": "Recorded in 2011, We Insist! Freedom Now Suite showcases Max Roach at the height of their creative powers, offering one of the finest expressions of Bebop. We Insist! Freedom Now Suite remains a landmark of Bebop, cementing Max Roach's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "We Insist! Max Roach's Freedom Now Suite is a 1961 Candid album of a suite by drummer Max Roach and lyricist Oscar Brown Jr., recorded in 1960 with Abbey Lincoln on vocals and produced by Nat Hentoff. Tied to the civil rights movement and the centennial of emancipation, it was added to the U.S. National Recording Registry in 2022.",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/We_Insist!"],
+    "evidence": "Wikipedia: Roach/Brown suite, 1960 recording, 1961 Candid release, Abbey Lincoln, civil-rights theme, 2022 National Recording Registry. Replaces DNA that falsely claimed a 2011 recording date."
+  },
+
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "the-jimmy-giuffre-three-jimmy-giuffre",
+    "field": "year",
+    "before": null,
+    "after": 1957,
+    "sourceUrl": ["https://en.wikipedia.org/wiki/The_Jimmy_Giuffre_3"],
+    "evidence": "Wikipedia infobox: 'Released 1957'."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "the-jimmy-giuffre-three-jimmy-giuffre",
+    "field": "label",
+    "before": "Various",
+    "after": "Atlantic",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/The_Jimmy_Giuffre_3"],
+    "evidence": "Wikipedia infobox: 'Label: Atlantic'."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "the-jimmy-giuffre-three-jimmy-giuffre",
+    "field": "keyTracks",
+    "before": null,
+    "after": ["The Train and the River", "Gotta Dance", "Two Kinds of Blues", "The Song Is You", "Crawdad Suite"],
+    "sourceUrl": ["https://en.wikipedia.org/wiki/The_Jimmy_Giuffre_3"],
+    "evidence": "Tracks from the Wikipedia track listing; 'The Train and the River' is the album's signature piece (the LP is also known by that title)."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "the-jimmy-giuffre-three-jimmy-giuffre",
+    "field": "wikipedia",
+    "before": null,
+    "after": "https://en.wikipedia.org/wiki/The_Jimmy_Giuffre_3",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/The_Jimmy_Giuffre_3"],
+    "evidence": "Correct English Wikipedia article for this Jimmy Giuffre album."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "the-jimmy-giuffre-three-jimmy-giuffre",
+    "field": "albumDNA",
+    "before": "The Jimmy Giuffre Three stands among Jimmy Giuffre's most celebrated works, capturing the essential spirit of Cool Jazz. The Jimmy Giuffre Three remains a landmark of Cool Jazz, cementing Jimmy Giuffre's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "The Jimmy Giuffre 3 is a 1957 Atlantic album by reedman Jimmy Giuffre's drummerless trio with Jim Hall on guitar and Ralph Pena on bass. Most pieces are Giuffre originals, and the set is best known for the folk-tinged \"The Train and the River,\" by which the album is sometimes titled.",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/The_Jimmy_Giuffre_3"],
+    "evidence": "Wikipedia: 1957 Atlantic trio (Giuffre, Hall, Pena), Giuffre compositions, 'The Train and the River' as the signature track. Replaces generic boilerplate."
+  },
+
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "sidney-bechet-at-storyville-sidney-bechet",
+    "field": "year",
+    "before": null,
+    "after": 1954,
+    "sourceUrl": ["https://www.discogs.com/release/8489825-Sidney-Bechet-Sidney-Bechet-At-Storyville", "https://eil.com/shop/moreinfo.asp?catalogid=448173"],
+    "evidence": "Recorded Oct 25, 1953 in Boston; original LP on George Wein's Storyville Records, 1954 (companion 'At Storyville Vol. 2' documented as Storyville STLP-306, US 1954)."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "sidney-bechet-at-storyville-sidney-bechet",
+    "field": "label",
+    "before": "Various",
+    "after": "Storyville",
+    "sourceUrl": ["https://www.discogs.com/release/8489825-Sidney-Bechet-Sidney-Bechet-At-Storyville", "https://www.allmusic.com/album/sidney-bechet-at-storyville-storyville-mw0000870971"],
+    "evidence": "AllMusic/Discogs list the album on George Wein's Storyville Records."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "sidney-bechet-at-storyville-sidney-bechet",
+    "field": "keyTracks",
+    "before": null,
+    "after": ["Bugle Call Blues", "Indiana", "Basin Street Blues", "Crazy Rhythm", "Honeysuckle Rose"],
+    "sourceUrl": ["https://www.discogs.com/release/8489825-Sidney-Bechet-Sidney-Bechet-At-Storyville", "https://eil.com/shop/moreinfo.asp?catalogid=448173"],
+    "evidence": "Tracks from the Discogs and eil.com track listings (identical across both); 'Bugle Call Blues' is the opener."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "sidney-bechet-at-storyville-sidney-bechet",
+    "field": "albumDNA",
+    "before": "Sidney Bechet at Storyville stands among Sidney Bechet's most celebrated works, capturing the essential spirit of Early Jazz. Sidney Bechet at Storyville remains a landmark of Early Jazz, cementing Sidney Bechet's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Sidney Bechet at Storyville is a live set recorded at George Wein's Storyville club in Boston on October 25, 1953, with trombonist Vic Dickenson and Wein on piano, and released on Storyville Records. Built from standards such as \"Basin Street Blues\" and \"Honeysuckle Rose,\" it is among Bechet's last American recordings before he settled in France.",
+    "sourceUrl": ["https://www.allmusic.com/album/sidney-bechet-at-storyville-storyville-mw0000870971", "https://eil.com/shop/moreinfo.asp?catalogid=448173"],
+    "evidence": "AllMusic/Discogs: live Boston date Oct 25, 1953 with Vic Dickenson and George Wein on Storyville; final American recordings; standards-based program. Replaces generic boilerplate."
+  }
+]

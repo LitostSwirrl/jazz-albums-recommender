@@ -1,0 +1,339 @@
+[
+ {
+  "id": "roy-hargrove",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim the Wikipedia lead. birthYear 1969, deathYear 2018, trumpet and flugelhorn (named as his principal instruments), two Grammys in 1998 and 2002, hard bop plus hip-hop/neo soul/R&B/alt-rock crossover all confirmed. The third instruments entry 'vocals' is not confirmed by the (truncated) extract -- no contradiction, just unconfirmed."
+ },
+ {
+  "id": "russell-malone",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim the Wikipedia lead. 1963-2024, guitar, Jimmy Smith starting 1988, Harry Connick Jr. and Diana Krall in the 1990s all confirmed by the extract."
+ },
+ {
+  "id": "ryo-fukui",
+  "verdict": "clean",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "1948-2016, piano, self-taught, Sapporo base, ownership of the Slowboat club, 1976 debut Scenery, and the posthumous late-2010s YouTube-era resurgence are all confirmed. Two loose characterizations for a repair-writer to soften: 'spent most of his career playing at his own club' (Slowboat opened only in 1995; debut was 1976 in Tokyo -- 'most' is doubtful but no single passage contradicts it) and 'far from the international spotlight' (evidence says he 'taught and performed internationally' and played in France and America). 'Introducing millions' is editorial."
+ },
+ {
+  "id": "ryo-kawasaki",
+  "verdict": "factual_error",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "deathYear", "ours": null, "evidence": 2020,
+    "evidenceQuote": "Ryo Kawasaki (川崎 燎, Kawasaki Ryō; February 25, 1947 – April 13, 2020) was a Japanese jazz fusion guitarist, composer and band leader",
+    "source": "wiki"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Ryo Kawasaki is a Japanese guitarist and electronic music pioneer",
+    "problem": "Present tense / deathYear null treats him as living; the evidence says he died April 13, 2020",
+    "evidenceQuote": "Japanese jazz guitarist (1947–2020)",
+    "source": "wiki"}
+  ],
+  "notes": "Right entity. birthYear 1947, guitar, guitar-synthesizer pioneering (Roland and Korg collaboration, Kawasaki Synthesizer for the Commodore 64) and fusion-pioneer framing all confirmed. The only error is the missing death (2020); 'cult classics' and 'anticipated later electronic jazz' are editorial."
+ },
+ {
+  "id": "sadao-watanabe",
+  "verdict": "unverifiable",
+  "confidence": 0.55,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "The stored URL resolves to a DISAMBIGUATION page, not the musician's article -- users clicking the shipped link get a disambig listing a stencil artist (1913-1996) and the jazz musician. Link should target 'Sadao Watanabe (musician)'. The disambig line 'Sadao Watanabe (musician), Japanese jazz saxophonist' is consistent with our entity, but nothing else is checkable: birthYear 1933, alto/soprano sax + flute, 'Japan's most commercially successful jazz artist', and the Brazilian/African explorations are all unverified. No contradiction anywhere (our 1933 does NOT match the stencil artist's 1913, so no sign of entity collision)."
+ },
+ {
+  "id": "sam-rivers",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "The stored URL resolves to a DISAMBIGUATION page (also lists the Limp Bizkit bassist, 1977-2025) -- link should target 'Sam Rivers (jazz musician)'. The disambig entry 'Sam Rivers (jazz musician) (1923–2011), American jazz saxophonist and composer' confirms our birth/death years, saxophone, and composer. The bio's substantive specifics -- Studio Rivbea as 1970s loft-scene headquarters, soprano sax/flute/piano, blues-and-swing grounding -- cannot be checked against this page. No contradictions."
+ },
+ {
+  "id": "sarah-vaughan",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "1924-1990, singer and pianist, nicknames 'Sassy' and 'The Divine One' all confirmed (evidence adds 'Queen of Bebop'). 'Perfect pitch' and 'operatic range' are unconfirmed editorial color -- not contradicted. The rest ('most magnificent voice', 'set the standard') is editorial opinion."
+ },
+ {
+  "id": "scott-henderson",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Born 1954, American jazz fusion and blues guitarist, Tribal Tech formed with bassist Gary Willis (1984) all confirmed. 'Emerging from the Los Angeles studio scene in the 1980s' is loose -- evidence has him moving to LA in 1980 and emerging in the 1980s with Tribal Tech, but 'studio scene' itself is not evidenced (he toured/recorded with Corea, Ponty, Zawinul and taught at GIT). Style-blend praise is editorial."
+ },
+ {
+  "id": "shirley-horn",
+  "verdict": "clean",
+  "confidence": 0.93,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "1934-2005, singer-pianist, Miles Davis as early champion (praised Embers and Ashes, invited her for Village Vanguard intermission sets), late-career Verve success bringing a large international audience all confirmed. 'Her silences were as eloquent as her notes' is editorial."
+ },
+ {
+  "id": "shirley-scott",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Right entity: 1934-2002, 'Queen of the Organ' nickname, organ + piano, soul jazz partnership and marriage with Stanley Turrentine all confirmed. One substantive claim is uncheckable: 'partnership with Stanley Turrentine produced classic Blue Note sessions' -- Blue Note appears nowhere in the extract; their joint titles (Common Touch, Girl Talk) are listed without label, and her own Turrentine-era leader dates shown are on Prestige (Hip Soul, Hip Twist). Not contradicted (she may appear on his Blue Note dates), but the label claim needs outside verification."
+ },
+ {
+  "id": "sid-catlett",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim the Wikipedia lead. 1910-1951, drums, versatility and adaptation to bebop all confirmed."
+ },
+ {
+  "id": "sidney-bechet",
+  "verdict": "clean",
+  "confidence": 0.96,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is near-verbatim the Wikipedia lead (ours says 'erratic temperament', evidence 'erratic temper' -- same meaning). 1897-1959, clarinet, soprano sax (evidence: first influential soprano saxophonist), recorded before Armstrong, later life in France all confirmed."
+ },
+ {
+  "id": "soil-and-pimp-sessions",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Formed in Tokyo in 2001 (birthYear 2001 = formation, consistent), coined 'death jazz', 'agitator' frontman (Shacho) who works the crowd, and the trumpet/sax/piano/double-bass/drums lineup all confirmed. Club-culture origin confirmed (born out of Tokyo's club scene). 'Brought jazz to young Japanese audiences' is editorial. Band still active per evidence, so deathYear null is fine."
+ },
+ {
+  "id": "sonny-rollins",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "deathYear", "ours": null, "evidence": 2026,
+    "evidenceQuote": "Walter Theodore \"Sonny\" Rollins (September 7, 1930 – May 25, 2026) was an American jazz tenor saxophonist",
+    "source": "wiki"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "jazz's greatest living legend",
+    "problem": "Rollins is deceased per the evidence (died May 25, 2026)",
+    "evidenceQuote": "American jazz saxophonist and composer (1930–2026)",
+    "source": "wiki"},
+   {"ourClaim": "Now in his 90s, Rollins remains revered as a musician who never stopped challenging himself",
+    "problem": "Present tense; he died May 25, 2026 per the evidence",
+    "evidenceQuote": "Walter Theodore \"Sonny\" Rollins (September 7, 1930 – May 25, 2026) was an American jazz tenor saxophonist",
+    "source": "wiki"}
+  ],
+  "notes": "Right entity; the death is very recent (2026-05-25, weeks before this audit), so the dataset is stale rather than corrupted. Everything else checks: born 1930, tenor sax, Saxophone Colossus 1956, 'St. Thomas' calypso as best-known composition, Coleman Hawkins lineage (his idol per evidence), 60+ albums as leader. The Williamsburg Bridge sabbatical is not covered by the truncated extract (unverified here, not contradicted); 'Coltrane's equal' is editorial. Judge note: my training memory predates this death; per spec I follow the pack evidence."
+ },
+ {
+  "id": "sonny-sharrock",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "1940-1994, guitar, wife and duet collaborator Linda Sharrock ('recorded and performed' with her), free-jazz-guitar pioneering with feedback/distortion (evidence: 'one of only a few prominent guitarists who participated in the first wave of free jazz', 'use of feedback, and distorted saxophone-like lines') all confirmed. 'Invented free jazz guitar' and 'influenced punk, metal, and experimental music' are editorial-strength claims the evidence neither confirms nor contradicts."
+ },
+ {
+  "id": "sons-of-kemet",
+  "verdict": "factual_error",
+  "confidence": 0.88,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "The group disbanded in 2023 at the height of their influence.",
+    "problem": "Evidence dates the disbanding to 2022 (announced 1 June 2022; short description gives 2011-2022)",
+    "evidenceQuote": "They disbanded in 2022.",
+    "source": "wiki"}
+  ],
+  "notes": "Right entity. Formed 2011 (short description 'British jazz band (2011–2022)'), Shabaka Hutchings on saxophone and clarinet, tuba (Marshall then Cross), two drummers, Caribbean folk and African music mix all confirmed. 'Politically charged albums addressed... immigration to colonialism' is not directly evidenced (themes not glossed in extract) -- minor. deathYear is null although the band is defunct per evidence; flag for the data owner if the group schema means dissolution year."
+ },
+ {
+  "id": "stan-getz",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "1927-1991, tenor sax, 'The Sound' nickname for the warm lyrical tone, Four Brothers section of Woody Herman's band, cool jazz, bossa nova with Joao Gilberto and Jobim, 'The Girl from Ipanema' worldwide hit, and addiction struggles (heroin) all confirmed. 'Getz/Gilberto (1964)': evidence says recorded 1963 and the single hit in 1964; release year not stated -- no contradiction. 'One of the best-selling jazz albums ever' is a superlative the truncated extract cannot confirm (it does show the two predecessor bossa albums each selling 1M+)."
+ },
+ {
+  "id": "stefon-harris",
+  "verdict": "clean",
+  "confidence": 0.93,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim from the Wikipedia article: born March 23, 1973, Albany NY, NY Philharmonic ambition until hearing Charlie Parker, 1990s sessions with Charlie Hunter and Steve Turre, Blue Note debut A Cloud of Red Dust (1998) all confirmed. 'Marimba' in instruments is not mentioned by the evidence (vibraphonist) -- no contradiction, just unconfirmed."
+ },
+ {
+  "id": "sun-ra",
+  "verdict": "factual_error",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "led his Arkestra for over 40 years",
+    "problem": "Evidence has him leading the Arkestra from the mid-1950s until his death in 1993 (he retired in 1992) -- at most about 38-39 years, under 40 on any reading of 'mid-1950s'",
+    "evidenceQuote": "From the mid-1950s until his death, Ra led the musical collective The Arkestra",
+    "source": "wiki"}
+  ],
+  "notes": "Right entity; this is a small-magnitude numeric inflation, not an entity problem -- suggested repair: 'nearly four decades'. Everything else confirmed: 1914-1993, claimed to be an alien from Saturn, pioneer of Afrofuturism, range from swing to electronic to free jazz, Egyptian-inspired costumes, piano and synthesizer. 'Organ' in instruments is not explicitly named by the evidence (lead says piano and synthesizer; 'electronic keyboards') -- unconfirmed, not contradicted. Confidence reflects the fuzzy 'mid-1950s' anchor."
+ },
+ {
+  "id": "takuya-kuroda",
+  "verdict": "clean",
+  "confidence": 0.88,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Born 1980, trumpet, based in Brooklyn/New York, Rising Son on Blue Note (2014, produced by close friend Jose James) all confirmed. 'Represents the modern face of Blue Note Records' is editorial (his catalog spans CD Baby, P-Vine, Blue Note, Concord, First Word, PPK per evidence); the hard bop/hip-hop/Afrobeat/electronic blend and 'bridge between Japanese and American jazz scenes' are editorial color not covered by the extract."
+ },
+ {
+  "id": "terence-blanchard",
+  "verdict": "factual_error",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Taking over Art Blakey's trumpet chair alongside fellow New Orleans native Wynton Marsalis",
+    "problem": "Per the evidence Blanchard REPLACED Marsalis in the Jazz Messengers (Marsalis recommended him as his own replacement); they were not in the band together -- 'alongside' misstates the membership relationship (his Messengers partner was Donald Harrison)",
+    "evidenceQuote": "In 1982, Wynton Marsalis recommended Blanchard as his replacement in Art Blakey's Jazz Messengers and Blakey would appoint Blanchard the band's musical director.",
+    "source": "wiki"}
+  ],
+  "notes": "Right entity; likely sloppy phrasing for 'succeeding Wynton Marsalis' -- repair is a rewording. Everything else checks: born 1962, New Orleans, Spike Lee collaboration (per-Lee count 'over 20 film scores' not verifiable -- evidence gives 80+ total film/TV scores and 'most of Spike Lee's films'), A Tale of God's Will as Katrina requiem, Fire Shut Up in My Bones as first opera by a Black composer at the Metropolitan Opera opening the 2021-22 season, ongoing mentorship roles. 'composer' appears in the instruments array -- true fact, wrong field semantics; flag for data owner."
+ },
+ {
+  "id": "terri-lyne-carrington",
+  "verdict": "clean",
+  "confidence": 0.93,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Born 1965, drummer-composer-producer, worked with jazz greats (Gillespie, Getz, Hancock, Shorter and others), women-in-jazz projects (Berklee Institute of Jazz and Gender Justice; New Standards uplifting women composers) all confirmed. 'Endorsed by Berklee at 11' matches the evidence's 'At the age of 11, she received a full scholarship to Berklee College of Music' -- loose wording, same fact. 'Child prodigy' supported (first major performance at 10 with Clark Terry after starting drums at 7)."
+ },
+ {
+  "id": "terumasa-hino",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Born 1942, trumpet and flugelhorn (evidence also adds cornet), still living per evidence (deathYear null consistent). Miles Davis and Freddie Hubbard influence supported (he transcribed their solos as a teenager). 'Japan's most internationally recognized jazz trumpeter' is superlative color; evidence says 'considered one of Japan's finest jazz musicians'. 'Bridges hard bop, fusion, and spiritual jazz' is editorial (evidence describes moves toward funk, free jazz, avant-garde)."
+ },
+ {
+  "id": "blue-notes",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Right entity, prose fully consistent: mixed-race South African sextet under apartheid (McGregor the sole white member, police harassment), 1964 departure/exile, members Chris McGregor, Dudu Pukwana, Mongezi Feza, seminal influence on the London/British jazz scene, and the listed instruments (sax, trumpet, piano, bass, drums) all confirmed. The one uncheckable substantive field: birthYear 1960 as formation year -- the evidence gives no formation date (they 'came to prominence at the 1963 National Jazz Festival', initially based in Cape Town). Not contradicted; needs an outside source."
+ },
+ {
+  "id": "jazz-messengers",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "'Founded in 1953 by drummer Art Blakey and pianist Horace Silver' matches one origin account the evidence itself cites ('Some cite the group that included Blakey, Silver, Kenny Dorham, Lou Donaldson and Gene Ramey in 1953 as the original Jazz Messengers'); evidence notes most historians date the name to 1954/55 -- contested historiography, not a contradiction. 'Under Blakey's leadership for over 35 years' confirmed ('existed for over thirty-five years... Blakey led or co-led the group from the outset'). All five named alumni (Shorter, Morgan, Hubbard, Wynton Marsalis, Keith Jarrett) appear in the evidence's alumni list; 'most important training ground' is supported by 'proving ground'/'rite of passage'. Group ended at Blakey's death in 1990 while deathYear is null -- flag for the data owner if the group schema expects a dissolution year."
+ }
+]

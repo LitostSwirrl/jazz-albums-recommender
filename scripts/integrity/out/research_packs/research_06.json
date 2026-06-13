@@ -1,0 +1,107 @@
+[
+  {
+    "id": "andrew-hill",
+    "kind": "artist",
+    "researchGoal": "wrong_wiki_link: the stored wikipedia link is a DISAMBIGUATION page. Find the correct disambiguated Wikipedia URL for THIS jazz musician (e.g. '..._(musician)'/'..._(bassist)'). Bio/dates already fine -- only set the wikipedia field. Confirm dates match to be sure it is the right person.",
+    "ours": {
+      "name": "Andrew Hill",
+      "birthYear": 1931,
+      "deathYear": 2007,
+      "instruments": [
+        "piano",
+        "composer"
+      ],
+      "bio": "Andrew Hill was a pianist and composer whose angular, unconventional music bridged post-bop and the avant-garde in ways that still sound fresh today. His Blue Note albums from the 1960s—especially 'Point of Departure'—are among the label's most adventurous and uncompromising recordings. Hill's compositions featured unexpected rhythmic displacements, unusual forms, and harmonic ambiguity that challenged his sidemen and listeners alike. After years of academic work and relative obscurity, he returned to active performance in the 2000s with new recordings that confirmed his continuing creativity. His influence on contemporary pianists who seek to push boundaries while maintaining a connection to jazz tradition remains profound.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Andrew_Hill"
+    }
+  },
+  {
+    "id": "dave-holland",
+    "kind": "artist",
+    "researchGoal": "wrong_wiki_link: the stored wikipedia link is a DISAMBIGUATION page. Find the correct disambiguated Wikipedia URL for THIS jazz musician (e.g. '..._(musician)'/'..._(bassist)'). Bio/dates already fine -- only set the wikipedia field. Confirm dates match to be sure it is the right person.",
+    "ours": {
+      "name": "Dave Holland",
+      "birthYear": 1946,
+      "deathYear": null,
+      "instruments": [
+        "bass"
+      ],
+      "bio": "Dave Holland is a bassist and composer whose work from Miles Davis's electric bands to his own ensembles has made him one of jazz's most influential figures. Joining Davis at 22, he played on landmark recordings including 'Bitches Brew' before forming Circle with Chick Corea and developing his own voice. His ECM albums established new standards for jazz bass playing and small group composition, while his big band pushed contemporary jazz orchestration forward. Holland's warm acoustic sound and impeccable time make him a first-call sideman, while his compositions demonstrate formal sophistication and rhythmic adventure. A tireless educator and collaborator, he continues to mentor younger musicians and lead innovative groups.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Dave_Holland"
+    }
+  },
+  {
+    "id": "sadao-watanabe",
+    "kind": "artist",
+    "researchGoal": "wrong_wiki_link: the stored wikipedia link is a DISAMBIGUATION page. Find the correct disambiguated Wikipedia URL for THIS jazz musician (e.g. '..._(musician)'/'..._(bassist)'). Bio/dates already fine -- only set the wikipedia field. Confirm dates match to be sure it is the right person.",
+    "ours": {
+      "name": "Sadao Watanabe",
+      "birthYear": 1933,
+      "deathYear": null,
+      "instruments": [
+        "alto saxophone",
+        "soprano saxophone",
+        "flute"
+      ],
+      "bio": "Sadao Watanabe is Japan's most commercially successful jazz artist, known for his smooth alto saxophone and crossover appeal. His explorations of Brazilian and African music expanded jazz's global reach.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Sadao_Watanabe"
+    }
+  },
+  {
+    "id": "sam-rivers",
+    "kind": "artist",
+    "researchGoal": "wrong_wiki_link: the stored wikipedia link is a DISAMBIGUATION page. Find the correct disambiguated Wikipedia URL for THIS jazz musician (e.g. '..._(musician)'/'..._(bassist)'). Bio/dates already fine -- only set the wikipedia field. Confirm dates match to be sure it is the right person.",
+    "ours": {
+      "name": "Sam Rivers",
+      "birthYear": 1923,
+      "deathYear": 2011,
+      "instruments": [
+        "tenor saxophone",
+        "soprano saxophone",
+        "flute",
+        "piano"
+      ],
+      "bio": "Sam Rivers was a multi-instrumentalist and composer whose loft Studio Rivbea became the headquarters of 1970s avant-garde jazz. His playing moved fluidly between structure and freedom, always grounded in blues and swing.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Sam_Rivers"
+    }
+  },
+  {
+    "id": "tommy-flanagan",
+    "kind": "artist",
+    "researchGoal": "disambig_stub: cached page was a disambiguation page (name collides with an actor/judge/athlete). Find the correct jazz-musician Wikipedia page; set wikipedia URL and fill birthYear/deathYear/instruments from its lead.",
+    "ours": {
+      "name": "Tommy Flanagan",
+      "birthYear": 0,
+      "deathYear": null,
+      "instruments": [],
+      "bio": "Tommy Flanagan was one of the defining figures of Bebop, whose recordings remain essential listening for anyone exploring the tradition.",
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "james-moody",
+    "kind": "artist",
+    "researchGoal": "disambig_stub: cached page was a disambiguation page (name collides with an actor/judge/athlete). Find the correct jazz-musician Wikipedia page; set wikipedia URL and fill birthYear/deathYear/instruments from its lead.",
+    "ours": {
+      "name": "James Moody",
+      "birthYear": 0,
+      "deathYear": null,
+      "instruments": [],
+      "bio": "James Moody was one of the defining figures of Bebop, whose recordings remain essential listening for anyone exploring the tradition.",
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "clarence-williams",
+    "kind": "artist",
+    "researchGoal": "disambig_stub: cached page was a disambiguation page (name collides with an actor/judge/athlete). Find the correct jazz-musician Wikipedia page; set wikipedia URL and fill birthYear/deathYear/instruments from its lead.",
+    "ours": {
+      "name": "Clarence Williams",
+      "birthYear": 0,
+      "deathYear": null,
+      "instruments": [],
+      "bio": "Clarence Williams was one of the defining figures of Early Jazz, whose recordings remain essential listening.",
+      "wikipedia": null
+    }
+  }
+]

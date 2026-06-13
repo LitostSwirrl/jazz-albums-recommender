@@ -1,0 +1,339 @@
+[
+ {
+  "id": "oscar-peterson-plays-george-gershwin",
+  "verdict": "entity_mismatch",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "unsure", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Fascinatin' Rhythm", "Somebody Loves Me"],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Night Train is an album by the Oscar Peterson Trio, released in 1963 by Verve Records.",
+    "problem": "The entire albumDNA describes a different album (Night Train, 1963, Verve) instead of Oscar Peterson Plays George Gershwin.",
+    "evidenceQuote": "shortDescription: \"1963 studio album by the Oscar Peterson Trio\"",
+    "source": "wiki"}
+  ],
+  "notes": "Stored wiki link also points to Night Train (Oscar Peterson album), so the site ships a wrong link for this item. The MB search hit is a 1954 Swedish Karusell EP (KEP 201) of the same title with only 4 tracks; entity match is unsure (ours claims a 1953 Clef LP), so the keyTracks mismatch is a weak signal: the two unmatched tracks may exist on the full Clef LP, which is absent from evidence. Year (1953 vs MB EP release group 1954) and label (Clef vs Karusell) are not flagged because the MB doc is a foreign EP issue, not proof about the original release. Repair needs a full prose rewrite about the Gershwin songbook album plus a corrected wiki link."
+ },
+ {
+  "id": "the-eminent-jay-jay-johnson-vol-1",
+  "verdict": "clean",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Unknown", "evidence": "Blue Note",
+    "evidenceQuote": "The three sessions were subsequently recompiled across The Eminent Jay Jay Johnson, Volume 1 (BLP 1505) and The Eminent Jay Jay Johnson, Volume 2 (BLP 1506).",
+    "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "albumDNA is the wiki lead verbatim and entity-correct; the label fieldIssue is a fillable gap (ours asserts 'Unknown'), not a contradiction, and does not change the verdict class. Year field 1953 vs prose/evidence 'released on Blue Note in 1956': 1953 matches the documented June 22, 1953 first session; the site appears to date archival/compiled albums by material year (see also a-night-at-birdland, at-carnegie-hall), so not flagged as a contradiction, but field (1953) and prose ('released ... in 1956') visibly disagree on the page. No MB evidence (search returned nothing)."
+ },
+ {
+  "id": "the-great-artistry-of-django-reinhardt",
+  "verdict": "entity_mismatch",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "albumDNA is a verbatim Django Reinhardt artist biography ('Jean Reinhardt ... was a Belgian-born Romani jazz guitarist and composer'), i.e. content about a person while the item is an album (the spec's entity_mismatch tell). The bio facts themselves match the person page, so no wrongClaims; the problem is wrong kind of content. Album fields are solid: embedded MBID resolves to release group 'The Great Artistry of Django Reinhardt' (firstReleaseDate 1953-11, matching year 1953) and all 5 keyTracks are on the MB tracklist. Label 'Clef Records' is unverifiable (the MB doc is a 2016 Jazz Images reissue) but not contradicted. Stored wiki link goes to the artist page, not an album page. Repair: write album-specific prose; fix or drop the wiki link."
+ },
+ {
+  "id": "a-night-at-birdland",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose matches the wiki page verbatim plus legitimate editorial. Year 1954 corresponds to the original 10-inch LPs ('originally spread out over three 10\" LPs as A Night at Birdland Vols. 1-3 (1954)' per wiki); the 12-inch Vols 1 & 2 came in 1956 and the prose states both, so no contradiction. The MB doc is a 2005 Dreyfus compilation of the same February 21, 1954 Birdland material; all 4 keyTracks appear on its tracklist. Label Blue Note confirmed by wiki."
+ },
+ {
+  "id": "chet-baker-sings",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "All claims verified verbatim against the wiki page (debut vocal album, 1954, Pacific Jazz, Grammy Hall of Fame 2001, My Funny Valentine as signature song) and MB (Pacific Jazz PJLP-11, 1954). All 4 keyTracks on the MB original-LP tracklist. Editorial tail ('Proved that jazz vocals could be introverted...') is opinion, not flagged."
+ },
+ {
+  "id": "lester-young-with-the-oscar-peterson-trio-1",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "All 4 keyTracks exactly equal the embedded MB release tracklist; year 1954 and label Blue Star match the embedded release (French Blue Star GLP 6988), which is authoritative for this anchor. Wiki notes the US June 1954 originals were Norgran (MGN 5) -- not a contradiction (different-territory issue of the same album), but a curator may prefer Norgran as the canonical label. albumDNA describes the 1997 Verve collation that subsumes #1; its facts (J. C. Heard, three source albums, June 1954) check against the wiki page."
+ },
+ {
+  "id": "lester-young-with-the-oscar-peterson-trio-2",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Year, label and all 4 keyTracks verified by embedded MBID (Norgran MG N-6, 1954) and consistent with wiki (MGN 6, June 1954). Same collation-style albumDNA as the #1 item; all facts check against the wiki page."
+ },
+ {
+  "id": "louis-armstrong-plays-wc-handy",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "albumDNA is verbatim from the wiki page (1954 All Stars release, AllMusic quotes, 1986 altered CD, 1997 restoration with Avakian-Handy interview and rehearsal tracks); all 5 keyTracks on the MB tracklist; year 1954 matches the release group. Label note: the embedded MB doc is a 1966 Dutch CBS pressing (CBS is Columbia's international imprint and carries the Columbia catalog number CL 591), and wiki references Columbia for the CD reissues, so 'Columbia' is consistent, not flagged."
+ },
+ {
+  "id": "tatum-carter-bellson",
+  "verdict": "entity_mismatch",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "albumDNA is Art Tatum career/discography boilerplate ('Pianist Art Tatum recorded commercially from 1932 until near his death...'), not content about this album -- same misplaced-kind pattern as a person bio on an album item. Fields are verified by embedded MBID: 1954, Clef MG C-643, all 5 keyTracks on the tracklist. Stored wiki link is the Art Tatum discography list page, not an album page (it does list 'Tatum - Carter - Bellson (Clef, 1955)'; note wiki's 1955 vs MB's authoritative 1954 -- ours says 1954, kept). Artist field 'Art Tatum' vs MB credit 'Tatum, Carter, Bellson' is site primary-artist convention, not flagged. Repair: album-specific prose; a dedicated album wiki page may not exist."
+ },
+ {
+  "id": "the-president",
+  "verdict": "entity_mismatch",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "A Norgran Records session that documents clarinetist Lester Young working through the bebop vocabulary of the bebop period.",
+    "problem": "Misleading instrument framing: the evidence identifies Young primarily as a tenor saxophonist with clarinet only occasional; the pack has no evidence he plays clarinet on this album.",
+    "evidenceQuote": "was an American jazz tenor saxophonist and occasional clarinetist",
+    "source": "wiki"}
+  ],
+  "notes": "First albumDNA sentence is the Lester Young person bio verbatim (person content on an album item -- the entity_mismatch tell); second sentence is generic generated filler ('bebop vocabulary of the bebop period' is tautological, and the bio characterizes Young's idiom as relaxed/cool swing, though there is no direct contradiction to cite for that). Fields are verified by embedded MBID: Norgran MGN 1005, 1954, and all 5 keyTracks on the tracklist. Stored wiki link is the artist page, not an album page. Repair: album-specific prose; the leader's instrument should be tenor saxophone unless a source shows otherwise."
+ },
+ {
+  "id": "horace-silver-and-the-jazz-messengers",
+  "verdict": "factual_error",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "released on Blue Note in October 1956",
+    "problem": "The embedded MB release (Blue Note BLP 1518) and its release group date the album 1955, contradicting an October 1956 release; the site's own year field (1955) agrees with MB and contradicts the prose, so one of the two must be wrong either way.",
+    "evidenceQuote": "date: \"1955\"; releaseGroup.firstReleaseDate: \"1955\"",
+    "source": "mb"}
+  ],
+  "notes": "Caution for repair: embedded MBID is authoritative per spec, but the 'October 1956' wording reads like Wikipedia prose about the 12-inch issue, while MB's 1955 may reflect the 10-inch era; verify externally before rewriting either the prose or the year. Unverified claims (no wiki evidence in pack): the two 1955 10-inch LPs (Horace Silver Quintet Vol. 3 / Vol. 4), session dates November 13, 1954 and February 6, 1955, 'Silver's debut 12\"', and the personnel (Mobley, Dorham, Watkins, Blakey). Label Blue Note and year field 1955 match MB; all 5 keyTracks on the MB tracklist."
+ },
+ {
+  "id": "in-the-land-of-hi-fi",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is verbatim from the wiki page (recorded October 25-27, 1955, NYC; Adderley alternate takes on the Mercury compilation). EmArcy MG 36058, 1955, and all 5 keyTracks verified by embedded MBID; wiki personnel confirms Cannonball Adderley on the sessions."
+ },
+ {
+  "id": "sarah-vaughan-clifford-brown",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No MB evidence (search empty); all checks are against the stored wiki page, which is entity-correct ('Sarah Vaughan, reissued in 1991 as Sarah Vaughan with Clifford Brown'). Verified verbatim: 1955, EmArcy, only Vaughan-Brown collaboration, Vaughan's own favorite through 1980, Grammy Hall of Fame 1999. keyTracksVerdict 'ok' is based on the wiki track listing (all 4 present), since no MB tracklist exists. Editorial tail not flagged."
+ },
+ {
+  "id": "study-in-brown",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is verbatim from the wiki page (Lands End by Harold Land, Sandu by Brown, George's Dilemma aka Ulcer Department, acclaimed Cherokee solo) plus an editorial tail ('before his tragic death', Morgan/Hubbard influence) that is uncontradicted context/opinion. EmArcy MG 36037, 1955 verified by MB; all 4 keyTracks on the MB tracklist."
+ },
+ {
+  "id": "telefunken-blues",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Recorded late 1954 / early 1955 and first released on Savoy -- verbatim from wiki, and the wiki session dates (Nov 1, 1954; Feb 7, 1955) agree. Savoy MG 12006, 1955 per embedded MBID; all 5 keyTracks on the MB tracklist. The 'bebop revolution' sentence is editorial era framing, not flagged."
+ },
+ {
+  "id": "the-eminent-jay-jay-johnson-vol-2",
+  "verdict": "clean",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Unknown", "evidence": "Blue Note",
+    "evidenceQuote": "The three sessions were subsequently recompiled across The Eminent Jay Jay Johnson, Volume 1 (BLP 1505) and The Eminent Jay Jay Johnson, Volume 2 (BLP 1506).",
+    "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Same entity-correct verbatim prose as the Vol. 1 item; the label fieldIssue is a fillable gap ('Unknown'), not a contradiction, and does not change the verdict class. Year field 1955 vs 'released on Blue Note in 1956': 1955 matches the documented June 6, 1955 final session whose material went to Volume 2 (the 10-inch 'Volume 2' was 1954, the 12-inch Volume 2 was 1956) -- material-year convention, so not flagged as contradiction, but field and prose visibly disagree. No MB evidence."
+ },
+ {
+  "id": "the-genius-of-art-tatum-9",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Series-level prose matches the wiki series page verbatim (Clef, Grammy Hall of Fame 1978, Pablo 7-CD box July 1991), and that page covers Volume 9; embedded MBID verifies #9 itself (Clef MG C-660, 1955, all 5 keyTracks). Typo worth fixing: 'Would You Lie to Take a Walk' -- MB carries the same string, so it matches evidence, but wiki's Volume 9 list gives 'Would You Like to Take a Walk?'. Wiki calls the series 1953-54 while #9's release date is 1955 (volume releases trailed the sessions) -- no contradiction with ours."
+ },
+ {
+  "id": "ellington-at-newport",
+  "verdict": "clean",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "albumDNA is verbatim from the wiki page (Wein quote, 1001 Albums, studio re-creation) plus an editorial close. Year 1956 supported by wiki and by the MB candidate release group (1956-09). Label 'Columbia' is supported only indirectly ('Afterwards, Ellington once again had a contract with Columbia Records'). No tracklist in evidence; the keyTracks include announcer-segment titles ('Father Norman O'Connor Introduces Duke & The Orchestra...') that look like the 1999 'Ellington at Newport 1956' complete edition rather than the original LP -- unverifiable here, flag for curator. Wiki does confirm Star Spangled Banner, Black and Tan Fantasy and Tea for Two were performed. MB gave search candidates only, no full release doc."
+ },
+ {
+  "id": "kenny-burrell",
+  "verdict": "entity_mismatch",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Don’t Cry Baby", "Drum Boogie", "Strictly Confidential", "All of You", "Perception"],
+  "fieldIssues": [
+   {"field": "label", "ours": "Unknown", "evidence": "Blue Note",
+    "evidenceQuote": "labels: [{name: \"Blue Note\", catalogNumber: \"BLP 1543\"}]",
+    "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Kenny Burrell is an album by guitarist Kenny Burrell recorded in 1957 and released on the Prestige label.",
+    "problem": "Our item per embedded MBID is the 1956 Blue Note album (BLP 1543); this sentence, the keyTracks and the stored wiki link all describe the different same-titled 1957 Prestige album.",
+    "evidenceQuote": "title: \"Kenny Burrell\"; date: \"1956\"; labels: Blue Note BLP 1543; releaseGroup.firstReleaseDate: \"1956\"",
+    "source": "mb"}
+  ],
+  "notes": "Classic same-name collision. The keyTracks (Don't Cry Baby, Drum Boogie, Strictly Confidential, All of You, Perception) are exactly the Prestige album's wiki tracklist, and none appear on the embedded MB Blue Note tracklist (Get Happy, But Not for Me, Mexico City, Moten Swing, Cheeta, Now See How You Are, Phinupi, How About You?). The prose even self-contradicts ('recorded in 1957 ... this 1956 session'). Year field 1956 matches the Blue Note album. Repair: decide the anchor -- the embedded MBID says Blue Note 1956 -- then rewrite prose, keyTracks and wiki link to that album consistently (or re-anchor everything to the Prestige album)."
+ },
+ {
+  "id": "pithecanthropus-erectus",
+  "verdict": "clean",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is verbatim from the wiki page (taught arrangements by ear). Atlantic 1237 verified; all 4 keyTracks equal the full MB tracklist. One evidence-internal month discrepancy: prose and wiki say released August 1956 while the embedded MB release says 1956-07; the year agrees everywhere and ours matches the entity-matched wiki page, so not flagged -- recommend no change without an external check."
+ },
+ {
+  "id": "saxophone-colossus",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is verbatim from the wiki page (sixth studio album, recorded mono June 22, 1956, Weinstock/Van Gelder, Hackensack, Flanagan/Watkins/Roach quartet). Year field 1956: wiki explicitly documents that release dating is disputed (Mojo: autumn 1956; Billboard implies 1957) and the MB release group says 1957-04-27; the recording year 1956 is solid and one source supports a 1956 release, so not flagged -- curator should be aware. Prestige verified (LP 7079); all 4 keyTracks on the MB tracklist."
+ },
+ {
+  "id": "the-benny-goodman-story-vol-2",
+  "verdict": "unverifiable",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Generated-style prose. Verified by the MB search hit (Decca Records DL 8253, 1956): year, label, and that 'Memories of You' and 'China Boy' are on the album; all 5 keyTracks on the MB tracklist. Unverifiable substantive claims: 'documents a 1956 studio date' (no recording-date evidence in the pack; these film-soundtrack-related sessions are commonly dated 1955 -- background knowledge, not citable) and 'leading a tight big band ensemble' (ensemble format not in evidence; some numbers on this album are associated with small groups). No wiki page found by opensearch."
+ },
+ {
+  "id": "the-trio-volume-3-everybody-likes-hampton-hawes",
+  "verdict": "entity_mismatch",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "The Sermon is an album of spirituals by American jazz pianist Hampton Hawes recorded in 1958, but not released on the Contemporary label until 1987.",
+    "problem": "Describes a different Hampton Hawes album (The Sermon, recorded 1958, released 1987); our item per embedded MBID is the 1956 trio album. The collision likely happened because our album contains a track titled 'The Sermon'.",
+    "evidenceQuote": "title: \"Everybody Likes Hampton Hawes, Vol. 3: The Trio\"; date: \"1956\"",
+    "source": "mb"}
+  ],
+  "notes": "Fields are correct per embedded MBID (Contemporary C3523, 1956) and all 5 keyTracks are on the MB tracklist -- including the track 'The Sermon', which explains the wrong article match. The Sermon album's wiki tracklist (spirituals: Down by the Riverside, etc.) shares nothing with our album. The second prose sentence is generic filler ('cool jazz vocabulary of the hard bop period'). Stored wiki link points to The Sermon (Hampton Hawes album) -- wrong entity shown to users. Repair: rewrite prose for the 1956 trio album; replace the wiki link."
+ },
+ {
+  "id": "2-guitars",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "First sentence verbatim from the wiki page; Prestige 7119, 1957 verified by embedded MBID; all 5 keyTracks on the MB tracklist. Artist field credits Burrell alone while MB credits Burrell and Raney jointly (the prose names both) -- site primary-artist convention, not flagged. The context sentence 'Prestige under Bob Weinstock was known for its prolific output of blowing sessions' is scene-setting that cannot be checked from this item's evidence (it is consistent with Weinstock appearing as Prestige's producer elsewhere in the pack); uncontradicted."
+ },
+ {
+  "id": "at-carnegie-hall",
+  "verdict": "clean",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is verbatim from the wiki page (recorded Carnegie Hall November 29, 1957; released September 27, 2005, by Blue Note -- label verified by wiki, and the MB candidate RG date 2005-09-27 agrees). Year field 1957 is the recording year; the first release was 2005, as our own prose states -- material-year convention as elsewhere on the site, not flagged as a contradiction, but a curator should confirm that convention is intended. MB returned a matching candidate only (no full release doc) and no tracklist exists in evidence, so the 4 keyTracks (Monk's Mood, Evidence, Crepuscule with Nellie, Nutty) are unverified."
+ }
+]

@@ -1,0 +1,595 @@
+{
+  "results": [
+    {
+      "id": "a-smooth-one-woody-herman",
+      "kind": "album",
+      "resolved": false,
+      "note": "UNRESOLVED. No album titled 'A Smooth One' by Woody Herman exists on AllMusic, Discogs, or Wikipedia. 'A Smooth One' is a Benny Goodman composition; Woody Herman & His Orchestra performed it on an NBC broadcast dated Oct 22 1941 (a track, not an album). AllMusic 'A Smooth One' albums belong to Ellis Larkins (1977) and Johnny Hodges (1960), plus a Various Artists compilation -- none Woody Herman. Cannot verify a year or label for a Woody Herman album of this name; not guessing. Likely a mislabeled track-as-album in our data; flag for Phase 4 review.",
+      "sources": [
+        "https://www.allmusic.com/search/albums/Woody+Herman+%26+His+Orchestra+-+Mosaic+Select+31",
+        "https://open.spotify.com/track/39aBOYn5L7KipUKu1xJoi7"
+      ]
+    },
+    {
+      "id": "amaryllis-belladonna",
+      "kind": "album",
+      "resolved": true,
+      "note": "RESOLVED. Confirmed: Mary Halvorson's Nonesuch label debut, two paired suites released 13 May 2022. AMARYLLIS = six-song suite by a sextet (Mary Halvorson guitar, Patricia Brennan vibraphone, Nick Dunston bass, Tomas Fujiwara drums, Jacob Garchik trombone, Adam O'Farrill trumpet); the Mivos Quartet joins on three of the six tracks. Amaryllis tracks: Night Shift, Anesthesia, Amaryllis, Side Effect, Hoodwink, 892 Teeth. BELLADONNA = five compositions for Halvorson's solo guitar plus the Mivos Quartet (Olivia De Prato & Maya Bennardo violins, Victor Lowrie Tafoya viola, Tyler J. Borden cello); 'Moonburn' is its second track. Produced by John Dieterich (Deerhoof). ours.year=2022 and ours.label='Nonesuch' are CORRECT. The current albumDNA is FACTUALLY WRONG: it says 'octet with string arrangements by Robert Moody' (it is a sextet + the Mivos string Quartet; no person named Robert Moody is involved) and claims a 'Pulitzer Prize finalist nomination' which no fetched source supports. albumDNA repaired to evidence-only text. ours.keyTracks contains 'The Gate', which is NOT a track on either album (real tracks listed above), but per spec keyTracks is only filled when null, so it is left unchanged and flagged here.",
+      "sources": [
+        "https://www.freejazzblog.org/2022/07/mary-halvorson-amaryllis-and-belladonna.html",
+        "https://www.nonesuch.com/albums/amaryllis-belladonna",
+        "https://www.discogs.com/release/23206052-Mary-Halvorson-Amaryllis-Belladonna"
+      ]
+    },
+    {
+      "id": "andrew-hill",
+      "kind": "artist",
+      "resolved": true,
+      "note": "Confirmed correct disambiguated page. Lead: 'Andrew Hill (June 30, 1931 - April 20, 2007) was an American jazz pianist and composer.' Dates (1931/2007) match ours exactly; Blue Note avant-garde pianist (Point of Departure). Only the wikipedia field needs repair per researchGoal (bio/dates already fine).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Andrew_Hill_(jazz_musician)"
+      ]
+    },
+    {
+      "id": "blue-note-4000",
+      "kind": "album",
+      "resolved": false,
+      "note": "UNRESOLVED - fabricated entry. 'Blue Note 4000' is NOT an album title; it is the Blue Note Records catalog 4000-series (BLP 4001-4085, c.1957-1962), a numbering range covering many different albums by many artists. There is no album literally titled 'Blue Note 4000' by Freddie Hubbard. The three items listed as ours.keyTracks ('Open Sesame', 'Hub-Tones', 'Ready for Freddie') are themselves three SEPARATE Freddie Hubbard albums (Open Sesame = BLP 4040, 1960; Ready for Freddie = BLP 4085, 1962; Hub-Tones = BST 84115, 1962), not tracks on a single album. The albumDNA (claims a 1965 album with those as 'selections') is hallucinated. No real entity to repair toward; flag for removal/manual review.",
+      "sources": [
+        "https://www.jazzdisco.org/blue-note-records/catalog-4000-series/",
+        "https://www.jazzdisco.org/freddie-hubbard/discography/"
+      ]
+    },
+    {
+      "id": "chet-baker-live-in-rosenheim",
+      "kind": "album",
+      "resolved": true,
+      "note": "Confirmed via jazzdisco.org Chet Baker catalog (corroborated by Jazz Messengers + AllMusic listing 'Live in Rosenheimer'): 'Live in Rosenheim' (subtitled 'Chet Baker's Last Recording As Quartet'), recorded April 17 1988 in Rosenheim, Germany; released 1989 on Timeless Records (Du), cat. SJP 233 (also CD SJP 233). Quartet: Chet Baker (trumpet/vocal), Nicola Stilo (guitar/flute), Marc Abrams (bass), Luca Flores (piano). Year 1989 is CORRECT. Label was 'Unknown' in our data -> Timeless. VERIFIED tracklist includes our 5 keyTracks (Funk in Deep Freeze, I'm a Fool to Want You, Portrait in Black and White, In a Sentimental Mood, If I Should Lose You) -- all real (a 6th 'Arborway' appears on some editions). albumDNA is accurate. Only repair: label (Unknown -> Timeless).",
+      "sources": [
+        "https://www.jazzdisco.org/chet-baker/catalog/album-index/",
+        "https://www.jazzmessengers.com/en/99020/chet-baker/liveinrosenheim-17thapril1988-",
+        "https://www.allmusic.com/album/live-in-rosenheimer-mw0000911123"
+      ]
+    },
+    {
+      "id": "clarence-williams",
+      "kind": "artist",
+      "resolved": true,
+      "note": "disambig_stub resolved. Correct page is '..._(musician)' (the early-jazz pianist/composer; not the actor Clarence Williams III, who was his grandson). Lead: 'Clarence Williams (October 8, 1898 or October 6, 1893 - November 6, 1965) was an American jazz pianist, composer, promoter, vocalist, theatrical producer, and publisher.' Sources conflict on birth (1898 or 1893); used 1898 (first-listed in lead). Death 1965 firm. Primary instrument piano.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Clarence_Williams_(musician)"
+      ]
+    },
+    {
+      "id": "dave-holland",
+      "kind": "artist",
+      "resolved": true,
+      "note": "Confirmed correct disambiguated page. Lead: 'David Holland (born 1 October 1946) is an English double bassist, bass guitarist, cellist, composer and bandleader...'. Birth year 1946 matches ours; living (no death year). Played with Miles Davis on Bitches Brew, recorded for ECM. Only the wikipedia field needs repair per researchGoal.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dave_Holland_(bassist)"
+      ]
+    },
+    {
+      "id": "david-murray",
+      "kind": "artist",
+      "resolved": true,
+      "note": "Confirmed jazz saxophonist David Keith Murray, born February 19, 1955, living. Lead: 'David Keith Murray (born February 19, 1955) is an American jazz saxophonist and composer who performs mostly on tenor and bass clarinet.' Founding member of World Saxophone Quartet (with Oliver Lake, Julius Hemphill, Hamiet Bluiett). The correct Wikipedia article is at the _(saxophonist) slug; ours pointed at _(musician). birthYear/deathYear/instruments already correct.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/David_Murray_(saxophonist)",
+        "https://en.wikipedia.org/wiki/World_Saxophone_Quartet"
+      ]
+    },
+    {
+      "id": "father-of-stride-piano-james-p-johnson",
+      "kind": "album",
+      "resolved": true,
+      "note": "RESOLVED. 'Father of the Stride Piano' is a real Columbia LP, catalogue CL-1780, issued 1962 on Columbia's six-eye label -- the first North American release of these vintage 1920s-30s James P. Johnson band and solo sides (confirmed via Discogs release 5136094 and Dusty Groove). Full 16-track listing recovered (openers: If Dreams Come True, Fascination, Lonesome Reverie, The Mule Walk; signature closer Carolina Shout, his pioneering 1921 stride solo). ours.year is null -> set 1962. ours.label is 'Various' -> set 'Columbia'. ours.keyTracks is null -> fill with notable tracks. No standalone Wikipedia article for this album (the related article is 'Carolina Shout', the tune).",
+      "sources": [
+        "https://www.discogs.com/release/5136094-James-P-Johnson-Father-Of-The-Stride-Piano",
+        "https://www.dustygroove.com/item/588174/James-P-Johnson:Father-Of-The-Stride-Piano",
+        "https://en.wikipedia.org/wiki/Carolina_Shout"
+      ]
+    },
+    {
+      "id": "genius-of-modern-music-vol-1-thelonious-monk",
+      "kind": "album",
+      "resolved": true,
+      "note": "English Wikipedia article confirms artist = Thelonious Monk, this is the 12-inch BLP 1510 compilation released on Blue Note in 1956, compiled from 1947-1952 sessions, produced by Alfred Lion. The catalog's year of 2013 and label 'Various' are wrong; albumDNA falsely says 'Recorded in 2013'.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Genius_of_Modern_Music:_Volume_1",
+        "https://en.wikipedia.org/wiki/Genius_of_Modern_Music,_Vols._One_%26_Two"
+      ]
+    },
+    {
+      "id": "harlem-river-drive",
+      "kind": "album",
+      "resolved": true,
+      "note": "Confirmed: self-titled 1971 album on Roulette (cat. SR 3004) by the supergroup Harlem River Drive, led by Eddie Palmieri (with brother Charlie Palmieri on organ). Year 1971 and label Roulette are correct. VERIFIED tracklist (5 tracks): Harlem River Drive, If (We Had Peace Today), Idle Hands, Broken Home, Seeds of Life. Our keyTracks include 'Azucar' which is NOT on this album (Azucar is an Eddie Palmieri solo track from his 1965 album Azucar Pa' Ti) -- a hallucinated track. No dedicated English Wikipedia article located for this self-titled album, so wikipedia left null.",
+      "sources": [
+        "https://soulbrother.com/feature/album-of-the-day-harlem-river-drive-harlem-river-drive/",
+        "https://www.discogs.com/master/207260-Harlem-River-Drive-Harlem-River-Drive",
+        "https://theworld.org/stories/2016/05/19/eddie-palmieri-revisits-harlem-river-drive"
+      ]
+    },
+    {
+      "id": "his-eye-is-on-the-sparrow-ethel-waters",
+      "kind": "album",
+      "resolved": false,
+      "note": "UNRESOLVED. 'His Eye Is on the Sparrow' under Ethel Waters resolves to multiple posthumous gospel/sacred COMPILATIONS, not a single canonical album: a Jasmine Records CD (recordings from 1959, reissued 2024), a 2014 Photoplay Records compilation, plus other reissues. No single original release year or label can be confidently assigned. The en.wikipedia.org 'His Eye Is on the Sparrow' article is about the 1905 hymn / Waters's autobiography, NOT an album, so it is not a valid album wikipedia link. Note for catalog: the recordings are late-1950s sacred material, so the site's 'Early Jazz' era tag for this title is likely wrong, but I will not fabricate a year/label. Proposing no repairs.",
+      "sources": [
+        "https://jasmine-records.co.uk/shop/waters-ethel/ethel-waters-his-eye-is-on-the-sparrow/",
+        "https://www.discogs.com/master/566427-Ethel-Waters-His-Eye-Is-On-The-Sparrow",
+        "https://en.wikipedia.org/wiki/His_Eye_Is_on_the_Sparrow"
+      ]
+    },
+    {
+      "id": "investigations",
+      "kind": "album",
+      "resolved": false,
+      "note": "UNRESOLVED / likely fabricated. The English Wikipedia Brad Mehldau discography lists no album titled 'Investigations'. His Warner Bros. releases around 1999 are 'Songs: The Art of the Trio Vol. 3' (1998), 'Elegiac Cycle' (1999, solo), 'Art of the Trio 4: Back at the Vanguard' (1999, live), 'Places' (2000), 'Progression: The Art of the Trio Vol. 5' (2000). No track or album 'Sehnsucht' by Mehldau exists in the discography. Two separate web searches for 'Brad Mehldau Investigations' returned no matching album/track. The keyTracks 'The Very Thought of You' and 'Young at Heart' are real standards Mehldau has covered, but there is no source for an album by this title. This appears to be a hallucinated catalog entry; no field repair is possible (it is a deletion candidate, escalate to gaps).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Brad_Mehldau_discography"
+      ]
+    },
+    {
+      "id": "james-moody",
+      "kind": "artist",
+      "resolved": true,
+      "note": "disambig_stub resolved. Correct page is '..._(saxophonist)' (not a judge/other). Lead: 'James Moody (March 26, 1925 - December 9, 2010) was an American jazz saxophone and flute player and very occasional vocalist, playing predominantly in the bebop and hard bop styles.' Filled birthYear/deathYear/instruments from lead.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/James_Moody_(saxophonist)"
+      ]
+    },
+    {
+      "id": "jelly-roll-morton-the-piano-rolls-jelly-roll-morton",
+      "kind": "album",
+      "resolved": true,
+      "note": "Album of Jelly Roll Morton's 1920s piano rolls, realized by piano-roll scholar Artis Wodehouse on a Yamaha Disklavier. Released April 29, 1997 on Nonesuch Records. Discogs release title string confirms 'Jelly Roll Morton Realized By Artis Wodehouse - The Piano Rolls (1997, CD)'; Academia.edu paper title confirms '1997 Nonesuch'. 12-track listing confirmed on Bandcamp (a later digital reissue but same tracklist) and corroborated by WebSearch of Nonesuch/eBay listings. No dedicated Wikipedia article exists for this album. Era 'Early Jazz' is defensible (source material is 1920s Morton).",
+      "sources": [
+        "https://jellyrollmorton.bandcamp.com/album/the-piano-rolls",
+        "https://www.discogs.com/Jelly-Roll-Morton-Realized-By-Artis-Wodehouse-The-Piano-Rolls/release/4114842",
+        "https://www.academia.edu/51455693/How_Jelly_Roll_Morton_The_Piano_Rolls_1997_Nonesuch_recording_was_realized"
+      ]
+    },
+    {
+      "id": "jiro-inagaki",
+      "kind": "artist",
+      "resolved": true,
+      "note": "Japanese saxophonist/bandleader, leader of Soul Media (formed 1969). Japanese Wikipedia opening line: '稲垣 次郎（いながき じろう、1933年10月3日 - 2024年1月18日）は、東京府出身の日本のサクソフォーン奏者、音楽プロデューサー。' Confirms born Oct 3 1933, DIED Jan 18 2024 (ours had 2016, WRONG), instruments saxophone (tenor and soprano) and flute. No English Wikipedia article exists (en.wikipedia.org/wiki/Jiro_Inagaki returns 404); ja/de/pl articles exist. Wikidata Q105576139 and German Wikipedia both confirm death date 2024-01-18.",
+      "sources": [
+        "https://ja.wikipedia.org/wiki/%E7%A8%B2%E5%9E%A3%E6%AC%A1%E9%83%8E",
+        "https://www.wikidata.org/wiki/Q105576139",
+        "https://de.wikipedia.org/wiki/Jir%C5%8D_Inagaki"
+      ]
+    },
+    {
+      "id": "johnny-dodds-vol-1-johnny-dodds",
+      "kind": "album",
+      "resolved": false,
+      "note": "UNRESOLVED: the bare title 'Johnny Dodds Vol. 1' cannot be pinned to one product. Competing reissue series each have their own 'Volume 1' with different labels/years/tracklists: 'The Chronological Classics: Johnny Dodds 1926' and '1927-1928' (Classics, France, 1991), AllMusic 'Johnny Dodds, Pt. 1 (1926-1940)', and Document Records sets. Artist Johnny Dodds (New Orleans clarinetist, Early Jazz era) is confirmed and the era label is not false, but I cannot verify which release the catalog means, so I propose no year/label/tracklist repair. Not rewriting albumDNA for the same reason: generic but no verifiable false fact to correct against without choosing an unconfirmed specific release.",
+      "sources": [
+        "https://musicbrainz.org/release/6187e02c-2556-45a3-bc3f-860624c2ed90",
+        "https://www.allmusic.com/album/johnny-dodds-pt-1-1926-1940-mw0000892173",
+        "https://www.discogs.com/master/1245265-Johnny-Dodds-1927-1928"
+      ]
+    },
+    {
+      "id": "king-olivers-jazz-band-1923-king-oliver",
+      "kind": "album",
+      "resolved": true,
+      "note": "King Oliver's Creole Jazz Band recorded 37 sides in a dozen sessions between April 5 and October 16, 1923, in Richmond IN and Chicago. Released across Gennett, OKeh, Columbia and Paramount, so 'Various' label is correct. Personnel: King Oliver (cornet), Louis Armstrong (2nd cornet), Johnny Dodds (clarinet), Honore Dutrey (trombone), Lil Hardin (piano), Baby Dodds (drums), Bill Johnson (banjo). Famous tracks: Dippermouth Blues (Gennett 5132, Apr 6 1923; OKeh 4918, Jun 1923), Snake Rag, Weather Bird Rag, Froggie Moore. No dedicated Wikipedia article for this exact compilation title (Dippermouth Blues is a single-track article, not the album). Recording year 1923 set; era 'Early Jazz' is correct. keyTracks filled from verified 1923 sides.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dippermouth_Blues",
+        "https://convocations.purdue.edu/king-olivers-creole-jazz-band-recording-of-dippermouth-blues-celebrates-100th-anniversary/",
+        "https://veritenews.org/2023/04/25/jazz-fest-celebrates-king-olivers-recordings/"
+      ]
+    },
+    {
+      "id": "kosmos",
+      "kind": "album",
+      "resolved": true,
+      "note": "Confirmed: 'Juice' by Ryo Kawasaki, recorded/mixed/mastered at RCA New York May 5-7 1976, originally released 1976 (NOT 1977) on RCA Victor (US, cat. APL1-1855). Was Kawasaki's first American-label release. Personnel incl. Tom Coster (keys), Hugh McCracken (rhythm guitar), Stu Woods (bass), Jimmy Young (drums), Sam Morrison (sax/flute). VERIFIED 7-track tracklist: Raisins, Sometime, The Breeze And I, East Side Boogie, El Toro, Bamboo Child, Andes. Our data has TWO errors of fact: year (1977 -> 1976) and label (RVC -> RCA Victor; 'RVC' was the later Japanese distributor RVC Corp, not the original label). Our keyTracks list a track 'Juice' (no such track -- it is only the album title) and 'Little Tree' (not on the album) -- both hallucinated; only 'Raisins' and 'Bamboo Child' are real. The albumDNA also falsely states 'The program includes Juice, Raisins, and Bamboo Child' and gives the wrong label (RVC) and could imply 1977. Repairing year, label, keyTracks, and albumDNA. No English Wikipedia article for this specific album (only 'Prism (Ryo Kawasaki album)' exists), so wikipedia left null.",
+      "sources": [
+        "https://archive.org/details/ryo-kawasaki-juice-1976",
+        "https://www.discogs.com/release/601988-Ryo-Kawasaki-Juice",
+        "https://www.plaidroomrecords.com/products/ryo-kawasaki-juice-601988"
+      ]
+    },
+    {
+      "id": "latin-jazz-quintet",
+      "kind": "artist",
+      "resolved": true,
+      "note": "A Latin jazz ensemble led by conga player Juan Amalbert, NOT a Cool Jazz figure (current bio is factually wrong). Best known for recording 'Caribe' with Eric Dolphy (recorded 1960, released New Jazz Feb 1961). Members on that date per Wikipedia: Juan Amalbert (congas), Gene Casey (piano), Charlie Simons (vibraphone), Bill Ellington (bass), Manny Ramos (drums/timbales). Also recorded 'Latin Soul' (1965). No standalone Wikipedia article for the group exists (only the Caribe album article). Group, so birthYear stays 0 and instruments empty; only the wrong bio is repaired.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Carib%C3%A9"
+      ]
+    },
+    {
+      "id": "leon-thomas",
+      "kind": "artist",
+      "resolved": true,
+      "note": "Confirmed jazz/blues vocalist. Lead: 'Amos Leon Thomas Jr. (October 4, 1937 - May 8, 1999), known professionally as Leon Thomas, was an American jazz and blues vocalist.' Known for glottal-stop/yodeling style compared to African Pygmy singing; best known for 'The Creator Has a Master Plan' on Pharoah Sanders' 1969 album Karma. birthYear 1937 and deathYear 1999 already correct. Correct Wikipedia slug is _(jazz_singer); ours pointed at _(musician) which is a 404.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Leon_Thomas_(jazz_singer)"
+      ]
+    },
+    {
+      "id": "ma-rainey-vol-1-ma-rainey",
+      "kind": "album",
+      "resolved": false,
+      "note": "UNRESOLVED: the bare title 'Ma Rainey Vol. 1' cannot be pinned to one product. At least two distinct 'Volume 1' reissues exist with different labels, years and tracklists: Document Records 'Complete Recorded Works in Chronological Order, Vol. 1 (December 1923 - August 1924)' (DOCD-5581, CD, 1990s) and Riverside 'Mother of the Blues, Volume 1' (RM 8807, LP, 1960s). Artist Ma Rainey (Gertrude 'Ma' Rainey, blues, Early Jazz era) is confirmed and the era label is not false, but I cannot verify which release the catalog means, so I propose no year/label/tracklist repair. Not rewriting albumDNA: it is generic but contains no verifiable false fact to correct against, and any rewrite would require choosing a specific release I cannot confirm.",
+      "sources": [
+        "https://www.discogs.com/release/14504695-Ma-Rainey-Complete-Recorded-Works-In-Chronological-Order-Volume-1-December-1923-To-C-August-1924",
+        "https://www.discogs.com/release/2833499-Gertrude-Ma-Rainey-Mother-Of-The-Blues-Volume-1",
+        "https://www.allmusic.com/album/complete-recorded-works-vol-1-1923-1924-mw0000664854"
+      ]
+    },
+    {
+      "id": "mary-lou-williams-presents-black-christ-of-the-andes-mary-lou-williams",
+      "kind": "album",
+      "resolved": true,
+      "note": "Jazz album by pianist Mary Lou Williams, alternatively titled 'Black Christ of the Andes', released 1964 on Folkways Records (per English Wikipedia + Smithsonian Folkways). Recorded after Williams's conversion to Catholicism; title track 'St. Martin de Porres' is a choral mass hymn for the Afro-Peruvian saint. Full 14-track listing confirmed on Wikipedia. Wikipedia article exists at en.wikipedia.org/wiki/Mary_Lou_Williams_(album). Note: era should arguably be a later period (1964) rather than 'Swing', but year/label/tracks/wiki all verified. keyTracks filled from opening/notable tracks; albumDNA rewritten from sources.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mary_Lou_Williams_(album)",
+        "https://folkways.si.edu/mary-lou-williams/presents-black-christ-of-the-andes/blues-jazz-ragtime/music/album/smithsonian"
+      ]
+    },
+    {
+      "id": "mellow-dream",
+      "kind": "album",
+      "resolved": true,
+      "note": "Confirmed via English Wikipedia: 'Mellow Dream' by Ryo Fukui, recorded Aug 17-18 1977, released 1977 on Trio Records (Tokyo); trio with Satoshi Denpo (bass) and Yoshinori Fukui (drums). Year 1977 and label Trio Records are CORRECT. VERIFIED 7-track tracklist: Mellow Dream, My Foolish Heart, Baron Potato Blues, What's New, Horizon, My Funny Valentine, Early Summer. Our keyTracks (Mellow Dream, My Funny Valentine, What's New, Baron Potato Blues) are ALL real tracks on the album -- no error. albumDNA is accurate (follow-up to Scenery, Sapporo pianist). Only repair: set the wikipedia URL (currently null), which has a real article.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mellow_Dream",
+        "https://www.discogs.com/release/4184645-Ryo-Fukui-Mellow-Dream"
+      ]
+    },
+    {
+      "id": "mystic-brew",
+      "kind": "album",
+      "resolved": true,
+      "note": "TITLE MISMATCH: 'Mystic Brew' is a TRACK (track 7), not an album. The album is 'Two Headed Freap', Ronnie Foster's 1972 Blue Note debut (recorded at Van Gelder Studio Jan 20-21, 1972, produced by Dr. George Butler). Year 1972 and label Blue Note are CORRECT. Our keyTracks (Mystic Brew, Summer Song, Chunky) are all real tracks on Two Headed Freap. The wikipedia page for the actual album is Two_Headed_Freap. CANNOT repair the title via album-field schema (title/artist not in allowed repair fields); flagging for apply step. The albumDNA calls it 'the 1972 album Mystic Brew' which is factually imprecise (Mystic Brew is the track, not the album title), but rewriting it is entangled with the out-of-scope title fix, so leaving albumDNA. Emitting only the wikipedia repair.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Two_Headed_Freap",
+        "https://www.bluenote.com/organ-great-ronnie-foster-returns-to-blue-note/",
+        "https://www.whosampled.com/Ronnie-Foster/Mystic-Brew/"
+      ]
+    },
+    {
+      "id": "new-orleans-joys-kid-ory",
+      "kind": "album",
+      "resolved": false,
+      "note": "UNRESOLVED / likely fabricated or misattributed. No album titled 'New Orleans Joys' appears in Kid Ory's English Wikipedia discography (his albums: Kid Ory's Creole Jazz Band on Crescent 1944-45; Columbia 1950; Good Time Jazz 1954-56 incl. 'The Legendary Kid', 'Favorites'; Verve 'Song of the Wanderer' 1957) nor in AllMusic search results (which return 'New Orleans Jazz', 'New Orleans Jubilee', 'The Kid from New Orleans', 'Sounds of New Orleans Vol. 9' -- none titled 'New Orleans Joys'). 'New Orleans Joys' (a.k.a. 'New Orleans Blues') is in fact a Jelly Roll Morton solo-piano composition recorded 1923, not a Kid Ory album. Kid Ory did record 'Milenberg Joys' as a track, but not an album of this title. No safe field repair; this is a deletion/relabel candidate, escalate to gaps.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kid_Ory",
+        "https://www.allmusic.com/artist/kid-ory-mn0000087734/discography"
+      ]
+    },
+    {
+      "id": "no-parking-tow-away-zone",
+      "kind": "album",
+      "resolved": true,
+      "note": "RESOLVED. Confirmed via Presto Music (catalogue West Wind WW2120, released 7 Oct 2014). It is a collaborative quartet date credited across Kenny Garrett (alto sax), Michael Brecker (tenor sax), John Scofield (guitar), David Friesen (electric bass); material drawn from Friesen-led sessions recorded c.1987-1994 and reissued on West Wind in 2014. Year 2014 is correct. Label should be 'West Wind' (currently 'Unknown'). The existing keyTracks (Old Folks, Wanderlust, True Blue, Airegin, Signs and Wonders) match tracks 1-5 exactly, so keyTracks need no change. albumDNA's 'jazz fusion' framing is loose (it is straight-ahead post-bop/standards: Airegin, Speak No Evil, Old Folks) but not flagged as a required repair here; only the label is repaired.",
+      "sources": [
+        "https://www.prestomusic.com/jazz/products/8049694--no-parking-tow-away-zone",
+        "https://open.spotify.com/album/64c1kIk7nptXMDFnqeSB8C"
+      ]
+    },
+    {
+      "id": "real-book",
+      "kind": "album",
+      "resolved": true,
+      "note": "Confirmed: The Real Book is a compilation of lead sheets (chord changes + melody) for jazz standards, created by two anonymous Berklee College of Music students; work was finished by December 1975 (publication c.1974-75). It was an illegal bootleg, copied at print shops and sold under the counter; legitimized by Hal Leonard in 2004. Not a recorded album, but the catalog entry treats it as a 'Various Artists' item -- year 1975 and label 'Bootleg' are accurate descriptors. keyTracks (All The Things You Are, Autumn Leaves, Blue Bossa) are representative standards from the book and acceptable. Setting the correct wikipedia URL (Real_Book). Note: a separate Steve Swallow album also titled 'Real Book' exists -- the jazz fake book is the right entity here per the Various Artists / Bootleg / 1975 framing.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Real_Book",
+        "https://99percentinvisible.org/episode/438-the-real-book/",
+        "https://officialrealbook.com/history/"
+      ]
+    },
+    {
+      "id": "sadao-watanabe",
+      "kind": "artist",
+      "resolved": true,
+      "note": "Confirmed correct disambiguated page. Lead: 'Sadao Watanabe (born 1 February 1933) is a Japanese jazz musician who plays alto saxophone and sopranino saxophone.' Birth year 1933 matches ours; living. Known for bossa nova / crossover. Only the wikipedia field needs repair per researchGoal.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sadao_Watanabe_(musician)"
+      ]
+    },
+    {
+      "id": "sam-rivers",
+      "kind": "artist",
+      "resolved": true,
+      "note": "Plain 'Sam Rivers' is a disambiguation page (jazz musician vs Limp Bizkit bassist). Correct page is '..._(jazz_musician)'. Lead: 'Samuel Carthorne Rivers (September 25, 1923 - December 26, 2011) was an American jazz musician and composer.' Dates (1923/2011) match ours exactly; founder of Studio Rivbea. Only the wikipedia field needs repair per researchGoal.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sam_Rivers_(jazz_musician)"
+      ]
+    },
+    {
+      "id": "sidney-bechet-at-storyville-sidney-bechet",
+      "kind": "album",
+      "resolved": true,
+      "note": "No standalone Wikipedia article. AllMusic/Discogs/eil.com all confirm artist = Sidney Bechet (soprano sax), recorded at Storyville Club / Copley Square Hotel, Boston, October 25, 1953, with Vic Dickenson (trombone) and George Wein (piano); these are Bechet's final American recordings. Original LP on George Wein's Storyville Records (1954; companion 'At Storyville Vol. 2' is documented Storyville STLP-306, US 1954). Tracklist identical across Discogs and the eil.com French Vogue reissue. Catalog year was null; label 'Various' is wrong (Storyville). keyTracks was null. No Wikipedia repair (page does not exist).",
+      "sources": [
+        "https://www.discogs.com/release/8489825-Sidney-Bechet-Sidney-Bechet-At-Storyville",
+        "https://eil.com/shop/moreinfo.asp?catalogid=448173",
+        "https://www.allmusic.com/album/sidney-bechet-at-storyville-storyville-mw0000870971"
+      ]
+    },
+    {
+      "id": "solo-masterpieces-vol-1-art-tatum",
+      "kind": "album",
+      "resolved": true,
+      "note": "Confirmed: 'The Tatum Solo Masterpieces, Vol. 1', solo piano by Art Tatum on Pablo Records (catalog 2310-723), original LP released 1975 (multiple Discogs pressings + eBay catalog confirm 1975). Solo sessions for Norman Granz recorded Dec 1953-Jan 1955, Los Angeles. Title note: catalog title is 'The Tatum Solo Masterpieces' (our 'Solo Masterpieces Vol. 1' is a shortened form). label = Pablo (not 'Various'); year = 1975. No dedicated English Wikipedia article for Vol. 1 alone (covered in Art Tatum discography). albumDNA is generic boilerplate; rewriting from sources.",
+      "sources": [
+        "https://www.discogs.com/release/2517766-Art-Tatum-The-Tatum-Solo-Masterpieces-Vol-1",
+        "https://www.discogs.com/release/4460752-Art-Tatum-The-Tatum-Solo-Masterpieces-Vol-1",
+        "https://en.wikipedia.org/wiki/Art_Tatum_discography"
+      ]
+    },
+    {
+      "id": "song-of-the-wanderer-kid-ory",
+      "kind": "album",
+      "resolved": true,
+      "note": "Confirmed via jazzdisco.org catalog: 'Song of the Wanderer' by Kid Ory (jazz trombonist) on Verve, catalog MGV-1014, released 1958, recorded 1957 in Los Angeles (Marty Marsala tp, Ory tb, Darnell Howard cl, Cedric Haywood p, etc.) under Ory's Norman Granz/Verve contract. label = Verve (not 'Various'); year = 1958. Tracklist not enumerated on accessible sources (AllMusic + Discogs returned HTTP 403); not filling keyTracks to avoid guessing. No dedicated Wikipedia article. albumDNA is generic boilerplate; rewriting from sources.",
+      "sources": [
+        "https://www.jazzdisco.org/kid-ory/catalog/album-index/",
+        "https://www.allmusic.com/album/song-of-the-wanderer-mw0000904030"
+      ]
+    },
+    {
+      "id": "tatum-group-masterpieces-vol-1-art-tatum",
+      "kind": "album",
+      "resolved": true,
+      "note": "Art Tatum (piano) with Benny Carter (alto sax) and Louis Bellson (drums). Recorded June 25, 1954 in Los Angeles; released 1975 on Pablo Records as Vol. 1 of producer Norman Granz's eight-volume 'Tatum Group Masterpieces' series (Discogs 1975 LP, eBay, Amazon, Presto, and the Volume Eight Wikipedia article all confirm Pablo 1975). Our stored year=2006 is a reissue/digital-era error and is WRONG; corrected to release year 1975 (catalog convention uses release year). Label Various -> Pablo. Our existing keyTracks (Blues in C, Undecided, Under a Blanket of Blue, Blues in B Flat, A Foggy Day, Street of Dreams) exactly match the first six tracks of the verified tracklist, so keyTracks need no repair. albumDNA needs rewrite (current text falsely says 'Recorded in 2006'). No dedicated Wikipedia article for Vol. 1.",
+      "sources": [
+        "https://www.discogs.com/release/9362375-Art-Tatum-Benny-Carter-Louis-Bellson-The-Tatum-Group-Masterpieces-Vol-1",
+        "https://www.prestomusic.com/jazz/products/8499077--the-tatum-group-masterpieces-vol-1",
+        "https://en.wikipedia.org/wiki/The_Tatum_Group_Masterpieces,_Volume_Eight"
+      ]
+    },
+    {
+      "id": "tetterettet",
+      "kind": "album",
+      "resolved": true,
+      "note": "Confirmed: 'Tetterettet' recorded 1977, originally issued 1977 on the Instant Composers Pool label (cat. ICP 020). Year 1977 and label ICP are CORRECT. Credited artist is 'ICP Tentet' (our data says 'ICP Orchestra' -- a closely-related but distinct billing; the wider ensemble was also called ICP Orchestra in other years, but THIS release is billed ICP Tentet. Artist field is not in the album-repair schema, so flagging only). VERIFIED 11-track tracklist (title suite in numbered parts plus): Tetterettet V+VI, IX, XII, XIV, XV, Alexander's Marschbefehl, Rumboon, Kwik Kwek Kwak, Valse Trouvee, Ludwig's Blue Note, Dank. Our keyTracks list 'Brozziman' and 'Two Hoedown' which are NOT on this album (confirmed absent on Bandcamp + Discogs tracklists) -- hallucinated. Only 'Tetterettet' (the title suite) is real. albumDNA describes the ICP's Dadaist Dutch free-jazz approach accurately. No dedicated English Wikipedia article for this album (only the band article 'Instant Composers Pool'). Repairing keyTracks only.",
+      "sources": [
+        "https://corbettvsdempsey.bandcamp.com/album/tetterettet",
+        "https://www.discogs.com/release/2117101-ICP-Tentet-Tetterettet",
+        "https://www.discogs.com/master/1560705-ICP-Tentet-Tetterettet"
+      ]
+    },
+    {
+      "id": "the-amazing-bud-powell-vol-2-bud-powell",
+      "kind": "album",
+      "resolved": true,
+      "note": "Wikipedia infobox: artist = pianist Bud Powell; ten-inch LP, Blue Note BLP 5041, recorded at WOR Studios NYC on August 14, 1953, released 1954. Catalog year was null; label 'Various' is wrong (Blue Note). keyTracks was null. Used the 8-track original 10-inch tracklist.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Amazing_Bud_Powell,_Vol._2"
+      ]
+    },
+    {
+      "id": "the-art-of-the-trio-vol-4-nat-king-cole",
+      "kind": "album",
+      "resolved": false,
+      "note": "UNRESOLVED - WRONG ENTITY / DATA ERROR. 'The Art of the Trio, Vol. 4: Back at the Vanguard' is a live album by pianist BRAD MEHLDAU (recorded Jan 5-10 1999 at the Village Vanguard; released 1999 on Warner Bros.), confirmed by English Wikipedia. It is NOT a Nat King Cole album. Nat King Cole (d. 1965) never recorded an 'Art of the Trio' series. The catalog entry pairs a Brad Mehldau title with the wrong artist (Nat King Cole). Repairing this is out of the allowed field scope (cannot change the artist via a field repair, and year/label/tracks belong to a different artist's record). Flagging as a data error for catalog maintainers. Proposing no repairs.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Art_of_the_Trio_4:_Back_at_the_Vanguard",
+        "https://www.allmusic.com/album/the-art-of-the-trio-vol-4-back-at-the-vanguard-mw0000252174"
+      ]
+    },
+    {
+      "id": "the-blue-note-sessions-sidney-bechet",
+      "kind": "album",
+      "resolved": true,
+      "note": "Sidney Bechet recorded extensively for Blue Note Records between 1939 and 1953, so the label is unambiguously 'Blue Note' (not 'Various'). His signature Blue Note sides include 'Summertime' (his debut Blue Note session, June 1939) and the slow blues 'Blue Horizon'; other Blue Note recordings confirmed on the Mosaic 'Complete Blue Note Recordings of Sidney Bechet' tracklist include Dear Old Southland, Muskrat Ramble, High Society, Weary Blues. PARTIAL: the exact release titled 'The Blue Note Sessions' could not be pinned to one catalog entry/year (the canonical Mosaic compilation is titled 'The Complete Blue Note Recordings of Sidney Bechet', 4CD 1991 / 6LP 1985); recordings span 1939-1953, so no single release year is assignable. Proposing label=Blue Note and keyTracks (verified Bechet Blue Note recordings); leaving year unresolved. Era 'Early Jazz' is defensible.",
+      "sources": [
+        "https://www.discogs.com/master/754107-Sidney-Bechet-The-Complete-Blue-Note-Recordings-Of-Sidney-Bechet",
+        "https://www.bluenote.com/artist/sidney-bechet/",
+        "https://www.jazzdisco.org/blue-note-records/discography-1945-1950/"
+      ]
+    },
+    {
+      "id": "the-empress-of-the-blues-bessie-smith",
+      "kind": "album",
+      "resolved": false,
+      "note": "PARTIALLY VERIFIED but UNRESOLVED for field repairs. 'Empress of the Blues' is firmly Bessie Smith's epithet (English Wikipedia: Columbia billed her 'Queen of the Blues', the press 'Empress of the Blues'); her original recordings were for Columbia (1923 on) plus four 1933 Okeh sides. There is NO single canonical studio album titled exactly 'The Empress of the Blues' -- the title attaches to many later compilations (e.g. 'The Empress' 1971 Columbia/Legacy; 'The Empress of the Blues (The Ultimate Collection)' 1998; assorted remastered comps 2010-2013). So a compilation slot with year=null and label='Various' is defensible and I will NOT invent a specific year/label/catalogue. The albumDNA is generic-promotional but not factually false. No reliable single Wikipedia article exists for an album of this exact title (the Bessie Smith biography article is artist-level, not album-level). Marked unresolved; no safe field repair.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bessie_Smith",
+        "https://www.discogs.com/release/4645394-Bessie-Smith-The-Empress-Of-The-Blues-The-Ultimate-Collection"
+      ]
+    },
+    {
+      "id": "the-jimmy-giuffre-three-jimmy-giuffre",
+      "kind": "album",
+      "resolved": true,
+      "note": "Wikipedia infobox: 'Released 1957', 'Label: Atlantic'. Leader = clarinetist/saxophonist Jimmy Giuffre; trio with Jim Hall (guitar) and Ralph Pena (bass); the album is also known as 'The Train and the River'. Our title 'The Jimmy Giuffre Three' = this album 'The Jimmy Giuffre 3'. Catalog year was null; label 'Various' is wrong (Atlantic). keyTracks was null.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Jimmy_Giuffre_3"
+      ]
+    },
+    {
+      "id": "the-newest-sound-around",
+      "kind": "album",
+      "resolved": true,
+      "note": "Confirmed album by singer Jeanne Lee and pianist Ran Blake, the debut recording for both. Wikipedia lead: 'The Newest Sound Around is an album by singer Jeanne Lee and pianist Ran Blake.' Released 1962 on RCA Victor (cat. LSP-2500). Year and label match ours. keyTracks already populated with real tracks (Laura, Where Flamingos Fly, Evil Blues, Church on Russell Street). Only fix: add the Wikipedia URL (ours was null).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Newest_Sound_Around",
+        "https://www.discogs.com/release/2070703-Jeanne-Lee-And-Ran-Blake-The-Newest-Sound-Around"
+      ]
+    },
+    {
+      "id": "the-poll-winners-ride-again-barney-kessel",
+      "kind": "album",
+      "resolved": true,
+      "note": "Confirmed: album by guitarist Barney Kessel with Shelly Manne (drums) and Ray Brown (bass) on Contemporary (C3556/S7556), recorded Aug 19 & 21 1958, released 1958. Second of five Poll Winners albums. label = Contemporary (not 'Various'). albumDNA is generic boilerplate; rewriting from sources.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Poll_Winners_Ride_Again!",
+        "https://www.discogs.com/release/14670250-Barney-Kessel-With-Shelly-Manne-Ray-Brown-The-Poll-Winners-Ride-Again"
+      ]
+    },
+    {
+      "id": "tokyo-1981",
+      "kind": "album",
+      "resolved": true,
+      "note": "RESOLVED. Confirmed real Elemental Music release, 2018 (catalogue 5990427). Released on Elemental Music's own label page and listed on Discogs (release 12232866) as 'Tokyo '81', 2018, limited edition. Quintet: Woody Shaw (trumpet/flugelhorn), Steve Turre (trombone), Mulgrew Miller (piano), Stafford James (bass), Tony Reedus (drums); recorded live in Tokyo 7 Dec 1981, bonus track 'Sweet Love of Mine' recorded Den Haag 14 Jul 1985. ours.year=2018 and ours.label='Elemental Music' are both CORRECT. ours.keyTracks (Rosewood, 'Round Midnight, Apex, From Moment to Moment, Song of Songs) all match the tracklist. Catalogue title is 'Tokyo '81' (vs our 'Tokyo 1981') but title is not a repairable field per spec. No Wikipedia article found. No field repairs needed.",
+      "sources": [
+        "https://www.elemental-music.com/jazz-treasures/4673-woody-shaw-tokyo-81-deluxe-cd.html",
+        "https://www.allaboutjazz.com/musicians/tokyo-1981-woody-shaw",
+        "https://www.discogs.com/Woody-Shaw-Tokyo-81/release/12232866"
+      ]
+    },
+    {
+      "id": "tommy-flanagan",
+      "kind": "artist",
+      "resolved": true,
+      "note": "disambig_stub resolved. Correct page is '..._(musician)' (not the actor Tommy Flanagan). Lead: 'Thomas Lee Flanagan (March 16, 1930 - November 16, 2001) was an American jazz pianist and composer.' Filled birthYear/deathYear/instruments from lead; known for work with Ella Fitzgerald and on Coltrane's Giant Steps, Rollins' Saxophone Colossus.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tommy_Flanagan_(musician)"
+      ]
+    },
+    {
+      "id": "wayne-shorter-juju-wayne-shorter",
+      "kind": "album",
+      "resolved": true,
+      "note": "Confirmed: album by jazz saxophonist Wayne Shorter on Blue Note, recorded Aug 3 1964, released July 1965. Rhythm section McCoy Tyner/Reggie Workman/Elvin Jones. Wikipedia 'Released' field = July 1965; label = Blue Note (not 'Various'). albumDNA is generic boilerplate; rewriting from sources.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/JuJu_(album)",
+        "https://www.udiscovermusic.com/stories/wayne-shorter-juju-feature/"
+      ]
+    },
+    {
+      "id": "we-free-kings-rahsaan-roland-kirk",
+      "kind": "album",
+      "resolved": true,
+      "note": "Confirmed: studio album by jazz multi-instrumentalist Rahsaan/Roland Kirk on Mercury Records, recorded Aug 16-17 1961, released January 1962. Wikipedia 'Released' field = 1962; label = Mercury (not 'Various'). Tracklist from Wikipedia. albumDNA is generic boilerplate; rewriting from sources.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/We_Free_Kings",
+        "https://www.allmusic.com/album/we-free-kings-mw0000649599"
+      ]
+    },
+    {
+      "id": "we-insist-freedom-now-suite-max-roach",
+      "kind": "album",
+      "resolved": true,
+      "note": "Wikipedia confirms artist = drummer/composer Max Roach; subtitle 'Max Roach's Freedom Now Suite'; recorded Aug 31 & Sep 6, 1960; released January 1961 on Candid Records; produced by Nat Hentoff; Abbey Lincoln vocals. Catalog year 2011 and label 'Various' are wrong; albumDNA falsely says 'Recorded in 2011'. Only 5 tracks (the suite), not the 6 in ours.keyTracks; 'Oh Yeah, Oh Yeah' is not on this album.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/We_Insist!"
+      ]
+    },
+    {
+      "id": "wild-cat-blues-clarence-williams",
+      "kind": "album",
+      "resolved": true,
+      "note": "Confirmed: 'Wild Cat Blues' by Clarence Williams' Blue Five, recorded NYC July 30 1923, released Nov 1923 on OKeh (catalog 4925), b/w 'Kansas City Man Blues'. Features Sidney Bechet (first Bechet recording / early featured soloist); written by Fats Waller & Clarence Williams. Corroborated by Smithsonian NMAH, Library of Congress National Recording Registry essay, RateYourMusic, Discogs (all agree OKeh 4925 / 1923). This is a 78rpm single, not an album. label = OKeh (not 'Various'); year = 1923. No dedicated Wikipedia article (appears in '1923 in jazz'). albumDNA is generic boilerplate; rewriting from sources.",
+      "sources": [
+        "https://americanhistory.si.edu/collections/object/nmah_1061240",
+        "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/WildCatBlues.pdf",
+        "https://en.wikipedia.org/wiki/1923_in_jazz"
+      ]
+    },
+    {
+      "id": "yuki-arimasa",
+      "kind": "artist",
+      "resolved": true,
+      "note": "Japanese jazz pianist. HighResAudio bio states 'Born in 1961 in Tokyo' (ours had 1965, WRONG). Studied at Berklee, graduated 1986, won Hank Jones Award and Duke Ellington Composition Award, taught at Berklee then returned to Japan; teaches at Senzoku College of Music. No Wikipedia article exists in any language: ours.wikipedia (ja.wikipedia.org/wiki/有馬祐輝) returns 404 and the kanji may not even be his name; no Wikidata/Wikipedia entry surfaced. Set wikipedia to null. 'Village Vanguard appearance' and 'Bill Evans influence' in the current bio are NOT corroborated by any fetched source (unverified, but not provably false, so bio left unchanged).",
+      "sources": [
+        "https://www.highresaudio.com/en/artist/view/9c994377-a082-4755-924d-3248f5a19348/yuki-arimasa",
+        "https://www.jazzinjapan.com/interviews-posts/yuki-arimasa-interview-summer-2023"
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "a-smooth-one-woody-herman",
+      "kind": "album",
+      "resolved": false,
+      "note": "UNRESOLVED. No album titled 'A Smooth One' by Woody Herman exists on AllMusic, Discogs, or Wikipedia. 'A Smooth One' is a Benny Goodman composition; Woody Herman & His Orchestra performed it on an NBC broadcast dated Oct 22 1941 (a track, not an album). AllMusic 'A Smooth One' albums belong to Ellis Larkins (1977) and Johnny Hodges (1960), plus a Various Artists compilation -- none Woody Herman. Cannot verify a year or label for a Woody Herman album of this name; not guessing. Likely a mislabeled track-as-album in our data; flag for Phase 4 review.",
+      "sources": [
+        "https://www.allmusic.com/search/albums/Woody+Herman+%26+His+Orchestra+-+Mosaic+Select+31",
+        "https://open.spotify.com/track/39aBOYn5L7KipUKu1xJoi7"
+      ]
+    },
+    {
+      "id": "blue-note-4000",
+      "kind": "album",
+      "resolved": false,
+      "note": "UNRESOLVED - fabricated entry. 'Blue Note 4000' is NOT an album title; it is the Blue Note Records catalog 4000-series (BLP 4001-4085, c.1957-1962), a numbering range covering many different albums by many artists. There is no album literally titled 'Blue Note 4000' by Freddie Hubbard. The three items listed as ours.keyTracks ('Open Sesame', 'Hub-Tones', 'Ready for Freddie') are themselves three SEPARATE Freddie Hubbard albums (Open Sesame = BLP 4040, 1960; Ready for Freddie = BLP 4085, 1962; Hub-Tones = BST 84115, 1962), not tracks on a single album. The albumDNA (claims a 1965 album with those as 'selections') is hallucinated. No real entity to repair toward; flag for removal/manual review.",
+      "sources": [
+        "https://www.jazzdisco.org/blue-note-records/catalog-4000-series/",
+        "https://www.jazzdisco.org/freddie-hubbard/discography/"
+      ]
+    },
+    {
+      "id": "his-eye-is-on-the-sparrow-ethel-waters",
+      "kind": "album",
+      "resolved": false,
+      "note": "UNRESOLVED. 'His Eye Is on the Sparrow' under Ethel Waters resolves to multiple posthumous gospel/sacred COMPILATIONS, not a single canonical album: a Jasmine Records CD (recordings from 1959, reissued 2024), a 2014 Photoplay Records compilation, plus other reissues. No single original release year or label can be confidently assigned. The en.wikipedia.org 'His Eye Is on the Sparrow' article is about the 1905 hymn / Waters's autobiography, NOT an album, so it is not a valid album wikipedia link. Note for catalog: the recordings are late-1950s sacred material, so the site's 'Early Jazz' era tag for this title is likely wrong, but I will not fabricate a year/label. Proposing no repairs.",
+      "sources": [
+        "https://jasmine-records.co.uk/shop/waters-ethel/ethel-waters-his-eye-is-on-the-sparrow/",
+        "https://www.discogs.com/master/566427-Ethel-Waters-His-Eye-Is-On-The-Sparrow",
+        "https://en.wikipedia.org/wiki/His_Eye_Is_on_the_Sparrow"
+      ]
+    },
+    {
+      "id": "investigations",
+      "kind": "album",
+      "resolved": false,
+      "note": "UNRESOLVED / likely fabricated. The English Wikipedia Brad Mehldau discography lists no album titled 'Investigations'. His Warner Bros. releases around 1999 are 'Songs: The Art of the Trio Vol. 3' (1998), 'Elegiac Cycle' (1999, solo), 'Art of the Trio 4: Back at the Vanguard' (1999, live), 'Places' (2000), 'Progression: The Art of the Trio Vol. 5' (2000). No track or album 'Sehnsucht' by Mehldau exists in the discography. Two separate web searches for 'Brad Mehldau Investigations' returned no matching album/track. The keyTracks 'The Very Thought of You' and 'Young at Heart' are real standards Mehldau has covered, but there is no source for an album by this title. This appears to be a hallucinated catalog entry; no field repair is possible (it is a deletion candidate, escalate to gaps).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Brad_Mehldau_discography"
+      ]
+    },
+    {
+      "id": "johnny-dodds-vol-1-johnny-dodds",
+      "kind": "album",
+      "resolved": false,
+      "note": "UNRESOLVED: the bare title 'Johnny Dodds Vol. 1' cannot be pinned to one product. Competing reissue series each have their own 'Volume 1' with different labels/years/tracklists: 'The Chronological Classics: Johnny Dodds 1926' and '1927-1928' (Classics, France, 1991), AllMusic 'Johnny Dodds, Pt. 1 (1926-1940)', and Document Records sets. Artist Johnny Dodds (New Orleans clarinetist, Early Jazz era) is confirmed and the era label is not false, but I cannot verify which release the catalog means, so I propose no year/label/tracklist repair. Not rewriting albumDNA for the same reason: generic but no verifiable false fact to correct against without choosing an unconfirmed specific release.",
+      "sources": [
+        "https://musicbrainz.org/release/6187e02c-2556-45a3-bc3f-860624c2ed90",
+        "https://www.allmusic.com/album/johnny-dodds-pt-1-1926-1940-mw0000892173",
+        "https://www.discogs.com/master/1245265-Johnny-Dodds-1927-1928"
+      ]
+    },
+    {
+      "id": "ma-rainey-vol-1-ma-rainey",
+      "kind": "album",
+      "resolved": false,
+      "note": "UNRESOLVED: the bare title 'Ma Rainey Vol. 1' cannot be pinned to one product. At least two distinct 'Volume 1' reissues exist with different labels, years and tracklists: Document Records 'Complete Recorded Works in Chronological Order, Vol. 1 (December 1923 - August 1924)' (DOCD-5581, CD, 1990s) and Riverside 'Mother of the Blues, Volume 1' (RM 8807, LP, 1960s). Artist Ma Rainey (Gertrude 'Ma' Rainey, blues, Early Jazz era) is confirmed and the era label is not false, but I cannot verify which release the catalog means, so I propose no year/label/tracklist repair. Not rewriting albumDNA: it is generic but contains no verifiable false fact to correct against, and any rewrite would require choosing a specific release I cannot confirm.",
+      "sources": [
+        "https://www.discogs.com/release/14504695-Ma-Rainey-Complete-Recorded-Works-In-Chronological-Order-Volume-1-December-1923-To-C-August-1924",
+        "https://www.discogs.com/release/2833499-Gertrude-Ma-Rainey-Mother-Of-The-Blues-Volume-1",
+        "https://www.allmusic.com/album/complete-recorded-works-vol-1-1923-1924-mw0000664854"
+      ]
+    },
+    {
+      "id": "new-orleans-joys-kid-ory",
+      "kind": "album",
+      "resolved": false,
+      "note": "UNRESOLVED / likely fabricated or misattributed. No album titled 'New Orleans Joys' appears in Kid Ory's English Wikipedia discography (his albums: Kid Ory's Creole Jazz Band on Crescent 1944-45; Columbia 1950; Good Time Jazz 1954-56 incl. 'The Legendary Kid', 'Favorites'; Verve 'Song of the Wanderer' 1957) nor in AllMusic search results (which return 'New Orleans Jazz', 'New Orleans Jubilee', 'The Kid from New Orleans', 'Sounds of New Orleans Vol. 9' -- none titled 'New Orleans Joys'). 'New Orleans Joys' (a.k.a. 'New Orleans Blues') is in fact a Jelly Roll Morton solo-piano composition recorded 1923, not a Kid Ory album. Kid Ory did record 'Milenberg Joys' as a track, but not an album of this title. No safe field repair; this is a deletion/relabel candidate, escalate to gaps.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kid_Ory",
+        "https://www.allmusic.com/artist/kid-ory-mn0000087734/discography"
+      ]
+    },
+    {
+      "id": "the-art-of-the-trio-vol-4-nat-king-cole",
+      "kind": "album",
+      "resolved": false,
+      "note": "UNRESOLVED - WRONG ENTITY / DATA ERROR. 'The Art of the Trio, Vol. 4: Back at the Vanguard' is a live album by pianist BRAD MEHLDAU (recorded Jan 5-10 1999 at the Village Vanguard; released 1999 on Warner Bros.), confirmed by English Wikipedia. It is NOT a Nat King Cole album. Nat King Cole (d. 1965) never recorded an 'Art of the Trio' series. The catalog entry pairs a Brad Mehldau title with the wrong artist (Nat King Cole). Repairing this is out of the allowed field scope (cannot change the artist via a field repair, and year/label/tracks belong to a different artist's record). Flagging as a data error for catalog maintainers. Proposing no repairs.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Art_of_the_Trio_4:_Back_at_the_Vanguard",
+        "https://www.allmusic.com/album/the-art-of-the-trio-vol-4-back-at-the-vanguard-mw0000252174"
+      ]
+    },
+    {
+      "id": "the-empress-of-the-blues-bessie-smith",
+      "kind": "album",
+      "resolved": false,
+      "note": "PARTIALLY VERIFIED but UNRESOLVED for field repairs. 'Empress of the Blues' is firmly Bessie Smith's epithet (English Wikipedia: Columbia billed her 'Queen of the Blues', the press 'Empress of the Blues'); her original recordings were for Columbia (1923 on) plus four 1933 Okeh sides. There is NO single canonical studio album titled exactly 'The Empress of the Blues' -- the title attaches to many later compilations (e.g. 'The Empress' 1971 Columbia/Legacy; 'The Empress of the Blues (The Ultimate Collection)' 1998; assorted remastered comps 2010-2013). So a compilation slot with year=null and label='Various' is defensible and I will NOT invent a specific year/label/catalogue. The albumDNA is generic-promotional but not factually false. No reliable single Wikipedia article exists for an album of this exact title (the Bessie Smith biography article is artist-level, not album-level). Marked unresolved; no safe field repair.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bessie_Smith",
+        "https://www.discogs.com/release/4645394-Bessie-Smith-The-Empress-Of-The-Blues-The-Ultimate-Collection"
+      ]
+    }
+  ]
+}

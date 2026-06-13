@@ -1,0 +1,330 @@
+[
+ {
+  "id": "new-york-improvisations",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title, artist (Lennie Tristano), year 1983, label Elektra Musician. All 5 keyTracks match the MB tracklist (including the 'My Melacholy Baby' spelling, which is how MB lists it). Wikipedia stored_url is the Lennie Tristano artist page (correct entity). 'free jazz setting' / 'adds a personal voice' are editorial. No contradictions."
+ },
+ {
+  "id": "standards-vol-1",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search returned no release/candidates (no MB evidence). Wikipedia stored_url is 'Standards, Vol. 1' (1983, Keith Jarrett) — correct entity; albumDNA is near-verbatim from that page. Label ECM, personnel Gary Peacock/Jack DeJohnette, and all 4 keyTracks appear in the Wikipedia track listing. Artist field 'Keith Jarrett Trio' vs page 'Keith Jarrett' is editorial. keyTracks matched against Wikipedia tracklist (no MB tracklist available)."
+ },
+ {
+  "id": "the-meeting",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title 'The Meeting', year 1983, label Philips, and all 3 keyTracks. MB credits Chick Corea AND Friedrich Gulda; our artist lists only Corea — omitting a co-leader is legitimate editorial style, not a mismatch. Wikipedia stored_url is the Chick Corea artist page (correct entity); the closing sentence about his standards ('Spain', '500 Miles High', etc.) is verbatim from that page. 'free improvisation recording' is editorial."
+ },
+ {
+  "id": "baroque-music-for-trumpets",
+  "verdict": "entity_mismatch",
+  "confidence": 0.88,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": [
+   "Concerto For 2 Trumpets & Strings, RV 537 (C Major): I – Allegro",
+   "Concerto For 2 Trumpets & Strings, RV 537 (C Major): II – Largo",
+   "Concerto For 2 Trumpets & Strings, RV 537 (C Major): III – Allegro",
+   "Concerto For 3 Trumpets & Orchestra (B-Flat Major): I – Moderato",
+   "Concerto For 3 Trumpets & Orchestra (B-Flat Major): II – Largo",
+   "Concerto For 3 Trumpets & Orchestra (B-Flat Major): III – Allegro"
+  ],
+  "fieldIssues": [
+   {"field": "orchestra (in albumDNA)", "ours": "National Philharmonic Orchestra", "evidence": "English Chamber Orchestra", "evidenceQuote": "English Chamber Orchestra", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Haydn, Hummel, L. Mozart: Trumpet Concertos is a studio album of trumpet concertos by Joseph Haydn, Leopold Mozart and Johann Nepomuk Hummel, performed by Wynton Marsalis with the National Philharmonic Orchestra under the direction of Raymond Leppard", "problem": "The albumDNA is the verbatim Wikipedia lede of a DIFFERENT Wynton Marsalis classical album ('Haydn, Hummel, L. Mozart: Trumpet Concertos'), not this album. The MB release 'Baroque Music for Trumpet(s)' is a baroque program (Vivaldi/Purcell/Handel/Telemann) credited to Wynton Marsalis with the English Chamber Orchestra and Raymond Leppard, plus Edita Gruberova — not a Haydn/Mozart/Hummel concertos record with the National Philharmonic Orchestra.", "evidenceQuote": "Concerto in D major for Trumpet, Oboes & Strings: I. Allegro", "source": "mb"}
+  ],
+  "notes": "Catalog FIELDS (title 'Baroque Music for Trumpets', year 1984, label CBS Records Masterworks, artist Wynton Marsalis) match the MB embedded release. But the albumDNA prose and the stored Wikipedia URL are wholesale about a different album, 'Haydn, Hummel, L. Mozart: Trumpet Concertos' — the title-search disambiguation bug. Repertoire stated in the prose (Haydn/L.Mozart/Hummel concertos, National Philharmonic) contradicts the MB tracklist of the actual release (Vivaldi RV-era baroque works, Purcell, Handel, Telemann; English Chamber Orchestra). Separately, the keyTracks (Vivaldi RV 537 for 2 trumpets; a 3-trumpet concerto) match NEITHER the MB tracklist of this release NOR the Haydn/Hummel/Mozart album, so they appear to come from yet a third baroque-trumpet source. Wiki page is about the other album -> wrong_entity."
+ },
+ {
+  "id": "domino-theory",
+  "verdict": "factual_error",
+  "confidence": 0.68,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "CBS/Sony", "evidence": "Columbia", "evidenceQuote": "Columbia", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title, year 1984, artist Weather Report, and all 5 keyTracks; albumDNA is verbatim from the (correct-entity) Wikipedia page and is accurate. Only the label differs: ours 'CBS/Sony' vs MB 'Columbia' (US release, cat FC 39147); the Wikipedia page also says 'Columbia Records'. CBS/Sony and Columbia are the same corporate family (Columbia was CBS Records' US flagship; CBS/Sony was the Japan joint venture), so this is a mild imprint error rather than a wrong-entity issue — flagged per the spec's own canonical example treating CBS-vs-Columbia as a label factual_error."
+ },
+ {
+  "id": "palo-p-rumba",
+  "verdict": "clean",
+  "confidence": 0.93,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title 'Palo pá rumba', year 1984, artist Eddie Palmieri, and all 5 keyTracks. The odd-looking track '1983' is a genuine track on the album per MB. MB has no label, so our 'Unknown' is consistent. Wikipedia stored_url is the Eddie Palmieri artist page (correct entity); the bio sentence about founding La Perfecta / La Perfecta II / Harlem River Drive is verbatim, and the page even notes 'Palmieri won two Grammys for the recordings of Palo Pa' Rumba and Solito.'"
+ },
+ {
+  "id": "straight-life-the-savoy-sessions",
+  "verdict": "entity_mismatch",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Modern Art is an album by saxophonist Art Pepper featuring sessions recorded in late 1956 and early 1957 originally released on the Intro label. The album was reissued on CD on Blue Note Records with bonus tracks as Modern Art: The Complete Art Pepper Aladdin Recordings Volume 2 in 1988.", "problem": "The albumDNA is the verbatim Wikipedia lede of a DIFFERENT Art Pepper album ('Modern Art', a 1956-57 Intro/Aladdin session), not this album. This release is 'Straight Life - The Savoy Sessions' (1984, Savoy Jazz) per MB embedded_mbid.", "evidenceQuote": "Straight Life - The Savoy Sessions", "source": "mb"}
+  ],
+  "notes": "Right artist (Art Pepper), wrong album described — the title-search disambiguation bug. Catalog fields (title, year 1984, label Savoy Jazz) and all 5 keyTracks match the MB embedded release 'Straight Life - The Savoy Sessions'. But the albumDNA prose and the stored Wikipedia URL are about 'Modern Art (Art Pepper album)', a different release on the Intro/Blue Note labels. The trailing 'West Coast jazz / Stan Kenton big band' sentence is generic Pepper bio (true of him) but the album-specific claims (Modern Art, Intro label, 1956-57, reissued 1988) belong to another album. keyTracks themselves are correct for THIS album, so keyTracksVerdict ok."
+ },
+ {
+  "id": "geri-allen-trio",
+  "verdict": "clean",
+  "confidence": 0.93,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (topArtistSimilarity 0.8) returns 'The Printmakers' 1984, artist 'Geri Allen Trio', label Minor Music — matches our title, year, and label (our artist 'Geri Allen' vs MB 'Geri Allen Trio' is fine). All 6 keyTracks match the MB tracklist. Wikipedia stored_url 'The Printmakers' is the correct entity (Geri Allen's first album); albumDNA's factual sentences (first album, recorded Feb 1984 in Germany, German Minor Music label) are verbatim. 'Cecil Taylor's energy' / 'leading pianist of her generation' are editorial."
+ },
+ {
+  "id": "afro-cuban-jazz",
+  "verdict": "unverifiable",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms the album entity: title 'Afro-Cuban Jazz', artist Mario Bauza, releaseGroup firstReleaseDate 1985 (our year), with the MB release itself a 2001 reissue on Manzana. All 6 keyTracks match the MB tracklist (accents/punctuation aside). No Wikipedia page survived (opensearch, none). The albumDNA, however, is NOT an album description — it is the Wikipedia lead for the GENRE 'Afro-Cuban jazz' (the title-search pulled the genre article). Its historical claims (genre emerged early 1940s with Bauza and Machito; 1947 Gillespie/Pozo) correctly center our artist as a founder and are not contradicted by any pack evidence, but they also cannot be verified against it (MB is silent on genre history; no wiki page). Treated as unverifiable rather than entity_mismatch because the content pertains to our artist's own genre, not an unrelated entity. Repair note: prose should describe the album, not the genre."
+ },
+ {
+  "id": "black-codes",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (topArtistSimilarity 1.0) confirms title 'Black Codes (From the Underground)', year 1985, artist Wynton Marsalis, label Columbia, and all 4 keyTracks (incl. Delfeayo's Dilemma with curly apostrophe). Wikipedia stored_url is the correct entity; albumDNA is verbatim from it. 'Announced the neo-traditional movement' is editorial."
+ },
+ {
+  "id": "cielo-e-terra",
+  "verdict": "factual_error",
+  "confidence": 0.78,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Direct Metal Mastering", "evidence": "Manhattan", "evidenceQuote": "Manhattan", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title 'Cielo e terra', year 1985, artist Al Di Meola, and all 5 keyTracks. Wikipedia stored_url is the correct entity; the albumDNA's Airto-Moreira percussion claim is verbatim from it. The label field is wrong: ours 'Direct Metal Mastering' is a mastering process (DMM), not a record label; MB lists the label as 'Manhattan' (cat ST 53002). Entity is clearly correct; this is a label factual_error only."
+ },
+ {
+  "id": "hearts-and-numbers",
+  "verdict": "entity_mismatch",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Out of the Loop is the seventh and final studio album by the Brecker Brothers that was released by GRP Records in 1994. In 1995 the album won the brothers two Grammy Awards for Best Contemporary Jazz Performance and Best Instrumental Composition.", "problem": "The albumDNA is the verbatim Wikipedia lede of a DIFFERENT album ('Out of the Loop', Brecker Brothers, 1994, GRP), not this album. This release is 'Hearts and Numbers' (1985, Hip Pocket Records), credited by MB to Don Grolnick and Michael Brecker.", "evidenceQuote": "Hearts and Numbers", "source": "mb"}
+  ],
+  "notes": "Catalog fields (title 'Hearts and Numbers', year 1985, label Hip Pocket Records) and all 5 keyTracks match the MB embedded release; MB credits Don Grolnick and Michael Brecker (our artist lists only Michael Brecker — fine). But the albumDNA prose and the stored Wikipedia URL are wholesale about 'Out of the Loop (Brecker Brothers album)', a different 1994 GRP release — the title-search disambiguation bug. keyTracks are correct for THIS album, so keyTracksVerdict ok."
+ },
+ {
+  "id": "sportin-life",
+  "verdict": "clean",
+  "confidence": 0.93,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title 'Sportin' Life', artist Weather Report, label Columbia, and all 5 keyTracks. albumDNA is verbatim from the correct-entity Wikipedia page (thirteenth studio album, June 1985, Columbia, named after a Porgy and Bess character, last studio album, This Is This! 1986 follow-up). MB date '1985-03' vs the prose's 'June 1985' is a pressing/release-date nuance (Wikipedia, which the prose follows, says June); not flagged."
+ },
+ {
+  "id": "the-third-decade",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title 'The Third Decade', year 1985, artist Art Ensemble of Chicago, label ECM Records (ours 'ECM'), and all 5 keyTracks. albumDNA's factual sentence (recorded June 1984, released on ECM the following year) is verbatim from the correct-entity Wikipedia page. Quality note: the template phrase 'trumpeter Art Ensemble of Chicago' is a writing glitch (the group is a band, not a trumpeter) — not a factual claim about a different entity."
+ },
+ {
+  "id": "tribal-tech",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "1985", "evidence": "1991", "evidenceQuote": "Tribal Tech is the fourth album by the jazz fusion band Tribal Tech, released in 1991.", "source": "wiki"},
+   {"field": "label", "ours": "Passport", "evidence": "Relativity Records", "evidenceQuote": "Relativity Records", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "The self-titled album described here (albumDNA + all 6 keyTracks) is Tribal Tech's FOURTH album, released 1991 on Relativity — confirmed by MB search (topArtistSimilarity 1.0; date 1991; releaseGroup firstReleaseDate 1991) and verbatim by the correct-entity Wikipedia page 'Tribal Tech (album)'. Our year 1985 and label Passport contradict this. Note: 1985 + Passport corresponds to the band's DEBUT album ('Spears'), so the catalog metadata appears crossed with the debut while the title, prose, and keyTracks are the 1991 self-titled record. Entity (the described album) is correct; year and label are factual errors."
+ },
+ {
+  "id": "a-msica-livre-de-hermeto-paschoal",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title 'A musica livre de Hermeto Paschoal', year 1986, artist Hermeto Pascoal, label Fontana, and all 6 keyTracks. Wikipedia stored_url is the Hermeto Pascoal artist page (correct entity); the bio sentence is verbatim. Quality note: 'Pianist Hermeto Pascoal' is reductive (Wikipedia calls him a 'composer and multi-instrumentalist'), but he did play piano (the page says he taught himself piano), so this is a loose descriptor, not a contradiction."
+ },
+ {
+  "id": "alma",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title 'Alma', year 1986, artist Egberto Gismonti, and all 5 keyTracks. MB has no label, so our 'Unknown' is consistent. Wikipedia stored_url is the Egberto Gismonti artist page (correct entity); its discography lists 'Alma (1986)', and the 'Brazilian guitarist and composer' / 'dual mastery of guitar and piano' descriptors match. Named tracks 'Baiao malandro' and 'Loro' are both on the album. 'Singular fingerpicking technique' is editorial."
+ },
+ {
+  "id": "benny-carter-all-stars",
+  "verdict": "clean",
+  "confidence": 0.83,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title 'Benny Carter All Stars', year 1986, label Sonet, and all 5 keyTracks; Red Norvo is a credited artist on the release (alongside Benny Carter All Stars and Nat Adderley). No Wikipedia page (opensearch, none), wikipediaUrl null. The named standouts 'Easy Money' and 'Memories of You' are on the album. 'vibraphonist Red Norvo' and 'early jazz program' are editorial descriptors not stated in MB but uncontradicted; the album entity is firmly confirmed by the embedded MBID, so clean."
+ },
+ {
+  "id": "drum-night-at-birdland",
+  "verdict": "unverifiable",
+  "confidence": 0.55,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (topArtistSimilarity 1.0) confirms title 'Drum Night At Birdland', year 1986, artist Art Blakey, label Vogue France, and the keyTracks (all present in the MB tracklist; note our keyTracks list 'Solo Philly Joe Jones' twice, which MB also does). No Wikipedia page (opensearch, none). Concern: the albumDNA calls this a '1986 studio date', but the title ('...at Birdland') plus a tracklist dominated by 'Solo [drummer]', 'Drum Ensemble', 'A Night In Tunisia' strongly suggests a LIVE drum-battle recording (very likely the 1954/1956 Birdland date reissued by Vogue France in 1986). The pack evidence cannot confirm or refute 'studio' (MB releaseGroup secondaryTypes is empty, no live tag; no wiki), so per the no-guessing rule this substantive recording-context claim is unverifiable, not a flagged error. Repair note: 'studio' is probably wrong — this looks like a 1986 reissue of an older live date."
+ },
+ {
+  "id": "get-together",
+  "verdict": "factual_error",
+  "confidence": 0.72,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "1986", "evidence": "1979", "evidenceQuote": "Kansas City 8: Get Together is a 1979 studio album by Count Basie.", "source": "wiki"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Pianist Count Basie's post-bop sensibility is on display in this 1986 session", "problem": "The album is a 1979 studio album per Wikipedia (which has the identical tracklist), so framing it as 'this 1986 session' (i.e. recorded 1986) is wrong; 1986 is at most a reissue year (the MB release here is a Pablo CD, cat CD 2310-924, with an empty release date).", "evidenceQuote": "Kansas City 8: Get Together is a 1979 studio album by Count Basie.", "source": "wiki"}
+  ],
+  "notes": "Right entity confirmed: MB embedded_mbid (releaseGroup 'Get Together', artist Count Basie, label Pablo) and the Wikipedia 'Kansas City 8: Get Together' page share the exact tracklist; all 5 keyTracks match. Year conflict between sources: MB releaseGroup firstReleaseDate is 1986 but its release date is empty and it is a CD reissue (CD catalog number); Wikipedia plainly states '1979 studio album'. The DNA's '1986 session' is contradicted by the 1979 recording date. Repair note: 1986 is the Pablo CD reissue year; the original Kansas City 8 album is 1979. Our short title 'Get Together' = the page's 'Kansas City 8: Get Together' (same album), so wikiLink is correct. The octet/'small-group'/'spare economical style' descriptions are editorial and consistent."
+ },
+ {
+  "id": "legacy-faddis",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title 'Legacy', year 1986, artist Jon Faddis, label Concord Jazz, and all 5 keyTracks. Wikipedia stored_url is the Jon Faddis artist page (correct entity); the bio sentence about mirroring Dizzy Gillespie, mentored by Stan Kenton and Bill Catalano, is verbatim. Minor: the Wikipedia bio lists 'Legacy (1985)' while MB (authoritative embedded_mbid) and our field say 1986 — a 1-year reissue/release discrepancy; our 1986 matches the authoritative MB, so not flagged. 'draws from the jazz fusion tradition' is a loose editorial genre label (the program — West End Blues, A Night in Tunisia, Things to Come — reads more as a bebop/swing-tradition tribute), but genre labels are editorial opinion and no evidence passage contradicts it."
+ },
+ {
+  "id": "royal-garden-blues",
+  "verdict": "clean",
+  "confidence": 0.93,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title 'Royal Garden Blues', year 1986, artist Branford Marsalis, label CBS, and all 5 keyTracks (Swingin' at the Haven, Dienda, Strike Up the Band, Emanon, Royal Garden Blues). Wikipedia stored_url 'Royal Garden Blues (album)' is the correct entity; the albumDNA's factual sentences (released 1986, promoted with a North American tour) are verbatim. 'composer player ... contemporary era's stylistic eclecticism' is editorial. No contradictions."
+ },
+ {
+  "id": "round-about-midnight-at-the-cafe-bohemia-volume-i",
+  "verdict": "factual_error",
+  "confidence": 0.82,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "trumpeter Kenny Dorham leads a contemporary jazz session recorded for Blue Note in 1987", "problem": "Wrong recording year and recording context. The album was recorded LIVE at the Cafe Bohemia in 1956, not 'recorded ... in 1987' (1987 is the CD-reissue year). MB releaseGroup secondaryTypes is ['Live']; the Wikipedia artist page states the recording year as 1956.", "evidenceQuote": "recorded a live album, 'Round About Midnight at the Cafe Bohemia, in 1956 for Blue Note.", "source": "wiki"}
+  ],
+  "notes": "MB search (topArtistSimilarity 1.0) confirms title, artist Kenny Dorham, label Blue Note, release year 1987, secondaryTypes ['Live'], and all 5 keyTracks. The catalog year 1987 is fine as a RELEASE year, but the albumDNA's claim that it was 'recorded ... in 1987' contradicts the (correct-entity) Wikipedia Kenny Dorham page, which dates the recording to 1956. Also 'contemporary jazz session' understates that this is a 1956 LIVE date (MB 'Live'). Wikipedia stored_url is the Kenny Dorham artist page (correct entity, and it discusses this very album) -> wikiLinkVerdict correct."
+ },
+ {
+  "id": "civilization",
+  "verdict": "clean",
+  "confidence": 0.93,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title 'Civilization', year 1987 (1987-06-21), artist Tony Williams, label Blue Note, and all 5 keyTracks. albumDNA is verbatim from the correct-entity Wikipedia page (released 1987, North American tour, top-five Billboard Jazz Albums). Minor: the Wikipedia prose references a track 'The Stump' while the tracklist/our keyTrack say 'The Slump' — our keyTrack 'The Slump' matches the MB tracklist, so ok."
+ },
+ {
+  "id": "crystal-stair",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title 'Crystal Stair', year 1987, label Columbia, and all 5 keyTracks; MB credits Terence Blanchard and Donald Harrison (co-led — our artist lists only Harrison, fine). Wikipedia stored_url is the Donald Harrison artist page (correct entity); the bio fragment ('American jazz saxophonist and the Big Chief of The Congo Square Nation...') is verbatim. Quality note: that bio sentence is left grammatically dangling (missing subject) from concatenation — a writing glitch, not a factual issue."
+ }
+]

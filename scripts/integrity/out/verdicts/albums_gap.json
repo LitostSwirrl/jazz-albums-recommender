@@ -1,0 +1,189 @@
+[
+ {
+  "id": "bumpin-wes-montgomery",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "PolyGram Records, Inc.",
+    "evidenceQuote": "PolyGram Records, Inc.", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 1997, Bumpin' showcases Wes Montgomery at the height of their creative powers",
+    "problem": "The album was recorded and originally released in 1965, not 1997. The MB date 1997 and the year field reflect a PolyGram reissue; the release-group first release date is 1965 and Wikipedia confirms 1965.",
+    "evidenceQuote": "Bumpin'   is an album by the American jazz guitarist Wes Montgomery, released in 1965. It reached number 116 on the Billboard Top LP's chart. It was Montgomery's first album to reach the charts.",
+    "source": "wiki"}
+  ],
+  "notes": "Entity is correct (Wes Montgomery's Bumpin'). All 6 keyTracks match the MB tracklist. Core error: albumDNA says 'Recorded in 1997' but the work is a 1965 album (MB release-group firstReleaseDate 1965; Wikipedia 'released in 1965'); year field 1997 = reissue date. Label 'Various' is vague vs MB 'PolyGram Records, Inc.'. Genre framing (Cool Jazz) is editorial, not flagged."
+ },
+ {
+  "id": "classics-from-the-master-tape-c",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID MB release confirms artist (Dave Brubeck), title, year (2022-05-02), and label (Discos Marabu Ltd.). Both named tracks in albumDNA (Perfume Counter, That Old Black Magic) and all 5 keyTracks appear in the MB tracklist. No Wikipedia evidence available, but the authoritative MB match covers every checkable claim. 'cool jazz tradition' is editorial."
+ },
+ {
+  "id": "crackleknob",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match (similarity 1.0) confirms Mary Halvorson, Crackleknob, 2009-05-19, label hatOLOGY. All 5 keyTracks and both named tracks in albumDNA match the MB tracklist. Stored Wikipedia URL is the Mary Halvorson artist page (correct entity). 'contemporary jazz' is editorial."
+ },
+ {
+  "id": "nice-guys",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB and Wikipedia both confirm Art Ensemble of Chicago, Nice Guys, 1979, ECM. albumDNA is near-verbatim from Wikipedia: recorded May 1978, released following year, ECM debut, quintet (Bowie, Jarman, Mitchell, Favors Maghostut, Don Moye) all confirmed. All 4 keyTracks match the MB/Wikipedia tracklist. Label 'ECM' vs MB 'ECM Records' is the same entity."
+ },
+ {
+  "id": "oblique",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (embedded MBID) and Wikipedia both confirm Bobby Hutcherson, Oblique, 1979, Blue Note. albumDNA is verbatim from Wikipedia: recorded July 21, 1967; Herbie Hancock, Albert Stinson, Joe Chambers; Blue Note 1979 Japan limited edition then 1990 issue. All 5 keyTracks match the tracklist."
+ },
+ {
+  "id": "tales-of-captain-black",
+  "verdict": "factual_error",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Tales of Captain Black", "Moons Rare Frequences"],
+  "fieldIssues": [
+   {"field": "label", "ours": "DIW", "evidence": "Artists House",
+    "evidenceQuote": "Artists House", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "Entity correct (James Blood Ulmer, Tales of Captain Black, 1979 — MB search match, similarity 1.0). MB shows the 1979 release on 'Artists House' (catalog AH 7), contradicting ours 'DIW' (DIW was a later reissue label); flagged as factual_error, though MB method is 'search' (strong, not infallible). keyTracks mismatch: 'Tales of Captain Black' is not a track on the MB tracklist (closest is 'Theme From Captain Black', which our 'Theme from Captain Black' matches), and 'Moons Rare Frequences' does not match MB's 'Moons Shine'. albumDNA personnel claims (Ornette Coleman on alto sax, Denardo Coleman on drums) cannot be checked — no personnel in MB release data and no Wikipedia; treat as unverifiable, not corrected from memory."
+ },
+ {
+  "id": "patrice",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID MB release confirms Mark Whitfield, Patrice, 1991, Warner Bros. Records; all 5 keyTracks and both named tracks in albumDNA match the MB tracklist. The opensearch Wikipedia page 'Patrice (album)' is a DIFFERENT entity (Patrice Rushen's 1978 R&B album) and was discarded for fact-checking; it is NOT stored in ours.wikipediaUrl (null), so no wrong link is shipped. Our prose contains no Patrice Rushen facts. Editorial/label framing only."
+ },
+ {
+  "id": "shakills-warrior",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (embedded MBID) and Wikipedia both confirm David Murray, Shakill's Warrior, 1991, DIW. albumDNA is verbatim from Wikipedia: DIW/Columbia 1991, eight quartet performances with Stanley Franks, Don Pullen, Andrew Cyrille — all confirmed in Wikipedia personnel. All 5 keyTracks match the tracklist."
+ },
+ {
+  "id": "snowy-morning-blues",
+  "verdict": "factual_error",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "GRP", "evidence": "Verve Reissues",
+    "evidenceQuote": "Verve Reissues", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "Entity correct (James P. Johnson; embedded-MBID MB release; stored Wikipedia URL is the James P. Johnson artist page). All 5 keyTracks match the MB tracklist. Label conflict: authoritative MB labels the embedded 1991-10-08 release 'Verve Reissues', contradicting ours 'GRP' — flagged factual_error, BUT this is a reissue-chain ambiguity (the early-90s GRP/Decca Jazz reissue vs Verve's later absorption of the catalog); a human should confirm which label the shipped release should carry. Also: this is a compilation of 1920s-30s solo recordings (tracks like Carolina Shout, Keep Off the Grass), so albumDNA framing it as Johnson 'exploring contemporary jazz territory' in 1991 is misleading, but MB release-group has no 'Compilation' secondaryType and no evidence passage contradicts the framing, so it is not separately flagged."
+ },
+ {
+  "id": "straight-life",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (embedded MBID) and Wikipedia both confirm Art Pepper, Straight Life, label Galaxy. albumDNA 'released in 1979' with personnel Tommy Flanagan, Red Mitchell, Billy Higgins, Kenneth Nash is verbatim-confirmed by Wikipedia. All 5 keyTracks match. The year field 1991 (MB date 1991-07-01) reflects the OJC/Galaxy reissue while albumDNA's 1979 is the original release — both are evidence-supported, no contradiction."
+ },
+ {
+  "id": "that-certain-feeling",
+  "verdict": "entity_mismatch",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "That Certain Feeling is an album by American organist John Patton recorded in 1968 and released on the Blue Note label.",
+    "problem": "This sentence describes a DIFFERENT entity: Big John Patton's organ album 'That Certain Feeling' (recorded 1968, Blue Note). Our item is Ran Blake's 1991 album of the same title (a Gershwin program on hat ART). The disambiguation-collision disease: Wikipedia title-search returned the John Patton album and its facts were pasted into Ran Blake's blurb.",
+    "evidenceQuote": "That Certain Feeling is an album by American organist John Patton recorded in 1968 and released on the Blue Note label.",
+    "source": "wiki"}
+  ],
+  "notes": "MB search match (similarity 1.0) confirms OUR item is Ran Blake's That Certain Feeling, 1991, hat ART — and all 6 keyTracks (Gershwin program: It Ain't Necessarily So, The Man I Love, Oh Where's My Bess?, etc.) match the Ran Blake MB tracklist. But the albumDNA's factual skeleton (organist John Patton, recorded 1968, Blue Note) belongs to a wholly different album, confirmed by the opensearch Wikipedia page which is Big John Patton's record. The tail sentence correctly says '1991 by Ran Blake' but the lead is wrong-entity. wikipediaUrl is null (not stored), so no wrong link shipped; the corruption is in the prose."
+ },
+ {
+  "id": "pittsburgh",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (embedded MBID) and Wikipedia both confirm Ahmad Jamal, Pittsburgh, 1989, Atlantic. albumDNA is verbatim from Wikipedia: recorded 1989, Atlantic, tribute to his hometown, recorded in Chicago. All 5 keyTracks match the tracklist."
+ },
+ {
+  "id": "thelonious-fred-hersch-plays-monk",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID MB release confirms Fred Hersch, Thelonious: Fred Hersch Plays Monk, 1997-02, Nonesuch. All 5 keyTracks and both named tracks in albumDNA match the MB tracklist. Stored Wikipedia URL is the Fred Hersch artist page (correct entity); the Village Vanguard solo-residency claim is verbatim from it. The 'jazz fusion' genre label is a stretch for a solo Monk tribute but is editorial framing, not contradicted by any evidence passage, so not flagged per the editorial-opinion rule."
+ },
+ {
+  "id": "vibes-a-la-red",
+  "verdict": "clean",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID MB release confirms Red Norvo, Vibes a la Red, label 2xHD; all 5 keyTracks and both named tracks in albumDNA match the MB tracklist. No Wikipedia evidence and MB has no date (2xHD is an audiophile reissue label, recordings are historic), but every checkable claim (label, tracks, artist) matches authoritative MB. year is null in both ours and MB, so no date claim to verify. 'early jazz' is editorial."
+ }
+]

@@ -1,0 +1,1939 @@
+[
+  {
+    "id": "singin-the-blues-beiderbecke",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.97,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "\"Singing the Blues\" is a popular song composed by Melvin Endsley and published in 1956. The highest-charting version was by Guy Mitchell and the first recording of the song was by Marty Robbins.",
+          "problem": "Prose skeleton is the 1956 pop song, an unrelated entity; our item is Bix Beiderbecke's recording/compilation. The pasted text itself disclaims the connection.",
+          "evidenceQuote": "It is not related to the 1920 jazz song \"Singin' the Blues\" recorded by Frank Trumbauer and Bix Beiderbecke in 1927.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "This is the documented disease case. Stored wiki URL (Singing_the_Blues) is the Guy Mitchell 1956 pop song page - wrong entity. The real album exists: MB (sim 1.0) matches a 1995 Drive Archive Bix compilation 'Singin' the Blues' whose tracklist contains all 6 keyTracks. Appended Bix bio sentences are accurate of the artist (and truncated mid-word: 'at a bel.'). Repair: rewrite prose around the Beiderbecke/Trumbauer material, repoint or drop the wiki link."
+    },
+    "ours": {
+      "title": "Singin' the Blues",
+      "artist": "Bix Beiderbecke",
+      "year": 1927,
+      "label": "Unknown",
+      "albumDNA": "\"Singing the Blues\" is a popular song composed by Melvin Endsley and published in 1956. The highest-charting version was by Guy Mitchell and the first recording of the song was by Marty Robbins. It is not related to the 1920 jazz song \"Singin' the Blues\" recorded by Frank Trumbauer and Bix Beiderbecke in 1927. Beiderbecke was one of the most influential jazz soloists of the 1920s, a cornet player noted for an inventive lyrical approach and purity of tone, with such clarity of sound that one contemporary famously described it like \"shooting bullets at a bel.",
+      "keyTracks": [
+        "Singin' the Blues",
+        "Way Down Yonder in New Orleans",
+        "I'm Comin' Virginia",
+        "Ostrich Walk",
+        "Riverboat Shuffle",
+        "Three Blind Mice"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Singing_the_Blues"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "89724786-c96d-4153-89f6-0683bb5d364c",
+          "title": "Singin' the Blues",
+          "date": "1995-??-07",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Bix Beiderbecke"
+          ],
+          "labels": [
+            {
+              "name": "Drive Archive",
+              "catalogNumber": "DE2=41065"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "f2927c6a-9803-4306-939f-03cef1d730a4",
+            "title": "Singin' the Blues",
+            "firstReleaseDate": "1995-??-07",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Singin' the Blues",
+            "Way Down Yonder in New Orleans",
+            "I'm Comin' Virginia",
+            "Ostrich Walk",
+            "Riverboat Shuffle",
+            "Three Blind Mice",
+            "Sorry",
+            "Sugar",
+            "Royal Garden Blues",
+            "Tiger Rag",
+            "Davenport Blues",
+            "Ol' Man River",
+            "Coquette",
+            "Georgia on My Mind"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Singing_the_Blues",
+        "page": {
+          "requestedTitle": "Singing the Blues",
+          "resolvedTitle": "Singing the Blues",
+          "shortDescription": "1956 song performed by Guy Mitchell",
+          "extract": "\"Singing the Blues\" is a popular song composed by Melvin Endsley and published in 1956. The highest-charting version was by Guy Mitchell and the first recording of the song was by Marty Robbins. It is not related to the 1920 jazz song \"Singin' the Blues\" recorded by Frank Trumbauer and Bix Beiderbecke in 1927.\n\n\n== Guy Mitchell ==\nThe best-known recording was released in October 1956 by Guy Mitchell and spent ten weeks at No. 1 on the U.S. Billboard chart from 8 December 1956, to 2 February 1957. It was Mitchell's second and last hit in Italy, on national Musica e Dischi Hit Parade, after \"My Heart Cries For You\" in 1951. An example of the U.S. recording is on Columbia #40769, dated 1956, with the Ray Conniff Orchestra. Mitchell's version was also No. 1 in the UK Singles Chart for three (non-consecutive) weeks in early 1957, one of only four singles to rise to No. 1 on the chart on three occasions, with the other three being \"I Believe\" by Frankie Laine, \"Happy\" by Pharrell Williams and \"What Do You Mean?\" by Justin Bieber. Mitchell's version prominently features whistling in the intro and solo sections.\n\n\n== Marty Robbins and Tommy Steele versions ==\nTwo other charting versions of the song were released almost simultaneously with Mitchell's, one by the English singer Tommy Steele (with the Steelmen) and the other (recorded before Mitchell covered it) by US country singer Marty Robbins.\nTommy Steele's version of \"Singing the Blues\" made number 1 in the UK Singles Chart for one week on 11 January 1957, sandwiched by two of the weeks that Guy Mitchell's version of the same song topped the charts. Steele's recording of the song was not a chart success in the US.\nThe Marty Robbins version, recorded at the Bradley Studios in Nashville, Tennessee, made it to number one on the Billboard C&W Best Sellers chart for 13 weeks in late 1956 and early 1957 and peaked at number seventeen on the US pop chart. In 1983, Gail Davies recorded a cover version, taking her version into the top 20 of the Hot Country Singles chart in the spring of 1983.\n\n\n== Other cover versions ==\nThe song is often revived, and on four occasions new recordings of \"Singing the Blues\" have become UK Top 40 hits. These latter-day hit versions were by Dave Edmunds (1980), Gail Davies (1983), Daniel O'Donnell (1994), and Cliff Richard & the Shadows (2009).\n\n\n== Charting versions ==\n\n\n== More cover versions ==\nTrumpeter Bob Scobey and banjoist/vocalist Clancy Hayes recorded a trad jazz version in 1958 for the LP \"Scobey and Clancy raid the Jukebox\" on the Good Time Jazz label. Other notable cover versions include a 1960 recording by Bill Haley & His Comets, a 1963 version by Dean Martin, and a 1971 version by Black Oak Arkansas. It was recorded by Marie Osmond for her 1975 album In My Little Corner of the World, by Gene Summers on his 1981 French album Gene Summers in Nashville, by Randy Travis on his 1989 album No Holdin' Back, and by The Kentucky Headhunters for their album Stompin' Grounds (1997). A version by Bert Jansch appears on his 2000 release Crimson Moon. Frank Ifield, Max Bygraves and Slim Whitman also recorded the song.\n\"Singing the Blues\" was performed live by Paul McCartney on the MTV show Unplugged in 1991 and included on the subsequent soundtrack, Unplugged (The Official Bootleg).\nHank Snow did it on his 1969 album on RCA \"I Went To Your Wedding\".\nThe song was also performed by Albert Lee.\nThe tune was also sung by Vivian Vance and William Frawley (Ethel and Fred of I Love Lucy fame) for a Ford Motor Company television commercial promoting the Edsel.\nThe Californian pop punk band Groovie Ghoulies covered the song on their third album World Contact Day in 1996.\nThe first line of this song is famously the last line of \"London Calling\" by the Clash, cut short and echoed in the final mix of the song (\"I never felt so much a-like, a-like, a-like...\").\nHugues Aufray and his Skiffle Group recorded a French version of the song, \"Tout le long du chemin\", in 1964.\n\n\n== Use in English football ==\nBirmingham City-supporting radio presenters Tom Ross and Ian Danter released a version to celebrate the club's promotion to the Premier League.  It has been sung since at least the 1969 season by fans of the Midlands club.  Blackburn Rovers fans have been known to sing a version of the song: \"Never felt more like singing the blues, the Rovers win and Burnley lose, oh Rovers, you've got me singing the blues.\"  Everton fans sing a version of this song; \"I've never fe"
+        }
+      }
+    }
+  },
+  {
+    "id": "aint-misbehavin-waller",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.85,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "mismatch",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "\"Ain't Misbehavin'\" is a 1929 stride jazz/early swing song. Andy Razaf wrote the lyrics to a score by Thomas \"Fats\" Waller and Harry Brooks for the Broadway musical comedy play Connie's Hot Chocolates.",
+          "problem": "Prose describes the song composition (wiki page 'Ain't Misbehavin' (song)'), not the album this item represents; the embedded-MBID release is a 2001 Castle Pulse Fats Waller compilation.",
+          "evidenceQuote": "shortDescription: \"1929 song\"; MB release: title \"Ain’t Misbehavin’\", date \"2001\", secondaryTypes [\"Compilation\"]",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Kind-level mismatch: song prose on an album item. Mitigation: it is the album's own title song by the same artist, and every stated song fact is confirmed by the song wiki page - so the facts are true, just not about an album. keyTracks check against the authoritative embedded tracklist: only 'Ain't Misbehavin'' and 'Two Sleepy People' match; the other 4 look like a generic Waller hits list. Stored wiki URL is the song page, not an album page. Year 1929 matches the song, not the 2001 release (recording-era convention)."
+    },
+    "ours": {
+      "title": "Ain't Misbehavin'",
+      "artist": "Fats Waller",
+      "year": 1929,
+      "label": "Unknown",
+      "albumDNA": "\"Ain't Misbehavin'\" is a 1929 stride jazz/early swing song. Andy Razaf wrote the lyrics to a score by Thomas \"Fats\" Waller and Harry Brooks for the Broadway musical comedy play Connie's Hot Chocolates. It was published by Mills Music.",
+      "keyTracks": [
+        "Ain’t Misbehavin’",
+        "Until the Real Thing Comes Along",
+        "Two Sleepy People",
+        "I’m Gonna Sit Right Down and Write Myself a Letter",
+        "Tea for Two",
+        "I Can’t Give You Anything but Love, Baby"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ain't_Misbehavin'_(song)"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "fbd52c25-e31c-4c31-b403-5306aa13cad4",
+          "title": "Ain’t Misbehavin’",
+          "date": "2001",
+          "country": "GB",
+          "status": "Official",
+          "artists": [
+            "Fats Waller"
+          ],
+          "labels": [
+            {
+              "name": "Castle Pulse",
+              "catalogNumber": "PLSCD464"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "907e02d4-a64f-4423-a0f9-b1762403011b",
+            "title": "Ain’t Misbehavin’",
+            "firstReleaseDate": "2001",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "My Very Good Friend the Milkman",
+            "12th Street Rag",
+            "When Somebody Thinks You’re Wonderful",
+            "Ain’t Misbehavin’",
+            "Your Feet’s Too Big",
+            "The Darktown Strutters’ Ball",
+            "E-flat Blues",
+            "Truckin’",
+            "Blue Turning Grey Over You",
+            "Boo Hoo",
+            "Two Sleepy People",
+            "Somebody Stole My Gal",
+            "Sweet Sue",
+            "Georgia Rockin’ Chair",
+            "It’s a Sin to Tell a Lie",
+            "Sugar Rose",
+            "S’posin’",
+            "The Sheik of Araby",
+            "Rhythm and Romance",
+            "Honeysuckle Rose"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Ain't_Misbehavin'_(song)",
+        "page": {
+          "requestedTitle": "Ain't Misbehavin' (song)",
+          "resolvedTitle": "Ain't Misbehavin' (song)",
+          "shortDescription": "1929 song",
+          "extract": "\"Ain't Misbehavin'\" is a 1929 stride jazz/early swing song. Andy Razaf wrote the lyrics to a score by Thomas \"Fats\" Waller and Harry Brooks for the Broadway musical comedy play Connie's Hot Chocolates. It was published by Mills Music.\nAs a work from 1929 with its copyright renewed, it entered the American public domain on January 1, 2025.\n\n\n== Composition ==\n\nThe original sheet music for \"Ain't Misbehavin'\" is written in the key of E-flat major.\n\n\n== First performances ==\nThe song was first performed at the premiere of Connie's Hot Chocolates in Harlem at Connie's Inn as an opening song by Paul Bass and Margaret Simms, and repeated later in the musical by Russell Wooding's Hallelujah Singers. Connie's Hot Chocolates was transferred to the Hudson Theatre on Broadway during June 1929, where it was renamed to Hot Chocolates and where Louis Armstrong became the orchestra director. The script also required Armstrong to play \"Ain't Misbehavin'\" in a trumpet solo, and although this was initially slated only to be a reprise of the opening song, Armstrong's performance was so well received that the trumpeter was asked to climb out of the orchestra pit and play the piece on stage. As noted by Thomas Brothers in his book Louis Armstrong: Master of Modernism, Armstrong was first taught \"Ain't Misbehavin'\" by Waller himself, \"woodshedding\" it until he could \"play all around it\"; he cherished it \"because it was 'one of those songs you could cut loose and swing with.'\"\n\n\n== Recordings ==\nDuring the first half of the 20th century, when a tune was successful in terms of sheet music sold, it was typically recorded by several different artists. All six \"Ain't Misbehavin'\" recordings of 1929 were successes in the American Society of Composers, Authors and Publishers (ASCAP) rankings for that year:\n\nLeo Reisman and his orchestra (with vocals by Lew Conrad, No. 2).\nLouis Armstrong (No. 7).\nBill Robinson (with Irving Mills & his Hotsy Totsy Gang, No. 8).\nGene Austin (with Leonard Joy & his orchestra, No. 9).\nRuth Etting (No. 16).\nFats Waller (instrumental version, No. 17).\nWaller re-recorded the song with vocals for the 1943 movie Stormy Weather. Waller's recording received the Grammy Hall of Fame Award during 1984. In 2001, it was one of 365 Songs of the Century selected by the RIAA, and it was one of fifty recordings selected for inclusion in the National Recording Registry by the Library of Congress in 2004.\n\"Ain't Misbehavin'\" has been recorded by many other performers over the years. Johnnie Ray's version scored No. 17 in the UK Singles Chart during May 1956. In 1960, Tommy Bruce and the Bruisers had a number 3 hit in the UK Singles Chart with their cover version of the song. During 1976, Leon Redbone performed the song on Saturday Night Live. \nIt served as the title song of the successful 1978 musical Ain't Misbehavin'. Country music artist Hank Williams Jr. recorded a version for his 1985 studio album Five-O. Released as a single, the song peaked at No. 1 on Billboard's Hot Country Singles chart and earned Williams a Grammy Award nomination for Best Country Vocal Performance, Male.\n\n\n== Use in film and video games ==\n1943: Stormy Weather, performed by Fats Waller.\n1944: Atlantic City, sung by Louis Armstrong.\n1948: You Were Meant for Me\n1955: Gentlemen Marry Brunettes, performed by Alan Young, Jane Russell, Jeanne Crain (dubbed by Anita Ellis) and Chorus, with choreography.\n1975: Lucky Lady, performed by Burt Reynolds.\n2013: An instrumental version is heard in Baz Luhrmann's The Great Gatsby. The film, set in 1922, predates the song by several years, makes its appearance anachronistic.\n2018: The song is played on the in-game radio station of Appalachia Radio within the game of Fallout 76.\n\n\n== See also ==\nList of 1920s jazz standards\n\n\n== Notes ==\n\n\n== References ==\n\n\n=== Sources ===\nBrothers, Thomas (2014). Louis Armstrong: Master of Modernism. New York: W. W. Norton & Company. ISBN 978-0-393-06582-4 – via Google Books.\nPaymer, Marvin E.; Post, Don E. (1999). Sentimental Journey: Intimate Portraits of America's Great Popular Songs, 1920-1945. Noble House Publishers. ISBN 978-1-881907-09-1 – via Google Books.\nRoberts, David (2006). British Hit Singles & Albums (19th ed.). London: Guinness World Records Limited. ISBN 1-904994-10-5.\nRust, Brian (1975). The American Dance Band Discography 1917–1942: Arthur Lange to Bob Zurke. New Rochelle, New York: Arlington House. ISBN 978-0870002489.\nWaller, Fats; Brooks, Harry; Razaf, Andy (1929). "
+        }
+      }
+    }
+  },
+  {
+    "id": "quintette-du-hot-club-de-france",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.85,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "The Quintette du Hot Club de France, often abbreviated \"QdHCdF\" or \"QHCF\", was a jazz group founded in France in 1934 by the guitarist Django Reinhardt and the violinist Stéphane Grappelli.",
+          "problem": "Prose describes the band, not the album; the item is an album (embedded MBID: undated Rockin' Chair compilation credited to Django Reinhardt).",
+          "evidenceQuote": "shortDescription: \"French jazz group\"",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Prose is the group's wiki lead verbatim; both stated facts (founded 1934 by Reinhardt and Grappelli, active until 1948) are confirmed - about the group. Zero album-level content. All 6 keyTracks are on the embedded MB tracklist, so the underlying release reference is sound. Stored wiki URL is the group page (related entity, not a random collision). Repair: write album-level prose; the MB release has no date, so the 1934 year field is unverified era convention."
+    },
+    "ours": {
+      "title": "Quintette du Hot Club de France",
+      "artist": "Django Reinhardt",
+      "year": 1934,
+      "label": "Unknown",
+      "albumDNA": "The Quintette du Hot Club de France, often abbreviated \"QdHCdF\" or \"QHCF\", was a jazz group founded in France in 1934 by the guitarist Django Reinhardt and the violinist Stéphane Grappelli. It was active in one form or another until 1948.",
+      "keyTracks": [
+        "Exactly Like You",
+        "Rose Room",
+        "Body and Soul",
+        "You're Driving Me Crazy",
+        "Chicago",
+        "A Little Love, a Little Kiss"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Quintette_du_Hot_Club_de_France"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "67c6c97f-56f4-41ff-87f0-2e5898ef5e43",
+          "title": "Quintette du Hot Club de France",
+          "date": "",
+          "country": "ES",
+          "status": "Official",
+          "artists": [
+            "Django Reinhardt"
+          ],
+          "labels": [
+            {
+              "name": "Rockin' Chair",
+              "catalogNumber": null
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "3f3a403c-25de-3e5c-bf37-97e3c77c04db",
+            "title": "Quintette du Hot Club de France",
+            "firstReleaseDate": "",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Exactly Like You",
+            "Rose Room",
+            "Body and Soul",
+            "You're Driving Me Crazy",
+            "Chicago",
+            "A Little Love, a Little Kiss",
+            "The Sheik of Araby",
+            "Djangology",
+            "In a Sentimental Mood",
+            "Swinging' With Django",
+            "Tears",
+            "Sweet Sue",
+            "My Serenade",
+            "Runnin' Wild",
+            "Limehouse Blues",
+            "I Saw the Stars",
+            "Clouds",
+            "I Can't Give You Anything but Love",
+            "Sweet Chorus",
+            "Swingin' Guitars"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Quintette_du_Hot_Club_de_France",
+        "page": {
+          "requestedTitle": "Quintette du Hot Club de France",
+          "resolvedTitle": "Quintette du Hot Club de France",
+          "shortDescription": "French jazz group",
+          "extract": "The Quintette du Hot Club de France (\"The Quintet of the Hot Club of France\"), often abbreviated \"QdHCdF\" or \"QHCF\", was a jazz group founded in France in 1934 by the guitarist Django Reinhardt and the violinist Stéphane Grappelli. It was active in one form or another until 1948.\nOne of the earliest and most significant continental jazz groups in Europe, the Quintette was described by critic Thom Jurek as \"one of the most original bands in the history of recorded jazz.\" In contrast with the \"New Orleans Sound\" of groups like Louis Armstrong and His Hot Five and Hot Seven, the group (at least in its early incarnations) featured an (at that time, novel) \"all strings\" lineup with the lead parts taken by virtuoso acoustic guitar and violin, the bass part on double bass in place of tuba or sousaphone, and the rhythm and accompanying chords supplied by additional guitarists, with no drummer.\nTheir most famous lineup featured Reinhardt, Grappelli, bassist Louis Vola, and rhythm guitarists Roger Chaput and Joseph Reinhardt (Django's brother) although occupants of the latter roles varied from time to time. Later incarnations of the Quintette (and its successors playing in a similar style) sometimes incorporated reeds (clarinet) players in place of Grappelli's violin, and also sometimes added a drummer in place of one of the rhythm guitars.\n\n\n== History ==\nAccording to Grappelli, the group evolved from a series of backstage jams originated by Django Reinhardt, with Stephane Grappelli, at the Hôtel Claridge on the Champs-Élysées in Paris, where the two were engaged as members of a band led by bassist Louis Vola in the summer of 1934. After a series of informal jam sessions at the Hôtel Claridge, concert promoters Pierre Nourry and Charles Delaunay (leaders of the \"Hot Club de France\", a society chaired by Hugues Panassié devoted to the appreciation of jazz) urged the formation of a permanent group. With the addition of Reinhardt's brother Joseph on second rhythm guitar, the quintet popularized the gypsy jazz style. The group began its recording career in November 1934, releasing two titles on the Odeon label under the name \"Delaunay's Jazz\". A December 1934 session produced the first recordings released under the name \"Django Reinhardt et le Quintette du Hot Club de France, avec Stéphane Grappelly\" (with Django's name misspelled as \"Djungo\"). Throughout 1935, the group recorded both under this name and as \"Stéphane Grappelly and His Hot Four featuring Django Rheinhardt\". Grappelli and Reinhardt maintained active schedules as freelance musicians during the early years of the Quintette, recording and performing with French pop artists such as Jean Sablon, Le Petit Mirsha, and Nane Cholet, and with jazz artists such as Coleman Hawkins, Benny Carter, Rex Stewart, Larry Adler, Alix Combelle, and André Ekyan. Between 1934 and 1948, the Quintette du Hot Club de France recorded more than 130 titles in the studio for the Decca, Swing, HMV, Ultraphone, and Odeon labels. \nA series of European tours were very successful, with the group enjoying particular popularity in the UK. Several bassists and rhythm guitarists rotated in and out of the group, with Django and Grappelli remaining the sole constants. In 1937, the American jazz singer Adelaide Hall opened a nightclub in Montmartre along with her husband Bert Hicks and called it 'La Grosse Pomme'. She entertained there nightly and hired the Quintette du Hot Club de France as one of the house bands at the club. \nAs World War II broke out in September 1939, the Quintette was on a concert tour of England. Reinhardt, who spoke virtually no English, immediately returned to France, where he thought he would feel safer than in the UK.  Grappelli, meanwhile, stayed in England.   \nDjango continued using the Quintette name with a different group, featuring Hubert Rostaing as the first of several clarinetists backed by a more conventional rhythm section with drums, bass and a rhythm guitar played by Django's son Lousson Reinhardt, or his brother Joseph.  This version of the Quintette often featured six, not five, players, and was usually billed as \"Django et le Quintette du Hot Club de France\", or sometimes as Django's \"Nouveau Quintette\".  Due to wartime shortages of material, this version of the Quintette did not issue many recordings (some 70 titles were recorded between 1940 and 1948), although they did issue the first recording of the Django Reinhardt composition Nuages, later to become a jazz s"
+        }
+      }
+    }
+  },
+  {
+    "id": "the-joint-is-jumpin",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.9,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "A Handful of Keys is an album of live performances by jazz pianist Fats Waller & His Rhythm, the only authorized live performances of the musician. It features previously unreleased live radio transcriptions originally broadcast in 1938.",
+          "problem": "Prose describes a different Fats Waller album ('A Handful of Keys', live 1938 radio transcriptions, per the linked wiki page) - not our item 'The Joint Is Jumpin'', which per embedded MBID is a 1987 Bluebird/RCA studio-recordings compilation.",
+          "evidenceQuote": "MB release: title \"The Joint Is Jumpin'\", date \"1987\", labels Bluebird/RCA 6288-2-RB, secondaryTypes [\"Compilation\"]",
+          "source": "mb"
+        }
+      ],
+      "notes": "Same-artist, wrong-album substitution. The stored wiki URL (Handful_of_Keys_(album)) matches the prose but not the item - both prose and link belong to the other album. Meanwhile all 6 keyTracks DO sit on the embedded Joint Is Jumpin' tracklist, so the catalog reference is correct and only prose+link need repair. Year 1937 matches the title song era, not the 1987 compilation (convention)."
+    },
+    "ours": {
+      "title": "The Joint Is Jumpin'",
+      "artist": "Fats Waller",
+      "year": 1937,
+      "label": "Unknown",
+      "albumDNA": "A Handful of Keys is an album of live performances by jazz pianist Fats Waller & His Rhythm, the only authorized live performances of the musician. It features previously unreleased live radio transcriptions originally broadcast in 1938.",
+      "keyTracks": [
+        "Handful of Keys",
+        "The Minor Drag",
+        "Numb Fumblin'",
+        "Ain't Misbehavin'",
+        "Smashing Thirds",
+        "African Ripples"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Handful_of_Keys_(album)"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "d5dd68a9-4a9e-4853-b3d0-61dd8eb7ac98",
+          "title": "The Joint Is Jumpin'",
+          "date": "1987",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Fats Waller"
+          ],
+          "labels": [
+            {
+              "name": "Bluebird",
+              "catalogNumber": "6288-2-RB"
+            },
+            {
+              "name": "RCA",
+              "catalogNumber": "6288-2-RB"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "73e7a089-767a-3d68-a5f5-97983776485a",
+            "title": "The Joint Is Jumpin'",
+            "firstReleaseDate": "1987",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Handful of Keys",
+            "The Minor Drag",
+            "Numb Fumblin'",
+            "Ain't Misbehavin'",
+            "Smashing Thirds",
+            "African Ripples",
+            "Alligator Crawl",
+            "Viper's Drag",
+            "Lulu's Back in Town",
+            "I'm Crazy 'Bout My Baby",
+            "S'posin'",
+            "Honeysuckle Rose",
+            "Blues",
+            "Tea for Two",
+            "I Ain't Got Nobody",
+            "The Joint Is Jumpin'",
+            "The Sheik of Araby",
+            "Yacht Club Swing",
+            "(When You) Squeeze Me",
+            "Your Feet's Too Big",
+            "Carolina Shout",
+            "Honeysuckle Rose",
+            "Ain't Misbehavin'"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Handful_of_Keys_(album)",
+        "page": {
+          "requestedTitle": "Handful of Keys (album)",
+          "resolvedTitle": "Handful of Keys (album)",
+          "shortDescription": "1957 compilation album (live) by Fats Waller",
+          "extract": "A Handful of Keys is an album of live performances by jazz pianist Fats Waller & His Rhythm, the only authorized live performances of the musician. It features previously unreleased live radio transcriptions originally broadcast in 1938.\n\n\n== Track listing ==\n\"Ain't Misbehavin'\" (Waller, Harry Brooks, Andy Razaf) – 1:06\n\"The Joint is Jumpin'\" (Waller, J. C. Johnson, Razaf) – 3:00\n\"Inside\" (a.k.a. \"Inside This Heart of Mine\") (Waller) – 3:01\n\"I Had To Do It\" (Waller, Razaf) – 2:15\n\"E Flat Blues\" (Clarence Williams, Thomas Morris) – 2:48\n\"Hold My Hand\" (Waller, Johnson) – 2:28\n\"Stop Beatin' 'Round the Mulberry Bush\" (Clay Boland, Bickley Reichner) – 2:54\n\"What's The Matter With You\" (Jimmy Webb, Stan Levey) – 2:31\n\"Hallelujah\" (Vincent Youmans, Leo Robin, Clifford Grey) – 1:34\n\"What's Your Name\" (Fats Waller, Johnson) – 3:26\n\"I Simply Adore You\" (Paul Mann, Ned Weaver) – 2:37\n\"My Best Wishes\" (Samuel Pokrass, Ted Koehler) – 2:29\n\"Handful of Keys\" (Waller) – 1:57\n\"The Sheik of Araby\" (Ted Snyder, Harry B. Smith, Francis Wheeler) – 3:16\n\"The Flat Foot Floogie\" (Slim Gaillard, Slam Stewart, Bud Green) – 4:00\n\"St. Louis Blues\" (W. C. Handy) – 1:57\n\"Pent Up In a Penthouse\" (Williams, Tommie Connor) – 3:34\n\"Honeysuckle Rose\" (Waller, Razaf) – 3:40\n\"I Got Rhythm\" (George Gershwin, Ira Gershwin) – 2:36\n\"Some of These Days\" (Shelton Brooks) – 2:12\n\"After You've Gone\" (Turner Layton, Henry Creamer) – 2:01\n\"The Yacht Club Swing\" (Waller, Johnson, Herman Autrey) – 3:11\nRecorded live at NBC Studios and The Yacht Club, New York, in 1938\n\n\n== Personnel ==\nMusicians\n\nFats Waller – piano and vocals\nHerman Autrey – trumpet\nGene Sedric – clarinet and tenor saxophone\nAl Casey – guitar\nCedric Wallace – bass\nSlick Jones – drums\nProduction\n\nMike Ragogna, Glenn Korman – producer\nWill Friedwald – producer, liner notes\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "django-reinhardt-et-son-quintette",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.85,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "\"Nuages\" is one of the best-known compositions by Django Reinhardt. He recorded at least thirteen versions of the tune, which is a jazz standard and a mainstay of the gypsy swing repertoire.",
+          "problem": "Prose describes the composition 'Nuages', not the album; the embedded-MBID release is a 1988 Vogue (FR) compilation titled Nuages.",
+          "evidenceQuote": "shortDescription: \"Composition by Django Reinhardt\"; MB release: date \"1988\", label Vogue, secondaryTypes [\"Compilation\"]",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Composition prose on an album item (title-track page substitution). All composition facts are confirmed verbatim by the Nuages wiki page; nothing describes the album. All 6 keyTracks are on the embedded MB tracklist, so the release reference is sound. Year 1940 matches the famous recordings of the tune (wiki: two 1940 recordings), not the 1988 release - era convention. Stored URL is the composition page; for an album entry that is not the album's page."
+    },
+    "ours": {
+      "title": "Nuages",
+      "artist": "Django Reinhardt",
+      "year": 1940,
+      "label": "Unknown",
+      "albumDNA": "\"Nuages\" is one of the best-known compositions by Django Reinhardt. He recorded at least thirteen versions of the tune, which is a jazz standard and a mainstay of the gypsy swing repertoire. English and French lyrics have been added to the piece, which was originally an instrumental work. The title translated into English is \"Clouds\", but the adaptation with English lyrics is titled \"It's the Bluest Kind of Blues\".",
+      "keyTracks": [
+        "Nuages",
+        "Swing Guitars",
+        "Saint Louis Blues",
+        "Viper's Dream",
+        "Daphne",
+        "Dinah"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nuages"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "5c162ec5-f61d-405d-99e2-b390b85c9fe4",
+          "title": "Nuages",
+          "date": "1988",
+          "country": "FR",
+          "status": "Official",
+          "artists": [
+            "Django Reinhardt"
+          ],
+          "labels": [
+            {
+              "name": "Vogue",
+              "catalogNumber": "670205"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "57e47d74-f785-3940-84cf-d557657975c0",
+            "title": "Nuages",
+            "firstReleaseDate": "1988",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Nuages",
+            "Swing Guitars",
+            "Saint Louis Blues",
+            "Viper's Dream",
+            "Daphne",
+            "Dinah",
+            "Minor Swing",
+            "Les Yeux Noirs",
+            "Old Man River",
+            "Louise",
+            "Dinette",
+            "Swingtime in Springtime",
+            "Blues en Mineur",
+            "Swing 39",
+            "Belleville",
+            "Crepuscule"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Nuages",
+        "page": {
+          "requestedTitle": "Nuages",
+          "resolvedTitle": "Nuages",
+          "shortDescription": "Composition by Django Reinhardt",
+          "extract": "\"Nuages\" (French pronunciation: [nɥaʒ]) is one of the best-known compositions by Django Reinhardt. He recorded at least thirteen versions of the tune, which is a jazz standard and a mainstay of the gypsy swing repertoire. English and French lyrics have been added to the piece, which was originally an instrumental work. The title translated into English is \"Clouds\", but the adaptation with English lyrics is titled \"It's the Bluest Kind of Blues\".\nIn 1940, Django made two recordings of \"Nuages\" in F major, and with a clarinet melody. (Some later recordings are in G  major, perhaps to suit the violin.) Unhappy with the first recording, Reinhardt added a second clarinet, creating a renowned arrangement for the December 1940 recording. Reinhardt's 1946 recording (as can be heard in the sample) is in the key of G major. A final recording was made at a 1953 session just before he died, where we hear Reinhardt with only Maurice Vander on piano, Pierre Michelot on bass, and Jean-Louis Viale on drums. He was using an electric guitar by this time. \"Nuages\" was released by Django Reinhardt and the Quintet of the Hot Club of France on the French Swing label as a 78-RPM single in 1940. The flip side is \"Les Yeux Noirs\".\n\n\n== Other recordings ==\nSidney Bechet – Rendez-vous avec Sidney Bechet et Andre Reweliotty (1953)\nTony Bennett – used the music with new lyrics that he wrote for a song titled \"All for You\" on The Art of Romance (2004)\nBenny Carter – Elegy in Blue (1994)\nPino Daniele – vocal version in his album – Passi d'autore (2004)\nLucienne Delyle – vocal version of \"Nuages\" with French lyrics by Jacques Larue (1942)\nDenny Dennis with the Stanley Black Orchestra – vocal version \"It's the Bluest Kind of Blues My Baby Sings\" with English lyrics by Spencer Williams (1942)\nPaul Desmond with Ed Bickert – Pure Desmond (1974)\nPeggy Lee with Dave Barbour and His Orchestra – vocal version \"It's the Bluest Kind of Blues\" (1946, not issued until 2000)\nManhattan Transfer – on their album Swing (1997) – \"Clouds\" – with vocal arrangement by Gene Puerling and vocalese lyrics by Jon Hendricks – guest appearances by the Rosenberg Trio and Stéphane Grappelli (a founding member of Django's Quintette du Hot Club de France—one of Grappelli's last recordings)\nZlatko Manojlović – Zlatko i njegove gitare (1980)\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "django",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.85,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Jean Reinhardt, known by his Romani nickname Django, was a Belgian-born Romani jazz guitarist and composer who lived most of his life in France.",
+          "problem": "Prose is an artist biography (person), but the item is the album 'Djangology'; per MB the matched release is a 1974 Jazz Vogue compilation.",
+          "evidenceQuote": "MB release: title \"Djangology\", date \"1974\", label \"Jazz Vogue\" VJD502, secondaryTypes [\"Compilation\"]",
+          "source": "mb"
+        }
+      ],
+      "notes": "Person-bio prose on an album item. Bio facts are confirmed verbatim by the Django Reinhardt wiki page (the stored link - artist page, not an album page). 'Invented European jazz' is editorial. All 4 keyTracks are on the MB tracklist. Fields year=1949/label=Vogue cannot be confirmed from this evidence (MB match is a 1974 Jazz Vogue comp); if the site means the 1949 Rome 'Djangology' sessions, neither evidence document covers that. Repair: album-level prose needed."
+    },
+    "ours": {
+      "title": "Djangology",
+      "artist": "Django Reinhardt",
+      "year": 1949,
+      "label": "Vogue",
+      "albumDNA": "Jean Reinhardt, known by his Romani nickname Django, was a Belgian-born Romani jazz guitarist and composer who lived most of his life in France. He was one of the first major jazz talents to emerge in Europe and has been hailed as one of its most significant exponents. Invented European jazz. Django's influence extends from jazz to rock to countless guitarists who marvel at his impossible virtuosity.",
+      "keyTracks": [
+        "Minor Swing",
+        "Nuages",
+        "Djangology",
+        "Swing 39"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Django_Reinhardt"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "12922d94-7a73-4c61-ad64-42e485c38e4f",
+          "title": "Djangology",
+          "date": "1974",
+          "country": "GB",
+          "status": null,
+          "artists": [
+            "Django Reinhardt"
+          ],
+          "labels": [
+            {
+              "name": "Jazz Vogue",
+              "catalogNumber": "VJD502"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "80e3091c-8c3f-4272-9b3f-6bec1dbe3110",
+            "title": "Djangology",
+            "firstReleaseDate": "1974",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Djangology",
+            "Blue Drag",
+            "Dinah",
+            "Clouds",
+            "Some of These Days",
+            "Lentement Mademoiselle",
+            "Nuages",
+            "Just One of Those Things",
+            "Mélodie au crépuscule",
+            "Porto Cabello",
+            "Sweet Chorus",
+            "Swing 39",
+            "Billet doux",
+            "Lover Man",
+            "Place de Broukère",
+            "September Song",
+            "Saint Louis Blues",
+            "Louise",
+            "Daphne",
+            "Swing Guitars",
+            "Ol' Man Rover",
+            "Tears",
+            "I Love You",
+            "Manoir de mes rêves"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Django_Reinhardt",
+        "page": {
+          "requestedTitle": "Django Reinhardt",
+          "resolvedTitle": "Django Reinhardt",
+          "shortDescription": "Romani-French jazz musician (1910–1953)",
+          "extract": "Jean Reinhardt (23 January 1910 – 16 May 1953), known by his Romani nickname Django (French: [dʒãŋɡo ʁɛjnaʁt] or [dʒɑ̃ɡo ʁenɑʁt]), was a Belgian-born Romani jazz guitarist and composer who lived most of his life in France. He was one of the first major jazz talents to emerge in Europe and has been hailed as one of its most significant exponents.\nWith violinist Stéphane Grappelli, Reinhardt formed the Paris-based Quintette du Hot Club de France in 1934. The group was among the first to play jazz that featured the guitar as a lead instrument. Reinhardt recorded in France with many visiting American musicians, including Coleman Hawkins and Benny Carter, and briefly toured the United States with Duke Ellington's orchestra in 1946. He died suddenly of a brain hemorrhage in 1953 at the age of 43.\nReinhardt's most popular compositions have become standards within gypsy jazz, including \"Minor Swing\", \"Daphne\", \"Belleville\", \"Djangology\", \"Swing '42\", and \"Nuages\". The jazz guitarist Frank Vignola said that nearly every major popular music guitarist in the world has been influenced by Reinhardt. Over the last few decades, annual Django festivals have been held throughout Europe and the U.S., and a biography has been written about his life. In February 2017, the Berlin International Film Festival held the world premiere of the French biographical film Django, based on Reinhardt's life.\n\n\n== Biography ==\n\n\n=== Early life ===\nReinhardt was born on 23 January 1910 in Liberchies, Pont-à-Celles, Belgium, into a French family of Manouche Romani descent. His French, Alsatian father, Jean Eugène Weiss, domiciled in Paris with his wife, went by Jean-Baptiste Reinhardt, his wife's surname, to avoid French military conscription. His mother, Laurence Reinhardt, was a dancer. The birth certificate refers to \"Jean Reinhart, son of Jean Baptiste Reinhart, artist, and Laurence Reinhart, housewife, domiciled in Paris\".\nA number of authors have repeated the suggestion that Reinhardt's nickname, Django, is Romani for \"I awake\"; it may also simply have been a diminutive, or local Walloon version, of \"Jean\". Reinhardt spent most of his youth in Romani encampments close to Paris, where he started playing the violin, banjo and guitar. He became adept at stealing chickens. His father reportedly played music in a family band comprising himself and seven brothers; a surviving photograph shows this band including his father on piano.\nReinhardt was attracted to music at an early age, first playing the violin. At the age of 12, he received a banjo-guitar as a gift. He quickly taught himself to play, mimicking the fingerings of musicians he watched, who would have included local virtuoso players of the day such as Jean \"Poulette\" Castro and Auguste \"Gusti\" Malha, as well as from his uncle Guiligou, who played violin, banjo and guitar. Reinhardt was able to make a living playing music by the time he was 15, busking in cafés, often with his brother Joseph. At this time, he had not started playing jazz, although he had probably heard and been intrigued by the version of jazz played by American expatriate bands like Billy Arnold's.\nReinhardt received little formal education and acquired the rudiments of literacy only in adult life.\n\n\n=== Marriage and injury ===\nAt the age of 17, Reinhardt married Florine \"Bella\" Mayer, a girl from the same Romani settlement, according to Romani custom (although not an official marriage under French law). The following year he recorded for the first time. On these recordings, made in 1928, Reinhardt plays the \"banjo\" (actually the banjo-guitar) accompanying the accordionists Maurice Alexander, Jean Vaissade and Victor Marceau, and the singer Maurice Chaumel. His name was now drawing international attention, such as from British bandleader Jack Hylton, who came to France just to hear him play. Hylton offered him a job on the spot, and Reinhardt accepted.\nBefore he had a chance to start with the band, Reinhardt nearly died. On the night of 2 November 1928, Reinhardt was going to bed in the wagon that he and his wife shared in the caravan. He knocked over a candle, which ignited the extremely flammable celluloid that his wife used to make artificial flowers. The wagon was quickly  engulfed in flames. The couple escaped, but Reinhardt suffered extensive burns over half his body. During his 18-month hospitalization, doctors recommended amputation of his badly damaged right leg. Reinhardt refused the surgery and was eventually able t"
+        }
+      }
+    }
+  },
+  {
+    "id": "lover-man",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.8,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "\"Lover Man \" is a 1941 popular song written by Jimmy Davis, Roger (\"Ram\") Ramirez, and James Sherman.",
+          "problem": "Prose describes the song, not the album; the embedded-MBID release is the 1951 Decca LP (DL5345) by Billie Holiday.",
+          "evidenceQuote": "\"Lover Man\", or \"Lover Man (Oh, Where Can You Be?)\", is a 1941 song made popular by Billie Holiday.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Song prose on an album item. The opensearch wiki hit is only a disambiguation page; it confirms the song is from 1941 and associated with Holiday, but the writers' names and the 1989 Grammy Hall of Fame claim are unverifiable here. The album reference itself is excellent: embedded MB release confirms year 1951, label Decca Records, and all 5 keyTracks. Only the prose needs an album-level rewrite. No wiki URL shipped."
+    },
+    "ours": {
+      "title": "Lover Man",
+      "artist": "Billie Holiday",
+      "year": 1951,
+      "label": "Decca Records",
+      "albumDNA": "\"Lover Man \" is a 1941 popular song written by Jimmy Davis, Roger (\"Ram\") Ramirez, and James Sherman. It is particularly associated with Billie Holiday, for whom it was written, and her version was inducted into the Grammy Hall of Fame in 1989.",
+      "keyTracks": [
+        "Lover Man (Oh, Where Can You Be?)",
+        "That Ole Devil Called Love",
+        "You're My Thrill",
+        "Crazy He Calls Me",
+        "My Man (Mon Homme)"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "fc4227de-c4d6-4f60-b9be-10056469e48e",
+          "title": "Lover Man",
+          "date": "1951",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Billie Holiday"
+          ],
+          "labels": [
+            {
+              "name": "Decca Records",
+              "catalogNumber": "DL5345"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "01ca1df8-32b5-4f32-baef-3f8273fdd3d5",
+            "title": "Lover Man",
+            "firstReleaseDate": "1951",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Lover Man (Oh, Where Can You Be?)",
+            "That Ole Devil Called Love",
+            "You're My Thrill",
+            "Crazy He Calls Me",
+            "My Man (Mon Homme)",
+            "Porgy",
+            "There Is No Greater Love",
+            "Solitude"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Lover Man (album)",
+          "resolvedTitle": "Lover Man (disambiguation)",
+          "shortDescription": "Topics referred to by the same term",
+          "extract": "\"Lover Man\", or \"Lover Man (Oh, Where Can You Be?)\", is a 1941 song made popular by Billie Holiday.\nLover Man may also refer to:\n\nLover Man (Duke Jordan album), 1979\nLover Man (Archie Shepp album), 1989\nLover Man: A Tribute to Billie Holiday, John Hicks 1993\n\"Lover Man\", song by Jimi Hendrix from Isle of Wight\n\"Loverman\", a 1994 song by Nick Cave\n\"Loverman\", song by Train from A Girl, a Bottle, a Boat\n\n\n== See also ==\nMr Loverman, a 2013 novel by Bernardine Evaristo\nMr Loverman, a 2024 TV mini-series adaptation of the novel, starring Lennie James\n\"Mr. Loverman\", a 1992 song by Shabba Ranks"
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Lover Man (disambiguation)",
+            "shortDescription": "Topics referred to by the same term",
+            "extractHead": "\"Lover Man\", or \"Lover Man (Oh, Where Can You Be?)\", is a 1941 song made popular by Billie Holiday.\nLover Man may also refer to:\n\nLover Man (Duke Jordan album), 1979\nLover Man (Archie Shepp album), 1989\nLover Man: A Tribute to Billie Holiday, John Hicks 1993\n\"Lover Man\", song by Jimi Hendrix from Isle of Wight\n\"Loverman\", a 1994 song by Nick Cave\n\"Loverman\", song by Train from A Girl, a Bottle, a Boat\n\n\n== See also ==\nMr Loverman, a 2013 novel by Bernardine Evaristo\nMr Loverman, a 2024 TV mini-s"
+          },
+          {
+            "resolvedTitle": "The Lover in Me (album)",
+            "shortDescription": "1988 studio album by Sheena Easton",
+            "extractHead": "The Lover in Me is the ninth studio album by the Scottish singer Sheena Easton. It was released in November 1988, was her debut for MCA and spawned five singles – the title track, \"Days Like This\", \"101\", \"No Deposit, No Return\" and \"Follow My Rainbow\". In 2006, Cherry Red Records (UK) re-released The Lover in Me, (Expanded Edition) remastered and with added bonus tracks. On May 27, 2016, the album was officially released in the US for digital download on iTunes.\n\n\n== Background ==\nThe album has"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "oscar-peterson-plays-george-gershwin",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.95,
+      "entityMatch": {
+        "musicbrainz": "unsure",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "mismatch",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Night Train is an album by the Oscar Peterson Trio, released in 1963 by Verve Records.",
+          "problem": "The entire albumDNA describes a different album (Night Train, 1963, Verve) instead of Oscar Peterson Plays George Gershwin.",
+          "evidenceQuote": "shortDescription: \"1963 studio album by the Oscar Peterson Trio\"",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Stored wiki link also points to Night Train (Oscar Peterson album), so the site ships a wrong link for this item. The MB search hit is a 1954 Swedish Karusell EP (KEP 201) of the same title with only 4 tracks; entity match is unsure (ours claims a 1953 Clef LP), so the keyTracks mismatch is a weak signal: the two unmatched tracks may exist on the full Clef LP, which is absent from evidence. Year (1953 vs MB EP release group 1954) and label (Clef vs Karusell) are not flagged because the MB doc is a foreign EP issue, not proof about the original release. Repair needs a full prose rewrite about the Gershwin songbook album plus a corrected wiki link."
+    },
+    "ours": {
+      "title": "Oscar Peterson Plays George Gershwin",
+      "artist": "Oscar Peterson",
+      "year": 1953,
+      "label": "Clef Records",
+      "albumDNA": "Night Train is an album by the Oscar Peterson Trio, released in 1963 by Verve Records. The album includes jazz, blues and R&B standards, as well as \"Hymn to Freedom\", one of Peterson's best known original compositions. As a virtuoso who is considered to be one of the greatest jazz pianists of all time, Peterson released more than 200 recordings, won eight Grammy Awards, as well as a lifetime achievement award from the Recording Academy, and received numerous other .",
+      "keyTracks": [
+        "Man I Love",
+        "Fascinatin' Rhythm",
+        "It Ain't Necessarily So",
+        "Somebody Loves Me",
+        "Strike Up The Band"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Night_Train_(Oscar_Peterson_album)"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "f9ad3361-7782-4458-a587-5f876033aa14",
+          "title": "Oscar Peterson Plays George Gershwin",
+          "date": "1954",
+          "country": "SE",
+          "status": "Official",
+          "artists": [
+            "Oscar Peterson"
+          ],
+          "labels": [
+            {
+              "name": "Karusell",
+              "catalogNumber": "KEP 201"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "9c997321-b1c9-4959-a17a-26c63ca842f0",
+            "title": "Oscar Peterson Plays George Gershwin",
+            "firstReleaseDate": "1954",
+            "primaryType": "EP",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Man I Love",
+            "It Ain’t Necessarily So",
+            "Strike Up the Band!",
+            "A Foggy Day"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Night_Train_(Oscar_Peterson_album)",
+        "page": {
+          "requestedTitle": "Night Train (Oscar Peterson album)",
+          "resolvedTitle": "Night Train (Oscar Peterson album)",
+          "shortDescription": "1963 studio album by the Oscar Peterson Trio",
+          "extract": "Night Train is an album by the Oscar Peterson Trio, released in 1963 by Verve Records. The album includes jazz, blues and R&B standards, as well as \"Hymn to Freedom\", one of Peterson's best known original compositions.\n\n\n== Background ==\nAlbum producer Norman Granz had sold the record label Verve, but remained Peterson's manager, and so supervised the Night Train recording session. The brief duration of many of the tracks has been attributed to a desire to have them played on commercial radio, which was reluctant to play any tracks longer than a few minutes.\nThe cover art photograph is by Pete Turner and original sleeve notes were by Benny Green.\nThe album was dedicated to Peterson's father, who worked as a sleeping-car attendant for Canadian Pacific Railways.\n\n\n== Music and recording ==\nA Jazz.com review notes that the title track, \"Night Train,\" is evidence of Peterson's ability to balance musical innovation with popular appeal, as demonstrated throughout the album: \"By using the basic elements of crescendo and diminuendo, and arranged sections to set off the parts, Peterson turns what could have been a throwaway into a minor masterpiece.\"\nNight Train’s only original Oscar Peterson composition, \"Hymn to Freedom,\" was written on the spot in the studio to close the album, following Norman Granz's suggestion that the band include a song with a \"definitive early-blues feel.\" Peterson named the new song \"Hymn to Freedom\" in honor of Martin Luther King Jr., and after Harriette Hamilton wrote accompanying lyrics a year later, it became an unofficial anthem of the Civil Rights Movement. \"Hymn to Freedom\" is featured prominently in the 2021 documentary Oscar Peterson: Black + White as part of Peterson's enduring legacy.\nHymn to Freedom has been reinterpreted, in a jazz version, by Oliver Jones (piano), who is considered a disciple of Oscar Peterson; he described it as \"A class act\" album with changes to tempo, rhythm and structure and notable piano virtuosity. They played live together on 2004. Ben Webster (tenor sax) played it in \"At ease\" album hereby in an intimate version with extensive use of subtone.\nOn the 1997 CD reissue, an alternate take of \"Night Train\" is titled \"Happy Go Lucky Local,\" the name of the 1946 Duke Ellington composition that is the basis of Jimmy Forrest's \"Night Train.\" The alternate take features the same arrangement as the master take.\nEd Thigpen's rivet cymbal, recorded at very close range, is prominent on all issues of the album.\n\n\n== Critical reception ==\n\nFor AllMusic, critic John Bush wrote that the release \"includes stately covers of blues and R&B standards\". The Penguin Guide to Jazz included it in its core collection, calling it “one of the best-constructed long-players of the period\" and saying that Peterson's playing is \"tight and uncharacteristically emotional\".\nIn 2019, the album was named as the jury winner of the Polaris Heritage Prize.\n\n\n== Influence ==\nDiana Krall reported that listening to the album made being a jazz pianist her ambition. Linda May Han Oh reported that listening to the album inspired her to start playing upright bass.\n\n\n== Track listing ==\n\n(Tracks 12 through 17 are CD bonus tracks, not included on the original vinyl LP)\n\n\n== Personnel ==\nOscar Peterson - piano\nRay Brown - double bass\nEd Thigpen - drums\nTechnical personnel\n\nNorman Granz – production\nVal Valentin – recording engineering\nPete Turner – cover photography\nBenny Green - sleeve notes\n\n\n== References ==\n\n\n== Links ==\nNight Train at Discogs (list of releases)"
+        }
+      }
+    }
+  },
+  {
+    "id": "the-great-artistry-of-django-reinhardt",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.9,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [],
+      "notes": "albumDNA is a verbatim Django Reinhardt artist biography ('Jean Reinhardt ... was a Belgian-born Romani jazz guitarist and composer'), i.e. content about a person while the item is an album (the spec's entity_mismatch tell). The bio facts themselves match the person page, so no wrongClaims; the problem is wrong kind of content. Album fields are solid: embedded MBID resolves to release group 'The Great Artistry of Django Reinhardt' (firstReleaseDate 1953-11, matching year 1953) and all 5 keyTracks are on the MB tracklist. Label 'Clef Records' is unverifiable (the MB doc is a 2016 Jazz Images reissue) but not contradicted. Stored wiki link goes to the artist page, not an album page. Repair: write album-specific prose; fix or drop the wiki link."
+    },
+    "ours": {
+      "title": "The Great Artistry of Django Reinhardt",
+      "artist": "Django Reinhardt",
+      "year": 1953,
+      "label": "Clef Records",
+      "albumDNA": "Jean Reinhardt, known by his Romani nickname Django, was a Belgian-born Romani jazz guitarist and composer who lived most of his life in France. He was one of the first major jazz talents to emerge in Europe and has been hailed as one of its most significant exponents.",
+      "keyTracks": [
+        "Night and Day",
+        "Blues for Ike",
+        "Nuages",
+        "Insensiblement",
+        "Brazil"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Django_Reinhardt"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "7ed0ce3b-1702-48a9-9add-e0edbd8104e2",
+          "title": "Nuages",
+          "date": "2016",
+          "country": null,
+          "status": "Official",
+          "artists": [
+            "Django Reinhardt"
+          ],
+          "labels": [
+            {
+              "name": "Jazz Images",
+              "catalogNumber": null
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "739cf2a8-7ca7-4521-8769-2b3569bef7f8",
+            "title": "The Great Artistry of Django Reinhardt",
+            "firstReleaseDate": "1953-11",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Night And Day",
+            "Blues For Ike",
+            "Nuages",
+            "Insensiblement",
+            "Brazil",
+            "September Song",
+            "Confessin'",
+            "Manoir De Me Rêves",
+            "September Song",
+            "Brazil",
+            "I'll Never Smile Again",
+            "New York City",
+            "Django's Blues",
+            "Love's Mood",
+            "I Love You",
+            "Topsy",
+            "Moppin' The Bride",
+            "Insensiblement",
+            "Mano",
+            "Blues Primitif",
+            "Gipsy With A Song",
+            "Gipsy With A Song",
+            "Le Soir",
+            "Chez Moi",
+            "I Cover The Waterfront",
+            "Deccaphone"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Django_Reinhardt",
+        "page": {
+          "requestedTitle": "Django Reinhardt",
+          "resolvedTitle": "Django Reinhardt",
+          "shortDescription": "Romani-French jazz musician (1910–1953)",
+          "extract": "Jean Reinhardt (23 January 1910 – 16 May 1953), known by his Romani nickname Django (French: [dʒãŋɡo ʁɛjnaʁt] or [dʒɑ̃ɡo ʁenɑʁt]), was a Belgian-born Romani jazz guitarist and composer who lived most of his life in France. He was one of the first major jazz talents to emerge in Europe and has been hailed as one of its most significant exponents.\nWith violinist Stéphane Grappelli, Reinhardt formed the Paris-based Quintette du Hot Club de France in 1934. The group was among the first to play jazz that featured the guitar as a lead instrument. Reinhardt recorded in France with many visiting American musicians, including Coleman Hawkins and Benny Carter, and briefly toured the United States with Duke Ellington's orchestra in 1946. He died suddenly of a brain hemorrhage in 1953 at the age of 43.\nReinhardt's most popular compositions have become standards within gypsy jazz, including \"Minor Swing\", \"Daphne\", \"Belleville\", \"Djangology\", \"Swing '42\", and \"Nuages\". The jazz guitarist Frank Vignola said that nearly every major popular music guitarist in the world has been influenced by Reinhardt. Over the last few decades, annual Django festivals have been held throughout Europe and the U.S., and a biography has been written about his life. In February 2017, the Berlin International Film Festival held the world premiere of the French biographical film Django, based on Reinhardt's life.\n\n\n== Biography ==\n\n\n=== Early life ===\nReinhardt was born on 23 January 1910 in Liberchies, Pont-à-Celles, Belgium, into a French family of Manouche Romani descent. His French, Alsatian father, Jean Eugène Weiss, domiciled in Paris with his wife, went by Jean-Baptiste Reinhardt, his wife's surname, to avoid French military conscription. His mother, Laurence Reinhardt, was a dancer. The birth certificate refers to \"Jean Reinhart, son of Jean Baptiste Reinhart, artist, and Laurence Reinhart, housewife, domiciled in Paris\".\nA number of authors have repeated the suggestion that Reinhardt's nickname, Django, is Romani for \"I awake\"; it may also simply have been a diminutive, or local Walloon version, of \"Jean\". Reinhardt spent most of his youth in Romani encampments close to Paris, where he started playing the violin, banjo and guitar. He became adept at stealing chickens. His father reportedly played music in a family band comprising himself and seven brothers; a surviving photograph shows this band including his father on piano.\nReinhardt was attracted to music at an early age, first playing the violin. At the age of 12, he received a banjo-guitar as a gift. He quickly taught himself to play, mimicking the fingerings of musicians he watched, who would have included local virtuoso players of the day such as Jean \"Poulette\" Castro and Auguste \"Gusti\" Malha, as well as from his uncle Guiligou, who played violin, banjo and guitar. Reinhardt was able to make a living playing music by the time he was 15, busking in cafés, often with his brother Joseph. At this time, he had not started playing jazz, although he had probably heard and been intrigued by the version of jazz played by American expatriate bands like Billy Arnold's.\nReinhardt received little formal education and acquired the rudiments of literacy only in adult life.\n\n\n=== Marriage and injury ===\nAt the age of 17, Reinhardt married Florine \"Bella\" Mayer, a girl from the same Romani settlement, according to Romani custom (although not an official marriage under French law). The following year he recorded for the first time. On these recordings, made in 1928, Reinhardt plays the \"banjo\" (actually the banjo-guitar) accompanying the accordionists Maurice Alexander, Jean Vaissade and Victor Marceau, and the singer Maurice Chaumel. His name was now drawing international attention, such as from British bandleader Jack Hylton, who came to France just to hear him play. Hylton offered him a job on the spot, and Reinhardt accepted.\nBefore he had a chance to start with the band, Reinhardt nearly died. On the night of 2 November 1928, Reinhardt was going to bed in the wagon that he and his wife shared in the caravan. He knocked over a candle, which ignited the extremely flammable celluloid that his wife used to make artificial flowers. The wagon was quickly  engulfed in flames. The couple escaped, but Reinhardt suffered extensive burns over half his body. During his 18-month hospitalization, doctors recommended amputation of his badly damaged right leg. Reinhardt refused the surgery and was eventually able t"
+        }
+      }
+    }
+  },
+  {
+    "id": "tatum-carter-bellson",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.85,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [],
+      "notes": "albumDNA is Art Tatum career/discography boilerplate ('Pianist Art Tatum recorded commercially from 1932 until near his death...'), not content about this album -- same misplaced-kind pattern as a person bio on an album item. Fields are verified by embedded MBID: 1954, Clef MG C-643, all 5 keyTracks on the tracklist. Stored wiki link is the Art Tatum discography list page, not an album page (it does list 'Tatum - Carter - Bellson (Clef, 1955)'; note wiki's 1955 vs MB's authoritative 1954 -- ours says 1954, kept). Artist field 'Art Tatum' vs MB credit 'Tatum, Carter, Bellson' is site primary-artist convention, not flagged. Repair: album-specific prose; a dedicated album wiki page may not exist."
+    },
+    "ours": {
+      "title": "Tatum, Carter, Bellson",
+      "artist": "Art Tatum",
+      "year": 1954,
+      "label": "Clef Records",
+      "albumDNA": "Pianist Art Tatum recorded commercially from 1932 until near his death. He recorded nearly 400 titles, if airchecks and informal, private recordings are included. He recorded for Brunswick (1933), Decca (1934–41), Capitol and for the labels associated with Norman Granz (1953–56).",
+      "keyTracks": [
+        "My Blue Heaven",
+        "Blues in B Flat",
+        "Street of Dreams",
+        "Idaho",
+        "'s Wonderful"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Art_Tatum_discography"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "014b598c-3ba4-4576-83c6-2be17fc7fe67",
+          "title": "Tatum, Carter, Bellson",
+          "date": "1954",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Tatum",
+            "Carter",
+            "Bellson"
+          ],
+          "labels": [
+            {
+              "name": "Clef Records",
+              "catalogNumber": "MG C-643"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "214c5a69-7964-456e-9516-6cc32f87c6e7",
+            "title": "Tatum, Carter, Bellson",
+            "firstReleaseDate": "1954",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "My Blue Heaven",
+            "Blues in B Flat",
+            "Street of Dreams",
+            "Idaho",
+            "'s Wonderful",
+            "Hands Across the Table",
+            "Old Fashioned Love",
+            "(I'm Left with the) Blues in My Heart"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Art_Tatum_discography",
+        "page": {
+          "requestedTitle": "Art Tatum discography",
+          "resolvedTitle": "Art Tatum discography",
+          "shortDescription": "",
+          "extract": "Pianist Art Tatum recorded commercially from 1932 until near his death. He recorded nearly 400 titles, if airchecks and informal, private recordings are included. He recorded for Brunswick (1933), Decca (1934–41), Capitol (1949, 1952) and for the labels associated with Norman Granz (1953–56).\n\n\n== Discography ==\nPiano Starts Here (Columbia, 1968) – 1933 studio recordings & 1949 Gene Norman concert listed below\nClassic Early Solos (1934-1937) (Decca-GRP, 1991)\nSolos (1940) (MCA, 1990)\nThe Standard Sessions: 1935-1943 Transcriptions (Music & Arts, 1996)\nThe Standard Transcriptions (Piano Solos, 1935 - c. 1945) (Storyville, 1999)\nI Got Rhythm Vol.3 (1935-44) (Decca-GRP, 1993)\nArt Tatum Masterpieces (MCA, 1973)[2LP] – from 1930s Decca recordings\nJames P. Johnson (shared album) – Art Tatum Masterpieces Volume II And James P. Johnson Plays Fats Waller (MCA, 1977) – from Decca recordings\nStandards (Black Lion, 1990) – rec. 1938–1939 as per Standard Transcriptions above\nArt Of Tatum 1941-1944 (MCA, 1974) – with Big Joe Turner and trio\nGod Is in the House (Onyx, 1973) – rec. 1940–1941; reissued by High Note, 1998.\nThe V-Discs (Black Lion, 1978) – rec. 1944–46\nArt Tatum Piano Impressions, (ARA, Boris Morros Music Company, c. 1945)\nArt Tatum Piano Solos (Asch, c.1945)\nGene Norman Presents an Art Tatum Concert (Columbia, 1952) – rec. 1949\nArt Tatum (Capitol, 1950)\nArt Tatum Encores (Capitol, 1951)\nFootnotes to Jazz, Vol. 2: Jazz Rehearsal, II (Folkways, 1952)\nArt Tatum Trio (Capitol, 1953)\nBattle of Jazz, Volume 2 septet including Tatum and Big Joe Turner; shared album with Zutty Singleton (Brunswick, 1953)\nThe Genius of Art Tatum (Clef 1953-54)[11LP] – reissues as The Complete Pablo Solo Masterpieces (Pablo, 1991)[7CD] and The Art Tatum Solo Masterpieces, Vol. 1-8, Pablo, 1992)\nMakin' Whoopee (Verve, 1954)\nThe Greatest Piano of Them All (Verve, 1954)\nGenius of Keyboard 1954–56 (Giants of Jazz, 1989)\nMore of the Greatest Piano of Them All (Verve, 1955)\nStill More of the Greatest Piano Hits of Them All (Verve, 1955)\nTatum - Carter - Bellson (Clef, 1955) – reissued as The Tatum Group Masterpieces, Volume One (Pablo, 1975)\nThe Art Tatum-Roy Eldridge-Alvin Stoller-John Simmons Quartet (Clef, 1955) – reissued as The Tatum Group Masterpieces, Vol. 2 (Pablo, 1990)\nThe Lionel Hampton Art Tatum Buddy Rich Trio (Clef, 1956) – reissued as The Tatum Group Masterpieces, Volume Three (Pablo, 1975)\nThe Tatum Group Masterpieces, Vol. 4: With Hampton, Rich, Again (Pablo, 1990)\nThe Tatum Group Masterpieces, Vol. 5: Tatum-Hampton-Edison-Rich-Calendar-Kessel (Pablo, 1975 & 1990) – originally issued as Lionel Hampton And His Giants (Norgran, 1956) as by Hampton\nPresenting the Art Tatum Trio (Verve, 1957) – rec. 1956; reissued as The Tatum Group Masterpieces, Volume Six (Pablo, 1975)\nThe Art Tatum - Buddy DeFranco Quartet (Verve, 1958) – rec. 1956; reissued as The Tatum Group Masterpieces, Volume Seven (Pablo, 1975)\nThe Art Tatum - Ben Webster Quartet (Verve, 1958) – rec. 1956; reissued as The Tatum Group Masterpieces, Volume Eight (Pablo, 1975)\nCapitol Jazz Classics – Volume 3 Solo Piano (Capitol, 1972) –  rec. 1949\nThe Complete Capitol Recordings, Vol. 1 (Capitol, 1989)\nThe Complete Capitol Recordings, Vol. 2 (Capitol, 1989)\nThe Complete Capitol Recordings (Blue Note, 1997) – rec. 1949–52\nThe Complete Pablo Group Masterpieces (Pablo, 1990)[6CD] – containing the eight individual releases listed above\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "the-president",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.7,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "A Norgran Records session that documents clarinetist Lester Young working through the bebop vocabulary of the bebop period.",
+          "problem": "Misleading instrument framing: the evidence identifies Young primarily as a tenor saxophonist with clarinet only occasional; the pack has no evidence he plays clarinet on this album.",
+          "evidenceQuote": "was an American jazz tenor saxophonist and occasional clarinetist",
+          "source": "wiki"
+        }
+      ],
+      "notes": "First albumDNA sentence is the Lester Young person bio verbatim (person content on an album item -- the entity_mismatch tell); second sentence is generic generated filler ('bebop vocabulary of the bebop period' is tautological, and the bio characterizes Young's idiom as relaxed/cool swing, though there is no direct contradiction to cite for that). Fields are verified by embedded MBID: Norgran MGN 1005, 1954, and all 5 keyTracks on the tracklist. Stored wiki link is the artist page, not an album page. Repair: album-specific prose; the leader's instrument should be tenor saxophone unless a source shows otherwise."
+    },
+    "ours": {
+      "title": "The President",
+      "artist": "Lester Young",
+      "year": 1954,
+      "label": "Norgran Records",
+      "albumDNA": "Lester Willis Young, nicknamed \"Pres\" or \"Prez\", was an American jazz tenor saxophonist and occasional clarinetist. A Norgran Records session that documents clarinetist Lester Young working through the bebop vocabulary of the bebop period.",
+      "keyTracks": [
+        "Stardust",
+        "Confessin’",
+        "I Can’t Give You Anything but Love",
+        "These Foolish Things",
+        "Lester Swings"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Lester_Young"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "f0badbe7-e083-499a-98c4-488fe3f60a0c",
+          "title": "The President",
+          "date": "1954",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Lester Young"
+          ],
+          "labels": [
+            {
+              "name": "Norgran Records",
+              "catalogNumber": "MGN 1005"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0462c1f3-edf5-432a-8507-f60e48902382",
+            "title": "The President",
+            "firstReleaseDate": "1954",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Stardust",
+            "Confessin’",
+            "I Can’t Give You Anything but Love",
+            "These Foolish Things",
+            "Lester Swings",
+            "Count Every Star",
+            "It All Depends on You",
+            "September in the Rain",
+            "Pete’s Cafe",
+            "Slow Motion Blues"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Lester_Young",
+        "page": {
+          "requestedTitle": "Lester Young",
+          "resolvedTitle": "Lester Young",
+          "shortDescription": "American jazz saxophonist (1909–1959)",
+          "extract": "Lester Willis Young (August 27, 1909 – March 15, 1959), nicknamed \"Pres\" or \"Prez\" (short for the \"President of the tenor saxophone\"), was an American jazz tenor saxophonist and occasional clarinetist.\nComing to prominence while a member of Count Basie's orchestra, Young was one of the most influential players on his instrument. In contrast to many of his hard-driving peers, Young played with a relaxed, cool tone and used sophisticated harmonies, using what one critic called \"a free-floating style, wheeling and diving like a gull, banking with low, funky riffs that pleased dancers and listeners alike\".\nKnown for his hip, introverted style, he invented or popularized much of the hipster jargon which came to be associated with the music.\n\n\n== Early life and career ==\nLester Young was born in Woodville, Mississippi, on August 27, 1909, to Lizetta Young (née Johnson), and Willis Handy Young, originally from Louisiana. Lester had two siblings – a brother, Leonidas Raymond, known as Lee Young, who became a drummer, and a sister, Irma Cornelia. He grew up in a musical family; his father was a teacher and band leader. While growing up in the Algiers neighborhood of New Orleans, he worked from the age of five to make money for the family. He sold newspapers and shined shoes. By the time he was ten, he had learned the basics of the trumpet, violin, and drums, and joined the Young Family Band, touring with carnivals and playing in regional cities in the Southwest. Young's early musical influences included Louis Armstrong, Bix Beiderbecke, Jimmy Dorsey, and Frankie Trumbauer.\nIn his teens, he and his father clashed, and he often left home for long periods. His family moved to Minneapolis, Minnesota, in 1919, and Young stayed there for much of the 1920s, first picking up the tenor saxophone while living there. Young left the family band in 1927, at the age of 18, because he refused to tour in the Southern United States, where Jim Crow laws were in effect and racial segregation was required in public facilities. He became a member of the Bostonians, led by Art Bronson, and chose the tenor saxophone over the alto as his primary instrument. He made a habit of leaving, working, then going home. He left home permanently in 1932 when he became a member of the Blue Devils led by Walter Page.\n\n\n== With the Count Basie Orchestra ==\nIn 1933, Young settled in Kansas City, where after playing briefly in several bands, he rose to prominence with Count Basie. His playing in the Basie band was characterized by a relaxed style which contrasted sharply with the more forceful approach of his bandmate Hershel Evans, an alumnus of Coleman Hawkins, the dominant tenor sax player of the day. One of Young's key influences was Frankie Trumbauer, who came to prominence in the 1920s with Paul Whiteman and played the C melody saxophone (between the alto and tenor in pitch). Young left the Basie band to replace Hawkins in Fletcher Henderson's orchestra, but he soon left to play in the Andy Kirk band for six months before returning to Basie.\nIn 1936, Young recorded his first sides with Basie, though in a quintet rather than with his orchestra; among the four sides of Lester masterpieces was his improvisation on the chords of George Gershwin's \"Lady Be Good\". In the next four years with the Basie band, and in different small formations, other gems were recorded: \"Every Tub\", \"Texas Shuffle\", \"Jumpin' at the Woodside\", \"Clap Hands! Here Comes Charley!\", and \"You Can Depend on Me\" with a septet. While with Basie, Young made also small-group classic recordings with Billie Holiday, under Teddy Wilson's conductorship, and for Milt Gabler's Commodore Records. Although recorded in New York, they are named after the Kansas City Seven of Buck Clayton, Dicky Wells, Basie, Young, Freddie Green, Rodney Richardson, and Jo Jones. In these sessions Young also played clarinet in a \"liquid, nervous style\".  His clarinet work from 1938 to 1939 is documented on recordings with the Basie orchestra and small groups and Billie Holiday.\nBillie and Lester met at a Harlem jam session in the early 1930s and worked together in the Count Basie band and in nightclubs on New York's 52nd Street. At one point, Lester moved into the apartment Billie shared with her mother, Sadie Fagan. Holiday always insisted their relationship was strictly platonic. She gave Lester the nickname \"Pres\" (sometimes spelled \"Prez\") because she admired President Franklin D. Roosevelt, whom she regarded as the \"gr"
+        }
+      }
+    }
+  },
+  {
+    "id": "kenny-burrell",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.9,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "mismatch",
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Unknown",
+          "evidence": "Blue Note",
+          "evidenceQuote": "labels: [{name: \"Blue Note\", catalogNumber: \"BLP 1543\"}]",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Kenny Burrell is an album by guitarist Kenny Burrell recorded in 1957 and released on the Prestige label.",
+          "problem": "Our item per embedded MBID is the 1956 Blue Note album (BLP 1543); this sentence, the keyTracks and the stored wiki link all describe the different same-titled 1957 Prestige album.",
+          "evidenceQuote": "title: \"Kenny Burrell\"; date: \"1956\"; labels: Blue Note BLP 1543; releaseGroup.firstReleaseDate: \"1956\"",
+          "source": "mb"
+        }
+      ],
+      "notes": "Classic same-name collision. The keyTracks (Don't Cry Baby, Drum Boogie, Strictly Confidential, All of You, Perception) are exactly the Prestige album's wiki tracklist, and none appear on the embedded MB Blue Note tracklist (Get Happy, But Not for Me, Mexico City, Moten Swing, Cheeta, Now See How You Are, Phinupi, How About You?). The prose even self-contradicts ('recorded in 1957 ... this 1956 session'). Year field 1956 matches the Blue Note album. Repair: decide the anchor -- the embedded MBID says Blue Note 1956 -- then rewrite prose, keyTracks and wiki link to that album consistently (or re-anchor everything to the Prestige album)."
+    },
+    "ours": {
+      "title": "Kenny Burrell",
+      "artist": "Kenny Burrell",
+      "year": 1956,
+      "label": "Unknown",
+      "albumDNA": "Kenny Burrell is an album by guitarist Kenny Burrell recorded in 1957 and released on the Prestige label. Guitarist Kenny Burrell's hard bop sensibility is on display in this 1956 session, a document of the hard bop era.",
+      "keyTracks": [
+        "Don’t Cry Baby",
+        "Drum Boogie",
+        "Strictly Confidential",
+        "All of You",
+        "Perception"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kenny_Burrell_(Prestige_album)"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "2b00ce9c-9c80-4ba8-a633-6282544d794c",
+          "title": "Kenny Burrell",
+          "date": "1956",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Kenny Burrell"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": "BLP 1543"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "00e07028-6382-43fa-8249-0be0ab3324c1",
+            "title": "Kenny Burrell",
+            "firstReleaseDate": "1956",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Get Happy",
+            "But Not for Me",
+            "Mexico City",
+            "Moten Swing",
+            "Cheeta",
+            "Now See How You Are",
+            "Phinupi",
+            "How About You?"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Kenny_Burrell_(Prestige_album)",
+        "page": {
+          "requestedTitle": "Kenny Burrell (Prestige album)",
+          "resolvedTitle": "Kenny Burrell (Prestige album)",
+          "shortDescription": "1957 studio album by Kenny Burrell",
+          "extract": "Kenny Burrell (also reissued as Blue Moods) is an album by guitarist Kenny Burrell recorded in 1957 and released on the Prestige label.\n\n\n== Reception ==\n\nIn the AllMusic review by Scott Yanow, he stated: \"Guitarist Kenny Burrell, 25 at the time, is heard during one of his earlier sessions playing in his already recognizable straight-ahead style with a quintet... It's enjoyable music\". A Jazzwise reviewer in 2025 wrote that the album was \"Muscular and swinging when it needs to be ('Drum Boogie'), laid back when required ('All of You' and the smooth, skipping 'Don't Cry Baby') and possessed of an easy, almost conversational swing (especially on 'Strictly Confidential')\".\n\n\n== Track listing ==\n\"Don't Cry Baby\" (Saul Bernie, James P. Johnson, Stella Unger) - 8:20\n\"Drum Boogie\" (Roy Eldridge, Gene Krupa) - 9:14\n\"Strictly Confidential\" (Bud Powell) - 6:25\n\"All of You\" (Cole Porter) - 6:17\n\"Perception\" (Kenny Burrell) - 6:05\n\n\n== Personnel ==\nKenny Burrell - guitar\nCecil Payne - baritone saxophone (except track 4)\nTommy Flanagan - piano\nDoug Watkins - bass\nElvin Jones - drums\nThe album was reissued in 1964 as Blue Moods (Prestige 7308).\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "the-trio-volume-3-everybody-likes-hampton-hawes",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.95,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "The Sermon is an album of spirituals by American jazz pianist Hampton Hawes recorded in 1958, but not released on the Contemporary label until 1987.",
+          "problem": "Describes a different Hampton Hawes album (The Sermon, recorded 1958, released 1987); our item per embedded MBID is the 1956 trio album. The collision likely happened because our album contains a track titled 'The Sermon'.",
+          "evidenceQuote": "title: \"Everybody Likes Hampton Hawes, Vol. 3: The Trio\"; date: \"1956\"",
+          "source": "mb"
+        }
+      ],
+      "notes": "Fields are correct per embedded MBID (Contemporary C3523, 1956) and all 5 keyTracks are on the MB tracklist -- including the track 'The Sermon', which explains the wrong article match. The Sermon album's wiki tracklist (spirituals: Down by the Riverside, etc.) shares nothing with our album. The second prose sentence is generic filler ('cool jazz vocabulary of the hard bop period'). Stored wiki link points to The Sermon (Hampton Hawes album) -- wrong entity shown to users. Repair: rewrite prose for the 1956 trio album; replace the wiki link."
+    },
+    "ours": {
+      "title": "The Trio, Volume 3: Everybody Likes Hampton Hawes",
+      "artist": "Hampton Hawes",
+      "year": 1956,
+      "label": "Contemporary Records",
+      "albumDNA": "The Sermon is an album of spirituals by American jazz pianist Hampton Hawes recorded in 1958, but not released on the Contemporary label until 1987. A Contemporary Records session that documents pianist Hampton Hawes working through the cool jazz vocabulary of the hard bop period.",
+      "keyTracks": [
+        "Somebody Loves Me",
+        "The Sermon",
+        "Embraceable You",
+        "I Remember You",
+        "A Night in Tunisia"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Sermon_(Hampton_Hawes_album)"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "353ad0ff-8eec-450d-82a7-d80fa78e9d98",
+          "title": "Everybody Likes Hampton Hawes, Vol. 3: The Trio",
+          "date": "1956",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Hampton Hawes"
+          ],
+          "labels": [
+            {
+              "name": "Contemporary Records",
+              "catalogNumber": "C3523"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "05a2f383-b673-3504-b277-c69840962a99",
+            "title": "The Trio, Volume 3: Everybody Likes Hampton Hawes",
+            "firstReleaseDate": "1956",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Somebody Loves Me",
+            "The Sermon",
+            "Embraceable You",
+            "I Remember You",
+            "A Night in Tunisia",
+            "Lover, Come Back to Me",
+            "Polka Dots and Moonbeams",
+            "Billy Boy",
+            "Body and Soul",
+            "Coolin' the Blues"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/The_Sermon_(Hampton_Hawes_album)",
+        "page": {
+          "requestedTitle": "The Sermon (Hampton Hawes album)",
+          "resolvedTitle": "The Sermon (Hampton Hawes album)",
+          "shortDescription": "1987 studio album by Hampton Hawes",
+          "extract": "The Sermon is an album of spirituals by American jazz pianist Hampton Hawes recorded in 1958, but not released on the Contemporary label until 1987.\n\n\n== Reception ==\nThe Allmusic review by Scott Yanow called said the album was \"full of intense emotion, strong melodies and a little more variety than one might expect\" and stated \"This set was pianist Hampton Hawes' last before he started what would be five years in prison on drug charges. He had been arrested 11 days before and ironically chose to record a set of spirituals (plus a blues) as he awaited trial\".  \n\n\n== Track listing ==\nAll compositions are traditional except as indicated\n\n\"Down by the Riverside\" – 4:43\n\"Just a Closer Walk with Thee\" – 5:00\n\"Swing Low, Sweet Chariot\" – 4:52\n\"Nobody Knows the Trouble I've Seen\" – 4:52\n\"When The Roll Is Called Up Yonder\" – 4:31\n\"Go Down Moses\" – 4:33\n\"Joshua Fit de Battle of Jericho\" – 3:54\n\"Blues N/C\" (Hampton Hawes) - 8:49\n\n\n== Personnel ==\nHampton Hawes – piano\nLeroy Vinnegar – bass\nStan Levey – drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "ella-and-her-fellas",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.95,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "mismatch",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Like Someone in Love is a 1957 studio album by the American jazz singer Ella Fitzgerald, with a studio orchestra arranged and conducted by Frank DeVol",
+          "problem": "The entire albumDNA describes a different album (Like Someone in Love, a Verve-era LP arranged by Frank DeVol), not Ella and Her Fellas, which the authoritative embedded MB release shows is a 1957 Decca LP",
+          "evidenceQuote": "title: \"Ella and Her Fellas\"; labels: Decca Records, DL 8477; date: 1957",
+          "source": "mb"
+        },
+        {
+          "ourClaim": "recorded at the same time as her albums with Louis Armstrong",
+          "problem": "Sentence is lifted verbatim from the Wikipedia lead of Like Someone in Love (Ella Fitzgerald album); the fact belongs to that album, not this one",
+          "evidenceQuote": "Like Someone in Love is a 1957 studio album by the American jazz singer Ella Fitzgerald, with a studio orchestra arranged and conducted by Frank DeVol. This album represents a fine example of Ella's singing from this period, recorded at the same time as her albums with Louis Armstrong.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Classic disambiguation substitution: prose and stored wikipedia link are both for Like Someone in Love (Ella Fitzgerald album); the item is Ella and Her Fellas (Decca DL 8477, 1957, per embedded MB). Title/artist/year/label fields are correct; the prose needs a full rewrite and the link must be replaced or dropped. 5 of 6 keyTracks are not on the authoritative MB tracklist (only 'Stone Cold Dead in the Market (He Had It Coming)' matches) - the keyTracks appear to come from yet another source and need rebuilding from the MB tracklist."
+    },
+    "ours": {
+      "title": "Ella and Her Fellas",
+      "artist": "Ella Fitzgerald",
+      "year": 1957,
+      "label": "Decca Records",
+      "albumDNA": "Like Someone in Love is a 1957 studio album by the American jazz singer Ella Fitzgerald, with a studio orchestra arranged and conducted by Frank DeVol. This album represents a fine example of Ella's singing from this period, recorded at the same time as her albums with Louis Armstrong.",
+      "keyTracks": [
+        "Flying Home",
+        "Sing Me a Swing Song",
+        "Stone Cold Dead in the Market (He Had It Coming)",
+        "Benny’s Coming Home on Saturday",
+        "Big Boy Blues",
+        "And Her Tears Flowed Like Wine"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Like_Someone_in_Love_(Ella_Fitzgerald_album)"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "0d275bc5-65eb-42d7-8364-bcd1ec121ac0",
+          "title": "Ella and Her Fellas",
+          "date": "1957",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Ella Fitzgerald"
+          ],
+          "labels": [
+            {
+              "name": "Decca Records",
+              "catalogNumber": "DL 8477"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "14f06581-a479-4f5c-bcf7-6a6ec98f7dad",
+            "title": "Ella and Her Fellas",
+            "firstReleaseDate": "1957",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "You Won’t Be Satisfied (Until You Break My Heart)",
+            "That’s the Way It Is",
+            "Stone Cold Dead in the Market (He Had It Coming)",
+            "I Gotta Have My Baby Back",
+            "Sentimental Journey",
+            "The Frim Fram Sauce",
+            "It’s Only a Paper Moon",
+            "Dream a Little Dream of Me",
+            "Baby, It’s Cold Outside",
+            "A‐Tisket A‐Tasket",
+            "Would You Like to Take a Walk (Sump’n Good’ll Come From That)",
+            "Don’cha Go ’way Mad"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Like_Someone_in_Love_(Ella_Fitzgerald_album)",
+        "page": {
+          "requestedTitle": "Like Someone in Love (Ella Fitzgerald album)",
+          "resolvedTitle": "Like Someone in Love (Ella Fitzgerald album)",
+          "shortDescription": "1957 studio album by Ella Fitzgerald",
+          "extract": "Like Someone in Love is a 1957 studio album by the American jazz singer Ella Fitzgerald, with a studio orchestra arranged and conducted by Frank DeVol. This album represents a fine example of Ella's singing from this period, recorded at the same time as her albums with Louis Armstrong.\n\n\n== History ==\nThe album was also recorded in the midst of her epic 'Songbooks' project, celebrating the composers of the 'Great American Songbook' and Broadway. The album features only four songs written by the composers featured in her 'Songbooks', instead concentrating on very famous ballads by lesser known writers. Some songs on the album were also recorded with Armstrong on the albums that they collaborated on from this period. Stan Getz is featured on tenor sax on four tracks, including \"Midnight Sun\" and \"You're Blasé\".  Ted Nash plays the alto sax and solos.  The cover photos are by Phil Stern.\n\n\n== Reception ==\n\nWriting for AllMusic, music critic Scott Yanow wrote of the album: \"Most of the songs are veteran standards... her voice was so strong and appealing during this era that all of her recordings from the mid- to late '50s are enjoyable and easily recommended\".\n\n\n== Track listing ==\nFor the 1957 Verve album Someone in Love, Verve MGV-4004\nSide one:\n\n\"There's a Lull in My Life\" (Mack Gordon, Harry Revel)  – 3:23\n\"More Than You Know\" (Edward Eliscu, Billy Rose, Vincent Youmans)  – 3:14\n\"What Will I Tell My Heart?\" (Irving Gordon, Jack Lawrence, Peter Tinturin)  – 3:27\n\"I Never Had A Chance\" (Irving Berlin)  – 2:44\n\"Close Your Eyes\" (Bernice Petkere)  – 2:54\n\"We'll Be Together Again\" (Carl T. Fischer, Frankie Laine)  – 3:18\n\"Then I'll Be Tired Of You\" (Yip Harburg, Arthur Schwartz)  – 3:10\n\"Like Someone in Love\" (Johnny Burke, Jimmy Van Heusen)  – 3:07\nSide two:\n\n\"Midnight Sun\" (Sonny Burke, Lionel Hampton, Johnny Mercer)  – 3:54\n\"I Thought About You\" (Mercer, Van Heusen)  – 2:51\n\"You're Blasé\" (Ord Hamilton, Bruce Sievier)  – 3:55\n\"Night Wind\" (Lew Pollack, Bob Rothberg)  – 3:16\n\"What's New?\" (Johnny Burke, Bob Haggart)  – 3:04\n\"Hurry Home\" (Buddy Bernier, Bob Emmerich, Joseph Meyer)  – 4:37\n\"How Long Has This Been Going On?\" (George Gershwin, Ira Gershwin)  – 5:48\nBonus Tracks; Issued on the 1991 Verve CD re-issue Like Someone in Love, Verve 314-511 524-2\n\n16. \"I'll Never Be The Same\" (Gus Kahn, Matty Malneck, Frank Signorelli)  – 4:23 \n17. \"Lost in a Fog\" (Dorothy Fields, Jimmy McHugh)  – 3:59 \n18. \"Everything Happens to Me\" (Tom Adair, Matt Dennis)  – 3:51 \n19. \"So Rare\" (Jerry Herst, Jack Sharpe)  – 3:34\nTracks 1–11 recorded October 15, 1957, in Hollywood, Los Angeles\nTracks 12–19 recorded October 28, 1957, in Hollywood, Los Angeles\n\n\n== Personnel ==\nElla Fitzgerald – vocals\nFrank DeVol – arranger, conductor\nStan Getz – saxophone\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "four-trombones",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.95,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Mingus is an album by the jazz bassist and composer Charles Mingus. The album was recorded in October and November 1960 in New York and released in late 1961 on Nat Hentoff's Candid label.",
+          "problem": "The entire albumDNA is the Wikipedia lead of the 1961 Candid album 'Mingus', a different record; the item is Four Trombones (Debut, 1957), and the 1960/1961/Candid facts contradict the embedded MB release",
+          "evidenceQuote": "title: \"Four Trombones\"; labels: Debut, DEB-126; date: 1957; artists: Kai Winding, J.J. Johnson, Bennie Green, Willie Dennis, John Lewis, Charlie Mingus",
+          "source": "mb"
+        }
+      ],
+      "notes": "Prose and stored wikipedia link both belong to 'Mingus (Charles Mingus album)' (Candid, recorded Oct-Nov 1960, released 1961) - wrong entity. The real Four Trombones is the 1957 Debut LP; year and label fields are correct and all 4 keyTracks match the embedded MB tracklist exactly. Note the site files this multi-leader album (Winding/Johnson/Green/Dennis with Lewis and Mingus) under Charles Mingus alone; Mingus is credited ('Charlie Mingus') so not flagged. Prose rewrite + link replacement needed."
+    },
+    "ours": {
+      "title": "Four Trombones",
+      "artist": "Charles Mingus",
+      "year": 1957,
+      "label": "Debut",
+      "albumDNA": "Mingus is an album by the jazz bassist and composer Charles Mingus. The album was recorded in October and November 1960 in New York and released in late 1961 on Nat Hentoff's Candid label.",
+      "keyTracks": [
+        "Now's the Time",
+        "Trombosphere",
+        "Ow!",
+        "Chazzanova"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mingus_(Charles_Mingus_album)"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "b589089d-09e7-4826-8678-38c160901a84",
+          "title": "Four Trombones",
+          "date": "1957",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Kai Winding",
+            "J.J. Johnson",
+            "Bennie Green",
+            "Willie Dennis",
+            "John Lewis",
+            "Charlie Mingus"
+          ],
+          "labels": [
+            {
+              "name": "Debut",
+              "catalogNumber": "DEB-126"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "04ab8739-b3c2-49e1-8bf8-2db7e2b4e19d",
+            "title": "Four Trombones",
+            "firstReleaseDate": "1957",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Now's the Time",
+            "Trombosphere",
+            "Ow!",
+            "Chazzanova"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Mingus_(Charles_Mingus_album)",
+        "page": {
+          "requestedTitle": "Mingus (Charles Mingus album)",
+          "resolvedTitle": "Mingus (Charles Mingus album)",
+          "shortDescription": "1961 studio album by Charles Mingus",
+          "extract": "Mingus is an album by the jazz bassist and composer Charles Mingus. The album was recorded in October and November 1960 in New York and released in late 1961 on Nat Hentoff's Candid label.\n\n\n== Background ==\nAt this time Mingus was working regularly with a piano-less quartet featuring Eric Dolphy, Ted Curson and Dannie Richmond, as heard on the Charles Mingus Presents Charles Mingus album also recorded in October 1960. The Mingus album features one track, \"Stormy Weather\", recorded by the same quartet, plus two tracks recorded by a larger group featuring piano and additional horns.\nThe track \"M.D.M.\" weaves together the themes from three compositions: Duke Ellington's \"Main Stem\", Thelonious Monk's \"Straight, No Chaser\" and Mingus's own \"Fifty-First Street Blues\". The track \"Lock 'Em Up\" was inspired by a period of treatment that Mingus describes undergoing in his autobiography Beneath the Underdog, at New York's Bellevue psychiatric facility.\n\n\n== Track listings ==\n\n\n=== Candid release ===\n\"M.D.M. (Monk, Duke and Me)\" – 19:49\n\"Stormy Weather\"* – 13:23\n\"Lock 'Em Up (Hellview of Bellevue)\" – 6:40\nAll compositions by Charles Mingus except * by Harold Arlen & Ted Koehler\n\n\n=== Barnaby reissue ===\nIn April, 1974, Barnaby Records reissued this album as Mingus: The Candid Recordings (KZ-31034), adding the track \"Vasserlean\", which had appeared only on a 1961 Candid Records various-artists collection called Jazz Life (CJM-8019/CJS-9019).\nThe new track listing was:\n\n\"M.D.M. (Monk, Duke and Me)\" – 19:49\n\"Vasserlean\" – 6:35\n\"Stormy Weather\" – 13:23\n\"Lock 'Em Up (Hellview of Bellevue)\" – 6:40\n\n\n=== Jazz Man reissue ===\nIn 1980, Jazz Man Records reissued this album under its original Candid title, Mingus (JAZ-5002), also including the track \"Vasserlean.\" \nThe track listing was:\n\n\"Stormy Weather\" – 13:23\n\"Lock 'Em Up (Hellview of Bellevue)\" – 6:40\n\"M.D.M. (Monk, Duke and Me)\" – 19:49\n\"Vasserlean\" – 6:35\n\n\n== Personnel ==\nCharles Mingus – bass\nTed Curson, Lonnie Hillyer – trumpet\nJimmy Knepper, Britt Woodman – trombone\nCharles McPherson – alto saxophone\nEric Dolphy – alto saxophone, flute and bass clarinet\nBooker Ervin – tenor saxophone\nNico Bunink, Paul Bley – piano\nDannie Richmond – drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "the-oscar-peterson-trio-at-newport",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.85,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "artist",
+          "ours": "Roy Eldridge",
+          "evidence": "The Oscar Peterson Trio, Roy Eldridge, Sonny Stitt, Jo Jones",
+          "evidenceQuote": "artists: [\"The Oscar Peterson Trio\", \"Roy Eldridge\", \"Sonny Stitt\", \"Jo Jones\"]",
+          "source": "mb"
+        },
+        {
+          "field": "label",
+          "ours": "Columbia",
+          "evidence": "Verve",
+          "evidenceQuote": "labels: [{\"name\": \"Verve\", \"catalogNumber\": \"UMV-2618\"}]",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Oscar Peterson and Roy Eldridge is an album by Oscar Peterson, on which he is accompanied by Roy Eldridge.",
+          "problem": "This sentence is the Wikipedia lede of a DIFFERENT album — the 1975 duo studio album 'Oscar Peterson and Roy Eldridge' — not the 1958 live album 'The Oscar Peterson Trio at Newport' that this item is titled after.",
+          "evidenceQuote": "shortDescription: \"1975 studio album by Oscar Peterson & Roy Eldridge\"",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Classic instance of the disambiguation disease, in mixed form. The embedded MBID matches the titled entity (The Oscar Peterson Trio at Newport, 1958, Verve UMV-2618 reissue catalog; credited to The Oscar Peterson Trio with Roy Eldridge, Sonny Stitt, Jo Jones) and all 5 keyTracks are on that MB tracklist — so title, year, and keyTracks belong to the real 1958 Newport album. But the prose lede and the stored Wikipedia URL belong to the 1975 'Oscar Peterson and Roy Eldridge' duo album, the artist field miscredits the album to 'Roy Eldridge' alone (MB primary credit is The Oscar Peterson Trio), and the label field 'Columbia' contradicts MB's Verve. Repair needs: rewrite prose for the 1958 Newport album, fix wikipediaUrl, set artist to The Oscar Peterson Trio (or Trio + guests), set label to Verve. The 'hard bop sensibility / cool jazz era' tail is editorial boilerplate."
+    },
+    "ours": {
+      "title": "The Oscar Peterson Trio at Newport",
+      "artist": "Roy Eldridge",
+      "year": 1958,
+      "label": "Columbia",
+      "albumDNA": "Oscar Peterson and Roy Eldridge is an album by Oscar Peterson, on which he is accompanied by Roy Eldridge. Trumpeter Roy Eldridge's hard bop sensibility is on display in this 1958 session, a document of the cool jazz era.",
+      "keyTracks": [
+        "Will You Still Be Mine?",
+        "Joy Spring",
+        "Gal In Calico",
+        "52nd Street Theme",
+        "Monitor Blues"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Oscar_Peterson_and_Roy_Eldridge"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "7cb25011-3d06-3491-bcfb-00f51e0ad2bc",
+          "title": "The Oscar Peterson Trio at Newport",
+          "date": "1958",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "The Oscar Peterson Trio",
+            "Roy Eldridge",
+            "Sonny Stitt",
+            "Jo Jones"
+          ],
+          "labels": [
+            {
+              "name": "Verve",
+              "catalogNumber": "UMV-2618"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0328e27c-7072-4ac5-b37f-35df77b02031",
+            "title": "The Oscar Peterson Trio at Newport",
+            "firstReleaseDate": "1958",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Will You Still Be Mine",
+            "Joy Spring",
+            "Gal in Calico",
+            "52nd Street Theme",
+            "[Jo Jones introduction]",
+            "Monitor Blues",
+            "Willow Weep for Me",
+            "Autumn in New York",
+            "Roy's Son"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Oscar_Peterson_and_Roy_Eldridge",
+        "page": {
+          "requestedTitle": "Oscar Peterson and Roy Eldridge",
+          "resolvedTitle": "Oscar Peterson and Roy Eldridge",
+          "shortDescription": "1975 studio album by Oscar Peterson & Roy Eldridge",
+          "extract": "Oscar Peterson and Roy Eldridge is an album by Oscar Peterson, on which he is accompanied by Roy Eldridge.\n\n\n== Track listing ==\n\"Little Jazz\" (Roy Eldridge, Buster Harding) – 4:45\n\"She's Funny That Way\" (Neil Moret, Richard Whiting) – 7:34\n\"The Way You Look Tonight\" (Dorothy Fields, Jerome Kern) – 6:22\n\"Sunday\" (Chester Conn, Benny Krueger, Nathan \"Ned\" Miller, Jule Styne) – 5:48\n\"Bad Hat Blues\" (Eldridge, Oscar Peterson) – 7:34\n\"Between the Devil and the Deep Blue Sea\" (Harold Arlen, Ted Koehler) – 5:16\n\"Blues for Chu\" (Eldridge, Peterson) – 5:46\n\n\n== Personnel ==\nPerformance\n\nRoy Eldridge – trumpet\nOscar Peterson – piano and organ\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "louie-and-the-dukes-of-dixieland",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.95,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "I've Got the World on a String is a 1960 album by Louis Armstrong, arranged by Russell Garcia. It was recorded on the same day as Armstrong's 1958 album Louis Under the Stars; the previous day he had finished recording Ella and Louis Again with Ella Fitzgerald.",
+          "problem": "The entire albumDNA describes a different Armstrong album (I've Got the World on a String, the Russell Garcia orchestral date) -- not Louie and the Dukes of Dixieland, the Dukes of Dixieland collaboration this item actually is",
+          "evidenceQuote": "title: \"Louie and the Dukes of Dixieland\"; artists: [\"Louis Armstrong\", \"The Dukes of Dixieland\"]; releaseGroup firstReleaseDate: \"1960\"",
+          "source": "mb"
+        }
+      ],
+      "notes": "Classic disambiguation disease. Embedded-MBID MB release confirms the real album (Armstrong with The Dukes of Dixieland, RG first release 1960) and all five keyTracks match its tracklist, so title/artist/year/keyTracks fields are fine. But the prose and the stored Wikipedia link both belong to I've Got the World on a String (whose wiki personnel shows a Russell Garcia orchestra, no Dukes of Dixieland). Label field 'Audio Fidelity' is unverifiable from the pack (MB shows only a High Definition Tape Transfers reissue) -- plausible for the 1960 original but needs sourcing during repair. Prose and wikipediaUrl both need replacement."
+    },
+    "ours": {
+      "title": "Louie and the Dukes of Dixieland",
+      "artist": "Louis Armstrong",
+      "year": 1960,
+      "label": "Audio Fidelity",
+      "albumDNA": "I've Got the World on a String is a 1960 album by Louis Armstrong, arranged by Russell Garcia. It was recorded on the same day as Armstrong's 1958 album Louis Under the Stars; the previous day he had finished recording Ella and Louis Again with Ella Fitzgerald.",
+      "keyTracks": [
+        "Bourbon Street Parade",
+        "South",
+        "Washington and Lee Swing",
+        "Avalon",
+        "New Orleans"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/I've_Got_the_World_on_a_String_(album)"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "a4d633d9-4da7-4add-b724-fcee869fd434",
+          "title": "Louie and the Dukes of Dixieland",
+          "date": "",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Louis Armstrong",
+            "The Dukes of Dixieland"
+          ],
+          "labels": [
+            {
+              "name": "High Definition Tape Transfers",
+              "catalogNumber": "HDTT2584"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "399a036d-da20-4ab1-b64d-f873569652e5",
+            "title": "Louie and the Dukes of Dixieland",
+            "firstReleaseDate": "1960",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Bourbon Street Parade",
+            "South",
+            "Washington and Lee Swing",
+            "Avalon",
+            "New Orleans",
+            "That's a' Plenty",
+            "Just a Closer Walk With Thee",
+            "Dixie",
+            "Sheik of Araby",
+            "Wolverine Blues",
+            "Sweet Georgia Brown",
+            "Limehouse Blues"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/I've_Got_the_World_on_a_String_(album)",
+        "page": {
+          "requestedTitle": "I've Got the World on a String (album)",
+          "resolvedTitle": "I've Got the World on a String (album)",
+          "shortDescription": "1960 studio album by Louis Armstrong",
+          "extract": "I've Got the World on a String is a 1960 album by Louis Armstrong, arranged by Russell Garcia. It was recorded on the same day as Armstrong's 1958 album Louis Under the Stars; the previous day he had finished recording Ella and Louis Again with Ella Fitzgerald.\nIn 1999, I've Got the World on a String was reissued with Louis Under the Stars alongside bonus material and outtakes.\n\n\n== Reception ==\n\nBillboard magazine reviewed the album in their March 14, 1960, issue and wrote that \"Satchmo plays it soft and romantic on this listenable collection of standards...Prime jockey wax\".\nRichard S. Ginell reviewed the reissue of the album for AllMusic and wrote that these \"once-overlooked albums...are finally being appreciated as prime samplings from the autumn of Armstrong's recording career\" and that \"Even in the pressure cooker of a marathon session, even when confronted with standards not often associated with him, Armstrong finds the essence of each tune, bending and projecting them with his patented joie de vivre and gravel-voiced warmth every time\". Ginell described Armstrong's trumpet playing as \"pithy, soulful, [and] belonging to no one else\" and praised Russell Garcia's arrangements for big band or strings as \"...among the most atmospheric ever accorded to Armstrong. In particular, 'When Your Lover Is Gone' is sublime, with its signature riff of blasé, sighing horns and responding, rising string tremolos, and Garcia frames 'Body and Soul' with a lovely string chart whose penultimate stroke is a perfectly placed blue note\".\n\n\n== Track listing ==\n\"When Your Lover Has Gone\" (Einar Aaron Swan) – 4:42\n\"You're the Top\" (Cole Porter) – 2:33\n\"You Turned the Tables on Me\" (Louis Alter, Sidney Mitchell) – 2:38\n\"Don't Get Around Much Anymore\" (Duke Ellington, Bob Russell) – 3:41\n\"Little Girl Blue\" (Richard Rodgers, Lorenz Hart) – 5:45\n\"Nobody Knows the Trouble I've Seen\" (Traditional) – 4:56\n\"We'll Be Together Again\" (Carl T. Fischer) – 4:07\n\"I've Got the World on a String\" (Harold Arlen, Ted Koehler) – 2:52\n\"Do Nothing 'Til You Hear From Me\" (Ellington, Russell) – 4:16\n\"I Gotta Right to Sing the Blues\" (Arlen, Koehler) – 4:05\n\n\n== Personnel ==\nLouis Armstrong – trumpet\nRussell Garcia – arranger, conductor\nNorman Granz – producer\nJohn Altoon – cover art\n\n\n=== Orchestra ===\nVictor Arno, Robert Barene, Jacques Gasselin, Joseph Livoti, Dan Lube, Amerigo Marino, Erno Neufeld, Marshall Sosson, Robert Sushel, Gerald Vinci, Tibor Zelig - violins\nMyron Bacon, Abraham Hochstein, Raymond Menhennick, Myron Sandler - violas\nJustin DiTullio, Kurt Reher, William Van Den Burg - cellos\nFrank Beach, Buddy Childers, Cappy Lewis - trumpets\nMilt Bernhart, Marshall Cram, James Henderson, Lloyd Ulyate - trombones\nVincent DeRosa - French horn\nBill Miller, Paul Smith - piano\nTony Rizzi - guitar\nJoe Mondragon - double bass\nAlvin Stoller - drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "soul-junction-coltrane",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.95,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "artist",
+          "ours": "John Coltrane",
+          "evidence": "Red Garland (leader); MB credit: The Red Garland Quintet, John Coltrane, Donald Byrd",
+          "evidenceQuote": "Soul Junction is an album by the jazz pianist and composer Red Garland.",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Lush Life is a studio album by the jazz musician John Coltrane. It was released in early 1961 by Prestige Records.",
+          "problem": "The albumDNA describes a different album entirely -- Coltrane's Lush Life -- while this item is Soul Junction",
+          "evidenceQuote": "Soul Junction is an album by the jazz pianist and composer Red Garland. It was released in 1960 through Prestige Records.",
+          "source": "wiki"
+        },
+        {
+          "ourClaim": "It was assembled from previously unissued tracks from three recording sessions at Van Gelder Studio in Hackensack, New Jersey in 1957 and 1958.",
+          "problem": "Soul Junction comes from a single session, November 15, 1957, per the entity-matched wiki page",
+          "evidenceQuote": "It features tracks recorded on November 15, 1957, the same day the pieces for All Mornin' Long were recorded, with the same lineup.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Title, year, label and all five keyTracks match the real Soul Junction (MB embedded MBID, Prestige P-7181, RG first release 1960), and the stored wiki link points to the correct Soul Junction article -- but the prose was pasted from Coltrane's Lush Life (early-1961 release assembled from 1957-58 sessions). Artist field 'John Coltrane' also misstates the leader (Red Garland; Coltrane is a credited sideman). Duplicate entry of the same album as pack item soul-junction, there filed under Donald Byrd. Prose needs replacement; artist filing and the duplicate need a human decision."
+    },
+    "ours": {
+      "title": "Soul Junction",
+      "artist": "John Coltrane",
+      "year": 1960,
+      "label": "Prestige",
+      "albumDNA": "Lush Life is a studio album by the jazz musician John Coltrane. It was released in early 1961 by Prestige Records. It was assembled from previously unissued tracks from three recording sessions at Van Gelder Studio in Hackensack, New Jersey in 1957 and 1958. As Coltrane's profile increased during the 1960s, some years after the end of his Prestige contract, the label used unissued recordings to create new albums without Coltrane's input or approval.",
+      "keyTracks": [
+        "Soul Junction",
+        "Woody'n You",
+        "Birk's Works",
+        "I've Got It Bad",
+        "Hallelujah"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Soul_Junction"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "0f3c8db2-f276-4c8a-ae95-28f9375038f4",
+          "title": "Soul Junction",
+          "date": "1990",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "The Red Garland Quintet",
+            "John Coltrane",
+            "Donald Byrd"
+          ],
+          "labels": [
+            {
+              "name": "Original Jazz Classics",
+              "catalogNumber": "OJCCD-481-2"
+            },
+            {
+              "name": "Original Jazz Classics",
+              "catalogNumber": "OJCCD-481-2 (P-7181)"
+            },
+            {
+              "name": "Prestige",
+              "catalogNumber": "P-7181"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "11954f38-fa97-4b38-a7bc-3f23767367ab",
+            "title": "Soul Junction",
+            "firstReleaseDate": "1960",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Soul Junction",
+            "Woody 'N You",
+            "Birks' Works",
+            "I've Got It Bad (And That Ain't Good)",
+            "Hallelujah"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Soul_Junction",
+        "page": {
+          "requestedTitle": "Soul Junction",
+          "resolvedTitle": "Soul Junction",
+          "shortDescription": "1960 studio album by The Red Garland Quintet",
+          "extract": "Soul Junction is an album by the jazz pianist and composer Red Garland. It was released in 1960 through Prestige Records. It features tracks recorded on November 15, 1957, the same day the pieces for All Mornin' Long were recorded, with the same lineup.\n\n\n== Track listing ==\n\"Soul Junction\" (Garland) – 15:30\n\"Woody 'n' You\" (Dizzy Gillespie) – 6:50\n\"Birks' Works\" (Dizzy Gillespie) – 7:35\n\"I've Got It Bad (And That Ain't Good)\" (Duke Ellington, Paul Francis Webster) – 6:15\n\"Hallelujah\" (Vincent Youmans) – 6:31\n\n\n== Personnel ==\nRed Garland – piano\nJohn Coltrane – tenor sax\nDonald Byrd – trumpet\nGeorge Joyner – bass\nArt Taylor – drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "soul-time",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.95,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Holiday Soul is an album of Christmas music by the American jazz pianist Bobby Timmons, recorded in 1964 and released on the Prestige label.",
+          "problem": "The albumDNA describes a different Timmons album (Holiday Soul, 1964 Christmas record on Prestige); this item is Soul Time, a 1960 Riverside album",
+          "evidenceQuote": "title: \"Soul Time\"; date: \"1960-11\"; labels: [{\"name\": \"Riverside\", \"catalogNumber\": \"RS 9334\"}]",
+          "source": "mb"
+        }
+      ],
+      "notes": "MB embedded MBID confirms Soul Time (Bobby Timmons, Riverside RS 9334, November 1960) and all five keyTracks are on its tracklist, so the fields are right. But the prose and the stored Wikipedia link both belong to Holiday Soul (1964, Prestige) -- the disambiguation disease. The 'cool jazz movement' sentence is template filler inappropriate for either record, but editorial. Prose and wikipediaUrl both need replacement."
+    },
+    "ours": {
+      "title": "Soul Time",
+      "artist": "Bobby Timmons",
+      "year": 1960,
+      "label": "Riverside",
+      "albumDNA": "Holiday Soul is an album of Christmas music by the American jazz pianist Bobby Timmons, recorded in 1964 and released on the Prestige label. Captures pianist Bobby Timmons during the cool jazz movement, favoring lighter timbres, relaxed tempos, and a chamber sensibility.",
+      "keyTracks": [
+        "Soul Time",
+        "So Tired",
+        "The Touch of Your Lips",
+        "S'posin'",
+        "Stella B."
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Holiday_Soul_(Bobby_Timmons_album)"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "c4012af7-efed-30a9-a605-8d18c6438806",
+          "title": "Soul Time",
+          "date": "1960-11",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Bobby Timmons"
+          ],
+          "labels": [
+            {
+              "name": "Riverside",
+              "catalogNumber": "RS 9334"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "15fc2ed8-27b7-3817-ae2b-2c22ae92b6b3",
+            "title": "Soul Time",
+            "firstReleaseDate": "1960-11",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Soul Time",
+            "So Tired",
+            "The Touch of Your Lips",
+            "S'posin'",
+            "Stella B.",
+            "You Don't Know What Love Is",
+            "One Mo'"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Holiday_Soul_(Bobby_Timmons_album)",
+        "page": {
+          "requestedTitle": "Holiday Soul (Bobby Timmons album)",
+          "resolvedTitle": "Holiday Soul (Bobby Timmons album)",
+          "shortDescription": "1964 studio album by Bobby Timmons",
+          "extract": "Holiday Soul is an album of Christmas music by the American jazz pianist Bobby Timmons, recorded in 1964 and released on the Prestige label.\n\n\n== Reception ==\n\nThe AllMusic review awarded the album 3 stars. DownBeat commented that Timmons played the Christmas material \"without seeming the least bit self-conscious about his soul-jazz and blues tendencies\". The All About Jazz reviewer also commented that the pianist retained his normal playing style despite the material. Critic Marc Myers selected it for his Vintage Holiday Album Hall of Fame in 2015.\n\n\n== Track listing ==\n\"Deck the Halls\" (Traditional) – 3:10\n\"White Christmas\" (Irving Berlin) – 7:00\n\"The Christmas Song\" (Mel Tormé, Robert Wells) – 5:15\n\"Auld Lang Syne\" (Robert Burns, Traditional) – 4:35\n\"Santa Claus Is Coming to Town\" (J. Fred Coots, Haven Gillespie) – 6:00\n\"Winter Wonderland\" (Felix Bernard, Richard B. Smith) – 5:30\n\"We Three Kings\" (John Henry Hopkins, Jr.) – 5:00\n\"You're All I Want for Christmas\" (Seger Ellis, Glen Moore) – 5:00\nRecorded at Rudy Van Gelder Studio in Englewood Cliffs, New Jersey on November 24, 1964.\n\n\n== Personnel ==\nBobby Timmons - piano\nButch Warren - double bass\nWalter Perkins - drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "waltz-for-debby",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.9,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "year",
+          "ours": "1961",
+          "evidence": "1962",
+          "evidenceQuote": "releaseGroup.firstReleaseDate: \"1962\" (Riverside RLP-9399); disambiguation entry: \"Waltz for Debby (1962 album), album by Bill Evans\"",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Waltz for Debby is the name of:\"Waltz for Debby\" (song), a 1956 jazz composition by Bill Evans later made into a song",
+          "problem": "The albumDNA is scraped Wikipedia disambiguation-page text, not prose about the album - it describes the term and three different entities (a 1956 song, our album, and the 1964 Monica Zetterlund/Bill Evans album)",
+          "evidenceQuote": "Waltz for Debby is the name of: \"Waltz for Debby\" (song), a 1956 jazz composition by Bill Evans later made into a song / Waltz for Debby (1962 album), album by Bill Evans / Waltz for Debby (1964 album), album by Monica Zetterlund and Bill Evans",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Classic disambiguation-collision case (the known disease). The stored URL resolves to the 'Waltz for Debby' disambiguation page, and the prose is that page's text plus two appended editorial sentences; it never describes the album itself. The catalog entry is salvageable: the album is MB-verified (Bill Evans Trio, Riverside RLP-9399, Live, first release 1962) and all 4 keyTracks match the MB tracklist. Repairs: rewrite the prose about the 1962 live album, set year to 1962 (ours says 1961; MB and the disambig entry both say 1962 - 1961 is the recording year per background knowledge, not citable), and repoint the wiki link to the album article ('Waltz for Debby (1962 album)' per the disambiguation listing)."
+    },
+    "ours": {
+      "title": "Waltz for Debby",
+      "artist": "Bill Evans Trio",
+      "year": 1961,
+      "label": "Riverside",
+      "albumDNA": "Waltz for Debby is the name of:\"Waltz for Debby\" (song), a 1956 jazz composition by Bill Evans later made into a song\nWaltz for Debby , album by Bill Evans\nWaltz for Debby , album by Monica Zetterlund and Bill Evans. Demonstrated the piano trio's potential for intimate, chamber-like jazz. Its influence on modern jazz piano is incalculable.",
+      "keyTracks": [
+        "Waltz for Debby",
+        "My Foolish Heart",
+        "Detour Ahead",
+        "Milestones"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Waltz_for_Debby"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "b866e6df-abc3-48cd-9ecd-62acf6da47de",
+          "title": "Waltz for Debby",
+          "date": "1962",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Bill Evans Trio"
+          ],
+          "labels": [
+            {
+              "name": "Riverside",
+              "catalogNumber": "RLP-9399"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "392e7fcf-5ae9-37f6-b8c9-57901cfbee1f",
+            "title": "Waltz for Debby",
+            "firstReleaseDate": "1962",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Live"
+            ]
+          },
+          "tracks": [
+            "My Foolish Heart",
+            "Waltz for Debby",
+            "Detour Ahead",
+            "My Romance",
+            "Some Other Time",
+            "Milestones"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Waltz_for_Debby",
+        "page": {
+          "requestedTitle": "Waltz for Debby",
+          "resolvedTitle": "Waltz for Debby",
+          "shortDescription": "Topics referred to by the same term",
+          "extract": "Waltz for Debby is the name of:\n\n\"Waltz for Debby\" (song), a 1956 jazz composition by Bill Evans later made into a song\nWaltz for Debby (1962 album), album by Bill Evans\nWaltz for Debby (1964 album), album by Monica Zetterlund and Bill Evans"
+        }
+      }
+    }
+  }
+]

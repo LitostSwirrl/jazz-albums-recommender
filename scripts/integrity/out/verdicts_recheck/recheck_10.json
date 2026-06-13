@@ -1,0 +1,14 @@
+[
+  {
+    "id": "bumpin-wes-montgomery",
+    "kind": "album",
+    "originalVerdict": "factual_error",
+    "upheld": true,
+    "reclassifyTo": null,
+    "demoteTo": null,
+    "refutationAttempt": "I tried to defend 'Recorded in 1997' by noting the MusicBrainz release date is indeed 1997 with a CD catalog number (539 062-2), so the prose could be describing that specific physical release rather than the original session.",
+    "decision": "The defense fails. The release-group firstReleaseDate is 1965, the Wikipedia short description is '1965 studio album by Wes Montgomery', and the extract states 'released in 1965'; the 1997 MB date is a PolyGram reissue. 'Recorded in 1997' is a specific, falsifiable claim directly contradicted by the evidence. Entity is correct (Wes Montgomery's Bumpin', all keyTracks match the MB tracklist), so this is a factual_error on the right entity, not a mismatch.",
+    "contradictingQuote": "Bumpin'   is an album by the American jazz guitarist Wes Montgomery, released in 1965.",
+    "specificBadClaim": "Recorded in 1997, Bumpin' showcases Wes Montgomery at the height of their creative powers"
+  }
+]

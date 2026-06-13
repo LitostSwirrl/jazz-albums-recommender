@@ -1,0 +1,339 @@
+[
+ {
+  "id": "takin-off",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "The bluesy track \"Watermelon Man\" made it to the Top 100 of the singles charts",
+    "problem": "Ours drops the word 'almost', flipping the claim: per the evidence the track did NOT reach the Top 100, it only came close.",
+    "evidenceQuote": "The bluesy track \"Watermelon Man\" almost made it into the Top 100 of the singles charts, and went on to become a jazz standard.",
+    "source": "wiki"}
+  ],
+  "notes": "All other claims (1962 debut on Blue Note; Dexter Gordon, Freddie Hubbard, Butch Warren, Billy Higgins; hard bop; 1973 Head Hunters funk remake of Watermelon Man) match the entity-matched Wikipedia page verbatim, and MB (search, similarity 1.0) confirms year, label, and all four keyTracks. Prose is a near-copy of the Wikipedia lead with 'almost' lost in editing. Repair: restore 'almost' or rephrase the chart sentence. Closing sentences are editorial."
+ },
+ {
+  "id": "the-bridge",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose matches the Wikipedia lead verbatim (recorded 1962; first release after the three-year sabbatical; first RCA Victor album; Jim Hall, Bob Cranshaw, Ben Riley). MB (search, similarity 1.0) confirms 1962, RCA Victor, and all four keyTracks. 'One of jazz's great comebacks' framing is editorial but consistent with the page's hiatus narrative."
+ },
+ {
+  "id": "the-newest-sound-around",
+  "verdict": "no_evidence",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No MusicBrainz match (empty search candidates) and no Wikipedia page in the pack; nothing is checkable, including year, label, keyTracks, and the prose claims (Blake/Lee duo debut, third stream blend). Background knowledge finds the description consistent with the real 1962 RCA Victor album, but that is not citable evidence. No wikipediaUrl is stored, so the site at least ships no link that could be wrong."
+ },
+ {
+  "id": "think-well-of-me",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Unknown", "evidence": "Verve Records, Inc.",
+    "evidenceQuote": "Verve Records, Inc.",
+    "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "Label field ships the placeholder 'Unknown' while the authoritative embedded-MBID release says Verve Records, Inc. (V-8465) and the Wikipedia page says 'released by the Verve label' -- the item's own prose even names Verve, so this is an internal inconsistency with an easy repair. Everything else matches: 1962, Willard Robison songbook, Brookmeyer/Russ Case arrangements (verbatim from the Wikipedia lead); all six keyTracks are on the MB tracklist. 'Documenting the breadth of the swing period' is vague editorial filler, not flagged."
+ },
+ {
+  "id": "whats-new",
+  "verdict": "entity_mismatch",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "The Bridge is a studio album by jazz saxophonist Sonny Rollins, recorded in 1962. It was Rollins's first release following a three-year sabbatical and was his first album for RCA Victor.",
+    "problem": "The entire albumDNA describes a different album (The Bridge). This item is What's New? per the authoritative embedded MBID, which matches our title, year, label, and all five keyTracks.",
+    "evidenceQuote": "title: What's New?; labels: RCA Victor (LSP-2572); date: 1962",
+    "source": "mb"}
+  ],
+  "notes": "Same-artist collision: albumDNA is the Wikipedia lead for The Bridge, and wikipediaUrl points at The Bridge (Sonny Rollins album) -- the wrong page for this item. The catalog fields and keyTracks correctly describe What's New? (embedded MBID, RCA Victor, 1962; tracklist matches exactly: If Ever I Would Leave You, Jungoso, Bluesongo, The Night Has a Thousand Eyes, Brownskin Girl). The site has a separate the-bridge item legitimately carrying this same prose. Repair: rewrite albumDNA for What's New? and replace the wikipedia link with the What's New? (Sonny Rollins album) page after verifying it exists."
+ },
+ {
+  "id": "back-at-the-chicken-shack",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose first half matches the Wikipedia lead verbatim (recorded 1960, released 1963 on Blue Note, same session as Midnight Special, cited in 1001 Albums You Must Hear Before You Die); MB (search, similarity 1.0) confirms 1963, Blue Note, and all four keyTracks. The influence sentence (Jack McDuff, Dr. Lonnie Smith) is editorial legacy hyperbole, not treated as a checkable claim."
+ },
+ {
+  "id": "blue-bash",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose matches the Wikipedia lead verbatim and correctly credits both leaders (Burrell guitar, Smith organ, 1963, Verve). Embedded MBID confirms 1963-10, Verve V6-8553, and all five keyTracks. Data-model note, not flagged as error: the artist field lists only Jimmy Smith while the authoritative MB credit is Kenny Burrell + Jimmy Smith; the site files dual-credit albums once per leader (paired item blue-bash-burrell exists)."
+ },
+ {
+  "id": "blue-bash-burrell",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Twin of blue-bash filed under Kenny Burrell, who is the first-listed artist in the authoritative embedded-MBID credit (Kenny Burrell + Jimmy Smith). Identical prose matches the Wikipedia lead verbatim; year, label, and all five keyTracks confirmed by MB."
+ },
+ {
+  "id": "boss-guitar",
+  "verdict": "unverifiable",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Core facts confirmed: embedded MBID resolves to a Boss Guitar CD reissue (Riverside RCD-9459-2, 1989) whose release group dates the original to 1963; all five keyTracks on the tracklist, plus two alternate takes -- consistent with the reissue-with-alternate-takes claim. Unverifiable from the pack: that the reissue label was specifically Original Jazz Classics, and that all tracks appear on Wes Montgomery: The Complete Riverside Recordings. No Wikipedia evidence and no stored URL."
+ },
+ {
+  "id": "caravan",
+  "verdict": "entity_mismatch",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "1963", "evidence": "1962",
+    "evidenceQuote": "firstReleaseDate: 1962",
+    "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Art Blakey and the Jazz Messengers is a studio album by Art Blakey and the Jazz Messengers, released on September 1, 1961, through Impulse! Records. Expanding to a sextet for the first time, it was the group's final recording with Bobby Timmons, who would be replaced by Cedar Walton.",
+    "problem": "The prose's factual skeleton (September 1, 1961 release, Impulse! Records, first sextet, final Timmons recording) belongs to the 1961 album 'Art Blakey and the Jazz Messengers' (a.k.a. Alamode), not to our album Caravan, which MB resolves to Riverside, 1962.",
+    "evidenceQuote": "title: Caravan; labels: Riverside (RM 438); date: 1962",
+    "source": "mb"}
+  ],
+  "notes": "Same-artist collision. The stored wiki URL is the 1961 Impulse! album's page (its extract supplies the colliding facts and a completely different tracklist: A la Mode, Invitation, Circus...), so it was discarded for fact-checking and flagged as wrong_entity. Our item is Caravan per MB search (similarity 1.0) whose tracklist matches all four keyTracks (Caravan, Sweet 'n' Sour, Skylark exact; 'In the Wee Small Hours' is a substring of 'In the Wee Small Hours of the Morning'). Year field 1963 contradicts MB's 1962 (search method, strong but not infallible) -- verify Caravan's real first-release date during repair. Correct wiki target is the Caravan (Art Blakey album) page. The closing 'standards into hard bop vehicles' sentence is editorial and could survive a rewrite."
+ },
+ {
+  "id": "conversations",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose matches the Wikipedia lead verbatim (1963 on the FM label; Vee-Jay reissue as The Eric Dolphy Memorial Album the following year; 2018 Musical Prophet reissue on Resonance). Embedded MBID resolves to a 1998 Jazz World reissue CD -- valid for the tracklist (all four keyTracks present) and the release group's first date (1963-09); the original FM-label claim rests on the entity-matched Wikipedia page, which states it explicitly. Label field 'FM' consistent with that."
+ },
+ {
+  "id": "duke-ellington-meets-coleman-hawkins",
+  "verdict": "factual_error",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "A 1963 big band date for impulse! that documents Duke Ellington's ongoing work in the idiom.",
+    "problem": "The session is an eight-piece small group, not a big band: the Wikipedia personnel section enumerates exactly eight musicians.",
+    "evidenceQuote": "Duke Ellington – piano\nColeman Hawkins – tenor saxophone\nJohnny Hodges – alto saxophone\nHarry Carney – baritone saxophone, bass clarinet\nLawrence Brown – trombone\nRay Nance – cornet, violin\nAaron Bell – double bass\nSam Woodyard – drums",
+    "source": "wiki"}
+  ],
+  "notes": "First sentence (recorded August 18, 1962; released February 1963 by Impulse!) matches the Wikipedia lead verbatim; embedded MBID confirms 1963-02, impulse! AS 26, and all five keyTracks. Caveat on the flag: the contradiction is by enumeration (an octet is not a big band), not an explicit statement -- a human reviewer may judge the template sentence's wording differently, hence the lowered confidence. Artist field lists only Ellington while the authoritative credit is Ellington + Hawkins; site files dual credits per leader (paired -hawkins item exists), noted only."
+ },
+ {
+  "id": "duke-ellington-meets-coleman-hawkins-hawkins",
+  "verdict": "factual_error",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "A big band recording from the hard bop period",
+    "problem": "The session is an eight-piece small group, not a big band: the Wikipedia personnel section enumerates exactly eight musicians.",
+    "evidenceQuote": "Duke Ellington – piano\nColeman Hawkins – tenor saxophone\nJohnny Hodges – alto saxophone\nHarry Carney – baritone saxophone, bass clarinet\nLawrence Brown – trombone\nRay Nance – cornet, violin\nAaron Bell – double bass\nSam Woodyard – drums",
+    "source": "wiki"}
+  ],
+  "notes": "Twin entry filed under Coleman Hawkins (authoritative MB credit includes both leaders). First sentence matches the Wikipedia lead verbatim; MB confirms date, label, and all five keyTracks. Same caveat as the Ellington twin: 'big band' is contradicted by the enumerated octet personnel, an inference a human may wish to confirm. 'Hard bop period' read as era framing and 'reconnecting jazz with blues and gospel' as genre boilerplate -- not flagged."
+ },
+ {
+  "id": "midnight-blue",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Checkable claims confirmed: Ray Barretto conga; Stanley Turrentine tenor on roughly half the tracks (wiki: absent on tracks 3, 4, 6, 9 of 9 listed); Blue Note 1963; MB matches all four keyTracks. Unverifiable: \"'Chitlins con Carne' became a jazz standard\" -- a concrete legacy claim absent from the evidence (background knowledge finds it plausible, but that is not citable). Borderline call: everything else checks out, and 'most celebrated', 'definitive mood album', and the influence-on-guitarists line are treated as editorial."
+ },
+ {
+  "id": "money-jungle",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose matches the Wikipedia lead verbatim (recorded September 17, 1962; released February 1963 by United Artists Jazz; all but one composition by Ellington; four of seven first recorded here; CD releases added eight tracks). Year: MB search evidence says 1962 while the entity-matched Wikipedia page explicitly says released February 1963 -- ours follows Wikipedia; conflict noted, not flagged. Label 'United Artists' vs 'United Artists Jazz' treated as parent-brand shorthand. keyTrack 'Fleurette Africaine' appears in MB as 'Les Fleurs Africaines (African Flower)' and is confirmed by name in the Wikipedia text, so counted as matched. Artist field lists Ellington alone; credit is 'Ellington with Mingus and Roach' -- site convention, noted only. 'Avant-garde'/'generational clash' closing lines are editorial, loosely supported by the page's generational-gap and mid-session-argument discussion."
+ },
+ {
+  "id": "monks-dream",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "unsure", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose matches the Wikipedia lead verbatim (Columbia, January 1963; first Columbia album after the five-year Riverside period). MB returned only a search candidate without a release doc (weak evidence), but the candidate (Monk's Dream, The Thelonious Monk Quartet, 1963) is consistent with our item. No MB tracklist; all four keyTracks are named as session recordings in the Wikipedia recording-dates passage (Bolivar Blues Oct 31; Body and Soul and Bright Mississippi Nov 1; Monk's Dream Nov 2), so keyTracks ruled ok on wiki evidence. 'Commercial breakthrough' line is editorial."
+ },
+ {
+  "id": "no-room-for-squares",
+  "verdict": "unverifiable",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Fields confirmed by MB (search, similarity 1.0): Hank Mobley, 1963, Blue Note BLP 4149; all four keyTracks on the tracklist. Unverifiable: the personnel claims -- Lee Morgan on trumpet, 'either Andrew Hill or Herbie Hancock on piano' -- the MB doc carries no personnel and there is no Wikipedia evidence (consistent with background knowledge of the album's two sessions, but not citable). The rest ('finest hour', 'middleweight' comparisons to Rollins/Coltrane) is editorial. No wikipediaUrl stored."
+ },
+ {
+  "id": "one-step-beyond",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "First five sentences match the Wikipedia lead verbatim (first of two albums swapping piano for Hutcherson's vibes; Moncur, Khan, Tony Williams; hard bop leaning post-bop/free). MB (similarity 1.0) confirms Blue Note and the exact four keyTracks. Unverifiable: 'Williams, just 17' (age not in evidence) and that his drumming 'would transform Miles's second quintet' (membership not in evidence); 'Introduced Grachan Moncur III to the jazz world' read as promotional hyperbole. Year conflict noted, not flagged: wiki short description says '1964 studio album' while the MB release and release group say 1963, matching ours -- conflicting evidence; worth a human check of the original BLP/BST 4137 release date."
+ },
+ {
+  "id": "our-man-in-paris",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose matches the Wikipedia lead near-verbatim (Paris recording; expatriates Bud Powell and Kenny Clarke; native Parisian Pierre Michelot; The Three Bosses playing together since Powell's 1959 move). MB (similarity 1.0) confirms 1963, Blue Note, and all four keyTracks. 'Influenced countless tenor players including Joe Henderson and Michael Brecker' treated as editorial legacy framing, not a checkable factual claim."
+ },
+ {
+  "id": "sassy-swings-the-tivoli",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose matches the Wikipedia lead verbatim (1963 live album with her trio, produced by Quincy Jones, recorded at Tivoli Gardens Copenhagen over four days in July 1963). MB confirms 1963, Mercury, a Live release group, and all four keyTracks. Closing praise is editorial."
+ },
+ {
+  "id": "stan-getz-with-guest-artist-laurindo-almeida",
+  "verdict": "clean",
+  "confidence": 0.65,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose first sentence matches the Wikipedia lead verbatim (recorded 1963, issued on Verve as V/V6-8665); the embedded MBID -- authoritative for date and label per the spec -- gives 1963-03, Verve V6-8665, and matches all five keyTracks. CAUTION for human review: the Wikipedia short description reads '1966 studio album', conflicting with the MB date; background knowledge also leans toward a 1963 recording shelved until a 1966 release, but that is not citable. Ruled clean because the year field matches the spec-designated authoritative source; the 1966 signal should be checked before trusting year=1963. 'Cool jazz period' filler treated as era framing."
+ },
+ {
+  "id": "the-black-saint",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Nearly all prose matches the Wikipedia lead verbatim (recorded January 20, 1963; released July by Impulse!; single continuous composition partially written as a ballet, four tracks and six movements; canonical stature). MB confirms label, year, and the three keyTracks (colon-vs-dash punctuation only). Unverifiable nit: ours says the liner notes were 'written by Mingus's psychiatrist'; the evidence says 'liner notes written by Mingus and his then-psychotherapist, Edmund Pollock' -- joint authorship, and 'psychotherapist' rather than 'psychiatrist'. Overlapping but not identical terms, so not ruled a hard contradiction. Repair suggestion: 'co-written by Mingus and his psychotherapist'."
+ },
+ {
+  "id": "the-latin-bit",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose matches the Wikipedia lead verbatim (recorded 1962, released on Blue Note; loose Latin concept; Quebec, Clark, Acea, Marshall, Bobo, Masseaux, Valdes). Embedded MBID confirms 1963-04, Blue Note BLP 4111, and all five keyTracks. Fine print in the wiki personnel section (Quebec and Clark appear only on the September 1962 session tracks issued as CD bonuses; Bobo credited on drums) refines but does not contradict the lead the prose copies."
+ },
+ {
+  "id": "black-christ-of-the-andes",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Saba", "evidence": "Folkways Records",
+    "evidenceQuote": "which was released in 1964 by Folkways Records",
+    "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Entity confirmed: the stored page 'Mary Lou Williams (album)' is explicitly 'alternatively titled Black Christ of the Andes', so our title field's use of the alternate title is fine, and wikiLink is correct. The label field 'Saba' contradicts both the evidence and the item's own prose, which says 'released in 1964 by Folkways Records' (background knowledge suggests a later European SABA issue exists and may be the field's source -- not citable; repair should decide which release the entry represents). No MB evidence; the wiki extract omits the track listing, so keyTracks are uncheckable ('St. Martin de Porres' is at least confirmed as the title-track hymn). Also unverifiable: 'Pioneered the jazz mass genre later explored by Duke Ellington and Dave Brubeck.' Conversion/Vatican-II context matches the page."
+ },
+ {
+  "id": "black-fire",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose matches the Wikipedia lead verbatim, including the Stephen Thomas Erlewine AllMusic quote (Blue Note debut, 1964; Philly Joe Jones scheduled but replaced by Roy Haynes; Joe Henderson and Richard Davis in the band). MB (similarity 1.0) confirms 1964, Blue Note BLP 4151, and all four keyTracks. 'Third path' closing lines are editorial."
+ }
+]

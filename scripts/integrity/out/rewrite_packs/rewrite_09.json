@@ -1,0 +1,1280 @@
+[
+  {
+    "id": "screamin-the-blues",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Screamin' the Blues is an album by Eric Dolphy, released in 1961 on Prestige",
+    "contradictingQuote": "Screamin' the Blues is an album by American saxophonist Oliver Nelson, originally released in 1961 on New Jazz Records.",
+    "skepticDecision": "The entity-matched Wikipedia lead states the album is 'by American saxophonist Oliver Nelson', with Dolphy listed as a sideman in personnel and MB billing 'Oliver Nelson Sextet' first; attributing it to Eric Dolphy as leader is directly contradicted. (The label is also given as New Jazz, not Prestige.)",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Screamin' the Blues is an album by Eric Dolphy, released in 1961 on Prestige",
+        "problem": "Leader is Oliver Nelson, not Dolphy (MB bills 'Oliver Nelson Sextet' first, with Dolphy and Richard Williams as featured artists; wiki personnel has Nelson on tenor/alto, Dolphy as sideman on bass clarinet/alto); original label was New Jazz, not Prestige",
+        "evidenceQuote": "Screamin' the Blues is an album by American saxophonist Oliver Nelson, originally released in 1961 on New Jazz Records.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Same album, wrong leader: prose and the artist field attribute the album to Eric Dolphy, but both sources show it as an Oliver Nelson date with Dolphy as sideman. MB embedded doc is the 1991 OJC reissue (OJCCD-080-2) crediting Oliver Nelson Sextet / Eric Dolphy / Richard Williams; release-group first release 1961-01, so year 1961 is fine. All 5 keyTracks match the tracklist. On label: New Jazz was a Prestige-family imprint (the Far Cry wiki lead in this same pack calls New Jazz 'a subsidiary of the Prestige label'), but the dataset elsewhere uses 'New Jazz' as its own label value (the Where? item), so this field should read New Jazz. Stored wiki link does point to the correct album page.",
+    "ours": {
+      "title": "Screamin' the Blues",
+      "artist": "Eric Dolphy",
+      "year": 1961,
+      "label": "Prestige",
+      "albumDNA": "Screamin' the Blues is an album by Eric Dolphy, released in 1961 on Prestige. The record sits in the hard bop / free jazz tradition. Notable tracks include \"Screamin' the Blues\" and \"March on, March On\".",
+      "keyTracks": [
+        "Screamin' the Blues",
+        "March on, March On",
+        "The Drive",
+        "The Meetin'",
+        "Three Seconds"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "635f03c6-5b34-47e0-9098-f2882bb1ef3e",
+          "title": "Screamin' the Blues",
+          "date": "1991-07-01",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Oliver Nelson Sextet",
+            "Eric Dolphy",
+            "Richard Williams"
+          ],
+          "labels": [
+            {
+              "name": "Original Jazz Classics",
+              "catalogNumber": "OJCCD-080-2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "1f9d29a6-1c84-3d69-84ea-eef1692cdc83",
+            "title": "Screamin' the Blues",
+            "firstReleaseDate": "1961-01",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Screamin' the Blues",
+            "March On, March On",
+            "The Drive",
+            "The Meetin'",
+            "Three Seconds",
+            "Alto-itis"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Screamin'_the_Blues",
+        "page": {
+          "requestedTitle": "Screamin' the Blues",
+          "resolvedTitle": "Screamin' the Blues",
+          "shortDescription": "1961 studio album by Oliver Nelson",
+          "extract": "Screamin' the Blues is an album by American saxophonist Oliver Nelson, originally released in 1961 on New Jazz Records.\n\n\n== Reception ==\nLeonard Feather gave the album 4 stars in his DownBeat review. Feather called the album Neslon's best record to date.\n\n\n== Track listing ==\n\n\n== Personnel ==\nOliver Nelson – tenor saxophone, alto saxophone\nEric Dolphy – bass clarinet, alto saxophone\nRichard Williams – trumpet\nRichard Wyands – piano\nGeorge Duvivier – bass\nRoy Haynes – drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "secrets-are-the-best-stories",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "pianist Danilo Pérez leads",
+    "contradictingQuote": "\"Kurt Elling\"",
+    "skepticDecision": "Embedded-MBID (authoritative for artist credit) credits the release to Kurt Elling; the prose asserts 'pianist Danilo Perez leads' this exact release (same title/label/date, all five keyTracks match). The leadership attribution contradicts the authoritative credit -> factual_error.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "pianist Danilo Perez leads a contemporary jazz session",
+        "problem": "The authoritative MB embedded_mbid release credits the artist as Kurt Elling, not Danilo Perez. Same album (title, label Edition Records EDN1151, date 2020-04-03 and all five keyTracks match), so the album row is right but the leader attribution contradicts the authoritative artist credit.",
+        "evidenceQuote": "Kurt Elling",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "This is the album 'Secrets Are the Best Stories', an Edition Records collaboration; MB (embedded_mbid, authoritative for artist credit) credits it to Kurt Elling. Danilo Perez is the pianist/co-creator, so 'Danilo Perez' is not nonsense, but the prose frames him as the leader against MB's Elling credit. All five keyTracks match the MB tracklist, confirming it is the same release. Treated as factual_error on artist attribution, not entity_mismatch (the album is correctly resolved). No wikipedia evidence.",
+    "ours": {
+      "title": "Secrets Are The Best Stories",
+      "artist": "Danilo Pérez",
+      "year": 2020,
+      "label": "Edition Records",
+      "albumDNA": "On Secrets Are The Best Stories, pianist Danilo Pérez leads a contemporary jazz session recorded for Edition Records in 2020. The program includes \"The Fanfold Hawk (for Franz Wright)\", \"A Certain Continuum\", and \"Stays\".",
+      "keyTracks": [
+        "The Fanfold Hawk (for Franz Wright)",
+        "A Certain Continuum",
+        "Stays",
+        "Gratitude (for Robert Bly)",
+        "Stage"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "db6fffd0-4040-465c-8052-4f93503b9acd",
+          "title": "Secrets Are The Best Stories",
+          "date": "2020-04-03",
+          "country": "GB",
+          "status": "Official",
+          "artists": [
+            "Kurt Elling"
+          ],
+          "labels": [
+            {
+              "name": "Edition Records",
+              "catalogNumber": "EDN1151"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "28fe6467-f22f-4193-ac3b-5aebc5f03679",
+            "title": "Secrets Are The Best Stories",
+            "firstReleaseDate": "2020-04-03",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "The Fanfold Hawk (for Franz Wright)",
+            "A Certain Continuum",
+            "Stays",
+            "Gratitude (for Robert Bly)",
+            "Stage",
+            "Beloved (for Toni Morrison)",
+            "Stages II, III",
+            "Song Of The Rio Grande (for Oscar and Valeria Martinez-Ramirez)",
+            "Rabo de Nube",
+            "Esperanto",
+            "Epílogo"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "shades-of-green",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "a 1972 session reflecting the fusion period",
+    "contradictingQuote": "West Hollywood, CA on November 23 (tracks 1, 5 & 8), & November 24 (tracks 2–4, 6 & 7), 1971",
+    "skepticDecision": "'Session' denotes the recording, and Wikipedia states verbatim the album was recorded in November 1971; ours' own first sentence also says 'recorded in 1971'. Calling it 'a 1972 session' is therefore factually wrong about the recording year and self-contradictory within the blurb. The 1972 year field is fine as the release year.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "a 1972 session reflecting the fusion period",
+        "problem": "the session was recorded in November 1971; 1972-04 is the release date. The same blurb's first sentence correctly says recorded 1971, so this tail phrase contradicts both the evidence and the blurb itself",
+        "evidenceQuote": "Recorded at United Artists Studios, West Hollywood, CA on November 23 (tracks 1, 5 & 8), & November 24 (tracks 2-4, 6 & 7), 1971",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Entity solid: MB embedded_mbid (Blue Note BST-84413, 1972-04, Grant Green) and stored wiki page match. Year field 1972 is fine as release year (MB 1972-04). All 5 keyTracks on MB tracklist including the long medley title. Minor error only: '1972 session' is template filler keyed off release year; recording was Nov 1971 (horn overdubs Dec 1971).",
+    "ours": {
+      "title": "Shades of Green",
+      "artist": "Grant Green",
+      "year": 1972,
+      "label": "Blue Note",
+      "albumDNA": "Shades of Green is an album by American jazz guitarist Grant Green featuring performances recorded in 1971 and released on the Blue Note label. Documents guitarist Grant Green's jazz fusion work for Blue Note, a 1972 session reflecting the fusion period.",
+      "keyTracks": [
+        "I Don't Want Nobody to Give Me Nothing (Open Up the Door I'll Get It Myself) / Cold Sweat (medley)",
+        "Sunrise, Sunset",
+        "Never My Love",
+        "Got to Be There",
+        "California Green"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "47ffd53b-ca32-3c2a-b56f-f945b6766875",
+          "title": "Shades of Green",
+          "date": "1972-04",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Grant Green"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": "BST-84413"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "10d74a91-89b0-47de-85cd-5b055c044992",
+            "title": "Shades of Green",
+            "firstReleaseDate": "1972-04",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "I Don't Want Nobody to Give Me Nothing (Open Up the Door I'll Get It Myself) / Cold Sweat (medley)",
+            "Sunrise, Sunset",
+            "Never My Love",
+            "Got to Be There",
+            "California Green",
+            "If You Really Love Me",
+            "Cast Your Fate to the Wind",
+            "In the Middle"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Shades_of_Green_(album)",
+        "page": {
+          "requestedTitle": "Shades of Green (album)",
+          "resolvedTitle": "Shades of Green (album)",
+          "shortDescription": "1972 studio album by Grant Green",
+          "extract": "Shades of Green is an album by American jazz guitarist Grant Green featuring performances recorded in 1971 and released on the Blue Note label.\n\n\n== Reception ==\n\nThe Allmusic review by Michael Erlewine awarded the album 2 stars and stated \"This is not the old Grant Green\".\n\n\n== Track listing ==\n\"Medley: I Don't Want Nobody to Give Me Nothing (Open Up the Door I'll Get It Myself) / Cold Sweat\" (James Brown) – 5:52\n\"Sunrise, Sunset\" (Jerry Bock, Sheldon Harnick) – 4:40\n\"Never My Love\" (Donald Adrissi, Richard Addrisi) – 4:30\n\"Got to Be There\" (Elliot Willensky) – 4:24\n\"California Green\" (Grant Green) – 6:24\n\"If You Really Love Me\" (Stevie Wonder, Syreeta Wright) – 4:25\n\"Cast Your Fate to the Wind\" (Vince Guaraldi) – 4:50\n\"In the Middle\" (Alfred Ellis, Buddy Hobgood) – 5:02\nRecorded at United Artists Studios, West Hollywood, CA on November 23 (tracks 1, 5 & 8), & November 24 (tracks 2–4, 6 & 7), 1971 with horn overdubs recorded at Rudy Van Gelder Studio, Englewood Cliffs, New Jersey on December 16 & 17, 1971\n\n\n== Personnel ==\n\n\n=== Musicians ===\nGrant Green – guitar\nBilly Wooten – vibraphone\nEmmanuel Riggins – electric piano, clavinet\nWilton Felder – electric bass\nNesbert \"Stix\" Hooper – drums\nKing Errisson – conga\nHarold Cardwell – percussion\nOrchestra arranged by Wade Marcus\n\n\n=== Additional musicians ===\nJoe Newman, Joe Wilder, Victor Paz, James Sedlar – trumpet\nHarry DiVito – trombone\nDick Hickson – bass trombone\nJim Buffington – French horn\nPhil Bodner, Romeo Penque, George Marge, John Leone – woodwinds\n\n\n=== Technical personnel ===\nChristina Hersch – engineer\nRudy Van Gelder – remixing\nNorman Seeff – art direction\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "smack-up-art-pepper",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 1991, Smack Up showcases Art Pepper at the height of their creative powers",
+    "contradictingQuote": "\"firstReleaseDate\": \"1960-10-24\"",
+    "skepticDecision": "The single matching candidate has a first release of 1960-10-24, so the album cannot have been recorded in 1991; no evidence supports a 1991 date.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 1991, Smack Up",
+        "problem": "1991 is a reissue year; Art Pepper's 'Smack Up' was first released October 1960",
+        "evidenceQuote": "firstReleaseDate: 1960-10-24",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "MB has no confident release (similarity 0.71), but the single searchCandidate is unambiguously this album — 'Smack Up' by the Art Pepper Quintet, firstReleaseDate 1960-10-24. That date contradicts albumDNA 'Recorded in 1991'. Confidence moderated because the date comes from a search candidate (weak-tier evidence) rather than a confident/embedded release. No tracklist available, so the 6 keyTracks cannot be checked. label placeholder 'Various'.",
+    "ours": {
+      "title": "Smack Up",
+      "artist": "Art Pepper",
+      "year": 1991,
+      "label": "Various",
+      "albumDNA": "Recorded in 1991, Smack Up showcases Art Pepper at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Smack Up remains a landmark of Cool Jazz, cementing Art Pepper's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Smack Up",
+        "Las Cuevas de Mario",
+        "A Bit of Basie",
+        "How Can You Lose",
+        "Maybe Next Year",
+        "Tears Inside"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 0.71,
+        "release": null,
+        "searchCandidates": [
+          {
+            "mbid": "1d8e1217-a994-3366-bb6c-ccfaddbf4541",
+            "title": "Smack Up",
+            "score": 100,
+            "artists": [
+              "Art Pepper Quintet"
+            ],
+            "firstReleaseDate": "1960-10-24",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          }
+        ]
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "solo-flight",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "It was first recorded in 1956 with Mitch Miller and his orchestra, and played a prominent part in the 1971 motion picture Play Misty for Me.",
+    "contradictingQuote": "\"firstReleaseDate\": \"1952\"",
+    "skepticDecision": "The album entity is correct (MB confirms Solo Flight / Erroll Garner / 1952), but the grafted sentence makes 'It' refer to this 1952 album and asserts it was 'first recorded in 1956', directly contradicting the MB release date. The 1956 claim is a false fact about the album.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "It was first recorded in 1956 with Mitch Miller and his orchestra, and played a prominent part in the 1971 motion picture Play Misty for Me.",
+        "problem": "Sentence lifted from Erroll Garner's bio where 'It' refers to his composition 'Misty'; pasted here it falsely asserts the 1952 album Solo Flight was first recorded in 1956 (MB: released 1952, Columbia CL 6209).",
+        "evidenceQuote": "His instrumental ballad \"Misty\", his best-known composition, has become a jazz standard. It was first recorded in 1956 with Mitch Miller and his orchestra, and played a prominent part in the 1971 motion picture Play Misty for Me.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Album entity is right: embedded MB release confirms title, Erroll Garner, 1952, Columbia CL 6209, the two named standouts, and all 5 keyTracks. The Misty sentence is the corruption. Also questionable but editorial: 'delivers a bebop program' - the Garner wiki page says he was 'not a bebop musician per se'; not flagged as a wrongClaim (genre framing), but a repair-writer should reword. Stored wiki URL is the artist page, not an album page (fallback, not a collision).",
+    "ours": {
+      "title": "Solo Flight",
+      "artist": "Erroll Garner",
+      "year": 1952,
+      "label": "Columbia",
+      "albumDNA": "With Solo Flight (1952), pianist Erroll Garner delivers a bebop program for the Columbia label. Standouts include \"Cocktails for Two\" and \"It Don't Mean a Thing (If It Ain't Got That Swing)\". Columbia Records gave jazz wide exposure, releasing landmark albums by Miles Davis, Thelonious Monk, and Dave Brubeck. It was first recorded in 1956 with Mitch Miller and his orchestra, and played a prominent part in the 1971 motion picture Play Misty for Me.",
+      "keyTracks": [
+        "Cocktails for Two",
+        "It Don't Mean a Thing (If It Ain't Got That Swing)",
+        "Chopin Impressions",
+        "Love Me or Leave Me",
+        "With Every Breath I Take"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "26430f09-d9b1-4c76-961a-0b9896b203b3",
+          "title": "Solo Flight",
+          "date": "1952",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Erroll Garner"
+          ],
+          "labels": [
+            {
+              "name": "Columbia",
+              "catalogNumber": "CL 6209"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "04e67b35-b608-4c60-9eff-af65c708dec1",
+            "title": "Solo Flight",
+            "firstReleaseDate": "1952",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Cocktails for Two",
+            "It Don't Mean a Thing (If It Ain't Got That Swing)",
+            "Chopin Impressions",
+            "Love Me or Leave Me",
+            "With Every Breath I Take",
+            "How Come You Do Me Like You Do",
+            "Willow Me",
+            "Dancing in the Dark"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Erroll_Garner",
+        "page": {
+          "requestedTitle": "Erroll Garner",
+          "resolvedTitle": "Erroll Garner",
+          "shortDescription": "American jazz pianist and composer (1921–1977)",
+          "extract": "Erroll Louis Garner (June 15, 1921 – January 2, 1977) was an American jazz pianist and composer known for his swing playing and ballads. His instrumental ballad \"Misty\", his best-known composition, has become a jazz standard. It was first recorded in 1956 with Mitch Miller and his orchestra, and played a prominent part in the 1971 motion picture Play Misty for Me.\nScott Yanow of AllMusic calls him \"one of the most distinctive of all pianists\" and a \"brilliant virtuoso\". Garner received a star on the Hollywood Walk of Fame at 6363 Hollywood Boulevard. His live album Concert by the Sea, first released in 1955, sold more than 1 million copies by 1958, and Yanow's opinion of the album is that it \"made such a strong impression that Garner was considered immortal from then on.\"\n\n\n== Life and career ==\nGarner was born, along with twin brother Ernest in Pittsburgh, Pennsylvania, on June 15, 1921, the youngest of six children. He attended George Westinghouse High School (as did fellow pianists Billy Strayhorn and Ahmad Jamal). Interviews with his family, music teachers, other musicians, and a detailed family tree can be found in Erroll Garner: The Most Happy Piano by James M. Doran.\n\n\n=== Piano career ===\n\nGarner began playing piano at the age of three. His elder siblings were taught piano by a \"Miss Bowman\". From an early age, Erroll would sit down and play anything she had demonstrated, \"just like Miss Bowman\", his eldest sister Martha said. Garner was self-taught and remained an \"ear player\" all his life, never learning to read music. At the age of seven, he began appearing on the radio station KDKA in Pittsburgh with a group named the Candy Kids. By the age of 11, he was playing on the Allegheny riverboats. In 1937, he joined local saxophonist Leroy Brown.\nGarner played locally in the shadow of his older brother Linton, also a pianist.\nGarner moved to New York City in 1944. He briefly worked with the bassist Slam Stewart, and although not a bebop musician per se, in 1947 played with Charlie Parker on the \"Cool Blues\" session. Although Garner's admission to the Pittsburgh music union initially was refused because of his inability to read music, the union relented in 1956 and made him an honorary member. He is credited with having had a superb musical memory. After attending a concert by Russian classical pianist Emil Gilels, Garner returned to his apartment and was able to play a large portion of the performed music by heart.\n\n\n=== Columbia Records Lawsuit ===\nGarner sued Columbia Records in 1960 for breach of contract after they released several recordings without his consent. He had signed a five-year deal with Columbia in 1956, which contained an unprecedented clause (negotiated with the aid of manager Martha Glaser) giving Garner the right to approve the release of any of his recorded music. After three years of litigation, during which time Columbia continued to release Garner recordings against his will, the New York State Supreme Court ruled in Garner's favor in a landmark decision with regard to artists' rights, and Columbia paid Garner a substantial settlement and recalled all of the unauthorized records from its distributors.\n\n\n== Personal life ==\n\n\n=== Death ===\nGarner died of cardiac arrest related to emphysema on January 2, 1977, aged 55. He is buried in Pittsburgh's Homewood Cemetery.\n\n\n=== Management, estate and heirs ===\nGarner's career was supervised by music manager Martha Glaser from 1950 until his death in 1977; he was her only client.\nNeither Garner's partner Rosalyn Noisette nor his daughter Kim Garner were able to be his heirs. Glaser became his estate executor. After Glaser's death, her niece Susan Rosenberg inherited the charge to deal with Garner's cultural legacy.\n\n\n== Playing style ==\n\nShort in stature (5 feet 2 inches [157 cm]), Garner performed sitting on multiple telephone directories. He was also known for his vocalizations while playing, which can be heard on many of his recordings. He helped to bridge the gap for jazz musicians between nightclubs and the concert hall.\nCalled \"one of the most distinctive of all pianists\" by Scott Yanow, Garner showed that a \"creative jazz musician can be very popular without watering down his music\" or changing his personal style. He has been described as a \"brilliant virtuoso who sounded unlike anyone else\", using an \"orchestral approach straight from the swing era but...open to the innovations of bop.\" His distinctive style could swing like no other, but "
+        }
+      }
+    }
+  },
+  {
+    "id": "spellbound-clifford-jordan",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 2007, Spellbound",
+    "contradictingQuote": "which was recorded in 1960 and released on the Riverside label",
+    "skepticDecision": "Upheld: the entity-matched Wikipedia page states the album was recorded in 1960, directly contradicting a 2007 recording.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 2007, Spellbound showcases Clifford Jordan at the height of their creative powers",
+        "problem": "Recorded in 1960, not 2007; 2007 is a Japanese reissue date",
+        "evidenceQuote": "Spellbound is an album by jazz saxophonist Clifford Jordan which was recorded in 1960 and released on the Riverside label.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "MB embedded release is a 2007-01-24 JP reissue (Riverside VICJ-41820); release-group firstReleaseDate 1960-11. Wiki 'Spellbound (Clifford Jordan album)' is our entity. All 6 keyTracks match. Only 'Recorded in 2007' is wrong.",
+    "ours": {
+      "title": "Spellbound",
+      "artist": "Clifford Jordan",
+      "year": 2007,
+      "label": "Various",
+      "albumDNA": "Recorded in 2007, Spellbound showcases Clifford Jordan at the height of their creative powers, offering one of the finest expressions of Hard Bop. Spellbound remains a landmark of Hard Bop, cementing Clifford Jordan's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Toy",
+        "Lush Life",
+        "Moon-A-Tic",
+        "Spellbound",
+        "Hot Water",
+        "Last Night When We Were Young"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "1ab7ad48-9cd3-41ff-ac9c-84c17cb2e373",
+          "title": "Spellbound",
+          "date": "2007-01-24",
+          "country": "JP",
+          "status": "Official",
+          "artists": [
+            "Clifford Jordan"
+          ],
+          "labels": [
+            {
+              "name": "Riverside",
+              "catalogNumber": "VICJ-41820"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "c85fda1f-01c6-3e0c-9940-575f5ac77145",
+            "title": "Spellbound",
+            "firstReleaseDate": "1960-11",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Toy",
+            "Lush Life",
+            "Moon-A-Tic",
+            "Spellbound",
+            "Hot Water",
+            "Last Night When We Were Young",
+            "Au Privave"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Spellbound (Clifford Jordan album)",
+          "resolvedTitle": "Spellbound (Clifford Jordan album)",
+          "shortDescription": "1960 studio album by Clifford Jordan",
+          "extract": "Spellbound is an album by jazz saxophonist Clifford Jordan which was recorded in 1960 and released on the Riverside label.\n\n\n== Reception ==\n\nThe Allmusic site awarded the album 4 stars with the review by Scott Yanow stating, \"At this point, Jordan did not quite have the distinctive sound that he would develop in his period with Charles Mingus, but he was already a strong hard bop stylist... It's an excellent straight-ahead outing\" \nDpwnBeat reviewer Frank Kofsky awarded the album 4 stars. Kofsky found a heavy influence of Sonny Rollins in Jordan's playing.\n\n\n== Track listing ==\nAll compositions by Clifford Jordan except as indicated\n\n\"Toy\" - 4:25\n\"Lush Life\" (Billy Strayhorn) - 5:15\n\"Moon-A-Tic\" - 4:41\n\"Spellbound\" - 5:54\n\"Hot Water\" - 5:06\n\"Last Night When We Were Young\" (Harold Arlen, Yip Harburg) - 6:30\n\"Au Privave\" (Charlie Parker) - 8:31\n\n\n== Personnel ==\nClifford Jordan — tenor saxophone\nCedar Walton - piano\nSpanky DeBrest - bass\nAlbert Heath - drums\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Spellbound (Clifford Jordan album)",
+            "shortDescription": "1960 studio album by Clifford Jordan",
+            "extractHead": "Spellbound is an album by jazz saxophonist Clifford Jordan which was recorded in 1960 and released on the Riverside label.\n\n\n== Reception ==\n\nThe Allmusic site awarded the album 4 stars with the review by Scott Yanow stating, \"At this point, Jordan did not quite have the distinctive sound that he would develop in his period with Charles Mingus, but he was already a strong hard bop stylist... It's an excellent straight-ahead outing\" \nDpwnBeat reviewer Frank Kofsky awarded the album 4 stars. Kofsk"
+          },
+          {
+            "resolvedTitle": "Spellbound",
+            "shortDescription": "Topics referred to by the same term",
+            "extractHead": "Spellbound may refer to:\n\n\n== Film and television ==\nSpellbound (1916 film), with Lois Meredith\nSpellbound (1941 film), directed by John Harlow\nSpellbound (1945 film), directed by Alfred Hitchcock\nSpellbound (1999 film), a Japanese film directed by Masato Harada\nSpellbound (2002 film), a documentary film about the National Spelling Bee\nSpellbound (2003 film), a television film starring Richard Ruccolo\nSpellbound (2004 film), a television film starring Maggie Lawson\nSpellbound (2007 film), a tele"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "spihumonesty",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "released on the Italian Black Saint label in 1979",
+    "contradictingQuote": "\"date\": \"1980\"",
+    "skepticDecision": "The embedded-MBID release (authoritative for date) gives the release date and the release-group first release as 1980, and our own year field agrees with 1980. The prose's release year of 1979 is directly contradicted.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "released on the Italian Black Saint label in 1979",
+        "problem": "MB (embedded MBID, authoritative for date) dates the Black Saint release and the release group's first release to 1980, not 1979. Our own year field says 1980, agreeing with MB; only the prose says 1979.",
+        "evidenceQuote": "date: \"1980\"; releaseGroup.firstReleaseDate: \"1980\"",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Italian label confirmed (MB country IT, Black Saint BSR 0032). All four keyTracks match the MB tracklist exactly. The personnel list (George Lewis, Roscoe Mitchell, Amina Claudine Myers, Youseff Yancy, Leonard Jones, Jay Clayton) is unverifiable - MB supplies only a tracklist and no Wikipedia page was found. 1979 in the prose may be the recording year, but no recording date is in evidence.",
+    "ours": {
+      "title": "Spihumonesty",
+      "artist": "Muhal Richard Abrams",
+      "year": 1980,
+      "label": "Black Saint",
+      "albumDNA": "Spihumonesty is an album by Muhal Richard Abrams, released on the Italian Black Saint label in 1979. It features performances by Abrams, George Lewis, Roscoe Mitchell, Amina Claudine Myers, Youseff Yancy, Leonard Jones, and Jay Clayton.",
+      "keyTracks": [
+        "Triverse",
+        "Inneroutersight",
+        "Unichange",
+        "Spihumonesty"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "8e00c07d-9af7-4eac-a1bc-a9e1625d5120",
+          "title": "Spihumonesty",
+          "date": "1980",
+          "country": "IT",
+          "status": "Official",
+          "artists": [
+            "Muhal Richard Abrams"
+          ],
+          "labels": [
+            {
+              "name": "Black Saint",
+              "catalogNumber": "BSR 0032"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "113a1611-62f2-41a7-a238-6f3de8bd29d7",
+            "title": "Spihumonesty",
+            "firstReleaseDate": "1980",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Triverse",
+            "Inneroutersight",
+            "Unichange",
+            "Spihumonesty"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "stan-getz-and-the-oscar-peterson-trio-stan-getz",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 2020, Stan Getz and the Oscar Peterson Trio",
+    "contradictingQuote": "\"firstReleaseDate\": \"1957\"",
+    "skepticDecision": "Upheld: MB release-group first release is 1957, contradicting a 2020 recording; the 2020 release is a reissue.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 2020, Stan Getz and the Oscar Peterson Trio showcases Stan Getz at the height of their creative powers",
+        "problem": "2020 is the Verve Reissues reissue date, not the recording year; the original release-group dates to 1957",
+        "evidenceQuote": "releaseGroup.firstReleaseDate: \"1957\"",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "MB embedded_mbid release is a 2020-01-17 Verve Reissues reissue (country XW); release-group firstReleaseDate 1957. Artist credit (Stan Getz, Oscar Peterson) and all 6 keyTracks match the MB tracklist (which also has 'Bronx Blues'). Only the 'Recorded in 2020' claim is wrong — it cites the reissue year. label='Various' not checked (no single-label evidence; MB shows Verve Reissues).",
+    "ours": {
+      "title": "Stan Getz and the Oscar Peterson Trio",
+      "artist": "Stan Getz",
+      "year": 2020,
+      "label": "Various",
+      "albumDNA": "Recorded in 2020, Stan Getz and the Oscar Peterson Trio showcases Stan Getz at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Stan Getz and the Oscar Peterson Trio remains a landmark of Cool Jazz, cementing Stan Getz's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "I Want to Be Happy",
+        "Pennies From Heaven",
+        "Ballad Medley",
+        "I'm Glad There Is You",
+        "Tour's End",
+        "I Was Doing All Right"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "ba6baee0-4f3c-4ada-9e37-796a07877904",
+          "title": "Stan Getz And The Oscar Peterson Trio",
+          "date": "2020-01-17",
+          "country": "XW",
+          "status": "Official",
+          "artists": [
+            "Stan Getz",
+            "Oscar Peterson"
+          ],
+          "labels": [
+            {
+              "name": "Verve Reissues",
+              "catalogNumber": null
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "dd46e67f-6a0f-3a16-9455-ed3d614de89a",
+            "title": "Stan Getz and The Oscar Peterson Trio",
+            "firstReleaseDate": "1957",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "I Want to Be Happy",
+            "Pennies From Heaven",
+            "Ballad Medley",
+            "I'm Glad There Is You",
+            "Tour's End",
+            "I Was Doing All Right",
+            "Bronx Blues"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "stop-and-listen",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "featuring performances recorded and released on the Blue Note label in 1961",
+    "contradictingQuote": "\"firstReleaseDate\": \"1962\"",
+    "skepticDecision": "No second source is provided, and the authoritative embedded-MBID release-group first-release date is 1962 (matching the dataset's own year field). The flat claim that it was 'released ... in 1961' is directly contradicted by that 1962 date, with nothing reconciling it (unlike a format-split account).",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "featuring performances recorded and released on the Blue Note label in 1961",
+        "problem": "Release year contradicts MB: the release-group's first release is 1962 (which also matches our own year field, 1962); recording in 1961 may well be right, but 'released ... in 1961' conflicts with the authoritative embedded-MBID evidence",
+        "evidenceQuote": "releaseGroup.firstReleaseDate: \"1962\"",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "MB embedded doc is a 1999 Japanese reissue (Blue Note TOCJ-9143) of our album; its release-group gives first release 1962, agreeing with our year field but contradicting the prose's 'recorded and released... in 1961' - the prose contradicts our own year field too. All 5 keyTracks are on the reissue tracklist. Unverifiable from pack: 'second album', the '1941 Harry Warren song' attribution for 'At Last', and the Etta James R&B/Hot 100 chart-timing claim. No wikipedia evidence (no stored URL; opensearch empty).",
+    "ours": {
+      "title": "Stop and Listen",
+      "artist": "Baby Face Willette",
+      "year": 1962,
+      "label": "Blue Note",
+      "albumDNA": "Stop and Listen is the second album by American jazz organist Baby Face Willette featuring performances recorded and released on the Blue Note label in 1961. It features a version of the 1941 Harry Warren song \"At Last,\" which at the time of the Stop and Listen recording sessions was on the R&B and Billboard Hot 100 record charts through Etta James' hit recording of the song.",
+      "keyTracks": [
+        "Willow Weep for Me",
+        "Chances Are Few",
+        "Jumpin' Jupiter",
+        "Stop and Listen",
+        "At Last"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "76f4a3b1-3ff6-4e23-889f-8301c593aaa8",
+          "title": "Stop and Listen",
+          "date": "1999",
+          "country": "JP",
+          "status": "Official",
+          "artists": [
+            "Baby Face Willette"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": "TOCJ-9143"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "8ae2f059-e140-37d6-9ca1-7bd22409229e",
+            "title": "Stop and Listen",
+            "firstReleaseDate": "1962",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Willow Weep for Me",
+            "Chances Are Few",
+            "Jumpin' Jupiter",
+            "Stop and Listen",
+            "At Last",
+            "Soul Walk",
+            "Work Song"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "sweet-release-ghost-story",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "He played trumpet for the orchestras of Maynard Ferguson, Woody Herman, Wynton Marsalis, Ray Charles, and Harry Connick Jr.",
+    "contradictingQuote": "He played trumpet for the orchestras of Maynard Ferguson, Woody Herman, Wynton Marsalis, Ray Charles, and Harry Connick Jr.",
+    "skepticDecision": "The final sentence is a Roger Ingram biography grafted onto the Wynton Marsalis album and is self-contradicting if read as Marsalis; only that sentence is foreign, so it is a factual error on the right album, not a full entity mismatch.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "He played trumpet for the orchestras of Maynard Ferguson, Woody Herman, Wynton Marsalis, Ray Charles, and Harry Connick Jr.",
+        "problem": "This sentence is a biography of trumpeter Roger Ingram, not Wynton Marsalis -- it even lists 'Wynton Marsalis' as one of the orchestras 'he' played for, so the subject cannot be Marsalis. Grafted from the wrong stored_url page.",
+        "evidenceQuote": "Roger O'Neal Ingram (born November 13, 1957) is a jazz trumpeter, educator, author, and instrument designer. He played trumpet for the orchestras of Maynard Ferguson, Woody Herman, Wynton Marsalis, Ray Charles, and Harry Connick Jr.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Right album entity: MB embedded_mbid confirms 'Sweet Release & Ghost Story' (Wynton Marsalis, 1999, no label -- ours 'Unknown' is consistent); all 5 keyTracks match. The album-identity portion of the prose is correct. The final sentence is a foreign biography lifted from the stored_url 'Roger Ingram' Wikipedia page (a different person), making it a false claim about Marsalis. wiki link = wrong_entity (Roger Ingram). Repair note: delete the Roger Ingram sentence; fix the wiki link.",
+    "ours": {
+      "title": "Sweet Release & Ghost Story",
+      "artist": "Wynton Marsalis",
+      "year": 1999,
+      "label": "Unknown",
+      "albumDNA": "Sweet Release & Ghost Story is a contemporary jazz album by Wynton Marsalis from 1999. The date includes \"Sweet Release: Home: Beyond This Rage\" and \"Sweet Release: Church: Renewing Vows\". He played trumpet for the orchestras of Maynard Ferguson, Woody Herman, Wynton Marsalis, Ray Charles, and Harry Connick Jr.",
+      "keyTracks": [
+        "Sweet Release: Home: Beyond This Rage",
+        "Sweet Release: Church: Renewing Vows",
+        "Sweet Release: Church Basement: Party",
+        "Sweet Release: Street: Make Room for Me",
+        "Sweet Release: Home: Give Me Your Hand"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "a41a7657-39ae-4b06-99c0-badd5d9ad7bb",
+          "title": "Sweet Release & Ghost Story",
+          "date": "1999-08-10",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Wynton Marsalis"
+          ],
+          "labels": [],
+          "releaseGroup": {
+            "mbid": "014488f8-9cc3-3c69-934f-190f6ce32b96",
+            "title": "Sweet Release & Ghost Story",
+            "firstReleaseDate": "1999-08-10",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Sweet Release: Home: Beyond This Rage",
+            "Sweet Release: Church: Renewing Vows",
+            "Sweet Release: Church Basement: Party",
+            "Sweet Release: Street: Make Room for Me",
+            "Sweet Release: Home: Give Me Your Hand",
+            "Ghost Story: Introduction",
+            "Ghost Story: Acknowledgment",
+            "Ghost Story: Tango",
+            "Ghost Story: First Blues",
+            "Ghost Story: Awakening",
+            "Ghost Story: Celebration",
+            "Ghost Story: Second Blues",
+            "Ghost Story: Recognition and Reconciliation"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Roger_Ingram",
+        "page": {
+          "requestedTitle": "Roger Ingram",
+          "resolvedTitle": "Roger Ingram",
+          "shortDescription": "American trumpeter (born 1957)",
+          "extract": "Roger O'Neal Ingram (born November 13, 1957) is a jazz trumpeter, educator, author, and instrument designer. He played trumpet for the orchestras of Maynard Ferguson, Woody Herman, Wynton Marsalis, Ray Charles, and Harry Connick Jr.\n\n\n== Early life ==\nThe youngest of three children, Ingram was born November 13, 1957, in Pasadena, California. His mother ran the household and worked as a tailor and dressmaker from their home in Eagle Rock, Los Angeles; his father was a freelance artist, actor, and musician. His father worked as a staff animator on early Popeye cartoons and several early Disney animations, including the movie Fantasia. He hosted a radio show in Los Angeles in the 1930s, singing and playing ukulele. During the 1940s and 50's he worked in Hollywood as a singer and actor and was in over thirty movie and TV shows, including Gentlemen Prefer Blondes, Superman, and Titanic.\nHe played saxophone and harmonica and brought Ingram to hear Louis Armstrong, Harry James, Duke Ellington, Count Basie, Al Hirt, Buddy Rich, Barney Bigard, Jack Teagarden, Kid Ory, Woody Herman, Rafael Méndez, and Teddy Buckner. He gave Ingram his first trumpet and mouthpiece in 1965. The trumpet is a bare brass horn made in post-war Japan during the American occupation. The bell is stamped \"Koondr, Kailangan Tokyo.\"\nIngram began playing the trumpet at age eight. Growing up in Los Angeles, he became acquainted with Hollywood session trumpeters. Many of these introductions came through John Rinaldo, his band director at Eagle Rock High School. Rinaldo's jazz program included others who went on to become professionals, such as drummers Carlos Vega and Sam Wiley, bassists Scott Colley and David Stone, guitarist Larry Koonse, saxophonists Doug Rinaldo, Brian Mitchell, and Gary Hypes, trombonists Arturo Velasco and Luis Bonilla, pianist Guy Steiner, and trumpeters Bobby Muzingo and Buddy Gordon. Through Rinaldo, Ingram was able to meet and study with Bobby Shew and Laroon Holt. Ingram's teachers included Bud Brisbois, Mannie Klein, Roy Stevens, Don Raffell, Bobby Findley, Carmine Caruso, Reynold Schilke, James Stamp, Uan Rasey, Mel Broiles, and Dan Jacobs.\n\n\n== Career ==\n\n\n=== Early performing ===\nAt sixteen, Ingram toured with Louie Bellson, sharing section duties with Blue Mitchell, Bobby Shew, Cat Anderson, and Frank Szabo. His first international gigs were with the group during the 1974 Belvedere King Size Jazz Festival Tour at Varsity Stadium in Toronto, the Winnipeg Arena in Winnipeg, and the Pacific Coliseum in Vancouver, Canada. After his stint with Bellson, he graduated from high school and then joined Quincy Jones on a fall tour. After that tour, he spent a year touring with Connie Stevens, playing lead trumpet for the first time.\nAt eighteen, Ingram played first trumpet with singer Tom Jones and toured with him for six years. After that, he moved to Las Vegas, where for two years he gained experience playing on the Las Vegas Strip.\n\n\n=== With Woody Herman and Maynard Ferguson ===\nIn 1985, Ingram joined the Woody Herman Orchestra as lead trumpet. Ingram's friend Ron Stout held the jazz trumpet chair and helped get him in the band. He remained with the band until Herman's death in 1987. He recorded three Grammy-nominated albums with Herman: The 50th Anniversary Tour, Woody's Gold Star, and The Concord Years.\nHe is the last lead trumpeter to play with the \"original\" Woody Herman Orchestra. Ingram returned to Los Angeles after Herman's death, founding and co-leading his big band with saxophonist Steve Elliott. The Ingram-Elliott big band featured Bobby Shew, Till Brönner, Bill Watrous, and Gary Foster.\nIn 1988, he worked with the WDR Jazz Orchestra in Cologne, Germany. While in Germany, he recorded works by Bob Brookmeyer and Jim McNeely with Mel Lewis on drums. During this time, he recorded with saxophonist Loren Schoenberg and pianist Django Bates. Later that year, Ingram joined the orchestra of Maynard Ferguson and recorded three albums with him. In October 2004, he performed as a featured artist at Stratospheric, a four-day festival honoring Ferguson. In September 2006, he performed as a featured soloist at the Maynard Ferguson Tribute Concert in St. Louis, Missouri, with many other trumpeters, including his long-time friend and colleague Wayne Bergeron.\nAfter three years as lead trumpeter for Ferguson, he moved to Florida, where he was a teaching assistant and private instructor at the University of Miami in Coral Gables, Florida. W"
+        }
+      }
+    }
+  },
+  {
+    "id": "takin-off",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "The bluesy track \"Watermelon Man\" made it to the Top 100 of the singles charts",
+    "contradictingQuote": "The bluesy track \"Watermelon Man\" almost made it into the Top 100 of the singles charts",
+    "skepticDecision": "The extract says the track 'almost made it into the Top 100' — i.e., did NOT reach it. Dropping 'almost' flips the meaning to the opposite, asserting it did chart Top 100; this is directly contradicted.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "The bluesy track \"Watermelon Man\" made it to the Top 100 of the singles charts",
+        "problem": "Ours drops the word 'almost', flipping the claim: per the evidence the track did NOT reach the Top 100, it only came close.",
+        "evidenceQuote": "The bluesy track \"Watermelon Man\" almost made it into the Top 100 of the singles charts, and went on to become a jazz standard.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "All other claims (1962 debut on Blue Note; Dexter Gordon, Freddie Hubbard, Butch Warren, Billy Higgins; hard bop; 1973 Head Hunters funk remake of Watermelon Man) match the entity-matched Wikipedia page verbatim, and MB (search, similarity 1.0) confirms year, label, and all four keyTracks. Prose is a near-copy of the Wikipedia lead with 'almost' lost in editing. Repair: restore 'almost' or rephrase the chart sentence. Closing sentences are editorial.",
+    "ours": {
+      "title": "Takin' Off",
+      "artist": "Herbie Hancock",
+      "year": 1962,
+      "label": "Blue Note",
+      "albumDNA": "Takin' Off is the debut album by jazz pianist Herbie Hancock released in 1962 by Blue Note Records. The album features veteran tenor saxophonist Dexter Gordon, trumpeter Freddie Hubbard, bassist Butch Warren and drummer Billy Higgins. The album is a creative example of music in the hard bop idiom. The bluesy track \"Watermelon Man\" made it to the Top 100 of the singles charts, and went on to become a jazz standard. Hancock released a funk arrangement of “Watermelon Man” on his 1973 album Head Hunters. Launched Hancock's extraordinary career. 'Watermelon Man' proved jazz could be funky and accessible.",
+      "keyTracks": [
+        "Watermelon Man",
+        "Three Bags Full",
+        "Empty Pockets",
+        "Driftin'"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "a4de06d8-ec13-3d7e-abf0-42509a1c31f6",
+          "title": "Takin’ Off",
+          "date": "1962",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Herbie Hancock"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": "BLP 4109"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "b481d115-5b42-316b-a525-c669c762c73b",
+            "title": "Takin’ Off",
+            "firstReleaseDate": "1962",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Watermelon Man",
+            "Three Bags Full",
+            "Empty Pockets",
+            "The Maze",
+            "Driftin’",
+            "Alone and I"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Takin'_Off",
+        "page": {
+          "requestedTitle": "Takin' Off",
+          "resolvedTitle": "Takin' Off",
+          "shortDescription": "1962 debut album by jazz pianist Herbie Hancock",
+          "extract": "Takin' Off is the debut album by jazz pianist Herbie Hancock released in 1962 by Blue Note Records. The album features veteran tenor saxophonist Dexter Gordon, trumpeter Freddie Hubbard, bassist Butch Warren and drummer Billy Higgins. The album is a creative example of music in the hard bop idiom. The bluesy track \"Watermelon Man\" almost made it into the Top 100 of the singles charts, and went on to become a jazz standard. Hancock released a funk arrangement of “Watermelon Man” on his 1973 album Head Hunters. Takin' Off was initially released on CD in 1996 and then again in remastered form in 2007 by Rudy Van Gelder.\n\n\n== Track listing ==\nAll compositions by Herbie Hancock.\nSide one\n\nSide two\n\nBonus tracks on CD reissue\n\n\n== Personnel ==\nHerbie Hancock – piano\nFreddie Hubbard – trumpet\nDexter Gordon – tenor saxophone\nButch Warren – double bass\nBilly Higgins – drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "tauhid",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Pharoah Sanders' debut as a leader after his transformative work with John Coltrane",
+    "contradictingQuote": "It was the second album released under his name, and his first album on the Impulse! label.",
+    "skepticDecision": "Wikipedia states verbatim it was the SECOND album released under his name (only the first on Impulse!), directly contradicting 'debut as a leader'. The rest (spiritual jazz framing, world-music influences) is editorial and not part of the upheld error.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Pharoah Sanders' debut as a leader after his transformative work with John Coltrane",
+        "problem": "Evidence says Tauhid was the SECOND album under Sanders' name (his first on Impulse!), not his debut as a leader; it was also recorded (Nov 15, 1966) while he was still playing with Coltrane, not after that association ended",
+        "evidenceQuote": "It was the second album released under his name, and his first album on the Impulse! label.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Year/label verified (MB impulse! AS-9138, 1967; wiki 'released in 1967'). keyTracks ok: 'Aum' and 'Venus' fall inside MB's medley track 'Aum / Venus / Capricorn Rising' (wiki tracklist concurs). 'Tauhid (the Islamic concept of divine unity)' is not checkable in pack evidence (plausible, unverified). A wiki-supported repair would be 'his first Impulse! album' or 'second album as a leader'. Wiki also notes recording was four days after the Coltrane Offering: Live at Temple University concert and release came after Coltrane's death.",
+    "ours": {
+      "title": "Tauhid",
+      "artist": "Pharoah Sanders",
+      "year": 1967,
+      "label": "Impulse!",
+      "albumDNA": "Pharoah Sanders' debut as a leader after his transformative work with John Coltrane. Tauhid (the Islamic concept of divine unity) channels the energy of Coltrane's late period into Sanders' own fierce, spiritual vision, blending extended techniques with Middle Eastern and African influences. Established Sanders as a major voice in spiritual jazz, separate from Coltrane's shadow. The album's blend of free improvisation and world music laid the groundwork for the entire spiritual jazz movement.",
+      "keyTracks": [
+        "Upper Egypt & Lower Egypt",
+        "Japan",
+        "Aum",
+        "Venus"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "ec411233-9493-33fe-a04c-e4d30bdf35c9",
+          "title": "Tauhid",
+          "date": "1967",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Pharoah Sanders"
+          ],
+          "labels": [
+            {
+              "name": "impulse!",
+              "catalogNumber": "AS-9138"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "df9090f7-f00e-395e-980b-7ff4166d9f0c",
+            "title": "Tauhid",
+            "firstReleaseDate": "1967",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Upper Egypt & Lower Egypt",
+            "Japan",
+            "Aum / Venus / Capricorn Rising"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Tauhid_(album)",
+        "page": {
+          "requestedTitle": "Tauhid (album)",
+          "resolvedTitle": "Tauhid (album)",
+          "shortDescription": "1967 jazz album by Pharoah Sanders",
+          "extract": "Tauhid is a jazz album by saxophonist Pharoah Sanders. It was the second album released under his name, and his first album on the Impulse! label. It was recorded on November 15, 1966 at Van Gelder Studio in Englewood Cliffs, NJ, four days after the concert heard on the John Coltrane album Offering: Live at Temple University, and was released in 1967, after the death of Coltrane, with whom Sanders had played since 1965. Tauhid was reissued in 2017 on Anthology Recordings. The album marks guitarist Sonny Sharrock's first appearance on a record, as well as one of pianist Dave Burrell's earliest recordings.\nIn the album liner notes, Sanders wrote: \"I don't really see the horn anymore. I'm trying to see myself. And similarly, as to the sounds I get, it's not that I'm trying to scream on my horn, I'm just trying to put all my feelings into the horn. And when you do that, the notes go away... Why [do] I want clusters [of notes]? So that I [can] get more feeling, more of me, into every note I play. You see, everything you do has to mean something, has to be more than just notes. That's behind everything I do – trying to get more ways of getting feeling out.\"\n\n\n== Reception ==\n\nGary Giddins referred to Tauhid as \"the first and best of Pharoah Sanders's Impulse albums.\" Chris May, writing for All About Jazz, called Tauhid \"arguably the finest statement in [Sanders'] astral oeuvre,\" and states that \"Of all Sanders' Impulse! albums... Tauhid has the best sound.\" In his review for AllMusic, Al Campbell  notes that \"Sanders' tenor appearance doesn't saturate the atmosphere on this session; far from it. Sanders is content to patiently let the moods of these three pieces develop...\"\nWriting on the Red Bull Music Academy web site, Andy Beta stated: \"Drawing on his travels through Japan with Coltrane's group, as well as his reading about ancient Egypt, Tauhid balanced the incendiary sax shredding of Sanders' years with Coltrane with a newfound lyricism and patience, letting each song unfold at a natural pace. And with the guitar of Sonny Sharrock adding both furious noise and nimble R&B chording that gave the sidelong 'Upper Egypt & Lower Egypt' its melodic hook, Sanders' work began to resonate beyond jazz as The Stooges and MC5 incorporated the spirit of Sanders into their proto-punk sound.\"\nWill Schube called Tauhid \"a perceptive insight into Sanders' mission, balancing jazz's studious technical aspects with a contemplative verve that lends his playing a striking looseness. It's in this balance that Sanders has remained an inspiration for the modern incarnations of spiritual jazz. Sanders' style is at once both deconstructive and innovative. Taking the tenants [sic] of jazz, he works backwards, stripping its tropes bare and rebuilding the genre in his own image. The playing strikes a balance, constantly driving yet stripped-down in its search for a capital-t Truth... Sanders was working in a style of jazz out-there enough for the most adventurous of listeners, but in control of his vision to such a thorough degree that even the most casual of jazz fans could find a lick, a melody, or a solo to latch onto.\"\nIn a review for Pitchfork, Daniel Martin-McCormick wrote: \"Tauhid... plays like a mission statement. At the helm of an all-star sextet... Sanders leads the group through three pieces that transcend the traditional 'head/solo/head' structure... On Tauhid, the pieces are suites that play like seances, with movements billowing and unfolding of their own accord. The group's unity is powerful, creating a spiritual atmosphere that casts a spell from the opening bars.\"\n\n\n== Track listing ==\nAll songs written by Pharoah Sanders\n\n\"Upper Egypt and Lower Egypt\"  – 16:12\n\"Japan\"   – 3:22\n\"Medley: Aum/Venus/Capricorn Rising\"  – 14:46\n\n\n== Personnel ==\nPharoah Sanders – tenor saxophone, alto saxophone, piccolo, vocals\nNat Bettis – percussion\nRoger Blank – drums\nDave Burrell – piano\nHenry Grimes – bass\nSonny Sharrock – guitar\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "tenor-titans",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Awarded Magister of Music at Fryderyk Chopin University of Music, Warsaw.",
+    "contradictingQuote": "Awarded Magister of Music (Master of Arts) at Fryderyk Chopin University of Music, Warsaw.",
+    "skepticDecision": "The closing credential is lifted from the Tomasz Szukalski page and grafted onto the Ben Webster album; only that sentence is foreign, so it is a factual error on the right album rather than a full entity mismatch.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Awarded Magister of Music at Fryderyk Chopin University of Music, Warsaw.",
+        "problem": "This biographical credential does not belong to Ben Webster (American tenor saxophonist, d. 1973) or to this album. It is lifted from the wrong-entity wiki page stored for this item — Tomasz Szukalski, a Polish saxophonist — where the identical sentence appears. A disambiguation-collision contaminant injected into the Ben Webster blurb.",
+        "evidenceQuote": "Awarded Magister of Music (Master of Arts) at Fryderyk Chopin University of Music, Warsaw.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Album core is clean: embedded-MBID release confirms Tenor Titans, Dexter Gordon & Ben Webster, 1997, Storyville Records; all 5 keyTracks on the tracklist; the two tracks named in prose match. BUT the stored wiki URL is WRONG ENTITY ('Tomasz Szukalski', a Polish saxophonist, d. 2012, not Ben Webster), and the final sentence of our albumDNA is a verbatim contaminant from that Szukalski page (his Warsaw conservatory degree) wrongly attached to the Ben Webster album. Flagged factual_error for that injected false credential and wrong_entity for the wiki link; a repair-writer must delete the Magister-of-Music sentence and fix the link.",
+    "ours": {
+      "title": "Tenor Titans",
+      "artist": "Ben Webster",
+      "year": 1997,
+      "label": "Storyville Records",
+      "albumDNA": "Recorded for Storyville Records in 1997, Tenor Titans presents tenor saxophonist Ben Webster working in a swing vein. The date includes \"Stickey Wicket\" and \"Do Nothing Till You Here From Me\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond. Awarded Magister of Music at Fryderyk Chopin University of Music, Warsaw.",
+      "keyTracks": [
+        "Stickey Wicket",
+        "Do Nothing Till You Here From Me",
+        "Our Love Is Here To Stay",
+        "Medley: How Long Has This Been Going On / Sophisticated Lady",
+        "Perdido"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "cf4672bc-0201-45e2-8fdd-2c3817af3b9b",
+          "title": "Tenor Titans",
+          "date": "1997",
+          "country": "DK",
+          "status": "Official",
+          "artists": [
+            "Dexter Gordon",
+            "Ben Webster"
+          ],
+          "labels": [
+            {
+              "name": "Storyville Records",
+              "catalogNumber": "STCD 8288"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "03d9e3b3-32d3-426b-a173-44b7a94341f3",
+            "title": "Tenor Titans",
+            "firstReleaseDate": "1997",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Stickey Wicket",
+            "Do Nothing Till You Here From Me",
+            "Our Love Is Here To Stay",
+            "Medley: How Long Has This Been Going On / Sophisticated Lady",
+            "Perdido",
+            "In A Mellow Tone",
+            "C-Jam Blues"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Tomasz_Szukalski",
+        "page": {
+          "requestedTitle": "Tomasz Szukalski",
+          "resolvedTitle": "Tomasz Szukalski",
+          "shortDescription": "Polish musical artist",
+          "extract": "Tomasz Szukalski (25 December 1947 in Warsaw, Polish People's Republic, registered by Soviet authorities 8 January 1948 – 2 August 2012 in Piaseczno, Poland) was a Polish jazz saxophonist, composer and improviser. Szukalski worked with Tomasz Stańko, Edward Vesala and Zbigniew Namysłowski. Awarded Magister of Music (Master of Arts) at Fryderyk Chopin University of Music, Warsaw. Szukalski was a revered master of tenor saxophone and his style was often compared to that of John Coltrane and Ben Webster.\n\n\n== Life and career ==\n\n\n=== Early years ===\nSzukalski studied clarinet but preferred to perform on tenor saxophone, soprano saxophone and on special occasions on bass clarinet or baritone saxophone. Being experiment friendly, he once tried a chainsaw.\nSzukalski began his career in the jazz orchestras of Zbigniew Namysłowski and Jan Ptaszyn Wróblewski. Other members of the bands included Tomasz Stańko, Zbigniew Seifert, Adam Makowicz, Włodzimierz Nahorny, Janusz Muniak, Michał Urbaniak and Tomasz's lifelong mate Wojciech Karolak.\n\n\n=== Tomasz Stańko, ECM and SBB ===\nIn the 1970s, Szukalski's performances became more avant-garde and free. While he continued to perform with  Tomasz Stańko, he also worked with Peter Warren and Edward Vesala as well as Arild Andersen, Dave Holland, Palle Danielsson, Palle Mikkelborg, Terje Rypdal, Juhani Aaltonen and Antti Hytti.\nDuring this period, in 1975, he recorded with Stańko on the trumpeter's album entitled \"Balladyna\" for ECM. Parallel to touring Scandinavia and West Europe with other jazz musicians, Szukalski performed in Poland with the Silesian rockband SBB.\n\n\n=== The Quartet and Józef Skrzek ===\nIn 1977, Szukalski consolidated his own band The Quartet, which soon gained high reputation. His bandmates were Sławomir Kulpowicz, Paweł Jarzębski and Janusz Stefański. Some of the last concerts of this famous constellation were performed according to various sources in 1979 or 1980 at Village Vanguard in New York. In the years 1980-1981 Szukalski continued a duo cooperation with SBB's leader Józef Skrzek. The planned bookings for autumn 1981 joint performance of SBB and his own The Quartet at the Jazz Jamboree festival, due to the tense political situation in Poland, were not finalized. The duo realized the album \"Ambitus Extended\" and Szukalski also performed with Józef Skrzek and his short living project Józef Skrzek Formation. They toured across Polish People's Republic and Czechoslovakia and performed the soundtrack for the science-fiction movie \"The War of the Worlds: Next Century\" (1981).\nJust weeks before the onset of martial law in Poland Tomasz performed with Józef Skrzek, Andrzej Ryszka, Sławomir Piwowar, Andrzej Urny, Dean Brown and Gil Goldstein in Warsaw and with his The Quartet mates at a workshop in memory of John Coltrane \"We'll Remember Coltrane\" (New Jazz Meeting), organised by Joachim-Ernst Berendt at Südwestfunk in Baden-Baden, where also Tomasz Stańko, Albert Mangelsdorff and John Coltrane's drummer Rashied Ali were present. During his stay in Vienna, following December 1981 Czechoslovakia tour (performing \"Ambitus Extended\" with Józef Skrzek), martial law was imposed and Szukalski returned home.\n\n\n=== Martial law - Time killers ===\nTo survive the martial law in Poland Szukalski re-joined the orchestra of Jan Ptaszyn Wróblewski playing known American standards. In 1984, he recorded with his old mates Wojciech Karolak and Czesław Bartkowski the groovy \"Time Killers\", which instantly became a hit. In 1985, Tomasz consolidated his new quartet with Piotr Biskupski, Andrzej Cudzich and Andrzej Jagodziński and eventually his friend and neighbour, the drummer Marek Stach, but the new quartet did not survive due lack of performances and the atmosphere of martial law. Tomasz's custom made Henri Selmer Paris tenor saxophone and Julius Keilwerth soprano saxophone have been stolen in Warsaw a couple of months before he moved to his cabin outside Warsaw.\n\n\n=== Artur, Alain, Antti, Apostolis, Arild ===\nAfter 1990, Szukalski performed in various constellations, recorded as sideman and special guest, and started a long lasting cooperation with the young pianist Artur Dutkiewicz. \nDuring the last decade of the 20th century and the first of the 21st century, Tomasz performed with Artur Dutkiewicz, Wojciech Karolak, Alain Brunet (the French jazz trumpeter and vice minister of culture), Tadeusz Nalepa, Piotr Wojtasik, Wojciech Majewski, Tomasz Stańko, Palle Danielsson, Janusz Skowro"
+        }
+      }
+    }
+  },
+  {
+    "id": "the-awakening-ahmad-jamal",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 1986, The Awakening showcases Ahmad Jamal at the height of their creative powers",
+    "contradictingQuote": "recorded in 1970 for the Impulse! label",
+    "skepticDecision": "Wikipedia states the album was recorded in 1970 for Impulse!, directly contradicting 'Recorded in 1986'.",
+    "entityMatch": {
+      "musicbrainz": "unsure",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 1986, The Awakening",
+        "problem": "the album was recorded in 1970; 1986 matches neither recording nor original release",
+        "evidenceQuote": "The Awakening is an album by American jazz pianist Ahmad Jamal featuring trio performances with bassist Jamil Nasser and drummer Frank Gant recorded in 1970 for the Impulse! label.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "MB has no confident release (similarity 0.71) but the searchCandidate 'The Awakening' (The Ahmad Jamal Trio, 1970-07) and the entity-matched Wikipedia page both point to a 1970 Ahmad Jamal album. Wikipedia explicitly states 'recorded in 1970', contradicting albumDNA 'Recorded in 1986'. All 6 keyTracks (The Awakening, I Love Music, Patterns, Dolphin Dance, You're My Everything, Stolen Moments) match the Wikipedia track listing (which also lists 'Wave').",
+    "ours": {
+      "title": "The Awakening",
+      "artist": "Ahmad Jamal",
+      "year": 1986,
+      "label": "Various",
+      "albumDNA": "Recorded in 1986, The Awakening showcases Ahmad Jamal at the height of their creative powers, offering one of the finest expressions of Cool Jazz. The Awakening remains a landmark of Cool Jazz, cementing Ahmad Jamal's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "The Awakening",
+        "I Love Music",
+        "Patterns",
+        "Dolphin Dance",
+        "You’re My Everything",
+        "Stolen Moments"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 0.71,
+        "release": null,
+        "searchCandidates": [
+          {
+            "mbid": "b3b34cd9-0c9b-37dd-80a1-0f74e80f18fe",
+            "title": "The Awakening",
+            "score": 100,
+            "artists": [
+              "The Ahmad Jamal Trio"
+            ],
+            "firstReleaseDate": "1970-07",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          }
+        ]
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "The Awakening (Ahmad Jamal album)",
+          "resolvedTitle": "The Awakening (Ahmad Jamal album)",
+          "shortDescription": "1970 studio album by Ahmad Jamal",
+          "extract": "The Awakening is an album by American jazz pianist Ahmad Jamal featuring trio performances with bassist Jamil Nasser and drummer Frank Gant recorded in 1970 for the Impulse! label.\n\n\n== Background ==\nThe album was recorded at Plaza Sound Studios in New York City on February 2 and 3, 1970. It was produced by Ed Michel, whose production credits also include blues and jazz artists such as John Lee Hooker, B.B. King, John Coltrane, and Alice Coltrane.\nThe repertoire for the album consists of two originals—the title track and \"Patterns\"—and a new composition by Emil Boyd and Hale Smith titled \"I Love Music\", along with covers of three then fairly recent modern jazz compositions, Herbie Hancock's \"Dolphin Dance\" (1965), Oliver Nelson's \"Stolen Moments\" (1961), and Antonio Carlos Jobim's \"Wave\" (1967), as well as the 1931 Harry Warren standard \"You're My Everything\".\nThe liner notes are by jazz historian and producer Leonard Feather, who writes, \"Jamal is one of the most pianistic of pianists. He plays a nine foot Steinway grand in this album, and extracts from it sounds that reflect not only the majesty of the instrument but his love for it and the perennial dedication to it that has marked his distinguished career.\" Feather also notes that on the title track, Jamal \"plays one series of upward runs here that will leave most pianists gasping in disbelief—mixed, no doubt, with envy.\"\n\n\n== Critical reception ==\n\nThe AllMusic review by Scott Yanow stated, \"By 1970, pianist Ahmad Jamal's style had changed a bit since the 1950s, becoming denser and more adventurous while still retaining his musical identity. ... Intriguing performances showing that Ahmad Jamal was continuing to evolve.\"\nWriting in Pitchfork, Michael J. Agovino says that the album \"is a fine example of Jamal's stately—and understated—elegance punctuated with doodles of whimsy.\"\nDrummer Brian Blade selected the title track of The Awakening for his 1970 playlist (the year he was born), writing in JazzTimes that \"Jamal is an absolute master of space, groove, song structure, and interpretation. The balance of his brilliance is unparalleled, and at the fulcrum rests his total command of the instrument to execute whatever he might imagine and the sensitivity to know how that ability will best serve the journey.\"\nChuck Linatti, in an article for All About Jazz, writes that \"some people consider The Awakening to be Jamal's second great album [after At the Pershing: But Not for Me]. Although Jamal habitually deconstructed well-known songs and reconstructed them in unexpected ways, he seemed to take that technique to a new level on The Awakening.\"\n\n\n== Legacy ==\nRetrospectively, the album has had an influence in Hip hop music culture and production, with artists such as Nas and Common sampling tracks from the album for their work.\n\n\n== Track listing ==\n\"The Awakening\" (Ahmad Jamal) – 6:19\n\"I Love Music\" (Emil Boyd, Hale Smith) – 7:19\n\"Patterns\" (Ahmad Jamal) – 6:19\n\"Dolphin Dance\" (Herbie Hancock) – 5:05\n\"You're My Everything\" (Harry Warren, Joe Young, Mort Dixon) – 4:40\n\"Stolen Moments\" (Oliver Nelson) – 6:27\n\"Wave\" (Antônio Carlos Jobim) – 4:25\n\n\n== Personnel ==\nAhmad Jamal – piano\nJamil Nasser – bass\nFrank Gant – drums\n\n\n== Charts ==\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "The Awakening (Ahmad Jamal album)",
+            "shortDescription": "1970 studio album by Ahmad Jamal",
+            "extractHead": "The Awakening is an album by American jazz pianist Ahmad Jamal featuring trio performances with bassist Jamil Nasser and drummer Frank Gant recorded in 1970 for the Impulse! label.\n\n\n== Background ==\nThe album was recorded at Plaza Sound Studios in New York City on February 2 and 3, 1970. It was produced by Ed Michel, whose production credits also include blues and jazz artists such as John Lee Hooker, B.B. King, John Coltrane, and Alice Coltrane.\nThe repertoire for the album consists of two ori"
+          },
+          {
+            "resolvedTitle": "The Awakening",
+            "shortDescription": "Topics referred to by the same term",
+            "extractHead": "The Awakening may refer to:\n\n\n== Religion ==\nAwakening (Finnish religious movement), a Lutheran movement in Finland\nGreat Awakening, several periods of Anglo-American Christian revival\n\n\n== Film and television ==\n\n\n=== Film ===\nThe Awakening, a 1913 film starring Charlotte Burton\nThe Awakening (1917 film), an American silent film directed by George Archainbaud\nThe Awakening (1928 film), an American silent film directed by Victor Fleming\nThe Awakening (1954 film), an American television short fil"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "the-complete-billie-holiday-on-verve-billie-holiday",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 1993, The Complete Billie Holiday on Verve showcases Billie Holiday at the height of their creative powers",
+    "contradictingQuote": "The Complete Billie Holiday on Verve 1945–1959",
+    "skepticDecision": "The MB title verbatim carries the recording span 1945–1959 and the release is a Compilation, so 'Recorded in 1993' is contradicted as a recording-year claim.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 1993, The Complete Billie Holiday on Verve",
+        "problem": "1993 is the compilation's release year, not when the music was recorded; this is a compilation of 1945-1959 recordings",
+        "evidenceQuote": "The Complete Billie Holiday on Verve 1945–1959",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Entity confirmed via embedded MBID: Billie Holiday, Verve, 1993-03-09, release-group secondaryType 'Compilation'. The MB title verbatim states the recording span 1945-1959, contradicting albumDNA 'Recorded in 1993'. All 6 keyTracks match the MB tracklist. Right entity; the only error is the anachronistic 'Recorded in' year on a compilation.",
+    "ours": {
+      "title": "The Complete Billie Holiday on Verve",
+      "artist": "Billie Holiday",
+      "year": 1993,
+      "label": "Verve",
+      "albumDNA": "Recorded in 1993, The Complete Billie Holiday on Verve showcases Billie Holiday at the height of their creative powers, offering one of the finest expressions of Swing. The Complete Billie Holiday on Verve remains a landmark of Swing, cementing Billie Holiday's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Body and Soul",
+        "Strange Fruit",
+        "I Cried for You",
+        "Fine and Mellow",
+        "He’s Funny That Way",
+        "The Man I Love"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "71b9f9da-4253-40f1-bfd6-7f764871a1a2",
+          "title": "The Complete Billie Holiday on Verve 1945–1959",
+          "date": "1993-03-09",
+          "country": "XE",
+          "status": "Official",
+          "artists": [
+            "Billie Holiday"
+          ],
+          "labels": [
+            {
+              "name": "Verve",
+              "catalogNumber": "517 658-2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "39b7338e-fc0f-308f-a873-0f569729fb70",
+            "title": "The Complete Billie Holiday on Verve 1945–1959",
+            "firstReleaseDate": "1993-03-09",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Body and Soul",
+            "Strange Fruit",
+            "I Cried for You",
+            "Fine and Mellow",
+            "He’s Funny That Way",
+            "The Man I Love",
+            "Gee Baby, Ain’t I Good to You",
+            "All of Me",
+            "Billie’s Blues (aka “I Love My Man”)",
+            "Travelin’ Light",
+            "He’s Funny That Way",
+            "Norman Granz Announcement",
+            "You Better Go Now",
+            "You’re Driving Me Crazy",
+            "There Is No Greater Love",
+            "I Cover the Waterfront",
+            "Norman Granz Announcement",
+            "East of the Sun (and West of the Moon)",
+            "Blue Moon",
+            "You Go to My Head",
+            "You Turn the Tables on Me",
+            "Easy to Love",
+            "These Foolish Things",
+            "I Only Have Eyes for You",
+            "Solitude",
+            "Everything I Have Is Yours",
+            "Love for Sale",
+            "Moonglow",
+            "Tenderly",
+            "If the Moon Turns Green",
+            "Remember",
+            "Autumn in New York (common take — LP)",
+            "Autumn in New York (rare take — 78)",
+            "My Man",
+            "Lover, Come Back to Me",
+            "Stormy Weather",
+            "Yesterdays",
+            "He’s Funny That Way",
+            "I Can’t Face the Music",
+            "MC and Leonard Feather Announcements"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  }
+]

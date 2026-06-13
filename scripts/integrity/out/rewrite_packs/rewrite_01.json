@@ -1,0 +1,1304 @@
+[
+  {
+    "id": "ella-loves-cole",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Ella Fitzgerald Sings the Cole Porter Song Book is a 1956 studio double album by American jazz singer Ella Fitzgerald, accompanied by a studio orchestra conducted and arranged by Buddy Bregman",
+    "contradictingQuote": "Ella Fitzgerald Sings the Cole Porter Song Book is a 1956 studio double album by American jazz singer Ella Fitzgerald, accompanied by a studio orchestra conducted and arranged by Buddy Bregman, focusing on the songs of Cole Porter.",
+    "skepticDecision": "The albumDNA names and describes a different album (Ella Fitzgerald Sings the Cole Porter Song Book, 1956 Verve double album arranged by Buddy Bregman) and the stored wiki extract is that album's article, while the embedded MB release for this item is Ella Loves Cole, 1972, Atlantic; the prose is a different release.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Ella Fitzgerald Sings the Cole Porter Song Book is a 1956 studio double album by American jazz singer Ella Fitzgerald, accompanied by a studio orchestra conducted and arranged by Buddy Bregman",
+        "problem": "The entire albumDNA describes the 1956 Verve double album 'Ella Fitzgerald Sings the Cole Porter Song Book' (and its 1956-1964 Song Book series framing), a different album from our item, the 1972 Atlantic LP 'Ella Loves Cole'.",
+        "evidenceQuote": "\"title\": \"Ella Loves Cole\", \"date\": \"1972\", \"labels\": [{\"name\": \"Atlantic\", \"catalogNumber\": \"SD 1631\"}]",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Title-search collision between two Fitzgerald-sings-Porter albums. MB embedded release verifies our 1972 Atlantic album exists with all 5 keyTracks on its tracklist, so the catalog fields are sound; the prose and the stored wiki URL both belong to the 1956 Song Book. Repair: album-specific prose and the correct link (or none) for Ella Loves Cole (1972).",
+    "ours": {
+      "title": "Ella Loves Cole",
+      "artist": "Ella Fitzgerald",
+      "year": 1972,
+      "label": "Atlantic",
+      "albumDNA": "Ella Fitzgerald Sings the Cole Porter Song Book is a 1956 studio double album by American jazz singer Ella Fitzgerald, accompanied by a studio orchestra conducted and arranged by Buddy Bregman, focusing on the songs of Cole Porter. It is the first in a series of thematic LPs devoted to great American songwriters that Fitzgerald recorded from 1956 to 1964.",
+      "keyTracks": [
+        "I Get a Kick Out of You",
+        "Down in the Depths",
+        "At Long Last Love",
+        "I’ve Got You Under My Skin",
+        "So Near and Yet So Far"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "708b0563-b86b-43a5-92ae-acfddef2a66e",
+          "title": "Ella Loves Cole",
+          "date": "1972",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Ella Fitzgerald"
+          ],
+          "labels": [
+            {
+              "name": "Atlantic",
+              "catalogNumber": "SD 1631"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0ed5bfb3-dfdb-3e8d-91b8-eea11e9a9e94",
+            "title": "Ella Loves Cole",
+            "firstReleaseDate": "1972",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "I Get a Kick Out of You",
+            "Down in the Depths",
+            "At Long Last Love",
+            "I’ve Got You Under My Skin",
+            "So Near and Yet So Far",
+            "All of You",
+            "Without Love",
+            "My Heart Belongs to Daddy",
+            "Love for Sale",
+            "Just One of Those Things",
+            "I Concentrate on You",
+            "Anything Goes",
+            "C’est magnifique"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Ella_Fitzgerald_Sings_the_Cole_Porter_Song_Book",
+        "page": {
+          "requestedTitle": "Ella Fitzgerald Sings the Cole Porter Song Book",
+          "resolvedTitle": "Ella Fitzgerald Sings the Cole Porter Song Book",
+          "shortDescription": "1956 studio album by Ella Fitzgerald",
+          "extract": "Ella Fitzgerald Sings the Cole Porter Song Book is a 1956 studio double album by American jazz singer Ella Fitzgerald, accompanied by a studio orchestra conducted and arranged by Buddy Bregman, focusing on the songs of Cole Porter. It is the first in a series of thematic LPs devoted to great American songwriters that Fitzgerald recorded from 1956 to 1964.\n\n\n== Background ==\nThis was Fitzgerald's first album for the newly created Verve Records (and the first album to be released by the label). Norman Granz, Fitzgerald's manager and the producer of many of her albums, decided to have her record well-established popular works becauseI was interested in how I could enhance Ella's position, to make her a singer with more than just a cult following amongst jazz fans. So I proposed to Ella that the first Verve album would not be a jazz project, but rather a song book of the works of Cole Porter. I envisaged her doing a lot of composers. The trick was to change the backing enough so that, here and there, there would be signs of jazz.Fitzgerald's time on the Verve label would see her produce her most highly acclaimed recordings, at the peak of her vocal powers. This album inaugurated Fitzgerald's Song Book series, each of the eight albums in the series focusing on a different composer of the canon known as the Great American Songbook. The album was recorded February 7–9 and March 27, 1956, in Hollywood, Los Angeles.\nGranz visited Cole Porter at the Waldorf-Astoria and played him this entire album. Afterwards, Porter merely remarked, \"My, what marvelous diction that girl has.\"\n\n\n== Legacy and achievements ==\nThis album was inducted into the Grammy Hall of Fame in 2000, which is a special Grammy award established in 1973 to honor recordings that are at least twenty-five years old, and that have \"qualitative or historical significance.\" In 2003, it was one of 50 recordings chosen by the Library of Congress to be added to the National Recording Registry.\nIn 2000 it was voted number 490 in Colin Larkin's All Time Top 1000 Albums.\n\n\n== Track listing ==\nAll tracks written by Cole Porter, except when noted.\n\n\n=== Disc one ===\nSide one\n\n\"All Through the Night\" – 3:15\n\"Anything Goes\" – 3:21\n\"Miss Otis Regrets\" – 3:00\n\"Too Darn Hot\" – 3:47\n\"In the Still of the Night\" – 2:38\n\"I Get a Kick Out of You\" – 4:00\n\"Do I Love You?\" – 3:50\n\"Always True to You in My Fashion\" – 2:48\nSide two\n\n\"Let's Do It, Let's Fall in Love\" – 3:32\n\"Just One of Those Things\" – 3:30\n\"Ev'ry Time We Say Goodbye\" – 3:32\n\"All of You\" – 1:43\n\"Begin the Beguine\" – 3:37\n\"Get Out of Town\" – 3:22\n\"I Am in Love\" – 4:06\n\"From This Moment On\" – 3:17\n\n\n=== Disc two ===\nSide three\n\n\"I Love Paris\" – 4:57\n\"You Do Something to Me\" – 2:21\n\"Ridin' High\" – 3:20\n\"You'd Be So Easy to Love\" – 3:24\n\"It's All Right with Me\" – 3:07\n\"Why Can't You Behave?\" – 5:04\n\"What Is This Thing Called Love?\" – 2:02\n\"You're the Top\" – 3:33\nSide four\n\n\"Love for Sale\" – 5:52\n\"It's De-Lovely\" – 2:42\n\"Night and Day\" – 3:04\n\"Ace in the Hole\" – 1:58\n\"So in Love\" – 3:50\n\"I've Got You Under My Skin\" – 2:42\n\"I Concentrate on You\" – 3:11\n\"Don't Fence Me In\" – 3:19 (Robert Fletcher, co-lyricist)\n1997 reissue, previously unreleased bonus tracks\n\n\"You're the Top\" (Alternative take) – 2:08\n\"I Concentrate on You\" (Alternative take) – 3:00\n\"Let's Do It, Let's Fall in Love\" (Alternative take) – 5:25\n\n\n== Personnel ==\nPersonnel adapted from the liner notes of CD reissue.\n\n\n== Release history ==\n\n\n== References ==\n\n\n== External links ==\nBuddy Bregman's memories of working with Ella on the Cole Porter Song Book"
+        }
+      }
+    }
+  },
+  {
+    "id": "four-trombones",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Mingus is an album by the jazz bassist and composer Charles Mingus. The album was recorded in October and November 1960 in New York and released in late 1961 on Nat Hentoff's Candid label.",
+    "contradictingQuote": "Four Trombones",
+    "skepticDecision": "The albumDNA is the wiki lead of 'Mingus' (a 1961 Candid album), while the embedded release for this item is titled 'Four Trombones'; the 1960/1961/Candid facts describe the other record.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Mingus is an album by the jazz bassist and composer Charles Mingus. The album was recorded in October and November 1960 in New York and released in late 1961 on Nat Hentoff's Candid label.",
+        "problem": "The entire albumDNA is the Wikipedia lead of the 1961 Candid album 'Mingus', a different record; the item is Four Trombones (Debut, 1957), and the 1960/1961/Candid facts contradict the embedded MB release",
+        "evidenceQuote": "title: \"Four Trombones\"; labels: Debut, DEB-126; date: 1957; artists: Kai Winding, J.J. Johnson, Bennie Green, Willie Dennis, John Lewis, Charlie Mingus",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Prose and stored wikipedia link both belong to 'Mingus (Charles Mingus album)' (Candid, recorded Oct-Nov 1960, released 1961) - wrong entity. The real Four Trombones is the 1957 Debut LP; year and label fields are correct and all 4 keyTracks match the embedded MB tracklist exactly. Note the site files this multi-leader album (Winding/Johnson/Green/Dennis with Lewis and Mingus) under Charles Mingus alone; Mingus is credited ('Charlie Mingus') so not flagged. Prose rewrite + link replacement needed.",
+    "ours": {
+      "title": "Four Trombones",
+      "artist": "Charles Mingus",
+      "year": 1957,
+      "label": "Debut",
+      "albumDNA": "Mingus is an album by the jazz bassist and composer Charles Mingus. The album was recorded in October and November 1960 in New York and released in late 1961 on Nat Hentoff's Candid label.",
+      "keyTracks": [
+        "Now's the Time",
+        "Trombosphere",
+        "Ow!",
+        "Chazzanova"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "b589089d-09e7-4826-8678-38c160901a84",
+          "title": "Four Trombones",
+          "date": "1957",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Kai Winding",
+            "J.J. Johnson",
+            "Bennie Green",
+            "Willie Dennis",
+            "John Lewis",
+            "Charlie Mingus"
+          ],
+          "labels": [
+            {
+              "name": "Debut",
+              "catalogNumber": "DEB-126"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "04ab8739-b3c2-49e1-8bf8-2db7e2b4e19d",
+            "title": "Four Trombones",
+            "firstReleaseDate": "1957",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Now's the Time",
+            "Trombosphere",
+            "Ow!",
+            "Chazzanova"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Mingus_(Charles_Mingus_album)",
+        "page": {
+          "requestedTitle": "Mingus (Charles Mingus album)",
+          "resolvedTitle": "Mingus (Charles Mingus album)",
+          "shortDescription": "1961 studio album by Charles Mingus",
+          "extract": "Mingus is an album by the jazz bassist and composer Charles Mingus. The album was recorded in October and November 1960 in New York and released in late 1961 on Nat Hentoff's Candid label.\n\n\n== Background ==\nAt this time Mingus was working regularly with a piano-less quartet featuring Eric Dolphy, Ted Curson and Dannie Richmond, as heard on the Charles Mingus Presents Charles Mingus album also recorded in October 1960. The Mingus album features one track, \"Stormy Weather\", recorded by the same quartet, plus two tracks recorded by a larger group featuring piano and additional horns.\nThe track \"M.D.M.\" weaves together the themes from three compositions: Duke Ellington's \"Main Stem\", Thelonious Monk's \"Straight, No Chaser\" and Mingus's own \"Fifty-First Street Blues\". The track \"Lock 'Em Up\" was inspired by a period of treatment that Mingus describes undergoing in his autobiography Beneath the Underdog, at New York's Bellevue psychiatric facility.\n\n\n== Track listings ==\n\n\n=== Candid release ===\n\"M.D.M. (Monk, Duke and Me)\" – 19:49\n\"Stormy Weather\"* – 13:23\n\"Lock 'Em Up (Hellview of Bellevue)\" – 6:40\nAll compositions by Charles Mingus except * by Harold Arlen & Ted Koehler\n\n\n=== Barnaby reissue ===\nIn April, 1974, Barnaby Records reissued this album as Mingus: The Candid Recordings (KZ-31034), adding the track \"Vasserlean\", which had appeared only on a 1961 Candid Records various-artists collection called Jazz Life (CJM-8019/CJS-9019).\nThe new track listing was:\n\n\"M.D.M. (Monk, Duke and Me)\" – 19:49\n\"Vasserlean\" – 6:35\n\"Stormy Weather\" – 13:23\n\"Lock 'Em Up (Hellview of Bellevue)\" – 6:40\n\n\n=== Jazz Man reissue ===\nIn 1980, Jazz Man Records reissued this album under its original Candid title, Mingus (JAZ-5002), also including the track \"Vasserlean.\" \nThe track listing was:\n\n\"Stormy Weather\" – 13:23\n\"Lock 'Em Up (Hellview of Bellevue)\" – 6:40\n\"M.D.M. (Monk, Duke and Me)\" – 19:49\n\"Vasserlean\" – 6:35\n\n\n== Personnel ==\nCharles Mingus – bass\nTed Curson, Lonnie Hillyer – trumpet\nJimmy Knepper, Britt Woodman – trombone\nCharles McPherson – alto saxophone\nEric Dolphy – alto saxophone, flute and bass clarinet\nBooker Ervin – tenor saxophone\nNico Bunink, Paul Bley – piano\nDannie Richmond – drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "grazin-in-the-grass",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "\"Grazing in the Grass\" is an instrumental composed by Philemon Hou and first recorded by the South African trumpeter Hugh Masekela. Released in the United States as a single in 1968, it followed United States trumpeter Herb Alpert's vocal performance of \"This Guy's in Love with You\" to the top spot on the Hot 100 chart",
+    "contradictingQuote": "shortDescription: 1968 composition by Philemon Hou",
+    "skepticDecision": "The albumDNA is wholesale the article about the composition/single 'Grazing in the Grass' (single release, Hot 100 placing, later compilation appearances) and the evidence shortDescription marks it as a 1968 composition, not the album this item represents.",
+    "entityMatch": {
+      "musicbrainz": "n/a",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Released in the United States as a single in 1968, it followed United States trumpeter Herb Alpert's vocal performance of \"This Guy's in Love with You\" to the top spot on the Hot 100 chart",
+        "problem": "The entire DNA describes the composition/single 'Grazing in the Grass' (chart placings, later compilation appearances), not the album this item represents",
+        "evidenceQuote": "1968 composition by Philemon Hou",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Item is an album ('Hugh Masekela's Grazin'', Uni, 1968) but the prose and the stored Wikipedia link are about the SONG 'Grazing in the Grass' (wiki short-description: '1968 composition by Philemon Hou') - the exact disambiguation disease (content about a single, not an album). MusicBrainz search returned no release and no candidates for this album title, so the title itself is unverified and there is no tracklist evidence for the keyTracks. Background knowledge (not citable evidence): Masekela's 1968 Uni LP containing 'Grazing in the Grass' and 'Bajabula Bonke' was 'The Promise of a Future'; the stored title looks suspect and needs external verification along with fresh album prose.",
+    "ours": {
+      "title": "Hugh Masekela's Grazin'",
+      "artist": "Hugh Masekela",
+      "year": 1968,
+      "label": "Uni",
+      "albumDNA": "\"Grazing in the Grass\" is an instrumental composed by Philemon Hou and first recorded by the South African trumpeter Hugh Masekela. Released in the United States as a single in 1968, it followed United States trumpeter Herb Alpert's vocal performance of \"This Guy's in Love with You\" to the top spot on the Hot 100 chart, ranking it as the 18th biggest hit of the year. The song also reached No. 15 Adult Contemporary. Masekela included the song in his albums Grazing in the Grass: The Best of Hugh Masekela (2001), Still Grazing (2004), and Live at the Market Theatre (2006). The biggest crossover hit in African jazz history. Masekela became an ambassador for South African music worldwide.",
+      "keyTracks": [
+        "Grazing in the Grass",
+        "Bajabula Bonke",
+        "Ha Lese Li Di Khanna",
+        "Do Me So La So So"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": null,
+        "release": null,
+        "searchCandidates": []
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Grazing_in_the_Grass",
+        "page": {
+          "requestedTitle": "Grazing in the Grass",
+          "resolvedTitle": "Grazing in the Grass",
+          "shortDescription": "1968 composition by Philemon Hou",
+          "extract": "\"Grazing in the Grass\" is an instrumental composed by Philemon Hou and first recorded by the South African trumpeter Hugh Masekela. Released in the United States as a single in 1968, it followed United States trumpeter Herb Alpert's vocal performance of \"This Guy's in Love with You\" to the top spot on the Hot 100 chart, ranking it as the 18th biggest hit of the year. The song also reached No. 15 Adult Contemporary. Masekela included the song in his albums Grazing in the Grass: The Best of Hugh Masekela (2001), Still Grazing (2004), and Live at the Market Theatre (2006).\nMasekela's recording was inducted into the Grammy Hall of Fame in 2018.\nA vocal version by American vocal group The Friends of Distinction, with lyrics by band member Harry Elston, was a US chart hit in 1969.  \"Grazing in the Grass\" has been recorded by many other musicians.\n\n\n== Hugh Masekela recording ==\nThe music was inspired by an earlier novelty recording, \"Mr. Bull No. 4\", by Freddie Gumbi, which Masekela had heard in Zambia, that started with a cowbell.  When Masekela was recording his debut album, the running order was short by three minutes and his record company suggested he add the tune.  Philemon Hou, an actor and singer who was present in the studio, came up with a new melody while the backing track was already being recorded. The session was held at Gold Star Studios in Hollywood.\n\n\n== Personnel ==\nHugh Masekela – trumpet\nBruce Langhorne – guitar\nAl Abreu – alto sax\nWilliam Henderson – piano\nHenry Franklin – bass\nChuck Carter – drums, cowbell\n\n\n== Charts ==\n\n\n== The Friends of Distinction version ==\n\nThe Friends of Distinction recorded a vocal remake of the tune in 1969 on RCA Victor, which was also a Top Ten pop and R&B hit, reaching No. 3 on the former and No. 5 on the latter. One of the group's members, Harry Elston, wrote lyrics for their version and sang lead vocals.\n\n\n=== Personnel ===\nThe Friends of Distinction – vocals\nMax Bennett – electric bass\nJim Gordon – drums\nAl Casey and Arthur Wright – guitars\nGene Cipriano – piccolo flute\nJohn Audino, Anthony Terran, Bud Childers, Dalton Smith – trumpets\nKing Errisson – congas\nDouglas Davis – cello\nJim Horn – tenor saxophone\nGarry Nuttycombe – viola\nHarry Bluestone, Jimmy Getzoff – violins\nJack Arnold – percussion\nLarry Knechtel – piano\n\n\n== Legacy ==\nThe Friends of Distinction performed the song on The Ed Sullivan Show on December 27, 1970, and appeared in a cameo section of Season 17, Episode 8 of the adult animated sitcom Family Guy. Their version also used in a 2023 TV commercial for Airbnb. A cover by Raven-Symoné is featured in the end credits of the animated film The Lion King 1½.\n\n\n=== Chart performance ===\n\n\n==== Weekly charts ====\n\n\n==== Year-end charts ====\n\n\n== References ==\n\n\n== External links ==\nLyrics of this song\nInternational Jazz Day: Hugh Masekela with Stevie Wonder – \"Grazing In The Grass\" on YouTube (2016)\nThe Friends of Distinction – Grazing in the Grass on YouTube"
+        }
+      }
+    }
+  },
+  {
+    "id": "hearts-and-numbers",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Out of the Loop is the seventh and final studio album by the Brecker Brothers that was released by GRP Records in 1994. In 1995 the album won the brothers two Grammy Awards for Best Contemporary Jazz Performance and Best Instrumental Composition.",
+    "contradictingQuote": "Hearts and Numbers",
+    "skepticDecision": "Fails: the entire prose describes 'Out of the Loop' (Brecker Brothers, GRP, 1994), a distinct album, while the MB release under verification is 'Hearts and Numbers' (1985, Hip Pocket). Wholesale about another work.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Out of the Loop is the seventh and final studio album by the Brecker Brothers that was released by GRP Records in 1994. In 1995 the album won the brothers two Grammy Awards for Best Contemporary Jazz Performance and Best Instrumental Composition.",
+        "problem": "The albumDNA is the verbatim Wikipedia lede of a DIFFERENT album ('Out of the Loop', Brecker Brothers, 1994, GRP), not this album. This release is 'Hearts and Numbers' (1985, Hip Pocket Records), credited by MB to Don Grolnick and Michael Brecker.",
+        "evidenceQuote": "Hearts and Numbers",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Catalog fields (title 'Hearts and Numbers', year 1985, label Hip Pocket Records) and all 5 keyTracks match the MB embedded release; MB credits Don Grolnick and Michael Brecker (our artist lists only Michael Brecker — fine). But the albumDNA prose and the stored Wikipedia URL are wholesale about 'Out of the Loop (Brecker Brothers album)', a different 1994 GRP release — the title-search disambiguation bug. keyTracks are correct for THIS album, so keyTracksVerdict ok.",
+    "ours": {
+      "title": "Hearts and Numbers",
+      "artist": "Michael Brecker",
+      "year": 1985,
+      "label": "Hip Pocket Records",
+      "albumDNA": "Out of the Loop is the seventh and final studio album by the Brecker Brothers that was released by GRP Records in 1994. In 1995 the album won the brothers two Grammy Awards for Best Contemporary Jazz Performance and Best Instrumental Composition.",
+      "keyTracks": [
+        "Pointing at the Moon",
+        "More Pointing",
+        "Pools",
+        "Regrets",
+        "The Four Sleepers"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "7981918b-ad0d-4845-b41a-e4b0c6f397c1",
+          "title": "Hearts and Numbers",
+          "date": "1985",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Don Grolnick",
+            "Michael Brecker"
+          ],
+          "labels": [
+            {
+              "name": "Hip Pocket Records",
+              "catalogNumber": "HD 106"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "06366e0d-f071-3cf4-9bf2-f1e4a78c949f",
+            "title": "Hearts and Numbers",
+            "firstReleaseDate": "1985",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Pointing at the Moon",
+            "More Pointing",
+            "Pools",
+            "Regrets",
+            "The Four Sleepers",
+            "Human Bites",
+            "Act Natural",
+            "Hearts and Numbers"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Out_of_the_Loop_(Brecker_Brothers_album)",
+        "page": {
+          "requestedTitle": "Out of the Loop (Brecker Brothers album)",
+          "resolvedTitle": "Out of the Loop (Brecker Brothers album)",
+          "shortDescription": "1994 studio album by Brecker Brothers",
+          "extract": "Out of the Loop is the seventh and final studio album by the Brecker Brothers that was released by GRP Records in 1994. In 1995 the album won the brothers two Grammy Awards for Best Contemporary Jazz Performance (now known as Best Contemporary Jazz Album) and Best Instrumental Composition (for Michael Brecker's \"African Skies\").\n\n\n== Reception ==\nAt AllMusic,  Jim Newsom gave the album four stars and wrote, \"The album is surprisingly strong, and any fears of a paint-by-numbers attempt to cash in on past glories are quickly dispelled with the opening 'Slang', which is reminiscent of Amandla-era Miles. Here, as throughout the disc, Michael's sax solo burns with abandon, while brother Randy's trumpet glides across a tastefully smooth and melodic terrain\".\n\n\n== Track listing ==\n\n\n== Personnel ==\n\nProduction\n\n\n== Awards ==\nGrammy Awards\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "herbie-hancock-trio-with-ron-carter-tony-williams",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Herbie Hancock Trio is an album by Herbie Hancock released on September 21, 1977, in Japan. It includes performances with bassist Ron Carter and drummer Tony Williams. A second selection of six tracks recorded by the trio during the same day's sessions was released under Ron Carter's name as Third Plane.",
+    "contradictingQuote": "Herbie Hancock Trio is an album by Herbie Hancock released on September 21, 1977, in Japan.",
+    "skepticDecision": "The stored wiki extract for the 1977 album lists a tracklist (Watch It / Speak Like a Child / Watcha Waitin' For / Look / Milestones) that shares zero titles with this item's keyTracks, and the embedded MB release is dated 1981; the prose describes a different release than this item.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Herbie Hancock Trio is an album by Herbie Hancock released on September 21, 1977, in Japan",
+        "problem": "Our catalog item is the 1981 CBS/Sony album 'Herbie Hancock Trio with Ron Carter + Tony Williams' (embedded MBID: date 1981, catalog 25AP 2190). The September 1977 release is the earlier, different trio album; the prose describes that one.",
+        "evidenceQuote": "date: \"1981\"; releaseGroup.firstReleaseDate: \"1981\"",
+        "source": "mb"
+      },
+      {
+        "ourClaim": "A second selection of six tracks recorded by the trio during the same day's sessions was released under Ron Carter's name as Third Plane.",
+        "problem": "This is the 1977 album's history. The linked wiki page (about the 1977 album) has a tracklist sharing zero tracks with our 1981 release ('Stablemates', 'Dolphin Dance', 'A Slight Smile', 'That Old Black Magic', 'La Maison goree' per MB), confirming the prose describes a different album.",
+        "evidenceQuote": "\"Watch It\" – 12:25\n\"Speak Like a Child\" – 13:06\n\"Watcha Waitin' For\" – 6:20\n\"Look\" – 7:42\n\"Milestones\" (Miles Davis) – 6:40",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Catalog fields (title/year/label) exactly match the authoritative embedded-MBID MB release, so the catalog entity is the 1981 Japan-only trio album, and all five keyTracks match its MB tracklist. But the albumDNA prose is the Wikipedia lead for the DIFFERENT 1977 'Herbie Hancock Trio' album, and the stored wiki link points to that 1977 album's article ('This is the first of two albums with the same title. A second Herbie Hancock Trio with the same personnel was released in 1982.' - the wiki says 1982 for the second album, MB says 1981). The Tony Williams bio tail (Second Great Quintet, Lifetime) is covered by no pack evidence. Repair: rewrite the DNA for the 1981 album, fix or drop the wikipediaUrl, and consider whether the artist credit should read Herbie Hancock Trio rather than Tony Williams alone (Williams is co-credited on the release).",
+    "ours": {
+      "title": "Herbie Hancock Trio with Ron Carter + Tony Williams",
+      "artist": "Tony Williams",
+      "year": 1981,
+      "label": "CBS/Sony",
+      "albumDNA": "Herbie Hancock Trio is an album by Herbie Hancock released on September 21, 1977, in Japan. It includes performances with bassist Ron Carter and drummer Tony Williams. A second selection of six tracks recorded by the trio during the same day's sessions was released under Ron Carter's name as Third Plane. Williams first gained fame as a member of Miles Davis's \"Second Great Quintet\", and later pioneered jazz fusion with Davis's group and his own combo, The Tony Williams Lifetime.",
+      "keyTracks": [
+        "Stablemates",
+        "Dolphin Dance",
+        "A Slight Smile",
+        "That Old Black Magic",
+        "La Maison gorée"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "f306833d-973e-48ae-94f0-82fc9c6584ba",
+          "title": "Herbie Hancock Trio with Ron Carter + Tony Williams",
+          "date": "1981",
+          "country": "JP",
+          "status": "Official",
+          "artists": [
+            "Herbie Hancock Trio",
+            "Ron Carter",
+            "Tony Williams"
+          ],
+          "labels": [
+            {
+              "name": "CBS/Sony",
+              "catalogNumber": "25AP 2190"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "2aa0259e-5409-3007-acb8-ce932de3bacf",
+            "title": "Herbie Hancock Trio with Ron Carter + Tony Williams",
+            "firstReleaseDate": "1981",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Stablemates",
+            "Dolphin Dance",
+            "A Slight Smile",
+            "That Old Black Magic",
+            "La Maison gorée"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Herbie_Hancock_Trio_(1977_album)",
+        "page": {
+          "requestedTitle": "Herbie Hancock Trio (1977 album)",
+          "resolvedTitle": "Herbie Hancock Trio (1977 album)",
+          "shortDescription": "1977 studio album by Herbie Hancock",
+          "extract": "Herbie Hancock Trio is an album by Herbie Hancock released on September 21, 1977, in Japan. It includes performances with bassist  Ron Carter and drummer Tony Williams. A second selection of six tracks recorded by the trio during the same day's sessions was released under Ron Carter's name as Third Plane.\nThis is the first of two albums with the same title. A second Herbie Hancock Trio with the same personnel was released in 1982.\n\n\n== Track listing ==\n\"Watch It\" – 12:25\n\"Speak Like a Child\" – 13:06\n\"Watcha Waitin' For\" – 6:20\n\"Look\" – 7:42\n\"Milestones\" (Miles Davis) – 6:40\nAll compositions by Herbie Hancock, except as indicated.\n\n\n== Personnel ==\nMusicians\n\nHerbie Hancock – piano\nRon Carter – bass\nTony Williams – drums\nProduction\n\nDavid Rubinson – producer\nFred Catero – engineer\nBryan Bell – technical assistance\nKevin Ayres – technical assistance\nAkio Nimbari – art direction, design\nIkuo Niida – artwork\nOsamu Konno – photography\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "hipmotism",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Night Song is an album by the saxophonist Arthur Blythe, released via Clarity Recordings in 1997.",
+    "contradictingQuote": "Night Song is an album by the saxophonist Arthur Blythe, released via Clarity Recordings in 1997.",
+    "skepticDecision": "Fails: the album's primary identity statement names it as 'Night Song ... released via Clarity Recordings in 1997', the verbatim lede of a different Arthur Blythe album, while MB confirms the item is 'Hipmotism' on enja, firstReleaseDate 1991. A wrong album name with a copied lede is a mismatch, not one wrong fact on the right entity.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Night Song is an album by the saxophonist Arthur Blythe, released via Clarity Recordings in 1997.",
+        "problem": "albumDNA opens by describing a DIFFERENT album ('Night Song', 1997, Clarity Recordings), not 'Hipmotism' (1991, enja) which is the item under verification. The title, label and year in the prose belong to the Night Song album. MB embedded_mbid confirms the real entity is Hipmotism on enja with firstReleaseDate 1991.",
+        "evidenceQuote": "Night Song is an album by the saxophonist Arthur Blythe, released via Clarity Recordings in 1997.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Same artist (Arthur Blythe), wrong album grafted into the prose. MB embedded_mbid confirms Hipmotism, enja, releaseGroup firstReleaseDate 1991, and all 5 keyTracks match the MB Hipmotism tracklist (Dear Dessa, Dance Benita Dance, Cousin Sidney, Shadows, Hipmotism). The stored wiki URL ALSO points to the wrong entity: 'Night Song (Arthur Blythe album)' (1997). The second DNA sentence correctly references 'this Enja Records date features Dear Dessa' (Dear Dessa is on Hipmotism per MB), but the opening factual skeleton is Night Song's. wikiLinkVerdict=wrong_entity. keyTracks themselves are correct, so keyTracksVerdict=ok.",
+    "ours": {
+      "title": "Hipmotism",
+      "artist": "Arthur Blythe",
+      "year": 1991,
+      "label": "Enja Records",
+      "albumDNA": "Night Song is an album by the saxophonist Arthur Blythe, released via Clarity Recordings in 1997. This Enja Records date features \"Dear Dessa\" as part of Arthur Blythe's free jazz output from 1991.",
+      "keyTracks": [
+        "Dear Dessa",
+        "Dance Benita Dance",
+        "Cousin Sidney",
+        "Shadows",
+        "Hipmotism"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "0bc317ff-ae0d-4b97-b722-7f94b0bc8712",
+          "title": "Hipmotism",
+          "date": "",
+          "country": "DE",
+          "status": "Official",
+          "artists": [
+            "Arthur Blythe"
+          ],
+          "labels": [
+            {
+              "name": "enja",
+              "catalogNumber": null
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "04e4c1ae-76ea-35de-a060-ac3538813f28",
+            "title": "Hipmotism",
+            "firstReleaseDate": "1991",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Dear Dessa",
+            "Dance Benita Dance",
+            "Cousin Sidney",
+            "Shadows",
+            "Hipmotism",
+            "Miss Eugie",
+            "Matter Of Fact",
+            "Bush Baby",
+            "My Son Ra"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Night_Song_(Arthur_Blythe_album)",
+        "page": {
+          "requestedTitle": "Night Song (Arthur Blythe album)",
+          "resolvedTitle": "Night Song (Arthur Blythe album)",
+          "shortDescription": "1997 studio album by Arthur Blythe",
+          "extract": "Night Song is an album by the saxophonist Arthur Blythe, released via Clarity Recordings in 1997.\n\n\n== Reception ==\n\nIn his review for AllMusic, Scott Yanow stated: \"This is a particularly intriguing and enjoyable release ... Whether it be hints at New Orleans parade rhythms, Afro-Cuban jazz, older styles of jazz, or freer explorations, this is a fascinating set that is well worth several listens\". In JazzTimes, Miles Jordan wrote: \"This challenging CD finds Blythe doing most of the soloing with Stewart’s ebullient tuba primarily functioning as a walking bass. ... On the tunes that feature the percussionists-all playing hand drums-his marimbas definitely imbue them with a 'world music' feeling\".\n\n\n== Track listing ==\nAll compositions by Arthur Blythe except where noted\n\n\"Night Song (Cancion de La Noche)\" (Arthur Blythe, Gust Tsilias) – 5:44\n\"Sorrows of Sonny Liston\" (Tsilias) – 3:58\n\"Down San Diego Way\" – 3:43\n\"It's Hungry/Fulfillment\" (Blythe, Chico Freeman, Bob Stewart, Arto Tuncboyaciyan) – 7:43\n\"Ransom\" (Blythe, Tuncboyaciyan) – 4:04\n\"Cause of It All\" (Blythe, Stewart) – 5:02\n\"We See\" (Thelonious Monk) – 5:05\n\"Blood Count\" (Billy Strayhorn) – 6:18\n\"Slanderous\" – 3:57\n\"Contemplation\" – 5:43\n\"Hardly\" – 5:24\n\"Night Song (Cancion de La Noche) (Reprise)\" (Blythe, Tsilias) – 2:59\n\n\n== Personnel ==\nArthur Blythe – alto saxophone\nChico Freeman – bass clarinet, percussion\nBob Stewart – tuba\nGust Tsillis – marimba, vibraphone\nArto Tunçboyacıyan, David Frazier, Josh Jones – percussion\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "is-that-so",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Infinity is a studio album by jazz trumpeter Tom Harrell, released by HighNote Records in March 2019.",
+    "contradictingQuote": "Infinity is a studio album by jazz trumpeter Tom Harrell, released by HighNote Records in March 2019.",
+    "skepticDecision": "The albumDNA is verbatim the Wikipedia lede for 'Infinity (Tom Harrell album)' (2019, HighNote) — a different title, year and label than our 'Is That So?' (2014, Stunt). Wholesale wrong-entity prose.",
+    "entityMatch": {
+      "musicbrainz": "unsure",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Infinity is a studio album by jazz trumpeter Tom Harrell, released by HighNote Records in March 2019.",
+        "problem": "The albumDNA describes a completely different album (Tom Harrell's 'Infinity', 2019, HighNote), not our item 'Is That So?' (2014, Stunt Records). Title, year and label in the prose all belong to another entity.",
+        "evidenceQuote": "Infinity is a studio album by jazz trumpeter Tom Harrell, released by HighNote Records in March 2019.",
+        "source": "wiki"
+      },
+      {
+        "ourClaim": "Features \"Jericho\" and \"Haiku\" in a contemporary jazz context",
+        "problem": "Prose attributes Jericho/Haiku to 'Infinity', but the Infinity wiki tracklist is The Fast/Dublin/Hope/Coronation/etc.; Jericho and Haiku are actually tracks on the MB 'Is That So?' release (credited to Niels Vincentz), so the prose conflates a third source.",
+        "evidenceQuote": "\"The Fast\" – 6:38 \"Dublin\" – 9:40 \"Hope\" – 7:30 \"Coronation\" – 6:56",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Three-way collision. (1) MB embedded release 'Is That So?' (Stunt, 2014) is credited to Niels Vincentz, not Tom Harrell — its tracklist (Jericho, Haiku, Hot House, Cecilie, Modal Dancer) is exactly our keyTracks, so keyTracks 'match' the release but the release artist is not ours. (2) The albumDNA is wholesale about Tom Harrell's 'Infinity' (2019, HighNote), quoted verbatim from the stored wiki page 'Infinity (Tom Harrell album)' — a different album. (3) The stored wikipediaUrl points to that wrong Infinity page. Verdict entity_mismatch because the prose's factual skeleton belongs to a different entity; a repair-writer must rewrite the DNA for the actual 2014 'Is That So?' release and confirm the correct artist credit.",
+    "ours": {
+      "title": "Is That So?",
+      "artist": "Tom Harrell",
+      "year": 2014,
+      "label": "Stunt Records",
+      "albumDNA": "Infinity is a studio album by jazz trumpeter Tom Harrell, released by HighNote Records in March 2019. Features \"Jericho\" and \"Haiku\" in a contemporary jazz context, highlighting Tom Harrell's interpretive range.",
+      "keyTracks": [
+        "Jericho",
+        "Haiku",
+        "Hot House",
+        "Cecilie",
+        "Modal Dancer"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "c7c69fdc-2931-442c-b85e-c93f4942caa8",
+          "title": "Is That So?",
+          "date": "2014-02-17",
+          "country": "AF",
+          "status": "Official",
+          "artists": [
+            "Niels Vincentz"
+          ],
+          "labels": [
+            {
+              "name": "Stunt Records",
+              "catalogNumber": null
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "01b18810-9c81-4352-9410-7f29e53d62a7",
+            "title": "Is That So?",
+            "firstReleaseDate": "2014-02-17",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Jericho",
+            "Haiku",
+            "Hot House",
+            "Cecilie",
+            "Modal Dancer",
+            "Baby Suite",
+            "Raison d'être",
+            "Is That So?"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Infinity_(Tom_Harrell_album)",
+        "page": {
+          "requestedTitle": "Infinity (Tom Harrell album)",
+          "resolvedTitle": "Infinity (Tom Harrell album)",
+          "shortDescription": "2019 studio album by Tom Harrell",
+          "extract": "Infinity is a studio album by jazz trumpeter Tom Harrell, released by HighNote Records in March 2019.\n\n\n== Reception ==\n\nAt DownBeat magazine, Suzanne Lorge highlighted Harrell's sense of form as a composer and improvisation as a musician as two positive aspects. The playing of the sidemen \"flows holistically from his writing, with only the slightest of shifts between the composed and improvised sections. These natural transitions speak to a solid group rapport, where the soloists have a stake in the compositional act.\"\nAt JazzTimes, David Whiteis wrote, \"Harrell sounds both delighted by his musical quest and enraptured by what he discovers. ... [Harrell's] muted trumpet skips with precision, dexterity, and brio, his solos so logically constructed that one could almost believe he's able to fully imagine each note, each run, each statement in its entirety before playing it.\"\nIn Jazz Journal, Andy Hamilton gave the album five stars.\n\n\n== Track listing ==\nAll compositions by Tom Harrell\n\n\"The Fast\" – 6:38\n\"Dublin\" – 9:40\n\"Hope\" – 7:30\n\"Coronation\" – 6:56\n\"Folk Song\" – 6:03\n\"Blue\" – 5:40\n\"Ground\" – 7:18\n\"The Isle\" – 8:25\n\"Duet\" – 1:41\n\"Taurus\" – 6:01\n\n\n== Personnel ==\nTom Harrell – trumpet, flugelhorn\nMark Turner – tenor saxophone\nCharles Altura – electric guitar, acoustic guitar\nBen Street – bass\nJohnathan Blake – drums\nAdam Cruz – percussion\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "jazz-in-film",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Terence Blanchard is an album by American jazz trumpeter Terence Blanchard. This is his debut full-length album as a leader. The record was released on June 18, 1991, via Columbia Records.",
+    "contradictingQuote": "Terence Blanchard is an album by American jazz trumpeter Terence Blanchard. This is his debut full-length album as a leader. The record was released on June 18, 1991, via Columbia Records.",
+    "skepticDecision": "Fails: the prose is the verbatim lede of Blanchard's 1991 self-titled debut on Columbia, a different title/year/label, while MB confirms the item is 'Jazz in Film' (1999, Sony Classical). Wholesale about another work.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Terence Blanchard is an album by American jazz trumpeter Terence Blanchard. This is his debut full-length album as a leader. The record was released on June 18, 1991, via Columbia Records.",
+        "problem": "The entire albumDNA describes a DIFFERENT album -- Blanchard's 1991 self-titled debut on Columbia -- not 'Jazz in Film' (1999, Sony Classical), which is the item under verification",
+        "evidenceQuote": "Terence Blanchard is an album by American jazz trumpeter Terence Blanchard. This is his debut full-length album as a leader. The record was released on June 18, 1991, via Columbia Records.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "The MB embedded_mbid release confirms the ITEM is 'Jazz in Film' (Terence Blanchard, 1999, Sony Classical) and all 5 keyTracks match that MB tracklist. But the albumDNA prose is wholly about Blanchard's 1991 self-titled debut (Columbia) -- verbatim from the wrong stored_url Wikipedia page 'Terence Blanchard (album)'. The prose's factual skeleton (1991, Columbia, debut) belongs to a different release. The stored wiki link points to that wrong album page = wrong_entity. Repair note: keyTracks and structured fields are correct for Jazz in Film; only the prose and wiki link are wrong.",
+    "ours": {
+      "title": "Jazz in Film",
+      "artist": "Terence Blanchard",
+      "year": 1999,
+      "label": "Sony Classical",
+      "albumDNA": "Terence Blanchard is an album by American jazz trumpeter Terence Blanchard. This is his debut full-length album as a leader. The record was released on June 18, 1991, via Columbia Records.",
+      "keyTracks": [
+        "A Streetcar Named Desire",
+        "Chinatown",
+        "The Subterraneans",
+        "Anatomy of a Murder",
+        "The Pawnbroker"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "2463f54a-35bc-4779-806d-1cb48e9672fe",
+          "title": "Jazz in Film",
+          "date": "1999-03-02",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Terence Blanchard"
+          ],
+          "labels": [
+            {
+              "name": "Sony Classical",
+              "catalogNumber": "SK 60671"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "1031e760-86a1-3903-ad59-a1f814cc604a",
+            "title": "Jazz in Film",
+            "firstReleaseDate": "1999-03-02",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "A Streetcar Named Desire",
+            "Chinatown",
+            "The Subterraneans",
+            "Anatomy of a Murder",
+            "The Pawnbroker",
+            "Taxi Driver",
+            "Degas' Racing World",
+            "Man With the Golden Arm",
+            "Clockers"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Terence_Blanchard_(album)",
+        "page": {
+          "requestedTitle": "Terence Blanchard (album)",
+          "resolvedTitle": "Terence Blanchard (album)",
+          "shortDescription": "1991 studio album by Terence Blanchard",
+          "extract": "Terence Blanchard is an album by American jazz trumpeter Terence Blanchard. This is his debut full-length album as a leader. The record was released on June 18, 1991, via Columbia Records.\n\n\n== Reception ==\n\nScott Yanow of AllMusic stated, \"On the varied program, Blanchard opens and closes the set with a hymn (\"Motherless Child\" and \"Amazing Grace\"), performs four originals and comes up with personal interpretations of three standards... By the time this recording came out in 1992, Blanchard was ready to take his place as one of the trumpet giants of the '90s\". Leonard Feather of Los Angeles Times commented \"Trumpeter Blanchard brings new elements and an often invigorating lineup to his first album since he worked on the Spike Lee film Mo' Better Blues as arranger, trumpeter and trumpet instructor for actor Denzel Washington. There are four Blanchard originals, of which the hyperventilating \"Wandering Wonder\" and the hectic \"Azania\" are a little too effusive—the latter has an overlong drum solo. But \"Tomorrow's Just a Luxury,\" with its easy canter, and the solemn \"Sing Soweto\" reveal a strong compositional talent\".\n\n\n== Track listing ==\n\n\n== Personnel ==\nBand\n\nTerence Blanchard – trumpet\nBranford Marsalis – tenor saxophone (tracks: 2 3 8)\nSam Newsome – tenor saxophone (tracks: 5 7 9)\nRodney Whitaker – double bass\nJeff Watts – drums (tracks: 2 3 4)\nTroy Davis – drums (tracks: 5 6 7 9)\nBruce Barth – piano\nProduction\n\nDr. George Butler – executive producer\nDelfeayo Marsalis – producer, liner notes\nBernie Grundman – mastering\n\n\n== Chart performance ==\n\n\n== References ==\n\n\n== External links ==\nOfficial website"
+        }
+      }
+    }
+  },
+  {
+    "id": "joey-calderazzo",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Amanecer is an album by Joey Calderazzo. It was recorded in 2006 and released by Marsalis Music.",
+    "contradictingQuote": "Amanecer is an album by Joey Calderazzo. It was recorded in 2006 and released by Marsalis Music.",
+    "skepticDecision": "Fails: the prose is the verbatim lede of 'Amanecer' (2006, Marsalis Music), a different title/year/label, while MB confirms the item is the self-titled 'Joey Calderazzo' (2000, Columbia). Wholesale about another work.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Amanecer is an album by Joey Calderazzo. It was recorded in 2006 and released by Marsalis Music.",
+        "problem": "The albumDNA describes a DIFFERENT album -- 'Amanecer' (2006/2007, Marsalis Music) -- not the self-titled 'Joey Calderazzo' (2000, Columbia) under verification",
+        "evidenceQuote": "Amanecer is an album by Joey Calderazzo. It was recorded in 2006 and released by Marsalis Music.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "MB search match (topArtistSimilarity 1.0) confirms the ITEM is the self-titled 'Joey Calderazzo' (2000, Columbia, CK 69886); all 5 keyTracks match that MB tracklist. But the albumDNA prose is wholly about a different album, 'Amanecer' (2007, Marsalis Music) -- verbatim from the wrong stored_url page 'Amanecer (Joey Calderazzo album)'. The prose's factual skeleton (Amanecer, 2006, Marsalis Music) belongs to a different release. wiki link = wrong_entity. The closing bio sentence (played with Michael Brecker and Branford Marsalis) is true of Calderazzo but not in the Amanecer extract. Repair note: keyTracks/fields are correct for the 2000 self-titled album; prose and wiki link are wrong.",
+    "ours": {
+      "title": "Joey Calderazzo",
+      "artist": "Joey Calderazzo",
+      "year": 2000,
+      "label": "Columbia",
+      "albumDNA": "Amanecer is an album by Joey Calderazzo. It was recorded in 2006 and released by Marsalis Music. He played extensively in bands led by Michael Brecker and Branford Marsalis, and has also led his own bands.",
+      "keyTracks": [
+        "The Oracle",
+        "Toonay",
+        "Haiku",
+        "Detonation",
+        "Time Remembered"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "f9a33d71-e098-4ff3-9e25-4c0b4b82ddea",
+          "title": "Joey Calderazzo",
+          "date": "2000",
+          "country": "XE",
+          "status": "Official",
+          "artists": [
+            "Joey Calderazzo"
+          ],
+          "labels": [
+            {
+              "name": "Columbia",
+              "catalogNumber": "CK 69886"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0a601dae-50c2-36d4-8025-b1ecc9d6b4fd",
+            "title": "Joey Calderazzo",
+            "firstReleaseDate": "2000",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "The Oracle",
+            "Toonay",
+            "Haiku",
+            "Detonation",
+            "Time Remembered",
+            "Catania",
+            "Sling and Arrows",
+            "The Charmer"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Amanecer_(Joey_Calderazzo_album)",
+        "page": {
+          "requestedTitle": "Amanecer (Joey Calderazzo album)",
+          "resolvedTitle": "Amanecer (Joey Calderazzo album)",
+          "shortDescription": "2007 studio album by Joey Calderazzo",
+          "extract": "Amanecer is an album by Joey Calderazzo. It was recorded in 2006 and released by Marsalis Music.\n\n\n== Recording and music ==\nThe album was recorded in January and February 2006. Most of the nine tracks are played by Calderazzo alone on piano. He is joined by guitarist Romero Lubambo for \"The Lonely Swan\", and by vocalist Claudia Acuña for \"So Many Moons\". All three play on \"Amanecer\" and \"Lara\".\n\n\n== Release and reception ==\n\nAmanecer was released by Marsalis Music in 2007. The AllMusic reviewer wrote that \"Every selection on this well-conceived project has its purpose and is memorable in its own way.\" The Penguin Guide to Jazz suggested that the presence of Lubambo and Acuña merely diluted the effect of what is otherwise a solo piano album. The JazzTimes wrote that it \"might be the album that gets his gifts as both a composer and a solo pianist embraced on a greater scale.\"\n\n\n== Track listing ==\n\"Midnight Voyage\"\n\"Sea Glass\"\n\"Toonay\"\n\"Amanecer\"\n\"The Lonely Swan\"\n\"I've Never Been in Love Before\"\n\"So Many Moons\"\n\"Waltz for Debby\"\n\"Lara\"\n\n\n== Personnel ==\nJoey Calderazzo – piano\nRomero Lubambo – guitar (tracks 4, 5, 9)\nClaudia Acuña – vocals (tracks 4, 7, 9)\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "kenny-burrell",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Kenny Burrell is an album by guitarist Kenny Burrell recorded in 1957 and released on the Prestige label.",
+    "contradictingQuote": "1957 studio album by Kenny Burrell",
+    "skepticDecision": "Anchored to the embedded release (dated 1956 on Blue Note), the prose and stored link describe the different same-titled Prestige album, which the evidence short description marks as a 1957 studio album; the prose even self-contradicts on the year.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Kenny Burrell is an album by guitarist Kenny Burrell recorded in 1957 and released on the Prestige label.",
+        "problem": "Our item per embedded MBID is the 1956 Blue Note album (BLP 1543); this sentence, the keyTracks and the stored wiki link all describe the different same-titled 1957 Prestige album.",
+        "evidenceQuote": "title: \"Kenny Burrell\"; date: \"1956\"; labels: Blue Note BLP 1543; releaseGroup.firstReleaseDate: \"1956\"",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Classic same-name collision. The keyTracks (Don't Cry Baby, Drum Boogie, Strictly Confidential, All of You, Perception) are exactly the Prestige album's wiki tracklist, and none appear on the embedded MB Blue Note tracklist (Get Happy, But Not for Me, Mexico City, Moten Swing, Cheeta, Now See How You Are, Phinupi, How About You?). The prose even self-contradicts ('recorded in 1957 ... this 1956 session'). Year field 1956 matches the Blue Note album. Repair: decide the anchor -- the embedded MBID says Blue Note 1956 -- then rewrite prose, keyTracks and wiki link to that album consistently (or re-anchor everything to the Prestige album).",
+    "ours": {
+      "title": "Kenny Burrell",
+      "artist": "Kenny Burrell",
+      "year": 1956,
+      "label": "Unknown",
+      "albumDNA": "Kenny Burrell is an album by guitarist Kenny Burrell recorded in 1957 and released on the Prestige label. Guitarist Kenny Burrell's hard bop sensibility is on display in this 1956 session, a document of the hard bop era.",
+      "keyTracks": [
+        "Get Happy",
+        "But Not for Me",
+        "Mexico City",
+        "Moten Swing",
+        "Cheeta"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "2b00ce9c-9c80-4ba8-a633-6282544d794c",
+          "title": "Kenny Burrell",
+          "date": "1956",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Kenny Burrell"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": "BLP 1543"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "00e07028-6382-43fa-8249-0be0ab3324c1",
+            "title": "Kenny Burrell",
+            "firstReleaseDate": "1956",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Get Happy",
+            "But Not for Me",
+            "Mexico City",
+            "Moten Swing",
+            "Cheeta",
+            "Now See How You Are",
+            "Phinupi",
+            "How About You?"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Kenny_Burrell_(Prestige_album)",
+        "page": {
+          "requestedTitle": "Kenny Burrell (Prestige album)",
+          "resolvedTitle": "Kenny Burrell (Prestige album)",
+          "shortDescription": "1957 studio album by Kenny Burrell",
+          "extract": "Kenny Burrell (also reissued as Blue Moods) is an album by guitarist Kenny Burrell recorded in 1957 and released on the Prestige label.\n\n\n== Reception ==\n\nIn the AllMusic review by Scott Yanow, he stated: \"Guitarist Kenny Burrell, 25 at the time, is heard during one of his earlier sessions playing in his already recognizable straight-ahead style with a quintet... It's enjoyable music\". A Jazzwise reviewer in 2025 wrote that the album was \"Muscular and swinging when it needs to be ('Drum Boogie'), laid back when required ('All of You' and the smooth, skipping 'Don't Cry Baby') and possessed of an easy, almost conversational swing (especially on 'Strictly Confidential')\".\n\n\n== Track listing ==\n\"Don't Cry Baby\" (Saul Bernie, James P. Johnson, Stella Unger) - 8:20\n\"Drum Boogie\" (Roy Eldridge, Gene Krupa) - 9:14\n\"Strictly Confidential\" (Bud Powell) - 6:25\n\"All of You\" (Cole Porter) - 6:17\n\"Perception\" (Kenny Burrell) - 6:05\n\n\n== Personnel ==\nKenny Burrell - guitar\nCecil Payne - baritone saxophone (except track 4)\nTommy Flanagan - piano\nDoug Watkins - bass\nElvin Jones - drums\nThe album was reissued in 1964 as Blue Moods (Prestige 7308).\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "les-stances-a-sophie",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "The Art Ensemble of Chicago is an avant-garde jazz group that grew out of the Association for the Advancement of Creative Musicians (AACM) in the late 1960s.",
+    "contradictingQuote": "shortDescription: \"American avant-garde jazz group\"",
+    "skepticDecision": "The bulk of the albumDNA is the verbatim wiki lead for the band as its subject (AACM origins, little instruments, costumes, 500 instruments in Europe 1969); the evidence shortDescription identifies the described subject as a musical group, a different kind of entity than the album, and the thin album tail does not change that the prose is wholesale the group article.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "The Art Ensemble of Chicago is an avant-garde jazz group that grew out of the Association for the Advancement of Creative Musicians (AACM) in the late 1960s.",
+        "problem": "The bulk of the prose describes the BAND (AACM origins, little instruments, costumes and face paint, 500 instruments in Europe 1969), not the album Les Stances a Sophie. Content about a group when the item is an album; stored wikipediaUrl is the band article.",
+        "evidenceQuote": "shortDescription: \"American avant-garde jazz group\" (page: Art Ensemble of Chicago)",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "The item itself resolves fine: MB (sim 1.0) matches the 1970 soundtrack release and ALL 6 keyTracks. The band page even confirms the album exists ('Les Stances a Sophie with singer Fontella Bass... the soundtrack to the French movie of the same title', 1970). The final two prose sentences ARE album-specific and consistent ('Theme de Yoyo' is the opening track), but the factual skeleton is the band bio. Label caveat: ours says Pathe; the MB evidence release is a US Nessa Records pressing (1970) - the original French label is not in evidence, so Pathe is unconfirmed but NOT contradicted (labels are pressing-specific); do not auto-change. Repair: rewrite prose about the album; link the album's wiki page if one exists.",
+    "ours": {
+      "title": "Les Stances à Sophie",
+      "artist": "Art Ensemble of Chicago",
+      "year": 1970,
+      "label": "Pathé",
+      "albumDNA": "The Art Ensemble of Chicago is an avant-garde jazz group that grew out of the Association for the Advancement of Creative Musicians (AACM) in the late 1960s. The ensemble integrates many jazz styles and plays many instruments, including \"little instruments\": bells, bicycle horns, birthday party noisemakers, wind chimes, and various forms of percussion. The musicians would wear costumes and face paint while performing. These characteristics combined to make the ensemble's performances both aural and visual. While playing in Europe in 1969, five hundred instruments were used. Showed the Art Ensemble's range and their ability to work in commercial contexts without compromising. 'Theme de Yoyo' became a rare avant-garde dance floor hit.",
+      "keyTracks": [
+        "Thème de Yoyo",
+        "Thème de Céline",
+        "Variations sur un thème de Monteverdi (i)",
+        "Variations sur un thème de Monteverdi (ii)",
+        "Proverbes (i)",
+        "Thème amour universal"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "183e641f-1a83-3fe4-924f-de79fb116d07",
+          "title": "Les Stances à Sophie",
+          "date": "1970",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Art Ensemble of Chicago"
+          ],
+          "labels": [
+            {
+              "name": "Nessa Records",
+              "catalogNumber": "N- 4"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0207ab9d-fe11-3884-8bd2-2aed7731efc9",
+            "title": "Les Stances à Sophie",
+            "firstReleaseDate": "1970",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Soundtrack"
+            ]
+          },
+          "tracks": [
+            "Thème de Yoyo",
+            "Thème de Céline",
+            "Variations sur un thème de Monteverdi (i)",
+            "Variations sur un thème de Monteverdi (ii)",
+            "Proverbes (i)",
+            "Thème amour universal",
+            "Thème Libre",
+            "Proverbes (ii)"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Art_Ensemble_of_Chicago",
+        "page": {
+          "requestedTitle": "Art Ensemble of Chicago",
+          "resolvedTitle": "Art Ensemble of Chicago",
+          "shortDescription": "American avant-garde jazz group",
+          "extract": "The Art Ensemble of Chicago is an avant-garde jazz group that grew out of the Association for the Advancement of Creative Musicians (AACM) in the late 1960s. The ensemble integrates many jazz styles and plays many instruments, including \"little instruments\": bells, bicycle horns, birthday party noisemakers, wind chimes, and various forms of percussion. The musicians would wear costumes and face paint while performing. These characteristics combined to make the ensemble's performances both aural and visual. While playing in Europe in 1969, five hundred instruments were used.\n\n\n== History ==\nMembers of what was to become the Art Ensemble performed together under various band names in the mid-sixties, as members of the Association for the Advancement of Creative Musicians (AACM). They performed on the 1966 album Sound, as the Roscoe Mitchell Sextet. The Sextet included saxophonist Roscoe Mitchell, trumpeter Lester Bowie, and bassist Malachi Favors. For the next year, they played as the Roscoe Mitchell Art Ensemble. In 1967, they were joined by fellow AACM members Joseph Jarman (saxophone) and Phillip Wilson (drums) and recorded for Nessa Records.\nAll of the musicians were multi-instrumentalists. Jarman and Mitchell's primary instruments were alto and tenor saxophone, respectively. Additionally, they both played other saxophones ranging from the small sopranino to the large bass saxophone, as well as the flute and clarinet. In addition to trumpet, Bowie played flugelhorn, cornet, shofar, and conch shells. Favors added touches of banjo and bass guitar. Most of them dabbled in piano, synthesizer, and other keyboards, and they all played percussion instruments.\n\nThey were known for wearing costumes and makeup on stage. Member Joseph Jarman  described part of their style: So what we were doing with that face painting was representing everyone throughout the universe, and that was expressed in the music as well. That's why the music was so interesting. It wasn't limited to Western instruments, African instruments, or Asian instruments, or South American instruments, or anybody's instruments.\nIn 1967, Wilson left the group to join Paul Butterfield's band, and for a period the group was a quartet without a full-time drummer. Jarman and Mitchell served as artistic directors at the cooperative summer camp Circle Pines Center in Delton, Michigan, in August 1968, during the same week that the Democratic Convention was in Chicago.  After a farewell concert at the Unitarian Church in Evanston, Illinois, in fall, 1968, the remaining group traveled to Paris. In Paris, the ensemble was based at the Théâtre du Vieux Colombier.\n In France, they became known as the Art Ensemble of Chicago. The impetus for the name change came from a French promoter who added \"of Chicago\" to their name for descriptive purposes. The new name stuck because band members felt that it better reflected the cooperative nature of the group. In Paris, the ensemble was based at the Théâtre du Vieux Colombier  and they recorded for the Freedom and BYG labels. They also recorded Comme à la radio with Brigitte Fontaine and Areski Belkacem but without a drummer until percussionist Don Moye became a member of the group in 1970. During that year, they recorded the albums Art Ensemble of Chicago with Fontella Bass and Les Stances a Sophie with singer Fontella Bass, who was Lester Bowie's wife. The latter was the soundtrack to the French movie of the same title.\n\n\n=== Fifty years on ===\nLester Bowie died of liver cancer in 1999. Malachi Favors died in 2004 of pancreatic cancer. Joseph Jarman died on January 9, 2019, of respiratory failure.\nAs of 2017-2019 Mitchell and Moye remained active, with new and previous collaborators as guest under the name Art Ensemble of Chicago - 50th Anniversary Large Ensemble. They released an album in 2019:\n\nRoscoe Mitchell – saxophones;\nFamoudou Don Moye – drums, congas and percussion.\nGuests:\n\nBabu Atiba – african drums and djembe\nFred Berry – trumpet, flugelhorn\nSilvia Bolognesi– double bass\nBrett Carson – piano\nJean Cook – violin\nSteed Cowart – conductor\nRodolfo Cordova-Lebron – voice\nDudu Kouaté – African percussion\nyuniya edi kwon – viola/violin\nWilliam Lang - trombone\nNicole Mitchell – flutes\nMoor Mother – spoken word\nErina Newkirk – soprano vocals\nJunius Paul – double bass and objects\nHugh Ragin – trumpet, flugelhorn and piccolo trumpet\nTomeka Reid – cello\nStephen Rush - conductor\nJaribu Shahid – double bass\nAbel Selaocoe – cello\nSimon "
+        }
+      }
+    }
+  },
+  {
+    "id": "louie-and-the-dukes-of-dixieland",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "I've Got the World on a String is a 1960 album by Louis Armstrong, arranged by Russell Garcia. It was recorded on the same day as Armstrong's 1958 album Louis Under the Stars; the previous day he had finished recording Ella and Louis Again with Ella Fitzgerald.",
+    "contradictingQuote": "Louie and the Dukes of Dixieland",
+    "skepticDecision": "The albumDNA is the wiki lead of 'I've Got the World on a String' (the Russell Garcia orchestral date), while the embedded release for this item is titled 'Louie and the Dukes of Dixieland', Armstrong's collaboration with The Dukes of Dixieland.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "I've Got the World on a String is a 1960 album by Louis Armstrong, arranged by Russell Garcia. It was recorded on the same day as Armstrong's 1958 album Louis Under the Stars; the previous day he had finished recording Ella and Louis Again with Ella Fitzgerald.",
+        "problem": "The entire albumDNA describes a different Armstrong album (I've Got the World on a String, the Russell Garcia orchestral date) -- not Louie and the Dukes of Dixieland, the Dukes of Dixieland collaboration this item actually is",
+        "evidenceQuote": "title: \"Louie and the Dukes of Dixieland\"; artists: [\"Louis Armstrong\", \"The Dukes of Dixieland\"]; releaseGroup firstReleaseDate: \"1960\"",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Classic disambiguation disease. Embedded-MBID MB release confirms the real album (Armstrong with The Dukes of Dixieland, RG first release 1960) and all five keyTracks match its tracklist, so title/artist/year/keyTracks fields are fine. But the prose and the stored Wikipedia link both belong to I've Got the World on a String (whose wiki personnel shows a Russell Garcia orchestra, no Dukes of Dixieland). Label field 'Audio Fidelity' is unverifiable from the pack (MB shows only a High Definition Tape Transfers reissue) -- plausible for the 1960 original but needs sourcing during repair. Prose and wikipediaUrl both need replacement.",
+    "ours": {
+      "title": "Louie and the Dukes of Dixieland",
+      "artist": "Louis Armstrong",
+      "year": 1960,
+      "label": "Audio Fidelity",
+      "albumDNA": "I've Got the World on a String is a 1960 album by Louis Armstrong, arranged by Russell Garcia. It was recorded on the same day as Armstrong's 1958 album Louis Under the Stars; the previous day he had finished recording Ella and Louis Again with Ella Fitzgerald.",
+      "keyTracks": [
+        "Bourbon Street Parade",
+        "South",
+        "Washington and Lee Swing",
+        "Avalon",
+        "New Orleans"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "a4d633d9-4da7-4add-b724-fcee869fd434",
+          "title": "Louie and the Dukes of Dixieland",
+          "date": "",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Louis Armstrong",
+            "The Dukes of Dixieland"
+          ],
+          "labels": [
+            {
+              "name": "High Definition Tape Transfers",
+              "catalogNumber": "HDTT2584"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "399a036d-da20-4ab1-b64d-f873569652e5",
+            "title": "Louie and the Dukes of Dixieland",
+            "firstReleaseDate": "1960",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Bourbon Street Parade",
+            "South",
+            "Washington and Lee Swing",
+            "Avalon",
+            "New Orleans",
+            "That's a' Plenty",
+            "Just a Closer Walk With Thee",
+            "Dixie",
+            "Sheik of Araby",
+            "Wolverine Blues",
+            "Sweet Georgia Brown",
+            "Limehouse Blues"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/I've_Got_the_World_on_a_String_(album)",
+        "page": {
+          "requestedTitle": "I've Got the World on a String (album)",
+          "resolvedTitle": "I've Got the World on a String (album)",
+          "shortDescription": "1960 studio album by Louis Armstrong",
+          "extract": "I've Got the World on a String is a 1960 album by Louis Armstrong, arranged by Russell Garcia. It was recorded on the same day as Armstrong's 1958 album Louis Under the Stars; the previous day he had finished recording Ella and Louis Again with Ella Fitzgerald.\nIn 1999, I've Got the World on a String was reissued with Louis Under the Stars alongside bonus material and outtakes.\n\n\n== Reception ==\n\nBillboard magazine reviewed the album in their March 14, 1960, issue and wrote that \"Satchmo plays it soft and romantic on this listenable collection of standards...Prime jockey wax\".\nRichard S. Ginell reviewed the reissue of the album for AllMusic and wrote that these \"once-overlooked albums...are finally being appreciated as prime samplings from the autumn of Armstrong's recording career\" and that \"Even in the pressure cooker of a marathon session, even when confronted with standards not often associated with him, Armstrong finds the essence of each tune, bending and projecting them with his patented joie de vivre and gravel-voiced warmth every time\". Ginell described Armstrong's trumpet playing as \"pithy, soulful, [and] belonging to no one else\" and praised Russell Garcia's arrangements for big band or strings as \"...among the most atmospheric ever accorded to Armstrong. In particular, 'When Your Lover Is Gone' is sublime, with its signature riff of blasé, sighing horns and responding, rising string tremolos, and Garcia frames 'Body and Soul' with a lovely string chart whose penultimate stroke is a perfectly placed blue note\".\n\n\n== Track listing ==\n\"When Your Lover Has Gone\" (Einar Aaron Swan) – 4:42\n\"You're the Top\" (Cole Porter) – 2:33\n\"You Turned the Tables on Me\" (Louis Alter, Sidney Mitchell) – 2:38\n\"Don't Get Around Much Anymore\" (Duke Ellington, Bob Russell) – 3:41\n\"Little Girl Blue\" (Richard Rodgers, Lorenz Hart) – 5:45\n\"Nobody Knows the Trouble I've Seen\" (Traditional) – 4:56\n\"We'll Be Together Again\" (Carl T. Fischer) – 4:07\n\"I've Got the World on a String\" (Harold Arlen, Ted Koehler) – 2:52\n\"Do Nothing 'Til You Hear From Me\" (Ellington, Russell) – 4:16\n\"I Gotta Right to Sing the Blues\" (Arlen, Koehler) – 4:05\n\n\n== Personnel ==\nLouis Armstrong – trumpet\nRussell Garcia – arranger, conductor\nNorman Granz – producer\nJohn Altoon – cover art\n\n\n=== Orchestra ===\nVictor Arno, Robert Barene, Jacques Gasselin, Joseph Livoti, Dan Lube, Amerigo Marino, Erno Neufeld, Marshall Sosson, Robert Sushel, Gerald Vinci, Tibor Zelig - violins\nMyron Bacon, Abraham Hochstein, Raymond Menhennick, Myron Sandler - violas\nJustin DiTullio, Kurt Reher, William Van Den Burg - cellos\nFrank Beach, Buddy Childers, Cappy Lewis - trumpets\nMilt Bernhart, Marshall Cram, James Henderson, Lloyd Ulyate - trombones\nVincent DeRosa - French horn\nBill Miller, Paul Smith - piano\nTony Rizzi - guitar\nJoe Mondragon - double bass\nAlvin Stoller - drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "lover-man",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "\"Lover Man \" is a 1941 popular song written by Jimmy Davis, Roger (\"Ram\") Ramirez, and James Sherman.",
+    "contradictingQuote": "\"Lover Man\", or \"Lover Man (Oh, Where Can You Be?)\", is a 1941 song made popular by Billie Holiday.",
+    "skepticDecision": "The albumDNA describes the 1941 song composition; the evidence confirms the described entity is a 1941 song, distinct from the 1951 Decca album this item represents.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "\"Lover Man \" is a 1941 popular song written by Jimmy Davis, Roger (\"Ram\") Ramirez, and James Sherman.",
+        "problem": "Prose describes the song, not the album; the embedded-MBID release is the 1951 Decca LP (DL5345) by Billie Holiday.",
+        "evidenceQuote": "\"Lover Man\", or \"Lover Man (Oh, Where Can You Be?)\", is a 1941 song made popular by Billie Holiday.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Song prose on an album item. The opensearch wiki hit is only a disambiguation page; it confirms the song is from 1941 and associated with Holiday, but the writers' names and the 1989 Grammy Hall of Fame claim are unverifiable here. The album reference itself is excellent: embedded MB release confirms year 1951, label Decca Records, and all 5 keyTracks. Only the prose needs an album-level rewrite. No wiki URL shipped.",
+    "ours": {
+      "title": "Lover Man",
+      "artist": "Billie Holiday",
+      "year": 1951,
+      "label": "Decca Records",
+      "albumDNA": "\"Lover Man \" is a 1941 popular song written by Jimmy Davis, Roger (\"Ram\") Ramirez, and James Sherman. It is particularly associated with Billie Holiday, for whom it was written, and her version was inducted into the Grammy Hall of Fame in 1989.",
+      "keyTracks": [
+        "Lover Man (Oh, Where Can You Be?)",
+        "That Ole Devil Called Love",
+        "You're My Thrill",
+        "Crazy He Calls Me",
+        "My Man (Mon Homme)"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "fc4227de-c4d6-4f60-b9be-10056469e48e",
+          "title": "Lover Man",
+          "date": "1951",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Billie Holiday"
+          ],
+          "labels": [
+            {
+              "name": "Decca Records",
+              "catalogNumber": "DL5345"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "01ca1df8-32b5-4f32-baef-3f8273fdd3d5",
+            "title": "Lover Man",
+            "firstReleaseDate": "1951",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Lover Man (Oh, Where Can You Be?)",
+            "That Ole Devil Called Love",
+            "You're My Thrill",
+            "Crazy He Calls Me",
+            "My Man (Mon Homme)",
+            "Porgy",
+            "There Is No Greater Love",
+            "Solitude"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Lover Man (album)",
+          "resolvedTitle": "Lover Man (disambiguation)",
+          "shortDescription": "Topics referred to by the same term",
+          "extract": "\"Lover Man\", or \"Lover Man (Oh, Where Can You Be?)\", is a 1941 song made popular by Billie Holiday.\nLover Man may also refer to:\n\nLover Man (Duke Jordan album), 1979\nLover Man (Archie Shepp album), 1989\nLover Man: A Tribute to Billie Holiday, John Hicks 1993\n\"Lover Man\", song by Jimi Hendrix from Isle of Wight\n\"Loverman\", a 1994 song by Nick Cave\n\"Loverman\", song by Train from A Girl, a Bottle, a Boat\n\n\n== See also ==\nMr Loverman, a 2013 novel by Bernardine Evaristo\nMr Loverman, a 2024 TV mini-series adaptation of the novel, starring Lennie James\n\"Mr. Loverman\", a 1992 song by Shabba Ranks"
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Lover Man (disambiguation)",
+            "shortDescription": "Topics referred to by the same term",
+            "extractHead": "\"Lover Man\", or \"Lover Man (Oh, Where Can You Be?)\", is a 1941 song made popular by Billie Holiday.\nLover Man may also refer to:\n\nLover Man (Duke Jordan album), 1979\nLover Man (Archie Shepp album), 1989\nLover Man: A Tribute to Billie Holiday, John Hicks 1993\n\"Lover Man\", song by Jimi Hendrix from Isle of Wight\n\"Loverman\", a 1994 song by Nick Cave\n\"Loverman\", song by Train from A Girl, a Bottle, a Boat\n\n\n== See also ==\nMr Loverman, a 2013 novel by Bernardine Evaristo\nMr Loverman, a 2024 TV mini-s"
+          },
+          {
+            "resolvedTitle": "The Lover in Me (album)",
+            "shortDescription": "1988 studio album by Sheena Easton",
+            "extractHead": "The Lover in Me is the ninth studio album by the Scottish singer Sheena Easton. It was released in November 1988, was her debut for MCA and spawned five singles – the title track, \"Days Like This\", \"101\", \"No Deposit, No Return\" and \"Follow My Rainbow\". In 2006, Cherry Red Records (UK) re-released The Lover in Me, (Expanded Edition) remastered and with added bonus tracks. On May 27, 2016, the album was officially released in the US for digital download on iTunes.\n\n\n== Background ==\nThe album has"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "lullaby-of-birdland",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Ella and Duke at the Cote D'Azur is a 1967 live album by Ella Fitzgerald, accompanied by the big band of Duke Ellington.",
+    "contradictingQuote": "Lullaby of Birdland is a live album by saxophonist Lee Konitz featuring pianist Barry Harris which was recorded at Birdland in 1991 and released on the Candid label.",
+    "skepticDecision": "The albumDNA describes 'Ella and Duke at the Cote D'Azur', an Ella Fitzgerald/Ellington album, while both the MB release and the stored wiki page identify our 'Lullaby of Birdland' as a Lee Konitz / Barry Harris date. Wrong-entity prose.",
+    "entityMatch": {
+      "musicbrainz": "no",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Ella and Duke at the Cote D'Azur is a 1967 live album by Ella Fitzgerald, accompanied by the big band of Duke Ellington.",
+        "problem": "The entire DNA describes a different album ('Ella and Duke at the Cote D'Azur', an Ella Fitzgerald/Duke Ellington 1967 live record) — not the album titled 'Lullaby of Birdland', which both the embedded-MBID release and the stored wiki page identify as a 1991 Lee Konitz / Barry Harris date on Candid.",
+        "evidenceQuote": "Lullaby of Birdland is a live album by saxophonist Lee Konitz featuring pianist Barry Harris which was recorded at Birdland in 1991 and released on the Candid label.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Triple collision. (1) DNA prose is about 'Ella and Duke at the Cote D'Azur', a wholly different album. (2) ours attributes the album to Duke Ellington on Intermedia Records, but the authoritative embedded-MBID release credits Lee Konitz + Barry Harris on Candid, and the stored wiki page agrees. (3) Of 5 keyTracks only 'Lullaby of Birdland' is on the MB tracklist; the other 4 are absent. The wiki link is to the real (Konitz/Harris) album, not the Duke Ellington entity ours claims — wrong relative to our stated entity.",
+    "ours": {
+      "title": "Lullaby of Birdland",
+      "artist": "Duke Ellington",
+      "year": null,
+      "label": "Intermedia Records",
+      "albumDNA": "Ella and Duke at the Cote D'Azur is a 1967 live album by Ella Fitzgerald, accompanied by the big band of Duke Ellington. Captures pianist Duke Ellington in a None swing setting, adding to the recorded documentation of the swing era.",
+      "keyTracks": [
+        "Lullaby of Birdland",
+        "This Is Always",
+        "Anthropology",
+        "Ask Me Now",
+        "East of the Sun"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "6a677ef2-bd39-4b79-a644-f0b8b3125615",
+          "title": "Lullaby of Birdland",
+          "date": "2006-01-01",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Lee Konitz",
+            "Barry Harris"
+          ],
+          "labels": [
+            {
+              "name": "Candid",
+              "catalogNumber": null
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "2afc8fb2-357b-45c8-9f3a-892ff20bf6a2",
+            "title": "Lullaby of Birdland",
+            "firstReleaseDate": "2006-01-01",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Lullaby of Birdland",
+            "This Is Always",
+            "Anthropology",
+            "Ask Me Now",
+            "East of the Sun",
+            "Cherokee",
+            "’round Midnight",
+            "The Song Is You"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Lullaby_of_Birdland_(album)",
+        "page": {
+          "requestedTitle": "Lullaby of Birdland (album)",
+          "resolvedTitle": "Lullaby of Birdland (album)",
+          "shortDescription": "1994 live album by Lee Konitz featuring Barry Harris",
+          "extract": "Lullaby of Birdland is a live album by saxophonist Lee Konitz featuring pianist Barry Harris which was recorded at Birdland in 1991 and released on the Candid label.\n\n\n== Critical reception ==\n\nThe Allmusic review stated \"Konitz and Harris have not crossed paths all that often through the years but they joined forces for an engagement at Birdland in 1991. ... The two stylists mix together just fine. Konitz's sweet/sour tone and melancholy moods are joyfully uplifted by Harris' mastery of bebop\".\n\n\n== Track listing ==\n\"Lullaby of Birdland\" (George Shearing) – 9:05\n\"This Is Always\" (Harry Warren, Mack Gordon) – 7:44\n\"Anthropology\" (Dizzy Gillespie, Charlie Parker) – 7:53\n\"Ask Me Now\" (Thelonious Monk) – 9:54\n\"East of the Sun\" (Brooks Bowman) – 6:23\n\"Cherokee\" (Ray Noble) – 7:28\n\"'Round Midnight\" (Monk) – 8:38\n\"The Song Is You\" (Jerome Kern, Oscar Hammerstein II) – 5:56\n\n\n== Personnel ==\nLee Konitz – alto saxophone\nBarry Harris – piano\nCalvin Hill – bass\nLeroy Williams – drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "malphas-book-of-angels-volume-3",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Orobas: Book of Angels Volume 4 is an album by Koby Israelite performing compositions from John Zorn's second Masada book, \"The Book of Angels\".",
+    "contradictingQuote": "Orobas: Book of Angels Volume 4 is an album by Koby Israelite performing compositions from John Zorn's second Masada book, \"The Book of Angels\".",
+    "skepticDecision": "Fails: the prose is the verbatim lede of 'Orobas: Book of Angels Volume 4' by Koby Israelite, a different volume and a different performing artist, while MB confirms the item is 'Malphas: Book of Angels, Volume 3' (Mark Feldman & Sylvie Courvoisier). Wholesale about another work.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Orobas: Book of Angels Volume 4 is an album by Koby Israelite performing compositions from John Zorn's second Masada book, \"The Book of Angels\".",
+        "problem": "The item is 'Malphas: Book of Angels, Volume 3' (performed by Mark Feldman & Sylvie Courvoisier per MB), but the albumDNA describes a DIFFERENT volume, 'Orobas: Book of Angels Volume 4' by Koby Israelite. Wrong album in the series.",
+        "evidenceQuote": "Orobas: Book of Angels Volume 4 is an album by Koby Israelite performing compositions from John Zorn's second Masada book, \"The Book of Angels\".",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "MB embedded_mbid confirms OUR album is Malphas Vol 3 (Tzadik, 2006-01-24, performers Mark Feldman & Sylvie Courvoisier; Zorn is composer). But the albumDNA and the stored_url are both about Orobas Vol 4 (Koby Israelite) - a different release. keyTracks Azriel/Basus/Rigal/Kafziel match MB; 'Labariel' does not match (MB has 'Lahariel' - almost certainly a one-letter typo). Note: our artist field 'John Zorn' is the composer, not the performing artist MB lists, but that is conventional for the Book of Angels series and not the basis for this verdict; the verdict is driven by the swapped prose.",
+    "ours": {
+      "title": "Malphas: Book of Angels, Volume 3",
+      "artist": "John Zorn",
+      "year": 2006,
+      "label": "Tzadik",
+      "albumDNA": "Orobas: Book of Angels Volume 4 is an album by Koby Israelite performing compositions from John Zorn's second Masada book, \"The Book of Angels\". Part of Tzadik's jazz fusion catalog. John Zorn's Tzadik label spans the avant-garde from jazz to experimental music.",
+      "keyTracks": [
+        "Azriel",
+        "Basus",
+        "Rigal",
+        "Kafziel",
+        "Lahariel"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "4a570475-8e6b-43a6-a023-cfd5eff0821d",
+          "title": "Malphas: Book of Angels, Volume 3",
+          "date": "2006-01-24",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Mark Feldman",
+            "Sylvie Courvoisier"
+          ],
+          "labels": [
+            {
+              "name": "Tzadik",
+              "catalogNumber": "TZ 7354"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0460e9af-9300-3ade-884d-e31be068b533",
+            "title": "Malphas: Book of Angels, Volume 3",
+            "firstReleaseDate": "2006-01-24",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Azriel",
+            "Basus",
+            "Rigal",
+            "Kafziel",
+            "Lahariel",
+            "Zethar",
+            "Paschal",
+            "Boel",
+            "Sammael",
+            "Padiel",
+            "Vretil"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Orobas%3A_Book_of_Angels_Volume_4",
+        "page": {
+          "requestedTitle": "Orobas: Book of Angels Volume 4",
+          "resolvedTitle": "Orobas: Book of Angels Volume 4",
+          "shortDescription": "2006 studio album by Koby Israelite",
+          "extract": "Orobas: Book of Angels Volume 4 is an album by Koby Israelite performing compositions from John Zorn's second Masada book, \"The Book of Angels\".\n\n\n== Reception ==\nThe Allmusic review by Thom Jurek awarded the album 4 stars stating \"Orobas: Book of Angels, Vol. 4 is another essential Four-for-four and counting. This is the most exhilarating set of recordings Tzadik has offered in quite some time. For those who haven't yet checkout Israelite, this is a fantastic opportunity\". \n\n\n== Track listing ==\nAll compositions by John Zorn.\n\"Rampel\" - 6:31\n\"Zafiel\" - 4:40\n\"Ezgadi\" - 5:16\n\"Nisroc\" - 4:56\n\"Negef\" - 5:54\n\"Khabiel\" - 6:28\n\"Chayo\" - 6:27\n\"Rachmiel\" - 8:08\nRecorded in London, UK in November–December 2005\n\n\n== Personnel ==\nKoby Israelite – drums, percussion, accordion, keyboards, guitar, bouzouki, Indian banjo, vocals, flute, electric bass, cajón, arrangements\nSid Gauld – trumpet\nYaron Stavi – basses, vocals\nStewart Curtis – recorder, piccolo, clarinet\n\n\n== References =="
+        }
+      }
+    }
+  }
+]

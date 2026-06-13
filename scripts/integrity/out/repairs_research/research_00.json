@@ -1,0 +1,92 @@
+[
+  {
+    "action": "research",
+    "file": "artistsDetail",
+    "id": "david-murray",
+    "field": "wikipedia",
+    "before": "https://en.wikipedia.org/wiki/David_Murray_(musician)",
+    "after": "https://en.wikipedia.org/wiki/David_Murray_(saxophonist)",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/David_Murray_(saxophonist)"],
+    "evidence": "Article 'David Murray (saxophonist)' is the live page: 'David Keith Murray (born February 19, 1955) is an American jazz saxophonist and composer who performs mostly on tenor and bass clarinet.'"
+  },
+  {
+    "action": "research",
+    "file": "artists",
+    "id": "jiro-inagaki",
+    "field": "deathYear",
+    "before": 2016,
+    "after": 2024,
+    "sourceUrl": ["https://ja.wikipedia.org/wiki/%E7%A8%B2%E5%9E%A3%E6%AC%A1%E9%83%8E", "https://www.wikidata.org/wiki/Q105576139"],
+    "evidence": "Japanese Wikipedia lead gives life dates 1933年10月3日 - 2024年1月18日; Wikidata Q105576139 records date of death 2024-01-18. Ours said 2016."
+  },
+  {
+    "action": "research",
+    "file": "artistsDetail",
+    "id": "jiro-inagaki",
+    "field": "wikipedia",
+    "before": "https://en.wikipedia.org/wiki/Jiro_Inagaki",
+    "after": "https://ja.wikipedia.org/wiki/%E7%A8%B2%E5%9E%A3%E6%AC%A1%E9%83%8E",
+    "sourceUrl": ["https://ja.wikipedia.org/wiki/%E7%A8%B2%E5%9E%A3%E6%AC%A1%E9%83%8E"],
+    "evidence": "No English Wikipedia article exists (en.wikipedia.org/wiki/Jiro_Inagaki returns 404). The live primary article is the Japanese one, linked from Wikidata Q105576139."
+  },
+  {
+    "action": "research",
+    "file": "artists",
+    "id": "jiro-inagaki",
+    "field": "instruments",
+    "before": ["saxophone"],
+    "after": ["tenor saxophone", "soprano saxophone", "flute"],
+    "sourceUrl": ["https://ja.wikipedia.org/wiki/%E7%A8%B2%E5%9E%A3%E6%AC%A1%E9%83%8E"],
+    "evidence": "Japanese Wikipedia describes him as a saxophonist playing tenor and soprano saxophone and flute."
+  },
+  {
+    "action": "research",
+    "file": "artistsDetail",
+    "id": "leon-thomas",
+    "field": "wikipedia",
+    "before": "https://en.wikipedia.org/wiki/Leon_Thomas_(musician)",
+    "after": "https://en.wikipedia.org/wiki/Leon_Thomas_(jazz_singer)",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Leon_Thomas_(jazz_singer)"],
+    "evidence": "Live article 'Leon Thomas (jazz singer)': 'Amos Leon Thomas Jr. (October 4, 1937 - May 8, 1999) ... was an American jazz and blues vocalist.' The _(musician) slug is a 404."
+  },
+  {
+    "action": "research",
+    "file": "artists",
+    "id": "yuki-arimasa",
+    "field": "birthYear",
+    "before": 1965,
+    "after": 1961,
+    "sourceUrl": ["https://www.highresaudio.com/en/artist/view/9c994377-a082-4755-924d-3248f5a19348/yuki-arimasa"],
+    "evidence": "HighResAudio artist bio states 'Born in 1961 in Tokyo.' Ours said 1965."
+  },
+  {
+    "action": "research",
+    "file": "artistsDetail",
+    "id": "yuki-arimasa",
+    "field": "wikipedia",
+    "before": "https://ja.wikipedia.org/wiki/有馬祐輝",
+    "after": null,
+    "sourceUrl": ["https://ja.wikipedia.org/wiki/有馬祐輝"],
+    "evidence": "The Japanese Wikipedia URL in ours returns 404; no Wikipedia article exists for this pianist in any language. Dead link set to null."
+  },
+  {
+    "action": "research",
+    "file": "artistsDetail",
+    "id": "latin-jazz-quintet",
+    "field": "bio",
+    "before": "Latin Jazz Quintet was one of the defining figures of Cool Jazz, whose recordings remain essential listening for anyone exploring the tradition.",
+    "after": "The Latin Jazz Quintet was a Latin jazz ensemble led by conga player Juan Amalbert. It is best known for the 1960 album Caribe, recorded with Eric Dolphy and released on New Jazz in 1961, featuring Gene Casey (piano), Charlie Simons (vibraphone), Bill Ellington (bass), and Manny Ramos (drums and timbales). The group also recorded Latin Soul in 1965.",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Carib%C3%A9"],
+    "evidence": "Wikipedia (Caribe) identifies a Latin jazz group led by Juan Amalbert; ours wrongly called them a Cool Jazz figure. Members and the Dolphy/New Jazz 1961 Caribe recording confirmed."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "the-newest-sound-around",
+    "field": "wikipedia",
+    "before": null,
+    "after": "https://en.wikipedia.org/wiki/The_Newest_Sound_Around",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/The_Newest_Sound_Around"],
+    "evidence": "Live Wikipedia article: 'The Newest Sound Around is an album by singer Jeanne Lee and pianist Ran Blake', released 1962 on RCA Victor; the debut for both. Matches ours.artist."
+  }
+]

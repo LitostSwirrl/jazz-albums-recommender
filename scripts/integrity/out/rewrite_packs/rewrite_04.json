@@ -1,0 +1,1380 @@
+[
+  {
+    "id": "waltz-for-debby",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Waltz for Debby is the name of:\"Waltz for Debby\" (song), a 1956 jazz composition by Bill Evans later made into a song",
+    "contradictingQuote": "Waltz for Debby is the name of:\n\n\"Waltz for Debby\" (song), a 1956 jazz composition by Bill Evans later made into a song\nWaltz for Debby (1962 album), album by Bill Evans\nWaltz for Debby (1964 album), album by Monica Zetterlund and Bill Evans",
+    "skepticDecision": "The core albumDNA is scraped disambiguation-page text enumerating different entities (a 1956 song and the 1964 Zetterlund/Evans album), not prose about the 1962 Bill Evans Trio live album this item represents; the evidence confirms the page is a 'name of' disambiguation listing.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Waltz for Debby is the name of:\"Waltz for Debby\" (song), a 1956 jazz composition by Bill Evans later made into a song",
+        "problem": "The albumDNA is scraped Wikipedia disambiguation-page text, not prose about the album - it describes the term and three different entities (a 1956 song, our album, and the 1964 Monica Zetterlund/Bill Evans album)",
+        "evidenceQuote": "Waltz for Debby is the name of: \"Waltz for Debby\" (song), a 1956 jazz composition by Bill Evans later made into a song / Waltz for Debby (1962 album), album by Bill Evans / Waltz for Debby (1964 album), album by Monica Zetterlund and Bill Evans",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Classic disambiguation-collision case (the known disease). The stored URL resolves to the 'Waltz for Debby' disambiguation page, and the prose is that page's text plus two appended editorial sentences; it never describes the album itself. The catalog entry is salvageable: the album is MB-verified (Bill Evans Trio, Riverside RLP-9399, Live, first release 1962) and all 4 keyTracks match the MB tracklist. Repairs: rewrite the prose about the 1962 live album, set year to 1962 (ours says 1961; MB and the disambig entry both say 1962 - 1961 is the recording year per background knowledge, not citable), and repoint the wiki link to the album article ('Waltz for Debby (1962 album)' per the disambiguation listing).",
+    "ours": {
+      "title": "Waltz for Debby",
+      "artist": "Bill Evans Trio",
+      "year": 1961,
+      "label": "Riverside",
+      "albumDNA": "Waltz for Debby is the name of:\"Waltz for Debby\" (song), a 1956 jazz composition by Bill Evans later made into a song\nWaltz for Debby , album by Bill Evans\nWaltz for Debby , album by Monica Zetterlund and Bill Evans. Demonstrated the piano trio's potential for intimate, chamber-like jazz. Its influence on modern jazz piano is incalculable.",
+      "keyTracks": [
+        "Waltz for Debby",
+        "My Foolish Heart",
+        "Detour Ahead",
+        "Milestones"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "b866e6df-abc3-48cd-9ecd-62acf6da47de",
+          "title": "Waltz for Debby",
+          "date": "1962",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Bill Evans Trio"
+          ],
+          "labels": [
+            {
+              "name": "Riverside",
+              "catalogNumber": "RLP-9399"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "392e7fcf-5ae9-37f6-b8c9-57901cfbee1f",
+            "title": "Waltz for Debby",
+            "firstReleaseDate": "1962",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Live"
+            ]
+          },
+          "tracks": [
+            "My Foolish Heart",
+            "Waltz for Debby",
+            "Detour Ahead",
+            "My Romance",
+            "Some Other Time",
+            "Milestones"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Waltz_for_Debby",
+        "page": {
+          "requestedTitle": "Waltz for Debby",
+          "resolvedTitle": "Waltz for Debby",
+          "shortDescription": "Topics referred to by the same term",
+          "extract": "Waltz for Debby is the name of:\n\n\"Waltz for Debby\" (song), a 1956 jazz composition by Bill Evans later made into a song\nWaltz for Debby (1962 album), album by Bill Evans\nWaltz for Debby (1964 album), album by Monica Zetterlund and Bill Evans"
+        }
+      }
+    }
+  },
+  {
+    "id": "weather-report",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "\"Birdland\" is a jazz/pop song written by Joe Zawinul of the band Weather Report as a tribute to the Birdland nightclub in New York City, which appeared on the band's 1977 album Heavy Weather.",
+    "contradictingQuote": "\"Birdland\" is a jazz/pop song written by Joe Zawinul of the band Weather Report as a tribute to the Birdland nightclub in New York City, which appeared on the band's 1977 album Heavy Weather.",
+    "skepticDecision": "The albumDNA is wholesale the article about the song 'Birdland' (from Heavy Weather, 1977) and the stored wiki extract describes that song; the embedded MB release-group is the 1971 debut album whose tracklist contains no 'Birdland', so the prose is about a different work.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "\"Birdland\" is a jazz/pop song written by Joe Zawinul of the band Weather Report as a tribute to the Birdland nightclub in New York City, which appeared on the band's 1977 album Heavy Weather.",
+        "problem": "The entire albumDNA describes the 1977 song 'Birdland' from Heavy Weather (plus Manhattan Transfer / Quincy Jones / Los Van Van covers), not our item: the 1971 debut album 'Weather Report'.",
+        "evidenceQuote": "releaseGroup: {\"title\": \"Weather Report\", \"firstReleaseDate\": \"1971-05\"}; tracks: \"Milky Way\", \"Umbrellas\", \"Seventh Arrow\", \"Orange Lady\", \"Morning Lake\", \"Waterfall\", \"Tears\", \"Eurydice\" (no \"Birdland\")",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Classic title-search collision: both the prose and the stored wiki URL belong to the song 'Birdland' (Heavy Weather, 1977), not the 1971 debut album. MB embedded release is a 1985 European CBS reissue (CBS 32024) of the correct release group (first released 1971-05); its tracklist matches all 5 keyTracks, so title/artist/year fields are sound. Ours label 'Columbia' is not confirmed by this reissue's 'CBS' label credit -- not a contradiction (different pressing), just unverified here. Repair: new album-specific prose and the correct Weather Report (album) wiki link.",
+    "ours": {
+      "title": "Weather Report",
+      "artist": "Weather Report",
+      "year": 1971,
+      "label": "Columbia",
+      "albumDNA": "\"Birdland\" is a jazz/pop song written by Joe Zawinul of the band Weather Report as a tribute to the Birdland nightclub in New York City, which appeared on the band's 1977 album Heavy Weather. The Manhattan Transfer won a Grammy Award with their 1979 version of the song, which had lyrics by Jon Hendricks. Quincy Jones won two Grammy Awards for the version of the piece he included on his 1989 album Back on the Block. The leading Cuban band Los Van Van included an extended interpolation of the piece in their song “Tim-Pop con Birdland”.",
+      "keyTracks": [
+        "Milky Way",
+        "Umbrellas",
+        "Seventh Arrow",
+        "Orange Lady",
+        "Morning Lake"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "d32e7085-17a6-4acd-b90a-1c567960cfe1",
+          "title": "Weather Report",
+          "date": "1985",
+          "country": "XE",
+          "status": "Official",
+          "artists": [
+            "Weather Report"
+          ],
+          "labels": [
+            {
+              "name": "CBS",
+              "catalogNumber": "CBS 32024"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "1172c4c3-d54b-3884-a728-a5ce55c6181b",
+            "title": "Weather Report",
+            "firstReleaseDate": "1971-05",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Milky Way",
+            "Umbrellas",
+            "Seventh Arrow",
+            "Orange Lady",
+            "Morning Lake",
+            "Waterfall",
+            "Tears",
+            "Eurydice"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Birdland_(Weather_Report_song)",
+        "page": {
+          "requestedTitle": "Birdland (Weather Report song)",
+          "resolvedTitle": "Birdland (Weather Report song)",
+          "shortDescription": "Jazz/pop song written by Joe Zawinul of the band Weather Report",
+          "extract": "\"Birdland\" is a jazz/pop song written by Joe Zawinul of the band Weather Report as a tribute to the Birdland nightclub in New York City, which appeared on the band's 1977 album Heavy Weather. The Manhattan Transfer won a Grammy Award with their 1979 version of the song, which had lyrics by Jon Hendricks. Quincy Jones won two Grammy Awards for the version of the piece he included on his 1989 album Back on the Block. The leading Cuban band Los Van Van included an extended interpolation of the piece in their song “Tim-Pop con Birdland”.\n\n\n== History ==\n\"Birdland\" opens Heavy Weather, the 1977 album that marked the commercial peak of Weather Report's career. The composition is a tribute to the famous New York City jazz club named Birdland that operated on Broadway from 1949 through 1965 and hosted many great jazz musicians of the era. This was where Zawinul, who visited the club almost daily, heard performances by Count Basie, Louis Armstrong, Duke Ellington, and Miles Davis.  It was also where he met his wife, Maxine.  Looking back, Zawinul claimed, \"The old Birdland was the most important place in my life.\"  The song was also named in honor of Charlie Parker. According to Jaco Pastorius in a 1978 interview, the studio version of the song released on Heavy Weather was recorded in just one take.\nThe Penguin Guide to Jazz Recordings comments that “Birdland” typifies the formula that made the band successful, and “is one of only a handful of contemporary jazz tunes that everyone seems to have heard.”\n\n\n== Personnel ==\nJoe Zawinul – Yamaha grand piano, ARP 2600 and Oberheim polyphonic synthesizer, melodica, vocals\nWayne Shorter – soprano and tenor saxophones\nJaco Pastorius – fretless bass, mandocello, vocals\nManolo Badrena – tambourine\nAlex Acuña – drums\n\n\n== Awards and honors ==\nThe Weather Report recording was inducted into the Grammy Hall of Fame in 2010.\n\n\n== See also ==\nMaynard Ferguson\nBuddy Rich\nQuincy Jones\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "whats-new",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "The Bridge is a studio album by jazz saxophonist Sonny Rollins, recorded in 1962. It was Rollins's first release following a three-year sabbatical and was his first album for RCA Victor.",
+    "contradictingQuote": "The Bridge is a studio album by jazz saxophonist Sonny Rollins, recorded in January and February 1962 and released that April.",
+    "skepticDecision": "The albumDNA opens by naming and describing a differently-titled album (The Bridge) and the stored wiki extract is that album's article, whose tracklist (Without a Song / The Bridge / God Bless the Child) shares nothing with this item's keyTracks; the prose skeleton is wholesale a different work.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "The Bridge is a studio album by jazz saxophonist Sonny Rollins, recorded in 1962. It was Rollins's first release following a three-year sabbatical and was his first album for RCA Victor.",
+        "problem": "The entire albumDNA describes a different album (The Bridge). This item is What's New? per the authoritative embedded MBID, which matches our title, year, label, and all five keyTracks.",
+        "evidenceQuote": "title: What's New?; labels: RCA Victor (LSP-2572); date: 1962",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Same-artist collision: albumDNA is the Wikipedia lead for The Bridge, and wikipediaUrl points at The Bridge (Sonny Rollins album) -- the wrong page for this item. The catalog fields and keyTracks correctly describe What's New? (embedded MBID, RCA Victor, 1962; tracklist matches exactly: If Ever I Would Leave You, Jungoso, Bluesongo, The Night Has a Thousand Eyes, Brownskin Girl). The site has a separate the-bridge item legitimately carrying this same prose. Repair: rewrite albumDNA for What's New? and replace the wikipedia link with the What's New? (Sonny Rollins album) page after verifying it exists.",
+    "ours": {
+      "title": "What’s New?",
+      "artist": "Sonny Rollins",
+      "year": 1962,
+      "label": "RCA Victor",
+      "albumDNA": "The Bridge is a studio album by jazz saxophonist Sonny Rollins, recorded in 1962. It was Rollins's first release following a three-year sabbatical and was his first album for RCA Victor. The saxophonist was joined by the musicians with whom he recorded for the next segment of his career: Jim Hall on guitar, Bob Cranshaw on bass, and Ben Riley on drums.",
+      "keyTracks": [
+        "If Ever I Would Leave You",
+        "Jungoso",
+        "Bluesongo",
+        "The Night Has a Thousand Eyes",
+        "Brownskin Girl"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "835a9de4-2689-4749-8948-6a6428f5c712",
+          "title": "What's New?",
+          "date": "1962",
+          "country": "DE",
+          "status": "Official",
+          "artists": [
+            "Sonny Rollins"
+          ],
+          "labels": [
+            {
+              "name": "RCA Victor",
+              "catalogNumber": "LSP-2572"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "2bf035df-c0f3-3f5b-a5e7-d23dc630eadf",
+            "title": "What’s New?",
+            "firstReleaseDate": "1962",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "If Ever I Would Leave You",
+            "Jungoso",
+            "Bluesongo",
+            "The Night Has a Thousand Eyes",
+            "Brownskin Girl"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/The_Bridge_(Sonny_Rollins_album)",
+        "page": {
+          "requestedTitle": "The Bridge (Sonny Rollins album)",
+          "resolvedTitle": "The Bridge (Sonny Rollins album)",
+          "shortDescription": "1962 studio album by Sonny Rollins",
+          "extract": "The Bridge is a studio album by jazz saxophonist Sonny Rollins, recorded in January and February 1962 and released that April. It was Rollins's first release following a three-year sabbatical and was his first album for RCA Victor. The saxophonist was joined by the musicians with whom he recorded for the next segment of his career: Jim Hall on guitar, Bob Cranshaw on bass, and Ben Riley on drums.\n\n\n== History ==\nIn 1959, feeling pressured by the unexpected swiftness of his rise to fame, Rollins took a three-year hiatus to focus on perfecting his craft. A resident of the Lower East Side of Manhattan with no private space to practice, he took his saxophone up to the Williamsburg Bridge to practice alone: \"I would be up there 15 or 16 hours at a time, spring, summer, fall and winter.\" His first recording after his return to performance took its name from those solo sessions. Critical reception to the album, which was not the revolutionary new jazz approach many expected, was mixed. Rollins, who had been considered groundbreaking in his thematic improvisations, was supplanted in critical buzz by the growing popularity of Ornette Coleman's free jazz.\n\n\n== Reception ==\nIf not a tremendous departure from Rollins' earlier style, the album was nevertheless quite successful. Tagged by AllMusic as \"a near-classic\", the recording was declared by Inkblot Magazine to be \"one of the greatest albums from one of jazz's greatest musicians\". It is one of Rollins' most-lauded albums.\nThe album was inducted into the Grammy Hall of Fame in 2015.\n\n\n== Re-releases ==\nThe album was re-released in 1976 in Japan and 1977 in the U.S. It was relaunched in 1992 on CD by Bluebird/RCA/BMG and remastered from the original master tapes for CD in 2003 for the Bluebird First Editions series. It has also been issued many times in other formats, for example as an audiophile LP with 45 rpm (Classic Records, 2000). It is also part of The Complete RCA Victor Recordings (1997).\n\n\n== Track listing ==\n\"Without a Song\" (Edward Eliscu, Billy Rose, Vincent Youmans) – 7:26\n\"Where Are You?\" (Harold Adamson, Jimmy McHugh) – 5:10\n\"John S.\" (Sonny Rollins) – 7:46\n\"The Bridge\" (Rollins) – 5:59\n\"God Bless the Child\" (Arthur Herzog Jr., Billie Holiday) – 7:27\n\"You Do Something to Me\" (Cole Porter) – 6:51\n\n\n== Personnel ==\n\n\n=== Musicians ===\nSonny Rollins – tenor saxophone\nJim Hall – electric guitar\nBob Cranshaw – double bass\nBen Riley – drums (all but 5)\nHarry \"H.T.\" Saunders – drums (5)\n\"God Bless the Child\" recorded on January 30, 1962\n\"Where Are You?\", \"John S.\" and \"You Do Something to Me\" recorded on February 13, 1962\n\"Without a Song\" and \"The Bridge\" on February 14, 1962\n\n\n=== Production ===\nBob Prince – original session producer\nRay Hall – engineer\nChuck Stewart – cover photography\nGeorge Avakian – liner notes\n\n\n==== 1992 reissue ====\nJohn Snyder – digital producer\nSteve Backer – executive producer\nJoe Lopes – engineer\nJay Newland – engineer\nIra Gitler – liner notes\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "xxi-century",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "XXI Century is a 2008 album by trumpeter and flugelhornist Claudio Roditi.",
+    "contradictingQuote": "XXI Century (5Passion, 2011)",
+    "skepticDecision": "Fails: the prose's factual skeleton describes a different artist and album, 'XXI Century' by trumpeter/flugelhornist Claudio Roditi (2008), while MB credits Gonzalo Rubalcaba and the matched Rubalcaba wiki discography lists 'XXI Century (5Passion, 2011)'. Wrong artist, instrument, and year.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "XXI Century is a 2008 album by trumpeter and flugelhornist Claudio Roditi. The Brazilian-born, New York-based musician draws on both straight-ahead jazz and Latin rhythms, delivering a set that reflects decades of work bridging American jazz and Brazilian musical traditions.",
+        "problem": "The albumDNA's factual skeleton is about a DIFFERENT artist and album — Claudio Roditi (trumpeter/flugelhornist, Brazilian-born), year 2008 — not Gonzalo Rubalcaba's 2011 piano album. Wrong artist, wrong instrument, wrong year, wrong nationality framing.",
+        "evidenceQuote": "artists: Gonzalo Rubalcaba | title: XXI Century | date: 2011-11-15 | labels: 5Passion (5P-010)",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "The catalog FIELDS are correct: MB (embedded) and the entity-matched Wikipedia artist page both confirm artist=Gonzalo Rubalcaba, title='XXI Century', label=5Passion, year=2011 (wiki discography: 'XXI Century (5Passion, 2011)'); all five keyTracks match the MB tracklist. But the albumDNA prose is corrupted with content about Claudio Roditi's 2008 album (a different trumpeter). Only the trailing sentence ('Captures pianist Gonzalo Rubalcaba in a 2011 contemporary jazz setting') is correct. Classic disambiguation-collision disease. Repair: rewrite albumDNA for Rubalcaba; the wiki link and fields are fine.",
+    "ours": {
+      "title": "XXI Century",
+      "artist": "Gonzalo Rubalcaba",
+      "year": 2011,
+      "label": "5Passion",
+      "albumDNA": "XXI Century is a 2008 album by trumpeter and flugelhornist Claudio Roditi. The Brazilian-born, New York-based musician draws on both straight-ahead jazz and Latin rhythms, delivering a set that reflects decades of work bridging American jazz and Brazilian musical traditions. Captures pianist Gonzalo Rubalcaba in a 2011 contemporary jazz setting, adding to the recorded documentation of the contemporary era.",
+      "keyTracks": [
+        "Nueva Cubana",
+        "Time Remembered",
+        "Fifty",
+        "Anthem",
+        "Son XXI"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "b2508e6f-8709-4ffc-919a-d3eda3617a9d",
+          "title": "XXI Century",
+          "date": "2011-11-15",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Gonzalo Rubalcaba"
+          ],
+          "labels": [
+            {
+              "name": "5Passion",
+              "catalogNumber": "5P-010"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0e638512-2187-40b1-94e3-0d4e9ed741b8",
+            "title": "XXI Century",
+            "firstReleaseDate": "2011-11-15",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Nueva Cubana",
+            "Time Remembered",
+            "Fifty",
+            "Anthem",
+            "Son XXI",
+            "Alafia",
+            "Lennie's Pennies"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Gonzalo_Rubalcaba",
+        "page": {
+          "requestedTitle": "Gonzalo Rubalcaba",
+          "resolvedTitle": "Gonzalo Rubalcaba",
+          "shortDescription": "Afro-Cuban jazz pianist and composer",
+          "extract": "Gonzalo Rubalcaba (born May 27, 1963) is a Cuban jazz pianist and composer. \n\n\n== Early life ==\nRubalcaba was born Gonzalo Julio González Fonseca in Havana, Cuba into a musical family. He adopted his great-grandmother's name for professional use, just as did his father, Guillermo Rubalcaba (born Guillermo González Camejo) and his grandfather, Jacobo Rubalcaba (born Jacobo González Rubalcaba).\n\n\n== Later life and career ==\nWith Orquesta Aragón, Rubalcaba toured France and Africa in 1983. He formed his own Grupo Projecto in 1985. \nHe has won three Grammy Awards and received twelve nominations. \n\n\n== Discography ==\n\n\n=== As leader/co-leader ===\nMi Gran Pasion (Connector/Timba, 1987)\nLive in Havana (Pimienta, 1989)\nGiraldilla (Pimienta, 1990)\nDiscovery: Live at Montreux (Blue Note, 1990)\nGonzalo Rubalcaba Trio at Montreux (Somethin' Else, 1990)\nThe Blessing (Blue Note, 1991)\nImages (Blue Note, 1992)\nAt Montreux (Artex, 1993)\nSuite 4 Y 20 (Blue Note, 1993)\nDiz (Blue Note, 1993)\nRapsodia (Blue Note, 1994)\nImagine: Live in America (Blue Note, 1994)\nConcatenacion (Egrem, 1995)\nConcierto Negro (Egrem, 1995)\nFlying Colors (Blue Note, 1997)\nRomantic (EMI, 1998)\nGonzalo Rubalcaba (Max, 1998)\nAntiguo (Blue Note, 1998)\nInner Voyage (Blue Note/EMI, 1999)\nInicio (Egrem, 2001)\nSupernova  (Blue Note, 2001)\nStraight Ahead (Yemaya, 2003)\nSoneros de Verdad Present Rubalcaba Pasado y Presente (Universal Music Latino/Pimienta, 2003)\nPaseo (Blue Note, 2004)\nThe Trio (Angel, 2005)\nSolo  (Blue Note, 2005)\nAvatar (Angel, 2008)\nFaith (5Passion, 2010)\nXXI Century (5Passion, 2011)\nLive Faith (5Passion, 2014)\nSuite Caminos (5Passion, 2015)\nTokyo Adagio with Charlie Haden (Impulse!, 2015) - Recorded in 2005\nCharlie (5Passion, 2015)\nSkyline with Ron Carter, Jack DeJohnette (5Passion, 2021)\nPédron Rubalcaba with Pierrick Pédron (mars 2023)\nBorrowed Roses (Top Stop, 2023)\nA Tribute to Benny Moré and Nat King Cole with Yainer Horta, Joey Calveiro  (Calveiro Entertainment, 2025)\n\n\n=== As sideman ===\nWith Ignacio Berroa\n\nCodes (Blue Note, 2006)\nWith Ron Carter\n\nMr. Bow-tie (Somethin' Else, 1995)\nWith Juan Luis Guerra\n\nBachata Rosa (Karen, 1990)\nWith Francisco Céspedes\n\nCon el Permiso de Bola (Warner Music Mexico, 2006)\nWith Chick Corea\n\nRendezvous in New York (Stretch, 2003)\nWith Dave Holland\n\nThe Monterey Quartet: Live at the 2007 Monterey Jazz Festival (Monterey Jazz Festival, 2009)\nWith Al Di Meola\n\nPursuit of Radical Rhapsody (Concord, 2011)\nFlesh on Flesh (Telarc, 2022)\nWith Richard Galliano\n\nLove Day (Milan, 2008)\nWith Charlie Haden\n\n1989: The Montreal Tapes: with Gonzalo Rubalcaba and Paul Motian (Verve, 1997)\n2000: Nocturne (Verve, 2001)\n2003: Land of the Sun (Verve, 2004)\n2005: Tokyo Adagio (Impulse!, 2015) – live at The Blue Note, Tokyo, Japan\nWith Katia Labèque\n\nShape of My Heart (KML, 2009)\nWith Tony Martinez\n\nHabana Vive\nMafarefun\nWith Pat Martino\n\nThink Tank\nWith Strat Andriotis \n\nNight Manager (2018) Song 21\nWith Melissa Aldana \n\nFilin (Blue Note, 2026)\n\n\n== Awards ==\n\n\n=== Grammy Awards ===\n\n\n=== Billboard Music Awards ===\n\n\n=== Latin Grammy Awards ===\n\n\n== References ==\n\n\n== External links ==\nOfficial website"
+        }
+      }
+    }
+  },
+  {
+    "id": "a-garland-of-red-red-garland",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 2006, A Garland of Red",
+    "contradictingQuote": "\"firstReleaseDate\": \"1956\"",
+    "skepticDecision": "Upheld: MB release-group first release is 1956; the matched 2006 release is a JP reissue, so the album cannot have been recorded in 2006.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 2006, A Garland of Red showcases Red Garland at the height of their creative powers",
+        "problem": "2006 is a Japanese reissue date; release-group dates to 1956",
+        "evidenceQuote": "releaseGroup.firstReleaseDate: \"1956\"",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "MB embedded release is a 2006-06-21 JP reissue (Prestige VICJ-41538); release-group firstReleaseDate 1956. Artist 'Red Garland Trio' matches. All 6 keyTracks match the MB tracklist (which also has Constallation, Blue Red). Only the recording-year claim is wrong.",
+    "ours": {
+      "title": "A Garland of Red",
+      "artist": "Red Garland",
+      "year": 2006,
+      "label": "Various",
+      "albumDNA": "Recorded in 2006, A Garland of Red showcases Red Garland at the height of their creative powers, offering one of the finest expressions of Bebop. A Garland of Red remains a landmark of Bebop, cementing Red Garland's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "A Foggy Day",
+        "My Romance",
+        "What Is This Thing Called Love?",
+        "Makin' Whoopee",
+        "September in the Rain",
+        "Little Girl Blue"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "bf5b1a2f-11a0-48c6-b31e-f36dd6619f50",
+          "title": "A Garland of Red",
+          "date": "2006-06-21",
+          "country": "JP",
+          "status": "Official",
+          "artists": [
+            "Red Garland Trio"
+          ],
+          "labels": [
+            {
+              "name": "Prestige",
+              "catalogNumber": "VICJ-41538"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "b7e49639-b3fa-309a-92f5-1db5c333f7b8",
+            "title": "A Garland of Red",
+            "firstReleaseDate": "1956",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "A Foggy Day",
+            "My Romance",
+            "What Is This Thing Called Love?",
+            "Makin' Whoopee",
+            "September in the Rain",
+            "Little Girl Blue",
+            "Constallation",
+            "Blue Red"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "a-ghetto-lullaby",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Alto saxophonist Jackie McLean's post-bop sensibility is on display in this 1976 session",
+    "contradictingQuote": "recorded at the Jazzhus Montmartre in 1973 and released on the SteepleChase label",
+    "skepticDecision": "'Session' denotes the recording, and both Wikipedia and ours' own first sentence say it was recorded at the Jazzhus Montmartre in 1973; 1976 is only the Inner City release year. 'This 1976 session' is therefore factually wrong and self-contradictory within the blurb. 'A document of the fusion era' is left as editorial.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Alto saxophonist Jackie McLean's post-bop sensibility is on display in this 1976 session",
+        "problem": "the session was recorded in 1973 at the Jazzhus Montmartre (as the prose's own first sentence says); 1976 is only the US Inner City release date, and the wiki shortDescription calls it a 1974 live album",
+        "evidenceQuote": "recorded at the Jazzhus Montmartre in 1973 and released on the SteepleChase label",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Entity is right everywhere. Fields (1976, Inner City Records) match the MB US Inner City issue (IC 2013, 1976, RG firstReleaseDate 1976); the prose's first sentence (verbatim from wiki) describes the original SteepleChase release ('1974 live album' per wiki shortDescription). Mixed original/reissue framing - a reviewer may want to re-point year/label at the original SteepleChase release. All 5 keyTracks match both MB and wiki tracklists. 'A document of the fusion era' is editorial, though odd for a straight-ahead Montmartre live set.",
+    "ours": {
+      "title": "A Ghetto Lullaby",
+      "artist": "Jackie McLean",
+      "year": 1976,
+      "label": "Inner City Records",
+      "albumDNA": "A Ghetto Lullaby is a live album by American saxophonist Jackie McLean recorded at the Jazzhus Montmartre in 1973 and released on the SteepleChase label. Alto saxophonist Jackie McLean's post-bop sensibility is on display in this 1976 session, a document of the fusion era.",
+      "keyTracks": [
+        "Jack's Tune",
+        "Mode for Jay Mac",
+        "Where Is Love?",
+        "Callin'",
+        "A Ghetto Lullaby"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "2107875f-1bb8-43c1-bdb7-2d10d2661e4e",
+          "title": "A Ghetto Lullaby",
+          "date": "1976",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Jackie McLean"
+          ],
+          "labels": [
+            {
+              "name": "Inner City Records",
+              "catalogNumber": "IC 2013"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "06b8bdfa-9d9f-35e3-95a2-4f47b37f3559",
+            "title": "A Ghetto Lullaby",
+            "firstReleaseDate": "1976",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Jack's Tune",
+            "Mode for Jay Mac",
+            "Where Is Love?",
+            "Callin'",
+            "A Ghetto Lullaby"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/A_Ghetto_Lullaby",
+        "page": {
+          "requestedTitle": "A Ghetto Lullaby",
+          "resolvedTitle": "A Ghetto Lullaby",
+          "shortDescription": "1974 live album by Jackie McLean",
+          "extract": "A Ghetto Lullaby is a live album by American saxophonist Jackie McLean recorded at the Jazzhus Montmartre in 1973 and released on the SteepleChase label.\n\n\n== Reception ==\n\nThe AllMusic review by Scott Yanow states, \"the altoist's passionate solos and very distinctive sound uplift the music and make this an advanced hard bop set worth acquiring\".\n\n\n== Track listing ==\n\"Jack's Tune\" (Jackie McLean) - 11:02\n\"Mode for Jay Mac\" (Billy Gault) - 9:08\n\"Where Is Love?\" (Lionel Bart) - 5:26\n\"Callin'\" (Kenny Drew) - 8:30\n\"A Ghetto Lullaby\" (Gault) - 7:14\n\n\n== Personnel ==\nJackie McLean  – alto saxophone\nKenny Drew – piano\nNiels-Henning Ørsted Pedersen – bass\nAlex Riel – drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "a-study-in-frustration-fletcher-henderson",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 2011, A Study in Frustration",
+    "contradictingQuote": "\"firstReleaseDate\": \"1994-06-14\"",
+    "skepticDecision": "Upheld: MB release-group first release is 1994-06-14 and the work is a Compilation, so it could not have been recorded in 2011; the date claim is contradicted.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 2011, A Study in Frustration",
+        "problem": "Year is wrong; this is a compilation of 1920s–1930s Fletcher Henderson recordings, first released 1994 (the MB release dated 2011 is a reissue). The material was not recorded in 2011.",
+        "evidenceQuote": "firstReleaseDate: 1994-06-14",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "MB embedded_mbid: Fletcher Henderson, 'A Study in Frustration: The Fletcher Henderson Story', secondaryType Compilation, release-group first release 1994-06-14; matched release (2011) is a reissue. All 6 keyTracks match the long MB tracklist. Per the compilation rule: this is a comp of historical (1920s–30s) sides, so 'Recorded in 2011' is doubly wrong — evidence (Compilation type + 1994 first release) contradicts a 2011 recording. Label 'Various' placeholder; MB shows Essential Jazz Classics.",
+    "ours": {
+      "title": "A Study in Frustration",
+      "artist": "Fletcher Henderson",
+      "year": 1994,
+      "label": "Various",
+      "albumDNA": "Recorded in 2011, A Study in Frustration showcases Fletcher Henderson at the height of their creative powers, offering one of the finest expressions of Early Jazz. A Study in Frustration remains a landmark of Early Jazz, cementing Fletcher Henderson's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "The Dicty Blues",
+        "Teapot Dome Blues",
+        "Go 'long Mule",
+        "Shanghai Shuffle",
+        "Copenhagen",
+        "Everybody Loves My Baby"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "8f016d61-6145-49c2-ac71-6cd85fc3077d",
+          "title": "The Fletcher Henderson Story: A Study in Frustration",
+          "date": "2011",
+          "country": null,
+          "status": "Official",
+          "artists": [
+            "Fletcher Henderson"
+          ],
+          "labels": [
+            {
+              "name": "Essential Jazz Classics",
+              "catalogNumber": "ejc55511"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "a648ac99-3772-3406-9f3d-7b9f588dfc1e",
+            "title": "A Study in Frustration: The Fletcher Henderson Story",
+            "firstReleaseDate": "1994-06-14",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "The Dicty Blues",
+            "Teapot Dome Blues",
+            "Go 'long Mule",
+            "Shanghai Shuffle",
+            "Copenhagen",
+            "Everybody Loves My Baby",
+            "How Come You Do Me Like You Do",
+            "Alabamy Bound",
+            "Sugar Foot Stomp",
+            "What-Cha-Call-'em Blues",
+            "T.N.T.",
+            "The Stampede",
+            "Jackass Blues",
+            "Henderson Stomp",
+            "The Chant",
+            "Snag It",
+            "Rocky Mountain Blues",
+            "Tozo!",
+            "St. Louis Shuffle",
+            "Whiteman Stomp",
+            "I'm Coming Virginia",
+            "Variety Stomp",
+            "St. Louis Blues",
+            "Goose Pimples",
+            "Hop Off",
+            "King Porter Stomp",
+            "D Natural Blues",
+            "Oh Baby",
+            "Feeling Good",
+            "I'm Feeling Devilish",
+            "Old Black Joe Blues",
+            "Easy Money",
+            "Come on Baby",
+            "Freeze and Melt",
+            "Raisin' the Roof",
+            "Blazin'",
+            "Wang Wang Blues",
+            "Chinatown, My Chinatown",
+            "Somebody Loves Me",
+            "Keep a Song in Your Soul"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "a-swingin-affair-dexter-gordon",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 1987, A Swingin' Affair",
+    "contradictingQuote": "A Swingin' Affair is an album recorded in 1962 by saxophonist Dexter Gordon",
+    "skepticDecision": "Upheld: the entity-matched Wikipedia page states the album was recorded in 1962 (released 1964), directly contradicting a 1987 recording.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 1987, A Swingin' Affair showcases Dexter Gordon at the height of their creative powers",
+        "problem": "Recorded in 1962 (released 1964), not 1987",
+        "evidenceQuote": "A Swingin' Affair is an album recorded in 1962 by saxophonist Dexter Gordon, recorded two days after Go! with the same line-up, but not released for two years.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "MB search sim 1.0 (Dexter Gordon, Blue Note BLP 4133, 1962) and wiki both our entity. All 6 keyTracks match. Only 'Recorded in 1987' is wrong.",
+    "ours": {
+      "title": "A Swingin' Affair",
+      "artist": "Dexter Gordon",
+      "year": 1987,
+      "label": "Various",
+      "albumDNA": "Recorded in 1987, A Swingin' Affair showcases Dexter Gordon at the height of their creative powers, offering one of the finest expressions of Hard Bop. A Swingin' Affair remains a landmark of Hard Bop, cementing Dexter Gordon's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Soy Califa",
+        "Don't Explain",
+        "You Stepped Out of a Dream",
+        "The Backbone",
+        "(It Will Have to Do) Until the Real Thing Comes Along",
+        "McSplivens"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "b12f58ca-ba44-45e7-9836-d22f93fe6f67",
+          "title": "A Swingin' Affair",
+          "date": "1962",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Dexter Gordon"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": "BLP 4133"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "8667521e-fcf3-39f8-a51a-591c213e54f2",
+            "title": "A Swingin’ Affair",
+            "firstReleaseDate": "1962",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Soy Califa",
+            "Don't Explain",
+            "You Stepped Out of a Dream",
+            "The Backbone",
+            "(It Will Have to Do) Until the Real Thing Comes Along",
+            "McSplivens"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "A Swingin' Affair (Dexter Gordon album)",
+          "resolvedTitle": "A Swingin' Affair",
+          "shortDescription": "1964 studio album by Dexter Gordon",
+          "extract": "A Swingin' Affair is an album recorded in 1962 by saxophonist Dexter Gordon, recorded two days after Go! with the same line-up, but not released for two years.\n\n\n== Recording and music ==\nThe album was recorded at Van Gelder Studio, Englewood Cliffs, New Jersey, on August 29, 1962. Gordon's quartet contained pianist Sonny Clark, bassist Butch Warren, and drummer Billy Higgins. Of the six compositions, three are standards, two were written by Gordon, and one was contributed by Warren.\n\n\n== Release and reception ==\n\nA Swingin' Affair was released in early October 1964. The Penguin Guide to Jazz picked \"You Stepped Out of a Dream\" as the album's highlight, but described the session as a \"not altogether riveting date.\"\n\n\n== Track listing ==\n\n\n== Personnel ==\nDexter Gordon – tenor saxophone\nSonny Clark – piano\nButch Warren – bass\nBilly Higgins – drums\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "A Swingin' Affair",
+            "shortDescription": "1964 studio album by Dexter Gordon",
+            "extractHead": "A Swingin' Affair is an album recorded in 1962 by saxophonist Dexter Gordon, recorded two days after Go! with the same line-up, but not released for two years.\n\n\n== Recording and music ==\nThe album was recorded at Van Gelder Studio, Englewood Cliffs, New Jersey, on August 29, 1962. Gordon's quartet contained pianist Sonny Clark, bassist Butch Warren, and drummer Billy Higgins. Of the six compositions, three are standards, two were written by Gordon, and one was contributed by Warren.\n\n\n== Releas"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "afro-dizzy-gillespie",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 2022, Afro",
+    "contradictingQuote": "It was released in November 1954 through Norgran Records",
+    "skepticDecision": "The entity-matched Wikipedia 'Afro (album)' (all six keyTracks match its tracklist) states the album was released in November 1954; a 1954 studio album cannot be 'Recorded in 2022' and no 2022 release appears in the evidence -> factual_error on the year.",
+    "entityMatch": {
+      "musicbrainz": "no",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 2022, Afro showcases Dizzy Gillespie",
+        "problem": "Wikipedia (entity-matched) dates the album 1954, released November 1954; our year 2022 has no support in evidence",
+        "evidenceQuote": "Afro is a studio album by the jazz trumpeter Dizzy Gillespie. It was released in November 1954 through Norgran Records.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "The MB search 'release' resolved to a DIFFERENT release — 'Afro-Paris / I Cover the Waterfront', a 1953 2-track single — not our album; discarded (entityMatch mb=no). The opensearch Wikipedia 'Afro (album)' clearly IS our entity: Dizzy Gillespie, and all 6 keyTracks match its tracklist (Manteca Theme, Contraste, Jungla, Rhumba Finale, A Night in Tunisia, Con Alma) -> keyTracksVerdict ok via wiki. Year 2022 contradicts Wikipedia's 1954 -> factual_error. Label placeholder 'Various' (Wikipedia: Norgran).",
+    "ours": {
+      "title": "Afro",
+      "artist": "Dizzy Gillespie",
+      "year": 2022,
+      "label": "Various",
+      "albumDNA": "Recorded in 2022, Afro showcases Dizzy Gillespie at the height of their creative powers, offering one of the finest expressions of Bebop. Afro remains a landmark of Bebop, cementing Dizzy Gillespie's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Manteca Theme",
+        "Contraste",
+        "Jungla",
+        "Rhumba-Finale",
+        "Night in Tunisia",
+        "Con Alma"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "af2b3689-8a0a-4093-bbc9-036ab6f6adeb",
+          "title": "Afro-Paris / I Cover the Waterfront",
+          "date": "1953-02",
+          "country": "SE",
+          "status": "Official",
+          "artists": [
+            "Dizzy Gillespie"
+          ],
+          "labels": [
+            {
+              "name": "Jazz Selection",
+              "catalogNumber": "J.S. 4019"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "e9a6937b-5190-48e5-ada4-e66a053b9e3c",
+            "title": "Afro-Paris / I Cover the Waterfront",
+            "firstReleaseDate": "1953-02",
+            "primaryType": "Single",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Afro-Paris",
+            "I Cover the Waterfront"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Afro (album)",
+          "resolvedTitle": "Afro (album)",
+          "shortDescription": "1954 studio album by Dizzy Gillespie",
+          "extract": "Afro is a studio album by the jazz trumpeter Dizzy Gillespie. It was released in November 1954 through Norgran Records. Gillespie worked with many Cuban musicians on the album.\n\n\n== Reception ==\nThe AllMusic review states: \"Pairing Dizzy Gillespie with Cuban arranger/composer Chico O'Farrill produced a stunning session which originally made up the first half of a Norgran LP... A later small-group session features the trumpeter with an all-Latin rhythm section and flutist Gilberto Valdes... it is well worth acquiring.\"\n\n\n== Track listing ==\n\"Manteca Theme\" (Gil Fuller, Dizzy Gillespie, Chano Pozo) – 4:10\n\"Contraste\" (Gillespie, Chico O'Farrill, Pozo) – 2:45\n\"Jungla\" (Gillespie, O'Farrill, Pozo) – 4:44\n\"Rhumba Finale\" (Gillespie, O'Farrill, Pozo) – 4:43\n\"A Night in Tunisia\" (Gillespie, Frank Paparelli) – 4:19\n\"Con Alma\" (Gillespie) – 5:05\n\"Caravan\" (Duke Ellington, Irving Mills, Juan Tizol) – 7:19\n\n\n== Personnel ==\nDizzy Gillespie – trumpet\nGilbert Valdez – flute (tracks 5–7)\nQuincy Jones, Jimmy Nottingham, Ernie Royal – trumpet (tracks 1–4)\nLeon Comegys, J. J. Johnson, George Matthews – trombone (tracks 1–4)\nGeorge Dorsey, Hilton Jefferson – alto saxophone (tracks 1–4)\nHank Mobley, Lucky Thompson – tenor saxophone (tracks 1–4)\nDanny Bank – baritone saxophone (tracks 1–4)\nRéne Hernandez (tracks 5–7), Wade Legge (tracks 1–4) – piano\nLou Hackney (tracks 1–4), Roberto Rodríguez – bass\nCharlie Persip – drums (tracks 1–4)\nCándido Camero – congas, percussion\nMongo Santamaria – congas (tracks 1–4)\nJosé Mangual – bongos\nUbaldo Nieto – timbales\nRalph Miranda – percussion (tracks 5–7)\nChico O'Farrill – arranger (tracks 1–4)\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Afro (album)",
+            "shortDescription": "1954 studio album by Dizzy Gillespie",
+            "extractHead": "Afro is a studio album by the jazz trumpeter Dizzy Gillespie. It was released in November 1954 through Norgran Records. Gillespie worked with many Cuban musicians on the album.\n\n\n== Reception ==\nThe AllMusic review states: \"Pairing Dizzy Gillespie with Cuban arranger/composer Chico O'Farrill produced a stunning session which originally made up the first half of a Norgran LP... A later small-group session features the trumpeter with an all-Latin rhythm section and flutist Gilberto Valdes... it is"
+          },
+          {
+            "resolvedTitle": "Afar (album)",
+            "shortDescription": "2012 studio album by Ice Choir",
+            "extractHead": "Afar is the debut studio album of Ice Choir, the project of former the Pains of Being Pure at Heart drummer and the Depreciation Guild lead Kurt Feldman. It was released on July 31, 2012, by Underwater Peoples. It received mostly positive reviews from critics, with positive reviews highlighting Feldman's use of the 1980s influences and more varied responses criticizing the cheesiness.\n\n\n== Production ==\n\nTowards the end of the Depreciation Guild, Kurt Feldman began writing music without any of t"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "art-pepper-meets-the-rhythm-section-art-pepper",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 2000, Art Pepper Meets the Rhythm Section",
+    "contradictingQuote": "\"firstReleaseDate\": \"1957-01-01\"",
+    "skepticDecision": "Embedded-MBID release has release-group first release 1957-01-01 on Contemporary and all six keyTracks match; the matched 2000 release is a CD reissue. A 1957 album cannot be 'Recorded in 2000' -> factual_error on the year.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 2000, Art Pepper Meets the Rhythm Section",
+        "problem": "Year is wrong; the album first appeared in 1957 on Contemporary (the MB release dated 2000 is a CD reissue). It cannot have been recorded in 2000.",
+        "evidenceQuote": "firstReleaseDate: 1957-01-01",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "MB embedded_mbid: Art Pepper, Contemporary Records, releaseGroup first release 1957-01-01; matched release (2000) is a CD reissue. All 6 keyTracks match the MB tracklist. Year is the only error; '2000' is the reissue date. Label 'Various' placeholder; MB shows Contemporary Records.",
+    "ours": {
+      "title": "Art Pepper Meets the Rhythm Section",
+      "artist": "Art Pepper",
+      "year": 1957,
+      "label": "Various",
+      "albumDNA": "Recorded in 2000, Art Pepper Meets the Rhythm Section showcases Art Pepper at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Art Pepper Meets the Rhythm Section remains a landmark of Cool Jazz, cementing Art Pepper's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "You'd Be So Nice to Come Home To",
+        "Red Pepper Blues",
+        "Imagination",
+        "Waltz Me Blues",
+        "Straight Life",
+        "Jazz Me Blues"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "bc18d7d7-dd2e-4347-ae50-6639a4060928",
+          "title": "Art Pepper Meets the Rhythm Section",
+          "date": "2000",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Art Pepper"
+          ],
+          "labels": [
+            {
+              "name": "Contemporary Records",
+              "catalogNumber": "CCD-7532-2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "5dc7981a-c20f-361b-8365-ad677ba41b7a",
+            "title": "Art Pepper Meets the Rhythm Section",
+            "firstReleaseDate": "1957-01-01",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "You'd Be So Nice to Come Home To",
+            "Red Pepper Blues",
+            "Imagination",
+            "Waltz Me Blues",
+            "Straight Life",
+            "Jazz Me Blues",
+            "Tin Tin Deo",
+            "Star Eyes",
+            "Birks' Works",
+            "The Man I Love"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "at-the-stratford-shakespearean-festival-oscar-peterson",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 1993, At the Stratford",
+    "contradictingQuote": "\"firstReleaseDate\": \"1957-07\"",
+    "skepticDecision": "Embedded-MBID release is a Live album whose release-group first appeared 1957-07; the 1993-04-20 release is a reissue and all six keyTracks match. A live recording first issued in July 1957 cannot have been 'Recorded in 1993' -> factual_error on the year.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 1993, At the Stratford Shakespearean Festival",
+        "problem": "Year is wrong; the live album first appeared in 1957 (the MB release dated 1993-04-20 is a CD reissue). It cannot have been recorded in 1993.",
+        "evidenceQuote": "firstReleaseDate: 1957-07",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "MB embedded_mbid (authoritative): Oscar Peterson Trio, Live, releaseGroup first release 1957-07; the matched release (1993-04-20) is a reissue. All 6 keyTracks match the MB tracklist. No Wikipedia page returned. Label 'Various' placeholder; MB shows Verve. Year is the only error; '1993' is the reissue date, not the recording/first-release year.",
+    "ours": {
+      "title": "At the Stratford Shakespearean Festival",
+      "artist": "Oscar Peterson",
+      "year": 1957,
+      "label": "Various",
+      "albumDNA": "Recorded in 1993, At the Stratford Shakespearean Festival showcases Oscar Peterson at the height of their creative powers, offering one of the finest expressions of Bebop. At the Stratford Shakespearean Festival remains a landmark of Bebop, cementing Oscar Peterson's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Falling in Love With Love",
+        "How About You?",
+        "Flamingo",
+        "Swinging on a Star",
+        "Noreen’s Nocturne",
+        "Gypsy in My Soul"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "71c8b874-e88e-4361-8856-81ce23b49c5a",
+          "title": "At the Stratford Shakespearean Festival",
+          "date": "1993-04-20",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "The Oscar Peterson Trio"
+          ],
+          "labels": [
+            {
+              "name": "Verve",
+              "catalogNumber": "3145137522"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "48e9313a-96d9-3b00-9485-125d8a96a7ae",
+            "title": "At the Stratford Shakespearean Festival",
+            "firstReleaseDate": "1957-07",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Live"
+            ]
+          },
+          "tracks": [
+            "Falling in Love With Love",
+            "How About You?",
+            "Flamingo",
+            "Swinging on a Star",
+            "Noreen’s Nocturne",
+            "Gypsy in My Soul",
+            "Nuages",
+            "How High the Moon",
+            "Love You Madly",
+            "52nd Street Theme",
+            "Daisy’s Dream"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "begin-the-beguine-artie-shaw",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "\"Begin the Beguine\",",
+    "contradictingQuote": "[\"The Japanese Sandman\", \"A Pretty Girl I Like a Melody\", \"I Used to Be Above Love\", \"No Regrets\", \"South Sea Island Magic\", \"It Ain't Right\", \"Sugar Foot Stomp\", \"Thou Swell\", \"You're Giving Me a Song and a Dance\", \"Darling, Not Without You\", \"One, Two, Button Your Shoe\", \"Let's Call a Heart a Heart\", \"The Skeleton in the Closet\", \"There's Something in the Air\", \"Take Another Guess\", \"There's Frost on the Moon\", \"Love and Learn\", \"Moon Face\", \"The Same Old Line\", \"You Can Tell She Comes From Dixie\", \"Sobbin' Blues\", \"Copenhagen\", \"Cream Puff\", \"My Blue Heaven\", \"Streamline\", \"Sweet Lorraine\", \"Love Is Good for Anything That Ails You\", \"No More Tears\", \"Moonlight and Shadows\", \"Was It Rain?\", \"All Alone\", \"All God's Chillun Got Rhythm\", \"It Goes to Your Feet\", \"Because I Love You\", \"Night and Day\", \"I Surrender Dear\", \"Blues Skies\", \"Someday, Sweetheart\", \"Afraid to Dream\", \"If You Should Ever Leave\"]",
+    "skepticDecision": "Embedded-MBID (authoritative, same release; year 2005 matches MB 2005-03-07) yields a detailed 40-track listing in which none of the six keyTracks -- not even the title track 'Begin the Beguine' -- appears. On the confirmed same release, all six claimed keyTracks are absent.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Key tracks: Begin the Beguine, Back Bay Shuffle, Any Old Time, Nightmare, Yesterdays, Rosalie",
+        "problem": "None of the six listed keyTracks appear on this embedded-MBID release tracklist (even the title track 'Begin the Beguine' is absent)",
+        "evidenceQuote": "The Japanese Sandman; A Pretty Girl I Like a Melody; I Used to Be Above Love; No Regrets; South Sea Island Magic; It Ain't Right; Sugar Foot Stomp; Thou Swell; You're Giving Me a Song and a Dance; Darling, Not Without You; One, Two, Button Your Shoe; Let's Call a Heart a Heart; The Skeleton in the Closet; There's Something in the Air; Take Another Guess; There's Frost on the Moon; Love and Learn; Moon Face; The Same Old Line; You Can Tell She Comes From Dixie; Sobbin' Blues; Copenhagen; Cream Puff; My Blue Heaven; Streamline; Sweet Lorraine; Love Is Good for Anything That Ails You; No More Tears; Moonlight and Shadows; Was It Rain?; All Alone; All God's Chillun Got Rhythm; It Goes to Your Feet; Because I Love You; Night and Day; I Surrender Dear; Blues Skies; Someday, Sweetheart; Afraid to Dream; If You Should Ever Leave",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "embedded_mbid (authoritative), Artie Shaw, title 'Begin the Beguine', year 2005 matches MB date 2005-03-07 (Documents label, 40-track Compilation). Entity matches via the embedded ID, but all 6 keyTracks - including the title track itself - are absent from this specific release's tracklist, which is an early-Shaw/standards selection that does not contain the famous 'Begin the Beguine'/'Nightmare'/'Back Bay Shuffle' sides. keyTracks mismatch caps the verdict at factual_error. Wikipedia opensearch resolved to a different 'Begin the Beguine (album)' (1981 Julio Iglesias, CBS) - wrong entity, storedUrl null, no wrong link shipped (wikipedia entityMatch 'no').",
+    "ours": {
+      "title": "Begin the Beguine",
+      "artist": "Artie Shaw",
+      "year": 2005,
+      "label": "Various",
+      "albumDNA": "Recorded in 2005, Begin the Beguine showcases Artie Shaw at the height of their creative powers, offering one of the finest expressions of Swing. Begin the Beguine remains a landmark of Swing, cementing Artie Shaw's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Begin the Beguine",
+        "Back Bay Shuffle",
+        "Any Old Time",
+        "Nightmare",
+        "Yesterdays",
+        "Rosalie"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "8b355af4-eaab-487e-85da-2b9f96851697",
+          "title": "Begin the Beguine",
+          "date": "2005-03-07",
+          "country": null,
+          "status": "Official",
+          "artists": [
+            "Artie Shaw"
+          ],
+          "labels": [
+            {
+              "name": "Documents",
+              "catalogNumber": "222738"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "fe1313a3-c814-44e1-81cf-c932ec1d525c",
+            "title": "Begin the Beguine",
+            "firstReleaseDate": "2005-03-07",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "The Japanese Sandman",
+            "A Pretty Girl I Like a Melody",
+            "I Used to Be Above Love",
+            "No Regrets",
+            "South Sea Island Magic",
+            "It Ain't Right",
+            "Sugar Foot Stomp",
+            "Thou Swell",
+            "You're Giving Me a Song and a Dance",
+            "Darling, Not Without You",
+            "One, Two, Button Your Shoe",
+            "Let's Call a Heart a Heart",
+            "The Skeleton in the Closet",
+            "There's Something in the Air",
+            "Take Another Guess",
+            "There's Frost on the Moon",
+            "Love and Learn",
+            "Moon Face",
+            "The Same Old Line",
+            "You Can Tell She Comes From Dixie",
+            "Sobbin' Blues",
+            "Copenhagen",
+            "Cream Puff",
+            "My Blue Heaven",
+            "Streamline",
+            "Sweet Lorraine",
+            "Love Is Good for Anything That Ails You",
+            "No More Tears",
+            "Moonlight and Shadows",
+            "Was It Rain?",
+            "All Alone",
+            "All God's Chillun Got Rhythm",
+            "It Goes to Your Feet",
+            "Because I Love You",
+            "Night and Day",
+            "I Surrender Dear",
+            "Blues Skies",
+            "Someday, Sweetheart",
+            "Afraid to Dream",
+            "If You Should Ever Leave"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Begin the Beguine (album)",
+          "resolvedTitle": "Begin the Beguine (album)",
+          "shortDescription": "1981 studio album by Julio Iglesias",
+          "extract": "Begin the Beguine is a studio album by Julio Iglesias, released in 1981 on CBS.\n\n\n== Track listing ==\n\n\n== Charts ==\n\n\n== Certifications ==\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Begin the Beguine (album)",
+            "shortDescription": "1981 studio album by Julio Iglesias",
+            "extractHead": "Begin the Beguine is a studio album by Julio Iglesias, released in 1981 on CBS.\n\n\n== Track listing ==\n\n\n== Charts ==\n\n\n== Certifications ==\n\n\n== References =="
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "ben-webster-meets-oscar-peterson-ben-webster",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 2011, Ben Webster Meets Oscar Peterson showcases Ben Webster at the height of their creative powers",
+    "contradictingQuote": "\"firstReleaseDate\": \"1959\"",
+    "skepticDecision": "The releaseGroup first release is 1959, so the album cannot have been recorded in 2011.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 2011, Ben Webster Meets Oscar Peterson showcases Ben Webster at the height of their creative powers",
+        "problem": "Recording year wrong: releaseGroup first release is 1959, so the album cannot have been recorded in 2011. 2011 is the Analogue Productions reissue (MB release date 2011, cat CVRJ 6114 SA).",
+        "evidenceQuote": "\"firstReleaseDate\": \"1959\"",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Entity confirmed (MB embedded_mbid; first 6 keyTracks match this 7-track album). ours.year 2011 is defensible as a reissue year (matches MB release date 2011); the albumDNA verb 'Recorded in 2011' is the error. Genre 'Swing' editorial.",
+    "ours": {
+      "title": "Ben Webster Meets Oscar Peterson",
+      "artist": "Ben Webster",
+      "year": 2011,
+      "label": "Various",
+      "albumDNA": "Recorded in 2011, Ben Webster Meets Oscar Peterson showcases Ben Webster at the height of their creative powers, offering one of the finest expressions of Swing. Ben Webster Meets Oscar Peterson remains a landmark of Swing, cementing Ben Webster's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "The Touch of Your Lips",
+        "When Your Lover Has Gone",
+        "Bye Bye Blackbird",
+        "How Deep Is the Ocean (How High Is the Sky)",
+        "In the Wee Small Hours of the Morning",
+        "Sunday"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "5bd9cfcf-32e2-41a4-8905-5a6e89c197cd",
+          "title": "Ben Webster Meets Oscar Peterson",
+          "date": "2011",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Ben Webster"
+          ],
+          "labels": [
+            {
+              "name": "Analogue Productions",
+              "catalogNumber": "CVRJ 6114 SA"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "bef61a9c-6bd6-319f-9424-4305908985a3",
+            "title": "Ben Webster Meets Oscar Peterson",
+            "firstReleaseDate": "1959",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "The Touch of Your Lips",
+            "When Your Lover Has Gone",
+            "Bye Bye Blackbird",
+            "How Deep Is the Ocean (How High Is the Sky)",
+            "In the Wee Small Hours of the Morning",
+            "Sunday",
+            "This Can't Be Love"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "black-action-figure",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "vibraphonist Stefon Harris's 1999 debut for Blue Note Records",
+    "contradictingQuote": "He signed with Blue Note, which released his debut album, A Cloud of Red Dust (1998). His second album, Black Action Figure, was nominated for a Grammy Award.",
+    "skepticDecision": "The Stefon Harris page (correct entity, stored URL) states his Blue Note debut was 'A Cloud of Red Dust (1998)' and that 'His second album, Black Action Figure, was nominated for a Grammy Award', directly contradicting the prose's '1999 debut'.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "vibraphonist Stefon Harris's 1999 debut for Blue Note Records",
+        "problem": "Black Action Figure is Harris's SECOND Blue Note album, not his debut; his debut was 'A Cloud of Red Dust' (1998)",
+        "evidenceQuote": "He signed with Blue Note, which released his debut album, A Cloud of Red Dust (1998). His second album, Black Action Figure, was nominated for a Grammy Award.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Right entity (MB embedded_mbid confirms title/artist/year(1999)/label(Blue Note); all 5 keyTracks match). The Stefon Harris Wikipedia page (entity-matched, stored_url) directly contradicts the 'debut' claim: Black Action Figure was his second album. The 'A Cloud of Red Dust (1998)' debut and 'Black Action Figure (Blue Note, 1999)' second album are both in the Wiki discography.",
+    "ours": {
+      "title": "Black Action Figure",
+      "artist": "Stefon Harris",
+      "year": 1999,
+      "label": "Blue Note",
+      "albumDNA": "Black Action Figure is vibraphonist Stefon Harris's 1999 debut for Blue Note Records. The album draws on hard bop, jazz-funk, and contemporary jazz, with Harris's warm-toned mallet work front and center on tracks like \"Club Madness\" and \"Feline Blues.\" The record introduced Harris as one of the most exciting young voices on his instrument. A contemporary jazz recording from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond. Stefon Harris adds a personal voice to the idiom.",
+      "keyTracks": [
+        "Club Madness",
+        "Feline Blues",
+        "There Is No Greater Love",
+        "Of Things to Come",
+        "After the Day Is Done"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "01ad6eec-3d4f-4c82-ad21-b6160535f9cf",
+          "title": "Black Action Figure",
+          "date": "1999-09-14",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Stefon Harris"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": "99546"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "12f816b9-46ec-3b25-8cc4-3a8e5a01094d",
+            "title": "Black Action Figure",
+            "firstReleaseDate": "1999-09-14",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Club Madness",
+            "Feline Blues",
+            "There Is No Greater Love",
+            "Of Things to Come",
+            "After the Day Is Done",
+            "Conversations at the Mess",
+            "BlackActionFigure",
+            "Collage",
+            "You Stepped Out of a Dream",
+            "Alovi",
+            "Bass Vibes",
+            "The Alchemist",
+            "Chorale",
+            "Faded Beauty",
+            "Musical Silence"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Stefon_Harris",
+        "page": {
+          "requestedTitle": "Stefon Harris",
+          "resolvedTitle": "Stefon Harris",
+          "shortDescription": "American jazz musician (born 1973)",
+          "extract": "Stefon DeLeon Harris (born March 23, 1973) is an American jazz vibraphonist.\n\n\n== Biography ==\n\nA native of Albany, New York, Harris intended to work for the New York Philharmonic until he heard the music of Charlie Parker. During the 1990s he recorded with Charlie Hunter and Steve Turre as a session musician. He signed with Blue Note, which released his debut album, A Cloud of Red Dust (1998). His second album, Black Action Figure, was nominated for a Grammy Award. In 2001 he worked with pianist Jacky Terrasson at the Village Vanguard in New York City and recorded the album Kindred with him during the same year. His album The Grand Unification Theory (2003) won the Martin E. Segal Award from Jazz at Lincoln Center.\nIn April 2009, he headlined at the Orange County Performing Arts Center in Orange County, California.\nHarris collaborated with saxophonist David Sánchez and trumpeter Christian Scott in 2011 on the album Ninety Miles. They recorded the album in Havana, Cuba.\n\n\n== Discography ==\n\n\n=== As leader/co-leader ===\nA Cloud of Red Dust (Blue Note, 1998)\nBlack Action Figure (Blue Note, 1999)\nKindred with Jacky Terrasson (Blue Note, 2001)\nThe Grand Unification Theory (Blue Note, 2003)\nEvolution (Blue Note, 2004)\nAfrican Tarantella: Dances With Duke (Blue Note, 2006)\nUrbanus (Concord, 2009)\nNinety Miles with David Sánchez and Christian Scott (Concord Picante, 2011)\nNinety Miles Live at Cubadisco with David Sánchez and Christian Scott (Concord Picante, 2012)\nSonic Creed (Motema, 2018)\n\n\n=== As a member ===\nNew Directions\nWith Greg Osby, Mark Shim, Jason Moran, Tarus Mateen, Nasheet Waits\n\nBlue Note New Directions (Blue Note/Somethin' Else, 1999)\nThe Classical Jazz Quartet\n\nTchaikovsky's Nutcracker (Vertical Jazz, 2001)\nThe Classical Jazz Quartet Plays Bach (Vertical Jazz, 2002)\nThe Classical Jazz Quartet Play Rachmaninov (Kind of Blue, 2006)\nThe Classical Jazz Quartet Play Tchaikovsky (Kind of Blue, 2006)\nChristmas (Kind of Blue, 2006)\nThe SFJAZZ Collective\n\nLive 2008: 5th Annual Concert Tour - The Works of Wayne Shorter (SFJAZZ, 2008)[3CD]\nLive 2010: 7th Annual Concert Tour - The Works of Horace Silver (SFJAZZ, 2010)[3CD]\nLive in New York 2011 - Season 8 - The Music of Stevie Wonder (SFJAZZ, 2011)\nWonder - The Songs of Stevie Wonder (SFJAZZ, 2012)\nLive: SFJAZZ Center 2013 - The Music of Chick Corea (SFJAZZ, 2013\nMiguel Zenón Retrospective: Original Compositions, 2004-2016 (SF Jazz Collective, 2018)\n\n\n=== As sideman ===\nWith Diana Krall\n\nChristmas Songs (Verve, 2005)\nTurn Up the Quiet (Verve, 2017) – rec.2016\nWith others\n\nTim Warfield, Jazz Is, A Whisper in the Midnight (Criss Cross, 1995)\nAtsushi Ikeda, Everybody's Music (King, 1995)\nTerell Stafford, Centripetal Force (Candid, 1996)\nJoe Henderson, Porgy & Bess (Verve, 1997)\nCharlie Hunter, Return of the Candyman (Blue Note, 1998)\nJason Moran, Soundtrack to Human Motion (Blue Note, 1999)\nJacky Terrasson, A Paris... (Blue Note, 2000)\nKurt Elling, Man in the Air (Blue Note, 2003)\nKenny Barron, Images (Sunnyside, 2004)\nBuster Williams, Griot Libertè (HighNote, 2004)\nJanis Siegel, Sketches of Broadway (Telarc, 2004)\nLea DeLaria, Double Standards (Telarc, 2005)\nRaul Midón, State of Mind (Manhattan, 2005)\nGreg Osby, The Inner Circle (Blue Note, 2002) – rec.1999\nJoshua Redman, Momentum (Nonesuch, 2006)\nSteve Turre, Keep Searchin' (HighNote, 2006)\nRy Cooder, My Name Is Buddy (Nonesuch, 2007)\nCourtney Pine, Transition in Tradition (Destin-E, 2009)\nChristian Sands, Christmas Stories (Mack Avenue, 2023)\n\n\n== References ==\n\n\n== External links ==\nOfficial website\nStefon Harris at TED \n\"There are no mistakes on the bandstand\" (TEDSalon NY2011)"
+        }
+      }
+    }
+  },
+  {
+    "id": "blue-note-jazz-inspiration",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "He performed in the United States and Europe and made many recordings with Duke Ellington, Billie Holiday, Johnny Hodges, and others.",
+    "contradictingQuote": "He performed in the United States and Europe and made many recordings with Duke Ellington, Billie Holiday, Johnny Hodges, and others.",
+    "skepticDecision": "The final sentence is a Ben Webster biography grafted onto a Duke Ellington compilation (it has him recording 'with Duke Ellington'); only that sentence is foreign, so it is a factual error on the right album, not a full entity mismatch.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "He performed in the United States and Europe and made many recordings with Duke Ellington, Billie Holiday, Johnny Hodges, and others.",
+        "problem": "This sentence is lifted verbatim from the Ben Webster Wikipedia biography (the wrong page stored for this item) and grafted into a Duke Ellington compilation blurb. Attributed to this Ellington album it is incoherent ('made many recordings with Duke Ellington' for an Ellington release) — it is biographical text about saxophonist Ben Webster, not about our album.",
+        "evidenceQuote": "Benjamin Francis Webster (March 27, 1909 - September 20, 1973) was an American jazz tenor saxophonist. He performed in the United States and Europe and made many recordings with Duke Ellington, Billie Holiday, Johnny Hodges, and others.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "The album-level facts are correct: MB (embedded) confirms title/artist/year/label (Duke Ellington, 'Blue Note Jazz Inspiration', Blue Note, 2012) and all five keyTracks (Satin Doll, Flamingo, Prelude to a Kiss, Just a Sittin' and a Rockin', Black and Tan Fantasy) match its tracklist — all Ellington tunes. The corruption is a grafted Ben Webster bio sentence plus the stored wikipediaUrl pointing to the Ben Webster page (wrong entity). The 'definitive hard bop label' line is also off for an Ellington big-band compilation but is editorial. Treated as factual_error (right album, one misattributed/grafted claim) rather than full entity_mismatch since the prose's skeleton — big band, Ellington, the tracklist — is Ellington's. Repair: drop the Webster sentence and fix the wiki link.",
+    "ours": {
+      "title": "Blue Note Jazz Inspiration",
+      "artist": "Duke Ellington",
+      "year": 2012,
+      "label": "Blue Note",
+      "albumDNA": "Blue Note released Blue Note Jazz Inspiration in 2012, a big band date led by Duke Ellington. The music draws on big band and dixieland influences. Blue Note, under Alfred Lion and Francis Wolff, was the definitive hard bop label, with Rudy Van Gelder engineering many of its classic sessions. He performed in the United States and Europe and made many recordings with Duke Ellington, Billie Holiday, Johnny Hodges, and others.",
+      "keyTracks": [
+        "Satin Doll",
+        "Flamingo",
+        "Prelude to a Kiss",
+        "Just a Sittin’ and a Rockin’",
+        "Black and Tan Fantasy"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "4edaaffc-e521-4565-8a3b-4b67557e5a90",
+          "title": "Blue Note Jazz Inspiration",
+          "date": "2012",
+          "country": "DE",
+          "status": "Official",
+          "artists": [
+            "Duke Ellington"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": "50999 009007 2 0,"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "00efaf6c-0b31-4aa3-9d61-0ef3d0ecf044",
+            "title": "Blue Note Jazz Inspiration",
+            "firstReleaseDate": "2012",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Satin Doll",
+            "Flamingo",
+            "Prelude to a Kiss",
+            "Just a Sittin’ and a Rockin’",
+            "Black and Tan Fantasy",
+            "Things Ain’t What They Used to Be",
+            "Rockin’ in Rhythm",
+            "C Jam Blues",
+            "Caravan",
+            "The Mooche",
+            "Mood Indigo",
+            "I Got It Bad and That Ain’t Good",
+            "Fleurette Africaine (African Flower)",
+            "Solitude",
+            "Body and Soul",
+            "In the Mood",
+            "Take the “A” Train (live)"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Ben_Webster",
+        "page": {
+          "requestedTitle": "Ben Webster",
+          "resolvedTitle": "Ben Webster",
+          "shortDescription": "American jazz saxophonist (1909–1973)",
+          "extract": "Benjamin Francis Webster (March 27, 1909 – September 20, 1973) was an American jazz tenor saxophonist. He performed in the United States and Europe and made many recordings with Duke Ellington, Billie Holiday, Johnny Hodges, and others.\n\n\n== Career ==\n\n\n=== Early life and career ===\nA native of Kansas City, Missouri, Webster studied violin, learned how to play blues on the piano from Pete Johnson, and received saxophone lessons from Budd Johnson. Webster played with Lester Young in the Young Family Band. He recorded with Blanche Calloway and became a member of the Bennie Moten Orchestra with Count Basie, Hot Lips Page, and Walter Page. During the 1930s, Webster played in bands led by Willie Bryant, Benny Carter, Cab Calloway, Fletcher Henderson, Andy Kirk, and Teddy Wilson.\n\n\n=== With Ellington ===\nWebster was a soloist with the Duke Ellington Orchestra starting in 1940, appearing on \"Cotton Tail\". He considered Johnny Hodges, an alto saxophonist in the Ellington Orchestra, a major influence on his playing. Gunther Schuller wrote in 1989, that Hodges' influence pushed him away from his original inspiration by Coleman Hawkins. Webster became close to Jimmy Blanton and Billy Strayhorn, the other two newcomers to Ellington's orbit.\nWebster's personality, however, proved difficult for most members of the orchestra and for Ellington. It was not possible, according to Mercer Ellington, for his father and the saxophonist to be in the same room without an argument developing. Webster cried when he heard Blanton had died, but as baritone player Harry Carney recalled, \"After he had a drink or two, he'd change\". Webster left the band in 1943. Reportedly, he cut one of Ellington's sports jackets with a razor as one of his last acts as a member of the Ellington orchestra. Clark Terry said the departure was because Webster slapped Ellington.\n\n\n=== Later American career ===\nWebster worked on 52nd Street in New York City, where he recorded frequently as a leader and sideman. During this time he worked with Raymond Scott, John Kirby, Bill DeArango, Sid Catlett, Jay McShann, and Jimmy Witherspoon. For a few months in 1948, he returned briefly to Ellington's orchestra.\nIn 1953, he recorded The Consummate Artistry of Ben Webster (now known as King of the Tenors) with pianist Oscar Peterson, who would be an important collaborator with Webster throughout the decade in his recordings for the various labels of Norman Granz. Along with Peterson, trumpeter Harry \"Sweets\" Edison and others, he was touring and recording with Granz's Jazz at the Philharmonic package. In 1956, he recorded an album with pianist Art Tatum, supported by bassist Red Callender and drummer Bill Douglass. Coleman Hawkins Encounters Ben Webster with fellow tenor saxophonist Coleman Hawkins was recorded on December 16, 1957, along with Peterson, Herb Ellis (guitar), Ray Brown (bass), and Alvin Stoller (drums). The Hawkins and Webster recording saw the coming together of two giants of the tenor saxophone, who had first met back in Kansas City.\nIn the late 1950s, he formed a quintet with Gerry Mulligan and played frequently at a club in Los Angeles called Renaissance. It was there that the Webster-Mulligan group backed up blues singer Jimmy Witherspoon on an album recorded live for the Hi-Fi Jazz label. That same year, 1959, the quintet, with pianist Jimmy Rowles, bassist Leroy Vinnegar, and drummer Mel Lewis, also recorded Gerry Mulligan Meets Ben Webster for Verve Records.\n\n\n=== In Europe ===\nWebster worked steadily, but in late 1964 he moved to Europe, working with other expatriate American jazz musicians and local musicians. He played when he pleased during his last decade. He lived in London and several locations in Scandinavia for one year, followed by three years in Amsterdam, and made his last home in Copenhagen in 1969. Webster appeared as a sax player in a low-rent cabaret club in the 1970 Danish blue film titled Quiet Days in Clichy. In 1971, Webster reunited with Duke Ellington and his orchestra for a couple of shows at the Tivoli Gardens in Copenhagen; he also recorded live in France with Earl Hines. He also recorded or performed with Buck Clayton, Bill Coleman and Teddy Wilson.\nWebster suffered a stroke in Amsterdam in September 1973, following a performance at the Twee Spieghels in Leiden, and died on September 20. His body was cremated in Copenhagen and his ashes were buried in the Assistens Cemetery in the Nørrebro section of the city.\nWebster's private col"
+        }
+      }
+    }
+  }
+]

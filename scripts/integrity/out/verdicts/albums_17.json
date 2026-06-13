@@ -1,0 +1,343 @@
+[
+ {
+  "id": "betty-carter-album",
+  "verdict": "factual_error",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "1979", "evidence": "1980",
+    "evidenceQuote": "The Audience with Betty Carter is a 1980 live double album by the American jazz singer Betty Carter.",
+    "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Year field (1979) contradicts both the entity-matched wiki page (1980 release) and our own albumDNA, which itself says 'a 1980 live double album'. 1979 is plausibly the recording year, but no recording date appears in the pack evidence. MB matched the 1988 Verve reissue (date 1988), which the wiki explains: 'first released on Carter's own Bet-Car Records and later reissued on Verve' - so MB's 1988 is not counter-evidence for the original release and the Bet-Car label field is verified by that wiki sentence. All four keyTracks are on the MB (Verve reissue) tracklist. Prose otherwise matches the wiki verbatim."
+ },
+ {
+  "id": "the-joy-of-flying",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Year 1979 and label CBS match the embedded-MBID MB release (authoritative: 1979, CBS 83338). The wiki shortDescription says '1978 studio album' and the wiki's own source line cites 'Columbia Records 1978' - a discrepancy internal to the sources; ours follows authoritative MB, so not flagged. The DNA's 'five-piece horn section' on Hip Skip is verbatim wiki prose, though the wiki personnel section lists six horn players - a wiki-internal inconsistency copied into our prose, not an ours-vs-evidence error. Duet/quartet personnel claims all verbatim-confirmed by the wiki; all five keyTracks on the MB tracklist."
+ },
+ {
+  "id": "very-rare",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose matches the wiki lead verbatim ('recorded in 1979 and released on the Japanese Trio label'). MB search match (artist similarity 1.0) confirms 1979, Japan, Trio PAP-9173, and all five keyTracks."
+ },
+ {
+  "id": "african-marketplace",
+  "verdict": "unverifiable",
+  "confidence": 0.55,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "AlbumDNA is almost entirely artist bio copied verbatim from the Abdullah Ibrahim Wikipedia page (those bio claims - Dollar Brand, Cape jazz, Monk/Ellington influence, Mannenberg as anti-apartheid anthem - all check out against it). Only two short sentences are about the album, and nothing can verify them: no MB match at all (no release, no candidates) and the artist-page extract truncates before any discography. Year (1980), label (Elektra Musician), keyTracks, and 'Introduced Ibrahim to wider American audiences' are all unverifiable. Background caution (not evidence): the Elektra Musician imprint is usually dated to the early 1980s, so the label name deserves a source check during repair. Stored wikipediaUrl points to the artist's page, not an album article - recorded as wrong_entity for this album item, though the artist is the right person."
+ },
+ {
+  "id": "dance-with-death",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose matches the wiki verbatim (recorded 1968, released on Blue Note 1980; personnel Farrell/Tolliver/Sproles/Higgins; alternate take on 2004 CD reissue). Embedded-MBID MB release confirms 1980, Blue Note LT-1030, and all five keyTracks."
+ },
+ {
+  "id": "medina",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose matches the wiki nearly verbatim (released 1980, six tracks recorded 11 August 1969, CD reissue adding five 1968 tracks previously issued as Spiral). Embedded-MBID MB release confirms 1980, label 'Blue Note Classic' LT-1086 (matching our label field exactly), and all five keyTracks."
+ },
+ {
+  "id": "revue-wsq",
+  "verdict": "factual_error",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "1980", "evidence": "1982",
+    "evidenceQuote": "releaseGroup.firstReleaseDate: \"1982\"",
+    "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "Our year field says 1980, but the MB search match (artist similarity 1.0, Black Saint BSR 0056) gives release and release-group first release as 1982, and the wiki shortDescription reads '1982 studio album by World Saxophone Quartet'. 1980 may be the recording year, but no recording date is in the pack evidence. Everything else checks: the four members (Hemphill, Lake, Murray, Bluiett) and the no-rhythm-section description are confirmed by the wiki; all six keyTracks are on the MB tracklist. Remaining prose ('Established the saxophone quartet as a viable jazz ensemble', 'spawned dozens of similar groups') is editorial."
+ },
+ {
+  "id": "silver-n-strings-play-the-music-of-the-spheres",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose matches the wiki verbatim (final Blue Note release; Harrell, Schneider, Carter, Foster; vocals by Hines, Alford, Maillard, Roberts; strings conducted by Wade Marcus). Embedded-MBID MB release confirms 1980, Blue Note LWB-1033, and all five keyTracks appear on the MB tracklist under exactly those short titles."
+ },
+ {
+  "id": "spihumonesty",
+  "verdict": "factual_error",
+  "confidence": 0.65,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "released on the Italian Black Saint label in 1979",
+    "problem": "MB (embedded MBID, authoritative for date) dates the Black Saint release and the release group's first release to 1980, not 1979. Our own year field says 1980, agreeing with MB; only the prose says 1979.",
+    "evidenceQuote": "date: \"1980\"; releaseGroup.firstReleaseDate: \"1980\"",
+    "source": "mb"}
+  ],
+  "notes": "Italian label confirmed (MB country IT, Black Saint BSR 0032). All four keyTracks match the MB tracklist exactly. The personnel list (George Lewis, Roscoe Mitchell, Amina Claudine Myers, Youseff Yancy, Leonard Jones, Jay Clayton) is unverifiable - MB supplies only a tracklist and no Wikipedia page was found. 1979 in the prose may be the recording year, but no recording date is in evidence."
+ },
+ {
+  "id": "the-believer",
+  "verdict": "unverifiable",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Core facts verified: release-group first release 1980 and label Baystate per embedded-MBID MB (the matched release itself is a 2009 Japanese CD reissue, BVCJ-35119), corroborated by the artist page's discography line '1980: The Believer (Baystate/RVC)'; 'tenor saxophonist' confirmed by the artist page; all three keyTracks match MB exactly (including the 'Simpy' misspelling, which is how the MB track title reads). What cannot be checked: 'From the jazz-rock fusion era, embracing electric instruments and rhythms from rock and funk' - era-template boilerplate with no supporting evidence in the pack; background knowledge suggests Harper's music of this period was acoustic spiritual post-bop rather than electric fusion, but the pack cannot show that, so it stays unverifiable rather than corrected. Stored wikipediaUrl is the artist's page, not an album article."
+ },
+ {
+  "id": "herbie-hancock-trio-with-ron-carter-tony-williams",
+  "verdict": "entity_mismatch",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "artist", "ours": "Tony Williams", "evidence": "Herbie Hancock Trio, Ron Carter, Tony Williams",
+    "evidenceQuote": "artists: [\"Herbie Hancock Trio\", \"Ron Carter\", \"Tony Williams\"]",
+    "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Herbie Hancock Trio is an album by Herbie Hancock released on September 21, 1977, in Japan",
+    "problem": "Our catalog item is the 1981 CBS/Sony album 'Herbie Hancock Trio with Ron Carter + Tony Williams' (embedded MBID: date 1981, catalog 25AP 2190). The September 1977 release is the earlier, different trio album; the prose describes that one.",
+    "evidenceQuote": "date: \"1981\"; releaseGroup.firstReleaseDate: \"1981\"",
+    "source": "mb"},
+   {"ourClaim": "A second selection of six tracks recorded by the trio during the same day's sessions was released under Ron Carter's name as Third Plane.",
+    "problem": "This is the 1977 album's history. The linked wiki page (about the 1977 album) has a tracklist sharing zero tracks with our 1981 release ('Stablemates', 'Dolphin Dance', 'A Slight Smile', 'That Old Black Magic', 'La Maison goree' per MB), confirming the prose describes a different album.",
+    "evidenceQuote": "\"Watch It\" – 12:25\n\"Speak Like a Child\" – 13:06\n\"Watcha Waitin' For\" – 6:20\n\"Look\" – 7:42\n\"Milestones\" (Miles Davis) – 6:40",
+    "source": "wiki"}
+  ],
+  "notes": "Catalog fields (title/year/label) exactly match the authoritative embedded-MBID MB release, so the catalog entity is the 1981 Japan-only trio album, and all five keyTracks match its MB tracklist. But the albumDNA prose is the Wikipedia lead for the DIFFERENT 1977 'Herbie Hancock Trio' album, and the stored wiki link points to that 1977 album's article ('This is the first of two albums with the same title. A second Herbie Hancock Trio with the same personnel was released in 1982.' - the wiki says 1982 for the second album, MB says 1981). The Tony Williams bio tail (Second Great Quintet, Lifetime) is covered by no pack evidence. Repair: rewrite the DNA for the 1981 album, fix or drop the wikipediaUrl, and consider whether the artist credit should read Herbie Hancock Trio rather than Tony Williams alone (Williams is co-credited on the release)."
+ },
+ {
+  "id": "saudades",
+  "verdict": "entity_mismatch",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "no"},
+  "wikiLinkVerdict": "unsure",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Palhaço", "Dança das Cabeças", "Frevo", "Baião Malandro"],
+  "fieldIssues": [
+   {"field": "artist", "ours": "Egberto Gismonti", "evidence": "Naná Vasconcelos",
+    "evidenceQuote": "Saudades (Portuguese: \"The Blues\") is an album by Brazilian jazz percussionist Naná Vasconcelos recorded in March 1979 and released on ECM the following year.",
+    "source": "wiki"},
+   {"field": "year", "ours": "1981", "evidence": "1980",
+    "evidenceQuote": "1980 studio album by Naná Vasconcelos",
+    "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Chimera entry. The albumDNA's opening is verbatim from the Wikipedia article for 'Saudades', the 1980 ECM album BY NANA VASCONCELOS (Gismonti appears only as featured guitarist; wiki personnel: 'Egberto Gismonti - guitar'). Yet the site credits the album to Egberto Gismonti, dates it 1981, and lists keyTracks none of which appear on that album's wiki tracklist ('O Berimbau', 'Vozes (Saudades)', 'Ondas (No olhos de Petronila)', 'Cego aderaldo', 'Dado'); the four listed titles look like Gismonti repertoire from his own albums (background impression, not pack-verified). No MB evidence at all (no release, no candidates). Two repair paths: (a) if the entry means the Vasconcelos album, fix artist, year, and keyTracks; (b) if it means a Gismonti album, then title, prose, and wiki link are all wrong. wikiLinkVerdict left unsure because the stored page is correct for reading (a) and wrong for reading (b). keyTracks were compared against the wiki tracklist since MB had none."
+ },
+ {
+  "id": "social-studies",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose matches the wiki verbatim ('recorded in 1980 and released on the Watt/ECM label in 1981'); 'American composer, bandleader and keyboardist' confirmed. MB search match (similarity 1.0) confirms 1981 and carries both WATT/11 and ECM W 11 labels, matching our Watt label field. KeyTracks: 'Reactionary Tango' matches MB 'Reactionary Tango (In Three Parts)' (substring); 'Utviklingssang' matches 'Utviklingssang' with diacritic-only difference; the rest exact. 'Big band format' is editorial characterization of the nine-piece band."
+ },
+ {
+  "id": "the-creeper",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose matches the wiki verbatim, including the wiki's own malformed sentence ('Along with Byrd, the album Sonny Red, Pepper Adams...' - missing the verb 'features'); cosmetic only, worth fixing in repair. Facts all check: recorded October 1967, released 1981 on Blue Note; personnel confirmed by wiki; MB search match (similarity 1.0) confirms 1981, Blue Note Classic LT-1096, and all five keyTracks."
+ },
+ {
+  "id": "the-source",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose first sentence matches the wiki verbatim (recorded in Paris 1973, first released on the French America label). Our year field (1981) and label (Jazz Man) match the embedded-MBID MB release (authoritative; JAZ 5021, release-group first release also given as 1981), so the field reflects this issue of the album; the wiki gives no year for the earlier America release, so there is no contradiction in the pack. The 'latin jazz conversation' sentence is era-template editorial framing. All four keyTracks on the MB tracklist."
+ },
+ {
+  "id": "turi",
+  "verdict": "clean",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "AlbumDNA is 100 percent artist bio, verbatim from the Arturo Sandoval Wikipedia lead, and every bio claim checks out against that page (born Cuban-American, Parker/Brown/Gillespie influences, met Gillespie 1977, defection, citizenship 1998, the 2000 film). No album-specific prose at all. Album fields verified: MB release group first release 1981 (the embedded-MBID release itself is a 2019 digital reissue on Alegria Music Latino) and the artist page's discography line 'Turi (Areito, 1981)' confirms both year and the Areito label. All five keyTracks match MB ('Blue en dos partes' matches the longer MB title by substring; 'Maria' diacritic-only). Two blemishes for repair: ours writes 'United Nation Orchestra' where the wiki has 'United Nations Orchestra' (typo-level name error), and the stored wikipediaUrl is the artist page, not an album article."
+ },
+ {
+  "id": "word-of-mouth",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose first sentence matches the wiki verbatim (second and final solo studio album, 1981, still in Weather Report, big band toured 1982). MB search match (similarity 1.0) confirms 1981 and Warner Bros. (WB 56 897). KeyTrack 'Three Views of a Secret' appears as '3 Views of a Secret' on the MB tracklist and as 'Three Views of a Secret' in the wiki tracklist - counted as matched. Remaining prose is editorial."
+ },
+ {
+  "id": "you-must-believe-in-spring",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose first sentence matches the wiki verbatim (recorded with Gomez and Zigmund in August 1977, released February 1981, after Evans' death in September 1980). Embedded-MBID MB confirms 1981, Warner Bros. HS 3504, release-group first release 1981-02-02, and all five keyTracks. 'Part of Warner Bros. Records's post-bop catalog' is consistent with the wiki ('his first album for his new label, Warner Brothers'); the rest is editorial."
+ },
+ {
+  "id": "earth-jones",
+  "verdict": "factual_error",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Quicksilver", "evidence": "Palo Alto",
+    "evidenceQuote": "Earth Jones is a jazz album by drummer Elvin Jones, recorded in 1982 and released on the Palo Alto label.",
+    "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "The label field contradicts both the entity-matched wiki article and our own albumDNA, which says 'released on the Palo Alto label'. MB's matched release (search method, 'strong but not infallible') IS on Quicksilver (QSCD4015, dated 1982-02-12), but that is a CD catalog number and almost certainly a later reissue carrying an inherited date (background reasoning: CDs did not exist in February 1982); the original label per the wiki is Palo Alto. Recommend label = Palo Alto. Year 1982 is consistent across all sources; all five keyTracks on the MB tracklist. 'A bebop entry' is loose genre framing, treated as editorial."
+ },
+ {
+  "id": "paths-prints",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match (similarity 1.0) verifies title, year 1982, ECM (ECM 1223), the four credited artists (Garbarek, Frisell, Weber, Christensen - confirming the quartet claim), and all six keyTracks. No Wikipedia evidence exists in the pack and MB carries no instrument or nationality data, so the prose's instrument assignments (Frisell guitar, Weber bass, Christensen drums) and 'Norwegian saxophonist' cannot be checked; nothing contradicts them. Remaining prose is editorial."
+ },
+ {
+  "id": "reel-life",
+  "verdict": "factual_error",
+  "confidence": 0.65,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Unknown", "evidence": "Milestone",
+    "evidenceQuote": "Reel Life is a studio album by jazz saxophonist Sonny Rollins, released on the Milestone label in 1982, featuring performances by Rollins with Bobby Broom, Yoshiaki Masuo, Bob Cranshaw and Jack DeJohnette.",
+    "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Label field is a placeholder ('Unknown') while both evidence sources and our own prose name Milestone (MB label: Milestone) - a repairable omission, not a collision. The embedded-MBID MB release is the 2000 Japanese CD reissue; release-group first release 1982 confirms the year. Prose matches the wiki verbatim apart from 'an album' vs 'a studio album'. All six keyTracks on the MB tracklist. The 'contemporary jazz entry' sentence is era-template editorial."
+ },
+ {
+  "id": "swingin-with-bud",
+  "verdict": "unverifiable",
+  "confidence": 0.5,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match (similarity 1.0) confirms a 1982 French release with release-group first release 1982 and all five keyTracks; MB lists no label, so the 'Unknown' label field has no contradicting evidence. The real problem is the framing: 'a bebop album by Bud Powell from 1982... from the contemporary era's stylistic eclecticism' implies a then-current 1982 recording. Background knowledge (NOT in pack evidence): Bud Powell died in 1966, and this track set matches his late-1950s RCA material, so the 1982 item is almost certainly a posthumous reissue or compilation mis-framed as a contemporary-period album. The MB release group is not marked Compilation and no recording dates or death date appear in the evidence, so per the rules this stays unverifiable rather than factual_error. Repair should establish recording dates and reframe the era assignment."
+ },
+ {
+  "id": "when-was-that",
+  "verdict": "unverifiable",
+  "confidence": 0.5,
+  "entityMatch": {"musicbrainz": "unsure", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Only weak MB evidence: a search candidate without a resolved release - 'When Was That?' by 'The Henry Threadgill Sextet', first released 1982, which is consistent with our title, year, and the prose's Sextett framing (spelling differs: MB says 'Sextet'; our prose's 'Sextett... actually contained seven members' cannot be checked). Label 'About Time', the keyTracks, the two-drummers-and-cello instrumentation, and the Pulitzer Prize claim are all uncheckable against pack evidence; no Wikipedia page was found. No contradictions, but very little is verifiable."
+ },
+ {
+  "id": "iou",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose matches the wiki nearly verbatim (second studio album, 1982 via Luna Crack Records/I.O.U. Records, 1985 Enigma CD, 2008 Belle Antique remaster, band of Husband/Carmichael/Williams, Tempest connection, Velvet Darkness backstory). Ours drops the wiki's hedge '(in his view)' from the first-official-solo-release claim - minor, not a contradiction. Label field '[no label]' mirrors the authoritative embedded-MBID MB release's no-label marker for the US AH-100 pressing, while the wiki names Luna Crack/I.O.U. Records as our prose also does - a display-level oddity worth a look in repair, but consistent with MB. Year 1982 confirmed by MB and wiki; all five keyTracks on the MB tracklist."
+ },
+ {
+  "id": "future-shock",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose matches the wiki lead verbatim (twenty-ninth album, August 1983 on Columbia, first electro-funk era release, early instrumental hip hop, personnel Laswell/Cosey/Dunbar). Embedded-MBID MB confirms 1983-08, Columbia CK 38814, and all five keyTracks."
+ }
+]

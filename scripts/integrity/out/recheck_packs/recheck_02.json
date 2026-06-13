@@ -1,0 +1,1822 @@
+[
+  {
+    "id": "baroque-music-for-trumpets",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.88,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "mismatch",
+      "fieldIssues": [
+        {
+          "field": "orchestra (in albumDNA)",
+          "ours": "National Philharmonic Orchestra",
+          "evidence": "English Chamber Orchestra",
+          "evidenceQuote": "English Chamber Orchestra",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Haydn, Hummel, L. Mozart: Trumpet Concertos is a studio album of trumpet concertos by Joseph Haydn, Leopold Mozart and Johann Nepomuk Hummel, performed by Wynton Marsalis with the National Philharmonic Orchestra under the direction of Raymond Leppard",
+          "problem": "The albumDNA is the verbatim Wikipedia lede of a DIFFERENT Wynton Marsalis classical album ('Haydn, Hummel, L. Mozart: Trumpet Concertos'), not this album. The MB release 'Baroque Music for Trumpet(s)' is a baroque program (Vivaldi/Purcell/Handel/Telemann) credited to Wynton Marsalis with the English Chamber Orchestra and Raymond Leppard, plus Edita Gruberova — not a Haydn/Mozart/Hummel concertos record with the National Philharmonic Orchestra.",
+          "evidenceQuote": "Concerto in D major for Trumpet, Oboes & Strings: I. Allegro",
+          "source": "mb"
+        }
+      ],
+      "notes": "Catalog FIELDS (title 'Baroque Music for Trumpets', year 1984, label CBS Records Masterworks, artist Wynton Marsalis) match the MB embedded release. But the albumDNA prose and the stored Wikipedia URL are wholesale about a different album, 'Haydn, Hummel, L. Mozart: Trumpet Concertos' — the title-search disambiguation bug. Repertoire stated in the prose (Haydn/L.Mozart/Hummel concertos, National Philharmonic) contradicts the MB tracklist of the actual release (Vivaldi RV-era baroque works, Purcell, Handel, Telemann; English Chamber Orchestra). Separately, the keyTracks (Vivaldi RV 537 for 2 trumpets; a 3-trumpet concerto) match NEITHER the MB tracklist of this release NOR the Haydn/Hummel/Mozart album, so they appear to come from yet a third baroque-trumpet source. Wiki page is about the other album -> wrong_entity."
+    },
+    "ours": {
+      "title": "Baroque Music for Trumpets",
+      "artist": "Wynton Marsalis",
+      "year": 1984,
+      "label": "CBS Records Masterworks",
+      "albumDNA": "Haydn, Hummel, L. Mozart: Trumpet Concertos is a studio album of trumpet concertos by Joseph Haydn, Leopold Mozart and Johann Nepomuk Hummel, performed by Wynton Marsalis with the National Philharmonic Orchestra under the direction of Raymond Leppard. The album won a Grammy award in 1984 for Best Instrumental Soloist Performance with orchestra.",
+      "keyTracks": [
+        "Concerto For 2 Trumpets & Strings, RV 537 (C Major): I – Allegro",
+        "Concerto For 2 Trumpets & Strings, RV 537 (C Major): II – Largo",
+        "Concerto For 2 Trumpets & Strings, RV 537 (C Major): III – Allegro",
+        "Concerto For 3 Trumpets & Orchestra (B-Flat Major): I – Moderato",
+        "Concerto For 3 Trumpets & Orchestra (B-Flat Major): II – Largo",
+        "Concerto For 3 Trumpets & Orchestra (B-Flat Major): III – Allegro"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Haydn%2C_Hummel%2C_L._Mozart%3A_Trumpet_Concertos"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "124223ba-ea56-4c1c-a402-4abf205f3d57",
+          "title": "Baroque Music for Trumpet",
+          "date": "1984",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Wynton Marsalis",
+            "Edita Gruberova",
+            "English Chamber Orchestra",
+            "Raymond Leppard"
+          ],
+          "labels": [
+            {
+              "name": "CBS Records Masterworks",
+              "catalogNumber": "MK 39061"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "01c23393-72a4-3083-98a3-0303c1901dbb",
+            "title": "Baroque Music for Trumpets",
+            "firstReleaseDate": "1984",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Concerto in D major for Trumpet, Oboes & Strings: I. Allegro",
+            "Concerto in D major for Trumpet, Oboes & Strings: II. Largo",
+            "Concerto in D major for Trumpet, Oboes & Strings: III. Allegro (Moderato)",
+            "\"Let the Bright Seraphim\" from Samson",
+            "Sonata A 5 for Trumpet and Strings, T.V.3",
+            "\"Sound the Trumpet\" from Come Ye Sons Of Art",
+            "\"Chaconne\" from Come Ye Sons Of Art",
+            "\"Entrada\" from The Indian Queen",
+            "\"Trumpet Air\" from The Indian Queen",
+            "\"Trumpet Tune\" from King Arthur",
+            "\"Trumpet Overture\" from The Indian Queen",
+            "Sonata A 5 for Trumpet and Strings, T.V.7",
+            "\"Eternal Source of Light Divine\" from Birthday Ode For Queen Anne",
+            "Concerto No. 2 for Solo Trumpet and Strings, MWV IV, 13: I. Allegro",
+            "Concerto No. 2 for Solo Trumpet and Strings, MWV IV, 13: II. Adagio",
+            "Concerto No. 2 for Solo Trumpet and Strings, MWV IV, 13: III. Allegro"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Haydn%2C_Hummel%2C_L._Mozart%3A_Trumpet_Concertos",
+        "page": {
+          "requestedTitle": "Haydn, Hummel, L. Mozart: Trumpet Concertos",
+          "resolvedTitle": "Haydn, Hummel, L. Mozart: Trumpet Concertos",
+          "shortDescription": "1983 studio album by Wynton Marsalis",
+          "extract": "Haydn, Hummel, L. Mozart: Trumpet Concertos is a studio album of trumpet concertos by Joseph Haydn, Leopold Mozart and Johann Nepomuk Hummel, performed by Wynton Marsalis with the National Philharmonic Orchestra under the direction of Raymond Leppard. The album won a Grammy award in 1984 for Best Instrumental Soloist Performance with orchestra. \n\n\n== Reception ==\n\nAllMusic awarded the album 4 stars and its review by Richard S. Ginell states: \"His first classical album having been released simultaneously with his second jazz album, Think of One, the 21-year-old Wynton Marsalis found himself in the position of being the most celebrated purveyor of both the classical and jazz repertoire since Benny Goodman\". He also states that Marsalis \"makes up his own marvelous cadenza in the first movement of the Haydn concerto, beginning with a pair of musical questions which he boldly proceeds to answer and continuing with other dialogues and wide leaps, all thoroughly within the classical style\".\nIvan March reviewed the album on cassette in the December 1983 edition of Gramophone and describes Marsalis's trumpet playing as \"very impressive indeed\". \n\n\n== Track listing ==\nJoseph Haydn (1732-1809), Concerto for Trumpet and Orchestra in E-flat major\n\n\"Allegro\" (Cadence: Wynton Marsalis) – 6:17\n\"Andante\" – 3:14\n\"Allegro\" – 4:26\nLeopold Mozart (1719-1787), Concerto for Trumpet and Orchestra in D major\n\n\"Adagio\" – 4:58\n\"Allegro moderato\" (Embellishments: Wynton Marsalis) – 4:51\nJohann Nepomuk Hummel (1778-1837), Concerto for Trumpet and Orchestra in E-flat major\n\n\"Allegro con spirito\" – 9:41\n\"Andante\" – 4:12\n\"Rondo. Allegro molto\" – 3:29\n\n\n== Personnel ==\nWynton Marsalis - trumpet and piccolo trumpet\nNational Philharmonic Orchestra\nRaymond Leppard - conductor\nProduction\n\nThomas Mowrey - producer\nMichael Gray - engineer\nStuart Eltham - engineer\n\n\n== Awards ==\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "straight-life-the-savoy-sessions",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.9,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Modern Art is an album by saxophonist Art Pepper featuring sessions recorded in late 1956 and early 1957 originally released on the Intro label. The album was reissued on CD on Blue Note Records with bonus tracks as Modern Art: The Complete Art Pepper Aladdin Recordings Volume 2 in 1988.",
+          "problem": "The albumDNA is the verbatim Wikipedia lede of a DIFFERENT Art Pepper album ('Modern Art', a 1956-57 Intro/Aladdin session), not this album. This release is 'Straight Life - The Savoy Sessions' (1984, Savoy Jazz) per MB embedded_mbid.",
+          "evidenceQuote": "Straight Life - The Savoy Sessions",
+          "source": "mb"
+        }
+      ],
+      "notes": "Right artist (Art Pepper), wrong album described — the title-search disambiguation bug. Catalog fields (title, year 1984, label Savoy Jazz) and all 5 keyTracks match the MB embedded release 'Straight Life - The Savoy Sessions'. But the albumDNA prose and the stored Wikipedia URL are about 'Modern Art (Art Pepper album)', a different release on the Intro/Blue Note labels. The trailing 'West Coast jazz / Stan Kenton big band' sentence is generic Pepper bio (true of him) but the album-specific claims (Modern Art, Intro label, 1956-57, reissued 1988) belong to another album. keyTracks themselves are correct for THIS album, so keyTracksVerdict ok."
+    },
+    "ours": {
+      "title": "Straight Life - The Savoy Sessions",
+      "artist": "Art Pepper",
+      "year": 1984,
+      "label": "Savoy Jazz",
+      "albumDNA": "Modern Art is an album by saxophonist Art Pepper featuring sessions recorded in late 1956 and early 1957 originally released on the Intro label. The album was reissued on CD on Blue Note Records with bonus tracks as Modern Art: The Complete Art Pepper Aladdin Recordings Volume 2 in 1988. Active primarily in West Coast jazz, Pepper first came to prominence in Stan Kenton's big band.",
+      "keyTracks": [
+        "Straight Life",
+        "Chili Pepper",
+        "Cinnamon",
+        "Tickle Toe",
+        "Suzy the Poodle"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Modern_Art_(Art_Pepper_album)"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "d8e759f3-5945-48df-88fa-def8f95db515",
+          "title": "Straight Life - The Savoy Sessions",
+          "date": "1984",
+          "country": "DE",
+          "status": "Official",
+          "artists": [
+            "Art Pepper"
+          ],
+          "labels": [
+            {
+              "name": "Savoy Jazz",
+              "catalogNumber": "ZD70820"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "10ce15af-81b3-46f3-98e6-f4f8525723f7",
+            "title": "Straight Life - The Savoy Sessions",
+            "firstReleaseDate": "1984",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Straight Life",
+            "Chili Pepper",
+            "Cinnamon",
+            "Tickle Toe",
+            "Suzy the Poodle",
+            "Everything Happens to Me",
+            "Nutmeg",
+            "Deep Purple",
+            "What's New",
+            "Thyme Time",
+            "Art's Oregano",
+            "The Way You Look Tonight",
+            "Straight Life"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Modern_Art_(Art_Pepper_album)",
+        "page": {
+          "requestedTitle": "Modern Art (Art Pepper album)",
+          "resolvedTitle": "Modern Art (Art Pepper album)",
+          "shortDescription": "1957 studio album by Art Pepper",
+          "extract": "Modern Art is an album by saxophonist Art Pepper featuring sessions recorded in late 1956 and early 1957 originally released on the Intro label. The album was reissued on CD on Blue Note Records with bonus tracks as Modern Art: The Complete Art Pepper Aladdin Recordings Volume 2 in 1988.\n\n\n== Track listing ==\nAll compositions by Art Pepper, except where indicated.\n\n\"Blues In\" - 5:40\n\"Bewitched\" (Richard Rodgers, Lorenz Hart) - 4:25\n\"When You're Smiling\" (Larry Shay, Mark Fisher, Joe Goodwin) - 4:47\n\"Cool Bunny\" - 4:10\n\"Dianne's Dilemma\" - 3:46\n\"Stompin' at the Savoy\" (Edgar Sampson, Chick Webb, Benny Goodman, Andy Razaf) - 5:01\n\"What Is This Thing Called Love?\" (Cole Porter) - 6:00\n\"Blues Out\" - 4:53\n\n\n== Personnel ==\nArt Pepper - alto saxophone\nRuss Freeman - piano\nBen Tucker - bass\nChuck Flores - drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "hearts-and-numbers",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.9,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Out of the Loop is the seventh and final studio album by the Brecker Brothers that was released by GRP Records in 1994. In 1995 the album won the brothers two Grammy Awards for Best Contemporary Jazz Performance and Best Instrumental Composition.",
+          "problem": "The albumDNA is the verbatim Wikipedia lede of a DIFFERENT album ('Out of the Loop', Brecker Brothers, 1994, GRP), not this album. This release is 'Hearts and Numbers' (1985, Hip Pocket Records), credited by MB to Don Grolnick and Michael Brecker.",
+          "evidenceQuote": "Hearts and Numbers",
+          "source": "mb"
+        }
+      ],
+      "notes": "Catalog fields (title 'Hearts and Numbers', year 1985, label Hip Pocket Records) and all 5 keyTracks match the MB embedded release; MB credits Don Grolnick and Michael Brecker (our artist lists only Michael Brecker — fine). But the albumDNA prose and the stored Wikipedia URL are wholesale about 'Out of the Loop (Brecker Brothers album)', a different 1994 GRP release — the title-search disambiguation bug. keyTracks are correct for THIS album, so keyTracksVerdict ok."
+    },
+    "ours": {
+      "title": "Hearts and Numbers",
+      "artist": "Michael Brecker",
+      "year": 1985,
+      "label": "Hip Pocket Records",
+      "albumDNA": "Out of the Loop is the seventh and final studio album by the Brecker Brothers that was released by GRP Records in 1994. In 1995 the album won the brothers two Grammy Awards for Best Contemporary Jazz Performance and Best Instrumental Composition.",
+      "keyTracks": [
+        "Pointing at the Moon",
+        "More Pointing",
+        "Pools",
+        "Regrets",
+        "The Four Sleepers"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Out_of_the_Loop_(Brecker_Brothers_album)"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "7981918b-ad0d-4845-b41a-e4b0c6f397c1",
+          "title": "Hearts and Numbers",
+          "date": "1985",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Don Grolnick",
+            "Michael Brecker"
+          ],
+          "labels": [
+            {
+              "name": "Hip Pocket Records",
+              "catalogNumber": "HD 106"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "06366e0d-f071-3cf4-9bf2-f1e4a78c949f",
+            "title": "Hearts and Numbers",
+            "firstReleaseDate": "1985",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Pointing at the Moon",
+            "More Pointing",
+            "Pools",
+            "Regrets",
+            "The Four Sleepers",
+            "Human Bites",
+            "Act Natural",
+            "Hearts and Numbers"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Out_of_the_Loop_(Brecker_Brothers_album)",
+        "page": {
+          "requestedTitle": "Out of the Loop (Brecker Brothers album)",
+          "resolvedTitle": "Out of the Loop (Brecker Brothers album)",
+          "shortDescription": "1994 studio album by Brecker Brothers",
+          "extract": "Out of the Loop is the seventh and final studio album by the Brecker Brothers that was released by GRP Records in 1994. In 1995 the album won the brothers two Grammy Awards for Best Contemporary Jazz Performance (now known as Best Contemporary Jazz Album) and Best Instrumental Composition (for Michael Brecker's \"African Skies\").\n\n\n== Reception ==\nAt AllMusic,  Jim Newsom gave the album four stars and wrote, \"The album is surprisingly strong, and any fears of a paint-by-numbers attempt to cash in on past glories are quickly dispelled with the opening 'Slang', which is reminiscent of Amandla-era Miles. Here, as throughout the disc, Michael's sax solo burns with abandon, while brother Randy's trumpet glides across a tastefully smooth and melodic terrain\".\n\n\n== Track listing ==\n\n\n== Personnel ==\n\nProduction\n\n\n== Awards ==\nGrammy Awards\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "crystal-stair-blanchard",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.95,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Black Pearl is an album by the American jazz duo Harrison/Blanchard, released in 1988. It was their final album together; Terence Blanchard began his long partnership with the director Spike Lee on School Daze, released the same year. The duo supported the album with a North American tour.",
+          "problem": "The entire albumDNA describes a DIFFERENT album, 'Black Pearl' (1988), not 'Crystal Stair' (1987). Title, year (1988 vs 1987), and 'final album' framing all belong to Black Pearl.",
+          "evidenceQuote": "Black Pearl is an album by the American jazz duo Harrison/Blanchard, released in 1988. It was their final album together",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Fields are CORRECT for Crystal Stair: MB embedded_mbid confirms title 'Crystal Stair', 1987, Columbia (CK 40830), Terence Blanchard + Donald Harrison. All 5 keyTracks match the MB tracklist. Only the albumDNA prose is swapped in from the Black Pearl Wikipedia page (stored_url = Black_Pearl_(Harrison/Blanchard_album)). Repair: keep fields/keyTracks, rewrite DNA to describe Crystal Stair and fix the wikipediaUrl."
+    },
+    "ours": {
+      "title": "Crystal Stair",
+      "artist": "Terence Blanchard",
+      "year": 1987,
+      "label": "Columbia",
+      "albumDNA": "Black Pearl is an album by the American jazz duo Harrison/Blanchard, released in 1988. It was their final album together; Terence Blanchard began his long partnership with the director Spike Lee on School Daze, released the same year. The duo supported the album with a North American tour.",
+      "keyTracks": [
+        "Softly as in a Morning Sunrise",
+        "Crystal Stair",
+        "God Bless the Child",
+        "Endicott",
+        "Slam"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Black_Pearl_(Harrison%2FBlanchard_album)"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "ced80b16-70c6-46f2-9b8b-328cc5fdb5d3",
+          "title": "Crystal Stair",
+          "date": "1987",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Terence Blanchard",
+            "Donald Harrison"
+          ],
+          "labels": [
+            {
+              "name": "Columbia",
+              "catalogNumber": "CK 40830"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "01d3075d-3b5d-4e47-9e08-f03a54383c71",
+            "title": "Crystal Stair",
+            "firstReleaseDate": "1987",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Softly as in a Morning Sunrise",
+            "Crystal Stair",
+            "God Bless the Child",
+            "Endicott",
+            "Slam",
+            "Grace of God",
+            "Duck's Revenge",
+            "Forbidden Dreams",
+            "Neoclassicism"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Black_Pearl_(Harrison%2FBlanchard_album)",
+        "page": {
+          "requestedTitle": "Black Pearl (Harrison/Blanchard album)",
+          "resolvedTitle": "Black Pearl (Harrison/Blanchard album)",
+          "shortDescription": "1988 studio album by Harrison/Blanchard",
+          "extract": "Black Pearl is an album by the American jazz duo Harrison/Blanchard, released in 1988. It was their final album together; Terence Blanchard began his long partnership with the director Spike Lee on School Daze, released the same year. The duo supported the album with a North American tour.\n\n\n== Production ==\nThe album was produced by George Petit. Donald Harrison and Blanchard were backed by Carl Allen on drums, Reginald Veal on bass, and Cyrus Chestnut on piano. Mark Whitfield played guitar on \"Infinite Heart\". Harrison played a C melody saxophone on some of the songs. \"Somewhere\" is an interpretation of Leonard Bernstein's composition. \"Selim Sivad\" is a paean to Miles Davis.\n\n\n== Critical reception ==\n\nThe Washington Post noted that \"the mood is generally dark, somber and understated—even 'Ninth Ward Strut', the third tune on the album and the first to really emphasize a beat, keeps the rhythms tightly contained.\" The Globe and Mail said that the duo's \"tunes are flirtatious, full of ambiguities and open ends; their solos are as often wistfully evasive as they are punchy and to the point.\" The Ottawa Citizen stated that the \"solid, post-bop improvising shows the duo's ability to move outside conventions and to compose well structured pieces.\"\nThe Windsor Star concluded that \"the title cut has a haunting quality, quietly suspenseful, but some tunes are blandly vamp-like.\" The Buffalo News opined that \"there is something curiously abstract, theoretical and even tentative about the record\". The Commercial Appeal praised \"Blanchard's finest recorded trumpet solos\". The New York Daily News opined that the duo \"prove that recreating bop-era jazz needn't result in wax-museum-like records like those of Wynton Marsalis.\" The Pittsburgh Press and The Edmonton Journal included Black Pearl on their lists of the 10 best jazz albums of 1988.\n\n\n== Track listing ==\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "satchmo",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.9,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "mismatch",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Louis Daniel Armstrong, nicknamed \"Satchmo\", \"Satch\", and \"Pops\", was an American jazz and blues trumpeter and vocalist. He was among the most influential figures in jazz...",
+          "problem": "The albumDNA is a biography of the PERSON Louis Armstrong (copied from his artist Wikipedia page), not a description of the album 'Satchmo'. Wrong kind of content for an album item.",
+          "evidenceQuote": "Louis Daniel Armstrong (August 4, 1901 – July 6, 1971), nicknamed \"Satchmo\", \"Satch\", and \"Pops\", was an American jazz and blues trumpeter and vocalist.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Album fields are correct (MB embedded_mbid: Satchmo, 1987, Pickwick Compact Discs PWK 009, Compilation, Louis Armstrong). The bio facts are accurate to Armstrong and the stored wiki link is Armstrong's own (correct) artist page, so wikiLinkVerdict=correct and entityMatch.wikipedia=yes — but the page is the artist bio, not the album, and the prose is a person-bio dump (entity_mismatch tell: 'a person when the item is an album'). SEPARATE problem: the keyTracks (Mi va di cantare, We Have All the Time in the World, Hello Dolly, You Go to My Head, Summertime) do NOT match this Pickwick compilation's tracklist; only 'Bye n Bye' ~ 'Bye and Bye'. The keyTracks were evidently scraped from a different 'Satchmo' release. Repair: rewrite DNA to describe THIS album and re-derive keyTracks from the Pickwick tracklist."
+    },
+    "ours": {
+      "title": "Satchmo",
+      "artist": "Louis Armstrong",
+      "year": 1987,
+      "label": "Pickwick Compact Discs",
+      "albumDNA": "Louis Daniel Armstrong, nicknamed \"Satchmo\", \"Satch\", and \"Pops\", was an American jazz and blues trumpeter and vocalist. He was among the most influential figures in jazz. His career spanned five decades and several eras in the history of jazz. Armstrong received numerous accolades including the Grammy Award for Best Male Vocal Performance for Hello, Dolly! in 1965, as well as a posthumous win for the Grammy Lifetime Achievement Award in 1972.",
+      "keyTracks": [
+        "Mi va di cantare",
+        "We Have All the Time in the World",
+        "Hello Dolly",
+        "You Go to My Head",
+        "Summertime",
+        "Bye 'n' Bye"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Louis_Armstrong"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "aab18034-4d5f-43b5-a8a6-9ba247ceb239",
+          "title": "Satchmo",
+          "date": "1987",
+          "country": null,
+          "status": "Official",
+          "artists": [
+            "Louis Armstrong"
+          ],
+          "labels": [
+            {
+              "name": "Pickwick Compact Discs",
+              "catalogNumber": "PWK 009"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0f76238e-efdb-3f60-af83-367fe8571198",
+            "title": "Satchmo",
+            "firstReleaseDate": "1987",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Back o' Town Blues",
+            "I Want a Big Butter and Egg Man",
+            "(Back Home In) Indiana",
+            "Tiger Rag",
+            "(What Did I Have to do to Get) Black and Blue",
+            "C'est Si Bon",
+            "St. James Infirmary",
+            "When the Saints Go Marching In",
+            "Someday You'll Be Sorry",
+            "Sweethearts on Parade",
+            "Jelly Roll Blues",
+            "Chimes Blues",
+            "Dipper Mouth Blues",
+            "Snake Rag",
+            "New Orleans Stomp",
+            "Bye and Bye"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Louis_Armstrong",
+        "page": {
+          "requestedTitle": "Louis Armstrong",
+          "resolvedTitle": "Louis Armstrong",
+          "shortDescription": "American jazz trumpeter and singer (1901–1971)",
+          "extract": "Louis Daniel Armstrong (August 4, 1901 – July 6, 1971), nicknamed \"Satchmo\", \"Satch\", and \"Pops\", was an American jazz and blues trumpeter and vocalist. Among the most influential figures in jazz, his career spanned five decades and several eras in the history of the genre. Armstrong received numerous accolades including the Grammy Award for Best Male Vocal Performance for Hello, Dolly! in 1965, as well as a posthumous win for the Grammy Lifetime Achievement Award in 1972. His influence crossed musical genres, with inductions into the DownBeat Jazz Hall of Fame, the Rock and Roll Hall of Fame, and the National Rhythm & Blues Hall of Fame, among others.\nArmstrong was born and raised in New Orleans. Coming to prominence in the 1920s as an inventive trumpet and cornet player, he was a foundational influence in jazz, shifting the focus of the music from collective improvisation to solo performance. Around 1922, Armstrong followed his mentor, Joe \"King\" Oliver, to Chicago to play in Oliver's Creole Jazz Band. Armstrong earned a reputation at \"cutting contests\", and his fame reached band leader Fletcher Henderson. Armstrong moved to New York City, where he became a featured and musically influential band soloist and recording artist. By the 1950s, Armstrong was an international musical icon, appearing regularly in radio and television broadcasts and on film. Apart from his music, he was also beloved as an entertainer, often joking with the audience and keeping a joyful public image at all times.\nArmstrong's best known songs include \"What a Wonderful World\", \"La Vie en Rose\", \"Hello, Dolly!\", \"On the Sunny Side of the Street\", \"Dream a Little Dream of Me\", \"When You're Smiling\" and \"When the Saints Go Marching In\". He collaborated with Ella Fitzgerald, producing three records together: Ella and Louis (1956), Ella and Louis Again (1957), and Porgy and Bess (1959). He also appeared in films such as A Rhapsody in Black and Blue (1932), Cabin in the Sky (1943), High Society (1956), Paris Blues (1961), A Man Called Adam (1966), and Hello, Dolly! (1969).\nWith his instantly recognizable, rich, gravelly voice, Armstrong was also an influential singer and skillful improviser. He was also skilled at scat singing. By the end of Armstrong's life, his influence had spread to popular music. He was one of the first popular African-American entertainers to \"cross over\" to wide popularity with white and international audiences. Armstrong rarely publicly discussed racial issues, sometimes to the dismay of fellow black Americans, but took a well-publicized stand for desegregation in the Little Rock Crisis. He could access the upper echelons of American society at a time when this was difficult for black men. His recording of “Melancholy Blues” is included on the Voyager Golden Record, a sample of the sights and sounds of Earth sent into space.\n\n\n== Early life ==\nArmstrong is believed to have been born in New Orleans on August 4, 1901, but the accuracy of this date has been heavily debated. Armstrong himself often claimed he was born on July 4, 1900. His parents were Mary Estelle \"Mayann\" Albert and William Armstrong. Mary Albert was from Boutte, Louisiana, and gave birth at home when she was about 16. Less than a year and a half later, they had a daughter, Beatrice \"Mama Lucy\" Armstrong (1903–1987), whom Albert raised. William Armstrong abandoned the family shortly after that.\nLouis Armstrong was raised by his grandmother until the age of five, when he was returned to his mother. Armstrong spent his youth in poverty in a rough neighborhood known as The Battlefield, on the southern section of Rampart Street. At the age of six, Armstrong started attending the Fisk School for Boys, a school that accepted black children in the racially segregated school system of New Orleans.\nArmstrong lived with his mother and sister during this time and worked for the Karnoffskys, a family of Lithuanian Jews, at their home. Armstrong helped their sons Morris and Alex collect \"rags and bones\" and deliver coal. In 1969, while recovering from heart and kidney problems at Beth Israel Hospital in New York City, Armstrong wrote a memoir called Louis Armstrong + the Jewish Family in New Orleans, LA., the Year of 1907, describing his time working for the Karnoffsky family.\nArmstrong writes about singing \"Russian Lullaby\" with the Karnoffsky family when their baby son David was put to bed and credits the family with teaching him to sing \"from the heart.\" Curiously, Arms"
+        }
+      }
+    }
+  },
+  {
+    "id": "stories",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.93,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Sail Away is an album by the American musician Tom Harrell. It was released in 1989 via Contemporary Records. The title track became a jazz standard. The album was reissued in 2003 with two bonus tracks.",
+          "problem": "The entire albumDNA describes a DIFFERENT album, 'Sail Away' (1989, Contemporary Records), not 'Stories' (1988). Title, year, and label all belong to Sail Away.",
+          "evidenceQuote": "Sail Away is an album by the American musician Tom Harrell. It was released in 1989 via Contemporary Records.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Fields/keyTracks are CORRECT for Stories: MB (search, sim 1.0) confirms title 'Stories', Tom Harrell, 1988, and all 5 keyTracks match the tracklist. Only the albumDNA prose is swapped in from the Sail Away Wikipedia page (stored_url = Sail_Away_(Tom_Harrell_album)). Label field is 'Unknown' (MB has no label). Repair: keep fields/keyTracks, rewrite DNA to describe Stories and fix the wikipediaUrl."
+    },
+    "ours": {
+      "title": "Stories",
+      "artist": "Tom Harrell",
+      "year": 1988,
+      "label": "Unknown",
+      "albumDNA": "Sail Away is an album by the American musician Tom Harrell. It was released in 1989 via Contemporary Records. The title track became a jazz standard. The album was reissued in 2003 with two bonus tracks.",
+      "keyTracks": [
+        "Rapture",
+        "Songflower",
+        "The Mountain",
+        "The Water’s Edge",
+        "Story"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sail_Away_(Tom_Harrell_album)"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "5d3dc1a9-9460-4d0e-bc91-63cd24855651",
+          "title": "Stories",
+          "date": "1988",
+          "country": null,
+          "status": "Official",
+          "artists": [
+            "Tom Harrell"
+          ],
+          "labels": [],
+          "releaseGroup": {
+            "mbid": "012db661-34a5-40db-9c16-a662f18a975d",
+            "title": "Stories",
+            "firstReleaseDate": "1988",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Rapture",
+            "Songflower",
+            "The Mountain",
+            "The Water’s Edge",
+            "Story",
+            "Viable Blues",
+            "Touchstone"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Sail_Away_(Tom_Harrell_album)",
+        "page": {
+          "requestedTitle": "Sail Away (Tom Harrell album)",
+          "resolvedTitle": "Sail Away (Tom Harrell album)",
+          "shortDescription": "1989 studio album by Tom Harrell",
+          "extract": "Sail Away is an album by the American musician Tom Harrell. It was released in 1989 via Contemporary Records. The title track became a jazz standard. The album was reissued in 2003 with two bonus tracks.\n\n\n== Production ==\nJoe Lovano played saxophone on four tracks. James Williams played piano; John Abercrombie played guitar.\n\n\n== Critical reception ==\n\nThe Windsor Star wrote that \"some tunes hover around a Wayne Shorter mode with their oddly looping lines, like 'Dream in June'.\" The Chicago Tribune called the album \"a lovely piece of work—fresh, concentrated, expressive.\" The Ottawa Citizen determined that \"it's disappointing to find [Harrell's] melodic side overwhelmed by modal progressions and liberally stretched lines.\" The Washington Post deemed Sail Away \"a beautifully arranged collection of mainstream jazz tunes, highlighted by several ballads and medium tempo tunes that make the most of Harrell's warm, soulful fluegelhorn.\"\nThe Village Voice noted \"the skittery Miles [Davis] of the charged arpeggios, melodic shards, and rhythmic displacement\" on \"Eons\" and the title track. The Chicago Reader labeled \"Sail Away\" \"one of the finest jazz sambas ever written and one of the more memorable compositions of any kind in 20 years.\"\n\n\n== Track listing ==\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "david-sanborn",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.95,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Double Vision is a 1986 album by Bob James and David Sanborn. The album was a successful smooth jazz release receiving frequent airplay. The original album was released in the US on May 19, 1986, by Warner Bros Records.",
+          "problem": "albumDNA prose describes a DIFFERENT album ('Double Vision', the 1986 Bob James / David Sanborn collaboration), not the self-titled 'David Sanborn' album under verification. The MB release and the matched wiki page (the self-titled Sanborn album, tracks Indio/Smile/Mamacita/Herbs/Concrete Boogie) are the real entity; the prose's factual skeleton (title, 1986, Bob James, May 19 1986 release) belongs to Double Vision.",
+          "evidenceQuote": "Sanborn is an album by jazz saxophonist David Sanborn, released by Warner Bros. in 1976. It contains a version of \"I Do It for Your Love\" by Paul Simon.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Frankenstein record: MB embedded_mbid and keyTracks correctly identify the self-titled David Sanborn album (Warner Bros.; MB dates this release 1990, a reissue; matched wiki page calls the original a 1976 album), but the albumDNA prose is entirely about 'Double Vision' (Bob James & David Sanborn, 1986). All 5 keyTracks match the MB tracklist of the self-titled album. wikiLinkVerdict 'correct' because the stored page IS about the self-titled David Sanborn album (our entity), even though it gives 1976 vs ours/MB 1990 (reissue). Year field (1990) not flagged as error since MB also shows 1990 for this release."
+    },
+    "ours": {
+      "title": "David Sanborn",
+      "artist": "David Sanborn",
+      "year": 1990,
+      "label": "Warner Bros. Records",
+      "albumDNA": "Double Vision is a 1986 album by Bob James and David Sanborn. The album was a successful smooth jazz release receiving frequent airplay. The original album was released in the US on May 19, 1986, by Warner Bros Records. It was released a week later in the UK.",
+      "keyTracks": [
+        "Indio",
+        "Smile",
+        "Mamacita",
+        "Herbs",
+        "Concrete Boogie"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/David_Sanborn_(album)"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "a4aff5ef-de09-433e-ade7-91aca42210fa",
+          "title": "David Sanborn",
+          "date": "1990",
+          "country": "DE",
+          "status": "Official",
+          "artists": [
+            "David Sanborn"
+          ],
+          "labels": [
+            {
+              "name": "Warner Bros. Records",
+              "catalogNumber": "927 304-2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "05edd445-b157-3c36-9c20-947cac4e78e6",
+            "title": "David Sanborn",
+            "firstReleaseDate": "1990",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Indio",
+            "Smile",
+            "Mamacita",
+            "Herbs",
+            "Concrete Boogie",
+            "I Do It for Your Love",
+            "Sophisticated Squaw",
+            "7th Ave."
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/David_Sanborn_(album)",
+        "page": {
+          "requestedTitle": "David Sanborn (album)",
+          "resolvedTitle": "David Sanborn (album)",
+          "shortDescription": "1976 studio album by David Sanborn",
+          "extract": "Sanborn is an album by jazz saxophonist David Sanborn, released by Warner Bros. in 1976. It contains a version of \"I Do It for Your Love\" by Paul Simon.\n\n\n== Track listing ==\n\"Indio\" (Rosalinda de Leon) - 5:35\n\"Smile\" (Paul Simon, Coleridge-Taylor Perkinson) - 5:24\n\"Mamacita\" (de Leon) - 4:45\n\"Herbs\" (Herb Bushler) - 4:29\n\"Concrete Boogie\" (Hiram Bullock) - 6:42\n\"I Do It for Your Love\" (Simon) - 2:47\n\"Sophisticated Squaw\" (Victor Lewis) - 4:47\n\"7th Ave.\" (Lewis) - 5:34\n\n\n== Personnel ==\nDavid Sanborn – alto saxophone, soprano saxophone, flute\nRosalinda de Leon – keyboards\nRichard Tee – keyboards on \"I Do It for Your Love\"\nHiram Bullock – guitar, vocals\nHerb Bushler – bass guitar\nVictor Lewis – drums\nJuma Santos – percussion\nPaul Simon – vocals on \"Smile\"\nPhoebe Snow – vocals on \"Smile\"\nPatti Austin – backing vocals\nLani Groves – backing vocals\nProduction\n\nJohn Court – executive producer\nPhil Ramone – producer, recording engineer\nVicki Fabry – recording assistant\nTheresa Del Pozzo – production coordinator\nSam Shaw – photography, design\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "hipmotism",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.92,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Night Song is an album by the saxophonist Arthur Blythe, released via Clarity Recordings in 1997.",
+          "problem": "albumDNA opens by describing a DIFFERENT album ('Night Song', 1997, Clarity Recordings), not 'Hipmotism' (1991, enja) which is the item under verification. The title, label and year in the prose belong to the Night Song album. MB embedded_mbid confirms the real entity is Hipmotism on enja with firstReleaseDate 1991.",
+          "evidenceQuote": "Night Song is an album by the saxophonist Arthur Blythe, released via Clarity Recordings in 1997.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Same artist (Arthur Blythe), wrong album grafted into the prose. MB embedded_mbid confirms Hipmotism, enja, releaseGroup firstReleaseDate 1991, and all 5 keyTracks match the MB Hipmotism tracklist (Dear Dessa, Dance Benita Dance, Cousin Sidney, Shadows, Hipmotism). The stored wiki URL ALSO points to the wrong entity: 'Night Song (Arthur Blythe album)' (1997). The second DNA sentence correctly references 'this Enja Records date features Dear Dessa' (Dear Dessa is on Hipmotism per MB), but the opening factual skeleton is Night Song's. wikiLinkVerdict=wrong_entity. keyTracks themselves are correct, so keyTracksVerdict=ok."
+    },
+    "ours": {
+      "title": "Hipmotism",
+      "artist": "Arthur Blythe",
+      "year": 1991,
+      "label": "Enja Records",
+      "albumDNA": "Night Song is an album by the saxophonist Arthur Blythe, released via Clarity Recordings in 1997. This Enja Records date features \"Dear Dessa\" as part of Arthur Blythe's free jazz output from 1991.",
+      "keyTracks": [
+        "Dear Dessa",
+        "Dance Benita Dance",
+        "Cousin Sidney",
+        "Shadows",
+        "Hipmotism"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Night_Song_(Arthur_Blythe_album)"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "0bc317ff-ae0d-4b97-b722-7f94b0bc8712",
+          "title": "Hipmotism",
+          "date": "",
+          "country": "DE",
+          "status": "Official",
+          "artists": [
+            "Arthur Blythe"
+          ],
+          "labels": [
+            {
+              "name": "enja",
+              "catalogNumber": null
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "04e4c1ae-76ea-35de-a060-ac3538813f28",
+            "title": "Hipmotism",
+            "firstReleaseDate": "1991",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Dear Dessa",
+            "Dance Benita Dance",
+            "Cousin Sidney",
+            "Shadows",
+            "Hipmotism",
+            "Miss Eugie",
+            "Matter Of Fact",
+            "Bush Baby",
+            "My Son Ra"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Night_Song_(Arthur_Blythe_album)",
+        "page": {
+          "requestedTitle": "Night Song (Arthur Blythe album)",
+          "resolvedTitle": "Night Song (Arthur Blythe album)",
+          "shortDescription": "1997 studio album by Arthur Blythe",
+          "extract": "Night Song is an album by the saxophonist Arthur Blythe, released via Clarity Recordings in 1997.\n\n\n== Reception ==\n\nIn his review for AllMusic, Scott Yanow stated: \"This is a particularly intriguing and enjoyable release ... Whether it be hints at New Orleans parade rhythms, Afro-Cuban jazz, older styles of jazz, or freer explorations, this is a fascinating set that is well worth several listens\". In JazzTimes, Miles Jordan wrote: \"This challenging CD finds Blythe doing most of the soloing with Stewart’s ebullient tuba primarily functioning as a walking bass. ... On the tunes that feature the percussionists-all playing hand drums-his marimbas definitely imbue them with a 'world music' feeling\".\n\n\n== Track listing ==\nAll compositions by Arthur Blythe except where noted\n\n\"Night Song (Cancion de La Noche)\" (Arthur Blythe, Gust Tsilias) – 5:44\n\"Sorrows of Sonny Liston\" (Tsilias) – 3:58\n\"Down San Diego Way\" – 3:43\n\"It's Hungry/Fulfillment\" (Blythe, Chico Freeman, Bob Stewart, Arto Tuncboyaciyan) – 7:43\n\"Ransom\" (Blythe, Tuncboyaciyan) – 4:04\n\"Cause of It All\" (Blythe, Stewart) – 5:02\n\"We See\" (Thelonious Monk) – 5:05\n\"Blood Count\" (Billy Strayhorn) – 6:18\n\"Slanderous\" – 3:57\n\"Contemplation\" – 5:43\n\"Hardly\" – 5:24\n\"Night Song (Cancion de La Noche) (Reprise)\" (Blythe, Tsilias) – 2:59\n\n\n== Personnel ==\nArthur Blythe – alto saxophone\nChico Freeman – bass clarinet, percussion\nBob Stewart – tuba\nGust Tsillis – marimba, vibraphone\nArto Tunçboyacıyan, David Frazier, Josh Jones – percussion\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "a-jazz-hour-with-dizzy-gillespie",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.9,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Dizzy Gillespie and the Double Six of Paris is a 1963 studio album collaboration between Dizzy Gillespie and Les Double Six, also known as the Double Six of Paris",
+          "problem": "The entire albumDNA describes a different album. Our item is 'A Jazz Hour With Dizzy Gillespie' (1992, Distribution Movieplay), which MB confirms with a distinct tracklist (includes Manteca, Alone Together, Birk's Works, The Mooche). The prose is lifted from the wikipedia page for the 1963 Double Six of Paris record (different tracklist: Emanon, Anthropology, One/Two Bass Hit, Hot House, Con Alma, etc.).",
+          "evidenceQuote": "Dizzy Gillespie and the Double Six of Paris is a 1963 studio album collaboration between Dizzy Gillespie and Les Double Six",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Same artist (Dizzy Gillespie) but the prose and the stored wiki link belong to a DIFFERENT album (the 1963 Double Six of Paris collaboration), not the 1992 Movieplay 'Jazz Hour' compilation that MB resolved from the embedded MBID. keyTracks (Tin Tin Deo, Manteca, Ooh-Shoo-Be-Doo-Bee, Groovin' High, Alone Together) all match OUR MB tracklist, so the catalog data is right — only the prose/wikiUrl are mis-sourced. Wiki page is about the other album → wrong_entity."
+    },
+    "ours": {
+      "title": "A Jazz Hour With Dizzy Gillespie",
+      "artist": "Dizzy Gillespie",
+      "year": 1992,
+      "label": "Distribution Movieplay",
+      "albumDNA": "Dizzy Gillespie and the Double Six of Paris is a 1963 studio album collaboration between Dizzy Gillespie and Les Double Six, also known as the Double Six of Paris, a French vocal group who sings in vocalese to songs associated with Dizzy Gillespie. Gillespie, pianist Bud Powell, and a rhythm section accompany; two of the songs feature his quintet, with James Moody. It was reissued on CD in 1989.",
+      "keyTracks": [
+        "Tin Tin Deo",
+        "Alone Together",
+        "Manteca",
+        "Ooh-Shoo-Be-Doo-Bee",
+        "Groovin' High"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Dizzy_Gillespie_and_the_Double_Six_of_Paris"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "4ad48640-1745-4d59-aa98-b57843239cc2",
+          "title": "A Jazz Hour With Dizzy Gillespie",
+          "date": "1992",
+          "country": null,
+          "status": "Official",
+          "artists": [
+            "Dizzy Gillespie"
+          ],
+          "labels": [
+            {
+              "name": "Distribution Movieplay",
+              "catalogNumber": "73550"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "02a37803-18ba-4f38-9f88-bbb5be6a8338",
+            "title": "A Jazz Hour With Dizzy Gillespie",
+            "firstReleaseDate": "1992",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Tin Tin Deo",
+            "Alone Together",
+            "Manteca",
+            "Ooh-Shoo-Be-Doo-Bee",
+            "Groovin' High",
+            "Birk's Works",
+            "School Days",
+            "I Can't Get Started",
+            "They Can't Take That Away From Me",
+            "There Is No Greater Love",
+            "Lady Be Good",
+            "The Mooche"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Dizzy_Gillespie_and_the_Double_Six_of_Paris",
+        "page": {
+          "requestedTitle": "Dizzy Gillespie and the Double Six of Paris",
+          "resolvedTitle": "Dizzy Gillespie and the Double Six of Paris",
+          "shortDescription": "1964 studio album by Dizzy Gillespie, Les Double Six, and Bud Powell",
+          "extract": "Dizzy Gillespie and the Double Six of Paris is a 1963 studio album collaboration between Dizzy Gillespie and Les Double Six, also known as the Double Six of Paris, a French vocal group who sings in vocalese to songs associated with Dizzy Gillespie. Gillespie, pianist Bud Powell, and a rhythm section accompany; two of the songs feature his quintet, with James Moody. It was reissued on CD in 1989.\nThe vocal parts by the Double Six were overdubbed on top of recordings by Gillespie, Powell, Pierre Michelot, and Kenny Clarke that had been made in July 1963. Two tracks were recorded with James Moody, Kenny Barron, Chris White, and Rudy Collins in Chicago in September 1963.\n\n\n== Reception ==\nLeonard Feather described the album as \"unique and unprecedented\" and described the music as \"sensational.\" Commenting on the vocalists, he wrote, \"The results impress partly as a technical tour de force, and the Double Six must be respected for its accuracy and peerless intonation, but these values are a means to an artistically complete end.\"\nThe Penguin Guide to Jazz gave the album 3.5 of 4 stars, applauding Gillespie's \"superb solos\" and the Double Six's \"supremely athletic vocals.\"\n\n\n== Track listing ==\n\"Emanon\" (Gillespie, Shaw) – 3:44\n\"Anthropology\" (Gillespie, Parker) – 2:45\n\"Tin Tin Deo\" (Fuller, Pozo) – 4:15\n\"One Bass Hit\" (Brown, Fuller, Gillespie) – 3:26\n\"Two Bass Hit\" (Gillespie, Lewis) – 3:31\n\"Groovin' High\" (Gillespie, Paparelli) – 2:27\n\"Ooh-Shoo-Be-Doo-Bee\" (Carroll, Gillespie, Graham) – 3:04\n\"Hot House\" (Dameron) – 3:01\n\"Con Alma\" (Gillespie) – 3:35\n\"Blue 'n' Boogie\" (Gillespie, Paparelli) – 3:08\n\"The Champ\" (Gillespie) – 3:06\n\"Ow!\" (Gillespie) – 2:43\n\n\n== Personnel ==\n\n\n=== Vocalists ===\nJean-Claude Briodin – vocals\nChristiane Legrand – vocals\nEddy Louiss – vocals\nMimi Perrin – vocals\nBob Smart – vocals\nWard Swingle – vocals\n\n\n=== Instrumentalists ===\nDizzy Gillespie – trumpet, vocal (7)\nJames Moody – alto saxophone   (7, 9)\nKenny Barron – piano   (7, 9)\nBud Powell – piano (1–3, 6, 8, 10–12)\nPierre Michelot – bass (1–3, 6, 8, 10–12)\nChris White – bass (7, 9)\nKenny Clarke – drums   (1–3, 6, 8, 10–12)\nRudy Collins – drums (7, 9)\n\n\n=== Arrangers ===\nLalo Schifrin – arranger\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "russell-malone",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.98,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Austin Richard Post, known professionally as Post Malone, is an American singer, rapper, songwriter, record producer, and actor. His music blends various genres including pop, hip-hop, trap, country, R&B, and rock.",
+          "problem": "The entire albumDNA is the biography of Post Malone (the pop/hip-hop artist born 1995), a completely different person from Russell Malone, the jazz guitarist who made this 1992 Columbia album. Classic disambiguation-collision corruption.",
+          "evidenceQuote": "Austin Richard Post (born July 4, 1995), known professionally as Post Malone, is an American singer, rapper, songwriter, record producer, and actor.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "MB search sim 1.0 confirms the real album (Russell Malone, self-titled, 1992-10-06, Columbia 52825) and all 5 keyTracks match its tracklist. But the albumDNA and the stored wikipediaUrl are about Post Malone — a different human entirely. Textbook entity_mismatch; wiki link wrong_entity."
+    },
+    "ours": {
+      "title": "Russell Malone",
+      "artist": "Russell Malone",
+      "year": 1992,
+      "label": "Columbia",
+      "albumDNA": "Austin Richard Post, known professionally as Post Malone, is an American singer, rapper, songwriter, record producer, and actor. His music blends various genres including pop, hip-hop, trap, country, R&B, and rock.",
+      "keyTracks": [
+        "Wives and Lovers",
+        "Invisible Colors",
+        "When I Take My Sugar to Tea",
+        "It's the Talk of the Town",
+        "St. Louis Blues"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Post_Malone"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "681249b4-2eaa-4438-b2a6-f5cd057bd53d",
+          "title": "Russell Malone",
+          "date": "1992-10-06",
+          "country": null,
+          "status": "Official",
+          "artists": [
+            "Russell Malone"
+          ],
+          "labels": [
+            {
+              "name": "Columbia",
+              "catalogNumber": "52825"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "3dcc4e36-4610-4cdb-bf1e-37afb28fda6f",
+            "title": "Russell Malone",
+            "firstReleaseDate": "1992-10-06",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Wives and Lovers",
+            "Invisible Colors",
+            "When I Take My Sugar to Tea",
+            "It's the Talk of the Town",
+            "St. Louis Blues",
+            "I Don't Know Enough About You",
+            "Close Your Eyes",
+            "London by Night",
+            "I Can't Believe That You're in Love With Me",
+            "Moonlight Serenade",
+            "Flowers for Emmett Till",
+            "Precious Lord"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Post_Malone",
+        "page": {
+          "requestedTitle": "Post Malone",
+          "resolvedTitle": "Post Malone",
+          "shortDescription": "American singer and rapper (born 1995)",
+          "extract": "Austin Richard Post (born July 4, 1995), known professionally as Post Malone, is an American singer, rapper, songwriter, record producer, and actor. His music blends various genres including pop, hip-hop, trap, country, R&B, and rock. \nMalone began his musical career in 2011, and earned mainstream recognition with his 2015 cloud rap debut single, \"White Iverson\". The song led him to sign with Republic Records, and served as lead single for his debut studio album, Stoney (2016), which spawned the Diamond-certified single \"Congratulations\" (featuring Quavo). His second album, Beerbongs & Bentleys (2018), debuted atop the US Billboard 200 and set numerous streaming records. It contained the US Billboard Hot 100 number-one singles \"Rockstar\" (featuring 21 Savage) and \"Psycho\" (featuring Ty Dolla Sign), and was nominated for Album of the Year at the 61st Grammy Awards. His third Hot 100 number-one single, \"Sunflower\", a duet with Swae Lee, was released for the accompanying soundtrack to the 2018 animated film Spider-Man: Into the Spider-Verse; it became the highest-certified song in RIAA history and was the first to receive a 2× Diamond certification. \nMalone's third album, Hollywood's Bleeding (2019), became his second project to both debut atop the Billboard 200 and receive Grammy Award nomination for Album of the Year. It spawned the single \"Circles\", which spent 61 weeks on the Hot 100, becoming Malone's biggest hit single to date. Malone's fourth and fifth albums, Twelve Carat Toothache (2022) and Austin (2023), both peaked at number two on the Billboard 200. In 2024, he topped the Billboard Hot 100 twice more with his guest appearance on Taylor Swift's \"Fortnight\" and his first country pop song, \"I Had Some Help\" (featuring Morgan Wallen). The latter served as the lead single for Malone's sixth album and country music debut, F-1 Trillion (2024), which became his third number-one album on the Billboard 200.\nMalone is among the best-selling music artists, with over 150 million records sold in the US alone according to the RIAA. His accolades include eleven Billboard Music Awards, five American Music Awards, six MTV Video Music Awards, and eighteen Grammy Award nominations. He holds several Billboard chart records: He is the first solo lead artist to top both the Rap Airplay and Adult Contemporary charts, while \"Circles\" set the record for longest climb to number one (41 weeks) on the Adult Contemporary chart by a solo artist. As of 2025, Malone is second only to Drake for artists with the most diamond-certified songs, with nine to his name.\n\n\n== Early life ==\nAustin Richard Post was born on July 4, 1995, in Syracuse, New York. He was raised by his father, Richard Post, and his stepmother, Jodie. His father had been a DJ in his youth and introduced Malone to many genres of music including hip-hop, country, and rock. When Malone was nine years old, he and his family moved to Grapevine, Texas, after his father became the manager of concessions for the Dallas Cowboys football team. According to Malone, his first foray into professional music began when he played guitar in a local metalcore band. His interest in the genre persisted past this endeavor as he also auditioned as a guitarist for the Texas-based metalcore group Crown the Empire in 2010, but was rejected after his guitar strings broke during the audition. He credited his initial interest in learning guitar to the video game series Guitar Hero.\nMalone has expressed his affinity for alternative rock music, and appeared for a DJ set at Emo Nite in Los Angeles, California, in June 2017, playing songs by My Chemical Romance at the event.  He says soon afterwards he transitioned to softer rock as well as hip-hop, before beginning to experiment on FL Studio.\n\n\n== Career ==\n\n\n=== 2011–2016: Career beginnings and Stoney ===\n\nAccording to Malone, he chose \"Post Malone\" as his stage name when he was \"14 or 15\". The name was rumored to be a reference to the professional basketball player Karl Malone, but Malone later explained that \"Post\" is his last name, and he used a \"rap name generator\" to get \"Malone\". \nAt age 17, Malone, along with his friend Jazzy Eff, released a parody synth-pop ballad song called \"Why Don't You Love Me\" under the alias Leon DeChino, intended for a school project. The song reappeared online in 2016. Malone later referred to the DeChino alias on his song \"Psycho\".\nAt the age of 18, using audio editor Audacity, Malone released his first mixtape, Y.A.T."
+        }
+      }
+    }
+  },
+  {
+    "id": "blue-rondo",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.8,
+      "entityMatch": {
+        "musicbrainz": "unsure",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "A 1997 Tudor date, Blue Rondo finds Charlie Parker in a bebop setting.",
+          "problem": "The embedded-MBID release is not a Charlie Parker bebop album; it is a 1997 Tudor various-artists clarinet recital. Parker (d. 1955) appears only as one composer credit among many (Debussy, Poulenc, Honegger, Stravinsky, Brubeck, etc.); the performers are clarinettist Karl-Heinz Steffens, pianist David Gazarov and others. Framing it as Parker 'in a bebop setting' belongs to a different kind of entity.",
+          "evidenceQuote": "artists: Brubeck, Debussy, Donato, Gilberto, Evans, Jones, Honegger, Parker, Poulenc, Stravinsky, Karl-Heinz Steffens, David Gazarov, Martin Zehn, Keith Copeland, Chris Lachotta; tracks include 'Premiere rhapsodie', 'Clarinet Sonatina, H.42', 'Clarinet Sonata, FP184'",
+          "source": "mb"
+        }
+      ],
+      "notes": "Items 'blue-rondo' (Charlie Parker) and 'blue-rondo-brubeck' (Dave Brubeck) both point to the SAME release mbid 505e34e7-b2da-4d89-92a9-72e2d9d1997d, a Tudor classical/jazz clarinet recital. The keyTracks listed here (Blue Rondo a la Turk, Premiere rhapsodie, Waltz for Debby, two Clarinet Sonatina movements) DO appear on that release, so keyTracks technically match; but the artist attribution to Charlie Parker and the 'bebop setting' description misrepresent a multi-composer clarinet album as a Parker bebop date. Classed entity_mismatch on the prose's factual skeleton (Parker/bebop) vs the actual release."
+    },
+    "ours": {
+      "title": "Blue Rondo",
+      "artist": "Charlie Parker",
+      "year": 1997,
+      "label": "Tudor",
+      "albumDNA": "A 1997 Tudor date, Blue Rondo finds Charlie Parker in a bebop setting. Among the tracks are \"Blue Rondo a la Turk\" and \"Première rhapsodie\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond.",
+      "keyTracks": [
+        "Blue Rondo a la Turk",
+        "Première rhapsodie",
+        "Waltz for Debby",
+        "Clarinet Sonatina, H.42: I. Modere",
+        "Clarinet Sonatina, H.42: II. Lent et soutenu"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "505e34e7-b2da-4d89-92a9-72e2d9d1997d",
+          "title": "Blue Rondo",
+          "date": "1997",
+          "country": "CH",
+          "status": "Official",
+          "artists": [
+            "Brubeck",
+            "Debussy",
+            "Donato",
+            "Gilberto",
+            "Evans",
+            "Jones",
+            "Honegger",
+            "Parker",
+            "Poulenc",
+            "Stravinsky",
+            "Karl‐Heinz Steffens",
+            "David Gazarov",
+            "Martin Zehn",
+            "Keith Copeland",
+            "Chris Lachotta"
+          ],
+          "labels": [
+            {
+              "name": "Tudor",
+              "catalogNumber": null
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "2666e0ed-0642-4511-bd58-e56bfa0a4cff",
+            "title": "Blue Rondo",
+            "firstReleaseDate": "1997",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Blue Rondo a la Turk",
+            "Première rhapsodie",
+            "Waltz for Debby",
+            "Clarinet Sonatina, H.42: I. Modere",
+            "Clarinet Sonatina, H.42: II. Lent et soutenu",
+            "Clarinet Sonatina, H.42: III. Vif et rythmique",
+            "Minha Saudade (My Longing)",
+            "3 Pieces for Solo Clarinet: No. 1. Sempre piano e molto tranquillo: quarter note = 52",
+            "3 Pieces for Solo Clarinet: No. 2. quarter note = 168",
+            "3 Pieces for Solo Clarinet: No. 3. quarter note = 160",
+            "Yardbird Suite",
+            "Clarinet Sonata, FP184: I. Allegro tristemente",
+            "Clarinet Sonata, FP184: II. Romanza: Tres calme",
+            "Clarinet Sonata, FP184: III. Allegro con fuoco",
+            "A Child Is Born"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "blue-rondo-brubeck",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.82,
+      "entityMatch": {
+        "musicbrainz": "unsure",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "mismatch",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Pianist Dave Brubeck's 1997 album Blue Rondo draws from the cool jazz tradition, released on Tudor.",
+          "problem": "Same release mbid as the Charlie Parker 'blue-rondo' item: a 1997 Tudor various-artists clarinet recital, not a Dave Brubeck cool-jazz album. Brubeck appears only as one of many composer credits; the performers are clarinettist Karl-Heinz Steffens, pianist David Gazarov and others.",
+          "evidenceQuote": "artists: Brubeck, Debussy, Donato, Gilberto, Evans, Jones, Honegger, Parker, Poulenc, Stravinsky, Karl-Heinz Steffens, David Gazarov, Martin Zehn, Keith Copeland, Chris Lachotta",
+          "source": "mb"
+        }
+      ],
+      "notes": "Duplicate of the same Tudor compilation (mbid 505e34e7...) also tagged as the Charlie Parker 'blue-rondo' item. Here the framing is Dave Brubeck cool jazz, which the release contradicts. keyTracks also fail: only 'Blue Rondo a la Turk' is on the MB tracklist; 'How Does Your Garden Grow?', 'Festival Hall', 'Easy as You Go', 'Dizzy's Dream', 'I See Satie' are NOT on this release (they read like tracks from an actual Brubeck album, but per instructions I do not correct from memory — they simply do not match the evidence tracklist)."
+    },
+    "ours": {
+      "title": "Blue Rondo",
+      "artist": "Dave Brubeck",
+      "year": 1997,
+      "label": "Tudor",
+      "albumDNA": "Pianist Dave Brubeck's 1997 album Blue Rondo draws from the cool jazz tradition, released on Tudor. The date includes \"Blue Rondo a la Turk\" and \"Première rhapsodie\".",
+      "keyTracks": [
+        "How Does Your Garden Grow?",
+        "Festival Hall",
+        "Easy as You Go",
+        "Blue Rondo a la Turk",
+        "Dizzy's Dream",
+        "I See Satie"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "505e34e7-b2da-4d89-92a9-72e2d9d1997d",
+          "title": "Blue Rondo",
+          "date": "1997",
+          "country": "CH",
+          "status": "Official",
+          "artists": [
+            "Brubeck",
+            "Debussy",
+            "Donato",
+            "Gilberto",
+            "Evans",
+            "Jones",
+            "Honegger",
+            "Parker",
+            "Poulenc",
+            "Stravinsky",
+            "Karl‐Heinz Steffens",
+            "David Gazarov",
+            "Martin Zehn",
+            "Keith Copeland",
+            "Chris Lachotta"
+          ],
+          "labels": [
+            {
+              "name": "Tudor",
+              "catalogNumber": null
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "2666e0ed-0642-4511-bd58-e56bfa0a4cff",
+            "title": "Blue Rondo",
+            "firstReleaseDate": "1997",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Blue Rondo a la Turk",
+            "Première rhapsodie",
+            "Waltz for Debby",
+            "Clarinet Sonatina, H.42: I. Modere",
+            "Clarinet Sonatina, H.42: II. Lent et soutenu",
+            "Clarinet Sonatina, H.42: III. Vif et rythmique",
+            "Minha Saudade (My Longing)",
+            "3 Pieces for Solo Clarinet: No. 1. Sempre piano e molto tranquillo: quarter note = 52",
+            "3 Pieces for Solo Clarinet: No. 2. quarter note = 168",
+            "3 Pieces for Solo Clarinet: No. 3. quarter note = 160",
+            "Yardbird Suite",
+            "Clarinet Sonata, FP184: I. Allegro tristemente",
+            "Clarinet Sonata, FP184: II. Romanza: Tres calme",
+            "Clarinet Sonata, FP184: III. Allegro con fuoco",
+            "A Child Is Born"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "jazz-in-film",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.93,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Terence Blanchard is an album by American jazz trumpeter Terence Blanchard. This is his debut full-length album as a leader. The record was released on June 18, 1991, via Columbia Records.",
+          "problem": "The entire albumDNA describes a DIFFERENT album -- Blanchard's 1991 self-titled debut on Columbia -- not 'Jazz in Film' (1999, Sony Classical), which is the item under verification",
+          "evidenceQuote": "Terence Blanchard is an album by American jazz trumpeter Terence Blanchard. This is his debut full-length album as a leader. The record was released on June 18, 1991, via Columbia Records.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "The MB embedded_mbid release confirms the ITEM is 'Jazz in Film' (Terence Blanchard, 1999, Sony Classical) and all 5 keyTracks match that MB tracklist. But the albumDNA prose is wholly about Blanchard's 1991 self-titled debut (Columbia) -- verbatim from the wrong stored_url Wikipedia page 'Terence Blanchard (album)'. The prose's factual skeleton (1991, Columbia, debut) belongs to a different release. The stored wiki link points to that wrong album page = wrong_entity. Repair note: keyTracks and structured fields are correct for Jazz in Film; only the prose and wiki link are wrong."
+    },
+    "ours": {
+      "title": "Jazz in Film",
+      "artist": "Terence Blanchard",
+      "year": 1999,
+      "label": "Sony Classical",
+      "albumDNA": "Terence Blanchard is an album by American jazz trumpeter Terence Blanchard. This is his debut full-length album as a leader. The record was released on June 18, 1991, via Columbia Records.",
+      "keyTracks": [
+        "A Streetcar Named Desire",
+        "Chinatown",
+        "The Subterraneans",
+        "Anatomy of a Murder",
+        "The Pawnbroker"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Terence_Blanchard_(album)"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "2463f54a-35bc-4779-806d-1cb48e9672fe",
+          "title": "Jazz in Film",
+          "date": "1999-03-02",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Terence Blanchard"
+          ],
+          "labels": [
+            {
+              "name": "Sony Classical",
+              "catalogNumber": "SK 60671"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "1031e760-86a1-3903-ad59-a1f814cc604a",
+            "title": "Jazz in Film",
+            "firstReleaseDate": "1999-03-02",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "A Streetcar Named Desire",
+            "Chinatown",
+            "The Subterraneans",
+            "Anatomy of a Murder",
+            "The Pawnbroker",
+            "Taxi Driver",
+            "Degas' Racing World",
+            "Man With the Golden Arm",
+            "Clockers"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Terence_Blanchard_(album)",
+        "page": {
+          "requestedTitle": "Terence Blanchard (album)",
+          "resolvedTitle": "Terence Blanchard (album)",
+          "shortDescription": "1991 studio album by Terence Blanchard",
+          "extract": "Terence Blanchard is an album by American jazz trumpeter Terence Blanchard. This is his debut full-length album as a leader. The record was released on June 18, 1991, via Columbia Records.\n\n\n== Reception ==\n\nScott Yanow of AllMusic stated, \"On the varied program, Blanchard opens and closes the set with a hymn (\"Motherless Child\" and \"Amazing Grace\"), performs four originals and comes up with personal interpretations of three standards... By the time this recording came out in 1992, Blanchard was ready to take his place as one of the trumpet giants of the '90s\". Leonard Feather of Los Angeles Times commented \"Trumpeter Blanchard brings new elements and an often invigorating lineup to his first album since he worked on the Spike Lee film Mo' Better Blues as arranger, trumpeter and trumpet instructor for actor Denzel Washington. There are four Blanchard originals, of which the hyperventilating \"Wandering Wonder\" and the hectic \"Azania\" are a little too effusive—the latter has an overlong drum solo. But \"Tomorrow's Just a Luxury,\" with its easy canter, and the solemn \"Sing Soweto\" reveal a strong compositional talent\".\n\n\n== Track listing ==\n\n\n== Personnel ==\nBand\n\nTerence Blanchard – trumpet\nBranford Marsalis – tenor saxophone (tracks: 2 3 8)\nSam Newsome – tenor saxophone (tracks: 5 7 9)\nRodney Whitaker – double bass\nJeff Watts – drums (tracks: 2 3 4)\nTroy Davis – drums (tracks: 5 6 7 9)\nBruce Barth – piano\nProduction\n\nDr. George Butler – executive producer\nDelfeayo Marsalis – producer, liner notes\nBernie Grundman – mastering\n\n\n== Chart performance ==\n\n\n== References ==\n\n\n== External links ==\nOfficial website"
+        }
+      }
+    }
+  },
+  {
+    "id": "joey-calderazzo",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.92,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Amanecer is an album by Joey Calderazzo. It was recorded in 2006 and released by Marsalis Music.",
+          "problem": "The albumDNA describes a DIFFERENT album -- 'Amanecer' (2006/2007, Marsalis Music) -- not the self-titled 'Joey Calderazzo' (2000, Columbia) under verification",
+          "evidenceQuote": "Amanecer is an album by Joey Calderazzo. It was recorded in 2006 and released by Marsalis Music.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "MB search match (topArtistSimilarity 1.0) confirms the ITEM is the self-titled 'Joey Calderazzo' (2000, Columbia, CK 69886); all 5 keyTracks match that MB tracklist. But the albumDNA prose is wholly about a different album, 'Amanecer' (2007, Marsalis Music) -- verbatim from the wrong stored_url page 'Amanecer (Joey Calderazzo album)'. The prose's factual skeleton (Amanecer, 2006, Marsalis Music) belongs to a different release. wiki link = wrong_entity. The closing bio sentence (played with Michael Brecker and Branford Marsalis) is true of Calderazzo but not in the Amanecer extract. Repair note: keyTracks/fields are correct for the 2000 self-titled album; prose and wiki link are wrong."
+    },
+    "ours": {
+      "title": "Joey Calderazzo",
+      "artist": "Joey Calderazzo",
+      "year": 2000,
+      "label": "Columbia",
+      "albumDNA": "Amanecer is an album by Joey Calderazzo. It was recorded in 2006 and released by Marsalis Music. He played extensively in bands led by Michael Brecker and Branford Marsalis, and has also led his own bands.",
+      "keyTracks": [
+        "The Oracle",
+        "Toonay",
+        "Haiku",
+        "Detonation",
+        "Time Remembered"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Amanecer_(Joey_Calderazzo_album)"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "f9a33d71-e098-4ff3-9e25-4c0b4b82ddea",
+          "title": "Joey Calderazzo",
+          "date": "2000",
+          "country": "XE",
+          "status": "Official",
+          "artists": [
+            "Joey Calderazzo"
+          ],
+          "labels": [
+            {
+              "name": "Columbia",
+              "catalogNumber": "CK 69886"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0a601dae-50c2-36d4-8025-b1ecc9d6b4fd",
+            "title": "Joey Calderazzo",
+            "firstReleaseDate": "2000",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "The Oracle",
+            "Toonay",
+            "Haiku",
+            "Detonation",
+            "Time Remembered",
+            "Catania",
+            "Sling and Arrows",
+            "The Charmer"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Amanecer_(Joey_Calderazzo_album)",
+        "page": {
+          "requestedTitle": "Amanecer (Joey Calderazzo album)",
+          "resolvedTitle": "Amanecer (Joey Calderazzo album)",
+          "shortDescription": "2007 studio album by Joey Calderazzo",
+          "extract": "Amanecer is an album by Joey Calderazzo. It was recorded in 2006 and released by Marsalis Music.\n\n\n== Recording and music ==\nThe album was recorded in January and February 2006. Most of the nine tracks are played by Calderazzo alone on piano. He is joined by guitarist Romero Lubambo for \"The Lonely Swan\", and by vocalist Claudia Acuña for \"So Many Moons\". All three play on \"Amanecer\" and \"Lara\".\n\n\n== Release and reception ==\n\nAmanecer was released by Marsalis Music in 2007. The AllMusic reviewer wrote that \"Every selection on this well-conceived project has its purpose and is memorable in its own way.\" The Penguin Guide to Jazz suggested that the presence of Lubambo and Acuña merely diluted the effect of what is otherwise a solo piano album. The JazzTimes wrote that it \"might be the album that gets his gifts as both a composer and a solo pianist embraced on a greater scale.\"\n\n\n== Track listing ==\n\"Midnight Voyage\"\n\"Sea Glass\"\n\"Toonay\"\n\"Amanecer\"\n\"The Lonely Swan\"\n\"I've Never Been in Love Before\"\n\"So Many Moons\"\n\"Waltz for Debby\"\n\"Lara\"\n\n\n== Personnel ==\nJoey Calderazzo – piano\nRomero Lubambo – guitar (tracks 4, 5, 9)\nClaudia Acuña – vocals (tracks 4, 7, 9)\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "congo-square",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.9,
+      "entityMatch": {
+        "musicbrainz": "n/a",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "no_evidence",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "A Tale of God's Will (A Requiem for Katrina) is a studio album recorded in 2007 by the Terence Blanchard Quintet. The album was originally released on August 14, 2007 (2007-08-14) by Blue Note Records.",
+          "problem": "The item is the album 'Congo Square' (our year 2006), but the entire albumDNA describes a DIFFERENT Blanchard album, 'A Tale of God's Will (A Requiem for Katrina)' (2007). Same artist, wrong album.",
+          "evidenceQuote": "A Tale of God's Will (A Requiem for Katrina) is a studio album recorded in 2007 by the Terence Blanchard Quintet. The album was originally released on August 14, 2007 (2007-08-14) by Blue Note Records.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Prose is wholly about 'A Tale of God's Will', not 'Congo Square'. stored_url also points to the A Tale of God's Will page (wrong album, same artist). MB search returned no release/candidates, so no tracklist to verify keyTracks for our album; the keyTracks list looks mixed ('Levees' and 'The Water' are A Tale of God's Will tracks per the wiki; 'Congo Square'/'Ghost of Congo Square' may belong to the actual Congo Square album). Repair writer must source genuine Congo Square (2004/2005, Blue Note) content."
+    },
+    "ours": {
+      "title": "Congo Square",
+      "artist": "Terence Blanchard",
+      "year": 2006,
+      "label": "Blue Note",
+      "albumDNA": "A Tale of God's Will (A Requiem for Katrina) is a studio album recorded in 2007 by the Terence Blanchard Quintet. The album was originally released on August 14, 2007 (2007-08-14) by Blue Note Records. A powerful statement about New Orleans' cultural importance and resilience. Blanchard's film scoring influence is evident.",
+      "keyTracks": [
+        "Congo Square",
+        "Levees",
+        "Ghost of Congo Square",
+        "The Water"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/A_Tale_of_God's_Will_(A_Requiem_for_Katrina)"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": null,
+        "release": null,
+        "searchCandidates": []
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/A_Tale_of_God's_Will_(A_Requiem_for_Katrina)",
+        "page": {
+          "requestedTitle": "A Tale of God's Will (A Requiem for Katrina)",
+          "resolvedTitle": "A Tale of God's Will (A Requiem for Katrina)",
+          "shortDescription": "2007 studio album by Terence Blanchard",
+          "extract": "A Tale of God's Will (A Requiem for Katrina) is a studio album recorded in 2007 by the Terence Blanchard Quintet. The album was originally released on August 14, 2007 (2007-08-14) by Blue Note Records.\nIn 2008, Blanchard won a Grammy Award for Best Large Jazz Ensemble Album, and was nominated for Best Jazz Instrument Solo for his work on the song \"Levees\". Also, JazzTimes included the album in its \"Jazz Albums with Strings\" list, ranking it #6.\n\n\n== Background ==\nFilm director Spike Lee commissioned New Orleans native Terence Blanchard to compose the score for his 2006 four-hour HBO documentary When the Levees Broke: A Requiem in Four Acts, to show the agony of the aftermath of Hurricane Katrina in 2005. In 2007, Blanchard recorded A Tale of God's Will, which contains parts (\"The Water\", \"Levees\", \"Wading Through\", and \"Funeral Dirge\") of the recording that were heard in Lee's documentary. Blanchard's mother, Wilhelmina, lost her Pontchartrain Park home in the tragedy but survived.\nIn his interview for Socialist Review Blanchard explained, \"I drew inspiration from the stories people had told me about their experiences in the aftermath of the hurricane. It wasn't so much about music for me. It was really more about what people had to endure. I just want people to reflect on what happened here and what people had to deal with, and how things can go terribly wrong in what is supposed to be the richest country in the world.\"\n\n\n== Reception ==\nWill Layman of PopMatters awarded the album nine points out of 10, stating \"Taken as a whole, two elements of this recording stand out. First, Blanchard and his group play selflessly, without reaching for flashy effects or long solos. Everything about this record is about bringing the compositions to full fruition, and the improvisation always sounds integrated with the full purpose of the music. Second, every element of the record is incorporated into its theme. Even the tracks that are somewhat disparate (a swinging duet between bass and trumpet on \"Ghost of Betsy\" and a fragmentary tenor solo on \"Ghost of 1927\", particularly) play as interludes that breathe life into the project between larger movements.\" Larry Blumenfeld of Entertainment Weekly commented \"Accompanied by an orchestra, Blanchard’s quintet moves elegantly from African rhythms to modern swing to balladic repose, his horn’s curled pleas and soaring declarations channeling both pain and resilience. It’s the Katrina story CNN can’t tell, masterfully told\". John Swenson of OffBeat added \"A Tale of God’s Will is an expansion of the music Blanchard and his band made for the Lee documentary, and it moves with the epic scope of the flood itself\".\nA reviewer of Reuters noted \"What started as a gig scoring Spike Lee’s HBO documentary “When the Levees Broke” has been imaginatively expanded by trumpeter Terence Blanchard into this epic-length, orchestral-string masterwork. As the second anniversary of the New Orleans deluge approaches, the Crescent City native delivers his compelling and poignant reflections on the catastrophe, with the support of his quintet and the 40-piece Northwest Sinfonia. In the tunes, there is anger and angst, lush melody and woeful wails, pockets of grace and flood waters of melancholy. Four “Levees” numbers are in the mix, with revitalized arrangements, including the prodding, ominous “The Water” and the painfully anguished “Funeral Dirge.” Of particular note are three impromptu short “ghost” pieces, as well as originals by Blanchard’s band members, highlighted by pianist Aaron Park’s lyrical gem “Ashe” and saxophonist Brice Winston’s heart-rending “In Time of Need.” Chris May of All About Jazz wrote \"Blanchard's no-frills, in-the-tradition, testifying trumpet, which is the main solo voice, rings out powerfully and affectingly throughout. He blows like a blues player sings, by turns angry, plaintive, stoic, hopeful and elegiac—and, almost tangibly, always from the heart\". Josh Jackson of NPR observed, \"this recording reveals what many jazz fans know: Blanchard is a powerful storyteller.\"\n\n\n== Track listing ==\n\n\n== Personnel ==\nBand\n\nTerence Blanchard – conductor, trumpet, orchestration, producer, liner notes,\nBrice Winston – soprano sax, tenor sax, liner notes\nDerrick Hodge – double bass, bass guitar, liner notes\nAaron Parks – piano, orchestration, liner notes,\nKendrick Scott – drums, percussion, orchestration\nZach Harmon – tabla and happy apple\nProduction\n\nHoward Drossin – orchestration\nRobin Burgess"
+        }
+      }
+    }
+  },
+  {
+    "id": "malphas-book-of-angels-volume-3",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.88,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "mismatch",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Orobas: Book of Angels Volume 4 is an album by Koby Israelite performing compositions from John Zorn's second Masada book, \"The Book of Angels\".",
+          "problem": "The item is 'Malphas: Book of Angels, Volume 3' (performed by Mark Feldman & Sylvie Courvoisier per MB), but the albumDNA describes a DIFFERENT volume, 'Orobas: Book of Angels Volume 4' by Koby Israelite. Wrong album in the series.",
+          "evidenceQuote": "Orobas: Book of Angels Volume 4 is an album by Koby Israelite performing compositions from John Zorn's second Masada book, \"The Book of Angels\".",
+          "source": "wiki"
+        }
+      ],
+      "notes": "MB embedded_mbid confirms OUR album is Malphas Vol 3 (Tzadik, 2006-01-24, performers Mark Feldman & Sylvie Courvoisier; Zorn is composer). But the albumDNA and the stored_url are both about Orobas Vol 4 (Koby Israelite) - a different release. keyTracks Azriel/Basus/Rigal/Kafziel match MB; 'Labariel' does not match (MB has 'Lahariel' - almost certainly a one-letter typo). Note: our artist field 'John Zorn' is the composer, not the performing artist MB lists, but that is conventional for the Book of Angels series and not the basis for this verdict; the verdict is driven by the swapped prose."
+    },
+    "ours": {
+      "title": "Malphas: Book of Angels, Volume 3",
+      "artist": "John Zorn",
+      "year": 2006,
+      "label": "Tzadik",
+      "albumDNA": "Orobas: Book of Angels Volume 4 is an album by Koby Israelite performing compositions from John Zorn's second Masada book, \"The Book of Angels\". Part of Tzadik's jazz fusion catalog. John Zorn's Tzadik label spans the avant-garde from jazz to experimental music.",
+      "keyTracks": [
+        "Azriel",
+        "Basus",
+        "Rigal",
+        "Kafziel",
+        "Labariel"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Orobas%3A_Book_of_Angels_Volume_4"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "4a570475-8e6b-43a6-a023-cfd5eff0821d",
+          "title": "Malphas: Book of Angels, Volume 3",
+          "date": "2006-01-24",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Mark Feldman",
+            "Sylvie Courvoisier"
+          ],
+          "labels": [
+            {
+              "name": "Tzadik",
+              "catalogNumber": "TZ 7354"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0460e9af-9300-3ade-884d-e31be068b533",
+            "title": "Malphas: Book of Angels, Volume 3",
+            "firstReleaseDate": "2006-01-24",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Azriel",
+            "Basus",
+            "Rigal",
+            "Kafziel",
+            "Lahariel",
+            "Zethar",
+            "Paschal",
+            "Boel",
+            "Sammael",
+            "Padiel",
+            "Vretil"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Orobas%3A_Book_of_Angels_Volume_4",
+        "page": {
+          "requestedTitle": "Orobas: Book of Angels Volume 4",
+          "resolvedTitle": "Orobas: Book of Angels Volume 4",
+          "shortDescription": "2006 studio album by Koby Israelite",
+          "extract": "Orobas: Book of Angels Volume 4 is an album by Koby Israelite performing compositions from John Zorn's second Masada book, \"The Book of Angels\".\n\n\n== Reception ==\nThe Allmusic review by Thom Jurek awarded the album 4 stars stating \"Orobas: Book of Angels, Vol. 4 is another essential Four-for-four and counting. This is the most exhilarating set of recordings Tzadik has offered in quite some time. For those who haven't yet checkout Israelite, this is a fantastic opportunity\". \n\n\n== Track listing ==\nAll compositions by John Zorn.\n\"Rampel\" - 6:31\n\"Zafiel\" - 4:40\n\"Ezgadi\" - 5:16\n\"Nisroc\" - 4:56\n\"Negef\" - 5:54\n\"Khabiel\" - 6:28\n\"Chayo\" - 6:27\n\"Rachmiel\" - 8:08\nRecorded in London, UK in November–December 2005\n\n\n== Personnel ==\nKoby Israelite – drums, percussion, accordion, keyboards, guitar, bouzouki, Indian banjo, vocals, flute, electric bass, cajón, arrangements\nSid Gauld – trumpet\nYaron Stavi – basses, vocals\nStewart Curtis – recorder, piccolo, clarinet\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "the-library-of-congress-recordings-by-alan-lomax",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.65,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Jelly Roll Morton: The Complete Library of Congress Recordings is a 2005 box set of recordings from jazz pioneer Jelly Roll Morton. The set spans 128 tracks over eight CDs. It won two Grammy Awards in 2006, Best Historical Album and Best Album Notes.",
+          "problem": "Our album is the single-disc 'The Library of Congress Recordings by Alan Lomax' (Rounder, 2006 per MB), but the albumDNA describes the 8-CD/128-track box set 'The Complete Library of Congress Recordings' (2005) and assigns that box set's Grammys. Same artist and source recordings, but a different release.",
+          "evidenceQuote": "In 2007, Rounder released Jelly Roll Morton: The Library of Congress Recordings by Alan Lomax, a single disc consisting of selected highlights from the box set.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Borderline but graded entity_mismatch: the prose's hard facts (8 CDs, 128 tracks, 2005, two 2006 Grammys) belong to the COMPLETE box set, a distinct release (distinct MBID/wiki page) from our single-disc highlights album. MB (search, similarity 1.0) confirms OUR release as 'The Library of Congress Recordings by Alan Lomax' (Rounder), and all 5 keyTracks match its tracklist. The stored_url points to the box set's page, not our single-disc release (hence wrong_entity). Repair writer: keep the Jelly Roll Morton/Library of Congress identity, but rewrite to describe the single-disc highlights release, not the box set."
+    },
+    "ours": {
+      "title": "The Library of Congress Recordings by Alan Lomax",
+      "artist": "Jelly Roll Morton",
+      "year": 2006,
+      "label": "Rounder",
+      "albumDNA": "Jelly Roll Morton: The Complete Library of Congress Recordings is a 2005 box set of recordings from jazz pioneer Jelly Roll Morton. The set spans 128 tracks over eight CDs. It won two Grammy Awards in 2006, Best Historical Album and Best Album Notes.",
+      "keyTracks": [
+        "I'm Alabama Bound",
+        "King Porter Stomp",
+        "Jelly Roll's Background",
+        "Mr. Jelly Lord",
+        "Stomping Grounds"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Jelly_Roll_Morton%3A_The_Complete_Library_of_Congress_Recordings"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "75d476d3-a113-4264-845c-dc974e272339",
+          "title": "The Library of Congress Recordings by Alan Lomax",
+          "date": "2006",
+          "country": null,
+          "status": null,
+          "artists": [
+            "Jelly Roll Morton"
+          ],
+          "labels": [
+            {
+              "name": "Rounder",
+              "catalogNumber": "11661-1897-2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "40fe3d9b-f5c1-4102-a4b3-923fd29344db",
+            "title": "The Library of Congress Recordings by Alan Lomax",
+            "firstReleaseDate": "2006",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "I'm Alabama Bound",
+            "King Porter Stomp",
+            "Jelly Roll's Background",
+            "Mr. Jelly Lord",
+            "Stomping Grounds",
+            "Anamule Dance, The",
+            "Tiger Rag / Panama",
+            "Right Tempo Is the Accurate Tempo, The",
+            "Maple Leaf Rag",
+            "Jazz Discords and Story of Kansas City Stomp / Kansas City Stomp",
+            "Kansas City Stomp",
+            "Wolverine Blues, Concluded",
+            "Spanish Tinge, The / New Orleans Blues / La Paloma",
+            "Crave, The",
+            "Sporting Attire and Shooting the Agate",
+            "Funeral March / Flee as the Bird to the Mountain",
+            "How Jelly Roll Got His Name / Original Jelly Roll Blues"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Jelly_Roll_Morton%3A_The_Complete_Library_of_Congress_Recordings",
+        "page": {
+          "requestedTitle": "Jelly Roll Morton: The Complete Library of Congress Recordings",
+          "resolvedTitle": "Jelly Roll Morton: The Complete Library of Congress Recordings",
+          "shortDescription": "2005 box set by Jelly Roll Morton",
+          "extract": "Jelly Roll Morton: The Complete Library of Congress Recordings is a 2005 box set of recordings from jazz pioneer Jelly Roll Morton.  The set spans 128 tracks over eight CDs. It won two Grammy Awards in 2006, Best Historical Album and Best Album Notes.\n\n\n== Background ==\nIn 1938, noted musicologist and Morton biographer Alan Lomax conducted a series of interviews with Morton at the Library of Congress. Richard Cook and Brian Morton describe these recordings as Jelly Roll Morton's \"virtual history of the birth pangs of jazz as it happened in the New Orleans of the turn of the century. His memory was unimpaired, although he chose to tell things as he preferred to remember them, perhaps; and his hands were still in complete command of the keyboard.\"\nExcerpts from the sessions first appeared on a 1948 album. Riverside Records issued the recordings as LP records in 1955.  Ron Wynn and Bruce Boyd Raeburn note that \"though the albums came out posthumously, the interviews generated tremendous new interest in Morton's life and music.\" During the 1990s, Rounder Records released a series of compact discs including the musical content, but not the dialogue, from the 1938 sessions. Both the Riverside and earlier Rounder releases were heavily expurgated, and as recently as 2008, when selections from the complete Rounder collection were featured in a BBC Radio 4 documentary on Morton, presenter Marybeth Hamilton noted that, even then, some of the recordings were still considered unsuitable for broadcast, due to the obscene nature of some of the lyrics and Morton's narration.\n\n\n== 2005 release ==\nIn 2005, Rounder released the 1938 recordings in their entirety as part of an eight-disc box set.  The first seven discs include Lomax's 1938 interviews, in which Morton describes his life and the early days of jazz, plays piano, and sings. The eighth disc includes 1949 recordings of Morton's contemporaries, reminiscing about Morton and providing musical demonstrations.\nThe set was originally released in a piano-shaped box and included a copy of Mister Jelly Roll, Lomax's biography about Morton. The set also includes a PDF file including additional liner notes, complete transcriptions of the recorded dialogue and lyrics, additional unrecorded interviews and archival documents and photos.\nIn 2007, Rounder released Jelly Roll Morton: The Library of Congress Recordings by Alan Lomax, a single disc consisting of selected highlights from the box set.\n\n\n== Reception ==\n\narwulf arwulf  [sic], writing for allmusic, described the recordings as having been \"beautifully restored.\"\nHarvey Pekar, writing for The Austin Chronicle, gave the set a five-star rating (of a possible five), noting that \"[Morton's] oral history here is provocative, and his playing bears out some of the hard-to-believe statements that have been made by (and about) him.\"\nRichard Cook and Brian Morton, writing for The Penguin Guide to Jazz, gave the set a four-star rating (of a possible four), describing it as \"surely the most comprehensive coverage of the speech and music to date.… It is a wonderfully illustrated lecture on Morton's music by the man who created it. Indispensable records for anyone interested in jazz history.\"\nLouis Armstrong recorded an audio response to the 1948 album version of the recordings in 1950 or 1951, praising Morton but taking issue with Morton's recollections about Scat singing.\n\n\n== Track listing ==\n\n\n== Credits ==\nJelly Roll Morton – piano, vocals, guitar, commentary\nAlan Lomax – interviewer\nJohnny St. Cyr – guitar, commentary\nLeonard Bechet – commentary\nPaul Dominguez Jr. – guitar, commentary\nAlbert Glenny – commentary\nAlphonse Picou – commentary\nJohn Szwed - album notes\n\n\n== References ==\n\n\n== External links ==\nLibrary of Congress release on Grammy awards"
+        }
+      }
+    }
+  },
+  {
+    "id": "standards",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.88,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Ballads is a solo studio album by English guitarist Derek Bailey. It was released on 23 April 2002, through Tzadik.",
+          "problem": "The item is Derek Bailey's 'Standards' (2007, Tzadik per MB), but the albumDNA describes a DIFFERENT Bailey album, 'Ballads' (2002, Tzadik). Same artist and label, wrong album.",
+          "evidenceQuote": "Ballads is a solo studio album by English guitarist Derek Bailey. It was released on 23 April 2002, through Tzadik.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "MB embedded_mbid confirms OUR album is 'Standards' (Tzadik, 2007-06-26, Derek Bailey), and all 5 keyTracks match its tracklist. But the albumDNA and the stored_url are both about 'Ballads' (2002) - a different Bailey/Tzadik album. Repair writer: keep Derek Bailey/Standards/Tzadik 2007 identity; rewrite prose to describe Standards, not Ballads."
+    },
+    "ours": {
+      "title": "Standards",
+      "artist": "Derek Bailey",
+      "year": 2007,
+      "label": "Tzadik",
+      "albumDNA": "Ballads is a solo studio album by English guitarist Derek Bailey. It was released on 23 April 2002, through Tzadik. In 2007, The Guardian included the album in their list of \"1000 Albums to Hear Before You Die\".",
+      "keyTracks": [
+        "Nothing New",
+        "Frankly My Dear I Don't Give a Damn",
+        "When Your Liver Has Gone",
+        "Please Send Me Sweet Chariot",
+        "Don't Talk About Me"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ballads_(Derek_Bailey_album)"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "0f23ead6-81a5-46ef-8978-81849658909c",
+          "title": "Standards",
+          "date": "2007-06-26",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Derek Bailey"
+          ],
+          "labels": [
+            {
+              "name": "Tzadik",
+              "catalogNumber": "TZ 7620"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0511f837-9c5b-3dd7-a6fd-68aed5edee95",
+            "title": "Standards",
+            "firstReleaseDate": "2007-06-26",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Nothing New",
+            "Frankly My Dear I Don't Give a Damn",
+            "When Your Liver Has Gone",
+            "Please Send Me Sweet Chariot",
+            "Don't Talk About Me",
+            "Pentup Serenade",
+            "Head"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Ballads_(Derek_Bailey_album)",
+        "page": {
+          "requestedTitle": "Ballads (Derek Bailey album)",
+          "resolvedTitle": "Ballads (Derek Bailey album)",
+          "shortDescription": "2002 studio album by Derek Bailey",
+          "extract": "Ballads is a solo studio album by English guitarist Derek Bailey. It was released on 23 April 2002, through Tzadik. In 2007, The Guardian included the album in their list of \"1000 Albums to Hear Before You Die\".\n\n\n== Background ==\nThe album contains Derek Bailey's 14 solo guitar renditions of standard songs. It was recorded by Toby Hrycek-Robinson and mastered by Scott Hull. It was released through John Zorn's American record label Tzadik. Marc Ribot wrote the album's liner notes.\n\n\n== Critical reception ==\n\nBrian Olewnick of AllMusic stated, \"Ballads is stunningly gorgeous, lovely melodies like 'Laura' being passionately stroked even as they abut against Bailey's questioning angularities and brusque, impolite commentary.\" He added, \"Whether one is glad or distressed that he chose to dip his toes into these waters, Ballads is a singularly lovely recording, one that certainly stands out in Bailey's oeuvre and one that is nigh impossible not to smile about and linger over.\" Dominique Leone of Pitchfork commented that \"Bailey's improvisations here are at once impenetrable and immediately familiar.\" He called the album \"a fine entryway to the appreciation of Bailey's art.\"\nIn 2007, The Guardian included the album in their list of \"1000 Albums to Hear Before You Die\".\n\n\n=== Accolades ===\n\n\n== Track listing ==\n\n\n== Personnel ==\nCredits adapted from liner notes.\n\nDerek Bailey – guitar, production\nToby Hrycek-Robinson – recording\nScott Hull – mastering\nJohn Zorn – executive production\nKazunori Sugiyama – associate production\nHeung-Heung Chin – design\nMarc Ribot – liner notes\n\n\n== References ==\n\n\n== External links ==\nBallads at Discogs"
+        }
+      }
+    }
+  },
+  {
+    "id": "pithecanthropus-erectus-the-clown",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.93,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no",
+        "n/a": "n/a"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Charles Mingus in Paris: The Complete America Session is a compilation of two albums by American bassist, composer and bandleader Charles Mingus which were recorded in Paris in 1970 and first released on the French America label as Blue Bird and Pithycanthropus Erectus. The compilation was released on the Sunnyside label in 2006",
+          "problem": "The albumDNA describes an entirely different Mingus compilation (a Paris-1970 session reissue titled 'Charles Mingus in Paris: The Complete America Session', France/America label, Sunnyside 2006). Our album is 'Pithecanthropus Erectus + The Clown' (Essential Jazz Classics, 2009), a compilation of the 1956 'Pithecanthropus Erectus' and the 1957 'The Clown' studio albums. Different release, different label, different year, different sessions.",
+          "evidenceQuote": "title: Pithecanthropus Erectus + The Clown | date: 2009 | labels: Essential Jazz Classics (EJC55437) | tracks: Pithecanthropus Erectus, A Foggy Day, Profile of Jackie, Love Chant, Haitian Fight Song, Blue Cee, Reincarnation of a Lovebird, The Clown",
+          "source": "mb"
+        }
+      ],
+      "notes": "MB (embedded_mbid, authoritative) confirms our title/artist/year/label and the keyTracks all match its tracklist exactly — so the catalog FIELDS describe the right album. The albumDNA prose, however, is verbatim Wikipedia text about a DIFFERENT Mingus compilation (the Paris 1970 'Complete America Session', Sunnyside 2006). The stored wikipediaUrl points to that wrong-album page. Repair: rewrite albumDNA for the 1956-57 Pithecanthropus Erectus / The Clown compilation and replace the wiki link."
+    },
+    "ours": {
+      "title": "Pithecanthropus Erectus + The Clown",
+      "artist": "Charles Mingus",
+      "year": 2009,
+      "label": "Essential Jazz Classics",
+      "albumDNA": "Charles Mingus in Paris: The Complete America Session is a compilation of two albums by American bassist, composer and bandleader Charles Mingus which were recorded in Paris in 1970 and first released on the French America label as Blue Bird and Pithycanthropus Erectus. The compilation was released on the Sunnyside label in 2006 with all the released tracks combined on one CD and a second CD of additional tracks featuring false starts and incomplete takes from the session.",
+      "keyTracks": [
+        "Pithecanthropus Erectus",
+        "A Foggy Day",
+        "Profile of Jackie",
+        "Love Chant",
+        "Haitian Fight Song"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Charles_Mingus_in_Paris%3A_The_Complete_America_Session"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "7060d264-1d4d-46f3-91d2-4dd1ac200290",
+          "title": "Pithecanthropus Erectus + The Clown",
+          "date": "2009",
+          "country": "XE",
+          "status": "Official",
+          "artists": [
+            "Charles Mingus"
+          ],
+          "labels": [
+            {
+              "name": "Essential Jazz Classics",
+              "catalogNumber": "EJC55437"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "e976f4ed-dd13-4cd0-9bdb-5dd5867d251d",
+            "title": "Pithecanthropus Erectus + The Clown",
+            "firstReleaseDate": "2009",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Pithecanthropus Erectus",
+            "A Foggy Day",
+            "Profile of Jackie",
+            "Love Chant",
+            "Haitian Fight Song",
+            "Blue Cee",
+            "Reincarnation of a Lovebird",
+            "The Clown"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Charles_Mingus_in_Paris%3A_The_Complete_America_Session",
+        "page": {
+          "requestedTitle": "Charles Mingus in Paris: The Complete America Session",
+          "resolvedTitle": "Charles Mingus in Paris: The Complete America Session",
+          "shortDescription": "1970 compilation album by Charles Mingus",
+          "extract": "Charles Mingus in Paris: The Complete America Session is a compilation of two albums by American bassist, composer and bandleader Charles Mingus which were recorded in Paris in 1970 and first released on the French America label as Blue Bird and Pithycanthropus Erectus. The compilation was released on the Sunnyside label in 2006 with all the released tracks combined on one CD and a second CD of additional tracks featuring false starts and incomplete takes from the session.\n\n\n== Reception ==\nKen Dryden of Allmusic stated, \"After a five-year layoff from doing any studio recording, Mingus was fully prepared for this 1970 session...  The soloists shine throughout the date, with no one musician trying to outdo the others. This two-CD set adds all of the other material recorded during this single-day session on a separate disc, including all false starts, breakdowns, incomplete takes, and rehearsals, so serious fans can figure out how the performances evolved in the studio\". Andrey Henkin from All About Jazz stated \"The material is a strange assortment from various eras.. The longer tunes are more exciting but the shorter ones demonstrate Mingus' concern for strong composing, his or others\" \n\n\n== Track listing ==\nAll compositions by Charles Mingus except where noted.\nDisc one\n\n\"I Left My Heart in San Francisco\" (George Cory, Douglass Cross) - 4:06 Originally released on Blue Bird\n\"Reincarnation of a Lovebird\" - 15:11 Originally released on Blue Bird\n\"Peggy's Blue Skylight\" - 12:52 Originally released on Pithycanthropus Erectus\n\"Love Is a Dangerous Necessity\" - 4:36 Originally released on Pithycanthropus Erectus\n\"Blue Bird\" - 18:10 Originally released on Blue Bird\n\"Pithecanthropus Erectus\" - 16:41 Originally released on Pithycanthropus Erectus\nAlso released as Reincarnation of Lovebird 2 LP set by Prestige records in 1970\nDisc two\n\n\"Reincarnation of a Lovebird\" [Warm Up and First False Start] - 0:30\n\"Reincarnation of a Lovebird\" [Second False Start] - 1:49\n\"Reincarnation of a Lovebird\" [Third False Start] - 0:06\n\"Reincarnation of a Lovebird\" [Incomplete Take] - 4:51\n\"Peggy's Blue Skylight\" [First False Start] - 0:15\n\"Peggy's Blue Skylight\" [Second False Start] - 0:15\n\"Peggy's Blue Skylight\" [Third False Start and Rehearsal] - 0:37\n\"Peggy's Blue Skylight\" [Alternate Take] - 9:47\n\"Blue Bird\" [Incomplete Take] - 4:12\n\"Reprise\" - 0:42\n\"Love Is a Dangerous Necessity\" [First False Start] - 1:06\n\"Love Is a Dangerous Necessity\" [Second False Start] - 1:49\n\"Pithecanthropus Erectus\" [First Take, Incomplete] - 7:33\n\"Pithecanthropus Erectus\" [Reprise] - 0:54\n\"Pithecanthropus Erectus\" [Rehearsal] - 0:35\n\"Pithecanthropus Erectus\" [False Start] - 0:09\n\"Pithecanthropus Erectus\" [To the End] - 10:02\n\"Pithecanthropus Erectus\" [Mingus Explanations, Restart] - 2:17\n\n\n== Personnel ==\nCharles Mingus - bass\nEddie Preston - trumpet\nCharles McPherson - alto saxophone\nBobby Jones - tenor saxophone\nJaki Byard - piano\nDannie Richmond - drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "xxi-century",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "entity_mismatch",
+      "confidence": 0.95,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "XXI Century is a 2008 album by trumpeter and flugelhornist Claudio Roditi. The Brazilian-born, New York-based musician draws on both straight-ahead jazz and Latin rhythms, delivering a set that reflects decades of work bridging American jazz and Brazilian musical traditions.",
+          "problem": "The albumDNA's factual skeleton is about a DIFFERENT artist and album — Claudio Roditi (trumpeter/flugelhornist, Brazilian-born), year 2008 — not Gonzalo Rubalcaba's 2011 piano album. Wrong artist, wrong instrument, wrong year, wrong nationality framing.",
+          "evidenceQuote": "artists: Gonzalo Rubalcaba | title: XXI Century | date: 2011-11-15 | labels: 5Passion (5P-010)",
+          "source": "mb"
+        }
+      ],
+      "notes": "The catalog FIELDS are correct: MB (embedded) and the entity-matched Wikipedia artist page both confirm artist=Gonzalo Rubalcaba, title='XXI Century', label=5Passion, year=2011 (wiki discography: 'XXI Century (5Passion, 2011)'); all five keyTracks match the MB tracklist. But the albumDNA prose is corrupted with content about Claudio Roditi's 2008 album (a different trumpeter). Only the trailing sentence ('Captures pianist Gonzalo Rubalcaba in a 2011 contemporary jazz setting') is correct. Classic disambiguation-collision disease. Repair: rewrite albumDNA for Rubalcaba; the wiki link and fields are fine."
+    },
+    "ours": {
+      "title": "XXI Century",
+      "artist": "Gonzalo Rubalcaba",
+      "year": 2011,
+      "label": "5Passion",
+      "albumDNA": "XXI Century is a 2008 album by trumpeter and flugelhornist Claudio Roditi. The Brazilian-born, New York-based musician draws on both straight-ahead jazz and Latin rhythms, delivering a set that reflects decades of work bridging American jazz and Brazilian musical traditions. Captures pianist Gonzalo Rubalcaba in a 2011 contemporary jazz setting, adding to the recorded documentation of the contemporary era.",
+      "keyTracks": [
+        "Nueva Cubana",
+        "Time Remembered",
+        "Fifty",
+        "Anthem",
+        "Son XXI"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Gonzalo_Rubalcaba"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "b2508e6f-8709-4ffc-919a-d3eda3617a9d",
+          "title": "XXI Century",
+          "date": "2011-11-15",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Gonzalo Rubalcaba"
+          ],
+          "labels": [
+            {
+              "name": "5Passion",
+              "catalogNumber": "5P-010"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0e638512-2187-40b1-94e3-0d4e9ed741b8",
+            "title": "XXI Century",
+            "firstReleaseDate": "2011-11-15",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Nueva Cubana",
+            "Time Remembered",
+            "Fifty",
+            "Anthem",
+            "Son XXI",
+            "Alafia",
+            "Lennie's Pennies"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Gonzalo_Rubalcaba",
+        "page": {
+          "requestedTitle": "Gonzalo Rubalcaba",
+          "resolvedTitle": "Gonzalo Rubalcaba",
+          "shortDescription": "Afro-Cuban jazz pianist and composer",
+          "extract": "Gonzalo Rubalcaba (born May 27, 1963) is a Cuban jazz pianist and composer. \n\n\n== Early life ==\nRubalcaba was born Gonzalo Julio González Fonseca in Havana, Cuba into a musical family. He adopted his great-grandmother's name for professional use, just as did his father, Guillermo Rubalcaba (born Guillermo González Camejo) and his grandfather, Jacobo Rubalcaba (born Jacobo González Rubalcaba).\n\n\n== Later life and career ==\nWith Orquesta Aragón, Rubalcaba toured France and Africa in 1983. He formed his own Grupo Projecto in 1985. \nHe has won three Grammy Awards and received twelve nominations. \n\n\n== Discography ==\n\n\n=== As leader/co-leader ===\nMi Gran Pasion (Connector/Timba, 1987)\nLive in Havana (Pimienta, 1989)\nGiraldilla (Pimienta, 1990)\nDiscovery: Live at Montreux (Blue Note, 1990)\nGonzalo Rubalcaba Trio at Montreux (Somethin' Else, 1990)\nThe Blessing (Blue Note, 1991)\nImages (Blue Note, 1992)\nAt Montreux (Artex, 1993)\nSuite 4 Y 20 (Blue Note, 1993)\nDiz (Blue Note, 1993)\nRapsodia (Blue Note, 1994)\nImagine: Live in America (Blue Note, 1994)\nConcatenacion (Egrem, 1995)\nConcierto Negro (Egrem, 1995)\nFlying Colors (Blue Note, 1997)\nRomantic (EMI, 1998)\nGonzalo Rubalcaba (Max, 1998)\nAntiguo (Blue Note, 1998)\nInner Voyage (Blue Note/EMI, 1999)\nInicio (Egrem, 2001)\nSupernova  (Blue Note, 2001)\nStraight Ahead (Yemaya, 2003)\nSoneros de Verdad Present Rubalcaba Pasado y Presente (Universal Music Latino/Pimienta, 2003)\nPaseo (Blue Note, 2004)\nThe Trio (Angel, 2005)\nSolo  (Blue Note, 2005)\nAvatar (Angel, 2008)\nFaith (5Passion, 2010)\nXXI Century (5Passion, 2011)\nLive Faith (5Passion, 2014)\nSuite Caminos (5Passion, 2015)\nTokyo Adagio with Charlie Haden (Impulse!, 2015) - Recorded in 2005\nCharlie (5Passion, 2015)\nSkyline with Ron Carter, Jack DeJohnette (5Passion, 2021)\nPédron Rubalcaba with Pierrick Pédron (mars 2023)\nBorrowed Roses (Top Stop, 2023)\nA Tribute to Benny Moré and Nat King Cole with Yainer Horta, Joey Calveiro  (Calveiro Entertainment, 2025)\n\n\n=== As sideman ===\nWith Ignacio Berroa\n\nCodes (Blue Note, 2006)\nWith Ron Carter\n\nMr. Bow-tie (Somethin' Else, 1995)\nWith Juan Luis Guerra\n\nBachata Rosa (Karen, 1990)\nWith Francisco Céspedes\n\nCon el Permiso de Bola (Warner Music Mexico, 2006)\nWith Chick Corea\n\nRendezvous in New York (Stretch, 2003)\nWith Dave Holland\n\nThe Monterey Quartet: Live at the 2007 Monterey Jazz Festival (Monterey Jazz Festival, 2009)\nWith Al Di Meola\n\nPursuit of Radical Rhapsody (Concord, 2011)\nFlesh on Flesh (Telarc, 2022)\nWith Richard Galliano\n\nLove Day (Milan, 2008)\nWith Charlie Haden\n\n1989: The Montreal Tapes: with Gonzalo Rubalcaba and Paul Motian (Verve, 1997)\n2000: Nocturne (Verve, 2001)\n2003: Land of the Sun (Verve, 2004)\n2005: Tokyo Adagio (Impulse!, 2015) – live at The Blue Note, Tokyo, Japan\nWith Katia Labèque\n\nShape of My Heart (KML, 2009)\nWith Tony Martinez\n\nHabana Vive\nMafarefun\nWith Pat Martino\n\nThink Tank\nWith Strat Andriotis \n\nNight Manager (2018) Song 21\nWith Melissa Aldana \n\nFilin (Blue Note, 2026)\n\n\n== Awards ==\n\n\n=== Grammy Awards ===\n\n\n=== Billboard Music Awards ===\n\n\n=== Latin Grammy Awards ===\n\n\n== References ==\n\n\n== External links ==\nOfficial website"
+        }
+      }
+    }
+  }
+]

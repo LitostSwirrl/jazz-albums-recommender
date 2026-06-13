@@ -1,0 +1,331 @@
+[
+ {
+  "id": "harlem-river-drive",
+  "verdict": "no_evidence",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search returned no release and no candidates; wikipedia opensearch returned nothing; no stored URL. Nothing checkable: title/artist/year/label, keyTracks, and all prose claims (salsa-soul-funk-jazz fusion, Nuyorican sound, Roulette 1971) are unverified. Background knowledge (not citable): Harlem River Drive was also a Palmieri-affiliated band/project, which may complicate future evidence search. Needs evidence refetch."
+ },
+ {
+  "id": "journey-in-satchidananda",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "First three prose sentences are verbatim the entity-matched Wikipedia lead (1971 studio album by Alice Coltrane); fourth-studio-album, Feb 1971 Impulse! release, Dix Hills home-studio Nov 1970, Village Gate live recording of 'Isis and Osiris', and personnel (Sanders, McBee, Haden, Ali) all confirmed. MB search match is exact (Alice Coltrane, impulse! AS-9203, 1971) and all 5 keyTracks are on the MB tracklist. Closing two sentences are editorial."
+ },
+ {
+  "id": "lift-every-voice-and-sing",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is the Wikipedia lead verbatim; Max Roach with the J.C. White Singers, recorded 1971, Atlantic label confirmed by both sources (MB: Atlantic SD 1587, 1971). All 5 keyTracks on MB tracklist verbatim. Spelling caveat: ours and MB both have 'Let They People Go' while the Wikipedia track listing spells it 'Let Thy People Go' -- likely a shared typo; cosmetic fix candidate, not flagged as error since it matches the stronger-form MB tracklist."
+ },
+ {
+  "id": "mwandishi",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose verbatim from the entity-matched Wikipedia lead: ninth studio album, released March 1971, first to officially feature the Mwandishi sextet (Maupin, Henderson, Priester, Williams, Hart) -- all confirmed. MB embedded release (authoritative): Warner Bros. Records WS 1898, 1971, matches all fields; all 3 keyTracks match the MB tracklist exactly."
+ },
+ {
+  "id": "on-with-it",
+  "verdict": "entity_mismatch",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "albumDNA is a verbatim copy of the Jack McDuff Wikipedia ARTIST-page lead -- a biography of a person, not content about the album On With It! (the spec's 'a person when the item is an album' tell). The bio facts are accurate per that page, and the album itself is real: MB embedded release confirms Brother Jack McDuff, Prestige PRST 7851, 1971, with all 5 keyTracks on the tracklist. Stored wiki link points to the artist page, not an album article. The artist page's discography notes 'On With It! (Prestige, 1961 [rel. 1971])' -- recorded 1961, released 1971; ours year 1971 is the release year and matches MB. Repair: write album-specific prose and fix or drop the wiki link."
+ },
+ {
+  "id": "solo-guitar-bailey",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Wiki page entity-matched (1971 solo album by Derek Bailey, second Incus release, recorded London Feb 1971). Checkable claims consistent: solo guitar recording, founding free-improvisation document (AllMusic in extract: 'one of the landmark early albums of English free improvisation'); the rest is editorial. MB: Incus Records INCUS 2, GB, 1971; all 6 keyTracks on MB tracklist. Ours label 'Incus' vs MB 'Incus Records' is the same label, not an issue."
+ },
+ {
+  "id": "odyssey-of-iska",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No MB evidence (search returned nothing); verification rests on the stored Wikipedia page, which is squarely about this album ('1971 studio album by Wayne Shorter') and confirms the prose verbatim: fourteenth studio album, Blue Note 1971, personnel Bertoncini / Carter / McBee / Hart plus multiple percussionists. 'Presaged his Weather Report innovations' is supported by the extract's AllMusic quote ('On the verge of joining Weather Report'). keyTracks matched against the Wikipedia track listing (no MB tracklist): all 4 present; 'De Pois Do Amor, O Vazio' equals 'Depois do Amor, o Vazio' modulo spacing. Ours title carries a leading 'The' absent from the wiki title -- cosmetic."
+ },
+ {
+  "id": "thembi",
+  "verdict": "unverifiable",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match is exact (Pharoah Sanders, impulse! AS-9206, 1971) and confirms title/artist/year/label plus all 4 keyTracks. Wikipedia opensearch dragged in 'Theli (album)' by Therion (1996 metal album) -- unrelated, discarded; no URL is stored so nothing wrong ships to users. Substantive prose claims beyond MB's reach: 'Named after Sanders' wife', African percussion / flute / vocal-chant instrumentation. No contradictions found; needs a real Thembi source to verify the rest."
+ },
+ {
+  "id": "universal-consciousness",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "First two prose sentences verbatim from the entity-matched Wikipedia lead: fifth studio album, released September 1971 on Impulse!, recorded April-June 1971 at A & R Recording NYC and the Dix Hills home studios -- all confirmed. 'Free jazz and orchestral strings' supported by the violin-quartet personnel in the extract. MB: impulse! AS-9210, 1971. All 4 keyTracks on MB tracklist ('Oh Allah' per MB; the wiki track listing spells it 'O Allah' -- cosmetic)."
+ },
+ {
+  "id": "weather-report",
+  "verdict": "entity_mismatch",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {
+    "ourClaim": "\"Birdland\" is a jazz/pop song written by Joe Zawinul of the band Weather Report as a tribute to the Birdland nightclub in New York City, which appeared on the band's 1977 album Heavy Weather.",
+    "problem": "The entire albumDNA describes the 1977 song 'Birdland' from Heavy Weather (plus Manhattan Transfer / Quincy Jones / Los Van Van covers), not our item: the 1971 debut album 'Weather Report'.",
+    "evidenceQuote": "releaseGroup: {\"title\": \"Weather Report\", \"firstReleaseDate\": \"1971-05\"}; tracks: \"Milky Way\", \"Umbrellas\", \"Seventh Arrow\", \"Orange Lady\", \"Morning Lake\", \"Waterfall\", \"Tears\", \"Eurydice\" (no \"Birdland\")",
+    "source": "mb"
+   }
+  ],
+  "notes": "Classic title-search collision: both the prose and the stored wiki URL belong to the song 'Birdland' (Heavy Weather, 1977), not the 1971 debut album. MB embedded release is a 1985 European CBS reissue (CBS 32024) of the correct release group (first released 1971-05); its tracklist matches all 5 keyTracks, so title/artist/year fields are sound. Ours label 'Columbia' is not confirmed by this reissue's 'CBS' label credit -- not a contradiction (different pressing), just unverified here. Repair: new album-specific prose and the correct Weather Report (album) wiki link."
+ },
+ {
+  "id": "african-cookbook",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Stored wiki page 'Randy (album)' is about this same album under its original 1964 title and explicitly covers our item: 'later reissued in 1972 on the Atlantic label under the title African Cookbook'. Prose claims all verified against it (recorded 1964, Bakton, 1972 Atlantic reissue, features 'Berkshire Blues'); MB embedded release (Atlantic SD 1609, 1972) matches all 5 keyTracks. Editor caveats, not errors: prose opens 'Randy is an album...' which reads oddly under the African Cookbook title, and 'post-bop output from 1972' blurs that the music was recorded in 1964 (1972 is the release date per both sources)."
+ },
+ {
+  "id": "art-blakey-his-jazz-messengers",
+  "verdict": "clean",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Sentences 1-2 are about the album and verified by the MB embedded release: impulse! A-7 / ABC Records AS-7, 1972, with 'Alamode' and 'Invitation' on the tracklist (all 5 keyTracks match). Sentence 3 (76 albums / 10 studio / 3 live / 4 compilation sessions) is verbatim from the stored 'Art Blakey discography' Wikipedia page -- accurate for the artist per that page, but career filler on an album entry. That stored page is the artist's discography, not an article about this album, hence wikiLinkVerdict wrong_entity (related entity, not a collision). Background knowledge (not citable): impulse! A-7 with these tracks is commonly dated 1961 ('Art Blakey!!!!! Jazz Messengers!!!!!'), so the 1972 date may be an ABC-era reissue date that MB carries as the release group's first release; pack evidence says 1972 and ours matches it -- flag for human spot-check."
+ },
+ {
+  "id": "black-is-the-color",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose verbatim from the entity-matched Wikipedia lead (released 1972 on Milestone; the 'no pre-conceived ideas' concept quote and the 'became aware of further possibilities' continuation both appear in the extract). 'Terra Firma' and 'Vis-A-Vis' confirmed on the album. MB embedded release is a 2013 Japanese CD reissue (Milestone UCCO-90193) of the correct release group (first release 1972) -- ours year refers to the original release, consistent. All 5 keyTracks match MB verbatim, including 'Forgone Conclusion' (wiki spells 'Foregone Conclusion' -- cosmetic)."
+ },
+ {
+  "id": "breakthrough",
+  "verdict": "factual_error",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {
+    "field": "label",
+    "ours": "Unknown",
+    "evidence": "Cobblestone (original); Muse (reissue)",
+    "evidenceQuote": "originally released on the short-lived Cobblestone label and later reissued on Muse",
+    "source": "wiki"
+   },
+   {
+    "field": "artist",
+    "ours": "Cedar Walton",
+    "evidence": "Cedar Walton / Hank Mobley Quintet",
+    "evidenceQuote": "\"artists\": [\"Cedar Walton\", \"Hank Mobley Quintet\"]",
+    "source": "mb"
+   }
+  ],
+  "wrongClaims": [],
+  "notes": "Prose is verbatim the entity-matched Wikipedia lead and fully verified (recorded Feb 22 1972, Cobblestone then Muse, Charles Davis / Sam Jones / Billy Higgins, Mobley's final studio recording). Verdict driven by the label field shipping 'Unknown' while the evidence names Cobblestone -- a placeholder rather than an affirmatively wrong name; trivial repair, and the prose itself states the correct label. Artist field credits only Walton where MB and the wiki short description credit the Cedar Walton/Hank Mobley Quintet -- possibly intentional primary-artist cataloging; listed for completeness. MB embedded release has empty label data; all 5 keyTracks on its tracklist."
+ },
+ {
+  "id": "connection",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose verbatim from the entity-matched Wikipedia lead: recorded 1972, Columbia, big-band arrangements of pop hits, 'Theme from The French Connection' winning the Grammy for Best Instrumental Arrangement in 1973 -- all confirmed. MB embedded release: Columbia KC 31766, 1972. All 5 keyTracks on the MB tracklist."
+ },
+ {
+  "id": "dig-this",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Single-sentence prose verbatim from the entity-matched Wikipedia lead (Bobbi Humphrey, recorded 1972, Blue Note). MB embedded release (Blue Note BST-84421, 1972) matches all fields; all 5 keyTracks on the MB tracklist."
+ },
+ {
+  "id": "dogon-ad",
+  "verdict": "unverifiable",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match is exact (Julius Hemphill, Mbari MPC 501, 1972) and confirms title/artist/year/label plus all 3 keyTracks. No wikipedia evidence (opensearch empty, no stored URL). Substantive prose claims unverifiable from MB alone: St. Louis origin, Dogon-cosmology concept, and personnel (cellist Abdul Wadud, drummer Phillip Wilson). No contradictions found."
+ },
+ {
+  "id": "ella-loves-cole",
+  "verdict": "entity_mismatch",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {
+    "ourClaim": "Ella Fitzgerald Sings the Cole Porter Song Book is a 1956 studio double album by American jazz singer Ella Fitzgerald, accompanied by a studio orchestra conducted and arranged by Buddy Bregman",
+    "problem": "The entire albumDNA describes the 1956 Verve double album 'Ella Fitzgerald Sings the Cole Porter Song Book' (and its 1956-1964 Song Book series framing), a different album from our item, the 1972 Atlantic LP 'Ella Loves Cole'.",
+    "evidenceQuote": "\"title\": \"Ella Loves Cole\", \"date\": \"1972\", \"labels\": [{\"name\": \"Atlantic\", \"catalogNumber\": \"SD 1631\"}]",
+    "source": "mb"
+   }
+  ],
+  "notes": "Title-search collision between two Fitzgerald-sings-Porter albums. MB embedded release verifies our 1972 Atlantic album exists with all 5 keyTracks on its tracklist, so the catalog fields are sound; the prose and the stored wiki URL both belong to the 1956 Song Book. Repair: album-specific prose and the correct link (or none) for Ella Loves Cole (1972)."
+ },
+ {
+  "id": "facing-you",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose claims verified verbatim against the entity-matched Wikipedia lead: recorded November 10, 1971; released on ECM March the following year as Jarrett's first with the label; both quoted praise phrases ('a hallmark recording of solo piano', 'altered the course of jazz') appear in the extract. MB: ECM Records ECM 1017, 1972. All 4 keyTracks on MB tracklist ('My Lady, My Child' = MB 'My Lady; My Child', punctuation only). Closing sentences editorial."
+ },
+ {
+  "id": "i-sing-the-body-electric",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "First sentence verbatim from the entity-matched Wikipedia lead (second studio album by Weather Report, 1972); second sentence is editorial (grammar nit 'A avant-garde', not a factual issue). MB embedded release is a 1990 Columbia/Legacy CD reissue of the correct release group (first release 1972-05); ours year/label refer to the original Columbia release, consistent. All 5 keyTracks match the MB tracklist (ours 'Dr Honoris Causa' vs MB 'Dr. Honoris Causa', punctuation only)."
+ },
+ {
+  "id": "let-my-children-hear-music",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose verbatim from the entity-matched Wikipedia lead: Columbia 1972, produced by Teo Macero, large jazz orchestra with Sy Johnson and Alan Raph, and the 'best album I have ever made' liner-notes quote -- all confirmed. MB embedded release: Columbia KC 31039, 1972. All 5 keyTracks on the MB tracklist (curly-apostrophe titles match)."
+ },
+ {
+  "id": "mystic-brew",
+  "verdict": "no_evidence",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No evidence about an ALBUM named 'Mystic Brew' survived entity-matching: MB search returned no release and zero candidates, and the stored wiki URL is the Ronnie Foster ARTIST page, which never mentions a Mystic Brew album -- its only reference treats it as a SONG: 'Ronnie Foster's song \"Mystic Brew\" was sampled in Electric Relaxation by A Tribe Called Quest'. That supports the prose's hip-hop-influence angle but cannot verify an album. Background knowledge (not citable): 'Mystic Brew' is a track on Foster's 1972 Blue Note album 'Two Headed Freap', whose tracklist also includes 'Summer Song' and 'Chunky' (our other keyTracks) -- this item looks like a phantom album titled after the famous track. The Blue Note / Alfred Lion / Francis Wolff / Rudy Van Gelder sentence is generic label history, not album content. High-priority human review: likely needs retitling to the real album rather than prose repair."
+ },
+ {
+  "id": "on-the-corner",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose verbatim from the entity-matched Wikipedia lead: recorded June-July 1972, released October 11, 1972 by Columbia; Sly Stone / James Brown / Stockhausen / Ornette Coleman / Paul Buckmaster influences -- all confirmed. Hip-hop / electronic / post-punk influence and reputation growth supported by the extract. MB search hit is the 1972 Japanese CBS/Sony pressing of the correct release group (first release 1972-10-11); ours label Columbia confirmed by wiki. All 4 keyTracks on the MB tracklist."
+ },
+ {
+  "id": "return-to-forever",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose verbatim from the entity-matched Wikipedia lead: recorded over two days in February 1972, not released in the USA until 1975, Corea's fourth release for the label, quintet of Purim / Farrell / Clarke / Moreira who went on to record as Return to Forever -- all confirmed. Ours year 1972 matches the MB release group's first release date (1972-07-01). Internal evidence tension, not ours: the MB release row says country US with date 1972 while wiki says no US release until 1975 -- likely MB data coarseness; does not contradict our content. keyTracks: 3 exact on MB tracklist, 'La Fiesta' matches as substring of 'Sometime Ago / La Fiesta'."
+ },
+ {
+  "id": "sahara",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose verbatim from the entity-matched Wikipedia lead: twelfth album, first on Milestone, recorded January 1972, personnel Sonny Fortune / Calvin Hill / Alphonse Mouzon, everyone on multiple instruments with Tyner on koto, flute, and percussion -- all confirmed. MB: Milestone MSP 9039, 1972. All 4 keyTracks on the MB tracklist. Closing two sentences editorial."
+ }
+]

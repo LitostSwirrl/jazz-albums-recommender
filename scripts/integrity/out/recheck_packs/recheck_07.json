@@ -1,0 +1,2079 @@
+[
+  {
+    "id": "rising-son",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.78,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "mismatch",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "keyTrack \"Tell Me a Bedtime Story\"",
+          "problem": "Listed as a key track but not present in the MB tracklist for this release.",
+          "evidenceQuote": "\"tracks\": [ \"Rising Son\", \"Afro Blues\", \"Piri Piri\", \"Mala\", \"Everybody Loves the Sunshine\", \"Green and Gold\", \"Sometime, Somewhere, Somehow\", \"Call\", \"Unchain\", \"Promise in Love\" ]",
+          "source": "mb"
+        }
+      ],
+      "notes": "Entity is correct: MB search match (topArtistSimilarity 1.0) confirms Takuya Kuroda, Blue Note, 2014-02-12, title Rising Son. Three of four keyTracks match (Rising Son, Afro Blues, Everybody Loves the Sunshine) but 'Tell Me a Bedtime Story' is absent from the tracklist -> factual_error at the keyTracks tier (evidence is a strong search match, not embedded MBID, so confidence moderate). The producer claim 'Produced by DJ Premier collaborator Jose James' is unverifiable (no producer credit in MB). Wikipedia opensearch landed on the 'Rising Sun' disambiguation page (different title) — discarded; ours.wikipediaUrl null."
+    },
+    "ours": {
+      "title": "Rising Son",
+      "artist": "Takuya Kuroda",
+      "year": 2014,
+      "label": "Blue Note",
+      "albumDNA": "Japanese trumpeter Takuya Kuroda's Blue Note debut bridges jazz tradition with contemporary hip-hop and funk sensibilities. Produced by DJ Premier collaborator Jose James, the album grooves hard while showcasing Kuroda's warm, lyrical trumpet tone. Represented a new wave of young jazz musicians comfortable moving between straight-ahead playing and beat-driven production. Kuroda's success opened doors for more Japanese artists on major American jazz labels.",
+      "keyTracks": [
+        "Rising Son",
+        "Afro Blues",
+        "Tell Me a Bedtime Story",
+        "Everybody Loves the Sunshine"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "fa25e2bc-fb99-4362-b636-52ffe25fb6bd",
+          "title": "Rising Son",
+          "date": "2014-02-12",
+          "country": "JP",
+          "status": "Official",
+          "artists": [
+            "Takuya Kuroda"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": "TYCJ-60050"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "539ecd10-fa19-4fd5-b343-4bd2ec32007c",
+            "title": "Rising Son",
+            "firstReleaseDate": "2014-02-12",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Rising Son",
+            "Afro Blues",
+            "Piri Piri",
+            "Mala",
+            "Everybody Loves the Sunshine",
+            "Green and Gold",
+            "Sometime, Somewhere, Somehow",
+            "Call",
+            "Unchain",
+            "Promise in Love"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Rising Sun (album)",
+          "resolvedTitle": "Rising Sun",
+          "shortDescription": "Topics referred to by the same term",
+          "extract": "Rising sun may refer to sunrise.  \nRising Sun or The Rising Sun may also refer to:\n\n\n== Books ==\nRising Sun (Crichton novel), a 1992 Michael Crichton novel\nThe Rising Sun, Pulitzer Prize winning account by John Toland\nRising Sun (Conroy novel), a 2012 alternate history war novel by Robert Conroy\nRising Sun (manga), a 2012 manga series by Satoshi Fujiwara\n\n\n== Film and television ==\n\n\n=== Film titles ===\nRising Sun (1993 film), a film based on the Michael Crichton novel\nRising Sun (1980 film), a Hong Kong documentary film\n\n\n=== Others ===\nRising Sun Films, an Indian production company based in Mumbai\nRising Sun International Film Festival, an annual film festival held in Kitakyushu, Japan\nRising Sun Pictures, an Australian visual effects company\nToonami Rising Sun, a Saturday version of Toonami, a former action cartoon block on Cartoon Network (2000-2001)\n\n\n== Games ==\nRising Sun (board game), a miniature wargame\nRising Sun (video game), a 2000 World War II computer wargame by TalonSoft\nMedal of Honor: Rising Sun, a 2003 World War II video game by EA Games\n\n\n== Music ==\nRising Sun Rock Festival, an annual festival in Otaru, Japan\n\n\n=== Albums ===\nRising Sun (Aly & Fila album) (2010)\nRising Sun (Augustus Pablo album) (1986)\nRising Sun (Stray from the Path album) (2011)\nRising Sun (TVXQ album) (2005)\n\n\n=== Songs ===\n\"Rising Sun\", charting single for Medicine Head Number 11 – 1973\n\"Rising Sun\" (Fats Domino song)\n\"Rising Sun\", a song from the album Brainwashed by George Harrison\n\"Rising Sun\", a song from the album East by Cold Chisel\n\n\n== Places ==\n\n\n=== United States ===\nRising Sun-Lebanon, Delaware\nRising Sun, Pope County, Illinois, an unincorporated community\nRising Sun, White County, Illinois, an unincorporated community\nRising Sun, Indiana, a city\nRising Sun, Maryland, a town\nRising Sun, Mississippi, an unincorporated community\nRising Sun (Montana), a wayside area\nRising Sun, Wisconsin, an unincorporated community\nRising Sun Auto Camp, Glacier National Park, Montana, on the National Register of Historic Places\n\n\n=== United Kingdom ===\nRising Sun, Cornwall, a hamlet\n\n\n== Pubs ==\n\n\n=== Australia ===\nThe Rising Sun, historic pub in Kensington, Adelaide, South Australia\nRising Sun Inn, Millfield, a heritage-listed former post office, inn, general store and residence, Millfield, New South Wales\n\n\n=== UK ===\nRising Sun, Carter Lane, London, a Grade II listed public house\nRising Sun, Cloth Fair, London, a historic pub\nRising Sun, Euston, London, a Grade II listed public house\nRising Sun, Fitzrovia, London, a Grade II listed public house\nRising Sun, Mill Hill, London, a Grade II listed public house\n\n\n=== US ===\nRising Sun Inn, Anne Arundel County, Maryland\nRising Sun Tavern: Various taverns so named (which see)\n\n\n== Schools ==\nRising Sun High School (Maryland), North East, Maryland\nRising Sun High School (Indiana), Rising Sun, Indiana\n\n\n== Other uses ==\nRising Sun badge, Australian Army badge\nRising Sun (character), a comic book character and Japanese superhero from DC Comics\nRising Sun (sculpture), a work by Adolph Alexander Weinman for the 1915 international exposition of San Francisco\nRising Sun (yacht), owned by David Geffen\nOperation Rising Sun, a 1970s Cold War military intelligence program run by the Pakistani Directorate of Inter-Services Intelligence\nOrder of the Rising Sun, a Japanese honor\nCagayan Rising Suns, a Philippines Basketball Association Developmental League team\n\n\n== See also ==\nCamp Rising Sun (New York), an international summer scholarship programme\nCamp Rising Sun (Connecticut), a camp for students with cancer\nThe House of the Rising Sun (disambiguation)\nLand of the Rising Sun (disambiguation), primarily referring to Japan\nRising Son (disambiguation)\nPS Rising Star, a 1818 ship\nRising Sun Flag, a Japanese flag\nRisingsun, Ohio, a village\nSun-rising (hieroglyph), of Ancient Egyptian\nRising sun lemma"
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Rising Sun",
+            "shortDescription": "Topics referred to by the same term",
+            "extractHead": "Rising sun may refer to sunrise.  \nRising Sun or The Rising Sun may also refer to:\n\n\n== Books ==\nRising Sun (Crichton novel), a 1992 Michael Crichton novel\nThe Rising Sun, Pulitzer Prize winning account by John Toland\nRising Sun (Conroy novel), a 2012 alternate history war novel by Robert Conroy\nRising Sun (manga), a 2012 manga series by Satoshi Fujiwara\n\n\n== Film and television ==\n\n\n=== Film titles ===\nRising Sun (1993 film), a film based on the Michael Crichton novel\nRising Sun (1980 film), a "
+          },
+          {
+            "resolvedTitle": "The Rising of the Moon (album)",
+            "shortDescription": "1956 studio album by The Clancy Brothers and Tommy Makem",
+            "extractHead": "The Rising of the Moon: Irish Songs of Rebellion is a collection of traditional Irish folk songs performed by The Clancy Brothers and Tommy Makem. It was the group's first album and was initially recorded in 1956. For the original recording, the only instrument used was Paddy Clancy's harmonica, since Tommy Makem had damaged his hand and Liam Clancy was still learning how to play the guitar. The group had yet to develop its distinctive musical sound, so there was little ensemble singing.\nIn 1959"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "mandorla-awakening-ii",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.7,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "mismatch",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Mandorla Awakening",
+          "problem": "Listed as a key track but absent from the MB tracklist for this release (closest is 'Mandorla Island', a different track).",
+          "evidenceQuote": "Egoes War, Sub-Mission, The Chalice, Dance of Many Hands, Listening Embrace, Forestwall Timewalk, Staircase Struggle, Shiny Divider, Mandorla Island, Timewrap",
+          "source": "mb"
+        },
+        {
+          "ourClaim": "Ceremony of Infinite Projection",
+          "problem": "Listed as a key track but absent from the MB tracklist for this release.",
+          "evidenceQuote": "Egoes War, Sub-Mission, The Chalice, Dance of Many Hands, Listening Embrace, Forestwall Timewalk, Staircase Struggle, Shiny Divider, Mandorla Island, Timewrap",
+          "source": "mb"
+        }
+      ],
+      "notes": "MB search match (sim 1.0): title/artist/label/year all match (Mandorla Awakening II: Emerging Worlds, 2017, FPE Records, Nicole Mitchell) so the entity is correct. Of 4 keyTracks, only 'Egoes War' and 'Listening Embrace' appear in the MB tracklist; 'Mandorla Awakening' and 'Ceremony of Infinite Projection' do not. Flagged factual_error on the two absent keyTracks. Caveat: evidence is a search (strong but not infallible) match, not an embedded MBID; if MB's tracklisting is incomplete these could be valid. Prose itself (Afrofuturist, Black Earth Ensemble, etc.) is editorial and not flagged."
+    },
+    "ours": {
+      "title": "Mandorla Awakening II: Emerging Worlds",
+      "artist": "Nicole Mitchell",
+      "year": 2017,
+      "label": "FPE Records",
+      "albumDNA": "Flutist Nicole Mitchell's Afrofuturist masterwork imagines a world 200 years in the future through a suite of compositions that blend free jazz, electronic textures, and African rhythmic elements. Her Black Earth Ensemble creates vivid sonic landscapes that feel both ancient and futuristic. One of the defining works of Afrofuturist jazz, Mitchell's visionary composition demonstrated how speculative fiction and social critique could be channeled through improvised music with remarkable power.",
+      "keyTracks": [
+        "Mandorla Awakening",
+        "Egoes War",
+        "Listening Embrace",
+        "Ceremony of Infinite Projection"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "295f5d4b-ab8a-465b-b71c-0c94801d3082",
+          "title": "Mandorla Awakening II: Emerging Worlds",
+          "date": "2017",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Nicole Mitchell"
+          ],
+          "labels": [
+            {
+              "name": "FPE Records",
+              "catalogNumber": "FPE 012CD"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "72af9fbb-9378-400b-9aed-b6d25cb099c7",
+            "title": "Mandorla Awakening II: Emerging Worlds",
+            "firstReleaseDate": "2017-05-05",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Egoes War",
+            "Sub-Mission",
+            "The Chalice",
+            "Dance of Many Hands",
+            "Listening Embrace",
+            "Forestwall Timewalk",
+            "Staircase Struggle",
+            "Shiny Divider",
+            "Mandorla Island",
+            "Timewrap"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "chesed-the-book-beriah-volume-4",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.85,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "features his Masada ensemble",
+          "problem": "The prose attributes the performance to John Zorn's Masada ensemble, but the MB release credits the performers as Julian Lage and Gyan Riley (a guitar duo). Zorn composed the Book Beri'ah series, but he does not perform this volume.",
+          "evidenceQuote": "artists: Julian Lage, Gyan Riley",
+          "source": "mb"
+        },
+        {
+          "ourClaim": "Chesed (The Book Beriah Volume 4) is a 2018 album",
+          "problem": "Prose dates the album to 2018; the MB release date is 2019-04 (and the item's own year field is 2019).",
+          "evidenceQuote": "date: 2019-04",
+          "source": "mb"
+        }
+      ],
+      "notes": "Right album entity — embedded-MBID matches (Chesed: The Book Beri'ah, Volume 4, 2019-04, Tzadik, credited artists Julian Lage + Gyan Riley) and all 5 keyTracks (Katanot, Zeir Anpin, Sachel, Tohu, Hekhalot Zutari) are present in the MB tracklist — but the prose contains two contradicted claims: (1) the year '2018' vs MB 2019-04, and (2) 'features his Masada ensemble' vs the actual performers Lage + Gyan Riley. The framing 'part of Zorn's Book Beri'ah series' is itself defensible (Zorn composed the series), and the closing sentence does correctly tie the album to Julian Lage. Stored wiki is the Julian Lage artist page (correct co-artist). Verdict factual_error (right entity, specific contradicted claims). Repair: fix year to 2019 and replace 'his Masada ensemble' with the Julian Lage / Gyan Riley duo."
+    },
+    "ours": {
+      "title": "Chesed: The Book Beri'ah, Volume 4",
+      "artist": "Julian Lage",
+      "year": 2019,
+      "label": "Tzadik",
+      "albumDNA": "Chesed (The Book Beriah Volume 4) is a 2018 album by composer and saxophonist John Zorn, released on Tzadik. Part of Zorn's Book Beriah series exploring the ten sefirot of Kabbalistic tradition, the album features his Masada ensemble navigating the intersection of Jewish musical themes and avant-garde jazz. From the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond, this album positions Julian Lage within the avant-garde jazz conversation of the time.",
+      "keyTracks": [
+        "Katanot",
+        "Zeir Anpin",
+        "Sachel",
+        "Tohu",
+        "Hekhalot Zutari"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Julian_Lage"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "8f18685b-05bf-4dad-938e-69f5fa0673d4",
+          "title": "Chesed: The Book Beri'ah, Volume 4",
+          "date": "2019-04",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Julian Lage",
+            "Gyan Riley"
+          ],
+          "labels": [
+            {
+              "name": "Tzadik",
+              "catalogNumber": "5104"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "43c09890-c1e1-4931-b689-c6fa16951097",
+            "title": "Chesed: The Book Beri'ah, Volume 4",
+            "firstReleaseDate": "2019-04",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Katanot",
+            "Zeir Anpin",
+            "Sachel",
+            "Tohu",
+            "Hekhalot Zutari",
+            "Shevirah",
+            "Devekut",
+            "Dibor",
+            "Pnimiyut",
+            "Bohu"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Julian_Lage",
+        "page": {
+          "requestedTitle": "Julian Lage",
+          "resolvedTitle": "Julian Lage",
+          "shortDescription": "American guitarist and composer (born 1987)",
+          "extract": "Julian Price Lage ( LAHZH; born December 25, 1987) is an American guitarist and composer. \nA child prodigy, Lage performed at the 2000 Grammy Awards at age 12, and at 15, became a faculty member of the Stanford Jazz Workshop. He released his debut album, Sounding Point, in 2009 on EmArcy Records. He was signed to Blue Note Records in 2021, with whom he has released the albums Squint (2021), View with a Room (2022), The Layers EP (2023), Speak to Me (2024), and Scenes from Above (2026).\nLage currently teaches ensembles and guitar at The New School's School of Jazz and Contemporary Music in New York City.\n\n\n== Early life and career ==\nLage was born in Santa Rosa, California, and is the youngest of five children. His father, Mario, is a visual artist, and his mother is of Jewish heritage (although he did not grow up in a religious household). A child prodigy, Lage was the subject of the 1996 short documentary film Jules at Eight. At 12, he performed at the 2000 Grammy Awards. Three years later, he became a faculty member of the Stanford Jazz Workshop at Stanford University. Classically trained at the San Francisco Conservatory of Music, he has studied at Sonoma State University and the Ali Akbar College of Music. He graduated from the Berklee College of Music in 2008.\n\nOn March 24, 2009, EmArcy released his debut album Sounding Point to favorable reviews. It was nominated at the 2010 Grammy Awards for Best Contemporary Jazz Album. His second album, Gladwell, was released April 26, 2011, to positive reviews. His first solo acoustic album, World's Fair, was released on March 2, 2015, and his fourth album, Arclight, was released on March 11, 2016.In a 2016 interview promoting Arclight, on the NPR program Fresh Air, Lage revealed that around the time of the release of World's Fair, he struggled with focal dystonia, a neurological disorder resulting from the repeated performance of tasks. The disorder caused spasms in his left arm and hand while trying to play the guitar. He believed that the condition was brought on at age five from playing and gripping the neck of his guitar too hard, because the guitar was bigger than he was. At the time, he believed that was what he needed to do to \"sound official ... and [not] drop the guitar\". He had to \"re-learn how to play the guitar in a way that addressed these tendencies that got [him] in trouble in the first place\".\nHe has worked in a trio with bassist Scott Colley and drummer Kenny Wollesen and has recorded duo albums with guitarists Chris Eldridge, Gyan Riley, and Nels Cline. For the 2017 guitar duo album Mount Royal, Lage and Eldridge received a Grammy nomination for Best Contemporary Instrumental Album.\nLage is currently a faculty member at the School of Jazz and Contemporary Music at The New School in New York City, where he teaches ensembles and guitar. He has taught at the New England Conservatory of Music.\n\nOn March 17, 2021, it was announced that he signed to Blue Note Records. Along with the announcement, it was announced that his debut release on the label, entitled Squint, would be released on June 11. The lead single \"Saint Rose\" was released on that day as well.  April 9 saw the release of the second single, \"Boo's Blues\".  \nView with a Room was released on September 16, 2022. The lead single, \"Auditorium\", was released on June 21. This was followed by \"Word for Word\", the second single, which was released on July 13, the third, \"Tributary\", released on August 10, and the fourth, \"Chavez\", released on August 31.\nOn November 14, 2023, Lage released the single \"Omission\", continuing to use the acoustic instrumentation found on his EP The Layers, which was released on March 17, 2023.\n\n\n== Discography ==\n\n\n=== As leader/co-leader ===\nSounding Point (EmArcy, 2009)\nGladwell (EmArcy, 2011)\nClose to Picture with Chris Eldridge (self-released, 2013)\nFree Flying with Fred Hersch (Palmetto, 2013)\nAvalon with Chris Eldridge (Modern Lore, 2014)\nRoom with Nels Cline (Mack Avenue, 2014)\nWorld's Fair (Modern Lore, 2015)\nArclight (Mack Avenue, 2016)\nLive in Los Angeles (Mack Avenue, 2016)\nMount Royal with Chris Eldridge (Free Dirt, 2017)\nModern Lore (Mack Avenue, 2018)\nLove Hurts (Mack Avenue, 2019)\nSquint (Blue Note, 2021)\nView with a Room (Blue Note, 2022)\nThe Layers EP (Blue Note, 2023)\nSpeak to Me (Blue Note, 2024)\nScenes from Above (Blue Note, 2026)\n\n\n=== As sideman ===\nWith Gary Burton\n\nGenerations (Concord Jazz, 2004)\nNext Generation (Concord Jazz, 2005)\nCommon Ground (Mack A"
+        }
+      }
+    }
+  },
+  {
+    "id": "secrets-are-the-best-stories",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.78,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "artist",
+          "ours": "Danilo Perez",
+          "evidence": "Kurt Elling",
+          "evidenceQuote": "Kurt Elling",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "pianist Danilo Perez leads a contemporary jazz session",
+          "problem": "The authoritative MB embedded_mbid release credits the artist as Kurt Elling, not Danilo Perez. Same album (title, label Edition Records EDN1151, date 2020-04-03 and all five keyTracks match), so the album row is right but the leader attribution contradicts the authoritative artist credit.",
+          "evidenceQuote": "Kurt Elling",
+          "source": "mb"
+        }
+      ],
+      "notes": "This is the album 'Secrets Are the Best Stories', an Edition Records collaboration; MB (embedded_mbid, authoritative for artist credit) credits it to Kurt Elling. Danilo Perez is the pianist/co-creator, so 'Danilo Perez' is not nonsense, but the prose frames him as the leader against MB's Elling credit. All five keyTracks match the MB tracklist, confirming it is the same release. Treated as factual_error on artist attribution, not entity_mismatch (the album is correctly resolved). No wikipedia evidence."
+    },
+    "ours": {
+      "title": "Secrets Are The Best Stories",
+      "artist": "Danilo Pérez",
+      "year": 2020,
+      "label": "Edition Records",
+      "albumDNA": "On Secrets Are The Best Stories, pianist Danilo Pérez leads a contemporary jazz session recorded for Edition Records in 2020. The program includes \"The Fanfold Hawk (for Franz Wright)\", \"A Certain Continuum\", and \"Stays\".",
+      "keyTracks": [
+        "The Fanfold Hawk (for Franz Wright)",
+        "A Certain Continuum",
+        "Stays",
+        "Gratitude (for Robert Bly)",
+        "Stage"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "db6fffd0-4040-465c-8052-4f93503b9acd",
+          "title": "Secrets Are The Best Stories",
+          "date": "2020-04-03",
+          "country": "GB",
+          "status": "Official",
+          "artists": [
+            "Kurt Elling"
+          ],
+          "labels": [
+            {
+              "name": "Edition Records",
+              "catalogNumber": "EDN1151"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "28fe6467-f22f-4193-ac3b-5aebc5f03679",
+            "title": "Secrets Are The Best Stories",
+            "firstReleaseDate": "2020-04-03",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "The Fanfold Hawk (for Franz Wright)",
+            "A Certain Continuum",
+            "Stays",
+            "Gratitude (for Robert Bly)",
+            "Stage",
+            "Beloved (for Toni Morrison)",
+            "Stages II, III",
+            "Song Of The Rio Grande (for Oscar and Valeria Martinez-Ramirez)",
+            "Rabo de Nube",
+            "Esperanto",
+            "Epílogo"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "pdron-rubalcaba",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.9,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "a collaborative album by Cuban pianist Gonzalo Rubalcaba and guitarist Jorge Pedrón",
+          "problem": "The collaborator's name and instrument are wrong. The album is a duo with Pierrick Pedron (an alto saxophonist), not a guitarist named 'Jorge Pedron'. The name 'Jorge Pedron' is fabricated.",
+          "evidenceQuote": "Pierrick Pédron",
+          "source": "mb"
+        },
+        {
+          "ourClaim": "Pedrón's guitar work in an intimate chamber setting",
+          "problem": "Attributes guitar to the collaborator; the credited partner is Pierrick Pedron, listed in our entity's own discography simply as the Pedron Rubalcaba co-leader.",
+          "evidenceQuote": "Pédron Rubalcaba with Pierrick Pédron (mars 2023)",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Right album (embedded_mbid: title 'Pédron Rubalcaba', GAZEBO GAZ 217, 2023-06-09; Gonzalo Rubalcaba is a credited artist and 'Cuban pianist' matches the stored Rubalcaba Wikipedia page). All five keyTracks match the MB tracklist. The error is the collaborator: MB credits 'Pierrick Pédron' and the Rubalcaba discography lists 'Pédron Rubalcaba with Pierrick Pédron', but ours invents 'guitarist Jorge Pedrón'. Wrong first name and wrong instrument. Evidence does not state Pierrick Pedron's instrument explicitly, so the 'guitarist' descriptor is technically unverifiable from the pack, but the NAME contradiction alone is a clear factual_error. wikiLink (Gonzalo Rubalcaba page) is about our entity = correct."
+    },
+    "ours": {
+      "title": "Pédron Rubalcaba",
+      "artist": "Gonzalo Rubalcaba",
+      "year": 2023,
+      "label": "GAZEBO",
+      "albumDNA": "Pedrón/Rubalcaba is a collaborative album by Cuban pianist Gonzalo Rubalcaba and guitarist Jorge Pedrón. The duo combines Rubalcaba's virtuosic post-bop pianism with Pedrón's guitar work in an intimate chamber setting, drawing on Latin jazz, contemporary jazz, and classical influences. This GAZEBO date features \"The Song Is You\" as part of Gonzalo Rubalcaba's contemporary jazz output from 2023.",
+      "keyTracks": [
+        "The Song Is You",
+        "Ezz-Thetic",
+        "Lawns",
+        "Si Tu Vois Ma Mère",
+        "Dreamsville"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Gonzalo_Rubalcaba"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "d950b510-025b-4943-981d-cef3af15cddc",
+          "title": "Pédron Rubalcaba",
+          "date": "2023-06-09",
+          "country": "XW",
+          "status": "Official",
+          "artists": [
+            "Pierrick Pédron",
+            "Gonzalo Rubalcaba"
+          ],
+          "labels": [
+            {
+              "name": "GAZEBO",
+              "catalogNumber": "GAZ 217"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "20b2208e-22b8-490e-b84d-0f3c06b66bcb",
+            "title": "Pédron Rubalcaba",
+            "firstReleaseDate": "2023-06-09",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "The Song Is You",
+            "Ezz-Thetic",
+            "Lawns",
+            "Si Tu Vois Ma Mère",
+            "Dreamsville",
+            "Five Will Get You Ten",
+            "The Folks Who Live On The Hill",
+            "Pretty Girl"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Gonzalo_Rubalcaba",
+        "page": {
+          "requestedTitle": "Gonzalo Rubalcaba",
+          "resolvedTitle": "Gonzalo Rubalcaba",
+          "shortDescription": "Afro-Cuban jazz pianist and composer",
+          "extract": "Gonzalo Rubalcaba (born May 27, 1963) is a Cuban jazz pianist and composer. \n\n\n== Early life ==\nRubalcaba was born Gonzalo Julio González Fonseca in Havana, Cuba into a musical family. He adopted his great-grandmother's name for professional use, just as did his father, Guillermo Rubalcaba (born Guillermo González Camejo) and his grandfather, Jacobo Rubalcaba (born Jacobo González Rubalcaba).\n\n\n== Later life and career ==\nWith Orquesta Aragón, Rubalcaba toured France and Africa in 1983. He formed his own Grupo Projecto in 1985. \nHe has won three Grammy Awards and received twelve nominations. \n\n\n== Discography ==\n\n\n=== As leader/co-leader ===\nMi Gran Pasion (Connector/Timba, 1987)\nLive in Havana (Pimienta, 1989)\nGiraldilla (Pimienta, 1990)\nDiscovery: Live at Montreux (Blue Note, 1990)\nGonzalo Rubalcaba Trio at Montreux (Somethin' Else, 1990)\nThe Blessing (Blue Note, 1991)\nImages (Blue Note, 1992)\nAt Montreux (Artex, 1993)\nSuite 4 Y 20 (Blue Note, 1993)\nDiz (Blue Note, 1993)\nRapsodia (Blue Note, 1994)\nImagine: Live in America (Blue Note, 1994)\nConcatenacion (Egrem, 1995)\nConcierto Negro (Egrem, 1995)\nFlying Colors (Blue Note, 1997)\nRomantic (EMI, 1998)\nGonzalo Rubalcaba (Max, 1998)\nAntiguo (Blue Note, 1998)\nInner Voyage (Blue Note/EMI, 1999)\nInicio (Egrem, 2001)\nSupernova  (Blue Note, 2001)\nStraight Ahead (Yemaya, 2003)\nSoneros de Verdad Present Rubalcaba Pasado y Presente (Universal Music Latino/Pimienta, 2003)\nPaseo (Blue Note, 2004)\nThe Trio (Angel, 2005)\nSolo  (Blue Note, 2005)\nAvatar (Angel, 2008)\nFaith (5Passion, 2010)\nXXI Century (5Passion, 2011)\nLive Faith (5Passion, 2014)\nSuite Caminos (5Passion, 2015)\nTokyo Adagio with Charlie Haden (Impulse!, 2015) - Recorded in 2005\nCharlie (5Passion, 2015)\nSkyline with Ron Carter, Jack DeJohnette (5Passion, 2021)\nPédron Rubalcaba with Pierrick Pédron (mars 2023)\nBorrowed Roses (Top Stop, 2023)\nA Tribute to Benny Moré and Nat King Cole with Yainer Horta, Joey Calveiro  (Calveiro Entertainment, 2025)\n\n\n=== As sideman ===\nWith Ignacio Berroa\n\nCodes (Blue Note, 2006)\nWith Ron Carter\n\nMr. Bow-tie (Somethin' Else, 1995)\nWith Juan Luis Guerra\n\nBachata Rosa (Karen, 1990)\nWith Francisco Céspedes\n\nCon el Permiso de Bola (Warner Music Mexico, 2006)\nWith Chick Corea\n\nRendezvous in New York (Stretch, 2003)\nWith Dave Holland\n\nThe Monterey Quartet: Live at the 2007 Monterey Jazz Festival (Monterey Jazz Festival, 2009)\nWith Al Di Meola\n\nPursuit of Radical Rhapsody (Concord, 2011)\nFlesh on Flesh (Telarc, 2022)\nWith Richard Galliano\n\nLove Day (Milan, 2008)\nWith Charlie Haden\n\n1989: The Montreal Tapes: with Gonzalo Rubalcaba and Paul Motian (Verve, 1997)\n2000: Nocturne (Verve, 2001)\n2003: Land of the Sun (Verve, 2004)\n2005: Tokyo Adagio (Impulse!, 2015) – live at The Blue Note, Tokyo, Japan\nWith Katia Labèque\n\nShape of My Heart (KML, 2009)\nWith Tony Martinez\n\nHabana Vive\nMafarefun\nWith Pat Martino\n\nThink Tank\nWith Strat Andriotis \n\nNight Manager (2018) Song 21\nWith Melissa Aldana \n\nFilin (Blue Note, 2026)\n\n\n== Awards ==\n\n\n=== Grammy Awards ===\n\n\n=== Billboard Music Awards ===\n\n\n=== Latin Grammy Awards ===\n\n\n== References ==\n\n\n== External links ==\nOfficial website"
+        }
+      }
+    }
+  },
+  {
+    "id": "the-lore",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.9,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "As of 2024, he had been nominated for 4 Grammy Awards, including Best Jazz Instrumental Album for Guided Tour in 2014 and Still Dreaming in 2019.",
+          "problem": "This Grammy-nomination claim belongs to bassist Scott Colley, not Pat Metheny. It is the stored (wrong-entity) Wikipedia page's content grafted into Metheny's blurb — a disambiguation collision.",
+          "evidenceQuote": "Scott Colley (born November 24, 1963) is an American jazz double bassist and composer. As of 2024, he had been nominated for 4 Grammy Awards, including Best Jazz Instrumental Album for Guided Tour in 2014 and Still Dreaming in 2019.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Album entity is correct: embedded-MBID release confirms title 'The Lore', artist Pat Metheny, label FP, secondaryType Compilation, and all 5 keyTracks. The verdict is factual_error (not entity_mismatch) because only the trailing sentence is foreign — it is Scott Colley's biography. ours.wikipediaUrl points to en.wikipedia.org/wiki/Scott_Colley, a different person; site is shipping the wrong link."
+    },
+    "ours": {
+      "title": "The Lore",
+      "artist": "Pat Metheny",
+      "year": 2025,
+      "label": "FP",
+      "albumDNA": "The Lore (2025) captures Pat Metheny exploring jazz fusion territory on the FP label. Highlights of the session include \"Bright Size Life\", \"Are You Going With Me?\", and \"Goin’ Ahead\". As of 2024, he had been nominated for 4 Grammy Awards, including Best Jazz Instrumental Album for Guided Tour in 2014 and Still Dreaming in 2019.",
+      "keyTracks": [
+        "Bright Size Life",
+        "Are You Going With Me?",
+        "Goin’ Ahead",
+        "Unity Village",
+        "September Fifteenth"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Scott_Colley"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "4017b23f-b6ac-4339-bf1a-6af37043c616",
+          "title": "The Lore",
+          "date": "2025-03-27",
+          "country": null,
+          "status": "Official",
+          "artists": [
+            "Pat Metheny",
+            "Pat Metheny Group"
+          ],
+          "labels": [
+            {
+              "name": "FP",
+              "catalogNumber": null
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "26bd7b67-c301-49a5-b030-52bb299eecb2",
+            "title": "The Lore",
+            "firstReleaseDate": "2025-03-27",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Bright Size Life",
+            "Are You Going With Me?",
+            "Goin’ Ahead",
+            "Unity Village",
+            "September Fifteenth",
+            "James",
+            "Au lait",
+            "Sueño con Mexico",
+            "Jaco",
+            "Phase Dance",
+            "It’s for You",
+            "Aprilwind",
+            "San Lorenzo",
+            "Midwestern Nights Dream",
+            "The First Circle",
+            "Travels (live)",
+            "Sirabhorn",
+            "The Search",
+            "If I Could",
+            "Ozark",
+            "April Joy",
+            "Eighteen",
+            "Lakes",
+            "River Quay",
+            "Suite: II. Legend of the Fountain",
+            "Oasis",
+            "Barcarole",
+            "(Cross the) Heartland",
+            "As Falls Wichita, So Falls Wichita Falls",
+            "Unquity Road",
+            "Country Poem",
+            "Lonely Woman",
+            "Omaha Celebration",
+            "The Bat, Pt.2",
+            "Missouri Uncompromised",
+            "Farmer’s Trust (live)",
+            "Tears of Rain",
+            "New Chautauqua",
+            "Airstream",
+            "Lone Jack"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Scott_Colley",
+        "page": {
+          "requestedTitle": "Scott Colley",
+          "resolvedTitle": "Scott Colley",
+          "shortDescription": "American jazz double bassist and composer",
+          "extract": "Scott Colley (born November 24, 1963) is an American jazz double bassist and composer. As of 2024, he had been nominated for 4 Grammy Awards, including Best Jazz Instrumental Album for Guided Tour in 2014 and Still Dreaming in 2019. During his career, he has toured, recorded, and played with musicians such as Herbie Hancock, Jim Hall, Carmen McRae, Chris Potter, Julian Lage, Brian Blade, and Pat Metheny.\n\n\n== Early life and education ==\nColley was born on November 24, 1963 in Pasadena, California. He began studying bass at age 11 after his older brother Jim, a drummer, said he \"thought it would be cool to have another rhythm section instrument in the family.\" At 13, he began studying with bassist Monty Budwig and played twice a week at a club in Pasadena, where he spent three years being mentored by musicians such as Jimmy Rowles. At Eagle Rock High School, he studied under John Rinaldo. He auditioned at California Institute of the Arts after learning that Charlie Haden taught there and was granted a full-ride scholarship. He studied with Haden and Fred Tinsley, and began touring and recording with jazz singer Carmen McRae prior to graduating in 1988. He then moved to New York City.\n\n\n== Career ==\n\nIn 1988 and 1989, he accompanied McRae on a tour across the US and in Tokyo. He also performed with musicians including Dizzy Gillespie and Clifford Jordan. In the 1990s, members of his touring groups included Jim Hall, John Scofield, Joe Henderson, Art Farmer, Joe Lovano, Toots Thielemans, Bobby Hutcherson, and Bob Berg. He also played extensively with Andrew Hill's Another Point of Departure sextet. In 1996, he released his debut album, Portable Universe, which featured Chris Potter and David Binney. He recorded Subliminal... (1998) with a quartet, while This Place (1997) and The Magic Line (2000) were both recorded with a trio including Potter and Bill Stewart.\nColley toured extensively as a member of Herbie Hancock's working trio for five years in the early 2000s, periodically performing alongside other music groups such as the Chicago Symphony Orchestra. He performed with two separate quartets, one with Gary Thomas and the other with Bobby Hutcherson, as well as with Andrew Hill's trio and sextet and Chris Potter's quartet. Initial Wisdom, his 2003 album release, featured Ravi Coltrane, Adam Rogers, and Bill Stewart. In 2005, he worked on the Directions in Music tour with Michael Brecker, Herbie Hancock, Roy Hargrove, and Terri Lyne Carrington. He continued performing with Jim Hall and joined a trio with Pat Metheny. Around this time, he began taking residencies at institutions including the Banff Centre, Virginia Commonwealth University, and Vallekilde Folk High School. In 2007, he toured internationally with Chris Potter and Antonio Sánchez.\nIn the mid-2000s, Colley recorded projects with Chris Potter, Abbey Lincoln, Luciana Souza, Kenny Werner, Adam Rogers, and Donny McCaslin. In 2007, he joined Billy Childs' Jazz-Chamber Ensemble with Brian Blade and taught a workshop at Berklee with Antonio Sánchez and Chris Potter. He also released his fourth album, Architect of the Silent Moment, in 2007. It was composed entirely by him with the exception of \"Smoke Stack,\" which was written by Andrew Hill. The album was recorded with a quartet including Ralph Alessi, Craig Taborn, and Brian Blade with appearances by David Binney, Jason Moran, Adam Rogers, Gregoire Maret, and Antonio Sánchez. He and the core quartet began touring prior to the album being fully finished. In the late 2000s, he performed in the US, Europe, and South America with Mark Turner and Antonio Sánchez; Chris Potter's Underground; Edward Simon; the Antonio Sánchez Quartet with Sánchez, Miguel Zenón, and David Sánchez; Magic Circle with Dave Douglas and Mark Feldman; the David Binney Quartet with Binney, Craig Taborn and Brian Blade; and the Kenny Werner Quintet with Werner, Randy Brecker, David Sánchez, and Ari Hoenig. During the summer of 2010, he released Empire, an album entirely of original compositions, on CAM Jazz with longtime collaborators Bill Frisell, Alessi, Blade, and Taborn. He continued touring with Jim Hall and Joey Baron; Chris Potter; the Kenny Werner Quintet; and Michel Portal and Gary Burton and spent the summer doing a teaching residency at the Siena Summer Workshop in Siena, Italy.\nBetween 2011 and 2015, Colley's group lineups included a trio with Chris Potter and Antonio Sánchez; the Koppel Colley Blade Collective with Benjamin Koppel "
+        }
+      }
+    }
+  },
+  {
+    "id": "carolina-shout-james-p-johnson",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.85,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "mismatch",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Key tracks: Backwater Blues, Snowy Morning Blues, Chicago Blues, My Handy Man",
+          "problem": "Four of the six listed keyTracks do not appear on this MB release tracklist",
+          "evidenceQuote": "Steeplechase Rag; Twilight Rag; Carolina Shout; Baltimore Buzz; Gypsy Blues; Harlem Strut; Eccentricity; Don't Mess With Me; Nervous Blues; Ole Miss Blues; I Ain't Givin' Nothin' Away; Muscle Shoal Blues; Farewell Blues; Charleston",
+          "source": "mb"
+        }
+      ],
+      "notes": "Entity matches: MB search match, topArtistSimilarity 1.0, James P. Johnson, title 'Carolina Shout', year 1988 matches MB date 1988 (Biograph, Compilation). 'Carolina Shout' and 'The Harlem Strut' (MB 'Harlem Strut', substring) match; the other four keyTracks are absent from the tracklist. Per spec a keyTracks mismatch caps the verdict at factual_error."
+    },
+    "ours": {
+      "title": "Carolina Shout",
+      "artist": "James P. Johnson",
+      "year": 1988,
+      "label": "Various",
+      "albumDNA": "Recorded in 1988, Carolina Shout showcases James P. Johnson at the height of their creative powers, offering one of the finest expressions of Early Jazz. Carolina Shout remains a landmark of Early Jazz, cementing James P. Johnson's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Carolina Shout",
+        "The Harlem Strut",
+        "Backwater Blues",
+        "Snowy Morning Blues",
+        "Chicago Blues",
+        "My Handy Man"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "aa88a4f0-8de6-4fa0-80ff-1a127be8f021",
+          "title": "Carolina Shout",
+          "date": "1988",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "James P. Johnson"
+          ],
+          "labels": [
+            {
+              "name": "Biograph Records",
+              "catalogNumber": "BCD-105 DDD"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "573ca4f6-67c7-380a-b5d5-227e110c362b",
+            "title": "Carolina Shout",
+            "firstReleaseDate": "1988",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Steeplechase Rag",
+            "Twilight Rag",
+            "Carolina Shout",
+            "Baltimore Buzz",
+            "Gypsy Blues",
+            "Harlem Strut",
+            "Eccentricity",
+            "Don't Mess With Me",
+            "Nervous Blues",
+            "Ole Miss Blues",
+            "I Ain't Givin' Nothin' Away",
+            "Muscle Shoal Blues",
+            "Farewell Blues",
+            "Charleston"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "moonlight-serenade-glenn-miller",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.7,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "mismatch",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Key tracks: King Porter Stomp, Little Brown Jug",
+          "problem": "These two keyTracks are not on the matched MB release tracklist",
+          "evidenceQuote": "In the Mood; Moonlight Serenade; Chatanooga Choo Choo; Pennsylvania 6-5000; Tuxedo Junction; American Patrol; Serenade in Blue; Happy in Love; Elmer's Tune; Moonlight Cocktail; St. Louis Blues; My Prayer; Back in Black; Kalamazoo; The Woodpecker Song; In a Sentimental Mood; The Jumpin' Jive; Don't Sit Under the Apple Tree; Johnson Rag; Anchors Aweigh",
+          "source": "mb"
+        }
+      ],
+      "notes": "MB search match, topArtistSimilarity 1.0, Glenn Miller, title 'Moonlight Serenade'; 4 of 6 keyTracks (Moonlight Serenade, In the Mood, Tuxedo Junction, Pennsylvania 6-5000) match this tracklist, so the entity matches. King Porter Stomp and Little Brown Jug are absent. CAUTION: 'Moonlight Serenade' is a very common Glenn Miller compilation title and the MB release is dated 2001 while ours says 1992, so the matched MB release may be a different compilation than ours - the two missing keyTracks could simply be on the 1992 edition. Recorded as factual_error on the keyTracks against the available evidence, but a human reviewer should confirm against the correct 1992 release. The wikipedia opensearch hit is a disambiguation page (Carly Simon/Wink albums, films), not our album; storedUrl null, no wrong link shipped (wikipedia entityMatch 'no')."
+    },
+    "ours": {
+      "title": "Moonlight Serenade",
+      "artist": "Glenn Miller",
+      "year": 1992,
+      "label": "Various",
+      "albumDNA": "Recorded in 1992, Moonlight Serenade showcases Glenn Miller at the height of their creative powers, offering one of the finest expressions of Swing. Moonlight Serenade remains a landmark of Swing, cementing Glenn Miller's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Moonlight Serenade",
+        "King Porter Stomp",
+        "Little Brown Jug",
+        "In the Mood",
+        "Tuxedo Junction",
+        "Pennsylvania 6-5000"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "d8d6d6c2-e725-4669-8d0f-03c4c9d8b2f0",
+          "title": "Moonlight Serenade",
+          "date": "2001",
+          "country": "NZ",
+          "status": null,
+          "artists": [
+            "Glenn Miller"
+          ],
+          "labels": [
+            {
+              "name": "Rajon Music Group",
+              "catalogNumber": "RMGR0205"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "7c2d77ce-422c-381c-8874-834627135252",
+            "title": "Moonlight Serenade",
+            "firstReleaseDate": "2001",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "In the Mood",
+            "Moonlight Serenade",
+            "Chatanooga Choo Choo",
+            "Pennsylvania 6-5000",
+            "Tuxedo Junction",
+            "American Patrol",
+            "Serenade in Blue",
+            "Happy in Love",
+            "Elmer's Tune",
+            "Moonlight Cocktail",
+            "St. Louis Blues",
+            "My Prayer",
+            "Back in Black",
+            "Kalamazoo",
+            "The Woodpecker Song",
+            "In a Sentimental Mood",
+            "The Jumpin' Jive",
+            "Don't Sit Under the Apple Tree",
+            "Johnson Rag",
+            "Anchors Aweigh"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Moonlight Serenade (album)",
+          "resolvedTitle": "Moonlight Serenade (disambiguation)",
+          "shortDescription": "Topics referred to by the same term",
+          "extract": "\"Moonlight Serenade\" is a 1939 American popular song with original music by Glenn Miller and subsequent lyrics by Mitchell Parish.\nMoonlight Serenade may also refer to:\n\nMoonlight Serenade (1967 film), Hong Kong film by Shaw Brothers Studios\nMoonlight Serenade (1997 film), Japanese film\nMoonlight Serenade (2009 film), American film\nMoonlight Serenade (Carly Simon album), 2005\nMoonlight Serenade (Wink album), 1988"
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Moonlight Serenade (disambiguation)",
+            "shortDescription": "Topics referred to by the same term",
+            "extractHead": "\"Moonlight Serenade\" is a 1939 American popular song with original music by Glenn Miller and subsequent lyrics by Mitchell Parish.\nMoonlight Serenade may also refer to:\n\nMoonlight Serenade (1967 film), Hong Kong film by Shaw Brothers Studios\nMoonlight Serenade (1997 film), Japanese film\nMoonlight Serenade (2009 film), American film\nMoonlight Serenade (Carly Simon album), 2005\nMoonlight Serenade (Wink album), 1988"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "begin-the-beguine-artie-shaw",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.85,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "mismatch",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Key tracks: Begin the Beguine, Back Bay Shuffle, Any Old Time, Nightmare, Yesterdays, Rosalie",
+          "problem": "None of the six listed keyTracks appear on this embedded-MBID release tracklist (even the title track 'Begin the Beguine' is absent)",
+          "evidenceQuote": "The Japanese Sandman; A Pretty Girl I Like a Melody; I Used to Be Above Love; No Regrets; South Sea Island Magic; It Ain't Right; Sugar Foot Stomp; Thou Swell; You're Giving Me a Song and a Dance; Darling, Not Without You; One, Two, Button Your Shoe; Let's Call a Heart a Heart; The Skeleton in the Closet; There's Something in the Air; Take Another Guess; There's Frost on the Moon; Love and Learn; Moon Face; The Same Old Line; You Can Tell She Comes From Dixie; Sobbin' Blues; Copenhagen; Cream Puff; My Blue Heaven; Streamline; Sweet Lorraine; Love Is Good for Anything That Ails You; No More Tears; Moonlight and Shadows; Was It Rain?; All Alone; All God's Chillun Got Rhythm; It Goes to Your Feet; Because I Love You; Night and Day; I Surrender Dear; Blues Skies; Someday, Sweetheart; Afraid to Dream; If You Should Ever Leave",
+          "source": "mb"
+        }
+      ],
+      "notes": "embedded_mbid (authoritative), Artie Shaw, title 'Begin the Beguine', year 2005 matches MB date 2005-03-07 (Documents label, 40-track Compilation). Entity matches via the embedded ID, but all 6 keyTracks - including the title track itself - are absent from this specific release's tracklist, which is an early-Shaw/standards selection that does not contain the famous 'Begin the Beguine'/'Nightmare'/'Back Bay Shuffle' sides. keyTracks mismatch caps the verdict at factual_error. Wikipedia opensearch resolved to a different 'Begin the Beguine (album)' (1981 Julio Iglesias, CBS) - wrong entity, storedUrl null, no wrong link shipped (wikipedia entityMatch 'no')."
+    },
+    "ours": {
+      "title": "Begin the Beguine",
+      "artist": "Artie Shaw",
+      "year": 2005,
+      "label": "Various",
+      "albumDNA": "Recorded in 2005, Begin the Beguine showcases Artie Shaw at the height of their creative powers, offering one of the finest expressions of Swing. Begin the Beguine remains a landmark of Swing, cementing Artie Shaw's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Begin the Beguine",
+        "Back Bay Shuffle",
+        "Any Old Time",
+        "Nightmare",
+        "Yesterdays",
+        "Rosalie"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "8b355af4-eaab-487e-85da-2b9f96851697",
+          "title": "Begin the Beguine",
+          "date": "2005-03-07",
+          "country": null,
+          "status": "Official",
+          "artists": [
+            "Artie Shaw"
+          ],
+          "labels": [
+            {
+              "name": "Documents",
+              "catalogNumber": "222738"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "fe1313a3-c814-44e1-81cf-c932ec1d525c",
+            "title": "Begin the Beguine",
+            "firstReleaseDate": "2005-03-07",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "The Japanese Sandman",
+            "A Pretty Girl I Like a Melody",
+            "I Used to Be Above Love",
+            "No Regrets",
+            "South Sea Island Magic",
+            "It Ain't Right",
+            "Sugar Foot Stomp",
+            "Thou Swell",
+            "You're Giving Me a Song and a Dance",
+            "Darling, Not Without You",
+            "One, Two, Button Your Shoe",
+            "Let's Call a Heart a Heart",
+            "The Skeleton in the Closet",
+            "There's Something in the Air",
+            "Take Another Guess",
+            "There's Frost on the Moon",
+            "Love and Learn",
+            "Moon Face",
+            "The Same Old Line",
+            "You Can Tell She Comes From Dixie",
+            "Sobbin' Blues",
+            "Copenhagen",
+            "Cream Puff",
+            "My Blue Heaven",
+            "Streamline",
+            "Sweet Lorraine",
+            "Love Is Good for Anything That Ails You",
+            "No More Tears",
+            "Moonlight and Shadows",
+            "Was It Rain?",
+            "All Alone",
+            "All God's Chillun Got Rhythm",
+            "It Goes to Your Feet",
+            "Because I Love You",
+            "Night and Day",
+            "I Surrender Dear",
+            "Blues Skies",
+            "Someday, Sweetheart",
+            "Afraid to Dream",
+            "If You Should Ever Leave"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Begin the Beguine (album)",
+          "resolvedTitle": "Begin the Beguine (album)",
+          "shortDescription": "1981 studio album by Julio Iglesias",
+          "extract": "Begin the Beguine is a studio album by Julio Iglesias, released in 1981 on CBS.\n\n\n== Track listing ==\n\n\n== Charts ==\n\n\n== Certifications ==\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Begin the Beguine (album)",
+            "shortDescription": "1981 studio album by Julio Iglesias",
+            "extractHead": "Begin the Beguine is a studio album by Julio Iglesias, released in 1981 on CBS.\n\n\n== Track listing ==\n\n\n== Charts ==\n\n\n== Certifications ==\n\n\n== References =="
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "hi-de-ho-man-cab-calloway",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.85,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "year",
+          "ours": "2008",
+          "evidence": "1974",
+          "evidenceQuote": "\"date\": \"1974\"",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 2008, Hi De Ho Man showcases Cab Calloway",
+          "problem": "Our year 2008 contradicts the matched release date of 1974 (a Columbia compilation); no later 2008 release is shown in evidence",
+          "evidenceQuote": "\"title\": \"Hi De Ho Man\", \"date\": \"1974\"",
+          "source": "mb"
+        }
+      ],
+      "notes": "Same entity (Cab Calloway, Hi De Ho Man, Columbia compilation). Year field is wrong: MB release and release-group both date 1974, ours says 2008. keyTracks all match the MB tracklist (ours 'Fifteen Minutes Itermission' is a typo for MB 'Fifteen Minutes Intermission'; 'Jumpin Jive' and 'A Chicken Ain't Nothing but a Bird' match). Label placeholder 'Various' (MB: Columbia)."
+    },
+    "ours": {
+      "title": "Hi De Ho Man",
+      "artist": "Cab Calloway",
+      "year": 2008,
+      "label": "Various",
+      "albumDNA": "Recorded in 2008, Hi De Ho Man showcases Cab Calloway at the height of their creative powers, offering one of the finest expressions of Swing. Hi De Ho Man remains a landmark of Swing, cementing Cab Calloway's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Nagasaki",
+        "Hoy Hoy",
+        "Jumpin Jive",
+        "Abi Gezunt",
+        "Fifteen Minutes Itermission",
+        "A Chicken Ain't Nothing but a Bird"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "37b96b34-eb82-4c1c-b90c-3a65a9437a46",
+          "title": "Hi De Ho Man",
+          "date": "1974",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Cab Calloway"
+          ],
+          "labels": [
+            {
+              "name": "Columbia",
+              "catalogNumber": "G 32593"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "ee15cddc-2488-3f6c-ba84-b58d58b9a633",
+            "title": "Hi De Ho Man",
+            "firstReleaseDate": "1974",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Nagasaki",
+            "Hoy Hoy",
+            "Jumpin Jive",
+            "Abi Gezunt",
+            "Fifteen Minutes Intermission",
+            "A Chicken Ain’t Nothing but a Bird",
+            "My Gal",
+            "St. James Infirmary",
+            "I Want to Rock",
+            "I’ll Be Around",
+            "Minnie the Moocher",
+            "Honey Dripper",
+            "Hey Now–Hey Now",
+            "Hi De Ho Man",
+            "Oh Grandpa",
+            "Jungle King",
+            "Two Blocks Down, Turn to the Left",
+            "San Francisco Fan",
+            "The Calloway Boogie",
+            "Everybody Eats When They Come to My House"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "body-and-soul-coleman-hawkins",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.8,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "mismatch",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "keyTracks: The Original Dixieland One-Step, Honeysuckle Rose, Crazy Rhythm, Sweet Georgia Brown, The Darktown Strutters Ball, My Melancholy Baby",
+          "problem": "None of the 6 listed keyTracks appear on either the MB 'Body and Soul' compilation tracklist or the Wikipedia 'Body and Soul (Coleman Hawkins album)' tracklist; they describe a different Hawkins release",
+          "evidenceQuote": "Body and Soul, How Deep Is the Ocean, The Man I Love, My Ideal, Stumpy, Sweet Lorraine, Woody 'n You, Yesterdays ...",
+          "source": "mb"
+        }
+      ],
+      "notes": "Right artist and title (Coleman Hawkins, Body and Soul) — both MB (Dreyfus compilation) and Wikipedia entity-match. Our year is null so no date claim. But the 6 keyTracks (Crazy Rhythm, Honeysuckle Rose, Sweet Georgia Brown, Original Dixieland One-Step, Darktown Strutters Ball, My Melancholy Baby) match NEITHER evidence tracklist — these are from a different Hawkins compilation. keyTracks mismatch -> factual_error (capped at factual_error per spec). Label placeholder 'Various' (MB: Dreyfus Jazz)."
+    },
+    "ours": {
+      "title": "Body and Soul",
+      "artist": "Coleman Hawkins",
+      "year": null,
+      "label": "Various",
+      "albumDNA": "Body and Soul stands among Coleman Hawkins's most celebrated works, capturing the essential spirit of Swing. Body and Soul remains a landmark of Swing, cementing Coleman Hawkins's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "The Original Dixieland One-Step",
+        "Honeysuckle Rose",
+        "Crazy Rhythm",
+        "Sweet Georgia Brown",
+        "The Darktown Strutters Ball",
+        "My Melancholy Baby"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "e1983659-31e8-410f-b8c6-ec2e29c2f2c4",
+          "title": "Body and Soul",
+          "date": "2001-11-21",
+          "country": "FR",
+          "status": "Official",
+          "artists": [
+            "Coleman Hawkins"
+          ],
+          "labels": [
+            {
+              "name": "Dreyfus Jazz",
+              "catalogNumber": "FDM 36721-2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "42543962-0784-370a-9eb5-b5fe8eb4d34e",
+            "title": "Body and Soul",
+            "firstReleaseDate": "2001-11-21",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Body and Soul",
+            "How Deep Is the Ocean",
+            "The Man I Love",
+            "My Ideal",
+            "Stumpy",
+            "Sweet Lorraine",
+            "Woody 'n You",
+            "Yesterdays",
+            "Bean's Talking Again",
+            "Night and Day",
+            "Don't Blame Me",
+            "Just One of Those Things",
+            "There's a Small Hotel",
+            "I Surrender, Dear",
+            "Sophisticated Lady",
+            "Indian Summer",
+            "Picasso",
+            "Rainbow Mist"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Body and Soul (Coleman Hawkins album)",
+          "resolvedTitle": "Body and Soul (Coleman Hawkins album)",
+          "shortDescription": "1996 compilation album by Coleman Hawkins",
+          "extract": "Body and Soul is an album by the jazz tenor saxophonist Coleman Hawkins, including recordings made between 1939 and 1956. It takes its name from one of Hawkins' most famous performances – a 1939 recording of \"Body and Soul\". The album also contains a 1956 recording of the same piece. (Because the 1939 recording is held in the highest regard, there have been a number of compilations with the same title, including an earlier CD from Records, on the Topaz Jazz Records/Pearl imprint, and a boxed set from Proper.)\n\n\n== Track listing ==\n\"Meet Doctor Foo\" (Hawkins) – 2:32\n\"Fine Dinner\" (Hawkins) – 2:33\n\"She's Funny That Way\" (Whiting–Daniels) – 3:14\n\"Body and Soul\" (Heyman–Green–Sour) – 3:00\n\"When Day Is Done\" (Katscher–deSylva) – 3:15\n\"The Sheik of Araby\" (Wheeler–Smith–Snyder) – 2:56\n\"My Blue Heaven\" (Whiting–Donaldson) – 2:46\n\"Bouncing with Bean\" (Hawkins) – 3:03\n\"Say It Isn't So\" (Berlin) – 2:57\n\"Spotlite\" (Hawkins) – 3:06\n\"April in Paris\" (Harburg–Duke) – 3:06\n\"How Strange\" (Prozorovsky–Brent–Kahn–Stothart) – 3:02\n\"Half Step Down, Please\" (Dameron–Hawkins) – 3:02\n\"Angel Face\" (Jones) – 3:12\n\"There Will Never Be Another You\" (Warren–Gordon) – 2:57\n\"The Bean Stalks Again\" (Hawkins) – 3:24\n\"Body and Soul\" – 4:51\n\"I Love Paris\" (Porter) – 3:30\n\"Under Paris Skies\" (Gannon–Drejac–Giraud) – 2:45\n\n\n== Personnel ==\nColeman Hawkins – Tenor saxophone\nTommy Lindsay – Trumpet\nJoe Guy – Trumpet\nEarly Hardy – Trombone\nJackie Fields – Alto saxophone\nEustis Moore – Alto saxophone\nGene Rodgers – Piano\nWilliam Oscar Smith – Double Bass\nArthur Herbert – Drums\nThelma Carpenter – Vocals on \"She's Funny That Way\"\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Body and Soul (Coleman Hawkins album)",
+            "shortDescription": "1996 compilation album by Coleman Hawkins",
+            "extractHead": "Body and Soul is an album by the jazz tenor saxophonist Coleman Hawkins, including recordings made between 1939 and 1956. It takes its name from one of Hawkins' most famous performances – a 1939 recording of \"Body and Soul\". The album also contains a 1956 recording of the same piece. (Because the 1939 recording is held in the highest regard, there have been a number of compilations with the same title, including an earlier CD from Records, on the Topaz Jazz Records/Pearl imprint, and a boxed set"
+          },
+          {
+            "resolvedTitle": "Body and Soul",
+            "shortDescription": "Topics referred to by the same term",
+            "extractHead": "Body and Soul may refer to:\n\n\n== Entertainment ==\n\n\n=== Songs ===\n\"Body and Soul\" (1930 song), a 1930 popular song and jazz standard, and the title song of many of the albums listed below\n\"Body and Soul (That's the Way It's Got to Be)\", a 1972 song by Soul Generation\n\"Body and Soul\", an Australian top 5 single in 1982 by Jo Kennedy\n\"Body and Soul\", a 1984 song by Mai Tai\n\"Body and Soul\" (Anita Baker song), 1994\n\n\n=== Albums ===\nBody and Soul (Billie Holiday album), 1957\nThe Body & the Soul, 1963"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "django-and-his-american-friends-django-reinhardt",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.72,
+      "entityMatch": {
+        "musicbrainz": "unsure",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "mismatch",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "keyTracks: Avalon, What A Difference A Day Made, Stardust, Rosetta, Stardust, The Object Of My Affection",
+          "problem": "None of these tracks appear on the matched MB release 'Django And His American Friends, Vol. 2'; ours appears to be a different volume",
+          "evidenceQuote": "Eddie's Blues, Sweet Georgia Brown, I Ain't Got Nobody, Baby Won't You Please Come Home, Big Boy Blues ...",
+          "source": "mb"
+        }
+      ],
+      "notes": "MB search matched 'Django And His American Friends, Vol. 2' (Django Reinhardt, date 1965 = our year), but our title omits 'Vol. 2' and none of our 6 keyTracks are on that Vol. 2 tracklist — ours looks like Vol. 1 of the series. Right artist/series, likely wrong volume matched -> entity unsure, keyTracks mismatch -> factual_error. Note our keyTracks list 'Stardust' twice (duplicate). Label placeholder 'Various' (MB: His Master's Voice)."
+    },
+    "ours": {
+      "title": "Django and His American Friends",
+      "artist": "Django Reinhardt",
+      "year": 1965,
+      "label": "Various",
+      "albumDNA": "Recorded in 1965, Django and His American Friends showcases Django Reinhardt at the height of their creative powers, offering one of the finest expressions of Swing. Django and His American Friends remains a landmark of Swing, cementing Django Reinhardt's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Avalon",
+        "What A Difference A Day Made",
+        "Stardust",
+        "Rosetta",
+        "Stardust",
+        "The Object Of My Affection"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "7090d3b6-456c-4888-866e-4e05f3095180",
+          "title": "Django And His American Friends, Vol. 2",
+          "date": "1965",
+          "country": "GB",
+          "status": "Official",
+          "artists": [
+            "Django Reinhardt"
+          ],
+          "labels": [
+            {
+              "name": "His Master’s Voice",
+              "catalogNumber": "CLP 1907"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "a0602bb4-e737-4ba4-9a0b-c4d08a809c18",
+            "title": "Django And His American Friends, Vol. 2",
+            "firstReleaseDate": "1965",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Eddie's Blues",
+            "Sweet Georgia Brown",
+            "I Ain't Got Nobody",
+            "Baby Won't You Please Come Home",
+            "Big Boy Blues",
+            "Bill Coleman Blues",
+            "Somebody Loves Me",
+            "I Can't Believe That You're In Love With Me",
+            "I'm Coming, Virginia",
+            "Farewell Blues",
+            "Blue Light Blues",
+            "Montmartre",
+            "Low Cotton",
+            "Finesse",
+            "I Know That You Know",
+            "Solid Old Man"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "nows-the-time-charlie-parker",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.85,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "mismatch",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "keyTracks: A Night in Tunisia, Ornithology, Parker's Mood, Now's the Time, Relaxin' at Camarillo, Bird of Paradise",
+          "problem": "Only 'Now's the Time' is on the matched (embedded, authoritative) 2020 release; the other 5 keyTracks are absent from its tracklist — ours describes a different Charlie Parker 'Now's the Time' compilation",
+          "evidenceQuote": "The Song Is You, Laird Baird, Kim, Cosmic Rays, Chi Chi, I Remember You, Now's The Time, Confirmation ...",
+          "source": "mb"
+        }
+      ],
+      "notes": "MB embedded_mbid (authoritative): Charlie Parker, 'Now's The Time', date 2020 = our year. Right entity (artist), but 5 of 6 keyTracks are not on this release's tracklist (only 'Now's the Time' matches) -> keyTracks mismatch -> factual_error. The opensearch Wikipedia resolved to 'Now's the Time (composition)' — a song, not the album — discarded; not stored so no link harm. Label placeholder 'Various' (MB: Bird's Nest)."
+    },
+    "ours": {
+      "title": "Now's the Time",
+      "artist": "Charlie Parker",
+      "year": 2020,
+      "label": "Various",
+      "albumDNA": "Recorded in 2020, Now's the Time showcases Charlie Parker at the height of their creative powers, offering one of the finest expressions of Bebop. Now's the Time remains a landmark of Bebop, cementing Charlie Parker's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "A Night in Tunisia",
+        "Ornithology",
+        "Parker's Mood",
+        "Now's the Time",
+        "Relaxin' at Camarillo",
+        "Bird of Paradise"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "dce6a0dd-5097-455d-bb52-59eb84adcda7",
+          "title": "Now's The Time",
+          "date": "2020",
+          "country": "XE",
+          "status": "Official",
+          "artists": [
+            "Charlie Parker"
+          ],
+          "labels": [
+            {
+              "name": "Bird's Nest",
+              "catalogNumber": "BN 244105"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "cd78c4a2-85ae-48b0-89cd-a347d3393c66",
+            "title": "Now's The Time",
+            "firstReleaseDate": "2020",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "The Song Is You",
+            "Laird Baird",
+            "Kim",
+            "Kim [alt tk]",
+            "Cosmic Rays",
+            "Cosmic Rays [alt tk]",
+            "Chi Chi",
+            "Chi Chi [alt tk1]",
+            "Chi Chi [alt tk2]",
+            "Chi Chi [alt tk3]",
+            "I Remember You",
+            "Now's The Time",
+            "Confirmation",
+            "I'm in the Mood for Love*",
+            "Star Eyes*",
+            "Blues [Fast]*",
+            "Celebrity*",
+            "Ballade*",
+            "Si Si*",
+            "Swedish Schnapps*",
+            "Swedish Schnapps [alt tk]*",
+            "Back Home Blues*",
+            "Back Home Blues [alt tk]*",
+            "Lover Man*",
+            "Blues for Alice*"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Now's the Time (Charlie Parker song)",
+          "resolvedTitle": "Now's the Time (composition)",
+          "shortDescription": "Song by Charlie Parker",
+          "extract": "\"Now's the Time\" is a composition by Charlie Parker. He led the first recording of it, on November 26, 1945.\n\n\n== Background and composition ==\n\"Although Parker was capable of writing intricate bebop melody lines, he sometimes stepped back from his more progressive leanings and drew on his Kansas City jazz roots in crafting simpler, bluesier compositions – of which 'Now's the Time' is a case in point.\" It is a riff-based blues, with typical bebop phrase endings at the end of bars 5 and 6.\n\n\n== Original recording ==\n\"Now's the Time\" was first recorded on November 26, 1945, by Charlie Parker's Reboppers: Parker (alto sax), Miles Davis (trumpet), Dizzy Gillespie or Sadik Hakim (piano), Curley Russell (bass), and Max Roach (drums). Multiple takes were made; The Penguin Guide to Jazz suggests that \"Parker's solo on the third take is superior in its slashing self-confidence to that on the fourth, which is slightly duller; Miles Davis plays without conviction on both.\" The fourth take was the original official release.\n\n\n== Influence ==\nThe melody of \"Now's the Time\" was used for \"The  Hucklebuck\", a hit for saxophonist Paul Williams four years after Parker's original recording. Despite being released by the same record label with the same producer, Parker was not credited; instead, the composition was attributed to Andy Gibson, who had been a songwriter for Lucky Millinder, who recorded it as \"D-Natural Blues\".\n\n\n== References ==\n\nBibliography"
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Now's the Time (composition)",
+            "shortDescription": "Song by Charlie Parker",
+            "extractHead": "\"Now's the Time\" is a composition by Charlie Parker. He led the first recording of it, on November 26, 1945.\n\n\n== Background and composition ==\n\"Although Parker was capable of writing intricate bebop melody lines, he sometimes stepped back from his more progressive leanings and drew on his Kansas City jazz roots in crafting simpler, bluesier compositions – of which 'Now's the Time' is a case in point.\" It is a riff-based blues, with typical bebop phrase endings at the end of bars 5 and 6.\n\n\n== O"
+          },
+          {
+            "resolvedTitle": "Now's the Time",
+            "shortDescription": "Topics referred to by the same term",
+            "extractHead": "Now's the Time may refer to:\n\n\"Now's the Time\" (composition), by Charlie Parker\nNow's the Time (Sonny Rollins album), 1964\nNow's the Time (Shirley Scott album), 1967\nNow's the Time (New York Unit album), 1992\nNow's the Time (4 P.M. album), 1995\nNow's the Time (Billy Mitchell album), 1976\nNow's the Time (Houston Person and Ron Carter album), a1990\nNow's the Time!, a 2011 album by Tony Christie\nNow's the Time (Francissca Peter album), a 1989 album by Francissca Peter\nNow's the Time (film), a 1932 "
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "afro-dizzy-gillespie",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.8,
+      "entityMatch": {
+        "musicbrainz": "no",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "year",
+          "ours": "2022",
+          "evidence": "1954",
+          "evidenceQuote": "1954 studio album by Dizzy Gillespie",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 2022, Afro showcases Dizzy Gillespie",
+          "problem": "Wikipedia (entity-matched) dates the album 1954, released November 1954; our year 2022 has no support in evidence",
+          "evidenceQuote": "Afro is a studio album by the jazz trumpeter Dizzy Gillespie. It was released in November 1954 through Norgran Records.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "The MB search 'release' resolved to a DIFFERENT release — 'Afro-Paris / I Cover the Waterfront', a 1953 2-track single — not our album; discarded (entityMatch mb=no). The opensearch Wikipedia 'Afro (album)' clearly IS our entity: Dizzy Gillespie, and all 6 keyTracks match its tracklist (Manteca Theme, Contraste, Jungla, Rhumba Finale, A Night in Tunisia, Con Alma) -> keyTracksVerdict ok via wiki. Year 2022 contradicts Wikipedia's 1954 -> factual_error. Label placeholder 'Various' (Wikipedia: Norgran)."
+    },
+    "ours": {
+      "title": "Afro",
+      "artist": "Dizzy Gillespie",
+      "year": 2022,
+      "label": "Various",
+      "albumDNA": "Recorded in 2022, Afro showcases Dizzy Gillespie at the height of their creative powers, offering one of the finest expressions of Bebop. Afro remains a landmark of Bebop, cementing Dizzy Gillespie's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Manteca Theme",
+        "Contraste",
+        "Jungla",
+        "Rhumba-Finale",
+        "Night in Tunisia",
+        "Con Alma"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "af2b3689-8a0a-4093-bbc9-036ab6f6adeb",
+          "title": "Afro-Paris / I Cover the Waterfront",
+          "date": "1953-02",
+          "country": "SE",
+          "status": "Official",
+          "artists": [
+            "Dizzy Gillespie"
+          ],
+          "labels": [
+            {
+              "name": "Jazz Selection",
+              "catalogNumber": "J.S. 4019"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "e9a6937b-5190-48e5-ada4-e66a053b9e3c",
+            "title": "Afro-Paris / I Cover the Waterfront",
+            "firstReleaseDate": "1953-02",
+            "primaryType": "Single",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Afro-Paris",
+            "I Cover the Waterfront"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Afro (album)",
+          "resolvedTitle": "Afro (album)",
+          "shortDescription": "1954 studio album by Dizzy Gillespie",
+          "extract": "Afro is a studio album by the jazz trumpeter Dizzy Gillespie. It was released in November 1954 through Norgran Records. Gillespie worked with many Cuban musicians on the album.\n\n\n== Reception ==\nThe AllMusic review states: \"Pairing Dizzy Gillespie with Cuban arranger/composer Chico O'Farrill produced a stunning session which originally made up the first half of a Norgran LP... A later small-group session features the trumpeter with an all-Latin rhythm section and flutist Gilberto Valdes... it is well worth acquiring.\"\n\n\n== Track listing ==\n\"Manteca Theme\" (Gil Fuller, Dizzy Gillespie, Chano Pozo) – 4:10\n\"Contraste\" (Gillespie, Chico O'Farrill, Pozo) – 2:45\n\"Jungla\" (Gillespie, O'Farrill, Pozo) – 4:44\n\"Rhumba Finale\" (Gillespie, O'Farrill, Pozo) – 4:43\n\"A Night in Tunisia\" (Gillespie, Frank Paparelli) – 4:19\n\"Con Alma\" (Gillespie) – 5:05\n\"Caravan\" (Duke Ellington, Irving Mills, Juan Tizol) – 7:19\n\n\n== Personnel ==\nDizzy Gillespie – trumpet\nGilbert Valdez – flute (tracks 5–7)\nQuincy Jones, Jimmy Nottingham, Ernie Royal – trumpet (tracks 1–4)\nLeon Comegys, J. J. Johnson, George Matthews – trombone (tracks 1–4)\nGeorge Dorsey, Hilton Jefferson – alto saxophone (tracks 1–4)\nHank Mobley, Lucky Thompson – tenor saxophone (tracks 1–4)\nDanny Bank – baritone saxophone (tracks 1–4)\nRéne Hernandez (tracks 5–7), Wade Legge (tracks 1–4) – piano\nLou Hackney (tracks 1–4), Roberto Rodríguez – bass\nCharlie Persip – drums (tracks 1–4)\nCándido Camero – congas, percussion\nMongo Santamaria – congas (tracks 1–4)\nJosé Mangual – bongos\nUbaldo Nieto – timbales\nRalph Miranda – percussion (tracks 5–7)\nChico O'Farrill – arranger (tracks 1–4)\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Afro (album)",
+            "shortDescription": "1954 studio album by Dizzy Gillespie",
+            "extractHead": "Afro is a studio album by the jazz trumpeter Dizzy Gillespie. It was released in November 1954 through Norgran Records. Gillespie worked with many Cuban musicians on the album.\n\n\n== Reception ==\nThe AllMusic review states: \"Pairing Dizzy Gillespie with Cuban arranger/composer Chico O'Farrill produced a stunning session which originally made up the first half of a Norgran LP... A later small-group session features the trumpeter with an all-Latin rhythm section and flutist Gilberto Valdes... it is"
+          },
+          {
+            "resolvedTitle": "Afar (album)",
+            "shortDescription": "2012 studio album by Ice Choir",
+            "extractHead": "Afar is the debut studio album of Ice Choir, the project of former the Pains of Being Pure at Heart drummer and the Depreciation Guild lead Kurt Feldman. It was released on July 31, 2012, by Underwater Peoples. It received mostly positive reviews from critics, with positive reviews highlighting Feldman's use of the 1980s influences and more varied responses criticizing the cheesiness.\n\n\n== Production ==\n\nTowards the end of the Depreciation Guild, Kurt Feldman began writing music without any of t"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fontainebleau-tadd-dameron",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.7,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "year",
+          "ours": "1996",
+          "evidence": "1956 (recorded March 9, 1956); MB release date 1987",
+          "evidenceQuote": "Recorded March 9, 1956, at Van Gelder Studio, Hackensack, New Jersey.",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 1996, Fontainebleau showcases Tadd Dameron",
+          "problem": "Wikipedia (entity-matched) states the album is from 1956, recorded March 9, 1956; the matched MB release dates 1987. Our year 1996 matches neither and is unsupported by any evidence document",
+          "evidenceQuote": "Fontainebleau is a 1956 album by jazz musician Tadd Dameron.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Right entity: MB search match and Wikipedia 'Fontainebleau (album)' both Tadd Dameron, and all 5 keyTracks match exactly (Fontainebleau, Delirium, The Scene Is Clean, Flossie Lou, Bula-Beige). Year is the issue: ours 1996 vs MB release 1987 vs Wikipedia original 1956/recorded 1956 — 1996 is supported by nothing here. Flagged factual_error on year; a 1996 CD reissue is conceivable but no evidence shows it, hence moderate confidence. Label placeholder 'Various' (MB: Original Jazz Classics / Prestige)."
+    },
+    "ours": {
+      "title": "Fontainebleau",
+      "artist": "Tadd Dameron",
+      "year": 1996,
+      "label": "Various",
+      "albumDNA": "Recorded in 1996, Fontainebleau showcases Tadd Dameron at the height of their creative powers, offering one of the finest expressions of Bebop. Fontainebleau remains a landmark of Bebop, cementing Tadd Dameron's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Fontainebleau",
+        "Delirium",
+        "The Scene Is Clean",
+        "Flossie Lou",
+        "Bula-Beige"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "a2385b86-61cc-48b7-9374-6c8e2c43b415",
+          "title": "Fontainebleau",
+          "date": "1987",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Tadd Dameron"
+          ],
+          "labels": [
+            {
+              "name": "Original Jazz Classics",
+              "catalogNumber": "OJCCD-055-2"
+            },
+            {
+              "name": "Prestige",
+              "catalogNumber": "P-7037"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "bacd60ee-98bd-3404-beff-99f490938426",
+            "title": "Fontainebleau",
+            "firstReleaseDate": "1987",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Fontainebleau",
+            "Delirium",
+            "The Scene Is Clean",
+            "Flossie Lou",
+            "Bula-Beige"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Fontainebleau (album)",
+          "resolvedTitle": "Fontainebleau (album)",
+          "shortDescription": "1956 studio album by Tadd Dameron",
+          "extract": "Fontainebleau is a 1956 album by jazz musician Tadd Dameron. The title track, inspired by a trip to the French palace of the same name, is a through-composed composition with no solos, while \"Flossie Lou\" is a contrafact of \"Jeepers Creepers\".\n\n\n== Reception ==\n\nIn a review for AllMusic, Scott Yanow wrote: \"As is usual with most Dameron dates, the emphasis is on his inventive arrangements although there is space... for individual solos. Recommended.\"\nMarc Myers of JazzWax called Fontainebleau \"one of the prettiest octet albums of the 1950s,\" and commented: \"The players on the album come together well, as if carefully selected for their tones... For me, the album is as perfect as a panoramic landscape painting... The music is delicate and cohesive, and the solos celebrate the vistas that dazzle the eye.\"\n\n\n== Track listing ==\nAll tracks composed by Tadd Dameron.\n\n\"Fontainebleau\" – 4:48\n\"Delirium\" –  5:00\n\"The Scene Is Clean\" – 5:00\n\"Flossie Lou\" – 4:50\n\"Bula-Beige\" – 11:20\nRecorded March 9, 1956, at Van Gelder Studio, Hackensack, New Jersey.\n\n\n== Personnel ==\nKenny Dorham – trumpet\nHenry Coker  – trombone\nCecil Payne - baritone saxophone\nSahib Shihab – alto saxophone\nJoe Alexander – tenor saxophone\nTadd Dameron – piano\nJohn Simmons – bass\nShadow Wilson – drums\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Fontainebleau (album)",
+            "shortDescription": "1956 studio album by Tadd Dameron",
+            "extractHead": "Fontainebleau is a 1956 album by jazz musician Tadd Dameron. The title track, inspired by a trip to the French palace of the same name, is a through-composed composition with no solos, while \"Flossie Lou\" is a contrafact of \"Jeepers Creepers\".\n\n\n== Reception ==\n\nIn a review for AllMusic, Scott Yanow wrote: \"As is usual with most Dameron dates, the emphasis is on his inventive arrangements although there is space... for individual solos. Recommended.\"\nMarc Myers of JazzWax called Fontainebleau \"o"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "night-train-oscar-peterson",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.95,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "year",
+          "ours": "2011",
+          "evidence": "1963",
+          "evidenceQuote": "Night Train is an album by the Oscar Peterson Trio, released in 1963 by Verve Records.",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 2011, Night Train showcases Oscar Peterson",
+          "problem": "Year is wrong; the album was recorded/released 1963, not 2011 (2011 appears to be a CD-reissue year).",
+          "evidenceQuote": "1963 studio album by the Oscar Peterson Trio",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Entity confirmed by MB (search, sim 0.76) and the entity-matched Wikipedia page (Night Train, Oscar Peterson Trio, 1963, Verve). All 6 keyTracks match the MB tracklist (C‐Jam Blues = MB 'C Jam Blues'). Only error is the year (2011 vs 1963). Label 'Various' is the dataset-wide placeholder; MB/wiki show Verve. albumDNA is generic editorial boilerplate (no other checkable facts)."
+    },
+    "ours": {
+      "title": "Night Train",
+      "artist": "Oscar Peterson",
+      "year": 2011,
+      "label": "Various",
+      "albumDNA": "Recorded in 2011, Night Train showcases Oscar Peterson at the height of their creative powers, offering one of the finest expressions of Bebop. Night Train remains a landmark of Bebop, cementing Oscar Peterson's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Night Train",
+        "C‐Jam Blues",
+        "Georgia on My Mind",
+        "Bags’ Groove",
+        "Moten Swing",
+        "Easy Does It"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 0.76,
+        "release": {
+          "mbid": "ceb28103-20f0-4124-a2f6-25df53b9b31e",
+          "title": "Night Train",
+          "date": "1963",
+          "country": "DE",
+          "status": "Official",
+          "artists": [
+            "The Oscar Peterson Trio"
+          ],
+          "labels": [
+            {
+              "name": "Verve",
+              "catalogNumber": "V6-8538"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "9ce4b9ee-9ad4-3deb-95a4-4cb4e68c145e",
+            "title": "Night Train",
+            "firstReleaseDate": "1963",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Night Train",
+            "C Jam Blues",
+            "Georgia on My Mind",
+            "Bags’ Groove",
+            "Moten Swing",
+            "Easy Does It",
+            "Honey Dripper",
+            "Things Ain’t What They Used to Be",
+            "I Got It Bad and That Ain’t Good",
+            "Band Call",
+            "Hymn to Freedom"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Night Train (Oscar Peterson album)",
+          "resolvedTitle": "Night Train (Oscar Peterson album)",
+          "shortDescription": "1963 studio album by the Oscar Peterson Trio",
+          "extract": "Night Train is an album by the Oscar Peterson Trio, released in 1963 by Verve Records. The album includes jazz, blues and R&B standards, as well as \"Hymn to Freedom\", one of Peterson's best known original compositions.\n\n\n== Background ==\nAlbum producer Norman Granz had sold the record label Verve, but remained Peterson's manager, and so supervised the Night Train recording session. The brief duration of many of the tracks has been attributed to a desire to have them played on commercial radio, which was reluctant to play any tracks longer than a few minutes.\nThe cover art photograph is by Pete Turner and original sleeve notes were by Benny Green.\nThe album was dedicated to Peterson's father, who worked as a sleeping-car attendant for Canadian Pacific Railways.\n\n\n== Music and recording ==\nA Jazz.com review notes that the title track, \"Night Train,\" is evidence of Peterson's ability to balance musical innovation with popular appeal, as demonstrated throughout the album: \"By using the basic elements of crescendo and diminuendo, and arranged sections to set off the parts, Peterson turns what could have been a throwaway into a minor masterpiece.\"\nNight Train’s only original Oscar Peterson composition, \"Hymn to Freedom,\" was written on the spot in the studio to close the album, following Norman Granz's suggestion that the band include a song with a \"definitive early-blues feel.\" Peterson named the new song \"Hymn to Freedom\" in honor of Martin Luther King Jr., and after Harriette Hamilton wrote accompanying lyrics a year later, it became an unofficial anthem of the Civil Rights Movement. \"Hymn to Freedom\" is featured prominently in the 2021 documentary Oscar Peterson: Black + White as part of Peterson's enduring legacy.\nHymn to Freedom has been reinterpreted, in a jazz version, by Oliver Jones (piano), who is considered a disciple of Oscar Peterson; he described it as \"A class act\" album with changes to tempo, rhythm and structure and notable piano virtuosity. They played live together on 2004. Ben Webster (tenor sax) played it in \"At ease\" album hereby in an intimate version with extensive use of subtone.\nOn the 1997 CD reissue, an alternate take of \"Night Train\" is titled \"Happy Go Lucky Local,\" the name of the 1946 Duke Ellington composition that is the basis of Jimmy Forrest's \"Night Train.\" The alternate take features the same arrangement as the master take.\nEd Thigpen's rivet cymbal, recorded at very close range, is prominent on all issues of the album.\n\n\n== Critical reception ==\n\nFor AllMusic, critic John Bush wrote that the release \"includes stately covers of blues and R&B standards\". The Penguin Guide to Jazz included it in its core collection, calling it “one of the best-constructed long-players of the period\" and saying that Peterson's playing is \"tight and uncharacteristically emotional\".\nIn 2019, the album was named as the jury winner of the Polaris Heritage Prize.\n\n\n== Influence ==\nDiana Krall reported that listening to the album made being a jazz pianist her ambition. Linda May Han Oh reported that listening to the album inspired her to start playing upright bass.\n\n\n== Track listing ==\n\n(Tracks 12 through 17 are CD bonus tracks, not included on the original vinyl LP)\n\n\n== Personnel ==\nOscar Peterson - piano\nRay Brown - double bass\nEd Thigpen - drums\nTechnical personnel\n\nNorman Granz – production\nVal Valentin – recording engineering\nPete Turner – cover photography\nBenny Green - sleeve notes\n\n\n== References ==\n\n\n== Links ==\nNight Train at Discogs (list of releases)"
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Night Train (Oscar Peterson album)",
+            "shortDescription": "1963 studio album by the Oscar Peterson Trio",
+            "extractHead": "Night Train is an album by the Oscar Peterson Trio, released in 1963 by Verve Records. The album includes jazz, blues and R&B standards, as well as \"Hymn to Freedom\", one of Peterson's best known original compositions.\n\n\n== Background ==\nAlbum producer Norman Granz had sold the record label Verve, but remained Peterson's manager, and so supervised the Night Train recording session. The brief duration of many of the tracks has been attributed to a desire to have them played on commercial radio, w"
+          },
+          {
+            "resolvedTitle": "Night Train",
+            "shortDescription": "Topics referred to by the same term",
+            "extractHead": "Night Train or Nightrain may refer to:\n\n\n== Art ==\nNight Train (painting), a 1947 painting by Paul Delvaux\nNight Train, a 1995 mural by Blue Sky\n\n\n== Film, television and radio ==\nNight Train (1959 film), a Polish film directed by Jerzy Kawalerowicz\nNight Train (1998 film), an Irish romantic thriller directed by John Lynch\nNight Train (1999 film), an American film directed by Les Bernstien\nNight Train (2007 film), a Chinese film directed by Diao Yi'nan\nNight Train (2009 film), an American thrill"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "at-the-stratford-shakespearean-festival-oscar-peterson",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.9,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "year",
+          "ours": "1993",
+          "evidence": "1957-07",
+          "evidenceQuote": "firstReleaseDate: 1957-07 (releaseGroup, primaryType Album, secondaryTypes [Live])",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 1993, At the Stratford Shakespearean Festival",
+          "problem": "Year is wrong; the live album first appeared in 1957 (the MB release dated 1993-04-20 is a CD reissue). It cannot have been recorded in 1993.",
+          "evidenceQuote": "firstReleaseDate: 1957-07",
+          "source": "mb"
+        }
+      ],
+      "notes": "MB embedded_mbid (authoritative): Oscar Peterson Trio, Live, releaseGroup first release 1957-07; the matched release (1993-04-20) is a reissue. All 6 keyTracks match the MB tracklist. No Wikipedia page returned. Label 'Various' placeholder; MB shows Verve. Year is the only error; '1993' is the reissue date, not the recording/first-release year."
+    },
+    "ours": {
+      "title": "At the Stratford Shakespearean Festival",
+      "artist": "Oscar Peterson",
+      "year": 1993,
+      "label": "Various",
+      "albumDNA": "Recorded in 1993, At the Stratford Shakespearean Festival showcases Oscar Peterson at the height of their creative powers, offering one of the finest expressions of Bebop. At the Stratford Shakespearean Festival remains a landmark of Bebop, cementing Oscar Peterson's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Falling in Love With Love",
+        "How About You?",
+        "Flamingo",
+        "Swinging on a Star",
+        "Noreen’s Nocturne",
+        "Gypsy in My Soul"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "71c8b874-e88e-4361-8856-81ce23b49c5a",
+          "title": "At the Stratford Shakespearean Festival",
+          "date": "1993-04-20",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "The Oscar Peterson Trio"
+          ],
+          "labels": [
+            {
+              "name": "Verve",
+              "catalogNumber": "3145137522"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "48e9313a-96d9-3b00-9485-125d8a96a7ae",
+            "title": "At the Stratford Shakespearean Festival",
+            "firstReleaseDate": "1957-07",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Live"
+            ]
+          },
+          "tracks": [
+            "Falling in Love With Love",
+            "How About You?",
+            "Flamingo",
+            "Swinging on a Star",
+            "Noreen’s Nocturne",
+            "Gypsy in My Soul",
+            "Nuages",
+            "How High the Moon",
+            "Love You Madly",
+            "52nd Street Theme",
+            "Daisy’s Dream"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "joe-pass-at-the-montreux-jazz-festival-joe-pass",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.92,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "year",
+          "ours": "1997",
+          "evidence": "1975",
+          "evidenceQuote": "firstReleaseDate: 1975 (releaseGroup 'Joe Pass at the Montreux Jazz Festival 1975', secondaryTypes [Live])",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 1997, Joe Pass at the Montreux Jazz Festival",
+          "problem": "Year is wrong; this is a 1975 Montreux live recording (MB title literally 'Joe Pass at the Montreux Jazz Festival 1975'; first release 1975). The 1997-05-16 MB release is a reissue.",
+          "evidenceQuote": "Joe Pass at the Montreux Jazz Festival 1975",
+          "source": "mb"
+        }
+      ],
+      "notes": "MB embedded_mbid: Joe Pass, Live, first release 1975; matched release 1997-05-16 is the OJC CD reissue. All 6 keyTracks match the MB tracklist. No Wikipedia page. Label 'Various' placeholder; MB shows Original Jazz Classics. Year ('Recorded in 1997') reflects the reissue date, not 1975."
+    },
+    "ours": {
+      "title": "Joe Pass at the Montreux Jazz Festival",
+      "artist": "Joe Pass",
+      "year": 1997,
+      "label": "Various",
+      "albumDNA": "Recorded in 1997, Joe Pass at the Montreux Jazz Festival showcases Joe Pass at the height of their creative powers, offering one of the finest expressions of Bebop. Joe Pass at the Montreux Jazz Festival remains a landmark of Bebop, cementing Joe Pass's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "You Are the Sunshine of My Life",
+        "The Very Thought of You",
+        "Nobs",
+        "Li'l Darlin'",
+        "Blues for Nina",
+        "How Long Has This Been Going On?"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "84817565-77b2-4a99-8deb-d62f7a615a6f",
+          "title": "Joe Pass at the Montreux Jazz Festival 1975",
+          "date": "1997-05-16",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Joe Pass"
+          ],
+          "labels": [
+            {
+              "name": "Original Jazz Classics",
+              "catalogNumber": "OJCCD-934-25"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "75790731-24a8-36a8-93b5-c3b7da3eee81",
+            "title": "Joe Pass at the Montreux Jazz Festival 1975",
+            "firstReleaseDate": "1975",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Live"
+            ]
+          },
+          "tracks": [
+            "You Are the Sunshine of My Life",
+            "The Very Thought of You",
+            "Nobs",
+            "Li'l Darlin'",
+            "Blues for Nina",
+            "How Long Has This Been Going On?",
+            "More Than You Know",
+            "Grete",
+            "Nuages",
+            "I'm Glad There Is You",
+            "Willow Weep for Me"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "chet-baker-and-crew-chet-baker",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.92,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "mismatch",
+      "fieldIssues": [
+        {
+          "field": "year",
+          "ours": "1993",
+          "evidence": "1956",
+          "evidenceQuote": "date: 1956 / firstReleaseDate: 1956 (Pacific Jazz, PJ-1224)",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 1993, Chet Baker and Crew",
+          "problem": "Year is wrong; 'Chet Baker & Crew' was recorded/released 1956 on Pacific Jazz (1993 is a CD-reissue year).",
+          "evidenceQuote": "date: 1956",
+          "source": "mb"
+        },
+        {
+          "ourClaim": "Something for Lisa",
+          "problem": "keyTrack title misspelled; MB tracklist has 'Something for Liza' (Liza, not Lisa).",
+          "evidenceQuote": "Something for Liza",
+          "source": "mb"
+        }
+      ],
+      "notes": "MB search (sim 0.77): Chet Baker & Crew, 1956, Pacific Jazz — entity matches. 5 of 6 keyTracks match exactly; 'Something for Lisa' is a one-letter spelling error for MB 'Something for Liza'. Primary issue is the year (1993 vs 1956). Label 'Various' placeholder; MB shows Pacific Jazz."
+    },
+    "ours": {
+      "title": "Chet Baker and Crew",
+      "artist": "Chet Baker",
+      "year": 1993,
+      "label": "Various",
+      "albumDNA": "Recorded in 1993, Chet Baker and Crew showcases Chet Baker at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Chet Baker and Crew remains a landmark of Cool Jazz, cementing Chet Baker's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "To Mickey's Memory",
+        "Slightly Above Moderate",
+        "Halema",
+        "Revelation",
+        "Something for Lisa",
+        "Lucius Lu"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 0.77,
+        "release": {
+          "mbid": "dbb02c72-d77e-44ed-bab1-df24b1a11114",
+          "title": "Chet Baker & Crew",
+          "date": "1956",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Chet Baker & Crew"
+          ],
+          "labels": [
+            {
+              "name": "Pacific Jazz",
+              "catalogNumber": "PJ-1224"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "dde96c0e-4af1-44d8-b3c9-fcd09239bf31",
+            "title": "Chet Baker & Crew",
+            "firstReleaseDate": "1956",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "To Mickey’s Memory",
+            "Slightly Above Moderate",
+            "Halema",
+            "Revelation",
+            "Something for Liza",
+            "Lucius Lu",
+            "Worrying the Life Out of Me",
+            "Medium Rock"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "art-pepper-meets-the-rhythm-section-art-pepper",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.9,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "year",
+          "ours": "2000",
+          "evidence": "1957-01-01",
+          "evidenceQuote": "firstReleaseDate: 1957-01-01 (releaseGroup 'Art Pepper Meets the Rhythm Section')",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 2000, Art Pepper Meets the Rhythm Section",
+          "problem": "Year is wrong; the album first appeared in 1957 on Contemporary (the MB release dated 2000 is a CD reissue). It cannot have been recorded in 2000.",
+          "evidenceQuote": "firstReleaseDate: 1957-01-01",
+          "source": "mb"
+        }
+      ],
+      "notes": "MB embedded_mbid: Art Pepper, Contemporary Records, releaseGroup first release 1957-01-01; matched release (2000) is a CD reissue. All 6 keyTracks match the MB tracklist. Year is the only error; '2000' is the reissue date. Label 'Various' placeholder; MB shows Contemporary Records."
+    },
+    "ours": {
+      "title": "Art Pepper Meets the Rhythm Section",
+      "artist": "Art Pepper",
+      "year": 2000,
+      "label": "Various",
+      "albumDNA": "Recorded in 2000, Art Pepper Meets the Rhythm Section showcases Art Pepper at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Art Pepper Meets the Rhythm Section remains a landmark of Cool Jazz, cementing Art Pepper's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "You'd Be So Nice to Come Home To",
+        "Red Pepper Blues",
+        "Imagination",
+        "Waltz Me Blues",
+        "Straight Life",
+        "Jazz Me Blues"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "bc18d7d7-dd2e-4347-ae50-6639a4060928",
+          "title": "Art Pepper Meets the Rhythm Section",
+          "date": "2000",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Art Pepper"
+          ],
+          "labels": [
+            {
+              "name": "Contemporary Records",
+              "catalogNumber": "CCD-7532-2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "5dc7981a-c20f-361b-8365-ad677ba41b7a",
+            "title": "Art Pepper Meets the Rhythm Section",
+            "firstReleaseDate": "1957-01-01",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "You'd Be So Nice to Come Home To",
+            "Red Pepper Blues",
+            "Imagination",
+            "Waltz Me Blues",
+            "Straight Life",
+            "Jazz Me Blues",
+            "Tin Tin Deo",
+            "Star Eyes",
+            "Birks' Works",
+            "The Man I Love"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  }
+]

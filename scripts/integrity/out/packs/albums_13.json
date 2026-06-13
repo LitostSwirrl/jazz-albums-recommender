@@ -1,0 +1,1536 @@
+[
+ {
+  "id": "science-fiction",
+  "kind": "album",
+  "ours": {
+   "title": "Science Fiction",
+   "artist": "Ornette Coleman",
+   "year": 1972,
+   "label": "Columbia",
+   "albumDNA": "Science Fiction is an album by the American avant-garde jazz saxophonist and composer Ornette Coleman, recorded in September and October 1971 and released on Columbia Records in February 1972. A 1972 free jazz date for Columbia that documents Ornette Coleman's ongoing work in the idiom.",
+   "keyTracks": [
+    "What Reason Could I Give",
+    "Civilization Day",
+    "Street Woman",
+    "Science Fiction",
+    "Rock the Clock"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Science_Fiction_(Ornette_Coleman_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "705c372a-b045-40a4-93e0-72954d24ccdd",
+     "title": "Science Fiction",
+     "date": "1972",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Ornette Coleman"
+     ],
+     "labels": [
+      {
+       "name": "Columbia",
+       "catalogNumber": "KC 31061"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "1f5ce9a4-6186-34d3-9424-475d7952a222",
+      "title": "Science Fiction",
+      "firstReleaseDate": "1972",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "What Reason Could I Give",
+      "Civilization Day",
+      "Street Woman",
+      "Science Fiction",
+      "Rock the Clock",
+      "All My Life",
+      "Law Years",
+      "The Jungle Is a Skyscraper"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Science_Fiction_(Ornette_Coleman_album)",
+    "page": {
+     "requestedTitle": "Science Fiction (Ornette Coleman album)",
+     "resolvedTitle": "Science Fiction (Ornette Coleman album)",
+     "shortDescription": "1972 studio album by Ornette Coleman",
+     "extract": "Science Fiction is an album by the American avant-garde jazz saxophonist and composer Ornette Coleman, recorded in September and October 1971 and released on Columbia Records in February 1972.\nIn 2000, the album was re-released along with Broken Shadows (recorded during the same sessions but not released until 1982) and several unreleased tracks as The Complete Science Fiction Sessions.\n\n\n== Recording ==\nScience Fiction features Coleman's early 1970s quartet, consisting of Coleman (alto saxophone, trumpet, violin), Charlie Haden (double bass), Ed Blackwell (drums), and Dewey Redman (tenor saxophone). It also features performances by former Coleman sidemen Billy Higgins (drums), Don Cherry (pocket trumpet), and Bobby Bradford (trumpet), and vocals by Indian-American singer Asha Puthli on two tracks and American poet David Henderson on the title track.\n\n\n== Reception ==\n\nThe AllMusic review by Steve Huey awarded the album 5 stars and stated: \"Science Fiction was [Coleman's] creative rebirth, a stunningly inventive and appropriately alien-sounding blast of manic energy... Science Fiction is a meeting ground between Coleman's past and future; it combines the fire and edge of his Atlantic years with strong hints of the electrified, globally conscious experiments that were soon to come. And, it's overflowing with brilliance\". The Rolling Stone Jazz Record Guide called it \"fascinating\" and \"multifaceted\" in another five-star review. Reviewing the album for Pitchfork, Daniel Felsenthal called it \"a one-of-a-kind dispatch from the vibrant, polygenic, and contested lofts of downtown New York\" and \"a welcome return to the singable, quintessentially Southern melodicism that counterbalanced [Coleman's] dauntless early oeuvre\".\n\n\n== Track listing ==\nAll compositions by Ornette Coleman.\n\n\"What Reason Could I Give?\" – 3:06\n\"Civilization Day\" – 6:04\n\"Street Woman\" – 4:50\n\"Science Fiction\" – 5:03\n\"Rock the Clock\" – 3:16\n\"All My Life\" – 3:56\n\"Law Years\" – 5:22\n\"The Jungle Is a Skyscraper\" – 5:26\nRecorded at Columbia Studio E, NYC on September 9 (tracks 2, 3, 7 and 8), September 10 (track 4) and October 13 (tracks 1, 5 and 6), 1971\n\n\n== Personnel ==\nOrnette Coleman – alto saxophone, trumpet, violin\nDon Cherry – pocket trumpet (tracks 2–4)\nBobby Bradford – trumpet (tracks 4, 7–8)\nCarmine Fornarotto, Gerard Schwarz – trumpet (tracks 1 and 6)\nDewey Redman – tenor saxophone, musette (tracks 1, 4–8)\nCharlie Haden – double bass, electric double bass with wah-wah pedal\nBilly Higgins – drums (tracks 1–4, 6)\nEd Blackwell – drums (tracks 1, 4–8)\nDavid Henderson – recitation (track 4)\nAsha Puthli – vocals (tracks 1, 6)\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "shades-of-green",
+  "kind": "album",
+  "ours": {
+   "title": "Shades of Green",
+   "artist": "Grant Green",
+   "year": 1972,
+   "label": "Blue Note",
+   "albumDNA": "Shades of Green is an album by American jazz guitarist Grant Green featuring performances recorded in 1971 and released on the Blue Note label. Documents guitarist Grant Green's jazz fusion work for Blue Note, a 1972 session reflecting the fusion period.",
+   "keyTracks": [
+    "I Don't Want Nobody to Give Me Nothing (Open Up the Door I'll Get It Myself) / Cold Sweat (medley)",
+    "Sunrise, Sunset",
+    "Never My Love",
+    "Got to Be There",
+    "California Green"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Shades_of_Green_(album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "47ffd53b-ca32-3c2a-b56f-f945b6766875",
+     "title": "Shades of Green",
+     "date": "1972-04",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Grant Green"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "BST-84413"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "10d74a91-89b0-47de-85cd-5b055c044992",
+      "title": "Shades of Green",
+      "firstReleaseDate": "1972-04",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "I Don't Want Nobody to Give Me Nothing (Open Up the Door I'll Get It Myself) / Cold Sweat (medley)",
+      "Sunrise, Sunset",
+      "Never My Love",
+      "Got to Be There",
+      "California Green",
+      "If You Really Love Me",
+      "Cast Your Fate to the Wind",
+      "In the Middle"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Shades_of_Green_(album)",
+    "page": {
+     "requestedTitle": "Shades of Green (album)",
+     "resolvedTitle": "Shades of Green (album)",
+     "shortDescription": "1972 studio album by Grant Green",
+     "extract": "Shades of Green is an album by American jazz guitarist Grant Green featuring performances recorded in 1971 and released on the Blue Note label.\n\n\n== Reception ==\n\nThe Allmusic review by Michael Erlewine awarded the album 2 stars and stated \"This is not the old Grant Green\".\n\n\n== Track listing ==\n\"Medley: I Don't Want Nobody to Give Me Nothing (Open Up the Door I'll Get It Myself) / Cold Sweat\" (James Brown) – 5:52\n\"Sunrise, Sunset\" (Jerry Bock, Sheldon Harnick) – 4:40\n\"Never My Love\" (Donald Adrissi, Richard Addrisi) – 4:30\n\"Got to Be There\" (Elliot Willensky) – 4:24\n\"California Green\" (Grant Green) – 6:24\n\"If You Really Love Me\" (Stevie Wonder, Syreeta Wright) – 4:25\n\"Cast Your Fate to the Wind\" (Vince Guaraldi) – 4:50\n\"In the Middle\" (Alfred Ellis, Buddy Hobgood) – 5:02\nRecorded at United Artists Studios, West Hollywood, CA on November 23 (tracks 1, 5 & 8), & November 24 (tracks 2–4, 6 & 7), 1971 with horn overdubs recorded at Rudy Van Gelder Studio, Englewood Cliffs, New Jersey on December 16 & 17, 1971\n\n\n== Personnel ==\n\n\n=== Musicians ===\nGrant Green – guitar\nBilly Wooten – vibraphone\nEmmanuel Riggins – electric piano, clavinet\nWilton Felder – electric bass\nNesbert \"Stix\" Hooper – drums\nKing Errisson – conga\nHarold Cardwell – percussion\nOrchestra arranged by Wade Marcus\n\n\n=== Additional musicians ===\nJoe Newman, Joe Wilder, Victor Paz, James Sedlar – trumpet\nHarry DiVito – trombone\nDick Hickson – bass trombone\nJim Buffington – French horn\nPhil Bodner, Romeo Penque, George Marge, John Leone – woodwinds\n\n\n=== Technical personnel ===\nChristina Hersch – engineer\nRudy Van Gelder – remixing\nNorman Seeff – art direction\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "skies-of-america",
+  "kind": "album",
+  "ours": {
+   "title": "Skies of America",
+   "artist": "Ornette Coleman",
+   "year": 1972,
+   "label": "Columbia",
+   "albumDNA": "Skies of America is the 17th album by jazz saxophonist Ornette Coleman, released on Columbia Records in 1972. It consists of one long composition by Coleman taking up both sides of the album, played by the London Symphony Orchestra and conducted by David Measham. Coleman himself only plays on a few segments, and there is no other jazz instrumentation.",
+   "keyTracks": [
+    "Skies of America",
+    "Native Americans",
+    "The Good Life",
+    "Birthdays and Funerals",
+    "Dreams"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Skies_of_America"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "0018ffd7-1105-4a48-b920-a2471af84cef",
+     "title": "Skies of America",
+     "date": "1972",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Ornette Coleman",
+      "The London Symphony Orchestra",
+      "David Measham"
+     ],
+     "labels": [
+      {
+       "name": "Columbia",
+       "catalogNumber": "C 31562"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "2b6bc6aa-5305-36a8-b063-a6bd5049ca6f",
+      "title": "Skies of America",
+      "firstReleaseDate": "1972",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Skies of America",
+      "Native Americans",
+      "The Good Life",
+      "Birthdays and Funerals",
+      "Dreams",
+      "Sounds of Sculpture",
+      "Holiday for Heroes",
+      "All of My Life",
+      "Dancers",
+      "The Souls Within Woman",
+      "The Artist in America",
+      "The New Anthem",
+      "Place in Space",
+      "Foreigner in a Free Land",
+      "Silver Screen",
+      "Poetry",
+      "The Men Who Live in the White House",
+      "Love Life",
+      "The Military",
+      "Jam Session",
+      "Sunday in America"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Skies_of_America",
+    "page": {
+     "requestedTitle": "Skies of America",
+     "resolvedTitle": "Skies of America",
+     "shortDescription": "1972 studio album by Ornette Coleman",
+     "extract": "Skies of America is the 17th album by jazz saxophonist Ornette Coleman, released on Columbia Records in 1972. It consists of one long composition by Coleman taking up both sides of the album, played by the London Symphony Orchestra and conducted by David Measham. Coleman himself only plays on a few segments, and there is no other jazz instrumentation.\n\n\n== Background ==\nColeman had encountered third stream music in the 1950s, had played sessions for Gunther Schuller in 1960, and had composed two earlier orchestral works, Inventions of Symphonic Poems in 1967 and Sun Suite of San Francisco in 1968. Immediately prior to this album, he had done arranging work for Alice Coltrane on her album Universal Consciousness. He had initially envisioned Skies as a concerto grosso for jazz combo and orchestra, but owing to contractual disputes with the musician's union in England, his band would not be allowed to record at all, and Coleman limited his own contribution to solos over the orchestra for select segments of the music.\nDisenchanted with the music business after a less-than-enthusiastic response to his music, Coleman took a sabbatical to Montana in 1965. Coleman witnessed a group of Native Americans and it inspired him.\n\n\"It was so cold,\" he said of that time in Montana. \"It must have been 2 or 3 below zero, and when I saw the American Indians praying, doing their purity ritual, they looked like their bodies were transparent. All of a sudden, I saw the American Indian and the sky as the same people. It taught me something about religion, race, wealth, poverty, commerce. I said: 'Oh, I'm going to go over to the other side. I only want to be on the side of the consciousness that comes to people naturally.'\"\nColeman began writing sketches of what became Skies of America. The work features what Coleman called \"Harmolodics\", a merger of harmony, melody, and movement.\n\n\n== Content ==\nThe album contains nearly all of the music that Coleman wrote for Skies of America, though several repeated motifs and two other segments were removed from the work in order to accommodate the limited  album playing time. The 21 track titles were added by Coleman as an afterthought, Columbia executives hoping that the work might attract airplay via shorter lengths given promotion similar to that for singles. Recording sessions took place at Abbey Road Studios in London from April 17 to 20, 1972.\n\n\n== Reception ==\nThe Allmusic review by Thom Jurek stated that \"this is still dangerous and rewarding music\". The Penguin Guide to Jazz awards it three and a half stars, declaring the album \"another grand mess, generously and boldly conceived but stifled by the grim playing of the LSO.\" On May 2, 2000, the album was remastered and reissued for compact disc. The piece appeared in full continuity without the break for the album sides.\nBob Palmer of Rolling Stone praised the album saying \"This music will leave few listeners unmoved, and it leaves room for a multitude of personal reactions to the negative and positive qualities of life under America’s skies.\" Bill Milkowski of JazzTimes was also impressed with the work but he cautioned that it was \"imposing\" and would \"present quite a challenge to listeners and die-hard fans alike.\"\nGary Giddins reviewed the album for DownBeat and concluded \"... it is a major achievement by any standard, and mandatory listening for anyone at all interested in contemporary music.\"\n\n\n== Track listing ==\nAll tracks are composed by Ornette Coleman.\n\n\n=== Side one ===\n\n\n=== Side two ===\n\n\n== Personnel ==\nOrnette Coleman – alto saxophone on \"The Artist in America,\" \"Foreigner in A Free Land,\" \"Silver Screen,\" \"Poetry,\" \"The Men Who Live in the White House,\" \"Love Life,\" and \"Jam Session\"\nDewey Redman - Tenor Saxophone, Oboe\nCharlie Haden - Bass\nEd Blackwell - Drums\nLondon Symphony Orchestra – instruments\nDavid Measham – conductor\nAnthony Clark, Mike FitzHenry – engineers\nEd Lee – cover design\nMichael Gross – cover art\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "great-american-songbook",
+  "kind": "album",
+  "ours": {
+   "title": "The Great American Songbook Live",
+   "artist": "Carmen McRae",
+   "year": 1972,
+   "label": "Atlantic",
+   "albumDNA": "The Great American Songbook is a 1972 live album by Carmen McRae, accompanied by a jazz quartet including Jimmy Rowles and Joe Pass. McRae was a great fan of Rowles and described him in the liner notes to the album as \"the guy every girl singer in her right mind would like to work with\". Rowles's humorous country and western song, \"The Ballad of Thelonious Monk\", is featured on the album. Captured McRae's complete artistry—singer, pianist, and entertainer. Her spoken introductions became legendary.",
+   "keyTracks": [
+    "Alfie",
+    "If You Could See Me Now",
+    "Baltimore Oriole",
+    "I'm Always Drunk in San Francisco"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Great_American_Songbook_(Carmen_McRae_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/The_Great_American_Songbook_(Carmen_McRae_album)",
+    "page": {
+     "requestedTitle": "The Great American Songbook (Carmen McRae album)",
+     "resolvedTitle": "The Great American Songbook (Carmen McRae album)",
+     "shortDescription": "1972 live album by Carmen McRae",
+     "extract": "The Great American Songbook is a 1972 live album by Carmen McRae, accompanied by a jazz quartet including Jimmy Rowles and Joe Pass. McRae was a great fan of Rowles and described him in the liner notes to the album as \"the guy every girl singer in her right mind would like to work with\". Rowles's humorous country and western song, \"The Ballad of Thelonious Monk\", is featured on the album.\n\n\n== Reception ==\n\nReviewing the album for AllMusic, Scott Yanow wrote that McRae \"...had what was at the time a rare opportunity to record a live, spontaneous, jazz-oriented set. She sounds quite enthusiastic about both her accompaniment and the strong repertoire\". Phyl Garland, reviewing the album for  Ebony magazine, wrote that \"this is one of the finest heaping portions of McRae in ages...it captures her banter between song all the wit of a mature woman rapping about how to make it in any situation.\" Garland described \"If the Moon Turns Green\" and \"I Thought About You\" as \"masterpieces of delicacy and phrasing\". Billboard magazine described the album as a \"sensational performance...the lady is beautiful, lending her own interpretations and great style to the lucky composers and stylists\".\nDiana Krall said in an interview that she wishes she had been present at this performance as \"Those were the days when they were singing songs, and they weren't into worrying about whether you scat sang or not. You knew you were a jazz singer by the way you approached things\".\n\n\n== Track listing ==\n\"Satin Doll\" (Duke Ellington, Billy Strayhorn, Johnny Mercer) – 4:34\n\"At Long Last Love\" (Cole Porter) – 2:26\n\"If the Moon Turns Green\" (Bernie Hanighen, Paul Coates) – 4:26\n\"Day by Day\" (Axel Stordahl, Paul Weston, Sammy Cahn) – 2:23\n\"What Are You Doing the Rest of Your Life?\" (Michel Legrand, Alan and Marilyn Bergman) – 4:14\n\"I Only Have Eyes for You\" (Harry Warren, Al Dubin) – 4:13\nMedley: \"Easy Living\"/\"Days of Wine and Roses\"/\"It's Impossible\" (Ralph Rainger, Leo Robin/Henry Mancini, Mercer/Armando Manzanero, Sid Wayne) – 9:45\n\"Sunday\" (Chester Conn, Benny Krueger, Ned Miller, Jule Styne) – 4:25\n\"A Song for You\" (Leon Russell) – 4:34\n\"I Cried for You\" (Gus Arnheim, Abe Lyman, Arthur Freed) – 1:50\n\"Behind the Face\" (Jimmy Rowles, Jimmy McHugh) – 2:38\n\"The Ballad of Thelonious Monk\" (Rowles, McHugh) – 3:29\n\"There's No Such Thing as Love\" (Anthony Newley, Ian Fraser) – 5:01\n\"(They Long to Be) Close to You\" (Burt Bacharach, Hal David) – 4:38\n\"Three Little Words\" (Harry Ruby, Bert Kalmar) – 2:54\n\"Mr. Ugly\" (Norman Mapp) – 3:35\n\"It's Like Reaching for the Moon\" (Al Sherman, Gerald Marqusee, Al Lewis) – 2:53\n\"I Thought About You\" (Jimmy Van Heusen, Mercer) – 3:25\n\n\n== Personnel ==\nCarmen McRae – vocals, piano on \"If the Moon Turns Green\" and \"Mr Ugly\"\nJimmy Rowles – piano\nJoe Pass – guitar\nChuck Domanico – double bass\nChuck Flores – drums\nProduction\n\nJack Rael – producer\nRay Thompson – engineer\nMichael Cuscuna – remix supervision\nGene Paul – remixing\nZal Schreiber – mastering\nIra Friedlander – design\nPaul Slaughter – photography\nCarmen McRae – liner notes\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "vietnam",
+  "kind": "album",
+  "ours": {
+   "title": "Vietnam",
+   "artist": "Revolutionary Ensemble",
+   "year": 1972,
+   "label": "ESP-Disk",
+   "albumDNA": "Vietnam, also referred to as Vietnam 1 & 2  is a live album by the Revolutionary Ensemble, violinist Leroy Jenkins, bassist Sirone and drummer Jerome Cooper, which was recorded in 1972 and released on the ESP-Disk label. Captures violinist Revolutionary Ensemble in a 1972 free jazz setting, adding to the recorded documentation of the fusion era.",
+   "keyTracks": [
+    "Vietnam 1",
+    "Vietnam 2"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Vietnam_(Revolutionary_Ensemble_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "24253a6d-5ee8-429c-90b4-6566d00e076c",
+     "title": "Vietnam",
+     "date": "1972",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Revolutionary Ensemble"
+     ],
+     "labels": [
+      {
+       "name": "ESP‐Disk’",
+       "catalogNumber": "ESP 3007"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "804fe8bf-c651-3dee-b18c-668428cd2041",
+      "title": "Vietnam",
+      "firstReleaseDate": "1972",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Vietnam 1",
+      "Vietnam 2"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Vietnam_(Revolutionary_Ensemble_album)",
+    "page": {
+     "requestedTitle": "Vietnam (Revolutionary Ensemble album)",
+     "resolvedTitle": "Vietnam (Revolutionary Ensemble album)",
+     "shortDescription": "1972 live album by Revolutionary Ensemble",
+     "extract": "Vietnam, also referred to as Vietnam 1 & 2 (Live at Peace Church) is a live album by the Revolutionary Ensemble, violinist Leroy Jenkins, bassist Sirone and drummer Jerome Cooper, which was recorded in 1972 and released on the ESP-Disk label.\nThe members of the group had been playing together since 1970, and, according to Sirone, were anxious to release a record. He decided to approach Bernard Stollman, founder of ESP-Disk. Sirone recalled: \"it was not a problem. You did not have to go through a whole lot of negotiating. He heard the music, he knew of the group, and he said, 'All right, do it.' We brought him a tape that we had recorded, a live concert in the Peace Church on West 4th Street, near Washington Square Park. It wasn't the best sound, because the church had this echo a lot of times, but if you were into the music, you could hear the instruments. Of course, Leroy wanted the audio to be clearer than it was, but I said, 'Let's go with it,' and it was not a problem for Bernard.\" In the end, Sirone was pleased with the disc, stating \"It was a strong recording, and a good representation of the group.\"\nAuthor Bob Gluck referred to the opening of Vietnam as an example of what he calls \"parallel play,\" a technique at which the group excelled, and \"a performance mode in which all three musicians pursued their own direction while contributing to a shared overall construction. The 'glue' for such performance is a combined energy level, density, texture, and sense of shared purpose.\" He noted that, due to the trio's cooperative orientation, \"The Revolutionary Ensemble had no leader looking in from outside the hub of activity, no Miles Davis to limit musical forays from continuing until their logical end, however anarchic the journey.\"\n\n\n== Reception ==\n\nThe AllMusic review by Eugene Chadbourne stated \"There is an intense emotional involvement with the playing that comes across through every sound made, but this was always the case with this group. Obviously, anyone with any intelligence had strong feelings about the war in Vietnam during the early '70s, and it could be said with accuracy that any performance of this group would have been about Vietnam just as much as this one was, as well as being about any number of other things. The great thing about the Revolutionary Ensemble was the range of grooves and sound areas the trio would get into, much of which is represented as this piece unfolds. The cooking sound of drums, bass, and the violin of Leroy Jenkins soaring above was sometimes what certain parts of the audience were always waiting for, but, like many of the AACM groups, this trio also loved to explore the worlds of silence and space\".\nThe authors of The Penguin Guide to Jazz awarded the album 3 stars, and wrote: \"the music is harsh and demanding, but Jenkins's interest in developing improvisations from small cells or motives is immediately evident, as is Sirone's ability to translate such ideas into a lower register and slower delivery, and Cooper's willingness to add an abstract orchestral quality to the music as well as line and metre. It remains a powerful performance, subtler than its rather two-dimensional register suggests.\"\nOn All About Jazz, Raoul D'Gama Rose noted \"It is hard to imagine why it was not first greeted with more fanfare upon its original release, but perhaps the world of art was much crueler towards modern musicians. The music on Vietnam rises like a primordial wail and growl from the guts of Jenkins' violin and Sirone's bass. ... Vietnam is a staggering composition; an epic lament of two peoples and the world at war. If it was not recognized as a major contribution in 1971, that fact ought to be reconsidered today\". In a separate review for the same publication, Jerry D'Souza commented: \"the music moves across a wide expanse. Fluidity and fractured movement are put into a melting pot. What emerges is a document of the way in which the trio circumvented form and gave their music an impressive definition... The trio never settles down into a predictable pattern. The creative fire is constantly burning... Nothing is as it seems, nothing is as it should be. And that makes this CD mesmerizing.\" In a third All About Jazz article, Clifford Allen wrote: \"An auspicious debut, Vietnam is an extremely intense slab of music and unlike anything else in the ESP catalogue.\"\nWriting for NPR Music, Lars Gotrich commented: \"it's clear from the outset that Jenkins, Sirone and Cooper were onto something ra"
+    }
+   }
+  }
+ },
+ {
+  "id": "world-galaxy",
+  "kind": "album",
+  "ours": {
+   "title": "World Galaxy",
+   "artist": "Alice Coltrane",
+   "year": 1972,
+   "label": "Impulse!",
+   "albumDNA": "Alice Coltrane's most orchestrally ambitious album, featuring her harp and organ work drenched in lush string arrangements. The music travels through cosmic landscapes, from the devotional opening of 'My Favorite Things' to the transcendent closer 'A Galaxy of Love.'. Represented Coltrane's boldest fusion of jazz, Indian classical music, and orchestral grandeur. The album's cosmic spirituality has been rediscovered and sampled extensively in hip-hop and electronic music.",
+   "keyTracks": [
+    "My Favorite Things",
+    "Galaxy Around Olodumare",
+    "Galaxy in Turiya",
+    "A Galaxy of Love"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "75e6e3bc-32df-4a1e-bf98-1182eb7d6657",
+     "title": "World Galaxy",
+     "date": "1972",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Alice Coltrane"
+     ],
+     "labels": [
+      {
+       "name": "impulse!",
+       "catalogNumber": "AS-9218"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "47fb55c7-b8da-3527-8df3-01599a96daf1",
+      "title": "World Galaxy",
+      "firstReleaseDate": "1972",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "My Favorite Things",
+      "Galaxy Around Olodumare",
+      "Galaxy in Turiya",
+      "Galaxy in Satchidananda",
+      "A Love Supreme"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "birds-of-fire",
+  "kind": "album",
+  "ours": {
+   "title": "Birds of Fire",
+   "artist": "Mahavishnu Orchestra",
+   "year": 1973,
+   "label": "Columbia",
+   "albumDNA": "Birds of Fire is the second studio album by jazz fusion band the Mahavishnu Orchestra. It was released in 1973 by Columbia Records and is the last studio album released by the original line-up before it dissolved. Defined the louder, more aggressive side of fusion. Its influence on progressive rock was immense.",
+   "keyTracks": [
+    "Birds of Fire",
+    "Miles Beyond",
+    "Celestial Terrestrial Commuters",
+    "One Word"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Birds_of_Fire"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "519fb75c-3c49-4637-a931-d14f39b45b68",
+     "title": "Birds of Fire",
+     "date": "1973",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Mahavishnu Orchestra"
+     ],
+     "labels": [
+      {
+       "name": "Columbia",
+       "catalogNumber": "KC 31996"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "c06d6702-eacb-324b-b9fd-d19c8331e178",
+      "title": "Birds of Fire",
+      "firstReleaseDate": "1973",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Birds of Fire",
+      "Miles Beyond",
+      "Celestial Terrestrial Commuters",
+      "Sapphire Bullets of Pure Love",
+      "Thousand Island Park",
+      "Hope",
+      "One Word",
+      "Sanctuary",
+      "Open Country Joy",
+      "Resolution"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Birds_of_Fire",
+    "page": {
+     "requestedTitle": "Birds of Fire",
+     "resolvedTitle": "Birds of Fire",
+     "shortDescription": "1973 studio album by Mahavishnu Orchestra",
+     "extract": "Birds of Fire is the second studio album by jazz fusion band the Mahavishnu Orchestra. It was released in 1973 by Columbia Records and is the last studio album released by the original line-up before it dissolved.\nAs with the group's previous album, The Inner Mounting Flame, Birds of Fire consists solely of compositions by John McLaughlin. These include the track \"Miles Beyond (Miles Davis)\", which McLaughlin dedicated to his friend and former bandleader.\nThe back cover of the album features the poem \"Revelation\" by Sri Chinmoy.\nThe track \"Birds of Fire\" was nominated for the 1974 Grammy for Best Pop Instrumental Performance.\n\n\n== Release history ==\nIn addition to the standard two-channel stereo album there was also a four-channel quadraphonic version released in 1973 on LP and 8-track tape. The quad LP was encoded in the SQ matrix format.\nThe first CD issue was in 1986. A remastered version of the album was released on CD in 2000 by Sony Music Entertainment. It features a new set of liner notes by JazzTimes critic Bill Milkowski, as well as photographs of the band. In 2015 the album was re-issued on Super Audio CD by Audio Fidelity containing both the stereo and quad mixes. The same content was re-issued on SACD in Japan in 2021 by Sony Music.\nThe track \"Celestial Terrestrial Commuters\" appears on the six-CD box set Jazz: The Smithsonian Anthology, released by Smithsonian Folkways in 2011, covering the history of jazz.\n\n\n== Reception ==\n\nReviewing the album for All About Jazz in 2002, Walter Kolosky wrote of the title track:\n\n\"Birds of Fire,\" which opens up the album, is a fusion classic. John McLaughlin scares the hell out of his guitar with his melodic convulsions. If you ever want to frighten a musical neophyte, turn your stereo up really loud and play the cover tune – it's guaranteed to send him or her fleeing.\n\n\n== Track listing ==\nAll tracks composed by John McLaughlin.\n\n\n== Personnel ==\n\n\n=== Musicians ===\nJohn McLaughlin – guitars\nRick Laird – bass\nBilly Cobham – drums, percussion\nJan Hammer – keyboards, Moog synthesizer, Fender Rhodes\nJerry Goodman – violin\n\n\n=== Technical ===\nKen Scott, Jim Green – audio engineer\nAshok (Chris Poisson) – album design\nPranavananda – photography\n\n\n== Charts ==\n\n\n== Certifications ==\n\n\n== References ==\n\n\n== External links ==\nSri Chinmoy Poetry: Revelation\nMahavishnu Orchestra – Birds Of Fire at discogs.com"
+    }
+   }
+  }
+ },
+ {
+  "id": "black-byrd",
+  "kind": "album",
+  "ours": {
+   "title": "Black Byrd",
+   "artist": "Donald Byrd",
+   "year": 1973,
+   "label": "Blue Note",
+   "albumDNA": "Trumpeter Donald Byrd's commercial breakthrough, produced by the Mizell Brothers, was Blue Note's biggest-selling album ever at the time. The music wraps Byrd's warm trumpet tone in layers of funky clavinet, wah-wah guitar, and string arrangements that still sound fresh today. Saved Blue Note Records from bankruptcy and proved that jazz could sell without compromising artistic integrity. The album's smooth jazz-funk template influenced a generation of fusion artists.",
+   "keyTracks": [
+    "Flight Time",
+    "Black Byrd",
+    "Love's So Far Away",
+    "Where Are We Going?"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "42940b92-6d0d-4456-a500-a3b1df5107eb",
+     "title": "Black Byrd",
+     "date": "1973",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Donald Byrd"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "BN-LA047-F"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "92217680-7ddc-3331-b73a-89f958128f77",
+      "title": "Black Byrd",
+      "firstReleaseDate": "1973",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Flight Time",
+      "Black Byrd",
+      "Love's So Far Away",
+      "Mr. Thomas",
+      "Sky High",
+      "Slop Jar Blues",
+      "Where Are We Going?"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Blackbird (album)",
+     "resolvedTitle": "Blackbird",
+     "shortDescription": "Topics referred to by the same term",
+     "extract": "Blackbird, blackbirds, black bird or black birds may refer to:\n\n\n== Birds ==\nTwo groups of birds in the parvorder Passerida:\n\nNew World blackbirds, family Icteridae\nOld World blackbirds, any of several species belonging to the genus Turdus in the family Turdidae\nChinese blackbird\nCommon blackbird\nGrey-winged blackbird\nIndian blackbird\nSomali thrush or Somali blackbird\nTibetan blackbird\nWhite-collared blackbird\n\n\n== Arts, entertainment, and media ==\n\n\n=== Books ===\nBlack Bird (Basilières novel), 2003, by Michel Basilières\nBlackbird (Dibia novel), 2011\nBlackbirds (Wendig novel), 2012, by Chuck Wendig\nBlackbird (memoir), 2000, by Jennifer Lauck\nBlackbird, a 1986 novel by Larry Duplechan\nBlackbird (journal), an online journal of literature and the arts\nBlack Bird (manga), 2007, by Kanoko Sakurakoji\n\"Blackbird\", a short story in Fragments of Horror\nBlackbird (comics), an aircraft in the X-Men comics\nBlackbird (Femizon), a villain in the Marvel Comics universe\nBlackbird, a comic by Sam Humphries\nFazbear Frights #6: Blackbird, 2020, by Scott Cawthon\n\n\n=== Film, theatre and TV ===\n\n\n==== Film and television ====\nBlack Bird, a 1973 South Korean film featuring Namkoong Won\nBlack Birds (film), a 1967 Yugoslav film\nBlackbird (2007 film), directed by Adam Rapp\nBlackbird (2012 film), directed by Jason Buxton\nBlackbird (2013 film), a 2013 drama film\nBlackbird (2014 film), directed by Patrik-Ian Polk\nBlackbird (2018 film), a spy film directed by, written by and starring Michael Flatley\nBlackbird (2019 film), a drama film directed by Roger Michell\nBlackbirds (1915 film), a silent film starring Laura Hope Crews\nBlackbirds (1920 film), a lost silent film starring Justine Johnstone\nThe Black Bird, a 1975 film starring George Segal\nThe Blackbird, a 1926 film directed by Tod Browning\nDeadfall (2012 film), directed by Stefan Ruzowitzky, which had the working title Blackbird\nBeyond the Lights, a 2014 film directed by Gina Prince-Bythewood originally titled Blackbird\nBlack Bird (miniseries), a 2022 Apple TV+ miniseries\n\n\n==== Theatre ====\nBlackbird (play), 2005, by David Harrower\nBlackbird, a play by Adam Rapp\nBlackbirds of 1928, a Broadway revue, based on the 1926 London revue Blackbirds\nBlackbirds of 1933, a follow-up to Blackbirds of 1928\n\n\n=== Music ===\n\n\n==== Instruments ====\nBlackbird (violin), a playable full size violin made of igneous rock\nEpiphone Blackbird, an electric bass guitar\n\n\n==== Groups ====\nBlackbird (band), an American post-punk band\nThe Blackbirds (German band), 1960s\nThe Blackbirds (South African band)\nThe Blackbyrds, an American rhythm and blues and jazz-funk fusion group\n\n\n==== Albums ====\nBlack Byrd, a 1973 album by Donald Byrd\nBlackbird (Alter Bridge album), 2007\nBlackbird (Fat Freddy's Drop album), 2013, or the title song\nBlackbird (Dan Sultan album), 2014\nMusta Lindu, re-released as Black Bird, by Värttinä\n\n\n==== Songs and compositions ====\n\"Blackbird\" (Beatles song), 1968\n\"Blackbird\" (Alter Bridge song), 2007\nLe Merle noir (\"The Blackbird\"), a chamber work by Olivier Messiaen\n\"Bye Bye Blackbird\", a 1926 jazz standard by Ray Henderson and Mort Dixon often known simply as \"Blackbird\"\n\"Blackbird\", a song by Alkaline Trio from Is This Thing Cursed?\n\"Black Bird\", a song by the Beautiful Girls\n\"Blackbird\", a song by Benny Benassi from ...Phobia\n\"Blackbird\", a song by Black Veil Brides from The Phantom Tomorrow\n\"Blackbird\", a song by Dido from Girl Who Got Away\n\"Blackbirds\", a song by Erin McKeown from Distillation\n\"Blackbird\", a song by Graves\n\"Blackbird\", a song by Madness from Can't Touch Us Now\n\"Blackbird\", a song by Marcy Playground from Leaving Wonderland...in a fit of rage\n\"Blackbird\", an instrumental by Mike Oldfield from Light + Shade\n\"Blackbird\", a 2017 song by Norma John; Finland's entry in the 2017 Eurovision Song Contest\n\"Blackbird\", a song by Silly Wizard from Live Wizardry\n\"Blackbird\", a song by Nina Simone from Nina Simone with Strings\n\"Blackbird\", a song by Tash Sultana from Flow State\n\"Blackbird\", a song by Third Day from Third Day\n\"Blackbirds\", a song by Linkin Park from the video game 8-Bit Rebellion!\n\"The Blackbird\", a song by The Wurzels\n\n\n==== Other ====\nBlack Bird (video game), a 2018 shoot-em-up video game\nBlackbird, a car in the anime Wangan Midnight and the video game, Wangan Midnight Maximum Tune\nTask Force Blackbird, a CIA organization in the video game Medal of Honor: Warfighter\n\n\n== People ==\nBlackbird (Omaha leader) (c. 1750–1800)\nAndrew Blackbird (c. 1815–1908), Odawa leader and histori"
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Blackbird",
+      "shortDescription": "Topics referred to by the same term",
+      "extractHead": "Blackbird, blackbirds, black bird or black birds may refer to:\n\n\n== Birds ==\nTwo groups of birds in the parvorder Passerida:\n\nNew World blackbirds, family Icteridae\nOld World blackbirds, any of several species belonging to the genus Turdus in the family Turdidae\nChinese blackbird\nCommon blackbird\nGrey-winged blackbird\nIndian blackbird\nSomali thrush or Somali blackbird\nTibetan blackbird\nWhite-collared blackbird\n\n\n== Arts, entertainment, and media ==\n\n\n=== Books ===\nBlack Bird (Basilières novel), "
+     },
+     {
+      "resolvedTitle": "The Blackbyrds (album)",
+      "shortDescription": "1974 studio album by the Blackbyrds",
+      "extractHead": "The Blackbyrds is the debut album by the American rhythm and blues and jazz-funk fusion group the Blackbyrds. It was produced by  Larry Mizell and Donald Byrd with production supervision by Orrin Keepnews.\nThe album artwork is a section of the Vincent Van Gogh painting Wheatfield with Crows.\n\n\n== Critical reception ==\n\nRobert Gabriel of AllMusic declared, \"This amazing album is the product of six full-time Howard University students taking the direction of department head and jazz great Donald B"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "blacks-and-blues",
+  "kind": "album",
+  "ours": {
+   "title": "Blacks and Blues",
+   "artist": "Bobbi Humphrey",
+   "year": 1973,
+   "label": "Blue Note",
+   "albumDNA": "Flutist Bobbi Humphrey's landmark album, produced by the Mizell Brothers, merges jazz flute with irresistible funk grooves and lush string arrangements. The title track and 'Harlem River Drive' pulse with a sophisticated groove that sits perfectly between jazz and R&B. One of the most successful Blue Note albums of the 1970s and a milestone for women in jazz. Humphrey's accessible, funky approach brought jazz flute to pop audiences and influenced countless producers.",
+   "keyTracks": [
+    "Harlem River Drive",
+    "Blacks and Blues",
+    "Baby's Gone",
+    "Just a Love Child"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "e649a86b-a0b7-3811-a415-fc7b50c4d383",
+     "title": "Blacks and Blues",
+     "date": "1973",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Bobbi Humphrey"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "BN-LA142-G"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0f7026b9-cd84-3ba0-9111-41ad762f97b7",
+      "title": "Blacks and Blues",
+      "firstReleaseDate": "1973",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Chicago, Damn",
+      "Harlem River Drive",
+      "Just a Love Child",
+      "Blacks and Blues",
+      "Jasper Country Man",
+      "Baby’s Gone"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Black and Blue (album)",
+     "resolvedTitle": "Black and Blue (disambiguation)",
+     "shortDescription": "Topics referred to by the same term",
+     "extract": "Black and Blue is a 1976 album by The Rolling Stones.\nBlack and Blue may also refer to:\n\nA euphemism for bruising of a person's flesh\nBlack and blue, another name for Pittsburgh rare, a way to prepare steak\n\n\n== Film and television ==\nBlack and Blue (1999 film), a television film starring Mary Stuart Masterson\nBlack and Blue (2019 film), an American drama film starring Naomie Harris and Tyrese Gibson\nBlack and Blue (TV series), a six-part TV comedy-drama series\n\"Black and Blue\" (Better Call Saul), a 2022 television episode\n\"Black and Blue\" (Doctors), a 2003 television episode\n\"Black and Blue\" (Homicide: Life on the Street), a 1994 television episode\n\"Black and Blue\" (Law & Order), a 2022 television episode\n\"Black & Blue\" (Rebus), a 2000 television episode, based on the Ian Rankin book\n\n\n== Books ==\nBlack and Blue (Quindlen novel), a 1998 novel by Anna Quindlen\nBlack & Blue (Rankin novel), a 1997 novel by Ian Rankin\nBlack and Blue: A memoir of racism and resilience, a 2021 non-fiction book by Veronica Gorrie\n\n\n== Music ==\nBlack 'n Blue, a glam metal band\nBlack and Blue Festival, an annual circuit party held in Montreal\nBlack and Blue (musical), a 1989 Tony Award-winning Broadway musical\nBlack and Blue (video) a 1980 video of a concert tour co-headlining Black Sabbath and Blue Öyster Cult\nBlack & Blue Records, a French jazz label\n\n\n=== Albums ===\nBlack and Blue, a 1962 album by Lou Rawls\nBlack & Blue (Harold Melvin & the Blue Notes album), 1973\nBlack and Blue, a 1991 album by Gene Harris\nBlack & Blue (Backstreet Boys album), 2000\nBlak and Blu, a 2012 album by Gary Clark, Jr.\nSide B of the No Name LP by Jack White\n\n\n=== Songs ===\n\"Black and Blue\" (Fats Waller song), 1929\n\"Black and Blue\" (Chain song), 1971\n\"Black and Blue\" (Van Halen song), 1988\n\"Black & Blue\" (Miike Snow song), 2009\n\"Black & Blue\" (Guy Sebastian song), 2015\n\"Black and Blue\", by Archive from the album Restriction\n\"Black and Blue\", by Agnostic Front from the album Warriors\n\"Black and Blue\", by Air Supply from the album Air Supply\n\"Black and Blue\", by Brand New Sin from the album Recipe for Disaster\n\"Black and Blue\", by Crystal Lake from the album True North\n\"Black and Blue\", by Edie Brickell from the album Ghost of a Dog\n\"Black and Blue\", by Gino Vannelli from the album A Pauper in Paradise\n\"Black and Blue\", by Ingrid Michaelson from the album Human Again\n\"Black and Blue\", by Haywire from the album Don't Just Stand There\n\"Black and Blue\", by Sonic Syndicate from the album We Rule the Night\n\"Black and Blue\", by Soul Asylum from the album Say What You Will, Clarence... Karl Sold the Truck\n\"Black and Blue\", by The Walls\n\"Black & Blue\", by Brand Nubian from the album In God We Trust\n\"Black & Blue\", by Bring Me the Horizon from the album Count Your Blessings\n\"Black & Blue\", by The Devil Wears Prada from the album 8:18\n\"Black&Blue\", by Vince Staples from the album Dark Times\n\"Blk & Blu\", by Chase & Status, 2014\n\n\n== Sports ==\nInter Milan, the Italian football club is often called \"Black and Blue\" (Italian: 'Nerazzurri') because of its kit colors\nThe NFC North in the National Football League is often called the \"black and blue division\" for its intense rivalries and rough style of play\n\n\n== See also ==\nThe dress (viral phenomenon) with hashtag #blackandblue\nNegro y Azul (Spanish for 'Black and Blue')"
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Black and Blue (disambiguation)",
+      "shortDescription": "Topics referred to by the same term",
+      "extractHead": "Black and Blue is a 1976 album by The Rolling Stones.\nBlack and Blue may also refer to:\n\nA euphemism for bruising of a person's flesh\nBlack and blue, another name for Pittsburgh rare, a way to prepare steak\n\n\n== Film and television ==\nBlack and Blue (1999 film), a television film starring Mary Stuart Masterson\nBlack and Blue (2019 film), an American drama film starring Naomie Harris and Tyrese Gibson\nBlack and Blue (TV series), a six-part TV comedy-drama series\n\"Black and Blue\" (Better Call Saul"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "capra-black",
+  "kind": "album",
+  "ours": {
+   "title": "Capra Black",
+   "artist": "Billy Harper",
+   "year": 1973,
+   "label": "Strata-East",
+   "albumDNA": "Capra Black is the debut album by American jazz saxophonist Billy Harper. It was recorded in 1973 and released on the Strata-East label. A Strata-East label classic that documents the post-Coltrane spiritual jazz scene at its peak. Harper's influence on David Murray and other next-generation players was profound.",
+   "keyTracks": [
+    "Capra Black",
+    "Cry of Hunger",
+    "Soulful Song for My Grandfather"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Capra_Black"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "543f7657-c7d5-4713-82cd-20fa92fb1e4c",
+     "title": "Capra Black",
+     "date": "1973",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Billy Harper"
+     ],
+     "labels": [
+      {
+       "name": "Strata-East",
+       "catalogNumber": "SES-19739"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "7f596a89-541d-46cb-870b-152ecb91bc83",
+      "title": "Capra Black",
+      "firstReleaseDate": "1973",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Capra Black",
+      "Sir Galahad",
+      "New Breed",
+      "Soulfully, I Love You / Black Spiritual of Love",
+      "Cry of Hunger"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Capra_Black",
+    "page": {
+     "requestedTitle": "Capra Black",
+     "resolvedTitle": "Capra Black",
+     "shortDescription": "1974 studio album by Billy Harper",
+     "extract": "Capra Black is the debut album by American jazz saxophonist Billy Harper. It was recorded in 1973 and released on the Strata-East label.\n\n\n== Reception ==\nIn his review for AllMusic, Jason Ankeny praised the album, stating \"Capra Black remains one of the seminal recordings of jazz's black consciousness movement. A profoundly spiritual effort that channels both the intellectual complexity of the avant-garde as well as the emotional potency of gospel, its focus and assurance belie Billy Harper's inexperience as a leader\".\n\n\n== Track listing ==\nAll compositions by Billy Harper\n\n\"Capra Black\" - 11:17\n\"Sir Galahad\" - 8:00\n\"New Breed\" - 4:30\n\"Soulfully, I Love You / Black Spiritual of Love\" - 10:34\n\"Cry of Hunger\" - 10:46\n\n\n== Personnel ==\nBilly Harper - tenor saxophone, voice\nJimmy Owens - trumpet\nDick Griffin, Julian Priester - trombone\nGeorge Cables - piano\nReggie Workman - bass\nBilly Cobham, Elvin Jones, Warren Smith - drums\nBarbara Grant, Gene McDaniels, Laveda Johnson, Pat Robinson - voice\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "conference-of-the-birds",
+  "kind": "album",
+  "ours": {
+   "title": "Conference of the Birds",
+   "artist": "Dave Holland",
+   "year": 1973,
+   "label": "ECM",
+   "albumDNA": "Conference of the Birds is an album by the Dave Holland Quartet, recorded on 30 November 1972 and released on ECM the following year—Holland's debut as bandleader and fourth project for the label. The quartet features alto saxophonist Anthony Braxton, tenor saxophonist Sam Rivers, and percussionist Barry Altschul. Defined a new approach to small-group jazz—collective, compositionally sophisticated, and dynamically subtle. A template for 1970s avant-garde.",
+   "keyTracks": [
+    "Conference of the Birds",
+    "Four Winds",
+    "Interception",
+    "Q&A",
+    "See-Saw",
+    "Now Here (Nowhere)"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Conference_of_the_Birds_(Dave_Holland_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Conference_of_the_Birds_(Dave_Holland_album)",
+    "page": {
+     "requestedTitle": "Conference of the Birds (Dave Holland album)",
+     "resolvedTitle": "Conference of the Birds (Dave Holland album)",
+     "shortDescription": "1973 studio album by the Dave Holland Quartet",
+     "extract": "Conference of the Birds is an album by the Dave Holland Quartet, recorded on 30 November 1972 and released on ECM the following year—Holland's debut as bandleader and fourth project for the label. The quartet features alto saxophonist Anthony Braxton, tenor saxophonist Sam Rivers, and percussionist Barry Altschul.\n\n\n== Background ==\nDave Holland and Barry Altschul first played together during 1970 in a trio with pianist Chick Corea, recording the album The Song of Singing in April of that year. In August, Braxton joined the group, forming the short-lived Circle quartet. Circle began to show signs of splintering in early 1971: while in London, Braxton began focusing on his own compositions, recording The Complete Braxton with the members of Circle plus trumpeter Kenny Wheeler, while Corea turned toward more accessible music, recording two volumes of solo piano improvisations. Meanwhile, Holland and Altschul began working in a trio with multi-instrumentalist Sam Rivers, but were soon invited to join Braxton's new quartet, which initially included Wheeler. Circle played its final concert during the summer of 1971, and, for a time, the bassist and drummer played and recorded with both Braxton and Rivers, but eventually elected to join Rivers on a full-time basis, preferring the collective free improvisation of the trio format to Braxton's composition-oriented quartet. Conference of the Birds is unique in that it brought together Holland and Altschul with both Braxton and Rivers as sidemen, the only occasion on which the two reed players recorded together.\n\n\n== Composition and recording ==\nIn the album liner notes, Holland described how birds would congregate each morning outside his London apartment and join with one another, \"each declaring its freedom in song.\" He stated that, on the recording, his intent was to \"share this same spirit with other musicians and communicate it to the people.\"\nHolland's compositions for this album had originally been performed live in New York City by a quintet including trumpeter Randy Brecker, tenor saxophonist Michael Brecker, guitarist Ralph Towner and Altschul; \"Braxton and Rivers, however, were chosen for the recording as better able to respond to the opportunist disjunctions offered within Holland's compositions.\"\nEach piece on the album is \"open form,\" with a theme stated at the beginning to set key, tempo, and mood. The players are then free to improvise in whatever direction they choose. Stuart Nicholson writes: \"Conference of the Birds emerged as a definitive statement of swinging free expression. It was, in essence, a return to the rugged discipline of early 1960s free improvising by working off melodic foundations using the 'time, no changes' principle to achieve greater control over that elusive quarry, freedom.\"\n\n\n== Reception ==\n\nThe Penguin Guide to Jazz selected the album as part of its \"Core Collection,\" and gave it a rating of four stars (of a possible four).\nIn the All Music Guide to Jazz, jazz critic Michael G. Nastos called the album Holland's \"finest hour\" and \"definitive progressive music.\" Steve Huey of AllMusic called Conference of the Birds \"one of the all-time avant-garde jazz classics, incorporating a wide spectrum of '60s innovations... This album is a basic requirement for any avant-garde jazz collection, and it's also one of the most varied and accessible introductions to the style one could hope for.\"\nThe Rolling Stone Jazz Record Guide said the album \"only gets more impressive as time passes.\"\n\n\n== Track listing ==\n\n\n== Personnel ==\n\n\n=== Dave Holland Quartet ===\nAnthony Braxton – alto saxophone, clarinet, flute\nSam Rivers – tenor saxophone, clarinet, flute\nDave Holland – double bass\nBarry Altschul – percussion, marimba\n\n\n== References ==\n\n\n== External links ==\nOfficial website"
+    }
+   }
+  }
+ },
+ {
+  "id": "head-hunters",
+  "kind": "album",
+  "ours": {
+   "title": "Head Hunters",
+   "artist": "Herbie Hancock",
+   "year": 1973,
+   "label": "Columbia",
+   "albumDNA": "A groundbreaking fusion of jazz, funk, and electronic music that redefined what jazz could sound like. Recorded in 1973 with the Headhunters band—Bennie Maupin on saxophones, Paul Jackson on bass, Harvey Mason on drums, and Bill Summers on percussion—Hancock layered Fender Rhodes, clavinet, and ARP synthesizers over deep, hypnotic grooves. The 15-minute 'Chameleon' opens with one of the most iconic bass lines in music history. 'Watermelon Man' reimagines Hancock's earlier hit with African-influenced percussion. Became the first jazz album to go platinum, proving jazz could reach a mass audience without sacrificing artistic integrity. Its funky, synthesizer-driven sound directly influenced the birth of hip-hop, acid jazz, and electronic dance music. Countless artists have sampled these tracks, from Us3 to A Tribe Called Quest.",
+   "keyTracks": [
+    "Chameleon",
+    "Watermelon Man",
+    "Sly",
+    "Vein Melter"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Head_Hunters"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "52dda2f2-d7ee-4ec5-b00e-b1f4f86ebb95",
+     "title": "Head Hunters",
+     "date": "1973",
+     "country": "JP",
+     "status": "Official",
+     "artists": [
+      "Herbie Hancock"
+     ],
+     "labels": [
+      {
+       "name": "CBS/Sony",
+       "catalogNumber": "SOPL 238"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "322f18bb-5491-38e9-9044-c0a468651eec",
+      "title": "Head Hunters",
+      "firstReleaseDate": "1973-10-13",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Chameleon",
+      "Watermelon Man",
+      "Sly",
+      "Vein Melter"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Head_Hunters",
+    "page": {
+     "requestedTitle": "Head Hunters",
+     "resolvedTitle": "Head Hunters",
+     "shortDescription": "1973 studio album by Herbie Hancock",
+     "extract": "Head Hunters is the twelfth studio album by American pianist, keyboardist and composer Herbie Hancock, released October 26, 1973, on Columbia Records. Recording sessions for the album took place in the evening at Wally Heider Studios and Different Fur Trading Co. in San Francisco, California. Hancock is featured with woodwind player Bennie Maupin from his previous \"Mwandishi\" sextet and three new collaborators – bassist Paul Jackson, percussionist Bill Summers, and drummer Harvey Mason. The latter group of collaborators, which would go on to be known as the Headhunters, also played on Hancock's subsequent studio album Thrust (1974). All of the musicians (with the exception of Mason) play multiple instruments on the album.\nThe album was a commercial and artistic breakthrough for Hancock, crossing over to funk and rock audiences and bringing jazz-funk and jazz fusion to mainstream attention, peaking at number 13 on the Billboard 200. Today the album is regarded as a landmark of fusion and has influenced artists in numerous other genres. In 2008, the Library of Congress inducted it into the National Recording Registry for being \"culturally, historically or aesthetically important\".\n\n\n== Background and recording ==\nHead Hunters followed three experimental albums by Hancock's \"Mwandishi\" sextet: Mwandishi, Crossings, and Sextant, released between 1971 and 1973. He later reflected on moving away from this style:\n\nI began to feel that I had been spending so much time exploring the upper atmosphere of music and the more ethereal kind of far-out spacey stuff. Now there was this need to take some more of the earth and to feel a little more tethered; a connection to the earth. ... I was beginning to feel that we (the sextet) were playing this heavy kind of music, and I was tired of everything being heavy. I wanted to play something lighter.\nFor the new album, Hancock assembled a new band, the Headhunters, of whom only woodwind player Bennie Maupin had been a member of the \"Mwandishi\" sextet. Hancock handled all synthesizer parts himself, having shared these duties with Patrick Gleeson on Crossings and Sextant, and decided against the use of guitar altogether in favor of the Hohner Clavinet, one of the defining sounds on the album. The new band featured a tight rhythm section composed of Paul Jackson (bass guitar) and Harvey Mason (drums), creating a relaxed funk sensibility that gave it an appeal to a wider audience. \nOf the four tracks on the album, \"Watermelon Man\" was the only one not written for the album. A hit from Hancock's hard bop days, originally appearing on his debut Takin' Off (1962) and later covered by Mongo Santamaría, it was reworked by Hancock and Mason for this album, featuring Bill Summers blowing into a beer bottle in imitation of the hindewho flute used by the Mbuti Pygmies of Zaire. The track features heavy use of African percussion. \"Sly\" was dedicated to Sly Stone of Sly and the Family Stone. \"Chameleon\" features a famous bassline played by Hancock on an ARP Odyssey synthesizer. Closing track \"Vein Melter\" is a slow-burner, predominantly featuring Hancock on Rhodes piano and Maupin on bass clarinet. Heavily edited versions of \"Chameleon\" and \"Vein Melter\" were released as two sides of a 45 RPM single.\nThe Headhunters band, with Mike Clark replacing Mason, worked with Hancock on a number of other albums, including Thrust (1974), Man-Child (1975), and Flood (1975). The subsequent albums Secrets (1976) and Sunlight (1977), had widely diverging personnel. The Headhunters, with Hancock featured as a guest soloist, produced the albums Survival of the Fittest (1975) and Straight from the Gate (1978), the first of which was produced by Hancock and included the hit \"God Make Me Funky\".\n\n\n== Album cover ==\nThe album cover, designed by Victor Moscoso, features Hancock wearing a mask based on the kple kple mask of the Baoulé people of Ivory Coast. Positioned clockwise around Hancock from lower left are Mason, Jackson, Maupin, and Summers.\n\n\n== Release and reception ==\nThe album was released on October 26th, 1973. The album was remixed for quadraphonic sound in 1974. Columbia released this mix on LP record in the Stereo Quadraphonic matrix format and 8-track tape. The quadraphonic mixes feature elements not heard in the stereo version, including an additional keyboard melody at the beginning of \"Sly\". Surround sound versions of the album have been released a number of times on the Super Audio CD format, using a digi"
+    }
+   }
+  }
+ },
+ {
+  "id": "in-the-townships",
+  "kind": "album",
+  "ours": {
+   "title": "In the Townships",
+   "artist": "Dudu Pukwana",
+   "year": 1973,
+   "label": "Caroline",
+   "albumDNA": "South African alto saxophonist Dudu Pukwana's exhilarating fusion of township jive with British free jazz, recorded in London exile. The music captures the irrepressible joy and pain of the South African diaspora, combining marabi rhythms with avant-garde intensity. One of the finest albums to emerge from the South African exile community in London. Pukwana's ability to bridge township music and free improvisation created a uniquely powerful hybrid.",
+   "keyTracks": [
+    "Baloyi",
+    "Ezilalini",
+    "Zukude",
+    "Sonia",
+    "Angel nemali",
+    "Nobomyu"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 0.77,
+    "release": {
+     "mbid": "f150237a-750b-49cd-b521-895ed8e0c008",
+     "title": "In the Townships",
+     "date": "1974",
+     "country": "GB",
+     "status": "Official",
+     "artists": [
+      "Dudu Pukwana & Spear"
+     ],
+     "labels": [
+      {
+       "name": "Caroline Records",
+       "catalogNumber": "C 1504"
+      },
+      {
+       "name": "Caroline Records",
+       "catalogNumber": "C1504"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "526e009a-75cf-3cd6-8976-42ce93e34c91",
+      "title": "In the Townships",
+      "firstReleaseDate": "1974",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Baloyi",
+      "Ezilalini",
+      "Zukude",
+      "Sonia",
+      "Angel nemali",
+      "Nobomvu",
+      "Sekela khuluma"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "izipho-zam-my-gifts",
+  "kind": "album",
+  "ours": {
+   "title": "Izipho Zam (My Gifts)",
+   "artist": "Pharoah Sanders",
+   "year": 1973,
+   "label": "Strata-East",
+   "albumDNA": "Izipho Zam (My Gifts) is the third album led by American saxophonist Pharoah Sanders. The album was recorded in 1969 but not released on the Strata-East label until 1973. It features Sanders with a large ensemble.",
+   "keyTracks": [
+    "Prince of Peace",
+    "Balance",
+    "Izipho Zam"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Izipho_Zam_(My_Gifts)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "3f7f30b6-325d-436a-8fd4-4e54e27522a9",
+     "title": "Izipho Zam (My Gifts)",
+     "date": "1993",
+     "country": "DE",
+     "status": "Official",
+     "artists": [
+      "Pharoah Sanders"
+     ],
+     "labels": [
+      {
+       "name": "Bellaphon",
+       "catalogNumber": "660-51-018"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "03eb3f8e-444f-39ec-989e-b3c8dbf2b8f7",
+      "title": "Izipho Zam (My Gifts)",
+      "firstReleaseDate": "1973",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Prince of Peace",
+      "Balance",
+      "Izipho Zam"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Izipho_Zam_(My_Gifts)",
+    "page": {
+     "requestedTitle": "Izipho Zam (My Gifts)",
+     "resolvedTitle": "Izipho Zam (My Gifts)",
+     "shortDescription": "1973 studio album by Pharoah Sanders",
+     "extract": "Izipho Zam (My Gifts) is the third album led by American saxophonist Pharoah Sanders. The album was recorded in 1969 but not released on the Strata-East label until 1973. It features Sanders with a large ensemble.\n\n\n== Reception ==\n\nIn his review for AllMusic, Thom Jurek wrote that \"Izipho Zam is a wonderful recording, full of the depth of vision and heartfelt soul that has informed every recording of Sanders since,\" and called it \"an exhilarating, indispensable out jazz experience\". Marcus J. Moore, writing for The New York Times, included the album in his list of \"15 Essential Black Liberation Jazz Tracks\" and wrote that the title track is \"a sprawling 28-minute collage of West African percussion, meditative chants and Mr. Sanders's screeching saxophone. Around the 15-minute mark, the arrangement settles into a hypnotic drum break that still sounds incredibly fresh and modern, 47 years after its release.\"\nMark Jones of UK Vibe wrote that Izipho Zam \"brings together a stellar group of musicians\" for \"a sonic exploration featuring three compositions by Pharoah Sanders spread over 50 minutes with a free-flowing avant-garde perspective,\" and called the album \"a tour de force... which epitomises the ensemble's collective spirit and understanding for the overall message that Pharaoh Sanders was wishing to convey.\" Chris May included the album in his list \"An introduction to Strata-East in 10 records\", calling it \"a transitional album, between the unrelenting ferocity of Sanders's work with John Coltrane and the more blissed-out albums he went to make with [Lonnie Liston] Smith, [Leon] Thomas and Alice Coltrane.\" Andy Thomas, writing for the Red Bull Music Academy, included the album in his article \"A Guide to Strata-East\", declaring that \"The spiritual intensity of Izipho Zam almost lifts you off your feet,\" and calling the title track \"one of Sanders' deepest journeys to the east\".\n\n\n== Track listing ==\nAll compositions by Pharoah Sanders\n\n\"Prince of Peace\" – 8:44\n\"Balance\" – 12:15\n\"Izipho Zam\" – 28:50\n\n\n== Personnel ==\nPharoah Sanders – tenor saxophone, flute, percussion, vocals\nHoward Johnson – tuba\nSonny Fortune – alto saxophone, flute\nLonnie Liston Smith –  piano\nSonny Sharrock –  guitar\nSirone (Norris Jones), Cecil McBee – bass\nBilly Hart – drums\nChief Bey – African drums\nNat Bettis, Tony Wiles – percussion\nLeon Thomas – percussion, vocals\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "lawrence-of-newark",
+  "kind": "album",
+  "ours": {
+   "title": "Lawrence of Newark",
+   "artist": "Larry Young",
+   "year": 1973,
+   "label": "Perception Records",
+   "albumDNA": "Lawrence of Newark is a jazz album by organist/keyboardist Larry Young, released on the Perception Records label. From the jazz-rock fusion era, embracing electric instruments and rhythms from rock and funk, this album positions Larry Young within the jazz fusion conversation of the time.",
+   "keyTracks": [
+    "Saudia",
+    "Alive",
+    "Hello Your Quietness (Islands)",
+    "Sunshine Fly Away",
+    "Khalid of Space, Part Two: Welcome"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Lawrence_of_Newark"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "565772c4-4b3b-4ed0-8970-88fd5015b46d",
+     "title": "Lawrence of Newark",
+     "date": "1973",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Larry Young"
+     ],
+     "labels": [
+      {
+       "name": "Perception Records",
+       "catalogNumber": "PLP 034"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0b43e7d1-1239-3b81-a986-22f017fceb75",
+      "title": "Lawrence of Newark",
+      "firstReleaseDate": "1973",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Saudia",
+      "Alive",
+      "Hello Your Quietness (Islands)",
+      "Sunshine Fly Away",
+      "Khalid of Space, Part Two: Welcome"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Lawrence_of_Newark",
+    "page": {
+     "requestedTitle": "Lawrence of Newark",
+     "resolvedTitle": "Lawrence of Newark",
+     "shortDescription": "1975 studio album by Larry Young",
+     "extract": "Lawrence of Newark is a jazz album by organist/keyboardist Larry Young, released on the Perception Records label.\nThe album is Young's debut for Perception Records which has since been reissued on CD by Castle Records.  Perception Records went out of business shortly after the release of this recording, so it has never been widely available, and hence rarely heard in the 70s and 80s.\nLawrence of Newark represents Larry Young's first non-Blue Note recording as a leader post-Lifetime and is startling for its fresh look at how the organ is used in jazz and in improvisation.\n\n\n== Reception ==\nThe Allmusic review by Thom Jurek stated: \"The CD reissue has fine sound ... it should not be overlooked. The DJs just haven't discovered this one yet. Awesome.\"\n\n\n== Track listing ==\nAll tracks composed by Larry Young\n\n\"Saudia\" - 4:30\n\"Alive\" - 1:54\n\"Hello Your Quietness (Islands)\" - 10:05\n\"Sunshine Fly Away\" - 8:38\n\"Khalid of Space, Pt. 2: Welcome\" - 12:29\n\n\n== Personnel ==\nJuini Booth - bass\nStacey Edwards - conga, percussion\nJames Flores - drums\nArt Gore - drums, electric piano\nAbdul Hakim - bongos, percussion\nArmen Halburian - bells, conga, percussion\nDiedre Johnson - cello\nHoward King - drums\nPoppy LaBoy - percussion\nCedric Lawson - electric piano\nCharles Magee - electric trumpet, trumpet\nDennis Mourouse - electric saxophone, tenor saxophone\nUmar Abdul Muizz - conga, percussion\nDon Pate - bass\nAbdul Sahid - drums\nPharoah Sanders - tenor saxophone\nJumma Santos - conga, cowbell, hi-hat, percussion, tambourine, tom-tom, whistling\nDanny Toan - guitar\nJames Blood Ulmer - guitar\nLarry Young - bongos, keyboards, organ, percussion, producer, remixing, vocals\n\n\n== References ==\n\n\n== External links ==\nLawrence Young at All Music Guide."
+    }
+   }
+  }
+ },
+ {
+  "id": "love-devotion-surrender",
+  "kind": "album",
+  "ours": {
+   "title": "Love Devotion Surrender",
+   "artist": "John McLaughlin",
+   "year": 1973,
+   "label": "Columbia",
+   "albumDNA": "Love Devotion Surrender is an album released in 1973 by guitarists Carlos Santana and John McLaughlin, with the backing of their respective bands, Santana and The Mahavishnu Orchestra. The album was inspired by the teachings of Sri Chinmoy and intended as a tribute to John Coltrane. It contains two Coltrane compositions, two McLaughlin songs, and a traditional gospel song arranged by Santana and McLaughlin. It was certified Gold in 1973.",
+   "keyTracks": [
+    "A Love Supreme",
+    "Naima",
+    "The Life Divine",
+    "Let Us Go Into the House of the Lord",
+    "Meditation"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "9162c1d5-9a59-3d35-821e-72141135ecdd",
+     "title": "Love Devotion Surrender",
+     "date": "1973-07-20",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Carlos Santana",
+      "John McLaughlin"
+     ],
+     "labels": [
+      {
+       "name": "Columbia",
+       "catalogNumber": "KC 32034"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0fce256f-84be-372a-b094-109b07c65208",
+      "title": "Love Devotion Surrender",
+      "firstReleaseDate": "1973-07-20",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "A Love Supreme",
+      "Naima",
+      "The Life Divine",
+      "Let Us Go Into the House of the Lord",
+      "Meditation"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Love Devotion Surrender (Album)",
+     "resolvedTitle": "Love Devotion Surrender",
+     "shortDescription": "1973 studio album by Santana & McLaughlin",
+     "extract": "Love Devotion Surrender is an album released in 1973 by guitarists Carlos Santana and John McLaughlin, with the backing of their respective bands, Santana and The Mahavishnu Orchestra. The album was inspired by the teachings of Sri Chinmoy and intended as a tribute to John Coltrane. It contains two Coltrane compositions, two McLaughlin songs, and a traditional gospel song arranged by Santana and McLaughlin. It was certified Gold in 1973.\nIn 2003, Love Devotion Surrender was released on CD with alternate versions as bonus tracks.\nSantana and McLaughlin toured in 1973 and 1974 to support the album.\n\n\n== Background ==\nBoth men were recent disciples of the guru Sri Chinmoy, and the title of the album echoes basic concepts of Chinmoy's philosophy, which focused on \"love, devotion and surrender\". Chinmoy spoke about the album and the concept of surrender: Unfortunately, in the West surrender is misunderstood. We feel that if we surrender to someone, he will then lord it over us....But from the spiritual point of view...when the finite enters in the Infinite, it becomes the Infinite all at once. When a tiny drop enters into the ocean, we cannot trace the drop. It becomes the mighty ocean.\nFor both men the album came at a transitional moment spiritually and musically: Love Devotion Surrender was a \"very public pursuit of their spiritual selves.\" Carlos Santana was moving from rock toward jazz and fusion, experiencing a \"spiritual awakening\", while McLaughlin was about to experience the break-up of the Mahavishnu Orchestra after being criticized by other band members. Santana had been a fan of McLaughlin, and McLaughlin had introduced Santana to Sri Chinmoy in 1971, at which time the guru bestowed the name \"Devadip\" on him, and the two had started playing and recording together in 1972. According to his biographer Marc Shapiro, Santana had much to learn from McLaughlin: \"He would sit for hours, enthralled at the new ways to play that McLaughlin was teaching him,\" and his new spirituality had its effect on the music: \"the feeling was that Carlos's newfound faith was present in every groove.\"\n\n\n== Tracks ==\nThe first track, \"A Love Supreme\", is a version of the Coltrane composition \"Acknowledgement\" from the 1964 landmark album A Love Supreme. It features McLaughlin and Santana, both playing electric guitar, in an extended, improvised trading of bars. For the most part, Santana is panned to the left channel and McLaughlin to the right. As with the original, toward the end a chant of \"A love supreme\" is heard. (Only Armando Peraza is credited as a singer.)\n\"Naima\" is another Coltrane composition, played on acoustic guitar. First appearing in 1959 on Coltrane's Giant Steps, it is a gentle song played in a straightforward manner.\n\"The Life Divine\" again returns to Coltrane's A Love Supreme, opening with the chanted phrase \"the love divine.\" The song's first part is extensive, high-tempo improvisation by Santana, alternating between quick phrases and long, sustained notes (including one that runs from 3:29 to 4:03). Midway through the song and introduced by the \"life divine\" chant, McLaughlin takes over with mostly high-speed staccato bursts and riffs. The chant returns, incorporating \"it's yours and mine\", and Larry Young's organ, with percussion, provide the outro.\n\"Let Us Go Into the House of the Lord\" is a 16-minute-long track based on the traditional gospel song. The arrangement was credited to Santana and McLaughlin but Bob Palmer in Rolling Stone wrote that the arrangement is close enough to Lonnie Liston Smith's \"to be described as a cop\". Smith's arrangement was recorded in 1970 when he worked with Pharoah Sanders, who had recorded and worked closely with Coltrane. After the slow introductory statement (the part which resembles Smith's arrangement), most of the piece consists of soloing over two chords accompanied by a loping bass and Latin percussion. Of Larry Young's organ contribution here, Paul Stump, in Go Ahead John, wrote: \"with its overlapping flurries of triplets, [it] is a moment of pure genius, worthy of mention in its own right, a musical equivalent of a swarm of surreally coloured butterflies.\" The track closes with a return to the slow introductory statement.\nThe final track, \"Meditation\", is a \"pretty but light McLaughlin composition\" that McLaughlin had previously recorded as a solo for exclusive use by the New York radio station WNEW-FM.  McLaughlin plays piano, and Santana the acoustic guitar, on Love Dev"
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Love Devotion Surrender",
+      "shortDescription": "1973 studio album by Santana & McLaughlin",
+      "extractHead": "Love Devotion Surrender is an album released in 1973 by guitarists Carlos Santana and John McLaughlin, with the backing of their respective bands, Santana and The Mahavishnu Orchestra. The album was inspired by the teachings of Sri Chinmoy and intended as a tribute to John Coltrane. It contains two Coltrane compositions, two McLaughlin songs, and a traditional gospel song arranged by Santana and McLaughlin. It was certified Gold in 1973.\nIn 2003, Love Devotion Surrender was released on CD with a"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "solo-concerts",
+  "kind": "album",
+  "ours": {
+   "title": "Solo Concerts: Bremen / Lausanne",
+   "artist": "Keith Jarrett",
+   "year": 1973,
+   "label": "ECM",
+   "albumDNA": "Solo Concerts: Bremen/Lausanne is a live solo triple album by jazz pianist Keith Jarrett recorded at the Salle de Spectacles d'Epalinges near Lausanne, Switzerland and the Kleiner Sendesall in Bremen, Germany on March 20 and July 12, 1973, respectively and released on ECM November that same year—Jarrett's debut solo live album for the label. Paved the way for The Köln Concert and proved that totally improvised solo piano could captivate audiences.",
+   "keyTracks": [
+    "Bremen, July 12, 1973 Part I",
+    "Bremen, July 12, 1973 Part IIa"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Solo_Concerts%3A_Bremen%2FLausanne"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Solo_Concerts%3A_Bremen%2FLausanne",
+    "page": {
+     "requestedTitle": "Solo Concerts: Bremen/Lausanne",
+     "resolvedTitle": "Solo Concerts: Bremen/Lausanne",
+     "shortDescription": "1973 live album by Keith Jarrett",
+     "extract": "Solo Concerts: Bremen/Lausanne is a live solo triple album by jazz pianist Keith Jarrett recorded at the Salle de Spectacles d'Epalinges near Lausanne, Switzerland and the Kleiner Sendesall in Bremen, Germany on March 20 and July 12, 1973, respectively and released on ECM November that same year—Jarrett's debut solo live album for the label.\n\n\n== Background ==\nJarrett played in the US with his American quartet between the two European solo concerts.\n\n\n== Critical reception ==\n\nIn 1974, DownBeat ranked the album as the best jazz recording of the year\nThe AllMusic review by Scott Yanow awarded the album 5 stars, stating, \"Despite the length, the music never loses one's interest, making this an essential recording for all jazz collections\".\nTed Gioia calls it Jarrett's \"masterpiece\"; \"two titanic improvised performances\".\nAccording to Mikal Gilmore in Night Beat, \"with Bremen-Lausanne and the subsequent Köln Concert, Jarrett found his niche, freely mixing gospel, impressionist, and atonal flights into a consonant whole\".\nBill Dobbins notes that the (short) encore on the third side, a boogie-woogie inflected ostinato, owes much to Duke Ellington's New World A-Comin'.\n\nWriting for the now defunct jazz magazine Jazz.com in December 2007, Ted Gioia rated the track \"Bremen, Germany, July 12, 1973, Part I\" 100/100, stating:Jazz musicians have always emphasized improvisation in their work. But few have taken this reliance on spontaneous creation to the lengths Keith Jarrett has assayed in his solo concerts. He pioneered the (still rare) concept of an entirely improvised piano recital, wholly inspired by the muse of the moment. But if the concept is exciting, Jarrett's execution of this ambitious idea is even more impressive. The ECM recording of Jarrett's 1973 Bremen concert represented the first attempt to capture this type of work on tape and present it on record. This disk may not have sold as well as The Köln Concert from 1975 or matched the scope of Jarrett's massive Sun Bear Concerts (originally released on ten LPs) from 1976, but for sheer musicality and inventiveness it is hard to top the recital in Bremen. Here is piano music that is rich in complexity, subtle in detail, and completely free of cliché. One of my desert island disks.In 2023, Pitchfork's Mark Richardson described it as a \"career-defining jazz masterpiece\" and wrote that the \"structural coherence of these lengthy improvisations across two one-hour sets is astonishing\" and \"where Jarrett's improvisational skill and talent might suggest music described as 'effortless,' some of the beauty of his solo piano work is that you can hear the exertion.\"\nWill Smith, writing for DownBeat Magazine, says, \"the word incredible is an understatement here . . . The music is lyrical without being soft or fragile. It is at once a crystalline and yet flowing beauty; a music with the pastoral grace of Bach and the heart of the blues. It is heart-swelling and head-swinging. And it is totally devoid of vacant impressionism and gushing romanticism\".\n\n\n== Track listing ==\n\n\n=== Original release – ECM 1035–37 ST ===\nSource:\n\n\n=== CD reissue – ECM 1035–37 ===\n\n\n== Personnel ==\nKeith Jarrett – piano\n\n\n=== Technical personnel ===\nManfred Eicher, Keith Jarrett – producer\nPierre Grandjean, Alan Kobel – recording engineer (Lausanne)\nRolf Rockstroh – recording engineer (Bremen)\nKurt Rapp, Martin Wieland – remix engineers\nBarbara and Burkhart Wojirsch – cover design and layout\nRoberto Masotti, A. Raggenbass, Jochen Mönch – photography\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "afrodisia",
+  "kind": "album",
+  "ours": {
+   "title": "Soul Makossa",
+   "artist": "Manu Dibango",
+   "year": 1973,
+   "label": "Fiesta",
+   "albumDNA": "\"Soul Makossa\" is a song by Cameroonian saxophonist and songwriter Manu Dibango, released as a single in 1972. It is the most sampled African song in history. The song was originally recorded as the B-side for \"Hymne de la 8e Coupe d'Afrique des Nations\", a song celebrating the Cameroon national football team's accession to the quarterfinals of the Africa Cup of Nations football tournament, as well as Cameroon's hosting the games for the first time; the lyrics were written by Cameroonian poet and musicologist S.M. Eno Belinga. Except for some words in English, it was written in Duala, a native dialect continuum from Cameroon. A makossa-funk landmark and one of the most influential African records in global pop. Michael Jackson's 'Wanna Be Startin' Somethin'' borrowed its chant, creating one of music's first copyright disputes.",
+   "keyTracks": [
+    "Soul Makossa",
+    "Lily",
+    "Super Kumba"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Soul_Makossa"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "1980ea21-61cd-4881-82bb-a1c0e428f432",
+     "title": "Soul Makossa",
+     "date": "1973",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Manu Dibango"
+     ],
+     "labels": [
+      {
+       "name": "Atlantic",
+       "catalogNumber": "SD 7267"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "155f0e18-4ab7-3c71-a8a0-2e3d32b9fc22",
+      "title": "Soul Makossa",
+      "firstReleaseDate": "1973",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "New Bell",
+      "Nights in Zeralda",
+      "Hibiscus",
+      "Dangwa",
+      "Lily",
+      "Soul Makossa",
+      "Oboso"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Soul_Makossa",
+    "page": {
+     "requestedTitle": "Soul Makossa",
+     "resolvedTitle": "Soul Makossa",
+     "shortDescription": "1972 single by Manu Dibango",
+     "extract": "\"Soul Makossa\" is a song by Cameroonian saxophonist and songwriter Manu Dibango, released as a single in 1972. It is the most sampled African song in history. The song was originally recorded as the B-side for \"Hymne de la 8e Coupe d'Afrique des Nations\", a song celebrating the Cameroon national football team's accession to the quarterfinals of the Africa Cup of Nations football tournament, as well as Cameroon's hosting the games for the first time; the lyrics were written by Cameroonian poet and musicologist S.M. Eno Belinga. Except for some words in English, it was written in Duala, a native dialect continuum from Cameroon. Manu Dibango later recorded a new version for his 1994 album Wakafrika, titled \"Mouvement Ewondo\".\nIn 1972, David Mancuso found a copy in a Brooklyn West Indian record store and often played it at his parties at The Loft. The response was so positive that the few copies of \"Soul Makossa\" in New York City were quickly purchased. The song was subsequently played heavily by Frankie Crocker, who deejayed at WBLS, then New York's most popular black radio station. Since the original release was so obscure, at least 23 groups quickly released cover versions to capitalize on the demand for the record.\nLater in 1972, American-based Atlantic Records licensed the original Manu Dibango version from French record label Fiesta, and released it as a single (with the B-side track being \"Lily\"). The single peaked at number 35 on the US Billboard Hot 100 chart in 1973; Dibango's original version of the song and a cover by Afrique were on the US Billboard Hot 100 chart at the same time. The song also became an international hit leading to even more cover versions by various groups around the world.\nThe song is probably best known for the chanted vocal refrain \"ma-ma-ko, ma-ma-sa, ma-ko ma-ko-sa\", which was adapted and used in songs by many prominent artists such as Michael Jackson's \"Wanna Be Startin' Somethin'\" from his album Thriller (1982) and Rihanna's hit single \"Don't Stop the Music\" from Good Girl Gone Bad (2007). The refrain is a play on the word makossa, Dibango's main music genre.\nIn 2011, a second version of the song titled \"Soul Makossa 2.0\" was recorded in France by Manu Dibango and Wayne Beckford and was issued as the first single from Dibango's album, Past Present Future.\nIn 2022, Rolling Stone ranked the song number 35 in their list of the \"200 Greatest Dance Songs of All Time\". The 2024 PBS series Disco: Soundtrack of a Revolution explores the importance of \"Soul Makossa\" to the history of disco music.\n\n\n== Michael Jackson/Rihanna lawsuit ==\nRihanna's 2007 hit single \"Don't Stop the Music\" uses samples from Michael Jackson's 1982 single \"Wanna Be Startin' Somethin'\". In February 2009, Dibango filed a lawsuit against the two singers, claiming that he wasn't consulted in Michael Jackson's representatives giving permission to Rihanna to use \"mama-say mama-sa mama-ko-sa\" (a hook inspired by Dibango's \"Soul Makossa\") without permission. According to Agence France-Presse, Dibango and Michael Jackson had earlier reached a financial settlement in this matter back in the days of the making of \"Wanna Be Startin' Somethin'\". But in 2007, when Rihanna asked Jackson for permission to sample the line, he allegedly approved the request without contacting Dibango beforehand. Dibango's attorneys brought the case before a court in Paris, demanding €500,000 in damages and for Sony BMG, EMI and Warner Music to be \"barred from receiving 'mama-say mama-sa'-related income until the matter is resolved\". However, the court in Paris rejected his motion as being illegitimate due to him successfully applying for his name being listed on Rihanna’s releases of the song a year earlier. The court in Paris ruled that with this agreement the African artist abdicated from any further claims.\n\n\n== 1973 US single ==\n\n\n=== Track listing ===\n\"Soul Makossa\" – 4:30\n\"Lily\" – 3:02\n\n\n=== Personnel ===\nManu Dibango – writer, arranger, vocals, saxophone\nGeorges Arvanitas – piano\nPatrice Galas – piano\nJoby Jobs – drums\nManfred Long – bass guitar\nFreddy Mars – percussion\nManu Rodanet – electric guitar\nPierre Zogo – acoustic guitar\n\n\n=== Charts ===\n\n\n== References ==\n\n\n== External links ==\nEd Hogan. \"Soul Makossa – Manu Dibango\". Allmusic."
+    }
+   }
+  }
+ },
+ {
+  "id": "space-is-the-place",
+  "kind": "album",
+  "ours": {
+   "title": "Space Is the Place",
+   "artist": "Sun Ra",
+   "year": 1973,
+   "label": "Blue Thumb",
+   "albumDNA": "The soundtrack to Sun Ra's only feature film, blending cosmic philosophy with avant-garde jazz. Ra's Arkestra creates otherworldly textures using electronic keyboards, African percussion, and free improvisation. The definitive statement of Sun Ra's Afrofuturist vision. The album posits space as a metaphor for Black liberation and imagination, influencing generations of musicians from George Clinton to Flying Lotus.",
+   "keyTracks": [
+    "Space Is the Place",
+    "Images",
+    "Discipline 27-II",
+    "Sea of Sounds"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Space_Is_the_Place_(Sun_Ra_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "87e49acf-c2f5-427c-a699-d3df4ac149f0",
+     "title": "Space Is the Place",
+     "date": "1973",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Sun Ra"
+     ],
+     "labels": [
+      {
+       "name": "Blue Thumb Records",
+       "catalogNumber": "BTS 41"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "d12aff28-a9e3-3be8-a36a-71e2f11bf575",
+      "title": "Space Is the Place",
+      "firstReleaseDate": "1973",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Space Is the Place",
+      "Images",
+      "Discipline 33",
+      "Sea of Sounds",
+      "Rocket Number Nine"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Space_Is_the_Place_(Sun_Ra_album)",
+    "page": {
+     "requestedTitle": "Space Is the Place (Sun Ra album)",
+     "resolvedTitle": "Space Is the Place (Sun Ra album)",
+     "shortDescription": "1973 studio album by Sun Ra",
+     "extract": "Space Is the Place is a studio album by Sun Ra. It was originally released on the Blue Thumb label in 1973. In 1998, it was reissued by Impulse! Records.\n\n\n== Critical reception ==\n\nStephen Cook of AllMusic commented that \"Space Is the Place provides an excellent introduction to Sun Ra's vast and free-form jazz catalog.\" He called it \"a fine recording and a must for Sun Ra fans.\" Stevie Chick of BBC described the album's title track as \"Sun Ra's ultimate anthem, espousing the fusion of science fiction and ancient myth with the panoply of jazz that would seduce Sun Ra fans on rock's innovative vanguard, the likes of the MC5, Sonic Youth and Primal Scream.\"\n\n\n== Track listing ==\n\n\n== Personnel ==\nCredits adapted from liner notes.\nSun Ra and His Astro Intergalactic Infinity Arkestra\n\nSpace Ethnic Voices\n\nTechnical\n\n\n== References ==\n\n\n== External links ==\nSpace Is the Place at Discogs (list of releases)"
+    }
+   }
+  }
+ },
+ {
+  "id": "spectrum",
+  "kind": "album",
+  "ours": {
+   "title": "Spectrum",
+   "artist": "Billy Cobham",
+   "year": 1973,
+   "label": "Atlantic",
+   "albumDNA": "Spectrum is the 1973 debut solo album by jazz fusion drummer Billy Cobham, released on Atlantic Records. Recorded with a powerhouse band including guitarist Tommy Bolin and keyboardist Jan Hammer, the album is widely regarded as a landmark of jazz-rock fusion, with tracks like \"Stratus\" and \"Quadrant 4\" showcasing Cobham's explosive technique alongside heavy, riff-driven compositions. One of fusion's most influential albums. Its virtuosity and power influenced rock and metal drummers.",
+   "keyTracks": [
+    "Quadrant 4",
+    "Stratus",
+    "Red Baron",
+    "Spectrum"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Spectrum_(Billy_Cobham_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "cc6d4c55-fd2a-4141-baaa-54647de47c00",
+     "title": "Spectrum",
+     "date": "1973",
+     "country": "DE",
+     "status": "Official",
+     "artists": [
+      "Billy Cobham"
+     ],
+     "labels": [
+      {
+       "name": "Atlantic",
+       "catalogNumber": "ATL 40 506 (SD 7268)"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "30074be9-33ed-3b40-998d-ae60ef0ff0b9",
+      "title": "Spectrum",
+      "firstReleaseDate": "1973-10-01",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Quadrant 4",
+      "Searching for the Right Door / Spectrum",
+      "Anxiety / Taurian Matador",
+      "Stratus",
+      "To the Women in My Life / Le Lis",
+      "Snoopy's Search / Red Baron"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Spectrum_(Billy_Cobham_album)",
+    "page": {
+     "requestedTitle": "Spectrum (Billy Cobham album)",
+     "resolvedTitle": "Spectrum (Billy Cobham album)",
+     "shortDescription": "1973 studio album by Billy Cobham",
+     "extract": "Spectrum is the debut solo album by jazz fusion drummer Billy Cobham.\nThe song \"Stratus\" appears in the video game Grand Theft Auto IV on the radio station \"Fusion FM\", as well as being the main sample in the Massive Attack hit \"Safe from Harm\".\n\n\n== Recording ==\nThe recording process took place at Electric Lady Studios. According to Leland Sklar it was done in just two or three days and almost every track that ended up on a record was \"first or second take at the most\".\nKen Scott, engineer of Spectrum, recounted: \"Bill Cobham's drums were treated in exactly the same way as I recorded every other drummer. I just used more mics: Neumann U67s on toms, D20s or RE20s (at Electric Lady) on the bass drums, Neumann KM54 or 56 on snare, and either STC 4038s or Beyer M160 ribbon mics for the overheads. One other thing: in order to dampen the snare, Bill just laid his wallet on the top head.\"\nLeland Sklar, bassist on four of the songs, remarked, \"Spectrum is such a benchmark for so many people. There was a sort of fire in it. It was new ground and it wasn't very analytical. It was more flying by the seat of your pants. That's where great accidents happen, which seems impossible these days. We never did more than a couple of takes on any of it. It was more or less a two-day record. It went by so fast.\" Sklar as well as pianist Jan Hammer recall that the music was recorded live and was not edited or fixed in any way afterwards. This recording method captured Tommy Bolin breaking his high E string while soloing on \"Taurian Matador\" (approximately at 1:45 into the track) and continuing playing. Bolin used a Fender Stratocaster and a Maestro Echoplex delay unit, prominently heard on \"Quadrant 4\". Sklar attests that he played his 1962 Fender Jazz bass through a small Univox amp with a single 12″ speaker.\nNot as well known at the time, Tommy Bolin plays lead guitar on four songs. Cobham had met Bolin years before, when he was a member of Zephyr. Bolin had recently joined rock band James Gang, and recorded his first album with that band just two months prior to the Spectrum sessions.\n\"To the Women in My Life\" is unusual in that Cobham himself does not play on it, though he did produce the track. It is an unaccompanied piano piece performed by Hammer.\n\n\n== Critical reception ==\n\nSpectrum received positive reviews from contemporary critics. However, Robert Christgau offered a dissenting review for Creem magazine, calling Cobham \"Mahavishnu's muscle-headed muscle man\" and saying, \"Despite a few tough minutes this is basically slick, gimmicky, one-dimensional—in a word, undemanding. All of which may make him a star.\" Scott Yanow was more impressed by the record, writing years later in his review for AllMusic that Spectrum remains Cobham's best and an exceptional jazz fusion album with \"rock-ish rhythms and jazz improvising\".\n\n\n== Track listing ==\nAll songs written and composed by Billy Cobham.\n\n\"Quadrant 4\" – 4:20\n\"Searching for the Right Door\" – 1:19 / \"Spectrum\" – 5:07\n\"Anxiety\" – 1:41 / \"Taurian Matador\" – 3:03\n\"Stratus\" – 9:48\n\"To the Women in My Life\" – 0:51 / \"Le Lis\" – 3:20\n\"Snoopy's Search\" – 1:02 / \"Red Baron\" – 6:37\nThough tracks 2, 3, 5, and 6 are designated as medleys, all of the component songs have clean breaks between them. Most recent CD issues list 10 tracks.\n\n\n== Personnel ==\nBilly Cobham – drums, percussion, production\nJan Hammer – electric and acoustic pianos, Moog synthesizer\nKen Scott – recording and re-mix engineering\nAdditional personnel on \"Quadrant 4\", \"Taurian Matador\", \"Stratus\", and \"Red Baron\"\nTommy Bolin – guitar, Echoplex\nLee Sklar – electric bass\nAdditional personnel on \"Spectrum\" and \"Le Lis\"\nJoe Farrell – soprano and alto saxes, flute\nJimmy Owens – flugelhorn, trumpet\nJohn Tropea – guitar on \"Le Lis\"\nRon Carter – acoustic bass\nRay Barretto – congas\n\n\n== Chart performance ==\n\n\n== References ==\n\n\n== External links ==\nSpectrum at Discogs (list of releases)"
+    }
+   }
+  }
+ },
+ {
+  "id": "the-beginning-and-the-end",
+  "kind": "album",
+  "ours": {
+   "title": "The Beginning and the End",
+   "artist": "Clifford Brown",
+   "year": 1973,
+   "label": "Columbia",
+   "albumDNA": "The Beginning and the End is a Clifford Brown compilation album. The album opens with two tracks that Clifford Brown recorded with Chris Powell's Blue Flames in 1952, and ends with recordings of a session held at Music City Club in Philadelphia in 1956. According to the liner notes, they are \"The first and last recorded performances of one of the greatest soloists in the history of Jazz.\" According to Nick Catalano's biography of Clifford Brown, the Music City Club session could have taken place on May 31, 1955.",
+   "keyTracks": [
+    "I Come From Jamaica",
+    "Ida Red",
+    "Walkin'",
+    "Night in Tunisia",
+    "Donna Lee"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Beginning_and_the_End_(Clifford_Brown_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "cecc9617-eb3e-4dc4-a31f-e9a32c7ea8ca",
+     "title": "The Beginning and the End",
+     "date": "1973-06-29",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Clifford Brown"
+     ],
+     "labels": [
+      {
+       "name": "Columbia",
+       "catalogNumber": "KC 32284"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "35f160aa-8c96-3d2f-8186-c15043814666",
+      "title": "The Beginning and the End",
+      "firstReleaseDate": "1973-06-29",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "I Come From Jamaica",
+      "Ida Red",
+      "Walkin'",
+      "Night in Tunisia",
+      "Donna Lee"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/The_Beginning_and_the_End_(Clifford_Brown_album)",
+    "page": {
+     "requestedTitle": "The Beginning and the End (Clifford Brown album)",
+     "resolvedTitle": "The Beginning and the End (Clifford Brown album)",
+     "shortDescription": "1973 compilation album by Clifford Brown",
+     "extract": "The Beginning and the End (Columbia Records, 1973) is a Clifford Brown compilation album. The album opens with two tracks that Clifford Brown recorded with Chris Powell's Blue Flames in 1952, and ends with recordings of a session held at Music City Club in Philadelphia in 1956. According to the liner notes, they are \"The first and last recorded performances of one of the greatest soloists in the history of Jazz.\" According to Nick Catalano's biography of Clifford Brown, the Music City Club session could have taken place on May 31, 1955.\n\n\n== Reception and legacy ==\nThe AllMusic reviewer concluded that \"Clifford Brown's playing on this date is so memorable that the LP is essential for all jazz collections.\" Fellow trumpeter Christian Scott said that as a child he heard the album and thought that Brown \"had a lot of heart and was compassionate\". Returning to the album much later, he realised that Brown \"was playing some pretty impossible things on the instrument [...] There's stuff that this guy did with the instrument that many fifty year old trumpet players would never attempt\".\n\n\n== Track listing ==\n\"I Come from Jamaica\" (Chris Powell)  – 2:39\n\"Ida Red\" (Chris Powell)  – 2:00\n\"Walkin'\" (Richard Carpenter)  – 11:38\n\"A Night in Tunisia\" (Dizzy Gillespie) – 11:04\n\"Donna Lee\" (Charlie Parker) – 7:11\n\n\n== Personnel ==\nClifford Brown – trumpet (all tracks)\nTracks 1–2\n\nChris Powell – vocals, percussion\nVance Wilson – alto saxophone, tenor saxophone\nEddie Lambert – guitar\nDuke Wells – piano\nJames Johnson – bass\nOsie Johnson – drums\nTracks 3–5\n\nBilly Root – tenor saxophone\nZiggy Vines – tenor saxophone\nSam Dockery – piano\nAdolph \"Ace\" Tisone – bass\nEllis Tollin – drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "belonging",
+  "kind": "album",
+  "ours": {
+   "title": "Belonging",
+   "artist": "Keith Jarrett European Quartet",
+   "year": 1974,
+   "label": "ECM",
+   "albumDNA": "Belonging is a studio album by American jazz pianist Keith Jarrett, recorded over two days in April 1974 and released on ECM later that year—the debut of Jarrett's \"European Quartet\", featuring saxophonist Jan Garbarek and rhythm section Palle Danielsson and Jon Christensen. Because Jarrett's contract with ABC/Impulse! prevented him from performing with the quartet under his own name, the group became known as the \"Belonging\" quartet. Created a distinctly European jazz sound. The quartet's interplay influenced countless European musicians.",
+   "keyTracks": [
+    "Spiral Dance",
+    "Long as You Know You're Living Yours",
+    "Belonging",
+    "The Windup"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Belonging_(Keith_Jarrett_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Belonging_(Keith_Jarrett_album)",
+    "page": {
+     "requestedTitle": "Belonging (Keith Jarrett album)",
+     "resolvedTitle": "Belonging (Keith Jarrett album)",
+     "shortDescription": "1974 studio album by Keith Jarrett",
+     "extract": "Belonging is a studio album by American jazz pianist Keith Jarrett, recorded over two days in April 1974 and released on ECM later that year—the debut of Jarrett's \"European Quartet\", featuring saxophonist Jan Garbarek and rhythm section Palle Danielsson and Jon Christensen. Because Jarrett's contract with ABC/Impulse! prevented him from performing with the quartet under his own name, the group became known as the \"Belonging\" quartet.\n\n\n== Background ==\nJarrett was known for valuing spontaneity over technical perfection, and, according to producer Manfred Eicher, refused to record more than one take of the title piece, thus goading the musicians to a high level of concentration. Garbarek later recalled that he had never recorded a piece so quickly, and with such minimal rehearsal.\n\"'Long as You Know You're Living Yours\" served as the theme song for CBC Radio's Writers and Company program during its 33-year-long run starting in 1990.\n\n\n== Controversy and legal dispute ==\nThe tune \"'Long as You Know You're Living Yours\" was the subject of a lawsuit between Jarrett and jazz-rock group Steely Dan: Jarrett alleged that the duo's title track from their 1980 album Gaucho had stolen from the song. Co-writer Donald Fagen admitted he'd loved the track and was strongly influenced by it. Jarrett sued for copyright infringement and was then added as a co-author of the song.\n\n\n== Reception ==\n\nAllMusic reviewer Richard S. Ginell awarded the album 4½ stars, stating, \"The record operates at its strongest level when Jarrett locks the quartet into his winning gospel mode on ''Long as You Know You're Living Yours' and the tense drive of 'Spiral Dance'; the reflective numbers are less compelling. Still, this LP-turned-CD successfully bucked the powerful electric trends of its time and holds up well today.\"\nThe authors of The Penguin Guide to Jazz awarded the album 4 stars, and wrote: \"Belonging... is a superb album, characterized by some of the pianist's most open and joyous playing on record; his double-time solo on 'The Windup' is almost Tatum-like in its exuberance and fluency. The country-blues feel of ''Long as You Know You're Living Yours' is a confident reflection of his music roots. The ballads 'Blossom', 'Solstice' and the title-piece... are remarkable by any standards; Garbarek's slightly out-of-tune opening statement on 'Solstice' and Danielsson's subsequent solo are masterful, while Jarrett's own split chords accentuate the mystery and ambiguity of the piece.\"\n\n\n== Track listing ==\nAll music composed by Keith Jarrett\n\"Spiral Dance\" – 4:11\n\"Blossom\" – 12:15\n\"'Long as You Know You're Living Yours\" – 6:14\n\"Belonging\" – 2:15\n\"The Windup\" – 8:27\n\"Solstice\" – 13:13\n\n\n== Personnel ==\n\n\n=== European Quartet ===\nKeith Jarrett – piano\nJan Garbarek – tenor and soprano saxophones\nPalle Danielsson – bass\nJon Christensen – drums\n\n\n=== Technical personnel ===\nManfred Eicher – production\nJan Erik Kongshaug – recording engineer\nTadayuki Naitoh – cover design and layout\n\n\n== See also ==\n\n1974 in jazz\n\"Belonging (Branford Marsalis Quartet album)\" – a 2025 reinterpretation of the album\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "experience-and-judgment",
+  "kind": "album",
+  "ours": {
+   "title": "Experience and Judgment",
+   "artist": "Andy Bey",
+   "year": 1974,
+   "label": "Atlantic",
+   "albumDNA": "Vocalist and pianist Andy Bey's deeply personal album blends jazz, soul, and spiritual themes with his extraordinary baritone voice—one of the richest and most flexible in jazz. Horace Silver provides the arrangements, and the music radiates with warm, devotional energy. A lost classic of spiritual vocal jazz that has been rediscovered and championed by a new generation. Bey's four-octave voice and uncompromising artistry make this one of the most powerful vocal jazz recordings of the 1970s.",
+   "keyTracks": [
+    "Celestial Blues",
+    "Experience and Judgment",
+    "Tune Up/No Greater Love",
+    "Being Uptight"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "73bf45d0-59b5-4131-8426-0ba1155f8875",
+     "title": "Experience and Judgment",
+     "date": "1974",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Andy Bey"
+     ],
+     "labels": [
+      {
+       "name": "Atlantic",
+       "catalogNumber": "SD 1654"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "7da7d59c-0c1f-460a-9cde-63253ed0b66d",
+      "title": "Experience and Judgment",
+      "firstReleaseDate": "1974",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Celestial Blues",
+      "Experience",
+      "Judgment",
+      "I Know This Love Can’t Be Wrong",
+      "Hibiscus",
+      "You Should’ve Seen the Way",
+      "Tune Up",
+      "Rosemary Blue",
+      "Being Uptight",
+      "A Place Where Love Is",
+      "Trust Us to Find the Way",
+      "The Power of My Mind"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "illuminations",
+  "kind": "album",
+  "ours": {
+   "title": "Illuminations",
+   "artist": "Alice Coltrane",
+   "year": 1974,
+   "label": "Columbia",
+   "albumDNA": "On Illuminations (1974), Alice Coltrane delivers a focused exploration of free jazz, recorded for Columbia. Among its key performances are 'Guru Sri Chinmoy Aphorism' and 'Angel of Air / Angel of Water'.",
+   "keyTracks": [
+    "Guru Sri Chinmoy Aphorism",
+    "Angel of Air / Angel of Water",
+    "Bliss: The Eternal Now",
+    "Angel of Sunlight",
+    "Illuminations"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "debbb9a3-40ec-4ac8-97f4-c8b969fea56d",
+     "title": "Illuminations",
+     "date": "1974-09",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Devadip Carlos Santana",
+      "Turiya Alice Coltrane"
+     ],
+     "labels": [
+      {
+       "name": "Columbia",
+       "catalogNumber": "PC 32900"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "25e71653-9c5f-335a-9ed9-a3df9b64a247",
+      "title": "Illuminations",
+      "firstReleaseDate": "1974-09",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Guru Sri Chinmoy Aphorism",
+      "Angel of Air / Angel of Water",
+      "Bliss: The Eternal Now",
+      "Angel of Sunlight",
+      "Illuminations"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Illuminations (Alice Coltrane and Carlos Santana album)",
+     "resolvedTitle": "Illuminations (Alice Coltrane and Carlos Santana album)",
+     "shortDescription": "1974 studio album by Santana & Coltrane",
+     "extract": "Illuminations is a 1974 collaboration between Alice Coltrane and Carlos Santana (under their Indian names \"Turiya\" and \"Devadip\", respectively). Saxophonist/flautist Jules Broussard, keyboardist Tom Coster, drummer Jack DeJohnette, percussionist Armando Peraza and bassist Dave Holland also contributed to the album.\nAlice Coltrane performs on harp, piano, and Wurlitzer electric organ and arranged and conducted the string section. Carlos Santana plays his electric guitar in a more minimal style than usual, utilizing feedback, sustain and simple melodic statements to create atmosphere and lend space to the other instruments. The album is all instrumental, with lengthy solos from most of the participants.\nThe string section introduction to \"Angel of Air\" was sampled by the Cinematic Orchestra for use on the track \"All That You Give\", which appeared on their 2002 album Every Day. This is the first of three Santana albums (the others being Oneness and The Swing of Delight) to be released under his Sanskrit name Devadip, given to him by guru Sri Chinmoy.\nThe usual 2 channel stereo version of the album was also released in 1974 in a 4 channel quadraphonic version. In 2017, Illuminations was reissued by the Dutton Vocalion label in the UK in Super Audio CD format containing both the stereo and quadraphonic mixes.\nSantana biographer Marc Shapiro stated that the guitarist was \"once again the child\" during the recording session, plying Coltrane with requests for stories about her late husband. Santana later recalled: \"the music really took me farther away from that classic Santana sound than almost any other recording—farther away but closer to where my heart was.\"\n\n\n== Remix ==\nIn 2001, Bill Laswell, responsible for remixes of albums by Bob Marley and Miles Davis, mixed and remixed excerpts of Santana's Illuminations and Love Devotion Surrender, on an album called Divine Light.\n\n\n== Reception ==\n\nIn a review for AllMusic, William Ruhlmann wrote: \"Columbia Records could not have been pleased at Santana's determined drift into esoteric jazz: Illuminations was the first of the nine Santana-related albums so far released in the U.S. not to go gold.\"\nA reviewer for Billboard called the album \"a totally cosmic record,\" and stated that it \"should turn a lot of people onto this form of music.\"\nSaxon Baird of Red Bull Music Academy noted that the album is \"as strange and fascinating as the pairing\" of Coltrane and Santana would suggest, and called \"Angel of Sunlight\" the album's centerpiece, commenting: \"The nearly 15-minute, feverish free-jazz number is heavily indebted to John Coltrane's late output... But if much of the saxophonist's late work felt like a musician in search, Santana and Alice Coltrane here are also musicians journeying in the same style.\"\nWriting for All About Jazz, Rob Caldwell described Illuminations as \"quite a bold album,\" and stated that it is \"all about drama and grandiosity.\" He remarked: \"At times bordering on New Age, it's much too adventurous to be pigeonholed as such and just when it seems to get too syrupy or cosmic, it veers into free jazz.\"\nA writer for Aquarium Drunkard commented: \"Despite his instantly recognizable tone and reputation for wailing, Santana's playing is minimal and humble, stripped to its melodic core. Here, he sets a new benchmark for electric guitar in a spiritual jazz context, while also providing the soaring counterpoint to Alice Coltrane's lush orchestrations.\"\nBuckley Mayfield of Jive Time Records remarked that the album \"is all about transmitting blazing beams of enlightenment into listeners' minds,\" and stated that Illuminations and Love Devotion Surrender \"stand as [Santana's] creative peaks.\"\nA reviewer for Overgrown Path wrote: \"It is, of course, very easy to dismiss this album as New Age whimsy. But that denies the primordial and mystical power of sound to transform, and it is elitist and myopic to contend that this transformative power is the exclusive property of the masterworks of the Western classical music.\"\n\n\n== Track listing ==\n\n\n=== Side one ===\n\"Guru Sri Chinmoy Aphorism\" (S. Chinmoy) - 1:11\n\"Angel of Air / Angel of Water\" (Coster-Santana) - 9:55\n\"Bliss: the Eternal Now\" (A. Coltrane) - 5:33\n\n\n=== Side two ===\n\"Angel of Sunlight\" (Coster-Santana) - 14:43\n\"Illuminations\" (Coster-Santana) - 4:18\n\n\n== Personnel ==\nAlice Coltrane - piano, harp, Wurlitzer electric organ (B1)\nCarlos Santana - electric guitar\nDave Holland - acoustic bass (A2, B1)\nJames Bond - acoustic bass"
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Illuminations (Alice Coltrane and Carlos Santana album)",
+      "shortDescription": "1974 studio album by Santana & Coltrane",
+      "extractHead": "Illuminations is a 1974 collaboration between Alice Coltrane and Carlos Santana (under their Indian names \"Turiya\" and \"Devadip\", respectively). Saxophonist/flautist Jules Broussard, keyboardist Tom Coster, drummer Jack DeJohnette, percussionist Armando Peraza and bassist Dave Holland also contributed to the album.\nAlice Coltrane performs on harp, piano, and Wurlitzer electric organ and arranged and conducted the string section. Carlos Santana plays his electric guitar in a more minimal style th"
+     },
+     {
+      "resolvedTitle": "Illuminations",
+      "shortDescription": "Topics referred to by the same term",
+      "extractHead": "Illuminations may refer to:\n\n\n== Shows and festivals ==\nIllumiNations: Reflections of Earth, a nightly fireworks show formerly at Epcot at Walt Disney World Resort\nIllumiNations, original nightly firework show at Epcot at Walt Disney World Resort before Reflections of Earth was created\nIlluminations (festival), a secular autumn festival of electric lights held in several English cities\nBlackpool Illuminations, an annual lights festival in the British seaside resort of Blackpool\nDisney Illuminati"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "mannenberg",
+  "kind": "album",
+  "ours": {
+   "title": "Mannenberg - Is Where It's Happening",
+   "artist": "Abdullah Ibrahim",
+   "year": 1974,
+   "label": "Sun",
+   "albumDNA": "Abdullah Ibrahim, previously known as Dollar Brand, is a South African pianist and composer. His music reflects many of the musical influences of his childhood in the multicultural port areas of Cape Town, ranging from traditional African songs to the gospel of the AME Church and Ragas, to more modern jazz and other Western styles. Ibrahim is considered the leading figure in the subgenre of Cape jazz. Within jazz, his music particularly reflects the influence of Thelonious Monk and Duke Ellington. He is known especially for \"Mannenberg\", a jazz piece that became a notable anti-apartheid anthem. The most important South African jazz recording. 'Mannenberg' became a rallying cry for freedom, played at protests and celebrations.",
+   "keyTracks": [
+    "Mannenberg",
+    "Soweto Is Where It's At",
+    "Cape Town Fringe",
+    "The Pilgrim"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Abdullah_Ibrahim"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Abdullah_Ibrahim",
+    "page": {
+     "requestedTitle": "Abdullah Ibrahim",
+     "resolvedTitle": "Abdullah Ibrahim",
+     "shortDescription": "South African pianist and composer (born 1934)",
+     "extract": "Abdullah Ibrahim (born Adolph Johannes Brand on 9 October 1934), previously known as Dollar Brand, is a South African pianist and composer. His music reflects many of the musical influences of his childhood in the multicultural port areas of Cape Town, ranging from traditional African songs to the gospel of the AME Church and Ragas, to more modern jazz and other Western styles. Ibrahim is considered the leading figure in the subgenre of Cape jazz. Within jazz, his music particularly reflects the influence of Thelonious Monk and Duke Ellington. He is known especially for \"Mannenberg\", a jazz piece that became a notable anti-apartheid anthem.\nDuring the apartheid era in the 1960s, Ibrahim moved to New York City and, apart from a brief return to South Africa in the 1970s, remained in exile until the early 1990s. Over the decades, he has toured the world extensively, appearing at major venues either as a solo artist or playing with other renowned musicians, including Max Roach, Carlos Ward and Randy Weston, as well as collaborating with classical orchestras in Europe.\nWith his wife, the jazz singer Sathima Bea Benjamin, Ibrahim is father to two children, including the New York underground rapper Jean Grae.\n\n\n== Biography ==\nIbrahim was born in Cape Town, South Africa, on 9 October 1934, and was baptized Adolph Johannes Brand. He attended Trafalgar High School in Cape Town's District Six, and began piano lessons at the age of seven, making his professional debut at 15. He is of mixed-race heritage, making him a Coloured person according to the apartheid system. His mother played piano in a church, the musical style of which would remain an influence on him; in addition, he learned to play several genres of music during his youth in Cape Town, including marabi, mbaqanga, and American jazz. He became well known in jazz circles in Cape Town and Johannesburg.\nIn 1959 and 1960, Ibrahim played with the Jazz Epistles group in Sophiatown, alongside saxophonists Kippie Moeketsi and Mackay Davashe, trumpeter Hugh Masekela, trombonist Jonas Gwangwa (who were all in the orchestra of the musical King Kong that opened in Johannesburg in February 1959), bassist Johnny Gertze and drummer Makaya Ntshoko; in January 1960, the six musicians went into the Gallo studio and recorded the first full-length jazz LP by Black South African musicians, Jazz Epistle Verse One, with 500 copies being produced. Although the group avoided explicitly political activity, the apartheid government was suspicious of it and other jazz groups, and targeted them heavily during the increase in state repression following the Sharpeville massacre in March 1960, and eventually, the Jazz Epistles broke up.\n\n\n== Early international career ==\nIbrahim moved to Europe in 1962. In February 1963, his wife-to-be, Sathima Bea Benjamin (they married in 1965), convinced Duke Ellington, who was in Zürich, Switzerland, on a European tour, to come to hear Ibrahim perform as \"The Dollar Brand Trio\" in Zurich's \"Africana Club\". After the show, Ellington helped set up a recording session with Reprise Records: Duke Ellington presents The Dollar Brand Trio. A second recording of the trio (also with Ellington and Billy Strayhorn on piano) performing with Sathima as vocalist was recorded, but remained unreleased until 1996 (A Morning in Paris, under Benjamin's name). The Dollar Brand Trio (with Johnny Gertze on bass and Makaya Ntshoko on drums) subsequently played at many European festivals, as well as on radio and television.\nIbrahim and Benjamin moved to New York in 1965 and that year Ibrahim played at the Newport Jazz Festival, followed by a first tour through the US; in 1966, he substituted for Duke Ellington on five dates, leading the Duke Ellington Orchestra. In 1967, a Rockefeller Foundation grant enabled Ibrahim to study at the Juilliard School of Music in New York. While in the US, he interacted with many progressive musicians, among them Don Cherry, Ornette Coleman, John Coltrane, Pharoah Sanders, Cecil Taylor and Archie Shepp. As the Black Power movement developed in the 1960s and 1970s, it influenced a number of Ibrahim's friends and collaborators, who began to see their music as a form of cultural nationalism. Ibrahim, in turn, began to incorporate African elements into his jazz.\n\n\n== Return to South Africa ==\nIn 1968, Ibrahim briefly returned to Cape Town, where he converted to Islam that year (with the resultant change of name from Dollar Brand to Abdullah Ibrahim) and in "
+    }
+   }
+  }
+ }
+]

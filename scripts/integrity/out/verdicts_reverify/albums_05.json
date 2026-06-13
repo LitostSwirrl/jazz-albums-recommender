@@ -1,0 +1,310 @@
+[
+ {
+  "id": "chet-baker-live-in-rosenheim",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "no", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "The embedded MBID resolves to a DIFFERENT Chet Baker compilation titled 'Chet Baker' (EmArcy, tracklist Summertime/Girl from Greenland/etc.), so MB does not entity-match our 'Live in Rosenheim'. However evidence.websearch (resolved=true; jazzdisco.org + Jazz Messengers + AllMusic) entity-matches and confirms: 'Live in Rosenheim' recorded 17 Apr 1988 in Rosenheim, released 1989 on Timeless Records. Year 1989 correct, label Timeless correct. All 5 keyTracks (Funk in Deep Freeze, I'm a Fool to Want You, Portrait in Black and White, In a Sentimental Mood, If I Should Lose You) verified by websearch findings.tracklist. albumDNA accurate. keyTracks matched against websearch (MB tracklist discarded as wrong entity)."
+ },
+ {
+  "id": "jazz-street",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match (sim 1.0): Jazz Street, 1989, Timeless Records, credited Jaco Pastorius + Brian Melvin; all 5 keyTracks present in MB tracklist. albumDNA (jazz fusion, 1989, Timeless Records, No Slack/Jazz Street) fully consistent. ours.wikipediaUrl is null. The evidence carries a stale stored_url to 'Red Rose Speedway' (Paul McCartney/Wings) which is the wrong entity; appears already cleared to null in current data."
+ },
+ {
+  "id": "david-sanborn",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: self-titled David Sanborn, Warner Bros. Records, all 5 keyTracks present; tracklist incl. 'I Do It for Your Love' (Paul Simon) matches albumDNA. Wiki page (David Sanborn (album)) entity-matches: 'Sanborn ... released by Warner Bros. in 1976 ... version of I Do It for Your Love by Paul Simon.' Year tension: prose makes no year claim; field year=1990 matches the MB embedded release (DE), while the album was first issued 1976 (wiki). Consistent with this dataset's convention of cataloguing a later release/edition; not flagged as error."
+ },
+ {
+  "id": "jam-session",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: Jam Session, Charlie Parker, Verve (833 564-2), 1990; all 4 keyTracks (Jam Blues, What Is This Thing Called Love, Ballad Medley, Funky Blues) match MB tracklist exactly. albumDNA (Charlie Parker, Verve, swing program, those tracks) consistent. 'contemporary era' framing is editorial boilerplate, not a factual claim. ours.wikipediaUrl null; evidence stored_url 'Jam Session (album)' resolves to a different 1954 Clifford Brown/Clark Terry/Maynard Ferguson EmArcy album (wrong entity, not shipped)."
+ },
+ {
+  "id": "hipmotism",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: Hipmotism, Arthur Blythe, enja, releaseGroup firstReleaseDate 1991; all 5 keyTracks present in MB tracklist. albumDNA (1991, Enja, Dear Dessa/Dance Benita Dance/title track) consistent. ours.wikipediaUrl null; evidence stored_url 'Night Song (Arthur Blythe album)' is a different (1997) Blythe album (wrong entity, not shipped)."
+ },
+ {
+  "id": "that-certain-feeling",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (sim 1.0): That Certain Feeling, Ran Blake, hat ART, 1991; Gershwin program; all 6 keyTracks present in MB tracklist. albumDNA (Ran Blake, Gershwin material, It Ain't Necessarily So/The Man I Love/Mine/Oh Where's My Bess?) consistent. Label field is 'Unknown' (honest placeholder, not a false claim) -- MB gives label = hat ART (catno hat ART CD 6077); a repair could fill this. ours.wikipediaUrl null; opensearch resolved to 'That Certain Feeling (album)' by John Patton (1968 Blue Note organ), wrong entity, not shipped."
+ },
+ {
+  "id": "a-jazz-hour-with-dizzy-gillespie",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: A Jazz Hour With Dizzy Gillespie, Dizzy Gillespie, Distribution Movieplay, 1992; all 5 keyTracks present in MB tracklist; albumDNA tracks (Manteca, Groovin' High, Tin Tin Deo, Birk's Works, Alone Together, I Can't Get Started) all in MB list. ours.wikipediaUrl null; evidence stored_url 'Dizzy Gillespie and the Double Six of Paris' is a different 1963 album (wrong entity, not shipped)."
+ },
+ {
+  "id": "celebration-mseleku",
+  "verdict": "clean",
+  "confidence": 0.96,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (sim 1.0): Celebration, Bheki Mseleku, World Circuit, 1992; all 4 keyTracks present. Wiki page entity-matches and CONFIRMS every prose claim: debut album by South African Bheki Mseleku, short-listed for 1992 Mercury Prize, Courtney Pine contributed, recorded in two days. (Wiki short-desc says '1991' but extract ties it to the 1992 Mercury Prize; MB says 1992 -- our year 1992 is supported.)"
+ },
+ {
+  "id": "kansas-city-7",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: Kansas City 7, Count Basie, Pablo (2310-908)/OJC, 1992; all 5 keyTracks present. Wiki page 'Kansas City 7' entity-matches: '1980 studio album by Count Basie' with matching tracklist (Jaylock, Exactly Like You, etc.). albumDNA '1980 Pablo release reissued in 1992' consistent (wiki=1980 original, MB=1992 release). 'big band era' is editorial framing."
+ },
+ {
+  "id": "plays-and-plays-and-plays",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: Plays and Plays and Plays, Dave Brubeck, Original Jazz Classics, 1992-06-22; all 5 keyTracks present (Sweet Cleo Brown, I'm Old Fashioned, Love Is Here to Stay, Indian Summer, In Search of a Theme). albumDNA consistent. ours.wikipediaUrl null; evidence stored_url 'Brubeck Plays Brubeck' is a different 1956 album (wrong entity, not shipped)."
+ },
+ {
+  "id": "russell-malone",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (sim 1.0): Russell Malone (self-titled), Columbia (catno 52825), 1992-10-06; all 5 keyTracks present; albumDNA tracks (Wives and Lovers, When I Take My Sugar to Tea, St. Louis Blues, Moonlight Serenade) all in MB list, catalog number 52825 matches. ours.wikipediaUrl null; evidence stored_url 'Post Malone' is the rapper -- wrong entity, not shipped."
+ },
+ {
+  "id": "capricorn-rising",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (sim 1.0): Capricorn Rising, Black Saint (JC 3504), date 1976, releaseGroup firstReleaseDate 1976, credited Don Pullen + Sam Rivers; all 4 keyTracks present. albumDNA correctly states 'recorded for Black Saint in 1976' (matches MB). Wiki 'Sam Rivers (jazz musician)' entity-matches the artist and the closing sentence (soprano sax, bass clarinet, flute, harmonica, piano, viola) is verbatim from it. Tension: field year=1993 vs MB/prose 1976 -- plausibly a CD reissue year per this dataset's convention; MB does not refute a 1993 reissue, so not flagged. Album is co-led with Don Pullen; prose says 'Sam Rivers leads' (editorial, naming one of two leaders)."
+ },
+ {
+  "id": "love-notes",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: Love Notes, 1994, Jazz Door (JD 1272), credited Betty Carter/Geri Allen/Dave Holland/Jack DeJohnette (status Bootleg); all 6 keyTracks present in MB tracklist. albumDNA (post-bop Betty Carter, Jazz Door, behind-the-beat phrasing) is editorial + consistent. ours.wikipediaUrl null; evidence stored_url 'Aaron Carter' is the pop singer -- wrong entity, not shipped."
+ },
+ {
+  "id": "tidal-wave",
+  "verdict": "clean",
+  "confidence": 0.93,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: Tidal Wave, Fletcher Henderson, Squirrel Thing Recordings, 1994-09-07; all 6 keyTracks present (incl. 'Hocus Pocus (alternative version)'). albumDNA (1994 compilation of early-jazz Fletcher Henderson sides) consistent with MB tracklist. ours.wikipediaUrl null; opensearch resolved only to a 'Tidal wave' disambiguation page (not our album)."
+ },
+ {
+  "id": "blue-rondo",
+  "verdict": "factual_error",
+  "confidence": 0.88,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "artist", "ours": "Charlie Parker", "evidence": "Karl‐Heinz Steffens, David Gazarov, Martin Zehn, Keith Copeland, Chris Lachotta (performers); 'Parker' appears only among composer credits (Yardbird Suite)", "evidenceQuote": "artists: Brubeck, Debussy, Donato, Gilberto, Evans, Jones, Honegger, Parker, Poulenc, Stravinsky, Karl‐Heinz Steffens, David Gazarov, Martin Zehn, Keith Copeland, Chris Lachotta; date 1997", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "artist: Charlie Parker", "problem": "This 1997 Tudor album is a clarinet recital (performed by Karl‐Heinz Steffens et al.), not a Charlie Parker album. Parker appears only as composer of one track ('Yardbird Suite') and died in 1955; he cannot be the artist of a 1997 release.", "evidenceQuote": "date 1997 ... artists: ... Honegger, Parker, Poulenc, Stravinsky, Karl‐Heinz Steffens, David Gazarov ... tracks: ... Yardbird Suite ...", "source": "mb"}
+  ],
+  "notes": "albumDNA prose is actually CORRECT about the real album (a 1997 Tudor clarinet recital: Blue Rondo a la Turk / Debussy Premiere rhapsodie / Waltz for Debby / Clarinet Sonatina), and all 5 keyTracks match MB. The error is the artist FIELD = Charlie Parker (a composer credit pulled from the tracklist), not the prose. NOTE: this is the same MB release (MBID 505e34e7) as item 'blue-rondo-brubeck' -- two duplicate catalog entries of one clarinet-recital album mis-filed under two composer names. Repair: dedupe and set artist to the actual performer (Karl-Heinz Steffens)."
+ },
+ {
+  "id": "blue-rondo-brubeck",
+  "verdict": "factual_error",
+  "confidence": 0.88,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "artist", "ours": "Dave Brubeck", "evidence": "Karl‐Heinz Steffens, David Gazarov, Martin Zehn, Keith Copeland, Chris Lachotta (performers); 'Brubeck' appears only among composer credits (Blue Rondo a la Turk)", "evidenceQuote": "artists: Brubeck, Debussy, Donato, Gilberto, Evans, Jones, Honegger, Parker, Poulenc, Stravinsky, Karl‐Heinz Steffens, David Gazarov, Martin Zehn, Keith Copeland, Chris Lachotta; date 1997", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "artist: Dave Brubeck", "problem": "This 1997 Tudor album is a clarinet recital performed by Karl‐Heinz Steffens et al., not a Dave Brubeck album. Brubeck appears only as composer of 'Blue Rondo a la Turk'.", "evidenceQuote": "date 1997 ... artists: Brubeck, Debussy ... Karl‐Heinz Steffens, David Gazarov, Martin Zehn, Keith Copeland, Chris Lachotta ... tracks: Blue Rondo a la Turk ...", "source": "mb"}
+  ],
+  "notes": "Same MB release (MBID 505e34e7) as item 'blue-rondo'. albumDNA correctly describes the clarinet recital and all 6 keyTracks match MB; only the artist FIELD (Dave Brubeck, a composer credit) is wrong. Repair: dedupe with 'blue-rondo' and set artist to the actual performer (Karl-Heinz Steffens)."
+ },
+ {
+  "id": "forever-love",
+  "verdict": "unverifiable",
+  "confidence": 0.82,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity is solid: MB search (sim 1.0) confirms Forever Love, Mark Whitfield, Verve (533 921-2), 1997-03-04; all 5 keyTracks present; albumDNA (jazz guitarist, Verve, 1997, ballads/standards, My One and Only Love, Nature Boy) all consistent. The one substantive claim that cannot be checked against pack evidence is 'vocalist Diana Krall guests on a few tracks' -- MB tracklist carries no personnel and the stored_url 'Thomas Whitfield (singer)' is a different gospel artist (wrong entity, not shipped). Absence is not contradiction; the Krall guesting claim is unverifiable from the evidence here (not refuted)."
+ },
+ {
+  "id": "in-their-own-sweet-way",
+  "verdict": "clean",
+  "confidence": 0.93,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (sim 1.0): In Their Own Sweet Way, Dave Brubeck, Telarc Jazz (CD-83355), 1997; all 5 keyTracks present. Wiki page entity-matches and confirms the prose nearly verbatim: 'Dave Brubeck and his quintet ... accompanied by his four sons on a recording for the first time.' Minor inconsistency: wiki extract says '1998' while its short-description and MB say 1997; our 1997 is supported by MB and the wiki short-desc, so not flagged."
+ },
+ {
+  "id": "tenor-titans",
+  "verdict": "unverifiable",
+  "confidence": 0.78,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed: MB embedded_mbid gives Tenor Titans, Storyville Records (STCD 8288), 1997, credited Dexter Gordon + Ben Webster; all 5 keyTracks present. albumDNA names only Ben Webster (editorial; album is a Gordon/Webster split). The substantive uncheckable claim is the explicit 'Recorded for Storyville Records in 1997' -- MB carries only a 1997 RELEASE date, not a recording date, so this recording-year assertion can be neither confirmed nor refuted from pack evidence. (Background knowledge that Webster's recordings predate 1997 is not citable here.) ours.wikipediaUrl null; stored_url 'Tomasz Szukalski' is a different Polish saxophonist (wrong entity, not shipped)."
+ },
+ {
+  "id": "black-action-figure",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: Black Action Figure, Stefon Harris, Blue Note (99546), 1999-09-14; all 5 keyTracks present. Wiki page 'Stefon Harris' entity-matches and confirms the prose: 'His second album, Black Action Figure, was nominated for a Grammy Award' and identifies Harris as a jazz vibraphonist signed to Blue Note. All claims (second Blue Note album, 1999, Grammy nomination, vibraphonist) verified."
+ },
+ {
+  "id": "bunk-bechet-in-boston",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: Bunk & Bechet in Boston, 1999, Jazz Crusade Records (JCCD-3039), credited Bunk/Bechet/Pops Foster; all 6 keyTracks present in MB tracklist. albumDNA gives album year 1999 (release) and uses present-tense editorial 'delivers a dixieland program' -- it does NOT assert a 1999 recording date, so no anachronism claim to flag. Prose names Sidney Bechet (clarinetist) -- he played clarinet and soprano sax; album is co-credited with Bunk Johnson (editorial to name one). ours.wikipediaUrl null; opensearch returned nothing."
+ },
+ {
+  "id": "jazz-in-film",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: Jazz in Film, Terence Blanchard, Sony Classical (SK 60671), 1999-03-02; all 5 keyTracks present (A Streetcar Named Desire, Chinatown, The Subterraneans, Anatomy of a Murder, The Pawnbroker). albumDNA consistent. ours.wikipediaUrl null; evidence stored_url 'Terence Blanchard (album)' is his different 1991 self-titled Columbia debut (wrong entity, not shipped)."
+ },
+ {
+  "id": "sweet-release-ghost-story",
+  "verdict": "clean",
+  "confidence": 0.93,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: Sweet Release & Ghost Story, Wynton Marsalis, 1999-08-10; all 5 keyTracks present in MB tracklist. albumDNA (contemporary jazz, Wynton Marsalis, 1999, those two suite movements) consistent. Label field 'Unknown' matches MB (labels array empty) -- honest absence, not a false claim. ours.wikipediaUrl null; evidence stored_url 'Roger Ingram' is a trumpeter who played in Marsalis's orchestra but a different entity (not shipped)."
+ },
+ {
+  "id": "joey-calderazzo",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (sim 1.0): Joey Calderazzo (self-titled), Columbia (CK 69886), 2000; all 5 keyTracks present (The Oracle, Toonay, Haiku, Detonation, Time Remembered). albumDNA consistent. ours.wikipediaUrl null; evidence stored_url 'Amanecer (Joey Calderazzo album)' is a different (2007) Calderazzo album -- right artist, wrong album, not shipped."
+ },
+ {
+  "id": "leon-thomas-in-berlin",
+  "verdict": "unverifiable",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed: MB search (sim 1.0) gives Leon Thomas in Berlin, Leon Thomas, releaseGroup firstReleaseDate 2000 (matched release is a 2002 BMG France reissue); all 5 keyTracks present in MB tracklist. Substantive claims that cannot be checked against pack evidence: (a) 'with the saxophonist/arranger Oliver Nelson' -- MB lists no personnel; (b) 'recorded in 1970 in Berlin' -- MB carries no recording date; (c) label 'Flying Dutchman' vs MB's reissue label 'BMG France' -- MB's 2002 reissue does not refute Flying Dutchman as the original label (absence is not contradiction). No contradictions, but multiple substantive personnel/date claims are unverifiable. opensearch returned no wiki page; ours.wikipediaUrl null."
+ }
+]

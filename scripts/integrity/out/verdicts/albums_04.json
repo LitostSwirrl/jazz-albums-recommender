@@ -1,0 +1,323 @@
+[
+ {
+  "id": "booker-little",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID MB release (Time Records 52011, 1960) and the stored Wikipedia album page both match: title, sole artist credit Booker Little, year, label. All five keyTracks are on the MB tracklist. Prose first sentence is verbatim the Wikipedia lede; 'hard bop output from 1960' is editorial framing consistent with the April/August 1960 session dates in the wiki personnel section."
+ },
+ {
+  "id": "cannonball-adderley-and-the-poll-winners",
+  "verdict": "factual_error",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "artist", "ours": "Wes Montgomery", "evidence": "Cannonball Adderley, Ray Brown, Wes Montgomery (MB embedded-MBID artist credit, authoritative)", "evidenceQuote": "artists: [\"Cannonball Adderley\", \"Ray Brown\", \"Wes Montgomery\"]", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release confirms title/year/label and all five keyTracks. The artist field names only Wes Montgomery, but the authoritative credit lists Cannonball Adderley first (with Ray Brown and Montgomery), and our own prose says 'an album by jazz saxophonist Julian \"Cannonball\" Adderley' -- the field contradicts both. Possibly a deliberate catalog filing under Montgomery (artist-centric site); human should decide how to repair. Personnel claims Victor Feldman and Louis Hayes, and the 'cool jazz' framing, are unverifiable from pack evidence (no personnel list, no wiki page) but not contradicted."
+ },
+ {
+  "id": "charles-mingus-presents-charles-mingus",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is verbatim the Wikipedia lede (Candid, recorded October 1960, released January 1961, Dolphy/Curson/Richmond quartet, Showplace residency). All four keyTracks match the MB tracklist exactly. Year field 1960 matches the MB release-group first release date (1960) and the recording year, while prose and Wikipedia say released January 1961 -- the two evidence sources disagree with each other; not flagged. The MB release fetched is a 1987 CD reissue of the same release group."
+ },
+ {
+  "id": "free-form-harriott",
+  "verdict": "factual_error",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Free Form"],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity solid: MB search match (Joe Harriott Quintet, Jazzland JLP 949S) and stored wiki page agree. KeyTrack 'Free Form' is on neither tracklist -- both MB and Wikipedia list the same eight tracks (Formation, Coda, Abstract, Impression, Parallel, Straight Lines, Calypso, Tempo); 'Free Form' is the album title, not a track, possibly a corruption of 'Formation'. Other three keyTracks match. Year field 1960 is the recording year (wiki: 'recorded in England in 1960'); first release was 1961 per MB and the wiki short description -- noted, not separately flagged. Prose claims (Jamaican-born alto saxophonist, parallel to Ornette Coleman) are consistent with the wiki page; 'independently developed free jazz at the same time' is editorial-historical, supported in spirit by AllMusic's 'Comparable to Ornette Coleman's recordings of the period'."
+ },
+ {
+  "id": "giant-steps",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is near-verbatim Wikipedia (February 1960 Atlantic release, National Recording Registry 2004, gold record 2018 / 500,000 copies). 'First album as sole leader' is consistent with wiki ('first album as leader', with a prior January 1959 Atlantic date led by Milt Jackson). MB date 1960-01 vs wiki February 1960 is source-level wobble; ours follows wiki. All four keyTracks on the MB tracklist. 'Sheets of sound' and harmonic-challenge statements are supported by the wiki text."
+ },
+ {
+  "id": "gillespiana",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match (similarity 1.0) confirms title/artist/year/label (Verve V6-8394, 1960) and all five keyTracks exactly. The substantive claim that Lalo Schifrin wrote the compositions and arrangements cannot be checked against pack evidence (no Wikipedia page; MB carries no composer credits). 'Adding to the recorded documentation of the free jazz era' is odd genre framing for a 1960 Gillespie big-band suite but is editorial, not a checkable claim."
+ },
+ {
+  "id": "township-jive",
+  "verdict": "factual_error",
+  "confidence": 0.55,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "unsure"},
+  "wikiLinkVerdict": "unsure",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "title", "ours": "Jazz Epistles: Verse 1", "evidence": "Jazz Epistle, Verse 1", "evidenceQuote": "the Jazz Epistles recorded the first album by a black South African band, Jazz Epistle, Verse 1", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "No MB evidence (search returned nothing). The stored wiki link is the BAND article (The Jazz Epistles), not an album article -- not a disambiguation collision, but strictly not a page about the album; flagged unsure. Most of the prose is verbatim from that article and matches (members incl. Dollar Brand/Moeketsi/Gwangwa/Masekela/Gertze/Mabuza-or-Ntshoko, Jazz at the Odin in Sophiatown, recording shortly before the 1960 Sharpeville massacre). The article names the album 'Jazz Epistle, Verse 1' (singular Epistle), contradicting our title form 'Jazz Epistles: Verse 1' -- single casual mention, so confidence is moderate. Unverifiable from pack: Gallo label, 1960 release year (article says recorded 1959, gives no release date), 'the only album' claim, and all four keyTracks (no tracklist in any evidence)."
+ },
+ {
+  "id": "louie-and-the-dukes-of-dixieland",
+  "verdict": "entity_mismatch",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "I've Got the World on a String is a 1960 album by Louis Armstrong, arranged by Russell Garcia. It was recorded on the same day as Armstrong's 1958 album Louis Under the Stars; the previous day he had finished recording Ella and Louis Again with Ella Fitzgerald.", "problem": "The entire albumDNA describes a different Armstrong album (I've Got the World on a String, the Russell Garcia orchestral date) -- not Louie and the Dukes of Dixieland, the Dukes of Dixieland collaboration this item actually is", "evidenceQuote": "title: \"Louie and the Dukes of Dixieland\"; artists: [\"Louis Armstrong\", \"The Dukes of Dixieland\"]; releaseGroup firstReleaseDate: \"1960\"", "source": "mb"}
+  ],
+  "notes": "Classic disambiguation disease. Embedded-MBID MB release confirms the real album (Armstrong with The Dukes of Dixieland, RG first release 1960) and all five keyTracks match its tracklist, so title/artist/year/keyTracks fields are fine. But the prose and the stored Wikipedia link both belong to I've Got the World on a String (whose wiki personnel shows a Russell Garcia orchestra, no Dukes of Dixieland). Label field 'Audio Fidelity' is unverifiable from the pack (MB shows only a High Definition Tape Transfers reissue) -- plausible for the 1960 original but needs sourcing during repair. Prose and wikipediaUrl both need replacement."
+ },
+ {
+  "id": "mingus-dynasty",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is verbatim Wikipedia (recorded 1959, released May 1960 on Columbia, Grammy Hall of Fame 1999, title alluding to Mingus's partially Chinese ancestry). MB embedded MBID confirms Columbia CS 8236, 1960. All four keyTracks match after stripping the '(unedited version)' suffixes, which are themselves grounded in the wiki note that tracks 1, 3, 4 and 5 were later released unedited."
+ },
+ {
+  "id": "portrait-in-jazz",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose first sentences are verbatim Wikipedia (fifth studio album, first of two studio albums with LaFaro and Motian, mono/stereo editions with different 'Autumn Leaves' takes). MB search match (similarity 1.0) confirms Riverside RLP 12-315, 1960; all four keyTracks on the tracklist. 'Established the template for modern jazz piano trio playing' is editorial, consistent with the wiki 'blueprint' quote."
+ },
+ {
+  "id": "sketches-of-spain",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is verbatim the Wikipedia lede (released July 18, 1960 by Columbia; recorded November 1959-March 1960 at the 30th Street Studio; Rodrigo's Concierto de Aranjuez 1939; de Falla's El amor brujo 1914-1915; third stream). MB embedded MBID confirms Columbia CL 1480; MB dates the release 1960-08 vs wiki's July 18, 1960 -- source wobble only, ours follows wiki. All five keyTracks match the MB tracklist exactly."
+ },
+ {
+  "id": "soul-junction",
+  "verdict": "factual_error",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "artist", "ours": "Donald Byrd", "evidence": "Red Garland (leader); MB credit: The Red Garland Quintet, John Coltrane, Donald Byrd", "evidenceQuote": "Soul Junction is an album by the jazz pianist and composer Red Garland.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "This is Red Garland's album: wiki lede names Garland as leader and MB embedded-MBID credit lists The Red Garland Quintet first, with Coltrane and Byrd as featured names. Filing it under artist 'Donald Byrd' contradicts the leader credit, though Byrd is genuinely in the credit and on the date -- possibly a deliberate artist-centric catalog choice; flag for human. Prose itself never claims Byrd led ('features trumpeter Donald Byrd' is accurate). Title/year/label/keyTracks all check (Prestige P-7181, RG first release 1960; wiki: recorded November 15, 1957, released 1960 -- 'a hard bop outing from 1960' reads as release year). The Byrd-influenced-Herbie-Hancock claim is unverifiable from pack evidence. Note: the same album appears again in this pack as soul-junction-coltrane."
+ },
+ {
+  "id": "soul-junction-coltrane",
+  "verdict": "entity_mismatch",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "artist", "ours": "John Coltrane", "evidence": "Red Garland (leader); MB credit: The Red Garland Quintet, John Coltrane, Donald Byrd", "evidenceQuote": "Soul Junction is an album by the jazz pianist and composer Red Garland.", "source": "wiki"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Lush Life is a studio album by the jazz musician John Coltrane. It was released in early 1961 by Prestige Records.", "problem": "The albumDNA describes a different album entirely -- Coltrane's Lush Life -- while this item is Soul Junction", "evidenceQuote": "Soul Junction is an album by the jazz pianist and composer Red Garland. It was released in 1960 through Prestige Records.", "source": "wiki"},
+   {"ourClaim": "It was assembled from previously unissued tracks from three recording sessions at Van Gelder Studio in Hackensack, New Jersey in 1957 and 1958.", "problem": "Soul Junction comes from a single session, November 15, 1957, per the entity-matched wiki page", "evidenceQuote": "It features tracks recorded on November 15, 1957, the same day the pieces for All Mornin' Long were recorded, with the same lineup.", "source": "wiki"}
+  ],
+  "notes": "Title, year, label and all five keyTracks match the real Soul Junction (MB embedded MBID, Prestige P-7181, RG first release 1960), and the stored wiki link points to the correct Soul Junction article -- but the prose was pasted from Coltrane's Lush Life (early-1961 release assembled from 1957-58 sessions). Artist field 'John Coltrane' also misstates the leader (Red Garland; Coltrane is a credited sideman). Duplicate entry of the same album as pack item soul-junction, there filed under Donald Byrd. Prose needs replacement; artist filing and the duplicate need a human decision."
+ },
+ {
+  "id": "soul-time",
+  "verdict": "entity_mismatch",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Holiday Soul is an album of Christmas music by the American jazz pianist Bobby Timmons, recorded in 1964 and released on the Prestige label.", "problem": "The albumDNA describes a different Timmons album (Holiday Soul, 1964 Christmas record on Prestige); this item is Soul Time, a 1960 Riverside album", "evidenceQuote": "title: \"Soul Time\"; date: \"1960-11\"; labels: [{\"name\": \"Riverside\", \"catalogNumber\": \"RS 9334\"}]", "source": "mb"}
+  ],
+  "notes": "MB embedded MBID confirms Soul Time (Bobby Timmons, Riverside RS 9334, November 1960) and all five keyTracks are on its tracklist, so the fields are right. But the prose and the stored Wikipedia link both belong to Holiday Soul (1964, Prestige) -- the disambiguation disease. The 'cool jazz movement' sentence is template filler inappropriate for either record, but editorial. Prose and wikipediaUrl both need replacement."
+ },
+ {
+  "id": "the-centaur-and-the-phoenix",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["The Plum Blossom", "First Gymnopedie"],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match (similarity 1.0; Riverside RLP 337, 1960) confirms title/artist/year/label. Its tracklist is Revelation, Apathy, Ev'ry Day (I Fall in Love), The Centaur and the Phoenix, Iqbal, Summer Song, The Philanthropist -- keyTracks 'The Plum Blossom' and 'First Gymnopedie' are not on it. 'The Plum Blossom' is the opening track of Lateef's Eastern Sounds per that item's evidence in this same pack, so this looks like cross-album contamination. Prose claims about oboe/flute/tenor plus exotic instruments are unverifiable (no personnel in evidence) but not contradicted; the world-jazz pioneer framing is editorial."
+ },
+ {
+  "id": "this-here-is-bobby-timmons",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded MBID confirms title/artist/label and November 1960 release (Riverside RLP 12-317); all five keyTracks are on the tracklist. No contradictions. Unverifiable from pack evidence: 'his first album as sole leader' and the claim that Jenkins, Jordan and Timmons (1957) was a co-led date with John Jenkins and Clifford Jordan (no Wikipedia page available; MB carries no such context)."
+ },
+ {
+  "id": "we-insist",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is verbatim Wikipedia (released January 1961 through Candid; suite begun 1959 with lyricist Oscar Brown for the planned 1963 Emancipation Proclamation centennial; sit-in cover; Penguin Guide crown plus Core Collection). All four keyTracks on the MB tracklist. Year field 1960 vs first release January 1961 (MB and wiki body): Wikipedia's own short description calls it a '1960 studio album' (recorded 1960), so the field is evidence-supported and not flagged. 'One of the first jazz albums to directly address civil rights' is editorial-historical, consistent with the evidence."
+ },
+ {
+  "id": "how-time-passes",
+  "verdict": "factual_error",
+  "confidence": 0.65,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Trumpeter Don Ellis's hard bop sensibility is on display in this 1961 session", "problem": "Calls the session 1961; the recording was made in 1960 (1961 is the release year). The prose's own first sentence states this correctly, so the appended template sentence contradicts both the evidence and itself", "evidenceQuote": "How Time Passes is the debut album by trumpeter Don Ellis recorded in 1960 and released on the Candid label.", "source": "wiki"}
+  ],
+  "notes": "Entity solid: MB embedded MBID (Candid CJS 9004, 1961) and stored wiki page agree; all five keyTracks match; first prose sentence is verbatim the wiki lede; year field 1961 matches the release. The 'hard bop sensibility ... document of the hard bop era' framing sits oddly against the evidence (Yanow: 'stretching the boundaries of bop-based jazz and experimenting a bit with time and tempo') but genre labels are editorial -- only the '1961 session' date claim is flagged."
+ },
+ {
+  "id": "live-at-the-five-spot",
+  "verdict": "factual_error",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Aggression"],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No MB evidence; judged against the stored Wikipedia article, which covers both Five Spot volumes and matches the prose nearly verbatim (recorded the night of 16 July 1961 at the end of the two-week residency with Booker Little; only night recorded; engineer Rudy Van Gelder; Vol. 1 released December 1961 by Prestige). Item is Vol. 1, but keyTrack 'Aggression' is on Volume two per the wiki tracklists (Volume one: Fire Waltz, Bee Vamp, The Prophet; Volume two: Aggression, Like Someone in Love, ...). KeyTracks matching used the wiki tracklist since MB returned nothing. The prose's pair-of-albums framing is the wiki lede -- acceptable context, though slightly odd under a Vol. 1-only item; year and label fields are correct for Vol. 1."
+ },
+ {
+  "id": "buhaina",
+  "verdict": "clean",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is verbatim Wikipedia (recorded November 28 and December 18, 1961 at Van Gelder Studio; produced by Alfred Lion; released by Blue Note in July 1963 after Blakey went to Riverside in late 1962). All four keyTracks on the MB tracklist. Year field 1961 is the recording year; first release is 1962 per MB but July 1963 per Wikipedia -- the two evidence sources contradict each other on release year, and ours matches the documented recording year, so noted for human review rather than flagged as error. Shorter-stature remark is editorial."
+ },
+ {
+  "id": "eastern-sounds",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is verbatim Wikipedia (released April 1962 through Prestige's Moodsville imprint; recorded September 1961; quartet with Barry Harris; xun on the opening track). All four keyTracks on the MB tracklist (Love Theme from 'Spartacus' matches with punctuation differences). Year field 1961 matches the recording year and the MB release-group date (1961-09-05, which appears to be the session date); wiki gives the release as April 1962 -- noted, not flagged. Label field Moodsville is confirmed by wiki; the MB release fetched is a modern Craft Recordings reissue."
+ },
+ {
+  "id": "blue-in-green",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Content is Explorations and checks out: prose verbatim Wikipedia (second and final studio album with the LaFaro/Motian trio, Riverside, 1961); MB search match similarity 1.0 (RLP-351, 1961); all four keyTracks on the tracklist. Trio-interplay sentences are editorial. One cosmetic oddity for maintainers: the item id is 'blue-in-green' (a tune title) and does not reflect the album title -- harmless but confusing."
+ },
+ {
+  "id": "face-to-face",
+  "verdict": "factual_error",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Swingin' for Bumsy"],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity solid: MB search match similarity 1.0 (Blue Note BLP 4068, 1961) and stored wiki page agree; wiki confirms debut album and the personnel named in our prose (Grant Green guitar, Fred Jackson tenor sax, plus Ben Dixon). KeyTrack 'Swingin' for Bumsy' is on neither the MB nor the wiki tracklist (both open with 'Swingin' at Sugar Ray's', and the CD bonus takes are alternates of existing tracks) -- likely a corrupted or confabulated title. 'Somethin'' matched 'Somethin' Strange' as a substring. Unverifiable but not contradicted: forename 'Roosevelt' and the 'only a handful of albums' career claim."
+ },
+ {
+  "id": "free-jazz",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No MB evidence. Stored wiki page matches the album and the core prose is verbatim from it (released September 1961 by Atlantic; recorded December 21, 1960 at A&R Studios; sole outtake 'First Take' later on the 1971 compilation Twins). No tracklist appears in the extract, but wiki confirms the title track was 'split into two sections for each side of the LP', consistent with the Part 1/Part 2 keyTracks -- still no_evidence by the letter of the rule. Unverifiable: 'The album is named after the then-nascent free jazz movement' (background knowledge, not citable, suggests the naming influence is usually described in the opposite direction -- the movement taking its name partly from this album; pack evidence is silent) and the claim of influence extending to rock, punk, and experimental music (wiki only documents influence on later free jazz recordings such as Ascension and Machine Gun)."
+ },
+ {
+  "id": "jazz-pictures-at-an-exibition",
+  "verdict": "factual_error",
+  "confidence": 0.65,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "artist", "ours": "Kenny Clarke", "evidence": "Pim Jacobs, Rita Reys, Kenny Clarke (MB embedded-MBID artist credit, authoritative)", "evidenceQuote": "artists: [\"Pim Jacobs\", \"Rita Reys\", \"Kenny Clarke\"]", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "drummer Kenny Clarke leads a hard bop session recorded for Philips in 1961", "problem": "Presents Clarke as the leader; the authoritative artist credit lists Pim Jacobs first and Rita Reys second, with Clarke third -- nothing in the evidence supports Clarke as leader", "evidenceQuote": "artists: [\"Pim Jacobs\", \"Rita Reys\", \"Kenny Clarke\"]", "source": "mb"}
+  ],
+  "notes": "Embedded-MBID release is the same album as ours (same sic spelling 'Exibition', Philips, release group first release 1961; the fetched pressing is a 1989 Japan reissue) and all five keyTracks match the tracklist. But the credit makes this a Pim Jacobs / Rita Reys date with Clarke as the third-billed name; our artist field and 'Clarke leads' sentence overstate his role. Background knowledge, not citable: Rita Reys was a vocalist and Pim Jacobs a pianist, which would make 'hard bop session' framing doubly questionable -- pack evidence cannot confirm, so genre framing stays unflagged. Year and label fields are consistent with the evidence."
+ }
+]

@@ -1,0 +1,267 @@
+[
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "we-free-kings-rahsaan-roland-kirk",
+    "field": "year",
+    "before": null,
+    "after": 1962,
+    "sourceUrl": ["https://en.wikipedia.org/wiki/We_Free_Kings"],
+    "evidence": "Wikipedia: recorded Aug 16-17 1961, released January 1962 on Mercury; 'Released' field = 1962."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "we-free-kings-rahsaan-roland-kirk",
+    "field": "label",
+    "before": "Various",
+    "after": "Mercury",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/We_Free_Kings"],
+    "evidence": "Wikipedia and AllMusic: released on Mercury Records."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "we-free-kings-rahsaan-roland-kirk",
+    "field": "keyTracks",
+    "before": null,
+    "after": ["Three for the Festival", "Moon Song", "A Sack Full of Soul", "The Haunted Melody", "Blues for Alice", "We Free Kings"],
+    "sourceUrl": ["https://en.wikipedia.org/wiki/We_Free_Kings"],
+    "evidence": "Wikipedia track listing; openers plus the title track and Charlie Parker's 'Blues for Alice'."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "we-free-kings-rahsaan-roland-kirk",
+    "field": "albumDNA",
+    "before": "We Free Kings stands among Rahsaan Roland Kirk's most celebrated works, capturing the essential spirit of Hard Bop. We Free Kings remains a landmark of Hard Bop, cementing Rahsaan Roland Kirk's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Studio album by multi-instrumentalist Roland Kirk, recorded August 1961 and released by Mercury in January 1962. Kirk plays tenor saxophone, manzello, stritch, flute and siren, often several at once. The program mixes originals like the title track with the Charlie Parker line 'Blues for Alice'.",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/We_Free_Kings", "https://www.allmusic.com/album/we-free-kings-mw0000649599"],
+    "evidence": "Wikipedia: Mercury studio album, recorded 1961 / released Jan 1962; Kirk's multi-horn approach; tracklist includes title track and 'Blues for Alice'."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "we-free-kings-rahsaan-roland-kirk",
+    "field": "wikipedia",
+    "before": null,
+    "after": "https://en.wikipedia.org/wiki/We_Free_Kings",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/We_Free_Kings"],
+    "evidence": "Dedicated English Wikipedia article for the Roland Kirk album."
+  },
+
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "wayne-shorter-juju-wayne-shorter",
+    "field": "year",
+    "before": null,
+    "after": 1965,
+    "sourceUrl": ["https://en.wikipedia.org/wiki/JuJu_(album)"],
+    "evidence": "Wikipedia: recorded Aug 3 1964, released July 1965 by Blue Note; 'Released' field = July 1965."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "wayne-shorter-juju-wayne-shorter",
+    "field": "label",
+    "before": "Various",
+    "after": "Blue Note",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/JuJu_(album)"],
+    "evidence": "Wikipedia and Blue Note store: released on Blue Note Records."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "wayne-shorter-juju-wayne-shorter",
+    "field": "keyTracks",
+    "before": null,
+    "after": ["JuJu", "Deluge", "House of Jade", "Mahjong", "Yes or No", "Twelve More Bars to Go"],
+    "sourceUrl": ["https://en.wikipedia.org/wiki/JuJu_(album)"],
+    "evidence": "Wikipedia track listing: six Shorter originals."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "wayne-shorter-juju-wayne-shorter",
+    "field": "albumDNA",
+    "before": "Wayne Shorter: Juju stands among Wayne Shorter's most celebrated works, capturing the essential spirit of Hard Bop. Wayne Shorter: Juju remains a landmark of Hard Bop, cementing Wayne Shorter's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Saxophonist Wayne Shorter's second Blue Note album, recorded August 1964 and released in 1965. He is backed by the John Coltrane rhythm section of McCoy Tyner on piano, Reggie Workman on bass and Elvin Jones on drums. All six pieces are Shorter originals, including the title track and 'Yes or No'.",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/JuJu_(album)", "https://www.udiscovermusic.com/stories/wayne-shorter-juju-feature/"],
+    "evidence": "Wikipedia: Blue Note, recorded 1964 / released 1965; rhythm section Tyner/Workman/Jones (Coltrane's); six Shorter originals."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "wayne-shorter-juju-wayne-shorter",
+    "field": "wikipedia",
+    "before": null,
+    "after": "https://en.wikipedia.org/wiki/JuJu_(album)",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/JuJu_(album)"],
+    "evidence": "Dedicated English Wikipedia article for the Wayne Shorter album."
+  },
+
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "the-poll-winners-ride-again-barney-kessel",
+    "field": "year",
+    "before": null,
+    "after": 1958,
+    "sourceUrl": ["https://en.wikipedia.org/wiki/The_Poll_Winners_Ride_Again!"],
+    "evidence": "Wikipedia: recorded Aug 19 & 21 1958, released 1958 on Contemporary."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "the-poll-winners-ride-again-barney-kessel",
+    "field": "label",
+    "before": "Various",
+    "after": "Contemporary",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/The_Poll_Winners_Ride_Again!"],
+    "evidence": "Wikipedia: released on Contemporary (C3556/S7556)."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "the-poll-winners-ride-again-barney-kessel",
+    "field": "keyTracks",
+    "before": null,
+    "after": ["Be Deedle Dee Do", "Volare", "Spring Is Here", "The Surrey with the Fringe on Top", "Custard Puff", "Angel Eyes"],
+    "sourceUrl": ["https://en.wikipedia.org/wiki/The_Poll_Winners_Ride_Again!"],
+    "evidence": "Wikipedia track listing; opener 'Be Deedle Dee Do' plus notable standards and Kessel originals."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "the-poll-winners-ride-again-barney-kessel",
+    "field": "albumDNA",
+    "before": "The Poll Winners Ride Again! stands among Barney Kessel's most celebrated works, capturing the essential spirit of Cool Jazz. The Poll Winners Ride Again! remains a landmark of Cool Jazz, cementing Barney Kessel's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Second of the five Poll Winners albums by the trio of guitarist Barney Kessel, bassist Ray Brown and drummer Shelly Manne, named for their wins in jazz magazine readers' polls. Recorded August 1958 and released that year on Contemporary, it pairs standards such as 'Volare' and 'Angel Eyes' with Kessel originals.",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/The_Poll_Winners_Ride_Again!"],
+    "evidence": "Wikipedia: trio of Kessel/Brown/Manne, second of five, Contemporary, recorded and released 1958; tracklist includes 'Volare' and 'Angel Eyes'."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "the-poll-winners-ride-again-barney-kessel",
+    "field": "wikipedia",
+    "before": null,
+    "after": "https://en.wikipedia.org/wiki/The_Poll_Winners_Ride_Again!",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/The_Poll_Winners_Ride_Again!"],
+    "evidence": "Dedicated English Wikipedia article for the album."
+  },
+
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "solo-masterpieces-vol-1-art-tatum",
+    "field": "year",
+    "before": null,
+    "after": 1975,
+    "sourceUrl": ["https://www.discogs.com/release/2517766-Art-Tatum-The-Tatum-Solo-Masterpieces-Vol-1", "https://www.discogs.com/release/4460752-Art-Tatum-The-Tatum-Solo-Masterpieces-Vol-1"],
+    "evidence": "Discogs: original Pablo LP (catalog 2310-723) released 1975; multiple 1975 pressings listed."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "solo-masterpieces-vol-1-art-tatum",
+    "field": "label",
+    "before": "Various",
+    "after": "Pablo",
+    "sourceUrl": ["https://www.discogs.com/release/2517766-Art-Tatum-The-Tatum-Solo-Masterpieces-Vol-1"],
+    "evidence": "Discogs: released on Pablo Records (catalog 2310-723)."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "solo-masterpieces-vol-1-art-tatum",
+    "field": "keyTracks",
+    "before": null,
+    "after": ["Moonglow", "Love for Sale", "Body and Soul", "It's Only a Paper Moon", "Have You Met Miss Jones", "Willow Weep for Me"],
+    "sourceUrl": ["https://www.discogs.com/release/2517766-Art-Tatum-The-Tatum-Solo-Masterpieces-Vol-1"],
+    "evidence": "Discogs/Pablo tracklist of solo piano standards: Moonglow, Love for Sale, Body and Soul, It's Only a Paper Moon, Have You Met Miss Jones, Willow Weep for Me."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "solo-masterpieces-vol-1-art-tatum",
+    "field": "albumDNA",
+    "before": "Solo Masterpieces Vol. 1 stands among Art Tatum's most celebrated works, capturing the essential spirit of Swing. Solo Masterpieces Vol. 1 remains a landmark of Swing, cementing Art Tatum's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "First volume of Art Tatum's solo piano recordings made for Norman Granz between 1953 and 1955, issued on Pablo in 1975. Tatum plays standards including 'Body and Soul', 'Love for Sale' and 'Willow Weep for Me', showcasing the dense reharmonizations and rapid runs that defined his solo style.",
+    "sourceUrl": ["https://www.discogs.com/release/2517766-Art-Tatum-The-Tatum-Solo-Masterpieces-Vol-1", "https://en.wikipedia.org/wiki/Art_Tatum_discography"],
+    "evidence": "Discogs: solo piano sessions for Granz, recorded 1953-55, Pablo 1975; standards 'Body and Soul', 'Love for Sale', 'Willow Weep for Me'."
+  },
+
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "song-of-the-wanderer-kid-ory",
+    "field": "year",
+    "before": null,
+    "after": 1958,
+    "sourceUrl": ["https://www.jazzdisco.org/kid-ory/catalog/album-index/"],
+    "evidence": "jazzdisco.org catalog: 'Song of the Wanderer', Verve MGV-1014, released 1958 (recorded 1957)."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "song-of-the-wanderer-kid-ory",
+    "field": "label",
+    "before": "Various",
+    "after": "Verve",
+    "sourceUrl": ["https://www.jazzdisco.org/kid-ory/catalog/album-index/"],
+    "evidence": "jazzdisco.org catalog: released on Verve, catalog MGV-1014."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "song-of-the-wanderer-kid-ory",
+    "field": "albumDNA",
+    "before": "Song of the Wanderer stands among Kid Ory's most celebrated works, capturing the essential spirit of Early Jazz. Song of the Wanderer remains a landmark of Early Jazz, cementing Kid Ory's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "New Orleans trombonist Kid Ory recorded this set for Norman Granz's Verve label in 1957, released in 1958 (Verve MGV-1014). It captures his later-career band, with Marty Marsala on trumpet, Darnell Howard on clarinet and Cedric Haywood on piano, playing traditional jazz in a relaxed style.",
+    "sourceUrl": ["https://www.jazzdisco.org/kid-ory/catalog/album-index/"],
+    "evidence": "jazzdisco.org: Verve MGV-1014, recorded 1957 / released 1958; band with Marsala, Howard, Haywood; later-career traditional jazz."
+  },
+
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "wild-cat-blues-clarence-williams",
+    "field": "year",
+    "before": null,
+    "after": 1923,
+    "sourceUrl": ["https://americanhistory.si.edu/collections/object/nmah_1061240", "https://en.wikipedia.org/wiki/1923_in_jazz"],
+    "evidence": "Smithsonian / LoC: recorded NYC July 30 1923, released November 1923 on OKeh."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "wild-cat-blues-clarence-williams",
+    "field": "label",
+    "before": "Various",
+    "after": "OKeh",
+    "sourceUrl": ["https://americanhistory.si.edu/collections/object/nmah_1061240"],
+    "evidence": "Smithsonian NMAH and RateYourMusic: released on OKeh, catalog 4925."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "wild-cat-blues-clarence-williams",
+    "field": "keyTracks",
+    "before": null,
+    "after": ["Wild Cat Blues", "Kansas City Man Blues"],
+    "sourceUrl": ["https://americanhistory.si.edu/collections/object/nmah_1061240"],
+    "evidence": "OKeh 4925 is a 78rpm single; the two sides are 'Wild Cat Blues' and 'Kansas City Man Blues'."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "wild-cat-blues-clarence-williams",
+    "field": "albumDNA",
+    "before": "Wild Cat Blues stands among Clarence Williams's most celebrated works, capturing the essential spirit of Early Jazz. Wild Cat Blues remains a landmark of Early Jazz, cementing Clarence Williams's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "A 1923 OKeh recording by Clarence Williams' Blue Five, written by Williams and Fats Waller. It features one of Sidney Bechet's earliest recorded solos on soprano saxophone and is cited as an early example of a New Orleans group spotlighting a soloist rather than collective ensemble play. Added to the Library of Congress National Recording Registry.",
+    "sourceUrl": ["https://www.loc.gov/static/programs/national-recording-preservation-board/documents/WildCatBlues.pdf", "https://americanhistory.si.edu/collections/object/nmah_1061240"],
+    "evidence": "LoC essay: 1923 OKeh recording by Clarence Williams' Blue Five, Waller/Williams composition, early featured Bechet solo, National Recording Registry."
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "we-free-kings-rahsaan-roland-kirk",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "We Free Kings",
+      "artist": "Rahsaan Roland Kirk",
+      "year": null,
+      "label": "Various",
+      "albumDNA": "We Free Kings stands among Rahsaan Roland Kirk's most celebrated works, capturing the essential spirit of Hard Bop. We Free Kings remains a landmark of Hard Bop, cementing Rahsaan Roland Kirk's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": null,
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "wayne-shorter-juju-wayne-shorter",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "Wayne Shorter: Juju",
+      "artist": "Wayne Shorter",
+      "year": null,
+      "label": "Various",
+      "albumDNA": "Wayne Shorter: Juju stands among Wayne Shorter's most celebrated works, capturing the essential spirit of Hard Bop. Wayne Shorter: Juju remains a landmark of Hard Bop, cementing Wayne Shorter's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": null,
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "the-poll-winners-ride-again-barney-kessel",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "The Poll Winners Ride Again!",
+      "artist": "Barney Kessel",
+      "year": null,
+      "label": "Various",
+      "albumDNA": "The Poll Winners Ride Again! stands among Barney Kessel's most celebrated works, capturing the essential spirit of Cool Jazz. The Poll Winners Ride Again! remains a landmark of Cool Jazz, cementing Barney Kessel's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": null,
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "a-smooth-one-woody-herman",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "A Smooth One",
+      "artist": "Woody Herman",
+      "year": null,
+      "label": "Various",
+      "albumDNA": "A Smooth One stands among Woody Herman's most celebrated works, capturing the essential spirit of Swing. A Smooth One remains a landmark of Swing, cementing Woody Herman's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": null,
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "song-of-the-wanderer-kid-ory",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "Song of the Wanderer",
+      "artist": "Kid Ory",
+      "year": null,
+      "label": "Various",
+      "albumDNA": "Song of the Wanderer stands among Kid Ory's most celebrated works, capturing the essential spirit of Early Jazz. Song of the Wanderer remains a landmark of Early Jazz, cementing Kid Ory's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": null,
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "wild-cat-blues-clarence-williams",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "Wild Cat Blues",
+      "artist": "Clarence Williams",
+      "year": null,
+      "label": "Various",
+      "albumDNA": "Wild Cat Blues stands among Clarence Williams's most celebrated works, capturing the essential spirit of Early Jazz. Wild Cat Blues remains a landmark of Early Jazz, cementing Clarence Williams's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": null,
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "solo-masterpieces-vol-1-art-tatum",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "Solo Masterpieces Vol. 1",
+      "artist": "Art Tatum",
+      "year": null,
+      "label": "Various",
+      "albumDNA": "Solo Masterpieces Vol. 1 stands among Art Tatum's most celebrated works, capturing the essential spirit of Swing. Solo Masterpieces Vol. 1 remains a landmark of Swing, cementing Art Tatum's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": null,
+      "wikipedia": null
+    }
+  }
+]

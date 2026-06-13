@@ -1,0 +1,1294 @@
+[
+  {
+    "id": "how-time-passes",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Trumpeter Don Ellis's hard bop sensibility is on display in this 1961 session",
+    "contradictingQuote": "How Time Passes is the debut album by trumpeter Don Ellis recorded in 1960 and released on the Candid label.",
+    "skepticDecision": "'Session' in context means the recording session, and the extract (and the prose's own first sentence) says it was recorded in 1960; 1961 is the release year. Calling it 'this 1961 session' contradicts the stated recording year.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Trumpeter Don Ellis's hard bop sensibility is on display in this 1961 session",
+        "problem": "Calls the session 1961; the recording was made in 1960 (1961 is the release year). The prose's own first sentence states this correctly, so the appended template sentence contradicts both the evidence and itself",
+        "evidenceQuote": "How Time Passes is the debut album by trumpeter Don Ellis recorded in 1960 and released on the Candid label.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Entity solid: MB embedded MBID (Candid CJS 9004, 1961) and stored wiki page agree; all five keyTracks match; first prose sentence is verbatim the wiki lede; year field 1961 matches the release. The 'hard bop sensibility ... document of the hard bop era' framing sits oddly against the evidence (Yanow: 'stretching the boundaries of bop-based jazz and experimenting a bit with time and tempo') but genre labels are editorial -- only the '1961 session' date claim is flagged.",
+    "ours": {
+      "title": "... How Time Passes...",
+      "artist": "Don Ellis",
+      "year": 1961,
+      "label": "Candid",
+      "albumDNA": "How Time Passes is the debut album by trumpeter Don Ellis recorded in 1960 and released on the Candid label. Trumpeter Don Ellis's hard bop sensibility is on display in this 1961 session, a document of the hard bop era.",
+      "keyTracks": [
+        "How Time Passes",
+        "Sallie",
+        "A Simplex One",
+        "Waste",
+        "Improvisational Suite #1"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "58b89421-a605-436d-a05f-fa77415a7edb",
+          "title": "How Time Passes",
+          "date": "1961",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Don Ellis"
+          ],
+          "labels": [
+            {
+              "name": "Candid",
+              "catalogNumber": "CJS 9004"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "378acdd4-6a08-3dd3-b7e6-995e5a459075",
+            "title": "... How Time Passes...",
+            "firstReleaseDate": "1961",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "How Time Passes",
+            "Sallie",
+            "A Simplex One",
+            "Waste",
+            "Improvisational Suite #1"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/How_Time_Passes",
+        "page": {
+          "requestedTitle": "How Time Passes",
+          "resolvedTitle": "How Time Passes",
+          "shortDescription": "1960 studio album by Don Ellis",
+          "extract": "How Time Passes is the debut album by trumpeter Don Ellis recorded in 1960 and released on the Candid label. \n\n\n== Reception ==\n\nScott Yanow of Allmusic states, \"Trumpeter Don Ellis' initial recording as a leader (and first of four small group dates from the 1960-1962 period) found him stretching the boundaries of bop-based jazz and experimenting a bit with time and tempo... Although these musical experiments failed to be influential (Ellis himself went in a different direction a few years later), the unpredictable music is still quite interesting to hear\". The Penguin Guide to Jazz award the album 3 stars.\n\n\n== Track listing ==\nAll compositions by Don Ellis except as indicated\n\n\"How Time Passes\" - 6:30\n\"Sallie\" - 4:38\n\"A Simplex One\" - 4:17\n\"Waste\" (Jaki Byard) - 8:15\n\"Improvisational Suite #1\" - 22:18\n\n\n== Personnel ==\nDon Ellis - trumpet\nJaki Byard - piano, alto saxophone\nRon Carter - bass\nCharlie Persip - drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "in-the-tradition",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Blythe's second Columbia album reinterprets jazz standards and originals",
+    "contradictingQuote": "His first album for the Columbia label, it was recorded in New York City in 1978.",
+    "skepticDecision": "Wikipedia states verbatim it was his FIRST Columbia album, directly contradicting ours' 'second Columbia album'. Personnel and track attributions all check out; the single contradiction is this ordinal claim.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Blythe's second Columbia album reinterprets jazz standards and originals",
+        "problem": "Our DNA calls this Blythe's SECOND Columbia album, but the entity-matched wiki states it was his FIRST Columbia album.",
+        "evidenceQuote": "His first album for the Columbia label, it was recorded in New York City in 1978.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Right album (MB sim 1.0 and wiki both Arthur Blythe, In the Tradition, Columbia JC 36300, 1979); all 4 keyTracks match MB. Personnel claim 'Fred Hopkins on bass and Steve McCall on drums' matches wiki personnel exactly. Track attributions ('In a Sentimental Mood', Fats Waller's 'Jitterbug Waltz') are correct per wiki. The single contradiction: DNA says 'second Columbia album'; wiki says it is his FIRST Columbia album -> factual_error. (Real-world note: the sibling item 'lenox-avenue-breakdown' calls THAT one his 'major label debut'; the two cannot both be his debut/first -- the evidence here resolves In the Tradition as the first Columbia album. Flag for repair.)",
+    "ours": {
+      "title": "In the Tradition",
+      "artist": "Arthur Blythe",
+      "year": 1979,
+      "label": "Columbia",
+      "albumDNA": "Blythe's second Columbia album reinterprets jazz standards and originals with his signature blend of free jazz intensity and deep tradition. With Fred Hopkins on bass and Steve McCall on drums, Blythe tears through 'In a Sentimental Mood' and Fats Waller's 'Jitterbug Waltz' with fierce, loving energy. Demonstrated that the avant-garde and tradition need not be opposed. Blythe's ability to play 'inside' and 'outside' simultaneously made him one of the most important saxophonists of the late 1970s.",
+      "keyTracks": [
+        "In a Sentimental Mood",
+        "Jitterbug Waltz",
+        "Naima",
+        "Break Tune"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "d642be90-8bad-4959-a090-914f209220a2",
+          "title": "In the Tradition",
+          "date": "1979",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Arthur Blythe"
+          ],
+          "labels": [
+            {
+              "name": "Columbia",
+              "catalogNumber": "JC 36300"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "bc278c12-d3f4-4a75-b6e8-d7d1e539f2a8",
+            "title": "In the Tradition",
+            "firstReleaseDate": "1979",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Jitterbug Waltz",
+            "In a Sentimental Mood",
+            "Break Tune",
+            "Caravan",
+            "Hip Dripper",
+            "Naima"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/In_the_Tradition_(Arthur_Blythe_album)",
+        "page": {
+          "requestedTitle": "In the Tradition (Arthur Blythe album)",
+          "resolvedTitle": "In the Tradition (Arthur Blythe album)",
+          "shortDescription": "1979 studio album by Arthur Blythe",
+          "extract": "In the Tradition is an album by the American jazz saxophonist Arthur Blythe. His first album for the Columbia label, it was recorded in New York City in 1978.\n\n\n== Critical reception ==\n\nThe Globe and Mail wrote: \"Everyone plays well in showcasing the leader's alto sax, so richly cheesy that it's almost an exaggeration of the instrument. But the leader himself doesn't bring anything particularly distinctive to this music.\"\nThe AllMusic review by Scott Yanow states: \"The instrumentation of his quartet is conventional but the musicianship is exceptionally high\".\n\n\n== Track listing ==\nAll compositions by Arthur Blythe except as indicated\n\"Jitterbug Waltz\" (Fats Waller) - 4:34\n\"In a Sentimental Mood\" (Duke Ellington) - 7:45\n\"Break Tune\" - 3:03\n\"Caravan\" (Juan Tizol) - 5:22\n\"Hip Dripper\" - 4:35\n\"Naima\" (John Coltrane) - 6:44\nRecorded at the Brook in New York City on February 26, 1977.\n\n\n== Personnel ==\nArthur Blythe - alto saxophone\nStanley Cowell - piano\nFred Hopkins - bass\nSteve McCall - drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "in-their-own-sweet-way",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "In Their Own Sweet Way is a 1998 studio album by pianist Dave Brubeck and his quintet.",
+    "contradictingQuote": "\"date\": \"1997\"",
+    "skepticDecision": "MB (a clean, internally consistent source) dates the album 1997, matching our own year field and the Wikipedia short-description; the prose's '1998 studio album' is contradicted. The Wikipedia body's stray '1998' is its own internal error, not vindication.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "In Their Own Sweet Way is a 1998 studio album by pianist Dave Brubeck and his quintet.",
+        "problem": "Prose dates the album to 1998, but the MB release-group firstReleaseDate and the wiki short-description both say 1997 (matching the item's own year field). The '1998' is inherited from an internal error in the Wikipedia extract body, which conflicts with its own short-description.",
+        "evidenceQuote": "shortDescription: \"1997 studio album by Dave Brubeck\"",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Right entity beyond doubt (MB sim 1.0; stored wiki URL correct; all 5 keyTracks on the tracklist; the 'four sons' detail is confirmed by the wiki Personnel list). Low-confidence factual_error: only the year-in-prose is wrong (says 1998; MB release-group and wiki short-description say 1997, as does the item's year field). The erroneous '1998' is copied verbatim from the Wikipedia extract body, which contradicts its own short-description — a Wikipedia typo reproduced in our prose. A repair-writer should change 'a 1998 studio album' to 1997.",
+    "ours": {
+      "title": "In Their Own Sweet Way",
+      "artist": "Dave Brubeck",
+      "year": 1997,
+      "label": "Telarc Jazz",
+      "albumDNA": "In Their Own Sweet Way is a 1998 studio album by pianist Dave Brubeck and his quintet. Brubeck was accompanied by his four sons on a recording for the first time.",
+      "keyTracks": [
+        "In Your Own Sweet Way",
+        "Bifocal Blues",
+        "Sermon on the Mount",
+        "Michael, My Second Son",
+        "Ode to a Cowboy"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "06a33d8e-09c4-485c-87d0-3cf6b44d675c",
+          "title": "In Their Own Sweet Way",
+          "date": "1997",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Dave Brubeck"
+          ],
+          "labels": [
+            {
+              "name": "Telarc Jazz",
+              "catalogNumber": "CD-83355"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "162240d3-25a7-3f56-a57a-bafdfc4ac044",
+            "title": "In Their Own Sweet Way",
+            "firstReleaseDate": "1997",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "In Your Own Sweet Way",
+            "Bifocal Blues",
+            "Sermon on the Mount",
+            "Michael, My Second Son",
+            "Ode to a Cowboy",
+            "Dave 'n Darius",
+            "We Will All Remember Paul",
+            "Sixth Sense",
+            "My One Bad Habit",
+            "Sweet Georgia Brown"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/In_Their_Own_Sweet_Way",
+        "page": {
+          "requestedTitle": "In Their Own Sweet Way",
+          "resolvedTitle": "In Their Own Sweet Way",
+          "shortDescription": "1997 studio album by Dave Brubeck",
+          "extract": "In Their Own Sweet Way is a 1998 studio album by pianist Dave Brubeck and his quintet. Brubeck was accompanied by his four sons on a recording for the first time.\nThe album consists of Brubeck's own compositions, with the exception of the final track, \"Sweet Georigia Brown\". \"We Will All Remember Paul\" and \"My One Bad Habit\" were recorded as tributes to Paul Desmond and Ella Fitzgerald respectively. The composition \"Bifocal Blues\" was originally called \"Bitonal Blues\" and humorously rechristened in honour of Brubeck's advanced age.\n\n\n== Reception ==\n\nRichard S. Ginell reviewed the album for Allmusic and wrote that the album \"As do most of Dave's Telarc albums, this one has an autumnal tone as the mellowing septuagenarian pianist plays the wise old master, playing in a more lyrical, reflective manner, revisiting past work and contributing a few new tunes. When Dave and Darius play together, Dave still remains the more immediately striking personality while Darius leans more toward mainstream jazz styles. ...Dave Brubeck's Indian summer continues to be an unusually fruitful one\".\nGinell praised Darius Brubeck on \"Dave 'n Darius\", a duet with his father, and highlighted Dan Brubeck's \"...cooking New Orleans funk (in 7/4 time!)\" on \"Sweet Georgia Brown.\"\n\n\n== Track listing ==\nAll compositions by Dave Brubeck unless otherwise noted\n\"In Your Own Sweet Way\" – 6:34\n\"Bifocal Blues\" – 6:49\n\"Sermon on the Mount\" – 7:53\n\"Michael, My Second Son\" – 4:21\n\"Ode to a Cowboy\" – 7:58\n\"Dave 'N Darius\" – 6:48\n\"We Will Remember Paul\" – 5:57\n\"Sixth Sense\" – 7:32\n\"My One Bad Habit\" (Dave Brubeck, Iola Brubeck)  – 8:26\n\"Sweet Georgia Brown\" (Ben Bernie, Kenneth Casey, Maceo Pinkard)  – 6:46\n\n\n== Personnel ==\nDave Brubeck - piano\nMatthew Brubeck - cello\nDarius Brubeck - electric piano\nChris Brubeck - electric bass, bass trombone\nDan Brubeck - drums\nProduction\nBruce Leek, Jack Renner - engineer\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "inside-hi-fi-lee-konitz",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 1957, Inside Hi-Fi",
+    "contradictingQuote": "\"date\": \"1956\"",
+    "skepticDecision": "Upheld narrowly: MB dates both the release and the release group to 1956; a 1956 release cannot have been recorded in 1957 (recording precedes release), so the year claim is contradicted by the evidence.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 1957",
+        "problem": "Evidence dates the release to 1956 (both release date and release-group first-release date); a 1957 recording is inconsistent with a 1956 release.",
+        "evidenceQuote": "date: 1956",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "MB search (sim 1.0): Lee Konitz, 'Inside Hi-Fi', 1956, Atlantic — entity matches; all 6 keyTracks match. BORDERLINE: ours says 1957, evidence says 1956 (only one year off, both in the correct era). Flagged factual_error because firstReleaseDate 1956 contradicts a 1957 recording, but a human reviewer may treat this as a trivial 1-year discrepancy rather than the disambiguation disease. Label 'Various' placeholder; MB shows Atlantic.",
+    "ours": {
+      "title": "Inside Hi-Fi",
+      "artist": "Lee Konitz",
+      "year": 1957,
+      "label": "Various",
+      "albumDNA": "Recorded in 1957, Inside Hi-Fi showcases Lee Konitz at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Inside Hi-Fi remains a landmark of Cool Jazz, cementing Lee Konitz's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Kary's Trance",
+        "Everything Happens to Me",
+        "Sweet and Lovely",
+        "Cork 'n' Bib",
+        "All of Me",
+        "Star Eyes"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "2c90ef6f-040b-47f6-b3f9-0b66a291f1cb",
+          "title": "Inside Hi-Fi",
+          "date": "1956",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Lee Konitz"
+          ],
+          "labels": [
+            {
+              "name": "Atlantic",
+              "catalogNumber": "1258"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "6c8973d4-d0d8-3814-9b15-3158d42c9722",
+            "title": "Inside Hi-Fi",
+            "firstReleaseDate": "1956",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Kary’s Trance",
+            "Everything Happens to Me",
+            "Sweet and Lovely",
+            "Cork ’n’ Bib",
+            "All of Me",
+            "Star Eyes",
+            "Nesuhi’s Instant",
+            "(Back Home Again in) Indiana"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "it-could-happen-to-you-chet-baker",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 2010, It Could Happen to You showcases Chet Baker at the height of their creative powers",
+    "contradictingQuote": "In 2010, it was remastered and reissued on CD by Original Jazz Classics",
+    "skepticDecision": "Wikipedia states 2010 was the remaster/reissue and the album is a 1958 release, so 'Recorded in 2010' is contradicted as a recording-year claim.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 2010, It Could Happen to You",
+        "problem": "2010 is the OJC CD reissue year; the album is from 1958",
+        "evidenceQuote": "In 2010, it was remastered and reissued on CD by Original Jazz Classics with two previously unissued takes.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Entity confirmed (MB similarity 1.0 + matching Wikipedia '(Chet Baker Sings) It Could Happen to You', 1958 studio album). Wikipedia states the 2010 date is a reissue, not the recording; MB firstReleaseDate is 1958 — contradicting albumDNA 'Recorded in 2010'. All 6 keyTracks match the MB tracklist.",
+    "ours": {
+      "title": "It Could Happen to You",
+      "artist": "Chet Baker",
+      "year": 2010,
+      "label": "Riverside",
+      "albumDNA": "Recorded in 2010, It Could Happen to You showcases Chet Baker at the height of their creative powers, offering one of the finest expressions of Cool Jazz. It Could Happen to You remains a landmark of Cool Jazz, cementing Chet Baker's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Do It the Hard Way",
+        "I’m Old Fashioned",
+        "You’re Driving Me Crazy",
+        "It Could Happen to You",
+        "My Heart Stood Still",
+        "The More I See You"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "2e3c18a2-94fb-40ec-a0a4-12eec793dead",
+          "title": "It Could Happen to You: Chet Baker Sings",
+          "date": "1958",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Chet Baker"
+          ],
+          "labels": [
+            {
+              "name": "Riverside",
+              "catalogNumber": "RLP-12-278"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "e248d5fe-fd96-3f46-9075-3cc01ecccee2",
+            "title": "It Could Happen to You: Chet Baker Sings",
+            "firstReleaseDate": "1958",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Do It the Hard Way",
+            "I’m Old Fashioned",
+            "You’re Driving Me Crazy",
+            "It Could Happen to You",
+            "My Heart Stood Still",
+            "The More I See You",
+            "Everything Happens to Me",
+            "Dancing on the Ceiling",
+            "How Long Has This Been Going On?",
+            "Old Devil Moon"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "It could happen to you (album)",
+          "resolvedTitle": "(Chet Baker Sings) It Could Happen to You",
+          "shortDescription": "1958 studio album by Chet Baker",
+          "extract": "(Chet Baker Sings) It Could Happen to You is an album by jazz trumpeter and vocalist Chet Baker. It follows a formula similar to two other Baker albums, Chet Baker Sings (1954) and Chet Baker Sings and Plays with Bud Shank, Russ Freeman & Strings (recorded in 1955, released in 1964) in which he sings traditional pop standards in a jazzy fashion. Unlike the aforementioned records, on It Could Happen to You, on a few tracks, Baker plays no trumpet whatsoever, opting to scat in place of an instrumental solo.\nIn 2010, it was remastered and reissued on CD by Original Jazz Classics with two previously unissued takes.\n\n\n== Reception ==\n\nThe Allmusic review by Lindsay Planer awarded the album 4 stars and states:\n\nOne immediate distinction between these vocal sides and those recorded earlier in the decade for Pacific Jazz is the lissome quality of Baker's playing and, most notably, his increased capacity as a vocalist. The brilliant song selection certainly doesn't hurt either. This is an essential title in Chet Baker's 30-plus year canon\n\n\n== Track listing ==\n\n\n=== 1987 CD reissue bonus tracks ===\n\n\n=== 2010 CD reissue ===\n\"Do It the Hard Way\" – 3:03\n\"I'm Old Fashioned\" – 5:06\n\"You're Driving Me Crazy\" – 2:56\n\"It Could Happen to You\" – 2:53\n\"My Heart Stood Still\" – 3:28\n\"The More I See You\" – 3:06\n\"Everything Happens to Me\" – 5:05\n\"Dancing on the Ceiling\" – 3:09\n\"How Long Has This Been Going On?\" – 4:10\n\"Old Devil Moon\" – 2:58\n\"While My Lady Sleeps\" [Take 10] – 4:22\n\"You Make Me Feel So Young\" [Take 5] – 3:41\n\"The More I See You\" [Take 8] – 2:51\n\"Everything Happens to Me\" [Take 2] – 4:51\n\n\n== Personnel ==\nChet Baker – vocals, trumpet\nKenny Drew – piano\nGeorge Morrow (#1–2, 5, 7–8, 14), Sam Jones (#3–4, 6, 9–13) – bass\nPhilly Joe Jones (#1–2, 5–8, 10–14), Dannie Richmond (#3–4, 9) – drums\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "(Chet Baker Sings) It Could Happen to You",
+            "shortDescription": "1958 studio album by Chet Baker",
+            "extractHead": "(Chet Baker Sings) It Could Happen to You is an album by jazz trumpeter and vocalist Chet Baker. It follows a formula similar to two other Baker albums, Chet Baker Sings (1954) and Chet Baker Sings and Plays with Bud Shank, Russ Freeman & Strings (recorded in 1955, released in 1964) in which he sings traditional pop standards in a jazzy fashion. Unlike the aforementioned records, on It Could Happen to You, on a few tracks, Baker plays no trumpet whatsoever, opting to scat in place of an instrume"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "jazz-giant-benny-carter",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 1987, Jazz Giant",
+    "contradictingQuote": "recorded in 1957 and 1958 and released by Contemporary Records",
+    "skepticDecision": "Upheld: the entity-matched Wikipedia page states it was recorded in 1957 and 1958, directly contradicting a 1987 recording; the defensible field-year does not rescue the 'Recorded in 1987' prose.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 1987, Jazz Giant showcases Benny Carter at the height of their creative powers",
+        "problem": "Recording year is wrong: the album was recorded in 1957-58. 1987 is the Original Jazz Classics CD reissue date (MB release date 1987, cat OJCCD-167-2; releaseGroup first release 1958).",
+        "evidenceQuote": "Jazz Giant is an album by saxophonist Benny Carter, recorded in 1957 and 1958 and released by Contemporary Records.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Entity confirmed by Wikipedia ('Jazz Giant (Benny Carter album)') and MB (embedded_mbid). ours.year 1987 is itself a valid reissue year (matches MB release date 1987), so the year FIELD is defensible; the albumDNA verb 'Recorded in 1987' is the error -> a repair could say 'Released in 1958 / reissued 1987'. All 6 keyTracks match (MB has one extra track 'Blues My Naughty Sweety Gives to Me'). Wikipedia gives genre as 'beyond swing or bop'; ours 'Swing' is editorial.",
+    "ours": {
+      "title": "Jazz Giant",
+      "artist": "Benny Carter",
+      "year": 1987,
+      "label": "Various",
+      "albumDNA": "Recorded in 1987, Jazz Giant showcases Benny Carter at the height of their creative powers, offering one of the finest expressions of Swing. Jazz Giant remains a landmark of Swing, cementing Benny Carter's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Old Fashioned Love",
+        "I'm Coming to Virginia",
+        "A Walkin' Thing",
+        "Blue Lou",
+        "Ain't She Sweet",
+        "How Can You Lose"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "59451ed2-3b84-4d06-bbd8-5c35c1ace2ab",
+          "title": "Jazz Giant",
+          "date": "1987",
+          "country": "XE",
+          "status": "Official",
+          "artists": [
+            "Benny Carter"
+          ],
+          "labels": [
+            {
+              "name": "Original Jazz Classics",
+              "catalogNumber": "OJCCD-167-2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0b0bcd45-ef72-3d17-bb82-885bbaff231e",
+            "title": "Jazz Giant",
+            "firstReleaseDate": "1958",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Old Fashioned Love",
+            "I'm Coming to Virginia",
+            "A Walkin' Thing",
+            "Blue Lou",
+            "Ain't She Sweet",
+            "How Can You Lose",
+            "Blues My Naughty Sweety Gives to Me"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Jazz Giant (Benny Carter album)",
+          "resolvedTitle": "Jazz Giant (Benny Carter album)",
+          "shortDescription": "1958 studio album by Benny Carter",
+          "extract": "Jazz Giant is an album by saxophonist Benny Carter, recorded in 1957 and 1958 and released by Contemporary Records.\n\n\n== Reception ==\n\nAt AllMusic, Scott Yanow called the album a \"particularly strong septet session\" and stated, \"This timeless music is beyond the simple categories of 'swing' or 'bop' and should just be called 'classic.'\" The Penguin Guide to Jazz wrote that the album \"is a terrific small-group record, full of imagination and invention, and the interchanges with Webster are classic\".\n\n\n== Track listing ==\n\"Old Fashioned Love\" (James P. Johnson, Cecil Mack) - 7:51\n\"I'm Coming Virginia\" (Will Marion Cook, Donald Heywood) - 5:48\n\"A Walkin' Thing\" (Carter) - 6:00\n\"Blue Lou\" (Irving Mills, Edgar Sampson) - 4:58\n\"Ain't She Sweet\" (Milton Ager, Jack Yellen) - 3:40\n\"How Can You Lose\" (Carter) - 6:13\n\"Blues My Naughty Sweetie Gives to Me\" (Charles McCarron, Russ Morgan, Arthur Swanstrom) - 4:39\n\n\n== Personnel ==\nBenny Carter – alto saxophone, trumpet, arrangements\nFrank Rosolino – trombone (tracks 1–4 & 6)\nBen Webster – tenor saxophone (tracks 1–4 & 6)\nAndré Previn (tracks 1 & 4–7) – piano\nJimmy Rowles (tracks 2 & 3) – piano\nBarney Kessel – guitar\nLeroy Vinnegar – double bass\nShelly Manne – drums\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Jazz Giant (Benny Carter album)",
+            "shortDescription": "1958 studio album by Benny Carter",
+            "extractHead": "Jazz Giant is an album by saxophonist Benny Carter, recorded in 1957 and 1958 and released by Contemporary Records.\n\n\n== Reception ==\n\nAt AllMusic, Scott Yanow called the album a \"particularly strong septet session\" and stated, \"This timeless music is beyond the simple categories of 'swing' or 'bop' and should just be called 'classic.'\" The Penguin Guide to Jazz wrote that the album \"is a terrific small-group record, full of imagination and invention, and the interchanges with Webster are classi"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "jazz-pictures-at-an-exibition",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "drummer Kenny Clarke leads a hard bop session recorded for Philips in 1961",
+    "contradictingQuote": "\"Pim Jacobs\",\n            \"Rita Reys\",\n            \"Kenny Clarke\"",
+    "skepticDecision": "The embedded-MBID artist credit (authoritative) bills Pim Jacobs first and Rita Reys second, with Kenny Clarke only third; nothing in the evidence supports Clarke as leader, and a date 'led by' someone is normally credited to that someone. The sole-Clarke artist field and 'Clarke leads' prose are contradicted by the billing order.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "drummer Kenny Clarke leads a hard bop session recorded for Philips in 1961",
+        "problem": "Presents Clarke as the leader; the authoritative artist credit lists Pim Jacobs first and Rita Reys second, with Clarke third -- nothing in the evidence supports Clarke as leader",
+        "evidenceQuote": "artists: [\"Pim Jacobs\", \"Rita Reys\", \"Kenny Clarke\"]",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Embedded-MBID release is the same album as ours (same sic spelling 'Exibition', Philips, release group first release 1961; the fetched pressing is a 1989 Japan reissue) and all five keyTracks match the tracklist. But the credit makes this a Pim Jacobs / Rita Reys date with Clarke as the third-billed name; our artist field and 'Clarke leads' sentence overstate his role. Background knowledge, not citable: Rita Reys was a vocalist and Pim Jacobs a pianist, which would make 'hard bop session' framing doubly questionable -- pack evidence cannot confirm, so genre framing stays unflagged. Year and label fields are consistent with the evidence.",
+    "ours": {
+      "title": "Jazz Pictures at an Exibition",
+      "artist": "Kenny Clarke",
+      "year": 1961,
+      "label": "Philips",
+      "albumDNA": "On Jazz Pictures at an Exibition, drummer Kenny Clarke leads a hard bop session recorded for Philips in 1961. The date includes \"I'm Gonna Sit Right Down and Write Myself a Letter\" and \"Autumn Leaves\".",
+      "keyTracks": [
+        "I'm Gonna Sit Right Down and Write Myself a Letter",
+        "Autumn Leaves",
+        "Cherokee",
+        "Poor Butterfly",
+        "Can't We Be Friends"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "f36d7674-a2c1-4a6d-ac89-1a4720861040",
+          "title": "Jazz Pictures at an Exibition",
+          "date": "1989",
+          "country": "JP",
+          "status": "Official",
+          "artists": [
+            "Pim Jacobs",
+            "Rita Reys",
+            "Kenny Clarke"
+          ],
+          "labels": [
+            {
+              "name": "Philips",
+              "catalogNumber": "EJD-1008"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0f39f48a-229f-4cd9-9e7d-c42ddb0fae22",
+            "title": "Jazz Pictures at an Exibition",
+            "firstReleaseDate": "1961",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "I'm Gonna Sit Right Down and Write Myself a Letter",
+            "Autumn Leaves",
+            "Cherokee",
+            "Poor Butterfly",
+            "Can't We Be Friends",
+            "I Get a Kick Out of You",
+            "I Remember Clifford",
+            "Tangerine",
+            "Speak Low",
+            "What's New"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "joe-pass-at-the-montreux-jazz-festival-joe-pass",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 1997, Joe Pass",
+    "contradictingQuote": "Joe Pass at the Montreux Jazz Festival 1975",
+    "skepticDecision": "Embedded-MBID release is a Live album literally titled 'Joe Pass at the Montreux Jazz Festival 1975' with release-group first release 1975; the 1997-05-16 release is the OJC reissue and all six keyTracks match. A 1975 live recording cannot be 'Recorded in 1997' -> factual_error on the year.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 1997, Joe Pass at the Montreux Jazz Festival",
+        "problem": "Year is wrong; this is a 1975 Montreux live recording (MB title literally 'Joe Pass at the Montreux Jazz Festival 1975'; first release 1975). The 1997-05-16 MB release is a reissue.",
+        "evidenceQuote": "Joe Pass at the Montreux Jazz Festival 1975",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "MB embedded_mbid: Joe Pass, Live, first release 1975; matched release 1997-05-16 is the OJC CD reissue. All 6 keyTracks match the MB tracklist. No Wikipedia page. Label 'Various' placeholder; MB shows Original Jazz Classics. Year ('Recorded in 1997') reflects the reissue date, not 1975.",
+    "ours": {
+      "title": "Joe Pass at the Montreux Jazz Festival",
+      "artist": "Joe Pass",
+      "year": 1975,
+      "label": "Various",
+      "albumDNA": "Recorded in 1997, Joe Pass at the Montreux Jazz Festival showcases Joe Pass at the height of their creative powers, offering one of the finest expressions of Bebop. Joe Pass at the Montreux Jazz Festival remains a landmark of Bebop, cementing Joe Pass's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "You Are the Sunshine of My Life",
+        "The Very Thought of You",
+        "Nobs",
+        "Li'l Darlin'",
+        "Blues for Nina",
+        "How Long Has This Been Going On?"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "84817565-77b2-4a99-8deb-d62f7a615a6f",
+          "title": "Joe Pass at the Montreux Jazz Festival 1975",
+          "date": "1997-05-16",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Joe Pass"
+          ],
+          "labels": [
+            {
+              "name": "Original Jazz Classics",
+              "catalogNumber": "OJCCD-934-25"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "75790731-24a8-36a8-93b5-c3b7da3eee81",
+            "title": "Joe Pass at the Montreux Jazz Festival 1975",
+            "firstReleaseDate": "1975",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Live"
+            ]
+          },
+          "tracks": [
+            "You Are the Sunshine of My Life",
+            "The Very Thought of You",
+            "Nobs",
+            "Li'l Darlin'",
+            "Blues for Nina",
+            "How Long Has This Been Going On?",
+            "More Than You Know",
+            "Grete",
+            "Nuages",
+            "I'm Glad There Is You",
+            "Willow Weep for Me"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "kansas-city-7",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded for Pablo in 1992, Kansas City 7 presents pianist Count Basie",
+    "contradictingQuote": "Kansas City 7 is a 1980 studio album by Count Basie.",
+    "skepticDecision": "Wikipedia, sharing the exact tracklist, plainly calls it a 1980 studio album; framing the recording as 1992 is wrong by a dozen years. 1992 is only the Original Jazz Classics reissue date.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded for Pablo in 1992, Kansas City 7 presents pianist Count Basie",
+        "problem": "The album is a 1980 Pablo release (Pablo 2310-908), not a 1992 recording. 1992 is only the date of the Original Jazz Classics reissue (OJCCD-690-2). The prose presents 1992 as the recording/origin year.",
+        "evidenceQuote": "Kansas City 7 is a 1980 studio album by Count Basie.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Right album (MB embedded_mbid + wiki tracklist both match: Jaylock, Exactly Like You, etc.; all 5 keyTracks present). The error is the date framing: wiki flatly calls it 'a 1980 studio album'; the catalog data shows the original Pablo 2310-908 (1980) reissued as OJC in 1992. ours.year 1992 matches the MB reissue date so the field itself is defensible, but the prose 'Recorded for Pablo in 1992' is wrong by a dozen years. Reissue context noted for the repair-writer.",
+    "ours": {
+      "title": "Kansas City 7",
+      "artist": "Count Basie",
+      "year": 1992,
+      "label": "Pablo",
+      "albumDNA": "Recorded for Pablo in 1992, Kansas City 7 presents pianist Count Basie working in a swing vein. Among the tracks are \"Jaylock\" and \"Exactly Like You\". The album comes from the big band era when jazz was America's popular music, driven by dancing and radio.",
+      "keyTracks": [
+        "Jaylock",
+        "Exactly Like You",
+        "I'll Always Be in Love With You",
+        "If I Could Be With You One Hour Tonight",
+        "Honi Coles"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "0b1954aa-78d8-4f04-9e0c-7897bf8805ed",
+          "title": "Kansas City 7",
+          "date": "1992",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Count Basie"
+          ],
+          "labels": [
+            {
+              "name": "Pablo",
+              "catalogNumber": "2310-908"
+            },
+            {
+              "name": "Original Jazz Classics",
+              "catalogNumber": "OJCCD-690-2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "07cc05d9-2bdf-3f91-96b6-846beff7ee87",
+            "title": "Kansas City 7",
+            "firstReleaseDate": "1992",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Jaylock",
+            "Exactly Like You",
+            "I'll Always Be in Love With You",
+            "If I Could Be With You One Hour Tonight",
+            "Honi Coles",
+            "Blues for Norman",
+            "Count Me In"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Kansas_City_7",
+        "page": {
+          "requestedTitle": "Kansas City 7",
+          "resolvedTitle": "Kansas City 7",
+          "shortDescription": "1980 studio album by Count Basie",
+          "extract": "Kansas City 7 is a 1980 studio album by Count Basie.\n\n\n== Track listing ==\n\"Jaylock\" (Count Basie, Eddie \"Lockjaw\" Davis, Freddie Hubbard, Joe Pass) – 7:17\n\"Exactly Like You\" (Dorothy Fields, Jimmy McHugh) – 8:00\n\"I'll Always Be in Love With You\" (Bud Green, Herman Ruby, Sam Stept) – 7:29\n\"If I Could Be with You (One Hour Tonight)\" (Henry Creamer, James P. Johnson) – 6:20\n\"Honi Coles\" (Basie, Davis, Hubbard, J. J. Johnson) – 6:48\n\"Blues for Norman\" (Basie, Davis, Hubbard, J. J. Johnson) – 8:51\n\"Count Me In\" (Basie) – 9:12\n\n\n== Personnel ==\nCount Basie - piano\nEddie \"Lockjaw\" Davis - tenor saxophone\nJ. J. Johnson - trombone\nFreddie Hubbard - trumpet\nJoe Pass - guitar\nJohn Heard - double bass\nJake Hanna - drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "kind-of-blue",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "most tracks were first takes with minimal rehearsal",
+    "contradictingQuote": "the persistent legend that the entire album was recorded in one pass is untrue. Only \"Flamenco Sketches\" yielded a complete take on",
+    "skepticDecision": "Even truncated, the extract debunks the one-pass legend and says 'Only \"Flamenco Sketches\" yielded a complete take' — 'Only' confines complete first takes to one track, directly contradicting 'most tracks were first takes'. The 'minimal rehearsal' half is supported, but the 'first takes' half is false.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "most tracks were first takes with minimal rehearsal",
+        "problem": "The 'first takes' half is contradicted: Wikipedia debunks the one-pass legend and says only one track ('Flamenco Sketches') yielded a complete take on the first attempt. The 'minimal rehearsal' half IS supported ('Davis... called for almost no rehearsal').",
+        "evidenceQuote": "the persistent legend that the entire album was recorded in one pass is untrue. Only \"Flamenco Sketches\" yielded a complete take on",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Entity solid in both sources; year/label confirmed (Columbia, release group firstReleaseDate 1959-08-17; Wikipedia 'released on August 17, 1959, by Columbia Records'). Verified prose: 30th Street Studio, sessions March 2 and April 22, 1959; sextet Coltrane/Adderley/Evans with Wynton Kelly on 'Freddie Freeloader', Chambers, Cobb; Evans-Russell modal lineage; five million US copies (5x Platinum). The flagged claim's evidence quote is truncated mid-sentence in the pack extract ('...complete take on'), which is why confidence is moderate — the surrounding sentence explicitly debunks the first-take legend. 'Best-selling jazz album of all time' is not directly checkable from the evidence (only 5x Platinum is stated) — uncontradicted, left as a note. keyTracks: the MB search hit is an odd 3-track pressing (catalog GCB 60) listing only 'So What', 'Blue in Green', 'All Blues'; the other two keyTracks ('Freddie Freeloader', 'Flamenco Sketches') are explicitly confirmed as album tracks by the Wikipedia page, so keyTracksVerdict is ok.",
+    "ours": {
+      "title": "Kind of Blue",
+      "artist": "Miles Davis",
+      "year": 1959,
+      "label": "Columbia",
+      "albumDNA": "The best-selling jazz album of all time, Kind of Blue introduced modal jazz to the world. Recorded at Columbia's 30th Street Studio in New York on March 2 and April 22, 1959, the album captures spontaneous creativity at its peak—most tracks were first takes with minimal rehearsal. The legendary sextet featured John Coltrane and Cannonball Adderley on saxophones, pianist Bill Evans (Wynton Kelly on 'Freddie Freeloader'), bassist Paul Chambers, and drummer Jimmy Cobb. Evans contributed the album's modal framework, drawing from impressionist composers like Ravel and his studies with theorist George Russell. Revolutionized jazz by moving away from bebop's complex chord changes to modal improvisation based on scales, opening new harmonic possibilities that influenced countless musicians across genres from rock to hip-hop. It remains the quintessential introduction to jazz, selling over five million copies and consistently ranking among the greatest albums ever recorded in any genre.",
+      "keyTracks": [
+        "So What",
+        "Freddie Freeloader",
+        "Blue in Green",
+        "All Blues",
+        "Flamenco Sketches"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "49234de2-790c-46e5-b780-3cd6be79a2db",
+          "title": "Kind of Blue",
+          "date": "1959",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Miles Davis"
+          ],
+          "labels": [
+            {
+              "name": "Columbia",
+              "catalogNumber": "GCB 60"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "8e8a594f-2175-38c7-a871-abb68ec363e7",
+            "title": "Kind of Blue",
+            "firstReleaseDate": "1959-08-17",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "So What",
+            "Blue in Green",
+            "All Blues"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Kind_of_Blue",
+        "page": {
+          "requestedTitle": "Kind of Blue",
+          "resolvedTitle": "Kind of Blue",
+          "shortDescription": "1959 studio album by Miles Davis",
+          "extract": "Kind of Blue is a studio album by American jazz musician Miles Davis, released on August 17, 1959, by Columbia Records. For this album, Davis led a sextet featuring saxophonists John Coltrane and Julian \"Cannonball\" Adderley, pianist Bill Evans, bassist Paul Chambers, and drummer Jimmy Cobb, with new band pianist Wynton Kelly replacing Evans on \"Freddie Freeloader\". The album was recorded at Columbia's 30th Street Studio in New York City in two sessions on March 2 and April 22, 1959.\nInfluenced in part by Evans, who had been a member of the ensemble in 1958 and was called back for this album, Davis departed further from his early hard bop style in favor of greater experimentation with musical modes, as on the title track of his previous album, Milestones (1958). Basing Kind of Blue entirely on modality, Davis gave each performer a set of scales that encompassed the parameters of their improvisation and style and consequently more creative freedom with melodies; Coltrane later expanded on this modal approach in his own solo career.\nKind of Blue is regarded by many critics as Davis's masterpiece, the greatest jazz album ever recorded, and one of the greatest albums of all time. Its impact on music, including jazz, rock, and classical music, has led writers to also deem it one of the most influential albums ever made. The album was one of fifty recordings chosen in 2002 by the Library of Congress for the inaugural year of the National Recording Registry, being deemed \"culturally, historically, or aesthetically significant\". In 2003, it was ranked number 12 on Rolling Stone magazine's list of the \"500 Greatest Albums of All Time\",  repositioned to number 31 in the 2020 revision. In 2019, Kind of Blue was certified 5× Platinum by the Recording Industry Association of America (RIAA) for shipments of at least five million copies in the United States.\n\n\n== Background ==\n\nBy late 1958, trumpeter Miles Davis employed one of the most acclaimed and profitable hard bop bands in the business. Bassist Paul Chambers had been with the group from its beginning in 1955, alto saxophonist Julian \"Cannonball\" Adderley joined in late 1957, and tenor saxophonist John Coltrane returned in early 1958. Drummer Jimmy Cobb replaced Philly Joe Jones in May 1958, and pianist Wynton Kelly replaced Bill Evans in November 1958.\nThe Davis band played a mixture of pop standards, blues, and bebop originals by composers such as Charlie Parker, Thelonious Monk, Dizzy Gillespie, Tadd Dameron, and Davis himself. As with all bebop-based jazz, Davis's groups improvised on the chord changes of a given song. Davis was one of many jazz musicians growing dissatisfied with bebop, however, and saw its increasingly complex chord changes as hindering creativity.\nIn 1953, the composer and theorist George Russell published his Lydian Chromatic Concept of Tonal Organization, which offered an alternative to improvisation based on chords. Abandoning the traditional major and minor key relationships, his concept introduced the idea of chord/scale unity and was the first theory to explore the vertical relationship between chords and scales. These insights helped lead the way to modal jazz. Influenced by Russell's ideas, Davis implemented his first modal composition with the title track of his studio album Milestones (1958). Satisfied with the results, Davis prepared an entire album based on modality. Evans, who had studied and recorded with Russell but had left the Davis group to pursue his own career, was drafted back into the project.\n\n\n== Recording ==\nKind of Blue was recorded on three-track tape in two sessions at Columbia Records' 30th Street Studio in New York City. On March 2, 1959, the tracks \"So What\", \"Freddie Freeloader\", and \"Blue in Green\" were recorded for side one of the original LP, and on April 22 the tracks \"All Blues\" and \"Flamenco Sketches\" were recorded, making up side two.\nAs was Davis's penchant, he called for almost no rehearsal and the musicians had little idea what they were to record. As described in the original liner notes by pianist Bill Evans, Davis had only given the band sketches of scales and melody lines on which to improvise. Once the musicians were assembled, Davis gave brief instructions for each piece and then set to taping the sextet in studio. While the results were impressive with so little preparation, the persistent legend that the entire album was recorded in one pass is untrue. Only \"Flamenco Sketches\" yielded a complete take on"
+        }
+      }
+    }
+  },
+  {
+    "id": "latin-jazz-quintet-latin-jazz-quintet",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 2004, Latin Jazz Quintet showcases Latin Jazz Quintet at the height of their creative powers",
+    "contradictingQuote": "\"firstReleaseDate\": \"1961\"",
+    "skepticDecision": "The releaseGroup first appeared in 1961, so the work cannot have been recorded in 2004; the DNA makes an explicit recording-year claim that the evidence contradicts.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 2004, Latin Jazz Quintet showcases Latin Jazz Quintet at the height of their creative powers",
+        "problem": "Recording year wrong: releaseGroup first release is 1961, so the album cannot have been recorded in 2004. 2004-11-16 is a reissue date (MB release date).",
+        "evidenceQuote": "\"firstReleaseDate\": \"1961\"",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Entity confirmed (MB embedded_mbid; MB artist 'The Latin Jazz Quintet' = ours 'Latin Jazz Quintet'; first 6 keyTracks match this 10-track album). Genre 'Cool Jazz' is editorial. No label in MB; ours 'Various' is a placeholder.",
+    "ours": {
+      "title": "Latin Jazz Quintet",
+      "artist": "Latin Jazz Quintet",
+      "year": 2004,
+      "label": "Various",
+      "albumDNA": "Recorded in 2004, Latin Jazz Quintet showcases Latin Jazz Quintet at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Latin Jazz Quintet remains a landmark of Cool Jazz, cementing Latin Jazz Quintet's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "You're the Cutest One",
+        "Speak Low",
+        "I Got Rhythm",
+        "A Night in Tunisia",
+        "Danse Macabre (a.k.a. Cha Cha King)",
+        "I Wish I Were in Love Again"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "02259796-9c7e-450f-bb9f-bd251db9380e",
+          "title": "Latin Jazz Quintet",
+          "date": "2004-11-16",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "The Latin Jazz Quintet"
+          ],
+          "labels": [],
+          "releaseGroup": {
+            "mbid": "13b9bbeb-3de7-3ea8-8ffc-e64e85297fc0",
+            "title": "Latin Jazz Quintet",
+            "firstReleaseDate": "1961",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "You're the Cutest One",
+            "Speak Low",
+            "I Got Rhythm",
+            "A Night in Tunisia",
+            "Danse Macabre (a.k.a. Cha Cha King)",
+            "I Wish I Were in Love Again",
+            "You Don't Know What Love Is",
+            "Lover",
+            "Mangolina",
+            "April Rain"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "lenox-avenue-breakdown",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Bush Baby",
+    "contradictingQuote": "Down San Diego Way; Lenox Avenue Breakdown; Slidin' Through; Odessa",
+    "skepticDecision": "The MB release has exactly four tracks and 'Bush Baby' is not among them ('Odessa' is the fourth); nothing in the evidence supports 'Bush Baby' as an alias. The keyTracks list a track that does not exist on the album.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "keyTracks include \"Bush Baby\"",
+        "problem": "'Bush Baby' is not on the album's authoritative tracklist. The MB release (search, sim 1.0) lists exactly four tracks and 'Bush Baby' is not among them.",
+        "evidenceQuote": "Down San Diego Way; Lenox Avenue Breakdown; Slidin' Through; Odessa",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Right album: MB search (sim 1.0) = Arthur Blythe, Lenox Avenue Breakdown, Columbia JC35638, 1979. Three keyTracks (Lenox Avenue Breakdown, Slidin' Through, Down San Diego Way) match MB; the fourth, 'Bush Baby', is NOT on the four-track MB tracklist (which instead has 'Odessa') -> keyTracks mismatch, scored as factual_error per the keyTracks rule. UNVERIFIABLE (noted, not flagged as error): personnel claims 'James Newton's flute and Bob Stewart's tuba' and 'major label debut' cannot be checked -- no personnel in MB evidence and no wikipedia (opensearch returned nothing). Editorial framing otherwise. No wikipediaUrl stored.",
+    "ours": {
+      "title": "Lenox Avenue Breakdown",
+      "artist": "Arthur Blythe",
+      "year": 1979,
+      "label": "Columbia",
+      "albumDNA": "Alto saxophonist Arthur Blythe's major label debut is a thrilling collision of free jazz energy, hard bop swing, and street-level funk. His soaring, vocalized tone—one of the most distinctive in jazz—wails over James Newton's flute and Bob Stewart's tuba with ecstatic abandon. Proved that avant-garde jazz could work on a major label without compromise. Blythe's combination of free jazz fire and deep blues feeling created a uniquely accessible brand of creative music.",
+      "keyTracks": [
+        "Lenox Avenue Breakdown",
+        "Slidin' Through",
+        "Down San Diego Way",
+        "Odessa"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "8840fe25-ed4d-4f85-a842-78653c32b383",
+          "title": "Lenox Avenue Breakdown",
+          "date": "1979",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Arthur Blythe"
+          ],
+          "labels": [
+            {
+              "name": "Columbia",
+              "catalogNumber": "JC35638"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "750ffadf-6c9d-3cc6-93f2-3eb35fc1eb13",
+            "title": "Lenox Avenue Breakdown",
+            "firstReleaseDate": "1979",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Down San Diego Way",
+            "Lenox Avenue Breakdown",
+            "Slidin' Through",
+            "Odessa"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "look-what-i-got",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Tight",
+    "contradictingQuote": "\"Mr. Gentleman\" (Sequel to \"Tight\") (Carter) – 2:40",
+    "skepticDecision": "Listing 'Tight' as a keyTrack claims it is a track on the album; the Wikipedia track listing shows the track is 'Mr. Gentleman' and 'Tight' exists only inside the parenthetical '(Sequel to \"Tight\")', so the keyTrack is not on the album.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "keyTracks: Tight",
+        "problem": "'Tight' is not a track on the album; the album's track is 'Mr. Gentleman', subtitled '(Sequel to Tight)'. 'Tight' appears only as a parenthetical reference.",
+        "evidenceQuote": "\"Mr. Gentleman\" (Sequel to \"Tight\") (Carter) – 2:40",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "MARGINAL flag. MB (search, sim 1.0) and the correct Wikipedia page confirm: Look What I Got!, Betty Carter, Verve, 1988; the Grammy claim ('Best Jazz Vocal Performance, Female') is verbatim from Wikipedia. keyTracks 'Look What I Got', 'The Man I Love', 'That Sunday That Summer' match. 'Tight' is not a standalone track — it is the title referenced by the track 'Mr. Gentleman (Sequel to Tight)'. Listing it as a keyTrack is technically incorrect, hence factual_error, but it is a thin/defensible inclusion (low confidence). Prose is otherwise clean.",
+    "ours": {
+      "title": "Look What I Got!",
+      "artist": "Betty Carter",
+      "year": 1988,
+      "label": "Verve",
+      "albumDNA": "Look What I Got! is a 1988 album by vocalist Betty Carter, released on Verve. The record won Carter a Grammy Award for Best Jazz Vocal Performance, Female, capping a long career of uncompromising artistry. Her inventive phrasing and rhythmic daring are on full display across a program of standards and originals. Introduced Carter to a new generation after years of self-produced independence. Her uncompromising artistry finally received mainstream recognition.",
+      "keyTracks": [
+        "Look What I Got",
+        "The Man I Love",
+        "That Sunday, That Summer",
+        "All I Got"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "b3a3b43b-0afd-47b2-af58-67714ff57721",
+          "title": "Look What I Got!",
+          "date": "1988",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Betty Carter"
+          ],
+          "labels": [
+            {
+              "name": "Verve",
+              "catalogNumber": "835 661-2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "31728cdf-406a-32ac-87e6-77ac29de9c2f",
+            "title": "Look What I Got!",
+            "firstReleaseDate": "1988",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Look What I Got",
+            "That Sunday, That Summer",
+            "The Man I Love",
+            "All I Got",
+            "Just Like the Movies (Time)",
+            "Imagination",
+            "Mr. Gentleman",
+            "Make It Last",
+            "The Good Life"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Look_What_I_Got!",
+        "page": {
+          "requestedTitle": "Look What I Got!",
+          "resolvedTitle": "Look What I Got!",
+          "shortDescription": "1988 studio album by Betty Carter",
+          "extract": "Look What I Got! is a 1988 album by the American jazz singer Betty Carter.\nAt the 31st Grammy Awards, Carter's performance on this album won her the Grammy Award for Best Jazz Vocal Performance, Female.\n\n\n== Track listing ==\nFor the 1992 Verve CD Issue, 835661-2.\n\n\"Look What I Got!\" (Betty Carter) – 5:41\n\"That Sunday, That Summer\" (Joe Sherman, George David Weiss) – 4:51\n\"The Man I Love\" (George Gershwin, Ira Gershwin) – 7:28\n\"All I Got\" (Diane Cole) – 4:40\n\"Just Like the Movies\" (Time) (Carter) – 4:20\n\"Imagination\" (Johnny Burke, Jimmy Van Heusen) – 4:23\n\"Mr. Gentleman\" (Sequel to \"Tight\") (Carter) – 2:40\n\"Make It Last\" (Bob Haymes) – 6:00\n\"The Good Life\" (Sacha Distel, Jack Reardon) – 6:58\n\n\n== Personnel ==\nBetty Carter - vocals\nBenny Green - piano\nStephen Scott - piano\nDon Braden -tenor sax\nMichael Bowie - double bass\nLewis Nash - drums, guitar\nWinard Harper - drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "love-notes",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "He came to fame as a teen pop singer in the late 1990s, establishing himself as a star among preteen and teenage audiences during the first years of the 2000s, with his four studio albums.",
+    "contradictingQuote": "He rose to fame as a teen pop singer in the late 1990s, establishing himself as a star among preteen and teenage audiences during the early 2000s, with his four studio albums.",
+    "skepticDecision": "The final DNA sentence is lifted from the Aaron Carter page (a male teen-pop singer) and grafted onto a Betty Carter album; only that trailing sentence is foreign, so this is a factual error on the right album, not a full entity mismatch.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "He came to fame as a teen pop singer in the late 1990s, establishing himself as a star among preteen and teenage audiences during the first years of the 2000s, with his four studio albums.",
+        "problem": "Contaminating biographical text about Aaron Carter (a teen-pop singer) grafted onto a Betty Carter album blurb. Our entity is Betty Carter, a female jazz vocalist (MB credits 'Betty Carter' with Geri Allen / Dave Holland / Jack DeJohnette); the masculine pronoun and the teen-pop-stardom claim do not belong to her.",
+        "evidenceQuote": "Aaron Charles Carter (December 7, 1987 - November 5, 2022) was an American singer and rapper. He rose to fame as a teen pop singer in the late 1990s, establishing himself as a star among preteen and teenage audiences during the early 2000s, with his four studio albums.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Album identity IS correct: MB embedded_mbid confirms Betty Carter / 1994 / Jazz Door (bootleg) with Geri Allen, Dave Holland, Jack DeJohnette; all 6 keyTracks match the MB tracklist. The first two DNA sentences correctly describe Betty Carter. The disambiguation-collision bug shows up twice here: (1) the final DNA sentence is lifted verbatim from the Aaron Carter wiki page, and (2) the stored wikipediaUrl is https://en.wikipedia.org/wiki/Aaron_Carter -- a wholly different, unrelated person. Classified factual_error (not entity_mismatch) because only the trailing sentence belongs to another entity; the album's factual skeleton is genuinely Betty Carter's. Repair: delete the Aaron Carter sentence and fix the wiki link.",
+    "ours": {
+      "title": "Love Notes",
+      "artist": "Betty Carter",
+      "year": 1994,
+      "label": "Jazz Door",
+      "albumDNA": "Love Notes is a 1994 post-bop album by Betty Carter, recorded for the Jazz Door label. Carter, one of the most inventive vocal improvisers in jazz, applies her signature behind-the-beat phrasing and harmonic adventurousness to a program of standards and original material. He came to fame as a teen pop singer in the late 1990s, establishing himself as a star among preteen and teenage audiences during the first years of the 2000s, with his four studio albums.",
+      "keyTracks": [
+        "Feed The Fire",
+        "Love Notes",
+        "Sometimes I'm Happy",
+        "Fake",
+        "Lover Man",
+        "I'm All Smiles"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "27d48fd5-6a05-4a52-a065-237a10fe65bb",
+          "title": "Love Notes",
+          "date": "1994",
+          "country": "DE",
+          "status": "Bootleg",
+          "artists": [
+            "Betty Carter",
+            "Geri Allen",
+            "Dave Holland",
+            "Jack DeJohnette"
+          ],
+          "labels": [
+            {
+              "name": "Jazz Door",
+              "catalogNumber": "JD 1272"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "19bbc0fb-482a-4b78-8180-5bd8a810da0d",
+            "title": "Love Notes",
+            "firstReleaseDate": "1994",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Feed The Fire",
+            "Love Notes",
+            "Sometimes I'm Happy",
+            "Fake",
+            "Lover Man",
+            "I'm All Smiles",
+            "If I Should Lose You",
+            "All Or Nothing At All"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Aaron_Carter",
+        "page": {
+          "requestedTitle": "Aaron Carter",
+          "resolvedTitle": "Aaron Carter",
+          "shortDescription": "American singer (1987–2022)",
+          "extract": "Aaron Charles Carter (December 7, 1987 – November 5, 2022) was an American singer and rapper. He rose to fame as a teen pop singer in the late 1990s, establishing himself as a star among preteen and teenage audiences during the early 2000s, with his four studio albums.\nCarter began performing at age seven, following the formation of his brother Nick's group, the Backstreet Boys. He released his self-titled debut album in 1997 at age nine, selling one million copies worldwide. His second album, Aaron's Party (Come Get It) (2000), sold three million copies in the United States, and Carter soon began making guest appearances on Nickelodeon and touring with the Backstreet Boys following the album's release.\nCarter's next album, Oh Aaron, also went platinum, and in 2002 he released what would be his final studio album for more than 15 years, Another Earthquake!, followed by the 2003 compilation album Most Requested Hits.\nCarter appeared on Dancing with the Stars, in the Broadway musical Seussical, and in the off-Broadway musical The Fantasticks, in addition to making several one-off performances.\nIn 2014, he released the single \"Ooh Wee\", featuring rapper Pat SoLo. Carter released the single \"Fool's Gold\" in 2016 and the EP Love in 2017. His fifth studio album, also titled Love, was released in 2018. A sixth album, Blacklisted, was released two days after his accidental drug-related death.\n\n\n== Early life ==\nAaron Charles Carter was born on December 7, 1987, in Tampa, Florida. His parents, Jane Eleonora Schneck (née Spaulding, previously Carter) and Robert Gene Carter (1952–2017), ran a retirement home. He had an older brother, Nick, a member of the Backstreet Boys, and three sisters: his twin, Angel, a model; Bobbie Jean (BJ) (1982–2023); and Leslie (1986–2012). In addition to his full siblings, he also had an older half-sister, Ginger Lee Carter (1972–2023), and a younger half-brother, Kaden Carter. The family is originally from Jamestown, New York. Carter attended Frank D. Miles Elementary School and the Ruskin School in Florida.\nCarter's parents divorced in 2004; he was told about the divorce one hour before filming his MTV Cribs episode. In accordance with the California Child Actor's Bill, Carter's parents were supposed to put 15% of his earnings into a Coogan account. As per Carter, \"I got [...] $2 million when I turned 18 years old. I should have had at least $20 million in my account.\" After he turned 18 in 2005, Carter learned that he owed $4 million in back taxes. Carter claimed that his earnings had helped his parents purchase 30 cars and 15 houses; however, he did not receive any portion of the profits when they sold the properties. He also claimed that his father fired a .44 Magnum near his ear to coerce him into signing a $256,000 check. This left Carter with 70% deafness in one ear.\nCarter also had a tumultuous relationship with his siblings, with many of their feuds playing out on social media in later years. In September 2019, Carter leveled allegations of sexual abuse against his sister Leslie, who died of a drug overdose in 2012. Carter reported that the abuse began when he was ten years old, ended when he was 13, and occurred when Leslie would fail to take prescribed medication for her bipolar disorder. He also accused his brother Nick of life-long abuse, and implied that Nick also abused a female family member. Nick's legal team denied the allegations, which surfaced after Nick and their sister Angel sought restraining orders against Aaron, who reportedly confessed to thoughts of killing Nick's then-pregnant wife, Lauren.\n\n\n== Career ==\n\n\n=== 1997–1999: Music beginnings and self-titled debut album ===\nCarter began his career as the lead singer of Dead End as a 7-year-old. He left the band after two years because he wanted to perform pop music, while the other members were interested in alternative rock.\nCarter made his first solo appearance at age 9, singing The Jets' \"Crush on You\" when opening for the Backstreet Boys in Berlin in March 1997. The performance was followed by a record contract, and in the fall of 1997, he released his first single \"Crush on You\". Carter's self-titled debut studio album was released on December 1, 1997. The album achieved gold status in Canada, Denmark, Germany, Norway, and Spain, and was released in the United States on June 16, 1998.\n\n\n=== 2000–2001: Aaron's Party (Come Get It), acting debut, and Oh Aaron ===\nCarter's second studio album, Aaron's Party (Come Get It),"
+        }
+      }
+    }
+  },
+  {
+    "id": "mandorla-awakening-ii",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Ceremony of Infinite Projection",
+    "contradictingQuote": "[\"Egoes War\", \"Sub-Mission\", \"The Chalice\", \"Dance of Many Hands\", \"Listening Embrace\", \"Forestwall Timewalk\", \"Staircase Struggle\", \"Shiny Divider\", \"Mandorla Island\", \"Timewrap\"]",
+    "skepticDecision": "Search match (sim 1.0) on title/artist/label/year; the 10-track list contains 'Mandorla Island' (a distinct title) and 'Egoes War'/'Listening Embrace' but neither 'Mandorla Awakening' nor 'Ceremony of Infinite Projection', so two claimed keyTracks are absent from the same release.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Mandorla Awakening",
+        "problem": "Listed as a key track but absent from the MB tracklist for this release (closest is 'Mandorla Island', a different track).",
+        "evidenceQuote": "Egoes War, Sub-Mission, The Chalice, Dance of Many Hands, Listening Embrace, Forestwall Timewalk, Staircase Struggle, Shiny Divider, Mandorla Island, Timewrap",
+        "source": "mb"
+      },
+      {
+        "ourClaim": "Ceremony of Infinite Projection",
+        "problem": "Listed as a key track but absent from the MB tracklist for this release.",
+        "evidenceQuote": "Egoes War, Sub-Mission, The Chalice, Dance of Many Hands, Listening Embrace, Forestwall Timewalk, Staircase Struggle, Shiny Divider, Mandorla Island, Timewrap",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "MB search match (sim 1.0): title/artist/label/year all match (Mandorla Awakening II: Emerging Worlds, 2017, FPE Records, Nicole Mitchell) so the entity is correct. Of 4 keyTracks, only 'Egoes War' and 'Listening Embrace' appear in the MB tracklist; 'Mandorla Awakening' and 'Ceremony of Infinite Projection' do not. Flagged factual_error on the two absent keyTracks. Caveat: evidence is a search (strong but not infallible) match, not an embedded MBID; if MB's tracklisting is incomplete these could be valid. Prose itself (Afrofuturist, Black Earth Ensemble, etc.) is editorial and not flagged.",
+    "ours": {
+      "title": "Mandorla Awakening II: Emerging Worlds",
+      "artist": "Nicole Mitchell",
+      "year": 2017,
+      "label": "FPE Records",
+      "albumDNA": "Flutist Nicole Mitchell's Afrofuturist masterwork imagines a world 200 years in the future through a suite of compositions that blend free jazz, electronic textures, and African rhythmic elements. Her Black Earth Ensemble creates vivid sonic landscapes that feel both ancient and futuristic. One of the defining works of Afrofuturist jazz, Mitchell's visionary composition demonstrated how speculative fiction and social critique could be channeled through improvised music with remarkable power.",
+      "keyTracks": [
+        "Egoes War",
+        "Listening Embrace",
+        "Sub-Mission",
+        "The Chalice"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "295f5d4b-ab8a-465b-b71c-0c94801d3082",
+          "title": "Mandorla Awakening II: Emerging Worlds",
+          "date": "2017",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Nicole Mitchell"
+          ],
+          "labels": [
+            {
+              "name": "FPE Records",
+              "catalogNumber": "FPE 012CD"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "72af9fbb-9378-400b-9aed-b6d25cb099c7",
+            "title": "Mandorla Awakening II: Emerging Worlds",
+            "firstReleaseDate": "2017-05-05",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Egoes War",
+            "Sub-Mission",
+            "The Chalice",
+            "Dance of Many Hands",
+            "Listening Embrace",
+            "Forestwall Timewalk",
+            "Staircase Struggle",
+            "Shiny Divider",
+            "Mandorla Island",
+            "Timewrap"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  }
+]

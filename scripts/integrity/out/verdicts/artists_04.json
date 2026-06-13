@@ -1,0 +1,310 @@
+[
+ {
+  "id": "evan-parker",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Birth year 1944, British, soprano+tenor saxophone, unaccompanied soprano solos using circular breathing and multiphonics, and five-plus decades of prolific collaboration all confirmed by the extract. 'Founding figure of European free improvisation' is consistent with 'a pivotal figure in the development of European free jazz and free improvisation'. 'Dense, swirling galaxies of sound' is editorial opinion, not flagged."
+ },
+ {
+  "id": "fats-waller",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is near-verbatim of the Wikipedia lead. 1904-1943, pianist/organist/composer/singer, international touring, and Grammy Hall of Fame inductions for 'Ain't Misbehavin'' (1984) and 'Honeysuckle Rose' (1999) all confirmed. 'Laid much of the basis for modern jazz piano' is a slight editorial extension of 'widely influential among musicians'; the Harlem stride framing is supported (James P. Johnson, 'a leading figure of the burgeoning Harlem stride style', was his mentor)."
+ },
+ {
+  "id": "fletcher-henderson",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim the Wikipedia lead. 1897-1952, pianist/bandleader/arranger, big band and swing significance, Duke Ellington comparison, Dixieland-to-swing bridge, and the 'Smack' nickname all confirmed word-for-word."
+ },
+ {
+  "id": "flora-purim",
+  "verdict": "factual_error",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "extraordinary four-octave range", "problem": "Evidence states her vocal range is six octaves, not four", "evidenceQuote": "Purim has a rare six-octave voice.", "source": "wiki"}
+  ],
+  "notes": "Entity is right: born 1942, Brazilian jazz-fusion singer, Return to Forever and Airto Moreira work, and 'Butterfly Dreams' (1973 first US solo album) all confirmed. The octave count contradicts the evidence; published sources vary on this figure, so the repair should either follow the cited page (six) or drop the number. 'Open Your Eyes, You Can Fly' is not named in the extract (it only says she 'released a string of albums for the Milestone label' in the 1970s) - unverified, plausible."
+ },
+ {
+  "id": "fred-hersch",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim the Wikipedia lead (including the '17-time Grammy nominee' with the odd 'nominée' spelling, the Village Vanguard solo-week first, and 75+ original compositions). Born 1955 confirmed."
+ },
+ {
+  "id": "freddie-hubbard",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Confirmed: 1938-2008, trumpet, hard bop; sideman on Out to Lunch!, Maiden Voyage, and Ascension; own album Ready for Freddie (Blue Note, 1961); 1970s commercial success with Red Clay (1970) plus the critics-vs-commercialism debate; serious lip injury in 1992 that limited his later playing. Unverifiable: 'Hub-Tones' (not in extract); the grouping of Coltrane's 'Ascension' under 'Blue Note classics' (the extract never states Ascension's label; background knowledge says it was Impulse!, so the repair-writer should re-source this likely label slip - not counted as an error since the evidence does not show it); claimed influence on Woody Shaw and Roy Hargrove (evidence shows Shaw only as a 1985-87 co-leader peer, and never mentions Hargrove)."
+ },
+ {
+  "id": "gary-bartz",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Confirmed: born 1940; joined Miles Davis's band mid-1970 (Isle of Wight, Cellar Door dates released on Live-Evil); formed Ntu Troop 'which combined jazz, funk, and soul' (the Afrocentric/African-American-consciousness framing is editorial). Unverifiable: 'His 1970s Prestige albums have been widely sampled by hip-hop producers' (no Prestige releases or sampling mentioned in the extract); 'active and vital performer well into his 80s' (latest dated activity in the extract is 2019, before he turned 80). Instruments field says alto saxophone; evidence says only 'saxophonist' - not contradicted."
+ },
+ {
+  "id": "geri-allen",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Confirmed: 1957-2017, pianist; work with Ornette Coleman (two 1996 Sound Museum albums); own groups (Printmakers trio debut 1984); 'premature death' consistent with dying of cancer two weeks after her 60th birthday. Unverifiable: 'her work with Betty Carter' - Betty Carter appears nowhere in the extract. 'Leading jazz pianist of her generation' and the Cecil Taylor/Herbie Hancock synthesis line are editorial opinion, not flagged."
+ },
+ {
+  "id": "gerry-mulligan",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim the Wikipedia lead: 'Jeru' nickname, baritone saxophone with light airy tone in the cool jazz era, arranger for Claude Thornhill, Miles Davis, and Stan Kenton. 1927-1996 confirmed."
+ },
+ {
+  "id": "gil-evans",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim the Wikipedia lead: Canadian-American, one of jazz's greatest orchestrators, role in cool/modal/free/fusion, best known for the Miles Davis collaborations. 1912-1988 confirmed."
+ },
+ {
+  "id": "gonzalo-rubalcaba",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim Wikipedia text: born May 27, 1963, Havana; birth name Gonzalo Julio Gonzalez Fonseca; great-grandmother's surname adopted professionally as by father Guillermo and grandfather Jacobo; 1983 France/Africa tour with Orquesta Aragon. All confirmed."
+ },
+ {
+  "id": "grachan-moncur",
+  "verdict": "factual_error",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "deathYear", "ours": "null (listed as living)", "evidence": "2022", "evidenceQuote": "Moncur died from cardiac arrest on June 3, 2022, his 85th birthday, at his home in Newark, New Jersey.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Entity is right: born 1937, trombonist; Blue Note composing confirmed (contributed the bulk of compositions to Jackie McLean's One Step Beyond and Destination... Out!, plus own albums Evolution 1963 and Some Other Stuff 1964). The dataset lists him as living, but he died June 3, 2022 - deathYear must be set to 2022. 'Influenced a generation of avant-garde trombonists' is editorial/unverified."
+ },
+ {
+  "id": "grant-green",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Confirmed: 1935-1979; single-note horn-like style ('playing single notes rather than chords', 'mimicked that of a saxophonist'); one of Blue Note's most recorded ('made more appearances on Blue Note albums as leader or sideman than anyone else' 1961-65); Idle Moments described as among his best; hip-hop sampling supported ('one of the most sampled guitarists'); death at 43 from a heart attack confirmed (born June 1935, died January 31, 1979). 'Warm, slightly distorted tone' is editorial description (evidence quotes a 'punchy, biting tone' - different wording, not a contradiction)."
+ },
+ {
+  "id": "greg-osby",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim Wikipedia text: born August 3, 1960, St. Louis; Howard then Berklee; New York 1982; played with Jaki Byard, Jim Hall, Muhal Richard Abrams, Andrew Hill, Jack DeJohnette, Dizzy Gillespie, Herbie Hancock; joined DeJohnette's Special Edition in 1985. All confirmed."
+ },
+ {
+  "id": "hampton-hawes",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim the Wikipedia lead: 1928-1977, American jazz pianist, author of Raise Up Off Me, which won the Deems Taylor Award for music writing in 1975 (article body calls it the ASCAP Deems Taylor Award). All confirmed."
+ },
+ {
+  "id": "hank-mobley",
+  "verdict": "unverifiable",
+  "confidence": 0.65,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Confirmed: 1930-1986, tenor saxophone; Leonard Feather's 'middleweight champion of the tenor saxophone' nickname; Jazz Messengers membership (founding era and 1959 return); Miles Davis membership in 1961. Unverifiable: 'Blue Note Records' most prolific artist' and 'over 25 albums as leader' - the extract gives no count or ranking. Two cautions for the repair-writer: (1) ours glosses the middleweight metaphor as between Coltrane's hardness and Stan Getz's coolness, while the evidence glosses it as 'neither as aggressive as John Coltrane nor as mellow as Lester Young' - compatible descriptions, not a strict contradiction, but worth aligning with the cited version; (2) 'essential member of... the Miles Davis Quintet' overstates relative to the evidence's 'Mobley was briefly a member of the Miles Davis band in 1961', though 'essential' is editorial."
+ },
+ {
+  "id": "henry-threadgill",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Confirmed: born 1944; saxophonist/flautist/composer; 2016 Pulitzer Prize for Music (In for a Penny, In for a Pound); AACM origin (original member of the Experimental Band, the AACM precursor, under Muhal Richard Abrams); groups Air, the Sextett, Very Very Circus, and Zooid all listed in evidence. The stylistic-blend sentence (New Orleans marching bands, free jazz, funk, contemporary classical) is editorial characterization; his marching-band background is in the evidence."
+ },
+ {
+  "id": "herbie-hancock",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Confirmed: born 1940; joined Davis's Second Great Quintet May 1963 and left summer 1968 (matches '1963-68'); helped redefine the jazz rhythm section; dozens of Blue Note sessions under his own name; Head Hunters as his best-known, most influential album; 'Rockit' as a 1980s hit single. Unverifiable: Head Hunters 'became one of the first jazz albums to go platinum' (no chart/certification data in extract); 'Empyrean Isles' (extract names Takin' Off, My Point of View, Speak Like a Child, The Prisoner, Inventions and Dimensions, but not Empyrean Isles or the Maiden Voyage album as such); 'Rockit' dated 1983 and the MTV/hip-hop-scratching framing; 'A Buddhist practitioner'. No contradictions found."
+ },
+ {
+  "id": "hermeto-pascoal",
+  "verdict": "factual_error",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "deathYear", "ours": "null (listed as living)", "evidence": "2025", "evidenceQuote": "Pascoal died from multiple organ failure in Rio de Janeiro, on 13 September 2025, at the age of 89.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Entity is right: born 22 June 1936, Brazilian multi-instrumentalist; 'o Bruxo' nickname confirmed (evidence translates it 'the Sorcerer'; ours' 'The Wizard' is an acceptable alternative rendering, not an error); music with teapots and unconventional objects/animals confirmed; baiao/forro roots supported (Luiz Gonzaga idol, Latin Grammy for a forro album). He died 13 September 2025 - deathYear must be set and the bio's present tense ('is... He plays') updated; the death likely postdates dataset creation. 'Slaves Mass' is not named in the extract - unverified."
+ },
+ {
+  "id": "horace-silver",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Confirmed: 1928-2014; hard bop pioneer with gospel/blues/R&B elements; co-founded the Jazz Messengers with Art Blakey; 'Song for My Father' (his most successful album); 'Sister Sadie' named among his songs that became standards; later spirituality turn (United States of Mind series). Unverifiable: 'Nica's Dream' (not in the extract); the specific proteges 'Blue Mitchell, Junior Cook, and Joe Henderson' (evidence confirms he developed young talents over four decades but names none of these three). No contradictions."
+ },
+ {
+  "id": "hugh-masekela",
+  "verdict": "clean",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Confirmed: 1939-2018; trumpeter/flugelhornist; 'the father of South African jazz' supports 'brought South African jazz to the world'; 'Grazing in the Grass' was a number-one US pop hit in 1968; exile of roughly 30 years confirmed (left after the 1960 Sharpeville massacre, returned to South Africa in the early 1990s). 'Continued performing until his death' is a generic closing claim the truncated extract does not directly confirm - low stakes, noted for completeness."
+ },
+ {
+  "id": "ibrahim-maalouf",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim the Wikipedia lead: French-Lebanese trumpeter/producer/arranger/composer; in 2022 the first Lebanese instrumentalist nominated at the Grammy Awards, for Queen of Sheba with Angelique Kidjo. Born 5 November 1980 confirmed."
+ },
+ {
+  "id": "icp-orchestra",
+  "verdict": "factual_error",
+  "confidence": 0.5,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "founded by pianist Misha Mengelberg and drummer Han Bennink", "problem": "Ours equates the orchestra with the Instant Composers Pool (parenthetical plus birthYear 1967), but the 1967 founding had three founders - saxophonist Willem Breuker is omitted", "evidenceQuote": "In 1967 saxophonist Willem Breuker, pianist Misha Mengelberg and drummer Han Bennink founded the ICP label in Amsterdam.", "source": "wiki"}
+  ],
+  "notes": "Entity match is good: the stored URL (Instant_Composers_Pool) covers both the label and the orchestra; Dutch improvised-music ensemble and the 1967 founding year are confirmed. Nuance for the repair-writer: after Breuker left in 1974, Mengelberg and Bennink carried the ICP Tentet/Orchestra ('Mengelberg and Bennink intensified their collaboration and, widening their own musical project as the Instant Composers Pool Tentet'), so 'founded by Mengelberg and Bennink' is defensible for the orchestra as it became known - but paired with birthYear 1967 the founding claim should include Breuker or be rephrased (e.g. 'grew out of the Instant Composers Pool, founded 1967'). Dadaist humor / performances-as-theater is editorial (loosely supported by Mengelberg's Fluxus involvement and 'musical games'). The instruments list matches members named in evidence (piano Mengelberg, drums Bennink, trombone Wierbos, violin Oliver, saxophone Delius)."
+ },
+ {
+  "id": "j-dilla",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim the Wikipedia lead: James Dewitt Yancey, J Dilla / Jay Dee, Detroit underground scene, Slum Village, founding Soulquarians member, Jaylib with Madlib (Champion Sound), Donuts released three days before his death, produced the Pharcyde's Labcabincalifornia. 1974-2006 confirmed. Note for reviewers: he is a hip-hop producer, not a jazz musician, but that is a curatorial inclusion choice, not a data error."
+ },
+ {
+  "id": "j-j-johnson",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim the Wikipedia lead: born James Louis Johnson, also known as Jay Jay Johnson, American jazz trombonist, composer, and arranger. 1924-2001 confirmed."
+ }
+]

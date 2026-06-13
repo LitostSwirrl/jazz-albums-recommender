@@ -1,0 +1,1391 @@
+[
+  {
+    "id": "bumpin-wes-montgomery",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 1997, Bumpin' showcases Wes Montgomery at the height of their creative powers",
+    "contradictingQuote": "Bumpin'   is an album by the American jazz guitarist Wes Montgomery, released in 1965.",
+    "skepticDecision": "The defense fails. The release-group firstReleaseDate is 1965, the Wikipedia short description is '1965 studio album by Wes Montgomery', and the extract states 'released in 1965'; the 1997 MB date is a PolyGram reissue. 'Recorded in 1997' is a specific, falsifiable claim directly contradicted by the evidence. Entity is correct (Wes Montgomery's Bumpin', all keyTracks match the MB tracklist), so this is a factual_error on the right entity, not a mismatch.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 1997, Bumpin' showcases Wes Montgomery at the height of their creative powers",
+        "problem": "The album was recorded and originally released in 1965, not 1997. The MB date 1997 and the year field reflect a PolyGram reissue; the release-group first release date is 1965 and Wikipedia confirms 1965.",
+        "evidenceQuote": "Bumpin'   is an album by the American jazz guitarist Wes Montgomery, released in 1965. It reached number 116 on the Billboard Top LP's chart. It was Montgomery's first album to reach the charts.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Entity is correct (Wes Montgomery's Bumpin'). All 6 keyTracks match the MB tracklist. Core error: albumDNA says 'Recorded in 1997' but the work is a 1965 album (MB release-group firstReleaseDate 1965; Wikipedia 'released in 1965'); year field 1997 = reissue date. Label 'Various' is vague vs MB 'PolyGram Records, Inc.'. Genre framing (Cool Jazz) is editorial, not flagged.",
+    "ours": {
+      "title": "Bumpin'",
+      "artist": "Wes Montgomery",
+      "year": 1997,
+      "label": "Various",
+      "albumDNA": "Recorded in 1997, Bumpin' showcases Wes Montgomery at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Bumpin' remains a landmark of Cool Jazz, cementing Wes Montgomery's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Bumpin’",
+        "Tear It Down",
+        "A Quiet Thing",
+        "Con Alma",
+        "The Shadow of Your Smile",
+        "Mi Cosa"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "e349d209-f2f3-4ffb-b8ba-8286da54262f",
+          "title": "Bumpin’",
+          "date": "1997",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Wes Montgomery"
+          ],
+          "labels": [
+            {
+              "name": "PolyGram Records, Inc.",
+              "catalogNumber": "539 062-2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "8d1210dc-185f-3033-8ac8-cae8e6587842",
+            "title": "Bumpin’",
+            "firstReleaseDate": "1965",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Bumpin’",
+            "Tear It Down",
+            "A Quiet Thing",
+            "Con Alma",
+            "The Shadow of Your Smile",
+            "Mi Cosa",
+            "Here’s That Rainy Day",
+            "Musty",
+            "Just Walkin’",
+            "My One and Only Love",
+            "Just Walkin’"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Bumpin' (Wes Montgomery album)",
+          "resolvedTitle": "Bumpin' (Wes Montgomery album)",
+          "shortDescription": "1965 studio album by Wes Montgomery",
+          "extract": "Bumpin'   is an album by the American jazz guitarist Wes Montgomery, released in 1965. It reached number 116 on the Billboard Top LP's chart. It was Montgomery's first album to reach the charts.\n\n\n== Reception ==\n\nIn his AllMusic review, Shawn M. Haney praised the album: \"Not only is his brilliant command of the six-string present here, so is the vivid color tones of notes and blue notes played between. Backed up by a hauntingly beautiful and mesmerizing orchestra conducted and arranged by Don Sebesky, the music almost lifts the listener off his feet into a dreamy, water-like landscape. The atmosphere is serene and enchanting, such as a romantic evening for two under starlight, and certainly a romantic eve merits the accompaniment of this record... The recording engineer did a wonderful job with this album. The sound quality is clear and lush, and, overall, this collection of mid-'60s Latin jazz is a delight to listen to, once and again.\"\n\n\n== Track listing ==\n\"Bumpin'\" (Wes Montgomery) – 6:40\n\"Tear It Down\" (Montgomery) – 3:10\n\"A Quiet Thing\" (Fred Ebb, John Kander) – 3:27\n\"Con Alma\" (Dizzy Gillespie) – 3:25\n\"The Shadow of Your Smile\" (Johnny Mandel, Paul Francis Webster) – 2:15\n\"Mi Cosa\" (Montgomery) – 3:15\n\"Here's That Rainy Day\" (Johnny Burke, Jimmy Van Heusen) – 4:50\n\"Musty\" (Don Sebesky) – 4:12\nBonus tracks on the CD release\n\n\"Just Walkin'\" – 3:00\n\"My One and Only Love\" (Robert Mellin, Guy Wood) – 4:09\n\"Just Walkin'\" [alternate take] – 3:37\n\n\n== Personnel ==\nWes Montgomery – guitar\nBob Cranshaw – bass\nGrady Tate – drums\nHarry Lookofsky – violin\nDavid Schwartz – viola\nCharles McCracken – cello\nMargaret Ross – harp\nRoger Kellaway – piano\nDon Sebesky – arranger, conductor\nCandido Camero – bongos, congas\nHarold Coletta – viola\nArnold Eidus – violin\nLewis Eley – violin\nPaul Gershman – violin\nLouis Haber – violin\nJulius Held – violin\nJoseph Malignaggi – violin\nHelcio Milito – drums\nGene Orloff – violin\nGeorge Ricci – violin, cello\nSol Shapiro – violin\n\n\n== Chart positions ==\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Bumpin' (Wes Montgomery album)",
+            "shortDescription": "1965 studio album by Wes Montgomery",
+            "extractHead": "Bumpin'   is an album by the American jazz guitarist Wes Montgomery, released in 1965. It reached number 116 on the Billboard Top LP's chart. It was Montgomery's first album to reach the charts.\n\n\n== Reception ==\n\nIn his AllMusic review, Shawn M. Haney praised the album: \"Not only is his brilliant command of the six-string present here, so is the vivid color tones of notes and blue notes played between. Backed up by a hauntingly beautiful and mesmerizing orchestra conducted and arranged by Don S"
+          },
+          {
+            "resolvedTitle": "Bump (album)",
+            "shortDescription": "2000 studio album by John Scofield Band",
+            "extractHead": "Bump is a studio album by jazz guitarist John Scofield that was released by Verve on March 14, 2000. The music is a fusion of Scofield's post-bop jazz compositions with funk, soul jazz and more modern touches of electronica.\n\n\n== Track listing ==\n\n\n== Personnel ==\nJohn Scofield – electric guitar, acoustic guitar (1–3, 6–8)\nMark Degli Antoni – keyboard sampler (2–4, 6, 8, 11)\nDavid Livolsi – electric bass (1, 7, 11)\nTony Scherr – electric bass (2, 8, 12), acoustic bass (5, 8–10, 12)\nChris Wood – "
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "bunk-bechet-in-boston",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "St. Louis Blues",
+    "contradictingQuote": "\"Theme – Royal Garden Blues\",\n            \"I’m Confessin’\",\n            \"Careless Love\"",
+    "skepticDecision": "The embedded-MBID tracklist is authoritative for this exact release; all six keyTracks claiming to be on the album are absent from it (the actual tunes are Theme – Royal Garden Blues, I'm Confessin', Careless Love, Summertime, etc.), a direct contradiction.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "keyTracks: St. Louis Blues, Ain't Misbehavin', I Never Knew, Never No Lament, Darktown Strutters' Ball, Basin Street Blues",
+        "problem": "None of the six listed keyTracks appear on the MB tracklist for this release; the actual tracklist is Theme - Royal Garden Blues / I'm Confessin' / Careless Love / Summertime / I Know That You Know / Sweet Georgia Brown / etc.",
+        "evidenceQuote": "Theme – Royal Garden Blues; I’m Confessin’; Careless Love; Summertime (Incomplete); I Know That You Know; Sweet Georgia Brown; Sleepy Time Down South; Sobbin’ Blues; Pistol Packin’ Mama; Dear Old Southland; Boogie Woogie; Muscat Ramble – Theme; Oh Didn’t He Ramble – Theme",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Album entity matches (MB embedded_mbid: release-group title 'Bunk & Bechet in Boston', year 2000, label Jazz Crusade Records; Bechet on clarinet/soprano). The albumDNA prose itself correctly names tracks that ARE on MB ('Theme - Royal Garden Blues', 'I'm Confessin''). But the keyTracks array is a completely different set of tunes, none on the MB tracklist -- this is the factual error. No wikipedia evidence available.",
+    "ours": {
+      "title": "Bunk & Bechet in Boston",
+      "artist": "Sidney Bechet",
+      "year": 1999,
+      "label": "Jazz Crusade Records",
+      "albumDNA": "With Bunk & Bechet in Boston (1999), clarinetist Sidney Bechet delivers a dixieland program for the Jazz Crusade Records label. Among the tracks are \"Theme – Royal Garden Blues\" and \"I’m Confessin’\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond.",
+      "keyTracks": [
+        "Theme – Royal Garden Blues",
+        "I’m Confessin’",
+        "Careless Love",
+        "Summertime (Incomplete)",
+        "I Know That You Know",
+        "Sweet Georgia Brown"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "16d610b4-afd6-4cb0-ba85-2ea3b3b6ed44",
+          "title": "Bunk & Bechet in Boston",
+          "date": "1999",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Bunk",
+            "Bechet",
+            "Pops Foster"
+          ],
+          "labels": [
+            {
+              "name": "Jazz Crusade Records",
+              "catalogNumber": "JCCD-3039"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "18e7294b-3f87-3d32-8e67-5bf0a201083f",
+            "title": "Bunk & Bechet in Boston",
+            "firstReleaseDate": "1999",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Theme – Royal Garden Blues",
+            "I’m Confessin’",
+            "Careless Love",
+            "Summertime (Incomplete)",
+            "I Know That You Know",
+            "Sweet Georgia Brown",
+            "Sleepy Time Down South",
+            "Sobbin’ Blues",
+            "Pistol Packin’ Mama",
+            "Dear Old Southland",
+            "Boogie Woogie",
+            "Muscat Ramble – Theme",
+            "Oh Didn’t He Ramble – Theme",
+            "Interview By Eddie Condon 10th March And Also By Wynne Paris 28th March"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "capricorn-rising",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "tenor saxophonist Sam Rivers leads a free jazz session recorded for Black Saint in 1993",
+    "contradictingQuote": "\"date\": \"1976\"",
+    "skepticDecision": "The very strong MB match (identical tracklist + same label/catalog + same title) dates the album 1976; the prose's 'recorded for Black Saint in 1993' is contradicted by the 1976 release date.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "tenor saxophonist Sam Rivers leads a free jazz session recorded for Black Saint in 1993",
+        "problem": "Wrong year. MB (search sim 1.0, exact title 'Capricorn Rising', same Black Saint label JC 3504, and an identical 4-track tracklist: Break Out, Capricorn Rising, Joycie Girl, Fall Out) dates the album 1976, not 1993. Also a co-led date (Don Pullen + Sam Rivers per MB), though naming Rivers as leader is acceptable editorial style.",
+        "evidenceQuote": "Capricorn Rising | date 1976 | artists: Don Pullen, Sam Rivers | Black Saint JC 3504",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Entity is correct (Sam Rivers, Capricorn Rising, Black Saint; wiki page is the right Sam Rivers, and the bio sentence about his multi-instrumentalism is verbatim and accurate). The hard error is the date: ours 1993 vs MB 1976, with the MB match very strong (identical tracklist + label + title). MB method is 'search' (strong but not infallible) so confidence < embedded, but no 1993 release appears anywhere in the evidence. All 4 keyTracks match. Co-leader Don Pullen omitted from our credit — worth noting but not itself a flag.",
+    "ours": {
+      "title": "Capricorn Rising",
+      "artist": "Sam Rivers",
+      "year": 1993,
+      "label": "Black Saint",
+      "albumDNA": "On Capricorn Rising, tenor saxophonist Sam Rivers leads a free jazz session recorded for Black Saint in 1993. Among the tracks are \"Break Out\" and \"Capricorn Rising\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond. Though most famously a tenor saxophonist, he also performed on soprano saxophone, bass clarinet, flute, harmonica, piano and viola.",
+      "keyTracks": [
+        "Break Out",
+        "Capricorn Rising",
+        "Joycie Girl",
+        "Fall Out"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "09fd9f71-1c4e-4927-ae49-f6a35d9726a7",
+          "title": "Capricorn Rising",
+          "date": "1976",
+          "country": "JP",
+          "status": "Official",
+          "artists": [
+            "Don Pullen",
+            "Sam Rivers"
+          ],
+          "labels": [
+            {
+              "name": "Black Saint",
+              "catalogNumber": "JC 3504"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "a26dadc0-217f-3b9e-a228-2997d0d06c98",
+            "title": "Capricorn Rising",
+            "firstReleaseDate": "1976",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Break Out",
+            "Capricorn Rising",
+            "Joycie Girl",
+            "Fall Out"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Sam_Rivers_(jazz_musician)",
+        "page": {
+          "requestedTitle": "Sam Rivers (jazz musician)",
+          "resolvedTitle": "Sam Rivers (jazz musician)",
+          "shortDescription": "American jazz musician and composer (1923–2011)",
+          "extract": "Samuel Carthorne Rivers (September 25, 1923 – December 26, 2011) was an American jazz musician and composer. Though most famously a tenor saxophonist, he also performed on soprano saxophone, bass clarinet, flute, harmonica, piano and viola.\nActive in jazz since the early 1950s, he earned wider attention during the mid-1960s spread of free jazz. Rivers was an influential and prominent artist in jazz music.\n\n\n== Early life ==\nRivers was born in El Reno, Oklahoma, United States. His father was a gospel musician who had sung with the Fisk Jubilee Singers and the Silverstone Quartet, exposing Rivers to music from an early age. His grandfather was Marshall W. Taylor, a religious leader from Kentucky. Rivers was stationed in California in the 1940s during a stint in the Navy. Here he performed semi-regularly with blues singer Jimmy Witherspoon. Rivers moved to Boston, Massachusetts, in 1947, where he studied at the Boston Conservatory with Alan Hovhaness.\nHe performed with Quincy Jones, Herb Pomeroy, Tadd Dameron and others.\n\n\n== Blue Note era ==\nIn 1959, Rivers began performing with 13-year-old drummer Tony Williams. Rivers was briefly a member of the Miles Davis Quintet in 1964, partly on Williams's recommendation. This edition of the quintet released a single live album, Miles in Tokyo, from a show recorded on July 14 at Kohseinenkin Hall. Rivers' tenure with the quintet was brief: he had engagements in Boston, and his playing style was too avant-garde for Davis during this period; he was replaced by Wayne Shorter shortly thereafter.\nRivers was signed by Blue Note Records, for whom he recorded four albums as leader and made several sideman appearances. Among noted sidemen on his own Blue Note albums were Jaki Byard, who appears on Fuchsia Swing Song (1964), Herbie Hancock and Freddie Hubbard. He appeared on Blue Note recordings by Tony Williams, Andrew Hill and Larry Young.\nRivers derived his music from bebop, but he was an adventurous player, adept at free jazz. The first of his Blue Note albums, Fuchsia Swing Song, adopts an approach sometimes called \"inside-outside\". Here the performer frequently obliterates the explicit harmonic framework (\"going outside\") but retains a hidden link so as to be able to return to it in a seamless fashion. Rivers brought the conceptual tools of bebop harmony to a new level in this process, united at all times with the ability to \"tell a story\", which Lester Young had laid down as a benchmark for the jazz improviser.\nHis powers as a composer were also in evidence in this period: the ballad \"Beatrice\" from Fuchsia Swing Song has become an important standard, particularly for tenor saxophonists. For instance, it is the first cut on Joe Henderson's 1985 The State of the Tenor, Vols. 1 & 2, and Stan Getz recorded it during the 1989 sessions eventually issued as Bossas & Ballads – The Lost Sessions.\n\n\n== Loft era ==\nDuring the 1970s, Rivers and his wife, Beatrice, ran a jazz loft called \"Studio Rivbea\" in New York City's NoHo district.  It was located on Bond Street in Lower Manhattan and was originally opened as a public performance space as part of the first New York Musicians Festival in 1970.  Critic John Litweiler has written that \"In New York Loft Jazz meant Free Jazz in the Seventies\" and Studio Rivbea was \"the most famous of the lofts\". The loft was important in the development of jazz because it was an example of artists creating their own performance spaces and taking responsibility for presenting music to the public. This allowed for music to be free of extra-musical concerns that would be present in a nightclub or concert hall situation. A series of recordings made at the loft were issued under the title Wildflowers on the Douglas label.\nRivers was also recruited by Clifford Thornton to lead a student world-music/free-jazz ensemble at Wesleyan University in 1971. During this era Rivers continued to record, including several albums for Impulse!: Streams, recorded live at Montreux, Hues (both records contain different trio performances later collated on CD as Trio Live), the quartet album Sizzle and his first big-band disc, Crystals; perhaps his best-known work from this period though is his appearance on Dave Holland's Conference of the Birds, in the company of Anthony Braxton and Barry Altschul.\n\n\n== Later career ==\nIn the early 1990s, he and his wife moved to Florida, in part to expand his orchestra compositions with a reading band in Orlando. This band became the longest-running"
+        }
+      }
+    }
+  },
+  {
+    "id": "carolina-shout-james-p-johnson",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Backwater Blues",
+    "contradictingQuote": "[\"Steeplechase Rag\", \"Twilight Rag\", \"Carolina Shout\", \"Baltimore Buzz\", \"Gypsy Blues\", \"Harlem Strut\", \"Eccentricity\", \"Don't Mess With Me\", \"Nervous Blues\", \"Ole Miss Blues\", \"I Ain't Givin' Nothin' Away\", \"Muscle Shoal Blues\", \"Farewell Blues\", \"Charleston\"]",
+    "skepticDecision": "Exact title and year (1988) match the Biograph release and two distinctive keyTracks ('Carolina Shout' and 'Harlem Strut') are present in its 14-track list, tying ours to this release; the other four keyTracks (Backwater Blues, Snowy Morning Blues, Chicago Blues, My Handy Man) are absent from that same list.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Key tracks: Backwater Blues, Snowy Morning Blues, Chicago Blues, My Handy Man",
+        "problem": "Four of the six listed keyTracks do not appear on this MB release tracklist",
+        "evidenceQuote": "Steeplechase Rag; Twilight Rag; Carolina Shout; Baltimore Buzz; Gypsy Blues; Harlem Strut; Eccentricity; Don't Mess With Me; Nervous Blues; Ole Miss Blues; I Ain't Givin' Nothin' Away; Muscle Shoal Blues; Farewell Blues; Charleston",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Entity matches: MB search match, topArtistSimilarity 1.0, James P. Johnson, title 'Carolina Shout', year 1988 matches MB date 1988 (Biograph, Compilation). 'Carolina Shout' and 'The Harlem Strut' (MB 'Harlem Strut', substring) match; the other four keyTracks are absent from the tracklist. Per spec a keyTracks mismatch caps the verdict at factual_error.",
+    "ours": {
+      "title": "Carolina Shout",
+      "artist": "James P. Johnson",
+      "year": 1988,
+      "label": "Various",
+      "albumDNA": "Recorded in 1988, Carolina Shout showcases James P. Johnson at the height of their creative powers, offering one of the finest expressions of Early Jazz. Carolina Shout remains a landmark of Early Jazz, cementing James P. Johnson's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Carolina Shout",
+        "Harlem Strut",
+        "Steeplechase Rag",
+        "Twilight Rag",
+        "Baltimore Buzz",
+        "Gypsy Blues"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "aa88a4f0-8de6-4fa0-80ff-1a127be8f021",
+          "title": "Carolina Shout",
+          "date": "1988",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "James P. Johnson"
+          ],
+          "labels": [
+            {
+              "name": "Biograph Records",
+              "catalogNumber": "BCD-105 DDD"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "573ca4f6-67c7-380a-b5d5-227e110c362b",
+            "title": "Carolina Shout",
+            "firstReleaseDate": "1988",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Steeplechase Rag",
+            "Twilight Rag",
+            "Carolina Shout",
+            "Baltimore Buzz",
+            "Gypsy Blues",
+            "Harlem Strut",
+            "Eccentricity",
+            "Don't Mess With Me",
+            "Nervous Blues",
+            "Ole Miss Blues",
+            "I Ain't Givin' Nothin' Away",
+            "Muscle Shoal Blues",
+            "Farewell Blues",
+            "Charleston"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "celebration-mseleku",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "The Healing Song",
+    "contradictingQuote": "\"Celebration\",\n            \"One for All - All for One\",\n            \"Angola\"",
+    "skepticDecision": "The strong, exact MB match supplies a complete 10-track listing; the keyTrack 'The Healing Song' claimed to be on the album is absent from that full list, a direct contradiction.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "The Healing Song",
+        "problem": "Listed as a keyTrack but not on the album. MB tracklist for this World Circuit release has 10 tracks (Celebration, One for All - All for One, Angola, Blues for Afrika, The Age of Inner Knowing, The Messenger, Joy, Supreme Love, Cycle, Closer to the Source) and contains no 'The Healing Song' or 'Lullaby'.",
+        "evidenceQuote": "Celebration | One for All - All for One | Angola | Blues for Afrika | The Age of Inner Knowing | The Messenger | Joy | Supreme Love | Cycle | Closer to the Source",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Entity is correct (MB search sim 1.0: Bheki Mseleku, Celebration, 1992, World Circuit WCD 028; wiki page is the right album, confirms 'debut'). keyTracks 'Celebration' and 'Angola' match, but 'The Healing Song' and 'Lullaby' are not on the MB tracklist → keyTracks factual_error. SEPARATELY, the albumDNA personnel claim 'featuring Pharoah Sanders, Joe Henderson, and Elvin Jones' is UNVERIFIABLE — neither MB nor the thin wiki extract lists personnel (wiki only mentions Courtney Pine). Absence is not contradiction, so personnel left unverifiable, not flagged as wrong.",
+    "ours": {
+      "title": "Celebration",
+      "artist": "Bheki Mseleku",
+      "year": 1992,
+      "label": "World Circuit",
+      "albumDNA": "South African pianist and multi-instrumentalist Bheki Mseleku's triumphant debut, featuring Pharoah Sanders, Joe Henderson, and Elvin Jones. The album radiates spiritual warmth, combining Coltrane-influenced modal jazz with the melodic richness of South African church music. Introduced Mseleku to the international jazz world and demonstrated the continued vitality of the South African jazz tradition. His ability to unite American and African jazz masters was remarkable.",
+      "keyTracks": [
+        "Celebration",
+        "Angola",
+        "One for All - All for One",
+        "Blues for Afrika"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "9d802c27-0ff9-4d6f-bd00-d2b1e60ace48",
+          "title": "Celebration",
+          "date": "1992",
+          "country": "GB",
+          "status": "Official",
+          "artists": [
+            "Bheki Mseleku"
+          ],
+          "labels": [
+            {
+              "name": "World Circuit",
+              "catalogNumber": "WCD 028"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "424bef8c-a5b3-30a5-bebb-ec2336d0814d",
+            "title": "Celebration",
+            "firstReleaseDate": "1992",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Celebration",
+            "One for All - All for One",
+            "Angola",
+            "Blues for Afrika",
+            "The Age of Inner Knowing",
+            "The Messenger",
+            "Joy",
+            "Supreme Love",
+            "Cycle",
+            "Closer to the Source"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Celebration_(Bheki_Mseleku_album)",
+        "page": {
+          "requestedTitle": "Celebration (Bheki Mseleku album)",
+          "resolvedTitle": "Celebration (Bheki Mseleku album)",
+          "shortDescription": "1991 studio album by Bheki Mseleku",
+          "extract": "Celebration is the debut album by the South African musician Bheki Mseleku. It was on the short list of nominees for the 1992 Mercury Prize. Courtney Pine contributed to the album, which was recorded in two days.\n\n\n== Critical reception ==\n\nThe Plain Dealer deemed the album \"a serious, heartfelt and a very enjoyable first effort.\"\nAllMusic wrote: \"While his percussive, slashing style is reminiscent of McCoy Tyner and Don Pullen, [Mseleku] has his own voicings, phrasing, rhythmic drive, and sound.\"\n\n\n== Track listing ==\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "chesed-the-book-beriah-volume-4",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "is a 2018 album",
+    "contradictingQuote": "\"date\": \"2019-04\"",
+    "skepticDecision": "Embedded-MBID (authoritative) release is dated 2019-04, directly contradicting the prose's explicit '2018 album'; the credited performers are Julian Lage and Gyan Riley, not a Masada ensemble. Right album, specific wrong fact -> factual_error stands.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "features his Masada ensemble",
+        "problem": "The prose attributes the performance to John Zorn's Masada ensemble, but the MB release credits the performers as Julian Lage and Gyan Riley (a guitar duo). Zorn composed the Book Beri'ah series, but he does not perform this volume.",
+        "evidenceQuote": "artists: Julian Lage, Gyan Riley",
+        "source": "mb"
+      },
+      {
+        "ourClaim": "Chesed (The Book Beriah Volume 4) is a 2018 album",
+        "problem": "Prose dates the album to 2018; the MB release date is 2019-04 (and the item's own year field is 2019).",
+        "evidenceQuote": "date: 2019-04",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Right album entity — embedded-MBID matches (Chesed: The Book Beri'ah, Volume 4, 2019-04, Tzadik, credited artists Julian Lage + Gyan Riley) and all 5 keyTracks (Katanot, Zeir Anpin, Sachel, Tohu, Hekhalot Zutari) are present in the MB tracklist — but the prose contains two contradicted claims: (1) the year '2018' vs MB 2019-04, and (2) 'features his Masada ensemble' vs the actual performers Lage + Gyan Riley. The framing 'part of Zorn's Book Beri'ah series' is itself defensible (Zorn composed the series), and the closing sentence does correctly tie the album to Julian Lage. Stored wiki is the Julian Lage artist page (correct co-artist). Verdict factual_error (right entity, specific contradicted claims). Repair: fix year to 2019 and replace 'his Masada ensemble' with the Julian Lage / Gyan Riley duo.",
+    "ours": {
+      "title": "Chesed: The Book Beri'ah, Volume 4",
+      "artist": "Julian Lage",
+      "year": 2019,
+      "label": "Tzadik",
+      "albumDNA": "Chesed (The Book Beriah Volume 4) is a 2018 album by composer and saxophonist John Zorn, released on Tzadik. Part of Zorn's Book Beriah series exploring the ten sefirot of Kabbalistic tradition, the album features his Masada ensemble navigating the intersection of Jewish musical themes and avant-garde jazz. From the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond, this album positions Julian Lage within the avant-garde jazz conversation of the time.",
+      "keyTracks": [
+        "Katanot",
+        "Zeir Anpin",
+        "Sachel",
+        "Tohu",
+        "Hekhalot Zutari"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "8f18685b-05bf-4dad-938e-69f5fa0673d4",
+          "title": "Chesed: The Book Beri'ah, Volume 4",
+          "date": "2019-04",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Julian Lage",
+            "Gyan Riley"
+          ],
+          "labels": [
+            {
+              "name": "Tzadik",
+              "catalogNumber": "5104"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "43c09890-c1e1-4931-b689-c6fa16951097",
+            "title": "Chesed: The Book Beri'ah, Volume 4",
+            "firstReleaseDate": "2019-04",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Katanot",
+            "Zeir Anpin",
+            "Sachel",
+            "Tohu",
+            "Hekhalot Zutari",
+            "Shevirah",
+            "Devekut",
+            "Dibor",
+            "Pnimiyut",
+            "Bohu"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Julian_Lage",
+        "page": {
+          "requestedTitle": "Julian Lage",
+          "resolvedTitle": "Julian Lage",
+          "shortDescription": "American guitarist and composer (born 1987)",
+          "extract": "Julian Price Lage ( LAHZH; born December 25, 1987) is an American guitarist and composer. \nA child prodigy, Lage performed at the 2000 Grammy Awards at age 12, and at 15, became a faculty member of the Stanford Jazz Workshop. He released his debut album, Sounding Point, in 2009 on EmArcy Records. He was signed to Blue Note Records in 2021, with whom he has released the albums Squint (2021), View with a Room (2022), The Layers EP (2023), Speak to Me (2024), and Scenes from Above (2026).\nLage currently teaches ensembles and guitar at The New School's School of Jazz and Contemporary Music in New York City.\n\n\n== Early life and career ==\nLage was born in Santa Rosa, California, and is the youngest of five children. His father, Mario, is a visual artist, and his mother is of Jewish heritage (although he did not grow up in a religious household). A child prodigy, Lage was the subject of the 1996 short documentary film Jules at Eight. At 12, he performed at the 2000 Grammy Awards. Three years later, he became a faculty member of the Stanford Jazz Workshop at Stanford University. Classically trained at the San Francisco Conservatory of Music, he has studied at Sonoma State University and the Ali Akbar College of Music. He graduated from the Berklee College of Music in 2008.\n\nOn March 24, 2009, EmArcy released his debut album Sounding Point to favorable reviews. It was nominated at the 2010 Grammy Awards for Best Contemporary Jazz Album. His second album, Gladwell, was released April 26, 2011, to positive reviews. His first solo acoustic album, World's Fair, was released on March 2, 2015, and his fourth album, Arclight, was released on March 11, 2016.In a 2016 interview promoting Arclight, on the NPR program Fresh Air, Lage revealed that around the time of the release of World's Fair, he struggled with focal dystonia, a neurological disorder resulting from the repeated performance of tasks. The disorder caused spasms in his left arm and hand while trying to play the guitar. He believed that the condition was brought on at age five from playing and gripping the neck of his guitar too hard, because the guitar was bigger than he was. At the time, he believed that was what he needed to do to \"sound official ... and [not] drop the guitar\". He had to \"re-learn how to play the guitar in a way that addressed these tendencies that got [him] in trouble in the first place\".\nHe has worked in a trio with bassist Scott Colley and drummer Kenny Wollesen and has recorded duo albums with guitarists Chris Eldridge, Gyan Riley, and Nels Cline. For the 2017 guitar duo album Mount Royal, Lage and Eldridge received a Grammy nomination for Best Contemporary Instrumental Album.\nLage is currently a faculty member at the School of Jazz and Contemporary Music at The New School in New York City, where he teaches ensembles and guitar. He has taught at the New England Conservatory of Music.\n\nOn March 17, 2021, it was announced that he signed to Blue Note Records. Along with the announcement, it was announced that his debut release on the label, entitled Squint, would be released on June 11. The lead single \"Saint Rose\" was released on that day as well.  April 9 saw the release of the second single, \"Boo's Blues\".  \nView with a Room was released on September 16, 2022. The lead single, \"Auditorium\", was released on June 21. This was followed by \"Word for Word\", the second single, which was released on July 13, the third, \"Tributary\", released on August 10, and the fourth, \"Chavez\", released on August 31.\nOn November 14, 2023, Lage released the single \"Omission\", continuing to use the acoustic instrumentation found on his EP The Layers, which was released on March 17, 2023.\n\n\n== Discography ==\n\n\n=== As leader/co-leader ===\nSounding Point (EmArcy, 2009)\nGladwell (EmArcy, 2011)\nClose to Picture with Chris Eldridge (self-released, 2013)\nFree Flying with Fred Hersch (Palmetto, 2013)\nAvalon with Chris Eldridge (Modern Lore, 2014)\nRoom with Nels Cline (Mack Avenue, 2014)\nWorld's Fair (Modern Lore, 2015)\nArclight (Mack Avenue, 2016)\nLive in Los Angeles (Mack Avenue, 2016)\nMount Royal with Chris Eldridge (Free Dirt, 2017)\nModern Lore (Mack Avenue, 2018)\nLove Hurts (Mack Avenue, 2019)\nSquint (Blue Note, 2021)\nView with a Room (Blue Note, 2022)\nThe Layers EP (Blue Note, 2023)\nSpeak to Me (Blue Note, 2024)\nScenes from Above (Blue Note, 2026)\n\n\n=== As sideman ===\nWith Gary Burton\n\nGenerations (Concord Jazz, 2004)\nNext Generation (Concord Jazz, 2005)\nCommon Ground (Mack A"
+        }
+      }
+    }
+  },
+  {
+    "id": "chet-baker-and-crew-chet-baker",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 1993, Chet Baker and Crew",
+    "contradictingQuote": "\"date\": \"1956\"",
+    "skepticDecision": "Search match on Chet Baker & Crew with five of six keyTracks matching exactly (the sixth differs by one letter, 'Lisa' vs 'Liza') ties ours to this Pacific Jazz release dated 1956 (release and release-group). A 1956 album cannot be 'Recorded in 1993' and no 1993 release appears in evidence -> factual_error on the year.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 1993, Chet Baker and Crew",
+        "problem": "Year is wrong; 'Chet Baker & Crew' was recorded/released 1956 on Pacific Jazz (1993 is a CD-reissue year).",
+        "evidenceQuote": "date: 1956",
+        "source": "mb"
+      },
+      {
+        "ourClaim": "Something for Lisa",
+        "problem": "keyTrack title misspelled; MB tracklist has 'Something for Liza' (Liza, not Lisa).",
+        "evidenceQuote": "Something for Liza",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "MB search (sim 0.77): Chet Baker & Crew, 1956, Pacific Jazz — entity matches. 5 of 6 keyTracks match exactly; 'Something for Lisa' is a one-letter spelling error for MB 'Something for Liza'. Primary issue is the year (1993 vs 1956). Label 'Various' placeholder; MB shows Pacific Jazz.",
+    "ours": {
+      "title": "Chet Baker and Crew",
+      "artist": "Chet Baker",
+      "year": 1993,
+      "label": "Various",
+      "albumDNA": "Recorded in 1993, Chet Baker and Crew showcases Chet Baker at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Chet Baker and Crew remains a landmark of Cool Jazz, cementing Chet Baker's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "To Mickey's Memory",
+        "Slightly Above Moderate",
+        "Halema",
+        "Revelation",
+        "Something for Lisa",
+        "Lucius Lu"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 0.77,
+        "release": {
+          "mbid": "dbb02c72-d77e-44ed-bab1-df24b1a11114",
+          "title": "Chet Baker & Crew",
+          "date": "1956",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Chet Baker & Crew"
+          ],
+          "labels": [
+            {
+              "name": "Pacific Jazz",
+              "catalogNumber": "PJ-1224"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "dde96c0e-4af1-44d8-b3c9-fcd09239bf31",
+            "title": "Chet Baker & Crew",
+            "firstReleaseDate": "1956",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "To Mickey’s Memory",
+            "Slightly Above Moderate",
+            "Halema",
+            "Revelation",
+            "Something for Liza",
+            "Lucius Lu",
+            "Worrying the Life Out of Me",
+            "Medium Rock"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "clarinet-concertos-nos-1-and-2",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "stands as a distinguished entry in the swing canon",
+    "contradictingQuote": "Concerto for Clarinet and Orchestra no. 1 in F minor, op. 73: I. Allegro",
+    "skepticDecision": "The release is a classical recording — Weber's clarinet concertos performed by the Chicago Symphony under Jean Martinon, per the verbatim classical-movement tracklist and the artist credits. Calling it 'a distinguished entry in the swing canon' is a factual misdescription of what the album is, not mere opinion.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "stands as a distinguished entry in the swing canon",
+        "problem": "The release is a classical recording - Weber's clarinet concertos performed with the Chicago Symphony under conductor Jean Martinon - not swing or jazz; the prose misdescribes what the album is",
+        "evidenceQuote": "Concerto for Clarinet and Orchestra no. 1 in F minor, op. 73: I. Allegro",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Embedded MBID (authoritative) verifies title, year (1968-10), and label (RCA Red Seal LSC-3052). The keyTracks are German-language titles of exactly the same six Weber movements as the MB tracklist (op. 73 / op. 74, identical movement markings: Allegro, Adagio ma non troppo, Rondo/Allegretto, Andante con moto, Alla Polacca) - likely sourced from a German pressing of the same release group; not wrong works, but they do not match the resolved release's English titles, so listed as unmatched. The artist fieldIssue is low severity (cataloging the album under Goodman alone is a site convention, but embedded MB credit includes composer, orchestra, and conductor). Repair: rewrite DNA to describe Goodman's classical concerto recording, not 'swing'.",
+    "ours": {
+      "title": "Clarinet Concertos Nos. 1 And 2",
+      "artist": "Benny Goodman",
+      "year": 1968,
+      "label": "RCA Red Seal",
+      "albumDNA": "Benny Goodman's Clarinet Concertos Nos. 1 And 2, cut for RCA Red Seal in 1968, stands as a distinguished entry in the swing canon. The set list features 'Concerto for Clarinet and Orchestra no. 1 in F minor, op. 73: I. Allegro' and 'Concerto for Clarinet and Orchestra no. 1 in F minor, op. 73: II. Adagio ma non troppo' among its standout moments.",
+      "keyTracks": [
+        "Concerto for Clarinet and Orchestra no. 1 in F minor, op. 73: I. Allegro",
+        "Concerto for Clarinet and Orchestra no. 1 in F minor, op. 73: II. Adagio ma non troppo",
+        "Concerto for Clarinet and Orchestra no. 1 in F minor, op. 73: III. Rondo. Allegretto",
+        "Concerto for Clarinet and Orchestra no. 2 in E-flat major, op. 74: I. Allegro",
+        "Concerto for Clarinet and Orchestra no. 2 in E-flat major, op. 74: II. Andante con moto",
+        "Concerto for Clarinet and Orchestra no. 2 in E-flat major, op. 74: III. Alla Polacca"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "aa920ce1-ebae-4c95-8cf5-50de194ad9fa",
+          "title": "Clarinet Concertos Nos. 1 And 2",
+          "date": "1968-10",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Weber",
+            "Benny Goodman",
+            "Chicago Symphony",
+            "Jean Martinon"
+          ],
+          "labels": [
+            {
+              "name": "RCA Red Seal",
+              "catalogNumber": "LSC-3052"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "1caf1aa5-c48b-4feb-b67e-eae69df05801",
+            "title": "Clarinet Concertos Nos. 1 And 2",
+            "firstReleaseDate": "1968-10",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Concerto for Clarinet and Orchestra no. 1 in F minor, op. 73: I. Allegro",
+            "Concerto for Clarinet and Orchestra no. 1 in F minor, op. 73: II. Adagio ma non troppo",
+            "Concerto for Clarinet and Orchestra no. 1 in F minor, op. 73: III. Rondo. Allegretto",
+            "Concerto for Clarinet and Orchestra no. 2 in E-flat major, op. 74: I. Allegro",
+            "Concerto for Clarinet and Orchestra no. 2 in E-flat major, op. 74: II. Andante con moto",
+            "Concerto for Clarinet and Orchestra no. 2 in E-flat major, op. 74: III. Alla Polacca"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "clifford-brown-memorial-album-clifford-brown",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 2001, Clifford Brown Memorial Album",
+    "contradictingQuote": "\"firstReleaseDate\": \"1956\"",
+    "skepticDecision": "Upheld: MB release-group first release is 1956 and the work is a Compilation, so it could not have been recorded in 2001; the 2001 release is a reissue.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 2001, Clifford Brown Memorial Album showcases Clifford Brown at the height of their creative powers",
+        "problem": "Recording year wrong: the releaseGroup first release is 1956 (a Compilation), so the album cannot have been recorded in 2001. 2001 is the Blue Note CD reissue date (MB release date 2001, cat 7243 5 32141 2 8).",
+        "evidenceQuote": "\"title\": \"Memorial Album\", \"firstReleaseDate\": \"1956\", ... \"secondaryTypes\": [\"Compilation\"]",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Entity confirmed (MB embedded_mbid, exact artist, first 6 keyTracks match this 18-track compilation). It is a compilation of mid-1950s recordings; the original sessions predate 1956 but the pack evidence only cites the 1956 first-release, which already contradicts the 2001 'recorded in' claim. No Wikipedia.",
+    "ours": {
+      "title": "Clifford Brown Memorial Album",
+      "artist": "Clifford Brown",
+      "year": 2001,
+      "label": "Various",
+      "albumDNA": "Recorded in 2001, Clifford Brown Memorial Album showcases Clifford Brown at the height of their creative powers, offering one of the finest expressions of Bebop. Clifford Brown Memorial Album remains a landmark of Bebop, cementing Clifford Brown's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Bellarosa",
+        "Carvin' the Rock",
+        "Cookin'",
+        "Brownie Speaks",
+        "De-Dah",
+        "You Go to My Head"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "4e7edbc6-80c0-4496-8f27-c9de611c0dbe",
+          "title": "Clifford Brown Memorial Album",
+          "date": "2001",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Clifford Brown"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": "7243 5 32141 2 8"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "83e340a1-ba9b-3971-9737-f0cfdb6702bf",
+            "title": "Memorial Album",
+            "firstReleaseDate": "1956",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Bellarosa",
+            "Carvin' the Rock",
+            "Cookin'",
+            "Brownie Speaks",
+            "De-Dah",
+            "You Go to My Head",
+            "Carvin' the Rock (alternate take #1)",
+            "Cookin'",
+            "Carvin' the Rock (alternate take)",
+            "Wail Bait",
+            "Hymn of the Orient",
+            "Brownie Eyes",
+            "Cherokee",
+            "Easy Living",
+            "Minor Mood",
+            "Wail Bait (alternate take)",
+            "Cherokee (alternate take)",
+            "Hymn of the Orient (alternate take)"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "coltrane-jazz-john-coltrane",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 1961, Coltrane Jazz showcases John Coltrane at the height of their creative powers",
+    "contradictingQuote": "during two sessions in November and December, 1959",
+    "skepticDecision": "The DNA says 'Recorded in 1961', but Wikipedia states the sessions were in November and December 1959; a recording-year claim is directly contradicted regardless of the correct release year.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 1961, Coltrane Jazz showcases John Coltrane at the height of their creative powers",
+        "problem": "Recording year wrong: Wikipedia states the album was recorded in two sessions in November and December 1959 (with one 1960 track) and released in early 1961. 1961 is the release year, not the recording year.",
+        "evidenceQuote": "It was released in early 1961 on Atlantic Records. Most of the album features Coltrane playing with his former Miles Davis bandmates, pianist Wynton Kelly, bassist Paul Chambers and drummer Jimmy Cobb during two sessions in November and December, 1959.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Entity confirmed by both MB (embedded_mbid, Atlantic SD 1354) and Wikipedia ('Coltrane Jazz', 1961 studio album by John Coltrane); all 6 keyTracks match. ours.year 1961 is correct as the RELEASE year (Wikipedia agrees), so only the albumDNA verb 'Recorded in 1961' is the error — repair could change to 'Released in 1961'. Borderline (release-vs-recording wording); flagged because Wikipedia gives an explicit contradicting recording date. Genre 'Hard Bop' is editorial.",
+    "ours": {
+      "title": "Coltrane Jazz",
+      "artist": "John Coltrane",
+      "year": 1961,
+      "label": "Various",
+      "albumDNA": "Recorded in 1961, Coltrane Jazz showcases John Coltrane at the height of their creative powers, offering one of the finest expressions of Hard Bop. Coltrane Jazz remains a landmark of Hard Bop, cementing John Coltrane's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Little Old Lady",
+        "Village Blues",
+        "My Shining Hour",
+        "Fifth House",
+        "Harmonique",
+        "Like Sonny"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "710c8bad-ce09-4d33-a584-a396e5b74a1c",
+          "title": "Coltrane Jazz",
+          "date": "1961",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "John Coltrane"
+          ],
+          "labels": [
+            {
+              "name": "Atlantic",
+              "catalogNumber": "SD 1354"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "7a0612cb-03ed-3d66-8001-b58084a56b59",
+            "title": "Coltrane Jazz",
+            "firstReleaseDate": "1961",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Little Old Lady",
+            "Village Blues",
+            "My Shining Hour",
+            "Fifth House",
+            "Harmonique",
+            "Like Sonny",
+            "I'll Wait and Pray",
+            "Some Other Blues"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Coltrane Jazz (album)",
+          "resolvedTitle": "Coltrane Jazz",
+          "shortDescription": "1961 studio album by John Coltrane",
+          "extract": "Coltrane Jazz is a studio album by the jazz musician John Coltrane. It was released in early 1961 on Atlantic Records. Most of the album features Coltrane playing with his former Miles Davis bandmates, pianist Wynton Kelly, bassist Paul Chambers and drummer Jimmy Cobb during two sessions in November and December, 1959. The exception is the track \"Village Blues\", which was recorded October 21, 1960. \"Village Blues\" comes from the first recording session featuring Coltrane playing with pianist McCoy Tyner and drummer Elvin Jones, who toured and recorded with Coltrane as part of his celebrated \"classic quartet\" from 1960 to 1965.\n\n\n== Background ==\nIn 1959, Miles Davis' business manager Harold Lovett negotiated a contract for Coltrane with Atlantic, the terms including a $7000 annual guarantee. After having recorded most of Giant Steps in May of that year, Coltrane started having bridge problems, and did not return to a recording studio for six months. When he returned to the studio in November and December for the Coltrane Jazz recording sessions, he employed the rhythm section from the Miles Davis Quintet. The sessions yielded the bulk of Coltrane Jazz, and the track \"Naima,\" which was included on the Giant Steps album. \"Like Sonny,\" a tribute to colleague Sonny Rollins, is based on a melodic figure that Sonny Rollins can be heard playing at 3:22 during his solo on \"My Old Flame\" on Kenny Dorham's 1957 album Jazz Contrasts. (Coltrane made one further studio recording of \"Like Sonny\" in September 1960 for Roulette Records, who issued the piece under the title \"Simple Like\" in 1962 on the album \"The Best of Birdland: Volume 1\".)\nAfter leaving Davis's band in the spring of 1960, Coltrane formed his first touring quartet for a residency at the Jazz Gallery club in Manhattan. Coltrane initially hired pianist Steve Kuhn and drummer Pete \"La Roca\" Sims for his group, along with bassist Steve Davis, but by September, the quartet's rhythm section consisted of Tyner, Jones, and Davis. This group entered the studio on October 21, recording \"Village Blues\" at the beginning of the week of sessions that produced Coltrane's My Favorite Things album.\nOn June 20, 2000, Rhino Records reissued Coltrane Jazz as part of its Atlantic 50th Anniversary Jazz Gallery series. Included were four bonus tracks, two of which had appeared in 1975 on the Atlantic compilation Alternate Takes, the remaining pair earlier issued on The Heavyweight Champion: The Complete Atlantic Recordings in 1995. Two bonus tracks, the alternate versions of \"Like Sonny\", had been recorded at the March 26, 1959 sessions that were not used for Giant Steps.\n\n\n== Track listing ==\n\n\n=== 2000 reissue bonus tracks ===\n\n\n== Personnel ==\n\n\n=== March 26, 1959 (\"Like Sonny\") ===\nJohn Coltrane – tenor saxophone\nCedar Walton – piano\nPaul Chambers – bass\nLex Humphries – drums\n\n\n=== November 24, 1959 & December 2, 1959 ===\nJohn Coltrane – tenor saxophone\nWynton Kelly – piano\nPaul Chambers – bass\nJimmy Cobb – drums\n\n\n=== October 21, 1960 (\"Village Blues\") ===\nJohn Coltrane – tenor saxophone\nMcCoy Tyner – piano\nSteve Davis – bass\nElvin Jones – drums\n\n\n=== Production ===\nNesuhi Ertegün – production\nTom Dowd, Phil Iehle – engineering\nLee Friedlander – photography\nEutemey – cover design\nZita Carno – liner notes\nPatrick Milligan – reissue supervision\nDan Hersch – digital remastering\nRachel Gutek – reissue design\nHugh Brown – reissue art direction\nNeil Tessler – reissue liner notes\nVanessa Atkins – reissue editorial supervision\nShawn Amos – reissue editorial coordination\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Coltrane Jazz",
+            "shortDescription": "1961 studio album by John Coltrane",
+            "extractHead": "Coltrane Jazz is a studio album by the jazz musician John Coltrane. It was released in early 1961 on Atlantic Records. Most of the album features Coltrane playing with his former Miles Davis bandmates, pianist Wynton Kelly, bassist Paul Chambers and drummer Jimmy Cobb during two sessions in November and December, 1959. The exception is the track \"Village Blues\", which was recorded October 21, 1960. \"Village Blues\" comes from the first recording session featuring Coltrane playing with pianist McC"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "cornbread-lee-morgan",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 2013, Cornbread",
+    "contradictingQuote": "Recorded in September 1965 but released on the Blue Note label in early 1967",
+    "skepticDecision": "Upheld: the entity-matched Wikipedia page states it was recorded in September 1965 (released 1967), directly contradicting a 2013 recording.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 2013, Cornbread showcases Lee Morgan at the height of their creative powers",
+        "problem": "Recorded September 1965 (released 1967), not 2013",
+        "evidenceQuote": "Recorded in September 1965 but released on the Blue Note label in early 1967",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "MB search sim 1.0 (Lee Morgan, Blue Note BLP 4222, 1965) and wiki 'Cornbread (album)' both our entity. All 5 keyTracks match. Only 'Recorded in 2013' is wrong.",
+    "ours": {
+      "title": "Cornbread",
+      "artist": "Lee Morgan",
+      "year": 2013,
+      "label": "Various",
+      "albumDNA": "Recorded in 2013, Cornbread showcases Lee Morgan at the height of their creative powers, offering one of the finest expressions of Hard Bop. Cornbread remains a landmark of Hard Bop, cementing Lee Morgan's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Cornbread",
+        "Our Man Higgins",
+        "Ceora",
+        "Ill Wind",
+        "Most Like Lee"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "f12c78de-91ec-4c4b-9e85-7ffddef7cdaa",
+          "title": "Cornbread",
+          "date": "1965",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Lee Morgan"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": "BLP 4222"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "bf89022d-c58d-3caf-96d9-423be81c7be3",
+            "title": "Cornbread",
+            "firstReleaseDate": "1965",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Cornbread",
+            "Our Man Higgins",
+            "Ceora",
+            "Ill Wind",
+            "Most Like Lee"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Cornbread (album)",
+          "resolvedTitle": "Cornbread (album)",
+          "shortDescription": "1967 studio album by Lee Morgan",
+          "extract": "Cornbread is an album by American jazz trumpeter Lee Morgan. Recorded in September 1965 but released on the Blue Note label in early 1967, the album features performances by Morgan, along with sidemen Herbie Hancock, Billy Higgins, Jackie McLean, Hank Mobley, and Larry Ridley.\nThough somewhat overshadowed by the commercial success of Morgan's previous album, The Sidewinder, and the artistic ambition of Search For The New Land, Cornbread is nevertheless noted as an example of Morgan's graduation to 'formidable' jazz composer status, as well as confirming his reputation as an exemplary trumpet player. The track 'Ceora' has become widely considered a jazz standard.\n\n\n== Track listing ==\nAll compositions by Lee Morgan, except where noted.\n\n\"Cornbread\" – 9:03\n\"Our Man Higgins\" – 8:54\n\"Ceora\" – 6:23\n\"Ill Wind\" (Harold Arlen, Ted Koehler) – 7:59\n\"Most Like Lee\" – 6:49\n\n\n== Personnel ==\nLee Morgan – trumpet, leader\nJackie McLean – alto saxophone\nHank Mobley – tenor saxophone\nHerbie Hancock – piano\nLarry Ridley – bass\nBilly Higgins – drums\n\n\n== Charts ==\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Cornbread (album)",
+            "shortDescription": "1967 studio album by Lee Morgan",
+            "extractHead": "Cornbread is an album by American jazz trumpeter Lee Morgan. Recorded in September 1965 but released on the Blue Note label in early 1967, the album features performances by Morgan, along with sidemen Herbie Hancock, Billy Higgins, Jackie McLean, Hank Mobley, and Larry Ridley.\nThough somewhat overshadowed by the commercial success of Morgan's previous album, The Sidewinder, and the artistic ambition of Search For The New Land, Cornbread is nevertheless noted as an example of Morgan's graduation "
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "dance-mania-tito-puente",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 2009, Dance Mania",
+    "contradictingQuote": "1958 studio album by Tito Puente",
+    "skepticDecision": "Upheld: Wikipedia describes it as a '1958 studio album by Tito Puente' and MB release-group first release is 1958, contradicting a 2009 recording.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 2009, Dance Mania showcases Tito Puente at the height of their creative powers",
+        "problem": "2009 is a reissue date; the album is a 1958 studio album",
+        "evidenceQuote": "Dance Mania is a studio album by American musician Tito Puente. The album was added to the National Recording Registry in 2002.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "MB embedded release is a 2009-04-21 DE reissue (Discos 605 / Legacy / RCA); release-group firstReleaseDate 1958; wiki short description '1958 studio album by Tito Puente'. All 6 keyTracks match. Only 'Recorded in 2009' is wrong. Genre label 'Swing' in DNA is editorial (Latin/mambo would be more apt) — not flagged per spec.",
+    "ours": {
+      "title": "Dance Mania",
+      "artist": "Tito Puente",
+      "year": 2009,
+      "label": "Various",
+      "albumDNA": "Recorded in 2009, Dance Mania showcases Tito Puente at the height of their creative powers, offering one of the finest expressions of Swing. Dance Mania remains a landmark of Swing, cementing Tito Puente's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "El cayuco",
+        "Complicación",
+        "3-D Mambo",
+        "Llegó Miján",
+        "Cuando te vea",
+        "Hong Kong Mambo"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "257bfe41-d453-4e81-a88b-01c67d8b2125",
+          "title": "Dance Mania",
+          "date": "2009-04-21",
+          "country": "DE",
+          "status": "Official",
+          "artists": [
+            "Tito Puente"
+          ],
+          "labels": [
+            {
+              "name": "Discos 605",
+              "catalogNumber": "8869 744710-2"
+            },
+            {
+              "name": "Legacy",
+              "catalogNumber": "8869 744710-2"
+            },
+            {
+              "name": "RCA",
+              "catalogNumber": "8869 744710-2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "522f179f-7c31-3a7c-95ed-c22218eba84f",
+            "title": "Dance Mania",
+            "firstReleaseDate": "1958",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "El cayuco",
+            "Complicación",
+            "3-D Mambo",
+            "Llegó Miján",
+            "Cuando te vea",
+            "Hong Kong Mambo",
+            "Mambo gozón",
+            "Mi chiquita quiere bembé",
+            "Varsity Drag Mambo",
+            "Estoy siempre junto a ti",
+            "Agua limpia todo",
+            "Saca tu mujer",
+            "El cayuco (outtake)",
+            "Estoy siempre junto a ti (out take #5)",
+            "Mambozooka",
+            "Havana After Dark",
+            "Cuál es la idea (What's the Idea)",
+            "Tito Guajira",
+            "Yambeque (Mambo Yambu)",
+            "Son de la loma",
+            "Guaririambo",
+            "Pa' los rumberos",
+            "A gozar timbero",
+            "Si te contara",
+            "Sepárala también",
+            "Caonao",
+            "Una mujer",
+            "Baila como es",
+            "Dance Mania",
+            "Porque te perdí",
+            "Guancona",
+            "Son guacha",
+            "Con sandunga",
+            "Cua cua",
+            "Si te contara (outtake)",
+            "A gozar timbero (outtake)",
+            "Una mujer (outtake)",
+            "Chanchullo",
+            "Guaguancó",
+            "Cha-con-cha"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Dance Mania (album)",
+          "resolvedTitle": "Dance Mania (album)",
+          "shortDescription": "1958 studio album by Tito Puente",
+          "extract": "Dance Mania is a studio album by American musician Tito Puente. The album was added to the National Recording Registry in 2002. It is also listed among the 1001 Albums You Must Hear Before You Die.\n\n\n== Track listing ==\nAll tracks written by Tito Puente, except where noted.\n\n\n== Personnel ==\nTito Puente – leader, arranger, timbales, vibraphone, marimba\nBernie Glow, Jimmy Frisaura, Frank Lo Pinto, George López, Gene Repetti, Larry Moser, León Merian – trumpet\nRafael Palau, Jerry Sanfino, Schapp Pullman, Tony Buonpastore – saxophone\nRaymond Concepción – piano\nBobby Rodríguez – bass\nRay Barretto – congas\nRay Rodríguez – bongos\nJulito Collazo – congas (tracks 4 and 11)\nSantitos Colón – lead vocals, chorus\nVitin Avilés, Otto Olivar – chorus\nMickey Crofford – original studio engineer\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Dance Mania (album)",
+            "shortDescription": "1958 studio album by Tito Puente",
+            "extractHead": "Dance Mania is a studio album by American musician Tito Puente. The album was added to the National Recording Registry in 2002. It is also listed among the 1001 Albums You Must Hear Before You Die.\n\n\n== Track listing ==\nAll tracks written by Tito Puente, except where noted.\n\n\n== Personnel ==\nTito Puente – leader, arranger, timbales, vibraphone, marimba\nBernie Glow, Jimmy Frisaura, Frank Lo Pinto, George López, Gene Repetti, Larry Moser, León Merian – trumpet\nRafael Palau, Jerry Sanfino, Schapp P"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "deliverance",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Baobab Sunset",
+    "contradictingQuote": "\"Tropical Garden\",\n            \"Ah Freak Sans Fric\",\n            \"Oh Oh\"",
+    "skepticDecision": "The embedded-MBID tracklist is the authoritative track set for this exact release; two listed keyTracks claiming to be on the album are absent from it, a direct contradiction.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "keyTracks: Baobab Sunset, Na selele",
+        "problem": "Two listed keyTracks do not appear on the authoritative (embedded_mbid) tracklist for this release.",
+        "evidenceQuote": "Tropical Garden, Ah Freak Sans Fric, Oh Oh, Canta, Mboa, Village's News, Gentlemen de Camp Yabassi, Deliverance",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "albumDNA itself is clean and entity-confirmed: MB embedded_mbid confirms Manu Dibango, Deliverance, 1987, Disques Esperance; the three tracks named in the prose (Tropical Garden, Ah Freak Sans Fric, Oh Oh) are all on the tracklist. Of the 6 keyTracks, Canta / Village's News / Deliverance / Gentlemen de Camp Yabassi match; 'Baobab Sunset' and 'Na selele' are not on this release (may belong to a different Dibango release). Wikipedia evidence is an opensearch disambiguation page, not our album — discarded.",
+    "ours": {
+      "title": "Deliverance",
+      "artist": "Manu Dibango",
+      "year": 1987,
+      "label": "Disques Espérance",
+      "albumDNA": "Manu Dibango's Deliverance, released on Disques Espérance in 1987, is a jazz fusion recording. The program includes \"Tropical Garden\", \"Ah Freak Sans Fric\", and \"Oh Oh\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond.",
+      "keyTracks": [
+        "Canta",
+        "Village’s News",
+        "Deliverance",
+        "Gentlemen de Camp Yabassi",
+        "Tropical Garden",
+        "Ah Freak Sans Fric"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "e58b87c5-2d39-4ce9-8411-d892b69325ce",
+          "title": "Deliverance",
+          "date": "1987",
+          "country": "FR",
+          "status": "Official",
+          "artists": [
+            "Manu Dibango"
+          ],
+          "labels": [
+            {
+              "name": "Disques Espérance",
+              "catalogNumber": "ESPCD 1904"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0423f496-518c-4b3f-adb7-3988ac88ba66",
+            "title": "Deliverance",
+            "firstReleaseDate": "1987",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Tropical Garden",
+            "Ah Freak Sans Fric",
+            "Oh Oh",
+            "Canta",
+            "Mboa",
+            "Village’s News",
+            "Gentlemen de Camp Yabassi",
+            "Deliverance"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Deliverance (album)",
+          "resolvedTitle": "Deliverance (disambiguation)",
+          "shortDescription": "Topics referred to by the same term",
+          "extract": "Deliverance is a 1972 film directed by John Boorman.\nDeliverance may also refer to:\n\n\n== Arts, entertainment, and media ==\n\n\n=== Film and television ===\nDeliverance (1919 film), a film about Helen Keller\nBloodRayne 2: Deliverance, a 2007 direct-to-video film\nSadgati (\"Salvation\" or \"Deliverance\"), a 1981 Hindi film directed by Satyajit Ray\n\"Deliverance\" (Doctors), a 2003 television episode\n\"Deliverance\" (Roseanne), a 1992 television episode\nThe Deliverance (film), a 2024 American horror film\n\n\n=== Music ===\n\n\n==== Bands ====\nDeliverance (metal band), an American Christian thrash metal band\nDeliverance (rock band), a German–Canadian group\n\n\n==== Albums ====\nDeliverance by Space (1977)\nDeliverance (Deliverance album) (1989)\nDeliverance (Corrosion of Conformity album) (1994)\nDeliverance (Baby D album) (1996)\nDeliverance (Citizen Kane album) (1999)\nDeliverance (Joi Cardwell album) (1999)\nDeliverance (You Am I album) (2002)\nDeliverance (Opeth album) (2002)\nDeliverance (Bubba Sparxxx album) (2003)\nDeliverance (Quietdrive album) (2008)\nThe Deliverance by Sway (2015)\n\n\n==== Songs ====\n\"Deliverance\" (Bubba Sparxxx song) (2003)\n\"Deliverance\" (You Am I song) (2003)\n\"Deliverance\", 1977 song by Space\n\"Deliverance\", 1984 song by Queensrÿche from The Warning\n\"Deliverance\", 1990 song by The Mission from Carved in Sand\n\"Deliverance\", 1995 song by Earth Crisis from Destroy the Machines\n\"Deliverance\", 2002 song by Opeth from Deliverance\n\"Deliverance\", 2003 song by Cult of Luna from The Beyond\n\"Deliverance\", 2006 song by Firewind from Allegiance\n\"Deliverance\", 2017 song by Varials from Pain Again\n\"Deliverance\", 2018 song by CHVRCHES\n\"Deliverance\", 2020 song by Within the Ruins from Black Heart\n\n\n=== Video games ===\nDeliverance (video game), a platformer released in 1992\nDeliverance: Stormlord II, by Hewson Consultants\nKingdom Come: Deliverance, an open-world role-playing game\n\n\n=== Other media ===\nMark Rutherford's Deliverance, an 1885 biography by Hale White, under his eponymous pseudonym\nA Deliverance, an 1898 novel by Allan Monkhouse\nDeliverance, a 1920 novel by E. L. Grant Watson\nDeliverance, a 1926 book by J. F. Rutherford\nDeliverance (novel), a 1970 novel by James Dickey; the basis for the 1972 film\nThe Deliverance, a 1904 historical novel by Ellen Glasgow\n\n\n== Military ==\nDeliverance of Vienna, a 1683 defeat of the Ottoman Empire by the Holy League\nOperation Deliverance, the 1992 Canadian Forces mission in Somalia\n\n\n== Other uses ==\nDeliverance Island (Queensland), in Australia's Torres Strait\nDeliverance ministry, a type of Christian prayer\nDeliverance (collection), a fashion collection by Alexander McQueen\n\n\n== See also ==\nDelivery (disambiguation)\nSalvation"
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Deliverance (disambiguation)",
+            "shortDescription": "Topics referred to by the same term",
+            "extractHead": "Deliverance is a 1972 film directed by John Boorman.\nDeliverance may also refer to:\n\n\n== Arts, entertainment, and media ==\n\n\n=== Film and television ===\nDeliverance (1919 film), a film about Helen Keller\nBloodRayne 2: Deliverance, a 2007 direct-to-video film\nSadgati (\"Salvation\" or \"Deliverance\"), a 1981 Hindi film directed by Satyajit Ray\n\"Deliverance\" (Doctors), a 2003 television episode\n\"Deliverance\" (Roseanne), a 1992 television episode\nThe Deliverance (film), a 2024 American horror film\n\n\n="
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "desmond-blue-paul-desmond",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 1998, Desmond Blue",
+    "contradictingQuote": "\"date\": \"1962\"",
+    "skepticDecision": "Upheld: MB gives the original release date as 1962, and a recording cannot postdate its own original release, so 'Recorded in 1998' is contradicted by the 1962 date.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 1998, Desmond Blue",
+        "problem": "Year is wrong; 'Desmond Blue' (Paul Desmond) was recorded/released 1962 on RCA Victor (1998 is a CD-reissue year).",
+        "evidenceQuote": "date: 1962",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "MB search (sim 1.0): Paul Desmond, 'Desmond Blue', 1962, RCA Victor — entity matches. All 6 keyTracks match the MB tracklist. Year is the only error (1998 vs 1962). Label 'Various' placeholder; MB shows RCA Victor.",
+    "ours": {
+      "title": "Desmond Blue",
+      "artist": "Paul Desmond",
+      "year": 1962,
+      "label": "Various",
+      "albumDNA": "Recorded in 1998, Desmond Blue showcases Paul Desmond at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Desmond Blue remains a landmark of Cool Jazz, cementing Paul Desmond's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "My Funny Valentine",
+        "Desmond Blue",
+        "Then I'll Be Tired of You",
+        "I've Got You Under My Skin",
+        "Late Lament",
+        "I Should Care"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "ca8804ba-5c26-4285-af39-9100d57402d6",
+          "title": "Desmond Blue",
+          "date": "1962",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Paul Desmond"
+          ],
+          "labels": [
+            {
+              "name": "RCA Victor",
+              "catalogNumber": "LPM-2438"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0d6dcd26-9b31-32c8-8d8a-cd3c326b7c95",
+            "title": "Desmond Blue",
+            "firstReleaseDate": "1962",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "My Funny Valentine",
+            "Desmond Blue",
+            "Then I’ll Be Tired of You",
+            "I’ve Got You Under My Skin",
+            "Late Lament",
+            "I Should Care",
+            "Like Someone in Love",
+            "Ill Wind",
+            "Body and Soul"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "destination-out-jackie-mclean",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 2014, Destination... Out! showcases Jackie McLean at the height of their creative powers",
+    "contradictingQuote": "\"firstReleaseDate\": \"1964-10\"",
+    "skepticDecision": "Both the release date and releaseGroup first release are 1964-10 (studio album), so a 2014 recording claim is contradicted.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 2014, Destination... Out!",
+        "problem": "the album dates to October 1964, not 2014",
+        "evidenceQuote": "date: 1964-10; releaseGroup.firstReleaseDate: 1964-10",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "MB search (similarity 1.0) resolves to 'Destination… Out!' (Jackie McLean, Blue Note, 1964-10; studio album). Both release date and release-group firstReleaseDate are 1964-10, contradicting albumDNA 'Recorded in 2014'. All 4 keyTracks (Love and Hate, Esoteric, Kahlil the Prophet, Riff Raff) match exactly.",
+    "ours": {
+      "title": "Destination... Out!",
+      "artist": "Jackie McLean",
+      "year": 2014,
+      "label": "Blue Note",
+      "albumDNA": "Recorded in 2014, Destination... Out! showcases Jackie McLean at the height of their creative powers, offering one of the finest expressions of Bebop. Destination... Out! remains a landmark of Bebop, cementing Jackie McLean's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Love and Hate",
+        "Esoteric",
+        "Kahlil the Prophet",
+        "Riff Raff"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "6b210f4d-3437-4188-9848-b23d2686f36c",
+          "title": "Destination… Out!",
+          "date": "1964-10",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Jackie McLean"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": "BLP 4165"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "07a5a1a8-6a14-39f6-ae74-5010f68c4635",
+            "title": "Destination… Out!",
+            "firstReleaseDate": "1964-10",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Love and Hate",
+            "Esoteric",
+            "Kahlil the Prophet",
+            "Riff Raff"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  }
+]

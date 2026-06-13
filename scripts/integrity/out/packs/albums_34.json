@@ -1,0 +1,1655 @@
+[
+ {
+  "id": "zimphonic-suites",
+  "kind": "album",
+  "ours": {
+   "title": "Zimphonic Suites",
+   "artist": "Zim Ngqawana",
+   "year": null,
+   "label": "Unknown",
+   "albumDNA": "'Zimphonic Suites' features Zim Ngqawana exploring contemporary jazz. Key tracks include 'Invocation' and 'Royal Drumming'.",
+   "keyTracks": [
+    "Invocation",
+    "Royal Drumming",
+    "Resolution",
+    "Diviners Ceremony",
+    "Ebhofolo"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "6c571bd0-e9a2-4c72-b235-9f2fde8b348e",
+     "title": "Zimphonic Suites",
+     "date": null,
+     "country": null,
+     "status": null,
+     "artists": [
+      "Zim Ngqawana"
+     ],
+     "labels": [],
+     "releaseGroup": {
+      "mbid": "2ce4658b-9031-449c-994c-28354109e94b",
+      "title": "Zimphonic Suites",
+      "firstReleaseDate": "",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Invocation",
+      "Royal Drumming",
+      "Resolution",
+      "Diviners Ceremony",
+      "Ebhofolo",
+      "Bantu",
+      "Säd Afrika",
+      "Ode to Princess Magogo",
+      "Old Blues",
+      "Compassion",
+      "www.kwantunent.com",
+      "Man & Woman",
+      "Man",
+      "Two To Tangle",
+      "Chisa",
+      "Gobbliesation",
+      "Beautiful Love"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "zum-trotz-featuring-bireli-lagrene",
+  "kind": "album",
+  "ours": {
+   "title": "Zum Trotz featuring Bireli Lagrene",
+   "artist": "Biréli Lagrène",
+   "year": null,
+   "label": "jazzpoint",
+   "albumDNA": "'Zum Trotz featuring Bireli Lagrene' features Biréli Lagrène exploring jazz. Key tracks include 'Doo in Peru' and 'Zum Trotz'. Features \"Doo in Peru\" and \"Zum Trotz\" in a contemporary jazz context, highlighting Biréli Lagrène's interpretive range.",
+   "keyTracks": [
+    "Doo in Peru",
+    "Zum Trotz",
+    "Bireli Hi Gogoro",
+    "Mitti",
+    "Rue de Pierre"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "a285abc9-5416-4181-85b9-f89388c2754e",
+     "title": "Zum Trotz featuring Bireli Lagrene",
+     "date": "",
+     "country": "DE",
+     "status": "Official",
+     "artists": [
+      "Ján Jankeje",
+      "Klaus Wagenleiter",
+      "Matthias Buck",
+      "Werner Braun",
+      "Biréli Lagrène"
+     ],
+     "labels": [
+      {
+       "name": "jazzpoint",
+       "catalogNumber": "jazzpoint 1016 CD"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "1246ed69-6fe1-4d9e-9a6c-c4c1bfd375f0",
+      "title": "Zum Trotz featuring Bireli Lagrene",
+      "firstReleaseDate": "",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Doo in Peru",
+      "Zum Trotz",
+      "Bireli Hi Gogoro",
+      "Mitti",
+      "Rue de Pierre",
+      "Paris",
+      "Berga",
+      "Bluma",
+      "Reinsburgstrasse",
+      "Down in Town",
+      "3rd Type Blues",
+      "Elsa-Marie"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "the-empress-of-the-blues-bessie-smith",
+  "kind": "album",
+  "ours": {
+   "title": "The Empress of the Blues",
+   "artist": "Bessie Smith",
+   "year": null,
+   "label": "Various",
+   "albumDNA": "The Empress of the Blues stands among Bessie Smith's most celebrated works, capturing the essential spirit of Early Jazz. The Empress of the Blues remains a landmark of Early Jazz, cementing Bessie Smith's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": null,
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "nobodys-blues-but-mine-bessie-smith",
+  "kind": "album",
+  "ours": {
+   "title": "Nobody's Blues But Mine",
+   "artist": "Bessie Smith",
+   "year": 1972,
+   "label": "Various",
+   "albumDNA": "Recorded in 1972, Nobody's Blues But Mine showcases Bessie Smith at the height of their creative powers, offering one of the finest expressions of Early Jazz. Nobody's Blues But Mine remains a landmark of Early Jazz, cementing Bessie Smith's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "Careless Love Blues",
+    "J.C. Holmes Blues",
+    "I Ain't Goin' to Play No Second Fiddle",
+    "He's Gone Blues",
+    "Nobody's Blues but Mine",
+    "I Ain't Got Nobody"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "a8329660-064f-4842-8dec-52478ffd1cd6",
+     "title": "Nobody's Blues But Mine",
+     "date": "1972",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Bessie Smith"
+     ],
+     "labels": [
+      {
+       "name": "Columbia",
+       "catalogNumber": "G 31093"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "52a646f2-e698-4593-af33-e2e161ab9bbf",
+      "title": "Nobody's Blues But Mine",
+      "firstReleaseDate": "1972",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "Careless Love Blues",
+      "J.C. Holmes Blues",
+      "I Ain't Goin' to Play No Second Fiddle",
+      "He's Gone Blues",
+      "Nobody's Blues but Mine",
+      "I Ain't Got Nobody",
+      "My Man Blues",
+      "New Gulf Coast Blues",
+      "Florida Bound Blues",
+      "At the Christmas Ball",
+      "I've Been Mistreated and I Don't Like It",
+      "Red Mountain Blues",
+      "Golden Rule Blues",
+      "Lonesome Desert Blues",
+      "Them \"Has Been\" Blues",
+      "Squeeze Me",
+      "What's the Matter Now?",
+      "I Want Ev'ry Bit of It",
+      "Jazzbo Brown From Memphis Town",
+      "The Gin House Blues",
+      "Money Blues",
+      "Baby Doll",
+      "Hard Driving Papa",
+      "Lost Your Head Blues",
+      "Hard Time Blues",
+      "Honey Man Blues",
+      "One and Two Blues",
+      "Young Woman's Blues",
+      "Preachin' the Blues",
+      "Back Water Blues",
+      "After You've Gone",
+      "Alexander's Ragtime Band"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "ma-raineys-black-bottom-ma-rainey",
+  "kind": "album",
+  "ours": {
+   "title": "Ma Rainey's Black Bottom",
+   "artist": "Ma Rainey",
+   "year": 1990,
+   "label": "Various",
+   "albumDNA": "Recorded in 1990, Ma Rainey's Black Bottom showcases Ma Rainey at the height of their creative powers, offering one of the finest expressions of Early Jazz. Ma Rainey's Black Bottom remains a landmark of Early Jazz, cementing Ma Rainey's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "Oh Papa Blues",
+    "Black Eye Blues (take 1)",
+    "\"Ma\" Rainey's Black Bottom",
+    "Booze and Blues",
+    "Blues Oh Blues",
+    "Sleep Talking Blues (take 1)"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "88e608c9-f4bd-47e6-b556-f31a8433bad2",
+     "title": "Ma Rainey's Black Bottom",
+     "date": "1990",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Ma Rainey"
+     ],
+     "labels": [
+      {
+       "name": "Yazoo Records",
+       "catalogNumber": "Yazoo 1071"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "cd87e3c7-ffe4-37e5-87bb-414518ff1e99",
+      "title": "Ma Rainey's Black Bottom",
+      "firstReleaseDate": "1990",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "Oh Papa Blues",
+      "Black Eye Blues (take 1)",
+      "\"Ma\" Rainey's Black Bottom",
+      "Booze and Blues",
+      "Blues Oh Blues",
+      "Sleep Talking Blues (take 1)",
+      "Lucky Rock Blues",
+      "Georgia Cake Walk",
+      "Don't Fish in My Sea",
+      "Stack O' Lee Blues",
+      "Shave 'em Dry Blues",
+      "Yonder Come the Blues (take 1)",
+      "Screech Owl Blues",
+      "Farewell Daddy Blues"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "father-of-stride-piano-james-p-johnson",
+  "kind": "album",
+  "ours": {
+   "title": "Father of Stride Piano",
+   "artist": "James P. Johnson",
+   "year": null,
+   "label": "Various",
+   "albumDNA": "Father of Stride Piano stands among James P. Johnson's most celebrated works, capturing the essential spirit of Early Jazz. Father of Stride Piano remains a landmark of Early Jazz, cementing James P. Johnson's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": null,
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "carolina-shout-james-p-johnson",
+  "kind": "album",
+  "ours": {
+   "title": "Carolina Shout",
+   "artist": "James P. Johnson",
+   "year": 1988,
+   "label": "Various",
+   "albumDNA": "Recorded in 1988, Carolina Shout showcases James P. Johnson at the height of their creative powers, offering one of the finest expressions of Early Jazz. Carolina Shout remains a landmark of Early Jazz, cementing James P. Johnson's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "Carolina Shout",
+    "The Harlem Strut",
+    "Backwater Blues",
+    "Snowy Morning Blues",
+    "Chicago Blues",
+    "My Handy Man"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "aa88a4f0-8de6-4fa0-80ff-1a127be8f021",
+     "title": "Carolina Shout",
+     "date": "1988",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "James P. Johnson"
+     ],
+     "labels": [
+      {
+       "name": "Biograph Records",
+       "catalogNumber": "BCD-105 DDD"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "573ca4f6-67c7-380a-b5d5-227e110c362b",
+      "title": "Carolina Shout",
+      "firstReleaseDate": "1988",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "Steeplechase Rag",
+      "Twilight Rag",
+      "Carolina Shout",
+      "Baltimore Buzz",
+      "Gypsy Blues",
+      "Harlem Strut",
+      "Eccentricity",
+      "Don't Mess With Me",
+      "Nervous Blues",
+      "Ole Miss Blues",
+      "I Ain't Givin' Nothin' Away",
+      "Muscle Shoal Blues",
+      "Farewell Blues",
+      "Charleston"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "new-orleans-joys-kid-ory",
+  "kind": "album",
+  "ours": {
+   "title": "New Orleans Joys",
+   "artist": "Kid Ory",
+   "year": null,
+   "label": "Various",
+   "albumDNA": "New Orleans Joys stands among Kid Ory's most celebrated works, capturing the essential spirit of Early Jazz. New Orleans Joys remains a landmark of Early Jazz, cementing Kid Ory's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": null,
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "kid-orys-creole-jazz-band-1954-kid-ory",
+  "kind": "album",
+  "ours": {
+   "title": "Kid Ory's Creole Jazz Band 1954",
+   "artist": "Kid Ory",
+   "year": 1996,
+   "label": "Various",
+   "albumDNA": "Recorded in 1996, Kid Ory's Creole Jazz Band 1954 showcases Kid Ory at the height of their creative powers, offering one of the finest expressions of Early Jazz. Kid Ory's Creole Jazz Band 1954 remains a landmark of Early Jazz, cementing Kid Ory's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "When the Saints Go Marching In",
+    "Maple Leaf Rag",
+    "Wolverine Blues",
+    "That’s a Plenty",
+    "Muskrat Ramble",
+    "Clarinet Marmalade"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 0.44,
+    "release": null,
+    "searchCandidates": [
+     {
+      "mbid": "5287381e-9d40-45e3-b0b6-90c8a1012201",
+      "title": "Kid Ory’s Creole Jazz Band 1954",
+      "score": 100,
+      "artists": [
+       "Kid Ory's Creole Jazz Band"
+      ],
+      "firstReleaseDate": "1991",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     }
+    ]
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "satch-plays-fats-louis-armstrong",
+  "kind": "album",
+  "ours": {
+   "title": "Satch Plays Fats",
+   "artist": "Louis Armstrong",
+   "year": null,
+   "label": "Various",
+   "albumDNA": "Satch Plays Fats stands among Louis Armstrong's most celebrated works, capturing the essential spirit of Early Jazz. Satch Plays Fats remains a landmark of Early Jazz, cementing Louis Armstrong's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "Honeysuckle Rose",
+    "Blue Turning Grey Over You",
+    "I'm Crazy 'Bout my Baby and My Baby's Crazy 'Bout Me",
+    "Squeeze Me",
+    "Keepin' Out of Mischief Now",
+    "All That Meat and No Potatoes"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "3719c8b4-43cb-486c-92fd-858bca2d475b",
+     "title": "Satch Plays Fats: A Tribute to the Immortal Fats Waller",
+     "date": "1955",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Louis Armstrong & His All‐Stars"
+     ],
+     "labels": [
+      {
+       "name": "Columbia",
+       "catalogNumber": "CL 708"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "e67a8008-e2a1-3df0-95d5-81c30c319175",
+      "title": "Satch Plays Fats: A Tribute to the Immortal Fats Waller",
+      "firstReleaseDate": "1955",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Honeysuckle Rose",
+      "Blue Turning Grey Over You",
+      "I'm Crazy 'Bout My Baby",
+      "Squeeze Me",
+      "Keepin' Out of Mischief Now",
+      "All That Meat and No Potatoes",
+      "I've Got a Feeling I'm Falling",
+      "(What Did I Do to Be So) Black and Blue",
+      "Ain't Misbehavin'"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "king-olivers-jazz-band-1923-king-oliver",
+  "kind": "album",
+  "ours": {
+   "title": "King Oliver's Jazz Band 1923",
+   "artist": "King Oliver",
+   "year": null,
+   "label": "Various",
+   "albumDNA": "King Oliver's Jazz Band 1923 stands among King Oliver's most celebrated works, capturing the essential spirit of Early Jazz. King Oliver's Jazz Band 1923 remains a landmark of Early Jazz, cementing King Oliver's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": null,
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "jelly-roll-morton-the-piano-rolls-jelly-roll-morton",
+  "kind": "album",
+  "ours": {
+   "title": "Jelly Roll Morton: The Piano Rolls",
+   "artist": "Jelly Roll Morton",
+   "year": null,
+   "label": "Various",
+   "albumDNA": "Jelly Roll Morton: The Piano Rolls stands among Jelly Roll Morton's most celebrated works, capturing the essential spirit of Early Jazz. Jelly Roll Morton: The Piano Rolls remains a landmark of Early Jazz, cementing Jelly Roll Morton's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": null,
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "new-orleans-memories-jelly-roll-morton",
+  "kind": "album",
+  "ours": {
+   "title": "New Orleans Memories",
+   "artist": "Jelly Roll Morton",
+   "year": 1950,
+   "label": "Various",
+   "albumDNA": "Recorded in 1950, New Orleans Memories showcases Jelly Roll Morton at the height of their creative powers, offering one of the finest expressions of Early Jazz. New Orleans Memories remains a landmark of Early Jazz, cementing Jelly Roll Morton's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "Mamie's Blues",
+    "Michigan Water Blues",
+    "Buddy Bolden's Blues",
+    "Winin' Boy Blues",
+    "Don't You Leave Me Here",
+    "Original Rags"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "5557832a-4ffe-410a-acf1-02ddf18c6746",
+     "title": "New Orleans Memories",
+     "date": "1950",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Jelly Roll Morton"
+     ],
+     "labels": [
+      {
+       "name": "Commodore Records",
+       "catalogNumber": "CR-8"
+      },
+      {
+       "name": "Commodore Records",
+       "catalogNumber": "FL 30,000"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "f164e035-c452-436b-a948-ee83e49e5b60",
+      "title": "New Orleans Memories",
+      "firstReleaseDate": "1950",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "Mamie's Blues",
+      "Michigan Water Blues",
+      "Buddy Bolden's Blues",
+      "Winin' Boy Blues",
+      "Don't You Leave Me Here",
+      "Original Rags",
+      "The Naked Dance",
+      "The Crave",
+      "Mister Joe",
+      "King Porter Stomp"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "bix-lives-bix-beiderbecke",
+  "kind": "album",
+  "ours": {
+   "title": "Bix Lives!",
+   "artist": "Bix Beiderbecke",
+   "year": 1989,
+   "label": "Various",
+   "albumDNA": "Recorded in 1989, Bix Lives! showcases Bix Beiderbecke at the height of their creative powers, offering one of the finest expressions of Early Jazz. Bix Lives! remains a landmark of Early Jazz, cementing Bix Beiderbecke's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "Clementine (from New Orleans)",
+    "Proud (of a Baby Like You)",
+    "Changes",
+    "(What Are You Waiting for) Mary",
+    "Lonely Melody",
+    "San"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "0923d516-e4a1-47b7-9c80-202fb13e4094",
+     "title": "Bix Lives!",
+     "date": "1989",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Bix Beiderbecke"
+     ],
+     "labels": [
+      {
+       "name": "Bluebird",
+       "catalogNumber": "6845-2-RB"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "7c181b3a-eb5b-35fa-818b-7340cc652058",
+      "title": "Bix Lives!",
+      "firstReleaseDate": "1989",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "Clementine (from New Orleans)",
+      "Proud (of a Baby Like You)",
+      "Changes",
+      "(What Are You Waiting for) Mary",
+      "Lonely Melody",
+      "San",
+      "Smile",
+      "Back in Your Own Back Yard",
+      "There Ain’t No Sweet Man That’s Worth the Salt of My Tears",
+      "Dardanella",
+      "The Love Nest",
+      "From Monday On",
+      "Sugar",
+      "Coquette",
+      "When (Take 2)",
+      "When (Take 3)",
+      "Loveable",
+      "My Pet",
+      "Forget‐Me‐Not",
+      "Louisiana",
+      "You Took Advantage of Me",
+      "Deep Down South",
+      "I’ll Be A Friend “With Pleasure”"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "handful-of-keys-fats-waller",
+  "kind": "album",
+  "ours": {
+   "title": "Handful of Keys",
+   "artist": "Fats Waller",
+   "year": 2000,
+   "label": "Various",
+   "albumDNA": "Recorded in 2000, Handful of Keys showcases Fats Waller at the height of their creative powers, offering one of the finest expressions of Early Jazz. Handful of Keys remains a landmark of Early Jazz, cementing Fats Waller's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "Handful of Keys",
+    "The Minor Drags",
+    "Do Me a Favor",
+    "Have a Little Dream on Me",
+    "You’re Not the Only Oyster in the Stew",
+    "Mandy"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "22e2dff9-f483-4c2a-9bf5-9f462950c538",
+     "title": "Handful of Keys",
+     "date": "2000",
+     "country": "DE",
+     "status": "Official",
+     "artists": [
+      "Fats Waller"
+     ],
+     "labels": [
+      {
+       "name": "Past Perfect Silver Line",
+       "catalogNumber": "204317-203"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "285c8c72-0305-37e6-b0c4-051444660b65",
+      "title": "Handful of Keys",
+      "firstReleaseDate": "2000",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "Handful of Keys",
+      "The Minor Drags",
+      "Do Me a Favor",
+      "Have a Little Dream on Me",
+      "You’re Not the Only Oyster in the Stew",
+      "Mandy",
+      "Let’s Pretend There’s a Moon",
+      "Honeysuckle Rose",
+      "I’ve Got My Fingers Crossed",
+      "B‐flat Blues",
+      "I Ain’t Got Nobody (and Nobody Cares for Me)",
+      "Dinah",
+      "Sweet Sue, Just You",
+      "Twelfth Street Rag",
+      "Why Do I Lie to Myself About You",
+      "Ain’t Misbehavin’",
+      "Everybody Loves My Baby"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Handful of Keys (album)",
+     "resolvedTitle": "Handful of Keys (album)",
+     "shortDescription": "1957 compilation album (live) by Fats Waller",
+     "extract": "A Handful of Keys is an album of live performances by jazz pianist Fats Waller & His Rhythm, the only authorized live performances of the musician. It features previously unreleased live radio transcriptions originally broadcast in 1938.\n\n\n== Track listing ==\n\"Ain't Misbehavin'\" (Waller, Harry Brooks, Andy Razaf) – 1:06\n\"The Joint is Jumpin'\" (Waller, J. C. Johnson, Razaf) – 3:00\n\"Inside\" (a.k.a. \"Inside This Heart of Mine\") (Waller) – 3:01\n\"I Had To Do It\" (Waller, Razaf) – 2:15\n\"E Flat Blues\" (Clarence Williams, Thomas Morris) – 2:48\n\"Hold My Hand\" (Waller, Johnson) – 2:28\n\"Stop Beatin' 'Round the Mulberry Bush\" (Clay Boland, Bickley Reichner) – 2:54\n\"What's The Matter With You\" (Jimmy Webb, Stan Levey) – 2:31\n\"Hallelujah\" (Vincent Youmans, Leo Robin, Clifford Grey) – 1:34\n\"What's Your Name\" (Fats Waller, Johnson) – 3:26\n\"I Simply Adore You\" (Paul Mann, Ned Weaver) – 2:37\n\"My Best Wishes\" (Samuel Pokrass, Ted Koehler) – 2:29\n\"Handful of Keys\" (Waller) – 1:57\n\"The Sheik of Araby\" (Ted Snyder, Harry B. Smith, Francis Wheeler) – 3:16\n\"The Flat Foot Floogie\" (Slim Gaillard, Slam Stewart, Bud Green) – 4:00\n\"St. Louis Blues\" (W. C. Handy) – 1:57\n\"Pent Up In a Penthouse\" (Williams, Tommie Connor) – 3:34\n\"Honeysuckle Rose\" (Waller, Razaf) – 3:40\n\"I Got Rhythm\" (George Gershwin, Ira Gershwin) – 2:36\n\"Some of These Days\" (Shelton Brooks) – 2:12\n\"After You've Gone\" (Turner Layton, Henry Creamer) – 2:01\n\"The Yacht Club Swing\" (Waller, Johnson, Herman Autrey) – 3:11\nRecorded live at NBC Studios and The Yacht Club, New York, in 1938\n\n\n== Personnel ==\nMusicians\n\nFats Waller – piano and vocals\nHerman Autrey – trumpet\nGene Sedric – clarinet and tenor saxophone\nAl Casey – guitar\nCedric Wallace – bass\nSlick Jones – drums\nProduction\n\nMike Ragogna, Glenn Korman – producer\nWill Friedwald – producer, liner notes\n\n\n== References =="
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Handful of Keys (album)",
+      "shortDescription": "1957 compilation album (live) by Fats Waller",
+      "extractHead": "A Handful of Keys is an album of live performances by jazz pianist Fats Waller & His Rhythm, the only authorized live performances of the musician. It features previously unreleased live radio transcriptions originally broadcast in 1938.\n\n\n== Track listing ==\n\"Ain't Misbehavin'\" (Waller, Harry Brooks, Andy Razaf) – 1:06\n\"The Joint is Jumpin'\" (Waller, J. C. Johnson, Razaf) – 3:00\n\"Inside\" (a.k.a. \"Inside This Heart of Mine\") (Waller) – 3:01\n\"I Had To Do It\" (Waller, Razaf) – 2:15\n\"E Flat Blues\" "
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "albert-ammons-and-meade-lux-lewis-albert-ammons",
+  "kind": "album",
+  "ours": {
+   "title": "Albert Ammons and Meade Lux Lewis",
+   "artist": "Albert Ammons",
+   "year": 1989,
+   "label": "Various",
+   "albumDNA": "Recorded in 1989, Albert Ammons and Meade Lux Lewis showcases Albert Ammons at the height of their creative powers, offering one of the finest expressions of Early Jazz. Albert Ammons and Meade Lux Lewis remains a landmark of Early Jazz, cementing Albert Ammons's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "Boogie Woogie Stomp",
+    "Chicago in Mind",
+    "Suitcase Blues",
+    "Boogie Woogie Blues",
+    "Untitled Ammons Original",
+    "Bass Goin’ Crazy"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "e1266c87-9b88-4bed-974b-aa0d763ca910",
+     "title": "The Complete Blue Note Recordings of Albert Ammons and Meade Lux Lewis",
+     "date": "1983",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Albert Ammons",
+      "Meade Lux Lewis"
+     ],
+     "labels": [
+      {
+       "name": "Mosaic Records",
+       "catalogNumber": "MR3-103"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "50877273-ef9f-4bfa-b7d2-6a6e73e25b14",
+      "title": "The Complete Blue Note Recordings of Albert Ammons and Meade Lux Lewis",
+      "firstReleaseDate": "1983",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "Boogie Woogie Stomp",
+      "Chicago in Mind",
+      "Suitcase Blues",
+      "Boogie Woogie Blues",
+      "Untitled Ammons Original",
+      "Bass Goin’ Crazy",
+      "Backwater Blues",
+      "Changes in Boogie Woogie",
+      "Easy Rider Blues",
+      "Twos and Fews",
+      "The Sheik of Araby",
+      "Honky Tonk Train Blues (EMI version)",
+      "The Blues: Part One",
+      "The Blues: Part Two",
+      "The Blues: Part Three",
+      "The Blues: Part Four",
+      "The Blues: Part Five",
+      "Untitled Lewis Original",
+      "Melancholy",
+      "Solitude",
+      "Honky Tonk Train Blues",
+      "Bass on Top",
+      "Six Wheel Chaser",
+      "Tell Your Story",
+      "Tell Your Story No. 2",
+      "Variations on a Theme, Part One: 19 Ways of Playing a Chorus",
+      "Variations on a Theme, Part Three: School of Rhythm",
+      "Variations on a Theme, Part Two: Self Portrait",
+      "Variations on a Theme, Part Four: Feeling Tomorrow Like I Feel Today",
+      "Rising Tide Blues",
+      "Yancey Special",
+      "Chicago Flyer",
+      "Blues Whistle",
+      "Meade's Blues"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "his-eye-is-on-the-sparrow-ethel-waters",
+  "kind": "album",
+  "ours": {
+   "title": "His Eye Is on the Sparrow",
+   "artist": "Ethel Waters",
+   "year": null,
+   "label": "Various",
+   "albumDNA": "His Eye Is on the Sparrow stands among Ethel Waters's most celebrated works, capturing the essential spirit of Early Jazz. His Eye Is on the Sparrow remains a landmark of Early Jazz, cementing Ethel Waters's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": null,
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "His Eye Is on the Sparrow (album)",
+     "resolvedTitle": "Mickey Newbury",
+     "shortDescription": "American singer-songwriter (1940–2002)",
+     "extract": "Milton Sims \"Mickey\" Newbury Jr. (May 19, 1940 – September 29, 2002) was an American singer-songwriter. He is a member of the Nashville Songwriters Hall of Fame.\n\n\n== Early life and career ==\nNewbury was born in Houston, Texas, on May 19, 1940, to Mamie Ellen (née Taylor) and Milton Newbury. As a teenager, Newbury sang tenor in a moderately successful vocal group called The Embers. The group opened for several famous performers, such as Sam Cooke and Johnny Cash. Although Newbury tried to make a living from his music by singing in clubs, he put his musical career on hold at age 19 when he joined the Air Force. After four years in the military, he again set his sights on making a living as a songwriter. Before long, he moved to Nashville and signed with the prestigious publishing company Acuff-Rose Music.\nNewbury started out releasing singles of his own, with his first release being \"Who's Gonna Cry (When I'm Gone)\" in 1964; he also wrote songs for other artists. In 1966, country star Don Gibson had a Top Ten country hit with Newbury's \"Funny, Familiar, Forgotten Feelings\" while Tom Jones scored a world hit with the same song.\nIn 1968, Newbury saw success with four Top 5 songs across four charts: \"Just Dropped In (To See What Condition My Condition Was In)\" No. 5 on the Pop/Rock chart by Kenny Rogers and the First Edition; \"Sweet Memories\" No. 1 on Easy Listening by Andy Williams; \"Time is a Thief\" No. 1 on the R&B chart by Solomon Burke; and \"Here Comes the Rain Baby\" No. 1 on the Country chart by Eddy Arnold. This feat has not been repeated.\n\n\n== Early career ==\nBased on his phenomenal success as a writer, Newbury scored a solo deal with RCA and recorded Harlequin Melodies. Sonically, the album is drastically different from anything else Newbury recorded. He largely disowned the album, considering its successor Looks Like Rain his true debut. In contrast to the subtle expressiveness of Newbury's prime work, Harlequin Melodies is overproduced and packed with often distracting instrumental touches, shifting tempos, and strange production effects. Some of the songs on Harlequin Melodies would be re-recorded by Newbury for later albums, with marked differences. \"How Many Times (Must The Piper Be Paid For His Song)\" was a highlight of Frisco Mabel Joy; \"Good Morning, Dear\" and \"Sweet Memories\" reappeared on Heaven Help the Child, and \"Here Comes The Rain Baby\" reappeared on A Long Road Home, the second to last album Newbury released. Blue To This Day was his final album, which was finished just before his death and released after he died.\nOwing to a verbal agreement with Steve Sholes, Newbury was able to get out of his five-year contract with RCA and sign with Mercury, where he could work with his good friends Jerry Kennedy and Bob Beckham. Just about every aspect of his next recording, Looks Like Rain, was unconventional by Nashville's standards at the time, beginning with Newbury's choice of studio. Cinderella Sound was located in a residential area of Madison and was run by guitarist Wayne Moss, who had converted his two-car garage into a recording studio. Newbury's decision to record outside the Nashville studio system would inspire other country singers, such as Waylon Jennings and Willie Nelson, who were also frustrated by the confines of Music City's traditional recording practices.\nNewbury would record three albums at Cinderella Sound that defied categorization. One significant aspect of their production is the inclusion of sound effects to link the songs, which gave the LPs a conceptual feel and would become a Newbury trademark. His next album, Frisco Mabel Joy, includes his most famous song, \"An American Trilogy,\" later made famous by Elvis Presley. The song is actually a medley of three 19th-century songs: \"Dixie\", a blackface minstrel song composed by Daniel Decatur Emmett that became the unofficial anthem of the Confederacy since the Civil War; \"All My Trials\", originally a Bahamian lullaby, but closely related to African American spirituals and well known through folk music revivalists; and \"The Battle Hymn of the Republic,\" the marching song of the Union Army during the Civil War.\nAccording to Joe Ziemer's Newbury memoir Crystal & Stone, Newbury was moved to perform the song—which had been banned by some southern radio stations—as a protest against censorship. It is the song most associated with Newbury and his highest-charting original recording, reaching No. 26 in 1972, and No. 9 on Billboard's Easy List"
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Mickey Newbury",
+      "shortDescription": "American singer-songwriter (1940–2002)",
+      "extractHead": "Milton Sims \"Mickey\" Newbury Jr. (May 19, 1940 – September 29, 2002) was an American singer-songwriter. He is a member of the Nashville Songwriters Hall of Fame.\n\n\n== Early life and career ==\nNewbury was born in Houston, Texas, on May 19, 1940, to Mamie Ellen (née Taylor) and Milton Newbury. As a teenager, Newbury sang tenor in a moderately successful vocal group called The Embers. The group opened for several famous performers, such as Sam Cooke and Johnny Cash. Although Newbury tried to make a"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "the-blue-note-sessions-sidney-bechet",
+  "kind": "album",
+  "ours": {
+   "title": "The Blue Note Sessions",
+   "artist": "Sidney Bechet",
+   "year": null,
+   "label": "Various",
+   "albumDNA": "The Blue Note Sessions stands among Sidney Bechet's most celebrated works, capturing the essential spirit of Early Jazz. The Blue Note Sessions remains a landmark of Early Jazz, cementing Sidney Bechet's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": null,
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "red-norvo-and-his-orchestra-red-norvo",
+  "kind": "album",
+  "ours": {
+   "title": "Red Norvo and His Orchestra",
+   "artist": "Red Norvo",
+   "year": 2001,
+   "label": "Various",
+   "albumDNA": "Recorded in 2001, Red Norvo and His Orchestra showcases Red Norvo at the height of their creative powers, offering one of the finest expressions of Early Jazz. Red Norvo and His Orchestra remains a landmark of Early Jazz, cementing Red Norvo's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "Put Your Heart in a Song",
+    "Wigwammin'",
+    "The Sunny Side of Things",
+    "How Can I Thank You?",
+    "Garden of the Moon",
+    "Just You, Just Me"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 0.5,
+    "release": null,
+    "searchCandidates": [
+     {
+      "mbid": "ee8fc6f2-6bbd-4db9-a624-1511aaa3edc2",
+      "title": "The Chronological Classics: Red Norvo and His Orchestra 1936-1937",
+      "score": 100,
+      "artists": [
+       "Red Norvo and His Orchestra"
+      ],
+      "firstReleaseDate": "2000",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     {
+      "mbid": "dbc98d3a-08f6-4f01-8c75-c955f564f0c5",
+      "title": "The Chronological Classics: Red Norvo and His Orchestra 1937-1938",
+      "score": 100,
+      "artists": [
+       "Red Norvo and His Orchestra"
+      ],
+      "firstReleaseDate": "2000",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     {
+      "mbid": "921d2a03-d863-44c2-8cf8-c1e7418983f9",
+      "title": "The Chronological Classics: Red Norvo and His Orchestra 1943-1944",
+      "score": 100,
+      "artists": [
+       "Red Norvo and His Orchestra"
+      ],
+      "firstReleaseDate": "2003",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     {
+      "mbid": "82f99ece-29b0-4425-a913-2a0d075e52b5",
+      "title": "The Chronological Classics: Red Norvo and His Orchestra 1939-1943",
+      "score": 100,
+      "artists": [
+       "Red Norvo and His Orchestra"
+      ],
+      "firstReleaseDate": "2002",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     {
+      "mbid": "13d9fe46-9c44-418c-b7a0-9099d11cef74",
+      "title": "The Chronological Classics: Red Norvo and His Orchestra 1945-1947",
+      "score": 100,
+      "artists": [
+       "Red Norvo and His Orchestra"
+      ],
+      "firstReleaseDate": "2005",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     }
+    ]
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "the-lion-roars-willie-the-lion-smith",
+  "kind": "album",
+  "ours": {
+   "title": "The Lion Roars",
+   "artist": "Willie 'the Lion' Smith",
+   "year": 1998,
+   "label": "Various",
+   "albumDNA": "Recorded in 1998, The Lion Roars showcases Willie 'the Lion' Smith at the height of their creative powers, offering one of the finest expressions of Early Jazz. The Lion Roars remains a landmark of Early Jazz, cementing Willie 'the Lion' Smith's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "Ida, Sweet as Apple Cider",
+    "Somebody Stole My Gal",
+    "Apologies",
+    "Sendin' the Vipers",
+    "Mutiny in the Parlour",
+    "The Panic Is On"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "eae647f2-f0c0-41da-a3c6-957656c58189",
+     "title": "The Lion Roars! His Greatest Hits, 1934-1944",
+     "date": "1998",
+     "country": "GB",
+     "status": "Official",
+     "artists": [
+      "Willie “The Lion” Smith"
+     ],
+     "labels": [
+      {
+       "name": "Living Era",
+       "catalogNumber": "CD AJA 5272"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "eb31c2bf-6de3-3cd1-9652-084bdce7b6e0",
+      "title": "The Lion Roars! His Greatest Hits, 1934-1944",
+      "firstReleaseDate": "1998",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "Ida, Sweet as Apple Cider",
+      "Somebody Stole My Gal",
+      "Apologies",
+      "Sendin' the Vipers",
+      "Mutiny in the Parlour",
+      "The Panic Is On",
+      "What Can I Do With a Foolish Little Girl Like You?",
+      "Harlem Joys",
+      "Echoes of Spring",
+      "Swing, Brothers, Swing",
+      "The Swampland Is Calling Me",
+      "The Old Stamping Ground",
+      "Let's Mop It",
+      "Muskrat Ramble",
+      "Piano Solos - Morning Air",
+      "Piano Solos - Fading Star",
+      "Piano Solos - Rippling Waters",
+      "Piano Solos - Finger Buster",
+      "The Lion and the Lamb",
+      "I'm Coming Virginia",
+      "Limehouse Blues",
+      "Strange Fruit",
+      "Black and Blue",
+      "Jazz Me Blues"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "the-famous-1938-carnegie-hall-jazz-concert-benny-goodman",
+  "kind": "album",
+  "ours": {
+   "title": "The Famous 1938 Carnegie Hall Jazz Concert",
+   "artist": "Benny Goodman",
+   "year": 1999,
+   "label": "Various",
+   "albumDNA": "Recorded in 1999, The Famous 1938 Carnegie Hall Jazz Concert showcases Benny Goodman at the height of their creative powers, offering one of the finest expressions of Swing. The Famous 1938 Carnegie Hall Jazz Concert remains a landmark of Swing, cementing Benny Goodman's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "[Benny Goodman 1950 introduction]",
+    "Don't Be That Way",
+    "Sometimes I'm Happy",
+    "One O'Clock Jump",
+    "[applause / transition to Twenty Years of Jazz]",
+    "Sensation Rag"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "3a2e4758-35ae-408a-b81d-589b18ff0149",
+     "title": "The Famous 1938 Carnegie Hall Jazz Concert",
+     "date": "1999-11-08",
+     "country": "GB",
+     "status": "Official",
+     "artists": [
+      "Benny Goodman"
+     ],
+     "labels": [
+      {
+       "name": "Columbia",
+       "catalogNumber": "C2K 65143"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "d986aa1d-42d2-308a-a54b-d0339339ae01",
+      "title": "The Famous 1938 Carnegie Hall Jazz Concert",
+      "firstReleaseDate": "1950",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Live"
+      ]
+     },
+     "tracks": [
+      "[Benny Goodman 1950 introduction]",
+      "Don't Be That Way",
+      "Sometimes I'm Happy",
+      "One O'Clock Jump",
+      "[applause / transition to Twenty Years of Jazz]",
+      "Sensation Rag",
+      "I'm Coming Virginia",
+      "When My Baby Smiles at Me",
+      "Shine",
+      "Blue Reverie",
+      "[applause / transition back to Goodman orchestra]",
+      "Life Goes to a Party",
+      "[setting up for jam session]",
+      "Honeysuckle Rose",
+      "[applause / setting up & tuning up for BG small groups]",
+      "Body and Soul",
+      "[applause as Lionel Hampton enters]",
+      "Avalon",
+      "The Man I Love",
+      "I Got Rhythm",
+      "[silence]",
+      "Blue Skies",
+      "Loch Lomond",
+      "[applause / Benny Goodman's \"no encore\" announcement]",
+      "Blue Room",
+      "Swingtime in the Rockies",
+      "[applause / Martha Tilton returns to the stage]",
+      "Bei mir bist Du schön",
+      "[applause / setting-up for BG small groups]",
+      "China Boy",
+      "Stompin' at the Savoy",
+      "[applause / BG Quartet continues but changes program]",
+      "Dizzy Spells",
+      "[applause / transition back to Goodman orchestra for finale]",
+      "Sing Sing Sing (With a Swing)",
+      "[applause until encores]",
+      "If Dreams Come True",
+      "[applause for second encore]",
+      "Big John's Special",
+      "[silence]"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "the-benny-goodman-story-benny-goodman",
+  "kind": "album",
+  "ours": {
+   "title": "The Benny Goodman Story",
+   "artist": "Benny Goodman",
+   "year": 1995,
+   "label": "Various",
+   "albumDNA": "Recorded in 1995, The Benny Goodman Story showcases Benny Goodman at the height of their creative powers, offering one of the finest expressions of Swing. The Benny Goodman Story remains a landmark of Swing, cementing Benny Goodman's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "Down South Camp Meetin'",
+    "And the Angels Sing",
+    "Goodbye",
+    "Sing, Sing, Sing",
+    "Shine",
+    "One O'Clock Jump"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "ea0a1b47-b32d-31eb-abe9-902a61962587",
+     "title": "The Benny Goodman Story",
+     "date": "1995-10-24",
+     "country": "DE",
+     "status": "Official",
+     "artists": [
+      "Benny Goodman"
+     ],
+     "labels": [
+      {
+       "name": "Capitol Jazz",
+       "catalogNumber": "CDP 7243 8 33569 2 8"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "61789f61-f0d1-3ed2-ae31-477b9e60a3c3",
+      "title": "The Benny Goodman Story",
+      "firstReleaseDate": "1995-10-24",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "Down South Camp Meetin'",
+      "And the Angels Sing",
+      "Goodbye",
+      "Sing, Sing, Sing",
+      "Shine",
+      "One O'Clock Jump",
+      "Bugle Call Rag",
+      "King Porter Stomp",
+      "Let's Dance",
+      "Don't Be That Way",
+      "It's Been So Long",
+      "Sometimes I'm Happy",
+      "Goody Goody",
+      "Avalon",
+      "Moonglow",
+      "Alicia's Blues",
+      "Memories of You",
+      "China Boy",
+      "Seven Come Eleven"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "moonlight-serenade-glenn-miller",
+  "kind": "album",
+  "ours": {
+   "title": "Moonlight Serenade",
+   "artist": "Glenn Miller",
+   "year": 1992,
+   "label": "Various",
+   "albumDNA": "Recorded in 1992, Moonlight Serenade showcases Glenn Miller at the height of their creative powers, offering one of the finest expressions of Swing. Moonlight Serenade remains a landmark of Swing, cementing Glenn Miller's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "Moonlight Serenade",
+    "King Porter Stomp",
+    "Little Brown Jug",
+    "In the Mood",
+    "Tuxedo Junction",
+    "Pennsylvania 6-5000"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "d8d6d6c2-e725-4669-8d0f-03c4c9d8b2f0",
+     "title": "Moonlight Serenade",
+     "date": "2001",
+     "country": "NZ",
+     "status": null,
+     "artists": [
+      "Glenn Miller"
+     ],
+     "labels": [
+      {
+       "name": "Rajon Music Group",
+       "catalogNumber": "RMGR0205"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "7c2d77ce-422c-381c-8874-834627135252",
+      "title": "Moonlight Serenade",
+      "firstReleaseDate": "2001",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "In the Mood",
+      "Moonlight Serenade",
+      "Chatanooga Choo Choo",
+      "Pennsylvania 6-5000",
+      "Tuxedo Junction",
+      "American Patrol",
+      "Serenade in Blue",
+      "Happy in Love",
+      "Elmer's Tune",
+      "Moonlight Cocktail",
+      "St. Louis Blues",
+      "My Prayer",
+      "Back in Black",
+      "Kalamazoo",
+      "The Woodpecker Song",
+      "In a Sentimental Mood",
+      "The Jumpin' Jive",
+      "Don't Sit Under the Apple Tree",
+      "Johnson Rag",
+      "Anchors Aweigh"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Moonlight Serenade (album)",
+     "resolvedTitle": "Moonlight Serenade (disambiguation)",
+     "shortDescription": "Topics referred to by the same term",
+     "extract": "\"Moonlight Serenade\" is a 1939 American popular song with original music by Glenn Miller and subsequent lyrics by Mitchell Parish.\nMoonlight Serenade may also refer to:\n\nMoonlight Serenade (1967 film), Hong Kong film by Shaw Brothers Studios\nMoonlight Serenade (1997 film), Japanese film\nMoonlight Serenade (2009 film), American film\nMoonlight Serenade (Carly Simon album), 2005\nMoonlight Serenade (Wink album), 1988"
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Moonlight Serenade (disambiguation)",
+      "shortDescription": "Topics referred to by the same term",
+      "extractHead": "\"Moonlight Serenade\" is a 1939 American popular song with original music by Glenn Miller and subsequent lyrics by Mitchell Parish.\nMoonlight Serenade may also refer to:\n\nMoonlight Serenade (1967 film), Hong Kong film by Shaw Brothers Studios\nMoonlight Serenade (1997 film), Japanese film\nMoonlight Serenade (2009 film), American film\nMoonlight Serenade (Carly Simon album), 2005\nMoonlight Serenade (Wink album), 1988"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "begin-the-beguine-artie-shaw",
+  "kind": "album",
+  "ours": {
+   "title": "Begin the Beguine",
+   "artist": "Artie Shaw",
+   "year": 2005,
+   "label": "Various",
+   "albumDNA": "Recorded in 2005, Begin the Beguine showcases Artie Shaw at the height of their creative powers, offering one of the finest expressions of Swing. Begin the Beguine remains a landmark of Swing, cementing Artie Shaw's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "Begin the Beguine",
+    "Back Bay Shuffle",
+    "Any Old Time",
+    "Nightmare",
+    "Yesterdays",
+    "Rosalie"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "8b355af4-eaab-487e-85da-2b9f96851697",
+     "title": "Begin the Beguine",
+     "date": "2005-03-07",
+     "country": null,
+     "status": "Official",
+     "artists": [
+      "Artie Shaw"
+     ],
+     "labels": [
+      {
+       "name": "Documents",
+       "catalogNumber": "222738"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "fe1313a3-c814-44e1-81cf-c932ec1d525c",
+      "title": "Begin the Beguine",
+      "firstReleaseDate": "2005-03-07",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "The Japanese Sandman",
+      "A Pretty Girl I Like a Melody",
+      "I Used to Be Above Love",
+      "No Regrets",
+      "South Sea Island Magic",
+      "It Ain't Right",
+      "Sugar Foot Stomp",
+      "Thou Swell",
+      "You're Giving Me a Song and a Dance",
+      "Darling, Not Without You",
+      "One, Two, Button Your Shoe",
+      "Let's Call a Heart a Heart",
+      "The Skeleton in the Closet",
+      "There's Something in the Air",
+      "Take Another Guess",
+      "There's Frost on the Moon",
+      "Love and Learn",
+      "Moon Face",
+      "The Same Old Line",
+      "You Can Tell She Comes From Dixie",
+      "Sobbin' Blues",
+      "Copenhagen",
+      "Cream Puff",
+      "My Blue Heaven",
+      "Streamline",
+      "Sweet Lorraine",
+      "Love Is Good for Anything That Ails You",
+      "No More Tears",
+      "Moonlight and Shadows",
+      "Was It Rain?",
+      "All Alone",
+      "All God's Chillun Got Rhythm",
+      "It Goes to Your Feet",
+      "Because I Love You",
+      "Night and Day",
+      "I Surrender Dear",
+      "Blues Skies",
+      "Someday, Sweetheart",
+      "Afraid to Dream",
+      "If You Should Ever Leave"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Begin the Beguine (album)",
+     "resolvedTitle": "Begin the Beguine (album)",
+     "shortDescription": "1981 studio album by Julio Iglesias",
+     "extract": "Begin the Beguine is a studio album by Julio Iglesias, released in 1981 on CBS.\n\n\n== Track listing ==\n\n\n== Charts ==\n\n\n== Certifications ==\n\n\n== References =="
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Begin the Beguine (album)",
+      "shortDescription": "1981 studio album by Julio Iglesias",
+      "extractHead": "Begin the Beguine is a studio album by Julio Iglesias, released in 1981 on CBS.\n\n\n== Track listing ==\n\n\n== Charts ==\n\n\n== Certifications ==\n\n\n== References =="
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "flying-home-lionel-hampton",
+  "kind": "album",
+  "ours": {
+   "title": "Flying Home",
+   "artist": "Lionel Hampton",
+   "year": 2001,
+   "label": "Various",
+   "albumDNA": "Recorded in 2001, Flying Home showcases Lionel Hampton at the height of their creative powers, offering one of the finest expressions of Swing. Flying Home remains a landmark of Swing, cementing Lionel Hampton's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "A Taste of Honey",
+    "Midnite Sun",
+    "Let's Free It",
+    "Yesterday",
+    "Hamp's Boogie",
+    "Hey Baba Rebop"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "0ee597c8-a944-4385-80aa-d79574861748",
+     "title": "Flying Home",
+     "date": "2001",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Lionel Hampton"
+     ],
+     "labels": [
+      {
+       "name": "LRC Ltd.",
+       "catalogNumber": "20022"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "2d74e541-5852-3c1a-a818-ab7b840bcb4b",
+      "title": "Flying Home",
+      "firstReleaseDate": "2001",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "A Taste of Honey",
+      "Midnite Sun",
+      "Let's Free It",
+      "Yesterday",
+      "Hamp's Boogie",
+      "Hey Baba Rebop",
+      "Spinnin' Wheel",
+      "It's Gotta Be Me",
+      "My Way",
+      "Flying Home",
+      "Stardust"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ }
+]

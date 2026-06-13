@@ -1,0 +1,340 @@
+[
+ {
+  "id": "solo-masterpieces-vol-1-art-tatum",
+  "verdict": "no_evidence",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No MusicBrainz release (empty searchCandidates) and no Wikipedia page survived. albumDNA is pure boilerplate (artist name + 'Swing' editorial categorization) with no year/label/track claims to check. Nothing verifiable."
+ },
+ {
+  "id": "concerto-for-clarinet-artie-shaw",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 1.0) resolves to a 1994 Artie Shaw compilation 'Concerto for Clarinet' (Empress, GB). All 6 keyTracks match the MB tracklist exactly. albumDNA has no year claim. label field is the placeholder 'Various' (MB shows Empress, a compilation); not treated as a contradicting specific claim."
+ },
+ {
+  "id": "hamps-big-band-lionel-hampton",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 1.0) resolves to 'Hamp's Big Band' (1959, Audio Fidelity, Lionel Hampton and His Orchestra). All 6 keyTracks match with minor spelling variants (Hey! Ba-Ba-Re-Bop = 'Hey, Baba Re Bob'; Air Mail Special = 'Airmail Special'). No year claim in albumDNA. label placeholder 'Various' vs MB 'Audio Fidelity'."
+ },
+ {
+  "id": "the-complete-billie-holiday-on-verve-billie-holiday",
+  "verdict": "factual_error",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "Verve", "evidenceQuote": "Verve (catalog 517 658-2)", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 1993, The Complete Billie Holiday on Verve", "problem": "1993 is the compilation's release year, not when the music was recorded; this is a compilation of 1945-1959 recordings", "evidenceQuote": "The Complete Billie Holiday on Verve 1945–1959", "source": "mb"}
+  ],
+  "notes": "Entity confirmed via embedded MBID: Billie Holiday, Verve, 1993-03-09, release-group secondaryType 'Compilation'. The MB title verbatim states the recording span 1945-1959, contradicting albumDNA 'Recorded in 1993'. All 6 keyTracks match the MB tracklist. Right entity; the only error is the anachronistic 'Recorded in' year on a compilation."
+ },
+ {
+  "id": "jumpin-at-the-woodside-count-basie",
+  "verdict": "unverifiable",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "unsure", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB has no confident release (similarity 0.59); searchCandidates DO list Count Basie 'Jumpin' at the Woodside' issues, so the entity is plausibly right, but none carry a tracklist or year to verify against. The Wikipedia opensearch page 'Jumpin' at the Woodside (album)' is a DIFFERENT entity — a 1955 Buck Clayton jam-session album ('1955 studio album by Buck Clayton') — so it is discarded for fact-checking. albumDNA has no year claim; keyTracks (One O'Clock Jump, Swingin' the Blues, Every Tub etc. are genuine Basie titles) cannot be matched to any surviving tracklist. No contradictions, but nothing checkable survives."
+ },
+ {
+  "id": "glenn-millers-greatest-hits-glenn-miller",
+  "verdict": "unverifiable",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "unsure", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB has no confident release (similarity 0.62); one searchCandidate 'Glenn Miller Greatest Hits' (1996-04-16, Glenn Miller & His Orchestra, secondaryType Compilation) matches in name and matches ours-year 1996, so no year contradiction surfaces. Because it is a compilation, 'Recorded in 1996' most likely means the compilation release year, not the (much earlier) recording dates, but the evidence gives no verbatim recording date to confirm or contradict. Candidate carries no tracklist, so the 6 keyTracks (In the Mood, Moonlight Serenade etc.) cannot be checked."
+ },
+ {
+  "id": "way-out-west-sonny-rollins",
+  "verdict": "factual_error",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "Contemporary Records / Original Jazz Classics", "evidenceQuote": "Contemporary Records (S-7530); Original Jazz Classics (OJC-337)", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 1988, Way Out West", "problem": "1988 is the CD reissue year; the album was recorded and released in 1957", "evidenceQuote": "Way Out West is a 1957 album by American saxophonist Sonny Rollins, with bassist Ray Brown and drummer Shelly Manne", "source": "wiki"}
+  ],
+  "notes": "Entity confirmed (embedded MBID + matching Wikipedia). Wikipedia states the album is from 1957 and that 'When the album was reissued on CD in 1988 (and in subsequent years), some alternate takes were included' — 1988 is the reissue, contradicting albumDNA 'Recorded in 1988'. MB release-group firstReleaseDate is 1957. All 6 keyTracks match exactly. (Genre 'Bebop' is editorial categorization; not flagged.)"
+ },
+ {
+  "id": "drums-unlimited-max-roach",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "Atlantic", "evidenceQuote": "Atlantic (1467)", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 2004, Drums Unlimited", "problem": "the album dates to 1966, not 2004", "evidenceQuote": "date: 1966; releaseGroup.firstReleaseDate: 1966", "source": "mb"}
+  ],
+  "notes": "MB search (similarity 1.0) resolves to 'Drums Unlimited' (Max Roach, Atlantic, 1966; studio album, no secondaryTypes). Both the release date and the release-group firstReleaseDate are 1966, contradicting albumDNA 'Recorded in 2004'. All 6 keyTracks match the MB tracklist exactly."
+ },
+ {
+  "id": "free-for-all-art-blakey",
+  "verdict": "factual_error",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "Blue Note", "evidenceQuote": "Blue Note", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 2012, Free for All", "problem": "2012 is a reissue year; recorded February 1964, released July 1965", "evidenceQuote": "Free for All is a studio album by Art Blakey and the Jazz Messengers, recorded on February 10, 1964, and released on Blue Note Records in July 1965.", "source": "wiki"}
+  ],
+  "notes": "Entity confirmed (embedded MBID; Wikipedia matches Art Blakey & the Jazz Messengers). MB release is a 2012 reissue but release-group firstReleaseDate is 1964; Wikipedia gives recording date Feb 10 1964 / release July 1965 — both contradict albumDNA 'Recorded in 2012'. All 4 keyTracks (Free for All, Hammer Head, The Core, Pensativa) match."
+ },
+ {
+  "id": "dexter-calling-dexter-gordon",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "Blue Note", "evidenceQuote": "Blue Note (CDP 7 46544 2)", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 1987, Dexter Calling", "problem": "1987 is the CD reissue year; the album was first released in 1961", "evidenceQuote": "releaseGroup.firstReleaseDate: 1961-05-09", "source": "mb"}
+  ],
+  "notes": "Entity confirmed via embedded MBID: 'Dexter Calling…' (Dexter Gordon, Blue Note). The 1987 release is a CD reissue; release-group firstReleaseDate is 1961-05-09, contradicting albumDNA 'Recorded in 1987'. All 6 keyTracks match the MB tracklist (which also adds Smile, Landslide)."
+ },
+ {
+  "id": "the-gigolo-lee-morgan",
+  "verdict": "factual_error",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "Blue Note", "evidenceQuote": "Blue Note (0946 3 37762 2 7)", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 2006, The Gigolo", "problem": "2006 is a reissue year; the album was recorded in 1965 and released in 1968", "evidenceQuote": "It was recorded on June 25 & July 1, 1965 and features performances by Morgan with a quintet featuring Wayne Shorter, Harold Mabern, Bob Cranshaw and Billy Higgins.", "source": "wiki"}
+  ],
+  "notes": "Entity confirmed (embedded MBID; Wikipedia matches Lee Morgan). MB release is a 2006 reissue; release-group firstReleaseDate is 1966; Wikipedia says recorded 1965, released 1968 — all contradict albumDNA 'Recorded in 2006'. All 6 keyTracks match exactly."
+ },
+ {
+  "id": "roll-call-hank-mobley",
+  "verdict": "clean",
+  "confidence": 0.62,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 1.0) resolves to 'Roll Call' (Hank Mobley, Blue Note, 1960; release-group firstReleaseDate 1960). ours-year 1960 matches MB exactly, so 'Recorded in 1960' is not contradicted by the strongest source. NOTE a discrepancy: Wikipedia's short description calls it a '1961 studio album by Hank Mobley'. Since ours aligns with MB (1960) and the spec forbids flagging without a clear contradiction, left clean — but a human may want to confirm 1960 (recording) vs 1961 (release). All 6 keyTracks match the tracklist. label placeholder 'Various' vs Blue Note."
+ },
+ {
+  "id": "destination-out-jackie-mclean",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "Blue Note", "evidenceQuote": "Blue Note (BLP 4165)", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 2014, Destination... Out!", "problem": "the album dates to October 1964, not 2014", "evidenceQuote": "date: 1964-10; releaseGroup.firstReleaseDate: 1964-10", "source": "mb"}
+  ],
+  "notes": "MB search (similarity 1.0) resolves to 'Destination… Out!' (Jackie McLean, Blue Note, 1964-10; studio album). Both release date and release-group firstReleaseDate are 1964-10, contradicting albumDNA 'Recorded in 2014'. All 4 keyTracks (Love and Hate, Esoteric, Kahlil the Prophet, Riff Raff) match exactly."
+ },
+ {
+  "id": "savoy-sessions-charlie-parker",
+  "verdict": "factual_error",
+  "confidence": 0.78,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "Definitive Records", "evidenceQuote": "Definitive Records (DRCD 11148)", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 2016, Savoy Sessions", "problem": "this is a compilation of Charlie Parker's 1940s Savoy recordings; the matched compilation first released 2004, and ours-year 2016 matches neither the recordings nor the compilation", "evidenceQuote": "title: Complete Savoy Sessions; releaseGroup.firstReleaseDate: 2004; secondaryTypes: Compilation", "source": "mb"}
+  ],
+  "notes": "MB search (similarity 1.0) resolves to 'Complete Savoy Sessions' (Charlie Parker, Definitive Records, 2004; secondaryType Compilation). The 6 keyTracks all match the MB tracklist under take-suffix tolerance (alternate take 1/2/master = take 1/2/3). The underlying Savoy material is 1940s; 'Recorded in 2016' is anachronistic and also mismatches the compilation's 2004 first-release date. ours title 'Savoy Sessions' vs MB 'Complete Savoy Sessions' is a near-variant of the same Savoy series."
+ },
+ {
+  "id": "dizzy-atmosphere-dizzy-gillespie",
+  "verdict": "unverifiable",
+  "confidence": 0.55,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Things to Come"],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 1.0) resolves to a Dizzy Gillespie compilation 'Dizzy Atmosphere' (Flashback Home Entertainment, AU) with both release date and firstReleaseDate EMPTY — so the 'Recorded in 1997' year cannot be confirmed or contradicted by MB. The Wikipedia opensearch page is a DIFFERENT entity: a 1957 Specialty album that features members of Gillespie's orchestra (Lee Morgan, Al Grey, Billy Mitchell) but not Gillespie himself, with an unrelated tracklist (Dishwater, Whisper Not) — discarded for fact-checking. Of the 6 keyTracks, 5 match the MB compilation (Hot House, All the Things You Are, Groovin' High, Dizzy Atmosphere, and 'Blue Boogie' = 'Blue n' Boogie'); 'Things to Come' is NOT on the matched tracklist (likely just absent from this particular compilation, not a hard contradiction). No reliable year evidence survives; entity is right. Watch: the famous wrong-entity Specialty page is a disambiguation trap if ever linked."
+ },
+ {
+  "id": "jazz-giant-bud-powell",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 1.0) resolves to 'Jazz Giant' (Bud Powell, Norgran Records, 1956; secondaryType Compilation). All 6 keyTracks match the MB tracklist exactly. albumDNA has no year claim, so the compilation date raises no anachronism. label placeholder 'Various' vs Norgran."
+ },
+ {
+  "id": "it-could-happen-to-you-chet-baker",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "Riverside", "evidenceQuote": "Riverside (RLP-12-278)", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 2010, It Could Happen to You", "problem": "2010 is the OJC CD reissue year; the album is from 1958", "evidenceQuote": "In 2010, it was remastered and reissued on CD by Original Jazz Classics with two previously unissued takes.", "source": "wiki"}
+  ],
+  "notes": "Entity confirmed (MB similarity 1.0 + matching Wikipedia '(Chet Baker Sings) It Could Happen to You', 1958 studio album). Wikipedia states the 2010 date is a reissue, not the recording; MB firstReleaseDate is 1958 — contradicting albumDNA 'Recorded in 2010'. All 6 keyTracks match the MB tracklist."
+ },
+ {
+  "id": "jazz-goes-to-college-dave-brubeck",
+  "verdict": "unverifiable",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "unsure", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB has no confident release (similarity 0.67); one searchCandidate 'Jazz Goes to College' (The Dave Brubeck Quartet, 1954-03, secondaryType Live) matches in name and artist, so the entity is plausibly right. No tracklist on the candidate, so the 6 keyTracks (Balcony Rock, Le Souk, Take the 'A' Train etc.) cannot be checked. albumDNA has no year claim. No contradictions, nothing substantive verifiable."
+ },
+ {
+  "id": "getzgilberto-stan-getz",
+  "verdict": "clean",
+  "confidence": 0.5,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "title", "ours": "Getz/Gilberto", "evidence": "The Getz-Gilberto Story", "evidenceQuote": "title: The Getz-Gilberto Story", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "IMPORTANT caveat for human review: ours-title 'Getz/Gilberto' evokes the famous 1964 Stan Getz / João Gilberto bossa-nova album, but the MB match (similarity 1.0) and ALL 6 keyTracks belong to a different release — 'The Getz-Gilberto Story' (Deja Vu, IT, 1989), whose tracks (Diaper Pin, Interlude on Bebop, Stan's Mood, Always, Night and Day, I Got It Bad) are early/bop Stan Getz material, NOT the Gilberto collaboration (no Girl from Ipanema / Corcovado / Desafinado). Judging ours-vs-evidence strictly: artist Stan Getz matches and every keyTrack matches the provided MB tracklist exactly, so there is no contradiction to flag — hence 'clean' at low confidence. But this catalog entry likely conflates two distinct albums; a repair-writer should decide whether the intended album is the 1964 'Getz/Gilberto' (in which case title is right but tracks/MB are wrong) or 'The Getz-Gilberto Story' (in which case the title should change). No year claim (year null)."
+ },
+ {
+  "id": "reunion-with-chet-baker-gerry-mulligan",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "Pacific Jazz", "evidenceQuote": "Pacific Jazz (UCCQ-9394)", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 2018, Reunion with Chet Baker", "problem": "2018 is a Japanese CD reissue date; the album long predates it (MB first release 1988, and it is in fact a 1957 Gerry Mulligan Quartet date)", "evidenceQuote": "releaseGroup.firstReleaseDate: 1988", "source": "mb"}
+  ],
+  "notes": "Entity confirmed via embedded MBID: 'Reunion With Chet Baker' (Gerry Mulligan Quartet, Pacific Jazz). The MB release is a 2018-10-17 Japan reissue; release-group firstReleaseDate is 1988, which already contradicts albumDNA 'Recorded in 2018' (the actual original is 1957, but that is not in the pack evidence). All 6 keyTracks match the MB tracklist exactly."
+ },
+ {
+  "id": "smack-up-art-pepper",
+  "verdict": "factual_error",
+  "confidence": 0.62,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 1991, Smack Up", "problem": "1991 is a reissue year; Art Pepper's 'Smack Up' was first released October 1960", "evidenceQuote": "firstReleaseDate: 1960-10-24", "source": "mb"}
+  ],
+  "notes": "MB has no confident release (similarity 0.71), but the single searchCandidate is unambiguously this album — 'Smack Up' by the Art Pepper Quintet, firstReleaseDate 1960-10-24. That date contradicts albumDNA 'Recorded in 1991'. Confidence moderated because the date comes from a search candidate (weak-tier evidence) rather than a confident/embedded release. No tracklist available, so the 6 keyTracks cannot be checked. label placeholder 'Various'."
+ },
+ {
+  "id": "motion-lee-konitz",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "Verve", "evidenceQuote": "Verve (314 557 107-2)", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 1998, Motion", "problem": "1998 is an expanded reissue; the album was recorded in 1961", "evidenceQuote": "Motion is an album by jazz saxophonist Lee Konitz, recorded in 1961 for Verve Records.", "source": "wiki"}
+  ],
+  "notes": "Entity confirmed (embedded MBID + matching Wikipedia). Wikipedia: 'a 1998 release then expanded this to 38' tracks — 1998 is the expanded reissue, recording was 1961, contradicting albumDNA 'Recorded in 1998'. The MB release used here is the 1998 38-track expanded edition; all 6 keyTracks appear in that tracklist (the 5 original standards plus 'You Don't Know What Love Is')."
+ },
+ {
+  "id": "bags-trane-milt-jackson",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed via embedded MBID: 'Bags & Trane' (Milt Jackson + John Coltrane, Atlantic, 1961; studio album). ours-year 1961 matches both the release date and release-group firstReleaseDate exactly, so 'Recorded in 1961' is consistent. All 5 keyTracks match the MB tracklist exactly. label placeholder 'Various' vs Atlantic. Genuinely clean."
+ },
+ {
+  "id": "the-awakening-ahmad-jamal",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "unsure", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 1986, The Awakening", "problem": "the album was recorded in 1970; 1986 matches neither recording nor original release", "evidenceQuote": "The Awakening is an album by American jazz pianist Ahmad Jamal featuring trio performances with bassist Jamil Nasser and drummer Frank Gant recorded in 1970 for the Impulse! label.", "source": "wiki"}
+  ],
+  "notes": "MB has no confident release (similarity 0.71) but the searchCandidate 'The Awakening' (The Ahmad Jamal Trio, 1970-07) and the entity-matched Wikipedia page both point to a 1970 Ahmad Jamal album. Wikipedia explicitly states 'recorded in 1970', contradicting albumDNA 'Recorded in 1986'. All 6 keyTracks (The Awakening, I Love Music, Patterns, Dolphin Dance, You're My Everything, Stolen Moments) match the Wikipedia track listing (which also lists 'Wave')."
+ }
+]

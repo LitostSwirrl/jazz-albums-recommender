@@ -1,0 +1,216 @@
+[
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "waltz-for-debby",
+    "field": "albumDNA",
+    "repairClass": "entity_mismatch",
+    "before": "Waltz for Debby is the name of:\"Waltz for Debby\" (song), a 1956 jazz composition by Bill Evans later made into a song\nWaltz for Debby , album by Bill Evans\nWaltz for Debby , album by Monica Zetterlund and Bill Evans. Demonstrated the piano trio's potential for intimate, chamber-like jazz. Its influence on modern jazz piano is incalculable.",
+    "after": "Waltz for Debby is a 1961 live album credited to the Bill Evans Trio, issued on Riverside (RLP-9399). It includes the title waltz alongside standards such as \"My Foolish Heart\" and \"Detour Ahead.\"",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/b866e6df-abc3-48cd-9ecd-62acf6da47de"
+    ],
+    "evidenceUsed": "MusicBrainz: artist (Bill Evans Trio), label/cat (Riverside RLP-9399), Live secondaryType, tracks (Waltz for Debby, My Foolish Heart, Detour Ahead); year 1961 from ours. Wikipedia ignored (entityMatch=no, disambiguation page).",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "weather-report",
+    "field": "albumDNA",
+    "repairClass": "entity_mismatch",
+    "before": "\"Birdland\" is a jazz/pop song written by Joe Zawinul of the band Weather Report as a tribute to the Birdland nightclub in New York City, which appeared on the band's 1977 album Heavy Weather. The Manhattan Transfer won a Grammy Award with their 1979 version of the song, which had lyrics by Jon Hendricks. Quincy Jones won two Grammy Awards for the version of the piece he included on his 1989 album Back on the Block. The leading Cuban band Los Van Van included an extended interpolation of the piece in their song “Tim-Pop con Birdland”.",
+    "after": "Weather Report is the 1971 self-titled album by Weather Report, released on Columbia. It opens with \"Milky Way\" and \"Umbrellas\" and runs through pieces including \"Seventh Arrow\" and \"Orange Lady.\"",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/d32e7085-17a6-4acd-b90a-1c567960cfe1"
+    ],
+    "evidenceUsed": "MusicBrainz: artist/title (Weather Report, self-titled), releaseGroup firstReleaseDate 1971, tracks (Milky Way, Umbrellas, Seventh Arrow, Orange Lady); label Columbia + year 1971 from ours. Wikipedia ignored (entityMatch=no; it described the song Birdland).",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "whats-new",
+    "field": "albumDNA",
+    "repairClass": "entity_mismatch",
+    "before": "The Bridge is a studio album by jazz saxophonist Sonny Rollins, recorded in 1962. It was Rollins's first release following a three-year sabbatical and was his first album for RCA Victor. The saxophonist was joined by the musicians with whom he recorded for the next segment of his career: Jim Hall on guitar, Bob Cranshaw on bass, and Ben Riley on drums.",
+    "after": "What's New? is a 1962 album by Sonny Rollins, released on RCA Victor (catalogue LSP-2572). Its tracks include \"If Ever I Would Leave You,\" \"Jungoso,\" and \"The Night Has a Thousand Eyes.\"",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/835a9de4-2689-4749-8948-6a6428f5c712"
+    ],
+    "evidenceUsed": "MusicBrainz: artist (Sonny Rollins), title (What's New?), label/cat (RCA Victor LSP-2572), year 1962, tracks; consistent with ours. Wikipedia ignored (entityMatch=no; it was The Bridge).",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "xxi-century",
+    "field": "albumDNA",
+    "repairClass": "entity_mismatch",
+    "before": "XXI Century is a 2008 album by trumpeter and flugelhornist Claudio Roditi. The Brazilian-born, New York-based musician draws on both straight-ahead jazz and Latin rhythms, delivering a set that reflects decades of work bridging American jazz and Brazilian musical traditions. Captures pianist Gonzalo Rubalcaba in a 2011 contemporary jazz setting, adding to the recorded documentation of the contemporary era.",
+    "after": "XXI Century is a 2011 album by Cuban jazz pianist Gonzalo Rubalcaba, released on 5Passion. Its tracks include \"Nueva Cubana,\" \"Time Remembered,\" and \"Son XXI.\"",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/b2508e6f-8709-4ffc-919a-d3eda3617a9d",
+      "https://en.wikipedia.org/wiki/Gonzalo_Rubalcaba"
+    ],
+    "evidenceUsed": "MusicBrainz: artist (Gonzalo Rubalcaba), title, label (5Passion), year 2011, tracks (Nueva Cubana, Time Remembered, Son XXI). Wikipedia (entityMatch=yes): 'Cuban jazz pianist'.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "a-garland-of-red-red-garland",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Recorded in 2006, A Garland of Red showcases Red Garland at the height of their creative powers, offering one of the finest expressions of Bebop. A Garland of Red remains a landmark of Bebop, cementing Red Garland's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Recorded in 1956, A Garland of Red showcases Red Garland at the height of their creative powers, offering one of the finest expressions of Bebop. A Garland of Red remains a landmark of Bebop, cementing Red Garland's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/bf5b1a2f-11a0-48c6-b31e-f36dd6619f50"
+    ],
+    "evidenceUsed": "MusicBrainz releaseGroup.firstReleaseDate 1956 (the 2006 release is a JP reissue); corrected recording year only, rest preserved verbatim.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "a-ghetto-lullaby",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "A Ghetto Lullaby is a live album by American saxophonist Jackie McLean recorded at the Jazzhus Montmartre in 1973 and released on the SteepleChase label. Alto saxophonist Jackie McLean's post-bop sensibility is on display in this 1976 session, a document of the fusion era.",
+    "after": "A Ghetto Lullaby is a live album by American saxophonist Jackie McLean recorded at the Jazzhus Montmartre in 1973 and released on the SteepleChase label. Alto saxophonist Jackie McLean's post-bop sensibility is on display in this 1973 session, a document of the fusion era.",
+    "sourceUrl": [
+      "https://en.wikipedia.org/wiki/A_Ghetto_Lullaby",
+      "https://musicbrainz.org/release/2107875f-1bb8-43c1-bdb7-2d10d2661e4e"
+    ],
+    "evidenceUsed": "Wikipedia (entityMatch=yes): recorded at the Jazzhus Montmartre in 1973 (1976 was only the Inner City release). Corrected the session year from 1976 to 1973; editorial 'fusion era' left per skeptic; rest preserved.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "a-study-in-frustration-fletcher-henderson",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Recorded in 2011, A Study in Frustration showcases Fletcher Henderson at the height of their creative powers, offering one of the finest expressions of Early Jazz. A Study in Frustration remains a landmark of Early Jazz, cementing Fletcher Henderson's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "A Study in Frustration showcases Fletcher Henderson at the height of their creative powers, offering one of the finest expressions of Early Jazz. A Study in Frustration remains a landmark of Early Jazz, cementing Fletcher Henderson's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/8f016d61-6145-49c2-ac71-6cd85fc3077d"
+    ],
+    "evidenceUsed": "MusicBrainz: secondaryType Compilation, releaseGroup.firstReleaseDate 1994-06-14 (2011 is a reissue) — a compilation of 1920s-30s sides was not recorded in 2011; dropped the false 'Recorded in 2011' clause, rest preserved verbatim.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "a-swingin-affair-dexter-gordon",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Recorded in 1987, A Swingin' Affair showcases Dexter Gordon at the height of their creative powers, offering one of the finest expressions of Hard Bop. A Swingin' Affair remains a landmark of Hard Bop, cementing Dexter Gordon's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Recorded in 1962, A Swingin' Affair showcases Dexter Gordon at the height of their creative powers, offering one of the finest expressions of Hard Bop. A Swingin' Affair remains a landmark of Hard Bop, cementing Dexter Gordon's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/b12f58ca-ba44-45e7-9836-d22f93fe6f67",
+      "https://en.wikipedia.org/wiki/A_Swingin%27_Affair"
+    ],
+    "evidenceUsed": "Wikipedia (entityMatch=yes): 'recorded in 1962'; MusicBrainz date 1962. Corrected recording year 1987 -> 1962, rest preserved verbatim.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "afro-dizzy-gillespie",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Recorded in 2022, Afro showcases Dizzy Gillespie at the height of their creative powers, offering one of the finest expressions of Bebop. Afro remains a landmark of Bebop, cementing Dizzy Gillespie's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Released in 1954, Afro showcases Dizzy Gillespie at the height of their creative powers, offering one of the finest expressions of Bebop. Afro remains a landmark of Bebop, cementing Dizzy Gillespie's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "sourceUrl": [
+      "https://en.wikipedia.org/wiki/Afro_(album)"
+    ],
+    "evidenceUsed": "Wikipedia (entityMatch=yes, Afro (album)): 'released in November 1954 through Norgran Records'. Recording date not in evidence, so changed 'Recorded in 2022' to 'Released in 1954'; rest preserved. MusicBrainz ignored (entityMatch=no, wrong release).",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "art-pepper-meets-the-rhythm-section-art-pepper",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Recorded in 2000, Art Pepper Meets the Rhythm Section showcases Art Pepper at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Art Pepper Meets the Rhythm Section remains a landmark of Cool Jazz, cementing Art Pepper's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Recorded in 1957, Art Pepper Meets the Rhythm Section showcases Art Pepper at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Art Pepper Meets the Rhythm Section remains a landmark of Cool Jazz, cementing Art Pepper's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/bc18d7d7-dd2e-4347-ae50-6639a4060928"
+    ],
+    "evidenceUsed": "MusicBrainz releaseGroup.firstReleaseDate 1957-01-01 (the 2000 release is a CD reissue). Corrected recording year only, rest preserved verbatim.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "at-the-stratford-shakespearean-festival-oscar-peterson",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Recorded in 1993, At the Stratford Shakespearean Festival showcases Oscar Peterson at the height of their creative powers, offering one of the finest expressions of Bebop. At the Stratford Shakespearean Festival remains a landmark of Bebop, cementing Oscar Peterson's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Recorded in 1957, At the Stratford Shakespearean Festival showcases Oscar Peterson at the height of their creative powers, offering one of the finest expressions of Bebop. At the Stratford Shakespearean Festival remains a landmark of Bebop, cementing Oscar Peterson's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/71c8b874-e88e-4361-8856-81ce23b49c5a"
+    ],
+    "evidenceUsed": "MusicBrainz: Live album, releaseGroup.firstReleaseDate 1957-07 (the 1993 release is a reissue). Corrected recording year 1993 -> 1957, rest preserved verbatim.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "begin-the-beguine-artie-shaw",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Recorded in 2005, Begin the Beguine showcases Artie Shaw at the height of their creative powers, offering one of the finest expressions of Swing. Begin the Beguine remains a landmark of Swing, cementing Artie Shaw's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Begin the Beguine showcases Artie Shaw at the height of their creative powers, offering one of the finest expressions of Swing. Begin the Beguine remains a landmark of Swing, cementing Artie Shaw's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/8b355af4-eaab-487e-85da-2b9f96851697"
+    ],
+    "evidenceUsed": "MusicBrainz: secondaryType Compilation, first release 2005-03-07 of older Artie Shaw sides — not recorded in 2005; dropped the false 'Recorded in 2005' clause (prose does not restate keyTracks), rest preserved verbatim.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "ben-webster-meets-oscar-peterson-ben-webster",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Recorded in 2011, Ben Webster Meets Oscar Peterson showcases Ben Webster at the height of their creative powers, offering one of the finest expressions of Swing. Ben Webster Meets Oscar Peterson remains a landmark of Swing, cementing Ben Webster's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Recorded in 1959, Ben Webster Meets Oscar Peterson showcases Ben Webster at the height of their creative powers, offering one of the finest expressions of Swing. Ben Webster Meets Oscar Peterson remains a landmark of Swing, cementing Ben Webster's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/5bd9cfcf-32e2-41a4-8905-5a6e89c197cd"
+    ],
+    "evidenceUsed": "MusicBrainz releaseGroup.firstReleaseDate 1959 (the 2011 release is an Analogue Productions reissue). Corrected recording year 2011 -> 1959, rest preserved verbatim.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "black-action-figure",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Black Action Figure is vibraphonist Stefon Harris's 1999 debut for Blue Note Records. The album draws on hard bop, jazz-funk, and contemporary jazz, with Harris's warm-toned mallet work front and center on tracks like \"Club Madness\" and \"Feline Blues.\" The record introduced Harris as one of the most exciting young voices on his instrument. A contemporary jazz recording from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond. Stefon Harris adds a personal voice to the idiom.",
+    "after": "Black Action Figure is vibraphonist Stefon Harris's second album for Blue Note Records, released in 1999 and nominated for a Grammy Award. The album draws on hard bop, jazz-funk, and contemporary jazz, with Harris's warm-toned mallet work front and center on tracks like \"Club Madness\" and \"Feline Blues.\" The record introduced Harris as one of the most exciting young voices on his instrument. A contemporary jazz recording from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond. Stefon Harris adds a personal voice to the idiom.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/01ad6eec-3d4f-4c82-ad21-b6160535f9cf",
+      "https://en.wikipedia.org/wiki/Stefon_Harris"
+    ],
+    "evidenceUsed": "Wikipedia (entityMatch=yes, Stefon Harris): debut was 'A Cloud of Red Dust (1998)', 'His second album, Black Action Figure, was nominated for a Grammy Award'. Corrected 'debut' -> second album + Grammy nomination; rest preserved verbatim.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "blue-note-jazz-inspiration",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Blue Note released Blue Note Jazz Inspiration in 2012, a big band date led by Duke Ellington. The music draws on big band and dixieland influences. Blue Note, under Alfred Lion and Francis Wolff, was the definitive hard bop label, with Rudy Van Gelder engineering many of its classic sessions. He performed in the United States and Europe and made many recordings with Duke Ellington, Billie Holiday, Johnny Hodges, and others.",
+    "after": "Blue Note released Blue Note Jazz Inspiration in 2012, a big band date led by Duke Ellington. The music draws on big band and dixieland influences. Blue Note, under Alfred Lion and Francis Wolff, was the definitive hard bop label, with Rudy Van Gelder engineering many of its classic sessions.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/4edaaffc-e521-4565-8a3b-4b67557e5a90"
+    ],
+    "evidenceUsed": "MusicBrainz confirms the Duke Ellington compilation (title/artist/year 2012/label Blue Note, tracks). Dropped the grafted Ben Webster biography sentence (from the wrong stored wiki page, entityMatch=no); rest preserved verbatim.",
+    "thinEvidence": false
+  }
+]

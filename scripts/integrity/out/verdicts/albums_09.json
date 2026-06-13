@@ -1,0 +1,320 @@
+[
+ {
+  "id": "indo-jazz-suite",
+  "verdict": "unverifiable",
+  "confidence": 0.65,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB returned only a search candidate (no release resolved): 'Indo-Jazz Suite' by 'Joe Harriott and John Mayer Double Quintet', firstReleaseDate 1966 — weak evidence, but it does corroborate the title, the 1966 year, John Mayer's involvement, and the 'double quintet' concept. No wikipedia evidence at all. Unchecked substantive claims: label Columbia; Mayer being an Indian violinist; 'first serious attempt to fuse jazz improvisation with Indian classical music'; 'Predated the Indo-jazz experiments of John McLaughlin and others by several years'; the five-jazz-plus-five-Indian-classical personnel split. No contradictions found."
+ },
+ {
+  "id": "inside-basie-outside",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release (authoritative) confirms title, 1966, label VSP (VSP-12), and all five keyTracks; the three tracks named in the prose are all on the MB tracklist. MB credits 'Count Basie Orchestra' vs ours 'Count Basie' — normal credit variant, not an error. The 'pianist' descriptor for Basie is not stated in the evidence (trivial). No wikipedia evidence available; no URL stored."
+ },
+ {
+  "id": "meditations",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose matches the stored wikipedia page (confirmed to be our album) nearly verbatim: 1966, 'spiritual follow-up to A Love Supreme', Coltrane and Pharoah Sanders both on tenor, last recording with the classic quartet (Garrison/Jones/Tyner), next group Sanders/Ali/Garrison/Alice. MB (search, similarity 1.0) confirms 1966, impulse! A 9110, and all four keyTracks on the tracklist ('Compassion' is the only album track not listed as a key track — fine). Closing influence sentences are editorial."
+ },
+ {
+  "id": "mercy-mercy-mercy",
+  "verdict": "factual_error",
+  "confidence": 0.55,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "1966", "evidence": "1967", "evidenceQuote": "Mercy, Mercy, Mercy! Live at \"The Club\" is a 1967 live in-studio album by The Cannonball Adderley Quintet", "source": "wiki"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "is a 1967 live in-studio album", "problem": "prose release year contradicts the MB release (search method, similarity 0.93), which dates the Capitol ST 2663 release and the release-group first release to 1966", "evidenceQuote": "date: 1966; firstReleaseDate: 1966", "source": "mb"}
+  ],
+  "notes": "The certain defect is internal: the year field says 1966 while the prose says 1967 — one of them is wrong regardless of which source is right. Evidence is split: MB says 1966, the stored wikipedia page (clearly our album) says 1967 throughout (Grammy in 1967, 1967 R&B albums list). Repair needs an external source to settle the year and align field+prose. Everything else checks out: the Grammy claim and 2021 Grammy Hall of Fame are verbatim from wiki; 'crossover hit' is supported by wiki (No. 11 on the Hot 100); all four keyTracks are on the MB tracklist; label Capitol matches. Ours.title drops the 'Live at \"The Club\"' subtitle — cosmetic only."
+ },
+ {
+  "id": "mode-for-joe",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is verbatim from the stored wikipedia page (our album): fifth studio album, recorded and released 1966, full personnel (Morgan/Fuller/Hutcherson/Walton/Carter/Chambers), last Blue Note leader date until The State of the Tenor, Vols. 1 & 2. All three keyTracks on the MB tracklist. Caveat: the MB search matched a 2013 Music Matters audiophile reissue (its release-group firstReleaseDate is 2013), so MB date fields describe the reissue, not the original; the 1966 claim rests on wikipedia, which states it explicitly."
+ },
+ {
+  "id": "music-on-my-mind",
+  "verdict": "clean",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release (authoritative) confirms 1966, MPS 20628, artist credit, and all five keyTracks. The stored wikipedia URL points to the ARTIST page (Willie 'the Lion' Smith), not an album page — wrong link target for an album item, though it is the album's own artist (benign as collisions go; fix or null it). The prose's bio sentence (full name 'William Henry Joseph Bonaparte Bertholf Smith', nickname 'the Lion', 'American jazz and stride pianist') is verbatim-verified against that artist page. Rewrite candidate, not a factual error: 'A early jazz entry from 1966... documenting the breadth of the free jazz period' is era-template boilerplate (wiki calls Smith a stride pianist; nothing in evidence ties this album to free jazz) plus a grammar error ('A early')."
+ },
+ {
+  "id": "new-york-eye-and-ear",
+  "verdict": "factual_error",
+  "confidence": 0.55,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Don Cherry"],
+  "fieldIssues": [
+   {"field": "keyTracks", "ours": "Don Cherry", "evidence": "no such track on the 1966 ESP-Disk release; 'Don Cherry' is a credited performer on the release, so a personnel name likely leaked into keyTracks", "evidenceQuote": "tracks: \"Dons Dawn\", \"AY\", \"ITT\"; artists: Albert Ayler, Don Cherry, John Tchicai, Roswell Rudd, Gary Peacock, Sonny Murray", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "Prose first sentence is verbatim from the stored wikipedia page (our album): recorded July 1964 by an augmented Ayler group as the soundtrack to Michael Snow's film — consistent with the MB release-group secondaryType 'Soundtrack'. KeyTracks 'AY' and 'ITT' match; 'Don Cherry' does not match anything on the MB tracklist — it could conceivably be a reissue track title, but no evidence in the pack supports that, and the name matches a credited sideman. Year evidence is split: ours 1966 agrees with the MB release and first-release date (1966), while the wiki shortDescription says '1965 studio album' (the extract itself gives no release year) — noted for human review, not charged against ours."
+ },
+ {
+  "id": "sayin-somethin",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Unknown", "evidence": "Atlantic", "evidenceQuote": "labels: [{\"name\": \"Atlantic\", \"catalogNumber\": \"1460\"}]", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "The label field ships 'Unknown' while the embedded-MBID release (authoritative) says Atlantic 1460 — and our own prose already says 'released on the Atlantic label'. Fix the field to Atlantic. Year 1966 and all six keyTracks verified against MB. Unverifiable prose claims (no personnel in evidence): the four-orchestra-plus-four-quintet split and sidemen Joe Henderson, Herbie Hancock, Bob Cranshaw, Roy McCurdy. 'From the free jazz era... within the bebop conversation of the time' is internally muddled era boilerplate — rewrite candidate, not an evidence contradiction."
+ },
+ {
+  "id": "sound-roscoe-mitchell",
+  "verdict": "unverifiable",
+  "confidence": 0.65,
+  "entityMatch": {"musicbrainz": "no", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search matched the WRONG release: 'Sound Songs' (1997, Delmark), a different Roscoe Mitchell album — discarded for fact-checking, so there is no MB evidence for 'Sound'. Verification rests on the stored wikipedia page, which IS our album: 1966 debut on Delmark; personnel includes Lester Bowie and Malachi Favors (six musicians total, consistent with 'Sextet'); the original-LP track listing covers all three keyTracks (Ornette / The Little Suite / Sound), so keyTracks are marked ok on wiki evidence. Unchecked substantive claims: 'The first recording by the AACM' and 'founding document of the AACM' — the wiki extract never mentions the AACM; the claim is widely repeated per background knowledge, but that is not citable here. 'Spawned the Art Ensemble of Chicago' is looser than the wiki passage (AEC recordings 'expanded upon' Sound's concepts). The silence/space characterization is supported by the Penguin/AllMusic quotes in the wiki extract."
+ },
+ {
+  "id": "speak-no-evil",
+  "verdict": "clean",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is verbatim from the stored wikipedia page (our album): sixth album, released June 1966 by Blue Note, hard bop + modal, personnel Hubbard/Hancock/Carter/Elvin Jones, cover photo of first wife Teruko (Irene) Nakagami met 1961. All four keyTracks on the MB tracklist. Year conflict noted: the MB search release dates BLP 4194 and the release-group first release to 1965, while wiki states 'initially released on LP in 1966' (and 'rec. 1964, rel. 1966' in its external links). Ours consistently says 1966 and sides with the more detailed wiki account — flagged for human review, not charged as an error against ours."
+ },
+ {
+  "id": "tequila",
+  "verdict": "clean",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "First prose sentence is verbatim from the stored wikipedia page (our album): released 1966. The embedded-MBID match is a 1999 CD reissue, but its release-group firstReleaseDate is 1966 and the label is Verve — consistent with ours; all five keyTracks are on the tracklist. Rewrite candidate (not factual): 'cool jazz work... a 1966 session reflecting the free jazz period' is era boilerplate at odds with wiki's own characterization ('mainly a Latin-flavored album' with Claus Ogerman strings) — genre framing is editorial, so not flagged as an error."
+ },
+ {
+  "id": "unit-structures",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "First sentence is verbatim from the stored wikipedia page (our album): released October 1966 by Blue Note. MB (search, similarity 1.0) confirms 1966, Blue Note BST 84237; both keyTracks on the tracklist ('Unit Structure/As of a Now/Section' matches MB's 'Unit Structure / As of a Now / Section' up to spacing). Closing sentences are editorial."
+ },
+ {
+  "id": "ammmusic",
+  "verdict": "unverifiable",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (search, similarity 1.0) verifies 1967, Elektra EUK 256, GB release, and both keyTracks. Wikipedia opensearch fetched 'ABC Music' (a 2002 Stereolab compilation) — different entity, discarded; no URL is stored, so no link issue. Unchecked substantive claims: members Keith Rowe (guitar) and Eddie Prevost (percussion); 'London-based'; 'influenced Brian Eno, Cornelius Cardew'. Background-knowledge caution (from judge memory, NOT citable evidence): Cornelius Cardew was an AMM member who performs on AMMMusic, so 'influenced... Cardew' looks garbled — repair should re-source that influence sentence. The no-melody/no-rhythm and 'foundational document' characterizations are editorial."
+ },
+ {
+  "id": "alligator-bogaloo",
+  "verdict": "unverifiable",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (search, similarity 1.0) verifies 1967, Blue Note BLP 4263, and all four keyTracks ('Aw Shucks' = MB 'Aw Shucks!'). No wikipedia evidence. Unchecked substantive claims (no personnel or sales data in evidence): organist Lonnie Smith, drummer Leo Morris (Idris Muhammad), 'one of the biggest sellers in Blue Note history'. No contradictions; the groove/dancefloor/DJ language is editorial."
+ },
+ {
+  "id": "conquistador",
+  "verdict": "factual_error",
+  "confidence": 0.5,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "1967", "evidence": "1968", "evidenceQuote": "Conquistador! is a 1968 studio album recorded in 1966 by free jazz pianist Cecil Taylor, released by Blue Note Records.", "source": "wiki"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "is a 1968 studio album", "problem": "prose release year contradicts the embedded-MBID release (authoritative per pack rules), dated 1967 with release-group first release 1967", "evidenceQuote": "date: 1967; firstReleaseDate: 1967", "source": "mb"}
+  ],
+  "notes": "The certain defect is internal: year field 1967 vs prose '1968 studio album' — one must be wrong. The evidence itself is split: embedded MB says 1967, while the stored wikipedia page (confirmed our album) says 1968 ('it was not released until 1968' per its background section). Repair needs an external source to settle 1967 vs 1968 and align field+prose. 'Recorded in 1966' is corroborated by wiki. Both keyTracks are on the MB tracklist; label Blue Note matches both sources."
+ },
+ {
+  "id": "contours",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is verbatim from the stored wikipedia page (our album): second album, recorded 1965, Blue Note, CD reissue with an alternate take. Year field 1967 matches both MB (BLP 4206, 1967) and wiki's '1967 studio album' shortDescription; recorded-1965/released-1967 is coherent, no internal conflict. All four keyTracks on the MB tracklist. The 'avant-garde could swing' passage is editorial."
+ },
+ {
+  "id": "el-hombre",
+  "verdict": "unverifiable",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (search, similarity 1.0) verifies 1967, Prestige PR 7513, and all four keyTracks. No wikipedia evidence. Unchecked substantive claims: debut as a leader; age 22 at recording; Trudy Pitts (organ); Danny Turner (flute) — no personnel in evidence. No contradictions; the stylistic praise is editorial."
+ },
+ {
+  "id": "ella-fitzgeralds-christmas",
+  "verdict": "unverifiable",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release (authoritative) confirms 1967-11, Capitol Records, and all six keyTracks (with '- Remastered 2006' suffixes ignored per matching rules); 'Away in the Manger' vs MB 'Away in a Manger' is a one-word title variant of the same carol — counted as a match, worth normalizing. The stored wikipedia URL points to the Ella Fitzgerald ARTIST page, not the album — wrong link target for an album item (right artist, wrong entity). The bio sentence is near-verbatim from that artist page EXCEPT ours inserts 'absolute pitch', which the wiki extract does not contain — unverifiable insertion (absence, not contradiction). Rewrite candidates: 'Composer player Ella Fitzgerald' is garbled (wiki does call her a composer); 'draws from the free jazz tradition' is era boilerplate absurd for a Christmas standards album (no genre evidence either way); the prose quotes track titles WITH the '- Remastered 2006' suffix — reissue metadata leaking into user-facing text. The matched MB release is the 2006 expanded remaster whose tracklist also appends hymn material from another album."
+ },
+ {
+  "id": "kulu-se-mama",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is verbatim from the stored wikipedia page (our album): recorded during 1965, released January 1967 as Impulse! A-9106, last album released during Coltrane's lifetime. MB (search, similarity 1.0) confirms 1967, impulse! AS 9106; all three keyTracks on the tracklist ('Kulu Sé Mama' matches 'Kulu Sé Mama (Juno Sé Mama)'). The African-spiritual framing is supported in spirit by the wiki background (Juno Lewis, Afro-Creole chant); the closing characterization is editorial."
+ },
+ {
+  "id": "mama-too-tight",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is verbatim from the stored wikipedia page (our album): Impulse! 1967; personnel Turrentine/Moncur III/Rudd/Johnson (tuba)/Robinson (clarinet)/Haden/Harris; recorded August 1966 (wiki: August 19, 1966, Van Gelder Studio). MB (search, similarity 1.0) confirms 1967, impulse! A-9134, and all four keyTracks ('A Portrait of Robert Thompson' matches the full '(As a Young Man)' title). The David Murray influence sentence is editorial."
+ },
+ {
+  "id": "miles-smiles",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is verbatim from the stored wikipedia page (our album): released February 16, 1967 by Columbia; recorded October 24-25, 1966 at Columbia 30th Street Studio; second of six second-great-quintet albums; personnel Shorter/Hancock/Carter/Williams. MB gave only a weak search candidate (no release resolved; 'Miles Smiles' by Miles Davis Quintet, 1967-01) — consistent with ours. No MB tracklist, but all six keyTracks are individually named as tracks of this album in the wiki extract ('Gingerbread Boy' = wiki 'Ginger Bread Boy'), so keyTracks are marked ok on wiki evidence rather than no_evidence."
+ },
+ {
+  "id": "mr-jelly-lord",
+  "verdict": "factual_error",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Black Bottom Stomp", "The Chant", "Dead Man Blues", "Original Jelly Roll Blues", "Grandpa's Spell", "Beale Street Blues"],
+  "fieldIssues": [
+   {"field": "keyTracks", "ours": "Black Bottom Stomp; The Chant; Dead Man Blues; Original Jelly Roll Blues; Grandpa's Spell; Beale Street Blues", "evidence": "none of the six appear on the embedded-MBID tracklist (authoritative)", "evidenceQuote": "tracks: Burrnin' The Iceburg, Mr. Jelly Lord, Down My Way, When They Get Lovin' They's Gone, You Oughtta See My Gal, New Orleans Bump, Load Of Coal, Red Hot Pepper Stomp, Wolverine Blues, Wolverine Blues 2, Courthouse Bump, Keep Your Business To Yourself, Deep Creek - Blues, Fusssy Mabel, Someday Sweetheart Blues, Crazy Chords", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "ALL SIX keyTracks are absent from the authoritative embedded-MBID tracklist — the keyTracks list appears to belong to a different Jelly Roll Morton collection (those six are classic 1926-era Victor Red Hot Peppers titles; background suspicion only, not pack evidence). The prose's own track claims DO verify: 'Burrnin' The Iceburg' and 'Mr. Jelly Lord' are both on the MB tracklist; year 1967 and RCA Victor (LPV-546) match. Rewrite candidates: 'delivers a free jazz program' / 'comes from the free jazz era' is era boilerplate absurd for an archival collection of vintage Morton recordings — 1967 is the compilation's release date, though the MB release-group oddly carries no 'Compilation' secondary type. No wikipedia evidence; no URL stored."
+ },
+ {
+  "id": "mr-shing-a-ling",
+  "verdict": "factual_error",
+  "confidence": 0.5,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "released on Blue Note in January 1968", "problem": "contradicts the embedded-MBID release date and release-group first release date, both 1967 (year granularity); also internally inconsistent with our own year field, which says 1967", "evidenceQuote": "date: 1967; firstReleaseDate: 1967", "source": "mb"}
+  ],
+  "notes": "The internal inconsistency is the certain defect: year field 1967 vs prose 'released... in January 1968'. The embedded MB release (a DE pressing, BST 84271) and its release-group both say 1967, which the pack rules treat as authoritative — but a January 1968 release for an album recorded October 27, 1967 is plausible, and MB year-granularity dates are often imprecise, so repair should re-source rather than blindly trust 1967. All five keyTracks match the MB tracklist exactly. Unchecked claims (no personnel in evidence): recording date October 27, 1967; Blue Mitchell, Lonnie Smith, Jimmy Ponder, Idris Muhammad."
+ },
+ {
+  "id": "one-flight-up",
+  "verdict": "factual_error",
+  "confidence": 0.5,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "recorded on June 2, 1964, in Paris and released on Blue Note the following year", "problem": "'the following year' means a 1965 release, contradicting the MB release-group first release date of 1967 and our own year field (1967) — an internal field-vs-prose inconsistency", "evidenceQuote": "firstReleaseDate: 1967", "source": "mb"}
+  ],
+  "notes": "The certain defect: prose implies a 1965 release while the year field says 1967 — one is wrong. Pack evidence (embedded MBID) supports 1967 via the release-group first release date, but the matched release itself is a 2004 digital reissue and MB first-release dates can lag reality; the prose reads like it was lifted from a wikipedia article, so repair should re-source the original Blue Note release year externally. All three keyTracks match the MB tracklist ('Coppin' the Haven' matches up to apostrophe style). Unchecked claims (no personnel or session data in evidence): June 2, 1964 Paris recording; Donald Byrd, Kenny Drew, Niels-Henning Orsted Pedersen, Art Taylor."
+ },
+ {
+  "id": "straight-no-chaser",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "no", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search matched the WRONG entity: 'Straight No Chaser: Music from the Motion Picture' (1989 documentary soundtrack) — discarded; no usable MB evidence. Verification rests on the stored wikipedia page, which IS our album: sixth Columbia studio album, released 1967, 1996 CD reissue with restored versions and additional tracks (our first two prose sentences are verbatim from it). KeyTracks verified against the wiki track listing: 'Straight, No Chaser', 'Japanese Folk Song', and 'We See' on the original LP; 'Green Chimneys' appears only on the 1996 CD reissue listing — acceptable as a key track but worth knowing. 'Mature quartet in peak form' is editorial and consistent with the wiki personnel (Monk/Rouse/Gales/Riley, a quartet)."
+ }
+]

@@ -1,0 +1,310 @@
+[
+  {
+    "id": "pithecanthropus-erectus-the-clown",
+    "verdict": "entity_mismatch",
+    "confidence": 0.93,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "no", "n/a": "n/a"},
+    "wikiLinkVerdict": "wrong_entity",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [
+      {"ourClaim": "Charles Mingus in Paris: The Complete America Session is a compilation of two albums by American bassist, composer and bandleader Charles Mingus which were recorded in Paris in 1970 and first released on the French America label as Blue Bird and Pithycanthropus Erectus. The compilation was released on the Sunnyside label in 2006", "problem": "The albumDNA describes an entirely different Mingus compilation (a Paris-1970 session reissue titled 'Charles Mingus in Paris: The Complete America Session', France/America label, Sunnyside 2006). Our album is 'Pithecanthropus Erectus + The Clown' (Essential Jazz Classics, 2009), a compilation of the 1956 'Pithecanthropus Erectus' and the 1957 'The Clown' studio albums. Different release, different label, different year, different sessions.", "evidenceQuote": "title: Pithecanthropus Erectus + The Clown | date: 2009 | labels: Essential Jazz Classics (EJC55437) | tracks: Pithecanthropus Erectus, A Foggy Day, Profile of Jackie, Love Chant, Haitian Fight Song, Blue Cee, Reincarnation of a Lovebird, The Clown", "source": "mb"}
+    ],
+    "notes": "MB (embedded_mbid, authoritative) confirms our title/artist/year/label and the keyTracks all match its tracklist exactly — so the catalog FIELDS describe the right album. The albumDNA prose, however, is verbatim Wikipedia text about a DIFFERENT Mingus compilation (the Paris 1970 'Complete America Session', Sunnyside 2006). The stored wikipediaUrl points to that wrong-album page. Repair: rewrite albumDNA for the 1956-57 Pithecanthropus Erectus / The Clown compilation and replace the wiki link."
+  },
+  {
+    "id": "time-waits",
+    "verdict": "clean",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "albumDNA matches the Wikipedia extract verbatim and describes the real entity (Bud Powell, 'The Amazing Bud Powell Vol. 4', Van Gelder Studio, 24 May 1958, Sam Jones + Philly Joe Jones, Blue Note). All five keyTracks match the MB tracklist. The year field 2009 reflects the MB release used (a Japanese Blue Note reissue, cat UCCQ-9137); the prose correctly describes the 1958 original 'released on Blue Note later that year' — not a contradiction since the resolved MB release is itself the 2009 reissue."
+  },
+  {
+    "id": "ballads-coltrane",
+    "verdict": "clean",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "Right entity (John Coltrane 'Ballads', Impulse!, recorded Dec 1961-62, released Jan 1963). albumDNA matches the Wikipedia extract almost verbatim. All five keyTracks (Theme for Ernie, Like Someone in Love, Time After Time, Slow Dance, Violets for Your Furs) match the MB tracklist of this 2010 'Music and Melody' compilation reissue (cat MUS 11031-2), which our label field also matches. Note: this MB release is a later compilation, not the original 8-track Impulse! LP (whose tracks differ) — but ours-vs-evidence is consistent."
+  },
+  {
+    "id": "bitter-and-high",
+    "verdict": "clean",
+    "confidence": 0.85,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB (embedded) confirms title/artist/year (Takuya Kuroda, Bitter and High, 2010); all five keyTracks match its tracklist. Wikipedia is the artist page (entity-matched: Japanese jazz trumpeter and arranger b.1980) and its discography lists 'Bitter and High (CD Baby, 2010)', confirming the year. Label field 'Unknown' is not a false claim (MB has no label; wiki says CD Baby). Remaining prose is editorial genre description plus two track names that are both in the tracklist."
+  },
+  {
+    "id": "discovery-nirvana",
+    "verdict": "clean",
+    "confidence": 0.85,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB (embedded) confirms title/artist/year/label (Charles Lloyd, 'Discovery! & Nirvana', SuperBird, 2010); all five keyTracks match. Wikipedia is the entity-matched artist page; the quartet sentence (Jason Moran / Reuben Rogers / Eric Harland since 2007) is verbatim from it and the 'tenor saxophonist' descriptor matches ('primarily plays tenor saxophone'). Named tracks 'Forest Flower' and 'How Can I Tell You?' are both in the tracklist. 'Cool jazz outing' is editorial."
+  },
+  {
+    "id": "evanescences",
+    "verdict": "clean",
+    "confidence": 0.82,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB (embedded) confirms title/year/label (Evanescences, 2010-11-13, Dalang!Records) and all five keyTracks match its tracklist. MB credits the release to a trio (Casimir Liberski, Tyshawn Sorey, Thomas Morgan); our prose names Tyshawn Sorey as 'drummer' — legitimate editorial single-leader naming, not a mismatch, and Sorey is a credited member. Wikipedia opensearch resolved to the 'Evanescence' rock-band disambiguation page (wrong entity) but no URL is stored, so it is discarded. Remaining prose is editorial."
+  },
+  {
+    "id": "jasmine",
+    "verdict": "clean",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "Right entity (Keith Jarrett / Charlie Haden duet 'Jasmine', ECM, 2010, recorded Mar 2007 Oxford Township NJ). albumDNA matches the Wikipedia extract verbatim. MB (embedded) credits both Jarrett and Haden and matches label/year; all five keyTracks match the tracklist. Our artist field lists only Haden, but the prose correctly names both — editorial."
+  },
+  {
+    "id": "sax-lounge-emotion",
+    "verdict": "clean",
+    "confidence": 0.8,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB (embedded) confirms title/artist/year/label (Manu Dibango, 'Sax Lounge Emotion', E.G.T., 2010); all five keyTracks match the front of its (long) tracklist. No Wikipedia page resolved (opensearch null), but MB alone establishes the entity and every checkable claim. Prose only restates two track names ('Over the Rainbow', 'Summertime', both present) plus editorial 'jazz fusion' framing — no uncheckable substantive claims."
+  },
+  {
+    "id": "solo-miller",
+    "verdict": "clean",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "Right entity (Mulgrew Miller 'Solo', Space Time Records). albumDNA is verbatim from the entity-matched Wikipedia extract ('recorded in 2000 and released by Space Time Records a decade later'). MB (embedded) matches title/artist/year/label and all five keyTracks match the tracklist."
+  },
+  {
+    "id": "volume-1-1923-1929",
+    "verdict": "clean",
+    "confidence": 0.85,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+    "wikiLinkVerdict": "wrong_entity",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "The albumDNA itself is correct and entity-matched: MB (embedded) confirms title/artist/year/label (Jelly-Roll Morton, 'Volume 1 (1923-1929)', Neatwork, 2010) and all five keyTracks match its tracklist; named tracks 'Big Foot Ham' and 'New Orleans (Blues) Joys' are both present, and 'early jazz / blues tradition' is accurate editorial. HOWEVER the stored wikipediaUrl points to the 'Mingus Ah Um' page (Charles Mingus, 1959) — a completely wrong entity the site is showing users. Repair: replace the wiki link; the prose needs no rewrite."
+  },
+  {
+    "id": "art-of-the-improviser",
+    "verdict": "unverifiable",
+    "confidence": 0.7,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "Entity is solidly confirmed: MB (search, similarity 1.0) matches title/artist/year/label (Matthew Shipp, 'Art of the Improviser', Thirsty Ear, 2011) and all five keyTracks match its tracklist. No Wikipedia page resolved. The prose adds substantive specifics that cannot be checked against pack evidence — 'double CD' of 'two 2010 live performances', a trio date at The Arts Center of the Capital Region in Troy NY, and a solo recital at (Le) Poisson Rouge NYC, on the 'Blue Series'. No contradiction found; flagged unverifiable only because these venue/format claims lack a source in the pack. 'Jazz fusion' is editorial."
+  },
+  {
+    "id": "at-the-cotton-club-1956",
+    "verdict": "clean",
+    "confidence": 0.85,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB (embedded) confirms title/artist/year/label (Clifford Brown, 'At The Cotton Club 1956', RLR Records, 2011) and all five keyTracks — including the distinctive '[introduction by Clifford Brown]' and 'Darn That Dream / [intermission announcement...]' — match the tracklist exactly. No Wikipedia page resolved; MB alone establishes entity and every checkable claim. Prose only restates track names plus 'hard bop session' editorial. (A 1956 live recording issued 2011 — consistent with the archival-release pattern.)"
+  },
+  {
+    "id": "baboon-moon",
+    "verdict": "factual_error",
+    "confidence": 0.85,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [
+      {"field": "label", "ours": "Columbia", "evidence": "Sula Records", "evidenceQuote": "labels: Sula Records (88697959962)", "source": "mb"}
+    ],
+    "wrongClaims": [],
+    "notes": "Right entity (Nils Petter Molvaer, 'Baboon Moon', 2011); all five keyTracks match the MB tracklist and the stored wiki link is the correct (artist) page. Label field is wrong: ours says 'Columbia' but MB (embedded, authoritative) lists 'Sula Records' and the Wikipedia discography says '2011 - Baboon Moon - Sula Records / Sony Music (2011)'. Neither source supports 'Columbia'. Also note the albumDNA is the artist-bio opening (future-jazz pioneer, 'Khmer') copied verbatim from the Molvaer Wikipedia page rather than album-specific prose — about the right artist, so not a mismatch, but a repair writer may want album-focused text."
+  },
+  {
+    "id": "coin-coin-chapter-one-gens-de-couleur-libres",
+    "verdict": "unverifiable",
+    "confidence": 0.7,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "Entity confirmed: MB (embedded) matches title/artist/year/label (Matana Roberts, 'Coin Coin Chapter One: Gens de couleur libres', Constellation, 2011-05-10) and all five keyTracks match the tracklist. No Wikipedia page resolved. The prose adds substantive claims not checkable in the pack — that it is a 'live in-studio album' and 'the first of their twelve-chapter Coin Coin project'. No contradiction; flagged unverifiable because the format and project-scope claims lack a source here. (Constellation Records confirmed as label by MB.)"
+  },
+  {
+    "id": "diagnostic",
+    "verdict": "clean",
+    "confidence": 0.82,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB (embedded) confirms title/artist/year/label (Ibrahim Maalouf, 'Diagnostic', Mi'ster, 2011) and all five keyTracks match the tracklist. No Wikipedia page resolved; MB alone establishes entity and the checkable claims. Prose restates two track names ('Lily (is 2)', 'Will Soon Be a Woman', both present) plus editorial 'contemporary jazz' framing — no uncheckable substantive claims."
+  },
+  {
+    "id": "for-now",
+    "verdict": "clean",
+    "confidence": 0.78,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB (embedded) confirms title/year/label (For now, Strotbrock cat 010, 2011) and all five keyTracks match its tracklist. MB credits the release to 'De Nazaten, James Carter' (Carter guesting with the Dutch band De Nazaten); our prose names James Carter alone — legitimate single-artist naming. Wikipedia opensearch resolved to 'For Now (album)' by the Australian rock band DMA's — wrong entity, but no URL is stored, so discarded. The instruments string 'bass clarinetsaxophonesflutes' is garbled (missing delimiters) but names instruments Carter genuinely plays and is not contradicted — a cosmetic cleanup, not a factual error. Two named tracks both present."
+  },
+  {
+    "id": "terri-lyne-carrington",
+    "verdict": "clean",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "Right entity (Terri Lyne Carrington, 'The Mosaic Project', Concord Jazz, 2011). albumDNA matches the Wikipedia extract verbatim, including chart positions (No.2 Contemporary Jazz, No.4 Top Jazz). All four keyTracks (Transformation, Michelle, Echo, Unconditional Love) are in the MB tracklist. The all-women framing is borne out by the wiki personnel list. MB (search, 1.0) matches title/artist/label."
+  },
+  {
+    "id": "transatlantic",
+    "verdict": "clean",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "Right entity (Chris Potter with the 18-piece Danish Radio / DR Big Band, 'Transatlantic', Red Dot Music, recorded Jan 2010, released 2011). albumDNA matches the Wikipedia extract verbatim. MB (search, 1.0) credits 'Chris Potter, DR Big Band' and matches label; all five keyTracks match the tracklist."
+  },
+  {
+    "id": "tubbys-new-groove",
+    "verdict": "clean",
+    "confidence": 0.8,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB (search, 1.0) confirms title/artist/label (Tubby Hayes, 'Tubby's New Groove', Candid, 2011) and all five keyTracks match the tracklist. Wikipedia is the entity-matched Tubby Hayes artist page; the closing sentence ('one of the finest jazz saxophonists to have emerged from Britain') is verbatim from it. The Candid Records / Nat Hentoff historical note is editorial context. 'Recorded for Candid in 2011' is loose (the MB date is the 2011 release; this is archival 1960s material) but no evidence contradicts a recording year, so not flagged. wikiLink is the artist page, correct for Hayes."
+  },
+  {
+    "id": "unmistakable-zenph-re-performance",
+    "verdict": "clean",
+    "confidence": 0.82,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB (embedded) confirms title/artist/year/label (Oscar Peterson, 'Unmistakable (Zenph Re-Performance)', Masterworks Jazz, 2011-10-04) and all five keyTracks match the front of its tracklist. No Wikipedia page resolved; MB alone establishes entity and checkable claims. Prose restates two track names ('Body and Soul', 'Back Home Again in Indiana', both present); 'compositional artistry' is editorial praise (not a claim that Peterson composed those standards), so not flagged."
+  },
+  {
+    "id": "xxi-century",
+    "verdict": "entity_mismatch",
+    "confidence": 0.95,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [
+      {"ourClaim": "XXI Century is a 2008 album by trumpeter and flugelhornist Claudio Roditi. The Brazilian-born, New York-based musician draws on both straight-ahead jazz and Latin rhythms, delivering a set that reflects decades of work bridging American jazz and Brazilian musical traditions.", "problem": "The albumDNA's factual skeleton is about a DIFFERENT artist and album — Claudio Roditi (trumpeter/flugelhornist, Brazilian-born), year 2008 — not Gonzalo Rubalcaba's 2011 piano album. Wrong artist, wrong instrument, wrong year, wrong nationality framing.", "evidenceQuote": "artists: Gonzalo Rubalcaba | title: XXI Century | date: 2011-11-15 | labels: 5Passion (5P-010)", "source": "mb"}
+    ],
+    "notes": "The catalog FIELDS are correct: MB (embedded) and the entity-matched Wikipedia artist page both confirm artist=Gonzalo Rubalcaba, title='XXI Century', label=5Passion, year=2011 (wiki discography: 'XXI Century (5Passion, 2011)'); all five keyTracks match the MB tracklist. But the albumDNA prose is corrupted with content about Claudio Roditi's 2008 album (a different trumpeter). Only the trailing sentence ('Captures pianist Gonzalo Rubalcaba in a 2011 contemporary jazz setting') is correct. Classic disambiguation-collision disease. Repair: rewrite albumDNA for Rubalcaba; the wiki link and fields are fine."
+  },
+  {
+    "id": "accelerando",
+    "verdict": "clean",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "Right entity (Vijay Iyer 'Accelerando', ACT, recorded 2011, released 2012). albumDNA matches the Wikipedia extract verbatim. MB (embedded) matches title/artist/year/label and all five keyTracks match the tracklist."
+  },
+  {
+    "id": "black-radio",
+    "verdict": "clean",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "Right entity (Robert Glasper Experiment 'Black Radio', Blue Note, Feb 2012). albumDNA matches the Wikipedia extract verbatim, including the Best R&B Album win (55th Grammys) and the 'Gonna Be Alright (F.T.B.)' / Ledisi nomination. All four keyTracks match the MB tracklist ('Lift Off' matches 'Lift Off / Mic Check' by substring; Afro Blue, Cherish the Day, Letter to Hermione present). MB (search, 1.0) matches title/artist/label."
+  },
+  {
+    "id": "blue-note-jazz-inspiration",
+    "verdict": "factual_error",
+    "confidence": 0.86,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+    "wikiLinkVerdict": "wrong_entity",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [
+      {"ourClaim": "He performed in the United States and Europe and made many recordings with Duke Ellington, Billie Holiday, Johnny Hodges, and others.", "problem": "This sentence is lifted verbatim from the Ben Webster Wikipedia biography (the wrong page stored for this item) and grafted into a Duke Ellington compilation blurb. Attributed to this Ellington album it is incoherent ('made many recordings with Duke Ellington' for an Ellington release) — it is biographical text about saxophonist Ben Webster, not about our album.", "evidenceQuote": "Benjamin Francis Webster (March 27, 1909 - September 20, 1973) was an American jazz tenor saxophonist. He performed in the United States and Europe and made many recordings with Duke Ellington, Billie Holiday, Johnny Hodges, and others.", "source": "wiki"}
+    ],
+    "notes": "The album-level facts are correct: MB (embedded) confirms title/artist/year/label (Duke Ellington, 'Blue Note Jazz Inspiration', Blue Note, 2012) and all five keyTracks (Satin Doll, Flamingo, Prelude to a Kiss, Just a Sittin' and a Rockin', Black and Tan Fantasy) match its tracklist — all Ellington tunes. The corruption is a grafted Ben Webster bio sentence plus the stored wikipediaUrl pointing to the Ben Webster page (wrong entity). The 'definitive hard bop label' line is also off for an Ellington big-band compilation but is editorial. Treated as factual_error (right album, one misattributed/grafted claim) rather than full entity_mismatch since the prose's skeleton — big band, Ellington, the tracklist — is Ellington's. Repair: drop the Webster sentence and fix the wiki link."
+  },
+  {
+    "id": "grews-tune",
+    "verdict": "clean",
+    "confidence": 0.8,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB (embedded) confirms title/artist/year/label (Mulgrew Miller with Kluvers Big Band, 'Grew's Tune', Stunt Records, 2012) and all five keyTracks match the tracklist. Wikipedia is the entity-matched Mulgrew Miller artist page; the closing sentence about McCoy Tyner's harmonic freedom is verbatim from it (correct artist). Two named tracks ('Thinking Out Loud', 'Return Trip') both present. 'Jazz fusion' is a loose/debatable genre tag for what is a straight-ahead big-band date, but genre labels are editorial, not factual claims, so not flagged."
+  }
+]

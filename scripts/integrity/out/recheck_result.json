@@ -1,0 +1,1971 @@
+{
+  "total_rechecked": 201,
+  "upheld": 180,
+  "reclassified": 0,
+  "demoted": 21,
+  "confirmed_prose_repairs": {
+    "entity_mismatch_albums": [
+      "singin-the-blues-beiderbecke",
+      "aint-misbehavin-waller",
+      "quintette-du-hot-club-de-france",
+      "the-joint-is-jumpin",
+      "django-reinhardt-et-son-quintette",
+      "django",
+      "lover-man",
+      "oscar-peterson-plays-george-gershwin",
+      "the-great-artistry-of-django-reinhardt",
+      "tatum-carter-bellson",
+      "kenny-burrell",
+      "the-trio-volume-3-everybody-likes-hampton-hawes",
+      "ella-and-her-fellas",
+      "four-trombones",
+      "the-oscar-peterson-trio-at-newport",
+      "louie-and-the-dukes-of-dixieland",
+      "soul-junction-coltrane",
+      "soul-time",
+      "waltz-for-debby",
+      "whats-new",
+      "caravan",
+      "blue-notes-legacy",
+      "poetry-and-jazz-in-concert-record-one",
+      "ray-brown-milt-jackson",
+      "grazin-in-the-grass",
+      "the-piano-soul-of-nat-king-cole",
+      "monks-blues",
+      "the-new-don-ellis-band-goes-underground",
+      "les-stances-a-sophie",
+      "on-with-it",
+      "weather-report",
+      "ella-loves-cole",
+      "afrodisia",
+      "mannenberg",
+      "summit-reunin-cumbre",
+      "school",
+      "herbie-hancock-trio-with-ron-carter-tony-williams",
+      "baroque-music-for-trumpets",
+      "straight-life-the-savoy-sessions",
+      "hearts-and-numbers",
+      "crystal-stair-blanchard",
+      "satchmo",
+      "stories",
+      "david-sanborn",
+      "hipmotism",
+      "a-jazz-hour-with-dizzy-gillespie",
+      "russell-malone",
+      "blue-rondo",
+      "blue-rondo-brubeck",
+      "jazz-in-film",
+      "joey-calderazzo",
+      "congo-square",
+      "malphas-book-of-angels-volume-3",
+      "the-library-of-congress-recordings-by-alan-lomax",
+      "standards",
+      "pithecanthropus-erectus-the-clown",
+      "xxi-century",
+      "is-that-so",
+      "solo-piano-portraits",
+      "all-things-are",
+      "morning-with-swing-jazz-guitar-trumpet-saxophone-more-melodies-of-piano-instrumental-smooth-jazz-music",
+      "pink-elephants-on-parade",
+      "lullaby-of-birdland",
+      "that-certain-feeling"
+    ],
+    "factual_error_albums": [
+      "solo-flight",
+      "the-most-happy-piano",
+      "kind-of-blue",
+      "how-time-passes",
+      "jazz-pictures-at-an-exibition",
+      "rights-of-swing",
+      "screamin-the-blues",
+      "stop-and-listen",
+      "takin-off",
+      "duke-ellington-meets-coleman-hawkins",
+      "duke-ellington-meets-coleman-hawkins-hawkins",
+      "prayer-meetin",
+      "dippin",
+      "one-flight-up",
+      "tauhid",
+      "clarinet-concertos-nos-1-and-2",
+      "shades-of-green",
+      "world-galaxy",
+      "eastern-rebellion",
+      "a-ghetto-lullaby",
+      "in-the-tradition",
+      "lenox-avenue-breakdown",
+      "spihumonesty",
+      "get-together",
+      "round-about-midnight-at-the-cafe-bohemia-volume-i",
+      "deliverance",
+      "look-what-i-got",
+      "celebration-mseleku",
+      "kansas-city-7",
+      "plays-and-plays-and-plays",
+      "capricorn-rising",
+      "love-notes",
+      "tidal-wave",
+      "in-their-own-sweet-way",
+      "tenor-titans",
+      "black-action-figure",
+      "bunk-bechet-in-boston",
+      "sweet-release-ghost-story",
+      "pimp-master",
+      "blue-note-jazz-inspiration",
+      "rising-son",
+      "mandorla-awakening-ii",
+      "chesed-the-book-beriah-volume-4",
+      "secrets-are-the-best-stories",
+      "pdron-rubalcaba",
+      "the-lore",
+      "carolina-shout-james-p-johnson",
+      "begin-the-beguine-artie-shaw",
+      "hi-de-ho-man-cab-calloway",
+      "nows-the-time-charlie-parker",
+      "afro-dizzy-gillespie",
+      "fontainebleau-tadd-dameron",
+      "night-train-oscar-peterson",
+      "at-the-stratford-shakespearean-festival-oscar-peterson",
+      "joe-pass-at-the-montreux-jazz-festival-joe-pass",
+      "chet-baker-and-crew-chet-baker",
+      "art-pepper-meets-the-rhythm-section-art-pepper",
+      "desmond-blue-paul-desmond",
+      "inside-hi-fi-lee-konitz",
+      "full-house-wes-montgomery",
+      "fontessa-modern-jazz-quartet",
+      "plenty-plenty-soul-milt-jackson",
+      "undercurrent-bill-evans",
+      "a-study-in-frustration-fletcher-henderson",
+      "stan-getz-and-the-oscar-peterson-trio-stan-getz",
+      "open-sesame-freddie-hubbard",
+      "the-freedom-book-booker-ervin",
+      "a-garland-of-red-red-garland",
+      "the-sermon-jimmy-smith",
+      "spellbound-clifford-jordan",
+      "cornbread-lee-morgan",
+      "a-swingin-affair-dexter-gordon",
+      "dance-mania-tito-puente",
+      "the-dual-role-of-bob-brookmeyer-bob-brookmeyer",
+      "detroitnew-york-junction-thad-jones",
+      "jazz-giant-benny-carter",
+      "clifford-brown-memorial-album-clifford-brown",
+      "latin-jazz-quintet-latin-jazz-quintet",
+      "coltrane-jazz-john-coltrane",
+      "far-east-suite-duke-ellington",
+      "ella-fitzgerald-sings-the-cole-porter-song-book-ella-fitzgerald",
+      "the-hawk-flies-high-coleman-hawkins",
+      "ben-webster-meets-oscar-peterson-ben-webster",
+      "the-complete-billie-holiday-on-verve-billie-holiday",
+      "way-out-west-sonny-rollins",
+      "drums-unlimited-max-roach",
+      "free-for-all-art-blakey",
+      "dexter-calling-dexter-gordon",
+      "the-gigolo-lee-morgan",
+      "destination-out-jackie-mclean",
+      "savoy-sessions-charlie-parker",
+      "it-could-happen-to-you-chet-baker",
+      "reunion-with-chet-baker-gerry-mulligan",
+      "smack-up-art-pepper",
+      "motion-lee-konitz",
+      "the-awakening-ahmad-jamal",
+      "bumpin-wes-montgomery"
+    ],
+    "factual_error_artists": [
+      "abdullah-ibrahim",
+      "andy-bey",
+      "baby-face-willette",
+      "bheki-mseleku",
+      "dizzy-gillespie",
+      "eddie-palmieri",
+      "flora-purim",
+      "louis-moholo-moholo",
+      "matana-roberts",
+      "ornette-coleman",
+      "pat-martino",
+      "roy-ayers",
+      "ryo-kawasaki",
+      "sonny-rollins",
+      "sons-of-kemet",
+      "sun-ra",
+      "terence-blanchard",
+      "world-saxophone-quartet",
+      "tito-puente"
+    ],
+    "other": []
+  },
+  "demotions": [
+    {
+      "id": "the-president",
+      "kind": "album",
+      "from": "entity_mismatch",
+      "to": "unverifiable",
+      "reason": "The entity_mismatch bar (prose wholesale about a different entity) is not met because the prose does describe this album; the cited concern is the 'clarinetist' framing, but the evidence calls Young an 'occasional clarinetist' and gives no personnel for this specific album, so what he plays here cannot be checked."
+    },
+    {
+      "id": "jazz-in-africa",
+      "kind": "album",
+      "from": "entity_mismatch",
+      "to": "unverifiable",
+      "reason": "Because no evidence establishes a separate 'Jazz in Africa' entity and the keyTracks overlap the prose's album, I cannot produce a verbatim quote proving the prose is about a different entity than the item actually is; the title field is unverified (MB empty) and the item's true identity cannot be resolved from the evidence, so the entity_mismatch is overturned to unverifiable rather than upheld."
+    },
+    {
+      "id": "saudades",
+      "kind": "album",
+      "from": "entity_mismatch",
+      "to": "unverifiable",
+      "reason": "The prose is not lifted from a differently-titled work: its album shares the item's title (Saudades) and label (ECM), so the entity_mismatch premise fails for the prose itself; the genuine defects are the item's artist credit (the album is by Vasconcelos, not Gismonti) and keyTracks that match neither the prose's album, which are metadata issues. With MB empty and the keyTracks conflicting, the item's intended identity cannot be resolved from the evidence, so I overturn to unverifiable."
+    },
+    {
+      "id": "icp-orchestra",
+      "kind": "artist",
+      "from": "factual_error",
+      "to": "clean",
+      "reason": "The three-founder fact ('Willem Breuker, Misha Mengelberg and Han Bennink') is about the 1967 ICP LABEL, not the orchestra. Naming the two orchestra principals while omitting the third label co-founder is an omission / editorial selection, not a claim contradicted by the evidence — and the evidence affirmatively supports Mengelberg and Bennink as the orchestra's drivers. No quote directly contradicts 'the ICP Orchestra was founded by Mengelberg and Bennink'."
+    },
+    {
+      "id": "horace-silver-and-the-jazz-messengers",
+      "kind": "album",
+      "from": "factual_error",
+      "to": "unverifiable",
+      "reason": "MB's single release-group first-release date (1955) is the earliest issue of the group and does not address when the specific 12\" came out; the prose's coherent two-format account (10\"=1955, 12\"=Oct 1956) is consistent with, not contradicted by, that lone date. The October-1956 12\" date cannot be checked against the provided evidence."
+    },
+    {
+      "id": "louis-armstrong-meets-oscar-peterson",
+      "kind": "album",
+      "from": "factual_error",
+      "to": "clean",
+      "reason": "The flagged prose is verbatim from the entity-matched Wikipedia page, which directly supports it: '1959 studio album (recorded in 1957)'. MB's 1957 release-group date reflects the recording year and conflicts only with the year FIELD, not the prose claim. The prose claim itself is supported, so no factual_error stands on it."
+    },
+    {
+      "id": "little-girl-blue",
+      "kind": "album",
+      "from": "factual_error",
+      "to": "clean",
+      "reason": "The flagged prose is verbatim from the entity-matched Wikipedia page, which directly and in detail supports February 1959 (announced in Billboard December 1958, released February 1959). MB's bare 1958-06-24 conflicts only with the year FIELD; the prose claim itself is supported, so no factual_error stands on it."
+    },
+    {
+      "id": "money-jungle-mingus",
+      "kind": "album",
+      "from": "factual_error",
+      "to": "clean",
+      "reason": "The flagged prose is verbatim from the entity-matched Wikipedia page, which directly supports it ('recorded on September 17, 1962, and released in February 1963 by United Artists Jazz'). MB's bare 1962 conflicts only with the year FIELD; the prose claim itself is supported, so no factual_error stands on it."
+    },
+    {
+      "id": "mercy-mercy-mercy",
+      "kind": "album",
+      "from": "factual_error",
+      "to": "unverifiable",
+      "reason": "Evidence is split: Wikipedia states verbatim '1967', MB states '1966'. A factual_error needs the claim to be clearly wrong, but here it is directly supported by one authoritative source and contradicted by another, so the release year cannot be settled from the provided evidence. The internal field(1966)-vs-prose(1967) mismatch is a data-hygiene issue, not a provable error in the flagged claim."
+    },
+    {
+      "id": "conquistador",
+      "kind": "album",
+      "from": "factual_error",
+      "to": "unverifiable",
+      "reason": "Wikipedia supports '1968' verbatim ('it was not released until 1968' per its background) while MB says 1967 — the two authoritative sources conflict, so the year is unverifiable from this evidence and the flagged claim is not clearly wrong. 'Recorded in 1966' is corroborated by both."
+    },
+    {
+      "id": "mr-shing-a-ling",
+      "kind": "album",
+      "from": "factual_error",
+      "to": "unverifiable",
+      "reason": "MB's '1967' is a year-only date on a DE pressing (BST 84271) and its release-group date; it does not directly contradict a specific 'January 1968' release of the original US issue. The field(1967)-vs-prose(Jan 1968) inconsistency is a data issue, but the prose claim is not provably wrong from this evidence."
+    },
+    {
+      "id": "selflessness-featuring-my-favorite-things",
+      "kind": "album",
+      "from": "factual_error",
+      "to": "unverifiable",
+      "reason": "Evidence conflicts: Wikipedia says '1969' verbatim, the MB release-group firstReleaseDate says 1968. The release year cannot be settled from the provided sources and the flagged claim is directly supported by one of them, so it is not clearly wrong. The field(1968)-vs-prose(1969) mismatch is a data-hygiene issue only."
+    },
+    {
+      "id": "total-eclipse",
+      "kind": "album",
+      "from": "factual_error",
+      "to": "unverifiable",
+      "reason": "Wikipedia supports '1969' verbatim (lead and short description) while MB's release and release-group say 1968 — the sources conflict, so the year is unverifiable from this evidence and the flagged claim is not provably wrong. The field(1968)-vs-prose(1969) inconsistency is a data issue."
+    },
+    {
+      "id": "illuminations",
+      "kind": "album",
+      "from": "factual_error",
+      "to": "clean",
+      "reason": "Every stated fact is supported (her contribution, Columbia, the two tracks, and wiki even backs 'free jazz'). The defect is that it omits co-credited Carlos Santana, but the prose never claims the album is solo and asserts nothing false; omitting a leader/co-leader is protected editorial style and absence is not contradiction, so no factual_error survives. The artist-field choice is a cataloging convention."
+    },
+    {
+      "id": "sadao-watanabe-mbali",
+      "kind": "album",
+      "from": "factual_error",
+      "to": "unverifiable",
+      "reason": "Label varies by pressing and region, and MB's single matched JP CBS/Sony release does not say the album was 'not' on Flying Disk — absence of Flying Disk in this one MB record is not a contradiction. The Flying Disk claim simply cannot be checked against the provided evidence."
+    },
+    {
+      "id": "the-popular-duke-ellington",
+      "kind": "album",
+      "from": "factual_error",
+      "to": "unverifiable",
+      "reason": "Because the tracklist comes from a search-matched release whose own title diverges from ours, and the flag's own notes concede the three tracks 'could be on a different Phontastic pressing', the keyTracks absence is not a clean contradiction; it cannot be checked against an authoritative tracklist for our exact release."
+    },
+    {
+      "id": "concept-of-freedom",
+      "kind": "album",
+      "from": "factual_error",
+      "to": "unverifiable",
+      "reason": "There is no verbatim evidence quote that directly contradicts a specific factual claim: Ellington's credited presence is confirmed by MB, the leader-framing rests only on MB's artist ordering (a soft signal, not a contradiction), and the swing/big-band descriptors are uncheckable editorial. The attribution emphasis is debatable but cannot be upheld as a hard factual_error on this evidence."
+    },
+    {
+      "id": "moonlight-serenade-glenn-miller",
+      "kind": "album",
+      "from": "factual_error",
+      "to": "unverifiable",
+      "reason": "The match is a search hit on a generic comp title with a DIFFERENT year (MB 2001 vs ours 1992), different label (Rajon vs ours' placeholder) and different country -- the evidence does not establish this is ours' actual release. Absence of two tracks from an unconfirmed different compilation is not a contradiction of ours. The judge itself conceded the two tracks 'could simply be on the 1992 edition.'"
+    },
+    {
+      "id": "body-and-soul-coleman-hawkins",
+      "kind": "album",
+      "from": "factual_error",
+      "to": "unverifiable",
+      "reason": "Ours' year is null and the MB hit is only a search match on a generic comp title (Dreyfus 2001); neither the MB tracklist nor the separate 1996 Wikipedia comp is confirmed to be ours' actual release. The six keyTracks form a coherent real Hawkins program (the Paris 'Crazy Rhythm'/'Honeysuckle Rose' sides), consistent with yet another same-titled comp. Absence from two unconfirmed title-matches is not a contradiction of ours."
+    },
+    {
+      "id": "django-and-his-american-friends-django-reinhardt",
+      "kind": "album",
+      "from": "factual_error",
+      "to": "unverifiable",
+      "reason": "MB entityMatch is 'unsure'; the search matched 'Django And His American Friends, Vol. 2' but ours' title has no volume and the judge concluded ours 'looks like Vol. 1.' If a different volume was matched, ours' keyTracks could be correct for ours' actual (unmatched) release, so their absence from the Vol. 2 tracklist is not a contradiction."
+    },
+    {
+      "id": "swing-de-paris-django-reinhardt",
+      "kind": "album",
+      "from": "factual_error",
+      "to": "unverifiable",
+      "reason": "Absence is not contradiction: no verbatim quote affirmatively states these titles are not Django tracks, and the verdict itself concedes they are plausibly genuine Django recordings on other issues; the matched 40-track compilation is likely a different release than ours, so the keyTracks claim cannot be proven false from this evidence."
+    }
+  ],
+  "spotcheck": {
+    "sampled": 30,
+    "hidden_problems": 0,
+    "hits": []
+  },
+  "detail": [
+    {
+      "id": "singin-the-blues-beiderbecke",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "It is not related to the 1920 jazz song \"Singin' the Blues\" recorded by Frank Trumbauer and Bix Beiderbecke in 1927.",
+      "specificBadClaim": "\"Singing the Blues\" is a popular song composed by Melvin Endsley and published in 1956. The highest-charting version was by Guy Mitchell and the first recording of the song was by Marty Robbins.",
+      "decision": "The prose opens by describing the 1956 Melvin Endsley / Guy Mitchell pop song, and the evidence extract explicitly disclaims that this is the same entity as the Beiderbecke recording, so the prose skeleton is wholesale a different work.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "aint-misbehavin-waller",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "1929 song",
+      "specificBadClaim": "\"Ain't Misbehavin'\" is a 1929 stride jazz/early swing song. Andy Razaf wrote the lyrics to a score by Thomas \"Fats\" Waller and Harry Brooks for the Broadway musical comedy play Connie's Hot Chocolates.",
+      "decision": "The entire albumDNA is the lead of the song-composition page (a Broadway-musical song work), and the evidence marks the described entity as a 1929 song, not the 2001 album release this item represents.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "quintette-du-hot-club-de-france",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "French jazz group",
+      "specificBadClaim": "The Quintette du Hot Club de France, often abbreviated \"QdHCdF\" or \"QHCF\", was a jazz group founded in France in 1934 by the guitarist Django Reinhardt and the violinist Stéphane Grappelli.",
+      "decision": "The albumDNA is verbatim the wiki lead describing the musical group (a different kind of entity than an album), with zero album-level content; the evidence identifies the described entity as a jazz group.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "the-joint-is-jumpin",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "The Joint Is Jumpin'",
+      "specificBadClaim": "A Handful of Keys is an album of live performances by jazz pianist Fats Waller & His Rhythm, the only authorized live performances of the musician. It features previously unreleased live radio transcriptions originally broadcast in 1938.",
+      "decision": "The prose names and describes a different album entirely ('A Handful of Keys', live 1938 radio transcriptions), while the embedded release for this item is titled 'The Joint Is Jumpin''.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "django-reinhardt-et-son-quintette",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Composition by Django Reinhardt",
+      "specificBadClaim": "\"Nuages\" is one of the best-known compositions by Django Reinhardt. He recorded at least thirteen versions of the tune, which is a jazz standard and a mainstay of the gypsy swing repertoire.",
+      "decision": "The albumDNA is the lead of the composition page describing the tune 'Nuages' (a song work), confirmed by the evidence short description, not the 1988 compilation album this item represents.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "django",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Romani-French jazz musician (1910–1953)",
+      "specificBadClaim": "Jean Reinhardt, known by his Romani nickname Django, was a Belgian-born Romani jazz guitarist and composer who lived most of his life in France.",
+      "decision": "The entire albumDNA is the Django Reinhardt person biography with no album-level content; the evidence identifies the described entity as a person, not the 'Djangology' album.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "lover-man",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "\"Lover Man\", or \"Lover Man (Oh, Where Can You Be?)\", is a 1941 song made popular by Billie Holiday.",
+      "specificBadClaim": "\"Lover Man \" is a 1941 popular song written by Jimmy Davis, Roger (\"Ram\") Ramirez, and James Sherman.",
+      "decision": "The albumDNA describes the 1941 song composition; the evidence confirms the described entity is a 1941 song, distinct from the 1951 Decca album this item represents.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "oscar-peterson-plays-george-gershwin",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "1963 studio album by the Oscar Peterson Trio",
+      "specificBadClaim": "Night Train is an album by the Oscar Peterson Trio, released in 1963 by Verve Records.",
+      "decision": "The entire albumDNA describes 'Night Train' (a 1963 Verve album), confirmed by the evidence short description, not 'Oscar Peterson Plays George Gershwin' which this item is titled after.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "the-great-artistry-of-django-reinhardt",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Romani-French jazz musician (1910–1953)",
+      "specificBadClaim": "Jean Reinhardt, known by his Romani nickname Django, was a Belgian-born Romani jazz guitarist and composer who lived most of his life in France.",
+      "decision": "The entire albumDNA is the Django Reinhardt person biography verbatim with no album content; the evidence identifies the described entity as a person, not this album.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "tatum-carter-bellson",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Pianist Art Tatum recorded commercially from 1932 until near his death.",
+      "specificBadClaim": "Pianist Art Tatum recorded commercially from 1932 until near his death. He recorded nearly 400 titles, if airchecks and informal, private recordings are included.",
+      "decision": "The albumDNA is wholesale the Art Tatum career/discography summary about the person's recording history, not any content about the 'Tatum, Carter, Bellson' album; the evidence is the discography page lead about the person.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "kenny-burrell",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "1957 studio album by Kenny Burrell",
+      "specificBadClaim": "Kenny Burrell is an album by guitarist Kenny Burrell recorded in 1957 and released on the Prestige label.",
+      "decision": "Anchored to the embedded release (dated 1956 on Blue Note), the prose and stored link describe the different same-titled Prestige album, which the evidence short description marks as a 1957 studio album; the prose even self-contradicts on the year.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "the-trio-volume-3-everybody-likes-hampton-hawes",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Everybody Likes Hampton Hawes, Vol. 3: The Trio",
+      "specificBadClaim": "The Sermon is an album of spirituals by American jazz pianist Hampton Hawes recorded in 1958, but not released on the Contemporary label until 1987.",
+      "decision": "The albumDNA describes 'The Sermon' (an album of spirituals recorded 1958, released 1987), a wholly different album, while the embedded release for this item is titled 'Everybody Likes Hampton Hawes, Vol. 3: The Trio'.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "ella-and-her-fellas",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Ella and Her Fellas",
+      "specificBadClaim": "Like Someone in Love is a 1957 studio album by the American jazz singer Ella Fitzgerald, with a studio orchestra arranged and conducted by Frank DeVol",
+      "decision": "The albumDNA is the wiki lead of 'Like Someone in Love' (a different Fitzgerald album), while the embedded release for this item is titled 'Ella and Her Fellas'.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "four-trombones",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Four Trombones",
+      "specificBadClaim": "Mingus is an album by the jazz bassist and composer Charles Mingus. The album was recorded in October and November 1960 in New York and released in late 1961 on Nat Hentoff's Candid label.",
+      "decision": "The albumDNA is the wiki lead of 'Mingus' (a 1961 Candid album), while the embedded release for this item is titled 'Four Trombones'; the 1960/1961/Candid facts describe the other record.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "the-oscar-peterson-trio-at-newport",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "1975 studio album by Oscar Peterson & Roy Eldridge",
+      "specificBadClaim": "Oscar Peterson and Roy Eldridge is an album by Oscar Peterson, on which he is accompanied by Roy Eldridge.",
+      "decision": "The albumDNA and stored link describe 'Oscar Peterson and Roy Eldridge', a 1975 studio duo album per the evidence short description, while this item is the 1958 live album 'The Oscar Peterson Trio at Newport'.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "louie-and-the-dukes-of-dixieland",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Louie and the Dukes of Dixieland",
+      "specificBadClaim": "I've Got the World on a String is a 1960 album by Louis Armstrong, arranged by Russell Garcia. It was recorded on the same day as Armstrong's 1958 album Louis Under the Stars; the previous day he had finished recording Ella and Louis Again with Ella Fitzgerald.",
+      "decision": "The albumDNA is the wiki lead of 'I've Got the World on a String' (the Russell Garcia orchestral date), while the embedded release for this item is titled 'Louie and the Dukes of Dixieland', Armstrong's collaboration with The Dukes of Dixieland.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "soul-junction-coltrane",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Soul Junction is an album by the jazz pianist and composer Red Garland. It was released in 1960 through Prestige Records.",
+      "specificBadClaim": "Lush Life is a studio album by the jazz musician John Coltrane. It was released in early 1961 by Prestige Records.",
+      "decision": "The albumDNA describes 'Lush Life' (a Coltrane album released early 1961, assembled from 1957–58 sessions), while the entity-matched evidence shows this item is Soul Junction, a 1960 Red Garland album on Prestige.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "soul-time",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Soul Time",
+      "specificBadClaim": "Holiday Soul is an album of Christmas music by the American jazz pianist Bobby Timmons, recorded in 1964 and released on the Prestige label.",
+      "decision": "The albumDNA describes 'Holiday Soul' (a 1964 Christmas album on Prestige), while the embedded release for this item is titled 'Soul Time' (Riverside, November 1960).",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "waltz-for-debby",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Waltz for Debby is the name of:\n\n\"Waltz for Debby\" (song), a 1956 jazz composition by Bill Evans later made into a song\nWaltz for Debby (1962 album), album by Bill Evans\nWaltz for Debby (1964 album), album by Monica Zetterlund and Bill Evans",
+      "specificBadClaim": "Waltz for Debby is the name of:\"Waltz for Debby\" (song), a 1956 jazz composition by Bill Evans later made into a song",
+      "decision": "The core albumDNA is scraped disambiguation-page text enumerating different entities (a 1956 song and the 1964 Zetterlund/Evans album), not prose about the 1962 Bill Evans Trio live album this item represents; the evidence confirms the page is a 'name of' disambiguation listing.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "whats-new",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "The Bridge is a studio album by jazz saxophonist Sonny Rollins, recorded in January and February 1962 and released that April.",
+      "specificBadClaim": "The Bridge is a studio album by jazz saxophonist Sonny Rollins, recorded in 1962. It was Rollins's first release following a three-year sabbatical and was his first album for RCA Victor.",
+      "decision": "The albumDNA opens by naming and describing a differently-titled album (The Bridge) and the stored wiki extract is that album's article, whose tracklist (Without a Song / The Bridge / God Bless the Child) shares nothing with this item's keyTracks; the prose skeleton is wholesale a different work.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "caravan",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Art Blakey and the Jazz Messengers (stylized as Art Blakey!!!!! Jazz Messengers!!!!! and titled Alamode in Japan) is a studio album by Art Blakey and the Jazz Messengers, released on September 1, 1961, through Impulse! Records.",
+      "specificBadClaim": "Art Blakey and the Jazz Messengers is a studio album by Art Blakey and the Jazz Messengers, released on September 1, 1961, through Impulse! Records. Expanding to a sextet for the first time, it was the group's final recording with Bobby Timmons, who would be replaced by Cedar Walton.",
+      "decision": "The albumDNA is the verbatim lead of a differently-titled album (Art Blakey and the Jazz Messengers, Sept 1 1961, Impulse!) and the stored wiki extract for that album lists a tracklist (A la Mode / Invitation / Circus) sharing nothing with this item; the prose describes a different release.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "blue-notes-legacy",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Harold Melvin & the Blue Notes were an American soul and R&B vocal group. One of the most popular Philadelphia soul groups of the 1970s, the group's repertoire included soul, R&B, doo-wop, and disco.",
+      "specificBadClaim": "Harold Melvin & the Blue Notes were an American soul and R&B vocal group. One of the most popular Philadelphia soul groups of the 1970s, the group's repertoire included soul, R&B, doo-wop, and disco.",
+      "decision": "The bulk of the albumDNA is the verbatim wiki lead for Harold Melvin & the Blue Notes, an American soul/R&B vocal group founded in Philadelphia as The Charlemagnes; that is a different identifiable entity from this 1964 South African jazz album on Gallo, and the evidence confirms the described subject is the soul group.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "poetry-and-jazz-in-concert-record-one",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "shortDescription: Jamaican jazz musician and composer",
+      "specificBadClaim": "Joseph Arthurlin Harriott was a Jamaican jazz musician and composer, whose principal instrument was the alto saxophone.",
+      "decision": "The albumDNA is wholesale the Joe Harriott artist-page lead (birth, instrument, career-innovation framing) with zero album-level content; the evidence shortDescription confirms the described subject is a person, a different entity than this album.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "ray-brown-milt-jackson",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Goodbye is an album by vibraphonist Milt Jackson recorded in 1973 (with one track from 1972) and released on the CTI label.",
+      "specificBadClaim": "Goodbye is an album by vibraphonist Milt Jackson recorded in 1973 and released on the CTI label.",
+      "decision": "The albumDNA's first sentence names and describes a different album (Goodbye, Milt Jackson, CTI, 1973) and the stored wiki extract is that 1973 album's article; the prose skeleton is lifted from a different release than this 1965 Verve LP.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "grazin-in-the-grass",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "shortDescription: 1968 composition by Philemon Hou",
+      "specificBadClaim": "\"Grazing in the Grass\" is an instrumental composed by Philemon Hou and first recorded by the South African trumpeter Hugh Masekela. Released in the United States as a single in 1968, it followed United States trumpeter Herb Alpert's vocal performance of \"This Guy's in Love with You\" to the top spot on the Hot 100 chart",
+      "decision": "The albumDNA is wholesale the article about the composition/single 'Grazing in the Grass' (single release, Hot 100 placing, later compilation appearances) and the evidence shortDescription marks it as a 1968 composition, not the album this item represents.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "the-piano-soul-of-nat-king-cole",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "shortDescription: American singer and jazz pianist (1919–1965)",
+      "specificBadClaim": "Nathaniel Adams Coles, known professionally as Nat King Cole, was an American singer, jazz pianist, and actor.",
+      "decision": "The albumDNA is wholesale the verbatim Nat King Cole artist-page lead with no album-level content; the evidence shortDescription confirms the described subject is the person, a different entity than this 1968 Pickwick album.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "monks-blues",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Monk's Dream is an album by jazz pianist Thelonious Monk, released by Columbia Records in January 1963. It was Monk's first album for Columbia following his five-year recording period with Riverside Records.",
+      "specificBadClaim": "Monk's Dream is an album by jazz pianist Thelonious Monk, released by Columbia Records in January 1963. It was Monk's first album for Columbia following his five-year recording period with Riverside Records.",
+      "decision": "The albumDNA names and describes a different album (Monk's Dream, Columbia, January 1963) and the stored wiki extract is that 1963 album's article, while the embedded MB release-group title and date for this item are Monk's Blues, 1969; the prose is a different work.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "the-new-don-ellis-band-goes-underground",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Don Ellis at Fillmore is a live double-LP by big band leader Don Ellis which was released in 1970.",
+      "specificBadClaim": "Don Ellis at Fillmore is a live double-LP by big band leader Don Ellis which was released in 1970.",
+      "decision": "The albumDNA's first sentence names and describes a different album (Don Ellis at Fillmore, live double-LP, 1970) and the stored wiki extract is that album's article; this item is the 1969 studio album per the embedded MB release, so the prose describes a different release.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "les-stances-a-sophie",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "shortDescription: \"American avant-garde jazz group\"",
+      "specificBadClaim": "The Art Ensemble of Chicago is an avant-garde jazz group that grew out of the Association for the Advancement of Creative Musicians (AACM) in the late 1960s.",
+      "decision": "The bulk of the albumDNA is the verbatim wiki lead for the band as its subject (AACM origins, little instruments, costumes, 500 instruments in Europe 1969); the evidence shortDescription identifies the described subject as a musical group, a different kind of entity than the album, and the thin album tail does not change that the prose is wholesale the group article.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "on-with-it",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "shortDescription: American jazz organist and bandleader (1926–2001)",
+      "specificBadClaim": "Eugene McDuffy, known professionally as \"Brother\" Jack McDuff or \"Captain\" Jack McDuff, was an American jazz organist and organ trio bandleader.",
+      "decision": "The albumDNA is wholesale the verbatim Jack McDuff artist-page lead with no album-level content; the evidence shortDescription confirms the described subject is the person, a different entity than this 1971 Prestige album.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "weather-report",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "\"Birdland\" is a jazz/pop song written by Joe Zawinul of the band Weather Report as a tribute to the Birdland nightclub in New York City, which appeared on the band's 1977 album Heavy Weather.",
+      "specificBadClaim": "\"Birdland\" is a jazz/pop song written by Joe Zawinul of the band Weather Report as a tribute to the Birdland nightclub in New York City, which appeared on the band's 1977 album Heavy Weather.",
+      "decision": "The albumDNA is wholesale the article about the song 'Birdland' (from Heavy Weather, 1977) and the stored wiki extract describes that song; the embedded MB release-group is the 1971 debut album whose tracklist contains no 'Birdland', so the prose is about a different work.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "ella-loves-cole",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Ella Fitzgerald Sings the Cole Porter Song Book is a 1956 studio double album by American jazz singer Ella Fitzgerald, accompanied by a studio orchestra conducted and arranged by Buddy Bregman, focusing on the songs of Cole Porter.",
+      "specificBadClaim": "Ella Fitzgerald Sings the Cole Porter Song Book is a 1956 studio double album by American jazz singer Ella Fitzgerald, accompanied by a studio orchestra conducted and arranged by Buddy Bregman",
+      "decision": "The albumDNA names and describes a different album (Ella Fitzgerald Sings the Cole Porter Song Book, 1956 Verve double album arranged by Buddy Bregman) and the stored wiki extract is that album's article, while the embedded MB release for this item is Ella Loves Cole, 1972, Atlantic; the prose is a different release.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "afrodisia",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "shortDescription: \"1972 single by Manu Dibango\"",
+      "specificBadClaim": "\"Soul Makossa\" is a song by Cameroonian saxophonist and songwriter Manu Dibango, released as a single in 1972.",
+      "decision": "The albumDNA is wholesale the article about the song/single 'Soul Makossa' (1972 single, B-side history of the football anthem) and the evidence shortDescription marks it as a 1972 single; this item is an album (MB primaryType Album, 1973), so the prose describes a different entity.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "mannenberg",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Abdullah Ibrahim (born Adolph Johannes Brand on 9 October 1934), previously known as Dollar Brand, is a South African pianist and composer.",
+      "specificBadClaim": "Abdullah Ibrahim, previously known as Dollar Brand, is a South African pianist and composer.",
+      "decision": "The albumDNA is wholesale the verbatim Abdullah Ibrahim artist-page lead as its subject (Dollar Brand, Cape jazz, Monk/Ellington influence) with no album-level factual content; the evidence shortDescription confirms the described subject is the person, and the two closing lines are pure editorial opinion that does not make the prose album-specific.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "summit-reunin-cumbre",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Night Lights is an album by American jazz saxophonist Gerry Mulligan featuring performances recorded in 1963 and first released on the Philips label.",
+      "specificBadClaim": "Night Lights is an album by American jazz saxophonist Gerry Mulligan featuring performances recorded in 1963 and first released on the Philips label.",
+      "decision": "The albumDNA names and describes a different album (Night Lights, recorded 1963, Philips) and the stored wiki extract is that album's article, while the embedded MB release-group for this item is Summit (Reunion cumbre), 1974, Mulligan with Piazzolla; the prose is a different release.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "school",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "The album was the first released solely under Zorn's name following his collaboration with Eugene Chadbourne, School (1978).",
+      "specificBadClaim": "Pool is an album by John Zorn featuring his early \"game piece\" composition of the same name which was first released on vinyl on Parachute Records in 1980 as a double album including the composition \"Hockey\".",
+      "decision": "The albumDNA names and describes a different album (Pool, 1980 Parachute double LP) and the stored wiki extract is that album's article, which itself distinguishes it from School (1978); the embedded MB release for this item is School, 1978, so the prose is a different work.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "herbie-hancock-trio-with-ron-carter-tony-williams",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Herbie Hancock Trio is an album by Herbie Hancock released on September 21, 1977, in Japan.",
+      "specificBadClaim": "Herbie Hancock Trio is an album by Herbie Hancock released on September 21, 1977, in Japan. It includes performances with bassist Ron Carter and drummer Tony Williams. A second selection of six tracks recorded by the trio during the same day's sessions was released under Ron Carter's name as Third Plane.",
+      "decision": "The stored wiki extract for the 1977 album lists a tracklist (Watch It / Speak Like a Child / Watcha Waitin' For / Look / Milestones) that shares zero titles with this item's keyTracks, and the embedded MB release is dated 1981; the prose describes a different release than this item.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "baroque-music-for-trumpets",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "English Chamber Orchestra",
+      "specificBadClaim": "Haydn, Hummel, L. Mozart: Trumpet Concertos is a studio album of trumpet concertos by Joseph Haydn, Leopold Mozart and Johann Nepomuk Hummel, performed by Wynton Marsalis with the National Philharmonic Orchestra under the direction of Raymond Leppard",
+      "decision": "Fails: the prose self-identifies the album as 'Haydn, Hummel, L. Mozart: Trumpet Concertos' with the National Philharmonic Orchestra, but the MB release is titled 'Baroque Music for Trumpet' and credits the English Chamber Orchestra. The prose is the verbatim lede of a different Marsalis classical album, not this one.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "straight-life-the-savoy-sessions",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Straight Life - The Savoy Sessions",
+      "specificBadClaim": "Modern Art is an album by saxophonist Art Pepper featuring sessions recorded in late 1956 and early 1957 originally released on the Intro label. The album was reissued on CD on Blue Note Records with bonus tracks as Modern Art: The Complete Art Pepper Aladdin Recordings Volume 2 in 1988.",
+      "decision": "Fails: the prose opens by naming and describing a different album ('Modern Art', Intro label, 1956-57, reissued 1988), while the MB release under verification is 'Straight Life - The Savoy Sessions' on Savoy Jazz. Wholesale about another work.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "hearts-and-numbers",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Hearts and Numbers",
+      "specificBadClaim": "Out of the Loop is the seventh and final studio album by the Brecker Brothers that was released by GRP Records in 1994. In 1995 the album won the brothers two Grammy Awards for Best Contemporary Jazz Performance and Best Instrumental Composition.",
+      "decision": "Fails: the entire prose describes 'Out of the Loop' (Brecker Brothers, GRP, 1994), a distinct album, while the MB release under verification is 'Hearts and Numbers' (1985, Hip Pocket). Wholesale about another work.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "crystal-stair-blanchard",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Black Pearl is an album by the American jazz duo Harrison/Blanchard, released in 1988. It was their final album together",
+      "specificBadClaim": "Black Pearl is an album by the American jazz duo Harrison/Blanchard, released in 1988. It was their final album together; Terence Blanchard began his long partnership with the director Spike Lee on School Daze, released the same year. The duo supported the album with a North American tour.",
+      "decision": "Fails: the prose is the verbatim lede of 'Black Pearl' (1988), naming a different title and year, while the MB release under verification is 'Crystal Stair' (1987, Columbia). Wholesale about another work.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "satchmo",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Louis Daniel Armstrong (August 4, 1901 – July 6, 1971), nicknamed \"Satchmo\", \"Satch\", and \"Pops\", was an American jazz and blues trumpeter and vocalist.",
+      "specificBadClaim": "Louis Daniel Armstrong, nicknamed \"Satchmo\", \"Satch\", and \"Pops\", was an American jazz and blues trumpeter and vocalist.",
+      "decision": "Fails: the prose is wholesale a person-biography of Louis Armstrong (lifespan, nicknames, career-spanning accolades) copied from his artist page, not a description of the album 'Satchmo'. Per the distinguishing rule, prose wholesale about a person while the item is an album is an entity_mismatch.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "stories",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Sail Away is an album by the American musician Tom Harrell. It was released in 1989 via Contemporary Records.",
+      "specificBadClaim": "Sail Away is an album by the American musician Tom Harrell. It was released in 1989 via Contemporary Records. The title track became a jazz standard. The album was reissued in 2003 with two bonus tracks.",
+      "decision": "Fails: the prose is the verbatim lede of 'Sail Away' (1989, Contemporary Records), a different title/year/label, while the MB release under verification is 'Stories' (1988). Wholesale about another work.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "david-sanborn",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Sanborn is an album by jazz saxophonist David Sanborn, released by Warner Bros. in 1976.",
+      "specificBadClaim": "Double Vision is a 1986 album by Bob James and David Sanborn.",
+      "decision": "Fails: the prose describes 'Double Vision' (1986, Bob James and David Sanborn), but the MB release and the matched, correct wiki page are the self-titled 'David Sanborn' album by Sanborn alone. The prose names a different collaborative album.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "hipmotism",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Night Song is an album by the saxophonist Arthur Blythe, released via Clarity Recordings in 1997.",
+      "specificBadClaim": "Night Song is an album by the saxophonist Arthur Blythe, released via Clarity Recordings in 1997.",
+      "decision": "Fails: the album's primary identity statement names it as 'Night Song ... released via Clarity Recordings in 1997', the verbatim lede of a different Arthur Blythe album, while MB confirms the item is 'Hipmotism' on enja, firstReleaseDate 1991. A wrong album name with a copied lede is a mismatch, not one wrong fact on the right entity.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "a-jazz-hour-with-dizzy-gillespie",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Dizzy Gillespie and the Double Six of Paris is a 1963 studio album collaboration between Dizzy Gillespie and Les Double Six",
+      "specificBadClaim": "Dizzy Gillespie and the Double Six of Paris is a 1963 studio album collaboration between Dizzy Gillespie and Les Double Six, also known as the Double Six of Paris",
+      "decision": "Fails: the prose is the verbatim lede of 'Dizzy Gillespie and the Double Six of Paris' (1963), a different album with a different program, while MB confirms the item is the 1992 Movieplay 'A Jazz Hour With Dizzy Gillespie'. Wholesale about another work.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "russell-malone",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Austin Richard Post (born July 4, 1995), known professionally as Post Malone, is an American singer, rapper, songwriter, record producer, and actor.",
+      "specificBadClaim": "Austin Richard Post, known professionally as Post Malone, is an American singer, rapper, songwriter, record producer, and actor.",
+      "decision": "Fails: the prose is the biography of Post Malone (pop/hip-hop, born 1995), a completely different person from the jazz guitarist Russell Malone whose 1992 Columbia album MB confirms. Wholesale about a different person.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "blue-rondo",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Clarinet Sonata, FP184: I. Allegro tristemente",
+      "specificBadClaim": "A 1997 Tudor date, Blue Rondo finds Charlie Parker in a bebop setting.",
+      "decision": "Fails: the prose presents the album as a Charlie Parker bebop date, but the MB release is a multi-credit clarinet recital (Brubeck, Debussy, Poulenc, Honegger, Stravinsky, Parker plus clarinettist Karl-Heinz Steffens and pianist David Gazarov) whose tracklist is classical clarinet sonatas. Parker is one composer credit among many, so framing the entity as his bebop album misidentifies it.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "blue-rondo-brubeck",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Clarinet Sonata, FP184: I. Allegro tristemente",
+      "specificBadClaim": "Pianist Dave Brubeck's 1997 album Blue Rondo draws from the cool jazz tradition, released on Tudor.",
+      "decision": "Fails: the prose presents the album as Dave Brubeck's cool-jazz album, but the same MB release is a multi-credit clarinet recital (Brubeck appears only as one of fifteen credits among Debussy, Poulenc, Stravinsky, clarinettist Karl-Heinz Steffens, etc.) with a classical clarinet tracklist. Misidentifies the entity as a single-artist Brubeck record.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "jazz-in-film",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Terence Blanchard is an album by American jazz trumpeter Terence Blanchard. This is his debut full-length album as a leader. The record was released on June 18, 1991, via Columbia Records.",
+      "specificBadClaim": "Terence Blanchard is an album by American jazz trumpeter Terence Blanchard. This is his debut full-length album as a leader. The record was released on June 18, 1991, via Columbia Records.",
+      "decision": "Fails: the prose is the verbatim lede of Blanchard's 1991 self-titled debut on Columbia, a different title/year/label, while MB confirms the item is 'Jazz in Film' (1999, Sony Classical). Wholesale about another work.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "joey-calderazzo",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Amanecer is an album by Joey Calderazzo. It was recorded in 2006 and released by Marsalis Music.",
+      "specificBadClaim": "Amanecer is an album by Joey Calderazzo. It was recorded in 2006 and released by Marsalis Music.",
+      "decision": "Fails: the prose is the verbatim lede of 'Amanecer' (2006, Marsalis Music), a different title/year/label, while MB confirms the item is the self-titled 'Joey Calderazzo' (2000, Columbia). Wholesale about another work.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "congo-square",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "A Tale of God's Will (A Requiem for Katrina) is a studio album recorded in 2007 by the Terence Blanchard Quintet. The album was originally released on August 14, 2007 (2007-08-14) by Blue Note Records.",
+      "specificBadClaim": "A Tale of God's Will (A Requiem for Katrina) is a studio album recorded in 2007 by the Terence Blanchard Quintet.",
+      "decision": "Fails: the prose is the verbatim lede of 'A Tale of God's Will (A Requiem for Katrina)' (2007), a distinctly titled and dated album confirmed by the wiki extract, while the item is 'Congo Square' (2006). The mismatch is established by the wiki evidence itself, not by absence.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "malphas-book-of-angels-volume-3",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Orobas: Book of Angels Volume 4 is an album by Koby Israelite performing compositions from John Zorn's second Masada book, \"The Book of Angels\".",
+      "specificBadClaim": "Orobas: Book of Angels Volume 4 is an album by Koby Israelite performing compositions from John Zorn's second Masada book, \"The Book of Angels\".",
+      "decision": "Fails: the prose is the verbatim lede of 'Orobas: Book of Angels Volume 4' by Koby Israelite, a different volume and a different performing artist, while MB confirms the item is 'Malphas: Book of Angels, Volume 3' (Mark Feldman & Sylvie Courvoisier). Wholesale about another work.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "the-library-of-congress-recordings-by-alan-lomax",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "In 2007, Rounder released Jelly Roll Morton: The Library of Congress Recordings by Alan Lomax, a single disc consisting of selected highlights from the box set.",
+      "specificBadClaim": "Jelly Roll Morton: The Complete Library of Congress Recordings is a 2005 box set of recordings from jazz pioneer Jelly Roll Morton. The set spans 128 tracks over eight CDs.",
+      "decision": "Fails: the wiki extract itself draws the line, stating that the single-disc 'The Library of Congress Recordings by Alan Lomax' (our item, MB-confirmed) is a separate 2007 highlights release derived from the 8-CD box set the prose describes. The prose's hard facts (8 CDs, 128 tracks, 2005, two Grammys) belong to the distinct box set.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "standards",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Ballads is a solo studio album by English guitarist Derek Bailey. It was released on 23 April 2002, through Tzadik.",
+      "specificBadClaim": "Ballads is a solo studio album by English guitarist Derek Bailey. It was released on 23 April 2002, through Tzadik.",
+      "decision": "Fails: the prose is the verbatim lede of 'Ballads' (23 April 2002, Tzadik), a different title and date, while MB confirms the item is 'Standards' (2007-06-26, Tzadik). Wholesale about another work.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "pithecanthropus-erectus-the-clown",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Pithecanthropus Erectus + The Clown",
+      "specificBadClaim": "Charles Mingus in Paris: The Complete America Session is a compilation of two albums by American bassist, composer and bandleader Charles Mingus which were recorded in Paris in 1970 and first released on the French America label as Blue Bird and Pithycanthropus Erectus.",
+      "decision": "Fails: the prose is the verbatim lede of 'Charles Mingus in Paris: The Complete America Session' (Paris 1970 sessions, France/America label, Sunnyside 2006), while MB confirms the item is 'Pithecanthropus Erectus + The Clown' (Essential Jazz Classics, 2009, 1956/1957 studio material). Different release entirely.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "xxi-century",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "XXI Century (5Passion, 2011)",
+      "specificBadClaim": "XXI Century is a 2008 album by trumpeter and flugelhornist Claudio Roditi.",
+      "decision": "Fails: the prose's factual skeleton describes a different artist and album, 'XXI Century' by trumpeter/flugelhornist Claudio Roditi (2008), while MB credits Gonzalo Rubalcaba and the matched Rubalcaba wiki discography lists 'XXI Century (5Passion, 2011)'. Wrong artist, instrument, and year.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "is-that-so",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Infinity is a studio album by jazz trumpeter Tom Harrell, released by HighNote Records in March 2019.",
+      "specificBadClaim": "Infinity is a studio album by jazz trumpeter Tom Harrell, released by HighNote Records in March 2019.",
+      "decision": "The albumDNA is verbatim the Wikipedia lede for 'Infinity (Tom Harrell album)' (2019, HighNote) — a different title, year and label than our 'Is That So?' (2014, Stunt). Wholesale wrong-entity prose.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "solo-piano-portraits",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Trilogy is a 2013 live album by Chick Corea and his trio, featuring Corea on piano with  Christian McBride on double bass and Brian Blade on drums.",
+      "specificBadClaim": "Trilogy is a 2013 live album by Chick Corea and his trio, featuring Corea on piano with Christian McBride on double bass and Brian Blade on drums.",
+      "decision": "The albumDNA is verbatim the Wikipedia extract for 'Trilogy (Chick Corea album)' — a 2013 three-disc live TRIO album with McBride and Blade — whereas our entity is the 2014 solo-piano 'Solo Piano - Portraits'. The prose's whole factual skeleton belongs to a different release.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "all-things-are",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Aquarius is an album by American jazz flautist Nicole Mitchell, which was recorded in 2012 and released on Delmark.",
+      "specificBadClaim": "Aquarius is an album by American jazz flautist Nicole Mitchell, which was recorded in 2012 and released on Delmark.",
+      "decision": "The albumDNA is verbatim the Wikipedia lede for 'Aquarius (Nicole Mitchell album)' (2012, Delmark, Ice Crystal quartet). The evidence's own resolvedTitle is 'Aquarius (Nicole Mitchell album)', a different album than our 'All Things Are' (2019, RogueArt). Wrong entity despite shared artist.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "morning-with-swing-jazz-guitar-trumpet-saxophone-more-melodies-of-piano-instrumental-smooth-jazz-music",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Jazz fusion (also known as jazz rock, jazz-rock fusion, or simply fusion) is a popular music genre that developed in the late 1960s when musicians combined jazz harmony and improvisation with rock music, funk, and rhythm and blues.",
+      "specificBadClaim": "Jazz fusion is a popular music genre that developed in the late 1960s when musicians combined jazz harmony and improvisation with rock music, funk, and rhythm and blues.",
+      "decision": "The albumDNA is verbatim the Wikipedia 'Jazz fusion' genre-article lede; the stored wiki link is en.wikipedia.org/wiki/Jazz_fusion. It describes a music genre, not the 2019 compilation that is our entity. Content about a different kind of thing.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "pink-elephants-on-parade",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "\"title\": \"Pink Elephants on Parade\", \"date\": \"2024-07-05\", \"country\": \"XW\", \"status\": \"Official\", \"artists\": [\"Sun Ra\", \"Arkestra\"]",
+      "specificBadClaim": "\"Pink Elephants on Parade\" is a song and scene from the 1941 Disney animated feature film Dumbo",
+      "decision": "MusicBrainz positively identifies the entity as an Album by 'Sun Ra'/'Arkestra' (2024-07-05). The albumDNA instead states the subject IS a song/scene from the 1941 Disney film Dumbo, with no reference to Sun Ra, the Arkestra or the album. The prose describes a different kind of entity (a film sequence).",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "lullaby-of-birdland",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "Lullaby of Birdland is a live album by saxophonist Lee Konitz featuring pianist Barry Harris which was recorded at Birdland in 1991 and released on the Candid label.",
+      "specificBadClaim": "Ella and Duke at the Cote D'Azur is a 1967 live album by Ella Fitzgerald, accompanied by the big band of Duke Ellington.",
+      "decision": "The albumDNA describes 'Ella and Duke at the Cote D'Azur', an Ella Fitzgerald/Ellington album, while both the MB release and the stored wiki page identify our 'Lullaby of Birdland' as a Lee Konitz / Barry Harris date. Wrong-entity prose.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "that-certain-feeling",
+      "kind": "album",
+      "originalVerdict": "entity_mismatch",
+      "contradictingQuote": "That Certain Feeling is an album by American organist John Patton recorded in 1968 and released on the Blue Note label.",
+      "specificBadClaim": "That Certain Feeling is an album by American organist John Patton recorded in 1968 and released on the Blue Note label.",
+      "decision": "The lead is a complete, self-contained description of a DIFFERENT album: organist John Patton, recorded 1968, Blue Note (verbatim the opensearch Wikipedia page for the Patton record). MB confirms our entity is Ran Blake's 1991 hat ART album. The dominant prose describes another work, so entity_mismatch stands over factual_error.",
+      "repairClass": "entity_mismatch"
+    },
+    {
+      "id": "abdullah-ibrahim",
+      "kind": "artist",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Abdullah Ibrahim (born Adolph Johannes Brand on 9 October 1934), previously known as Dollar Brand",
+      "specificBadClaim": "Abdullah Ibrahim (born Dollar Brand)",
+      "decision": "'born' denotes birth name. Evidence states he was born Adolph Johannes Brand and was only PREVIOUSLY known as Dollar Brand, so 'born Dollar Brand' is a specific, directly contradicted factual claim.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "andy-bey",
+      "kind": "artist",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "He died in Englewood, New Jersey on April 26, 2025, at the age of 85.",
+      "specificBadClaim": "Andy Bey is a vocalist and pianist possessing one of the deepest, most resonant baritone voices in jazz",
+      "decision": "The data ships deathYear null and a present-tense bio for a subject the evidence shows died 26 April 2025. The death date is a hard, directly-contradicted fact.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "baby-face-willette",
+      "kind": "artist",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "After his release, he returned to Chicago and formed his own trio in 1963.  He recorded two more albums for Argo.",
+      "specificBadClaim": "recorded only two albums for Blue Note before vanishing from the jazz scene entirely",
+      "decision": "These are factual narrative claims, not opinion, and the evidence refutes them: he formed a Chicago trio in 1963 and recorded two more albums for Argo, and the page documents his life in detail before and after the Blue Note sessions.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "bheki-mseleku",
+      "kind": "artist",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Celebration (World Circuit, 1991)",
+      "specificBadClaim": "His 1992 album 'Celebration' on Verve Records featured Joe Henderson and Pharoah Sanders",
+      "decision": "Evidence: 'Celebration (World Circuit, 1991)' and it featured Courtney Pine / British players; Joe Henderson appeared on the LATER Verve album. The prose's '1992 ... Verve ... Joe Henderson' conflates two different releases. Multiple directly-contradicted facts.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "dizzy-gillespie",
+      "kind": "artist",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"A Night in Tunisia\", written in 1942 while Dizzy was with Earl Hines's band, is noted for its syncopated bass line",
+      "specificBadClaim": "collaborating with Cuban percussionist Chano Pozo to create groundbreaking fusions like 'Manteca' and 'A Night in Tunisia.'",
+      "decision": "The prose lists both 'Manteca' and 'A Night in Tunisia' as fusions created via the Chano Pozo collaboration. Evidence positively dates 'A Night in Tunisia' to 1942 in the Earl Hines band, independent of the Afro-Cuban collaboration, contradicting that attribution.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "eddie-palmieri",
+      "kind": "artist",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Palmieri has won a total of 9 Grammy Awards during his career, most recently for his 2006 album Simpático.",
+      "specificBadClaim": "A ten-time Grammy winner",
+      "decision": "Evidence states a total of 9 Grammy Awards, directly contradicting 'A ten-time Grammy winner'. (The bio is also stale: evidence shows death on 6 August 2025 against deathYear null.)",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "flora-purim",
+      "kind": "artist",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Purim has a rare six-octave voice.",
+      "specificBadClaim": "extraordinary four-octave range",
+      "decision": "It is a quantitative claim with a directly-contradicting figure: evidence says 'a rare six-octave voice', not four. Clear numeric contradiction.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "louis-moholo-moholo",
+      "kind": "artist",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Moholo died after a lengthy illness in Cape Town, on 13 June 2025, at the age of 85.",
+      "specificBadClaim": "Louis Moholo-Moholo is a South African drummer and percussionist",
+      "decision": "Data ships deathYear null and a present-tense bio for a subject the evidence shows died 13 June 2025 in Cape Town. Hard, directly-contradicted death fact.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "matana-roberts",
+      "kind": "artist",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "They have previously been a member of the Association for the Advancement of Creative Musicians (AACM), and a member of the B.R.C. (Black Rock Coalition).",
+      "specificBadClaim": "into works she calls 'sound quilts.'",
+      "decision": "It is not absence: the source affirmatively and consistently uses they/them for Roberts throughout, which is an externally-verifiable, non-opinion fact about how the subject is identified, directly contradicting the bio's 'she'.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "ornette-coleman",
+      "kind": "artist",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "In 1959, Atlantic Records released Coleman's third studio album, The Shape of Jazz to Come.",
+      "specificBadClaim": "His 1959 debut 'The Shape of Jazz to Come'",
+      "decision": "It is a specific factual claim. Evidence states 'The Shape of Jazz to Come' was Coleman's THIRD studio album (and names 'Something Else!!!! (1958)' as the debut), directly contradicting 'debut'.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "pat-martino",
+      "kind": "artist",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "In 1980, Martino suffered a hemorrhaged arteriovenous malformation that caused a \"near-fatal seizure\".",
+      "specificBadClaim": "brain surgery for a near-fatal aneurysm in 1980",
+      "decision": "Judged on this evidence alone, the condition is specifically named a 'hemorrhaged arteriovenous malformation' — a distinct vascular condition from an aneurysm. The specific diagnostic claim is directly contradicted.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "roy-ayers",
+      "kind": "artist",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Ayers died at a hospital in Manhattan, New York, on March 4, 2025, at the age of 84, after suffering from a long illness.",
+      "specificBadClaim": "Now in his 80s, he continues performing",
+      "decision": "Evidence shows he died 4 March 2025 and had 'continued to perform live until 2023', so the present-tense 'continues performing' (and deathYear null) is directly contradicted.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "ryo-kawasaki",
+      "kind": "artist",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Japanese jazz guitarist (1947–2020)",
+      "specificBadClaim": "Ryo Kawasaki is a Japanese guitarist and electronic music pioneer",
+      "decision": "The evidence states a documented death date, so the deathYear:null + present-tense framing is positively contradicted, not just thin. This is a concrete, citable fact in the extract.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "sonny-rollins",
+      "kind": "artist",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "September 7, 1930 – May 25, 2026",
+      "specificBadClaim": "jazz's greatest living legend",
+      "decision": "'Living' is a factual component, and the extract gives a death date (May 25, 2026), directly contradicting the living/present-tense claims. The praise is opinion but the 'living' assertion is a checkable, contradicted fact.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "sons-of-kemet",
+      "kind": "artist",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "They disbanded in 2022.",
+      "specificBadClaim": "The group disbanded in 2023 at the height of their influence.",
+      "decision": "The extract flatly states the disbanding year as 2022, and the short description gives the span as 2011–2022; 2023 is directly contradicted by a specific stated year.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "sun-ra",
+      "kind": "artist",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "From the mid-1950s until his death, Ra led the musical collective The Arkestra",
+      "specificBadClaim": "led his Arkestra for over 40 years",
+      "decision": "The extract dates his leadership 'from the mid-1950s until his death' (1993 per the bio's own deathYear), giving at most ~38–39 years on any reading of mid-1950s; 'over 40 years' is contradicted by the stated start-and-end window.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "terence-blanchard",
+      "kind": "artist",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "In 1982, Wynton Marsalis recommended Blanchard as his replacement in Art Blakey's Jazz Messengers and Blakey would appoint Blanchard the band's musical director.",
+      "specificBadClaim": "Taking over Art Blakey's trumpet chair alongside fellow New Orleans native Wynton Marsalis",
+      "decision": "The extract says Marsalis recommended Blanchard as his replacement in the Jazz Messengers — a succession, not co-membership. 'Taking over the chair alongside Marsalis' misstates the relationship; the evidence directly contradicts them being in the band together.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "world-saxophone-quartet",
+      "kind": "artist",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "The World Saxophone Quartet was an American jazz ensemble founded in 1977",
+      "specificBadClaim": "Founded in 1976, the group proved that four saxophones could generate the full range of jazz expression",
+      "decision": "The entity-matched Wikipedia lead states a specific founding year of 1977, directly contradicting the bio's '1976'. Whatever the ambiguity elsewhere, the provided evidence affirmatively says 1977.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "tito-puente",
+      "kind": "artist",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "He composed dance-oriented mambo and Latin jazz music.",
+      "specificBadClaim": "Tito Puente was one of the defining figures of Swing",
+      "decision": "The evidence affirmatively assigns his idiom — 'dance-oriented mambo and Latin jazz music' (short description: 'Latin jazz and mambo musician') — a different primary genre. Calling him 'one of the defining figures of Swing' is the bio's single substantive tag and is contradicted by an affirmative, sourced genre, not merely unmentioned.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "solo-flight",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"firstReleaseDate\": \"1952\"",
+      "specificBadClaim": "It was first recorded in 1956 with Mitch Miller and his orchestra, and played a prominent part in the 1971 motion picture Play Misty for Me.",
+      "decision": "The album entity is correct (MB confirms Solo Flight / Erroll Garner / 1952), but the grafted sentence makes 'It' refer to this 1952 album and asserts it was 'first recorded in 1956', directly contradicting the MB release date. The 1956 claim is a false fact about the album.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "the-most-happy-piano",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"firstReleaseDate\": \"1957\"",
+      "specificBadClaim": "It was first recorded in 1956 with Mitch Miller and his orchestra, and played a prominent part in the 1971 motion picture Play Misty for Me.",
+      "decision": "MB (similarity 1.0) confirms the album is The Most Happy Piano / Erroll Garner / 1957, but the grafted sentence makes 'It' refer to this album and asserts it was 'first recorded in 1956', contradicting the 1957 release; the Mitch Miller / Play Misty for Me facts belong to the song 'Misty', not this album. A false fact about the album.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "kind-of-blue",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "the persistent legend that the entire album was recorded in one pass is untrue. Only \"Flamenco Sketches\" yielded a complete take on",
+      "specificBadClaim": "most tracks were first takes with minimal rehearsal",
+      "decision": "Even truncated, the extract debunks the one-pass legend and says 'Only \"Flamenco Sketches\" yielded a complete take' — 'Only' confines complete first takes to one track, directly contradicting 'most tracks were first takes'. The 'minimal rehearsal' half is supported, but the 'first takes' half is false.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "how-time-passes",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "How Time Passes is the debut album by trumpeter Don Ellis recorded in 1960 and released on the Candid label.",
+      "specificBadClaim": "Trumpeter Don Ellis's hard bop sensibility is on display in this 1961 session",
+      "decision": "'Session' in context means the recording session, and the extract (and the prose's own first sentence) says it was recorded in 1960; 1961 is the release year. Calling it 'this 1961 session' contradicts the stated recording year.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "jazz-pictures-at-an-exibition",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"Pim Jacobs\",\n            \"Rita Reys\",\n            \"Kenny Clarke\"",
+      "specificBadClaim": "drummer Kenny Clarke leads a hard bop session recorded for Philips in 1961",
+      "decision": "The embedded-MBID artist credit (authoritative) bills Pim Jacobs first and Rita Reys second, with Kenny Clarke only third; nothing in the evidence supports Clarke as leader, and a date 'led by' someone is normally credited to that someone. The sole-Clarke artist field and 'Clarke leads' prose are contradicted by the billing order.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "rights-of-swing",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Phil Woods - alto saxophone",
+      "specificBadClaim": "Captures clarinetist Phil Woods during the hard bop period",
+      "decision": "Both the lead ('saxophonist Phil Woods') and the personnel list ('Phil Woods - alto saxophone') give his instrument on this album as alto saxophone; 'clarinetist' is directly contradicted (and the prose's own first sentence says saxophonist).",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "screamin-the-blues",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Screamin' the Blues is an album by American saxophonist Oliver Nelson, originally released in 1961 on New Jazz Records.",
+      "specificBadClaim": "Screamin' the Blues is an album by Eric Dolphy, released in 1961 on Prestige",
+      "decision": "The entity-matched Wikipedia lead states the album is 'by American saxophonist Oliver Nelson', with Dolphy listed as a sideman in personnel and MB billing 'Oliver Nelson Sextet' first; attributing it to Eric Dolphy as leader is directly contradicted. (The label is also given as New Jazz, not Prestige.)",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "stop-and-listen",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"firstReleaseDate\": \"1962\"",
+      "specificBadClaim": "featuring performances recorded and released on the Blue Note label in 1961",
+      "decision": "No second source is provided, and the authoritative embedded-MBID release-group first-release date is 1962 (matching the dataset's own year field). The flat claim that it was 'released ... in 1961' is directly contradicted by that 1962 date, with nothing reconciling it (unlike a format-split account).",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "takin-off",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "The bluesy track \"Watermelon Man\" almost made it into the Top 100 of the singles charts",
+      "specificBadClaim": "The bluesy track \"Watermelon Man\" made it to the Top 100 of the singles charts",
+      "decision": "The extract says the track 'almost made it into the Top 100' — i.e., did NOT reach it. Dropping 'almost' flips the meaning to the opposite, asserting it did chart Top 100; this is directly contradicted.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "duke-ellington-meets-coleman-hawkins",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Duke Ellington – piano\nColeman Hawkins – tenor saxophone\nJohnny Hodges – alto saxophone\nHarry Carney – baritone saxophone, bass clarinet\nLawrence Brown – trombone\nRay Nance – cornet, violin\nAaron Bell – double bass\nSam Woodyard – drums",
+      "specificBadClaim": "A 1963 big band date for impulse! that documents Duke Ellington's ongoing work in the idiom.",
+      "decision": "The phrase 'big band date' is a factual descriptor of the ensemble, and the Personnel section enumerates exactly eight musicians (an octet), which directly contradicts a big band. The contradiction is by explicit roster, not inference.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "duke-ellington-meets-coleman-hawkins-hawkins",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Duke Ellington – piano\nColeman Hawkins – tenor saxophone\nJohnny Hodges – alto saxophone\nHarry Carney – baritone saxophone, bass clarinet\nLawrence Brown – trombone\nRay Nance – cornet, violin\nAaron Bell – double bass\nSam Woodyard – drums",
+      "specificBadClaim": "A big band recording from the hard bop period",
+      "decision": "'Big band recording' is a concrete ensemble claim contradicted by the eight-name Personnel list (an octet). 'Hard bop period' and the blues/gospel framing are left as editorial and not part of the upheld error.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "prayer-meetin",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "NOTE: \"Lonesome Road\" and \"Smith Walk\" are bonus tracks on a CD reissue that were recorded on June 13, 1960, featuring the same lineup plus Sam Jones on bass.",
+      "specificBadClaim": "The album was rereleased on CD with two bonus tracks from the same session.",
+      "decision": "The dated track-listing NOTE explicitly states the two bonus tracks were recorded on a different date (June 13, 1960) from the 1963 album session, corroborated by the personnel crediting Sam Jones on tracks 7-8 only. A specific, dated quote beats the lead's vague phrasing, so 'from the same session' is contradicted.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "dippin",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "tracks: The Dip, Recado Bossa Nova, The Break Through, The Vamp, I See Your Face Before Me, Ballin'",
+      "specificBadClaim": "built around the irresistible groove of the title track, which became a Blue Note classic",
+      "decision": "The MB tracklist has no track named 'Dippin''; the prose twice asserts a 'title track' (Mobley's 'most recognizable composition', a 'boogaloo-tinged burner') that does not exist on the record, and ours even lists a phantom 'Dippin'' keyTrack alongside the real 'The Dip'. The named title track is factually absent.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "one-flight-up",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"firstReleaseDate\": \"1967\"",
+      "specificBadClaim": "recorded on June 2, 1964, in Paris and released on Blue Note the following year",
+      "decision": "Even granting that, the release-group firstReleaseDate is the canonical first-release year for the work and is 1967. Ours states recorded June 2, 1964 and released 'the following year' (i.e. 1965); 1967 is two years off and directly contradicts a 1965 first release, also matching ours' own year field of 1967.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "tauhid",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "It was the second album released under his name, and his first album on the Impulse! label.",
+      "specificBadClaim": "Pharoah Sanders' debut as a leader after his transformative work with John Coltrane",
+      "decision": "Wikipedia states verbatim it was the SECOND album released under his name (only the first on Impulse!), directly contradicting 'debut as a leader'. The rest (spiritual jazz framing, world-music influences) is editorial and not part of the upheld error.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "clarinet-concertos-nos-1-and-2",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Concerto for Clarinet and Orchestra no. 1 in F minor, op. 73: I. Allegro",
+      "specificBadClaim": "stands as a distinguished entry in the swing canon",
+      "decision": "The release is a classical recording — Weber's clarinet concertos performed by the Chicago Symphony under Jean Martinon, per the verbatim classical-movement tracklist and the artist credits. Calling it 'a distinguished entry in the swing canon' is a factual misdescription of what the album is, not mere opinion.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "shades-of-green",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "West Hollywood, CA on November 23 (tracks 1, 5 & 8), & November 24 (tracks 2–4, 6 & 7), 1971",
+      "specificBadClaim": "a 1972 session reflecting the fusion period",
+      "decision": "'Session' denotes the recording, and Wikipedia states verbatim the album was recorded in November 1971; ours' own first sentence also says 'recorded in 1971'. Calling it 'a 1972 session' is therefore factually wrong about the recording year and self-contradictory within the blurb. The 1972 year field is fine as the release year.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "world-galaxy",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "A Love Supreme",
+      "specificBadClaim": "the transcendent closer 'A Galaxy of Love.'",
+      "decision": "The MB tracklist names the closer verbatim as 'A Love Supreme'; there is no track 'A Galaxy of Love' anywhere on the five-track list. The prose asserts a specific closing track that does not exist on the record (and ours lists it as a keyTrack).",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "eastern-rebellion",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"tracks\": [\"Bolivia\", \"Naima\", \"5/4 Thing\", \"Bittersweet\", \"Mode for Joe\"]",
+      "specificBadClaim": "Fantasy in D",
+      "decision": "The keyTracks field lists 'Fantasy in D', which is definitively absent from the five-track MB list (Bolivia, Naima, 5/4 Thing, Bittersweet, Mode for Joe), and 'Naima's Love Song', whose added words make it a different title from the album's 'Naima'. The keyTracks assert tracks that are not on this album.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "a-ghetto-lullaby",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "recorded at the Jazzhus Montmartre in 1973 and released on the SteepleChase label",
+      "specificBadClaim": "Alto saxophonist Jackie McLean's post-bop sensibility is on display in this 1976 session",
+      "decision": "'Session' denotes the recording, and both Wikipedia and ours' own first sentence say it was recorded at the Jazzhus Montmartre in 1973; 1976 is only the Inner City release year. 'This 1976 session' is therefore factually wrong and self-contradictory within the blurb. 'A document of the fusion era' is left as editorial.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "in-the-tradition",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "His first album for the Columbia label, it was recorded in New York City in 1978.",
+      "specificBadClaim": "Blythe's second Columbia album reinterprets jazz standards and originals",
+      "decision": "Wikipedia states verbatim it was his FIRST Columbia album, directly contradicting ours' 'second Columbia album'. Personnel and track attributions all check out; the single contradiction is this ordinal claim.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "lenox-avenue-breakdown",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Down San Diego Way; Lenox Avenue Breakdown; Slidin' Through; Odessa",
+      "specificBadClaim": "Bush Baby",
+      "decision": "The MB release has exactly four tracks and 'Bush Baby' is not among them ('Odessa' is the fourth); nothing in the evidence supports 'Bush Baby' as an alias. The keyTracks list a track that does not exist on the album.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "spihumonesty",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"date\": \"1980\"",
+      "specificBadClaim": "released on the Italian Black Saint label in 1979",
+      "decision": "The embedded-MBID release (authoritative for date) gives the release date and the release-group first release as 1980, and our own year field agrees with 1980. The prose's release year of 1979 is directly contradicted.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "get-together",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Kansas City 8: Get Together is a 1979 studio album by Count Basie.",
+      "specificBadClaim": "Pianist Count Basie's post-bop sensibility is on display in this 1986 session",
+      "decision": "The Wikipedia page shares the exact tracklist (same album, confirmed entity) and states it is a 1979 studio album, directly contradicting the prose's '1986 session'. 1986 is at most a reissue year.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "round-about-midnight-at-the-cafe-bohemia-volume-i",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "recorded a live album, 'Round About Midnight at the Cafe Bohemia, in 1956 for Blue Note.",
+      "specificBadClaim": "trumpeter Kenny Dorham leads a contemporary jazz session recorded for Blue Note in 1987",
+      "decision": "The Kenny Dorham Wikipedia page (correct entity, discusses this very album) states the live album was recorded in 1956 for Blue Note, directly contradicting 'recorded for Blue Note in 1987'. 1987 is only the CD-reissue year.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "deliverance",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"Tropical Garden\",\n            \"Ah Freak Sans Fric\",\n            \"Oh Oh\"",
+      "specificBadClaim": "Baobab Sunset",
+      "decision": "The embedded-MBID tracklist is the authoritative track set for this exact release; two listed keyTracks claiming to be on the album are absent from it, a direct contradiction.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "look-what-i-got",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"Mr. Gentleman\" (Sequel to \"Tight\") (Carter) – 2:40",
+      "specificBadClaim": "Tight",
+      "decision": "Listing 'Tight' as a keyTrack claims it is a track on the album; the Wikipedia track listing shows the track is 'Mr. Gentleman' and 'Tight' exists only inside the parenthetical '(Sequel to \"Tight\")', so the keyTrack is not on the album.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "celebration-mseleku",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"Celebration\",\n            \"One for All - All for One\",\n            \"Angola\"",
+      "specificBadClaim": "The Healing Song",
+      "decision": "The strong, exact MB match supplies a complete 10-track listing; the keyTrack 'The Healing Song' claimed to be on the album is absent from that full list, a direct contradiction.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "kansas-city-7",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Kansas City 7 is a 1980 studio album by Count Basie.",
+      "specificBadClaim": "Recorded for Pablo in 1992, Kansas City 7 presents pianist Count Basie",
+      "decision": "Wikipedia, sharing the exact tracklist, plainly calls it a 1980 studio album; framing the recording as 1992 is wrong by a dozen years. 1992 is only the Original Jazz Classics reissue date.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "plays-and-plays-and-plays",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Brubeck Plays Brubeck is a jazz album by pianist Dave Brubeck. The cover features design by S. Neil Fujita.",
+      "specificBadClaim": "Brubeck Plays Brubeck is a jazz album by pianist Dave Brubeck. The cover features design by S. Neil Fujita.",
+      "decision": "The lead sentence and the Fujita cover claim appear verbatim on the Wikipedia page for 'Brubeck Plays Brubeck', whose tracklist (Swing Bells, In Your Own Sweet Way, The Duke...) differs entirely from our album; the opening misnames our album and grafts a borrowed cover fact. The track-level prose is otherwise about our album, so this is a factual error on the right entity, not a wholesale entity mismatch.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "capricorn-rising",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"date\": \"1976\"",
+      "specificBadClaim": "tenor saxophonist Sam Rivers leads a free jazz session recorded for Black Saint in 1993",
+      "decision": "The very strong MB match (identical tracklist + same label/catalog + same title) dates the album 1976; the prose's 'recorded for Black Saint in 1993' is contradicted by the 1976 release date.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "love-notes",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "He rose to fame as a teen pop singer in the late 1990s, establishing himself as a star among preteen and teenage audiences during the early 2000s, with his four studio albums.",
+      "specificBadClaim": "He came to fame as a teen pop singer in the late 1990s, establishing himself as a star among preteen and teenage audiences during the first years of the 2000s, with his four studio albums.",
+      "decision": "The final DNA sentence is lifted from the Aaron Carter page (a male teen-pop singer) and grafted onto a Betty Carter album; only that trailing sentence is foreign, so this is a factual error on the right album, not a full entity mismatch.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "tidal-wave",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"Hocus Pocus\",\n            \"Hocus Pocus (alternative version)\",\n            \"Phantom Phantasy\"",
+      "specificBadClaim": "I’m Crazy ’Bout My Baby (And My Baby’s Crazy ’Bout Me)",
+      "decision": "The embedded-MBID tracklist is authoritative for this exact compilation; all six keyTracks claiming to be on the album are absent from the full 21-track list, a direct contradiction.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "in-their-own-sweet-way",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"date\": \"1997\"",
+      "specificBadClaim": "In Their Own Sweet Way is a 1998 studio album by pianist Dave Brubeck and his quintet.",
+      "decision": "MB (a clean, internally consistent source) dates the album 1997, matching our own year field and the Wikipedia short-description; the prose's '1998 studio album' is contradicted. The Wikipedia body's stray '1998' is its own internal error, not vindication.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "tenor-titans",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Awarded Magister of Music (Master of Arts) at Fryderyk Chopin University of Music, Warsaw.",
+      "specificBadClaim": "Awarded Magister of Music at Fryderyk Chopin University of Music, Warsaw.",
+      "decision": "The closing credential is lifted from the Tomasz Szukalski page and grafted onto the Ben Webster album; only that sentence is foreign, so it is a factual error on the right album rather than a full entity mismatch.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "black-action-figure",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "He signed with Blue Note, which released his debut album, A Cloud of Red Dust (1998). His second album, Black Action Figure, was nominated for a Grammy Award.",
+      "specificBadClaim": "vibraphonist Stefon Harris's 1999 debut for Blue Note Records",
+      "decision": "The Stefon Harris page (correct entity, stored URL) states his Blue Note debut was 'A Cloud of Red Dust (1998)' and that 'His second album, Black Action Figure, was nominated for a Grammy Award', directly contradicting the prose's '1999 debut'.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "bunk-bechet-in-boston",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"Theme – Royal Garden Blues\",\n            \"I’m Confessin’\",\n            \"Careless Love\"",
+      "specificBadClaim": "St. Louis Blues",
+      "decision": "The embedded-MBID tracklist is authoritative for this exact release; all six keyTracks claiming to be on the album are absent from it (the actual tunes are Theme – Royal Garden Blues, I'm Confessin', Careless Love, Summertime, etc.), a direct contradiction.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "sweet-release-ghost-story",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "He played trumpet for the orchestras of Maynard Ferguson, Woody Herman, Wynton Marsalis, Ray Charles, and Harry Connick Jr.",
+      "specificBadClaim": "He played trumpet for the orchestras of Maynard Ferguson, Woody Herman, Wynton Marsalis, Ray Charles, and Harry Connick Jr.",
+      "decision": "The final sentence is a Roger Ingram biography grafted onto the Wynton Marsalis album and is self-contradicting if read as Marsalis; only that sentence is foreign, so it is a factual error on the right album, not a full entity mismatch.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "pimp-master",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Pimp Master is the second studio album by pioneering jazz group Soil & \"Pimp\" Sessions, from Japan.",
+      "specificBadClaim": "Tokyo's most explosive jazz collective delivers a riotous debut",
+      "decision": "Wikipedia (correct entity, stored URL) calls Pimp Master the second studio album, directly contradicting the prose's claim that it is a 'debut'.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "blue-note-jazz-inspiration",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "He performed in the United States and Europe and made many recordings with Duke Ellington, Billie Holiday, Johnny Hodges, and others.",
+      "specificBadClaim": "He performed in the United States and Europe and made many recordings with Duke Ellington, Billie Holiday, Johnny Hodges, and others.",
+      "decision": "The final sentence is a Ben Webster biography grafted onto a Duke Ellington compilation (it has him recording 'with Duke Ellington'); only that sentence is foreign, so it is a factual error on the right album, not a full entity mismatch.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "rising-son",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "[\"Rising Son\", \"Afro Blues\", \"Piri Piri\", \"Mala\", \"Everybody Loves the Sunshine\", \"Green and Gold\", \"Sometime, Somewhere, Somehow\", \"Call\", \"Unchain\", \"Promise in Love\"]",
+      "specificBadClaim": "Tell Me a Bedtime Story",
+      "decision": "Search match (sim 1.0) on title/artist/year/label with a complete-looking 10-track listing; three of four keyTracks are present in that list while 'Tell Me a Bedtime Story' is absent, so the same release demonstrably lacks the claimed track.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "mandorla-awakening-ii",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "[\"Egoes War\", \"Sub-Mission\", \"The Chalice\", \"Dance of Many Hands\", \"Listening Embrace\", \"Forestwall Timewalk\", \"Staircase Struggle\", \"Shiny Divider\", \"Mandorla Island\", \"Timewrap\"]",
+      "specificBadClaim": "Ceremony of Infinite Projection",
+      "decision": "Search match (sim 1.0) on title/artist/label/year; the 10-track list contains 'Mandorla Island' (a distinct title) and 'Egoes War'/'Listening Embrace' but neither 'Mandorla Awakening' nor 'Ceremony of Infinite Projection', so two claimed keyTracks are absent from the same release.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "chesed-the-book-beriah-volume-4",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"date\": \"2019-04\"",
+      "specificBadClaim": "is a 2018 album",
+      "decision": "Embedded-MBID (authoritative) release is dated 2019-04, directly contradicting the prose's explicit '2018 album'; the credited performers are Julian Lage and Gyan Riley, not a Masada ensemble. Right album, specific wrong fact -> factual_error stands.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "secrets-are-the-best-stories",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"Kurt Elling\"",
+      "specificBadClaim": "pianist Danilo Pérez leads",
+      "decision": "Embedded-MBID (authoritative for artist credit) credits the release to Kurt Elling; the prose asserts 'pianist Danilo Perez leads' this exact release (same title/label/date, all five keyTracks match). The leadership attribution contradicts the authoritative credit -> factual_error.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "pdron-rubalcaba",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Pierrick Pédron",
+      "specificBadClaim": "guitarist Jorge Pedrón",
+      "decision": "Embedded-MBID release credits 'Pierrick Pedron' (corroborated by the stored Rubalcaba Wikipedia discography line 'Pedron Rubalcaba with Pierrick Pedron'); the prose invents the name 'Jorge Pedron'. The first-name contradiction alone is a factual error on the same album.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "the-lore",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Scott Colley (born November 24, 1963) is an American jazz double bassist and composer. As of 2024, he had been nominated for 4 Grammy Awards, including Best Jazz Instrumental Album for Guided Tour in 2014 and Still Dreaming in 2019.",
+      "specificBadClaim": "As of 2024, he had been nominated for 4 Grammy Awards, including Best Jazz Instrumental Album for Guided Tour in 2014 and Still Dreaming in 2019.",
+      "decision": "The stored Wikipedia page is Scott Colley's, and its extract carries the identical sentence verbatim about Colley's four Grammy nominations for 'Guided Tour' and 'Still Dreaming' -- a different person's biography grafted into Metheny's blurb. Right album entity, one foreign factual claim -> factual_error.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "carolina-shout-james-p-johnson",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "[\"Steeplechase Rag\", \"Twilight Rag\", \"Carolina Shout\", \"Baltimore Buzz\", \"Gypsy Blues\", \"Harlem Strut\", \"Eccentricity\", \"Don't Mess With Me\", \"Nervous Blues\", \"Ole Miss Blues\", \"I Ain't Givin' Nothin' Away\", \"Muscle Shoal Blues\", \"Farewell Blues\", \"Charleston\"]",
+      "specificBadClaim": "Backwater Blues",
+      "decision": "Exact title and year (1988) match the Biograph release and two distinctive keyTracks ('Carolina Shout' and 'Harlem Strut') are present in its 14-track list, tying ours to this release; the other four keyTracks (Backwater Blues, Snowy Morning Blues, Chicago Blues, My Handy Man) are absent from that same list.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "begin-the-beguine-artie-shaw",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "[\"The Japanese Sandman\", \"A Pretty Girl I Like a Melody\", \"I Used to Be Above Love\", \"No Regrets\", \"South Sea Island Magic\", \"It Ain't Right\", \"Sugar Foot Stomp\", \"Thou Swell\", \"You're Giving Me a Song and a Dance\", \"Darling, Not Without You\", \"One, Two, Button Your Shoe\", \"Let's Call a Heart a Heart\", \"The Skeleton in the Closet\", \"There's Something in the Air\", \"Take Another Guess\", \"There's Frost on the Moon\", \"Love and Learn\", \"Moon Face\", \"The Same Old Line\", \"You Can Tell She Comes From Dixie\", \"Sobbin' Blues\", \"Copenhagen\", \"Cream Puff\", \"My Blue Heaven\", \"Streamline\", \"Sweet Lorraine\", \"Love Is Good for Anything That Ails You\", \"No More Tears\", \"Moonlight and Shadows\", \"Was It Rain?\", \"All Alone\", \"All God's Chillun Got Rhythm\", \"It Goes to Your Feet\", \"Because I Love You\", \"Night and Day\", \"I Surrender Dear\", \"Blues Skies\", \"Someday, Sweetheart\", \"Afraid to Dream\", \"If You Should Ever Leave\"]",
+      "specificBadClaim": "\"Begin the Beguine\",",
+      "decision": "Embedded-MBID (authoritative, same release; year 2005 matches MB 2005-03-07) yields a detailed 40-track listing in which none of the six keyTracks -- not even the title track 'Begin the Beguine' -- appears. On the confirmed same release, all six claimed keyTracks are absent.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "hi-de-ho-man-cab-calloway",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"date\": \"1974\"",
+      "specificBadClaim": "Recorded in 2008, Hi De Ho Man",
+      "decision": "All six keyTracks match the matched release's tracklist, so it is unambiguously the same release; both the release and release-group are dated 1974. A 1974 Columbia compilation cannot be 'Recorded in 2008', and no 2008 release appears anywhere in the evidence -> factual_error on the year.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "nows-the-time-charlie-parker",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "[\"The Song Is You\", \"Laird Baird\", \"Kim\", \"Kim [alt tk]\", \"Cosmic Rays\", \"Cosmic Rays [alt tk]\", \"Chi Chi\", \"Chi Chi [alt tk1]\", \"Chi Chi [alt tk2]\", \"Chi Chi [alt tk3]\", \"I Remember You\", \"Now's The Time\", \"Confirmation\", \"I'm in the Mood for Love*\", \"Star Eyes*\", \"Blues [Fast]*\", \"Celebrity*\", \"Ballade*\", \"Si Si*\", \"Swedish Schnapps*\", \"Swedish Schnapps [alt tk]*\", \"Back Home Blues*\", \"Back Home Blues [alt tk]*\", \"Lover Man*\", \"Blues for Alice*\"]",
+      "specificBadClaim": "A Night in Tunisia",
+      "decision": "Embedded-MBID (authoritative, same release; year 2020 matches) gives a 25-track listing containing 'Now's The Time' but none of the other five keyTracks (A Night in Tunisia, Ornithology, Parker's Mood, Relaxin' at Camarillo, Bird of Paradise). On the confirmed same release, five of six claimed keyTracks are absent.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "afro-dizzy-gillespie",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "It was released in November 1954 through Norgran Records",
+      "specificBadClaim": "Recorded in 2022, Afro",
+      "decision": "The entity-matched Wikipedia 'Afro (album)' (all six keyTracks match its tracklist) states the album was released in November 1954; a 1954 studio album cannot be 'Recorded in 2022' and no 2022 release appears in the evidence -> factual_error on the year.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "fontainebleau-tadd-dameron",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Recorded March 9, 1956",
+      "specificBadClaim": "Recorded in 1996, Fontainebleau",
+      "decision": "The entity-matched Wikipedia page (all five keyTracks match) gives a recording date of March 9, 1956 and calls it a 1956 album; the matched MB release is 1987. 'Recorded in 1996' contradicts the documented 1956 recording date and is supported by nothing in the evidence -> factual_error on the year.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "night-train-oscar-peterson",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "released in 1963 by Verve Records",
+      "specificBadClaim": "Recorded in 2011, Night Train",
+      "decision": "Both MB and the entity-matched Wikipedia page (all six keyTracks match) date the album to 1963 on Verve; Wikipedia names only a 1997 CD reissue, not 2011. 'Recorded in 2011' contradicts the 1963 release/recording and has no evidence support -> factual_error on the year.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "at-the-stratford-shakespearean-festival-oscar-peterson",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"firstReleaseDate\": \"1957-07\"",
+      "specificBadClaim": "Recorded in 1993, At the Stratford",
+      "decision": "Embedded-MBID release is a Live album whose release-group first appeared 1957-07; the 1993-04-20 release is a reissue and all six keyTracks match. A live recording first issued in July 1957 cannot have been 'Recorded in 1993' -> factual_error on the year.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "joe-pass-at-the-montreux-jazz-festival-joe-pass",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Joe Pass at the Montreux Jazz Festival 1975",
+      "specificBadClaim": "Recorded in 1997, Joe Pass",
+      "decision": "Embedded-MBID release is a Live album literally titled 'Joe Pass at the Montreux Jazz Festival 1975' with release-group first release 1975; the 1997-05-16 release is the OJC reissue and all six keyTracks match. A 1975 live recording cannot be 'Recorded in 1997' -> factual_error on the year.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "chet-baker-and-crew-chet-baker",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"date\": \"1956\"",
+      "specificBadClaim": "Recorded in 1993, Chet Baker and Crew",
+      "decision": "Search match on Chet Baker & Crew with five of six keyTracks matching exactly (the sixth differs by one letter, 'Lisa' vs 'Liza') ties ours to this Pacific Jazz release dated 1956 (release and release-group). A 1956 album cannot be 'Recorded in 1993' and no 1993 release appears in evidence -> factual_error on the year.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "art-pepper-meets-the-rhythm-section-art-pepper",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"firstReleaseDate\": \"1957-01-01\"",
+      "specificBadClaim": "Recorded in 2000, Art Pepper Meets the Rhythm Section",
+      "decision": "Embedded-MBID release has release-group first release 1957-01-01 on Contemporary and all six keyTracks match; the matched 2000 release is a CD reissue. A 1957 album cannot be 'Recorded in 2000' -> factual_error on the year.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "desmond-blue-paul-desmond",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"date\": \"1962\"",
+      "specificBadClaim": "Recorded in 1998, Desmond Blue",
+      "decision": "Upheld: MB gives the original release date as 1962, and a recording cannot postdate its own original release, so 'Recorded in 1998' is contradicted by the 1962 date.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "inside-hi-fi-lee-konitz",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"date\": \"1956\"",
+      "specificBadClaim": "Recorded in 1957, Inside Hi-Fi",
+      "decision": "Upheld narrowly: MB dates both the release and the release group to 1956; a 1956 release cannot have been recorded in 1957 (recording precedes release), so the year claim is contradicted by the evidence.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "full-house-wes-montgomery",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Full House is an album by the jazz guitarist Wes Montgomery, released in 1962.",
+      "specificBadClaim": "Recorded in 2007, Full House",
+      "decision": "Upheld: the entity-matched Wikipedia page states the album was released in 1962 and recorded live June 25, 1962, directly contradicting a 2007 recording.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "fontessa-modern-jazz-quartet",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"firstReleaseDate\": \"1956\"",
+      "specificBadClaim": "Recorded in 1990, Fontessa",
+      "decision": "Upheld: MB release-group first release is 1956; the album cannot have been recorded in 1990 when it first appeared in 1956.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "plenty-plenty-soul-milt-jackson",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"date\": \"1957\"",
+      "specificBadClaim": "Recorded in 2007, Plenty, Plenty Soul",
+      "decision": "Upheld: MB dates the release and release group to 1957, contradicting a 2007 recording (recording cannot postdate the 1957 original release).",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "undercurrent-bill-evans",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Undercurrent is a 1962 jazz album by the pianist Bill Evans and the guitarist Jim Hall.",
+      "specificBadClaim": "Recorded in 2013, Undercurrent",
+      "decision": "Upheld: the entity-matched Wikipedia page states it is a 1962 album recorded in spring 1962, directly contradicting a 2013 recording.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "a-study-in-frustration-fletcher-henderson",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"firstReleaseDate\": \"1994-06-14\"",
+      "specificBadClaim": "Recorded in 2011, A Study in Frustration",
+      "decision": "Upheld: MB release-group first release is 1994-06-14 and the work is a Compilation, so it could not have been recorded in 2011; the date claim is contradicted.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "stan-getz-and-the-oscar-peterson-trio-stan-getz",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"firstReleaseDate\": \"1957\"",
+      "specificBadClaim": "Recorded in 2020, Stan Getz and the Oscar Peterson Trio",
+      "decision": "Upheld: MB release-group first release is 1957, contradicting a 2020 recording; the 2020 release is a reissue.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "open-sesame-freddie-hubbard",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "recorded on June 19, 1960",
+      "specificBadClaim": "Recorded in 2002, Open Sesame",
+      "decision": "Upheld: the entity-matched Wikipedia page states the album was recorded on June 19, 1960, directly contradicting a 2002 recording.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "the-freedom-book-booker-ervin",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"date\": \"1963\"",
+      "specificBadClaim": "Recorded in 1997, The Freedom Book",
+      "decision": "Upheld: MB dates the release and release group to 1963, contradicting a 1997 recording; the keyTracks mismatch does not raise the verdict but the date error stands.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "a-garland-of-red-red-garland",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"firstReleaseDate\": \"1956\"",
+      "specificBadClaim": "Recorded in 2006, A Garland of Red",
+      "decision": "Upheld: MB release-group first release is 1956; the matched 2006 release is a JP reissue, so the album cannot have been recorded in 2006.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "the-sermon-jimmy-smith",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "recorded on August 25, 1957 and February 25, 1958 and released on Blue Note in 1959",
+      "specificBadClaim": "Recorded in 1987, The Sermon!",
+      "decision": "Upheld: the entity-matched Wikipedia page states it was recorded August 25, 1957 and February 25, 1958, directly contradicting a 1987 recording.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "spellbound-clifford-jordan",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "which was recorded in 1960 and released on the Riverside label",
+      "specificBadClaim": "Recorded in 2007, Spellbound",
+      "decision": "Upheld: the entity-matched Wikipedia page states the album was recorded in 1960, directly contradicting a 2007 recording.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "cornbread-lee-morgan",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Recorded in September 1965 but released on the Blue Note label in early 1967",
+      "specificBadClaim": "Recorded in 2013, Cornbread",
+      "decision": "Upheld: the entity-matched Wikipedia page states it was recorded in September 1965 (released 1967), directly contradicting a 2013 recording.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "a-swingin-affair-dexter-gordon",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "A Swingin' Affair is an album recorded in 1962 by saxophonist Dexter Gordon",
+      "specificBadClaim": "Recorded in 1987, A Swingin' Affair",
+      "decision": "Upheld: the entity-matched Wikipedia page states the album was recorded in 1962 (released 1964), directly contradicting a 1987 recording.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "dance-mania-tito-puente",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "1958 studio album by Tito Puente",
+      "specificBadClaim": "Recorded in 2009, Dance Mania",
+      "decision": "Upheld: Wikipedia describes it as a '1958 studio album by Tito Puente' and MB release-group first release is 1958, contradicting a 2009 recording.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "the-dual-role-of-bob-brookmeyer-bob-brookmeyer",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"firstReleaseDate\": \"1955\"",
+      "specificBadClaim": "Recorded in 1989, The Dual Role of Bob Brookmeyer",
+      "decision": "Upheld: MB release-group first release is 1955; the matched 1989 release is an OJC reissue, so the album cannot have been recorded in 1989.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "detroitnew-york-junction-thad-jones",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"firstReleaseDate\": \"1956\"",
+      "specificBadClaim": "Recorded in 1999, Detroit/New York Junction",
+      "decision": "Upheld: MB release date and release-group first release are both 1956, contradicting a 1999 recording.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "jazz-giant-benny-carter",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "recorded in 1957 and 1958 and released by Contemporary Records",
+      "specificBadClaim": "Recorded in 1987, Jazz Giant",
+      "decision": "Upheld: the entity-matched Wikipedia page states it was recorded in 1957 and 1958, directly contradicting a 1987 recording; the defensible field-year does not rescue the 'Recorded in 1987' prose.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "clifford-brown-memorial-album-clifford-brown",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"firstReleaseDate\": \"1956\"",
+      "specificBadClaim": "Recorded in 2001, Clifford Brown Memorial Album",
+      "decision": "Upheld: MB release-group first release is 1956 and the work is a Compilation, so it could not have been recorded in 2001; the 2001 release is a reissue.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "latin-jazz-quintet-latin-jazz-quintet",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"firstReleaseDate\": \"1961\"",
+      "specificBadClaim": "Recorded in 2004, Latin Jazz Quintet showcases Latin Jazz Quintet at the height of their creative powers",
+      "decision": "The releaseGroup first appeared in 1961, so the work cannot have been recorded in 2004; the DNA makes an explicit recording-year claim that the evidence contradicts.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "coltrane-jazz-john-coltrane",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "during two sessions in November and December, 1959",
+      "specificBadClaim": "Recorded in 1961, Coltrane Jazz showcases John Coltrane at the height of their creative powers",
+      "decision": "The DNA says 'Recorded in 1961', but Wikipedia states the sessions were in November and December 1959; a recording-year claim is directly contradicted regardless of the correct release year.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "far-east-suite-duke-ellington",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"firstReleaseDate\": \"1967\"",
+      "specificBadClaim": "Recorded in 2016, Far East Suite showcases Duke Ellington at the height of their creative powers",
+      "decision": "No 2016 reissue is in the evidence; both the release date and releaseGroup first release are 1967, so a 2016 recording claim is contradicted.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "ella-fitzgerald-sings-the-cole-porter-song-book-ella-fitzgerald",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"firstReleaseDate\": \"1956-09\"",
+      "specificBadClaim": "Recorded in 2014, Ella Fitzgerald Sings the Cole Porter Song Book showcases Ella Fitzgerald at the height of their creative powers",
+      "decision": "The release date is 1956 and the releaseGroup first release is 1956-09, so the work cannot have been recorded in 2014.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "the-hawk-flies-high-coleman-hawkins",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"firstReleaseDate\": \"1957\"",
+      "specificBadClaim": "Recorded in 2006, The Hawk Flies High showcases Coleman Hawkins at the height of their creative powers",
+      "decision": "The releaseGroup first release is 1957, so the music cannot have been recorded in 2006; the recording-year claim is contradicted.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "ben-webster-meets-oscar-peterson-ben-webster",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"firstReleaseDate\": \"1959\"",
+      "specificBadClaim": "Recorded in 2011, Ben Webster Meets Oscar Peterson showcases Ben Webster at the height of their creative powers",
+      "decision": "The releaseGroup first release is 1959, so the album cannot have been recorded in 2011.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "the-complete-billie-holiday-on-verve-billie-holiday",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "The Complete Billie Holiday on Verve 1945–1959",
+      "specificBadClaim": "Recorded in 1993, The Complete Billie Holiday on Verve showcases Billie Holiday at the height of their creative powers",
+      "decision": "The MB title verbatim carries the recording span 1945–1959 and the release is a Compilation, so 'Recorded in 1993' is contradicted as a recording-year claim.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "way-out-west-sonny-rollins",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Way Out West is a 1957 album by American saxophonist Sonny Rollins",
+      "specificBadClaim": "Recorded in 1988, Way Out West showcases Sonny Rollins at the height of their creative powers",
+      "decision": "Wikipedia states the album is from 1957 and that the 1988 CD was a reissue, so a 1988 recording claim is contradicted.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "drums-unlimited-max-roach",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"firstReleaseDate\": \"1966\"",
+      "specificBadClaim": "Recorded in 2004, Drums Unlimited showcases Max Roach at the height of their creative powers",
+      "decision": "Both the release date and releaseGroup first release are 1966 (studio album, no reissue in the pack), so a 2004 recording claim is contradicted.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "free-for-all-art-blakey",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "recorded on February 10, 1964, and released on Blue Note Records in July 1965",
+      "specificBadClaim": "Recorded in 2012, Free for All showcases Art Blakey at the height of their creative powers",
+      "decision": "Wikipedia gives an explicit recording date of February 10, 1964 (released July 1965), directly contradicting 'Recorded in 2012'.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "dexter-calling-dexter-gordon",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"firstReleaseDate\": \"1961-05-09\"",
+      "specificBadClaim": "Recorded in 1987, Dexter Calling showcases Dexter Gordon at the height of their creative powers",
+      "decision": "The releaseGroup first release is 1961-05-09, so the album cannot have been recorded in 1987.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "the-gigolo-lee-morgan",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "It was recorded on June 25 & July 1, 1965",
+      "specificBadClaim": "Recorded in 2006, The Gigolo showcases Lee Morgan at the height of their creative powers",
+      "decision": "Wikipedia states the album was recorded on June 25 & July 1, 1965, directly contradicting 'Recorded in 2006'.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "destination-out-jackie-mclean",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"firstReleaseDate\": \"1964-10\"",
+      "specificBadClaim": "Recorded in 2014, Destination... Out! showcases Jackie McLean at the height of their creative powers",
+      "decision": "Both the release date and releaseGroup first release are 1964-10 (studio album), so a 2014 recording claim is contradicted.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "savoy-sessions-charlie-parker",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"firstReleaseDate\": \"2004\"",
+      "specificBadClaim": "Recorded in 2016, Savoy Sessions showcases Charlie Parker at the height of their creative powers",
+      "decision": "The matched compilation first appeared in 2004, so a 2016 recording claim is contradicted; nothing in the evidence supports a 2016 date.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "it-could-happen-to-you-chet-baker",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "In 2010, it was remastered and reissued on CD by Original Jazz Classics",
+      "specificBadClaim": "Recorded in 2010, It Could Happen to You showcases Chet Baker at the height of their creative powers",
+      "decision": "Wikipedia states 2010 was the remaster/reissue and the album is a 1958 release, so 'Recorded in 2010' is contradicted as a recording-year claim.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "reunion-with-chet-baker-gerry-mulligan",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"firstReleaseDate\": \"1988\"",
+      "specificBadClaim": "Recorded in 2018, Reunion with Chet Baker showcases Gerry Mulligan at the height of their creative powers",
+      "decision": "Even the matched release-group first appeared in 1988, so the album cannot have been recorded in 2018; nothing in the evidence supports a 2018 recording date.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "smack-up-art-pepper",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "\"firstReleaseDate\": \"1960-10-24\"",
+      "specificBadClaim": "Recorded in 1991, Smack Up showcases Art Pepper at the height of their creative powers",
+      "decision": "The single matching candidate has a first release of 1960-10-24, so the album cannot have been recorded in 1991; no evidence supports a 1991 date.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "motion-lee-konitz",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "recorded in 1961 for Verve Records",
+      "specificBadClaim": "Recorded in 1998, Motion showcases Lee Konitz at the height of their creative powers",
+      "decision": "Wikipedia states the album was recorded in 1961 for Verve and that the 1998 issue was an expansion, so 'Recorded in 1998' is contradicted as a recording-year claim.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "the-awakening-ahmad-jamal",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "recorded in 1970 for the Impulse! label",
+      "specificBadClaim": "Recorded in 1986, The Awakening showcases Ahmad Jamal at the height of their creative powers",
+      "decision": "Wikipedia states the album was recorded in 1970 for Impulse!, directly contradicting 'Recorded in 1986'.",
+      "repairClass": "factual_error"
+    },
+    {
+      "id": "bumpin-wes-montgomery",
+      "kind": "album",
+      "originalVerdict": "factual_error",
+      "contradictingQuote": "Bumpin'   is an album by the American jazz guitarist Wes Montgomery, released in 1965.",
+      "specificBadClaim": "Recorded in 1997, Bumpin' showcases Wes Montgomery at the height of their creative powers",
+      "decision": "The defense fails. The release-group firstReleaseDate is 1965, the Wikipedia short description is '1965 studio album by Wes Montgomery', and the extract states 'released in 1965'; the 1997 MB date is a PolyGram reissue. 'Recorded in 1997' is a specific, falsifiable claim directly contradicted by the evidence. Entity is correct (Wes Montgomery's Bumpin', all keyTracks match the MB tracklist), so this is a factual_error on the right entity, not a mismatch.",
+      "repairClass": "factual_error"
+    }
+  ]
+}

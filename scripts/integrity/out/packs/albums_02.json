@@ -1,0 +1,1728 @@
+[
+ {
+  "id": "birth-of-the-cool",
+  "kind": "album",
+  "ours": {
+   "title": "Birth of the Cool",
+   "artist": "Miles Davis",
+   "year": 1957,
+   "label": "Capitol",
+   "albumDNA": "Birth of the Cool is a compilation album by the American jazz trumpeter and bandleader Miles Davis. It was released in February or March 1957 on Capitol Records. It compiles eleven tracks recorded by Davis's nonet for the label over the course of three sessions during 1949 and 1950. Named and defined the cool jazz movement. Its influence on West Coast jazz and the Third Stream movement was immense.",
+   "keyTracks": [
+    "Move",
+    "Jeru",
+    "Moon Dreams",
+    "Boplicity"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Birth_of_the_Cool"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "2c9af123-adef-4db0-9db8-145ce9b283c3",
+     "title": "Birth of the Cool",
+     "date": "1957-02",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Miles Davis"
+     ],
+     "labels": [
+      {
+       "name": "Capitol Records",
+       "catalogNumber": "T 762"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "903d5fe8-ab43-33b2-9411-6738af50de19",
+      "title": "Birth of the Cool",
+      "firstReleaseDate": "1957-02",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "Move",
+      "Jeru",
+      "Moon Dreams",
+      "Venus de Milo",
+      "Budo",
+      "Deception",
+      "Godchild",
+      "Boplicity",
+      "Rocker",
+      "Israel",
+      "Rouge"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Birth_of_the_Cool",
+    "page": {
+     "requestedTitle": "Birth of the Cool",
+     "resolvedTitle": "Birth of the Cool",
+     "shortDescription": "1957 Miles Davis album",
+     "extract": "Birth of the Cool is a compilation album by the American jazz trumpeter and bandleader Miles Davis. It was released in February or March 1957 on Capitol Records. It compiles eleven tracks recorded by Davis's nonet for the label over the course of three sessions during 1949 and 1950.\nFeaturing unusual instrumentation and several notable musicians, the music consisted of innovative arrangements influenced by Afro-American music and classical music techniques, and marked a major development in post-bebop jazz. As the title suggests, these recordings are considered seminal in the history of cool jazz. Most of them were originally released in the 10-inch 78-rpm format and are all approximately three minutes long.\n\n\n== Background ==\n\nFrom 1944 to 1948, Miles Davis played in Charlie Parker's quintet. Davis recorded several sides with Parker during this period, most released for the Savoy and Dial labels. Davis's first records released under his own name were recorded with Parker's band, in 1947, and were more arranged and rehearsed than Parker's usual approach to recording. By 1948, Davis had three years of bebop playing under his belt, but he struggled to match the speed and ranges of the likes of Gillespie and Parker, choosing instead to play in the mid range of his instrument. In 1948, becoming increasingly concerned about growing tensions within the Parker quintet, Davis left the group and began looking for a new band to work with.\nAt the same time, arranger Gil Evans began hosting gatherings of like-minded, forward-looking musicians at his small basement apartment on 55th Street in Manhattan, three blocks from the jazz nightclubs of 52nd Street. Evans had gained a reputation in the jazz world for his orchestration of bebop tunes for the Claude Thornhill orchestra in the mid-1940s. Keeping an open door policy, Evans's apartment came to host many of the young jazz artists of late-1940s New York. The participants discussed the future of jazz, including a proposed group with a new sound. According to jazz historian Ted Gioia: \n\n[The participants] were developing a range of tools that would change the sound of contemporary music. In their work together, they relied on a rich palette of harmonies, many of them drawn from European impressionist composers. They explored new instrumental textures, preferring to blend the voices of the horns like a choir rather than pit them against each other as the big bands had traditionally done with their thrusting and parrying sections. They brought down the tempos of their music ... they adopted a more lyrical approach to improvisation ...\nBefore recording in the studio, the band played a two-week engagement at New York City's Royal Roost club in September 1948. In the audience was Pete Rugolo, who signed the group to record for Capitol. Recordings from two nights made for a WMCA broadcast were eventually released decades later.\n\n\n== Recording ==\n\nThe nonet recorded 12 tracks for Capitol during three sessions over nearly a year and a half. Davis, Lee Konitz, Gerry Mulligan, and Bill Barber were the only musicians who played on all three sessions, though the instrumental lineup was constant excepting the omission of piano and the addition of Kenny Hagood on March 9. The first session was on January 21, 1949, recording four tracks: Mulligan's \"Jeru\" and \"Godchild\"; Denzil Best's \"Move\"; and \"Budo\" by Davis and Bud Powell, the last two arranged by John Lewis. Jazz critic Richard Cook hypothesizes that Capitol, wanting to get a good start, recorded these numbers first because they were the catchiest tunes in the nonet's small repertoire. That date Kai Winding replaced Zwerin on trombone, Al Haig replaced Lewis on piano, and Joe Shulman replaced McKibbon on bass.\nThe second recording date was April 22, 1949, when Davis substituted for Fats Navarro in Tadd Dameron's band with Charlie Parker during the interim. The band returned to the studio with five changes in personnel: J. J. Johnson on trombone, Sandy Siegelstein on French horn, Nelson Boyd on bass, Kenny Clarke on drums, and Lewis on piano. At this session, the nonet recorded Mulligan's \"Venus de Milo\", Lewis's \"Rouge\", Carisi's \"Israel\", and \"Boplicity\", a collaboration between Davis and Evans, credited to the pseudonym \"Cleo Henry\".\nThe band did not return to the studio again until March 9, 1950. Davis did not call the band for any rehearsals or live performances between the second and third recording dates. This piano-less date featured"
+    }
+   }
+  }
+ },
+ {
+  "id": "blues-and-vanilla",
+  "kind": "album",
+  "ours": {
+   "title": "Blues and Vanilla",
+   "artist": "Red Norvo",
+   "year": 1957,
+   "label": "RCA Victor",
+   "albumDNA": "Blues and Vanilla is an album by saxophonist Jack Montrose's Quintet with Red Norvo recorded in 1956 for the RCA Victor label. Released by RCA Victor during the cool jazz movement, favoring lighter timbres, relaxed tempos, and a chamber sensibility, this set captures Red Norvo in characteristic form.",
+   "keyTracks": [
+    "Concertina da camera (Blues and Vanilla)",
+    "Bockhanal",
+    "Don’t Get Around Much Anymore",
+    "Bernie’s Tune",
+    "For the Fairest",
+    "A Dandy Line"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "b44ceb66-6f43-44ae-ad0a-0915d2098db8",
+     "title": "Blues and Vanilla",
+     "date": "1957",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Jack Montrose",
+      "Red Norvo"
+     ],
+     "labels": [
+      {
+       "name": "RCA Victor",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "2d7af2f2-246f-48d0-9f0a-33d812f868c8",
+      "title": "Blues and Vanilla",
+      "firstReleaseDate": "1957",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Concertina da camera (Blues and Vanilla)",
+      "Bockhanal",
+      "Don’t Get Around Much Anymore",
+      "Bernie’s Tune",
+      "For the Fairest",
+      "A Dandy Line"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "brilliant-corners",
+  "kind": "album",
+  "ours": {
+   "title": "Brilliant Corners",
+   "artist": "Thelonious Monk",
+   "year": 1957,
+   "label": "Riverside",
+   "albumDNA": "A challenging album that showcases Monk's unique compositional vision, recorded in 1956 with an all-star group including Sonny Rollins and Max Roach. The title track was so rhythmically and melodically complex that after 25 takes, no complete version existed—the final version was spliced together from multiple attempts. The session featured unusual instrumentation including celeste, adding to Monk's distinctive sound. 'Pannonica' is a beautiful ballad dedicated to his patron, the Baroness Pannonica de Koenigswarter. Demonstrates Monk's uncompromising vision and the extraordinary challenge of playing his angular, unpredictable compositions. The album established him as one of jazz's most important composers and earned him wider recognition after years of being dismissed as eccentric. It helped launch Monk's commercial breakthrough period that culminated in his Time magazine cover.",
+   "keyTracks": [
+    "Brilliant Corners",
+    "Ba-lue Bolivar Ba-lues-are",
+    "Pannonica",
+    "I Surrender, Dear"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "4efb0872-1bb1-375d-bae7-7a39f5f52018",
+     "title": "Brilliant Corners",
+     "date": "1957",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Thelonious Monk"
+     ],
+     "labels": [
+      {
+       "name": "Riverside",
+       "catalogNumber": "RLP 12-226"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "764d0d9e-68b1-39fe-b1d1-eda104926777",
+      "title": "Brilliant Corners",
+      "firstReleaseDate": "1957",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Brilliant Corners",
+      "Ba-lue Bolivar Ba-lues-are",
+      "Pannonica",
+      "I Surrender, Dear",
+      "Bemsha Swing"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "dizzy-atmosphere",
+  "kind": "album",
+  "ours": {
+   "title": "Dizzy Atmosphere",
+   "artist": "Lee Morgan",
+   "year": 1957,
+   "label": "Specialty Records",
+   "albumDNA": "Dizzy Atmosphere is an album featuring members of Dizzy Gillespie's Orchestra including trombonist Al Grey, saxophonist Billy Mitchell and trumpeter Lee Morgan recorded in 1957 and released on the Specialty label. A hard bop entry from 1957 by Lee Morgan, documenting the breadth of the hard bop period.",
+   "keyTracks": [
+    "Dishwater",
+    "Someone I Know (take 6 - master)",
+    "D. D. T. (take 5 - master)",
+    "Whisper Not (take 5 - master)",
+    "About Time (take 5 - master)",
+    "Day by Day (take 2 - master)"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Dizzy_Atmosphere_(album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "fea74c0f-4ad7-4ff9-8c05-06e40e3125d1",
+     "title": "Dizzy Atmosphere",
+     "date": "",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Lee Morgan",
+      "Wynton Kelly"
+     ],
+     "labels": [
+      {
+       "name": "Original Jazz Classics",
+       "catalogNumber": "OJCCD-1762-2"
+      },
+      {
+       "name": "Specialty Records",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "1491ae9d-875d-314e-b492-658dc507ffb8",
+      "title": "Dizzy Atmosphere",
+      "firstReleaseDate": "1957-02-01",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Dishwater",
+      "Someone I Know (take 6 - master)",
+      "D. D. T. (take 5 - master)",
+      "Whisper Not (take 5 - master)",
+      "About Time (take 5 - master)",
+      "Day by Day (take 2 - master)",
+      "Rite of Swing (take 3 - master)",
+      "Over the Rainbow (take 4 - master)",
+      "Someone I Know (take 3 - previously unissued alternate)",
+      "Whisper Not (take 3-4 - previously unissued alternate)",
+      "Over the Rainbow (take 3 - previously unissued alternate)"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Dizzy_Atmosphere_(album)",
+    "page": {
+     "requestedTitle": "Dizzy Atmosphere (album)",
+     "resolvedTitle": "Dizzy Atmosphere (album)",
+     "shortDescription": "1957 studio album",
+     "extract": "Dizzy Atmosphere is an album featuring members of Dizzy Gillespie's Orchestra including trombonist Al Grey, saxophonist Billy Mitchell and trumpeter Lee Morgan recorded in 1957 and released on the Specialty label.\n\n\n== Reception ==\n\nThe Allmusic review by Scott Yanow stated \"the music is modern bop for the period. Highlights include the ten-and-a-half-minute \"Dishwater,\" \"Over the Rainbow,\" and an early version of Golson's \"Whisper Not.\" Morgan plays extremely well throughout the spirited set, and he was just 18 at the time\".\n\n\n== Track listing ==\nAll compositions by Roger Spotts except where noted.\n\n\"Dishwater\" – 12:05\n\"Someone I Know\" – 3:59\n\"D.D.T.\" – 4:04\n\"Whisper Not\" (Benny Golson) – 5:55\n\"About Time\" – 3:14\n\"Day by Day\" (Axel Stordahl, Paul Weston, Sammy Cahn) – 3:26\n\"Rite of Swing\" – 3:14\n\"Over the Rainbow\" (Harold Arlen, Yip Harburg) – 4:18\n\"Someone I Know\" [take 3 – alternate] – 4:07 Bonus track on CD reissue\n\"Whisper Not\" [take 3–4 – alternate] (Golson) – 6:01 Bonus track on CD reissue\n\"Over the Rainbow\" [take 3 – alternate] (Arlen, Harburg) – 4:34 Bonus track on CD reissue\n\n\n== Personnel ==\nLee Morgan – trumpet\nAl Grey – trombone\nBilly Mitchell – tenor saxophone\nBilly Root – baritone saxophone\nWynton Kelly – piano\nPaul West – bass\nCharlie Persip – drums\nBenny Golson (tracks 4, 6 & 10), Roger Spotts (tracks 1–3, 5, 7–9 & 11) – arranger\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "ella-and-her-fellas",
+  "kind": "album",
+  "ours": {
+   "title": "Ella and Her Fellas",
+   "artist": "Ella Fitzgerald",
+   "year": 1957,
+   "label": "Decca Records",
+   "albumDNA": "Like Someone in Love is a 1957 studio album by the American jazz singer Ella Fitzgerald, with a studio orchestra arranged and conducted by Frank DeVol. This album represents a fine example of Ella's singing from this period, recorded at the same time as her albums with Louis Armstrong.",
+   "keyTracks": [
+    "Flying Home",
+    "Sing Me a Swing Song",
+    "Stone Cold Dead in the Market (He Had It Coming)",
+    "Benny’s Coming Home on Saturday",
+    "Big Boy Blues",
+    "And Her Tears Flowed Like Wine"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Like_Someone_in_Love_(Ella_Fitzgerald_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "0d275bc5-65eb-42d7-8364-bcd1ec121ac0",
+     "title": "Ella and Her Fellas",
+     "date": "1957",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Ella Fitzgerald"
+     ],
+     "labels": [
+      {
+       "name": "Decca Records",
+       "catalogNumber": "DL 8477"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "14f06581-a479-4f5c-bcf7-6a6ec98f7dad",
+      "title": "Ella and Her Fellas",
+      "firstReleaseDate": "1957",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "You Won’t Be Satisfied (Until You Break My Heart)",
+      "That’s the Way It Is",
+      "Stone Cold Dead in the Market (He Had It Coming)",
+      "I Gotta Have My Baby Back",
+      "Sentimental Journey",
+      "The Frim Fram Sauce",
+      "It’s Only a Paper Moon",
+      "Dream a Little Dream of Me",
+      "Baby, It’s Cold Outside",
+      "A‐Tisket A‐Tasket",
+      "Would You Like to Take a Walk (Sump’n Good’ll Come From That)",
+      "Don’cha Go ’way Mad"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Like_Someone_in_Love_(Ella_Fitzgerald_album)",
+    "page": {
+     "requestedTitle": "Like Someone in Love (Ella Fitzgerald album)",
+     "resolvedTitle": "Like Someone in Love (Ella Fitzgerald album)",
+     "shortDescription": "1957 studio album by Ella Fitzgerald",
+     "extract": "Like Someone in Love is a 1957 studio album by the American jazz singer Ella Fitzgerald, with a studio orchestra arranged and conducted by Frank DeVol. This album represents a fine example of Ella's singing from this period, recorded at the same time as her albums with Louis Armstrong.\n\n\n== History ==\nThe album was also recorded in the midst of her epic 'Songbooks' project, celebrating the composers of the 'Great American Songbook' and Broadway. The album features only four songs written by the composers featured in her 'Songbooks', instead concentrating on very famous ballads by lesser known writers. Some songs on the album were also recorded with Armstrong on the albums that they collaborated on from this period. Stan Getz is featured on tenor sax on four tracks, including \"Midnight Sun\" and \"You're Blasé\".  Ted Nash plays the alto sax and solos.  The cover photos are by Phil Stern.\n\n\n== Reception ==\n\nWriting for AllMusic, music critic Scott Yanow wrote of the album: \"Most of the songs are veteran standards... her voice was so strong and appealing during this era that all of her recordings from the mid- to late '50s are enjoyable and easily recommended\".\n\n\n== Track listing ==\nFor the 1957 Verve album Someone in Love, Verve MGV-4004\nSide one:\n\n\"There's a Lull in My Life\" (Mack Gordon, Harry Revel)  – 3:23\n\"More Than You Know\" (Edward Eliscu, Billy Rose, Vincent Youmans)  – 3:14\n\"What Will I Tell My Heart?\" (Irving Gordon, Jack Lawrence, Peter Tinturin)  – 3:27\n\"I Never Had A Chance\" (Irving Berlin)  – 2:44\n\"Close Your Eyes\" (Bernice Petkere)  – 2:54\n\"We'll Be Together Again\" (Carl T. Fischer, Frankie Laine)  – 3:18\n\"Then I'll Be Tired Of You\" (Yip Harburg, Arthur Schwartz)  – 3:10\n\"Like Someone in Love\" (Johnny Burke, Jimmy Van Heusen)  – 3:07\nSide two:\n\n\"Midnight Sun\" (Sonny Burke, Lionel Hampton, Johnny Mercer)  – 3:54\n\"I Thought About You\" (Mercer, Van Heusen)  – 2:51\n\"You're Blasé\" (Ord Hamilton, Bruce Sievier)  – 3:55\n\"Night Wind\" (Lew Pollack, Bob Rothberg)  – 3:16\n\"What's New?\" (Johnny Burke, Bob Haggart)  – 3:04\n\"Hurry Home\" (Buddy Bernier, Bob Emmerich, Joseph Meyer)  – 4:37\n\"How Long Has This Been Going On?\" (George Gershwin, Ira Gershwin)  – 5:48\nBonus Tracks; Issued on the 1991 Verve CD re-issue Like Someone in Love, Verve 314-511 524-2\n\n16. \"I'll Never Be The Same\" (Gus Kahn, Matty Malneck, Frank Signorelli)  – 4:23 \n17. \"Lost in a Fog\" (Dorothy Fields, Jimmy McHugh)  – 3:59 \n18. \"Everything Happens to Me\" (Tom Adair, Matt Dennis)  – 3:51 \n19. \"So Rare\" (Jerry Herst, Jack Sharpe)  – 3:34\nTracks 1–11 recorded October 15, 1957, in Hollywood, Los Angeles\nTracks 12–19 recorded October 28, 1957, in Hollywood, Los Angeles\n\n\n== Personnel ==\nElla Fitzgerald – vocals\nFrank DeVol – arranger, conductor\nStan Getz – saxophone\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "four-trombones",
+  "kind": "album",
+  "ours": {
+   "title": "Four Trombones",
+   "artist": "Charles Mingus",
+   "year": 1957,
+   "label": "Debut",
+   "albumDNA": "Mingus is an album by the jazz bassist and composer Charles Mingus. The album was recorded in October and November 1960 in New York and released in late 1961 on Nat Hentoff's Candid label.",
+   "keyTracks": [
+    "Now's the Time",
+    "Trombosphere",
+    "Ow!",
+    "Chazzanova"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Mingus_(Charles_Mingus_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "b589089d-09e7-4826-8678-38c160901a84",
+     "title": "Four Trombones",
+     "date": "1957",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Kai Winding",
+      "J.J. Johnson",
+      "Bennie Green",
+      "Willie Dennis",
+      "John Lewis",
+      "Charlie Mingus"
+     ],
+     "labels": [
+      {
+       "name": "Debut",
+       "catalogNumber": "DEB-126"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "04ab8739-b3c2-49e1-8bf8-2db7e2b4e19d",
+      "title": "Four Trombones",
+      "firstReleaseDate": "1957",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Now's the Time",
+      "Trombosphere",
+      "Ow!",
+      "Chazzanova"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Mingus_(Charles_Mingus_album)",
+    "page": {
+     "requestedTitle": "Mingus (Charles Mingus album)",
+     "resolvedTitle": "Mingus (Charles Mingus album)",
+     "shortDescription": "1961 studio album by Charles Mingus",
+     "extract": "Mingus is an album by the jazz bassist and composer Charles Mingus. The album was recorded in October and November 1960 in New York and released in late 1961 on Nat Hentoff's Candid label.\n\n\n== Background ==\nAt this time Mingus was working regularly with a piano-less quartet featuring Eric Dolphy, Ted Curson and Dannie Richmond, as heard on the Charles Mingus Presents Charles Mingus album also recorded in October 1960. The Mingus album features one track, \"Stormy Weather\", recorded by the same quartet, plus two tracks recorded by a larger group featuring piano and additional horns.\nThe track \"M.D.M.\" weaves together the themes from three compositions: Duke Ellington's \"Main Stem\", Thelonious Monk's \"Straight, No Chaser\" and Mingus's own \"Fifty-First Street Blues\". The track \"Lock 'Em Up\" was inspired by a period of treatment that Mingus describes undergoing in his autobiography Beneath the Underdog, at New York's Bellevue psychiatric facility.\n\n\n== Track listings ==\n\n\n=== Candid release ===\n\"M.D.M. (Monk, Duke and Me)\" – 19:49\n\"Stormy Weather\"* – 13:23\n\"Lock 'Em Up (Hellview of Bellevue)\" – 6:40\nAll compositions by Charles Mingus except * by Harold Arlen & Ted Koehler\n\n\n=== Barnaby reissue ===\nIn April, 1974, Barnaby Records reissued this album as Mingus: The Candid Recordings (KZ-31034), adding the track \"Vasserlean\", which had appeared only on a 1961 Candid Records various-artists collection called Jazz Life (CJM-8019/CJS-9019).\nThe new track listing was:\n\n\"M.D.M. (Monk, Duke and Me)\" – 19:49\n\"Vasserlean\" – 6:35\n\"Stormy Weather\" – 13:23\n\"Lock 'Em Up (Hellview of Bellevue)\" – 6:40\n\n\n=== Jazz Man reissue ===\nIn 1980, Jazz Man Records reissued this album under its original Candid title, Mingus (JAZ-5002), also including the track \"Vasserlean.\" \nThe track listing was:\n\n\"Stormy Weather\" – 13:23\n\"Lock 'Em Up (Hellview of Bellevue)\" – 6:40\n\"M.D.M. (Monk, Duke and Me)\" – 19:49\n\"Vasserlean\" – 6:35\n\n\n== Personnel ==\nCharles Mingus – bass\nTed Curson, Lonnie Hillyer – trumpet\nJimmy Knepper, Britt Woodman – trombone\nCharles McPherson – alto saxophone\nEric Dolphy – alto saxophone, flute and bass clarinet\nBooker Ervin – tenor saxophone\nNico Bunink, Paul Bley – piano\nDannie Richmond – drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "jay-and-kai",
+  "kind": "album",
+  "ours": {
+   "title": "Jay and Kai",
+   "artist": "J. J. Johnson",
+   "year": 1957,
+   "label": "Unknown",
+   "albumDNA": "Jay and Kai is an album by American jazz trombonists J. J. Johnson and Kai Winding featuring performances recorded in 1955 and 1956 for the Columbia label.",
+   "keyTracks": null,
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Jay_and_Kai"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Jay_and_Kai",
+    "page": {
+     "requestedTitle": "Jay and Kai",
+     "resolvedTitle": "Jay and Kai",
+     "shortDescription": "1957 studio album by J. J. Johnson and Kai Winding",
+     "extract": "Jay and Kai is an album by American jazz trombonists J. J. Johnson and Kai Winding featuring performances recorded in 1955 and 1956 for the Columbia label.\n\n\n== Reception ==\n\nAllmusic awarded the album 3 stars and stated \"Not a classic jazz set, but comfortable enough for the fans of the duo\".\n\n\n== Track listing ==\n\"You'd Be So Nice to Come Home To\" (Cole Porter) - 3:30\n\"Caribe\" (Kai Winding) - 2:41\n\"Happiness Is a Thing Called Joe\" (Harold Arlen, Yip Harburg) - 3:40\n\"The Song Is You\" (Jerome Kern, Oscar Hammerstein II) - 4:02\n\"In the Wee Small Hours of the Morning\" (David Mann, Bob Hilliard) - 4:14\n\"Yes, You\" (Dick Leib) - 3:27\n\"Tromboniums in Motion\" (J. J. Johnson) - 3:40\n\"How High the Moon\" (Morgan Lewis, Nancy Hamilton) - 2:33\n\"Violets for Your Furs\" (Matt Dennis, Tom Adair) - 4:20\n\"Too Close for Comfort\" (Jerry Bock, George David Weiss, Larry Holofcener) - 3:26\n\"'S Wonderful\" (George Gershwin, Ira Gershwin) - 3:08\n\"I Should Care\" (Axel Stordahl, Paul Weston, Sammy Cahn) - 3:54\nRecorded at Columbia 30th Street Studios in New York City on November 17, 1955 (tracks 1–5), July 18, 1956 (tracks 7–11),  December 17, 1956 (track 6) and  January 27, 1957 (track 12)\n\n\n== Personnel ==\nJ. J. Johnson (tracks 1–5 & 7–12), Kai Winding (tracks 1–11) – trombone, trombonium\nBobby Jaspar – tenor saxophone (track 12)\nWayne Andre, Carl Fontana – trombone (track 6)\nDick Leib – bass trombone (track 6)\nRoy Frazee (track 6), Hank Jones (track 12), Dick Katz (tracks 1–5 & 7–11) – piano\nBill Crow (tracks 7–11), Percy Heath (track 12), Milt Hinton (tracks 1–5), Kenny O'Brien (track 6) – bass\nKenny Clarke (tracks 7–11), Jack Franklin (track 6), Elvin Jones (track 12), Shadow Wilson (tracks 1–6) – drums\nCandido Camero – bongos (track 2)\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "jazz-by-sun-ra",
+  "kind": "album",
+  "ours": {
+   "title": "Jazz by Sun Ra",
+   "artist": "Sun Ra",
+   "year": 1957,
+   "label": "Transition",
+   "albumDNA": "Jazz By Sun Ra is the debut album by Sun Ra. The record label for the first pressing says \"07-12-56\", presumably when it was recorded. The LP originally appeared on Tom Wilson's short-lived Transition Records. In the mid-1960s it was purchased by Delmark Records owner Bob Koester, finally being reissued in 1967.",
+   "keyTracks": [
+    "Brainville",
+    "Call for All Demons",
+    "Transition",
+    "Possession",
+    "Street Named Hell"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Jazz_by_Sun_Ra"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "48c97c50-df33-48ff-853c-7971d64cb5e3",
+     "title": "Jazz by Sun Ra",
+     "date": "1957",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Sun Ra"
+     ],
+     "labels": [
+      {
+       "name": "Transition",
+       "catalogNumber": "trlp 10"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0efd75cf-6d5e-31fb-a8fe-f1f5a281c3ff",
+      "title": "Jazz by Sun Ra",
+      "firstReleaseDate": "1957",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Brainville",
+      "Call for All Demons",
+      "Transition",
+      "Possession",
+      "Street Named Hell",
+      "Lullaby for Realville",
+      "Future",
+      "New Horizons",
+      "Fall Off the Log",
+      "Sun Song"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Jazz_by_Sun_Ra",
+    "page": {
+     "requestedTitle": "Jazz by Sun Ra",
+     "resolvedTitle": "Jazz by Sun Ra",
+     "shortDescription": "1957 debut album by Sun Ra and his Arkestra",
+     "extract": "Jazz By Sun Ra (later titled Sun Song) is the debut album by Sun Ra. The record label for the first pressing says \"07-12-56\", presumably when it was recorded.  The LP originally appeared on Tom Wilson's short-lived Transition Records. In the mid-1960s it was purchased (along with much of the Transition catalog) by Delmark Records owner Bob Koester, finally being reissued in 1967.\nWhen originally released, it came with an extensive booklet featuring words and photos of Sun Ra and his Arkestra.  The LP featured original compositions by Sun Ra along with one by Arkestral bassist Richard Evans.  Another composition by Arkestra member Julian Priester has been included in reissues from the session, and additional unreleased tracks (all Ra originals) are known to survive.  The single non-Arkestral composition was Possession, by Harry Revel, which had been written for Les Baxter's album Perfume Set to Music; Possession was arranged for the Arkestra by the Texan pianist and composer Prince Shell.\nEarlier home recordings by Ra, including one dating from 1948 or 1949, were released with tracks from 1973 on the album Deep Purple.\n\n\n== Track listing ==\n\nWhen reissued on Compact Disc in 1991, \"Swing a Little Taste\" was added. This was originally released on the Transition sampler Jazz in Transition alongside tracks by artists such as Cecil Taylor, Donald Byrd and John Coltrane.\n\n\n=== CD version ===\n\"Brainville\" (Sun Ra) 4:29\n\"Call for all Demons\" (Sun Ra) 4:30\n\"Transition\" (Sun Ra) 3:40\n\"Possession\" (Harry Revel) 5:00\n\"Street Named Hell\" (Sun Ra) 3:55\n\"Lullaby for Realville\" (Richard Evans) 4:40\n\"Future\" (Sun Ra) 3:15\n\"Swing a Little Taste\" (Sun Ra) 4:25\n\"New Horizons\" (Sun Ra) 3:05\n\"Fall off the Log\" (Sun Ra) 4:00\n\"Sun Song\" (Sun Ra) 3:40\n\n\n== Musicians ==\nSource:\n\nSun Ra - Piano, Hammond B-3 organ, Percussion\nArt Hoyle - Trumpet, Percussion\nDave Young - Trumpet, Percussion\nJulian Priester - Trombone, Percussion\nJames Scales - Alto Sax\nJohn Gilmore - Tenor sax, Percussion\nPat Patrick - Baritone Sax, Percussion\nRichard Evans - Bass\nWilburn Green - Electric Bass, Percussion\nRobert Barry - Drums\nJim Herndon - Tympani\nRecorded Universal Recording, Chicago, July 12, 1956\n\n\n== Pressings ==\n\n\n== External sources ==\nComplete Sun Ra Discography\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "louis-armstrong-meets-oscar-peterson",
+  "kind": "album",
+  "ours": {
+   "title": "Louis Armstrong Meets Oscar Peterson",
+   "artist": "Louis Armstrong",
+   "year": 1957,
+   "label": "Verve",
+   "albumDNA": "Louis Armstrong Meets Oscar Peterson is a 1959 studio album by Louis Armstrong, accompanied by Oscar Peterson. This Verve date features \"That Old Feeling\" as part of Louis Armstrong's vocal jazz output from 1957.",
+   "keyTracks": [
+    "That Old Feeling",
+    "Let's Fall in Love",
+    "I'll Never Be the Same",
+    "Blues in the Night",
+    "How Long Has This Been Going On?"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Louis_Armstrong_Meets_Oscar_Peterson"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "c6736765-9d4d-4ff8-8411-bd62523a6dba",
+     "title": "Louis Armstrong meets Oscar Peterson",
+     "date": "1985",
+     "country": "DE",
+     "status": "Official",
+     "artists": [
+      "Louis Armstrong",
+      "Oscar Peterson"
+     ],
+     "labels": [
+      {
+       "name": "Verve",
+       "catalogNumber": "825 713-2"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "2cd03f5b-d935-326f-9368-f34583f46570",
+      "title": "Louis Armstrong Meets Oscar Peterson",
+      "firstReleaseDate": "1957",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "That Old Feeling",
+      "Let's Fall in Love",
+      "I'll Never Be the Same",
+      "Blues in the Night (My Mama Done Tol' Me)",
+      "How Long Has This Been Going On?",
+      "I Was Doing All Right",
+      "What's New",
+      "Moon Song",
+      "Just One of Those Things",
+      "There's No You",
+      "You Go to My Head",
+      "Sweet Lorraine",
+      "I Get a Kick Out of You",
+      "Makin' Whoopee",
+      "Willow Weep for Me",
+      "Let's Do It (Let's Fall in Love)"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Louis_Armstrong_Meets_Oscar_Peterson",
+    "page": {
+     "requestedTitle": "Louis Armstrong Meets Oscar Peterson",
+     "resolvedTitle": "Louis Armstrong Meets Oscar Peterson",
+     "shortDescription": "1959 studio album by Louis Armstrong and Oscar Peterson",
+     "extract": "Louis Armstrong Meets Oscar Peterson is a 1959 studio album (recorded in 1957) by Louis Armstrong, accompanied by Oscar Peterson.\nThe album was reissued in 1997 on CD with four bonus tracks, recorded at the sessions that produced Ella and Louis Again.\n\n\n== Track listing ==\n\"That Old Feeling\" (Lew Brown, Sammy Fain) – 2:42\n\"Let's Fall in Love\" (Harold Arlen, Ted Koehler) – 3:14\n\"I'll Never Be the Same\" (Matty Malneck, Frank Signorelli, Gus Kahn) – 3:29\n\"Blues in the Night\" (Arlen, Johnny Mercer) – 5:10\n\"How Long Has This Been Going On?\" (George Gershwin, Ira Gershwin) – 5:56\n\"I Was Doing All Right\" (G. Gershwin, I. Gershwin) – 3:20\n\"What's New?\" (Sonny Burke, Bob Haggart) – 2:40\n\"Moon Song\" (Sam Coslow, Arthur Johnston) – 4:31\n\"Just One of Those Things\" (Cole Porter) – 4:02\n\"There's No You\" (Tom Adair, Hal Hopper) – 2:14\n\"You Go to My Head\" (J. Fred Coots, Haven Gillespie) – 6:24\n\"Sweet Lorraine\" (Cliff Burwell, Mitchell Parish) – 5:11\n\n\n=== Bonus tracks ===\n\"I Get a Kick out of You\" (Porter) – 4:16\n\"Makin' Whoopee\" (Walter Donaldson, Kahn) – 3:55\n\"Willow Weep for Me\" (Ann Ronell) – 4:16\n\"Let's Do It (Let's Fall in Love)\" (Porter) – 8:42\n\n\n== Personnel ==\n\n\n=== Performance ===\nLouis Armstrong – trumpet, vocals\nOscar Peterson – piano\nHerb Ellis – guitar\nRay Brown – double bass\nLouie Bellson – drums\n\n\n=== Production ===\nLeonard Feather – liner notes\nVal Valentin \t– engineer\nNorman Granz – producer\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "mulligan-meets-monk",
+  "kind": "album",
+  "ours": {
+   "title": "Mulligan Meets Monk",
+   "artist": "Gerry Mulligan",
+   "year": 1957,
+   "label": "Riverside",
+   "albumDNA": "Mulligan Meets Monk is a studio album by American jazz pianist Thelonious Monk and baritone saxophonist Gerry Mulligan, originally released on Riverside Records in 1957. It has been reissued numerous times. It was remastered for CD in 1987 with three additional alternative takes from the original session.",
+   "keyTracks": [
+    "’Round Midnight",
+    "Rhythm-a-ning",
+    "Sweet and Lovely",
+    "Decidedly",
+    "Straight, No Chaser"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Mulligan_Meets_Monk"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "93404803-e5ae-438d-9b6f-1fd0bf94ad0c",
+     "title": "'Round Midnight",
+     "date": "1982",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Thelonious Monk",
+      "Gerry Mulligan"
+     ],
+     "labels": [
+      {
+       "name": "Milestone",
+       "catalogNumber": "M-47067"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "00283f0e-27ed-3323-9e8e-79ddd6d5c506",
+      "title": "Mulligan Meets Monk",
+      "firstReleaseDate": "1957-10",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Straight, No Chaser (take 1)",
+      "Straight, No Chaser",
+      "Decidedly (take 4)",
+      "Decidedly",
+      "'round Midnight",
+      "Rhythm-a-ning",
+      "Sweet and Lovely",
+      "I Mean You (take 1)",
+      "I Mean You (take 2)",
+      "I Mean You",
+      "'round Midnight (in progress)",
+      "'round Midnight (as issued)"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Mulligan_Meets_Monk",
+    "page": {
+     "requestedTitle": "Mulligan Meets Monk",
+     "resolvedTitle": "Mulligan Meets Monk",
+     "shortDescription": "1957 studio album by Gerry Mulligan and Thelonious Monk",
+     "extract": "Mulligan Meets Monk is a studio album by American jazz pianist Thelonious Monk and baritone saxophonist Gerry Mulligan, originally released on Riverside Records in 1957. It has been reissued numerous times. It was remastered for CD in 1987 (on Fantasy's Original Jazz Classics) with three additional alternative takes from the original session.\n\n\n== Track listing ==\n\n\n=== Original LP (1957) ===\nSide One\n\n\"'Round Midnight\" (Monk, Cootie Williams, Bernie Hanighen) – 8:29\n\"Rhythm-a-Ning\" (Monk) – 5:19\n\"Sweet and Lovely\" (Gus Arnheim, Jules LeMare, Harry Tobias) – 7:17\nSide Two\n\n\"Decidedly\" (Gerry Mulligan) – 5:54\n\"Straight, No Chaser\" (Monk) – 7:00\n\"I Mean You\" (Monk, Coleman Hawkins) – 6:53\n\n\n=== Digital re-release (1987) ===\n\"'Round Midnight\" – 8:29\n\"Rhythm-a-Ning\" – 5:19\n\"Sweet and Lovely\" – 7:17\n\"Decidedly\" (original stereo take 4) – 5:54\n\"Decidedly\" (original mono take 5)  – 6:37\n\"Straight, No Chaser\" (original take 3) – 7:00\n\"Straight, No Chaser\" (alternate take 1) – 5:29\n\"I Mean You\" (original take 4) – 6:53\n\"I Mean You\" (alternate take 2) – 6:30\n\n\n== Personnel ==\nMusicians\n\nGerry Mulligan – baritone saxophone\nThelonious Monk – piano\nWilbur Ware – double bass\nShadow Wilson – drums\nProduction\n\nOrrin Keepnews - producer, liner notes\nJack Higgins - recording engineer\nRobert Parent - cover photo\nPaul Bacon - cover design\nFor the CD-release (1987) \n\nPhil De Lancie - digital remastering\nPeter Grant - design\n\n\n== References ==\n\n\n== Further reading ==\nDraper, Jason (2008). A Brief History of Album Covers. London: Flame Tree Publishing. pp. 28–29. ISBN 9781847862112. OCLC 227198538."
+    }
+   }
+  }
+ },
+ {
+  "id": "mulligan-meets-monk-monk",
+  "kind": "album",
+  "ours": {
+   "title": "Mulligan Meets Monk",
+   "artist": "Thelonious Monk",
+   "year": 1957,
+   "label": "Riverside",
+   "albumDNA": "Mulligan Meets Monk is a studio album by American jazz pianist Thelonious Monk and baritone saxophonist Gerry Mulligan, originally released on Riverside Records in 1957. It has been reissued numerous times. It was remastered for CD in 1987 with three additional alternative takes from the original session.",
+   "keyTracks": [
+    "’Round Midnight",
+    "Rhythm-a-ning",
+    "Sweet and Lovely",
+    "Decidedly",
+    "Straight, No Chaser"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Mulligan_Meets_Monk"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "5cf64d06-a221-46d0-9756-1cb8266e4a47",
+     "title": "Mulligan Meets Monk",
+     "date": "1957",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Thelonious Monk",
+      "Gerry Mulligan"
+     ],
+     "labels": [
+      {
+       "name": "Riverside",
+       "catalogNumber": "RLP 1106"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "00283f0e-27ed-3323-9e8e-79ddd6d5c506",
+      "title": "Mulligan Meets Monk",
+      "firstReleaseDate": "1957-10",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "’Round Midnight",
+      "Rhythm-a-ning",
+      "Sweet and Lovely",
+      "Decidedly",
+      "Straight, No Chaser",
+      "I Mean You"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Mulligan_Meets_Monk",
+    "page": {
+     "requestedTitle": "Mulligan Meets Monk",
+     "resolvedTitle": "Mulligan Meets Monk",
+     "shortDescription": "1957 studio album by Gerry Mulligan and Thelonious Monk",
+     "extract": "Mulligan Meets Monk is a studio album by American jazz pianist Thelonious Monk and baritone saxophonist Gerry Mulligan, originally released on Riverside Records in 1957. It has been reissued numerous times. It was remastered for CD in 1987 (on Fantasy's Original Jazz Classics) with three additional alternative takes from the original session.\n\n\n== Track listing ==\n\n\n=== Original LP (1957) ===\nSide One\n\n\"'Round Midnight\" (Monk, Cootie Williams, Bernie Hanighen) – 8:29\n\"Rhythm-a-Ning\" (Monk) – 5:19\n\"Sweet and Lovely\" (Gus Arnheim, Jules LeMare, Harry Tobias) – 7:17\nSide Two\n\n\"Decidedly\" (Gerry Mulligan) – 5:54\n\"Straight, No Chaser\" (Monk) – 7:00\n\"I Mean You\" (Monk, Coleman Hawkins) – 6:53\n\n\n=== Digital re-release (1987) ===\n\"'Round Midnight\" – 8:29\n\"Rhythm-a-Ning\" – 5:19\n\"Sweet and Lovely\" – 7:17\n\"Decidedly\" (original stereo take 4) – 5:54\n\"Decidedly\" (original mono take 5)  – 6:37\n\"Straight, No Chaser\" (original take 3) – 7:00\n\"Straight, No Chaser\" (alternate take 1) – 5:29\n\"I Mean You\" (original take 4) – 6:53\n\"I Mean You\" (alternate take 2) – 6:30\n\n\n== Personnel ==\nMusicians\n\nGerry Mulligan – baritone saxophone\nThelonious Monk – piano\nWilbur Ware – double bass\nShadow Wilson – drums\nProduction\n\nOrrin Keepnews - producer, liner notes\nJack Higgins - recording engineer\nRobert Parent - cover photo\nPaul Bacon - cover design\nFor the CD-release (1987) \n\nPhil De Lancie - digital remastering\nPeter Grant - design\n\n\n== References ==\n\n\n== Further reading ==\nDraper, Jason (2008). A Brief History of Album Covers. London: Flame Tree Publishing. pp. 28–29. ISBN 9781847862112. OCLC 227198538."
+    }
+   }
+  }
+ },
+ {
+  "id": "sonny-rollins-volume-2",
+  "kind": "album",
+  "ours": {
+   "title": "Sonny Rollins, Volume 2",
+   "artist": "Sonny Rollins",
+   "year": 1957,
+   "label": "Blue Note",
+   "albumDNA": "On Sonny Rollins, Volume 2 (1957), Sonny Rollins delivers a focused exploration of hard bop, recorded for Blue Note. Among its key performances are 'Why Don't I' and 'Wail March'.",
+   "keyTracks": [
+    "Why Don't I",
+    "Wail March",
+    "Misterioso",
+    "Reflections",
+    "You Stepped Out of a Dream"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "ca9f5e91-3e48-484b-bfe5-b135b2d86e07",
+     "title": "Sonny Rollins, Volume 2",
+     "date": "1957",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Sonny Rollins"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "BLP 1558"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "265895b3-7d23-3924-b254-a4ce301bb891",
+      "title": "Sonny Rollins, Volume 2",
+      "firstReleaseDate": "1957",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Why Don't I",
+      "Wail March",
+      "Misterioso",
+      "Reflections",
+      "You Stepped Out of a Dream",
+      "Poor Butterfly"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "such-sweet-thunder",
+  "kind": "album",
+  "ours": {
+   "title": "Such Sweet Thunder",
+   "artist": "Duke Ellington",
+   "year": 1957,
+   "label": "Columbia",
+   "albumDNA": "Such Sweet Thunder is a Duke Ellington album, released in 1957. The record is a twelve-part suite based on the work of William Shakespeare.",
+   "keyTracks": [
+    "The Star-Crossed Lovers",
+    "Circle of Fourths",
+    "The Telecasters",
+    "Up and Down, Up and Down (I Will Lead Them Up and Down)"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Such_Sweet_Thunder"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 0.65,
+    "release": null,
+    "searchCandidates": [
+     {
+      "mbid": "8bc8b74a-add5-31b8-b87a-9d0d8d9f0edd",
+      "title": "Such Sweet Thunder",
+      "score": 100,
+      "artists": [
+       "Duke Ellington & His Orchestra"
+      ],
+      "firstReleaseDate": null,
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     {
+      "mbid": "f64c20db-63ee-4218-b9f6-bc103a2f0990",
+      "title": "Such Sweet Thunder",
+      "score": 100,
+      "artists": [
+       "Duke Ellington And His Orchestra"
+      ],
+      "firstReleaseDate": "1957",
+      "primaryType": "EP",
+      "secondaryTypes": []
+     },
+     {
+      "mbid": "a4302a71-d3e0-36b8-b218-c632623f3000",
+      "title": "Such Sweet Thunder",
+      "score": 100,
+      "artists": [
+       "Duke Ellington & His Orchestra"
+      ],
+      "firstReleaseDate": "1957",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     }
+    ]
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Such_Sweet_Thunder",
+    "page": {
+     "requestedTitle": "Such Sweet Thunder",
+     "resolvedTitle": "Such Sweet Thunder",
+     "shortDescription": "1957 studio album by Duke Ellington and his Orchestra",
+     "extract": "Such Sweet Thunder is a Duke Ellington album, released in 1957. The record is a twelve-part suite based on the works of William Shakespeare.\n\n\n== Background ==\nIn August 1956, Ellington and his orchestra were performing in Stratford, Ontario, at the same time that the Stratford Shakespearean Festival was ongoing. Ellington and his longtime composing and arranging partner Billy Strayhorn talked to festival staffers, and Ellington soon announced his next album project would be a suite based on the works of Shakespeare. In addition to the Such Sweet Thunder album, he promised that the entire suite would be performed at the 1957 edition of the festival. Ellington and Strayhorn began building a home library of Shakespeare, seeking out Shakespeare experts, and reading through the canon during orchestra downtime. The title comes from Act IV, scene i, of A Midsummer Night's Dream, where Hippolyta says: \"I never heard / So musical a discord, such sweet thunder.\"\nThe music that would constitute Such Sweet Thunder was written in just under three weeks and recorded in early 1957. Although most of the compositions were created for the suite in conjunction with Strayhorn, a few were versions of older Strayhorn songs that were reworked and re-titled for the collection.\n\n\n== Critical reception ==\n\nNPR included this album in their \"Basic Jazz Record Library\".\n\n\n== Track listing ==\nAll songs written by Duke Ellington and Billy Strayhorn, except where noted.\n\n\"Such Sweet Thunder\" – 3:22\n\"Sonnet for Caesar\" – 3:00\n\"Sonnet to Hank Cinq\" – 1:24\n\"Lady Mac\" – 3:41\n\"Sonnet in Search of a Moor\" – 2:22\n\"The Telecasters\" – 3:05\n\"Up and Down, Up and Down (I Will Lead Them Up and Down)\" – 3:09\n\"Sonnet for Sister Kate\" – 2:24\n\"The Star-Crossed Lovers\" (Also known as \"Pretty Girl\") – 4:00\n\"Madness in Great Ones\" – 3:26\n\"Half the Fun\" (Also known as \"Lately\") – 4:19\n\"Circle of Fourths\" – 1:45\n\n\n=== Bonus tracks ===\n\n\"The Star-Crossed Lovers\" (Also known as \"Pretty Girl\") (stereo LP master) – 4:15\n\"Circle of Fourths\" (stereo LP master) – 1:47\n\"Suburban Beauty\" (Ellington) – 2:56\n\"A-Flat Minor\" (Ellington) – 2:33\n\"Café au Lait\" – 2:49\n\"Half the Fun\" (alternate take) – 4:08\n\"Suburban Beauty\" (Alternate take) (Ellington) – 2:56\n\"A-Flat Minor\" (outtake) (Ellington) – 3:49\n\"Café au Lait\" – 6:21\n\"Pretty Girl\" (Also known as the \"Star-Crossed Lovers\") (outtake) – 8:54\n\n\n== Production/reissue credits ==\nMusicians\n\nJohnny Hodges – alto saxophone\nRussell Procope – clarinet, alto saxophone\nPaul Gonsalves – tenor saxophone\nJimmy Hamilton – clarinet, tenor saxophone\nHarry Carney – bass clarinet, baritone saxophone\nCat Anderson, Clark Terry, Ray Nance, Willie Cook – trumpets\nQuentin Jackson, John Sanders, Britt Woodman – trombones\nJimmy Woode – double bass\nDuke Ellington – piano, bandleader\nSam Woodyard – drums\nBilly Strayhorn – orchestration\nProduction\n\nIrving Townsend – liner notes, producer\nPhil Schaap – reissue producer, liner notes remastering, research, restoration (No reissue retains Clark Terry's quotation, on the original LP release, of Puck's \"Lord, what fools these mortals be!\")\nSteven Berkowitz – A&R\nDarren Salmieri – A&R\nMark Wilder – digital mastering\nHoward Fritzson – art direction\nDon Hunstein – photography\nRandall Martin – design\nJuliana Myrick – package manager\n\n\n== References ==\n\n\n== Bibliography (further reading) ==\n\n\n=== Contemporary reviews and journalism ===\n“Ellington Suite to Bow April 28” The New York Times. 15 April 1957.\nParmenter, Ross. “Music: Weill and the Duke.” The New York Times 29 April 1957.\n“New Ellington Suite Hailed By Coast-to-Coast Audience.” Daily Defender.  2 July 1957.\nWilson, John S. “Duke Bounces Back With Provocative Work.” The New York Times. 13 Oct. 1957. esp 113\nWilson, John S. “Jazz: Ellington.” The New York Times 13 October 1957.\n\n\n=== Historical and analytical writings (in reverse chronological order) ===\nBradbury, David. Duke Ellington. London: Haus, 2005. Esp. pp. 91.\nLanier, Douglas. “To Be-Bop or Not to Be-Bop; Minstrelsy, Jazz, Rap: Shakespeare, African American Music, and Cultural Legitimation.” Borrowers and Lenders: The Journal of Shakespeare and Appropriation Vol. 1, 2005 [no pagination].\nBuhler, Stephen M. “Form and Character in Duke Ellington’s and Billy Strayhorn’s Such Sweet Thunder.” Borrowers and Lenders: The Journal of Shakespeare and Appropriation Vol. 1, 2005 [no pagination].\nNicholson, Stuart. Reminiscing in Tempo: A Portrait of Duke Ellington. Northeastern University Press, 1999, esp. pp. ???"
+    }
+   }
+  }
+ },
+ {
+  "id": "the-clown",
+  "kind": "album",
+  "ours": {
+   "title": "The Clown",
+   "artist": "Charles Mingus",
+   "year": 1957,
+   "label": "Atlantic",
+   "albumDNA": "The Clown is a studio album by the jazz bassist and composer Charles Mingus. It was released in September 1957 through Atlantic Records. The recording took place on February 13 and March 12, 1957. The title track features the improvised narration of Jean Shepherd.",
+   "keyTracks": [
+    "Haitian Fight Song",
+    "Blue Cee",
+    "Reincarnation of a Lovebird",
+    "The Clown"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Clown_(album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "55a6c226-6f8b-426c-b40d-549afd7888d5",
+     "title": "The Clown",
+     "date": "1957-08",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Charles Mingus"
+     ],
+     "labels": [
+      {
+       "name": "Atlantic",
+       "catalogNumber": "1260"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "21c5d11d-7228-3827-996e-abeb6d0e08d3",
+      "title": "The Clown",
+      "firstReleaseDate": "1957-08",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Haitian Fight Song",
+      "Blue Cee",
+      "Reincarnation of a Lovebird",
+      "The Clown"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/The_Clown_(album)",
+    "page": {
+     "requestedTitle": "The Clown (album)",
+     "resolvedTitle": "The Clown (album)",
+     "shortDescription": "1957 studio album by Charles Mingus",
+     "extract": "The Clown is a studio album by the jazz bassist and composer Charles Mingus. It was released in September 1957 through Atlantic Records. The recording took place on February 13 and March 12, 1957. The title track features the improvised narration of Jean Shepherd.\nAccording to Nat Hentoff's liner notes, Mingus explained why he chose those four tracks for the album: \"I selected these four over two others that were more intricate because some of those guys had been saying that I didn't swing. So I made some that did. This album also has the first blues I've made on record.\"\n\n\n== Notes about the tracks ==\nThe following excerpts come from the original liner notes and are statements made by Mingus himself.\nOn \"Haitian Fight Song\", Mingus said \"I'd say this song has a contemporary folk feeling. My solo in it is a deeply concentrated one. I can't play it right unless I'm thinking about prejudice and hate and persecution, and how unfair it is. There's sadness and cries in it, but also determination. And it usually ends with my feeling: 'I told them! I hope somebody heard me.’ \".\n\"Blue Cee\" is a standard blues in two keys, C and B♭, \"but that's not noticeable and it ends up in C, basically\", he said and continued \"I heard some Basie in it and also some church-like feeling\".\n\"Reincarnation of a Lovebird\" is a composition dedicated to bebop saxophonist Charlie Parker, known commonly as \"Bird\". \"I wouldn't say I set out to write a piece on Bird. [...] Suddenly I realize it was Bird. [...] In one way, the work isn't like him. It's built on long lines and most of his pieces were short lines. But it's my feeling about Bird. I felt like crying when I wrote it.\"\n\"The Clown\" tells the story of a clown \"who tried to please people like most jazz musicians do, but whom nobody liked until he was dead. My version of the story ended with his blowing his brains out with the people laughing and finally being pleased because they thought it was part of the act. I liked the way Jean changed the ending; leaves it more up to the listener.\" According to a later biography, Mingus was a fan of Shepherd's radio show on WOR and outlined a concept for Shepherd but encouraged him to elaborate and improvise.\nA deluxe edition of The Clown was issued in 2000 on Rhino featuring two bonus tracks.\n\n\n== Track listing ==\nAll tracks written by Charles Mingus.\n\n\"Haitian Fight Song\" - 12:01\n\"Blue Cee\" - 7:48\n\"Reincarnation of a Lovebird\" - 8:31\n\"The Clown\" - 12:29\n\n\n=== Deluxe Edition bonus tracks ===\n\"Passions of a Woman Loved\" - 9:52\n\"Tonight at Noon\" - 5:57\n\n\n== Personnel ==\nCharles Mingus - bass\nShafi Hadi - alto and tenor saxophone\nJimmy Knepper - trombone\nWade Legge - piano\nDannie Richmond - drums\nJean Shepherd - narration (track 4)\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "the-most-happy-piano",
+  "kind": "album",
+  "ours": {
+   "title": "The Most Happy Piano",
+   "artist": "Erroll Garner",
+   "year": 1957,
+   "label": "Columbia",
+   "albumDNA": "With The Most Happy Piano (1957), pianist Erroll Garner delivers a cool jazz program for the Columbia label. Among the tracks are \"Girl of My Dreams\" and \"But Not for Me\". It was first recorded in 1956 with Mitch Miller and his orchestra, and played a prominent part in the 1971 motion picture Play Misty for Me.",
+   "keyTracks": [
+    "Girl of My Dreams",
+    "But Not for Me",
+    "Passing Through",
+    "Time on My Hands",
+    "Alexander's Ragtime Band"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Erroll_Garner"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "45d8ab9a-b7cf-4054-a38f-ad7d1ceec39a",
+     "title": "The Most Happy Piano",
+     "date": "1957",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Erroll Garner"
+     ],
+     "labels": [
+      {
+       "name": "Columbia",
+       "catalogNumber": "CL 939"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0b150035-acbe-4510-b43c-5c3ac78724ba",
+      "title": "The Most Happy Piano",
+      "firstReleaseDate": "1957",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Girl of My Dreams",
+      "But Not for Me",
+      "Passing Through",
+      "Time on My Hands",
+      "Alexander's Ragtime Band",
+      "Full Moon and Empty Arms",
+      "Mambo 207",
+      "The Way Back Blues",
+      "Ol' Man River"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Erroll_Garner",
+    "page": {
+     "requestedTitle": "Erroll Garner",
+     "resolvedTitle": "Erroll Garner",
+     "shortDescription": "American jazz pianist and composer (1921–1977)",
+     "extract": "Erroll Louis Garner (June 15, 1921 – January 2, 1977) was an American jazz pianist and composer known for his swing playing and ballads. His instrumental ballad \"Misty\", his best-known composition, has become a jazz standard. It was first recorded in 1956 with Mitch Miller and his orchestra, and played a prominent part in the 1971 motion picture Play Misty for Me.\nScott Yanow of AllMusic calls him \"one of the most distinctive of all pianists\" and a \"brilliant virtuoso\". Garner received a star on the Hollywood Walk of Fame at 6363 Hollywood Boulevard. His live album Concert by the Sea, first released in 1955, sold more than 1 million copies by 1958, and Yanow's opinion of the album is that it \"made such a strong impression that Garner was considered immortal from then on.\"\n\n\n== Life and career ==\nGarner was born, along with twin brother Ernest in Pittsburgh, Pennsylvania, on June 15, 1921, the youngest of six children. He attended George Westinghouse High School (as did fellow pianists Billy Strayhorn and Ahmad Jamal). Interviews with his family, music teachers, other musicians, and a detailed family tree can be found in Erroll Garner: The Most Happy Piano by James M. Doran.\n\n\n=== Piano career ===\n\nGarner began playing piano at the age of three. His elder siblings were taught piano by a \"Miss Bowman\". From an early age, Erroll would sit down and play anything she had demonstrated, \"just like Miss Bowman\", his eldest sister Martha said. Garner was self-taught and remained an \"ear player\" all his life, never learning to read music. At the age of seven, he began appearing on the radio station KDKA in Pittsburgh with a group named the Candy Kids. By the age of 11, he was playing on the Allegheny riverboats. In 1937, he joined local saxophonist Leroy Brown.\nGarner played locally in the shadow of his older brother Linton, also a pianist.\nGarner moved to New York City in 1944. He briefly worked with the bassist Slam Stewart, and although not a bebop musician per se, in 1947 played with Charlie Parker on the \"Cool Blues\" session. Although Garner's admission to the Pittsburgh music union initially was refused because of his inability to read music, the union relented in 1956 and made him an honorary member. He is credited with having had a superb musical memory. After attending a concert by Russian classical pianist Emil Gilels, Garner returned to his apartment and was able to play a large portion of the performed music by heart.\n\n\n=== Columbia Records Lawsuit ===\nGarner sued Columbia Records in 1960 for breach of contract after they released several recordings without his consent. He had signed a five-year deal with Columbia in 1956, which contained an unprecedented clause (negotiated with the aid of manager Martha Glaser) giving Garner the right to approve the release of any of his recorded music. After three years of litigation, during which time Columbia continued to release Garner recordings against his will, the New York State Supreme Court ruled in Garner's favor in a landmark decision with regard to artists' rights, and Columbia paid Garner a substantial settlement and recalled all of the unauthorized records from its distributors.\n\n\n== Personal life ==\n\n\n=== Death ===\nGarner died of cardiac arrest related to emphysema on January 2, 1977, aged 55. He is buried in Pittsburgh's Homewood Cemetery.\n\n\n=== Management, estate and heirs ===\nGarner's career was supervised by music manager Martha Glaser from 1950 until his death in 1977; he was her only client.\nNeither Garner's partner Rosalyn Noisette nor his daughter Kim Garner were able to be his heirs. Glaser became his estate executor. After Glaser's death, her niece Susan Rosenberg inherited the charge to deal with Garner's cultural legacy.\n\n\n== Playing style ==\n\nShort in stature (5 feet 2 inches [157 cm]), Garner performed sitting on multiple telephone directories. He was also known for his vocalizations while playing, which can be heard on many of his recordings. He helped to bridge the gap for jazz musicians between nightclubs and the concert hall.\nCalled \"one of the most distinctive of all pianists\" by Scott Yanow, Garner showed that a \"creative jazz musician can be very popular without watering down his music\" or changing his personal style. He has been described as a \"brilliant virtuoso who sounded unlike anyone else\", using an \"orchestral approach straight from the swing era but...open to the innovations of bop.\" His distinctive style could swing like no other, but "
+    }
+   }
+  }
+ },
+ {
+  "id": "thelonious-himself",
+  "kind": "album",
+  "ours": {
+   "title": "Thelonious Himself",
+   "artist": "Thelonious Monk",
+   "year": 1957,
+   "label": "Riverside",
+   "albumDNA": "Thelonious Himself is a studio album by Thelonious Monk released in 1957 by Riverside Records. It was Monk's fourth album for the label. The album features Monk playing solo piano, except for the final track, \"Monk's Mood\", which features John Coltrane on tenor saxophone and Wilbur Ware on bass. It was Monk's second solo piano studio album, and it was the first made by an American label and distributed in the United States.",
+   "keyTracks": [
+    "April in Paris",
+    "Ghost of a Chance",
+    "Functional",
+    "I'm Getting Sentimental Over You",
+    "I Should Care"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Thelonious_Himself"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "60e3ae01-7304-4528-9d30-c03cb1fb5de8",
+     "title": "Thelonious Himself",
+     "date": "1957",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Thelonious Monk"
+     ],
+     "labels": [
+      {
+       "name": "Riverside",
+       "catalogNumber": "RLP 12-235"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "07dfbfba-dc70-4e4b-9791-9eaf61a0aaba",
+      "title": "Thelonious Himself",
+      "firstReleaseDate": "1957",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "April in Paris",
+      "Ghost of a Chance",
+      "Functional",
+      "I'm Getting Sentimental Over You",
+      "I Should Care",
+      "'Round Midnight",
+      "All Alone",
+      "Monk's Mood"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Thelonious_Himself",
+    "page": {
+     "requestedTitle": "Thelonious Himself",
+     "resolvedTitle": "Thelonious Himself",
+     "shortDescription": "1957 studio album by Thelonious Monk",
+     "extract": "Thelonious Himself is a studio album by Thelonious Monk released in 1957 by Riverside Records. It was Monk's fourth album for the label. The album features Monk playing solo piano, except for the final track, \"Monk's Mood\", which features John Coltrane on tenor saxophone and Wilbur Ware on bass. It was Monk's second solo piano studio album, and it was the first made by an American label and distributed in the United States. (Monk's first extended solo piano recording, Piano Solo, was recorded in Paris during June 1954, initially for the purpose of providing material for a radio broadcast. Monk had also recorded individual solo piano tracks for Prestige and Riverside records during the early and mid 1950s.)\nThe original CD reissue, released in 1987 via Original Jazz Classics/Riverside Records, includes an extensive 22-minute solo recording of \"'Round Midnight\" outtakes and experimentation in the studio.  A subsequent reissue, the Keepnews Collection edition, released in 2008 via Riverside Records, omits this sequence in favor of outtakes and alternate versions of several other tracks from the album.  In the liner notes, Keepnews states that including the original \"'Round Midnight\" outtake \"would have required eliminating virtually every existing alternate take of other selections — five other examples of this pianist's improvisational genius.\"\n\n\n== Cover ==\nThe cover photograph was taken by Paul Weller, and shows Monk in the control room of Reeves Sound Studios (where the album was recorded) seated at a mixing console.\n\n\n== Critical reception ==\n\nMusic critic Robert Christgau said Thelonious Himself is \"probably [Monk's] best\" solo album, while Down Beat magazine gave it five stars and called it \"highly recommended\". In All Music Guide (2001), jazz critic Scott Yanow gave the album four stars out of five and did not find it as important but still intriguing because \"Monk's hesitant stride and thoughtful yet unpredictable flights are always a joy to hear\".\n\n\n== Track listing ==\n\n\n=== Original vinyl release (1957) ===\nSide One\n\nApril in Paris\nGhost of a Chance\nFunctional [Take 2]\nI'm Gettin' Sentimental Over You\nSide Two\n\nI Should Care\n'Round Midnight\nAll Alone\nMonk's Mood — featuring John Coltrane, Wilbur Ware\n\n\n=== Original CD reissue (1987) ===\n\"April in Paris\" – 3:50\n\"(I Don't Stand) A Ghost of a Chance (With You)\"   – 4:21\n\"Functional\" – 9:18\n\"I'm Gettin' Sentimental Over You\" – 4:03\n\"I Should Care\" – 3:14\n\"'Round Midnight\" – 6:39\n\"All Alone\" – 4:49\n\"Monk's Mood\" - 7:49\n\"'Round Midnight (in progress)\" - 21:59\n\n\n=== Keepnews Collection reissue (2008) ===\n\"April in Paris\" – 3:54\n\"(I Don't Stand) A Ghost of a Chance (With You)\"   – 4:24\n\"Functional (take 2)\" – 9:22\n\"I'm Gettin' Sentimental Over You\" – 4:08\n\"I Should Care (take 3)\" – 3:15\n\"'Round Midnight\" – 6:44\n\"All Alone\" – 4:53\n\"Monk's Mood (false start)\" - :58\n\"Monk's Mood\" - 7:53\n\"(I Don't Stand) A Ghost of a Chance (With You)\"   – 4:13\n\"Functional (take 1)\" – 9:44\n\"I Should Care (take 1)\" – 3:29\n\"I Should Care (take 2)\" – 3:18\n\n\n== Personnel ==\nThelonious Monk - piano\nJohn Coltrane - tenor sax (on \"Monk's Mood\")\nWilbur Ware - bass (on \"Monk's Mood\")\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "round-about-midnight",
+  "kind": "album",
+  "ours": {
+   "title": "’Round About Midnight",
+   "artist": "Miles Davis",
+   "year": 1957,
+   "label": "Columbia",
+   "albumDNA": "A 1957 Columbia session, ’Round About Midnight finds Miles Davis pushing deeper into hard bop territory. The session exudes the understated elegance and sophisticated lyricism of the cool jazz school. Among its key performances are ''Round Midnight' and 'Ah-Leu-Cha'.",
+   "keyTracks": [
+    "'Round Midnight",
+    "Ah-Leu-Cha",
+    "All of You",
+    "Bye Bye Blackbird",
+    "Tadd's Delight"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "30392b21-44b8-3c9b-afd1-fe18d579e756",
+     "title": "’Round About Midnight",
+     "date": "1957-03-18",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Miles Davis"
+     ],
+     "labels": [
+      {
+       "name": "Columbia",
+       "catalogNumber": "CL 949"
+      },
+      {
+       "name": "Columbia",
+       "catalogNumber": "CL-949"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "6477da93-2286-4919-a898-031caa34c307",
+      "title": "’Round About Midnight",
+      "firstReleaseDate": "1957-03-18",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "’Round Midnight",
+      "Ah‐Leu‐Cha",
+      "All of You",
+      "Bye Bye Blackbird",
+      "Tadd’s Delight",
+      "Dear Old Stockholm"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "'Round About Midnight (album)",
+     "resolvedTitle": "'Round About Midnight",
+     "shortDescription": "1957 studio album by Miles Davis",
+     "extract": "'Round About Midnight is a studio album by the jazz trumpeter and composer Miles Davis with his quintet. It was released by Columbia Records in March 1957, and is Davis's first record on the label. The recording took place at Columbia's New York studio in three sessions between October 1955 and September 1956.\n\n\n== Background ==\nAt the Newport Jazz Festival in 1955, Davis performed the song \"'Round Midnight\" as part of an all-star jam session, with the song's composer Thelonious Monk, along with Connie Kay and Percy Heath of the Modern Jazz Quartet, Zoot Sims, and Gerry Mulligan. Davis's solo received a positive reception from many jazz fans and critics. His response to this performance was typically laconic: \"What are they talking about? I just played the way I always play.\" George Avakian of Columbia Records was in the audience, and his brother Aram persuaded him that he ought to sign Davis to the label.\nDavis signed with Columbia and formed his \"first great quintet\" with John Coltrane on saxophone. 'Round About Midnight was his first album for the label. He was still under contract to Prestige, but he had an agreement that he could record material for Columbia to release after the expiration of his Prestige contract. Recording took place at Columbia studios; the first session was on October 26, 1955 at Studio D, during which the track \"Ah-Leu-Cha\" was recorded with three numbers that did not appear on the album. This is the first studio recording of the quintet. The remainder of the album was recorded during sessions on June 5, 1956 (\"Dear Old Stockholm\", \"Bye Bye Blackbird\" and \"Tadd's Delight\") and September 10, 1956 (\"All of You\" and the titular \"'Round Midnight\") at Columbia's 30th Street Studio. During the same period, the Miles Davis Quintet was also recording sessions to fulfill its contract with Prestige.\n\n\n== Reissues ==\nOn April 17, 2001, Sony reissued the album on compact disc for its Columbia/Legacy label with 24-bit audio remastering and four previously released bonus tracks from the initial sessions. \"Budo\" had been released as part of the 1957 anthology album on Columbia, Jazz Omnibus, and \"Sweet Sue, Just You\" had appeared on the 1956 album by Leonard Bernstein explaining jazz to the classical audience, What Is Jazz. A two-disc reissue of June 14, 2005, included the 2001 reissue with a second disc containing Davis' 1955 Newport Jazz Festival performance of \"'Round Midnight\", along with a recording of the quintet's set from the 1956 Pacific Jazz Festival. The Newport track had been released for the first time the previous year on the Legacy compilation Happy Birthday Newport: 50 Swinging Years!\n\n\n== Reception ==\n\nIn his five-star review in the May 16, 1957, issue of DownBeat, Ralph J. Gleason called the album \"modern jazz conceived and executed in the very best style.\" Ralph Berton of The Record Changer called the album \"orthodox, middle-of-the-road conservative progressive jazz.\" The Penguin Guide to Jazz said it \"sounds like a footnote\" to the Prestige contractual obligation sessions (Miles, Relaxin', Workin', Steamin', and Cookin') and that \"the material is fine but somehow fails to cast quite the consistent spell which the Prestige recordings do.\" Bob Rusch of Cadence wrote, \"everything about this date, from the black-and-white cover photo, washed in red, of Miles Davis, removed in thought behind dark glasses, to the performances, is classic. Not surprisingly, careful packaging and exquisite artistry have created a legend and, in this case, one of the essential recordings in the history of recorded music.\"\n\n\n== Track listing ==\n\n\n=== Original release ===\n\n\n=== 2001 bonus tracks ===\n\n\n=== 2005 anniversary edition bonus disc ===\nAll tracks were recorded live at the Pacific Jazz Festival, Pasadena Civic Auditorium, February 18, 1956, except where indicated.\n\n\n== Personnel ==\n\n\n=== The Miles Davis Quintet ===\nMiles Davis – trumpet\nJohn Coltrane – tenor saxophone\nRed Garland – piano\nPaul Chambers – double bass\nPhilly Joe Jones – drums\nNewport personnel bonus disc track one\n\nMiles Davis – trumpet\nZoot Sims – tenor saxophone\nGerry Mulligan – baritone saxophone\nThelonious Monk – piano\nPercy Heath – double bass\nConnie Kay – drums\nProduction\n\nGeorge Avakian – producer, liner notes\nFrank Laico – engineer\nTeo Macero – mastering\nAram Avakian, Don Hunstein, Dennis Stock – photography\nSeth Rothstein – reissue project director\nBob Belden, Michael Cuscuna – reissue producers\nRay Moore – reissue engineer\nMark Wil"
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "'Round About Midnight",
+      "shortDescription": "1957 studio album by Miles Davis",
+      "extractHead": "'Round About Midnight is a studio album by the jazz trumpeter and composer Miles Davis with his quintet. It was released by Columbia Records in March 1957, and is Davis's first record on the label. The recording took place at Columbia's New York studio in three sessions between October 1955 and September 1956.\n\n\n== Background ==\nAt the Newport Jazz Festival in 1955, Davis performed the song \"'Round Midnight\" as part of an all-star jam session, with the song's composer Thelonious Monk, along with"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "at-the-pershing",
+  "kind": "album",
+  "ours": {
+   "title": "At the Pershing: But Not for Me",
+   "artist": "Ahmad Jamal",
+   "year": 1958,
+   "label": "Argo",
+   "albumDNA": "At the Pershing: But Not for Me is a 1958 jazz live album by pianist Ahmad Jamal. According to the album jacket, the tapes were made on January 16, 1958, at the Pershing Lounge of Chicago's Pershing Hotel and each set played that night was recorded, a total of 43 tracks, of which 8 were selected by Jamal for the album. The LP was released as Argo Records LP-628. Jamal's previous releases on Argo had been from previously made masters; this was his first release recorded for Argo, and his first album recorded live. Influenced Miles Davis's conception of space in music. Jamal's light touch and dramatic pauses changed jazz piano.",
+   "keyTracks": [
+    "But Not for Me",
+    "Poinciana",
+    "Surrey with the Fringe on Top",
+    "Moonlight in Vermont"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/At_the_Pershing%3A_But_Not_for_Me"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 0.81,
+    "release": {
+     "mbid": "0008f765-032b-46cd-ab69-2220edab1837",
+     "title": "Ahmad Jamal at the Pershing: But Not for Me",
+     "date": "1958",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Ahmad Jamal Trio"
+     ],
+     "labels": [
+      {
+       "name": "Argo",
+       "catalogNumber": "LP-628"
+      },
+      {
+       "name": "Argo",
+       "catalogNumber": "LPS-628"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0a8e97fd-457c-30bc-938a-2fba79cb04e7",
+      "title": "Ahmad Jamal at the Pershing: But Not for Me",
+      "firstReleaseDate": "1958",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Live"
+      ]
+     },
+     "tracks": [
+      "But Not for Me",
+      "Surrey With the Fringe on Top",
+      "Moonlight in Vermont",
+      "(Put Another Nickel in) Music Music Music",
+      "No Greater Love",
+      "Poinciana",
+      "Woody’n You",
+      "What’s New"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/At_the_Pershing%3A_But_Not_for_Me",
+    "page": {
+     "requestedTitle": "At the Pershing: But Not for Me",
+     "resolvedTitle": "At the Pershing: But Not for Me",
+     "shortDescription": "1958 live album by Ahmad Jamal",
+     "extract": "At the Pershing: But Not for Me is a 1958 jazz live album by pianist Ahmad Jamal. According to the album jacket, the tapes were made on January 16, 1958, at the Pershing Lounge of Chicago's Pershing Hotel and each set played that night was recorded, a total of 43 tracks, of which 8 were selected by Jamal for the album. The LP was released as Argo Records LP-628. Jamal's previous releases on Argo had been from previously made masters; this was his first release recorded for Argo, and his first album recorded live.\n\n\n== Critical reception ==\n\nThe 1958 DownBeat review was mildly negative, referring to Jamal as playing \"cocktail music\"; the reviewer acknowledged Jamal's skill and influence on other jazz musicians such as Miles Davis, but wrote, \"The trio's chief virtue is an excellent, smooth light but flexible beat\", and \"Throughout the music is kept emotionally, melodically, and organizationally innocuous.\" In August 1958, Jet magazine referred to the album as \"a nationwide hit\". The same month, DownBeat posted the album sales counts at over 47,000, noting that any (jazz) album selling 15,000 to 20,000 is \"big\". The December 1958 DownBeat poll of music retailers showed that the album was the \"number one jazz bestseller\", and it stayed on Billboard magazine album charts for 107 weeks.\nWhen Jamal was named one of the National Endowment for the Arts 1994 Masters of Jazz, the album was listed as having sold \"more than a million copies\".\nThe Penguin Guide to Jazz Recordings listed the album as part of its suggested \"core collection\" of essential recordings.\nThe album yielded the eight-minute \"Poinciana\", which was a \"massive jazz hit\"; one of \"the best selling albums of the decade, But Not For Me's success enabled Jamal to open his own club and restaurant, the Alhambra, where his band held residence when not on tour.\"\nEvident were his unusually minimalist style and his extended vamps, according to reviewer John Morthland in 2010.\nOn the NPR Basic Jazz Record Library radio show in 2011, Murray Horwitz and A. B. Spellman noted that \"Poinciana\" became \"standard dance music\" at parties, and, abridged, appeared on jukeboxes, because \"Jamal lets the bass and drums establish a Latin groove that's very appealing. He floats lightly on top of it in a spare, tightly constructed series of embellishments that's full of what the popular music people call 'hooks.' There's a lot of repetition but no redundancy, if you know what I mean.\"\n\n\n== Track listing ==\n\"But Not for Me\" (George Gershwin, Ira Gershwin) – 3:32\n\"The Surrey with the Fringe on Top\" (Richard Rodgers, Oscar Hammerstein II) – 2:35\n\"Moonlight in Vermont\" (Karl Suessdorf, John Blackburn) – 3:09\n\"Music, Music, Music\" (\"Put Another Nickel In\") (Bernie Baum, Stephen Weiss) – 2:56\n\"No Greater Love\" (Isham Jones, Marty Symes) – 3:26\n\"Poinciana\" (Buddy Bernier, Nat Simon) – 8:07\n\"Woody 'n' You\" (Dizzy Gillespie) – 3:40\n\"What's New?\" (Bob Haggart, Johnny Burke) – 4:11\n\n\n== Personnel ==\nAhmad Jamal – piano\nIsrael Crosby – bass\nVernel Fournier – drums\nMalcolm Chisholm – recording engineer\nDave Usher – producer\n\n\n== References ==\n\n\n== External links ==\nAt the Pershing: But Not for Me at Discogs.com\n\"Ahmad Jamal's 'Poinciana' turns 50 today\" Archived 2008-11-23 at the Wayback Machine. Jazz.com. Ted Gioia.\n\n\n== Further reading ==\nCook, Richard, and Brian Morton. The Penguin Guide to Jazz Recordings. London: Penguin, 2006.\nYanow, Scott. Jazz on Record: The First Sixty Years. San Francisco: Backbeat Books, 2003."
+    }
+   }
+  }
+ },
+ {
+  "id": "blue-train",
+  "kind": "album",
+  "ours": {
+   "title": "Blue Train",
+   "artist": "John Coltrane",
+   "year": 1958,
+   "label": "Blue Note",
+   "albumDNA": "Coltrane's only album as a leader for Blue Note Records, recorded on September 15, 1957, at Rudy Van Gelder's studio in Hackensack, New Jersey. The all-star sextet featured Lee Morgan on trumpet, Curtis Fuller on trombone, Kenny Drew on piano, Paul Chambers on bass, and Philly Joe Jones on drums. The title track became one of Coltrane's signature tunes, with its memorable melody and his powerful, driving solo. 'Moment's Notice' showcases his rapid chord-change improvisation that would later evolve into 'Giant Steps.'. A masterpiece of hard bop that demonstrates Coltrane's growing command as a bandleader and composer. It bridges the gap between hard bop and his later modal explorations, featuring the complex harmonic substitutions that would become his trademark 'Coltrane changes.' The iconic cover photo by Francis Wolff became one of the most recognizable images in jazz.",
+   "keyTracks": [
+    "Blue Train"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Blue_Train_(album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "1a8b1ea7-9a08-46f5-ae12-1fb7f6c21cc6",
+     "title": "Blue Train",
+     "date": "2008",
+     "country": "DE",
+     "status": "Official",
+     "artists": [
+      "John Coltrane"
+     ],
+     "labels": [
+      {
+       "name": "Documents",
+       "catalogNumber": "231877-321"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "c63baaaa-10c0-4b86-ad7e-1f39d7e2eccc",
+      "title": "Blue Train",
+      "firstReleaseDate": "2008",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "On It",
+      "Polka Dots and Moonbeams",
+      "Weeja",
+      "Avalon",
+      "Tenor Madness",
+      "Tenor Conclave",
+      "Bobs Boys",
+      "Just You, Just Me",
+      "How Deep Is the Ocean?",
+      "Soultrane",
+      "Gnid",
+      "Mating Call",
+      "On a Misty Night",
+      "Romas",
+      "Super Jet",
+      "Interplay",
+      "Soul Eyes",
+      "Anatomy",
+      "Light Blue",
+      "C.T.A.",
+      "Solacium",
+      "Tommys Time",
+      "Minor Mishap",
+      "Witches Pit",
+      "Marys Blues",
+      "Cat Walk",
+      "Route Four",
+      "Dakar",
+      "Velvet Scene",
+      "Potpourri",
+      "Dont Explain",
+      "Falling in Love With Love",
+      "J.M.S. Dream Doll",
+      "Chronic Blues",
+      "Bakai",
+      "While My Lady Sleeps",
+      "Time Was",
+      "Slowtrane",
+      "I Hear a Rhapsody",
+      "Violets for Your Furs"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Blue_Train_(album)",
+    "page": {
+     "requestedTitle": "Blue Train (album)",
+     "resolvedTitle": "Blue Train (album)",
+     "shortDescription": "1958 jazz album by John Coltrane",
+     "extract": "Blue Train is a studio album by the jazz saxophonist and composer John Coltrane. It was released in January 1958 through Blue Note Records, and is Coltrane's only session as leader for the label. The recording was engineered by Rudy Van Gelder and took place at his studio in Hackensack, New Jersey, on September 15, 1957.\nColtrane wrote four of the record's five tracks. His playing exhibits early elements of the signature style for which he later became known. The album attained a gold sales certification from the Recording Industry Association of America in 2001.\n\n\n== Background ==\nThe album was recorded in the midst of Coltrane's residency at the Five Spot as a member of the Thelonious Monk quartet. The personnel includes Coltrane's Miles Davis bandmates Paul Chambers (bass) and Philly Joe Jones (drums), both of whom had worked before with pianist Kenny Drew. Both trumpeter Lee Morgan and trombonist Curtis Fuller were up-and-coming jazz musicians. Unlike Coltrane's previous label, Blue Note paid the musicians to rehearse the music before the recording session.\n\n\n=== Composition ===\nFour of the five compositions were written by Coltrane, the exception being the standard \"I'm Old Fashioned\". Though at this point his compositions used conventional diatonic harmonies, they were set in unconventional ways. The title track is a bluesy piece with a quasi-minor (E♭7#9) theme. \"Locomotion\" is also a blues riff tune, in forty-four-bar form. There is a harmonic relationship between Coltrane's \"Lazy Bird\" and the Tadd Dameron composition \"Lady Bird\".\n\n\n=== Style ===\nColtrane's playing exhibits the move toward what would become his signature style. His solos are more harmonic or \"vertical\" and lines arpeggiated. His timing was often apart from or over the beat, rather than playing on or behind it. During a 1960 interview, Coltrane described Blue Train as his favorite album of his own up to that point.\nJohn Coltrane's next major album, Giant Steps, broke new melodic and harmonic ground in jazz, whereas Blue Train adheres to the hard bop style of the era.\n\nWhile on Joe Vella's podcast \"Traneumentary\", Michael Cuscuna, the reissue producer at Blue Note, commented:We’re listening to Blue Train, which to me is one of the most beautiful pieces on one of the most beautiful records that Coltrane recorded in the fifties. It’s his first real mature statement and he wrote all but one of the tunes on this album which was very rare in the fifties and each one is a gem, particularly the title tune Blue Train. And while it’s kind of easy to play the blues, this has a suspended and haunting kind of quality to it.\n\n\n=== Reissues and certification ===\nIt had sold more than half a million copies by April 2001 and thus was certified with a gold sales certification by the Recording Industry Association of America the following year.\nIn 1997, The Ultimate Blue Train was released, adding two alternate takes and enhanced content, and in 1999 a 24bit 192 kHz DVD-Audio version was issued. In 2003, both a Super Audio Compact Disc version was released, as well as a remastered compact disc as part of Blue Note's Rudy Van Gelder series.\nIn 2015, Blue Note/Universal released a Blu-ray audio edition of the album with four bonus tracks, one of which is a previously unreleased take of \"Lazy Bird\". Alternate takes of \"Moment's Notice\" were released on Blue Train: The Complete Masters, in 2022.\n\n\n== Reception ==\nIn 2000 it was voted number 339 in Colin Larkin's All Time Top 1000 Albums. He stated, \"Coltrane may have made more important albums, but none swung as effectively as this one.\"\n\n\n== Track listing ==\nAll tracks written by John Coltrane except where noted.\nSide 1\n\n\"Blue Train\" – 10:43\n\"Moment's Notice\" – 9:10\nSide 2\n\n\"Locomotion\" – 7:14\n\"I'm Old Fashioned\" (Johnny Mercer, Jerome Kern) – 7:58\n\"Lazy Bird\" – 7:00\n\n\n== Personnel ==\n\n\n=== Musicians ===\nJohn Coltrane – tenor saxophone\nLee Morgan – trumpet\nCurtis Fuller – trombone\nKenny Drew – piano\nPaul Chambers – double bass\nPhilly Joe Jones – drums\n\n\n=== Technical personnel ===\nAlfred Lion – producer\nRudy Van Gelder – recording engineer, mastering\nReid Miles – design\nFrancis Wolff – photography\nRobert Levin – liner notes\n\n\n== Charts ==\n\n\n== Certifications ==\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "branching-out",
+  "kind": "album",
+  "ours": {
+   "title": "Branching Out",
+   "artist": "Nat Adderley",
+   "year": 1958,
+   "label": "Riverside",
+   "albumDNA": "Branching Out is an album by jazz cornetist Nat Adderley, released on the Riverside label and featuring performances by Adderley with Johnny Griffin, and the Three Sounds. He was the younger brother of saxophonist Julian \"Cannonball\" Adderley, with whom he played for many years.",
+   "keyTracks": [
+    "Sister Caroline",
+    "Well You Needn't",
+    "Don't Get Around Much Anymore",
+    "I've Got Plenty of Nothin'",
+    "Branching Out"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Branching_Out"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "82c81f01-639d-46ea-8e5e-76e1382deef8",
+     "title": "Branching Out",
+     "date": "1958",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Nat Adderley",
+      "Johnny Griffin",
+      "The Three Sounds"
+     ],
+     "labels": [
+      {
+       "name": "Riverside",
+       "catalogNumber": "RLP 12-285"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0e82d6b2-165d-414a-953e-bc08adc2e5c5",
+      "title": "Branching Out",
+      "firstReleaseDate": "1958",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Sister Caroline",
+      "Well You Needn't",
+      "Don't Get Around Much Anymore",
+      "I've Got Plenty of Nothin'",
+      "Branching Out",
+      "I Never Knew I Could Love Anybody",
+      "Warm Blue Stream"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Branching_Out",
+    "page": {
+     "requestedTitle": "Branching Out",
+     "resolvedTitle": "Branching Out",
+     "shortDescription": "1958 studio album by Nat Adderley",
+     "extract": "Branching Out is an album by jazz cornetist Nat Adderley, released on the Riverside label and featuring performances by Adderley with Johnny Griffin, and the Three Sounds.\n\n\n== Reception ==\nThe AllMusic review by Scott Yanow states: \"Adderley and Griffin made for an exciting frontline\". The Penguin Guide to Jazz states: \"Branching Out is an attractive enough set, but Griff doesn't seem the right saxophone-player for the gig, too noisy and rapid-fire\". \n\n\n== Track listing ==\nAll compositions by Nat Adderley except as indicated\n\"Sister Caroline\" - 5:51\n\"Well, You Needn't\" (Thelonious Monk) - 8:26\n\"Don't Get Around Much Anymore\" (Duke Ellington, Bob Russell) - 4:36\n\"I Got Plenty O' Nuttin'\" (George Gershwin, Ira Gershwin, DuBose Heyward) - 5:02\n\"Branching Out\" (Harold Mabern) - 6:50\n\"I Never Knew I Could Love Anybody (Like I'm Loving You)\" (Raymond B. Egan, Roy Marsh, Thomas Pitts) - 4:44\n\"Warm Blue Stream\" (Sara Cassey, Dotty Wayne) - 4:23\n\n\n== Personnel ==\nNat Adderley – cornet\nJohnny Griffin - tenor saxophone\nGene Harris - piano\nAndy Simpkins - bass\nBill Dowdy - drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "carmen-for-cool-ones",
+  "kind": "album",
+  "ours": {
+   "title": "Carmen for Cool Ones",
+   "artist": "Carmen McRae",
+   "year": 1958,
+   "label": "Decca Records",
+   "albumDNA": "Carmen for Cool Ones is a 1958 album by jazz singer Carmen McRae, arranged and directed by cellist Fred Katz. She is considered one of the most influential jazz vocalists of the 20th century and is remembered for her behind-the-beat phrasing and ironic interpretation of lyrics.",
+   "keyTracks": [
+    "All the Things You Are",
+    "A Shoulder to Cry On",
+    "Any Old Time",
+    "Weak for the Man",
+    "What's New"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Carmen_for_Cool_Ones"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "5cc24334-a269-45dd-b420-5b49546a3e64",
+     "title": "Carmen for Cool Ones",
+     "date": "1958",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Carmen McRae"
+     ],
+     "labels": [
+      {
+       "name": "Decca Records",
+       "catalogNumber": "DL 8738"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0816faa4-7afb-420c-90bb-4dcc496bd9a2",
+      "title": "Carmen for Cool Ones",
+      "firstReleaseDate": "1958",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "All the Things You Are",
+      "A Shoulder to Cry On",
+      "Any Old Time",
+      "Weak for the Man",
+      "What's New",
+      "I Get a Kick Out of You",
+      "(What Can I Say) After I Say I'm Sorry?",
+      "Without a Word of Warning",
+      "If I Were a Bell",
+      "You Are Mine",
+      "The Night We Called It a Day",
+      "I Remember Clifford"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Carmen_for_Cool_Ones",
+    "page": {
+     "requestedTitle": "Carmen for Cool Ones",
+     "resolvedTitle": "Carmen for Cool Ones",
+     "shortDescription": "1958 studio album by Carmen McRae",
+     "extract": "Carmen for Cool Ones is a 1958 album by jazz singer Carmen McRae, arranged and directed by cellist Fred Katz.\n\n\n== Reception ==\n\nAllmusic awarded the album four stars and reviewer Ken Dryden wrote that McRae was on \"great form\" on the album and particularly praised \"All the Things You Are\", \"What's New?\" and a \"particularly dark version\" of \"The Night We Called It a Day\".\n\n\n== Track listing ==\n\"All the Things You Are\" (Oscar Hammerstein II, Jerome Kern) – 2:26\n\"A Shoulder to Cry On\" (Chuck Darwin, Paulette Girard) – 3:53\n\"Any Old Time\" (Artie Shaw) – 3:10\n\"Weak for the Man\" (Jeanne Burns) – 4:08\n\"What's New?\" (Johnny Burke, Bob Haggart) – 2:29\n\"I Get a Kick Out of You\" (Cole Porter) – 2:15\n\"What Can I Say After I Say I'm Sorry?\" (Walter Donaldson, Abe Lyman) – 1:47\n\"Without a Word of Warning\" (Mack Gordon, Harry Revel) – 3:20\n\"You Are Mine\" (Ted Snyder, Sam Lewis, Joe Young) – 1:55\n\"If I Were a Bell\" (Frank Loesser) – 3:27\n\"The Night We Called It a Day\" (Tom Adair, Matt Dennis) – 4:27\n\"I Remember Clifford\" (Benny Golson, Jon Hendricks) – 2:58\n\n\n== Personnel ==\nCarmen McRae – vocals\nFred Katz – arranger, conductor, cello\nIke Isaacs – double bass (except track 6)\nSpecs Wright – drums (exc. track 6)\non tracks 1, 7, 10\nHarry Klee – flute solo\nGeorge W. Smith – clarinet\nJustin Gordon, Mahlon Clark – bass clarinet\non tracks 2, 4, 9 and 12\nBuddy Collette – flute, alto saxophone\nGeorge W. Smith – clarinet\nJustin Gordon – bass clarinet\nWarren Webb – oboe\nJoe Marino – piano\nJoseph R. Gibbons – guitar\nThirteen unknown string players\non tracks 3, 5, 8 and 11\nJoe Marino, John T. Williams – piano, celeste\nLarry Bunker, Frank Flynn – vibraphone, marimba\non track 6\nPete Candoli, Ray Linn – trumpet\nVincent DeRosa – French horn\nBob Enevoldsen, Milt Bernhart – trombone\nTommy Johnson – tuba\nCalvin Jackson – piano\nBilly Bean – guitar\nRed Mitchell – double bass\nLarry Bunker – drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "ella-fitzgerald-sings-the-irving-berlin-song-book",
+  "kind": "album",
+  "ours": {
+   "title": "Ella Fitzgerald Sings the Irving Berlin Song Book",
+   "artist": "Ella Fitzgerald",
+   "year": 1958,
+   "label": "His Master’s Voice",
+   "albumDNA": "Ella Fitzgerald Sings the Irving Berlin Song Book is a 1958 studio album by the American jazz singer Ella Fitzgerald, with a studio orchestra conducted and arranged by Paul Weston, focusing on the songs of Irving Berlin. It was part of the popular and influential Songbook series.",
+   "keyTracks": [
+    "Let’s Face the Music and Dance",
+    "You’re Laughing at Me",
+    "Let Yourself Go",
+    "You Can Have Him",
+    "Russian Lullaby"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Ella_Fitzgerald_Sings_the_Irving_Berlin_Song_Book"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "333eacea-46b7-4204-b85d-193ffa3662dc",
+     "title": "Ella Fitzgerald Sings the Irving Berlin Songbook",
+     "date": "1958",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Ella Fitzgerald"
+     ],
+     "labels": [
+      {
+       "name": "Verve",
+       "catalogNumber": "MG VS-6005-2"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "13c2976d-5c40-305e-959e-d00f70097b06",
+      "title": "Ella Fitzgerald Sings the Irving Berlin Song Book",
+      "firstReleaseDate": "1958-07-04",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Let’s Face the Music and Dance",
+      "You’re Laughing at Me",
+      "Let Yourself Go",
+      "You Can Have Him",
+      "Russian Lullaby",
+      "Puttin’ On the Ritz",
+      "Get Thee Behind Me Satan",
+      "Alexander’s Ragtime Band",
+      "Top Hat, White Tie and Tails",
+      "How About Me",
+      "Cheek to Cheek",
+      "I Used to Be Color Blind",
+      "Lazy",
+      "How Deep Is the Ocean (How High Is the Sky)",
+      "All by Myself",
+      "Remember",
+      "Suppertime",
+      "How’s Chances",
+      "Heat Wave",
+      "Isn’t This a Lovely Day",
+      "You Keep Coming Back Like a Song",
+      "Reaching for the Moon",
+      "Slumming on Park Avenue",
+      "The Song Is Ended",
+      "I’m Putting All My Eggs in One Basket",
+      "Now It Can Be Told",
+      "Always",
+      "It’s a Lovely Day Today",
+      "Change Partners",
+      "No Strings (I’m Fancy Free)",
+      "I’ve Got My Love to Keep Me Warm"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Ella_Fitzgerald_Sings_the_Irving_Berlin_Song_Book",
+    "page": {
+     "requestedTitle": "Ella Fitzgerald Sings the Irving Berlin Song Book",
+     "resolvedTitle": "Ella Fitzgerald Sings the Irving Berlin Song Book",
+     "shortDescription": "1958 studio album by Ella Fitzgerald",
+     "extract": "Ella Fitzgerald Sings the Irving Berlin Song Book is a 1958 studio album by the American jazz singer Ella Fitzgerald, with a studio orchestra conducted and arranged by Paul Weston, focusing on the songs of Irving Berlin. It was part of the popular and influential Songbook series.\n\n\n== Grammy Awards ==\nAt the inaugural Grammy Awards, Ella Fitzgerald Sings the Irving Berlin Song Book was nominated for the Grammy Award for Album of the Year. Fitzgerald won the Grammy Award for Best Vocal Performance, Female for her performance on the album.\n\n\n== Reception ==\n\nIn a review for AllMusic, Ronnie D. Lankford, Jr. wrote: \"For fans who have enjoyed other songbook recordings, this reissue is a must-have; for those unfamiliar with Fitzgerald's songbook work, this is an excellent place to start.\"\nDavid Adler of All About Jazz called the album \"essential in any music library,\" and commented: \"Ella Fitzgerald's talent speaks for itself, as does Berlin's. The compatibility of these two American legends is unmistakable.\"\n\n\n== Track listing ==\nFor the 2-LP set originally released on the Verve label in 1958: Verve MGV 4019-2.\nSide One:\n\n\"Let's Face the Music and Dance\" – 2:57\n\"You're Laughing at Me\" – 3:18\n\"Let Yourself Go\" – 2:20\n\"You Can Have Him\" – 3:47\n\"Russian Lullaby\" – 1:55\n\"Puttin' On the Ritz\" – 2:18\n\"Get Thee Behind Me Satan\" – 3:49\n\"Alexander's Ragtime Band\" – 2:43\nSide Two:\n\n\"Top Hat, White Tie and Tails\" – 2:36\n\"How About Me?\" – 3:17\n\"Cheek to Cheek\" – 3:48\n\"I Used to Be Color Blind\" – 2:34\n\"Lazy\" – 2:40\n\"How Deep Is the Ocean?\" – 3:11\n\"All by Myself\" – 2:29\n\"Remember\" – 3:26\nSide Three:\n\n\"Supper Time\" – 3:19\n\"How's Chances?\" – 2:48\n\"Heat Wave\" – 2:25\n\"Isn't This a Lovely Day?\" – 3:29\n\"You Keep Coming Back Like a Song\" – 3:35\n\"Reaching for the Moon\" – 2:18\n\"Slumming on Park Avenue\" – 2:24\nSide Four:\n\n\"The Song Is Ended (but the Melody Lingers On)\" (lyrics by Beda Loehner) – 2:30\n\"I'm Putting All My Eggs in One Basket\" – 3:01\n\"Now it Can Be Told\" – 3:12\n\"Always\" – 3:09\n\"It's a Lovely Day Today\" – 2:28\n\"Change Partners\" – 3:18\n\"No Strings (I'm Fancy Free)\" – 3:03\n\"I've Got My Love to Keep Me Warm\" – 3:00\nBonus Track; Issued on the Verve 2000 2CD re-issue, Verve 830533-2\n32.\"Blue Skies\" – 3:43 (Note: This track was added to later vinyl re-issues)\nAll music and lyrics written by Irving Berlin.\n\n\n== Personnel ==\nElla Fitzgerald - vocals\nPaul Weston  – arranger, conductor\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "ellington-indigos-expanded-edition",
+  "kind": "album",
+  "ours": {
+   "title": "Ellington Indigos (Expanded Edition)",
+   "artist": "Duke Ellington",
+   "year": 1958,
+   "label": "Columbia",
+   "albumDNA": "Ellington Indigos is a 1958 studio album by Duke Ellington and His Orchestra, released on Columbia Records. The program collects some of Ellington's most lyrical compositions and arrangements, including definitive readings of \"Solitude,\" \"Mood Indigo,\" and \"Autumn Leaves,\" all rendered in the rich, burnished tones of the Ellington orchestra. This Columbia date features \"Solitude\" as part of Duke Ellington's swing output from 1958.",
+   "keyTracks": [
+    "Solitude",
+    "Where or When",
+    "Mood Indigo",
+    "Autumn Leaves - Full Version",
+    "The Sky Fell Down - Mono Version"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Ellington_Indigos"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Ellington_Indigos",
+    "page": {
+     "requestedTitle": "Ellington Indigos",
+     "resolvedTitle": "Ellington Indigos",
+     "shortDescription": "1958 studio album by Duke Ellington",
+     "extract": "Ellington Indigos is a 1958 jazz album by Duke Ellington.\nThe stereo CD reissue released by Columbia (CK 4444) in 1987 contains a track listing and cover art that is drastically different from the original mono LP. A change in song order and two additional songs – \"Night and Day\" and \"All The Things You Are\" – were added to the CD, while \"The Sky Fell Down\" was omitted.\n\n\n== LP (Columbia CL1085) ==\n\n\n== CD (Columbia COL 4723642) ==\n\n\n== Alternate versions ==\nThe original mono (CL 1085) and stereo (CS 8053) LP issues contained some different takes between them on various tracks, \"Willow Weep for Me\" being one of them.\nThe CD (CBS 463342 2) liner notes say that \"All The Things You Are and \"Night and Day\" were previously unreleased versions and that \"Autumn Leaves\" was an alternate take. Analyzing the two versions of \"Autumn Leaves\" shows that they are identical; however, the LP has Ozzie Bailey's first vocal chorus (a French one) edited out. (There is indeed an alternate version of \"Autumn Leaves\" recorded September 9, 1957, available on Duke Ellington & His Great Vocalists [Columbia CK 66372]). The stereo versions of \"Mood Indigo\" and \"Willow Weep for Me\" are different from their mono counterparts.\nThere are a multitude of versions of this album in circulation. For instance, there is another mono take of \"Mood Indigo\" available on the LP (CBS 88653 side 2, track 6).\n\n\n=== Listing ===\nLP: Columbia CL 1085 (mono – 9 tracks – original album)\nLP: Columbia CS 8053 (stereo – 8 tracks – no \"The Sky Fell Down\")\nLP: CBS 88653 (stereo – 8 tracks – no \"The Sky Fell Down\")\nCD: Columbia CK 4444 (stereo – 10 tracks – no \"The Sky Fell Down\")\nCD: CBS 463342 2 (stereo – 10 tracks – no \"The Sky Fell Down\")\nCD: Columbia COL 4723642 (stereo – 11 tracks – French)\n\n\n== Personnel ==\nPerformance\n\nJohnny Hodges, Rick Henderson – alto saxophone\nJimmy Hamilton, Russell Procope – clarinet, alto saxophone\nPaul Gonsalves – tenor saxophone\nHarry Carney – baritone saxophone\nCat Anderson, Shorty Baker, Willie Cook, Clark Terry – trumpet\nRay Nance – trumpet, violin\nQuentin Jackson, Britt Woodman – trombone\nJohn Sanders – bass trombone\nDuke Ellington – piano\nJimmy Woode – bass\nSam Woodyard – drums\nOzzie Bailey – vocals\nCredits\n\nIrving Townsend – producer\nStanley Dance – liner notes\nAllen Weinberg – artwork, cover design\nDavid Gahr – photography\nMichael Brooks – digital producer\nLarry Keyes – remixing\nMike Berniker, Amy Herot – production, Jazz masterpieces series coordinators\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "going-for-myself",
+  "kind": "album",
+  "ours": {
+   "title": "Going for Myself",
+   "artist": "Lester Young",
+   "year": 1958,
+   "label": "Verve",
+   "albumDNA": "Going For Myself is an album by Harry \"Sweets\" Edison and Lester Young, accompanied by Oscar Peterson. The album is one of Young's last studio recordings.",
+   "keyTracks": [
+    "Flic",
+    "Love Is Here to Stay",
+    "St. Tropez",
+    "Waldorf Blues",
+    "Sunday"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Going_for_Myself"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "7b346e97-4151-4241-b8d2-a695d729af08",
+     "title": "Going for Myself",
+     "date": "",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Harry “Sweets” Edison",
+      "Lester Young"
+     ],
+     "labels": [
+      {
+       "name": "Verve",
+       "catalogNumber": "PRW 27294"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "152392c6-7151-4699-91f1-c9a6d31aff17",
+      "title": "Going for Myself",
+      "firstReleaseDate": "1958",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Flic",
+      "Love Is Here to Stay",
+      "St. Tropez",
+      "Waldorf Blues",
+      "Sunday",
+      "You're Getting to Be a Habit with Me",
+      "Ballad medley",
+      "Perdido",
+      "St. Tropez (Alternate take)",
+      "You're Getting to Be a Habit with Me (Alternate take)",
+      "Waldorf Blues (Alternate take)"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Going_for_Myself",
+    "page": {
+     "requestedTitle": "Going for Myself",
+     "resolvedTitle": "Going for Myself",
+     "shortDescription": "1958 studio album by Harry \"Sweets\" Edison and Lester Young",
+     "extract": "Going For Myself is an album by Harry \"Sweets\" Edison and Lester Young, accompanied by Oscar Peterson. The album is one of Young's last studio recordings.\n\n\n== Track listing ==\n\"Flic\" (Oscar Peterson, Lester Young) - 06:16\n\"Love Is Here to Stay\" (George Gershwin, Ira Gershwin) - 05:53\n\"St. Tropez\" (Harry \"Sweets\" Edison, Peterson, Young) - 10:05\n\"Waldorf Blues\" (Young) - 08:19\n\"Sunday\" (Chester Conn, Benny Krueger, Ned Miller, Jule Styne)\t- 06:55\n\"You're Getting to Be a Habit with Me\" (Al Dubin, Harry Warren) - 07:43\nBonus tracks on CD reissue in 2012:\n\nBallad medley: \"A Ghost of a Chance\"/\"I Cover the Waterfront\" (Ned Washington, Ned Young, Bing Crosby)/(Johnny Green, Edward Heyman) - 5:51\n\"Perdido\" (Juan Tizol, Ervin Drake, Hans Lengsfelder) - 6:14\n\"St. Tropez\" - 6:55 - Alternate take\n\"You're Getting to Be a Habit with Me\" - 7:43 - Alternate take\n\"Waldorf Blues\" 6:16 - Alternate take\n\n\n== Personnel ==\nLester Young - tenor saxophone, clarinet (03 & 09)\nHarry \"Sweets\" Edison - trumpet\n(Hollywood, July 31, 1957) (Tracks# 01-03, 07-09)\n\nOscar Peterson - piano\nHerb Ellis - guitar\nRay Brown - double bass\nLouie Bellson - drums\n(New York, February 7, 1958) (Tracks# 04-06, 10-11)\n\nLou Stein - piano\nHerb Ellis - guitar\nRay Brown - double bass\nMickey Sheen - drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "lady-in-satin",
+  "kind": "album",
+  "ours": {
+   "title": "Lady in Satin",
+   "artist": "Billie Holiday",
+   "year": 1958,
+   "label": "Columbia",
+   "albumDNA": "Lady in Satin is an album by the jazz singer Billie Holiday, released in 1958 on Columbia Records, catalogue CL 1157 in mono and CS 8048 in stereo. It is the penultimate album completed by the singer, and the last to be released in her lifetime. Her final album, Last Recording, was recorded in March 1959, and released just after her death. The original album was produced by Irving Townsend and engineered by Fred Plaut.",
+   "keyTracks": [
+    "I'm a Fool to Want You",
+    "For Heaven's Sake",
+    "You Don't Know What Love Is",
+    "I Get Along Without You Very Well",
+    "For All We Know"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Lady_in_Satin"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "729c730c-b146-429b-a7f3-6a6bd1616c60",
+     "title": "Билли Холидей",
+     "date": "1980",
+     "country": "SU",
+     "status": "Official",
+     "artists": [
+      "Билли Холидей"
+     ],
+     "labels": [
+      {
+       "name": "Мелодия",
+       "catalogNumber": "С60 - 13869-70"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "cf7bc239-a3ba-3d87-80e5-261f750cb560",
+      "title": "Lady in Satin",
+      "firstReleaseDate": "1958-06",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Как глупо мечтать о тебе - I'm a Fool to Want You",
+      "Ради неба - For Heaven's Sake",
+      "Ты не знаешь, что такое любовь - You Don't Know What Love Is",
+      "Я прекрасно обхожусь без тебя - I Get Along Without You Very Well",
+      "Все, что мы знаем - For All We Know",
+      "Фиалки для тебя - Violets for Your Furs",
+      "Ты переменился - You've Changed",
+      "Это легко помнить - It's Easy to Remember",
+      "Прекрасный - But Beautiful",
+      "Рада быть несчастной - Glad to Be Unhappy",
+      "Я буду рядом - I'll Be Around"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Lady_in_Satin",
+    "page": {
+     "requestedTitle": "Lady in Satin",
+     "resolvedTitle": "Lady in Satin",
+     "shortDescription": "1958 studio album by Billie Holiday",
+     "extract": "Lady in Satin is a studio album by American jazz singer Billie Holiday, released in 1958 on Columbia Records, catalogue CL 1157 in mono and CS 8048 in stereo. It is the penultimate album completed by the singer, and the last to be released in her lifetime. Her final album, Last Recording, was recorded in March 1959, and released just after her death. The original album was produced by Irving Townsend and engineered by Fred Plaut.\n\n\n== Background ==\nFor the majority of the 1950s, Billie Holiday was signed to jazz producer Norman Granz's Clef Records, which was later absorbed into the newly founded Verve Records by 1956. All of her work for Norman Granz consisted of small jazz combos, reuniting her with musicians she recorded with back in the 1930s when she made her first recordings with Teddy Wilson. There were talks in the early 1950s of Holiday making albums, or songbooks, dedicated to composers such as George and Ira Gershwin and Jerome Kern, but they fell through and ended up going to Ella Fitzgerald when she signed to Verve. By 1957, Holiday had recorded twelve albums for Granz and was unhappy. Therefore, she decided not to renew her contract.\nBy October 1957, Holiday contacted Columbia producer Irving Townsend and expressed interest in recording with bandleader Ray Ellis. Originally, she wanted to do an album with bandleader Nelson Riddle after hearing his arrangements for Frank Sinatra's albums, particularly In the Wee Small Hours, but after hearing Ellis's version of \"For All We Know\", she wanted to record with him. When Holiday came to Townsend about the album, he was surprised:\n\nIt would be like Ella Fitzgerald saying that she wanted to record with Ray Conniff. But she said she wanted a pretty album, something delicate. She said this over and over. She thought it would be beautiful. She wasn't interested in some wild swinging jam session ... She wanted that cushion under her voice. She wanted to be flattered by that kind of sound.\nTownsend got in touch with Ellis about the album. Ellis, having heard Holiday's work throughout the 1930s and 1940s, was excited for the project, saying, \"I couldn't believe it ... I didn't know she was aware of me.\" Townsend arranged a meeting for both Holiday and Ellis to sign a contract with Columbia. Columbia provided an unlimited budget for the album. The musicians in the orchestra were paid $60 for the three sessions and Holiday was paid $150 per side in advance. Townsend went on to set up the recording dates for late February 1958.\n\n\n== Content ==\nWhen Holiday signed her contract for Columbia, the label looked at it as a new beginning as this was her return to the label after sixteen years. During Holiday's time with Norman Granz's label, she revisited old material she had previously recorded and songs that were well known in her repertoire, such as \"My Man\", \"Lover, Come Back to Me\", \"I Cover the Waterfront\", \"Them There Eyes\", and \"I Only Have Eyes for You\". Columbia wanted Holiday to do an album of songs she had never recorded before, so the material for Lady in Satin derived from the usual sources for Holiday in her three-decade career, that of the Great American Songbook of classic pop. Also, unlike the bulk of Holiday's recordings with Norman Granz and her early years at Columbia in the 1930s and early 1940s, rather than in the setting of a jazz combo Holiday returns to the backdrop of full orchestral arrangements as done during her Decca years eight years earlier. She wanted the album to be in the same contemporary vein of Frank Sinatra or Ella Fitzgerald on her Song Books series.\nRay Ellis made his arrangements of the songs to match Holiday's voice. By the mid- to late-1950s, Holiday's voice had changed drastically due to years of alcohol and drug abuse, altering its texture and giving it a fragile, raspy sound. Despite her voice's condition, its distinctive edge had not been lost, and the style of phrasing that had made her a popular jazz singer remained at her command. Ray Ellis said of Holiday's voice:\n\nI heard her voice [and] I dug it. I was in love with that voice and I was picturing a very evil, sensuous, sultry, very evil ... probably one of the most evil voices I've heard in my life ... Evil is earthy to me. When you say someone is evil, it means very, very bad. I don't mean bad.\nEllis used a 40-piece orchestra, complete with horns, strings, reeds, and even a three-piece choir. It would turn out to be Holiday's most expensive music production. Soloists on the"
+    }
+   }
+  }
+ }
+]

@@ -1,0 +1,330 @@
+[
+ {
+  "id": "fire-music",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match (similarity 1.0) and stored wiki page both confirm Archie Shepp, Fire Music, Impulse! 1965 (AS 86). Prose mirrors the wiki extract; personnel (Curson, Orange, Brown, Johnson, Chambers), Malcolm X dedication, and Los Olvidados film homage all verified. All 4 keyTracks in MB tracklist ('Malcolm, Malcolm—Semper Malcolm' matches MB 'Malcolm, Malcolm - Semper Malcolm', punctuation variant). Trailing sentences ('merged Black nationalist politics...', 'most politically outspoken') are editorial, not flagged."
+ },
+ {
+  "id": "fuchsia-swing-song",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed by both sources (Sam Rivers, Blue Note BST-84184). Prose mirrors wiki: debut album, recorded 1964, 1995 CD reissue, 2003 Connoisseur Series with four alternate takes - all verified. All 4 keyTracks in MB tracklist. Year wrinkle: ours year=1965 matches wiki shortDescription '1965 studio album by Sam Rivers'; MB release/release-group date says 1964, which equals the recording year stated by both prose and wiki, so the MB date looks like recording-year slop (a recurring MB pattern in this pack). Not flagged as error; human may want to pin the exact release date. 'Influenced the loft jazz movement' tail is editorial."
+ },
+ {
+  "id": "i-put-a-spell-on-you",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MBID (authoritative) confirms Nina Simone, Philips PHS 600-172, 1965. All 5 keyTracks in MB tracklist. Every prose claim (recorded 1964-65 NYC, released by Philips 1965, Billboard 200 #99, UK Albums #18, title track R&B #23 / UK Singles #28) verified verbatim against the stored wiki page."
+ },
+ {
+  "id": "idle-moments",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed (Grant Green, Blue Note BLP 4154). Prose mirrors wiki: recorded 1963, released 1965, personnel Henderson/Hutcherson/Pearson/Cranshaw/Harewood all verified. All 4 keyTracks in MB tracklist (exact). Year: ours 1965 is supported by the wiki extract's explicit month-level statement 'released in both stereo and mono in February 1965'; MB release/RG date says 1964 (bare year, search-method) - wiki's explicit statement preferred, MB date noted as likely erroneous. Trailing 'spacious and meditative' sentences are editorial."
+ },
+ {
+  "id": "inner-urge",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "1965", "evidence": "1966",
+    "evidenceQuote": "Inner Urge is an album by the jazz saxophonist Joe Henderson, released in 1966 via Blue Note Records, his fourth recorded as a leader.",
+    "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Right entity throughout; the year FIELD is wrong. The item is internally inconsistent: its own albumDNA prose says 'released in 1966' (matching the wiki page) while the year field says 1965, which matches no evidence. MB RG firstReleaseDate '1964-11-30' equals the recording date stated by prose and wiki (recorded at Van Gelder Studio November 30, 1964), so it is a recording date, not a release date; the MB-matched release is the 2004 RVG edition of the correct release group. All 4 keyTracks match MB (RVG suffixes ignored) and the wiki tracklist. Personnel (Tyner, Jones, Cranshaw) verified. Fix: year 1965 -> 1966."
+ },
+ {
+  "id": "juju",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed (Wayne Shorter, Blue Note BST 84182). Prose mirrors wiki: fifth album, released July 1965, rhythm section Tyner/Workman/Jones with the Coltrane connection - all verified. All 4 keyTracks in MB tracklist. Year: ours 1965 supported by wiki's explicit 'released in July 1965 by Blue Note Records'; MB release/RG says 1964 (bare year, search method) - wiki's month-level statement preferred, MB date noted as likely recording-year slop. Trailing 'signature style' sentences are editorial."
+ },
+ {
+  "id": "maiden-voyage",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed (Herbie Hancock, Blue Note BLP 4195, MB date 1965-05-17). Prose mirrors wiki: fifth album, recorded by Rudy Van Gelder March 17 1965, catalog BLP 4195/BST 84195, personnel Coleman/Hubbard/Carter/Williams, oceanic concept, Grammy Hall of Fame 1999 - all verified. All 4 keyTracks in MB tracklist. Closing 'expanded jazz's emotional palette' sentences are editorial."
+ },
+ {
+  "id": "music-matador",
+  "verdict": "factual_error",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Green's Greenery"],
+  "fieldIssues": [
+   {"field": "title", "ours": "Music Matador", "evidence": "Matador",
+    "evidenceQuote": "Matador is an album by American jazz guitarist Grant Green.",
+    "source": "wiki"},
+   {"field": "year", "ours": "1965", "evidence": "recorded 1964, first released 1979",
+    "evidenceQuote": "It contains performances recorded in 1964 but not released on the Japanese Blue Note label until 1979.",
+    "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "The prose, artist field, and 3 of 4 keyTracks all identify this item as Grant Green's 'Matador' (recorded 1964, first released 1979 in Japan), matching the stored wiki page - so the entity behind the content is consistent, but two fields are wrong: title 'Music Matador' matches no evidence, and year 1965 contradicts both the wiki and the item's own prose (recorded 1964 / released 1979). MB search found nothing (likely searched the corrupted title), so no MB doc to match. keyTracks checked against the wiki tracklist (Matador, My Favorite Things, Green Jeans, Bedouin, Wives and Lovers): 'Green's Greenery' is unmatched; closest real title is 'Green Jeans'. Editorial tail calls it 'Latin-jazz fusion' while the wiki's AllMusic quote calls it 'a cool-toned, straight-ahead modal workout' - characterization conflict worth an editorial rewrite, not counted as a factual error. Background hypothesis (NOT citable evidence): 'Music Matador' is a known Eric Dolphy/Prince Lasha title, a plausible source of the title contamination."
+ },
+ {
+  "id": "pastel-blues",
+  "verdict": "clean",
+  "confidence": 0.96,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed (Nina Simone, Philips PHS 600-187, 1965). Release date October 1, 1965 by Philips verified against wiki ('released on October 1, 1965, by Philips Records'; ours has a minor 'in/on' grammar slip). All 4 keyTracks in MB tracklist. 'Sinnerman became a anthem...' is editorial (and contains a typo 'a anthem' - cosmetic only)."
+ },
+ {
+  "id": "point-of-departure",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed (Andrew Hill, Blue Note BST 84167, MB date 1965-04). Prose mirrors wiki: recorded 1964 / released 1965, sextet with Dolphy, Henderson, Dorham, Davis, Williams - all verified. All 4 keyTracks in MB tracklist. Trailing sentences are editorial."
+ },
+ {
+  "id": "ray-brown-milt-jackson",
+  "verdict": "entity_mismatch",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Goodbye is an album by vibraphonist Milt Jackson recorded in 1973 and released on the CTI label.",
+    "problem": "This sentence describes a different album entirely (Goodbye, Milt Jackson, CTI, 1973). Our item is the 1965 Verve LP 'Ray Brown / Milt Jackson' (embedded MBID, authoritative: title 'Ray Brown / Milt Jackson', date 1965, label Verve V6-8615).",
+    "evidenceQuote": "title: \"Ray Brown / Milt Jackson\"; date: \"1965\"; labels: Verve, V6-8615",
+    "source": "mb"}
+  ],
+  "notes": "Classic disambiguation-collision case. The structured fields (title, year 1965, label Verve) and all 5 keyTracks match the authoritative embedded-MBID release exactly, so the catalog entry itself is the real 1965 Verve album. But the albumDNA's factual skeleton is imported from 'Goodbye' (Milt Jackson, CTI, 1973), and the stored wikipediaUrl points to that wrong album's page (Goodbye (Milt Jackson album) - confirmed by the wiki evidence to be about the 1973 CTI record). Repair: rewrite albumDNA for the actual Ray Brown / Milt Jackson LP and replace or drop the wikipediaUrl. Minor: artist field credits only 'Milt Jackson' while MB credits 'Ray Brown, Milt Jackson' jointly (site convention for co-led dates, cf. the Ella/Duke duplicate entries). The second prose sentence's 'big band sensibility... hard bop era' is generic template text, unverifiable."
+ },
+ {
+  "id": "solo-monk-monk",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MBID (authoritative) confirms Thelonious Monk, Columbia CS9149, 1965. Prose mirrors wiki verbatim ('fifth studio album... recorded for Columbia Records, and his eighth overall for that label', AllMusic Jurek quote, Japan SACD). All 5 keyTracks in MB tracklist. Editorial caution for repair-writer: the appended template sentence 'A hard bop entry from 1965... documenting the breadth of the hard bop period' mischaracterizes a solo-piano standards record (evidence: 'The album is composed of solo piano work by Monk'); genre labels are editorial so not flagged as factual error, but this boilerplate (same template as the ray-brown-milt-jackson tail) deserves a rewrite."
+ },
+ {
+  "id": "some-other-stuff",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed (Grachan Moncur III, Blue Note BST 84177, MB date 1965-02). Prose mirrors wiki: second album, recorded July 6 1964, released early the following year, quintet with Shorter/Hancock/McBee/Williams - all verified. All 4 keyTracks in MB tracklist. Trailing sentences are editorial."
+ },
+ {
+  "id": "song-for-my-father",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "unsure", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Right entity: stored wiki page confirms the 1965 Horace Silver Quintet album on Blue Note; prose first half mirrors wiki verbatim (Brazil trip, cover photo of John Tavares Silver, Cape Verde liner-note quote - all verified). All 4 keyTracks verified against the wiki tracklist (MB returned no resolved release, only a score-100 candidate credited to 'The Horace Silver Quintet', RG date 1964-12 - weak evidence; its 1964-12 vs wiki's '1965 album' left as an open source conflict). UNVERIFIABLE because of the substantive claim that Steely Dan borrowed the title track's bass intro for 'Rikki Don't Lose That Number' and that Donald Fagen disputed this as 'a generic Brazilian bass line' - none of this is in the pack evidence. Widely repeated lore, but it needs a citable source before it can stand."
+ },
+ {
+  "id": "soul-sauce",
+  "verdict": "unverifiable",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Maramoor"],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 1.0) confirms Cal Tjader, Soul Sauce, Verve, 1965 - fields all check. Wikipedia evidence is an opensearch miss (page about 'Mexican Institute of Sound', a different entity) - discarded; no wiki URL is stored so no link issue. keyTracks: 'Soul Sauce (Guachi Guaro)', 'Tanya', 'Somewhere in the Night' match MB; 'Maramoor' fails the mechanical substring match against MB's 'Maramor Mambo' but is almost certainly the same tune (one-letter spelling variant plus truncation), so this is listed as unmatched per the rules without treating it as a track-not-on-album error; repair-writer should normalize the spelling against a primary source. UNVERIFIABLE because the substantive claim that the title track is 'Dizzy Gillespie-penned' has no composer-credit evidence in the pack; 'biggest commercial success', 'most popular Latin jazz artist of the 1960s', and 'established the boogaloo groove' are editorial."
+ },
+ {
+  "id": "spiritual-unity",
+  "verdict": "clean",
+  "confidence": 0.93,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed (MB: Albert Ayler Trio, ESP-Disk' 1002, 1965; ours credits 'Albert Ayler' - the wiki body itself says 'studio album by American free jazz saxophonist Albert Ayler', so the credit variant is fine). Prose mirrors wiki: recorded July 10 1964 NYC, Peacock/Murray, first album recorded for Bernard Stollman's ESP-Disk, 'shockingly different', AllMusic 5-star 'landmark recording' quote - all verified. All 4 keyTracks in MB tracklist. Cosmetic: the final AllMusic quotation is left unclosed and the editorial tail ('Influenced countless free jazz musicians and inspired John Coltrane's late period explorations', an interpretive influence claim) is fused into it - punctuation repair recommended."
+ },
+ {
+  "id": "the-heliocentric-worlds-of-sun-ra-volume-1",
+  "verdict": "clean",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is the wiki page's opening verbatim ('1965 album... Sun Ra and his Solar Arkestra' back-cover quote) - verified. Year 1965 confirmed by wiki and MB release-group firstReleaseDate. All 5 keyTracks present in both the MB tracklist and the wiki tracklist. Data-hygiene flag: the embedded MBID resolves to 'Cosmic Equation', a 1990 German BOOTLEG CD (Magic Music label) inside the correct release group - it is our album's content, but the site should repoint the MBID to an original/official ESP release. Label field 'ESP-Disk'' is not directly stated by the matched release (which is the bootleg); the wiki supports it indirectly (catalog 'ESP 1014-2', 'Adapted from the ESP Sleeve notes'). No contradiction."
+ },
+ {
+  "id": "a-sign-of-the-times",
+  "verdict": "unverifiable",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "1966", "evidence": "1965 (wikipedia) vs 1966 (MB release group) - sources conflict",
+    "evidenceQuote": "A Sign of the Times is an album by American jazz guitarist Joe Pass that was released in 1965 by World Pacific Records.",
+    "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Right entity (Joe Pass, World Pacific; embedded MBID resolves to a 2010 Japanese CD reissue inside the correct release group). The release YEAR cannot be settled from the pack: the wiki page says 1965 twice (body + shortDescription) while the MB release group says firstReleaseDate 1966; our year field (1966) matches MB, our prose ('released in 1965') matches wiki - the item contradicts itself, and whichever year is right, either the field or the prose needs fixing. No in-pack recording date exists to explain either value, so this is logged as a conflict, not a factual_error. Observation for the human reviewer (NOT citable from this pack): the covered repertoire ('A Sign of the Times' was 'a hit for Petula Clark' per wiki; 'Nowhere Man') is mid-60s pop whose release timing could settle the anachronism question - recommend checking primary sources; suspicion leans 1966. All 5 keyTracks match the MB tracklist; remaining prose claims (orchestrated pop hits, Petula Clark hit, 2002 Euphoria CD reissue with Simplicity) verified against wiki."
+ },
+ {
+  "id": "ascension",
+  "verdict": "clean",
+  "confidence": 0.93,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed (John Coltrane, impulse! AS 95). Prose mirrors wiki verbatim: released through Impulse! February 1966, watershed framing, AllMusic quote, recorded Van Gelder Studio June 1965 - all verified. Both keyTracks in MB tracklist. Year: ours 1966 supported by wiki's explicit 'released through Impulse! Records in February 1966'; MB release/RG says 1965, which equals the recording year stated by the wiki (recorded June 1965) - the recurring MB recording-year-as-release-date pattern; not flagged. Closing 'pushed free jazz to its limits' sentences are editorial."
+ },
+ {
+  "id": "complete-communion",
+  "verdict": "clean",
+  "confidence": 0.96,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed (Don Cherry, Blue Note BST 84226, 1966). Prose claims verified against wiki: 1966 album, debut as bandleader, first release on Blue Note. Both suite-form keyTracks match the MB tracklist exactly. 'Pointed toward the world music direction... influenced the AACM and European free jazz scenes' is editorial/interpretive, not flagged."
+ },
+ {
+  "id": "ella-at-dukes-place",
+  "verdict": "clean",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MBID (authoritative) confirms the Fitzgerald/Ellington Verve album, V-4070, release date 1966; all 5 keyTracks in its tracklist. Prose mirrors the stored wiki page (second studio Fitzgerald-Ellington album after the 1957 songbook; Cote D'Azur live double recorded 1966; 1967 Grammy nomination for Best Female Pop Vocal Performance - all verified). Year wrinkle: our year FIELD (1966) matches the authoritative MB date, while our prose (verbatim wiki) calls it 'a 1965 studio album' - the wiki labels it by recording year (recorded October 18-20, 1965 per its own text; it also calls V6-4070 'the 1965 Verve LP'). Both values trace to entity-matched evidence; recommend harmonizing prose to 'recorded 1965, released 1966'. Trivial: wiki says second '(and last)' studio album; ours drops the parenthetical."
+ },
+ {
+  "id": "ella-at-dukes-place-ellington",
+  "verdict": "clean",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB-only evidence (no wikipedia page found; none stored). Embedded MBID resolves to the 1996 CD reissue inside the correct release group (RG firstReleaseDate 1966, artists Ella Fitzgerald & Duke Ellington, Verve) - confirms ours: 1966 Verve release, and both named tracks plus all 5 keyTracks are in the tracklist. 'Duke Ellington's piano artistry is on full display' and 'steeped in jazz' are editorial framing (MB carries no instrument credits); no contradictions. This item duplicates 'ella-at-dukes-place' under the co-credited artist (site convention); artist field is half of MB's joint credit."
+ },
+ {
+  "id": "globe-unity",
+  "verdict": "factual_error",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "1966", "evidence": "1967",
+    "evidenceQuote": "release date: \"1967\"; releaseGroup.firstReleaseDate: \"1967\"",
+    "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 1.0; title, SABA label and Schlippenbach/Globe Unity Orchestra credit all align) is the only evidence doc - no wikipedia page found, none stored. It dates the release 1967 in both the release date and the release-group firstReleaseDate, contradicting our year 1966 (plausibly the recording year, but the pack contains no recording date to confirm that). Both keyTracks match the MB tracklist exactly. Unverifiable side claims, noted not flagged: 'assembled fourteen musicians' (no personnel in evidence) and 'German pianist' (nationality/instrument not in evidence); 'founded the European free jazz big band tradition' etc. is editorial."
+ },
+ {
+  "id": "happenings",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "1966", "evidence": "1967",
+    "evidenceQuote": "Happenings is an album by the jazz vibraphonist Bobby Hutcherson, released in 1967 on the Blue Note label.",
+    "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Right entity; the year field is wrong. BOTH evidence docs agree on 1967: the stored wiki page ('released in 1967', shortDescription '1967 studio album') and MB (release date 1967, RG firstReleaseDate 1967, Blue Note BST-84231). Ours says 1966 (likely the recording year, but no recording date appears in the pack to confirm). Personnel claims (Hancock piano, Cranshaw bass, Chambers drums) verified against wiki. All 5 keyTracks in MB tracklist. 'Masterpiece', 'most important vibraphonist since Milt Jackson', 'touchstone for modern post-bop' are editorial. Fix: year 1966 -> 1967."
+ },
+ {
+  "id": "here-and-there",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MBID (authoritative) confirms Eric Dolphy, Prestige PR 7382, 1966; all 4 keyTracks in its tracklist. Prose claims verified verbatim against the stored wiki page: released 1966 as PRLP 7382, three separate recording dates, Waldron's 'Status Seeking' and the solo bass-clarinet 'God Bless the Child' recorded July 16 1961 at the Five Spot tied to the At the Five Spot recordings. Data-quality flag (not a factual error): the albumDNA is TRUNCATED mid-sentence - it ends with '\"April Fool\" and \"G.W.' - the copied wiki sentence was cut off; repair-writer should complete or trim it. Minor: wiki shortDescription calls it a live album (it mixes live and studio material per the text); ours calls it 'a jazz album', no conflict."
+ }
+]

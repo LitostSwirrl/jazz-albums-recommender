@@ -1,0 +1,312 @@
+[
+  {
+    "id": "in-this-world",
+    "verdict": "clean",
+    "confidence": 0.97,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title/artist/year(1998)/label(Warner Bros.). Wiki stored_url is the correct album page (1998 studio album by Mark Turner). Named collaborators Brad Mehldau and Kurt Rosenwinkel both appear in Wiki personnel. All 5 keyTracks on the MB tracklist."
+  },
+  {
+    "id": "nature-the-essence-part-iii",
+    "verdict": "clean",
+    "confidence": 0.96,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms artist/year(1998) and both labels Atlantic + Birdology. Wiki correct page confirms 'recorded in France in 1997 and released on the Birdology label', matching the prose. All 5 keyTracks on MB tracklist."
+  },
+  {
+    "id": "now",
+    "verdict": "clean",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title 'Now', artist, year(1998). Label: ours 'Concord Jazz' vs MB 'Concord Records'; Wiki discography lists 'Now (Concord, 1998)'. Concord Jazz is Concord's jazz imprint name -- same label entity, a naming variant only, not a substantive error. All 5 keyTracks match MB tracklist. Wiki stored_url is the Patitucci artist bio page (right entity), discography corroborates the album."
+  },
+  {
+    "id": "one-poem-one-painting",
+    "verdict": "clean",
+    "confidence": 0.93,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title/year(1998)/label(Imogena Records); MB credits Lars Jansson + Bohuslan Big Band, ours names only Jansson (omitting co-credit is legitimate editorial style). All 5 keyTracks match MB tracklist. No wikipedia evidence (opensearch returned nothing); prose makes no uncheckable factual claims beyond the verified fields and tracks."
+  },
+  {
+    "id": "two-blocks-from-the-edge",
+    "verdict": "clean",
+    "confidence": 0.96,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title/artist/year(1998)/label(impulse!). All 5 keyTracks match MB tracklist. The biographical sentence ('15 Grammy Awards... DownBeat Hall of Fame in 2007... honorary doctorate from Berklee in 2004') is verbatim from the entity-matched Michael Brecker Wikipedia page and is consistent with it."
+  },
+  {
+    "id": "vital-tech-tones",
+    "verdict": "clean",
+    "confidence": 0.97,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title/year(1998)/label(Tone Center) and the trio Scott Henderson/Steve Smith/Victor Wooten. The entire albumDNA is verbatim from the entity-matched 'Vital Tech Tones' Wikipedia page. All 5 keyTracks match MB tracklist."
+  },
+  {
+    "id": "zimology",
+    "verdict": "unverifiable",
+    "confidence": 0.8,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB search match (topArtistSimilarity 1.0) confirms the entity: artist Zim Ngqawana and all 6 keyTracks match the MB tracklist. But MB carries no date or label, and the prose's substantive claims -- that this is his 'groundbreaking debut', that it blends Xhosa vocal traditions/free jazz/township rhythms, the post-apartheid framing -- cannot be checked against any pack evidence. Wikipedia opensearch resolved to 'Arnel Pineda' (a Filipino singer), a wrong entity, discarded for fact-checking; no URL is stored so no wiki link is shipped. No contradictions found; claims are simply unverifiable."
+  },
+  {
+    "id": "black-action-figure",
+    "verdict": "factual_error",
+    "confidence": 0.92,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [
+      {"ourClaim": "vibraphonist Stefon Harris's 1999 debut for Blue Note Records", "problem": "Black Action Figure is Harris's SECOND Blue Note album, not his debut; his debut was 'A Cloud of Red Dust' (1998)", "evidenceQuote": "He signed with Blue Note, which released his debut album, A Cloud of Red Dust (1998). His second album, Black Action Figure, was nominated for a Grammy Award.", "source": "wiki"}
+    ],
+    "notes": "Right entity (MB embedded_mbid confirms title/artist/year(1999)/label(Blue Note); all 5 keyTracks match). The Stefon Harris Wikipedia page (entity-matched, stored_url) directly contradicts the 'debut' claim: Black Action Figure was his second album. The 'A Cloud of Red Dust (1998)' debut and 'Black Action Figure (Blue Note, 1999)' second album are both in the Wiki discography."
+  },
+  {
+    "id": "bunk-bechet-in-boston",
+    "verdict": "factual_error",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "mismatch",
+    "keyTracksUnmatched": ["St. Louis Blues", "Ain't Misbehavin'", "I Never Knew", "Never No Lament", "Darktown Strutters' Ball", "Basin Street Blues"],
+    "fieldIssues": [],
+    "wrongClaims": [
+      {"ourClaim": "keyTracks: St. Louis Blues, Ain't Misbehavin', I Never Knew, Never No Lament, Darktown Strutters' Ball, Basin Street Blues", "problem": "None of the six listed keyTracks appear on the MB tracklist for this release; the actual tracklist is Theme - Royal Garden Blues / I'm Confessin' / Careless Love / Summertime / I Know That You Know / Sweet Georgia Brown / etc.", "evidenceQuote": "Theme – Royal Garden Blues; I’m Confessin’; Careless Love; Summertime (Incomplete); I Know That You Know; Sweet Georgia Brown; Sleepy Time Down South; Sobbin’ Blues; Pistol Packin’ Mama; Dear Old Southland; Boogie Woogie; Muscat Ramble – Theme; Oh Didn’t He Ramble – Theme", "source": "mb"}
+    ],
+    "notes": "Album entity matches (MB embedded_mbid: release-group title 'Bunk & Bechet in Boston', year 2000, label Jazz Crusade Records; Bechet on clarinet/soprano). The albumDNA prose itself correctly names tracks that ARE on MB ('Theme - Royal Garden Blues', 'I'm Confessin''). But the keyTracks array is a completely different set of tunes, none on the MB tracklist -- this is the factual error. No wikipedia evidence available."
+  },
+  {
+    "id": "eu-e-eles",
+    "verdict": "clean",
+    "confidence": 0.95,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title/artist/year(1999)/label(Radio MEC). All 5 keyTracks match MB tracklist. The biographical sentence ('best known in Brazilian music for his orchestration and improvisation, as well as for being a record producer...') is verbatim from the entity-matched Hermeto Pascoal Wikipedia page."
+  },
+  {
+    "id": "investigations",
+    "verdict": "no_evidence",
+    "confidence": 0.95,
+    "entityMatch": {"musicbrainz": "no", "wikipedia": "no"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "no_evidence",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "No evidence survived: MB search returned no release and empty searchCandidates; Wikipedia opensearch returned nothing; no URL stored. Nothing can be verified about the claimed Brad Mehldau album 'Investigations' (1999, Warner Bros.) from the pack."
+  },
+  {
+    "id": "jazz-in-film",
+    "verdict": "entity_mismatch",
+    "confidence": 0.93,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+    "wikiLinkVerdict": "wrong_entity",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [
+      {"ourClaim": "Terence Blanchard is an album by American jazz trumpeter Terence Blanchard. This is his debut full-length album as a leader. The record was released on June 18, 1991, via Columbia Records.", "problem": "The entire albumDNA describes a DIFFERENT album -- Blanchard's 1991 self-titled debut on Columbia -- not 'Jazz in Film' (1999, Sony Classical), which is the item under verification", "evidenceQuote": "Terence Blanchard is an album by American jazz trumpeter Terence Blanchard. This is his debut full-length album as a leader. The record was released on June 18, 1991, via Columbia Records.", "source": "wiki"}
+    ],
+    "notes": "The MB embedded_mbid release confirms the ITEM is 'Jazz in Film' (Terence Blanchard, 1999, Sony Classical) and all 5 keyTracks match that MB tracklist. But the albumDNA prose is wholly about Blanchard's 1991 self-titled debut (Columbia) -- verbatim from the wrong stored_url Wikipedia page 'Terence Blanchard (album)'. The prose's factual skeleton (1991, Columbia, debut) belongs to a different release. The stored wiki link points to that wrong album page = wrong_entity. Repair note: keyTracks and structured fields are correct for Jazz in Film; only the prose and wiki link are wrong."
+  },
+  {
+    "id": "jazz-has-a-sense-of-humor",
+    "verdict": "clean",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title/artist/label(Verve); MB date 1999-08-10 and ours field year is 1999. The prose says 'released on the Verve label in 1998', which is verbatim from the entity-matched Wikipedia page ('released on the Verve label in 1998'). So the year is internally inconsistent (MB/field 1999 vs Wiki/prose 1998) but BOTH values are sourced from entity-matched evidence, so no contradiction to flag. Personnel (Kisor, Greene, Webber, Jones III) all confirmed by Wiki. All 5 keyTracks match. Repair note: reconcile the 1998 vs 1999 release-year discrepancy between Wikipedia and MusicBrainz."
+  },
+  {
+    "id": "rhodes-ahead-vol-1",
+    "verdict": "clean",
+    "confidence": 0.93,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB search match (topArtistSimilarity 1.0) confirms title/artist/year(1999)/label(Jazzateria); all 5 keyTracks match MB tracklist. Wiki stored_url is the Marc Cary artist page (right entity, confirms he is a jazz pianist/keyboardist). Remaining prose is editorial. No contradictions."
+  },
+  {
+    "id": "sweet-release-ghost-story",
+    "verdict": "factual_error",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+    "wikiLinkVerdict": "wrong_entity",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [
+      {"ourClaim": "He played trumpet for the orchestras of Maynard Ferguson, Woody Herman, Wynton Marsalis, Ray Charles, and Harry Connick Jr.", "problem": "This sentence is a biography of trumpeter Roger Ingram, not Wynton Marsalis -- it even lists 'Wynton Marsalis' as one of the orchestras 'he' played for, so the subject cannot be Marsalis. Grafted from the wrong stored_url page.", "evidenceQuote": "Roger O'Neal Ingram (born November 13, 1957) is a jazz trumpeter, educator, author, and instrument designer. He played trumpet for the orchestras of Maynard Ferguson, Woody Herman, Wynton Marsalis, Ray Charles, and Harry Connick Jr.", "source": "wiki"}
+    ],
+    "notes": "Right album entity: MB embedded_mbid confirms 'Sweet Release & Ghost Story' (Wynton Marsalis, 1999, no label -- ours 'Unknown' is consistent); all 5 keyTracks match. The album-identity portion of the prose is correct. The final sentence is a foreign biography lifted from the stored_url 'Roger Ingram' Wikipedia page (a different person), making it a false claim about Marsalis. wiki link = wrong_entity (Roger Ingram). Repair note: delete the Roger Ingram sentence; fix the wiki link."
+  },
+  {
+    "id": "after-hours-monroes-harlem-mintons",
+    "verdict": "clean",
+    "confidence": 0.85,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms release-group title 'After Hours: Monroe's Harlem Mintons', year 2000, label Original Jazz Classics, secondaryTypes ['Live'], with Charlie Christian credited. All 5 keyTracks match MB tracklist. Prose correctly identifies Christian as guitarist. These are historically 1941 Minton's/Monroe's live recordings reissued by OJC in 2000; ours says 'Recorded for Original Jazz Classics in 2000' which is loose (the music predates 2000), but MB itself lists date 2000 and there is no pack evidence contradicting it, so per the archival-release rule this is not flagged. No wikipedia evidence available."
+  },
+  {
+    "id": "april-in-paris",
+    "verdict": "unverifiable",
+    "confidence": 0.78,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "unsure"},
+    "wikiLinkVerdict": "unsure",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms the ITEM is the Duoline 2000 release of 'April in Paris' (Count Basie), a 36-track budget compilation; all 5 keyTracks (Jumpin' at the Woodside, Blue and Sentimental, Sent for You Yesterday, Blues in Hoss's Flat, Who Me?) are on that MB tracklist. The stored_url Wikipedia 'April in Paris (album)' describes the ORIGINAL 1957 Verve LP (10 tracks; tracklist is April in Paris/Corner Pocket/Didn't You?/Sweetie Cakes/Magic/Shiny Stockings/etc., which does NOT contain ours' keyTracks). The albumDNA grafts the Verve album's description onto the Duoline comp: 'his first released on the Verve label, recorded in 1955 and 1956' is verbatim Wiki about the 1957 Verve release, not this 2000 Duoline compilation. That claim is clearly inapplicable to a 2000 Duoline reissue, but no pack evidence contradicts it for THIS release (the Wiki passage actually asserts it for the same-titled Verve album), so per 'absence is not contradiction / never fill gaps from own knowledge' I mark it unverifiable rather than factual_error. wiki link is to a real same-titled album page but a different release than the Duoline comp = unsure. Repair note: the prose conflates two distinct releases (1957 Verve original vs 2000 Duoline compilation)."
+  },
+  {
+    "id": "for-love-or-country",
+    "verdict": "clean",
+    "confidence": 0.95,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title/artist/year(2000)/label(Atlantic); all 5 keyTracks match MB tracklist. The albumDNA is verbatim from the entity-matched Arturo Sandoval Wikipedia page (Cuban-American trumpeter, mentored by Gillespie, defected 1977, naturalized 1998, film 'For Love or Country' 2000 with Andy Garcia). Trivial wording variant: ours 'United Nation Orchestra' vs Wiki 'United Nations Orchestra' -- not a factual error."
+  },
+  {
+    "id": "from-the-round-box",
+    "verdict": "unverifiable",
+    "confidence": 0.72,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "Album identity is solid and clean: MB embedded_mbid confirms title/artist/year(2000)/label(RCA Victor); the first sentence is verbatim from the entity-matched 'From the Round Box' Wikipedia page; all 5 keyTracks match MB tracklist; Ralph Alessi (named in the prose) is confirmed by the Wiki page as a collaborator. The appended biographical sentence -- 'Co-owner of the record label RKM Music, he has produced music for pianist Luis Perdomo, guitarist David Gilmore, and trumpeter Ralph Alessi' -- is NOT in the provided evidence and makes specific factual claims (label co-ownership, named production credits) that cannot be checked; not contradicted, but unverifiable. Repair note: the core album content is correct; verify or trim the grafted RKM Music / production-credits sentence."
+  },
+  {
+    "id": "joey-calderazzo",
+    "verdict": "entity_mismatch",
+    "confidence": 0.92,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+    "wikiLinkVerdict": "wrong_entity",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [
+      {"ourClaim": "Amanecer is an album by Joey Calderazzo. It was recorded in 2006 and released by Marsalis Music.", "problem": "The albumDNA describes a DIFFERENT album -- 'Amanecer' (2006/2007, Marsalis Music) -- not the self-titled 'Joey Calderazzo' (2000, Columbia) under verification", "evidenceQuote": "Amanecer is an album by Joey Calderazzo. It was recorded in 2006 and released by Marsalis Music.", "source": "wiki"}
+    ],
+    "notes": "MB search match (topArtistSimilarity 1.0) confirms the ITEM is the self-titled 'Joey Calderazzo' (2000, Columbia, CK 69886); all 5 keyTracks match that MB tracklist. But the albumDNA prose is wholly about a different album, 'Amanecer' (2007, Marsalis Music) -- verbatim from the wrong stored_url page 'Amanecer (Joey Calderazzo album)'. The prose's factual skeleton (Amanecer, 2006, Marsalis Music) belongs to a different release. wiki link = wrong_entity. The closing bio sentence (played with Michael Brecker and Branford Marsalis) is true of Calderazzo but not in the Amanecer extract. Repair note: keyTracks/fields are correct for the 2000 self-titled album; prose and wiki link are wrong."
+  },
+  {
+    "id": "leon-thomas-in-berlin",
+    "verdict": "unverifiable",
+    "confidence": 0.72,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "mismatch",
+    "keyTracksUnmatched": ["Pharoah's Tune (The Journey)", "Echoes"],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB search match (topArtistSimilarity 1.0) confirms title 'Leon Thomas in Berlin' and artist Leon Thomas; release-group first release 2000 (ours year 2000). The MB release shown is the abbreviated 2002 BMG France reissue (6 entries incl. a 'Medley'); 3 keyTracks match (Straight No Chaser, Umbo Weti, The Creator Has a Master Plan - Peace) but 'Pharoah's Tune (The Journey)' and 'Echoes' are not separately listed -- plausibly folded into 'Medley' on this edition, so I do not escalate to factual_error (absence is not contradiction). The prose's substantive claims -- live album, with Oliver Nelson, recorded 1970 in Berlin, original label Flying Dutchman -- cannot be verified against the MB reissue evidence (which lists BMG France); none are contradicted. No wikipedia evidence (opensearch returned nothing). Repair note: confirm tracklist against the original Flying Dutchman pressing rather than the 2002 reissue."
+  },
+  {
+    "id": "nine-compositions-hill-2000",
+    "verdict": "clean",
+    "confidence": 0.92,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title 'Nine Compositions (Hill) 2000', year 2000, with Anthony Braxton credited (alongside Eulau, Norton, O'Neil, Smoker, Lehman); ours label 'Unknown' is consistent with MB's empty labels. All 5 keyTracks match MB tracklist. Prose correctly identifies Braxton as a saxophonist and makes no uncheckable claims. No wikipedia evidence available."
+  },
+  {
+    "id": "oscar-peterson-jon-faddis",
+    "verdict": "clean",
+    "confidence": 0.95,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title 'Oscar Peterson & Jon Faddis', credited Oscar Peterson + Jon Faddis, year 2000, label Pablo; all 5 keyTracks match MB tracklist. Wiki stored_url is the Jon Faddis artist page (right entity for the credited artist). The bio sentence ('known for his ability to closely mirror the sound of trumpet icon Dizzy Gillespie, who was his mentor along with pianist Stan Kenton and trumpeter Bill Catalano') is verbatim from that Faddis page. Consistent throughout."
+  },
+  {
+    "id": "oscar-peterson-jon-faddis-peterson",
+    "verdict": "clean",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "Same release as the Faddis-credited item: MB (search, topArtistSimilarity 1.0) confirms title/credits(Oscar Peterson + Jon Faddis)/label(Pablo); all 5 keyTracks match. The stored_url Wikipedia 'Oscar Peterson and Jon Faddis' is the correct album page; the prose is verbatim from it, including '1975 studio album' (the original recording date, June 5 1975). MB date and ours field year are 2000 (the OJC/Pablo reissue). The 1975 (recording) vs 2000 (reissue) figures are each sourced from entity-matched evidence -- no contradiction to flag. Repair note: prose year (1975) reflects original session; field/MB year (2000) reflects reissue."
+  },
+  {
+    "id": "renascence",
+    "verdict": "clean",
+    "confidence": 0.86,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title 'Renascence', artist Art Pepper, year 2000, label Galaxy; all 4 keyTracks match MB tracklist. Wikipedia opensearch resolved to 'Renascent (album)' by the Durutti Column (a 2026 post-punk album), a wrong entity, discarded; no URL stored so nothing wrong is shipped. The prose's 'recorded for Galaxy in 2000' is loose (this is a posthumous Art Pepper release; he died 1982, so the music was recorded earlier and released 2000), but MB lists date 2000 and no pack evidence contradicts it, so per the archival-release rule it is not flagged. Repair note: 'recorded... in 2000' should likely read 'released... in 2000'."
+  }
+]

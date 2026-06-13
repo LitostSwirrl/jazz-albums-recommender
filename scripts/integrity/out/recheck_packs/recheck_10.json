@@ -1,0 +1,114 @@
+[
+  {
+    "id": "bumpin-wes-montgomery",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.9,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "PolyGram Records, Inc.",
+          "evidenceQuote": "PolyGram Records, Inc.",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 1997, Bumpin' showcases Wes Montgomery at the height of their creative powers",
+          "problem": "The album was recorded and originally released in 1965, not 1997. The MB date 1997 and the year field reflect a PolyGram reissue; the release-group first release date is 1965 and Wikipedia confirms 1965.",
+          "evidenceQuote": "Bumpin'   is an album by the American jazz guitarist Wes Montgomery, released in 1965. It reached number 116 on the Billboard Top LP's chart. It was Montgomery's first album to reach the charts.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Entity is correct (Wes Montgomery's Bumpin'). All 6 keyTracks match the MB tracklist. Core error: albumDNA says 'Recorded in 1997' but the work is a 1965 album (MB release-group firstReleaseDate 1965; Wikipedia 'released in 1965'); year field 1997 = reissue date. Label 'Various' is vague vs MB 'PolyGram Records, Inc.'. Genre framing (Cool Jazz) is editorial, not flagged."
+    },
+    "ours": {
+      "title": "Bumpin'",
+      "artist": "Wes Montgomery",
+      "year": 1997,
+      "label": "Various",
+      "albumDNA": "Recorded in 1997, Bumpin' showcases Wes Montgomery at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Bumpin' remains a landmark of Cool Jazz, cementing Wes Montgomery's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Bumpin’",
+        "Tear It Down",
+        "A Quiet Thing",
+        "Con Alma",
+        "The Shadow of Your Smile",
+        "Mi Cosa"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "e349d209-f2f3-4ffb-b8ba-8286da54262f",
+          "title": "Bumpin’",
+          "date": "1997",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Wes Montgomery"
+          ],
+          "labels": [
+            {
+              "name": "PolyGram Records, Inc.",
+              "catalogNumber": "539 062-2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "8d1210dc-185f-3033-8ac8-cae8e6587842",
+            "title": "Bumpin’",
+            "firstReleaseDate": "1965",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Bumpin’",
+            "Tear It Down",
+            "A Quiet Thing",
+            "Con Alma",
+            "The Shadow of Your Smile",
+            "Mi Cosa",
+            "Here’s That Rainy Day",
+            "Musty",
+            "Just Walkin’",
+            "My One and Only Love",
+            "Just Walkin’"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Bumpin' (Wes Montgomery album)",
+          "resolvedTitle": "Bumpin' (Wes Montgomery album)",
+          "shortDescription": "1965 studio album by Wes Montgomery",
+          "extract": "Bumpin'   is an album by the American jazz guitarist Wes Montgomery, released in 1965. It reached number 116 on the Billboard Top LP's chart. It was Montgomery's first album to reach the charts.\n\n\n== Reception ==\n\nIn his AllMusic review, Shawn M. Haney praised the album: \"Not only is his brilliant command of the six-string present here, so is the vivid color tones of notes and blue notes played between. Backed up by a hauntingly beautiful and mesmerizing orchestra conducted and arranged by Don Sebesky, the music almost lifts the listener off his feet into a dreamy, water-like landscape. The atmosphere is serene and enchanting, such as a romantic evening for two under starlight, and certainly a romantic eve merits the accompaniment of this record... The recording engineer did a wonderful job with this album. The sound quality is clear and lush, and, overall, this collection of mid-'60s Latin jazz is a delight to listen to, once and again.\"\n\n\n== Track listing ==\n\"Bumpin'\" (Wes Montgomery) – 6:40\n\"Tear It Down\" (Montgomery) – 3:10\n\"A Quiet Thing\" (Fred Ebb, John Kander) – 3:27\n\"Con Alma\" (Dizzy Gillespie) – 3:25\n\"The Shadow of Your Smile\" (Johnny Mandel, Paul Francis Webster) – 2:15\n\"Mi Cosa\" (Montgomery) – 3:15\n\"Here's That Rainy Day\" (Johnny Burke, Jimmy Van Heusen) – 4:50\n\"Musty\" (Don Sebesky) – 4:12\nBonus tracks on the CD release\n\n\"Just Walkin'\" – 3:00\n\"My One and Only Love\" (Robert Mellin, Guy Wood) – 4:09\n\"Just Walkin'\" [alternate take] – 3:37\n\n\n== Personnel ==\nWes Montgomery – guitar\nBob Cranshaw – bass\nGrady Tate – drums\nHarry Lookofsky – violin\nDavid Schwartz – viola\nCharles McCracken – cello\nMargaret Ross – harp\nRoger Kellaway – piano\nDon Sebesky – arranger, conductor\nCandido Camero – bongos, congas\nHarold Coletta – viola\nArnold Eidus – violin\nLewis Eley – violin\nPaul Gershman – violin\nLouis Haber – violin\nJulius Held – violin\nJoseph Malignaggi – violin\nHelcio Milito – drums\nGene Orloff – violin\nGeorge Ricci – violin, cello\nSol Shapiro – violin\n\n\n== Chart positions ==\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Bumpin' (Wes Montgomery album)",
+            "shortDescription": "1965 studio album by Wes Montgomery",
+            "extractHead": "Bumpin'   is an album by the American jazz guitarist Wes Montgomery, released in 1965. It reached number 116 on the Billboard Top LP's chart. It was Montgomery's first album to reach the charts.\n\n\n== Reception ==\n\nIn his AllMusic review, Shawn M. Haney praised the album: \"Not only is his brilliant command of the six-string present here, so is the vivid color tones of notes and blue notes played between. Backed up by a hauntingly beautiful and mesmerizing orchestra conducted and arranged by Don S"
+          },
+          {
+            "resolvedTitle": "Bump (album)",
+            "shortDescription": "2000 studio album by John Scofield Band",
+            "extractHead": "Bump is a studio album by jazz guitarist John Scofield that was released by Verve on March 14, 2000. The music is a fusion of Scofield's post-bop jazz compositions with funk, soul jazz and more modern touches of electronica.\n\n\n== Track listing ==\n\n\n== Personnel ==\nJohn Scofield – electric guitar, acoustic guitar (1–3, 6–8)\nMark Degli Antoni – keyboard sampler (2–4, 6, 8, 11)\nDavid Livolsi – electric bass (1, 7, 11)\nTony Scherr – electric bass (2, 8, 12), acoustic bass (5, 8–10, 12)\nChris Wood – "
+          }
+        ]
+      }
+    }
+  }
+]

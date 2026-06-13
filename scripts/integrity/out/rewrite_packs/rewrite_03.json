@@ -1,0 +1,1377 @@
+[
+  {
+    "id": "soul-junction-coltrane",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Lush Life is a studio album by the jazz musician John Coltrane. It was released in early 1961 by Prestige Records.",
+    "contradictingQuote": "Soul Junction is an album by the jazz pianist and composer Red Garland. It was released in 1960 through Prestige Records.",
+    "skepticDecision": "The albumDNA describes 'Lush Life' (a Coltrane album released early 1961, assembled from 1957–58 sessions), while the entity-matched evidence shows this item is Soul Junction, a 1960 Red Garland album on Prestige.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Lush Life is a studio album by the jazz musician John Coltrane. It was released in early 1961 by Prestige Records.",
+        "problem": "The albumDNA describes a different album entirely -- Coltrane's Lush Life -- while this item is Soul Junction",
+        "evidenceQuote": "Soul Junction is an album by the jazz pianist and composer Red Garland. It was released in 1960 through Prestige Records.",
+        "source": "wiki"
+      },
+      {
+        "ourClaim": "It was assembled from previously unissued tracks from three recording sessions at Van Gelder Studio in Hackensack, New Jersey in 1957 and 1958.",
+        "problem": "Soul Junction comes from a single session, November 15, 1957, per the entity-matched wiki page",
+        "evidenceQuote": "It features tracks recorded on November 15, 1957, the same day the pieces for All Mornin' Long were recorded, with the same lineup.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Title, year, label and all five keyTracks match the real Soul Junction (MB embedded MBID, Prestige P-7181, RG first release 1960), and the stored wiki link points to the correct Soul Junction article -- but the prose was pasted from Coltrane's Lush Life (early-1961 release assembled from 1957-58 sessions). Artist field 'John Coltrane' also misstates the leader (Red Garland; Coltrane is a credited sideman). Duplicate entry of the same album as pack item soul-junction, there filed under Donald Byrd. Prose needs replacement; artist filing and the duplicate need a human decision.",
+    "ours": {
+      "title": "Soul Junction",
+      "artist": "John Coltrane",
+      "year": 1960,
+      "label": "Prestige",
+      "albumDNA": "Lush Life is a studio album by the jazz musician John Coltrane. It was released in early 1961 by Prestige Records. It was assembled from previously unissued tracks from three recording sessions at Van Gelder Studio in Hackensack, New Jersey in 1957 and 1958. As Coltrane's profile increased during the 1960s, some years after the end of his Prestige contract, the label used unissued recordings to create new albums without Coltrane's input or approval.",
+      "keyTracks": [
+        "Soul Junction",
+        "Woody'n You",
+        "Birk's Works",
+        "I've Got It Bad",
+        "Hallelujah"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "0f3c8db2-f276-4c8a-ae95-28f9375038f4",
+          "title": "Soul Junction",
+          "date": "1990",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "The Red Garland Quintet",
+            "John Coltrane",
+            "Donald Byrd"
+          ],
+          "labels": [
+            {
+              "name": "Original Jazz Classics",
+              "catalogNumber": "OJCCD-481-2"
+            },
+            {
+              "name": "Original Jazz Classics",
+              "catalogNumber": "OJCCD-481-2 (P-7181)"
+            },
+            {
+              "name": "Prestige",
+              "catalogNumber": "P-7181"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "11954f38-fa97-4b38-a7bc-3f23767367ab",
+            "title": "Soul Junction",
+            "firstReleaseDate": "1960",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Soul Junction",
+            "Woody 'N You",
+            "Birks' Works",
+            "I've Got It Bad (And That Ain't Good)",
+            "Hallelujah"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Soul_Junction",
+        "page": {
+          "requestedTitle": "Soul Junction",
+          "resolvedTitle": "Soul Junction",
+          "shortDescription": "1960 studio album by The Red Garland Quintet",
+          "extract": "Soul Junction is an album by the jazz pianist and composer Red Garland. It was released in 1960 through Prestige Records. It features tracks recorded on November 15, 1957, the same day the pieces for All Mornin' Long were recorded, with the same lineup.\n\n\n== Track listing ==\n\"Soul Junction\" (Garland) – 15:30\n\"Woody 'n' You\" (Dizzy Gillespie) – 6:50\n\"Birks' Works\" (Dizzy Gillespie) – 7:35\n\"I've Got It Bad (And That Ain't Good)\" (Duke Ellington, Paul Francis Webster) – 6:15\n\"Hallelujah\" (Vincent Youmans) – 6:31\n\n\n== Personnel ==\nRed Garland – piano\nJohn Coltrane – tenor sax\nDonald Byrd – trumpet\nGeorge Joyner – bass\nArt Taylor – drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "soul-time",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Holiday Soul is an album of Christmas music by the American jazz pianist Bobby Timmons, recorded in 1964 and released on the Prestige label.",
+    "contradictingQuote": "Soul Time",
+    "skepticDecision": "The albumDNA describes 'Holiday Soul' (a 1964 Christmas album on Prestige), while the embedded release for this item is titled 'Soul Time' (Riverside, November 1960).",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Holiday Soul is an album of Christmas music by the American jazz pianist Bobby Timmons, recorded in 1964 and released on the Prestige label.",
+        "problem": "The albumDNA describes a different Timmons album (Holiday Soul, 1964 Christmas record on Prestige); this item is Soul Time, a 1960 Riverside album",
+        "evidenceQuote": "title: \"Soul Time\"; date: \"1960-11\"; labels: [{\"name\": \"Riverside\", \"catalogNumber\": \"RS 9334\"}]",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "MB embedded MBID confirms Soul Time (Bobby Timmons, Riverside RS 9334, November 1960) and all five keyTracks are on its tracklist, so the fields are right. But the prose and the stored Wikipedia link both belong to Holiday Soul (1964, Prestige) -- the disambiguation disease. The 'cool jazz movement' sentence is template filler inappropriate for either record, but editorial. Prose and wikipediaUrl both need replacement.",
+    "ours": {
+      "title": "Soul Time",
+      "artist": "Bobby Timmons",
+      "year": 1960,
+      "label": "Riverside",
+      "albumDNA": "Holiday Soul is an album of Christmas music by the American jazz pianist Bobby Timmons, recorded in 1964 and released on the Prestige label. Captures pianist Bobby Timmons during the cool jazz movement, favoring lighter timbres, relaxed tempos, and a chamber sensibility.",
+      "keyTracks": [
+        "Soul Time",
+        "So Tired",
+        "The Touch of Your Lips",
+        "S'posin'",
+        "Stella B."
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "c4012af7-efed-30a9-a605-8d18c6438806",
+          "title": "Soul Time",
+          "date": "1960-11",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Bobby Timmons"
+          ],
+          "labels": [
+            {
+              "name": "Riverside",
+              "catalogNumber": "RS 9334"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "15fc2ed8-27b7-3817-ae2b-2c22ae92b6b3",
+            "title": "Soul Time",
+            "firstReleaseDate": "1960-11",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Soul Time",
+            "So Tired",
+            "The Touch of Your Lips",
+            "S'posin'",
+            "Stella B.",
+            "You Don't Know What Love Is",
+            "One Mo'"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Holiday_Soul_(Bobby_Timmons_album)",
+        "page": {
+          "requestedTitle": "Holiday Soul (Bobby Timmons album)",
+          "resolvedTitle": "Holiday Soul (Bobby Timmons album)",
+          "shortDescription": "1964 studio album by Bobby Timmons",
+          "extract": "Holiday Soul is an album of Christmas music by the American jazz pianist Bobby Timmons, recorded in 1964 and released on the Prestige label.\n\n\n== Reception ==\n\nThe AllMusic review awarded the album 3 stars. DownBeat commented that Timmons played the Christmas material \"without seeming the least bit self-conscious about his soul-jazz and blues tendencies\". The All About Jazz reviewer also commented that the pianist retained his normal playing style despite the material. Critic Marc Myers selected it for his Vintage Holiday Album Hall of Fame in 2015.\n\n\n== Track listing ==\n\"Deck the Halls\" (Traditional) – 3:10\n\"White Christmas\" (Irving Berlin) – 7:00\n\"The Christmas Song\" (Mel Tormé, Robert Wells) – 5:15\n\"Auld Lang Syne\" (Robert Burns, Traditional) – 4:35\n\"Santa Claus Is Coming to Town\" (J. Fred Coots, Haven Gillespie) – 6:00\n\"Winter Wonderland\" (Felix Bernard, Richard B. Smith) – 5:30\n\"We Three Kings\" (John Henry Hopkins, Jr.) – 5:00\n\"You're All I Want for Christmas\" (Seger Ellis, Glen Moore) – 5:00\nRecorded at Rudy Van Gelder Studio in Englewood Cliffs, New Jersey on November 24, 1964.\n\n\n== Personnel ==\nBobby Timmons - piano\nButch Warren - double bass\nWalter Perkins - drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "standards",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Ballads is a solo studio album by English guitarist Derek Bailey. It was released on 23 April 2002, through Tzadik.",
+    "contradictingQuote": "Ballads is a solo studio album by English guitarist Derek Bailey. It was released on 23 April 2002, through Tzadik.",
+    "skepticDecision": "Fails: the prose is the verbatim lede of 'Ballads' (23 April 2002, Tzadik), a different title and date, while MB confirms the item is 'Standards' (2007-06-26, Tzadik). Wholesale about another work.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Ballads is a solo studio album by English guitarist Derek Bailey. It was released on 23 April 2002, through Tzadik.",
+        "problem": "The item is Derek Bailey's 'Standards' (2007, Tzadik per MB), but the albumDNA describes a DIFFERENT Bailey album, 'Ballads' (2002, Tzadik). Same artist and label, wrong album.",
+        "evidenceQuote": "Ballads is a solo studio album by English guitarist Derek Bailey. It was released on 23 April 2002, through Tzadik.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "MB embedded_mbid confirms OUR album is 'Standards' (Tzadik, 2007-06-26, Derek Bailey), and all 5 keyTracks match its tracklist. But the albumDNA and the stored_url are both about 'Ballads' (2002) - a different Bailey/Tzadik album. Repair writer: keep Derek Bailey/Standards/Tzadik 2007 identity; rewrite prose to describe Standards, not Ballads.",
+    "ours": {
+      "title": "Standards",
+      "artist": "Derek Bailey",
+      "year": 2007,
+      "label": "Tzadik",
+      "albumDNA": "Ballads is a solo studio album by English guitarist Derek Bailey. It was released on 23 April 2002, through Tzadik. In 2007, The Guardian included the album in their list of \"1000 Albums to Hear Before You Die\".",
+      "keyTracks": [
+        "Nothing New",
+        "Frankly My Dear I Don't Give a Damn",
+        "When Your Liver Has Gone",
+        "Please Send Me Sweet Chariot",
+        "Don't Talk About Me"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "0f23ead6-81a5-46ef-8978-81849658909c",
+          "title": "Standards",
+          "date": "2007-06-26",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Derek Bailey"
+          ],
+          "labels": [
+            {
+              "name": "Tzadik",
+              "catalogNumber": "TZ 7620"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0511f837-9c5b-3dd7-a6fd-68aed5edee95",
+            "title": "Standards",
+            "firstReleaseDate": "2007-06-26",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Nothing New",
+            "Frankly My Dear I Don't Give a Damn",
+            "When Your Liver Has Gone",
+            "Please Send Me Sweet Chariot",
+            "Don't Talk About Me",
+            "Pentup Serenade",
+            "Head"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Ballads_(Derek_Bailey_album)",
+        "page": {
+          "requestedTitle": "Ballads (Derek Bailey album)",
+          "resolvedTitle": "Ballads (Derek Bailey album)",
+          "shortDescription": "2002 studio album by Derek Bailey",
+          "extract": "Ballads is a solo studio album by English guitarist Derek Bailey. It was released on 23 April 2002, through Tzadik. In 2007, The Guardian included the album in their list of \"1000 Albums to Hear Before You Die\".\n\n\n== Background ==\nThe album contains Derek Bailey's 14 solo guitar renditions of standard songs. It was recorded by Toby Hrycek-Robinson and mastered by Scott Hull. It was released through John Zorn's American record label Tzadik. Marc Ribot wrote the album's liner notes.\n\n\n== Critical reception ==\n\nBrian Olewnick of AllMusic stated, \"Ballads is stunningly gorgeous, lovely melodies like 'Laura' being passionately stroked even as they abut against Bailey's questioning angularities and brusque, impolite commentary.\" He added, \"Whether one is glad or distressed that he chose to dip his toes into these waters, Ballads is a singularly lovely recording, one that certainly stands out in Bailey's oeuvre and one that is nigh impossible not to smile about and linger over.\" Dominique Leone of Pitchfork commented that \"Bailey's improvisations here are at once impenetrable and immediately familiar.\" He called the album \"a fine entryway to the appreciation of Bailey's art.\"\nIn 2007, The Guardian included the album in their list of \"1000 Albums to Hear Before You Die\".\n\n\n=== Accolades ===\n\n\n== Track listing ==\n\n\n== Personnel ==\nCredits adapted from liner notes.\n\nDerek Bailey – guitar, production\nToby Hrycek-Robinson – recording\nScott Hull – mastering\nJohn Zorn – executive production\nKazunori Sugiyama – associate production\nHeung-Heung Chin – design\nMarc Ribot – liner notes\n\n\n== References ==\n\n\n== External links ==\nBallads at Discogs"
+        }
+      }
+    }
+  },
+  {
+    "id": "stories",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Sail Away is an album by the American musician Tom Harrell. It was released in 1989 via Contemporary Records. The title track became a jazz standard. The album was reissued in 2003 with two bonus tracks.",
+    "contradictingQuote": "Sail Away is an album by the American musician Tom Harrell. It was released in 1989 via Contemporary Records.",
+    "skepticDecision": "Fails: the prose is the verbatim lede of 'Sail Away' (1989, Contemporary Records), a different title/year/label, while the MB release under verification is 'Stories' (1988). Wholesale about another work.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Sail Away is an album by the American musician Tom Harrell. It was released in 1989 via Contemporary Records. The title track became a jazz standard. The album was reissued in 2003 with two bonus tracks.",
+        "problem": "The entire albumDNA describes a DIFFERENT album, 'Sail Away' (1989, Contemporary Records), not 'Stories' (1988). Title, year, and label all belong to Sail Away.",
+        "evidenceQuote": "Sail Away is an album by the American musician Tom Harrell. It was released in 1989 via Contemporary Records.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Fields/keyTracks are CORRECT for Stories: MB (search, sim 1.0) confirms title 'Stories', Tom Harrell, 1988, and all 5 keyTracks match the tracklist. Only the albumDNA prose is swapped in from the Sail Away Wikipedia page (stored_url = Sail_Away_(Tom_Harrell_album)). Label field is 'Unknown' (MB has no label). Repair: keep fields/keyTracks, rewrite DNA to describe Stories and fix the wikipediaUrl.",
+    "ours": {
+      "title": "Stories",
+      "artist": "Tom Harrell",
+      "year": 1988,
+      "label": "Unknown",
+      "albumDNA": "Sail Away is an album by the American musician Tom Harrell. It was released in 1989 via Contemporary Records. The title track became a jazz standard. The album was reissued in 2003 with two bonus tracks.",
+      "keyTracks": [
+        "Rapture",
+        "Songflower",
+        "The Mountain",
+        "The Water’s Edge",
+        "Story"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "5d3dc1a9-9460-4d0e-bc91-63cd24855651",
+          "title": "Stories",
+          "date": "1988",
+          "country": null,
+          "status": "Official",
+          "artists": [
+            "Tom Harrell"
+          ],
+          "labels": [],
+          "releaseGroup": {
+            "mbid": "012db661-34a5-40db-9c16-a662f18a975d",
+            "title": "Stories",
+            "firstReleaseDate": "1988",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Rapture",
+            "Songflower",
+            "The Mountain",
+            "The Water’s Edge",
+            "Story",
+            "Viable Blues",
+            "Touchstone"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Sail_Away_(Tom_Harrell_album)",
+        "page": {
+          "requestedTitle": "Sail Away (Tom Harrell album)",
+          "resolvedTitle": "Sail Away (Tom Harrell album)",
+          "shortDescription": "1989 studio album by Tom Harrell",
+          "extract": "Sail Away is an album by the American musician Tom Harrell. It was released in 1989 via Contemporary Records. The title track became a jazz standard. The album was reissued in 2003 with two bonus tracks.\n\n\n== Production ==\nJoe Lovano played saxophone on four tracks. James Williams played piano; John Abercrombie played guitar.\n\n\n== Critical reception ==\n\nThe Windsor Star wrote that \"some tunes hover around a Wayne Shorter mode with their oddly looping lines, like 'Dream in June'.\" The Chicago Tribune called the album \"a lovely piece of work—fresh, concentrated, expressive.\" The Ottawa Citizen determined that \"it's disappointing to find [Harrell's] melodic side overwhelmed by modal progressions and liberally stretched lines.\" The Washington Post deemed Sail Away \"a beautifully arranged collection of mainstream jazz tunes, highlighted by several ballads and medium tempo tunes that make the most of Harrell's warm, soulful fluegelhorn.\"\nThe Village Voice noted \"the skittery Miles [Davis] of the charged arpeggios, melodic shards, and rhythmic displacement\" on \"Eons\" and the title track. The Chicago Reader labeled \"Sail Away\" \"one of the finest jazz sambas ever written and one of the more memorable compositions of any kind in 20 years.\"\n\n\n== Track listing ==\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "straight-life-the-savoy-sessions",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Modern Art is an album by saxophonist Art Pepper featuring sessions recorded in late 1956 and early 1957 originally released on the Intro label. The album was reissued on CD on Blue Note Records with bonus tracks as Modern Art: The Complete Art Pepper Aladdin Recordings Volume 2 in 1988.",
+    "contradictingQuote": "Straight Life - The Savoy Sessions",
+    "skepticDecision": "Fails: the prose opens by naming and describing a different album ('Modern Art', Intro label, 1956-57, reissued 1988), while the MB release under verification is 'Straight Life - The Savoy Sessions' on Savoy Jazz. Wholesale about another work.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Modern Art is an album by saxophonist Art Pepper featuring sessions recorded in late 1956 and early 1957 originally released on the Intro label. The album was reissued on CD on Blue Note Records with bonus tracks as Modern Art: The Complete Art Pepper Aladdin Recordings Volume 2 in 1988.",
+        "problem": "The albumDNA is the verbatim Wikipedia lede of a DIFFERENT Art Pepper album ('Modern Art', a 1956-57 Intro/Aladdin session), not this album. This release is 'Straight Life - The Savoy Sessions' (1984, Savoy Jazz) per MB embedded_mbid.",
+        "evidenceQuote": "Straight Life - The Savoy Sessions",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Right artist (Art Pepper), wrong album described — the title-search disambiguation bug. Catalog fields (title, year 1984, label Savoy Jazz) and all 5 keyTracks match the MB embedded release 'Straight Life - The Savoy Sessions'. But the albumDNA prose and the stored Wikipedia URL are about 'Modern Art (Art Pepper album)', a different release on the Intro/Blue Note labels. The trailing 'West Coast jazz / Stan Kenton big band' sentence is generic Pepper bio (true of him) but the album-specific claims (Modern Art, Intro label, 1956-57, reissued 1988) belong to another album. keyTracks themselves are correct for THIS album, so keyTracksVerdict ok.",
+    "ours": {
+      "title": "Straight Life - The Savoy Sessions",
+      "artist": "Art Pepper",
+      "year": 1984,
+      "label": "Savoy Jazz",
+      "albumDNA": "Modern Art is an album by saxophonist Art Pepper featuring sessions recorded in late 1956 and early 1957 originally released on the Intro label. The album was reissued on CD on Blue Note Records with bonus tracks as Modern Art: The Complete Art Pepper Aladdin Recordings Volume 2 in 1988. Active primarily in West Coast jazz, Pepper first came to prominence in Stan Kenton's big band.",
+      "keyTracks": [
+        "Straight Life",
+        "Chili Pepper",
+        "Cinnamon",
+        "Tickle Toe",
+        "Suzy the Poodle"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "d8e759f3-5945-48df-88fa-def8f95db515",
+          "title": "Straight Life - The Savoy Sessions",
+          "date": "1984",
+          "country": "DE",
+          "status": "Official",
+          "artists": [
+            "Art Pepper"
+          ],
+          "labels": [
+            {
+              "name": "Savoy Jazz",
+              "catalogNumber": "ZD70820"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "10ce15af-81b3-46f3-98e6-f4f8525723f7",
+            "title": "Straight Life - The Savoy Sessions",
+            "firstReleaseDate": "1984",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Straight Life",
+            "Chili Pepper",
+            "Cinnamon",
+            "Tickle Toe",
+            "Suzy the Poodle",
+            "Everything Happens to Me",
+            "Nutmeg",
+            "Deep Purple",
+            "What's New",
+            "Thyme Time",
+            "Art's Oregano",
+            "The Way You Look Tonight",
+            "Straight Life"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Modern_Art_(Art_Pepper_album)",
+        "page": {
+          "requestedTitle": "Modern Art (Art Pepper album)",
+          "resolvedTitle": "Modern Art (Art Pepper album)",
+          "shortDescription": "1957 studio album by Art Pepper",
+          "extract": "Modern Art is an album by saxophonist Art Pepper featuring sessions recorded in late 1956 and early 1957 originally released on the Intro label. The album was reissued on CD on Blue Note Records with bonus tracks as Modern Art: The Complete Art Pepper Aladdin Recordings Volume 2 in 1988.\n\n\n== Track listing ==\nAll compositions by Art Pepper, except where indicated.\n\n\"Blues In\" - 5:40\n\"Bewitched\" (Richard Rodgers, Lorenz Hart) - 4:25\n\"When You're Smiling\" (Larry Shay, Mark Fisher, Joe Goodwin) - 4:47\n\"Cool Bunny\" - 4:10\n\"Dianne's Dilemma\" - 3:46\n\"Stompin' at the Savoy\" (Edgar Sampson, Chick Webb, Benny Goodman, Andy Razaf) - 5:01\n\"What Is This Thing Called Love?\" (Cole Porter) - 6:00\n\"Blues Out\" - 4:53\n\n\n== Personnel ==\nArt Pepper - alto saxophone\nRuss Freeman - piano\nBen Tucker - bass\nChuck Flores - drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "summit-reunin-cumbre",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Night Lights is an album by American jazz saxophonist Gerry Mulligan featuring performances recorded in 1963 and first released on the Philips label.",
+    "contradictingQuote": "Night Lights is an album by American jazz saxophonist Gerry Mulligan featuring performances recorded in 1963 and first released on the Philips label.",
+    "skepticDecision": "The albumDNA names and describes a different album (Night Lights, recorded 1963, Philips) and the stored wiki extract is that album's article, while the embedded MB release-group for this item is Summit (Reunion cumbre), 1974, Mulligan with Piazzolla; the prose is a different release.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Night Lights is an album by American jazz saxophonist Gerry Mulligan featuring performances recorded in 1963 and first released on the Philips label",
+        "problem": "the entire albumDNA describes Night Lights (1963, Philips), a different Mulligan album; our item is Summit (Reunion cumbre), the 1974 Mulligan-Piazzolla collaboration on Erre T.V.",
+        "evidenceQuote": "\"releaseGroup\": {\"title\": \"Summit (Reunión cumbre)\", \"firstReleaseDate\": \"1974\"} ... \"artists\": [\"Gerry Mulligan\", \"Astor Piazzolla\"], \"labels\": [{\"name\": \"Erre T.V.\", \"catalogNumber\": \"RTV 25046\"}]",
+        "source": "mb"
+      },
+      {
+        "ourClaim": "The album's re-release on the Verve Label, includes the bonus track \"The Lonely Night \" which originally only appeared on Mulligan's 1965 album \"Feelin' Good\" with vocals by his partner, Judy Holliday.",
+        "problem": "these facts belong to Night Lights, copied from the Night Lights wikipedia article",
+        "evidenceQuote": "Night Lights is an album by American jazz saxophonist Gerry Mulligan featuring performances recorded in 1963 and first released on the Philips label. The album's re-release on the Verve Label, includes the bonus track \"The Lonely Night (Night Lights 1965 Version)\"",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Classic disease case. Fields and all 5 keyTracks match the real Summit (Reunion cumbre) per the embedded-MBID release (authoritative); only the prose and the stored wiki link were imported from Night Lights (Gerry Mulligan album). Repair: rewrite DNA for the 1974 Mulligan-Piazzolla collaboration, replace the wiki link, and add Astor Piazzolla to the artist credit per MB.",
+    "ours": {
+      "title": "Summit (Reunión cumbre)",
+      "artist": "Gerry Mulligan",
+      "year": 1974,
+      "label": "Erre T.V.",
+      "albumDNA": "Night Lights is an album by American jazz saxophonist Gerry Mulligan featuring performances recorded in 1963 and first released on the Philips label. The album's re-release on the Verve Label, includes the bonus track \"The Lonely Night \" which originally only appeared on Mulligan's 1965 album \"Feelin' Good\" with vocals by his partner, Judy Holliday.",
+      "keyTracks": [
+        "20 Years Ago",
+        "Close Your Eyes and Listen",
+        "Years of Solitude",
+        "Deus Xango",
+        "20 Years After"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "f98382dc-9b0b-3ea3-8adf-ed086947b18d",
+          "title": "Summit",
+          "date": "1974",
+          "country": "IT",
+          "status": "Official",
+          "artists": [
+            "Gerry Mulligan",
+            "Astor Piazzolla"
+          ],
+          "labels": [
+            {
+              "name": "Erre T.V.",
+              "catalogNumber": "RTV 25046"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "1a284a4e-e9ec-3f95-83c2-b41f50f06fe5",
+            "title": "Summit (Reunión cumbre)",
+            "firstReleaseDate": "1974",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "20 Years Ago",
+            "Close Your Eyes and Listen",
+            "Years of Solitude",
+            "Deus Xango",
+            "20 Years After",
+            "Aire de Buenos Aires",
+            "Reminiscence",
+            "Summit"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Night_Lights_(Gerry_Mulligan_album)",
+        "page": {
+          "requestedTitle": "Night Lights (Gerry Mulligan album)",
+          "resolvedTitle": "Night Lights (Gerry Mulligan album)",
+          "shortDescription": "1963 studio album by Gerry Mulligan",
+          "extract": "Night Lights is an album by American jazz saxophonist Gerry Mulligan featuring performances recorded in 1963 and first released on the Philips label. The album's re-release on the Verve Label, includes the bonus track \"The Lonely Night (Night Lights 1965 Version)\" which originally only appeared on Mulligan's 1965 album \"Feelin' Good\" with vocals by his partner, Judy Holliday.\nThe album was re-released on vinyl by New Land in 2022.\n\n\n== Reception ==\n\nWriting in the Oakland Tribune, Russ Wilson described the album as \"Done with a lights-out, after-hours feel[;] it is high caliber jazz that is played with a marvelously pervasive pulse.\"\nAllMusic awarded the album three stars stating, \"This is a rather relaxed recording featuring baritonist Gerry Mulligan and some of his top alumni... The emphasis is on ballads and nothing too innovative occurs, but the results are pleasing and laid-back\".\n\n\n== Track listing ==\nAll compositions by Gerry Mulligan except as indicated\n\n\"Night Lights\" – 4:53\n\"Morning of the Carnival\" (Luiz Bonfá, Antônio Maria) – 5:27\n\"In the Wee Small Hours of the Morning\" (David Mann, Bob Hilliard) – 5:34\n\"Prelude in E Minor\" (Frédéric Chopin) – 4:11\n\"Festival Minor\" – 6:45\n\"Tell Me When\" – 4:06\n\"The Lonely Night (Night Lights 1965 Instrumental Version)\" – 2:54 – Bonus track on Verve label re-release\n\n\n== Personnel ==\nGerry Mulligan – baritone saxophone, piano on track 1 only\nArt Farmer – flugelhorn\nBob Brookmeyer – valve trombone\nJim Hall – guitar\nBill Crow – bass\nDave Bailey – drums\n\n\n== Charts ==\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "tatum-carter-bellson",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Pianist Art Tatum recorded commercially from 1932 until near his death. He recorded nearly 400 titles, if airchecks and informal, private recordings are included.",
+    "contradictingQuote": "Pianist Art Tatum recorded commercially from 1932 until near his death.",
+    "skepticDecision": "The albumDNA is wholesale the Art Tatum career/discography summary about the person's recording history, not any content about the 'Tatum, Carter, Bellson' album; the evidence is the discography page lead about the person.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [],
+    "originalNotes": "albumDNA is Art Tatum career/discography boilerplate ('Pianist Art Tatum recorded commercially from 1932 until near his death...'), not content about this album -- same misplaced-kind pattern as a person bio on an album item. Fields are verified by embedded MBID: 1954, Clef MG C-643, all 5 keyTracks on the tracklist. Stored wiki link is the Art Tatum discography list page, not an album page (it does list 'Tatum - Carter - Bellson (Clef, 1955)'; note wiki's 1955 vs MB's authoritative 1954 -- ours says 1954, kept). Artist field 'Art Tatum' vs MB credit 'Tatum, Carter, Bellson' is site primary-artist convention, not flagged. Repair: album-specific prose; a dedicated album wiki page may not exist.",
+    "ours": {
+      "title": "Tatum, Carter, Bellson",
+      "artist": "Art Tatum",
+      "year": 1954,
+      "label": "Clef Records",
+      "albumDNA": "Pianist Art Tatum recorded commercially from 1932 until near his death. He recorded nearly 400 titles, if airchecks and informal, private recordings are included. He recorded for Brunswick (1933), Decca (1934–41), Capitol and for the labels associated with Norman Granz (1953–56).",
+      "keyTracks": [
+        "My Blue Heaven",
+        "Blues in B Flat",
+        "Street of Dreams",
+        "Idaho",
+        "'s Wonderful"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "014b598c-3ba4-4576-83c6-2be17fc7fe67",
+          "title": "Tatum, Carter, Bellson",
+          "date": "1954",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Tatum",
+            "Carter",
+            "Bellson"
+          ],
+          "labels": [
+            {
+              "name": "Clef Records",
+              "catalogNumber": "MG C-643"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "214c5a69-7964-456e-9516-6cc32f87c6e7",
+            "title": "Tatum, Carter, Bellson",
+            "firstReleaseDate": "1954",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "My Blue Heaven",
+            "Blues in B Flat",
+            "Street of Dreams",
+            "Idaho",
+            "'s Wonderful",
+            "Hands Across the Table",
+            "Old Fashioned Love",
+            "(I'm Left with the) Blues in My Heart"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Art_Tatum_discography",
+        "page": {
+          "requestedTitle": "Art Tatum discography",
+          "resolvedTitle": "Art Tatum discography",
+          "shortDescription": "",
+          "extract": "Pianist Art Tatum recorded commercially from 1932 until near his death. He recorded nearly 400 titles, if airchecks and informal, private recordings are included. He recorded for Brunswick (1933), Decca (1934–41), Capitol (1949, 1952) and for the labels associated with Norman Granz (1953–56).\n\n\n== Discography ==\nPiano Starts Here (Columbia, 1968) – 1933 studio recordings & 1949 Gene Norman concert listed below\nClassic Early Solos (1934-1937) (Decca-GRP, 1991)\nSolos (1940) (MCA, 1990)\nThe Standard Sessions: 1935-1943 Transcriptions (Music & Arts, 1996)\nThe Standard Transcriptions (Piano Solos, 1935 - c. 1945) (Storyville, 1999)\nI Got Rhythm Vol.3 (1935-44) (Decca-GRP, 1993)\nArt Tatum Masterpieces (MCA, 1973)[2LP] – from 1930s Decca recordings\nJames P. Johnson (shared album) – Art Tatum Masterpieces Volume II And James P. Johnson Plays Fats Waller (MCA, 1977) – from Decca recordings\nStandards (Black Lion, 1990) – rec. 1938–1939 as per Standard Transcriptions above\nArt Of Tatum 1941-1944 (MCA, 1974) – with Big Joe Turner and trio\nGod Is in the House (Onyx, 1973) – rec. 1940–1941; reissued by High Note, 1998.\nThe V-Discs (Black Lion, 1978) – rec. 1944–46\nArt Tatum Piano Impressions, (ARA, Boris Morros Music Company, c. 1945)\nArt Tatum Piano Solos (Asch, c.1945)\nGene Norman Presents an Art Tatum Concert (Columbia, 1952) – rec. 1949\nArt Tatum (Capitol, 1950)\nArt Tatum Encores (Capitol, 1951)\nFootnotes to Jazz, Vol. 2: Jazz Rehearsal, II (Folkways, 1952)\nArt Tatum Trio (Capitol, 1953)\nBattle of Jazz, Volume 2 septet including Tatum and Big Joe Turner; shared album with Zutty Singleton (Brunswick, 1953)\nThe Genius of Art Tatum (Clef 1953-54)[11LP] – reissues as The Complete Pablo Solo Masterpieces (Pablo, 1991)[7CD] and The Art Tatum Solo Masterpieces, Vol. 1-8, Pablo, 1992)\nMakin' Whoopee (Verve, 1954)\nThe Greatest Piano of Them All (Verve, 1954)\nGenius of Keyboard 1954–56 (Giants of Jazz, 1989)\nMore of the Greatest Piano of Them All (Verve, 1955)\nStill More of the Greatest Piano Hits of Them All (Verve, 1955)\nTatum - Carter - Bellson (Clef, 1955) – reissued as The Tatum Group Masterpieces, Volume One (Pablo, 1975)\nThe Art Tatum-Roy Eldridge-Alvin Stoller-John Simmons Quartet (Clef, 1955) – reissued as The Tatum Group Masterpieces, Vol. 2 (Pablo, 1990)\nThe Lionel Hampton Art Tatum Buddy Rich Trio (Clef, 1956) – reissued as The Tatum Group Masterpieces, Volume Three (Pablo, 1975)\nThe Tatum Group Masterpieces, Vol. 4: With Hampton, Rich, Again (Pablo, 1990)\nThe Tatum Group Masterpieces, Vol. 5: Tatum-Hampton-Edison-Rich-Calendar-Kessel (Pablo, 1975 & 1990) – originally issued as Lionel Hampton And His Giants (Norgran, 1956) as by Hampton\nPresenting the Art Tatum Trio (Verve, 1957) – rec. 1956; reissued as The Tatum Group Masterpieces, Volume Six (Pablo, 1975)\nThe Art Tatum - Buddy DeFranco Quartet (Verve, 1958) – rec. 1956; reissued as The Tatum Group Masterpieces, Volume Seven (Pablo, 1975)\nThe Art Tatum - Ben Webster Quartet (Verve, 1958) – rec. 1956; reissued as The Tatum Group Masterpieces, Volume Eight (Pablo, 1975)\nCapitol Jazz Classics – Volume 3 Solo Piano (Capitol, 1972) –  rec. 1949\nThe Complete Capitol Recordings, Vol. 1 (Capitol, 1989)\nThe Complete Capitol Recordings, Vol. 2 (Capitol, 1989)\nThe Complete Capitol Recordings (Blue Note, 1997) – rec. 1949–52\nThe Complete Pablo Group Masterpieces (Pablo, 1990)[6CD] – containing the eight individual releases listed above\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "that-certain-feeling",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "That Certain Feeling is an album by American organist John Patton recorded in 1968 and released on the Blue Note label.",
+    "contradictingQuote": "That Certain Feeling is an album by American organist John Patton recorded in 1968 and released on the Blue Note label.",
+    "skepticDecision": "The lead is a complete, self-contained description of a DIFFERENT album: organist John Patton, recorded 1968, Blue Note (verbatim the opensearch Wikipedia page for the Patton record). MB confirms our entity is Ran Blake's 1991 hat ART album. The dominant prose describes another work, so entity_mismatch stands over factual_error.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "That Certain Feeling is an album by American organist John Patton recorded in 1968 and released on the Blue Note label.",
+        "problem": "This sentence describes a DIFFERENT entity: Big John Patton's organ album 'That Certain Feeling' (recorded 1968, Blue Note). Our item is Ran Blake's 1991 album of the same title (a Gershwin program on hat ART). The disambiguation-collision disease: Wikipedia title-search returned the John Patton album and its facts were pasted into Ran Blake's blurb.",
+        "evidenceQuote": "That Certain Feeling is an album by American organist John Patton recorded in 1968 and released on the Blue Note label.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "MB search match (similarity 1.0) confirms OUR item is Ran Blake's That Certain Feeling, 1991, hat ART — and all 6 keyTracks (Gershwin program: It Ain't Necessarily So, The Man I Love, Oh Where's My Bess?, etc.) match the Ran Blake MB tracklist. But the albumDNA's factual skeleton (organist John Patton, recorded 1968, Blue Note) belongs to a wholly different album, confirmed by the opensearch Wikipedia page which is Big John Patton's record. The tail sentence correctly says '1991 by Ran Blake' but the lead is wrong-entity. wikipediaUrl is null (not stored), so no wrong link shipped; the corruption is in the prose.",
+    "ours": {
+      "title": "That Certain Feeling",
+      "artist": "Ran Blake",
+      "year": 1991,
+      "label": "Unknown",
+      "albumDNA": "That Certain Feeling is an album by American organist John Patton recorded in 1968 and released on the Blue Note label. A contemporary jazz entry from 1991 by Ran Blake, documenting the breadth of the contemporary period.",
+      "keyTracks": [
+        "Ouverture I",
+        "Mine",
+        "It Ain't Necessarily So",
+        "The Man I Love",
+        "Oh Where's My Bess? I",
+        "Blues"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "2a2472e8-b211-4223-9543-3233ed08bc1c",
+          "title": "That Certain Feeling",
+          "date": "1991",
+          "country": "CH",
+          "status": "Official",
+          "artists": [
+            "Ran Blake"
+          ],
+          "labels": [
+            {
+              "name": "hat ART",
+              "catalogNumber": "hat ART CD 6077"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0d1317f6-83f3-4d1d-9608-c8dffb5551f2",
+            "title": "That Certain Feeling",
+            "firstReleaseDate": "1991",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Ouverture I",
+            "Mine",
+            "It Ain't Necessarily So",
+            "The Man I Love",
+            "Oh Where's My Bess? I",
+            "Blues",
+            "Strike Up the Band",
+            "What Do You Want Wid Bess?",
+            "I Got Rhythm",
+            "That Certain Feeling I",
+            "Ouverture II",
+            "Someone To Watch Over Me",
+            "But Not For Me",
+            "Who Cares?",
+            "Liza",
+            "Clara, Clara",
+            "Oh Where's My Bess? II",
+            "'s Wonderful",
+            "That Certain Feeling II"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "That Certain Feeling (album)",
+          "resolvedTitle": "That Certain Feeling (album)",
+          "shortDescription": "1968 studio album by John Patton",
+          "extract": "That Certain Feeling is an album by American organist John Patton recorded in 1968 and released on the Blue Note label.\n\n\n== Reception ==\n\nThe AllMusic review by Stephen Thomas Erlewine awarded the album 3½ stars and stated \"there are moments when everything comes together and it just cooks. And those are the moments that make That Certain Feeling worth a search\".\n\n\n== Track listing ==\nAll compositions by John Patton except where noted\n\n\"String Bean\" - 5:42\n\"I Want to Go Home\" - 8:36\n\"Early A.M.\" - 7:17\n\"Dirty Fingers\" - 6:09\n\"Minor Swing\" - 6:38\n\"Daddy James\" (Jimmy Watson) - 6:47\nRecorded at Rudy Van Gelder Studio, Englewood Cliffs, New Jersey on March 8, 1968.\n\n\n== Personnel ==\nBig John Patton - organ\nJunior Cook - tenor saxophone\nJimmy Ponder - guitar\nClifford Jarvis - drums\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "That Certain Feeling (album)",
+            "shortDescription": "1968 studio album by John Patton",
+            "extractHead": "That Certain Feeling is an album by American organist John Patton recorded in 1968 and released on the Blue Note label.\n\n\n== Reception ==\n\nThe AllMusic review by Stephen Thomas Erlewine awarded the album 3½ stars and stated \"there are moments when everything comes together and it just cooks. And those are the moments that make That Certain Feeling worth a search\".\n\n\n== Track listing ==\nAll compositions by John Patton except where noted\n\n\"String Bean\" - 5:42\n\"I Want to Go Home\" - 8:36\n\"Early A.M."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "the-great-artistry-of-django-reinhardt",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Jean Reinhardt, known by his Romani nickname Django, was a Belgian-born Romani jazz guitarist and composer who lived most of his life in France.",
+    "contradictingQuote": "Romani-French jazz musician (1910–1953)",
+    "skepticDecision": "The entire albumDNA is the Django Reinhardt person biography verbatim with no album content; the evidence identifies the described entity as a person, not this album.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [],
+    "originalNotes": "albumDNA is a verbatim Django Reinhardt artist biography ('Jean Reinhardt ... was a Belgian-born Romani jazz guitarist and composer'), i.e. content about a person while the item is an album (the spec's entity_mismatch tell). The bio facts themselves match the person page, so no wrongClaims; the problem is wrong kind of content. Album fields are solid: embedded MBID resolves to release group 'The Great Artistry of Django Reinhardt' (firstReleaseDate 1953-11, matching year 1953) and all 5 keyTracks are on the MB tracklist. Label 'Clef Records' is unverifiable (the MB doc is a 2016 Jazz Images reissue) but not contradicted. Stored wiki link goes to the artist page, not an album page. Repair: write album-specific prose; fix or drop the wiki link.",
+    "ours": {
+      "title": "The Great Artistry of Django Reinhardt",
+      "artist": "Django Reinhardt",
+      "year": 1953,
+      "label": "Clef Records",
+      "albumDNA": "Jean Reinhardt, known by his Romani nickname Django, was a Belgian-born Romani jazz guitarist and composer who lived most of his life in France. He was one of the first major jazz talents to emerge in Europe and has been hailed as one of its most significant exponents.",
+      "keyTracks": [
+        "Night and Day",
+        "Blues for Ike",
+        "Nuages",
+        "Insensiblement",
+        "Brazil"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "7ed0ce3b-1702-48a9-9add-e0edbd8104e2",
+          "title": "Nuages",
+          "date": "2016",
+          "country": null,
+          "status": "Official",
+          "artists": [
+            "Django Reinhardt"
+          ],
+          "labels": [
+            {
+              "name": "Jazz Images",
+              "catalogNumber": null
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "739cf2a8-7ca7-4521-8769-2b3569bef7f8",
+            "title": "The Great Artistry of Django Reinhardt",
+            "firstReleaseDate": "1953-11",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Night And Day",
+            "Blues For Ike",
+            "Nuages",
+            "Insensiblement",
+            "Brazil",
+            "September Song",
+            "Confessin'",
+            "Manoir De Me Rêves",
+            "September Song",
+            "Brazil",
+            "I'll Never Smile Again",
+            "New York City",
+            "Django's Blues",
+            "Love's Mood",
+            "I Love You",
+            "Topsy",
+            "Moppin' The Bride",
+            "Insensiblement",
+            "Mano",
+            "Blues Primitif",
+            "Gipsy With A Song",
+            "Gipsy With A Song",
+            "Le Soir",
+            "Chez Moi",
+            "I Cover The Waterfront",
+            "Deccaphone"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Django_Reinhardt",
+        "page": {
+          "requestedTitle": "Django Reinhardt",
+          "resolvedTitle": "Django Reinhardt",
+          "shortDescription": "Romani-French jazz musician (1910–1953)",
+          "extract": "Jean Reinhardt (23 January 1910 – 16 May 1953), known by his Romani nickname Django (French: [dʒãŋɡo ʁɛjnaʁt] or [dʒɑ̃ɡo ʁenɑʁt]), was a Belgian-born Romani jazz guitarist and composer who lived most of his life in France. He was one of the first major jazz talents to emerge in Europe and has been hailed as one of its most significant exponents.\nWith violinist Stéphane Grappelli, Reinhardt formed the Paris-based Quintette du Hot Club de France in 1934. The group was among the first to play jazz that featured the guitar as a lead instrument. Reinhardt recorded in France with many visiting American musicians, including Coleman Hawkins and Benny Carter, and briefly toured the United States with Duke Ellington's orchestra in 1946. He died suddenly of a brain hemorrhage in 1953 at the age of 43.\nReinhardt's most popular compositions have become standards within gypsy jazz, including \"Minor Swing\", \"Daphne\", \"Belleville\", \"Djangology\", \"Swing '42\", and \"Nuages\". The jazz guitarist Frank Vignola said that nearly every major popular music guitarist in the world has been influenced by Reinhardt. Over the last few decades, annual Django festivals have been held throughout Europe and the U.S., and a biography has been written about his life. In February 2017, the Berlin International Film Festival held the world premiere of the French biographical film Django, based on Reinhardt's life.\n\n\n== Biography ==\n\n\n=== Early life ===\nReinhardt was born on 23 January 1910 in Liberchies, Pont-à-Celles, Belgium, into a French family of Manouche Romani descent. His French, Alsatian father, Jean Eugène Weiss, domiciled in Paris with his wife, went by Jean-Baptiste Reinhardt, his wife's surname, to avoid French military conscription. His mother, Laurence Reinhardt, was a dancer. The birth certificate refers to \"Jean Reinhart, son of Jean Baptiste Reinhart, artist, and Laurence Reinhart, housewife, domiciled in Paris\".\nA number of authors have repeated the suggestion that Reinhardt's nickname, Django, is Romani for \"I awake\"; it may also simply have been a diminutive, or local Walloon version, of \"Jean\". Reinhardt spent most of his youth in Romani encampments close to Paris, where he started playing the violin, banjo and guitar. He became adept at stealing chickens. His father reportedly played music in a family band comprising himself and seven brothers; a surviving photograph shows this band including his father on piano.\nReinhardt was attracted to music at an early age, first playing the violin. At the age of 12, he received a banjo-guitar as a gift. He quickly taught himself to play, mimicking the fingerings of musicians he watched, who would have included local virtuoso players of the day such as Jean \"Poulette\" Castro and Auguste \"Gusti\" Malha, as well as from his uncle Guiligou, who played violin, banjo and guitar. Reinhardt was able to make a living playing music by the time he was 15, busking in cafés, often with his brother Joseph. At this time, he had not started playing jazz, although he had probably heard and been intrigued by the version of jazz played by American expatriate bands like Billy Arnold's.\nReinhardt received little formal education and acquired the rudiments of literacy only in adult life.\n\n\n=== Marriage and injury ===\nAt the age of 17, Reinhardt married Florine \"Bella\" Mayer, a girl from the same Romani settlement, according to Romani custom (although not an official marriage under French law). The following year he recorded for the first time. On these recordings, made in 1928, Reinhardt plays the \"banjo\" (actually the banjo-guitar) accompanying the accordionists Maurice Alexander, Jean Vaissade and Victor Marceau, and the singer Maurice Chaumel. His name was now drawing international attention, such as from British bandleader Jack Hylton, who came to France just to hear him play. Hylton offered him a job on the spot, and Reinhardt accepted.\nBefore he had a chance to start with the band, Reinhardt nearly died. On the night of 2 November 1928, Reinhardt was going to bed in the wagon that he and his wife shared in the caravan. He knocked over a candle, which ignited the extremely flammable celluloid that his wife used to make artificial flowers. The wagon was quickly  engulfed in flames. The couple escaped, but Reinhardt suffered extensive burns over half his body. During his 18-month hospitalization, doctors recommended amputation of his badly damaged right leg. Reinhardt refused the surgery and was eventually able t"
+        }
+      }
+    }
+  },
+  {
+    "id": "the-joint-is-jumpin",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "A Handful of Keys is an album of live performances by jazz pianist Fats Waller & His Rhythm, the only authorized live performances of the musician. It features previously unreleased live radio transcriptions originally broadcast in 1938.",
+    "contradictingQuote": "The Joint Is Jumpin'",
+    "skepticDecision": "The prose names and describes a different album entirely ('A Handful of Keys', live 1938 radio transcriptions), while the embedded release for this item is titled 'The Joint Is Jumpin''.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "A Handful of Keys is an album of live performances by jazz pianist Fats Waller & His Rhythm, the only authorized live performances of the musician. It features previously unreleased live radio transcriptions originally broadcast in 1938.",
+        "problem": "Prose describes a different Fats Waller album ('A Handful of Keys', live 1938 radio transcriptions, per the linked wiki page) - not our item 'The Joint Is Jumpin'', which per embedded MBID is a 1987 Bluebird/RCA studio-recordings compilation.",
+        "evidenceQuote": "MB release: title \"The Joint Is Jumpin'\", date \"1987\", labels Bluebird/RCA 6288-2-RB, secondaryTypes [\"Compilation\"]",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Same-artist, wrong-album substitution. The stored wiki URL (Handful_of_Keys_(album)) matches the prose but not the item - both prose and link belong to the other album. Meanwhile all 6 keyTracks DO sit on the embedded Joint Is Jumpin' tracklist, so the catalog reference is correct and only prose+link need repair. Year 1937 matches the title song era, not the 1987 compilation (convention).",
+    "ours": {
+      "title": "The Joint Is Jumpin'",
+      "artist": "Fats Waller",
+      "year": 1937,
+      "label": "Unknown",
+      "albumDNA": "A Handful of Keys is an album of live performances by jazz pianist Fats Waller & His Rhythm, the only authorized live performances of the musician. It features previously unreleased live radio transcriptions originally broadcast in 1938.",
+      "keyTracks": [
+        "Handful of Keys",
+        "The Minor Drag",
+        "Numb Fumblin'",
+        "Ain't Misbehavin'",
+        "Smashing Thirds",
+        "African Ripples"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "d5dd68a9-4a9e-4853-b3d0-61dd8eb7ac98",
+          "title": "The Joint Is Jumpin'",
+          "date": "1987",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Fats Waller"
+          ],
+          "labels": [
+            {
+              "name": "Bluebird",
+              "catalogNumber": "6288-2-RB"
+            },
+            {
+              "name": "RCA",
+              "catalogNumber": "6288-2-RB"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "73e7a089-767a-3d68-a5f5-97983776485a",
+            "title": "The Joint Is Jumpin'",
+            "firstReleaseDate": "1987",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Handful of Keys",
+            "The Minor Drag",
+            "Numb Fumblin'",
+            "Ain't Misbehavin'",
+            "Smashing Thirds",
+            "African Ripples",
+            "Alligator Crawl",
+            "Viper's Drag",
+            "Lulu's Back in Town",
+            "I'm Crazy 'Bout My Baby",
+            "S'posin'",
+            "Honeysuckle Rose",
+            "Blues",
+            "Tea for Two",
+            "I Ain't Got Nobody",
+            "The Joint Is Jumpin'",
+            "The Sheik of Araby",
+            "Yacht Club Swing",
+            "(When You) Squeeze Me",
+            "Your Feet's Too Big",
+            "Carolina Shout",
+            "Honeysuckle Rose",
+            "Ain't Misbehavin'"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Handful_of_Keys_(album)",
+        "page": {
+          "requestedTitle": "Handful of Keys (album)",
+          "resolvedTitle": "Handful of Keys (album)",
+          "shortDescription": "1957 compilation album (live) by Fats Waller",
+          "extract": "A Handful of Keys is an album of live performances by jazz pianist Fats Waller & His Rhythm, the only authorized live performances of the musician. It features previously unreleased live radio transcriptions originally broadcast in 1938.\n\n\n== Track listing ==\n\"Ain't Misbehavin'\" (Waller, Harry Brooks, Andy Razaf) – 1:06\n\"The Joint is Jumpin'\" (Waller, J. C. Johnson, Razaf) – 3:00\n\"Inside\" (a.k.a. \"Inside This Heart of Mine\") (Waller) – 3:01\n\"I Had To Do It\" (Waller, Razaf) – 2:15\n\"E Flat Blues\" (Clarence Williams, Thomas Morris) – 2:48\n\"Hold My Hand\" (Waller, Johnson) – 2:28\n\"Stop Beatin' 'Round the Mulberry Bush\" (Clay Boland, Bickley Reichner) – 2:54\n\"What's The Matter With You\" (Jimmy Webb, Stan Levey) – 2:31\n\"Hallelujah\" (Vincent Youmans, Leo Robin, Clifford Grey) – 1:34\n\"What's Your Name\" (Fats Waller, Johnson) – 3:26\n\"I Simply Adore You\" (Paul Mann, Ned Weaver) – 2:37\n\"My Best Wishes\" (Samuel Pokrass, Ted Koehler) – 2:29\n\"Handful of Keys\" (Waller) – 1:57\n\"The Sheik of Araby\" (Ted Snyder, Harry B. Smith, Francis Wheeler) – 3:16\n\"The Flat Foot Floogie\" (Slim Gaillard, Slam Stewart, Bud Green) – 4:00\n\"St. Louis Blues\" (W. C. Handy) – 1:57\n\"Pent Up In a Penthouse\" (Williams, Tommie Connor) – 3:34\n\"Honeysuckle Rose\" (Waller, Razaf) – 3:40\n\"I Got Rhythm\" (George Gershwin, Ira Gershwin) – 2:36\n\"Some of These Days\" (Shelton Brooks) – 2:12\n\"After You've Gone\" (Turner Layton, Henry Creamer) – 2:01\n\"The Yacht Club Swing\" (Waller, Johnson, Herman Autrey) – 3:11\nRecorded live at NBC Studios and The Yacht Club, New York, in 1938\n\n\n== Personnel ==\nMusicians\n\nFats Waller – piano and vocals\nHerman Autrey – trumpet\nGene Sedric – clarinet and tenor saxophone\nAl Casey – guitar\nCedric Wallace – bass\nSlick Jones – drums\nProduction\n\nMike Ragogna, Glenn Korman – producer\nWill Friedwald – producer, liner notes\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "the-library-of-congress-recordings-by-alan-lomax",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Jelly Roll Morton: The Complete Library of Congress Recordings is a 2005 box set of recordings from jazz pioneer Jelly Roll Morton. The set spans 128 tracks over eight CDs.",
+    "contradictingQuote": "In 2007, Rounder released Jelly Roll Morton: The Library of Congress Recordings by Alan Lomax, a single disc consisting of selected highlights from the box set.",
+    "skepticDecision": "Fails: the wiki extract itself draws the line, stating that the single-disc 'The Library of Congress Recordings by Alan Lomax' (our item, MB-confirmed) is a separate 2007 highlights release derived from the 8-CD box set the prose describes. The prose's hard facts (8 CDs, 128 tracks, 2005, two Grammys) belong to the distinct box set.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Jelly Roll Morton: The Complete Library of Congress Recordings is a 2005 box set of recordings from jazz pioneer Jelly Roll Morton. The set spans 128 tracks over eight CDs. It won two Grammy Awards in 2006, Best Historical Album and Best Album Notes.",
+        "problem": "Our album is the single-disc 'The Library of Congress Recordings by Alan Lomax' (Rounder, 2006 per MB), but the albumDNA describes the 8-CD/128-track box set 'The Complete Library of Congress Recordings' (2005) and assigns that box set's Grammys. Same artist and source recordings, but a different release.",
+        "evidenceQuote": "In 2007, Rounder released Jelly Roll Morton: The Library of Congress Recordings by Alan Lomax, a single disc consisting of selected highlights from the box set.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Borderline but graded entity_mismatch: the prose's hard facts (8 CDs, 128 tracks, 2005, two 2006 Grammys) belong to the COMPLETE box set, a distinct release (distinct MBID/wiki page) from our single-disc highlights album. MB (search, similarity 1.0) confirms OUR release as 'The Library of Congress Recordings by Alan Lomax' (Rounder), and all 5 keyTracks match its tracklist. The stored_url points to the box set's page, not our single-disc release (hence wrong_entity). Repair writer: keep the Jelly Roll Morton/Library of Congress identity, but rewrite to describe the single-disc highlights release, not the box set.",
+    "ours": {
+      "title": "The Library of Congress Recordings by Alan Lomax",
+      "artist": "Jelly Roll Morton",
+      "year": 2006,
+      "label": "Rounder",
+      "albumDNA": "Jelly Roll Morton: The Complete Library of Congress Recordings is a 2005 box set of recordings from jazz pioneer Jelly Roll Morton. The set spans 128 tracks over eight CDs. It won two Grammy Awards in 2006, Best Historical Album and Best Album Notes.",
+      "keyTracks": [
+        "I'm Alabama Bound",
+        "King Porter Stomp",
+        "Jelly Roll's Background",
+        "Mr. Jelly Lord",
+        "Stomping Grounds"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "75d476d3-a113-4264-845c-dc974e272339",
+          "title": "The Library of Congress Recordings by Alan Lomax",
+          "date": "2006",
+          "country": null,
+          "status": null,
+          "artists": [
+            "Jelly Roll Morton"
+          ],
+          "labels": [
+            {
+              "name": "Rounder",
+              "catalogNumber": "11661-1897-2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "40fe3d9b-f5c1-4102-a4b3-923fd29344db",
+            "title": "The Library of Congress Recordings by Alan Lomax",
+            "firstReleaseDate": "2006",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "I'm Alabama Bound",
+            "King Porter Stomp",
+            "Jelly Roll's Background",
+            "Mr. Jelly Lord",
+            "Stomping Grounds",
+            "Anamule Dance, The",
+            "Tiger Rag / Panama",
+            "Right Tempo Is the Accurate Tempo, The",
+            "Maple Leaf Rag",
+            "Jazz Discords and Story of Kansas City Stomp / Kansas City Stomp",
+            "Kansas City Stomp",
+            "Wolverine Blues, Concluded",
+            "Spanish Tinge, The / New Orleans Blues / La Paloma",
+            "Crave, The",
+            "Sporting Attire and Shooting the Agate",
+            "Funeral March / Flee as the Bird to the Mountain",
+            "How Jelly Roll Got His Name / Original Jelly Roll Blues"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Jelly_Roll_Morton%3A_The_Complete_Library_of_Congress_Recordings",
+        "page": {
+          "requestedTitle": "Jelly Roll Morton: The Complete Library of Congress Recordings",
+          "resolvedTitle": "Jelly Roll Morton: The Complete Library of Congress Recordings",
+          "shortDescription": "2005 box set by Jelly Roll Morton",
+          "extract": "Jelly Roll Morton: The Complete Library of Congress Recordings is a 2005 box set of recordings from jazz pioneer Jelly Roll Morton.  The set spans 128 tracks over eight CDs. It won two Grammy Awards in 2006, Best Historical Album and Best Album Notes.\n\n\n== Background ==\nIn 1938, noted musicologist and Morton biographer Alan Lomax conducted a series of interviews with Morton at the Library of Congress. Richard Cook and Brian Morton describe these recordings as Jelly Roll Morton's \"virtual history of the birth pangs of jazz as it happened in the New Orleans of the turn of the century. His memory was unimpaired, although he chose to tell things as he preferred to remember them, perhaps; and his hands were still in complete command of the keyboard.\"\nExcerpts from the sessions first appeared on a 1948 album. Riverside Records issued the recordings as LP records in 1955.  Ron Wynn and Bruce Boyd Raeburn note that \"though the albums came out posthumously, the interviews generated tremendous new interest in Morton's life and music.\" During the 1990s, Rounder Records released a series of compact discs including the musical content, but not the dialogue, from the 1938 sessions. Both the Riverside and earlier Rounder releases were heavily expurgated, and as recently as 2008, when selections from the complete Rounder collection were featured in a BBC Radio 4 documentary on Morton, presenter Marybeth Hamilton noted that, even then, some of the recordings were still considered unsuitable for broadcast, due to the obscene nature of some of the lyrics and Morton's narration.\n\n\n== 2005 release ==\nIn 2005, Rounder released the 1938 recordings in their entirety as part of an eight-disc box set.  The first seven discs include Lomax's 1938 interviews, in which Morton describes his life and the early days of jazz, plays piano, and sings. The eighth disc includes 1949 recordings of Morton's contemporaries, reminiscing about Morton and providing musical demonstrations.\nThe set was originally released in a piano-shaped box and included a copy of Mister Jelly Roll, Lomax's biography about Morton. The set also includes a PDF file including additional liner notes, complete transcriptions of the recorded dialogue and lyrics, additional unrecorded interviews and archival documents and photos.\nIn 2007, Rounder released Jelly Roll Morton: The Library of Congress Recordings by Alan Lomax, a single disc consisting of selected highlights from the box set.\n\n\n== Reception ==\n\narwulf arwulf  [sic], writing for allmusic, described the recordings as having been \"beautifully restored.\"\nHarvey Pekar, writing for The Austin Chronicle, gave the set a five-star rating (of a possible five), noting that \"[Morton's] oral history here is provocative, and his playing bears out some of the hard-to-believe statements that have been made by (and about) him.\"\nRichard Cook and Brian Morton, writing for The Penguin Guide to Jazz, gave the set a four-star rating (of a possible four), describing it as \"surely the most comprehensive coverage of the speech and music to date.… It is a wonderfully illustrated lecture on Morton's music by the man who created it. Indispensable records for anyone interested in jazz history.\"\nLouis Armstrong recorded an audio response to the 1948 album version of the recordings in 1950 or 1951, praising Morton but taking issue with Morton's recollections about Scat singing.\n\n\n== Track listing ==\n\n\n== Credits ==\nJelly Roll Morton – piano, vocals, guitar, commentary\nAlan Lomax – interviewer\nJohnny St. Cyr – guitar, commentary\nLeonard Bechet – commentary\nPaul Dominguez Jr. – guitar, commentary\nAlbert Glenny – commentary\nAlphonse Picou – commentary\nJohn Szwed - album notes\n\n\n== References ==\n\n\n== External links ==\nLibrary of Congress release on Grammy awards"
+        }
+      }
+    }
+  },
+  {
+    "id": "the-new-don-ellis-band-goes-underground",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Don Ellis at Fillmore is a live double-LP by big band leader Don Ellis which was released in 1970.",
+    "contradictingQuote": "Don Ellis at Fillmore is a live double-LP by big band leader Don Ellis which was released in 1970.",
+    "skepticDecision": "The albumDNA's first sentence names and describes a different album (Don Ellis at Fillmore, live double-LP, 1970) and the stored wiki extract is that album's article; this item is the 1969 studio album per the embedded MB release, so the prose describes a different release.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Don Ellis at Fillmore is a live double-LP by big band leader Don Ellis which was released in 1970.",
+        "problem": "Prose describes a different album: Don Ellis at Fillmore (1970 live double LP). Our item is the 1969 studio album The New Don Ellis Band Goes Underground.",
+        "evidenceQuote": "title: \"The New Don Ellis Band Goes Underground\", date: \"1969\", primaryType: \"Album\"",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Embedded MB release confirms the item's fields: 1969, Columbia CS 9889, and all 5 keyTracks on the tracklist. The albumDNA is the Don Ellis at Fillmore wiki page's opening sentence (stored wikipediaUrl is that wrong page) plus artist-bio filler about The French Connection / The Seven-Ups film scores, which describes the artist not the album and is unverifiable here. Also note MB credits the release to 'The New Don Ellis Band, Patti Allen' while ours bills 'Don Ellis' (primary-artist convention, not flagged). Repair: rewrite prose for Goes Underground and fix the wiki link.",
+    "ours": {
+      "title": "The New Don Ellis Band Goes Underground",
+      "artist": "Don Ellis",
+      "year": 1969,
+      "label": "Columbia",
+      "albumDNA": "Don Ellis at Fillmore is a live double-LP by big band leader Don Ellis which was released in 1970. Later in his life he worked as a film composer, contributing a score to 1971's The French Connection and 1973's The Seven-Ups.",
+      "keyTracks": [
+        "House in the Country",
+        "Don't Leave Me",
+        "Higher",
+        "Bulgarian Bulge",
+        "Eli's Comin'"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "7ce206ea-963a-422a-b9a3-0eebaaf0bbec",
+          "title": "The New Don Ellis Band Goes Underground",
+          "date": "1969",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "The New Don Ellis Band",
+            "Patti Allen"
+          ],
+          "labels": [
+            {
+              "name": "Columbia",
+              "catalogNumber": "CS 9889"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "3a78186c-1df8-4eb9-b9ae-a2ef5709e0fd",
+            "title": "The New Don Ellis Band Goes Underground",
+            "firstReleaseDate": "1969",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "House in the Country",
+            "Don't Leave Me",
+            "Higher",
+            "Bulgarian Bulge",
+            "Eli's Comin'",
+            "Acoustical Lass",
+            "Good Feelin'",
+            "Send My Baby Back",
+            "Love for Rent",
+            "It's Your Thing",
+            "Ferris Wheel",
+            "Black Baby"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Don_Ellis_at_Fillmore",
+        "page": {
+          "requestedTitle": "Don Ellis at Fillmore",
+          "resolvedTitle": "Don Ellis at Fillmore",
+          "shortDescription": "1970 live album by Don Ellis",
+          "extract": "Don Ellis at Fillmore is a live double-LP by big band leader Don Ellis which was released in 1970.\n\n\n== Reception ==\n\nAl Campbell of Allmusic said \"This is a crazy and consistently riotous two-disc set that features the Don Ellis Orchestra at its height\". On All About Jazz, Jim Santella observed \"Don Ellis takes you off on a whirlwind ride, using electronic trumpet, complex meters, superb big band arrangements, and a cast of experienced sidemen who blow the walls down\"\n\n\n== Track listing ==\n\n\n=== Side A ===\n\"Final Analysis\" (Don Ellis) – 13:59\n\"Excursion #2\"  (John Klemmer) – 5:44\n\"The Magic Bus Ate My Doughnut\"  (Fred Selden) – 2:29\n\n\n=== Side B ===\n\"The Blues\"  (Ellis) – 7:25\n\"Salvatore Sam\"  (Ellis) – 5:06\n\"Rock Odyssey\"  (Hank Levy) – 9:48\n\n\n=== Side C ===\n\"Hey Jude\"  (Lennon–McCartney) – 10:38\n\"Antea\"  (Levy) – 5:59\n\"Old Man's Tear\"  (Klemmer) – 4:53\n\n\n=== Side D ===\n\"Great Divide\"  (Ellis) – 8:42\n\"Pussy Wiggle Stomp\"  (Ellis) – 11:54\n\n\n== Personnel ==\nDon Ellis - trumpet, drums\nJohn Klemmer - tenor saxophone\nJay Graydon - guitar\nJohn Rosenberg, Stuart Blumberg, Glenn Stuart, Jack Coan - trumpets\nErnie Carlson, Glenn Ferris - trombone\nDon Switzer - bass trombone\nLonnie Shetter, Fred Selden, Jon Clarke, Sam Falzone - woodwinds\nDoug Bixby - contrabass trombone, tuba\nTom Garvin - piano\nDennis F. Parker - bass\nRalph Humphrey - drums\nRon Dunn - drums\nLee Pastora - congas\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "the-oscar-peterson-trio-at-newport",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Oscar Peterson and Roy Eldridge is an album by Oscar Peterson, on which he is accompanied by Roy Eldridge.",
+    "contradictingQuote": "1975 studio album by Oscar Peterson & Roy Eldridge",
+    "skepticDecision": "The albumDNA and stored link describe 'Oscar Peterson and Roy Eldridge', a 1975 studio duo album per the evidence short description, while this item is the 1958 live album 'The Oscar Peterson Trio at Newport'.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Oscar Peterson and Roy Eldridge is an album by Oscar Peterson, on which he is accompanied by Roy Eldridge.",
+        "problem": "This sentence is the Wikipedia lede of a DIFFERENT album — the 1975 duo studio album 'Oscar Peterson and Roy Eldridge' — not the 1958 live album 'The Oscar Peterson Trio at Newport' that this item is titled after.",
+        "evidenceQuote": "shortDescription: \"1975 studio album by Oscar Peterson & Roy Eldridge\"",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Classic instance of the disambiguation disease, in mixed form. The embedded MBID matches the titled entity (The Oscar Peterson Trio at Newport, 1958, Verve UMV-2618 reissue catalog; credited to The Oscar Peterson Trio with Roy Eldridge, Sonny Stitt, Jo Jones) and all 5 keyTracks are on that MB tracklist — so title, year, and keyTracks belong to the real 1958 Newport album. But the prose lede and the stored Wikipedia URL belong to the 1975 'Oscar Peterson and Roy Eldridge' duo album, the artist field miscredits the album to 'Roy Eldridge' alone (MB primary credit is The Oscar Peterson Trio), and the label field 'Columbia' contradicts MB's Verve. Repair needs: rewrite prose for the 1958 Newport album, fix wikipediaUrl, set artist to The Oscar Peterson Trio (or Trio + guests), set label to Verve. The 'hard bop sensibility / cool jazz era' tail is editorial boilerplate.",
+    "ours": {
+      "title": "The Oscar Peterson Trio at Newport",
+      "artist": "Roy Eldridge",
+      "year": 1958,
+      "label": "Columbia",
+      "albumDNA": "Oscar Peterson and Roy Eldridge is an album by Oscar Peterson, on which he is accompanied by Roy Eldridge. Trumpeter Roy Eldridge's hard bop sensibility is on display in this 1958 session, a document of the cool jazz era.",
+      "keyTracks": [
+        "Will You Still Be Mine?",
+        "Joy Spring",
+        "Gal In Calico",
+        "52nd Street Theme",
+        "Monitor Blues"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "7cb25011-3d06-3491-bcfb-00f51e0ad2bc",
+          "title": "The Oscar Peterson Trio at Newport",
+          "date": "1958",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "The Oscar Peterson Trio",
+            "Roy Eldridge",
+            "Sonny Stitt",
+            "Jo Jones"
+          ],
+          "labels": [
+            {
+              "name": "Verve",
+              "catalogNumber": "UMV-2618"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0328e27c-7072-4ac5-b37f-35df77b02031",
+            "title": "The Oscar Peterson Trio at Newport",
+            "firstReleaseDate": "1958",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Will You Still Be Mine",
+            "Joy Spring",
+            "Gal in Calico",
+            "52nd Street Theme",
+            "[Jo Jones introduction]",
+            "Monitor Blues",
+            "Willow Weep for Me",
+            "Autumn in New York",
+            "Roy's Son"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Oscar_Peterson_and_Roy_Eldridge",
+        "page": {
+          "requestedTitle": "Oscar Peterson and Roy Eldridge",
+          "resolvedTitle": "Oscar Peterson and Roy Eldridge",
+          "shortDescription": "1975 studio album by Oscar Peterson & Roy Eldridge",
+          "extract": "Oscar Peterson and Roy Eldridge is an album by Oscar Peterson, on which he is accompanied by Roy Eldridge.\n\n\n== Track listing ==\n\"Little Jazz\" (Roy Eldridge, Buster Harding) – 4:45\n\"She's Funny That Way\" (Neil Moret, Richard Whiting) – 7:34\n\"The Way You Look Tonight\" (Dorothy Fields, Jerome Kern) – 6:22\n\"Sunday\" (Chester Conn, Benny Krueger, Nathan \"Ned\" Miller, Jule Styne) – 5:48\n\"Bad Hat Blues\" (Eldridge, Oscar Peterson) – 7:34\n\"Between the Devil and the Deep Blue Sea\" (Harold Arlen, Ted Koehler) – 5:16\n\"Blues for Chu\" (Eldridge, Peterson) – 5:46\n\n\n== Personnel ==\nPerformance\n\nRoy Eldridge – trumpet\nOscar Peterson – piano and organ\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "the-piano-soul-of-nat-king-cole",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Nathaniel Adams Coles, known professionally as Nat King Cole, was an American singer, jazz pianist, and actor.",
+    "contradictingQuote": "shortDescription: American singer and jazz pianist (1919–1965)",
+    "skepticDecision": "The albumDNA is wholesale the verbatim Nat King Cole artist-page lead with no album-level content; the evidence shortDescription confirms the described subject is the person, a different entity than this 1968 Pickwick album.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Nathaniel Adams Coles, known professionally as Nat King Cole, was an American singer, jazz pianist, and actor.",
+        "problem": "The entire albumDNA is the artist's biography (verbatim Wikipedia lead about the person), with zero content about this album - the item is an album, the prose is about a person",
+        "evidenceQuote": "American singer and jazz pianist (1919-1965)",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Catalog fields are solid: embedded MBID (authoritative) verifies title/artist/year/label (Pickwick/33 SPC-3187, 1968) and all five keyTracks (MB tracks 1-5). The corruption is the prose: it is the Nat King Cole biography lead verbatim - the spec's 'a person when the item is an album' case - and the stored wiki link is likewise the artist page, not an album page. The bio facts are true of Cole but say nothing about the album. Repair: write actual album prose. Note for the writer: Cole died in 1965 (wiki), so this 1968 Pickwick/33 release is posthumous; likely budget-label reissue material (background inference - verify externally; MB RG carries no Compilation secondary type).",
+    "ours": {
+      "title": "The Piano Soul of Nat King Cole",
+      "artist": "Nat King Cole",
+      "year": 1968,
+      "label": "Pickwick/33 Records",
+      "albumDNA": "Nathaniel Adams Coles, known professionally as Nat King Cole, was an American singer, jazz pianist, and actor. Cole's career as a jazz and pop vocalist started in the late 1930s and spanned almost three decades where he found success and recorded over 100 songs that became hits on the pop charts.",
+      "keyTracks": [
+        "Hear The Music",
+        "April In Paris",
+        "My Heart Stood Still",
+        "Love Walked In",
+        "I Want To Be Happy"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "02fabc89-5eeb-40d8-8a9a-12e7ff4b218d",
+          "title": "The Piano Soul of Nat King Cole",
+          "date": "1968",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Nat King Cole"
+          ],
+          "labels": [
+            {
+              "name": "Pickwick/33 Records",
+              "catalogNumber": "SPC-3187"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0657477d-32e2-4956-909f-472628eb2b3f",
+            "title": "The Piano Soul of Nat King Cole",
+            "firstReleaseDate": "1968",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Hear The Music",
+            "April In Paris",
+            "My Heart Stood Still",
+            "Love Walked In",
+            "I Want To Be Happy",
+            "Tea For Two",
+            "I Get A Kick Out of You",
+            "Just One Of Those Things",
+            "Stella By Starlight"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Nat_King_Cole",
+        "page": {
+          "requestedTitle": "Nat King Cole",
+          "resolvedTitle": "Nat King Cole",
+          "shortDescription": "American singer and jazz pianist (1919–1965)",
+          "extract": "Nathaniel Adams Coles (March 17, 1919 – February 15, 1965), known professionally as Nat King Cole, was an American singer, jazz pianist, and actor. Cole's career as a jazz and pop vocalist started in the late 1930s and spanned almost three decades where he found success and recorded over 100 songs that became hits on the pop charts.\nCole began his career as a jazz pianist in the late 1930s, when he formed the King Cole Trio, which became the top-selling group (and the only black act) on Capitol Records in the 1940s. Cole's trio was the model for small jazz ensembles that followed. Starting in 1950, he transitioned to become a solo singer billed as Nat King Cole. Despite achieving mainstream success, Cole faced intense racial discrimination during his career. While not a major vocal public figure in the civil rights movement, Cole was a member of his local NAACP branch and participated in the 1963 March on Washington. He regularly performed for civil rights organizations. From 1956 to 1957, Cole hosted the NBC variety series The Nat King Cole Show, which became the first nationally broadcast television show hosted by a Black American.\nSome of Cole's most notable singles include \"Unforgettable\", \"Smile\", \"A Blossom Fell\", \"Nature Boy\", \"When I Fall in Love\", \"Let There Be Love\", \"Mona Lisa\", \"Autumn Leaves\", \"Stardust\", \"Straighten Up and Fly Right\", \"The Very Thought of You\", \"For Sentimental Reasons\", \"Embraceable You\" and \"Almost Like Being in Love\". His 1960 Christmas album The Magic of Christmas (also known as The Christmas Song), was the best-selling Christmas album released in the 1960s; and was ranked as one of the 40 essential Christmas albums (2019) by Rolling Stone. In 2022, Cole's recording of \"The Christmas Song\", broke the record for the longest journey to the top ten on the Billboard Hot 100, when it peaked at number nine, 62 years after it debuted on the chart; and was selected by the Library of Congress for preservation in the United States National Recording Registry.\nCole received numerous accolades including a star on the Hollywood Walk of Fame (1960) and a Special Achievement Golden Globe Award. Posthumously, Cole has received the Grammy Lifetime Achievement Award (1990), along with the Sammy Cahn Lifetime Achievement Award (1992) and has been inducted into the DownBeat Jazz Hall of Fame  (1997), Rock and Roll Hall of Fame (2000), and the National Rhythm & Blues Hall of Fame (2020). NPR named him one of the 50 Great Voices. Cole was the father of singer Natalie Cole (1950–2015), who covered her father's songs in the 1991 album Unforgettable... with Love.\n\n\n== Early life ==\nNathaniel Adams Coles was born in Montgomery, Alabama, on March 17, 1919. He had three brothers: Eddie (1910–1970), Ike (1927–2001), and Freddy (1931–2020), and a half-sister, Joyce. Each of the Coles brothers pursued careers in music. When Cole was four years old, the family moved to Chicago, Illinois, where his father, Edward, became a Baptist minister. Cole learned to play the organ from his mother, Perlina (Adams) Coles, the church organist. His first performance was \"Yes! We Have No Bananas\" at the age of four. Cole began formal piano lessons at the age of 12, learning jazz, gospel, and classical music \"from Johann Sebastian Bach to Sergei Rachmaninoff\". As a youth, Cole joined the news delivery boys' \"Bud Billiken Club\" band for The Chicago Defender.\nCole and his family moved to the Bronzeville neighborhood of Chicago, where Cole attended Wendell Phillips Academy High School, the school Sam Cooke attended a few years later. Cole participated in Walter Dyett's music program at DuSable High School. He would sneak out of the house to visit clubs, sitting outside to hear Louis Armstrong, Earl Hines, and Jimmie Noone.\n\n\n== Career ==\n\n\n=== Early career ===\n\nWhen he was 15, Cole dropped out of high school to pursue a music career. After his brother Eddie, a bassist, came home from touring with Noble Sissle, they formed a sextet and recorded two singles for Decca in 1936 as Eddie Cole's Swingsters. They performed in a revival of the musical Shuffle Along. Nat Cole went on tour with the musical. In 1937, he married Nadine Robinson, who was a member of the cast. After the show ended in Los Angeles, Cole and Nadine settled there while he looked for work.\nOne day in 1938, as he was relaxing in his hotel room, Bing Crosby heard the Nat Cole Trio for the first time from Jim Otto's Steak House, and then took Johnny Mercer to hear them. Cr"
+        }
+      }
+    }
+  },
+  {
+    "id": "the-trio-volume-3-everybody-likes-hampton-hawes",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "The Sermon is an album of spirituals by American jazz pianist Hampton Hawes recorded in 1958, but not released on the Contemporary label until 1987.",
+    "contradictingQuote": "Everybody Likes Hampton Hawes, Vol. 3: The Trio",
+    "skepticDecision": "The albumDNA describes 'The Sermon' (an album of spirituals recorded 1958, released 1987), a wholly different album, while the embedded release for this item is titled 'Everybody Likes Hampton Hawes, Vol. 3: The Trio'.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "The Sermon is an album of spirituals by American jazz pianist Hampton Hawes recorded in 1958, but not released on the Contemporary label until 1987.",
+        "problem": "Describes a different Hampton Hawes album (The Sermon, recorded 1958, released 1987); our item per embedded MBID is the 1956 trio album. The collision likely happened because our album contains a track titled 'The Sermon'.",
+        "evidenceQuote": "title: \"Everybody Likes Hampton Hawes, Vol. 3: The Trio\"; date: \"1956\"",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Fields are correct per embedded MBID (Contemporary C3523, 1956) and all 5 keyTracks are on the MB tracklist -- including the track 'The Sermon', which explains the wrong article match. The Sermon album's wiki tracklist (spirituals: Down by the Riverside, etc.) shares nothing with our album. The second prose sentence is generic filler ('cool jazz vocabulary of the hard bop period'). Stored wiki link points to The Sermon (Hampton Hawes album) -- wrong entity shown to users. Repair: rewrite prose for the 1956 trio album; replace the wiki link.",
+    "ours": {
+      "title": "The Trio, Volume 3: Everybody Likes Hampton Hawes",
+      "artist": "Hampton Hawes",
+      "year": 1956,
+      "label": "Contemporary Records",
+      "albumDNA": "The Sermon is an album of spirituals by American jazz pianist Hampton Hawes recorded in 1958, but not released on the Contemporary label until 1987. A Contemporary Records session that documents pianist Hampton Hawes working through the cool jazz vocabulary of the hard bop period.",
+      "keyTracks": [
+        "Somebody Loves Me",
+        "The Sermon",
+        "Embraceable You",
+        "I Remember You",
+        "A Night in Tunisia"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "353ad0ff-8eec-450d-82a7-d80fa78e9d98",
+          "title": "Everybody Likes Hampton Hawes, Vol. 3: The Trio",
+          "date": "1956",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Hampton Hawes"
+          ],
+          "labels": [
+            {
+              "name": "Contemporary Records",
+              "catalogNumber": "C3523"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "05a2f383-b673-3504-b277-c69840962a99",
+            "title": "The Trio, Volume 3: Everybody Likes Hampton Hawes",
+            "firstReleaseDate": "1956",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Somebody Loves Me",
+            "The Sermon",
+            "Embraceable You",
+            "I Remember You",
+            "A Night in Tunisia",
+            "Lover, Come Back to Me",
+            "Polka Dots and Moonbeams",
+            "Billy Boy",
+            "Body and Soul",
+            "Coolin' the Blues"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/The_Sermon_(Hampton_Hawes_album)",
+        "page": {
+          "requestedTitle": "The Sermon (Hampton Hawes album)",
+          "resolvedTitle": "The Sermon (Hampton Hawes album)",
+          "shortDescription": "1987 studio album by Hampton Hawes",
+          "extract": "The Sermon is an album of spirituals by American jazz pianist Hampton Hawes recorded in 1958, but not released on the Contemporary label until 1987.\n\n\n== Reception ==\nThe Allmusic review by Scott Yanow called said the album was \"full of intense emotion, strong melodies and a little more variety than one might expect\" and stated \"This set was pianist Hampton Hawes' last before he started what would be five years in prison on drug charges. He had been arrested 11 days before and ironically chose to record a set of spirituals (plus a blues) as he awaited trial\".  \n\n\n== Track listing ==\nAll compositions are traditional except as indicated\n\n\"Down by the Riverside\" – 4:43\n\"Just a Closer Walk with Thee\" – 5:00\n\"Swing Low, Sweet Chariot\" – 4:52\n\"Nobody Knows the Trouble I've Seen\" – 4:52\n\"When The Roll Is Called Up Yonder\" – 4:31\n\"Go Down Moses\" – 4:33\n\"Joshua Fit de Battle of Jericho\" – 3:54\n\"Blues N/C\" (Hampton Hawes) - 8:49\n\n\n== Personnel ==\nHampton Hawes – piano\nLeroy Vinnegar – bass\nStan Levey – drums\n\n\n== References =="
+        }
+      }
+    }
+  }
+]

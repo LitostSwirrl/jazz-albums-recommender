@@ -1,0 +1,276 @@
+[
+ {
+  "id": "time-capsule",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (sim 1.0) and wiki page both about Elvin Jones' Time Capsule. Year 1977, label Vanguard, all 5 keyTracks match MB tracklist. albumDNA mirrors the entity-matched wiki extract verbatim; remainder is editorial. 'recorded 1976-77 / released 1977' reconciles with MB date 1977."
+ },
+ {
+  "id": "1-oqa19",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid authoritative: Muhal Richard Abrams, Black Saint BSR 0017, 1978; all 5 keyTracks match. Personnel named in DNA (Braxton, Threadgill, McCall, Leonard Jones) match wiki. Note: DNA prose says 'released... in 1977' while the year field (1978) and MB firstReleaseDate (1978) say 1978; wiki extract also says 1977 and gives recording as Nov-Dec 1977, so this reconciles as recorded-1977/released-1978 -- not flagged as error. Final DNA sentence ('He recorded and toured the United States, Canada and Europe...') is generic artist-bio boilerplate."
+ },
+ {
+  "id": "african-violet",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: Blue Mitchell, ABC Impulse!, 1978-03; all 5 keyTracks match MB. Wiki 'African Violet (album)' is about our album. DNA 'arrangements by McKinley Mitchell' looks suspect (wiki personnel lists McKinley Jackson on synth, not a 'McKinley Mitchell'), BUT the DNA copies the entity-matched wiki extract verbatim ('features arrangements by McKinley Mitchell'), so the error originates in Wikipedia itself -- not flagged as ours-vs-evidence. Repair-writer may want to correct to McKinley Jackson."
+ },
+ {
+  "id": "exotic-mysteries",
+  "verdict": "clean",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "unsure",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: Lonnie Liston Smith, Columbia JC 35654, 1978; all 5 keyTracks match MB. Album-specific facts (Columbia 1978, jazz-funk, pianist) check out; bio facts in DNA (played with Pharoah Sanders and Miles Davis, formed the Cosmic Echoes) match the wiki artist page. PROSE QUALITY ISSUE (not a factual error): albumDNA has a dangling appended sentence -- '...among its selections. is an American jazz, soul, and funk musician who played with...' -- the artist-bio text was grafted on without a subject. wikipediaUrl points to the ARTIST bio page (Lonnie Liston Smith), not an album page; it is the correct artist (not a disambiguation collision) but not the album, hence wikiLink 'unsure'."
+ },
+ {
+  "id": "lanquidity",
+  "verdict": "clean",
+  "confidence": 0.78,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "unsure"},
+  "wikiLinkVerdict": "unsure",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (sim 1.0): Sun Ra, Philly Jazz Inc. PJ666, 1978-08-14; all 4 keyTracks match MB. Artist/label/year all consistent. PROSE QUALITY ISSUE (not factual error): the albumDNA contains no real Lanquidity-specific content -- the first three sentences are generic Sun Ra discography boilerplate ('The Sun Ra discography is one of the largest...') and the rest is editorial ('Proof that Sun Ra could create deeply hypnotic music...', 'rediscovered by electronic music producers'). Nothing contradicts the evidence. wikipediaUrl is the 'Sun Ra discography' page (correct artist, but a discography overview, not this album's page), hence wikiLink 'unsure'."
+ },
+ {
+  "id": "little-reds-fantasy",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid resolves to the 1999 32 Jazz REISSUE (release date 1999, label '32 Jazz', cat 32126), but the release-group firstReleaseDate is 1978 and artist is Woody Shaw; all 5 keyTracks match the MB tracklist. Year 1978 confirmed by release-group. The label field 'Muse Records' is the original 1978 pressing's label, which is NOT in the evidence (MB shows only the 32 Jazz reissue) -- cannot be verified, but the reissue label does not contradict it. No wikipedia. Verdict unverifiable on the strength of the unconfirmable label; everything else checks out."
+ },
+ {
+  "id": "my-song",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (sim 1.0) and wiki both about Keith Jarrett's My Song (ECM 1115, 1978). All 4 keyTracks match MB. DNA (recorded Nov 1977, released ECM mid-1978, second European Quartet release with Garbarek/Danielsson/Christensen after Belonging 1974) mirrors the entity-matched wiki verbatim; rest is editorial."
+ },
+ {
+  "id": "natures-revenge",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: title Nature's Revenge, 1978, MPS, credited 'Ryo Kawasaki Group' + David Liebman; all 5 keyTracks match MB. Ours credits 'Ryo Kawasaki' (group leader) -- acceptable. Label MPS and year 1978 match. DNA names tracks Nature's Revenge / Body and Soul / Choro, all on the MB tracklist. No wikipedia. David Liebman co-credit omitted from DNA -- legitimate editorial omission."
+ },
+ {
+  "id": "rosewood",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (sim 1.0) and wiki both about Woody Shaw's Rosewood (Columbia JC 35309, 1978). All 5 keyTracks match MB (keyTrack 'The Legend of Cheops' == MB 'The Legend of Cheops'; wiki variant 'The Legend of the Cheops' is the same track). DNA (trumpeter Woody Shaw, recorded 1977, Columbia 1978, hard bop) mirrors wiki; rest editorial."
+ },
+ {
+  "id": "school",
+  "verdict": "entity_mismatch",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Pool is an album by John Zorn featuring his early \"game piece\" composition of the same name which was first released on vinyl on Parachute Records in 1980 as a double album including the composition \"Hockey\".", "problem": "The entire albumDNA describes a DIFFERENT John Zorn album -- 'Pool' (1980) -- not our album 'School' (1978). Classic wrong-wikipedia-page substitution. The wikipediaUrl also points to the Pool page.", "evidenceQuote": "Pool is an album by John Zorn ... first released on vinyl on Parachute Records in 1980 ... The album was the first released solely under Zorn's name following his collaboration with Eugene Chadbourne, School (1978).", "source": "wiki"}
+  ],
+  "notes": "Disease case. The CATALOG FIELDS are correct for School: MB embedded_mbid confirms title 'School', 1978, Parachute P004/6, credited Eugene Chadbourne + John Zorn, and all 5 keyTracks (Solitude/Duet/The Return of Romance/The Shreeve/The Fling) match the MB tracklist. BUT the albumDNA prose and the stored wikipediaUrl are entirely about Zorn's later album 'Pool' (1980) -- the prose's factual skeleton (Pool, 1980 double LP, 'Hockey', Tzadik CD reissue, Parachute Years Box Set) belongs to a different entity. Repair-writer: rewrite DNA from School's facts and replace the wiki link (current page is 'Pool (John Zorn album)')."
+ },
+ {
+  "id": "spirits-rejoice-moholo",
+  "verdict": "unverifiable",
+  "confidence": 0.65,
+  "entityMatch": {"musicbrainz": "unsure", "wikipedia": "yes"},
+  "wikiLinkVerdict": "unsure",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Right album confirmed: wiki artist page (Louis Moholo) discography lists 'Louis Moholo; Spirits Rejoice!; Ogun: OG520 (1978)' -- matches ours (Ogun, 1978). MB evidence is the 2006 Septet/Octet CD compilation 'Bra Louis - Bra Tebs / Spirits Rejoice!' (secondaryType Compilation), not the 1978 original, hence MB entity 'unsure' -- but all 6 keyTracks (Sonke, Lakutshona Ilanga / Ntyilo-Ntyilo, Unisone, B My Dear, Maybe of Cause, Utshaka) match that compilation tracklist exactly. UNVERIFIABLE / FLAG: the albumDNA names three 'selections' that the keyTracks and evidence do not support -- (a) a track literally titled 'Spirits Rejoice!' is not in the MB tracklist (the album is named that, but no such track appears); (b) 'You Ain't Gonna Know Me 'Cos You Think You Know Me' IS in the MB tracklist (ok); (c) 'Spiritual Knowledge and Grace' appears in the same wiki discography as a SEPARATE 2011 album (Ogun OGCD035), not a track here, and is absent from the MB tracklist. Per the absence-is-not-contradiction rule these are unverifiable rather than proven-wrong, but (a) and (c) look like editorial conflations a repair-writer should fix. wikipediaUrl is the correct artist's bio page, not an album page, hence wikiLink 'unsure'."
+ },
+ {
+  "id": "summer-soft",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (sim 1.0) and wiki both about Blue Mitchell's Summer Soft (ABC Records IA-9347, 1978); all 5 keyTracks match MB. DNA (recorded 1977, his final album) mirrors the entity-matched wiki. Minor internal wording: DNA says both 'released on the Impulse! label' (from wiki) and 'Released by ABC Records' -- the label field 'ABC Records' matches MB, and ABC/Impulse! are the same corporate family, so no contradiction."
+ },
+ {
+  "id": "the-cecil-taylor-unit",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: Cecil Taylor, New World Records, release-group firstReleaseDate 1978; all 3 keyTracks (Idut, Serdab, Holiday en masque) match MB tracklist exactly. (MB release 'date' field is empty but release-group gives 1978, matching ours.) Label and year consistent. DNA names Idut/Serdab (both on tracklist); rest editorial. No wikipedia."
+ },
+ {
+  "id": "third-plane",
+  "verdict": "factual_error",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "artist", "ours": "Tony Williams", "evidence": "Ron Carter", "evidenceQuote": "Third Plane is an album by jazz bassist Ron Carter, released on the Milestone label in 1977.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "The album is correctly identified (Third Plane, the Carter/Hancock/Williams trio date) -- MB embedded_mbid credits 'Ron Carter', wiki says 'album by jazz bassist Ron Carter', and all 5 keyTracks match. But our ARTIST field attributes it to 'Tony Williams', who is the drummer/sideman, not the leader. Both MB and wiki contradict that attribution -> factual_error (wrong leader). The albumDNA itself correctly states 'album by jazz bassist Ron Carter ... features Carter, Herbie Hancock and Tony Williams', so only the catalog artist field is wrong. Label note: field 'JVC' matches MB (1978 Japanese pressing); DNA 'Milestone label ... 1977' matches the wiki (US original) -- both legitimate, original Milestone 1977 / JVC reissue 1978. wikipediaUrl is the correct album page."
+ },
+ {
+  "id": "third-plane-hancock",
+  "verdict": "factual_error",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "artist", "ours": "Herbie Hancock", "evidence": "Ron Carter", "evidenceQuote": "Third Plane is an album by jazz bassist Ron Carter, released on the Milestone label in 1977.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Same album/evidence as 'third-plane'. Album is Ron Carter's Third Plane (MB credits Ron Carter; wiki 'album by jazz bassist Ron Carter'); all 5 keyTracks match. Our ARTIST field attributes it to 'Herbie Hancock', the pianist/sideman, not the leader -> factual_error (wrong leader). NB the wiki notes a SEPARATE album from the same sessions was released under Hancock's name as 'Herbie Hancock Trio' -- but THIS title (Third Plane) is Carter's, so the Hancock attribution is wrong. albumDNA correctly says 'album by jazz bassist Ron Carter'. wikipediaUrl is the correct album page. This and 'third-plane' are duplicate catalog rows for one album, each misattributed to a different sideman."
+ },
+ {
+  "id": "you-send-me",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid and wiki both about Roy Ayers' You Send Me (Polydor PD-1-6159, 1978-07-24); all 5 keyTracks match MB. DNA (released 1978 on Polydor, recorded at Sigma Sound and Electric Lady, produced by Roy Ayers and Carla Vaughn) mirrors the entity-matched wiki verbatim."
+ },
+ {
+  "id": "codona",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (sim 1.0) and wiki both about Codona (ECM 1132, 1979). keyTracks Codona/Mumakata/New Light match MB directly; 'Race Face' matches as a substring of the MB medley track 'Colemanwonder: Race Face / Sortie / Sir Duke' (allowed). DNA (Collin Walcott sitar/tabla, Don Cherry trumpet, Nana Vasconcelos percussion, recorded Sept 1978, first of three self-titled albums) mirrors the entity-matched wiki verbatim."
+ },
+ {
+  "id": "gitane",
+  "verdict": "clean",
+  "confidence": 0.93,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid and wiki both about Gitane (All Life AL 001, 1979) by Charlie Haden + Christian Escoude; all 5 keyTracks match MB. DNA (Haden bass, Escoude gypsy-jazz guitar, 1979, most compositions by Django Reinhardt) mirrors the entity-matched wiki verbatim. Label All Life and year 1979 match."
+ },
+ {
+  "id": "in-the-tradition",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Blythe's second Columbia album reinterprets jazz standards and originals", "problem": "Our DNA calls this Blythe's SECOND Columbia album, but the entity-matched wiki states it was his FIRST Columbia album.", "evidenceQuote": "His first album for the Columbia label, it was recorded in New York City in 1978.", "source": "wiki"}
+  ],
+  "notes": "Right album (MB sim 1.0 and wiki both Arthur Blythe, In the Tradition, Columbia JC 36300, 1979); all 4 keyTracks match MB. Personnel claim 'Fred Hopkins on bass and Steve McCall on drums' matches wiki personnel exactly. Track attributions ('In a Sentimental Mood', Fats Waller's 'Jitterbug Waltz') are correct per wiki. The single contradiction: DNA says 'second Columbia album'; wiki says it is his FIRST Columbia album -> factual_error. (Real-world note: the sibling item 'lenox-avenue-breakdown' calls THAT one his 'major label debut'; the two cannot both be his debut/first -- the evidence here resolves In the Tradition as the first Columbia album. Flag for repair.)"
+ },
+ {
+  "id": "lenox-avenue-breakdown",
+  "verdict": "factual_error",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Bush Baby"],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "keyTracks include \"Bush Baby\"", "problem": "'Bush Baby' is not on the album's authoritative tracklist. The MB release (search, sim 1.0) lists exactly four tracks and 'Bush Baby' is not among them.", "evidenceQuote": "Down San Diego Way; Lenox Avenue Breakdown; Slidin' Through; Odessa", "source": "mb"}
+  ],
+  "notes": "Right album: MB search (sim 1.0) = Arthur Blythe, Lenox Avenue Breakdown, Columbia JC35638, 1979. Three keyTracks (Lenox Avenue Breakdown, Slidin' Through, Down San Diego Way) match MB; the fourth, 'Bush Baby', is NOT on the four-track MB tracklist (which instead has 'Odessa') -> keyTracks mismatch, scored as factual_error per the keyTracks rule. UNVERIFIABLE (noted, not flagged as error): personnel claims 'James Newton's flute and Bob Stewart's tuba' and 'major label debut' cannot be checked -- no personnel in MB evidence and no wikipedia (opensearch returned nothing). Editorial framing otherwise. No wikipediaUrl stored."
+ },
+ {
+  "id": "saxophone-supremacy",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "(Internal id 'saxophone-supremacy' is unrelated to content.) MB search (sim 0.8) and wiki both about 'Photo With Blue Sky, White Cloud, Wires, Windows and a Red Roof' by the Jan Garbarek Group (ECM 1135, 1979). keyTracks Blue Sky/White Cloud/Windows/Red Roof/Wires match MB; 'The Pictures' matches MB 'The Picture' (singular -- same track). DNA (Jan Garbarek Group, recorded 20 Dec 1978, released ECM 1979, with Bill Connors/John Taylor/Eberhard Weber/Jon Christensen) mirrors the entity-matched wiki verbatim. Ours credits 'Jan Garbarek' vs MB 'Jan Garbarek Group' -- acceptable."
+ },
+ {
+  "id": "soapsuds-soapsuds",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid and wiki both about Soapsuds, Soapsuds (Artists House AH 6, 1979) -- Ornette Coleman / Charlie Haden duets; all 5 keyTracks match MB. DNA (duets by Coleman and bassist Charlie Haden, recorded 1977) mirrors the entity-matched wiki verbatim; year field 1979 matches MB. Minor (not flagged): DNA's general epithet 'alto saxophonist Ornette Coleman' is true of Coleman overall, though on THIS album he plays tenor and trumpet per wiki ('Coleman switches to tenor and trumpet'); the DNA also correctly calls him 'saxophonist/trumpeter' earlier, so no contradiction of identity."
+ }
+]

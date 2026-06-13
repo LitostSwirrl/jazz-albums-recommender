@@ -1,0 +1,320 @@
+[
+ {
+  "id": "crystal-stair-blanchard",
+  "verdict": "entity_mismatch",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Black Pearl is an album by the American jazz duo Harrison/Blanchard, released in 1988. It was their final album together; Terence Blanchard began his long partnership with the director Spike Lee on School Daze, released the same year. The duo supported the album with a North American tour.",
+    "problem": "The entire albumDNA describes a DIFFERENT album, 'Black Pearl' (1988), not 'Crystal Stair' (1987). Title, year (1988 vs 1987), and 'final album' framing all belong to Black Pearl.",
+    "evidenceQuote": "Black Pearl is an album by the American jazz duo Harrison/Blanchard, released in 1988. It was their final album together",
+    "source": "wiki"}
+  ],
+  "notes": "Fields are CORRECT for Crystal Stair: MB embedded_mbid confirms title 'Crystal Stair', 1987, Columbia (CK 40830), Terence Blanchard + Donald Harrison. All 5 keyTracks match the MB tracklist. Only the albumDNA prose is swapped in from the Black Pearl Wikipedia page (stored_url = Black_Pearl_(Harrison/Blanchard_album)). Repair: keep fields/keyTracks, rewrite DNA to describe Crystal Stair and fix the wikipediaUrl."
+ },
+ {
+  "id": "deliverance",
+  "verdict": "factual_error",
+  "confidence": 0.78,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Baobab Sunset", "Na selele"],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "keyTracks: Baobab Sunset, Na selele",
+    "problem": "Two listed keyTracks do not appear on the authoritative (embedded_mbid) tracklist for this release.",
+    "evidenceQuote": "Tropical Garden, Ah Freak Sans Fric, Oh Oh, Canta, Mboa, Village's News, Gentlemen de Camp Yabassi, Deliverance",
+    "source": "mb"}
+  ],
+  "notes": "albumDNA itself is clean and entity-confirmed: MB embedded_mbid confirms Manu Dibango, Deliverance, 1987, Disques Esperance; the three tracks named in the prose (Tropical Garden, Ah Freak Sans Fric, Oh Oh) are all on the tracklist. Of the 6 keyTracks, Canta / Village's News / Deliverance / Gentlemen de Camp Yabassi match; 'Baobab Sunset' and 'Na selele' are not on this release (may belong to a different Dibango release). Wikipedia evidence is an opensearch disambiguation page, not our album — discarded."
+ },
+ {
+  "id": "satchmo",
+  "verdict": "entity_mismatch",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Mi va di cantare", "We Have All the Time in the World", "Hello Dolly", "You Go to My Head", "Summertime"],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Louis Daniel Armstrong, nicknamed \"Satchmo\", \"Satch\", and \"Pops\", was an American jazz and blues trumpeter and vocalist. He was among the most influential figures in jazz...",
+    "problem": "The albumDNA is a biography of the PERSON Louis Armstrong (copied from his artist Wikipedia page), not a description of the album 'Satchmo'. Wrong kind of content for an album item.",
+    "evidenceQuote": "Louis Daniel Armstrong (August 4, 1901 – July 6, 1971), nicknamed \"Satchmo\", \"Satch\", and \"Pops\", was an American jazz and blues trumpeter and vocalist.",
+    "source": "wiki"}
+  ],
+  "notes": "Album fields are correct (MB embedded_mbid: Satchmo, 1987, Pickwick Compact Discs PWK 009, Compilation, Louis Armstrong). The bio facts are accurate to Armstrong and the stored wiki link is Armstrong's own (correct) artist page, so wikiLinkVerdict=correct and entityMatch.wikipedia=yes — but the page is the artist bio, not the album, and the prose is a person-bio dump (entity_mismatch tell: 'a person when the item is an album'). SEPARATE problem: the keyTracks (Mi va di cantare, We Have All the Time in the World, Hello Dolly, You Go to My Head, Summertime) do NOT match this Pickwick compilation's tracklist; only 'Bye n Bye' ~ 'Bye and Bye'. The keyTracks were evidently scraped from a different 'Satchmo' release. Repair: rewrite DNA to describe THIS album and re-derive keyTracks from the Pickwick tracklist."
+ },
+ {
+  "id": "the-healers",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Fully consistent. MB embedded_mbid and the correct Wikipedia page both confirm: The Healers, David Murray + Randy Weston, Black Saint (Italian), 1987, duo performances. All 4 keyTracks match (M'Bizo = Mbizo). albumDNA is verbatim/consistent with the Wikipedia lead."
+ },
+ {
+  "id": "the-racer",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms The Racer, Ronnie Foster, ProJazz, 1987; all 5 keyTracks match the tracklist. The bio sentence ('His albums recorded for Blue Note Records in the 1970s have gained a cult following after the emergence of acid jazz') is verbatim from the correct Ronnie Foster artist page (stored_url). 'jazz-funk' is editorial framing. Stored wiki link is the artist's own page (correct artist)."
+ },
+ {
+  "id": "verona-rag",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid (release date blank but release-group firstReleaseDate 1987) and the correct Wikipedia page confirm: Verona Rag, Andrew Hill, Soul Note (Italian), recorded 1986 / released 1987, solo piano. All 5 keyTracks match (Afternoon In Paris = Afternoon in Paris). albumDNA is verbatim from Wikipedia."
+ },
+ {
+  "id": "blue-skies",
+  "verdict": "clean",
+  "confidence": 0.98,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid and correct Wikipedia page confirm: Blue Skies, Cassandra Wilson (3rd studio album), JMT, 1988-09-06. All 5 keyTracks match. Personnel named in prose (Mulgrew Miller, Terri Lyne Carrington, Lonnie Plaxico) all confirmed in the Wikipedia personnel section."
+ },
+ {
+  "id": "the-popular-duke-ellington",
+  "verdict": "factual_error",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["I Got It Bad And That Ain't Good", "Perdido", "The Twitch"],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "keyTracks: I Got It Bad And That Ain't Good, Perdido, The Twitch",
+    "problem": "Three listed keyTracks are absent from the MB-matched tracklist for this Phontastic 1988 release.",
+    "evidenceQuote": "East St. Louis Toodle-Oo, Black and Tan Fantasy, Creole Love Call, Hot and Bothered, Ring dem Bells, Mood Indigo, Rockin' in Rhythm, Echoes of the Jungle, Daybreak Express, Clarinet Lament (Barney's Concerto), Echoes of Harlem (Cootie's Concerto), Diminuendo in Blue/Crescendo in Blue, Jeep's Blues, Ko-ko, Conga Brava, Harlem Air Shaft, Take the \"A\" Train, Hy'a Sue, Golden Cress, U.M.M.G.",
+    "source": "mb"}
+  ],
+  "notes": "Caveat: MB method is 'search' (not embedded). The matched RELEASE is titled 'The Eternal Ellington' but its release-group is titled 'Duke Ellington' (firstReleaseDate 1988) on Phontastic (cat 7666), topArtistSimilarity 1.0 — a strong match to our 'Duke Ellington' / Phontastic / 1988, so entityMatch.musicbrainz=yes. The albumDNA itself is CLEAN: both tracks it names (East St. Louis Toodle-Oo, Black and Tan Fantasy) are on the tracklist, label and year correct, and the Gleason quote ('America's most important composer') is verbatim from the Ellington artist page. Only the keyTracks field is off: 'Take the A Train', 'Mood Indigo', 'Black And Tan Fantasy' match; 'I Got It Bad', 'Perdido', 'The Twitch' do not appear on this pressing (could be on a different Phontastic pressing — moderate confidence). Stored wiki link is Ellington's correct artist page."
+ },
+ {
+  "id": "jazz-at-storyville",
+  "verdict": "clean",
+  "confidence": 0.82,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms Jazz at Storyville, Sidney Bechet, Black Lion (BLCD 760902), 1988; the two tracks named in the prose and all 5 keyTracks match the tracklist. No Wikipedia evidence (opensearch returned no page). ANACHRONISM noted (not flagged, no contradicting evidence passage): the prose says 'recorded for Black Lion in 1988', but Bechet died in 1959 (background knowledge, not citable from pack); 1988 is the Black Lion release/compilation date. MB release-group secondaryTypes is empty (not marked Compilation) despite this being an archival reissue. Era framing ('formative years') and 'clarinetist' are editorial/attribute, not flagged."
+ },
+ {
+  "id": "look-what-i-got",
+  "verdict": "factual_error",
+  "confidence": 0.55,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Tight"],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "keyTracks: Tight",
+    "problem": "'Tight' is not a track on the album; the album's track is 'Mr. Gentleman', subtitled '(Sequel to Tight)'. 'Tight' appears only as a parenthetical reference.",
+    "evidenceQuote": "\"Mr. Gentleman\" (Sequel to \"Tight\") (Carter) – 2:40",
+    "source": "wiki"}
+  ],
+  "notes": "MARGINAL flag. MB (search, sim 1.0) and the correct Wikipedia page confirm: Look What I Got!, Betty Carter, Verve, 1988; the Grammy claim ('Best Jazz Vocal Performance, Female') is verbatim from Wikipedia. keyTracks 'Look What I Got', 'The Man I Love', 'That Sunday That Summer' match. 'Tight' is not a standalone track — it is the title referenced by the track 'Mr. Gentleman (Sequel to Tight)'. Listing it as a keyTrack is technically incorrect, hence factual_error, but it is a thin/defensible inclusion (low confidence). Prose is otherwise clean."
+ },
+ {
+  "id": "ritual-the-modern-jazz-messengers",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid (1988 Japanese CD reissue, Pacific Jazz CB32-5374) and the correct Wikipedia page confirm the album. albumDNA is verbatim from Wikipedia and accurately describes the original release history (PJM-402, 1962 reissue PJ-33). All 5 keyTracks match the tracklist. Our year field 1988 matches the MB reissue date; Wikipedia frames the original as 1960 — no contradiction (different pressings)."
+ },
+ {
+  "id": "shades-of-change",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms Shades of Change, enja (5017-35), 1988; both tracks named in the prose and all 5 keyTracks match the tracklist. NOTE for repair writer: MB lists the credit as a collective — 'David Friedman, Geri Allen, Anthony Cox, Ronnie Burrage' (Friedman first) — while our prose frames it as 'Geri Allen's album'. Per the editorial-leeway rule this is not flagged (Allen is genuinely credited), but the co-leader credit is worth surfacing. No Wikipedia evidence (opensearch empty)."
+ },
+ {
+  "id": "stories",
+  "verdict": "entity_mismatch",
+  "confidence": 0.93,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Sail Away is an album by the American musician Tom Harrell. It was released in 1989 via Contemporary Records. The title track became a jazz standard. The album was reissued in 2003 with two bonus tracks.",
+    "problem": "The entire albumDNA describes a DIFFERENT album, 'Sail Away' (1989, Contemporary Records), not 'Stories' (1988). Title, year, and label all belong to Sail Away.",
+    "evidenceQuote": "Sail Away is an album by the American musician Tom Harrell. It was released in 1989 via Contemporary Records.",
+    "source": "wiki"}
+  ],
+  "notes": "Fields/keyTracks are CORRECT for Stories: MB (search, sim 1.0) confirms title 'Stories', Tom Harrell, 1988, and all 5 keyTracks match the tracklist. Only the albumDNA prose is swapped in from the Sail Away Wikipedia page (stored_url = Sail_Away_(Tom_Harrell_album)). Label field is 'Unknown' (MB has no label). Repair: keep fields/keyTracks, rewrite DNA to describe Stories and fix the wikipediaUrl."
+ },
+ {
+  "id": "the-eternal-triangle",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity is well-confirmed: MB embedded_mbid gives The Eternal Triangle, Freddie Hubbard + Woody Shaw, Blue Note (B1-48017), 1988; all 5 keyTracks match the tracklist. No contradictions. BUT several substantive prose claims cannot be checked against the pack: the specific personnel ('Ray Drummond, Carl Allen, Mulgrew Miller and Kenny Garrett'), 'recorded in June 1987', the related albums 'Double Take (1985)' and 'The Complete Freddie Hubbard and Woody Shaw Sessions (1995)'. MB has no personnel and there is no Wikipedia page (opensearch empty). Marked unverifiable on those added details; the core album identity is solid."
+ },
+ {
+  "id": "the-gil-evans-orchestra-plays-the-music-of-jimi-hendrix",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Correct entity throughout. MB embedded_mbid release-group is titled 'The Gil Evans Orchestra Plays the Music of Jimi Hendrix' (firstReleaseDate 1988); all 5 keyTracks match (Foxy/Foxey Lady, take-1 suffix variants ignored). The opensearch Wikipedia page resolved to the genuinely correct page (shortDescription '1974 studio album by Gil Evans Orchestra'), and albumDNA is verbatim from it; personnel named (David Sanborn, Howard Johnson, Billy Harper, John Abercrombie), 'recorded in 1974', and 'CD reissue 1988' all confirmed in the Wikipedia body. CAVEAT: the specific MB release the MBID points to is a 2002 Bluebird reissue (date 2002-02-05); our year 1988 = the CD-reissue year per Wikipedia. Label field 'BMG' vs MB 'Bluebird' is not a contradiction (Bluebird is a BMG/RCA imprint and the resolved release is the 2002 pressing). ours.wikipediaUrl is null -> none_stored."
+ },
+ {
+  "id": "carols-of-christmas",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms Carols of Christmas, 1989, Hallmark Music (629XPR9734); the three tracks named in the prose and all 5 keyTracks match the tracklist. The bio sentence (Sassy / The Divine One / Queen of Bebop, two Grammys incl. Lifetime Achievement, nine nominations) is verbatim from the correct Sarah Vaughan artist page (stored_url). NOTE: MB credits co-artists Samuel Ramey and the Mormon Tabernacle Choir alongside Vaughan; prose frames it as Vaughan's (editorial, not flagged). Stored wiki link is Vaughan's correct artist page."
+ },
+ {
+  "id": "chet-baker-live-in-rosenheim",
+  "verdict": "no_evidence",
+  "confidence": 0.72,
+  "entityMatch": {"musicbrainz": "no", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "The stored MBID (embedded_mbid) resolves to an UNRELATED release: an EmArcy compilation simply titled 'Chet Baker' (1989, secondaryType Compilation) whose tracklist (Summertime, The Girl from Greenland, Anticipated Blues, Chet, I'll Remember April, ...) shares ZERO tracks with our keyTracks (Funk in deep freeze, I'm a fool to want you, Portrait in black and white, In a sentimental mood, If I should lose you) and is a different product from our live album 'Chet Baker live in Rosenheim'. Entity-match for MB therefore fails (correct artist Chet Baker and year 1989, but wrong release/title/tracklist). No Wikipedia evidence (opensearch empty). With no evidence document surviving entity-matching, nothing in the prose or keyTracks can be verified -> no_evidence. ACTION: the dataset's stored MBID for this album is wrong (points to the EmArcy 'Chet Baker' compilation); it should be re-resolved to the actual Rosenheim live release."
+ },
+ {
+  "id": "close-enough",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (search, sim 1.0) and the correct Wikipedia page confirm: Close Enough for Love, Shirley Horn, Verve (837 933-2), 1989. All 6 keyTracks match (A Beautiful Friendship = Beautiful Friendship). QUALITY ISSUE (not a factual error): the prose garbles Wikipedia's 'It was her second album on the Verve Records label' into 'It was her second album; her first studio album, was on the Verve Records label.' The underlying claim (second Verve album) still matches Wikipedia. 'Diana Krall influence' / 'less could be more' are editorial. Repair writer should clean up the mangled sentence."
+ },
+ {
+  "id": "cool-cat",
+  "verdict": "clean",
+  "confidence": 0.96,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid and the correct Wikipedia page confirm: Cool Cat, Chet Baker, Timeless Records (Dutch, CDSJP 262), recorded 1986 / released 1989. All 5 keyTracks match the tracklist. albumDNA is verbatim/consistent with Wikipedia."
+ },
+ {
+  "id": "fat-jazz",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid (Fresh Sound CD reissue, FSR-CD 18, 1989, 'Jackie McLean Sextet') and the correct Wikipedia page confirm the album. albumDNA is verbatim from Wikipedia and accurately describes the original (recorded late 1957, released by Jubilee 1959); the sextet personnel named (Webster Young, Ray Draper, Gil Coggins, George Tucker, Larry Ritchie) all match the Wikipedia personnel. All 5 keyTracks match (Filide/Filide, Tune-Up/Tune Up). Our year 1989 = the Fresh Sound reissue date."
+ },
+ {
+  "id": "jazz-street",
+  "verdict": "clean",
+  "confidence": 0.88,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is CLEAN and entity-confirmed: MB (search, sim 1.0) confirms Jazz Street, Jaco Pastorius + Brian Melvin, Timeless Records (CD SJP 258), 1989; all 5 keyTracks match the tracklist. The albumDNA makes no false claims (jazz fusion framing is editorial; named tracks present). BUT the stored wikipediaUrl is completely wrong: https://en.wikipedia.org/wiki/Red_Rose_Speedway is a 1973 Paul McCartney & Wings album, an unrelated entity (wikiLinkVerdict=wrong_entity). That page is discarded for fact-checking. ACTION: fix the wikipediaUrl (the site is showing users a McCartney/Wings page for a Jaco Pastorius album)."
+ },
+ {
+  "id": "on-fire",
+  "verdict": "clean",
+  "confidence": 0.96,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid and the correct Wikipedia page confirm: On Fire, Michel Camilo, Epic (EK 45295), 1989-10-03. All 5 keyTracks match (Hands & Feet = Hands and Feet). albumDNA is verbatim from Wikipedia ('Latin jazz music, mostly by the Dominican composer Michel Camilo... released in 1989')."
+ },
+ {
+  "id": "piano-reflections",
+  "verdict": "clean",
+  "confidence": 0.94,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Correct entity (same album under two titles). MB embedded_mbid confirms Piano Reflections, Duke Ellington, Capitol Jazz (CDP 7 92863 2), 1989; all 5 keyTracks match the MB tracklist (MB and our keyTracks both say 'Retrospective'; Wikipedia spells it 'Retrospection' — no flag, MB tracklist is authoritative and matches ours). albumDNA is verbatim from the correct Wikipedia page (The_Duke_Plays_Ellington) and accurately states this 1989 CD ('Piano Reflections') is the rerelease of the 1953 Capitol trio sessions 'The Duke Plays Ellington'. Stored wiki link covers both names."
+ },
+ {
+  "id": "solo-monk",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms Solo, Thelonious Monk, CBS (CBS 465636 2), 1989, secondaryType Compilation; the three tracks named in the prose and all 5 keyTracks match the tracklist. Wikipedia opensearch returned a 'Solo' DISAMBIGUATION page (not our album) — discarded; entityMatch.wikipedia=no, ours.wikipediaUrl is null (none_stored). ANACHRONISM noted (not flagged, no contradicting evidence passage): prose says 'recorded for CBS in 1989', but this is a Compilation and Monk died in 1982 (background knowledge, not citable from pack); 1989 is the release/compilation date, not the recording date. 'bebop' / era framing is editorial."
+ }
+]

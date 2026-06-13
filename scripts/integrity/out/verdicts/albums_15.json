@@ -1,0 +1,319 @@
+[
+ {
+  "id": "blue-notes-for-mongezi",
+  "verdict": "unverifiable",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid (authoritative) confirms title, artist The Blue Notes, label Ogun Recordings, release-group first release 1976, and all 4 keyTracks exactly. The embedded release is dated 2022-06-10, consistent with the prose's claim of a 2022 Ogun reissue. Unverifiable from pack: personnel (Pukwana/McGregor/Dyani/Moholo), recording date and place (December 23 1975, London rehearsal room), double-album format, and the 2008 'The Ogun Collection' compilation claim. No contradictions found."
+ },
+ {
+  "id": "bright-size-life",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Stored Wikipedia page entity-matches ('1976 studio album by Pat Metheny') and verifies verbatim: debut album, recorded December 1975, released on ECM in March of the following year, trio with Jaco Pastorius and Bob Moses (personnel section confirms). MB search (similarity 1.0) confirms 1976, ECM Records, and all 4 keyTracks on the tracklist. Remaining prose ('launched... influential career', 'influenced a generation') is editorial."
+ },
+ {
+  "id": "flowers-for-albert",
+  "verdict": "unverifiable",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 1.0) confirms title, artist David Murray, year 1976, label India Navigation (IN 1026), and all 4 keyTracks exactly; release group secondaryType is Live, which the prose does not contradict. No Wikipedia evidence. Unverifiable: debut-album status, Albert Ayler tribute, tenor saxophone, New York loft-scene framing. No contradictions."
+ },
+ {
+  "id": "gateway",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "no", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Prolegomenon (intro)", "Vox Occultus", "Kha'laam", "Impaled", "Corrumpert Interludium", "Vile Temptress"],
+  "fieldIssues": [
+   {"field": "keyTracks", "ours": "Prolegomenon (intro); Vox Occultus; Kha'laam; Impaled; Corrumpert Interludium; Vile Temptress", "evidence": "These six titles are, in order, the first six tracks of a 2015 release by a DIFFERENT artist also named Gateway (no label, first released 2015-07-23), not the 1976 ECM jazz trio album", "evidenceQuote": "releaseGroup firstReleaseDate: \"2015-07-23\"; tracks: \"Prolegomenon (intro)\", \"Vox Occultus\", \"Kha'laam\", \"Impaled\", \"Corrumpert Interludium\", \"Vile Temptress\", \"Hollow\", \"The Shores of Daruk\"; labels: \"[no label]\"", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "The albumDNA prose verbatim-matches the entity-correct stored Wikipedia page ('1976 studio album by Gateway', jazz trio John Abercrombie/Dave Holland/Jack DeJohnette, recorded March 1975, released on ECM the following year) -- prose, year, and label are verified. But the MB search hit is a different entity: a 2015 self-released album by another band named Gateway, and our keyTracks are exactly that album's first six tracks in order. Tracks first released 2015-07-23 cannot be key tracks of a 1976 album, so the keyTracks field was populated from the wrong entity. The real 1976 album's tracklist is not in the pack (the wiki extract's track-listing section is empty), so correct keyTracks must be re-sourced."
+ },
+ {
+  "id": "gnu-high",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Stored Wikipedia page entity-matches ('1976 studio album by Kenny Wheeler') and verifies verbatim: Canadian trumpeter and composer, recorded June 1975, released on ECM the following year, quartet with Keith Jarrett, Dave Holland and Jack DeJohnette. MB search (similarity 1.0) confirms 1976, ECM Records (ECM 1069), and all 3 keyTracks ('Smatter' matches MB \"'Smatter\" punctuation-insensitively). Remaining prose is editorial."
+ },
+ {
+  "id": "jaco-pastorius",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "no", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search hit is a different release group -- a 1997 Warner Jazz France compilation also titled 'Jaco Pastorius' (secondaryTypes: Compilation, firstReleaseDate 1997) -- discarded for fact-checking. Stored Wikipedia page entity-matches ('1976 studio album by Jaco Pastorius') and verifies: debut solo album, released 1976 by Epic Records, produced by Bobby Colomby; all 4 keyTracks (Donna Lee, Come On Come Over, Continuum, Portrait of Tracy) appear in the wiki per-track personnel listing. Ours calls Colomby 'founder' of Blood, Sweat & Tears where wiki says 'original member' -- compatible wording, not a contradiction. Verification rests on the wiki page only."
+ },
+ {
+  "id": "open-your-eyes-you-can-fly",
+  "verdict": "unverifiable",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 1.0) confirms year 1976, label Milestone (M-9065), artist Flora Purim, and all 6 keyTracks ('Times Lie' = MB \"Time's Lie\" punctuation-insensitively). No Wikipedia evidence. Unverifiable: Airto Moreira on percussion, 'four-octave range', Brazilian-vocalist biography, West Coast personnel claim. No contradictions."
+ },
+ {
+  "id": "scenery-ryo-fukui",
+  "verdict": "factual_error",
+  "confidence": 0.72,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["My Foolish Heart"],
+  "fieldIssues": [
+   {"field": "keyTracks", "ours": "My Foolish Heart", "evidence": "Not on the album per the complete six-track listing (Side A / Side B) on the entity-matched Wikipedia page", "evidenceQuote": "Side A:\n\nIt Could Happen to You (Jimmy Van Heusen, Johnny Burke)\nI Want to Talk About You (Billy Eckstine)\nEarly Summer (Hideo Ichikawa)\nSide B: \n\nWillow Weep for Me (Ann Ronell)\nAutumn Leaves (Joseph Kosma, Jacques Prevert)\nScenery (Ryo Fukui)", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "No MB match (no release, no candidates). Stored Wikipedia page entity-matches ('1976 studio album by Ryo Fukui') and verifies: 1976, Fukui's first release (debut), Japanese pianist, self-taught style, comparisons to McCoy Tyner and Bill Evans, and keyTracks 'It Could Happen to You', 'Early Summer', 'Scenery'. 'My Foolish Heart' is absent from the wiki's complete LP tracklist -- possible contamination from another Fukui album (suspicion only, not citable); a reissue bonus track cannot be ruled out from pack evidence. Unverifiable: label Trio Records, recorded at age 28, Sapporo origin, 2010s YouTube-virality claim."
+ },
+ {
+  "id": "shakti",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["India"],
+  "fieldIssues": [
+   {"field": "keyTracks", "ours": "India", "evidence": "Not on the album: both MB and Wikipedia show the same complete 3-track live album", "evidenceQuote": "tracks: \"Joy\", \"Lotus Feet\", \"What Need Have I for This–What Need Have I for That–I Am Dancing at the Feet of My Lord–All Is Bliss–All Is Bliss\"", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 1.0; Columbia PC 34162, 1976, Live) and stored wiki ('1976 live album by Shakti') both entity-match. Prose verified verbatim by wiki ('first album by Shakti, described as \"another brain blowing achievement\" by Agha Yasir'). Year and label fields verified by MB. keyTracks 'Joy' and 'Lotus Feet' match; 'What Need Have I for This' matches as substring of the side-two medley. 'India' is on neither tracklist; background knowledge (not citable) suggests it belongs to Shakti's second album A Handful of Beauty."
+ },
+ {
+  "id": "the-peoples-republic",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Vietnam 1, 2"],
+  "fieldIssues": [
+   {"field": "keyTracks", "ours": "Vietnam 1, 2", "evidence": "Not on the album: MB and Wikipedia agree on the same complete five-track listing", "evidenceQuote": "tracks: \"New York\", \"Trio for Trio\", \"Chinese Rock\", \"The People’s Republic\", \"Ponderous Planets\"", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 0.92; Horizon Records & Tapes SP-708, 1976) and stored wiki ('1976 studio album by The Revolutionary Ensemble') entity-match. Trio personnel (violinist Leroy Jenkins, bassist Sirone, drummer Jerome Cooper), year, and Horizon label all verified. keyTracks 'The People's Republic' and 'New York' match; 'Vietnam 1, 2' is absent from both complete tracklists -- it matches the title of the group's earlier ESP-Disk album 'Vietnam' (background suspicion, not citable). Loft-era characterization is editorial."
+ },
+ {
+  "id": "waiting",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose matches the stored wiki page verbatim, including the Mosaic Select 2007 CD claim and the '6 original pieces' sentence. Wiki short description: '1976 studio album by Bobby Hutcherson', Blue Note label confirmed. MB embedded_mbid (authoritative) is a 2013 Japanese Blue Note reissue of the same release group (firstReleaseDate 1976); all 5 keyTracks appear on both the MB and wiki tracklists."
+ },
+ {
+  "id": "well-be-together-again",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Unknown", "evidence": "Muse", "evidenceQuote": "recorded in 1976 and first released on the Muse label", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Stored wiki ('1976 studio album by Pat Martino') entity-matches and verifies: recorded 1976, first released on Muse, Martino on guitar. MB embedded_mbid (authoritative) confirms first release 1976-02-13 and all 5 keyTracks; MB carries no label entry. The site's label FIELD ships the placeholder 'Unknown' even though our own prose and wiki both say Muse -- repair: set label to Muse (placeholder treated as missing value, not a wrong claim). Verdict driver: the sentence 'jazz-rock fusion era, embracing electric instruments and rhythms from rock and funk' is a substantive characterization that cannot be checked and sits oddly against the evidence (wiki reviews describe a subdued, tender ballads session by a guitar + electric-piano duo: 'tender side in a more subdued setting'); no verbatim contradiction exists, so it is unverifiable rather than an error."
+ },
+ {
+  "id": "azimuth",
+  "verdict": "unverifiable",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "no", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose verbatim-matches the stored wiki page ('1977 studio album by Azimuth', British trio John Taylor/Norma Winstone/Kenny Wheeler, recorded March 1977, ECM) -- entity, year, label, personnel verified. MB search instead matched a 1975 Polydor EP by the Brazilian band Azimuth/Azimuth (different entity; tracks 'Zombie', 'Melo da cuica', etc.) -- discarded. RED FLAG for repair: all six of our keyTracks are Brazilian-Portuguese titles ('Linha do horizonte', 'Brazil', 'Estrada dos deuses'...) that fit the Brazilian band Azymuth's repertoire, not a British ECM chamber-jazz trio, and the wiki extract names 'The Tunnel' and the title track 'Azimuth' as album tracks -- neither is in our keyTracks. No entity-matched tracklist exists in the pack, so per the rules this cannot be flagged as a proven mismatch, but the keyTracks almost certainly came from the wrong entity and need re-sourcing."
+ },
+ {
+  "id": "danca-das-cabecas",
+  "verdict": "unverifiable",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 1.0) confirms title, artist Egberto Gismonti, year 1977, label ECM Records (ECM 1089), and every component of both medley-style keyTracks entries against the 10-track MB list (accent/punctuation-insensitive). No Wikipedia evidence. Unverifiable: the Nana Vasconcelos duet claim and instrumentation details. No contradictions."
+ },
+ {
+  "id": "diamond-express",
+  "verdict": "unverifiable",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid (authoritative) confirms title, artist Dudu Pukwana, year 1977, label Arista (AF 1041), and all 5 keyTracks exactly; the 5-track count matches the prose's 'the album's five tracks'. Unverifiable: recording date/place (fall 1975, Island Studios London), 'Arista/Freedom' branding (MB label name is plain 'Arista' -- not a contradiction), the 1999 Jazz Colours 'Ubagile' reissue claim, alto saxophone, and the personnel list (Feza/Ranko/Roberts/Mothle/Meine/Moholo). No contradictions."
+ },
+ {
+  "id": "dinner-music",
+  "verdict": "factual_error",
+  "confidence": 0.88,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Wrong Key Donkey"],
+  "fieldIssues": [
+   {"field": "keyTracks", "ours": "Wrong Key Donkey", "evidence": "Not on the album: MB and Wikipedia agree on the same complete eight-track listing", "evidenceQuote": "tracks: \"Sing Me Softly of the Blues\", \"Dreams So Real\", \"Ad Infinitum\", \"Dining Alone\", \"Song Sung Long\", \"Ida Lupino\", \"Funnybird Song\", \"A New Hymn\"", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 1.0; WATT/6 + ECM 2313 106, 1977) and stored wiki ('1977 studio album by Carla Bley') entity-match. Prose verified: recorded 1976, released on Watt/ECM in 1977 (wiki verbatim). keyTracks 'Ida Lupino', 'Dining Alone', 'Sing Me Softly of the Blues' all match; 'Wrong Key Donkey' is absent from both complete 8-track lists (background, not citable: it appears on Bley's European Tour 1977). 'The album's humor is distinctly European' is editorial, not flagged."
+ },
+ {
+  "id": "easy-living",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Unknown", "evidence": "Milestone", "evidenceQuote": "released on the Milestone label in 1977", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Prose first sentence verbatim-matches the stored wiki page ('1977 studio album by Sonny Rollins'; Milestone 1977; George Duke, Paul Jackson, Tony Williams, with Byron Miller and Bill Summers added on one track -- all confirmed in wiki personnel). MB embedded_mbid (authoritative) is a 1996 reissue of the same release group (firstReleaseDate 1977, label Milestone); all 6 keyTracks match exactly. One repair item: the label FIELD ships the placeholder 'Unknown' while prose, wiki, and MB all agree on Milestone -- treated as a missing value rather than a contradicting claim, hence verdict stays clean; fix the field."
+ },
+ {
+  "id": "emerald-tears",
+  "verdict": "factual_error",
+  "confidence": 0.78,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["B Flat Improvisation"],
+  "fieldIssues": [
+   {"field": "year", "ours": "1977", "evidence": "1978", "evidenceQuote": "releaseGroup firstReleaseDate: \"1978\"; release date: \"1978\"", "source": "mb"},
+   {"field": "keyTracks", "ours": "B Flat Improvisation", "evidence": "Not among the 8 tracks on the MB tracklist", "evidenceQuote": "tracks: \"Spheres\", \"Emerald Tears\", \"Combination\", \"B-40 M23-6K RS-4-W\", \"Under Redwoods\", \"Solar\", \"Flurries\", \"Hooveling\"", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 1.0; ECM 1109, Dave Holland) is clearly our album, but it is a search match -- strong, not infallible. Release-group first release is 1978, contradicting our year field 1977 (the site's year field tracks release year elsewhere in this pack; ours may have used the recording year, but no recording date is in evidence). 'B Flat Improvisation' is not on the 8-track MB list; the other 3 keyTracks match. No Wikipedia evidence. Solo-bass recital and arco/pizzicato claims are unverifiable (single-artist credit is consistent but MB has no personnel detail)."
+ },
+ {
+  "id": "heavy-weather",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "First four factual sentences of the prose verbatim-match the stored wiki page ('1977 studio album by Weather Report'): seventh album, released 1977 through Columbia, 1,000,000 US copies by 1991, most commercially successful, DownBeat five-star review and readers' jazz album of the year. Wiki personnel confirms Pastorius on fretless bass. MB search (Japanese CBS/Sony pressing of the same release group, firstReleaseDate 1977) confirms all 4 keyTracks. Remaining prose is editorial."
+ },
+ {
+  "id": "kosmos",
+  "verdict": "no_evidence",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No MB match (no release, no candidates). Wikipedia opensearch resolved only the 'Juice (disambiguation)' page, which is not about our entity (its album list has no Ryo Kawasaki entry -- absence is not contradiction); second candidate (G. Love) also unrelated. Nothing survived entity-matching, so no claim (year 1977, label RVC, jazz-funk, guitar-synthesizer pioneering, keyTracks) is checkable. Separate data bug for the maintainer: the item id is 'kosmos' but the content describes Ryo Kawasaki's 'Juice' -- id and content disagree and need review."
+ },
+ {
+  "id": "mellow-dream",
+  "verdict": "no_evidence",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No MB release or candidates; no Wikipedia page or candidates. Nothing checkable: follow-up-to-Scenery claim, trio format, Sapporo scene, label Trio Records, year 1977, and all keyTracks unverified."
+ },
+ {
+  "id": "music-is-my-sanctuary",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose verbatim-matches the stored wiki page ('1977 studio album by Gary Bartz', released 1977 on Capitol Records). MB embedded_mbid (authoritative; Capitol ST-11647, US, 1977) confirms year, label, artist, and all 5 keyTracks ('Oo Baby Baby' exact on MB; wiki spells it 'Ooo Baby Baby')."
+ },
+ {
+  "id": "sit-on-it",
+  "verdict": "unverifiable",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid (authoritative) confirms title 'Sit on It!', artist Jimmy Smith, year 1977, label Mercury Records (SRM-1-1127), and all 5 keyTracks including the two named in the prose ('Give Up the Booty', 'Can't Hide Love'). Sole unverifiable factual atom: the organ attribution -- the pack has no instrument/personnel evidence (background knowledge supports it but is not citable). Fusion-era characterization is editorial. No contradictions."
+ },
+ {
+  "id": "slaves-mass",
+  "verdict": "unverifiable",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 1.0) confirms title, artist Hermeto Pascoal, year 1977, label Warner Bros. Records (BS2980), and all 6 keyTracks (ours misspells 'Cannonbal' where MB has 'Cannon (Dedicated to Cannonball Adderley)' -- cosmetic typo worth fixing, counted as matched). No Wikipedia evidence. Unverifiable: Brazilian multi-instrumentalist biography and the flute/'tuned pigs' instrumentation claims. No contradictions."
+ },
+ {
+  "id": "tetterettet",
+  "verdict": "no_evidence",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No MB release or candidates; no Wikipedia page or candidates. Nothing checkable: Bennink/Mengelberg leadership, Dutch free-improvisation framing, label ICP, year 1977, and all keyTracks unverified."
+ }
+]

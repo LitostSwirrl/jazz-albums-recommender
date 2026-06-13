@@ -1,0 +1,625 @@
+{
+  "count": 63,
+  "repairs": [
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "a-garland-of-red-red-garland",
+      "field": "label",
+      "before": "Various",
+      "after": "Prestige",
+      "sourceUrl": "https://musicbrainz.org/release/bf5b1a2f-11a0-48c6-b31e-f36dd6619f50"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "a-swingin-affair-dexter-gordon",
+      "field": "label",
+      "before": "Various",
+      "after": "Blue Note",
+      "sourceUrl": "https://musicbrainz.org/release/b12f58ca-ba44-45e7-9836-d22f93fe6f67"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "art-pepper-meets-the-rhythm-section-art-pepper",
+      "field": "label",
+      "before": "Various",
+      "after": "Contemporary Records",
+      "sourceUrl": "https://musicbrainz.org/release/bc18d7d7-dd2e-4347-ae50-6639a4060928"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "at-the-stratford-shakespearean-festival-oscar-peterson",
+      "field": "label",
+      "before": "Various",
+      "after": "Verve",
+      "sourceUrl": "https://musicbrainz.org/release/71c8b874-e88e-4361-8856-81ce23b49c5a"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "clifford-brown-memorial-album-clifford-brown",
+      "field": "label",
+      "before": "Various",
+      "after": "Blue Note",
+      "sourceUrl": "https://musicbrainz.org/release/4e7edbc6-80c0-4496-8f27-c9de611c0dbe"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "coltrane-jazz-john-coltrane",
+      "field": "label",
+      "before": "Various",
+      "after": "Atlantic",
+      "sourceUrl": "https://musicbrainz.org/release/710c8bad-ce09-4d33-a584-a396e5b74a1c"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "cornbread-lee-morgan",
+      "field": "label",
+      "before": "Various",
+      "after": "Blue Note",
+      "sourceUrl": "https://musicbrainz.org/release/f12c78de-91ec-4c4b-9e85-7ffddef7cdaa"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "dance-mania-tito-puente",
+      "field": "label",
+      "before": "Various",
+      "after": "RCA Victor",
+      "sourceUrl": "https://musicbrainz.org/release/257bfe41-d453-4e81-a88b-01c67d8b2125"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "desmond-blue-paul-desmond",
+      "field": "label",
+      "before": "Various",
+      "after": "RCA Victor",
+      "sourceUrl": "https://musicbrainz.org/release/ca8804ba-5c26-4285-af39-9100d57402d6"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "detroitnew-york-junction-thad-jones",
+      "field": "label",
+      "before": "Various",
+      "after": "Blue Note",
+      "sourceUrl": "https://musicbrainz.org/release/17cb431d-3fe2-43a0-a02d-2b2169258543"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "ella-fitzgerald-sings-the-cole-porter-song-book-ella-fitzgerald",
+      "field": "label",
+      "before": "Various",
+      "after": "Verve",
+      "sourceUrl": "https://musicbrainz.org/release/617fe930-78f2-4b41-9e7d-db0a5f4f6023"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "far-east-suite-duke-ellington",
+      "field": "label",
+      "before": "Various",
+      "after": "RCA Victor",
+      "sourceUrl": "https://musicbrainz.org/release/2a7d0078-25b9-41c8-b03b-263498a7ed75"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "fontainebleau-tadd-dameron",
+      "field": "label",
+      "before": "Various",
+      "after": "Prestige",
+      "sourceUrl": "https://musicbrainz.org/release/a2385b86-61cc-48b7-9374-6c8e2c43b415"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "full-house-wes-montgomery",
+      "field": "label",
+      "before": "Various",
+      "after": "Riverside",
+      "sourceUrl": "https://musicbrainz.org/release/49d4471e-fa5c-4caa-ba81-63d8356200a5"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "inside-hi-fi-lee-konitz",
+      "field": "label",
+      "before": "Various",
+      "after": "Atlantic",
+      "sourceUrl": "https://musicbrainz.org/release/2c90ef6f-040b-47f6-b3f9-0b66a291f1cb"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "jazz-giant-benny-carter",
+      "field": "label",
+      "before": "Various",
+      "after": "Contemporary Records",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jazz_Giant_(Benny_Carter_album)"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "open-sesame-freddie-hubbard",
+      "field": "label",
+      "before": "Various",
+      "after": "Blue Note",
+      "sourceUrl": "https://musicbrainz.org/release/3e5f8b5e-13ad-40de-8127-93c3c23713ae"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "plenty-plenty-soul-milt-jackson",
+      "field": "label",
+      "before": "Various",
+      "after": "Atlantic",
+      "sourceUrl": "https://musicbrainz.org/release/237f9952-4bf0-4104-b704-eb9f9bcda38f"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "spellbound-clifford-jordan",
+      "field": "label",
+      "before": "Various",
+      "after": "Riverside",
+      "sourceUrl": "https://musicbrainz.org/release/1ab7ad48-9cd3-41ff-ac9c-84c17cb2e373"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "stan-getz-and-the-oscar-peterson-trio-stan-getz",
+      "field": "label",
+      "before": "Various",
+      "after": "Verve",
+      "sourceUrl": "https://musicbrainz.org/release/ba6baee0-4f3c-4ada-9e37-796a07877904"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "the-dual-role-of-bob-brookmeyer-bob-brookmeyer",
+      "field": "label",
+      "before": "Various",
+      "after": "Prestige",
+      "sourceUrl": "https://musicbrainz.org/release/e093519c-ac2f-436c-a8f6-30a0821c1d39"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "the-freedom-book-booker-ervin",
+      "field": "label",
+      "before": "Various",
+      "after": "Prestige",
+      "sourceUrl": "https://musicbrainz.org/release/d0d68fff-7555-4352-9147-1f23dd9dd480"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "the-oscar-peterson-trio-at-newport",
+      "field": "label",
+      "before": "Columbia",
+      "after": "Verve",
+      "sourceUrl": "https://musicbrainz.org/release/7cb25011-3d06-3491-bcfb-00f51e0ad2bc"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "the-sermon-jimmy-smith",
+      "field": "label",
+      "before": "Various",
+      "after": "Blue Note",
+      "sourceUrl": "https://musicbrainz.org/release/a515abf5-6dc8-4230-a7c7-9bcbf44d332a"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "the-man-i-love",
+      "field": "label",
+      "before": "AVM Music",
+      "after": "Dreyfus Jazz",
+      "sourceUrl": "https://musicbrainz.org/release/93e4b4ce-d864-44fd-b140-71308162d45b"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "chet-baker-and-crew-chet-baker",
+      "field": "label",
+      "before": "Various",
+      "after": "Pacific Jazz",
+      "sourceUrl": "https://musicbrainz.org/release/dbb02c72-d77e-44ed-bab1-df24b1a11114"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "night-train-oscar-peterson",
+      "field": "label",
+      "before": "Various",
+      "after": "Verve",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Night_Train_(Oscar_Peterson_album)"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "afro-dizzy-gillespie",
+      "field": "label",
+      "before": "Various",
+      "after": "Norgran Records",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Afro_(album)"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "a-garland-of-red-red-garland",
+      "field": "year",
+      "before": 2006,
+      "after": 1956,
+      "sourceUrl": "https://musicbrainz.org/release/bf5b1a2f-11a0-48c6-b31e-f36dd6619f50"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "a-swingin-affair-dexter-gordon",
+      "field": "year",
+      "before": 1987,
+      "after": 1962,
+      "sourceUrl": "https://musicbrainz.org/release/b12f58ca-ba44-45e7-9836-d22f93fe6f67"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "clifford-brown-memorial-album-clifford-brown",
+      "field": "year",
+      "before": 2001,
+      "after": 1956,
+      "sourceUrl": "https://musicbrainz.org/release/4e7edbc6-80c0-4496-8f27-c9de611c0dbe"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "cornbread-lee-morgan",
+      "field": "year",
+      "before": 2013,
+      "after": 1967,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cornbread_(album)"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "dance-mania-tito-puente",
+      "field": "year",
+      "before": 2009,
+      "after": 1958,
+      "sourceUrl": "https://musicbrainz.org/release/257bfe41-d453-4e81-a88b-01c67d8b2125"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "fontainebleau-tadd-dameron",
+      "field": "year",
+      "before": 1987,
+      "after": 1956,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fontainebleau_(album)"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "full-house-wes-montgomery",
+      "field": "year",
+      "before": 2007,
+      "after": 1962,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Full_House_(Wes_Montgomery_album)"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "jazz-giant-benny-carter",
+      "field": "year",
+      "before": 1987,
+      "after": 1958,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jazz_Giant_(Benny_Carter_album)"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "open-sesame-freddie-hubbard",
+      "field": "year",
+      "before": 2002,
+      "after": 1960,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Open_Sesame_(Freddie_Hubbard_album)"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "spellbound-clifford-jordan",
+      "field": "year",
+      "before": 2007,
+      "after": 1960,
+      "sourceUrl": "https://musicbrainz.org/release/1ab7ad48-9cd3-41ff-ac9c-84c17cb2e373"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "stan-getz-and-the-oscar-peterson-trio-stan-getz",
+      "field": "year",
+      "before": 2020,
+      "after": 1957,
+      "sourceUrl": "https://musicbrainz.org/release/ba6baee0-4f3c-4ada-9e37-796a07877904"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "the-dual-role-of-bob-brookmeyer-bob-brookmeyer",
+      "field": "year",
+      "before": 1989,
+      "after": 1955,
+      "sourceUrl": "https://musicbrainz.org/release/e093519c-ac2f-436c-a8f6-30a0821c1d39"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "the-freedom-book-booker-ervin",
+      "field": "year",
+      "before": 1997,
+      "after": 1963,
+      "sourceUrl": "https://musicbrainz.org/release/d0d68fff-7555-4352-9147-1f23dd9dd480"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "the-hawk-flies-high-coleman-hawkins",
+      "field": "year",
+      "before": 2006,
+      "after": 1957,
+      "sourceUrl": "https://musicbrainz.org/release/a058288a-2301-4290-a9cd-126627221243"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "the-sermon-jimmy-smith",
+      "field": "year",
+      "before": 1987,
+      "after": 1959,
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Sermon_(Jimmy_Smith_album)"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "undercurrent-bill-evans",
+      "field": "year",
+      "before": 2013,
+      "after": 1962,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Undercurrent_(Bill_Evans_and_Jim_Hall_album)"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "chet-baker-and-crew-chet-baker",
+      "field": "year",
+      "before": 1993,
+      "after": 1956,
+      "sourceUrl": "https://musicbrainz.org/release/dbb02c72-d77e-44ed-bab1-df24b1a11114"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "night-train-oscar-peterson",
+      "field": "year",
+      "before": 2011,
+      "after": 1963,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Night_Train_(Oscar_Peterson_album)"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "afro-dizzy-gillespie",
+      "field": "year",
+      "before": 2022,
+      "after": 1954,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Afro_(album)"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "get-together",
+      "field": "year",
+      "before": 1986,
+      "after": 1979,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kansas_City_8%3A_Get_Together"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "the-awakening-ahmad-jamal",
+      "field": "year",
+      "before": 1986,
+      "after": 1970,
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Awakening_(Ahmad_Jamal_album)"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "destination-out-jackie-mclean",
+      "field": "year",
+      "before": 2014,
+      "after": 1964,
+      "sourceUrl": "https://musicbrainz.org/release/6b210f4d-3437-4188-9848-b23d2686f36c"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "pimp-master",
+      "field": "year",
+      "before": 2004,
+      "after": 2005,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pimp_Master"
+    },
+    {
+      "action": "field_birthYear",
+      "file": "artists",
+      "id": "james-blood-ulmer",
+      "field": "birthYear",
+      "before": 1942,
+      "after": 1940,
+      "sourceUrl": "https://en.wikipedia.org/wiki/James_Blood_Ulmer"
+    },
+    {
+      "action": "field_birthYear",
+      "file": "artists",
+      "id": "revolutionary-ensemble",
+      "field": "birthYear",
+      "before": 1971,
+      "after": 1970,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Revolutionary_Ensemble"
+    },
+    {
+      "action": "field_birthYear",
+      "file": "artists",
+      "id": "world-saxophone-quartet",
+      "field": "birthYear",
+      "before": 1976,
+      "after": 1977,
+      "sourceUrl": "https://en.wikipedia.org/wiki/World_Saxophone_Quartet"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "amaryllis-belladonna",
+      "field": "keyTracks",
+      "before": [
+        "Amaryllis",
+        "Night Shift",
+        "Belladonna",
+        "The Gate"
+      ],
+      "after": [
+        "Amaryllis",
+        "Night Shift",
+        "Belladonna",
+        "Moonburn"
+      ],
+      "sourceUrl": "https://www.freejazzblog.org/2022/07/mary-halvorson-amaryllis-and-belladonna.html"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "we-insist-freedom-now-suite-max-roach",
+      "field": "keyTracks",
+      "before": [
+        "Driva' Man",
+        "Freedom Day",
+        "Triptych: Prayer / Protest / Peace",
+        "All Africa",
+        "Tears For Johannesburg",
+        "Oh Yeah, Oh Yeah"
+      ],
+      "after": [
+        "Driva' Man",
+        "Freedom Day",
+        "Triptych: Prayer / Protest / Peace",
+        "All Africa",
+        "Tears For Johannesburg"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/We_Insist!"
+    },
+    {
+      "action": "prose",
+      "file": "albums",
+      "id": "moonlight-serenade-glenn-miller",
+      "field": "albumDNA",
+      "before": "Recorded in 1992, Moonlight Serenade showcases Glenn Miller at the height of their creative powers, offering one of the finest expressions of Swing. Moonlight Serenade remains a landmark of Swing, cementing Glenn Miller's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "after": "A compilation of Glenn Miller's signature swing-era recordings, built around his 1939 theme “Moonlight Serenade.” It gathers the band's best-known sides — “In the Mood,” “Chattanooga Choo Choo,” “Pennsylvania 6-5000,” “Tuxedo Junction” and “American Patrol” — from the most popular American dance orchestra of its day.",
+      "sourceUrl": [
+        "https://musicbrainz.org/release/d8d6d6c2-e725-4669-8d0f-03c4c9d8b2f0",
+        "https://en.wikipedia.org/wiki/Moonlight_Serenade_(disambiguation)"
+      ]
+    },
+    {
+      "action": "prose",
+      "file": "albums",
+      "id": "nows-the-time-charlie-parker",
+      "field": "albumDNA",
+      "before": "Recorded in 2020, Now's the Time showcases Charlie Parker at the height of their creative powers, offering one of the finest expressions of Bebop. Now's the Time remains a landmark of Bebop, cementing Charlie Parker's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "after": "A reissue gathering Charlie Parker bebop recordings, titled for his 1945 composition “Now's the Time.” The program runs through Parker originals and standards — “The Song Is You,” “Laird Baird,” “Kim,” “Chi Chi” and “Cosmic Rays” — core bebop sides from the alto saxophonist who, with Dizzy Gillespie, defined the style.",
+      "sourceUrl": [
+        "https://musicbrainz.org/release/dce6a0dd-5097-455d-bb52-59eb84adcda7",
+        "https://en.wikipedia.org/wiki/Now's_the_Time_(composition)"
+      ]
+    },
+    {
+      "action": "prose",
+      "file": "albums",
+      "id": "smack",
+      "field": "albumDNA",
+      "before": "'Smack' features Fletcher Henderson exploring early jazz. Key tracks include 'Down Hearted Blues' and 'Copenhagen'.",
+      "after": "“Smack” is a compilation of Fletcher Henderson's 1920s–30s orchestra recordings. Key sides include “Sugar Foot Stomp,” “The Stampede” and “Henderson Stomp.”",
+      "sourceUrl": [
+        "https://musicbrainz.org/release/cd0d437c-1f88-47e9-bb67-b675e1825be5"
+      ]
+    },
+    {
+      "action": "prose",
+      "file": "albums",
+      "id": "the-man-i-love",
+      "field": "albumDNA",
+      "before": "The Man I Love (2007) captures Billie Holiday exploring swing territory on the AVM Music label. Among the tracks are \"God Bless the Child\" and \"Fine and Mellow\". The album comes from the big band era when jazz was America's popular music, driven by dancing and radio. Her vocal style, strongly influenced by jazz instrumentalists, inspired a new way of manipulating phrasing and tempo.",
+      "after": "The Man I Love (2002) collects Billie Holiday recordings on the Dreyfus Jazz label. Among the tracks are “God Bless the Child” and “Lover Man.” The album comes from the big band era when jazz was America's popular music, driven by dancing and radio. Her vocal style, strongly influenced by jazz instrumentalists, inspired a new way of manipulating phrasing and tempo.",
+      "sourceUrl": [
+        "https://musicbrainz.org/release/93e4b4ce-d864-44fd-b140-71308162d45b"
+      ]
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "earth-jones",
+      "field": "label",
+      "before": "Quicksilver",
+      "after": "Palo Alto",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Earth_Jones"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "gateway",
+      "field": "keyTracks",
+      "before": [
+        "Prolegomenon (intro)",
+        "Vox Occultus",
+        "Kha'laam",
+        "Impaled",
+        "Corrumpert Interludium",
+        "Vile Temptress"
+      ],
+      "after": [
+        "Back-Woods Song",
+        "Waiting",
+        "May Dance",
+        "Unshielded Desire",
+        "Jamala",
+        "Sorcery I"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gateway_(Gateway_album)"
+    },
+    {
+      "action": "field_instruments",
+      "file": "artists",
+      "id": "marcus-miller",
+      "field": "instruments",
+      "before": [
+        "trumpet"
+      ],
+      "after": [
+        "bass",
+        "clarinet",
+        "keyboards"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Marcus_Miller"
+    }
+  ]
+}

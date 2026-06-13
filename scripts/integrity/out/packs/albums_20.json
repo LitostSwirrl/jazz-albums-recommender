@@ -1,0 +1,1704 @@
+[
+ {
+  "id": "the-best-thing-for-you",
+  "kind": "album",
+  "ours": {
+   "title": "The Best Thing for You",
+   "artist": "Chet Baker",
+   "year": 1989,
+   "label": "A&M Records",
+   "albumDNA": "The Best Thing for You is an album by trumpeter Chet Baker which was recorded in 1977 but not released on the A&M label until 1989, after the performer's death. The tracks were rereleased as part of the double CD reissue of You Can't Go Home Again in 2000 with previously unreleased tracks and alternate takes.",
+   "keyTracks": [
+    "The Best Thing for You",
+    "I’m Getting Sentimental Over You / You’ve Changed",
+    "Oh, You Crazy Moon",
+    "How Deep Is the Ocean",
+    "If You Could See Me Now"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Best_Thing_for_You_(album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "6e814c88-4372-4e62-9aa2-c9464674cb64",
+     "title": "The Best Thing for You",
+     "date": "1989",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Chet Baker"
+     ],
+     "labels": [
+      {
+       "name": "A&M Records",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0f31f032-02b0-3d41-9c0c-8c9a8740e3d2",
+      "title": "The Best Thing for You",
+      "firstReleaseDate": "1989",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "The Best Thing for You",
+      "I’m Getting Sentimental Over You / You’ve Changed",
+      "Oh, You Crazy Moon",
+      "How Deep Is the Ocean",
+      "If You Could See Me Now",
+      "El Morro"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/The_Best_Thing_for_You_(album)",
+    "page": {
+     "requestedTitle": "The Best Thing for You (album)",
+     "resolvedTitle": "The Best Thing for You (album)",
+     "shortDescription": "1989 studio album by Chet Baker",
+     "extract": "The Best Thing for You is an album by trumpeter Chet Baker which was recorded in 1977 but not released on the A&M label until 1989, after the performer's death. The tracks were rereleased as part of the double CD reissue of You Can't Go Home Again in 2000 with previously unreleased tracks and alternate takes.\n\n\n== Reception ==\n\nThe Allmusic review by Scott Yanow states \"This CD features previously unissued material from the same sessions that resulted in You Can't Go Home Again and, if anything, the music is a touch better. ... Throughout, Chet Baker shows that his playing during his much documented final period would be equal if not superior to his more acclaimed recordings of the 1950s\".\n\n\n== Track listing ==\n\"The Best Thing for You\" (Irving Berlin) – 4:20\n\"I'm Getting Sentimental Over You/You've Changed\" (George Bassman, Ned Washington/ Bill Carey, Carl Fischer) – 6:05\n\"Oh, You Crazy Moon\" (Jimmy Van Heusen, Johnny Burke) – 3:38\n\"How Deep Is the Ocean?\" (Berlin) – 5:49\n\"If You Could See Me Now\" (Tadd Dameron, Carl Sigman) – 4:43\n\"El Morro\" (Sebesky) – 17:13\n\n\n== Personnel ==\nChet Baker – trumpet\nPaul Desmond – alto saxophone\nRon Carter – bass\nKenny Barron – piano\nTony Williams – drums\nJohn Scofield – electric and acoustic guitar (track 6)\nRichie Beirach – electric piano (track 6)\nHubert Laws – flute (track 6)\nMichael Brecker – tenor saxophone (track 6)\nArto Tuncboyaciyan – percussion, voice (track 6)\nGene Bertoncini – acoustic guitar (track 5)\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "twylight",
+  "kind": "album",
+  "ours": {
+   "title": "Twylight",
+   "artist": "Geri Allen",
+   "year": 1989,
+   "label": "Minor Music",
+   "albumDNA": "Twylight is an album by pianist Geri Allen recorded in early 1989 and released on the German Minor Music label. Demonstrated Allen's ability to work with jazz legends on equal terms. The intergenerational dialogue produced some of her finest work.",
+   "keyTracks": [
+    "When Kabuya Dances",
+    "Shadow Series",
+    "Skin",
+    "A Place of Power",
+    "Twylight",
+    "Stop the World"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Twylight"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "3906438b-a010-4fe8-9dfe-b0e4637bed41",
+     "title": "Twylight",
+     "date": "1989",
+     "country": "DE",
+     "status": "Official",
+     "artists": [
+      "Geri Allen"
+     ],
+     "labels": [
+      {
+       "name": "Minor Music",
+       "catalogNumber": "CD MM 801014"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "6e2b85f1-444f-4aa9-ae00-f8c2381e1039",
+      "title": "Twylight",
+      "firstReleaseDate": "1989",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "When Kabuya Dances",
+      "Shadow Series",
+      "Skin",
+      "A Place of Power",
+      "Twylight",
+      "Stop the World",
+      "Wood",
+      "Little Wind",
+      "Dream Time",
+      "Blue",
+      "Black Pools"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Twylight",
+    "page": {
+     "requestedTitle": "Twylight",
+     "resolvedTitle": "Twylight",
+     "shortDescription": "1989 studio album by Geri Allen",
+     "extract": "Twylight is an album by pianist Geri Allen recorded in early 1989 and released on the German Minor Music label.\n\n\n== Reception ==\n\nAllMusic awarded the album 4 stars stating \"This is a stunningly beautiful recording, marking a distinct progression for Allen, and her complete awareness of the world at large. It might take several listenings to get used to, but the ultimate reward of this high artistic achievement is limitless.\"\nPianist and composer Ethan Iverson wrote \"the compositional integrity is striking,\" and commented: \"Twylight has a concentrated offering of Allen's odd meter vamps that feel old and fresh at the same time. Over those vamps, Allen plays pretty chords, bluesy melodies, or jagged shapes. Everyone does this today, but at the time it was rousing call to arms.\"\n\n\n== Track listing ==\nAll compositions by Geri Allen\n\n\"When Kabuya Dances\" – 8:42\n\"Shadow Series\" – 6:06\n\"Skin\" – 1:43\n\"A Place of Power\" – 4:10\n\"Twylight\" – 1:11\n\"Stop the World\" – 4:06\n\"Wood\" – 2:36\n\"Little Wind\" – 4:22\n\"Dream Time\" – 3:44\n\"Blue\" – 4:11\n\"Black Pools\" – 4:29\n\n\n== Personnel ==\nGeri Allen – acoustic piano, synthesizers (2, 4–8, 11)\nJaribu Shahid – acoustic bass (1–4, 6–9, 11)\nTani Tabbal – drums (1, 3, 6–9, 11), djembe (6)\nSpecial guests\n\nRory Young – synthesizer programming\nSadiq Bey – congas (1, 9), percussion (4, 7, 8, 11)\nEli Fountain – percussion (7, 8, 11)\nClarice Taylor – vocals (2, 11)\n\n\n=== Production ===\nStephan Meyner – executive producer\nGeri Allen – producer\nJoe Rosenberg – engineer\nPeter Denenberg – mixing at Acme Recording Studio (Mamaroneck, New York)\nMICHA – art direction\nJules Allen – photography\nMarguerite E. Green – image consultant\nKnule Mwanga – management\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "west-42nd-street",
+  "kind": "album",
+  "ours": {
+   "title": "West 42nd Street",
+   "artist": "Kenny Dorham",
+   "year": 1989,
+   "label": "Black Lion",
+   "albumDNA": "A showcase for Kenny Dorham's trumpet, West 42nd Street (1989) draws from the hard bop vocabulary with authority. Among its key performances are 'Avars (take 3)' and 'Stella by Starlight (take 1)'.",
+   "keyTracks": [
+    "Avars (take 3)",
+    "Stella by Starlight (take 1)",
+    "Stella by Starlight (take 2)",
+    "Why Not? (take 1)",
+    "Why Not? (take 2)"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "ef664b2a-2764-4799-8833-45bcea2aa858",
+     "title": "West 42nd Street",
+     "date": "1989",
+     "country": "DE",
+     "status": "Official",
+     "artists": [
+      "Kenny Dorham"
+     ],
+     "labels": [
+      {
+       "name": "Black Lion",
+       "catalogNumber": "BLCD760119"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "35d1310b-645e-47da-a678-42323646a846",
+      "title": "West 42nd Street",
+      "firstReleaseDate": "1989",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Avars (take 3)",
+      "Stella by Starlight (take 1)",
+      "Stella by Starlight (take 2)",
+      "Why Not? (take 1)",
+      "Why Not? (take 2)",
+      "Ease It! (take 1)",
+      "Samba de Orfeu (take 5)",
+      "Samba de Orfeu (take 6)",
+      "West 42nd Street (take 7)",
+      "West 42nd Street (take 8)"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "bix-beiderbecke-vol-1",
+  "kind": "album",
+  "ours": {
+   "title": "Bix Beiderbecke, Vol. 1: Singin'  the Blues",
+   "artist": "Bix Beiderbecke",
+   "year": 1990,
+   "label": "Unknown",
+   "albumDNA": "Bix Beiderbecke, Vol. 1: Singin'  the Blues is a contemporary jazz album by Bix Beiderbecke from 1990. The album comes from the formative years when jazz coalesced from ragtime, blues, and marching band traditions. Beiderbecke was one of the most influential jazz soloists of the 1920s, a cornet player noted for an inventive lyrical approach and purity of tone, with such clarity of sound that one contemporary famously described it like \"shooting bullets at a bel.",
+   "keyTracks": null,
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Bix_Beiderbecke"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Bix_Beiderbecke",
+    "page": {
+     "requestedTitle": "Bix Beiderbecke",
+     "resolvedTitle": "Bix Beiderbecke",
+     "shortDescription": "American jazz cornetist, pianist and composer (1903–1931)",
+     "extract": "Leon Bismark \"Bix\" Beiderbecke ( BY-dər-bek; March 10, 1903 – August 6, 1931) was an American jazz cornetist, pianist and composer. Beiderbecke was one of the most influential jazz soloists of the 1920s, a cornet player noted for an inventive lyrical approach and purity of tone, with such clarity of sound that one contemporary famously described it like \"shooting bullets at a bell”.\nHis solos on seminal recordings such as \"Singin' the Blues\" and \"I'm Coming, Virginia\" (both 1927) demonstrate a gift for extended improvisation that heralded the jazz ballad style, in which jazz solos are an integral part of the composition. Moreover, his use of extended chords and an ability to improvise freely along harmonic as well as melodic lines are echoed in post-WWII developments in jazz. \"In a Mist\" (1927) is the best known of Beiderbecke's published piano compositions and the only one that he recorded. His piano style reflects both jazz and classical (mainly impressionist) influences. All five of his piano compositions were published by Robbins Music during his lifetime.\nA native of Davenport, Iowa, Beiderbecke taught himself to play the cornet largely by ear, leading him to adopt a non-standard fingering technique that influenced his unique style. He first recorded with Midwestern jazz ensemble The Wolverines in 1924, after which he played briefly for the Detroit-based Jean Goldkette Orchestra before joining Frankie \"Tram\" Trumbauer for an extended engagement at the Arcadia Ballroom in St. Louis, also under the auspices of Goldkette's organisation. Beiderbecke and Trumbauer joined Goldkette's main band at the Graystone Ballroom in Detroit in 1926. The band toured widely and famously played a set opposite Fletcher Henderson at the Roseland Ballroom in New York City in October 1926. He made his greatest recordings in 1927. The Goldkette band folded in September 1927 and, after briefly joining bass saxophone player Adrian Rollini's band in New York, Trumbauer and Beiderbecke joined America's most popular dance band: Paul Whiteman and his Orchestra.\nBeiderbecke's most influential recordings date from his time with Goldkette and Whiteman, although he also recorded under his own name and that of Trumbauer's. The Whiteman period marked a precipitous decline in his health due to his increasing use of alcohol. Treatment for alcoholism in rehabilitation centers, with the support of Whiteman and the Beiderbecke family, failed to stop his decline. He left the Whiteman band in 1929 and in the summer of 1931 died aged 28 in his Sunnyside, Queens, New York apartment.\nHis death, in turn, gave rise to one of the original legends of jazz. In magazine articles, musicians' memoirs, novels, and Hollywood films, Beiderbecke has been envisaged as a Romantic hero, the \"Young Man with a Horn\" (a novel, later made into a movie starring Kirk Douglas, Lauren Bacall, Doris Day, and his friend Hoagy Carmichael). His life has often been portrayed as that of a jazz musician who had to compromise his art for the sake of commercialism. Beiderbecke remains the subject of scholarly controversy regarding his full name, the cause of his death and the importance of his contributions to jazz.\nHe composed or played on recordings that are jazz classics and standards such as \"Davenport Blues\", \"In a Mist\", \"Copenhagen\", \"Riverboat Shuffle\", \"Singin' the Blues\", and \"Georgia on My Mind\".\n\n\n== Early life ==\n\nThe son of Bismark Herman Beiderbecke and Agatha Jane Hilton, Bix Beiderbecke was born on March 10, 1903, in Davenport, Iowa. There is disagreement over whether Beiderbecke was christened Leon Bix or Leon Bismark and nicknamed \"Bix\". His father was nicknamed \"Bix\", as was his older brother, Charles Burnette \"Burnie\" Beiderbecke. Burnie Beiderbecke claimed that the boy was named Leon Bix and biographers have reproduced birth certificates that agree. More recent research — which takes into account church and school records in addition to the will of a relative — suggests he was named Leon Bismark. Regardless, his parents called him Bix, which seems to have been his preference. In a letter to his mother when he was nine years old, Beiderbecke signed off, \"frome your Leon Bix Beiderbecke not Bismark Remeber  [sic]\".\nThe son of German immigrants, Beiderbecke's father was a well-to-do coal and lumber merchant named after Otto von Bismarck of his native Germany. Beiderbecke's mother was the daughter of a Mississippi riverboat captain. She played the organ at Davenport's Fir"
+    }
+   }
+  }
+ },
+ {
+  "id": "david-sanborn",
+  "kind": "album",
+  "ours": {
+   "title": "David Sanborn",
+   "artist": "David Sanborn",
+   "year": 1990,
+   "label": "Warner Bros. Records",
+   "albumDNA": "Double Vision is a 1986 album by Bob James and David Sanborn. The album was a successful smooth jazz release receiving frequent airplay. The original album was released in the US on May 19, 1986, by Warner Bros Records. It was released a week later in the UK.",
+   "keyTracks": [
+    "Indio",
+    "Smile",
+    "Mamacita",
+    "Herbs",
+    "Concrete Boogie"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/David_Sanborn_(album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "a4aff5ef-de09-433e-ade7-91aca42210fa",
+     "title": "David Sanborn",
+     "date": "1990",
+     "country": "DE",
+     "status": "Official",
+     "artists": [
+      "David Sanborn"
+     ],
+     "labels": [
+      {
+       "name": "Warner Bros. Records",
+       "catalogNumber": "927 304-2"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "05edd445-b157-3c36-9c20-947cac4e78e6",
+      "title": "David Sanborn",
+      "firstReleaseDate": "1990",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Indio",
+      "Smile",
+      "Mamacita",
+      "Herbs",
+      "Concrete Boogie",
+      "I Do It for Your Love",
+      "Sophisticated Squaw",
+      "7th Ave."
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/David_Sanborn_(album)",
+    "page": {
+     "requestedTitle": "David Sanborn (album)",
+     "resolvedTitle": "David Sanborn (album)",
+     "shortDescription": "1976 studio album by David Sanborn",
+     "extract": "Sanborn is an album by jazz saxophonist David Sanborn, released by Warner Bros. in 1976. It contains a version of \"I Do It for Your Love\" by Paul Simon.\n\n\n== Track listing ==\n\"Indio\" (Rosalinda de Leon) - 5:35\n\"Smile\" (Paul Simon, Coleridge-Taylor Perkinson) - 5:24\n\"Mamacita\" (de Leon) - 4:45\n\"Herbs\" (Herb Bushler) - 4:29\n\"Concrete Boogie\" (Hiram Bullock) - 6:42\n\"I Do It for Your Love\" (Simon) - 2:47\n\"Sophisticated Squaw\" (Victor Lewis) - 4:47\n\"7th Ave.\" (Lewis) - 5:34\n\n\n== Personnel ==\nDavid Sanborn – alto saxophone, soprano saxophone, flute\nRosalinda de Leon – keyboards\nRichard Tee – keyboards on \"I Do It for Your Love\"\nHiram Bullock – guitar, vocals\nHerb Bushler – bass guitar\nVictor Lewis – drums\nJuma Santos – percussion\nPaul Simon – vocals on \"Smile\"\nPhoebe Snow – vocals on \"Smile\"\nPatti Austin – backing vocals\nLani Groves – backing vocals\nProduction\n\nJohn Court – executive producer\nPhil Ramone – producer, recording engineer\nVicki Fabry – recording assistant\nTheresa Del Pozzo – production coordinator\nSam Shaw – photography, design\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "destiny-is-yours",
+  "kind": "album",
+  "ours": {
+   "title": "Destiny Is Yours",
+   "artist": "Billy Harper",
+   "year": 1990,
+   "label": "SteepleChase",
+   "albumDNA": "Destiny Is Yours is an album led by saxophonist Billy Harper recorded in 1989 and released on the SteepleChase label. Captures tenor saxophonist Billy Harper during the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond.",
+   "keyTracks": [
+    "Destiny Is Yours",
+    "East-West Exodus",
+    "Dance in the Question",
+    "My Funny Valentine",
+    "The One That Makes the Rain Stop"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Destiny_Is_Yours"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "7db55e28-d167-4255-ba5b-72065fcdbd89",
+     "title": "Destiny Is Yours",
+     "date": "1990",
+     "country": "DK",
+     "status": "Official",
+     "artists": [
+      "Billy Harper Quintet"
+     ],
+     "labels": [
+      {
+       "name": "SteepleChase",
+       "catalogNumber": "SCCD 31260"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "32e736e0-7fd4-4d1a-ab6e-955df857fdd0",
+      "title": "Destiny Is Yours",
+      "firstReleaseDate": "1990",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Destiny Is Yours",
+      "East-West Exodus",
+      "Dance in the Question",
+      "My Funny Valentine",
+      "The One That Makes the Rain Stop",
+      "If Only One Could See",
+      "Groove From Heaven"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Destiny_Is_Yours",
+    "page": {
+     "requestedTitle": "Destiny Is Yours",
+     "resolvedTitle": "Destiny Is Yours",
+     "shortDescription": "1990 studio album by Billy Harper Quintet",
+     "extract": "Destiny Is Yours is an album led by saxophonist Billy Harper recorded in 1989 and released on the SteepleChase label.\n\n\n== Reception ==\n\nIn his review for AllMusic, Greg Turner states \"the vastly under-recognized Harper is a master tenor saxophonist who has developed a unique sound on his chosen instrument, sometimes very passionate, sometimes very lyrical. His compositions, characterized by shifting tempos and themes played over insistent vamps, always have a spiritual, uplifting quality to them. ...This is a perfect introduction to the artist's music. \".\n\n\n== Track listing ==\nAll compositions by Billy Harper except as indicated\n\n\"Destiny Is Yours\" - 12:44\n\"East-West Exodus\" - 13:46\n\"Dance in the Question\" (Francesca Tanksley) - 11:06 Bonus track on CD release\n\"My Funny Valentine\" (Lorenz Hart, Richard Rodgers) - 5:21 Bonus track on CD release\n\"The One That Makes the Rain Stop\" - 10:36\n\"If Only One Could See\" - 4:33\n\"Groove from Heaven\" - 10:55\n\n\n== Personnel ==\nBilly Harper - tenor saxophone\nEddie Henderson - trumpet\nFrancesca Tanksley - piano\nClarence Seay - bass\nNewman Taylor Baker - drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "jam-session",
+  "kind": "album",
+  "ours": {
+   "title": "Jam Session",
+   "artist": "Charlie Parker",
+   "year": 1990,
+   "label": "Verve",
+   "albumDNA": "With Jam Session (1990), alto saxophonist Charlie Parker delivers a swing program for the Verve label. Standouts include \"Jam Blues\" and \"What Is This Thing Called Love\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond.",
+   "keyTracks": [
+    "Jam Blues",
+    "What Is This Thing Called Love",
+    "Ballad Medley",
+    "Funky Blues"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Jam_Session_(album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "7797aa34-6267-4a3b-bdf7-6a90b4dd7694",
+     "title": "Jam Session",
+     "date": "1990",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Charlie Parker"
+     ],
+     "labels": [
+      {
+       "name": "Verve",
+       "catalogNumber": "833 564-2"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "25a15425-3af4-3482-85e8-5b48bebd03b6",
+      "title": "Jam Session",
+      "firstReleaseDate": "1990",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Jam Blues",
+      "What Is This Thing Called Love",
+      "Ballad Medley",
+      "Funky Blues"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Jam_Session_(album)",
+    "page": {
+     "requestedTitle": "Jam Session (album)",
+     "resolvedTitle": "Jam Session (album)",
+     "shortDescription": "1954 live album by Clifford Brown, Clark Terry and Maynard Ferguson",
+     "extract": "Jam Session is a live album by trumpeters Clifford Brown, Clark Terry, and Maynard Ferguson featuring tracks recorded in early 1954 and released on the EmArcy label. The album was recorded at the same session that produced Dinah Washington's Dinah Jams.\n\n\n== Reception ==\n\nBillboard in 1955 wrote: \"Good as all the sidemen are, it's the three trumpets which walk off with top honors. Recording is excellent.\" AllMusic awarded the album 4½ stars and Scott Yanow, in his review, calls it \"A brilliant set that is highly recommended\". \n\n\n== Track listing ==\n\"What Is This Thing Called Love?\" (Cole Porter) – 14:56\n\"Darn That Dream\" (Eddie DeLange, Jimmy Van Heusen) – 5:16\n\"Move\" (Denzil Best) – 14:28\n\"My Funny Valentine/Don't Worry 'bout Me/Bess, You Is My Woman Now/It Might as Well Be Spring\" (Lorenz Hart, Richard Rodgers/Rube Bloom, Ted Koehler/George Gershwin, Ira Gershwin/Oscar Hammerstein II, Rogers) – 11:29\n\n\n== Personnel ==\nClifford Brown, Maynard Ferguson, Clark Terry – trumpet\nHerb Geller – alto saxophone (tracks 1, 3 & 4)\nHarold Land – tenor saxophone\nJunior Mance – piano (tracks 1, 3 & 4)\nRichie Powell – piano (track 2)\nKeter Betts, George Morrow – bass\nMax Roach – drums\nDinah Washington – vocals (track 2)\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "master-plan",
+  "kind": "album",
+  "ours": {
+   "title": "Master Plan",
+   "artist": "Dave Weckl",
+   "year": 1990,
+   "label": "GRP",
+   "albumDNA": "Master Plan is an album by the American drummer Dave Weckl, released in 1990. It peaked at No. 9 on Billboard's Top Contemporary Jazz Albums chart.",
+   "keyTracks": [
+    "Tower of Inspiration",
+    "Here and There",
+    "Festival de ritmo",
+    "In Common",
+    "Garden Wall"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Master_Plan_(album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "c144e25d-1384-4fda-9816-27f42a32ff35",
+     "title": "Master Plan",
+     "date": "1990-08-21",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Dave Weckl"
+     ],
+     "labels": [
+      {
+       "name": "GRP",
+       "catalogNumber": "GRD-9619"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "1c460437-0f1b-3820-847a-f9b494cf7d51",
+      "title": "Master Plan",
+      "firstReleaseDate": "1990-08-21",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Tower of Inspiration",
+      "Here and There",
+      "Festival de ritmo",
+      "In Common",
+      "Garden Wall",
+      "Auratune",
+      "Softly, as in a Morning Sunrise",
+      "Master Plan",
+      "Island Magic"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Master_Plan_(album)",
+    "page": {
+     "requestedTitle": "Master Plan (album)",
+     "resolvedTitle": "Master Plan (album)",
+     "shortDescription": "1990 studio album by Dave Weckl",
+     "extract": "Master Plan is an album by the American drummer Dave Weckl, released in 1990. It peaked at No. 9 on Billboard's Top Contemporary Jazz Albums chart.\n\n\n== Production ==\nThe title track was written by Chick Corea. Tom Kennedy played bass on the album.\n\n\n== Critical reception ==\n\nThe Chicago Tribune wrote that, \"from Corea to straight jazz to funk, Master Plan shows every aspect of Weckl's ability.\" The Calgary Herald noted that, \"while [the album] impresses as a primer for drumming enthusiasts, it suffers from a lack of imagination in the writing.\" The Orange County Register opined that \"Eric Marienthal contributes some excellent solos on alto and soprano saxophone.\"\n\n\n== Track listing ==\n\"Tower of Inspiration\" (Dave Weckl, Jay Oliver) - 3:59\n\"Here and There\" (Weckl, Oliver) - 6:08\n\"Festival de Ritmo\" (Weckl, Oliver) - 4:52\n\"In Common\" (Roger Guth, Jim Mayer, Peter Mayer) - 5:55\n\"Garden Wall\" (Guth, J. Mayer, P. Mayer) - 4:32\n\"Auratune\" (Oliver) - 4:47\n\"Softly, as in a Morning Sunrise\" - 5:01\n\"Master Plan\" (Chick Corea) - 8:14\n\"Island Magic\" (Weckl, Oliver) - 4:55\n\n\n== Personnel ==\nDave Weckl – drums, timbales (2, 9), brush overdub (4), percussion programming (5, 9)\nJay Oliver – keyboards (1–6, 9), organ solo (1), additional synth horns (1, 3), guitar programming (1), sound effects (1), programming (5, 9), synth solo (6), rhythm section programming (6), synthesizers (8), synthesizer melodies (9)\nChick Corea – synthesizer melody (5), synth solo (5, 9), acoustic piano (8)\nRay Kennedy – acoustic piano (7)\nPeter Mayer – guitars (2, 4), vocals (6)\nTom Kennedy – bass (1, 7)\nAnthony Jackson – bass (2–5, 8, 9)\nSteve Gadd – drums (8)\nEric Marienthal – alto saxophone (2, 3), soprano saxophone (2, 4)\nMichael Brecker – tenor saxophone (5)\nBill Reichenbach Jr. – trombone (1, 3)\nJerry Hey – trumpet (1, 3)\nScott Alspach – trumpet (6)\n\n\n=== Production ===\nRon Moss – album executive producer, management\nDave Grusin – executive producer\nLarry Rosen – executive producer\nDave Weckl – producer, arrangements, mixing\nJay Oliver – co-producer, arrangements, mixing, recording (1–7, 9)\nBernie Kirsch – recording (8)\nDarren Mora – assistant engineer\nDee La Croix – studio manager at Mad Hatter Studios\nJoseph Doughney – post production\nMichael Landy – post production\nThe Review Room (New York City, New York) – post production location\nLarry McCaull – drum technician\nChris Sobchack – drum technician assistant\nCMS Digital (Pasadena, California) – digital editing and mastering location\nEvelyn Brechtlein – project coordinator\nSuzanne Sherman – GRP production coordinator\nAndy Baltimore – GRP creative director\nJim Embach – cover design\nDavid Gibb – graphic design\nJacki McCarthy – graphic design\nAndy Ruggirello – graphic design\nDan Serrano – graphic design\nJeff Sedlik – front and back cover photography\nFredericke – grooming\nSandra Bojin – wardrobe stylist\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "on-the-other-hand",
+  "kind": "album",
+  "ours": {
+   "title": "On the Other Hand",
+   "artist": "Michel Camilo",
+   "year": 1990,
+   "label": "Unknown",
+   "albumDNA": "On the Other Hand is an album by the Dominican musician Michel Camilo, released in 1990 by Epic Records. A latin jazz entry from 1990 by Michel Camilo, documenting the breadth of the contemporary period.",
+   "keyTracks": [
+    "On the Other Hand",
+    "City of Angels",
+    "Journey",
+    "Impressions",
+    "Silent Talk I"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/On_the_Other_Hand_(album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "f9daaafc-26dc-4308-bb11-74fc2d4a1816",
+     "title": "On the Other Hand",
+     "date": "1990",
+     "country": null,
+     "status": "Official",
+     "artists": [
+      "Michel Camilo"
+     ],
+     "labels": [],
+     "releaseGroup": {
+      "mbid": "0602e788-9c4c-4cc0-9f74-f7e176c4980a",
+      "title": "On the Other Hand",
+      "firstReleaseDate": "1990",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "On the Other Hand",
+      "City of Angels",
+      "Journey",
+      "Impressions",
+      "Silent Talk I",
+      "Forbidden Fruit",
+      "Suite Sandrine Part III",
+      "Birk's Works",
+      "Silent Talk II"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/On_the_Other_Hand_(album)",
+    "page": {
+     "requestedTitle": "On the Other Hand (album)",
+     "resolvedTitle": "On the Other Hand (album)",
+     "shortDescription": "1990 studio album by Michel Camilo",
+     "extract": "On the Other Hand is an album by the Dominican musician Michel Camilo, released in 1990 by Epic Records.\n\n\n== Critical reception ==\n\nNewsday wrote that Camilo's \"classical-jazz-Latin synthesis is one of the more avant-garde statements by a contemporary pianist... Rather than simply pumping up jazz tunes with Latin rhythmic structures, he speaks in several musical languages at once, prefiguring a multicultural future.\" The Globe and Mail noted that \"as impressive a pianist as Camilo clearly is, he startles not by what he plays, but by how: chop, chop, chop—quick, clean and on the flashy side of frantic.\"\n\n\n== Track listing ==\n\n\n== Personnel ==\nMichel Camilo – piano\nChris Hunter – saxophone\nRalph Bowen – saxophone\nMichael Mossman – trumpet\nCliff Almond – drums\nMichael Bowie – bass\nD.K. Dyson – vocals\nSammy Figueroa – percussion, congas\n\n\n== References ==\n\n\n== External links ==\nMichel Camilo Discography"
+    }
+   }
+  }
+ },
+ {
+  "id": "question-and-answer",
+  "kind": "album",
+  "ours": {
+   "title": "Question and Answer",
+   "artist": "Pat Metheny",
+   "year": 1990,
+   "label": "Geffen Records",
+   "albumDNA": "Question and Answer is an album by guitarist Pat Metheny with acoustic bassist Dave Holland and drummer Roy Haynes.\nMetheny won the 1991 Grammy Award for Best Instrumental Composition for \"Change of Heart\".",
+   "keyTracks": [
+    "Solar",
+    "Question and Answer",
+    "H & H",
+    "Never Too Far Away",
+    "Law Years"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Question_and_Answer_(album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "a90a0375-ed82-487d-bfef-fcb59b338c51",
+     "title": "Question and Answer",
+     "date": "1990",
+     "country": "XE",
+     "status": "Official",
+     "artists": [
+      "Pat Metheny",
+      "Dave Holland",
+      "Roy Haynes"
+     ],
+     "labels": [
+      {
+       "name": "Geffen Records",
+       "catalogNumber": "GED 24293"
+      },
+      {
+       "name": "Geffen Records",
+       "catalogNumber": "GEFD 24293"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "083d80d1-511b-3d8a-aa58-064a7858a414",
+      "title": "Question and Answer",
+      "firstReleaseDate": "1990",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Solar",
+      "Question and Answer",
+      "H & H",
+      "Never Too Far Away",
+      "Law Years",
+      "Change of Heart",
+      "All the Things You Are",
+      "Old Folks",
+      "Three Flights Up"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Question_and_Answer_(album)",
+    "page": {
+     "requestedTitle": "Question and Answer (album)",
+     "resolvedTitle": "Question and Answer (album)",
+     "shortDescription": "1990 studio album by Pat Metheny with Dave Holland and Roy Haynes",
+     "extract": "Question and Answer is an album by guitarist Pat Metheny with acoustic bassist Dave Holland and drummer Roy Haynes.\nMetheny won the 1991 Grammy Award for Best Instrumental Composition  for \"Change of Heart\".\n\n\n== Track listing ==\n\n\n== Personnel ==\nPat Metheny – guitar, Synclavier on \"Three Flights Up\"\nDave Holland – double bass\nRoy Haynes – drums\n\n\n=== Technical personnel ===\nPat Metheny – producer\nGil Goldstein, David Oakes – associate producers\nDavid Sholemson – project coordinator\nRob Eaton – recording, mixing\nBob Ludwig – mastering at Masterdisk, NYC, USA\nShed (8) – artwork, design\nCrhistofher Kehoe – photography\n\n\n== Charts ==\n\n\n== Awards ==\nGrammy Awards\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "the-trumpet-kings-meet-joe-turner",
+  "kind": "album",
+  "ours": {
+   "title": "The Trumpet Kings Meet Joe Turner",
+   "artist": "Clark Terry",
+   "year": 1990,
+   "label": "Original Jazz Classics",
+   "albumDNA": "The Trumpet Kings Meet Joe Turner is an album by vocalist Big Joe Turner with trumpeters Dizzy Gillespie, Roy Eldridge, Harry \"Sweets\" Edison and Clark Terry, recorded in 1974 and released on the Pablo label. Documents trumpeter Clark Terry's swing work for Original Jazz Classics, a 1990 session reflecting the contemporary period.",
+   "keyTracks": [
+    "Mornin', Noon and Night",
+    "I Know You Love Me Baby",
+    "T.V. Momma",
+    "'Taint Nobody's Bizness If I Do"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "889004a1-1a59-442c-acc6-4a29477238a7",
+     "title": "The Trumpet Kings Meet Joe Turner",
+     "date": "1990",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Dizzy Gillespie",
+      "Roy Eldridge",
+      "Harry “Sweets” Edison",
+      "Clark Terry",
+      "Joe Turner"
+     ],
+     "labels": [
+      {
+       "name": "Original Jazz Classics",
+       "catalogNumber": "OJCCD-497-2 (2310-717)"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "04ec0d22-5ef8-47a1-98e0-a7da8f5f76e4",
+      "title": "The Trumpet Kings Meet Joe Turner",
+      "firstReleaseDate": "1990",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Mornin', Noon and Night",
+      "I Know You Love Me Baby",
+      "T.V. Momma",
+      "'Taint Nobody's Bizness If I Do"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "the-trumpet-kings-meet-joe-turner-gillespie",
+  "kind": "album",
+  "ours": {
+   "title": "The Trumpet Kings Meet Joe Turner",
+   "artist": "Dizzy Gillespie",
+   "year": 1990,
+   "label": "Original Jazz Classics",
+   "albumDNA": "The Trumpet Kings Meet Joe Turner is an album by vocalist Big Joe Turner with trumpeters Dizzy Gillespie, Roy Eldridge, Harry \"Sweets\" Edison and Clark Terry, recorded in 1974 and released on the Pablo label. Captures trumpeter Dizzy Gillespie during the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond.",
+   "keyTracks": [
+    "Mornin', Noon and Night",
+    "I Know You Love Me Baby",
+    "T.V. Momma",
+    "'Taint Nobody's Bizness If I Do"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "889004a1-1a59-442c-acc6-4a29477238a7",
+     "title": "The Trumpet Kings Meet Joe Turner",
+     "date": "1990",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Dizzy Gillespie",
+      "Roy Eldridge",
+      "Harry “Sweets” Edison",
+      "Clark Terry",
+      "Joe Turner"
+     ],
+     "labels": [
+      {
+       "name": "Original Jazz Classics",
+       "catalogNumber": "OJCCD-497-2 (2310-717)"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "04ec0d22-5ef8-47a1-98e0-a7da8f5f76e4",
+      "title": "The Trumpet Kings Meet Joe Turner",
+      "firstReleaseDate": "1990",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Mornin', Noon and Night",
+      "I Know You Love Me Baby",
+      "T.V. Momma",
+      "'Taint Nobody's Bizness If I Do"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "the-trumpet-kings-meet-joe-turner-eldridge",
+  "kind": "album",
+  "ours": {
+   "title": "The Trumpet Kings Meet Joe Turner",
+   "artist": "Roy Eldridge",
+   "year": 1990,
+   "label": "Original Jazz Classics",
+   "albumDNA": "The Trumpet Kings Meet Joe Turner is an album by vocalist Big Joe Turner with trumpeters Dizzy Gillespie, Roy Eldridge, Harry \"Sweets\" Edison and Clark Terry, recorded in 1974 and released on the Pablo label. A swing entry from 1990 by Roy Eldridge, documenting the breadth of the contemporary period.",
+   "keyTracks": [
+    "Mornin', Noon and Night",
+    "I Know You Love Me Baby",
+    "T.V. Momma",
+    "'Taint Nobody's Bizness If I Do"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "889004a1-1a59-442c-acc6-4a29477238a7",
+     "title": "The Trumpet Kings Meet Joe Turner",
+     "date": "1990",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Dizzy Gillespie",
+      "Roy Eldridge",
+      "Harry “Sweets” Edison",
+      "Clark Terry",
+      "Joe Turner"
+     ],
+     "labels": [
+      {
+       "name": "Original Jazz Classics",
+       "catalogNumber": "OJCCD-497-2 (2310-717)"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "04ec0d22-5ef8-47a1-98e0-a7da8f5f76e4",
+      "title": "The Trumpet Kings Meet Joe Turner",
+      "firstReleaseDate": "1990",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Mornin', Noon and Night",
+      "I Know You Love Me Baby",
+      "T.V. Momma",
+      "'Taint Nobody's Bizness If I Do"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "ask-the-ages",
+  "kind": "album",
+  "ours": {
+   "title": "Ask the Ages",
+   "artist": "Sonny Sharrock",
+   "year": 1991,
+   "label": "Axiom",
+   "albumDNA": "Sonny Sharrock's magnum opus, produced by Bill Laswell, features Pharoah Sanders, Elvin Jones, and Charnett Moffett in a supergroup that channels the fire of late-period Coltrane through Sharrock's savage, distortion-drenched guitar. The music is simultaneously spiritual and explosive. The greatest jazz guitar album that almost nobody heard on release. Sharrock died just three years later, making this his testament—a blazing proof that electric guitar could achieve the same spiritual intensity as Coltrane's saxophone.",
+   "keyTracks": [
+    "As We Used to Sing",
+    "Promises Kept",
+    "Who Does She Hope to Be?",
+    "Many Mansions"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "a65e6bce-e59a-466b-881e-a141018e738a",
+     "title": "Ask the Ages",
+     "date": "1991-08-06",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Sonny Sharrock"
+     ],
+     "labels": [
+      {
+       "name": "Axiom",
+       "catalogNumber": "422-848 957-2"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "16b77104-a9a4-3f7c-8949-a6b60878f94f",
+      "title": "Ask the Ages",
+      "firstReleaseDate": "1991-08-06",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Promises Kept",
+      "Who Does She Hope to Be?",
+      "Little Rock",
+      "As We Used to Sing",
+      "Many Mansions",
+      "Once Upon a Time"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "bix-beiderbecke-and-frankie-trumbauer-volume-one",
+  "kind": "album",
+  "ours": {
+   "title": "Bix Beiderbecke and Frankie Trumbauer - Volume One",
+   "artist": "Eddie Lang",
+   "year": 1991,
+   "label": "JSP Records",
+   "albumDNA": "Eddie Lang's Bix Beiderbecke and Frankie Trumbauer - Volume One, released on JSP Records in 1991, is an early jazz recording. Highlights of the session include \"Trumbology\", \"Clarinet Marmalade\", and \"Singin' the Blues\".",
+   "keyTracks": [
+    "Trumbology",
+    "Clarinet Marmalade",
+    "Singin' the Blues",
+    "Ostrich Walk",
+    "Riverboat Shuffle"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "53647ee4-7d57-478f-aa33-42d2e026357d",
+     "title": "Bix Beiderbecke and Frankie Trumbauer - Volume One",
+     "date": "1991",
+     "country": "FR",
+     "status": "Official",
+     "artists": [
+      "Bix Beiderbecke and His Gang",
+      "Frankie Trumbauer and His Orchestra",
+      "Eddie Lang",
+      "Broadway Bell‐Hops"
+     ],
+     "labels": [
+      {
+       "name": "JSP Records",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "f362df0f-4a9e-4427-9112-e28e39ac4d94",
+      "title": "Bix Beiderbecke and Frankie Trumbauer - Volume One",
+      "firstReleaseDate": "1991",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Soundtrack"
+      ]
+     },
+     "tracks": [
+      "Trumbology",
+      "Clarinet Marmalade",
+      "Singin' the Blues",
+      "Ostrich Walk",
+      "Riverboat Shuffle",
+      "I'm Coming, Virginia",
+      "Way Down Yonder in New Orleans",
+      "For No Reason at All in C",
+      "Three Blind Mice",
+      "Blue River vSE",
+      "There's a Cradle in Caroline vSE",
+      "Wringin' and Twistin'",
+      "Humpty Dumpty",
+      "Krazy Kat",
+      "Baltimore",
+      "There Ain't No Land Like Dixieland To Me vIK",
+      "There's a Cradle in Caroline vIK",
+      "Just an Hour of Love vIk",
+      "I'm Wonderin' Who vIK"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "black-and-blues",
+  "kind": "album",
+  "ours": {
+   "title": "Black and Blues",
+   "artist": "James Blood Ulmer",
+   "year": 1991,
+   "label": "DIW",
+   "albumDNA": "Black and Blues is an album by American guitarist James Blood Ulmer recorded in 1990 and released on the Japanese DIW label. A contemporary jazz entry from 1991 by James Blood Ulmer, documenting the breadth of the contemporary period.",
+   "keyTracks": [
+    "Burning Like Love",
+    "Crying",
+    "Lady of Colours",
+    "Tower of Power",
+    "New York Day"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Black_and_Blues"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "5beb3f99-c1dc-47b3-a543-b786d47ca0f8",
+     "title": "Black and Blues",
+     "date": "1991-05-21",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "James Blood Ulmer"
+     ],
+     "labels": [
+      {
+       "name": "DIW",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "2335dfe2-fc2b-49fc-8647-7b7ca50fa359",
+      "title": "Black and Blues",
+      "firstReleaseDate": "1991-05-21",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Burning Like Love",
+      "Crying",
+      "Lady of Colours",
+      "Tower of Power",
+      "New York Day",
+      "Make It Right",
+      "Sign Language",
+      "No Other Lover",
+      "Uptown"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Black_and_Blues",
+    "page": {
+     "requestedTitle": "Black and Blues",
+     "resolvedTitle": "Black and Blues",
+     "shortDescription": "1991 studio album by James Blood Ulmer",
+     "extract": "Black and Blues is an album by American guitarist James Blood Ulmer recorded in 1990 and released on the Japanese DIW label.\n\n\n== Reception ==\nThe Allmusic review awarded the album 3 stars.  \n\n\n== Track listing ==\nAll compositions by James Blood Ulmer\n\n\"Burning Like Love\" - 5:54\n\"Crying\" - 6:12\n\"Lady of Colours\" - 5:38\n\"Tower of Power\" - 3:54\n\"New York Day\" - 6:32\n\"Make It Right\" - 5:39\n\"Sign Language\" - 6:30\n\"No Other Lover\" - 4:40\n\"Uptown\" - 6:02\nRecorded at the Power Station, New York on October 24, 25, November 6 and 7, 1990\n\n\n== Personnel ==\nJames Blood Ulmer - electric guitar, vocals\nAmin Ali - bass guitar\nRonnie Drayton - guitar (1, 2, 4 & 6)\nG. Calvin Weston - drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "commodore-classics-in-swing-coleman-hawkins",
+  "kind": "album",
+  "ours": {
+   "title": "Commodore Classics In Swing Coleman Hawkins",
+   "artist": "Coleman Hawkins",
+   "year": 1991,
+   "label": "Commodore Records",
+   "albumDNA": "A early jazz outing from 1991, Commodore Classics In Swing Coleman Hawkins features saxophonist Coleman Hawkins recording for Commodore Records. The date includes \"Smack\" and \"Smack (alt take)\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond. Saxophonist Coleman Hawkins's early jazz sensibility is on display in this 1991 session, a document of the contemporary era.",
+   "keyTracks": [
+    "Smack",
+    "Smack (alt take)",
+    "I Surrender Dear",
+    "I Surrender Dear (alt take)",
+    "I Can't Believe That You're In Love With Me"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "e4e76ad2-5f78-49dd-bfc5-c5ee5de7669d",
+     "title": "Commodore Classics In Swing Coleman Hawkins",
+     "date": "1991",
+     "country": "DE",
+     "status": null,
+     "artists": [
+      "Coleman Hawkins"
+     ],
+     "labels": [
+      {
+       "name": "Commodore Records",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "02caa71d-a554-49a7-8bb0-2befe46f7772",
+      "title": "Commodore Classics In Swing Coleman Hawkins",
+      "firstReleaseDate": "1991",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Smack",
+      "Smack (alt take)",
+      "I Surrender Dear",
+      "I Surrender Dear (alt take)",
+      "I Can't Believe That You're In Love With Me",
+      "I Can't Believe That You're In Love With Me (alt take)",
+      "Dedication",
+      "Esquire Bounce",
+      "Esquire Bounce (alt take)",
+      "Boff Boff (Mop Mop)",
+      "Boff Boff (Mop Mop) (alt take)",
+      "My Ideal",
+      "My Ideal (alt take)",
+      "Esquire Blues",
+      "Esquire Blues (alt take)"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "faith-moves",
+  "kind": "album",
+  "ours": {
+   "title": "Faith Moves",
+   "artist": "Sonny Sharrock",
+   "year": 1991,
+   "label": "CMP Records",
+   "albumDNA": "Faith Moves is a collaborative album by Nicky Skopelitis and Sonny Sharrock, released in 1991 through CMP Records. Features \"Who Are You\" and \"Becoming\" in a free jazz context, highlighting Sonny Sharrock's interpretive range.",
+   "keyTracks": [
+    "Who Are You",
+    "Becoming",
+    "Mescalito",
+    "Venus",
+    "In the Flesh"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Faith_Moves"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "88753951-8150-4551-a610-2c2a7839f11b",
+     "title": "Faith Moves",
+     "date": "1991",
+     "country": "DE",
+     "status": "Official",
+     "artists": [
+      "Nicky Skopelitis",
+      "Sonny Sharrock"
+     ],
+     "labels": [
+      {
+       "name": "CMP Records",
+       "catalogNumber": "CMP CD 52"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "390ca2c4-b1d6-3b05-8751-26c17c3a77a5",
+      "title": "Faith Moves",
+      "firstReleaseDate": "1991",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Who Are You",
+      "Becoming",
+      "Mescalito",
+      "Venus",
+      "In the Flesh",
+      "Sacrifice",
+      "First of Equals",
+      "The Pyre",
+      "Uncle Herbie's Dance"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Faith_Moves",
+    "page": {
+     "requestedTitle": "Faith Moves",
+     "resolvedTitle": "Faith Moves",
+     "shortDescription": "1991 studio album by Nicky Skopelitis and Sonny Sharrock",
+     "extract": "Faith Moves is a collaborative album by Nicky Skopelitis and Sonny Sharrock, released in 1991 through CMP Records.\n\n\n== Reception ==\n\nSteve Huey, writing for AllMusic, stated: \"These are frequently fascinating explorations that illuminate a neglected facet of Sharrock's singular style.\" In an article for The Washington Post, Geoffrey Himes commented: \"There's plenty of tension in the duets -- especially when Sharrock adds barbed-wire to his tone and counterpoint to his harmonies -- but there is so much openness and melodicism in the arrangements to make this free jazz at its loveliest.\"\n\n\n== Track listing ==\n\n\n== Personnel ==\nMusicians\nSonny Sharrock – electric guitar\nNicky Skopelitis – electric guitar, acoustic guitar, bağlama, Coral sitar, tar, bass guitar, production\nProduction and additional personnel\nPaul Berry – engineering\nMartin Bisi – engineering\nBruce Calder – engineering\nJason Corsaro – mixing\nOz Fritz – engineering\nBill Laswell – production\nRobert Musso – engineering\nHowie Weinberg – mastering\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "hipmotism",
+  "kind": "album",
+  "ours": {
+   "title": "Hipmotism",
+   "artist": "Arthur Blythe",
+   "year": 1991,
+   "label": "Enja Records",
+   "albumDNA": "Night Song is an album by the saxophonist Arthur Blythe, released via Clarity Recordings in 1997. This Enja Records date features \"Dear Dessa\" as part of Arthur Blythe's free jazz output from 1991.",
+   "keyTracks": [
+    "Dear Dessa",
+    "Dance Benita Dance",
+    "Cousin Sidney",
+    "Shadows",
+    "Hipmotism"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Night_Song_(Arthur_Blythe_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "0bc317ff-ae0d-4b97-b722-7f94b0bc8712",
+     "title": "Hipmotism",
+     "date": "",
+     "country": "DE",
+     "status": "Official",
+     "artists": [
+      "Arthur Blythe"
+     ],
+     "labels": [
+      {
+       "name": "enja",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "04e4c1ae-76ea-35de-a060-ac3538813f28",
+      "title": "Hipmotism",
+      "firstReleaseDate": "1991",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Dear Dessa",
+      "Dance Benita Dance",
+      "Cousin Sidney",
+      "Shadows",
+      "Hipmotism",
+      "Miss Eugie",
+      "Matter Of Fact",
+      "Bush Baby",
+      "My Son Ra"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Night_Song_(Arthur_Blythe_album)",
+    "page": {
+     "requestedTitle": "Night Song (Arthur Blythe album)",
+     "resolvedTitle": "Night Song (Arthur Blythe album)",
+     "shortDescription": "1997 studio album by Arthur Blythe",
+     "extract": "Night Song is an album by the saxophonist Arthur Blythe, released via Clarity Recordings in 1997.\n\n\n== Reception ==\n\nIn his review for AllMusic, Scott Yanow stated: \"This is a particularly intriguing and enjoyable release ... Whether it be hints at New Orleans parade rhythms, Afro-Cuban jazz, older styles of jazz, or freer explorations, this is a fascinating set that is well worth several listens\". In JazzTimes, Miles Jordan wrote: \"This challenging CD finds Blythe doing most of the soloing with Stewart’s ebullient tuba primarily functioning as a walking bass. ... On the tunes that feature the percussionists-all playing hand drums-his marimbas definitely imbue them with a 'world music' feeling\".\n\n\n== Track listing ==\nAll compositions by Arthur Blythe except where noted\n\n\"Night Song (Cancion de La Noche)\" (Arthur Blythe, Gust Tsilias) – 5:44\n\"Sorrows of Sonny Liston\" (Tsilias) – 3:58\n\"Down San Diego Way\" – 3:43\n\"It's Hungry/Fulfillment\" (Blythe, Chico Freeman, Bob Stewart, Arto Tuncboyaciyan) – 7:43\n\"Ransom\" (Blythe, Tuncboyaciyan) – 4:04\n\"Cause of It All\" (Blythe, Stewart) – 5:02\n\"We See\" (Thelonious Monk) – 5:05\n\"Blood Count\" (Billy Strayhorn) – 6:18\n\"Slanderous\" – 3:57\n\"Contemplation\" – 5:43\n\"Hardly\" – 5:24\n\"Night Song (Cancion de La Noche) (Reprise)\" (Blythe, Tsilias) – 2:59\n\n\n== Personnel ==\nArthur Blythe – alto saxophone\nChico Freeman – bass clarinet, percussion\nBob Stewart – tuba\nGust Tsillis – marimba, vibraphone\nArto Tunçboyacıyan, David Frazier, Josh Jones – percussion\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "in-private",
+  "kind": "album",
+  "ours": {
+   "title": "In Private",
+   "artist": "Art Tatum",
+   "year": 1991,
+   "label": "Fresh Sound Records",
+   "albumDNA": "In Private is a solo piano collection by Art Tatum, originally released on Pablo Records in 1976 and reissued by Fresh Sound Records in 1991. The recordings capture Tatum's extraordinary virtuosity in an intimate setting, drawing from informal sessions that never saw commercial release during his lifetime. The record sits firmly in the swing tradition, with notable tracks including \"Wrap Your Troubles in Dreams\" and \"Sittin' an' a Rockin'\".",
+   "keyTracks": [
+    "Wrap Your Troubles in Dreams",
+    "Sittin' an' a Rockin'",
+    "You're Drivin' Me Crazy",
+    "Tenderly",
+    "Over the Rainbow"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "56b2a1ee-156f-49d1-802f-820a714d40a3",
+     "title": "In Private",
+     "date": "1991",
+     "country": "ES",
+     "status": "Official",
+     "artists": [
+      "Art Tatum"
+     ],
+     "labels": [
+      {
+       "name": "Fresh Sound Records",
+       "catalogNumber": "FSRCD 368"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "15926c37-350f-470f-a4e0-4d0f04c6c597",
+      "title": "In Private",
+      "firstReleaseDate": "1991",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Wrap Your Troubles in Dreams",
+      "Sittin' an' a Rockin'",
+      "You're Drivin' Me Crazy",
+      "Tenderly",
+      "Over the Rainbow",
+      "In a Sentimental Mood",
+      "You Took Advantage of Me",
+      "She's the Talk of the Town",
+      "She's Funny That Way",
+      "I'll Never Be the Same",
+      "Night and Day"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "patrice",
+  "kind": "album",
+  "ours": {
+   "title": "Patrice",
+   "artist": "Mark Whitfield",
+   "year": 1991,
+   "label": "Warner Bros. Records",
+   "albumDNA": "A 1991 Warner Bros. Records date, Patrice finds Mark Whitfield in a contemporary jazz setting. The date includes \"Go Down Moses\" and \"Dear Father\". Warner Bros. gave jazz artists commercial reach and creative freedom.",
+   "keyTracks": [
+    "Go Down Moses",
+    "Dear Father",
+    "Lady of the Day",
+    "Nobody Knows the Trouble I've Seen",
+    "Baby M's Bayou Blues"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "1aa8dcfd-3c49-45eb-a121-e93bba96c76b",
+     "title": "Patrice",
+     "date": "1991",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Mark Whitfield"
+     ],
+     "labels": [
+      {
+       "name": "Warner Bros. Records",
+       "catalogNumber": "9 26659-2"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "228cfd39-bce2-4208-89c3-2d618e9187e0",
+      "title": "Patrice",
+      "firstReleaseDate": "1991",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Go Down Moses",
+      "Dear Father",
+      "Lady of the Day",
+      "Nobody Knows the Trouble I've Seen",
+      "Baby M's Bayou Blues",
+      "Patrice",
+      "Midnight Sun",
+      "David's Theme",
+      "Bee's Blues",
+      "Brother Jack",
+      "Trouble at the South Bend",
+      "We'll Be Together Again"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Patrice (album)",
+     "resolvedTitle": "Patrice (album)",
+     "shortDescription": "1978 studio album by Patrice Rushen",
+     "extract": "Patrice is the fourth album by R&B singer Patrice Rushen.\n\n\n== Critical reception ==\n\nAlex Henderson of Allmusic, in a favourable review, stated \"Patrice is, in fact, a rewarding R&B/pop effort. Patrice demonstrated that she could be an expressive, charming singer, and her writing or co-writing is solid on cuts that range from the funky \"Hang It Up\" and the lovely ballad \"Didn't You Know?\" to the socio-political \"Changes (In Your Life).\" With Patrice, the Los Angeles native made it clear that she was as appealing as an R&B/pop singer as she had been as a jazz pianist/keyboardist.\"\n\n\n== Track listing ==\n\"Music of the Earth\" (Patrice Rushen, Angela Rushen) - 3:58\n\"When I Found You\" (P. Rushen, Tony Coleman, A. Rushen) - 5:20\n\"Changes (In Your Life)\" (P. Rushen, A. Rushen) - 4:08\n\"Wishful Thinking\" (P. Rushen) - 5:08\n\"Let's Sing a Song of Love\" (P. Rushen, Reggie Andrews) - 3:43\n\"Hang It Up\" (P. Rushen) - 5:11\n\"Cha-Cha\" (P. Rushen, Sheree North, A. Rushen) - 3:22\n\"It's Just a Natural Thing\" (P. Rushen, Freddie Washington) - 3:20\n\"Didn't You Know?\" (P. Rushen, Sheree Brown) - 5:17\n\"Play!\" (P. Rushen, Charles Mims Jr.) - 4:36\n\n\n== Personnel ==\nPatrice Rushen – arrangements (1–7, 9),  backing vocals (1–4, 6–10), Rhodes piano (1, 2, 5, 6, 7, 9, 10), synthesizers (1), lead vocals (2, 3, 4, 7, 9), percussion (2, 9, 10), clavinet (3, 8, 10), synth bass (3), tambourine (3), acoustic guitar (4), electric grand piano (5, 10), acoustic piano (6), rhythm and lead guitar (8), drums (8, 9), celesta (9), bass (9)\nCharles Mims Jr. – Rhodes piano (4), backing vocals (6), acoustic piano (8), arrangements (8, 10), synthesizers (10)\nMarlo Henderson – guitar (1, 5, 6, 7, 9, 10), Ovation guitar (2), fuzz lead guitar (3)\nAl McKay – guitar (1, 2, 3, 5, 6, 7, 10)\nAbraham Laboriel – acoustic guitar (1), bass (4)\nPaul Jackson Jr. – acoustic rhythm guitar (9), hi-strung guitar (9)\nFreddie Washington – bass (1, 2, 3, 5–8, 10)\nJames Gadson – drums (1–7, 10)\nPaulinho da Costa – percussion (1, 4, 5, 7)\nBill Summers – percussion (6, 7, 10)\nKim Hutchcroft – alto saxophone (1, 2, 5, 6, 8, 10)\nLarry Williams – tenor saxophone (1, 2, 5, 6, 8, 10), clarinet (4)\nBill Reichenbach Jr. – trombone (1, 6, 10), baritone (2), bass trombone (5, 8)\nMaurice Spears – bass trombone (1, 2, 6, 10)\nGeorge Bohanon – trombone (5, 8)\nOscar Brashear – trumpet (1), flugelhorn (2)\nRaymond Lee Brown – trumpet (1, 5, 6, 8, 10), flugelhorn (2, 9)\nJerry Hey – trumpet (5, 6, 8, 10)\nWilliam Green – clarinet (4)\nValerie King – flute (4)\nJeff Clayton – oboe (4)\nDave Riddles – bassoon (4)\nKenneth Yerke – whistle (4)\nClay Lawrey – baritone (9)\nRoy Galloway – backing vocals (1, 2, 3, 5, 6, 9, 10)\nPauline Wilson – backing vocals (1)\nSyreeta Wright – backing vocals (1–4, 6, 9, 10)\nJim Gilstrap – backing vocals (2, 3, 5, 8, 10)\nStephanie Spruill – backing vocals (3, 8)\nSheree Brown – backing vocals (4, 5, 6, 9)\nOren Waters – backing vocals (5, 6, 8)\nReggie Andrews – backing vocals (6)\nMaxine Willard Waters – backing vocals (8)\nHandclaps and Fingersnaps\n\nGerald Albright, Reggie Andrews, Sheree Brown, Tony Coleman, Roy Galloway, Debra Jones, Tony Lewis, Eric McKain, Charles Mims Jr., Phil Moores, Bill Pegg, Laverne Peterson, Patrice Rushen, Freddie Washington and Oren Waters\nStrings (Tracks 1, 2, 4, 5 & 9)\n\nPatrice Rushen – arrangements and conductor (1, 2, 4, 9)\nReggie Andrews – arrangements and conductor (5)\nGerald Vinci – concertmaster (1, 2)\nCharles Veal Jr. – concertmaster (4, 5, 9)\nRonald Cooper, Selene Hurford, Ray Kelley, Ron Leonard, Edgar Lustgarten and Harry Shlutz – cello\nDenyse Buffum, Rollice Dale, Mark Kovacs, Virginia Majewski, Carole Mukogawa, Art Royval and Barbara Thomason – viola\nIsrael Baker, Arnold Belnick, Harry Bluestone, Alfred Breuning, Bonnie Douglas, Assa Drori, Frank Foster, Harris Goldman, Endre Granat, Connie Kupka, Carl LaMagna, Barbara Nord, Henry Roth, Sheldon Sanov, Sandy Seymour, Paul Shure, Barry Socher, Marcia Van Dyke, Dorothy Wade and Kenneth Yerke – violin\n\n\n== Charts ==\n\n\n=== Singles ===\n\n\n== Samples & Covers ==\nHieroglyphics sampled \"Didn't You Know?\" on their song \"You Never Knew\" on their album 3rd Eye Vision in 1998.\n\n\n== References ==\n\n\n== External links ==\nPatrice Rushen-Patrice at Discogs"
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Patrice (album)",
+      "shortDescription": "1978 studio album by Patrice Rushen",
+      "extractHead": "Patrice is the fourth album by R&B singer Patrice Rushen.\n\n\n== Critical reception ==\n\nAlex Henderson of Allmusic, in a favourable review, stated \"Patrice is, in fact, a rewarding R&B/pop effort. Patrice demonstrated that she could be an expressive, charming singer, and her writing or co-writing is solid on cuts that range from the funky \"Hang It Up\" and the lovely ballad \"Didn't You Know?\" to the socio-political \"Changes (In Your Life).\" With Patrice, the Los Angeles native made it clear that sh"
+     },
+     {
+      "resolvedTitle": "Patrice Lumumba",
+      "shortDescription": "Congolese politician and independence leader (1925–1961)",
+      "extractHead": "Patrice Émery Lumumba (  pə-TREESS luu-MUUM-bə; born Isaïe Tasumbu Tawosa; 2 July 1925 – 17 January 1961) was a Congolese politician, independence leader and revolutionary who served as the first prime minister of the First Congolese Republic (which is today the Democratic Republic of the Congo) from June until September 1960, following the May 1960 election. Lumumba was the leader of the Congolese National Movement (MNC) from 1958 until his assassination in 1961. Ideologically an African nation"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "shakills-warrior",
+  "kind": "album",
+  "ours": {
+   "title": "Shakill’s Warrior",
+   "artist": "David Murray",
+   "year": 1991,
+   "label": "DIW",
+   "albumDNA": "Shakill's Warrior is an album by David Murray, released on the DIW/Columbia label in 1991. It features eight quartet performances by Murray with Stanley Franks, Don Pullen, and Andrew Cyrille.",
+   "keyTracks": [
+    "Blues for Savannah",
+    "Song From the Old Country",
+    "High Priest",
+    "In the Spirit",
+    "Shakill’s Warrior"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Shakill's_Warrior"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "3a6757c1-a06d-4808-a6ae-db4c89d29793",
+     "title": "Shakill’s Warrior",
+     "date": "1991",
+     "country": "JP",
+     "status": "Official",
+     "artists": [
+      "David Murray"
+     ],
+     "labels": [
+      {
+       "name": "DIW",
+       "catalogNumber": "DIW-850"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0704efb9-39ba-4922-8e5c-c88b8683297c",
+      "title": "Shakill’s Warrior",
+      "firstReleaseDate": "1991",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Blues for Savannah",
+      "Song From the Old Country",
+      "High Priest",
+      "In the Spirit",
+      "Shakill’s Warrior",
+      "At the Cafe Central",
+      "Black February",
+      "Milano Strut"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Shakill's_Warrior",
+    "page": {
+     "requestedTitle": "Shakill's Warrior",
+     "resolvedTitle": "Shakill's Warrior",
+     "shortDescription": "1991 studio album by David Murray",
+     "extract": "Shakill's Warrior is an album by David Murray, released on the DIW/Columbia label in 1991. It features eight quartet performances by Murray with Stanley Franks, Don Pullen, and Andrew Cyrille.\n\n\n== Critical reception ==\n\nReviewing for Playboy in April 1992, Robert Christgau hailed Murray as \"the most generous saxophone virtuoso since Sonny Rollins\" and Shakill's Warrior \"the funkiest record he's ever made\", as well as \"one of the most evocative\". He highlighted the playing of Pullen, saying he and Murray \"dig deep into the most declasse kind of organ jazz\", and went on to write:\n\nThe music partakes of all the style's thick sexuality and soused soul—both men clearly love this stuff. But at the same time it seems distanced, decentered, a little off, conjuring a time warp in which a smoky '60s taproom in Watts or Newark is transported not just to 1992 but to 2000—to some scary future whose strangeness seems more natural every day.\nChristgau later ranked Shakill's Warrior as the second best album of 1992 in his year-end \"Dean's List\" for The Village Voice's Pazz & Jop critics poll. In Christgau's Consumer Guide: Albums of the '90s (2000), he assigned the album an A-plus grade, although he later said in 2020, after relistening: \"in what may have been the first time in 25 years, one thing became clear quick: not an A plus.\"\nIn another retrospective appraisal, AllMusic's Scott Yanow stated: \"The music, with the exception of some typical Murray outbursts into the extreme upper register, is generally respectful and soulful, one of Murray's mellower efforts.\"\n\n\n== Track listing ==\n\"Blues for Savannah\" (Murray) – 7:26\n\"Song from the Old Country\" (Pullen) – 7:01\n\"High Priest\" (Cyrille) – 11:59\n\"In the Spirit\" (Pullen) – 9:49\n\"Shakill's Warrior\" (Murray) – 8:37\n\"At the Cafe Central\" (Pullen) – 10:52\n\"Black February (Butch Morris) – 8:53\n\"Milano Strut\" (Pullen) – 8:17\n\n\n== Personnel ==\nDavid Murray – tenor saxophone\nDon Pullen – organ\nStanley Franks – guitar\nAndrew Cyrille – drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "snowy-morning-blues",
+  "kind": "album",
+  "ours": {
+   "title": "Snowy Morning Blues",
+   "artist": "James P. Johnson",
+   "year": 1991,
+   "label": "GRP",
+   "albumDNA": "Snowy Morning Blues (1991) captures James P. Johnson exploring contemporary jazz territory on the GRP label. Standouts include \"What Is This Thing Called Love?\" and \"Crying for the Carolines\". GRP Records was a leading smooth and contemporary jazz label in the 1980s and 90s. A pioneer of stride piano, he was one of the most important pianists in the early era of recording, and like Jelly Roll Morton, one of the key figures in the evolution of ragtime into what was eventually called jazz.",
+   "keyTracks": [
+    "What Is This Thing Called Love?",
+    "Crying for the Carolines",
+    "You've Got to Be Modernistic",
+    "Jingles",
+    "I've Got a Feeling I'm Falling"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/James_P._Johnson"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "e274efe0-ddbf-4dbb-ba5d-cefd68215170",
+     "title": "Snowy Morning Blues",
+     "date": "1991-10-08",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "James P. Johnson"
+     ],
+     "labels": [
+      {
+       "name": "Verve Reissues",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "279822f7-6339-3a14-a78d-4b01bbed12f2",
+      "title": "Snowy Morning Blues",
+      "firstReleaseDate": "1991-10-08",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "What Is This Thing Called Love?",
+      "Crying for the Carolines",
+      "You’ve Got to Be Modernistic",
+      "Jingles",
+      "I’ve Got a Feeling I’m Falling",
+      "Honeysuckle Rose",
+      "Keepin’ Out of Mischief Now",
+      "My Fate Is in Your Hands",
+      "Blue Turning Gray Over You",
+      "Squeeze Me",
+      "I’m Gonna Sit Right Down (And Write Myself a Letter)",
+      "Ain’t Misbehavin’",
+      "Snowy Morning Blues",
+      "Carolina Shout",
+      "Keep Off the Grass",
+      "Old Fashioned Love",
+      "If I Could Be With You",
+      "A Porter’s Love Song to a Cham",
+      "Over the Bars",
+      "Riffs"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/James_P._Johnson",
+    "page": {
+     "requestedTitle": "James P. Johnson",
+     "resolvedTitle": "James P. Johnson",
+     "shortDescription": "American pianist and composer (1894–1955)",
+     "extract": "James Price Johnson (February 1, 1894 – November 17, 1955) was an American pianist and composer. A pioneer of stride piano, he was one of the most important pianists in the early era of recording, and like Jelly Roll Morton, one of the key figures in the evolution of ragtime into what was eventually called jazz. Johnson was a major influence on Count Basie, Duke Ellington, Art Tatum, Thelonious Monk, and Fats Waller, who was his student. According to Hound Dog the 2009 biography of the song-writing partnership between Mike Stoller and Jerry Leiber James P. Johnson also gave lessons to Stoller.\nJohnson composed many hit songs, including the unofficial anthem of the Roaring Twenties, \"The Charleston\", and he remained the acknowledged king of New York jazz pianists through most of the 1930s. Johnson's artistry, influence on early popular music, and contributions to musical theatre are often overlooked, and as such, he has been referred to by musicologist David Schiff as \"The Invisible Pianist\".\n\n\n== Biography ==\n\n\n=== Early life and education ===\nJohnson was born in New Brunswick, New Jersey on February 1, 1894. The proximity to New York City meant that the full cosmopolitan spectrum of the city's musical experience, from bars, to cabarets, to the symphony, were at the young Johnson's disposal. Johnson's father, William H. Johnson, was a store helper and mechanic while his mother, Josephine Harrison, was a maid. Harrison was a part of the choir at the Methodist Church and was also a self-taught pianist. Johnson later cited the popular African American songs and dances he heard at home and around the city as early influences on his musical taste. In 1908, Johnson's family moved to the San Juan Hill section of New York City (near where Lincoln Center stands today) and subsequently moved again to uptown in 1911.\nWith perfect pitch and excellent recall, Johnson was soon able to pick out the piano tunes that he had heard. He grew up listening to the ragtime of Scott Joplin and always retained links to the ragtime era, playing and recording Joplin's \"Maple Leaf Rag\", as well as the more modern (according to Johnson) and demanding \"Euphonic Sounds\", both several times in the 1940s. Johnson, who gained his first job as a pianist in 1912, decided to pursue his musical career rather than return to school. From 1913 to 1916, Johnson spent time studying the European piano tradition with Bruto Giannini. Over the next four to five years, Johnson continued to develop his ragtime piano skills by studying other pianists and composing his own rags.\n\n\n=== Early career: 1914—1929 ===\nIn 1914, while performing in Newark, New Jersey with singer Lillie Mae Wright, who became his wife three years later, Johnson met Willie \"The Lion\" Smith. Smith and Johnson shared many of the same ideas regarding entertainers and their stage appearance. These beliefs and their complementary personalities led the two to become best friends. Starting in 1918, Johnson and Wright began touring together in the Smart Set Revue before settling back in New York in 1919.\nBefore 1920, Johnson had gained a reputation as a pianist on the East coast on a par with Eubie Blake and Luckey Roberts and made dozens of player piano roll recordings initially documenting his own ragtime compositions before recording for Aeolian, Perfection (the label of the Standard Music Roll Co., Orange, New Jersey), Artempo (label of Bennett & White, Inc., Newark, New Jersey), Rythmodik, and QRS during the period from 1917 to 1927. During this period he met George Gershwin, who was also a young piano-roll artist at Aeolian.\nAs his piano style continued to evolve, his 1921 phonograph recordings of his own compositions, \"Harlem Strut\", \"Keep Off the Grass\",  \"Carolina Shout\", and \" Worried and Lonesome Blues\" were, along with Jelly Roll Morton's Gennett recordings of 1923, among the first jazz piano solos to be put on record. These technically challenging compositions would be learned by his contemporaries, and would serve as test pieces in solo competitions, in which the New York pianists would demonstrate their mastery of the keyboard, as well as the swing, harmonies, and improvisational skills which would further distinguish the great masters of the era.\nThe majority of his phonograph recordings of the 1920s and early 1930s were done for Black Swan (founded by Johnson's friend W.C. Handy, where William Grant Still served in an A&R capacity) and Columbia. In 1922, Johnson branched out and became"
+    }
+   }
+  }
+ },
+ {
+  "id": "straight-life",
+  "kind": "album",
+  "ours": {
+   "title": "Straight Life",
+   "artist": "Art Pepper",
+   "year": 1991,
+   "label": "Galaxy",
+   "albumDNA": "Straight Life is an album by the American saxophonist Art Pepper, released in 1979. Pepper was joined by Tommy Flanagan, Red Mitchell, Billy Higgins and Kenneth Nash.",
+   "keyTracks": [
+    "Surf Ride",
+    "Nature Boy",
+    "Straight Life",
+    "September Song",
+    "Make a List (Make a Wish)"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Straight_Life_(Art_Pepper_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "d854d707-eda4-4d93-8aa4-509e744f11a3",
+     "title": "Straight Life",
+     "date": "1991-07-01",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Art Pepper"
+     ],
+     "labels": [
+      {
+       "name": "Galaxy",
+       "catalogNumber": "OJCCD-475-2"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0f664251-fcf5-3f85-8916-36e84889ae5a",
+      "title": "Straight Life",
+      "firstReleaseDate": "1991-07-01",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Surf Ride",
+      "Nature Boy",
+      "Straight Life",
+      "September Song",
+      "Make a List (Make a Wish)",
+      "Long Ago and Far Away"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Straight_Life_(Art_Pepper_album)",
+    "page": {
+     "requestedTitle": "Straight Life (Art Pepper album)",
+     "resolvedTitle": "Straight Life (Art Pepper album)",
+     "shortDescription": "1979 studio album by Art Pepper",
+     "extract": "Straight Life is an album by the American saxophonist Art Pepper, released in 1979. Pepper was joined by Tommy Flanagan, Red Mitchell, Billy Higgins and Kenneth Nash.\nSome versions have the bonus track \"Long Ago (and Far Away)\".\n\n\n== Title Track ==\nPepper's composition \"Straight Life\" is a contrafact of \"After You've Gone\", and it was also recorded for Pepper's 1957 album Art Pepper Meets the Rhythm Section. Pepper re-used the title for his 1979 autobiography Straight Life. Pepper was not the only jazz musician to use the title. Trumpeter Freddie Hubbard and organist Jimmy Smith both released albums and compositions unrelated to Pepper's with the title \"Straight Life\".\n\n\n== Critical reception ==\n\nAllMusic wrote that Straight Life \"is pretty definitive and serves as a perfect introduction to Pepper's second (and most rewarding) period.\"\n\n\n== Track listing ==\n\"Surf Ride\" (Art Pepper) – 6:57\n\"Nature Boy\" (eden ahbez) – 9:55\n\"Straight Life\" (Art Pepper) – 4:09\n\"September Song\" (Kurt Weill, Maxwell Anderson) – 11:00\n\"Make a List\" (Art Pepper) – 9:46\n(Recorded on September 21, 1979)\n\n\n== Personnel ==\nArt Pepper – alto saxophone\nTommy Flanagan – piano\nRed Mitchell – bass\nBilly Higgins – drums\nKenneth Nash – cowbell, reco-reco (on \"Make a List\" only)\n\n\n== Sources ==\nRichard Cook & Brian Morton. The Penguin Guide to Jazz on CD. Penguin,  4th edition, 1998. ISBN 0-14-051383-3\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "that-certain-feeling",
+  "kind": "album",
+  "ours": {
+   "title": "That Certain Feeling",
+   "artist": "Ran Blake",
+   "year": 1991,
+   "label": "Unknown",
+   "albumDNA": "That Certain Feeling is an album by American organist John Patton recorded in 1968 and released on the Blue Note label. A contemporary jazz entry from 1991 by Ran Blake, documenting the breadth of the contemporary period.",
+   "keyTracks": [
+    "Ouverture I",
+    "Mine",
+    "It Ain't Necessarily So",
+    "The Man I Love",
+    "Oh Where's My Bess? I",
+    "Blues"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "2a2472e8-b211-4223-9543-3233ed08bc1c",
+     "title": "That Certain Feeling",
+     "date": "1991",
+     "country": "CH",
+     "status": "Official",
+     "artists": [
+      "Ran Blake"
+     ],
+     "labels": [
+      {
+       "name": "hat ART",
+       "catalogNumber": "hat ART CD 6077"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0d1317f6-83f3-4d1d-9608-c8dffb5551f2",
+      "title": "That Certain Feeling",
+      "firstReleaseDate": "1991",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Ouverture I",
+      "Mine",
+      "It Ain't Necessarily So",
+      "The Man I Love",
+      "Oh Where's My Bess? I",
+      "Blues",
+      "Strike Up the Band",
+      "What Do You Want Wid Bess?",
+      "I Got Rhythm",
+      "That Certain Feeling I",
+      "Ouverture II",
+      "Someone To Watch Over Me",
+      "But Not For Me",
+      "Who Cares?",
+      "Liza",
+      "Clara, Clara",
+      "Oh Where's My Bess? II",
+      "'s Wonderful",
+      "That Certain Feeling II"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "That Certain Feeling (album)",
+     "resolvedTitle": "That Certain Feeling (album)",
+     "shortDescription": "1968 studio album by John Patton",
+     "extract": "That Certain Feeling is an album by American organist John Patton recorded in 1968 and released on the Blue Note label.\n\n\n== Reception ==\n\nThe AllMusic review by Stephen Thomas Erlewine awarded the album 3½ stars and stated \"there are moments when everything comes together and it just cooks. And those are the moments that make That Certain Feeling worth a search\".\n\n\n== Track listing ==\nAll compositions by John Patton except where noted\n\n\"String Bean\" - 5:42\n\"I Want to Go Home\" - 8:36\n\"Early A.M.\" - 7:17\n\"Dirty Fingers\" - 6:09\n\"Minor Swing\" - 6:38\n\"Daddy James\" (Jimmy Watson) - 6:47\nRecorded at Rudy Van Gelder Studio, Englewood Cliffs, New Jersey on March 8, 1968.\n\n\n== Personnel ==\nBig John Patton - organ\nJunior Cook - tenor saxophone\nJimmy Ponder - guitar\nClifford Jarvis - drums\n\n\n== References =="
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "That Certain Feeling (album)",
+      "shortDescription": "1968 studio album by John Patton",
+      "extractHead": "That Certain Feeling is an album by American organist John Patton recorded in 1968 and released on the Blue Note label.\n\n\n== Reception ==\n\nThe AllMusic review by Stephen Thomas Erlewine awarded the album 3½ stars and stated \"there are moments when everything comes together and it just cooks. And those are the moments that make That Certain Feeling worth a search\".\n\n\n== Track listing ==\nAll compositions by John Patton except where noted\n\n\"String Bean\" - 5:42\n\"I Want to Go Home\" - 8:36\n\"Early A.M."
+     }
+    ]
+   }
+  }
+ }
+]

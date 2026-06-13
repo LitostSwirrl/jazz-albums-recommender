@@ -1,0 +1,357 @@
+[
+ {
+  "id": "night-train-oscar-peterson",
+  "verdict": "factual_error",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "2011", "evidence": "1963", "evidenceQuote": "Night Train is an album by the Oscar Peterson Trio, released in 1963 by Verve Records.", "source": "wiki"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 2011, Night Train showcases Oscar Peterson", "problem": "Year is wrong; the album was recorded/released 1963, not 2011 (2011 appears to be a CD-reissue year).", "evidenceQuote": "1963 studio album by the Oscar Peterson Trio", "source": "wiki"}
+  ],
+  "notes": "Entity confirmed by MB (search, sim 0.76) and the entity-matched Wikipedia page (Night Train, Oscar Peterson Trio, 1963, Verve). All 6 keyTracks match the MB tracklist (C‐Jam Blues = MB 'C Jam Blues'). Only error is the year (2011 vs 1963). Label 'Various' is the dataset-wide placeholder; MB/wiki show Verve. albumDNA is generic editorial boilerplate (no other checkable facts)."
+ },
+ {
+  "id": "at-the-stratford-shakespearean-festival-oscar-peterson",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "1993", "evidence": "1957-07", "evidenceQuote": "firstReleaseDate: 1957-07 (releaseGroup, primaryType Album, secondaryTypes [Live])", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 1993, At the Stratford Shakespearean Festival", "problem": "Year is wrong; the live album first appeared in 1957 (the MB release dated 1993-04-20 is a CD reissue). It cannot have been recorded in 1993.", "evidenceQuote": "firstReleaseDate: 1957-07", "source": "mb"}
+  ],
+  "notes": "MB embedded_mbid (authoritative): Oscar Peterson Trio, Live, releaseGroup first release 1957-07; the matched release (1993-04-20) is a reissue. All 6 keyTracks match the MB tracklist. No Wikipedia page returned. Label 'Various' placeholder; MB shows Verve. Year is the only error; '1993' is the reissue date, not the recording/first-release year."
+ },
+ {
+  "id": "joe-pass-at-the-montreux-jazz-festival-joe-pass",
+  "verdict": "factual_error",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "1997", "evidence": "1975", "evidenceQuote": "firstReleaseDate: 1975 (releaseGroup 'Joe Pass at the Montreux Jazz Festival 1975', secondaryTypes [Live])", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 1997, Joe Pass at the Montreux Jazz Festival", "problem": "Year is wrong; this is a 1975 Montreux live recording (MB title literally 'Joe Pass at the Montreux Jazz Festival 1975'; first release 1975). The 1997-05-16 MB release is a reissue.", "evidenceQuote": "Joe Pass at the Montreux Jazz Festival 1975", "source": "mb"}
+  ],
+  "notes": "MB embedded_mbid: Joe Pass, Live, first release 1975; matched release 1997-05-16 is the OJC CD reissue. All 6 keyTracks match the MB tracklist. No Wikipedia page. Label 'Various' placeholder; MB shows Original Jazz Classics. Year ('Recorded in 1997') reflects the reissue date, not 1975."
+ },
+ {
+  "id": "chet-baker-and-crew-chet-baker",
+  "verdict": "factual_error",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Something for Lisa"],
+  "fieldIssues": [
+   {"field": "year", "ours": "1993", "evidence": "1956", "evidenceQuote": "date: 1956 / firstReleaseDate: 1956 (Pacific Jazz, PJ-1224)", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 1993, Chet Baker and Crew", "problem": "Year is wrong; 'Chet Baker & Crew' was recorded/released 1956 on Pacific Jazz (1993 is a CD-reissue year).", "evidenceQuote": "date: 1956", "source": "mb"},
+   {"ourClaim": "Something for Lisa", "problem": "keyTrack title misspelled; MB tracklist has 'Something for Liza' (Liza, not Lisa).", "evidenceQuote": "Something for Liza", "source": "mb"}
+  ],
+  "notes": "MB search (sim 0.77): Chet Baker & Crew, 1956, Pacific Jazz — entity matches. 5 of 6 keyTracks match exactly; 'Something for Lisa' is a one-letter spelling error for MB 'Something for Liza'. Primary issue is the year (1993 vs 1956). Label 'Various' placeholder; MB shows Pacific Jazz."
+ },
+ {
+  "id": "jazz-samba-stan-getz",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "The only MB match (search, sim 1.0) is a 2021 Compilation (20th Century Masterworks) crediting Stan Getz + Charlie Byrd; all 6 keyTracks (Desafinado, Samba Dees Days, O Pato, Samba Triste, Samba De Uma Nota Só, É Luxo Só) match its tracklist, so the entity/work is correct. The year claim 'Recorded in 2008' cannot be checked: the MB evidence is a 2021 reissue compilation, whose release date is NOT a recording date and is LATER than ours, so it does not contradict 2008. The original Jazz Samba (Getz/Byrd) is widely known to be 1962, but that is background knowledge, not in the pack evidence — so both '2008' and the comp's '2021' are unverifiable as recording dates. Repair-writer should source the true 1962 date externally. Label 'Various' placeholder."
+ },
+ {
+  "id": "california-concerts-gerry-mulligan",
+  "verdict": "clean",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "title", "ours": "California Concerts", "evidence": "California Concerts, Volume 2", "evidenceQuote": "California Concerts, Volume 2", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid matches a Gerry Mulligan Live release titled 'California Concerts, Volume 2' (Pacific Jazz CD, 1988); all 6 keyTracks match its tracklist exactly, confirming the entity. Year 1988 agrees with the MB release/first-release date, so no contradiction — but note this is a Live CD reissue of 1950s material, so 'Recorded in 1988' really reflects the reissue date (recording date not in evidence; not flagged as error since evidence does not contradict). Title differs from MB by the missing ', Volume 2' edition designation — repair-writer should confirm whether the site means the original 'California Concerts' or this Vol. 2 release. Label 'Various' placeholder; MB shows Pacific Jazz."
+ },
+ {
+  "id": "what-is-there-to-say-gerry-mulligan",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: Gerry Mulligan Quartet, 'What Is There to Say?', 1959, Columbia. Year 1959 matches MB date and first-release date. All 6 keyTracks match the MB tracklist. No Wikipedia page returned. albumDNA is generic editorial boilerplate with no further checkable claims. Label 'Various' placeholder; MB shows Columbia."
+ },
+ {
+  "id": "art-pepper-meets-the-rhythm-section-art-pepper",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "2000", "evidence": "1957-01-01", "evidenceQuote": "firstReleaseDate: 1957-01-01 (releaseGroup 'Art Pepper Meets the Rhythm Section')", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 2000, Art Pepper Meets the Rhythm Section", "problem": "Year is wrong; the album first appeared in 1957 on Contemporary (the MB release dated 2000 is a CD reissue). It cannot have been recorded in 2000.", "evidenceQuote": "firstReleaseDate: 1957-01-01", "source": "mb"}
+  ],
+  "notes": "MB embedded_mbid: Art Pepper, Contemporary Records, releaseGroup first release 1957-01-01; matched release (2000) is a CD reissue. All 6 keyTracks match the MB tracklist. Year is the only error; '2000' is the reissue date. Label 'Various' placeholder; MB shows Contemporary Records."
+ },
+ {
+  "id": "desmond-blue-paul-desmond",
+  "verdict": "factual_error",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "1998", "evidence": "1962", "evidenceQuote": "date: 1962 / firstReleaseDate: 1962 (RCA Victor, LPM-2438)", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 1998, Desmond Blue", "problem": "Year is wrong; 'Desmond Blue' (Paul Desmond) was recorded/released 1962 on RCA Victor (1998 is a CD-reissue year).", "evidenceQuote": "date: 1962", "source": "mb"}
+  ],
+  "notes": "MB search (sim 1.0): Paul Desmond, 'Desmond Blue', 1962, RCA Victor — entity matches. All 6 keyTracks match the MB tracklist. Year is the only error (1998 vs 1962). Label 'Various' placeholder; MB shows RCA Victor."
+ },
+ {
+  "id": "inside-hi-fi-lee-konitz",
+  "verdict": "factual_error",
+  "confidence": 0.55,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "1957", "evidence": "1956", "evidenceQuote": "date: 1956 / firstReleaseDate: 1956 (Atlantic, 1258)", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 1957", "problem": "Evidence dates the release to 1956 (both release date and release-group first-release date); a 1957 recording is inconsistent with a 1956 release.", "evidenceQuote": "date: 1956", "source": "mb"}
+  ],
+  "notes": "MB search (sim 1.0): Lee Konitz, 'Inside Hi-Fi', 1956, Atlantic — entity matches; all 6 keyTracks match. BORDERLINE: ours says 1957, evidence says 1956 (only one year off, both in the correct era). Flagged factual_error because firstReleaseDate 1956 contradicts a 1957 recording, but a human reviewer may treat this as a trivial 1-year discrepancy rather than the disambiguation disease. Label 'Various' placeholder; MB shows Atlantic."
+ },
+ {
+  "id": "the-jimmy-giuffre-three-jimmy-giuffre",
+  "verdict": "no_evidence",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No evidence survived: MB search returned no release and empty searchCandidates; no Wikipedia page or candidates. year is null, keyTracks null. albumDNA is generic editorial boilerplate with no checkable facts. Nothing can be verified. Label 'Various' placeholder."
+ },
+ {
+  "id": "cool-and-crazy-shorty-rogers",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (sim 1.0): Shorty Rogers, 'Cool and Crazy', 1953, RCA Victor — entity matches. Year 1953 matches MB date and first-release date. All 6 keyTracks match the MB tracklist. albumDNA is generic editorial boilerplate. Label 'Various' placeholder; MB shows RCA Victor."
+ },
+ {
+  "id": "full-house-wes-montgomery",
+  "verdict": "factual_error",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "2007", "evidence": "1962", "evidenceQuote": "Full House is an album by the jazz guitarist Wes Montgomery, released in 1962.", "source": "wiki"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 2007, Full House", "problem": "Year is wrong; the album was recorded live in 1962 (Tsubo, Berkeley, June 25, 1962) and released 1962. '2007' is the year of a bonus-track reissue, not the recording.", "evidenceQuote": "A 1987 CD reissue in the Original Jazz Classics series was followed by a later reissue in 2007 featuring additional bonus tracks.", "source": "wiki"}
+  ],
+  "notes": "Entity confirmed by MB (search, sim 1.0, 1962, Riverside, Live) and the entity-matched Wikipedia page (Full House, Wes Montgomery, 1962 live album). All 6 keyTracks match (take-suffixes stripped; ours lists the 2007-reissue take labels e.g. 'Cariba (take 2)', all present in the MB/wiki tracklists). The year (2007) tracks the bonus-track reissue, hence the error. Label 'Various' placeholder; MB shows Riverside. wikipediaUrl is null in ours, so wikiLink = none_stored even though the page is about our entity."
+ },
+ {
+  "id": "tjader-plays-mambo-cal-tjader",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (sim 1.0): Cal Tjader, 'Tjader Plays Mambo', 1956, Fantasy — entity matches. Year 1956 matches MB date and first-release date. All 6 keyTracks match the MB tracklist. albumDNA is generic editorial boilerplate. Label 'Various' placeholder; MB shows Fantasy."
+ },
+ {
+  "id": "at-the-black-hawk-shelly-manne",
+  "verdict": "clean",
+  "confidence": 0.68,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "title", "ours": "At the Black Hawk", "evidence": "Complete Live at the Black Hawk", "evidenceQuote": "Complete Live at the Black Hawk", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid matches 'Complete Live at the Black Hawk' (Shelly Manne & His Men, Live, 2010-02-01); all 5 keyTracks (Summertime, Our Delight, Poinciana, Step Lightly (I), Black Hawk Blues) appear in its tracklist, confirming the entity. Year 2010 agrees with the MB release/first-release date — no contradiction — but this is a 2010 'Complete' box of the 1959 Black Hawk live sessions, so 'Recorded in 2010' really reflects the reissue/compilation date (actual recording dates not in evidence; not flagged since evidence does not contradict). MB title is the 'Complete' box; ours 'At the Black Hawk' is the standard album-series name — noted, not an error. Label 'Various' placeholder; MB shows American Jazz Classics."
+ },
+ {
+  "id": "django-modern-jazz-quartet",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid (The Modern Jazz Quartet, 'Django', releaseGroup first release 1956) and entity-matched Wikipedia page ('Django', MJQ, 1956 studio album) both confirm the entity. All 6 keyTracks match the MB/wiki tracklist (ours 'Delaunay's Dilemma' vs wiki spelling 'Delauney's Dilemma' — punctuation/spelling-insensitive match). year is null so no 'Recorded in' claim is made; albumDNA is generic editorial boilerplate. No contradictions. Label 'Various' placeholder; MB shows Original Jazz Classics. wikipediaUrl null → none_stored, though the page is about our entity."
+ },
+ {
+  "id": "fontessa-modern-jazz-quartet",
+  "verdict": "factual_error",
+  "confidence": 0.88,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "1990", "evidence": "1956", "evidenceQuote": "firstReleaseDate: 1956 (releaseGroup 'Fontessa')", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 1990, Fontessa", "problem": "Year is wrong; 'Fontessa' (Modern Jazz Quartet) first appeared in 1956 (the MB release dated 1990-01-31 is a CD reissue). It cannot have been recorded in 1990.", "evidenceQuote": "firstReleaseDate: 1956", "source": "mb"}
+  ],
+  "notes": "MB embedded_mbid: The Modern Jazz Quartet, 'Fontessa', releaseGroup first release 1956; matched release (1990-01-31) is a CD reissue. All 6 keyTracks match the MB tracklist. Year is the only error; '1990' is the reissue date. Label 'Various' placeholder (MB labels empty for this release)."
+ },
+ {
+  "id": "plenty-plenty-soul-milt-jackson",
+  "verdict": "factual_error",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "2007", "evidence": "1957", "evidenceQuote": "date: 1957 / firstReleaseDate: 1957 (Atlantic, 1269)", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 2007, Plenty, Plenty Soul", "problem": "Year is wrong; 'Plenty, Plenty Soul' (Milt Jackson) was recorded/released 1957 on Atlantic (2007 is a CD-reissue year).", "evidenceQuote": "date: 1957", "source": "mb"}
+  ],
+  "notes": "MB search (sim 1.0): Milt Jackson, 'Plenty, Plenty Soul', 1957, Atlantic — entity matches. All 6 keyTracks match the MB tracklist. Year is the only error (2007 vs 1957). Label 'Various' placeholder; MB shows Atlantic."
+ },
+ {
+  "id": "undercurrent-bill-evans",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "2013", "evidence": "1962", "evidenceQuote": "Undercurrent is a 1962 jazz album by the pianist Bill Evans and the guitarist Jim Hall.", "source": "wiki"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 2013, Undercurrent", "problem": "Year is wrong; Undercurrent is a 1962 album (recorded spring 1962). The MB release dated 2013 is a budget reissue compilation (Not Now Music); the entity-matched Wikipedia page dates the album to 1962.", "evidenceQuote": "recorded in the spring of 1962, did he emerge again as a leader.", "source": "wiki"}
+  ],
+  "notes": "Entity confirmed: the entity-matched Wikipedia page is 'Undercurrent (Bill Evans and Jim Hall album)', 1962, and all 6 keyTracks (My Funny Valentine, I Hear a Rhapsody, Dream Gypsy, Romain, Skating in Central Park, Darn That Dream) match the MB 2013-compilation tracklist. The MB release (2013, Compilation, Not Now Music) is a reissue — its date is not a recording date; the wiki establishes 1962, contradicting 'Recorded in 2013'. ours credits only 'Bill Evans' (album is Evans + Jim Hall) — per spec this is legitimate omission of a co-leader, NOT flagged. Year is the substantive error. Label 'Various' placeholder; MB shows Not Now Music."
+ },
+ {
+  "id": "ma-rainey-vol-1-ma-rainey",
+  "verdict": "no_evidence",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No evidence survived: MB search returned no release and empty searchCandidates; no Wikipedia page or candidates. year null, keyTracks null. albumDNA is generic editorial boilerplate. Nothing can be verified. Label 'Various' placeholder."
+ },
+ {
+  "id": "johnny-dodds-vol-1-johnny-dodds",
+  "verdict": "no_evidence",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No evidence survived: MB search returned no release and empty searchCandidates; no Wikipedia page or candidates. year null, keyTracks null. albumDNA is generic editorial boilerplate. Nothing can be verified. Label 'Various' placeholder."
+ },
+ {
+  "id": "sidney-bechet-at-storyville-sidney-bechet",
+  "verdict": "no_evidence",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No evidence survived: MB search returned no release and empty searchCandidates; no Wikipedia page or candidates. year null, keyTracks null. albumDNA is generic editorial boilerplate. Nothing can be verified. Label 'Various' placeholder."
+ },
+ {
+  "id": "a-study-in-frustration-fletcher-henderson",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "2011", "evidence": "1994-06-14", "evidenceQuote": "firstReleaseDate: 1994-06-14 (releaseGroup 'A Study in Frustration: The Fletcher Henderson Story', secondaryTypes [Compilation])", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 2011, A Study in Frustration", "problem": "Year is wrong; this is a compilation of 1920s–1930s Fletcher Henderson recordings, first released 1994 (the MB release dated 2011 is a reissue). The material was not recorded in 2011.", "evidenceQuote": "firstReleaseDate: 1994-06-14", "source": "mb"}
+  ],
+  "notes": "MB embedded_mbid: Fletcher Henderson, 'A Study in Frustration: The Fletcher Henderson Story', secondaryType Compilation, release-group first release 1994-06-14; matched release (2011) is a reissue. All 6 keyTracks match the long MB tracklist. Per the compilation rule: this is a comp of historical (1920s–30s) sides, so 'Recorded in 2011' is doubly wrong — evidence (Compilation type + 1994 first release) contradicts a 2011 recording. Label 'Various' placeholder; MB shows Essential Jazz Classics."
+ },
+ {
+  "id": "fats-navarro-memorial-fats-navarro",
+  "verdict": "clean",
+  "confidence": 0.78,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "title", "ours": "Fats Navarro Memorial", "evidence": "Fats Navarro Memorial Album", "evidenceQuote": "Fats Navarro Memorial Album", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: Fats Navarro, 'Fats Navarro Memorial Album', 1951, Blue Note (BLP 5004). Year 1951 matches MB date and first-release date — no contradiction. All 6 keyTracks match the MB tracklist. Title differs only by the trailing 'Album'. Note: as a 'Memorial' release the underlying recordings predate 1951 (Navarro died 1950), but that is background knowledge and the evidence date (1951) equals ours, so not flagged. Label 'Various' placeholder; MB shows Blue Note."
+ },
+ {
+  "id": "one-for-prez-wardell-gray",
+  "verdict": "clean",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (sim 1.0): Wardell Gray, 'One for Prez', 1988, Black Lion Records, secondaryType Compilation. Year 1988 matches the MB release/first-release date — no contradiction. All 6 keyTracks (with their take numbers, e.g. 'Dell's Bells (162.5)') match the MB tracklist exactly, confirming the entity. This is a 1988 compilation of older Wardell Gray sessions (he died 1955), so 'Recorded in 1988' reflects the compilation date; not flagged since evidence date equals ours and gives no contradicting recording date. Label 'Various' placeholder; MB shows Black Lion Records."
+ }
+]

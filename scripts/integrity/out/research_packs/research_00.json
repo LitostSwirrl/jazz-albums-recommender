@@ -1,0 +1,113 @@
+[
+  {
+    "id": "david-murray",
+    "kind": "artist",
+    "researchGoal": "no_evidence: find the correct artist page. Verify/fill birthYear/deathYear/instruments and a 2-3 sentence bio basis; set wikipedia URL. Else mark unresolved.",
+    "ours": {
+      "name": "David Murray",
+      "birthYear": 1955,
+      "deathYear": null,
+      "instruments": [
+        "tenor saxophone",
+        "bass clarinet"
+      ],
+      "bio": "David Murray is one of the most prolific and versatile saxophonists in modern jazz, equally at home in free improvisation, big band settings, and world music contexts. A key figure in New York's loft jazz scene of the 1970s, he co-founded the World Saxophone Quartet and has recorded over 100 albums as a leader. His massive tenor saxophone sound and bass clarinet mastery bridge the traditions of Paul Gonsalves and Albert Ayler.",
+      "wikipedia": "https://en.wikipedia.org/wiki/David_Murray_(musician)"
+    }
+  },
+  {
+    "id": "jiro-inagaki",
+    "kind": "artist",
+    "researchGoal": "no_evidence: find the correct artist page. Verify/fill birthYear/deathYear/instruments and a 2-3 sentence bio basis; set wikipedia URL. Else mark unresolved.",
+    "ours": {
+      "name": "Jiro Inagaki",
+      "birthYear": 1933,
+      "deathYear": 2016,
+      "instruments": [
+        "saxophone"
+      ],
+      "bio": "Jiro Inagaki was a Japanese saxophonist and bandleader who led the group Soul Media through a series of electrifying jazz-funk recordings in the 1970s. His albums blended hard-swinging jazz with funk, rock, and Japanese pop sensibilities, creating a uniquely Japanese take on fusion that has been rediscovered by crate diggers and DJs worldwide. His 'Funky Stuff' album is considered a holy grail of Japanese jazz-funk.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Jiro_Inagaki"
+    }
+  },
+  {
+    "id": "leon-thomas",
+    "kind": "artist",
+    "researchGoal": "no_evidence: find the correct artist page. Verify/fill birthYear/deathYear/instruments and a 2-3 sentence bio basis; set wikipedia URL. Else mark unresolved.",
+    "ours": {
+      "name": "Leon Thomas",
+      "birthYear": 1937,
+      "deathYear": 1999,
+      "instruments": [
+        "vocals"
+      ],
+      "bio": "Leon Thomas was a vocalist who pioneered a revolutionary yodeling technique inspired by African Pygmy music, creating one of the most distinctive voices in jazz. His work with Pharoah Sanders on 'Karma' introduced his otherworldly vocal style to a wide audience, and his own albums blended spiritual jazz, blues, and African music. Thomas's innovations expanded the possibilities of the human voice in jazz and influenced generations of adventurous vocalists.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Leon_Thomas_(musician)"
+    }
+  },
+  {
+    "id": "yuki-arimasa",
+    "kind": "artist",
+    "researchGoal": "no_evidence: find the correct artist page. Verify/fill birthYear/deathYear/instruments and a 2-3 sentence bio basis; set wikipedia URL. Else mark unresolved.",
+    "ours": {
+      "name": "Yuki Arimasa",
+      "birthYear": 1965,
+      "deathYear": null,
+      "instruments": [
+        "piano"
+      ],
+      "bio": "Yuki Arimasa is a Japanese pianist whose lyrical style blends Bill Evans's influence with his own distinctive touch. His Village Vanguard appearance marked a milestone for Japanese jazz.",
+      "wikipedia": "https://ja.wikipedia.org/wiki/有馬祐輝"
+    }
+  },
+  {
+    "id": "latin-jazz-quintet",
+    "kind": "artist",
+    "researchGoal": "no_evidence: find the correct artist page. Verify/fill birthYear/deathYear/instruments and a 2-3 sentence bio basis; set wikipedia URL. Else mark unresolved.",
+    "ours": {
+      "name": "Latin Jazz Quintet",
+      "birthYear": 0,
+      "deathYear": null,
+      "instruments": [],
+      "bio": "Latin Jazz Quintet was one of the defining figures of Cool Jazz, whose recordings remain essential listening for anyone exploring the tradition.",
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "the-newest-sound-around",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "The Newest Sound Around",
+      "artist": "Ran Blake & Jeanne Lee",
+      "year": 1962,
+      "label": "RCA Victor",
+      "albumDNA": "Pianist Ran Blake and vocalist Jeanne Lee's radical debut reimagines pop standards and gospel songs as stark, intimate noir miniatures. Lee's ethereal, speech-like singing and Blake's dark, Monk-influenced piano create an atmosphere of haunting beauty and psychological tension. One of the most original vocal-piano duo recordings in jazz history. The album's 'third stream' approach—blending jazz, classical, and folk—was decades ahead of its time and has been increasingly recognized as a masterpiece.",
+      "keyTracks": [
+        "Laura",
+        "Where Flamingos Fly",
+        "Evil Blues",
+        "Church on Russell Street"
+      ],
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "blue-note-4000",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "Blue Note 4000",
+      "artist": "Freddie Hubbard",
+      "year": 1965,
+      "label": "Blue Note",
+      "albumDNA": "Freddie Hubbard, trumpeter, recorded Blue Note 4000 in 1965 for Blue Note. The set features \"Open Sesame\", \"Hub-Tones\", and \"Ready for Freddie\" among its selections. The album comes from the hard bop period, reconnecting jazz with blues and gospel while keeping bebop's sophistication. Hubbard brought new energy to hard bop trumpet, bridging the gap between Clifford Brown and the avant-garde.",
+      "keyTracks": [
+        "Open Sesame",
+        "Hub-Tones",
+        "Ready for Freddie"
+      ],
+      "wikipedia": null
+    }
+  }
+]

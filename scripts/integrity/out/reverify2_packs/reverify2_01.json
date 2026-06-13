@@ -1,0 +1,1132 @@
+[
+ {
+  "id": "spellbound-clifford-jordan",
+  "kind": "album",
+  "ours": {
+   "title": "Spellbound",
+   "artist": "Clifford Jordan",
+   "year": 1960,
+   "label": "Riverside",
+   "albumDNA": "Spellbound is an album by jazz saxophonist Clifford Jordan, recorded in 1960 and released on the Riverside label. A hard bop date, it includes \"Toy\", \"Lush Life\", and the title track \"Spellbound\".",
+   "keyTracks": [
+    "Toy",
+    "Lush Life",
+    "Moon-A-Tic",
+    "Spellbound",
+    "Hot Water",
+    "Last Night When We Were Young"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "1ab7ad48-9cd3-41ff-ac9c-84c17cb2e373",
+     "title": "Spellbound",
+     "date": "2007-01-24",
+     "country": "JP",
+     "status": "Official",
+     "artists": [
+      "Clifford Jordan"
+     ],
+     "labels": [
+      {
+       "name": "Riverside",
+       "catalogNumber": "VICJ-41820"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "c85fda1f-01c6-3e0c-9940-575f5ac77145",
+      "title": "Spellbound",
+      "firstReleaseDate": "1960-11",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Toy",
+      "Lush Life",
+      "Moon-A-Tic",
+      "Spellbound",
+      "Hot Water",
+      "Last Night When We Were Young",
+      "Au Privave"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Spellbound (Clifford Jordan album)",
+     "resolvedTitle": "Spellbound (Clifford Jordan album)",
+     "shortDescription": "1960 studio album by Clifford Jordan",
+     "extract": "Spellbound is an album by jazz saxophonist Clifford Jordan which was recorded in 1960 and released on the Riverside label.\n\n\n== Reception ==\n\nThe Allmusic site awarded the album 4 stars with the review by Scott Yanow stating, \"At this point, Jordan did not quite have the distinctive sound that he would develop in his period with Charles Mingus, but he was already a strong hard bop stylist... It's an excellent straight-ahead outing\" \nDpwnBeat reviewer Frank Kofsky awarded the album 4 stars. Kofsky found a heavy influence of Sonny Rollins in Jordan's playing.\n\n\n== Track listing ==\nAll compositions by Clifford Jordan except as indicated\n\n\"Toy\" - 4:25\n\"Lush Life\" (Billy Strayhorn) - 5:15\n\"Moon-A-Tic\" - 4:41\n\"Spellbound\" - 5:54\n\"Hot Water\" - 5:06\n\"Last Night When We Were Young\" (Harold Arlen, Yip Harburg) - 6:30\n\"Au Privave\" (Charlie Parker) - 8:31\n\n\n== Personnel ==\nClifford Jordan — tenor saxophone\nCedar Walton - piano\nSpanky DeBrest - bass\nAlbert Heath - drums\n\n\n== References =="
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Spellbound (Clifford Jordan album)",
+      "shortDescription": "1960 studio album by Clifford Jordan",
+      "extractHead": "Spellbound is an album by jazz saxophonist Clifford Jordan which was recorded in 1960 and released on the Riverside label.\n\n\n== Reception ==\n\nThe Allmusic site awarded the album 4 stars with the review by Scott Yanow stating, \"At this point, Jordan did not quite have the distinctive sound that he would develop in his period with Charles Mingus, but he was already a strong hard bop stylist... It's an excellent straight-ahead outing\" \nDpwnBeat reviewer Frank Kofsky awarded the album 4 stars. Kofsk"
+     },
+     {
+      "resolvedTitle": "Spellbound",
+      "shortDescription": "Topics referred to by the same term",
+      "extractHead": "Spellbound may refer to:\n\n\n== Film and television ==\nSpellbound (1916 film), with Lois Meredith\nSpellbound (1941 film), directed by John Harlow\nSpellbound (1945 film), directed by Alfred Hitchcock\nSpellbound (1999 film), a Japanese film directed by Masato Harada\nSpellbound (2002 film), a documentary film about the National Spelling Bee\nSpellbound (2003 film), a television film starring Richard Ruccolo\nSpellbound (2004 film), a television film starring Maggie Lawson\nSpellbound (2007 film), a tele"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "cornbread-lee-morgan",
+  "kind": "album",
+  "ours": {
+   "title": "Cornbread",
+   "artist": "Lee Morgan",
+   "year": 1967,
+   "label": "Blue Note",
+   "albumDNA": "Recorded in September 1965, Cornbread showcases Lee Morgan at the height of their creative powers, offering one of the finest expressions of Hard Bop. Cornbread remains a landmark of Hard Bop, cementing Lee Morgan's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "Cornbread",
+    "Our Man Higgins",
+    "Ceora",
+    "Ill Wind",
+    "Most Like Lee"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "f12c78de-91ec-4c4b-9e85-7ffddef7cdaa",
+     "title": "Cornbread",
+     "date": "1965",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Lee Morgan"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "BLP 4222"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "bf89022d-c58d-3caf-96d9-423be81c7be3",
+      "title": "Cornbread",
+      "firstReleaseDate": "1965",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Cornbread",
+      "Our Man Higgins",
+      "Ceora",
+      "Ill Wind",
+      "Most Like Lee"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Cornbread (album)",
+     "resolvedTitle": "Cornbread (album)",
+     "shortDescription": "1967 studio album by Lee Morgan",
+     "extract": "Cornbread is an album by American jazz trumpeter Lee Morgan. Recorded in September 1965 but released on the Blue Note label in early 1967, the album features performances by Morgan, along with sidemen Herbie Hancock, Billy Higgins, Jackie McLean, Hank Mobley, and Larry Ridley.\nThough somewhat overshadowed by the commercial success of Morgan's previous album, The Sidewinder, and the artistic ambition of Search For The New Land, Cornbread is nevertheless noted as an example of Morgan's graduation to 'formidable' jazz composer status, as well as confirming his reputation as an exemplary trumpet player. The track 'Ceora' has become widely considered a jazz standard.\n\n\n== Track listing ==\nAll compositions by Lee Morgan, except where noted.\n\n\"Cornbread\" – 9:03\n\"Our Man Higgins\" – 8:54\n\"Ceora\" – 6:23\n\"Ill Wind\" (Harold Arlen, Ted Koehler) – 7:59\n\"Most Like Lee\" – 6:49\n\n\n== Personnel ==\nLee Morgan – trumpet, leader\nJackie McLean – alto saxophone\nHank Mobley – tenor saxophone\nHerbie Hancock – piano\nLarry Ridley – bass\nBilly Higgins – drums\n\n\n== Charts ==\n\n\n== References =="
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Cornbread (album)",
+      "shortDescription": "1967 studio album by Lee Morgan",
+      "extractHead": "Cornbread is an album by American jazz trumpeter Lee Morgan. Recorded in September 1965 but released on the Blue Note label in early 1967, the album features performances by Morgan, along with sidemen Herbie Hancock, Billy Higgins, Jackie McLean, Hank Mobley, and Larry Ridley.\nThough somewhat overshadowed by the commercial success of Morgan's previous album, The Sidewinder, and the artistic ambition of Search For The New Land, Cornbread is nevertheless noted as an example of Morgan's graduation "
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "a-swingin-affair-dexter-gordon",
+  "kind": "album",
+  "ours": {
+   "title": "A Swingin' Affair",
+   "artist": "Dexter Gordon",
+   "year": 1962,
+   "label": "Blue Note",
+   "albumDNA": "Recorded in 1962, A Swingin' Affair showcases Dexter Gordon at the height of their creative powers, offering one of the finest expressions of Hard Bop. A Swingin' Affair remains a landmark of Hard Bop, cementing Dexter Gordon's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "Soy Califa",
+    "Don't Explain",
+    "You Stepped Out of a Dream",
+    "The Backbone",
+    "(It Will Have to Do) Until the Real Thing Comes Along",
+    "McSplivens"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "b12f58ca-ba44-45e7-9836-d22f93fe6f67",
+     "title": "A Swingin' Affair",
+     "date": "1962",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Dexter Gordon"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "BLP 4133"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "8667521e-fcf3-39f8-a51a-591c213e54f2",
+      "title": "A Swingin’ Affair",
+      "firstReleaseDate": "1962",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Soy Califa",
+      "Don't Explain",
+      "You Stepped Out of a Dream",
+      "The Backbone",
+      "(It Will Have to Do) Until the Real Thing Comes Along",
+      "McSplivens"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "A Swingin' Affair (Dexter Gordon album)",
+     "resolvedTitle": "A Swingin' Affair",
+     "shortDescription": "1964 studio album by Dexter Gordon",
+     "extract": "A Swingin' Affair is an album recorded in 1962 by saxophonist Dexter Gordon, recorded two days after Go! with the same line-up, but not released for two years.\n\n\n== Recording and music ==\nThe album was recorded at Van Gelder Studio, Englewood Cliffs, New Jersey, on August 29, 1962. Gordon's quartet contained pianist Sonny Clark, bassist Butch Warren, and drummer Billy Higgins. Of the six compositions, three are standards, two were written by Gordon, and one was contributed by Warren.\n\n\n== Release and reception ==\n\nA Swingin' Affair was released in early October 1964. The Penguin Guide to Jazz picked \"You Stepped Out of a Dream\" as the album's highlight, but described the session as a \"not altogether riveting date.\"\n\n\n== Track listing ==\n\n\n== Personnel ==\nDexter Gordon – tenor saxophone\nSonny Clark – piano\nButch Warren – bass\nBilly Higgins – drums\n\n\n== References =="
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "A Swingin' Affair",
+      "shortDescription": "1964 studio album by Dexter Gordon",
+      "extractHead": "A Swingin' Affair is an album recorded in 1962 by saxophonist Dexter Gordon, recorded two days after Go! with the same line-up, but not released for two years.\n\n\n== Recording and music ==\nThe album was recorded at Van Gelder Studio, Englewood Cliffs, New Jersey, on August 29, 1962. Gordon's quartet contained pianist Sonny Clark, bassist Butch Warren, and drummer Billy Higgins. Of the six compositions, three are standards, two were written by Gordon, and one was contributed by Warren.\n\n\n== Releas"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "dance-mania-tito-puente",
+  "kind": "album",
+  "ours": {
+   "title": "Dance Mania",
+   "artist": "Tito Puente",
+   "year": 1958,
+   "label": "RCA Victor",
+   "albumDNA": "Recorded in 1958, Dance Mania showcases Tito Puente at the height of their creative powers, offering one of the finest expressions of Swing. Dance Mania remains a landmark of Swing, cementing Tito Puente's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "El cayuco",
+    "Complicación",
+    "3-D Mambo",
+    "Llegó Miján",
+    "Cuando te vea",
+    "Hong Kong Mambo"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "257bfe41-d453-4e81-a88b-01c67d8b2125",
+     "title": "Dance Mania",
+     "date": "2009-04-21",
+     "country": "DE",
+     "status": "Official",
+     "artists": [
+      "Tito Puente"
+     ],
+     "labels": [
+      {
+       "name": "Discos 605",
+       "catalogNumber": "8869 744710-2"
+      },
+      {
+       "name": "Legacy",
+       "catalogNumber": "8869 744710-2"
+      },
+      {
+       "name": "RCA",
+       "catalogNumber": "8869 744710-2"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "522f179f-7c31-3a7c-95ed-c22218eba84f",
+      "title": "Dance Mania",
+      "firstReleaseDate": "1958",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "El cayuco",
+      "Complicación",
+      "3-D Mambo",
+      "Llegó Miján",
+      "Cuando te vea",
+      "Hong Kong Mambo",
+      "Mambo gozón",
+      "Mi chiquita quiere bembé",
+      "Varsity Drag Mambo",
+      "Estoy siempre junto a ti",
+      "Agua limpia todo",
+      "Saca tu mujer",
+      "El cayuco (outtake)",
+      "Estoy siempre junto a ti (out take #5)",
+      "Mambozooka",
+      "Havana After Dark",
+      "Cuál es la idea (What's the Idea)",
+      "Tito Guajira",
+      "Yambeque (Mambo Yambu)",
+      "Son de la loma",
+      "Guaririambo",
+      "Pa' los rumberos",
+      "A gozar timbero",
+      "Si te contara",
+      "Sepárala también",
+      "Caonao",
+      "Una mujer",
+      "Baila como es",
+      "Dance Mania",
+      "Porque te perdí",
+      "Guancona",
+      "Son guacha",
+      "Con sandunga",
+      "Cua cua",
+      "Si te contara (outtake)",
+      "A gozar timbero (outtake)",
+      "Una mujer (outtake)",
+      "Chanchullo",
+      "Guaguancó",
+      "Cha-con-cha"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Dance Mania (album)",
+     "resolvedTitle": "Dance Mania (album)",
+     "shortDescription": "1958 studio album by Tito Puente",
+     "extract": "Dance Mania is a studio album by American musician Tito Puente. The album was added to the National Recording Registry in 2002. It is also listed among the 1001 Albums You Must Hear Before You Die.\n\n\n== Track listing ==\nAll tracks written by Tito Puente, except where noted.\n\n\n== Personnel ==\nTito Puente – leader, arranger, timbales, vibraphone, marimba\nBernie Glow, Jimmy Frisaura, Frank Lo Pinto, George López, Gene Repetti, Larry Moser, León Merian – trumpet\nRafael Palau, Jerry Sanfino, Schapp Pullman, Tony Buonpastore – saxophone\nRaymond Concepción – piano\nBobby Rodríguez – bass\nRay Barretto – congas\nRay Rodríguez – bongos\nJulito Collazo – congas (tracks 4 and 11)\nSantitos Colón – lead vocals, chorus\nVitin Avilés, Otto Olivar – chorus\nMickey Crofford – original studio engineer\n\n\n== References =="
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Dance Mania (album)",
+      "shortDescription": "1958 studio album by Tito Puente",
+      "extractHead": "Dance Mania is a studio album by American musician Tito Puente. The album was added to the National Recording Registry in 2002. It is also listed among the 1001 Albums You Must Hear Before You Die.\n\n\n== Track listing ==\nAll tracks written by Tito Puente, except where noted.\n\n\n== Personnel ==\nTito Puente – leader, arranger, timbales, vibraphone, marimba\nBernie Glow, Jimmy Frisaura, Frank Lo Pinto, George López, Gene Repetti, Larry Moser, León Merian – trumpet\nRafael Palau, Jerry Sanfino, Schapp P"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "the-dual-role-of-bob-brookmeyer-bob-brookmeyer",
+  "kind": "album",
+  "ours": {
+   "title": "The Dual Role of Bob Brookmeyer",
+   "artist": "Bob Brookmeyer",
+   "year": 1955,
+   "label": "Prestige",
+   "albumDNA": "First released in 1955, The Dual Role of Bob Brookmeyer is a cool-jazz session led by Bob Brookmeyer. It appeared on Prestige (P-7066) and was later reissued by Original Jazz Classics. Tracks include \"Rocky Scotch,\" \"Under the Lilacs,\" and \"Revelation.\"",
+   "keyTracks": [
+    "Rocky Scotch",
+    "Under the Lilacs",
+    "They Say It's Wonderful",
+    "Potrezebie",
+    "Revelation",
+    "Star Eyes"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "e093519c-ac2f-436c-a8f6-30a0821c1d39",
+     "title": "The Dual Role of Bob Brookmeyer",
+     "date": "1989",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Bob Brookmeyer"
+     ],
+     "labels": [
+      {
+       "name": "Original Jazz Classics",
+       "catalogNumber": "OJCCD-1729-2"
+      },
+      {
+       "name": "Prestige",
+       "catalogNumber": "P-7066"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "1bd03140-1974-4706-85a9-8b1b2702d87a",
+      "title": "The Dual Role of Bob Brookmeyer",
+      "firstReleaseDate": "1955",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Rocky Scotch",
+      "Under the Lilacs",
+      "They Say It's Wonderful",
+      "Potrezebie",
+      "Revelation",
+      "Star Eyes",
+      "Nobody's Heart",
+      "Loup-Garou"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "detroitnew-york-junction-thad-jones",
+  "kind": "album",
+  "ours": {
+   "title": "Detroit/New York Junction",
+   "artist": "Thad Jones",
+   "year": 1956,
+   "label": "Blue Note",
+   "albumDNA": "Released in 1956 on Blue Note, Detroit-New York Junction is a hard-bop date led by Thad Jones. The program runs through \"Blue Room,\" \"Tarriff,\" \"Little Girl Blue,\" \"Scratch,\" and \"Zec.\"",
+   "keyTracks": [
+    "Blue Room",
+    "Tarriff",
+    "Little Girl Blue",
+    "Scratch",
+    "Zec"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "17cb431d-3fe2-43a0-a02d-2b2169258543",
+     "title": "Detroit-New York Junction",
+     "date": "1956",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Thad Jones"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "BLP 1513"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "4b643ca6-f317-3bd7-bc9d-cd28b1a561fa",
+      "title": "Detroit-New York Junction",
+      "firstReleaseDate": "1956",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Blue Room",
+      "Tarriff",
+      "Little Girl Blue",
+      "Scratch",
+      "Zec"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "jazz-giant-benny-carter",
+  "kind": "album",
+  "ours": {
+   "title": "Jazz Giant",
+   "artist": "Benny Carter",
+   "year": 1958,
+   "label": "Contemporary Records",
+   "albumDNA": "Recorded in 1957 and 1958 and released by Contemporary Records, Jazz Giant showcases Benny Carter at the height of their creative powers, offering one of the finest expressions of Swing. Jazz Giant remains a landmark of Swing, cementing Benny Carter's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "Old Fashioned Love",
+    "I'm Coming to Virginia",
+    "A Walkin' Thing",
+    "Blue Lou",
+    "Ain't She Sweet",
+    "How Can You Lose"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "59451ed2-3b84-4d06-bbd8-5c35c1ace2ab",
+     "title": "Jazz Giant",
+     "date": "1987",
+     "country": "XE",
+     "status": "Official",
+     "artists": [
+      "Benny Carter"
+     ],
+     "labels": [
+      {
+       "name": "Original Jazz Classics",
+       "catalogNumber": "OJCCD-167-2"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0b0bcd45-ef72-3d17-bb82-885bbaff231e",
+      "title": "Jazz Giant",
+      "firstReleaseDate": "1958",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Old Fashioned Love",
+      "I'm Coming to Virginia",
+      "A Walkin' Thing",
+      "Blue Lou",
+      "Ain't She Sweet",
+      "How Can You Lose",
+      "Blues My Naughty Sweety Gives to Me"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Jazz Giant (Benny Carter album)",
+     "resolvedTitle": "Jazz Giant (Benny Carter album)",
+     "shortDescription": "1958 studio album by Benny Carter",
+     "extract": "Jazz Giant is an album by saxophonist Benny Carter, recorded in 1957 and 1958 and released by Contemporary Records.\n\n\n== Reception ==\n\nAt AllMusic, Scott Yanow called the album a \"particularly strong septet session\" and stated, \"This timeless music is beyond the simple categories of 'swing' or 'bop' and should just be called 'classic.'\" The Penguin Guide to Jazz wrote that the album \"is a terrific small-group record, full of imagination and invention, and the interchanges with Webster are classic\".\n\n\n== Track listing ==\n\"Old Fashioned Love\" (James P. Johnson, Cecil Mack) - 7:51\n\"I'm Coming Virginia\" (Will Marion Cook, Donald Heywood) - 5:48\n\"A Walkin' Thing\" (Carter) - 6:00\n\"Blue Lou\" (Irving Mills, Edgar Sampson) - 4:58\n\"Ain't She Sweet\" (Milton Ager, Jack Yellen) - 3:40\n\"How Can You Lose\" (Carter) - 6:13\n\"Blues My Naughty Sweetie Gives to Me\" (Charles McCarron, Russ Morgan, Arthur Swanstrom) - 4:39\n\n\n== Personnel ==\nBenny Carter – alto saxophone, trumpet, arrangements\nFrank Rosolino – trombone (tracks 1–4 & 6)\nBen Webster – tenor saxophone (tracks 1–4 & 6)\nAndré Previn (tracks 1 & 4–7) – piano\nJimmy Rowles (tracks 2 & 3) – piano\nBarney Kessel – guitar\nLeroy Vinnegar – double bass\nShelly Manne – drums\n\n\n== References =="
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Jazz Giant (Benny Carter album)",
+      "shortDescription": "1958 studio album by Benny Carter",
+      "extractHead": "Jazz Giant is an album by saxophonist Benny Carter, recorded in 1957 and 1958 and released by Contemporary Records.\n\n\n== Reception ==\n\nAt AllMusic, Scott Yanow called the album a \"particularly strong septet session\" and stated, \"This timeless music is beyond the simple categories of 'swing' or 'bop' and should just be called 'classic.'\" The Penguin Guide to Jazz wrote that the album \"is a terrific small-group record, full of imagination and invention, and the interchanges with Webster are classi"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "clifford-brown-memorial-album-clifford-brown",
+  "kind": "album",
+  "ours": {
+   "title": "Clifford Brown Memorial Album",
+   "artist": "Clifford Brown",
+   "year": 1956,
+   "label": "Blue Note",
+   "albumDNA": "First released in 1956, Clifford Brown Memorial Album showcases Clifford Brown at the height of their creative powers, offering one of the finest expressions of Bebop. Clifford Brown Memorial Album remains a landmark of Bebop, cementing Clifford Brown's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "Bellarosa",
+    "Carvin' the Rock",
+    "Cookin'",
+    "Brownie Speaks",
+    "De-Dah",
+    "You Go to My Head"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "4e7edbc6-80c0-4496-8f27-c9de611c0dbe",
+     "title": "Clifford Brown Memorial Album",
+     "date": "2001",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Clifford Brown"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "7243 5 32141 2 8"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "83e340a1-ba9b-3971-9737-f0cfdb6702bf",
+      "title": "Memorial Album",
+      "firstReleaseDate": "1956",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "Bellarosa",
+      "Carvin' the Rock",
+      "Cookin'",
+      "Brownie Speaks",
+      "De-Dah",
+      "You Go to My Head",
+      "Carvin' the Rock (alternate take #1)",
+      "Cookin'",
+      "Carvin' the Rock (alternate take)",
+      "Wail Bait",
+      "Hymn of the Orient",
+      "Brownie Eyes",
+      "Cherokee",
+      "Easy Living",
+      "Minor Mood",
+      "Wail Bait (alternate take)",
+      "Cherokee (alternate take)",
+      "Hymn of the Orient (alternate take)"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "coltrane-jazz-john-coltrane",
+  "kind": "album",
+  "ours": {
+   "title": "Coltrane Jazz",
+   "artist": "John Coltrane",
+   "year": 1961,
+   "label": "Atlantic",
+   "albumDNA": "Released in 1961, Coltrane Jazz showcases John Coltrane at the height of their creative powers, offering one of the finest expressions of Hard Bop. Coltrane Jazz remains a landmark of Hard Bop, cementing John Coltrane's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "Little Old Lady",
+    "Village Blues",
+    "My Shining Hour",
+    "Fifth House",
+    "Harmonique",
+    "Like Sonny"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "710c8bad-ce09-4d33-a584-a396e5b74a1c",
+     "title": "Coltrane Jazz",
+     "date": "1961",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "John Coltrane"
+     ],
+     "labels": [
+      {
+       "name": "Atlantic",
+       "catalogNumber": "SD 1354"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "7a0612cb-03ed-3d66-8001-b58084a56b59",
+      "title": "Coltrane Jazz",
+      "firstReleaseDate": "1961",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Little Old Lady",
+      "Village Blues",
+      "My Shining Hour",
+      "Fifth House",
+      "Harmonique",
+      "Like Sonny",
+      "I'll Wait and Pray",
+      "Some Other Blues"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Coltrane Jazz (album)",
+     "resolvedTitle": "Coltrane Jazz",
+     "shortDescription": "1961 studio album by John Coltrane",
+     "extract": "Coltrane Jazz is a studio album by the jazz musician John Coltrane. It was released in early 1961 on Atlantic Records. Most of the album features Coltrane playing with his former Miles Davis bandmates, pianist Wynton Kelly, bassist Paul Chambers and drummer Jimmy Cobb during two sessions in November and December, 1959. The exception is the track \"Village Blues\", which was recorded October 21, 1960. \"Village Blues\" comes from the first recording session featuring Coltrane playing with pianist McCoy Tyner and drummer Elvin Jones, who toured and recorded with Coltrane as part of his celebrated \"classic quartet\" from 1960 to 1965.\n\n\n== Background ==\nIn 1959, Miles Davis' business manager Harold Lovett negotiated a contract for Coltrane with Atlantic, the terms including a $7000 annual guarantee. After having recorded most of Giant Steps in May of that year, Coltrane started having bridge problems, and did not return to a recording studio for six months. When he returned to the studio in November and December for the Coltrane Jazz recording sessions, he employed the rhythm section from the Miles Davis Quintet. The sessions yielded the bulk of Coltrane Jazz, and the track \"Naima,\" which was included on the Giant Steps album. \"Like Sonny,\" a tribute to colleague Sonny Rollins, is based on a melodic figure that Sonny Rollins can be heard playing at 3:22 during his solo on \"My Old Flame\" on Kenny Dorham's 1957 album Jazz Contrasts. (Coltrane made one further studio recording of \"Like Sonny\" in September 1960 for Roulette Records, who issued the piece under the title \"Simple Like\" in 1962 on the album \"The Best of Birdland: Volume 1\".)\nAfter leaving Davis's band in the spring of 1960, Coltrane formed his first touring quartet for a residency at the Jazz Gallery club in Manhattan. Coltrane initially hired pianist Steve Kuhn and drummer Pete \"La Roca\" Sims for his group, along with bassist Steve Davis, but by September, the quartet's rhythm section consisted of Tyner, Jones, and Davis. This group entered the studio on October 21, recording \"Village Blues\" at the beginning of the week of sessions that produced Coltrane's My Favorite Things album.\nOn June 20, 2000, Rhino Records reissued Coltrane Jazz as part of its Atlantic 50th Anniversary Jazz Gallery series. Included were four bonus tracks, two of which had appeared in 1975 on the Atlantic compilation Alternate Takes, the remaining pair earlier issued on The Heavyweight Champion: The Complete Atlantic Recordings in 1995. Two bonus tracks, the alternate versions of \"Like Sonny\", had been recorded at the March 26, 1959 sessions that were not used for Giant Steps.\n\n\n== Track listing ==\n\n\n=== 2000 reissue bonus tracks ===\n\n\n== Personnel ==\n\n\n=== March 26, 1959 (\"Like Sonny\") ===\nJohn Coltrane – tenor saxophone\nCedar Walton – piano\nPaul Chambers – bass\nLex Humphries – drums\n\n\n=== November 24, 1959 & December 2, 1959 ===\nJohn Coltrane – tenor saxophone\nWynton Kelly – piano\nPaul Chambers – bass\nJimmy Cobb – drums\n\n\n=== October 21, 1960 (\"Village Blues\") ===\nJohn Coltrane – tenor saxophone\nMcCoy Tyner – piano\nSteve Davis – bass\nElvin Jones – drums\n\n\n=== Production ===\nNesuhi Ertegün – production\nTom Dowd, Phil Iehle – engineering\nLee Friedlander – photography\nEutemey – cover design\nZita Carno – liner notes\nPatrick Milligan – reissue supervision\nDan Hersch – digital remastering\nRachel Gutek – reissue design\nHugh Brown – reissue art direction\nNeil Tessler – reissue liner notes\nVanessa Atkins – reissue editorial supervision\nShawn Amos – reissue editorial coordination\n\n\n== References =="
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Coltrane Jazz",
+      "shortDescription": "1961 studio album by John Coltrane",
+      "extractHead": "Coltrane Jazz is a studio album by the jazz musician John Coltrane. It was released in early 1961 on Atlantic Records. Most of the album features Coltrane playing with his former Miles Davis bandmates, pianist Wynton Kelly, bassist Paul Chambers and drummer Jimmy Cobb during two sessions in November and December, 1959. The exception is the track \"Village Blues\", which was recorded October 21, 1960. \"Village Blues\" comes from the first recording session featuring Coltrane playing with pianist McC"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "far-east-suite-duke-ellington",
+  "kind": "album",
+  "ours": {
+   "title": "Far East Suite",
+   "artist": "Duke Ellington",
+   "year": 1967,
+   "label": "RCA Victor",
+   "albumDNA": "Released in 1967 on RCA Victor, The Far East Suite is a Duke Ellington album inspired by his tours abroad. Its pieces include \"Tourist Point of View,\" \"Isfahan,\" \"Mount Harissa,\" and \"Blue Pepper (Far East of the Blues).\"",
+   "keyTracks": [
+    "Tourist Point of View",
+    "Bluebird of Delhi (Mynah)",
+    "Isfahan",
+    "Depk",
+    "Mount Harissa",
+    "Blue Pepper (Far East of the Blues)"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "2a7d0078-25b9-41c8-b03b-263498a7ed75",
+     "title": "The Far East Suite",
+     "date": "1967",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Duke Ellington"
+     ],
+     "labels": [
+      {
+       "name": "RCA Victor",
+       "catalogNumber": "LSP-3782"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "c5176862-2fc7-4410-ba2b-46a6c440ede3",
+      "title": "The Far East Suite",
+      "firstReleaseDate": "1967",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Tourist Point of View",
+      "Bluebird of Delhi (Mynah)",
+      "Isfahan",
+      "Depk",
+      "Mount Harissa",
+      "Blue Pepper (Far East of the Blues)",
+      "Agra",
+      "Amad",
+      "Ad Lib on Nippon"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "ella-fitzgerald-sings-the-cole-porter-song-book-ella-fitzgerald",
+  "kind": "album",
+  "ours": {
+   "title": "Ella Fitzgerald Sings the Cole Porter Song Book",
+   "artist": "Ella Fitzgerald",
+   "year": 1956,
+   "label": "Verve",
+   "albumDNA": "Released in 1956 on Verve, Ella Fitzgerald Sings the Cole Porter Song Book is one of Fitzgerald's celebrated Song Book sets. It draws on the Cole Porter catalog, including \"Anything Goes,\" \"Too Darn Hot,\" \"In the Still of the Night,\" and \"I Get a Kick Out of You.\"",
+   "keyTracks": [
+    "All Through the Night",
+    "Anything Goes",
+    "Miss Otis Regrets (She’s Unable to Lunch Today)",
+    "Too Darn Hot",
+    "In the Still of the Night",
+    "I Get a Kick Out of You"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "617fe930-78f2-4b41-9e7d-db0a5f4f6023",
+     "title": "Ella Fitzgerald Sings the Cole Porter Song Book",
+     "date": "1956",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Ella Fitzgerald"
+     ],
+     "labels": [
+      {
+       "name": "Verve",
+       "catalogNumber": "MG V-4001-2"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "dcc0d723-e27f-36e8-8438-dbbde7eb9a67",
+      "title": "Ella Fitzgerald Sings the Cole Porter Song Book",
+      "firstReleaseDate": "1956-09",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "All Through the Night",
+      "Anything Goes",
+      "Miss Otis Regrets (She’s Unable to Lunch Today)",
+      "Too Darn Hot",
+      "In the Still of the Night",
+      "I Get a Kick Out of You",
+      "Do I Love You?",
+      "I’m Always True to You in My Fashion",
+      "Let’s Do It (Let’s Fall in Love)",
+      "Just One of Those Things",
+      "Ev’ry Time We Say Goodbye",
+      "All of You",
+      "Begin the Beguine",
+      "Get Out of Town",
+      "I Am in Love",
+      "From This Moment On",
+      "I Love Paris",
+      "You Do Something to Me",
+      "Ridin’ High",
+      "Easy to Love",
+      "It’s All Right With Me",
+      "Why Can’t You Behave?",
+      "What Is This Thing Called Love?",
+      "You’re the Top",
+      "Love for Sale",
+      "It’s Delovely",
+      "Night and Day",
+      "Ace in the Hole",
+      "So in Love",
+      "I’ve Got You Under My Skin",
+      "I Concentrate on You",
+      "Don’t Fence Me In"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "the-hawk-flies-high-coleman-hawkins",
+  "kind": "album",
+  "ours": {
+   "title": "The Hawk Flies High",
+   "artist": "Coleman Hawkins",
+   "year": 1957,
+   "label": "Various",
+   "albumDNA": "First released in 1957, The Hawk Flies High is a session led by saxophonist Coleman Hawkins, later reissued by Mobile Fidelity Sound Lab. Tracks include \"Chant,\" \"Juicy Fruit,\" and \"Sancticity.\"",
+   "keyTracks": [
+    "Chant",
+    "Juicy Fruit",
+    "Think Deep",
+    "Laura",
+    "Blue Lights",
+    "Sancticity"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "a058288a-2301-4290-a9cd-126627221243",
+     "title": "The Hawk Flies High",
+     "date": "2006",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Coleman Hawkins"
+     ],
+     "labels": [
+      {
+       "name": "Mobile Fidelity Sound Lab",
+       "catalogNumber": "UDSACD 2030"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "f75664d4-47ce-31ac-8228-d3d1c2a027c0",
+      "title": "The Hawk Flies High",
+      "firstReleaseDate": "1957",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Chant",
+      "Juicy Fruit",
+      "Think Deep",
+      "Laura",
+      "Blue Lights",
+      "Sancticity",
+      "Chant",
+      "Juicy Fruit",
+      "Think Deep",
+      "Laura",
+      "Blue Lights",
+      "Sancticity"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "destination-out-jackie-mclean",
+  "kind": "album",
+  "ours": {
+   "title": "Destination... Out!",
+   "artist": "Jackie McLean",
+   "year": 1964,
+   "label": "Blue Note",
+   "albumDNA": "Recorded in 1964, Destination... Out! showcases Jackie McLean at the height of their creative powers, offering one of the finest expressions of Bebop. Destination... Out! remains a landmark of Bebop, cementing Jackie McLean's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "Love and Hate",
+    "Esoteric",
+    "Kahlil the Prophet",
+    "Riff Raff"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "6b210f4d-3437-4188-9848-b23d2686f36c",
+     "title": "Destination… Out!",
+     "date": "1964-10",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Jackie McLean"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "BLP 4165"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "07a5a1a8-6a14-39f6-ae74-5010f68c4635",
+      "title": "Destination… Out!",
+      "firstReleaseDate": "1964-10",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Love and Hate",
+      "Esoteric",
+      "Kahlil the Prophet",
+      "Riff Raff"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "the-awakening-ahmad-jamal",
+  "kind": "album",
+  "ours": {
+   "title": "The Awakening",
+   "artist": "Ahmad Jamal",
+   "year": 1970,
+   "label": "Various",
+   "albumDNA": "The Awakening is a trio album by American jazz pianist Ahmad Jamal with bassist Jamil Nasser and drummer Frank Gant, recorded in 1970 for the Impulse! label. Tracks include \"The Awakening\", \"Dolphin Dance\", and \"Stolen Moments\".",
+   "keyTracks": [
+    "The Awakening",
+    "I Love Music",
+    "Patterns",
+    "Dolphin Dance",
+    "You’re My Everything",
+    "Stolen Moments"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 0.71,
+    "release": null,
+    "searchCandidates": [
+     {
+      "mbid": "b3b34cd9-0c9b-37dd-80a1-0f74e80f18fe",
+      "title": "The Awakening",
+      "score": 100,
+      "artists": [
+       "The Ahmad Jamal Trio"
+      ],
+      "firstReleaseDate": "1970-07",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     }
+    ]
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "The Awakening (Ahmad Jamal album)",
+     "resolvedTitle": "The Awakening (Ahmad Jamal album)",
+     "shortDescription": "1970 studio album by Ahmad Jamal",
+     "extract": "The Awakening is an album by American jazz pianist Ahmad Jamal featuring trio performances with bassist Jamil Nasser and drummer Frank Gant recorded in 1970 for the Impulse! label.\n\n\n== Background ==\nThe album was recorded at Plaza Sound Studios in New York City on February 2 and 3, 1970. It was produced by Ed Michel, whose production credits also include blues and jazz artists such as John Lee Hooker, B.B. King, John Coltrane, and Alice Coltrane.\nThe repertoire for the album consists of two originals—the title track and \"Patterns\"—and a new composition by Emil Boyd and Hale Smith titled \"I Love Music\", along with covers of three then fairly recent modern jazz compositions, Herbie Hancock's \"Dolphin Dance\" (1965), Oliver Nelson's \"Stolen Moments\" (1961), and Antonio Carlos Jobim's \"Wave\" (1967), as well as the 1931 Harry Warren standard \"You're My Everything\".\nThe liner notes are by jazz historian and producer Leonard Feather, who writes, \"Jamal is one of the most pianistic of pianists. He plays a nine foot Steinway grand in this album, and extracts from it sounds that reflect not only the majesty of the instrument but his love for it and the perennial dedication to it that has marked his distinguished career.\" Feather also notes that on the title track, Jamal \"plays one series of upward runs here that will leave most pianists gasping in disbelief—mixed, no doubt, with envy.\"\n\n\n== Critical reception ==\n\nThe AllMusic review by Scott Yanow stated, \"By 1970, pianist Ahmad Jamal's style had changed a bit since the 1950s, becoming denser and more adventurous while still retaining his musical identity. ... Intriguing performances showing that Ahmad Jamal was continuing to evolve.\"\nWriting in Pitchfork, Michael J. Agovino says that the album \"is a fine example of Jamal's stately—and understated—elegance punctuated with doodles of whimsy.\"\nDrummer Brian Blade selected the title track of The Awakening for his 1970 playlist (the year he was born), writing in JazzTimes that \"Jamal is an absolute master of space, groove, song structure, and interpretation. The balance of his brilliance is unparalleled, and at the fulcrum rests his total command of the instrument to execute whatever he might imagine and the sensitivity to know how that ability will best serve the journey.\"\nChuck Linatti, in an article for All About Jazz, writes that \"some people consider The Awakening to be Jamal's second great album [after At the Pershing: But Not for Me]. Although Jamal habitually deconstructed well-known songs and reconstructed them in unexpected ways, he seemed to take that technique to a new level on The Awakening.\"\n\n\n== Legacy ==\nRetrospectively, the album has had an influence in Hip hop music culture and production, with artists such as Nas and Common sampling tracks from the album for their work.\n\n\n== Track listing ==\n\"The Awakening\" (Ahmad Jamal) – 6:19\n\"I Love Music\" (Emil Boyd, Hale Smith) – 7:19\n\"Patterns\" (Ahmad Jamal) – 6:19\n\"Dolphin Dance\" (Herbie Hancock) – 5:05\n\"You're My Everything\" (Harry Warren, Joe Young, Mort Dixon) – 4:40\n\"Stolen Moments\" (Oliver Nelson) – 6:27\n\"Wave\" (Antônio Carlos Jobim) – 4:25\n\n\n== Personnel ==\nAhmad Jamal – piano\nJamil Nasser – bass\nFrank Gant – drums\n\n\n== Charts ==\n\n\n== References =="
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "The Awakening (Ahmad Jamal album)",
+      "shortDescription": "1970 studio album by Ahmad Jamal",
+      "extractHead": "The Awakening is an album by American jazz pianist Ahmad Jamal featuring trio performances with bassist Jamil Nasser and drummer Frank Gant recorded in 1970 for the Impulse! label.\n\n\n== Background ==\nThe album was recorded at Plaza Sound Studios in New York City on February 2 and 3, 1970. It was produced by Ed Michel, whose production credits also include blues and jazz artists such as John Lee Hooker, B.B. King, John Coltrane, and Alice Coltrane.\nThe repertoire for the album consists of two ori"
+     },
+     {
+      "resolvedTitle": "The Awakening",
+      "shortDescription": "Topics referred to by the same term",
+      "extractHead": "The Awakening may refer to:\n\n\n== Religion ==\nAwakening (Finnish religious movement), a Lutheran movement in Finland\nGreat Awakening, several periods of Anglo-American Christian revival\n\n\n== Film and television ==\n\n\n=== Film ===\nThe Awakening, a 1913 film starring Charlotte Burton\nThe Awakening (1917 film), an American silent film directed by George Archainbaud\nThe Awakening (1928 film), an American silent film directed by Victor Fleming\nThe Awakening (1954 film), an American television short fil"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "james-blood-ulmer",
+  "kind": "artist",
+  "ours": {
+   "name": "James Blood Ulmer",
+   "birthYear": 1940,
+   "deathYear": 2026,
+   "instruments": [
+    "guitar",
+    "vocals"
+   ],
+   "bio": "James Blood Ulmer is a guitarist and vocalist who forged one of the most distinctive sounds in jazz by applying Ornette Coleman's harmolodic theory to electric guitar. His raw, blues-drenched tone and angular harmonic approach created a bridge between free jazz, funk, and the blues that was entirely his own. Albums like 'Tales of Captain Black' and 'Are You Glad to Be in America?' are visionary works that anticipated the genre-blurring of the 1990s and beyond.",
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/James_Blood_Ulmer"
+  },
+  "evidence": {
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/James_Blood_Ulmer",
+    "page": {
+     "requestedTitle": "James Blood Ulmer",
+     "resolvedTitle": "James Blood Ulmer",
+     "shortDescription": "American jazz and blues guitarist and singer (1940–2026)",
+     "extract": "Willie James \"Blood\" Ulmer (February 8, 1940 – June 3, 2026) was an American jazz, free funk and blues guitarist and singer. He played a Gibson Byrdland guitar. His guitar sound has been described as \"jagged\" and \"stinging\". Ulmer's singing has been called \"raggedly soulful\".\n\n\n== Life and career ==\nWillie James Ulmer was born in St. Matthews, South Carolina, United States on February 8, 1940. He began his career playing with soul jazz ensembles, first in Pittsburgh, Pennsylvania, from 1959 to 1964, and then in the Columbus, Ohio, area from 1964 to 1967. He recorded with organist Hank Marr in 1964 (released 1967). After moving to New York in 1971, Ulmer played with Art Blakey's Jazz Messengers, Joe Henderson, Paul Bley, Rashied Ali, and Larry Young.\nIn the early 1970s, Ulmer joined Ornette Coleman; he was the first electric guitarist to record and tour extensively with Coleman. He has credited Coleman as a major influence. Coleman's reliance on electric guitar in his fusion-oriented recordings owes a debt to Ulmer.\nHis appearance on Arthur Blythe's two consecutive Columbia albums, Lenox Avenue Breakdown (1979) and Illusions (1980), was followed by Ulmer's signing to that label. That resulted in three albums: Free Lancing, Black Rock, and Odyssey, which was the inaugural release of Odyssey The Band with drummer Warren Benbow and violinist Charles Burnham. The trio was called \"avant-gutbucket\" by music critic Bill Milkowski to describe the music as \"conjuring images of Skip James and Albert Ayler jamming on the Mississippi Delta.\"\nUlmer formed Music Revelation Ensemble around 1980, co-led with David Murray for the first decade and lasting into the 1990s. Later versions of the band included Arthur Blythe, Sam Rivers, Pharoah Sanders, and John Zorn. In the 1980s he co-led the quartet Phalanx with saxophonist George Adams. Ulmer has recorded as a leader, including blues-oriented albums produced by Vernon Reid: Memphis Blood, No Escape from the Blues, Bad Blood in the City, and Birthright.\nHe was a judge for the 8th annual Independent Music Awards to support independent musicians.\nIn a 2005 DownBeat interview, he said guitar technique stagnated after the death of Jimi Hendrix. He stated technique could advance \"if the guitar would stop following the piano\" and indicated he tunes his guitar strings to A.\nIn 2009, Ulmer started the label American Revelation. In spring 2011, he joined James Carter's organ trio as a special guest with Nicholas Payton on trumpet for a six-night stand of performances at Blue Note New York.\n\nUlmer died on June 3, 2026, at the age of 86.\n\n\n== Discography ==\n\n\n=== As leader ===\nTales of Captain Black (Artists House, 1979)\nAre You Glad to Be in America? (Rough Trade, 1980)\nFree Lancing (Columbia, 1981)\nBlack Rock (CBS, 1982)\nOdyssey (CBS, 1983)\nPart Time (Rough Trade, 1984)\nLive at the Caravan of Dreams (Caravan of Dreams, 1986)\nAmerica – Do You Remember the Love? (Blue Note, 1987)\nBlues Allnight (Bellaphon, 1990)\nRevealing (In+Out, 1990)\nBlack and Blues (DIW, 1991)\nBlues Preacher (DIW, 1993)\nLive at the Bayerischer Hof (In+Out, 1994)\nMusic Speaks Louder than Words (DIW, 1995)\nPlays the Music of Ornette Coleman (DIW, 1996)\nHarmolodic Guitar with Strings (DIW, 1997)\nReunion (Knitting Factory, 1997)\nForbidden Blues (DIW, 1998)\nMemphis Blood: The Sun Sessions (Label M, 2001)\nBlue Blood (Innerhythmic, 2001)\nNo Escape from the Blues: The Electric Lady Sessions (Hyena, 2003)\nGuitar Music (Dernière Bande, 2003) – with Rodolphe Burger\nBack in Time (Pi, 2005)\nBirthright (Hyena, 2005)\nBad Blood in the City: The Piety Street Sessions (Hyena, 2007)\nIn and Out (In+Out, 2009)\nBlack Rock Reunion (American Revelation, 2009)\nBlues Odyssey (American Revelation, 2010)\nLive at Birdland (American Revelation, 2010)\nFreelancing Live (American Revelation, 2013)\nWith Music Revelation Ensemble\n\nNo Wave (Moers, 1980)\nMusic Revelation Ensemble (DIW, 1988)\nElec. Jazz (DIW, 1990)\nAfter Dark (DIW, 1992)\nIn the Name of... (DIW, 1994)\nKnights of Power (DIW, 1996)\nCross Fire (DIW, 1997)\nWith Phalanx\n\nGot Something Good for You (Moers Music, 1986)\nOriginal Phalanx (DIW, 1987)\nIn Touch (DIW, 1988)\nPhalanx Live (American Revelation, 2013)\nWith Third Rail\n\nSouth Delta Space Age (Antilles, 1995)\n\n\n=== As sideman ===\nRashied Ali, Rashied Ali Quintet (Survival, 1973)\nKarl Berger, Conversations (In+Out, 1994)\nArthur Blythe, Lenox Avenue Breakdown (Columbia, 1979)\nArthur Blythe, Illusions (Columbia, 1980)\nJames Carter, Out of Nowhere (Half Note, 2005)\nOrnette Coleman, Celebrate Ornette (Song X 2016)\nRy Cooder, The End of Violence (Outpost, 1997)\nJayne Cortez, Borders of Disorderly Time (Bola, 2003)\nJoe Henderson, Multiple (Milestone, 1973)\nHank Marr, Sounds from the Marr-Ket Place (King, 1964)\nDavid Murray, Children (Black Saint, 1985)\nDavid Murray, Recording N.Y.C. 1986 (DIW, 1986)\nJohn Patton, Accent on the Blues (Blue Note, 1969)\nJohn Patton, Memphis to New York Spirit (Blue Note, 1996)\nRochester/Veasley Band, One Minute of Love (Gramavision, 1985)\nThe Roots, Phrenology (MCA, 2002)\nJuma Sultan, Whispers from the Archive (Porter, 2012)\nJamaaladeen Tacuma, Show Stopper (Gramavision, 1983)\nWorld Saxophone Quartet, Political Blues (Justin Time, 2006)\nFrank Wright, Blues for Albert Ayler (ESP Disk, 2012)\nLarry Young, Lawrence of Newark (Perception, 1973)\n\n\n== References ==\n\n\n== External links ==\nJames Blood Ulmer at AllMusic\nJames Blood Ulmer Online Archive at the Wayback Machine (archived October 27, 2009) including detailed discography\nA 1998 interview"
+    }
+   }
+  }
+ },
+ {
+  "id": "revolutionary-ensemble",
+  "kind": "artist",
+  "ours": {
+   "name": "Revolutionary Ensemble",
+   "birthYear": 1970,
+   "deathYear": null,
+   "instruments": [
+    "piano",
+    "drums",
+    "bass",
+    "violin"
+   ],
+   "bio": "The Revolutionary Ensemble was a free jazz trio consisting of violinist Leroy Jenkins, bassist Sirone, and drummer Jerome Cooper, active primarily in the 1970s. They were a landmark group in the loft jazz movement, creating music of extraordinary collective interplay without a chordal instrument. Their democratic approach to improvisation, where all three instruments operated as equals, was both a musical and political statement about cooperative creativity.",
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Revolutionary_Ensemble"
+  },
+  "evidence": {
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Revolutionary_Ensemble",
+    "page": {
+     "requestedTitle": "Revolutionary Ensemble",
+     "resolvedTitle": "Revolutionary Ensemble",
+     "shortDescription": "American free jazz trio",
+     "extract": "The Revolutionary Ensemble was a free jazz trio consisting of violinist Leroy Jenkins (1932–2007), bassist Sirone (Norris Jones, 1940–2009) and percussionist/pianist Jerome Cooper (1946–2015). The group was active from 1970–1977, and reunited briefly in 2004. Musician George E. Lewis described the trio as \"one of the signal groups of the period.\" Writer John Fordham stated that the group \"was remarkable for its concentration on texture, tone colour and the then unclaimed territory between jazz and contemporary classical music.\" A DownBeat reviewer, writing in 1972, described them as \"a unique, utterly contemporary unit of extraordinarily talented players who possess a world understanding of what 'organized sound' is all about.\"\n\n\n== History ==\nPrior to the formation of the Revolutionary Ensemble in 1970, Jenkins, recently returned from Europe, had been playing with Anthony Braxton and Leo Smith in a group called Creative Construction Company. Following a May 19, 1970 performance by the group at Greenwich Village's \"Peace Church\", Braxton left, and joined Chick Corea's group, which became known as Circle. Jenkins began playing with a large group that included Sirone, who had previously played with Pharoah Sanders, Marion Brown, and Gato Barbieri, and to whom Jenkins had been introduced by drummer Sunny Murray. The two began discussing the possibility of forming a new group, and Sirone proposed a leaderless lineup of violin, bass, and drums, to which Jenkins initially responded with shock, before suggesting the name Revolutionary Ensemble. (Sirone later recalled that other musicians told him \"You must be crazy. Violin, bass, and drums!\") They recruited drummer Frank Clayton, but he was soon replaced by Jerome Cooper, who had been playing in Europe with Steve Lacy, Rahsaan Roland Kirk, the Art Ensemble of Chicago, and others, and who, after leaving Europe and arriving in New York, contacted Jenkins at the recommendation of Roscoe Mitchell.\nThe trio began rehearsing on a regular basis at Ornette Coleman's Artists House loft, where Jenkins had been living, as well as at the home of artist Fred Brown. Jenkins recalled: \"we got together and practiced every day... five days a week, anywhere from 11 to two o'clock. I mean, we just hung out. We just played and played, and my art of improvisation got tremendously better, and the group got beautifully tight.\" In 1971, the group began rehearsing at the annex to Joseph Papp's Public Theater, then presented a concert there. The following year, they booked a four week engagement at the Mercer Arts Center. According to Jenkins, \"first week... nobody was there. Second week, two or three. Third week it was half packed. The fourth week it was jam-packed.\" By 1972, the group was performing more regularly, with concerts at Artists House, the Jamaica Art Center in Queens, the Five Spot, and the Village Vanguard, as well as various radio interviews. In March of that year, they presented a concert at the Peace Church, a recording of which was released on the ESP-Disk label as their first album Vietnam. On December 31, 1972, they performed at the St. Marks Theater, and released a live recording of the concert as their second album, Manhattan Cycles, issued on India Navigation the following year.\nBy the mid-1970s, the group was receiving greater recognition, and began appearing at festivals. In 1975, they formed a record company named RE Records for the purpose of releasing their third album, The Psyche. They then left for a European tour, taking boxes of the LPs with them, and selling out the first and only pressing to European record dealers. The group also landed a short-lived recording contract with Horizon Records, a subsidiary of A&M Records, allowing them to record and release their first studio album, The People's Republic. However, according to Sirone, when A&M's cofounder Herb Alpert played an excerpt from the album for musical director Quincy Jones, it elicited a harsh, negative reaction, with Jones claiming that he had \"been conned; that it wasn't jazz or music and blah blah blah.\" (A&M closed Horizon Records in 1979 following a slump in music sales.)\nIn 1977, the group released their fifth album, Revolutionary Ensemble, recorded live in Austria, on the Enja label. However, work began to dry up, and, at the same time, the musicians were being pulled in different artistic directions. Cooper recalled: \"I was going into more of a shamanistic journey. I was hanging out with this Mexican, pre-Columbian drummer, Antonio Zapata. And Sirone was going into theater and moving to Berlin. Leroy was going into a more notated European music.\" The group disbanded that year. However, in 2004, the Mutable Music label reissued The Psyche on CD, and the trio reunited, performing at the Vision Festival, and recording their second and final studio album, And Now..., for Pi Recordings. In May of the following year, they performed in Warsaw, Poland; the concert was recorded and released by Mutable Music in 2008 as Beyond the Boundary of Time. In November 2005, they played in Genoa, Italy, yielding the album Counterparts, released by Mutable in 2012. Jenkins's death in 2007 precluded any further reunions.\n\n\n== Legacy and music ==\nThe Revolutionary Ensemble was unusual in that it was a cooperative group, with all three members contributing compositions. Sirone recalled that, in early discussions with Jenkins, he insisted: \"everybody has to hold their own ground. We're not talking about no leaders here.\" Cooper reflected: \"we weren't like a trio. We were three individuals playing.\" Jenkins enjoyed the absence of a group leader, stating: \"It takes a lot of the load off you. A leader has a lot of extra work and the other guys sit back and get all the benefits of his work. The leader also becomes a father complex and a lot of leaders just don't want to be a father.\" Author Bob Gluck summed up the musical results of this approach: \"individual and group configurations were malleable constructs, one giving way to the other without so much as a moment's notice. Collectivity could just as soon feature simultaneous and multiple individual initiatives as it could musical togetherness. Construction of a cohesive whole was constantly subject to instantaneous negotiation. Some might view this approach as anarchic, but the three musicians of the Revolutionary Ensemble functioned like a musical high-wire act, sounding sometimes like one voice and at other times like independent  individuals coexisting in the same sound space.\"\nThe group's primary instrumentation was also unique, and each of the members doubled on secondary instruments. Although his primary instrument was violin, Jenkins also played viola, alto saxophone, kalimba, recorder, percussion, flute, and harmonica. In addition to playing bass, Sirone played trombone, percussion, and flute, while Cooper played an array of percussion instruments, bugle, flute, piano, electronic keyboards, and saw.\nThe ensemble's musi"
+    }
+   }
+  }
+ },
+ {
+  "id": "world-saxophone-quartet",
+  "kind": "artist",
+  "ours": {
+   "name": "World Saxophone Quartet",
+   "birthYear": 1977,
+   "deathYear": null,
+   "instruments": [
+    "alto saxophone",
+    "tenor saxophone",
+    "baritone saxophone",
+    "soprano saxophone"
+   ],
+   "bio": "The World Saxophone Quartet was a groundbreaking ensemble consisting of four saxophonists—originally Julius Hemphill, Oliver Lake, David Murray, and Hamiet Bluiett—performing without a rhythm section. Founded in 1977, the group proved that four saxophones could generate the full range of jazz expression, from funky grooves to free improvisation to lush harmonies. Their 'Revue' album is a landmark of collective improvisation and composition.",
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/World_Saxophone_Quartet"
+  },
+  "evidence": {
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/World_Saxophone_Quartet",
+    "page": {
+     "requestedTitle": "World Saxophone Quartet",
+     "resolvedTitle": "World Saxophone Quartet",
+     "shortDescription": "American jazz ensemble",
+     "extract": "The World Saxophone Quartet was an American jazz ensemble founded in 1977, incorporating elements of free jazz, R&B, funk and South African jazz into their music.\nThe original members were Julius Hemphill (alto and soprano saxophone, flute), Oliver Lake (alto and soprano saxophone), Hamiet Bluiett (baritone saxophone, alto clarinet), and David Murray (tenor saxophone, bass clarinet). The first three had worked together as members of the Black Artists' Group in St. Louis, Missouri, and had appeared together on Anthony Braxton's album New York, Fall 1974. In 1991, Hemphill left the group due to illness, and was replaced by Arthur Blythe, although several saxophonists have filled his chair in the years since.  Hemphill died on April 2, 1995. Beginning in the early 1980s, the quartet used Bluiett's composition \"Hattie Wall\" (released on W.S.Q., Live in Zurich, Dances and Ballads, Steppenwolf and Yes We Can) as a signature theme for the group. The group principally recorded and performed as a saxophone quartet, usually with a line-up of two altos, tenor, and baritone (reflecting the composition of a classical string quartet), but were also joined later in their career by drummers, bassists, and other musicians. Occasionally other saxophonists would sit in or substitute for a tour. These guests have included Sam Rivers, Tony Kofi, Steve Potts, Branford Marsalis, James Spaulding and Jorge Sylvester. Hamiet Bluiett died on October 4, 2018, after an extended illness. The ensemble had split up in 2016.\n\n\n== Discography ==\n\n\n=== Predecessor Tack ===\nComposition No. 37 from \"New York, Fall 1974\" (Arista, AL 4032) [Anthony Braxton, Oliver Lake, Julius Hemphill, Hamiet Bluiett]\n\n\n=== Albums ===\n\n\n== References ==\n\n\n== External links ==\nReview of 2009's Yes We Can"
+    }
+   }
+  }
+ }
+]

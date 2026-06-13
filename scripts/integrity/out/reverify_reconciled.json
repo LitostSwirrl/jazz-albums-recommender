@@ -1,0 +1,1783 @@
+{
+  "expected": 335,
+  "judged": 335,
+  "missing": [],
+  "extra": [],
+  "dupes": [],
+  "malformed": [],
+  "pass_clean": 251,
+  "acceptable_unverifiable": [
+    {
+      "id": "african-marketplace",
+      "verdict": "unverifiable",
+      "notes": "Right artist confirmed: the albumDNA's biographical opening is taken near-verbatim from the entity-matched Abdullah Ibrahim Wikipedia article (Dollar Brand, Cape jazz, Monk/Ellington influence, 'Mannenberg' anti-apartheid anthem) — all consistent, no contradiction. However MB returned no release for this album, and the wiki page is the ARTIST bio (it does not mention 'African Marketplace' in the available extract). So the album's own substantive facts — year 1980, label Elektra Musician, and the 4 keyTracks (African Marketplace, Zimbabwe, The Wedding, Soweto) — cannot be checked against any surviving evidence. The album-specific editorial lines (introduced Ibrahim to American audiences; positive energy vs apartheid) are opinion. unverifiable: correct entity, no contradiction, but the album metadata/tracklist is unconfirmable. The evidence stored_url was the artist page (correct person) but ours.wikipediaUrl is null, so none_stored."
+    },
+    {
+      "id": "behind-the-8-ball",
+      "verdict": "unverifiable",
+      "notes": "Entity solidly confirmed: MB embedded_mbid title/1965-06/Argo (Argo 749)/Baby-Face Willette, all 5 keyTracks match. Substantive claims that cannot be checked against the evidence: 'his final album', 'recorded in late 1964', 'Cut in Chicago'. No contradiction, but these are uncheckable. The stored evidence wiki URL is 'Face to Face (Baby Face Willette album)' — a DIFFERENT album (1961 Blue Note debut), wrong entity; ours.wikipediaUrl is null so none_stored. The DNA's reference to earlier Blue Note sessions is consistent with that page."
+    },
+    {
+      "id": "dizzy-atmosphere-dizzy-gillespie",
+      "verdict": "unverifiable",
+      "notes": "MB search (similarity 1.0): Dizzy Atmosphere, Dizzy Gillespie, Compilation, label Flashback Home Entertainment, no date. ours keyTracks (Hot House, Groovin' High, Dizzy Atmosphere, All the Things You Are, I Can't Get Started, Blue n' Boogie) ALL appear in this MB compilation tracklist -> ours describes the MB Gillespie bebop compilation. The Wikipedia 'Dizzy Atmosphere (album)' page is a DIFFERENT album (1957 Specialty LP led by members of Gillespie's orchestra incl. Lee Morgan, arr. Roger Spotts) -- not our entity; wikipedia entityMatch=no (no URL stored, so no shipped wrong link). DNA 'Recorded in 1997' is suspicious for a compilation of 1940s-era recordings, but MB release date is empty and gives no recording date to contradict it verbatim -> unverifiable, not factual_error. Year field 1997 also unconfirmable (MB has no date). Recording-year claim should be reviewed."
+    },
+    {
+      "id": "drums-unlimited-max-roach",
+      "verdict": "unverifiable",
+      "notes": "DNA entity-matched and accurate: 'Released in 1966 on Atlantic' matches MB (release date 1966, label Atlantic); track program The Drum Also Waltzes/Nommo/title track/For Big Sid matches MB tracklist exactly; keyTracks all match. label 'Atlantic' is correct. The only soft spot is the year field 2004, which disagrees with the matched MB release (1966) and the DNA's own '1966'. No evidence shows a 2004 release, but a 2004 reissue plausibly exists, so per 'absence is not contradiction' the year cannot be called a factual_error -- it is unverifiable. (If the catalog intends 2004 as a reissue year it is unsupported; if it should be 1966 it is simply wrong; evidence cannot decide.)"
+    },
+    {
+      "id": "forever-love",
+      "verdict": "unverifiable",
+      "notes": "Entity is solid: MB search (sim 1.0) confirms Forever Love, Mark Whitfield, Verve (533 921-2), 1997-03-04; all 5 keyTracks present; albumDNA (jazz guitarist, Verve, 1997, ballads/standards, My One and Only Love, Nature Boy) all consistent. The one substantive claim that cannot be checked against pack evidence is 'vocalist Diana Krall guests on a few tracks' -- MB tracklist carries no personnel and the stored_url 'Thomas Whitfield (singer)' is a different gospel artist (wrong entity, not shipped). Absence is not contradiction; the Krall guesting claim is unverifiable from the evidence here (not refuted)."
+    },
+    {
+      "id": "grazin-in-the-grass",
+      "verdict": "unverifiable",
+      "notes": "No MB match (release null, empty searchCandidates). The stored evidence wiki page is 'Grazing in the Grass' — the 1968 COMPOSITION/single page, about Hugh Masekela's recording, not the album under verification. It corroborates the artist (Hugh Masekela), the title track 'Grazing in the Grass', and 1968 — enough to confirm the right entity — but it does NOT confirm the album title 'Grazin'/Hugh Masekela's Grazin’', the Uni label, or the other keyTracks (Bajabula Bonke, etc.). Those album-level facts are unverifiable. No MB tracklist so keyTracks no_evidence. ours.wikipediaUrl null so none_stored."
+    },
+    {
+      "id": "leon-thomas-in-berlin",
+      "verdict": "unverifiable",
+      "notes": "Entity confirmed: MB search (sim 1.0) gives Leon Thomas in Berlin, Leon Thomas, releaseGroup firstReleaseDate 2000 (matched release is a 2002 BMG France reissue); all 5 keyTracks present in MB tracklist. Substantive claims that cannot be checked against pack evidence: (a) 'with the saxophonist/arranger Oliver Nelson' -- MB lists no personnel; (b) 'recorded in 1970 in Berlin' -- MB carries no recording date; (c) label 'Flying Dutchman' vs MB's reissue label 'BMG France' -- MB's 2002 reissue does not refute Flying Dutchman as the original label (absence is not contradiction). No contradictions, but multiple substantive personnel/date claims are unverifiable. opensearch returned no wiki page; ours.wikipediaUrl null."
+    },
+    {
+      "id": "louie-and-the-dukes-of-dixieland",
+      "verdict": "unverifiable",
+      "notes": "MB embedded_mbid confirms artists Louis Armstrong + The Dukes of Dixieland, releaseGroup firstReleaseDate 1960, title match; all five keyTracks (Bourbon Street Parade/South/Washington and Lee Swing/Avalon/New Orleans) and the three DNA-named tunes present in MB tracklist. The label field 'Audio Fidelity' cannot be confirmed: MB resolved to a hi-res reissue on 'High Definition Tape Transfers' (HDTT2584), which does not surface the original 1960 issuing label — not a contradiction, just uncheckable. ours.wikipediaUrl is null; the stored_url that was searched points to a different Armstrong album (I've Got the World on a String) but ours ships no URL."
+    },
+    {
+      "id": "mannenberg",
+      "verdict": "unverifiable",
+      "notes": "Right artist confirmed: the stored Abdullah Ibrahim wiki page is the correct entity and states he is 'known especially for Mannenberg, a jazz piece that became a notable anti-apartheid anthem.' But MB found no release, and the artist page does not document this album's label (Sun), exact year (1974), or tracklist. So the album-specific claims and the keyTracks (Mannenberg, Soweto Is Where It's At, Cape Town Fringe, The Pilgrim) cannot be verified against the available evidence. No contradiction; substantive facts unverifiable. ours.wikipediaUrl null."
+    },
+    {
+      "id": "nancy-wilson-cannonball-adderley",
+      "verdict": "unverifiable",
+      "notes": "MB embedded_mbid confirms title / artists Nancy Wilson + Cannonball Adderley / Capitol Records (ST 1657) / date 1962-09 — matches ours exactly; all five keyTracks present in MB tracklist. The stored_url that was searched is the WRONG entity (Somethin' Else, 1958 Adderley/Blue Note), so it provides no personnel and ours ships no URL anyway. Several substantive DNA claims cannot be checked against surviving evidence: Nat Adderley on cornet and Joe Zawinul on piano (no personnel in MB; wiki is wrong entity), the direct quote 'a sort of easy-going third horn,' and the pop-chart claim. No contradictions, but these uncheckable specifics drive an unverifiable verdict."
+    },
+    {
+      "id": "one-flight-up",
+      "verdict": "unverifiable",
+      "notes": "Entity confirmed: MB embedded_mbid title/Blue Note/Dexter Gordon; releaseGroup firstReleaseDate 1967 matches ours' year (the MB release itself is a 2004 reissue). All 3 keyTracks match. Substantive uncheckable claim: 'recorded on June 2, 1964, in Paris' is not in the evidence (no contradiction, cannot verify). Personnel (Byrd, Drew, NHOP, Art Taylor) is sideman naming. Opensearch wiki returned nothing."
+    },
+    {
+      "id": "rising-son",
+      "verdict": "unverifiable",
+      "notes": "Right entity: MB search match (similarity 1.0) confirms title 'Rising Son', 2014-02-12, Blue Note (TYCJ-60050), artist Takuya Kuroda; all 4 keyTracks match the MB tracklist. No contradictions. However, albumDNA carries substantive factual claims absent from the evidence and not checkable here: 'Blue Note debut' and 'Produced by DJ Premier collaborator Jose James' (a specific named production credit). MB has no producer/personnel detail and the wiki opensearch resolved to the unrelated 'Rising Sun' disambiguation page (discarded). Marked unverifiable for those production/discographic claims; the album identity itself is solid. ours.wikipediaUrl is null."
+    },
+    {
+      "id": "sayin-somethin",
+      "verdict": "unverifiable",
+      "notes": "Entity confirmed: MB embedded_mbid title/1966/Atlantic 1460/Nat Adderley, all 6 keyTracks match. Substantive uncheckable claim: the album's structure ('four performances by Adderley with an 11-piece orchestra and four by Adderley's Quintet with Joe Henderson, Herbie Hancock, Bob Cranshaw, and Roy McCurdy') is not in the evidence — no contradiction but cannot be verified. Also the 'free jazz era ... abandoned predetermined structures' framing conflicts internally with the 'bebop conversation' line and is templated noise (not a citable factual error). Opensearch wiki returned nothing."
+    },
+    {
+      "id": "smack-up-art-pepper",
+      "verdict": "unverifiable",
+      "notes": "MB search returned no confident release, only a search candidate: 'Smack Up', Art Pepper Quintet, firstReleaseDate 1960-10-24, Album (no tracklist). This candidate entity-matches and confirms the DNA claims 'Art Pepper Quintet' and 'first released in October 1960'. No tracklist evidence, so keyTracks (Smack Up, Las Cuevas de Mario, A Bit of Basie, How Can You Lose, Maybe Next Year, Tears Inside) and the DNA track list cannot be checked -> keyTracksVerdict no_evidence. Year field 1991 and label 'Various' (placeholder) cannot be confirmed. No contradictions -> unverifiable."
+    },
+    {
+      "id": "tenor-titans",
+      "verdict": "unverifiable",
+      "notes": "Entity confirmed: MB embedded_mbid gives Tenor Titans, Storyville Records (STCD 8288), 1997, credited Dexter Gordon + Ben Webster; all 5 keyTracks present. albumDNA names only Ben Webster (editorial; album is a Gordon/Webster split). The substantive uncheckable claim is the explicit 'Recorded for Storyville Records in 1997' -- MB carries only a 1997 RELEASE date, not a recording date, so this recording-year assertion can be neither confirmed nor refuted from pack evidence. (Background knowledge that Webster's recordings predate 1997 is not citable here.) ours.wikipediaUrl null; stored_url 'Tomasz Szukalski' is a different Polish saxophonist (wrong entity, not shipped)."
+    },
+    {
+      "id": "the-amazing-bud-powell-vol-2-bud-powell",
+      "verdict": "unverifiable",
+      "notes": "Entity confidently correct: websearch (resolved=true) confirms pianist Bud Powell, ten-inch Blue Note BLP 5041, recorded at WOR Studios NYC on August 14, 1953, released 1954. year=1954 and label='Blue Note' verify; all five keyTracks match the websearch tracklist; 'Glass Enclosure', 'Autumn in New York' and 'I Want to Be Happy' are all on the tracklist. The only unverifiable substantive claim is the personnel 'George Duvivier on bass and Art Taylor on drums' -- the evidence packet does not list sidemen. Nothing contradicts it; verdict is unverifiable solely because that sideman claim cannot be checked against the available evidence. ours.wikipediaUrl matches the websearch-confirmed page."
+    },
+    {
+      "id": "we-free-kings-rahsaan-roland-kirk",
+      "verdict": "unverifiable",
+      "notes": "Entity confidently correct: websearch (resolved=true; Wikipedia + AllMusic) confirms a studio album by jazz multi-instrumentalist Rahsaan/Roland Kirk on Mercury, recorded Aug 16-17 1961, released January 1962. year=1962 and label='Mercury' verify; all six keyTracks match the websearch tracklist; 'recorded August 1961', 'released by Mercury in January 1962', 'Blues for Alice' all verify. NOTE: the opensearch Wikipedia block mis-resolved to 'We Three Kings (disambiguation)' (a Christmas carol / unrelated albums) -- a wrong-entity opensearch hit -- but ours.wikipediaUrl is https://en.wikipedia.org/wiki/We_Free_Kings, the correct page confirmed by websearch, so wikiLinkVerdict is correct. The only unverifiable substantive claim is the specific instrument list 'tenor saxophone, manzello, stritch, flute and siren, often several at once' -- the evidence says 'multi-instrumentalist' but does not enumerate the instruments. Nothing contradicts it; verdict is unverifiable solely because that instrumentation detail cannot be checked against the packet."
+    },
+    {
+      "id": "yuki-arimasa",
+      "verdict": "unverifiable",
+      "notes": "ours.wikipediaUrl is already null (correct). Stored ja.wikipedia URL (有馬祐輝) returns 404/page=null and the kanji may not be his name; no Wikipedia exists in any language. websearch resolved=true confirms the artist (Japanese jazz pianist, born 1961 Tokyo per HighResAudio) and ours.birthYear 1961 matches; instruments piano confirmed. No contradiction. Two substantive bio claims are uncheckable against available evidence: 'Bill Evans's influence' and 'His Village Vanguard appearance' are not corroborated by any fetched source (not provably false either). Hence unverifiable, not factual_error."
+    }
+  ],
+  "known_gap": [
+    {
+      "id": "a-caddy-for-daddy",
+      "verdict": "factual_error",
+      "raised": [
+        "field:year"
+      ],
+      "isGap": true,
+      "gapDims": [
+        "field:year"
+      ],
+      "fieldIssues": [
+        {
+          "field": "year",
+          "ours": "1965",
+          "evidence": "1966",
+          "evidenceQuote": "\"date\": \"1966\" / releaseGroup \"firstReleaseDate\": \"1966\"",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "MB search (similarity 1.0) confirms title/Blue Note BLP 4230/Hank Mobley and all 4 keyTracks. The only discrepancy is the year: ours 1965 vs MB release date and release-group first-release date both 1966. Likely a recorded-late-1965 / released-1966 ambiguity — low-stakes — but the MB evidence does contradict 1965. Sidemen Lee Morgan/Curtis Fuller are editorial (uncheckable, uncontradicted).",
+      "gapCats": [
+        "year_disputed"
+      ]
+    },
+    {
+      "id": "afro-dizzy-gillespie",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label",
+        "field:year"
+      ],
+      "isGap": true,
+      "gapDims": [
+        "field:year",
+        "weak_match"
+      ],
+      "fieldIssues": [
+        {
+          "field": "year",
+          "ours": "2022",
+          "evidence": "1954",
+          "evidenceQuote": "Afro is a studio album by the jazz trumpeter Dizzy Gillespie. It was released in November 1954 through Norgran Records.",
+          "source": "wiki"
+        },
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Norgran Records",
+          "evidenceQuote": "It was released in November 1954 through Norgran Records.",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Entity is correct: opensearch Wikipedia 'Afro (album)' is the 1954 Dizzy Gillespie/Chico O'Farrill Norgran LP and its tracklist matches all six keyTracks (Manteca Theme, Contraste, Jungla, Rhumba Finale, A Night in Tunisia, Con Alma). MB 'search' matched the WRONG release (a 1953 Jazz Selection single 'Afro-Paris / I Cover the Waterfront'), so MB is discarded for fact-checking. albumDNA correctly says 'Released in 1954' and is otherwise generic editorial boilerplate. Remaining contradictions are the structured fields: year=2022 (Wikipedia: 1954 studio album) and label='Various' (Wikipedia: Norgran Records).",
+      "gapCats": [
+        "weak_mb_match"
+      ]
+    },
+    {
+      "id": "blue-notes-legacy",
+      "verdict": "no_evidence",
+      "raised": [],
+      "isGap": true,
+      "gapDims": [
+        "thin_prose"
+      ],
+      "fieldIssues": [],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "no_evidence",
+      "keyTracksUnmatched": [],
+      "notes": "No evidence document survived entity-matching. MB returned no release (searchCandidates empty). The searched stored_url is the WRONG entity entirely: Harold Melvin & the Blue Notes, an American soul/R&B vocal group, not the South African jazz collective The Blue Notes (Chris McGregor's group) implied by the keyTracks (Kippie, Poppie, Township Bop, Ke Tla Moya) and the Gallo label. ours.wikipediaUrl is null. No websearch provided. Title 'Blue Notes in Concert', year 1964, label Gallo, and all keyTracks are unverifiable against any surviving source -> no_evidence.",
+      "gapCats": [
+        "thin_prose"
+      ]
+    },
+    {
+      "id": "chet-baker-and-crew-chet-baker",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label",
+        "keytracks"
+      ],
+      "isGap": true,
+      "gapDims": [
+        "field:year",
+        "weak_match",
+        "keytracks"
+      ],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Pacific Jazz",
+          "evidenceQuote": "labels: Pacific Jazz PJ-1224",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "mismatch",
+      "keyTracksUnmatched": [
+        "Something for Lisa"
+      ],
+      "notes": "Entity correct: MB (search, similarity 0.77) = 'Chet Baker & Crew' (Pacific Jazz PJ-1224, 1956). albumDNA correctly says 'Recorded in 1956' (matches MB) and is otherwise boilerplate. Remaining contradiction is label='Various' vs MB-documented Pacific Jazz. keyTrack 'Something for Lisa' does not match MB's 'Something for Liza' (one-letter spelling difference, clearly the same track) -> keyTracks mismatch but minor. year=1993 differs from the MB release year 1956; a 1993 CD reissue is plausible but not in the evidence, so the year is left as a note rather than a hard contradiction.",
+      "gapCats": [
+        "weak_mb_match",
+        "keytracks_uncertain"
+      ]
+    },
+    {
+      "id": "congo-square",
+      "verdict": "no_evidence",
+      "raised": [],
+      "isGap": true,
+      "gapDims": [
+        "thin_prose"
+      ],
+      "fieldIssues": [],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "no_evidence",
+      "keyTracksUnmatched": [],
+      "notes": "No evidence document survives entity-matching. MB returned no release/searchCandidates. The stored wiki page is 'A Tale of God's Will (A Requiem for Katrina)' (a DIFFERENT 2007 Blanchard album), not 'Congo Square' (claimed 2006). Cannot confirm or contradict ours from this evidence. FLAG FOR HUMAN REVIEW: ours keyTracks ('Levees', 'The Water') overlap with tracks named on the A Tale of God's Will page ('Levees', 'The Water', plus 'Ghost of...' pieces), raising a possible confusion between the two Katrina-related Blanchard projects; ours also lists 'Congo Square'/'Ghost of Congo Square', which are not in the A Tale of God's Will evidence. No citable source here to resolve it. ours.wikipediaUrl is null.",
+      "gapCats": [
+        "thin_prose"
+      ]
+    },
+    {
+      "id": "emerald-tears",
+      "verdict": "factual_error",
+      "raised": [
+        "field:year"
+      ],
+      "isGap": true,
+      "gapDims": [
+        "field:year"
+      ],
+      "fieldIssues": [
+        {
+          "field": "year",
+          "ours": "1977",
+          "evidence": "1978",
+          "evidenceQuote": "release date \"1978\"; releaseGroup firstReleaseDate \"1978\" (ECM 1109 / 2301 109)",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Dave Holland solo bass recital on ECM, MB search match similarity 1.0, artist/title/label all correct; all 4 keyTracks (Emerald Tears, Spheres, Under Redwoods, Combination) present in MB tracklist. Year is the only discrepancy: ours=1977, MB release date and releaseGroup firstReleaseDate both =1978 (releaseGroup is a plain Album, not a compilation). MB method is search (strong, not embedded) but two consistent MB date fields plus sim 1.0 support 1978. albumDNA is editorial about unaccompanied bass with no contradictable specifics. Off-by-one year flagged.",
+      "gapCats": [
+        "year_disputed"
+      ]
+    },
+    {
+      "id": "for-alto",
+      "verdict": "factual_error",
+      "raised": [
+        "field:year"
+      ],
+      "isGap": true,
+      "gapDims": [
+        "field:year"
+      ],
+      "fieldIssues": [
+        {
+          "field": "year",
+          "ours": "1969",
+          "evidence": "1971",
+          "evidenceQuote": "\"date\": \"1971\" / releaseGroup \"firstReleaseDate\": \"1971\"",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "MB search (1.0) confirms title/Delmark Records DS-420/421/Anthony Braxton, and all 4 keyTracks (dedications) match. The dedications-to-different-musicians claim is confirmed by the tracklist; 'first full-length solo saxophone recording in jazz history' is an editorial/historical claim (uncheckable, uncontradicted). Discrepancy: ours year 1969 vs MB release date and release-group first-release date both 1971 (recorded ~1969, released 1971). The opensearch wiki resolved to 'For altid (album)' by Danish electropop singer Medina — wrong entity, discarded; ours.wikipediaUrl null so none_stored.",
+      "gapCats": [
+        "year_disputed"
+      ]
+    },
+    {
+      "id": "lullaby-of-birdland",
+      "verdict": "factual_error",
+      "raised": [
+        "field:artist",
+        "field:label"
+      ],
+      "isGap": true,
+      "gapDims": [
+        "catalog_error",
+        "thin_prose",
+        "field:artist"
+      ],
+      "fieldIssues": [
+        {
+          "field": "artist",
+          "ours": "Duke Ellington",
+          "evidence": "Lee Konitz (featuring Barry Harris)",
+          "evidenceQuote": "Lullaby of Birdland is a live album by saxophonist Lee Konitz featuring pianist Barry Harris which was recorded at Birdland in 1991 and released on the Candid label.",
+          "source": "wiki"
+        },
+        {
+          "field": "label",
+          "ours": "Intermedia Records",
+          "evidence": "Candid",
+          "evidenceQuote": "released on the Candid label",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "The album under this id is the Lee Konitz / Barry Harris live album (Candid), confirmed by both MB embedded_mbid (artists Lee Konitz, Barry Harris; label Candid) and the stored wiki page (which IS about this album). The generic albumDNA names no artist and lists tracks that all match the tracklist (Lullaby of Birdland, Anthropology, Ask Me Now, etc.), so the prose skeleton is correct-to-album, not an Ellington skeleton -> factual_error (wrong artist + label fields), not entity_mismatch. ours.wikipediaUrl is null (the stored evidence URL is the correct album page, but it is not shipped in ours).",
+      "gapCats": [
+        "catalog_error",
+        "thin_prose"
+      ]
+    },
+    {
+      "id": "night-train-oscar-peterson",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label",
+        "field:year"
+      ],
+      "isGap": true,
+      "gapDims": [
+        "field:year",
+        "weak_match"
+      ],
+      "fieldIssues": [
+        {
+          "field": "year",
+          "ours": "2011",
+          "evidence": "1963",
+          "evidenceQuote": "Night Train is an album by the Oscar Peterson Trio, released in 1963 by Verve Records.",
+          "source": "wiki"
+        },
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Verve",
+          "evidenceQuote": "released in 1963 by Verve Records",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Entity correct: MB (search, similarity 0.76) = The Oscar Peterson Trio 'Night Train' dated 1963 on Verve; opensearch Wikipedia matches. albumDNA correctly says 'Recorded in 1963' and is otherwise boilerplate. All six keyTracks match MB ('C-Jam Blues' differs only by a U+2010 hyphen vs MB 'C Jam Blues'). Remaining contradictions are structured fields: year=2011 (Wikipedia/MB: 1963) and label='Various' (Verve).",
+      "gapCats": [
+        "weak_mb_match"
+      ]
+    },
+    {
+      "id": "sadao-watanabe-mbali",
+      "verdict": "unverifiable",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": true,
+      "gapDims": [
+        "field:label"
+      ],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Flying Disk",
+          "evidence": "CBS/Sony",
+          "evidenceQuote": "labels: name 'CBS/Sony', catalogNumber '28AH 1572'",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "MB (sim 1.0) confirms Mbali Africa, Sadao Watanabe, 1974, and the stored Sadao Watanabe wiki is the correct artist. All 6 keyTracks (Ita, Bahari Pwani, Jambo Bwana, Afro Talk, Hip Walk, Tanzania Yako) match the MB tracklist exactly. The only discrepancy is the label: ours 'Flying Disk' vs MB 'CBS/Sony' (reissue catalogs 28AH 1572 / SOPW 27~28). Flying Disk was a CBS/Sony imprint, so this is plausibly an imprint-vs-parent distinction rather than a contradiction; no pack evidence confirms Flying Disk for the original 1974 release, so the label claim is unverifiable. The albumDNA is otherwise editorial.",
+      "gapCats": [
+        "label_review"
+      ]
+    },
+    {
+      "id": "saxophone-solos",
+      "verdict": "unverifiable",
+      "raised": [
+        "field:year"
+      ],
+      "isGap": true,
+      "gapDims": [
+        "field:year"
+      ],
+      "fieldIssues": [
+        {
+          "field": "year",
+          "ours": "1975",
+          "evidence": "1976",
+          "evidenceQuote": "date '1976'; releaseGroup firstReleaseDate '1976'",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "MB (sim 1.0) confirms Saxophone Solos by Evan Parker, Incus Records (Incus 19); all 3 keyTracks (Aerobatics 1, 2, 4) are on the MB tracklist. Entity is solid. Discrepancy: ours year 1975 vs MB release date and release-group firstReleaseDate both 1976. This is the recording-year (1975) vs release-year (1976) ambiguity rather than the disambiguation-collision disease; MB shows a release date and ours may reflect the recording year, so the year is unverifiable rather than a clean contradiction. Recording the fieldIssue. albumDNA is editorial (circular breathing, multiphonics) and states no year.",
+      "gapCats": [
+        "year_disputed"
+      ]
+    },
+    {
+      "id": "secrets-are-the-best-stories",
+      "verdict": "factual_error",
+      "raised": [
+        "field:artist"
+      ],
+      "isGap": true,
+      "gapDims": [
+        "field:artist"
+      ],
+      "fieldIssues": [
+        {
+          "field": "artist",
+          "ours": "Danilo Pérez",
+          "evidence": "Kurt Elling",
+          "evidenceQuote": "\"artists\": [\"Kurt Elling\"]",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Right album (title/year 2020/label Edition Records/tracks all match MB embedded_mbid), and the albumDNA itself correctly names 'vocalist Kurt Elling leads...'. But the ours.artist FIELD says 'Danilo Pérez' (the album's pianist), contradicting MB's authoritative artist credit 'Kurt Elling'. Single wrong field on an otherwise correct entity = factual_error, not entity_mismatch. All 5 keyTracks present in MB tracklist.",
+      "gapCats": [
+        "field_artist"
+      ]
+    },
+    {
+      "id": "tales-of-captain-black",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": true,
+      "gapDims": [
+        "field:label"
+      ],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "DIW",
+          "evidence": "Artists House",
+          "evidenceQuote": "labels: name \"Artists House\", catalogNumber \"AH 7\" (release date 1979, country US, sim 1.0)",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "MB search sim 1.0, artist James Blood Ulmer, title Tales of Captain Black, date 1979 (US) — all match. All 4 keyTracks (Theme From Captain Black, Revelation March, Moons Shine, Morning Bride) present in MB tracklist. Label discrepancy: ours=DIW, MB=Artists House (cat AH 7). The original 1979 US release was on Artists House; DIW was a later (Japanese) reissue label, so ours labels the album by its reissue. Flagged as factual_error on label per the entity-matched MB original-release evidence. albumDNA's harmolodic framing and named personnel (Ornette Coleman alto, Denardo Coleman drums) are not in evidence (no personnel) — unverifiable, not flagged.",
+      "gapCats": [
+        "label_review"
+      ]
+    }
+  ],
+  "regression": [
+    {
+      "id": "a-garland-of-red-red-garland",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Prestige",
+          "evidenceQuote": "labels: Prestige VICJ-41538",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Entity correct: MB (embedded_mbid) = Red Garland Trio 'A Garland of Red', release-group first release 1956; all six keyTracks match MB. albumDNA correctly says 'Recorded in 1956' (matches RG 1956) and is otherwise boilerplate. year=2006 equals the MB release date (a Japanese Prestige reissue, VICJ-41538), so it is unflagged; the original is 1956. Remaining contradiction is label='Various' vs MB-documented Prestige."
+    },
+    {
+      "id": "a-study-in-frustration-fletcher-henderson",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Essential Jazz Classics",
+          "evidenceQuote": "labels: Essential Jazz Classics ejc55511",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Entity correct: MB (embedded_mbid) = Fletcher Henderson 'A Study in Frustration: The Fletcher Henderson Story', a Compilation with release-group first release 1994-06-14; all six keyTracks match MB. albumDNA is pure boilerplate with no specific factual claim. year=1994 matches the release-group first-release year. Remaining contradiction is label='Various' vs MB-documented Essential Jazz Classics (a reissue label; the underlying recordings are 1920s Columbia-era sides)."
+    },
+    {
+      "id": "a-swingin-affair-dexter-gordon",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Blue Note",
+          "evidenceQuote": "labels: [{name: Blue Note, catalogNumber: BLP 4133}] (MB release b12f58ca, search sim 1.0; Wikipedia: recorded 1962, released early October 1964)",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "DNA generic boilerplate; the one checkable claim 'Recorded in 1962' matches Wikipedia and MB release date. Entity confirmed (Dexter Gordon). keyTracks all match MB tracklist. Only the label field still ships 'Various' vs Blue Note. year 1987 disagrees with matched release (1962); unverifiable later-reissue date, not flagged."
+    },
+    {
+      "id": "amaryllis-belladonna",
+      "verdict": "factual_error",
+      "raised": [
+        "keytracks",
+        "prose"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "keyTracks: \"The Gate\"",
+          "problem": "track not on either suite of this album",
+          "evidenceQuote": "ours.keyTracks contains 'The Gate', which is NOT a track on either album (real tracks listed above)",
+          "source": "websearch"
+        }
+      ],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "mismatch",
+      "keyTracksUnmatched": [
+        "The Gate",
+        "Belladonna"
+      ],
+      "notes": "Entity confirmed via websearch (resolved=true): Mary Halvorson's Nonesuch debut, 2022, two paired suites. ours.year 2022 and label Nonesuch CORRECT. The repaired albumDNA (sextet + Mivos Quartet on three tracks; Belladonna = solo guitar + same quartet, five pieces; produced by John Dieterich) matches the websearch note exactly. keyTracks driver of factual_error: 'The Gate' is explicitly confirmed NOT to be a track. 'Belladonna' also does not appear in the provided websearch findings.tracklist (which is the Amaryllis side only: Night Shift, Anesthesia, Amaryllis, Side Effect, Hoodwink, 892 Teeth, plus Belladonna's 2nd track Moonburn); Belladonna is the suite name and may be a track title but is unconfirmed by pack evidence, so listed as unmatched. 'Amaryllis' and 'Night Shift' do match. Per spec, keyTracks were only repaired when null, so the stale 'The Gate' remains and is flagged here."
+    },
+    {
+      "id": "art-pepper-meets-the-rhythm-section-art-pepper",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Contemporary Records",
+          "evidenceQuote": "labels: Contemporary Records CCD-7532-2",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Entity correct: MB (embedded_mbid) = Art Pepper 'Art Pepper Meets the Rhythm Section', release-group first release 1957-01-01; all six keyTracks match MB. albumDNA is generic boilerplate. year=1957 matches the release-group first-release year. Remaining contradiction is label='Various' vs MB-documented Contemporary Records."
+    },
+    {
+      "id": "at-the-stratford-shakespearean-festival-oscar-peterson",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Verve",
+          "evidenceQuote": "labels: Verve 3145137522",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Entity correct: MB (embedded_mbid) = The Oscar Peterson Trio 'At the Stratford Shakespearean Festival', release-group first release 1957-07 (Live); all six keyTracks match MB exactly. albumDNA is generic boilerplate. year=1957 matches the release-group first-release year (original), so it is fine -- the MB release date 1993-04-20 is a later reissue. Remaining contradiction is label='Various' vs MB-documented Verve."
+    },
+    {
+      "id": "begin-the-beguine-artie-shaw",
+      "verdict": "factual_error",
+      "raised": [
+        "keytracks"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "mismatch",
+      "keyTracksUnmatched": [
+        "Begin the Beguine",
+        "Back Bay Shuffle",
+        "Any Old Time",
+        "Nightmare",
+        "Yesterdays",
+        "Rosalie"
+      ],
+      "notes": "MB embedded_mbid resolves an Artie Shaw compilation 'Begin the Beguine' (Documents label, 2005-03-07, Compilation, 40 tracks). ours.year 2005 matches. albumDNA is editorial boilerplate (no specific track claims). Driver of factual_error: ALL 6 keyTracks are unmatched against the authoritative 40-track MB listing -- none of 'Begin the Beguine', 'Back Bay Shuffle', 'Any Old Time', 'Nightmare', 'Yesterdays', 'Rosalie' appears (the MB tracklist is a different set of 1936-37 sides: The Japanese Sandman, Sugar Foot Stomp, Copenhagen, Night and Day, etc.). The catalogued keyTracks are genuine Artie Shaw signatures but are not on THIS particular release per MB. ours.label 'Various' is a placeholder vs MB 'Documents' (not separately flagged)."
+    },
+    {
+      "id": "ben-webster-meets-oscar-peterson-ben-webster",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Analogue Productions",
+          "evidenceQuote": "labels: [{name: Analogue Productions, catalogNumber: CVRJ 6114 SA}] (MB embedded_mbid 5bd9cfcf, a 2011 reissue); release-group first date 1959",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "DNA generic boilerplate; the one checkable claim 'Recorded in 1959' matches the MB release-group first date 1959. Entity confirmed (Ben Webster). keyTracks all match MB tracklist. year 2011 equals the matched MB reissue release date, so fine. Only the label field still ships 'Various' where the matched reissue is Analogue Productions (1959 original was Verve, not in evidence)."
+    },
+    {
+      "id": "blue-rondo",
+      "verdict": "factual_error",
+      "raised": [
+        "field:artist",
+        "prose"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "artist",
+          "ours": "Charlie Parker",
+          "evidence": "Karl‐Heinz Steffens, David Gazarov, Martin Zehn, Keith Copeland, Chris Lachotta (performers); 'Parker' appears only among composer credits (Yardbird Suite)",
+          "evidenceQuote": "artists: Brubeck, Debussy, Donato, Gilberto, Evans, Jones, Honegger, Parker, Poulenc, Stravinsky, Karl‐Heinz Steffens, David Gazarov, Martin Zehn, Keith Copeland, Chris Lachotta; date 1997",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "artist: Charlie Parker",
+          "problem": "This 1997 Tudor album is a clarinet recital (performed by Karl‐Heinz Steffens et al.), not a Charlie Parker album. Parker appears only as composer of one track ('Yardbird Suite') and died in 1955; he cannot be the artist of a 1997 release.",
+          "evidenceQuote": "date 1997 ... artists: ... Honegger, Parker, Poulenc, Stravinsky, Karl‐Heinz Steffens, David Gazarov ... tracks: ... Yardbird Suite ...",
+          "source": "mb"
+        }
+      ],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "albumDNA prose is actually CORRECT about the real album (a 1997 Tudor clarinet recital: Blue Rondo a la Turk / Debussy Premiere rhapsodie / Waltz for Debby / Clarinet Sonatina), and all 5 keyTracks match MB. The error is the artist FIELD = Charlie Parker (a composer credit pulled from the tracklist), not the prose. NOTE: this is the same MB release (MBID 505e34e7) as item 'blue-rondo-brubeck' -- two duplicate catalog entries of one clarinet-recital album mis-filed under two composer names. Repair: dedupe and set artist to the actual performer (Karl-Heinz Steffens)."
+    },
+    {
+      "id": "blue-rondo-brubeck",
+      "verdict": "factual_error",
+      "raised": [
+        "field:artist",
+        "prose"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "artist",
+          "ours": "Dave Brubeck",
+          "evidence": "Karl‐Heinz Steffens, David Gazarov, Martin Zehn, Keith Copeland, Chris Lachotta (performers); 'Brubeck' appears only among composer credits (Blue Rondo a la Turk)",
+          "evidenceQuote": "artists: Brubeck, Debussy, Donato, Gilberto, Evans, Jones, Honegger, Parker, Poulenc, Stravinsky, Karl‐Heinz Steffens, David Gazarov, Martin Zehn, Keith Copeland, Chris Lachotta; date 1997",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "artist: Dave Brubeck",
+          "problem": "This 1997 Tudor album is a clarinet recital performed by Karl‐Heinz Steffens et al., not a Dave Brubeck album. Brubeck appears only as composer of 'Blue Rondo a la Turk'.",
+          "evidenceQuote": "date 1997 ... artists: Brubeck, Debussy ... Karl‐Heinz Steffens, David Gazarov, Martin Zehn, Keith Copeland, Chris Lachotta ... tracks: Blue Rondo a la Turk ...",
+          "source": "mb"
+        }
+      ],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Same MB release (MBID 505e34e7) as item 'blue-rondo'. albumDNA correctly describes the clarinet recital and all 6 keyTracks match MB; only the artist FIELD (Dave Brubeck, a composer credit) is wrong. Repair: dedupe with 'blue-rondo' and set artist to the actual performer (Karl-Heinz Steffens)."
+    },
+    {
+      "id": "caravan",
+      "verdict": "factual_error",
+      "raised": [
+        "field:year"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "year",
+          "ours": "1963",
+          "evidence": "1962",
+          "evidenceQuote": "firstReleaseDate: 1962 (releaseGroup), date: 1962 (release)",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Right entity: MB search sim 1.0 confirms Art Blakey & The Jazz Messengers / Riverside (RM 438) / Caravan; all four keyTracks and all five DNA-named tunes present in MB tracklist. Year discrepancy: ours=1963 but the only date evidence (MB release date and releaseGroup firstReleaseDate) is 1962. This is a known recording-late-1962 / issue-boundary case where catalog sources legitimately split between 1962 and 1963, so confidence is moderate — a human reviewer may keep 1963. Flagged as factual_error per the evidence (MB=1962) since I must judge ours-vs-evidence only. The searched stored_url is the WRONG entity (Art Blakey and the Jazz Messengers, 1961 Impulse! album); ours ships no URL."
+    },
+    {
+      "id": "clifford-brown-memorial-album-clifford-brown",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Blue Note",
+          "evidenceQuote": "labels: [{name: Blue Note, catalogNumber: 7243 5 32141 2 8}] (MB embedded_mbid 4e7edbc6); release-group secondaryTypes [Compilation], first date 1956",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "DNA generic boilerplate; the checkable claim 'First released in 1956' matches MB release-group first date 1956 (Compilation). Entity confirmed (Clifford Brown). keyTracks all match MB tracklist (compilation with duplicate/alternate takes; the six keyTracks are all present). year 2001 equals the matched MB reissue release date, so fine. Only the label field still ships 'Various' vs Blue Note."
+    },
+    {
+      "id": "coltrane-jazz-john-coltrane",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Atlantic",
+          "evidenceQuote": "It was released in early 1961 on Atlantic Records (Wikipedia); MB labels: [{name: Atlantic, catalogNumber: SD 1354}]",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "DNA generic boilerplate; the checkable claim 'Released in 1961' matches Wikipedia and MB (release date 1961). Entity confirmed (John Coltrane). keyTracks all match MB tracklist. year 1961 matches MB. Only the label field still ships 'Various' vs Atlantic."
+    },
+    {
+      "id": "concert-by-the-sea-erroll-garner",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Philips",
+          "evidenceQuote": "labels: Philips 429 394 BE",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Entity correct: MB (search, similarity 1.0) = Erroll Garner 'Concert by the Sea' and all three keyTracks match (Where or When, I'll Remember April, Autumn Leaves). albumDNA is generic boilerplate. label='Various' contradicts MB's documented label 'Philips' -> factual_error, though note the MB match is a Dutch 3-track EP reissue (primaryType EP, Live) and the canonical original label (Columbia) is not in the evidence. The albumDNA 'Recorded in 2008' is unverifiable -- the MB release date is empty and there is no Wikipedia evidence, so the recording-year claim can neither be confirmed nor contradicted."
+    },
+    {
+      "id": "cornbread-lee-morgan",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Blue Note",
+          "evidenceQuote": "Recorded in September 1965 but released on the Blue Note label in early 1967 (Wikipedia); MB labels: [{name: Blue Note, catalogNumber: BLP 4222}]",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "DNA is mostly generic boilerplate (editorial: 'height of their creative powers', 'finest expressions of Hard Bop', 'landmark', 'praise from critics worldwide' -- not flagged). The one checkable claim 'Recorded in September 1965' matches Wikipedia. Entity confirmed (Lee Morgan, Blue Note). keyTracks all match MB/Wiki. Only the label field still ships 'Various' vs Blue Note. year 2013 disagrees with matched MB release (1965) and Wikipedia release year (early 1967); treated as unverifiable later-reissue date, not a flagged contradiction."
+    },
+    {
+      "id": "dance-mania-tito-puente",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Discos 605 / Legacy / RCA",
+          "evidenceQuote": "labels: [{name: Discos 605}, {name: Legacy}, {name: RCA}] (MB embedded_mbid 257bfe41, a 2009 reissue); the 1958 original was RCA Victor",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "DNA generic boilerplate; the one checkable claim 'Recorded in 1958' matches the MB release-group first date 1958 and Wikipedia. Entity confirmed (Tito Puente). keyTracks all match MB tracklist. year 2009 equals the matched MB reissue release date 2009-04-21, so the year field is fine. The label field 'Various' is the weak spot: this single-artist album's matched reissue carries RCA/Legacy/Discos 605 and the 1958 original was RCA Victor -- 'Various' is not any of those (lower confidence because the reissue genuinely lists multiple labels, but it still misrepresents a single-artist album)."
+    },
+    {
+      "id": "desmond-blue-paul-desmond",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "RCA Victor",
+          "evidenceQuote": "labels: RCA Victor LPM-2438",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Entity correct: MB (search, similarity 1.0) = Paul Desmond 'Desmond Blue' (RCA Victor LPM-2438, 1962); all six keyTracks match MB. albumDNA is generic boilerplate. year=1962 matches the MB release date. Remaining contradiction is label='Various' vs MB-documented RCA Victor."
+    },
+    {
+      "id": "destination-out-jackie-mclean",
+      "verdict": "unverifiable",
+      "raised": [
+        "field:year"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "year",
+          "ours": "2014",
+          "evidence": "1964-10",
+          "evidenceQuote": "\"date\": \"1964-10\"",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "MB search (similarity 1.0): Destination… Out!, 1964-10, Blue Note, Jackie McLean. Right entity. DNA 'Recorded in 1964' matches MB; label Blue Note matches; all four keyTracks (Love and Hate, Esoteric, Kahlil the Prophet, Riff Raff) match MB tracklist exactly. The catalogued year field 2014 is not in evidence (MB shows the 1964 original); it is a presumed reissue year that cannot be confirmed but is not contradicted -> unverifiable. 'finest expressions of Bebop' is editorial genre framing, not flagged."
+    },
+    {
+      "id": "detroitnew-york-junction-thad-jones",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Blue Note",
+          "evidenceQuote": "labels: [{name: Blue Note, catalogNumber: BLP 1513}] (MB release 17cb431d, search sim 1.0, date 1956)",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "DNA entity-matched and accurate: 'Released in 1956 on Blue Note' matches MB (release date 1956, label Blue Note); track program Blue Room/Tarriff/Little Girl Blue/Scratch/Zec matches MB tracklist exactly; keyTracks all match. year 1956 matches MB. Only the label field still ships 'Various' (DNA itself says Blue Note). MB title 'Detroit-New York Junction' vs ours 'Detroit/New York Junction' is a trivial punctuation variant, not an issue."
+    },
+    {
+      "id": "ella-fitzgerald-sings-the-cole-porter-song-book-ella-fitzgerald",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Verve",
+          "evidenceQuote": "labels: [{name: Verve, catalogNumber: MG V-4001-2}] (MB release 617fe930, search sim 1.0, date 1956)",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "DNA entity-matched and accurate: 'Released in 1956 on Verve' matches MB (date 1956, label Verve); it is indeed one of Fitzgerald's Song Book sets drawing on the Cole Porter catalog, and the named titles (Anything Goes, Too Darn Hot, In the Still of the Night, I Get a Kick Out of You) all appear in the MB tracklist. keyTracks all match. year 1956 matches MB. Only the label field still ships 'Various' (DNA itself says Verve)."
+    },
+    {
+      "id": "far-east-suite-duke-ellington",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "RCA Victor",
+          "evidenceQuote": "labels: [{name: RCA Victor, catalogNumber: LSP-3782}] (MB release 2a7d0078, search sim 1.0, date 1967)",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "DNA entity-matched and accurate: 'Released in 1967 on RCA Victor' matches MB (release date 1967, label RCA Victor); listed pieces Tourist Point of View/Isfahan/Mount Harissa/Blue Pepper match MB tracklist. keyTracks all match. year 1967 matches MB. Only the label field still ships 'Various' (DNA itself says RCA Victor). MB title 'The Far East Suite' vs ours 'Far East Suite' is a trivial article difference."
+    },
+    {
+      "id": "fontainebleau-tadd-dameron",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Prestige (P-7037) / Original Jazz Classics (OJCCD-055-2)",
+          "evidenceQuote": "labels: Original Jazz Classics OJCCD-055-2; Prestige P-7037",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Entity correct: MB (search, similarity 1.0) and opensearch Wikipedia both = Tadd Dameron's 'Fontainebleau'. All albumDNA claims verify against Wikipedia: 'Recorded March 9, 1956', title track 'through-composed... with no solos', \"'Flossie Lou' is a contrafact of 'Jeepers Creepers'\", plus 'Delirium' and 'The Scene Is Clean' on the tracklist. All five keyTracks match MB. Remaining contradiction is the structured label field 'Various' vs MB-documented Prestige/OJC. year=1987 equals the MB release date (the OJC/Prestige reissue MB resolved), so it is a true release year and not flagged, though the original studio album is 1956 (Wikipedia: '1956 studio album')."
+    },
+    {
+      "id": "full-house-wes-montgomery",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": true,
+      "gapDims": [
+        "field:year"
+      ],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Riverside",
+          "evidenceQuote": "The album was released on the Riverside Records label.",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Entity correct: MB (search, similarity 1.0) and opensearch Wikipedia both = Wes Montgomery 'Full House'. All albumDNA claims verify against Wikipedia: live, recorded at Tsubo in Berkeley CA on June 25 1962, released on Riverside, quintet with Wynton Kelly, Johnny Griffin, Paul Chambers, Jimmy Cobb; title track plus 'Blue 'n' Boogie' and 'Cariba'. All six keyTracks match (the take-2/take-3 variants are the 2007 reissue tracks). year=2007 is explicitly a documented Riverside reissue (Wikipedia), so it is fine. Remaining contradiction is only the structured label field 'Various' -- albumDNA itself correctly says Riverside."
+    },
+    {
+      "id": "get-together",
+      "verdict": "factual_error",
+      "raised": [
+        "field:year"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "year",
+          "ours": "1986",
+          "evidence": "1979",
+          "evidenceQuote": "Kansas City 8: Get Together is a 1979 studio album by Count Basie.",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Entity confirmed: MB embedded releaseGroup 'Get Together' + correct Wikipedia page 'Kansas City 8: Get Together' (Count Basie, Pablo). All 5 keyTracks (Ode to Pres, Basie's Bag, Swinging on the Cusp, Like It Used to Be, My Main Men) match both MB and wiki tracklists exactly. Year conflict: ours field = 1986; the entity-matched Wikipedia page states verbatim '1979 studio album by Count Basie' and the albumDNA itself says '1979 session'. MB releaseGroup firstReleaseDate = 1986 (the evidence release is a German CD, cat CD 2310-924, with blank date) — this likely reflects a CD reissue rather than the original 1979 Pablo release. Flagged factual_error on year because the field (1986) contradicts the canonical album-year per wiki (1979) and the album's own prose; confidence held moderate due to the conflicting MB firstReleaseDate. A human should set year to 1979 (original) unless the dataset convention is to use reissue years. wikipediaUrl correct."
+    },
+    {
+      "id": "inside-hi-fi-lee-konitz",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": true,
+      "gapDims": [
+        "field:year"
+      ],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Atlantic",
+          "evidenceQuote": "labels: Atlantic 1258",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Entity correct: MB (search, similarity 1.0) = Lee Konitz 'Inside Hi-Fi' (Atlantic 1258, 1956); all six keyTracks match MB. albumDNA correctly says 'Recorded in 1956' (matches MB) and is otherwise boilerplate. Remaining contradiction is label='Various' vs MB-documented Atlantic. year=1957 differs from MB's 1956 by one year (no Wikipedia to adjudicate; left as a note, not a hard error)."
+    },
+    {
+      "id": "is-that-so",
+      "verdict": "factual_error",
+      "raised": [
+        "field:artist",
+        "prose"
+      ],
+      "isGap": true,
+      "gapDims": [
+        "thin_prose"
+      ],
+      "fieldIssues": [
+        {
+          "field": "artist",
+          "ours": "Tom Harrell",
+          "evidence": "Niels Vincentz",
+          "evidenceQuote": "\"artists\": [\"Niels Vincentz\"]",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "credited to Tom Harrell",
+          "problem": "MB embedded_mbid (authoritative for artist credit) for this exact release credits the artist as Niels Vincentz, not Tom Harrell.",
+          "evidenceQuote": "\"artists\": [\"Niels Vincentz\"]",
+          "source": "mb"
+        }
+      ],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Same album confirmed: MB embedded_mbid title 'Is That So?', Stunt Records, 2014-02-17, and all 5 keyTracks match the MB tracklist exactly (Jericho, Haiku, Hot House, Cecilie, Modal Dancer), so this is unmistakably the same release. The contradiction is the leader credit: MB (authoritative) = Danish saxophonist Niels Vincentz; ours = Tom Harrell. Most likely the album is led by Niels Vincentz with Tom Harrell as a featured sideman, so ours mis-attributes the leader. The stored wiki page is 'Infinity (Tom Harrell album)' (a different 2019 album) - discarded. Confidence is moderate because the perfect tracklist match guarantees the same album but the personnel/leadership split could not be fully resolved from this evidence; human review recommended. ours.wikipediaUrl is null."
+    },
+    {
+      "id": "james-blood-ulmer",
+      "verdict": "factual_error",
+      "raised": [
+        "field:birthYear"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "birthYear",
+          "ours": "1942",
+          "evidence": "1940",
+          "evidenceQuote": "Willie James \"Blood\" Ulmer (February 8, 1940 – June 3, 2026) was an American jazz, free funk and blues guitarist and singer.",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "n/a",
+      "keyTracksUnmatched": [],
+      "notes": "Right entity (Wikipedia confirms guitarist/singer, Ornette Coleman's harmolodics, 'Tales of Captain Black' 1979, 'Are You Glad to Be in America?' 1980). deathYear 2026 matches Wikipedia (June 3, 2026). But the birthYear field is 1942 while Wikipedia gives Feb 8, 1940 and short description '(1940-2026)' — a clear field contradiction. Bio prose itself is clean; only the birthYear field is wrong."
+    },
+    {
+      "id": "jazz-giant-benny-carter",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Contemporary Records",
+          "evidenceQuote": "Jazz Giant is an album by saxophonist Benny Carter, recorded in 1957 and 1958 and released by Contemporary Records (Wikipedia); MB reissue label Original Jazz Classics OJCCD-167-2",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "DNA generic boilerplate; the checkable claims 'Recorded in 1957 and 1958 and released by Contemporary Records' match Wikipedia verbatim. Entity confirmed (Benny Carter). keyTracks all match MB tracklist (and Wikipedia track listing). year 1987 equals the matched MB (OJC reissue) release date, so fine. Only the label field still ships 'Various' where the original is Contemporary (DNA) and the matched reissue is OJC."
+    },
+    {
+      "id": "joe-pass-at-the-montreux-jazz-festival-joe-pass",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Original Jazz Classics",
+          "evidenceQuote": "labels: Original Jazz Classics OJCCD-934-25",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Entity correct: MB (embedded_mbid) = Joe Pass 'Joe Pass at the Montreux Jazz Festival 1975', release-group first release 1975 (Live); all six keyTracks match MB. albumDNA correctly places it as a 1975 Montreux live set; otherwise boilerplate. year=1975 matches the release-group first-release year. Remaining contradiction is label='Various' vs MB-documented Original Jazz Classics (the resolved release is an OJC reissue; the original was Pablo, which is not in the evidence)."
+    },
+    {
+      "id": "les-stances-a-sophie",
+      "verdict": "unverifiable",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Pathé",
+          "evidence": "Nessa Records",
+          "evidenceQuote": "labels: name 'Nessa Records', catalogNumber 'N- 4'",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Right entity: MB (sim 1.0) and the Art Ensemble of Chicago wiki page both confirm Les Stances a Sophie, 1970 soundtrack by the Art Ensemble of Chicago; all 6 keyTracks match the MB tracklist. albumDNA states no label, so the prose is clean. The label FIELD says Pathé while MB resolved a US Nessa Records pressing (same release-group). This is the original-French (Pathe) vs reissue (Nessa) pressing distinction; no pack evidence confirms Pathe, so the label field is unverifiable rather than a clean contradiction."
+    },
+    {
+      "id": "moonlight-serenade-glenn-miller",
+      "verdict": "factual_error",
+      "raised": [
+        "prose"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 1992, Moonlight Serenade showcases Glenn Miller at the height of their creative powers",
+          "problem": "anachronistic recording date -- the title work is a 1939 Glenn Miller song and this is a vintage-material compilation, so 'recorded in 1992' is impossible for Glenn Miller",
+          "evidenceQuote": "\"Moonlight Serenade\" is a 1939 American popular song with original music by Glenn Miller and subsequent lyrics by Mitchell Parish.",
+          "source": "wiki"
+        }
+      ],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "MB search match (similarity 1.0): Glenn Miller compilation 'Moonlight Serenade' (secondaryTypes ['Compilation'], MB release date 2001). All 6 keyTracks (Moonlight Serenade, In the Mood, Tuxedo Junction, Pennsylvania 6-5000, Chatanooga Choo Choo, American Patrol) present in MB tracklist. The albumDNA boilerplate claim 'Recorded in 1992' is contradicted by the evidence that the signature work is a 1939 Glenn Miller composition and the release is a compilation of vintage material -> factual_error. (Wikipedia evidence is a disambiguation page, usable only to confirm the 1939 song origin.)"
+    },
+    {
+      "id": "mystic-brew",
+      "verdict": "factual_error",
+      "raised": [
+        "field:title",
+        "prose"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "title",
+          "ours": "Mystic Brew",
+          "evidence": "Two Headed Freap",
+          "evidenceQuote": "TITLE MISMATCH: 'Mystic Brew' is a TRACK (track 7), not an album. The album is 'Two Headed Freap', Ronnie Foster's 1972 Blue Note debut",
+          "source": "websearch"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Organist Ronnie Foster's 1972 album Mystic Brew",
+          "problem": "Mystic Brew is a track (track 7), not the album title; the album is titled Two Headed Freap",
+          "evidenceQuote": "'Mystic Brew' is a TRACK (track 7), not an album. The album is 'Two Headed Freap', Ronnie Foster's 1972 Blue Note debut",
+          "source": "websearch"
+        }
+      ],
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Right entity (Ronnie Foster's 1972 Blue Note debut): year 1972 and label Blue Note are CORRECT, and all 3 keyTracks (Mystic Brew, Summer Song, Chunky) are genuine tracks on the album per websearch (resolved=true). The wikipediaUrl was repaired to Two_Headed_Freap, the correct album page (confirmed by websearch and the Ronnie Foster artist wiki). REMAINING error: the title field and albumDNA still name the album 'Mystic Brew' (a track title), contradicting the actual album title 'Two Headed Freap'. The title field is out of the allowed repair scope, so the contradiction persists -- flagging as factual_error."
+    },
+    {
+      "id": "nows-the-time-charlie-parker",
+      "verdict": "factual_error",
+      "raised": [
+        "prose"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 2020, Now's the Time showcases Charlie Parker at the height of their creative powers",
+          "problem": "anachronistic recording date -- 'Now's the Time' was first recorded by Parker in 1945 and the album is a reissue of vintage bebop material, so 'recorded in 2020' is impossible for Charlie Parker",
+          "evidenceQuote": "\"Now's the Time\" is a composition by Charlie Parker. He led the first recording of it, on November 26, 1945.",
+          "source": "wiki"
+        }
+      ],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "MB embedded_mbid: title 'Now's The Time'/artist Charlie Parker/date 2020 (release date)/label Bird's Nest (a budget reissue label; tracklist riddled with [alt tk] markers = archival material). All 6 keyTracks (Now's The Time, The Song Is You, Laird Baird, Kim, Kim [alt tk], Cosmic Rays) present in MB tracklist. The albumDNA boilerplate 'Recorded in 2020' is contradicted by the wiki evidence that Parker first recorded the title piece on 26 Nov 1945 and the material is bebop-era -> factual_error. (Wikipedia evidence is the composition page, usable to confirm the 1945 recording / anachronism.)"
+    },
+    {
+      "id": "open-sesame-freddie-hubbard",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Blue Note",
+          "evidenceQuote": "released on the Blue Note label in 1960 in mono as BLP 4040 and in stereo as BST 84040",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Entity correct: MB (embedded_mbid) and opensearch Wikipedia both = Freddie Hubbard's debut 'Open Sesame'. albumDNA claim 'Recorded on June 19, 1960' verifies against Wikipedia ('recorded on June 19, 1960'); otherwise boilerplate. All six keyTracks match MB. year=2002 equals the MB release date (a Rudy Van Gelder reissue), so it is unflagged; the original is 1960. Remaining contradiction is label='Various' vs Blue Note (Wikipedia and MB)."
+    },
+    {
+      "id": "pimp-master",
+      "verdict": "factual_error",
+      "raised": [
+        "field:year",
+        "prose"
+      ],
+      "isGap": true,
+      "gapDims": [
+        "field:year",
+        "weak_match"
+      ],
+      "fieldIssues": [
+        {
+          "field": "year",
+          "ours": "2004",
+          "evidence": "2005",
+          "evidenceQuote": "Pimp Master is the second studio album by pioneering jazz group Soil & \"Pimp\" Sessions, from Japan. It was released on June 23, 2005.",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "their riotous second studio album",
+          "problem": "The album-year is given as 2004 but the entity-matched Wikipedia page (about this exact album) dates the release to June 23, 2005.",
+          "evidenceQuote": "It was released on June 23, 2005.",
+          "source": "wiki"
+        }
+      ],
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "no_evidence",
+      "keyTracksUnmatched": [],
+      "notes": "Entity confirmed: wiki page 'Pimp Master' is the same album (Soil & \"Pimp\" Sessions, second studio album, Victor, Japan). albumDNA's 'death jazz'/second-album framing matches the wiki. ours.wikipediaUrl (en.wikipedia.org/wiki/Pimp_Master) is the correct page. The single factual contradiction is the year: ours 2004 vs wiki 2005. MB returned no release (no tracklist), and the wiki track-listing section is empty, so keyTracks cannot be checked (no_evidence). For human review: keyTracks include 'My Foolish Heart' and 'Waltz for Debby' (Bill Evans standards), which look unusual for this death-jazz album, but there is no tracklist evidence to contradict them."
+    },
+    {
+      "id": "plenty-plenty-soul-milt-jackson",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Atlantic",
+          "evidenceQuote": "labels: Atlantic 1269",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Entity correct: MB (search, similarity 1.0) = Milt Jackson 'Plenty, Plenty Soul' (Atlantic 1269, 1957); all six keyTracks match MB. albumDNA is generic boilerplate. year=1957 matches the MB release date. Remaining contradiction is label='Various' vs MB-documented Atlantic."
+    },
+    {
+      "id": "revolutionary-ensemble",
+      "verdict": "factual_error",
+      "raised": [
+        "field:birthYear"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "birthYear",
+          "ours": "1971",
+          "evidence": "1970",
+          "evidenceQuote": "The group was active from 1970–1977, and reunited briefly in 2004.",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "n/a",
+      "keyTracksUnmatched": [],
+      "notes": "Right entity (free jazz trio: Leroy Jenkins violin, Sirone bass, Jerome Cooper drums/piano — all match, as do loft-jazz/no-chordal-instrument/cooperative claims and the instruments field piano/drums/bass/violin). The group-formation field 'birthYear' is 1971, but Wikipedia states the group was 'active from 1970–1977' and refers to 'the formation of the Revolutionary Ensemble in 1970.' One-year discrepancy; bio prose ('active primarily in the 1970s') is fine. Lower confidence because '1970' could be read as a coalescence period, but the lead's explicit formation year is 1970."
+    },
+    {
+      "id": "savoy-sessions-charlie-parker",
+      "verdict": "unverifiable",
+      "raised": [
+        "field:title",
+        "field:year"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "title",
+          "ours": "Savoy Sessions",
+          "evidence": "Complete Savoy Sessions",
+          "evidenceQuote": "\"title\": \"Complete Savoy Sessions\"",
+          "source": "mb"
+        },
+        {
+          "field": "year",
+          "ours": "2016",
+          "evidence": "2004",
+          "evidenceQuote": "\"date\": \"2004\"",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "MB search (similarity 1.0) matched 'Complete Savoy Sessions' (2004, Definitive Records, Charlie Parker, Compilation). Same artist and same label (Definitive Records) as ours; overlapping tracklist -> same/related compilation, but title and year differ from the matched release. DNA is pure editorial with no checkable specific facts beyond the entity. keyTracks: ours uses (alternate take 1/2)/(master take) suffixes vs MB (take 1/2/3); ignoring take-style suffixes, base titles Tiny's Tempo, I'll Always Love You Just the Same, Romance Without Finance all appear in MB -> ok. Year 2016 cannot be confirmed (MB shows 2004); title differs; treated as unverifiable, not contradicted."
+    },
+    {
+      "id": "smack",
+      "verdict": "factual_error",
+      "raised": [
+        "prose"
+      ],
+      "isGap": true,
+      "gapDims": [
+        "field:label"
+      ],
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Key tracks include 'Down Hearted Blues' and 'Copenhagen'",
+          "problem": "neither track is on this release's authoritative tracklist",
+          "evidenceQuote": "\"tracks\": [\"Teapot Dome Blues\", \"Sugar Foot Stomp\", \"What-Cha-Call-'em Blues\", \"The Stampede\", \"Henderson Stomp\", \"I'm Coming Virginia\", \"King Porter Stomp\", \"Oh Baby\", \"Wang Wang Blues\", \"Clarinet Marmelade\", \"Yeah Man\", \"Christopher Columbus\", ...]",
+          "source": "mb"
+        }
+      ],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "MB embedded_mbid resolves a Fletcher Henderson compilation (French 'Les Génies du Jazz' series, nickname 'Smack'); artist Fletcher Henderson matches. The 5 ours.keyTracks (Sugar Foot Stomp, The Stampede, Teapot Dome Blues, What-Cha-Call-'em Blues, Henderson Stomp) ALL match the MB tracklist. But the albumDNA prose cites 'Down Hearted Blues' and 'Copenhagen' as key tracks, and neither appears on this release's 18-track authoritative listing -> factual_error. (Title string differs from MB but the embedded_mbid match is unambiguous.)"
+    },
+    {
+      "id": "spellbound-clifford-jordan",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Riverside",
+          "evidenceQuote": "labels: [{name: Riverside, catalogNumber: VICJ-41820}] (MB embedded_mbid 1ab7ad48; Wikipedia: \"recorded in 1960 and released on the Riverside label\")",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "albumDNA correct and entity-matched: recorded 1960, Riverside, hard bop, Toy/Lush Life/title track Spellbound (Wikipedia confirms verbatim). keyTracks all match MB tracklist. year 2007 equals the matched MB release date 2007-01-24 (a Japanese reissue; release-group first date 1960-11), so the year field is fine. Only the label field still ships 'Various' instead of Riverside."
+    },
+    {
+      "id": "stan-getz-and-the-oscar-peterson-trio-stan-getz",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Verve",
+          "evidenceQuote": "labels: Verve Reissues",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Entity correct: MB (embedded_mbid) = Stan Getz + Oscar Peterson 'Stan Getz and The Oscar Peterson Trio', release-group first release 1957; all six keyTracks match MB. albumDNA claims verify: 1957 pairing of Getz and Peterson, with 'I Want to Be Happy', 'Pennies From Heaven', 'I'm Glad There Is You' all in the MB tracklist. year=2020 equals the MB release date (a Verve reissue), so it is unflagged; the original is 1957 (RG). Remaining contradiction is label='Various' vs the MB-documented Verve."
+    },
+    {
+      "id": "swing-de-paris-django-reinhardt",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Charly Records",
+          "evidenceQuote": "labels: [{name: Charly Records, catalogNumber: CD DIG 12}] (MB release 1fc92df8, search sim 1.0, date 1995); release-group secondaryTypes [Compilation]",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "DNA is pure editorial boilerplate (no checkable factual claim beyond genre = Swing, which is opinion); nothing in it contradicts evidence. Entity confirmed (Django Reinhardt). keyTracks all match the MB compilation tracklist (composer-bracket suffixes ignored). year is null (empty, not wrong). The matched release is a 1995 Charly Records compilation; the label field still ships 'Various' rather than Charly Records -- flagged. (Lower confidence: as a multi-session compilation of 1930s sides, 'Various' is a softer error than for a single studio LP.)"
+    },
+    {
+      "id": "the-awakening-ahmad-jamal",
+      "verdict": "unverifiable",
+      "raised": [
+        "field:year"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "year",
+          "ours": "1986",
+          "evidence": "1970-07",
+          "evidenceQuote": "\"firstReleaseDate\": \"1970-07\"",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Wikipedia 'The Awakening (Ahmad Jamal album)' (1970, Impulse!, trio with Jamil Nasser and Frank Gant, recorded 1970) strongly entity-matches; MB search candidate ('The Awakening', The Ahmad Jamal Trio, 1970-07) corroborates. DNA reproduces the Wikipedia facts (trio with Jamil Nasser/Frank Gant, recorded 1970 for Impulse!) -- all confirmed; DNA tracks (The Awakening, Dolphin Dance, Stolen Moments) and all six keyTracks confirmed by the Wikipedia tracklist. Prose is correct and clearly the right entity. Only the catalogued year field 1986 is uncheckable (evidence shows the 1970 original; 1986 is a presumed reissue, not contradicted) -> unverifiable. Label 'Various' is a placeholder; the DNA correctly names Impulse!."
+    },
+    {
+      "id": "the-dual-role-of-bob-brookmeyer-bob-brookmeyer",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Original Jazz Classics / Prestige",
+          "evidenceQuote": "labels: [{name: Original Jazz Classics, catalogNumber: OJCCD-1729-2}, {name: Prestige, catalogNumber: P-7066}] (MB embedded_mbid e093519c)",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "DNA entity-matched and accurate: 'First released in 1955' matches MB release-group first date 1955; 'appeared on Prestige (P-7066)' matches MB Prestige P-7066; 'later reissued by Original Jazz Classics' matches MB OJC. keyTracks all match MB tracklist. year 1989 equals the matched MB (OJC reissue) release date, so the year field is fine. Only the label field still ships 'Various' where MB gives Prestige + OJC (and the DNA itself names both)."
+    },
+    {
+      "id": "the-freedom-book-booker-ervin",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Prestige",
+          "evidenceQuote": "labels: Prestige PR 7295",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Entity correct: MB (search, similarity 1.0) = Booker Ervin 'The Freedom Book' (Prestige PR 7295, 1963); all five keyTracks match MB. albumDNA claims verify: 'Released in 1963', 'came out on Prestige (PR 7295)', and 'A Lunar Tune'/'Cry Me Not'/'Grant's Stand' on the tracklist -- the prose itself is correct. Remaining contradiction is the structured label field 'Various' vs MB-documented Prestige. year=1997 differs from the MB release year 1963; a 1997 OJC reissue is plausible but not in the evidence, so the year is left as a note rather than a hard contradiction."
+    },
+    {
+      "id": "the-hawk-flies-high-coleman-hawkins",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Mobile Fidelity Sound Lab",
+          "evidenceQuote": "labels: [{name: Mobile Fidelity Sound Lab, catalogNumber: UDSACD 2030}] (MB embedded_mbid a058288a, a 2006 reissue); release-group first date 1957",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "DNA entity-matched and accurate: 'First released in 1957' matches MB release-group first date 1957; 'later reissued by Mobile Fidelity Sound Lab' matches the matched MB reissue. keyTracks all match MB tracklist (MB lists the program twice -- a hybrid SACD layer artifact -- but every keyTrack is present). year 2006 equals the matched MB reissue release date, so fine. Only the label field still ships 'Various' where the matched release is Mobile Fidelity (the 1957 original was Riverside, not in evidence)."
+    },
+    {
+      "id": "the-man-i-love",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label",
+        "prose"
+      ],
+      "isGap": true,
+      "gapDims": [
+        "field:label"
+      ],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "AVM Music",
+          "evidence": "Dreyfus Jazz",
+          "evidenceQuote": "\"name\": \"Dreyfus Jazz\", \"catalogNumber\": \"FDM 36723-2\"",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "The Man I Love (2007) captures Billie Holiday",
+          "problem": "albumDNA states the year as 2007, but ours.year and the MB embedded_mbid release both date this compilation to 2002 (2002-04-09).",
+          "evidenceQuote": "\"date\": \"2002-04-09\"",
+          "source": "mb"
+        }
+      ],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Right entity: MB embedded_mbid confirms title 'The Man I Love', artist Billie Holiday, 2002-04-09, secondaryType Compilation; all 6 keyTracks match the MB tracklist (incl. the propagated typo 'As Yime Goes By', which matches MB verbatim), and DNA-named 'God Bless the Child'/'Fine and Mellow' are present. Two contradictions: (1) label - ours 'AVM Music' vs MB-authoritative 'Dreyfus Jazz' (FDM 36723-2); (2) albumDNA's parenthetical year '(2007)' contradicts the year field 2002 and MB date 2002-04-09. The stored wiki page is 'The Man I Love (album)' = a 1957 Peggy Lee album (different entity) - discarded. ours.wikipediaUrl is null."
+    },
+    {
+      "id": "the-oscar-peterson-trio-at-newport",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Columbia",
+          "evidence": "Verve",
+          "evidenceQuote": "labels: [{ name: \"Verve\", catalogNumber: \"UMV-2618\" }]",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "MB embedded_mbid (authoritative): title 'The Oscar Peterson Trio at Newport', 1958, credited to The Oscar Peterson Trio / Roy Eldridge / Sonny Stitt / Jo Jones, label Verve (UMV-2618). Right entity, all 5 keyTracks present in MB tracklist. The structured label field is wrong: ours.label = 'Columbia' but MB shows Verve — and the albumDNA prose itself correctly says 'live album on Verve', so the 'Columbia' field contradicts both MB and the entry's own text. ours.artist is 'Roy Eldridge' (a featured sideman) which is a cataloging choice, not an entity error. Wiki stored was the different 1975 'Oscar Peterson and Roy Eldridge' studio album (wrong album) but ours.wikipediaUrl is null; discarded. Repair: set label to Verve."
+    },
+    {
+      "id": "the-sermon-jimmy-smith",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Blue Note",
+          "evidenceQuote": "labels: [{name: Blue Note, catalogNumber: BLP 4011}] (MB release a515abf5; Wikipedia: \"released on Blue Note in 1959\")",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "albumDNA is fully correct and entity-matches: recorded Aug 25 1957 & Feb 25 1958, released Blue Note 1959, three tracks The Sermon/J.O.S./Flamingo (Wikipedia confirms verbatim; MB tracklist matches; keyTracks all match). Only the label field still ships 'Various' where MB/Wiki authoritatively give Blue Note. The year field 1987 disagrees with the matched MB release (1959) and the DNA's own '1959'; treated as an unverifiable later-reissue date (no evidence shows a 1987 issue, but reissues plausibly exist), not flagged as factual_error per the 'absence is not contradiction' rule."
+    },
+    {
+      "id": "undercurrent-bill-evans",
+      "verdict": "factual_error",
+      "raised": [
+        "field:label"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Not Now Music (MB resolved); original United Artists per Wikipedia",
+          "evidenceQuote": "The album was originally released on United Artists, then reissued by Solid State in 1968. Later, the album was reissued on the Blue Note label",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Entity correct: MB (embedded_mbid) and opensearch Wikipedia both = the Bill Evans / Jim Hall duo 'Undercurrent'. All albumDNA claims verify against Wikipedia: 1962 album by pianist Bill Evans and guitarist Jim Hall, recorded spring 1962, opens with an up-tempo 'My Funny Valentine', Hall's 'Romain', John Lewis's 'Skating in Central Park'. All six keyTracks match MB. Remaining contradiction is label='Various' -- the album's real label is United Artists/Blue Note (Wikipedia), and the MB-resolved release is a 2013 'Not Now Music' compilation; neither is 'Various'. year=2013 equals the MB compilation release date, so it is left unflagged, though albumDNA correctly identifies it as a 1962 album."
+    },
+    {
+      "id": "waltz-for-debby",
+      "verdict": "factual_error",
+      "raised": [
+        "field:year",
+        "prose"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [
+        {
+          "field": "year",
+          "ours": "1961",
+          "evidence": "1962",
+          "evidenceQuote": "Waltz for Debby (1962 album), album by Bill Evans",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Waltz for Debby is a 1961 live album credited to the Bill Evans Trio",
+          "problem": "Release year is 1962, not 1961; ours states (and the year field is) 1961. Recorded live at the Village Vanguard in June 1961 but issued in 1962.",
+          "evidenceQuote": "Waltz for Debby (1962 album), album by Bill Evans",
+          "source": "wiki"
+        }
+      ],
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "keyTracksUnmatched": [],
+      "notes": "Right entity (Bill Evans Trio / Riverside RLP-9399 / live, all confirmed by MB; catalog number and Live secondaryType match). Year is the sole error: ours=1961 but MB release date=1962, MB releaseGroup firstReleaseDate=1962, and the wiki disambiguation page explicitly lists 'Waltz for Debby (1962 album), album by Bill Evans.' Three converging signals -> factual_error on year. (The 1961 recording date is real, which likely caused the slip.) All four keyTracks match MB tracklist. ours.wikipediaUrl is null (the searched stored_url is a disambiguation page, not an album page), so none_stored."
+    },
+    {
+      "id": "we-insist-freedom-now-suite-max-roach",
+      "verdict": "factual_error",
+      "raised": [
+        "keytracks",
+        "prose"
+      ],
+      "isGap": false,
+      "gapDims": [],
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Oh Yeah, Oh Yeah (keyTrack)",
+          "problem": "track is not on the album; the suite has only five tracks",
+          "evidenceQuote": "Only 5 tracks (the suite), not the 6 in ours.keyTracks; 'Oh Yeah, Oh Yeah' is not on this album.",
+          "source": "wiki"
+        }
+      ],
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "mismatch",
+      "keyTracksUnmatched": [
+        "Oh Yeah, Oh Yeah"
+      ],
+      "notes": "Entity correct: websearch (resolved=true) confirms drummer/composer Max Roach, 'Max Roach's Freedom Now Suite', recorded Aug 31 & Sep 6 1960, released January 1961 on Candid, produced by Nat Hentoff, Abbey Lincoln vocals. year=1961 and label='Candid' verify (earlier 2011/'Various' repaired). Five keyTracks match. The sixth keyTrack 'Oh Yeah, Oh Yeah' is NOT on the album (websearch note explicit) -> factual_error. Two albumDNA claims are unverifiable (not contradicted) against the packet: 'lyricist Oscar Brown Jr.' and 'added to the U.S. National Recording Registry in 2022' are not in the websearch note. ours.wikipediaUrl matches the confirmed wiki page."
+    },
+    {
+      "id": "world-saxophone-quartet",
+      "verdict": "factual_error",
+      "raised": [
+        "field:birthYear"
+      ],
+      "isGap": true,
+      "gapDims": [
+        "field:instruments"
+      ],
+      "fieldIssues": [
+        {
+          "field": "birthYear",
+          "ours": "1976",
+          "evidence": "1977",
+          "evidenceQuote": "The World Saxophone Quartet was an American jazz ensemble founded in 1977",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [],
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "n/a",
+      "keyTracksUnmatched": [],
+      "notes": "Right entity (Wikipedia stored_url matches: original members Julius Hemphill, Oliver Lake, Hamiet Bluiett, David Murray; saxophone quartet, no rhythm section). birthYear FIELD = 1976 contradicts evidence 'founded in 1977' (the bio prose itself correctly says 'Founded in 1977', so field is internally inconsistent and wrong). The 'Revue' album reference is unverifiable (no discography/tracklist in evidence) but not flaggable. Repair: set birthYear to 1977."
+    }
+  ]
+}

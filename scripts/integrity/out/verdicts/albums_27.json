@@ -1,0 +1,301 @@
+[
+ {
+  "id": "blues-for-new-orleans",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title/date(2006-12-19)/label(Philology)/artist(Phil Woods, w/ Irio De Paula). All 5 keyTracks present in MB tracklist. albumDNA calls Woods 'clarinetist' which is unusual framing (he is primarily an alto saxophonist) but Wikipedia confirms he was also a clarinetist, so not a factual error. Editorial phrasing only otherwise."
+ },
+ {
+  "id": "congo-square",
+  "verdict": "entity_mismatch",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "A Tale of God's Will (A Requiem for Katrina) is a studio album recorded in 2007 by the Terence Blanchard Quintet. The album was originally released on August 14, 2007 (2007-08-14) by Blue Note Records.", "problem": "The item is the album 'Congo Square' (our year 2006), but the entire albumDNA describes a DIFFERENT Blanchard album, 'A Tale of God's Will (A Requiem for Katrina)' (2007). Same artist, wrong album.", "evidenceQuote": "A Tale of God's Will (A Requiem for Katrina) is a studio album recorded in 2007 by the Terence Blanchard Quintet. The album was originally released on August 14, 2007 (2007-08-14) by Blue Note Records.", "source": "wiki"}
+  ],
+  "notes": "Prose is wholly about 'A Tale of God's Will', not 'Congo Square'. stored_url also points to the A Tale of God's Will page (wrong album, same artist). MB search returned no release/candidates, so no tracklist to verify keyTracks for our album; the keyTracks list looks mixed ('Levees' and 'The Water' are A Tale of God's Will tracks per the wiki; 'Congo Square'/'Ghost of Congo Square' may belong to the actual Congo Square album). Repair writer must source genuine Congo Square (2004/2005, Blue Note) content."
+ },
+ {
+  "id": "el-viaje",
+  "verdict": "clean",
+  "confidence": 0.82,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title/date(2006)/label(intuition); Bill Frisell is a credited artist (lead credit is Gabriela). All 5 keyTracks match MB tracklist. albumDNA is generic boilerplate lifted from the 'Bill Frisell discography' Wikipedia page (which is about our artist) and makes no specific false claim about this album; checkable fields (label, year, tracks) all consistent. Wiki link is the discography page, about our entity."
+ },
+ {
+  "id": "malphas-book-of-angels-volume-3",
+  "verdict": "entity_mismatch",
+  "confidence": 0.88,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Labariel"],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Orobas: Book of Angels Volume 4 is an album by Koby Israelite performing compositions from John Zorn's second Masada book, \"The Book of Angels\".", "problem": "The item is 'Malphas: Book of Angels, Volume 3' (performed by Mark Feldman & Sylvie Courvoisier per MB), but the albumDNA describes a DIFFERENT volume, 'Orobas: Book of Angels Volume 4' by Koby Israelite. Wrong album in the series.", "evidenceQuote": "Orobas: Book of Angels Volume 4 is an album by Koby Israelite performing compositions from John Zorn's second Masada book, \"The Book of Angels\".", "source": "wiki"}
+  ],
+  "notes": "MB embedded_mbid confirms OUR album is Malphas Vol 3 (Tzadik, 2006-01-24, performers Mark Feldman & Sylvie Courvoisier; Zorn is composer). But the albumDNA and the stored_url are both about Orobas Vol 4 (Koby Israelite) - a different release. keyTracks Azriel/Basus/Rigal/Kafziel match MB; 'Labariel' does not match (MB has 'Lahariel' - almost certainly a one-letter typo). Note: our artist field 'John Zorn' is the composer, not the performing artist MB lists, but that is conventional for the Book of Angels series and not the basis for this verdict; the verdict is driven by the swapped prose."
+ },
+ {
+  "id": "nothing-serious",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid and Wikipedia both confirm: studio album by trumpeter Roy Hargrove, released 2006-05-02 by Verve. All 5 keyTracks match MB tracklist. albumDNA matches the wiki lead verbatim, including the simultaneous-with-Distractions detail. Fully consistent."
+ },
+ {
+  "id": "pimp-of-the-year",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title/date(2006-03-08)/label(Victor)/artist(SOIL&\"PIMP\"SESSIONS). All 5 keyTracks match MB tracklist. albumDNA is band-bio text (formed Tokyo 2001, 'death jazz') from the band's Wikipedia page rather than album-specific, but contains no contradiction; wiki also states 'Pimp of the Year, was released in spring 2006'. Wiki link is the band page (our entity)."
+ },
+ {
+  "id": "raw-materials",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid and Wikipedia both confirm: studio album by Vijay Iyer & Rudresh Mahanthappa, released 2006-05-23 via Savoy. All 5 keyTracks match MB tracklist. albumDNA matches the wiki lead. Fully consistent."
+ },
+ {
+  "id": "sangam",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title/date(2006)/label(ECM Records; our 'ECM' is the same)/artist(Charles Lloyd). Wikipedia confirms live album recorded Santa Barbara 2004-05-23, released ECM April 2006, trio with Zakir Hussain and Eric Harland. All 5 keyTracks match MB tracklist. albumDNA matches wiki lead verbatim."
+ },
+ {
+  "id": "the-library-of-congress-recordings-by-alan-lomax",
+  "verdict": "entity_mismatch",
+  "confidence": 0.65,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Jelly Roll Morton: The Complete Library of Congress Recordings is a 2005 box set of recordings from jazz pioneer Jelly Roll Morton. The set spans 128 tracks over eight CDs. It won two Grammy Awards in 2006, Best Historical Album and Best Album Notes.", "problem": "Our album is the single-disc 'The Library of Congress Recordings by Alan Lomax' (Rounder, 2006 per MB), but the albumDNA describes the 8-CD/128-track box set 'The Complete Library of Congress Recordings' (2005) and assigns that box set's Grammys. Same artist and source recordings, but a different release.", "evidenceQuote": "In 2007, Rounder released Jelly Roll Morton: The Library of Congress Recordings by Alan Lomax, a single disc consisting of selected highlights from the box set.", "source": "wiki"}
+  ],
+  "notes": "Borderline but graded entity_mismatch: the prose's hard facts (8 CDs, 128 tracks, 2005, two 2006 Grammys) belong to the COMPLETE box set, a distinct release (distinct MBID/wiki page) from our single-disc highlights album. MB (search, similarity 1.0) confirms OUR release as 'The Library of Congress Recordings by Alan Lomax' (Rounder), and all 5 keyTracks match its tracklist. The stored_url points to the box set's page, not our single-disc release (hence wrong_entity). Repair writer: keep the Jelly Roll Morton/Library of Congress identity, but rewrite to describe the single-disc highlights release, not the box set."
+ },
+ {
+  "id": "to-bi-or-not-to-bi",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid releaseGroup title is 'To Bi or Not to Bi' (2006-11-01, Dreyfus Jazz, Bireli Lagrene) and its tracklist matches our content (incl. 'Place du tertre', 'Good Life', and all keyTracks: Sur la croisette, R & Bi, the Queen medley, Sous les pommiers, Capucines; our 'London (Soli live)' matches MB 'London (soli love)' modulo case/typo). The release-record title field oddly reads 'WDR Big Band - Solo' which looks like a MusicBrainz data slip, since the release-group and tracklist are unambiguously To Bi or Not to Bi. Wikipedia (Bireli Lagrene artist page) confirms 'To Bi or Not to Bi (Dreyfus, 2006)' and that he is a guitarist. Consistent."
+ },
+ {
+  "id": "bossa-nova-67",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (search, similarity 0.78) confirms title 'Bossa Nova '67' (2007-11-06) by Sadao Watanabe Quintet; all 5 keyTracks match the MB tracklist. Wikipedia confirms Watanabe is an alto saxophonist known for bossa nova. Year 2007 matches; label 'Unknown' is not contradicted (MB lists no label). The albumDNA descriptor 'draws from the hard bop tradition' is an odd genre framing for a bossa-nova covers set, but it is editorial opinion, not a checkable factual claim, so not flagged."
+ },
+ {
+  "id": "mondo-trio",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (search, similarity 1.0) confirms 'Mondo Trio' (2007, US) by Jeff Babko / Jeff Coffin / Vinnie Colaiuta; our artist Vinnie Colaiuta is a credited member. All 5 keyTracks match MB tracklist; year matches. No wikipediaUrl stored and opensearch found no page, so no wiki evidence; 'jazz fusion' is editorial. No contradictions."
+ },
+ {
+  "id": "river-the-joni-letters",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid and Wikipedia both confirm: Herbie Hancock's 'River: The Joni Letters', Verve, 2007, a Joni Mitchell tribute. All 5 keyTracks match MB tracklist. albumDNA matches the wiki lead (the 'fortieth studio album' / Sept 25 2007 detail is from the wiki). Consistent."
+ },
+ {
+  "id": "ruff-draft",
+  "verdict": "unverifiable",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms the entity: 'Ruff Draft' (2007-03-20, Stones Throw Records, J Dilla), and all 5 keyTracks match the MB tracklist. No wiki evidence (none stored; opensearch empty). The albumDNA's substantive historical/commercial claims cannot be checked against the available evidence: the 2003 EP origin, Mummy Records label, Groove Attack distribution, and the '8,049 copies in its first week / largest first-week solo sales' figure are not in MB (which carries only the 2007 release) and there is no wiki page. No contradictions found, but these uncheckable specifics make it unverifiable rather than clean."
+ },
+ {
+  "id": "standards",
+  "verdict": "entity_mismatch",
+  "confidence": 0.88,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Ballads is a solo studio album by English guitarist Derek Bailey. It was released on 23 April 2002, through Tzadik.", "problem": "The item is Derek Bailey's 'Standards' (2007, Tzadik per MB), but the albumDNA describes a DIFFERENT Bailey album, 'Ballads' (2002, Tzadik). Same artist and label, wrong album.", "evidenceQuote": "Ballads is a solo studio album by English guitarist Derek Bailey. It was released on 23 April 2002, through Tzadik.", "source": "wiki"}
+  ],
+  "notes": "MB embedded_mbid confirms OUR album is 'Standards' (Tzadik, 2007-06-26, Derek Bailey), and all 5 keyTracks match its tracklist. But the albumDNA and the stored_url are both about 'Ballads' (2002) - a different Bailey/Tzadik album. Repair writer: keep Derek Bailey/Standards/Tzadik 2007 identity; rewrite prose to describe Standards, not Ballads."
+ },
+ {
+  "id": "the-man-i-love",
+  "verdict": "factual_error",
+  "confidence": 0.78,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "AVM Music", "evidence": "Dreyfus Jazz", "evidenceQuote": "Dreyfus Jazz", "source": "mb"},
+   {"field": "year", "ours": "2007", "evidence": "2002-04-09", "evidenceQuote": "2002-04-09", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "Right entity: MB embedded_mbid resolves to a Billie Holiday compilation titled 'The Man I Love' whose 22-track listing matches our keyTracks exactly (incl. the shared typos 'As Yime Goes By', 'You Can't Loose a Broken Heart'), and the albumDNA's named tracks ('God Bless the Child', 'Fine and Mellow') are both on it. Per the spec, the embedded MBID is authoritative for date and label, and it gives date 2002-04-09 and label Dreyfus Jazz, which contradict our year 2007 and label 'AVM Music' -> factual_error. (Plausibly a 2007 AVM reissue of the same comp, but the resolved release does not support those values; flag for repair.) The stored wiki link 'The Man I Love (album)' resolves to a 1957 PEGGY LEE album - wrong entity - so it is discarded for fact-checking and recorded as wrong_entity; the albumDNA is NOT drawn from that Peggy Lee page."
+ },
+ {
+  "id": "early-songs",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (search, similarity 1.0) confirms 'Early Songs' (2008-09-12, Criss Cross Jazz, Lage Lund); all 5 keyTracks match the MB tracklist; year and label match. No wiki stored/found (opensearch empty). 'Guitarist' and 'contemporary jazz' are uncheckable/editorial but not contradicted; entity is strongly confirmed and nothing substantive is unverifiable, so clean."
+ },
+ {
+  "id": "esperanza",
+  "verdict": "clean",
+  "confidence": 0.82,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (search, similarity 1.0) confirms 'Esperanza' (2008, Heads Up International, Esperanza Spalding); Wikipedia (correct album page) confirms it is her second studio album, released May 20, 2008, by Heads Up International. keyTracks Ponta de Areia/Mela/I Know You Know all match; 'Espera' matches MB 'Espera (Album version)'. The closing line 'would go on to win the Grammy for Best New Artist over Justin Bieber' is not in the wiki extract (which only notes a 2011 Grammy win) and is unverifiable from the evidence, but it is peripheral editorial color and the album's identity is unambiguously confirmed, so clean."
+ },
+ {
+  "id": "fats-waller-thru-the-30s",
+  "verdict": "clean",
+  "confidence": 0.82,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (search, similarity 1.0) release-group title is 'Fats Waller - Thru the 30's' (2008-09-19, Smith & Co. Sound & Vision B.V., Fats Waller, secondaryType Compilation), matching our title/year/label; all 5 keyTracks match the MB tracklist. The matched release record is titled '...Thru the 30's Volume 2', i.e. MB resolved to the Vol. 2 release within the matching release-group; our title omits 'Volume 2'. Compilation status is consistent with an early-jazz reissue, so no anachronism flag. No wiki stored/found. No contradictions."
+ },
+ {
+  "id": "jacos-first-band",
+  "verdict": "clean",
+  "confidence": 0.88,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms \"Jaco's First Band\" (2008, Holiday Park Records, Jaco Pastorius); all 5 keyTracks match the MB tracklist; year and label match. No wikipediaUrl stored and opensearch found no page; 'jazz fusion' is editorial. No contradictions."
+ },
+ {
+  "id": "light-of-the-world",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms 'Light of the World' (2008, [no label], Kamasi Washington); Wikipedia (correct album page) confirms it is his second studio album, dedicated to Roland Edwards Jr, released independently in 2008, his last underground album before The Epic (2015). All 5 keyTracks match MB tracklist. albumDNA matches the wiki lead. Consistent."
+ },
+ {
+  "id": "6",
+  "verdict": "clean",
+  "confidence": 0.93,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid and Wikipedia both confirm: '6' is the sixth studio album by Soil & \"Pimp\" Sessions (Japan), released 2009-09-16 (Victor). All 5 keyTracks match the MB tracklist. albumDNA matches the wiki lead. Consistent."
+ },
+ {
+  "id": "blending-times",
+  "verdict": "clean",
+  "confidence": 0.88,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms 'Blending Times' (2009-01-13, Savoy Jazz, Ravi Coltrane); Wikipedia (correct album page) confirms it is 'Ravi Coltrane's fifth album as a band leader, and second for Savoy Records'. All 5 keyTracks match the MB tracklist. The trailing sentence about RKM Music co-ownership and producing for Perdomo/Gilmore/Alessi is Ravi-Coltrane biographical color not in this wiki extract, but it is not contradicted (Perdomo and Alessi do appear in the album credits) and is peripheral, so clean."
+ },
+ {
+  "id": "infernal-machines",
+  "verdict": "unverifiable",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "unsure", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Only weak MB evidence: method 'search' with no confident release, just one searchCandidate titled 'Infernal Machines' (score 100) by 'Darcy James Argue's Secret Society', firstReleaseDate 2009-05-12. That candidate entity-matches our album (title + the ensemble led by our artist Darcy James Argue), so the identity is very likely right, but with no resolved release there is no tracklist to verify keyTracks (Phobos/Habeas Corpus/Transit/Zeno) -> keyTracksVerdict no_evidence, and no label/date detail to check. The albumDNA is almost entirely editorial ('big band for the 21st century', 'steampunk-inflected noir'); the one factual-ish claim, an '18-piece ensemble', is uncheckable against the available evidence. No contradictions, but nothing substantive is verifiable against confident evidence -> unverifiable. No wiki stored/found."
+ }
+]

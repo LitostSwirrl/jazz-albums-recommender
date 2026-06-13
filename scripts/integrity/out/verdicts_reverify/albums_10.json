@@ -1,0 +1,143 @@
+[
+ {
+  "id": "dexter-calling-dexter-gordon",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid release: Dexter Calling…, 1987, Blue Note, Dexter Gordon; release-group firstReleaseDate 1961-05-09. ours year 1987 matches MB release date; DNA 'First released in 1961 on Blue Note' matches release-group date; label Blue Note matches. All five DNA tracks and all six keyTracks (Soul Sister, Modal Mood, I Want More, End of a Love Affair, Clear the Dex, Ernie's Tune) appear in MB tracklist. 'bebop tradition' is editorial."
+ },
+ {
+  "id": "the-gigolo-lee-morgan",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid (The Gigolo, 2006 reissue, Blue Note, Lee Morgan) and Wikipedia ('1968 studio album by Lee Morgan') both entity-match. ours year 2006 = MB release date. DNA claims (recorded June 25 & July 1, 1965; released Blue Note 1968; quintet Wayne Shorter/Harold Mabern/Bob Cranshaw/Billy Higgins; tracks Speedball, Trapped, title cut) all confirmed verbatim by Wikipedia extract. All six keyTracks match MB tracklist exactly."
+ },
+ {
+  "id": "destination-out-jackie-mclean",
+  "verdict": "unverifiable",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "2014", "evidence": "1964-10", "evidenceQuote": "\"date\": \"1964-10\"", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 1.0): Destination… Out!, 1964-10, Blue Note, Jackie McLean. Right entity. DNA 'Recorded in 1964' matches MB; label Blue Note matches; all four keyTracks (Love and Hate, Esoteric, Kahlil the Prophet, Riff Raff) match MB tracklist exactly. The catalogued year field 2014 is not in evidence (MB shows the 1964 original); it is a presumed reissue year that cannot be confirmed but is not contradicted -> unverifiable. 'finest expressions of Bebop' is editorial genre framing, not flagged."
+ },
+ {
+  "id": "savoy-sessions-charlie-parker",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "unsure", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "title", "ours": "Savoy Sessions", "evidence": "Complete Savoy Sessions", "evidenceQuote": "\"title\": \"Complete Savoy Sessions\"", "source": "mb"},
+   {"field": "year", "ours": "2016", "evidence": "2004", "evidenceQuote": "\"date\": \"2004\"", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 1.0) matched 'Complete Savoy Sessions' (2004, Definitive Records, Charlie Parker, Compilation). Same artist and same label (Definitive Records) as ours; overlapping tracklist -> same/related compilation, but title and year differ from the matched release. DNA is pure editorial with no checkable specific facts beyond the entity. keyTracks: ours uses (alternate take 1/2)/(master take) suffixes vs MB (take 1/2/3); ignoring take-style suffixes, base titles Tiny's Tempo, I'll Always Love You Just the Same, Romance Without Finance all appear in MB -> ok. Year 2016 cannot be confirmed (MB shows 2004); title differs; treated as unverifiable, not contradicted."
+ },
+ {
+  "id": "dizzy-atmosphere-dizzy-gillespie",
+  "verdict": "unverifiable",
+  "confidence": 0.72,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 1.0): Dizzy Atmosphere, Dizzy Gillespie, Compilation, label Flashback Home Entertainment, no date. ours keyTracks (Hot House, Groovin' High, Dizzy Atmosphere, All the Things You Are, I Can't Get Started, Blue n' Boogie) ALL appear in this MB compilation tracklist -> ours describes the MB Gillespie bebop compilation. The Wikipedia 'Dizzy Atmosphere (album)' page is a DIFFERENT album (1957 Specialty LP led by members of Gillespie's orchestra incl. Lee Morgan, arr. Roger Spotts) -- not our entity; wikipedia entityMatch=no (no URL stored, so no shipped wrong link). DNA 'Recorded in 1997' is suspicious for a compilation of 1940s-era recordings, but MB release date is empty and gives no recording date to contradict it verbatim -> unverifiable, not factual_error. Year field 1997 also unconfirmable (MB has no date). Recording-year claim should be reviewed."
+ },
+ {
+  "id": "it-could-happen-to-you-chet-baker",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 1.0): It Could Happen to You: Chet Baker Sings, 1958, Riverside. Wikipedia '(Chet Baker Sings) It Could Happen to You', 1958, Chet Baker. Both entity-match. DNA 'Released in 1958 and reissued on CD in 2010' confirmed by Wikipedia ('In 2010, it was remastered and reissued on CD by Original Jazz Classics'); ours year 2010 confirmed by this reissue. Label Riverside matches MB. All six keyTracks match MB tracklist and the Wikipedia 2010 reissue tracklist. 'Cool Jazz' is editorial."
+ },
+ {
+  "id": "reunion-with-chet-baker-gerry-mulligan",
+  "verdict": "clean",
+  "confidence": 0.93,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: Reunion With Chet Baker, 2018-10-17, Pacific Jazz, credited 'Gerry Mulligan Quartet' (ours 'Gerry Mulligan' -- same entity, leader credit), release-group firstReleaseDate 1988. ours year 2018 = MB release date; label Pacific Jazz matches. DNA is editorial only. All six keyTracks (Reunion, When Your Lover Has Gone, Stardust, My Heart Belongs to Daddy, Jersey Bounce, The Surrey With the Fringe on Top) match MB tracklist exactly."
+ },
+ {
+  "id": "smack-up-art-pepper",
+  "verdict": "unverifiable",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search returned no confident release, only a search candidate: 'Smack Up', Art Pepper Quintet, firstReleaseDate 1960-10-24, Album (no tracklist). This candidate entity-matches and confirms the DNA claims 'Art Pepper Quintet' and 'first released in October 1960'. No tracklist evidence, so keyTracks (Smack Up, Las Cuevas de Mario, A Bit of Basie, How Can You Lose, Maybe Next Year, Tears Inside) and the DNA track list cannot be checked -> keyTracksVerdict no_evidence. Year field 1991 and label 'Various' (placeholder) cannot be confirmed. No contradictions -> unverifiable."
+ },
+ {
+  "id": "motion-lee-konitz",
+  "verdict": "clean",
+  "confidence": 0.93,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: Motion, 1998, Verve, Lee Konitz. Wikipedia 'Motion (Lee Konitz album)', 1961, recorded 1961 for Verve, notes the 1998 release expanded to 38 tracks. Both entity-match. ours year 1998 = MB release date; DNA 'Recorded in 1961' confirmed by Wikipedia; label Verve matches. All six keyTracks appear in the MB 1998 expanded tracklist (first five are the original five standards per Wikipedia: I Remember You, All of Me, Foolin' Myself, You'd Be So Nice to Come Home To, I'll Remember April; 'You Don't Know What Love Is' is among the expanded MB tracks). 'Cool Jazz' is editorial."
+ },
+ {
+  "id": "the-awakening-ahmad-jamal",
+  "verdict": "unverifiable",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "1986", "evidence": "1970-07", "evidenceQuote": "\"firstReleaseDate\": \"1970-07\"", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "Wikipedia 'The Awakening (Ahmad Jamal album)' (1970, Impulse!, trio with Jamil Nasser and Frank Gant, recorded 1970) strongly entity-matches; MB search candidate ('The Awakening', The Ahmad Jamal Trio, 1970-07) corroborates. DNA reproduces the Wikipedia facts (trio with Jamil Nasser/Frank Gant, recorded 1970 for Impulse!) -- all confirmed; DNA tracks (The Awakening, Dolphin Dance, Stolen Moments) and all six keyTracks confirmed by the Wikipedia tracklist. Prose is correct and clearly the right entity. Only the catalogued year field 1986 is uncheckable (evidence shows the 1970 original; 1986 is a presumed reissue, not contradicted) -> unverifiable. Label 'Various' is a placeholder; the DNA correctly names Impulse!."
+ },
+ {
+  "id": "bumpin-wes-montgomery",
+  "verdict": "clean",
+  "confidence": 0.88,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "PolyGram Records, Inc. (MB 1997 reissue) / Verve (Wikipedia 1965 original)", "evidenceQuote": "\"name\": \"PolyGram Records, Inc.\"", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: Bumpin', 1997, PolyGram Records (reissue), Wes Montgomery, release-group firstReleaseDate 1965. Wikipedia 'Bumpin' (Wes Montgomery album)', 1965 (Verve original). Both entity-match. ours year 1997 = MB release date; DNA 'Released in 1965' confirmed by Wikipedia and release-group date. All six keyTracks match MB tracklist and Wikipedia exactly. Label field 'Various' is a non-specific placeholder (true labels: Verve 1965 / PolyGram 1997 reissue); it asserts no contradicting claim, recorded as a minor fieldIssue only. 'Cool Jazz' is editorial (Wikipedia describes it as Latin jazz, a genre opinion -- not flagged)."
+ }
+]

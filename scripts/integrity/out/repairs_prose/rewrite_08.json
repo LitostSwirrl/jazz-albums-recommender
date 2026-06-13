@@ -1,0 +1,219 @@
+[
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "motion-lee-konitz",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Recorded in 1998, Motion showcases Lee Konitz at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Motion remains a landmark of Cool Jazz, cementing Lee Konitz's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Recorded in 1961, Motion showcases Lee Konitz at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Motion remains a landmark of Cool Jazz, cementing Lee Konitz's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/4e5fcd7f-66af-45de-982a-0cc4b15aa6f6",
+      "https://en.wikipedia.org/wiki/Motion_(Lee_Konitz_album)"
+    ],
+    "evidenceUsed": "Wikipedia (entityMatch=yes) 'recorded in 1961 for Verve Records'; 1998 was the expanded reissue year. Corrected recording-year clause only.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "night-train-oscar-peterson",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Recorded in 2011, Night Train showcases Oscar Peterson at the height of their creative powers, offering one of the finest expressions of Bebop. Night Train remains a landmark of Bebop, cementing Oscar Peterson's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Recorded in 1963, Night Train showcases Oscar Peterson at the height of their creative powers, offering one of the finest expressions of Bebop. Night Train remains a landmark of Bebop, cementing Oscar Peterson's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/ceb28103-20f0-4124-a2f6-25df53b9b31e",
+      "https://en.wikipedia.org/wiki/Night_Train_(Oscar_Peterson_album)"
+    ],
+    "evidenceUsed": "Wikipedia (entityMatch=yes) 'released in 1963 by Verve Records' and MusicBrainz date 1963; 2011 was a CD-reissue year. Corrected recording-year clause only.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "nows-the-time-charlie-parker",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Recorded in 2020, Now's the Time showcases Charlie Parker at the height of their creative powers, offering one of the finest expressions of Bebop. Now's the Time remains a landmark of Bebop, cementing Charlie Parker's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Recorded in 2020, Now's the Time showcases Charlie Parker at the height of their creative powers, offering one of the finest expressions of Bebop. Now's the Time remains a landmark of Bebop, cementing Charlie Parker's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/dce6a0dd-5097-455d-bb52-59eb84adcda7"
+    ],
+    "evidenceUsed": "Flagged claim was the keyTracks (already corrected in the data field to match the MusicBrainz tracklist); the prose names no track, so no prose text contradicts the evidence. Wikipedia opensearch was the composition page (entityMatch=no), ignored.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "one-flight-up",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "One Flight Up is an album by American jazz saxophonist Dexter Gordon recorded on June 2, 1964, in Paris and released on Blue Note the following year. The session featured Donald Byrd on trumpet, pianist Kenny Drew, bassist Niels-Henning Ørsted Pedersen, and drummer Art Taylor.",
+    "after": "One Flight Up is an album by American jazz saxophonist Dexter Gordon recorded on June 2, 1964, in Paris and released on Blue Note in 1967. The session featured Donald Byrd on trumpet, pianist Kenny Drew, bassist Niels-Henning Ørsted Pedersen, and drummer Art Taylor.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/42feabb5-2f94-4377-ba96-b9cd3acc8d7f"
+    ],
+    "evidenceUsed": "MusicBrainz release-group firstReleaseDate 1967 (matches ours.year). Replaced the contradictory 'released ... the following year' (implied 1965) with 'released on Blue Note in 1967'; left the rest verbatim.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "open-sesame-freddie-hubbard",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Recorded in 2002, Open Sesame showcases Freddie Hubbard at the height of their creative powers, offering one of the finest expressions of Hard Bop. Open Sesame remains a landmark of Hard Bop, cementing Freddie Hubbard's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Recorded on June 19, 1960, Open Sesame showcases Freddie Hubbard at the height of their creative powers, offering one of the finest expressions of Hard Bop. Open Sesame remains a landmark of Hard Bop, cementing Freddie Hubbard's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/3e5f8b5e-13ad-40de-8127-93c3c23713ae",
+      "https://en.wikipedia.org/wiki/Open_Sesame_(Freddie_Hubbard_album)"
+    ],
+    "evidenceUsed": "Wikipedia (entityMatch=yes) 'recorded on June 19, 1960'; 2002 was a Blue Note reissue year. Corrected recording-date clause only.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "pdron-rubalcaba",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Pedrón/Rubalcaba is a collaborative album by Cuban pianist Gonzalo Rubalcaba and guitarist Jorge Pedrón. The duo combines Rubalcaba's virtuosic post-bop pianism with Pedrón's guitar work in an intimate chamber setting, drawing on Latin jazz, contemporary jazz, and classical influences. This GAZEBO date features \"The Song Is You\" as part of Gonzalo Rubalcaba's contemporary jazz output from 2023.",
+    "after": "Pédron Rubalcaba is a collaborative album by Cuban pianist Gonzalo Rubalcaba and Pierrick Pédron. The duo combines Rubalcaba's virtuosic post-bop pianism with Pédron's playing in an intimate chamber setting, drawing on Latin jazz, contemporary jazz, and classical influences. This GAZEBO date features \"The Song Is You\" as part of Gonzalo Rubalcaba's contemporary jazz output from 2023.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/d950b510-025b-4943-981d-cef3af15cddc",
+      "https://en.wikipedia.org/wiki/Gonzalo_Rubalcaba"
+    ],
+    "evidenceUsed": "MusicBrainz credits 'Pierrick Pédron' and the Rubalcaba Wikipedia discography (entityMatch=yes) lists 'Pédron Rubalcaba with Pierrick Pédron'. Replaced fabricated 'guitarist Jorge Pedrón' with the real co-leader and dropped the unverified 'guitar' instrument; aligned the title to ours.title.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "pimp-master",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Tokyo's most explosive jazz collective delivers a riotous debut of what they call 'death jazz'—a high-energy collision of hard bop, punk attitude, and club-music intensity. The sextet plays with reckless abandon while maintaining serious improvisational chops. Proved that jazz could compete with rock and electronic music for sheer visceral excitement. Their club-oriented approach brought young Japanese audiences back to jazz in unprecedented numbers.",
+    "after": "Tokyo's most explosive jazz collective delivers a riotous second studio album of what they call 'death jazz'—a high-energy collision of hard bop, punk attitude, and club-music intensity. The sextet plays with reckless abandon while maintaining serious improvisational chops. Proved that jazz could compete with rock and electronic music for sheer visceral excitement. Their club-oriented approach brought young Japanese audiences back to jazz in unprecedented numbers.",
+    "sourceUrl": [
+      "https://en.wikipedia.org/wiki/Pimp_Master"
+    ],
+    "evidenceUsed": "Wikipedia (entityMatch=yes) 'Pimp Master is the second studio album by ... Soil & \"Pimp\" Sessions'. Replaced 'debut' with 'second studio album'; left the rest verbatim. No MusicBrainz release in evidence.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "plays-and-plays-and-plays",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Brubeck Plays Brubeck is a jazz album by pianist Dave Brubeck. The cover features design by S. Neil Fujita. Features \"Sweet Cleo Brown\" and \"I’m Old Fashioned\" in a cool jazz context, highlighting Dave Brubeck's interpretive range.",
+    "after": "Plays and Plays and Plays is an album by pianist Dave Brubeck, released in 1992 on Original Jazz Classics. Features \"Sweet Cleo Brown\" and \"I’m Old Fashioned\" in a cool jazz context, highlighting Dave Brubeck's interpretive range.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/5241d778-53fb-4352-8ea3-fe5f1f360296"
+    ],
+    "evidenceUsed": "MusicBrainz (entityMatch=yes): title 'Plays and Plays and Plays', Dave Brubeck, 1992, Original Jazz Classics, tracklist includes Sweet Cleo Brown / I'm Old Fashioned. Discarded the lead sentence + S. Neil Fujita cover claim (lifted from the different 'Brubeck Plays Brubeck' wiki page, entityMatch=no); kept the correct track sentence verbatim.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "plenty-plenty-soul-milt-jackson",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Recorded in 2007, Plenty, Plenty Soul showcases Milt Jackson at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Plenty, Plenty Soul remains a landmark of Cool Jazz, cementing Milt Jackson's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Recorded in 1957, Plenty, Plenty Soul showcases Milt Jackson at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Plenty, Plenty Soul remains a landmark of Cool Jazz, cementing Milt Jackson's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/237f9952-4bf0-4104-b704-eb9f9bcda38f"
+    ],
+    "evidenceUsed": "MusicBrainz date and release-group firstReleaseDate 1957 (Atlantic); 2007 was a CD-reissue year. Corrected recording-year clause only.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "prayer-meetin",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Prayer Meetin' is an album by the American jazz organist Jimmy Smith, recorded in 1963 and released on the Blue Note label. The album was rereleased on CD with two bonus tracks from the same session.",
+    "after": "Prayer Meetin' is an album by the American jazz organist Jimmy Smith, recorded in 1963 and released on the Blue Note label. The album was rereleased on CD with two bonus tracks recorded at a separate session in 1960.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/a31a5bcf-2959-4531-b0ec-0ab8d6eb809c",
+      "https://en.wikipedia.org/wiki/Prayer_Meetin'"
+    ],
+    "evidenceUsed": "Wikipedia (entityMatch=yes) track-listing note: the two CD bonus tracks were recorded June 13, 1960, a different session from the 1963 album (corroborated by Sam Jones credited on tracks 7-8 only). Replaced 'from the same session' with 'recorded at a separate session in 1960'.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "reunion-with-chet-baker-gerry-mulligan",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Recorded in 2018, Reunion with Chet Baker showcases Gerry Mulligan at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Reunion with Chet Baker remains a landmark of Cool Jazz, cementing Gerry Mulligan's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Reunion with Chet Baker showcases Gerry Mulligan at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Reunion with Chet Baker remains a landmark of Cool Jazz, cementing Gerry Mulligan's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/1da66aea-4bac-4a4c-bca5-5d31db8a589a"
+    ],
+    "evidenceUsed": "MusicBrainz release-group firstReleaseDate 1988 (2018 is a Japanese CD reissue); the true recording year is not in evidence, so per spec the false 'Recorded in 2018' clause was dropped rather than replaced with a guessed year.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "rights-of-swing",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Rights of Swing is an album led by saxophonist Phil Woods featuring performances recorded in early 1961 and originally released on the Candid label. Captures clarinetist Phil Woods during the hard bop period, reconnecting jazz with blues and gospel while keeping bebop's sophistication.",
+    "after": "Rights of Swing is an album led by saxophonist Phil Woods featuring performances recorded in early 1961 and originally released on the Candid label. Captures alto saxophonist Phil Woods during the hard bop period, reconnecting jazz with blues and gospel while keeping bebop's sophistication.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/dc4949be-1e95-4da1-ab2e-c947b13060d2",
+      "https://en.wikipedia.org/wiki/Rights_of_Swing"
+    ],
+    "evidenceUsed": "Wikipedia (entityMatch=yes) personnel: 'Phil Woods - alto saxophone'; the lead also calls him a saxophonist. Replaced the wrong instrument 'clarinetist' with 'alto saxophonist'; left the rest verbatim.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "rising-son",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Japanese trumpeter Takuya Kuroda's Blue Note debut bridges jazz tradition with contemporary hip-hop and funk sensibilities. Produced by DJ Premier collaborator Jose James, the album grooves hard while showcasing Kuroda's warm, lyrical trumpet tone. Represented a new wave of young jazz musicians comfortable moving between straight-ahead playing and beat-driven production. Kuroda's success opened doors for more Japanese artists on major American jazz labels.",
+    "after": "Japanese trumpeter Takuya Kuroda's Blue Note debut bridges jazz tradition with contemporary hip-hop and funk sensibilities. Produced by DJ Premier collaborator Jose James, the album grooves hard while showcasing Kuroda's warm, lyrical trumpet tone. Represented a new wave of young jazz musicians comfortable moving between straight-ahead playing and beat-driven production. Kuroda's success opened doors for more Japanese artists on major American jazz labels.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/fa25e2bc-fb99-4362-b636-52ffe25fb6bd"
+    ],
+    "evidenceUsed": "Flagged claim was the keyTrack 'Tell Me a Bedtime Story' (already removed from the data field; remaining keyTracks match the MusicBrainz tracklist). The prose names no track, so no prose text contradicts the evidence. Wikipedia opensearch was the 'Rising Sun' disambiguation (entityMatch=no), ignored.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "round-about-midnight-at-the-cafe-bohemia-volume-i",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "On 'Round About Midnight at the Cafe Bohemia, Volume I, trumpeter Kenny Dorham leads a contemporary jazz session recorded for Blue Note in 1987. The set features \"Monaco\", \"'Round About Midnight\", and \"Mexico City\" among its selections. For this reason, writer Gary Giddins said that Dorham's name has become \"virtually synonymous with 'underrated'.\"",
+    "after": "On 'Round About Midnight at the Cafe Bohemia, Volume I, trumpeter Kenny Dorham leads a live session recorded for Blue Note in 1956. The set features \"Monaco\", \"'Round About Midnight\", and \"Mexico City\" among its selections. Writer Gary Giddins said that Dorham's name has become \"virtually synonymous with 'underrated'.\"",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/3154072b-bc74-4354-8a75-ad8751b6a9d8",
+      "https://en.wikipedia.org/wiki/Kenny_Dorham"
+    ],
+    "evidenceUsed": "Wikipedia Kenny Dorham page (entityMatch=yes): the Jazz Prophets 'recorded a live album, 'Round About Midnight at the Cafe Bohemia, in 1956 for Blue Note'; MusicBrainz release-group secondaryTypes=['Live']. 1987 was the CD-reissue year. Corrected '1987' to '1956' and 'contemporary jazz session' to 'live session'; trimmed dangling 'For this reason'.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "savoy-sessions-charlie-parker",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Recorded in 2016, Savoy Sessions showcases Charlie Parker at the height of their creative powers, offering one of the finest expressions of Bebop. Savoy Sessions remains a landmark of Bebop, cementing Charlie Parker's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Savoy Sessions showcases Charlie Parker at the height of their creative powers, offering one of the finest expressions of Bebop. Savoy Sessions remains a landmark of Bebop, cementing Charlie Parker's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/024604ff-91dc-43a1-802f-613b54508be5"
+    ],
+    "evidenceUsed": "MusicBrainz: 'Complete Savoy Sessions' is a Compilation, releaseGroup firstReleaseDate 2004; the underlying Savoy material is from the 1940s. The true recording year is not in evidence, so per spec the false 'Recorded in 2016' clause was dropped rather than replaced with a guessed year.",
+    "thinEvidence": false
+  }
+]

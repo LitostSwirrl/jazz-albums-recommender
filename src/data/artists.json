@@ -311,7 +311,8 @@
       "ballads-blues-bey",
       "pages-from-an-imaginary-life"
     ],
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Richard_Avedon.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Richard_Avedon.jpg",
+    "deathYear": 2025
   },
   {
     "id": "anthony-braxton",
@@ -1045,8 +1046,7 @@
     "name": "Branford Marsalis",
     "birthYear": 1960,
     "instruments": [
-      "composer",
-      "bandleader"
+      "saxophone"
     ],
     "eras": [
       "fusion",
@@ -2399,7 +2399,8 @@
       "superimposition",
       "palo-p-rumba"
     ],
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Eddie_Palmieri_2.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Eddie_Palmieri_2.jpg",
+    "deathYear": 2025
   },
   {
     "id": "egberto-gismonti",
@@ -2906,7 +2907,8 @@
       "some-other-stuff",
       "inner-cry-blues"
     ],
-    "imageUrl": "https://live.staticflickr.com/5603/15197442453_f7430e7e74_b.jpg"
+    "imageUrl": "https://live.staticflickr.com/5603/15197442453_f7430e7e74_b.jpg",
+    "deathYear": 2022
   },
   {
     "id": "grant-green",
@@ -3099,7 +3101,8 @@
       "a-msica-livre-de-hermeto-paschoal",
       "eu-e-eles"
     ],
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Hermeto_Pascoal.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Hermeto_Pascoal.jpg",
+    "deathYear": 2025
   },
   {
     "id": "horace-silver",
@@ -3322,7 +3325,7 @@
   {
     "id": "james-blood-ulmer",
     "name": "James Blood Ulmer",
-    "birthYear": 1942,
+    "birthYear": 1940,
     "instruments": [
       "guitar",
       "vocals"
@@ -3340,7 +3343,8 @@
       "black-and-blues",
       "harmolodic-guitar-with-strings"
     ],
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/JamesBloodUlmer08.JPG"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/JamesBloodUlmer08.JPG",
+    "deathYear": 2026
   },
   {
     "id": "james-carter",
@@ -3628,9 +3632,11 @@
     "id": "jiro-inagaki",
     "name": "Jiro Inagaki",
     "birthYear": 1933,
-    "deathYear": 2016,
+    "deathYear": 2024,
     "instruments": [
-      "saxophone"
+      "tenor saxophone",
+      "soprano saxophone",
+      "flute"
     ],
     "eras": [
       "fusion"
@@ -4480,6 +4486,7 @@
     "name": "Lester Young",
     "birthYear": 1909,
     "instruments": [
+      "tenor saxophone",
       "clarinet"
     ],
     "eras": [
@@ -4609,7 +4616,8 @@
     "keyAlbums": [
       "spirits-rejoice-moholo"
     ],
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Louis_Moholo_2.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Louis_Moholo_2.jpg",
+    "deathYear": 2025
   },
   {
     "id": "lovie-austin",
@@ -4702,7 +4710,9 @@
     "name": "Marcus Miller",
     "birthYear": 1959,
     "instruments": [
-      "trumpet"
+      "bass",
+      "clarinet",
+      "keyboards"
     ],
     "eras": [
       "fusion",
@@ -5025,7 +5035,7 @@
     "name": "Michael Brecker",
     "birthYear": 1949,
     "instruments": [
-      "composer"
+      "saxophone"
     ],
     "eras": [
       "free-jazz",
@@ -5141,7 +5151,7 @@
     "name": "Milt Jackson",
     "birthYear": 1923,
     "instruments": [
-      "musician"
+      "vibraphone"
     ],
     "eras": [
       "swing",
@@ -5680,11 +5690,12 @@
   {
     "id": "revolutionary-ensemble",
     "name": "Revolutionary Ensemble",
-    "birthYear": 1971,
+    "birthYear": 1970,
     "instruments": [
-      "violin",
+      "piano",
+      "drums",
       "bass",
-      "drums"
+      "violin"
     ],
     "eras": [
       "free-jazz"
@@ -5800,7 +5811,8 @@
       "you-send-me",
       "double-trouble"
     ],
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Roy_ayers_1976.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Roy_ayers_1976.jpg",
+    "deathYear": 2025
   },
   {
     "id": "roy-eldridge",
@@ -5919,7 +5931,8 @@
       "kosmos",
       "natures-revenge"
     ],
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Ryo_Kawasaki_performing_in_Croatia_Dec_15%2C_2018.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Ryo_Kawasaki_performing_in_Croatia_Dec_15%2C_2018.jpg",
+    "deathYear": 2020
   },
   {
     "id": "sadao-watanabe",
@@ -6179,7 +6192,8 @@
       "whats-new",
       "easy-living"
     ],
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sonny_Rollins_2011.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sonny_Rollins_2011.jpg",
+    "deathYear": 2026
   },
   {
     "id": "sonny-sharrock",
@@ -6899,7 +6913,7 @@
   {
     "id": "world-saxophone-quartet",
     "name": "World Saxophone Quartet",
-    "birthYear": 1976,
+    "birthYear": 1977,
     "instruments": [
       "alto saxophone",
       "tenor saxophone",
@@ -6946,7 +6960,7 @@
   {
     "id": "yuki-arimasa",
     "name": "Yuki Arimasa",
-    "birthYear": 1965,
+    "birthYear": 1961,
     "instruments": [
       "piano"
     ],
@@ -7079,8 +7093,11 @@
       "early-jazz"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Bessie_Smith_%281936%29_by_Carl_Van_Vechten.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "vocals"
+    ],
+    "birthYear": 1892,
+    "deathYear": 1937
   },
   {
     "id": "ma-rainey",
@@ -7092,8 +7109,11 @@
       "early-jazz"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/MaRainey.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "vocals"
+    ],
+    "birthYear": 1886,
+    "deathYear": 1939
   },
   {
     "id": "kid-ory",
@@ -7105,8 +7125,11 @@
       "early-jazz"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Kidory.png",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "trombone"
+    ],
+    "birthYear": 1886,
+    "deathYear": 1973
   },
   {
     "id": "albert-ammons",
@@ -7118,8 +7141,11 @@
       "early-jazz"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Ammons_and_Johnson.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "piano"
+    ],
+    "birthYear": 1907,
+    "deathYear": 1949
   },
   {
     "id": "ethel-waters",
@@ -7131,8 +7157,11 @@
       "early-jazz"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Ethel_Waters_Warnecke.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "vocals"
+    ],
+    "birthYear": 1896,
+    "deathYear": 1977
   },
   {
     "id": "glenn-miller",
@@ -7144,8 +7173,11 @@
       "swing"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Glenn_Miller_Billboard.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "trombone"
+    ],
+    "birthYear": 1904,
+    "deathYear": 1944
   },
   {
     "id": "artie-shaw",
@@ -7157,8 +7189,11 @@
       "swing"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Artie_Shaw_%28Gottlieb_07773%29.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "clarinet"
+    ],
+    "birthYear": 1910,
+    "deathYear": 2004
   },
   {
     "id": "lionel-hampton",
@@ -7170,8 +7205,12 @@
       "swing"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Lionel_Hampton_1948.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "vibraphone",
+      "drums"
+    ],
+    "birthYear": 1908,
+    "deathYear": 2002
   },
   {
     "id": "cab-calloway",
@@ -7183,8 +7222,11 @@
       "swing"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Cab_Calloway_Gottlieb.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "vocals"
+    ],
+    "birthYear": 1907,
+    "deathYear": 1994
   },
   {
     "id": "louis-jordan",
@@ -7196,8 +7238,12 @@
       "swing"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Louis_Jordan%2C_New_York%2C_N.Y.%2C_ca._July_1946_%28William_P._Gottlieb_04721%29.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "saxophone",
+      "vocals"
+    ],
+    "birthYear": 1908,
+    "deathYear": 1975
   },
   {
     "id": "tommy-dorsey",
@@ -7209,8 +7255,11 @@
       "swing"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Tommy_Dorsey%2C_WMCA%2C_New_York%2C_ca._Oct._1947_%28William_P._Gottlieb_02111%29.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "trombone"
+    ],
+    "birthYear": 1905,
+    "deathYear": 1956
   },
   {
     "id": "tadd-dameron",
@@ -7222,8 +7271,11 @@
       "bebop"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Tadd_Dameron%2C_ca._1946-1948.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "piano"
+    ],
+    "birthYear": 1917,
+    "deathYear": 1965
   },
   {
     "id": "paul-desmond",
@@ -7235,8 +7287,11 @@
       "cool-jazz"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Paul_Desmond_1962.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "alto saxophone"
+    ],
+    "birthYear": 1924,
+    "deathYear": 1977
   },
   {
     "id": "jimmy-giuffre",
@@ -7248,8 +7303,12 @@
       "cool-jazz"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c9/Jimmy_Giuffre.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "saxophone",
+      "clarinet"
+    ],
+    "birthYear": 1921,
+    "deathYear": 2008
   },
   {
     "id": "shorty-rogers",
@@ -7261,8 +7320,11 @@
       "cool-jazz"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4d/Shorty_Rogers.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "trumpet"
+    ],
+    "birthYear": 1924,
+    "deathYear": 1994
   },
   {
     "id": "shelly-manne",
@@ -7274,8 +7336,11 @@
       "cool-jazz"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Shelly_Manne_%28Gottlieb_05991%29.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "drums"
+    ],
+    "birthYear": 1920,
+    "deathYear": 1984
   },
   {
     "id": "modern-jazz-quartet",
@@ -7287,8 +7352,14 @@
       "cool-jazz"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Modern_Jazz_Quartet.png",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "piano",
+      "vibraphone",
+      "drums",
+      "bass"
+    ],
+    "birthYear": 1952,
+    "deathYear": 1997
   },
   {
     "id": "johnny-dodds",
@@ -7300,8 +7371,12 @@
       "early-jazz"
     ],
     "imageUrl": "",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "alto saxophone",
+      "clarinet"
+    ],
+    "birthYear": 1892,
+    "deathYear": 1940
   },
   {
     "id": "fats-navarro",
@@ -7313,8 +7388,11 @@
       "bebop"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Fats_Navarro_%28Gottlieb_06551%29.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "trumpet"
+    ],
+    "birthYear": 1923,
+    "deathYear": 1950
   },
   {
     "id": "wardell-gray",
@@ -7326,8 +7404,11 @@
       "bebop"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d8/Wardell_Gray.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "tenor saxophone"
+    ],
+    "birthYear": 1921,
+    "deathYear": 1955
   },
   {
     "id": "booker-ervin",
@@ -7339,8 +7420,11 @@
       "hard-bop"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f6/Booker_Ervin.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "tenor saxophone"
+    ],
+    "birthYear": 1930,
+    "deathYear": 1970
   },
   {
     "id": "red-garland",
@@ -7352,8 +7436,11 @@
       "bebop"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Red_Garland_9A.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "piano"
+    ],
+    "birthYear": 1923,
+    "deathYear": 1984
   },
   {
     "id": "tommy-flanagan",
@@ -7365,8 +7452,11 @@
       "bebop"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Tommy_Flanagan.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "piano"
+    ],
+    "birthYear": 1930,
+    "deathYear": 2001
   },
   {
     "id": "rahsaan-roland-kirk",
@@ -7378,8 +7468,12 @@
       "hard-bop"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Roland-Kirk.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "tenor saxophone",
+      "flute"
+    ],
+    "birthYear": 1935,
+    "deathYear": 1977
   },
   {
     "id": "oliver-nelson",
@@ -7391,8 +7485,12 @@
       "hard-bop"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/72/Oliver_Edward_Nelson.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "saxophone",
+      "clarinet"
+    ],
+    "birthYear": 1932,
+    "deathYear": 1975
   },
   {
     "id": "clifford-jordan",
@@ -7404,8 +7502,11 @@
       "hard-bop"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Clifford_Jordan.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "tenor saxophone"
+    ],
+    "birthYear": 1931,
+    "deathYear": 1993
   },
   {
     "id": "jazz-composers-orchestra",
@@ -7418,7 +7519,7 @@
     ],
     "imageUrl": "",
     "instruments": [],
-    "birthYear": 0
+    "birthYear": 1966
   },
   {
     "id": "tito-puente",
@@ -7430,8 +7531,12 @@
       "swing"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Tito_Puentes.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "vibraphone",
+      "timbales"
+    ],
+    "birthYear": 1923,
+    "deathYear": 2000
   },
   {
     "id": "george-shearing",
@@ -7443,8 +7548,11 @@
       "cool-jazz"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/George_Shearing_1959.JPG",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "piano"
+    ],
+    "birthYear": 1919,
+    "deathYear": 2011
   },
   {
     "id": "barney-kessel",
@@ -7456,8 +7564,11 @@
       "cool-jazz"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Barney_Kessel_2.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "guitar"
+    ],
+    "birthYear": 1923,
+    "deathYear": 2004
   },
   {
     "id": "bob-brookmeyer",
@@ -7469,8 +7580,12 @@
       "cool-jazz"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Bob_Brookmeyer.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "trombone",
+      "piano"
+    ],
+    "birthYear": 1929,
+    "deathYear": 2011
   },
   {
     "id": "james-moody",
@@ -7482,8 +7597,13 @@
       "bebop"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/JamesMoody.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "tenor saxophone",
+      "alto saxophone",
+      "flute"
+    ],
+    "birthYear": 1925,
+    "deathYear": 2010
   },
   {
     "id": "roy-haynes",
@@ -7495,8 +7615,11 @@
       "hard-bop"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Roy_Haynes_drummer_%28cropped%29.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "drums"
+    ],
+    "birthYear": 1925,
+    "deathYear": 2024
   },
   {
     "id": "kenny-drew",
@@ -7508,8 +7631,11 @@
       "bebop"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e0/Kenny_Drew.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "piano"
+    ],
+    "birthYear": 1928,
+    "deathYear": 1993
   },
   {
     "id": "thad-jones",
@@ -7521,8 +7647,11 @@
       "hard-bop"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/69/Thad_Jones.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "trumpet"
+    ],
+    "birthYear": 1923,
+    "deathYear": 1986
   },
   {
     "id": "benny-carter",
@@ -7534,8 +7663,13 @@
       "swing"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Benny_Carter.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "saxophone",
+      "trumpet",
+      "clarinet"
+    ],
+    "birthYear": 1907,
+    "deathYear": 2003
   },
   {
     "id": "woody-herman",
@@ -7547,8 +7681,13 @@
       "swing"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Woody_Herman_ca.1943.jpg",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "saxophone",
+      "clarinet",
+      "vocals"
+    ],
+    "birthYear": 1913,
+    "deathYear": 1987
   },
   {
     "id": "latin-jazz-quintet",
@@ -7573,8 +7712,11 @@
       "early-jazz"
     ],
     "imageUrl": "",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "piano"
+    ],
+    "birthYear": 1898,
+    "deathYear": 1965
   },
   {
     "id": "mamie-smith",
@@ -7586,7 +7728,10 @@
       "early-jazz"
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/MamieSmith.png",
-    "instruments": [],
-    "birthYear": 0
+    "instruments": [
+      "vocals"
+    ],
+    "birthYear": 1891,
+    "deathYear": 1946
   }
 ]

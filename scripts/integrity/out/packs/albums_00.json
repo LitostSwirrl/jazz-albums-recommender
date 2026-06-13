@@ -1,0 +1,1893 @@
+[
+ {
+  "id": "first-impressions",
+  "kind": "album",
+  "ours": {
+   "title": "First Impressions",
+   "artist": "Fletcher Henderson",
+   "year": 1921,
+   "label": "Black Swan",
+   "albumDNA": "First Impressions (1921) captures Fletcher Henderson exploring early jazz territory on the Black Swan label. The date includes \"Sing You Sinners\" and \"Hop Off\". The album comes from the formative years when jazz coalesced from ragtime, blues, and marching band traditions.",
+   "keyTracks": [
+    "Sing You Sinners",
+    "Hop Off",
+    "Fidgety Feet",
+    "Shanghai Shuffle",
+    "Blue Lou"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "6724d193-ef1b-42d8-87ae-dbca4a0a9cca",
+     "title": "First Impressions",
+     "date": "1921-12-17",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "Fletcher Henderson"
+     ],
+     "labels": [
+      {
+       "name": "Black Swan",
+       "catalogNumber": null
+      },
+      {
+       "name": "Universal Digital Enterprises",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "1c9b4351-c320-4b71-a384-592aae2f20eb",
+      "title": "First Impressions",
+      "firstReleaseDate": "1921-12-17",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Sing You Sinners",
+      "Hop Off",
+      "Fidgety Feet",
+      "Shanghai Shuffle",
+      "Blue Lou",
+      "Hocus Pocus",
+      "Riffin'",
+      "Christopher Columbus",
+      "Shoe Shine Boy",
+      "St Louis Shuffle",
+      "Whiteman Stomp",
+      "New King Porter Stomp",
+      "Sugar Foot Stomp",
+      "King Porter Stomp",
+      "What-Cha-Call-'Em Blues",
+      "Rocky Mountain Blues",
+      "Henderson Stomp",
+      "I'm a Fool for Lovin' You",
+      "Moten Stomp (Moten Swing)",
+      "Stockholm Stomp",
+      "Wang Wang Blues",
+      "Yeah Man!",
+      "Knock Knock Who's There?",
+      "Sing, Sing, Sing",
+      "Stampede",
+      "Come On, Baby!",
+      "Rhythm of the Tambourine",
+      "Stealin' Apples",
+      "I'm Coming Virginia",
+      "Big John's Special",
+      "Wrappin' It Up",
+      "Grand Terrace Rhythm",
+      "Singing the Blues",
+      "Moonrise on the Lowlands",
+      "Clarinet Marmalade",
+      "Hot And Anxious",
+      "Blazin'",
+      "Back in Your Own Backyard",
+      "Copenhagen"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "First Impressions (album)",
+     "resolvedTitle": "First Impressions (album)",
+     "shortDescription": "1974 compilation album by Olivia Newton-John",
+     "extract": "First Impressions is a compilation album by Australian singer Olivia Newton-John, released in 1974 on the EMI label. The collection presents the main hits of the singer, recorded from 1971 to 1974 – songs from the first four studio albums (including If You Love Me, Let Me Know, which was released in North America only). \nIn Japan, the album was released under the title Let Me Be There and the same cover as on the original album. In Australia and New Zealand, the album was released by Interfusion Records under the title Great Hits! First Impressions and with a modified tracklist (songs from the album Long Live Love were added).\n\n\n== Track listing ==\n\n\n== Charts ==\n\n\n== Certifications ==\n\n\n== References =="
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "First Impressions (album)",
+      "shortDescription": "1974 compilation album by Olivia Newton-John",
+      "extractHead": "First Impressions is a compilation album by Australian singer Olivia Newton-John, released in 1974 on the EMI label. The collection presents the main hits of the singer, recorded from 1971 to 1974 – songs from the first four studio albums (including If You Love Me, Let Me Know, which was released in North America only). \nIn Japan, the album was released under the title Let Me Be There and the same cover as on the original album. In Australia and New Zealand, the album was released by Interfusion"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "hot-fives-sevens",
+  "kind": "album",
+  "ours": {
+   "title": "Hot Fives & Sevens",
+   "artist": "Louis Armstrong",
+   "year": 1925,
+   "label": "Okeh",
+   "albumDNA": "Hot Fives & Sevens is a 2000 box set collection of recordings made by American jazz trumpeter and singer Louis Armstrong with his Hot Five, Hot Seven, and other groups between 1925 and 1930. First released on JSP Records on 22 August 2000, the set was subsequently reissued on Definitive in 2001. A four-disc compilation, the set has received a \"crown\" as an author's pick in The Penguin Guide to Jazz and is also included in the book's \"core collection\" recommended for jazz fans. These recordings established the vocabulary of jazz improvisation. Armstrong's virtuosity and creativity set the template for every jazz soloist who followed.",
+   "keyTracks": [
+    "My Heart",
+    "Yes! I'm in the Barrel",
+    "Gut Bucket Blues",
+    "Come Back, Sweet Papa",
+    "Georgia Grind",
+    "Heebie Jeebies"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Hot_Fives_%26_Sevens"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "9c4a0c32-31ec-4c0c-bd05-85e53c1d5344",
+     "title": "Hot Fives and Sevens",
+     "date": "1999-10-26",
+     "country": "GB",
+     "status": "Official",
+     "artists": [
+      "Louis Armstrong"
+     ],
+     "labels": [
+      {
+       "name": "JSP Records",
+       "catalogNumber": "JSPLOUISBOX 100"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "c7683bf6-8352-4f05-8bc2-3e627fc34144",
+      "title": "Hot Fives and Sevens",
+      "firstReleaseDate": "1999-10-26",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "My Heart",
+      "Yes! I'm in the Barrel",
+      "Gut Bucket Blues",
+      "Come Back, Sweet Papa",
+      "Georgia Grind",
+      "Heebie Jeebies",
+      "Cornet Chop Suey",
+      "Oriental Strut",
+      "You're Next",
+      "Muskrat Ramble",
+      "Don't Forget to Mess Around",
+      "I'm Gonna Gitcha",
+      "Dropping Shucks",
+      "Who' Sit",
+      "He Likes It Slow",
+      "The King of the Zulus",
+      "Big Fat Ma and Skinny Pa",
+      "Lonesome Blues",
+      "Sweet Little Papa",
+      "Jazz Lips",
+      "Skid-Dat-De-Dat",
+      "Big Butter and Egg Man From the West",
+      "Sunset Cafe Stomp",
+      "You Made Me Love You",
+      "Irish Black Bottom",
+      "Willie the Weeper",
+      "Wild Man Blues",
+      "Chicago Breakdown",
+      "Alligator Crawl",
+      "Potato Head Blues",
+      "Melancholy Blues",
+      "Weary Blues",
+      "Twelfth Street Rag",
+      "Keyhole Blues",
+      "S.O.L. Blues",
+      "Gully Low Blues",
+      "That's When I'll Come Back to You",
+      "Put 'em Down Blues",
+      "Ory's Creole Trombone",
+      "The Last Time"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Hot_Fives_%26_Sevens",
+    "page": {
+     "requestedTitle": "Hot Fives & Sevens",
+     "resolvedTitle": "Hot Fives & Sevens",
+     "shortDescription": "1999 box-set recordings by Louis Armstrong",
+     "extract": "Hot Fives & Sevens is a 2000 box set collection of recordings made by American jazz trumpeter and singer Louis Armstrong with his Hot Five, Hot Seven, and other groups between 1925 and 1930. First released on JSP Records on 22 August 2000, the set was subsequently reissued on Definitive in 2001. A four-disc compilation, the set has received a \"crown\" as an author's pick in The Penguin Guide to Jazz and is also included in the book's \"core collection\" recommended for jazz fans. AllMusic concurs that it is \"beyond indispensable\", adding that \"you can't have a Louis Armstrong collection without this historic set\" or \"any kind of respectable jazz collection.\" Alternatively, Ben Ratliff, writing in 2002, preferred Columbia's release The Complete Hot Five and Hot Seven Recordings.\n\n\n== Overview ==\nThe box set consists of four compact discs.  The first and second discs, and part of the third, comprise the Hot Five and Hot Seven recording sessions from 1925 through 1928.  The third and fourth discs compile tracks recorded by Carroll Dickerson's Savoyagers, Louis Armstrong and His Orchestra, and Louis Armstrong and His Savoy Ballroom Five (with Earl Hines) between 1928 and 1930.\n\n\n== Critical reception ==\n\nThe collection has generally earned praise. Music critic Cub Koda, writing for AllMusic, notes that \"Although this material has been around the block several times before – and continues to be available in packages greatly varying in transfer quality – this is truly the way to go, and certainly the most deluxe packaging this material has ever received with the greatest sound retrieval yet employed.\" The Penguin Guide to Jazz included Hot Fives & Sevens in its \"Core Collection,\" and assigned its \"crown\" accolade to the album, along with a four-star rating (of a possible four stars).  (The first three discs from this set, JSP CD 312 – 314, individually received four-star ratings, and are also included in the Core Collection.)  Penguin editors Richard Cook and Brian Morton remarked, \"John R. T. Davies's remastering for JSP is superlative.  Armstrong scholars argue over whether the Columbia 'definitive' edition – mystifyingly delayed – is superior, but it's hard to see anyone being disappointed with either.\"  2008's Jazz : The Basics is not as effusive, suggesting that other remasters may sound better and other packaging may be more complete, but the lower price of this set made it \"an attractive package for recordings that are a necessary part of any CD collection.\" Ben Ratliff, by contrast, found the collection only a \"tolerable alternative to Columbia's muffled-sounding initial CD reissue\", but preferred Columbia Legacy's The Complete Hot Five and Hot Seven Recordings (C4K 63257) for its greater \"bright and present\" sound.\n\n\n== Track listing ==\nExcept where otherwise noted, all songs composed by Louis Armstrong.\n\n\n=== Disc one ===\n\"My Heart\" (Lil Armstrong) – 2:27\n\"Yes! I'm in the Barrel\" – 2:40\n\"Gut Bucket Blues\" – 2:45\n\"Come Back Sweet Papa\" (Barbarin, Russell) – 2:32\n\"Georgia Grind\" (Spencer Williams) – 2:36\n\"Heebie Jeebies\" (Atkins, Stothart) – 2:56\n\"Cornet Chop Suey\" – 3:19\n\"Oriental Strut\" (Saint Cyr) – 3:03\n\"You're Next\" – 3:17\n\"Muskrat Ramble\" (Ray Gilbert, Kid Ory) – 2:34\n\"Don't Forget to Mess Around\" (Armstrong, Barbarin) – 3:04\n\"I'm Gonna Gitcha\" (Lil Hardin) – 2:46\n\"Droppin' Shucks\" (Hardin) – 2:54\n\"Who' Sit\" (Composer uncredited) – 2:47\n\"He Likes It Slow\" (J. Edwards) – 2:44\n\"The King of the Zulus (A Chit'lin' Rag)\" (Lil Armstrong) – 3:07\n\"Big Fat Ma and Skinny Pa\" (Richard M. Jones) – 3:02\n\"Lonesome Blues\" (Hardin) – 3:05\n\"Sweet Little Papa\" (Ory) – 2:47\n\"Jazz Lips\" (Hardin) – 3:03\n\"Skid-Dat-De-Dat\" (Hardin) – 3:07\n\"Big Butter and Egg Man\" (Armstrong, Percy Venable) – 3:01\n\"Sunset Cafe Stomp\" (Armstrong, Venable) – 2:47\n\"You Made Me Love You\" (Armstrong, Venable) – 2:54\n\"Irish Black Bottom\" (Armstrong, Venable) – 2:37\n\n\n=== Disc  two ===\n\"Willie the Weeper\" (Marty Bloom, Walter Melrose, Grant Rymal) – 3:10\n\"Wild Man Blues\" (Armstrong, Morton) – 3:13\n\"Chicago Breakdown\" (Morton) – 3:21\n\"Alligator Crawl\" (Joe Davis, Razaf, Waller) – 3:04\n\"Potato Head Blues\" – 2:58\n\"Melancholy Blues\" (Bloom, Melrose) – 3:05\n\"Weary Blues\" (Matthews) – 3:01\n\"Twelfth Street Rag\" (Bowman) – 3:06\n\"Keyhole Blues\" (Wilson) – 3:29\n\"S.O.L. Blues\" – 2:55\n\"Gully Low Blues\" – 3:18\n\"That's When I'll Come Back to You\" (Biggs) – 2:58\n\"Put 'Em Down Blues\" (E.J. Bennett) – 3:17\n\"Ory's Creole Tombstone\" (Ory) – 3:07\n\"The Last Time\" (Ewing, Martin) "
+    }
+   }
+  }
+ },
+ {
+  "id": "bix-beiderbecke-and-the-chicago-cornets",
+  "kind": "album",
+  "ours": {
+   "title": "Bix Beiderbecke and the Chicago Cornets",
+   "artist": "Bix Beiderbecke",
+   "year": 1926,
+   "label": "Unknown",
+   "albumDNA": "Bix Beiderbecke and the Chicago Cornets is a contemporary jazz album by Bix Beiderbecke from 1926. The album comes from the formative years when jazz coalesced from ragtime, blues, and marching band traditions. Beiderbecke was one of the most influential jazz soloists of the 1920s, a cornet player noted for an inventive lyrical approach and purity of tone, with such clarity of sound that one contemporary famously described it like \"shooting bullets at a bel.",
+   "keyTracks": [
+    "Fidgety Feet",
+    "Jazz Me Blues",
+    "Oh Baby",
+    "Copenhagen",
+    "Riverboat Shuffle",
+    "Susie (2nd take)"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Bix_Beiderbecke"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "02b16fe5-41d8-41d7-885f-08315f31481e",
+     "title": "Bix Beiderbecke and the Chicago Cornets",
+     "date": "1974",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Bix Beiderbecke"
+     ],
+     "labels": [
+      {
+       "name": "Milestone",
+       "catalogNumber": "M-47019"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "188a9bf5-1263-32b2-ba10-9e4ec164b73c",
+      "title": "Bix Beiderbecke and the Chicago Cornets",
+      "firstReleaseDate": "1974",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Fidgety Feet",
+      "Jazz Me Blues",
+      "Oh Baby",
+      "Copenhagen",
+      "Riverboat Shuffle",
+      "Susie (Take A)",
+      "Susie (Take B)",
+      "I Need Some Pettin'",
+      "Royal Garden Blues",
+      "Tiger Rag",
+      "Sensation",
+      "Lazy Daddy (Take A)",
+      "Lazy Daddy (Take B)",
+      "Tia Juana",
+      "Big Boy",
+      "Flock O' Blues",
+      "I'm Glad",
+      "Toddlin' Blues",
+      "Prince Of Wails",
+      "Davenport Blues",
+      "When My Sugar Walks Down The Street",
+      "Steady Roll Blues",
+      "Mobile Blues",
+      "Really A Pain",
+      "Chicago Blues",
+      "Hot Mittens",
+      "Buddy's Habits (First Take)",
+      "Buddy's Habits (Take B)"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Bix_Beiderbecke",
+    "page": {
+     "requestedTitle": "Bix Beiderbecke",
+     "resolvedTitle": "Bix Beiderbecke",
+     "shortDescription": "American jazz cornetist, pianist and composer (1903–1931)",
+     "extract": "Leon Bismark \"Bix\" Beiderbecke ( BY-dər-bek; March 10, 1903 – August 6, 1931) was an American jazz cornetist, pianist and composer. Beiderbecke was one of the most influential jazz soloists of the 1920s, a cornet player noted for an inventive lyrical approach and purity of tone, with such clarity of sound that one contemporary famously described it like \"shooting bullets at a bell”.\nHis solos on seminal recordings such as \"Singin' the Blues\" and \"I'm Coming, Virginia\" (both 1927) demonstrate a gift for extended improvisation that heralded the jazz ballad style, in which jazz solos are an integral part of the composition. Moreover, his use of extended chords and an ability to improvise freely along harmonic as well as melodic lines are echoed in post-WWII developments in jazz. \"In a Mist\" (1927) is the best known of Beiderbecke's published piano compositions and the only one that he recorded. His piano style reflects both jazz and classical (mainly impressionist) influences. All five of his piano compositions were published by Robbins Music during his lifetime.\nA native of Davenport, Iowa, Beiderbecke taught himself to play the cornet largely by ear, leading him to adopt a non-standard fingering technique that influenced his unique style. He first recorded with Midwestern jazz ensemble The Wolverines in 1924, after which he played briefly for the Detroit-based Jean Goldkette Orchestra before joining Frankie \"Tram\" Trumbauer for an extended engagement at the Arcadia Ballroom in St. Louis, also under the auspices of Goldkette's organisation. Beiderbecke and Trumbauer joined Goldkette's main band at the Graystone Ballroom in Detroit in 1926. The band toured widely and famously played a set opposite Fletcher Henderson at the Roseland Ballroom in New York City in October 1926. He made his greatest recordings in 1927. The Goldkette band folded in September 1927 and, after briefly joining bass saxophone player Adrian Rollini's band in New York, Trumbauer and Beiderbecke joined America's most popular dance band: Paul Whiteman and his Orchestra.\nBeiderbecke's most influential recordings date from his time with Goldkette and Whiteman, although he also recorded under his own name and that of Trumbauer's. The Whiteman period marked a precipitous decline in his health due to his increasing use of alcohol. Treatment for alcoholism in rehabilitation centers, with the support of Whiteman and the Beiderbecke family, failed to stop his decline. He left the Whiteman band in 1929 and in the summer of 1931 died aged 28 in his Sunnyside, Queens, New York apartment.\nHis death, in turn, gave rise to one of the original legends of jazz. In magazine articles, musicians' memoirs, novels, and Hollywood films, Beiderbecke has been envisaged as a Romantic hero, the \"Young Man with a Horn\" (a novel, later made into a movie starring Kirk Douglas, Lauren Bacall, Doris Day, and his friend Hoagy Carmichael). His life has often been portrayed as that of a jazz musician who had to compromise his art for the sake of commercialism. Beiderbecke remains the subject of scholarly controversy regarding his full name, the cause of his death and the importance of his contributions to jazz.\nHe composed or played on recordings that are jazz classics and standards such as \"Davenport Blues\", \"In a Mist\", \"Copenhagen\", \"Riverboat Shuffle\", \"Singin' the Blues\", and \"Georgia on My Mind\".\n\n\n== Early life ==\n\nThe son of Bismark Herman Beiderbecke and Agatha Jane Hilton, Bix Beiderbecke was born on March 10, 1903, in Davenport, Iowa. There is disagreement over whether Beiderbecke was christened Leon Bix or Leon Bismark and nicknamed \"Bix\". His father was nicknamed \"Bix\", as was his older brother, Charles Burnette \"Burnie\" Beiderbecke. Burnie Beiderbecke claimed that the boy was named Leon Bix and biographers have reproduced birth certificates that agree. More recent research — which takes into account church and school records in addition to the will of a relative — suggests he was named Leon Bismark. Regardless, his parents called him Bix, which seems to have been his preference. In a letter to his mother when he was nine years old, Beiderbecke signed off, \"frome your Leon Bix Beiderbecke not Bismark Remeber  [sic]\".\nThe son of German immigrants, Beiderbecke's father was a well-to-do coal and lumber merchant named after Otto von Bismarck of his native Germany. Beiderbecke's mother was the daughter of a Mississippi riverboat captain. She played the organ at Davenport's Fir"
+    }
+   }
+  }
+ },
+ {
+  "id": "singin-the-blues-beiderbecke",
+  "kind": "album",
+  "ours": {
+   "title": "Singin' the Blues",
+   "artist": "Bix Beiderbecke",
+   "year": 1927,
+   "label": "Unknown",
+   "albumDNA": "\"Singing the Blues\" is a popular song composed by Melvin Endsley and published in 1956. The highest-charting version was by Guy Mitchell and the first recording of the song was by Marty Robbins. It is not related to the 1920 jazz song \"Singin' the Blues\" recorded by Frank Trumbauer and Bix Beiderbecke in 1927. Beiderbecke was one of the most influential jazz soloists of the 1920s, a cornet player noted for an inventive lyrical approach and purity of tone, with such clarity of sound that one contemporary famously described it like \"shooting bullets at a bel.",
+   "keyTracks": [
+    "Singin' the Blues",
+    "Way Down Yonder in New Orleans",
+    "I'm Comin' Virginia",
+    "Ostrich Walk",
+    "Riverboat Shuffle",
+    "Three Blind Mice"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Singing_the_Blues"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "89724786-c96d-4153-89f6-0683bb5d364c",
+     "title": "Singin' the Blues",
+     "date": "1995-??-07",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Bix Beiderbecke"
+     ],
+     "labels": [
+      {
+       "name": "Drive Archive",
+       "catalogNumber": "DE2=41065"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "f2927c6a-9803-4306-939f-03cef1d730a4",
+      "title": "Singin' the Blues",
+      "firstReleaseDate": "1995-??-07",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "Singin' the Blues",
+      "Way Down Yonder in New Orleans",
+      "I'm Comin' Virginia",
+      "Ostrich Walk",
+      "Riverboat Shuffle",
+      "Three Blind Mice",
+      "Sorry",
+      "Sugar",
+      "Royal Garden Blues",
+      "Tiger Rag",
+      "Davenport Blues",
+      "Ol' Man River",
+      "Coquette",
+      "Georgia on My Mind"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Singing_the_Blues",
+    "page": {
+     "requestedTitle": "Singing the Blues",
+     "resolvedTitle": "Singing the Blues",
+     "shortDescription": "1956 song performed by Guy Mitchell",
+     "extract": "\"Singing the Blues\" is a popular song composed by Melvin Endsley and published in 1956. The highest-charting version was by Guy Mitchell and the first recording of the song was by Marty Robbins. It is not related to the 1920 jazz song \"Singin' the Blues\" recorded by Frank Trumbauer and Bix Beiderbecke in 1927.\n\n\n== Guy Mitchell ==\nThe best-known recording was released in October 1956 by Guy Mitchell and spent ten weeks at No. 1 on the U.S. Billboard chart from 8 December 1956, to 2 February 1957. It was Mitchell's second and last hit in Italy, on national Musica e Dischi Hit Parade, after \"My Heart Cries For You\" in 1951. An example of the U.S. recording is on Columbia #40769, dated 1956, with the Ray Conniff Orchestra. Mitchell's version was also No. 1 in the UK Singles Chart for three (non-consecutive) weeks in early 1957, one of only four singles to rise to No. 1 on the chart on three occasions, with the other three being \"I Believe\" by Frankie Laine, \"Happy\" by Pharrell Williams and \"What Do You Mean?\" by Justin Bieber. Mitchell's version prominently features whistling in the intro and solo sections.\n\n\n== Marty Robbins and Tommy Steele versions ==\nTwo other charting versions of the song were released almost simultaneously with Mitchell's, one by the English singer Tommy Steele (with the Steelmen) and the other (recorded before Mitchell covered it) by US country singer Marty Robbins.\nTommy Steele's version of \"Singing the Blues\" made number 1 in the UK Singles Chart for one week on 11 January 1957, sandwiched by two of the weeks that Guy Mitchell's version of the same song topped the charts. Steele's recording of the song was not a chart success in the US.\nThe Marty Robbins version, recorded at the Bradley Studios in Nashville, Tennessee, made it to number one on the Billboard C&W Best Sellers chart for 13 weeks in late 1956 and early 1957 and peaked at number seventeen on the US pop chart. In 1983, Gail Davies recorded a cover version, taking her version into the top 20 of the Hot Country Singles chart in the spring of 1983.\n\n\n== Other cover versions ==\nThe song is often revived, and on four occasions new recordings of \"Singing the Blues\" have become UK Top 40 hits. These latter-day hit versions were by Dave Edmunds (1980), Gail Davies (1983), Daniel O'Donnell (1994), and Cliff Richard & the Shadows (2009).\n\n\n== Charting versions ==\n\n\n== More cover versions ==\nTrumpeter Bob Scobey and banjoist/vocalist Clancy Hayes recorded a trad jazz version in 1958 for the LP \"Scobey and Clancy raid the Jukebox\" on the Good Time Jazz label. Other notable cover versions include a 1960 recording by Bill Haley & His Comets, a 1963 version by Dean Martin, and a 1971 version by Black Oak Arkansas. It was recorded by Marie Osmond for her 1975 album In My Little Corner of the World, by Gene Summers on his 1981 French album Gene Summers in Nashville, by Randy Travis on his 1989 album No Holdin' Back, and by The Kentucky Headhunters for their album Stompin' Grounds (1997). A version by Bert Jansch appears on his 2000 release Crimson Moon. Frank Ifield, Max Bygraves and Slim Whitman also recorded the song.\n\"Singing the Blues\" was performed live by Paul McCartney on the MTV show Unplugged in 1991 and included on the subsequent soundtrack, Unplugged (The Official Bootleg).\nHank Snow did it on his 1969 album on RCA \"I Went To Your Wedding\".\nThe song was also performed by Albert Lee.\nThe tune was also sung by Vivian Vance and William Frawley (Ethel and Fred of I Love Lucy fame) for a Ford Motor Company television commercial promoting the Edsel.\nThe Californian pop punk band Groovie Ghoulies covered the song on their third album World Contact Day in 1996.\nThe first line of this song is famously the last line of \"London Calling\" by the Clash, cut short and echoed in the final mix of the song (\"I never felt so much a-like, a-like, a-like...\").\nHugues Aufray and his Skiffle Group recorded a French version of the song, \"Tout le long du chemin\", in 1964.\n\n\n== Use in English football ==\nBirmingham City-supporting radio presenters Tom Ross and Ian Danter released a version to celebrate the club's promotion to the Premier League.  It has been sung since at least the 1969 season by fans of the Midlands club.  Blackburn Rovers fans have been known to sing a version of the song: \"Never felt more like singing the blues, the Rovers win and Burnley lose, oh Rovers, you've got me singing the blues.\"  Everton fans sing a version of this song; \"I've never fe"
+    }
+   }
+  }
+ },
+ {
+  "id": "aint-misbehavin-waller",
+  "kind": "album",
+  "ours": {
+   "title": "Ain't Misbehavin'",
+   "artist": "Fats Waller",
+   "year": 1929,
+   "label": "Unknown",
+   "albumDNA": "\"Ain't Misbehavin'\" is a 1929 stride jazz/early swing song. Andy Razaf wrote the lyrics to a score by Thomas \"Fats\" Waller and Harry Brooks for the Broadway musical comedy play Connie's Hot Chocolates. It was published by Mills Music.",
+   "keyTracks": [
+    "Ain’t Misbehavin’",
+    "Until the Real Thing Comes Along",
+    "Two Sleepy People",
+    "I’m Gonna Sit Right Down and Write Myself a Letter",
+    "Tea for Two",
+    "I Can’t Give You Anything but Love, Baby"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Ain't_Misbehavin'_(song)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "fbd52c25-e31c-4c31-b403-5306aa13cad4",
+     "title": "Ain’t Misbehavin’",
+     "date": "2001",
+     "country": "GB",
+     "status": "Official",
+     "artists": [
+      "Fats Waller"
+     ],
+     "labels": [
+      {
+       "name": "Castle Pulse",
+       "catalogNumber": "PLSCD464"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "907e02d4-a64f-4423-a0f9-b1762403011b",
+      "title": "Ain’t Misbehavin’",
+      "firstReleaseDate": "2001",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "My Very Good Friend the Milkman",
+      "12th Street Rag",
+      "When Somebody Thinks You’re Wonderful",
+      "Ain’t Misbehavin’",
+      "Your Feet’s Too Big",
+      "The Darktown Strutters’ Ball",
+      "E-flat Blues",
+      "Truckin’",
+      "Blue Turning Grey Over You",
+      "Boo Hoo",
+      "Two Sleepy People",
+      "Somebody Stole My Gal",
+      "Sweet Sue",
+      "Georgia Rockin’ Chair",
+      "It’s a Sin to Tell a Lie",
+      "Sugar Rose",
+      "S’posin’",
+      "The Sheik of Araby",
+      "Rhythm and Romance",
+      "Honeysuckle Rose"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Ain't_Misbehavin'_(song)",
+    "page": {
+     "requestedTitle": "Ain't Misbehavin' (song)",
+     "resolvedTitle": "Ain't Misbehavin' (song)",
+     "shortDescription": "1929 song",
+     "extract": "\"Ain't Misbehavin'\" is a 1929 stride jazz/early swing song. Andy Razaf wrote the lyrics to a score by Thomas \"Fats\" Waller and Harry Brooks for the Broadway musical comedy play Connie's Hot Chocolates. It was published by Mills Music.\nAs a work from 1929 with its copyright renewed, it entered the American public domain on January 1, 2025.\n\n\n== Composition ==\n\nThe original sheet music for \"Ain't Misbehavin'\" is written in the key of E-flat major.\n\n\n== First performances ==\nThe song was first performed at the premiere of Connie's Hot Chocolates in Harlem at Connie's Inn as an opening song by Paul Bass and Margaret Simms, and repeated later in the musical by Russell Wooding's Hallelujah Singers. Connie's Hot Chocolates was transferred to the Hudson Theatre on Broadway during June 1929, where it was renamed to Hot Chocolates and where Louis Armstrong became the orchestra director. The script also required Armstrong to play \"Ain't Misbehavin'\" in a trumpet solo, and although this was initially slated only to be a reprise of the opening song, Armstrong's performance was so well received that the trumpeter was asked to climb out of the orchestra pit and play the piece on stage. As noted by Thomas Brothers in his book Louis Armstrong: Master of Modernism, Armstrong was first taught \"Ain't Misbehavin'\" by Waller himself, \"woodshedding\" it until he could \"play all around it\"; he cherished it \"because it was 'one of those songs you could cut loose and swing with.'\"\n\n\n== Recordings ==\nDuring the first half of the 20th century, when a tune was successful in terms of sheet music sold, it was typically recorded by several different artists. All six \"Ain't Misbehavin'\" recordings of 1929 were successes in the American Society of Composers, Authors and Publishers (ASCAP) rankings for that year:\n\nLeo Reisman and his orchestra (with vocals by Lew Conrad, No. 2).\nLouis Armstrong (No. 7).\nBill Robinson (with Irving Mills & his Hotsy Totsy Gang, No. 8).\nGene Austin (with Leonard Joy & his orchestra, No. 9).\nRuth Etting (No. 16).\nFats Waller (instrumental version, No. 17).\nWaller re-recorded the song with vocals for the 1943 movie Stormy Weather. Waller's recording received the Grammy Hall of Fame Award during 1984. In 2001, it was one of 365 Songs of the Century selected by the RIAA, and it was one of fifty recordings selected for inclusion in the National Recording Registry by the Library of Congress in 2004.\n\"Ain't Misbehavin'\" has been recorded by many other performers over the years. Johnnie Ray's version scored No. 17 in the UK Singles Chart during May 1956. In 1960, Tommy Bruce and the Bruisers had a number 3 hit in the UK Singles Chart with their cover version of the song. During 1976, Leon Redbone performed the song on Saturday Night Live. \nIt served as the title song of the successful 1978 musical Ain't Misbehavin'. Country music artist Hank Williams Jr. recorded a version for his 1985 studio album Five-O. Released as a single, the song peaked at No. 1 on Billboard's Hot Country Singles chart and earned Williams a Grammy Award nomination for Best Country Vocal Performance, Male.\n\n\n== Use in film and video games ==\n1943: Stormy Weather, performed by Fats Waller.\n1944: Atlantic City, sung by Louis Armstrong.\n1948: You Were Meant for Me\n1955: Gentlemen Marry Brunettes, performed by Alan Young, Jane Russell, Jeanne Crain (dubbed by Anita Ellis) and Chorus, with choreography.\n1975: Lucky Lady, performed by Burt Reynolds.\n2013: An instrumental version is heard in Baz Luhrmann's The Great Gatsby. The film, set in 1922, predates the song by several years, makes its appearance anachronistic.\n2018: The song is played on the in-game radio station of Appalachia Radio within the game of Fallout 76.\n\n\n== See also ==\nList of 1920s jazz standards\n\n\n== Notes ==\n\n\n== References ==\n\n\n=== Sources ===\nBrothers, Thomas (2014). Louis Armstrong: Master of Modernism. New York: W. W. Norton & Company. ISBN 978-0-393-06582-4 – via Google Books.\nPaymer, Marvin E.; Post, Don E. (1999). Sentimental Journey: Intimate Portraits of America's Great Popular Songs, 1920-1945. Noble House Publishers. ISBN 978-1-881907-09-1 – via Google Books.\nRoberts, David (2006). British Hit Singles & Albums (19th ed.). London: Guinness World Records Limited. ISBN 1-904994-10-5.\nRust, Brian (1975). The American Dance Band Discography 1917–1942: Arthur Lange to Bob Zurke. New Rochelle, New York: Arlington House. ISBN 978-0870002489.\nWaller, Fats; Brooks, Harry; Razaf, Andy (1929). "
+    }
+   }
+  }
+ },
+ {
+  "id": "quintette-du-hot-club-de-france",
+  "kind": "album",
+  "ours": {
+   "title": "Quintette du Hot Club de France",
+   "artist": "Django Reinhardt",
+   "year": 1934,
+   "label": "Unknown",
+   "albumDNA": "The Quintette du Hot Club de France, often abbreviated \"QdHCdF\" or \"QHCF\", was a jazz group founded in France in 1934 by the guitarist Django Reinhardt and the violinist Stéphane Grappelli. It was active in one form or another until 1948.",
+   "keyTracks": [
+    "Exactly Like You",
+    "Rose Room",
+    "Body and Soul",
+    "You're Driving Me Crazy",
+    "Chicago",
+    "A Little Love, a Little Kiss"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Quintette_du_Hot_Club_de_France"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "67c6c97f-56f4-41ff-87f0-2e5898ef5e43",
+     "title": "Quintette du Hot Club de France",
+     "date": "",
+     "country": "ES",
+     "status": "Official",
+     "artists": [
+      "Django Reinhardt"
+     ],
+     "labels": [
+      {
+       "name": "Rockin' Chair",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "3f3a403c-25de-3e5c-bf37-97e3c77c04db",
+      "title": "Quintette du Hot Club de France",
+      "firstReleaseDate": "",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "Exactly Like You",
+      "Rose Room",
+      "Body and Soul",
+      "You're Driving Me Crazy",
+      "Chicago",
+      "A Little Love, a Little Kiss",
+      "The Sheik of Araby",
+      "Djangology",
+      "In a Sentimental Mood",
+      "Swinging' With Django",
+      "Tears",
+      "Sweet Sue",
+      "My Serenade",
+      "Runnin' Wild",
+      "Limehouse Blues",
+      "I Saw the Stars",
+      "Clouds",
+      "I Can't Give You Anything but Love",
+      "Sweet Chorus",
+      "Swingin' Guitars"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Quintette_du_Hot_Club_de_France",
+    "page": {
+     "requestedTitle": "Quintette du Hot Club de France",
+     "resolvedTitle": "Quintette du Hot Club de France",
+     "shortDescription": "French jazz group",
+     "extract": "The Quintette du Hot Club de France (\"The Quintet of the Hot Club of France\"), often abbreviated \"QdHCdF\" or \"QHCF\", was a jazz group founded in France in 1934 by the guitarist Django Reinhardt and the violinist Stéphane Grappelli. It was active in one form or another until 1948.\nOne of the earliest and most significant continental jazz groups in Europe, the Quintette was described by critic Thom Jurek as \"one of the most original bands in the history of recorded jazz.\" In contrast with the \"New Orleans Sound\" of groups like Louis Armstrong and His Hot Five and Hot Seven, the group (at least in its early incarnations) featured an (at that time, novel) \"all strings\" lineup with the lead parts taken by virtuoso acoustic guitar and violin, the bass part on double bass in place of tuba or sousaphone, and the rhythm and accompanying chords supplied by additional guitarists, with no drummer.\nTheir most famous lineup featured Reinhardt, Grappelli, bassist Louis Vola, and rhythm guitarists Roger Chaput and Joseph Reinhardt (Django's brother) although occupants of the latter roles varied from time to time. Later incarnations of the Quintette (and its successors playing in a similar style) sometimes incorporated reeds (clarinet) players in place of Grappelli's violin, and also sometimes added a drummer in place of one of the rhythm guitars.\n\n\n== History ==\nAccording to Grappelli, the group evolved from a series of backstage jams originated by Django Reinhardt, with Stephane Grappelli, at the Hôtel Claridge on the Champs-Élysées in Paris, where the two were engaged as members of a band led by bassist Louis Vola in the summer of 1934. After a series of informal jam sessions at the Hôtel Claridge, concert promoters Pierre Nourry and Charles Delaunay (leaders of the \"Hot Club de France\", a society chaired by Hugues Panassié devoted to the appreciation of jazz) urged the formation of a permanent group. With the addition of Reinhardt's brother Joseph on second rhythm guitar, the quintet popularized the gypsy jazz style. The group began its recording career in November 1934, releasing two titles on the Odeon label under the name \"Delaunay's Jazz\". A December 1934 session produced the first recordings released under the name \"Django Reinhardt et le Quintette du Hot Club de France, avec Stéphane Grappelly\" (with Django's name misspelled as \"Djungo\"). Throughout 1935, the group recorded both under this name and as \"Stéphane Grappelly and His Hot Four featuring Django Rheinhardt\". Grappelli and Reinhardt maintained active schedules as freelance musicians during the early years of the Quintette, recording and performing with French pop artists such as Jean Sablon, Le Petit Mirsha, and Nane Cholet, and with jazz artists such as Coleman Hawkins, Benny Carter, Rex Stewart, Larry Adler, Alix Combelle, and André Ekyan. Between 1934 and 1948, the Quintette du Hot Club de France recorded more than 130 titles in the studio for the Decca, Swing, HMV, Ultraphone, and Odeon labels. \nA series of European tours were very successful, with the group enjoying particular popularity in the UK. Several bassists and rhythm guitarists rotated in and out of the group, with Django and Grappelli remaining the sole constants. In 1937, the American jazz singer Adelaide Hall opened a nightclub in Montmartre along with her husband Bert Hicks and called it 'La Grosse Pomme'. She entertained there nightly and hired the Quintette du Hot Club de France as one of the house bands at the club. \nAs World War II broke out in September 1939, the Quintette was on a concert tour of England. Reinhardt, who spoke virtually no English, immediately returned to France, where he thought he would feel safer than in the UK.  Grappelli, meanwhile, stayed in England.   \nDjango continued using the Quintette name with a different group, featuring Hubert Rostaing as the first of several clarinetists backed by a more conventional rhythm section with drums, bass and a rhythm guitar played by Django's son Lousson Reinhardt, or his brother Joseph.  This version of the Quintette often featured six, not five, players, and was usually billed as \"Django et le Quintette du Hot Club de France\", or sometimes as Django's \"Nouveau Quintette\".  Due to wartime shortages of material, this version of the Quintette did not issue many recordings (some 70 titles were recorded between 1940 and 1948), although they did issue the first recording of the Django Reinhardt composition Nuages, later to become a jazz s"
+    }
+   }
+  }
+ },
+ {
+  "id": "rhythm-is-our-business",
+  "kind": "album",
+  "ours": {
+   "title": "Rhythm Is Our Business",
+   "artist": "Jimmie Lunceford",
+   "year": 1934,
+   "label": "Unknown",
+   "albumDNA": "Rhythm Is Our Business is a contemporary jazz album by Jimmie Lunceford from 1934. The album comes from the big band era when jazz was America's popular music, driven by dancing and radio. A contemporary jazz entry from 1934 by Jimmie Lunceford, documenting the breadth of the swing period.",
+   "keyTracks": [
+    "Rhythm Is Our Business",
+    "Stratosphere",
+    "Unsophisticated Sue",
+    "Four or Five Times",
+    "Bird of Paradise",
+    "I'll Take the South"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Rhythm_Is_Our_Business"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "a059c90a-fd6a-443b-8772-c0421bdb9a0c",
+     "title": "Rhythm Is Our Business",
+     "date": "1994",
+     "country": null,
+     "status": "Official",
+     "artists": [
+      "Jimmie Lunceford"
+     ],
+     "labels": [
+      {
+       "name": "Past Perfect",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "5442a88e-96fd-4a61-b8cd-80ca4f19ffc2",
+      "title": "Rhythm Is Our Business",
+      "firstReleaseDate": "1994",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Rhythm Is Our Business",
+      "Stratosphere",
+      "Unsophisticated Sue",
+      "Four or Five Times",
+      "Bird of Paradise",
+      "I'll Take the South",
+      "Hittin' the Bottle",
+      "Oh Boy!",
+      "The Best Things in Life Are Free",
+      "Muddy Water",
+      "Hell's Bells",
+      "He Ain't Got Rhythm",
+      "Slumming on Park Avenue",
+      "For Dancers Only",
+      "Posin'",
+      "Margie",
+      "Frisco Fog",
+      "What Is This Thing Called Swing?",
+      "Ain't She Sweet?",
+      "Life Is Fine"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Rhythm_Is_Our_Business",
+    "page": {
+     "requestedTitle": "Rhythm Is Our Business",
+     "resolvedTitle": "Rhythm Is Our Business",
+     "shortDescription": null,
+     "extract": "Rhythm Is Our Business is an album by trumpeter and cornetist Jordan Sandke, recorded in 1985.\n\n\n== Recording and music ==\nRhythm Is Our Business was recorded at ERAS Recording, New York City, on June 10 and 12, 1985. Sandke plays trumpet and cornet on the album, with Tad Shull (tenor sax), Jaki Byard (piano), Milt Hinton (bass), and Charlie Braugham (drums). The material is some Sandke originals and compositions by other writers.\n\n\n== Release ==\nThe album was released on LP by Stash Records.\n\n\n== Track listing ==\n\"Oyster Marmalade\" (Jordan Sandke) – 3:55\n\"Black Beauty\" (Duke Ellington) – 3:08\n\"Nostalgia\" (Fats Navarro) – 5:45\n\"Rhythm Is Our Business\" (Sammy Cahn, Saul Chaplin, Jimmie Lunceford) – 4:15\n\"Hog-Step\" (Sandke) – 4:48\n\"Cornet Chop Suey\" (Louis Armstrong) – 4:12\n\"Don't Take Your Love from Me\" (Henry Nemo) – 4:20\n\"Forty-Third and Pluto\" (Sandke) – 3:35\n\n\n== Personnel ==\nJordan Sandke – trumpet (tracks 1, 3–5, 7, 8), cornet (tracks 2, 6)\nTad Shull – tenor sax\nJaki Byard – piano\nMilt Hinton – bass\nCharlie Braugham – drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "for-dancers-only-lunceford",
+  "kind": "album",
+  "ours": {
+   "title": "For Dancers Only",
+   "artist": "Jimmie Lunceford",
+   "year": 1937,
+   "label": "Unknown",
+   "albumDNA": "With For Dancers Only (1937), bandleader, alto saxophone player Jimmie Lunceford delivers a contemporary jazz program. A contemporary jazz entry from 1937 by Jimmie Lunceford, documenting the breadth of the swing period.",
+   "keyTracks": [
+    "Jazznocracy",
+    "Sweet Rhythm",
+    "Flaming Reeds and Screaming Brass",
+    "Rose Room",
+    "While Love Last",
+    "White Heat"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/For_Dancers_Only"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "156261d3-da42-4e05-bfc4-2cd268846570",
+     "title": "For Dancers Only",
+     "date": "2010",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Jimmie Lunceford"
+     ],
+     "labels": [],
+     "releaseGroup": {
+      "mbid": "2676268d-906a-4b8f-bf39-8b58d872ac1a",
+      "title": "For Dancers Only",
+      "firstReleaseDate": "2010",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "Jazznocracy",
+      "Sweet Rhythm",
+      "Flaming Reeds and Screaming Brass",
+      "Rose Room",
+      "While Love Last",
+      "White Heat",
+      "Chillum Get Up",
+      "Leavin´ Me",
+      "Swingin´ Uptown",
+      "Breakfast Ball",
+      "Mood Indigo",
+      "Here Goes a Fool",
+      "Remember When",
+      "In Dat Mornin´",
+      "Stomp It Off",
+      "Sophisticated Lady",
+      "Beacause You´re You",
+      "Black and Tan Fantasy",
+      "Stratosphere",
+      "Nana",
+      "Miss Otis Regrets",
+      "Unsophisticated Sue",
+      "Stardust",
+      "Dream of You",
+      "Call It Anything"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/For_Dancers_Only",
+    "page": {
+     "requestedTitle": "For Dancers Only",
+     "resolvedTitle": "For Dancers Only",
+     "shortDescription": "1983 studio album by Junior Mance and Martin Rivera",
+     "extract": "For Dancers Only is an album by jazz pianist Junior Mance and bassist Martin Rivera that was released on the Sackville label in 1983. Though the front cover credits the album to Junior Mance and Martin Rivera, the spine and disc label both credit it to Junior Mance alone, and the liner notes characterize Rivera as a sideman.\n\n\n== Reception ==\n\nAllmusic reviewer Scott Yanow described the album as \"Accessible yet creative music, recommended to a wide audience\".\n\n\n== Track listing ==\n\"Harlem Lullaby\" (Junior Mance) - 7:10\n\"Girl of My Dreams\" (Sunny Clapp) - 4:17\n\"Prelude to a Kiss\" (Duke Ellington, Irving Gordon, Irving Mills) - 4:45\n\"Come on Home\" (Horace Silver) - 5:51\n\"For Dancers Only\" (Sy Oliver, Don Raye, Vic Schoen) - 4:55\n\"Run 'Em Around\" (Mance) - 4:43\n\"Summertime\" (George Gershwin, DuBose Heyward) - 11:56\n\n\n== Personnel ==\nJunior Mance - piano\nMartin Rivera - bass\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "the-joint-is-jumpin",
+  "kind": "album",
+  "ours": {
+   "title": "The Joint Is Jumpin'",
+   "artist": "Fats Waller",
+   "year": 1937,
+   "label": "Unknown",
+   "albumDNA": "A Handful of Keys is an album of live performances by jazz pianist Fats Waller & His Rhythm, the only authorized live performances of the musician. It features previously unreleased live radio transcriptions originally broadcast in 1938.",
+   "keyTracks": [
+    "Handful of Keys",
+    "The Minor Drag",
+    "Numb Fumblin'",
+    "Ain't Misbehavin'",
+    "Smashing Thirds",
+    "African Ripples"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Handful_of_Keys_(album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "d5dd68a9-4a9e-4853-b3d0-61dd8eb7ac98",
+     "title": "The Joint Is Jumpin'",
+     "date": "1987",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Fats Waller"
+     ],
+     "labels": [
+      {
+       "name": "Bluebird",
+       "catalogNumber": "6288-2-RB"
+      },
+      {
+       "name": "RCA",
+       "catalogNumber": "6288-2-RB"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "73e7a089-767a-3d68-a5f5-97983776485a",
+      "title": "The Joint Is Jumpin'",
+      "firstReleaseDate": "1987",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "Handful of Keys",
+      "The Minor Drag",
+      "Numb Fumblin'",
+      "Ain't Misbehavin'",
+      "Smashing Thirds",
+      "African Ripples",
+      "Alligator Crawl",
+      "Viper's Drag",
+      "Lulu's Back in Town",
+      "I'm Crazy 'Bout My Baby",
+      "S'posin'",
+      "Honeysuckle Rose",
+      "Blues",
+      "Tea for Two",
+      "I Ain't Got Nobody",
+      "The Joint Is Jumpin'",
+      "The Sheik of Araby",
+      "Yacht Club Swing",
+      "(When You) Squeeze Me",
+      "Your Feet's Too Big",
+      "Carolina Shout",
+      "Honeysuckle Rose",
+      "Ain't Misbehavin'"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Handful_of_Keys_(album)",
+    "page": {
+     "requestedTitle": "Handful of Keys (album)",
+     "resolvedTitle": "Handful of Keys (album)",
+     "shortDescription": "1957 compilation album (live) by Fats Waller",
+     "extract": "A Handful of Keys is an album of live performances by jazz pianist Fats Waller & His Rhythm, the only authorized live performances of the musician. It features previously unreleased live radio transcriptions originally broadcast in 1938.\n\n\n== Track listing ==\n\"Ain't Misbehavin'\" (Waller, Harry Brooks, Andy Razaf) – 1:06\n\"The Joint is Jumpin'\" (Waller, J. C. Johnson, Razaf) – 3:00\n\"Inside\" (a.k.a. \"Inside This Heart of Mine\") (Waller) – 3:01\n\"I Had To Do It\" (Waller, Razaf) – 2:15\n\"E Flat Blues\" (Clarence Williams, Thomas Morris) – 2:48\n\"Hold My Hand\" (Waller, Johnson) – 2:28\n\"Stop Beatin' 'Round the Mulberry Bush\" (Clay Boland, Bickley Reichner) – 2:54\n\"What's The Matter With You\" (Jimmy Webb, Stan Levey) – 2:31\n\"Hallelujah\" (Vincent Youmans, Leo Robin, Clifford Grey) – 1:34\n\"What's Your Name\" (Fats Waller, Johnson) – 3:26\n\"I Simply Adore You\" (Paul Mann, Ned Weaver) – 2:37\n\"My Best Wishes\" (Samuel Pokrass, Ted Koehler) – 2:29\n\"Handful of Keys\" (Waller) – 1:57\n\"The Sheik of Araby\" (Ted Snyder, Harry B. Smith, Francis Wheeler) – 3:16\n\"The Flat Foot Floogie\" (Slim Gaillard, Slam Stewart, Bud Green) – 4:00\n\"St. Louis Blues\" (W. C. Handy) – 1:57\n\"Pent Up In a Penthouse\" (Williams, Tommie Connor) – 3:34\n\"Honeysuckle Rose\" (Waller, Razaf) – 3:40\n\"I Got Rhythm\" (George Gershwin, Ira Gershwin) – 2:36\n\"Some of These Days\" (Shelton Brooks) – 2:12\n\"After You've Gone\" (Turner Layton, Henry Creamer) – 2:01\n\"The Yacht Club Swing\" (Waller, Johnson, Herman Autrey) – 3:11\nRecorded live at NBC Studios and The Yacht Club, New York, in 1938\n\n\n== Personnel ==\nMusicians\n\nFats Waller – piano and vocals\nHerman Autrey – trumpet\nGene Sedric – clarinet and tenor saxophone\nAl Casey – guitar\nCedric Wallace – bass\nSlick Jones – drums\nProduction\n\nMike Ragogna, Glenn Korman – producer\nWill Friedwald – producer, liner notes\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "lunceford-special",
+  "kind": "album",
+  "ours": {
+   "title": "Lunceford Special",
+   "artist": "Jimmie Lunceford",
+   "year": 1940,
+   "label": "Unknown",
+   "albumDNA": "Bandleader, alto saxophone player Jimmie Lunceford's 1940 album Lunceford Special draws from the contemporary jazz tradition. The album comes from the big band era when jazz was America's popular music, driven by dancing and radio. A contemporary jazz entry from 1940 by Jimmie Lunceford, documenting the breadth of the swing period.",
+   "keyTracks": [
+    "'Tain't What You Do (It's the Way That You Do It)",
+    "Le Jazz Hot",
+    "Baby, Won't You Please Come Home",
+    "The Lonesome Road",
+    "Shoemaker's Holiday",
+    "Blue Blazes"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Jimmie_Lunceford"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "c06849e6-4b9e-40d9-8be7-01bc13244cca",
+     "title": "Lunceford Special",
+     "date": "2001",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Jimmie Lunceford"
+     ],
+     "labels": [
+      {
+       "name": "Columbia",
+       "catalogNumber": "CK 65647"
+      },
+      {
+       "name": "Legacy",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "7a83a081-5c7f-3f20-a08e-1598ac50fe59",
+      "title": "Lunceford Special",
+      "firstReleaseDate": "2001-07-02",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "'Tain't What You Do (It's the Way That You Do It)",
+      "Le Jazz Hot",
+      "Baby, Won't You Please Come Home",
+      "The Lonesome Road",
+      "Shoemaker's Holiday",
+      "Blue Blazes",
+      "Mandy, Make Up Your Mind",
+      "Ain't She Sweet",
+      "White Heat",
+      "Well Alright Then",
+      "I Want the Waiter",
+      "Rock It for Me",
+      "Wham (Re-Bop-Boom-Bam)",
+      "Uptown Blues",
+      "Lunceford Special",
+      "Blues in the Groove",
+      "It's Time to Jump and Shout",
+      "What's Your Story, Morning Glory",
+      "Dinah, Part 1",
+      "Dinah, Part 2",
+      "Monotony in Four Flats",
+      "Swingin' on C"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Jimmie_Lunceford",
+    "page": {
+     "requestedTitle": "Jimmie Lunceford",
+     "resolvedTitle": "Jimmie Lunceford",
+     "shortDescription": "American jazz musician (1902–1947)",
+     "extract": "James Melvin Lunceford (June 6, 1902 – July 12, 1947) was an American jazz alto saxophonist and bandleader in the swing era.\n\n\n== Early life ==\nLunceford was born on a farm in the Evergreen community, west of the Tombigbee River, near Fulton, Mississippi, United States. The 53-acre (21 ha) farm was owned by his father, James. His mother was Idella (\"Ida\") Shumpert of Oklahoma City, an organist of \"more than average ability\". Seven months after James Melvin was born, the family moved to Oklahoma City.\nThe family next moved to Denver where Lunceford attended high school and studied music under Wilberforce J. Whiteman, father of Paul Whiteman, whose band was soon to acquire a national reputation. As a child in Denver, he learned several instruments. After high school, Lunceford continued his studies at Fisk University. In 1922, he played alto saxophone in a local band led by the violinist George Morrison which included Andy Kirk, another musician destined for fame as a bandleader.\n\n\n== Career ==\n\nIn 1927, while an athletic instructor at Manassas High School in Memphis, Tennessee, Lunceford organized a student band, the Chickasaw Syncopators, whose name was changed to the Jimmie Lunceford Orchestra. Under the new name, the band started its professional career in 1929, and made its first recordings in 1930. Lunceford was the first public high school band director in Memphis.\nAfter a period of touring, in 1934 the band accepted a booking at the Harlem nightclub The Cotton Club for their revue \"Cotton Club Parade\" starring Adelaide Hall. The Cotton Club had already featured Duke Ellington and Cab Calloway, who won their first widespread fame from their inventive shows for the Cotton Club's all-white patrons. With their tight musicianship and the often outrageous humor in their music and lyrics, Lunceford's orchestra made an ideal band for the club, and Lunceford's reputation began to steadily grow.\nJimmie Lunceford's band differed from other great bands of the time because it was better known for its ensemble than for its solo work. Additionally, he was known for using a two-beat rhythm, called the Lunceford two-beat, as opposed to the standard four-beat rhythm. This distinctive \"Lunceford style\" was largely the result of the imaginative arrangements by trumpeter Sy Oliver, which set high standards for dance-band arrangers of the time. Though not well known as a musician, Lunceford knew how to play several instruments and was even featured on flute in \"Liza\".\nComedy and vaudeville played a distinct part in Lunceford's presentation. Songs such as \"Rhythm Is Our Business\" (featured in a 1937 musical short with Myra Johnson (Taylor) on vocals), \"I'm Nuts about Screwy Music\", \"I Want the Waiter (With the Water)\", and \"Four or Five Times\" displayed a playful sense of swing, often through clever arrangements by trumpeter Sy Oliver and bizarre lyrics. Lunceford's stage shows often included costumes, skits, and obvious jabs at mainstream white bands, such as Paul Whiteman's and Guy Lombardo's.\nDespite the band's comic veneer, Lunceford always maintained professionalism in the music befitting a former teacher; this professionalism paid off and during the apex of swing in the 1930s, the Orchestra was considered the equal of Duke Ellington's, Earl Hines' or Count Basie's. This precision can be heard in such pieces as \"Wham (Re-Bop-Boom-Bam)\", \"Lunceford Special\", \"For Dancers Only\", \"Uptown Blues\", and \"Stratosphere\". The band's noted saxophone section was led by alto sax player Willie Smith. Lunceford often used a conducting baton to lead his band.\nThe orchestra began recording for the Decca label and later signed with the Columbia subsidiary Vocalion in 1938. They toured Europe extensively in 1937, but had to cancel a second tour in 1939 because of the outbreak of World War II. Columbia dropped Lunceford in 1940 because of flagging sales. (Oliver departed the group before the scheduled European tour to take a position as an arranger for Tommy Dorsey). Lunceford returned to the Decca label. The orchestra appeared in the 1941 movie Blues in the Night.\nLunceford's band was hired to play at the Elks Ballroom in Los Angeles on September 26, 1940 and again on June 26, 1947, by Leon Hefflin Sr. Most of Lunceford's sidemen were underpaid and left for better paying bands, leading to the band's decline.\n\n\n== Death ==\nAfter playing McElroy's Ballroom in Portland, Lunceford and his orchestra were in Seaside, Oregon, to play at The Bungalow danc"
+    }
+   }
+  }
+ },
+ {
+  "id": "django-reinhardt-et-son-quintette",
+  "kind": "album",
+  "ours": {
+   "title": "Nuages",
+   "artist": "Django Reinhardt",
+   "year": 1940,
+   "label": "Unknown",
+   "albumDNA": "\"Nuages\" is one of the best-known compositions by Django Reinhardt. He recorded at least thirteen versions of the tune, which is a jazz standard and a mainstay of the gypsy swing repertoire. English and French lyrics have been added to the piece, which was originally an instrumental work. The title translated into English is \"Clouds\", but the adaptation with English lyrics is titled \"It's the Bluest Kind of Blues\".",
+   "keyTracks": [
+    "Nuages",
+    "Swing Guitars",
+    "Saint Louis Blues",
+    "Viper's Dream",
+    "Daphne",
+    "Dinah"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Nuages"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "5c162ec5-f61d-405d-99e2-b390b85c9fe4",
+     "title": "Nuages",
+     "date": "1988",
+     "country": "FR",
+     "status": "Official",
+     "artists": [
+      "Django Reinhardt"
+     ],
+     "labels": [
+      {
+       "name": "Vogue",
+       "catalogNumber": "670205"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "57e47d74-f785-3940-84cf-d557657975c0",
+      "title": "Nuages",
+      "firstReleaseDate": "1988",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "Nuages",
+      "Swing Guitars",
+      "Saint Louis Blues",
+      "Viper's Dream",
+      "Daphne",
+      "Dinah",
+      "Minor Swing",
+      "Les Yeux Noirs",
+      "Old Man River",
+      "Louise",
+      "Dinette",
+      "Swingtime in Springtime",
+      "Blues en Mineur",
+      "Swing 39",
+      "Belleville",
+      "Crepuscule"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Nuages",
+    "page": {
+     "requestedTitle": "Nuages",
+     "resolvedTitle": "Nuages",
+     "shortDescription": "Composition by Django Reinhardt",
+     "extract": "\"Nuages\" (French pronunciation: [nɥaʒ]) is one of the best-known compositions by Django Reinhardt. He recorded at least thirteen versions of the tune, which is a jazz standard and a mainstay of the gypsy swing repertoire. English and French lyrics have been added to the piece, which was originally an instrumental work. The title translated into English is \"Clouds\", but the adaptation with English lyrics is titled \"It's the Bluest Kind of Blues\".\nIn 1940, Django made two recordings of \"Nuages\" in F major, and with a clarinet melody. (Some later recordings are in G  major, perhaps to suit the violin.) Unhappy with the first recording, Reinhardt added a second clarinet, creating a renowned arrangement for the December 1940 recording. Reinhardt's 1946 recording (as can be heard in the sample) is in the key of G major. A final recording was made at a 1953 session just before he died, where we hear Reinhardt with only Maurice Vander on piano, Pierre Michelot on bass, and Jean-Louis Viale on drums. He was using an electric guitar by this time. \"Nuages\" was released by Django Reinhardt and the Quintet of the Hot Club of France on the French Swing label as a 78-RPM single in 1940. The flip side is \"Les Yeux Noirs\".\n\n\n== Other recordings ==\nSidney Bechet – Rendez-vous avec Sidney Bechet et Andre Reweliotty (1953)\nTony Bennett – used the music with new lyrics that he wrote for a song titled \"All for You\" on The Art of Romance (2004)\nBenny Carter – Elegy in Blue (1994)\nPino Daniele – vocal version in his album – Passi d'autore (2004)\nLucienne Delyle – vocal version of \"Nuages\" with French lyrics by Jacques Larue (1942)\nDenny Dennis with the Stanley Black Orchestra – vocal version \"It's the Bluest Kind of Blues My Baby Sings\" with English lyrics by Spencer Williams (1942)\nPaul Desmond with Ed Bickert – Pure Desmond (1974)\nPeggy Lee with Dave Barbour and His Orchestra – vocal version \"It's the Bluest Kind of Blues\" (1946, not issued until 2000)\nManhattan Transfer – on their album Swing (1997) – \"Clouds\" – with vocal arrangement by Gene Puerling and vocalese lyrics by Jon Hendricks – guest appearances by the Rosenberg Trio and Stéphane Grappelli (a founding member of Django's Quintette du Hot Club de France—one of Grappelli's last recordings)\nZlatko Manojlović – Zlatko i njegove gitare (1980)\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "zodiac-suite",
+  "kind": "album",
+  "ours": {
+   "title": "The Zodiac Suite",
+   "artist": "Mary Lou Williams",
+   "year": 1945,
+   "label": "Asch",
+   "albumDNA": "Zodiac Suite is a series of 12 pieces of jazz music written by the American jazz pianist and composer Mary Lou Williams and first performed in 1945. The suite makes use of elements of classical music alongside jazz, and Williams was influenced by modernism when writing and arranging it. Each song in the suite is inspired by an astrological sign and musicians or performers who were born under it. Williams began writing music for Zodiac Suite in 1942 and finished the composition in 1945. One of the first extended jazz compositions. Williams bridged the swing era and bebop, earning respect from both camps while charting her own path.",
+   "keyTracks": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Scorpio"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Zodiac_Suite"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Zodiac_Suite",
+    "page": {
+     "requestedTitle": "Zodiac Suite",
+     "resolvedTitle": "Zodiac Suite",
+     "shortDescription": "1945 jazz composition by Mary Lou Williams",
+     "extract": "Zodiac Suite is a series of 12 pieces of jazz music written by the American jazz pianist and composer Mary Lou Williams and first performed in 1945. The suite makes use of elements of classical music alongside jazz, and Williams was influenced by modernism when writing and arranging it. Each song in the suite is inspired by an astrological sign and musicians or performers who were born under it. Williams began writing music for Zodiac Suite in 1942 and finished the composition in 1945.\nWilliams first recorded the suite as part of a trio for Asch records and followed this with two notable performances with larger groups. The first performance was with a chamber jazz group and the second was with a symphony orchestra at Carnegie Hall in New York City. These performances took such a toll on Williams that she took a break from performing shortly afterwards.\nWhile the Asch recording was well received by critics, the contemporary reception to the two concerts was mixed. Zodiac Suite is notable as an early instance of the fusion of classical and jazz music. Williams's recording and initial performances of the suite have been recognised as breakthroughs in the history of jazz.\n\n\n== Music ==\n\nZodiac Suite is a series of 12 distinct but conceptually linked short pieces of music each representing a sign of the zodiac composed by American musician Mary Lou Williams. The suite was originally written for small group performance: six songs for a trio, five songs for a solo piano and one song for a duet of piano and bass. The music has features of classical music alongside the musical language of blues and jazz. A demonstration of this is given in \"Aries\", where the music moves from the sounds of boogie-woogie to dissonance within the first minute and a half of the piece. Suspended chords, whole-tone scales and contrasting use of major and minor are used throughout the suite. Scholar Richard Thompson noted the wide variance of styles in the suite, which included \"20th century European piano preludes, blues boogie-woogie, vamps, ABA sectional forms, which often contrast jazz and classical writing, free piano cadenzas, standard song progressions and forms.\" Jazz scholar Mark Tucker proposed that the suite is \"part of a larger stream of American composition\" which encompasses the work of Paul Whiteman, Ferde Grofé, Peter DeRose, Alec Wilder, Bix Beiderbecke and Willard Robison. American academic Farah Griffin compared the suite to trumpeter Miles Davis's 1959 album Kind of Blue, and wrote that Zodiac Suite \"leaps ahead a decade, previewing the sounds that would dominate the late fifties\" Williams later created an orchestral score for the suite based on the influence of American composer Duke Ellington's longer works and European composers like Béla Bartók, Igor Stravinsky and Paul Hindemith. The orchestrated rendering of the suite integrated the individual pieces into a more unified work.\n\n\n== Composition and first performances ==\n\n\n=== Composition and Asch recording ===\nWilliams began writing Zodiac Suite in 1942 after borrowing a book on astrology. She was interested in the idea of writing music inspired by the star signs of her musician friends. The first three compositions were for \"Scorpio\", \"Gemini\" and \"Taurus\". Ellington's extended jazz piece Black, Brown and Beige had given Williams the idea to create an orchestral work that reached outside of jazz music norms. The suite was also influenced by classical composers such as Bartók. Williams explained that the Zodiac Suite was \"the beginning of a real fulfilment of one of my ambitions\".\nWilliams had hoped to finish the suite for a live performance on the radio station WNEW in 1945 with Al Lucas on bass and Jack Parker on drums. By the time of the performance, she still only had compositions for three star signs. The remaining nine signs were improvised live on air. The performance received a positive reception and Williams subsequently recorded Zodiac Suite with the same trio for Asch records.\nMost pieces in the suite were dedicated to or influenced by other performers and their star sign. \"Aries\" was for Ben Webster and Billie Holiday; \"Taurus\" for Duke Ellington; \"Gemini\" for Shorty Baker; \"Cancer\" for Lem Davis; \"Leo\" for Vic Dickenson; \"Libra\" for Art Tatum, Dizzy Gillespie, Bud Powell, Thelonious Monk, Charlie Parker and John Coltrane; \"Scorpio\" for Ethel Waters, Katherine Dunham and Al Lucas; \"Sagittarius\" for Eddie Heywood; \"Capricorn\" for Pearl Primus and Frankie Newton; \""
+    }
+   }
+  }
+ },
+ {
+  "id": "django",
+  "kind": "album",
+  "ours": {
+   "title": "Djangology",
+   "artist": "Django Reinhardt",
+   "year": 1949,
+   "label": "Vogue",
+   "albumDNA": "Jean Reinhardt, known by his Romani nickname Django, was a Belgian-born Romani jazz guitarist and composer who lived most of his life in France. He was one of the first major jazz talents to emerge in Europe and has been hailed as one of its most significant exponents. Invented European jazz. Django's influence extends from jazz to rock to countless guitarists who marvel at his impossible virtuosity.",
+   "keyTracks": [
+    "Minor Swing",
+    "Nuages",
+    "Djangology",
+    "Swing 39"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Django_Reinhardt"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "12922d94-7a73-4c61-ad64-42e485c38e4f",
+     "title": "Djangology",
+     "date": "1974",
+     "country": "GB",
+     "status": null,
+     "artists": [
+      "Django Reinhardt"
+     ],
+     "labels": [
+      {
+       "name": "Jazz Vogue",
+       "catalogNumber": "VJD502"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "80e3091c-8c3f-4272-9b3f-6bec1dbe3110",
+      "title": "Djangology",
+      "firstReleaseDate": "1974",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "Djangology",
+      "Blue Drag",
+      "Dinah",
+      "Clouds",
+      "Some of These Days",
+      "Lentement Mademoiselle",
+      "Nuages",
+      "Just One of Those Things",
+      "Mélodie au crépuscule",
+      "Porto Cabello",
+      "Sweet Chorus",
+      "Swing 39",
+      "Billet doux",
+      "Lover Man",
+      "Place de Broukère",
+      "September Song",
+      "Saint Louis Blues",
+      "Louise",
+      "Daphne",
+      "Swing Guitars",
+      "Ol' Man Rover",
+      "Tears",
+      "I Love You",
+      "Manoir de mes rêves"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Django_Reinhardt",
+    "page": {
+     "requestedTitle": "Django Reinhardt",
+     "resolvedTitle": "Django Reinhardt",
+     "shortDescription": "Romani-French jazz musician (1910–1953)",
+     "extract": "Jean Reinhardt (23 January 1910 – 16 May 1953), known by his Romani nickname Django (French: [dʒãŋɡo ʁɛjnaʁt] or [dʒɑ̃ɡo ʁenɑʁt]), was a Belgian-born Romani jazz guitarist and composer who lived most of his life in France. He was one of the first major jazz talents to emerge in Europe and has been hailed as one of its most significant exponents.\nWith violinist Stéphane Grappelli, Reinhardt formed the Paris-based Quintette du Hot Club de France in 1934. The group was among the first to play jazz that featured the guitar as a lead instrument. Reinhardt recorded in France with many visiting American musicians, including Coleman Hawkins and Benny Carter, and briefly toured the United States with Duke Ellington's orchestra in 1946. He died suddenly of a brain hemorrhage in 1953 at the age of 43.\nReinhardt's most popular compositions have become standards within gypsy jazz, including \"Minor Swing\", \"Daphne\", \"Belleville\", \"Djangology\", \"Swing '42\", and \"Nuages\". The jazz guitarist Frank Vignola said that nearly every major popular music guitarist in the world has been influenced by Reinhardt. Over the last few decades, annual Django festivals have been held throughout Europe and the U.S., and a biography has been written about his life. In February 2017, the Berlin International Film Festival held the world premiere of the French biographical film Django, based on Reinhardt's life.\n\n\n== Biography ==\n\n\n=== Early life ===\nReinhardt was born on 23 January 1910 in Liberchies, Pont-à-Celles, Belgium, into a French family of Manouche Romani descent. His French, Alsatian father, Jean Eugène Weiss, domiciled in Paris with his wife, went by Jean-Baptiste Reinhardt, his wife's surname, to avoid French military conscription. His mother, Laurence Reinhardt, was a dancer. The birth certificate refers to \"Jean Reinhart, son of Jean Baptiste Reinhart, artist, and Laurence Reinhart, housewife, domiciled in Paris\".\nA number of authors have repeated the suggestion that Reinhardt's nickname, Django, is Romani for \"I awake\"; it may also simply have been a diminutive, or local Walloon version, of \"Jean\". Reinhardt spent most of his youth in Romani encampments close to Paris, where he started playing the violin, banjo and guitar. He became adept at stealing chickens. His father reportedly played music in a family band comprising himself and seven brothers; a surviving photograph shows this band including his father on piano.\nReinhardt was attracted to music at an early age, first playing the violin. At the age of 12, he received a banjo-guitar as a gift. He quickly taught himself to play, mimicking the fingerings of musicians he watched, who would have included local virtuoso players of the day such as Jean \"Poulette\" Castro and Auguste \"Gusti\" Malha, as well as from his uncle Guiligou, who played violin, banjo and guitar. Reinhardt was able to make a living playing music by the time he was 15, busking in cafés, often with his brother Joseph. At this time, he had not started playing jazz, although he had probably heard and been intrigued by the version of jazz played by American expatriate bands like Billy Arnold's.\nReinhardt received little formal education and acquired the rudiments of literacy only in adult life.\n\n\n=== Marriage and injury ===\nAt the age of 17, Reinhardt married Florine \"Bella\" Mayer, a girl from the same Romani settlement, according to Romani custom (although not an official marriage under French law). The following year he recorded for the first time. On these recordings, made in 1928, Reinhardt plays the \"banjo\" (actually the banjo-guitar) accompanying the accordionists Maurice Alexander, Jean Vaissade and Victor Marceau, and the singer Maurice Chaumel. His name was now drawing international attention, such as from British bandleader Jack Hylton, who came to France just to hear him play. Hylton offered him a job on the spot, and Reinhardt accepted.\nBefore he had a chance to start with the band, Reinhardt nearly died. On the night of 2 November 1928, Reinhardt was going to bed in the wagon that he and his wife shared in the caravan. He knocked over a candle, which ignited the extremely flammable celluloid that his wife used to make artificial flowers. The wagon was quickly  engulfed in flames. The couple escaped, but Reinhardt suffered extensive burns over half his body. During his 18-month hospitalization, doctors recommended amputation of his badly damaged right leg. Reinhardt refused the surgery and was eventually able t"
+    }
+   }
+  }
+ },
+ {
+  "id": "genius-of-modern-music-vol-1",
+  "kind": "album",
+  "ours": {
+   "title": "Genius of Modern Music, Volume 1",
+   "artist": "Thelonious Monk",
+   "year": 1951,
+   "label": "Blue Note",
+   "albumDNA": "Genius of Modern Music, Vols. One & Two are a pair of separate but related 12\" compilation albums (LPs) by American jazz pianist Thelonious Monk released on Blue Note in 1956. Later re-issues on CD include more material recorded at the same sessions but not released on the original LPs.",
+   "keyTracks": [
+    "Humph",
+    "Evonce",
+    "Suburban Eyes",
+    "Thelonious",
+    "Evonce (alternate take)",
+    "Suburban Eyes (alternate take)"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Genius_of_Modern_Music%2C_Vols._One_%26_Two"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "a87f990c-88ff-4f6c-9014-e7a200a294b4",
+     "title": "Genius of Modern Music, Volume One",
+     "date": "1956",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Thelonious Monk"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "BLP 1510"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "4ef4f9b3-f1e1-35fa-a117-ca9004b2a80c",
+      "title": "Genius of Modern Music, Volume 1",
+      "firstReleaseDate": "1951",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "’round About Midnight",
+      "Off Minor",
+      "Ruby My Dear",
+      "I Mean You",
+      "April in Paris",
+      "In Walked Bud",
+      "Thelonious",
+      "Epistrophy",
+      "Misterioso",
+      "Well You Needn’t",
+      "Introspection",
+      "Humph"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Genius_of_Modern_Music%2C_Vols._One_%26_Two",
+    "page": {
+     "requestedTitle": "Genius of Modern Music, Vols. One & Two",
+     "resolvedTitle": "Genius of Modern Music, Vols. One & Two",
+     "shortDescription": "1956 compilation album by Thelonious Monk",
+     "extract": "Genius of Modern Music, Vols. One & Two are a pair of separate but related 12\" compilation albums (LPs) by American jazz pianist Thelonious Monk released on Blue Note in 1956. Later re-issues on CD include more material recorded at the same sessions but not released on the original LPs.\n\n\n== Background ==\n\n\n=== Recording and production ===\nMonk recorded six sessions for Blue Note, all produced by Alfred Lion: October 15 and 24, 1947, November 21, 1947, July 2, 1948, July 23, 1951, and May 30, 1952. All sessions were recorded by Doug Hawkins at WOR Studios, except July 2, 1948, recorded at Apex Studios.\n\n\n=== Release history ===\nTwo 10\"s were cut from the first five sessions: Genius of Modern Music (1951) and Genius of Modern Music, Vol. 2 (1952). After 10\"s lost the format war, Blue Note began reissuing its Modern Jazz Series on 12\"s. Material from the two ten-inches, the 1952 session, and other outtakes were recompiled on Genius of Modern Music, Vol. One (BLP 1510) and Genius of Modern Music, Vol. Two (BLP 1511).\nThe two volumes were recompiled for their CD reissue, moving the entire July 2, 1948 session to the Milt Jackson: Wizard of the Vibes reissue, and placing the other five sessions (with outtakes) in chronological order, with the 1947 sessions on Volume One and the 1951 and 1952 sessions on Volume Two.\n\n\n== Track listing ==\n\n\n=== Genius of Modern Music, Volume One – BLP 1510 ===\n\n\n=== Genius of Modern Music, Volume Two – BLP 1511 ===\n\n\n=== CD reissues ===\n\n\n=== Note ===\nThe CD issues compile the five sessions—excluding July 2, 1948, concurrently reissued on Milt Jackson: Wizard of the Vibes—chronologically. The 2001 RVG edition recompiled the track listing, postpending the alternate takes to their respective sessions, and restored the cover art for the original 10\" LPs.\n\n\n== Personnel ==\n\n\n=== Musicians ===\n\n\n==== October 15, 1947 ====\nThelonious Monk – piano\nIdrees Sulieman – trumpet\nDanny Quebec West – alto saxophone\nBilly Smith – tenor saxophone\nGene Ramey – bass\nArt Blakey – drums\n\n\n==== October 24, 1947 ====\nThelonious Monk – piano\nGene Ramey – bass\nArt Blakey – drums\n\n\n==== November 21, 1947 ====\nThelonious Monk – piano\nGeorge Taitt – trumpet\nSahib Shihab – alto saxophone\nBob Paige – bass\nArt Blakey – drums\n\n\n==== July 2, 1948 ====\nMilt Jackson – vibraphone\nThelonious Monk – piano\nJohn Simmons –  bass\nShadow Wilson – drums\n\n\n==== July 23, 1951 ====\nThelonious Monk – piano\nSahib Shihab – alto saxophone (except \"Ask Me Now\")\nMilt Jackson – vibraphone (except \"Ask Me Now\")\nAl McKibbon – bass\nArt Blakey – drums\n\n\n==== May 30, 1952 ====\nThelonious Monk – piano\nKenny Dorham – trumpet\nLou Donaldson – alto saxophone\nLucky Thompson – tenor saxophone\nNelson Boyd – bass\nMax Roach – drums\n\n\n=== Technical personnel ===\n\n\n==== Original ====\nAlfred Lion – producer\nDoug Hawkins – engineer\nIra Gitler – liner notes\n\n\n==== Reissue ====\nMichael Cuscuna – reissue producer\nRon McMaster – digital transfer\n\n\n== See also ==\n\n\n== References ==\n\n\n== External links ==\nAlbum's page on Blue Note website"
+    }
+   }
+  }
+ },
+ {
+  "id": "lover-man",
+  "kind": "album",
+  "ours": {
+   "title": "Lover Man",
+   "artist": "Billie Holiday",
+   "year": 1951,
+   "label": "Decca Records",
+   "albumDNA": "\"Lover Man \" is a 1941 popular song written by Jimmy Davis, Roger (\"Ram\") Ramirez, and James Sherman. It is particularly associated with Billie Holiday, for whom it was written, and her version was inducted into the Grammy Hall of Fame in 1989.",
+   "keyTracks": [
+    "Lover Man (Oh, Where Can You Be?)",
+    "That Ole Devil Called Love",
+    "You're My Thrill",
+    "Crazy He Calls Me",
+    "My Man (Mon Homme)"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "fc4227de-c4d6-4f60-b9be-10056469e48e",
+     "title": "Lover Man",
+     "date": "1951",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Billie Holiday"
+     ],
+     "labels": [
+      {
+       "name": "Decca Records",
+       "catalogNumber": "DL5345"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "01ca1df8-32b5-4f32-baef-3f8273fdd3d5",
+      "title": "Lover Man",
+      "firstReleaseDate": "1951",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Lover Man (Oh, Where Can You Be?)",
+      "That Ole Devil Called Love",
+      "You're My Thrill",
+      "Crazy He Calls Me",
+      "My Man (Mon Homme)",
+      "Porgy",
+      "There Is No Greater Love",
+      "Solitude"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Lover Man (album)",
+     "resolvedTitle": "Lover Man (disambiguation)",
+     "shortDescription": "Topics referred to by the same term",
+     "extract": "\"Lover Man\", or \"Lover Man (Oh, Where Can You Be?)\", is a 1941 song made popular by Billie Holiday.\nLover Man may also refer to:\n\nLover Man (Duke Jordan album), 1979\nLover Man (Archie Shepp album), 1989\nLover Man: A Tribute to Billie Holiday, John Hicks 1993\n\"Lover Man\", song by Jimi Hendrix from Isle of Wight\n\"Loverman\", a 1994 song by Nick Cave\n\"Loverman\", song by Train from A Girl, a Bottle, a Boat\n\n\n== See also ==\nMr Loverman, a 2013 novel by Bernardine Evaristo\nMr Loverman, a 2024 TV mini-series adaptation of the novel, starring Lennie James\n\"Mr. Loverman\", a 1992 song by Shabba Ranks"
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Lover Man (disambiguation)",
+      "shortDescription": "Topics referred to by the same term",
+      "extractHead": "\"Lover Man\", or \"Lover Man (Oh, Where Can You Be?)\", is a 1941 song made popular by Billie Holiday.\nLover Man may also refer to:\n\nLover Man (Duke Jordan album), 1979\nLover Man (Archie Shepp album), 1989\nLover Man: A Tribute to Billie Holiday, John Hicks 1993\n\"Lover Man\", song by Jimi Hendrix from Isle of Wight\n\"Loverman\", a 1994 song by Nick Cave\n\"Loverman\", song by Train from A Girl, a Bottle, a Boat\n\n\n== See also ==\nMr Loverman, a 2013 novel by Bernardine Evaristo\nMr Loverman, a 2024 TV mini-s"
+     },
+     {
+      "resolvedTitle": "The Lover in Me (album)",
+      "shortDescription": "1988 studio album by Sheena Easton",
+      "extractHead": "The Lover in Me is the ninth studio album by the Scottish singer Sheena Easton. It was released in November 1988, was her debut for MCA and spawned five singles – the title track, \"Days Like This\", \"101\", \"No Deposit, No Return\" and \"Follow My Rainbow\". In 2006, Cherry Red Records (UK) re-released The Lover in Me, (Expanded Edition) remastered and with added bonus tracks. On May 27, 2016, the album was officially released in the US for digital download on iTunes.\n\n\n== Background ==\nThe album has"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "masterpieces-by-ellington",
+  "kind": "album",
+  "ours": {
+   "title": "Masterpieces by Ellington",
+   "artist": "Duke Ellington",
+   "year": 1951,
+   "label": "Unknown",
+   "albumDNA": "Masterpieces by Ellington is the first LP album by American pianist, composer, and bandleader Duke Ellington, recorded for the Columbia Records in 1950. It was one of the earliest 12-inch LPs to take advantage of the extended time available and consisted of four tracks, three of them \"concert arrangements\" of Ellington standards and one, \"The Tattooed Bride\", a recent tone poem.",
+   "keyTracks": [
+    "Mood Indigo",
+    "Sophisticated Lady",
+    "The Tattooed Bride",
+    "Solitude",
+    "Vagabonds",
+    "Smada"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Masterpieces_by_Ellington"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 0.61,
+    "release": null,
+    "searchCandidates": [
+     {
+      "mbid": "ad946575-9a0c-3c1f-9a4a-42eb33079501",
+      "title": "Masterpieces by Ellington",
+      "score": 100,
+      "artists": [
+       "Duke Ellington and His Orchestra"
+      ],
+      "firstReleaseDate": "1951",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     {
+      "mbid": "6bfd7e59-fc20-467a-8040-10a623049871",
+      "title": "Ellington Uptown / The Liberian Suite / Masterpieces by Ellington",
+      "score": 84,
+      "artists": [
+       "Duke Ellington"
+      ],
+      "firstReleaseDate": "2018",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     }
+    ]
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Masterpieces_by_Ellington",
+    "page": {
+     "requestedTitle": "Masterpieces by Ellington",
+     "resolvedTitle": "Masterpieces by Ellington",
+     "shortDescription": "1951 album by Duke Ellington",
+     "extract": "Masterpieces by Ellington is the first LP album by American pianist, composer, and bandleader Duke Ellington, recorded for the Columbia Records in 1950. It was one of the earliest 12-inch LPs to take advantage of the extended time available and consisted of four tracks, three of them \"concert arrangements\" of Ellington standards and one, \"The Tattooed Bride\", a recent tone poem.\n\n\n== Content ==\nThe album features full-length versions of Ellington's classics \"Mood Indigo\" (1930), \"Sophisticated Lady\" (1933), and \"Solitude\" (1934). No longer constrained by the limitations of 78s, these arrangements range from 8 to 15 minutes in length. The first two feature vocals by Eve Duke, recording under the name Yvonne Lanauze, and the third includes a climactic solo by trombonist Lawrence Brown. The newest composition, \"The Tattooed Bride\" (1948), gives extended space to clarinetist Jimmy Hamilton in almost concerto-like fashion. The lengthy arrangements were created by both Ellington and his longtime collaborator Billy Strayhorn.\n\n\n== Reception ==\nJazz critic Gary Giddins called the album \"One of the first genuinely innovative 12-inch LPs\". He noted that \"Ellington eschewed the suite format in favor of continuous long-form works that reflected a liberation made possible by the LP. The vividly languorous 15-minute 'Mood Indigo' (on Masterpieces) exemplifies Ellington's newfound freedom.\"\nEllington biographer John Edward Hasse noted that \"Mood Indigo\" in this updated version \"goes through several meters (one section is in waltz time), three keys, and effective contrasts in sonorities, densities, and timbres. What variety Ellington and Strayhorn could manage from the sixteen-piece orchestra and from a familiar short song!\" He also noted that \"'The Tattooed Bride' is considered by some critics as one of Ellington's most effective extended works.\"\nThe AllMusic review by Bruce Eder stated: \"For the first time in his recording career, Ellington was able to forego the three-minutes-and-change restrictions in running time of the 78-rpm disc — he and the band rose to the occasion.\"\n\n\n== Release history ==\nThe original 1951 release under the Columbia Masterworks banner featured a red cover which was replaced by the more modern blue cover in 1956. The album was re-released on CD in 2004 with additional bonus tracks recorded at later sessions.\n\n\n== Track listing ==\n\nBonus tracks on CD reissue\n\n\n== Personnel ==\nDuke Ellington, Billy Strayhorn – piano\nCat Anderson (tracks 1–4, 6 & 7), Shorty Baker, Fats Ford (tracks 1–4), Ray Nance, Nelson Williams – trumpet\nLawrence Brown (tracks 1–4), Tyree Glenn (tracks 1–4), Quentin Jackson, Britt Woodman (tracks 5–7) – trombone\nMercer Ellington (tracks 1–4) - French horn\nJimmy Hamilton – clarinet, tenor saxophone\nJohnny Hodges (tracks 1–4), Willie Smith (tracks 5–7) – alto saxophone\nRussell Procope – alto saxophone, clarinet\nPaul Gonsalves – tenor saxophone\nHarry Carney – baritone saxophone, bass clarinet (track 2)\nWendell Marshall – double bass\nSonny Greer (tracks 1–4), Louis Bellson (tracks 5–7) – drums\nEve Duke (credited as Yvonne Lanauze) – vocals\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "in-walked-bud",
+  "kind": "album",
+  "ours": {
+   "title": "The Amazing Bud Powell, Vol. 1",
+   "artist": "Bud Powell",
+   "year": 1951,
+   "label": "Blue Note",
+   "albumDNA": "The Amazing Bud Powell is a ten-inch LP by American jazz pianist Bud Powell, recorded on August 8, 1949, and May 1, 1951, and released on Blue Note in April 1952. In the first session, Powell performed in quintet with Fats Navarro, Sonny Rollins, Tommy Potter and Roy Haynes, and in trio with Potter and Haynes. In the second, Powell performed in trio with Curley Russell and Max Roach, and solo. Established the template for bebop piano. Powell's right-hand lines and left-hand comping influenced every jazz pianist who followed.",
+   "keyTracks": [
+    "Un Poco Loco",
+    "Parisian Thoroughfare",
+    "A Night in Tunisia",
+    "Bouncing with Bud"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Amazing_Bud_Powell"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/The_Amazing_Bud_Powell",
+    "page": {
+     "requestedTitle": "The Amazing Bud Powell",
+     "resolvedTitle": "The Amazing Bud Powell",
+     "shortDescription": "1952 studio album by Bud Powell",
+     "extract": "The Amazing Bud Powell is a ten-inch LP by American jazz pianist Bud Powell, recorded on August 8, 1949, and May 1, 1951, and released on Blue Note in April 1952. In the first session, Powell performed in quintet with Fats Navarro, Sonny Rollins, Tommy Potter and Roy Haynes, and in trio with Potter and Haynes. In the second, Powell performed in trio with Curley Russell and Max Roach, and solo.\n\n\n== Release history ==\nAll eight original cuts (four from each session) were originally released as 78 rpm singles in 1949 and 1951: \"You Go to My Head c/w Ornithology\" (BN 1566), \"Bouncing with Bud c/w Wail\" (BN 1567), \"Over the Rainbow c/w A Night in Tunisia\" (BN 1576), and \"Un Poco Loco c/w It Could Happen to You\" (BN 1577).\nBlue Note discontinued their 10\" Modern Jazz in late 1955. The following year, the label recompiled Powell's first three sessions as The Amazing Bud Powell, Volume 1 (1956; BLP 1503) and The Amazing Bud Powell, Volume 2 (1956; BLP 1504). In 1989, the album was digitally remastered and released on CD with the tracks listed in session chronological order, leaving five tracks from the 1951 session on the second volume.\nWhen Rudy Van Gelder remastered the pair of the 2001 RVG edition, he placed the first two sessions on Volume 1 and the third session on Volume 2, mirroring the original 10\" releases. Prior to this, on all releases bar the first, the album also contained a number of tracks from sessions originally on The Amazing Bud Powell, Vol. 1.\n\n\n== Reception ==\n\nThe album is rated highly within Powell's musical library, described by All About Jazz as \"among the pianist's most important recordings\" and by The Complete Idiot's Guide to Jazz (in conjunction with volume two) as \"a great introduction to this awesome pianist\". Jazz critic Scott Yanow characterized it in his book Jazz on Record as \"full of essential music\". The Penguin Guide to Jazz Recordings included the album in its suggested “core collection” of essential recordings.\nIn Bebop: The Best Musicians and Recordings, Yanow identifies among the highlights of the album \"Bouncing with Bud\", \"52nd Street Theme\" and \"Dance of the Infidels,\" performed by the \"very exciting quintet\" of 1949, and also the 1951 trio's \"three stunning versions of 'Un Poco Loco'\". Barry Kernfeld in The Blackwell Guide to Recorded Jazz notes with regards to \"Un Poco Loco\" that \"the three takes [of the song]...enable us to hear the evolution of a masterpiece\", a label with which a critic at The New York Times concurred.\nThe album is critically prized among Powell's releases. Among the more discussed of the album's tracks is the pianist's composition \"Un Poco Loco\" (\"A Little Crazy\"), which has been singled out by critics and cultural historians for its musical and cultural significance.\nWhile the song \"Un Poco Loco\" has been identified as musically outstanding, it has also been discussed as culturally significant. According to Race Music: Black Cultures from Bebop to Hip-Hop, although Afro-Cuban jazz had been introduced in the 1940s by such artists as Dizzy Gillespie and Machito, \"Un Poco Loco\" is a significant marker in the establishment of this musical genre, as it revealed \"the Afro-Cuban turn settling into bebop's acceptable field of rhetorical conventions\". More than Afro-Cuban, the authors of that book detect what they describe as a \"Pan-African\" musical influence in the composition's repetition, harmony and cyclic solo that, while not as obviously Afro-international as Gillespie's \"A Night in Tunisia', \"certainly signaled a 'blackness' that became part of the language of subsequent expressions of modern jazz.\" The book Jazz 101 indicates that Powell's performances of this material in 1951 was \"all the more astonishing\" in its \"level of creativity, and even authenticity\" because little was known at the time of African music or how Latin music (aside from the Cuban influence) could be applied to jazz. According to Yanow, in Afro-Cuban Jazz: The Essential Listening Companion, this composition was Powell's only involvement with Afro-Cuban Jazz.\n\n\n== Track listing ==\n\n\n=== Original release ===\n\n\n=== 2001 RVG edition ===\n\n\n== Personnel ==\n\n\n=== Musicians ===\n\n\n==== August 8, 1949 ====\nBud Powell – piano\nFats Navarro – trumpet (except \"You Go to My Head\", \"Ornithology\")\nSonny Rollins – tenor saxophone (except \"You Go to My Head\", \"Ornithology\")\nTommy Potter –  bass\nRoy Haynes – drums\n\n\n==== May 1, 1951 ====\nBud Powell – piano\nCurley Russell – bass (except \"Over the Rainbow\", "
+    }
+   }
+  }
+ },
+ {
+  "id": "ambiance-bechet",
+  "kind": "album",
+  "ours": {
+   "title": "Ambiance Bechet",
+   "artist": "Sidney Bechet",
+   "year": 1952,
+   "label": "Disques Vogue",
+   "albumDNA": "Recorded for Disques Vogue in 1952, Ambiance Bechet presents clarinetist Sidney Bechet working in a dixieland vein. Among the tracks are \"That Old Black Magic\" and \"Because of You (Sans ton Amour)\".",
+   "keyTracks": [
+    "That Old Black Magic",
+    "Because of You (Sans ton Amour)",
+    "Petite Fleur",
+    "I Get a Kick Out of You",
+    "Blues"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "634b8ae0-9fe8-4c0f-a04c-8dce829dea54",
+     "title": "Ambiance Bechet",
+     "date": "1952",
+     "country": "FR",
+     "status": "Official",
+     "artists": [
+      "Sidney Bechet All Stars"
+     ],
+     "labels": [
+      {
+       "name": "Disques Vogue",
+       "catalogNumber": "LD 049"
+      },
+      {
+       "name": "Vogue",
+       "catalogNumber": "LD.049"
+      },
+      {
+       "name": "Vogue Productions",
+       "catalogNumber": "LD.049"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "251f36d0-b702-41c5-8608-e0010a3ab91a",
+      "title": "Ambiance Bechet",
+      "firstReleaseDate": "1952",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "That Old Black Magic",
+      "Because of You (Sans ton Amour)",
+      "Petite Fleur",
+      "I Get a Kick Out of You",
+      "Blues",
+      "Girl's Dance",
+      "It's No Sin (Est-ce un Péché?)",
+      "You're Lucky to Me"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "bird-and-diz",
+  "kind": "album",
+  "ours": {
+   "title": "Bird and Diz",
+   "artist": "Charlie Parker",
+   "year": 1952,
+   "label": "Blue Star",
+   "albumDNA": "Bird and Diz is a studio album by jazz saxophonist Charlie Parker and trumpeter Dizzy Gillespie. It was recorded primarily on June 6, 1950, in New York City. Two tracks featured on the original pressing, \"Passport\" and \"Visa\", were recorded by Parker, without Gillespie and with different personnel than the other tracks, in March and May 1949. The album was originally issued in 1952 in 10\" format as a collection of 78 rpm singles on the Verve subsidiary label Clef Records.",
+   "keyTracks": [
+    "Bloomdido",
+    "An Oscar for Treadwell (alternate take)",
+    "An Oscar for Treadwell (master take)",
+    "Mohawk (alternate take)",
+    "Mohawk (master take)",
+    "My Melancholy Baby (alternate take)"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "48cb5326-8573-4434-903c-387e84ced0d0",
+     "title": "Bird and Diz",
+     "date": "1952",
+     "country": "FR",
+     "status": "Official",
+     "artists": [
+      "Bird",
+      "Diz"
+     ],
+     "labels": [
+      {
+       "name": "Blue Star",
+       "catalogNumber": "6939"
+      },
+      {
+       "name": "Mercury Records",
+       "catalogNumber": "MGC-512"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "069a4693-1752-36da-9707-d98b47a57146",
+      "title": "Bird and Diz",
+      "firstReleaseDate": "1952",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Bloomdido",
+      "Melancholy Baby",
+      "Relaxing with Lee",
+      "Passport",
+      "Leap Frog",
+      "An Oscar for Treadwell",
+      "Mohawk",
+      "Visa"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "bird-and-diz-gillespie",
+  "kind": "album",
+  "ours": {
+   "title": "Bird and Diz",
+   "artist": "Dizzy Gillespie",
+   "year": 1952,
+   "label": "Blue Star",
+   "albumDNA": "Bird and Diz is a studio album by jazz saxophonist Charlie Parker and trumpeter Dizzy Gillespie. It was recorded primarily on June 6, 1950, in New York City. Two tracks featured on the original pressing, \"Passport\" and \"Visa\", were recorded by Parker, without Gillespie and with different personnel than the other tracks, in March and May 1949. The album was originally issued in 1952 in 10\" format as a collection of 78 rpm singles on the Verve subsidiary label Clef Records.",
+   "keyTracks": [
+    "Bloomdido",
+    "An Oscar for Treadwell (alternate take)",
+    "An Oscar for Treadwell (master take)",
+    "Mohawk (alternate take)",
+    "Mohawk (master take)",
+    "My Melancholy Baby (alternate take)"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Bird_and_Diz"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "48cb5326-8573-4434-903c-387e84ced0d0",
+     "title": "Bird and Diz",
+     "date": "1952",
+     "country": "FR",
+     "status": "Official",
+     "artists": [
+      "Bird",
+      "Diz"
+     ],
+     "labels": [
+      {
+       "name": "Blue Star",
+       "catalogNumber": "6939"
+      },
+      {
+       "name": "Mercury Records",
+       "catalogNumber": "MGC-512"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "069a4693-1752-36da-9707-d98b47a57146",
+      "title": "Bird and Diz",
+      "firstReleaseDate": "1952",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Bloomdido",
+      "Melancholy Baby",
+      "Relaxing with Lee",
+      "Passport",
+      "Leap Frog",
+      "An Oscar for Treadwell",
+      "Mohawk",
+      "Visa"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Bird_and_Diz",
+    "page": {
+     "requestedTitle": "Bird and Diz",
+     "resolvedTitle": "Bird and Diz",
+     "shortDescription": "1952 studio album by Charlie Parker and Dizzy Gillespie",
+     "extract": "Bird and Diz is a studio album by jazz saxophonist Charlie Parker and trumpeter Dizzy Gillespie. It was recorded primarily on June 6, 1950, in New York City. Two tracks featured on the original pressing, \"Passport\" and \"Visa\", were recorded by Parker, without Gillespie and with different personnel than the other tracks, in March and May 1949. The album was originally issued in 1952 in 10\" format as a collection of 78 rpm singles on the Verve subsidiary label Clef Records.\nAlthough produced by Norman Granz, known for large ensembles at the time, the album contains compositions performed with the standard bebop instrumentation of saxophone, trumpet, piano, bass, and drums. In a 1952 four-star review of Bird and Diz, a DownBeat magazine columnist wrote of Granz's contribution to the album's sound, stating \"Though there is no mention of bop in Norman Granz'[s] notes, we owe him a salvo for reminding us through this LP that this music is still very much alive.\" It is the final collaborative studio recording by Parker and Gillespie, and has been reissued several times by Verve and PolyGram Records.\n\n\n== Track listing ==\nIncluded on the original LP, \"Passport\" and \"Visa\" were omitted from the reissue because they were not recorded during the 1950 Bird and Diz session.\n\n\n=== Side one ===\n\n\n=== Side two ===\n\n\n=== CD reissue ===\nThe Verve/PolyGram remaster editions feature 18 additional takes and liner notes by music scholar James Patrick and producer Norman Granz.\n\n\"Bloomdido\" – 3:25\n\"My Melancholy Baby\" – 3:24\n\"Relaxin' with Lee\" – 2:47\n\"Leap Frog\" – 2:29\n\"An Oscar for Treadwell\" – 3:23\n\"Mohawk\" – 3:36\n\"My Melancholy Baby (Complete Take)\" – 3:17\n\"Relaxin' With Lee (Take 4  Complete Take)\" – 3:56\n\"Leap Frog (Take 11  Complete Take)\" – 2:34\n\"Leap Frog (Take 8  Complete Take)\" – 2:02\n\"Leap Frog (Take 9  Complete Take)\" – 2:06\n\"An Oscar for Treadwell (Take 4  Complete Take)\" – 3:21\n\"Mohawk (Take 3  Complete Take)\" – 3:48\n\"Relaxin' With Lee (Take 1  Breakdown Take)\" – 0:17\n\"Relaxin' With Lee (Take 2  Breakdown Take)\" – 1:08\n\"Relaxin' With Lee (Take 3  False Start)\" – 0:04\n\"Relaxin' With Lee (Take 5  Breakdown Take)\" – 0:24\n\"Leap Frog (Take 1  Breakdown Take)\" – 0:26\n\"Leap Frog (Take 7  Breakdown Take)\" – 0:14\n\"Leap Frog (Take 10  Breakdown Take)\" – 0:40\n\"Leap Frog (Take 2  Breakdown Take)\" – 0:18\n\"Leap Frog (Take 6  Breakdown Take)\" – 0:20\n\"Leap Frog (Take 4  Breakdown Take)\" – 0:13\n\"Leap Frog (Take 3  Breakdown Take)\" – 0:41\n\n\n== Personnel ==\n\n\n=== Musicians ===\nCharlie Parker - saxophone  (Complete Album)\nDizzy Gillespie - trumpet (except tracks A4 & B4)\nCurley Russell - bass (except on tracks A4 & B4)\nBuddy Rich - drums (except tracks A4 & B4)\nThelonious Monk - piano (except tracks A4 & B4)\nTommy Potter - bass (on tracks A4 & B4)\nCarlos Vidal - bongo (on track B4)\nMax Roach - drums (tracks A4 & B4)\nAl Haig - piano (tracks A4 & B4)\nTommy Turk - trombone (track B4)\nKenny Dorham - trumpet (tracks A4 & B4)\n\n\n=== Production ===\nNorman Granz - producer\nDennis Drake - mastering\nDavid Stone Martin - cover design\n\n\n== References ==\nFootnotes\n\nBibliography\nPersonnel/recorded date/master numbers confirmed with the Ruppli's discography.Michel Ruppli, Ed Novitsky (1993). The Mercury Labels — A Discography. Greenwood Press. ISBN 0-313-27371-5.\nBird and Diz album liner notes by James Patrick, Norman Granz. PolyGram Records Inc.\n\n\n== External links ==\nBird and Diz at Discogs (list of releases)"
+    }
+   }
+  }
+ },
+ {
+  "id": "on-parade",
+  "kind": "album",
+  "ours": {
+   "title": "On Parade",
+   "artist": "Sidney Bechet",
+   "year": 1952,
+   "label": "Disques Vogue",
+   "albumDNA": "A early jazz outing from 1952, On Parade features clarinetist Sidney Bechet recording for Disques Vogue. Among the tracks are \"Le marchand de poissons\" and \"Si tu vois ma mère\". The album comes from the formative years when jazz coalesced from ragtime, blues, and marching band traditions. He was one of the first important soloists in jazz, and first recorded several months before trumpeter Louis Armstrong.",
+   "keyTracks": [
+    "Le marchand de poissons",
+    "Si tu vois ma mère",
+    "Wabash Blues",
+    "Dans les rues d'Antibes",
+    "Strike up the Band"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/On_Parade"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "750ad93e-d41a-4af9-99ca-97d5e9b6ea4f",
+     "title": "On Parade",
+     "date": "1952",
+     "country": "FR",
+     "status": "Official",
+     "artists": [
+      "Sidney Bechet",
+      "Claude Luter"
+     ],
+     "labels": [
+      {
+       "name": "Disques Vogue",
+       "catalogNumber": "LD 048"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "40a59bee-5d94-4db0-98f3-51e2b7978e4c",
+      "title": "On Parade",
+      "firstReleaseDate": "1952",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Le marchand de poissons",
+      "Si tu vois ma mère",
+      "Wabash Blues",
+      "Dans les rues d'Antibes",
+      "Strike up the Band",
+      "As-tu le cafard?",
+      "Patte de mouche",
+      "Ghost of the Blues"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/On_Parade",
+    "page": {
+     "requestedTitle": "On Parade",
+     "resolvedTitle": "On Parade",
+     "shortDescription": "Television series",
+     "extract": "On Parade is a Canadian television variety series. It ran one season. The episodes were produced for and first shown on CBC TV in Canada. Each centered on a musical performance by the episode's host or hosts. These were: Rosemary Clooney (17 July), Tony Bennett (24 July), Henry Mancini (31 July), Phil Ford and Mimi Hines (7 August), Juliet Prowse (14 August), Diahann Carroll (21 August), Julius La Rosa (28 August), Jane Morgan (4 September), The Limelighters (11 September), and Steve Lawrence and Eydie Gormé (18 September). Each episode lasted 30 minutes, and the show aired between 24 July 1964 and 18 September 1964. It took over the time slot of the show That Was the Week That Was which went on hiatus until the 1964–1965 season.\nThe show's music was provided by Nelson Riddle's orchestra. The Limelighters sang \"Meetin' Here Tonight\", \"Whistlin' Gypsy\", \"Gunslinger\", \"Sing Up in the Sky\", \"Brazilian Fisherman's Song\", \"I Did What I Could\", \"If I Had a Hammer\", and \"Thar She Blows\". Norman Sawdawie produced the series in Canada.\nOn Parade served as a summer replacement on NBC.\n\n\n== Notes =="
+    }
+   }
+  }
+ },
+ {
+  "id": "solo-flight",
+  "kind": "album",
+  "ours": {
+   "title": "Solo Flight",
+   "artist": "Erroll Garner",
+   "year": 1952,
+   "label": "Columbia",
+   "albumDNA": "With Solo Flight (1952), pianist Erroll Garner delivers a bebop program for the Columbia label. Standouts include \"Cocktails for Two\" and \"It Don't Mean a Thing (If It Ain't Got That Swing)\". Columbia Records gave jazz wide exposure, releasing landmark albums by Miles Davis, Thelonious Monk, and Dave Brubeck. It was first recorded in 1956 with Mitch Miller and his orchestra, and played a prominent part in the 1971 motion picture Play Misty for Me.",
+   "keyTracks": [
+    "Cocktails for Two",
+    "It Don't Mean a Thing (If It Ain't Got That Swing)",
+    "Chopin Impressions",
+    "Love Me or Leave Me",
+    "With Every Breath I Take"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Erroll_Garner"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "26430f09-d9b1-4c76-961a-0b9896b203b3",
+     "title": "Solo Flight",
+     "date": "1952",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Erroll Garner"
+     ],
+     "labels": [
+      {
+       "name": "Columbia",
+       "catalogNumber": "CL 6209"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "04e67b35-b608-4c60-9eff-af65c708dec1",
+      "title": "Solo Flight",
+      "firstReleaseDate": "1952",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Cocktails for Two",
+      "It Don't Mean a Thing (If It Ain't Got That Swing)",
+      "Chopin Impressions",
+      "Love Me or Leave Me",
+      "With Every Breath I Take",
+      "How Come You Do Me Like You Do",
+      "Willow Me",
+      "Dancing in the Dark"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Erroll_Garner",
+    "page": {
+     "requestedTitle": "Erroll Garner",
+     "resolvedTitle": "Erroll Garner",
+     "shortDescription": "American jazz pianist and composer (1921–1977)",
+     "extract": "Erroll Louis Garner (June 15, 1921 – January 2, 1977) was an American jazz pianist and composer known for his swing playing and ballads. His instrumental ballad \"Misty\", his best-known composition, has become a jazz standard. It was first recorded in 1956 with Mitch Miller and his orchestra, and played a prominent part in the 1971 motion picture Play Misty for Me.\nScott Yanow of AllMusic calls him \"one of the most distinctive of all pianists\" and a \"brilliant virtuoso\". Garner received a star on the Hollywood Walk of Fame at 6363 Hollywood Boulevard. His live album Concert by the Sea, first released in 1955, sold more than 1 million copies by 1958, and Yanow's opinion of the album is that it \"made such a strong impression that Garner was considered immortal from then on.\"\n\n\n== Life and career ==\nGarner was born, along with twin brother Ernest in Pittsburgh, Pennsylvania, on June 15, 1921, the youngest of six children. He attended George Westinghouse High School (as did fellow pianists Billy Strayhorn and Ahmad Jamal). Interviews with his family, music teachers, other musicians, and a detailed family tree can be found in Erroll Garner: The Most Happy Piano by James M. Doran.\n\n\n=== Piano career ===\n\nGarner began playing piano at the age of three. His elder siblings were taught piano by a \"Miss Bowman\". From an early age, Erroll would sit down and play anything she had demonstrated, \"just like Miss Bowman\", his eldest sister Martha said. Garner was self-taught and remained an \"ear player\" all his life, never learning to read music. At the age of seven, he began appearing on the radio station KDKA in Pittsburgh with a group named the Candy Kids. By the age of 11, he was playing on the Allegheny riverboats. In 1937, he joined local saxophonist Leroy Brown.\nGarner played locally in the shadow of his older brother Linton, also a pianist.\nGarner moved to New York City in 1944. He briefly worked with the bassist Slam Stewart, and although not a bebop musician per se, in 1947 played with Charlie Parker on the \"Cool Blues\" session. Although Garner's admission to the Pittsburgh music union initially was refused because of his inability to read music, the union relented in 1956 and made him an honorary member. He is credited with having had a superb musical memory. After attending a concert by Russian classical pianist Emil Gilels, Garner returned to his apartment and was able to play a large portion of the performed music by heart.\n\n\n=== Columbia Records Lawsuit ===\nGarner sued Columbia Records in 1960 for breach of contract after they released several recordings without his consent. He had signed a five-year deal with Columbia in 1956, which contained an unprecedented clause (negotiated with the aid of manager Martha Glaser) giving Garner the right to approve the release of any of his recorded music. After three years of litigation, during which time Columbia continued to release Garner recordings against his will, the New York State Supreme Court ruled in Garner's favor in a landmark decision with regard to artists' rights, and Columbia paid Garner a substantial settlement and recalled all of the unauthorized records from its distributors.\n\n\n== Personal life ==\n\n\n=== Death ===\nGarner died of cardiac arrest related to emphysema on January 2, 1977, aged 55. He is buried in Pittsburgh's Homewood Cemetery.\n\n\n=== Management, estate and heirs ===\nGarner's career was supervised by music manager Martha Glaser from 1950 until his death in 1977; he was her only client.\nNeither Garner's partner Rosalyn Noisette nor his daughter Kim Garner were able to be his heirs. Glaser became his estate executor. After Glaser's death, her niece Susan Rosenberg inherited the charge to deal with Garner's cultural legacy.\n\n\n== Playing style ==\n\nShort in stature (5 feet 2 inches [157 cm]), Garner performed sitting on multiple telephone directories. He was also known for his vocalizations while playing, which can be heard on many of his recordings. He helped to bridge the gap for jazz musicians between nightclubs and the concert hall.\nCalled \"one of the most distinctive of all pianists\" by Scott Yanow, Garner showed that a \"creative jazz musician can be very popular without watering down his music\" or changing his personal style. He has been described as a \"brilliant virtuoso who sounded unlike anyone else\", using an \"orchestral approach straight from the swing era but...open to the innovations of bop.\" His distinctive style could swing like no other, but "
+    }
+   }
+  }
+ },
+ {
+  "id": "holiday-in-piano",
+  "kind": "album",
+  "ours": {
+   "title": "Holiday in Piano",
+   "artist": "Lennie Tristano",
+   "year": 1953,
+   "label": "Mercury Records",
+   "albumDNA": "With Holiday in Piano (1953), pianist Lennie Tristano delivers a bebop program for the Mercury Records label. Among the tracks are \"Can't Get Started With You\" and \"Out On A Limb\".",
+   "keyTracks": [
+    "Can't Get Started With You",
+    "Out On A Limb",
+    "I Surrender Dear",
+    "Interlude",
+    "The Moon Is Low"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "6bc5db10-0482-497b-9340-faca4299b49e",
+     "title": "Holiday in Piano",
+     "date": "1953",
+     "country": "AU",
+     "status": "Official",
+     "artists": [
+      "Lennie Tristano",
+      "Arnold Ross"
+     ],
+     "labels": [
+      {
+       "name": "Mercury Records",
+       "catalogNumber": "MG 26029"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "7c6ae8d5-dac0-496a-b92d-cc202303c282",
+      "title": "Holiday in Piano",
+      "firstReleaseDate": "1953",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Can't Get Started With You",
+      "Out On A Limb",
+      "I Surrender Dear",
+      "Interlude",
+      "The Moon Is Low",
+      "Stairway To The Stars",
+      "Bye, Bye Blues",
+      "I Don't Know Why"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "jazz-at-massey-hall",
+  "kind": "album",
+  "ours": {
+   "title": "Jazz at Massey Hall",
+   "artist": "The Quintet",
+   "year": 1953,
+   "label": "Debut",
+   "albumDNA": "Jazz at Massey Hall is a live album released in December 1953 by jazz combo The Quintet through Debut Records. It was recorded on 15 May 1953 at Massey Hall in Toronto, Canada. Credited to \"the Quintet\", the jazz group was composed of five leading \"modern\" players of the day: Dizzy Gillespie, Charlie Parker, Bud Powell, Charles Mingus, and Max Roach. It was the only time that the five musicians recorded together as a unit, and it was the last recorded meeting of Parker and Gillespie. Documents the bebop era's all-star summit. The concert has become legendary as the greatest bebop performance ever recorded.",
+   "keyTracks": [
+    "Perdido",
+    "Salt Peanuts",
+    "All the Things You Are",
+    "Wee"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Jazz_at_Massey_Hall"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "85852184-01f4-4770-bd03-87b42b8108fa",
+     "title": "Jazz at Massey Hall",
+     "date": "1956",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "The Quintet"
+     ],
+     "labels": [
+      {
+       "name": "Debut",
+       "catalogNumber": "DEB-124"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "f9afcb1d-6674-353e-8a8a-0dbff1054ed7",
+      "title": "Jazz at Massey Hall",
+      "firstReleaseDate": "1956",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Live"
+      ]
+     },
+     "tracks": [
+      "Perdido",
+      "Salt Peanuts",
+      "All the Things You Are",
+      "Wee",
+      "Hot House",
+      "A Night in Tunisia"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Jazz_at_Massey_Hall",
+    "page": {
+     "requestedTitle": "Jazz at Massey Hall",
+     "resolvedTitle": "Jazz at Massey Hall",
+     "shortDescription": "1953 live album by the Quintet",
+     "extract": "Jazz at Massey Hall is a live album released in December 1953 by jazz combo The Quintet through Debut Records. It was recorded on 15 May 1953 at Massey Hall in Toronto, Canada. Credited to \"the Quintet\", the jazz group was composed of five leading \"modern\" players of the day: Dizzy Gillespie, Charlie Parker, Bud Powell, Charles Mingus, and Max Roach. It was the only time that the five musicians recorded together as a unit, and it was the last recorded meeting of Parker and Gillespie.\n\n\n== Background ==\nThe first pianist considered by the organizers was Lennie Tristano, but he suggested Powell as a more appropriate match for the other musicians. Oscar Pettiford was considered as an alternative to Mingus.\n\n\n== The concert ==\nParker played a Grafton saxophone on this date; he could not be listed on the original album cover for contractual reasons, so was billed as \"Charlie Chan\", an allusion to the fictional detective and to Parker's wife Chan. The concert included performances by both the entire quintet and a trio consisting of Powell, Mingus, and Roach, as well as a Roach drum solo.\nThe original plan was for the Toronto New Jazz Society and the musicians to share the profits from the concert. However, owing to a boxing prize fight between Rocky Marciano and Jersey Joe Walcott taking place simultaneously, the audience was so small that the Society was unable to pay the musicians' fees. The musicians were all given NSF checks, and only Parker was able to cash his; Gillespie noted that he did not receive his fee \"for years and years\".\nJazz authority Burt Korall says that for Roach, this performance was a \"culmination on record of music and relationships developed in the 1940s.\" Despite the difficulties, according to Korall, \"the music was the great leveler.\"\n\nThe opening act on the night was a 16-piece big band billed as the CBC All Stars.\n\n\n== Album releases ==\nThe record was originally issued in December 1953 on Mingus's label Debut, from a recording made by the Toronto New Jazz Society (Dick Wattam, Alan Scharf, Roger Feather, Boyd Raeburn and Arthur Granatstein). Mingus took the recording to New York where he and Max Roach dubbed in the bass lines, which were under-recorded on most of the tunes, and exchanged Mingus soloing on \"All the Things You Are\".\nA 2002 reissue, Complete Jazz at Massey Hall, released on The Jazz Factory label, contains the full concert, without the overdubbing.\nJazz at Massey Hall was inducted into the Grammy Hall of Fame in 1995. It is included in National Public Radio's \"Basic Jazz Library\". The Penguin Guide to Jazz Recordings included the album in its suggested \"core collection\" of essential recordings. The concert was issued in some territories under the tag \"the greatest jazz concert ever\".\n\n\n== Track listing ==\n(Originally issued as two 10\" LPs:)\nVol. 1 (Debut DLP-2)\n\n\"Perdido\" (Juan Tizol) – 7:43\n\"Salt Peanuts\" (Dizzy Gillespie, Kenny Clarke) – 7:39\n\"All the Things You Are\" (Jerome Kern)/\"52nd Street Theme\" (Thelonious Monk) – 7:52\nVol. 3 (Debut DLP-4)\n\n\"Wee (Allen's Alley)\" (Denzil Best) – 6:41\n\"Hot House\" (Tadd Dameron) – 9:11\n\"A Night in Tunisia\" (Gillespie, Frank Paparelli) – 7:34\n(Vol. 2 consists of the trio recordings of Powell, Mingus and Roach from the same date: all but \"I've Got You Under My Skin\", and one track by Billy Taylor with Mingus and Roach from a later date.)\n(Issued as 12\" LP:)\n(Debut DEB-124)\n\n\"Perdido\" (Juan Tizol)\n\"Salt Peanuts\" (Dizzy Gillespie, Kenny Clarke)\n\"All the Things You Are\" (Jerome Kern)\n\"52nd Street Theme\" (Thelonious Monk)\n\"Wee (Allen's Alley)\" (Denzil Best)\n\"Hot House\" (Tadd Dameron)\n\"A Night in Tunisia\" (Gillespie, Frank Paparelli)\n(The 2004 reissue contains 14 tracks, with Parker and Gillespie not appearing on 5 through 11.)\n\n\"Perdido\" (Juan Tizol)\n\"Salt Peanuts\" (Dizzy Gillespie, Kenny Clarke)\n\"All the Things You Are\" (Jerome Kern)\n\"52nd Street Theme\" (Thelonious Monk)\n\"Drum Conversation\" (Max Roach)\n\"Cherokee\" (Ray Noble)\n\"Embraceable You\" (George Gershwin)\n\"Hallelujah (Jubilee)\" (Vincent Youmans)\n\"Sure Thing\" (Bud Powell)\n\"Lullaby of Birdland\" (George Shearing)\n\"I've Got You Under My Skin\" (Cole Porter)\n\"Wee (Allen's Alley)\" (Denzil Best)\n\"Hot House\" (Tadd Dameron)\n\"A Night in Tunisia\" (Gillespie, Frank Paparelli)\n(Craft Records, 2023 re-release, 2 CD's)\nDisc 1: Original concert recordings, without bass overdubs. Parker and Gillespie play only on tracks 1 through 6.\n\n\"Perdido\"\n\"Salt Peanuts\"\n\"All the Things You Are / 52nd Street Theme\"\n\"Wee (Al"
+    }
+   }
+  }
+ },
+ {
+  "id": "king-of-the-tenors",
+  "kind": "album",
+  "ours": {
+   "title": "King of the Tenors",
+   "artist": "Ben Webster",
+   "year": 1953,
+   "label": "Verve",
+   "albumDNA": "King of the Tenors is an album by American jazz saxophonist Ben Webster featuring tracks recorded in 1953 for the Norgran label and originally released as The Consummate Artistry of Ben Webster. The album was re-issued in 1957 on Verve Records as King of the Tenors, and has been released with that title ever since. Webster is accompanied by the Oscar Peterson Trio, and, on several tracks, by Benny Carter and Harry \"Sweets\" Edison.",
+   "keyTracks": [
+    "Tenderly",
+    "Jive at Six",
+    "Don't Get Around Much Anymore",
+    "That's All",
+    "Bounce Blues"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "6f5a29be-1014-4361-bc95-3c57126f5084",
+     "title": "The Consummate Artistry of Ben Webster",
+     "date": "1954",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Ben Webster"
+     ],
+     "labels": [
+      {
+       "name": "Norgran Records",
+       "catalogNumber": "MGN 1001"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0270593d-afa1-3d0f-a4ea-aa604c5c2685",
+      "title": "King of the Tenors",
+      "firstReleaseDate": "1953",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Tenderly",
+      "Jive at Six",
+      "Don't Get Around Much Anymore",
+      "That's All",
+      "Bounce Blues",
+      "Pennies From Heaven",
+      "Cottontail",
+      "Danny Boy"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ }
+]

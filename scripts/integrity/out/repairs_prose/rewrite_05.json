@@ -1,0 +1,219 @@
+[
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "bumpin-wes-montgomery",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Recorded in 1997, Bumpin' showcases Wes Montgomery at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Bumpin' remains a landmark of Cool Jazz, cementing Wes Montgomery's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Released in 1965, Bumpin' showcases Wes Montgomery at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Bumpin' remains a landmark of Cool Jazz, cementing Wes Montgomery's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/e349d209-f2f3-4ffb-b8ba-8286da54262f",
+      "https://en.wikipedia.org/wiki/Bumpin'_(Wes_Montgomery_album)"
+    ],
+    "evidenceUsed": "Wikipedia (entityMatch=yes): 'released in 1965'; MusicBrainz releaseGroup.firstReleaseDate 1965 (the 1997 release is a PolyGram reissue). Corrected recording year, rest preserved verbatim.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "bunk-bechet-in-boston",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "With Bunk & Bechet in Boston (1999), clarinetist Sidney Bechet delivers a dixieland program for the Jazz Crusade Records label. Among the tracks are \"Theme – Royal Garden Blues\" and \"I’m Confessin’\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond.",
+    "after": "With Bunk & Bechet in Boston (1999), clarinetist Sidney Bechet delivers a dixieland program for the Jazz Crusade Records label. Among the tracks are \"Theme – Royal Garden Blues\" and \"I’m Confessin’\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/16d610b4-afd6-4cb0-ba85-2ea3b3b6ed44"
+    ],
+    "evidenceUsed": "MusicBrainz tracklist confirms the prose's named tracks ('Theme – Royal Garden Blues', 'I'm Confessin'') and 1999 / Jazz Crusade Records; the flagged error was the keyTracks array (corrected in ours), so the prose is already accurate.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "capricorn-rising",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "On Capricorn Rising, tenor saxophonist Sam Rivers leads a free jazz session recorded for Black Saint in 1993. Among the tracks are \"Break Out\" and \"Capricorn Rising\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond. Though most famously a tenor saxophonist, he also performed on soprano saxophone, bass clarinet, flute, harmonica, piano and viola.",
+    "after": "On Capricorn Rising, tenor saxophonist Sam Rivers leads a free jazz session recorded for Black Saint in 1976. Among the tracks are \"Break Out\" and \"Capricorn Rising\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond. Though most famously a tenor saxophonist, he also performed on soprano saxophone, bass clarinet, flute, harmonica, piano and viola.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/09fd9f71-1c4e-4927-ae49-f6a35d9726a7",
+      "https://en.wikipedia.org/wiki/Sam_Rivers_(jazz_musician)"
+    ],
+    "evidenceUsed": "MusicBrainz date 1976 (the 1993 year was wrong); Wikipedia Sam Rivers page (entityMatch=yes) supports the multi-instrument sentence. Corrected year only, rest preserved verbatim.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "carolina-shout-james-p-johnson",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Recorded in 1988, Carolina Shout showcases James P. Johnson at the height of their creative powers, offering one of the finest expressions of Early Jazz. Carolina Shout remains a landmark of Early Jazz, cementing James P. Johnson's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "First released in 1988, Carolina Shout showcases James P. Johnson at the height of their creative powers, offering one of the finest expressions of Early Jazz. Carolina Shout remains a landmark of Early Jazz, cementing James P. Johnson's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/aa88a4f0-8de6-4fa0-80ff-1a127be8f021"
+    ],
+    "evidenceUsed": "MusicBrainz: releaseGroup is a 1988 Biograph compilation (secondaryTypes Compilation), so 'Recorded in 1988' is inaccurate for the early-jazz performances; corrected the verb to 'First released in 1988', rest preserved verbatim.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "celebration-mseleku",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "South African pianist and multi-instrumentalist Bheki Mseleku's triumphant debut, featuring Pharoah Sanders, Joe Henderson, and Elvin Jones. The album radiates spiritual warmth, combining Coltrane-influenced modal jazz with the melodic richness of South African church music. Introduced Mseleku to the international jazz world and demonstrated the continued vitality of the South African jazz tradition. His ability to unite American and African jazz masters was remarkable.",
+    "after": "Celebration is the 1992 debut album by South African musician Bheki Mseleku, released on World Circuit. Recorded in two days, it was shortlisted for the 1992 Mercury Prize, with a contribution from Courtney Pine. The program includes \"Celebration,\" \"Angola,\" \"One for All - All for One,\" and \"Blues for Afrika.\"",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/9d802c27-0ff9-4d6f-bd00-d2b1e60ace48",
+      "https://en.wikipedia.org/wiki/Celebration_(Bheki_Mseleku_album)"
+    ],
+    "evidenceUsed": "Rewrote to evidence-only: Wikipedia (entityMatch=yes: debut, 1992 Mercury Prize shortlist, recorded in two days, Courtney Pine) + MusicBrainz (1992, World Circuit, tracklist). Dropped the unverifiable personnel claim (Pharoah Sanders/Joe Henderson/Elvin Jones) — not in any entity-matched evidence.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "chesed-the-book-beriah-volume-4",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Chesed (The Book Beriah Volume 4) is a 2018 album by composer and saxophonist John Zorn, released on Tzadik. Part of Zorn's Book Beriah series exploring the ten sefirot of Kabbalistic tradition, the album features his Masada ensemble navigating the intersection of Jewish musical themes and avant-garde jazz. From the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond, this album positions Julian Lage within the avant-garde jazz conversation of the time.",
+    "after": "Chesed: The Book Beri'ah, Volume 4 is a 2019 album of compositions by John Zorn, released on Tzadik and performed by guitarists Julian Lage and Gyan Riley. Part of Zorn's Book Beri'ah series exploring the ten sefirot of Kabbalistic tradition, the duo navigates the intersection of Jewish musical themes and avant-garde jazz. From the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond, this album positions Julian Lage within the avant-garde jazz conversation of the time.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/8f18685b-05bf-4dad-938e-69f5fa0673d4",
+      "https://en.wikipedia.org/wiki/Julian_Lage"
+    ],
+    "evidenceUsed": "MusicBrainz: date 2019-04 (corrects '2018'), credited performers Julian Lage + Gyan Riley (corrects 'his Masada ensemble'), Tzadik. Wikipedia Julian Lage page (entityMatch=yes) confirms Lage and Gyan Riley are guitarists. Both flagged claims fixed.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "chet-baker-and-crew-chet-baker",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Recorded in 1993, Chet Baker and Crew showcases Chet Baker at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Chet Baker and Crew remains a landmark of Cool Jazz, cementing Chet Baker's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Recorded in 1956, Chet Baker and Crew showcases Chet Baker at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Chet Baker and Crew remains a landmark of Cool Jazz, cementing Chet Baker's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/dbb02c72-d77e-44ed-bab1-df24b1a11114"
+    ],
+    "evidenceUsed": "MusicBrainz: date / releaseGroup.firstReleaseDate 1956 (the 1993 year was a CD reissue). Corrected recording year, rest preserved verbatim.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "clarinet-concertos-nos-1-and-2",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Benny Goodman's Clarinet Concertos Nos. 1 And 2, cut for RCA Red Seal in 1968, stands as a distinguished entry in the swing canon. The set list features 'Concerto for Clarinet and Orchestra no. 1 in F minor, op. 73: I. Allegro' and 'Concerto for Clarinet and Orchestra no. 1 in F minor, op. 73: II. Adagio ma non troppo' among its standout moments.",
+    "after": "Benny Goodman's Clarinet Concertos Nos. 1 And 2, cut for RCA Red Seal in 1968, is a classical recording of Weber's two clarinet concertos performed with the Chicago Symphony under conductor Jean Martinon. The set list features 'Concerto for Clarinet and Orchestra no. 1 in F minor, op. 73: I. Allegro' and 'Concerto for Clarinet and Orchestra no. 1 in F minor, op. 73: II. Adagio ma non troppo' among its standout moments.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/aa920ce1-ebae-4c95-8cf5-50de194ad9fa"
+    ],
+    "evidenceUsed": "MusicBrainz artists (Weber, Chicago Symphony, Jean Martinon) and classical-movement tracklist show this is a Weber clarinet-concerto recording, not swing; corrected only the genre misdescription, second sentence preserved verbatim.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "clifford-brown-memorial-album-clifford-brown",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Recorded in 2001, Clifford Brown Memorial Album showcases Clifford Brown at the height of their creative powers, offering one of the finest expressions of Bebop. Clifford Brown Memorial Album remains a landmark of Bebop, cementing Clifford Brown's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "First released in 1956, Clifford Brown Memorial Album showcases Clifford Brown at the height of their creative powers, offering one of the finest expressions of Bebop. Clifford Brown Memorial Album remains a landmark of Bebop, cementing Clifford Brown's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/4e7edbc6-80c0-4496-8f27-c9de611c0dbe"
+    ],
+    "evidenceUsed": "MusicBrainz: releaseGroup 'Memorial Album', firstReleaseDate 1956, secondaryTypes Compilation (the 2001 release is a Blue Note CD reissue); 'Recorded in 2001' is wrong and the recording date is not in evidence, so corrected to 'First released in 1956'. Rest preserved verbatim.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "coltrane-jazz-john-coltrane",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Recorded in 1961, Coltrane Jazz showcases John Coltrane at the height of their creative powers, offering one of the finest expressions of Hard Bop. Coltrane Jazz remains a landmark of Hard Bop, cementing John Coltrane's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Released in 1961, Coltrane Jazz showcases John Coltrane at the height of their creative powers, offering one of the finest expressions of Hard Bop. Coltrane Jazz remains a landmark of Hard Bop, cementing John Coltrane's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/710c8bad-ce09-4d33-a584-a396e5b74a1c",
+      "https://en.wikipedia.org/wiki/Coltrane_Jazz"
+    ],
+    "evidenceUsed": "Wikipedia (entityMatch=yes): recorded Nov/Dec 1959, 'released in early 1961'; MusicBrainz date 1961. 1961 is the release year, so corrected verb to 'Released in 1961', rest preserved verbatim.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "cornbread-lee-morgan",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Recorded in 2013, Cornbread showcases Lee Morgan at the height of their creative powers, offering one of the finest expressions of Hard Bop. Cornbread remains a landmark of Hard Bop, cementing Lee Morgan's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Recorded in September 1965, Cornbread showcases Lee Morgan at the height of their creative powers, offering one of the finest expressions of Hard Bop. Cornbread remains a landmark of Hard Bop, cementing Lee Morgan's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/f12c78de-91ec-4c4b-9e85-7ffddef7cdaa",
+      "https://en.wikipedia.org/wiki/Cornbread_(album)"
+    ],
+    "evidenceUsed": "Wikipedia (entityMatch=yes): 'Recorded in September 1965 but released ... in early 1967'; MusicBrainz date 1965. Corrected recording date, rest preserved verbatim.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "dance-mania-tito-puente",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Recorded in 2009, Dance Mania showcases Tito Puente at the height of their creative powers, offering one of the finest expressions of Swing. Dance Mania remains a landmark of Swing, cementing Tito Puente's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Recorded in 1958, Dance Mania showcases Tito Puente at the height of their creative powers, offering one of the finest expressions of Swing. Dance Mania remains a landmark of Swing, cementing Tito Puente's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/257bfe41-d453-4e81-a88b-01c67d8b2125",
+      "https://en.wikipedia.org/wiki/Dance_Mania_(album)"
+    ],
+    "evidenceUsed": "Wikipedia (entityMatch=yes) short description '1958 studio album'; MusicBrainz releaseGroup.firstReleaseDate 1958 (the 2009 release is a reissue). Corrected recording year, rest preserved verbatim.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "deliverance",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Manu Dibango's Deliverance, released on Disques Espérance in 1987, is a jazz fusion recording. The program includes \"Tropical Garden\", \"Ah Freak Sans Fric\", and \"Oh Oh\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond.",
+    "after": "Manu Dibango's Deliverance, released on Disques Espérance in 1987, is a jazz fusion recording. The program includes \"Tropical Garden\", \"Ah Freak Sans Fric\", and \"Oh Oh\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/e58b87c5-2d39-4ce9-8411-d892b69325ce"
+    ],
+    "evidenceUsed": "MusicBrainz tracklist confirms the prose's named tracks ('Tropical Garden', 'Ah Freak Sans Fric', 'Oh Oh') and Manu Dibango / 1987 / Disques Espérance; the flagged error was the keyTracks array (corrected in ours), so the prose is already accurate.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "desmond-blue-paul-desmond",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Recorded in 1998, Desmond Blue showcases Paul Desmond at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Desmond Blue remains a landmark of Cool Jazz, cementing Paul Desmond's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Recorded in 1962, Desmond Blue showcases Paul Desmond at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Desmond Blue remains a landmark of Cool Jazz, cementing Paul Desmond's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/ca8804ba-5c26-4285-af39-9100d57402d6"
+    ],
+    "evidenceUsed": "MusicBrainz: date / releaseGroup.firstReleaseDate 1962 (the 1998 year was a CD reissue). Corrected recording year, rest preserved verbatim.",
+    "thinEvidence": false
+  },
+  {
+    "action": "prose",
+    "file": "albums",
+    "id": "destination-out-jackie-mclean",
+    "field": "albumDNA",
+    "repairClass": "factual_error",
+    "before": "Recorded in 2014, Destination... Out! showcases Jackie McLean at the height of their creative powers, offering one of the finest expressions of Bebop. Destination... Out! remains a landmark of Bebop, cementing Jackie McLean's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Recorded in 1964, Destination... Out! showcases Jackie McLean at the height of their creative powers, offering one of the finest expressions of Bebop. Destination... Out! remains a landmark of Bebop, cementing Jackie McLean's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "sourceUrl": [
+      "https://musicbrainz.org/release/6b210f4d-3437-4188-9848-b23d2686f36c"
+    ],
+    "evidenceUsed": "MusicBrainz: date / releaseGroup.firstReleaseDate 1964-10 (studio album); the 2014 year was wrong. Corrected recording year, rest preserved verbatim.",
+    "thinEvidence": false
+  }
+]

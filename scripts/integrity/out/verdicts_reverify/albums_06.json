@@ -1,0 +1,314 @@
+[
+ {
+  "id": "vento",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title Vento, 2000, Label Bleu (LBLC 6623); keyTracks 1-5 match the MB tracklist exactly. albumDNA is verbatim from the entity-matched Enrico Rava Wikipedia page (Italian trumpeter, started on trombone, switched after hearing Miles Davis). MB lists Barbara Casini as co-artist; ours credits only Rava, which is acceptable leader emphasis. ours.wikipediaUrl is null (none stored)."
+ },
+ {
+  "id": "armstrong-alumni-allstars",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title, 2001, G.H.B. Records (BCD440), artist Louis Armstrong; all 5 keyTracks match the MB tracklist. The stored wiki resolution is the generic 'Jazz' genre page (not about this album, n/a for fact-checking). 'recorded during the swing era' is loose editorial framing, not a falsifiable contradiction. ours.wikipediaUrl is null."
+ },
+ {
+  "id": "jing-chi",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title Jing Chi, 2001, artists Vinnie Colaiuta/Robben Ford/Jimmy Haslip; ours.label 'Unknown' is consistent with MB having no label. All 5 keyTracks match the MB tracklist. 'won one Grammy Award and has been nominated twice' is verbatim from the entity-matched Vinnie Colaiuta Wikipedia page. ours.wikipediaUrl is null."
+ },
+ {
+  "id": "little-jazz-the-jimmy-ryan-all-stars",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match (similarity 1.0) confirms title, 2001, Original Jazz Classics (OJCCD 1058-2), artist Roy Eldridge; all 5 keyTracks match the MB tracklist. albumDNA is verbatim from the entity-matched Roy Eldridge Wikipedia page (Little Jazz, tritone substitutions, impact on Gillespie). ours.wikipediaUrl is null."
+ },
+ {
+  "id": "np3",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title NP3, 2002, EmArcy (017 795-2), artist Nils Petter Molvaer; all 5 keyTracks match. albumDNA is verbatim from the entity-matched Molvaer Wikipedia page; the wiki discography also lists 'NP3 - EmArcy (2002)'. ours.wikipediaUrl is null."
+ },
+ {
+  "id": "play-morricone",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title Play Morricone, 2002-03-25, CAM Jazz (CAMJ 7750-2), artist Enrico Pieranunzi (with Marc Johnson, Joey Baron); all 5 keyTracks match. The Pieranunzi Wikipedia discography lists 'Play Morricone (CAM Jazz, 2002)'. ours.wikipediaUrl is null."
+ },
+ {
+  "id": "round-and-round",
+  "verdict": "clean",
+  "confidence": 0.93,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match (similarity 1.0) confirms title, 2002, Nagel Heyer Records (2035), artist Greg Osby (co-credited Marc Copland); all 5 keyTracks match. 'earlier M-Base recordings' / 'more reflective mode' is editorial; the entity-matched Osby Wikipedia confirms M-Base Collective founding membership. ours.wikipediaUrl is null."
+ },
+ {
+  "id": "swings",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match (similarity 1.0) confirms title Swings, 2002, High Definition Jazz (HDJ 4032), artist Art Tatum; all 5 keyTracks match the MB tracklist. The closing albumDNA sentence is verbatim from the entity-matched Art Tatum Wikipedia page (extended jazz piano's vocabulary, reharmonization/voicing/bitonality). ours.wikipediaUrl is null."
+ },
+ {
+  "id": "pimp-master",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "2004", "evidence": "2005", "evidenceQuote": "Pimp Master is the second studio album by pioneering jazz group Soil & \"Pimp\" Sessions, from Japan. It was released on June 23, 2005.", "source": "wiki"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "their riotous second studio album", "problem": "The album-year is given as 2004 but the entity-matched Wikipedia page (about this exact album) dates the release to June 23, 2005.", "evidenceQuote": "It was released on June 23, 2005.", "source": "wiki"}
+  ],
+  "notes": "Entity confirmed: wiki page 'Pimp Master' is the same album (Soil & \"Pimp\" Sessions, second studio album, Victor, Japan). albumDNA's 'death jazz'/second-album framing matches the wiki. ours.wikipediaUrl (en.wikipedia.org/wiki/Pimp_Master) is the correct page. The single factual contradiction is the year: ours 2004 vs wiki 2005. MB returned no release (no tracklist), and the wiki track-listing section is empty, so keyTracks cannot be checked (no_evidence). For human review: keyTracks include 'My Foolish Heart' and 'Waltz for Debby' (Bill Evans standards), which look unusual for this death-jazz album, but there is no tracklist evidence to contradict them."
+ },
+ {
+  "id": "congo-square",
+  "verdict": "no_evidence",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No evidence document survives entity-matching. MB returned no release/searchCandidates. The stored wiki page is 'A Tale of God's Will (A Requiem for Katrina)' (a DIFFERENT 2007 Blanchard album), not 'Congo Square' (claimed 2006). Cannot confirm or contradict ours from this evidence. FLAG FOR HUMAN REVIEW: ours keyTracks ('Levees', 'The Water') overlap with tracks named on the A Tale of God's Will page ('Levees', 'The Water', plus 'Ghost of...' pieces), raising a possible confusion between the two Katrina-related Blanchard projects; ours also lists 'Congo Square'/'Ghost of Congo Square', which are not in the A Tale of God's Will evidence. No citable source here to resolve it. ours.wikipediaUrl is null."
+ },
+ {
+  "id": "malphas-book-of-angels-volume-3",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title 'Malphas: Book of Angels, Volume 3', 2006-01-24, Tzadik (TZ 7354), artists Mark Feldman and Sylvie Courvoisier; all 5 keyTracks match the MB tracklist. albumDNA's claims (Zorn's Tzadik label, performed by Feldman/Courvoisier, drawn from Book of Angels series) match MB. The stored wiki page is 'Orobas: Book of Angels Volume 4' (a different volume by Koby Israelite) - discarded for fact-checking. ours.wikipediaUrl is null."
+ },
+ {
+  "id": "the-library-of-congress-recordings-by-alan-lomax",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match (similarity 1.0) confirms title, 2006, Rounder (11661-1897-2), artist Jelly Roll Morton; all 5 keyTracks match the MB tracklist, and the extra DNA tracks 'King Porter Stomp', 'Maple Leaf Rag', 'Mr. Jelly Lord' are all present in MB. The stored wiki page is the related but different '...Complete Library of Congress Recordings' box set, which mentions a single-disc 'Library of Congress Recordings by Alan Lomax' released in 2007 - a minor year discrepancy, but the entity-matched MB source gives 2006, so year is kept as consistent-with-MB. ours.wikipediaUrl is null."
+ },
+ {
+  "id": "standards",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title Standards, 2007-06-26, Tzadik (TZ 7620), artist Derek Bailey; all 5 keyTracks match the MB tracklist, including the wry titles quoted in the DNA. The stored wiki page is 'Ballads (Derek Bailey album)' (a different 2002 album) - discarded for fact-checking. ours.wikipediaUrl is null."
+ },
+ {
+  "id": "the-man-i-love",
+  "verdict": "factual_error",
+  "confidence": 0.88,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "AVM Music", "evidence": "Dreyfus Jazz", "evidenceQuote": "\"name\": \"Dreyfus Jazz\", \"catalogNumber\": \"FDM 36723-2\"", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "The Man I Love (2007) captures Billie Holiday", "problem": "albumDNA states the year as 2007, but ours.year and the MB embedded_mbid release both date this compilation to 2002 (2002-04-09).", "evidenceQuote": "\"date\": \"2002-04-09\"", "source": "mb"}
+  ],
+  "notes": "Right entity: MB embedded_mbid confirms title 'The Man I Love', artist Billie Holiday, 2002-04-09, secondaryType Compilation; all 6 keyTracks match the MB tracklist (incl. the propagated typo 'As Yime Goes By', which matches MB verbatim), and DNA-named 'God Bless the Child'/'Fine and Mellow' are present. Two contradictions: (1) label - ours 'AVM Music' vs MB-authoritative 'Dreyfus Jazz' (FDM 36723-2); (2) albumDNA's parenthetical year '(2007)' contradicts the year field 2002 and MB date 2002-04-09. The stored wiki page is 'The Man I Love (album)' = a 1957 Peggy Lee album (different entity) - discarded. ours.wikipediaUrl is null."
+ },
+ {
+  "id": "pithecanthropus-erectus-the-clown",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title 'Pithecanthropus Erectus + The Clown', 2009, Essential Jazz Classics (EJC55437), artist Charles Mingus, secondaryType Compilation; all 5 keyTracks match the MB tracklist, and DNA-named 'Reincarnation of a Lovebird' and 'The Clown' are present. The stored wiki page is 'Charles Mingus in Paris: The Complete America Session' (a different compilation) - discarded for fact-checking. ours.wikipediaUrl is null."
+ },
+ {
+  "id": "volume-1-1923-1929",
+  "verdict": "clean",
+  "confidence": 0.93,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title 'Volume 1 (1923-1929)', 2010, Neatwork, artist Jelly-Roll Morton (= Jelly Roll Morton); all 5 keyTracks match the MB tracklist. 'early jazz / blues tradition' is editorial. The stored wiki page is 'Mingus Ah Um' (entirely unrelated) - discarded for fact-checking. ours.wikipediaUrl is null."
+ },
+ {
+  "id": "xxi-century",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title 'XXI Century', 2011-11-15, 5Passion (5P-010), artist Gonzalo Rubalcaba; all 5 keyTracks match the MB tracklist. The stored wiki page is the artist page 'Gonzalo Rubalcaba' (entity match yes), whose discography lists 'XXI Century (5Passion, 2011)'. ours.wikipediaUrl points to that artist page, which is about our artist - wikiLinkVerdict correct."
+ },
+ {
+  "id": "blue-note-jazz-inspiration",
+  "verdict": "clean",
+  "confidence": 0.88,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title 'Blue Note Jazz Inspiration', 2012, Blue Note, artist Duke Ellington; all 5 keyTracks match the MB tracklist. 'big band date led by Duke Ellington' and 'draws on big band and dixieland influences' are consistent. The Blue Note label history (Alfred Lion/Francis Wolff/hard bop/Van Gelder) is true general editorial and asserts nothing false about this specific 2012 compilation, though it is tangential to a Duke Ellington big-band set. The stored wiki page is 'Ben Webster' (a saxophonist, different entity) - discarded for fact-checking. ours.wikipediaUrl is null."
+ },
+ {
+  "id": "is-that-so",
+  "verdict": "factual_error",
+  "confidence": 0.72,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "artist", "ours": "Tom Harrell", "evidence": "Niels Vincentz", "evidenceQuote": "\"artists\": [\"Niels Vincentz\"]", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "credited to Tom Harrell", "problem": "MB embedded_mbid (authoritative for artist credit) for this exact release credits the artist as Niels Vincentz, not Tom Harrell.", "evidenceQuote": "\"artists\": [\"Niels Vincentz\"]", "source": "mb"}
+  ],
+  "notes": "Same album confirmed: MB embedded_mbid title 'Is That So?', Stunt Records, 2014-02-17, and all 5 keyTracks match the MB tracklist exactly (Jericho, Haiku, Hot House, Cecilie, Modal Dancer), so this is unmistakably the same release. The contradiction is the leader credit: MB (authoritative) = Danish saxophonist Niels Vincentz; ours = Tom Harrell. Most likely the album is led by Niels Vincentz with Tom Harrell as a featured sideman, so ours mis-attributes the leader. The stored wiki page is 'Infinity (Tom Harrell album)' (a different 2019 album) - discarded. Confidence is moderate because the perfect tracklist match guarantees the same album but the personnel/leadership split could not be fully resolved from this evidence; human review recommended. ours.wikipediaUrl is null."
+ },
+ {
+  "id": "no-parking-tow-away-zone",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "no", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid resolved to the WRONG entity ('No Parking' by Origami Button, 2021, unrelated tracklist) - discarded. Wiki opensearch empty. websearch.resolved=true is the citable evidence: it confirms year 2014, label West Wind (catalogue WW2120, released 7 Oct 2014), and a tracklist whose tracks 1-5 (Old Folks, Wanderlust, True Blue, Airegin, Signs and Wonders) match ours keyTracks exactly. ours.label 'West Wind' and ours.year 2014 are confirmed. keyTracksVerdict ok is based on the websearch tracklist. albumDNA's 'jazz fusion' framing is loose per the websearch note (material is straight-ahead post-bop/standards) but the websearch explicitly does not flag it as a required repair; it is editorial characterization, not a contradicted factual claim. ours.wikipediaUrl is null."
+ },
+ {
+  "id": "rising-son",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Right entity: MB search match (similarity 1.0) confirms title 'Rising Son', 2014-02-12, Blue Note (TYCJ-60050), artist Takuya Kuroda; all 4 keyTracks match the MB tracklist. No contradictions. However, albumDNA carries substantive factual claims absent from the evidence and not checkable here: 'Blue Note debut' and 'Produced by DJ Premier collaborator Jose James' (a specific named production credit). MB has no producer/personnel detail and the wiki opensearch resolved to the unrelated 'Rising Sun' disambiguation page (discarded). Marked unverifiable for those production/discographic claims; the album identity itself is solid. ours.wikipediaUrl is null."
+ },
+ {
+  "id": "solo-piano-portraits",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms release title 'Chick Corea Solo Piano - Portraits' (release-group 'Solo Piano - Portraits'), 2014, Concord Jazz, artist Chick Corea; all 5 keyTracks match the MB tracklist, and DNA-named 'Blue Monk' is present. The stored wiki page is 'Trilogy (Chick Corea album)' (a different 2013 live album) - discarded for fact-checking. ours.wikipediaUrl is null."
+ },
+ {
+  "id": "mandorla-awakening-ii",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match (similarity 1.0) confirms title 'Mandorla Awakening II: Emerging Worlds', 2017, FPE Records (FPE 012CD), artist Nicole Mitchell; all 4 keyTracks match the MB tracklist. The remaining albumDNA (Afrofuturist, imagines a future world, Black Earth Ensemble, sonic landscapes) is editorial characterization built around the artist's own known ensemble; nothing is contradicted, and the verifiable skeleton fully matches. Wiki opensearch empty (n/a). ours.wikipediaUrl is null."
+ },
+ {
+  "id": "all-things-are",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title 'All Things Are', 2019-01-28, RogueArt, artists 'Matthew Shipp Trio' and 'Nicole Mitchell'; all 5 keyTracks match the MB tracklist, and the DNA's elemental track titles (Elements, Well Spring, Hidden Essence, Void of Ground, All Things Are) all appear in MB. albumDNA credit 'Matthew Shipp Trio with flautist Nicole Mitchell' matches MB exactly. The stored wiki page is 'Aquarius (Nicole Mitchell album)' (a different 2013 album) - discarded for fact-checking. ours.wikipediaUrl is null."
+ },
+ {
+  "id": "chesed-the-book-beriah-volume-4",
+  "verdict": "clean",
+  "confidence": 0.93,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title \"Chesed: The Book Beri'ah, Volume 4\", 2019-04, Tzadik (5104), artists Julian Lage and Gyan Riley; all 5 keyTracks match the MB tracklist. albumDNA (compositions by John Zorn, Tzadik, performed by guitarists Lage and Riley, Book Beri'ah/sefirot context) is consistent with MB; the entity-matched Julian Lage Wikipedia page confirms he recorded a duo with Gyan Riley. ours.wikipediaUrl points to the Julian Lage artist page (about our artist) - wikiLinkVerdict correct."
+ }
+]

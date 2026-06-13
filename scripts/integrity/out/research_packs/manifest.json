@@ -1,0 +1,96 @@
+{
+  "total": 49,
+  "packs": [
+    {
+      "file": "research_00.json",
+      "count": 7,
+      "ids": [
+        "ar:david-murray",
+        "ar:jiro-inagaki",
+        "ar:leon-thomas",
+        "ar:yuki-arimasa",
+        "ar:latin-jazz-quintet",
+        "al:the-newest-sound-around",
+        "al:blue-note-4000"
+      ]
+    },
+    {
+      "file": "research_01.json",
+      "count": 7,
+      "ids": [
+        "al:harlem-river-drive",
+        "al:mystic-brew",
+        "al:real-book",
+        "al:kosmos",
+        "al:mellow-dream",
+        "al:tetterettet",
+        "al:chet-baker-live-in-rosenheim"
+      ]
+    },
+    {
+      "file": "research_02.json",
+      "count": 7,
+      "ids": [
+        "al:investigations",
+        "al:no-parking-tow-away-zone",
+        "al:tokyo-1981",
+        "al:amaryllis-belladonna",
+        "al:the-empress-of-the-blues-bessie-smith",
+        "al:father-of-stride-piano-james-p-johnson",
+        "al:new-orleans-joys-kid-ory"
+      ]
+    },
+    {
+      "file": "research_03.json",
+      "count": 7,
+      "ids": [
+        "al:king-olivers-jazz-band-1923-king-oliver",
+        "al:jelly-roll-morton-the-piano-rolls-jelly-roll-morton",
+        "al:his-eye-is-on-the-sparrow-ethel-waters",
+        "al:the-blue-note-sessions-sidney-bechet",
+        "al:tatum-group-masterpieces-vol-1-art-tatum",
+        "al:mary-lou-williams-presents-black-christ-of-the-andes-mary-lou-williams",
+        "al:the-art-of-the-trio-vol-4-nat-king-cole"
+      ]
+    },
+    {
+      "file": "research_04.json",
+      "count": 7,
+      "ids": [
+        "al:genius-of-modern-music-vol-1-thelonious-monk",
+        "al:the-amazing-bud-powell-vol-2-bud-powell",
+        "al:we-insist-freedom-now-suite-max-roach",
+        "al:the-jimmy-giuffre-three-jimmy-giuffre",
+        "al:ma-rainey-vol-1-ma-rainey",
+        "al:johnny-dodds-vol-1-johnny-dodds",
+        "al:sidney-bechet-at-storyville-sidney-bechet"
+      ]
+    },
+    {
+      "file": "research_05.json",
+      "count": 7,
+      "ids": [
+        "al:we-free-kings-rahsaan-roland-kirk",
+        "al:wayne-shorter-juju-wayne-shorter",
+        "al:the-poll-winners-ride-again-barney-kessel",
+        "al:a-smooth-one-woody-herman",
+        "al:song-of-the-wanderer-kid-ory",
+        "al:wild-cat-blues-clarence-williams",
+        "al:solo-masterpieces-vol-1-art-tatum"
+      ]
+    },
+    {
+      "file": "research_06.json",
+      "count": 7,
+      "ids": [
+        "ar:andrew-hill",
+        "ar:dave-holland",
+        "ar:sadao-watanabe",
+        "ar:sam-rivers",
+        "ar:tommy-flanagan",
+        "ar:james-moody",
+        "ar:clarence-williams"
+      ]
+    }
+  ]
+}

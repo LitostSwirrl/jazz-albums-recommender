@@ -1,0 +1,162 @@
+[
+  {
+    "action": "research",
+    "file": "artistsDetail",
+    "id": "andrew-hill",
+    "field": "wikipedia",
+    "before": "https://en.wikipedia.org/wiki/Andrew_Hill",
+    "after": "https://en.wikipedia.org/wiki/Andrew_Hill_(jazz_musician)",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Andrew_Hill_(jazz_musician)"],
+    "evidence": "Lead: 'Andrew Hill (June 30, 1931 - April 20, 2007) was an American jazz pianist and composer.' Dates match ours (1931/2007); disambiguated page replaces the bare-name link."
+  },
+  {
+    "action": "research",
+    "file": "artistsDetail",
+    "id": "dave-holland",
+    "field": "wikipedia",
+    "before": "https://en.wikipedia.org/wiki/Dave_Holland",
+    "after": "https://en.wikipedia.org/wiki/Dave_Holland_(bassist)",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Dave_Holland_(bassist)"],
+    "evidence": "Lead: 'David Holland (born 1 October 1946) is an English double bassist...'. Birth 1946 matches ours; Miles Davis / ECM bassist. Disambiguated page replaces the bare-name link."
+  },
+  {
+    "action": "research",
+    "file": "artistsDetail",
+    "id": "sadao-watanabe",
+    "field": "wikipedia",
+    "before": "https://en.wikipedia.org/wiki/Sadao_Watanabe",
+    "after": "https://en.wikipedia.org/wiki/Sadao_Watanabe_(musician)",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Sadao_Watanabe_(musician)"],
+    "evidence": "Lead: 'Sadao Watanabe (born 1 February 1933) is a Japanese jazz musician who plays alto saxophone and sopranino saxophone.' Birth 1933 matches ours. Disambiguated page replaces the bare-name link."
+  },
+  {
+    "action": "research",
+    "file": "artistsDetail",
+    "id": "sam-rivers",
+    "field": "wikipedia",
+    "before": "https://en.wikipedia.org/wiki/Sam_Rivers",
+    "after": "https://en.wikipedia.org/wiki/Sam_Rivers_(jazz_musician)",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Sam_Rivers_(jazz_musician)"],
+    "evidence": "Bare 'Sam Rivers' is a disambiguation page. Correct article lead: 'Samuel Carthorne Rivers (September 25, 1923 - December 26, 2011) was an American jazz musician and composer.' Dates match ours (1923/2011); founder of Studio Rivbea."
+  },
+  {
+    "action": "research",
+    "file": "artistsDetail",
+    "id": "tommy-flanagan",
+    "field": "wikipedia",
+    "before": null,
+    "after": "https://en.wikipedia.org/wiki/Tommy_Flanagan_(musician)",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Tommy_Flanagan_(musician)"],
+    "evidence": "Lead: 'Thomas Lee Flanagan (March 16, 1930 - November 16, 2001) was an American jazz pianist and composer.' Correct jazz subject (not the actor)."
+  },
+  {
+    "action": "research",
+    "file": "artists",
+    "id": "tommy-flanagan",
+    "field": "birthYear",
+    "before": 0,
+    "after": 1930,
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Tommy_Flanagan_(musician)"],
+    "evidence": "Lead: 'Thomas Lee Flanagan (March 16, 1930 - November 16, 2001)...'."
+  },
+  {
+    "action": "research",
+    "file": "artists",
+    "id": "tommy-flanagan",
+    "field": "deathYear",
+    "before": null,
+    "after": 2001,
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Tommy_Flanagan_(musician)"],
+    "evidence": "Lead: 'Thomas Lee Flanagan (March 16, 1930 - November 16, 2001)...'."
+  },
+  {
+    "action": "research",
+    "file": "artists",
+    "id": "tommy-flanagan",
+    "field": "instruments",
+    "before": [],
+    "after": ["piano"],
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Tommy_Flanagan_(musician)"],
+    "evidence": "Lead describes him as 'an American jazz pianist and composer.'"
+  },
+  {
+    "action": "research",
+    "file": "artistsDetail",
+    "id": "james-moody",
+    "field": "wikipedia",
+    "before": null,
+    "after": "https://en.wikipedia.org/wiki/James_Moody_(saxophonist)",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/James_Moody_(saxophonist)"],
+    "evidence": "Lead: 'James Moody (March 26, 1925 - December 9, 2010) was an American jazz saxophone and flute player...'. Correct jazz subject (not a judge)."
+  },
+  {
+    "action": "research",
+    "file": "artists",
+    "id": "james-moody",
+    "field": "birthYear",
+    "before": 0,
+    "after": 1925,
+    "sourceUrl": ["https://en.wikipedia.org/wiki/James_Moody_(saxophonist)"],
+    "evidence": "Lead: 'James Moody (March 26, 1925 - December 9, 2010)...'."
+  },
+  {
+    "action": "research",
+    "file": "artists",
+    "id": "james-moody",
+    "field": "deathYear",
+    "before": null,
+    "after": 2010,
+    "sourceUrl": ["https://en.wikipedia.org/wiki/James_Moody_(saxophonist)"],
+    "evidence": "Lead: 'James Moody (March 26, 1925 - December 9, 2010)...'."
+  },
+  {
+    "action": "research",
+    "file": "artists",
+    "id": "james-moody",
+    "field": "instruments",
+    "before": [],
+    "after": ["tenor saxophone", "alto saxophone", "flute"],
+    "sourceUrl": ["https://en.wikipedia.org/wiki/James_Moody_(saxophonist)"],
+    "evidence": "Lead: 'an American jazz saxophone and flute player'; infobox/article lists alto and tenor saxophone plus flute."
+  },
+  {
+    "action": "research",
+    "file": "artistsDetail",
+    "id": "clarence-williams",
+    "field": "wikipedia",
+    "before": null,
+    "after": "https://en.wikipedia.org/wiki/Clarence_Williams_(musician)",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Clarence_Williams_(musician)"],
+    "evidence": "Lead: 'Clarence Williams (October 8, 1898 or October 6, 1893 - November 6, 1965) was an American jazz pianist, composer...'. Correct early-jazz subject (not the actor Clarence Williams III)."
+  },
+  {
+    "action": "research",
+    "file": "artists",
+    "id": "clarence-williams",
+    "field": "birthYear",
+    "before": 0,
+    "after": 1898,
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Clarence_Williams_(musician)"],
+    "evidence": "Lead gives '1898 or 1893' (sources conflict); used 1898, the first-listed value in the article lead."
+  },
+  {
+    "action": "research",
+    "file": "artists",
+    "id": "clarence-williams",
+    "field": "deathYear",
+    "before": null,
+    "after": 1965,
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Clarence_Williams_(musician)"],
+    "evidence": "Lead: '... - November 6, 1965)'."
+  },
+  {
+    "action": "research",
+    "file": "artists",
+    "id": "clarence-williams",
+    "field": "instruments",
+    "before": [],
+    "after": ["piano"],
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Clarence_Williams_(musician)"],
+    "evidence": "Lead describes him as 'an American jazz pianist, composer, promoter, vocalist...'; primary instrument piano."
+  }
+]

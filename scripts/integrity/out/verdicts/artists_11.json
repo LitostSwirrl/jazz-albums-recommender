@@ -1,0 +1,402 @@
+[
+ {
+  "id": "bessie-smith",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1892", "evidenceQuote": "Bessie Smith (April 15, 1892 – September 26, 1937) was an African-American blues singer widely renowned during the Jazz Age.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1937", "evidenceQuote": "Bessie Smith (April 15, 1892 – September 26, 1937) was an African-American blues singer widely renowned during the Jazz Age.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "vocals (blues singer)", "evidenceQuote": "Bessie Smith (April 15, 1892 – September 26, 1937) was an African-American blues singer widely renowned during the Jazz Age.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Stub record: birthYear=0, deathYear=null, instruments=[] read as unfilled placeholders rather than asserted values; verdict anchors on birthYear=0 contradicting the documented 1892. Bio is generic editorial boilerplate; 'Early Jazz' era tag not contradicted (evidence: blues singer of the Jazz Age, major influence on jazz vocalists). Page itself notes census ambiguity (1892 vs 1894 birth date); lead uses 1892. Repair values are in fieldIssues."
+ },
+ {
+  "id": "ma-rainey",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1886", "evidenceQuote": "Gertrude \"Ma\" Rainey (née Pridgett; April 26, 1886 – December 22, 1939) was an American blues singer and influential early-blues recording artist.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1939", "evidenceQuote": "Gertrude \"Ma\" Rainey (née Pridgett; April 26, 1886 – December 22, 1939) was an American blues singer and influential early-blues recording artist.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "vocals (blues singer)", "evidenceQuote": "Gertrude \"Ma\" Rainey (née Pridgett; April 26, 1886 – December 22, 1939) was an American blues singer and influential early-blues recording artist.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1886. Page notes some sources give 1882 (1900 census); lead uses April 26, 1886. Bio boilerplate; 'Early Jazz' tag not contradicted (collaborated with Louis Armstrong, toured with the Georgia Jazz Band)."
+ },
+ {
+  "id": "kid-ory",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1886", "evidenceQuote": "Edward \"Kid\" Ory (December 25, 1886 – January 23, 1973) was an American jazz composer, trombonist and bandleader.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1973", "evidenceQuote": "Edward \"Kid\" Ory (December 25, 1886 – January 23, 1973) was an American jazz composer, trombonist and bandleader.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "trombone", "evidenceQuote": "Edward \"Kid\" Ory (December 25, 1886 – January 23, 1973) was an American jazz composer, trombonist and bandleader.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1886. Bio boilerplate; 'Early Jazz' tag fully consistent (New Orleans jazz pioneer, Armstrong's Hot Five, glissando/tailgate trombone)."
+ },
+ {
+  "id": "albert-ammons",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1907", "evidenceQuote": "Albert Clifton Ammons (March 1, 1907 – December 2, 1949) was an American pianist and player of boogie-woogie, a blues style popular from the late 1930s to the mid-1940s.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1949", "evidenceQuote": "Albert Clifton Ammons (March 1, 1907 – December 2, 1949) was an American pianist and player of boogie-woogie, a blues style popular from the late 1930s to the mid-1940s.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "piano", "evidenceQuote": "Albert Clifton Ammons (March 1, 1907 – December 2, 1949) was an American pianist and player of boogie-woogie, a blues style popular from the late 1930s to the mid-1940s.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1907. Bio boilerplate. Curator note: evidence frames Ammons as a boogie-woogie pianist whose style peaked late 1930s to mid-1940s (From Spirituals to Swing 1938, first Blue Note session 1939); the site's 'Early Jazz' era tag is editorial bucketing, not contradicted, but chronologically debatable."
+ },
+ {
+  "id": "ethel-waters",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1896", "evidenceQuote": "Ethel Waters (October 31, 1896 – September 1, 1977) was an American singer and actress.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1977", "evidenceQuote": "Ethel Waters (October 31, 1896 – September 1, 1977) was an American singer and actress.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "vocals (singer)", "evidenceQuote": "Ethel Waters (October 31, 1896 – September 1, 1977) was an American singer and actress.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1896 (page notes some sources incorrectly state 1900). Bio boilerplate; 'Early Jazz' tag not contradicted (began career in the 1920s singing blues; performed jazz, swing, and pop)."
+ },
+ {
+  "id": "glenn-miller",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1904", "evidenceQuote": "Alton Glen \"Glenn\" Miller (March 1, 1904 – December 15, 1944) was an American big band conductor, arranger, composer, trombonist, and recording artist", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1944", "evidenceQuote": "Alton Glen \"Glenn\" Miller (March 1, 1904 – December 15, 1944) was an American big band conductor, arranger, composer, trombonist, and recording artist", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "trombone", "evidenceQuote": "Alton Glen \"Glenn\" Miller (March 1, 1904 – December 15, 1944) was an American big band conductor, arranger, composer, trombonist, and recording artist", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1904. Note Miller went MIA December 15, 1944 and was declared dead a year and a day later; 1944 is the death date used in the page lead. Bio boilerplate; 'Swing' tag fully consistent (best-selling big-band recording artist 1939-1942)."
+ },
+ {
+  "id": "artie-shaw",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1910", "evidenceQuote": "Artie Shaw (born Arthur Jacob Arshawsky; May 23, 1910 – December 30, 2004) was an American clarinetist, composer, bandleader, and author of both fiction and non-fiction.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "2004", "evidenceQuote": "Artie Shaw (born Arthur Jacob Arshawsky; May 23, 1910 – December 30, 2004) was an American clarinetist, composer, bandleader, and author of both fiction and non-fiction.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "clarinet", "evidenceQuote": "Artie Shaw (born Arthur Jacob Arshawsky; May 23, 1910 – December 30, 2004) was an American clarinetist, composer, bandleader, and author of both fiction and non-fiction.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1910. Bio boilerplate; 'Swing' tag fully consistent (led one of the most popular big bands of the late 1930s-early 1940s, 'Begin the Beguine')."
+ },
+ {
+  "id": "lionel-hampton",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1908", "evidenceQuote": "Lionel Leo Hampton (April 20, 1908 – August 31, 2002) was an American jazz vibraphonist, percussionist, and bandleader.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "2002", "evidenceQuote": "Lionel Leo Hampton (April 20, 1908 – August 31, 2002) was an American jazz vibraphonist, percussionist, and bandleader.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "vibraphone, percussion/drums", "evidenceQuote": "Lionel Leo Hampton (April 20, 1908 – August 31, 2002) was an American jazz vibraphonist, percussionist, and bandleader.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1908. Bio boilerplate; 'Swing' tag fully consistent (Benny Goodman Quartet, own big band from 1940)."
+ },
+ {
+  "id": "cab-calloway",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1907", "evidenceQuote": "Cabell Calloway III (December 25, 1907 – November 18, 1994) was an American jazz singer, songwriter, bandleader, and actor.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1994", "evidenceQuote": "Cabell Calloway III (December 25, 1907 – November 18, 1994) was an American jazz singer, songwriter, bandleader, and actor.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "vocals (singer)", "evidenceQuote": "Cabell Calloway III (December 25, 1907 – November 18, 1994) was an American jazz singer, songwriter, bandleader, and actor.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1907. Bio boilerplate; 'Swing' tag fully consistent ('a popular vocalist of the swing era', Cotton Club regular)."
+ },
+ {
+  "id": "louis-jordan",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1908", "evidenceQuote": "Louis Thomas Jordan (July 8, 1908 – February 4, 1975) was an American jazz, blues and jump blues saxophonist, vocalist, songwriter and bandleader who was popular from the late 1930s to the early 1950s.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1975", "evidenceQuote": "Louis Thomas Jordan (July 8, 1908 – February 4, 1975) was an American jazz, blues and jump blues saxophonist, vocalist, songwriter and bandleader who was popular from the late 1930s to the early 1950s.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "alto saxophone (also piano, clarinet), vocals", "evidenceQuote": "Specializing in the alto sax, Jordan played all forms of the saxophone, as well as piano and clarinet.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1908. Bio boilerplate; 'Swing' tag not contradicted ('earned his highest profile towards the end of the swing era', began in big-band swing with Chick Webb), though evidence emphasizes jump blues/R&B."
+ },
+ {
+  "id": "tommy-dorsey",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1905", "evidenceQuote": "Thomas Francis Dorsey Jr. (November 19, 1905 – November 26, 1956) was an American jazz trombonist, composer, conductor and bandleader of the big band era.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1956", "evidenceQuote": "Thomas Francis Dorsey Jr. (November 19, 1905 – November 26, 1956) was an American jazz trombonist, composer, conductor and bandleader of the big band era.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "trombone", "evidenceQuote": "Thomas Francis Dorsey Jr. (November 19, 1905 – November 26, 1956) was an American jazz trombonist, composer, conductor and bandleader of the big band era.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1905. Bio boilerplate; 'Swing' tag fully consistent ('Sentimental Gentleman of Swing', big band era bandleader)."
+ },
+ {
+  "id": "tadd-dameron",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1917", "evidenceQuote": "Tadley Ewing Peake Dameron (February 21, 1917 – March 8, 1965) was an American jazz composer, arranger, and pianist.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1965", "evidenceQuote": "Tadley Ewing Peake Dameron (February 21, 1917 – March 8, 1965) was an American jazz composer, arranger, and pianist.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "piano", "evidenceQuote": "Tadley Ewing Peake Dameron (February 21, 1917 – March 8, 1965) was an American jazz composer, arranger, and pianist.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1917. Bio boilerplate; 'Bebop' tag explicitly supported ('the most influential arranger of the bebop era')."
+ },
+ {
+  "id": "paul-desmond",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1924", "evidenceQuote": "Paul Desmond (born Paul Emil Breitenfeld; November 25, 1924 – May 30, 1977) was an American jazz alto saxophonist and composer and proponent of cool jazz.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1977", "evidenceQuote": "Paul Desmond (born Paul Emil Breitenfeld; November 25, 1924 – May 30, 1977) was an American jazz alto saxophonist and composer and proponent of cool jazz.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "alto saxophone", "evidenceQuote": "Paul Desmond (born Paul Emil Breitenfeld; November 25, 1924 – May 30, 1977) was an American jazz alto saxophonist and composer and proponent of cool jazz.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1924. Bio boilerplate; 'Cool Jazz' tag explicitly supported ('proponent of cool jazz', Dave Brubeck Quartet, composed 'Take Five')."
+ },
+ {
+  "id": "jimmy-giuffre",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1921", "evidenceQuote": "April 26, 1921 – April 24, 2008) was an American jazz clarinetist, saxophonist, composer, and arranger.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "2008", "evidenceQuote": "April 26, 1921 – April 24, 2008) was an American jazz clarinetist, saxophonist, composer, and arranger.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "clarinet, saxophones (tenor/baritone, later soprano and flutes)", "evidenceQuote": "April 26, 1921 – April 24, 2008) was an American jazz clarinetist, saxophonist, composer, and arranger.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1921. Bio boilerplate; 'Cool Jazz' tag explicitly supported ('He was a central figure in West Coast jazz and cool jazz')."
+ },
+ {
+  "id": "shorty-rogers",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1924", "evidenceQuote": "Milton \"Shorty\" Rogers (born Milton Rajonsky; April 14, 1924 – November 7, 1994) was an American jazz musician, one of the principal creators of West Coast jazz. He played trumpet and flugelhorn and was in demand for his skills as an arranger.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1994", "evidenceQuote": "Milton \"Shorty\" Rogers (born Milton Rajonsky; April 14, 1924 – November 7, 1994) was an American jazz musician, one of the principal creators of West Coast jazz. He played trumpet and flugelhorn and was in demand for his skills as an arranger.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "trumpet, flugelhorn", "evidenceQuote": "He played trumpet and flugelhorn and was in demand for his skills as an arranger.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1924. Bio boilerplate; 'Cool Jazz' tag consistent ('one of the principal creators of West Coast jazz'; his Atlantic albums 'could be classified as cool jazz' per the page)."
+ },
+ {
+  "id": "shelly-manne",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1920", "evidenceQuote": "Sheldon \"Shelly\" Manne (June 11, 1920 – September 26, 1984) was an American jazz drummer.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1984", "evidenceQuote": "Sheldon \"Shelly\" Manne (June 11, 1920 – September 26, 1984) was an American jazz drummer.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "drums", "evidenceQuote": "Sheldon \"Shelly\" Manne (June 11, 1920 – September 26, 1984) was an American jazz drummer.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1920. Bio boilerplate; 'Cool Jazz' tag consistent (quintessential West Coast jazz drummer, played 'in what was a cool style'), though the page stresses his versatility across styles."
+ },
+ {
+  "id": "modern-jazz-quartet",
+  "verdict": "factual_error",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1952 (formation year, if that is the intended semantics for a group)", "evidenceQuote": "The Modern Jazz Quartet (MJQ) was a jazz ensemble established in 1952 that blended classical music, cool jazz, blues and bebop.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1997 (permanent disbandment)", "evidenceQuote": "with Percy Heath's brother Albert Heath on drums until the group disbanded permanently in 1997", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "ensemble: piano, vibraphone, double bass, drums", "evidenceQuote": "The quartet consisted of John Lewis (piano), Milt Jackson (vibraphone), Percy Heath (double bass), and various drummers, most notably Kenny Clarke (from 1952 to 1955) and Connie Kay (from 1955 to 1994).", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Entity is an ensemble, not a person, so birthYear/deathYear semantics are unclear; confidence lowered accordingly. If the schema intends formation/disbandment, evidence gives 1952 and 1997; birthYear=0 is at minimum an unfilled placeholder. Bio boilerplate; 'Cool Jazz' tag explicitly supported ('blended classical music, cool jazz, blues and bebop')."
+ },
+ {
+  "id": "johnny-dodds",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1892", "evidenceQuote": "Johnny Dodds (; April 12, 1892 – August 8, 1940) was an American jazz clarinetist and alto saxophonist based in New Orleans", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1940", "evidenceQuote": "Johnny Dodds (; April 12, 1892 – August 8, 1940) was an American jazz clarinetist and alto saxophonist based in New Orleans", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "clarinet, alto saxophone", "evidenceQuote": "Johnny Dodds (; April 12, 1892 – August 8, 1940) was an American jazz clarinetist and alto saxophonist based in New Orleans", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1892. Bio boilerplate; 'Early Jazz' tag fully consistent (King Oliver's Creole Jazz Band, Armstrong's Hot Five/Hot Seven, 'premier clarinetist of his era')."
+ },
+ {
+  "id": "fats-navarro",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1923", "evidenceQuote": "Theodore \"Fats\" Navarro (September 24, 1923 – July 7, 1950) was an American jazz trumpet player and a pioneer of the bebop style of jazz improvisation in the 1940s.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1950", "evidenceQuote": "Theodore \"Fats\" Navarro (September 24, 1923 – July 7, 1950) was an American jazz trumpet player and a pioneer of the bebop style of jazz improvisation in the 1940s.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "trumpet (also tenor saxophone early in career)", "evidenceQuote": "Theodore \"Fats\" Navarro (September 24, 1923 – July 7, 1950) was an American jazz trumpet player and a pioneer of the bebop style of jazz improvisation in the 1940s.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1923. Bio boilerplate; 'Bebop' tag explicitly supported ('a pioneer of the bebop style'). Page is internally inconsistent on death day (July 7 in lead vs July 6 in Death section); year 1950 is consistent throughout."
+ },
+ {
+  "id": "wardell-gray",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1921", "evidenceQuote": "Wardell Gray (February 13, 1921 – May 25, 1955) was an American jazz tenor saxophonist.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1955", "evidenceQuote": "Wardell Gray (February 13, 1921 – May 25, 1955) was an American jazz tenor saxophonist.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "tenor saxophone", "evidenceQuote": "Wardell Gray (February 13, 1921 – May 25, 1955) was an American jazz tenor saxophonist.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1921. Bio boilerplate; 'Bebop' tag consistent (hired for Benny Goodman's bebop small group, recorded with Tadd Dameron, tenor battles with Dexter Gordon)."
+ },
+ {
+  "id": "booker-ervin",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1930", "evidenceQuote": "Booker Telleferro Ervin II (October 31, 1930 – August 31, 1970) was an American tenor saxophone player.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1970", "evidenceQuote": "Booker Telleferro Ervin II (October 31, 1930 – August 31, 1970) was an American tenor saxophone player.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "tenor saxophone", "evidenceQuote": "Booker Telleferro Ervin II (October 31, 1930 – August 31, 1970) was an American tenor saxophone player.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1930. Bio boilerplate; 'Hard Bop' tag neither confirmed nor contradicted by evidence (page describes 'strong, tough sound and blues/gospel phrasing' and the Mingus association)."
+ },
+ {
+  "id": "red-garland",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1923", "evidenceQuote": "William McKinley \"Red\" Garland Jr. (May 13, 1923 – April 23, 1984) was an American modern jazz pianist.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1984", "evidenceQuote": "William McKinley \"Red\" Garland Jr. (May 13, 1923 – April 23, 1984) was an American modern jazz pianist.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "piano", "evidenceQuote": "William McKinley \"Red\" Garland Jr. (May 13, 1923 – April 23, 1984) was an American modern jazz pianist.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1923. Bio boilerplate; 'Bebop' tag not contradicted (evidence calls him a 'modern jazz pianist' with a style developed 'out of Nat Cole and Bud Powell'), though evidence frames him mainly via the 1950s Miles Davis Quintet."
+ },
+ {
+  "id": "tommy-flanagan",
+  "verdict": "factual_error",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1930", "evidenceQuote": "Thomas Lee Flanagan (March 16, 1930 – November 16, 2001) was an American jazz pianist and composer.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "2001", "evidenceQuote": "Thomas Lee Flanagan (March 16, 1930 – November 16, 2001) was an American jazz pianist and composer.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "piano", "evidenceQuote": "Thomas Lee Flanagan (March 16, 1930 – November 16, 2001) was an American jazz pianist and composer.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Opensearch resolved to a disambiguation page ('Thomas Flanagan'), which is not itself about our entity; entity match and all facts come from the 'Tommy Flanagan (musician)' search candidate (American jazz pianist, 1930-2001), also listed on the disambiguation page as 'Tommy Flanagan (musician) (1930–2001), American jazz pianist'. Verdict anchors on birthYear=0 vs documented 1930. 'Bebop' tag consistent with the candidate ('and then by bebop musicians'). A repair-writer should link the (musician) page, not the disambiguation page."
+ },
+ {
+  "id": "rahsaan-roland-kirk",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1935", "evidenceQuote": "Rahsaan Roland Kirk (born Ronald Theodore Kirk; August 7, 1935 – December 5, 1977), known earlier in his career simply as Roland Kirk, was an American jazz multi-instrumentalist who played tenor saxophone, flute, and many other instruments.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1977", "evidenceQuote": "Rahsaan Roland Kirk (born Ronald Theodore Kirk; August 7, 1935 – December 5, 1977), known earlier in his career simply as Roland Kirk, was an American jazz multi-instrumentalist who played tenor saxophone, flute, and many other instruments.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "tenor saxophone, flute, stritch, manzello, clarinet, and many others", "evidenceQuote": "was an American jazz multi-instrumentalist who played tenor saxophone, flute, and many other instruments", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1935. Bio boilerplate; 'Hard Bop' tag explicitly supported ('His playing was generally rooted in soul jazz or hard bop')."
+ },
+ {
+  "id": "oliver-nelson",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1932", "evidenceQuote": "Oliver Edward Nelson (June 4, 1932 – October 28, 1975) was an American jazz saxophonist, clarinetist, arranger, composer, and bandleader.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1975", "evidenceQuote": "Oliver Edward Nelson (June 4, 1932 – October 28, 1975) was an American jazz saxophonist, clarinetist, arranger, composer, and bandleader.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "saxophone (alto/tenor, later soprano), clarinet", "evidenceQuote": "Oliver Edward Nelson (June 4, 1932 – October 28, 1975) was an American jazz saxophonist, clarinetist, arranger, composer, and bandleader.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1932. Bio boilerplate; 'Hard Bop' tag neither confirmed nor contradicted by evidence (page centers The Blues and the Abstract Truth and his arranging/film work)."
+ }
+]

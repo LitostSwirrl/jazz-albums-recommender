@@ -1,0 +1,332 @@
+[
+ {
+  "id": "the-sermon-jimmy-smith",
+  "verdict": "factual_error",
+  "confidence": 0.86,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "Blue Note", "evidenceQuote": "labels: [{name: Blue Note, catalogNumber: BLP 4011}] (MB release a515abf5; Wikipedia: \"released on Blue Note in 1959\")", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "albumDNA is fully correct and entity-matches: recorded Aug 25 1957 & Feb 25 1958, released Blue Note 1959, three tracks The Sermon/J.O.S./Flamingo (Wikipedia confirms verbatim; MB tracklist matches; keyTracks all match). Only the label field still ships 'Various' where MB/Wiki authoritatively give Blue Note. The year field 1987 disagrees with the matched MB release (1959) and the DNA's own '1959'; treated as an unverifiable later-reissue date (no evidence shows a 1987 issue, but reissues plausibly exist), not flagged as factual_error per the 'absence is not contradiction' rule."
+ },
+ {
+  "id": "spellbound-clifford-jordan",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "Riverside", "evidenceQuote": "labels: [{name: Riverside, catalogNumber: VICJ-41820}] (MB embedded_mbid 1ab7ad48; Wikipedia: \"recorded in 1960 and released on the Riverside label\")", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "albumDNA correct and entity-matched: recorded 1960, Riverside, hard bop, Toy/Lush Life/title track Spellbound (Wikipedia confirms verbatim). keyTracks all match MB tracklist. year 2007 equals the matched MB release date 2007-01-24 (a Japanese reissue; release-group first date 1960-11), so the year field is fine. Only the label field still ships 'Various' instead of Riverside."
+ },
+ {
+  "id": "wayne-shorter-juju-wayne-shorter",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No MB release returned; websearch resolved=true confirms album by Wayne Shorter on Blue Note, recorded Aug 1964, released 1965, Coltrane rhythm section McCoy Tyner/Reggie Workman/Elvin Jones, six Shorter originals incl title track and 'Yes or No'. albumDNA matches all of this. label 'Blue Note' and year 1965 correct. keyTracks match websearch tracklist exactly. wikipediaUrl https://en.wikipedia.org/wiki/JuJu_(album) confirmed by websearch as our entity's page."
+ },
+ {
+  "id": "cornbread-lee-morgan",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "Blue Note", "evidenceQuote": "Recorded in September 1965 but released on the Blue Note label in early 1967 (Wikipedia); MB labels: [{name: Blue Note, catalogNumber: BLP 4222}]", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "DNA is mostly generic boilerplate (editorial: 'height of their creative powers', 'finest expressions of Hard Bop', 'landmark', 'praise from critics worldwide' -- not flagged). The one checkable claim 'Recorded in September 1965' matches Wikipedia. Entity confirmed (Lee Morgan, Blue Note). keyTracks all match MB/Wiki. Only the label field still ships 'Various' vs Blue Note. year 2013 disagrees with matched MB release (1965) and Wikipedia release year (early 1967); treated as unverifiable later-reissue date, not a flagged contradiction."
+ },
+ {
+  "id": "a-swingin-affair-dexter-gordon",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "Blue Note", "evidenceQuote": "labels: [{name: Blue Note, catalogNumber: BLP 4133}] (MB release b12f58ca, search sim 1.0; Wikipedia: recorded 1962, released early October 1964)", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "DNA generic boilerplate; the one checkable claim 'Recorded in 1962' matches Wikipedia and MB release date. Entity confirmed (Dexter Gordon). keyTracks all match MB tracklist. Only the label field still ships 'Various' vs Blue Note. year 1987 disagrees with matched release (1962); unverifiable later-reissue date, not flagged."
+ },
+ {
+  "id": "dance-mania-tito-puente",
+  "verdict": "factual_error",
+  "confidence": 0.78,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "Discos 605 / Legacy / RCA", "evidenceQuote": "labels: [{name: Discos 605}, {name: Legacy}, {name: RCA}] (MB embedded_mbid 257bfe41, a 2009 reissue); the 1958 original was RCA Victor", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "DNA generic boilerplate; the one checkable claim 'Recorded in 1958' matches the MB release-group first date 1958 and Wikipedia. Entity confirmed (Tito Puente). keyTracks all match MB tracklist. year 2009 equals the matched MB reissue release date 2009-04-21, so the year field is fine. The label field 'Various' is the weak spot: this single-artist album's matched reissue carries RCA/Legacy/Discos 605 and the 1958 original was RCA Victor -- 'Various' is not any of those (lower confidence because the reissue genuinely lists multiple labels, but it still misrepresents a single-artist album)."
+ },
+ {
+  "id": "the-poll-winners-ride-again-barney-kessel",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No MB release; websearch resolved=true confirms: guitarist Barney Kessel with Shelly Manne (drums) and Ray Brown (bass) on Contemporary, recorded Aug 1958, released 1958, second of five Poll Winners albums, standards Volare and Angel Eyes plus Kessel originals. albumDNA matches all of it. label 'Contemporary' and year 1958 correct. keyTracks match websearch tracklist. wikipediaUrl confirmed as our entity's page by websearch sources."
+ },
+ {
+  "id": "the-dual-role-of-bob-brookmeyer-bob-brookmeyer",
+  "verdict": "factual_error",
+  "confidence": 0.82,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "Original Jazz Classics / Prestige", "evidenceQuote": "labels: [{name: Original Jazz Classics, catalogNumber: OJCCD-1729-2}, {name: Prestige, catalogNumber: P-7066}] (MB embedded_mbid e093519c)", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "DNA entity-matched and accurate: 'First released in 1955' matches MB release-group first date 1955; 'appeared on Prestige (P-7066)' matches MB Prestige P-7066; 'later reissued by Original Jazz Classics' matches MB OJC. keyTracks all match MB tracklist. year 1989 equals the matched MB (OJC reissue) release date, so the year field is fine. Only the label field still ships 'Various' where MB gives Prestige + OJC (and the DNA itself names both)."
+ },
+ {
+  "id": "detroitnew-york-junction-thad-jones",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "Blue Note", "evidenceQuote": "labels: [{name: Blue Note, catalogNumber: BLP 1513}] (MB release 17cb431d, search sim 1.0, date 1956)", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "DNA entity-matched and accurate: 'Released in 1956 on Blue Note' matches MB (release date 1956, label Blue Note); track program Blue Room/Tarriff/Little Girl Blue/Scratch/Zec matches MB tracklist exactly; keyTracks all match. year 1956 matches MB. Only the label field still ships 'Various' (DNA itself says Blue Note). MB title 'Detroit-New York Junction' vs ours 'Detroit/New York Junction' is a trivial punctuation variant, not an issue."
+ },
+ {
+  "id": "jazz-giant-benny-carter",
+  "verdict": "factual_error",
+  "confidence": 0.84,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "Contemporary Records", "evidenceQuote": "Jazz Giant is an album by saxophonist Benny Carter, recorded in 1957 and 1958 and released by Contemporary Records (Wikipedia); MB reissue label Original Jazz Classics OJCCD-167-2", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "DNA generic boilerplate; the checkable claims 'Recorded in 1957 and 1958 and released by Contemporary Records' match Wikipedia verbatim. Entity confirmed (Benny Carter). keyTracks all match MB tracklist (and Wikipedia track listing). year 1987 equals the matched MB (OJC reissue) release date, so fine. Only the label field still ships 'Various' where the original is Contemporary (DNA) and the matched reissue is OJC."
+ },
+ {
+  "id": "clifford-brown-memorial-album-clifford-brown",
+  "verdict": "factual_error",
+  "confidence": 0.82,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "Blue Note", "evidenceQuote": "labels: [{name: Blue Note, catalogNumber: 7243 5 32141 2 8}] (MB embedded_mbid 4e7edbc6); release-group secondaryTypes [Compilation], first date 1956", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "DNA generic boilerplate; the checkable claim 'First released in 1956' matches MB release-group first date 1956 (Compilation). Entity confirmed (Clifford Brown). keyTracks all match MB tracklist (compilation with duplicate/alternate takes; the six keyTracks are all present). year 2001 equals the matched MB reissue release date, so fine. Only the label field still ships 'Various' vs Blue Note."
+ },
+ {
+  "id": "latin-jazz-quintet-latin-jazz-quintet",
+  "verdict": "clean",
+  "confidence": 0.74,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "DNA generic boilerplate; the one checkable claim 'Recorded in 1961' matches the MB release-group first date 1961. Entity confirmed (The Latin Jazz Quintet; MB credits 'The Latin Jazz Quintet'). keyTracks all match MB tracklist. label 'Various' is NOT flagged here: MB returns an empty labels array and there is no websearch, so there is no evidence giving a real label -- per 'absence is not contradiction', 'Various' cannot be called a factual error. year 2004 equals the matched MB reissue release date. Nothing checkable contradicts the evidence."
+ },
+ {
+  "id": "coltrane-jazz-john-coltrane",
+  "verdict": "factual_error",
+  "confidence": 0.86,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "Atlantic", "evidenceQuote": "It was released in early 1961 on Atlantic Records (Wikipedia); MB labels: [{name: Atlantic, catalogNumber: SD 1354}]", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "DNA generic boilerplate; the checkable claim 'Released in 1961' matches Wikipedia and MB (release date 1961). Entity confirmed (John Coltrane). keyTracks all match MB tracklist. year 1961 matches MB. Only the label field still ships 'Various' vs Atlantic."
+ },
+ {
+  "id": "song-of-the-wanderer-kid-ory",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No MB release and no Wikipedia article; websearch resolved=true confirms via jazzdisco.org catalog: 'Song of the Wanderer' by Kid Ory (trombonist) on Verve, MGV-1014, released 1958, recorded 1957 in Los Angeles under the Norman Granz/Verve contract, with Marty Marsala (tpt), Darnell Howard (cl), Cedric Haywood (p). albumDNA matches all of this. label 'Verve' and year 1958 correct. keyTracks null (tracklist not enumerated on accessible sources; correctly left unfilled) -> n/a."
+ },
+ {
+  "id": "wild-cat-blues-clarence-williams",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No MB release and no dedicated Wikipedia article; websearch resolved=true confirms: 'Wild Cat Blues' by Clarence Williams' Blue Five, recorded NYC July 30 1923, released Nov 1923 on OKeh (4925), b/w 'Kansas City Man Blues', featuring an early Sidney Bechet soprano-sax solo, written by Fats Waller & Clarence Williams, in the LoC National Recording Registry. albumDNA matches every claim (Blue Five, Williams/Waller authorship, early Bechet solo, NRR). label 'OKeh' and year 1923 correct. keyTracks (Wild Cat Blues, Kansas City Man Blues) match websearch tracklist. (It is a 78rpm single, not an album, but that is a cataloguing nuance, not a factual contradiction in the prose.)"
+ },
+ {
+  "id": "far-east-suite-duke-ellington",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "RCA Victor", "evidenceQuote": "labels: [{name: RCA Victor, catalogNumber: LSP-3782}] (MB release 2a7d0078, search sim 1.0, date 1967)", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "DNA entity-matched and accurate: 'Released in 1967 on RCA Victor' matches MB (release date 1967, label RCA Victor); listed pieces Tourist Point of View/Isfahan/Mount Harissa/Blue Pepper match MB tracklist. keyTracks all match. year 1967 matches MB. Only the label field still ships 'Various' (DNA itself says RCA Victor). MB title 'The Far East Suite' vs ours 'Far East Suite' is a trivial article difference."
+ },
+ {
+  "id": "ella-fitzgerald-sings-the-cole-porter-song-book-ella-fitzgerald",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "Verve", "evidenceQuote": "labels: [{name: Verve, catalogNumber: MG V-4001-2}] (MB release 617fe930, search sim 1.0, date 1956)", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "DNA entity-matched and accurate: 'Released in 1956 on Verve' matches MB (date 1956, label Verve); it is indeed one of Fitzgerald's Song Book sets drawing on the Cole Porter catalog, and the named titles (Anything Goes, Too Darn Hot, In the Still of the Night, I Get a Kick Out of You) all appear in the MB tracklist. keyTracks all match. year 1956 matches MB. Only the label field still ships 'Various' (DNA itself says Verve)."
+ },
+ {
+  "id": "the-hawk-flies-high-coleman-hawkins",
+  "verdict": "factual_error",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "Mobile Fidelity Sound Lab", "evidenceQuote": "labels: [{name: Mobile Fidelity Sound Lab, catalogNumber: UDSACD 2030}] (MB embedded_mbid a058288a, a 2006 reissue); release-group first date 1957", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "DNA entity-matched and accurate: 'First released in 1957' matches MB release-group first date 1957; 'later reissued by Mobile Fidelity Sound Lab' matches the matched MB reissue. keyTracks all match MB tracklist (MB lists the program twice -- a hybrid SACD layer artifact -- but every keyTrack is present). year 2006 equals the matched MB reissue release date, so fine. Only the label field still ships 'Various' where the matched release is Mobile Fidelity (the 1957 original was Riverside, not in evidence)."
+ },
+ {
+  "id": "ben-webster-meets-oscar-peterson-ben-webster",
+  "verdict": "factual_error",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "Analogue Productions", "evidenceQuote": "labels: [{name: Analogue Productions, catalogNumber: CVRJ 6114 SA}] (MB embedded_mbid 5bd9cfcf, a 2011 reissue); release-group first date 1959", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "DNA generic boilerplate; the one checkable claim 'Recorded in 1959' matches the MB release-group first date 1959. Entity confirmed (Ben Webster). keyTracks all match MB tracklist. year 2011 equals the matched MB reissue release date, so fine. Only the label field still ships 'Various' where the matched reissue is Analogue Productions (1959 original was Verve, not in evidence)."
+ },
+ {
+  "id": "swing-de-paris-django-reinhardt",
+  "verdict": "factual_error",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Various", "evidence": "Charly Records", "evidenceQuote": "labels: [{name: Charly Records, catalogNumber: CD DIG 12}] (MB release 1fc92df8, search sim 1.0, date 1995); release-group secondaryTypes [Compilation]", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "DNA is pure editorial boilerplate (no checkable factual claim beyond genre = Swing, which is opinion); nothing in it contradicts evidence. Entity confirmed (Django Reinhardt). keyTracks all match the MB compilation tracklist (composer-bracket suffixes ignored). year is null (empty, not wrong). The matched release is a 1995 Charly Records compilation; the label field still ships 'Various' rather than Charly Records -- flagged. (Lower confidence: as a multi-session compilation of 1930s sides, 'Various' is a softer error than for a single studio LP.)"
+ },
+ {
+  "id": "solo-masterpieces-vol-1-art-tatum",
+  "verdict": "clean",
+  "confidence": 0.88,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No MB release and no dedicated Wikipedia article; websearch resolved=true confirms: solo piano by Art Tatum on Pablo (2310-723), original LP 1975, Norman Granz sessions Dec 1953-Jan 1955 Los Angeles. albumDNA matches every claim (first volume, Granz 1953-1955, Pablo 1975, standards Body and Soul/Love for Sale/Willow Weep for Me). label 'Pablo' and year 1975 correct. keyTracks match websearch tracklist. Note: the full catalog title is 'The Tatum Solo Masterpieces, Vol. 1'; ours 'Solo Masterpieces Vol. 1' is a shortened form (a title abbreviation, not a factual error)."
+ },
+ {
+  "id": "the-complete-billie-holiday-on-verve-billie-holiday",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "DNA entity-matched and accurate: 'The Complete Billie Holiday on Verve 1945-1959 is a compilation of Billie Holiday's Verve recordings made between 1945 and 1959, released by Verve in 1993' matches MB exactly (full title 'The Complete Billie Holiday on Verve 1945-1959', embedded_mbid, label Verve, release/first date 1993-03-09, release-group secondaryTypes [Compilation]). label 'Verve' and year 1993 both correct. keyTracks (Body and Soul, Strange Fruit, I Cried for You, Fine and Mellow, He's Funny That Way, The Man I Love) all match the MB tracklist."
+ },
+ {
+  "id": "way-out-west-sonny-rollins",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "DNA entity-matched and accurate against Wikipedia verbatim: 1957 album, bassist Ray Brown and drummer Shelly Manne, first record with only bass and drums (no chordal instrument), tracks I'm an Old Cowhand/Come Gone/title cut, 1988 CD reissue added alternate takes. keyTracks all match MB/Wiki. label 'Original Jazz Classics' matches MB (labels OJC + Contemporary Records); year 1988 equals the matched MB (OJC reissue) release date and the DNA's own '1988 CD reissue'. Everything checkable is consistent."
+ },
+ {
+  "id": "drums-unlimited-max-roach",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "DNA entity-matched and accurate: 'Released in 1966 on Atlantic' matches MB (release date 1966, label Atlantic); track program The Drum Also Waltzes/Nommo/title track/For Big Sid matches MB tracklist exactly; keyTracks all match. label 'Atlantic' is correct. The only soft spot is the year field 2004, which disagrees with the matched MB release (1966) and the DNA's own '1966'. No evidence shows a 2004 release, but a 2004 reissue plausibly exists, so per 'absence is not contradiction' the year cannot be called a factual_error -- it is unverifiable. (If the catalog intends 2004 as a reissue year it is unsupported; if it should be 1966 it is simply wrong; evidence cannot decide.)"
+ },
+ {
+  "id": "free-for-all-art-blakey",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "DNA entity-matched and accurate against Wikipedia verbatim: recorded Feb 10 1964, released Blue Note July 1965, Wayne Shorter title track, 'Hammer Head', Freddie Hubbard's 'The Core', 'Pensativa'. keyTracks all match MB/Wiki. label 'Blue Note' correct (MB + Wiki); year 2012 equals the matched MB reissue release date (release-group first date 1964), so the year field is fine. Everything checkable is consistent."
+ }
+]

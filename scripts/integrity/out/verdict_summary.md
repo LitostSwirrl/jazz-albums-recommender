@@ -1,0 +1,800 @@
+# Verdict Summary
+
+- items expected: 1315
+- verdicts merged: 1315
+- missing (re-dispatch these packs): 0
+- malformed entries: 0
+
+## Counts
+
+- clean: 733
+- entity_mismatch: 67
+- factual_error: 253
+- no_evidence: 42
+- unverifiable: 220
+
+## Wrong wikipedia links shipped (104)
+
+- album:a-jazz-hour-with-dizzy-gillespie
+- album:abbey-is-blue
+- album:african-marketplace
+- album:afrodisia
+- album:aint-misbehavin-waller
+- album:all-things-are
+- album:armstrong-alumni-allstars
+- album:art-blakey-his-jazz-messengers
+- album:baroque-music-for-trumpets
+- album:behind-the-8-ball
+- album:bix-beiderbecke-and-the-chicago-cornets
+- album:blue-note-jazz-inspiration
+- album:blue-notes-legacy
+- album:caravan
+- album:christmas-stories
+- album:congo-square
+- album:crystal-stair-blanchard
+- album:django
+- album:django-reinhardt-et-son-quintette
+- album:ella-and-her-fellas
+- album:ella-fitzgeralds-christmas
+- album:ella-loves-cole
+- album:for-dancers-only-lunceford
+- album:forever-love
+- album:four-trombones
+- album:grazin-in-the-grass
+- album:hearts-and-numbers
+- album:herbie-hancock-trio-with-ron-carter-tony-williams
+- album:hipmotism
+- album:is-that-so
+- album:jam-session
+- album:jazz-in-film
+- album:jazz-street
+- album:jing-chi
+- album:joey-calderazzo
+- album:kenny-burrell
+- album:latin-kick
+- album:les-stances-a-sophie
+- album:little-jazz-the-jimmy-ryan-all-stars
+- album:louie-and-the-dukes-of-dixieland
+- album:love-notes
+- album:lullaby-of-birdland
+- album:lunceford-special
+- album:malphas-book-of-angels-volume-3
+- album:mannenberg
+- album:monks-blues
+- album:morning-with-swing-jazz-guitar-trumpet-saxophone-more-melodies-of-piano-instrumental-smooth-jazz-music
+- album:music-on-my-mind
+- album:mystic-brew
+- album:nancy-wilson-cannonball-adderley
+- album:np3
+- album:on-parade
+- album:on-with-it
+- album:oscar-peterson-plays-george-gershwin
+- album:piano-starts-here
+- album:pithecanthropus-erectus-the-clown
+- album:play-morricone
+- album:plays-and-plays-and-plays
+- album:poetry-and-jazz-in-concert-record-one
+- album:quintette-du-hot-club-de-france
+- album:ray-brown-milt-jackson
+- album:real-book
+- album:rhythm-is-our-business
+- album:round-and-round
+- album:russell-malone
+- album:sadao-watanabe-mbali
+- album:school
+- album:singin-the-blues-beiderbecke
+- album:solo-flight
+- album:solo-piano-at-wkcr-1977
+- album:solo-piano-portraits
+- album:soul-time
+- album:standards
+- album:stories
+- album:straight-life-the-savoy-sessions
+- album:summit-reunin-cumbre
+- album:sweet-release-ghost-story
+- album:swings
+- album:tatum-carter-bellson
+- album:tenor-titans
+- album:the-believer
+- album:the-great-artistry-of-django-reinhardt
+- album:the-joint-is-jumpin
+- album:the-legend-of-king-oliver-remastered
+- album:the-library-of-congress-recordings-by-alan-lomax
+- album:the-lore
+- album:the-man-i-love
+- album:the-most-happy-piano
+- album:the-new-don-ellis-band-goes-underground
+- album:the-oscar-peterson-trio-at-newport
+- album:the-piano-soul-of-nat-king-cole
+- album:the-president
+- album:the-trio-volume-3-everybody-likes-hampton-hawes
+- album:turi
+- album:vento
+- album:volume-1-1923-1929
+- album:waltz-for-debby
+- album:weather-report
+- album:whats-new
+- album:who-are-you
+- artist:andrew-hill
+- artist:dave-holland
+- artist:sadao-watanabe
+- artist:sam-rivers
+
+## keyTracks mismatches (78)
+
+- album:a-caddy-for-daddy
+- album:afrodisia
+- album:aint-misbehavin-waller
+- album:air-song
+- album:alive-grant-green
+- album:baroque-music-for-trumpets
+- album:begin-the-beguine-artie-shaw
+- album:black-woman
+- album:blue-rondo-brubeck
+- album:body-and-soul-coleman-hawkins
+- album:bunk-bechet-in-boston
+- album:capra-black
+- album:carolina-shout-james-p-johnson
+- album:celebration-mseleku
+- album:chet-baker-and-crew-chet-baker
+- album:clarinet-concertos-nos-1-and-2
+- album:concert-by-the-sea-erroll-garner
+- album:concert-in-the-garden
+- album:deliverance
+- album:dinner-music
+- album:dippin
+- album:dizzy-atmosphere-dizzy-gillespie
+- album:django-and-his-american-friends-django-reinhardt
+- album:eastern-rebellion
+- album:ella-and-her-fellas
+- album:emerald-tears
+- album:face-to-face
+- album:for-alto
+- album:free-at-last-waldron
+- album:free-form-harriott
+- album:gateway
+- album:genius-of-modern-music-vol-1
+- album:great-american-songbook
+- album:hello-dolly
+- album:in-the-townships
+- album:kenny-burrell
+- album:lenox-avenue-breakdown
+- album:leon-thomas-in-berlin
+- album:live-at-scholes-street-studio
+- album:live-at-the-five-spot
+- album:look-what-i-got
+- album:looking-ahead
+- album:lullaby-of-birdland
+- album:malphas-book-of-angels-volume-3
+- album:mandorla-awakening-ii
+- album:modern-sounds
+- album:moonlight-serenade-glenn-miller
+- album:mr-jelly-lord
+- album:music-matador
+- album:new-york-eye-and-ear
+- album:now-he-sings
+- album:nows-the-time-charlie-parker
+- album:oscar-peterson-plays-george-gershwin
+- album:rising-son
+- album:satchmo
+- album:saudades
+- album:saxophone-solos
+- album:scenery-ryo-fukui
+- album:selflessness-featuring-my-favorite-things
+- album:shakti
+- album:shirley-scott-trio
+- album:smack
+- album:solo-piano-portraits
+- album:soul-sauce
+- album:space-is-the-place
+- album:spirits-known-and-unknown
+- album:straight-ahead
+- album:swing-de-paris-django-reinhardt
+- album:tales-of-captain-black
+- album:the-centaur-and-the-phoenix
+- album:the-freedom-book-booker-ervin
+- album:the-honeydripper
+- album:the-peoples-republic
+- album:the-popular-duke-ellington
+- album:tidal-wave
+- album:together
+- album:witchi-tai-to
+- album:world-galaxy
+
+## Non-clean items for adversarial re-check (582)
+
+- `album:12-little-spells` [unverifiable, conf 0.8] Embedded-MBID release matches (12 Little Spells, 2018-10-19, Concord Records, Esperanza Spalding, status Withdrawn). All 5 keyTracks present in MB tracklist. La
+- `album:a-caddy-for-daddy` [factual_error, conf 0.75] MB (search method, exact artist match) dates both the release and the release group 1966 vs site year 1965; nothing in evidence supports 1965. If the site inten
+- `album:a-garland-of-red-red-garland` [factual_error, conf 0.9] MB embedded release is a 2006-06-21 JP reissue (Prestige VICJ-41538); release-group firstReleaseDate 1956. Artist 'Red Garland Trio' matches. All 6 keyTracks ma
+- `album:a-ghetto-lullaby` [factual_error, conf 0.8] Entity is right everywhere. Fields (1976, Inner City Records) match the MB US Inner City issue (IC 2013, 1976, RG firstReleaseDate 1976); the prose's first sent
+- `album:a-jazz-hour-with-dizzy-gillespie` [entity_mismatch, conf 0.9] Same artist (Dizzy Gillespie) but the prose and the stored wiki link belong to a DIFFERENT album (the 1963 Double Six of Paris collaboration), not the 1992 Movi
+- `album:a-love-supreme` [unverifiable, conf 0.7] Nearly everything is confirmed by wiki: single-session recording December 9, 1964 at Van Gelder Studio (Englewood Cliffs, NJ), classic quartet personnel, four-p
+- `album:a-sign-of-the-times` [unverifiable, conf 0.6] Right entity (Joe Pass, World Pacific; embedded MBID resolves to a 2010 Japanese CD reissue inside the correct release group). The release YEAR cannot be settle
+- `album:a-smooth-one-woody-herman` [no_evidence, conf 0.9] No MB release (search returned no candidates) and no Wikipedia page survived. Nothing to verify. ours.year null, keyTracks null. albumDNA is generic editorial t
+- `album:a-study-in-frustration-fletcher-henderson` [factual_error, conf 0.85] MB embedded_mbid: Fletcher Henderson, 'A Study in Frustration: The Fletcher Henderson Story', secondaryType Compilation, release-group first release 1994-06-14;
+- `album:a-swingin-affair-dexter-gordon` [factual_error, conf 0.95] MB search sim 1.0 (Dexter Gordon, Blue Note BLP 4133, 1962) and wiki both our entity. All 6 keyTracks match. Only 'Recorded in 1987' is wrong.
+- `album:african-marketplace` [unverifiable, conf 0.55] AlbumDNA is almost entirely artist bio copied verbatim from the Abdullah Ibrahim Wikipedia page (those bio claims - Dollar Brand, Cape jazz, Monk/Ellington infl
+- `album:afro-cuban-jazz` [unverifiable, conf 0.6] MB embedded_mbid confirms the album entity: title 'Afro-Cuban Jazz', artist Mario Bauza, releaseGroup firstReleaseDate 1985 (our year), with the MB release itse
+- `album:afro-dizzy-gillespie` [factual_error, conf 0.8] The MB search 'release' resolved to a DIFFERENT release — 'Afro-Paris / I Cover the Waterfront', a 1953 2-track single — not our album; discarded (entityMatch m
+- `album:afrodisia` [entity_mismatch, conf 0.8] Classic instance of the disease, song-for-album variant. Item id is 'afrodisia' but ours.title ships as 'Soul Makossa' -- the slot may originally have been Diba
+- `album:aint-misbehavin-waller` [entity_mismatch, conf 0.85] Kind-level mismatch: song prose on an album item. Mitigation: it is the album's own title song by the same artist, and every stated song fact is confirmed by th
+- `album:air-song` [factual_error, conf 0.7] MB search match is strong (exact title/artist 'Air', 1975, labels Trio and Whynot - ours.label Whynot confirmed). The album's opening track is 'Untitled Tango',
+- `album:alive-grant-green` [factual_error, conf 0.85] Right entity: wiki confirms Cliche Lounge, Newark 1970, Blue Note, organ combo; MB (sim 1.0) confirms 1970, BST-84360, Live. But keyTrack 'Let's Stay Together' 
+- `album:all-night-session-vol-1-hampton-hawes` [unverifiable, conf 0.7] MB search sim 1.0 but the matched release is a 2013 compilation 'Three Classic Albums Plus: All Night Session Vol. 1 & 2 & 3' (Avid Jazz), release-group firstRe
+- `album:all-that-is-tied` [unverifiable, conf 0.85] MB method=search, topArtistSimilarity 1.0: release confirms title(All That Is Tied)/artist(Ran Blake)/year(2006)/label(Tompkins Square). All 5 keyTracks match t
+- `album:all-things-are` [entity_mismatch, conf 0.93] Disambiguation-collision case. The FIELDS are correct for 'All Things Are' — embedded-MBID release matches (2019-01-28, RogueArt, Matthew Shipp Trio + Nicole Mi
+- `album:alligator-bogaloo` [unverifiable, conf 0.6] MB (search, similarity 1.0) verifies 1967, Blue Note BLP 4263, and all four keyTracks ('Aw Shucks' = MB 'Aw Shucks!'). No wikipedia evidence. Unchecked substant
+- `album:amaryllis-belladonna` [no_evidence, conf 0.9] No evidence survived: MB method 'search' returned release: null with empty searchCandidates, and wikipedia opensearch returned nothing. Nothing in the pack to v
+- `album:ammmusic` [unverifiable, conf 0.6] MB (search, similarity 1.0) verifies 1967, Elektra EUK 256, GB release, and both keyTracks. Wikipedia opensearch fetched 'ABC Music' (a 2002 Stereolab compilati
+- `album:april-in-paris` [unverifiable, conf 0.78] MB embedded_mbid confirms the ITEM is the Duoline 2000 release of 'April in Paris' (Count Basie), a 36-track budget compilation; all 5 keyTracks (Jumpin' at the
+- `album:armstrong-alumni-allstars` [unverifiable, conf 0.7] MB (embedded_mbid) credits Louis Armstrong, G.H.B. Records, 2001 - ours.artist/label/year match and all 5 keyTracks present. wikipediaUrl ships the generic 'Jaz
+- `album:art-of-the-improviser` [unverifiable, conf 0.7] Entity is solidly confirmed: MB (search, similarity 1.0) matches title/artist/year/label (Matthew Shipp, 'Art of the Improviser', Thirsty Ear, 2011) and all fiv
+- `album:art-pepper-meets-the-rhythm-section-art-pepper` [factual_error, conf 0.9] MB embedded_mbid: Art Pepper, Contemporary Records, releaseGroup first release 1957-01-01; matched release (2000) is a CD reissue. All 6 keyTracks match the MB 
+- `album:ask-the-ages` [unverifiable, conf 0.8] MB search match (sim 1.0) confirms Sonny Sharrock, 1991, Axiom, and all 4 keyTracks match the MB tracklist. But the DNA makes substantive factual claims that th
+- `album:at-the-jazz-band-ball-bix-beiderbecke` [unverifiable, conf 0.72] MB (search sim 1.0) confirms entity: 'At the Jazz Band Ball' / Bix Beiderbecke, Living Era CD AJA 5080, secondaryType Compilation; first 6 keyTracks match this 
+- `album:at-the-stratford-shakespearean-festival-oscar-peterson` [factual_error, conf 0.9] MB embedded_mbid (authoritative): Oscar Peterson Trio, Live, releaseGroup first release 1957-07; the matched release (1993-04-20) is a reissue. All 6 keyTracks 
+- `album:azimuth` [unverifiable, conf 0.6] Prose verbatim-matches the stored wiki page ('1977 studio album by Azimuth', British trio John Taylor/Norma Winstone/Kenny Wheeler, recorded March 1977, ECM) --
+- `album:baboon-moon` [factual_error, conf 0.85] Right entity (Nils Petter Molvaer, 'Baboon Moon', 2011); all five keyTracks match the MB tracklist and the stored wiki link is the correct (artist) page. Label 
+- `album:baroque-music-for-trumpets` [entity_mismatch, conf 0.88] Catalog FIELDS (title 'Baroque Music for Trumpets', year 1984, label CBS Records Masterworks, artist Wynton Marsalis) match the MB embedded release. But the alb
+- `album:begin-the-beguine-artie-shaw` [factual_error, conf 0.85] embedded_mbid (authoritative), Artie Shaw, title 'Begin the Beguine', year 2005 matches MB date 2005-03-07 (Documents label, 40-track Compilation). Entity match
+- `album:behind-the-8-ball` [unverifiable, conf 0.7] Embedded MBID confirms artist (hyphen variant 'Baby-Face Willette'), Argo 749, June 1965; 5/5 keyTracks match. Unchecked substantive claims: 'final album', 'rec
+- `album:ben-webster-meets-oscar-peterson-ben-webster` [factual_error, conf 0.8] Entity confirmed (MB embedded_mbid; first 6 keyTracks match this 7-track album). ours.year 2011 is defensible as a reissue year (matches MB release date 2011); 
+- `album:betty-carter-album` [factual_error, conf 0.75] Year field (1979) contradicts both the entity-matched wiki page (1980 release) and our own albumDNA, which itself says 'a 1980 live double album'. 1979 is plaus
+- `album:bird-and-diz` [unverifiable, conf 0.75] Embedded MB release (1952 FR pressing) confirms year 1952, label Blue Star (also Mercury MGC-512), artists Bird/Diz, and that 'Passport' and 'Visa' are on the a
+- `album:bitches-brew` [unverifiable, conf 0.8] MB (sim 1.0) confirms title/artist/1970/Columbia and all 4 keyTracks (incl. 'Pharaoh's Dance'); no Wikipedia evidence (opensearch empty, no stored URL). Right e
+- `album:bix-beiderbecke-and-the-chicago-cornets` [unverifiable, conf 0.6] MB (search, sim 1.0) matches title/artist: a 1974 Milestone archival LP, secondaryTypes empty but plainly a reissue of 1920s material. All 6 keyTracks match ('S
+- `album:bix-beiderbecke-vol-1` [unverifiable, conf 0.6] No MB release survived (search returned null). Stored wiki URL is the Bix Beiderbecke PERSON/biography page, not a page about this album/compilation; the biogra
+- `album:black-action-figure` [factual_error, conf 0.92] Right entity (MB embedded_mbid confirms title/artist/year(1999)/label(Blue Note); all 5 keyTracks match). The Stefon Harris Wikipedia page (entity-matched, stor
+- `album:black-byrd` [unverifiable, conf 0.75] MB search (similarity 1.0, Blue Note BN-LA047-F, 1973, Donald Byrd) verifies title/artist/year/label and all 4 keyTracks. Wikipedia opensearch landed on the 'Bl
+- `album:black-christ-of-the-andes` [factual_error, conf 0.85] Entity confirmed: the stored page 'Mary Lou Williams (album)' is explicitly 'alternatively titled Black Christ of the Andes', so our title field's use of the al
+- `album:blacks-and-blues` [unverifiable, conf 0.75] MB search (similarity 1.0, Blue Note BN-LA142-G, 1973, Bobbi Humphrey) verifies title/artist/year/label; all 4 keyTracks on MB tracklist ('Baby's Gone' matches 
+- `album:blue-hodge` [unverifiable, conf 0.8] Right entity: MB search (sim 1.0) confirms title 'Blue Hodge', artist Johnny Hodges, label Verve, and all 5 keyTracks. DNA claim 'performances recorded in 1961'
+- `album:blue-note-4000` [no_evidence, conf 0.95] No MB release or search candidates, no wiki page - nothing checkable. Red flags for human review (background knowledge, not citable evidence): 'Blue Note 4000' 
+- `album:blue-note-jazz-inspiration` [factual_error, conf 0.86] The album-level facts are correct: MB (embedded) confirms title/artist/year/label (Duke Ellington, 'Blue Note Jazz Inspiration', Blue Note, 2012) and all five k
+- `album:blue-notes-for-mongezi` [unverifiable, conf 0.85] MB embedded_mbid (authoritative) confirms title, artist The Blue Notes, label Ogun Recordings, release-group first release 1976, and all 4 keyTracks exactly. Th
+- `album:blue-notes-legacy` [entity_mismatch, conf 0.95] Classic title-search disambiguation collision: most of the albumDNA is the Wikipedia lead for Harold Melvin & the Blue Notes, and the stored wiki link also poin
+- `album:blue-rondo` [entity_mismatch, conf 0.8] Items 'blue-rondo' (Charlie Parker) and 'blue-rondo-brubeck' (Dave Brubeck) both point to the SAME release mbid 505e34e7-b2da-4d89-92a9-72e2d9d1997d, a Tudor cl
+- `album:blue-rondo-brubeck` [entity_mismatch, conf 0.82] Duplicate of the same Tudor compilation (mbid 505e34e7...) also tagged as the Charlie Parker 'blue-rondo' item. Here the framing is Dave Brubeck cool jazz, whic
+- `album:blues-and-vanilla` [unverifiable, conf 0.75] MB (search, similarity 1.0) confirms title, RCA Victor, 1957, the Jack Montrose + Red Norvo credit, and all 6 keyTracks (exact tracklist match). Unverifiable: '
+- `album:body-and-soul-coleman-hawkins` [factual_error, conf 0.8] Right artist and title (Coleman Hawkins, Body and Soul) — both MB (Dreyfus compilation) and Wikipedia entity-match. Our year is null so no date claim. But the 6
+- `album:boss-guitar` [unverifiable, conf 0.8] Core facts confirmed: embedded MBID resolves to a Boss Guitar CD reissue (Riverside RCD-9459-2, 1989) whose release group dates the original to 1963; all five k
+- `album:branching-out` [unverifiable, conf 0.75] All album facts verified: embedded MB gives Riverside RLP 12-285, 1958, artists Nat Adderley / Johnny Griffin / The Three Sounds; wiki page (stored link resolve
+- `album:breakthrough` [factual_error, conf 0.7] Prose is verbatim the entity-matched Wikipedia lead and fully verified (recorded Feb 22 1972, Cobblestone then Muse, Charles Davis / Sam Jones / Billy Higgins, 
+- `album:brilliant-corners` [unverifiable, conf 0.7] MB (search, similarity 1.0) confirms title/artist/year/label (Riverside RLP 12-226, 1957) and all 4 keyTracks. The detailed prose claims are uncheckable against
+- `album:bumpin-wes-montgomery` [factual_error, conf 0.9] Entity is correct (Wes Montgomery's Bumpin'). All 6 keyTracks match the MB tracklist. Core error: albumDNA says 'Recorded in 1997' but the work is a 1965 album 
+- `album:bunk-bechet-in-boston` [factual_error, conf 0.9] Album entity matches (MB embedded_mbid: release-group title 'Bunk & Bechet in Boston', year 2000, label Jazz Crusade Records; Bechet on clarinet/soprano). The a
+- `album:cannonball-adderley-and-the-poll-winners` [factual_error, conf 0.75] Embedded-MBID release confirms title/year/label and all five keyTracks. The artist field names only Wes Montgomery, but the authoritative credit lists Cannonbal
+- `album:capra-black` [factual_error, conf 0.8] Entity solid: MB search similarity 1.0 (Strata-East SES-19739, 1973, Billy Harper) and stored wiki page match; 'debut album', Strata-East, recorded 1973 all ver
+- `album:capricorn-rising` [factual_error, conf 0.78] Entity is correct (Sam Rivers, Capricorn Rising, Black Saint; wiki page is the right Sam Rivers, and the bio sentence about his multi-instrumentalism is verbati
+- `album:caravan` [entity_mismatch, conf 0.92] Same-artist collision. The stored wiki URL is the 1961 Impulse! album's page (its extract supplies the colliding facts and a completely different tracklist: A l
+- `album:carolina-shout-james-p-johnson` [factual_error, conf 0.85] Entity matches: MB search match, topArtistSimilarity 1.0, James P. Johnson, title 'Carolina Shout', year 1988 matches MB date 1988 (Biograph, Compilation). 'Car
+- `album:celebration-mseleku` [factual_error, conf 0.8] Entity is correct (MB search sim 1.0: Bheki Mseleku, Celebration, 1992, World Circuit WCD 028; wiki page is the right album, confirms 'debut'). keyTracks 'Celeb
+- `album:chesed-the-book-beriah-volume-4` [factual_error, conf 0.85] Right album entity — embedded-MBID matches (Chesed: The Book Beri'ah, Volume 4, 2019-04, Tzadik, credited artists Julian Lage + Gyan Riley) and all 5 keyTracks 
+- `album:chet-baker-and-crew-chet-baker` [factual_error, conf 0.92] MB search (sim 0.77): Chet Baker & Crew, 1956, Pacific Jazz — entity matches. 5 of 6 keyTracks match exactly; 'Something for Lisa' is a one-letter spelling erro
+- `album:chet-baker-live-in-rosenheim` [no_evidence, conf 0.72] The stored MBID (embedded_mbid) resolves to an UNRELATED release: an EmArcy compilation simply titled 'Chet Baker' (1989, secondaryType Compilation) whose track
+- `album:chris-thile-brad-mehldau` [unverifiable, conf 0.78] Embedded-MBID release matches (title, 2017-01-20, Nonesuch, credited artists Chris Thile + Brad Mehldau). All 5 keyTracks present in MB tracklist. Stored wiki i
+- `album:cielo-e-terra` [factual_error, conf 0.78] MB embedded_mbid confirms title 'Cielo e terra', year 1985, artist Al Di Meola, and all 5 keyTracks. Wikipedia stored_url is the correct entity; the albumDNA's 
+- `album:clarinet-concertos-nos-1-and-2` [factual_error, conf 0.7] Embedded MBID (authoritative) verifies title, year (1968-10), and label (RCA Red Seal LSC-3052). The keyTracks are German-language titles of exactly the same si
+- `album:clifford-brown-and-max-roach-clifford-brown` [unverifiable, conf 0.6] No confident MB release (release=null); searchCandidates include an exact title+artist match 'Clifford Brown and Max Roach' (score 100, Clifford Brown & Max Roa
+- `album:clifford-brown-memorial-album-clifford-brown` [factual_error, conf 0.85] Entity confirmed (MB embedded_mbid, exact artist, first 6 keyTracks match this 18-track compilation). It is a compilation of mid-1950s recordings; the original 
+- `album:coin-coin-chapter-four-memphis` [unverifiable, conf 0.78] MB embedded_mbid confirms title, artist (Matana Roberts), label (Constellation, CST145), date 2019-10-18. All six keyTracks match the MB tracklist (our 'as far 
+- `album:coin-coin-chapter-one-gens-de-couleur-libres` [unverifiable, conf 0.7] Entity confirmed: MB (embedded) matches title/artist/year/label (Matana Roberts, 'Coin Coin Chapter One: Gens de couleur libres', Constellation, 2011-05-10) and
+- `album:coltrane-jazz-john-coltrane` [factual_error, conf 0.6] Entity confirmed by both MB (embedded_mbid, Atlantic SD 1354) and Wikipedia ('Coltrane Jazz', 1961 studio album by John Coltrane); all 6 keyTracks match. ours.y
+- `album:concept-of-freedom` [factual_error, conf 0.78] The release itself is correctly identified (title 'Concept of Freedom', label hatOLOGY, year 2005, and all 5 keyTracks -- the long 'Comp. No. 257 ... / Freedom 
+- `album:concert-by-the-sea-erroll-garner` [unverifiable, conf 0.65] MB search match (similarity 1.0) is an EP edition of 'Concert by the Sea' (Erroll Garner, secondaryType Live) with only 3 tracks (Where or When, I'll Remember A
+- `album:concert-in-the-garden` [unverifiable, conf 0.7] MB method=search, topArtistSimilarity 0.75; release 'Concert in the Garden' by 'Maria Schneider Orchestra' (2004, catalog 0001 = ArtistShare), title/year match.
+- `album:congo-square` [entity_mismatch, conf 0.9] Prose is wholly about 'A Tale of God's Will', not 'Congo Square'. stored_url also points to the A Tale of God's Will page (wrong album, same artist). MB search 
+- `album:conquistador` [factual_error, conf 0.5] The certain defect is internal: year field 1967 vs prose '1968 studio album' — one must be wrong. The evidence itself is split: embedded MB says 1967, while the
+- `album:cornbread-lee-morgan` [factual_error, conf 0.95] MB search sim 1.0 (Lee Morgan, Blue Note BLP 4222, 1965) and wiki 'Cornbread (album)' both our entity. All 5 keyTracks match. Only 'Recorded in 2013' is wrong.
+- `album:crazy-blues-mamie-smith` [unverifiable, conf 0.72] MB (embedded_mbid) confirms entity: Mamie Smith, MB title 'Crazy Blues: The Best Of' (ours short-titles it 'Crazy Blues' after the lead track), Legacy CK 65712,
+- `album:crystal-stair-blanchard` [entity_mismatch, conf 0.95] Fields are CORRECT for Crystal Stair: MB embedded_mbid confirms title 'Crystal Stair', 1987, Columbia (CK 40830), Terence Blanchard + Donald Harrison. All 5 key
+- `album:danca-das-cabecas` [unverifiable, conf 0.8] MB search (similarity 1.0) confirms title, artist Egberto Gismonti, year 1977, label ECM Records (ECM 1089), and every component of both medley-style keyTracks 
+- `album:dance-mania-tito-puente` [factual_error, conf 0.95] MB embedded release is a 2009-04-21 DE reissue (Discos 605 / Legacy / RCA); release-group firstReleaseDate 1958; wiki short description '1958 studio album by Ti
+- `album:dance-of-the-octopus-red-norvo` [unverifiable, conf 0.72] MB (search sim 1.0) confirms entity: 'Dance of the Octopus' / Red Norvo, HEP Records HEP CD 1044, secondaryType Compilation; first 6 keyTracks match this 26-tra
+- `album:david-sanborn` [entity_mismatch, conf 0.95] Frankenstein record: MB embedded_mbid and keyTracks correctly identify the self-titled David Sanborn album (Warner Bros.; MB dates this release 1990, a reissue;
+- `album:dear-lonely-hearts` [unverifiable, conf 0.75] MB embedded confirms Nat King Cole, 1962, Capitol ST-1838, and all 5 keyTracks. No wikipedia evidence (no stored URL; opensearch empty). Unverifiable substantiv
+- `album:deliverance` [factual_error, conf 0.78] albumDNA itself is clean and entity-confirmed: MB embedded_mbid confirms Manu Dibango, Deliverance, 1987, Disques Esperance; the three tracks named in the prose
+- `album:desmond-blue-paul-desmond` [factual_error, conf 0.92] MB search (sim 1.0): Paul Desmond, 'Desmond Blue', 1962, RCA Victor — entity matches. All 6 keyTracks match the MB tracklist. Year is the only error (1998 vs 19
+- `album:destination-out-jackie-mclean` [factual_error, conf 0.9] MB search (similarity 1.0) resolves to 'Destination… Out!' (Jackie McLean, Blue Note, 1964-10; studio album). Both release date and release-group firstReleaseDa
+- `album:detroitnew-york-junction-thad-jones` [factual_error, conf 0.9] Entity confirmed (MB search sim 1.0, Blue Note BLP 1513, exact tracklist match; MB title 'Detroit-New York Junction' = ours with slash vs hyphen). Only error is
+- `album:dexter-calling-dexter-gordon` [factual_error, conf 0.9] Entity confirmed via embedded MBID: 'Dexter Calling…' (Dexter Gordon, Blue Note). The 1987 release is a CD reissue; release-group firstReleaseDate is 1961-05-09
+- `album:di-meola-plays-piazzolla` [unverifiable, conf 0.85] Embedded-MBID release matches exactly: title, artist Al Di Meola, 1996-11-05, Mesa/Bluemoon Recordings. All 5 keyTracks present in the MB tracklist. The albumDN
+- `album:diamond-express` [unverifiable, conf 0.85] MB embedded_mbid (authoritative) confirms title, artist Dudu Pukwana, year 1977, label Arista (AF 1041), and all 5 keyTracks exactly; the 5-track count matches 
+- `album:dinner-music` [factual_error, conf 0.88] MB search (similarity 1.0; WATT/6 + ECM 2313 106, 1977) and stored wiki ('1977 studio album by Carla Bley') entity-match. Prose verified: recorded 1976, release
+- `album:dippin` [factual_error, conf 0.8] MB (search, exact artist match) confirms year (1965-06-18) and Blue Note BLP 4209. keyTrack 'Dippin'' matches nothing on the tracklist (ours also lists 'The Dip
+- `album:dizzy-atmosphere-dizzy-gillespie` [unverifiable, conf 0.55] MB search (similarity 1.0) resolves to a Dizzy Gillespie compilation 'Dizzy Atmosphere' (Flashback Home Entertainment, AU) with both release date and firstRelea
+- `album:django` [entity_mismatch, conf 0.85] Person-bio prose on an album item. Bio facts are confirmed verbatim by the Django Reinhardt wiki page (the stored link - artist page, not an album page). 'Inven
+- `album:django-and-his-american-friends-django-reinhardt` [factual_error, conf 0.72] MB search matched 'Django And His American Friends, Vol. 2' (Django Reinhardt, date 1965 = our year), but our title omits 'Vol. 2' and none of our 6 keyTracks a
+- `album:django-reinhardt-et-son-quintette` [entity_mismatch, conf 0.85] Composition prose on an album item (title-track page substitution). All composition facts are confirmed verbatim by the Nuages wiki page; nothing describes the 
+- `album:doctor-jazz-jelly-roll-morton` [unverifiable, conf 0.72] MB (search sim 1.0) confirms entity: 'Doctor Jazz' / Jelly Roll Morton, Camden, secondaryType Compilation; first 6 keyTracks match this 23-track compilation. 'R
+- `album:dogon-ad` [unverifiable, conf 0.75] MB search match is exact (Julius Hemphill, Mbari MPC 501, 1972) and confirms title/artist/year/label plus all 3 keyTracks. No wikipedia evidence (opensearch emp
+- `album:domino-theory` [factual_error, conf 0.68] MB embedded_mbid confirms title, year 1984, artist Weather Report, and all 5 keyTracks; albumDNA is verbatim from the (correct-entity) Wikipedia page and is acc
+- `album:drum-night-at-birdland` [unverifiable, conf 0.55] MB search (topArtistSimilarity 1.0) confirms title 'Drum Night At Birdland', year 1986, artist Art Blakey, label Vogue France, and the keyTracks (all present in
+- `album:drums-unlimited-max-roach` [factual_error, conf 0.9] MB search (similarity 1.0) resolves to 'Drums Unlimited' (Max Roach, Atlantic, 1966; studio album, no secondaryTypes). Both the release date and the release-gro
+- `album:duke-ellington-fletcher-henderson-artie-shaw-and-their-orchestras` [unverifiable, conf 0.6] Embedded MBID confirms title, Society SOC 982, GB, 1965, and all 5 keyTracks. Two concerns for human review: (1) the authoritative credit is three co-equal arti
+- `album:duke-ellington-meets-coleman-hawkins` [factual_error, conf 0.6] First sentence (recorded August 18, 1962; released February 1963 by Impulse!) matches the Wikipedia lead verbatim; embedded MBID confirms 1963-02, impulse! AS 2
+- `album:duke-ellington-meets-coleman-hawkins-hawkins` [factual_error, conf 0.6] Twin entry filed under Coleman Hawkins (authoritative MB credit includes both leaders). First sentence matches the Wikipedia lead verbatim; MB confirms date, la
+- `album:earth-jones` [factual_error, conf 0.6] The label field contradicts both the entity-matched wiki article and our own albumDNA, which says 'released on the Palo Alto label'. MB's matched release (searc
+- `album:eastern-rebellion` [factual_error, conf 0.7] MB search match is strong (exact title/artist, 1975-12-10, Timeless Records SJP 101 - ours' Timeless and 1975 confirmed). 'Fantasy in D' is definitively absent 
+- `album:el-hombre` [unverifiable, conf 0.6] MB (search, similarity 1.0) verifies 1967, Prestige PR 7513, and all four keyTracks. No wikipedia evidence. Unchecked substantive claims: debut as a leader; age
+- `album:ella-and-her-fellas` [entity_mismatch, conf 0.95] Classic disambiguation substitution: prose and stored wikipedia link are both for Like Someone in Love (Ella Fitzgerald album); the item is Ella and Her Fellas 
+- `album:ella-fitzgerald-sings-the-cole-porter-song-book-ella-fitzgerald` [factual_error, conf 0.85] Entity confirmed (MB search sim 1.0, exact title/artist, all 6 keyTracks match this 32-track set). ours.year 2014 is unsupported by evidence and contradicts the
+- `album:ella-fitzgerald-sings-the-irving-berlin-song-book` [factual_error, conf 0.85] Label field is wrong per both evidence sources: the embedded US MB release is on Verve (MG VS-6005-2) and Wikipedia says 'originally released on the Verve label
+- `album:ella-fitzgeralds-christmas` [unverifiable, conf 0.6] Embedded-MBID release (authoritative) confirms 1967-11, Capitol Records, and all six keyTracks (with '- Remastered 2006' suffixes ignored per matching rules); '
+- `album:ella-loves-cole` [entity_mismatch, conf 0.95] Title-search collision between two Fitzgerald-sings-Porter albums. MB embedded release verifies our 1972 Atlantic album exists with all 5 keyTracks on its track
+- `album:ellington-indigos-expanded-edition` [unverifiable, conf 0.7] No MB evidence at all (search returned nothing). The stored wiki page is entity-matched and confirms 1958, Duke Ellington, and Columbia (original mono LP 'Colum
+- `album:emerald-tears` [factual_error, conf 0.78] MB search (similarity 1.0; ECM 1109, Dave Holland) is clearly our album, but it is a search match -- strong, not infallible. Release-group first release is 1978
+- `album:evolution` [unverifiable, conf 0.6] Prose verbatim-matches the wiki lead (debut as leader, recorded 1963, full personnel, the two related McLean albums) and 4/4 keyTracks match. The year field is 
+- `album:experience-and-judgment` [unverifiable, conf 0.7] MB search (similarity 1.0, Atlantic SD 1654, 1974, Andy Bey) verifies title/artist/year/label. keyTracks pass under substring matching but two need repair-write
+- `album:extensions` [factual_error, conf 0.85] Year field 1970 is the RECORDING year; both evidence sources contradict it as release year (MB release-group 1972; wiki 'not released until January 1973', short
+- `album:face-to-face` [factual_error, conf 0.75] Entity solid: MB search match similarity 1.0 (Blue Note BLP 4068, 1961) and stored wiki page agree; wiki confirms debut album and the personnel named in our pro
+- `album:far-east-suite-duke-ellington` [factual_error, conf 0.85] Entity confirmed (MB search sim 1.0; MB title 'The Far East Suite' = ours minus leading 'The'; all 6 keyTracks match). ours.year 2016 is unsupported by evidence
+- `album:father-of-stride-piano-james-p-johnson` [no_evidence, conf 0.9] No MB release (empty searchCandidates) and no wikipedia page. Nothing to verify against. albumDNA is generic editorial; keyTracks null.
+- `album:fearless-movement` [factual_error, conf 0.8] Right album: embedded_mbid and the stored 'Fearless Movement (album)' Wikipedia page both confirm Kamasi Washington, 2024-05-03, and the albumDNA is lifted verb
+- `album:flowers-for-albert` [unverifiable, conf 0.8] MB search (similarity 1.0) confirms title, artist David Murray, year 1976, label India Navigation (IN 1026), and all 4 keyTracks exactly; release group secondar
+- `album:fontainebleau-tadd-dameron` [factual_error, conf 0.7] Right entity: MB search match and Wikipedia 'Fontainebleau (album)' both Tadd Dameron, and all 5 keyTracks match exactly (Fontainebleau, Delirium, The Scene Is 
+- `album:fontessa-modern-jazz-quartet` [factual_error, conf 0.88] MB embedded_mbid: The Modern Jazz Quartet, 'Fontessa', releaseGroup first release 1956; matched release (1990-01-31) is a CD reissue. All 6 keyTracks match the 
+- `album:for-alto` [factual_error, conf 0.65] MB search release (Delmark Records DS-420/421, double LP) matches title/artist/label but dates the release 1971; nothing in the pack supports 1969 - plausibly t
+- `album:for-dancers-only-lunceford` [unverifiable, conf 0.7] Embedded MB release (2010 US compilation) confirms title/artist and all 6 keyTracks. Stored wiki URL is a collision: 'For Dancers Only' page is the 1983 Junior 
+- `album:forever-love` [unverifiable, conf 0.8] MB search match (sim 1.0) confirms the album Forever Love, Mark Whitfield, 1997-03-04, Verve; all 5 keyTracks and the two songs named in prose (My One and Only 
+- `album:four-trombones` [entity_mismatch, conf 0.95] Prose and stored wikipedia link both belong to 'Mingus (Charles Mingus album)' (Candid, recorded Oct-Nov 1960, released 1961) - wrong entity. The real Four Trom
+- `album:free-at-last-waldron` [factual_error, conf 0.7] Entity confirmed: MB search release is ECM 1001 (ECM Records, 1969, DE, Mal Waldron Trio) and the wiki page is about this album. The error: keyTrack 'Free at La
+- `album:free-for-all-art-blakey` [factual_error, conf 0.92] Entity confirmed (embedded MBID; Wikipedia matches Art Blakey & the Jazz Messengers). MB release is a 2012 reissue but release-group firstReleaseDate is 1964; W
+- `album:free-form-harriott` [factual_error, conf 0.75] Entity solid: MB search match (Joe Harriott Quintet, Jazzland JLP 949S) and stored wiki page agree. KeyTrack 'Free Form' is on neither tracklist -- both MB and 
+- `album:free-jazz` [unverifiable, conf 0.7] No MB evidence. Stored wiki page matches the album and the core prose is verbatim from it (released September 1961 by Atlantic; recorded December 21, 1960 at A&
+- `album:from-the-round-box` [unverifiable, conf 0.72] Album identity is solid and clean: MB embedded_mbid confirms title/artist/year(2000)/label(RCA Victor); the first sentence is verbatim from the entity-matched '
+- `album:full-house-wes-montgomery` [factual_error, conf 0.95] Entity confirmed by MB (search, sim 1.0, 1962, Riverside, Live) and the entity-matched Wikipedia page (Full House, Wes Montgomery, 1962 live album). All 6 keyTr
+- `album:funky-stuff` [unverifiable, conf 0.5] Only evidence is an MB search candidate matching title 'Funky Stuff', artist credit 'Jiro Inagaki and His Soul Media' (consistent with ours), and firstReleaseDa
+- `album:gateway` [factual_error, conf 0.9] The albumDNA prose verbatim-matches the entity-correct stored Wikipedia page ('1976 studio album by Gateway', jazz trio John Abercrombie/Dave Holland/Jack DeJoh
+- `album:genius-of-modern-music-vol-1` [factual_error, conf 0.75] Entity solid: embedded MBID is Blue Note BLP 1510 (1956 12"), release-group 'Genius of Modern Music, Volume 1' with firstReleaseDate 1951 matching ours.year; la
+- `album:genius-of-modern-music-vol-1-thelonious-monk` [no_evidence, conf 0.9] No MB release resolved (no search candidates) and no Wikipedia page. Cannot verify year (2013), the 6 keyTracks, or entity.
+- `album:get-together` [factual_error, conf 0.72] Right entity confirmed: MB embedded_mbid (releaseGroup 'Get Together', artist Count Basie, label Pablo) and the Wikipedia 'Kansas City 8: Get Together' page sha
+- `album:gillespiana` [unverifiable, conf 0.7] MB search match (similarity 1.0) confirms title/artist/year/label (Verve V6-8394, 1960) and all five keyTracks exactly. The substantive claim that Lalo Schifrin
+- `album:glenn-millers-greatest-hits-glenn-miller` [unverifiable, conf 0.6] MB has no confident release (similarity 0.62); one searchCandidate 'Glenn Miller Greatest Hits' (1996-04-16, Glenn Miller & His Orchestra, secondaryType Compila
+- `album:globe-unity` [factual_error, conf 0.75] MB search (similarity 1.0; title, SABA label and Schlippenbach/Globe Unity Orchestra credit all align) is the only evidence doc - no wikipedia page found, none 
+- `album:grazin-in-the-grass` [entity_mismatch, conf 0.8] Item is an album ('Hugh Masekela's Grazin'', Uni, 1968) but the prose and the stored Wikipedia link are about the SONG 'Grazing in the Grass' (wiki short-descri
+- `album:great-american-songbook` [factual_error, conf 0.75] No MB evidence (search returned nothing); tracklist check done against the stored wiki page's complete 18-track listing. ALL FOUR keyTracks are absent from that
+- `album:gwotet` [unverifiable, conf 0.85] MB embedded_mbid confirms title(Gwotet)/year(2004)/label(Justin Time Records); MB credits David Murray + The GWO-KA Masters, matching the prose. All 5 keyTracks
+- `album:happenings` [factual_error, conf 0.85] Right entity; the year field is wrong. BOTH evidence docs agree on 1967: the stored wiki page ('released in 1967', shortDescription '1967 studio album') and MB 
+- `album:harlem-bush-music-taifa` [unverifiable, conf 0.6] Weak evidence only: MB returned searchCandidates without a release. Top candidate (score 100) corroborates the entity - exact title 'Harlem Bush Music: Taifa', 
+- `album:harlem-river-drive` [no_evidence, conf 0.95] MB search returned no release and no candidates; wikipedia opensearch returned nothing; no stored URL. Nothing checkable: title/artist/year/label, keyTracks, an
+- `album:head-hunters` [unverifiable, conf 0.7] Almost everything checks out against the stored wiki page: 1973 Columbia release (Oct 26, 1973), Maupin/Jackson/Mason/Summers line-up, clavinet + ARP synthesize
+- `album:hearts-and-numbers` [entity_mismatch, conf 0.9] Catalog fields (title 'Hearts and Numbers', year 1985, label Hip Pocket Records) and all 5 keyTracks match the MB embedded release; MB credits Don Grolnick and 
+- `album:hello-dolly` [factual_error, conf 0.9] Prose is the wiki lead verbatim and fully confirmed (All Stars lineup, recording dates Dec 3 1963 / Apr 18 1964 in NYC, Kapp 1964, topped Billboard Top LPs with
+- `album:herbie-hancock-trio-with-ron-carter-tony-williams` [entity_mismatch, conf 0.85] Catalog fields (title/year/label) exactly match the authoritative embedded-MBID MB release, so the catalog entity is the 1981 Japan-only trio album, and all fiv
+- `album:here-today-tomorrow` [factual_error, conf 0.6] Entity is clearly correct: MB search sim 1.0 (Shirley Horn, Here's to Life, 1992, cat 314 511 879-2) and the albumDNA is verbatim from the matching wiki page (J
+- `album:hi-de-ho-man-cab-calloway` [factual_error, conf 0.85] Same entity (Cab Calloway, Hi De Ho Man, Columbia compilation). Year field is wrong: MB release and release-group both date 1974, ours says 2008. keyTracks all 
+- `album:hipmotism` [entity_mismatch, conf 0.92] Same artist (Arthur Blythe), wrong album grafted into the prose. MB embedded_mbid confirms Hipmotism, enja, releaseGroup firstReleaseDate 1991, and all 5 keyTra
+- `album:his-eye-is-on-the-sparrow-ethel-waters` [no_evidence, conf 0.9] No MB release. The wikipedia opensearch resolved to 'Mickey Newbury' (American country singer-songwriter 1940-2002) - a completely unrelated entity, not Ethel W
+- `album:holiday-in-piano` [factual_error, conf 0.6] MB (search, sim 1.0) confirms title, 1953, Mercury Records (MG 26029), and all 5 keyTracks - but credits the release jointly to Lennie Tristano AND Arnold Ross 
+- `album:horace-silver-and-the-jazz-messengers` [factual_error, conf 0.6] Caution for repair: embedded MBID is authoritative per spec, but the 'October 1956' wording reads like Wikipedia prose about the 12-inch issue, while MB's 1955 
+- `album:hot-fives-sevens` [unverifiable, conf 0.7] Prose is the wiki lead verbatim and fully supported (JSP box set, recordings 1925-1930, Penguin Guide crown/core collection, Definitive reissue 2001). All 6 key
+- `album:how-time-passes` [factual_error, conf 0.65] Entity solid: MB embedded MBID (Candid CJS 9004, 1961) and stored wiki page agree; all five keyTracks match; first prose sentence is verbatim the wiki lede; yea
+- `album:illuminations` [factual_error, conf 0.75] Right album: MB embedded_mbid (Columbia PC 32900, 1974-09) matches all 5 keyTracks exactly, year and label verified, and the opensearch wiki page is the right e
+- `album:in-the-key-of-oscar` [unverifiable, conf 0.7] MB search sim 1.0 confirms title, Oscar Peterson, 1992, Music of the loons (INKO-CD 9201); all 5 keyTracks present, so the album identity is solid. However the 
+- `album:in-the-townships` [factual_error, conf 0.7] MB search match (similarity 0.77 -- credit is 'Dudu Pukwana & Spear', ours stores just 'Dudu Pukwana'; same album by title/label/tracklist, so entity yes, but m
+- `album:in-the-tradition` [factual_error, conf 0.85] Right album (MB sim 1.0 and wiki both Arthur Blythe, In the Tradition, Columbia JC 36300, 1979); all 4 keyTracks match MB. Personnel claim 'Fred Hopkins on bass
+- `album:in-their-own-sweet-way` [factual_error, conf 0.6] Right entity beyond doubt (MB sim 1.0; stored wiki URL correct; all 5 keyTracks on the tracklist; the 'four sons' detail is confirmed by the wiki Personnel list
+- `album:in-what-language` [unverifiable, conf 0.85] MB embedded_mbid confirms title/year(2003)/label(Pi Recordings); MB credits Vijay Iyer + Mike Ladd, matching the prose's 'collaborative... Iyer and Mike Ladd'. 
+- `album:indo-jazz-suite` [unverifiable, conf 0.65] MB returned only a search candidate (no release resolved): 'Indo-Jazz Suite' by 'Joe Harriott and John Mayer Double Quintet', firstReleaseDate 1966 — weak evide
+- `album:infernal-machines` [unverifiable, conf 0.6] Only weak MB evidence: method 'search' with no confident release, just one searchCandidate titled 'Infernal Machines' (score 100) by 'Darcy James Argue's Secret
+- `album:inner-spectrum-of-variables` [unverifiable, conf 0.8] MB search match (sim 1.0) to 'The Inner Spectrum of Variables' (our title drops the leading 'The'), 2016-06-03, Pi Recordings, Tyshawn Sorey. All 3 keyTracks pr
+- `album:inner-urge` [factual_error, conf 0.85] Right entity throughout; the year FIELD is wrong. The item is internally inconsistent: its own albumDNA prose says 'released in 1966' (matching the wiki page) w
+- `album:inside-hi-fi-lee-konitz` [factual_error, conf 0.55] MB search (sim 1.0): Lee Konitz, 'Inside Hi-Fi', 1956, Atlantic — entity matches; all 6 keyTracks match. BORDERLINE: ours says 1957, evidence says 1956 (only on
+- `album:investigations` [no_evidence, conf 0.95] No evidence survived: MB search returned no release and empty searchCandidates; Wikipedia opensearch returned nothing; no URL stored. Nothing can be verified ab
+- `album:is-that-so` [entity_mismatch, conf 0.9] Three-way collision. (1) MB embedded release 'Is That So?' (Stunt, 2014) is credited to Niels Vincentz, not Tom Harrell — its tracklist (Jericho, Haiku, Hot Hou
+- `album:it-could-happen-to-you-chet-baker` [factual_error, conf 0.9] Entity confirmed (MB similarity 1.0 + matching Wikipedia '(Chet Baker Sings) It Could Happen to You', 1958 studio album). Wikipedia states the 2010 date is a re
+- `album:jay-and-kai` [factual_error, conf 0.7] Label field ships as the placeholder 'Unknown' while both our prose and the entity-matched wiki page say Columbia - a straightforward field fix; the prose itsel
+- `album:jazz-giant-benny-carter` [factual_error, conf 0.92] Entity confirmed by Wikipedia ('Jazz Giant (Benny Carter album)') and MB (embedded_mbid). ours.year 1987 is itself a valid reissue year (matches MB release date
+- `album:jazz-goes-to-college-dave-brubeck` [unverifiable, conf 0.6] MB has no confident release (similarity 0.67); one searchCandidate 'Jazz Goes to College' (The Dave Brubeck Quartet, 1954-03, secondaryType Live) matches in nam
+- `album:jazz-in-africa` [entity_mismatch, conf 0.6] Identity tangle. Ours.title 'Jazz in Africa' has NO supporting evidence anywhere (MB searchCandidates empty; the stored wiki page is about the differently-title
+- `album:jazz-in-film` [entity_mismatch, conf 0.93] The MB embedded_mbid release confirms the ITEM is 'Jazz in Film' (Terence Blanchard, 1999, Sony Classical) and all 5 keyTracks match that MB tracklist. But the 
+- `album:jazz-pictures-at-an-exibition` [factual_error, conf 0.65] Embedded-MBID release is the same album as ours (same sic spelling 'Exibition', Philips, release group first release 1961; the fetched pressing is a 1989 Japan 
+- `album:jazz-samba-stan-getz` [unverifiable, conf 0.7] The only MB match (search, sim 1.0) is a 2021 Compilation (20th Century Masterworks) crediting Stan Getz + Charlie Byrd; all 6 keyTracks (Desafinado, Samba Dees
+- `album:jelly-roll-morton-the-piano-rolls-jelly-roll-morton` [no_evidence, conf 0.9] No MB release (empty searchCandidates) and no wikipedia page. Nothing to verify. Generic editorial DNA; keyTracks null.
+- `album:jim-hall-basses` [unverifiable, conf 0.72] MB (embedded_mbid) confirms Jim Hall, Telarc Jazz, 2001-09-25 - ours.label/year match and all 5 keyTracks present. The album's defining premise - duets/trios wi
+- `album:joe-pass-at-the-montreux-jazz-festival-joe-pass` [factual_error, conf 0.92] MB embedded_mbid: Joe Pass, Live, first release 1975; matched release 1997-05-16 is the OJC CD reissue. All 6 keyTracks match the MB tracklist. No Wikipedia pag
+- `album:joey-calderazzo` [entity_mismatch, conf 0.92] MB search match (topArtistSimilarity 1.0) confirms the ITEM is the self-titled 'Joey Calderazzo' (2000, Columbia, CK 69886); all 5 keyTracks match that MB track
+- `album:johnny-dodds-vol-1-johnny-dodds` [no_evidence, conf 0.9] No evidence survived: MB search returned no release and empty searchCandidates; no Wikipedia page or candidates. year null, keyTracks null. albumDNA is generic 
+- `album:jumpin-at-the-woodside-count-basie` [unverifiable, conf 0.6] MB has no confident release (similarity 0.59); searchCandidates DO list Count Basie 'Jumpin' at the Woodside' issues, so the entity is plausibly right, but none
+- `album:kansas-city-7` [factual_error, conf 0.75] Right album (MB embedded_mbid + wiki tracklist both match: Jaylock, Exactly Like You, etc.; all 5 keyTracks present). The error is the date framing: wiki flatly
+- `album:kenny-burrell` [entity_mismatch, conf 0.9] Classic same-name collision. The keyTracks (Don't Cry Baby, Drum Boogie, Strictly Confidential, All of You, Perception) are exactly the Prestige album's wiki tr
+- `album:kid-orys-creole-jazz-band-1954-kid-ory` [unverifiable, conf 0.6] No confident MB release, only a searchCandidate titled 'Kid Ory's Creole Jazz Band 1954' (score 100, artist 'Kid Ory's Creole Jazz Band', firstReleaseDate 1991)
+- `album:kind-of-blue` [factual_error, conf 0.55] Entity solid in both sources; year/label confirmed (Columbia, release group firstReleaseDate 1959-08-17; Wikipedia 'released on August 17, 1959, by Columbia Rec
+- `album:king-of-the-tenors` [unverifiable, conf 0.75] Embedded MBID resolves to the original Norgran LP 'The Consummate Artistry of Ben Webster' (1954, MGN 1001) whose release-group is titled 'King of the Tenors' w
+- `album:king-olivers-jazz-band-1923-king-oliver` [no_evidence, conf 0.9] No MB release (empty searchCandidates) and no wikipedia page. Nothing to verify. Generic editorial DNA; keyTracks null.
+- `album:kingmaker` [unverifiable, conf 0.8] MB embedded_mbid confirms title KingMaker, artist Joel Ross, date 2019-05-03; all six keyTracks match the MB tracklist. MB has no label, so the 'Blue Note' labe
+- `album:kosmos` [no_evidence, conf 0.85] No MB match (no release, no candidates). Wikipedia opensearch resolved only the 'Juice (disambiguation)' page, which is not about our entity (its album list has
+- `album:latin-jazz-quintet-latin-jazz-quintet` [factual_error, conf 0.85] Entity confirmed (MB embedded_mbid; MB artist 'The Latin Jazz Quintet' = ours 'Latin Jazz Quintet'; first 6 keyTracks match this 10-track album). Genre 'Cool Ja
+- `album:lenox-avenue-breakdown` [factual_error, conf 0.7] Right album: MB search (sim 1.0) = Arthur Blythe, Lenox Avenue Breakdown, Columbia JC35638, 1979. Three keyTracks (Lenox Avenue Breakdown, Slidin' Through, Down
+- `album:leon-thomas-in-berlin` [unverifiable, conf 0.72] MB search match (topArtistSimilarity 1.0) confirms title 'Leon Thomas in Berlin' and artist Leon Thomas; release-group first release 2000 (ours year 2000). The 
+- `album:les-stances-a-sophie` [entity_mismatch, conf 0.85] The item itself resolves fine: MB (sim 1.0) matches the 1970 soundtrack release and ALL 6 keyTracks. The band page even confirms the album exists ('Les Stances 
+- `album:let-freedom-ring` [factual_error, conf 0.7] MB match is confident (search, artist similarity 1.0, Blue Note BST 84106) and says first release April 1963, contradicting our year 1962; all 4 keyTracks match
+- `album:levels-and-degrees-of-light` [unverifiable, conf 0.7] MB search release matches title/artist/year/label (Delmark Records DS-413, 1968) and all three keyTracks ('My Thoughts Are My Future' is a truncation of MB's 'M
+- `album:liberation-narratives` [unverifiable, conf 0.72] The embedded MBID resolved to the WRONG release: MB returns 'Narratives' (2013) by Nathaniel Johnstone with an unrelated tracklist (Gepetto's Lament, Baba Yaga,
+- `album:little-girl-blue` [factual_error, conf 0.5] Right entity throughout (artist, label, tracklist all match both sources; all 5 keyTracks on MB tracklist). The problem is the release date: our year field says
+- `album:little-niles` [unverifiable, conf 0.75] Embedded MBID confirms title, artist Randy Weston, United Artists (UAL-4011), 1958-11; all 5 keyTracks on the MB tracklist, including 'Little Niles' and 'Pam's 
+- `album:little-reds-fantasy` [unverifiable, conf 0.7] MB embedded_mbid resolves to the 1999 32 Jazz REISSUE (release date 1999, label '32 Jazz', cat 32126), but the release-group firstReleaseDate is 1978 and artist
+- `album:live-at-the-five-spot` [factual_error, conf 0.75] No MB evidence; judged against the stored Wikipedia article, which covers both Five Spot volumes and matches the prose nearly verbatim (recorded the night of 16
+- `album:live-at-the-lighthouse` [factual_error, conf 0.8] Year field 1970 is the RECORDING year (July 1970 at the Lighthouse); both MB and wiki give release 1971, and the item's own prose says 'released on the Blue Not
+- `album:look-what-i-got` [factual_error, conf 0.55] MARGINAL flag. MB (search, sim 1.0) and the correct Wikipedia page confirm: Look What I Got!, Betty Carter, Verve, 1988; the Grammy claim ('Best Jazz Vocal Perf
+- `album:looking-ahead` [factual_error, conf 0.75] Stored Wikipedia page is the right album and the prose is its lede verbatim — all verified: second studio album, recorded for Contemporary in June 1958 (June 9,
+- `album:lou-takes-off` [unverifiable, conf 0.75] Embedded MBID confirms title, Lou Donaldson, Blue Note BLP 1591, 1958; all 4 keyTracks match the MB tracklist exactly. No contradictions. Unverifiable substanti
+- `album:louie-and-the-dukes-of-dixieland` [entity_mismatch, conf 0.95] Classic disambiguation disease. Embedded-MBID MB release confirms the real album (Armstrong with The Dukes of Dixieland, RG first release 1960) and all five key
+- `album:louis-armstrong-meets-oscar-peterson` [factual_error, conf 0.6] Internal inconsistency: year field says 1957, prose says '1959 studio album'. The two entity-matched evidence sources disagree with each other: MB release group
+- `album:love-notes` [factual_error, conf 0.92] Album identity IS correct: MB embedded_mbid confirms Betty Carter / 1994 / Jazz Door (bootleg) with Geri Allen, Dave Holland, Jack DeJohnette; all 6 keyTracks m
+- `album:lover-man` [entity_mismatch, conf 0.8] Song prose on an album item. The opensearch wiki hit is only a disambiguation page; it confirms the song is from 1941 and associated with Holiday, but the write
+- `album:lullaby-of-birdland` [entity_mismatch, conf 0.92] Triple collision. (1) DNA prose is about 'Ella and Duke at the Cote D'Azur', a wholly different album. (2) ours attributes the album to Duke Ellington on Interm
+- `album:lunceford-special` [unverifiable, conf 0.7] MB (search, sim 1.0) matches: 2001 Columbia/Legacy compilation, all 6 keyTracks present, including title track. Wiki stored URL is the Jimmie Lunceford artist p
+- `album:ma-rainey-vol-1-ma-rainey` [no_evidence, conf 0.9] No evidence survived: MB search returned no release and empty searchCandidates; no Wikipedia page or candidates. year null, keyTracks null. albumDNA is generic 
+- `album:malphas-book-of-angels-volume-3` [entity_mismatch, conf 0.88] MB embedded_mbid confirms OUR album is Malphas Vol 3 (Tzadik, 2006-01-24, performers Mark Feldman & Sylvie Courvoisier; Zorn is composer). But the albumDNA and 
+- `album:mandorla-awakening-ii` [factual_error, conf 0.7] MB search match (sim 1.0): title/artist/label/year all match (Mandorla Awakening II: Emerging Worlds, 2017, FPE Records, Nicole Mitchell) so the entity is corre
+- `album:mannenberg` [entity_mismatch, conf 0.85] The spec's exact entity_mismatch case: 'a person when the item is an album'. The stored wikipediaUrl is the Abdullah Ibrahim ARTIST page (shortDescription 'Sout
+- `album:mary-lou-williams-presents-black-christ-of-the-andes-mary-lou-williams` [no_evidence, conf 0.9] No MB release resolved and no Wikipedia page. Year null and keyTracks null, so the only content is editorial boilerplate. Nothing verifiable.
+- `album:mellow-dream` [no_evidence, conf 0.9] No MB release or candidates; no Wikipedia page or candidates. Nothing checkable: follow-up-to-Scenery claim, trio format, Sapporo scene, label Trio Records, yea
+- `album:mercy-mercy-mercy` [factual_error, conf 0.55] The certain defect is internal: the year field says 1966 while the prose says 1967 — one of them is wrong regardless of which source is right. Evidence is split
+- `album:mexican-green` [unverifiable, conf 0.6] Only evidence is a weak MB search candidate (no confident release): 'Mexican Green', Tubby Hayes Quartet, 1968, score 100 - consistent with ours' title/year but
+- `album:midnight-blue` [unverifiable, conf 0.7] Checkable claims confirmed: Ray Barretto conga; Stanley Turrentine tenor on roughly half the tracks (wiki: absent on tracks 3, 4, 6, 9 of 9 listed); Blue Note 1
+- `album:moanin` [unverifiable, conf 0.7] MB search hit (similarity 0.95) is the original self-titled Blue Note BLP 4003 release whose release group is titled 'Moanin'' (1958) — solid entity match; year
+- `album:modern-sounds` [factual_error, conf 0.8] Stored wiki page matches: 1962 Carmen McRae tribute to Billie Holiday on Columbia; the prose claims are confirmed (including 'died two years previously', which 
+- `album:money-jungle-mingus` [factual_error, conf 0.6] Right album; the evidence sources split on release date (MB embedded: 1962; wiki: recorded September 17 1962, released February 1963). Ours is internally incons
+- `album:money-jungle-provocative-in-blue` [unverifiable, conf 0.72] Album-level content is solidly correct: Terri Lyne Carrington, Concord Jazz, 2013-02-25, all keyTracks present, and the 2013 Grammy (Best Jazz Instrumental Albu
+- `album:monks-blues` [entity_mismatch, conf 0.97] The item's structured fields are fine: embedded MB release confirms title Monk's Blues, release-group first release 1969, label CBS (the embedded release is a 1
+- `album:moondial` [factual_error, conf 0.62] Right album: embedded_mbid and the stored 'MoonDial' Wikipedia page both confirm Pat Metheny, 2024-07-26, baritone-guitar solo album; albumDNA is verbatim from 
+- `album:moonlight-serenade-glenn-miller` [factual_error, conf 0.7] MB search match, topArtistSimilarity 1.0, Glenn Miller, title 'Moonlight Serenade'; 4 of 6 keyTracks (Moonlight Serenade, In the Mood, Tuxedo Junction, Pennsylv
+- `album:morning-with-swing-jazz-guitar-trumpet-saxophone-more-melodies-of-piano-instrumental-smooth-jazz-music` [entity_mismatch, conf 0.83] The MB release itself is correctly resolved (embedded_mbid: title matches, artists The Jazz Messengers + Piano Dreamers, label Diamond Music Record, 2019-09-21)
+- `album:motion-lee-konitz` [factual_error, conf 0.9] Entity confirmed (embedded MBID + matching Wikipedia). Wikipedia: 'a 1998 release then expanded this to 38' tracks — 1998 is the expanded reissue, recording was
+- `album:mr-jelly-lord` [factual_error, conf 0.8] ALL SIX keyTracks are absent from the authoritative embedded-MBID tracklist — the keyTracks list appears to belong to a different Jelly Roll Morton collection (
+- `album:mr-shing-a-ling` [factual_error, conf 0.5] The internal inconsistency is the certain defect: year field 1967 vs prose 'released... in January 1968'. The embedded MB release (a DE pressing, BST 84271) and
+- `album:music-matador` [factual_error, conf 0.7] The prose, artist field, and 3 of 4 keyTracks all identify this item as Grant Green's 'Matador' (recorded 1964, first released 1979 in Japan), matching the stor
+- `album:mystic-brew` [no_evidence, conf 0.75] No evidence about an ALBUM named 'Mystic Brew' survived entity-matching: MB search returned no release and zero candidates, and the stored wiki URL is the Ronni
+- `album:nancy-wilson-cannonball-adderley` [unverifiable, conf 0.8] MB embedded confirms the album (Nancy Wilson / Cannonball Adderley, Capitol ST 1657, 1962-09) and all 5 keyTracks. The stored wikipedia link is wrong: it points
+- `album:new-orleans-joys-kid-ory` [no_evidence, conf 0.9] No MB release (empty searchCandidates) and no wikipedia page. Nothing to verify. Generic editorial DNA; keyTracks null.
+- `album:new-york-eye-and-ear` [factual_error, conf 0.55] Prose first sentence is verbatim from the stored wikipedia page (our album): recorded July 1964 by an augmented Ayler group as the soundtrack to Michael Snow's 
+- `album:night-train-oscar-peterson` [factual_error, conf 0.95] Entity confirmed by MB (search, sim 0.76) and the entity-matched Wikipedia page (Night Train, Oscar Peterson Trio, 1963, Verve). All 6 keyTracks match the MB tr
+- `album:no-parking-tow-away-zone` [no_evidence, conf 0.88] The embedded MBID resolved to the wrong release entirely: MB returns 'No Parking' by 'Origami Button' (2021-03-26, [no label], tracks Rot/Transient/Helix/Feel/P
+- `album:no-room-for-squares` [unverifiable, conf 0.8] Fields confirmed by MB (search, similarity 1.0): Hank Mobley, 1963, Blue Note BLP 4149; all four keyTracks on the tracklist. Unverifiable: the personnel claims 
+- `album:none-too-soon` [unverifiable, conf 0.8] Embedded-MBID release confirms artist Allan Holdsworth, 1996-03-15, Verve Forecast (JP). All 5 keyTracks present in the tracklist. The detailed release-history 
+- `album:nows-the-time-charlie-parker` [factual_error, conf 0.85] MB embedded_mbid (authoritative): Charlie Parker, 'Now's The Time', date 2020 = our year. Right entity (artist), but 5 of 6 keyTracks are not on this release's 
+- `album:oakland-duets` [unverifiable, conf 0.78] MB embedded_mbid confirms the album identity: Julius Hemphill & Abdul Wadud / 1993 / Music & Arts; all 5 keyTracks match the MB tracklist. No wikipedia evidence
+- `album:on-parade` [unverifiable, conf 0.7] Embedded MB release confirms 1952, Disques Vogue (LD 048), and both tracks named in prose; all 5 keyTracks on tracklist. MB credits Sidney Bechet AND Claude Lut
+- `album:on-the-tender-spot` [unverifiable, conf 0.7] MB search match (similarity 1.0) confirms title, artist Ambrose Akinmusire, label Blue Note (MB 'Blue Note Label Group'), date 2020-06-05. All four keyTracks ma
+- `album:on-with-it` [entity_mismatch, conf 0.9] albumDNA is a verbatim copy of the Jack McDuff Wikipedia ARTIST-page lead -- a biography of a person, not content about the album On With It! (the spec's 'a per
+- `album:one-flight-up` [factual_error, conf 0.5] The certain defect: prose implies a 1965 release while the year field says 1967 — one is wrong. Pack evidence (embedded MBID) supports 1967 via the release-grou
+- `album:one-step-beyond` [unverifiable, conf 0.7] First five sentences match the Wikipedia lead verbatim (first of two albums swapping piano for Hutcherson's vibes; Moncur, Khan, Tony Williams; hard bop leaning
+- `album:open-sesame-freddie-hubbard` [factual_error, conf 0.95] Wiki page 'Open Sesame (Freddie Hubbard album)' is our entity (yes). MB embedded release is a 2002 reissue (country XE); release-group firstReleaseDate 1960. Al
+- `album:open-your-eyes-you-can-fly` [unverifiable, conf 0.8] MB search (similarity 1.0) confirms year 1976, label Milestone (M-9065), artist Flora Purim, and all 6 keyTracks ('Times Lie' = MB "Time's Lie" punctuation-inse
+- `album:oscar-peterson-meets-roy-hargrove-and-ralph-moore` [unverifiable, conf 0.82] Embedded MBID and stored wiki URL both about this album. '1996 album by Oscar Peterson, nominated for a 1997 Juno Award for Best Mainstream Jazz Album' is verba
+- `album:oscar-peterson-plays-george-gershwin` [entity_mismatch, conf 0.95] Stored wiki link also points to Night Train (Oscar Peterson album), so the site ships a wrong link for this item. The MB search hit is a 1954 Swedish Karusell E
+- `album:out-of-the-afternoon-roy-haynes` [unverifiable, conf 0.7] MB had no confident release (topArtistSimilarity 0.71, release=null); searchCandidate 'Out of the Afternoon' by Roy Haynes Quartet, firstReleaseDate 1962 (score
+- `album:paths-prints` [unverifiable, conf 0.7] MB search match (similarity 1.0) verifies title, year 1982, ECM (ECM 1223), the four credited artists (Garbarek, Frisell, Weber, Christensen - confirming the qu
+- `album:pdron-rubalcaba` [factual_error, conf 0.9] Right album (embedded_mbid: title 'Pédron Rubalcaba', GAZEBO GAZ 217, 2023-06-09; Gonzalo Rubalcaba is a credited artist and 'Cuban pianist' matches the stored 
+- `album:percussion-bitter-sweet` [unverifiable, conf 0.75] MB embedded confirms Max Roach, 1961, impulse! AS-8, and all 5 keyTracks. No wikipedia evidence (no stored URL; opensearch returned nothing). The Booker Little 
+- `album:petite-fleur-sidney-bechet` [unverifiable, conf 0.72] MB (embedded_mbid) confirms entity: 'Petite Fleur' / Sidney Bechet, secondaryType Compilation, first 6 keyTracks match this 26-track compilation. 'Recorded in 2
+- `album:pimp-master` [factual_error, conf 0.9] No MB evidence (method=search, release null, no candidates). Wiki stored_url entity-matches (the Pimp Master album by Soil & 'Pimp' Sessions). Two contradiction
+- `album:pink-elephants-on-parade` [entity_mismatch, conf 0.92] The album fields are correct for the Sun Ra Arkestra release (embedded_mbid: 'Pink Elephants on Parade', Sun Ra/Arkestra, 2024-07-05 — a live-recordings collect
+- `album:pithecanthropus-erectus-the-clown` [entity_mismatch, conf 0.93] MB (embedded_mbid, authoritative) confirms our title/artist/year/label and the keyTracks all match its tracklist exactly — so the catalog FIELDS describe the ri
+- `album:plays-and-plays-and-plays` [factual_error, conf 0.8] Hybrid prose: the lead sentence misnames the album as 'Brubeck Plays Brubeck' (1956) and borrows that record's Fujita cover fact, but then correctly cites 'Swee
+- `album:plenty-plenty-soul-milt-jackson` [factual_error, conf 0.92] MB search (sim 1.0): Milt Jackson, 'Plenty, Plenty Soul', 1957, Atlantic — entity matches. All 6 keyTracks match the MB tracklist. Year is the only error (2007 
+- `album:poetry-and-jazz-in-concert-record-one` [entity_mismatch, conf 0.85] Softer variant of the disease: the bio is of the album's actual featured saxophonist, not an unrelated entity, but the prose still describes a person rather tha
+- `album:prayer-meetin` [factual_error, conf 0.65] Everything else checks out: recorded 1963, Blue Note, year 1964 (MB embedded BLP 4164, 1964-06), 5/5 keyTracks match. Caveat on the flagged claim: the wiki page
+- `album:pursuance-the-music-of-john-coltrane` [unverifiable, conf 0.82] Embedded-MBID release confirms Kenny Garrett, 1996, Warner Bros. Records. All 5 keyTracks present in the tracklist. Personnel claims (quartet with guitarist Pat
+- `album:quintette-du-hot-club-de-france` [entity_mismatch, conf 0.85] Prose is the group's wiki lead verbatim; both stated facts (founded 1934 by Reinhardt and Grappelli, active until 1948) are confirmed - about the group. Zero al
+- `album:ray-brown-milt-jackson` [entity_mismatch, conf 0.95] Classic disambiguation-collision case. The structured fields (title, year 1965, label Verve) and all 5 keyTracks match the authoritative embedded-MBID release e
+- `album:real-book` [no_evidence, conf 0.9] Nothing survived entity-matching. The MB match is 'The Real Book, Vol. 1', a 2019 EP by Bishop Nehru & Brady Watt (different artists, different tracks, EP) - no
+- `album:red-norvo-and-his-orchestra-red-norvo` [unverifiable, conf 0.6] No confident MB release, only searchCandidates which are all 'The Chronological Classics: Red Norvo and His Orchestra' year-span volumes (1936-1937, 1937-1938, 
+- `album:reel-life` [factual_error, conf 0.65] Label field is a placeholder ('Unknown') while both evidence sources and our own prose name Milestone (MB label: Milestone) - a repairable omission, not a colli
+- `album:remembrance` [factual_error, conf 0.68] Right album: embedded_mbid confirms 'Remembrance' by Chick Corea & Béla Fleck, 2024-05-10. All five keyTracks match the MB tracklist. The albumDNA is a generic 
+- `album:reunion-with-chet-baker-gerry-mulligan` [factual_error, conf 0.85] Entity confirmed via embedded MBID: 'Reunion With Chet Baker' (Gerry Mulligan Quartet, Pacific Jazz). The MB release is a 2018-10-17 Japan reissue; release-grou
+- `album:revue-wsq` [factual_error, conf 0.8] Our year field says 1980, but the MB search match (artist similarity 1.0, Black Saint BSR 0056) gives release and release-group first release as 1982, and the w
+- `album:rhythm-is-our-business` [unverifiable, conf 0.7] Embedded MB release confirms title/artist and all 6 keyTracks (1994 Past Perfect archival release). Prose is boilerplate with no checkable specifics beyond titl
+- `album:rights-of-swing` [factual_error, conf 0.75] Everything else checks out: MB embedded (Candid CJS 9016, 1961) and wiki match, and all 5 keyTracks match exactly. 'Clarinetist' looks like a template fill-in e
+- `album:rising-son` [factual_error, conf 0.78] Entity is correct: MB search match (topArtistSimilarity 1.0) confirms Takuya Kuroda, Blue Note, 2014-02-12, title Rising Son. Three of four keyTracks match (Ris
+- `album:road-band-woody-herman` [unverifiable, conf 0.7] MB (search sim 1.0) confirms title 'Road Band!' / Woody Herman and first 6 keyTracks match. BUT the matched MB release is a 2005 budget issue on the 'Documents'
+- `album:round-about-midnight-at-the-cafe-bohemia-volume-i` [factual_error, conf 0.82] MB search (topArtistSimilarity 1.0) confirms title, artist Kenny Dorham, label Blue Note, release year 1987, secondaryTypes ['Live'], and all 5 keyTracks. The c
+- `album:ruff-draft` [unverifiable, conf 0.6] MB embedded_mbid confirms the entity: 'Ruff Draft' (2007-03-20, Stones Throw Records, J Dilla), and all 5 keyTracks match the MB tracklist. No wiki evidence (no
+- `album:runnin-wild-1921-1926` [unverifiable, conf 0.72] MB MISMATCH: the embedded MBID 10623533-cb80-40fd-9206-2152fdee6418 resolves to a DIFFERENT album — 'Runnin' Wild' by the Boston Pops Orchestra, 1996, RCA Victo
+- `album:russell-malone` [entity_mismatch, conf 0.98] MB search sim 1.0 confirms the real album (Russell Malone, self-titled, 1992-10-06, Columbia 52825) and all 5 keyTracks match its tracklist. But the albumDNA an
+- `album:sadao-watanabe-mbali` [factual_error, conf 0.6] MB match (method=search, topArtistSimilarity 1.0) is solid: exact title/artist, date 1974, country JP, and all 6 keyTracks present in its 13-track list. Caveat:
+- `album:satchmo` [entity_mismatch, conf 0.9] Album fields are correct (MB embedded_mbid: Satchmo, 1987, Pickwick Compact Discs PWK 009, Compilation, Louis Armstrong). The bio facts are accurate to Armstron
+- `album:saudades` [entity_mismatch, conf 0.7] Chimera entry. The albumDNA's opening is verbatim from the Wikipedia article for 'Saudades', the 1980 ECM album BY NANA VASCONCELOS (Gismonti appears only as fe
+- `album:savoy-sessions-charlie-parker` [factual_error, conf 0.78] MB search (similarity 1.0) resolves to 'Complete Savoy Sessions' (Charlie Parker, Definitive Records, 2004; secondaryType Compilation). The 6 keyTracks all matc
+- `album:saxophone-solos` [factual_error, conf 0.65] MB search match is strong (exact title/artist, similarity 1.0, label Incus Records matching ours' Incus), and both the matched release and the release group say
+- `album:sayin-somethin` [factual_error, conf 0.85] The label field ships 'Unknown' while the embedded-MBID release (authoritative) says Atlantic 1460 — and our own prose already says 'released on the Atlantic la
+- `album:scenery-ryo-fukui` [factual_error, conf 0.72] No MB match (no release, no candidates). Stored Wikipedia page entity-matches ('1976 studio album by Ryo Fukui') and verifies: 1976, Fukui's first release (debu
+- `album:school` [entity_mismatch, conf 0.9] Disease case. The CATALOG FIELDS are correct for School: MB embedded_mbid confirms title 'School', 1978, Parachute P004/6, credited Eugene Chadbourne + John Zor
+- `album:screamin-the-blues` [factual_error, conf 0.85] Same album, wrong leader: prose and the artist field attribute the album to Eric Dolphy, but both sources show it as an Oliver Nelson date with Dolphy as sidema
+- `album:search-for-the-new-land` [unverifiable, conf 0.55] Prose verbatim-matches the wiki lead and is internally consistent (recorded 1964, shelved two years, issued as 84169 - i.e., a 1966 release). The year field say
+- `album:secrets-are-the-best-stories` [factual_error, conf 0.78] This is the album 'Secrets Are the Best Stories', an Edition Records collaboration; MB (embedded_mbid, authoritative for artist credit) credits it to Kurt Ellin
+- `album:selflessness-featuring-my-favorite-things` [factual_error, conf 0.5] Release-year evidence conflicts: MB embedded RG says 1968, Wikipedia says 1969 ('1969 studio album / Live album'). Ours asserts both values in different places,
+- `album:shades-of-green` [factual_error, conf 0.7] Entity solid: MB embedded_mbid (Blue Note BST-84413, 1972-04, Grant Green) and stored wiki page match. Year field 1972 is fine as release year (MB 1972-04). All
+- `album:shakti` [factual_error, conf 0.85] MB search (similarity 1.0; Columbia PC 34162, 1976, Live) and stored wiki ('1976 live album by Shakti') both entity-match. Prose verified verbatim by wiki ('fir
+- `album:shirley-scott-trio` [factual_error, conf 0.85] MB (search, artist similarity 1.0; Prestige 7240, 1961) and wiki agree on a six-track album: Señor Blues, Moon Ray/Moonray, Sister Sadie, Doodlin', The Preacher
+- `album:sidney-bechet-at-storyville-sidney-bechet` [no_evidence, conf 0.9] No evidence survived: MB search returned no release and empty searchCandidates; no Wikipedia page or candidates. year null, keyTracks null. albumDNA is generic 
+- `album:silver-n-brass` [unverifiable, conf 0.6] Everything checkable is consistent: MB search match (similarity 1.0) confirms title, Horace Silver, 1975, US Blue Note BN-LA406-G, and all 5 keyTracks (plus 'My
+- `album:singin-the-blues-beiderbecke` [entity_mismatch, conf 0.97] This is the documented disease case. Stored wiki URL (Singing_the_Blues) is the Guy Mitchell 1956 pop song page - wrong entity. The real album exists: MB (sim 1
+- `album:sit-on-it` [unverifiable, conf 0.75] MB embedded_mbid (authoritative) confirms title 'Sit on It!', artist Jimmy Smith, year 1977, label Mercury Records (SRM-1-1127), and all 5 keyTracks including t
+- `album:slaves-mass` [unverifiable, conf 0.8] MB search (similarity 1.0) confirms title, artist Hermeto Pascoal, year 1977, label Warner Bros. Records (BS2980), and all 6 keyTracks (ours misspells 'Cannonba
+- `album:smack` [factual_error, conf 0.6] Same artist (Fletcher Henderson) confirmed by the embedded-MBID release, but the authoritative release is the French part-work 'Les Genies du Jazz (Tome 1, No. 
+- `album:smack-up-art-pepper` [factual_error, conf 0.62] MB has no confident release (similarity 0.71), but the single searchCandidate is unambiguously this album — 'Smack Up' by the Art Pepper Quintet, firstReleaseDa
+- `album:snowy-morning-blues` [factual_error, conf 0.6] Entity correct (James P. Johnson; embedded-MBID MB release; stored Wikipedia URL is the James P. Johnson artist page). All 5 keyTracks match the MB tracklist. L
+- `album:solo-flight` [factual_error, conf 0.85] Album entity is right: embedded MB release confirms title, Erroll Garner, 1952, Columbia CL 6209, the two named standouts, and all 5 keyTracks. The Misty senten
+- `album:solo-masterpieces-vol-1-art-tatum` [no_evidence, conf 0.9] No MusicBrainz release (empty searchCandidates) and no Wikipedia page survived. albumDNA is pure boilerplate (artist name + 'Swing' editorial categorization) wi
+- `album:solo-piano-portraits` [entity_mismatch, conf 0.9] The catalog fields are correct — MB embedded release 'Chick Corea Solo Piano - Portraits' / release-group 'Solo Piano - Portraits' (Chick Corea, Concord Jazz, 2
+- `album:song-for-my-father` [unverifiable, conf 0.7] Right entity: stored wiki page confirms the 1965 Horace Silver Quintet album on Blue Note; prose first half mirrors wiki verbatim (Brazil trip, cover photo of J
+- `album:song-of-the-wanderer-kid-ory` [no_evidence, conf 0.9] No MB release (search returned no candidates) and no Wikipedia page. Nothing to verify. ours.year null, keyTracks null. albumDNA is generic editorial template.
+- `album:songs-for-distingu-lovers` [unverifiable, conf 0.75] Embedded MBID confirms title, Billie Holiday, Verve MG V-8257, 1958; all 5 keyTracks on the MB tracklist (including the full 'One for My Baby (and One More for 
+- `album:sonny-side-up` [factual_error, conf 0.9] Right entity — title, year 1959, and all 4 keyTracks confirmed by the authoritative embedded MBID; stored Wikipedia page matches ('1959 album by Dizzy Gillespie
+- `album:soul-circus` [unverifiable, conf 0.85] MB embedded_mbid confirms title(Soul Circus)/artist(Victor Wooten)/year(2005)/label(Vanguard). All 5 keyTracks match the MB tracklist. No wikipedia evidence (op
+- `album:soul-junction` [factual_error, conf 0.7] This is Red Garland's album: wiki lede names Garland as leader and MB embedded-MBID credit lists The Red Garland Quintet first, with Coltrane and Byrd as featur
+- `album:soul-junction-coltrane` [entity_mismatch, conf 0.95] Title, year, label and all five keyTracks match the real Soul Junction (MB embedded MBID, Prestige P-7181, RG first release 1960), and the stored wiki link poin
+- `album:soul-of-things` [unverifiable, conf 0.7] MB (search, sim 0.75) confirms 'Tomasz Stanko Quartet', ECM Records, 2002-01-06 (DE) - ours.label=ECM/year=2002 match and all 6 listed keyTracks (Soul of Things
+- `album:soul-sauce` [unverifiable, conf 0.75] MB search (similarity 1.0) confirms Cal Tjader, Soul Sauce, Verve, 1965 - fields all check. Wikipedia evidence is an opensearch miss (page about 'Mexican Instit
+- `album:soul-time` [entity_mismatch, conf 0.95] MB embedded MBID confirms Soul Time (Bobby Timmons, Riverside RS 9334, November 1960) and all five keyTracks are on its tracklist, so the fields are right. But 
+- `album:sound-roscoe-mitchell` [unverifiable, conf 0.65] MB search matched the WRONG release: 'Sound Songs' (1997, Delmark), a different Roscoe Mitchell album — discarded for fact-checking, so there is no MB evidence 
+- `album:space-is-the-place` [factual_error, conf 0.75] Entity solid: MB search similarity 1.0 (Blue Thumb Records BTS 41, 1973, Sun Ra) and stored wiki page match; year/label verified. keyTrack 'Discipline 27-II' is
+- `album:spellbound-clifford-jordan` [factual_error, conf 0.95] MB embedded release is a 2007-01-24 JP reissue (Riverside VICJ-41820); release-group firstReleaseDate 1960-11. Wiki 'Spellbound (Clifford Jordan album)' is our 
+- `album:spihumonesty` [factual_error, conf 0.65] Italian label confirmed (MB country IT, Black Saint BSR 0032). All four keyTracks match the MB tracklist exactly. The personnel list (George Lewis, Roscoe Mitch
+- `album:spirits-known-and-unknown` [factual_error, conf 0.7] MB search match (sim 1.0) confirms artist/year/label (Flying Dutchman FD-10115, 1969). KeyTrack 'Spirits Known and Unknown' is NOT on the MB 7-track listing (Th
+- `album:spirits-rejoice-moholo` [unverifiable, conf 0.65] Right album confirmed: wiki artist page (Louis Moholo) discography lists 'Louis Moholo; Spirits Rejoice!; Ogun: OG520 (1978)' -- matches ours (Ogun, 1978). MB e
+- `album:stan-getz-and-the-oscar-peterson-trio-stan-getz` [factual_error, conf 0.9] MB embedded_mbid release is a 2020-01-17 Verve Reissues reissue (country XW); release-group firstReleaseDate 1957. Artist credit (Stan Getz, Oscar Peterson) and
+- `album:standards` [entity_mismatch, conf 0.88] MB embedded_mbid confirms OUR album is 'Standards' (Tzadik, 2007-06-26, Derek Bailey), and all 5 keyTracks match its tracklist. But the albumDNA and the stored_
+- `album:standards-vol-1-keith-jarrett` [unverifiable, conf 0.7] MB had no confident release (topArtistSimilarity 0.47, release=null); only a searchCandidate 'Standards, Vol. 1' by Keith Jarrett, Gary Peacock, Jack DeJohnette
+- `album:stop-and-listen` [factual_error, conf 0.7] MB embedded doc is a 1999 Japanese reissue (Blue Note TOCJ-9143) of our album; its release-group gives first release 1962, agreeing with our year field but cont
+- `album:stories` [entity_mismatch, conf 0.93] Fields/keyTracks are CORRECT for Stories: MB (search, sim 1.0) confirms title 'Stories', Tom Harrell, 1988, and all 5 keyTracks match the tracklist. Only the al
+- `album:straight-ahead` [factual_error, conf 0.85] MB (search, artist similarity 1.0; Candid CJM 8015, 1961) and wiki agree; prose lead matches the wiki verbatim. KeyTrack 'African Woman' should be 'African Lady
+- `album:straight-life-the-savoy-sessions` [entity_mismatch, conf 0.9] Right artist (Art Pepper), wrong album described — the title-search disambiguation bug. Catalog fields (title, year 1984, label Savoy Jazz) and all 5 keyTracks 
+- `album:such-sweet-thunder` [unverifiable, conf 0.7] Wiki page (stored link) confirms both prose claims - released 1957, 'a twelve-part suite based on the works of William Shakespeare' - and all 4 keyTracks appear
+- `album:summit-reunin-cumbre` [entity_mismatch, conf 0.97] Classic disease case. Fields and all 5 keyTracks match the real Summit (Reunion cumbre) per the embedded-MBID release (authoritative); only the prose and the st
+- `album:sunrise-reprise` [unverifiable, conf 0.7] MB search match (1.0) confirms title Sunrise Reprise, artist Chris Potter, label Edition Records, date 2021-05-14; all five keyTracks match the MB tracklist exa
+- `album:super-nova` [unverifiable, conf 0.5] Evidence is split on release year: MB release-group firstReleaseDate is 1970-03, but the entity-matched Wikipedia page's shortDescription says '1969 studio albu
+- `album:sweet-release-ghost-story` [factual_error, conf 0.9] Right album entity: MB embedded_mbid confirms 'Sweet Release & Ghost Story' (Wynton Marsalis, 1999, no label -- ours 'Unknown' is consistent); all 5 keyTracks m
+- `album:swing-de-paris-django-reinhardt` [factual_error, conf 0.75] Right entity (MB search sim 1.0; exact title 'Swing de Paris' / Django Reinhardt; 1995 Charly Records compilation). Three keyTracks match, three do not — our ke
+- `album:swingin-with-bud` [unverifiable, conf 0.5] MB search match (similarity 1.0) confirms a 1982 French release with release-group first release 1982 and all five keyTracks; MB lists no label, so the 'Unknown
+- `album:takin-off` [factual_error, conf 0.9] All other claims (1962 debut on Blue Note; Dexter Gordon, Freddie Hubbard, Butch Warren, Billy Higgins; hard bop; 1973 Head Hunters funk remake of Watermelon Ma
+- `album:tales-of-captain-black` [factual_error, conf 0.8] Entity correct (James Blood Ulmer, Tales of Captain Black, 1979 — MB search match, similarity 1.0). MB shows the 1979 release on 'Artists House' (catalog AH 7),
+- `album:tatum-carter-bellson` [entity_mismatch, conf 0.85] albumDNA is Art Tatum career/discography boilerplate ('Pianist Art Tatum recorded commercially from 1932 until near his death...'), not content about this album
+- `album:tatum-group-masterpieces-vol-1-art-tatum` [no_evidence, conf 0.9] No MB release resolved (search returned no candidates) and no Wikipedia page. Nothing to verify the year (2006), the 6 keyTracks, or entity. Cannot confirm or r
+- `album:tauhid` [factual_error, conf 0.8] Year/label verified (MB impulse! AS-9138, 1967; wiki 'released in 1967'). keyTracks ok: 'Aum' and 'Venus' fall inside MB's medley track 'Aum / Venus / Capricorn
+- `album:tenor-titans` [factual_error, conf 0.72] Album core is clean: embedded-MBID release confirms Tenor Titans, Dexter Gordon & Ben Webster, 1997, Storyville Records; all 5 keyTracks on the tracklist; the t
+- `album:tetterettet` [no_evidence, conf 0.9] No MB release or candidates; no Wikipedia page or candidates. Nothing checkable: Bennink/Mengelberg leadership, Dutch free-improvisation framing, label ICP, yea
+- `album:that-certain-feeling` [entity_mismatch, conf 0.95] MB search match (similarity 1.0) confirms OUR item is Ran Blake's That Certain Feeling, 1991, hat ART — and all 6 keyTracks (Gershwin program: It Ain't Necessar
+- `album:the-amazing-bud-powell-vol-2-bud-powell` [no_evidence, conf 0.9] No MB release resolved and no Wikipedia page. Year null, keyTracks null. Nothing verifiable.
+- `album:the-art-of-the-trio-vol-4-nat-king-cole` [no_evidence, conf 0.85] No MB release resolved and no Wikipedia page. Year null, keyTracks null. Cannot verify. (Background flag, not citable here: 'The Art of the Trio Vol. 4' is the 
+- `album:the-art-of-the-trio-volume-3-songs` [unverifiable, conf 0.72] MB search returned no resolved release — only searchCandidates (score 100 / 92) confirming the title 'The Art of the Trio, Volume 3: Songs' and artist Brad Mehl
+- `album:the-awakening-ahmad-jamal` [factual_error, conf 0.9] MB has no confident release (similarity 0.71) but the searchCandidate 'The Awakening' (The Ahmad Jamal Trio, 1970-07) and the entity-matched Wikipedia page both
+- `album:the-believer` [unverifiable, conf 0.6] Core facts verified: release-group first release 1980 and label Baystate per embedded-MBID MB (the matched release itself is a 2009 Japanese CD reissue, BVCJ-35
+- `album:the-benny-goodman-story-vol-2` [unverifiable, conf 0.6] Generated-style prose. Verified by the MB search hit (Decca Records DL 8253, 1956): year, label, and that 'Memories of You' and 'China Boy' are on the album; al
+- `album:the-black-saint` [unverifiable, conf 0.7] Nearly all prose matches the Wikipedia lead verbatim (recorded January 20, 1963; released July by Impulse!; single continuous composition partially written as a
+- `album:the-blue-note-sessions-sidney-bechet` [no_evidence, conf 0.9] No MB release (empty searchCandidates) and no wikipedia page. Nothing to verify. Generic editorial DNA; keyTracks null.
+- `album:the-centaur-and-the-phoenix` [factual_error, conf 0.85] MB search match (similarity 1.0; Riverside RLP 337, 1960) confirms title/artist/year/label. Its tracklist is Revelation, Apathy, Ev'ry Day (I Fall in Love), The
+- `album:the-complete-billie-holiday-on-verve-billie-holiday` [factual_error, conf 0.8] Entity confirmed via embedded MBID: Billie Holiday, Verve, 1993-03-09, release-group secondaryType 'Compilation'. The MB title verbatim states the recording spa
+- `album:the-dual-role-of-bob-brookmeyer-bob-brookmeyer` [factual_error, conf 0.85] MB embedded release is dated 1989 (OJC reissue OJCCD-1729-2; original Prestige P-7066), but release-group firstReleaseDate is 1955. 'Recorded in 1989' is contra
+- `album:the-empress-of-the-blues-bessie-smith` [no_evidence, conf 0.9] No MB release (empty searchCandidates) and no wikipedia page. Nothing survived entity-matching; cannot verify anything. albumDNA is pure generic editorial. keyT
+- `album:the-epic` [unverifiable, conf 0.7] Core album facts are confirmed and clean: MB search match (topArtistSimilarity 1.0) for Kamasi Washington, Brainfeeder, 2015-05-05; all four keyTracks present; 
+- `album:the-essential-bessie-smith-bessie-smith` [unverifiable, conf 0.72] MB (embedded_mbid) confirms entity: 'The Essential Bessie Smith', Legacy C2K 64922, secondaryType Compilation, first 6 keyTracks match this 36-track compilation
+- `album:the-eternal-triangle` [unverifiable, conf 0.7] Entity is well-confirmed: MB embedded_mbid gives The Eternal Triangle, Freddie Hubbard + Woody Shaw, Blue Note (B1-48017), 1988; all 5 keyTracks match the track
+- `album:the-freedom-book-booker-ervin` [factual_error, conf 0.9] MB search sim 1.0, Booker Ervin, Prestige PR 7295, 1963. 'Recorded in 1997' contradicted by MB 1963 date. keyTracks: 5 of 6 match the MB tracklist (A Lunar Tune
+- `album:the-gigolo-lee-morgan` [factual_error, conf 0.92] Entity confirmed (embedded MBID; Wikipedia matches Lee Morgan). MB release is a 2006 reissue; release-group firstReleaseDate is 1966; Wikipedia says recorded 19
+- `album:the-great-artistry-of-django-reinhardt` [entity_mismatch, conf 0.9] albumDNA is a verbatim Django Reinhardt artist biography ('Jean Reinhardt ... was a Belgian-born Romani jazz guitarist and composer'), i.e. content about a pers
+- `album:the-hawk-flies-high-coleman-hawkins` [factual_error, conf 0.8] Entity confirmed (MB embedded_mbid; all 6 keyTracks match — MB lists the 6 tracks twice, a hybrid-SACD layer duplication). ours.year 2006 is defensible as a rei
+- `album:the-honeydripper` [factual_error, conf 0.75] Stored wiki page is about our album and confirms 1961, Prestige, and Grant Green on guitar (also Jimmy Forrest on tenor). MB found only a release-group candidat
+- `album:the-jimmy-giuffre-three-jimmy-giuffre` [no_evidence, conf 0.9] No evidence survived: MB search returned no release and empty searchCandidates; no Wikipedia page or candidates. year is null, keyTracks null. albumDNA is gener
+- `album:the-joint-is-jumpin` [entity_mismatch, conf 0.9] Same-artist, wrong-album substitution. The stored wiki URL (Handful_of_Keys_(album)) matches the prose but not the item - both prose and link belong to the othe
+- `album:the-legend-of-king-oliver-remastered` [unverifiable, conf 0.7] MB search match (1.0) confirms title The Legend of King Oliver (Remastered), artist King Oliver, label Master Tape Records, date 2020-03-20; all five keyTracks 
+- `album:the-leon-thomas-album` [unverifiable, conf 0.75] Embedded MB release (authoritative) verifies title, artist, 1970, Flying Dutchman FDS-132, and all 5 keyTracks exactly. No Wikipedia evidence (opensearch empty,
+- `album:the-library-of-congress-recordings-by-alan-lomax` [entity_mismatch, conf 0.65] Borderline but graded entity_mismatch: the prose's hard facts (8 CDs, 128 tracks, 2005, two 2006 Grammys) belong to the COMPLETE box set, a distinct release (di
+- `album:the-lore` [factual_error, conf 0.9] Album entity is correct: embedded-MBID release confirms title 'The Lore', artist Pat Metheny, label FP, secondaryType Compilation, and all 5 keyTracks. The verd
+- `album:the-magic-of-juju` [factual_error, conf 0.5] Evidence conflicts on release year: MB (search) release date 1967 / RG firstReleaseDate 1967-01-01 supports ours.year, but wiki says released May 1968 and that 
+- `album:the-man-i-love` [factual_error, conf 0.78] Right entity: MB embedded_mbid resolves to a Billie Holiday compilation titled 'The Man I Love' whose 22-track listing matches our keyTracks exactly (incl. the 
+- `album:the-most-happy-piano` [factual_error, conf 0.85] MB (search, similarity 1.0) confirms the album itself: Columbia CL 939, 1957, Erroll Garner, and all 5 keyTracks. First two prose sentences are fine ('cool jazz
+- `album:the-new-don-ellis-band-goes-underground` [entity_mismatch, conf 0.95] Embedded MB release confirms the item's fields: 1969, Columbia CS 9889, and all 5 keyTracks on the tracklist. The albumDNA is the Don Ellis at Fillmore wiki pag
+- `album:the-newest-sound-around` [no_evidence, conf 0.95] No MusicBrainz match (empty search candidates) and no Wikipedia page in the pack; nothing is checkable, including year, label, keyTracks, and the prose claims (
+- `album:the-olatunji-concert` [factual_error, conf 0.55] 1967 is the recording date, which the evidence and ours' own prose both confirm ('recorded April 23, 1967, at the Olatunji Center of African Culture'); the albu
+- `album:the-oscar-peterson-trio-at-newport` [entity_mismatch, conf 0.85] Classic instance of the disambiguation disease, in mixed form. The embedded MBID matches the titled entity (The Oscar Peterson Trio at Newport, 1958, Verve UMV-
+- `album:the-peoples-republic` [factual_error, conf 0.85] MB search (similarity 0.92; Horizon Records & Tapes SP-708, 1976) and stored wiki ('1976 studio album by The Revolutionary Ensemble') entity-match. Trio personn
+- `album:the-piano-soul-of-nat-king-cole` [entity_mismatch, conf 0.85] Catalog fields are solid: embedded MBID (authoritative) verifies title/artist/year/label (Pickwick/33 SPC-3187, 1968) and all five keyTracks (MB tracks 1-5). Th
+- `album:the-poll-winners-ride-again-barney-kessel` [no_evidence, conf 0.85] MB search returned no release and no candidates; wiki opensearch returned no page or candidates. No evidence document available. keyTracks null. Nothing in the 
+- `album:the-popular-duke-ellington` [factual_error, conf 0.6] Caveat: MB method is 'search' (not embedded). The matched RELEASE is titled 'The Eternal Ellington' but its release-group is titled 'Duke Ellington' (firstRelea
+- `album:the-president` [entity_mismatch, conf 0.7] First albumDNA sentence is the Lester Young person bio verbatim (person content on an album item -- the entity_mismatch tell); second sentence is generic genera
+- `album:the-sermon-jimmy-smith` [factual_error, conf 0.95] MB search sim 1.0 and wiki both our entity (Jimmy Smith, Blue Note, 1959). All 3 keyTracks match. Only 'Recorded in 1987' is wrong — the album predates that by 
+- `album:the-shape-of-jazz-to-come` [unverifiable, conf 0.7] MB search (similarity 1.0) confirms Ornette Coleman, Atlantic 1317, 1959 (release group 1959-10); all 4 keyTracks on the MB tracklist. No contradictions. Unveri
+- `album:the-story-of-neptune` [unverifiable, conf 0.7] MB embedded_mbid confirms title, Tony Williams, 1992, Blue Note (TOCJ-5715); all 5 keyTracks present, so album identity is solid. But the specific claims — 'his
+- `album:the-trio-volume-3-everybody-likes-hampton-hawes` [entity_mismatch, conf 0.95] Fields are correct per embedded MBID (Contemporary C3523, 1956) and all 5 keyTracks are on the MB tracklist -- including the track 'The Sermon', which explains 
+- `album:thembi` [unverifiable, conf 0.75] MB search match is exact (Pharoah Sanders, impulse! AS-9206, 1971) and confirms title/artist/year/label plus all 4 keyTracks. Wikipedia opensearch dragged in 'T
+- `album:think-well-of-me` [factual_error, conf 0.85] Label field ships the placeholder 'Unknown' while the authoritative embedded-MBID release says Verve Records, Inc. (V-8465) and the Wikipedia page says 'release
+- `album:third-plane` [factual_error, conf 0.92] The album is correctly identified (Third Plane, the Carter/Hancock/Williams trio date) -- MB embedded_mbid credits 'Ron Carter', wiki says 'album by jazz bassis
+- `album:third-plane-hancock` [factual_error, conf 0.92] Same album/evidence as 'third-plane'. Album is Ron Carter's Third Plane (MB credits Ron Carter; wiki 'album by jazz bassist Ron Carter'); all 5 keyTracks match.
+- `album:this-here-is-bobby-timmons` [unverifiable, conf 0.7] MB embedded MBID confirms title/artist/label and November 1960 release (Riverside RLP 12-317); all five keyTracks are on the tracklist. No contradictions. Unver
+- `album:tidal-wave` [factual_error, conf 0.9] Right entity: MB embedded_mbid confirms Fletcher Henderson / 1994 / Squirrel Thing Recordings (an early-jazz compilation of his 1930s sides). The albumDNA prose
+- `album:time-out` [unverifiable, conf 0.7] Entity solid: MB search (0.91) confirms The Dave Brubeck Quartet, Columbia, 1959, with all 4 keyTracks on the tracklist; stored Wikipedia page matches. Verified
+- `album:together` [factual_error, conf 0.85] Prose lead is the wiki text verbatim and checks out (co-led by Philly Joe Jones and Elvin Jones, Atlantic, recorded 1961, with Mitchell/Fuller/Mobley/Kelly/Cham
+- `album:tokyo-1981` [no_evidence, conf 0.75] The embedded MBID resolved to the WRONG release: MB returns 'Live in Tokyo 1981' credited to Herbie Hancock + Carlos Santana (1981), with an unrelated tracklist
+- `album:total-eclipse` [factual_error, conf 0.5] MB and Wikipedia conflict on release year (1968 vs 1969; wiki short-description also says '1969 studio album'); ours asserts both values, so the record is inter
+- `album:township-jive` [factual_error, conf 0.55] No MB evidence (search returned nothing). The stored wiki link is the BAND article (The Jazz Epistles), not an album article -- not a disambiguation collision, 
+- `album:tribal-tech` [factual_error, conf 0.85] The self-titled album described here (albumDNA + all 6 keyTracks) is Tribal Tech's FOURTH album, released 1991 on Relativity — confirmed by MB search (topArtist
+- `album:trypnotyx-wooten` [unverifiable, conf 0.8] Same embedded-MBID release as the Dennis Chambers entry (Victor Wooten + Dennis Chambers + Bob Franceschini, 2017, Vix Records). Wooten is the lead credited art
+- `album:undercurrent-bill-evans` [factual_error, conf 0.85] Entity confirmed: the entity-matched Wikipedia page is 'Undercurrent (Bill Evans and Jim Hall album)', 1962, and all 6 keyTracks (My Funny Valentine, I Hear a R
+- `album:vinnie-colaiuta` [unverifiable, conf 0.8] MB embedded_mbid confirms Vinnie Colaiuta / 1994 / Stretch Records; the three highlighted tracks and all 5 keyTracks match the MB tracklist. No wikipedia eviden
+- `album:visions` [unverifiable, conf 0.75] MB embedded_mbid confirms title, Tom Harrell, 1991; all 5 keyTracks present (label empty in MB, ours 'Unknown'). The one substantive descriptor, 'free jazz albu
+- `album:waltz-for-debby` [entity_mismatch, conf 0.9] Classic disambiguation-collision case (the known disease). The stored URL resolves to the 'Waltz for Debby' disambiguation page, and the prose is that page's te
+- `album:war-orphans` [unverifiable, conf 0.72] MB search match (sim 0.83) is the right album: War Orphans, Bobo Stenson Trio, ECM Records (ECM 1604). All 6 keyTracks present in the tracklist. Personnel claim
+- `album:way-out-west-sonny-rollins` [factual_error, conf 0.92] Entity confirmed (embedded MBID + matching Wikipedia). Wikipedia states the album is from 1957 and that 'When the album was reissued on CD in 1988 (and in subse
+- `album:wayne-shorter-juju-wayne-shorter` [no_evidence, conf 0.85] MB search returned no release and no candidates; wiki opensearch returned no page or candidates. No evidence document available. keyTracks null. Title is oddly 
+- `album:we-free-kings-rahsaan-roland-kirk` [no_evidence, conf 0.9] MB search returned no release and no candidates. Wiki opensearch resolved to 'We Three Kings (disambiguation)' — a different title (Christmas carol and unrelate
+- `album:we-insist-freedom-now-suite-max-roach` [no_evidence, conf 0.9] No MB release resolved (no search candidates) and no Wikipedia page. Cannot verify year (2011), the 6 keyTracks, or entity.
+- `album:weather-report` [entity_mismatch, conf 0.95] Classic title-search collision: both the prose and the stored wiki URL belong to the song 'Birdland' (Heavy Weather, 1977), not the 1971 debut album. MB embedde
+- `album:well-be-together-again` [unverifiable, conf 0.7] Stored wiki ('1976 studio album by Pat Martino') entity-matches and verifies: recorded 1976, first released on Muse, Martino on guitar. MB embedded_mbid (author
+- `album:well-to-the-bone` [unverifiable, conf 0.72] MB (embedded_mbid) confirms Scott Henderson, Shrapnel Records, 2002 (US) - ours.label/year match and all 5 keyTracks present; MB's track 10 'Rituals' supports t
+- `album:what-a-wonderful-world-louis-armstrong` [unverifiable, conf 0.7] MB (embedded_mbid) confirms entity: title 'What a Wonderful World' / Louis Armstrong, Platinum Music PLAT 304, secondaryType Compilation, all 6 keyTracks match.
+- `album:whats-new` [entity_mismatch, conf 0.95] Same-artist collision: albumDNA is the Wikipedia lead for The Bridge, and wikipediaUrl points at The Bridge (Sonny Rollins album) -- the wrong page for this ite
+- `album:when-was-that` [unverifiable, conf 0.5] Only weak MB evidence: a search candidate without a resolved release - 'When Was That?' by 'The Henry Threadgill Sextet', first released 1982, which is consiste
+- `album:who-are-you` [unverifiable, conf 0.72] MB embedded_mbid confirms title Who Are You?, artist Joel Ross, label Blue Note, date 2020-10-23; all five keyTracks match the MB tracklist (incl. Coltrane's 'A
+- `album:wild-cat-blues-clarence-williams` [no_evidence, conf 0.9] No MB release (search returned no candidates) and no Wikipedia page. Nothing to verify. ours.year null, keyTracks null. albumDNA is generic editorial template.
+- `album:winter-morning-walks` [unverifiable, conf 0.7] Embedded-MBID release confirms artist Maria Schneider, title, label ArtistShare (AS0121), 2013-03-01, and all five keyTracks. No wikipedia evidence (opensearch 
+- `album:witches-devils` [unverifiable, conf 0.7] Embedded MBID confirms the title history the prose describes: original Danish Debut release titled 'Spirits' (DEB 146, DK, 1964) inside release group 'Witches &
+- `album:witchi-tai-to` [factual_error, conf 0.7] MB returned candidates only (no confident release; candidate RG dated 1973 vs ours 1974 - weak, and the entity-matched wiki page supports 1974 release after the
+- `album:world-galaxy` [factual_error, conf 0.85] MB search match is strong (similarity 1.0, impulse! AS-9218, 1972, Alice Coltrane). Year/label verified. 'My Favorite Things' as opener verified (first MB track
+- `album:xxi-century` [entity_mismatch, conf 0.95] The catalog FIELDS are correct: MB (embedded) and the entity-matched Wikipedia artist page both confirm artist=Gonzalo Rubalcaba, title='XXI Century', label=5Pa
+- `album:zimology` [unverifiable, conf 0.8] MB search match (topArtistSimilarity 1.0) confirms the entity: artist Zim Ngqawana and all 6 keyTracks match the MB tracklist. But MB carries no date or label, 
+- `artist:abdullah-ibrahim` [factual_error, conf 0.85] Right entity; single minor error. Everything else checks: born 1934, South African pianist, Mannenberg as anti-apartheid anthem ('the theme tune of the anti-apa
+- `artist:ahmad-jamal` [unverifiable, conf 0.7] Right entity, no contradictions. Confirmed: 1930-2023, pianist, At the Pershing recorded 1958 at Pershing Hotel ('stayed on the Ten Best-selling charts for 108 
+- `artist:albert-ammons` [factual_error, conf 0.85] Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1907. Bio boilerplate. Curator note: evidence frames Ammons as a boogie-woogie
+- `artist:albert-ayler` [unverifiable, conf 0.7] Right entity, no contradictions. Confirmed: 1936-1970, tenor saxophone (switched from alto in the army), wide vibrato ('his wide vibrato was similar to that of 
+- `artist:alice-coltrane` [unverifiable, conf 0.65] Right entity, no contradictions. Confirmed: 1937-2007, pianist and harpist, own path after John's death July 17 1967, Swamini Turiyasangitananda, ashram foundin
+- `artist:andrew-hill` [unverifiable, conf 0.6] STORED LINK PROBLEM: https://en.wikipedia.org/wiki/Andrew_Hill resolves to a disambiguation page ('Topics referred to by the same term'), not the artist page; t
+- `artist:andy-bey` [factual_error, conf 0.95] Right entity. Other facts check: born Oct 28 1939, baritone voice ('four-octave baritone voice'), late-career HighNote recordings (2013, 2014). 'Recordings for 
+- `artist:anthony-braxton` [unverifiable, conf 0.7] Right entity, no contradictions. Confirmed: born 1945, key early AACM member, For Alto 1969 as 'the first full-length album of solo saxophone music', diagram-ba
+- `artist:arnold-schoenberg` [unverifiable, conf 0.7] Right entity, no contradictions. Confirmed nearly verbatim: 1874-1951, Austrian and American composer/music theorist/teacher, developing variation, the emancipa
+- `artist:art-blakey` [unverifiable, conf 0.7] Right entity, no contradictions. Confirmed: 1919-1990, drummer, Jazz Messengers led 35 years, 'incubator for young talent', alumni Wayne Shorter / Lee Morgan / 
+- `artist:art-ensemble` [unverifiable, conf 0.65] Right entity, no contradictions. Confirmed: grew out of the AACM, all five named members with matching instruments (Mitchell sax, Bowie trumpet, Favors bass, Ja
+- `artist:arthur-blythe` [unverifiable, conf 0.65] Right entity, no contradictions. Confirmed: 1940-2017, alto saxophonist, 'straddling the avant garde and traditionalist jazz', Columbia Records 1978-1987 (cover
+- `artist:artie-shaw` [factual_error, conf 0.85] Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1910. Bio boilerplate; 'Swing' tag fully consistent (led one of the most popul
+- `artist:baby-face-willette` [factual_error, conf 0.85] Right entity; the 'mysterious enigma' skeleton is the problem, not the identity. Confirmed: birth/death years 1933/1971 (note: evidence flags source variance - 
+- `artist:barney-kessel` [factual_error, conf 0.9] Entity match solid (American jazz guitarist 1923-2004). Template-stub bio; the Cool Jazz tag is unverified, not contradicted: evidence roots his style in swing 
+- `artist:benny-carter` [factual_error, conf 0.9] Entity match solid (American jazz musician 1907-2003; the painter candidate is a different person, discarded). Template-stub bio whose Swing tag is directly sup
+- `artist:bessie-smith` [factual_error, conf 0.85] Stub record: birthYear=0, deathYear=null, instruments=[] read as unfilled placeholders rather than asserted values; verdict anchors on birthYear=0 contradicting
+- `artist:betty-carter` [unverifiable, conf 0.8] Dates (1929-1998), vocals, and improvisation/scatting claims verified. Two substantive claims cannot be checked: 'She ran her own label for years' and 'mentored
+- `artist:bheki-mseleku` [factual_error, conf 0.92] Right entity (1955-2008, South African, pianist/saxophonist, self-taught, spiritual themes all match), but the album sentence conflates Celebration (World Circu
+- `artist:bill-evans` [unverifiable, conf 0.75] Core skeleton fully verified: 1929-1980, piano, Kind of Blue with Miles Davis (modal jazz), trio with Scott LaFaro and Paul Motian, LaFaro's death in a 1961 car
+- `artist:blue-notes` [unverifiable, conf 0.7] Right entity, prose fully consistent: mixed-race South African sextet under apartheid (McGregor the sole white member, police harassment), 1964 departure/exile,
+- `artist:bob-brookmeyer` [factual_error, conf 0.9] Entity match solid (American jazz valve trombonist 1929-2011). Template-stub bio; the Cool Jazz tag is consistent with but not stated by the evidence (Gerry Mul
+- `artist:bobbi-humphrey` [unverifiable, conf 0.7] Verified: born 1950, flute, first female instrumentalist signed by Blue Note (1971), Blacks and Blues with the Mizell Brothers, jazz/funk/soul blend. One substa
+- `artist:booker-ervin` [factual_error, conf 0.85] Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1930. Bio boilerplate; 'Hard Bop' tag neither confirmed nor contradicted by ev
+- `artist:branford-marsalis` [factual_error, conf 0.8] Bio prose is verbatim the Wikipedia lead and fully verified (Branford Marsalis Quartet, classical soloist work, Buckshot LeFonque, Tonight Show Band 1992-1995);
+- `artist:buster-smith` [unverifiable, conf 0.75] Verified: 1904-1991, Texas-born alto saxophonist and clarinetist, mentor to the young Charlie Parker, Kansas City-area scene via the Blue Devils, only leader al
+- `artist:cab-calloway` [factual_error, conf 0.85] Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1907. Bio boilerplate; 'Swing' tag fully consistent ('a popular vocalist of th
+- `artist:cal-tjader` [unverifiable, conf 0.7] Verified: 1925-1982, vibraphone plus drums/bongos/congas/timbales (percussion), Dave Brubeck Octet/Trio and George Shearing sideman, own Latin combos from 1954 
+- `artist:cecil-taylor` [unverifiable, conf 0.75] Core facts verified: 1929-2018, pianist, free jazz pioneer, 'Bela Bartok and Karlheinz Stockhausen notably influenced his music', technique 'compared to percuss
+- `artist:charles-mingus` [unverifiable, conf 0.75] Most claims verified: 1922-1979, upright bassist/composer/bandleader, 'major proponent of collective improvisation', Mingus Ah Um (1959) and The Black Saint and
+- `artist:charlie-haden` [unverifiable, conf 0.75] Verified: 1937-2014, 'original member of the ground-breaking Ornette Coleman Quartet', 'liberating bassists from a strictly accompanying role', Liberation Music
+- `artist:charlie-parker` [unverifiable, conf 0.75] Verified: 1920-1955 (died at 34), nicknamed 'Bird', leading figure in development of bebop, Kansas City jam-session origins, Gillespie association, growing drug
+- `artist:chet-baker` [unverifiable, conf 0.75] Verified: 1929-1988, trumpet and vocals, joined Gerry Mulligan Quartet in 1952 and attracted considerable attention, 'My Funny Valentine' hit associated with hi
+- `artist:chick-corea` [unverifiable, conf 0.75] Verified: 1941-2021, Miles Davis band late 1960s / birth of jazz fusion, Return to Forever with Hispanic/Latin styles, 'Spain', 'La Fiesta' and 'Windows' listed
+- `artist:chris-mcgregor` [unverifiable, conf 0.7] Verified: 1936-1990 South African jazz pianist/bandleader/composer, founded and led the Blue Notes, created Brotherhood of Breath in 1969 incorporating 'leading
+- `artist:chris-potter` [unverifiable, conf 0.8] Bio is verbatim from the Wikipedia lede and fully verified (born Jan 1, 1971; Red Rodney 1992-1993, Motian 1994-2009, Holland 1999-2007, Douglas 1998-2003). Sin
+- `artist:clarence-williams` [factual_error, conf 0.75] Opensearch resolved to a DISAMBIGUATION page (mostly American-football players plus the actor Clarence Williams III) — hence entityMatch unsure for the primary 
+- `artist:clifford-brown` [unverifiable, conf 0.75] Verified: 1930-1956, 'died at the age of 25 in a car crash, leaving behind four years' worth of recordings', Brown/Roach Quintet with classic albums (Clifford B
+- `artist:clifford-jordan` [factual_error, conf 0.9] Entity match solid (opensearch top hit, American jazz saxophonist 1931-1993). Bio is a one-line generic template with no entity-specific prose, so no entity-col
+- `artist:count-basie` [unverifiable, conf 0.8] Verified: 1904-1984, 'American jazz pianist, organist, bandleader, and composer' verbatim, 'led the group for almost 50 years', minimalist piano style, rhythm-s
+- `artist:darcy-james-argue` [unverifiable, conf 0.75] Verified: born 1975 in Vancouver (Canadian-born), moved to Brooklyn 2003 (Brooklyn-based), 18-piece Secret Society, Infernal Machines Grammy nomination for Best
+- `artist:dave-brubeck` [unverifiable, conf 0.8] Verified: 1920-2012, unusual time signatures, quartet with Paul Desmond, Time Out (1959) 'the first jazz album to sell over one million copies' featuring 'Take 
+- `artist:dave-holland` [unverifiable, conf 0.8] Stored URL resolves to a DISAMBIGUATION page ('Topics referred to by the same term'), not the bassist's article -- the site is shipping users a list that includ
+- `artist:david-murray` [no_evidence, conf 0.95] Stored wikipedia URL returned page: null — no evidence document available, nothing could be checked. All bio claims (birthYear 1955, 1970s loft-jazz scene, co-f
+- `artist:dexter-gordon` [unverifiable, conf 0.75] Right entity, no contradictions. Confirmed: dates 1923/1990 (February 27, 1923 – April 25, 1990), tenor saxophone, large sound and behind-the-beat phrasing ('ch
+- `artist:dizzy-gillespie` [factual_error, conf 0.7] Right entity; everything else checkable is confirmed: dates 1917/1993 (October 21, 1917 – January 6, 1993), trumpet virtuoso, bebop development with Charlie Par
+- `artist:donald-byrd` [unverifiable, conf 0.7] Right entity, no contradictions, almost everything confirmed: dates 1932/2013 (December 9, 1932 – February 4, 2013), hard bop to funk/soul transition, Herbie Ha
+- `artist:eddie-palmieri` [factual_error, conf 0.9] Right entity throughout. Stale living-status: ours has deathYear null and present-tense bio ('is a pianist'); evidence records death on August 6, 2025 — primary
+- `artist:ella-fitzgerald` [unverifiable, conf 0.75] Right entity; bio is the Wikipedia lede nearly verbatim EXCEPT ours inserts 'absolute pitch' into the attribute list — the current extract reads 'purity of tone
+- `artist:eric-dolphy` [unverifiable, conf 0.7] Right entity, no contradictions. Confirmed: dates 1928/1964 (June 20, 1928 – June 29, 1964; death at 36 consistent with those dates), alto sax / bass clarinet /
+- `artist:esperanza-spalding` [unverifiable, conf 0.7] Right entity, no contradictions. Confirmed: born October 18, 1984, bassist/singer/composer, Berklee instructor beginning at age 20, Best New Artist Grammy as he
+- `artist:ethel-waters` [factual_error, conf 0.85] Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1896 (page notes some sources incorrectly state 1900). Bio boilerplate; 'Early
+- `artist:fats-navarro` [factual_error, conf 0.85] Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1923. Bio boilerplate; 'Bebop' tag explicitly supported ('a pioneer of the beb
+- `artist:flora-purim` [factual_error, conf 0.75] Entity is right: born 1942, Brazilian jazz-fusion singer, Return to Forever and Airto Moreira work, and 'Butterfly Dreams' (1973 first US solo album) all confir
+- `artist:freddie-hubbard` [unverifiable, conf 0.7] Confirmed: 1938-2008, trumpet, hard bop; sideman on Out to Lunch!, Maiden Voyage, and Ascension; own album Ready for Freddie (Blue Note, 1961); 1970s commercial
+- `artist:gary-bartz` [unverifiable, conf 0.7] Confirmed: born 1940; joined Miles Davis's band mid-1970 (Isle of Wight, Cellar Door dates released on Live-Evil); formed Ntu Troop 'which combined jazz, funk, 
+- `artist:george-shearing` [factual_error, conf 0.9] Entity match solid (British jazz pianist 1919-2011). Template-stub bio; the Cool Jazz tag is unverified rather than wrong: evidence describes 'his harmonically 
+- `artist:geri-allen` [unverifiable, conf 0.7] Confirmed: 1957-2017, pianist; work with Ornette Coleman (two 1996 Sound Museum albums); own groups (Printmakers trio debut 1984); 'premature death' consistent 
+- `artist:glenn-miller` [factual_error, conf 0.85] Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1904. Note Miller went MIA December 15, 1944 and was declared dead a year and 
+- `artist:grachan-moncur` [factual_error, conf 0.95] Entity is right: born 1937, trombonist; Blue Note composing confirmed (contributed the bulk of compositions to Jackie McLean's One Step Beyond and Destination..
+- `artist:hank-mobley` [unverifiable, conf 0.65] Confirmed: 1930-1986, tenor saxophone; Leonard Feather's 'middleweight champion of the tenor saxophone' nickname; Jazz Messengers membership (founding era and 1
+- `artist:herbie-hancock` [unverifiable, conf 0.7] Confirmed: born 1940; joined Davis's Second Great Quintet May 1963 and left summer 1968 (matches '1963-68'); helped redefine the jazz rhythm section; dozens of 
+- `artist:hermeto-pascoal` [factual_error, conf 0.95] Entity is right: born 22 June 1936, Brazilian multi-instrumentalist; 'o Bruxo' nickname confirmed (evidence translates it 'the Sorcerer'; ours' 'The Wizard' is 
+- `artist:horace-silver` [unverifiable, conf 0.7] Confirmed: 1928-2014; hard bop pioneer with gospel/blues/R&B elements; co-founded the Jazz Messengers with Art Blakey; 'Song for My Father' (his most successful
+- `artist:icp-orchestra` [factual_error, conf 0.5] Entity match is good: the stored URL (Instant_Composers_Pool) covers both the label and the orchestra; Dutch improvised-music ensemble and the 1967 founding yea
+- `artist:james-blood-ulmer` [factual_error, conf 0.9] Right entity. Two field errors: birth year is 1940 per evidence, not 1942; and the page records his death on June 3, 2026 (ten days before today), so deathYear 
+- `artist:james-carter` [factual_error, conf 0.8] Right entity; bio is verbatim the Wikipedia lead and fully verified (born Jan 3, 1969; virtuosity on saxophones and woodwinds; cousin of Regina Carter). The ins
+- `artist:james-moody` [factual_error, conf 0.75] Opensearch resolved to a DISAMBIGUATION page ('Topics referred to by the same term'), not a biography — hence entityMatch unsure for the primary page. The candi
+- `artist:jazz-composers-orchestra` [factual_error, conf 0.8] Entity match solid (the Bley/Mantler ensemble; our name matches exactly). Template-stub bio; calling it 'one of the defining figures of Free Jazz' is editorial 
+- `artist:jazz-epistles` [factual_error, conf 0.5] Right entity. Low-confidence flag: if birthYear means formation year, the evidence says 'formed in the mid-1950s', contradicting 1959 -- but that evidence sente
+- `artist:jimmy-giuffre` [factual_error, conf 0.85] Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1921. Bio boilerplate; 'Cool Jazz' tag explicitly supported ('He was a central
+- `artist:jiro-inagaki` [no_evidence, conf 0.95] The stored Wikipedia URL returned no page (page: null), so nothing could be entity-matched or fact-checked: birthYear 1933, deathYear 2016, saxophone, Soul Medi
+- `artist:joe-harriott` [unverifiable, conf 0.75] Right entity; no contradictions. Verified: dates (15 July 1928 - 2 January 1973), Kingston, Jamaica birth, alto saxophone, free-form pioneer in Britain, albums 
+- `artist:joe-henderson` [unverifiable, conf 0.75] Right entity; no contradictions. Verified: dates (April 24, 1937 - June 30, 2001), tenor saxophone, 1960s Blue Note era as leader and sideman (nearly 30 albums,
+- `artist:john-coltrane` [unverifiable, conf 0.7] Right entity; no contradictions, but the extract truncates around 1957, leaving several substantive claims uncheckable: 'Giant Steps' and 'My Favorite Things' a
+- `artist:john-mclaughlin` [unverifiable, conf 0.7] Right entity; no contradictions. Verified: born 4 January 1942, guitarist, played on Miles Davis's In a Silent Way and Bitches Brew before forming the Mahavishn
+- `artist:johnny-dodds` [factual_error, conf 0.85] Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1892. Bio boilerplate; 'Early Jazz' tag fully consistent (King Oliver's Creole
+- `artist:johnny-hodges` [unverifiable, conf 0.8] Bio is verbatim from the Wikipedia lead and fully confirmed: b. July 25 1907, d. May 11 1970, alto sax with Ellington, refused soprano after 1940, Benny Carter 
+- `artist:kamasi-washington` [unverifiable, conf 0.8] Right entity, no contradictions. Confirmed: b. Feb 18 1981; raised in Los Angeles; sax on Kendrick Lamar's To Pimp a Butterfly and on Flying Lotus's You're Dead
+- `artist:keith-jarrett` [unverifiable, conf 0.8] Right entity, no contradictions. Confirmed: b. May 8 1945; The Koln Concert (1975) 'best-selling piano recording in history' (ours' wider 'best-selling solo jaz
+- `artist:kenny-drew` [factual_error, conf 0.85] Entity match: the resolved page is the elder Kenny Drew (1928-1993), which fits our Bebop tag — evidence has him in bands led by Charlie Parker and describes 'b
+- `artist:kenny-garrett` [unverifiable, conf 0.8] Bio is verbatim from the Wikipedia lead and fully confirmed: b. October 9 1960; Duke Ellington Orchestra (under Mercer Ellington, 1978); Miles Davis band; solo 
+- `artist:kid-ory` [factual_error, conf 0.85] Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1886. Bio boilerplate; 'Early Jazz' tag fully consistent (New Orleans jazz pio
+- `artist:latin-jazz-quintet` [no_evidence, conf 0.95] Opensearch returned no page and zero candidates — no evidence document at all, nothing checkable. Ours is the same one-line generic template (Cool Jazz tag) wit
+- `artist:lee-morgan` [unverifiable, conf 0.75] Right entity, no provable contradictions. Confirmed: b. July 10 1938, d. February 19 1972; 'joined Dizzy Gillespie's big band at 18' (verbatim); The Sidewinder 
+- `artist:leon-thomas` [no_evidence, conf 0.95] The stored URL (en.wikipedia.org/wiki/Leon_Thomas_(musician)) returned page: null -- no evidence document survived, nothing checkable. All claims pending verifi
+- `artist:lester-young` [factual_error, conf 0.85] Right entity; the bio itself is verbatim from the Wikipedia lead and fully confirmed (b. Aug 27 1909, d. March 15 1959, 'Pres'/'Prez', tenor saxophonist and occ
+- `artist:lionel-hampton` [factual_error, conf 0.85] Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1908. Bio boilerplate; 'Swing' tag fully consistent (Benny Goodman Quartet, ow
+- `artist:lonnie-liston-smith` [unverifiable, conf 0.7] Entity confirmed. birthYear 1940 (born December 28, 1940), piano/keyboards, formative work with Pharoah Sanders and Miles Davis, and forming the Cosmic Echoes a
+- `artist:lou-donaldson` [unverifiable, conf 0.6] Entity confirmed; 1926-2024 (November 1, 1926 - November 9, 2024), alto saxophone, Charlie Parker influence in his formative years, and 'Alligator Bogaloo' date
+- `artist:louis-armstrong` [unverifiable, conf 0.65] Entity confirmed; born New Orleans 1901, died 1971, trumpet/vocals, work with King Oliver and Fletcher Henderson, the shift from collective improvisation to sol
+- `artist:louis-jordan` [factual_error, conf 0.85] Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1908. Bio boilerplate; 'Swing' tag not contradicted ('earned his highest profi
+- `artist:louis-moholo-moholo` [factual_error, conf 0.95] Everything else verifies: born 1940 in Langa, Cape Town; founding member of the Blue Notes with Chris McGregor, Dyani, Moyake, Feza, Pukwana; emigrated 1964 and
+- `artist:ma-rainey` [factual_error, conf 0.85] Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1886. Page notes some sources give 1882 (1900 census); lead uses April 26, 188
+- `artist:mamie-smith` [factual_error, conf 0.85] Entity match solid (American vaudeville singer 1891-1946). Template-stub bio; the Early Jazz tag is supported in period and substance — 'she performed in multip
+- `artist:marcus-miller` [factual_error, conf 0.85] Bio prose is verbatim from the Wikipedia lead and fully verifies (worked with Miles Davis, Hancock, Vandross, Shorter, Sanborn; main songwriter/producer on Tutu
+- `artist:maria-schneider` [unverifiable, conf 0.7] Entity confirmed; born November 27, 1960; 'composer, conductor' fits the evidenced 'composer and jazz orchestra leader'; Concert in the Garden as her first Gram
+- `artist:mary-halvorson` [unverifiable, conf 0.7] Entity confirmed; born October 16, 1980; guitarist-composer; student of Anthony Braxton; 2019 MacArthur 'Genius' Grant - all verify. Unverifiable: Derek Bailey 
+- `artist:mary-lou-williams` [unverifiable, conf 0.7] Entity confirmed; 1910-1981; piano; 'wrote and arranged for Duke Ellington and Benny Goodman' and 'friend, mentor, and teacher to Thelonious Monk' verify verbat
+- `artist:masabumi-kikuchi` [unverifiable, conf 0.6] Entity confirmed; 1939-2015 (19 October 1939 - 6 July 2015); Japanese pianist; 'career spanning 50 years' roughly supported (professional from c. 1960 to 2015).
+- `artist:matana-roberts` [factual_error, conf 0.7] Entity confirmed; born 1975; alto saxophone (DownBeat Rising Star alto sax 2017) and composer verify; AACM membership verifies ('inheritor of the AACM tradition
+- `artist:max-roach` [unverifiable, conf 0.7] Entity confirmed; 1924-2007; drums; bebop pioneer; played on Parker's most important records (Savoy November 1945 session); 1954 quintet with Clifford Brown as 
+- `artist:mccoy-tyner` [unverifiable, conf 0.7] Entity confirmed; 1938-2020 (died March 6, 2020); piano; Coltrane quartet exactly 1960-65; harmonic foundation for A Love Supreme and My Favorite Things (both l
+- `artist:michael-brecker` [factual_error, conf 0.7] Bio prose is verbatim from the Wikipedia lead and fully verifies: 900+ albums, 15 Grammys, DownBeat Hall of Fame 2007, Berklee honorary doctorate 2004, died in 
+- `artist:miles-davis` [unverifiable, conf 0.7] Entity confirmed; 1926-1991; trumpet; nearly five-decade career at the forefront of bebop (Parker quintet 1944-48), cool jazz (Birth of the Cool sessions), earl
+- `artist:milt-jackson` [factual_error, conf 0.75] Bio prose is verbatim from the Wikipedia lead and verifies (Modern Jazz Quartet, hard bop/post-bop collaborations); 1923-1999 correct. The error is confined to 
+- `artist:modern-jazz-quartet` [factual_error, conf 0.6] Entity is an ensemble, not a person, so birthYear/deathYear semantics are unclear; confidence lowered accordingly. If the schema intends formation/disbandment, 
+- `artist:muhal-richard-abrams` [unverifiable, conf 0.75] Entity confirmed. birthYear 1930 / deathYear 2017 match (Sept 19, 1930 - Oct 29, 2017). 'Founding president of the AACM in 1965' matches evidence ('founding mem
+- `artist:nicole-mitchell` [unverifiable, conf 0.65] Entity confirmed; birthYear 1967 matches (Feb 17, 1967), living, flute/composer confirmed. Black Earth Ensemble and 'Mandorla Awakening II' (FPE, 2016) confirme
+- `artist:nina-simone` [unverifiable, conf 0.7] Entity confirmed; birthYear 1933 / deathYear 2003 match (Feb 21, 1933 - Apr 21, 2003); piano and vocals confirmed. 'High Priestess of Soul' verbatim in evidence
+- `artist:oliver-nelson` [factual_error, conf 0.85] Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1932. Bio boilerplate; 'Hard Bop' tag neither confirmed nor contradicted by ev
+- `artist:ornette-coleman` [factual_error, conf 0.85] Right entity throughout; birthYear 1930 / deathYear 2015 match (Mar 9, 1930 - Jun 11, 2015); alto sax/violin/trumpet all confirmed. Free Jazz (1960) giving the 
+- `artist:pat-martino` [factual_error, conf 0.65] Right entity; birthYear 1944 / deathYear 2021 match (Aug 25, 1944 - Nov 1, 2021); guitar confirmed. The 1980 surgery, total amnesia, and complete relearning of 
+- `artist:pat-metheny` [unverifiable, conf 0.7] Entity confirmed; birthYear 1954 matches (Aug 12, 1954), living, guitar confirmed. 'Bright Size Life' as debut at 21 checks out (debut album, recorded Dec 1975 
+- `artist:paul-desmond` [factual_error, conf 0.85] Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1924. Bio boilerplate; 'Cool Jazz' tag explicitly supported ('proponent of coo
+- `artist:pharoah-sanders` [unverifiable, conf 0.7] Entity confirmed; birthYear 1940 / deathYear 2022 match (Oct 13, 1940 - Sept 24, 2022); tenor saxophone confirmed (soprano not named but generic 'saxophonist' c
+- `artist:rahsaan-roland-kirk` [factual_error, conf 0.85] Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1935. Bio boilerplate; 'Hard Bop' tag explicitly supported ('His playing was g
+- `artist:ran-blake` [unverifiable, conf 0.65] Entity confirmed; birthYear 1935 matches (Apr 20, 1935), living per evidence, piano confirmed. Third Stream association strongly confirmed (co-founded the NEC T
+- `artist:red-garland` [factual_error, conf 0.85] Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1923. Bio boilerplate; 'Bebop' tag not contradicted (evidence calls him a 'mod
+- `artist:revolutionary-ensemble` [factual_error, conf 0.75] Right entity. Personnel fully confirmed verbatim (violinist Leroy Jenkins, bassist Sirone, drummer/percussionist Jerome Cooper); 'active primarily in the 1970s'
+- `artist:robert-glasper` [unverifiable, conf 0.65] Entity confirmed; birthYear 1978 matches (Apr 5, 1978), living, piano/keyboards confirmed. Church upbringing confirmed (mother music director at East Wind Bapti
+- `artist:ronnie-foster` [unverifiable, conf 0.7] Entity confirmed; birthYear 1950 matches (May 12, 1950), living, organ confirmed ('American funk and soul jazz organist'); Buffalo NY birthplace confirmed verba
+- `artist:roscoe-mitchell` [unverifiable, conf 0.75] Entity confirmed; birthYear 1940 matches (Aug 3, 1940), living. Co-founder of both AACM and Art Ensemble of Chicago confirmed verbatim; 'Sound' as 1966 first st
+- `artist:roy-ayers` [factual_error, conf 0.95] Right entity; birthYear 1940 and vibraphone confirmed. Ubiquity jazz-funk, 'Everybody Loves the Sunshine', 'Running Away', and heavy hip-hop sampling all confir
+- `artist:roy-haynes` [factual_error, conf 0.9] Entity match solid (American jazz drummer 1925-2024; the 'Roy Haynes (designer)' candidate is a different person and was discarded). Template-stub bio; the Hard
+- `artist:ryo-kawasaki` [factual_error, conf 0.95] Right entity. birthYear 1947, guitar, guitar-synthesizer pioneering (Roland and Korg collaboration, Kawasaki Synthesizer for the Commodore 64) and fusion-pionee
+- `artist:sadao-watanabe` [unverifiable, conf 0.55] The stored URL resolves to a DISAMBIGUATION page, not the musician's article -- users clicking the shipped link get a disambig listing a stencil artist (1913-19
+- `artist:sam-rivers` [unverifiable, conf 0.7] The stored URL resolves to a DISAMBIGUATION page (also lists the Limp Bizkit bassist, 1977-2025) -- link should target 'Sam Rivers (jazz musician)'. The disambi
+- `artist:shelly-manne` [factual_error, conf 0.85] Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1920. Bio boilerplate; 'Cool Jazz' tag consistent (quintessential West Coast j
+- `artist:shirley-scott` [unverifiable, conf 0.7] Right entity: 1934-2002, 'Queen of the Organ' nickname, organ + piano, soul jazz partnership and marriage with Stanley Turrentine all confirmed. One substantive
+- `artist:shorty-rogers` [factual_error, conf 0.85] Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1924. Bio boilerplate; 'Cool Jazz' tag consistent ('one of the principal creat
+- `artist:sonny-rollins` [factual_error, conf 0.9] Right entity; the death is very recent (2026-05-25, weeks before this audit), so the dataset is stale rather than corrupted. Everything else checks: born 1930, 
+- `artist:sons-of-kemet` [factual_error, conf 0.88] Right entity. Formed 2011 (short description 'British jazz band (2011–2022)'), Shabaka Hutchings on saxophone and clarinet, tuba (Marshall then Cross), two drum
+- `artist:sun-ra` [factual_error, conf 0.6] Right entity; this is a small-magnitude numeric inflation, not an entity problem -- suggested repair: 'nearly four decades'. Everything else confirmed: 1914-199
+- `artist:tadd-dameron` [factual_error, conf 0.85] Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1917. Bio boilerplate; 'Bebop' tag explicitly supported ('the most influential
+- `artist:terence-blanchard` [factual_error, conf 0.6] Right entity; likely sloppy phrasing for 'succeeding Wynton Marsalis' -- repair is a rewording. Everything else checks: born 1962, New Orleans, Spike Lee collab
+- `artist:thad-jones` [factual_error, conf 0.9] Entity match solid (American jazz trumpeter 1923-1986, brother of Hank and Elvin Jones). Template-stub bio; the Hard Bop tag is unverified, not contradicted: th
+- `artist:thelonious-monk` [unverifiable, conf 0.75] Entity confirmed: stored URL resolves to 'American jazz pianist and composer (1917-1982)'. Verified: birth/death years, piano/composer, angular melodies, disson
+- `artist:tito-puente` [factual_error, conf 0.85] Entity match solid — this is the right Tito Puente, so not an entity_mismatch; but the template bio's one substantive tag (Swing) conflicts with the evidence's 
+- `artist:tommy-dorsey` [factual_error, conf 0.85] Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1905. Bio boilerplate; 'Swing' tag fully consistent ('Sentimental Gentleman of
+- `artist:tommy-flanagan` [factual_error, conf 0.8] Opensearch resolved to a disambiguation page ('Thomas Flanagan'), which is not itself about our entity; entity match and all facts come from the 'Tommy Flanagan
+- `artist:tubby-hayes` [unverifiable, conf 0.7] Verified: 1935-1973, British, tenor saxophone + flute + vibraphone (all three confirmed in evidence), died at 38. Unverifiable: 'led his own band at 16' (eviden
+- `artist:wardell-gray` [factual_error, conf 0.85] Stub record with placeholder fields; verdict anchors on birthYear=0 vs documented 1921. Bio boilerplate; 'Bebop' tag consistent (hired for Benny Goodman's bebop
+- `artist:weather-report` [unverifiable, conf 0.65] Verified: active 1970-1986 (matches birthYear/deathYear), founded 1970, co-led by Zawinul and Shorter (both played on Davis's In a Silent Way / Bitches Brew, su
+- `artist:woody-herman` [factual_error, conf 0.9] Entity match solid (American jazz clarinetist/big-band leader 1913-1987). Template-stub bio whose Swing tag is supported by the evidence: big-band leader who 'c
+- `artist:world-saxophone-quartet` [factual_error, conf 0.85] Right entity: original membership (Julius Hemphill, Oliver Lake, David Murray, Hamiet Bluiett) confirmed exactly. 'Performing without a rhythm section' is consi
+- `artist:yuki-arimasa` [no_evidence, conf 0.9] The stored ja.wikipedia URL (titled with the Japanese name) returned no page (page: null) - the article may not exist or the title may be wrong, so the site may
+- `artist:zim-ngqawana` [unverifiable, conf 0.7] Verified: 1959-2011, South African saxophonist/flautist (+ composer per short description), 'Zimology' attested ('He was later known as Zimology'; album and ins
+
+## Repair worklist (Phase 3 buckets)
+
+- **entity_mismatch_albums**: 67
+- **prose_factual**: 134
+- **artist_stub_fields**: 57
+- **field_year**: 46
+- **field_label**: 35
+- **field_artist**: 13
+- **keytracks_mismatch**: 78
+- **wrong_wiki_link**: 104
+- **no_evidence**: 42
+- **unverifiable_prose**: 220

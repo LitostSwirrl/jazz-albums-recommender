@@ -1,0 +1,310 @@
+[
+  {
+    "id": "heartcore",
+    "verdict": "clean",
+    "confidence": 0.97,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title/artist(Kurt Rosenwinkel)/year(2003)/label(Verve Music Group). Wiki stored_url is the correct album page ('2003 studio album by Kurt Rosenwinkel'); albumDNA is verbatim from that extract (fifth album as leader, produced with Q-Tip). All 5 keyTracks on the MB tracklist."
+  },
+  {
+    "id": "in-what-language",
+    "verdict": "unverifiable",
+    "confidence": 0.85,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title/year(2003)/label(Pi Recordings); MB credits Vijay Iyer + Mike Ladd, matching the prose's 'collaborative... Iyer and Mike Ladd'. First two DNA sentences verbatim from the correct Wiki album page. All 5 keyTracks match MB tracklist. The awards sentence ('2013 MacArthur Fellowship, Doris Duke Performing Artist Award, United States Artists Fellowship, a Grammy nomination, and the Alpert Award') is about Iyer but appears nowhere in the entity-matched evidence -- unverifiable against this pack, not flaggable."
+  },
+  {
+    "id": "land-of-giants",
+    "verdict": "clean",
+    "confidence": 0.97,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title/artist(McCoy Tyner)/year(2003)/label(Telarc). Wiki stored_url is the correct album page; albumDNA is verbatim from the extract (recorded Dec 2002; Hutcherson/Moffett/Harland; the Matt Collar AllMusic quote). All 5 keyTracks on the MB tracklist."
+  },
+  {
+    "id": "masada-anniversary-edition-volume-1-masada-guitars",
+    "verdict": "clean",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title/artist(John Zorn)/year(2003)/label(Tzadik). All 5 keyTracks on the MB tracklist. Wiki stored_url is 'Masada (band)' -- the correct project page (Zorn's Masada), not the album-specific page; the first DNA sentence is verbatim from it and accurate. No factual contradictions."
+  },
+  {
+    "id": "songs-lullabies",
+    "verdict": "clean",
+    "confidence": 0.92,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title/year(2003)/label(Sunnyside); MB credits Fred Hersch + Norma Winstone, ours names only Hersch (omitting co-credit is legitimate editorial style). All 5 keyTracks match MB tracklist. Wiki stored_url is the Fred Hersch artist bio (right entity); the sentence 'first person to play weeklong engagements as a solo pianist at the Village Vanguard' is verbatim from it."
+  },
+  {
+    "id": "speak-no-evil-purim",
+    "verdict": "clean",
+    "confidence": 0.97,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title/artist(Flora Purim)/year(2003)/label(Narada Jazz). Wiki stored_url is the correct album page; albumDNA is verbatim from the extract (2003 album by Brazilian singer Flora Purim; tribute to Wayne Shorter's 1966 album). All 5 keyTracks on the MB tracklist."
+  },
+  {
+    "id": "standard-of-language",
+    "verdict": "clean",
+    "confidence": 0.97,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title/artist(Kenny Garrett)/year(2003)/label(Warner Bros. Records). Wiki stored_url is the correct album page; DNA's 'released on March 11, 2003, his eighth for Warner Bros.' is verbatim from the extract. All 5 keyTracks on the MB tracklist."
+  },
+  {
+    "id": "the-grand-unification-theory",
+    "verdict": "clean",
+    "confidence": 0.93,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title/artist(Stefon Harris)/year(2003)/label(Blue Note). Named tracks 'The Birth of Time' and 'The Velvet Couch' are on the MB tracklist; all 5 keyTracks match. Wiki stored_url is the Stefon Harris artist bio (right entity), which lists 'The Grand Unification Theory (Blue Note, 2003)' and notes it won the Martin E. Segal Award. Genre framing ('hard bop ... jazz-funk') is editorial."
+  },
+  {
+    "id": "bluebird",
+    "verdict": "clean",
+    "confidence": 0.88,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB method=search, topArtistSimilarity 1.0: release confirms title(Bluebird)/year(2004)/label(Telarc Jazz). MB credits Benny Green + Russell Malone; ours names only Russell Malone (naming one co-leader is legitimate editorial style). All 5 keyTracks match the MB tracklist. No wikipediaUrl stored; Wiki opensearch landed on the 'Bluebird (disambiguation)' page (unrelated) -- discarded for fact-checking. 'Cool jazz vein' is editorial."
+  },
+  {
+    "id": "concert-in-the-garden",
+    "verdict": "unverifiable",
+    "confidence": 0.7,
+    "entityMatch": {"musicbrainz": "unsure", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "mismatch",
+    "keyTracksUnmatched": ["Cerulean Skies", "Tres Palabras"],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB method=search, topArtistSimilarity 0.75; release 'Concert in the Garden' by 'Maria Schneider Orchestra' (2004, catalog 0001 = ArtistShare), title/year match. The MB tracklist carried in the pack lists only 5 tracks (Concert in the Garden; Three Romances Parts 1-3; Bulería, soleá y rumba); 'Concert in the Garden' and 'Bulería, Soleá y Rumba' match but 'Cerulean Skies' and 'Tres Palabras' are absent. That MB tracklist appears incomplete (search match, partial), so I treat the two unmatched keyTracks as unverifiable rather than a hard contradiction. The DNA's headline claims (Grammy win, 'first internet-only release to win a Grammy', fan-funded distribution) are not present in any pack evidence and cannot be verified. No wikipedia evidence (opensearch returned nothing)."
+  },
+  {
+    "id": "gwotet",
+    "verdict": "unverifiable",
+    "confidence": 0.85,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title(Gwotet)/year(2004)/label(Justin Time Records); MB credits David Murray + The GWO-KA Masters, matching the prose. All 5 keyTracks match the MB tracklist. No wikipediaUrl stored; Wiki opensearch wrongly resolved to 'Go Get It' (a 2012 Mary Mary gospel compilation) -- unrelated, discarded. The specific claims 'second album with the Gwo-Ka Masters following Yonn-De (2002)' and the Pharoah Sanders guest credit are not present in any pack evidence -- unverifiable."
+  },
+  {
+    "id": "heroes",
+    "verdict": "clean",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title(Heroes)/artist(Donald Harrison)/year(2004)/label(Nagel Heyer Records). All 5 keyTracks match the MB tracklist. Wiki stored_url is the Donald Harrison artist bio (right entity); the grafted DNA fragment 'is an American jazz saxophonist and the Big Chief of The Congo Square Nation Afro-New Orleans Cultural Group from New Orleans, Louisiana' is verbatim from it (missing subject is a copy-paste artifact, not a factual error). No contradictions."
+  },
+  {
+    "id": "pimp-master",
+    "verdict": "factual_error",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "no_evidence",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [
+      {"field": "year", "ours": "2004", "evidence": "2005", "evidenceQuote": "Pimp Master is the second studio album by pioneering jazz group Soil & \"Pimp\" Sessions, from Japan. It was released on June 23, 2005.", "source": "wiki"}
+    ],
+    "wrongClaims": [
+      {"ourClaim": "Tokyo's most explosive jazz collective delivers a riotous debut", "problem": "Wikipedia identifies Pimp Master as their SECOND studio album, not a debut", "evidenceQuote": "Pimp Master is the second studio album by pioneering jazz group Soil & \"Pimp\" Sessions, from Japan.", "source": "wiki"}
+    ],
+    "notes": "No MB evidence (method=search, release null, no candidates). Wiki stored_url entity-matches (the Pimp Master album by Soil & 'Pimp' Sessions). Two contradictions vs the Wiki extract: (1) year ours=2004 vs Wiki 'released on June 23, 2005'; (2) DNA calls it a 'debut' but Wiki says 'second studio album'. Label 'Victor' is consistent (Wiki credits list Victor executive producers). Wiki track listing section is empty and MB is null, so keyTracks cannot be checked -> no_evidence."
+  },
+  {
+    "id": "prototype",
+    "verdict": "clean",
+    "confidence": 0.96,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title/artist(Wallace Roney)/year(2004)/label(HighNote Records). Wiki stored_url is the correct album page; the DNA's first sentence is verbatim from the extract. All 5 keyTracks on the MB tracklist."
+  },
+  {
+    "id": "the-love-songs",
+    "verdict": "clean",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title(The Love Songs)/artist(Billie Holiday)/year(2004)/label(Deja Vu); a 40-track Holiday compilation. All 5 keyTracks match the MB tracklist. DNA is minimal and consistent ('swing album by Billie Holiday, released on Deja Vu in 2004'). No wikipediaUrl stored; Wiki opensearch resolved to a 'The Love Songs' disambiguation page (Andy Williams, Chris de Burgh, etc.) -- unrelated, discarded."
+  },
+  {
+    "id": "canvas",
+    "verdict": "clean",
+    "confidence": 0.97,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title(Canvas)/artist(Robert Glasper)/year(2005)/label(Blue Note). Wiki stored_url is the correct album page; the DNA is verbatim from the extract (Glasper's first major-label album). All 5 keyTracks match the MB tracklist (MB has 'Centerlude', matching ours; Wiki extract's 'Centelude' is a Wiki typo)."
+  },
+  {
+    "id": "channel-three",
+    "verdict": "clean",
+    "confidence": 0.93,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title(Channel Three)/artist(Greg Osby)/year(2005)/label(Blue Note). Named tracks 'Mob Job' and 'Viewer Discretion' are on the MB tracklist; all 5 keyTracks match. Wiki stored_url is the Greg Osby artist bio (right entity, alto saxophonist, Blue Note). 'Jazz fusion' framing is editorial."
+  },
+  {
+    "id": "concept-of-freedom",
+    "verdict": "factual_error",
+    "confidence": 0.78,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [
+      {"field": "artist", "ours": "Duke Ellington", "evidence": "Anthony Braxton, Duke Ellington", "evidenceQuote": "\"artists\": [\"Anthony Braxton\", \"Duke Ellington\"]", "source": "mb"}
+    ],
+    "wrongClaims": [
+      {"ourClaim": "Concept of Freedom presents pianist Duke Ellington working in a swing vein", "problem": "MB identifies the primary credited artist of this 2005 hatOLOGY release as Anthony Braxton (Duke Ellington is co-credited because the work overlays Ellington's Second Sacred Concert 'Freedom' material); framing it as a Duke Ellington swing-vein leader date misattributes the album. Duke Ellington died in 1974 and was not a 2005 recording leader.", "evidenceQuote": "\"artists\": [\"Anthony Braxton\", \"Duke Ellington\"]", "source": "mb"}
+    ],
+    "notes": "The release itself is correctly identified (title 'Concept of Freedom', label hatOLOGY, year 2005, and all 5 keyTracks -- the long 'Comp. No. 257 ... / Freedom No. 1, 4 & 6 From the Sacred Concert No. 2' titles -- match MB exactly), so this is factual_error rather than entity_mismatch. The error is the artist attribution/characterization: MB lists Anthony Braxton FIRST. The track titles use Braxton's composition-numbering system ('Comp. No. 257'); hatOLOGY is a Braxton label home. This is a 2005 avant-garde Braxton work, not a Duke Ellington swing/big-band date. The 'swing vein'/'big band' genre language is editorially uncheckable on its own (no genre field in evidence) but the leader attribution is the concrete, evidence-backed error. No wikipedia evidence (opensearch returned nothing)."
+  },
+  {
+    "id": "parish",
+    "verdict": "clean",
+    "confidence": 0.82,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title(Parish)/year(2005)/label(ECM Records; ours 'ECM' is the same label). Named tracks 'Improvisation I' and 'Suite for Trio I' are on the MB tracklist; all 5 keyTracks match. Wiki stored_url is the Bobo Stenson artist bio (right entity), and the DNA's Bobo Stenson Trio sentence (Anders Jormin, Jon Falt, 'over five decades') is verbatim from it. CAVEAT for repair: MB credits four co-equal artists with Thomas Stronen listed FIRST (Stronen/Stenson/Ljungkvist/Eilertsen), and the Stenson wiki files Parish under sideman/'With Thomas Stronen' -- so 'pianist Bobo Stenson's 2005 album' may overstate his leadership. No clear single-leader field is contradicted and Stenson is a genuine principal, so not flagged; also the verbatim Trio sentence describes a DIFFERENT lineup (Jormin/Falt) than plays on Parish, which is slightly misleading though literally true per wiki."
+  },
+  {
+    "id": "silver-rain",
+    "verdict": "clean",
+    "confidence": 0.97,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title(Silver Rain)/artist(Marcus Miller)/year(2005)/label(Dreyfus Jazz). Wiki stored_url resolves to the correct album page ('2005 studio album by Marcus Miller'); the DNA is verbatim from the extract (named after a Langston Hughes poem). All 5 keyTracks match the MB tracklist."
+  },
+  {
+    "id": "solo",
+    "verdict": "clean",
+    "confidence": 0.96,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title(Solo)/artist(Michel Camilo)/year(2005)/label(Telarc Jazz). Wiki stored_url is the correct album page; the DNA is verbatim from the extract ('recorded in 2004 and released by Telarc in 2005'). All 5 keyTracks match the MB tracklist."
+  },
+  {
+    "id": "soul-circus",
+    "verdict": "unverifiable",
+    "confidence": 0.85,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title(Soul Circus)/artist(Victor Wooten)/year(2005)/label(Vanguard). All 5 keyTracks match the MB tracklist. No wikipedia evidence (opensearch returned nothing). The specific claims 'fifth album by Victor Wooten' and 'inspiration from what played in radio stations in the 1970s' are not present in any pack evidence -- unverifiable, not flaggable."
+  },
+  {
+    "id": "times-in-new-orleans",
+    "verdict": "clean",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title(Times In New Orleans)/artist(Jon Batiste)/year(2005); MB carries no label, consistent with ours 'Unknown' (absence, not contradiction). Named tracks 'Misunderstood', 'Redbeans', 'Bowlegs' are on the MB tracklist; all 5 keyTracks match. Wiki stored_url is the Jon Batiste artist bio (right entity), which states 'At 17, Batiste released his debut album, Times in New Orleans' and the verbatim Late Show/Stay Human (2015-2022) sentence. No contradictions."
+  },
+  {
+    "id": "triotone",
+    "verdict": "clean",
+    "confidence": 0.91,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid confirms title(Triotone)/year(2005)/label(Leo Records); MB credits Anthony Braxton (first) + Gyorgy Szabados + Vladimir Tarasov, matching the prose's 'trio setting'. All 5 keyTracks (Triotone, Black Toots, Improvisation 1-3) are exactly the MB tracklist. Wiki stored_url is the 'Anthony Braxton discography' page (right artist); the visible extract is truncated and does not itself list Triotone, but it corroborates Braxton and the Leo label relationship. No contradictions."
+  },
+  {
+    "id": "all-that-is-tied",
+    "verdict": "unverifiable",
+    "confidence": 0.85,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB method=search, topArtistSimilarity 1.0: release confirms title(All That Is Tied)/artist(Ran Blake)/year(2006)/label(Tompkins Square). All 5 keyTracks match the MB tracklist. No wikipedia evidence (opensearch returned nothing). The DNA's specific claims -- 'recorded in 2005', 'mark the 40th anniversary of his first solo recording Ran Blake Plays Solo Piano', '70th birthday' -- are not present in any pack evidence and cannot be verified."
+  }
+]

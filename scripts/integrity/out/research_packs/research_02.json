@@ -1,0 +1,121 @@
+[
+  {
+    "id": "investigations",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "Investigations",
+      "artist": "Brad Mehldau",
+      "year": 1999,
+      "label": "Warner Bros. Records",
+      "albumDNA": "Brad Mehldau's Investigations, released on Warner Bros. Records in 1999, is a post-bop recording. The program includes \"The Very Thought of You\", \"Sehnsucht\", and \"Young at Heart\". Established Mehldau as the most important jazz pianist of his generation. His classical influences brought new depth to the piano trio.",
+      "keyTracks": [
+        "The Very Thought of You",
+        "Sehnsucht",
+        "Young at Heart"
+      ],
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "no-parking-tow-away-zone",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "No Parking Tow Away Zone",
+      "artist": "Kenny Garrett",
+      "year": 2014,
+      "label": "Unknown",
+      "albumDNA": "No Parking Tow Away Zone (2014) captures Kenny Garrett exploring jazz fusion territory. The date includes \"Old Folks\" and \"Wanderlust\". A jazz fusion entry from 2014 by Kenny Garrett, documenting the breadth of the contemporary period.",
+      "keyTracks": [
+        "Old Folks",
+        "Wanderlust",
+        "True Blue",
+        "Airegin",
+        "Signs and Wonders"
+      ],
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "tokyo-1981",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "Tokyo 1981",
+      "artist": "Woody Shaw",
+      "year": 2018,
+      "label": "Elemental Music",
+      "albumDNA": "Released on Elemental Music in 2018, Tokyo 1981 is a compelling hard bop statement by Woody Shaw. Highlights include 'Rosewood' and ''Round Midnight'.",
+      "keyTracks": [
+        "Rosewood",
+        "'Round Midnight",
+        "Apex",
+        "From Moment to Moment",
+        "Song of Songs"
+      ],
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "amaryllis-belladonna",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "Amaryllis / Belladonna",
+      "artist": "Mary Halvorson",
+      "year": 2022,
+      "label": "Nonesuch",
+      "albumDNA": "Guitarist Mary Halvorson's Nonesuch debut is a ravishing double album pairing her octet with string arrangements by Robert Moody. Her signature bent notes and fractured melodies are set against lush orchestral textures, creating a sound world both disorienting and deeply beautiful. Marked Halvorson's arrival as a major composer working at the intersection of jazz, rock, and contemporary classical music. The album earned a Pulitzer Prize finalist nomination and widespread critical acclaim.",
+      "keyTracks": [
+        "Amaryllis",
+        "Night Shift",
+        "Belladonna",
+        "The Gate"
+      ],
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "the-empress-of-the-blues-bessie-smith",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "The Empress of the Blues",
+      "artist": "Bessie Smith",
+      "year": null,
+      "label": "Various",
+      "albumDNA": "The Empress of the Blues stands among Bessie Smith's most celebrated works, capturing the essential spirit of Early Jazz. The Empress of the Blues remains a landmark of Early Jazz, cementing Bessie Smith's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": null,
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "father-of-stride-piano-james-p-johnson",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "Father of Stride Piano",
+      "artist": "James P. Johnson",
+      "year": null,
+      "label": "Various",
+      "albumDNA": "Father of Stride Piano stands among James P. Johnson's most celebrated works, capturing the essential spirit of Early Jazz. Father of Stride Piano remains a landmark of Early Jazz, cementing James P. Johnson's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": null,
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "new-orleans-joys-kid-ory",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "New Orleans Joys",
+      "artist": "Kid Ory",
+      "year": null,
+      "label": "Various",
+      "albumDNA": "New Orleans Joys stands among Kid Ory's most celebrated works, capturing the essential spirit of Early Jazz. New Orleans Joys remains a landmark of Early Jazz, cementing Kid Ory's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": null,
+      "wikipedia": null
+    }
+  }
+]

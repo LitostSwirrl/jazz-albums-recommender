@@ -1,0 +1,345 @@
+[
+  {
+    "id": "stompin-at-the-savoy-chick-webb",
+    "verdict": "clean",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB search match (similarity 1.0): Chick Webb, title and date 2002 agree with our year; release-group is a Compilation, so 'Recorded in 2002' is the compilation issue year not the original 1930s session date, but our year field is consistent with the matched release. All 6 keyTracks are the first 6 of the MB tracklist. Genre 'Swing' is editorial. Label shipped as placeholder 'Various' (MB: Fabulous)."
+  },
+  {
+    "id": "hi-de-ho-man-cab-calloway",
+    "verdict": "factual_error",
+    "confidence": 0.85,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [
+      {"field": "year", "ours": "2008", "evidence": "1974", "evidenceQuote": "\"date\": \"1974\"", "source": "mb"}
+    ],
+    "wrongClaims": [
+      {"ourClaim": "Recorded in 2008, Hi De Ho Man showcases Cab Calloway", "problem": "Our year 2008 contradicts the matched release date of 1974 (a Columbia compilation); no later 2008 release is shown in evidence", "evidenceQuote": "\"title\": \"Hi De Ho Man\", \"date\": \"1974\"", "source": "mb"}
+    ],
+    "notes": "Same entity (Cab Calloway, Hi De Ho Man, Columbia compilation). Year field is wrong: MB release and release-group both date 1974, ours says 2008. keyTracks all match the MB tracklist (ours 'Fifteen Minutes Itermission' is a typo for MB 'Fifteen Minutes Intermission'; 'Jumpin Jive' and 'A Chicken Ain't Nothing but a Bird' match). Label placeholder 'Various' (MB: Columbia)."
+  },
+  {
+    "id": "caldonia-louis-jordan",
+    "verdict": "clean",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid (authoritative): 'The Blues Collection: Louis Jordan, Caldonia', Louis Jordan, date 1993 = our year. Compilation; first 6 tracks of MB tracklist == our 6 keyTracks. The opensearch Wikipedia resolved to 'Cydonia (album)' by the Orb — a DIFFERENT entity (electronic duo) — discarded for fact-checking; not stored on the site so no wiki-link harm. Label placeholder 'Various' (MB: Orbis)."
+  },
+  {
+    "id": "getting-sentimental-tommy-dorsey",
+    "verdict": "clean",
+    "confidence": 0.85,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB search match (similarity 1.0): Tommy Dorsey compilation 'I'm Getting Sentimental Over You'. Our year is null so there is no recording-date claim to contradict. All 6 keyTracks appear in the MB tracklist (Keepin' Out of Mischief Now, Mr. Ghost Goes to Town, Who'll Buy My Violets?, That Foolish Feeling, Song of India, Marie). Title differs slightly ('Getting Sentimental' vs MB 'I'm Getting Sentimental Over You') but same release. Label placeholder 'Various' (MB: History)."
+  },
+  {
+    "id": "songs-for-distingue-lovers-billie-holiday",
+    "verdict": "clean",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid (authoritative): 'Songs for Distingué Lovers', Billie Holiday, Verve, release date 1983 = our year (release-group first date 1958; ours is the reissue year, matching the matched release). All 6 keyTracks match the MB tracklist exactly. Label placeholder 'Various' (MB: Verve)."
+  },
+  {
+    "id": "ella-swings-lightly-ella-fitzgerald",
+    "verdict": "clean",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid (authoritative): Ella Fitzgerald, Verve, release date 1992-11-17 = our year 1992 (release-group first date 1959; ours is the reissue year, consistent with the matched release). All 6 keyTracks match the MB tracklist. Label placeholder 'Various' (MB: Verve)."
+  },
+  {
+    "id": "ella-swings-brightly-with-nelson-ella-fitzgerald",
+    "verdict": "clean",
+    "confidence": 0.92,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid (authoritative): Ella Fitzgerald, Verve, both release date and release-group first date 1993-07-20 = our year. All 6 keyTracks match the MB tracklist exactly. Label placeholder 'Various' (MB: Verve)."
+  },
+  {
+    "id": "body-and-soul-coleman-hawkins",
+    "verdict": "factual_error",
+    "confidence": 0.8,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "mismatch",
+    "keyTracksUnmatched": [
+      "The Original Dixieland One-Step",
+      "Honeysuckle Rose",
+      "Crazy Rhythm",
+      "Sweet Georgia Brown",
+      "The Darktown Strutters Ball",
+      "My Melancholy Baby"
+    ],
+    "fieldIssues": [],
+    "wrongClaims": [
+      {"ourClaim": "keyTracks: The Original Dixieland One-Step, Honeysuckle Rose, Crazy Rhythm, Sweet Georgia Brown, The Darktown Strutters Ball, My Melancholy Baby", "problem": "None of the 6 listed keyTracks appear on either the MB 'Body and Soul' compilation tracklist or the Wikipedia 'Body and Soul (Coleman Hawkins album)' tracklist; they describe a different Hawkins release", "evidenceQuote": "Body and Soul, How Deep Is the Ocean, The Man I Love, My Ideal, Stumpy, Sweet Lorraine, Woody 'n You, Yesterdays ...", "source": "mb"}
+    ],
+    "notes": "Right artist and title (Coleman Hawkins, Body and Soul) — both MB (Dreyfus compilation) and Wikipedia entity-match. Our year is null so no date claim. But the 6 keyTracks (Crazy Rhythm, Honeysuckle Rose, Sweet Georgia Brown, Original Dixieland One-Step, Darktown Strutters Ball, My Melancholy Baby) match NEITHER evidence tracklist — these are from a different Hawkins compilation. keyTracks mismatch -> factual_error (capped at factual_error per spec). Label placeholder 'Various' (MB: Dreyfus Jazz)."
+  },
+  {
+    "id": "pres-and-teddy-lester-young",
+    "verdict": "clean",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB search match (similarity 1.0): 'Pres And Teddy And Oscar', Lester Young, Verve, date 1976 = our year (Compilation). All 6 keyTracks are the first 6 of the MB tracklist (All Of Me, Prisoner Of Love, Louise, Pres Returns, Love Me Or Leave Me, Taking A Chance On Love). Our title omits 'And Oscar' but same release. Label placeholder 'Various' (MB: Verve)."
+  },
+  {
+    "id": "soulville-ben-webster",
+    "verdict": "clean",
+    "confidence": 0.88,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid (authoritative): Soulville, credited 'The Ben Webster Quintet', Verve, release date 2003 = our year (release-group first date 1957-10-15; ours is the 2003 remaster issue year, matching the matched release). Wikipedia 'Soulville' (Ben Webster, 1957) entity-matches and confirms the same tracklist. All 6 keyTracks match the MB tracklist. The 'Recorded in 2003' wording is template boilerplate over the reissue year, not flagged as a separate recording-date claim. Label placeholder 'Various' (MB: Verve)."
+  },
+  {
+    "id": "tatum-group-masterpieces-vol-1-art-tatum",
+    "verdict": "no_evidence",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "no_evidence",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "No MB release resolved (search returned no candidates) and no Wikipedia page. Nothing to verify the year (2006), the 6 keyTracks, or entity. Cannot confirm or refute."
+  },
+  {
+    "id": "django-and-his-american-friends-django-reinhardt",
+    "verdict": "factual_error",
+    "confidence": 0.72,
+    "entityMatch": {"musicbrainz": "unsure", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "mismatch",
+    "keyTracksUnmatched": [
+      "Avalon",
+      "What A Difference A Day Made",
+      "Stardust",
+      "Rosetta",
+      "Stardust",
+      "The Object Of My Affection"
+    ],
+    "fieldIssues": [],
+    "wrongClaims": [
+      {"ourClaim": "keyTracks: Avalon, What A Difference A Day Made, Stardust, Rosetta, Stardust, The Object Of My Affection", "problem": "None of these tracks appear on the matched MB release 'Django And His American Friends, Vol. 2'; ours appears to be a different volume", "evidenceQuote": "Eddie's Blues, Sweet Georgia Brown, I Ain't Got Nobody, Baby Won't You Please Come Home, Big Boy Blues ...", "source": "mb"}
+    ],
+    "notes": "MB search matched 'Django And His American Friends, Vol. 2' (Django Reinhardt, date 1965 = our year), but our title omits 'Vol. 2' and none of our 6 keyTracks are on that Vol. 2 tracklist — ours looks like Vol. 1 of the series. Right artist/series, likely wrong volume matched -> entity unsure, keyTracks mismatch -> factual_error. Note our keyTracks list 'Stardust' twice (duplicate). Label placeholder 'Various' (MB: His Master's Voice)."
+  },
+  {
+    "id": "mary-lou-williams-presents-black-christ-of-the-andes-mary-lou-williams",
+    "verdict": "no_evidence",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "n/a",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "No MB release resolved and no Wikipedia page. Year null and keyTracks null, so the only content is editorial boilerplate. Nothing verifiable."
+  },
+  {
+    "id": "the-art-of-the-trio-vol-4-nat-king-cole",
+    "verdict": "no_evidence",
+    "confidence": 0.85,
+    "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "n/a",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "No MB release resolved and no Wikipedia page. Year null, keyTracks null. Cannot verify. (Background flag, not citable here: 'The Art of the Trio Vol. 4' is the title of a Brad Mehldau series, so the Nat King Cole attribution is suspect — but the pack supplies no evidence, so this stays unverified rather than a correction.)"
+  },
+  {
+    "id": "charlie-parker-with-strings-charlie-parker",
+    "verdict": "clean",
+    "confidence": 0.92,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB search match (similarity 1.0): 'Charlie Parker With Strings', Charlie Parker, Clef Records EP, date 1952 = our year. All 4 keyTracks match the MB tracklist exactly (You Came Along From Out of Nowhere, They Can't Take That Away From Me, I'm in the Mood for the Love, East of the Sun). Genre 'Bebop' editorial. Label placeholder 'Various' (MB: Clef Records)."
+  },
+  {
+    "id": "nows-the-time-charlie-parker",
+    "verdict": "factual_error",
+    "confidence": 0.85,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "mismatch",
+    "keyTracksUnmatched": [
+      "A Night in Tunisia",
+      "Ornithology",
+      "Parker's Mood",
+      "Relaxin' at Camarillo",
+      "Bird of Paradise"
+    ],
+    "fieldIssues": [],
+    "wrongClaims": [
+      {"ourClaim": "keyTracks: A Night in Tunisia, Ornithology, Parker's Mood, Now's the Time, Relaxin' at Camarillo, Bird of Paradise", "problem": "Only 'Now's the Time' is on the matched (embedded, authoritative) 2020 release; the other 5 keyTracks are absent from its tracklist — ours describes a different Charlie Parker 'Now's the Time' compilation", "evidenceQuote": "The Song Is You, Laird Baird, Kim, Cosmic Rays, Chi Chi, I Remember You, Now's The Time, Confirmation ...", "source": "mb"}
+    ],
+    "notes": "MB embedded_mbid (authoritative): Charlie Parker, 'Now's The Time', date 2020 = our year. Right entity (artist), but 5 of 6 keyTracks are not on this release's tracklist (only 'Now's the Time' matches) -> keyTracks mismatch -> factual_error. The opensearch Wikipedia resolved to 'Now's the Time (composition)' — a song, not the album — discarded; not stored so no link harm. Label placeholder 'Various' (MB: Bird's Nest)."
+  },
+  {
+    "id": "afro-dizzy-gillespie",
+    "verdict": "factual_error",
+    "confidence": 0.8,
+    "entityMatch": {"musicbrainz": "no", "wikipedia": "yes"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [
+      {"field": "year", "ours": "2022", "evidence": "1954", "evidenceQuote": "1954 studio album by Dizzy Gillespie", "source": "wiki"}
+    ],
+    "wrongClaims": [
+      {"ourClaim": "Recorded in 2022, Afro showcases Dizzy Gillespie", "problem": "Wikipedia (entity-matched) dates the album 1954, released November 1954; our year 2022 has no support in evidence", "evidenceQuote": "Afro is a studio album by the jazz trumpeter Dizzy Gillespie. It was released in November 1954 through Norgran Records.", "source": "wiki"}
+    ],
+    "notes": "The MB search 'release' resolved to a DIFFERENT release — 'Afro-Paris / I Cover the Waterfront', a 1953 2-track single — not our album; discarded (entityMatch mb=no). The opensearch Wikipedia 'Afro (album)' clearly IS our entity: Dizzy Gillespie, and all 6 keyTracks match its tracklist (Manteca Theme, Contraste, Jungla, Rhumba Finale, A Night in Tunisia, Con Alma) -> keyTracksVerdict ok via wiki. Year 2022 contradicts Wikipedia's 1954 -> factual_error. Label placeholder 'Various' (Wikipedia: Norgran)."
+  },
+  {
+    "id": "genius-of-modern-music-vol-1-thelonious-monk",
+    "verdict": "no_evidence",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "no_evidence",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "No MB release resolved (no search candidates) and no Wikipedia page. Cannot verify year (2013), the 6 keyTracks, or entity."
+  },
+  {
+    "id": "the-amazing-bud-powell-vol-2-bud-powell",
+    "verdict": "no_evidence",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "n/a",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "No MB release resolved and no Wikipedia page. Year null, keyTracks null. Nothing verifiable."
+  },
+  {
+    "id": "afro-cuban-kenny-dorham",
+    "verdict": "clean",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB embedded_mbid (authoritative): Afro-Cuban, Kenny Dorham, Blue Note, release date 2007 = our year (release-group first date 1955; ours is the 2007 RVG reissue year, matching the matched release). Wikipedia 'Afro-Cuban (album)' (Kenny Dorham, 1955) entity-matches. All 6 keyTracks match the MB tracklist exactly (Afrodisia, Lotus Flower, Minor's Holiday, Basheer's Dream, K.D.'s Motion, La Villa). Label placeholder 'Various' (MB: Blue Note)."
+  },
+  {
+    "id": "una-mas-kenny-dorham",
+    "verdict": "clean",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB search match (similarity 1.0): 'Una más (One More Time)', Kenny Dorham, Blue Note, date 1964-01. Our year is null so no date claim. All 3 keyTracks match the MB tracklist (Una más (One More Time), Straight Ahead, São Paulo == MB 'Sao Paulo'). Label placeholder 'Various' (MB: Blue Note)."
+  },
+  {
+    "id": "fontainebleau-tadd-dameron",
+    "verdict": "factual_error",
+    "confidence": 0.7,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [
+      {"field": "year", "ours": "1996", "evidence": "1956 (recorded March 9, 1956); MB release date 1987", "evidenceQuote": "Recorded March 9, 1956, at Van Gelder Studio, Hackensack, New Jersey.", "source": "wiki"}
+    ],
+    "wrongClaims": [
+      {"ourClaim": "Recorded in 1996, Fontainebleau showcases Tadd Dameron", "problem": "Wikipedia (entity-matched) states the album is from 1956, recorded March 9, 1956; the matched MB release dates 1987. Our year 1996 matches neither and is unsupported by any evidence document", "evidenceQuote": "Fontainebleau is a 1956 album by jazz musician Tadd Dameron.", "source": "wiki"}
+    ],
+    "notes": "Right entity: MB search match and Wikipedia 'Fontainebleau (album)' both Tadd Dameron, and all 5 keyTracks match exactly (Fontainebleau, Delirium, The Scene Is Clean, Flossie Lou, Bula-Beige). Year is the issue: ours 1996 vs MB release 1987 vs Wikipedia original 1956/recorded 1956 — 1996 is supported by nothing here. Flagged factual_error on year; a 1996 CD reissue is conceivable but no evidence shows it, hence moderate confidence. Label placeholder 'Various' (MB: Original Jazz Classics / Prestige)."
+  },
+  {
+    "id": "concert-by-the-sea-erroll-garner",
+    "verdict": "unverifiable",
+    "confidence": 0.65,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "mismatch",
+    "keyTracksUnmatched": [
+      "Teach Me Tonight",
+      "Mambo Carmel",
+      "It's All Right With Me",
+      "Red Top"
+    ],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB search match (similarity 1.0) is an EP edition of 'Concert by the Sea' (Erroll Garner, secondaryType Live) with only 3 tracks (Where or When, I'll Remember April, Autumn Leaves). 2 of our keyTracks (I'll Remember April, Autumn Leaves) are on it; the other 4 are simply absent from this 3-track excerpt — absence is not contradiction, so no factual_error, but keyTracksVerdict marked mismatch against the only available tracklist. MB release date is empty, so our year 2008 cannot be checked. Right album/artist but claims not verifiable -> unverifiable. Label placeholder 'Various' (MB: Philips)."
+  },
+  {
+    "id": "we-insist-freedom-now-suite-max-roach",
+    "verdict": "no_evidence",
+    "confidence": 0.9,
+    "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "no_evidence",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "No MB release resolved (no search candidates) and no Wikipedia page. Cannot verify year (2011), the 6 keyTracks, or entity."
+  },
+  {
+    "id": "clifford-brown-and-max-roach-clifford-brown",
+    "verdict": "unverifiable",
+    "confidence": 0.6,
+    "entityMatch": {"musicbrainz": "unsure", "wikipedia": "n/a"},
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "no_evidence",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "No confident MB release (release=null); searchCandidates include an exact title+artist match 'Clifford Brown and Max Roach' (score 100, Clifford Brown & Max Roach, 1955) — weak evidence per spec, plausibly our entity (entityMatch unsure). No tracklist in candidates, so the 6 keyTracks cannot be checked (keyTracksVerdict no_evidence). Our year 1977 vs candidate 1955: a 1977 reissue is plausible and cannot be confirmed or refuted from weak search evidence, so not flagged. Label placeholder 'Various'."
+  }
+]

@@ -1,0 +1,311 @@
+[
+ {
+  "id": "abbey-lincoln",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Birth/death years (Aug 6 1930 - Aug 14 2010), vocals, We Insist! with Max Roach ('she sang on Max Roach's landmark civil rights-themed recording We Insist!'), civil-rights activism, and highly regarded late-career Verve albums ('a crowning achievement in Lincoln's career') all confirmed. 'Glamorous supper club singer' framing is editorial; early professional club singing in LA/Honolulu and the Marilyn Monroe-dress film appearance support it."
+ },
+ {
+  "id": "abdullah-ibrahim",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Abdullah Ibrahim (born Dollar Brand)", "problem": "Dollar Brand was his earlier stage name, not his birth name; he was born Adolph Johannes Brand", "evidenceQuote": "Abdullah Ibrahim (born Adolph Johannes Brand on 9 October 1934), previously known as Dollar Brand", "source": "wiki"}
+  ],
+  "notes": "Right entity; single minor error. Everything else checks: born 1934, South African pianist, Mannenberg as anti-apartheid anthem ('the theme tune of the anti-apartheid movement'), Cape Town multicultural influences. Simple repair: 'formerly known as Dollar Brand'."
+ },
+ {
+  "id": "abraham-burton",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim from the Wikipedia lead/biography: born March 17, 1971 in New York City, raised in Greenwich Village, Hartt School 1989-1993. Saxophone and living status confirmed."
+ },
+ {
+  "id": "ahmad-jamal",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Right entity, no contradictions. Confirmed: 1930-2023, pianist, At the Pershing recorded 1958 at Pershing Hotel ('stayed on the Ten Best-selling charts for 108 weeks' supports best-seller claim), Poinciana on that album, influence on Miles Davis ('especially through its influence on Miles Davis... a seminal force'), minimalist style ('unusually minimalist and restrained style'). Unverifiable: the direct quote attributed to Jamal ('what you leave out is as important as what you put in') is not in evidence; 'Poinciana a jukebox hit' not in evidence; 'recording and performing into his 90s' not checkable (extract truncates in the 1970s; dates do confirm he lived to 92)."
+ },
+ {
+  "id": "al-di-meola",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim from the Wikipedia lead: Return to Forever 1974, solo career from 1976, Elegant Gypsy, Friday Night in San Francisco, World Sinfonia trilogy. Born July 22, 1954; guitar; living status confirmed."
+ },
+ {
+  "id": "albert-ayler",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Right entity, no contradictions. Confirmed: 1936-1970, tenor saxophone (switched from alto in the army), wide vibrato ('his wide vibrato was similar to that of gospel saxophonists'), Spiritual Unity and Ghosts both in evidence, march-like themes, Coltrane connection (signed to Impulse 'at the urging of Coltrane'). Unverifiable: the direct quote 'the father' attributed to John Coltrane is not in evidence; 'mysterious death in New York's East River' cannot be checked (extract truncates before his death; shortDescription confirms 1970 only). Punk/noise influence is editorial."
+ },
+ {
+  "id": "alexander-von-schlippenbach",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Confirmed: born 7 April 1938, German jazz pianist and composer, founded the Globe Unity Orchestra at 28 (consistent with 'In 1966'), long-running trio with Evan Parker and Paul Lovens. 'A format inspired by both Duke Ellington and total freedom' and 'one of the longest-running groups in improvised music' are editorial characterizations not contradicted by evidence (trio discography spans 1960s-2010s)."
+ },
+ {
+  "id": "alice-coltrane",
+  "verdict": "unverifiable",
+  "confidence": 0.65,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Right entity, no contradictions. Confirmed: 1937-2007, pianist and harpist, own path after John's death July 17 1967, Swamini Turiyasangitananda, ashram founding (Vedantic Center 1975, Shanti Anantam 1983), Hindu devotional albums, return to jazz before death (Translinear Light 2004). Unverifiable: album titles 'Journey in Satchidananda' and 'Ptah, the El Daoud' are not in the extract (it names A Monastic Trio, Universal Consciousness, World Galaxy); 'taking over his band' is not stated; 'introduced the harp as a jazz instrument' outruns the evidence, which says only 'one of the few harpists in the history of jazz'."
+ },
+ {
+  "id": "allan-holdsworth",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim from the Wikipedia lead, including the full band list (Soft Machine, U.K., The Tony Williams Lifetime, Pierre Moerlen's Gong, Bruford, Level 42, Planet X). Born 6 August 1946, died 15 April 2017; guitarist, violinist and composer confirmed."
+ },
+ {
+  "id": "ambrose-akinmusire",
+  "verdict": "clean",
+  "confidence": 0.88,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Confirmed: born 1982, trumpeter/composer, Blue Note artist (debut 2011), On the Tender Spot of Every Calloused Moment exists (2020, Grammy-nominated). Hip-hop connection supported by the To Pimp a Butterfly feature. 'Blending the tradition of Miles Davis and Freddie Hubbard with hip-hop, spoken word, and contemporary classical' and the album's racial-justice themes are editorial characterizations, not contradicted."
+ },
+ {
+  "id": "amm",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Confirmed: founded 1965 in London; initial lineup Keith Rowe (guitar), Lou Gare (saxophone), Eddie Prevost (drums); avoidance of conventional melody/harmony/rhythm; influential in improvised music. birthYear 1965 = founding year (group entity). 'Radical politics' partially supported (Cardew and Rowe committed to socialism/Maoism); 'abstract expressionism' influence and post-punk/lowercase influence are editorial, not in evidence. Ours says 'electroacoustic improvisation group' where wiki says 'free improvisation group' - consistent given documented amplification/contact-mic practice, not a contradiction."
+ },
+ {
+  "id": "andrew-hill",
+  "verdict": "unverifiable",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "STORED LINK PROBLEM: https://en.wikipedia.org/wiki/Andrew_Hill resolves to a disambiguation page ('Topics referred to by the same term'), not the artist page; the site is shipping a link that strands users on a disambiguation list. Correct target is 'Andrew Hill (jazz musician)'. The disambiguation line 'Andrew Hill (jazz musician) (1931-2007), American jazz pianist and composer' confirms our birthYear, deathYear, and instruments, so our prose appears to describe the right entity - but its substantive claims (1960s Blue Note albums, 'Point of Departure', academic years, 2000s comeback) cannot be checked against this page. Re-fetch evidence from the jazz-musician page before repair."
+ },
+ {
+  "id": "andy-bey",
+  "verdict": "factual_error",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "deathYear", "ours": null, "evidence": "2025", "evidenceQuote": "Andrew Wideman Bey Jr. (October 28, 1939 - April 26, 2025) was an American jazz singer and pianist.", "source": "wiki"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Andy Bey is a vocalist and pianist possessing one of the deepest, most resonant baritone voices in jazz", "problem": "Present tense / living status: he died April 26, 2025 in Englewood, New Jersey per evidence; the dataset ships deathYear null and a present-tense bio", "evidenceQuote": "He died in Englewood, New Jersey on April 26, 2025, at the age of 85.", "source": "wiki"}
+  ],
+  "notes": "Right entity. Other facts check: born Oct 28 1939, baritone voice ('four-octave baritone voice'), late-career HighNote recordings (2013, 2014). 'Recordings for Savant' is not in the evidence discography (no Savant titles listed; American Song was Savoy Jazz) - possibly a Savoy/Savant mix-up; unverified, not contradicted. Repair: set deathYear 2025 and shift bio to past tense; double-check the Savant claim."
+ },
+ {
+  "id": "anthony-braxton",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Right entity, no contradictions. Confirmed: born 1945, key early AACM member, For Alto 1969 as 'the first full-length album of solo saxophone music', diagram-based compositional titles, operas (Trillium series), saxophonist/composer. Unverifiable: 'works for 100 orchestras' - evidence shows only 'compositions for four orchestras'; possibly a garbled magnitude, but absence is not contradiction, so flagging for review rather than as error. Instruments 'clarinet' and 'flute' not named in extract (he is described as a multi-instrumentalist who 'played over ten instruments')."
+ },
+ {
+  "id": "archie-shepp",
+  "verdict": "clean",
+  "confidence": 0.88,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Confirmed: born May 24 1937, living, central avant-garde figure, political/Afrocentric work (Fire Music with its Malcolm X elegy, Attica Blues as response to the Attica riots), links to tradition and R&B ('recording blues, ballads, spirituals... tributes to... Charlie Parker and Sidney Bechet, while at other times dabbling in R&B'). Evidence calls him 'saxophonist' without specifying tenor/soprano - minor, not contradicted. Sound descriptions are editorial."
+ },
+ {
+  "id": "arnold-schoenberg",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Right entity, no contradictions. Confirmed nearly verbatim: 1874-1951, Austrian and American composer/music theorist/teacher, developing variation, the emancipation of the dissonance, motivic processes ('row-derived intervallic motives (or cells)'). Unverifiable: the 'writer' descriptor and the quoted concept 'unity of musical space' do not appear in the extract (bio likely lifted from an older Wikipedia lead where both appeared). 'Avant-garde' vs evidence's 'modernist' is characterization, not contradiction. A classical composer in the jazz artists dataset - presumably an intentional context entry."
+ },
+ {
+  "id": "art-blakey",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Right entity, no contradictions. Confirmed: 1919-1990, drummer, Jazz Messengers led 35 years, 'incubator for young talent', alumni Wayne Shorter / Lee Morgan / Freddie Hubbard / Wynton Marsalis all in the evidence list, 'archetypal hard bop group', active until death. Unverifiable: Branford Marsalis as an alumnus (not in the evidence's explicitly non-exhaustive 'including...' list) and the 'signature press roll' detail. Both plausible; flag is a verification gap, not suspicion of corruption."
+ },
+ {
+  "id": "art-ensemble",
+  "verdict": "unverifiable",
+  "confidence": 0.65,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Right entity, no contradictions. Confirmed: grew out of the AACM, all five named members with matching instruments (Mitchell sax, Bowie trumpet, Favors bass, Jarman sax, Moye drums/percussion from 1970), theatrical practice (costumes, face paint), breadth of styles. Unverifiable: the motto 'Great Black Music: Ancient to the Future' is only partially supported - evidence has a 1982 documentary titled 'Great Black Music - The Art Ensemble of Chicago' but the 'Ancient to the Future' half appears nowhere. birthYear 1967 is a defensible founding convention (Jarman joined in 1967; the 'Art Ensemble of Chicago' name itself dates from France 1969) - not contradicted, worth a reviewer's eye."
+ },
+ {
+  "id": "art-pepper",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim from the Wikipedia lead: alto saxophonist, occasional tenor/clarinet/bass clarinet, West Coast jazz, prominence in Stan Kenton's big band. Born September 1 1925, died June 15 1982 confirmed."
+ },
+ {
+  "id": "art-tatum",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim from the Wikipedia lead: widely regarded as one of the greatest jazz pianists, extraordinary technique, stride roots, reharmonization/voicing/bitonality. Born October 13 1909, died November 5 1956 confirmed. (The known 'In Private' corruption case concerned a Tatum album entry, not this artist bio - this bio is sound.)"
+ },
+ {
+  "id": "arthur-blythe",
+  "verdict": "unverifiable",
+  "confidence": 0.65,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Right entity, no contradictions. Confirmed: 1940-2017, alto saxophonist, 'straddling the avant garde and traditionalist jazz', Columbia Records 1978-1987 (covers 'early 1980s Columbia recordings'), moved to New York mid-1970s. Unverifiable: nickname 'Black Arthur' (evidence gives full name Arthur Murray Blythe, no nickname); album titles 'Lenox Avenue Breakdown' and 'Illusions' (extract names The Grip and Metamorphosis instead); 'key figure in New York's loft jazz scene' (loft scene never mentioned)."
+ },
+ {
+  "id": "arturo-sandoval",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is the Wikipedia lead nearly verbatim: born 1949, influences Parker/Brown/Gillespie, met Gillespie 1977, defection during United Nations Orchestra tour, citizenship 1998, For Love or Country (2000) with Andy Garcia. One typo, not counted as factual error: ours reads 'United Nation Orchestra' where evidence reads 'United Nations Orchestra' - recommend cosmetic fix."
+ },
+ {
+  "id": "arve-henriksen",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim from Wikipedia: born 22 March 1968 in Stranda Municipality, Trondheim Musikkonservatorium jazz program, band history (Bodega Band, Luft, Veslefrekk, Close Enough, Nutrio, Trio Midt-Norge, Piggy Bop) all confirmed. Trumpet confirmed; 'vocals' supported by 'He also sings; his unique wordless vocalising was central to Chiaroscuro'."
+ },
+ {
+  "id": "baby-face-willette",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "recorded only two albums for Blue Note before vanishing from the jazz scene entirely", "problem": "He did not vanish after the Blue Note dates: he formed a Chicago trio in 1963, recorded two further leader albums for Argo (1964-65), and kept playing Chicago clubs until failing health", "evidenceQuote": "After his release, he returned to Chicago and formed his own trio in 1963.  He recorded two more albums for Argo.", "source": "wiki"},
+   {"ourClaim": "Little is known about his life before or after these sessions", "problem": "Evidence documents his life in detail both before (gospel upbringing, touring as pianist, 1952 debut recording, Vee-Jay sides, Milwaukee residency) and after (Argo albums, Squeeze Club residency, death from bronchial pneumonia 1971)", "evidenceQuote": "He spent his early career travelling across the United States, Canada and Cuba, as pianist with the bands of King Kolax, Joe Houston, Johnny Otis and Big Jay McNeely, among others.", "source": "wiki"}
+  ],
+  "notes": "Right entity; the 'mysterious enigma' skeleton is the problem, not the identity. Confirmed: birth/death years 1933/1971 (note: evidence flags source variance - 'other sources state 1934 or 1937' - ours matches the primary 1933), Hammond organ, exactly two Blue Note leader albums (Face to Face and Stop and Listen, both 1961). Repair: keep the two-Blue-Note-albums fact, drop 'vanishing entirely' and 'little is known' (he moved to Argo and Chicago club work); 'one of jazz's most enigmatic figures' is editorial but now unsupported."
+ },
+ {
+  "id": "ben-webster",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim from the Wikipedia lead: American jazz tenor saxophonist, performed in the US and Europe, recordings with Duke Ellington, Billie Holiday, Johnny Hodges. Born March 27 1909, died September 20 1973 confirmed."
+ }
+]

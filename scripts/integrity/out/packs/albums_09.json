@@ -1,0 +1,1650 @@
+[
+ {
+  "id": "indo-jazz-suite",
+  "kind": "album",
+  "ours": {
+   "title": "Indo-Jazz Suite",
+   "artist": "Joe Harriott",
+   "year": 1966,
+   "label": "Columbia",
+   "albumDNA": "Joe Harriott's visionary collaboration with Indian violinist John Mayer was the first serious attempt to fuse jazz improvisation with Indian classical music. The double quintet—five jazz musicians and five Indian classical musicians—creates a genuine dialogue between two great improvisational traditions. Predated the Indo-jazz experiments of John McLaughlin and others by several years. Harriott and Mayer's respectful, equal partnership between traditions remains a model for cross-cultural musical collaboration.",
+   "keyTracks": [
+    "Overture",
+    "Contrasts",
+    "Raga Megha",
+    "Raga Gaud‐saranga"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 0.44,
+    "release": null,
+    "searchCandidates": [
+     {
+      "mbid": "f15c5579-2250-39c0-a672-1b4b0a7e85eb",
+      "title": "Indo-Jazz Suite",
+      "score": 100,
+      "artists": [
+       "Joe Harriott and John Mayer Double Quintet"
+      ],
+      "firstReleaseDate": "1966",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     }
+    ]
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "inside-basie-outside",
+  "kind": "album",
+  "ours": {
+   "title": "Inside Basie Outside",
+   "artist": "Count Basie",
+   "year": 1966,
+   "label": "VSP",
+   "albumDNA": "A swing outing from 1966, Inside Basie Outside features pianist Count Basie recording for VSP. The program includes \"Swingin' at Newport\", \"One O'Clock Jump\", and \"Basie's Back in Town\".",
+   "keyTracks": [
+    "Swingin' at Newport",
+    "One O'Clock Jump",
+    "Basie's Back in Town",
+    "Big Red",
+    "Stompin' and Jumpin'"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "555c38b3-dd77-43b7-bfec-f7cec293ff91",
+     "title": "Inside Basie Outside",
+     "date": "1966",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Count Basie Orchestra"
+     ],
+     "labels": [
+      {
+       "name": "VSP",
+       "catalogNumber": "VSP-12"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "00e35f18-3df5-48fa-868f-a8c6c43ae11a",
+      "title": "Inside Basie Outside",
+      "firstReleaseDate": "1966",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Swingin' at Newport",
+      "One O'Clock Jump",
+      "Basie's Back in Town",
+      "Big Red",
+      "Stompin' and Jumpin'",
+      "Blues Inside Out"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "meditations",
+  "kind": "album",
+  "ours": {
+   "title": "Meditations",
+   "artist": "John Coltrane",
+   "year": 1966,
+   "label": "Impulse!",
+   "albumDNA": "Meditations is a 1966 album by John Coltrane. The album was considered the \"spiritual follow-up to A Love Supreme.\" It features Coltrane and Pharoah Sanders as soloists, both playing tenor saxophones. This was the last Coltrane recording to feature his classic quartet lineup of himself, bassist Jimmy Garrison, drummer Elvin Jones and pianist McCoy Tyner, as both Jones and Tyner would quit the band by early 1966. Sanders, Ali, Garrison and Coltrane's wife Alice would comprise his next group. Pushed Coltrane's spiritual jazz to its extreme. Its intensity influenced noise music and spiritual jazz revivals.",
+   "keyTracks": [
+    "The Father and the Son and the Holy Ghost",
+    "Love",
+    "Consequences",
+    "Serenity"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Meditations_(John_Coltrane_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "aae72c35-4f4b-3de9-97e1-6c79dfbd6cdf",
+     "title": "Meditations",
+     "date": "1966",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "John Coltrane"
+     ],
+     "labels": [
+      {
+       "name": "impulse!",
+       "catalogNumber": "A 9110"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "550090da-a050-3e18-9ace-af7d07089d7b",
+      "title": "Meditations",
+      "firstReleaseDate": "1966",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "The Father and the Son and the Holy Ghost",
+      "Compassion",
+      "Love",
+      "Consequences",
+      "Serenity"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Meditations_(John_Coltrane_album)",
+    "page": {
+     "requestedTitle": "Meditations (John Coltrane album)",
+     "resolvedTitle": "Meditations (John Coltrane album)",
+     "shortDescription": "1966 studio album by John Coltrane",
+     "extract": "Meditations is a 1966 album by John Coltrane. The album was considered the \"spiritual follow-up to A Love Supreme.\" It features Coltrane and Pharoah Sanders as soloists, both playing tenor saxophones. This was the last Coltrane recording to feature his classic quartet lineup of himself, bassist Jimmy Garrison, drummer Elvin Jones and pianist McCoy Tyner (augmented here as a sextet with Sanders and second drummer Rashied Ali), as both Jones and Tyner would quit the band by early 1966. Sanders, Ali, Garrison and Coltrane's wife Alice would comprise his next group.\nAlternative versions of tracks 2–5 had been recorded in September 1965 by the same musicians minus Rashied Ali and Sanders. They were later issued as First Meditations (for quartet) in 1977.\n\n\n== Track listing ==\nAll tracks are written by John Coltrane.\nSide one\n\n\"The Father and the Son and the Holy Ghost\" – 12:51\n\"Compassion\" – 6:50\nSide two\n\n\"Love\" – 8:09\n\"Consequences\" – 9:11\n\"Serenity\" – 3:28\n\n\n== Personnel ==\nJohn Coltrane – tenor saxophone, percussion, band leader\nPharoah Sanders – tenor saxophone, percussion\nMcCoy Tyner – piano\nJimmy Garrison – double bass\nElvin Jones – drums\nRashied Ali – drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "mercy-mercy-mercy",
+  "kind": "album",
+  "ours": {
+   "title": "Mercy, Mercy, Mercy!",
+   "artist": "Cannonball Adderley Quintet",
+   "year": 1966,
+   "label": "Capitol",
+   "albumDNA": "Mercy, Mercy, Mercy! Live at \"The Club\" is a 1967 live in-studio album by The Cannonball Adderley Quintet, the jazz group formed by musician Cannonball Adderley. It received the Grammy Award for Best Instrumental Jazz Performance – Group or Soloist with Group in 1967, and was added to the Grammy Hall of Fame in 2021. The title track became a crossover hit, proving jazz could reach mainstream audiences while maintaining integrity.",
+   "keyTracks": [
+    "Mercy, Mercy, Mercy",
+    "Fun",
+    "Games",
+    "Sticks"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercy%2C_Mercy%2C_Mercy!_Live_at_%22The_Club%22"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 0.93,
+    "release": {
+     "mbid": "9b34d0d5-3080-446a-b5eb-1d956c77afd7",
+     "title": "Mercy, Mercy, Mercy! Live at “The Club”",
+     "date": "1966",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "The Cannonball Adderley Quintet"
+     ],
+     "labels": [
+      {
+       "name": "Capitol Records",
+       "catalogNumber": "ST 2663"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "28ea51ba-f497-3bc1-9290-dc9d476c21ea",
+      "title": "Mercy, Mercy, Mercy! Live at “The Club”",
+      "firstReleaseDate": "1966",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Live"
+      ]
+     },
+     "tracks": [
+      "Introduction",
+      "Fun",
+      "Games",
+      "Mercy, Mercy, Mercy",
+      "Sticks",
+      "Hippodelphia",
+      "Sack o’ Woe"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Mercy%2C_Mercy%2C_Mercy!_Live_at_%22The_Club%22",
+    "page": {
+     "requestedTitle": "Mercy, Mercy, Mercy! Live at \"The Club\"",
+     "resolvedTitle": "Mercy, Mercy, Mercy! Live at \"The Club\"",
+     "shortDescription": "1967 live album by Cannonball Adderley",
+     "extract": "Mercy, Mercy, Mercy! Live at \"The Club\" is a 1967 live in-studio album by The Cannonball Adderley Quintet, the jazz group formed by musician Cannonball Adderley. It received the Grammy Award for Best Instrumental Jazz Performance – Group or Soloist with Group in 1967, and was added to the Grammy Hall of Fame in 2021.\nThough the original liner notes state that it was recorded at the Club DeLisa in Chicago, it was actually recorded at Capitol's Hollywood studio with an invited audience and an open bar. The reason for this discrepancy, according to the liner notes in the CD reissue, is that Adderley and the new manager of Club DeLisa (which had been renamed \"The Club\", after operating for years in Chicago under its old name) were friends, and Adderley offered to give the club a bit of free publicity.\nThe title track became a surprise hit, reaching No. 11 on the Billboard's Hot 100. The album reached No. 13 on the Top LPs chart. On this album, Joe Zawinul played a Wurlitzer electric piano; however, subsequent live performances saw him taking up the new and mellower-sounding Fender Rhodes instrument.\nThe track \"Hippodelphia\" is sometimes mis-spelt \"Hipadelphia\" on other recordings. The track listing for the album uses \"Hippodelphia\", while the liner notes, written by E. Rodney Jones, for the same album refer to \"Hipadelphia\".\n\n\n== Reception ==\nThe Allmusic review by Steve Huey awarded the album 5 stars and states: \"Adderley's irrepressible exuberance was a major part of his popularity, and no document captures that quality as well—or with such tremendous musical rewards—as Mercy, Mercy, Mercy.\" The Penguin Guide to Jazz awarded the album 3 out of 4 stars, stating: \"Mercy, Mercy, Mercy is a hard swinging live album with one of Cannon's hottest outings on 'Sticks'.\". \n\n\n== Track listing ==\n\"Fun\" (Nat Adderley) – 8:26\n\"Games\" (N. Adderley) – 7:19\n\"Mercy, Mercy, Mercy\" (Joe Zawinul) –  5:10\n\"Sticks\" (Cannonball Adderley) – 3:54\n\"Hippodelphia\" (Zawinul) – 5:49\n\"Sack O' Woe\" (C. Adderley) – 10:29\n\n\n== Personnel ==\nCannonball Adderley – alto saxophone, leader\nNat Adderley – cornet\nJoe Zawinul – piano, Wurlitzer electric piano\nVictor Gaskin – bass\nRoy McCurdy – drums\n\n\n== Charts ==\n\n\n== See also ==\nList of number-one R&B albums of 1967 (U.S.)\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "mode-for-joe",
+  "kind": "album",
+  "ours": {
+   "title": "Mode for Joe",
+   "artist": "Joe Henderson",
+   "year": 1966,
+   "label": "Blue Note",
+   "albumDNA": "Mode for Joe is the fifth studio album by American jazz saxophonist Joe Henderson, recorded and released in 1966. Featuring Henderson with a larger than usual ensemble consisting of trumpeter Lee Morgan, trombonist Curtis Fuller, vibraphonist Bobby Hutcherson, pianist Cedar Walton, bassist Ron Carter and drummer Joe Chambers, it was Henderson’s last Blue Note recording as leader until the live albums The State of the Tenor, Vols. 1 & 2 almost 20 years later. Established Henderson as a major voice on tenor saxophone. His blend of inside and outside playing was influential.",
+   "keyTracks": [
+    "Mode for Joe",
+    "A Shade of Jade",
+    "Caribbean Fire Dance"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Mode_for_Joe"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "b061d121-e628-49fb-8847-47aaae111a79",
+     "title": "Mode For Joe",
+     "date": "2013",
+     "country": "US",
+     "status": null,
+     "artists": [
+      "Joe Henderson"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "509994-33705-1-1"
+      },
+      {
+       "name": "Blue Note",
+       "catalogNumber": "BST-84227"
+      },
+      {
+       "name": "Music Matters Ltd.",
+       "catalogNumber": "MMBST-84227"
+      },
+      {
+       "name": "Blue Note",
+       "catalogNumber": "ST-84227"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "3f31e25d-b3be-4edb-9b5b-5dac61f8fd17",
+      "title": "Mode For Joe",
+      "firstReleaseDate": "2013",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "A Shade of Jade",
+      "Mode for Joe",
+      "Black",
+      "Caribbean Fire Dance",
+      "Granted",
+      "Free Wheelin'"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Mode_for_Joe",
+    "page": {
+     "requestedTitle": "Mode for Joe",
+     "resolvedTitle": "Mode for Joe",
+     "shortDescription": "1966 studio album by Joe Henderson",
+     "extract": "Mode for Joe is the fifth studio album by American jazz saxophonist Joe Henderson, recorded and released in 1966. Featuring Henderson with a larger than usual ensemble consisting of trumpeter Lee Morgan, trombonist Curtis Fuller, vibraphonist Bobby Hutcherson, pianist Cedar Walton, bassist Ron Carter and drummer Joe Chambers, it was Henderson’s last Blue Note recording as leader until the live albums The State of the Tenor, Vols. 1 & 2 almost 20 years later.\n\n\n== Reception ==\n\nAllMusic reviewer Eric Starr awarded the album 4.5 stars, calling it \"a great example of modern jazz at its best\" and \"one of the sax legend's most intriguing albums.\"\n\n\n== Track listing ==\nAll compositions by Joe Henderson, except where indicated.\n\n\"A Shade of Jade\" – 7:08\n\"Mode for Joe\" (Cedar Walton) – 8:00\n\"Black\" (Walton) – 6:51\n\"Caribbean Fire Dance\" – 6:41\n\"Granted\" – 7:20\n\"Free Wheelin'\" (Lee Morgan) – 6:39\n\"Black\" (Walton) (alternate take) – 6:48 Bonus track on CD\n\n\n== Personnel ==\nJoe Henderson – tenor saxophone\nLee Morgan – trumpet\nCurtis Fuller – trombone\nBobby Hutcherson – vibraphone\nCedar Walton – piano\nRon Carter – double bass\nJoe Chambers – drums\n\n\n== Charts ==\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "music-on-my-mind",
+  "kind": "album",
+  "ours": {
+   "title": "Music on My Mind",
+   "artist": "Willie \"the Lion\" Smith",
+   "year": 1966,
+   "label": "MPS",
+   "albumDNA": "William Henry Joseph Bonaparte Bertholf Smith, nicknamed \"the Lion\", was an American jazz and stride pianist. A early jazz entry from 1966 by Willie \"the Lion\" Smith, documenting the breadth of the free jazz period.",
+   "keyTracks": [
+    "Moonlight Cocktail / Junk Man Rag",
+    "Pork and Beans",
+    "Memories of You",
+    "Shine",
+    "Oh You Devil"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Willie_%22the_Lion%22_Smith"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "fa0038e7-e714-4458-aaa9-2b7c7590dba7",
+     "title": "Music on My Mind",
+     "date": "1966",
+     "country": null,
+     "status": "Official",
+     "artists": [
+      "Willie “The Lion” Smith"
+     ],
+     "labels": [
+      {
+       "name": "MPS",
+       "catalogNumber": "20628"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "87e5b02a-dd3a-4770-a29f-084b0b81ea8e",
+      "title": "Music on My Mind",
+      "firstReleaseDate": "1966",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Moonlight Cocktail / Junk Man Rag",
+      "Pork and Beans",
+      "Memories of You",
+      "Shine",
+      "Oh You Devil",
+      "Keeping Out of Mischief Now",
+      "Rockin' in Rhythm",
+      "Solitude / Sophisticated Lady",
+      "At Sundown / Swingin' Down the Lane / Lady, Be Good",
+      "Some of These Days",
+      "12th. Street Rag",
+      "Theme Song"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Willie_%22the_Lion%22_Smith",
+    "page": {
+     "requestedTitle": "Willie \"the Lion\" Smith",
+     "resolvedTitle": "Willie \"the Lion\" Smith",
+     "shortDescription": "American jazz and stride pianist (1893–1973)",
+     "extract": "William Henry Joseph Bonaparte Bertholf Smith (November 23, 1893 – April 18, 1973), nicknamed \"the Lion\", was an American jazz and stride pianist.\n\n\n== Early life and education ==\nWilliam Henry Joseph Bonaparte Bertholf, known as Willie, was born in 1893 in Goshen, New York. His mother and grandmother chose his names to reflect different parts of his heritage: Joseph after Saint Joseph (Bible), Bonaparte (French), and Bertholf (biological father's last name). William and Henry were added for \"spiritual balance\". When he was three, his mother married John Smith, and Smith was added as the boy's surname, after his stepfather.\nIn his memoir Smith reports that his father, Frank Bertholf (incorrectly spelled Bertholoff in many sources), was Jewish. Smith's New York birth record shows him as William H. Bertholf, with father, Frank Bertholf, an electrician from nearby Monroe, New York. Smith became at least somewhat conversant in Yiddish and studied Hebrew with children of a Jewish family who were clients of his mother's. He made his bar mitzvah at age thirteen in Newark.\nHis mother, Ida Oliver, had \"Spanish, Negro, and Mohawk Indian blood\". Her mother, Ann Oliver, was a banjo player and had been in Primrose and West minstrel shows (Smith also had two cousins who were dancers in the shows, Etta and John Bloom). According to Ida, \"Frank Bertholoff [sic] was a light-skinned playboy who loved his liquor, girls, and gambling.\" She threw Frank out of the house when their son Willie was two years old. After Frank Bertholf died in 1901, his mother married John Smith, a master mechanic from Paterson, New Jersey. When Willie was three, his mother and stepfather added the surname Smith to his legal name. He grew up in a large family with his mother and stepfather in Newark, New Jersey at 76 Academy Street.\nJohn Smith worked for C.M. Bailey, Pork Packers, and he would leave the house around midnight to pick up freshly killed pigs and take them to the packing house. He was supposed to be home by 4 am, but would usually go to bars after work. Eventually, Ida tasked the boy Willie with accompanying his stepfather to work in order to encourage him to come straight home and not go drinking. Willie said he enjoyed this task, but most of the time he had to drive the horses home. He only worked on Fridays and Saturdays, as his mother did not want him to miss school.\nHe later wrote in his memoir about being at the slaughterhouse with his stepfather:\n\n I couldn't stand to see what I saw at the slaughterhouse. I would watch wide-eyed as the squealing pigs slid down the iron rails to the cutter where they were slashed through the middle, with the two halves falling into a tank of hot water. The kill sometimes went to as many as four hundred pigs a night. It was a sickening sight to watch. But the cries from the pigs brought forth an emotional excitement. It was another weird but musical sound that I can still hear in my head. The squeaks, the squeals, the dipping them in hot water, they put them on a hook, take off the head, the legs, going down an aisle—I hear it on an oboe. That's what you hear in a symphony: destruction, war, peace, beauty, all mixed.\nIn 1907, the family moved to 90 Bloome Street in Newark. They moved again around 1912, when his stepfather got a new job at Crucible Steel Company, across the Passaic River in Harrison, New Jersey. The job paid more, and Willie was assigned to get him away from work before his bosses got him drunk on his own money.\nHe attended the Baxter School, rumored to be a school for bad children. The school was notorious for brawls among the ethnic Irish, Italian, and African-American children. One day Willie was in Mrs. Black's fruit store and was caught with his hand in her register. According to his memoir, Smith had  wanted to borrow a dime to see S.H. Dudley's traveling road show at Blaney's Theater. The owner shocked Willie by turning him over to the police. Mrs. Black's son-in-law was the number three tough guy in Newark; reportedly the family hated policemen and generally would not allow them into their store. Willie was charged in children's court and sentenced to a ten dollar fine and probation.\nAfter that incident, he was transferred to Morton School (which had a lot less brawling), and began sixth grade. He attended Barringer High School (then known as Newark High School). In an effort to get the attention of girls, he attempted a variety of sports, including swimming, skating, track, basketball"
+    }
+   }
+  }
+ },
+ {
+  "id": "new-york-eye-and-ear",
+  "kind": "album",
+  "ours": {
+   "title": "New York Eye and Ear Control",
+   "artist": "Albert Ayler",
+   "year": 1966,
+   "label": "ESP-Disk",
+   "albumDNA": "New York Eye and Ear Control is an album of group improvisations recorded in July 1964 by an augmented version of Albert Ayler's group to provide the soundtrack for Michael Snow's film of the same name. Ayler's raw, primal saxophone sound influenced punk, noise, and free improvisation worldwide.",
+   "keyTracks": [
+    "AY",
+    "ITT",
+    "Don Cherry"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/New_York_Eye_and_Ear_Control"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "114eb329-6d93-4771-ab1a-67987d6aab77",
+     "title": "New York Eye and Ear Control",
+     "date": "1966",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Albert Ayler",
+      "Don Cherry",
+      "John Tchicai",
+      "Roswell Rudd",
+      "Gary Peacock",
+      "Sonny Murray"
+     ],
+     "labels": [
+      {
+       "name": "ESP‐Disk’",
+       "catalogNumber": "1016"
+      },
+      {
+       "name": "ESP‐Disk’",
+       "catalogNumber": "ESP 1016"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "c7d0fe8d-b7ae-34fe-b308-04bd16db5d21",
+      "title": "New York Eye and Ear Control",
+      "firstReleaseDate": "1966",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Soundtrack"
+      ]
+     },
+     "tracks": [
+      "Dons Dawn",
+      "AY",
+      "ITT"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/New_York_Eye_and_Ear_Control",
+    "page": {
+     "requestedTitle": "New York Eye and Ear Control",
+     "resolvedTitle": "New York Eye and Ear Control",
+     "shortDescription": "1965 studio album by Albert Ayler",
+     "extract": "New York Eye and Ear Control is an album of group improvisations recorded in July 1964 by an augmented version of Albert Ayler's group to provide the soundtrack for Michael Snow's film of the same name.\n\n\n== Background ==\nNew York Eye and Ear Control came about when artist, musician, and filmmaker Michael Snow received a commission from a Toronto-based organization called Ten Centuries Concerts for a film employing jazz. Snow  had recently attended and enjoyed a concert by saxophonist Albert Ayler (he recalled \"I was completely knocked out\"), and had been making his studio on Chambers Street in lower Manhattan available to musicians such as Roswell Rudd, Archie Shepp, Paul Bley, and Milford Graves for rehearsals. He decided to hire Ayler and his quartet (which at the time included trumpeter Don Cherry, bassist Gary Peacock, and drummer Sunny Murray, and which had recently recorded the albums Prophecy and (without Cherry) Spiritual Unity), along with trombonist Rudd and saxophonist John Tchicai, to make a recording, stating that he \"wanted to buy a half an hour of music.\"\nSnow recalled that he had certain stipulations going into the session: \"I didn't want any previously played compositions, and I wanted it to be as much ensemble improvisations as could be with no solos.\" He also stated: \"As I was being involved with so-called free jazz, I was always surprised at how everybody was still bookending, as in all of previous jazz where you play a tune, play your variations, then play the tune again. I kept feeling that I didn't want that, and particularly what I had in mind for the film, I definitely didn't want it. I wanted it as pure free improvisation as I could get.\" According to Snow, \"They accepted and they performed this way... in my opinion, this is one reason for which the music is so great.\" He later called the ensemble \"one of the greatest jazz groups ever.\" (In his 1966 essay \"Around about New York Eye and Ear Control,\" Snow summarized his thoughts regarding the music: \"Song form finally unusable, strict rhythm finally unusable in 'Jazz.' It goes 'ahead' where it has to... Surprise! Demand for Song and Dance so natural there can be 'new' Songs, 'new' Rhythm, 'new' Dances. A very pleasant surprise.\")\nThe recording session took place on July 17, 1964 at the loft of poet Paul Haines, who was Snow's neighbor and who also set up and operated the recording equipment. Roswell Rudd recalled that Snow \"didn't say anything. He said just go ahead and play and when he got the time he needed, he took that and made a movie with it. In other words made the movie from an improvised jam session rather than make the movie and fit the soundtrack to it. He made a soundtrack and then went out and shot a movie. I don't know how many people have ever done that.\" (The album liner notes confirm this, stating \"The music was recorded prior to the production of the film.\")\nSnow's film uses the motif of what he called the \"Walking Woman,\" a silhouette based on the image of Carla Bley. Snow stated: \"In my films I've tried to give the sound a more pure and equal position in relation to the picture.\" \"I was hoping for an uninterrupted stream of energy against which I was going to place the almost completely static shots of the two-dimensional Walking Woman figure, either negative or positive. The picture was edited with no reference to what sound episode might accompany it. It is an attempt to make a simultaneity of 'eye' with 'ear.' And the music was created to be a movie sound track, not to just be 'music.'\"\nRegarding his choice of a title, Snow also said:\n\nIt's like the music is a particular kind of experience, and the film is something quite different that you see simultaneously. That's why the title, New York Eye and Ear Control: it was actually being able to hear the music and being able to see the picture without the music saying, This image is sad, or this image is happy — which is a way that movie music is always used. I really wanted it to be possible that you could hear them. So, they're very, very different. It's as if the image part of it is very classical and static. In fact, most of the motion is in the music actually. So, they're kind of counterpointing and being in their own worlds, but happening simultaneously.\n\nThe film was premiered later that year in Toronto. Snow recalled: \"I was surprised to see people getting up and leaving very early in the projection of the film.\" At a later showing in New York, \"The audience catcall"
+    }
+   }
+  }
+ },
+ {
+  "id": "sayin-somethin",
+  "kind": "album",
+  "ours": {
+   "title": "Sayin' Somethin'",
+   "artist": "Nat Adderley",
+   "year": 1966,
+   "label": "Unknown",
+   "albumDNA": "Sayin' Somethin' is an album by jazz cornetist Nat Adderley, released on the Atlantic label and featuring four performances by Adderley with an 11-piece orchestra and four by Adderley's Quintet with Joe Henderson, Herbie Hancock, Bob Cranshaw, and Roy McCurdy. From the free jazz era, when musicians abandoned predetermined structures for collective expression, this album positions Nat Adderley within the bebop conversation of the time.",
+   "keyTracks": [
+    "Manchild",
+    "Call Me",
+    "Walls Of Jericho",
+    "Gospelette",
+    "Satin Doll",
+    "Cantaloupe Island"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "f6128060-8206-43d1-ba6f-e146f41b938a",
+     "title": "Sayin' Somethin'",
+     "date": "1966",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Nat Adderley"
+     ],
+     "labels": [
+      {
+       "name": "Atlantic",
+       "catalogNumber": "1460"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0500e99b-66af-30c0-ae0b-60bce56cedfc",
+      "title": "Sayin' Somethin'",
+      "firstReleaseDate": "1966",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Manchild",
+      "Call Me",
+      "Walls Of Jericho",
+      "Gospelette",
+      "Satin Doll",
+      "Cantaloupe Island",
+      "Hippodelphia",
+      "The Other Side"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "sound-roscoe-mitchell",
+  "kind": "album",
+  "ours": {
+   "title": "Sound",
+   "artist": "Roscoe Mitchell",
+   "year": 1966,
+   "label": "Delmark",
+   "albumDNA": "The first recording by the Association for the Advancement of Creative Musicians (AACM), featuring the Roscoe Mitchell Sextet with Lester Bowie and Malachi Favors. The album alternates between dense collective improvisation and radical silence, using 'little instruments' and space in revolutionary ways. The founding document of the AACM and Chicago's creative music scene. This album's radical approach to sound, silence, and texture changed the course of experimental music and spawned the Art Ensemble of Chicago.",
+   "keyTracks": [
+    "Ornette",
+    "The Little Suite",
+    "Sound"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Sound_(Roscoe_Mitchell_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "d38dcf29-b4d4-49f8-8d57-96b4192619c6",
+     "title": "Sound Songs",
+     "date": "1997",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Roscoe Mitchell"
+     ],
+     "labels": [
+      {
+       "name": "Delmark Records",
+       "catalogNumber": "2DE-493"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "e20658e5-3854-4750-8a19-4dccdcd41df2",
+      "title": "Sound Songs",
+      "firstReleaseDate": "1997",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Let’s Get Ready to Rumble",
+      "They All Had New Clothes",
+      "A Messenger in Traffic",
+      "Fallen Heroes",
+      "Full Frontal Saxophone",
+      "Down at the Pond",
+      "The 4:50 Express",
+      "The Meeting",
+      "For Lester B.",
+      "Near and Far",
+      "Song for Percussion and Bamboo Sax",
+      "The Play, Act I",
+      "The Play, Act II",
+      "The Play, Finale",
+      "The Garden",
+      "The Night",
+      "On the Country Road",
+      "Side One",
+      "The Other Side",
+      "The Other Side, Part 2",
+      "Side Two",
+      "First Sketches of Leola",
+      "Appear and Disappear",
+      "The Dream Machine",
+      "For Madeline",
+      "Closer"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Sound_(Roscoe_Mitchell_album)",
+    "page": {
+     "requestedTitle": "Sound (Roscoe Mitchell album)",
+     "resolvedTitle": "Sound (Roscoe Mitchell album)",
+     "shortDescription": "1966 debut album by Roscoe Mitchell",
+     "extract": "Sound is the debut album by free jazz saxophonist Roscoe Mitchell, recorded in 1966 and released on the Delmark label. It features performances by Mitchell, Lester Bowie, Malachi Favors, Maurice McIntyre, Lester Lashley and Alvin Fielder. The CD reissue includes two takes of \"Sound\", which were edited together to form the original LP version, and an alternative take of \"Ornette\".\nAccording to Alvin Fielder, \"[the] music was rehearsed. It sounds unrehearsed but it was that loose...For Sound, we rehearsed four to five days per week...It took us two recording days to do Sound and it went well.\" Wadada Leo Smith commented: \"It's no accident that Roscoe called that important piece of his Sound. Sound - not pitch - that's the difference.\" According to Mitchell, \"[t]he musicians are free to make any sound they think will do, any sound that they hear at a particular time. That could be like somebody who felt like stomping on the floor... well, he would stomp on the floor. And you notice the approach of the musicians to their instruments is a little different from what one would normally hear... I always 'felt' a lot of instruments - and I feel myself being drawn to it. I'm getting more interested in music as strictly atmosphere, not so much of just standing up playing for playing's sake, but my mind stretches out to other things, like creating different sounds.\"\n\n\n== Reception ==\n\nThe Penguin Guide to Jazz selected the album as part of its suggested Core Collection. The authors wrote: \"What a vital, electrifying document this remains!... Mitchell organizes his group around the notion of sounds entering into - and interrelating with - silence. So there are tiny gestures and startling emptinesses alongside long lines and soliloquies... Both a manifesto and an unrepeatable event, Sound remains a marvel.\"\nThe AllMusic review by Steve Huey awarded the album 5 stars, stating, \"Structurally, Sound heralded a whole new approach to free improvisation; where most previous free jazz prized an unrelenting fever pitch of emotion, Sound was full of wide-open spaces between instruments, an agreeably rambling pace in between the high-energy climaxes, and a more abstract quality to its solos. Steady rhythmic pulses were mostly discarded in favor of collective, spontaneous dialogues and novel textures (especially with the less orthodox instruments, which had tremendous potential for flat-out weird noises). Simply put, it's an exploration of pure sound.\"\nThe album was identified by Chris Kelsey in his AllMusic essay \"Free Jazz: A Subjective History\" as one of the 20 Essential Free Jazz Albums. Elliott Sharp called the album \"one of Mitchell's finest early moments\" and included it in his list \"Ten Free Jazz Albums to Hear Before You Die\".\n\n\n== Influence ==\nThe album's influence on other improvisers was considerable: \"Sound's concepts of texture, space, and interaction would shortly be expanded upon in classic recordings by Anthony Braxton, Muhal Richard Abrams, the Art Ensemble of Chicago, and others; the repercussions from its expansion of free jazz's tonal and emotional palettes are still being felt\".\n\n\n== Track listing ==\n\n\n=== Original LP ===\nAll compositions by Roscoe Mitchell\nSide One\n\n\"Ornette – 5:22\n\"The Little Suite\" – 10:20\nSide Two\n\n\"Sound\" – 21:30\n\n\n=== CD Reissue ===\n\"Ornette\" [alternative take] – 5:44\n\"Sound 1\" – 26:36\n\"The Little Suite\" – 10:27\n\"Ornette\" – 5:29\n\"Sound 2\" – 19:24\n\n\n== Personnel ==\nRoscoe Mitchell – alto saxophone, clarinet, flute, recorder\nLester Bowie – trumpet, flugelhorn, harmonica\nMalachi Favors – bass\nMaurice McIntyre – tenor saxophone\nLester Lashley – trombone, cello\nAlvin Fielder – percussion\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "speak-no-evil",
+  "kind": "album",
+  "ours": {
+   "title": "Speak No Evil",
+   "artist": "Wayne Shorter",
+   "year": 1966,
+   "label": "Blue Note",
+   "albumDNA": "Speak No Evil is the sixth album by Wayne Shorter. It was released in June 1966 by Blue Note Records. The music combines elements of hard bop and modal jazz, and features Shorter on tenor saxophone, trumpeter Freddie Hubbard, pianist Herbie Hancock, bassist Ron Carter and drummer Elvin Jones. The cover photo is of Shorter's first wife, Teruko (Irene) Nakagami, whom he met in 1961. Established Shorter as one of jazz's most important composers. His mysterious, cinematic style influenced countless musicians.",
+   "keyTracks": [
+    "Speak No Evil",
+    "Witch Hunt",
+    "Fee-Fi-Fo-Fum",
+    "Dance Cadaverous"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Speak_No_Evil_(Wayne_Shorter_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "2e2833d1-a6b0-48a4-aba0-4d5fc1a0c436",
+     "title": "Speak No Evil",
+     "date": "1965",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Wayne Shorter"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "BLP 4194"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "eae0c18f-f2fd-3b97-8631-3f682a2f3957",
+      "title": "Speak No Evil",
+      "firstReleaseDate": "1965",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Witch Hunt",
+      "Fee-Fi-Fo-Fum",
+      "Dance Cadaverous",
+      "Speak No Evil",
+      "Infant Eyes",
+      "Wild Flower"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Speak_No_Evil_(Wayne_Shorter_album)",
+    "page": {
+     "requestedTitle": "Speak No Evil (Wayne Shorter album)",
+     "resolvedTitle": "Speak No Evil (Wayne Shorter album)",
+     "shortDescription": "1966 studio album by Wayne Shorter",
+     "extract": "Speak No Evil is the sixth album by Wayne Shorter. It was released in June 1966 by Blue Note Records. The music combines elements of hard bop and modal jazz, and features Shorter on tenor saxophone, trumpeter Freddie Hubbard, pianist Herbie Hancock, bassist Ron Carter and drummer Elvin Jones. The cover photo is of Shorter's first wife, Teruko (Irene) Nakagami, whom he met in 1961.\n\n\n== Reception ==\n\nSpeak No Evil was one of several albums Shorter recorded for Blue Note in 1964, his first year as a member of Miles Davis's mid-1960s quintet. The album is generally regarded as one of Shorter's finest, and also a highlight of the Blue Note catalogue. The Penguin Guide to Jazz selected this album as part of its suggested \"Core Collection\" calling it \"by far Shorter's most satisfying record\". Murray Horwitz stated in 2001 that \"Speak No Evil is sort of a consolidation of Wayne Shorter's compositional excellence. It's so thorough and consistent and wide-ranging. It's almost a manifesto for his ideas. Those ideas were new 40 years ago, but they're still fresh today.\" Rough Guide author Ian Carr wrote it is \"a classic album in terms of both composition and improvisation, and has been inspirational for many musicians\". New York Times critic Ben Ratliff included the album in his publication Jazz: A Critic's Guide to the 100 Most Important Recordings stating that it offers \"the first taste of a gnomic compositional style that would haunt jazz forevermore. [...] Just about everybody playing jazz born in the 1950s and after accepts it as a foundation.\"\n\n\n== Releases ==\nSpeak No Evil was initially released on LP in 1966, as BLP 4194 and BST 84194. The first CD release was in 1987. A 1999 CD version, supervised by Rudy Van Gelder, included an alternate take of \"Dance Cadaverous\". A remastered limited edition was issued in Japan on SHM-CD in 2013, including two previously unissued alternate takes.\nIn 2015, the original master tapes were remastered and cut in the all-analog domain by Kevin Gray for Music Matters Ltd as part of their Blue Note: The Definitive Vinyl Reissue Series.\nIn January 2020, a new vinyl version remastered by Kevin Gray from the original analog master tapes was released by Blue Note as part of their Classic Vinyl Reissue Series.\n\n\n== Track listing ==\nAll compositions by Wayne Shorter.\n\n\n== Personnel ==\nWayne Shorter – tenor saxophone\nFreddie Hubbard – trumpet (except \"Infant Eyes\")\nHerbie Hancock – piano\nRon Carter – bass\nElvin Jones – drums\n\n\n== References ==\n\n\n== External links ==\nWayne Shorter - Speak No Evil (rec. 1964, rel. 1966) album releases & credits at Discogs\nWayne Shorter - Speak No Evil (rec. 1964, rel. 1966) album to be listened on Spotify\nWayne Shorter - Speak No Evil (rec. 1964, rel. 1966) album to be listened on YouTube"
+    }
+   }
+  }
+ },
+ {
+  "id": "tequila",
+  "kind": "album",
+  "ours": {
+   "title": "Tequila",
+   "artist": "Wes Montgomery",
+   "year": 1966,
+   "label": "Verve",
+   "albumDNA": "Tequila is an album recorded by the jazz guitarist Wes Montgomery, released in 1966. Documents guitarist Wes Montgomery's cool jazz work for Verve, a 1966 session reflecting the free jazz period.",
+   "keyTracks": [
+    "Tequila",
+    "Little Child (Daddy Dear)",
+    "What the World Needs Now Is Love",
+    "The Big Hurt",
+    "Bumpin' on Sunset"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Tequila_(Wes_Montgomery_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "66c09e63-b343-413f-9f51-9ad527132a8c",
+     "title": "Tequila",
+     "date": "1999",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Wes Montgomery"
+     ],
+     "labels": [
+      {
+       "name": "Verve",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "03643a5f-da0e-3ef1-9943-7676a10f2f5d",
+      "title": "Tequila",
+      "firstReleaseDate": "1966",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Tequila",
+      "Little Child (Daddy Dear)",
+      "What the World Needs Now Is Love",
+      "The Big Hurt",
+      "Bumpin' on Sunset",
+      "Insensatez (How Insensitive)",
+      "The Thumb",
+      "Midnight Mood",
+      "Wives and Lovers",
+      "Tequila",
+      "The Big Hurt",
+      "Bumpin' on Sunset"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Tequila_(Wes_Montgomery_album)",
+    "page": {
+     "requestedTitle": "Tequila (Wes Montgomery album)",
+     "resolvedTitle": "Tequila (Wes Montgomery album)",
+     "shortDescription": "1966 studio album by Wes Montgomery",
+     "extract": "Tequila is an album recorded by the jazz guitarist Wes Montgomery, released in 1966.\n\n\n== History ==\nTequila is a mixture of tracks using just a jazz quartet with Ron Carter, Grady Tate and Ray Barretto and the rest with a string section arranged by Claus Ogerman. It is mainly a Latin-flavored album, the first Montgomery recorded without a keyboardist.\nIt was reissued on CD in 1999 and 2008 with alternate takes that are listed below.\n\n\n== Chart performance ==\nThe album debuted on Billboard magazine's Top LP's chart in the issue dated September 3, 1966, peaking at No. 51 during a thirty-two-week run on the chart. In Cashbox the album would peak at No. 54 during a fourteen-week run.\n\n\n== Reception ==\n\nIn his AllMusic review, Scott Yanow singled out individual tracks as those giving Montgomery the opportunity to jam and those backed with string arrangements. The few tracks he praises he claims \"uplift this album quite a bit beyond the guitarist's later A&M recordings.\"\nJazz writer Josef Woodard called the album \"an airy, melodious record, with the standout track being the gently brooding Montgomery original 'Bumpin' on Sunset', which features him playing double octaves-the same note played in three octaves.\"\n\n\n== Track listing ==\n\"Tequila\" (Chuck Rio)\n\"Little Child (Daddy Dear)\" (Wayne Shanklin)\n\"What the World Needs Now Is Love\" (Burt Bacharach, Hal David)\n\"The Big Hurt\" (Wayne Shanklin)\n\"Bumpin' on Sunset\" (Wes Montgomery)\n\"Insensatez (How Insensitive)\" (Vinicius De Moraes, Norman Gimbel, Antônio Carlos Jobim)\n\"The Thumb\" (Wes Montgomery)\n\"Midnight Mood\" (Ben Raleigh, Joe Zawinul)\n\n\n== Personnel ==\nWes Montgomery – guitar\nRon Carter – bass\nGrady Tate – drums\nRay Barretto – conga\nGeorge Devens – vibraphone\nBernard Eichen – violin\nArnold Eidus – violin\nPaul Gershman – violin\nEmanuel Green – violin\nJulius Held – violin\nGene Orloff – violin\nHarry Lookofsky – violin\nJoseph Malin – violin\nAbe Kessler – cello\nCharles McCracken – cello\nGeorge Ricci – cello\nHarvey Shapiro – cello\nProduction notes:\n\nCreed Taylor – producer\nClaus Ogerman – arranger, conductor\nRudy Van Gelder – engineer\n\n\n== Charts ==\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "unit-structures",
+  "kind": "album",
+  "ours": {
+   "title": "Unit Structures",
+   "artist": "Cecil Taylor",
+   "year": 1966,
+   "label": "Blue Note",
+   "albumDNA": "Unit Structures is a studio album by American jazz pianist Cecil Taylor, released in October 1966 by Blue Note Records. Established Taylor as free jazz's most uncompromising voice. His percussive piano style influenced countless avant-garde musicians.",
+   "keyTracks": [
+    "Steps",
+    "Unit Structure/As of a Now/Section"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Unit_Structures"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "71a5fdcf-1274-499e-a483-bbefde613590",
+     "title": "Unit Structures",
+     "date": "1966",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Cecil Taylor"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "BST 84237"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "370d6fb7-8a0b-3e3e-a5f4-d0fcdf2869a1",
+      "title": "Unit Structures",
+      "firstReleaseDate": "1966",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Steps",
+      "Enter, Evening (Soft Line Structure)",
+      "Unit Structure / As of a Now / Section",
+      "Tales (8 Whisps)"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Unit_Structures",
+    "page": {
+     "requestedTitle": "Unit Structures",
+     "resolvedTitle": "Unit Structures",
+     "shortDescription": "1966 studio album by Cecil Taylor",
+     "extract": "Unit Structures is a studio album by American jazz pianist Cecil Taylor, released in October 1966 by Blue Note Records.\n\n\n== Background ==\nUnit Structures was Taylor's first album on Blue Note; he would record Conquistador! for the label later the same year with a similar lineup, although it was not released until 1968. The album was accompanied by an essay written by Taylor entitled \"Sound Structure of Subculture Becoming Major Breath/Naked Fire Gesture\".\n\n\n== Music ==\nJesse Jarnow of Pitchfork described Unit Structures as \"among the most intense of the early free jazz albums\". He continued: \"The album is by no means easy listening; the atonality is unrepentant. But Taylor’s septet finds numerous gorgeous spaces as they interpret “free jazz” not just as the freedom to improvise but the freedom to invent musical worlds and hidden syntaxes. The only way to tap into the 'rhythm-sound energy found in the amplitude of each time unit,' as Taylor wrote in the liner notes, is to listen reverently.\"\n\n\n== Critical reception and legacy ==\nAllMusic gave the album five stars, with reviewer Scott Yanow opining that \"Taylor's high-energy atonalism fit in well with the free jazz of the period but he was actually leading the way rather than being part of a movement...it could be safely argued that no jazz music of the era approached the ferocity and intensity of Cecil Taylor's\". The Penguin Guide to Jazz awarded it three and a half stars of a possible four, writing: \"Unit Structures is both as mathematically complex as its title suggests and as rich in colour and sound as the ensemble proposes, with the orchestrally varied sounds of the two bassists — Grimes a strong, elemental driving force, Silva tonally fugitive and mysterious — while Stevens and McIntyre add other hues and Lyons improvises with and against them.\"\nIn 2008, webzine Cokemachineglow included Unit Structures on their \"30 'Other' Albums of the 1960s\" list. In 2013, Spin included it on their \"Top 100 Alternative Albums of the 1960s\" list. In 2017, Pitchfork placed it at number 197 on their list of the \"200 Best Albums of the 1960s\".\nIn 2017, Jesse Jarnow of Pitchfork wrote: \"Unit Structures still challenges notions of musical freedom. Recorded during the same season that the psychedelic ballroom scene was starting to bubble in San Francisco, Unit Structures did more to disassemble music than nearly all of the light-show-drenched psychedelia that followed.\"\n\n\n== Track listing ==\n\n\n== Personnel ==\nCredits adapted from liner notes.\n\n\n== References ==\n\nBartlett, Andrew W. (1995). \"Cecil Taylor, Identity Energy, and the Avant-Garde African American Body\". Perspectives of New Music. 33 (1/2): 274–293. JSTOR 833708.\n\n\n== External links ==\nUnit Structures at Discogs (list of releases)"
+    }
+   }
+  }
+ },
+ {
+  "id": "ammmusic",
+  "kind": "album",
+  "ours": {
+   "title": "AMMMusic",
+   "artist": "AMM",
+   "year": 1967,
+   "label": "Elektra",
+   "albumDNA": "The London-based collective AMM—featuring guitarist Keith Rowe, percussionist Eddie Prevost, and others—created one of the most radical recordings of the 1960s. AMMMusic abandons melody, harmony, and rhythm entirely in favor of pure sound exploration, predating ambient and noise music by decades. A foundational document of free improvisation distinct from free jazz. AMM's approach influenced Brian Eno, Cornelius Cardew, and the entire experimental music tradition.",
+   "keyTracks": [
+    "Later During a Flaming Riviera Sunset",
+    "After Rapidly Circling the Plaza"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "0cd90f6e-9a4e-4770-8189-12fcd754628d",
+     "title": "AMMMusic",
+     "date": "1967",
+     "country": "GB",
+     "status": "Official",
+     "artists": [
+      "AMM"
+     ],
+     "labels": [
+      {
+       "name": "Elektra",
+       "catalogNumber": "EUK 256"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "9ef75f4d-f687-373b-9e06-9f9d67bd6939",
+      "title": "AMMMusic",
+      "firstReleaseDate": "1967",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Later During a Flaming Riviera Sunset",
+      "After Rapidly Circling the Plaza"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "ABC Music (album)",
+     "resolvedTitle": "ABC Music (album)",
+     "shortDescription": "2002 compilation album by Stereolab",
+     "extract": "ABC Music: The Radio 1 Sessions, released in October 2002, is a compilation by post-rock band Stereolab of BBC Radio 1 sessions recorded from July 1991 to August 2001. It includes appearances in John Peel and Mark Radcliffe's shows and it is a CD-only release.\n\n\n== Track listing ==\n\n\n=== CD 1 ===\n\"Super-Electric\" – 4:48 (Peel, 30/7/1991)\n\"Changer\" – 4:11\n\"Doubt\" – 2:41\n\"Difficult Fourth Title\" – 4:45\n\"Laissez Faire\" – 3:57 (Peel, 28/6/1992)\n\"Revox\" – 3:12\n\"Peng 33\" – 2:57\n\"John Cage Bubblegum\" – 2:56\n\"Wow and Flutter\" – 2:54 (Peel, 28/9/1993)\n\"Anemie\" – 4:41\n\"Moogie Wonderland\" – 2:34\n\"Heavy Denim\" – 3:09\n\"French Disko\" – 3:12 (Radcliffe, 13/12/1993)\n\"Wow and Flutter\" – 2:56\n\"Golden Ball\" – 5:45\n\"Lo Boob Oscillator\" – 4:33\n\"Check and Double Check\" – 2:51 (Radcliffe, 22/11/1994)\n\"Working Title (The Pram Song)\" – 4:13\n\"Difficult Fourth Title\" is the song eventually named \"Contact\" (from Super-Electric and then Switched On). \"Working Title (The Pram Song)\" is an early version of \"Seeperbold\" from Aluminum Tunes.\n\n\n=== CD 2 ===\n\"International Colouring Contest\" – 3:42\n\"Anamorphose\" – 7:27\n\"Metronomic Underground\" – 10:14 (Peel, 15/2/1996)\n\"Brigitte\" – 5:50\n\"Spinal Column\" – 3:31\n\"Tomorrow Is Already Here\" – 4:43\n\"Les Yper-Sound\" – 6:00 (Evening Session, 26/2/1996)\n\"Heavenly Van Halen\" – 3:09\n\"Cybele's Reverie\" – 3:59\n\"Slow Fast Hazel\" – 4:07\n\"Nothing to Do With Me\" – 4:01 (Peel, 19/9/2001)\n\"Double Rocker\" – 5:33\n\"Baby Lulu\" – 5:03\n\"Naught More Terrific Than Man\" – 3:56\n\"Heavenly Van Halen\" is an early version of \"Pinball\" from the Fluorescences EP.\n\n\n== References ==\n\n\"ABC Music: The Radio 1 Sessions\". Stereolab. All Media Guide/All Music.\n\"abc music – the radio 1 sessions\". Stereolab Official Site. Stereolab. Archived from the original on 10 March 2008."
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "ABC Music (album)",
+      "shortDescription": "2002 compilation album by Stereolab",
+      "extractHead": "ABC Music: The Radio 1 Sessions, released in October 2002, is a compilation by post-rock band Stereolab of BBC Radio 1 sessions recorded from July 1991 to August 2001. It includes appearances in John Peel and Mark Radcliffe's shows and it is a CD-only release.\n\n\n== Track listing ==\n\n\n=== CD 1 ===\n\"Super-Electric\" – 4:48 (Peel, 30/7/1991)\n\"Changer\" – 4:11\n\"Doubt\" – 2:41\n\"Difficult Fourth Title\" – 4:45\n\"Laissez Faire\" – 3:57 (Peel, 28/6/1992)\n\"Revox\" – 3:12\n\"Peng 33\" – 2:57\n\"John Cage Bubblegum\" –"
+     },
+     {
+      "resolvedTitle": "All Music (album)",
+      "shortDescription": "1976 studio album by Warne Marsh",
+      "extractHead": "All Music is an album by saxophonist Warne Marsh, recorded in 1976 and released on the Nessa label.\n\n\n== Reception ==\n\nThe AllMusic review commented: \"The mid-'70s were a prime time for tenor saxophonist Warne Marsh, and this 1976 studio session is one of his best dates from this portion of his career. ... Marsh's sophisticated solo work shines no matter what the setting\". The Rolling Stone Jazz Record Guide said: \"All Music is one of the best places to hear Marsh at work\". In JazzTimes Chris Ke"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "alligator-bogaloo",
+  "kind": "album",
+  "ours": {
+   "title": "Alligator Bogaloo",
+   "artist": "Lou Donaldson",
+   "year": 1967,
+   "label": "Blue Note",
+   "albumDNA": "Alto saxophonist Lou Donaldson's funkiest album rides a deep boogaloo groove courtesy of organist Lonnie Smith and drummer Leo Morris (Idris Muhammad). The music is pure dancefloor joy, with Donaldson's bluesy alto cutting through the infectious rhythms. One of the biggest sellers in Blue Note history and a blueprint for jazz-funk. The album proved that jazz could move bodies without sacrificing improvisational quality, and it remains a DJ staple.",
+   "keyTracks": [
+    "Alligator Bogaloo",
+    "Aw Shucks",
+    "Rev. Moses",
+    "One Cylinder"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "e91329e3-4b6b-4714-8e32-d24bf65333ad",
+     "title": "Alligator Bogaloo",
+     "date": "1967",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Lou Donaldson"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "BLP 4263"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "095a43ca-0faf-31fc-8e77-04d114c8532e",
+      "title": "Alligator Bogaloo",
+      "firstReleaseDate": "1967-04-17",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Alligator Bogaloo",
+      "One Cylinder",
+      "Thang",
+      "Aw Shucks!",
+      "Rev. Moses",
+      "I Want a Little Girl"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "conquistador",
+  "kind": "album",
+  "ours": {
+   "title": "Conquistador!",
+   "artist": "Cecil Taylor",
+   "year": 1967,
+   "label": "Blue Note",
+   "albumDNA": "Conquistador! is a 1968 studio album recorded in 1966 by free jazz pianist Cecil Taylor, released by Blue Note Records.",
+   "keyTracks": [
+    "Conquistador",
+    "With (Exit)"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Conquistador!"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "97284445-2b6c-4e7e-9b8c-a47a6edbc6ca",
+     "title": "Conquistador!",
+     "date": "1967",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Cecil Taylor"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "BST 84260"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "429e5e67-da73-3194-8153-e531b82f85da",
+      "title": "Conquistador!",
+      "firstReleaseDate": "1967",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Conquistador",
+      "With (Exit)"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Conquistador!",
+    "page": {
+     "requestedTitle": "Conquistador!",
+     "resolvedTitle": "Conquistador!",
+     "shortDescription": "1968 studio album by Cecil Taylor",
+     "extract": "Conquistador! is a 1968 studio album recorded in 1966 by free jazz pianist Cecil Taylor, released by Blue Note Records.\n\n\n== Critical reception ==\nWriting for AllMusic, Scott Yanow gave the album 4.5 out of 5 stars, stating that \"During the two lengthy pieces, [Jimmy] Lyons' passionate solos contrast with [Bill] Dixon's quieter ruminations while the music in general is unremittingly intense.\"\nThe authors of The Penguin Guide to Jazz awarded the album 4 stars, calling it \"an all but flawless record,\" and commenting: \"Dark, difficult, unique, yet operating at an artful tangent to some of the other 'difficult' Blue Note music of the period, this is Taylor at his most devious.\"\nWriting for Vinyl Me Please, Brian Josephs stated: \"Conquistador!... swerves away from Unit Structures' fire and evokes the coolness of its cover, which features a turtlenecked Taylor slightly out of focus, hiding behind shades as he mysteriously stares into the distance. The musical elements don’t combust as much as they melt into each other: Horns swell shrilly at the borders to add haunted textures, while Andrew Cyrille's amorphous rhythms tie the masterwork together. Even without Unit Structures as its contrast, Conquistador! still stands as a great testament to this sui generis collective.\"\nIn 2008, The New Yorker placed it at number 87 on the \"100 Essential Jazz Albums\" list.\n\n\n== Track listing ==\n\n\n== Personnel ==\nCredits adapted from liner notes.\n\nCecil Taylor – piano\nBill Dixon – trumpet\nJimmy Lyons – alto saxophone\nHenry Grimes – double bass\nAlan Silva – double bass\nAndrew Cyrille – drums\n\n\n== References ==\n\n\n== External links ==\nConquistador! at Discogs (list of releases)"
+    }
+   }
+  }
+ },
+ {
+  "id": "contours",
+  "kind": "album",
+  "ours": {
+   "title": "Contours",
+   "artist": "Sam Rivers",
+   "year": 1967,
+   "label": "Blue Note",
+   "albumDNA": "Contours is the second album by American saxophonist Sam Rivers, recorded in 1965 and released on the Blue Note label. The CD reissue contains an alternate take as a bonus track. Showed that the avant-garde could swing. Rivers's ability to move fluidly between inside and outside playing became a template for future improvisers.",
+   "keyTracks": [
+    "Point of Many Returns",
+    "Dance of the Tripedal",
+    "Euterpe",
+    "Mellifluous Cacophony"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Contours_(album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "2458b420-25c6-4810-89f9-0d3a984a503d",
+     "title": "Contours",
+     "date": "1967",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Sam Rivers"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "BLP 4206"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "019093e2-0dd5-3564-a5f0-11a0dfb6202b",
+      "title": "Contours",
+      "firstReleaseDate": "1967",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Point of Many Returns",
+      "Dance of the Tripedal",
+      "Euterpe",
+      "Mellifluous Cacophony"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Contours_(album)",
+    "page": {
+     "requestedTitle": "Contours (album)",
+     "resolvedTitle": "Contours (album)",
+     "shortDescription": "1967 studio album by Sam Rivers",
+     "extract": "Contours is the second album by American saxophonist Sam Rivers, recorded in 1965 and released on the Blue Note label. The CD reissue contains an alternate take as a bonus track.\n\n\n== Reception ==\n\nThe Allmusic review by Stephen Thomas Erlewine stated, \"On Contours, his second Blue Note album, tenor saxophonist Sam Rivers fully embraced the avant-garde, but presented his music in a way that wouldn't be upsetting or confusing to hard bop loyalists... Rarely is Contours anything less than enthralling, and it remains one of the high watermarks of the mid-'60s avant-garde movement\".\n\n\n== Track listing ==\nAll compositions by Sam Rivers.\n\n\"Point of Many Returns\" - 9:20\n\"Dance of the Tripedal\" - 10:07\n\"Euterpe\" - 11:43\n\"Mellifluous Cacophony\" - 8:58\n\"Mellifluous Cacophony\" [Alternate Take] - 9:04 Bonus track on CD reissue\n\n\n== Personnel ==\nSam Rivers - tenor saxophone, soprano saxophone, flute\nFreddie Hubbard - trumpet\nHerbie Hancock - piano\nRon Carter - bass\nJoe Chambers - drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "el-hombre",
+  "kind": "album",
+  "ours": {
+   "title": "El Hombre",
+   "artist": "Pat Martino",
+   "year": 1967,
+   "label": "Prestige",
+   "albumDNA": "Pat Martino's debut as a leader, recorded when he was just 22, already displays the linear, horn-like approach that would make him one of jazz guitar's most distinctive voices. With Trudy Pitts on organ and Danny Turner on flute, the album burns with youthful intensity. Announced Martino as a major new voice in jazz guitar. His incredibly fluid, rapid-fire single-note lines and rhythmic drive set a new technical standard for the instrument.",
+   "keyTracks": [
+    "El Hombre",
+    "Just Friends",
+    "Cisco",
+    "One for Rose"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "e2437317-b37c-4c49-b428-b47a9f6ed1dc",
+     "title": "El Hombre",
+     "date": "1967",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Pat Martino"
+     ],
+     "labels": [
+      {
+       "name": "Prestige",
+       "catalogNumber": "PR 7513"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "80e455a2-e05f-3699-8446-bde5a943c271",
+      "title": "El Hombre",
+      "firstReleaseDate": "1967",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Waltz for Geri",
+      "Once I Loved",
+      "El Hombre",
+      "Cisco",
+      "One for Rose",
+      "A Blues for Mickey-O",
+      "Just Friends"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "ella-fitzgeralds-christmas",
+  "kind": "album",
+  "ours": {
+   "title": "Ella Fitzgerald’s Christmas",
+   "artist": "Ella Fitzgerald",
+   "year": 1967,
+   "label": "Capitol Records",
+   "albumDNA": "Composer player Ella Fitzgerald's 1967 album Ella Fitzgerald’s Christmas draws from the free jazz tradition, released on Capitol Records. Standouts include \"O Holy Night - Remastered 2006\" and \"It Came Upon a Midnight Clear - Remastered 2006\". She was noted for her purity of tone, impeccable diction, phrasing, timing, intonation, absolute pitch, and a \"horn-like\" improvisational ability, particularly in her scat singing.",
+   "keyTracks": [
+    "O Holy Night",
+    "It Came Upon a Midnight Clear",
+    "Hark! The Herald Angels Sing",
+    "Away in the Manger",
+    "Joy to the World",
+    "The First Noel"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Ella_Fitzgerald"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "d1a90fce-b423-456a-87de-12816467fd9d",
+     "title": "Ella Fitzgerald’s Christmas",
+     "date": "1967-11",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "Ella Fitzgerald"
+     ],
+     "labels": [
+      {
+       "name": "Capitol Records",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "063f7a7e-56e3-3591-b1b8-a8f2122ccc60",
+      "title": "Ella Fitzgerald’s Christmas",
+      "firstReleaseDate": "1967-11",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "O Holy Night - Remastered 2006",
+      "It Came Upon a Midnight Clear - Remastered 2006",
+      "Hark! The Herald Angels Sing - Remastered 2006",
+      "Away in a Manger - Remastered 2006",
+      "Joy to the World - Remastered 2006",
+      "The First Noel - Remastered/2006",
+      "Silent Night - Remastered 2006",
+      "O Come All Ye Faithful - Remastered 2006",
+      "Sleep, My Little Jesus - Remastered 2006",
+      "Angels We Have Heard on High - Remastered 2006",
+      "O Little Town of Bethlehem - Remastered 2006",
+      "We Three Kings - Remastered 2006",
+      "God Rest Ye Merry Gentlemen - Remastered 2006",
+      "Abide With Me",
+      "Just a Closer Walk With Thee",
+      "The Old Rugged Cross",
+      "Brighten the Corner Where You Are",
+      "I Need Thee Every Hour",
+      "In the Garden",
+      "God Be With You Till We Meet Again",
+      "God Will Take Care of You",
+      "The Church in the Wildwood",
+      "Throw Out the Lifeline - Remastered 2006",
+      "I Shall Not Be Moved",
+      "Let the Lower Lights Be Burning",
+      "What a Friend We Have in Jesus",
+      "Rock of Ages, Cleft for Me"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Ella_Fitzgerald",
+    "page": {
+     "requestedTitle": "Ella Fitzgerald",
+     "resolvedTitle": "Ella Fitzgerald",
+     "shortDescription": "American jazz singer (1917–1996)",
+     "extract": "Ella Jane Fitzgerald (April 25, 1917 – June 15, 1996) was an American improvisational vocal musician, singer, songwriter and composer, sometimes referred to as the \"First Lady of Song\", \"Queen of Jazz\", and \"Lady Ella\". She was noted for her purity of tone, impeccable diction, phrasing, timing, intonation, and a \"horn-like\" improvisational ability, particularly in her scat singing.\nAfter a tumultuous adolescence, Fitzgerald found stability in musical success with the Chick Webb Orchestra, performing across the country but most often associated with the Savoy Ballroom in Harlem. Her rendition of the nursery rhyme \"A-Tisket, A-Tasket\" helped boost both her and Webb to national fame. After taking over the band when Webb died in 1939, Fitzgerald left it behind in 1942 to start her solo career. Fitzgerald's manager was Moe Gale, co-founder of the Savoy, until she turned the rest of her career over to Norman Granz, who founded Verve Records to produce new records by Fitzgerald. With Verve, Fitzgerald recorded some of her more widely noted works, particularly her interpretations of the Great American Songbook.\nFitzgerald also appeared in films and as a guest on popular television shows in the second half of the twentieth century. Outside her solo career, Fitzgerald created music with Louis Armstrong, Duke Ellington, and The Ink Spots. These partnerships produced songs such as \"Dream a Little Dream of Me\", \"Cheek to Cheek\", \"Into Each Life Some Rain Must Fall\", and \"It Don't Mean a Thing (If It Ain't Got That Swing)\". In 1993, after a career of nearly 60 years, Fitzgerald gave her last public performance. Three years later, Fitzgerald died at age 79 after years of declining health. Her accolades included 14 Grammy Awards, the National Medal of Arts, the NAACP's inaugural President's Award, and the Presidential Medal of Freedom.\n\n\n== Early life and family ==\nElla Jane Fitzgerald was born on April 25, 1917, in Newport News, Virginia. She was the daughter of William Ashland Fitzgerald, a transfer wagon driver from Blackstone, Virginia, and Temperance Fitzgerald. Fitzgerald's parents were unmarried but lived together in the East End section of Newport News for at least two and a half years after she was born. In the early 1920s, Fitzgerald's mother and her new partner, a Portuguese immigrant named Joseph da Silva, moved to Yonkers, New York. Her half-sister, Frances da Silva, was born in 1923. By 1925, Fitzgerald and her family had moved to nearby School Street, a poor Italian area. Fitzgerald began her formal education at the age of six and was an outstanding student, moving through a variety of schools before attending Benjamin Franklin Junior High School in 1929.\nFitzgerald and her family were Methodists and were active in the Bethany African Methodist Episcopal Church, where she attended worship services, Bible study, and Sunday school. The church provided Fitzgerald with her earliest experiences in music. Starting in third grade, Fitzgerald loved dancing and admired Earl Snakehips Tucker. She performed for her peers on the way to school and at lunchtime.\nFitzgerald listened to jazz recordings by Louis Armstrong, Bing Crosby, and The Boswell Sisters. She loved the Boswell Sisters' lead singer Connee Boswell, later saying: \"My mother brought home one of her records, and I fell in love with it...I tried so hard to sound just like her.\"\nIn 1932, when Fitzgerald was 15 years old, her mother died from injuries sustained in a car accident. Fitzgerald's stepfather took care of Fitzgerald until April 1933 when she moved to Harlem to live with her aunt. This seemingly swift change in her circumstances, reinforced by what Fitzgerald biographer Stuart Nicholson describes as rumors of \"ill treatment\" by her stepfather, leaves him to speculate that da Silva might have abused her.\nFitzgerald began skipping school, and her grades suffered. Fitzgerald worked as a lookout at a bordello and with a Mafia-affiliated numbers runner. She never talked publicly about this time in her life. When the authorities caught up with Fitzgerald, she was placed in the Colored Orphan Asylum in Riverdale in The Bronx. When the orphanage proved too crowded, Fitzgerald was moved to the New York Training School for Girls, a state reformatory school in Hudson, New York.\n\n\n== Career ==\n\n\n=== Early career ===\n\nWhile Fitzgerald seems to have survived during 1933 and 1934 in part by singing on the streets of Harlem, she debuted at age 17 on November 21, 1934, in one o"
+    }
+   }
+  }
+ },
+ {
+  "id": "kulu-se-mama",
+  "kind": "album",
+  "ours": {
+   "title": "Kulu Sé Mama",
+   "artist": "John Coltrane",
+   "year": 1967,
+   "label": "Impulse!",
+   "albumDNA": "Kulu Sé Mama is a free jazz album by John Coltrane. Recorded during 1965, it was released in January 1967 as Impulse! A-9106, and was the last album released during Coltrane's lifetime. Documents Coltrane's embrace of African spiritual traditions. The album's mix of meditative beauty and ecstatic release captures his late-period range.",
+   "keyTracks": [
+    "Kulu Sé Mama",
+    "Welcome",
+    "Vigil"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Kulu_S%C3%A9_Mama"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "6ff1205a-856f-3d80-8489-dd43f2967ae8",
+     "title": "Kulu Sé Mama",
+     "date": "1967",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "John Coltrane"
+     ],
+     "labels": [
+      {
+       "name": "impulse!",
+       "catalogNumber": "AS 9106"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "09a384e1-e5f0-3f3d-975f-c28c54950e02",
+      "title": "Kulu Sé Mama",
+      "firstReleaseDate": "1967",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Kulu Sé Mama (Juno Sé Mama)",
+      "Vigil",
+      "Welcome"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Kulu_S%C3%A9_Mama",
+    "page": {
+     "requestedTitle": "Kulu Sé Mama",
+     "resolvedTitle": "Kulu Sé Mama",
+     "shortDescription": "1967 studio album by John Coltrane",
+     "extract": "Kulu Sé Mama is a free jazz album by John Coltrane. Recorded during 1965, it was released in January 1967 as Impulse! A-9106 (AS-9106 for the stereo version), and was the last album released during Coltrane's lifetime.\n\n\n== Background ==\nThe tracks on Kulu Sé Mama were pieced together from three different recording sessions in 1965. The ballad \"Welcome\" was recorded by Coltrane's \"classic quartet\" on June 10 at Van Gelder Studio in Englewood Cliffs, New Jersey, in a session which also produced \"Last Blues\" (released in 1998 on Living Space) and \"Untitled 90314\" (released in 1978 on Feelin' Good and in 1998 on Living Space) as well as \"Transition\" and \"Suite\" (released in 1970 on Transition). \"Welcome\" was also reissued on the 1993 CD release of Transition.  Coltrane explained that \"Welcome\" \"is that feeling you have when you finally do reach an awareness, an understanding which you have earned through struggle. It is a feeling of peace. A welcome feeling of peace.\"\nOn June 16, the quartet visited Van Gelder Studios for a recording session which yielded \"Vigil\" and the two versions of \"Dusk Dawn\" which appear as bonus tracks on the CD reissue of Kulu Sé Mama. (The longer version of \"Dusk Dawn\" was first released on Living Space.) The session also yielded the tracks \"Untitled 90320\" (released on Feelin' Good) and \"Living Space\" (released on Feelin' Good, Living Space, and, in a version with overdubbings arranged by Alice Coltrane, on Infinity). According to Coltrane, \"Vigil\" \"implies watchfulness. Anyone trying to attain perfection is faced with various obstacles in life which tend to sidetrack him. Here, therefore, I mean watchfulness against elements that might be destructive - from within or without.\" He added: \"I don't try to set standards of perfection of anyone else. I do feel everyone does try to reach his better self, his full potential, and what that consists of depends on each individual. Whatever that goal is, moving toward it does require vigilance.\"\nDuring the summer and fall of 1965, Coltrane's music evolved at a rapid pace, and he recorded a series of albums (Ascension, New Thing at Newport, Sun Ship, First Meditations (for quartet), Live in Seattle, Om) between the end of June and October before re-entering the studio on October 14.\nBy the time of the October 14 session at Western Recorders in Los Angeles, scheduled during an eleven-day stint at the It Club, Coltrane had added tenor saxophonist Pharoah Sanders and multi-instrumentalist Donald Rafael Garrett (both of whom had appeared on Live in Seattle and Om), as well as drummer Frank Butler and vocalist and percussionist Juno Lewis. Together they recorded \"Kulu Sé Mama (Juno Sé Mama)\" and \"Selflessness\". The latter appeared as a bonus track on the CD reissue of Kulu Sé Mama, and had previously appeared on Selflessness: Featuring My Favorite Things, released in 1969. Both tracks were reissued in 1992 on the compilation The Major Works of John Coltrane.\nThe track \"Kulu Sé Mama (Juno Sé Mama)\" was written by Juno Lewis, who had met Coltrane through a mutual friend four days prior to the recording session. Lewis (1931-2002) was a drummer, drum maker, singer, and composer based in Los Angeles. According to Jon Thurber of the Los Angeles Times, Lewis \"showed Coltrane his long work, 'Kulu Se Mama,' a lengthy autobiographical poem that reflected his pride in his ancestors and strong sense of tradition... Coltrane invited Mr. Lewis into a Los Angeles studio to join Coltrane's regular band\" for the recording session. \"Kulu Sé Mama (Juno Sé Mama)\" marked Lewis' first appearance on a recording.  He sang in \"an Afro-Creole dialect he cites as Entobes\" and played \"Juolulu, water drums, the Dome Dahka, and... bells and a conch shell.\" Lewis also played percussion on \"Selflessness\".\n\n\n== Reception ==\n\nScott Yanow of AllMusic commented \"Lewis' chanting and colorful percussion make this a unique if not essential entry in Coltrane's discography.\" All About Jazz reviewer Chris May referred to Kulu Sé Mama as \"a vibrant and accessible album\" and stated that if the title track \"had been created in the 2000s, 'Kulu Se Mama' might be labeled groove or even jam band music.\" May also wrote: \"Kulu Sé Mama is essential listening for anyone interested in the immediate pre-history of astral jazz.\"\nIn his album liner notes, Nat Hentoff described the title track as \"an absorbing, almost trance-like fusion of tenderness and strength, memory and pride. And fitting its ritual nature, t"
+    }
+   }
+  }
+ },
+ {
+  "id": "mama-too-tight",
+  "kind": "album",
+  "ours": {
+   "title": "Mama Too Tight",
+   "artist": "Archie Shepp",
+   "year": 1967,
+   "label": "Impulse!",
+   "albumDNA": "Mama Too Tight is an album by Archie Shepp released on Impulse! Records in 1967. The album contains tracks recorded by Shepp, trumpeter Tommy Turrentine, trombonists Grachan Moncur III and Roswell Rudd, tuba player Howard Johnson, clarinetist Perry Robinson, bassist Charlie Haden and drummer Beaver Harris in August 1966. Demonstrated that free jazz could embrace jazz history rather than reject it. Shepp's mix of Ellington, blues, and the avant-garde created a template for musicians like David Murray.",
+   "keyTracks": [
+    "A Portrait of Robert Thompson",
+    "Mama Too Tight",
+    "Basheer",
+    "Theme for Ernie"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Mama_Too_Tight"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "44b2cad1-120c-44d7-a704-c66e57318b11",
+     "title": "Mama Too Tight",
+     "date": "1967",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Archie Shepp"
+     ],
+     "labels": [
+      {
+       "name": "impulse!",
+       "catalogNumber": "A-9134"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "6ac4bf38-f57e-3c8c-ac9a-1c58db575d4e",
+      "title": "Mama Too Tight",
+      "firstReleaseDate": "1967",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "A Portrait of Robert Thompson (As a Young Man)",
+      "Mama Too Tight",
+      "Theme for Ernie",
+      "Basheer"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Mama_Too_Tight",
+    "page": {
+     "requestedTitle": "Mama Too Tight",
+     "resolvedTitle": "Mama Too Tight",
+     "shortDescription": "1967 studio album by Archie Shepp",
+     "extract": "Mama Too Tight is an album by Archie Shepp released on Impulse! Records in 1967. The album contains tracks recorded by Shepp, trumpeter Tommy Turrentine, trombonists Grachan Moncur III and Roswell Rudd, tuba player Howard Johnson, clarinetist Perry Robinson, bassist Charlie Haden and drummer Beaver Harris in August 1966.\n\n\n== Reception ==\nThe AllMusic review by Thom Jurek states: \"Shepp had hit his stride here compositionally... lots of free blowing, angry bursts of energy, and shouts of pure revelry are balanced with Ellingtonian elegance and restraint that was considerable enough to let the lyric line float through and encourage more improvisation. This is Shepp at his level best.\"\n\n\n== Track listing ==\nSide 1\n1. A Portrait Of Robert Thompson (as a young man)\nIntroducing\na) Prelude to a Kiss (Duke Ellington, Irving Gordon, Irving Mills)\nb) The Break Strain-King Cotton (public domain)\nc) Dem Basses (public domain) - 18:57\nSide 2\n1. Mama Too Tight - 5:25\n2. Theme for Ernie (Fred Lacey) - 3:21\n3. Basheer - 10:38\n\nAll compositions by Archie Shepp except as indicated\nRecorded at Van Gelder Studio, Englewood Cliffs, NJ, August 19, 1966\n\n\n== Personnel ==\nArchie Shepp: tenor saxophone\nTommy Turrentine: trumpet\nGrachan Moncur III: trombone\nRoswell Rudd: trombone\nHoward Johnson: tuba\nPerry Robinson: clarinet\nCharlie Haden: bass\nBeaver Harris: drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "miles-smiles",
+  "kind": "album",
+  "ours": {
+   "title": "Miles Smiles",
+   "artist": "Miles Davis",
+   "year": 1967,
+   "label": "Columbia",
+   "albumDNA": "Miles Smiles is an album by American jazz musician Miles Davis, released on February 16, 1967, by Columbia Records. It was recorded by Davis and his second quintet at Columbia 30th Street Studio in New York City on October 24 and October 25, 1966. It is the second of six albums recorded by Davis' second great quintet, which featured tenor saxophonist Wayne Shorter, pianist Herbie Hancock, bassist Ron Carter, and drummer Tony Williams.",
+   "keyTracks": [
+    "Orbits",
+    "Circle",
+    "Footprints",
+    "Dolores",
+    "Freedom Jazz Dance",
+    "Gingerbread Boy"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Miles_Smiles"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 0.73,
+    "release": null,
+    "searchCandidates": [
+     {
+      "mbid": "60fa4ab0-bf92-3184-80ca-6dcadbb5c748",
+      "title": "Miles Smiles",
+      "score": 100,
+      "artists": [
+       "Miles Davis Quintet"
+      ],
+      "firstReleaseDate": "1967-01",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     }
+    ]
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Miles_Smiles",
+    "page": {
+     "requestedTitle": "Miles Smiles",
+     "resolvedTitle": "Miles Smiles",
+     "shortDescription": "1967 studio album by Miles Davis",
+     "extract": "Miles Smiles is an album by American jazz musician Miles Davis, released on February 16, 1967, by Columbia Records. It was recorded by Davis and his second quintet at Columbia 30th Street Studio in New York City on October 24 and October 25, 1966. It is the second of six albums recorded by Davis' second great quintet, which featured tenor saxophonist Wayne Shorter, pianist Herbie Hancock, bassist Ron Carter, and drummer Tony Williams.\n\n\n== Music ==\nMiles Smiles showcases Davis' deeper exploration of modal performance with looser forms, tempos, and meters. Although the album did not follow the conventions of bop, neither did it follow the formlessness of free jazz. According to musicologist Jeremy Yudkin, Miles Smiles falls under the post-bop subgenre, which he defines as \"an approach that is abstract and intense in the extreme, with space created for rhythmic and coloristic independence of the drummer—an approach that incorporated modal and chordal harmonies, flexible form, structured choruses, melodic variation, and free improvisation.\" Music theorist Keith Waters writes that the album \"accentuated the quintet's connections to both the hard bop tradition and the avant-garde.\"\nOn three tracks from this album—\"Orbits\", \"Dolores\", and \"Ginger Bread Boy\"—pianist Herbie Hancock takes the unusual liberty of dispensing with left-hand chords and playing only right-hand lines. \"Freedom Jazz Dance\" has more conventional accompaniment from the piano, although the quintet altered Eddie Harris' composition by inserting additional bars between the melodic phrases of the piece, as well as performing the piece at a slightly faster tempo.\n\n\n=== \"Footprints\" ===\n\nWayne Shorter's composition \"Footprints\" was first recorded for his album Adam's Apple, but on Miles Smiles, the correlation between African-based 128 (or 68), and 44 is playfully explored. Drummer Tony Williams freely moves from swing, to the three-over-two cross rhythm—and to its 44 correlative. The rhythmic approach of Williams, and bassist Ron Carter, strongly suggests compound quadruple meter (128), rather than triple meter (34), because the ground of four main beats is maintained throughout the piece. The bass switches to 44 at 2:20. Carter’s 44 figure is known as tresillo in Afro-Cuban music and is the duple-pulse correlative of the 128 figure. This may have been the first overt expression of systemic, African-based cross-rhythm used by a straight ahead jazz group. During Davis’ first trumpet solo, Williams shifts to a 44 jazz ride pattern while Carter continues the 128 bass line.\n\n\n=== The Davis \"book\" ===\nThree of the album's compositions made it to Davis' live \"book\". \"Dolores\" is known from a single recording in the spring of 1967. \"Ginger Bread Boy\" and \"Footprints\" were played much more frequently. Early live versions of \"Ginger Bread Boy\" (from the spring and summer of 1966) retained the melody of Heath's original version. The melody on the studio version is somewhat different (presumably changed by Davis), and ensuing versions often retain this change. \"Ginger Bread Boy\" was played as late as the summer of 1969. \"Footprints\" appears on Live in Europe 1967: The Bootleg Series Vol. 1, 1969 Miles: Festiva de Juan Pins, Live in Europe 1969: The Bootleg Series Vol. 2, and unofficial live recordings from the Fillmore West in April 1970.\n\n\n== Reception and legacy ==\n\nMiles Smiles received critical acclaim in 1967, and was praised for its original compositions, the quintet's chemistry and playing, and Davis' phrasing. CODA editor John Norris praised the quintet's \"mastery of sensitive interaction\" and wrote that they \"must be one of the most beautifully integrated groups ever to play jazz\". Norris noted that \"Every man is listening intently at all times, responding sensitively to mutual hints and directions\", and stated \"The empathy between Carter, Williams and Hancock, the way they anticipate each other, push each other, support each other, and phrase together - all this without a sign of strain - is really amazing\". He cited the Davis-penned \"Circle\" as the album's highlight and wrote that the composition \"defines the excellence of the group... a masterpiece\". Nat Hentoff of Stereo Review called Tony Williams and Ron Carter \"prodigious technicians and restless\", while noting \"Though tenor saxophonist Wayne Shorter does not quite reach the incandescent performance level attained by his colleagues, he is inspired by them to deliver some of his most inventive playing o"
+    }
+   }
+  }
+ },
+ {
+  "id": "mr-jelly-lord",
+  "kind": "album",
+  "ours": {
+   "title": "Mr. Jelly Lord",
+   "artist": "Jelly Roll Morton",
+   "year": 1967,
+   "label": "RCA Victor",
+   "albumDNA": "With Mr. Jelly Lord (1967), pianist Jelly Roll Morton delivers a free jazz program for the RCA Victor label. The date includes \"Burrnin' The Iceburg\" and \"Mr. Jelly Lord\". The album comes from the free jazz era, when musicians abandoned predetermined structures for collective expression.",
+   "keyTracks": [
+    "Black Bottom Stomp",
+    "The Chant",
+    "Dead Man Blues",
+    "Original Jelly Roll Blues",
+    "Grandpa's Spell",
+    "Beale Street Blues"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "e1cb2b39-9c69-48b1-8b9e-c28ae8806415",
+     "title": "Mr. Jelly Lord",
+     "date": "1967",
+     "country": null,
+     "status": "Official",
+     "artists": [
+      "Jelly Roll Morton"
+     ],
+     "labels": [
+      {
+       "name": "RCA Victor",
+       "catalogNumber": "LPV-546"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "2c4003b7-41fc-4120-9bac-5e12deb7b94d",
+      "title": "Mr. Jelly Lord",
+      "firstReleaseDate": "1967",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Burrnin' The Iceburg",
+      "Mr. Jelly Lord",
+      "Down My Way",
+      "When They Get Lovin' They's Gone",
+      "You Oughtta See My Gal",
+      "New Orleans Bump",
+      "Load Of Coal",
+      "Red Hot Pepper Stomp",
+      "Wolverine Blues",
+      "Wolverine Blues 2",
+      "Courthouse Bump",
+      "Keep Your Business To Yourself",
+      "Deep Creek - Blues",
+      "Fusssy Mabel",
+      "Someday Sweetheart Blues",
+      "Crazy Chords"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "mr-shing-a-ling",
+  "kind": "album",
+  "ours": {
+   "title": "Mr. Shing-A-Ling",
+   "artist": "Lou Donaldson",
+   "year": 1967,
+   "label": "Blue Note",
+   "albumDNA": "Mr. Shing-a-Ling is an album by American jazz saxophonist Lou Donaldson, recorded on October 27, 1967 and released on Blue Note in January 1968. The quintet features trumpeter Blue Mitchell, organist Lonnie Smith, guitarist Jimmy Ponder, and drummer Idris Muhammad.",
+   "keyTracks": [
+    "Ode to Billie Joe",
+    "The Humpback",
+    "The Shadow of Your Smile",
+    "Peepin'",
+    "The Kid"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "50c15e2b-05ae-4d41-8b8f-0bf2adc8e01b",
+     "title": "Mr. Shing-A-Ling",
+     "date": "1967",
+     "country": "DE",
+     "status": "Official",
+     "artists": [
+      "Lou Donaldson"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "BST 84271"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "055dd49b-fb0c-324e-a591-aea4d3453bb0",
+      "title": "Mr. Shing-A-Ling",
+      "firstReleaseDate": "1967",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Ode to Billie Joe",
+      "The Humpback",
+      "The Shadow of Your Smile",
+      "Peepin'",
+      "The Kid"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "one-flight-up",
+  "kind": "album",
+  "ours": {
+   "title": "One Flight Up",
+   "artist": "Dexter Gordon",
+   "year": 1967,
+   "label": "Blue Note",
+   "albumDNA": "One Flight Up is an album by American jazz saxophonist Dexter Gordon recorded on June 2, 1964, in Paris and released on Blue Note the following year. The session featured Donald Byrd on trumpet, pianist Kenny Drew, bassist Niels-Henning Ørsted Pedersen, and drummer Art Taylor.",
+   "keyTracks": [
+    "Tanya",
+    "Coppin' the Haven",
+    "Darn That Dream"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "42feabb5-2f94-4377-ba96-b9cd3acc8d7f",
+     "title": "One Flight Up",
+     "date": "2004-08-10",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "Dexter Gordon"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "02db33cf-dfcd-383b-baca-27d4217b98c9",
+      "title": "One Flight Up",
+      "firstReleaseDate": "1967",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Tanya",
+      "Coppin’ the Haven",
+      "Darn That Dream",
+      "Kong Neptune A.K.A. King Neptune"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "straight-no-chaser",
+  "kind": "album",
+  "ours": {
+   "title": "Straight, No Chaser",
+   "artist": "Thelonious Monk",
+   "year": 1967,
+   "label": "Columbia",
+   "albumDNA": "Straight, No Chaser is the sixth studio album Thelonious Monk recorded for Columbia Records, released in 1967. The album was reissued on CD in 1996, including restored versions of previously abridged performances and three additional tracks. Captures Monk's mature quartet in peak form. His influence on jazz harmony and melody is fully displayed.",
+   "keyTracks": [
+    "Straight, No Chaser",
+    "Japanese Folk Song",
+    "We See",
+    "Green Chimneys"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Straight%2C_No_Chaser_(Thelonious_Monk_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "958e39bf-8bcc-48d9-8987-8dc687b54457",
+     "title": "Straight No Chaser: Music from the Motion Picture",
+     "date": "1989-09-12",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Thelonious Monk"
+     ],
+     "labels": [
+      {
+       "name": "Columbia",
+       "catalogNumber": "CK 45358"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "e1ab14c5-1b3b-3070-aac2-62746f45dd51",
+      "title": "Straight No Chaser",
+      "firstReleaseDate": "1989-09-12",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Soundtrack"
+      ]
+     },
+     "tracks": [
+      "Straight, No Chaser / [opening narration]",
+      "Pannonica",
+      "Trinkle, Tinkle",
+      "Ugly Beauty (rehearsal)",
+      "Ugly Beauty",
+      "Epistrophy",
+      "Evidence",
+      "I Mean You (Stickball) (rehearsal and performance)",
+      "Lulu's Back in Town",
+      "Don't Blame Me",
+      "Sweetheart of All My Dreams",
+      "'Round Midnight"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Straight%2C_No_Chaser_(Thelonious_Monk_album)",
+    "page": {
+     "requestedTitle": "Straight, No Chaser (Thelonious Monk album)",
+     "resolvedTitle": "Straight, No Chaser (Thelonious Monk album)",
+     "shortDescription": "1967 studio album by Thelonious Monk",
+     "extract": "Straight, No Chaser is the sixth studio album Thelonious Monk recorded for Columbia Records, released in 1967. The album was reissued on CD in 1996, including restored versions of previously abridged performances and three additional tracks.\n\n\n== Music and lyrics ==\n\"Japanese Folk Song\" was based on \"Kōjō no Tsuki\", a Japanese song written in the Meiji era. It can be heard in the 2016 American movie La La Land, as one of the main characters, Sebastian Wilder, tries to memorize and play it.\n\n\n== Track listing ==\nAll songs are written by Thelonious Monk except where noted.\nSide one\n\n\"Locomotive\" – 6:38\n\"I Didn't Know About You\" (Duke Ellington, Bob Russell) – 6:50\n\"Straight, No Chaser\" – 10:31\nSide two\n\n\"Japanese Folk Song\" (Rentarō Taki) – 11:03\n\"Between the Devil and the Deep Blue Sea\" (Harold Arlen, Ted Koehler) – 7:34\n\"We See\" – 8:48\nCD reissue\n\n\"Locomotive\" – 6:40\n\"I Didn't Know About You\" (Ellington) – 6:52\n\"Straight, No Chaser\" – 11:28\n\"Japanese Folk Song (Kōjō no Tsuki)\" (Taki) – 16:42\n\"Between the Devil and the Deep Blue Sea\" (Arlen, Koehler) – 7:36\n\"We See\" – 11:37\n\"This Is My Story, This Is My Song\" (Phoebe Knapp) – 1:42 (better known by the title \"Blessed Assurance\")\n\"I Didn't Know About You\" (Ellington) – 6:49\n\"Green Chimneys\" – 6:34\n\n\n== Personnel ==\nThelonious Monk – piano\nCharlie Rouse – tenor saxophone\nLarry Gales – double bass\nBen Riley – drums\n\n\n== Notes ==\n\n\n== References =="
+    }
+   }
+  }
+ }
+]

@@ -1,0 +1,315 @@
+[
+ {
+  "id": "morning-with-swing-jazz-guitar-trumpet-saxophone-more-melodies-of-piano-instrumental-smooth-jazz-music",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no", "wikipedia_note": "stored evidence URL is Jazz_fusion (generic genre page), not this album"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid is authoritative: title/artists (The Jazz Messengers + Piano Dreamers)/date 2019-09-21/label Diamond Music Record all match ours exactly. albumDNA (2019, Diamond Music Record, instrumental smooth-jazz, tracks The Best of Vintage Jazz / Romance Time After Time / Love Serenade) all confirmed by MB tracklist. All 5 keyTracks present in MB tracklist. ours.wikipediaUrl is null."
+ },
+ {
+  "id": "solo-piano-at-wkcr-1977",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: title/artist Sun Ra/date 2019-03-15 match; labels empty so ours 'Unknown' is acceptable (not contradicted). All 5 keyTracks present in MB tracklist. albumDNA's genre framing ('swing / big band tradition, recorded during the jazz fusion era') is editorial/awkward for a 1977 solo-piano date but is opinion, not a checkable factual contradiction. Stored evidence wiki (Charlie_Parker) is a different entity but ours.wikipediaUrl is null."
+ },
+ {
+  "id": "secrets-are-the-best-stories",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "artist", "ours": "Danilo Pérez", "evidence": "Kurt Elling", "evidenceQuote": "\"artists\": [\"Kurt Elling\"]", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "Right album (title/year 2020/label Edition Records/tracks all match MB embedded_mbid), and the albumDNA itself correctly names 'vocalist Kurt Elling leads...'. But the ours.artist FIELD says 'Danilo Pérez' (the album's pianist), contradicting MB's authoritative artist credit 'Kurt Elling'. Single wrong field on an otherwise correct entity = factual_error, not entity_mismatch. All 5 keyTracks present in MB tracklist."
+ },
+ {
+  "id": "the-legend-of-king-oliver-remastered",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match (similarity 1.0): title/artist King Oliver/date 2020-03-20/label Master Tape Records all match, and all 5 keyTracks (incl. Dipper Mouth Blues, St James Infirmary) present in the 40-track MB listing. Entity strongly confirmed. Biographical context (mentored Louis Armstrong; led the Creole Jazz Band of the early 1920s; plunger-muted cornet) is peripheral and not verifiable from the pack evidence, but not contradicted; per spec, absence is not contradiction and entity is well-confirmed by checkable facts. Stored evidence wiki (King_Princess) is a different entity but ours.wikipediaUrl is null."
+ },
+ {
+  "id": "who-are-you",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no", "wikipedia_note": "stored evidence URL is Diana_Ross, a different entity (classic disambiguation collision)"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: title 'Who Are You?'/artist Joel Ross/date 2020-10-23/label Blue Note all match. All 5 keyTracks (Dream, Calling, Home, More?, After the Rain) present in MB tracklist; 'After the Rain' (attributed to Coltrane) is on the album. Personnel/discography color (debut KingMaker; Immanuel Wilkins; harpist Brandee Younger) is unverifiable from pack but not contradicted. Stored evidence wiki is Diana_Ross (wrong entity) but ours.wikipediaUrl is null."
+ },
+ {
+  "id": "amaryllis-belladonna",
+  "verdict": "factual_error",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a", "websearch": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["The Gate", "Belladonna"],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "keyTracks: \"The Gate\"", "problem": "track not on either suite of this album", "evidenceQuote": "ours.keyTracks contains 'The Gate', which is NOT a track on either album (real tracks listed above)", "source": "websearch"}
+  ],
+  "notes": "Entity confirmed via websearch (resolved=true): Mary Halvorson's Nonesuch debut, 2022, two paired suites. ours.year 2022 and label Nonesuch CORRECT. The repaired albumDNA (sextet + Mivos Quartet on three tracks; Belladonna = solo guitar + same quartet, five pieces; produced by John Dieterich) matches the websearch note exactly. keyTracks driver of factual_error: 'The Gate' is explicitly confirmed NOT to be a track. 'Belladonna' also does not appear in the provided websearch findings.tracklist (which is the Amaryllis side only: Night Shift, Anesthesia, Amaryllis, Side Effect, Hoodwink, 892 Teeth, plus Belladonna's 2nd track Moonburn); Belladonna is the suite name and may be a track title but is unconfirmed by pack evidence, so listed as unmatched. 'Amaryllis' and 'Night Shift' do match. Per spec, keyTracks were only repaired when null, so the stale 'The Gate' remains and is flagged here."
+ },
+ {
+  "id": "live-at-scholes-street-studio",
+  "verdict": "clean",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: title/date 2022-11-04/label gaucimusic match; both keyTracks (Improvisation I, Improvisation II) match the 2-track listing exactly. MB credits four co-artists: Stephen Gauci, Matt Shipp, William Parker, Francisco Mela (Gauci listed first; label is 'gaucimusic', so Gauci is arguably leader). ours.artist 'Matthew Shipp' (= Matt Shipp) is one of the credited co-artists, so attributing to Shipp is incompleteness, not a contradiction (per spec, naming one credited player and omitting others is editorial latitude, not a mismatch). Repair-writer could broaden the credit to the Gauci/Shipp/Parker/Mela collective."
+ },
+ {
+  "id": "christmas-stories",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no", "wikipedia_note": "stored evidence URL is Christmas_in_popular_culture (generic), not this album"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: title/artist Christian Sands/date 2023-10-06/label Mack Avenue Records all match. All 5 keyTracks present in MB tracklist. albumDNA claims (2023, Mack Avenue, contemporary jazz, Jingle Bells / Let It Snow!) all confirmed. ours.wikipediaUrl is null."
+ },
+ {
+  "id": "pdron-rubalcaba",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: title 'Pédron Rubalcaba'/artists Pierrick Pédron + Gonzalo Rubalcaba/date 2023-06-09/label GAZEBO all match. All 5 keyTracks present in MB tracklist. Stored wiki (Gonzalo_Rubalcaba) is about our artist and its discography even lists 'Pédron Rubalcaba with Pierrick Pédron (mars 2023)', confirming year; 'Cuban jazz pianist' confirms the DNA descriptor. wikiLinkVerdict=correct (page is about our co-credited artist)."
+ },
+ {
+  "id": "pink-elephants-on-parade",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: title/artists Sun Ra + Arkestra/date 2024-07-05 match; labels empty so ours 'Unknown' acceptable. All 6 keyTracks match MB base titles (venue/year suffixes like '(9:30 Club)', '(Virginia 1988)' ignored per the take-suffix rule): The Forest of No Return, Someday My Prince Will Come, Zip-A-Dee-Doo-Dah, Let's Go Fly a Kite, Second Star to the Right, Pink Elephants on Parade. albumDNA's Disney-songs framing and named tracks all confirmed against the tracklist."
+ },
+ {
+  "id": "the-lore",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no", "wikipedia_note": "stored evidence URL is Scott_Colley (a bassist who played with Metheny), not this album"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid: title 'The Lore'/artists Pat Metheny + Pat Metheny Group/date 2025-03-27/label FP, secondaryTypes ['Compilation'] all match. albumDNA's 'compilation' descriptor matches the MB secondary type. All 5 keyTracks present in MB tracklist. ours.wikipediaUrl is null."
+ },
+ {
+  "id": "lullaby-of-birdland",
+  "verdict": "factual_error",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "artist", "ours": "Duke Ellington", "evidence": "Lee Konitz (featuring Barry Harris)", "evidenceQuote": "Lullaby of Birdland is a live album by saxophonist Lee Konitz featuring pianist Barry Harris which was recorded at Birdland in 1991 and released on the Candid label.", "source": "wiki"},
+   {"field": "label", "ours": "Intermedia Records", "evidence": "Candid", "evidenceQuote": "released on the Candid label", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "The album under this id is the Lee Konitz / Barry Harris live album (Candid), confirmed by both MB embedded_mbid (artists Lee Konitz, Barry Harris; label Candid) and the stored wiki page (which IS about this album). The generic albumDNA names no artist and lists tracks that all match the tracklist (Lullaby of Birdland, Anthropology, Ask Me Now, etc.), so the prose skeleton is correct-to-album, not an Ellington skeleton -> factual_error (wrong artist + label fields), not entity_mismatch. ours.wikipediaUrl is null (the stored evidence URL is the correct album page, but it is not shipped in ours)."
+ },
+ {
+  "id": "smack",
+  "verdict": "factual_error",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no", "wikipedia_note": "opensearch resolved to 'Smak (album)', a 1975 Serbian rock band, unrelated"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Key tracks include 'Down Hearted Blues' and 'Copenhagen'", "problem": "neither track is on this release's authoritative tracklist", "evidenceQuote": "\"tracks\": [\"Teapot Dome Blues\", \"Sugar Foot Stomp\", \"What-Cha-Call-'em Blues\", \"The Stampede\", \"Henderson Stomp\", \"I'm Coming Virginia\", \"King Porter Stomp\", \"Oh Baby\", \"Wang Wang Blues\", \"Clarinet Marmelade\", \"Yeah Man\", \"Christopher Columbus\", ...]", "source": "mb"}
+  ],
+  "notes": "MB embedded_mbid resolves a Fletcher Henderson compilation (French 'Les Génies du Jazz' series, nickname 'Smack'); artist Fletcher Henderson matches. The 5 ours.keyTracks (Sugar Foot Stomp, The Stampede, Teapot Dome Blues, What-Cha-Call-'em Blues, Henderson Stomp) ALL match the MB tracklist. But the albumDNA prose cites 'Down Hearted Blues' and 'Copenhagen' as key tracks, and neither appears on this release's 18-track authoritative listing -> factual_error. (Title string differs from MB but the embedded_mbid match is unambiguous.)"
+ },
+ {
+  "id": "father-of-stride-piano-james-p-johnson",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a", "websearch": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed via websearch (resolved=true): 'Father of the Stride Piano', Columbia LP CL-1780, 1962, James P. Johnson. ours.year 1962 and label Columbia match websearch findings. All 6 keyTracks (Carolina Shout, Snowy Morning Blues, The Mule Walk, Blueberry Rhyme, If Dreams Come True, Old-Fashioned Love) present in the websearch 16-track listing. albumDNA is pure editorial boilerplate ('most celebrated works', 'landmark of Early Jazz') with no checkable specific claims to contradict. No standalone Wikipedia article (related article is the tune 'Carolina Shout')."
+ },
+ {
+  "id": "carolina-shout-james-p-johnson",
+  "verdict": "clean",
+  "confidence": 0.78,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match (similarity 1.0): title 'Carolina Shout'/artist James P. Johnson/date 1988/Compilation all match; ours.year 1988 confirmed. All 6 keyTracks (Carolina Shout, Harlem Strut, Steeplechase Rag, Twilight Rag, Baltimore Buzz, Gypsy Blues) present in MB tracklist. albumDNA is editorial boilerplate, no checkable contradiction. ours.label 'Various' is a placeholder; the precise label per MB is 'Biograph Records' (BCD-105) -- a repair-writer could tighten this, but a generic 'Various' placeholder is not a contradicting specific-label claim, so not flagged."
+ },
+ {
+  "id": "king-olivers-jazz-band-1923-king-oliver",
+  "verdict": "clean",
+  "confidence": 0.88,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a", "websearch": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed via websearch (resolved=true). albumDNA claims all match the websearch note: 37 sides cut in 1923 for Gennett/OKeh/Columbia/Paramount (so 'Various' label correct); paired Oliver with second cornetist Louis Armstrong (21 in 1923 -- Aug 1901 birth, consistent), clarinetist Johnny Dodds, pianist Lil Hardin (note lists King Oliver, Louis Armstrong 2nd cornet, Johnny Dodds clarinet, Lil Hardin piano). All 5 keyTracks (Dippermouth Blues, Snake Rag, Weather Bird Rag, Froggie Moore, Chimes Blues) present in websearch tracklist. ours.year 1923 confirmed. No dedicated Wikipedia article for this compilation."
+ },
+ {
+  "id": "jelly-roll-morton-the-piano-rolls-jelly-roll-morton",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a", "websearch": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed via websearch (resolved=true): Jelly Roll Morton: The Piano Rolls, Nonesuch, 1997, realized by Artis Wodehouse on a Yamaha Disklavier. albumDNA claims all match the websearch note (1997 Nonesuch, twelve piano rolls cut in the 1920s, Artis Wodehouse, Yamaha Disklavier; King Porter Stomp / Dead Man Blues / Grandpa's Spells all in tracklist). ours.year 1997 and label Nonesuch confirmed. All 5 keyTracks present in websearch 12-track listing. No dedicated Wikipedia article."
+ },
+ {
+  "id": "the-blue-note-sessions-sidney-bechet",
+  "verdict": "clean",
+  "confidence": 0.72,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a", "websearch": "yes_partial"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "websearch resolved=true but PARTIAL: the exact release titled 'The Blue Note Sessions' could not be pinned to one catalog entry, so ours.year stays null (not a wrong claim). Verified: Bechet recorded extensively for Blue Note 1939-1953, so label 'Blue Note' is correct; all 5 keyTracks (Summertime, Blue Horizon, Dear Old Southland, Muskrat Ramble, China Boy) are listed in the websearch findings.tracklist as verified Bechet Blue Note recordings. albumDNA is editorial boilerplate with no checkable specific claims that fail. Entity (Sidney Bechet, Blue Note) confirmed; no contradictions."
+ },
+ {
+  "id": "moonlight-serenade-glenn-miller",
+  "verdict": "factual_error",
+  "confidence": 0.72,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "unsure", "wikipedia_note": "stored resolved to a disambiguation page that confirms the 1939 Glenn Miller song origin"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 1992, Moonlight Serenade showcases Glenn Miller at the height of their creative powers", "problem": "anachronistic recording date -- the title work is a 1939 Glenn Miller song and this is a vintage-material compilation, so 'recorded in 1992' is impossible for Glenn Miller", "evidenceQuote": "\"Moonlight Serenade\" is a 1939 American popular song with original music by Glenn Miller and subsequent lyrics by Mitchell Parish.", "source": "wiki"}
+  ],
+  "notes": "MB search match (similarity 1.0): Glenn Miller compilation 'Moonlight Serenade' (secondaryTypes ['Compilation'], MB release date 2001). All 6 keyTracks (Moonlight Serenade, In the Mood, Tuxedo Junction, Pennsylvania 6-5000, Chatanooga Choo Choo, American Patrol) present in MB tracklist. The albumDNA boilerplate claim 'Recorded in 1992' is contradicted by the evidence that the signature work is a 1939 Glenn Miller composition and the release is a compilation of vintage material -> factual_error. (Wikipedia evidence is a disambiguation page, usable only to confirm the 1939 song origin.)"
+ },
+ {
+  "id": "begin-the-beguine-artie-shaw",
+  "verdict": "factual_error",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no", "wikipedia_note": "opensearch resolved to 'Begin the Beguine (album)', a 1981 Julio Iglesias album, unrelated"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Begin the Beguine", "Back Bay Shuffle", "Any Old Time", "Nightmare", "Yesterdays", "Rosalie"],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid resolves an Artie Shaw compilation 'Begin the Beguine' (Documents label, 2005-03-07, Compilation, 40 tracks). ours.year 2005 matches. albumDNA is editorial boilerplate (no specific track claims). Driver of factual_error: ALL 6 keyTracks are unmatched against the authoritative 40-track MB listing -- none of 'Begin the Beguine', 'Back Bay Shuffle', 'Any Old Time', 'Nightmare', 'Yesterdays', 'Rosalie' appears (the MB tracklist is a different set of 1936-37 sides: The Japanese Sandman, Sugar Foot Stomp, Copenhagen, Night and Day, etc.). The catalogued keyTracks are genuine Artie Shaw signatures but are not on THIS particular release per MB. ours.label 'Various' is a placeholder vs MB 'Documents' (not separately flagged)."
+ },
+ {
+  "id": "hi-de-ho-man-cab-calloway",
+  "verdict": "clean",
+  "confidence": 0.82,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match (similarity 1.0): title 'Hi De Ho Man'/artist Cab Calloway/date 1974/label Columbia (G 32593)/Compilation. ours.year 1974 confirmed. All 6 keyTracks match the MB tracklist (ours 'Fifteen Minutes Itermission' is a typo matching MB 'Fifteen Minutes Intermission' -- a near-match; 'Jumpin Jive', 'Abi Gezunt', 'Nagasaki', 'Hoy Hoy', 'A Chicken Ain't Nothing but a Bird' all present). albumDNA is editorial boilerplate, no checkable contradiction. ours.label 'Various' is a placeholder vs MB 'Columbia' (not flagged as a contradicting specific-label claim)."
+ },
+ {
+  "id": "body-and-soul-coleman-hawkins",
+  "verdict": "clean",
+  "confidence": 0.82,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes", "wikipedia_note": "wiki page is a different Coleman Hawkins 'Body and Soul' compilation edition (1996, recordings 1939-1956) than the MB Dreyfus Jazz 2001 edition, but same artist and title"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match (similarity 1.0): title 'Body and Soul'/artist Coleman Hawkins/date 2001-11-21/label Dreyfus Jazz/Compilation. All 6 keyTracks (Body and Soul, How Deep Is the Ocean, The Man I Love, My Ideal, Stumpy, Sweet Lorraine) are the first six tracks of the MB listing -- all match. albumDNA is editorial boilerplate, no checkable contradiction; ours.year is null (no claim). ours.label 'Various' is a placeholder vs MB 'Dreyfus Jazz' (not flagged). The opensearch wiki is a same-titled Coleman Hawkins compilation of a different edition -- right artist, useful corroboration of entity."
+ },
+ {
+  "id": "tatum-group-masterpieces-vol-1-art-tatum",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a", "websearch": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed via websearch (resolved=true). albumDNA claims all match the websearch note: first of Norman Granz's eight-volume Tatum Group Masterpieces series, recorded June 25 1954 (Los Angeles), released 1975 on Pablo, Art Tatum (piano) with Benny Carter (alto) and Louis Bellson (drums); A Foggy Day / Street of Dreams / 'S Wonderful all in tracklist. ours.year 1975 and label Pablo confirmed. All 6 keyTracks are the first six of the websearch 14-track listing -- all match. (A prior 'Recorded in 2006' error was corrected; current DNA is accurate.) No dedicated Wikipedia article for Vol. 1."
+ },
+ {
+  "id": "mary-lou-williams-presents-black-christ-of-the-andes-mary-lou-williams",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes", "websearch": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed via websearch (resolved=true) and Wikipedia (Mary_Lou_Williams_(album)). albumDNA claims all match: 1964 Folkways album, recorded after Williams's conversion to Catholicism; title track 'St. Martin de Porres' is a choral mass hymn for the Afro-Peruvian saint; It Ain't Necessarily So, Miss D.D., Anima Christi all in tracklist. ours.year 1964 and label Folkways confirmed. All 5 keyTracks present in websearch 14-track listing. ours.wikipediaUrl matches the websearch-confirmed page -> wikiLinkVerdict=correct."
+ },
+ {
+  "id": "nows-the-time-charlie-parker",
+  "verdict": "factual_error",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "unsure", "wikipedia_note": "stored resolved to 'Now's the Time (composition)' -- about the Parker composition (right artist), not the album; confirms the 1945 first recording"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Recorded in 2020, Now's the Time showcases Charlie Parker at the height of their creative powers", "problem": "anachronistic recording date -- 'Now's the Time' was first recorded by Parker in 1945 and the album is a reissue of vintage bebop material, so 'recorded in 2020' is impossible for Charlie Parker", "evidenceQuote": "\"Now's the Time\" is a composition by Charlie Parker. He led the first recording of it, on November 26, 1945.", "source": "wiki"}
+  ],
+  "notes": "MB embedded_mbid: title 'Now's The Time'/artist Charlie Parker/date 2020 (release date)/label Bird's Nest (a budget reissue label; tracklist riddled with [alt tk] markers = archival material). All 6 keyTracks (Now's The Time, The Song Is You, Laird Baird, Kim, Kim [alt tk], Cosmic Rays) present in MB tracklist. The albumDNA boilerplate 'Recorded in 2020' is contradicted by the wiki evidence that Parker first recorded the title piece on 26 Nov 1945 and the material is bebop-era -> factual_error. (Wikipedia evidence is the composition page, usable to confirm the 1945 recording / anachronism.)"
+ }
+]

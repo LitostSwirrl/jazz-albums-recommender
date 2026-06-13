@@ -1,0 +1,1343 @@
+[
+  {
+    "id": "a-jazz-hour-with-dizzy-gillespie",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Dizzy Gillespie and the Double Six of Paris is a 1963 studio album collaboration between Dizzy Gillespie and Les Double Six, also known as the Double Six of Paris",
+    "contradictingQuote": "Dizzy Gillespie and the Double Six of Paris is a 1963 studio album collaboration between Dizzy Gillespie and Les Double Six",
+    "skepticDecision": "Fails: the prose is the verbatim lede of 'Dizzy Gillespie and the Double Six of Paris' (1963), a different album with a different program, while MB confirms the item is the 1992 Movieplay 'A Jazz Hour With Dizzy Gillespie'. Wholesale about another work.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Dizzy Gillespie and the Double Six of Paris is a 1963 studio album collaboration between Dizzy Gillespie and Les Double Six, also known as the Double Six of Paris",
+        "problem": "The entire albumDNA describes a different album. Our item is 'A Jazz Hour With Dizzy Gillespie' (1992, Distribution Movieplay), which MB confirms with a distinct tracklist (includes Manteca, Alone Together, Birk's Works, The Mooche). The prose is lifted from the wikipedia page for the 1963 Double Six of Paris record (different tracklist: Emanon, Anthropology, One/Two Bass Hit, Hot House, Con Alma, etc.).",
+        "evidenceQuote": "Dizzy Gillespie and the Double Six of Paris is a 1963 studio album collaboration between Dizzy Gillespie and Les Double Six",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Same artist (Dizzy Gillespie) but the prose and the stored wiki link belong to a DIFFERENT album (the 1963 Double Six of Paris collaboration), not the 1992 Movieplay 'Jazz Hour' compilation that MB resolved from the embedded MBID. keyTracks (Tin Tin Deo, Manteca, Ooh-Shoo-Be-Doo-Bee, Groovin' High, Alone Together) all match OUR MB tracklist, so the catalog data is right — only the prose/wikiUrl are mis-sourced. Wiki page is about the other album → wrong_entity.",
+    "ours": {
+      "title": "A Jazz Hour With Dizzy Gillespie",
+      "artist": "Dizzy Gillespie",
+      "year": 1992,
+      "label": "Distribution Movieplay",
+      "albumDNA": "Dizzy Gillespie and the Double Six of Paris is a 1963 studio album collaboration between Dizzy Gillespie and Les Double Six, also known as the Double Six of Paris, a French vocal group who sings in vocalese to songs associated with Dizzy Gillespie. Gillespie, pianist Bud Powell, and a rhythm section accompany; two of the songs feature his quintet, with James Moody. It was reissued on CD in 1989.",
+      "keyTracks": [
+        "Tin Tin Deo",
+        "Alone Together",
+        "Manteca",
+        "Ooh-Shoo-Be-Doo-Bee",
+        "Groovin' High"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "4ad48640-1745-4d59-aa98-b57843239cc2",
+          "title": "A Jazz Hour With Dizzy Gillespie",
+          "date": "1992",
+          "country": null,
+          "status": "Official",
+          "artists": [
+            "Dizzy Gillespie"
+          ],
+          "labels": [
+            {
+              "name": "Distribution Movieplay",
+              "catalogNumber": "73550"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "02a37803-18ba-4f38-9f88-bbb5be6a8338",
+            "title": "A Jazz Hour With Dizzy Gillespie",
+            "firstReleaseDate": "1992",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Tin Tin Deo",
+            "Alone Together",
+            "Manteca",
+            "Ooh-Shoo-Be-Doo-Bee",
+            "Groovin' High",
+            "Birk's Works",
+            "School Days",
+            "I Can't Get Started",
+            "They Can't Take That Away From Me",
+            "There Is No Greater Love",
+            "Lady Be Good",
+            "The Mooche"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Dizzy_Gillespie_and_the_Double_Six_of_Paris",
+        "page": {
+          "requestedTitle": "Dizzy Gillespie and the Double Six of Paris",
+          "resolvedTitle": "Dizzy Gillespie and the Double Six of Paris",
+          "shortDescription": "1964 studio album by Dizzy Gillespie, Les Double Six, and Bud Powell",
+          "extract": "Dizzy Gillespie and the Double Six of Paris is a 1963 studio album collaboration between Dizzy Gillespie and Les Double Six, also known as the Double Six of Paris, a French vocal group who sings in vocalese to songs associated with Dizzy Gillespie. Gillespie, pianist Bud Powell, and a rhythm section accompany; two of the songs feature his quintet, with James Moody. It was reissued on CD in 1989.\nThe vocal parts by the Double Six were overdubbed on top of recordings by Gillespie, Powell, Pierre Michelot, and Kenny Clarke that had been made in July 1963. Two tracks were recorded with James Moody, Kenny Barron, Chris White, and Rudy Collins in Chicago in September 1963.\n\n\n== Reception ==\nLeonard Feather described the album as \"unique and unprecedented\" and described the music as \"sensational.\" Commenting on the vocalists, he wrote, \"The results impress partly as a technical tour de force, and the Double Six must be respected for its accuracy and peerless intonation, but these values are a means to an artistically complete end.\"\nThe Penguin Guide to Jazz gave the album 3.5 of 4 stars, applauding Gillespie's \"superb solos\" and the Double Six's \"supremely athletic vocals.\"\n\n\n== Track listing ==\n\"Emanon\" (Gillespie, Shaw) – 3:44\n\"Anthropology\" (Gillespie, Parker) – 2:45\n\"Tin Tin Deo\" (Fuller, Pozo) – 4:15\n\"One Bass Hit\" (Brown, Fuller, Gillespie) – 3:26\n\"Two Bass Hit\" (Gillespie, Lewis) – 3:31\n\"Groovin' High\" (Gillespie, Paparelli) – 2:27\n\"Ooh-Shoo-Be-Doo-Bee\" (Carroll, Gillespie, Graham) – 3:04\n\"Hot House\" (Dameron) – 3:01\n\"Con Alma\" (Gillespie) – 3:35\n\"Blue 'n' Boogie\" (Gillespie, Paparelli) – 3:08\n\"The Champ\" (Gillespie) – 3:06\n\"Ow!\" (Gillespie) – 2:43\n\n\n== Personnel ==\n\n\n=== Vocalists ===\nJean-Claude Briodin – vocals\nChristiane Legrand – vocals\nEddy Louiss – vocals\nMimi Perrin – vocals\nBob Smart – vocals\nWard Swingle – vocals\n\n\n=== Instrumentalists ===\nDizzy Gillespie – trumpet, vocal (7)\nJames Moody – alto saxophone   (7, 9)\nKenny Barron – piano   (7, 9)\nBud Powell – piano (1–3, 6, 8, 10–12)\nPierre Michelot – bass (1–3, 6, 8, 10–12)\nChris White – bass (7, 9)\nKenny Clarke – drums   (1–3, 6, 8, 10–12)\nRudy Collins – drums (7, 9)\n\n\n=== Arrangers ===\nLalo Schifrin – arranger\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "afrodisia",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "\"Soul Makossa\" is a song by Cameroonian saxophonist and songwriter Manu Dibango, released as a single in 1972.",
+    "contradictingQuote": "shortDescription: \"1972 single by Manu Dibango\"",
+    "skepticDecision": "The albumDNA is wholesale the article about the song/single 'Soul Makossa' (1972 single, B-side history of the football anthem) and the evidence shortDescription marks it as a 1972 single; this item is an album (MB primaryType Album, 1973), so the prose describes a different entity.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "\"Soul Makossa\" is a song by Cameroonian saxophonist and songwriter Manu Dibango, released as a single in 1972",
+        "problem": "the entire albumDNA describes the SONG/single, copied verbatim from the Wikipedia article about the single, while this catalog item is a 1973 ALBUM (MB: primaryType Album, firstReleaseDate 1973)",
+        "evidenceQuote": "shortDescription: \"1972 single by Manu Dibango\"",
+        "source": "wiki"
+      },
+      {
+        "ourClaim": "The song was originally recorded as the B-side for \"Hymne de la 8e Coupe d'Afrique des Nations\"",
+        "problem": "single-release history of the song, not a description of the album; confirms the prose's factual skeleton belongs to the song entity",
+        "evidenceQuote": "The song was originally recorded as the B-side for \"Hymne de la 8e Coupe d'Afrique des Nations\"",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Classic instance of the disease, song-for-album variant. Item id is 'afrodisia' but ours.title ships as 'Soul Makossa' -- the slot may originally have been Dibango's album 'Afrodisia'; a human must decide which album this entry is meant to be before repair. The stored wikipediaUrl points to the SONG article (shortDescription '1972 single'). MB does evidence a real 1973 'Soul Makossa' album matching ours.title/artist/year, but on Atlantic SD 7267, not Fiesta (wiki notes Atlantic licensed the recording 'from French record label Fiesta', so Fiesta may fit a French issue not in evidence). keyTracks: 'Soul Makossa' and 'Lily' are on the MB album; 'Super Kumba' is not (MB: New Bell, Nights in Zeralda, Hibiscus, Dangwa, Lily, Soul Makossa, Oboso).",
+    "ours": {
+      "title": "Soul Makossa",
+      "artist": "Manu Dibango",
+      "year": 1973,
+      "label": "Fiesta",
+      "albumDNA": "\"Soul Makossa\" is a song by Cameroonian saxophonist and songwriter Manu Dibango, released as a single in 1972. It is the most sampled African song in history. The song was originally recorded as the B-side for \"Hymne de la 8e Coupe d'Afrique des Nations\", a song celebrating the Cameroon national football team's accession to the quarterfinals of the Africa Cup of Nations football tournament, as well as Cameroon's hosting the games for the first time; the lyrics were written by Cameroonian poet and musicologist S.M. Eno Belinga. Except for some words in English, it was written in Duala, a native dialect continuum from Cameroon. A makossa-funk landmark and one of the most influential African records in global pop. Michael Jackson's 'Wanna Be Startin' Somethin'' borrowed its chant, creating one of music's first copyright disputes.",
+      "keyTracks": [
+        "Soul Makossa",
+        "Lily",
+        "New Bell"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "1980ea21-61cd-4881-82bb-a1c0e428f432",
+          "title": "Soul Makossa",
+          "date": "1973",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Manu Dibango"
+          ],
+          "labels": [
+            {
+              "name": "Atlantic",
+              "catalogNumber": "SD 7267"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "155f0e18-4ab7-3c71-a8a0-2e3d32b9fc22",
+            "title": "Soul Makossa",
+            "firstReleaseDate": "1973",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "New Bell",
+            "Nights in Zeralda",
+            "Hibiscus",
+            "Dangwa",
+            "Lily",
+            "Soul Makossa",
+            "Oboso"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Soul_Makossa",
+        "page": {
+          "requestedTitle": "Soul Makossa",
+          "resolvedTitle": "Soul Makossa",
+          "shortDescription": "1972 single by Manu Dibango",
+          "extract": "\"Soul Makossa\" is a song by Cameroonian saxophonist and songwriter Manu Dibango, released as a single in 1972. It is the most sampled African song in history. The song was originally recorded as the B-side for \"Hymne de la 8e Coupe d'Afrique des Nations\", a song celebrating the Cameroon national football team's accession to the quarterfinals of the Africa Cup of Nations football tournament, as well as Cameroon's hosting the games for the first time; the lyrics were written by Cameroonian poet and musicologist S.M. Eno Belinga. Except for some words in English, it was written in Duala, a native dialect continuum from Cameroon. Manu Dibango later recorded a new version for his 1994 album Wakafrika, titled \"Mouvement Ewondo\".\nIn 1972, David Mancuso found a copy in a Brooklyn West Indian record store and often played it at his parties at The Loft. The response was so positive that the few copies of \"Soul Makossa\" in New York City were quickly purchased. The song was subsequently played heavily by Frankie Crocker, who deejayed at WBLS, then New York's most popular black radio station. Since the original release was so obscure, at least 23 groups quickly released cover versions to capitalize on the demand for the record.\nLater in 1972, American-based Atlantic Records licensed the original Manu Dibango version from French record label Fiesta, and released it as a single (with the B-side track being \"Lily\"). The single peaked at number 35 on the US Billboard Hot 100 chart in 1973; Dibango's original version of the song and a cover by Afrique were on the US Billboard Hot 100 chart at the same time. The song also became an international hit leading to even more cover versions by various groups around the world.\nThe song is probably best known for the chanted vocal refrain \"ma-ma-ko, ma-ma-sa, ma-ko ma-ko-sa\", which was adapted and used in songs by many prominent artists such as Michael Jackson's \"Wanna Be Startin' Somethin'\" from his album Thriller (1982) and Rihanna's hit single \"Don't Stop the Music\" from Good Girl Gone Bad (2007). The refrain is a play on the word makossa, Dibango's main music genre.\nIn 2011, a second version of the song titled \"Soul Makossa 2.0\" was recorded in France by Manu Dibango and Wayne Beckford and was issued as the first single from Dibango's album, Past Present Future.\nIn 2022, Rolling Stone ranked the song number 35 in their list of the \"200 Greatest Dance Songs of All Time\". The 2024 PBS series Disco: Soundtrack of a Revolution explores the importance of \"Soul Makossa\" to the history of disco music.\n\n\n== Michael Jackson/Rihanna lawsuit ==\nRihanna's 2007 hit single \"Don't Stop the Music\" uses samples from Michael Jackson's 1982 single \"Wanna Be Startin' Somethin'\". In February 2009, Dibango filed a lawsuit against the two singers, claiming that he wasn't consulted in Michael Jackson's representatives giving permission to Rihanna to use \"mama-say mama-sa mama-ko-sa\" (a hook inspired by Dibango's \"Soul Makossa\") without permission. According to Agence France-Presse, Dibango and Michael Jackson had earlier reached a financial settlement in this matter back in the days of the making of \"Wanna Be Startin' Somethin'\". But in 2007, when Rihanna asked Jackson for permission to sample the line, he allegedly approved the request without contacting Dibango beforehand. Dibango's attorneys brought the case before a court in Paris, demanding €500,000 in damages and for Sony BMG, EMI and Warner Music to be \"barred from receiving 'mama-say mama-sa'-related income until the matter is resolved\". However, the court in Paris rejected his motion as being illegitimate due to him successfully applying for his name being listed on Rihanna’s releases of the song a year earlier. The court in Paris ruled that with this agreement the African artist abdicated from any further claims.\n\n\n== 1973 US single ==\n\n\n=== Track listing ===\n\"Soul Makossa\" – 4:30\n\"Lily\" – 3:02\n\n\n=== Personnel ===\nManu Dibango – writer, arranger, vocals, saxophone\nGeorges Arvanitas – piano\nPatrice Galas – piano\nJoby Jobs – drums\nManfred Long – bass guitar\nFreddy Mars – percussion\nManu Rodanet – electric guitar\nPierre Zogo – acoustic guitar\n\n\n=== Charts ===\n\n\n== References ==\n\n\n== External links ==\nEd Hogan. \"Soul Makossa – Manu Dibango\". Allmusic."
+        }
+      }
+    }
+  },
+  {
+    "id": "aint-misbehavin-waller",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "\"Ain't Misbehavin'\" is a 1929 stride jazz/early swing song. Andy Razaf wrote the lyrics to a score by Thomas \"Fats\" Waller and Harry Brooks for the Broadway musical comedy play Connie's Hot Chocolates.",
+    "contradictingQuote": "1929 song",
+    "skepticDecision": "The entire albumDNA is the lead of the song-composition page (a Broadway-musical song work), and the evidence marks the described entity as a 1929 song, not the 2001 album release this item represents.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "\"Ain't Misbehavin'\" is a 1929 stride jazz/early swing song. Andy Razaf wrote the lyrics to a score by Thomas \"Fats\" Waller and Harry Brooks for the Broadway musical comedy play Connie's Hot Chocolates.",
+        "problem": "Prose describes the song composition (wiki page 'Ain't Misbehavin' (song)'), not the album this item represents; the embedded-MBID release is a 2001 Castle Pulse Fats Waller compilation.",
+        "evidenceQuote": "shortDescription: \"1929 song\"; MB release: title \"Ain’t Misbehavin’\", date \"2001\", secondaryTypes [\"Compilation\"]",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Kind-level mismatch: song prose on an album item. Mitigation: it is the album's own title song by the same artist, and every stated song fact is confirmed by the song wiki page - so the facts are true, just not about an album. keyTracks check against the authoritative embedded tracklist: only 'Ain't Misbehavin'' and 'Two Sleepy People' match; the other 4 look like a generic Waller hits list. Stored wiki URL is the song page, not an album page. Year 1929 matches the song, not the 2001 release (recording-era convention).",
+    "ours": {
+      "title": "Ain't Misbehavin'",
+      "artist": "Fats Waller",
+      "year": 1929,
+      "label": "Unknown",
+      "albumDNA": "\"Ain't Misbehavin'\" is a 1929 stride jazz/early swing song. Andy Razaf wrote the lyrics to a score by Thomas \"Fats\" Waller and Harry Brooks for the Broadway musical comedy play Connie's Hot Chocolates. It was published by Mills Music.",
+      "keyTracks": [
+        "Ain’t Misbehavin’",
+        "Two Sleepy People",
+        "My Very Good Friend the Milkman",
+        "12th Street Rag",
+        "When Somebody Thinks You’re Wonderful",
+        "Your Feet’s Too Big"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "fbd52c25-e31c-4c31-b403-5306aa13cad4",
+          "title": "Ain’t Misbehavin’",
+          "date": "2001",
+          "country": "GB",
+          "status": "Official",
+          "artists": [
+            "Fats Waller"
+          ],
+          "labels": [
+            {
+              "name": "Castle Pulse",
+              "catalogNumber": "PLSCD464"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "907e02d4-a64f-4423-a0f9-b1762403011b",
+            "title": "Ain’t Misbehavin’",
+            "firstReleaseDate": "2001",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "My Very Good Friend the Milkman",
+            "12th Street Rag",
+            "When Somebody Thinks You’re Wonderful",
+            "Ain’t Misbehavin’",
+            "Your Feet’s Too Big",
+            "The Darktown Strutters’ Ball",
+            "E-flat Blues",
+            "Truckin’",
+            "Blue Turning Grey Over You",
+            "Boo Hoo",
+            "Two Sleepy People",
+            "Somebody Stole My Gal",
+            "Sweet Sue",
+            "Georgia Rockin’ Chair",
+            "It’s a Sin to Tell a Lie",
+            "Sugar Rose",
+            "S’posin’",
+            "The Sheik of Araby",
+            "Rhythm and Romance",
+            "Honeysuckle Rose"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Ain't_Misbehavin'_(song)",
+        "page": {
+          "requestedTitle": "Ain't Misbehavin' (song)",
+          "resolvedTitle": "Ain't Misbehavin' (song)",
+          "shortDescription": "1929 song",
+          "extract": "\"Ain't Misbehavin'\" is a 1929 stride jazz/early swing song. Andy Razaf wrote the lyrics to a score by Thomas \"Fats\" Waller and Harry Brooks for the Broadway musical comedy play Connie's Hot Chocolates. It was published by Mills Music.\nAs a work from 1929 with its copyright renewed, it entered the American public domain on January 1, 2025.\n\n\n== Composition ==\n\nThe original sheet music for \"Ain't Misbehavin'\" is written in the key of E-flat major.\n\n\n== First performances ==\nThe song was first performed at the premiere of Connie's Hot Chocolates in Harlem at Connie's Inn as an opening song by Paul Bass and Margaret Simms, and repeated later in the musical by Russell Wooding's Hallelujah Singers. Connie's Hot Chocolates was transferred to the Hudson Theatre on Broadway during June 1929, where it was renamed to Hot Chocolates and where Louis Armstrong became the orchestra director. The script also required Armstrong to play \"Ain't Misbehavin'\" in a trumpet solo, and although this was initially slated only to be a reprise of the opening song, Armstrong's performance was so well received that the trumpeter was asked to climb out of the orchestra pit and play the piece on stage. As noted by Thomas Brothers in his book Louis Armstrong: Master of Modernism, Armstrong was first taught \"Ain't Misbehavin'\" by Waller himself, \"woodshedding\" it until he could \"play all around it\"; he cherished it \"because it was 'one of those songs you could cut loose and swing with.'\"\n\n\n== Recordings ==\nDuring the first half of the 20th century, when a tune was successful in terms of sheet music sold, it was typically recorded by several different artists. All six \"Ain't Misbehavin'\" recordings of 1929 were successes in the American Society of Composers, Authors and Publishers (ASCAP) rankings for that year:\n\nLeo Reisman and his orchestra (with vocals by Lew Conrad, No. 2).\nLouis Armstrong (No. 7).\nBill Robinson (with Irving Mills & his Hotsy Totsy Gang, No. 8).\nGene Austin (with Leonard Joy & his orchestra, No. 9).\nRuth Etting (No. 16).\nFats Waller (instrumental version, No. 17).\nWaller re-recorded the song with vocals for the 1943 movie Stormy Weather. Waller's recording received the Grammy Hall of Fame Award during 1984. In 2001, it was one of 365 Songs of the Century selected by the RIAA, and it was one of fifty recordings selected for inclusion in the National Recording Registry by the Library of Congress in 2004.\n\"Ain't Misbehavin'\" has been recorded by many other performers over the years. Johnnie Ray's version scored No. 17 in the UK Singles Chart during May 1956. In 1960, Tommy Bruce and the Bruisers had a number 3 hit in the UK Singles Chart with their cover version of the song. During 1976, Leon Redbone performed the song on Saturday Night Live. \nIt served as the title song of the successful 1978 musical Ain't Misbehavin'. Country music artist Hank Williams Jr. recorded a version for his 1985 studio album Five-O. Released as a single, the song peaked at No. 1 on Billboard's Hot Country Singles chart and earned Williams a Grammy Award nomination for Best Country Vocal Performance, Male.\n\n\n== Use in film and video games ==\n1943: Stormy Weather, performed by Fats Waller.\n1944: Atlantic City, sung by Louis Armstrong.\n1948: You Were Meant for Me\n1955: Gentlemen Marry Brunettes, performed by Alan Young, Jane Russell, Jeanne Crain (dubbed by Anita Ellis) and Chorus, with choreography.\n1975: Lucky Lady, performed by Burt Reynolds.\n2013: An instrumental version is heard in Baz Luhrmann's The Great Gatsby. The film, set in 1922, predates the song by several years, makes its appearance anachronistic.\n2018: The song is played on the in-game radio station of Appalachia Radio within the game of Fallout 76.\n\n\n== See also ==\nList of 1920s jazz standards\n\n\n== Notes ==\n\n\n== References ==\n\n\n=== Sources ===\nBrothers, Thomas (2014). Louis Armstrong: Master of Modernism. New York: W. W. Norton & Company. ISBN 978-0-393-06582-4 – via Google Books.\nPaymer, Marvin E.; Post, Don E. (1999). Sentimental Journey: Intimate Portraits of America's Great Popular Songs, 1920-1945. Noble House Publishers. ISBN 978-1-881907-09-1 – via Google Books.\nRoberts, David (2006). British Hit Singles & Albums (19th ed.). London: Guinness World Records Limited. ISBN 1-904994-10-5.\nRust, Brian (1975). The American Dance Band Discography 1917–1942: Arthur Lange to Bob Zurke. New Rochelle, New York: Arlington House. ISBN 978-0870002489.\nWaller, Fats; Brooks, Harry; Razaf, Andy (1929). "
+        }
+      }
+    }
+  },
+  {
+    "id": "all-things-are",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Aquarius is an album by American jazz flautist Nicole Mitchell, which was recorded in 2012 and released on Delmark.",
+    "contradictingQuote": "Aquarius is an album by American jazz flautist Nicole Mitchell, which was recorded in 2012 and released on Delmark.",
+    "skepticDecision": "The albumDNA is verbatim the Wikipedia lede for 'Aquarius (Nicole Mitchell album)' (2012, Delmark, Ice Crystal quartet). The evidence's own resolvedTitle is 'Aquarius (Nicole Mitchell album)', a different album than our 'All Things Are' (2019, RogueArt). Wrong entity despite shared artist.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Aquarius is an album by American jazz flautist Nicole Mitchell, which was recorded in 2012 and released on Delmark. It was the debut of her ensemble Ice Crystal, a quartet with vibraphonist Jason Adasiewicz, bassist Josh Abrams and drummer Frank Rosaly.",
+        "problem": "The entire albumDNA describes a DIFFERENT Nicole Mitchell album ('Aquarius', 2012, Delmark, Ice Crystal quartet), not this item 'All Things Are' (2019, RogueArt, Matthew Shipp Trio + Nicole Mitchell). Wrong year and wrong label vs the MB release.",
+        "evidenceQuote": "title: All Things Are; date: 2019-01-28; labels: RogueArt; artists: Matthew Shipp Trio, Nicole Mitchell",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Disambiguation-collision case. The FIELDS are correct for 'All Things Are' — embedded-MBID release matches (2019-01-28, RogueArt, Matthew Shipp Trio + Nicole Mitchell) and all 5 keyTracks (Elements, Well Spring, It, Hidden Essence, Void of Ground) are present in the MB tracklist. But the albumDNA prose is lifted wholesale from the wrong album: it is verbatim the Wikipedia extract for 'Aquarius (Nicole Mitchell album)' (2012, Delmark, ensemble Ice Crystal, tribute to Fred Anderson) — the stored wikiUrl is that Aquarius page. Same artist, but the prose's factual skeleton (2012, Delmark, Ice Crystal, Adasiewicz/Abrams/Rosaly) belongs to a different release, contradicting MB's 2019/RogueArt. Verdict entity_mismatch for the prose; repair must rewrite the albumDNA to describe 'All Things Are' and replace the wikiUrl.",
+    "ours": {
+      "title": "All Things Are",
+      "artist": "Nicole Mitchell",
+      "year": 2019,
+      "label": "RogueArt",
+      "albumDNA": "Aquarius is an album by American jazz flautist Nicole Mitchell, which was recorded in 2012 and released on Delmark. It was the debut of her ensemble Ice Crystal, a quartet with vibraphonist Jason Adasiewicz, bassist Josh Abrams and drummer Frank Rosaly. The last piece is a tribute to saxophonist Fred Anderson.",
+      "keyTracks": [
+        "Elements",
+        "Well Spring",
+        "It",
+        "Hidden Essence",
+        "Void of Ground"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "2e350617-d42e-4c21-9ccb-c89ff579dde8",
+          "title": "All Things Are",
+          "date": "2019-01-28",
+          "country": "XW",
+          "status": "Official",
+          "artists": [
+            "Matthew Shipp Trio",
+            "Nicole Mitchell"
+          ],
+          "labels": [
+            {
+              "name": "RogueArt",
+              "catalogNumber": null
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "87b8c20f-4cd5-41cc-802a-732983e1c639",
+            "title": "All Things Are",
+            "firstReleaseDate": "2019-01-28",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Elements",
+            "Well Spring",
+            "It",
+            "Hidden Essence",
+            "Void of Ground",
+            "Water and Earth",
+            "Fire and Air",
+            "Blossom",
+            "All Things Are"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Aquarius_(Nicole_Mitchell_album)",
+        "page": {
+          "requestedTitle": "Aquarius (Nicole Mitchell album)",
+          "resolvedTitle": "Aquarius (Nicole Mitchell album)",
+          "shortDescription": "2013 studio album by Nicole Mitchell",
+          "extract": "Aquarius is an album by American jazz flautist Nicole Mitchell, which was recorded in 2012 and released on Delmark. It was the debut of her ensemble Ice Crystal, a quartet with vibraphonist Jason Adasiewicz, bassist Josh Abrams and drummer Frank Rosaly. The last piece is a tribute to saxophonist Fred Anderson.\n\n\n== Reception ==\n\nThe Down Beat review by John Corbett says \"Mitchell is a stellar composer, and while her work for a larger ensemble has revealed much about her musical personality, it’s nice to hear how she manages things in a cozier setting, where the written and the improvised fuse quite completely.\"\nIn a review for JazzTimes Michael J. West notes that \"Mitchell spends much time demonstrating her flute tone at its brightest, with high pitches and enthusiastic swoops, while Adasiewicz takes the opposite approach, sounding dark and dim with his low, limited notes. Even so, the execution is masterful.\"\nThe Point of Departure review by Troy Collins says \"Devoid of overarching conceptual themes, the ensuing compositions convey a fluid, freewheeling sensibility. Underscored by Abrams and Rosaly’s discerning accompaniment, the scintillating rapport between Mitchell and Adasiewicz conjures intimations of such legendary partnerships as Eric Dolphy and Bobby Hutcherson, or Marion Brown and Gunter Hampel.\"\n\n\n== Track listing ==\nAll compositions by Nicole Mitchell\n\"Aqua Blue\" – 4:04\n\"Today, Today\" – 8:07\n\"Yearning\" – 6:43\n\"Aquarius\" – 8:02\n\"Above the Sky\" – 6:48\n\"Diga, Diga\" – 4:26\n\"Adaptability\" – 8:38\n\"Expectation\" – 8:00\n\"Sunday Afternoon\" – 9:38\n\"Fred Anderson\" – 4:10\n\n\n== Personnel ==\nNicole Mitchell - flute\nJason Adasiewicz – vibes\nJosh Abrams – bass\nFrank Rosaly – drums\nCalvin Gantt – spoken word on 10\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "baroque-music-for-trumpets",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Haydn, Hummel, L. Mozart: Trumpet Concertos is a studio album of trumpet concertos by Joseph Haydn, Leopold Mozart and Johann Nepomuk Hummel, performed by Wynton Marsalis with the National Philharmonic Orchestra under the direction of Raymond Leppard",
+    "contradictingQuote": "English Chamber Orchestra",
+    "skepticDecision": "Fails: the prose self-identifies the album as 'Haydn, Hummel, L. Mozart: Trumpet Concertos' with the National Philharmonic Orchestra, but the MB release is titled 'Baroque Music for Trumpet' and credits the English Chamber Orchestra. The prose is the verbatim lede of a different Marsalis classical album, not this one.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Haydn, Hummel, L. Mozart: Trumpet Concertos is a studio album of trumpet concertos by Joseph Haydn, Leopold Mozart and Johann Nepomuk Hummel, performed by Wynton Marsalis with the National Philharmonic Orchestra under the direction of Raymond Leppard",
+        "problem": "The albumDNA is the verbatim Wikipedia lede of a DIFFERENT Wynton Marsalis classical album ('Haydn, Hummel, L. Mozart: Trumpet Concertos'), not this album. The MB release 'Baroque Music for Trumpet(s)' is a baroque program (Vivaldi/Purcell/Handel/Telemann) credited to Wynton Marsalis with the English Chamber Orchestra and Raymond Leppard, plus Edita Gruberova — not a Haydn/Mozart/Hummel concertos record with the National Philharmonic Orchestra.",
+        "evidenceQuote": "Concerto in D major for Trumpet, Oboes & Strings: I. Allegro",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Catalog FIELDS (title 'Baroque Music for Trumpets', year 1984, label CBS Records Masterworks, artist Wynton Marsalis) match the MB embedded release. But the albumDNA prose and the stored Wikipedia URL are wholesale about a different album, 'Haydn, Hummel, L. Mozart: Trumpet Concertos' — the title-search disambiguation bug. Repertoire stated in the prose (Haydn/L.Mozart/Hummel concertos, National Philharmonic) contradicts the MB tracklist of the actual release (Vivaldi RV-era baroque works, Purcell, Handel, Telemann; English Chamber Orchestra). Separately, the keyTracks (Vivaldi RV 537 for 2 trumpets; a 3-trumpet concerto) match NEITHER the MB tracklist of this release NOR the Haydn/Hummel/Mozart album, so they appear to come from yet a third baroque-trumpet source. Wiki page is about the other album -> wrong_entity.",
+    "ours": {
+      "title": "Baroque Music for Trumpets",
+      "artist": "Wynton Marsalis",
+      "year": 1984,
+      "label": "CBS Records Masterworks",
+      "albumDNA": "Haydn, Hummel, L. Mozart: Trumpet Concertos is a studio album of trumpet concertos by Joseph Haydn, Leopold Mozart and Johann Nepomuk Hummel, performed by Wynton Marsalis with the National Philharmonic Orchestra under the direction of Raymond Leppard. The album won a Grammy award in 1984 for Best Instrumental Soloist Performance with orchestra.",
+      "keyTracks": [
+        "Concerto in D major for Trumpet, Oboes & Strings: I. Allegro",
+        "Concerto in D major for Trumpet, Oboes & Strings: II. Largo",
+        "Concerto in D major for Trumpet, Oboes & Strings: III. Allegro (Moderato)",
+        "\"Let the Bright Seraphim\" from Samson",
+        "Sonata A 5 for Trumpet and Strings, T.V.3",
+        "\"Sound the Trumpet\" from Come Ye Sons Of Art"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "124223ba-ea56-4c1c-a402-4abf205f3d57",
+          "title": "Baroque Music for Trumpet",
+          "date": "1984",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Wynton Marsalis",
+            "Edita Gruberova",
+            "English Chamber Orchestra",
+            "Raymond Leppard"
+          ],
+          "labels": [
+            {
+              "name": "CBS Records Masterworks",
+              "catalogNumber": "MK 39061"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "01c23393-72a4-3083-98a3-0303c1901dbb",
+            "title": "Baroque Music for Trumpets",
+            "firstReleaseDate": "1984",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Concerto in D major for Trumpet, Oboes & Strings: I. Allegro",
+            "Concerto in D major for Trumpet, Oboes & Strings: II. Largo",
+            "Concerto in D major for Trumpet, Oboes & Strings: III. Allegro (Moderato)",
+            "\"Let the Bright Seraphim\" from Samson",
+            "Sonata A 5 for Trumpet and Strings, T.V.3",
+            "\"Sound the Trumpet\" from Come Ye Sons Of Art",
+            "\"Chaconne\" from Come Ye Sons Of Art",
+            "\"Entrada\" from The Indian Queen",
+            "\"Trumpet Air\" from The Indian Queen",
+            "\"Trumpet Tune\" from King Arthur",
+            "\"Trumpet Overture\" from The Indian Queen",
+            "Sonata A 5 for Trumpet and Strings, T.V.7",
+            "\"Eternal Source of Light Divine\" from Birthday Ode For Queen Anne",
+            "Concerto No. 2 for Solo Trumpet and Strings, MWV IV, 13: I. Allegro",
+            "Concerto No. 2 for Solo Trumpet and Strings, MWV IV, 13: II. Adagio",
+            "Concerto No. 2 for Solo Trumpet and Strings, MWV IV, 13: III. Allegro"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Haydn%2C_Hummel%2C_L._Mozart%3A_Trumpet_Concertos",
+        "page": {
+          "requestedTitle": "Haydn, Hummel, L. Mozart: Trumpet Concertos",
+          "resolvedTitle": "Haydn, Hummel, L. Mozart: Trumpet Concertos",
+          "shortDescription": "1983 studio album by Wynton Marsalis",
+          "extract": "Haydn, Hummel, L. Mozart: Trumpet Concertos is a studio album of trumpet concertos by Joseph Haydn, Leopold Mozart and Johann Nepomuk Hummel, performed by Wynton Marsalis with the National Philharmonic Orchestra under the direction of Raymond Leppard. The album won a Grammy award in 1984 for Best Instrumental Soloist Performance with orchestra. \n\n\n== Reception ==\n\nAllMusic awarded the album 4 stars and its review by Richard S. Ginell states: \"His first classical album having been released simultaneously with his second jazz album, Think of One, the 21-year-old Wynton Marsalis found himself in the position of being the most celebrated purveyor of both the classical and jazz repertoire since Benny Goodman\". He also states that Marsalis \"makes up his own marvelous cadenza in the first movement of the Haydn concerto, beginning with a pair of musical questions which he boldly proceeds to answer and continuing with other dialogues and wide leaps, all thoroughly within the classical style\".\nIvan March reviewed the album on cassette in the December 1983 edition of Gramophone and describes Marsalis's trumpet playing as \"very impressive indeed\". \n\n\n== Track listing ==\nJoseph Haydn (1732-1809), Concerto for Trumpet and Orchestra in E-flat major\n\n\"Allegro\" (Cadence: Wynton Marsalis) – 6:17\n\"Andante\" – 3:14\n\"Allegro\" – 4:26\nLeopold Mozart (1719-1787), Concerto for Trumpet and Orchestra in D major\n\n\"Adagio\" – 4:58\n\"Allegro moderato\" (Embellishments: Wynton Marsalis) – 4:51\nJohann Nepomuk Hummel (1778-1837), Concerto for Trumpet and Orchestra in E-flat major\n\n\"Allegro con spirito\" – 9:41\n\"Andante\" – 4:12\n\"Rondo. Allegro molto\" – 3:29\n\n\n== Personnel ==\nWynton Marsalis - trumpet and piccolo trumpet\nNational Philharmonic Orchestra\nRaymond Leppard - conductor\nProduction\n\nThomas Mowrey - producer\nMichael Gray - engineer\nStuart Eltham - engineer\n\n\n== Awards ==\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "blue-notes-legacy",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Harold Melvin & the Blue Notes were an American soul and R&B vocal group. One of the most popular Philadelphia soul groups of the 1970s, the group's repertoire included soul, R&B, doo-wop, and disco.",
+    "contradictingQuote": "Harold Melvin & the Blue Notes were an American soul and R&B vocal group. One of the most popular Philadelphia soul groups of the 1970s, the group's repertoire included soul, R&B, doo-wop, and disco.",
+    "skepticDecision": "The bulk of the albumDNA is the verbatim wiki lead for Harold Melvin & the Blue Notes, an American soul/R&B vocal group founded in Philadelphia as The Charlemagnes; that is a different identifiable entity from this 1964 South African jazz album on Gallo, and the evidence confirms the described subject is the soul group.",
+    "entityMatch": {
+      "musicbrainz": "n/a",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Harold Melvin & the Blue Notes were an American soul and R&B vocal group. One of the most popular Philadelphia soul groups of the 1970s",
+        "problem": "Our item is a 1964 South African jazz album credited to The Blue Notes on Gallo; this sentence and the bulk of the blurb describe the American Philadelphia soul group, a different identifiable entity.",
+        "evidenceQuote": "Harold Melvin & the Blue Notes were an American soul and R&B vocal group. One of the most popular Philadelphia soul groups of the 1970s, the group's repertoire included soul, R&B, doo-wop, and disco.",
+        "source": "wiki"
+      },
+      {
+        "ourClaim": "the group is most noted for several hits on Gamble and Huff's Philadelphia International label between 1972 and 1976, although they performed and recorded until Melvin's death in 1997",
+        "problem": "These facts (Philadelphia International 1972-1976, Teddy Pendergrass, Melvin's death 1997) belong to the American soul group, not to the South African jazz group behind a 1964 Gallo LP.",
+        "evidenceQuote": "the group is most noted for several hits on Gamble and Huff's Philadelphia International label between 1972 and 1976, although they performed and recorded until Melvin's death in 1997",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Classic title-search disambiguation collision: most of the albumDNA is the Wikipedia lead for Harold Melvin & the Blue Notes, and the stored wiki link also points to that page. The intended entity is evidently the South African jazz group The Blue Notes (Gallo label, keyTracks like Kippie / Township Bop / Ke Tla Moya, closing sentences about apartheid exile and the London jazz scene) - no evidence for them in the pack (MB search returned nothing), so those closing claims and the keyTracks are unverifiable. Repair needs sources on the South African Blue Notes and the 'Blue Notes in Concert' Gallo release.",
+    "ours": {
+      "title": "Blue Notes in Concert",
+      "artist": "The Blue Notes",
+      "year": 1964,
+      "label": "Gallo",
+      "albumDNA": "Harold Melvin & the Blue Notes were an American soul and R&B vocal group. One of the most popular Philadelphia soul groups of the 1970s, the group's repertoire included soul, R&B, doo-wop, and disco. Founded in Philadelphia, Pennsylvania, in the middle of the 1950s as The Charlemagnes, the group is most noted for several hits on Gamble and Huff's Philadelphia International label between 1972 and 1976, although they performed and recorded until Melvin's death in 1997. Despite group founder and original lead singer Harold Melvin's top billing, the Blue Notes' most famous member was Teddy Pendergrass, their lead singer during the successful years at Philadelphia International. Captured South African jazz at its peak before apartheid forced musicians into exile. The Blue Notes became the nucleus of the London jazz scene.",
+      "keyTracks": [
+        "Kippie",
+        "Poppie",
+        "Township Bop",
+        "Ke Tla Moya"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": null,
+        "release": null,
+        "searchCandidates": []
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Harold_Melvin_%26_the_Blue_Notes",
+        "page": {
+          "requestedTitle": "Harold Melvin & the Blue Notes",
+          "resolvedTitle": "Harold Melvin & the Blue Notes",
+          "shortDescription": "American soul and R&B vocal group",
+          "extract": "Harold Melvin & the Blue Notes were an American soul and R&B vocal group. One of the most popular Philadelphia soul groups of the 1970s, the group's repertoire included soul, R&B, doo-wop, and disco. Founded in Philadelphia, Pennsylvania, in the middle of the 1950s as The Charlemagnes, the group is most noted for several hits on Gamble and Huff's Philadelphia International label between 1972 and 1976, although they performed and recorded until Melvin's death in 1997. Despite group founder and original lead singer Harold Melvin's top billing, the Blue Notes' most famous member was Teddy Pendergrass, their lead singer during the successful years at Philadelphia International. The remaining members of the Blue Notes have reunited for Soul Train Cruises in 2013, 2015, and 2017.\n\n\n== History ==\n\n\n=== Early years ===\nThe group formerly known as The Charlemagnes took on the name \"The Blue Notes\" in 1954, with a line-up consisting of lead singer Franklin Peaker, Bernard Williams, Roosevelt Brodie, Jesse Gillis, Jr., and Harold Melvin. The group recorded for a number of labels without success from its inception into the 1960s. The 1960 single \"My Hero\" was a minor hit for Val-ue Records, and 1965's \"Get Out (and Let Me Cry)\" was an R&B hit for Landa Records. During this period, the group's line-up changed frequently, with Bernard Williams leaving the act to start a group called \"The Original Blue Notes\", and Harold Melvin bringing in new lead singer John Atkins. In 1970, the group recruited Teddy Pendergrass as the drummer for their backing band. Pendergrass had been a member of Philadelphia R&B group The Cadillacs (not the New York group that had hits in the late 1950s) and was promoted to lead singer when John Atkins quit the same year.\n\n\n=== Philadelphia International success and Pendergrass Years ===\nThis line-up of the group, featuring Melvin, Pendergrass, Bernard Wilson, Lawrence Brown, and Lloyd Parks, was signed to Gamble & Huff's Philadelphia International label in 1972. Lloyd Parks was replaced by Jerry Cummings that same year. Shortly after the arrival of Cummings, the Notes scored several major R&B and pop hits including million-selling singles and albums over the next four years. Among the Blue Notes' most important and successful recordings are love songs such as 1972's \"If You Don't Know Me by Now\" (number 1 Billboard R&B, number 3 pop), their breakout single, \"I Miss You\" (number 7 R&B, number 58 pop), \"The Love I Lost\" (number 1 R&B, number 7 pop, 1973) and socially conscious songs such as \"Wake Up Everybody\" (number 1 R&B, number 12 pop) and \"Bad Luck\" (number 4 R&B, number 15 pop), both in 1975. \"If You Don't Know Me By Now\" sold over one million copies, and was awarded a gold disc by the RIAA on November 21, 1972. \"Bad Luck\" holds the record for the longest-running number-one hit on the Hot Dance Music/Club Play chart: 11 weeks. A fourth number 1 R&B hit for the group was 1975's \"Hope That We Can Be Together Soon\" which featured female vocalist Sharon Paige.\nIn 1976 Gamble and Huff's \"Don't Leave Me This Way\" (soon to be covered by Motown artist Thelma Houston) was a number-one hit on the US pop chart. The Blue Notes' version on the album, Wake Up Everybody, was not released as a single in the US at the time, but proved to be the group's biggest hit in the UK (number 5) when released there as a single in 1977. The track was finally issued as a single in the US on 12-inch in 1979, coupled with \"Bad Luck\". The group recorded four albums with Gamble & Huff, all of them going gold (over 500,000 copies), according to RIAA, including To Be True (number 26, Billboard Top 40 albums) and Wake Up Everybody (number 9), both in 1975. Wake Up Everybody and a greatest hits compilation released in 1976, Collector's Item, has now sold over a million copies.\nDespite the success, the Blue Notes' line-up continued to change regularly. In 1972, Melvin brought in Jerry Cummings to replace Lloyd Parks and Sharon Paige was added to the line-up at that time, providing solo performances on several recordings. While at the top of their success in 1976, Pendergrass quit after an argument over the money he earned. A year earlier, he had gained billing recognition by having the act renamed to \"Harold Melvin & the Blue Notes featuring Theodore Pendergrass\", starting from the To be True album. Pendergrass went on to a successful solo career, with four consecutive million-selling albums with Philadelphia International between 1977 and 19"
+        }
+      }
+    }
+  },
+  {
+    "id": "blue-rondo",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "A 1997 Tudor date, Blue Rondo finds Charlie Parker in a bebop setting.",
+    "contradictingQuote": "Clarinet Sonata, FP184: I. Allegro tristemente",
+    "skepticDecision": "Fails: the prose presents the album as a Charlie Parker bebop date, but the MB release is a multi-credit clarinet recital (Brubeck, Debussy, Poulenc, Honegger, Stravinsky, Parker plus clarinettist Karl-Heinz Steffens and pianist David Gazarov) whose tracklist is classical clarinet sonatas. Parker is one composer credit among many, so framing the entity as his bebop album misidentifies it.",
+    "entityMatch": {
+      "musicbrainz": "unsure",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "A 1997 Tudor date, Blue Rondo finds Charlie Parker in a bebop setting.",
+        "problem": "The embedded-MBID release is not a Charlie Parker bebop album; it is a 1997 Tudor various-artists clarinet recital. Parker (d. 1955) appears only as one composer credit among many (Debussy, Poulenc, Honegger, Stravinsky, Brubeck, etc.); the performers are clarinettist Karl-Heinz Steffens, pianist David Gazarov and others. Framing it as Parker 'in a bebop setting' belongs to a different kind of entity.",
+        "evidenceQuote": "artists: Brubeck, Debussy, Donato, Gilberto, Evans, Jones, Honegger, Parker, Poulenc, Stravinsky, Karl-Heinz Steffens, David Gazarov, Martin Zehn, Keith Copeland, Chris Lachotta; tracks include 'Premiere rhapsodie', 'Clarinet Sonatina, H.42', 'Clarinet Sonata, FP184'",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Items 'blue-rondo' (Charlie Parker) and 'blue-rondo-brubeck' (Dave Brubeck) both point to the SAME release mbid 505e34e7-b2da-4d89-92a9-72e2d9d1997d, a Tudor classical/jazz clarinet recital. The keyTracks listed here (Blue Rondo a la Turk, Premiere rhapsodie, Waltz for Debby, two Clarinet Sonatina movements) DO appear on that release, so keyTracks technically match; but the artist attribution to Charlie Parker and the 'bebop setting' description misrepresent a multi-composer clarinet album as a Parker bebop date. Classed entity_mismatch on the prose's factual skeleton (Parker/bebop) vs the actual release.",
+    "ours": {
+      "title": "Blue Rondo",
+      "artist": "Charlie Parker",
+      "year": 1997,
+      "label": "Tudor",
+      "albumDNA": "A 1997 Tudor date, Blue Rondo finds Charlie Parker in a bebop setting. Among the tracks are \"Blue Rondo a la Turk\" and \"Première rhapsodie\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond.",
+      "keyTracks": [
+        "Blue Rondo a la Turk",
+        "Première rhapsodie",
+        "Waltz for Debby",
+        "Clarinet Sonatina, H.42: I. Modere",
+        "Clarinet Sonatina, H.42: II. Lent et soutenu"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "505e34e7-b2da-4d89-92a9-72e2d9d1997d",
+          "title": "Blue Rondo",
+          "date": "1997",
+          "country": "CH",
+          "status": "Official",
+          "artists": [
+            "Brubeck",
+            "Debussy",
+            "Donato",
+            "Gilberto",
+            "Evans",
+            "Jones",
+            "Honegger",
+            "Parker",
+            "Poulenc",
+            "Stravinsky",
+            "Karl‐Heinz Steffens",
+            "David Gazarov",
+            "Martin Zehn",
+            "Keith Copeland",
+            "Chris Lachotta"
+          ],
+          "labels": [
+            {
+              "name": "Tudor",
+              "catalogNumber": null
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "2666e0ed-0642-4511-bd58-e56bfa0a4cff",
+            "title": "Blue Rondo",
+            "firstReleaseDate": "1997",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Blue Rondo a la Turk",
+            "Première rhapsodie",
+            "Waltz for Debby",
+            "Clarinet Sonatina, H.42: I. Modere",
+            "Clarinet Sonatina, H.42: II. Lent et soutenu",
+            "Clarinet Sonatina, H.42: III. Vif et rythmique",
+            "Minha Saudade (My Longing)",
+            "3 Pieces for Solo Clarinet: No. 1. Sempre piano e molto tranquillo: quarter note = 52",
+            "3 Pieces for Solo Clarinet: No. 2. quarter note = 168",
+            "3 Pieces for Solo Clarinet: No. 3. quarter note = 160",
+            "Yardbird Suite",
+            "Clarinet Sonata, FP184: I. Allegro tristemente",
+            "Clarinet Sonata, FP184: II. Romanza: Tres calme",
+            "Clarinet Sonata, FP184: III. Allegro con fuoco",
+            "A Child Is Born"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "blue-rondo-brubeck",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Pianist Dave Brubeck's 1997 album Blue Rondo draws from the cool jazz tradition, released on Tudor.",
+    "contradictingQuote": "Clarinet Sonata, FP184: I. Allegro tristemente",
+    "skepticDecision": "Fails: the prose presents the album as Dave Brubeck's cool-jazz album, but the same MB release is a multi-credit clarinet recital (Brubeck appears only as one of fifteen credits among Debussy, Poulenc, Stravinsky, clarinettist Karl-Heinz Steffens, etc.) with a classical clarinet tracklist. Misidentifies the entity as a single-artist Brubeck record.",
+    "entityMatch": {
+      "musicbrainz": "unsure",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Pianist Dave Brubeck's 1997 album Blue Rondo draws from the cool jazz tradition, released on Tudor.",
+        "problem": "Same release mbid as the Charlie Parker 'blue-rondo' item: a 1997 Tudor various-artists clarinet recital, not a Dave Brubeck cool-jazz album. Brubeck appears only as one of many composer credits; the performers are clarinettist Karl-Heinz Steffens, pianist David Gazarov and others.",
+        "evidenceQuote": "artists: Brubeck, Debussy, Donato, Gilberto, Evans, Jones, Honegger, Parker, Poulenc, Stravinsky, Karl-Heinz Steffens, David Gazarov, Martin Zehn, Keith Copeland, Chris Lachotta",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Duplicate of the same Tudor compilation (mbid 505e34e7...) also tagged as the Charlie Parker 'blue-rondo' item. Here the framing is Dave Brubeck cool jazz, which the release contradicts. keyTracks also fail: only 'Blue Rondo a la Turk' is on the MB tracklist; 'How Does Your Garden Grow?', 'Festival Hall', 'Easy as You Go', 'Dizzy's Dream', 'I See Satie' are NOT on this release (they read like tracks from an actual Brubeck album, but per instructions I do not correct from memory — they simply do not match the evidence tracklist).",
+    "ours": {
+      "title": "Blue Rondo",
+      "artist": "Dave Brubeck",
+      "year": 1997,
+      "label": "Tudor",
+      "albumDNA": "Pianist Dave Brubeck's 1997 album Blue Rondo draws from the cool jazz tradition, released on Tudor. The date includes \"Blue Rondo a la Turk\" and \"Première rhapsodie\".",
+      "keyTracks": [
+        "Blue Rondo a la Turk",
+        "Première rhapsodie",
+        "Waltz for Debby",
+        "Clarinet Sonatina, H.42: I. Modere",
+        "Clarinet Sonatina, H.42: II. Lent et soutenu",
+        "Clarinet Sonatina, H.42: III. Vif et rythmique"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "505e34e7-b2da-4d89-92a9-72e2d9d1997d",
+          "title": "Blue Rondo",
+          "date": "1997",
+          "country": "CH",
+          "status": "Official",
+          "artists": [
+            "Brubeck",
+            "Debussy",
+            "Donato",
+            "Gilberto",
+            "Evans",
+            "Jones",
+            "Honegger",
+            "Parker",
+            "Poulenc",
+            "Stravinsky",
+            "Karl‐Heinz Steffens",
+            "David Gazarov",
+            "Martin Zehn",
+            "Keith Copeland",
+            "Chris Lachotta"
+          ],
+          "labels": [
+            {
+              "name": "Tudor",
+              "catalogNumber": null
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "2666e0ed-0642-4511-bd58-e56bfa0a4cff",
+            "title": "Blue Rondo",
+            "firstReleaseDate": "1997",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Blue Rondo a la Turk",
+            "Première rhapsodie",
+            "Waltz for Debby",
+            "Clarinet Sonatina, H.42: I. Modere",
+            "Clarinet Sonatina, H.42: II. Lent et soutenu",
+            "Clarinet Sonatina, H.42: III. Vif et rythmique",
+            "Minha Saudade (My Longing)",
+            "3 Pieces for Solo Clarinet: No. 1. Sempre piano e molto tranquillo: quarter note = 52",
+            "3 Pieces for Solo Clarinet: No. 2. quarter note = 168",
+            "3 Pieces for Solo Clarinet: No. 3. quarter note = 160",
+            "Yardbird Suite",
+            "Clarinet Sonata, FP184: I. Allegro tristemente",
+            "Clarinet Sonata, FP184: II. Romanza: Tres calme",
+            "Clarinet Sonata, FP184: III. Allegro con fuoco",
+            "A Child Is Born"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "caravan",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Art Blakey and the Jazz Messengers is a studio album by Art Blakey and the Jazz Messengers, released on September 1, 1961, through Impulse! Records. Expanding to a sextet for the first time, it was the group's final recording with Bobby Timmons, who would be replaced by Cedar Walton.",
+    "contradictingQuote": "Art Blakey and the Jazz Messengers (stylized as Art Blakey!!!!! Jazz Messengers!!!!! and titled Alamode in Japan) is a studio album by Art Blakey and the Jazz Messengers, released on September 1, 1961, through Impulse! Records.",
+    "skepticDecision": "The albumDNA is the verbatim lead of a differently-titled album (Art Blakey and the Jazz Messengers, Sept 1 1961, Impulse!) and the stored wiki extract for that album lists a tracklist (A la Mode / Invitation / Circus) sharing nothing with this item; the prose describes a different release.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Art Blakey and the Jazz Messengers is a studio album by Art Blakey and the Jazz Messengers, released on September 1, 1961, through Impulse! Records. Expanding to a sextet for the first time, it was the group's final recording with Bobby Timmons, who would be replaced by Cedar Walton.",
+        "problem": "The prose's factual skeleton (September 1, 1961 release, Impulse! Records, first sextet, final Timmons recording) belongs to the 1961 album 'Art Blakey and the Jazz Messengers' (a.k.a. Alamode), not to our album Caravan, which MB resolves to Riverside, 1962.",
+        "evidenceQuote": "title: Caravan; labels: Riverside (RM 438); date: 1962",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Same-artist collision. The stored wiki URL is the 1961 Impulse! album's page (its extract supplies the colliding facts and a completely different tracklist: A la Mode, Invitation, Circus...), so it was discarded for fact-checking and flagged as wrong_entity. Our item is Caravan per MB search (similarity 1.0) whose tracklist matches all four keyTracks (Caravan, Sweet 'n' Sour, Skylark exact; 'In the Wee Small Hours' is a substring of 'In the Wee Small Hours of the Morning'). Year field 1963 contradicts MB's 1962 (search method, strong but not infallible) -- verify Caravan's real first-release date during repair. Correct wiki target is the Caravan (Art Blakey album) page. The closing 'standards into hard bop vehicles' sentence is editorial and could survive a rewrite.",
+    "ours": {
+      "title": "Caravan",
+      "artist": "Art Blakey & The Jazz Messengers",
+      "year": 1963,
+      "label": "Riverside",
+      "albumDNA": "Art Blakey and the Jazz Messengers is a studio album by Art Blakey and the Jazz Messengers, released on September 1, 1961, through Impulse! Records. Expanding to a sextet for the first time, it was the group's final recording with Bobby Timmons, who would be replaced by Cedar Walton. Showed the Messengers' versatility and ability to transform standards into hard bop vehicles.",
+      "keyTracks": [
+        "Caravan",
+        "Sweet 'n' Sour",
+        "In the Wee Small Hours",
+        "Skylark"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "d14b6c74-4d22-4d20-b742-05e9618c5d5b",
+          "title": "Caravan",
+          "date": "1962",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Art Blakey & The Jazz Messengers"
+          ],
+          "labels": [
+            {
+              "name": "Riverside",
+              "catalogNumber": "RM 438"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "1b1810f9-3693-3b93-b4e0-6e3a1b811e8e",
+            "title": "Caravan",
+            "firstReleaseDate": "1962",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Caravan",
+            "Sweet ’n’ Sour",
+            "In the Wee Small Hours of the Morning",
+            "This Is for Albert",
+            "Skylark",
+            "Thermo"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Art_Blakey_and_the_Jazz_Messengers_(1961_album)",
+        "page": {
+          "requestedTitle": "Art Blakey and the Jazz Messengers (1961 album)",
+          "resolvedTitle": "Art Blakey and the Jazz Messengers (1961 album)",
+          "shortDescription": "1961 studio album by Art Blakey and the Jazz Messengers",
+          "extract": "Art Blakey and the Jazz Messengers (stylized as Art Blakey!!!!! Jazz Messengers!!!!! and titled Alamode in Japan) is a studio album by Art Blakey and the Jazz Messengers, released on September 1, 1961, through Impulse! Records. Expanding to a sextet for the first time, it was the group's final recording with Bobby Timmons, who would be replaced by Cedar Walton. \n\n\n== Reception ==\nIn his DownBeat review of January 4, 1962, critic Ira Gitler commented: \"This is a change of pace from most recent Messenger releases. There is only one original; the rest are standards that have not been overdone.\" AllMusic reviewer Steven McDonald described it as: \"An absolutely wonderful 1961 set from Blakey and company, who demonstrate here how to be note-perfect without leeching away the emotion of a performance.\"\n\n\n== Track listing ==\n\"À la Mode\" (Curtis Fuller) — 6:40\n\"Invitation\" (Bronislau Kaper, Paul Francis Webster) — 7:25\n\"Circus\" (Lou Alter, Bob Russell) — 5:12\n\"You Don't Know What Love Is\" (Gene de Paul, Don Raye) — 6:55\n\"I Hear a Rhapsody\" (Jack Baker, George Fragos, Dick Gasparre) — 6:30\n\"Gee Baby, Ain't I Good to You\" (Andy Razaf, Don Redman) — 5:00\n\n\n== Personnel ==\nArt Blakey — drums\nLee Morgan — trumpet\nCurtis Fuller — trombone\nWayne Shorter — tenor saxophone\nBobby Timmons — piano\nJymie Merritt — bass\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "congo-square",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "A Tale of God's Will (A Requiem for Katrina) is a studio album recorded in 2007 by the Terence Blanchard Quintet.",
+    "contradictingQuote": "A Tale of God's Will (A Requiem for Katrina) is a studio album recorded in 2007 by the Terence Blanchard Quintet. The album was originally released on August 14, 2007 (2007-08-14) by Blue Note Records.",
+    "skepticDecision": "Fails: the prose is the verbatim lede of 'A Tale of God's Will (A Requiem for Katrina)' (2007), a distinctly titled and dated album confirmed by the wiki extract, while the item is 'Congo Square' (2006). The mismatch is established by the wiki evidence itself, not by absence.",
+    "entityMatch": {
+      "musicbrainz": "n/a",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "A Tale of God's Will (A Requiem for Katrina) is a studio album recorded in 2007 by the Terence Blanchard Quintet. The album was originally released on August 14, 2007 (2007-08-14) by Blue Note Records.",
+        "problem": "The item is the album 'Congo Square' (our year 2006), but the entire albumDNA describes a DIFFERENT Blanchard album, 'A Tale of God's Will (A Requiem for Katrina)' (2007). Same artist, wrong album.",
+        "evidenceQuote": "A Tale of God's Will (A Requiem for Katrina) is a studio album recorded in 2007 by the Terence Blanchard Quintet. The album was originally released on August 14, 2007 (2007-08-14) by Blue Note Records.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Prose is wholly about 'A Tale of God's Will', not 'Congo Square'. stored_url also points to the A Tale of God's Will page (wrong album, same artist). MB search returned no release/candidates, so no tracklist to verify keyTracks for our album; the keyTracks list looks mixed ('Levees' and 'The Water' are A Tale of God's Will tracks per the wiki; 'Congo Square'/'Ghost of Congo Square' may belong to the actual Congo Square album). Repair writer must source genuine Congo Square (2004/2005, Blue Note) content.",
+    "ours": {
+      "title": "Congo Square",
+      "artist": "Terence Blanchard",
+      "year": 2006,
+      "label": "Blue Note",
+      "albumDNA": "A Tale of God's Will (A Requiem for Katrina) is a studio album recorded in 2007 by the Terence Blanchard Quintet. The album was originally released on August 14, 2007 (2007-08-14) by Blue Note Records. A powerful statement about New Orleans' cultural importance and resilience. Blanchard's film scoring influence is evident.",
+      "keyTracks": [
+        "Congo Square",
+        "Levees",
+        "Ghost of Congo Square",
+        "The Water"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": null,
+        "release": null,
+        "searchCandidates": []
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/A_Tale_of_God's_Will_(A_Requiem_for_Katrina)",
+        "page": {
+          "requestedTitle": "A Tale of God's Will (A Requiem for Katrina)",
+          "resolvedTitle": "A Tale of God's Will (A Requiem for Katrina)",
+          "shortDescription": "2007 studio album by Terence Blanchard",
+          "extract": "A Tale of God's Will (A Requiem for Katrina) is a studio album recorded in 2007 by the Terence Blanchard Quintet. The album was originally released on August 14, 2007 (2007-08-14) by Blue Note Records.\nIn 2008, Blanchard won a Grammy Award for Best Large Jazz Ensemble Album, and was nominated for Best Jazz Instrument Solo for his work on the song \"Levees\". Also, JazzTimes included the album in its \"Jazz Albums with Strings\" list, ranking it #6.\n\n\n== Background ==\nFilm director Spike Lee commissioned New Orleans native Terence Blanchard to compose the score for his 2006 four-hour HBO documentary When the Levees Broke: A Requiem in Four Acts, to show the agony of the aftermath of Hurricane Katrina in 2005. In 2007, Blanchard recorded A Tale of God's Will, which contains parts (\"The Water\", \"Levees\", \"Wading Through\", and \"Funeral Dirge\") of the recording that were heard in Lee's documentary. Blanchard's mother, Wilhelmina, lost her Pontchartrain Park home in the tragedy but survived.\nIn his interview for Socialist Review Blanchard explained, \"I drew inspiration from the stories people had told me about their experiences in the aftermath of the hurricane. It wasn't so much about music for me. It was really more about what people had to endure. I just want people to reflect on what happened here and what people had to deal with, and how things can go terribly wrong in what is supposed to be the richest country in the world.\"\n\n\n== Reception ==\nWill Layman of PopMatters awarded the album nine points out of 10, stating \"Taken as a whole, two elements of this recording stand out. First, Blanchard and his group play selflessly, without reaching for flashy effects or long solos. Everything about this record is about bringing the compositions to full fruition, and the improvisation always sounds integrated with the full purpose of the music. Second, every element of the record is incorporated into its theme. Even the tracks that are somewhat disparate (a swinging duet between bass and trumpet on \"Ghost of Betsy\" and a fragmentary tenor solo on \"Ghost of 1927\", particularly) play as interludes that breathe life into the project between larger movements.\" Larry Blumenfeld of Entertainment Weekly commented \"Accompanied by an orchestra, Blanchard’s quintet moves elegantly from African rhythms to modern swing to balladic repose, his horn’s curled pleas and soaring declarations channeling both pain and resilience. It’s the Katrina story CNN can’t tell, masterfully told\". John Swenson of OffBeat added \"A Tale of God’s Will is an expansion of the music Blanchard and his band made for the Lee documentary, and it moves with the epic scope of the flood itself\".\nA reviewer of Reuters noted \"What started as a gig scoring Spike Lee’s HBO documentary “When the Levees Broke” has been imaginatively expanded by trumpeter Terence Blanchard into this epic-length, orchestral-string masterwork. As the second anniversary of the New Orleans deluge approaches, the Crescent City native delivers his compelling and poignant reflections on the catastrophe, with the support of his quintet and the 40-piece Northwest Sinfonia. In the tunes, there is anger and angst, lush melody and woeful wails, pockets of grace and flood waters of melancholy. Four “Levees” numbers are in the mix, with revitalized arrangements, including the prodding, ominous “The Water” and the painfully anguished “Funeral Dirge.” Of particular note are three impromptu short “ghost” pieces, as well as originals by Blanchard’s band members, highlighted by pianist Aaron Park’s lyrical gem “Ashe” and saxophonist Brice Winston’s heart-rending “In Time of Need.” Chris May of All About Jazz wrote \"Blanchard's no-frills, in-the-tradition, testifying trumpet, which is the main solo voice, rings out powerfully and affectingly throughout. He blows like a blues player sings, by turns angry, plaintive, stoic, hopeful and elegiac—and, almost tangibly, always from the heart\". Josh Jackson of NPR observed, \"this recording reveals what many jazz fans know: Blanchard is a powerful storyteller.\"\n\n\n== Track listing ==\n\n\n== Personnel ==\nBand\n\nTerence Blanchard – conductor, trumpet, orchestration, producer, liner notes,\nBrice Winston – soprano sax, tenor sax, liner notes\nDerrick Hodge – double bass, bass guitar, liner notes\nAaron Parks – piano, orchestration, liner notes,\nKendrick Scott – drums, percussion, orchestration\nZach Harmon – tabla and happy apple\nProduction\n\nHoward Drossin – orchestration\nRobin Burgess"
+        }
+      }
+    }
+  },
+  {
+    "id": "crystal-stair-blanchard",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Black Pearl is an album by the American jazz duo Harrison/Blanchard, released in 1988. It was their final album together; Terence Blanchard began his long partnership with the director Spike Lee on School Daze, released the same year. The duo supported the album with a North American tour.",
+    "contradictingQuote": "Black Pearl is an album by the American jazz duo Harrison/Blanchard, released in 1988. It was their final album together",
+    "skepticDecision": "Fails: the prose is the verbatim lede of 'Black Pearl' (1988), naming a different title and year, while the MB release under verification is 'Crystal Stair' (1987, Columbia). Wholesale about another work.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Black Pearl is an album by the American jazz duo Harrison/Blanchard, released in 1988. It was their final album together; Terence Blanchard began his long partnership with the director Spike Lee on School Daze, released the same year. The duo supported the album with a North American tour.",
+        "problem": "The entire albumDNA describes a DIFFERENT album, 'Black Pearl' (1988), not 'Crystal Stair' (1987). Title, year (1988 vs 1987), and 'final album' framing all belong to Black Pearl.",
+        "evidenceQuote": "Black Pearl is an album by the American jazz duo Harrison/Blanchard, released in 1988. It was their final album together",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Fields are CORRECT for Crystal Stair: MB embedded_mbid confirms title 'Crystal Stair', 1987, Columbia (CK 40830), Terence Blanchard + Donald Harrison. All 5 keyTracks match the MB tracklist. Only the albumDNA prose is swapped in from the Black Pearl Wikipedia page (stored_url = Black_Pearl_(Harrison/Blanchard_album)). Repair: keep fields/keyTracks, rewrite DNA to describe Crystal Stair and fix the wikipediaUrl.",
+    "ours": {
+      "title": "Crystal Stair",
+      "artist": "Terence Blanchard",
+      "year": 1987,
+      "label": "Columbia",
+      "albumDNA": "Black Pearl is an album by the American jazz duo Harrison/Blanchard, released in 1988. It was their final album together; Terence Blanchard began his long partnership with the director Spike Lee on School Daze, released the same year. The duo supported the album with a North American tour.",
+      "keyTracks": [
+        "Softly as in a Morning Sunrise",
+        "Crystal Stair",
+        "God Bless the Child",
+        "Endicott",
+        "Slam"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "ced80b16-70c6-46f2-9b8b-328cc5fdb5d3",
+          "title": "Crystal Stair",
+          "date": "1987",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Terence Blanchard",
+            "Donald Harrison"
+          ],
+          "labels": [
+            {
+              "name": "Columbia",
+              "catalogNumber": "CK 40830"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "01d3075d-3b5d-4e47-9e08-f03a54383c71",
+            "title": "Crystal Stair",
+            "firstReleaseDate": "1987",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Softly as in a Morning Sunrise",
+            "Crystal Stair",
+            "God Bless the Child",
+            "Endicott",
+            "Slam",
+            "Grace of God",
+            "Duck's Revenge",
+            "Forbidden Dreams",
+            "Neoclassicism"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Black_Pearl_(Harrison%2FBlanchard_album)",
+        "page": {
+          "requestedTitle": "Black Pearl (Harrison/Blanchard album)",
+          "resolvedTitle": "Black Pearl (Harrison/Blanchard album)",
+          "shortDescription": "1988 studio album by Harrison/Blanchard",
+          "extract": "Black Pearl is an album by the American jazz duo Harrison/Blanchard, released in 1988. It was their final album together; Terence Blanchard began his long partnership with the director Spike Lee on School Daze, released the same year. The duo supported the album with a North American tour.\n\n\n== Production ==\nThe album was produced by George Petit. Donald Harrison and Blanchard were backed by Carl Allen on drums, Reginald Veal on bass, and Cyrus Chestnut on piano. Mark Whitfield played guitar on \"Infinite Heart\". Harrison played a C melody saxophone on some of the songs. \"Somewhere\" is an interpretation of Leonard Bernstein's composition. \"Selim Sivad\" is a paean to Miles Davis.\n\n\n== Critical reception ==\n\nThe Washington Post noted that \"the mood is generally dark, somber and understated—even 'Ninth Ward Strut', the third tune on the album and the first to really emphasize a beat, keeps the rhythms tightly contained.\" The Globe and Mail said that the duo's \"tunes are flirtatious, full of ambiguities and open ends; their solos are as often wistfully evasive as they are punchy and to the point.\" The Ottawa Citizen stated that the \"solid, post-bop improvising shows the duo's ability to move outside conventions and to compose well structured pieces.\"\nThe Windsor Star concluded that \"the title cut has a haunting quality, quietly suspenseful, but some tunes are blandly vamp-like.\" The Buffalo News opined that \"there is something curiously abstract, theoretical and even tentative about the record\". The Commercial Appeal praised \"Blanchard's finest recorded trumpet solos\". The New York Daily News opined that the duo \"prove that recreating bop-era jazz needn't result in wax-museum-like records like those of Wynton Marsalis.\" The Pittsburgh Press and The Edmonton Journal included Black Pearl on their lists of the 10 best jazz albums of 1988.\n\n\n== Track listing ==\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "david-sanborn",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Double Vision is a 1986 album by Bob James and David Sanborn.",
+    "contradictingQuote": "Sanborn is an album by jazz saxophonist David Sanborn, released by Warner Bros. in 1976.",
+    "skepticDecision": "Fails: the prose describes 'Double Vision' (1986, Bob James and David Sanborn), but the MB release and the matched, correct wiki page are the self-titled 'David Sanborn' album by Sanborn alone. The prose names a different collaborative album.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Double Vision is a 1986 album by Bob James and David Sanborn. The album was a successful smooth jazz release receiving frequent airplay. The original album was released in the US on May 19, 1986, by Warner Bros Records.",
+        "problem": "albumDNA prose describes a DIFFERENT album ('Double Vision', the 1986 Bob James / David Sanborn collaboration), not the self-titled 'David Sanborn' album under verification. The MB release and the matched wiki page (the self-titled Sanborn album, tracks Indio/Smile/Mamacita/Herbs/Concrete Boogie) are the real entity; the prose's factual skeleton (title, 1986, Bob James, May 19 1986 release) belongs to Double Vision.",
+        "evidenceQuote": "Sanborn is an album by jazz saxophonist David Sanborn, released by Warner Bros. in 1976. It contains a version of \"I Do It for Your Love\" by Paul Simon.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Frankenstein record: MB embedded_mbid and keyTracks correctly identify the self-titled David Sanborn album (Warner Bros.; MB dates this release 1990, a reissue; matched wiki page calls the original a 1976 album), but the albumDNA prose is entirely about 'Double Vision' (Bob James & David Sanborn, 1986). All 5 keyTracks match the MB tracklist of the self-titled album. wikiLinkVerdict 'correct' because the stored page IS about the self-titled David Sanborn album (our entity), even though it gives 1976 vs ours/MB 1990 (reissue). Year field (1990) not flagged as error since MB also shows 1990 for this release.",
+    "ours": {
+      "title": "David Sanborn",
+      "artist": "David Sanborn",
+      "year": 1990,
+      "label": "Warner Bros. Records",
+      "albumDNA": "Double Vision is a 1986 album by Bob James and David Sanborn. The album was a successful smooth jazz release receiving frequent airplay. The original album was released in the US on May 19, 1986, by Warner Bros Records. It was released a week later in the UK.",
+      "keyTracks": [
+        "Indio",
+        "Smile",
+        "Mamacita",
+        "Herbs",
+        "Concrete Boogie"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "a4aff5ef-de09-433e-ade7-91aca42210fa",
+          "title": "David Sanborn",
+          "date": "1990",
+          "country": "DE",
+          "status": "Official",
+          "artists": [
+            "David Sanborn"
+          ],
+          "labels": [
+            {
+              "name": "Warner Bros. Records",
+              "catalogNumber": "927 304-2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "05edd445-b157-3c36-9c20-947cac4e78e6",
+            "title": "David Sanborn",
+            "firstReleaseDate": "1990",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Indio",
+            "Smile",
+            "Mamacita",
+            "Herbs",
+            "Concrete Boogie",
+            "I Do It for Your Love",
+            "Sophisticated Squaw",
+            "7th Ave."
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/David_Sanborn_(album)",
+        "page": {
+          "requestedTitle": "David Sanborn (album)",
+          "resolvedTitle": "David Sanborn (album)",
+          "shortDescription": "1976 studio album by David Sanborn",
+          "extract": "Sanborn is an album by jazz saxophonist David Sanborn, released by Warner Bros. in 1976. It contains a version of \"I Do It for Your Love\" by Paul Simon.\n\n\n== Track listing ==\n\"Indio\" (Rosalinda de Leon) - 5:35\n\"Smile\" (Paul Simon, Coleridge-Taylor Perkinson) - 5:24\n\"Mamacita\" (de Leon) - 4:45\n\"Herbs\" (Herb Bushler) - 4:29\n\"Concrete Boogie\" (Hiram Bullock) - 6:42\n\"I Do It for Your Love\" (Simon) - 2:47\n\"Sophisticated Squaw\" (Victor Lewis) - 4:47\n\"7th Ave.\" (Lewis) - 5:34\n\n\n== Personnel ==\nDavid Sanborn – alto saxophone, soprano saxophone, flute\nRosalinda de Leon – keyboards\nRichard Tee – keyboards on \"I Do It for Your Love\"\nHiram Bullock – guitar, vocals\nHerb Bushler – bass guitar\nVictor Lewis – drums\nJuma Santos – percussion\nPaul Simon – vocals on \"Smile\"\nPhoebe Snow – vocals on \"Smile\"\nPatti Austin – backing vocals\nLani Groves – backing vocals\nProduction\n\nJohn Court – executive producer\nPhil Ramone – producer, recording engineer\nVicki Fabry – recording assistant\nTheresa Del Pozzo – production coordinator\nSam Shaw – photography, design\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "django",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Jean Reinhardt, known by his Romani nickname Django, was a Belgian-born Romani jazz guitarist and composer who lived most of his life in France.",
+    "contradictingQuote": "Romani-French jazz musician (1910–1953)",
+    "skepticDecision": "The entire albumDNA is the Django Reinhardt person biography with no album-level content; the evidence identifies the described entity as a person, not the 'Djangology' album.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Jean Reinhardt, known by his Romani nickname Django, was a Belgian-born Romani jazz guitarist and composer who lived most of his life in France.",
+        "problem": "Prose is an artist biography (person), but the item is the album 'Djangology'; per MB the matched release is a 1974 Jazz Vogue compilation.",
+        "evidenceQuote": "MB release: title \"Djangology\", date \"1974\", label \"Jazz Vogue\" VJD502, secondaryTypes [\"Compilation\"]",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Person-bio prose on an album item. Bio facts are confirmed verbatim by the Django Reinhardt wiki page (the stored link - artist page, not an album page). 'Invented European jazz' is editorial. All 4 keyTracks are on the MB tracklist. Fields year=1949/label=Vogue cannot be confirmed from this evidence (MB match is a 1974 Jazz Vogue comp); if the site means the 1949 Rome 'Djangology' sessions, neither evidence document covers that. Repair: album-level prose needed.",
+    "ours": {
+      "title": "Djangology",
+      "artist": "Django Reinhardt",
+      "year": 1949,
+      "label": "Vogue",
+      "albumDNA": "Jean Reinhardt, known by his Romani nickname Django, was a Belgian-born Romani jazz guitarist and composer who lived most of his life in France. He was one of the first major jazz talents to emerge in Europe and has been hailed as one of its most significant exponents. Invented European jazz. Django's influence extends from jazz to rock to countless guitarists who marvel at his impossible virtuosity.",
+      "keyTracks": [
+        "Minor Swing",
+        "Nuages",
+        "Djangology",
+        "Swing 39"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "12922d94-7a73-4c61-ad64-42e485c38e4f",
+          "title": "Djangology",
+          "date": "1974",
+          "country": "GB",
+          "status": null,
+          "artists": [
+            "Django Reinhardt"
+          ],
+          "labels": [
+            {
+              "name": "Jazz Vogue",
+              "catalogNumber": "VJD502"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "80e3091c-8c3f-4272-9b3f-6bec1dbe3110",
+            "title": "Djangology",
+            "firstReleaseDate": "1974",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Djangology",
+            "Blue Drag",
+            "Dinah",
+            "Clouds",
+            "Some of These Days",
+            "Lentement Mademoiselle",
+            "Nuages",
+            "Just One of Those Things",
+            "Mélodie au crépuscule",
+            "Porto Cabello",
+            "Sweet Chorus",
+            "Swing 39",
+            "Billet doux",
+            "Lover Man",
+            "Place de Broukère",
+            "September Song",
+            "Saint Louis Blues",
+            "Louise",
+            "Daphne",
+            "Swing Guitars",
+            "Ol' Man Rover",
+            "Tears",
+            "I Love You",
+            "Manoir de mes rêves"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Django_Reinhardt",
+        "page": {
+          "requestedTitle": "Django Reinhardt",
+          "resolvedTitle": "Django Reinhardt",
+          "shortDescription": "Romani-French jazz musician (1910–1953)",
+          "extract": "Jean Reinhardt (23 January 1910 – 16 May 1953), known by his Romani nickname Django (French: [dʒãŋɡo ʁɛjnaʁt] or [dʒɑ̃ɡo ʁenɑʁt]), was a Belgian-born Romani jazz guitarist and composer who lived most of his life in France. He was one of the first major jazz talents to emerge in Europe and has been hailed as one of its most significant exponents.\nWith violinist Stéphane Grappelli, Reinhardt formed the Paris-based Quintette du Hot Club de France in 1934. The group was among the first to play jazz that featured the guitar as a lead instrument. Reinhardt recorded in France with many visiting American musicians, including Coleman Hawkins and Benny Carter, and briefly toured the United States with Duke Ellington's orchestra in 1946. He died suddenly of a brain hemorrhage in 1953 at the age of 43.\nReinhardt's most popular compositions have become standards within gypsy jazz, including \"Minor Swing\", \"Daphne\", \"Belleville\", \"Djangology\", \"Swing '42\", and \"Nuages\". The jazz guitarist Frank Vignola said that nearly every major popular music guitarist in the world has been influenced by Reinhardt. Over the last few decades, annual Django festivals have been held throughout Europe and the U.S., and a biography has been written about his life. In February 2017, the Berlin International Film Festival held the world premiere of the French biographical film Django, based on Reinhardt's life.\n\n\n== Biography ==\n\n\n=== Early life ===\nReinhardt was born on 23 January 1910 in Liberchies, Pont-à-Celles, Belgium, into a French family of Manouche Romani descent. His French, Alsatian father, Jean Eugène Weiss, domiciled in Paris with his wife, went by Jean-Baptiste Reinhardt, his wife's surname, to avoid French military conscription. His mother, Laurence Reinhardt, was a dancer. The birth certificate refers to \"Jean Reinhart, son of Jean Baptiste Reinhart, artist, and Laurence Reinhart, housewife, domiciled in Paris\".\nA number of authors have repeated the suggestion that Reinhardt's nickname, Django, is Romani for \"I awake\"; it may also simply have been a diminutive, or local Walloon version, of \"Jean\". Reinhardt spent most of his youth in Romani encampments close to Paris, where he started playing the violin, banjo and guitar. He became adept at stealing chickens. His father reportedly played music in a family band comprising himself and seven brothers; a surviving photograph shows this band including his father on piano.\nReinhardt was attracted to music at an early age, first playing the violin. At the age of 12, he received a banjo-guitar as a gift. He quickly taught himself to play, mimicking the fingerings of musicians he watched, who would have included local virtuoso players of the day such as Jean \"Poulette\" Castro and Auguste \"Gusti\" Malha, as well as from his uncle Guiligou, who played violin, banjo and guitar. Reinhardt was able to make a living playing music by the time he was 15, busking in cafés, often with his brother Joseph. At this time, he had not started playing jazz, although he had probably heard and been intrigued by the version of jazz played by American expatriate bands like Billy Arnold's.\nReinhardt received little formal education and acquired the rudiments of literacy only in adult life.\n\n\n=== Marriage and injury ===\nAt the age of 17, Reinhardt married Florine \"Bella\" Mayer, a girl from the same Romani settlement, according to Romani custom (although not an official marriage under French law). The following year he recorded for the first time. On these recordings, made in 1928, Reinhardt plays the \"banjo\" (actually the banjo-guitar) accompanying the accordionists Maurice Alexander, Jean Vaissade and Victor Marceau, and the singer Maurice Chaumel. His name was now drawing international attention, such as from British bandleader Jack Hylton, who came to France just to hear him play. Hylton offered him a job on the spot, and Reinhardt accepted.\nBefore he had a chance to start with the band, Reinhardt nearly died. On the night of 2 November 1928, Reinhardt was going to bed in the wagon that he and his wife shared in the caravan. He knocked over a candle, which ignited the extremely flammable celluloid that his wife used to make artificial flowers. The wagon was quickly  engulfed in flames. The couple escaped, but Reinhardt suffered extensive burns over half his body. During his 18-month hospitalization, doctors recommended amputation of his badly damaged right leg. Reinhardt refused the surgery and was eventually able t"
+        }
+      }
+    }
+  },
+  {
+    "id": "django-reinhardt-et-son-quintette",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "\"Nuages\" is one of the best-known compositions by Django Reinhardt. He recorded at least thirteen versions of the tune, which is a jazz standard and a mainstay of the gypsy swing repertoire.",
+    "contradictingQuote": "Composition by Django Reinhardt",
+    "skepticDecision": "The albumDNA is the lead of the composition page describing the tune 'Nuages' (a song work), confirmed by the evidence short description, not the 1988 compilation album this item represents.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "\"Nuages\" is one of the best-known compositions by Django Reinhardt. He recorded at least thirteen versions of the tune, which is a jazz standard and a mainstay of the gypsy swing repertoire.",
+        "problem": "Prose describes the composition 'Nuages', not the album; the embedded-MBID release is a 1988 Vogue (FR) compilation titled Nuages.",
+        "evidenceQuote": "shortDescription: \"Composition by Django Reinhardt\"; MB release: date \"1988\", label Vogue, secondaryTypes [\"Compilation\"]",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Composition prose on an album item (title-track page substitution). All composition facts are confirmed verbatim by the Nuages wiki page; nothing describes the album. All 6 keyTracks are on the embedded MB tracklist, so the release reference is sound. Year 1940 matches the famous recordings of the tune (wiki: two 1940 recordings), not the 1988 release - era convention. Stored URL is the composition page; for an album entry that is not the album's page.",
+    "ours": {
+      "title": "Nuages",
+      "artist": "Django Reinhardt",
+      "year": 1940,
+      "label": "Unknown",
+      "albumDNA": "\"Nuages\" is one of the best-known compositions by Django Reinhardt. He recorded at least thirteen versions of the tune, which is a jazz standard and a mainstay of the gypsy swing repertoire. English and French lyrics have been added to the piece, which was originally an instrumental work. The title translated into English is \"Clouds\", but the adaptation with English lyrics is titled \"It's the Bluest Kind of Blues\".",
+      "keyTracks": [
+        "Nuages",
+        "Swing Guitars",
+        "Saint Louis Blues",
+        "Viper's Dream",
+        "Daphne",
+        "Dinah"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "5c162ec5-f61d-405d-99e2-b390b85c9fe4",
+          "title": "Nuages",
+          "date": "1988",
+          "country": "FR",
+          "status": "Official",
+          "artists": [
+            "Django Reinhardt"
+          ],
+          "labels": [
+            {
+              "name": "Vogue",
+              "catalogNumber": "670205"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "57e47d74-f785-3940-84cf-d557657975c0",
+            "title": "Nuages",
+            "firstReleaseDate": "1988",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Nuages",
+            "Swing Guitars",
+            "Saint Louis Blues",
+            "Viper's Dream",
+            "Daphne",
+            "Dinah",
+            "Minor Swing",
+            "Les Yeux Noirs",
+            "Old Man River",
+            "Louise",
+            "Dinette",
+            "Swingtime in Springtime",
+            "Blues en Mineur",
+            "Swing 39",
+            "Belleville",
+            "Crepuscule"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Nuages",
+        "page": {
+          "requestedTitle": "Nuages",
+          "resolvedTitle": "Nuages",
+          "shortDescription": "Composition by Django Reinhardt",
+          "extract": "\"Nuages\" (French pronunciation: [nɥaʒ]) is one of the best-known compositions by Django Reinhardt. He recorded at least thirteen versions of the tune, which is a jazz standard and a mainstay of the gypsy swing repertoire. English and French lyrics have been added to the piece, which was originally an instrumental work. The title translated into English is \"Clouds\", but the adaptation with English lyrics is titled \"It's the Bluest Kind of Blues\".\nIn 1940, Django made two recordings of \"Nuages\" in F major, and with a clarinet melody. (Some later recordings are in G  major, perhaps to suit the violin.) Unhappy with the first recording, Reinhardt added a second clarinet, creating a renowned arrangement for the December 1940 recording. Reinhardt's 1946 recording (as can be heard in the sample) is in the key of G major. A final recording was made at a 1953 session just before he died, where we hear Reinhardt with only Maurice Vander on piano, Pierre Michelot on bass, and Jean-Louis Viale on drums. He was using an electric guitar by this time. \"Nuages\" was released by Django Reinhardt and the Quintet of the Hot Club of France on the French Swing label as a 78-RPM single in 1940. The flip side is \"Les Yeux Noirs\".\n\n\n== Other recordings ==\nSidney Bechet – Rendez-vous avec Sidney Bechet et Andre Reweliotty (1953)\nTony Bennett – used the music with new lyrics that he wrote for a song titled \"All for You\" on The Art of Romance (2004)\nBenny Carter – Elegy in Blue (1994)\nPino Daniele – vocal version in his album – Passi d'autore (2004)\nLucienne Delyle – vocal version of \"Nuages\" with French lyrics by Jacques Larue (1942)\nDenny Dennis with the Stanley Black Orchestra – vocal version \"It's the Bluest Kind of Blues My Baby Sings\" with English lyrics by Spencer Williams (1942)\nPaul Desmond with Ed Bickert – Pure Desmond (1974)\nPeggy Lee with Dave Barbour and His Orchestra – vocal version \"It's the Bluest Kind of Blues\" (1946, not issued until 2000)\nManhattan Transfer – on their album Swing (1997) – \"Clouds\" – with vocal arrangement by Gene Puerling and vocalese lyrics by Jon Hendricks – guest appearances by the Rosenberg Trio and Stéphane Grappelli (a founding member of Django's Quintette du Hot Club de France—one of Grappelli's last recordings)\nZlatko Manojlović – Zlatko i njegove gitare (1980)\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "ella-and-her-fellas",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Like Someone in Love is a 1957 studio album by the American jazz singer Ella Fitzgerald, with a studio orchestra arranged and conducted by Frank DeVol",
+    "contradictingQuote": "Ella and Her Fellas",
+    "skepticDecision": "The albumDNA is the wiki lead of 'Like Someone in Love' (a different Fitzgerald album), while the embedded release for this item is titled 'Ella and Her Fellas'.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Like Someone in Love is a 1957 studio album by the American jazz singer Ella Fitzgerald, with a studio orchestra arranged and conducted by Frank DeVol",
+        "problem": "The entire albumDNA describes a different album (Like Someone in Love, a Verve-era LP arranged by Frank DeVol), not Ella and Her Fellas, which the authoritative embedded MB release shows is a 1957 Decca LP",
+        "evidenceQuote": "title: \"Ella and Her Fellas\"; labels: Decca Records, DL 8477; date: 1957",
+        "source": "mb"
+      },
+      {
+        "ourClaim": "recorded at the same time as her albums with Louis Armstrong",
+        "problem": "Sentence is lifted verbatim from the Wikipedia lead of Like Someone in Love (Ella Fitzgerald album); the fact belongs to that album, not this one",
+        "evidenceQuote": "Like Someone in Love is a 1957 studio album by the American jazz singer Ella Fitzgerald, with a studio orchestra arranged and conducted by Frank DeVol. This album represents a fine example of Ella's singing from this period, recorded at the same time as her albums with Louis Armstrong.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Classic disambiguation substitution: prose and stored wikipedia link are both for Like Someone in Love (Ella Fitzgerald album); the item is Ella and Her Fellas (Decca DL 8477, 1957, per embedded MB). Title/artist/year/label fields are correct; the prose needs a full rewrite and the link must be replaced or dropped. 5 of 6 keyTracks are not on the authoritative MB tracklist (only 'Stone Cold Dead in the Market (He Had It Coming)' matches) - the keyTracks appear to come from yet another source and need rebuilding from the MB tracklist.",
+    "ours": {
+      "title": "Ella and Her Fellas",
+      "artist": "Ella Fitzgerald",
+      "year": 1957,
+      "label": "Decca Records",
+      "albumDNA": "Like Someone in Love is a 1957 studio album by the American jazz singer Ella Fitzgerald, with a studio orchestra arranged and conducted by Frank DeVol. This album represents a fine example of Ella's singing from this period, recorded at the same time as her albums with Louis Armstrong.",
+      "keyTracks": [
+        "Stone Cold Dead in the Market (He Had It Coming)",
+        "You Won’t Be Satisfied (Until You Break My Heart)",
+        "That’s the Way It Is",
+        "I Gotta Have My Baby Back",
+        "Sentimental Journey",
+        "The Frim Fram Sauce"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "0d275bc5-65eb-42d7-8364-bcd1ec121ac0",
+          "title": "Ella and Her Fellas",
+          "date": "1957",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Ella Fitzgerald"
+          ],
+          "labels": [
+            {
+              "name": "Decca Records",
+              "catalogNumber": "DL 8477"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "14f06581-a479-4f5c-bcf7-6a6ec98f7dad",
+            "title": "Ella and Her Fellas",
+            "firstReleaseDate": "1957",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "You Won’t Be Satisfied (Until You Break My Heart)",
+            "That’s the Way It Is",
+            "Stone Cold Dead in the Market (He Had It Coming)",
+            "I Gotta Have My Baby Back",
+            "Sentimental Journey",
+            "The Frim Fram Sauce",
+            "It’s Only a Paper Moon",
+            "Dream a Little Dream of Me",
+            "Baby, It’s Cold Outside",
+            "A‐Tisket A‐Tasket",
+            "Would You Like to Take a Walk (Sump’n Good’ll Come From That)",
+            "Don’cha Go ’way Mad"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Like_Someone_in_Love_(Ella_Fitzgerald_album)",
+        "page": {
+          "requestedTitle": "Like Someone in Love (Ella Fitzgerald album)",
+          "resolvedTitle": "Like Someone in Love (Ella Fitzgerald album)",
+          "shortDescription": "1957 studio album by Ella Fitzgerald",
+          "extract": "Like Someone in Love is a 1957 studio album by the American jazz singer Ella Fitzgerald, with a studio orchestra arranged and conducted by Frank DeVol. This album represents a fine example of Ella's singing from this period, recorded at the same time as her albums with Louis Armstrong.\n\n\n== History ==\nThe album was also recorded in the midst of her epic 'Songbooks' project, celebrating the composers of the 'Great American Songbook' and Broadway. The album features only four songs written by the composers featured in her 'Songbooks', instead concentrating on very famous ballads by lesser known writers. Some songs on the album were also recorded with Armstrong on the albums that they collaborated on from this period. Stan Getz is featured on tenor sax on four tracks, including \"Midnight Sun\" and \"You're Blasé\".  Ted Nash plays the alto sax and solos.  The cover photos are by Phil Stern.\n\n\n== Reception ==\n\nWriting for AllMusic, music critic Scott Yanow wrote of the album: \"Most of the songs are veteran standards... her voice was so strong and appealing during this era that all of her recordings from the mid- to late '50s are enjoyable and easily recommended\".\n\n\n== Track listing ==\nFor the 1957 Verve album Someone in Love, Verve MGV-4004\nSide one:\n\n\"There's a Lull in My Life\" (Mack Gordon, Harry Revel)  – 3:23\n\"More Than You Know\" (Edward Eliscu, Billy Rose, Vincent Youmans)  – 3:14\n\"What Will I Tell My Heart?\" (Irving Gordon, Jack Lawrence, Peter Tinturin)  – 3:27\n\"I Never Had A Chance\" (Irving Berlin)  – 2:44\n\"Close Your Eyes\" (Bernice Petkere)  – 2:54\n\"We'll Be Together Again\" (Carl T. Fischer, Frankie Laine)  – 3:18\n\"Then I'll Be Tired Of You\" (Yip Harburg, Arthur Schwartz)  – 3:10\n\"Like Someone in Love\" (Johnny Burke, Jimmy Van Heusen)  – 3:07\nSide two:\n\n\"Midnight Sun\" (Sonny Burke, Lionel Hampton, Johnny Mercer)  – 3:54\n\"I Thought About You\" (Mercer, Van Heusen)  – 2:51\n\"You're Blasé\" (Ord Hamilton, Bruce Sievier)  – 3:55\n\"Night Wind\" (Lew Pollack, Bob Rothberg)  – 3:16\n\"What's New?\" (Johnny Burke, Bob Haggart)  – 3:04\n\"Hurry Home\" (Buddy Bernier, Bob Emmerich, Joseph Meyer)  – 4:37\n\"How Long Has This Been Going On?\" (George Gershwin, Ira Gershwin)  – 5:48\nBonus Tracks; Issued on the 1991 Verve CD re-issue Like Someone in Love, Verve 314-511 524-2\n\n16. \"I'll Never Be The Same\" (Gus Kahn, Matty Malneck, Frank Signorelli)  – 4:23 \n17. \"Lost in a Fog\" (Dorothy Fields, Jimmy McHugh)  – 3:59 \n18. \"Everything Happens to Me\" (Tom Adair, Matt Dennis)  – 3:51 \n19. \"So Rare\" (Jerry Herst, Jack Sharpe)  – 3:34\nTracks 1–11 recorded October 15, 1957, in Hollywood, Los Angeles\nTracks 12–19 recorded October 28, 1957, in Hollywood, Los Angeles\n\n\n== Personnel ==\nElla Fitzgerald – vocals\nFrank DeVol – arranger, conductor\nStan Getz – saxophone\n\n\n== References =="
+        }
+      }
+    }
+  }
+]

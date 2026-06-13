@@ -1,0 +1,3870 @@
+{
+  "count": 308,
+  "repairs": [
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "aint-misbehavin-waller",
+      "field": "keyTracks",
+      "before": [
+        "Ain’t Misbehavin’",
+        "Until the Real Thing Comes Along",
+        "Two Sleepy People",
+        "I’m Gonna Sit Right Down and Write Myself a Letter",
+        "Tea for Two",
+        "I Can’t Give You Anything but Love, Baby"
+      ],
+      "after": [
+        "Ain’t Misbehavin’",
+        "Two Sleepy People",
+        "My Very Good Friend the Milkman",
+        "12th Street Rag",
+        "When Somebody Thinks You’re Wonderful",
+        "Your Feet’s Too Big"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/fbd52c25-e31c-4c31-b403-5306aa13cad4",
+      "evidence": "MB tracklist (embedded_mbid)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "genius-of-modern-music-vol-1",
+      "field": "keyTracks",
+      "before": [
+        "Humph",
+        "Evonce",
+        "Suburban Eyes",
+        "Thelonious",
+        "Evonce (alternate take)",
+        "Suburban Eyes (alternate take)"
+      ],
+      "after": [
+        "Humph",
+        "Thelonious",
+        "’round About Midnight",
+        "Off Minor",
+        "Ruby My Dear",
+        "I Mean You"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/a87f990c-88ff-4f6c-9014-e7a200a294b4",
+      "evidence": "MB tracklist (embedded_mbid)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "oscar-peterson-plays-george-gershwin",
+      "field": "keyTracks",
+      "before": [
+        "Man I Love",
+        "Fascinatin' Rhythm",
+        "It Ain't Necessarily So",
+        "Somebody Loves Me",
+        "Strike Up The Band"
+      ],
+      "after": [
+        "Man I Love",
+        "It Ain’t Necessarily So",
+        "Strike Up the Band!",
+        "A Foggy Day"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/f9ad3361-7782-4458-a587-5f876033aa14",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "kenny-burrell",
+      "field": "keyTracks",
+      "before": [
+        "Don’t Cry Baby",
+        "Drum Boogie",
+        "Strictly Confidential",
+        "All of You",
+        "Perception"
+      ],
+      "after": [
+        "Get Happy",
+        "But Not for Me",
+        "Mexico City",
+        "Moten Swing",
+        "Cheeta"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/2b00ce9c-9c80-4ba8-a633-6282544d794c",
+      "evidence": "MB tracklist (embedded_mbid)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "ella-and-her-fellas",
+      "field": "keyTracks",
+      "before": [
+        "Flying Home",
+        "Sing Me a Swing Song",
+        "Stone Cold Dead in the Market (He Had It Coming)",
+        "Benny’s Coming Home on Saturday",
+        "Big Boy Blues",
+        "And Her Tears Flowed Like Wine"
+      ],
+      "after": [
+        "Stone Cold Dead in the Market (He Had It Coming)",
+        "You Won’t Be Satisfied (Until You Break My Heart)",
+        "That’s the Way It Is",
+        "I Gotta Have My Baby Back",
+        "Sentimental Journey",
+        "The Frim Fram Sauce"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/0d275bc5-65eb-42d7-8364-bcd1ec121ac0",
+      "evidence": "MB tracklist (embedded_mbid)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "the-centaur-and-the-phoenix",
+      "field": "keyTracks",
+      "before": [
+        "The Centaur and the Phoenix",
+        "Summer Song",
+        "The Plum Blossom",
+        "First Gymnopedie"
+      ],
+      "after": [
+        "The Centaur and the Phoenix",
+        "Summer Song",
+        "Revelation",
+        "Apathy"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/c90e96c7-b6e4-498b-a80a-bb2c9af0c04b",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "face-to-face",
+      "field": "keyTracks",
+      "before": [
+        "Face to Face",
+        "Goin' Down",
+        "Somethin'",
+        "Swingin' for Bumsy"
+      ],
+      "after": [
+        "Face to Face",
+        "Goin' Down",
+        "Swingin' at Sugar Ray's",
+        "Whatever Lola Wants"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/df11fa37-ac88-4ae1-9db7-a8cd7f63d851",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "shirley-scott-trio",
+      "field": "keyTracks",
+      "before": [
+        "Senor Blues",
+        "Doodlin'",
+        "The Preacher",
+        "Nica's Dream"
+      ],
+      "after": [
+        "Doodlin'",
+        "The Preacher",
+        "Señor Blues",
+        "Moon Ray"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/b59b9c7e-18b8-4fb5-b781-2030fe4e53fd",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "straight-ahead",
+      "field": "keyTracks",
+      "before": [
+        "Blue Monk",
+        "When Malindy Sings",
+        "In the Red",
+        "African Woman"
+      ],
+      "after": [
+        "Blue Monk",
+        "When Malindy Sings",
+        "In the Red",
+        "Straight Ahead"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/b705a7fa-3ec7-4b84-9107-975968a892dc",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "together",
+      "field": "keyTracks",
+      "before": [
+        "Reza",
+        "Sweet Little Maia",
+        "Keiko's Birthday March",
+        "Village Greene",
+        "Jay-Ree",
+        "For Heaven's Sake"
+      ],
+      "after": [
+        "Le Roi",
+        "Beau-Ty",
+        "Brown Sugar"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/56ec70d0-012f-47cc-8b86-a10a5e54a06b",
+      "evidence": "MB tracklist (embedded_mbid)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "hello-dolly",
+      "field": "keyTracks",
+      "before": [
+        "Hello Dolly",
+        "Mack the Knife",
+        "On the Sunny Side of the Street",
+        "When the Saints Go Marching In",
+        "Ain't Misbehavin'",
+        "Cut Off My Legs and Call Me Shorty"
+      ],
+      "after": [
+        "Hello, Dolly!",
+        "It's Been a Long, Long Time",
+        "A Lot of Livin' to Do",
+        "A Kiss to Build a Dream On",
+        "Someday",
+        "Hey, Look Me Over"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/c16f750b-6dc4-367d-9003-21243ee3023d",
+      "evidence": "MB tracklist (embedded_mbid)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "a-caddy-for-daddy",
+      "field": "keyTracks",
+      "before": [
+        "A Caddy for Daddy",
+        "The Morning After",
+        "Carl's Ballade",
+        "Third Time Around"
+      ],
+      "after": [
+        "A Caddy for Daddy",
+        "The Morning After",
+        "Venus Di Mildew",
+        "Ace Duece Trey"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/ac7e7ff4-04e1-4f87-9814-ae3d0a8cdb09",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "dippin",
+      "field": "keyTracks",
+      "before": [
+        "Dippin'",
+        "Recado Bossa Nova",
+        "The Break Through",
+        "The Dip"
+      ],
+      "after": [
+        "Recado Bossa Nova",
+        "The Break Through",
+        "The Dip",
+        "The Vamp"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/2dbe191d-60bf-4213-b284-3d9b49ce1b21",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "soul-sauce",
+      "field": "keyTracks",
+      "before": [
+        "Soul Sauce (Guachi Guaro)",
+        "Maramoor",
+        "Tanya",
+        "Somewhere in the Night"
+      ],
+      "after": [
+        "Soul Sauce (Guachi Guaro)",
+        "Tanya",
+        "Somewhere in the Night",
+        "Afro-Blue"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/bc9d9386-d7bd-4ae4-b7c2-f618ce009dfd",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "new-york-eye-and-ear",
+      "field": "keyTracks",
+      "before": [
+        "AY",
+        "ITT",
+        "Don Cherry"
+      ],
+      "after": [
+        "AY",
+        "ITT",
+        "Dons Dawn"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/114eb329-6d93-4771-ab1a-67987d6aab77",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "mr-jelly-lord",
+      "field": "keyTracks",
+      "before": [
+        "Black Bottom Stomp",
+        "The Chant",
+        "Dead Man Blues",
+        "Original Jelly Roll Blues",
+        "Grandpa's Spell",
+        "Beale Street Blues"
+      ],
+      "after": [
+        "Burrnin' The Iceburg",
+        "Mr. Jelly Lord",
+        "Down My Way",
+        "When They Get Lovin' They's Gone",
+        "You Oughtta See My Gal",
+        "New Orleans Bump"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/e1cb2b39-9c69-48b1-8b9e-c28ae8806415",
+      "evidence": "MB tracklist (embedded_mbid)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "clarinet-concertos-nos-1-and-2",
+      "field": "keyTracks",
+      "before": [
+        "Konzert Für Klarinette Und Orchester Nr. 1 F-moll Op. 73: Allegro",
+        "Konzert Für Klarinette Und Orchester Nr. 1 F-moll Op. 73: Adagio Ma Non Troppo",
+        "Konzert Für Klarinette Und Orchester Nr. 1 F-moll Op. 73: Rondo: Allegretto",
+        "Konzert Für Klarinette Und Orchester Nr. 2 Es-dur, Op. 74: Allegro",
+        "Konzert Für Klarinette Und Orchester Nr. 2 Es-dur, Op. 74: Andante Con Moto",
+        "Konzert Für Klarinette Und Orchester Nr. 2 Es-dur, Op. 74: Alla Polacca"
+      ],
+      "after": [
+        "Concerto for Clarinet and Orchestra no. 1 in F minor, op. 73: I. Allegro",
+        "Concerto for Clarinet and Orchestra no. 1 in F minor, op. 73: II. Adagio ma non troppo",
+        "Concerto for Clarinet and Orchestra no. 1 in F minor, op. 73: III. Rondo. Allegretto",
+        "Concerto for Clarinet and Orchestra no. 2 in E-flat major, op. 74: I. Allegro",
+        "Concerto for Clarinet and Orchestra no. 2 in E-flat major, op. 74: II. Andante con moto",
+        "Concerto for Clarinet and Orchestra no. 2 in E-flat major, op. 74: III. Alla Polacca"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/aa920ce1-ebae-4c95-8cf5-50de194ad9fa",
+      "evidence": "MB tracklist (embedded_mbid)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "now-he-sings",
+      "field": "keyTracks",
+      "before": [
+        "Now He Sings, Now He Sobs",
+        "Steps - What Was",
+        "Matrix",
+        "Windows"
+      ],
+      "after": [
+        "Now He Sings - Now He Sobs",
+        "Steps - What Was",
+        "Matrix",
+        "Now He Beats the Drum - Now He Stops"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/42bceff9-bd45-4ace-b17d-2f2fc4a8a3f6",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "selflessness-featuring-my-favorite-things",
+      "field": "keyTracks",
+      "before": [
+        "My Favorite Things",
+        "I Want To Talk About You",
+        "Selflessness"
+      ],
+      "after": [
+        "My Favorite Things",
+        "Selflessness",
+        "I Want to Know About You"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/8e5cef62-e621-47ba-a20d-986758a0c8f5",
+      "evidence": "MB tracklist (embedded_mbid)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "black-woman",
+      "field": "keyTracks",
+      "before": [
+        "Black Woman",
+        "Blind Willie",
+        "Peanut",
+        "Portrait of Linda in Three Colors"
+      ],
+      "after": [
+        "Black Woman",
+        "Peanut",
+        "Bialero",
+        "Blind Willy"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/5c5d3ac3-9ec9-381e-b6f4-6325cdda6717",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "for-alto",
+      "field": "keyTracks",
+      "before": [
+        "To Composer John Cage",
+        "To Pianist Cecil Taylor",
+        "To Artist Murray DePillars",
+        "To Composer Kenneth McKIntyre"
+      ],
+      "after": [
+        "To Composer John Cage",
+        "To Pianist Cecil Taylor",
+        "Dedicated to Multi-Instrumentalist Jack Gell",
+        "To Artist Murray De Pillars"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/fbd69275-7e9d-41cd-9939-225742e21a80",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "spirits-known-and-unknown",
+      "field": "keyTracks",
+      "before": [
+        "Spirits Known and Unknown",
+        "The Creator Has a Master Plan",
+        "One",
+        "Damn Nam (Ain't Goin' to Vietnam)"
+      ],
+      "after": [
+        "The Creator Has a Master Plan (Peace)",
+        "One",
+        "Damn Nam (Ain't Goin' to Vietnam)",
+        "Echoes"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/e75d1d5f-ec44-4573-a3ee-f4588f6c80ec",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "alive-grant-green",
+      "field": "keyTracks",
+      "before": [
+        "Let the Music Take Your Mind",
+        "Sookie Sookie",
+        "Let's Stay Together",
+        "Down Here on the Ground"
+      ],
+      "after": [
+        "Let The Music Take Your Mind",
+        "Sookie, Sookie",
+        "Down Here on the Ground",
+        "Time to Remember"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/2b00e28e-de06-3918-aae3-e0e82db56423",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "world-galaxy",
+      "field": "keyTracks",
+      "before": [
+        "My Favorite Things",
+        "Galaxy Around Olodumare",
+        "Galaxy in Turiya",
+        "A Galaxy of Love"
+      ],
+      "after": [
+        "My Favorite Things",
+        "Galaxy Around Olodumare",
+        "Galaxy in Turiya",
+        "Galaxy in Satchidananda"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/75e6e3bc-32df-4a1e-bf98-1182eb7d6657",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "capra-black",
+      "field": "keyTracks",
+      "before": [
+        "Capra Black",
+        "Cry of Hunger",
+        "Soulful Song for My Grandfather"
+      ],
+      "after": [
+        "Capra Black",
+        "Cry of Hunger",
+        "Sir Galahad"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/543f7657-c7d5-4713-82cd-20fa92fb1e4c",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "afrodisia",
+      "field": "keyTracks",
+      "before": [
+        "Soul Makossa",
+        "Lily",
+        "Super Kumba"
+      ],
+      "after": [
+        "Soul Makossa",
+        "Lily",
+        "New Bell"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/1980ea21-61cd-4881-82bb-a1c0e428f432",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "space-is-the-place",
+      "field": "keyTracks",
+      "before": [
+        "Space Is the Place",
+        "Images",
+        "Discipline 27-II",
+        "Sea of Sounds"
+      ],
+      "after": [
+        "Space Is the Place",
+        "Images",
+        "Sea of Sounds",
+        "Discipline 33"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/87e49acf-c2f5-427c-a699-d3df4ac149f0",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "air-song",
+      "field": "keyTracks",
+      "before": [
+        "Untitled Song",
+        "Great Body of the Riddle or Where Were the Dodge Boys When My Clay Started to Slide",
+        "Dance of the Beast",
+        "Air Song"
+      ],
+      "after": [
+        "Great Body of the Riddle or Where Were the Dodge Boys When My Clay Started to Slide",
+        "Dance of the Beast",
+        "Air Song",
+        "Untitled Tango"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/0809863c-ca14-4cb9-9d3e-1769aadf24f0",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "eastern-rebellion",
+      "field": "keyTracks",
+      "before": [
+        "Naima's Love Song",
+        "Mode for Joe",
+        "5/4 Thing",
+        "Fantasy in D"
+      ],
+      "after": [
+        "Mode for Joe",
+        "5/4 Thing",
+        "Bolivia",
+        "Naima"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/bd7f4780-3a6e-4f12-a14d-769f9ccc8d13",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "saxophone-solos",
+      "field": "keyTracks",
+      "before": [
+        "Aerobatics 1",
+        "Aerobatics 2",
+        "Alto Analytics"
+      ],
+      "after": [
+        "Aerobatics 1",
+        "Aerobatics 2",
+        "Aerobatics 4"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/e911ffe0-7b34-45cf-8b39-290e6731b69b",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "shakti",
+      "field": "keyTracks",
+      "before": [
+        "Joy",
+        "Lotus Feet",
+        "What Need Have I for This",
+        "India"
+      ],
+      "after": [
+        "Joy",
+        "Lotus Feet",
+        "What Need Have I for This–What Need Have I for That–I Am Dancing at the Feet of My Lord–All Is Bliss–All Is Bliss"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/3c1e31b7-debe-4f1b-9c4e-63a8f92f9226",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "the-peoples-republic",
+      "field": "keyTracks",
+      "before": [
+        "The People's Republic",
+        "Vietnam 1, 2",
+        "New York"
+      ],
+      "after": [
+        "The People’s Republic",
+        "New York",
+        "Trio for Trio"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/d6b3ef2f-bdb4-43e3-9383-a8ebf7e198be",
+      "evidence": "MB tracklist (search sim=0.92 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "dinner-music",
+      "field": "keyTracks",
+      "before": [
+        "Ida Lupino",
+        "Wrong Key Donkey",
+        "Dining Alone",
+        "Sing Me Softly of the Blues"
+      ],
+      "after": [
+        "Ida Lupino",
+        "Dining Alone",
+        "Sing Me Softly of the Blues",
+        "Dreams So Real"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/237d3438-4e38-4d43-8f08-6116b06bb1a0",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "emerald-tears",
+      "field": "keyTracks",
+      "before": [
+        "Emerald Tears",
+        "Spheres",
+        "B Flat Improvisation",
+        "Under Redwoods"
+      ],
+      "after": [
+        "Emerald Tears",
+        "Spheres",
+        "Under Redwoods",
+        "Combination"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/822f27ed-b075-4d8b-bbbd-d7704d2b8add",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "lenox-avenue-breakdown",
+      "field": "keyTracks",
+      "before": [
+        "Lenox Avenue Breakdown",
+        "Slidin' Through",
+        "Down San Diego Way",
+        "Bush Baby"
+      ],
+      "after": [
+        "Lenox Avenue Breakdown",
+        "Slidin' Through",
+        "Down San Diego Way",
+        "Odessa"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/8840fe25-ed4d-4f85-a842-78653c32b383",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "baroque-music-for-trumpets",
+      "field": "keyTracks",
+      "before": [
+        "Concerto For 2 Trumpets & Strings, RV 537 (C Major): I – Allegro",
+        "Concerto For 2 Trumpets & Strings, RV 537 (C Major): II – Largo",
+        "Concerto For 2 Trumpets & Strings, RV 537 (C Major): III – Allegro",
+        "Concerto For 3 Trumpets & Orchestra (B-Flat Major): I – Moderato",
+        "Concerto For 3 Trumpets & Orchestra (B-Flat Major): II – Largo",
+        "Concerto For 3 Trumpets & Orchestra (B-Flat Major): III – Allegro"
+      ],
+      "after": [
+        "Concerto in D major for Trumpet, Oboes & Strings: I. Allegro",
+        "Concerto in D major for Trumpet, Oboes & Strings: II. Largo",
+        "Concerto in D major for Trumpet, Oboes & Strings: III. Allegro (Moderato)",
+        "\"Let the Bright Seraphim\" from Samson",
+        "Sonata A 5 for Trumpet and Strings, T.V.3",
+        "\"Sound the Trumpet\" from Come Ye Sons Of Art"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/124223ba-ea56-4c1c-a402-4abf205f3d57",
+      "evidence": "MB tracklist (embedded_mbid)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "deliverance",
+      "field": "keyTracks",
+      "before": [
+        "Canta",
+        "Baobab Sunset",
+        "Village’s News",
+        "Deliverance",
+        "Na selele",
+        "Gentlemen de Camp Yabassi"
+      ],
+      "after": [
+        "Canta",
+        "Village’s News",
+        "Deliverance",
+        "Gentlemen de Camp Yabassi",
+        "Tropical Garden",
+        "Ah Freak Sans Fric"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/e58b87c5-2d39-4ce9-8411-d892b69325ce",
+      "evidence": "MB tracklist (embedded_mbid)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "satchmo",
+      "field": "keyTracks",
+      "before": [
+        "Mi va di cantare",
+        "We Have All the Time in the World",
+        "Hello Dolly",
+        "You Go to My Head",
+        "Summertime",
+        "Bye 'n' Bye"
+      ],
+      "after": [
+        "Back o' Town Blues",
+        "I Want a Big Butter and Egg Man",
+        "(Back Home In) Indiana",
+        "Tiger Rag",
+        "(What Did I Have to do to Get) Black and Blue",
+        "C'est Si Bon"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/aab18034-4d5f-43b5-a8a6-9ba247ceb239",
+      "evidence": "MB tracklist (embedded_mbid)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "look-what-i-got",
+      "field": "keyTracks",
+      "before": [
+        "Look What I Got",
+        "The Man I Love",
+        "That Sunday, That Summer",
+        "Tight"
+      ],
+      "after": [
+        "Look What I Got",
+        "The Man I Love",
+        "That Sunday, That Summer",
+        "All I Got"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/b3a3b43b-0afd-47b2-af58-67714ff57721",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "celebration-mseleku",
+      "field": "keyTracks",
+      "before": [
+        "Celebration",
+        "Angola",
+        "The Healing Song",
+        "Lullaby"
+      ],
+      "after": [
+        "Celebration",
+        "Angola",
+        "One for All - All for One",
+        "Blues for Afrika"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/9d802c27-0ff9-4d6f-bd00-d2b1e60ace48",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "tidal-wave",
+      "field": "keyTracks",
+      "before": [
+        "I’m Crazy ’Bout My Baby (And My Baby’s Crazy ’Bout Me)",
+        "Sugar Foot Stomp",
+        "Just Blues",
+        "Singin’ the Blues (Till My Daddy Comes Home)",
+        "Low Down on the Bayou",
+        "The House of David Blues"
+      ],
+      "after": [
+        "Hocus Pocus",
+        "Hocus Pocus (alternative version)",
+        "Phantom Phantasy",
+        "Harlem Madness",
+        "Tidal Wave",
+        "Limehouse Blues"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/09399262-2372-4f4d-a8d0-424ec0b21f05",
+      "evidence": "MB tracklist (embedded_mbid)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "blue-rondo-brubeck",
+      "field": "keyTracks",
+      "before": [
+        "How Does Your Garden Grow?",
+        "Festival Hall",
+        "Easy as You Go",
+        "Blue Rondo a la Turk",
+        "Dizzy's Dream",
+        "I See Satie"
+      ],
+      "after": [
+        "Blue Rondo a la Turk",
+        "Première rhapsodie",
+        "Waltz for Debby",
+        "Clarinet Sonatina, H.42: I. Modere",
+        "Clarinet Sonatina, H.42: II. Lent et soutenu",
+        "Clarinet Sonatina, H.42: III. Vif et rythmique"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/505e34e7-b2da-4d89-92a9-72e2d9d1997d",
+      "evidence": "MB tracklist (embedded_mbid)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "bunk-bechet-in-boston",
+      "field": "keyTracks",
+      "before": [
+        "St. Louis Blues",
+        "Ain't Misbehavin'",
+        "I Never Knew",
+        "Never No Lament",
+        "Darktown Strutters' Ball",
+        "Basin Street Blues"
+      ],
+      "after": [
+        "Theme – Royal Garden Blues",
+        "I’m Confessin’",
+        "Careless Love",
+        "Summertime (Incomplete)",
+        "I Know That You Know",
+        "Sweet Georgia Brown"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/16d610b4-afd6-4cb0-ba85-2ea3b3b6ed44",
+      "evidence": "MB tracklist (embedded_mbid)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "leon-thomas-in-berlin",
+      "field": "keyTracks",
+      "before": [
+        "Straight No Chaser",
+        "Pharoah's Tune (The Journey)",
+        "Echoes",
+        "Umbo Weti",
+        "The Creator Has A Master Plan (Peace)"
+      ],
+      "after": [
+        "Straight, No Chaser",
+        "Umbo Weti",
+        "Medley",
+        "The Creator Has a Master Plan – Peace",
+        "Oo-Whee!! Hindewe"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/9e5c5417-73ef-4837-b4f0-68943324806e",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "malphas-book-of-angels-volume-3",
+      "field": "keyTracks",
+      "before": [
+        "Azriel",
+        "Basus",
+        "Rigal",
+        "Kafziel",
+        "Labariel"
+      ],
+      "after": [
+        "Azriel",
+        "Basus",
+        "Rigal",
+        "Kafziel",
+        "Lahariel"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/4a570475-8e6b-43a6-a023-cfd5eff0821d",
+      "evidence": "MB tracklist (embedded_mbid)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "rising-son",
+      "field": "keyTracks",
+      "before": [
+        "Rising Son",
+        "Afro Blues",
+        "Tell Me a Bedtime Story",
+        "Everybody Loves the Sunshine"
+      ],
+      "after": [
+        "Rising Son",
+        "Afro Blues",
+        "Everybody Loves the Sunshine",
+        "Piri Piri"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/fa25e2bc-fb99-4362-b636-52ffe25fb6bd",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "solo-piano-portraits",
+      "field": "keyTracks",
+      "before": [
+        "Chick Talks: About Solo Piano",
+        "Improv #1 / How Deep Is The Ocean?",
+        "Chick Talks: About Bill Evans",
+        "Waltz for Debby",
+        "Chick Talks: About Stevie Wonder"
+      ],
+      "after": [
+        "Improv #1 / How Deep Is the Ocean?",
+        "Waltz for Debby",
+        "Pastime Paradise",
+        "'round Midnight",
+        "Pannonica"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/d73ed2cb-2b46-4b72-a184-230c54cac574",
+      "evidence": "MB tracklist (embedded_mbid)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "mandorla-awakening-ii",
+      "field": "keyTracks",
+      "before": [
+        "Mandorla Awakening",
+        "Egoes War",
+        "Listening Embrace",
+        "Ceremony of Infinite Projection"
+      ],
+      "after": [
+        "Egoes War",
+        "Listening Embrace",
+        "Sub-Mission",
+        "The Chalice"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/295f5d4b-ab8a-465b-b71c-0c94801d3082",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "live-at-scholes-street-studio",
+      "field": "keyTracks",
+      "before": [
+        "[untitled]",
+        "[untitled]"
+      ],
+      "after": [
+        "Improvisation I",
+        "Improvisation II"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/bcdb4d95-fc91-4b6f-9076-d44c65f8e578",
+      "evidence": "MB tracklist (embedded_mbid)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "lullaby-of-birdland",
+      "field": "keyTracks",
+      "before": [
+        "Lullaby of Birdland",
+        "Change My Ways",
+        "Don't Worry 'Bout Me",
+        "Please Be Kind",
+        "Time On My Hands"
+      ],
+      "after": [
+        "Lullaby of Birdland",
+        "This Is Always",
+        "Anthropology",
+        "Ask Me Now",
+        "East of the Sun"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/6a677ef2-bd39-4b79-a644-f0b8b3125615",
+      "evidence": "MB tracklist (embedded_mbid)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "smack",
+      "field": "keyTracks",
+      "before": [
+        "Down Hearted Blues",
+        "Copenhagen",
+        "Sugar foot stomp",
+        "TNT",
+        "The stampede"
+      ],
+      "after": [
+        "Sugar Foot Stomp",
+        "The Stampede",
+        "Teapot Dome Blues",
+        "What-Cha-Call-'em Blues",
+        "Henderson Stomp"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/cd0d437c-1f88-47e9-bb67-b675e1825be5",
+      "evidence": "MB tracklist (embedded_mbid)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "carolina-shout-james-p-johnson",
+      "field": "keyTracks",
+      "before": [
+        "Carolina Shout",
+        "The Harlem Strut",
+        "Backwater Blues",
+        "Snowy Morning Blues",
+        "Chicago Blues",
+        "My Handy Man"
+      ],
+      "after": [
+        "Carolina Shout",
+        "Harlem Strut",
+        "Steeplechase Rag",
+        "Twilight Rag",
+        "Baltimore Buzz",
+        "Gypsy Blues"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/aa88a4f0-8de6-4fa0-80ff-1a127be8f021",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "moonlight-serenade-glenn-miller",
+      "field": "keyTracks",
+      "before": [
+        "Moonlight Serenade",
+        "King Porter Stomp",
+        "Little Brown Jug",
+        "In the Mood",
+        "Tuxedo Junction",
+        "Pennsylvania 6-5000"
+      ],
+      "after": [
+        "Moonlight Serenade",
+        "In the Mood",
+        "Tuxedo Junction",
+        "Pennsylvania 6-5000",
+        "Chatanooga Choo Choo",
+        "American Patrol"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/d8d6d6c2-e725-4669-8d0f-03c4c9d8b2f0",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "body-and-soul-coleman-hawkins",
+      "field": "keyTracks",
+      "before": [
+        "The Original Dixieland One-Step",
+        "Honeysuckle Rose",
+        "Crazy Rhythm",
+        "Sweet Georgia Brown",
+        "The Darktown Strutters Ball",
+        "My Melancholy Baby"
+      ],
+      "after": [
+        "Body and Soul",
+        "How Deep Is the Ocean",
+        "The Man I Love",
+        "My Ideal",
+        "Stumpy",
+        "Sweet Lorraine"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/e1983659-31e8-410f-b8c6-ec2e29c2f2c4",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "nows-the-time-charlie-parker",
+      "field": "keyTracks",
+      "before": [
+        "A Night in Tunisia",
+        "Ornithology",
+        "Parker's Mood",
+        "Now's the Time",
+        "Relaxin' at Camarillo",
+        "Bird of Paradise"
+      ],
+      "after": [
+        "Now's The Time",
+        "The Song Is You",
+        "Laird Baird",
+        "Kim",
+        "Kim [alt tk]",
+        "Cosmic Rays"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/dce6a0dd-5097-455d-bb52-59eb84adcda7",
+      "evidence": "MB tracklist (embedded_mbid)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "concert-by-the-sea-erroll-garner",
+      "field": "keyTracks",
+      "before": [
+        "I'll Remember April",
+        "Teach Me Tonight",
+        "Mambo Carmel",
+        "Autumn Leaves",
+        "It's All Right With Me",
+        "Red Top"
+      ],
+      "after": [
+        "I’ll Remember April",
+        "Autumn Leaves",
+        "Where or When"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/1072f5a2-9465-4cd6-b912-bce378d41530",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "the-freedom-book-booker-ervin",
+      "field": "keyTracks",
+      "before": [
+        "A Lunar Tune",
+        "Cry Me Not",
+        "Grant's Stand",
+        "A Day to Mourn",
+        "Al's In",
+        "Stella by Starlight"
+      ],
+      "after": [
+        "A Lunar Tune",
+        "Cry Me Not",
+        "Grant's Stand",
+        "A Day to Mourn",
+        "Al's In"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/d0d68fff-7555-4352-9147-1f23dd9dd480",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "swing-de-paris-django-reinhardt",
+      "field": "keyTracks",
+      "before": [
+        "I'm Confessin'",
+        "Dinah",
+        "Tiger Rag",
+        "Oh Lady Be Good",
+        "I Saw Stars",
+        "Blue Drag"
+      ],
+      "after": [
+        "Dinah [Akst]",
+        "Tiger Rag [La Rocca]",
+        "I Saw Stars [Sigler, Goodhart, Hoffman]",
+        "The Continental [Conrad, Magidson]",
+        "Avalon [Jolson, Rose]",
+        "Smoke Rings [Gifford]"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/1fc92df8-51f0-41bb-95c3-17c9c9ed5946",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "dizzy-atmosphere-dizzy-gillespie",
+      "field": "keyTracks",
+      "before": [
+        "Blue Boogie",
+        "Hot House",
+        "Groovin' High",
+        "Dizzy Atmosphere",
+        "All the Things You Are",
+        "Things to Come"
+      ],
+      "after": [
+        "Hot House",
+        "Groovin' High",
+        "Dizzy Atmosphere",
+        "All the Things You Are",
+        "I Can't Get Started",
+        "Blue n' Boogie"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/e8ef1296-e13a-478e-8084-e1c8bf15322a",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "keytracks",
+      "file": "albumsDetail",
+      "id": "tales-of-captain-black",
+      "field": "keyTracks",
+      "before": [
+        "Tales of Captain Black",
+        "Theme from Captain Black",
+        "Moons Rare Frequences",
+        "Revelation March"
+      ],
+      "after": [
+        "Theme From Captain Black",
+        "Revelation March",
+        "Moons Shine",
+        "Morning Bride"
+      ],
+      "sourceUrl": "https://musicbrainz.org/release/553b2d9a-2ab0-38cd-a313-da640294b62c",
+      "evidence": "MB tracklist (search sim=1.0 title-match)"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "think-well-of-me",
+      "field": "label",
+      "before": "Unknown",
+      "after": "Verve Records, Inc.",
+      "sourceUrl": "https://musicbrainz.org/release/96693111-0f23-4a07-aa7b-43d2ac3e9d5a",
+      "evidence": "ours junk; MB labels=['Verve Records, Inc.']"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "sayin-somethin",
+      "field": "label",
+      "before": "Unknown",
+      "after": "Atlantic",
+      "sourceUrl": "https://musicbrainz.org/release/f6128060-8206-43d1-ba6f-e146f41b938a",
+      "evidence": "ours junk; MB labels=['Atlantic']"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "reel-life",
+      "field": "label",
+      "before": "Unknown",
+      "after": "Milestone",
+      "sourceUrl": "https://musicbrainz.org/release/4717b0cc-4b94-4b40-ba75-9d7591c52ee9",
+      "evidence": "ours junk; MB labels=['Milestone']"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "cielo-e-terra",
+      "field": "label",
+      "before": "Direct Metal Mastering",
+      "after": "Manhattan",
+      "sourceUrl": "https://musicbrainz.org/release/7d389703-999e-436b-b7d4-9500ae4de84d",
+      "evidence": "ours junk; MB labels=['Manhattan']"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "the-complete-billie-holiday-on-verve-billie-holiday",
+      "field": "label",
+      "before": "Various",
+      "after": "Verve",
+      "sourceUrl": "https://musicbrainz.org/release/71b9f9da-4253-40f1-bfd6-7f764871a1a2",
+      "evidence": "ours junk; MB labels=['Verve']"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "way-out-west-sonny-rollins",
+      "field": "label",
+      "before": "Various",
+      "after": "Original Jazz Classics",
+      "sourceUrl": "https://musicbrainz.org/release/5b632a0a-b3c2-4de4-8b92-d18a9d9b69a7",
+      "evidence": "ours junk; MB labels=['Original Jazz Classics', 'Contemporary Records']"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "drums-unlimited-max-roach",
+      "field": "label",
+      "before": "Various",
+      "after": "Atlantic",
+      "sourceUrl": "https://musicbrainz.org/release/5a30a988-4d77-4dc2-bfa0-b5217d557cd6",
+      "evidence": "ours junk; MB labels=['Atlantic']"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "free-for-all-art-blakey",
+      "field": "label",
+      "before": "Various",
+      "after": "Blue Note",
+      "sourceUrl": "https://musicbrainz.org/release/5f596081-e5c7-4354-ab92-913a4f207ded",
+      "evidence": "ours junk; MB labels=['Blue Note']"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "dexter-calling-dexter-gordon",
+      "field": "label",
+      "before": "Various",
+      "after": "Blue Note",
+      "sourceUrl": "https://musicbrainz.org/release/a344a268-c378-465a-a8f7-33512672f78c",
+      "evidence": "ours junk; MB labels=['Blue Note']"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "the-gigolo-lee-morgan",
+      "field": "label",
+      "before": "Various",
+      "after": "Blue Note",
+      "sourceUrl": "https://musicbrainz.org/release/810aadc7-6c64-413c-ac57-57ec71c6a6e0",
+      "evidence": "ours junk; MB labels=['Blue Note']"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "destination-out-jackie-mclean",
+      "field": "label",
+      "before": "Various",
+      "after": "Blue Note",
+      "sourceUrl": "https://musicbrainz.org/release/6b210f4d-3437-4188-9848-b23d2686f36c",
+      "evidence": "ours junk; MB labels=['Blue Note']"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "savoy-sessions-charlie-parker",
+      "field": "label",
+      "before": "Various",
+      "after": "Definitive Records",
+      "sourceUrl": "https://musicbrainz.org/release/024604ff-91dc-43a1-802f-613b54508be5",
+      "evidence": "ours junk; MB labels=['Definitive Records']"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "it-could-happen-to-you-chet-baker",
+      "field": "label",
+      "before": "Various",
+      "after": "Riverside",
+      "sourceUrl": "https://musicbrainz.org/release/2e3c18a2-94fb-40ec-a0a4-12eec793dead",
+      "evidence": "ours junk; MB labels=['Riverside']"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "reunion-with-chet-baker-gerry-mulligan",
+      "field": "label",
+      "before": "Various",
+      "after": "Pacific Jazz",
+      "sourceUrl": "https://musicbrainz.org/release/1da66aea-4bac-4a4c-bca5-5d31db8a589a",
+      "evidence": "ours junk; MB labels=['Pacific Jazz']"
+    },
+    {
+      "action": "field_label",
+      "file": "albums",
+      "id": "motion-lee-konitz",
+      "field": "label",
+      "before": "Various",
+      "after": "Verve",
+      "sourceUrl": "https://musicbrainz.org/release/4e5fcd7f-66af-45de-982a-0cc4b15aa6f6",
+      "evidence": "ours junk; MB labels=['Verve']"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "the-man-i-love",
+      "field": "year",
+      "before": 2007,
+      "after": 2002,
+      "sourceUrl": "https://musicbrainz.org/release-group/0af2fc4c-0857-3cd2-a7b1-55e49e1db656",
+      "evidence": "ours later reissue/comp; MB original=2002 (embedded_mbid)"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "hi-de-ho-man-cab-calloway",
+      "field": "year",
+      "before": 2008,
+      "after": 1974,
+      "sourceUrl": "https://musicbrainz.org/release-group/ee15cddc-2488-3f6c-ba84-b58d58b9a633",
+      "evidence": "ours later reissue/comp; MB original=1974 (search sim=1.0 title-match)"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "fontainebleau-tadd-dameron",
+      "field": "year",
+      "before": 1996,
+      "after": 1987,
+      "sourceUrl": "https://musicbrainz.org/release-group/bacd60ee-98bd-3404-beff-99f490938426",
+      "evidence": "ours later reissue/comp; MB original=1987 (search sim=1.0 title-match)"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "at-the-stratford-shakespearean-festival-oscar-peterson",
+      "field": "year",
+      "before": 1993,
+      "after": 1957,
+      "sourceUrl": "https://musicbrainz.org/release-group/48e9313a-96d9-3b00-9485-125d8a96a7ae",
+      "evidence": "ours later reissue/comp; MB original=1957 (embedded_mbid)"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "joe-pass-at-the-montreux-jazz-festival-joe-pass",
+      "field": "year",
+      "before": 1997,
+      "after": 1975,
+      "sourceUrl": "https://musicbrainz.org/release-group/75790731-24a8-36a8-93b5-c3b7da3eee81",
+      "evidence": "ours later reissue/comp; MB original=1975 (embedded_mbid)"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "art-pepper-meets-the-rhythm-section-art-pepper",
+      "field": "year",
+      "before": 2000,
+      "after": 1957,
+      "sourceUrl": "https://musicbrainz.org/release-group/5dc7981a-c20f-361b-8365-ad677ba41b7a",
+      "evidence": "ours later reissue/comp; MB original=1957 (embedded_mbid)"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "desmond-blue-paul-desmond",
+      "field": "year",
+      "before": 1998,
+      "after": 1962,
+      "sourceUrl": "https://musicbrainz.org/release-group/0d6dcd26-9b31-32c8-8d8a-cd3c326b7c95",
+      "evidence": "ours later reissue/comp; MB original=1962 (search sim=1.0 title-match)"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "fontessa-modern-jazz-quartet",
+      "field": "year",
+      "before": 1990,
+      "after": 1956,
+      "sourceUrl": "https://musicbrainz.org/release-group/59404ca7-e67f-3adc-8123-fc03b9777f15",
+      "evidence": "ours later reissue/comp; MB original=1956 (embedded_mbid)"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "plenty-plenty-soul-milt-jackson",
+      "field": "year",
+      "before": 2007,
+      "after": 1957,
+      "sourceUrl": "https://musicbrainz.org/release-group/481ec238-b5db-37cc-a564-a6ac7f811b5d",
+      "evidence": "ours later reissue/comp; MB original=1957 (search sim=1.0 title-match)"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "a-study-in-frustration-fletcher-henderson",
+      "field": "year",
+      "before": 2011,
+      "after": 1994,
+      "sourceUrl": "https://musicbrainz.org/release-group/a648ac99-3772-3406-9f3d-7b9f588dfc1e",
+      "evidence": "ours later reissue/comp; MB original=1994 (embedded_mbid)"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "detroitnew-york-junction-thad-jones",
+      "field": "year",
+      "before": 1999,
+      "after": 1956,
+      "sourceUrl": "https://musicbrainz.org/release-group/4b643ca6-f317-3bd7-bc9d-cd28b1a561fa",
+      "evidence": "ours later reissue/comp; MB original=1956 (search sim=1.0 title-match)"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "far-east-suite-duke-ellington",
+      "field": "year",
+      "before": 2016,
+      "after": 1967,
+      "sourceUrl": "https://musicbrainz.org/release-group/c5176862-2fc7-4410-ba2b-46a6c440ede3",
+      "evidence": "ours later reissue/comp; MB original=1967 (search sim=1.0 title-match)"
+    },
+    {
+      "action": "field_year",
+      "file": "albums",
+      "id": "ella-fitzgerald-sings-the-cole-porter-song-book-ella-fitzgerald",
+      "field": "year",
+      "before": 2014,
+      "after": 1956,
+      "sourceUrl": "https://musicbrainz.org/release-group/dcc0d723-e27f-36e8-8438-dbbde7eb9a67",
+      "evidence": "ours later reissue/comp; MB original=1956 (search sim=1.0 title-match)"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "bix-beiderbecke-and-the-chicago-cornets",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Bix_Beiderbecke",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "singin-the-blues-beiderbecke",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Singing_the_Blues",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "aint-misbehavin-waller",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Ain't_Misbehavin'_(song)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "quintette-du-hot-club-de-france",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Quintette_du_Hot_Club_de_France",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "rhythm-is-our-business",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Rhythm_Is_Our_Business",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "for-dancers-only-lunceford",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/For_Dancers_Only",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "the-joint-is-jumpin",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Handful_of_Keys_(album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "lunceford-special",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Jimmie_Lunceford",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "django-reinhardt-et-son-quintette",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Nuages",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "django",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Django_Reinhardt",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "on-parade",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/On_Parade",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "solo-flight",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Erroll_Garner",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "oscar-peterson-plays-george-gershwin",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Night_Train_(Oscar_Peterson_album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "the-great-artistry-of-django-reinhardt",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Django_Reinhardt",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "tatum-carter-bellson",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Art_Tatum_discography",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "the-president",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Lester_Young",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "kenny-burrell",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Kenny_Burrell_(Prestige_album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "the-trio-volume-3-everybody-likes-hampton-hawes",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/The_Sermon_(Hampton_Hawes_album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "ella-and-her-fellas",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Like_Someone_in_Love_(Ella_Fitzgerald_album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "four-trombones",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Mingus_(Charles_Mingus_album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "the-most-happy-piano",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Erroll_Garner",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "latin-kick",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Cal_Tjader",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "the-oscar-peterson-trio-at-newport",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Oscar_Peterson_and_Roy_Eldridge",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "abbey-is-blue",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Abbey_Lincoln",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "louie-and-the-dukes-of-dixieland",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/I've_Got_the_World_on_a_String_(album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "soul-time",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Holiday_Soul_(Bobby_Timmons_album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "waltz-for-debby",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Waltz_for_Debby",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "nancy-wilson-cannonball-adderley",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Somethin'_Else_(Cannonball_Adderley_album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "whats-new",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/The_Bridge_(Sonny_Rollins_album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "caravan",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Art_Blakey_and_the_Jazz_Messengers_(1961_album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "blue-notes-legacy",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Harold_Melvin_%26_the_Blue_Notes",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "poetry-and-jazz-in-concert-record-one",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Joe_Harriott",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "behind-the-8-ball",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Face_to_Face_(Baby_Face_Willette_album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "ray-brown-milt-jackson",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Goodbye_(Milt_Jackson_album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "music-on-my-mind",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Willie_%22the_Lion%22_Smith",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "ella-fitzgeralds-christmas",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Ella_Fitzgerald",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "grazin-in-the-grass",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Grazing_in_the_Grass",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "piano-starts-here",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Art_Tatum",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "the-piano-soul-of-nat-king-cole",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Nat_King_Cole",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "monks-blues",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Monk's_Dream_(Thelonious_Monk_album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "the-new-don-ellis-band-goes-underground",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Don_Ellis_at_Fillmore",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "les-stances-a-sophie",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Art_Ensemble_of_Chicago",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "on-with-it",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Jack_McDuff",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "weather-report",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Birdland_(Weather_Report_song)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "art-blakey-his-jazz-messengers",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Art_Blakey_discography",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "ella-loves-cole",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Ella_Fitzgerald_Sings_the_Cole_Porter_Song_Book",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "mystic-brew",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Ronnie_Foster",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "afrodisia",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Soul_Makossa",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "mannenberg",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Abdullah_Ibrahim",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "sadao-watanabe-mbali",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Sadao_Watanabe_(musician)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "summit-reunin-cumbre",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Night_Lights_(Gerry_Mulligan_album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "real-book",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Various_Positions",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "school",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Pool_(John_Zorn_album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "african-marketplace",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Abdullah_Ibrahim",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "the-believer",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Billy_Harper",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "herbie-hancock-trio-with-ron-carter-tony-williams",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Herbie_Hancock_Trio_(1977_album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "turi",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Arturo_Sandoval",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "baroque-music-for-trumpets",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Haydn%2C_Hummel%2C_L._Mozart%3A_Trumpet_Concertos",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "straight-life-the-savoy-sessions",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Modern_Art_(Art_Pepper_album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "hearts-and-numbers",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Out_of_the_Loop_(Brecker_Brothers_album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "crystal-stair-blanchard",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Black_Pearl_(Harrison%2FBlanchard_album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "stories",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Sail_Away_(Tom_Harrell_album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "jazz-street",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Red_Rose_Speedway",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "jam-session",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Jam_Session_(album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "hipmotism",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Night_Song_(Arthur_Blythe_album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "a-jazz-hour-with-dizzy-gillespie",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Dizzy_Gillespie_and_the_Double_Six_of_Paris",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "plays-and-plays-and-plays",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Brubeck_Plays_Brubeck",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "russell-malone",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Post_Malone",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "love-notes",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Aaron_Carter",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "forever-love",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Thomas_Whitfield_(singer)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "tenor-titans",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Tomasz_Szukalski",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "jazz-in-film",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Terence_Blanchard_(album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "sweet-release-ghost-story",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Roger_Ingram",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "joey-calderazzo",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Amanecer_(Joey_Calderazzo_album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "vento",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Enrico_Rava",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "armstrong-alumni-allstars",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Jazz",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "jing-chi",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Vinnie_Colaiuta",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "little-jazz-the-jimmy-ryan-all-stars",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Roy_Eldridge",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "np3",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Nils_Petter_Molv%C3%A6r",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "play-morricone",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Enrico_Pieranunzi",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "round-and-round",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Greg_Osby",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "swings",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Art_Tatum",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "congo-square",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/A_Tale_of_God's_Will_(A_Requiem_for_Katrina)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "malphas-book-of-angels-volume-3",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Orobas%3A_Book_of_Angels_Volume_4",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "the-library-of-congress-recordings-by-alan-lomax",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Jelly_Roll_Morton%3A_The_Complete_Library_of_Congress_Recordings",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "standards",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Ballads_(Derek_Bailey_album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "the-man-i-love",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/The_Man_I_Love_(album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "pithecanthropus-erectus-the-clown",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Charles_Mingus_in_Paris%3A_The_Complete_America_Session",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "volume-1-1923-1929",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Mingus_Ah_Um",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "blue-note-jazz-inspiration",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Ben_Webster",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "is-that-so",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Infinity_(Tom_Harrell_album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "solo-piano-portraits",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Trilogy_(Chick_Corea_album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "all-things-are",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Aquarius_(Nicole_Mitchell_album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "morning-with-swing-jazz-guitar-trumpet-saxophone-more-melodies-of-piano-instrumental-smooth-jazz-music",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Jazz_fusion",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "solo-piano-at-wkcr-1977",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Charlie_Parker",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "the-legend-of-king-oliver-remastered",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/King_Princess",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "who-are-you",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Diana_Ross",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "christmas-stories",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Christmas_in_popular_culture",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "the-lore",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Scott_Colley",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "wiki_link_drop",
+      "file": "albumsDetail",
+      "id": "lullaby-of-birdland",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Lullaby_of_Birdland_(album)",
+      "after": null,
+      "sourceUrl": null,
+      "evidence": "Phase-2 wikiLinkVerdict=wrong_entity; no correct page cached -> drop"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "andy-bey",
+      "field": "deathYear",
+      "before": null,
+      "after": 2025,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Andy_Bey",
+      "evidence": "lead: 'Andrew Wideman Bey Jr. (October 28, 1939 – April 26, 2025) was an American jazz '"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "branford-marsalis",
+      "field": "instruments",
+      "before": [
+        "composer",
+        "bandleader"
+      ],
+      "after": [
+        "saxophone"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Branford_Marsalis",
+      "evidence": "ours all role-junk; replace from lead: 'American saxophonist (born 1960)'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "eddie-palmieri",
+      "field": "deathYear",
+      "before": null,
+      "after": 2025,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Eddie_Palmieri",
+      "evidence": "lead: 'Eduardo Palmieri (December 15, 1936 – August 6, 2025) was an musician, bandleade'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "grachan-moncur",
+      "field": "deathYear",
+      "before": null,
+      "after": 2022,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Grachan_Moncur_III",
+      "evidence": "lead: 'Grachan Moncur III (June 3, 1937 – June 3, 2022) was an American jazz trombonist'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "hermeto-pascoal",
+      "field": "deathYear",
+      "before": null,
+      "after": 2025,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hermeto_Pascoal",
+      "evidence": "lead: 'Hermeto Pascoal (22 June 1936 – 13 September 2025) was a Brazilian composer and '"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "james-blood-ulmer",
+      "field": "deathYear",
+      "before": null,
+      "after": 2026,
+      "sourceUrl": "https://en.wikipedia.org/wiki/James_Blood_Ulmer",
+      "evidence": "lead: 'Willie James \"Blood\" Ulmer (February 8, 1940 – June 3, 2026) was an American jaz'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "lester-young",
+      "field": "instruments",
+      "before": [
+        "clarinet"
+      ],
+      "after": [
+        "tenor saxophone",
+        "clarinet"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lester_Young",
+      "evidence": "ours subset; expand from lead: 'American jazz saxophonist (1909–1959)'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "louis-moholo-moholo",
+      "field": "deathYear",
+      "before": null,
+      "after": 2025,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Louis_Moholo-Moholo",
+      "evidence": "lead: 'Louis Tebogo Moholo (10 March 1940 – 13 June 2025) was a South African jazz drum'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "michael-brecker",
+      "field": "instruments",
+      "before": [
+        "composer"
+      ],
+      "after": [
+        "saxophone"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Michael_Brecker",
+      "evidence": "ours all role-junk; replace from lead: 'American jazz saxophonist and composer (1949–2007)'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "milt-jackson",
+      "field": "instruments",
+      "before": [
+        "musician"
+      ],
+      "after": [
+        "vibraphone"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Milt_Jackson",
+      "evidence": "ours all role-junk; replace from lead: 'American jazz vibraphonist (1923–1999)'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "revolutionary-ensemble",
+      "field": "instruments",
+      "before": [
+        "violin",
+        "bass",
+        "drums"
+      ],
+      "after": [
+        "piano",
+        "drums",
+        "bass",
+        "violin"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Revolutionary_Ensemble",
+      "evidence": "ours subset; expand from lead: 'American free jazz trio'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "roy-ayers",
+      "field": "deathYear",
+      "before": null,
+      "after": 2025,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Roy_Ayers",
+      "evidence": "lead: 'Roy Edward Ayers Jr. (September 10, 1940 – March 4, 2025) was an American vibrap'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "ryo-kawasaki",
+      "field": "deathYear",
+      "before": null,
+      "after": 2020,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ryo_Kawasaki",
+      "evidence": "lead: 'Ryo Kawasaki (川崎 燎, Kawasaki Ryō; February 25, 1947 – April 13, 2020) was a Japa'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "sonny-rollins",
+      "field": "deathYear",
+      "before": null,
+      "after": 2026,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sonny_Rollins",
+      "evidence": "lead: 'Walter Theodore \"Sonny\" Rollins (September 7, 1930 – May 25, 2026) was an Americ'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "bessie-smith",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1892,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bessie_Smith",
+      "evidence": "lead: 'Bessie Smith (April 15, 1892 – September 26, 1937) was an African-American blues'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "bessie-smith",
+      "field": "deathYear",
+      "before": null,
+      "after": 1937,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bessie_Smith",
+      "evidence": "lead: 'Bessie Smith (April 15, 1892 – September 26, 1937) was an African-American blues'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "bessie-smith",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "vocals"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bessie_Smith",
+      "evidence": "fill from lead: 'American blues singer (1892–1937)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "ma-rainey",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1886,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ma_Rainey",
+      "evidence": "lead: 'Gertrude \"Ma\" Rainey (née Pridgett; April 26, 1886 – December 22, 1939) was an A'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "ma-rainey",
+      "field": "deathYear",
+      "before": null,
+      "after": 1939,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ma_Rainey",
+      "evidence": "lead: 'Gertrude \"Ma\" Rainey (née Pridgett; April 26, 1886 – December 22, 1939) was an A'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "ma-rainey",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "vocals"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ma_Rainey",
+      "evidence": "fill from lead: 'American blues singer (1886–1939)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "kid-ory",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1886,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kid_Ory",
+      "evidence": "lead: 'Edward \"Kid\" Ory (December 25, 1886 – January 23, 1973) was an American jazz com'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "kid-ory",
+      "field": "deathYear",
+      "before": null,
+      "after": 1973,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kid_Ory",
+      "evidence": "lead: 'Edward \"Kid\" Ory (December 25, 1886 – January 23, 1973) was an American jazz com'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "kid-ory",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "trombone"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kid_Ory",
+      "evidence": "fill from lead: 'American jazz trombonist (1886–1973)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "albert-ammons",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1907,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Albert_Ammons",
+      "evidence": "lead: 'Albert Clifton Ammons (March 1, 1907 – December 2, 1949) was an American pianist'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "albert-ammons",
+      "field": "deathYear",
+      "before": null,
+      "after": 1949,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Albert_Ammons",
+      "evidence": "lead: 'Albert Clifton Ammons (March 1, 1907 – December 2, 1949) was an American pianist'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "albert-ammons",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "piano"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Albert_Ammons",
+      "evidence": "fill from lead: 'American boogie-woogie pianist (1907–1949)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "ethel-waters",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1896,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ethel_Waters",
+      "evidence": "lead: 'Ethel Waters (October 31, 1896 – September 1, 1977) was an American singer and a'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "ethel-waters",
+      "field": "deathYear",
+      "before": null,
+      "after": 1977,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ethel_Waters",
+      "evidence": "lead: 'Ethel Waters (October 31, 1896 – September 1, 1977) was an American singer and a'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "ethel-waters",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "vocals"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ethel_Waters",
+      "evidence": "fill from lead: 'American vocalist and actress (1896–1977)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "glenn-miller",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1904,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Glenn_Miller",
+      "evidence": "lead: 'Alton Glen \"Glenn\" Miller (March 1, 1904 – December 15, 1944) was an American bi'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "glenn-miller",
+      "field": "deathYear",
+      "before": null,
+      "after": 1944,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Glenn_Miller",
+      "evidence": "lead: 'Alton Glen \"Glenn\" Miller (March 1, 1904 – December 15, 1944) was an American bi'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "glenn-miller",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "trombone"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Glenn_Miller",
+      "evidence": "fill from lead: 'American big band musician (1904–1944)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "artie-shaw",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1910,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Artie_Shaw",
+      "evidence": "lead: 'Artie Shaw (born Arthur Jacob Arshawsky; May 23, 1910 – December 30, 2004) was a'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "artie-shaw",
+      "field": "deathYear",
+      "before": null,
+      "after": 2004,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Artie_Shaw",
+      "evidence": "lead: 'Artie Shaw (born Arthur Jacob Arshawsky; May 23, 1910 – December 30, 2004) was a'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "artie-shaw",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "clarinet"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Artie_Shaw",
+      "evidence": "fill from lead: 'American clarinetist and bandleader (1910–2004)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "lionel-hampton",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1908,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lionel_Hampton",
+      "evidence": "lead: 'Lionel Leo Hampton (April 20, 1908 – August 31, 2002) was an American jazz vibra'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "lionel-hampton",
+      "field": "deathYear",
+      "before": null,
+      "after": 2002,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lionel_Hampton",
+      "evidence": "lead: 'Lionel Leo Hampton (April 20, 1908 – August 31, 2002) was an American jazz vibra'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "lionel-hampton",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "vibraphone",
+        "drums"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lionel_Hampton",
+      "evidence": "fill from lead: 'American jazz vibraphonist, percussionist, and bandleader (1908–2002)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "cab-calloway",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1907,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cab_Calloway",
+      "evidence": "lead: 'Cabell Calloway III (December 25, 1907 – November 18, 1994) was an American jazz'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "cab-calloway",
+      "field": "deathYear",
+      "before": null,
+      "after": 1994,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cab_Calloway",
+      "evidence": "lead: 'Cabell Calloway III (December 25, 1907 – November 18, 1994) was an American jazz'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "cab-calloway",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "vocals"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cab_Calloway",
+      "evidence": "fill from lead: 'American jazz singer, songwriter and bandleader (1907–1994)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "louis-jordan",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1908,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Louis_Jordan",
+      "evidence": "lead: 'Louis Thomas Jordan (July 8, 1908 – February 4, 1975) was an American jazz, blue'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "louis-jordan",
+      "field": "deathYear",
+      "before": null,
+      "after": 1975,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Louis_Jordan",
+      "evidence": "lead: 'Louis Thomas Jordan (July 8, 1908 – February 4, 1975) was an American jazz, blue'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "louis-jordan",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "saxophone",
+        "vocals"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Louis_Jordan",
+      "evidence": "fill from lead: 'American musician, songwriter and bandleader (1908–1975)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "tommy-dorsey",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1905,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tommy_Dorsey",
+      "evidence": "lead: 'Thomas Francis Dorsey Jr. (November 19, 1905 – November 26, 1956) was an America'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "tommy-dorsey",
+      "field": "deathYear",
+      "before": null,
+      "after": 1956,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tommy_Dorsey",
+      "evidence": "lead: 'Thomas Francis Dorsey Jr. (November 19, 1905 – November 26, 1956) was an America'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "tommy-dorsey",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "trombone"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tommy_Dorsey",
+      "evidence": "fill from lead: 'American jazz trombonist and bandleader (1905–1956)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "tadd-dameron",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1917,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tadd_Dameron",
+      "evidence": "lead: 'Tadley Ewing Peake Dameron (February 21, 1917 – March 8, 1965) was an American j'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "tadd-dameron",
+      "field": "deathYear",
+      "before": null,
+      "after": 1965,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tadd_Dameron",
+      "evidence": "lead: 'Tadley Ewing Peake Dameron (February 21, 1917 – March 8, 1965) was an American j'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "tadd-dameron",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "piano"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tadd_Dameron",
+      "evidence": "fill from lead: 'American jazz composer and pianist (1917–1965)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "paul-desmond",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1924,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Paul_Desmond",
+      "evidence": "lead: 'Paul Desmond (born Paul Emil Breitenfeld; November 25, 1924 – May 30, 1977) was '"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "paul-desmond",
+      "field": "deathYear",
+      "before": null,
+      "after": 1977,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Paul_Desmond",
+      "evidence": "lead: 'Paul Desmond (born Paul Emil Breitenfeld; November 25, 1924 – May 30, 1977) was '"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "paul-desmond",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "alto saxophone"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Paul_Desmond",
+      "evidence": "fill from lead: 'American jazz saxophonist and composer (1924–1977)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "jimmy-giuffre",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1921,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jimmy_Giuffre",
+      "evidence": "lead: 'James Peter Giuffre /ˈd͡ʒuːfɹeɪ/, Italian pronunciation: [dʒufˈfre]; April 26, 1'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "jimmy-giuffre",
+      "field": "deathYear",
+      "before": null,
+      "after": 2008,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jimmy_Giuffre",
+      "evidence": "lead: 'James Peter Giuffre /ˈd͡ʒuːfɹeɪ/, Italian pronunciation: [dʒufˈfre]; April 26, 1'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "jimmy-giuffre",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "saxophone",
+        "clarinet"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jimmy_Giuffre",
+      "evidence": "fill from lead: 'American jazz clarinetist, saxophonist, composer, and arranger (1921–2008)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "shorty-rogers",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1924,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shorty_Rogers",
+      "evidence": "lead: 'Milton \"Shorty\" Rogers (born Milton Rajonsky; April 14, 1924 – November 7, 1994)'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "shorty-rogers",
+      "field": "deathYear",
+      "before": null,
+      "after": 1994,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shorty_Rogers",
+      "evidence": "lead: 'Milton \"Shorty\" Rogers (born Milton Rajonsky; April 14, 1924 – November 7, 1994)'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "shorty-rogers",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "trumpet"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shorty_Rogers",
+      "evidence": "fill from lead: 'American jazz trumpeter (1924–1994)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "shelly-manne",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1920,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shelly_Manne",
+      "evidence": "lead: 'Sheldon \"Shelly\" Manne (June 11, 1920 – September 26, 1984) was an American jazz'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "shelly-manne",
+      "field": "deathYear",
+      "before": null,
+      "after": 1984,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shelly_Manne",
+      "evidence": "lead: 'Sheldon \"Shelly\" Manne (June 11, 1920 – September 26, 1984) was an American jazz'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "shelly-manne",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "drums"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shelly_Manne",
+      "evidence": "fill from lead: 'American jazz drummer (1920–1984)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "modern-jazz-quartet",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1952,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Modern_Jazz_Quartet",
+      "evidence": "group formation; lead: 'The Modern Jazz Quartet (MJQ) was a jazz ensemble established in 1952 that blend'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "modern-jazz-quartet",
+      "field": "deathYear",
+      "before": null,
+      "after": 1997,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Modern_Jazz_Quartet",
+      "evidence": "group disband; lead: 'The Modern Jazz Quartet (MJQ) was a jazz ensemble established in 1952 that blend'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "modern-jazz-quartet",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "piano",
+        "vibraphone",
+        "drums",
+        "bass"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Modern_Jazz_Quartet",
+      "evidence": "fill from lead: 'American jazz ensemble'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "johnny-dodds",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1892,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Johnny_Dodds",
+      "evidence": "lead: 'Johnny Dodds (; April 12, 1892 – August 8, 1940) was an American jazz clarinetis'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "johnny-dodds",
+      "field": "deathYear",
+      "before": null,
+      "after": 1940,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Johnny_Dodds",
+      "evidence": "lead: 'Johnny Dodds (; April 12, 1892 – August 8, 1940) was an American jazz clarinetis'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "johnny-dodds",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "alto saxophone",
+        "clarinet"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Johnny_Dodds",
+      "evidence": "fill from lead: 'American jazz clarinetist and saxophonist (1892–1940)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "fats-navarro",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1923,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fats_Navarro",
+      "evidence": "lead: 'Theodore \"Fats\" Navarro (September 24, 1923 – July 7, 1950) was an American jazz'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "fats-navarro",
+      "field": "deathYear",
+      "before": null,
+      "after": 1950,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fats_Navarro",
+      "evidence": "lead: 'Theodore \"Fats\" Navarro (September 24, 1923 – July 7, 1950) was an American jazz'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "fats-navarro",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "trumpet"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fats_Navarro",
+      "evidence": "fill from lead: 'American jazz trumpeter (1923–1950)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "wardell-gray",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1921,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Wardell_Gray",
+      "evidence": "lead: 'Wardell Gray (February 13, 1921 – May 25, 1955) was an American jazz tenor saxop'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "wardell-gray",
+      "field": "deathYear",
+      "before": null,
+      "after": 1955,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Wardell_Gray",
+      "evidence": "lead: 'Wardell Gray (February 13, 1921 – May 25, 1955) was an American jazz tenor saxop'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "wardell-gray",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "tenor saxophone"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Wardell_Gray",
+      "evidence": "fill from lead: 'American jazz saxophonist (1921–1955)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "booker-ervin",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1930,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Booker_Ervin",
+      "evidence": "lead: 'Booker Telleferro Ervin II (October 31, 1930 – August 31, 1970) was an American '"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "booker-ervin",
+      "field": "deathYear",
+      "before": null,
+      "after": 1970,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Booker_Ervin",
+      "evidence": "lead: 'Booker Telleferro Ervin II (October 31, 1930 – August 31, 1970) was an American '"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "booker-ervin",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "tenor saxophone"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Booker_Ervin",
+      "evidence": "fill from lead: 'American saxophonist (1930–1970)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "red-garland",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1923,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Red_Garland",
+      "evidence": "lead: 'William McKinley \"Red\" Garland Jr. (May 13, 1923 – April 23, 1984) was an Americ'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "red-garland",
+      "field": "deathYear",
+      "before": null,
+      "after": 1984,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Red_Garland",
+      "evidence": "lead: 'William McKinley \"Red\" Garland Jr. (May 13, 1923 – April 23, 1984) was an Americ'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "red-garland",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "piano"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Red_Garland",
+      "evidence": "fill from lead: 'American modern jazz pianist (1923–1984)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "rahsaan-roland-kirk",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1935,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Rahsaan_Roland_Kirk",
+      "evidence": "lead: 'Rahsaan Roland Kirk (born Ronald Theodore Kirk; August 7, 1935 – December 5, 197'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "rahsaan-roland-kirk",
+      "field": "deathYear",
+      "before": null,
+      "after": 1977,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Rahsaan_Roland_Kirk",
+      "evidence": "lead: 'Rahsaan Roland Kirk (born Ronald Theodore Kirk; August 7, 1935 – December 5, 197'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "rahsaan-roland-kirk",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "tenor saxophone",
+        "flute"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Rahsaan_Roland_Kirk",
+      "evidence": "fill from lead: 'American jazz multi-instrumentalist (1935–1977)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "oliver-nelson",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1932,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Oliver_Nelson",
+      "evidence": "lead: 'Oliver Edward Nelson (June 4, 1932 – October 28, 1975) was an American jazz saxo'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "oliver-nelson",
+      "field": "deathYear",
+      "before": null,
+      "after": 1975,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Oliver_Nelson",
+      "evidence": "lead: 'Oliver Edward Nelson (June 4, 1932 – October 28, 1975) was an American jazz saxo'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "oliver-nelson",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "saxophone",
+        "clarinet"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Oliver_Nelson",
+      "evidence": "fill from lead: 'American composer and bandleader (1932–1975)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "clifford-jordan",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1931,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Clifford_Jordan",
+      "evidence": "lead: 'Clifford Laconia Jordan (September 2, 1931 – March 27, 1993) was an American jaz'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "clifford-jordan",
+      "field": "deathYear",
+      "before": null,
+      "after": 1993,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Clifford_Jordan",
+      "evidence": "lead: 'Clifford Laconia Jordan (September 2, 1931 – March 27, 1993) was an American jaz'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "clifford-jordan",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "tenor saxophone"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Clifford_Jordan",
+      "evidence": "fill from lead: 'American jazz saxophonist (1931–1993)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "jazz-composers-orchestra",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1966,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jazz_Composer's_Orchestra",
+      "evidence": "group formation; lead: \"The Jazz Composer's Orchestra was an American jazz group, founded by Carla Bley \""
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "tito-puente",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1923,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tito_Puente",
+      "evidence": "lead: 'Ernest Anthony Puente Jr. (April 20, 1923 – May 31, 2000), commonly known as Tit'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "tito-puente",
+      "field": "deathYear",
+      "before": null,
+      "after": 2000,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tito_Puente",
+      "evidence": "lead: 'Ernest Anthony Puente Jr. (April 20, 1923 – May 31, 2000), commonly known as Tit'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "tito-puente",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "vibraphone",
+        "timbales"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tito_Puente",
+      "evidence": "fill from lead: 'American Latin jazz and mambo musician (1923–2000)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "george-shearing",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1919,
+      "sourceUrl": "https://en.wikipedia.org/wiki/George_Shearing",
+      "evidence": "lead: 'Sir George Albert Shearing (13 August 1919 – 14 February 2011) was a British jaz'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "george-shearing",
+      "field": "deathYear",
+      "before": null,
+      "after": 2011,
+      "sourceUrl": "https://en.wikipedia.org/wiki/George_Shearing",
+      "evidence": "lead: 'Sir George Albert Shearing (13 August 1919 – 14 February 2011) was a British jaz'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "george-shearing",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "piano"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/George_Shearing",
+      "evidence": "fill from lead: 'British jazz pianist (1919–2011)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "barney-kessel",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1923,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Barney_Kessel",
+      "evidence": "lead: 'Barney Kessel (October 17, 1923 – May 6, 2004) was an American jazz guitarist. K'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "barney-kessel",
+      "field": "deathYear",
+      "before": null,
+      "after": 2004,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Barney_Kessel",
+      "evidence": "lead: 'Barney Kessel (October 17, 1923 – May 6, 2004) was an American jazz guitarist. K'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "barney-kessel",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "guitar"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Barney_Kessel",
+      "evidence": "fill from lead: 'American jazz guitarist (1923–2004)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "bob-brookmeyer",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1929,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bob_Brookmeyer",
+      "evidence": "lead: 'Robert Edward \"Bob\" Brookmeyer (December 19, 1929 – December 15, 2011) was an Am'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "bob-brookmeyer",
+      "field": "deathYear",
+      "before": null,
+      "after": 2011,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bob_Brookmeyer",
+      "evidence": "lead: 'Robert Edward \"Bob\" Brookmeyer (December 19, 1929 – December 15, 2011) was an Am'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "bob-brookmeyer",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "trombone",
+        "piano"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bob_Brookmeyer",
+      "evidence": "fill from lead: 'American jazz musician, arranger, and composer (1929–2011)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "roy-haynes",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1925,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Roy_Haynes",
+      "evidence": "lead: 'Roy Owen Haynes (March 13, 1925 – November 12, 2024) was an American jazz drumme'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "roy-haynes",
+      "field": "deathYear",
+      "before": null,
+      "after": 2024,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Roy_Haynes",
+      "evidence": "lead: 'Roy Owen Haynes (March 13, 1925 – November 12, 2024) was an American jazz drumme'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "roy-haynes",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "drums"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Roy_Haynes",
+      "evidence": "fill from lead: 'American jazz drummer and group leader (1925–2024)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "kenny-drew",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1928,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kenny_Drew",
+      "evidence": "lead: 'Kenneth Sidney \"Kenny\" Drew (August 28, 1928 – August 4, 1993) was an American-D'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "kenny-drew",
+      "field": "deathYear",
+      "before": null,
+      "after": 1993,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kenny_Drew",
+      "evidence": "lead: 'Kenneth Sidney \"Kenny\" Drew (August 28, 1928 – August 4, 1993) was an American-D'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "kenny-drew",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "piano"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kenny_Drew",
+      "evidence": "fill from lead: 'American-Danish jazz pianist (1928–1993)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "thad-jones",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1923,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Thad_Jones",
+      "evidence": "lead: 'Thaddeus Joseph Jones (March 28, 1923 – August 20, 1986) was an American jazz tr'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "thad-jones",
+      "field": "deathYear",
+      "before": null,
+      "after": 1986,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Thad_Jones",
+      "evidence": "lead: 'Thaddeus Joseph Jones (March 28, 1923 – August 20, 1986) was an American jazz tr'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "thad-jones",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "trumpet"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Thad_Jones",
+      "evidence": "fill from lead: 'American jazz trumpeter (1923–1986)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "benny-carter",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1907,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Benny_Carter",
+      "evidence": "lead: 'Bennett Lester Carter (August 8, 1907 – July 12, 2003) was an American jazz saxo'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "benny-carter",
+      "field": "deathYear",
+      "before": null,
+      "after": 2003,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Benny_Carter",
+      "evidence": "lead: 'Bennett Lester Carter (August 8, 1907 – July 12, 2003) was an American jazz saxo'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "benny-carter",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "saxophone",
+        "trumpet",
+        "clarinet"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Benny_Carter",
+      "evidence": "fill from lead: 'American jazz musician, composer, and bandleader (1907–2003)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "woody-herman",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1913,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Woody_Herman",
+      "evidence": "lead: 'Woodrow Charles Herman (May 16, 1913 – October 29, 1987) was an American jazz cl'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "woody-herman",
+      "field": "deathYear",
+      "before": null,
+      "after": 1987,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Woody_Herman",
+      "evidence": "lead: 'Woodrow Charles Herman (May 16, 1913 – October 29, 1987) was an American jazz cl'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "woody-herman",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "saxophone",
+        "clarinet",
+        "vocals"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Woody_Herman",
+      "evidence": "fill from lead: 'American jazz musician and bandleader (1913–1987)'"
+    },
+    {
+      "action": "stub_birthYear",
+      "file": "artists",
+      "id": "mamie-smith",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1891,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mamie_Smith",
+      "evidence": "lead: 'Mamie Smith (née Robinson; May 26, 1891 – August or September 16, 1946) was an A'"
+    },
+    {
+      "action": "stub_deathYear",
+      "file": "artists",
+      "id": "mamie-smith",
+      "field": "deathYear",
+      "before": null,
+      "after": 1946,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mamie_Smith",
+      "evidence": "lead: 'Mamie Smith (née Robinson; May 26, 1891 – August or September 16, 1946) was an A'"
+    },
+    {
+      "action": "stub_instruments",
+      "file": "artists",
+      "id": "mamie-smith",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "vocals"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mamie_Smith",
+      "evidence": "fill from lead: 'American vaudeville singer (1891–1946)'"
+    }
+  ]
+}

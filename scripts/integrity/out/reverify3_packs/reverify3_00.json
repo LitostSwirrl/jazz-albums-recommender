@@ -1,0 +1,185 @@
+[
+ {
+  "id": "gateway",
+  "kind": "album",
+  "ours": {
+   "title": "Gateway",
+   "artist": "Gateway",
+   "year": 1976,
+   "label": "ECM",
+   "albumDNA": "Gateway is the debut album by jazz trio Gateway, recorded in March 1975 and released on ECM the following year. The trio comprises guitarist John Abercrombie, bassist Dave Holland and drummer Jack DeJohnette. Defined a new approach to jazz trio—spacious, dynamic, and collectively improvised. The ECM production enhanced the music's intimacy.",
+   "keyTracks": [
+    "Back-Woods Song",
+    "Waiting",
+    "May Dance",
+    "Unshielded Desire",
+    "Jamala",
+    "Sorcery I"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Gateway_(Gateway_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "e935516b-0d87-464b-a305-650598c793ae",
+     "title": "Gateway",
+     "date": "2015-07-23",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "Gateway"
+     ],
+     "labels": [
+      {
+       "name": "[no label]",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "fda422c4-5ca0-4844-9d7d-f71982df6c98",
+      "title": "Gateway",
+      "firstReleaseDate": "2015-07-23",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Prolegomenon (intro)",
+      "Vox Occultus",
+      "Kha'laam",
+      "Impaled",
+      "Corrumpert Interludium",
+      "Vile Temptress",
+      "Hollow",
+      "The Shores of Daruk"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Gateway_(Gateway_album)",
+    "page": {
+     "requestedTitle": "Gateway (Gateway album)",
+     "resolvedTitle": "Gateway (Gateway album)",
+     "shortDescription": "1976 studio album by Gateway",
+     "extract": "Gateway is the debut album by jazz trio Gateway, recorded in March 1975 and released on ECM the following year. The trio comprises guitarist John Abercrombie, bassist Dave Holland and drummer Jack DeJohnette.\n\n\n== Reception ==\n\nThe Penguin Guide to Jazz called it a \"reflective album, but it is by no means sombre\" stating \"Abercrombie seems to like the open rhythmic weave and plays acoustically with great confidence and finely controlled timbre and dynamics. Holland is by no means playing at his best but he is incapable of mere journeywork and asserts his presence in the harmonic transitions in a way that more than makes up for the absence of keyboards.\"\nThe AllMusic review by Scott Yanow states, \"The interplay between the three musicians is quite impressive although listeners might find some of the music to be quite unsettling. It takes several listens for one to digest all that is going on, but it is worth the struggle.\"\n\n\n== Track listing ==\n\n\n== Personnel ==\nGateway\n\nJohn Abercrombie – guitar\nDave Holland – bass\nJack DeJohnette – drums\n\n\n== References =="
+    }
+   },
+   "websearch": {
+    "resolved": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Gateway_(Gateway_album)"
+    ],
+    "findings": {
+     "year": 1976,
+     "label": "ECM",
+     "tracklist": [
+      "Back-Woods Song",
+      "Waiting",
+      "May Dance",
+      "Unshielded Desire",
+      "Jamala",
+      "Sorcery I"
+     ],
+     "wikipedia": "https://en.wikipedia.org/wiki/Gateway_(Gateway_album)"
+    },
+    "note": "1976 ECM trio (Abercrombie/Holland/DeJohnette). MB resolved a WRONG 2015 same-name release; our prior keyTracks were that wrong entity's tracks. Tracklist from the album's Wikipedia page."
+   }
+  }
+ },
+ {
+  "id": "earth-jones",
+  "kind": "album",
+  "ours": {
+   "title": "Earth Jones",
+   "artist": "Elvin Jones",
+   "year": 1982,
+   "label": "Palo Alto",
+   "albumDNA": "Earth Jones is a jazz album by drummer Elvin Jones, recorded in 1982 and released on the Palo Alto label. A bebop entry from 1982 by Elvin Jones, documenting the breadth of the contemporary period.",
+   "keyTracks": [
+    "Three Card Molly",
+    "Is Seeing Believing?",
+    "The Top of the Middle",
+    "Earth Jones",
+    "Never Let Me Go"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Earth_Jones"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "610e35c5-3306-4465-912f-610a81526787",
+     "title": "Earth Jones",
+     "date": "1982-02-12",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Elvin Jones"
+     ],
+     "labels": [
+      {
+       "name": "Quicksilver",
+       "catalogNumber": "QSCD4015"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "00538d92-a7f5-49d1-a9a4-e955ac3ab6e4",
+      "title": "Earth Jones",
+      "firstReleaseDate": "1982-02-12",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Three Card Molly",
+      "Is Seeing Believing?",
+      "The Top of the Middle",
+      "Earth Jones",
+      "Never Let Me Go",
+      "Day and Night"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Earth_Jones",
+    "page": {
+     "requestedTitle": "Earth Jones",
+     "resolvedTitle": "Earth Jones",
+     "shortDescription": "1982 studio album by Elvin Jones",
+     "extract": "Earth Jones is a jazz album by drummer Elvin Jones, recorded in 1982 and released on the Palo Alto label.\n\n\n== Reception ==\nThe AllMusic review states: \"The solos are unpredictable but logical, and the blend between the lyrical Hino and Liebman is appealing\".\n\n\n== Track listing ==\n\"Three Card Molly\" (Elvin Jones) - 8:03\n\"Is Seeing Believing?\" (Dave Liebman) - 7:58\n\"The Top of the Middle\" (Liebman) - 3:56\n\"Earth Jones\" (Liebman) - 7:07\n\"Never Let Me Go\" (Ray Evans, Jay Livingston) - 7:27\n\"Day and Night\" (Liebman) - 7:46\n\n\n== Personnel ==\nElvin Jones - drums\nTerumasa Hino - cornet\nDave Liebman - soprano saxophone, flute\nKenny Kirkland - piano, electric piano\nGeorge Mraz - bass\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "marcus-miller",
+  "kind": "artist",
+  "ours": {
+   "name": "Marcus Miller",
+   "birthYear": 1959,
+   "deathYear": null,
+   "instruments": [
+    "bass",
+    "clarinet",
+    "keyboards"
+   ],
+   "bio": "William Henry Marcus Miller Jr. is an American musician, songwriter, and record producer. He has worked with trumpeter Miles Davis, pianist Herbie Hancock, singer Luther Vandross, and saxophonists Wayne Shorter and David Sanborn, among others. He was the main songwriter and producer on three of Davis's albums: Tutu (1986), Music from Siesta (1987), and Amandla (1989).",
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Marcus_Miller"
+  },
+  "evidence": {
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Marcus_Miller",
+    "page": {
+     "requestedTitle": "Marcus Miller",
+     "resolvedTitle": "Marcus Miller",
+     "shortDescription": "American musician, composer and producer (born 1959)",
+     "extract": "William Henry Marcus Miller Jr. (born June 14, 1959) is an American musician, songwriter and record producer. He has worked with trumpeter Miles Davis, pianist Herbie Hancock, singer Luther Vandross, and saxophonists Wayne Shorter and David Sanborn, among others. He was the main songwriter and producer on three of Davis's albums: Tutu (1986), Music from Siesta (1987), and Amandla (1989). His collaboration with Vandross was especially close; he co-produced and served as the arranger for most of Vandross's albums, and he and Vandross co-wrote many songs, including the hits \"I Really Didn't Mean It\", \"Any Love\", \"Power of Love/Love Power\" and \"Don't Want to Be a Fool\". Miller also co-wrote the 1988 single \"Da Butt\" for Experience Unlimited.\n\n\n== Early life ==\nWilliam Henry Marcus Miller Jr. was born in the Brooklyn borough of New York City on June 14, 1959. He grew up in a musical family; his father, William Miller, was a church organist and choir director. Through his father, he is a cousin of jazz pianist Wynton Kelly. He became classically trained as a clarinetist and later learned to play keyboards, saxophone, and guitar in addition to bass.\n\n\n== Career ==\n\nMiller began to work regularly in New York City, eventually playing bass and writing music for jazz flautist Bobbi Humphrey and keyboardist Lonnie Liston Smith. Miller's earliest influences include James Jamerson and Larry Graham. He spent approximately 15 years performing as a session musician. During that time he also arranged and produced frequently. He was a member of the Saturday Night Live band between 1979 and 1981. He co-wrote Aretha Franklin's \"Jump To It\" along with Luther Vandross, and sang alongside Vandross on the 1986 David Bowie single \"Underground\" from the movie Labyrinth. Miller has played bass on more than 500 recordings, appearing on albums by such artists as Michael Jackson, Beyoncé, Herbie Hancock, Mariah Carey, Eric Clapton, The Crusaders, Wayne Shorter, McCoy Tyner, Frank Sinatra, George Benson, Dr. John, Aretha Franklin, Elton John, Joe Walsh, Jean-Michel Jarre, Grover Washington Jr., Donald Fagen, Bill Withers, Bernard Wright, Kazumi Watanabe, Chaka Khan, LL Cool J and Flavio Sala. Miller won the \"Most Valuable Player\" award (given by NARAS to recognize studio musicians) three years in a row and was subsequently awarded \"player emeritus\" status and retired from eligibility.\nIn the mid-1980s, Miller began a solo career as a funk/R&B singer, with the albums Suddenly (1983) and Marcus Miller (1984). He was the main songwriter, producer and instrumentalist on these albums. He has since then released ten more solo albums, although he has only occasionally sung on these subsequent albums.\nBetween 1988 and 1990, Miller was the musical director and house band bass player (in the \"Sunday Night Band\") during two seasons of the late-night TV show Sunday Night (also known as Night Music) on NBC, hosted by David Sanborn and Jools Holland.\nAs a composer, Miller co-wrote and produced several songs on the Miles Davis album Tutu, including the title track. He also composed \"Chicago Song\" for David Sanborn and co-wrote \"'Til My Baby Comes Home\", \"It's Over Now\", \"For You to Love\", and \"Power of Love\" for Luther Vandross.  Miller also wrote \"Da Butt\", which was featured in Spike Lee's School Daze. In addition, he composed and provided spoken vocals on \"Burn it Up\", which was featured on Najee's 1992 album Just An Illusion.\nIn 1997, Miller played bass guitar and bass clarinet in the supergroup Legends, featuring Eric Clapton (guitars and vocals), Joe Sample (piano), David Sanborn (alto sax) and Steve Gadd (drums). It was an 11-date tour of major jazz festivals in Europe. In 2008 Miller formed another supergroup, SMV, with fellow bassists Stanley Clarke and Victor Wooten, for a world tour lasting 18 months. He produced SMV's first release, Thunder. In the summer of 2011, Miller toured alongside Herbie Hancock and Wayne Shorter celebrating Miles Davis on the 20th anniversary of his death.\nIn 2017, Miller, along with Common, headlined the Playboy Jazz Festival.\nMiller hosts a jazz history and influences show called Miller Time with Marcus Miller on the Real Jazz channel of Sirius XM Holdings satellite radio system. In addition to his recording and performance career, Miller has established a parallel career as a film score composer. He has written numerous scores for films, including films directed by Reginald Hudlin and Chris Rock.\nMiller speaks French and Spanish, which he started learning in his late 40s. He has been known to speak it fluently during interviews, and has introduced songs such as \"Preacher's Kid\" – a story about his father, in concerts.\n\n\n== Awards and honors ==\nMiller has been nominated for numerous Grammy Awards as a producer for Miles Davis, Luther Vandross, David Sanborn, Bob James, Chaka Khan and Wayne Shorter, and has won two Grammys. He won a Grammy Award for Best R&B Song in 1992, for Luther Vandross' \"Power of Love\" and in 2001 he won for Best Contemporary Jazz Album for his seventh solo instrumental album, M². His 2015 album Afrodeezia earned a Grammy Award nomination for Best Contemporary Instrumental Album.\n\nIn 2012, Miller was appointed a UNESCO Artist for Peace, supporting and promoting the UNESCO Slave Route Project.\nIn December 2021, Bass Player magazine awarded Miller a Lifetime Achievement Award.\n\n\n== Instruments ==\nMiller plays a transparent blonde finish 1977 Fender Jazz Bass that was modified by luthier Roger Sadowsky with the addition of a Stars Guitar and later a Bartolini TCT preamp so he could control his sound in the studio. Fender started to produce a Marcus Miller signature Fender Jazz Bass in four-string (made in Japan) and five-string (made in U.S) versions. Later, Fender moved the production of the four-string to their Mexico factory and discontinued both four- and five-string models in 2015. DR Strings also produced a series of Marcus Miller signature stainless-steel strings known as \"Fat Beams\", which come in a variety of sizes.\nIn 2015, the Korean company Sire Guitars began the production and sale of the Marcus Miller V7, a signature model based on Miller’s previous Fender Jazz bass. They have since expanded their range to include a wider array of body shapes, styles, and price points. Also in 2015, Dunlop began producing Marcus Miller Super Bright bass strings which Miller switched to.\n\n\n== Discography ==\n\n\n=== Studio albums ===\n\n\n=== Collaborative albums ===\n\n\n=== Live albums ===\n\n\n=== Singles ===\n\n\n=== Live DVDs ===\nTutu Revisited – Live 2010\n\n\n=== As a member ===\nThe Jamaica Boys\n\nThe Jamaica Boys (WEA, 1987)\nJ. Boys (Reprise, 1990)\n\n\n=== As sideman ===\nWith George Benson\n\nIn Your Eyes (Warner Bros., 1983)\n20/20 (Warner Bros., 1985)\nWhile the City Sleeps... (Warner Bros., 1986)\nTwice the Love (Warner Bros., 1988)\nSongs and Stories (Concord, 2009)\nWith Jonathan Butler\n\nHeal Our Hand (Jive, 1990)\nUbuntu (Artistry, 2023)\nWith Mariah Carey\n\nMariah Carey (Colum"
+    }
+   }
+  }
+ }
+]

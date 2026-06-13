@@ -30,3 +30,5 @@ dist-ssr
 *.sw?
 scripts/out/albums_pre_dna_backup.json
 scripts/out/*_pre_split_backup.json
+scripts/integrity/cache/
+.ruff_cache/

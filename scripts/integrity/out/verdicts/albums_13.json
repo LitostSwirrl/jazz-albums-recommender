@@ -1,0 +1,321 @@
+[
+ {
+  "id": "science-fiction",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid (Columbia KC 31061, 1972, Ornette Coleman) and stored wiki page both match. Year, label, recording dates (Sept-Oct 1971, released Feb 1972) verified verbatim against wiki. All 5 keyTracks on MB tracklist. Wording nit only: the tail phrase 'A 1972 free jazz date for Columbia' uses the release year, while the session was recorded Sept-Oct 1971 -- the blurb's first sentence already states the recording dates correctly, so read as release-year shorthand, not flagged."
+ },
+ {
+  "id": "shades-of-green",
+  "verdict": "factual_error",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "a 1972 session reflecting the fusion period", "problem": "the session was recorded in November 1971; 1972-04 is the release date. The same blurb's first sentence correctly says recorded 1971, so this tail phrase contradicts both the evidence and the blurb itself", "evidenceQuote": "Recorded at United Artists Studios, West Hollywood, CA on November 23 (tracks 1, 5 & 8), & November 24 (tracks 2-4, 6 & 7), 1971", "source": "wiki"}
+  ],
+  "notes": "Entity solid: MB embedded_mbid (Blue Note BST-84413, 1972-04, Grant Green) and stored wiki page match. Year field 1972 is fine as release year (MB 1972-04). All 5 keyTracks on MB tracklist including the long medley title. Minor error only: '1972 session' is template filler keyed off release year; recording was Nov 1971 (horn overdubs Dec 1971)."
+ },
+ {
+  "id": "skies-of-america",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "DNA is verbatim from the wiki lead (17th album, Columbia 1972, one long composition, LSO under David Measham, Coleman plays only a few segments). MB embedded_mbid corroborates artists (Ornette Coleman, The London Symphony Orchestra, David Measham), Columbia C 31562, 1972. All 5 keyTracks are the first 5 MB tracks. Caveat for reviewers: the wiki lead's 'no other jazz instrumentation' is in tension with wiki's own personnel section (Redman/Haden/Blackwell listed) -- that is a wiki-internal inconsistency mirrored into our prose, not an ours-vs-evidence contradiction."
+ },
+ {
+  "id": "great-american-songbook",
+  "verdict": "factual_error",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Alfie", "If You Could See Me Now", "Baltimore Oriole", "I'm Always Drunk in San Francisco"],
+  "fieldIssues": [
+   {"field": "title", "ours": "The Great American Songbook Live", "evidence": "The Great American Songbook", "evidenceQuote": "The Great American Songbook is a 1972 live album by Carmen McRae", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "No MB evidence (search returned nothing); tracklist check done against the stored wiki page's complete 18-track listing. ALL FOUR keyTracks are absent from that listing (Satin Doll, At Long Last Love, If the Moon Turns Green, ... I Thought About You) -- they look pulled from other McRae recordings or fabricated. Prose itself matches wiki closely (Rowles/Pass quartet, the Rowles liner-note quote, 'The Ballad of Thelonious Monk', McRae on piano for two tracks) and year 1972 is verified. Title field appends 'Live', unsupported by evidence (could be a reissue variant, but no evidence shows it). Label 'Atlantic' is unverifiable -- the wiki extract never names the label and MB is absent."
+ },
+ {
+  "id": "vietnam",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid (ESP-Disk ESP 3007, 1972) and stored wiki page both match; first sentence of DNA is verbatim wiki (trio personnel Jenkins/Sirone/Cooper, recorded 1972, ESP-Disk). Both keyTracks = full MB tracklist. Template artifact worth a cleanup pass but not a factual flag: 'Captures violinist Revolutionary Ensemble' mislabels the trio as a violinist -- a generation glitch ('violinist {artist}'); the same blurb already describes the group correctly. 'Fusion era' is the site's era framing, not a claim about the music."
+ },
+ {
+  "id": "world-galaxy",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["A Galaxy of Love"],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "the transcendent closer 'A Galaxy of Love'", "problem": "no such track on the album; the closing track per MB is 'A Love Supreme'", "evidenceQuote": "tracks: [\"My Favorite Things\", \"Galaxy Around Olodumare\", \"Galaxy in Turiya\", \"Galaxy in Satchidananda\", \"A Love Supreme\"]", "source": "mb"}
+  ],
+  "notes": "MB search match is strong (similarity 1.0, impulse! AS-9218, 1972, Alice Coltrane). Year/label verified. 'My Favorite Things' as opener verified (first MB track). 'A Galaxy of Love' appears to be a garbled invention -- possibly conflating 'A Love Supreme' with the 'Galaxy...' titles; also missing from keyTracks-matchable MB list. Harp/organ/strings claims unverifiable from MB (no personnel) but uncontradicted; sampling-legacy claims editorial/unverifiable. No wikipedia page found (opensearch empty); no URL stored."
+ },
+ {
+  "id": "birds-of-fire",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "DNA first two sentences verbatim wiki (second studio album, 1973 Columbia, last by original line-up); MB search (similarity 1.0, Columbia KC 31996, 1973) corroborates. All 4 keyTracks on MB tracklist. Remaining sentences are editorial opinion (influence on progressive rock), not flagged."
+ },
+ {
+  "id": "black-byrd",
+  "verdict": "unverifiable",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 1.0, Blue Note BN-LA047-F, 1973, Donald Byrd) verifies title/artist/year/label and all 4 keyTracks. Wikipedia opensearch landed on the 'Blackbird' disambiguation page -- not our entity, discarded for fact-checking (no URL is stored on our side, so no link problem). Unverifiable substantive claims: produced by the Mizell Brothers; 'Blue Note's biggest-selling album ever at the time'; 'saved Blue Note Records from bankruptcy'. No contradictions found."
+ },
+ {
+  "id": "blacks-and-blues",
+  "verdict": "unverifiable",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 1.0, Blue Note BN-LA142-G, 1973, Bobbi Humphrey) verifies title/artist/year/label; all 4 keyTracks on MB tracklist ('Baby's Gone' matches modulo apostrophe; title track and 'Harlem River Drive' both confirmed present, consistent with the prose). Wikipedia opensearch resolved to 'Black and Blue (disambiguation)' -- different entity, discarded; no URL stored on our side. Unverifiable substantive claims: Mizell Brothers production; 'one of the most successful Blue Note albums of the 1970s'. No contradictions."
+ },
+ {
+  "id": "capra-black",
+  "verdict": "factual_error",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Soulful Song for My Grandfather"],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity solid: MB search similarity 1.0 (Strata-East SES-19739, 1973, Billy Harper) and stored wiki page match; 'debut album', Strata-East, recorded 1973 all verified. keyTrack 'Soulful Song for My Grandfather' is on NEITHER tracklist -- both MB and wiki give the same complete 5 tracks (Capra Black / Sir Galahad / New Breed / Soulfully, I Love You - Black Spiritual of Love / Cry of Hunger); it is not a rename-variant of any of them. Other two keyTracks match. Evidence-internal nit: wiki shortDescription says '1974 studio album' while wiki body and MB both say 1973 -- ours (1973) follows the stronger evidence, not flagged."
+ },
+ {
+  "id": "conference-of-the-birds",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No MB match. Stored wiki page is unambiguously our album and the DNA's factual content is verbatim from its lead (recorded 30 Nov 1972, released on ECM the following year, debut as bandleader and fourth project for the label, Braxton alto / Rivers tenor / Altschul percussion -- personnel section confirms). Year 1973 and ECM verified. The wiki extract's track-listing section is empty, so the 6 keyTracks cannot be checked -- no_evidence, not a flag. Closing sentences are editorial and consistent with wiki reception quotes."
+ },
+ {
+  "id": "head-hunters",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Almost everything checks out against the stored wiki page: 1973 Columbia release (Oct 26, 1973), Maupin/Jackson/Mason/Summers line-up, clavinet + ARP synthesizer + Rhodes, 'Watermelon Man' reworked from his earlier hit with African-influenced percussion, 'Chameleon' bass line on ARP. All 4 keyTracks = full MB tracklist (MB hit is the JP CBS/Sony pressing of the same release group; wiki confirms Columbia). One substantive claim is uncheckable against pack evidence and forces this verdict: 'Became the first jazz album to go platinum' -- wiki gives Billboard peak #13 and National Recording Registry but says nothing about platinum certification. '15-minute Chameleon' duration and Us3/A Tribe Called Quest sampling also unverifiable. No contradictions found; borderline-clean item."
+ },
+ {
+  "id": "in-the-townships",
+  "verdict": "factual_error",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Nobomyu"],
+  "fieldIssues": [
+   {"field": "year", "ours": "1973", "evidence": "1974", "evidenceQuote": "\"date\": \"1974\" ... releaseGroup \"firstReleaseDate\": \"1974\" (Caroline Records C 1504)", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "MB search match (similarity 0.77 -- credit is 'Dudu Pukwana & Spear', ours stores just 'Dudu Pukwana'; same album by title/label/tracklist, so entity yes, but method is search: strong, not infallible). Both the MB release date and the release-group first release say 1974, contradicting our 1973. Label ok (Caroline/Caroline Records). keyTracks: 5 of 6 match; 'Nobomyu' is a one-letter typo of MB's 'Nobomvu' -- repair is a spelling fix, not a missing track. Prose claims (recorded in London exile, township jive + British free jazz, marabi) unverifiable: no wikipedia page found and none stored."
+ },
+ {
+  "id": "izipho-zam-my-gifts",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "DNA verbatim from wiki lead (third album led by Sanders, recorded 1969, released on Strata-East 1973, large ensemble -- personnel list confirms). MB embedded_mbid resolves to a 1993 German Bellaphon reissue of the same release group; release-group firstReleaseDate 1973 corroborates our year, and wiki confirms the Strata-East label for the original. All 3 keyTracks = full tracklist on both MB and wiki."
+ },
+ {
+  "id": "lawrence-of-newark",
+  "verdict": "clean",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose verbatim from wiki lead (organist/keyboardist Larry Young, Perception Records); wiki personnel confirms organ/keyboards and heavy electric instrumentation consistent with the fusion framing. All 5 keyTracks on MB tracklist. Evidence-internal conflict on year: MB (similarity 1.0, Perception PLP 034) gives release date 1973 and release-group first release 1973, matching ours; the wiki shortDescription alone says '1975 studio album' and the wiki body states no year. Followed the stronger MB evidence; worth a human spot-check."
+ },
+ {
+  "id": "love-devotion-surrender",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "DNA verbatim from the wiki lead (Santana & McLaughlin with their bands, Sri Chinmoy inspiration, Coltrane tribute, two Coltrane compositions + two McLaughlin songs + traditional gospel, Gold in 1973); wiki page found via opensearch is the right entity. MB embedded_mbid: Columbia KC 32034, 1973-07-20, all 5 keyTracks exact. Data-model observation, not a content error: the site's single artist field carries only 'John McLaughlin' while the authoritative MB credit is joint 'Carlos Santana, John McLaughlin' -- the prose states the joint credit correctly, so no rewrite needed; consider whether the catalog should surface both names. No wikipedia URL stored despite a correct page existing."
+ },
+ {
+  "id": "solo-concerts",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No MB match. DNA's factual sentence is verbatim the wiki lead (triple live solo album, Lausanne March 20 / Bremen July 12 1973, released on ECM November that year, debut solo live album for the label); year/label verified. Wiki track-listing sections are empty in the extract, so the two keyTracks cannot be formally checked (the Gioia quote 'Bremen, Germany, July 12, 1973, Part I' corroborates the Part I naming pattern). 'Paved the way for The Koln Concert' is editorial and consistent with wiki reception."
+ },
+ {
+  "id": "afrodisia",
+  "verdict": "entity_mismatch",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Super Kumba"],
+  "fieldIssues": [
+   {"field": "label", "ours": "Fiesta", "evidence": "Atlantic", "evidenceQuote": "labels: [{\"name\": \"Atlantic\", \"catalogNumber\": \"SD 7267\"}] (1973 US release)", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "\"Soul Makossa\" is a song by Cameroonian saxophonist and songwriter Manu Dibango, released as a single in 1972", "problem": "the entire albumDNA describes the SONG/single, copied verbatim from the Wikipedia article about the single, while this catalog item is a 1973 ALBUM (MB: primaryType Album, firstReleaseDate 1973)", "evidenceQuote": "shortDescription: \"1972 single by Manu Dibango\"", "source": "wiki"},
+   {"ourClaim": "The song was originally recorded as the B-side for \"Hymne de la 8e Coupe d'Afrique des Nations\"", "problem": "single-release history of the song, not a description of the album; confirms the prose's factual skeleton belongs to the song entity", "evidenceQuote": "The song was originally recorded as the B-side for \"Hymne de la 8e Coupe d'Afrique des Nations\"", "source": "wiki"}
+  ],
+  "notes": "Classic instance of the disease, song-for-album variant. Item id is 'afrodisia' but ours.title ships as 'Soul Makossa' -- the slot may originally have been Dibango's album 'Afrodisia'; a human must decide which album this entry is meant to be before repair. The stored wikipediaUrl points to the SONG article (shortDescription '1972 single'). MB does evidence a real 1973 'Soul Makossa' album matching ours.title/artist/year, but on Atlantic SD 7267, not Fiesta (wiki notes Atlantic licensed the recording 'from French record label Fiesta', so Fiesta may fit a French issue not in evidence). keyTracks: 'Soul Makossa' and 'Lily' are on the MB album; 'Super Kumba' is not (MB: New Bell, Nights in Zeralda, Hibiscus, Dangwa, Lily, Soul Makossa, Oboso)."
+ },
+ {
+  "id": "space-is-the-place",
+  "verdict": "factual_error",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Discipline 27-II"],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity solid: MB search similarity 1.0 (Blue Thumb Records BTS 41, 1973, Sun Ra) and stored wiki page match; year/label verified. keyTrack 'Discipline 27-II' is not on the MB tracklist -- MB has 'Discipline 33' (full list: Space Is the Place, Images, Discipline 33, Sea of Sounds, Rocket Number Nine); background knowledge says 'Discipline 27-II' is the title of a separate 1973 Sun Ra album, but that is not citable from the pack. Wiki track-listing section is empty, so MB is the only tracklist evidence. Also flag for review (not a wrongClaim -- no contradicting passage): prose calls this 'the soundtrack to Sun Ra's only feature film'; the wiki page calls it 'a studio album' and never mentions a film. Absence is not contradiction, but the soundtrack framing needs verification -- the actual film soundtrack is widely catalogued as a separate release."
+ },
+ {
+  "id": "spectrum",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Wiki confirms debut solo album by Billy Cobham, Tommy Bolin lead guitar on four songs, Jan Hammer on keys, 'Stratus' and 'Quadrant 4' on the record; MB (release-group first release 1973-10-01, Atlantic) confirms year/label (evidence copy is the DE pressing of the same release group). keyTracks 'Spectrum' and 'Red Baron' matched as components of MB's medley titles ('Searching for the Right Door / Spectrum', 'Snoopy's Search / Red Baron') -- wiki notes the components have clean breaks and recent CDs list 10 tracks. Influence-on-rock/metal sentences are editorial."
+ },
+ {
+  "id": "the-beginning-and-the-end",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "DNA verbatim from wiki (compilation; opens with two 1952 Chris Powell's Blue Flames tracks; ends with the Music City Club, Philadelphia session; liner-notes quote; the Catalano May 31, 1955 caveat -- ours mirrors wiki exactly, including wiki's own 1956-vs-1955 tension). MB embedded_mbid: Columbia KC 32284, 1973-06-29. All 5 keyTracks on MB tracklist ('Night in Tunisia' matches wiki's 'A Night in Tunisia'). MB release-group lacks the Compilation secondary type but wiki confirms compilation status, consistent with ours."
+ },
+ {
+  "id": "belonging",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No MB match; stored wiki page is unambiguously our album and the DNA's factual content is verbatim from its lead (recorded over two days April 1974, ECM later that year, European Quartet debut with Garbarek/Danielsson/Christensen, ABC/Impulse! contract explanation for the 'Belonging' quartet name). Year/label verified. All 4 keyTracks appear in the wiki track listing (Spiral Dance, ''Long as You Know You're Living Yours', Belonging, The Windup). Artist field 'Keith Jarrett European Quartet' is consistent with the wiki framing."
+ },
+ {
+  "id": "experience-and-judgment",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 1.0, Atlantic SD 1654, 1974, Andy Bey) verifies title/artist/year/label. keyTracks pass under substring matching but two need repair-writer attention: 'Experience and Judgment' is NOT a single track -- MB lists separate tracks 'Experience' and 'Judgment'; and 'Tune Up/No Greater Love' matches only the 'Tune Up' half -- 'No Greater Love' appears nowhere on the MB tracklist. 'Celestial Blues' and 'Being Uptight' exact. The substantive claim 'Horace Silver provides the arrangements' is uncheckable (no wiki page found, none stored; MB has no credits) and smells like conflation with Bey's known role as vocalist on Silver's United States of Mind albums -- background knowledge, not citable; verify before keeping. Vocal-range and legacy claims editorial/unverifiable. No contradictions."
+ },
+ {
+  "id": "illuminations",
+  "verdict": "factual_error",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "artist", "ours": "Alice Coltrane", "evidence": "Devadip Carlos Santana; Turiya Alice Coltrane", "evidenceQuote": "artists: [\"Devadip Carlos Santana\", \"Turiya Alice Coltrane\"]", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "On Illuminations (1974), Alice Coltrane delivers a focused exploration of free jazz, recorded for Columbia.", "problem": "presents a jointly-credited Santana-Coltrane collaboration as an Alice Coltrane solo work; neither the artist field nor the prose mentions Carlos Santana at all", "evidenceQuote": "Illuminations is a 1974 collaboration between Alice Coltrane and Carlos Santana (under their Indian names \"Turiya\" and \"Devadip\", respectively).", "source": "wiki"}
+  ],
+  "notes": "Right album: MB embedded_mbid (Columbia PC 32900, 1974-09) matches all 5 keyTracks exactly, year and label verified, and the opensearch wiki page is the right entity. The defect is attribution: MB's authoritative credit lists Santana first, wiki calls it a collaboration, and most key tracks are Coster-Santana compositions per wiki -- but our content reads as a solo Alice Coltrane album. Contrast with love-devotion-surrender, where the prose states the joint credit; here a rewrite should name Santana. 'Focused exploration of free jazz' is editorial; wiki partially supports ('it veers into free jazz', 'feverish free-jazz number')."
+ },
+ {
+  "id": "mannenberg",
+  "verdict": "entity_mismatch",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Abdullah Ibrahim, previously known as Dollar Brand, is a South African pianist and composer.", "problem": "the albumDNA is a verbatim artist biography -- content about a person while the item is an album; it contains no album-specific facts (recording, release, label, personnel of the record)", "evidenceQuote": "Abdullah Ibrahim (born Adolph Johannes Brand on 9 October 1934), previously known as Dollar Brand, is a South African pianist and composer.", "source": "wiki"}
+  ],
+  "notes": "The spec's exact entity_mismatch case: 'a person when the item is an album'. The stored wikipediaUrl is the Abdullah Ibrahim ARTIST page (shortDescription 'South African pianist and composer (born 1934)'), not an album page, and the prose is lifted from it -- accurate about the man, but it never describes the record beyond 'He is known especially for Mannenberg... anti-apartheid anthem' plus two editorial sentences. No MB evidence at all, so year 1974, label 'Sun', and all 4 keyTracks are unverifiable. Background-knowledge flags for the repair-writer (not citable from pack): 'Cape Town Fringe' is widely known as the TITLE of the album's US companion release, and 'Soweto Is Where It's At' reads like album-title phrasing -- the keyTracks list needs independent verification against the original As-Shams/The Sun LP."
+ }
+]

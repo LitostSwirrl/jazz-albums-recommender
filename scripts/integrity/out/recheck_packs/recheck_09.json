@@ -1,0 +1,2017 @@
+[
+  {
+    "id": "latin-jazz-quintet-latin-jazz-quintet",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.85,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 2004, Latin Jazz Quintet showcases Latin Jazz Quintet at the height of their creative powers",
+          "problem": "Recording year wrong: releaseGroup first release is 1961, so the album cannot have been recorded in 2004. 2004-11-16 is a reissue date (MB release date).",
+          "evidenceQuote": "\"firstReleaseDate\": \"1961\"",
+          "source": "mb"
+        }
+      ],
+      "notes": "Entity confirmed (MB embedded_mbid; MB artist 'The Latin Jazz Quintet' = ours 'Latin Jazz Quintet'; first 6 keyTracks match this 10-track album). Genre 'Cool Jazz' is editorial. No label in MB; ours 'Various' is a placeholder."
+    },
+    "ours": {
+      "title": "Latin Jazz Quintet",
+      "artist": "Latin Jazz Quintet",
+      "year": 2004,
+      "label": "Various",
+      "albumDNA": "Recorded in 2004, Latin Jazz Quintet showcases Latin Jazz Quintet at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Latin Jazz Quintet remains a landmark of Cool Jazz, cementing Latin Jazz Quintet's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "You're the Cutest One",
+        "Speak Low",
+        "I Got Rhythm",
+        "A Night in Tunisia",
+        "Danse Macabre (a.k.a. Cha Cha King)",
+        "I Wish I Were in Love Again"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "02259796-9c7e-450f-bb9f-bd251db9380e",
+          "title": "Latin Jazz Quintet",
+          "date": "2004-11-16",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "The Latin Jazz Quintet"
+          ],
+          "labels": [],
+          "releaseGroup": {
+            "mbid": "13b9bbeb-3de7-3ea8-8ffc-e64e85297fc0",
+            "title": "Latin Jazz Quintet",
+            "firstReleaseDate": "1961",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "You're the Cutest One",
+            "Speak Low",
+            "I Got Rhythm",
+            "A Night in Tunisia",
+            "Danse Macabre (a.k.a. Cha Cha King)",
+            "I Wish I Were in Love Again",
+            "You Don't Know What Love Is",
+            "Lover",
+            "Mangolina",
+            "April Rain"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "coltrane-jazz-john-coltrane",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.6,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 1961, Coltrane Jazz showcases John Coltrane at the height of their creative powers",
+          "problem": "Recording year wrong: Wikipedia states the album was recorded in two sessions in November and December 1959 (with one 1960 track) and released in early 1961. 1961 is the release year, not the recording year.",
+          "evidenceQuote": "It was released in early 1961 on Atlantic Records. Most of the album features Coltrane playing with his former Miles Davis bandmates, pianist Wynton Kelly, bassist Paul Chambers and drummer Jimmy Cobb during two sessions in November and December, 1959.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Entity confirmed by both MB (embedded_mbid, Atlantic SD 1354) and Wikipedia ('Coltrane Jazz', 1961 studio album by John Coltrane); all 6 keyTracks match. ours.year 1961 is correct as the RELEASE year (Wikipedia agrees), so only the albumDNA verb 'Recorded in 1961' is the error — repair could change to 'Released in 1961'. Borderline (release-vs-recording wording); flagged because Wikipedia gives an explicit contradicting recording date. Genre 'Hard Bop' is editorial."
+    },
+    "ours": {
+      "title": "Coltrane Jazz",
+      "artist": "John Coltrane",
+      "year": 1961,
+      "label": "Various",
+      "albumDNA": "Recorded in 1961, Coltrane Jazz showcases John Coltrane at the height of their creative powers, offering one of the finest expressions of Hard Bop. Coltrane Jazz remains a landmark of Hard Bop, cementing John Coltrane's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Little Old Lady",
+        "Village Blues",
+        "My Shining Hour",
+        "Fifth House",
+        "Harmonique",
+        "Like Sonny"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "710c8bad-ce09-4d33-a584-a396e5b74a1c",
+          "title": "Coltrane Jazz",
+          "date": "1961",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "John Coltrane"
+          ],
+          "labels": [
+            {
+              "name": "Atlantic",
+              "catalogNumber": "SD 1354"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "7a0612cb-03ed-3d66-8001-b58084a56b59",
+            "title": "Coltrane Jazz",
+            "firstReleaseDate": "1961",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Little Old Lady",
+            "Village Blues",
+            "My Shining Hour",
+            "Fifth House",
+            "Harmonique",
+            "Like Sonny",
+            "I'll Wait and Pray",
+            "Some Other Blues"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Coltrane Jazz (album)",
+          "resolvedTitle": "Coltrane Jazz",
+          "shortDescription": "1961 studio album by John Coltrane",
+          "extract": "Coltrane Jazz is a studio album by the jazz musician John Coltrane. It was released in early 1961 on Atlantic Records. Most of the album features Coltrane playing with his former Miles Davis bandmates, pianist Wynton Kelly, bassist Paul Chambers and drummer Jimmy Cobb during two sessions in November and December, 1959. The exception is the track \"Village Blues\", which was recorded October 21, 1960. \"Village Blues\" comes from the first recording session featuring Coltrane playing with pianist McCoy Tyner and drummer Elvin Jones, who toured and recorded with Coltrane as part of his celebrated \"classic quartet\" from 1960 to 1965.\n\n\n== Background ==\nIn 1959, Miles Davis' business manager Harold Lovett negotiated a contract for Coltrane with Atlantic, the terms including a $7000 annual guarantee. After having recorded most of Giant Steps in May of that year, Coltrane started having bridge problems, and did not return to a recording studio for six months. When he returned to the studio in November and December for the Coltrane Jazz recording sessions, he employed the rhythm section from the Miles Davis Quintet. The sessions yielded the bulk of Coltrane Jazz, and the track \"Naima,\" which was included on the Giant Steps album. \"Like Sonny,\" a tribute to colleague Sonny Rollins, is based on a melodic figure that Sonny Rollins can be heard playing at 3:22 during his solo on \"My Old Flame\" on Kenny Dorham's 1957 album Jazz Contrasts. (Coltrane made one further studio recording of \"Like Sonny\" in September 1960 for Roulette Records, who issued the piece under the title \"Simple Like\" in 1962 on the album \"The Best of Birdland: Volume 1\".)\nAfter leaving Davis's band in the spring of 1960, Coltrane formed his first touring quartet for a residency at the Jazz Gallery club in Manhattan. Coltrane initially hired pianist Steve Kuhn and drummer Pete \"La Roca\" Sims for his group, along with bassist Steve Davis, but by September, the quartet's rhythm section consisted of Tyner, Jones, and Davis. This group entered the studio on October 21, recording \"Village Blues\" at the beginning of the week of sessions that produced Coltrane's My Favorite Things album.\nOn June 20, 2000, Rhino Records reissued Coltrane Jazz as part of its Atlantic 50th Anniversary Jazz Gallery series. Included were four bonus tracks, two of which had appeared in 1975 on the Atlantic compilation Alternate Takes, the remaining pair earlier issued on The Heavyweight Champion: The Complete Atlantic Recordings in 1995. Two bonus tracks, the alternate versions of \"Like Sonny\", had been recorded at the March 26, 1959 sessions that were not used for Giant Steps.\n\n\n== Track listing ==\n\n\n=== 2000 reissue bonus tracks ===\n\n\n== Personnel ==\n\n\n=== March 26, 1959 (\"Like Sonny\") ===\nJohn Coltrane – tenor saxophone\nCedar Walton – piano\nPaul Chambers – bass\nLex Humphries – drums\n\n\n=== November 24, 1959 & December 2, 1959 ===\nJohn Coltrane – tenor saxophone\nWynton Kelly – piano\nPaul Chambers – bass\nJimmy Cobb – drums\n\n\n=== October 21, 1960 (\"Village Blues\") ===\nJohn Coltrane – tenor saxophone\nMcCoy Tyner – piano\nSteve Davis – bass\nElvin Jones – drums\n\n\n=== Production ===\nNesuhi Ertegün – production\nTom Dowd, Phil Iehle – engineering\nLee Friedlander – photography\nEutemey – cover design\nZita Carno – liner notes\nPatrick Milligan – reissue supervision\nDan Hersch – digital remastering\nRachel Gutek – reissue design\nHugh Brown – reissue art direction\nNeil Tessler – reissue liner notes\nVanessa Atkins – reissue editorial supervision\nShawn Amos – reissue editorial coordination\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Coltrane Jazz",
+            "shortDescription": "1961 studio album by John Coltrane",
+            "extractHead": "Coltrane Jazz is a studio album by the jazz musician John Coltrane. It was released in early 1961 on Atlantic Records. Most of the album features Coltrane playing with his former Miles Davis bandmates, pianist Wynton Kelly, bassist Paul Chambers and drummer Jimmy Cobb during two sessions in November and December, 1959. The exception is the track \"Village Blues\", which was recorded October 21, 1960. \"Village Blues\" comes from the first recording session featuring Coltrane playing with pianist McC"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "far-east-suite-duke-ellington",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.85,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "year",
+          "ours": "2016",
+          "evidence": "1967",
+          "evidenceQuote": "\"date\": \"1967\"  /  releaseGroup firstReleaseDate \"1967\"",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 2016, Far East Suite showcases Duke Ellington at the height of their creative powers",
+          "problem": "Year wrong: MB release date and releaseGroup first release are both 1967 (RCA Victor LSP-3782); the album cannot have been recorded in 2016.",
+          "evidenceQuote": "\"date\": \"1967\" ... \"firstReleaseDate\": \"1967\"",
+          "source": "mb"
+        }
+      ],
+      "notes": "Entity confirmed (MB search sim 1.0; MB title 'The Far East Suite' = ours minus leading 'The'; all 6 keyTracks match). ours.year 2016 is unsupported by evidence (possibly a later vinyl reissue, but none is in the pack) and contradicts the 1967 release. Genre 'Swing' editorial."
+    },
+    "ours": {
+      "title": "Far East Suite",
+      "artist": "Duke Ellington",
+      "year": 2016,
+      "label": "Various",
+      "albumDNA": "Recorded in 2016, Far East Suite showcases Duke Ellington at the height of their creative powers, offering one of the finest expressions of Swing. Far East Suite remains a landmark of Swing, cementing Duke Ellington's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Tourist Point of View",
+        "Bluebird of Delhi (Mynah)",
+        "Isfahan",
+        "Depk",
+        "Mount Harissa",
+        "Blue Pepper (Far East of the Blues)"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "2a7d0078-25b9-41c8-b03b-263498a7ed75",
+          "title": "The Far East Suite",
+          "date": "1967",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Duke Ellington"
+          ],
+          "labels": [
+            {
+              "name": "RCA Victor",
+              "catalogNumber": "LSP-3782"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "c5176862-2fc7-4410-ba2b-46a6c440ede3",
+            "title": "The Far East Suite",
+            "firstReleaseDate": "1967",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Tourist Point of View",
+            "Bluebird of Delhi (Mynah)",
+            "Isfahan",
+            "Depk",
+            "Mount Harissa",
+            "Blue Pepper (Far East of the Blues)",
+            "Agra",
+            "Amad",
+            "Ad Lib on Nippon"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "ella-fitzgerald-sings-the-cole-porter-song-book-ella-fitzgerald",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.85,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "year",
+          "ours": "2014",
+          "evidence": "1956",
+          "evidenceQuote": "\"date\": \"1956\"  /  releaseGroup firstReleaseDate \"1956-09\"",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 2014, Ella Fitzgerald Sings the Cole Porter Song Book showcases Ella Fitzgerald at the height of their creative powers",
+          "problem": "Year wrong: MB release date 1956 and releaseGroup first release 1956-09 (Verve MG V-4001-2); the album cannot have been recorded in 2014.",
+          "evidenceQuote": "\"date\": \"1956\" ... \"firstReleaseDate\": \"1956-09\"",
+          "source": "mb"
+        }
+      ],
+      "notes": "Entity confirmed (MB search sim 1.0, exact title/artist, all 6 keyTracks match this 32-track set). ours.year 2014 is unsupported by evidence and contradicts the 1956 release. Genre 'Swing' editorial."
+    },
+    "ours": {
+      "title": "Ella Fitzgerald Sings the Cole Porter Song Book",
+      "artist": "Ella Fitzgerald",
+      "year": 2014,
+      "label": "Various",
+      "albumDNA": "Recorded in 2014, Ella Fitzgerald Sings the Cole Porter Song Book showcases Ella Fitzgerald at the height of their creative powers, offering one of the finest expressions of Swing. Ella Fitzgerald Sings the Cole Porter Song Book remains a landmark of Swing, cementing Ella Fitzgerald's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "All Through the Night",
+        "Anything Goes",
+        "Miss Otis Regrets (She’s Unable to Lunch Today)",
+        "Too Darn Hot",
+        "In the Still of the Night",
+        "I Get a Kick Out of You"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "617fe930-78f2-4b41-9e7d-db0a5f4f6023",
+          "title": "Ella Fitzgerald Sings the Cole Porter Song Book",
+          "date": "1956",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Ella Fitzgerald"
+          ],
+          "labels": [
+            {
+              "name": "Verve",
+              "catalogNumber": "MG V-4001-2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "dcc0d723-e27f-36e8-8438-dbbde7eb9a67",
+            "title": "Ella Fitzgerald Sings the Cole Porter Song Book",
+            "firstReleaseDate": "1956-09",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "All Through the Night",
+            "Anything Goes",
+            "Miss Otis Regrets (She’s Unable to Lunch Today)",
+            "Too Darn Hot",
+            "In the Still of the Night",
+            "I Get a Kick Out of You",
+            "Do I Love You?",
+            "I’m Always True to You in My Fashion",
+            "Let’s Do It (Let’s Fall in Love)",
+            "Just One of Those Things",
+            "Ev’ry Time We Say Goodbye",
+            "All of You",
+            "Begin the Beguine",
+            "Get Out of Town",
+            "I Am in Love",
+            "From This Moment On",
+            "I Love Paris",
+            "You Do Something to Me",
+            "Ridin’ High",
+            "Easy to Love",
+            "It’s All Right With Me",
+            "Why Can’t You Behave?",
+            "What Is This Thing Called Love?",
+            "You’re the Top",
+            "Love for Sale",
+            "It’s Delovely",
+            "Night and Day",
+            "Ace in the Hole",
+            "So in Love",
+            "I’ve Got You Under My Skin",
+            "I Concentrate on You",
+            "Don’t Fence Me In"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "the-hawk-flies-high-coleman-hawkins",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.8,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 2006, The Hawk Flies High showcases Coleman Hawkins at the height of their creative powers",
+          "problem": "Recording year wrong: releaseGroup first release is 1957, so the album cannot have been recorded in 2006. 2006 is the Mobile Fidelity Sound Lab SACD reissue (MB release date 2006, cat UDSACD 2030).",
+          "evidenceQuote": "\"firstReleaseDate\": \"1957\"",
+          "source": "mb"
+        }
+      ],
+      "notes": "Entity confirmed (MB embedded_mbid; all 6 keyTracks match — MB lists the 6 tracks twice, a hybrid-SACD layer duplication). ours.year 2006 is defensible as a reissue year (matches MB release date 2006); the albumDNA verb 'Recorded in 2006' is the error. Genre 'Swing' editorial."
+    },
+    "ours": {
+      "title": "The Hawk Flies High",
+      "artist": "Coleman Hawkins",
+      "year": 2006,
+      "label": "Various",
+      "albumDNA": "Recorded in 2006, The Hawk Flies High showcases Coleman Hawkins at the height of their creative powers, offering one of the finest expressions of Swing. The Hawk Flies High remains a landmark of Swing, cementing Coleman Hawkins's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Chant",
+        "Juicy Fruit",
+        "Think Deep",
+        "Laura",
+        "Blue Lights",
+        "Sancticity"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "a058288a-2301-4290-a9cd-126627221243",
+          "title": "The Hawk Flies High",
+          "date": "2006",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Coleman Hawkins"
+          ],
+          "labels": [
+            {
+              "name": "Mobile Fidelity Sound Lab",
+              "catalogNumber": "UDSACD 2030"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "f75664d4-47ce-31ac-8228-d3d1c2a027c0",
+            "title": "The Hawk Flies High",
+            "firstReleaseDate": "1957",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Chant",
+            "Juicy Fruit",
+            "Think Deep",
+            "Laura",
+            "Blue Lights",
+            "Sancticity",
+            "Chant",
+            "Juicy Fruit",
+            "Think Deep",
+            "Laura",
+            "Blue Lights",
+            "Sancticity"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "ben-webster-meets-oscar-peterson-ben-webster",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.8,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 2011, Ben Webster Meets Oscar Peterson showcases Ben Webster at the height of their creative powers",
+          "problem": "Recording year wrong: releaseGroup first release is 1959, so the album cannot have been recorded in 2011. 2011 is the Analogue Productions reissue (MB release date 2011, cat CVRJ 6114 SA).",
+          "evidenceQuote": "\"firstReleaseDate\": \"1959\"",
+          "source": "mb"
+        }
+      ],
+      "notes": "Entity confirmed (MB embedded_mbid; first 6 keyTracks match this 7-track album). ours.year 2011 is defensible as a reissue year (matches MB release date 2011); the albumDNA verb 'Recorded in 2011' is the error. Genre 'Swing' editorial."
+    },
+    "ours": {
+      "title": "Ben Webster Meets Oscar Peterson",
+      "artist": "Ben Webster",
+      "year": 2011,
+      "label": "Various",
+      "albumDNA": "Recorded in 2011, Ben Webster Meets Oscar Peterson showcases Ben Webster at the height of their creative powers, offering one of the finest expressions of Swing. Ben Webster Meets Oscar Peterson remains a landmark of Swing, cementing Ben Webster's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "The Touch of Your Lips",
+        "When Your Lover Has Gone",
+        "Bye Bye Blackbird",
+        "How Deep Is the Ocean (How High Is the Sky)",
+        "In the Wee Small Hours of the Morning",
+        "Sunday"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "5bd9cfcf-32e2-41a4-8905-5a6e89c197cd",
+          "title": "Ben Webster Meets Oscar Peterson",
+          "date": "2011",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Ben Webster"
+          ],
+          "labels": [
+            {
+              "name": "Analogue Productions",
+              "catalogNumber": "CVRJ 6114 SA"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "bef61a9c-6bd6-319f-9424-4305908985a3",
+            "title": "Ben Webster Meets Oscar Peterson",
+            "firstReleaseDate": "1959",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "The Touch of Your Lips",
+            "When Your Lover Has Gone",
+            "Bye Bye Blackbird",
+            "How Deep Is the Ocean (How High Is the Sky)",
+            "In the Wee Small Hours of the Morning",
+            "Sunday",
+            "This Can't Be Love"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "swing-de-paris-django-reinhardt",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.75,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "mismatch",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "keyTracks: \"I'm Confessin'\", \"Oh Lady Be Good\", \"Blue Drag\"",
+          "problem": "Three of the six listed keyTracks are not on the matched MB release: 'I'm Confessin'', 'Oh Lady Be Good', and 'Blue Drag' do not appear in this 40-track 'Swing de Paris' compilation (which does contain Dinah, Tiger Rag, and I Saw Stars).",
+          "evidenceQuote": "MB tracklist (40 tracks): Dinah [Akst] | Tiger Rag [La Rocca] | I Saw Stars [...] | ... | Honeysuckle Rose [Waller-Razaf] | ... (no 'I'm Confessin'', no 'Lady Be Good', no 'Blue Drag')",
+          "source": "mb"
+        }
+      ],
+      "notes": "Right entity (MB search sim 1.0; exact title 'Swing de Paris' / Django Reinhardt; 1995 Charly Records compilation). Three keyTracks match, three do not — our keyTracks were evidently drawn from a different/smaller Django 'Swing de Paris' issue than the 40-track compilation MB matched, so this is a tracklist mismatch, not an entity mismatch. ours.year null (no recording-year claim). Genre 'Swing' editorial. The three unmatched titles are plausibly genuine Django recordings on other compilations, but they are not on THIS release's tracklist."
+    },
+    "ours": {
+      "title": "Swing de Paris",
+      "artist": "Django Reinhardt",
+      "year": null,
+      "label": "Various",
+      "albumDNA": "Swing de Paris stands among Django Reinhardt's most celebrated works, capturing the essential spirit of Swing. Swing de Paris remains a landmark of Swing, cementing Django Reinhardt's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "I'm Confessin'",
+        "Dinah",
+        "Tiger Rag",
+        "Oh Lady Be Good",
+        "I Saw Stars",
+        "Blue Drag"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "1fc92df8-51f0-41bb-95c3-17c9c9ed5946",
+          "title": "Swing de Paris",
+          "date": "1995",
+          "country": "DE",
+          "status": "Official",
+          "artists": [
+            "Django Reinhardt"
+          ],
+          "labels": [
+            {
+              "name": "Charly Records",
+              "catalogNumber": "CD DIG 12"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "2bdacaf4-6159-392a-bb61-6c563762aa12",
+            "title": "Swing de Paris",
+            "firstReleaseDate": "1995",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Dinah [Akst]",
+            "Tiger Rag [La Rocca]",
+            "I Saw Stars [Sigler, Goodhart, Hoffman]",
+            "The Continental [Conrad, Magidson]",
+            "Avalon [Jolson, Rose]",
+            "Smoke Rings [Gifford]",
+            "I've Found a New Baby [Palmer, Williams]",
+            "Crazy Rhythm [Meyer, Kahn]",
+            "I've Had My Moments [Kahn, Donaldson]",
+            "Some of These Days [Shelton, Brooke]",
+            "Djangology [Reinhardt]",
+            "I'se a Muggin' [Smith]",
+            "Oriental Shuffle [Reinhardt]",
+            "After You've Gone [Creamer, Layton]",
+            "Limehouse Blues [Furber, Braham]",
+            "Nagasaki [Dixon, Warren]",
+            "Swing Guitars [Reinhardt, Grappelli]",
+            "Georgia on My Mind [Carmichael, Gorrell]",
+            "Shine [Mack, Brown, Dabney]",
+            "Sweet Chorus [Reinhardt, Grappelli]",
+            "Rose Room [Hickman, Williams]",
+            "Body and Soul [Green, Heyman, Sour]",
+            "Mystery Pacific [Reinhardt, Grappelli]",
+            "In a Sentimental Mood [Ellington, Mills, Kurtz]",
+            "Improvisation [Reinhardt]",
+            "Parfum [Reinhardt, Grappelli]",
+            "Alabamy Bound [Green, De Dylva, Henderson]",
+            "Minor Swing [Reinhardt, Grappelli]",
+            "Viper's Dream [Allen]",
+            "Crazy Rhythm [Ceasar, Meyer, Wolfe-Kahn]",
+            "Honeysuckle Rose [Waller-Razaf]",
+            "Out Of Nowhere [Heyman, Green]",
+            "Sweet Georgia Brown [Pinkard, Bernie, Casey]",
+            "Bugle Call Rag [Pettis, Schoebel, Meyers]",
+            "Between The Devil And The Deep Blue Sea [Arlen, Koehler]",
+            "I Got Rhythm [G. & I. Gershwin]",
+            "Sweet Sue, Just You [Harris, Young]",
+            "Hangin' Around Boudon [Wells]",
+            "Japanese Sandman [Egan, Whiting]",
+            "St. Louis Blues [Handy]"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "the-complete-billie-holiday-on-verve-billie-holiday",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.8,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Verve",
+          "evidenceQuote": "Verve (catalog 517 658-2)",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 1993, The Complete Billie Holiday on Verve",
+          "problem": "1993 is the compilation's release year, not when the music was recorded; this is a compilation of 1945-1959 recordings",
+          "evidenceQuote": "The Complete Billie Holiday on Verve 1945–1959",
+          "source": "mb"
+        }
+      ],
+      "notes": "Entity confirmed via embedded MBID: Billie Holiday, Verve, 1993-03-09, release-group secondaryType 'Compilation'. The MB title verbatim states the recording span 1945-1959, contradicting albumDNA 'Recorded in 1993'. All 6 keyTracks match the MB tracklist. Right entity; the only error is the anachronistic 'Recorded in' year on a compilation."
+    },
+    "ours": {
+      "title": "The Complete Billie Holiday on Verve",
+      "artist": "Billie Holiday",
+      "year": 1993,
+      "label": "Various",
+      "albumDNA": "Recorded in 1993, The Complete Billie Holiday on Verve showcases Billie Holiday at the height of their creative powers, offering one of the finest expressions of Swing. The Complete Billie Holiday on Verve remains a landmark of Swing, cementing Billie Holiday's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Body and Soul",
+        "Strange Fruit",
+        "I Cried for You",
+        "Fine and Mellow",
+        "He’s Funny That Way",
+        "The Man I Love"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "71b9f9da-4253-40f1-bfd6-7f764871a1a2",
+          "title": "The Complete Billie Holiday on Verve 1945–1959",
+          "date": "1993-03-09",
+          "country": "XE",
+          "status": "Official",
+          "artists": [
+            "Billie Holiday"
+          ],
+          "labels": [
+            {
+              "name": "Verve",
+              "catalogNumber": "517 658-2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "39b7338e-fc0f-308f-a873-0f569729fb70",
+            "title": "The Complete Billie Holiday on Verve 1945–1959",
+            "firstReleaseDate": "1993-03-09",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Body and Soul",
+            "Strange Fruit",
+            "I Cried for You",
+            "Fine and Mellow",
+            "He’s Funny That Way",
+            "The Man I Love",
+            "Gee Baby, Ain’t I Good to You",
+            "All of Me",
+            "Billie’s Blues (aka “I Love My Man”)",
+            "Travelin’ Light",
+            "He’s Funny That Way",
+            "Norman Granz Announcement",
+            "You Better Go Now",
+            "You’re Driving Me Crazy",
+            "There Is No Greater Love",
+            "I Cover the Waterfront",
+            "Norman Granz Announcement",
+            "East of the Sun (and West of the Moon)",
+            "Blue Moon",
+            "You Go to My Head",
+            "You Turn the Tables on Me",
+            "Easy to Love",
+            "These Foolish Things",
+            "I Only Have Eyes for You",
+            "Solitude",
+            "Everything I Have Is Yours",
+            "Love for Sale",
+            "Moonglow",
+            "Tenderly",
+            "If the Moon Turns Green",
+            "Remember",
+            "Autumn in New York (common take — LP)",
+            "Autumn in New York (rare take — 78)",
+            "My Man",
+            "Lover, Come Back to Me",
+            "Stormy Weather",
+            "Yesterdays",
+            "He’s Funny That Way",
+            "I Can’t Face the Music",
+            "MC and Leonard Feather Announcements"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "way-out-west-sonny-rollins",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.92,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Contemporary Records / Original Jazz Classics",
+          "evidenceQuote": "Contemporary Records (S-7530); Original Jazz Classics (OJC-337)",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 1988, Way Out West",
+          "problem": "1988 is the CD reissue year; the album was recorded and released in 1957",
+          "evidenceQuote": "Way Out West is a 1957 album by American saxophonist Sonny Rollins, with bassist Ray Brown and drummer Shelly Manne",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Entity confirmed (embedded MBID + matching Wikipedia). Wikipedia states the album is from 1957 and that 'When the album was reissued on CD in 1988 (and in subsequent years), some alternate takes were included' — 1988 is the reissue, contradicting albumDNA 'Recorded in 1988'. MB release-group firstReleaseDate is 1957. All 6 keyTracks match exactly. (Genre 'Bebop' is editorial categorization; not flagged.)"
+    },
+    "ours": {
+      "title": "Way Out West",
+      "artist": "Sonny Rollins",
+      "year": 1988,
+      "label": "Various",
+      "albumDNA": "Recorded in 1988, Way Out West showcases Sonny Rollins at the height of their creative powers, offering one of the finest expressions of Bebop. Way Out West remains a landmark of Bebop, cementing Sonny Rollins's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "I'm an Old Cowhand",
+        "Solitude",
+        "Come, Gone",
+        "Wagon Wheels",
+        "There Is No Greater Love",
+        "Way Out West"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "5b632a0a-b3c2-4de4-8b92-d18a9d9b69a7",
+          "title": "Way Out West",
+          "date": "1988",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Sonny Rollins"
+          ],
+          "labels": [
+            {
+              "name": "Original Jazz Classics",
+              "catalogNumber": "OJC-337"
+            },
+            {
+              "name": "Contemporary Records",
+              "catalogNumber": "S-7530"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "2e0a64d0-4788-3951-abac-7c42f53fca6f",
+            "title": "Way Out West",
+            "firstReleaseDate": "1957",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "I'm an Old Cowhand",
+            "Solitude",
+            "Come, Gone",
+            "Wagon Wheels",
+            "There Is No Greater Love",
+            "Way Out West"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Way Out West (Sonny Rollins album)",
+          "resolvedTitle": "Way Out West (Sonny Rollins album)",
+          "shortDescription": "1957 studio album by Sonny Rollins",
+          "extract": "Way Out West is a 1957 album by American saxophonist Sonny Rollins, with bassist Ray Brown and drummer Shelly Manne, neither of whom had previously played or recorded with Rollins. This was the first time Rollins recorded an album with only bass and drums, with no pianist or guitarist playing chords. The album is widely regarded as a high point in Rollins' discography.\nThe title has several meanings: Rollins was a native of New York on the eastern coast of the United States, while the album was recorded in the western part of the country in Los Angeles and with musicians associated with West Coast Jazz style. Additionally, Rollins recorded several songs best associated with country and western music, as his cowboy hat and gunslinger costume for the album's cover art implies. The cover photo was taken by celebrated jazz photographer William Claxton. Rollins stands amid a stretch of desert vegetation, dressed in a Stetson hat, gun belt, and empty holster, and holds his saxophone at waist level as if it were a pistol. The photo concept was Rollins' own idea to celebrate his first trip West.\nAccording to the liner notes by producer Lester Koenig, recording began at 3:00 a.m. to fit the musicians' busy schedules, but \"[a]t 7 a.m., after four hours of intense concentration, during which they recorded half the album, and should have been exhausted, Sonny said, 'I'm hot now.' Shelly who had been up for 24 hours, said, 'Man, I feel like playing.' And Ray, who was equally tired and had a studio call for the afternoon, just smiled.\"\nThe reissue of the album on CD has additional takes of three of the songs, including the title track. These additional takes are all about twice as long as those released on the original album, containing much longer solos from all three members of the band.\n\n\n== Reception ==\n\nIn his AllMusic review, Scott Yanow wrote: \"The timeless Way out West established Sonny Rollins as jazz's top tenor saxophonist (at least until John Coltrane surpassed him the following year). Joined by bassist Ray Brown and drummer Shelly Manne, Rollins is heard at one of his peaks.\"\n\n\n== Track listing ==\n\"I'm an Old Cowhand (From the Rio Grande)\" (Johnny Mercer) – 5:42\n\"Solitude\" (Duke Ellington) – 7:52\n\"Come, Gone\" (Sonny Rollins) – 7:53\n\"Wagon Wheels\" (Peter DeRose) – 10:11\n\"There Is No Greater Love\" (Isham Jones) – 5:17\n\"Way Out West\" (Rollins) – 6:30\n\n\n=== CD reissue ===\nWhen the album was reissued on CD in 1988 (and in subsequent years), some alternate takes were included.\n\n\"I'm an Old Cowhand\" (Mercer) – 5:40\n\"I'm an Old Cowhand\" [Alternate Take] – 10:06\n\"Solitude\" (Ellington) – 7:49\n\"Come, Gone\" (Rollins) – 7:50\n\"Come, Gone\" [Alternate Take] – 10:27\n\"Wagon Wheels\" (DeRose) – 10:09\n\"There Is No Greater Love\" (Jones) – 5:14\n\"Way Out West\" (Rollins) – 6:28\n\"Way Out West\" [Alternate Take] – 6:36\nThe 20-bit CD issue groups the alternate takes at the end.\n\n\n== Personnel ==\nSonny Rollins - tenor saxophone\nRay Brown - bass\nShelly Manne - drums\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Way Out West (Sonny Rollins album)",
+            "shortDescription": "1957 studio album by Sonny Rollins",
+            "extractHead": "Way Out West is a 1957 album by American saxophonist Sonny Rollins, with bassist Ray Brown and drummer Shelly Manne, neither of whom had previously played or recorded with Rollins. This was the first time Rollins recorded an album with only bass and drums, with no pianist or guitarist playing chords. The album is widely regarded as a high point in Rollins' discography.\nThe title has several meanings: Rollins was a native of New York on the eastern coast of the United States, while the album was "
+          },
+          {
+            "resolvedTitle": "Way Out West",
+            "shortDescription": "Topics referred to by the same term",
+            "extractHead": "Way Out West may refer to:\n\n\n== Film and television ==\nWay Out West (1937 film), starring Laurel and Hardy\nWay Out West (1930 film), a 1930 American comedy film\n\"Way Out West\" (Sliders), a television episode\n\n\n== Music ==\nWay Out West (duo), an English electronic music duo from Bristol\nWay Out West (jazz group), an Australian jazz group from Melbourne\nWay Out West (festival), a three-day music festival in Gothenburg, Sweden\n\n\n=== Albums ===\nWay Out West (Richard Davis album), 1980\nWay Out West ("
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "drums-unlimited-max-roach",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.9,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Atlantic",
+          "evidenceQuote": "Atlantic (1467)",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 2004, Drums Unlimited",
+          "problem": "the album dates to 1966, not 2004",
+          "evidenceQuote": "date: 1966; releaseGroup.firstReleaseDate: 1966",
+          "source": "mb"
+        }
+      ],
+      "notes": "MB search (similarity 1.0) resolves to 'Drums Unlimited' (Max Roach, Atlantic, 1966; studio album, no secondaryTypes). Both the release date and the release-group firstReleaseDate are 1966, contradicting albumDNA 'Recorded in 2004'. All 6 keyTracks match the MB tracklist exactly."
+    },
+    "ours": {
+      "title": "Drums Unlimited",
+      "artist": "Max Roach",
+      "year": 2004,
+      "label": "Various",
+      "albumDNA": "Recorded in 2004, Drums Unlimited showcases Max Roach at the height of their creative powers, offering one of the finest expressions of Bebop. Drums Unlimited remains a landmark of Bebop, cementing Max Roach's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "The Drum Also Waltzes",
+        "Nommo",
+        "Drums Unlimited",
+        "St. Louis Blues",
+        "For Big Sid",
+        "In the Red (A Xmas Carol)"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "5a30a988-4d77-4dc2-bfa0-b5217d557cd6",
+          "title": "Drums Unlimited",
+          "date": "1966",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Max Roach"
+          ],
+          "labels": [
+            {
+              "name": "Atlantic",
+              "catalogNumber": "1467"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "84cd00ad-e50d-3885-a865-868476463877",
+            "title": "Drums Unlimited",
+            "firstReleaseDate": "1966",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "The Drum Also Waltzes",
+            "Nommo",
+            "Drums Unlimited",
+            "St. Louis Blues",
+            "For Big Sid",
+            "In the Red (A Xmas Carol)"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "free-for-all-art-blakey",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.92,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Blue Note",
+          "evidenceQuote": "Blue Note",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 2012, Free for All",
+          "problem": "2012 is a reissue year; recorded February 1964, released July 1965",
+          "evidenceQuote": "Free for All is a studio album by Art Blakey and the Jazz Messengers, recorded on February 10, 1964, and released on Blue Note Records in July 1965.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Entity confirmed (embedded MBID; Wikipedia matches Art Blakey & the Jazz Messengers). MB release is a 2012 reissue but release-group firstReleaseDate is 1964; Wikipedia gives recording date Feb 10 1964 / release July 1965 — both contradict albumDNA 'Recorded in 2012'. All 4 keyTracks (Free for All, Hammer Head, The Core, Pensativa) match."
+    },
+    "ours": {
+      "title": "Free for All",
+      "artist": "Art Blakey",
+      "year": 2012,
+      "label": "Various",
+      "albumDNA": "Recorded in 2012, Free for All showcases Art Blakey at the height of their creative powers, offering one of the finest expressions of Bebop. Free for All remains a landmark of Bebop, cementing Art Blakey's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Free for All",
+        "Hammer Head",
+        "The Core",
+        "Pensativa"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "5f596081-e5c7-4354-ab92-913a4f207ded",
+          "title": "Free for All",
+          "date": "2012",
+          "country": "XW",
+          "status": "Official",
+          "artists": [
+            "Art Blakey & The Jazz Messengers"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": null
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "605de14e-dcca-3328-b16d-64cc62cecfe0",
+            "title": "Free for All",
+            "firstReleaseDate": "1964",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Free for All",
+            "Hammer Head",
+            "The Core",
+            "Pensativa"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Free for All (album)",
+          "resolvedTitle": "Free for All (album)",
+          "shortDescription": "1965 studio album by Art Blakey and the Jazz Messengers",
+          "extract": "Free for All is a studio album by Art Blakey and the Jazz Messengers, recorded on February 10, 1964, and released on Blue Note Records in July 1965. It was originally titled Free Fall.\nThe Allmusic review by Al Campbell awards the album 4 stars and states, \"This edition of the Jazz Messengers had been together since 1961 with a lineup that would be hard to beat: Freddie Hubbard on trumpet... Wayne Shorter on tenor sax, Curtis Fuller on trombone, Cedar Walton on piano, and Reggie Workman on bass. Shorter's title track is one of the finest moments in the Jazz Messengers' history.\"\n\n\n== Composition ==\nFreddie Hubbard's composition \"The Core\" is dedicated to the Congress of Racial Equality (CORE) and expresses \"Hubbard's admiration of that organization's persistence and resourcefulness in its work for total, meaningful equality.\" He explained: \"They're getting at the core, at the center of the kinds of change that have to take place before this society is really open to everyone. And more than any other group, CORE is getting to youth, and that's where the center of change is.\" Hubbard also felt that the band \"got at some of the core of jazz – the basic feelings and rhythms that are at the foundation of music\" on the track.\nClare Fischer's \"Pensativa\" was arranged by Hubbard for the occasion: \"I was playing a gig in Long Island and the pianist started playing it. The mood got me, this feeling of a pensive woman. And the melody was so beautiful that, after I'd gotten home, I couldn't get it out of my mind.\"\nThe album was intended to have featured Wayne Shorter's composition \"Eva\" and two tracks with vocals by Wellington Blakey, bandleader Art Blakey's cousin. These were attempted, but no valid takes were recorded. Additionally, the musicians tried a second take of \"Free for All\", an attempt that producer Alfred Lion had to stop because Blakey's drums broke. This alternate take, first released on the limited 2014 Japanese SHM-CD remaster of the album, is three minutes shorter.\n\n\n== Track listing ==\n\n\n=== Original vinyl ===\n\n\n=== 2014 Blue Note SHM-CD Remaster Edition (Japan Release) ===\n\n\n== Personnel ==\nArt Blakey – drums\nFreddie Hubbard – trumpet\nCurtis Fuller – trombone\nWayne Shorter – tenor saxophone\nCedar Walton – piano\nReggie Workman – double bass\n\n\n== Charts ==\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Free for All (album)",
+            "shortDescription": "1965 studio album by Art Blakey and the Jazz Messengers",
+            "extractHead": "Free for All is a studio album by Art Blakey and the Jazz Messengers, recorded on February 10, 1964, and released on Blue Note Records in July 1965. It was originally titled Free Fall.\nThe Allmusic review by Al Campbell awards the album 4 stars and states, \"This edition of the Jazz Messengers had been together since 1961 with a lineup that would be hard to beat: Freddie Hubbard on trumpet... Wayne Shorter on tenor sax, Curtis Fuller on trombone, Cedar Walton on piano, and Reggie Workman on bass."
+          },
+          {
+            "resolvedTitle": "Free for All",
+            "shortDescription": "Topics referred to by the same term",
+            "extractHead": "Free for All may refer to: \n\nFree for All (film), a 1949 American comedy film\n\"Free for All\" (The Prisoner), a 1967 episode of the British television series The Prisoner\nFree-for-All (Ted Nugent album), 1976, or the title track\nFree-for-All (Michael Penn album) 1989\nFree for All (TV series), an American animated series created by Brett Merhar\nFree For All link page, a search engine optimization technique\nDeathmatch (video games), a video game mode, sometimes referred to as \"free for all\"\nFree fo"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "dexter-calling-dexter-gordon",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.9,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Blue Note",
+          "evidenceQuote": "Blue Note (CDP 7 46544 2)",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 1987, Dexter Calling",
+          "problem": "1987 is the CD reissue year; the album was first released in 1961",
+          "evidenceQuote": "releaseGroup.firstReleaseDate: 1961-05-09",
+          "source": "mb"
+        }
+      ],
+      "notes": "Entity confirmed via embedded MBID: 'Dexter Calling…' (Dexter Gordon, Blue Note). The 1987 release is a CD reissue; release-group firstReleaseDate is 1961-05-09, contradicting albumDNA 'Recorded in 1987'. All 6 keyTracks match the MB tracklist (which also adds Smile, Landslide)."
+    },
+    "ours": {
+      "title": "Dexter Calling",
+      "artist": "Dexter Gordon",
+      "year": 1987,
+      "label": "Various",
+      "albumDNA": "Recorded in 1987, Dexter Calling showcases Dexter Gordon at the height of their creative powers, offering one of the finest expressions of Bebop. Dexter Calling remains a landmark of Bebop, cementing Dexter Gordon's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Soul Sister",
+        "Modal Mood",
+        "I Want More",
+        "End of a Love Affair",
+        "Clear the Dex",
+        "Ernie’s Tune"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "a344a268-c378-465a-a8f7-33512672f78c",
+          "title": "Dexter Calling…",
+          "date": "1987",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Dexter Gordon"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": "CDP 7 46544 2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "773727e9-dfaa-3d6b-95d2-d1ec05ab8566",
+            "title": "Dexter Calling…",
+            "firstReleaseDate": "1961-05-09",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Soul Sister",
+            "Modal Mood",
+            "I Want More",
+            "End of a Love Affair",
+            "Clear the Dex",
+            "Ernie’s Tune",
+            "Smile",
+            "Landslide"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "the-gigolo-lee-morgan",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.92,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Blue Note",
+          "evidenceQuote": "Blue Note (0946 3 37762 2 7)",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 2006, The Gigolo",
+          "problem": "2006 is a reissue year; the album was recorded in 1965 and released in 1968",
+          "evidenceQuote": "It was recorded on June 25 & July 1, 1965 and features performances by Morgan with a quintet featuring Wayne Shorter, Harold Mabern, Bob Cranshaw and Billy Higgins.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Entity confirmed (embedded MBID; Wikipedia matches Lee Morgan). MB release is a 2006 reissue; release-group firstReleaseDate is 1966; Wikipedia says recorded 1965, released 1968 — all contradict albumDNA 'Recorded in 2006'. All 6 keyTracks match exactly."
+    },
+    "ours": {
+      "title": "The Gigolo",
+      "artist": "Lee Morgan",
+      "year": 2006,
+      "label": "Various",
+      "albumDNA": "Recorded in 2006, The Gigolo showcases Lee Morgan at the height of their creative powers, offering one of the finest expressions of Bebop. The Gigolo remains a landmark of Bebop, cementing Lee Morgan's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Yes I Can, No You Can't",
+        "Trapped",
+        "Speedball",
+        "The Gigolo",
+        "You Go to My Head",
+        "The Gigolo (alternate take)"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "810aadc7-6c64-413c-ac57-57ec71c6a6e0",
+          "title": "The Gigolo",
+          "date": "2006",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Lee Morgan"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": "0946 3 37762 2 7"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "74788abb-0d74-3a08-a4d6-0443ff51e235",
+            "title": "The Gigolo",
+            "firstReleaseDate": "1966",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Yes I Can, No You Can't",
+            "Trapped",
+            "Speedball",
+            "The Gigolo",
+            "You Go to My Head",
+            "The Gigolo (alternate take)"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "The Gigolo (album)",
+          "resolvedTitle": "The Gigolo (album)",
+          "shortDescription": "1968 studio album by Lee Morgan",
+          "extract": "The Gigolo is an album by jazz trumpeter Lee Morgan released on the Blue Note label in 1968. It was recorded on June 25 & July 1, 1965 and features performances by Morgan with a quintet featuring Wayne Shorter, Harold Mabern, Bob Cranshaw and Billy Higgins.\n\n\n== Reception ==\nThe Allmusic review by Scott Yanow awarded the album 4½ stars stating \"There are no weak selections on this set and the playing by the leader, Wayne Shorter on tenor, pianist Harold Mabern, bassist Bob Cranshaw, and drummer Billy Higgins is beyond any serious criticism.\"\n\n\n== Track listing ==\nAll compositions by Lee Morgan except where noted\n\n\"Yes I Can, No You Can't\" – 7:26\n\"Trapped\" (Wayne Shorter) – 5:59\n\"Speedball\" – 5:32\n\"The Gigolo\" – 11:07\n\"You Go to My Head\" (J. Fred Coots, Haven Gillespie) – 7:22\n\"The Gigolo\" [Alternate Take] – 10:04 Bonus track on CD\nRecorded on June 25 (#2) and July 1 (all others), 1965.\n\n\n== Personnel ==\nLee Morgan – trumpet\nWayne Shorter – tenor saxophone\nHarold Mabern – piano\nBob Cranshaw – bass\nBilly Higgins – drums\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "The Gigolo (album)",
+            "shortDescription": "1968 studio album by Lee Morgan",
+            "extractHead": "The Gigolo is an album by jazz trumpeter Lee Morgan released on the Blue Note label in 1968. It was recorded on June 25 & July 1, 1965 and features performances by Morgan with a quintet featuring Wayne Shorter, Harold Mabern, Bob Cranshaw and Billy Higgins.\n\n\n== Reception ==\nThe Allmusic review by Scott Yanow awarded the album 4½ stars stating \"There are no weak selections on this set and the playing by the leader, Wayne Shorter on tenor, pianist Harold Mabern, bassist Bob Cranshaw, and drummer "
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "destination-out-jackie-mclean",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.9,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Blue Note",
+          "evidenceQuote": "Blue Note (BLP 4165)",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 2014, Destination... Out!",
+          "problem": "the album dates to October 1964, not 2014",
+          "evidenceQuote": "date: 1964-10; releaseGroup.firstReleaseDate: 1964-10",
+          "source": "mb"
+        }
+      ],
+      "notes": "MB search (similarity 1.0) resolves to 'Destination… Out!' (Jackie McLean, Blue Note, 1964-10; studio album). Both release date and release-group firstReleaseDate are 1964-10, contradicting albumDNA 'Recorded in 2014'. All 4 keyTracks (Love and Hate, Esoteric, Kahlil the Prophet, Riff Raff) match exactly."
+    },
+    "ours": {
+      "title": "Destination... Out!",
+      "artist": "Jackie McLean",
+      "year": 2014,
+      "label": "Various",
+      "albumDNA": "Recorded in 2014, Destination... Out! showcases Jackie McLean at the height of their creative powers, offering one of the finest expressions of Bebop. Destination... Out! remains a landmark of Bebop, cementing Jackie McLean's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Love and Hate",
+        "Esoteric",
+        "Kahlil the Prophet",
+        "Riff Raff"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "6b210f4d-3437-4188-9848-b23d2686f36c",
+          "title": "Destination… Out!",
+          "date": "1964-10",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Jackie McLean"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": "BLP 4165"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "07a5a1a8-6a14-39f6-ae74-5010f68c4635",
+            "title": "Destination… Out!",
+            "firstReleaseDate": "1964-10",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Love and Hate",
+            "Esoteric",
+            "Kahlil the Prophet",
+            "Riff Raff"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "savoy-sessions-charlie-parker",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.78,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Definitive Records",
+          "evidenceQuote": "Definitive Records (DRCD 11148)",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 2016, Savoy Sessions",
+          "problem": "this is a compilation of Charlie Parker's 1940s Savoy recordings; the matched compilation first released 2004, and ours-year 2016 matches neither the recordings nor the compilation",
+          "evidenceQuote": "title: Complete Savoy Sessions; releaseGroup.firstReleaseDate: 2004; secondaryTypes: Compilation",
+          "source": "mb"
+        }
+      ],
+      "notes": "MB search (similarity 1.0) resolves to 'Complete Savoy Sessions' (Charlie Parker, Definitive Records, 2004; secondaryType Compilation). The 6 keyTracks all match the MB tracklist under take-suffix tolerance (alternate take 1/2/master = take 1/2/3). The underlying Savoy material is 1940s; 'Recorded in 2016' is anachronistic and also mismatches the compilation's 2004 first-release date. ours title 'Savoy Sessions' vs MB 'Complete Savoy Sessions' is a near-variant of the same Savoy series."
+    },
+    "ours": {
+      "title": "Savoy Sessions",
+      "artist": "Charlie Parker",
+      "year": 2016,
+      "label": "Various",
+      "albumDNA": "Recorded in 2016, Savoy Sessions showcases Charlie Parker at the height of their creative powers, offering one of the finest expressions of Bebop. Savoy Sessions remains a landmark of Bebop, cementing Charlie Parker's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Tiny’s Tempo (alternate take 1)",
+        "Tiny’s Tempo (alternate take 2)",
+        "Tiny’s Tempo (master take)",
+        "I’ll Always Love You Just the Same (alternate take)",
+        "I’ll Always Love You Just the Same (master take)",
+        "Romance Without Finance (alternate take 1)"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "024604ff-91dc-43a1-802f-613b54508be5",
+          "title": "Complete Savoy Sessions",
+          "date": "2004",
+          "country": "ES",
+          "status": "Official",
+          "artists": [
+            "Charlie Parker"
+          ],
+          "labels": [
+            {
+              "name": "Definitive Records",
+              "catalogNumber": "DRCD 11148"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "da1205b9-1d3a-33de-a973-03e14e625af7",
+            "title": "Complete Savoy Sessions",
+            "firstReleaseDate": "2004",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Tiny's Tempo (take 1)",
+            "Tiny's Tempo (take 2)",
+            "Tiny's Tempo (take 3)",
+            "I'll Always Love You Just the Same (take 1)",
+            "I'll Always Love You Just the Same (take 2)",
+            "Romance Without Finance (take 1)",
+            "Romance Without Finance (take 2)",
+            "Romance Without Finance (take 3)",
+            "Romance Without Finance (take 4)",
+            "Romance Without Finance (take 5)",
+            "Red Cross (take 1)",
+            "Red Cross (take 2)",
+            "Warming Up a Riff",
+            "Billie's Bounce (take 1)",
+            "Billie's Bounce (take 2)",
+            "Billie's Bounce (take 3)",
+            "Billie's Bounce (take 4)",
+            "Billie's Bounce (take 5)",
+            "Now's the Time (take 1)",
+            "Now's the Time (take 2)",
+            "Now's the Time (take 3)",
+            "Now's the Time (take 4)",
+            "Thriving on a Riff (take 1)",
+            "Thriving on a Riff (take 2)",
+            "Thriving on a Riff (take 3)",
+            "Meandering",
+            "Koko",
+            "Koko",
+            "Donna Lee (take 1)",
+            "Donna Lee (take 2)",
+            "Donna Lee (take 3)",
+            "Donna Lee (take 4)",
+            "Donna Lee (take 5)",
+            "Chasin' the Bird (take 1)",
+            "Chasin' the Bird (take 2)",
+            "Chasin' the Bird (take 3)",
+            "Chasin' the Bird (take 4)",
+            "Cheryl (take 1)",
+            "Cheryl (take 2)",
+            "Buzzy (take 1)"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "it-could-happen-to-you-chet-baker",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.9,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Riverside",
+          "evidenceQuote": "Riverside (RLP-12-278)",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 2010, It Could Happen to You",
+          "problem": "2010 is the OJC CD reissue year; the album is from 1958",
+          "evidenceQuote": "In 2010, it was remastered and reissued on CD by Original Jazz Classics with two previously unissued takes.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Entity confirmed (MB similarity 1.0 + matching Wikipedia '(Chet Baker Sings) It Could Happen to You', 1958 studio album). Wikipedia states the 2010 date is a reissue, not the recording; MB firstReleaseDate is 1958 — contradicting albumDNA 'Recorded in 2010'. All 6 keyTracks match the MB tracklist."
+    },
+    "ours": {
+      "title": "It Could Happen to You",
+      "artist": "Chet Baker",
+      "year": 2010,
+      "label": "Various",
+      "albumDNA": "Recorded in 2010, It Could Happen to You showcases Chet Baker at the height of their creative powers, offering one of the finest expressions of Cool Jazz. It Could Happen to You remains a landmark of Cool Jazz, cementing Chet Baker's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Do It the Hard Way",
+        "I’m Old Fashioned",
+        "You’re Driving Me Crazy",
+        "It Could Happen to You",
+        "My Heart Stood Still",
+        "The More I See You"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "2e3c18a2-94fb-40ec-a0a4-12eec793dead",
+          "title": "It Could Happen to You: Chet Baker Sings",
+          "date": "1958",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Chet Baker"
+          ],
+          "labels": [
+            {
+              "name": "Riverside",
+              "catalogNumber": "RLP-12-278"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "e248d5fe-fd96-3f46-9075-3cc01ecccee2",
+            "title": "It Could Happen to You: Chet Baker Sings",
+            "firstReleaseDate": "1958",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Do It the Hard Way",
+            "I’m Old Fashioned",
+            "You’re Driving Me Crazy",
+            "It Could Happen to You",
+            "My Heart Stood Still",
+            "The More I See You",
+            "Everything Happens to Me",
+            "Dancing on the Ceiling",
+            "How Long Has This Been Going On?",
+            "Old Devil Moon"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "It could happen to you (album)",
+          "resolvedTitle": "(Chet Baker Sings) It Could Happen to You",
+          "shortDescription": "1958 studio album by Chet Baker",
+          "extract": "(Chet Baker Sings) It Could Happen to You is an album by jazz trumpeter and vocalist Chet Baker. It follows a formula similar to two other Baker albums, Chet Baker Sings (1954) and Chet Baker Sings and Plays with Bud Shank, Russ Freeman & Strings (recorded in 1955, released in 1964) in which he sings traditional pop standards in a jazzy fashion. Unlike the aforementioned records, on It Could Happen to You, on a few tracks, Baker plays no trumpet whatsoever, opting to scat in place of an instrumental solo.\nIn 2010, it was remastered and reissued on CD by Original Jazz Classics with two previously unissued takes.\n\n\n== Reception ==\n\nThe Allmusic review by Lindsay Planer awarded the album 4 stars and states:\n\nOne immediate distinction between these vocal sides and those recorded earlier in the decade for Pacific Jazz is the lissome quality of Baker's playing and, most notably, his increased capacity as a vocalist. The brilliant song selection certainly doesn't hurt either. This is an essential title in Chet Baker's 30-plus year canon\n\n\n== Track listing ==\n\n\n=== 1987 CD reissue bonus tracks ===\n\n\n=== 2010 CD reissue ===\n\"Do It the Hard Way\" – 3:03\n\"I'm Old Fashioned\" – 5:06\n\"You're Driving Me Crazy\" – 2:56\n\"It Could Happen to You\" – 2:53\n\"My Heart Stood Still\" – 3:28\n\"The More I See You\" – 3:06\n\"Everything Happens to Me\" – 5:05\n\"Dancing on the Ceiling\" – 3:09\n\"How Long Has This Been Going On?\" – 4:10\n\"Old Devil Moon\" – 2:58\n\"While My Lady Sleeps\" [Take 10] – 4:22\n\"You Make Me Feel So Young\" [Take 5] – 3:41\n\"The More I See You\" [Take 8] – 2:51\n\"Everything Happens to Me\" [Take 2] – 4:51\n\n\n== Personnel ==\nChet Baker – vocals, trumpet\nKenny Drew – piano\nGeorge Morrow (#1–2, 5, 7–8, 14), Sam Jones (#3–4, 6, 9–13) – bass\nPhilly Joe Jones (#1–2, 5–8, 10–14), Dannie Richmond (#3–4, 9) – drums\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "(Chet Baker Sings) It Could Happen to You",
+            "shortDescription": "1958 studio album by Chet Baker",
+            "extractHead": "(Chet Baker Sings) It Could Happen to You is an album by jazz trumpeter and vocalist Chet Baker. It follows a formula similar to two other Baker albums, Chet Baker Sings (1954) and Chet Baker Sings and Plays with Bud Shank, Russ Freeman & Strings (recorded in 1955, released in 1964) in which he sings traditional pop standards in a jazzy fashion. Unlike the aforementioned records, on It Could Happen to You, on a few tracks, Baker plays no trumpet whatsoever, opting to scat in place of an instrume"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "reunion-with-chet-baker-gerry-mulligan",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.85,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Pacific Jazz",
+          "evidenceQuote": "Pacific Jazz (UCCQ-9394)",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 2018, Reunion with Chet Baker",
+          "problem": "2018 is a Japanese CD reissue date; the album long predates it (MB first release 1988, and it is in fact a 1957 Gerry Mulligan Quartet date)",
+          "evidenceQuote": "releaseGroup.firstReleaseDate: 1988",
+          "source": "mb"
+        }
+      ],
+      "notes": "Entity confirmed via embedded MBID: 'Reunion With Chet Baker' (Gerry Mulligan Quartet, Pacific Jazz). The MB release is a 2018-10-17 Japan reissue; release-group firstReleaseDate is 1988, which already contradicts albumDNA 'Recorded in 2018' (the actual original is 1957, but that is not in the pack evidence). All 6 keyTracks match the MB tracklist exactly."
+    },
+    "ours": {
+      "title": "Reunion with Chet Baker",
+      "artist": "Gerry Mulligan",
+      "year": 2018,
+      "label": "Various",
+      "albumDNA": "Recorded in 2018, Reunion with Chet Baker showcases Gerry Mulligan at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Reunion with Chet Baker remains a landmark of Cool Jazz, cementing Gerry Mulligan's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Reunion",
+        "When Your Lover Has Gone",
+        "Stardust",
+        "My Heart Belongs to Daddy",
+        "Jersey Bounce",
+        "The Surrey With the Fringe on Top"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "1da66aea-4bac-4a4c-bca5-5d31db8a589a",
+          "title": "Reunion With Chet Baker",
+          "date": "2018-10-17",
+          "country": "JP",
+          "status": "Official",
+          "artists": [
+            "Gerry Mulligan Quartet"
+          ],
+          "labels": [
+            {
+              "name": "Pacific Jazz",
+              "catalogNumber": "UCCQ-9394"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "c54f0c72-7e5c-4cdf-956b-3528558ca932",
+            "title": "Reunion With Chet Baker",
+            "firstReleaseDate": "1988",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Reunion",
+            "When Your Lover Has Gone",
+            "Stardust",
+            "My Heart Belongs to Daddy",
+            "Jersey Bounce",
+            "The Surrey With the Fringe on Top",
+            "Trav'Lin' Light",
+            "Trav'Lin' Light (alternate take)",
+            "Ornithology",
+            "People Will Say We're in Love",
+            "The Song Is You",
+            "Gee Baby, Ain't I Good to You",
+            "Gee Baby, Ain't I Good to You (alternate take)",
+            "I Got Rhythm",
+            "All the Things You Are"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "smack-up-art-pepper",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.62,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "no_evidence",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 1991, Smack Up",
+          "problem": "1991 is a reissue year; Art Pepper's 'Smack Up' was first released October 1960",
+          "evidenceQuote": "firstReleaseDate: 1960-10-24",
+          "source": "mb"
+        }
+      ],
+      "notes": "MB has no confident release (similarity 0.71), but the single searchCandidate is unambiguously this album — 'Smack Up' by the Art Pepper Quintet, firstReleaseDate 1960-10-24. That date contradicts albumDNA 'Recorded in 1991'. Confidence moderated because the date comes from a search candidate (weak-tier evidence) rather than a confident/embedded release. No tracklist available, so the 6 keyTracks cannot be checked. label placeholder 'Various'."
+    },
+    "ours": {
+      "title": "Smack Up",
+      "artist": "Art Pepper",
+      "year": 1991,
+      "label": "Various",
+      "albumDNA": "Recorded in 1991, Smack Up showcases Art Pepper at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Smack Up remains a landmark of Cool Jazz, cementing Art Pepper's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Smack Up",
+        "Las Cuevas de Mario",
+        "A Bit of Basie",
+        "How Can You Lose",
+        "Maybe Next Year",
+        "Tears Inside"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 0.71,
+        "release": null,
+        "searchCandidates": [
+          {
+            "mbid": "1d8e1217-a994-3366-bb6c-ccfaddbf4541",
+            "title": "Smack Up",
+            "score": 100,
+            "artists": [
+              "Art Pepper Quintet"
+            ],
+            "firstReleaseDate": "1960-10-24",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          }
+        ]
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "motion-lee-konitz",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.9,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "label",
+          "ours": "Various",
+          "evidence": "Verve",
+          "evidenceQuote": "Verve (314 557 107-2)",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 1998, Motion",
+          "problem": "1998 is an expanded reissue; the album was recorded in 1961",
+          "evidenceQuote": "Motion is an album by jazz saxophonist Lee Konitz, recorded in 1961 for Verve Records.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Entity confirmed (embedded MBID + matching Wikipedia). Wikipedia: 'a 1998 release then expanded this to 38' tracks — 1998 is the expanded reissue, recording was 1961, contradicting albumDNA 'Recorded in 1998'. The MB release used here is the 1998 38-track expanded edition; all 6 keyTracks appear in that tracklist (the 5 original standards plus 'You Don't Know What Love Is')."
+    },
+    "ours": {
+      "title": "Motion",
+      "artist": "Lee Konitz",
+      "year": 1998,
+      "label": "Various",
+      "albumDNA": "Recorded in 1998, Motion showcases Lee Konitz at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Motion remains a landmark of Cool Jazz, cementing Lee Konitz's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "I Remember You",
+        "All Of Me",
+        "Foolin' Myself",
+        "You'd Be So Nice to Come Home To",
+        "I'll Remember April",
+        "You Don't Know What Love Is"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "4e5fcd7f-66af-45de-982a-0cc4b15aa6f6",
+          "title": "Motion",
+          "date": "1998",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Lee Konitz"
+          ],
+          "labels": [
+            {
+              "name": "Verve",
+              "catalogNumber": "314 557 107-2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "c0033e4f-db63-32e1-9602-2329247839d0",
+            "title": "Motion",
+            "firstReleaseDate": "1998",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "I Remember You",
+            "All Of Me",
+            "Foolin' Myself",
+            "You'd Be So Nice to Come Home To",
+            "I'll Remember April",
+            "You Don't Know What Love Is",
+            "These Foolish Things",
+            "Out Of Nowhere",
+            "It's You Or No One",
+            "I Remember You (rehearsal take)",
+            "I Remember You (rehearsal take)",
+            "I Remember You",
+            "I Remember You",
+            "I Remember You",
+            "You Don't Know What Love Is",
+            "It's Alright With Me",
+            "Foolin' Myself",
+            "Just Friends",
+            "It's You or No One",
+            "Out of Nowhere",
+            "My Melancholy Baby",
+            "Imagination",
+            "That Old Feeling",
+            "All the Things You Are",
+            "(Back Home Again In) Indiana",
+            "Alone Together",
+            "Embraceable You",
+            "I'm Gettin' Sentimental Over You",
+            "I'm Gettin' Sentimental Over You (v2)",
+            "Pennies From Heaven",
+            "I'll Remember April",
+            "There Will Never Be Another You",
+            "What's New?",
+            "Everything Happens To Me",
+            "Sweet and Lovely",
+            "You'd Be So Nice To Come Home To",
+            "Lullaby of the Leaves",
+            "I'm Gettin' Sentimental Over You (overdub)"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Motion (Lee Konitz album)",
+          "resolvedTitle": "Motion (Lee Konitz album)",
+          "shortDescription": "1961 studio album by Lee Konitz",
+          "extract": "Motion is an album by jazz saxophonist Lee Konitz, recorded in 1961 for Verve Records. It features drummer Elvin Jones and bassist Sonny Dallas. It is regarded by many as Konitz's finest album. The 1990 CD issue expanded the number of tracks from five to eight; a 1998 release then expanded this to 38, although most of the additional tracks were from different recording sessions with drummer Nick Stabulas instead of Elvin Jones.\n\n\n== Music ==\nThe album consists of performances of five standards, although \"the heads when they are stated at all are for the most part fragmentary and more alluded to than stated\". On the first track, \"I Remember You\", Dallas' bass lines provide the song's structure, while Konitz' phrasing, across bar lines and behind the beat, and Jones' drumming are subtly phrased. \"Foolin' Myself\" has some role-reversal, with Konitz providing harmonic support for Dallas' soloing.\n\n\n== Critical reception ==\n\nThe Penguin Guide to Jazz gives the album a four-star rating plus a special \"crown\" accolade and includes it as part of a selected \"Core Collection\", stating that it is \"one of the great modern jazz records\".\n\n\n== Track listing ==\n\"I Remember You\" (Victor Schertzinger, Johnny Mercer) – 4:30\n\"All of Me\" (Gerald Marks, Seymour Simons) – 7:41\n\"Foolin' Myself\" (Jack Lawrence, Peter Tinturin) – 7:01\n\"You'd Be So Nice to Come Home To\" (Cole Porter) – 10:45\n\"I'll Remember April\" (Gene DePaul, Patricia Johnston, Don Raye) – 8:01\n\n\n== Personnel ==\nLee Konitz – alto saxophone\nSonny Dallas – bass\nElvin Jones – drums\nTechnical\nPete Turner – photography\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Motion (Lee Konitz album)",
+            "shortDescription": "1961 studio album by Lee Konitz",
+            "extractHead": "Motion is an album by jazz saxophonist Lee Konitz, recorded in 1961 for Verve Records. It features drummer Elvin Jones and bassist Sonny Dallas. It is regarded by many as Konitz's finest album. The 1990 CD issue expanded the number of tracks from five to eight; a 1998 release then expanded this to 38, although most of the additional tracks were from different recording sessions with drummer Nick Stabulas instead of Elvin Jones.\n\n\n== Music ==\nThe album consists of performances of five standards, "
+          },
+          {
+            "resolvedTitle": "Motion (disambiguation)",
+            "shortDescription": "Topics referred to by the same term",
+            "extractHead": "Motion is a change in position of an object over time.\nMotion(s) or The Motion(s) may also refer to:\n\n\n== Law and government ==\nMotion (legal), a procedural device in law\nMotion (parliamentary procedure), a formal proposal by a member of a deliberative assembly\n\n\n== Mathematics, science and technology ==\nMotion (geometry), a type of transformation in various geometrical studies\nMotion graphics, animation or digital footage that creates the illusion of motion\nMotion (software), a motion graphics "
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "the-awakening-ahmad-jamal",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.9,
+      "entityMatch": {
+        "musicbrainz": "unsure",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Recorded in 1986, The Awakening",
+          "problem": "the album was recorded in 1970; 1986 matches neither recording nor original release",
+          "evidenceQuote": "The Awakening is an album by American jazz pianist Ahmad Jamal featuring trio performances with bassist Jamil Nasser and drummer Frank Gant recorded in 1970 for the Impulse! label.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "MB has no confident release (similarity 0.71) but the searchCandidate 'The Awakening' (The Ahmad Jamal Trio, 1970-07) and the entity-matched Wikipedia page both point to a 1970 Ahmad Jamal album. Wikipedia explicitly states 'recorded in 1970', contradicting albumDNA 'Recorded in 1986'. All 6 keyTracks (The Awakening, I Love Music, Patterns, Dolphin Dance, You're My Everything, Stolen Moments) match the Wikipedia track listing (which also lists 'Wave')."
+    },
+    "ours": {
+      "title": "The Awakening",
+      "artist": "Ahmad Jamal",
+      "year": 1986,
+      "label": "Various",
+      "albumDNA": "Recorded in 1986, The Awakening showcases Ahmad Jamal at the height of their creative powers, offering one of the finest expressions of Cool Jazz. The Awakening remains a landmark of Cool Jazz, cementing Ahmad Jamal's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "The Awakening",
+        "I Love Music",
+        "Patterns",
+        "Dolphin Dance",
+        "You’re My Everything",
+        "Stolen Moments"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 0.71,
+        "release": null,
+        "searchCandidates": [
+          {
+            "mbid": "b3b34cd9-0c9b-37dd-80a1-0f74e80f18fe",
+            "title": "The Awakening",
+            "score": 100,
+            "artists": [
+              "The Ahmad Jamal Trio"
+            ],
+            "firstReleaseDate": "1970-07",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          }
+        ]
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "The Awakening (Ahmad Jamal album)",
+          "resolvedTitle": "The Awakening (Ahmad Jamal album)",
+          "shortDescription": "1970 studio album by Ahmad Jamal",
+          "extract": "The Awakening is an album by American jazz pianist Ahmad Jamal featuring trio performances with bassist Jamil Nasser and drummer Frank Gant recorded in 1970 for the Impulse! label.\n\n\n== Background ==\nThe album was recorded at Plaza Sound Studios in New York City on February 2 and 3, 1970. It was produced by Ed Michel, whose production credits also include blues and jazz artists such as John Lee Hooker, B.B. King, John Coltrane, and Alice Coltrane.\nThe repertoire for the album consists of two originals—the title track and \"Patterns\"—and a new composition by Emil Boyd and Hale Smith titled \"I Love Music\", along with covers of three then fairly recent modern jazz compositions, Herbie Hancock's \"Dolphin Dance\" (1965), Oliver Nelson's \"Stolen Moments\" (1961), and Antonio Carlos Jobim's \"Wave\" (1967), as well as the 1931 Harry Warren standard \"You're My Everything\".\nThe liner notes are by jazz historian and producer Leonard Feather, who writes, \"Jamal is one of the most pianistic of pianists. He plays a nine foot Steinway grand in this album, and extracts from it sounds that reflect not only the majesty of the instrument but his love for it and the perennial dedication to it that has marked his distinguished career.\" Feather also notes that on the title track, Jamal \"plays one series of upward runs here that will leave most pianists gasping in disbelief—mixed, no doubt, with envy.\"\n\n\n== Critical reception ==\n\nThe AllMusic review by Scott Yanow stated, \"By 1970, pianist Ahmad Jamal's style had changed a bit since the 1950s, becoming denser and more adventurous while still retaining his musical identity. ... Intriguing performances showing that Ahmad Jamal was continuing to evolve.\"\nWriting in Pitchfork, Michael J. Agovino says that the album \"is a fine example of Jamal's stately—and understated—elegance punctuated with doodles of whimsy.\"\nDrummer Brian Blade selected the title track of The Awakening for his 1970 playlist (the year he was born), writing in JazzTimes that \"Jamal is an absolute master of space, groove, song structure, and interpretation. The balance of his brilliance is unparalleled, and at the fulcrum rests his total command of the instrument to execute whatever he might imagine and the sensitivity to know how that ability will best serve the journey.\"\nChuck Linatti, in an article for All About Jazz, writes that \"some people consider The Awakening to be Jamal's second great album [after At the Pershing: But Not for Me]. Although Jamal habitually deconstructed well-known songs and reconstructed them in unexpected ways, he seemed to take that technique to a new level on The Awakening.\"\n\n\n== Legacy ==\nRetrospectively, the album has had an influence in Hip hop music culture and production, with artists such as Nas and Common sampling tracks from the album for their work.\n\n\n== Track listing ==\n\"The Awakening\" (Ahmad Jamal) – 6:19\n\"I Love Music\" (Emil Boyd, Hale Smith) – 7:19\n\"Patterns\" (Ahmad Jamal) – 6:19\n\"Dolphin Dance\" (Herbie Hancock) – 5:05\n\"You're My Everything\" (Harry Warren, Joe Young, Mort Dixon) – 4:40\n\"Stolen Moments\" (Oliver Nelson) – 6:27\n\"Wave\" (Antônio Carlos Jobim) – 4:25\n\n\n== Personnel ==\nAhmad Jamal – piano\nJamil Nasser – bass\nFrank Gant – drums\n\n\n== Charts ==\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "The Awakening (Ahmad Jamal album)",
+            "shortDescription": "1970 studio album by Ahmad Jamal",
+            "extractHead": "The Awakening is an album by American jazz pianist Ahmad Jamal featuring trio performances with bassist Jamil Nasser and drummer Frank Gant recorded in 1970 for the Impulse! label.\n\n\n== Background ==\nThe album was recorded at Plaza Sound Studios in New York City on February 2 and 3, 1970. It was produced by Ed Michel, whose production credits also include blues and jazz artists such as John Lee Hooker, B.B. King, John Coltrane, and Alice Coltrane.\nThe repertoire for the album consists of two ori"
+          },
+          {
+            "resolvedTitle": "The Awakening",
+            "shortDescription": "Topics referred to by the same term",
+            "extractHead": "The Awakening may refer to:\n\n\n== Religion ==\nAwakening (Finnish religious movement), a Lutheran movement in Finland\nGreat Awakening, several periods of Anglo-American Christian revival\n\n\n== Film and television ==\n\n\n=== Film ===\nThe Awakening, a 1913 film starring Charlotte Burton\nThe Awakening (1917 film), an American silent film directed by George Archainbaud\nThe Awakening (1928 film), an American silent film directed by Victor Fleming\nThe Awakening (1954 film), an American television short fil"
+          }
+        ]
+      }
+    }
+  }
+]

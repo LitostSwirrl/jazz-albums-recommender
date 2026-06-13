@@ -1,0 +1,1775 @@
+[
+ {
+  "id": "life-of-the-party",
+  "kind": "album",
+  "ours": {
+   "title": "Life of the Party",
+   "artist": "Lage Lund",
+   "year": 2022,
+   "label": "Unknown",
+   "albumDNA": "Guitarist Lage Lund's 2022 album Life of the Party draws from the contemporary jazz tradition. Among the tracks are \"French Song\" and \"Life of the Party\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond.",
+   "keyTracks": [
+    "French Song",
+    "Life of the Party",
+    "Struggle Session",
+    "We'll Be Together Again",
+    "Melanchollie Willage"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "22909244-6387-421b-ba3e-5f9451d6edcb",
+     "title": "Life of the Party",
+     "date": "2022",
+     "country": null,
+     "status": "Official",
+     "artists": [
+      "Orlando Le Fleming",
+      "Will Vinson",
+      "Lage Lund"
+     ],
+     "labels": [],
+     "releaseGroup": {
+      "mbid": "0b24b950-603e-46ea-95bf-a341c26a5cb1",
+      "title": "Life of the Party",
+      "firstReleaseDate": "2022",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "French Song",
+      "Life of the Party",
+      "Struggle Session",
+      "We'll Be Together Again",
+      "Melanchollie Willage",
+      "Perfectly Out of Place",
+      "Wistful Thinking",
+      "Time On My Hands",
+      "End of a Love Affair"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Life of the Party (album)",
+     "resolvedTitle": "Life of the Party (album)",
+     "shortDescription": "1999 studio album by The Planet Smashers",
+     "extract": "Life of the Party is the third full-length release by the Planet Smashers, released in 1999.\n\n\n== Critical reception ==\nThe Gazette wrote: \"Their most polished album, Life of the Party returns to the slick songwriting style popularized by the likes of the English Beat in their short but prolific career.\"\n\n\n== Track listing ==\n\"Life of the Party\"  – 2:24\n\"Shame\"  – 2:40\n\"Too Much Attitude\"  – 2:48\n\"Swayed\"  – 3:04\n\"Surfin' in Tofino\"  – 2:31\n\"All Men Fear Women\"  – 2:45\n\"You Might Be...\"  – 2:18\n\"Trouble in Engineering\"  – 2:28\n\"Super Orgy Porno Party\"  – 2:35\n\"Wise Up\"  – 2:36\n\"Whining\"  – 2:46\n\"No Matter What You Say\"  – 4:03\n\"Kung Fu Master\"  – 2:58\n\"Holiday\"  – 2:40\n\"Save It\"  – 3:19\n\n\n== References =="
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Life of the Party (album)",
+      "shortDescription": "1999 studio album by The Planet Smashers",
+      "extractHead": "Life of the Party is the third full-length release by the Planet Smashers, released in 1999.\n\n\n== Critical reception ==\nThe Gazette wrote: \"Their most polished album, Life of the Party returns to the slick songwriting style popularized by the likes of the English Beat in their short but prolific career.\"\n\n\n== Track listing ==\n\"Life of the Party\"  – 2:24\n\"Shame\"  – 2:40\n\"Too Much Attitude\"  – 2:48\n\"Swayed\"  – 3:04\n\"Surfin' in Tofino\"  – 2:31\n\"All Men Fear Women\"  – 2:45\n\"You Might Be...\"  – 2:18\n"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "live-at-scholes-street-studio",
+  "kind": "album",
+  "ours": {
+   "title": "Live at Scholes Street Studio",
+   "artist": "Matthew Shipp",
+   "year": 2022,
+   "label": "gaucimusic",
+   "albumDNA": "Live at Scholes Street Studio is a contemporary jazz album by Matthew Shipp, released on gaucimusic in 2022. Among the tracks are \"Improvisation I\" and \"Improvisation II\".",
+   "keyTracks": [
+    "[untitled]",
+    "[untitled]"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "bcdb4d95-fc91-4b6f-9076-d44c65f8e578",
+     "title": "Live at Scholes Street Studio",
+     "date": "2022-11-04",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "Stephen Gauci",
+      "Matt Shipp",
+      "William Parker",
+      "Francisco Mela"
+     ],
+     "labels": [
+      {
+       "name": "gaucimusic",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "00af8749-0338-4776-81ed-628c8e8d66f8",
+      "title": "Live at Scholes Street Studio",
+      "firstReleaseDate": "2022-11-04",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Improvisation I",
+      "Improvisation II"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "live-in-paris-1971-lost-ortf-recordings",
+  "kind": "album",
+  "ours": {
+   "title": "Live in Paris (1971) - Lost ORTF Recordings",
+   "artist": "Ahmad Jamal",
+   "year": 2022,
+   "label": "Transversales Disques",
+   "albumDNA": "Live in Paris (1971) - Lost ORTF Recordings is a cool jazz album by Ahmad Jamal, released on Transversales Disques in 2022. Among the tracks are \"Bogota\" and \"Manhattan Reflections\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond.",
+   "keyTracks": [
+    "Bogota",
+    "Manhattan Reflections",
+    "Effendi"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "f89af0f1-a80c-42eb-aada-219378a738e1",
+     "title": "Live in Paris (1971) - Lost ORTF Recordings",
+     "date": "2022-10-14",
+     "country": "FR",
+     "status": null,
+     "artists": [
+      "Ahmad Jamal"
+     ],
+     "labels": [
+      {
+       "name": "Transversales Disques",
+       "catalogNumber": "TRS25"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "02e8bd0f-d6e7-4bd6-8440-3ea0b546d288",
+      "title": "Live in Paris (1971) - Lost ORTF Recordings",
+      "firstReleaseDate": "2022-10-14",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Bogota",
+      "Manhattan Reflections",
+      "Effendi"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "slow-down",
+  "kind": "album",
+  "ours": {
+   "title": "S’low Down",
+   "artist": "Victor Wooten",
+   "year": 2022,
+   "label": "Vix Records",
+   "albumDNA": "A free jazz outing from 2022, S’low Down features bassist Victor Wooten recording for Vix Records. The date includes \"Ready, Set, Slow\" and \"Home Bass\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond. He has been the bassist for Béla Fleck and the Flecktones since the group's formation in 1988 and a member of the band SMV with two other bassists, Stanley Clarke and Marcus Miller.",
+   "keyTracks": [
+    "Ready, Set, Slow",
+    "Home Bass",
+    "The Chrome Addict",
+    "Mess That Up",
+    "Ping Pong"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Victor_Wooten"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "48007008-0352-4f35-9443-09c2565d1725",
+     "title": "S’low Down",
+     "date": "2022-08-26",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Victor Wooten",
+      "Steve Bailey",
+      "Bass Extremes"
+     ],
+     "labels": [
+      {
+       "name": "Vix Records",
+       "catalogNumber": "VIX010"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "166eaf34-7e07-4659-bd02-99cc124235e9",
+      "title": "S’low Down",
+      "firstReleaseDate": "2022-08-26",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Ready, Set, Slow",
+      "Home Bass",
+      "The Chrome Addict",
+      "Mess That Up",
+      "Ping Pong",
+      "Oh-Tell Billy",
+      "Patchwork",
+      "Silent Night in Tunisia",
+      "Just-in Time",
+      "S’Low Down"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Victor_Wooten",
+    "page": {
+     "requestedTitle": "Victor Wooten",
+     "resolvedTitle": "Victor Wooten",
+     "shortDescription": "American bassist (born 1964)",
+     "extract": "Victor Lemonte Wooten (born September 11, 1964) is an American bassist, songwriter, and record producer. He has been the bassist for Béla Fleck and the Flecktones since the group's formation in 1988 and a member of the bass supergroup SMV (2008–2009) with two other bassists, Stanley Clarke and Marcus Miller. From 2017 to 2019, he recorded as the bassist for the metal band Nitro.\nHe owns Vix Records which releases his albums. He wrote the novel The Music Lesson: A Spiritual Search for Growth Through Music. He later released the book's sequel, The Spirit of Music: The Lesson Continues, on February 2, 2021.\nWooten is the recipient of five Grammy Awards. He won the Bass Player of the Year award from Bass Player magazine three times and is the first person to win the award more than once. In 2011, he was ranked No. 10 in the Top 10 Bassists of All Time by readers of Rolling Stone magazine.\nIn 2018–2019, Wooten was diagnosed with focal dystonia, a rare neurological condition, in his hands and upper body, which had been limiting his ability to play in previous years, but has since abated somewhat.\n\n\n== Early life and career ==\nBorn to Dorothy and Elijah Wooten, Victor is the youngest of the five Wooten brothers; Regi, Roy, Rudy, and Joseph Wooten are all musicians. Regi began to teach Victor to play bass when he was two, and by the age of six, he was performing with his brothers in their family band, the Wooten Brothers Band. As a United States Air Force family, they moved often when Wooten was young. The family settled in Newport News, Virginia, in 1972. Wooten graduated from Denbigh High School in 1982. While in high school, he and his brothers played in the country music venue at Busch Gardens theme park in Williamsburg, Virginia. In 1987, he traveled to Nashville, Tennessee, to visit friends that he made at the theme park. One of them was a studio engineer who introduced him to Béla Fleck, with whom he has often collaborated.\nIn 2000, Wooten created a music program called Bass/Nature camp that was expanded into Victor Wooten's Center for Music and Nature and includes all instruments. His camps are at Wooten Woods, a 147-acre retreat in Only, Tennessee, near Nashville. Wooten co-leads the \"Victor Wooten/Berklee Summer Bass Workshop\" at Berklee College of Music in Boston. At Berklee and his own camps, he collaborates with Berklee Bass Department chair Steve Bailey. The two bassists have been teaching together since the early 1990s.\nWooten was featured on the May/June 2014 cover of Making Music magazine to discuss the camps.\nHe has cited Larry Graham, Marcus Miller, Stanley Clarke, James Jamerson, Jaco Pastorius, Bootsy Collins, Paul McCartney, Chuck Rainey, John Entwistle, Ray Brown, and Ron Carter as significant influences on his bass playing.\n\n\n== Instruments ==\n\nWooten is most often seen playing Fodera basses, of which he has a signature model. His most famous Fodera, a 1983 Monarch Deluxe he refers to as \"number 1\" sports a Kahler Tremolo System model 2400 bridge. Fodera's \"Yin Yang\" basses (co-designed by and created for Wooten) incorporates the Yin Yang symbol—which Wooten uses in various media—as a focal point of the top's design and construction. The symbol is created from two pieces of naturally finished wood (Ebony and Holly, for example), fitted together to create the Yin-Yang pattern.\nAs well as playing electric bass (both fretted and fretless) and the double bass, he played cello in high school. He still plays cello occasionally with the Flecktones as well as having played the instrument in the 2012 Sword and Stone/Words and Tones tour.\n\n\n== Discography ==\n\n\n=== Solo albums ===\nA Show of Hands (Compass, 1996)\nWhat Did He Say? (Compass, 1997)\nYin-Yang (Compass, 1999)\nLive in America (Compass, 2001)\nSoul Circus (Vanguard, 2005)\nPalmystery (Heads Up, 2008)\nThe Music Lesson (Vix, 2011)\nWords & Tones (Vix, 2012)\nSword & Stone (Vix, 2012)\nTrypnotyx (Vix, 2017)\n\n\n=== As the Wootens ===\nThe Wootens, with the Wootens (Arista, 1985) \n\n\n=== As Bass Extremes – with Steve Bailey ===\nSource:\n\nCookbook (Tone Center, 1998)\nJust Add Water (Tone Center, 2001)\nS'Low Down (Vix, 2022)\n\n\n=== As Vital Tech Tones – with Scott Henderson and Steve Smith ===\nVital Tech Tones (Tone Center, 1998)\nVTT2 (Tone Center, 2000)\n\n\n=== As SMV – with Stanley Clarke and Marcus Miller ===\nThunder, as SMV (Heads Up, 2008)\n\n\n=== With Béla Fleck and the Flecktones ===\nBéla Fleck and the Flecktones (Warner Bros., 1990)\nFlight of the Cosmic Hippo (Warner"
+    }
+   }
+  }
+ },
+ {
+  "id": "the-chopin-project",
+  "kind": "album",
+  "ours": {
+   "title": "The Chopin Project",
+   "artist": "Kurt Rosenwinkel",
+   "year": 2022,
+   "label": "Heartcore Records",
+   "albumDNA": "Kurt Rosenwinkel's The Chopin Project, released on Heartcore Records in 2022, is a contemporary jazz recording. Standouts include \"Étude in E‐Flat Minor (Op. 10, No. 6)\" and \"Prélude in E‐Flat Minor (Op. 28, No. 14)\". A contemporary jazz recording from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond. Kurt Rosenwinkel adds a personal voice to the idiom.",
+   "keyTracks": [
+    "Étude in E‐Flat Minor (Op. 10, No. 6)",
+    "Prélude in E‐Flat Minor (Op. 28, No. 14)",
+    "’raindrop’ Prélude in D‐Flat Major (Op. 28, No. 15)",
+    "Valse in C‐Sharp Minor (Op. 64, No. 2)",
+    "Prélude in C Major (Op. 28, No. 1)"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Kurt_Rosenwinkel"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "92f2a59b-d8bd-44f9-8922-4c89eb38a32a",
+     "title": "The Chopin Project",
+     "date": "2022-04-22",
+     "country": "DZ",
+     "status": "Official",
+     "artists": [
+      "Kurt Rosenwinkel",
+      "Jean-Paul Brodbeck"
+     ],
+     "labels": [
+      {
+       "name": "Heartcore Records",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "34fe97d0-9e0b-440f-ab4b-1fe261fa51fd",
+      "title": "The Chopin Project",
+      "firstReleaseDate": "2022-04-22",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Étude in E‐Flat Minor (Op. 10, No. 6)",
+      "Prélude in E‐Flat Minor (Op. 28, No. 14)",
+      "’raindrop’ Prélude in D‐Flat Major (Op. 28, No. 15)",
+      "Valse in C‐Sharp Minor (Op. 64, No. 2)",
+      "Prélude in C Major (Op. 28, No. 1)",
+      "Nouvelle Étude in a‐Flat Major (No. 2)",
+      "Prélude in B Minor (Op. 28, No. 6)",
+      "Nocturne in C‐Sharp Minor (Op. 27, No. 1)",
+      "Prélude in a Minor (Op. 28, No. 2)",
+      "Prélude in E Major (Op. 28, No. 9)"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Kurt_Rosenwinkel",
+    "page": {
+     "requestedTitle": "Kurt Rosenwinkel",
+     "resolvedTitle": "Kurt Rosenwinkel",
+     "shortDescription": "American jazz musician and bandleader",
+     "extract": "Kurt Rosenwinkel (born October 28, 1970) is an American jazz guitarist, composer, bandleader, producer, educator, keyboardist and record label owner.\n\n\n== Biography ==\nBorn in Philadelphia to a musical family, Rosenwinkel began taking piano lessons when he was nine years old. When he was 12, he began studying jazz guitar. Rosenwinkel attended the Philadelphia High School for the Creative and Performing Arts alongside classmates including Christian McBride, Joey DeFrancesco, and future Roots drummer Ahmir “Questlove” Thompson. He studied at Berklee College of Music for two and a half years before leaving in his third year to tour with Gary Burton, the dean of the school at the time. After moving to Brooklyn, he began performing with Human Feel, Paul Motian's Electric Bebop Band, Joe Henderson, and the Brian Blade Fellowship.\nIn 1995 he won the Composer's Award from the National Endowment for the Arts and was signed by Verve. Since then, he has played and recorded as a leader and sideman with Mark Turner, Brad Mehldau, Joel Frahm, and Brian Blade. He collaborated with Q-Tip, who co-produced his studio album Heartcore that includes bassist Ben Street, drummer Jeff Ballard, and saxophonist Mark Turner. He played guitar on Q-Tip's albums The Renaissance and Kamaal/The Abstract.\n\nIn 2008 The Remedy was released, recorded with saxophonist Mark Turner, pianist Aaron Goldberg, bassist Joe Martin, and drummer Eric Harland. On November 10, 2009, he released a trio recording, Standards Trio: Reflections, with bassist Eric Revis and drummer Eric Harland. On September 7, 2010, he released Kurt Rosenwinkel & OJM: Our Secret World with OJM, an 18-piece big band from Porto, Portugal. His album Star of Jupiter was recorded with pianist Aaron Parks, bassist Eric Revis, and drummer Justin Faulkner. He is on the faculty at the Hochschule für Musik Hanns Eisler.\nIn 2016, Rosenwinkel formed the independent music label Heartcore Records and began producing as well as performing. He produced his eleventh album, Caipi (2017), and was a producer and guitarist on Brazilian multi-instrumentalist Pedro Martin's album Vox (2019).\nRosenwinkel's musical contributions have extended beyond jazz. He has been a member of the Crossroads Guitar Festival family since 2013, when he was invited by guitarist Eric Clapton to share the stage. Clapton appeared on Rosenwinkel's Caipi (2017), playing on the song “Little Dream”. Rosenwinkel played in a hip hop setting with Q-Tip on The Renaissance (2008) and Kamaal the Abstract (2009). He appeared on Late Night with Jimmy Fallon with The Roots, and collaborated with Domi and JD Beck.\n\n\n== Style ==\nRosenwinkel's influences include John Coltrane, Bud Powell, David Bowie, Joe Henderson, Charlie Parker, Keith Jarrett, Pat Metheny, Allan Holdsworth, Tal Farlow, George Van Eps, Bill Frisell, John Scofield, and Alex Lifeson.\nThe Jazz Book calls Rosenwinkel \"a visionary composer, with an infinitely sensitive way of layering electronic sounds, borrowed from ambient music, dub, and drum and bass, and manipulating them intelligently.\"\n\n\n== Equipment ==\nRosenwinkel has played a D'Angelico New Yorker, a Sadowsky semi-hollow body, a Gibson ES-335, guitars made by Italian luthier Domenico Moffa, a Yamaha SG, a Gibson SG, and a signature model made by Westville Guitars.\nRosenwinkel has used a variety of effects, including: Neunaber WET Stereo Reverb, Strymon Timeline, Strymon Mobius, Strymon Blue Sky Reverb, Strymon El Capistan dTape Echo, Digitech Vocalist, Thegigrig HumDinger, Rockett Allan Holdsworth, Empress ParaEQ, Pro Co RAT distortion, TC Electronic Nova Reverb, Lehle D. Loop Effect-loop/Switcher, Malekko Echo 600 Dark, Old World Audio 1960 Compressor, Electro-Harmonix HOG Polyphonic Guitar Synthesizer, Eventide TimeFactor Delay, Xotic X-Blender Effects Loops, Empress Tremolo, Lehle Parallel line mixer, TC Electronic SCF stereo chorus flanger, and Boss Corporation OC-3 octave, Strymon Riverside, Eventide H9, EHX Pog 2, Source Audio EQ, among others. He has also used a Lavalier lapel microphone fed into his guitar amplifier that blends his vocalizing with his guitar.\n\n\n== Discography ==\n\n\n=== As leader/co-leader ===\n\n\n=== As a member ===\nHuman Feel\nWith Chris Speed, Andrew D'Angelo and Jim Black\n\nScatter (GM, 1991)\nWelcome to Malpesta (New World, 1994)\nSpeak to It (Songlines, 1996)\nGalore (Skirl, 2007)\nGold (Intakt, 2019)\n\n\n=== As sideman ===\nWith Brian Blade\n\nPerceptual (Blue Note, 2000)\nSeason of Changes (Verve, 2008)\nMama"
+    }
+   }
+  }
+ },
+ {
+  "id": "bing-ella",
+  "kind": "album",
+  "ours": {
+   "title": "Bing & Ella",
+   "artist": "Ella Fitzgerald",
+   "year": 2023,
+   "label": "Primary Wave",
+   "albumDNA": "Composer player Ella Fitzgerald's 2023 album Bing & Ella draws from the swing tradition, released on Primary Wave. The program includes \"Basin Street Blues\", \"Istanbul (Not Constantinople)\", and \"Stay With the Happy People\". She was noted for her purity of tone, impeccable diction, phrasing, timing, intonation, absolute pitch, and a \"horn-like\" improvisational ability, particularly in her scat singing.",
+   "keyTracks": [
+    "Basin Street Blues",
+    "Istanbul (Not Constantinople)",
+    "Stay With the Happy People",
+    "Way Back Home",
+    "A Dreamer’s Holiday"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Ella_Fitzgerald"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "4056b614-47f3-4e58-a6c7-df8b6e5c5bd1",
+     "title": "Bing & Ella",
+     "date": "2023-04-25",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "Bing Crosby",
+      "Ella Fitzgerald"
+     ],
+     "labels": [
+      {
+       "name": "Primary Wave",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "1197996b-9b8b-4cc7-ac90-9c2d23181368",
+      "title": "Bing & Ella",
+      "firstReleaseDate": "2023-04-25",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Basin Street Blues",
+      "Istanbul (Not Constantinople)",
+      "Stay With the Happy People",
+      "Way Back Home",
+      "A Dreamer’s Holiday",
+      "Chicago Style",
+      "That’s A‐Plenty",
+      "Memphis Blues"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Ella_Fitzgerald",
+    "page": {
+     "requestedTitle": "Ella Fitzgerald",
+     "resolvedTitle": "Ella Fitzgerald",
+     "shortDescription": "American jazz singer (1917–1996)",
+     "extract": "Ella Jane Fitzgerald (April 25, 1917 – June 15, 1996) was an American improvisational vocal musician, singer, songwriter and composer, sometimes referred to as the \"First Lady of Song\", \"Queen of Jazz\", and \"Lady Ella\". She was noted for her purity of tone, impeccable diction, phrasing, timing, intonation, and a \"horn-like\" improvisational ability, particularly in her scat singing.\nAfter a tumultuous adolescence, Fitzgerald found stability in musical success with the Chick Webb Orchestra, performing across the country but most often associated with the Savoy Ballroom in Harlem. Her rendition of the nursery rhyme \"A-Tisket, A-Tasket\" helped boost both her and Webb to national fame. After taking over the band when Webb died in 1939, Fitzgerald left it behind in 1942 to start her solo career. Fitzgerald's manager was Moe Gale, co-founder of the Savoy, until she turned the rest of her career over to Norman Granz, who founded Verve Records to produce new records by Fitzgerald. With Verve, Fitzgerald recorded some of her more widely noted works, particularly her interpretations of the Great American Songbook.\nFitzgerald also appeared in films and as a guest on popular television shows in the second half of the twentieth century. Outside her solo career, Fitzgerald created music with Louis Armstrong, Duke Ellington, and The Ink Spots. These partnerships produced songs such as \"Dream a Little Dream of Me\", \"Cheek to Cheek\", \"Into Each Life Some Rain Must Fall\", and \"It Don't Mean a Thing (If It Ain't Got That Swing)\". In 1993, after a career of nearly 60 years, Fitzgerald gave her last public performance. Three years later, Fitzgerald died at age 79 after years of declining health. Her accolades included 14 Grammy Awards, the National Medal of Arts, the NAACP's inaugural President's Award, and the Presidential Medal of Freedom.\n\n\n== Early life and family ==\nElla Jane Fitzgerald was born on April 25, 1917, in Newport News, Virginia. She was the daughter of William Ashland Fitzgerald, a transfer wagon driver from Blackstone, Virginia, and Temperance Fitzgerald. Fitzgerald's parents were unmarried but lived together in the East End section of Newport News for at least two and a half years after she was born. In the early 1920s, Fitzgerald's mother and her new partner, a Portuguese immigrant named Joseph da Silva, moved to Yonkers, New York. Her half-sister, Frances da Silva, was born in 1923. By 1925, Fitzgerald and her family had moved to nearby School Street, a poor Italian area. Fitzgerald began her formal education at the age of six and was an outstanding student, moving through a variety of schools before attending Benjamin Franklin Junior High School in 1929.\nFitzgerald and her family were Methodists and were active in the Bethany African Methodist Episcopal Church, where she attended worship services, Bible study, and Sunday school. The church provided Fitzgerald with her earliest experiences in music. Starting in third grade, Fitzgerald loved dancing and admired Earl Snakehips Tucker. She performed for her peers on the way to school and at lunchtime.\nFitzgerald listened to jazz recordings by Louis Armstrong, Bing Crosby, and The Boswell Sisters. She loved the Boswell Sisters' lead singer Connee Boswell, later saying: \"My mother brought home one of her records, and I fell in love with it...I tried so hard to sound just like her.\"\nIn 1932, when Fitzgerald was 15 years old, her mother died from injuries sustained in a car accident. Fitzgerald's stepfather took care of Fitzgerald until April 1933 when she moved to Harlem to live with her aunt. This seemingly swift change in her circumstances, reinforced by what Fitzgerald biographer Stuart Nicholson describes as rumors of \"ill treatment\" by her stepfather, leaves him to speculate that da Silva might have abused her.\nFitzgerald began skipping school, and her grades suffered. Fitzgerald worked as a lookout at a bordello and with a Mafia-affiliated numbers runner. She never talked publicly about this time in her life. When the authorities caught up with Fitzgerald, she was placed in the Colored Orphan Asylum in Riverdale in The Bronx. When the orphanage proved too crowded, Fitzgerald was moved to the New York Training School for Girls, a state reformatory school in Hudson, New York.\n\n\n== Career ==\n\n\n=== Early career ===\n\nWhile Fitzgerald seems to have survived during 1933 and 1934 in part by singing on the streets of Harlem, she debuted at age 17 on November 21, 1934, in one o"
+    }
+   }
+  }
+ },
+ {
+  "id": "christmas-stories",
+  "kind": "album",
+  "ours": {
+   "title": "Christmas Stories",
+   "artist": "Christian Sands",
+   "year": 2023,
+   "label": "Mack Avenue Records",
+   "albumDNA": "Christmas Stories is an album by Christian Sands, released in 2023 on Mack Avenue Records. The record sits in the contemporary jazz tradition. Notable tracks include \"Jingle Bells\" and \"Let It Snow! Let It Snow! Let It Snow!\".",
+   "keyTracks": [
+    "Jingle Bells",
+    "Let It Snow! Let It Snow! Let It Snow!",
+    "Have Yourself a Merry Little Christmas",
+    "God Rest Ye Merry Gentlemen",
+    "Snow Dayz"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Christmas_in_popular_culture"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "f61575bd-ab8f-4c53-80b3-d87bd75818b9",
+     "title": "Christmas Stories",
+     "date": "2023-10-06",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Christian Sands"
+     ],
+     "labels": [
+      {
+       "name": "Mack Avenue Records",
+       "catalogNumber": "MAC1206"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "966075aa-a9bf-4235-a337-c143a0e4cce1",
+      "title": "Christmas Stories",
+      "firstReleaseDate": "2023-10-06",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Jingle Bells",
+      "Let It Snow! Let It Snow! Let It Snow!",
+      "Have Yourself a Merry Little Christmas",
+      "God Rest Ye Merry Gentlemen",
+      "Snow Dayz",
+      "Shoveling",
+      "Silent Night",
+      "A Christmas Hymn",
+      "The Gift",
+      "Last Christmas"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Christmas_in_popular_culture",
+    "page": {
+     "requestedTitle": "Christmas in popular culture",
+     "resolvedTitle": "Christmas in popular culture",
+     "shortDescription": "Christmas represented in different media",
+     "extract": "Christmas themes have long been an inspiration to artists and writers. A prominent aspect of Christian media, the topic first appeared in literature and in music. Filmmakers have picked up on this wealth of material, with both adaptations of Christmas novels, in the forms of Christmas films, Santa Claus films, and Christmas television specials.\nIt also includes animation, comics, and children's books, including A Charlie Brown Christmas, How the Grinch Stole Christmas!, and Frosty the Snowman.\n\n\n== Films ==\n\n \nMany Christmas stories have been adapted to movies and TV specials, and have been broadcast and repeated many times on TV. Since the popularization of home video in the 1980s, their many editions are sold and re-sold every year during the holiday shopping season. Notable examples are the many versions of the ballet The Nutcracker, the 1946 film It's a Wonderful Life, and the similarly themed versions of Dickens' A Christmas Carol, in which the elderly miser Ebenezer Scrooge is visited by ghosts and learns the errors of his ways. By contrast, the hero of the former, George Bailey, is a businessman who sacrificed his dreams to help his community. On Christmas Eve, a guardian angel finds him in despair and prevents him from committing suicide, by supernaturally showing him how much he meant to the world around him.\nA few films based on fictionalized versions of true stories have become Christmas specials themselves. The story behind the Christmas carol \"Silent Night\" and the story of \"Yes, Virginia, there is a Santa Claus\" are two examples.\nFilms revolving around the Nativity story of Christmas are regularly produced such as The Nativity Story (2006), The Star (2017), and A Charlie Brown Christmas (1965). Sometimes, family films and classics boasting special effects and/or uplifting messages, but having no real relation to Christmas, are telecast during the season as part of the holiday programming. The Wizard of Oz, for instance, was always telecast during the Christmas season between 1959 and 1962. The action film Die Hard is seen by some as a Christmas film, as it takes place on the holiday, and is often viewed during the season, although whether or not Die Hard should be considered a Christmas film has been debated due to its story not being about the holiday itself. Others in this category include Iron Man 3, Lethal Weapon, Batman Returns, Eyes Wide Shut, Female Trouble, Shazam!  and Doctor Zhivago.\nIn the United Kingdom, during the 2000s ITV usually showed a James Bond and/or a Harry Potter film(s) during the Christmas Holidays whilst the BBC showed the Chronicles of Narnia and/or High School Musical films. And for many years Channel 5 have shown American/Canadian made-for-TV Christmas films during the weeks before Christmas.\nIn North America, the holiday movie season often includes release of studios' most prestigious pictures, in an effort both to capture holiday crowds and to position themselves for Oscar consideration. Next to summer, this is the second-most lucrative season for the industry. In fact, a few films each year open on the actual Christmas Day holiday. Christmas movies generally open no later than Thanksgiving, as their themes are not so popular once the season is over. Likewise, the home video release of these films is typically delayed until the beginning of the next year's Christmas season.\nAmerican Christmas-themed films are also broadcast on the Hallmark Channel and its companion channel Hallmark Movies & Mysteries, which during the holiday season generally feature new films along with reruns of favorites from prior years.  Actresses Candace Cameron Bure, Lacey Chabert, and Danica McKellar, along with actor Niall Matter, are frequently featured in lead or major roles.  The films themselves generally feature a similar theme of a person who has \"lost the Christmas spirit\" and through \"Christmas magic\" regains it (commonly by a romantic encounter; frequently one of the two in the romance is a single parent or has lost someone special around a prior Christmas season).  Another theme plays on the \"big city-small town\" dynamic, whereby a lead character has either left a small hometown for the big city (and has had to return), or a big city person has to go to a small town, in either case deciding that the small town is where they should remain.  A main character will also have a Christmas-sounding name (such as \"Holly\") and/or the small town will (such as \"Christmas Valley\").\nThe settings are "
+    }
+   }
+  }
+ },
+ {
+  "id": "ellington-in-order-volume-4-1932",
+  "kind": "album",
+  "ours": {
+   "title": "Ellington In Order, Volume 4 (1932)",
+   "artist": "Duke Ellington",
+   "year": 2023,
+   "label": "Legacy",
+   "albumDNA": "Recorded in 2023 for Legacy, Ellington In Order, Volume 4 (1932) showcases Duke Ellington's piano work in the swing tradition. Among its key performances are 'Moon over Dixie' and 'It Don't Mean A Thing (If It Ain't Got That Swing)'.",
+   "keyTracks": [
+    "Moon over Dixie",
+    "It Don't Mean A Thing (If It Ain't Got That Swing)",
+    "Lazy Rhapsody (a/k/a Creole Rhapsody - Take B)",
+    "Lazy Rhapsody (a/k/a Creole Rhapsody - Take A)",
+    "Mood Indigo/Hot and Bothered/Creole Love Call (Take 3 - Mono)"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "58bbae61-4a92-4f28-a209-6ae948f7f596",
+     "title": "Ellington In Order, Volume 4 (1932)",
+     "date": "2023-09-15",
+     "country": null,
+     "status": "Official",
+     "artists": [
+      "Duke Ellington"
+     ],
+     "labels": [
+      {
+       "name": "Legacy",
+       "catalogNumber": "G010005111574O"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "1f74b467-4db3-4765-943b-9af8e4e19728",
+      "title": "Ellington In Order, Volume 4 (1932)",
+      "firstReleaseDate": "2023-09-15",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Moon over Dixie",
+      "It Don't Mean A Thing (If It Ain't Got That Swing)",
+      "Lazy Rhapsody (a/k/a Creole Rhapsody - Take B)",
+      "Lazy Rhapsody (a/k/a Creole Rhapsody - Take A)",
+      "Mood Indigo/Hot and Bothered/Creole Love Call (Take 3 - Mono)",
+      "Mood Indigo/Hot and Bothered/Creole Love Call (Take 1 - Mono)",
+      "Mood Indigo/Hot and Bothered/Creole Love Call (Take 2 - Mono)",
+      "Mood Indigo/Hot and Bothered/Creole Love Call (Stereo Mix)",
+      "Blue Tune (Take B)",
+      "Blue Tune (Take A)",
+      "Baby, When You Ain't There",
+      "East Saint Louis Toodle-o/Lot O' Fingers/Black and Tan Fantasy (Take 2 - Mono)",
+      "East Saint Louis Toodle-o/Lot O' Fingers/Black and Tan Fantasy (Take 1 - Mono)",
+      "East Saint Louis Toodle-o/Lot O' Fingers/Black and Tan Fantasy (Stereo Mix)",
+      "Dinah",
+      "Bugle Call Rag",
+      "St. Louis Blues (Take B)",
+      "St. Louis Blues (Take A)",
+      "Creole Love Call (Take B)",
+      "Creole Love Call (Take A)",
+      "Rose Room",
+      "Blue Harlem",
+      "The Sheik of Araby",
+      "Swampy River",
+      "Fast And Furious",
+      "Best Wishes (Take B)",
+      "Best Wishes (Take A)",
+      "Slippery Horn",
+      "Blue Ramble (Take B)",
+      "Blue Ramble (Take A)",
+      "Clouds In My Heart (Take B)",
+      "Clouds In My Heart (Take A)",
+      "Blue Mood (Take C)",
+      "Blue Mood (Take B)",
+      "Blue Mood (Take A)",
+      "Ducky Wucky (Take B)",
+      "Ducky Wucky (Take A)",
+      "Maori",
+      "Jazz Cocktail (Take B)",
+      "Jazz Cocktail (Take A)"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "lonnie-liston-smith-jid017",
+  "kind": "album",
+  "ours": {
+   "title": "Lonnie Liston Smith JID017",
+   "artist": "Lonnie Liston Smith",
+   "year": 2023,
+   "label": "Jazz Is Dead",
+   "albumDNA": "A 2023 Jazz Is Dead date, Lonnie Liston Smith JID017 finds Lonnie Liston Smith in a contemporary jazz setting. The date includes \"Love Brings Happiness\" and \"Dawn\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond. is an American jazz, soul, and funk musician who played with such jazz artists as Pharoah Sanders and Miles Davis before forming Lonnie Liston Smith and the Cosmic Echoes, recording a number of albums widely regarded as classics in the fusion, smooth.",
+   "keyTracks": [
+    "Love Brings Happiness",
+    "Dawn",
+    "Cosmic Changes",
+    "Gratitude",
+    "Love Can Be"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Lonnie_Liston_Smith"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "d7490962-5741-4588-a8e5-952a7abb9dc3",
+     "title": "Lonnie Liston Smith JID017",
+     "date": "2023-04-28",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Lonnie Liston Smith",
+      "Ali Shaheed Muhammad",
+      "Adrian Younge"
+     ],
+     "labels": [
+      {
+       "name": "Jazz Is Dead",
+       "catalogNumber": "17"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "8ed2a570-b8d6-4394-9869-0a4d8f2fbf62",
+      "title": "Lonnie Liston Smith JID017",
+      "firstReleaseDate": "2023-04-28",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Love Brings Happiness",
+      "Dawn",
+      "Cosmic Changes",
+      "Gratitude",
+      "Love Can Be",
+      "Fête",
+      "Kaleidoscope",
+      "What May Come",
+      "A New Spring"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Lonnie_Liston_Smith",
+    "page": {
+     "requestedTitle": "Lonnie Liston Smith",
+     "resolvedTitle": "Lonnie Liston Smith",
+     "shortDescription": "American jazz, soul, and funk musician (born 1940)",
+     "extract": "Lonnie Liston Smith Jr. (born December 28, 1940) is an American jazz, soul, and funk pianist and keyboardist who played with such jazz artists as Pharoah Sanders and Miles Davis before forming Lonnie Liston Smith and the Cosmic Echoes, recording a number of albums widely regarded as classics in the fusion, smooth jazz and acid jazz genres.\n\n\n== Career ==\n\n\n=== Early years (1963–73) ===\nSmith was born and raised in Richmond, Virginia, United States to a musical family; his father was a member of Richmond Gospel music group The Harmonizing Four, and he remembered groups such as the Swan Silvertones and the Soul Stirrers (featuring a young Sam Cooke) as regular visitors to the house when he was a child. He studied piano, tuba and trumpet in high school and college before receiving a B.S. in music education from Morgan State University in Baltimore in 1961. Smith has cited Charlie Parker, John Coltrane and Miles Davis as major influences in his youth. While still a teenager, Smith became well known locally as a backing vocalist as well as pianist in the Baltimore metropolitan area. During this period, he regularly performed with a number of his contemporaries, including Gary Bartz (alto), Grachan Moncur (trombone), and Mickey Bass (bass). He also backed a number of jazz singers (including Ethel Ennis) while performing in the house band at Baltimore's Royal Theater shortly after receiving his degree.\nIn 1963, he moved to New York City, where he initially played piano in Betty Carter's band for a year. Early in 1965, Smith began playing with Roland Kirk, first recording with his band on Here Comes The Whistleman (Atlantic, 1965), an album recorded live in New York on March 14, 1965. A further track from that gig, \"Dream\", appeared on Roland Kirk and Al Hibbler's live album A Meeting of the Times (Atlantic, 1972).\nLate in 1965, Smith joined Art Blakey's Jazz Messengers, sharing the piano position with Mike Nock and Keith Jarrett. The Jazz Messengers, together with Miles Davis' group, were one of the main proving grounds for young up-and-coming jazz musicians, experimentally edgy and musically stretching, and both were an ever-revolving door of young modern jazz musicians as modes and moods rapidly changed during a fresh period of experimentation. Beginning with a live session at The Five Spot, New York City, November 9, 1965, Smith's time as a Jazz Messenger was fairly short-term, only lasting until a three-gig engagement at The Village Vanguard 26–28 April 1966; by May 1966 his position was filled by Chick Corea. No recordings exist of this period.\nIn May 1967, Smith returned to working with Roland Kirk for the album sessions for Now Please Don't You Cry, Beautiful Edith (Verve, 1967) before continuing his career as pianist for a year with drummer Max Roach (although once again no recordings were made of this lineup).\nFollowing this stint, Smith moved to Pharoah Sanders' ensemble early in 1968, a group Sanders had set up on the death of John Coltrane the previous year. Fiercely improvisational, Sanders pushed the band creatively to the boundaries of free jazz, recording three of Sanders' finest recordings: Karma (Impulse, 1969), Jewels of Thought (Impulse, 1970) and Thembi (Impulse, 1971), together with 1969 recording sessions not released until 1973 as Izipho Zam (Strata East, 1973). It is at this point that Smith began experimenting with electric keyboards:\n\nOn Thembi, that was the first time that I ever touched a Fender Rhodes electric piano. We got to the studio in California — Cecil McBee had to unpack his bass, the drummer had to set up his drums, Pharoah had to unpack all of his horns. Everybody had something to do, but the piano was just sitting there waiting. I saw this instrument sitting in the corner and I asked the engineer, 'What is that?' He said, 'That's a Fender Rhodes electric piano.' I didn't have anything to do, so I started messing with it, checking some of the buttons to see what I could do with different sounds. All of a sudden I started writing a song and everybody ran over and said, 'What is that?' And I said, 'I don't know, I'm just messing around.' Pharoah said, 'Man, we gotta record that. Whatcha gonna call it?' I'd been studying astral projections and it sounded like we were floating through space so I said let's call it 'Astral Traveling.' That’s how I got introduced to the electric piano. During this period, Smith also backed Sanders vocalist Leon Thomas on his first album Spirits Known and Un"
+    }
+   }
+  }
+ },
+ {
+  "id": "our-daily-bread",
+  "kind": "album",
+  "ours": {
+   "title": "Our Daily Bread",
+   "artist": "Joe Lovano",
+   "year": 2023,
+   "label": "ECM",
+   "albumDNA": "Our Daily Bread is a studio album by the American band Trio Tapestry led by Joe Lovano. The album was released by ECM on 5 May 2023 to favorable critical reviews. This is the band's third release. The album contains eight original tracks written by Lovano.",
+   "keyTracks": [
+    "Our Daily Bread"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Our_Daily_Bread_(album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "30e7b579-5bc7-42d3-a7f9-1c3201783d70",
+     "title": "Our Daily Bread",
+     "date": "2023-05-05",
+     "country": "DE",
+     "status": "Official",
+     "artists": [
+      "Joe Lovano",
+      "Trio Tapestry",
+      "Marilyn Crispell",
+      "Carmen Castaldi"
+     ],
+     "labels": [
+      {
+       "name": "ECM Records",
+       "catalogNumber": "487 7746"
+      },
+      {
+       "name": "ECM Records",
+       "catalogNumber": "ECM 2777"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "09ba0118-3688-43af-9505-ade346e2bcf0",
+      "title": "Our Daily Bread",
+      "firstReleaseDate": "2023-05-05",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "All Twelve",
+      "Grace Notes",
+      "Le petit opportun",
+      "Our Daily Bread",
+      "One for Charlie",
+      "The Power of Three",
+      "Rhythm Spirit",
+      "Crystal Ball"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Our_Daily_Bread_(album)",
+    "page": {
+     "requestedTitle": "Our Daily Bread (album)",
+     "resolvedTitle": "Our Daily Bread (album)",
+     "shortDescription": "2023 studio album by Joe Lovano",
+     "extract": "Our Daily Bread is a studio album by the American band Trio Tapestry led by Joe Lovano. The album was released by ECM on 5 May 2023 to favorable critical reviews. This is the band's third release. The album contains eight original tracks written by Lovano.\n\n\n== Description ==\nMike Hobart of Financial Times noted, \"The ECM label’s emphasis on melody, shifting textures and gently unfolding moods occasionally slips into pleasant background noise. Although rhythms remain subdued on Our Daily Bread, having saxophonist Joe Lovano as lead voice means that emotions are made of sterner stuff. Add in thoughtful compositions and the subtle interplay of his established working band Trio Tapestry and this all-original set engages throughout.\"\nMike Jurkovic of All About Jazz wrote, \"Rising from a serene inner place, the music takes shape like prayer. That it is prayer that lies at the beating heart of all eight spacious spirituals that comprise Our Daily Bread, should come as no surprise.\"  John Shand of The Sydney Morning Herald added, \"Lovano is at his peak here. There’s no trace of the opaqueness or virtuosic glibness that could occasionally dilute his never-in-doubt mastery or creativity... This is an album to be treasured.\"\n\n\n== Track listing ==\n\n\n== Personnel ==\nTrio Tapestry\n\nJoe Lovano – tenor saxophone, tárogató, gong\nCarmen Castaldi – drums, gong, temple bells\nMarilyn Crispell – piano\nProduction\n\nStefano Amerio – engineer\nManfred Eicher – producer\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "our-daily-bread-crispell",
+  "kind": "album",
+  "ours": {
+   "title": "Our Daily Bread",
+   "artist": "Marilyn Crispell",
+   "year": 2023,
+   "label": "ECM",
+   "albumDNA": "Marilyn Crispell's Our Daily Bread, released on ECM in 2023, is a contemporary jazz recording. Among the tracks are \"All Twelve\" and \"Grace Notes\". ECM under Manfred Eicher cultivated 'the most beautiful sound next to silence,' favoring spacious, reverberant recordings. She is one of a very few pianists who rise to the challenge of free jazz.\" In addition to her own extensive work as a soloist or bandleader, Crispell is known as a longtime member of saxophonist Anthony Braxton's quartet in the 1980s and '90s.",
+   "keyTracks": [
+    "Our Daily Bread"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Marilyn_Crispell"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "30e7b579-5bc7-42d3-a7f9-1c3201783d70",
+     "title": "Our Daily Bread",
+     "date": "2023-05-05",
+     "country": "DE",
+     "status": "Official",
+     "artists": [
+      "Joe Lovano",
+      "Trio Tapestry",
+      "Marilyn Crispell",
+      "Carmen Castaldi"
+     ],
+     "labels": [
+      {
+       "name": "ECM Records",
+       "catalogNumber": "487 7746"
+      },
+      {
+       "name": "ECM Records",
+       "catalogNumber": "ECM 2777"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "09ba0118-3688-43af-9505-ade346e2bcf0",
+      "title": "Our Daily Bread",
+      "firstReleaseDate": "2023-05-05",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "All Twelve",
+      "Grace Notes",
+      "Le petit opportun",
+      "Our Daily Bread",
+      "One for Charlie",
+      "The Power of Three",
+      "Rhythm Spirit",
+      "Crystal Ball"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Marilyn_Crispell",
+    "page": {
+     "requestedTitle": "Marilyn Crispell",
+     "resolvedTitle": "Marilyn Crispell",
+     "shortDescription": "American jazz pianist and composer",
+     "extract": "Marilyn Crispell (born March 30, 1947) is an American jazz pianist and composer. Scott Yanow described her as \"a powerful player... who has her own way of using space... She is near the top of her field.\" Jon Pareles of The New York Times wrote: \"Hearing Marilyn Crispell play solo piano is like monitoring an active volcano... She is one of a very few pianists who rise to the challenge of free jazz.\" In addition to her own extensive work as a soloist or bandleader, Crispell is known as a longtime member of saxophonist Anthony Braxton's quartet in the 1980s and '90s.\n\n\n== Biography ==\nCrispell was born in Philadelphia and, at the age of ten, moved to Baltimore, where she attended Western High School. She studied classical piano at the Peabody Conservatory beginning at age seven, and also began improvising at an early age, thanks to a teacher who required all her students to improvise regardless of their skill level. She later attended the New England Conservatory of Music, where she studied piano and composition, graduating in 1968. Crispell was not interested in jazz until 1975, when, while living on Cape Cod, she heard John Coltrane's A Love Supreme for the first time. She recalls: \"The emotional and spiritual quality of it overpowered me... I can honestly say it's possibly the most overpowering experience I've ever had in my life. That one night of listening to A Love Supreme over and over and over just completely changed my life.\"\nCrispell soon returned to Boston, where she studied jazz privately with Charlie Banacos for two years. According to Crispell, \"I had to, like, really go from scratch. I had to do everything in twelve keys. I had to write out seven solos in every key on every piece. I had to listen to tons of stuff and transcribe it to be able to hear and understand what was happening, you know, within the confines of these time cycles and chord changes. How were people using the chords and the notes and the chords and the scales? Where did they go outside of them?\" \nWhile in Boston, she met saxophonist Charlie Mariano, who suggested she consider attending sessions at the Creative Music Studio in Woodstock, NY, founded by Karl Berger, Ingrid Sertso, and Ornette Coleman. In 1977, she visited the studio for a summer, and came into contact with musicians such as Cecil Taylor, Don Cherry, Roscoe Mitchell, Wadada Leo Smith, Anthony Davis, and Oliver Lake. Regarding her first encounter with Taylor, she recalled: \"I remember the day I first met Cecil Taylor... He was playing pool, and there was a piano behind the pool room. So I sat at the piano and gave him an impromptu concert, hoping he'd listen. When I was finished he kissed my hand, and said, 'This lady can play!' I'm still flattered to hear my name mentioned in the same breath.\" (During this time, people frequently referred to her as \"the female Cecil Taylor\" due to her fiery approach to the piano and her tendency to play \"lots of notes, all of the time. Continuously, without much of a break.\") Regarding her time at the Creative Music Studio, she stated: \"It was and is a unique place in the world for the kind of music that we do... If it had taken place in New York City I don't think the feeling would have been the same. Here you were living and eating and hanging out with the guiding artists in this country motel setting. People would be up all night making bonfires and playing outside on the lawn with musicians from all over the world. It was a very important human experience and I met many of the people I ended up playing with.\" Upon completion of the session, Crispell quickly moved to Woodstock and has resided there ever since.\nWhile at the Creative Music Studio, Crispell also met Anthony Braxton, who invited her to sit in with his group. She recalls: \"At our first gig Anthony placed a beer in my hand and said, 'Relax, don't play so many notes.' I was playing like a thousand notes a minute, and he was the first person to make me think of space and breath and phrasing, as opposed to a constant barrage.\" She was soon invited to join Braxton's Creative Music Orchestra and his quartet, of which she was a member from 1983 to 1995, and which also featured bassist Mark Dresser, and drummer Gerry Hemingway. During this time, she made roughly a dozen recordings with Braxton, and also began releasing recordings under her own name. Regarding her tenure with the group, she stated: \"[I]t was like a family. Playing with Anthony really taught me a lot about space, the"
+    }
+   }
+  }
+ },
+ {
+  "id": "pdron-rubalcaba",
+  "kind": "album",
+  "ours": {
+   "title": "Pédron Rubalcaba",
+   "artist": "Gonzalo Rubalcaba",
+   "year": 2023,
+   "label": "GAZEBO",
+   "albumDNA": "Pedrón/Rubalcaba is a collaborative album by Cuban pianist Gonzalo Rubalcaba and guitarist Jorge Pedrón. The duo combines Rubalcaba's virtuosic post-bop pianism with Pedrón's guitar work in an intimate chamber setting, drawing on Latin jazz, contemporary jazz, and classical influences. This GAZEBO date features \"The Song Is You\" as part of Gonzalo Rubalcaba's contemporary jazz output from 2023.",
+   "keyTracks": [
+    "The Song Is You",
+    "Ezz-Thetic",
+    "Lawns",
+    "Si Tu Vois Ma Mère",
+    "Dreamsville"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Gonzalo_Rubalcaba"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "d950b510-025b-4943-981d-cef3af15cddc",
+     "title": "Pédron Rubalcaba",
+     "date": "2023-06-09",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "Pierrick Pédron",
+      "Gonzalo Rubalcaba"
+     ],
+     "labels": [
+      {
+       "name": "GAZEBO",
+       "catalogNumber": "GAZ 217"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "20b2208e-22b8-490e-b84d-0f3c06b66bcb",
+      "title": "Pédron Rubalcaba",
+      "firstReleaseDate": "2023-06-09",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "The Song Is You",
+      "Ezz-Thetic",
+      "Lawns",
+      "Si Tu Vois Ma Mère",
+      "Dreamsville",
+      "Five Will Get You Ten",
+      "The Folks Who Live On The Hill",
+      "Pretty Girl"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Gonzalo_Rubalcaba",
+    "page": {
+     "requestedTitle": "Gonzalo Rubalcaba",
+     "resolvedTitle": "Gonzalo Rubalcaba",
+     "shortDescription": "Afro-Cuban jazz pianist and composer",
+     "extract": "Gonzalo Rubalcaba (born May 27, 1963) is a Cuban jazz pianist and composer. \n\n\n== Early life ==\nRubalcaba was born Gonzalo Julio González Fonseca in Havana, Cuba into a musical family. He adopted his great-grandmother's name for professional use, just as did his father, Guillermo Rubalcaba (born Guillermo González Camejo) and his grandfather, Jacobo Rubalcaba (born Jacobo González Rubalcaba).\n\n\n== Later life and career ==\nWith Orquesta Aragón, Rubalcaba toured France and Africa in 1983. He formed his own Grupo Projecto in 1985. \nHe has won three Grammy Awards and received twelve nominations. \n\n\n== Discography ==\n\n\n=== As leader/co-leader ===\nMi Gran Pasion (Connector/Timba, 1987)\nLive in Havana (Pimienta, 1989)\nGiraldilla (Pimienta, 1990)\nDiscovery: Live at Montreux (Blue Note, 1990)\nGonzalo Rubalcaba Trio at Montreux (Somethin' Else, 1990)\nThe Blessing (Blue Note, 1991)\nImages (Blue Note, 1992)\nAt Montreux (Artex, 1993)\nSuite 4 Y 20 (Blue Note, 1993)\nDiz (Blue Note, 1993)\nRapsodia (Blue Note, 1994)\nImagine: Live in America (Blue Note, 1994)\nConcatenacion (Egrem, 1995)\nConcierto Negro (Egrem, 1995)\nFlying Colors (Blue Note, 1997)\nRomantic (EMI, 1998)\nGonzalo Rubalcaba (Max, 1998)\nAntiguo (Blue Note, 1998)\nInner Voyage (Blue Note/EMI, 1999)\nInicio (Egrem, 2001)\nSupernova  (Blue Note, 2001)\nStraight Ahead (Yemaya, 2003)\nSoneros de Verdad Present Rubalcaba Pasado y Presente (Universal Music Latino/Pimienta, 2003)\nPaseo (Blue Note, 2004)\nThe Trio (Angel, 2005)\nSolo  (Blue Note, 2005)\nAvatar (Angel, 2008)\nFaith (5Passion, 2010)\nXXI Century (5Passion, 2011)\nLive Faith (5Passion, 2014)\nSuite Caminos (5Passion, 2015)\nTokyo Adagio with Charlie Haden (Impulse!, 2015) - Recorded in 2005\nCharlie (5Passion, 2015)\nSkyline with Ron Carter, Jack DeJohnette (5Passion, 2021)\nPédron Rubalcaba with Pierrick Pédron (mars 2023)\nBorrowed Roses (Top Stop, 2023)\nA Tribute to Benny Moré and Nat King Cole with Yainer Horta, Joey Calveiro  (Calveiro Entertainment, 2025)\n\n\n=== As sideman ===\nWith Ignacio Berroa\n\nCodes (Blue Note, 2006)\nWith Ron Carter\n\nMr. Bow-tie (Somethin' Else, 1995)\nWith Juan Luis Guerra\n\nBachata Rosa (Karen, 1990)\nWith Francisco Céspedes\n\nCon el Permiso de Bola (Warner Music Mexico, 2006)\nWith Chick Corea\n\nRendezvous in New York (Stretch, 2003)\nWith Dave Holland\n\nThe Monterey Quartet: Live at the 2007 Monterey Jazz Festival (Monterey Jazz Festival, 2009)\nWith Al Di Meola\n\nPursuit of Radical Rhapsody (Concord, 2011)\nFlesh on Flesh (Telarc, 2022)\nWith Richard Galliano\n\nLove Day (Milan, 2008)\nWith Charlie Haden\n\n1989: The Montreal Tapes: with Gonzalo Rubalcaba and Paul Motian (Verve, 1997)\n2000: Nocturne (Verve, 2001)\n2003: Land of the Sun (Verve, 2004)\n2005: Tokyo Adagio (Impulse!, 2015) – live at The Blue Note, Tokyo, Japan\nWith Katia Labèque\n\nShape of My Heart (KML, 2009)\nWith Tony Martinez\n\nHabana Vive\nMafarefun\nWith Pat Martino\n\nThink Tank\nWith Strat Andriotis \n\nNight Manager (2018) Song 21\nWith Melissa Aldana \n\nFilin (Blue Note, 2026)\n\n\n== Awards ==\n\n\n=== Grammy Awards ===\n\n\n=== Billboard Music Awards ===\n\n\n=== Latin Grammy Awards ===\n\n\n== References ==\n\n\n== External links ==\nOfficial website"
+    }
+   }
+  }
+ },
+ {
+  "id": "refract",
+  "kind": "album",
+  "ours": {
+   "title": "Refract",
+   "artist": "Jason Moran",
+   "year": 2023,
+   "label": "Red Hook Records",
+   "albumDNA": "A contemporary jazz outing from 2023, Refract features pianist Jason Moran recording for Red Hook Records. The set features \"Onset I\", \"Onset II\", and \"Tape Loop A\" among its selections. The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond. Features \"Onset I\" and \"Onset II\" in a contemporary jazz context, highlighting Jason Moran's interpretive range.",
+   "keyTracks": [
+    "Onset I",
+    "Onset II",
+    "Tape Loop A",
+    "Affectionate, Painful",
+    "Inward, Curve"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Jason_Moran_(musician)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "d49cb678-59dc-4d5c-9963-7068fbad9126",
+     "title": "Refract",
+     "date": "2023-09-01",
+     "country": null,
+     "status": "Official",
+     "artists": [
+      "Jason Moran",
+      "Marcus Gilmore",
+      "BlankFor.ms"
+     ],
+     "labels": [
+      {
+       "name": "Red Hook Records",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "10b5d14d-09be-42f6-b03a-dcaeaab39176",
+      "title": "Refract",
+      "firstReleaseDate": "2023-09-01",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Onset I",
+      "Onset II",
+      "Tape Loop A",
+      "Affectionate, Painful",
+      "Inward, Curve",
+      "Tape Loop B I",
+      "Tape Loop B II",
+      "Tape Loop B III",
+      "Eighth Pose",
+      "Stir",
+      "Release",
+      "Little Known",
+      "Tape Loop C I",
+      "Tape Loop C II",
+      "Tape Loop C III",
+      "Tape Loop D"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Jason_Moran_(musician)",
+    "page": {
+     "requestedTitle": "Jason Moran (musician)",
+     "resolvedTitle": "Jason Moran (musician)",
+     "shortDescription": "American jazz pianist, composer, educator (born 1975)",
+     "extract": "Jason Moran (born January 21, 1975) is an American jazz pianist, composer, and educator involved in multimedia art and theatrical installations.\nMoran recorded first with Greg Osby and debuted as a band leader with the 1999 album Soundtrack to Human Motion. Since then, Moran has released albums with his trio The Bandwagon, solo, as a sideman, and with other bands. He combines post-bop and avant-garde jazz, blues, classical music, stride piano, and hip hop.\n\n\n== Career ==\n\n\n=== Early years ===\nMoran was born in Houston, Texas, and grew up in the Pleasantville neighborhood of Houston. His parents, Andy, an investment banker, and Mary, a teacher, encouraged his musical and artistic sensibilities at the Houston Symphony, museums and galleries, and through a relationship with John T. Biggers and a collection of their own. Moran began training at classical piano playing, in Yelena Kurinets' Suzuki method music school, when he was six.  However, his father's extensive record collection (around 10,000 in 2004), varied from Motown to classical to avant-garde jazz.\nAs a boy he developed a preference for hip hop music over the piano until, at the age of 13, he first heard the song \"′Round Midnight\" by Thelonious Monk at home, and switched his efforts to jazz. Monk's childlike melodies, with their many silent spaces, struck him as relatively easy to play and not overly ornate, while the rhythms were reminiscent of hip hop songs, and the harmonies unorthodox. Both jazz and hip hop were part of Houston's skateboarding scene in which he was involved.\nHe attended Houston's High School for the Performing and Visual Arts (HSPVA), graduating in 1993 from the jazz program headed by Robert Morgan. In his senior year, he was student director of the school's jazz combo and part of the Texas high school all-state jazz ensemble.\n\n\n=== Late 1990s ===\nHe then enrolled at the Manhattan School of Music, from which he would graduate in 1997 with a BM degree, to study with pianist Jaki Byard. The next year he participated in Betty Carter's Jazz Ahead exclusive workshop, composing the piece \"Make a Decision\" for the final concert.\nIn 1997, when Moran was a senior at Manhattan School of Music, he was invited to join the band of saxophonist Greg Osby for a European tour, following a conversation that lingered mostly on older piano jazz, and no audition. Osby liked his playing, and Moran continued to play with Osby's group upon their return to the United States, making his first recorded appearance on Osby's 1997 Blue Note album Further Ado. He would subsequently appear on several other Osby albums, and Osby would introduce him to avant-garde pianists Muhal Richard Abrams and Andrew Hill.\nHis stint with Osby led Moran to sign a contract of his own with Blue Note. His debut Soundtrack to Human Motion was released in 1998. Moran was joined on the album by Osby, drummer Eric Harland (a classmate of Moran's at the Manhattan School, and the one who recommended him to Osby), vibraphonist Stefon Harris and acoustic bassist Lonnie Plaxico.\n\n\n=== 2000s ===\nMoran's next album, 2000's Facing Left (after a work by Egon Schiele), featured a trio that formed out of Osby's group, New Directions: Moran, bassist Tarus Mateen and drummer Nasheet Waits. Compositions were some of Moran's and some by Mateen, Duke Ellington, Björk and Byard. The trio, which came to be known as The Bandwagon, was joined by saxophonist and pianist Sam Rivers for their next album, Black Stars, which appeared in 2001. Black Stars was included in NPR's \"The 50 Most Important Recordings of the Decade.\"\nIn 2002, Moran released a solo album, Modernistic, and followed it in 2003 with a live trio album, recorded at New York's Village Vanguard, called The Bandwagon.\nThat same summer he appeared in the Montreal International Jazz Festival, first partnering with Lee Konitz, and then with the trio. In 2004 he played on Don Byron's Ivey-Divey. The Ivey-Divey Trio (sometimes a quartet) toured for a number of years, from the Monterey Jazz Festival 2004 to Montreal's Jazz Festival in 2006 to WinterJazzFest in 2009.\nMoran's 2005 album Same Mother, an exploration of the blues, brought guitarist Marvin Sewell into the Bandwagon mix.\nMoran's 2006 release, Artist in Residence, included a number of selections from different works commissioned by museums, all of which premiered in 2005: \"Milestone\" is centered on a visual work by Adrian Piper from the Walker Art Center; \"The Shape, the Scent, the Feel of Things\" w"
+    }
+   }
+  }
+ },
+ {
+  "id": "trio-tapestry",
+  "kind": "album",
+  "ours": {
+   "title": "Trio Tapestry",
+   "artist": "Joe Lovano",
+   "year": 2023,
+   "label": "ECM",
+   "albumDNA": "Trio Tapestry is a studio album by American jazz saxophonist Joe Lovano recorded in March 2018 and released on ECM January the following year—his debut as bandleader for the label. The trio features pianist Marilyn Crispell and man percussionist Carmen Castaldi.",
+   "keyTracks": [
+    "All Twelve",
+    "Grace Notes",
+    "Le Petit Opportun",
+    "Our Daily Bread",
+    "One for Charlie"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "51aa0c18-49fc-4d19-b050-de7c094e93bc",
+     "title": "Trio Tapestry",
+     "date": "2023",
+     "country": "DE",
+     "status": "Official",
+     "artists": [
+      "Joe Lovano"
+     ],
+     "labels": [
+      {
+       "name": "ECM Records",
+       "catalogNumber": "ECM 2777 4877746"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "12b73a5c-2d15-457f-95bb-cbf6df40818c",
+      "title": "Trio Tapestry",
+      "firstReleaseDate": "2023",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "All Twelve",
+      "Grace Notes",
+      "Le Petit Opportun",
+      "Our Daily Bread",
+      "One for Charlie",
+      "The Power of Three",
+      "Rhythm Spirit",
+      "Crystal Ball"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "unifony-iii",
+  "kind": "album",
+  "ours": {
+   "title": "Unifony III",
+   "artist": "Nils Petter Molvær",
+   "year": 2023,
+   "label": "Volkoren",
+   "albumDNA": "With Unifony III (2023), trumpeter Nils Petter Molvær delivers a contemporary jazz program for the Volkoren label. The program includes \"Yield\", \"Thrive\", and \"Approach\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond.",
+   "keyTracks": [
+    "Yield",
+    "Thrive",
+    "Approach",
+    "Return",
+    "Swarm"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "977a9240-7c89-41fe-b806-a2c3039a86ca",
+     "title": "Unifony III",
+     "date": "2023-11-03",
+     "country": "NL",
+     "status": "Official",
+     "artists": [
+      "Minco Eggersman",
+      "Theodoor Borger",
+      "Moya Brennan",
+      "Nils Petter Molvaer"
+     ],
+     "labels": [
+      {
+       "name": "Volkoren",
+       "catalogNumber": "VOLKOREN94"
+      },
+      {
+       "name": "UNIFONY",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "5ae46c59-01f2-4ead-b034-5d64d7d2d498",
+      "title": "Unifony III",
+      "firstReleaseDate": "2023-11-03",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Yield",
+      "Thrive",
+      "Approach",
+      "Return",
+      "Swarm",
+      "Sync",
+      "Courtesy",
+      "Susan",
+      "Neigh",
+      "Noir"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "blackanomics",
+  "kind": "album",
+  "ours": {
+   "title": "Blackanomics",
+   "artist": "Marc Cary",
+   "year": 2024,
+   "label": "Sessionheads United",
+   "albumDNA": "Marc Cary, pianist, recorded Blackanomics in 2024 for Sessionheads United. Among the tracks are \"Owed to Mayor Barry\" and \"Blackhouse\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond.",
+   "keyTracks": [
+    "Owed to Mayor Barry",
+    "Blackhouse",
+    "The Emery Park Socket",
+    "Barry Farm",
+    "Sober Tones"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "1c43924e-1f11-4824-be88-a855f8d0a218",
+     "title": "Blackanomics",
+     "date": "2024-09-20",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "Marc Cary"
+     ],
+     "labels": [
+      {
+       "name": "Sessionheads United",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "1aa0a302-b507-45a2-b504-4829a2cd4eb4",
+      "title": "Blackanomics",
+      "firstReleaseDate": "2024-09-20",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Owed to Mayor Barry",
+      "Blackhouse",
+      "The Emery Park Socket",
+      "Barry Farm",
+      "Sober Tones",
+      "Feel",
+      "Baltimore",
+      "U Street Lights",
+      "Dollar Black",
+      "It's Right There",
+      "Styles",
+      "Souls Destiny",
+      "East West"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "embracing-dawn",
+  "kind": "album",
+  "ours": {
+   "title": "Embracing Dawn",
+   "artist": "Christian Sands",
+   "year": 2024,
+   "label": "Mack Avenue Records",
+   "albumDNA": "Mack Avenue Records released Embracing Dawn in 2024, a contemporary jazz date led by Christian Sands. The date includes \"Good Morning Heartache\" and \"Divergent Journeys\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond. His third album for Mack Avenue Records, Be Water, was released in 2020 and received a Grammy Award nomination in the Best Instrumental Composition category for the song \"Be Water II\".",
+   "keyTracks": [
+    "Good Morning Heartache",
+    "Divergent Journeys",
+    "Ain't That the Same",
+    "Thought Bubbles I (Can We Talk?)",
+    "Serenade of an Angel"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Christian_Sands"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "c6381223-ab07-45f7-bc4a-f3466a3ab2db",
+     "title": "Embracing Dawn",
+     "date": "2024-09-27",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "Christian Sands"
+     ],
+     "labels": [
+      {
+       "name": "Mack Avenue Records",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "84ee0662-95a3-4054-9e93-1fcf92b39d75",
+      "title": "Embracing Dawn",
+      "firstReleaseDate": "2024-09-27",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Good Morning Heartache",
+      "Divergent Journeys",
+      "Ain't That the Same",
+      "Thought Bubbles I (Can We Talk?)",
+      "Serenade of an Angel",
+      "MMC",
+      "Thought Bubbles II (Do Not Disturb)",
+      "Braises de Requiem I (The Embers Requiem, Mov. I)",
+      "Embracing Dawn"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Christian_Sands",
+    "page": {
+     "requestedTitle": "Christian Sands",
+     "resolvedTitle": "Christian Sands",
+     "shortDescription": "American jazz pianist and composer (born 1989)",
+     "extract": "Christian Sylvester Sands (born May 22, 1989) is an American jazz pianist and composer. His third album for Mack Avenue Records, Be Water, was released in 2020 and received a Grammy Award nomination in the Best Instrumental Composition category for the song \"Be Water II\".\n\n\n== Life and career ==\n\nSands was born on May 22, 1989. He grew up in New Haven, Connecticut, and later moved to the nearby town of Orange. He started playing the piano at a very young age, and took lessons from the age of four; he commented that \"I grew up with it in the house, in the classroom and on stage so it has always been a huge part of my life\".\nSands was mentored by pianist Billy Taylor, who allowed the teenager to close one of the sets that Taylor played at the Kennedy Center. Sands went on to study at the Manhattan School of Music. The school's Afro-Cuban Jazz Orchestra, led by Bobby Sanabria, recorded the album Kenya Revisited Live in 2009; it was nominated for a Latin Grammy.\nAfter graduating, Sands joined Inside Straight, one of bassist Christian McBride's bands; they have toured internationally.\nSands became a Steinway artist in 2012. In 2014, Sands cited as influences McBride, Wynton Marsalis, Kenny Garrett, and Marcus Roberts, because \"They're coming from the tradition of bringing people into the music, but also moving it forward into new directions\". In the same year, Sands became an American Pianists Association Jazz Fellowship Awards Finalist.\nHis composition \"Be Water II\" was nominated for the Best Instrumental Composition Grammy Award in 2020.\n\n\n== Discography ==\nAn asterisk (*) indicates that the year is that of release.\n\n\n=== As leader ===\n\n\n=== As sideman ===\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "fearless-movement",
+  "kind": "album",
+  "ours": {
+   "title": "Fearless Movement",
+   "artist": "Kamasi Washington",
+   "year": 2024,
+   "label": "Shoto Mas Inc.",
+   "albumDNA": "Fearless Movement is the fifth studio album by American jazz saxophonist Kamasi Washington. It was released on May 3, 2024, through Young. Fearless Movement showcases members of Washington's collective West Coast Get Down like Thundercat, Patrice Quinn, Brandon Coleman, and Terrace Martin. It also features contributions from Taj Austin, Ras Austin, DJ Battlecat, George Clinton, D Smoke, André 3000, and BJ the Chicago Kid. The album runs for nearly one and a half hours.",
+   "keyTracks": [
+    "Lesanu",
+    "Asha the First",
+    "Computer Love",
+    "The Visionary",
+    "Get Lit"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Fearless_Movement_(album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "3b76a10d-1fd7-4eab-a537-eb04636a703b",
+     "title": "Fearless Movement",
+     "date": "2024-05-03",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "Kamasi Washington"
+     ],
+     "labels": [
+      {
+       "name": "Young",
+       "catalogNumber": "YO350CD"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "50c425d0-6ed6-47d9-af12-bfa2b80cb628",
+      "title": "Fearless Movement",
+      "firstReleaseDate": "2024-05-03",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Lesanu",
+      "Asha the First",
+      "Computer Love",
+      "The Visionary",
+      "Get Lit",
+      "Dream State",
+      "Together",
+      "The Garden Path",
+      "Interstellar Peace (The Last Stance)",
+      "Road to Self (KO)",
+      "Lines in the Sand",
+      "Prologue"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Fearless_Movement_(album)",
+    "page": {
+     "requestedTitle": "Fearless Movement (album)",
+     "resolvedTitle": "Fearless Movement (album)",
+     "shortDescription": "2024 studio album by Kamasi Washington",
+     "extract": "Fearless Movement is the fifth studio album by American jazz saxophonist Kamasi Washington. It was released on May 3, 2024, through Young. Fearless Movement showcases members of Washington's collective West Coast Get Down like Thundercat, Patrice Quinn, Brandon Coleman, and Terrace Martin. It also features contributions from Taj Austin, Ras Austin, DJ Battlecat,  George Clinton, D Smoke, André 3000, and BJ the Chicago Kid. The album runs for nearly one and a half hours.\n\n\n== Background ==\nWashington refers to Fearless Movement as his \"dance album\", though not in the literal sense. He views \"dance\" as \"movement and expression\" and \"expressing your spirit through your body\", equivalent to music itself. The album focuses \"on the earthly\", which marks a \"creative pivot\" in his career. The saxophonist drew inspiration from his newfound fatherhood, while his daughter even contributed to one song. Washington shared the closing track \"Prologue\" alongside the album announcement on March 6, 2024.\n\n\n== Critical reception ==\n\nFearless Movement was met with universal acclaim from music critics. At Metacritic, which assigns a normalized rating out of 100 to reviews from mainstream publications, the album received an average score of 82, based on sixteen reviews. The aggregator AnyDecentMusic? has the critical consensus of the album at an 8.1 out of 10, based on seventeen reviews.\nEvan Haga of Spin found the album \"bolsters Washington's prowess as a jazz bandleader engaged in cultural and musical curation. Rather than transforming the actual language of composition or harmony or improvisation, he stacks his influences and relationships to form an ensemble sound that is monumental, and thoroughly his own. In or out of jazz, that means so much\". Liam Casci of The Skinny praised the album, saying \"on this latest opus, Washington and company are a tightened-drum of an ensemble that effortlessly flit between an intense focus and a playful freedom, and the results are stunning\".\nKyle Kersey of Under the Radar stated: \"with Fearless Movement, his third great record in a row, Washington once again demonstrates his commitment to innovation, cementing his place in the great jazz canon. He's reigned in the runtime, but the ambitions remain\". AllMusic's Thom Jurek wrote that Washington \"doesn't merely juxtapose instruments and sounds, he painstakingly combines them, bringing joy, intensity, political, social, and spiritual poignancy in a vision at once focused, restless, and playful\". Grayson Haver Currin of Mojo resumed: \"on these dozen tracks, Washington creates a playground and invites friends in to be themselves, shaping a dizzying crosshatch of ideas where George Clinton's lounge croon sets up a trumpet-chased pep talk from rapper D Smoke, or André 3000 slips – with flutes in hand – into a nocturnal haze that feels like some futuristic Debussy state of bliss\". Joe Goggins of NME stated: \"Fearless Movement feels like more of a personal piece than Heaven and Earth, leaning more towards humanism than the spiritualism that has so enraptured Washington in the past. The key to his appeal, though, remains unchanged; he makes music that's apparently limitless in scope and yet joyously immediate, even to the casual jazz listener\". Peter Thomas Webb of PopMatters concluded: \"with a running time of 86 minutes, Fearless Movement demands commitment from the listener through its stylistic twists and turns. The first half, emphasizing vocals and choral hooks, is likely more accessible to general listeners than the second half. But fans of contemporary jazz will find plenty to enjoy throughout\". Janne Oinonen of The Line of Best Fit found the artist \"stretches out to fresh territory\" on the album. Kitty Empire of The Observer wrote: \"bereavements and recent fatherhood have led Washington to ponder mortality. But there is little dread in these 12 rich and versatile tracks, which touch sensually on Zapp's \"Computer Love\" and examine the \"Road to Self\" via a 13-minute workout\".\nAndy Cush of Pitchfork wrote: \"Fearless Movement's first half is filled with guest vocalists delivering songs that attempt awkwardly to be soundtracks for both revelry and deep contemplation. The album gets better when it dispenses with its noncommittal relationship to party music, freeing Washington to pursue the heroic high drama that's still his strong suit\".\n\n\n=== Year-end lists ===\n\n\n== Track listing ==\n\n\n== Personnel ==\nMusicians\n\nTechnical\n\nVisuals\n\nB+ – album photography\nSol "
+    }
+   }
+  }
+ },
+ {
+  "id": "moondial",
+  "kind": "album",
+  "ours": {
+   "title": "MoonDial",
+   "artist": "Pat Metheny",
+   "year": 2024,
+   "label": "BMG",
+   "albumDNA": "MoonDial is a 2024 studio album released by jazz musician Pat Metheny. It features solo performances by Metheny on a custom built baritone guitar and contains a mix of both originals and covers. The album received generally positive reviews from critics.",
+   "keyTracks": [
+    "MoonDial",
+    "La Crosse",
+    "You're Everything",
+    "Here, There and Everywhere",
+    "We Can't See It, But It's There"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/MoonDial"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "c1742941-0a5e-4edd-b8b1-e6fe68f22c67",
+     "title": "MoonDial",
+     "date": "2024-07-26",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "Pat Metheny"
+     ],
+     "labels": [
+      {
+       "name": "Modern Recordings",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0db7ac70-a865-4391-bec0-cd7f14b0dd8c",
+      "title": "MoonDial",
+      "firstReleaseDate": "2024-07-26",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "MoonDial",
+      "La Crosse",
+      "You're Everything",
+      "Here, There and Everywhere",
+      "We Can't See It, But It's There",
+      "Falcon Love",
+      "Everything Happens to Me / Somewhere",
+      "Londonderry Air",
+      "This Belongs to You",
+      "Shōga",
+      "My Love and I",
+      "Angel Eyes",
+      "MoonDial (epilogue)"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/MoonDial",
+    "page": {
+     "requestedTitle": "MoonDial",
+     "resolvedTitle": "MoonDial",
+     "shortDescription": "2024 jazz album by Pat Metheny",
+     "extract": "MoonDial is a 2024 studio album released by jazz musician Pat Metheny. It features solo performances by Metheny on a custom built baritone guitar and contains a mix of both originals and covers. The album received generally positive reviews from critics.\n\n\n== Background ==\nMetheny recorded Moondial while on break from his Dream Box tour. On the album, he played on a custom built baritone guitar made by the luthier Linda Manzer. He also tuned the guitar to a custom tuning system, which required custom Nylon strings as most could not handle the system. Metheny struggled to find strings that worked, until he saw some that were made by an Argentinian-based company being used by another player in a video. He bought the strings on Amazon, which arrived the day before his Dream Box tour started. Metheny stated that he felt like the guitar's tuning made it feel like the guitar was \"three two-string instruments that just happen to be sitting right next to each other\". The middle two strings were tuned up an octave from standard tuning, while the other four were a fourth or fifth below it.\nMetheny recorded Moondial over the course of a week in the Hudson Valley. He used an AEA R88 ribbon mic with a Go Acoustic internal pickup. It is the third album Metheny recorded without other musicians. No overdubs were done on the album. The album features 12 compositions, comprising a mix of both originals and covers. Metheny had written most of the original tracks during the Dream Box tour, except for \"This Belongs to You\", a composition he originally recorded in 2012.\n\n\n== Reception ==\n\nAccording to the review aggregator Metacritic, MoonDial received \"generally favorable reviews\" based on a weighted average score of 80 out of 100 from four critic scores. Thom Jurek wrote in AllMusic, \"If you appreciate Metheny's acoustic guitar recordings, MoonDial will undoubtedly delight, and its elegance folds seamlessly into its predecessors\". Doug Collette in Glide Magazine wrote that \"There's an emotional investment in play on Moondial by which Pat derives a tangible pleasure that correlates directly to his sense of accomplishment\". Stuart Nicholson of Jazzwise particularly praised Metheny's renditions of \"Here, There, And Everywhere\", \"Angel Eyes\", and \"My Love and I\" for hitting \"the right mood here with performances of subtlety, nuance, warmth and humanity\".\n\n\n== Track listing ==\n\n\n== Personnel ==\nPat Metheny – baritone guitar\n\n\n=== Technical personnel ===\nPat Metheny – producer, recording\nPete Karam – mixing\nTed Jensen – mastering\nRhoan O'Connell – designer\nStephen Doyle – artwork\nLatifa Metheny – photography\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "pink-elephants-on-parade",
+  "kind": "album",
+  "ours": {
+   "title": "Pink Elephants on Parade",
+   "artist": "Sun Ra",
+   "year": 2024,
+   "label": "Unknown",
+   "albumDNA": "\"Pink Elephants on Parade\" is a song and scene from the 1941 Disney animated feature film Dumbo in which Dumbo and Timothy Q. Mouse, having accidentally become intoxicated, see pink elephants sing, dance, and play musical instruments during a hallucination sequence. After the sequence, Dumbo and Timothy wake up, hungover, in a tree. It is at this point that they realize that Dumbo can fly.",
+   "keyTracks": [
+    "The Forest Of No Return (9:30 Club)",
+    "Someday My Prince Will Come (9:30 Club)",
+    "Zip-A-Dee-Doo-Dah (Virginia 1988)",
+    "Let's Go Fly A Kite (Zurich 1987)",
+    "The Second Star To The Right (Virginia 1988)",
+    "Pink Elephants On Parade (Regatta Bar 1990)"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "09d3eaf9-65f3-4063-a287-91d463ccffd6",
+     "title": "Pink Elephants on Parade",
+     "date": "2024-07-05",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "Sun Ra",
+      "Arkestra"
+     ],
+     "labels": [],
+     "releaseGroup": {
+      "mbid": "023a56ce-2a2a-4085-8975-f64963dfbb08",
+      "title": "Pink Elephants on Parade",
+      "firstReleaseDate": "2024-07-05",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "The Forest of No Return",
+      "Someday My Prince Will Come",
+      "Zip-A-Dee-Doo-Dah",
+      "Let's Go Fly a Kite",
+      "Second Star to the Right",
+      "Pink Elephants on Parade",
+      "Whistle While You Work",
+      "I'm Wishing",
+      "Never Never Land",
+      "Second Star to the Right (Alternate)",
+      "The Forest of No Return (Alternate)",
+      "Marching Pink Elephants (Hal Willner Version)",
+      "Heigh-Ho!"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "remembrance",
+  "kind": "album",
+  "ours": {
+   "title": "Remembrance",
+   "artist": "Chick Corea",
+   "year": 2024,
+   "label": "Thirty Tigers",
+   "albumDNA": "Chick Corea (1941–2021) was an American jazz pianist and composer born on June 12, 1941, in Chelsea, Massachusetts. Corea started learning piano at age four. He recorded his first album, Tones for Joan's Bones, in 1966. Corea performed with Blue Mitchell, Willie Bobo, Cal Tjader and Herbie Mann in the mid-1960s. In the late 1960s he performed with Stan Getz and Miles Davis. The National Endowment for the Arts states, \"He ranked with Herbie Hancock and Keith Jarrett as one of the leading piano stylists to emerge after Bill Evans and McCoy Tyner, and he composed such notable jazz standards as 'Spain', 'La Fiesta', and 'Windows'.\" The National Endowment for the Arts states, \"He ranked with Herbie Hancock and Keith Jarrett as one of the leading piano stylists to emerge after Bill Evans and McCoy Tyner, and he composed such notable jazz standards as 'Spain', 'La Fiesta', and 'Wi.",
+   "keyTracks": [
+    "The Otter Creek Incident",
+    "impromptu III: march hare",
+    "Enut Nital",
+    "impromptu II: mock turtle",
+    "Bemsha Swing"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Chick_Corea_discography"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "9278ad39-5b50-4d77-871e-8d1650c341b0",
+     "title": "Remembrance",
+     "date": "2024-05-10",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "Chick Corea",
+      "Béla Fleck"
+     ],
+     "labels": [
+      {
+       "name": "Béla Fleck Productions Inc.",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "08bec0dc-d9a6-45f3-a449-939bef50505d",
+      "title": "Remembrance",
+      "firstReleaseDate": "2024-05-10",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "The Otter Creek Incident",
+      "impromptu III: march hare",
+      "Enut Nital",
+      "impromptu II: mock turtle",
+      "Bemsha Swing",
+      "Lucky Bounce",
+      "impromptu I: cheshire",
+      "Remembrance",
+      "Juno",
+      "Scarlatti Sonatas",
+      "impromptu V: jabberwocky",
+      "Small Potatoes",
+      "Continuance",
+      "impromptu IV: gentleman fish"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Chick_Corea_discography",
+    "page": {
+     "requestedTitle": "Chick Corea discography",
+     "resolvedTitle": "Chick Corea discography",
+     "shortDescription": "American pianist and composer",
+     "extract": "Chick Corea (1941–2021) was an American jazz pianist and composer born on June 12, 1941, in Chelsea, Massachusetts. Corea started learning piano at age four. He recorded his first album, Tones for Joan's Bones, in 1966. Corea performed with Blue Mitchell, Willie Bobo, Cal Tjader and Herbie Mann in the mid-1960s. In the late 1960s he performed with Stan Getz and Miles Davis. The National Endowment for the Arts states, \"He ranked with Herbie Hancock and Keith Jarrett as one of the leading piano stylists to emerge after Bill Evans and McCoy Tyner, and he composed such notable jazz standards as 'Spain', 'La Fiesta', and 'Windows'.\"\n\n\n== Albums ==\n\n\n=== Studio albums ===\n\n\n=== Live albums ===\n\n\n=== Compilations ===\nInner Space (Atlantic, 1973) – contains all previously published and two unreleased tracks from Tones for Joan's Bones recorded in 1966 & 1968\nChick Corea/Herbie Hancock/Keith Jarrett/McCoy Tyner (Atlantic, 1976)\nWorks (ECM, 1985)\nChick Corea Compact Jazz (Polydor, 1987)\nBest of Chick Corea (Blue Note, 1993)\nMusic Forever & Beyond: The Selected Works of Chick Corea 1964 - 1996 (GRP, 1996) – discs 1-4 are a career-spanning retrospective; disc 5 is all-new recordings of standards, and one original, with the Time Warp quartet\nSelected Recordings (ECM, 2002)\nThe Complete \"Is\" Sessions (Blue Note, 2002) – combined the albums Is and Sundance with alternate takes\nVery Best of Chick Corea (Universal, 2004)\nThe Song Is You (Douglas, 2005)[2CD] – combined version of Woodstock Jazz Festival 1 and Woodstock Jazz Festival 2 (Douglas Music, 1997)\nFive Trios (Stretch, 2007)[6CD]\nElectric Chick (Verve, 2008)\nThe Montreux Years (Montreux Jazz Festival/BMG, 2022) – rec. 1988, 1993, 2001, 2004, 2006, 2010\n\n\n=== As group leader ===\n\n\n==== Circle (with Anthony Braxton, Dave Holland and Barry Altschul) ====\nCircle 1: Live in Germany Concert (CBS/Sony, 1971) – recorded in 1970\nCircle 2: Gathering (CBS/Sony, 1971)\nParis Concert (ECM, 1972) – recorded in 1971\nCircling In (Blue Note, 1975) – recorded in 1970\nCirculus  (Blue Note, 1978) – recorded in 1970\n\n\n==== Return to Forever ====\n\n\n===== Studio albums =====\n1972: Return To Forever (ECM, 1972) – as Chick Corea's album\n1972: Light as a Feather (Polydor, 1973)\n1973: Hymn of the Seventh Galaxy (Polydor, 1973)\n1974: Where Have I Known You Before (Polydor, 1974)\n1975: No Mystery (Polydor, 1975)\n1976: Romantic Warrior (Columbia, 1976)\n1977: Musicmagic (Columbia, 1977)\n\n\n===== Live albums =====\n1977: Live (Columbia)[4LP] – live\n2009: Returns (Eagle)[2CD][DVD-Video] – live\n2011: Forever (Concord)[2CD] – as Chick Corea, Stanley Clarke and Lenny White's album\n2012: The Mothership Returns (Eagle)[2CD + DVD-Video] – live\n\n\n===== Compilations =====\n1980: The Best of Return to Forever (Columbia)\n1996: Return to the 7th Galaxy: The Anthology (Verve Records)\n2008: The Definitive Collection (Verve Records)\n2008: R.T.F, the Anthology\n\n\n==== Posthumous release ====\nLive in Japan 1983 (Hi Hat, 2021) – live recorded in 1983\nAlive in America (Renaissance, 2022) – live recorded in 1974\nSardinia (Candid, 2023) - live recorded in 2018\n\n\n==== Chick Corea Elektric Band ====\n\n\n===== Studio albums =====\n\n\n===== Live albums =====\n\n\n==== Chick Corea Akoustic Band ====\n\n\n===== Studio album(s) =====\n\n\n===== Live albums =====\n\n\n=== As sideman ===\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "add-a-zero",
+  "kind": "album",
+  "ours": {
+   "title": "Add a Zero",
+   "artist": "Takuya Kuroda",
+   "year": 2025,
+   "label": "Unknown",
+   "albumDNA": "Add a Zero is a contemporary jazz album by Takuya Kuroda from 2025. The program includes \"Crunchy\", \"No Breakfast\", and \"Tone Paintings\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond.",
+   "keyTracks": [
+    "Crunchy",
+    "No Breakfast",
+    "Tone Paintings",
+    "Add a Zero",
+    "Very Soon"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "3d46a887-d715-438f-90a9-eb8865302ced",
+     "title": "Add a Zero",
+     "date": "2025-05-16",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "Chris McCarthy",
+      "Takuya Kuroda",
+      "Sam Minaie",
+      "Eden Bareket",
+      "Steven Crammer"
+     ],
+     "labels": [],
+     "releaseGroup": {
+      "mbid": "032a94e9-3082-428f-884a-69a3e592c3f6",
+      "title": "Add a Zero",
+      "firstReleaseDate": "2025-05-16",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Crunchy",
+      "No Breakfast",
+      "Tone Paintings",
+      "Add a Zero",
+      "Very Soon",
+      "Depressed to Impress",
+      "Bubbadoo",
+      "Come Sunday"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "big-money",
+  "kind": "album",
+  "ours": {
+   "title": "BIG MONEY",
+   "artist": "Jon Batiste",
+   "year": 2025,
+   "label": "Interscope Records",
+   "albumDNA": "Recorded for Interscope Records in 2025, 'BIG MONEY' features Jon Batiste exploring jazz. Key tracks include 'LEAN ON MY LOVE' and 'BIG MONEY'.",
+   "keyTracks": [
+    "BIG MONEY"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "611236e3-9efb-40c6-84e4-23791ca230c9",
+     "title": "Big Money",
+     "date": "2025-08-22",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Jon Batiste"
+     ],
+     "labels": [
+      {
+       "name": "Interscope Records",
+       "catalogNumber": "602478494161"
+      },
+      {
+       "name": "Verve",
+       "catalogNumber": "602478494161"
+      },
+      {
+       "name": "Verve Records, Inc.",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0c48581a-294d-42c0-9331-2794a7bd0529",
+      "title": "BIG MONEY",
+      "firstReleaseDate": "2025-08-22",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "LEAN ON MY LOVE",
+      "BIG MONEY",
+      "LONELY AVENUE",
+      "PETRICHOR",
+      "DO IT ALL AGAIN",
+      "PINNACLE",
+      "AT ALL",
+      "MAYBE",
+      "ANGELS"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Big Money (album)",
+     "resolvedTitle": "Big Money (album)",
+     "shortDescription": "2025 studio album by Jon Batiste",
+     "extract": "Big Money is the ninth studio album by American singer Jon Batiste. It was released on August 22, 2025, through Verve Records and Interscope Records. The album features guest appearances by Andra Day, Randy Newman and No I.D.. At the 68th Annual Grammy Awards it received three nominations, winning for Best Americana Album.\nTo support the album, Batiste embarked on The Big Money Tour: Jon Batiste Plays America on August 27, 2025.\n\n\n== Background and release ==\nBatiste released his seventh studio album, World Music Radio on August 18, 2023. In support of the album Batiste staged his first headlining concert tour, the Uneasy Tour in 2024. On November 15, 2024, Batiste released the first album in his solo piano series Beethoven Blues (Batiste Piano Series, Vol. 1), while working on a new recording album.\nBatiste announced the album on July 11, 2025, alongside the release of the title track \"Big Money\", which features vocals of R&B girl group The Womack Sisters. He revealed that the album was conceived during the Uneasy Tour.\n\n\n== Critical reception ==\nSteven Wine of Associated Press wrote that Batiste \"opts for a surprisingly intimate sound\" on the album, with \"stripped-down, mostly acoustic arrangements create a chill vibe. Simplicity somehow only intensifies the songs’ swing and sway\" in which \" lyrics about devotion, values, angels and ecology with music that mixes folk and funk, gospel and the blues\", prising the duets with Andra Day and Randy Newman.\n\n\n== Track listing ==\n\n\n=== Note ===\n^[a] signifies an additional producer.\n\n\n== Personnel ==\nCredits adapted from the album's liner notes.\n\n\n=== Musicians ===\n\n\n=== Technical and visuals ===\n\n\n== Charts ==\n\n\n== References =="
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Big Money (album)",
+      "shortDescription": "2025 studio album by Jon Batiste",
+      "extractHead": "Big Money is the ninth studio album by American singer Jon Batiste. It was released on August 22, 2025, through Verve Records and Interscope Records. The album features guest appearances by Andra Day, Randy Newman and No I.D.. At the 68th Annual Grammy Awards it received three nominations, winning for Best Americana Album.\nTo support the album, Batiste embarked on The Big Money Tour: Jon Batiste Plays America on August 27, 2025.\n\n\n== Background and release ==\nBatiste released his seventh studio "
+     },
+     {
+      "resolvedTitle": "Big Ones (Loverboy album)",
+      "shortDescription": "1989 greatest hits album by Loverboy",
+      "extractHead": "Big Ones is a compilation album released in 1989 by the Canadian rock band Loverboy. The album was the band's first compilation, including hit tracks such as \"Working for the Weekend\" and \"Lovin' Every Minute of it\". The compilation includes 3 new studio tracks: \"For You\", \"Ain't Looking for Love\" and \"Too Hot\". It was also released in the same year that the band decided to break up a second time, and another compilation would not be released until five years later.\n\n\n== Track listing ==\n\nNote\n\n"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "bone-bells",
+  "kind": "album",
+  "ours": {
+   "title": "Bone Bells",
+   "artist": "Mary Halvorson",
+   "year": 2025,
+   "label": "Pyroclastic Records",
+   "albumDNA": "Recorded for Pyroclastic Records in 2025, 'Bone Bells' features Mary Halvorson exploring avant-garde jazz and jazz. Key tracks include 'Bone Bells' and 'Esmeralda'. A avant-garde jazz entry from 2025 by Mary Halvorson, documenting the breadth of the contemporary period.",
+   "keyTracks": [
+    "Bone Bells",
+    "Esmeralda",
+    "Folded Secret",
+    "Nags Head Valse",
+    "Beclouded"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "dc6ae020-7915-4c18-abf3-73d63b1ba25a",
+     "title": "Bone Bells",
+     "date": "2025-03-14",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "Sylvie Courvoisier",
+      "Mary Halvorson"
+     ],
+     "labels": [
+      {
+       "name": "Pyroclastic Records",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "107326d9-b984-4269-be62-23ae0b118db7",
+      "title": "Bone Bells",
+      "firstReleaseDate": "2025-03-14",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Bone Bells",
+      "Esmeralda",
+      "Folded Secret",
+      "Nags Head Valse",
+      "Beclouded",
+      "Silly Walk",
+      "Float Queens",
+      "Cristellina e Lontano"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "haihara",
+  "kind": "album",
+  "ours": {
+   "title": "Haihara",
+   "artist": "Arve Henriksen",
+   "year": 2025,
+   "label": "Unknown",
+   "albumDNA": "Released in 2025, 'Haihara' features Arve Henriksen exploring contemporary jazz. Key tracks include 'The Baltic Bolero' and 'Cry with Words'.",
+   "keyTracks": [
+    "The Baltic Bolero",
+    "Cry with Words",
+    "Tuonela",
+    "Ancient Bells",
+    "A Remarkable Flow"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "8f49d126-497c-4f73-8045-77b474d24fc8",
+     "title": "Haihara",
+     "date": "2025-11-07",
+     "country": null,
+     "status": "Official",
+     "artists": [
+      "Arve Henriksen",
+      "Robert Jürjendal"
+     ],
+     "labels": [],
+     "releaseGroup": {
+      "mbid": "0b9afaf4-c268-46cf-b771-000c186468f3",
+      "title": "Haihara",
+      "firstReleaseDate": "2025-11-07",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "The Baltic Bolero",
+      "Cry with Words",
+      "Tuonela",
+      "Ancient Bells",
+      "A Remarkable Flow",
+      "Rebirth",
+      "Miraculous Lake",
+      "Sanctification",
+      "Another Me",
+      "Reunion Hymn"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Ha Ha Ha (album)",
+     "resolvedTitle": "Ha Ha Ha (album)",
+     "shortDescription": "2012 studio album by Natalie Gauci",
+     "extract": "Ha Ha Ha is the second studio album by Australian singer-songwriter Natalie Gauci. The album's jazz-oriented sound is a significant departure from Gauci's earlier pop roots. In early 2013, the album was removed from the iTunes Store for reasons unclear.\n\n\n== Track listing ==\n\n\n== References =="
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Ha Ha Ha (album)",
+      "shortDescription": "2012 studio album by Natalie Gauci",
+      "extractHead": "Ha Ha Ha is the second studio album by Australian singer-songwriter Natalie Gauci. The album's jazz-oriented sound is a significant departure from Gauci's earlier pop roots. In early 2013, the album was removed from the iTunes Store for reasons unclear.\n\n\n== Track listing ==\n\n\n== References =="
+     }
+    ]
+   }
+  }
+ }
+]

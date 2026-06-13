@@ -1,0 +1,1829 @@
+[
+ {
+  "id": "chet-baker-live-in-rosenheim",
+  "kind": "album",
+  "ours": {
+   "title": "Chet Baker live in Rosenheim",
+   "artist": "Chet Baker",
+   "year": 1989,
+   "label": "Timeless",
+   "albumDNA": "Chet Baker live in Rosenheim is a cool jazz album by Chet Baker from 1989. Among the tracks are \"Funk in deep freeze\" and \"I'm a fool to want you\".",
+   "keyTracks": [
+    "Funk in deep freeze",
+    "I'm a fool to want you",
+    "Portrait in black and white",
+    "In a sentimental mood",
+    "If I should lose you"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "f0194830-db03-4c8a-a71f-43d38f51b77a",
+     "title": "Chet Baker",
+     "date": "1989",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Chet Baker"
+     ],
+     "labels": [
+      {
+       "name": "EmArcy",
+       "catalogNumber": "840 632-2"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "08f28c7c-524b-30d7-9dec-78275631a99d",
+      "title": "Chet Baker",
+      "firstReleaseDate": "1989",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "Summertime",
+      "The Girl from Greenland",
+      "Anticipated Blues",
+      "Chet",
+      "I'll Remember April",
+      "Everytime We Say Goodbye",
+      "Halfbreed Apache",
+      "That Old Devil Called Love",
+      "Don't Explain",
+      "Baby Breeze",
+      "This is the Thing",
+      "Pamela's Passion",
+      "Comin' Down",
+      "I Wish You Love",
+      "The Touch of Your Lips"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   },
+   "websearch": {
+    "resolved": true,
+    "sources": [
+     "https://www.jazzdisco.org/chet-baker/catalog/album-index/",
+     "https://www.jazzmessengers.com/en/99020/chet-baker/liveinrosenheim-17thapril1988-",
+     "https://www.allmusic.com/album/live-in-rosenheimer-mw0000911123"
+    ],
+    "findings": {
+     "year": 1989,
+     "label": "Timeless",
+     "tracklist": [
+      "Funk in Deep Freeze",
+      "I'm a Fool to Want You",
+      "Portrait in Black and White",
+      "In a Sentimental Mood",
+      "If I Should Lose You"
+     ],
+     "wikipedia": null
+    },
+    "note": "Confirmed via jazzdisco.org Chet Baker catalog (corroborated by Jazz Messengers + AllMusic listing 'Live in Rosenheimer'): 'Live in Rosenheim' (subtitled 'Chet Baker's Last Recording As Quartet'), recorded April 17 1988 in Rosenheim, Germany; released 1989 on Timeless Records (Du), cat. SJP 233 (also CD SJP 233). Quartet: Chet Baker (trumpet/vocal), Nicola Stilo (guitar/flute), Marc Abrams (bass), Luca Flores (piano). Year 1989 is CORRECT. Label was 'Unknown' in our data -> Timeless. VERIFIED tracklist includes our 5 keyTracks (Funk in Deep Freeze, I'm a Fool to Want You, Portrait in Black and White, In a Sentimental Mood, If I Should Lose You) -- all real (a 6th 'Arborway' appears on some editions). albumDNA is accurate. Only repair: label (Unknown -> Timeless)."
+   }
+  }
+ },
+ {
+  "id": "jazz-street",
+  "kind": "album",
+  "ours": {
+   "title": "Jazz Street",
+   "artist": "Jaco Pastorius",
+   "year": 1989,
+   "label": "Timeless Records",
+   "albumDNA": "Jazz Street is an album by Jaco Pastorius, released in 1989 on Timeless Records. The record sits in the jazz fusion tradition. Notable tracks include \"No Slack\" and \"Jazz Street\".",
+   "keyTracks": [
+    "No Slack",
+    "Jazz Street",
+    "Miles Mode",
+    "May Day",
+    "Wedding Waltz"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "1d2b16dc-7d2a-408f-8bb0-5ff4073fddf4",
+     "title": "Jazz Street",
+     "date": "1989",
+     "country": "DE",
+     "status": "Official",
+     "artists": [
+      "Jaco Pastorius",
+      "Brian Melvin"
+     ],
+     "labels": [
+      {
+       "name": "Timeless Records",
+       "catalogNumber": "CD SJP 258"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "1cead12a-9881-3fb5-8227-6eedafd54d10",
+      "title": "Jazz Street",
+      "firstReleaseDate": "1989",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "No Slack",
+      "Jazz Street",
+      "Miles Mode",
+      "May Day",
+      "Wedding Waltz",
+      "Out of the Night",
+      "Drums of Yadzarah"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Red_Rose_Speedway",
+    "page": {
+     "requestedTitle": "Red Rose Speedway",
+     "resolvedTitle": "Red Rose Speedway",
+     "shortDescription": "1973 studio album by Paul McCartney and Wings",
+     "extract": "Red Rose Speedway is the second studio album by the British-American rock band Wings, although credited to \"Paul McCartney and Wings\". It was released through Apple Records in the United States on 30 April 1973 and in the United Kingdom on 4 May, preceded by its lead single, the ballad \"My Love\". The artist name change was made in the belief that the public's unfamiliarity with the band had been responsible for the weak commercial performance of the group's 1971 debut album Wild Life.\nBefore recording the album, Wings recruited lead guitarist Henry McCullough and released their debut single, \"Give Ireland Back to the Irish\", which was banned by the BBC for its political message. Recording sessions for the album took place throughout 1972 at five recording studios in London. The group also recorded the non-album singles \"Mary Had a Little Lamb\", \"Hi, Hi, Hi\" and \"Live and Let Die\", the last of which was issued in June 1973. Originally planned as a double album, it was condensed into a single LP at the request of EMI. The company believed that the material was not of a sufficiently high standard and were mindful of the modest sales of Wild Life and Wings' first two singles. Members McCullough and Denny Laine later expressed disappointment in the choice of songs on the single album.\nRed Rose Speedway peaked at number 5 on the UK Albums Chart and number 1 on the Billboard Top LPs & Tape chart in the US, while \"My Love\" topped the US Billboard Hot 100. Although a commercial success, the album received a mixed response from music critics, with several reviewers considering the songs to be inconsequential and mediocre. Decades later, it continues to receive mixed reviews. The album was reissued in 1987 and 1993 with bonus tracks and remastered in 2018 as part of the Paul McCartney Archive Collection. The 2018 remaster includes the reconstructed double LP version of the album.\n\n\n== Background ==\nIn early 1972, McCartney expanded Wings to a five-piece band by adding another guitarist, Henry McCullough, and began touring with the group. The band briefly toured British universities in February. They played in small halls, often unannounced, to avoid the media scrutiny that came with performing at more established venues. The tour was a success, with audiences praising the band's shows and attracting attention in the music press.\nDespite not releasing an album in 1972, Wings issued three singles while preparing their follow-up to Wild Life: \"Give Ireland Back to the Irish\", which was banned by the BBC for its political sentiments; \"Mary Had a Little Lamb\", based on the nursery rhyme; and \"Hi, Hi, Hi\", which was banned by the BBC for drug references and sexually suggestive lyrics.\nMcCartney's solo output following the breakup of the Beatles (McCartney, Ram, Wild Life and the subsequent singles) had been mostly critically derided. He was concerned with his public image. He later told the Los Angeles Times in 1974: \"When the Beatles broke up, I personally think my music took a bit of a knock. I lost direction in songwriting.\" Nevertheless, by March 1972, he believed he had an eclectic assortment of songs that would cover stylistic ground, including newly-written songs and ones dating back to 1970 before the formation of Wings. Two of these songs, \"Get on the Right Thing\" and \"Little Lamb Dragonfly\", appeared on the final album.\n\n\n== Recording ==\n\nRecording for Red Rose Speedway began at Olympic Studios in London on 6 March 1972, with Glyn Johns engineering and McCartney producing. McCartney wanted Johns because he believed he would offer the band a sharper musical direction; Johns had previously worked with the Beatles during the aborted Get Back sessions in 1969. He also chose Olympic because he believed that a break from their regular EMI Studios would help the band find their own sound. McCartney aimed for a relaxed, loose feel for the sessions, which led to jamming and experimentation, at the expense of fully written songs ready to record.\nAt the first session, the band recorded \"Big Barn Bed\"; McCartney asked Johns to think of him as \"the bass player in the band\" rather than as Paul McCartney, but then took offence when Johns duly treated him as an ordinary musician. The next day, 7 March, the band worked on \"When the Night\", a track that allowed Linda McCartney to play keyboards. The following day, the band recorded \"The Mess I'm In\" (later shortened to \"The Mess\"), a song they had been performing live. By 9 March, the band's"
+    }
+   }
+  }
+ },
+ {
+  "id": "david-sanborn",
+  "kind": "album",
+  "ours": {
+   "title": "David Sanborn",
+   "artist": "David Sanborn",
+   "year": 1990,
+   "label": "Warner Bros. Records",
+   "albumDNA": "David Sanborn is the self-titled album by alto saxophonist David Sanborn, released on Warner Bros. It includes a version of Paul Simon's \"I Do It for Your Love\" alongside \"Indio,\" \"Smile,\" \"Mamacita,\" and \"Concrete Boogie.\"",
+   "keyTracks": [
+    "Indio",
+    "Smile",
+    "Mamacita",
+    "Herbs",
+    "Concrete Boogie"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/David_Sanborn_(album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "a4aff5ef-de09-433e-ade7-91aca42210fa",
+     "title": "David Sanborn",
+     "date": "1990",
+     "country": "DE",
+     "status": "Official",
+     "artists": [
+      "David Sanborn"
+     ],
+     "labels": [
+      {
+       "name": "Warner Bros. Records",
+       "catalogNumber": "927 304-2"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "05edd445-b157-3c36-9c20-947cac4e78e6",
+      "title": "David Sanborn",
+      "firstReleaseDate": "1990",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Indio",
+      "Smile",
+      "Mamacita",
+      "Herbs",
+      "Concrete Boogie",
+      "I Do It for Your Love",
+      "Sophisticated Squaw",
+      "7th Ave."
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/David_Sanborn_(album)",
+    "page": {
+     "requestedTitle": "David Sanborn (album)",
+     "resolvedTitle": "David Sanborn (album)",
+     "shortDescription": "1976 studio album by David Sanborn",
+     "extract": "Sanborn is an album by jazz saxophonist David Sanborn, released by Warner Bros. in 1976. It contains a version of \"I Do It for Your Love\" by Paul Simon.\n\n\n== Track listing ==\n\"Indio\" (Rosalinda de Leon) - 5:35\n\"Smile\" (Paul Simon, Coleridge-Taylor Perkinson) - 5:24\n\"Mamacita\" (de Leon) - 4:45\n\"Herbs\" (Herb Bushler) - 4:29\n\"Concrete Boogie\" (Hiram Bullock) - 6:42\n\"I Do It for Your Love\" (Simon) - 2:47\n\"Sophisticated Squaw\" (Victor Lewis) - 4:47\n\"7th Ave.\" (Lewis) - 5:34\n\n\n== Personnel ==\nDavid Sanborn – alto saxophone, soprano saxophone, flute\nRosalinda de Leon – keyboards\nRichard Tee – keyboards on \"I Do It for Your Love\"\nHiram Bullock – guitar, vocals\nHerb Bushler – bass guitar\nVictor Lewis – drums\nJuma Santos – percussion\nPaul Simon – vocals on \"Smile\"\nPhoebe Snow – vocals on \"Smile\"\nPatti Austin – backing vocals\nLani Groves – backing vocals\nProduction\n\nJohn Court – executive producer\nPhil Ramone – producer, recording engineer\nVicki Fabry – recording assistant\nTheresa Del Pozzo – production coordinator\nSam Shaw – photography, design\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "jam-session",
+  "kind": "album",
+  "ours": {
+   "title": "Jam Session",
+   "artist": "Charlie Parker",
+   "year": 1990,
+   "label": "Verve",
+   "albumDNA": "With Jam Session (1990), alto saxophonist Charlie Parker delivers a swing program for the Verve label. Standouts include \"Jam Blues\" and \"What Is This Thing Called Love\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond.",
+   "keyTracks": [
+    "Jam Blues",
+    "What Is This Thing Called Love",
+    "Ballad Medley",
+    "Funky Blues"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "7797aa34-6267-4a3b-bdf7-6a90b4dd7694",
+     "title": "Jam Session",
+     "date": "1990",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Charlie Parker"
+     ],
+     "labels": [
+      {
+       "name": "Verve",
+       "catalogNumber": "833 564-2"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "25a15425-3af4-3482-85e8-5b48bebd03b6",
+      "title": "Jam Session",
+      "firstReleaseDate": "1990",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Jam Blues",
+      "What Is This Thing Called Love",
+      "Ballad Medley",
+      "Funky Blues"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Jam_Session_(album)",
+    "page": {
+     "requestedTitle": "Jam Session (album)",
+     "resolvedTitle": "Jam Session (album)",
+     "shortDescription": "1954 live album by Clifford Brown, Clark Terry and Maynard Ferguson",
+     "extract": "Jam Session is a live album by trumpeters Clifford Brown, Clark Terry, and Maynard Ferguson featuring tracks recorded in early 1954 and released on the EmArcy label. The album was recorded at the same session that produced Dinah Washington's Dinah Jams.\n\n\n== Reception ==\n\nBillboard in 1955 wrote: \"Good as all the sidemen are, it's the three trumpets which walk off with top honors. Recording is excellent.\" AllMusic awarded the album 4½ stars and Scott Yanow, in his review, calls it \"A brilliant set that is highly recommended\". \n\n\n== Track listing ==\n\"What Is This Thing Called Love?\" (Cole Porter) – 14:56\n\"Darn That Dream\" (Eddie DeLange, Jimmy Van Heusen) – 5:16\n\"Move\" (Denzil Best) – 14:28\n\"My Funny Valentine/Don't Worry 'bout Me/Bess, You Is My Woman Now/It Might as Well Be Spring\" (Lorenz Hart, Richard Rodgers/Rube Bloom, Ted Koehler/George Gershwin, Ira Gershwin/Oscar Hammerstein II, Rogers) – 11:29\n\n\n== Personnel ==\nClifford Brown, Maynard Ferguson, Clark Terry – trumpet\nHerb Geller – alto saxophone (tracks 1, 3 & 4)\nHarold Land – tenor saxophone\nJunior Mance – piano (tracks 1, 3 & 4)\nRichie Powell – piano (track 2)\nKeter Betts, George Morrow – bass\nMax Roach – drums\nDinah Washington – vocals (track 2)\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "hipmotism",
+  "kind": "album",
+  "ours": {
+   "title": "Hipmotism",
+   "artist": "Arthur Blythe",
+   "year": 1991,
+   "label": "Enja Records",
+   "albumDNA": "Hipmotism is a 1991 album by Arthur Blythe, released on Enja. Its tracks include \"Dear Dessa\", \"Dance Benita Dance\", and the title track \"Hipmotism\".",
+   "keyTracks": [
+    "Dear Dessa",
+    "Dance Benita Dance",
+    "Cousin Sidney",
+    "Shadows",
+    "Hipmotism"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "0bc317ff-ae0d-4b97-b722-7f94b0bc8712",
+     "title": "Hipmotism",
+     "date": "",
+     "country": "DE",
+     "status": "Official",
+     "artists": [
+      "Arthur Blythe"
+     ],
+     "labels": [
+      {
+       "name": "enja",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "04e4c1ae-76ea-35de-a060-ac3538813f28",
+      "title": "Hipmotism",
+      "firstReleaseDate": "1991",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Dear Dessa",
+      "Dance Benita Dance",
+      "Cousin Sidney",
+      "Shadows",
+      "Hipmotism",
+      "Miss Eugie",
+      "Matter Of Fact",
+      "Bush Baby",
+      "My Son Ra"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Night_Song_(Arthur_Blythe_album)",
+    "page": {
+     "requestedTitle": "Night Song (Arthur Blythe album)",
+     "resolvedTitle": "Night Song (Arthur Blythe album)",
+     "shortDescription": "1997 studio album by Arthur Blythe",
+     "extract": "Night Song is an album by the saxophonist Arthur Blythe, released via Clarity Recordings in 1997.\n\n\n== Reception ==\n\nIn his review for AllMusic, Scott Yanow stated: \"This is a particularly intriguing and enjoyable release ... Whether it be hints at New Orleans parade rhythms, Afro-Cuban jazz, older styles of jazz, or freer explorations, this is a fascinating set that is well worth several listens\". In JazzTimes, Miles Jordan wrote: \"This challenging CD finds Blythe doing most of the soloing with Stewart’s ebullient tuba primarily functioning as a walking bass. ... On the tunes that feature the percussionists-all playing hand drums-his marimbas definitely imbue them with a 'world music' feeling\".\n\n\n== Track listing ==\nAll compositions by Arthur Blythe except where noted\n\n\"Night Song (Cancion de La Noche)\" (Arthur Blythe, Gust Tsilias) – 5:44\n\"Sorrows of Sonny Liston\" (Tsilias) – 3:58\n\"Down San Diego Way\" – 3:43\n\"It's Hungry/Fulfillment\" (Blythe, Chico Freeman, Bob Stewart, Arto Tuncboyaciyan) – 7:43\n\"Ransom\" (Blythe, Tuncboyaciyan) – 4:04\n\"Cause of It All\" (Blythe, Stewart) – 5:02\n\"We See\" (Thelonious Monk) – 5:05\n\"Blood Count\" (Billy Strayhorn) – 6:18\n\"Slanderous\" – 3:57\n\"Contemplation\" – 5:43\n\"Hardly\" – 5:24\n\"Night Song (Cancion de La Noche) (Reprise)\" (Blythe, Tsilias) – 2:59\n\n\n== Personnel ==\nArthur Blythe – alto saxophone\nChico Freeman – bass clarinet, percussion\nBob Stewart – tuba\nGust Tsillis – marimba, vibraphone\nArto Tunçboyacıyan, David Frazier, Josh Jones – percussion\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "that-certain-feeling",
+  "kind": "album",
+  "ours": {
+   "title": "That Certain Feeling",
+   "artist": "Ran Blake",
+   "year": 1991,
+   "label": "Unknown",
+   "albumDNA": "That Certain Feeling is a 1991 album by pianist Ran Blake. It is built around George Gershwin material, with tracks such as \"It Ain't Necessarily So,\" \"The Man I Love,\" \"Mine,\" and \"Oh Where's My Bess?\"",
+   "keyTracks": [
+    "Ouverture I",
+    "Mine",
+    "It Ain't Necessarily So",
+    "The Man I Love",
+    "Oh Where's My Bess? I",
+    "Blues"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "2a2472e8-b211-4223-9543-3233ed08bc1c",
+     "title": "That Certain Feeling",
+     "date": "1991",
+     "country": "CH",
+     "status": "Official",
+     "artists": [
+      "Ran Blake"
+     ],
+     "labels": [
+      {
+       "name": "hat ART",
+       "catalogNumber": "hat ART CD 6077"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0d1317f6-83f3-4d1d-9608-c8dffb5551f2",
+      "title": "That Certain Feeling",
+      "firstReleaseDate": "1991",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Ouverture I",
+      "Mine",
+      "It Ain't Necessarily So",
+      "The Man I Love",
+      "Oh Where's My Bess? I",
+      "Blues",
+      "Strike Up the Band",
+      "What Do You Want Wid Bess?",
+      "I Got Rhythm",
+      "That Certain Feeling I",
+      "Ouverture II",
+      "Someone To Watch Over Me",
+      "But Not For Me",
+      "Who Cares?",
+      "Liza",
+      "Clara, Clara",
+      "Oh Where's My Bess? II",
+      "'s Wonderful",
+      "That Certain Feeling II"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "That Certain Feeling (album)",
+     "resolvedTitle": "That Certain Feeling (album)",
+     "shortDescription": "1968 studio album by John Patton",
+     "extract": "That Certain Feeling is an album by American organist John Patton recorded in 1968 and released on the Blue Note label.\n\n\n== Reception ==\n\nThe AllMusic review by Stephen Thomas Erlewine awarded the album 3½ stars and stated \"there are moments when everything comes together and it just cooks. And those are the moments that make That Certain Feeling worth a search\".\n\n\n== Track listing ==\nAll compositions by John Patton except where noted\n\n\"String Bean\" - 5:42\n\"I Want to Go Home\" - 8:36\n\"Early A.M.\" - 7:17\n\"Dirty Fingers\" - 6:09\n\"Minor Swing\" - 6:38\n\"Daddy James\" (Jimmy Watson) - 6:47\nRecorded at Rudy Van Gelder Studio, Englewood Cliffs, New Jersey on March 8, 1968.\n\n\n== Personnel ==\nBig John Patton - organ\nJunior Cook - tenor saxophone\nJimmy Ponder - guitar\nClifford Jarvis - drums\n\n\n== References =="
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "That Certain Feeling (album)",
+      "shortDescription": "1968 studio album by John Patton",
+      "extractHead": "That Certain Feeling is an album by American organist John Patton recorded in 1968 and released on the Blue Note label.\n\n\n== Reception ==\n\nThe AllMusic review by Stephen Thomas Erlewine awarded the album 3½ stars and stated \"there are moments when everything comes together and it just cooks. And those are the moments that make That Certain Feeling worth a search\".\n\n\n== Track listing ==\nAll compositions by John Patton except where noted\n\n\"String Bean\" - 5:42\n\"I Want to Go Home\" - 8:36\n\"Early A.M."
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "a-jazz-hour-with-dizzy-gillespie",
+  "kind": "album",
+  "ours": {
+   "title": "A Jazz Hour With Dizzy Gillespie",
+   "artist": "Dizzy Gillespie",
+   "year": 1992,
+   "label": "Distribution Movieplay",
+   "albumDNA": "A Jazz Hour With Dizzy Gillespie is a 1992 Dizzy Gillespie collection issued on Distribution Movieplay. It gathers bebop and Latin-jazz staples associated with the trumpeter, including \"Manteca,\" \"Groovin' High,\" \"Tin Tin Deo,\" and \"Birk's Works,\" alongside standards such as \"Alone Together\" and \"I Can't Get Started.\"",
+   "keyTracks": [
+    "Tin Tin Deo",
+    "Alone Together",
+    "Manteca",
+    "Ooh-Shoo-Be-Doo-Bee",
+    "Groovin' High"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "4ad48640-1745-4d59-aa98-b57843239cc2",
+     "title": "A Jazz Hour With Dizzy Gillespie",
+     "date": "1992",
+     "country": null,
+     "status": "Official",
+     "artists": [
+      "Dizzy Gillespie"
+     ],
+     "labels": [
+      {
+       "name": "Distribution Movieplay",
+       "catalogNumber": "73550"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "02a37803-18ba-4f38-9f88-bbb5be6a8338",
+      "title": "A Jazz Hour With Dizzy Gillespie",
+      "firstReleaseDate": "1992",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Tin Tin Deo",
+      "Alone Together",
+      "Manteca",
+      "Ooh-Shoo-Be-Doo-Bee",
+      "Groovin' High",
+      "Birk's Works",
+      "School Days",
+      "I Can't Get Started",
+      "They Can't Take That Away From Me",
+      "There Is No Greater Love",
+      "Lady Be Good",
+      "The Mooche"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Dizzy_Gillespie_and_the_Double_Six_of_Paris",
+    "page": {
+     "requestedTitle": "Dizzy Gillespie and the Double Six of Paris",
+     "resolvedTitle": "Dizzy Gillespie and the Double Six of Paris",
+     "shortDescription": "1964 studio album by Dizzy Gillespie, Les Double Six, and Bud Powell",
+     "extract": "Dizzy Gillespie and the Double Six of Paris is a 1963 studio album collaboration between Dizzy Gillespie and Les Double Six, also known as the Double Six of Paris, a French vocal group who sings in vocalese to songs associated with Dizzy Gillespie. Gillespie, pianist Bud Powell, and a rhythm section accompany; two of the songs feature his quintet, with James Moody. It was reissued on CD in 1989.\nThe vocal parts by the Double Six were overdubbed on top of recordings by Gillespie, Powell, Pierre Michelot, and Kenny Clarke that had been made in July 1963. Two tracks were recorded with James Moody, Kenny Barron, Chris White, and Rudy Collins in Chicago in September 1963.\n\n\n== Reception ==\nLeonard Feather described the album as \"unique and unprecedented\" and described the music as \"sensational.\" Commenting on the vocalists, he wrote, \"The results impress partly as a technical tour de force, and the Double Six must be respected for its accuracy and peerless intonation, but these values are a means to an artistically complete end.\"\nThe Penguin Guide to Jazz gave the album 3.5 of 4 stars, applauding Gillespie's \"superb solos\" and the Double Six's \"supremely athletic vocals.\"\n\n\n== Track listing ==\n\"Emanon\" (Gillespie, Shaw) – 3:44\n\"Anthropology\" (Gillespie, Parker) – 2:45\n\"Tin Tin Deo\" (Fuller, Pozo) – 4:15\n\"One Bass Hit\" (Brown, Fuller, Gillespie) – 3:26\n\"Two Bass Hit\" (Gillespie, Lewis) – 3:31\n\"Groovin' High\" (Gillespie, Paparelli) – 2:27\n\"Ooh-Shoo-Be-Doo-Bee\" (Carroll, Gillespie, Graham) – 3:04\n\"Hot House\" (Dameron) – 3:01\n\"Con Alma\" (Gillespie) – 3:35\n\"Blue 'n' Boogie\" (Gillespie, Paparelli) – 3:08\n\"The Champ\" (Gillespie) – 3:06\n\"Ow!\" (Gillespie) – 2:43\n\n\n== Personnel ==\n\n\n=== Vocalists ===\nJean-Claude Briodin – vocals\nChristiane Legrand – vocals\nEddy Louiss – vocals\nMimi Perrin – vocals\nBob Smart – vocals\nWard Swingle – vocals\n\n\n=== Instrumentalists ===\nDizzy Gillespie – trumpet, vocal (7)\nJames Moody – alto saxophone   (7, 9)\nKenny Barron – piano   (7, 9)\nBud Powell – piano (1–3, 6, 8, 10–12)\nPierre Michelot – bass (1–3, 6, 8, 10–12)\nChris White – bass (7, 9)\nKenny Clarke – drums   (1–3, 6, 8, 10–12)\nRudy Collins – drums (7, 9)\n\n\n=== Arrangers ===\nLalo Schifrin – arranger\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "celebration-mseleku",
+  "kind": "album",
+  "ours": {
+   "title": "Celebration",
+   "artist": "Bheki Mseleku",
+   "year": 1992,
+   "label": "World Circuit",
+   "albumDNA": "Celebration is the 1992 debut album by South African musician Bheki Mseleku, released on World Circuit. Recorded in two days, it was shortlisted for the 1992 Mercury Prize, with a contribution from Courtney Pine. The program includes \"Celebration,\" \"Angola,\" \"One for All - All for One,\" and \"Blues for Afrika.\"",
+   "keyTracks": [
+    "Celebration",
+    "Angola",
+    "One for All - All for One",
+    "Blues for Afrika"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Celebration_(Bheki_Mseleku_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "9d802c27-0ff9-4d6f-bd00-d2b1e60ace48",
+     "title": "Celebration",
+     "date": "1992",
+     "country": "GB",
+     "status": "Official",
+     "artists": [
+      "Bheki Mseleku"
+     ],
+     "labels": [
+      {
+       "name": "World Circuit",
+       "catalogNumber": "WCD 028"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "424bef8c-a5b3-30a5-bebb-ec2336d0814d",
+      "title": "Celebration",
+      "firstReleaseDate": "1992",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Celebration",
+      "One for All - All for One",
+      "Angola",
+      "Blues for Afrika",
+      "The Age of Inner Knowing",
+      "The Messenger",
+      "Joy",
+      "Supreme Love",
+      "Cycle",
+      "Closer to the Source"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Celebration_(Bheki_Mseleku_album)",
+    "page": {
+     "requestedTitle": "Celebration (Bheki Mseleku album)",
+     "resolvedTitle": "Celebration (Bheki Mseleku album)",
+     "shortDescription": "1991 studio album by Bheki Mseleku",
+     "extract": "Celebration is the debut album by the South African musician Bheki Mseleku. It was on the short list of nominees for the 1992 Mercury Prize. Courtney Pine contributed to the album, which was recorded in two days.\n\n\n== Critical reception ==\n\nThe Plain Dealer deemed the album \"a serious, heartfelt and a very enjoyable first effort.\"\nAllMusic wrote: \"While his percussive, slashing style is reminiscent of McCoy Tyner and Don Pullen, [Mseleku] has his own voicings, phrasing, rhythmic drive, and sound.\"\n\n\n== Track listing ==\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "kansas-city-7",
+  "kind": "album",
+  "ours": {
+   "title": "Kansas City 7",
+   "artist": "Count Basie",
+   "year": 1992,
+   "label": "Pablo",
+   "albumDNA": "A 1980 Pablo release reissued in 1992, Kansas City 7 presents pianist Count Basie working in a swing vein. Among the tracks are \"Jaylock\" and \"Exactly Like You\". The album comes from the big band era when jazz was America's popular music, driven by dancing and radio.",
+   "keyTracks": [
+    "Jaylock",
+    "Exactly Like You",
+    "I'll Always Be in Love With You",
+    "If I Could Be With You One Hour Tonight",
+    "Honi Coles"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Kansas_City_7"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "0b1954aa-78d8-4f04-9e0c-7897bf8805ed",
+     "title": "Kansas City 7",
+     "date": "1992",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Count Basie"
+     ],
+     "labels": [
+      {
+       "name": "Pablo",
+       "catalogNumber": "2310-908"
+      },
+      {
+       "name": "Original Jazz Classics",
+       "catalogNumber": "OJCCD-690-2"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "07cc05d9-2bdf-3f91-96b6-846beff7ee87",
+      "title": "Kansas City 7",
+      "firstReleaseDate": "1992",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Jaylock",
+      "Exactly Like You",
+      "I'll Always Be in Love With You",
+      "If I Could Be With You One Hour Tonight",
+      "Honi Coles",
+      "Blues for Norman",
+      "Count Me In"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Kansas_City_7",
+    "page": {
+     "requestedTitle": "Kansas City 7",
+     "resolvedTitle": "Kansas City 7",
+     "shortDescription": "1980 studio album by Count Basie",
+     "extract": "Kansas City 7 is a 1980 studio album by Count Basie.\n\n\n== Track listing ==\n\"Jaylock\" (Count Basie, Eddie \"Lockjaw\" Davis, Freddie Hubbard, Joe Pass) – 7:17\n\"Exactly Like You\" (Dorothy Fields, Jimmy McHugh) – 8:00\n\"I'll Always Be in Love With You\" (Bud Green, Herman Ruby, Sam Stept) – 7:29\n\"If I Could Be with You (One Hour Tonight)\" (Henry Creamer, James P. Johnson) – 6:20\n\"Honi Coles\" (Basie, Davis, Hubbard, J. J. Johnson) – 6:48\n\"Blues for Norman\" (Basie, Davis, Hubbard, J. J. Johnson) – 8:51\n\"Count Me In\" (Basie) – 9:12\n\n\n== Personnel ==\nCount Basie - piano\nEddie \"Lockjaw\" Davis - tenor saxophone\nJ. J. Johnson - trombone\nFreddie Hubbard - trumpet\nJoe Pass - guitar\nJohn Heard - double bass\nJake Hanna - drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "plays-and-plays-and-plays",
+  "kind": "album",
+  "ours": {
+   "title": "Plays and Plays and Plays",
+   "artist": "Dave Brubeck",
+   "year": 1992,
+   "label": "Original Jazz Classics",
+   "albumDNA": "Plays and Plays and Plays is an album by pianist Dave Brubeck, released in 1992 on Original Jazz Classics. Features \"Sweet Cleo Brown\" and \"I’m Old Fashioned\" in a cool jazz context, highlighting Dave Brubeck's interpretive range.",
+   "keyTracks": [
+    "Sweet Cleo Brown",
+    "I’m Old Fashioned",
+    "Love Is Here to Stay",
+    "Indian Summer",
+    "In Search of a Theme"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "5241d778-53fb-4352-8ea3-fe5f1f360296",
+     "title": "Plays and Plays and Plays",
+     "date": "1992-06-22",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Dave Brubeck"
+     ],
+     "labels": [
+      {
+       "name": "Original Jazz Classics",
+       "catalogNumber": "OJCCD 716-2"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "242077f0-5487-313f-8887-8ef3f991e20a",
+      "title": "Plays and Plays and Plays",
+      "firstReleaseDate": "1992-06-22",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Sweet Cleo Brown",
+      "I’m Old Fashioned",
+      "Love Is Here to Stay",
+      "Indian Summer",
+      "In Search of a Theme",
+      "You’d Be So Nice to Come Home To",
+      "I See Your Face Before Me",
+      "They Say It’s Wonderful",
+      "Imagination",
+      "Two Sleepy People"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Brubeck_Plays_Brubeck",
+    "page": {
+     "requestedTitle": "Brubeck Plays Brubeck",
+     "resolvedTitle": "Brubeck Plays Brubeck",
+     "shortDescription": "1956 studio album by Dave Brubeck",
+     "extract": "Brubeck Plays Brubeck is a jazz album by pianist Dave Brubeck. The cover features design by S. Neil Fujita.\n\n\n== Track listing ==\nAll compositions by Brubeck.\n\n\"Swing Bells\" 3:39\n\"Walkin' Line\" 2:47\n\"In Your Own Sweet Way\" 5:01\n\"Two-Part Contention\" 5:39\n\"Weep No More\" 3:59\n\"The Duke\" 2:54\n\"When I Was Young\" 3:19\n\"One Moment Worth Years\" 4:55\n\"The Waltz\" 3:49\nTracks 1, 2, 3, 5, 7, 8 and 9 recorded on April 18, 1956; tracks 4 and 6 recorded on April 19.\n\n\n== Personnel ==\nDave Brubeck - piano\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "russell-malone",
+  "kind": "album",
+  "ours": {
+   "title": "Russell Malone",
+   "artist": "Russell Malone",
+   "year": 1992,
+   "label": "Columbia",
+   "albumDNA": "Russell Malone is the self-titled 1992 album by jazz guitarist Russell Malone, released on Columbia (52825). Tracks include \"Wives and Lovers\", \"When I Take My Sugar to Tea\", \"St. Louis Blues\" and \"Moonlight Serenade\".",
+   "keyTracks": [
+    "Wives and Lovers",
+    "Invisible Colors",
+    "When I Take My Sugar to Tea",
+    "It's the Talk of the Town",
+    "St. Louis Blues"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "681249b4-2eaa-4438-b2a6-f5cd057bd53d",
+     "title": "Russell Malone",
+     "date": "1992-10-06",
+     "country": null,
+     "status": "Official",
+     "artists": [
+      "Russell Malone"
+     ],
+     "labels": [
+      {
+       "name": "Columbia",
+       "catalogNumber": "52825"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "3dcc4e36-4610-4cdb-bf1e-37afb28fda6f",
+      "title": "Russell Malone",
+      "firstReleaseDate": "1992-10-06",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Wives and Lovers",
+      "Invisible Colors",
+      "When I Take My Sugar to Tea",
+      "It's the Talk of the Town",
+      "St. Louis Blues",
+      "I Don't Know Enough About You",
+      "Close Your Eyes",
+      "London by Night",
+      "I Can't Believe That You're in Love With Me",
+      "Moonlight Serenade",
+      "Flowers for Emmett Till",
+      "Precious Lord"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Post_Malone",
+    "page": {
+     "requestedTitle": "Post Malone",
+     "resolvedTitle": "Post Malone",
+     "shortDescription": "American singer and rapper (born 1995)",
+     "extract": "Austin Richard Post (born July 4, 1995), known professionally as Post Malone, is an American singer, rapper, songwriter, record producer, and actor. His music blends various genres including pop, hip-hop, trap, country, R&B, and rock. \nMalone began his musical career in 2011, and earned mainstream recognition with his 2015 cloud rap debut single, \"White Iverson\". The song led him to sign with Republic Records, and served as lead single for his debut studio album, Stoney (2016), which spawned the Diamond-certified single \"Congratulations\" (featuring Quavo). His second album, Beerbongs & Bentleys (2018), debuted atop the US Billboard 200 and set numerous streaming records. It contained the US Billboard Hot 100 number-one singles \"Rockstar\" (featuring 21 Savage) and \"Psycho\" (featuring Ty Dolla Sign), and was nominated for Album of the Year at the 61st Grammy Awards. His third Hot 100 number-one single, \"Sunflower\", a duet with Swae Lee, was released for the accompanying soundtrack to the 2018 animated film Spider-Man: Into the Spider-Verse; it became the highest-certified song in RIAA history and was the first to receive a 2× Diamond certification. \nMalone's third album, Hollywood's Bleeding (2019), became his second project to both debut atop the Billboard 200 and receive Grammy Award nomination for Album of the Year. It spawned the single \"Circles\", which spent 61 weeks on the Hot 100, becoming Malone's biggest hit single to date. Malone's fourth and fifth albums, Twelve Carat Toothache (2022) and Austin (2023), both peaked at number two on the Billboard 200. In 2024, he topped the Billboard Hot 100 twice more with his guest appearance on Taylor Swift's \"Fortnight\" and his first country pop song, \"I Had Some Help\" (featuring Morgan Wallen). The latter served as the lead single for Malone's sixth album and country music debut, F-1 Trillion (2024), which became his third number-one album on the Billboard 200.\nMalone is among the best-selling music artists, with over 150 million records sold in the US alone according to the RIAA. His accolades include eleven Billboard Music Awards, five American Music Awards, six MTV Video Music Awards, and eighteen Grammy Award nominations. He holds several Billboard chart records: He is the first solo lead artist to top both the Rap Airplay and Adult Contemporary charts, while \"Circles\" set the record for longest climb to number one (41 weeks) on the Adult Contemporary chart by a solo artist. As of 2025, Malone is second only to Drake for artists with the most diamond-certified songs, with nine to his name.\n\n\n== Early life ==\nAustin Richard Post was born on July 4, 1995, in Syracuse, New York. He was raised by his father, Richard Post, and his stepmother, Jodie. His father had been a DJ in his youth and introduced Malone to many genres of music including hip-hop, country, and rock. When Malone was nine years old, he and his family moved to Grapevine, Texas, after his father became the manager of concessions for the Dallas Cowboys football team. According to Malone, his first foray into professional music began when he played guitar in a local metalcore band. His interest in the genre persisted past this endeavor as he also auditioned as a guitarist for the Texas-based metalcore group Crown the Empire in 2010, but was rejected after his guitar strings broke during the audition. He credited his initial interest in learning guitar to the video game series Guitar Hero.\nMalone has expressed his affinity for alternative rock music, and appeared for a DJ set at Emo Nite in Los Angeles, California, in June 2017, playing songs by My Chemical Romance at the event.  He says soon afterwards he transitioned to softer rock as well as hip-hop, before beginning to experiment on FL Studio.\n\n\n== Career ==\n\n\n=== 2011–2016: Career beginnings and Stoney ===\n\nAccording to Malone, he chose \"Post Malone\" as his stage name when he was \"14 or 15\". The name was rumored to be a reference to the professional basketball player Karl Malone, but Malone later explained that \"Post\" is his last name, and he used a \"rap name generator\" to get \"Malone\". \nAt age 17, Malone, along with his friend Jazzy Eff, released a parody synth-pop ballad song called \"Why Don't You Love Me\" under the alias Leon DeChino, intended for a school project. The song reappeared online in 2016. Malone later referred to the DeChino alias on his song \"Psycho\".\nAt the age of 18, using audio editor Audacity, Malone released his first mixtape, Y.A.T."
+    }
+   }
+  }
+ },
+ {
+  "id": "capricorn-rising",
+  "kind": "album",
+  "ours": {
+   "title": "Capricorn Rising",
+   "artist": "Sam Rivers",
+   "year": 1993,
+   "label": "Black Saint",
+   "albumDNA": "On Capricorn Rising, tenor saxophonist Sam Rivers leads a free jazz session recorded for Black Saint in 1976. Among the tracks are \"Break Out\" and \"Capricorn Rising\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond. Though most famously a tenor saxophonist, he also performed on soprano saxophone, bass clarinet, flute, harmonica, piano and viola.",
+   "keyTracks": [
+    "Break Out",
+    "Capricorn Rising",
+    "Joycie Girl",
+    "Fall Out"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Sam_Rivers_(jazz_musician)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "09fd9f71-1c4e-4927-ae49-f6a35d9726a7",
+     "title": "Capricorn Rising",
+     "date": "1976",
+     "country": "JP",
+     "status": "Official",
+     "artists": [
+      "Don Pullen",
+      "Sam Rivers"
+     ],
+     "labels": [
+      {
+       "name": "Black Saint",
+       "catalogNumber": "JC 3504"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "a26dadc0-217f-3b9e-a228-2997d0d06c98",
+      "title": "Capricorn Rising",
+      "firstReleaseDate": "1976",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Break Out",
+      "Capricorn Rising",
+      "Joycie Girl",
+      "Fall Out"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Sam_Rivers_(jazz_musician)",
+    "page": {
+     "requestedTitle": "Sam Rivers (jazz musician)",
+     "resolvedTitle": "Sam Rivers (jazz musician)",
+     "shortDescription": "American jazz musician and composer (1923–2011)",
+     "extract": "Samuel Carthorne Rivers (September 25, 1923 – December 26, 2011) was an American jazz musician and composer. Though most famously a tenor saxophonist, he also performed on soprano saxophone, bass clarinet, flute, harmonica, piano and viola.\nActive in jazz since the early 1950s, he earned wider attention during the mid-1960s spread of free jazz. Rivers was an influential and prominent artist in jazz music.\n\n\n== Early life ==\nRivers was born in El Reno, Oklahoma, United States. His father was a gospel musician who had sung with the Fisk Jubilee Singers and the Silverstone Quartet, exposing Rivers to music from an early age. His grandfather was Marshall W. Taylor, a religious leader from Kentucky. Rivers was stationed in California in the 1940s during a stint in the Navy. Here he performed semi-regularly with blues singer Jimmy Witherspoon. Rivers moved to Boston, Massachusetts, in 1947, where he studied at the Boston Conservatory with Alan Hovhaness.\nHe performed with Quincy Jones, Herb Pomeroy, Tadd Dameron and others.\n\n\n== Blue Note era ==\nIn 1959, Rivers began performing with 13-year-old drummer Tony Williams. Rivers was briefly a member of the Miles Davis Quintet in 1964, partly on Williams's recommendation. This edition of the quintet released a single live album, Miles in Tokyo, from a show recorded on July 14 at Kohseinenkin Hall. Rivers' tenure with the quintet was brief: he had engagements in Boston, and his playing style was too avant-garde for Davis during this period; he was replaced by Wayne Shorter shortly thereafter.\nRivers was signed by Blue Note Records, for whom he recorded four albums as leader and made several sideman appearances. Among noted sidemen on his own Blue Note albums were Jaki Byard, who appears on Fuchsia Swing Song (1964), Herbie Hancock and Freddie Hubbard. He appeared on Blue Note recordings by Tony Williams, Andrew Hill and Larry Young.\nRivers derived his music from bebop, but he was an adventurous player, adept at free jazz. The first of his Blue Note albums, Fuchsia Swing Song, adopts an approach sometimes called \"inside-outside\". Here the performer frequently obliterates the explicit harmonic framework (\"going outside\") but retains a hidden link so as to be able to return to it in a seamless fashion. Rivers brought the conceptual tools of bebop harmony to a new level in this process, united at all times with the ability to \"tell a story\", which Lester Young had laid down as a benchmark for the jazz improviser.\nHis powers as a composer were also in evidence in this period: the ballad \"Beatrice\" from Fuchsia Swing Song has become an important standard, particularly for tenor saxophonists. For instance, it is the first cut on Joe Henderson's 1985 The State of the Tenor, Vols. 1 & 2, and Stan Getz recorded it during the 1989 sessions eventually issued as Bossas & Ballads – The Lost Sessions.\n\n\n== Loft era ==\nDuring the 1970s, Rivers and his wife, Beatrice, ran a jazz loft called \"Studio Rivbea\" in New York City's NoHo district.  It was located on Bond Street in Lower Manhattan and was originally opened as a public performance space as part of the first New York Musicians Festival in 1970.  Critic John Litweiler has written that \"In New York Loft Jazz meant Free Jazz in the Seventies\" and Studio Rivbea was \"the most famous of the lofts\". The loft was important in the development of jazz because it was an example of artists creating their own performance spaces and taking responsibility for presenting music to the public. This allowed for music to be free of extra-musical concerns that would be present in a nightclub or concert hall situation. A series of recordings made at the loft were issued under the title Wildflowers on the Douglas label.\nRivers was also recruited by Clifford Thornton to lead a student world-music/free-jazz ensemble at Wesleyan University in 1971. During this era Rivers continued to record, including several albums for Impulse!: Streams, recorded live at Montreux, Hues (both records contain different trio performances later collated on CD as Trio Live), the quartet album Sizzle and his first big-band disc, Crystals; perhaps his best-known work from this period though is his appearance on Dave Holland's Conference of the Birds, in the company of Anthony Braxton and Barry Altschul.\n\n\n== Later career ==\nIn the early 1990s, he and his wife moved to Florida, in part to expand his orchestra compositions with a reading band in Orlando. This band became the longest-running"
+    }
+   }
+  }
+ },
+ {
+  "id": "love-notes",
+  "kind": "album",
+  "ours": {
+   "title": "Love Notes",
+   "artist": "Betty Carter",
+   "year": 1994,
+   "label": "Jazz Door",
+   "albumDNA": "Love Notes is a 1994 post-bop album by Betty Carter, recorded for the Jazz Door label. Carter, one of the most inventive vocal improvisers in jazz, applies her signature behind-the-beat phrasing and harmonic adventurousness to a program of standards and original material.",
+   "keyTracks": [
+    "Feed The Fire",
+    "Love Notes",
+    "Sometimes I'm Happy",
+    "Fake",
+    "Lover Man",
+    "I'm All Smiles"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "27d48fd5-6a05-4a52-a065-237a10fe65bb",
+     "title": "Love Notes",
+     "date": "1994",
+     "country": "DE",
+     "status": "Bootleg",
+     "artists": [
+      "Betty Carter",
+      "Geri Allen",
+      "Dave Holland",
+      "Jack DeJohnette"
+     ],
+     "labels": [
+      {
+       "name": "Jazz Door",
+       "catalogNumber": "JD 1272"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "19bbc0fb-482a-4b78-8180-5bd8a810da0d",
+      "title": "Love Notes",
+      "firstReleaseDate": "1994",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Feed The Fire",
+      "Love Notes",
+      "Sometimes I'm Happy",
+      "Fake",
+      "Lover Man",
+      "I'm All Smiles",
+      "If I Should Lose You",
+      "All Or Nothing At All"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Aaron_Carter",
+    "page": {
+     "requestedTitle": "Aaron Carter",
+     "resolvedTitle": "Aaron Carter",
+     "shortDescription": "American singer (1987–2022)",
+     "extract": "Aaron Charles Carter (December 7, 1987 – November 5, 2022) was an American singer and rapper. He rose to fame as a teen pop singer in the late 1990s, establishing himself as a star among preteen and teenage audiences during the early 2000s, with his four studio albums.\nCarter began performing at age seven, following the formation of his brother Nick's group, the Backstreet Boys. He released his self-titled debut album in 1997 at age nine, selling one million copies worldwide. His second album, Aaron's Party (Come Get It) (2000), sold three million copies in the United States, and Carter soon began making guest appearances on Nickelodeon and touring with the Backstreet Boys following the album's release.\nCarter's next album, Oh Aaron, also went platinum, and in 2002 he released what would be his final studio album for more than 15 years, Another Earthquake!, followed by the 2003 compilation album Most Requested Hits.\nCarter appeared on Dancing with the Stars, in the Broadway musical Seussical, and in the off-Broadway musical The Fantasticks, in addition to making several one-off performances.\nIn 2014, he released the single \"Ooh Wee\", featuring rapper Pat SoLo. Carter released the single \"Fool's Gold\" in 2016 and the EP Love in 2017. His fifth studio album, also titled Love, was released in 2018. A sixth album, Blacklisted, was released two days after his accidental drug-related death.\n\n\n== Early life ==\nAaron Charles Carter was born on December 7, 1987, in Tampa, Florida. His parents, Jane Eleonora Schneck (née Spaulding, previously Carter) and Robert Gene Carter (1952–2017), ran a retirement home. He had an older brother, Nick, a member of the Backstreet Boys, and three sisters: his twin, Angel, a model; Bobbie Jean (BJ) (1982–2023); and Leslie (1986–2012). In addition to his full siblings, he also had an older half-sister, Ginger Lee Carter (1972–2023), and a younger half-brother, Kaden Carter. The family is originally from Jamestown, New York. Carter attended Frank D. Miles Elementary School and the Ruskin School in Florida.\nCarter's parents divorced in 2004; he was told about the divorce one hour before filming his MTV Cribs episode. In accordance with the California Child Actor's Bill, Carter's parents were supposed to put 15% of his earnings into a Coogan account. As per Carter, \"I got [...] $2 million when I turned 18 years old. I should have had at least $20 million in my account.\" After he turned 18 in 2005, Carter learned that he owed $4 million in back taxes. Carter claimed that his earnings had helped his parents purchase 30 cars and 15 houses; however, he did not receive any portion of the profits when they sold the properties. He also claimed that his father fired a .44 Magnum near his ear to coerce him into signing a $256,000 check. This left Carter with 70% deafness in one ear.\nCarter also had a tumultuous relationship with his siblings, with many of their feuds playing out on social media in later years. In September 2019, Carter leveled allegations of sexual abuse against his sister Leslie, who died of a drug overdose in 2012. Carter reported that the abuse began when he was ten years old, ended when he was 13, and occurred when Leslie would fail to take prescribed medication for her bipolar disorder. He also accused his brother Nick of life-long abuse, and implied that Nick also abused a female family member. Nick's legal team denied the allegations, which surfaced after Nick and their sister Angel sought restraining orders against Aaron, who reportedly confessed to thoughts of killing Nick's then-pregnant wife, Lauren.\n\n\n== Career ==\n\n\n=== 1997–1999: Music beginnings and self-titled debut album ===\nCarter began his career as the lead singer of Dead End as a 7-year-old. He left the band after two years because he wanted to perform pop music, while the other members were interested in alternative rock.\nCarter made his first solo appearance at age 9, singing The Jets' \"Crush on You\" when opening for the Backstreet Boys in Berlin in March 1997. The performance was followed by a record contract, and in the fall of 1997, he released his first single \"Crush on You\". Carter's self-titled debut studio album was released on December 1, 1997. The album achieved gold status in Canada, Denmark, Germany, Norway, and Spain, and was released in the United States on June 16, 1998.\n\n\n=== 2000–2001: Aaron's Party (Come Get It), acting debut, and Oh Aaron ===\nCarter's second studio album, Aaron's Party (Come Get It),"
+    }
+   }
+  }
+ },
+ {
+  "id": "tidal-wave",
+  "kind": "album",
+  "ours": {
+   "title": "Tidal Wave",
+   "artist": "Fletcher Henderson",
+   "year": 1994,
+   "label": "Squirrel Thing Recordings",
+   "albumDNA": "A 1994 Squirrel Thing Recordings compilation, Tidal Wave gathers early-jazz sides by Fletcher Henderson. It includes \"Hocus Pocus,\" \"Hocus Pocus (alternative version),\" and the title track.",
+   "keyTracks": [
+    "Hocus Pocus",
+    "Hocus Pocus (alternative version)",
+    "Phantom Phantasy",
+    "Harlem Madness",
+    "Tidal Wave",
+    "Limehouse Blues"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "09399262-2372-4f4d-a8d0-424ec0b21f05",
+     "title": "Tidal Wave",
+     "date": "1994-09-07",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Fletcher Henderson"
+     ],
+     "labels": [
+      {
+       "name": "Squirrel Thing Recordings",
+       "catalogNumber": "B01IOLFDCG"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "d58c366b-df80-4e34-a46d-550d9575a19a",
+      "title": "Tidal Wave",
+      "firstReleaseDate": "1994-09-07",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Hocus Pocus",
+      "Hocus Pocus (alternative version)",
+      "Phantom Phantasy",
+      "Harlem Madness",
+      "Tidal Wave",
+      "Limehouse Blues",
+      "Shanghai Shuffle",
+      "Big John’s Special",
+      "Happy as the Day Is Long",
+      "Tidal Wave",
+      "Down South Camp Meeting",
+      "Wrappin’ It Up",
+      "Memphis Blues",
+      "Wild Party",
+      "Rug Cutter’s Swing",
+      "Hotter Than ’Ell",
+      "Liza (All the Clouds’ll Roll Away)",
+      "Christopher Columbus",
+      "Grand Terrace Swing (Big Chief de Sota)",
+      "Blue Lou",
+      "Stealin’ Apples"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Tidal Wave (album)",
+     "resolvedTitle": "Tidal wave",
+     "shortDescription": "Topics referred to by the same term",
+     "extract": "Tidal wave may refer to:\n\n\n== Seas and oceans ==\nA tidal bore, which is a large movement of water formed by the funnelling of the incoming tide into a river or narrow bay\nA storm surge, or tidal surge, which can cause waves that breach flood defences\nA tsunami, a series of water waves in a body of water caused by the displacement of a large volume of water, although this usage of \"tidal wave\" is a misnomer and is disfavored by the scientific community.\nA megatsunami, which is an informal term to describe a tsunami that has initial wave heights that are much larger than normal tsunamis\nThe crest (physics) of a tide as it moves around the Earth\n\n\n== Film ==\nThe Tidal Wave, a 1920 British silent film\nTidal Wave (1973 film), a film based on novel Japan Sinks\nTidal Wave (2009 film), a South Korean disaster movie\nPortrait of Jennie (1948), rereleased with the title Tidal Wave\n\n\n== Amusements ==\nTidal Wave (Thorpe Park), the theme park ride at Thorpe Park, in the United Kingdom\nTidal Wave (Transformers), a Decepticon in the Transformers universe\n\n\n== Music ==\nThe Tidal Waves, a 1960s American garage rock band\n\n\n=== Albums ===\nTidal Wave (Taking Back Sunday album) or the title song, 2016\nTidal Wave (Young Liars album) or the title song, 2014\nTidal Wave (EP), by the Apples in Stereo (recording as the Apples), or the title song, 1993\nTidal Wave (Samishii Nettaigyo), by the Nolans, 1991\nTidal Wave!, by the Challengers, 1995\nTidal Wave, by Frankie Paul, 1985\n\n\n=== Songs ===\n\"Tidal Wave\" (song), by Sub Focus, 2012\n\"Tidal Wave\", by Bomb the Bass from Clear, 1995\n\"Tidal Wave\", by Chase Atlantic, 2018\n\"Tidal Wave\", by Got7 from Winter Heptagon, 2025\n\"Tidal Wave\", by Husky from Forever So, 2011\n\"Tidal Wave\", by Interpol from El Pintor, 2014\n\"Tidal Wave\", by John Foxx from Metamatic, 1980\n\"Tidal Wave\", by JP Cooper from Raised Under Grey Skies, 2017\n\"Tidal Wave\", by Karmin from Pulses, 2014\n\"Tidal Wave\", by the Killers from the B-side of the single \"Spaceman\", 2008\n\"Tidal Wave\", by Nickelback from Get Rollin', 2022\n\"Tidal Wave\", by Owl City from Ocean Eyes, 2009\n\"Tidal Wave\", by the Ozark Mountain Daredevils from It'll Shine When It Shines, 1974\n\"Tidal Wave\", by Portugal. The Man from Woodstock, 2017\n\"Tidal Wave\", by Ronnie Laws from Pressure Sensitive, 1975\n\"Tidal Wave\", by Skye Sweetnam from Noise from the Basement, 2004\n\"Tidal Wave\", by Smash, 1995\n\"Tidal Wave\", by the Sugarcubes from Here Today, Tomorrow Next Week!, 1989\n\"Tidal Wave\", by Thee Oh Sees, 2009\n\"Tidal Wave\", by the Upsetters from The Upsetter, 1969\n\"The Tidal Wave\", by Gorky's Zygotic Mynci from Gorky 5, 1998\n\"Tidal Waves\", by All Time Low from Future Hearts, 2015\n\n\n== Other uses ==\nOperation Tidal Wave, a 1943 World War II military operation\nTidalwave Microtech, defunct Taiwanese manufacturer of palmtop PCs\n\n\n== See also ==\nA rogue wave of up to 100 feet high, often in the middle of the ocean and against prevailing current and wave direction\nJwar Bhata (disambiguation) (lit. 'Tidal Wave'), various Indian films so titled"
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Tidal wave",
+      "shortDescription": "Topics referred to by the same term",
+      "extractHead": "Tidal wave may refer to:\n\n\n== Seas and oceans ==\nA tidal bore, which is a large movement of water formed by the funnelling of the incoming tide into a river or narrow bay\nA storm surge, or tidal surge, which can cause waves that breach flood defences\nA tsunami, a series of water waves in a body of water caused by the displacement of a large volume of water, although this usage of \"tidal wave\" is a misnomer and is disfavored by the scientific community.\nA megatsunami, which is an informal term to"
+     },
+     {
+      "resolvedTitle": "Dive (Almost Monday album)",
+      "shortDescription": "2024 studio album by Almost Monday",
+      "extractHead": "Dive is the debut studio album by American indie pop band Almost Monday. The album was released by Hollywood Records on September 25, 2024. The album was produced by Simon Oscroft, known for his work with OneRepublic and Declan McKenna.\n\n\n== Background ==\nLuke Fabry and Dawson Daugherty grew up together and were longtime friends, and Daugherty met Cole Clisby while surfing. Daugherty and Fabry attended Point Loma Nazarene University, and Clisby went to the University of California, San Diego. Th"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "blue-rondo",
+  "kind": "album",
+  "ours": {
+   "title": "Blue Rondo",
+   "artist": "Charlie Parker",
+   "year": 1997,
+   "label": "Tudor",
+   "albumDNA": "Blue Rondo is a 1997 release on Tudor whose program mixes jazz themes with clarinet recital repertoire. The tracklist ranges across \"Blue Rondo à la Turk,\" Debussy's \"Première rhapsodie,\" \"Waltz for Debby,\" and a Clarinet Sonatina.",
+   "keyTracks": [
+    "Blue Rondo a la Turk",
+    "Première rhapsodie",
+    "Waltz for Debby",
+    "Clarinet Sonatina, H.42: I. Modere",
+    "Clarinet Sonatina, H.42: II. Lent et soutenu"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "505e34e7-b2da-4d89-92a9-72e2d9d1997d",
+     "title": "Blue Rondo",
+     "date": "1997",
+     "country": "CH",
+     "status": "Official",
+     "artists": [
+      "Brubeck",
+      "Debussy",
+      "Donato",
+      "Gilberto",
+      "Evans",
+      "Jones",
+      "Honegger",
+      "Parker",
+      "Poulenc",
+      "Stravinsky",
+      "Karl‐Heinz Steffens",
+      "David Gazarov",
+      "Martin Zehn",
+      "Keith Copeland",
+      "Chris Lachotta"
+     ],
+     "labels": [
+      {
+       "name": "Tudor",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "2666e0ed-0642-4511-bd58-e56bfa0a4cff",
+      "title": "Blue Rondo",
+      "firstReleaseDate": "1997",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Blue Rondo a la Turk",
+      "Première rhapsodie",
+      "Waltz for Debby",
+      "Clarinet Sonatina, H.42: I. Modere",
+      "Clarinet Sonatina, H.42: II. Lent et soutenu",
+      "Clarinet Sonatina, H.42: III. Vif et rythmique",
+      "Minha Saudade (My Longing)",
+      "3 Pieces for Solo Clarinet: No. 1. Sempre piano e molto tranquillo: quarter note = 52",
+      "3 Pieces for Solo Clarinet: No. 2. quarter note = 168",
+      "3 Pieces for Solo Clarinet: No. 3. quarter note = 160",
+      "Yardbird Suite",
+      "Clarinet Sonata, FP184: I. Allegro tristemente",
+      "Clarinet Sonata, FP184: II. Romanza: Tres calme",
+      "Clarinet Sonata, FP184: III. Allegro con fuoco",
+      "A Child Is Born"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "blue-rondo-brubeck",
+  "kind": "album",
+  "ours": {
+   "title": "Blue Rondo",
+   "artist": "Dave Brubeck",
+   "year": 1997,
+   "label": "Tudor",
+   "albumDNA": "Blue Rondo is a 1997 release on Tudor whose program mixes jazz themes with clarinet recital repertoire. The tracklist ranges across \"Blue Rondo à la Turk,\" Debussy's \"Première rhapsodie,\" \"Waltz for Debby,\" and a Clarinet Sonatina.",
+   "keyTracks": [
+    "Blue Rondo a la Turk",
+    "Première rhapsodie",
+    "Waltz for Debby",
+    "Clarinet Sonatina, H.42: I. Modere",
+    "Clarinet Sonatina, H.42: II. Lent et soutenu",
+    "Clarinet Sonatina, H.42: III. Vif et rythmique"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "505e34e7-b2da-4d89-92a9-72e2d9d1997d",
+     "title": "Blue Rondo",
+     "date": "1997",
+     "country": "CH",
+     "status": "Official",
+     "artists": [
+      "Brubeck",
+      "Debussy",
+      "Donato",
+      "Gilberto",
+      "Evans",
+      "Jones",
+      "Honegger",
+      "Parker",
+      "Poulenc",
+      "Stravinsky",
+      "Karl‐Heinz Steffens",
+      "David Gazarov",
+      "Martin Zehn",
+      "Keith Copeland",
+      "Chris Lachotta"
+     ],
+     "labels": [
+      {
+       "name": "Tudor",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "2666e0ed-0642-4511-bd58-e56bfa0a4cff",
+      "title": "Blue Rondo",
+      "firstReleaseDate": "1997",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Blue Rondo a la Turk",
+      "Première rhapsodie",
+      "Waltz for Debby",
+      "Clarinet Sonatina, H.42: I. Modere",
+      "Clarinet Sonatina, H.42: II. Lent et soutenu",
+      "Clarinet Sonatina, H.42: III. Vif et rythmique",
+      "Minha Saudade (My Longing)",
+      "3 Pieces for Solo Clarinet: No. 1. Sempre piano e molto tranquillo: quarter note = 52",
+      "3 Pieces for Solo Clarinet: No. 2. quarter note = 168",
+      "3 Pieces for Solo Clarinet: No. 3. quarter note = 160",
+      "Yardbird Suite",
+      "Clarinet Sonata, FP184: I. Allegro tristemente",
+      "Clarinet Sonata, FP184: II. Romanza: Tres calme",
+      "Clarinet Sonata, FP184: III. Allegro con fuoco",
+      "A Child Is Born"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "forever-love",
+  "kind": "album",
+  "ours": {
+   "title": "Forever Love",
+   "artist": "Mark Whitfield",
+   "year": 1997,
+   "label": "Verve",
+   "albumDNA": "Forever Love is jazz guitarist Mark Whitfield's 1997 Verve album, a warm program built around standards and ballads that highlights his clean, lyrical chord-melody playing. The repertoire leans into the songbook, with pieces such as \"My One and Only Love\" and \"Nature Boy,\" and vocalist Diana Krall guests on a few tracks. It is an unhurried, romantic set that shows Whitfield as a melodist first, a good entry point into his playing for anyone who loves the sound of a guitar handling a ballad.",
+   "keyTracks": [
+    "You Don't Know What Love Is",
+    "Some Other Time",
+    "My One and Only Love",
+    "Nature Boy",
+    "It Never Entered My Mind"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "c7273424-2ac5-4a03-921b-402cab571126",
+     "title": "Forever Love",
+     "date": "1997-03-04",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Mark Whitfield"
+     ],
+     "labels": [
+      {
+       "name": "Verve",
+       "catalogNumber": "533 921-2"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "5c97fda9-c045-3521-932d-beb90f8f8cfe",
+      "title": "Forever Love",
+      "firstReleaseDate": "1997-03-04",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "You Don't Know What Love Is",
+      "Some Other Time",
+      "My One and Only Love",
+      "Nature Boy",
+      "It Never Entered My Mind",
+      "Some Other Spring",
+      "Early Autumn",
+      "Forever",
+      "I Wanna Talk About You",
+      "Only the Lonely"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Thomas_Whitfield_(singer)",
+    "page": {
+     "requestedTitle": "Thomas Whitfield (singer)",
+     "resolvedTitle": "Thomas Whitfield (singer)",
+     "shortDescription": "Musical artist",
+     "extract": "Thomas Anthony Whitfield (April 30, 1954 – June 20, 1992) was an American gospel singer, songwriter, arranger, pianist, choir director and producer best known for helping to shape the fabric of contemporary gospel music with his elaborate choral arrangements and the merging of musical styles ranging from jazz to classical into traditional gospel foundations. This style earned him the respectable title of \"Maestro\" by many of his colleagues and supporters. He was best known for organizing one of the popular contemporary gospel choirs of all time, the Thomas Whitfield Company, and for producing best-selling records for Vanessa Bell Armstrong, Shirley Caesar, Yolanda Adams, Douglas Miller, Keith Pringle, Paul Morton and for Aretha Franklin.\n\n\n== Biography ==\n\n\n=== Early years and career ===\nThomas Whitfield, the eldest of five boys, was born in Detroit, Michigan, to Thomas and Jacqueline Whitfield. He took to music at a very early age and was inspired by his great-grandmother to take piano lessons at the age of five and would advance to playing the organ by the age of ten. His influences remained some of Detroit's greatest musicians including renowned organist Herbert Pickard and Timothy Beard. After graduating from Detroit's Central High School, he attended the Detroit Conservatory of Music and ended up sharing his expertise and knowledge as a music instructor at Finney High School.  \nIn 1977, along with his good friend Tyrone Hemphill, Whitfield established The Thomas Whitfield Company, a local music ministry featuring some of Detroit's finest singers and musicians. This remarkable institution remained the apparent incubator for most of Whitfield's most popular creations and would forever be attached to his musical legacy and recording career. \nSound of Gospel, a local Detroit gospel music subsidiary of Westbound Records operated by music guru Armen Boladian, took notice in Whitfield's fresh sound and approach to gospel music and signed him and the group thereafter; resulting in the debut release of \"Brand New\" in 1978.\n\n\n=== The big break: Hallelujah Anyhow ===\nAfter getting local attention with the releases of \"Brand New\" and \"Things That We Believe, Vol. I\" and \"Things That We Believe, Vol. II\" during the years of 1978–1980, Whitfield recorded his first live recording session (a popular trend in modern gospel music) with the Company at the St. Paul Church of God In Christ in Detroit. The album was finally released in 1983. At the same time, Whitfield began his association with Onyx International Records (a black gospel subsidiary of Benson Records) and also released \"Hold Me\"; a solo project that seemed to be threatening towards SOG's current contract with the Whitfield Company. While \"Hold Me\" was released on a more recognized label and was by far one of Whitfield's state-of-the-art productions to date, it also help increased the popularity and exposure of \"Hallelujah Anyhow\" and kept the album on Billboard's Gospel Music charts for over a year.\nThe understanding of the agreement with both music labels was that Whitfield recorded \"Hold Me\" as a solo entry while SOG was mainly interested in Whitfield being attached to the choir; feeling that his choir was the \"selling card\". SOG continued to record them as: Min. Thomas Whitfield & the Thomas Whitfield Company. Whitfield wrote most of the songs (except for \"Soon As I Get Home\" and \"There's Not A Friend\" – written by Roscoe Corner) and produced both projects. Songs like \"God Wants Our Praises\", \"There's Not A Friend\", \"Walk In The Light\", the infectious arrangement of \"Oh, How I Love Jesus\" and the brilliant ballad \"Hallelujah Anyhow\" were standouts.\nWhitfield began a line of notable achievements in producing for both established and fresh talent. In 1984, Whitfield produced the historic debut project Peace Be Still, for a virtual unknown singer at the time by the name of Vanessa Bell Armstrong; earning him his first of three GRAMMY nominations. That year, he also wrote \"Time To Come Back Home\" for Shirley Caesar's GRAMMY and Dove Award winning \"Sailin\" album. Whitfield's popularity and demand continued to escalate – possibly pointing that he may have reached the beginning of his recording zenith. Production on projects from the Soul Children of New Orleans, Keith Pringle, Douglas Miller, the Winans, the Michael Fletcher Chorale and Paul S. Morton followed. In 1986, \"I'm Encouraged\" was released; a live recording session held at the Civic Auditorium in Cleveland, Ohi"
+    }
+   }
+  }
+ },
+ {
+  "id": "in-their-own-sweet-way",
+  "kind": "album",
+  "ours": {
+   "title": "In Their Own Sweet Way",
+   "artist": "Dave Brubeck",
+   "year": 1997,
+   "label": "Telarc Jazz",
+   "albumDNA": "In Their Own Sweet Way is a 1997 studio album by pianist Dave Brubeck and his quintet. Brubeck was accompanied by his four sons on a recording for the first time.",
+   "keyTracks": [
+    "In Your Own Sweet Way",
+    "Bifocal Blues",
+    "Sermon on the Mount",
+    "Michael, My Second Son",
+    "Ode to a Cowboy"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/In_Their_Own_Sweet_Way"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "06a33d8e-09c4-485c-87d0-3cf6b44d675c",
+     "title": "In Their Own Sweet Way",
+     "date": "1997",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Dave Brubeck"
+     ],
+     "labels": [
+      {
+       "name": "Telarc Jazz",
+       "catalogNumber": "CD-83355"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "162240d3-25a7-3f56-a57a-bafdfc4ac044",
+      "title": "In Their Own Sweet Way",
+      "firstReleaseDate": "1997",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "In Your Own Sweet Way",
+      "Bifocal Blues",
+      "Sermon on the Mount",
+      "Michael, My Second Son",
+      "Ode to a Cowboy",
+      "Dave 'n Darius",
+      "We Will All Remember Paul",
+      "Sixth Sense",
+      "My One Bad Habit",
+      "Sweet Georgia Brown"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/In_Their_Own_Sweet_Way",
+    "page": {
+     "requestedTitle": "In Their Own Sweet Way",
+     "resolvedTitle": "In Their Own Sweet Way",
+     "shortDescription": "1997 studio album by Dave Brubeck",
+     "extract": "In Their Own Sweet Way is a 1998 studio album by pianist Dave Brubeck and his quintet. Brubeck was accompanied by his four sons on a recording for the first time.\nThe album consists of Brubeck's own compositions, with the exception of the final track, \"Sweet Georigia Brown\". \"We Will All Remember Paul\" and \"My One Bad Habit\" were recorded as tributes to Paul Desmond and Ella Fitzgerald respectively. The composition \"Bifocal Blues\" was originally called \"Bitonal Blues\" and humorously rechristened in honour of Brubeck's advanced age.\n\n\n== Reception ==\n\nRichard S. Ginell reviewed the album for Allmusic and wrote that the album \"As do most of Dave's Telarc albums, this one has an autumnal tone as the mellowing septuagenarian pianist plays the wise old master, playing in a more lyrical, reflective manner, revisiting past work and contributing a few new tunes. When Dave and Darius play together, Dave still remains the more immediately striking personality while Darius leans more toward mainstream jazz styles. ...Dave Brubeck's Indian summer continues to be an unusually fruitful one\".\nGinell praised Darius Brubeck on \"Dave 'n Darius\", a duet with his father, and highlighted Dan Brubeck's \"...cooking New Orleans funk (in 7/4 time!)\" on \"Sweet Georgia Brown.\"\n\n\n== Track listing ==\nAll compositions by Dave Brubeck unless otherwise noted\n\"In Your Own Sweet Way\" – 6:34\n\"Bifocal Blues\" – 6:49\n\"Sermon on the Mount\" – 7:53\n\"Michael, My Second Son\" – 4:21\n\"Ode to a Cowboy\" – 7:58\n\"Dave 'N Darius\" – 6:48\n\"We Will Remember Paul\" – 5:57\n\"Sixth Sense\" – 7:32\n\"My One Bad Habit\" (Dave Brubeck, Iola Brubeck)  – 8:26\n\"Sweet Georgia Brown\" (Ben Bernie, Kenneth Casey, Maceo Pinkard)  – 6:46\n\n\n== Personnel ==\nDave Brubeck - piano\nMatthew Brubeck - cello\nDarius Brubeck - electric piano\nChris Brubeck - electric bass, bass trombone\nDan Brubeck - drums\nProduction\nBruce Leek, Jack Renner - engineer\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "tenor-titans",
+  "kind": "album",
+  "ours": {
+   "title": "Tenor Titans",
+   "artist": "Ben Webster",
+   "year": 1997,
+   "label": "Storyville Records",
+   "albumDNA": "Recorded for Storyville Records in 1997, Tenor Titans presents tenor saxophonist Ben Webster working in a swing vein. The date includes \"Stickey Wicket\" and \"Do Nothing Till You Here From Me\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond.",
+   "keyTracks": [
+    "Stickey Wicket",
+    "Do Nothing Till You Here From Me",
+    "Our Love Is Here To Stay",
+    "Medley: How Long Has This Been Going On / Sophisticated Lady",
+    "Perdido"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "cf4672bc-0201-45e2-8fdd-2c3817af3b9b",
+     "title": "Tenor Titans",
+     "date": "1997",
+     "country": "DK",
+     "status": "Official",
+     "artists": [
+      "Dexter Gordon",
+      "Ben Webster"
+     ],
+     "labels": [
+      {
+       "name": "Storyville Records",
+       "catalogNumber": "STCD 8288"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "03d9e3b3-32d3-426b-a173-44b7a94341f3",
+      "title": "Tenor Titans",
+      "firstReleaseDate": "1997",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Stickey Wicket",
+      "Do Nothing Till You Here From Me",
+      "Our Love Is Here To Stay",
+      "Medley: How Long Has This Been Going On / Sophisticated Lady",
+      "Perdido",
+      "In A Mellow Tone",
+      "C-Jam Blues"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Tomasz_Szukalski",
+    "page": {
+     "requestedTitle": "Tomasz Szukalski",
+     "resolvedTitle": "Tomasz Szukalski",
+     "shortDescription": "Polish musical artist",
+     "extract": "Tomasz Szukalski (25 December 1947 in Warsaw, Polish People's Republic, registered by Soviet authorities 8 January 1948 – 2 August 2012 in Piaseczno, Poland) was a Polish jazz saxophonist, composer and improviser. Szukalski worked with Tomasz Stańko, Edward Vesala and Zbigniew Namysłowski. Awarded Magister of Music (Master of Arts) at Fryderyk Chopin University of Music, Warsaw. Szukalski was a revered master of tenor saxophone and his style was often compared to that of John Coltrane and Ben Webster.\n\n\n== Life and career ==\n\n\n=== Early years ===\nSzukalski studied clarinet but preferred to perform on tenor saxophone, soprano saxophone and on special occasions on bass clarinet or baritone saxophone. Being experiment friendly, he once tried a chainsaw.\nSzukalski began his career in the jazz orchestras of Zbigniew Namysłowski and Jan Ptaszyn Wróblewski. Other members of the bands included Tomasz Stańko, Zbigniew Seifert, Adam Makowicz, Włodzimierz Nahorny, Janusz Muniak, Michał Urbaniak and Tomasz's lifelong mate Wojciech Karolak.\n\n\n=== Tomasz Stańko, ECM and SBB ===\nIn the 1970s, Szukalski's performances became more avant-garde and free. While he continued to perform with  Tomasz Stańko, he also worked with Peter Warren and Edward Vesala as well as Arild Andersen, Dave Holland, Palle Danielsson, Palle Mikkelborg, Terje Rypdal, Juhani Aaltonen and Antti Hytti.\nDuring this period, in 1975, he recorded with Stańko on the trumpeter's album entitled \"Balladyna\" for ECM. Parallel to touring Scandinavia and West Europe with other jazz musicians, Szukalski performed in Poland with the Silesian rockband SBB.\n\n\n=== The Quartet and Józef Skrzek ===\nIn 1977, Szukalski consolidated his own band The Quartet, which soon gained high reputation. His bandmates were Sławomir Kulpowicz, Paweł Jarzębski and Janusz Stefański. Some of the last concerts of this famous constellation were performed according to various sources in 1979 or 1980 at Village Vanguard in New York. In the years 1980-1981 Szukalski continued a duo cooperation with SBB's leader Józef Skrzek. The planned bookings for autumn 1981 joint performance of SBB and his own The Quartet at the Jazz Jamboree festival, due to the tense political situation in Poland, were not finalized. The duo realized the album \"Ambitus Extended\" and Szukalski also performed with Józef Skrzek and his short living project Józef Skrzek Formation. They toured across Polish People's Republic and Czechoslovakia and performed the soundtrack for the science-fiction movie \"The War of the Worlds: Next Century\" (1981).\nJust weeks before the onset of martial law in Poland Tomasz performed with Józef Skrzek, Andrzej Ryszka, Sławomir Piwowar, Andrzej Urny, Dean Brown and Gil Goldstein in Warsaw and with his The Quartet mates at a workshop in memory of John Coltrane \"We'll Remember Coltrane\" (New Jazz Meeting), organised by Joachim-Ernst Berendt at Südwestfunk in Baden-Baden, where also Tomasz Stańko, Albert Mangelsdorff and John Coltrane's drummer Rashied Ali were present. During his stay in Vienna, following December 1981 Czechoslovakia tour (performing \"Ambitus Extended\" with Józef Skrzek), martial law was imposed and Szukalski returned home.\n\n\n=== Martial law - Time killers ===\nTo survive the martial law in Poland Szukalski re-joined the orchestra of Jan Ptaszyn Wróblewski playing known American standards. In 1984, he recorded with his old mates Wojciech Karolak and Czesław Bartkowski the groovy \"Time Killers\", which instantly became a hit. In 1985, Tomasz consolidated his new quartet with Piotr Biskupski, Andrzej Cudzich and Andrzej Jagodziński and eventually his friend and neighbour, the drummer Marek Stach, but the new quartet did not survive due lack of performances and the atmosphere of martial law. Tomasz's custom made Henri Selmer Paris tenor saxophone and Julius Keilwerth soprano saxophone have been stolen in Warsaw a couple of months before he moved to his cabin outside Warsaw.\n\n\n=== Artur, Alain, Antti, Apostolis, Arild ===\nAfter 1990, Szukalski performed in various constellations, recorded as sideman and special guest, and started a long lasting cooperation with the young pianist Artur Dutkiewicz. \nDuring the last decade of the 20th century and the first of the 21st century, Tomasz performed with Artur Dutkiewicz, Wojciech Karolak, Alain Brunet (the French jazz trumpeter and vice minister of culture), Tadeusz Nalepa, Piotr Wojtasik, Wojciech Majewski, Tomasz Stańko, Palle Danielsson, Janusz Skowro"
+    }
+   }
+  }
+ },
+ {
+  "id": "black-action-figure",
+  "kind": "album",
+  "ours": {
+   "title": "Black Action Figure",
+   "artist": "Stefon Harris",
+   "year": 1999,
+   "label": "Blue Note",
+   "albumDNA": "Black Action Figure is vibraphonist Stefon Harris's second album for Blue Note Records, released in 1999 and nominated for a Grammy Award. The album draws on hard bop, jazz-funk, and contemporary jazz, with Harris's warm-toned mallet work front and center on tracks like \"Club Madness\" and \"Feline Blues.\" The record introduced Harris as one of the most exciting young voices on his instrument. A contemporary jazz recording from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond. Stefon Harris adds a personal voice to the idiom.",
+   "keyTracks": [
+    "Club Madness",
+    "Feline Blues",
+    "There Is No Greater Love",
+    "Of Things to Come",
+    "After the Day Is Done"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Stefon_Harris"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "01ad6eec-3d4f-4c82-ad21-b6160535f9cf",
+     "title": "Black Action Figure",
+     "date": "1999-09-14",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Stefon Harris"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "99546"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "12f816b9-46ec-3b25-8cc4-3a8e5a01094d",
+      "title": "Black Action Figure",
+      "firstReleaseDate": "1999-09-14",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Club Madness",
+      "Feline Blues",
+      "There Is No Greater Love",
+      "Of Things to Come",
+      "After the Day Is Done",
+      "Conversations at the Mess",
+      "BlackActionFigure",
+      "Collage",
+      "You Stepped Out of a Dream",
+      "Alovi",
+      "Bass Vibes",
+      "The Alchemist",
+      "Chorale",
+      "Faded Beauty",
+      "Musical Silence"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Stefon_Harris",
+    "page": {
+     "requestedTitle": "Stefon Harris",
+     "resolvedTitle": "Stefon Harris",
+     "shortDescription": "American jazz musician (born 1973)",
+     "extract": "Stefon DeLeon Harris (born March 23, 1973) is an American jazz vibraphonist.\n\n\n== Biography ==\n\nA native of Albany, New York, Harris intended to work for the New York Philharmonic until he heard the music of Charlie Parker. During the 1990s he recorded with Charlie Hunter and Steve Turre as a session musician. He signed with Blue Note, which released his debut album, A Cloud of Red Dust (1998). His second album, Black Action Figure, was nominated for a Grammy Award. In 2001 he worked with pianist Jacky Terrasson at the Village Vanguard in New York City and recorded the album Kindred with him during the same year. His album The Grand Unification Theory (2003) won the Martin E. Segal Award from Jazz at Lincoln Center.\nIn April 2009, he headlined at the Orange County Performing Arts Center in Orange County, California.\nHarris collaborated with saxophonist David Sánchez and trumpeter Christian Scott in 2011 on the album Ninety Miles. They recorded the album in Havana, Cuba.\n\n\n== Discography ==\n\n\n=== As leader/co-leader ===\nA Cloud of Red Dust (Blue Note, 1998)\nBlack Action Figure (Blue Note, 1999)\nKindred with Jacky Terrasson (Blue Note, 2001)\nThe Grand Unification Theory (Blue Note, 2003)\nEvolution (Blue Note, 2004)\nAfrican Tarantella: Dances With Duke (Blue Note, 2006)\nUrbanus (Concord, 2009)\nNinety Miles with David Sánchez and Christian Scott (Concord Picante, 2011)\nNinety Miles Live at Cubadisco with David Sánchez and Christian Scott (Concord Picante, 2012)\nSonic Creed (Motema, 2018)\n\n\n=== As a member ===\nNew Directions\nWith Greg Osby, Mark Shim, Jason Moran, Tarus Mateen, Nasheet Waits\n\nBlue Note New Directions (Blue Note/Somethin' Else, 1999)\nThe Classical Jazz Quartet\n\nTchaikovsky's Nutcracker (Vertical Jazz, 2001)\nThe Classical Jazz Quartet Plays Bach (Vertical Jazz, 2002)\nThe Classical Jazz Quartet Play Rachmaninov (Kind of Blue, 2006)\nThe Classical Jazz Quartet Play Tchaikovsky (Kind of Blue, 2006)\nChristmas (Kind of Blue, 2006)\nThe SFJAZZ Collective\n\nLive 2008: 5th Annual Concert Tour - The Works of Wayne Shorter (SFJAZZ, 2008)[3CD]\nLive 2010: 7th Annual Concert Tour - The Works of Horace Silver (SFJAZZ, 2010)[3CD]\nLive in New York 2011 - Season 8 - The Music of Stevie Wonder (SFJAZZ, 2011)\nWonder - The Songs of Stevie Wonder (SFJAZZ, 2012)\nLive: SFJAZZ Center 2013 - The Music of Chick Corea (SFJAZZ, 2013\nMiguel Zenón Retrospective: Original Compositions, 2004-2016 (SF Jazz Collective, 2018)\n\n\n=== As sideman ===\nWith Diana Krall\n\nChristmas Songs (Verve, 2005)\nTurn Up the Quiet (Verve, 2017) – rec.2016\nWith others\n\nTim Warfield, Jazz Is, A Whisper in the Midnight (Criss Cross, 1995)\nAtsushi Ikeda, Everybody's Music (King, 1995)\nTerell Stafford, Centripetal Force (Candid, 1996)\nJoe Henderson, Porgy & Bess (Verve, 1997)\nCharlie Hunter, Return of the Candyman (Blue Note, 1998)\nJason Moran, Soundtrack to Human Motion (Blue Note, 1999)\nJacky Terrasson, A Paris... (Blue Note, 2000)\nKurt Elling, Man in the Air (Blue Note, 2003)\nKenny Barron, Images (Sunnyside, 2004)\nBuster Williams, Griot Libertè (HighNote, 2004)\nJanis Siegel, Sketches of Broadway (Telarc, 2004)\nLea DeLaria, Double Standards (Telarc, 2005)\nRaul Midón, State of Mind (Manhattan, 2005)\nGreg Osby, The Inner Circle (Blue Note, 2002) – rec.1999\nJoshua Redman, Momentum (Nonesuch, 2006)\nSteve Turre, Keep Searchin' (HighNote, 2006)\nRy Cooder, My Name Is Buddy (Nonesuch, 2007)\nCourtney Pine, Transition in Tradition (Destin-E, 2009)\nChristian Sands, Christmas Stories (Mack Avenue, 2023)\n\n\n== References ==\n\n\n== External links ==\nOfficial website\nStefon Harris at TED \n\"There are no mistakes on the bandstand\" (TEDSalon NY2011)"
+    }
+   }
+  }
+ },
+ {
+  "id": "bunk-bechet-in-boston",
+  "kind": "album",
+  "ours": {
+   "title": "Bunk & Bechet in Boston",
+   "artist": "Sidney Bechet",
+   "year": 1999,
+   "label": "Jazz Crusade Records",
+   "albumDNA": "With Bunk & Bechet in Boston (1999), clarinetist Sidney Bechet delivers a dixieland program for the Jazz Crusade Records label. Among the tracks are \"Theme – Royal Garden Blues\" and \"I’m Confessin’\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond.",
+   "keyTracks": [
+    "Theme – Royal Garden Blues",
+    "I’m Confessin’",
+    "Careless Love",
+    "Summertime (Incomplete)",
+    "I Know That You Know",
+    "Sweet Georgia Brown"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "16d610b4-afd6-4cb0-ba85-2ea3b3b6ed44",
+     "title": "Bunk & Bechet in Boston",
+     "date": "1999",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Bunk",
+      "Bechet",
+      "Pops Foster"
+     ],
+     "labels": [
+      {
+       "name": "Jazz Crusade Records",
+       "catalogNumber": "JCCD-3039"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "18e7294b-3f87-3d32-8e67-5bf0a201083f",
+      "title": "Bunk & Bechet in Boston",
+      "firstReleaseDate": "1999",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Theme – Royal Garden Blues",
+      "I’m Confessin’",
+      "Careless Love",
+      "Summertime (Incomplete)",
+      "I Know That You Know",
+      "Sweet Georgia Brown",
+      "Sleepy Time Down South",
+      "Sobbin’ Blues",
+      "Pistol Packin’ Mama",
+      "Dear Old Southland",
+      "Boogie Woogie",
+      "Muscat Ramble – Theme",
+      "Oh Didn’t He Ramble – Theme",
+      "Interview By Eddie Condon 10th March And Also By Wynne Paris 28th March"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "jazz-in-film",
+  "kind": "album",
+  "ours": {
+   "title": "Jazz in Film",
+   "artist": "Terence Blanchard",
+   "year": 1999,
+   "label": "Sony Classical",
+   "albumDNA": "Jazz in Film is a 1999 album by Terence Blanchard, released on Sony Classical. Its program includes \"A Streetcar Named Desire\", \"Chinatown\", and \"Anatomy of a Murder\".",
+   "keyTracks": [
+    "A Streetcar Named Desire",
+    "Chinatown",
+    "The Subterraneans",
+    "Anatomy of a Murder",
+    "The Pawnbroker"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "2463f54a-35bc-4779-806d-1cb48e9672fe",
+     "title": "Jazz in Film",
+     "date": "1999-03-02",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Terence Blanchard"
+     ],
+     "labels": [
+      {
+       "name": "Sony Classical",
+       "catalogNumber": "SK 60671"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "1031e760-86a1-3903-ad59-a1f814cc604a",
+      "title": "Jazz in Film",
+      "firstReleaseDate": "1999-03-02",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "A Streetcar Named Desire",
+      "Chinatown",
+      "The Subterraneans",
+      "Anatomy of a Murder",
+      "The Pawnbroker",
+      "Taxi Driver",
+      "Degas' Racing World",
+      "Man With the Golden Arm",
+      "Clockers"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Terence_Blanchard_(album)",
+    "page": {
+     "requestedTitle": "Terence Blanchard (album)",
+     "resolvedTitle": "Terence Blanchard (album)",
+     "shortDescription": "1991 studio album by Terence Blanchard",
+     "extract": "Terence Blanchard is an album by American jazz trumpeter Terence Blanchard. This is his debut full-length album as a leader. The record was released on June 18, 1991, via Columbia Records.\n\n\n== Reception ==\n\nScott Yanow of AllMusic stated, \"On the varied program, Blanchard opens and closes the set with a hymn (\"Motherless Child\" and \"Amazing Grace\"), performs four originals and comes up with personal interpretations of three standards... By the time this recording came out in 1992, Blanchard was ready to take his place as one of the trumpet giants of the '90s\". Leonard Feather of Los Angeles Times commented \"Trumpeter Blanchard brings new elements and an often invigorating lineup to his first album since he worked on the Spike Lee film Mo' Better Blues as arranger, trumpeter and trumpet instructor for actor Denzel Washington. There are four Blanchard originals, of which the hyperventilating \"Wandering Wonder\" and the hectic \"Azania\" are a little too effusive—the latter has an overlong drum solo. But \"Tomorrow's Just a Luxury,\" with its easy canter, and the solemn \"Sing Soweto\" reveal a strong compositional talent\".\n\n\n== Track listing ==\n\n\n== Personnel ==\nBand\n\nTerence Blanchard – trumpet\nBranford Marsalis – tenor saxophone (tracks: 2 3 8)\nSam Newsome – tenor saxophone (tracks: 5 7 9)\nRodney Whitaker – double bass\nJeff Watts – drums (tracks: 2 3 4)\nTroy Davis – drums (tracks: 5 6 7 9)\nBruce Barth – piano\nProduction\n\nDr. George Butler – executive producer\nDelfeayo Marsalis – producer, liner notes\nBernie Grundman – mastering\n\n\n== Chart performance ==\n\n\n== References ==\n\n\n== External links ==\nOfficial website"
+    }
+   }
+  }
+ },
+ {
+  "id": "sweet-release-ghost-story",
+  "kind": "album",
+  "ours": {
+   "title": "Sweet Release & Ghost Story",
+   "artist": "Wynton Marsalis",
+   "year": 1999,
+   "label": "Unknown",
+   "albumDNA": "Sweet Release & Ghost Story is a contemporary jazz album by Wynton Marsalis from 1999. The date includes \"Sweet Release: Home: Beyond This Rage\" and \"Sweet Release: Church: Renewing Vows\".",
+   "keyTracks": [
+    "Sweet Release: Home: Beyond This Rage",
+    "Sweet Release: Church: Renewing Vows",
+    "Sweet Release: Church Basement: Party",
+    "Sweet Release: Street: Make Room for Me",
+    "Sweet Release: Home: Give Me Your Hand"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "a41a7657-39ae-4b06-99c0-badd5d9ad7bb",
+     "title": "Sweet Release & Ghost Story",
+     "date": "1999-08-10",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Wynton Marsalis"
+     ],
+     "labels": [],
+     "releaseGroup": {
+      "mbid": "014488f8-9cc3-3c69-934f-190f6ce32b96",
+      "title": "Sweet Release & Ghost Story",
+      "firstReleaseDate": "1999-08-10",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Sweet Release: Home: Beyond This Rage",
+      "Sweet Release: Church: Renewing Vows",
+      "Sweet Release: Church Basement: Party",
+      "Sweet Release: Street: Make Room for Me",
+      "Sweet Release: Home: Give Me Your Hand",
+      "Ghost Story: Introduction",
+      "Ghost Story: Acknowledgment",
+      "Ghost Story: Tango",
+      "Ghost Story: First Blues",
+      "Ghost Story: Awakening",
+      "Ghost Story: Celebration",
+      "Ghost Story: Second Blues",
+      "Ghost Story: Recognition and Reconciliation"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Roger_Ingram",
+    "page": {
+     "requestedTitle": "Roger Ingram",
+     "resolvedTitle": "Roger Ingram",
+     "shortDescription": "American trumpeter (born 1957)",
+     "extract": "Roger O'Neal Ingram (born November 13, 1957) is a jazz trumpeter, educator, author, and instrument designer. He played trumpet for the orchestras of Maynard Ferguson, Woody Herman, Wynton Marsalis, Ray Charles, and Harry Connick Jr.\n\n\n== Early life ==\nThe youngest of three children, Ingram was born November 13, 1957, in Pasadena, California. His mother ran the household and worked as a tailor and dressmaker from their home in Eagle Rock, Los Angeles; his father was a freelance artist, actor, and musician. His father worked as a staff animator on early Popeye cartoons and several early Disney animations, including the movie Fantasia. He hosted a radio show in Los Angeles in the 1930s, singing and playing ukulele. During the 1940s and 50's he worked in Hollywood as a singer and actor and was in over thirty movie and TV shows, including Gentlemen Prefer Blondes, Superman, and Titanic.\nHe played saxophone and harmonica and brought Ingram to hear Louis Armstrong, Harry James, Duke Ellington, Count Basie, Al Hirt, Buddy Rich, Barney Bigard, Jack Teagarden, Kid Ory, Woody Herman, Rafael Méndez, and Teddy Buckner. He gave Ingram his first trumpet and mouthpiece in 1965. The trumpet is a bare brass horn made in post-war Japan during the American occupation. The bell is stamped \"Koondr, Kailangan Tokyo.\"\nIngram began playing the trumpet at age eight. Growing up in Los Angeles, he became acquainted with Hollywood session trumpeters. Many of these introductions came through John Rinaldo, his band director at Eagle Rock High School. Rinaldo's jazz program included others who went on to become professionals, such as drummers Carlos Vega and Sam Wiley, bassists Scott Colley and David Stone, guitarist Larry Koonse, saxophonists Doug Rinaldo, Brian Mitchell, and Gary Hypes, trombonists Arturo Velasco and Luis Bonilla, pianist Guy Steiner, and trumpeters Bobby Muzingo and Buddy Gordon. Through Rinaldo, Ingram was able to meet and study with Bobby Shew and Laroon Holt. Ingram's teachers included Bud Brisbois, Mannie Klein, Roy Stevens, Don Raffell, Bobby Findley, Carmine Caruso, Reynold Schilke, James Stamp, Uan Rasey, Mel Broiles, and Dan Jacobs.\n\n\n== Career ==\n\n\n=== Early performing ===\nAt sixteen, Ingram toured with Louie Bellson, sharing section duties with Blue Mitchell, Bobby Shew, Cat Anderson, and Frank Szabo. His first international gigs were with the group during the 1974 Belvedere King Size Jazz Festival Tour at Varsity Stadium in Toronto, the Winnipeg Arena in Winnipeg, and the Pacific Coliseum in Vancouver, Canada. After his stint with Bellson, he graduated from high school and then joined Quincy Jones on a fall tour. After that tour, he spent a year touring with Connie Stevens, playing lead trumpet for the first time.\nAt eighteen, Ingram played first trumpet with singer Tom Jones and toured with him for six years. After that, he moved to Las Vegas, where for two years he gained experience playing on the Las Vegas Strip.\n\n\n=== With Woody Herman and Maynard Ferguson ===\nIn 1985, Ingram joined the Woody Herman Orchestra as lead trumpet. Ingram's friend Ron Stout held the jazz trumpet chair and helped get him in the band. He remained with the band until Herman's death in 1987. He recorded three Grammy-nominated albums with Herman: The 50th Anniversary Tour, Woody's Gold Star, and The Concord Years.\nHe is the last lead trumpeter to play with the \"original\" Woody Herman Orchestra. Ingram returned to Los Angeles after Herman's death, founding and co-leading his big band with saxophonist Steve Elliott. The Ingram-Elliott big band featured Bobby Shew, Till Brönner, Bill Watrous, and Gary Foster.\nIn 1988, he worked with the WDR Jazz Orchestra in Cologne, Germany. While in Germany, he recorded works by Bob Brookmeyer and Jim McNeely with Mel Lewis on drums. During this time, he recorded with saxophonist Loren Schoenberg and pianist Django Bates. Later that year, Ingram joined the orchestra of Maynard Ferguson and recorded three albums with him. In October 2004, he performed as a featured artist at Stratospheric, a four-day festival honoring Ferguson. In September 2006, he performed as a featured soloist at the Maynard Ferguson Tribute Concert in St. Louis, Missouri, with many other trumpeters, including his long-time friend and colleague Wayne Bergeron.\nAfter three years as lead trumpeter for Ferguson, he moved to Florida, where he was a teaching assistant and private instructor at the University of Miami in Coral Gables, Florida. W"
+    }
+   }
+  }
+ },
+ {
+  "id": "joey-calderazzo",
+  "kind": "album",
+  "ours": {
+   "title": "Joey Calderazzo",
+   "artist": "Joey Calderazzo",
+   "year": 2000,
+   "label": "Columbia",
+   "albumDNA": "Joey Calderazzo is a 2000 self-titled album by Joey Calderazzo, released on Columbia. Its tracks include \"The Oracle\", \"Haiku\", and \"Time Remembered\".",
+   "keyTracks": [
+    "The Oracle",
+    "Toonay",
+    "Haiku",
+    "Detonation",
+    "Time Remembered"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "f9a33d71-e098-4ff3-9e25-4c0b4b82ddea",
+     "title": "Joey Calderazzo",
+     "date": "2000",
+     "country": "XE",
+     "status": "Official",
+     "artists": [
+      "Joey Calderazzo"
+     ],
+     "labels": [
+      {
+       "name": "Columbia",
+       "catalogNumber": "CK 69886"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0a601dae-50c2-36d4-8025-b1ecc9d6b4fd",
+      "title": "Joey Calderazzo",
+      "firstReleaseDate": "2000",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "The Oracle",
+      "Toonay",
+      "Haiku",
+      "Detonation",
+      "Time Remembered",
+      "Catania",
+      "Sling and Arrows",
+      "The Charmer"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Amanecer_(Joey_Calderazzo_album)",
+    "page": {
+     "requestedTitle": "Amanecer (Joey Calderazzo album)",
+     "resolvedTitle": "Amanecer (Joey Calderazzo album)",
+     "shortDescription": "2007 studio album by Joey Calderazzo",
+     "extract": "Amanecer is an album by Joey Calderazzo. It was recorded in 2006 and released by Marsalis Music.\n\n\n== Recording and music ==\nThe album was recorded in January and February 2006. Most of the nine tracks are played by Calderazzo alone on piano. He is joined by guitarist Romero Lubambo for \"The Lonely Swan\", and by vocalist Claudia Acuña for \"So Many Moons\". All three play on \"Amanecer\" and \"Lara\".\n\n\n== Release and reception ==\n\nAmanecer was released by Marsalis Music in 2007. The AllMusic reviewer wrote that \"Every selection on this well-conceived project has its purpose and is memorable in its own way.\" The Penguin Guide to Jazz suggested that the presence of Lubambo and Acuña merely diluted the effect of what is otherwise a solo piano album. The JazzTimes wrote that it \"might be the album that gets his gifts as both a composer and a solo pianist embraced on a greater scale.\"\n\n\n== Track listing ==\n\"Midnight Voyage\"\n\"Sea Glass\"\n\"Toonay\"\n\"Amanecer\"\n\"The Lonely Swan\"\n\"I've Never Been in Love Before\"\n\"So Many Moons\"\n\"Waltz for Debby\"\n\"Lara\"\n\n\n== Personnel ==\nJoey Calderazzo – piano\nRomero Lubambo – guitar (tracks 4, 5, 9)\nClaudia Acuña – vocals (tracks 4, 7, 9)\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "leon-thomas-in-berlin",
+  "kind": "album",
+  "ours": {
+   "title": "Leon Thomas in Berlin",
+   "artist": "Leon Thomas",
+   "year": 2000,
+   "label": "Flying Dutchman",
+   "albumDNA": "Leon Thomas in Berlin is a live album by the American jazz vocalist and percussionist Leon Thomas with the saxophonist/arranger Oliver Nelson. The album was recorded in 1970 in Berlin and released by Flying Dutchman.",
+   "keyTracks": [
+    "Straight, No Chaser",
+    "Umbo Weti",
+    "Medley",
+    "The Creator Has a Master Plan – Peace",
+    "Oo-Whee!! Hindewe"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "9e5c5417-73ef-4837-b4f0-68943324806e",
+     "title": "Leon Thomas in Berlin",
+     "date": "2002",
+     "country": "FR",
+     "status": "Official",
+     "artists": [
+      "Leon Thomas"
+     ],
+     "labels": [
+      {
+       "name": "BMG France",
+       "catalogNumber": "09026638772"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "46cc9508-31b4-47e7-ad54-084af2513c77",
+      "title": "Leon Thomas in Berlin",
+      "firstReleaseDate": "2000",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Straight, No Chaser",
+      "Medley",
+      "Umbo Weti",
+      "The Creator Has a Master Plan – Peace",
+      "Oo-Whee!! Hindewe",
+      "Damn Nam (Ain’t Going to Vietnam)"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ }
+]

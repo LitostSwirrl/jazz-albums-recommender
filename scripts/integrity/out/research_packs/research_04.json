@@ -1,0 +1,114 @@
+[
+  {
+    "id": "genius-of-modern-music-vol-1-thelonious-monk",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "Genius of Modern Music Vol. 1",
+      "artist": "Thelonious Monk",
+      "year": 2013,
+      "label": "Various",
+      "albumDNA": "Recorded in 2013, Genius of Modern Music Vol. 1 showcases Thelonious Monk at the height of their creative powers, offering one of the finest expressions of Bebop. Genius of Modern Music Vol. 1 remains a landmark of Bebop, cementing Thelonious Monk's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "'round Midnight",
+        "Off Minor",
+        "Ruby My Dear",
+        "I Mean You",
+        "April in Paris",
+        "In Walked Bud"
+      ],
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "the-amazing-bud-powell-vol-2-bud-powell",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "The Amazing Bud Powell Vol. 2",
+      "artist": "Bud Powell",
+      "year": null,
+      "label": "Various",
+      "albumDNA": "The Amazing Bud Powell Vol. 2 stands among Bud Powell's most celebrated works, capturing the essential spirit of Bebop. The Amazing Bud Powell Vol. 2 remains a landmark of Bebop, cementing Bud Powell's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": null,
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "we-insist-freedom-now-suite-max-roach",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "We Insist! Freedom Now Suite",
+      "artist": "Max Roach",
+      "year": 2011,
+      "label": "Various",
+      "albumDNA": "Recorded in 2011, We Insist! Freedom Now Suite showcases Max Roach at the height of their creative powers, offering one of the finest expressions of Bebop. We Insist! Freedom Now Suite remains a landmark of Bebop, cementing Max Roach's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Driva' Man",
+        "Freedom Day",
+        "Triptych: Prayer / Protest / Peace",
+        "All Africa",
+        "Tears For Johannesburg",
+        "Oh Yeah, Oh Yeah"
+      ],
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "the-jimmy-giuffre-three-jimmy-giuffre",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "The Jimmy Giuffre Three",
+      "artist": "Jimmy Giuffre",
+      "year": null,
+      "label": "Various",
+      "albumDNA": "The Jimmy Giuffre Three stands among Jimmy Giuffre's most celebrated works, capturing the essential spirit of Cool Jazz. The Jimmy Giuffre Three remains a landmark of Cool Jazz, cementing Jimmy Giuffre's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": null,
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "ma-rainey-vol-1-ma-rainey",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "Ma Rainey Vol. 1",
+      "artist": "Ma Rainey",
+      "year": null,
+      "label": "Various",
+      "albumDNA": "Ma Rainey Vol. 1 stands among Ma Rainey's most celebrated works, capturing the essential spirit of Early Jazz. Ma Rainey Vol. 1 remains a landmark of Early Jazz, cementing Ma Rainey's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": null,
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "johnny-dodds-vol-1-johnny-dodds",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "Johnny Dodds Vol. 1",
+      "artist": "Johnny Dodds",
+      "year": null,
+      "label": "Various",
+      "albumDNA": "Johnny Dodds Vol. 1 stands among Johnny Dodds's most celebrated works, capturing the essential spirit of Early Jazz. Johnny Dodds Vol. 1 remains a landmark of Early Jazz, cementing Johnny Dodds's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": null,
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "sidney-bechet-at-storyville-sidney-bechet",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "Sidney Bechet at Storyville",
+      "artist": "Sidney Bechet",
+      "year": null,
+      "label": "Various",
+      "albumDNA": "Sidney Bechet at Storyville stands among Sidney Bechet's most celebrated works, capturing the essential spirit of Early Jazz. Sidney Bechet at Storyville remains a landmark of Early Jazz, cementing Sidney Bechet's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": null,
+      "wikipedia": null
+    }
+  }
+]

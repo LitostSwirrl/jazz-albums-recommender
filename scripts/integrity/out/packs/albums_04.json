@@ -1,0 +1,1575 @@
+[
+ {
+  "id": "booker-little",
+  "kind": "album",
+  "ours": {
+   "title": "Booker Little",
+   "artist": "Booker Little",
+   "year": 1960,
+   "label": "Time Records",
+   "albumDNA": "Booker Little is an album by American jazz trumpeter Booker Little featuring performances recorded in 1960 for the Time label. This Time Records date features \"Opening Statement\" as part of Booker Little's hard bop output from 1960.",
+   "keyTracks": [
+    "Opening Statement",
+    "Minor Sweet",
+    "Bee Tee's Minor Plea",
+    "Life's a Little Blue",
+    "The Grand Valse"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Booker_Little_(album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "48a0059b-5229-4c13-87f0-4fcbb674753c",
+     "title": "Booker Little",
+     "date": "1960",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Booker Little"
+     ],
+     "labels": [
+      {
+       "name": "Time Records",
+       "catalogNumber": "52011"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "24ab2dec-a3af-4c64-b807-0e2674836768",
+      "title": "Booker Little",
+      "firstReleaseDate": "1960",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Opening Statement",
+      "Minor Sweet",
+      "Bee Tee’s Minor Plea",
+      "Life’s a Little Blue",
+      "The Grand Valse",
+      "Who Can I Turn To"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Booker_Little_(album)",
+    "page": {
+     "requestedTitle": "Booker Little (album)",
+     "resolvedTitle": "Booker Little (album)",
+     "shortDescription": "1960 studio album by Booker Little",
+     "extract": "Booker Little is an album by American jazz trumpeter Booker Little featuring performances recorded in 1960 for the Time label.\n\n\n== Reception ==\nThe Allmusic review by Scott Yanow awarded the album 4½ stars and stated \"Trumpeter Booker Little's second session as a leader (there would only be four) is a quartet outing that puts the emphasis on relaxed tempoes. Little's immediately recognizable melancholy sound and lyrical style are heard in top form\".\n\n\n== Track listing ==\nAll compositions, and all sessions led, by Booker Little except as indicated\n\n\"Opening Statement\" – 6:42\n\"Minor Sweet\" – 5:38\n\"Bee Tee's Minor Plea\" – 5:40\n\"Life's a Little Blue\" – 6:53\n\"The Grand Valse\" – 4:57\n\"Who Can I Turn To?\" (Alec Wilder, William Engvick) – 5:25\nThe following tracks appear in some CD reissues, and do not include the same personnel as the original session and LP. Most CD reissues keep the original LP format.\n\n \"My Old Flame\" [take 1 stereo] (Sam Coslow, Arthur Johnston) – 3:34  (Max Roach Quartet)\n\"My Old Flame\" [take 2 mono] (Coslow, Johnston) – 3:38 (Max Roach Quartet)\n\"Sweet and Lovely\" (Gus Arnheim, Jules LeMare, Harry Tobias) – 4:14\n\"Moonlight Becomes You\" (Johnny Burke, Jimmy Van Heusen) – 5:41\n\"Blues De Tambour\" (Ed Shaughnessy) – 3:39 (Teddy Charles Sextet)\n\"Tune Up\" (Miles Davis) – 5:21 (Max Roach New Quintet)\nRecorded in Chicago in June 1958 (tracks 7 & 8), at the Newport Jazz Festival, Rhode Island on July 6, 1958 (track 12), and in New York City in October 1958 (tracks 9 & 10), April 13, 1960 (tracks 1, 2, 5 & 6) April 15, 1960 (tracks 3 & 4), and August 25, 1960 (track 11).\n\n\n== Personnel ==\nBooker Little – trumpet\nTommy Flanagan (tracks 1, 2, 5, 6), Wynton Kelly (tracks 3 & 4)  – piano\nScott LaFaro (tracks 1–6) – bass\nRoy Haynes (tracks 1–6) – drums\nAdditional tracks on later CD reissues:\n\nGeorge Coleman (tracks 7–10 & 12) – tenor sax\nRay Draper (tracks 9, 10 & 12) – tuba\nEddie Baker (tracks 7 & 8), Tommy Flanagan (tracks 9 & 10), Mal Waldron (track 11)  – piano\nBob Cranshaw (tracks 7 & 8), Art Davis (tracks 9, 10 & 12), Addison Farmer (track 11) – bass\nMax Roach (tracks 7–10 & 12), Ed Shaughnessy (track 11) – drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "cannonball-adderley-and-the-poll-winners",
+  "kind": "album",
+  "ours": {
+   "title": "Cannonball Adderley and the Poll-Winners",
+   "artist": "Wes Montgomery",
+   "year": 1960,
+   "label": "Riverside",
+   "albumDNA": "Cannonball Adderley and the Poll-Winners is an album by jazz saxophonist Julian \"Cannonball\" Adderley released on the Riverside label, featuring performances by Adderley with Wes Montgomery, Ray Brown, Victor Feldman, and Louis Hayes. A Riverside session that documents guitarist Wes Montgomery working through the cool jazz vocabulary of the cool jazz period.",
+   "keyTracks": [
+    "Au privave",
+    "Yours Is My Heart Alone",
+    "Never Will I Marry",
+    "The Chant",
+    "Lolita"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "e59ff189-ad0b-4936-be64-a413ef36fe50",
+     "title": "Cannonball Adderley and the Poll-Winners",
+     "date": "1960",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Cannonball Adderley",
+      "Ray Brown",
+      "Wes Montgomery"
+     ],
+     "labels": [
+      {
+       "name": "Riverside",
+       "catalogNumber": "RLP 9355"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0c1eaa4a-d660-3621-92b8-5957fa19700f",
+      "title": "Cannonball Adderley and the Poll-Winners",
+      "firstReleaseDate": "1960",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Au privave",
+      "Yours Is My Heart Alone",
+      "Never Will I Marry",
+      "The Chant",
+      "Lolita",
+      "Azule serape"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "charles-mingus-presents-charles-mingus",
+  "kind": "album",
+  "ours": {
+   "title": "Charles Mingus Presents Charles Mingus",
+   "artist": "Charles Mingus",
+   "year": 1960,
+   "label": "Candid",
+   "albumDNA": "Charles Mingus Presents Charles Mingus is an album by the jazz bassist and composer Charles Mingus. It was released in January 1961 through Candid Records. The recording took place in October 1960. The quartet of Mingus, multi-instrumentalist Eric Dolphy, trumpeter Ted Curson, and drummer Dannie Richmond constituted Mingus' core working band at the time, and had been performing the material on this album for weeks at The Showplace in New York.",
+   "keyTracks": [
+    "Folk Forms, No. 1",
+    "Original Faubus Fables",
+    "What Love?",
+    "All the Things You Could Be by Now If Sigmund Freud’s Wife Was Your Mother"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Charles_Mingus_Presents_Charles_Mingus"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "a6d0840e-cb4f-4ed3-9156-f60ed7a9d1a5",
+     "title": "Charles Mingus Presents Charles Mingus",
+     "date": "1987",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Charles Mingus"
+     ],
+     "labels": [
+      {
+       "name": "Candid",
+       "catalogNumber": "CD 9005"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0bcac9b4-9ad2-3297-9a7d-a4c28cfb2f77",
+      "title": "Charles Mingus Presents Charles Mingus",
+      "firstReleaseDate": "1960",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Folk Forms, No. 1",
+      "Original Faubus Fables",
+      "What Love?",
+      "All the Things You Could Be by Now If Sigmund Freud’s Wife Was Your Mother"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Charles_Mingus_Presents_Charles_Mingus",
+    "page": {
+     "requestedTitle": "Charles Mingus Presents Charles Mingus",
+     "resolvedTitle": "Charles Mingus Presents Charles Mingus",
+     "shortDescription": "1961 studio album by Charles Mingus",
+     "extract": "Charles Mingus Presents Charles Mingus is an album by the jazz bassist and composer Charles Mingus. It was released in January 1961 through Candid Records. The recording took place in October 1960. The quartet of Mingus, multi-instrumentalist Eric Dolphy, trumpeter Ted Curson, and drummer Dannie Richmond constituted Mingus' core working band at the time, and had been performing the material on this album for weeks at The Showplace in New York. To recreate this atmosphere, Mingus introduces the songs as if he were speaking to the audience, even admonishing them to not applaud or rattle their glasses. This explains why the recordings on Presents would seemingly give off the illusion of a live album, when in fact it is a studio album.\nThe album was recorded in New York for the Candid label, founded by Nat Hentoff. Mingus usually recorded on major labels like Columbia and Atlantic, but he was given more freedom on Hentoff's independent label.\nPresents has received positive reviews from jazz critics and is among Mingus' most acclaimed albums. The album has been listed as part of The Penguin Guide to Jazz's \"Core Collection.\"\n\n\n== Music ==\n\n\n=== Folk Forms, No. 1 ===\n\"Folk Forms, No. 1\" is built on a rhythmic pattern. According to Mingus, \"they had to listen to what I do on the bass. If I changed it, they'd have to go a different way. This is a very flexible work. About the only other guidance I give them is that if I hear them doing something particularly good one night, I remind them of it next time we play the number and suggest they keep it in. But as a whole, it never comes out the same\". This song features melodic drum work from Dannie Richmond and sympathetic interplay by Ted Curson and Eric Dolphy. The quartet also performed the tune in Antibes with the addition of Booker Ervin on tenor saxophone; the concert was released on the live album Mingus at Antibes.\n\n\n=== Original Faubus Fables ===\n\"Original Faubus Fables\", a.k.a. \"Fables of Faubus\", originally appeared on Mingus Ah Um as an instrumental. Mingus introduces it sarcastically as \"dedicated to the first, or second or third, all-American heel, Faubus.\" The lyrics are sung by Mingus and Dannie Richmond, denouncing segregation. Nat Hentoff's liner notes state, \"In the club, the mood of the caricature was much more bitingly sardonic and there was a great deal more tension. Mingus says the other label would not allow him to record the talking sections, which he feels are an important part of the overall color and movement of the piece. This version is the way Mingus did intend the work to sound.\" (On Mingus Ah Um, Columbia Records had refused to let Mingus include the song's lyrics due to their explicit political tones and controversial subject matter, which frustrated Mingus to some degree.)\nEric Dolphy plays alto saxophone on this version, and he would perform many more on bass clarinet when he rejoined Mingus in 1964; one example from that year is the live recording from Cornell 1964, on which \"Fables\" was expanded to almost half an hour.\n\n\n=== What Love? ===\n\"What Love?\" is based on two standards: \"What Is This Thing Called Love?\" and \"You Don't Know What Love Is;\" and was being played in the Down Beat Club in Los Angeles as far back as 1945. According to Mingus, \"people thought we were crazy, and I only did it when there weren't too many around. They wanted to hear the beat all the time, but it always seemed to me that so long as you could feel the beat you didn't have to keep emphasizing it. Moreover, you can speed it up or make it slower, as happens in Yiddish and Spanish music. Why tie yourself to the same tempo all the time?\" The piece features a complex, lyrical melody performed by Ted Curson and Eric Dolphy (first on alto saxophone, then bass clarinet). Curson solos, followed by Mingus, then Dolphy; however, all four musicians play freely throughout the piece. This recording and another performance on Mingus At Antibes are particularly famous for the musical conversation between Mingus and Dolphy (on bass clarinet) that takes place before the second statement of the melody.\n\n\n=== All the Things You Could Be by Now If Sigmund Freud's Wife Was Your Mother ===\n\"All the Things You Could Be by Now If Sigmund Freud's Wife Was Your Mother\" is loosely based on \"All the Things You Are,\" but according to Hentoff, \"the musicians keep the original structure... but do not even play the tune's chord structure. The piece in general is based on A flat. Again, the rhythm"
+    }
+   }
+  }
+ },
+ {
+  "id": "free-form-harriott",
+  "kind": "album",
+  "ours": {
+   "title": "Free Form",
+   "artist": "Joe Harriott",
+   "year": 1960,
+   "label": "Jazzland",
+   "albumDNA": "Jamaican-born, London-based alto saxophonist Joe Harriott independently developed free jazz at the same time as Ornette Coleman but on the other side of the Atlantic. This groundbreaking album combines Caribbean lyricism with total improvisational freedom in startling, original ways. Demonstrated that free jazz was not exclusively an American invention. Harriott's unique approach—more lyrical and less angst-ridden than his American counterparts—has been increasingly recognized as a parallel, independent achievement.",
+   "keyTracks": [
+    "Free Form",
+    "Tempo",
+    "Coda",
+    "Abstract"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Free_Form_(Joe_Harriott_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 0.75,
+    "release": {
+     "mbid": "edf0f4a8-ff67-4467-ab40-36cbcef3a79e",
+     "title": "Free Form",
+     "date": "1961",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Joe Harriott Quintet"
+     ],
+     "labels": [
+      {
+       "name": "Jazzland",
+       "catalogNumber": "JLP 949S"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "9d6f9ad8-c7b9-4747-8dd1-8ad977fe8a56",
+      "title": "Free Form",
+      "firstReleaseDate": "1961",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Formation",
+      "Coda",
+      "Abstract",
+      "Impression",
+      "Parallel",
+      "Straight Lines",
+      "Calypso",
+      "Tempo"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Free_Form_(Joe_Harriott_album)",
+    "page": {
+     "requestedTitle": "Free Form (Joe Harriott album)",
+     "resolvedTitle": "Free Form (Joe Harriott album)",
+     "shortDescription": "1961 studio album by Joe Harriott",
+     "extract": "Free Form is an album by Jamaican saxophonist Joe Harriott recorded in England in 1960 and the second released on the Jazzland label.\n\n\n== Reception ==\n\nAllmusic awarded the album 4 stars stating \"Comparable to Ornette Coleman's recordings of the period, these eight pieces incorporate Harriott's hard bop influence, cutting through adventurous compositions.\n\n\n== Track listing ==\nAll compositions by Joe Harriott\n\n\"Formation\" - 6:13\n\"Coda\" - 8:00\n\"Abstract\" - 3:39\n\"Impression\" - 5:32\n\"Parallel\" - 5:42\n\"Straight Lines\" - 5:57\n\"Calypso\" - 4:44\n\"Tempo\" - 6:23\n\n\n== Personnel ==\nJoe Harriott - alto saxophone\nShake Keane - trumpet\nPat Smythe - piano\nColeridge Goode - bass\nPhil Seamen - drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "giant-steps",
+  "kind": "album",
+  "ours": {
+   "title": "Giant Steps",
+   "artist": "John Coltrane",
+   "year": 1960,
+   "label": "Atlantic",
+   "albumDNA": "Giant Steps is a studio album by the jazz musician John Coltrane. It was released in February 1960 through Atlantic Records. This was Coltrane's first album as sole leader for the label, with which he had signed a new contract the previous year. The record is regarded as one of the most influential jazz albums of all time. Many of its tracks have become practice templates for jazz saxophonists. In 2004, it was one of fifty recordings chosen that year by the Library of Congress to be added to the National Recording Registry. It attained gold record status in 2018, having sold 500,000 copies. The title track's chord changes remain one of the most challenging in jazz. This album marked the peak of Coltrane's 'sheets of sound' period.",
+   "keyTracks": [
+    "Giant Steps",
+    "Cousin Mary",
+    "Countdown",
+    "Naima"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Giant_Steps"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "22689758-ffc1-450f-bb48-52b577077dba",
+     "title": "Giant Steps",
+     "date": "1960-01",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "John Coltrane"
+     ],
+     "labels": [
+      {
+       "name": "Atlantic",
+       "catalogNumber": "1311"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "2cdca11d-3e45-3152-93e5-4d2a4ddb1bc6",
+      "title": "Giant Steps",
+      "firstReleaseDate": "1960-01",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Giant Steps",
+      "Cousin Mary",
+      "Countdown",
+      "Spiral",
+      "Syeeda’s Song Flute",
+      "Naima",
+      "Mr. P.C."
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Giant_Steps",
+    "page": {
+     "requestedTitle": "Giant Steps",
+     "resolvedTitle": "Giant Steps",
+     "shortDescription": "1960 studio album by John Coltrane",
+     "extract": "Giant Steps is a studio album by the jazz musician John Coltrane. It was released in February 1960 through Atlantic Records. This was Coltrane's first album as leader for the label, with which he had signed a new contract the previous year. The record is regarded as one of the most influential jazz albums of all time. Many of its tracks have become practice templates for jazz saxophonists. In 2004, it was one of fifty recordings chosen that year by the Library of Congress to be added to the National Recording Registry. It attained gold record status in 2018, having sold 500,000 copies.\nTwo tracks, \"Naima\" and \"Syeeda's Song Flute\", are respectively named after Coltrane's wife at the time and her daughter, whom he adopted. A third, \"Mr. P.C.\", takes its name from the initials of bassist Paul Chambers, who played on the album. A fourth, \"Cousin Mary\", is named in honor of Mary Lyerly, Coltrane's younger cousin.\n\n\n== Background ==\nIn 1959, Miles Davis's business manager Harold Lovett negotiated a record contract for Coltrane with Atlantic, the terms of which included a $7,000 annual guarantee (equivalent to $77,312 in 2025). Initial sessions for this album, the second recording date for Coltrane under his new contract after a January 15 date led by Milt Jackson, took place on March 26, 1959. Coltrane was dissatisfied with the results of this session with Cedar Walton and Lex Humphries, and hence they were not used for the album, but appeared on subsequent compilations and reissues. Principal recording for the album took place on May 4 and 5, two weeks after Coltrane had participated in the final session for Kind of Blue. The track \"Naima\" was recorded on December 2 with Coltrane's bandmates, the rhythm section from the Miles Davis Quintet, who would provide the backing for most of his next album, Coltrane Jazz.\nColtrane's improvisation exemplifies the melodic phrasing that came to be known as sheets of sound, and features his explorations into third-related chord movements that came to be known as Coltrane changes. The Giant Steps chord progression consists of a distinctive set of chords that create key centers a major third apart. Jazz musicians ever since have used it as a practice piece, its difficult chord changes presenting a \"kind of ultimate harmonic challenge\", and serving as a gateway into modern jazz improvisation. Several pieces on this album went on to become jazz standards, most prominently \"Naima\" and \"Giant Steps\".\n\n\n== Reception and legacy ==\n\nThe Penguin Guide to Jazz selected this album as part of its suggested \"Core Collection\" calling it \"Trane's first genuinely iconic record.\" In 2003, the album was ranked number 102 on Rolling Stone magazine's list of The 500 Greatest Albums of All Time, 103 in a 2012 revised list, and 232 in a 2020 revised list.\nIn 2000 it was voted number 764 in Colin Larkin's All Time Top 1000 Albums.\nOn March 3, 1998, Rhino Records reissued Giant Steps as part of its Atlantic 50th Anniversary Jazz Gallery series. Included were eight bonus tracks, five of which had appeared in 1975 on the Atlantic compilation Alternate Takes, the remaining three earlier issued on The Heavyweight Champion: The Complete Atlantic Recordings in 1995.\nIn 2021, Stuart Nicholson of Jazzwise wrote: \"So much has been written about Coltrane that it might appear you need a doctorate of music to go anywhere near his recordings. Nothing could be further from the truth, as Giant Steps demonstrates so eloquently. His music contains universal values that still speak to us now – the essential humanity of his work, the sheer joy of music making and the power and energy of his playing that even today can be both moving and uplifting. These are values that can be enjoyed by anyone and everyone, just as Coltrane intended.\"\n\n\n== Track listing ==\n\n\n== Personnel ==\nThursday, March 26, 1959 (Tracks 8, 9, 13, 14)\n\nJohn Coltrane – tenor saxophone\nCedar Walton – piano\nPaul Chambers – bass\nLex Humphries – drums\nMonday, May 4, 1959 (Tracks 3, 4, 11) & Tuesday, May 5, 1959 (Tracks 1, 2, 5, 7, 10, 12 and 15)\n\nJohn Coltrane – tenor saxophone\nTommy Flanagan – piano\nPaul Chambers – bass\nArt Taylor – drums\nWednesday, December 2, 1959 (Track 6)\n\nJohn Coltrane – tenor saxophone\nWynton Kelly – piano\nPaul Chambers – bass\nJimmy Cobb – drums\n\n\n=== Production ===\nNesuhi Ertegün – producer\nTom Dowd, Phil Iehle – engineer\nLee Friedlander – photography\nMarvin Israel – cover design\nNat Hentoff – liner notes\nBob Carlton, Patrick Milligan – re"
+    }
+   }
+  }
+ },
+ {
+  "id": "gillespiana",
+  "kind": "album",
+  "ours": {
+   "title": "Gillespiana",
+   "artist": "Dizzy Gillespie",
+   "year": 1960,
+   "label": "Verve",
+   "albumDNA": "Gillespiana is an album by trumpeter Dizzy Gillespie featuring compositions and arrangements by Lalo Schifrin recorded in 1960 and released on the Verve label. Captures trumpeter Dizzy Gillespie in a 1960 bebop setting, adding to the recorded documentation of the free jazz era.",
+   "keyTracks": [
+    "Prelude",
+    "Blues",
+    "Panamericana",
+    "Africana",
+    "Toccata"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "7ad30829-065d-4b91-89a7-a7829cbb0368",
+     "title": "Gillespiana",
+     "date": "1960",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Dizzy Gillespie"
+     ],
+     "labels": [
+      {
+       "name": "Verve",
+       "catalogNumber": "V6-8394"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0438b56e-35c9-43be-ae9d-9f2cbd9eb1bf",
+      "title": "Gillespiana",
+      "firstReleaseDate": "1960",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Prelude",
+      "Blues",
+      "Panamericana",
+      "Africana",
+      "Toccata"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "township-jive",
+  "kind": "album",
+  "ours": {
+   "title": "Jazz Epistles: Verse 1",
+   "artist": "Jazz Epistles",
+   "year": 1960,
+   "label": "Gallo",
+   "albumDNA": "The Jazz Epistles were South Africa's first important bebop band. Inspired by Art Blakey's Jazz Messengers, its members included Dollar Brand on piano, Kippie Moeketsi on alto saxophone, Jonas Gwangwa on trombone, Hugh Masekela on trumpet, Johnny Gertze on bass, and Early Mabuza or Makaya Ntshoko on drums. The group became famous after performing in the jam sessions called Jazz at the Odin in the Odin Theater in Sophiatown. The only album by South Africa's first modern jazz group, recorded months before the Sharpeville massacre changed everything.",
+   "keyTracks": [
+    "Blues for Hughie",
+    "Scullery Department",
+    "Vary-oo-Vum",
+    "Dollar's Moods"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Jazz_Epistles"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/The_Jazz_Epistles",
+    "page": {
+     "requestedTitle": "The Jazz Epistles",
+     "resolvedTitle": "The Jazz Epistles",
+     "shortDescription": "South African bebop band",
+     "extract": "The Jazz Epistles were South Africa's first important (albeit short-lived) bebop band. Inspired by Art Blakey's Jazz Messengers, its members included Dollar Brand (later known as Abdullah Ibrahim) on piano, Kippie Moeketsi on alto saxophone, Jonas Gwangwa on trombone, Hugh Masekela on trumpet, Johnny Gertze on bass, and Early Mabuza or Makaya Ntshoko  on drums. The group became famous after performing in the jam sessions called Jazz at the Odin in the Odin Theater in Sophiatown.\nThe group was formed in the mid-1950s when Brand and Mackay Davashe began working together initiated a collaboration with Gwangwa and Masekela.\nIn 1959 just before breaking up, the Jazz Epistles recorded the first album by a black South African band, Jazz Epistle, Verse 1. That same year, composer Todd Matshikiza's musical King Kong became a hit in Johannesburg. It used a jazz score to tell the tragic story of South African heavyweight boxer Ezekiel \"King Kong\" Dhlamini. Miriam Makeba, members of the Manhattan Brothers, and the Jazz Epistles musicians were involved in the production.\nThe 1960 Sharpeville Massacre marked the beginning of an era of vicious apartheid and greater repression of African culture. After the Sharpeville incident, the government imposed a State of Emergency, made mass arrests, issued thousands of bannings, and put activists who challenged apartheid laws on trial. The repression extended to African arts. Jazz was an expressive force seeking musical and social equality. The apartheid system could not tolerate it. Performances were not allowed, jazz was prohibited from radio broadcasts, and prominent musicians were threatened.\nWhen the producers of King Kong received invitations to perform in Europe, the South African government, believing the musical would be helpful propaganda, issued passports to African performers who otherwise would not have had opportunities to leave the country. Members of Jazz Epistles welcomed the opportunity. Most of them found the freedom and the contacts with other musicians in Europe irresistible and chose exile over returning. Thus many of the most adventurous strains in South African music were pursued outside its borders for several decades.\nFollowing a 56-year hiatus, in June 2016 several members of the Jazz Epistles played two reunion concerts in Johannesburg.  In 2017–18 they played several concerts in North America and Europe, including San Sebastian (Spain) Jazz Festival on 25 July; Berlin on 4 August and Ann Arbor on 13 April 2018.\n\n\n== References ==\n\n\n== External links ==\nBebop and beyond the blues—South African Jazz History\nThe New Jazz"
+    }
+   }
+  }
+ },
+ {
+  "id": "louie-and-the-dukes-of-dixieland",
+  "kind": "album",
+  "ours": {
+   "title": "Louie and the Dukes of Dixieland",
+   "artist": "Louis Armstrong",
+   "year": 1960,
+   "label": "Audio Fidelity",
+   "albumDNA": "I've Got the World on a String is a 1960 album by Louis Armstrong, arranged by Russell Garcia. It was recorded on the same day as Armstrong's 1958 album Louis Under the Stars; the previous day he had finished recording Ella and Louis Again with Ella Fitzgerald.",
+   "keyTracks": [
+    "Bourbon Street Parade",
+    "South",
+    "Washington and Lee Swing",
+    "Avalon",
+    "New Orleans"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/I've_Got_the_World_on_a_String_(album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "a4d633d9-4da7-4add-b724-fcee869fd434",
+     "title": "Louie and the Dukes of Dixieland",
+     "date": "",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Louis Armstrong",
+      "The Dukes of Dixieland"
+     ],
+     "labels": [
+      {
+       "name": "High Definition Tape Transfers",
+       "catalogNumber": "HDTT2584"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "399a036d-da20-4ab1-b64d-f873569652e5",
+      "title": "Louie and the Dukes of Dixieland",
+      "firstReleaseDate": "1960",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Bourbon Street Parade",
+      "South",
+      "Washington and Lee Swing",
+      "Avalon",
+      "New Orleans",
+      "That's a' Plenty",
+      "Just a Closer Walk With Thee",
+      "Dixie",
+      "Sheik of Araby",
+      "Wolverine Blues",
+      "Sweet Georgia Brown",
+      "Limehouse Blues"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/I've_Got_the_World_on_a_String_(album)",
+    "page": {
+     "requestedTitle": "I've Got the World on a String (album)",
+     "resolvedTitle": "I've Got the World on a String (album)",
+     "shortDescription": "1960 studio album by Louis Armstrong",
+     "extract": "I've Got the World on a String is a 1960 album by Louis Armstrong, arranged by Russell Garcia. It was recorded on the same day as Armstrong's 1958 album Louis Under the Stars; the previous day he had finished recording Ella and Louis Again with Ella Fitzgerald.\nIn 1999, I've Got the World on a String was reissued with Louis Under the Stars alongside bonus material and outtakes.\n\n\n== Reception ==\n\nBillboard magazine reviewed the album in their March 14, 1960, issue and wrote that \"Satchmo plays it soft and romantic on this listenable collection of standards...Prime jockey wax\".\nRichard S. Ginell reviewed the reissue of the album for AllMusic and wrote that these \"once-overlooked albums...are finally being appreciated as prime samplings from the autumn of Armstrong's recording career\" and that \"Even in the pressure cooker of a marathon session, even when confronted with standards not often associated with him, Armstrong finds the essence of each tune, bending and projecting them with his patented joie de vivre and gravel-voiced warmth every time\". Ginell described Armstrong's trumpet playing as \"pithy, soulful, [and] belonging to no one else\" and praised Russell Garcia's arrangements for big band or strings as \"...among the most atmospheric ever accorded to Armstrong. In particular, 'When Your Lover Is Gone' is sublime, with its signature riff of blasé, sighing horns and responding, rising string tremolos, and Garcia frames 'Body and Soul' with a lovely string chart whose penultimate stroke is a perfectly placed blue note\".\n\n\n== Track listing ==\n\"When Your Lover Has Gone\" (Einar Aaron Swan) – 4:42\n\"You're the Top\" (Cole Porter) – 2:33\n\"You Turned the Tables on Me\" (Louis Alter, Sidney Mitchell) – 2:38\n\"Don't Get Around Much Anymore\" (Duke Ellington, Bob Russell) – 3:41\n\"Little Girl Blue\" (Richard Rodgers, Lorenz Hart) – 5:45\n\"Nobody Knows the Trouble I've Seen\" (Traditional) – 4:56\n\"We'll Be Together Again\" (Carl T. Fischer) – 4:07\n\"I've Got the World on a String\" (Harold Arlen, Ted Koehler) – 2:52\n\"Do Nothing 'Til You Hear From Me\" (Ellington, Russell) – 4:16\n\"I Gotta Right to Sing the Blues\" (Arlen, Koehler) – 4:05\n\n\n== Personnel ==\nLouis Armstrong – trumpet\nRussell Garcia – arranger, conductor\nNorman Granz – producer\nJohn Altoon – cover art\n\n\n=== Orchestra ===\nVictor Arno, Robert Barene, Jacques Gasselin, Joseph Livoti, Dan Lube, Amerigo Marino, Erno Neufeld, Marshall Sosson, Robert Sushel, Gerald Vinci, Tibor Zelig - violins\nMyron Bacon, Abraham Hochstein, Raymond Menhennick, Myron Sandler - violas\nJustin DiTullio, Kurt Reher, William Van Den Burg - cellos\nFrank Beach, Buddy Childers, Cappy Lewis - trumpets\nMilt Bernhart, Marshall Cram, James Henderson, Lloyd Ulyate - trombones\nVincent DeRosa - French horn\nBill Miller, Paul Smith - piano\nTony Rizzi - guitar\nJoe Mondragon - double bass\nAlvin Stoller - drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "mingus-dynasty",
+  "kind": "album",
+  "ours": {
+   "title": "Mingus Dynasty",
+   "artist": "Charles Mingus",
+   "year": 1960,
+   "label": "Columbia",
+   "albumDNA": "Mingus Dynasty is a jazz album by Charles Mingus, recorded in 1959 and released on Columbia Records in May 1960. It is a companion album to his 1959 record Mingus Ah Um, and was inducted in the Grammy Hall of Fame in 1999. The title alludes to Mingus's ancestry, which was partially Chinese.",
+   "keyTracks": [
+    "Slop (unedited version)",
+    "Diane",
+    "Song With Orange (unedited version)",
+    "Gunslinging Bird (unedited version)"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Mingus_Dynasty"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "7c40b866-61fb-4c41-9b03-32f640553a43",
+     "title": "Mingus Dynasty",
+     "date": "1960",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Charles Mingus"
+     ],
+     "labels": [
+      {
+       "name": "Columbia",
+       "catalogNumber": "CS 8236"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "4b268ec1-e204-3c82-91ea-a4bc9eaf0a75",
+      "title": "Mingus Dynasty",
+      "firstReleaseDate": "1960",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Slop",
+      "Diane",
+      "Song With Orange",
+      "Gunslinging Bird",
+      "Things Ain’t What They Used to Be",
+      "Far Wells, Mill Valley",
+      "New Now Know How",
+      "Mood Indigo",
+      "Put Me in That Dungeon"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Mingus_Dynasty",
+    "page": {
+     "requestedTitle": "Mingus Dynasty",
+     "resolvedTitle": "Mingus Dynasty",
+     "shortDescription": "1960 studio album by Charles Mingus",
+     "extract": "Mingus Dynasty is a jazz album by Charles Mingus, recorded in 1959 and released on Columbia Records in May 1960. It is a companion album to his 1959 record Mingus Ah Um, and was inducted in the Grammy Hall of Fame in 1999. The title, a pun on the Ming dynasty, alludes to Mingus's ancestry, which was partially Chinese.\nTracks one, three, four, and five were released in their unedited form in 1979 on vinyl and in 1999 on CD. The cuts amount to about eight minutes.\n\n\n== Track listing ==\nAll compositions by Charles Mingus except where noted.\n\n\"Slop\" – 6:16\n\"Diane\" – 7:32\n\"Song With Orange\" – 6:50\n\"Gunslinging Bird\" (Originally titled \"If Charlie Parker Were a Gunslinger, There'd Be a Whole Lot of Dead Copycats\") – 5:14\n\"Things Ain't What They Used to Be\" (Mercer Ellington) – 7:36\n\"Far Wells, Mill Valley\" – 6:14\n\"New Now, Know How\" – 4:13\n\"Mood Indigo\" (Barney Bigard, Duke Ellington) – 8:13\n\"Put Me in That Dungeon\" – 2:53\n\"Strollin'\" (Originally titled \"Nostalgia in Times Square\") (Mingus, George Gordon) – 4:33 [Bonus track on CD]\n\n\n== Personnel ==\nCharles Mingus – bass\nJohn Handy – alto sax\nBooker Ervin – tenor sax\nBenny Golson – tenor sax (2, 3, 4, 6, 10)\nJerome Richardson – baritone sax (2, 3, 4, 6, 10), flute (2)\nRichard Williams – trumpet (2, 3, 4, 6, 10)\nDon Ellis – trumpet (1, 5, 8, 9)\nJimmy Knepper – trombone\nRoland Hanna – piano (1, 2, 3, 4, 5, 6, 8, 9)\nNico Bunink – piano (7, 10)\nDannie Richmond – drums\nTeddy Charles – vibes (2, 3, 4, 6)\nMaurice Brown – cello (2, 9)\nSeymour Barab – cello (2, 9)\nHoni Gordon – vocals (10)\n\n\n== 50th Anniversary Legacy Edition ==\nIn 2009 Sony's Legacy Recordings released a special, two-disc 50th anniversary edition of Mingus's seminal 1959 album Mingus Ah Um that also includes Mingus Dynasty in its entirety on the second disc.\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "portrait-in-jazz",
+  "kind": "album",
+  "ours": {
+   "title": "Portrait in Jazz",
+   "artist": "Bill Evans Trio",
+   "year": 1960,
+   "label": "Riverside",
+   "albumDNA": "Portrait in Jazz is the fifth studio album by American jazz pianist Bill Evans as a leader, released in 1960. It is the first of only two studio albums to be recorded with his famous trio featuring bassist Scott LaFaro and drummer Paul Motian. It was originally released in both mono and stereo editions, each featuring a different take of \"Autumn Leaves.\" Established the template for modern jazz piano trio playing. The three-way conversation between instruments became the gold standard.",
+   "keyTracks": [
+    "Autumn Leaves",
+    "Witchcraft",
+    "Blue in Green",
+    "Come Rain or Come Shine"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Portrait_in_Jazz"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "2540a282-7cad-402d-9e92-ae50aa316671",
+     "title": "Portrait in Jazz",
+     "date": "1960",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Bill Evans Trio"
+     ],
+     "labels": [
+      {
+       "name": "Riverside",
+       "catalogNumber": "RLP 12-315"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "dc3d3207-9505-45ba-bd06-879806c6e0fd",
+      "title": "Portrait in Jazz",
+      "firstReleaseDate": "1960",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Come Rain or Come Shine",
+      "Autumn Leaves",
+      "Witchcraft",
+      "When I Fall in Love",
+      "Peri's Scope",
+      "What Is This Thing Called Love?",
+      "Spring Is Here",
+      "Someday My Prince Will Come",
+      "Blue in Green"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Portrait_in_Jazz",
+    "page": {
+     "requestedTitle": "Portrait in Jazz",
+     "resolvedTitle": "Portrait in Jazz",
+     "shortDescription": "1960 studio album by The Bill Evans Trio",
+     "extract": "Portrait in Jazz is the fifth studio album by American jazz pianist Bill Evans as a leader, released in 1960. It is the first of only two studio albums to be recorded with his famous trio featuring bassist Scott LaFaro and drummer Paul Motian. It was originally released in both mono and stereo editions, each featuring a different take of \"Autumn Leaves.\"\n\n\n== Background ==\nEight months after his successful collaboration with Miles Davis on the album Kind of Blue, Evans recorded Portrait in Jazz with a new group, the first Bill Evans Trio, that helped change the direction of modern jazz.\nMost notably, LaFaro's bass is promoted from a mere accompanying instrument to one of almost equal status to the piano, although not to the extent that it would be on later albums such as Sunday at the Village Vanguard. Evans said of LaFaro, \"I was astounded by his creativity. ... There was so much music in him, he had a problem controlling it. ... He certainly stimulated me to other areas, and perhaps I helped him contain some of his enthusiasm. It was a wonderful thing and worth all the effort that we made later to suppress the ego and work for a common result.\"\nMotian had recorded previously with Evans on his debut album, New Jazz Conceptions, as well as in groups led by Tony Scott, George Russell, and others. Evans biographer Keith Shadwick notes that Motian at this point tended to avoid standard bop formulas and would \"react instead to what he actually heard coming from the other two musicians,\" which \"added in no small degree to the unique quality of Evans's first working trio.\"\n\n\n== Repertoire ==\nThe album includes seven jazz standards and two Evans compositions. The Disney song \"Someday My Prince Will Come\" had first been used as a vehicle for modern jazz by Dave Brubeck two years earlier on his album Dave Digs Disney and two years later would serve as the title track for an album by Miles Davis. It would remain a staple of Evans's repertoire to the end of his career, with many later live recordings of it in circulation.\nEvans's composition \"Peri's Scope\" was inspired by his then-girlfriend, Peri Cousins, who said the recording made her feel \"immortal.\" It has gone on to be covered several dozens times, including by important jazz artists such as Fred Hersch (1990) and Chick Corea (2011). The last track on the album is a new trio version of \"Blue in Green,\" a composition with disputed authorship that had first appeared as the third track on Kind of Blue, where it was credited exclusively to Miles Davis. Here, it's co-credited to Davis and Evans. The pianist said that \"it's my tune, even though Miles is credited ... for reasons only he understands. One day at Miles's apartment he wrote on some manuscript paper the symbols for G-minor and A-augmented. And he said, 'What would you do with that?' I didn't know, but I went home and wrote 'Blue in Green.'\"\nPortrait in Jazz is one of Evans's more up-tempo and swinging albums, the presence of several ballads notwithstanding.\n\n\n== Reception ==\n\nReviewing the album for AllMusic, critic Scott Yanow wrote, \"the influential interpretations were far from routine or predictable at the time. LaFaro and Motian were nearly equal partners with the pianist in the ensembles .... A gem.\" Danny Eccleston of Mojo commented, \"Portrait In Jazz—Evans' fifth record as a band leader—gets you every which way. At its least great, it is merely brilliant .... But what makes Evans extra-extra-special is the way his playing drags you in and shares the vulnerability at its core. Oh, the humanity!\"\nEvans biographer Peter Pettinger says that \"the plateau attained on Portrait was high indeed, its fresh vistas possessed of a new subtlety in the execution.\" He also singles out the performance of \"Spring Is Here\" by Richard Rodgers as \"a magnificent example of [Evans's] lyrical touch.\" Shadwick refers to the album as establishing \"the blueprint for every subsequent working trio that Evans would run.\"\n\n\n== Reissues ==\nPortrait in Jazz was released on compact disc in 1987 by Riverside/Original Jazz Classics with both masters (mono and stereo) of \"Autumn Leaves\" and take 2 of \"Blue In Green.\" In 2008, a 24-bit remastered edition was released by Riverside as part of its \"Keepnews Collection.\"\n\n\n== Track listing ==\nSide one\n\n\"Come Rain or Come Shine\" (Harold Arlen, Johnny Mercer) – 3:24\n\"Autumn Leaves\" (Joseph Kosma, Jacques Prévert, Johnny Mercer)  – 6:00\n\"Witchcraft\" (Cy Coleman, Carolyn Leigh) – 4:37\n\"When I Fall in Lov"
+    }
+   }
+  }
+ },
+ {
+  "id": "sketches-of-spain",
+  "kind": "album",
+  "ours": {
+   "title": "Sketches of Spain",
+   "artist": "Miles Davis",
+   "year": 1960,
+   "label": "Columbia",
+   "albumDNA": "Sketches of Spain is a studio album by American jazz musician Miles Davis, released on July 18, 1960, by Columbia Records. Recording took place between November 1959 and March 1960 at Columbia's 30th Street Studio in New York City. An extended version of the second movement of Joaquín Rodrigo's Concierto de Aranjuez (1939) is included, as well as a piece called \"Will o' the Wisp\", from Manuel de Falla's ballet El amor brujo (1914–1915). Sketches of Spain is regarded as an exemplary recording of third stream, a musical fusion of jazz, European classical, and styles from world music.",
+   "keyTracks": [
+    "Concierto de Aranjuez",
+    "Will O' the Wisp",
+    "The Pan Piper",
+    "Saeta",
+    "Solea"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Sketches_of_Spain"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "7ca3579c-8e9c-4a0c-b7c0-853b54e25a10",
+     "title": "Sketches of Spain",
+     "date": "1960-08",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Miles Davis"
+     ],
+     "labels": [
+      {
+       "name": "Columbia",
+       "catalogNumber": "CL 1480"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "966fede2-31b2-3b6a-ab50-4a650d3bb97d",
+      "title": "Sketches of Spain",
+      "firstReleaseDate": "1960-08",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Concierto de Aranjuez",
+      "Will O' the Wisp",
+      "The Pan Piper",
+      "Saeta",
+      "Solea"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Sketches_of_Spain",
+    "page": {
+     "requestedTitle": "Sketches of Spain",
+     "resolvedTitle": "Sketches of Spain",
+     "shortDescription": "1960 studio album by Miles Davis",
+     "extract": "Sketches of Spain is a studio album by American jazz musician Miles Davis, released on July 18, 1960, by Columbia Records. Recording took place between November 1959 and March 1960 at Columbia's 30th Street Studio in New York City. An extended version of the second movement of Joaquín Rodrigo's Concierto de Aranjuez (1939) is included, as well as a piece called \"Will o' the Wisp\", from Manuel de Falla's ballet El amor brujo (1914–1915). Sketches of Spain is regarded as an exemplary recording of third stream, a musical fusion of jazz, European classical, and styles from world music.\n\n\n== Background ==\n\nMiles Davis's wife Frances insisted he accompany her to a performance by flamenco dancer Roberto Iglesias. Inspired by the performance, Davis bought every flamenco album he could buy from the Colony Records shop in New York City.\n\nThe album pairs Davis with arranger and composer Gil Evans, with whom he had collaborated on several other projects, on a program of compositions largely derived from the Spanish folk tradition. Evans explained: [We] hadn't intended to make a Spanish album. We were just going to do the Concierto de Aranjuez. A friend of Miles gave him the only album in existence with that piece. He brought it back to New York and I copied the music off the record because there was no score. By the time we did that, we began to listen to other folk music, music played in clubs in Spain... So we learned a lot from that and it ended up being a Spanish album. The Rodrigo, the melody is so beautiful. It's such a strong song. I was so thrilled with that.\nThe folk songs in the album were inspired by recordings made by Alan Lomax in Galicia and Andalusia, which were released in 1955 by Columbia Masterworks. Sketches of Spain album was also the first Miles Davis album to be produced by Teo Macero, who would later produce many of Davis's works.\n\n\n== Concierto de Aranjuez ==\nThe opening piece, taking up almost half the record, is an arrangement by Gil Evans and Miles Davis of the adagio movement of Concierto de Aranjuez, a concerto for guitar by the contemporary Spanish composer Joaquín Rodrigo. Following the faithful introduction of the concerto's guitar melody on flugelhorn, Evans's arrangement turns into a \"quasi-symphonic, quasi-jazz world of sound\", according to his biographer. The middle of the piece contains a \"chorus\" by Evans unrelated to the concerto but \"echoed\" in the other pieces on the album. The original melody then reappears in a darker mode.\nDavis plays flugelhorn and later trumpet, attempting to connect the various settings musically. Davis commented at rehearsal, \"The thing I have to do now is make things connect, make them mean something in what I play around it\". Davis thought the concerto's adagio melody was \"so strong\" that \"the softer you play it, the stronger it gets, and the stronger you play it, the weaker it gets\", and Evans concurred.\nAccording to Davis's biographer Jack Chambers, the contemporary critical response to the arrangement was not surprising, especially given the scarcity of anything resembling a jazz rhythm in most of the piece. Martin Williams wrote that \"the recording is something of a curiosity and a failure, as I think a comparison with any good performance of the movement by a classical guitarist would confirm\". The composer Rodrigo was also not impressed, but royalties from the arrangement brought him \"a lot of money\", according to Evans.\n\n\n== Critical reception ==\n\nIn a contemporary review for DownBeat, Bill Mathieu hailed Sketches of Spain as one of the 20th century's most important musical works so far and a highly intellectual yet passionate record. He found Evans's compositions extremely well crafted and Davis's playing intelligently devised, concluding in his review, \"if there is to be a new jazz, a shape of things to come, then this is the beginning.\" Replying to suggestions that Sketches of Spain was something other than jazz, Davis said \"it's music, and I like it.\" In The Rolling Stone Album Guide (2004), J. D. Considine called it \"a work of unparalleled grace and lyricism,\" while Q magazine said it \"took orchestral jazz in a new direction.\" Robert Christgau was less enthusiastic about the record and recalled being a young listener when it was released: \"In 1960 [it] catapulted Davis into the favor of the kind of man who reads Playboy and initiated in me one phase of the disillusionment with jazz that resulted in my return to rock and roll.\"\nFor Sketches of Spain, E"
+    }
+   }
+  }
+ },
+ {
+  "id": "soul-junction",
+  "kind": "album",
+  "ours": {
+   "title": "Soul Junction",
+   "artist": "Donald Byrd",
+   "year": 1960,
+   "label": "Prestige",
+   "albumDNA": "A hard bop outing from 1960, Soul Junction features trumpeter Donald Byrd recording for Prestige. The set features \"Soul Junction\", \"Woody'n You\", and \"Birk's Works\" among its selections. As a bandleader, Byrd was an influence on the early career of Herbie Hancock and many others.",
+   "keyTracks": [
+    "Soul Junction",
+    "Woody'n You",
+    "Birk's Works",
+    "I've Got It Bad",
+    "Hallelujah"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Soul_Junction"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "0f3c8db2-f276-4c8a-ae95-28f9375038f4",
+     "title": "Soul Junction",
+     "date": "1990",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "The Red Garland Quintet",
+      "John Coltrane",
+      "Donald Byrd"
+     ],
+     "labels": [
+      {
+       "name": "Original Jazz Classics",
+       "catalogNumber": "OJCCD-481-2"
+      },
+      {
+       "name": "Original Jazz Classics",
+       "catalogNumber": "OJCCD-481-2 (P-7181)"
+      },
+      {
+       "name": "Prestige",
+       "catalogNumber": "P-7181"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "11954f38-fa97-4b38-a7bc-3f23767367ab",
+      "title": "Soul Junction",
+      "firstReleaseDate": "1960",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Soul Junction",
+      "Woody 'N You",
+      "Birks' Works",
+      "I've Got It Bad (And That Ain't Good)",
+      "Hallelujah"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Soul_Junction",
+    "page": {
+     "requestedTitle": "Soul Junction",
+     "resolvedTitle": "Soul Junction",
+     "shortDescription": "1960 studio album by The Red Garland Quintet",
+     "extract": "Soul Junction is an album by the jazz pianist and composer Red Garland. It was released in 1960 through Prestige Records. It features tracks recorded on November 15, 1957, the same day the pieces for All Mornin' Long were recorded, with the same lineup.\n\n\n== Track listing ==\n\"Soul Junction\" (Garland) – 15:30\n\"Woody 'n' You\" (Dizzy Gillespie) – 6:50\n\"Birks' Works\" (Dizzy Gillespie) – 7:35\n\"I've Got It Bad (And That Ain't Good)\" (Duke Ellington, Paul Francis Webster) – 6:15\n\"Hallelujah\" (Vincent Youmans) – 6:31\n\n\n== Personnel ==\nRed Garland – piano\nJohn Coltrane – tenor sax\nDonald Byrd – trumpet\nGeorge Joyner – bass\nArt Taylor – drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "soul-junction-coltrane",
+  "kind": "album",
+  "ours": {
+   "title": "Soul Junction",
+   "artist": "John Coltrane",
+   "year": 1960,
+   "label": "Prestige",
+   "albumDNA": "Lush Life is a studio album by the jazz musician John Coltrane. It was released in early 1961 by Prestige Records. It was assembled from previously unissued tracks from three recording sessions at Van Gelder Studio in Hackensack, New Jersey in 1957 and 1958. As Coltrane's profile increased during the 1960s, some years after the end of his Prestige contract, the label used unissued recordings to create new albums without Coltrane's input or approval.",
+   "keyTracks": [
+    "Soul Junction",
+    "Woody'n You",
+    "Birk's Works",
+    "I've Got It Bad",
+    "Hallelujah"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Soul_Junction"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "0f3c8db2-f276-4c8a-ae95-28f9375038f4",
+     "title": "Soul Junction",
+     "date": "1990",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "The Red Garland Quintet",
+      "John Coltrane",
+      "Donald Byrd"
+     ],
+     "labels": [
+      {
+       "name": "Original Jazz Classics",
+       "catalogNumber": "OJCCD-481-2"
+      },
+      {
+       "name": "Original Jazz Classics",
+       "catalogNumber": "OJCCD-481-2 (P-7181)"
+      },
+      {
+       "name": "Prestige",
+       "catalogNumber": "P-7181"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "11954f38-fa97-4b38-a7bc-3f23767367ab",
+      "title": "Soul Junction",
+      "firstReleaseDate": "1960",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Soul Junction",
+      "Woody 'N You",
+      "Birks' Works",
+      "I've Got It Bad (And That Ain't Good)",
+      "Hallelujah"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Soul_Junction",
+    "page": {
+     "requestedTitle": "Soul Junction",
+     "resolvedTitle": "Soul Junction",
+     "shortDescription": "1960 studio album by The Red Garland Quintet",
+     "extract": "Soul Junction is an album by the jazz pianist and composer Red Garland. It was released in 1960 through Prestige Records. It features tracks recorded on November 15, 1957, the same day the pieces for All Mornin' Long were recorded, with the same lineup.\n\n\n== Track listing ==\n\"Soul Junction\" (Garland) – 15:30\n\"Woody 'n' You\" (Dizzy Gillespie) – 6:50\n\"Birks' Works\" (Dizzy Gillespie) – 7:35\n\"I've Got It Bad (And That Ain't Good)\" (Duke Ellington, Paul Francis Webster) – 6:15\n\"Hallelujah\" (Vincent Youmans) – 6:31\n\n\n== Personnel ==\nRed Garland – piano\nJohn Coltrane – tenor sax\nDonald Byrd – trumpet\nGeorge Joyner – bass\nArt Taylor – drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "soul-time",
+  "kind": "album",
+  "ours": {
+   "title": "Soul Time",
+   "artist": "Bobby Timmons",
+   "year": 1960,
+   "label": "Riverside",
+   "albumDNA": "Holiday Soul is an album of Christmas music by the American jazz pianist Bobby Timmons, recorded in 1964 and released on the Prestige label. Captures pianist Bobby Timmons during the cool jazz movement, favoring lighter timbres, relaxed tempos, and a chamber sensibility.",
+   "keyTracks": [
+    "Soul Time",
+    "So Tired",
+    "The Touch of Your Lips",
+    "S'posin'",
+    "Stella B."
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Holiday_Soul_(Bobby_Timmons_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "c4012af7-efed-30a9-a605-8d18c6438806",
+     "title": "Soul Time",
+     "date": "1960-11",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Bobby Timmons"
+     ],
+     "labels": [
+      {
+       "name": "Riverside",
+       "catalogNumber": "RS 9334"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "15fc2ed8-27b7-3817-ae2b-2c22ae92b6b3",
+      "title": "Soul Time",
+      "firstReleaseDate": "1960-11",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Soul Time",
+      "So Tired",
+      "The Touch of Your Lips",
+      "S'posin'",
+      "Stella B.",
+      "You Don't Know What Love Is",
+      "One Mo'"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Holiday_Soul_(Bobby_Timmons_album)",
+    "page": {
+     "requestedTitle": "Holiday Soul (Bobby Timmons album)",
+     "resolvedTitle": "Holiday Soul (Bobby Timmons album)",
+     "shortDescription": "1964 studio album by Bobby Timmons",
+     "extract": "Holiday Soul is an album of Christmas music by the American jazz pianist Bobby Timmons, recorded in 1964 and released on the Prestige label.\n\n\n== Reception ==\n\nThe AllMusic review awarded the album 3 stars. DownBeat commented that Timmons played the Christmas material \"without seeming the least bit self-conscious about his soul-jazz and blues tendencies\". The All About Jazz reviewer also commented that the pianist retained his normal playing style despite the material. Critic Marc Myers selected it for his Vintage Holiday Album Hall of Fame in 2015.\n\n\n== Track listing ==\n\"Deck the Halls\" (Traditional) – 3:10\n\"White Christmas\" (Irving Berlin) – 7:00\n\"The Christmas Song\" (Mel Tormé, Robert Wells) – 5:15\n\"Auld Lang Syne\" (Robert Burns, Traditional) – 4:35\n\"Santa Claus Is Coming to Town\" (J. Fred Coots, Haven Gillespie) – 6:00\n\"Winter Wonderland\" (Felix Bernard, Richard B. Smith) – 5:30\n\"We Three Kings\" (John Henry Hopkins, Jr.) – 5:00\n\"You're All I Want for Christmas\" (Seger Ellis, Glen Moore) – 5:00\nRecorded at Rudy Van Gelder Studio in Englewood Cliffs, New Jersey on November 24, 1964.\n\n\n== Personnel ==\nBobby Timmons - piano\nButch Warren - double bass\nWalter Perkins - drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "the-centaur-and-the-phoenix",
+  "kind": "album",
+  "ours": {
+   "title": "The Centaur and the Phoenix",
+   "artist": "Yusef Lateef",
+   "year": 1960,
+   "label": "Riverside",
+   "albumDNA": "Detroit's Yusef Lateef was among the first jazz musicians to incorporate non-Western instruments and scales into his music. This album features his oboe, flute, and tenor saxophone alongside exotic instruments, creating a unique fusion of hard bop with Middle Eastern and Asian musical elements. A pioneering work of world jazz fusion, years before the term existed. Lateef's incorporation of Eastern instruments and modes into hard bop opened doors for the entire world music movement in jazz.",
+   "keyTracks": [
+    "The Centaur and the Phoenix",
+    "Summer Song",
+    "The Plum Blossom",
+    "First Gymnopedie"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "c90e96c7-b6e4-498b-a80a-bb2c9af0c04b",
+     "title": "The Centaur and the Phoenix",
+     "date": "1960",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Yusef Lateef"
+     ],
+     "labels": [
+      {
+       "name": "Riverside",
+       "catalogNumber": "RLP 337"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "f9caae3a-3e14-30ce-ac95-ff93791b0148",
+      "title": "The Centaur and the Phoenix",
+      "firstReleaseDate": "1960",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Revelation",
+      "Apathy",
+      "Ev’ry Day (I Fall in Love)",
+      "The Centaur and the Phoenix",
+      "Iqbal",
+      "Summer Song",
+      "The Philanthropist"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "this-here-is-bobby-timmons",
+  "kind": "album",
+  "ours": {
+   "title": "This Here Is Bobby Timmons",
+   "artist": "Bobby Timmons",
+   "year": 1960,
+   "label": "Riverside",
+   "albumDNA": "This Here Is Bobby Timmons is an album by American jazz pianist Bobby Timmons recorded in 1960 and released on the Riverside label. It was his first album as sole leader; the earlier Jenkins, Jordan and Timmons (1957) was a co-led date with saxophonists John Jenkins and Clifford Jordan.",
+   "keyTracks": [
+    "This Here",
+    "Moanin'",
+    "Lush Life",
+    "The Party's Over",
+    "Prelude to a Kiss"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "ad8c1d08-8896-48b9-9deb-ce7a97208b23",
+     "title": "This Here Is Bobby Timmons",
+     "date": "1960-11",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Bobby Timmons"
+     ],
+     "labels": [
+      {
+       "name": "Riverside",
+       "catalogNumber": "RLP 12-317"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0749d0ec-687d-39c0-908a-bb3810777917",
+      "title": "This Here Is Bobby Timmons",
+      "firstReleaseDate": "1960-11",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "This Here",
+      "Moanin'",
+      "Lush Life",
+      "The Party's Over",
+      "Prelude to a Kiss",
+      "Dat Dere",
+      "My Funny Valentine",
+      "Come Rain or Come Shine",
+      "Joy Ride"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "we-insist",
+  "kind": "album",
+  "ours": {
+   "title": "We Insist! Max Roach's Freedom Now Suite",
+   "artist": "Max Roach",
+   "year": 1960,
+   "label": "Candid",
+   "albumDNA": "We Insist! is an album by the jazz drummer and composer Max Roach which was released in January 1961 through Candid Records. It consists of a suite that Roach and lyricist Oscar Brown had begun to develop in 1959 with a view to its performance in 1963 on the centennial of the Emancipation Proclamation. The cover references the sit-in movement of the Civil Rights Movement. The Penguin Guide to Jazz awarded the album one of its rare crown accolades, in addition to featuring it as part of its Core Collection. One of the first jazz albums to directly address civil rights. Its uncompromising message influenced politically conscious jazz.",
+   "keyTracks": [
+    "Driva' Man",
+    "Freedom Day",
+    "Triptych: Prayer/Protest/Peace",
+    "All Africa"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/We_Insist!"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "3f83df01-bdca-461c-b655-9252d255d0fd",
+     "title": "We Insist! Max Roach’s Freedom Now Suite",
+     "date": "1961-01",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Max Roach"
+     ],
+     "labels": [
+      {
+       "name": "Candid",
+       "catalogNumber": "CJM 8002"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "74a22423-bc30-3f20-8339-bcee59483819",
+      "title": "We Insist! Max Roach’s Freedom Now Suite",
+      "firstReleaseDate": "1961-01",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Driva’ Man",
+      "Freedom Day",
+      "Triptych: Prayer / Protest / Peace",
+      "All Africa",
+      "Tears for Johannesburg"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/We_Insist!",
+    "page": {
+     "requestedTitle": "We Insist!",
+     "resolvedTitle": "We Insist!",
+     "shortDescription": "1960 studio album by Max Roach",
+     "extract": "We Insist! (subtitled Max Roach's Freedom Now Suite) is an album by the jazz drummer and composer Max Roach which was released in January 1961 through Candid Records. It consists of a suite that  Roach and lyricist Oscar Brown had begun to develop in 1959 with a view to its performance in 1963 on the centennial of the Emancipation Proclamation. The cover references the sit-in movement of the Civil Rights Movement. The Penguin Guide to Jazz awarded the album one of its rare crown accolades, in addition to featuring it as part of its Core Collection.\nThe music consists of five selections concerning the Emancipation Proclamation and the growing African independence movements of the 1950s. Only Roach and vocalist Abbey Lincoln perform on all five tracks, and one track features a guest appearance by saxophonist Coleman Hawkins.\nIn 2022, the album was selected by the Library of Congress for preservation in the United States National Recording Registry as being \"culturally, historically, or aesthetically significant\".\n\n\n== Composition ==\nWe Insist! is an avant-garde jazz album and a vocal-instrumental suite on themes related to the Civil Rights Movement. It incorporates aspects of avant-garde trends during the 1960s, including the use of a pianoless ensemble, screaming vocals on \"Protest\", and moments of collective improvisation, such as at the end of \"Tears for Johannesburg\". Max Roach collaborated with lyricist Oscar Brown Jr. on the album and wrote songs that played variations on the theme of the struggle for African Americans to achieve equality in the United States. Abbey Lincoln, a frequent collaborator and subsequent wife of Roach's, performed vocals on the album. While Brown's lyrics were verbal, Lincoln sang wordless vocals on her parts.\nBrown and Roach began collaborating in 1959 on a longer piece that they planned to perform at the centennial of the Emancipation Proclamation in 1963. However, the urgency of civil rights issues steered them towards a new project in 1960 – the album that would become the Freedom Now Suite. This urgency was sparked by the Greensboro sit-ins at a lunch counter in Greensboro, North Carolina, and the rapidly spreading momentum of the civil rights movement aided by the Southern Christian Leadership Conference (SCLC) and Congress of Racial Equality (CORE).\nDuring the composition of the album, Roach lived in New York and Brown in Chicago, and Brown recalls that \"we did it on the road kind of; we really wrote it by telephone.\" From this came tensions between the two composers about the political content of the article and especially about how the album should end. The pair continued arguing throughout the composition, and eventually Brown backed out. Monson wrote that \"Brown did not know about the Freedom Now Suite recording until he received a postcard from Nat Hentoff requesting biographical material to be included in the liner notes to the album. Brown was disappointed that the music from their collaboration had been rearranged without his knowledge to serve Max Roach's political vision.\" Specifically, Brown did not like the screaming section of \"Protest\" in the track \"Triptych\". Although both Brown and Roach agreed on issues of social justice, they disagreed on the vehicles with which to express this.\nIn the LP's liner notes, Hentoff writes: \"During the same period, there was also increasing press coverage of the emerging, newly independent nations of Africa. Negro students in the south had been particularly aware of the impetus to their own campaigns for freedom given by the African examples because of the presence of African students on their campuses. Jazzmen too had been becoming conscious and prideful of the African wave of independence.\"\n\n\n=== \"Driva' Man\" ===\nWritten by Max Roach and Oscar Brown, \"Driva Man\" tells the explicit story of slavery through its lyrics and accompaniment. Nat Hentoff, who was present at the recording sessions of the album, wrote that the Driva' Man \"is a personification of the white overseer in slavery times who often forced women under his jurisdiction into sexual relations.\" Also in the lyrics are \"pater ollers\". Hentoff in his liner notes includes a description of the patrollers by a former slave, who says they are men \"who would catch you from home and wear you out and send you back to your master....Most of them there patrollers was poor white folks....Poor white folks had to hustle round to make a living, so they hired out theirselves to slaveowne"
+    }
+   }
+  }
+ },
+ {
+  "id": "how-time-passes",
+  "kind": "album",
+  "ours": {
+   "title": "... How Time Passes...",
+   "artist": "Don Ellis",
+   "year": 1961,
+   "label": "Candid",
+   "albumDNA": "How Time Passes is the debut album by trumpeter Don Ellis recorded in 1960 and released on the Candid label. Trumpeter Don Ellis's hard bop sensibility is on display in this 1961 session, a document of the hard bop era.",
+   "keyTracks": [
+    "How Time Passes",
+    "Sallie",
+    "A Simplex One",
+    "Waste",
+    "Improvisational Suite #1"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/How_Time_Passes"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "58b89421-a605-436d-a05f-fa77415a7edb",
+     "title": "How Time Passes",
+     "date": "1961",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Don Ellis"
+     ],
+     "labels": [
+      {
+       "name": "Candid",
+       "catalogNumber": "CJS 9004"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "378acdd4-6a08-3dd3-b7e6-995e5a459075",
+      "title": "... How Time Passes...",
+      "firstReleaseDate": "1961",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "How Time Passes",
+      "Sallie",
+      "A Simplex One",
+      "Waste",
+      "Improvisational Suite #1"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/How_Time_Passes",
+    "page": {
+     "requestedTitle": "How Time Passes",
+     "resolvedTitle": "How Time Passes",
+     "shortDescription": "1960 studio album by Don Ellis",
+     "extract": "How Time Passes is the debut album by trumpeter Don Ellis recorded in 1960 and released on the Candid label. \n\n\n== Reception ==\n\nScott Yanow of Allmusic states, \"Trumpeter Don Ellis' initial recording as a leader (and first of four small group dates from the 1960-1962 period) found him stretching the boundaries of bop-based jazz and experimenting a bit with time and tempo... Although these musical experiments failed to be influential (Ellis himself went in a different direction a few years later), the unpredictable music is still quite interesting to hear\". The Penguin Guide to Jazz award the album 3 stars.\n\n\n== Track listing ==\nAll compositions by Don Ellis except as indicated\n\n\"How Time Passes\" - 6:30\n\"Sallie\" - 4:38\n\"A Simplex One\" - 4:17\n\"Waste\" (Jaki Byard) - 8:15\n\"Improvisational Suite #1\" - 22:18\n\n\n== Personnel ==\nDon Ellis - trumpet\nJaki Byard - piano, alto saxophone\nRon Carter - bass\nCharlie Persip - drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "live-at-the-five-spot",
+  "kind": "album",
+  "ours": {
+   "title": "At the Five Spot, Vol. 1",
+   "artist": "Eric Dolphy",
+   "year": 1961,
+   "label": "Prestige",
+   "albumDNA": "Eric Dolphy at the Five Spot is a pair of live albums by the jazz musician and composer Eric Dolphy. They were released in December 1961 and November 1963 by Prestige Records. They were recorded on the night of 16 July 1961 at the end of Dolphy's two-week residency, alongside trumpeter Booker Little, at the Five Spot jazz club in New York. It was the only night to be recorded. The engineer was Rudy Van Gelder. Documents one of jazz's great partnerships tragically cut short. Little's mature brilliance at such a young age remains stunning.",
+   "keyTracks": [
+    "Fire Waltz",
+    "Bee Vamp",
+    "The Prophet",
+    "Aggression"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/At_the_Five_Spot"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/At_the_Five_Spot",
+    "page": {
+     "requestedTitle": "At the Five Spot",
+     "resolvedTitle": "At the Five Spot",
+     "shortDescription": "1961 live album by Eric Dolphy",
+     "extract": "Eric Dolphy at the Five Spot is a pair of live albums by the jazz musician and composer Eric Dolphy. They were released in December 1961 (Volume 1) and November 1963 (Volume 2) by Prestige Records. They were recorded on the night of 16 July 1961 at the end of Dolphy's two-week residency, alongside trumpeter Booker Little, at the Five Spot jazz club in New York. It was the only night to be recorded. The engineer was Rudy Van Gelder.\nA third volume of recordings from the same evening, given the title Memorial Album, was released in 1965, after the premature deaths of both Little and Dolphy, containing \"Number Eight (Potsa Lotsa)\" and \"Booker's Waltz\". These two tracks were later released on the Van Gelder remaster of Volume 2.\n\nAll three volumes were reissued, without alternate takes, as a triple LP under the title The Great Concert of Eric Dolphy. Two other tracks, Mal Waldron's \"Status Seeking\" and Dolphy's solo rendition of Billie Holiday's \"God Bless The Child\", were released on the Dolphy compilation Here and There. Dolphy and Little were backed by a rhythm section consisting of pianist Mal Waldron, bassist Richard Davis, and drummer Eddie Blackwell.\nDolphy's composition \"The Prophet\" is a tribute to the artist Richard \"Prophet\" Jennings, who had designed the covers of Dolphy's earlier albums, Outward Bound and Out There.\n\n\n== Reception ==\nIn an AllMusic review of volume 1, Michael G. Nastos stated that Dolphy's group had \"developed into a role model for all progressive jazz combos to come\", while \"[t]he combined power of Dolphy and Little -- exploring overt but in retrospect not excessive dissonance and atonality -- made them a target for critics but admired among the burgeoning progressive post-bop scene.\" Nastos continued: \"With the always stunning shadings of pianist Mal Waldron, the classical-cum-daring bass playing of Richard Davis, and the colorful drumming of alchemistic Ed Blackwell, there was no stopping this group.\" He concluded: \"Most hail this first volume, and a second companion album from the same sessions, as music that changed the jazz world as much as Ornette Coleman and John Coltrane's innovative excursions of the same era. All forward thinking and challenged listeners need to own these epic club dates.\"\nScott Yanow, reviewing volume 2, called the album \"[a]n excellent set that records what may have been Dolphy's finest group ever, as well as one of that era's best working bands.\" A review in PDX Jazz called the Five Spot recordings \"a tremendous live set\" and \"a very spirited performance with surprisingly good sound quality given its recording in a mere club back in the early 1960s.\" Stuart Nicholson, writing for Jazzwise, included the Five Spot tracks in his list of \"five essential albums\" by Dolphy, and wrote: \"Eric Dolphy liked plenty of solo space to express himself, and this live date at New York's Five Spot... gave him precisely that. His fiercely vocalised alto solo on 'Fire Waltz' is the stuff of legend, for many his most memorable, diverging from the linear logic and techniques of variation employed by most post-war jazz musicians.\"\nDolphy biographers Vladimir Simosko and Barry Tepperman observed that the Five Spot recordings \"present the rare opportunity to study a night's work in the club,\" and stated: \"despite any unevenness in strength of solos or tightness of the performances, a very well-balanced and brilliant group is in evidence... the unity and wide dimensions revealed by the preservation of one night's work remain to testify to the quintet's worth and vitality.\"\n\n\n== Setlist ==\n\"Status Seeking\"\n\"God Bless the Child\"\n\"Aggression\"\n\"Like Someone in Love\"\n\"Fire Waltz\"\n\"Bee Vamp\" (two takes)\n\"The Prophet\"\n\"Number Eight (Potsa Lotsa)\"\n\"Booker's Waltz\"\n\n\n== Track listing ==\n\n\n=== Volume one ===\n\"Fire Waltz\" (Waldron) – 13:44\n\"Bee Vamp\" (Little) – 12:30\n\"The Prophet\" (Dolphy) – 21:22\n\"Bee Vamp\" (Alternate Take) – 9:27\n(Track 4 not on original LP.)\n\n\n=== Volume two ===\n\"Aggression\" (Little) – 17:21\n\"Like Someone in Love\" (Jimmy Van Heusen) – 19:58\n\"Number Eight (Potsa Lotsa)\" (Dolphy) – 15:33\n\"Booker's Waltz\" (Little) – 14:39\n(Tracks 3–4 not on original LP.)\n\n\n=== Memorial Album ===\n\"Number Eight (Potsa Lotsa)\" (Dolphy) – 15:33\n\"Booker's Waltz\" (Little) – 14:39\n\n\n== Personnel ==\nEric Dolphy — alto saxophone (on \"Fire Waltz\" and \"The Prophet\"), bass clarinet (on \"Bee Vamp\" and \"Aggression\") and flute (on \"Like someone in Love\")\nBooker Little — trumpet\nMal Waldron — piano\nRichard Davis "
+    }
+   }
+  }
+ },
+ {
+  "id": "buhaina",
+  "kind": "album",
+  "ours": {
+   "title": "Buhaina's Delight",
+   "artist": "Art Blakey & The Jazz Messengers",
+   "year": 1961,
+   "label": "Blue Note",
+   "albumDNA": "Buhaina's Delight is a jazz album released by Art Blakey and the Jazz Messengers in 1963. Produced by Alfred Lion, the album was recorded in two sessions on November 28, 1961 and December 18, 1961 at Van Gelder Studio in Englewood Cliffs, New Jersey. The album was released by Blue Note Records in July 1963 after Blakey had gone to Riverside Records in late 1962. Captured the Messengers at a creative peak. Shorter's compositions showed his growing stature as a writer.",
+   "keyTracks": [
+    "Backstage Sally",
+    "Contemplation",
+    "Bu's Delight",
+    "Reincarnation Blues"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Buhaina's_Delight"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "aad8298e-59a0-4f61-8b34-36271d1b468c",
+     "title": "Buhaina's Delight",
+     "date": "1962",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Art Blakey & The Jazz Messengers"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "BST 84104"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "8dbfeb2e-0478-3a88-b4ed-b1a3e5157488",
+      "title": "Buhaina's Delight",
+      "firstReleaseDate": "1962",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Backstage Sally",
+      "Contemplation",
+      "Bu's Delight",
+      "Reincarnation Blues",
+      "Shaky Jake",
+      "Moon River"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Buhaina's_Delight",
+    "page": {
+     "requestedTitle": "Buhaina's Delight",
+     "resolvedTitle": "Buhaina's Delight",
+     "shortDescription": "1963 studio album by Art Blakey and the Jazz Messengers",
+     "extract": "Buhaina's Delight is a jazz album released by Art Blakey and the Jazz Messengers in 1963. Produced by Alfred Lion, the album was recorded in two sessions on November 28, 1961 and December 18, 1961 at Van Gelder Studio in Englewood Cliffs, New Jersey. The album was released by Blue Note Records in July 1963 after Blakey had gone to Riverside Records in late 1962.\n\n\n== Background ==\n\"Buhaina\" is a reference to the Muslim name, Abdullah ibn Buhaina, Blakey received upon conversion to Islam in 1948 while traveling in West Africa. Although he stopped practicing Islam in the 1950s, Blakey continued to use the name, which became titular on two albums.\n\n\n== Track listing ==\n\"Backstage Sally\" (Shorter) - 5:58\n\"Contemplation\" (Shorter) - 6:18\n\"Bu's Delight\" (Fuller) - 9:20\n\"Reincarnation Blues\" (Shorter) - 6:36\n\"Shaky Jake\" (Walton) - 6:38\n\"Moon River\" (Henry Mancini, Johnny Mercer) - 5:12\n\"Backstage Sally\" (alternate version) - 6:01 *\n\"Bu's Delight\" (alternate version) - 6:54 *\n\"Reincarnation Blues\" (alternate version) - 4:59 *\n\"Moon River\" (alternate take) - 5:13 *\n\n* previously unissued bonus tracks\n\nRecorded on November 28 (#2, 6-10) and December 18 (all others), 1961 by Rudy van Gelder at the Van Gelder Studio, Englewood Cliffs, New Jersey\n\n\n== Personnel ==\nArt Blakey - drums\nFreddie Hubbard - trumpet\nCurtis Fuller - trombone\nWayne Shorter - tenor saxophone\nCedar Walton - piano\nJymie Merritt - bass\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "eastern-sounds",
+  "kind": "album",
+  "ours": {
+   "title": "Eastern Sounds",
+   "artist": "Yusef Lateef",
+   "year": 1961,
+   "label": "Moodsville",
+   "albumDNA": "Eastern Sounds is a studio album by the jazz multi-instrumentalist and composer Yusef Lateef. It was released in April 1962 through Prestige Records on their Moodsville imprint. The recording was made in September 1961. The album features Lateef's continued exploration of Middle Eastern music, which were incorporated into his version of hard bop with a quartet featuring Barry Harris on piano. The opening track features Lateef on Chinese globular flute, generally called xun. Pioneered world music in jazz. His multi-instrumentalism and cross-cultural approach opened new possibilities.",
+   "keyTracks": [
+    "The Plum Blossom",
+    "Blues for the Orient",
+    "Snafu",
+    "Love Theme from 'Spartacus'"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Eastern_Sounds"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "d14ba5ec-7241-4898-8a25-5330a4539f21",
+     "title": "Eastern Sounds",
+     "date": "1961-09-05",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "Yusef Lateef"
+     ],
+     "labels": [
+      {
+       "name": "Craft Recordings",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "90059646-f8d5-3f1a-8315-0e511cae7f7f",
+      "title": "Eastern Sounds",
+      "firstReleaseDate": "1961-09-05",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "The Plum Blossom",
+      "Blues for the Orient",
+      "Ching Miau",
+      "Don’t Blame Me",
+      "Love Theme From “Spartacus”",
+      "Snafu",
+      "Purple Flower",
+      "Love Theme From “The Robe”",
+      "Three Faces of Balal"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Eastern_Sounds",
+    "page": {
+     "requestedTitle": "Eastern Sounds",
+     "resolvedTitle": "Eastern Sounds",
+     "shortDescription": "Album by Yusef Lateef",
+     "extract": "Eastern Sounds is a studio album by the jazz multi-instrumentalist and composer Yusef Lateef. It was released in April 1962 through Prestige Records on their Moodsville imprint. The recording was made in September 1961. The album features Lateef's continued exploration of Middle Eastern music, which were incorporated into his version of hard bop with a quartet featuring Barry Harris on piano. The opening track features Lateef on Chinese globular flute, generally called xun. The fusing of musical genres was not a new thing in jazz or for Lateef as his 1957 album Prayer to the East incorporated the shehnai and Middle Eastern influences in playing jazz standards. In addition to original compositions by Lateef, Eastern Sounds includes covers of themes from the films Spartacus and The Robe, both of which have been sampled by producer Nujabes.\n\n\n== Track listing ==\n\"The Plum Blossom\" (Yusef Lateef) – 5:03\n\"Blues for the Orient\" (Lateef) – 5:40\n\"Ching Miau\" (Lateef) – 3:20\n\"Don't Blame Me\" (Jimmy McHugh) – 4:57\n\"Love Theme from Spartacus\" (Alex North) – 4:15\n\"Snafu\" (Lateef) – 5:42\n\"Purple Flower\" (Lateef) – 4:32\n\"Love Theme from The Robe\" (Alfred Newman) – 4:02\n\"The Three Faces of Balal\" (Lateef) – 2:23\n\n\n== Trivia ==\nSinger-songwriter Cat Stevens was inspired by the melody of the opening track to write his first hit single \"I Love My Dog\" (1966). Lateef later received credits and royalties for it.\n\n\n== Personnel ==\nYusef Lateef – flute, oboe, tenor saxophone, xun (called \"Chinese globular flute\" in liner notes)\nBarry Harris – piano\nErnie Farrow – double bass, Rabaab (called \"rabat\" in liner notes)\nLex Humphries – drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "blue-in-green",
+  "kind": "album",
+  "ours": {
+   "title": "Explorations",
+   "artist": "Bill Evans Trio",
+   "year": 1961,
+   "label": "Riverside",
+   "albumDNA": "Explorations is an album by jazz pianist Bill Evans that was originally released by Riverside Records in 1961. It was the second and final studio album Evans recorded with his classic trio featuring Scott LaFaro on bass and Paul Motian on drums. Further developed the trio's conversational approach. The intimacy and interplay became a model for all piano trios.",
+   "keyTracks": [
+    "Israel",
+    "Haunted Heart",
+    "Beautiful Love",
+    "Elsa"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Explorations_(Bill_Evans_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "03a16344-efb3-48f8-baa6-2ec53cb53782",
+     "title": "Explorations",
+     "date": "1961",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Bill Evans Trio"
+     ],
+     "labels": [
+      {
+       "name": "Riverside",
+       "catalogNumber": "RLP-351"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "f1405811-162d-3c75-b3ca-c9992cf1b39b",
+      "title": "Explorations",
+      "firstReleaseDate": "1961",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Israel",
+      "Haunted Heart",
+      "Beautiful Love",
+      "Elsa",
+      "Nardis",
+      "How Deep Is the Ocean",
+      "I Wish I Knew",
+      "Sweet & Lovely"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Explorations_(Bill_Evans_album)",
+    "page": {
+     "requestedTitle": "Explorations (Bill Evans album)",
+     "resolvedTitle": "Explorations (Bill Evans album)",
+     "shortDescription": "1961 studio album by The Bill Evans Trio",
+     "extract": "Explorations is an album by jazz pianist Bill Evans that was originally released by Riverside Records in 1961. It was the second and final studio album Evans recorded with his classic trio featuring Scott LaFaro on bass and Paul Motian on drums.\n\n\n== Background ==\nThe album is a follow-up to the trio's first recording from two years earlier, Portrait in Jazz. The delay in making a new record was largely attributable to Evans's drug habit and resulting hepatitis, which led LaFaro to play and record in the meantime with Ornette Coleman. When Explorations was finally recorded, it was not under happy circumstances. As Evans biographer Keith Shadwick relates: \"Tension ... simmered, particularly between Evans and the abrasive LaFaro, who made no secret of his disgust at Evans's addiction. LaFaro played on a borrowed instrument, while the pianist was quickly complaining of a headache, probably brought on by the strain in the studio.\" Nonetheless, the resulting album turned out to be an influential and enduring classic that \"brilliantly illustrates [Evans's] innovative concept of 'simultaneous improvisation.'\"\n\n\n== Repertoire ==\nThe album's eight original tracks include five jazz standards and three modern jazz compositions. Explorations opens with a cover of John Carisi's \"Israel,\" which had first been recorded by Miles Davis on the second Birth of the Cool session. The trio also covers Davis's own \"Nardis,\" which Evans had first recorded in 1958 with Cannonball Adderley. Ted Gioia notes that \"you could trace Evans's entire career by studying his different interpretations of this composition over the years, documented by more than 30 recordings.\" Also included is the ballad-waltz \"Elsa\" composed by Evans's friend Earl Zindars. Peter Pettinger comments that \"Evans began it with an air of mystery, like the unveiling of a secret, the gentle introduction melting imperceptibly into the tune.\" Evans would record it again just a few weeks later with Adderley for the album Know What I Mean? and then revisit it a few years later on Trio '65. A number of later live versions through 1975 are also in circulation, and Evans would record several other Zindars compositions through the years.\nPettinger notes that the treatment of Irving Berlin's classic song \"How Deep Is the Ocean?\" was \"remarkable at the time for leaving the melody till the end.\" Unlike Evans's three previously released trio recordings, Explorations includes no originals by the pianist.\n\n\n== Reception ==\n\nThe album won the Billboard Jazz Critics Best Piano LP poll for 1961.\nDavid Rickert of All About Jazz wrote, \"Evans demands to be heard, seducing you with his indelibly emotional playing. ... The trio works magic here, breathing fresh air into standards such as 'How Deep Is the Ocean?' and 'Beautiful Love' and creating the illusion that these songs were written just so someone like Evans could play them. The highlight of the album is 'Elsa,' which is one of the most beautiful piano ballads on record.\"\nWriting for AllMusic, critic Thom Jurek said of the album: \"Evans, with Paul Motian and Scott LaFaro, was onto something as a trio, exploring the undersides of melodic and rhythmic constructions that had never been considered by most. ... Explorations is an extraordinary example of the reach and breadth of this trio at its peak.\"\n\n\n== Reissues ==\nThe album was remastered and reissued on compact disc by Riverside/Original Jazz Classics in 1987 with two bonus tracks. In the liner notes, producer Orrin Keepnews discusses these additional recordings, \"Beautiful Love (take 1)\" and \"The Boy Next Door\"; the first version of \"Beautiful Love\" included on the original LP was a second take. In fact, as Keepnews specifies, \"this is not the usual case of a second attempt that immediately followed the first. ... Early in this date, [Evans] played this number once; we both approved, and he moved on to something else. Much later, he decided to try a second 'Beautiful Love,' which he later preferred.\" \"The Boy Next Door,\" on the other hand, was set aside at the time of the LP, because of the limited space available on the album.\nIn 2011, a new CD edition was released with two more bonus tracks, alternate takes of \"How Deep Is the Ocean?\" and \"I Wish I Knew.\"\n\n\n== Track listing ==\nSide one\n\n\"Israel\" (John Carisi)  – 6:12\n\"Haunted Heart\" (Arthur Schwartz, Howard Dietz)  – 3:28\n\"Beautiful Love\" [Take 2] (Wayne King, Egbert Van Alstyne, Victor Young)  – 5:04\n\"Elsa\" (Earl Zindars)  – 5:10\nSide t"
+    }
+   }
+  }
+ },
+ {
+  "id": "face-to-face",
+  "kind": "album",
+  "ours": {
+   "title": "Face to Face",
+   "artist": "Baby Face Willette",
+   "year": 1961,
+   "label": "Blue Note",
+   "albumDNA": "Roosevelt 'Baby Face' Willette's debut album is a raw, gospel-drenched organ jazz session that burns with sanctified fervor. With Fred Jackson's gutbucket tenor and Grant Green's crisp guitar, the music channels the Black church directly into the nightclub. One of the rawest and most soulful organ jazz albums ever recorded. Willette's brief recording career left only a handful of albums, making this debut all the more precious.",
+   "keyTracks": [
+    "Face to Face",
+    "Goin' Down",
+    "Somethin'",
+    "Swingin' for Bumsy"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Face_to_Face_(Baby_Face_Willette_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "df11fa37-ac88-4ae1-9db7-a8cd7f63d851",
+     "title": "Face to Face",
+     "date": "1961-07",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Baby Face Willette"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "BLP 4068"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "e1a77b32-a2a7-32ad-a25a-4a563b16d9a3",
+      "title": "Face to Face",
+      "firstReleaseDate": "1961-07",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Swingin' at Sugar Ray's",
+      "Goin' Down",
+      "Whatever Lola Wants",
+      "Face to Face",
+      "Somethin' Strange",
+      "High 'n' Low"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Face_to_Face_(Baby_Face_Willette_album)",
+    "page": {
+     "requestedTitle": "Face to Face (Baby Face Willette album)",
+     "resolvedTitle": "Face to Face (Baby Face Willette album)",
+     "shortDescription": "1961 studio album by Baby Face Willette",
+     "extract": "Face to Face is the debut album by jazz organist Baby Face Willette featuring performances recorded and released on the Blue Note label in 1961.\n\n\n== Reception ==\n\nThe contemporaneous DownBeat reviewer stated: \"If it is warm and appealing visceral music, it is also wholly predictable. There's not a single surprise on either side\". The AllMusic review by Thom Jurek awarded the album 4 stars and stated \"Face to Face boasts a mighty meat and potatoes soul-jazz lineup... Highly recommended\".\n\n\n== Track listing ==\nAll compositions by Baby Face Willette except as indicated\n\"Swingin' at Sugar Ray's\" - 6:35\n\"Goin' Down\" - 7:24\n\"Whatever Lola Wants\" (Richard Adler, Jerry Ross) - 7:21\n\"Face to Face\" - 6:17\n\"Somethin' Strange\" - 6:42\n\"High 'N' Low\" - 7:07\n\"Face to Face\" [Alternate take] - 6:52 Bonus track on CD reissue\n\"Somethin' Strange\" [Alternate take] - 6:41 Bonus track on CD reissue\n\n\n== Personnel ==\nBaby Face Willette – organ\nGrant Green – guitar\nBen Dixon – drums\nFred Jackson – tenor saxophone\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "free-jazz",
+  "kind": "album",
+  "ours": {
+   "title": "Free Jazz: A Collective Improvisation",
+   "artist": "Ornette Coleman Double Quartet",
+   "year": 1961,
+   "label": "Atlantic",
+   "albumDNA": "Free Jazz: A Collective Improvisation is a studio album by American jazz saxophonist Ornette Coleman, released in September 1961 by Atlantic Records. The recording session took place on December 21, 1960, at A&R Studios in New York City. The sole outtake from the album session, \"First Take,\" was later released on the 1971 compilation Twins and subsequent CD reissues of Free Jazz. The album is named after the then-nascent free jazz movement. Defined the aesthetic of free jazz: collective improvisation without predetermined structure. Its influence extended to rock, punk, and experimental music.",
+   "keyTracks": [
+    "Free Jazz, Part 1",
+    "Free Jazz, Part 2"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Free_Jazz%3A_A_Collective_Improvisation"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Free_Jazz%3A_A_Collective_Improvisation",
+    "page": {
+     "requestedTitle": "Free Jazz: A Collective Improvisation",
+     "resolvedTitle": "Free Jazz: A Collective Improvisation",
+     "shortDescription": "1961 studio album by Ornette Coleman",
+     "extract": "Free Jazz: A Collective Improvisation is a studio album by American jazz saxophonist Ornette Coleman, released in September 1961 by Atlantic Records. The recording session took place on December 21, 1960, at A&R Studios in New York City. The sole outtake from the album session, \"First Take,\" was later released on the 1971 compilation Twins and subsequent CD reissues of Free Jazz.\n\n\n== Music ==\nThe album presents a continuous free improvisation with only a few brief pre-determined sections, recorded in one take with no overdubbing or editing. It features what Coleman called a \"double quartet,\" i.e., two self-contained jazz quartets: each with a reed instrument, trumpet, bass, and drums. The two quartets are heard in separate channels, with Coleman's working quartet at the time (as featured on Ornette!) in the left channel, and the second quartet, including the former Coleman rhythm section of Charlie Haden and Ed Blackwell, on the right.\nThe two quartets play simultaneously, with the two rhythm sections providing a dense rhythmic foundation over which the wind players either solo or provide freeform commentaries, interspersed with pre-composed passages. The composed thematic material can be considered a series of brief, dissonant fanfares for the horns which serve as interludes between solos. Free Jazz was the first album-length improvisation at thirty-seven minutes, unheard of at the time.\nThe original LP package incorporated Jackson Pollock's 1954 painting The White Light. The cover was a gatefold with a cutout window in the lower right corner allowing a glimpse of the painting; opening the cover revealed the full artwork, along with liner notes by critic Martin Williams. Coleman was a fan of Pollock's work and a painter himself; the cover of his 1966 album The Empty Foxhole would feature his own artwork.\n\n\n== Reception ==\nIn the January 18, 1962 issue of Down Beat magazine, in a special review titled \"Double View of a Double Quartet,\" Pete Welding awarded the album five stars while John A. Tynan rated it \"no stars\".\nAllMusic critic Steve Huey described it in his five-star retrospective review as \"a staggering achievement\" which \"practically defies superlatives in its historical importance.\" It served as the blueprint for later large-ensemble free jazz recordings such as Ascension by John Coltrane and Machine Gun by Peter Brötzmann.\nOn March 3, 1998, Free Jazz was reissued on compact disc by Rhino Records as part of its \"Atlantic 50\" series marking Atlantic Records' fiftieth anniversary. The title track, split into two sections for each side of the LP, appeared here in continuous uninterrupted form, along with the previously issued \"First Take\".\n\n\n== Track listing ==\n\n\n=== Original LP ===\n\n\n=== 1998 CD reissue ===\n\n\n=== Timing of the various sections ===\n\n00:00  Polyphonic introduction\n00:07  Ensemble introduction to Eric Dolphy\n00:22  Eric Dolphy – bass clarinet solo (right channel)\n05:12  Ensemble introduction to Freddie Hubbard\n05:40  Freddie Hubbard – trumpet solo (right channel)\n09:54  Ensemble introduction to Ornette Coleman\n10:05  Ornette Coleman alto saxophone solo (left channel)\n19:36  Ensemble Introduction to Don Cherry\n19:48  Don Cherry – pocket trumpet solo (left channel)\n25:21  Ensemble introduction to Charlie Haden\n25:26  Charlie Haden – bass solo (right channel)\n29:51  Ensemble introduction to Scott LaFaro\n30:00  Scott LaFaro – bass solo (left channel)\n33:47  Polyphonic ensemble introduction to Ed Blackwell\n34:00  Ed Blackwell – drum solo (right channel)\n35:19  Ensemble introduction to Billy Higgins\n35:28  Billy Higgins – drum solo (left channel)\n\n\n== Personnel ==\nLeft channel\nOrnette Coleman – alto saxophone\nDon Cherry – pocket cornet\nScott LaFaro – double bass\nBilly Higgins – drums\nRight channel\nEric Dolphy – bass clarinet\nFreddie Hubbard – trumpet\nCharlie Haden – double bass\nEd Blackwell – drums\nTechnical\n\nTom Dowd – recording engineer\nNesuhi Ertegün – producer\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "jazz-pictures-at-an-exibition",
+  "kind": "album",
+  "ours": {
+   "title": "Jazz Pictures at an Exibition",
+   "artist": "Kenny Clarke",
+   "year": 1961,
+   "label": "Philips",
+   "albumDNA": "On Jazz Pictures at an Exibition, drummer Kenny Clarke leads a hard bop session recorded for Philips in 1961. The date includes \"I'm Gonna Sit Right Down and Write Myself a Letter\" and \"Autumn Leaves\".",
+   "keyTracks": [
+    "I'm Gonna Sit Right Down and Write Myself a Letter",
+    "Autumn Leaves",
+    "Cherokee",
+    "Poor Butterfly",
+    "Can't We Be Friends"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "f36d7674-a2c1-4a6d-ac89-1a4720861040",
+     "title": "Jazz Pictures at an Exibition",
+     "date": "1989",
+     "country": "JP",
+     "status": "Official",
+     "artists": [
+      "Pim Jacobs",
+      "Rita Reys",
+      "Kenny Clarke"
+     ],
+     "labels": [
+      {
+       "name": "Philips",
+       "catalogNumber": "EJD-1008"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0f39f48a-229f-4cd9-9e7d-c42ddb0fae22",
+      "title": "Jazz Pictures at an Exibition",
+      "firstReleaseDate": "1961",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "I'm Gonna Sit Right Down and Write Myself a Letter",
+      "Autumn Leaves",
+      "Cherokee",
+      "Poor Butterfly",
+      "Can't We Be Friends",
+      "I Get a Kick Out of You",
+      "I Remember Clifford",
+      "Tangerine",
+      "Speak Low",
+      "What's New"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ }
+]

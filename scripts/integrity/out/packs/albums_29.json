@@ -1,0 +1,1821 @@
+[
+ {
+  "id": "mouvements",
+  "kind": "album",
+  "ours": {
+   "title": "Mouvements",
+   "artist": "Biréli Lagrène",
+   "year": 2012,
+   "label": "Universal Music Classics & Jazz France",
+   "albumDNA": "Universal Music Classics & Jazz France released Mouvements in 2012, a contemporary jazz date led by Biréli Lagrène. The program includes \"Jay\", \"Mouvements\", and \"Maybe Tomorrow\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond. He often performs in swing, jazz fusion, and post-bop styles.",
+   "keyTracks": [
+    "Jay",
+    "Mouvements",
+    "Maybe Tomorrow",
+    "Alpha 01/10/10",
+    "Oleo"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Bir%C3%A9li_Lagr%C3%A8ne"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "112c4cba-87c9-4f2c-89a9-105eab6b569f",
+     "title": "Mouvements",
+     "date": "2012",
+     "country": "FR",
+     "status": "Official",
+     "artists": [
+      "Biréli Lagrène"
+     ],
+     "labels": [
+      {
+       "name": "Universal Music Classics & Jazz France",
+       "catalogNumber": "371 258-4"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "2e589317-8695-4835-b16d-f4237f23157a",
+      "title": "Mouvements",
+      "firstReleaseDate": "2012",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Jay",
+      "Mouvements",
+      "Maybe Tomorrow",
+      "Alpha 01/10/10",
+      "Oleo",
+      "Where's Frankie",
+      "Liebesleid",
+      "Clive's Changes",
+      "Captain Ferber",
+      "Ballade",
+      "Place du Tertre"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Bir%C3%A9li_Lagr%C3%A8ne",
+    "page": {
+     "requestedTitle": "Biréli Lagrène",
+     "resolvedTitle": "Biréli Lagrène",
+     "shortDescription": "French born jazz guitarist (born 1966)",
+     "extract": "Biréli Lagrène (born 4 September 1966) is a French jazz guitarist who came to prominence in the 1980s for his Django Reinhardt–influenced style. He often performs in swing, jazz fusion, and post-bop styles.\n\n\n== Biography ==\nLagrène was born in Soufflenheim, Alsace, France, into a Romani family and community. His father and grandfather were guitarists, and he was raised in the Gypsy guitar tradition. He started playing at age four or five and by seven was improvising jazz in a style similar to that of Django Reinhardt, whom his father admired and wanted his sons to emulate. In 1980, while in his early teens, he recorded his first album, Routes to Django: Live at the Krokodil (Jazzpoint, 1981).\nDuring the next few years, Lagrène toured with Al Di Meola, Paco de Lucía, and John McLaughlin, all of them guitarists, and played with Benny Carter, Benny Goodman, and Stéphane Grappelli. He joined Larry Coryell and Vic Juris in New York City for a tribute to Reinhardt in 1984 and went on tour with Coryell and Philip Catherine. He also performed with Jaco Pastorius, Stanley Clarke, the Gil Evans Orchestra, Christian Escoudé, and Charlie Haden. In 1989 he performed in a duo with Stanley Jordan.\nHis collaboration with Italian guitarist Giuseppe Continenza, with whom he has performed in numerous concerts and festivals, including the Pescara Jazz and the Eddie Lang Jazz Festival, began in 1998, when the two met behind the scenes of a festival and started talking about each other's musical interests.\n\n\n== Awards ==\n\"Django d’Or\" for \"French Musician\" (1993)\n\"Les Victoires de la Musique\" in the category of \"Jazz Album\" for the album Front Page (2001)\n\"Les Victoires de la Musique\" nominated in the category of \"Jazz Album\" for the album Gypsy Project and Friends (2003)\n\"Django d’Or\" for \"French Musician\" (2002)\n\"Django d’Or\" for \"People's Choice\" (2002)\n\"Django d’Or\" for \"Balkan/Gypsy\" guitar (2007)\nMedal of \"Chevalier des Arts & des Lettres\" of France as awarded by Frédéric Mitterrand, Minister of Culture and Communication (2012)\n\n\n== Discography ==\nRoutes to Django (Antilles, 1980)\nSwing '81 (Jazzpoint Records, 1981)\n15 (Antilles, 1982)\nDown in Town (Antilles, 1983)\nDjango's Music Vol. 1 with Mike Peters, Bob Wilber (Stash, 1985)\nStuttgart Aria with Jaco Pastorius and Vladislav Sendecki (Jazzpoint, 1986)\nBireli Lagrene and Special Guests with Larry Coryell, Miroslav Vitous (Jazzpoint, 1986)\nInferno (Blue Note, 1987)\nForeign Affairs (Blue Note, 1988)\nAcoustic Moments (Blue Note, 1990)\nStandards (Blue Note, 1992)\nLive at the Carnegie Hall (Jazz Point, 1993) – live\nLive in Marciac (Dreyfus, 1994) – live\nMy Favorite Django (Dreyfus, 1995)\nBlue Eyes (Dreyfus, 1998)\nDuet with Sylvain Luc (Dreyfus, 1999)\nFront Page with Dominique di Piazza and Dennis Chambers (Universal Music France, 2000)\nGipsy Project (Dreyfus, 2001)\nGipsy Project & Friends (Dreyfus, 2002)\nBiréli Lagrène Gipsy Project, Move (Dreyfus, 2004)\nDreyfus Night in Paris with Marcus Miller, Michel Petrucciani, Lenny White, Kenny Garrett (Dreyfus, 2003) – live rec. 1994\nDjangology (A Tribute to Django Reinhardt) with WDR Big Band (Dreyfus, 2006) – rec. 2005\nTo Bi or Not to Bi (Dreyfus, 2006)\nElectric Side (Dreyfus, 2008)\nGipsy Trio (Dreyfus, 2009)\nMouvements (Universal, 2012)\nD-Stringz with Stanley Clarke, Jean-Luc Ponty (Impulse!, 2015)\nStoryteller (Naive, 2018)\nSolo Suites (PeeWee!, 2022)\nBireli Lagrene Plays Loulou Gasté (BMG Rights Management, 2023)\nElegant People (PeeWee!, 2026)\n\n\n== Filmography ==\n1989  Super Guitar Trio - Live at Montreux\n2004  Bireli Lagrene & Friends:Live Jazz a Vienne (Dreyfus)\n2005  Django: A Jazz Tribute\n2005  Bireli Lagrene & Gypsy Project Live in Paris\n2006  Live in Paris (Dreyfus)\n2009  Monaco Dreyfus Night (Dreyfus)\n2017 Biréli Lagrène: Voilà!\n\n\n== References ==\n\n\n== External links ==\nOfficial site"
+    }
+   }
+  }
+ },
+ {
+  "id": "renaissance",
+  "kind": "album",
+  "ours": {
+   "title": "Renaissance",
+   "artist": "Marcus Miller",
+   "year": 2012,
+   "label": "Victor",
+   "albumDNA": "Renaissance is the ninth solo studio album by American musician Marcus Miller. It was released on May 28, 2012, through Concord Jazz. Recording sessions took place at Sear Sound in New York City with additional recording at Hannibal Studio in Santa Monica and at the Music Shed in New Orleans. The album features contributions from Dr. John on vocals, Federico González Peña, Kris Bowers and Bobby Sparks on keyboards, Adam Rogers, Adam Agati and Paul Jackson Jr.",
+   "keyTracks": [
+    "Detroit",
+    "Redemption",
+    "February",
+    "Slippin’ Into Darkness",
+    "Setembro (Brazilian Wedding Song)"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Renaissance_(Marcus_Miller_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "e1e85b69-7d2c-4af9-877c-b9381c1d1e53",
+     "title": "Renaissance",
+     "date": "2012-05-16",
+     "country": "JP",
+     "status": "Official",
+     "artists": [
+      "Marcus Miller"
+     ],
+     "labels": [
+      {
+       "name": "Victor",
+       "catalogNumber": "VICJ-61665"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "07e4680b-4cb9-4bd5-8cf1-559181f8139f",
+      "title": "Renaissance",
+      "firstReleaseDate": "2012-05-16",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Detroit",
+      "Redemption",
+      "February",
+      "Slippin’ Into Darkness",
+      "Setembro (Brazilian Wedding Song)",
+      "Jekyll & Hyde",
+      "Interlude: Nocturnal Mist",
+      "Revelation",
+      "Mr. Clean",
+      "Gorée (Go‐ray)",
+      "CEE‐TEE‐EYE",
+      "Tightrope",
+      "I’ll Be There",
+      "Rebop"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Renaissance_(Marcus_Miller_album)",
+    "page": {
+     "requestedTitle": "Renaissance (Marcus Miller album)",
+     "resolvedTitle": "Renaissance (Marcus Miller album)",
+     "shortDescription": "2012 album by Marcus Miller",
+     "extract": "Renaissance is the ninth solo studio album by American musician Marcus Miller. It was released on May 28, 2012, through Concord Jazz. Recording sessions took place at Sear Sound in New York City with additional recording at Hannibal Studio in Santa Monica and at the Music Shed in New Orleans. The album features contributions from Dr. John on vocals, Federico González Peña, Kris Bowers and Bobby Sparks on keyboards, Adam Rogers, Adam Agati and Paul Jackson Jr. on guitar, Louis Cato on drums, Ramon Yslas on percussion, Alex Han on alto saxophone, Maurice Brown and Sean Jones on trumpet, with guest appearances from Gretchen Parlato and Rubén Blades.\n\n\n== Reception ==\nPhil Wein of No Treble stated \"This is definitely one of Marcus Miller’s best solo records and is an essential release for his fans and highly recommended for listeners who what to more occasionally get a taste of where Marcus is at. It’s not music to challenge a jazz audience with improvisation at the frontiers of sound, but you knew that. What it is: natural sounding music with intensity and groove designed to make an audience feel good. It’s funky music very well written and beautifully arranged. It’s smooth, soulful jazz. It’s deeply grooving music that combines jazz, funk, Brazilian and other influences effortlessly. It’s Marcus Miller at his best\". \nS. Victor Aaron of Something Else! commented \"Renaissance isn’t a revolutionary album, but there’s an attention to detail, the openness to a multitude of styles, and Miller’s strongest set of songs in some time. All of those things seemed to inspire the younger generation of players in his band to play up to the material and respond to Miller’s direction with a rare combination of looseness and preciseness. Where those guys go from here, that’s where the real rebirth will happen\".\n\n\n== Track listing ==\n\n\n== Personnel ==\n\n\n== Chart history ==\n\n\n== References ==\n\n\n== External links ==\nMarcus Miller – Renaissance at Discogs (list of releases)"
+    }
+   }
+  }
+ },
+ {
+  "id": "sunrise",
+  "kind": "album",
+  "ours": {
+   "title": "Sunrise",
+   "artist": "Masabumi Kikuchi",
+   "year": 2012,
+   "label": "ECM",
+   "albumDNA": "On Sunrise, pianist Masabumi Kikuchi leads an avant-garde jazz session recorded for ECM in 2012. Among the tracks are \"Ballad #1\" and \"New Day\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond. He worked with many diverse musicians, including Sonny Rollins, Miles Davis, McCoy Tyner, Elvin Jones, Gary Peacock and Paul Motian, and collaborated with Gil Evans and Tōru Takemitsu.",
+   "keyTracks": [
+    "Ballad #1",
+    "New Day",
+    "Short Stuff",
+    "So What Variations",
+    "Ballad #2"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Masabumi_Kikuchi"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "96d3b7cb-7a77-4f7e-8a8f-b7a282255848",
+     "title": "Sunrise",
+     "date": "2012-03-16",
+     "country": "FR",
+     "status": "Official",
+     "artists": [
+      "Masabumi Kikuchi Trio"
+     ],
+     "labels": [
+      {
+       "name": "ECM Records",
+       "catalogNumber": "ECM 2096"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "bc90068b-1a16-499e-a2aa-4bd2333835ff",
+      "title": "Sunrise",
+      "firstReleaseDate": "2012-03-16",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Ballad #1",
+      "New Day",
+      "Short Stuff",
+      "So What Variations",
+      "Ballad #2",
+      "Sunrise",
+      "Sticks and Cymbals",
+      "End of Day",
+      "Uptempo",
+      "Last Ballad"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Masabumi_Kikuchi",
+    "page": {
+     "requestedTitle": "Masabumi Kikuchi",
+     "resolvedTitle": "Masabumi Kikuchi",
+     "shortDescription": "Japanese jazz pianist and composer",
+     "extract": "Masabumi Kikuchi (菊地 雅章, Kikuchi Masabumi; 19 October 1939 – 6 July 2015) was a Japanese jazz pianist and composer known for his unique playing style. He worked with many diverse musicians, including Sonny Rollins, Miles Davis, McCoy Tyner, Elvin Jones, Gary Peacock and Paul Motian, and collaborated with Gil Evans and Tōru Takemitsu.\n\n\n== Biography ==\nMasabumi Kikuchi was born in Tokyo in 1939. Following the firebombing of Tokyo in 1945, his family moved out of the city and settled in the rural Aizuwakamatsu, Fukushima prefecture, where his parents were born. \nHe studied music at the Tokyo Art College High School. While a student, he began buying second-hand records, most likely left behind by American soldiers. His early influences were Duke Ellington, Miles Davis and Thelonious Monk. After graduating, he joined Lionel Hampton's Japanese touring band. He started a quintet with Terumasa Hino but soon after left for the US after winning a scholarship to study at Berklee College of Music. \nHe died from a subdural hematoma on 6 July 2015 at a hospital in Manhasset, New York. At the time of his death, he lived in Manhattan, New York City.\n\n\n== Discography ==\n\n\n=== As leader ===\n\n\n=== As co-leader ===\nGary Peacock, Hiroshi Murakami, Masabumi Kikuchi, Eastward (CBS/Sony, 1970)\nHōzan Yamamoto + Masabumi Kikuchi – Ginkai (Philips [Japan], 1971) also with Gary Peacock and Hiroshi Murakami. recorded in 1970. reissued in 1994\nMasabumi Kikuchi, Masahiko Togashi, Gary Peacock, Poesy: The Man Who Keeps Washing His Hands (Philips [Japan], 1971)\nGary Peacock, Hiroshi Murakami, Masahiko Togashi, Masabumi Kikuchi, Voices (Sony, 1971)\nElvin Jones / Masabumi Kikuchi, Hollow Out (Philips [Japan], 1973) – recorded in 1972\nMasahiko Togashi + Masabumi Kikuchi, Concerto (Ninety-One, 1991) – 2CD\nTerumasa Hino, Masahiko Togashi, Masabumi Kikuchi, Triple Helix (Enja, 1993) – live\nP.M.P. (Poo Masabumi Kikuchi, Marc Johnson, Paul Motian) Miles Mode (Sony, 1993) – tribute to Miles Davis\nMasabumi Kikuchi & Takeshi Shibuya, Tandem (Verve, 2000)\nMasabumi Kikuchi, Ben Street, Thomas Morgan, Kresten Osgood, Kikuchi/Street/Morgan/Osgood (Ilk music, 2015) – Recorded in 2008\n\n\n=== As a member ===\nTerumasa Hino-Masabumi Kikuchi Quintet\n\nHino=Kikuchi Quintet (Columbia/Takt Jazz Series, 1969) – rec. 1968\nAcoustic Boogie (Blue Note, 1995)\nMoment: Alive at Blue Note Tokyo (EMI/Somethin' Else, 1996) – live rec. 1995\nKochi \n(Ensemble with Al Foster, Anthony Jackson, Dave Liebman, James Mtume, Reggie Lucas, Steve Grossman and Terumasa Hino)\n\nWishes= ウィッシズ (East Wind, 1976; Inner City, 1978)\nAAOBB (All Night All right Off White Boogie Band)(with Conrad Adderley, Victor Jones, Aïyb Dieng, Kosuke Mine, Kelvyn Bell, Tomas Doncker, William \"Spaceman\" Patterson)\n\nAAOBB (Tokuma Japan, 1990)\nTethered Moon \n(Trio with Paul Motian and Gary Peacock)\n\nFirst Meeting (Winter & Winter, 1997) - rec. 1990–91\nTethered Moon (King/Paddle Wheel, 1992, Evidence, 1993)\nTriangle (King/Paddle Wheel, 1992)\nPlays Jimi Hendrix+ (Polydor, 1997)\nTethered Moon Play Kurt Weill (JMT, 1995; reissued on Winter & Winter, 2005)\nChansons d’Édith Piaf (Winter & Winter, 1999)\nExperiencing Tosca (Winter & Winter, 2004)\nSlash Trio \n(Trio with Masaaki Kikuchi and Tatsuya Yoshida)\n\nSlash 1° (PJL, 2001)\nSlash 2° (PJL, 2002)\nSlash 3°: Live At Motion Blue Yokohama Vol.1 (PJL, 2002)\nSlash 4°: Live at Motion Blue yokohama Vol.2 (PJL, 2003)\n\n\n=== Soundtrack album ===\nHairpin Circus / A Short Story For Image: Original Soundtrack (Bridge, 2006) – Movie 1972\n\n\n=== As sideman ===\nWith Gil Evans\n\nGil Evans Live at the Royal Festival Hall London 1978 (RCA, 1979) - live\nThe Rest of Gil Evans at the Royal Festival Hall 1978 (Mole Jazz, 1981) - live\nLive at the Public Theater (New York 1980) vol. 1 (Trio, 1980) – live\nLive at the Public Theater (New York 1980). Vol. 2 (Trio, 1981) – live\nWith Paul Motian\n\nTrio 2000 + One (Winter & Winter, 1997)\nLive at the Village Vanguard (Winter & Winter, 2006) – live\nLive at the Village Vanguard Vol. II (Winter & Winter, 2006) – live\nLive at the Village Vanguard Vol. III (Winter & Winter, 2006) – live\nWith others\n\nPee Wee Ellis, Blues Mission (Gramavision, 1993)\nJoe Henderson, Joe Henderson and Kikuchi, Hino in Concert (Fontana, 1974) – rec. live 1971\nHelen Merrill, You and the Night and the Music (Verve, 1998)\nMal Waldron, Mal: Live 4 to 1 (Philips, 1971)\n\n\n== Legacy in New York State Property Law ==\n\nIn the late 1970s, Kikuchi lived in New York City and rented a loft apartment on W."
+    }
+   }
+  }
+ },
+ {
+  "id": "the-nows",
+  "kind": "album",
+  "ours": {
+   "title": "The Nows",
+   "artist": "Ken Vandermark",
+   "year": 2012,
+   "label": "Clean Feed",
+   "albumDNA": "Discography for jazz reedist Ken Vandermark. The year indicates when the album was first released.",
+   "keyTracks": [
+    "Free Will, Free Won't",
+    "Abstractions and Replications",
+    "Berlyne's Law",
+    "Men Caught Staring",
+    "The Information Bomb"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Ken_Vandermark_discography"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "bca46a72-a227-4186-9440-6b31196a6610",
+     "title": "The Nows",
+     "date": "2012-09",
+     "country": "PT",
+     "status": "Official",
+     "artists": [
+      "Paul Lytton",
+      "Nate Wooley",
+      "Ikue Mori",
+      "Ken Vandermark"
+     ],
+     "labels": [
+      {
+       "name": "Clean Feed",
+       "catalogNumber": "CF260CD"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0395aee2-5c63-4f8a-b3e9-34a4ebe90248",
+      "title": "The Nows",
+      "firstReleaseDate": "2012-09",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Free Will, Free Won't",
+      "Abstractions and Replications",
+      "Berlyne's Law",
+      "Men Caught Staring",
+      "The Information Bomb",
+      "Automatic",
+      "Destructive to Our Proper Business",
+      "The Ripple Effect"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Ken_Vandermark_discography",
+    "page": {
+     "requestedTitle": "Ken Vandermark discography",
+     "resolvedTitle": "Ken Vandermark discography",
+     "shortDescription": "",
+     "extract": "Discography for jazz reedist Ken Vandermark. The year indicates when the album was first released.\n\n\n== Ken Vandermark ==\nCaffeine (Jim Baker/Steve Hunt/Ken Vandermark):Caffeine (Okka Disk, 1994)\nStandards (Quinnah, 1995)\nSteelwool Trio (Ken Vandermark/Kent Kessler/Curt Newton): International Front (Okka Disk, 1995)\nBarrage Double Trio: Utility Hitter (Quinnah, 1996)\nCinghiale: Hoofbeats of the Snorting Swine (Eighth Day Music, 1996)\nFJF (Mats Gustafsson/Ken Vandermark/Steve Hunt/Kent Kessler): Blow Horn (Okka Disk, 1997)\nSteam: Real Time (Eighth Day Music, 1997)\nJoe Harriott Project: Straight Lines (Atavistic, 1999)\nTwo Days in December (Wobbly Rail, 2002)\nFurniture Music (Okka Disk, 2003)\nPaul Lytton/Ken Vandermark/Philipp Wachsmann: CINC (Okka Disk, 2006)\nBridge 61: Journal (Atavistic, 2006)\nKen Vandermark, Kent Kessler, Nate McBride, Ingebrigt Håker Flaten & Wilbert De Joode: Collected Fiction (Okka Disk, 2009)\nThe Frame Quartet (Tim Daisy/Fred Lonberg-Holm/Nate McBride/Ken Vandermark): 35 mm (Okka Disk, 2009)\niTi (Johannes Bauer/Ken Vandermark/Paal Nilssen-Love/Thomas Lehn): Artifact: Live In St. Johann (Okka Disk, 2010)\nPredella Group: Strade D'Acqua (Multikulti, 2010)\nMark in the Water (Not Two, 2011)\nPlatform 1: Takes Off (Clean Feed, 2012)\nKen Vandermark's Topology Nonet featuring Joe McPhee: Impressions of Po Music (Okka Disk, 2013)\nNine Ways to Read a Bridge (Not Two, 2014)\nSite Specific (Audiographic Records, 2015)\nMomentum 1: Stone (Audiographic Records, 2016)\nEscalator (Not Two, 2017)\nMomentum 4: Consequent Duos 2015>2019 (Audiographic Records/Catalytic Sounds, 2019)\n\n\n== The Vandermark Quartet ==\nBig Head Eddie (Platypus, 1993)\nSolid Action (Platypus, 1994)\n\n\n== The Vandermark 5 ==\nSingle Piece Flow (Atavistic, 1997)\nTarget or Flag (Atavistic, 1998)\nSimpatico (Atavistic, 1999)\nBurn the Incline (Atavistic, 2000)\nAcoustic Machine (Atavistic, 2001)\nFree Jazz Classics Vol. 1 & 2 (Atavistic, 2002)\nAirports for Light (Atavistic, 2003)\nElements of Style/Exercises in Surprise (Atavistic, 2004)\nAlchemia (Not Two, 2005)\nThe Color of Memory (Atavistic, 2005)\nFree Jazz Classics Vol. 3 & 4 (Atavistic, 2005)\nA Discontinuous Line (Atavistic, 2006)\nFour Sides to the Story (Not Two, 2006)\nBeat Reader (Atavistic, 2008)\nAnnular Gift (Not Two, 2009)\nThe Horse Jumps and the Ship Is Gone (Not Two, 2010)\n\n\n== The Crown Royals ==\nAll Night Burner (Estrus, 1997)\nFunky-Do! (Estrus, 1999)\n\n\n== DKV Trio ==\n(Hamid Drake/Kent Kessler/Ken Vandermark)\n\nFred Anderson / DKV Trio (Okka Disk, 1997)\nBaraka (Okka Disk, 1997)\nDKV Live (limited edition - Okka Disk, 1997)\nDeep Telling (Okka Disk, 1999) - with Joe Morris\nLive in Wels & Chicago, 1998 (Okka Disk, 1999)\nTrigonometry (Okka Disk, 2002)\nAALY Trio/DKV Trio: Double or Nothing (Okka Disk, 2002)\nPast Present (Not Two, 2012)\nSchl8hof (Trost, 2013) - with Mats Gustafsson, Massimo Pupillo, Paal Nilssen-Love\nSound in Motion in Sound (Not Two, 2014)\nCollider (Not Two, 2016)\n\n\n== AALY Trio + Ken Vandermark ==\n(Mats Gustafsson/Peter Janson/Kjell Nordeson + Ken Vandermark)\n\nHidden in the Stomach (Silkheart, 1998)\nStumble (Wobbly Rail, 1998)\nLive at the Glenn Miller Café (Wobbly Rail, 1999)\nI Wonder If I Was Screaming (Crazy Wisdom, 2000)\n\n\n== Sound in Action Trio ==\nDesign in Time (Delmark, 1999)\nGate (Atavistic, 2006)\n\n\n== Tripleplay ==\nExpansion Slang (Boxholder, 2000)\nGambit (Clean Feed, 2004)\n\n\n== Spaceways Inc. ==\n(Hamid Drake, Ken Vandermark)\n\nThirteen Cosmic Standards (Atavistic, 2000)\nVersion Soul (Atavistic, 2002)\nRadiale (Atavistic, 2004) - with Zu\n\n\n== School Days ==\n(Vandermark/Bishop/Nordeson/Håker-Flaten/Nilssen-Love)\n\nCrossing Division (Okka Disk, 2000)\nIn Our Times (Okka Disk, 2002)\nNuclear Assembly Hall (Okka Disk, 2004) - with Atomic\nDistil (Okka Disk, 2008) - with Atomic\n\n\n== Territory Band ==\nTransatlantic Bridge (Okka Disk, 2001)\nAtlas (Okka Disk, 2002)\nMap Theory (Okka Disk, 2004)\nCompany Switch (Okka Disk, 2005)\nA New Horse for the White House (Okka Disk, 2006)\nCollide (Okka Disk, 2007) - with Fred Anderson\n\n\n== FME ==\n(Paal Nilssen-Love/Nate McBride/Ken Vandermark)\n\nLive at the Glenn Miller Cafe (Okka Disk, 2002)\nUnderground (Okka Disk, 2004)\nCuts (Okka Disk, 2005)\nMontage (Okka Disk, 2006)\n\n\n== Paal Nilssen-Love & Ken Vandermark ==\nDual Pleasure (Smalltown Supersound, 2002)\nDual Pleasure 2 (Smalltown Supersound, 2004)\nSeven (Smalltown Supersound, 2006)\nChicago Volume (Smalltown Supersound, 2010)\nMilwaukee Volume (Smalltown Supersound, 2010)\nLetter to a Stranger (Smallto"
+    }
+   }
+  }
+ },
+ {
+  "id": "burn",
+  "kind": "album",
+  "ours": {
+   "title": "Burn",
+   "artist": "Sons of Kemet",
+   "year": 2013,
+   "label": "Naim Records",
+   "albumDNA": "Burn is a debut studio album by British jazz band Sons of Kemet released on 9 September 2013 by Naim Records label. This album, and their running series of critically acclaimed performances, led to them winning the 'Best Jazz Act' in the 2013 MOBO Awards.",
+   "keyTracks": [
+    "All Will Surely Burn",
+    "The Godfather",
+    "Inner Babylon",
+    "The Book of Disquiet",
+    "Going Home"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Burn_(Sons_of_Kemet_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "4836d244-c4f1-4abd-b3de-f78ed1687561",
+     "title": "Burn",
+     "date": "2013-09-08",
+     "country": "MX",
+     "status": "Official",
+     "artists": [
+      "Sons of Kemet"
+     ],
+     "labels": [
+      {
+       "name": "Naim Records",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "69543401-1159-48e6-806e-8cc773a0d115",
+      "title": "Burn",
+      "firstReleaseDate": "2013-09-08",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "All Will Surely Burn",
+      "The Godfather",
+      "Inner Babylon",
+      "The Book of Disquiet",
+      "Going Home",
+      "Adonia’s Lullaby",
+      "Song for Galeano",
+      "Beware",
+      "The Itis",
+      "Rivers of Babylon"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Burn_(Sons_of_Kemet_album)",
+    "page": {
+     "requestedTitle": "Burn (Sons of Kemet album)",
+     "resolvedTitle": "Burn (Sons of Kemet album)",
+     "shortDescription": "2013 studio album by Sons of Kemet",
+     "extract": "Burn is a debut studio album by British jazz band Sons of Kemet released on 9 September 2013 by Naim Records label. This album, and their running series of critically acclaimed performances, led to them winning the 'Best Jazz Act' in the 2013 MOBO Awards.\nProducers such as Micachu, Vince Vella, and Alex Patchwork have remixed various songs from the Burn album. This is the band's shortest album, at under 50 minutes.\n\n\n== Reception ==\nPhil Johnson of The Independent stated, \"this is mesmerising trance music of great power.\" John Fordham of The Guardian noted, \"Opening with the galloping-hooves drumming, pulpy tuba hook and Pharoah Sanders-like sax supplications of All Will Surely Burn, the album goes on to balance thunder and reflectiveness surprisingly evenly...\" The Arts Desk 's Matthew Wright awarded the album five stars out of five, commenting, \"This is still a stunningly vivid and original album, bursting with fresh ideas. What else could simultaneously provoke a rave and a panel discussion about the roots of jazz?\" Robert Christgau wrote, \"A debut that flaunts their sound, suggests their parameters, and establishes their bona fides.\" Mike Hobart in his review for Financial Times observed, \"The Sons of Kemet deliver insidious riffs, intriguing textures, and a whopping beat...\"\n\n\n== Track listing ==\n\"All Will Surely Burn\"   6:19\n\"The Godfather\"          5:16\n\"Inner Babylon\"          5:20\n\"The Book of Disquiet\"   5:34\n\"Going Home\"             3:52\n\"Adonia's Lullaby\"       4:11\n\"Song for Galeano\"       4:24\n\"Beware\"                 3:37\n\"The It Is\"              2:28\n\"Rivers of Babylon\"      8:37\n\n\n== Personnel ==\nSons of Kemet\n\nShabaka Hutchings – saxophone, clarinet\nOren Marshall – tuba\nSeb Rochford – drums\nTom Skinner – drums\nAdditional musicians\n\nDave Okumu – guitar (tracks 4, 5)\n\n\n== Awards ==\nWinners\n\nThe Arts Desk – Album of the Year 2013\niTunes Jazz (UK) Best of 2013 (#1)\nNominations\n\nGilles Peterson Worldwide Awards – Album Of The Year 2013 (#8)\nThe Quietus – Album Of The Year (#59)\n\n\n== References ==\n\n\n== External links ==\nSons Of Kemet @ YouTube."
+    }
+   }
+  }
+ },
+ {
+  "id": "coin-coin-chapter-two",
+  "kind": "album",
+  "ours": {
+   "title": "Coin Coin Chapter Two: Mississippi Moonchile",
+   "artist": "Matana Roberts",
+   "year": 2013,
+   "label": "Constellation",
+   "albumDNA": "The second installment in alto saxophonist Matana Roberts' epic Coin Coin series excavates her family's Mississippi roots through a kaleidoscopic mix of free jazz, field recordings, spoken word, and spectral folk melodies. The album is at once deeply personal and universally resonant. Established Roberts as one of the most important conceptual artists in contemporary music. Her 'panoramic sound quilting' approach created a new form for addressing the African-American experience through improvised music.",
+   "keyTracks": [
+    "Invocation",
+    "Humility Draws Down Blue",
+    "All Nations",
+    "Twelve Sighed",
+    "Spares of the World",
+    "Secret Covens"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "0b966abd-4ad4-4e00-bcb2-9836d13718db",
+     "title": "Coin Coin Chapter Two: Mississippi Moonchile",
+     "date": "2013",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "Matana Roberts"
+     ],
+     "labels": [
+      {
+       "name": "Constellation",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "b23feb9a-4b3e-4e0a-adf4-6e594a8c862e",
+      "title": "Coin Coin Chapter Two: Mississippi Moonchile",
+      "firstReleaseDate": "2013-10-01",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Invocation",
+      "Humility Draws Down Blue",
+      "All Nations",
+      "Twelve Sighed",
+      "Spares of the World",
+      "Secret Covens",
+      "River Ruby Dues",
+      "Confessor Haste",
+      "Amma Jerusalem School",
+      "For This Is",
+      "Responsory",
+      "The Labor of Their Lips",
+      "Was the Sacred Day",
+      "Lesson",
+      "Woman Red Racked",
+      "Thanks Be You",
+      "Humility Draws Down New",
+      "Benediction"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "for-the-love-of-abbey",
+  "kind": "album",
+  "ours": {
+   "title": "For the Love of Abbey",
+   "artist": "Marc Cary",
+   "year": 2013,
+   "label": "Motéma",
+   "albumDNA": "For the Love of Abbey is a solo piano album by Marc Cary. It was recorded in 2012 and released by Motéma Music.",
+   "keyTracks": [
+    "Music Is the Magic",
+    "Down Here Below",
+    "Melancholia",
+    "For Moseka",
+    "Who Used to Dance"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/For_the_Love_of_Abbey"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "6caac611-ccb7-4438-a1eb-2038e087ca89",
+     "title": "For the Love of Abbey",
+     "date": "2013-06-11",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Marc Cary"
+     ],
+     "labels": [
+      {
+       "name": "Motéma",
+       "catalogNumber": "MTM-122"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0891ecd4-6409-4392-be75-29a015f95d57",
+      "title": "For the Love of Abbey",
+      "firstReleaseDate": "2013-06-11",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Music Is the Magic",
+      "Down Here Below",
+      "Melancholia",
+      "For Moseka",
+      "Who Used to Dance",
+      "Should've Been",
+      "My Love Is You",
+      "Love Evolves",
+      "Throw It Away",
+      "Another World",
+      "When I'm Called Home",
+      "Conversation With a Baby",
+      "Transmutate",
+      "Down Here Below the Horizon"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/For_the_Love_of_Abbey",
+    "page": {
+     "requestedTitle": "For the Love of Abbey",
+     "resolvedTitle": "For the Love of Abbey",
+     "shortDescription": "2013 studio album by Marc Cary",
+     "extract": "For the Love of Abbey is a solo piano album by Marc Cary. It was recorded in 2012 and released by Motéma Music.\n\n\n== Background ==\nPianist Marc Cary played with vocalist Abbey Lincoln for 12 years, until 2006. She died in 2010; this solo piano album is dedicated to her. It was Cary's first solo album.\n\n\n== Recording and music ==\nThe album was recorded in March 2012. Cary commented that he chose the material based on which pieces that he and Lincoln performed together had most \"stuck with\" him. He added Duke Ellington's \"Melancholia\" and two originals – \"For Moseka\" and \"Transmutate\".\n\n\n== Release and reception ==\n\nFor the Love of Abbey was released by Motéma Music on June 11, 2013. The Jazzwise reviewer wrote that \"Cary's playing is packed with drama: orchestral-like ripples and flourishes, richly sustained chords, tremolos and pedal points, but the pianist is also grounded in the earthy rhythms and incantatory folk-melody of the African-American tradition\". The DownBeat reviewer wrote: \"Cary's performance shimmers with a Lincoln-esque ability to tackle nostalgia without sentimentality, sculpting blue chords and richly layered textures to reference the essence of the song's author while imbuing the music with his own rhythmic dynamism.\"\n\n\n== Track listing ==\n\"Music Is the Magic\"\n\"Down Here Below\"\n\"Melancholia\"\n\"For Moseka\"\n\"Who Used to Dance\"\n\"Should've Been\"\n\"My Love Is You\"\n\"Love Evolves\"\n\"Throw It Away\"\n\"Another World\"\n\"When I'm Called Home\"\n\"Conversation with a Baby\"\n\"Transmutate\"\n\"Down Here Below the Horizon\"\n\n\n== Personnel ==\nMarc Cary – piano\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "hagars-song",
+  "kind": "album",
+  "ours": {
+   "title": "Hagar's Song",
+   "artist": "Jason Moran",
+   "year": 2013,
+   "label": "ECM",
+   "albumDNA": "Hagar's Song is an album by saxophonist Charles Lloyd and pianist Jason Moran recorded in April 2012 and released on ECM February the following year. Part of ECM's contemporary jazz catalog. ECM under Manfred Eicher cultivated 'the most beautiful sound next to silence,' favoring spacious, reverberant recordings.",
+   "keyTracks": [
+    "Pretty Girl",
+    "Mood Indigo",
+    "Bess, You Is My Woman Now",
+    "All About Ronnie",
+    "Pictogram"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Hagar's_Song"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "3f90bbc2-f295-46ab-b186-f7d111a14c51",
+     "title": "Hagar's Song",
+     "date": "2013-02-26",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Charles Lloyd",
+      "Jason Moran"
+     ],
+     "labels": [
+      {
+       "name": "ECM Records",
+       "catalogNumber": "B0018001-02"
+      },
+      {
+       "name": "ECM Records",
+       "catalogNumber": "ECM 2311"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "33b4e35a-0d73-475e-bd2c-d073045609e5",
+      "title": "Hagar's Song",
+      "firstReleaseDate": "2013-02-08",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Pretty Girl",
+      "Mood Indigo",
+      "Bess, You Is My Woman Now",
+      "All About Ronnie",
+      "Pictogram",
+      "You’ve Changed",
+      "Hagar Suite: I. Journey Up River",
+      "Hagar Suite: II. Dreams of White Bluff",
+      "Hagar Suite: III. Alone",
+      "Hagar Suite: IV. Bolivar Blues",
+      "Hagar Suite: V. Hagar’s Lullaby",
+      "Rosetta",
+      "I Shall Be Released",
+      "God Only Knows"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Hagar's_Song",
+    "page": {
+     "requestedTitle": "Hagar's Song",
+     "resolvedTitle": "Hagar's Song",
+     "shortDescription": "2013 studio album by Charles Lloyd and Jason Moran",
+     "extract": "Hagar's Song is an album by saxophonist Charles Lloyd and pianist Jason Moran recorded in April 2012 and released on ECM February the following year.\n\n\n== Reception ==\n\nResponse was positive, with Metacritic assigning the album an aggregate score of 79 out of 100 based on 6 critical reviews indicating \"Generally favorable reviews\".\nThe AllMusic review by Thom Jurek awarded the album 4 stars stating \"Hagar's Song finds Lloyd and Moran at their most naturally curious and deeply attentive best, offering a conversation so intimate the listener may occasionally feel she is eavesdropping.\"\nAll About Jazz reviewer John Kelman said, \"In a set that runs the gamut from well-known standards by George Gershwin, Billy Strayhorn and Duke Ellington to relatively more contemporary fare from Bob Dylan and Brian Wilson, Lloyd and Moran demonstrate the kind of empathy and trust that only comes from considerably time spent together ... There's little that's predictable about either player, but with Hagar's Song—imbued, as it is, with constants of surprise, simpatico and stellar performances—both Lloyd and Moran have made the leap to a new plateau.\"\nIn The Guardian, John Fordham wrote \"Saxophonist Charles Lloyd, soon to be 75, here gives an intimate closeup of his warm relationship with brilliant pianist Jason Moran—and with his enslaved great-great-grandmother, who names the album through Lloyd's suite in her memory.\"\nThe PopMatters review by Will Layman observed \"Hagar’s Song is nothing more and nothing less than a set of duets with Moran. And in many respects it is the most intimate—and best—work of Lloyd’s career ... Hagar’s Song is low on flash. And it rests with love against your ear.\"\n\n\n== Track listing ==\nAll compositions by Charles Lloyd except as indicated\n\n\"Pretty Girl\" (Billy Strayhorn) - 4:51\n\"Mood Indigo\" (Duke Ellington) - 5:17\n\"Bess, You Is My Woman Now\" (George Gershwin) - 3:39\n\"All About Ronnie\" (Joe Greene) - 4:20\n\"Pictogram\" - 3:59\n\"You've Changed\" (Carl Fischer) - 4:51\n\"Hagar Suite: Journey Up River\" - 6:20\n\"Hagar Suite: Dreams of White Bluff\" - 9:46\n\"Hagar Suite: Alone\" - 2:30\n\"Hagar Suite: Bolivar Blues\" - 4:18\n\"Hagar Suite: Hagar's Lullaby\" - 5:44\n\"Rosetta\" (Earl Hines) - 4:41\n\"I Shall Be Released\" (Bob Dylan) - 5:11\n\"God Only Knows\" (Brian Wilson) - 3:31\n\n\n== Personnel ==\nCharles Lloyd — tenor saxophone, alto saxophone, bass flute, alto flute\nJason Moran — piano, tambourine\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "money-jungle-provocative-in-blue",
+  "kind": "album",
+  "ours": {
+   "title": "Money Jungle: Provocative in Blue",
+   "artist": "Terri Lyne Carrington",
+   "year": 2013,
+   "label": "Concord Jazz",
+   "albumDNA": "Money Jungle: Provocative in Blue is an album by Terri Lyne Carrington. It was released by Concord Jazz. It won the 2013 Grammy Award for Best Jazz Instrumental Album. She toured with each of Hancock's musical configurations between 1997 and 2007.",
+   "keyTracks": [
+    "Money Jungle",
+    "Fleurette Africain",
+    "Backward Country Boy Blues",
+    "Very Special",
+    "Wig Wise"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Money_Jungle%3A_Provocative_in_Blue"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "90dbe16f-43ce-48bf-948a-648db2e7b6db",
+     "title": "Money Jungle: Provocative in Blue",
+     "date": "2013-02-25",
+     "country": "GB",
+     "status": "Official",
+     "artists": [
+      "Terri Lyne Carrington"
+     ],
+     "labels": [
+      {
+       "name": "Concord Jazz",
+       "catalogNumber": "CJA-34026-02"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "386c621e-a73c-4b8d-91df-6d38faaa6412",
+      "title": "Money Jungle: Provocative in Blue",
+      "firstReleaseDate": "2013-02-25",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Money Jungle",
+      "Fleurette Africain",
+      "Backward Country Boy Blues",
+      "Very Special",
+      "Wig Wise",
+      "Grass Roots",
+      "No Boxes (Nor Words)",
+      "A Little Max (Parfait)",
+      "Switch Blade",
+      "Cut Off",
+      "Rem Blues/Music"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Money_Jungle%3A_Provocative_in_Blue",
+    "page": {
+     "requestedTitle": "Money Jungle: Provocative in Blue",
+     "resolvedTitle": "Money Jungle: Provocative in Blue",
+     "shortDescription": "2013 studio album by Terri Lyne Carrington",
+     "extract": "Money Jungle: Provocative in Blue is an album by Terri Lyne Carrington. It was released by Concord Jazz. It won the 2013 Grammy Award for Best Jazz Instrumental Album.\n\n\n== Recording and music ==\nDrummer Terri Lyne Carrington's album is based on Money Jungle, a recording by pianist Duke Ellington with double bassist Charles Mingus and drummer Max Roach, which was released in 1963. Her core trio for the recording included pianist Gerald Clayton and bassist Christian McBride. Carrington said that she did not realize that her recording was made fifty years after Money Jungle, and that she had made the decision to do it about half a dozen years earlier.\nAll but three of the tracks were written by Ellington. Carrington's \"Grass Roots\" is a blues, her \"No Boxes (Nor Words)\" is a post-bop piece, while Clayton's ballad \"Cut Off\" alludes to Ellington's \"Solitude\". On \"Rem Blues/Music\", Shea Rose and Herbie Hancock read Ellington's poem \"Music\".\n\n\n== Release and reception ==\n\nMoney Jungle: Provocative in Blue was released by Concord Jazz on February 25, 2013. It won the 2013 Grammy Award for Best Jazz Instrumental Album.\nThe Down Beat reviewer wrote that the presence of guests reduced the focus of the album, and commented that the trio tracks were more successful. The JazzTimes reviewer criticized as obvious the use of \"money-themed sound bites by present and former presidents\", but described the album as a whole as \"wholly engrossing\". For AllMusic's Thom Jurek, the spoken sound bites were \"an artistic, musical indictment of the pervasive corruption in Western capitalism\"; he praised Carrington because she \"reveals the pervasive nature [of] the blues in the original album's compositions and intent, and underscores how their importance resonates in jazz's present tense\".\n\n\n== Track listing ==\nAll tracks were written by Duke Ellington, except where noted.\n\n\"Money Jungle\" – 6:21\n\"Fleurette Africain\" – 5:56\n\"Backward Country Boy Blues\" – 6:00\n\"Very Special\" – 4:11\n\"Wig Wise\" – 6:17\n\"Grass Roots\" (Terri Lyne Carrington) – 4:38\n\"No Boxes (Nor Words)\" (Carrington) – 5:37\n\"A Little Max (Parfait)\" – 5:01\n\"Switch Blade\" – 6:28\n\"Cut Off\" (Gerald Clayton) – 5:08\n\"Rem Blues/Music\" – 6:44\nSource:\n\n\n== Personnel ==\nTerri Lyne Carrington – drums\nGerald Clayton – piano\nChristian McBride – bass\nClark Terry – trumpet, vocals (track 2)\nRobin Eubanks – trombone (tracks 2, 9)\nAntonio Hart – flute (tracks 2, 9)\nTia Fuller – flute (track 2), alto saxophone (track 9)\nNir Felder – guitar (track 3)\nArturo Stable – percussion (track 8)\nLizz Wright – vocals (track 3)\nShea Rose – vocals (track 11)\nHerbie Hancock – vocals (track 11)\nSource:\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "winter-morning-walks",
+  "kind": "album",
+  "ours": {
+   "title": "Winter Morning Walks",
+   "artist": "Maria Schneider",
+   "year": 2013,
+   "label": "ArtistShare",
+   "albumDNA": "Winter Morning Walks is a studio album by Maria Schneider and Dawn Upshaw. The album won the Grammy Award for Best Classical Contemporary Composition and Grammy Award for Best Engineered Album, Classical in 2014.",
+   "keyTracks": [
+    "Winter Morning Walks: 1. Perfectly Still This Solstice Morning",
+    "Winter Morning Walks: 2. When I Switched On a Light",
+    "Winter Morning Walks: 3. Walking by Flashlight",
+    "Winter Morning Walks: 4. I Saw a Dust Devil This Morning",
+    "Winter Morning Walks: 5. My Wife and I Walk the Cold Road"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "26d105e5-d2a0-4ed9-9fab-035f2ce9b8fc",
+     "title": "Winter Morning Walks",
+     "date": "2013-03-01",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Maria Schneider"
+     ],
+     "labels": [
+      {
+       "name": "ArtistShare",
+       "catalogNumber": "AS0121"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "110da982-1bed-4f5b-968f-07bf619a38f0",
+      "title": "Winter Morning Walks",
+      "firstReleaseDate": "2013-03-01",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Winter Morning Walks: 1. Perfectly Still This Solstice Morning",
+      "Winter Morning Walks: 2. When I Switched On a Light",
+      "Winter Morning Walks: 3. Walking by Flashlight",
+      "Winter Morning Walks: 4. I Saw a Dust Devil This Morning",
+      "Winter Morning Walks: 5. My Wife and I Walk the Cold Road",
+      "Winter Morning Walks: 6. All Night, in Gusty Winds",
+      "Winter Morning Walks: 7. Our Finch Feeder",
+      "Winter Morning Walks: 8. Spring, the Sky Rippled with Geese",
+      "Winter Morning Walks: 9. How Important It Must Be",
+      "Carlos Drummond de Andrade Stories: 1. Prologue",
+      "Carlos Drummond de Andrade Stories: 2. The Dead in Frock Coats",
+      "Carlos Drummond de Andrade Stories: 3. Souvenir of the Ancient World",
+      "Carlos Drummond de Andrade Stories: 4. Don't Kill Yourself",
+      "Carlos Drummond de Andrade Stories: 5. Quadrille"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "alloy",
+  "kind": "album",
+  "ours": {
+   "title": "Alloy",
+   "artist": "Tyshawn Sorey",
+   "year": 2014,
+   "label": "Pi Recordings",
+   "albumDNA": "Drummer Tyshawn Sorey's 2014 album Alloy draws from the avant-garde jazz tradition, released on Pi Recordings. Among the tracks are \"Returns\" and \"Movement\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond. A avant-garde jazz entry from 2014 by Tyshawn Sorey, documenting the breadth of the contemporary period.",
+   "keyTracks": [
+    "Returns",
+    "Movement",
+    "Template",
+    "A Love Song"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Tyshawn_Sorey"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "ec188c86-85db-47ab-b398-6f920e83d9ba",
+     "title": "Alloy",
+     "date": "2014-10-27",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Tyshawn Sorey"
+     ],
+     "labels": [
+      {
+       "name": "Pi Recordings",
+       "catalogNumber": "PI56"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0c19e7c7-9218-45bc-b3a1-63e0dba31b4e",
+      "title": "Alloy",
+      "firstReleaseDate": "2014-10-27",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Returns",
+      "Movement",
+      "Template",
+      "A Love Song"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Tyshawn_Sorey",
+    "page": {
+     "requestedTitle": "Tyshawn Sorey",
+     "resolvedTitle": "Tyshawn Sorey",
+     "shortDescription": "American composer and multi-instrumentalist",
+     "extract": "Tyshawn Sorey (born July 8, 1980) is an American composer, multi-instrumentalist, and professor of contemporary music.\nSorey has received accolades for performances, recordings, and compositions ranging from improvised solo percussion to opera, with work in best-of lists for both classical and jazz music. The New Yorker included Sorey on its annual \"Notable Performances and Recordings\" lists in 2017, 2018, 2019, and 2020; the pandemic-era entry was for premieres \"cast in unconventional concerto form\". His prolific output during a time of heavy restrictions on live performance led a New York Times critic to call him 2020's \"composer of the year\".\nSorey received the 2024 Pulitzer Prize for Music for his Adagio (for Wadada Leo Smith). He was named a MacArthur Fellow in 2017, a United States Artists Fellow in 2018, and in 2019 his song cycle for Josephine Baker, Perle Noire: Meditations for Josephine, was performed on the steps of the Metropolitan Museum of Art. His life and work have been the subject of features in publications including The New York Times, The New Yorker, The Wall Street Journal, NPR Music, and The Brooklyn Rail.\nSorey has recorded or performed with Wadada Leo Smith, Steve Coleman, Anthony Braxton, John Zorn, Steve Lehman, Joey Baron, Muhal Richard Abrams, Pete Robbins, Cory Smythe, Kris Davis, Vijay Iyer, Myra Melford, Dave Douglas, Butch Morris, and Sylvie Courvoisier.\nIn 2020, Sorey joined the faculty at the University of Pennsylvania as Presidential Assistant Professor of Music.\n\n\n== Early life and career ==\nSorey grew up in Newark, New Jersey, and attended Newark Arts High School. As a teenager, he participated in the New Jersey Performing Arts Center Jazz for Teens program, through which he was awarded a Star-Ledger Scholarship.\nIn 2004, Sorey completed a B.Music in jazz studies and performance at William Paterson University, where he began as a classical trombone major before transferring to jazz drumming.\nAfter a number of years recording and performing as a sideperson for artists including Vijay Iyer and Steve Lehman, Sorey's first album as leader was released on Firehouse 12 Records in 2007. The 2-CD That/Not features various configurations of Sorey, trombonist Ben Gerstein, pianist Cory Smythe, and bassist Thomas Morgan performing an array of works, from \"Seven Pieces for Trombone Quartet\" to the 43-minute \"Permutations for Solo Piano\". Sorey mainly plays drums, but also makes appearances on piano, including on the opening track. The material recorded for the album exceeded even the constraints of a two-disc set: a subsequent digital release of That/Not includes five additional pieces from the same sessions, including two \"4 Hands\" piano tracks.\nSorey's second album, Koan, was released in 2009. Featuring Todd Neufeld on electric and acoustic guitar and Thomas Morgan on bass and acoustic guitar, the 482 Music release was reviewed favorably by All About Jazz and the BBC, included in the 2009 Village Voice Jazz Critics’ Poll, and praised in NPR's \"Take Five's Top 10 Jazz Records Of 2009\".\nIn 2009, Sorey enrolled in a master’s program at Wesleyan University to study composition with Anthony Braxton. He completed his M.A. in 2011 and entered the doctoral program at Columbia University that fall. His enrollment at Columbia coincided with the release of his Oblique – I.\nDuring the six years of doctoral study that followed, Sorey worked closely with George E. Lewis and Fred Lerdahl; off-campus, he recorded three albums with pianist Cory Smythe and bassist Chris Tordini. The first of these, Alloy, was released on Pi Recordings in 2014. For The Inner Spectrum of Variables, the trio was joined by three string performers: violinist Fung Chern Hwei, violist Kyle Armbrust, and cellist Rubin Kodheli. The Chicago Reader called The Inner Spectrum of Variables \"one of the year's most arresting and ambitious recordings\", and The Nation included the album in its \"Ten Best Albums of 2016\"; Nextbop's Rob Shepherd named it the best jazz album of the decade. In 2017, Sorey returned to the trio format for Verisimilitude, which was listed third in both the 2017 NPR Music Jazz Critics Poll and The New York Times Best Jazz Albums of 2017.\nIn 2017, Sorey completed his Doctor of Musical Arts in composition at Columbia. His dissertation comprises scores for his song cycle Perle Noire: Meditations for Josephine and an essay on the aesthetic practices and critical reception of the composition, its subject Josephine Baker, a"
+    }
+   }
+  }
+ },
+ {
+  "id": "conversations-ii",
+  "kind": "album",
+  "ours": {
+   "title": "Conversations II",
+   "artist": "Roscoe Mitchell",
+   "year": 2014,
+   "label": "Wide Hive Records",
+   "albumDNA": "Conversations II is an album by American jazz saxophonist Roscoe Mitchell, with pianist Craig Taborn and drummer Kikanju Baku which was recorded in 2013 and released on Wide Hive. Captures saxophonist Roscoe Mitchell in a 2014 contemporary jazz setting, adding to the recorded documentation of the contemporary era.",
+   "keyTracks": [
+    "Frenzy House",
+    "Chipper and Bing",
+    "Stay Hayfer",
+    "They Rode for Them",
+    "I’ll See You Out There"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Conversations_II"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "d6987f6f-0376-428d-987a-2e82618fa178",
+     "title": "Conversations II",
+     "date": "2014-04-15",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Roscoe Mitchell",
+      "Craig Taborn",
+      "Kikanju Baku"
+     ],
+     "labels": [
+      {
+       "name": "Wide Hive Records",
+       "catalogNumber": "WH-0319"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "010fa57f-3617-458f-9d9d-a9b3d277f233",
+      "title": "Conversations II",
+      "firstReleaseDate": "2014-04-15",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Frenzy House",
+      "Chipper and Bing",
+      "Stay Hayfer",
+      "They Rode for Them",
+      "I’ll See You Out There",
+      "Wha-Wha",
+      "Bells in the Wind",
+      "Shards and Lemons",
+      "Just Talking",
+      "Next Step",
+      "Fly Over and Stay a While"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Conversations_II",
+    "page": {
+     "requestedTitle": "Conversations II",
+     "resolvedTitle": "Conversations II",
+     "shortDescription": "2014 studio album by Roscoe Mitchell with Craig Taborn and Kikanju Baku",
+     "extract": "Conversations II is an album by American jazz saxophonist Roscoe Mitchell, with pianist Craig Taborn and drummer Kikanju Baku which was recorded in 2013 and released on Wide Hive.\n\n\n== Reception ==\n\nIn his review for Sydney Morning Herald, John Shand states, \"Here the anguished energy of the '60s continues to burn (as it does in St Louis) in a series improvisations so dense that it is like peering through the layers of paint on a Jackson Pollock painting. Its very relentlessness is thrilling, independently of the high levels of invention, but it is assuredly not for the faint-hearted\"\nRegarding Conversations I and II, DownBeat's Bill Meyer commented: \"Both of these CDs are remarkably consistent; the engagement and invention never flags, which makes it hard to favor one over the other... Not only is the sound crisp and immaculate, it imparts a spacial experience that makes it feel like the music is happening all around the listener.\"\n\n\n== Track listing ==\nAll compositions by Roscoe Mitchell, Craig Taborn and Kikanju Baku except were noted\n\n\"Frenzy House\" – 6:03\n\"Chipper and Bing\" – 10:26\n\"Stay Hayfer\" – 5:32\n\"They Rode for Them\" (Mitchell, Baku) – 3:45\n\"I'll See You Out There\" – 5:20\n\"Wha-Wha\" (Mitchell, Taborn) – 2:26\n\"Bells in the Wind\" – 7:58\n\"Shards and Lemons\" (Mitchell, Taborn) – 3:41\n\"Just Talking\" – 5:12\n\"Next Step\" – 3:32\n\"Fly Over and Stay a While\" – 9:42\n\n\n== Personnel ==\nRoscoe Mitchell - flute, saxophone\nCraig Taborn – piano, organ, synthesizer\nKikanju Baku – drums, percussion\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "is-that-so",
+  "kind": "album",
+  "ours": {
+   "title": "Is That So?",
+   "artist": "Tom Harrell",
+   "year": 2014,
+   "label": "Stunt Records",
+   "albumDNA": "Infinity is a studio album by jazz trumpeter Tom Harrell, released by HighNote Records in March 2019. Features \"Jericho\" and \"Haiku\" in a contemporary jazz context, highlighting Tom Harrell's interpretive range.",
+   "keyTracks": [
+    "Jericho",
+    "Haiku",
+    "Hot House",
+    "Cecilie",
+    "Modal Dancer"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Infinity_(Tom_Harrell_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "c7c69fdc-2931-442c-b85e-c93f4942caa8",
+     "title": "Is That So?",
+     "date": "2014-02-17",
+     "country": "AF",
+     "status": "Official",
+     "artists": [
+      "Niels Vincentz"
+     ],
+     "labels": [
+      {
+       "name": "Stunt Records",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "01b18810-9c81-4352-9410-7f29e53d62a7",
+      "title": "Is That So?",
+      "firstReleaseDate": "2014-02-17",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Jericho",
+      "Haiku",
+      "Hot House",
+      "Cecilie",
+      "Modal Dancer",
+      "Baby Suite",
+      "Raison d'être",
+      "Is That So?"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Infinity_(Tom_Harrell_album)",
+    "page": {
+     "requestedTitle": "Infinity (Tom Harrell album)",
+     "resolvedTitle": "Infinity (Tom Harrell album)",
+     "shortDescription": "2019 studio album by Tom Harrell",
+     "extract": "Infinity is a studio album by jazz trumpeter Tom Harrell, released by HighNote Records in March 2019.\n\n\n== Reception ==\n\nAt DownBeat magazine, Suzanne Lorge highlighted Harrell's sense of form as a composer and improvisation as a musician as two positive aspects. The playing of the sidemen \"flows holistically from his writing, with only the slightest of shifts between the composed and improvised sections. These natural transitions speak to a solid group rapport, where the soloists have a stake in the compositional act.\"\nAt JazzTimes, David Whiteis wrote, \"Harrell sounds both delighted by his musical quest and enraptured by what he discovers. ... [Harrell's] muted trumpet skips with precision, dexterity, and brio, his solos so logically constructed that one could almost believe he's able to fully imagine each note, each run, each statement in its entirety before playing it.\"\nIn Jazz Journal, Andy Hamilton gave the album five stars.\n\n\n== Track listing ==\nAll compositions by Tom Harrell\n\n\"The Fast\" – 6:38\n\"Dublin\" – 9:40\n\"Hope\" – 7:30\n\"Coronation\" – 6:56\n\"Folk Song\" – 6:03\n\"Blue\" – 5:40\n\"Ground\" – 7:18\n\"The Isle\" – 8:25\n\"Duet\" – 1:41\n\"Taurus\" – 6:01\n\n\n== Personnel ==\nTom Harrell – trumpet, flugelhorn\nMark Turner – tenor saxophone\nCharles Altura – electric guitar, acoustic guitar\nBen Street – bass\nJohnathan Blake – drums\nAdam Cruz – percussion\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "legacy",
+  "kind": "album",
+  "ours": {
+   "title": "Legacy",
+   "artist": "Abraham Burton",
+   "year": 2014,
+   "label": "Unknown",
+   "albumDNA": "Legacy (2014) captures Abraham Burton exploring contemporary jazz territory. Standouts include \"Clifford Jordan\" and \"Jackie McLean\".",
+   "keyTracks": [
+    "Clifford Jordan",
+    "Jackie McLean",
+    "Berchida's Song",
+    "Saint Leu",
+    "Palace Specia"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "7c870489-07ff-47fb-805d-2c30c97f2f07",
+     "title": "Legacy",
+     "date": "2014-02-11",
+     "country": "DE",
+     "status": "Official",
+     "artists": [
+      "Gaël Horellou",
+      "Abraham Burton"
+     ],
+     "labels": [],
+     "releaseGroup": {
+      "mbid": "17cddaf6-b092-436b-960a-decc504f3295",
+      "title": "Legacy",
+      "firstReleaseDate": "2014-02-11",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Clifford Jordan",
+      "Jackie McLean",
+      "Berchida's Song",
+      "Saint Leu",
+      "Palace Specia"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Legacy (album)",
+     "resolvedTitle": "Legacy",
+     "shortDescription": "Topics referred to by the same term",
+     "extract": "Legacy or Legacies may refer to:\n\n\n== Arts and entertainment ==\n\n\n=== Comics ===\n\"Batman: Legacy\", a 1996 Batman storyline\nDC Universe: Legacies, a comic book series from DC Comics\nLegacy, a 1999 quarterly series from Antarctic Press\nLegacy, a 2003–2005 series released by Dabel Brothers Productions\nLegacy, an alternate name for the DC supervillain Wizard\nLegacy (Marvel Comics), an alias used by Genis-Vell, better known as Captain Marvel\nMarvel Legacy, a comic book line introduced in 2017\nStar Wars: Legacy, a 2006 series from Dark Horse\nX-Men: Legacy, a 1991 series from Marvel Comics\nLegacy Virus, a fictional virus from the Marvel Universe\n\n\n=== Film ===\nLegacy, a 1975 American film starring Joan Hotchkis\nLegacy: A Mormon Journey, a 1990 film produced by The Church of Jesus Christ of Latter-day Saints\nLegacy (1998 film), an American film starring David Hasselhoff\nLegacy (2000 film), an American documentary film\nLegacy (2008 film), alternate title for the American film Pretty Little Devils\nLegacy (2010 film), a British-Nigerian film starring Idris Elba\nLegacy (2013 film), a British television film on BBC Two, based on the Alan Judd novel\nTron: Legacy, a 2010 sequel to Tron\nThe Craft: Legacy, a 2020 sequel to The Craft\n\n\n=== Games ===\nLegacy (role-playing game), a tabletop role-playing game\nStar Trek: Legacy, a 2006 computer game by Mad Doc Software and Bethesda Softworks\nLegacy, a constructed format in Magic: The Gathering\nLegacy, a 2023 computer game developed by 22cans\n\n\n=== Literature ===\nLegacy (journal), a scholarly journal, founded in 1984\nLegacy (Michener novel), a 1987 historical-fiction novel by James A. Michener\nLegacy (Russell novel), a 1994 Doctor Who spin-off novel by Gary Russell\nLegacy, a 1995 science-fiction novel in Greg Bear's The Way series\nLegacy, a 1995 science-fiction novel by Steve White\nLegacies (novel), a 1998 Repairman Jack novel by F. Paul Wilson\nLegacy (Judd novel), a 2001 spy novel by Alan Judd\nLegacy (Bujold novel), a 2007 fantasy novel in Lois McMaster Bujold's The Sharing Knife series\nLegacy (novel series), a series of novels by Cayla Kluver; also the first book of the series published in 2008\nLegacy (novella), a 2017 novella and coloring book by Chuck Palahniuk\nLegacy: One Family, a Cup of Tea, and the Company who took on the World, a 2019 history of J. Lyons and Co. by Thomas Harding\n\n\n=== Music ===\n\n\n==== Performers ====\nDire Straits Legacy, a revival of the band Dire Straits\nLegacy (soul group), a former American band, formed in 1979\nLegacy, the original band name of Testament\nLegacy, a band founded by Mårten Andersson\nL.E.G.A.C.Y., rapper and member of the Justus League\nLegacy (rapper) (born 1991), American rapper and producer, member of New Boyz\n\n\n==== Albums ====\nLegacy (Akir album), 2006\nLegacy (Doc Watson album), 2002\nLegacy (Girlschool album), 2008\nLegacy (Jimmy D. Lane album), 2000\nLegacy (Lenny Breau album), 1983\nLegacy (Madball album), 2005\nLegacy (Myrath album), 2016\nLegacy, a 2010 album by Peter Rowan Bluegrass Band\nLegacy (Poco album), 1989\nLegacy (Ronnie Mathews album), 1979\nLegacy (Shadow Gallery album), 2001\nLegacy (The Flyin' Ryan Brothers album), 2002\nLegacy (The Temptations album), 2004\nLegacy (Upper Hutt Posse album), 2005\nLegacy: De Líder a Leyenda Tour (Yandel EP), 2014\nLegacy: De Líder a Leyenda Tour (Yandel album), 2015\nLegacy... Hymns and Faith, a 2002 album by Christian singer-songwriter Amy Grant\nLegacy (Planetshakers album), 2017\nLegacy (Kyshona album), 2024\nLegacy, a 2025 album by West Coast collective Tunnel Rats\n\n\n===== Compilation albums =====\nLegacy: A Collection of New Folk Music, released in 1989\nLegacy: The Absolute Best, an album by The Doors released in 2003\nLegacy: The Best of Mansun, released in 2006\nLegacy: The Greatest Hits Collection, an album by Boyz II Men released in 2001\n\n\n==== Songs ====\n\"Legacy\" (Mansun song), 1998\n\"Legacy\" (Nicky Romero and Krewella song), 2013\n\"Legacy\" (Eminem song), 2013\n\"Legacy\" (J. Cole and PJ song), 2026\n\"Legacy\", a song by As Blood Runs Black from Instinct\n\"Legacy\", a song by Black Veil Brides from Set the World on Fire\n\"Legacy\", a song by Brett Kissel from The Compass Project - West Album\n\"Legacy\", a song by Despised Icon from Purgatory\n\"Legacy\", a song by In This Moment from Mother\n\"Legacy\", a song by Jay Z from 4:44\n\"Legacy\", a song by Kutless from Hearts of the Innocent\n\"Legacy\", a song by Memphis May Fire from Challenger\n\"Legacy\", a song by Motionless in White from Disguise\n\"Legacy\", a song by Papa Roach fro"
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Legacy",
+      "shortDescription": "Topics referred to by the same term",
+      "extractHead": "Legacy or Legacies may refer to:\n\n\n== Arts and entertainment ==\n\n\n=== Comics ===\n\"Batman: Legacy\", a 1996 Batman storyline\nDC Universe: Legacies, a comic book series from DC Comics\nLegacy, a 1999 quarterly series from Antarctic Press\nLegacy, a 2003–2005 series released by Dabel Brothers Productions\nLegacy, an alternate name for the DC supervillain Wizard\nLegacy (Marvel Comics), an alias used by Genis-Vell, better known as Captain Marvel\nMarvel Legacy, a comic book line introduced in 2017\nStar Wa"
+     },
+     {
+      "resolvedTitle": "The Legacy (album)",
+      "shortDescription": "1987 studio album by Testament",
+      "extractHead": "The Legacy is the debut studio album by American thrash metal band Testament. It was released on April 21, 1987.\n\n\n== Background ==\nPrior to the album's recording in January 1987, Testament was known as Legacy. Their lineup consisted of singer Steve \"Zetro\" Souza, guitarists Alex Skolnick and Eric Peterson, bassist Greg Christian and drummer Louie Clemente. Singer Chuck Billy was a member of another local band named Guilt. He had performed with Legacy on a few occasions and was asked to become t"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "no-parking-tow-away-zone",
+  "kind": "album",
+  "ours": {
+   "title": "No Parking Tow Away Zone",
+   "artist": "Kenny Garrett",
+   "year": 2014,
+   "label": "Unknown",
+   "albumDNA": "No Parking Tow Away Zone (2014) captures Kenny Garrett exploring jazz fusion territory. The date includes \"Old Folks\" and \"Wanderlust\". A jazz fusion entry from 2014 by Kenny Garrett, documenting the breadth of the contemporary period.",
+   "keyTracks": [
+    "Old Folks",
+    "Wanderlust",
+    "True Blue",
+    "Airegin",
+    "Signs and Wonders"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "3d80d22f-d608-48e2-baad-122cddfc7690",
+     "title": "No Parking",
+     "date": "2021-03-26",
+     "country": null,
+     "status": "Official",
+     "artists": [
+      "Origami Button"
+     ],
+     "labels": [
+      {
+       "name": "[no label]",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "f5ed60f4-ffa8-4e09-bc16-5d226cf25a08",
+      "title": "No Parking",
+      "firstReleaseDate": "2021-03-26",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Rot",
+      "Transient",
+      "Helix",
+      "Feel",
+      "Peach",
+      "Nervous",
+      "Stag"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "pages-from-an-imaginary-life",
+  "kind": "album",
+  "ours": {
+   "title": "Pages From an Imaginary Life",
+   "artist": "Andy Bey",
+   "year": 2014,
+   "label": "HighNote Records",
+   "albumDNA": "Pages From an Imaginary Life (2014) captures Andy Bey exploring jazz fusion territory on the HighNote Records label. Standouts include \"My Foolish Heart\" and \"How Long Has This Been Going On?\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond. A jazz fusion entry from 2014 by Andy Bey, documenting the breadth of the contemporary period.",
+   "keyTracks": [
+    "My Foolish Heart",
+    "How Long Has This Been Going On?",
+    "Jealousy",
+    "I've Got a Right to Sing the Blues",
+    "Love for Sale"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Andy_Bey"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "ad6d45c3-eb0c-4f5f-8073-354056974b00",
+     "title": "Pages From an Imaginary Life",
+     "date": "2014",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Andy Bey"
+     ],
+     "labels": [
+      {
+       "name": "HighNote Records, Inc.",
+       "catalogNumber": "HCD 7266"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "36ac01eb-4582-4069-8227-bb72014fb0f7",
+      "title": "Pages From an Imaginary Life",
+      "firstReleaseDate": "2014",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "My Foolish Heart",
+      "How Long Has This Been Going On?",
+      "Jealousy",
+      "I've Got a Right to Sing the Blues",
+      "Love for Sale",
+      "Worried Life Blues",
+      "Bad Luck May Be Good Luck",
+      "Lover Come Back to Me",
+      "Good Morning Heartache",
+      "Dog Eat Dog",
+      "Humor Keeps Us Alive",
+      "Take the a Train",
+      "Everything I Have Is Yours",
+      "All That Glitter's Not Gold",
+      "All Roads Lead Back to You"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Andy_Bey",
+    "page": {
+     "requestedTitle": "Andy Bey",
+     "resolvedTitle": "Andy Bey",
+     "shortDescription": "American jazz singer and pianist (1939–2025)",
+     "extract": "Andrew Wideman Bey Jr. (October 28, 1939 – April 26, 2025) was an American jazz singer and pianist. Bey had a wide vocal range, with a four-octave baritone voice.\nRaised in Newark, New Jersey, Bey attended Newark Arts High School.\n\n\n== Background ==\nAndrew Wideman Bey Jr. was born on October 28, 1939, in Newark. His father, a window washer born Andrew Wideman, was an adherent of the Moorish Science Temple of America, an offshoot of Islam, and followed its practice of adopting Bey as a surname. His son kept the surname but did not share his father's faith.\nHis mother, Victoria (Johnson) Wideman, raised Andy and his eight older siblings.\nBey was openly gay. In 1994, he was diagnosed as HIV-positive, but continued his career, maintaining a lifestyle that included yoga and a vegetarian diet. Producer Herb Jordan supported Bey in the resurgence of his recording career, and their 1996 recording Ballads, Blues & Bey returned Bey to prominence.\nBey was a longtime-resident of Chelsea, Manhattan. He died in Englewood, New Jersey on April 26, 2025, at the age of 85.\n\n\n== Career ==\nHe worked on the 1959/1960 television show Startime with Connie Francis, and sang for Louis Jordan. At age 17, he formed a trio with his siblings Salome Bey and Geraldine Bey (de Haas) called Andy and the Bey Sisters. The trio went on a 16-month tour of Europe. The jazz trumpeter Chet Baker's 1988 documentary Let's Get Lost includes footage of Bey and his sisters delighting a Parisian audience. The trio recorded three albums (one for RCA Victor in 1961 and two for Prestige in 1964 and 1965) before breaking up in 1967. Bey also worked with Horace Silver and Gary Bartz.\nIn 1973, Bey and Dee Dee Bridgewater were the featured vocalists on Stanley Clarke's album Children of Forever. Later, Bey recorded the album Experience and Judgment (1974), which was influenced by Indian music. He then returned to hard bop, and recorded covers of music by non-jazz musicians, such as Nick Drake.\nIn 1976, Bey performed in a theatre production of Adrienne Kennedy's A Rat's Mass directed by Cecil Taylor at La MaMa Experimental Theatre Club in the East Village of Manhattan. Musicians Rashid Bakr, Jimmy Lyons, Karen Borca, David S. Ware, and Raphe Malik also performed in the production. Taylor's production combined the original script with a chorus of orchestrated voices used as instruments.\nBey's other albums include Ballads, Blues & Bey (1996), Tuesdays in Chinatown (2001), American Song (2004) and Ain't Necessarily So (2007). He received the \"2003 Jazz Vocalist of the Year\" award by the Jazz Journalists Association. His album American Song received a Grammy nomination for Best Jazz Vocal Album in 2005.\n\n\n== Awards and honors ==\n2003: Jazz Vocalist of the Year, Jazz Journalists Association\n2005: Grammy nomination, Best Jazz Vocal Album for American Song\n2014: NPR Music Jazz Critics Poll, Best Vocal Album for Pages from an Imaginary Life\n\n\n== Discography ==\n1974: Experience and Judgment (Atlantic)\n1991: As Time Goes By (Jazzette)\n1996: Ballads, Blues & Bey (Evidence)\n1998: Shades of Bey (Evidence)\n2001: Tuesdays in Chinatown (N-Coded)\n2003: Chillin' with Andy Bey (Minor Music)\n2004: American Song (Savoy Jazz)\n2007: Ain't Necessarily So (12th Street)\n2013: The World According to Andy Bey (HighNote)\n2014: Pages from an Imaginary Life (HighNote)\nWith Andy and the Bey Sisters\n\n1961: Andy and the Bey Sisters (RCA Victor )\n1964: Now! Hear! (Prestige) with Jerome Richardson, Kenny Burrell\n1965:  'Round Midnight (Prestige) with Kenny Burrell, Milt Hinton, Osie Johnson\nWith Gary Bartz\n\n1971: Harlem Bush Music − Taifa (Milestone)\n1971: Harlem Bush Music − Uhuru (Milestone)\n1972: Juju Street Songs (Prestige)\n1973: Follow, the Medicine Man (Prestige)\nWith Stanley Clarke\n\n1973: Children of Forever (Polydor)\nWith Gerry Eastman\n\n1995: Songbook (Williamsburgh Music Center)\nWith Howard McGhee Orchestra\n\n1966: Cookin' Time (Zim)\nWith Bob Malach\n\n1995: The Searcher (Go Jazz)\nWith Grachan Moncur III\n\n1977 Shadows (Denon)\nWith Mtume Umoja Ensemble\n\n1972: Alkebu-Lan: Land of the Blacks (Live at the East)\nWith Duke Pearson\n\n1969: How Insensitive (Blue Note)\nWith Max Roach\n\n1968: Members, Don't Git Weary (Atlantic)\nWith Horace Silver\n\n1970: That Healin' Feelin': The United States Of Mind / Phase 1\n1988: Music to Ease Your Disease (Silveto)\n1993: It's Got to Be Funky (Columbia)\n1996: Total Response (Blue Note)\n\n\n== References ==\n\n\n== External links ==\nAndy Bey & Andy and the Bey Sisters biography by"
+    }
+   }
+  }
+ },
+ {
+  "id": "parallel-moments",
+  "kind": "album",
+  "ours": {
+   "title": "Parallel Moments",
+   "artist": "Marilyn Crispell",
+   "year": 2014,
+   "label": "Babel",
+   "albumDNA": "Parallel Moments is a free improvisation album by Marilyn Crispell, recorded for Babel in 2014. The date includes \"Longing\" and \"Town and City Halls\". She is one of a very few pianists who rise to the challenge of free jazz.\" In addition to her own extensive work as a soloist or bandleader, Crispell is known as a longtime member of saxophonist Anthony Braxton's quartet in the 1980s and '90s.",
+   "keyTracks": [
+    "Longing",
+    "Town and City Halls",
+    "Conversation",
+    "A Subtle Freedom",
+    "Notes in the Sky"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Marilyn_Crispell"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "d2574ccb-c6f2-45ac-b541-ca0315a24cba",
+     "title": "Parallel Moments",
+     "date": "2014-02-24",
+     "country": "GB",
+     "status": "Official",
+     "artists": [
+      "Raymond MacDonald",
+      "Marilyn Crispell"
+     ],
+     "labels": [
+      {
+       "name": "Babel",
+       "catalogNumber": "BDV13125"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "103dd659-e006-401a-bb8c-baaf8e2c82c9",
+      "title": "Parallel Moments",
+      "firstReleaseDate": "2014-02-24",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Longing",
+      "Town and City Halls",
+      "Conversation",
+      "A Subtle Freedom",
+      "Notes in the Sky",
+      "Illumination",
+      "Flame",
+      "Sun Song",
+      "Parallel Moments",
+      "Distant Voices"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Marilyn_Crispell",
+    "page": {
+     "requestedTitle": "Marilyn Crispell",
+     "resolvedTitle": "Marilyn Crispell",
+     "shortDescription": "American jazz pianist and composer",
+     "extract": "Marilyn Crispell (born March 30, 1947) is an American jazz pianist and composer. Scott Yanow described her as \"a powerful player... who has her own way of using space... She is near the top of her field.\" Jon Pareles of The New York Times wrote: \"Hearing Marilyn Crispell play solo piano is like monitoring an active volcano... She is one of a very few pianists who rise to the challenge of free jazz.\" In addition to her own extensive work as a soloist or bandleader, Crispell is known as a longtime member of saxophonist Anthony Braxton's quartet in the 1980s and '90s.\n\n\n== Biography ==\nCrispell was born in Philadelphia and, at the age of ten, moved to Baltimore, where she attended Western High School. She studied classical piano at the Peabody Conservatory beginning at age seven, and also began improvising at an early age, thanks to a teacher who required all her students to improvise regardless of their skill level. She later attended the New England Conservatory of Music, where she studied piano and composition, graduating in 1968. Crispell was not interested in jazz until 1975, when, while living on Cape Cod, she heard John Coltrane's A Love Supreme for the first time. She recalls: \"The emotional and spiritual quality of it overpowered me... I can honestly say it's possibly the most overpowering experience I've ever had in my life. That one night of listening to A Love Supreme over and over and over just completely changed my life.\"\nCrispell soon returned to Boston, where she studied jazz privately with Charlie Banacos for two years. According to Crispell, \"I had to, like, really go from scratch. I had to do everything in twelve keys. I had to write out seven solos in every key on every piece. I had to listen to tons of stuff and transcribe it to be able to hear and understand what was happening, you know, within the confines of these time cycles and chord changes. How were people using the chords and the notes and the chords and the scales? Where did they go outside of them?\" \nWhile in Boston, she met saxophonist Charlie Mariano, who suggested she consider attending sessions at the Creative Music Studio in Woodstock, NY, founded by Karl Berger, Ingrid Sertso, and Ornette Coleman. In 1977, she visited the studio for a summer, and came into contact with musicians such as Cecil Taylor, Don Cherry, Roscoe Mitchell, Wadada Leo Smith, Anthony Davis, and Oliver Lake. Regarding her first encounter with Taylor, she recalled: \"I remember the day I first met Cecil Taylor... He was playing pool, and there was a piano behind the pool room. So I sat at the piano and gave him an impromptu concert, hoping he'd listen. When I was finished he kissed my hand, and said, 'This lady can play!' I'm still flattered to hear my name mentioned in the same breath.\" (During this time, people frequently referred to her as \"the female Cecil Taylor\" due to her fiery approach to the piano and her tendency to play \"lots of notes, all of the time. Continuously, without much of a break.\") Regarding her time at the Creative Music Studio, she stated: \"It was and is a unique place in the world for the kind of music that we do... If it had taken place in New York City I don't think the feeling would have been the same. Here you were living and eating and hanging out with the guiding artists in this country motel setting. People would be up all night making bonfires and playing outside on the lawn with musicians from all over the world. It was a very important human experience and I met many of the people I ended up playing with.\" Upon completion of the session, Crispell quickly moved to Woodstock and has resided there ever since.\nWhile at the Creative Music Studio, Crispell also met Anthony Braxton, who invited her to sit in with his group. She recalls: \"At our first gig Anthony placed a beer in my hand and said, 'Relax, don't play so many notes.' I was playing like a thousand notes a minute, and he was the first person to make me think of space and breath and phrasing, as opposed to a constant barrage.\" She was soon invited to join Braxton's Creative Music Orchestra and his quartet, of which she was a member from 1983 to 1995, and which also featured bassist Mark Dresser, and drummer Gerry Hemingway. During this time, she made roughly a dozen recordings with Braxton, and also began releasing recordings under her own name. Regarding her tenure with the group, she stated: \"[I]t was like a family. Playing with Anthony really taught me a lot about space, the"
+    }
+   }
+  }
+ },
+ {
+  "id": "rising-son",
+  "kind": "album",
+  "ours": {
+   "title": "Rising Son",
+   "artist": "Takuya Kuroda",
+   "year": 2014,
+   "label": "Blue Note",
+   "albumDNA": "Japanese trumpeter Takuya Kuroda's Blue Note debut bridges jazz tradition with contemporary hip-hop and funk sensibilities. Produced by DJ Premier collaborator Jose James, the album grooves hard while showcasing Kuroda's warm, lyrical trumpet tone. Represented a new wave of young jazz musicians comfortable moving between straight-ahead playing and beat-driven production. Kuroda's success opened doors for more Japanese artists on major American jazz labels.",
+   "keyTracks": [
+    "Rising Son",
+    "Afro Blues",
+    "Tell Me a Bedtime Story",
+    "Everybody Loves the Sunshine"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "fa25e2bc-fb99-4362-b636-52ffe25fb6bd",
+     "title": "Rising Son",
+     "date": "2014-02-12",
+     "country": "JP",
+     "status": "Official",
+     "artists": [
+      "Takuya Kuroda"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "TYCJ-60050"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "539ecd10-fa19-4fd5-b343-4bd2ec32007c",
+      "title": "Rising Son",
+      "firstReleaseDate": "2014-02-12",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Rising Son",
+      "Afro Blues",
+      "Piri Piri",
+      "Mala",
+      "Everybody Loves the Sunshine",
+      "Green and Gold",
+      "Sometime, Somewhere, Somehow",
+      "Call",
+      "Unchain",
+      "Promise in Love"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Rising Sun (album)",
+     "resolvedTitle": "Rising Sun",
+     "shortDescription": "Topics referred to by the same term",
+     "extract": "Rising sun may refer to sunrise.  \nRising Sun or The Rising Sun may also refer to:\n\n\n== Books ==\nRising Sun (Crichton novel), a 1992 Michael Crichton novel\nThe Rising Sun, Pulitzer Prize winning account by John Toland\nRising Sun (Conroy novel), a 2012 alternate history war novel by Robert Conroy\nRising Sun (manga), a 2012 manga series by Satoshi Fujiwara\n\n\n== Film and television ==\n\n\n=== Film titles ===\nRising Sun (1993 film), a film based on the Michael Crichton novel\nRising Sun (1980 film), a Hong Kong documentary film\n\n\n=== Others ===\nRising Sun Films, an Indian production company based in Mumbai\nRising Sun International Film Festival, an annual film festival held in Kitakyushu, Japan\nRising Sun Pictures, an Australian visual effects company\nToonami Rising Sun, a Saturday version of Toonami, a former action cartoon block on Cartoon Network (2000-2001)\n\n\n== Games ==\nRising Sun (board game), a miniature wargame\nRising Sun (video game), a 2000 World War II computer wargame by TalonSoft\nMedal of Honor: Rising Sun, a 2003 World War II video game by EA Games\n\n\n== Music ==\nRising Sun Rock Festival, an annual festival in Otaru, Japan\n\n\n=== Albums ===\nRising Sun (Aly & Fila album) (2010)\nRising Sun (Augustus Pablo album) (1986)\nRising Sun (Stray from the Path album) (2011)\nRising Sun (TVXQ album) (2005)\n\n\n=== Songs ===\n\"Rising Sun\", charting single for Medicine Head Number 11 – 1973\n\"Rising Sun\" (Fats Domino song)\n\"Rising Sun\", a song from the album Brainwashed by George Harrison\n\"Rising Sun\", a song from the album East by Cold Chisel\n\n\n== Places ==\n\n\n=== United States ===\nRising Sun-Lebanon, Delaware\nRising Sun, Pope County, Illinois, an unincorporated community\nRising Sun, White County, Illinois, an unincorporated community\nRising Sun, Indiana, a city\nRising Sun, Maryland, a town\nRising Sun, Mississippi, an unincorporated community\nRising Sun (Montana), a wayside area\nRising Sun, Wisconsin, an unincorporated community\nRising Sun Auto Camp, Glacier National Park, Montana, on the National Register of Historic Places\n\n\n=== United Kingdom ===\nRising Sun, Cornwall, a hamlet\n\n\n== Pubs ==\n\n\n=== Australia ===\nThe Rising Sun, historic pub in Kensington, Adelaide, South Australia\nRising Sun Inn, Millfield, a heritage-listed former post office, inn, general store and residence, Millfield, New South Wales\n\n\n=== UK ===\nRising Sun, Carter Lane, London, a Grade II listed public house\nRising Sun, Cloth Fair, London, a historic pub\nRising Sun, Euston, London, a Grade II listed public house\nRising Sun, Fitzrovia, London, a Grade II listed public house\nRising Sun, Mill Hill, London, a Grade II listed public house\n\n\n=== US ===\nRising Sun Inn, Anne Arundel County, Maryland\nRising Sun Tavern: Various taverns so named (which see)\n\n\n== Schools ==\nRising Sun High School (Maryland), North East, Maryland\nRising Sun High School (Indiana), Rising Sun, Indiana\n\n\n== Other uses ==\nRising Sun badge, Australian Army badge\nRising Sun (character), a comic book character and Japanese superhero from DC Comics\nRising Sun (sculpture), a work by Adolph Alexander Weinman for the 1915 international exposition of San Francisco\nRising Sun (yacht), owned by David Geffen\nOperation Rising Sun, a 1970s Cold War military intelligence program run by the Pakistani Directorate of Inter-Services Intelligence\nOrder of the Rising Sun, a Japanese honor\nCagayan Rising Suns, a Philippines Basketball Association Developmental League team\n\n\n== See also ==\nCamp Rising Sun (New York), an international summer scholarship programme\nCamp Rising Sun (Connecticut), a camp for students with cancer\nThe House of the Rising Sun (disambiguation)\nLand of the Rising Sun (disambiguation), primarily referring to Japan\nRising Son (disambiguation)\nPS Rising Star, a 1818 ship\nRising Sun Flag, a Japanese flag\nRisingsun, Ohio, a village\nSun-rising (hieroglyph), of Ancient Egyptian\nRising sun lemma"
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Rising Sun",
+      "shortDescription": "Topics referred to by the same term",
+      "extractHead": "Rising sun may refer to sunrise.  \nRising Sun or The Rising Sun may also refer to:\n\n\n== Books ==\nRising Sun (Crichton novel), a 1992 Michael Crichton novel\nThe Rising Sun, Pulitzer Prize winning account by John Toland\nRising Sun (Conroy novel), a 2012 alternate history war novel by Robert Conroy\nRising Sun (manga), a 2012 manga series by Satoshi Fujiwara\n\n\n== Film and television ==\n\n\n=== Film titles ===\nRising Sun (1993 film), a film based on the Michael Crichton novel\nRising Sun (1980 film), a "
+     },
+     {
+      "resolvedTitle": "The Rising of the Moon (album)",
+      "shortDescription": "1956 studio album by The Clancy Brothers and Tommy Makem",
+      "extractHead": "The Rising of the Moon: Irish Songs of Rebellion is a collection of traditional Irish folk songs performed by The Clancy Brothers and Tommy Makem. It was the group's first album and was initially recorded in 1956. For the original recording, the only instrument used was Paddy Clancy's harmonica, since Tommy Makem had damaged his hand and Liam Clancy was still learning how to play the guitar. The group had yet to develop its distinctive musical sound, so there was little ensemble singing.\nIn 1959"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "solo-piano-portraits",
+  "kind": "album",
+  "ours": {
+   "title": "Solo Piano - Portraits",
+   "artist": "Chick Corea",
+   "year": 2014,
+   "label": "Concord Jazz",
+   "albumDNA": "Trilogy is a 2013 live album by Chick Corea and his trio, featuring Corea on piano with Christian McBride on double bass and Brian Blade on drums. The three-disc album was recorded live in Washington, D.C., and Oakland, California, and in Spain, Switzerland, Austria, Slovenia, Turkey, and Japan. The album peaked at number nine on the Billboard Jazz Albums chart in 2014. It won the 2014 Grammy Award for Best Jazz Instrumental Album.",
+   "keyTracks": [
+    "Chick Talks: About Solo Piano",
+    "Improv #1 / How Deep Is The Ocean?",
+    "Chick Talks: About Bill Evans",
+    "Waltz for Debby",
+    "Chick Talks: About Stevie Wonder"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Trilogy_(Chick_Corea_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "d73ed2cb-2b46-4b72-a184-230c54cac574",
+     "title": "Chick Corea Solo Piano - Portraits",
+     "date": "2014",
+     "country": "XE",
+     "status": "Official",
+     "artists": [
+      "Chick Corea"
+     ],
+     "labels": [
+      {
+       "name": "Concord Jazz",
+       "catalogNumber": "0888072356030"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0022b3cb-5325-4900-8f35-85bdd7428aab",
+      "title": "Solo Piano - Portraits",
+      "firstReleaseDate": "2014-05-02",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Improv #1 / How Deep Is the Ocean?",
+      "Waltz for Debby",
+      "Pastime Paradise",
+      "'round Midnight",
+      "Pannonica",
+      "Blue Monk",
+      "Dusk in Sandi",
+      "Oblivion",
+      "The Yellow Nimbus",
+      "Prelude #2 (Op. 11)",
+      "Prelude #4 (Op. 11)",
+      "Bagatelle #1",
+      "Bagatelle #2",
+      "Bagatelle #3",
+      "Bagatelle #4",
+      "Children's Song #1",
+      "Children's Song #2",
+      "Children's Song #3",
+      "Children's Song #4",
+      "Children's Song #5",
+      "Children's Song #6",
+      "Children's Song #7",
+      "Children's Song #8",
+      "Children's Song #9",
+      "Children's Song #10",
+      "Children's Song #11",
+      "Children's Song #12",
+      "Portrait #1 - Krakow",
+      "Portrait #2 - Krakow",
+      "Portrait #1 - Casablanca",
+      "Portrait #2 - Casablanca",
+      "Portrait #1 - Easton, Maryland",
+      "Portrait #2 - Easton, Maryland",
+      "Portrait #3 - Easton, Maryland",
+      "Portrait #4 - Easton, Maryland",
+      "Portrait #1 - Vilnius",
+      "Portrait #2 - Vilnius"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Trilogy_(Chick_Corea_album)",
+    "page": {
+     "requestedTitle": "Trilogy (Chick Corea album)",
+     "resolvedTitle": "Trilogy (Chick Corea album)",
+     "shortDescription": "2013 live album by Chick Corea",
+     "extract": "Trilogy is a 2013 live album by Chick Corea and his trio, featuring Corea on piano with  Christian McBride on double bass and Brian Blade on drums. The three-disc album was recorded live in Washington, D.C., and Oakland, California, and in Spain, Switzerland, Austria, Slovenia, Turkey, and Japan. The album peaked at number nine on the Billboard Jazz Albums chart in 2014. It won the 2014 Grammy Award for Best Jazz Instrumental Album.\nA follow-up of this album, entitled Trilogy 2 and featuring recordings from the same tour, was issued in 2018. Recordings from the trio's brief tour in 2020, Chick Corea's final tour before his death in 2021, were published in 2025 as Trilogy 3.  \n\n\n== Critical reception ==\n\nJohn Kelman of All About Jazz summarizes his review with the statement: \"It's hard to believe that Corea is now 73 years old but, if anything, he's never been more active—and, with albums as superb as Trilogy, in the company of the equally outstanding McBride and Blade, clearly at the top of his game.\"\nSteve Leggett wrote in his AllMusic review: \"This expansive live release finds Corea working with bassist Christian McBride and drummer Brian Blade, and the three have an uncanny connection, filling space with gorgeous and subtle phrasings, gliding through all manner of styles with a seemingly effortless elegance, grace, and freshness.\" and concludes \"Not exactly a holding pattern, and not exactly a career summation, Trilogy will surely please and delight Corea's many fans.\"\nJohn Fordham of the Guardian wrote: \"Chick Corea, now 73, has shown that his curiosity as well as his playing remain undimmed with genre-bending recent ventures such as his Vigil group. But plenty of Corea fans want nothing more than for him to cut loose with a classic acoustic-jazz trio, and that’s precisely the deal for this three-CD set, recorded live around the world between 2010 and 2012.(..) For Corea admirers, and jazz-piano fans of all kinds, it’s a must.\"\n\n\n== Track listing ==\nDisc one\n\n\"You're My Everything\" (Mort Dixon, Harry Warren, Joseph Young) – 12:00\n\"Recorda Me\" (Joe Henderson) – 7:29\n\"The Song Is You\" (Oscar Hammerstein II, Jerome Kern) – 13:55\n\"Work\" (Thelonious Monk) – 5:14\n\"My Foolish Heart\" (Ned Washington, Victor Young) – 9:20\n\"Fingerprints\" (Chick Corea) – 10:22\n\"Spain\" (Corea) – 18:29\nDisc two\n\n\"This Is New\" (Ira Gershwin, Kurt Weill) – 12:42\n\"Alice in Wonderland\" (Sammy Fain, Bob Hilliard) – 9:04\n\"It Could Happen to You\" (Johnny Burke, Jimmy Van Heusen) – 12:00\n\"Blue Monk\" (Monk) – 10:01\n\"Armando's Rhumba\" (Corea) – 9:13\n\"Op. 11, No. 9\" (Alexander Scriabin) – 10:43\n\"How Deep Is the Ocean?\" (Irving Berlin) – 13:48\nDisc three\n\n\"Homage\" (Corea) – 10:02\n\"Piano Sonata: The Moon\" (Corea) – 29:58\n\"Someday My Prince Will Come\" (Frank Churchill, Larry Morey) – 10:22\n\n\n== Personnel ==\nChick Corea – piano\nChristian McBride – double bass\nBrian Blade – drums\nGuest musicians\n\nJorge Pardo – flute on \"My Foolish Heart\" and \"Spain\"\nNiño Josele – guitar on \"My Foolish Heart\" and \"Spain\"\nGayle Moran Corea – vocals on \"Someday My Prince Will Come\"\n\n\n== Charts ==\n\n\n== References ==\n\n\n== External links ==\nChick Corea Trio – Trilogy (2013) album review by Steve Leggett, credits & releases at AllMusic\nChick Corea Trio – Trilogy (2013) album releases & credits at Discogs\nChick Corea Trio – Trilogy (2013) album to be listened as stream on Spotify"
+    }
+   }
+  }
+ },
+ {
+  "id": "sophisticated-swing",
+  "kind": "album",
+  "ours": {
+   "title": "Sophisticated Swing",
+   "artist": "Cannonball Adderley",
+   "year": 2014,
+   "label": "Cheesecake Records",
+   "albumDNA": "Sophisticated Swing is the fifth album by jazz saxophonist Cannonball Adderley, and his fourth released on the EmArcy label, featuring performances with Nat Adderley, Junior Mance, Sam Jones and Jimmy Cobb. The front cover photograph was by Chuck Stewart taken at the Ulysses S. Grant Monument, Chicago, Illinois.",
+   "keyTracks": [
+    "Another Kind of Soul",
+    "Miss Jackie's Delight",
+    "Spring Is Here",
+    "Tribute To Brownie",
+    "Spectacular"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Sophisticated_Swing"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "db0d2963-3cfc-4b00-a00f-a9711fbaf2dc",
+     "title": "Sophisticated Swing",
+     "date": "2014-06-10",
+     "country": null,
+     "status": "Official",
+     "artists": [
+      "Cannonball Adderley"
+     ],
+     "labels": [
+      {
+       "name": "Cheesecake Records",
+       "catalogNumber": "8240"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "046e3f68-25d0-451d-8950-853b01fc501c",
+      "title": "Sophisticated Swing",
+      "firstReleaseDate": "2014-06-10",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Another Kind of Soul",
+      "Miss Jackie's Delight",
+      "Spring Is Here",
+      "Tribute To Brownie",
+      "Spectacular",
+      "Jeannie",
+      "Stella By Starlight",
+      "Eddie McLin",
+      "Cobbweb",
+      "Our Delight",
+      "What's New?",
+      "Fuller Bop Man",
+      "Jubilation",
+      "Stay On It",
+      "If I Love Again",
+      "Straight, No Chaser"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Sophisticated_Swing",
+    "page": {
+     "requestedTitle": "Sophisticated Swing",
+     "resolvedTitle": "Sophisticated Swing",
+     "shortDescription": "1957 studio album by Cannonball Adderley",
+     "extract": "Sophisticated Swing is the fifth album by jazz saxophonist Cannonball Adderley, and his fourth released on the EmArcy label, featuring performances with Nat Adderley, Junior Mance, Sam Jones and Jimmy Cobb. The front cover photograph was by Chuck Stewart taken at the Ulysses S. Grant Monument, Chicago, Illinois.\n\n\n== Reception ==\nThe Allmusic review by Scott Yanow awarded the album 3 stars and states \"The music is quite bop-oriented, bluesy but not as soulful as it would be when Cannonball put together a new group in 1959\".\n\n\n== Track listing ==\n\"Another Kind of Soul\" (Nat Adderley) - 3:41\n\"Miss Jackie's Delight\" (Gene Wright) - 6:13\n\"Spring Is Here\" (Lorenz Hart, Richard Rodgers) - 3:47\n\"Tribute to Brownie\" (Duke Pearson) - 3:32\n\"Spectacular\" (Sam Jones) - 3:56\n\"Jeanie\" (Jones) - 3:28\n\"Stella by Starlight\" (Victor Young) - 3:17\n\"Edie McLin\" (Wright) - 5:21\n\"Cobbweb\" (Wright) - 2:41\nRecorded at Capitol Studios in New York City on February 6 (tracks 2, 4-5 & 9), February 8 (track 6) and February 11 (tracks 1, 3, 7 & 8), 1957\n\n\n== Personnel ==\nCannonball Adderley - alto saxophone\nNat Adderley – cornet\nJunior Mance - piano\nSam Jones - bass\nJimmy Cobb - drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "afrodeezia",
+  "kind": "album",
+  "ours": {
+   "title": "Afrodeezia",
+   "artist": "Marcus Miller",
+   "year": 2015,
+   "label": "Blue Note",
+   "albumDNA": "Afrodeezia is a studio album by American bass-guitarist Marcus Miller. The album was released on March 16, 2015  by Blue Note Records. This is his debut release for Blue Note.",
+   "keyTracks": [
+    "Hylife",
+    "B’s River",
+    "Preacher’s Kid (Song for William H)",
+    "We Were There",
+    "Papa Was a Rolling Stone"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Afrodeezia"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "358efda8-646b-497d-8022-ab37e03d45e3",
+     "title": "Afrodeezia",
+     "date": "2015-03-16",
+     "country": "CA",
+     "status": "Official",
+     "artists": [
+      "Marcus Miller"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "[none]"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0cb2b83f-2ac9-4ef6-a615-4da0db97b97f",
+      "title": "Afrodeezia",
+      "firstReleaseDate": "2015-03-16",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Hylife",
+      "B’s River",
+      "Preacher’s Kid (Song for William H)",
+      "We Were There",
+      "Papa Was a Rolling Stone",
+      "I Still Believe I Hear",
+      "Son of Macbeth",
+      "Prism (interlude)",
+      "Xtraordinary",
+      "Water Dancer",
+      "I Can’t Breathe"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Afrodeezia",
+    "page": {
+     "requestedTitle": "Afrodeezia",
+     "resolvedTitle": "Afrodeezia",
+     "shortDescription": "2015 studio album by Marcus Miller",
+     "extract": "Afrodeezia is a studio album by American bass-guitarist Marcus Miller. The album was released on March 16, 2015 (2015-03-16) by Blue Note Records. This is his debut release for Blue Note.\n\n\n== Reception ==\nJeff Tamarkin in his review for JazzTimes stated, \"For Afrodeezia, Marcus Miller—who mentions in his liner notes that he’s a spokesperson for UNESCO’s \"Slave Route Project\"—chose to incorporate musicians and instrumentation associated with various locales historically impacted by slavery. It's a formidably funky collection-no surprise there-and some of Miller's most ambitious work.\" John Fordham of The Guardian wrote, \"Despite the seriousness of his subject, the versatile Miller’s work never altogether shakes off an air of expert slickness, but some strong themes and plenty of urgent improvising more or less neutralise that.\" Walter Atkins of All About Jazz commented, \"Marcus Miller's ambitious continent spanning Afrodeezia follows the Atlantic slave trade routes and celebrates the historical struggles and triumph of the African people and their descendents through the healing power of music. He affirms how vital the music and rhythms are in our lives and the global community.\"\n\n\n== Track listing ==\n\n\n== Personnel ==\nMarcus Miller – bass guitar (1, 2, 4–8, 10, 11), party vocal (1), gimbri (2, 11), bass clarinet (2, 3, 9, 11), acoustic piano (3, 9), acoustic bass (3), horn arrangements (3), arrangements (5, 6), fretless bass (6, 9), vocals (9), kalimba (9), Fender Rhodes (11), synthesizers (11)\nBrett Williams – acoustic piano (1, 2, 4, 6, 7), Fender Rhodes (4, 8)\nCory Henry – organ solo (3)\nRobert Glasper – Fender Rhodes solo (4)\nCliff Barnes – acoustic piano (5, 10), organ (5)\nRoddie Romero – accordion (10)\nMocean Worker – Fender Rhodes (11), guitars (11), bass guitar breakdown (11), drum programming (11)\nAdam Agati – guitars (1, 4–8, 10), electric guitar (2), guitar solo (7)\nChérif Soumano – acoustic guitar (1), vocal chorus (1), backing vocals (1), kora (2, 10)\nGuimba Kouyaté – lead vocals (1), acoustic guitar (2, 10)\nKeb Mo – guitar (5)\nWah Wah Watson – wah-wah guitar (5)\nLouis Cato – drums (1–3, 5–7, 9, 10), vocal fills (1), alto saxophone (4), djembe (6), drum machine (8)\nAdama Bilorou Dembele – percussion (1, 2, 10), backing vocals (1)\nMarco Lobo – percussion (4)\nMunyungo Jackson – African percussion (5)\nLamumba Henry – percussion (6), djembe (9)\nRobert Greenidge – steelpans (7)\nAlex Han – alto saxophone (1, 2, 5, 7–10), soprano saxophone (6)\nLee Hogans – trumpet (1, 4, 6, 8, 9)\nEtienne Charles – trumpet (2, 7), percussion (7)\nMichael \"Patches\" Stewart – trumpet (5)\nAmbrose Akinmusire – trumpet (10)\nBen Hong – cello (6)\nMichael Doucet – violin (10)\nAlune Wade – vocal chorus (1), backing vocals (1), choir vocals (3), musical suggestions (10)\nLalah Hathaway – vocals (3), scat vocals (4)\nAlvin Chea – choir vocals (3)\nJulia Sarr – choir vocals (3)\nAlina Cabral – backing vocals (4)\nAndrea Dutra – backing vocals (4)\nKika Tristão – backing vocals (4)\nChuck D – rap (11)\n\n\n=== Production ===\nDon Was – A&R\nNicolas Pflug – A&R\nHarold Goode – executive producer, associate producer\nHarry Martin – executive producer\nMarcus Miller – producer\nBibi Green – project coordinator, artist management\nBernard Dulau – artist management\nRebecca Meek – package design\nCathrin Cammet – photography\nTaka Honda – management\n\n\n=== Technical credits ===\nLouie Teran – mastering at Marcussen Mastering (Hollywood, California)\nTaka Honda – mixing (1, 7, 10), recording, engineer\nDavid Rideau – mixing (2, 6, 9)\nDavid Isaac – mixing (3–5)\nMarcus Blackberry – mixing (8)\nJames Saez – mixing (11)\nGlenn Brown – recording\nSerge Glansberg – recording\nHollis Greathouse – recording\nJP Hesser – recording\nKen Rich – recording\nJohn Roods – recording\nJustin Tocket – recording\nGuian Wright – recording\nPierce Bossley – assistant engineer\nKevin de Longeril – assistant engineer\nGustavo Essinger – assistant engineer\nCarlos Louerio – assistant engineer\nPaul Quantin – assistant engineer\n\n\n== References ==\n\n\n== External links ==\nOfficial website"
+    }
+   }
+  }
+ },
+ {
+  "id": "in-out-and-around",
+  "kind": "album",
+  "ours": {
+   "title": "In Out and Around",
+   "artist": "Michael Brecker",
+   "year": 2015,
+   "label": "Timeless Records",
+   "albumDNA": "In Out and Around is a contemporary jazz album by Michael Brecker, released on Timeless Records in 2015. Among the tracks are \"Break Time\" and \"Dark Light\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond. He received 15 Grammy Awards from the Recording Academy, was inducted into the DownBeat Hall of Fame in 2007, and received an honorary doctor of music degree from Berklee College of Music in 2004.",
+   "keyTracks": [
+    "Break Time",
+    "Dark Light",
+    "Shadows of Forgotten Love",
+    "The Gift",
+    "Hadrians Wall"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Michael_Brecker"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "964c251b-b229-4763-ae6f-b0a179914220",
+     "title": "In Out and Around",
+     "date": "2015-06-17",
+     "country": "JP",
+     "status": "Official",
+     "artists": [
+      "Mike Nock Quartet",
+      "Michael Brecker",
+      "George Mraz",
+      "Al Foster"
+     ],
+     "labels": [
+      {
+       "name": "Timeless Records",
+       "catalogNumber": "CD SJP 119"
+      },
+      {
+       "name": "SOLID RECORDS",
+       "catalogNumber": "CDSOL-6342"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0233f2c8-2090-41d8-b19d-1af323519d65",
+      "title": "In Out and Around",
+      "firstReleaseDate": "2015-06-17",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Break Time",
+      "Dark Light",
+      "Shadows of Forgotten Love",
+      "The Gift",
+      "Hadrians Wall",
+      "In Out and Around"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Michael_Brecker",
+    "page": {
+     "requestedTitle": "Michael Brecker",
+     "resolvedTitle": "Michael Brecker",
+     "shortDescription": "American jazz saxophonist and composer (1949–2007)",
+     "extract": "Michael Leonard Brecker (March 29, 1949 – January 13, 2007) was an American jazz saxophonist and composer. Over a four‑decade career, he recorded widely in jazz and popular music and appeared on more than 900 albums as a leader and sideman. He received 15 Grammy Awards from the Recording Academy, was inducted into the DownBeat Hall of Fame in 2007, and received an honorary doctor of music degree from Berklee College of Music in 2004. He died in New York City in 2007 from complications of leukemia following a 2005 diagnosis of myelodysplastic syndrome.\n\n\n== Early life and education ==\nBrecker was born to a Jewish family in Philadelphia, on March 29, 1949, and raised in the local suburb of Cheltenham Township, Pennsylvania. He was raised in an artistic household: his father, Bob (Bobby), was a lawyer who played jazz piano and his mother, Sylvia, was a portrait artist.  Michael was exposed to jazz at an early age by his father. He began studying clarinet at age 6, then moved to the alto saxophone in the eighth grade, settling on the tenor saxophone as his primary instrument in his sophomore year of high school.\nHe graduated from Cheltenham High School in 1967 and spent that summer at the Berklee College of Music in Boston. In Fall 1967, he followed his older brother, Randy, to Indiana University in Bloomington, Indiana, where he formed a jazz rock group with trumpet player Randy Sandke and others called Mrs. Seamon's Sound Band, named after a dormitory official who disliked longhaired students.\n\n\n== Career ==\nMrs. Seamon's Sound Band were finalists in the competition at the Spring 1968 Notre Dame Collegiate Jazz Festival, but were disqualified for their interpretation of The Doors song \"Light My Fire\". The band also performed outdoors on campus in a benefit for presidential candidate Eugene McCarthy in that year's presidential election. Following that semester, the band accepted a management offer and moved to Chicago, where drugs and a love triangle led to a suicide, which brought Chicago police to the manager's apartment, where all of the band except Sandke and Brecker, neither of whom were at the scene, were arrested. More trauma followed, and according to Randy Sandke, these events had an adverse psychological impact on Brecker which led to later substance abuse.\nDuring the fall 1968 semester at Indiana University, Brecker formed a trio, which included the drummer from Mrs. Seamon's Sound Band, and played gigs at a church basement club called The Owl. Some of that was recorded. He dropped out before the end of the semester, spent a month in Mexico City, then returned to Philadelphia, where he played with Eric Gravatt, Billy Paul, and others.\nBrecker moved to New York City in 1969, where he carved out a niche for himself as a dynamic and exciting jazz soloist. He first made his mark at age 20 as a member of the jazz-rock band Dreams, a band that included his older brother, trumpeter Randy Brecker, trombonist Barry Rogers, drummer Billy Cobham, keyboardist Jeff Kent and bassist Doug Lubahn. Dreams was short-lived, lasting only from 1969 through 1972, but Miles Davis was seen at some gigs prior to his recording Jack Johnson.\nMost of Brecker's early work is marked by an approach informed as much by rock guitar as by R&B saxophone. After Dreams, he worked with Horace Silver and then Billy Cobham before once again teaming up with his brother Randy to form the Brecker Brothers. The band followed jazz-funk trends of the time, but with more attention to structured arrangements, a heavier backbeat, and a stronger rock influence. The band stayed together from 1975 to 1982, with consistent success and musicality. In 1977 he founded the Seventh Avenue South jazz club with his brother Randy.\n\n\n=== Sideman and leader ===\nBrecker was in great demand as a soloist, sideman and session musician. He performed with bands whose styles ranged from mainstream jazz to mainstream rock. Altogether, he appeared on nearly 900 albums, either as a band member or a guest soloist. He put his stamp on numerous pop and rock recordings as a soloist, including notable work with James Taylor and Paul Simon. Other sessions included albums with Steely Dan, Lou Reed, Donald Fagen, Dire Straits, Joni Mitchell, Eric Clapton, Mark Knopfler, Billy Joel, John Lennon, Aerosmith, Dan Fogelberg, Kenny Loggins, Frank Sinatra, Frank Zappa, Bruce Springsteen, Roger Daltrey, Parliament-Funkadelic, Cameo, Yoko Ono, Todd Rundgren, Chaka Khan, Orleans, Blue Öyster Cult, "
+    }
+   }
+  }
+ },
+ {
+  "id": "the-epic",
+  "kind": "album",
+  "ours": {
+   "title": "The Epic",
+   "artist": "Kamasi Washington",
+   "year": 2015,
+   "label": "Brainfeeder",
+   "albumDNA": "The Epic is the third studio album by American jazz saxophonist Kamasi Washington and his first to be released on a record label. It was released on May 5, 2015, by the Brainfeeder record label. Brought jazz to a new audience through collaborations with Kendrick Lamar and Flying Lotus. It sparked renewed interest in spiritual jazz.",
+   "keyTracks": [
+    "Change of the Guard",
+    "Askim",
+    "The Rhythm Changes",
+    "Cherokee"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Epic_(album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "b303e6b3-216c-4cf5-ad0c-96c70e9b60a6",
+     "title": "The Epic",
+     "date": "2015-05-05",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "Kamasi Washington"
+     ],
+     "labels": [
+      {
+       "name": "Brainfeeder",
+       "catalogNumber": "BFDNL050"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "fffaa737-94cb-42b9-b1f1-44698110ea8a",
+      "title": "The Epic",
+      "firstReleaseDate": "2015-05-05",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Change of the Guard",
+      "Askim",
+      "Isabelle",
+      "Final Thought",
+      "The Next Step",
+      "The Rhythm Changes",
+      "Miss Understanding",
+      "Leroy and Lanisha",
+      "Re Run",
+      "Seven Prayers",
+      "Henrietta Our Hero",
+      "The Magnificent 7",
+      "Re Run Home",
+      "Cherokee",
+      "Clair de Lune",
+      "Malcolm’s Theme",
+      "The Message"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/The_Epic_(album)",
+    "page": {
+     "requestedTitle": "The Epic (album)",
+     "resolvedTitle": "The Epic (album)",
+     "shortDescription": "2015 studio album by Kamasi Washington",
+     "extract": "The Epic is the third studio album by American jazz saxophonist Kamasi Washington and his first to be released on a record label. It was released on May 5, 2015, by the Brainfeeder record label.\n\n\n== Critical reception ==\n\nUpon its release, The Epic was widely celebrated by music critics. At Metacritic, which assigns a normalized rating out of 100 to reviews from critics, the album received an average score of 83, which indicates \"universal acclaim\", based on 7 reviews. the AllMusic critic Thom Jurek described the album as \"21st century jazz as accessible as it is virtuosic -- feel matters to Washington\", and further wrote, \"Holistic in breadth and deep in vision, it provides a way into this music for many, and challenges the cultural conversation about jazz without compromising or pandering.\" Russell Warfield of Drowned in Sound described the album as \"wonderful stuff\" and that the record \"deserves a high score by any standards of evaluation\".\nThe Guardian critic, John Fordham, who was positive in his assessment of the album, wrote, \"Only a shortage of thematic surprises – given its extravagant length – keeps it from being quite the seismically jazz-changing departure that some admirers are claiming.\" Seth Colter Walls of Pitchfork awarded the album the \"Best New Music\" tag, writing, \"The Epic actually makes good on its titular promise without bothering to make even a faint-hearted stab in the direction of fulfilling its pre-release hype.\"\n\n\n=== Accolades ===\n\n\n== Track listing ==\n\n\n=== CD ===\n\n\n== Personnel ==\n\n\n== Charts ==\n\n\n=== Weekly charts ===\n\n\n=== Year-end charts ===\n\n\n== Certifications ==\n\n\n== References ==\n\n\n== External links ==\nOfficial website"
+    }
+   }
+  }
+ },
+ {
+  "id": "the-syndicate-live-at-the-hopbine-1968-vol1",
+  "kind": "album",
+  "ours": {
+   "title": "The Syndicate: Live at the Hopbine 1968 Vol.1",
+   "artist": "Tubby Hayes",
+   "year": 2015,
+   "label": "Gearbox Records",
+   "albumDNA": "The Syndicate: Live at the Hopbine 1968 Vol.1 (2015) captures Tubby Hayes exploring contemporary jazz territory on the Gearbox Records label. The program includes \"The Syndicate\", \"The Gentle Rain\", and \"Gingerbread Boy\". He is widely considered to be one of the finest jazz saxophonists to have emerged from Britain.",
+   "keyTracks": [
+    "The Syndicate",
+    "The Gentle Rain",
+    "Gingerbread Boy",
+    "The Inner Splurge"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Tubby_Hayes"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "c62af3dd-5d9b-41d7-aecc-68c3a774d8e2",
+     "title": "The Syndicate: Live at the Hopbine 1968 Vol.1",
+     "date": "2015-08-14",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "Tubby Hayes"
+     ],
+     "labels": [
+      {
+       "name": "Gearbox Records",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "1afb4614-e56d-48f5-bc76-1a021745d1d1",
+      "title": "The Syndicate: Live at the Hopbine 1968 Vol.1",
+      "firstReleaseDate": "2015-08-14",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "The Syndicate",
+      "The Gentle Rain",
+      "Gingerbread Boy",
+      "The Inner Splurge"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Tubby_Hayes",
+    "page": {
+     "requestedTitle": "Tubby Hayes",
+     "resolvedTitle": "Tubby Hayes",
+     "shortDescription": "British jazz saxophonist (1935–1973)",
+     "extract": "Edward Brian \"Tubby\" Hayes (30 January 1935 – 8 June 1973) was a British jazz multi-instrumentalist, best known for his virtuosic musicianship on tenor saxophone and for performing in jazz groups with fellow sax player Ronnie Scott and trumpeter Jimmy Deuchar. He is widely considered to be one of the finest jazz saxophonists to have emerged from Britain.\n\n\n== Early life ==\nHayes was born in St Pancras, London, England, and grew up in Raynes Park, south-west London. His father was a BBC studio violinist who gave his son violin lessons from an early age.  By the age of ten, Hayes was playing the piano, and started on the tenor sax at 11. Dizzy Gillespie was an early influence:\n\nI always used to listen to swing music in the early 'Forties and, in fact, I was just a kid at the time. I did not really intend becoming a tenor player, though I always liked tenor. I think maybe Dizzy influenced me more than Parker because he was sort of more accessible, he caught your attention more. As far as my influences over the years are concerned, Getz was it at one stage in the proceedings, and later Rollins, Coltrane, Hank Mobley and, to a lesser degree, even Zoot [Sims].\nHayes attended Rutlish School (1946-1951) in Merton Park. After a period spent playing with various semi-professional bands around London, Hayes left school and started playing professionally at the age of 16.\n\n\n== Career ==\n\n\n=== 1951–58 ===\nHayes's youthful promise on tenor saxophone was recognised in 1951 when, aged 16, he joined Kenny Baker's sextet, and later for big-band leaders such as Ambrose, Terry Brown, Tito Burns, Roy Fox, Vic Lewis and Jack Parnell. With the assistance of music impresario Tito Burns, Hayes formed his own octet in 1955, known as Tubby Hayes & His Orchestra. The group toured the UK extensively and recorded several sessions for Tempo Records but disbanded in 1956 as Hayes pursued other musical opportunities, including his own quartet.\nHayes's voracious musical interests resulted in his learning the vibraphone in early 1957, after having tried Victor Feldman's instrument on a gig. Although the vibes became an occasional instrument on some of his recordings, Hayes eventually became frustrated at lacking \"the technique to do half the things I can do on the saxophone\" and recorded his final solo on the instrument in 1966. Instead, Hayes's interest remained focused on woodwind instruments; in 1958 Hayes began learning flute and made his recording debut on the instrument a year later. He continued to feature the flute alongside his saxophone performances to the end of his recording career.\nHayes's breakthrough came in 1957 when he joined fellow tenor saxophonist Ronnie Scott to co-lead the Jazz Couriers, whose East Coast jazz aesthetic was influential within the British jazz scene and beyond. Scott, who would later also become known as a noted raconteur, had originally met Hayes in 1950 and was immediately impressed by the \"fat kid's\" virtuosity. The encounter was a story Scott would relate frequently: \"This little boy came up, not much bigger than his tenor sax. Rather patronisingly I suggested a number and off he went. He scared me to death\". Considered one of the most successful British jazz groups of its era, the Jazz Couriers would record a series of highly regarded albums and would engage in a successful tour with the Dave Brubeck Quartet.\n\n\n=== 1959–67 ===\nBy 1959, Hayes had reformed his quartet, resulting in the recording of Tubby's Groove. Released in the spring of 1960, Tubby's Groove was widely considered to be Hayes's best session to date, selling well and acquiring positive attention from the music press for its \"maturity\". It was during this time that Hayes attracted attention from Alfred Lion, co-founder of Blue Note Records. Through arrangement with Blue Note, Hayes's producer, Tony Hall, had successfully licensed a session by Dizzy Reece. This session was later issued by Blue Note in 1959 as Blues in Trinity and featured Reece and Hayes alongside Art Taylor and Donald Byrd. The appearance of both Reece and Hayes on a US jazz recording was considered as a \"major coup\" for British jazz and one that raised their profile such that both were \"short-listed\" by Art Blakey for membership in the Jazz Messengers, although neither worked with Blakey. Hall sought a similar arrangement with Blue Note for Hayes as Reece but instead of negotiating an arrangement for what was deemed to be Hayes's best LP, Tubby's Groove, Hall sent a separate col"
+    }
+   }
+  }
+ },
+ {
+  "id": "arclight",
+  "kind": "album",
+  "ours": {
+   "title": "Arclight",
+   "artist": "Julian Lage",
+   "year": 2016,
+   "label": "Mack Avenue Records",
+   "albumDNA": "Arclight is the fourth solo album by American jazz guitarist Julian Lage, released by Mack Avenue Records on March 11, 2016. Two tracks were given a pre-release: \"Nocturne\" and \"Harlem Blues\".",
+   "keyTracks": [
+    "Fortune Teller",
+    "Persian Rug",
+    "Nocturne",
+    "Supera",
+    "Stop Go Start"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Arclight_(album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "db4bdc93-babe-4eba-9a17-1ed59e482f9d",
+     "title": "Arclight",
+     "date": "2016-03-11",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "Julian Lage"
+     ],
+     "labels": [
+      {
+       "name": "Mack Avenue Records",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "1174f1e2-9d57-487c-a025-5194f97f0320",
+      "title": "Arclight",
+      "firstReleaseDate": "2016-03-11",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Fortune Teller",
+      "Persian Rug",
+      "Nocturne",
+      "Supera",
+      "Stop Go Start",
+      "Activate",
+      "Presley",
+      "Prospero",
+      "I'll Be Seeing You",
+      "Harlem Blues",
+      "Ryland"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Arclight_(album)",
+    "page": {
+     "requestedTitle": "Arclight (album)",
+     "resolvedTitle": "Arclight (album)",
+     "shortDescription": "2016 studio album by Julian Lage",
+     "extract": "Arclight is the fourth solo album by American jazz guitarist Julian Lage, released by Mack Avenue Records on March 11, 2016. Two tracks were given a pre-release: \"Nocturne\" and \"Harlem Blues\".\n\n\n== Background ==\nArclight was recorded on a Fender Telecaster, which is not generally considered to be a jazz guitar. Lage stated in an interview that \"the electric guitar was always so fascinating to me, and my guitar heroes played it ... Stevie Ray Vaughan ... [Eric] Clapton or whatnot—Muddy Waters.\"\nWhile most of the tunes on the album are originals, there are several \"pre-bebop\" compositions from \"before things got kind of codified and slick and refined\", in Lage's words. Lage said he enjoyed such tunes mostly because of the chord changes, which he described as a \"slippery approach to basically fundamental harmony\".\n\"Nocturne\", one of the pre-release singles, is a 1930s Spike Hughes composition. Lage explained that he liked this tune because \"it starts on this minor chord, and. .. it's very hard to find ... songs that weren't major, that weren't happy, that weren't just total dance music\".\nAccording to Lage, the chord progression played on \"Harlem Blues\", a W. C. Handy composition, was inspired by Willard Robison's chord changes for the song, slightly different from Handy's simpler progression.\n\n\n== Reception ==\n\nCritical reception was generally positive.\nTroy Collins of All About Jazz called it a \"brisk but bracing affair\". Doug Collette of the same publication noted, \"Lage proves himself not just a student of his instrument ... but an exceedingly fast learner in the art of studio recording.\" Collette praised producer Jesse Harris, writing, \"Harris deserves extra credit for the size and clarity of the recorded sound here because that introductory track arises from the speaker ... with as much presence as magnitude.\"\nThe Irish Times writer Cormac Larkin noted that the album had \"echoes of Bill Frisell and particularly Jim Hall\", the latter being one of Lage's major influences.\nJazzTimes said, \"the general mood of the music—call it eclectic Americana with a double shot of whimsy—bring[s] Bill Frisell strongly to mind\".\n\n\n== Track listing ==\n\n\n== Personnel ==\nMusicians\n\nJulian Lage – electric guitar\nScott Colley – double bass\nKenny Wollesen – drums, vibraphone\nTechnical\n\nAl Pryor – executive vice president\nGretchen Valade – executive producer\nJesse Harris, Maria Ehrenreich – producer\nWill Wakefield – production manager\nEd McEntee, Ted Tuthill – recording engineer\nNick Nagurka – assistant recording engineer\nCian Riordan – mixing\nDan Millice – mastering\nCharlie Wagers – art direction, design\nJustin Camerer – photography\nWillard Robison – music arranger\n\n\n== Charts ==\n\n\n== See also ==\nLive in Los Angeles\n\n\n== References ==\n\n\n== External links ==\nOfficial website"
+    }
+   }
+  }
+ }
+]

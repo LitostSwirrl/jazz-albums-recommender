@@ -1,0 +1,325 @@
+[
+ {
+  "id": "sadao-watanabe-mbali",
+  "verdict": "factual_error",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Flying Disk", "evidence": "CBS/Sony", "evidenceQuote": "\"labels\": [{\"name\": \"CBS/Sony\", \"catalogNumber\": \"28AH 1572\"}, {\"name\": \"CBS/Sony\", \"catalogNumber\": \"SOPW 27~28\"}]", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "delivers an African jazz program for the Flying Disk label", "problem": "the matched 1974 Japanese release of Mbali Africa is on CBS/Sony; Flying Disk appears nowhere in the evidence", "evidenceQuote": "\"labels\": [{\"name\": \"CBS/Sony\", \"catalogNumber\": \"28AH 1572\"}, {\"name\": \"CBS/Sony\", \"catalogNumber\": \"SOPW 27~28\"}]", "source": "mb"}
+  ],
+  "notes": "MB match (method=search, topArtistSimilarity 1.0) is solid: exact title/artist, date 1974, country JP, and all 6 keyTracks present in its 13-track list. Caveat: MB documents only this one JP CBS/Sony release; a Flying Disk pressing elsewhere is conceivable but unevidenced, hence moderate confidence. 'Alto saxophonist' and year 1974 are confirmed. wikiLinkVerdict is wrong_entity only in the narrow sense that the stored URL is the artist's bio page (Sadao Watanabe (musician) - the correct artist), not a page about the album itself; likely an intentional fallback rather than a disambiguation collision - low repair priority."
+ },
+ {
+  "id": "on-the-avenue",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MBID resolves to a 2018 JP Blue Note reissue, but releaseGroup.firstReleaseDate is 1974, matching ours. Stored wiki page ('1974 studio album by Ronnie Foster') confirms 'third studio album by American organist Ronnie Foster recorded in 1974 and released on the Blue Note label' verbatim. All 5 keyTracks on the MB tracklist."
+ },
+ {
+  "id": "satin-doll",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MBID: 1974 US Blue Note BN-LA344-G. Wiki confirms 'fourth studio album by American jazz flautist Bobbi Humphrey recorded in 1974 and released on the Blue Note label' verbatim; personnel lists Humphrey on flute. All 5 keyTracks on the MB tracklist. 'Document of the fusion era' is editorial."
+ },
+ {
+  "id": "summit-reunin-cumbre",
+  "verdict": "entity_mismatch",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "artist", "ours": "Gerry Mulligan", "evidence": "Gerry Mulligan, Astor Piazzolla", "evidenceQuote": "\"artists\": [\"Gerry Mulligan\", \"Astor Piazzolla\"]", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Night Lights is an album by American jazz saxophonist Gerry Mulligan featuring performances recorded in 1963 and first released on the Philips label", "problem": "the entire albumDNA describes Night Lights (1963, Philips), a different Mulligan album; our item is Summit (Reunion cumbre), the 1974 Mulligan-Piazzolla collaboration on Erre T.V.", "evidenceQuote": "\"releaseGroup\": {\"title\": \"Summit (Reunión cumbre)\", \"firstReleaseDate\": \"1974\"} ... \"artists\": [\"Gerry Mulligan\", \"Astor Piazzolla\"], \"labels\": [{\"name\": \"Erre T.V.\", \"catalogNumber\": \"RTV 25046\"}]", "source": "mb"},
+   {"ourClaim": "The album's re-release on the Verve Label, includes the bonus track \"The Lonely Night \" which originally only appeared on Mulligan's 1965 album \"Feelin' Good\" with vocals by his partner, Judy Holliday.", "problem": "these facts belong to Night Lights, copied from the Night Lights wikipedia article", "evidenceQuote": "Night Lights is an album by American jazz saxophonist Gerry Mulligan featuring performances recorded in 1963 and first released on the Philips label. The album's re-release on the Verve Label, includes the bonus track \"The Lonely Night (Night Lights 1965 Version)\"", "source": "wiki"}
+  ],
+  "notes": "Classic disease case. Fields and all 5 keyTracks match the real Summit (Reunion cumbre) per the embedded-MBID release (authoritative); only the prose and the stored wiki link were imported from Night Lights (Gerry Mulligan album). Repair: rewrite DNA for the 1974 Mulligan-Piazzolla collaboration, replace the wiki link, and add Astor Piazzolla to the artist credit per MB."
+ },
+ {
+  "id": "thrust",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Wiki confirms every specific claim verbatim: fourteenth studio album, September 1974 on Columbia Records, No. 2 Top Soul Albums, No. 13 Billboard 200, second Headhunters album with Maupin/Jackson/Clark/Summers. MB matched release is the UK CBS pressing (CBS = Columbia internationally) - no conflict with ours.label Columbia, which wiki confirms. All 4 keyTracks match (Spank-a-Lee case-insensitive)."
+ },
+ {
+  "id": "witchi-tai-to",
+  "verdict": "factual_error",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Svevende"],
+  "fieldIssues": [
+   {"field": "keyTracks", "ours": "Svevende", "evidence": "not in the album's track listing", "evidenceQuote": "\"A.I.R.\" (Carla Bley) – 8:15 / \"Kukka\" (Palle Danielsson) – 4:32 / \"Hasta Siempre\" (Carlos Puebla) – 8:10 / \"Witchi-Tai-To\" (Jim Pepper) – 4:24 / \"Desireless\" (Don Cherry) – 20:25", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "MB returned candidates only (no confident release; candidate RG dated 1973 vs ours 1974 - weak, and the entity-matched wiki page supports 1974 release after the November 1973 recording). Tracklist evidence comes from the stored wiki page, whose 5-track listing appears complete; 'Svevende' is not on it (background memory places it on a different Garbarek album - not citable from pack). 'Air' matched wiki 'A.I.R.' punctuation-insensitively; 'Witchi-Tai-To' and 'Kukka' matched. All prose claims (recorded over two days in November 1973, ECM the following year, quartet with Danielsson and Christensen) are verbatim in the wiki extract."
+ },
+ {
+  "id": "agharta",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Wiki confirms verbatim: live double album, first released in Japan by CBS/Sony in August 1975, Davis 48 years old, alienated jazz community / younger rock audiences, stable live band in 1973, two years of touring despite pain and substance abuse. Embedded MBID is the European CBS pressing (CBS 88159), consistent with ours.label CBS; RG is Live, 1975. keyTracks 'Prelude' and 'Maiysha' matched as substrings of MB's 'Prelude (Part 1)' and 'Prelude (Part 2) / Maiysha'."
+ },
+ {
+  "id": "air-song",
+  "verdict": "factual_error",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Untitled Song"],
+  "fieldIssues": [
+   {"field": "keyTracks", "ours": "Untitled Song", "evidence": "Untitled Tango", "evidenceQuote": "\"tracks\": [\"Untitled Tango\", \"Great Body of the Riddle or Where Were the Dodge Boys When My Clay Started to Slide\", \"Dance of the Beast\", \"Air Song\"]", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "MB search match is strong (exact title/artist 'Air', 1975, labels Trio and Whynot - ours.label Whynot confirmed). The album's opening track is 'Untitled Tango', not 'Untitled Song' - a real title discrepancy, not a suffix variant. Other 3 keyTracks match exactly. Personnel claims (Henry Threadgill's trio with bassist Fred Hopkins and drummer Steve McCall) are unverifiable: MB credits only 'Air' and the wikipedia opensearch hit a Brazilian politician (Airton Garcia - discarded, not counter-evidence). Loft-jazz significance claims are editorial."
+ },
+ {
+  "id": "concierto-jim-hall",
+  "verdict": "clean",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Checkable facts all confirm: Don Sebesky arrangement ('Arranged by Don Sebesky'), CTI, 1975, Concierto de Aranjuez by Joaquin Rodrigo as the 19-minute centerpiece, all 4 keyTracks on the MB tracklist. Judgment call for editorial review: prose says 'reimagines Joaquin Rodrigo's Concierto de Aranjuez for jazz guitar and orchestra' and 'orchestral textures', but wiki personnel shows a sextet (Hall, Desmond, Baker, Hanna, Carter, Gadd) with no orchestra. Syntactically ambiguous - Rodrigo's original IS a concerto for guitar and orchestra - so treated as loose editorial phrasing rather than a factual error; a repair-writer may still want to defuse the misleading 'orchestra' imagery."
+ },
+ {
+  "id": "eastern-rebellion",
+  "verdict": "factual_error",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Naima's Love Song", "Fantasy in D"],
+  "fieldIssues": [
+   {"field": "keyTracks", "ours": "Fantasy in D", "evidence": "not in the album's tracklist", "evidenceQuote": "\"tracks\": [\"Bolivia\", \"Naima\", \"5/4 Thing\", \"Bittersweet\", \"Mode for Joe\"]", "source": "mb"},
+   {"field": "keyTracks", "ours": "Naima's Love Song", "evidence": "album contains 'Naima'", "evidenceQuote": "\"tracks\": [\"Bolivia\", \"Naima\", \"5/4 Thing\", \"Bittersweet\", \"Mode for Joe\"]", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Walton's compositional brilliance—heard in classics like 'Naima's Love Song'—established him as one of jazz's most important composer-pianists", "problem": "no track titled 'Naima's Love Song' on this album per the MB tracklist; the album's track is 'Naima'", "evidenceQuote": "\"tracks\": [\"Bolivia\", \"Naima\", \"5/4 Thing\", \"Bittersweet\", \"Mode for Joe\"]", "source": "mb"}
+  ],
+  "notes": "MB search match is strong (exact title/artist, 1975-12-10, Timeless Records SJP 101 - ours' Timeless and 1975 confirmed). 'Fantasy in D' is definitively absent from the 5-track list. Lenient substring matching could let 'Naima' match 'Naima's Love Song', but the added words change the work's identity (background memory, not citable: 'Naima' is the Coltrane ballad, 'Naima's Love Song' a different Walton composition on a later album). Quartet personnel claim (Bob Berg, Sam Jones, Billy Higgins) is unverifiable - no personnel in evidence; background memory suggests George Coleman, not Berg, played tenor on this 1975 date (Berg joined for Eastern Rebellion 2) - verify externally before repair. 'Mode for Joe' and '5/4 Thing' matched."
+ },
+ {
+  "id": "expansions",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB gave a candidate only (RG 'Expansions' by 'Lonnie Liston Smith & The Cosmic Echoes', 1975) - weak but consistent. The stored wiki page is unambiguous and confirms keyboardist, Cosmic Echoes, recorded 1974 / released 1975 by Flying Dutchman. All 4 keyTracks appear in the wiki track listing ('Peace' credited to Horace Silver/Doug Carn); MB had no tracklist. Sampling/rare-groove significance claims are editorial (loosely echoed by the AllMusic quote about 'electronica's sampling wizards')."
+ },
+ {
+  "id": "funky-stuff",
+  "verdict": "unverifiable",
+  "confidence": 0.5,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Only evidence is an MB search candidate matching title 'Funky Stuff', artist credit 'Jiro Inagaki and His Soul Media' (consistent with ours), and firstReleaseDate 1975. No release-level data: label 'Philips' unconfirmed, no tracklist for the 6 keyTracks, and prose claims (Japanese saxophonist, Soul Media, jazz-funk style) cannot be checked. No wikipedia evidence at all. No contradictions found - everything substantive is simply uncheckable."
+ },
+ {
+  "id": "larry-youngs-fuel",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MBID: 1975 US Arista AL 4051, artist Larry Young. Wiki confirms 'jazz fusion album by organist/keyboardist Larry Young, released on the Arista Records label' verbatim. All 5 keyTracks on the MB tracklist (case-insensitive on 'Turn Off the Lights')."
+ },
+ {
+  "id": "lone-lee",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Wiki extract matches our prose verbatim: solo album, recorded in Denmark 1974, Danish SteepleChase label, 1975 LP with 19-minute edited 'The Song Is You', 1987 CD with complete take. Embedded MBID: 1975 DK SteepleChase SCS-1035; both keyTracks are the album's two tracks."
+ },
+ {
+  "id": "places-and-spaces",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Wiki confirms 'album by American trumpeter Donald Byrd, that was released on Blue Note in 1975' verbatim. MB search match: 1975 US Blue Note BN-LA549-G. All 3 keyTracks on both tracklists. 'Bridged jazz and R&B audiences' / hip-hop influence claims are editorial."
+ },
+ {
+  "id": "saxophone-solos",
+  "verdict": "factual_error",
+  "confidence": 0.65,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Alto Analytics"],
+  "fieldIssues": [
+   {"field": "year", "ours": "1975", "evidence": "1976", "evidenceQuote": "\"date\": \"1976\" ... \"releaseGroup\": {\"firstReleaseDate\": \"1976\"}", "source": "mb"},
+   {"field": "keyTracks", "ours": "Alto Analytics", "evidence": "not in the album's tracklist", "evidenceQuote": "\"tracks\": [\"Aerobatics 1\", \"Aerobatics 4\", \"Aerobatics 2\", \"Aerobatics 3\"]", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "MB search match is strong (exact title/artist, similarity 1.0, label Incus Records matching ours' Incus), and both the matched release and the release group say 1976, contradicting ours' 1975. Caveat: if the dataset's year was meant as the recording year, 1975 might be defensible, but no recording date is in evidence. 'Alto Analytics' is absent from the Aerobatics 1-4 tracklist. Prose claims about soprano/tenor saxophones, circular breathing, and influence are unverifiable (no personnel or instrument data; no wikipedia evidence)."
+ },
+ {
+  "id": "silent-tongues",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Wiki confirms verbatim: solo piano live album recorded at the Montreux Jazz Festival in 1974, five-movement 'Silent Tongues' plus two encores; recorded July 2, 1974; released 1975. MB search match: 'Silent Tongues: Live at Montreux 74', 1975, labels Freedom and Trio (ours' Freedom confirmed), RG Live 1975. All 6 keyTracks match the MB tracklist (punctuation variants only)."
+ },
+ {
+  "id": "silver-n-brass",
+  "verdict": "unverifiable",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Everything checkable is consistent: MB search match (similarity 1.0) confirms title, Horace Silver, 1975, US Blue Note BN-LA406-G, and all 5 keyTracks (plus 'Mysticism'). But the prose's extensive personnel claims - Tom Harrell, Bob Berg, Ron Carter, Al Foster, Bob Cranshaw, Bernard Purdie, Wade Marcus arrangement, and the seven-name brass section - have no evidence to check against (no personnel in MB, no wikipedia evidence). 'Jazz fusion output' is editorial framing."
+ },
+ {
+  "id": "taking-off",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Wiki confirms both prose sentences verbatim: released 1975 on Warner Bros. Records, reached number 19 on Billboard's Jazz Albums chart. Embedded MBID is a 1989 German CD reissue on Warner Bros., but releaseGroup.firstReleaseDate is 1975, matching ours. All 5 keyTracks on the MB tracklist (including the odd \"'way 'Cross Georgia\" casing, exact)."
+ },
+ {
+  "id": "tale-spinnin",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Our prose is verbatim from the (correct) wiki page: fifth studio album, 1975, Ndugu Chancler recruited after Zawinul heard him with Santana, the 'one session' that lasted a week, declined permanent membership. Embedded MBID: 1975 US Columbia PC 33417. All 5 keyTracks on the MB tracklist."
+ },
+ {
+  "id": "the-koln-concert",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Wiki confirms verbatim: live solo double album, Opera House Koln 24 January 1975, ECM, best-selling solo album in jazz history and best-selling piano album, 2025 Library of Congress National Recording Registry selection. MB search match: 1975 US ECM Records ECM 1064/65, RG Live. All 4 keyTracks match (Part II a/b/c spacing variants only). 'Proved that totally improvised music could reach a mass audience' is editorial."
+ },
+ {
+  "id": "the-psyche",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Our prose is verbatim from the (correct) wiki page: live album by the Revolutionary Ensemble (Leroy Jenkins violin, Sirone bass, Jerome Cooper drums), 1975 LP on the group's own RE Records, 2002 Mutable Music CD reissue. MB search match: 1975 US RE: Records RE 3117. All 3 keyTracks match."
+ },
+ {
+  "id": "real-book",
+  "verdict": "no_evidence",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "no", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Nothing survived entity-matching. The MB match is 'The Real Book, Vol. 1', a 2019 EP by Bishop Nehru & Brady Watt (different artists, different tracks, EP) - not our entry. The stored wikipedia URL resolves to 'Various Positions', Leonard Cohen's 1984 studio album - plainly the wrong entity (likely a title-search collision on 'Various'), so the site ships a wrong link. Strong human-review flag (background knowledge, not citable as evidence): 'The Real Book' (c. 1975, bootleg) is the famous illegal FAKE BOOK - a sheet-music collection, not a recording - and the keyTracks (All The Things You Are, Autumn Leaves, Blue Bossa) are standards from that book. This entry may not correspond to any real album and may need removal or complete reconception rather than repair."
+ },
+ {
+  "id": "a-ghetto-lullaby",
+  "verdict": "factual_error",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Alto saxophonist Jackie McLean's post-bop sensibility is on display in this 1976 session", "problem": "the session was recorded in 1973 at the Jazzhus Montmartre (as the prose's own first sentence says); 1976 is only the US Inner City release date, and the wiki shortDescription calls it a 1974 live album", "evidenceQuote": "recorded at the Jazzhus Montmartre in 1973 and released on the SteepleChase label", "source": "wiki"}
+  ],
+  "notes": "Entity is right everywhere. Fields (1976, Inner City Records) match the MB US Inner City issue (IC 2013, 1976, RG firstReleaseDate 1976); the prose's first sentence (verbatim from wiki) describes the original SteepleChase release ('1974 live album' per wiki shortDescription). Mixed original/reissue framing - a reviewer may want to re-point year/label at the original SteepleChase release. All 5 keyTracks match both MB and wiki tracklists. 'A document of the fusion era' is editorial, though odd for a straight-ahead Montmartre live set."
+ },
+ {
+  "id": "balladyna",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Wiki confirms verbatim: Polish jazz trumpeter and composer Tomasz Stanko, recorded December 1975, released on ECM in April the following year (= 1976, matching ours), quartet with Tomasz Szukalski, Dave Holland, Edward Vesala. Embedded MBID: 1976 DE ECM Records ECM 1071. All 5 keyTracks on the MB tracklist."
+ }
+]

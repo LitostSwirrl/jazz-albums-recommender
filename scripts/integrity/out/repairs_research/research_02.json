@@ -1,0 +1,72 @@
+[
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "no-parking-tow-away-zone",
+    "field": "label",
+    "before": "Unknown",
+    "after": "West Wind",
+    "sourceUrl": [
+      "https://www.prestomusic.com/jazz/products/8049694--no-parking-tow-away-zone"
+    ],
+    "evidence": "Presto Music lists the album on the West Wind label, catalogue WW2120, released 7 Oct 2014."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "amaryllis-belladonna",
+    "field": "albumDNA",
+    "before": "Guitarist Mary Halvorson's Nonesuch debut is a ravishing double album pairing her octet with string arrangements by Robert Moody. Her signature bent notes and fractured melodies are set against lush orchestral textures, creating a sound world both disorienting and deeply beautiful. Marked Halvorson's arrival as a major composer working at the intersection of jazz, rock, and contemporary classical music. The album earned a Pulitzer Prize finalist nomination and widespread critical acclaim.",
+    "after": "Guitarist Mary Halvorson's Nonesuch label debut, released in 2022 as two paired suites. Amaryllis is a six-part suite for her sextet (vibraphone, trombone, trumpet, bass, drums), with the Mivos Quartet added on three tracks. Belladonna sets Halvorson's solo guitar against that same string quartet across five through-composed pieces. Produced by John Dieterich.",
+    "sourceUrl": [
+      "https://www.freejazzblog.org/2022/07/mary-halvorson-amaryllis-and-belladonna.html",
+      "https://www.nonesuch.com/albums/amaryllis-belladonna"
+    ],
+    "evidence": "Sources confirm a sextet (Halvorson, Brennan, Dunston, Fujiwara, Garchik, O'Farrill) plus the Mivos Quartet, produced by John Dieterich; the old text's 'octet', 'Robert Moody' and 'Pulitzer Prize finalist' are unsupported/false."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "father-of-stride-piano-james-p-johnson",
+    "field": "year",
+    "before": null,
+    "after": 1962,
+    "sourceUrl": [
+      "https://www.discogs.com/release/5136094-James-P-Johnson-Father-Of-The-Stride-Piano",
+      "https://www.dustygroove.com/item/588174/James-P-Johnson:Father-Of-The-Stride-Piano"
+    ],
+    "evidence": "Discogs and Dusty Groove date the Columbia LP 'Father of the Stride Piano' (CL-1780, six-eye label) to 1962."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "father-of-stride-piano-james-p-johnson",
+    "field": "label",
+    "before": "Various",
+    "after": "Columbia",
+    "sourceUrl": [
+      "https://www.discogs.com/release/5136094-James-P-Johnson-Father-Of-The-Stride-Piano"
+    ],
+    "evidence": "Discogs lists 'Father of the Stride Piano' as a Columbia release, catalogue CL-1780."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "father-of-stride-piano-james-p-johnson",
+    "field": "keyTracks",
+    "before": null,
+    "after": [
+      "Carolina Shout",
+      "Snowy Morning Blues",
+      "The Mule Walk",
+      "Blueberry Rhyme",
+      "If Dreams Come True",
+      "Old-Fashioned Love"
+    ],
+    "sourceUrl": [
+      "https://www.discogs.com/release/5136094-James-P-Johnson-Father-Of-The-Stride-Piano",
+      "https://www.dustygroove.com/item/588174/James-P-Johnson:Father-Of-The-Stride-Piano"
+    ],
+    "evidence": "All six titles appear on the album's 16-track listing per Discogs/Dusty Groove; Carolina Shout is Johnson's signature stride solo."
+  }
+]

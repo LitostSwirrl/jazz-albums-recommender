@@ -1,0 +1,318 @@
+[
+ {
+  "id": "the-little-big-band-real-life",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title, Phil Woods, 1991, Chesky Records (JD47); all 5 keyTracks present. albumDNA calls Woods 'clarinetist' — wiki confirms he was an alto saxophonist AND clarinetist, so consistent. Tracks Real Life/Quill/Idols verified. Wiki page is Phil Woods (correct)."
+ },
+ {
+  "id": "the-power-of-cool",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title, Donald Harrison, 1991, CTI; all 5 keyTracks present. albumDNA ends with a broken bio fragment ('is an American jazz saxophonist and the Big Chief of The Congo Square Nation...') copied from the wiki lead with the subject dropped — sloppy prose but factually about the correct Donald Harrison (wiki confirms). 'smooth jazz tradition' is editorial. Repair-writer should fix the dangling fragment."
+ },
+ {
+  "id": "visions",
+  "verdict": "unverifiable",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title, Tom Harrell, 1991; all 5 keyTracks present (label empty in MB, ours 'Unknown'). The one substantive descriptor, 'free jazz album', cannot be checked: MB carries no genre and the wikipedia resolution is a generic 'Vision/Visions' disambiguation page about unrelated entities (discarded). No contradictions; genre claim simply unverifiable. (My own knowledge would not call Harrell free jazz, but that is not a citable source.)"
+ },
+ {
+  "id": "a-jazz-hour-with-dizzy-gillespie",
+  "verdict": "entity_mismatch",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Dizzy Gillespie and the Double Six of Paris is a 1963 studio album collaboration between Dizzy Gillespie and Les Double Six, also known as the Double Six of Paris", "problem": "The entire albumDNA describes a different album. Our item is 'A Jazz Hour With Dizzy Gillespie' (1992, Distribution Movieplay), which MB confirms with a distinct tracklist (includes Manteca, Alone Together, Birk's Works, The Mooche). The prose is lifted from the wikipedia page for the 1963 Double Six of Paris record (different tracklist: Emanon, Anthropology, One/Two Bass Hit, Hot House, Con Alma, etc.).", "evidenceQuote": "Dizzy Gillespie and the Double Six of Paris is a 1963 studio album collaboration between Dizzy Gillespie and Les Double Six", "source": "wiki"}
+  ],
+  "notes": "Same artist (Dizzy Gillespie) but the prose and the stored wiki link belong to a DIFFERENT album (the 1963 Double Six of Paris collaboration), not the 1992 Movieplay 'Jazz Hour' compilation that MB resolved from the embedded MBID. keyTracks (Tin Tin Deo, Manteca, Ooh-Shoo-Be-Doo-Bee, Groovin' High, Alone Together) all match OUR MB tracklist, so the catalog data is right — only the prose/wikiUrl are mis-sourced. Wiki page is about the other album → wrong_entity."
+ },
+ {
+  "id": "basies-basement",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title, Count Basie, 1992, Bluebird (07863 61065-2); all 5 keyTracks present. albumDNA is purely editorial ('showcase for Basie's piano', 'big band vocabulary') with no specific checkable facts beyond title/tracks, which verify. No wiki stored. Likely a Bluebird reissue of older RCA material but MB releaseGroup carries no Compilation secondaryType, so not flagged."
+ },
+ {
+  "id": "by-design",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title, Billy Cobham, 1992, Fnac Music; all 5 keyTracks present. albumDNA contains no album description — it is just a one-sentence Cobham bio ('William Emanuel Cobham Jr. is a Panamanian-American jazz drummer...') copied verbatim from the wiki lead, and it is about the correct artist (wiki confirms Miles Davis / Mahavishnu). No false claims; entity solid. Repair-writer may want actual album prose, but nothing is wrong."
+ },
+ {
+  "id": "celebration-mseleku",
+  "verdict": "factual_error",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["The Healing Song", "Lullaby"],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "The Healing Song", "problem": "Listed as a keyTrack but not on the album. MB tracklist for this World Circuit release has 10 tracks (Celebration, One for All - All for One, Angola, Blues for Afrika, The Age of Inner Knowing, The Messenger, Joy, Supreme Love, Cycle, Closer to the Source) and contains no 'The Healing Song' or 'Lullaby'.", "evidenceQuote": "Celebration | One for All - All for One | Angola | Blues for Afrika | The Age of Inner Knowing | The Messenger | Joy | Supreme Love | Cycle | Closer to the Source", "source": "mb"}
+  ],
+  "notes": "Entity is correct (MB search sim 1.0: Bheki Mseleku, Celebration, 1992, World Circuit WCD 028; wiki page is the right album, confirms 'debut'). keyTracks 'Celebration' and 'Angola' match, but 'The Healing Song' and 'Lullaby' are not on the MB tracklist → keyTracks factual_error. SEPARATELY, the albumDNA personnel claim 'featuring Pharoah Sanders, Joe Henderson, and Elvin Jones' is UNVERIFIABLE — neither MB nor the thin wiki extract lists personnel (wiki only mentions Courtney Pine). Absence is not contradiction, so personnel left unverifiable, not flagged as wrong."
+ },
+ {
+  "id": "double-trouble",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title, Roy Ayers, 1992; all 6 keyTracks present. ours.label field is 'Unknown' (a non-claim) but the albumDNA states 'released in 1992 on the Uno Melodic label', which matches MB label 'Uno Melodic Records' (UM-9000 CD). Rest of prose is editorial (jazz fusion, funk, R&B). Wiki resolution is a generic 'Double Trouble' disambiguation page (discarded); no URL stored."
+ },
+ {
+  "id": "heads-up",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title, Dave Weckl, 1992-06-23, GRP (GRD-9673); all 5 keyTracks present. albumDNA claim 'inducted into the Modern Drummer Hall of Fame in 2000' matches wiki verbatim; 'jazz fusion ... for GRP' confirmed by wiki discography ('1992 - Heads Up (GRP)'). Wiki page is Dave Weckl (correct)."
+ },
+ {
+  "id": "heart-of-the-bass",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title, John Patitucci, 1992, Stretch Records (GRS 11012); all 5 keyTracks present, incl. the three-movement Concerto. albumDNA matches wiki discography ('Heart of the Bass (Stretch, 1992)') and the acoustic/electric bass claim matches wiki ('switches between double bass and electric bass'). Wiki page is John Patitucci (correct)."
+ },
+ {
+  "id": "here-today-tomorrow",
+  "verdict": "factual_error",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Verve", "evidence": "PolyGram Records, Inc.", "evidenceQuote": "PolyGram Records, Inc.", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "Entity is clearly correct: MB search sim 1.0 (Shirley Horn, Here's to Life, 1992, cat 314 511 879-2) and the albumDNA is verbatim from the matching wiki page (Johnny Mandel arrangement, Grammy for Best Instrumental Arrangement). All 4 keyTracks match (Estate = 'Summer (Estate)'). Only discrepancy: ours.label 'Verve' vs MB 'PolyGram Records, Inc.' Flagged per the spec's own CBS/Columbia label example, BUT this is very likely an imprint-vs-distributor nuance (Verve was the Mandel/Horn imprint distributed by PolyGram; the catalog number is a Verve/PolyGram 314-series). Low-confidence factual_error — a human should confirm before 'correcting' to PolyGram. Note: ours.id 'here-today-tomorrow' does not match the actual title 'Here's to Life'."
+ },
+ {
+  "id": "i-heard-you-twice-the-first-time",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title, Branford Marsalis, 1992, Columbia (472169 2); all 5 keyTracks present. albumDNA is verbatim from the matching wiki page; the guest list (B.B. King, John Lee Hooker, Russell Malone, Wynton Marsalis, Linda Hopkins), the No. 1 Top Jazz Albums peak, and the Grammy win are all confirmed by the wiki extract and personnel section. Wiki page correct."
+ },
+ {
+  "id": "in-the-key-of-oscar",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search sim 1.0 confirms title, Oscar Peterson, 1992, Music of the loons (INKO-CD 9201); all 5 keyTracks present, so the album identity is solid. However the appended bio specifics — 'released more than 200 recordings, won eight Grammy Awards, as well as a lifetime achievement award from the Recording Academy' — cannot be checked against the pack: no wiki page survived (opensearch returned nothing) and MB carries no such data. Not contradicted, just unverifiable. albumDNA also ends mid-sentence ('and received numerous other .') — repair-writer should trim."
+ },
+ {
+  "id": "kansas-city-7",
+  "verdict": "factual_error",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Recorded for Pablo in 1992, Kansas City 7 presents pianist Count Basie", "problem": "The album is a 1980 Pablo release (Pablo 2310-908), not a 1992 recording. 1992 is only the date of the Original Jazz Classics reissue (OJCCD-690-2). The prose presents 1992 as the recording/origin year.", "evidenceQuote": "Kansas City 7 is a 1980 studio album by Count Basie.", "source": "wiki"}
+  ],
+  "notes": "Right album (MB embedded_mbid + wiki tracklist both match: Jaylock, Exactly Like You, etc.; all 5 keyTracks present). The error is the date framing: wiki flatly calls it 'a 1980 studio album'; the catalog data shows the original Pablo 2310-908 (1980) reissued as OJC in 1992. ours.year 1992 matches the MB reissue date so the field itself is defensible, but the prose 'Recorded for Pablo in 1992' is wrong by a dozen years. Reissue context noted for the repair-writer."
+ },
+ {
+  "id": "natural-affinities",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title, Jeanne Lee, 1992, OWL Records; all 5 keyTracks present. albumDNA's bio sentence (collaborators Gunter Hampel, Andrew Cyrille, Ran Blake, Carla Bley, Anthony Braxton, Marion Brown, Archie Shepp, Mal Waldron) is verbatim from the matching wiki page and is about the correct Jeanne Lee. Wiki discography also lists 'Natural Affinities (Owl, 1992)'. The bio fragment truncates ('Mal Waldro.') — cosmetic."
+ },
+ {
+  "id": "plays-and-plays-and-plays",
+  "verdict": "factual_error",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Brubeck Plays Brubeck is a jazz album by pianist Dave Brubeck. The cover features design by S. Neil Fujita.", "problem": "Wrong album title and a borrowed cover-design fact. Our item is 'Plays and Plays and Plays' (MB embedded_mbid, OJCCD 716-2, 1992), not 'Brubeck Plays Brubeck' (a different 1956 album with a different tracklist: Swing Bells, In Your Own Sweet Way, The Duke...). The opening sentence and the S. Neil Fujita cover claim are lifted from the wiki page for that other album.", "evidenceQuote": "Brubeck Plays Brubeck is a jazz album by pianist Dave Brubeck. The cover features design by S. Neil Fujita.", "source": "wiki"}
+  ],
+  "notes": "Hybrid prose: the lead sentence misnames the album as 'Brubeck Plays Brubeck' (1956) and borrows that record's Fujita cover fact, but then correctly cites 'Sweet Cleo Brown' and 'I'm Old Fashioned', which ARE on OUR album (and are NOT on Brubeck Plays Brubeck). All 5 keyTracks match the MB tracklist for 'Plays and Plays and Plays'. Catalog data is right; only the prose lead and the stored wiki link are mis-sourced to the 1956 album → wrong_entity wiki link. Not full entity_mismatch because the track-level content describes ours correctly."
+ },
+ {
+  "id": "russell-malone",
+  "verdict": "entity_mismatch",
+  "confidence": 0.98,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Austin Richard Post, known professionally as Post Malone, is an American singer, rapper, songwriter, record producer, and actor. His music blends various genres including pop, hip-hop, trap, country, R&B, and rock.", "problem": "The entire albumDNA is the biography of Post Malone (the pop/hip-hop artist born 1995), a completely different person from Russell Malone, the jazz guitarist who made this 1992 Columbia album. Classic disambiguation-collision corruption.", "evidenceQuote": "Austin Richard Post (born July 4, 1995), known professionally as Post Malone, is an American singer, rapper, songwriter, record producer, and actor.", "source": "wiki"}
+  ],
+  "notes": "MB search sim 1.0 confirms the real album (Russell Malone, self-titled, 1992-10-06, Columbia 52825) and all 5 keyTracks match its tracklist. But the albumDNA and the stored wikipediaUrl are about Post Malone — a different human entirely. Textbook entity_mismatch; wiki link wrong_entity."
+ },
+ {
+  "id": "suite-4-y-20",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search sim 1.0 confirms title, Gonzalo Rubalcaba, 1992, Blue Note; all 5 keyTracks present (incl. 'Here, There and Everywhere'). albumDNA facts — Cuban pianist, Blue Note, Latin jazz, the named originals/standards — are consistent with MB and the wiki artist page. Minor: wiki discography lists 'Suite 4 Y 20 (Blue Note, 1993)' (1993) vs ours/MB 1992 — likely recording-vs-release; MB is authoritative for date, so not flagged."
+ },
+ {
+  "id": "the-dream-before-us",
+  "verdict": "clean",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title, 1992, IDA Records (IDA 028CD); MB credits Enrico Pieranunzi + Marc Johnson (ours lists Pieranunzi as leader — fine). All 5 keyTracks present. Wiki artist page is correct and its discography lists 'The Dream Before Us with Marc Johnson (IDA, 1992) - rec. 1990'. ours says 'recorded for IDA Records in 1992'; wiki says the sessions were rec. 1990 while the release was 1992. Treated as editorial looseness ('recorded for [label] in [year]' ~ issued), not a hard factual_error, since the album IS a 1992 release per both MB and wiki. Flagging here would risk the April audit's false-positive pattern. Noted for awareness."
+ },
+ {
+  "id": "the-intimate-ellington",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search sim 1.0 confirms title, Duke Ellington, 1992 (OJC reissue, OJCCD 730-2); all 5 keyTracks present. albumDNA is verbatim from the matching wiki page and correctly states the origin: 'compiled from sessions recorded in 1969, 1970, and 1971, and released on the Pablo label in 1977.' ours.year 1992 is the OJC reissue and the prose openly explains the 1977 Pablo original — internally and evidence-consistent. (Note minor MB typo 'Elub' vs wiki 'Eulb', not in our keyTracks.)"
+ },
+ {
+  "id": "the-story-of-neptune",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title, Tony Williams, 1992, Blue Note (TOCJ-5715); all 5 keyTracks present, so album identity is solid. But the specific claims — 'his fifth album for the label', 'toured with the Benny Green Trio', 'peaked at No. 6 on Billboard's Top Jazz Albums chart' — cannot be checked: no wiki page survived (opensearch returned nothing) and MB has no chart/tour/discography-rank data. Not contradicted; unverifiable."
+ },
+ {
+  "id": "3-d-lifestyles",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title, Greg Osby, 1993, Blue Note; all 5 keyTracks present (incl. 'Mr. Gutterman', 'Raise'). albumDNA facts — alto saxophonist, Blue Note, M-Base-influenced jazz-funk/hip-hop — are consistent with the wiki artist page ('founding member of the M-Base Collective', 'signed with Blue Note in 1989'). Wiki page correct."
+ },
+ {
+  "id": "blue-light-til-dawn",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search sim 1.0 confirms title, Cassandra Wilson, 1993, Blue Note; all 4 keyTracks match the tracklist (You Don't Know What Love Is, Black Crow, Sankofa, Hellhound on My Trail). albumDNA is verbatim from the matching wiki page (first Blue Note album, blues/rock interpretations, three originals, acoustic shift, 2014 reissue). Wiki page correct."
+ },
+ {
+  "id": "capricorn-rising",
+  "verdict": "factual_error",
+  "confidence": 0.78,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "1993", "evidence": "1976", "evidenceQuote": "\"date\": \"1976\" / releaseGroup firstReleaseDate \"1976\"", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "tenor saxophonist Sam Rivers leads a free jazz session recorded for Black Saint in 1993", "problem": "Wrong year. MB (search sim 1.0, exact title 'Capricorn Rising', same Black Saint label JC 3504, and an identical 4-track tracklist: Break Out, Capricorn Rising, Joycie Girl, Fall Out) dates the album 1976, not 1993. Also a co-led date (Don Pullen + Sam Rivers per MB), though naming Rivers as leader is acceptable editorial style.", "evidenceQuote": "Capricorn Rising | date 1976 | artists: Don Pullen, Sam Rivers | Black Saint JC 3504", "source": "mb"}
+  ],
+  "notes": "Entity is correct (Sam Rivers, Capricorn Rising, Black Saint; wiki page is the right Sam Rivers, and the bio sentence about his multi-instrumentalism is verbatim and accurate). The hard error is the date: ours 1993 vs MB 1976, with the MB match very strong (identical tracklist + label + title). MB method is 'search' (strong but not infallible) so confidence < embedded, but no 1993 release appears anywhere in the evidence. All 4 keyTracks match. Co-leader Don Pullen omitted from our credit — worth noting but not itself a flag."
+ },
+ {
+  "id": "consecration",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms title, Charles Gayle, 1993, Black Saint (120138-2); all 5 keyTracks present (O Father, Rise Up, Justified, Glorious Saints, Thy Peace). albumDNA is verbatim from the matching wiki page ('recorded in 1993 for the Italian Black Saint label'). Wiki page is Consecration (album), correct."
+ }
+]

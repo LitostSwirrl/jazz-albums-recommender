@@ -1,0 +1,1331 @@
+[
+  {
+    "id": "mannenberg",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Abdullah Ibrahim, previously known as Dollar Brand, is a South African pianist and composer.",
+    "contradictingQuote": "Abdullah Ibrahim (born Adolph Johannes Brand on 9 October 1934), previously known as Dollar Brand, is a South African pianist and composer.",
+    "skepticDecision": "The albumDNA is wholesale the verbatim Abdullah Ibrahim artist-page lead as its subject (Dollar Brand, Cape jazz, Monk/Ellington influence) with no album-level factual content; the evidence shortDescription confirms the described subject is the person, and the two closing lines are pure editorial opinion that does not make the prose album-specific.",
+    "entityMatch": {
+      "musicbrainz": "n/a",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Abdullah Ibrahim, previously known as Dollar Brand, is a South African pianist and composer.",
+        "problem": "the albumDNA is a verbatim artist biography -- content about a person while the item is an album; it contains no album-specific facts (recording, release, label, personnel of the record)",
+        "evidenceQuote": "Abdullah Ibrahim (born Adolph Johannes Brand on 9 October 1934), previously known as Dollar Brand, is a South African pianist and composer.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "The spec's exact entity_mismatch case: 'a person when the item is an album'. The stored wikipediaUrl is the Abdullah Ibrahim ARTIST page (shortDescription 'South African pianist and composer (born 1934)'), not an album page, and the prose is lifted from it -- accurate about the man, but it never describes the record beyond 'He is known especially for Mannenberg... anti-apartheid anthem' plus two editorial sentences. No MB evidence at all, so year 1974, label 'Sun', and all 4 keyTracks are unverifiable. Background-knowledge flags for the repair-writer (not citable from pack): 'Cape Town Fringe' is widely known as the TITLE of the album's US companion release, and 'Soweto Is Where It's At' reads like album-title phrasing -- the keyTracks list needs independent verification against the original As-Shams/The Sun LP.",
+    "ours": {
+      "title": "Mannenberg - Is Where It's Happening",
+      "artist": "Abdullah Ibrahim",
+      "year": 1974,
+      "label": "Sun",
+      "albumDNA": "Abdullah Ibrahim, previously known as Dollar Brand, is a South African pianist and composer. His music reflects many of the musical influences of his childhood in the multicultural port areas of Cape Town, ranging from traditional African songs to the gospel of the AME Church and Ragas, to more modern jazz and other Western styles. Ibrahim is considered the leading figure in the subgenre of Cape jazz. Within jazz, his music particularly reflects the influence of Thelonious Monk and Duke Ellington. He is known especially for \"Mannenberg\", a jazz piece that became a notable anti-apartheid anthem. The most important South African jazz recording. 'Mannenberg' became a rallying cry for freedom, played at protests and celebrations.",
+      "keyTracks": [
+        "Mannenberg",
+        "Soweto Is Where It's At",
+        "Cape Town Fringe",
+        "The Pilgrim"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": null,
+        "release": null,
+        "searchCandidates": []
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Abdullah_Ibrahim",
+        "page": {
+          "requestedTitle": "Abdullah Ibrahim",
+          "resolvedTitle": "Abdullah Ibrahim",
+          "shortDescription": "South African pianist and composer (born 1934)",
+          "extract": "Abdullah Ibrahim (born Adolph Johannes Brand on 9 October 1934), previously known as Dollar Brand, is a South African pianist and composer. His music reflects many of the musical influences of his childhood in the multicultural port areas of Cape Town, ranging from traditional African songs to the gospel of the AME Church and Ragas, to more modern jazz and other Western styles. Ibrahim is considered the leading figure in the subgenre of Cape jazz. Within jazz, his music particularly reflects the influence of Thelonious Monk and Duke Ellington. He is known especially for \"Mannenberg\", a jazz piece that became a notable anti-apartheid anthem.\nDuring the apartheid era in the 1960s, Ibrahim moved to New York City and, apart from a brief return to South Africa in the 1970s, remained in exile until the early 1990s. Over the decades, he has toured the world extensively, appearing at major venues either as a solo artist or playing with other renowned musicians, including Max Roach, Carlos Ward and Randy Weston, as well as collaborating with classical orchestras in Europe.\nWith his wife, the jazz singer Sathima Bea Benjamin, Ibrahim is father to two children, including the New York underground rapper Jean Grae.\n\n\n== Biography ==\nIbrahim was born in Cape Town, South Africa, on 9 October 1934, and was baptized Adolph Johannes Brand. He attended Trafalgar High School in Cape Town's District Six, and began piano lessons at the age of seven, making his professional debut at 15. He is of mixed-race heritage, making him a Coloured person according to the apartheid system. His mother played piano in a church, the musical style of which would remain an influence on him; in addition, he learned to play several genres of music during his youth in Cape Town, including marabi, mbaqanga, and American jazz. He became well known in jazz circles in Cape Town and Johannesburg.\nIn 1959 and 1960, Ibrahim played with the Jazz Epistles group in Sophiatown, alongside saxophonists Kippie Moeketsi and Mackay Davashe, trumpeter Hugh Masekela, trombonist Jonas Gwangwa (who were all in the orchestra of the musical King Kong that opened in Johannesburg in February 1959), bassist Johnny Gertze and drummer Makaya Ntshoko; in January 1960, the six musicians went into the Gallo studio and recorded the first full-length jazz LP by Black South African musicians, Jazz Epistle Verse One, with 500 copies being produced. Although the group avoided explicitly political activity, the apartheid government was suspicious of it and other jazz groups, and targeted them heavily during the increase in state repression following the Sharpeville massacre in March 1960, and eventually, the Jazz Epistles broke up.\n\n\n== Early international career ==\nIbrahim moved to Europe in 1962. In February 1963, his wife-to-be, Sathima Bea Benjamin (they married in 1965), convinced Duke Ellington, who was in Zürich, Switzerland, on a European tour, to come to hear Ibrahim perform as \"The Dollar Brand Trio\" in Zurich's \"Africana Club\". After the show, Ellington helped set up a recording session with Reprise Records: Duke Ellington presents The Dollar Brand Trio. A second recording of the trio (also with Ellington and Billy Strayhorn on piano) performing with Sathima as vocalist was recorded, but remained unreleased until 1996 (A Morning in Paris, under Benjamin's name). The Dollar Brand Trio (with Johnny Gertze on bass and Makaya Ntshoko on drums) subsequently played at many European festivals, as well as on radio and television.\nIbrahim and Benjamin moved to New York in 1965 and that year Ibrahim played at the Newport Jazz Festival, followed by a first tour through the US; in 1966, he substituted for Duke Ellington on five dates, leading the Duke Ellington Orchestra. In 1967, a Rockefeller Foundation grant enabled Ibrahim to study at the Juilliard School of Music in New York. While in the US, he interacted with many progressive musicians, among them Don Cherry, Ornette Coleman, John Coltrane, Pharoah Sanders, Cecil Taylor and Archie Shepp. As the Black Power movement developed in the 1960s and 1970s, it influenced a number of Ibrahim's friends and collaborators, who began to see their music as a form of cultural nationalism. Ibrahim, in turn, began to incorporate African elements into his jazz.\n\n\n== Return to South Africa ==\nIn 1968, Ibrahim briefly returned to Cape Town, where he converted to Islam that year (with the resultant change of name from Dollar Brand to Abdullah Ibrahim) and in "
+        }
+      }
+    }
+  },
+  {
+    "id": "monks-blues",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Monk's Dream is an album by jazz pianist Thelonious Monk, released by Columbia Records in January 1963. It was Monk's first album for Columbia following his five-year recording period with Riverside Records.",
+    "contradictingQuote": "Monk's Dream is an album by jazz pianist Thelonious Monk, released by Columbia Records in January 1963. It was Monk's first album for Columbia following his five-year recording period with Riverside Records.",
+    "skepticDecision": "The albumDNA names and describes a different album (Monk's Dream, Columbia, January 1963) and the stored wiki extract is that 1963 album's article, while the embedded MB release-group title and date for this item are Monk's Blues, 1969; the prose is a different work.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Monk's Dream is an album by jazz pianist Thelonious Monk, released by Columbia Records in January 1963.",
+        "problem": "Prose describes a different album entirely: Monk's Dream (1963, Columbia), not our item Monk's Blues (1969). Classic title-search collision.",
+        "evidenceQuote": "releaseGroup: title \"Monk’s Blues\", firstReleaseDate \"1969\"",
+        "source": "mb"
+      },
+      {
+        "ourClaim": "It was Monk's first album for Columbia following his five-year recording period with Riverside Records.",
+        "problem": "Fact about Monk's Dream (1963), copied verbatim from the Monk's Dream Wikipedia page; does not describe Monk's Blues.",
+        "evidenceQuote": "shortDescription: \"1963 studio album by Thelonious Monk\" (page: Monk's Dream (Thelonious Monk album))",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "The item's structured fields are fine: embedded MB release confirms title Monk's Blues, release-group first release 1969, label CBS (the embedded release is a 1990 French CBS CD reissue), and all 5 keyTracks are on the MB tracklist. Only the albumDNA prose and the stored wikipediaUrl belong to Monk's Dream (1963). Repair: rewrite prose for Monk's Blues (1969 big-band Columbia/CBS album) and replace or drop the wiki link.",
+    "ours": {
+      "title": "Monk’s Blues",
+      "artist": "Thelonious Monk",
+      "year": 1969,
+      "label": "CBS",
+      "albumDNA": "Monk's Dream is an album by jazz pianist Thelonious Monk, released by Columbia Records in January 1963. It was Monk's first album for Columbia following his five-year recording period with Riverside Records.",
+      "keyTracks": [
+        "Let's Cool One",
+        "Reflections",
+        "Rootie Tootie",
+        "Just a Glance at Love",
+        "Brilliant Corners"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "cd54baa6-186c-4052-ada7-71cb93ff220b",
+          "title": "Monk's Blues",
+          "date": "1990",
+          "country": "FR",
+          "status": "Official",
+          "artists": [
+            "Thelonious Monk"
+          ],
+          "labels": [
+            {
+              "name": "CBS",
+              "catalogNumber": "CBS 467178 2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "13de8458-1f64-38fa-bcd4-fa2750f2861b",
+            "title": "Monk’s Blues",
+            "firstReleaseDate": "1969",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Blue Monk",
+            "Let's Cool One",
+            "Reflections",
+            "Rootie Tootie",
+            "Just a Glance at Love",
+            "Brilliant Corners",
+            "Consecutive Seconds",
+            "Monk's Point",
+            "Trinkle Tinkle",
+            "Straight No Chaser",
+            "'Round Midnight"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Monk's_Dream_(Thelonious_Monk_album)",
+        "page": {
+          "requestedTitle": "Monk's Dream (Thelonious Monk album)",
+          "resolvedTitle": "Monk's Dream (Thelonious Monk album)",
+          "shortDescription": "1963 studio album by Thelonious Monk",
+          "extract": "Monk's Dream is an album by jazz pianist Thelonious Monk, released by Columbia Records in January 1963. It was Monk's first album for Columbia following his five-year recording period with Riverside Records.\n\n\n== Recording and music ==\n\"Bye-Ya\" and \"Bolivar Blues\" were recorded on October 31, 1962; \"Body and Soul\" and \"Bright Mississippi\" on November 1; \"Sweet and Lovely\", \"Just a Gigolo\" and \"Monk's Dream\" on November 2; and \"Five Spot Blues\" on November 6.\n\"Bright Mississippi\" is the only composition on the album that Monk had not previously recorded. \"Bolivar Blues\" was originally titled \"Ba-lue Bolivar Ba-lues-are\" and had been on Monk's 1957 Riverside album, Brilliant Corners. \"Five Spot Blues\" was called \"Blues Five Spot\" and first appeared on the album Misterioso, which was recorded in concert at the Five Spot Cafe in New York in 1958 and released by Riverside. \"Monk's Dream\", \"Bye-Ya\", and \"Sweet and Lovely\" were recorded for Prestige at a session ten years earlier.\n\n\n== Critical reception ==\n\nIn DownBeat, jazz critic Pete Welding gave the album five stars and called it \"a stunning reaffirmation of his powers as a performer and composer.\"\n\n\n== Track listing ==\n\n\n== Personnel ==\nThelonious Monk – piano\nCharlie Rouse – tenor saxophone\nJohn Ore – bass\nFrankie Dunlop – drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "morning-with-swing-jazz-guitar-trumpet-saxophone-more-melodies-of-piano-instrumental-smooth-jazz-music",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Jazz fusion is a popular music genre that developed in the late 1960s when musicians combined jazz harmony and improvisation with rock music, funk, and rhythm and blues.",
+    "contradictingQuote": "Jazz fusion (also known as jazz rock, jazz-rock fusion, or simply fusion) is a popular music genre that developed in the late 1960s when musicians combined jazz harmony and improvisation with rock music, funk, and rhythm and blues.",
+    "skepticDecision": "The albumDNA is verbatim the Wikipedia 'Jazz fusion' genre-article lede; the stored wiki link is en.wikipedia.org/wiki/Jazz_fusion. It describes a music genre, not the 2019 compilation that is our entity. Content about a different kind of thing.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Jazz fusion is a popular music genre that developed in the late 1960s when musicians combined jazz harmony and improvisation with rock music, funk, and rhythm and blues.",
+        "problem": "The entire albumDNA is the Wikipedia 'Jazz fusion' genre-article intro copied verbatim; it describes a music genre, not this album (a 2019 smooth-jazz compilation by The Jazz Messengers / Piano Dreamers). It is content about a different kind of thing.",
+        "evidenceQuote": "Jazz fusion (also known as jazz rock, jazz-rock fusion, or simply fusion) is a popular music genre that developed in the late 1960s when musicians combined jazz harmony and improvisation with rock music, funk, and rhythm and blues.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "The MB release itself is correctly resolved (embedded_mbid: title matches, artists The Jazz Messengers + Piano Dreamers, label Diamond Music Record, 2019-09-21) and all five keyTracks match the MB tracklist — so the catalog row points at the right album. The problem is the prose + wikipediaUrl: both belong to the Jazz_fusion genre page, not this album. Classic disambiguation-collision disease, here onto a genre article. Repair: replace the genre boilerplate with album-specific prose. wikiLinkVerdict wrong_entity (stored_url is en.wikipedia.org/wiki/Jazz_fusion).",
+    "ours": {
+      "title": "Morning with Swing Jazz: Guitar, Trumpet, Saxophone & More, Melodies of Piano, Instrumental Smooth Jazz Music",
+      "artist": "The Jazz Messengers",
+      "year": 2019,
+      "label": "Diamond Music Record",
+      "albumDNA": "Jazz fusion is a popular music genre that developed in the late 1960s when musicians combined jazz harmony and improvisation with rock music, funk, and rhythm and blues. Electric guitars and basses, amplifiers, and keyboard instruments that were popular in rock began to be used by jazz musicians, particularly those who had grown up listening to rock and roll.",
+      "keyTracks": [
+        "The Best of Vintage Jazz",
+        "Romance Time After Time",
+        "Somewhere Under the Clouds",
+        "All My Story",
+        "Love Serenade"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "0ada6308-4998-4469-90ca-340dc0c2c5a0",
+          "title": "Morning with Swing Jazz: Guitar, Trumpet, Saxophone & More, Melodies of Piano, Instrumental Smooth Jazz Music",
+          "date": "2019-09-21",
+          "country": "XW",
+          "status": "Official",
+          "artists": [
+            "The Jazz Messengers",
+            "Piano Dreamers"
+          ],
+          "labels": [
+            {
+              "name": "Diamond Music Record",
+              "catalogNumber": null
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "7d592ed7-a82e-49f5-8986-ff7d7439ce63",
+            "title": "Morning with Swing Jazz: Guitar, Trumpet, Saxophone & More, Melodies of Piano, Instrumental Smooth Jazz Music",
+            "firstReleaseDate": "2019-09-21",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "The Best of Vintage Jazz",
+            "Romance Time After Time",
+            "Somewhere Under the Clouds",
+            "All My Story",
+            "Love Serenade",
+            "Four O'clock in the Morning",
+            "Enchanted Night",
+            "The Way You Look",
+            "Beginning to Leave",
+            "Welcome to New York City",
+            "Living for the Night",
+            "White Feather Boas",
+            "Wake Me Up Tomorrow",
+            "Mysterious Guest",
+            "Under the Silver Moon"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Jazz_fusion",
+        "page": {
+          "requestedTitle": "Jazz fusion",
+          "resolvedTitle": "Jazz fusion",
+          "shortDescription": "Music genre combining jazz methods with rock music, funk, and rhythm and blues",
+          "extract": "Jazz fusion (also known as jazz rock, jazz-rock fusion, or simply fusion) is a popular music genre that developed in the late 1960s when musicians combined jazz harmony and improvisation with rock music, funk, and rhythm and blues. Electric guitars and basses, amplifiers, and keyboard instruments (including electric pianos and organs) that were popular in rock began to be used by jazz musicians, particularly those who had grown up listening to rock and roll.\nJazz fusion arrangements vary in complexity. Some employ groove-based vamps fixed to a single key or a single chord with a simple, repeated melody. Others use elaborate chord progressions, unconventional time signatures, or melodies with counter-melodies, in a similar fashion to progressive rock. These arrangements, whether simple or complex, typically include improvised sections that can vary in length, much like in other forms of jazz.\nAs with jazz, jazz fusion can employ brass and woodwind instruments such as trumpet and saxophone, but other instruments often substitute for these. A jazz fusion band is less likely to use acoustic piano and double bass, and more likely to use electric guitars, electric pianos, organs, synthesizers, and bass guitar.\nThe term \"jazz rock\" is sometimes used as a synonym for \"jazz fusion\" and for music performed by late 1960s- and 1970s-era rock bands that added jazz elements to their music. After a decade of popularity during the 1970s, fusion expanded its improvisatory and experimental approaches through the 1980s in parallel with the development of a radio-friendly style called smooth jazz. Experimentation continued in the 1990s and 2000s. Fusion albums, even those that are made by the same group or artist, may include a variety of musical styles. Rather than being a codified musical style, fusion can be viewed as a musical tradition or approach.\n\n\n== History ==\n\n\n=== Origins ===\nWhen John Coltrane died in 1967, rock was the most popular music in America, and DownBeat magazine went so far as to declare in a headline that: \"Jazz as We Know It Is Dead\". AllMusic states that \"until around 1967, the worlds of jazz and rock were nearly completely separate\", although the Daevid Allen Trio which later became the Soft Machine formed in 1963, while the jazz label Verve released the influential debut album, Freak Out!, by artist and composer Frank Zappa in 1966.\n\nGuitarist Larry Coryell, sometimes called the godfather of fusion, referred to a generation of musicians who had grown up on rock and roll when he said, \"We loved Miles but we also loved the Rolling Stones.\" In 1966, he started the band the Free Spirits with Bob Moses on drums and recorded the band's first album, Out of Sight and Sound, released in 1967. That same year, DownBeat began to report on rock music. After the Free Spirits, Coryell was part of a quartet led by vibraphonist Gary Burton, releasing the album Duster with its rock guitar influence. Burton produced the album Tomorrow Never Knows for Count's Jam Band, which included Coryell, Mike Nock, and Steve Marcus, all of them former students at Berklee College in Boston.\nThe pioneers of fusion emphasized exploration, energy, electricity, intensity, virtuosity, and volume. Charles Lloyd played a combination of rock and jazz at the Monterey Jazz Festival in 1966 with a quartet that included Keith Jarrett and Jack DeJohnette. Lloyd adopted the trappings of the California psychedelic rock scene by playing at the rock venue the Fillmore West, wearing colorful clothes, and giving his albums titles like Dream Weaver and Forest Flower, which were bestselling jazz albums in 1967. Flautist Jeremy Steig experimented with jazz in his band Jeremy & the Satyrs with vibraphonist Mike Mainieri.  Rahsaan Roland Kirk performed with Jimi Hendrix at Ronnie Scott's Jazz Club in London.\nAccording to music journalist Zaid Mudhaffer, the term \"jazz fusion\" was coined in a review of Song of Innocence by David Axelrod when it was released in 1968. Axelrod said Davis had played the album before conceiving Bitches Brew.\n\n\n=== Miles Davis ===\nMiles Davis wrote in his autobiography that in 1968 and 1969, he had been listening to Jimi Hendrix, James Brown, and Sly and the Family Stone. As members of Davis' band, Chick Corea and Herbie Hancock played electric piano on Filles de Kilimanjaro. Davis's 1969 album In a Silent Way is considered his first fusion album. Composed of two side-long improvised suites edited heavily by Teo Macero, the album was made "
+        }
+      }
+    }
+  },
+  {
+    "id": "on-with-it",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Eugene McDuffy, known professionally as \"Brother\" Jack McDuff or \"Captain\" Jack McDuff, was an American jazz organist and organ trio bandleader.",
+    "contradictingQuote": "shortDescription: American jazz organist and bandleader (1926–2001)",
+    "skepticDecision": "The albumDNA is wholesale the verbatim Jack McDuff artist-page lead with no album-level content; the evidence shortDescription confirms the described subject is the person, a different entity than this 1971 Prestige album.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [],
+    "originalNotes": "albumDNA is a verbatim copy of the Jack McDuff Wikipedia ARTIST-page lead -- a biography of a person, not content about the album On With It! (the spec's 'a person when the item is an album' tell). The bio facts are accurate per that page, and the album itself is real: MB embedded release confirms Brother Jack McDuff, Prestige PRST 7851, 1971, with all 5 keyTracks on the tracklist. Stored wiki link points to the artist page, not an album article. The artist page's discography notes 'On With It! (Prestige, 1961 [rel. 1971])' -- recorded 1961, released 1971; ours year 1971 is the release year and matches MB. Repair: write album-specific prose and fix or drop the wiki link.",
+    "ours": {
+      "title": "On With It!",
+      "artist": "Brother Jack McDuff",
+      "year": 1971,
+      "label": "Prestige",
+      "albumDNA": "Eugene McDuffy, known professionally as \"Brother\" Jack McDuff or \"Captain\" Jack McDuff, was an American jazz organist and organ trio bandleader. He was most prominent during the hard bop and soul jazz era of the 1960s, often performing with an organ trio. He is also credited with giving guitarist George Benson his first break.",
+      "keyTracks": [
+        "Hey Lawdy Mama",
+        "The Last Goodun",
+        "Dink's Dream",
+        "Drown in My Own Tears",
+        "Groanin'"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "bf11c4ac-208e-44ea-a0b2-b1968775c610",
+          "title": "On With It!",
+          "date": "1971",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Brother Jack McDuff"
+          ],
+          "labels": [
+            {
+              "name": "Prestige",
+              "catalogNumber": "PRST 7851"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0474bd2e-29d5-4429-bd85-55d0b4f0b6b6",
+            "title": "On With It!",
+            "firstReleaseDate": "1971",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Hey Lawdy Mama",
+            "The Last Goodun",
+            "Dink's Dream",
+            "Drown in My Own Tears",
+            "Groanin'",
+            "Your Nose Is Open"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Jack_McDuff",
+        "page": {
+          "requestedTitle": "Jack McDuff",
+          "resolvedTitle": "Jack McDuff",
+          "shortDescription": "American jazz organist and bandleader (1926–2001)",
+          "extract": "Eugene McDuffy (September 17, 1926 – January 23, 2001), known professionally as \"Brother\" Jack McDuff or \"Captain\" Jack McDuff, was an American jazz organist and organ trio bandleader. He was most prominent during the hard bop and soul jazz era of the 1960s, often performing with an organ trio. He is also credited with giving guitarist George Benson his first break.\n\n\n== Career ==\nBorn Eugene McDuffy in Champaign, Illinois, McDuff began playing bass, appearing in Joe Farrell's group. Encouraged by Willis Jackson in whose band he also played bass in the late 1950s, McDuff moved to the organ and began to attract the attention of Prestige while still with Jackson's group. McDuff soon became a bandleader, leading groups featuring a young George Benson on guitar, Red Holloway on tenor saxophone and Joe Dukes on drums.\nMcDuff recorded many classic albums on Prestige, including his debut solo Brother Jack in 1960; The Honeydripper (1961), with tenor saxophonist Jimmy Forrest and guitarist Grant Green; Brother Jack Meets the Boss (1962), featuring Gene Ammons; Screamin’ (1962), with alto saxophonist Leo Wright and guitarist Kenny Burrell; and Brother Jack McDuff Live! (1963), featuring Holloway and Benson, which includes his biggest hit, \"Rock Candy\".\nAfter his tenure at Prestige, McDuff joined the Atlantic label for a brief period, and in the 1970s he recorded for Blue Note. To Seek a New Home (1970) was recorded in England with a line-up featuring blues shouter Jimmy Witherspoon and some of Britain's top jazz musicians of the day, including Terry Smith on guitar and Dick Morrissey on tenor saxophone.\nDecreasing interest in jazz and blues during the late 1970s and 1980s meant that many jazz musicians went through a lean time. But in 1988, with The Reentry, recorded for the Muse label, McDuff once again began a successful period of recordings, initially for Muse, then on the Concord Jazz label in 1991. George Benson appeared on his 1992 Color Me Blue album.\nDespite having health problems, McDuff continued working and recording throughout the 1980s and 1990s, and he toured Japan with Atsuko Hashimoto in 2000. \"Capt'n\" Jack McDuff, as he later became known, died of heart failure at the age of 74 in Minneapolis, Minneapolis. His first wife, the former Dink Dixon, died in the early 1980s. McDuff was married to his second wife Kathy; Kathy had two children.\n\n\n== Discography ==\n\n\n=== As leader ===\nPrestige Records\nBrother Jack (Prestige, 1960) -with Bill Jennings  [note: reissued on Groove Hut (#66714) in 2011]\nTough 'Duff (Prestige, 1960) -with Jimmy Forrest, Lem Winchester  [note: reissued on Groove Hut (#66714) in 2011]\nThe Honeydripper (Prestige, 1961) -with Jimmy Forrest, Grant Green [note: reissued on Groove Hut (#66717) in 2013]\nGoodnight, It's Time to Go (Prestige, 1961) -with Harold Vick, Grant Green [note: reissued on Groove Hut (#66717) in 2013]\nOn With It! (Prestige, 1961 [rel. 1971]) -with Harold Vick\nBrother Jack Meets the Boss [also released as Mellow Gravy] (Prestige, 1962) -with Gene Ammons [note: reissued on Groove Hut (#66721) in 2015]\nStitt Meets Brother Jack  [also released as  'Nuther Fu'ther] (Prestige, 1962) -with Sonny Stitt [note: reissued on Groove Hut (#66718) in 2013]\nScreamin' (Prestige, 1962) -with Leo Wright, Kenny Burrell\nSomethin' Slick! (Prestige, 1963) -with Kenny Burrell\nCrash! (Prestige 1963) -with Kenny Burrell\nBrother Jack McDuff Live! (Prestige, 1963) -with Red Holloway, George Benson\nBrother Jack at the Jazz Workshop Live! (Prestige, 1963) -with Red Holloway, Harold Vick, George Benson\nPrelude (Prestige, 1963) -with Benny Golson's big soul band\nCookin' Together (Prestige, 1964) -with Red Holloway, George Benson, Joe Dukes\nThe Dynamic Jack McDuff (Prestige, 1964) -with Benny Golson's big soul band\nThe Concert McDuff (Prestige, 1964) -with Red Holloway, George Benson\nSilk and Soul (Prestige, 1965) -with Red Holloway, George Benson\nHot Barbeque (Prestige, 1965) -with Red Holloway, George Benson\nWalk On By (Prestige, 1966) -with Red Holloway, Harold Ousley, Pat Martino\nHallelujah Time! (Prestige, rec. 1963/1964/1966 [rel. 1967])\nThe Midnight Sun (Prestige, rec. 1963/1964/1965/1966 [rel. 1968])\nSoul Circle (Prestige, rec. 1964/1965/1966 [rel. 1968])\nI Got a Woman (Prestige, rec. 1964/1965/1966 [rel. 1969])\nSteppin' Out (Prestige, rec. 1961/1963/1964/1965/1966 [rel. 1969])\nAtlantic Records\nA Change Is Gonna Come (Atlantic, 1966) [note: reissued on Collectables in 1999]\nTobacco Road (Atlantic, 19"
+        }
+      }
+    }
+  },
+  {
+    "id": "oscar-peterson-plays-george-gershwin",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Night Train is an album by the Oscar Peterson Trio, released in 1963 by Verve Records.",
+    "contradictingQuote": "1963 studio album by the Oscar Peterson Trio",
+    "skepticDecision": "The entire albumDNA describes 'Night Train' (a 1963 Verve album), confirmed by the evidence short description, not 'Oscar Peterson Plays George Gershwin' which this item is titled after.",
+    "entityMatch": {
+      "musicbrainz": "unsure",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Night Train is an album by the Oscar Peterson Trio, released in 1963 by Verve Records.",
+        "problem": "The entire albumDNA describes a different album (Night Train, 1963, Verve) instead of Oscar Peterson Plays George Gershwin.",
+        "evidenceQuote": "shortDescription: \"1963 studio album by the Oscar Peterson Trio\"",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Stored wiki link also points to Night Train (Oscar Peterson album), so the site ships a wrong link for this item. The MB search hit is a 1954 Swedish Karusell EP (KEP 201) of the same title with only 4 tracks; entity match is unsure (ours claims a 1953 Clef LP), so the keyTracks mismatch is a weak signal: the two unmatched tracks may exist on the full Clef LP, which is absent from evidence. Year (1953 vs MB EP release group 1954) and label (Clef vs Karusell) are not flagged because the MB doc is a foreign EP issue, not proof about the original release. Repair needs a full prose rewrite about the Gershwin songbook album plus a corrected wiki link.",
+    "ours": {
+      "title": "Oscar Peterson Plays George Gershwin",
+      "artist": "Oscar Peterson",
+      "year": 1953,
+      "label": "Clef Records",
+      "albumDNA": "Night Train is an album by the Oscar Peterson Trio, released in 1963 by Verve Records. The album includes jazz, blues and R&B standards, as well as \"Hymn to Freedom\", one of Peterson's best known original compositions. As a virtuoso who is considered to be one of the greatest jazz pianists of all time, Peterson released more than 200 recordings, won eight Grammy Awards, as well as a lifetime achievement award from the Recording Academy, and received numerous other .",
+      "keyTracks": [
+        "Man I Love",
+        "It Ain’t Necessarily So",
+        "Strike Up the Band!",
+        "A Foggy Day"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "f9ad3361-7782-4458-a587-5f876033aa14",
+          "title": "Oscar Peterson Plays George Gershwin",
+          "date": "1954",
+          "country": "SE",
+          "status": "Official",
+          "artists": [
+            "Oscar Peterson"
+          ],
+          "labels": [
+            {
+              "name": "Karusell",
+              "catalogNumber": "KEP 201"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "9c997321-b1c9-4959-a17a-26c63ca842f0",
+            "title": "Oscar Peterson Plays George Gershwin",
+            "firstReleaseDate": "1954",
+            "primaryType": "EP",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Man I Love",
+            "It Ain’t Necessarily So",
+            "Strike Up the Band!",
+            "A Foggy Day"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Night_Train_(Oscar_Peterson_album)",
+        "page": {
+          "requestedTitle": "Night Train (Oscar Peterson album)",
+          "resolvedTitle": "Night Train (Oscar Peterson album)",
+          "shortDescription": "1963 studio album by the Oscar Peterson Trio",
+          "extract": "Night Train is an album by the Oscar Peterson Trio, released in 1963 by Verve Records. The album includes jazz, blues and R&B standards, as well as \"Hymn to Freedom\", one of Peterson's best known original compositions.\n\n\n== Background ==\nAlbum producer Norman Granz had sold the record label Verve, but remained Peterson's manager, and so supervised the Night Train recording session. The brief duration of many of the tracks has been attributed to a desire to have them played on commercial radio, which was reluctant to play any tracks longer than a few minutes.\nThe cover art photograph is by Pete Turner and original sleeve notes were by Benny Green.\nThe album was dedicated to Peterson's father, who worked as a sleeping-car attendant for Canadian Pacific Railways.\n\n\n== Music and recording ==\nA Jazz.com review notes that the title track, \"Night Train,\" is evidence of Peterson's ability to balance musical innovation with popular appeal, as demonstrated throughout the album: \"By using the basic elements of crescendo and diminuendo, and arranged sections to set off the parts, Peterson turns what could have been a throwaway into a minor masterpiece.\"\nNight Train’s only original Oscar Peterson composition, \"Hymn to Freedom,\" was written on the spot in the studio to close the album, following Norman Granz's suggestion that the band include a song with a \"definitive early-blues feel.\" Peterson named the new song \"Hymn to Freedom\" in honor of Martin Luther King Jr., and after Harriette Hamilton wrote accompanying lyrics a year later, it became an unofficial anthem of the Civil Rights Movement. \"Hymn to Freedom\" is featured prominently in the 2021 documentary Oscar Peterson: Black + White as part of Peterson's enduring legacy.\nHymn to Freedom has been reinterpreted, in a jazz version, by Oliver Jones (piano), who is considered a disciple of Oscar Peterson; he described it as \"A class act\" album with changes to tempo, rhythm and structure and notable piano virtuosity. They played live together on 2004. Ben Webster (tenor sax) played it in \"At ease\" album hereby in an intimate version with extensive use of subtone.\nOn the 1997 CD reissue, an alternate take of \"Night Train\" is titled \"Happy Go Lucky Local,\" the name of the 1946 Duke Ellington composition that is the basis of Jimmy Forrest's \"Night Train.\" The alternate take features the same arrangement as the master take.\nEd Thigpen's rivet cymbal, recorded at very close range, is prominent on all issues of the album.\n\n\n== Critical reception ==\n\nFor AllMusic, critic John Bush wrote that the release \"includes stately covers of blues and R&B standards\". The Penguin Guide to Jazz included it in its core collection, calling it “one of the best-constructed long-players of the period\" and saying that Peterson's playing is \"tight and uncharacteristically emotional\".\nIn 2019, the album was named as the jury winner of the Polaris Heritage Prize.\n\n\n== Influence ==\nDiana Krall reported that listening to the album made being a jazz pianist her ambition. Linda May Han Oh reported that listening to the album inspired her to start playing upright bass.\n\n\n== Track listing ==\n\n(Tracks 12 through 17 are CD bonus tracks, not included on the original vinyl LP)\n\n\n== Personnel ==\nOscar Peterson - piano\nRay Brown - double bass\nEd Thigpen - drums\nTechnical personnel\n\nNorman Granz – production\nVal Valentin – recording engineering\nPete Turner – cover photography\nBenny Green - sleeve notes\n\n\n== References ==\n\n\n== Links ==\nNight Train at Discogs (list of releases)"
+        }
+      }
+    }
+  },
+  {
+    "id": "pink-elephants-on-parade",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "\"Pink Elephants on Parade\" is a song and scene from the 1941 Disney animated feature film Dumbo",
+    "contradictingQuote": "\"title\": \"Pink Elephants on Parade\", \"date\": \"2024-07-05\", \"country\": \"XW\", \"status\": \"Official\", \"artists\": [\"Sun Ra\", \"Arkestra\"]",
+    "skepticDecision": "MusicBrainz positively identifies the entity as an Album by 'Sun Ra'/'Arkestra' (2024-07-05). The albumDNA instead states the subject IS a song/scene from the 1941 Disney film Dumbo, with no reference to Sun Ra, the Arkestra or the album. The prose describes a different kind of entity (a film sequence).",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "\"Pink Elephants on Parade\" is a song and scene from the 1941 Disney animated feature film Dumbo in which Dumbo and Timothy Q. Mouse, having accidentally become intoxicated, see pink elephants sing, dance, and play musical instruments during a hallucination sequence.",
+        "problem": "The entire albumDNA describes the Disney 'Dumbo' film song/scene, a different kind of thing, not the Sun Ra Arkestra album. Classic disambiguation-collision: the prose was scraped from the Wikipedia article about the Disney song.",
+        "evidenceQuote": "Pink Elephants on Parade — Sun Ra, Arkestra — tracks: The Forest of No Return; Someday My Prince Will Come; Zip-A-Dee-Doo-Dah; Let's Go Fly a Kite; Second Star to the Right; Pink Elephants on Parade...",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "The album fields are correct for the Sun Ra Arkestra release (embedded_mbid: 'Pink Elephants on Parade', Sun Ra/Arkestra, 2024-07-05 — a live-recordings collection of Disney covers), and all six keyTracks (with venue suffixes like '(9:30 Club)', '(Regatta Bar 1990)') match the MB tracklist ignoring suffixes, so keyTracksVerdict is ok. But the albumDNA prose is entirely about the 1941 Dumbo film song/scene — wrong entity content (a film sequence, not the album). Verdict entity_mismatch reflects the hijacked prose; entityMatch.musicbrainz is 'yes' only because the MB release genuinely is our album. Repair writer must rewrite albumDNA to describe the Sun Ra Arkestra album.",
+    "ours": {
+      "title": "Pink Elephants on Parade",
+      "artist": "Sun Ra",
+      "year": 2024,
+      "label": "Unknown",
+      "albumDNA": "\"Pink Elephants on Parade\" is a song and scene from the 1941 Disney animated feature film Dumbo in which Dumbo and Timothy Q. Mouse, having accidentally become intoxicated, see pink elephants sing, dance, and play musical instruments during a hallucination sequence. After the sequence, Dumbo and Timothy wake up, hungover, in a tree. It is at this point that they realize that Dumbo can fly.",
+      "keyTracks": [
+        "The Forest Of No Return (9:30 Club)",
+        "Someday My Prince Will Come (9:30 Club)",
+        "Zip-A-Dee-Doo-Dah (Virginia 1988)",
+        "Let's Go Fly A Kite (Zurich 1987)",
+        "The Second Star To The Right (Virginia 1988)",
+        "Pink Elephants On Parade (Regatta Bar 1990)"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "09d3eaf9-65f3-4063-a287-91d463ccffd6",
+          "title": "Pink Elephants on Parade",
+          "date": "2024-07-05",
+          "country": "XW",
+          "status": "Official",
+          "artists": [
+            "Sun Ra",
+            "Arkestra"
+          ],
+          "labels": [],
+          "releaseGroup": {
+            "mbid": "023a56ce-2a2a-4085-8975-f64963dfbb08",
+            "title": "Pink Elephants on Parade",
+            "firstReleaseDate": "2024-07-05",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "The Forest of No Return",
+            "Someday My Prince Will Come",
+            "Zip-A-Dee-Doo-Dah",
+            "Let's Go Fly a Kite",
+            "Second Star to the Right",
+            "Pink Elephants on Parade",
+            "Whistle While You Work",
+            "I'm Wishing",
+            "Never Never Land",
+            "Second Star to the Right (Alternate)",
+            "The Forest of No Return (Alternate)",
+            "Marching Pink Elephants (Hal Willner Version)",
+            "Heigh-Ho!"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "pithecanthropus-erectus-the-clown",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Charles Mingus in Paris: The Complete America Session is a compilation of two albums by American bassist, composer and bandleader Charles Mingus which were recorded in Paris in 1970 and first released on the French America label as Blue Bird and Pithycanthropus Erectus.",
+    "contradictingQuote": "Pithecanthropus Erectus + The Clown",
+    "skepticDecision": "Fails: the prose is the verbatim lede of 'Charles Mingus in Paris: The Complete America Session' (Paris 1970 sessions, France/America label, Sunnyside 2006), while MB confirms the item is 'Pithecanthropus Erectus + The Clown' (Essential Jazz Classics, 2009, 1956/1957 studio material). Different release entirely.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no",
+      "n/a": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Charles Mingus in Paris: The Complete America Session is a compilation of two albums by American bassist, composer and bandleader Charles Mingus which were recorded in Paris in 1970 and first released on the French America label as Blue Bird and Pithycanthropus Erectus. The compilation was released on the Sunnyside label in 2006",
+        "problem": "The albumDNA describes an entirely different Mingus compilation (a Paris-1970 session reissue titled 'Charles Mingus in Paris: The Complete America Session', France/America label, Sunnyside 2006). Our album is 'Pithecanthropus Erectus + The Clown' (Essential Jazz Classics, 2009), a compilation of the 1956 'Pithecanthropus Erectus' and the 1957 'The Clown' studio albums. Different release, different label, different year, different sessions.",
+        "evidenceQuote": "title: Pithecanthropus Erectus + The Clown | date: 2009 | labels: Essential Jazz Classics (EJC55437) | tracks: Pithecanthropus Erectus, A Foggy Day, Profile of Jackie, Love Chant, Haitian Fight Song, Blue Cee, Reincarnation of a Lovebird, The Clown",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "MB (embedded_mbid, authoritative) confirms our title/artist/year/label and the keyTracks all match its tracklist exactly — so the catalog FIELDS describe the right album. The albumDNA prose, however, is verbatim Wikipedia text about a DIFFERENT Mingus compilation (the Paris 1970 'Complete America Session', Sunnyside 2006). The stored wikipediaUrl points to that wrong-album page. Repair: rewrite albumDNA for the 1956-57 Pithecanthropus Erectus / The Clown compilation and replace the wiki link.",
+    "ours": {
+      "title": "Pithecanthropus Erectus + The Clown",
+      "artist": "Charles Mingus",
+      "year": 2009,
+      "label": "Essential Jazz Classics",
+      "albumDNA": "Charles Mingus in Paris: The Complete America Session is a compilation of two albums by American bassist, composer and bandleader Charles Mingus which were recorded in Paris in 1970 and first released on the French America label as Blue Bird and Pithycanthropus Erectus. The compilation was released on the Sunnyside label in 2006 with all the released tracks combined on one CD and a second CD of additional tracks featuring false starts and incomplete takes from the session.",
+      "keyTracks": [
+        "Pithecanthropus Erectus",
+        "A Foggy Day",
+        "Profile of Jackie",
+        "Love Chant",
+        "Haitian Fight Song"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "7060d264-1d4d-46f3-91d2-4dd1ac200290",
+          "title": "Pithecanthropus Erectus + The Clown",
+          "date": "2009",
+          "country": "XE",
+          "status": "Official",
+          "artists": [
+            "Charles Mingus"
+          ],
+          "labels": [
+            {
+              "name": "Essential Jazz Classics",
+              "catalogNumber": "EJC55437"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "e976f4ed-dd13-4cd0-9bdb-5dd5867d251d",
+            "title": "Pithecanthropus Erectus + The Clown",
+            "firstReleaseDate": "2009",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Pithecanthropus Erectus",
+            "A Foggy Day",
+            "Profile of Jackie",
+            "Love Chant",
+            "Haitian Fight Song",
+            "Blue Cee",
+            "Reincarnation of a Lovebird",
+            "The Clown"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Charles_Mingus_in_Paris%3A_The_Complete_America_Session",
+        "page": {
+          "requestedTitle": "Charles Mingus in Paris: The Complete America Session",
+          "resolvedTitle": "Charles Mingus in Paris: The Complete America Session",
+          "shortDescription": "1970 compilation album by Charles Mingus",
+          "extract": "Charles Mingus in Paris: The Complete America Session is a compilation of two albums by American bassist, composer and bandleader Charles Mingus which were recorded in Paris in 1970 and first released on the French America label as Blue Bird and Pithycanthropus Erectus. The compilation was released on the Sunnyside label in 2006 with all the released tracks combined on one CD and a second CD of additional tracks featuring false starts and incomplete takes from the session.\n\n\n== Reception ==\nKen Dryden of Allmusic stated, \"After a five-year layoff from doing any studio recording, Mingus was fully prepared for this 1970 session...  The soloists shine throughout the date, with no one musician trying to outdo the others. This two-CD set adds all of the other material recorded during this single-day session on a separate disc, including all false starts, breakdowns, incomplete takes, and rehearsals, so serious fans can figure out how the performances evolved in the studio\". Andrey Henkin from All About Jazz stated \"The material is a strange assortment from various eras.. The longer tunes are more exciting but the shorter ones demonstrate Mingus' concern for strong composing, his or others\" \n\n\n== Track listing ==\nAll compositions by Charles Mingus except where noted.\nDisc one\n\n\"I Left My Heart in San Francisco\" (George Cory, Douglass Cross) - 4:06 Originally released on Blue Bird\n\"Reincarnation of a Lovebird\" - 15:11 Originally released on Blue Bird\n\"Peggy's Blue Skylight\" - 12:52 Originally released on Pithycanthropus Erectus\n\"Love Is a Dangerous Necessity\" - 4:36 Originally released on Pithycanthropus Erectus\n\"Blue Bird\" - 18:10 Originally released on Blue Bird\n\"Pithecanthropus Erectus\" - 16:41 Originally released on Pithycanthropus Erectus\nAlso released as Reincarnation of Lovebird 2 LP set by Prestige records in 1970\nDisc two\n\n\"Reincarnation of a Lovebird\" [Warm Up and First False Start] - 0:30\n\"Reincarnation of a Lovebird\" [Second False Start] - 1:49\n\"Reincarnation of a Lovebird\" [Third False Start] - 0:06\n\"Reincarnation of a Lovebird\" [Incomplete Take] - 4:51\n\"Peggy's Blue Skylight\" [First False Start] - 0:15\n\"Peggy's Blue Skylight\" [Second False Start] - 0:15\n\"Peggy's Blue Skylight\" [Third False Start and Rehearsal] - 0:37\n\"Peggy's Blue Skylight\" [Alternate Take] - 9:47\n\"Blue Bird\" [Incomplete Take] - 4:12\n\"Reprise\" - 0:42\n\"Love Is a Dangerous Necessity\" [First False Start] - 1:06\n\"Love Is a Dangerous Necessity\" [Second False Start] - 1:49\n\"Pithecanthropus Erectus\" [First Take, Incomplete] - 7:33\n\"Pithecanthropus Erectus\" [Reprise] - 0:54\n\"Pithecanthropus Erectus\" [Rehearsal] - 0:35\n\"Pithecanthropus Erectus\" [False Start] - 0:09\n\"Pithecanthropus Erectus\" [To the End] - 10:02\n\"Pithecanthropus Erectus\" [Mingus Explanations, Restart] - 2:17\n\n\n== Personnel ==\nCharles Mingus - bass\nEddie Preston - trumpet\nCharles McPherson - alto saxophone\nBobby Jones - tenor saxophone\nJaki Byard - piano\nDannie Richmond - drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "poetry-and-jazz-in-concert-record-one",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Joseph Arthurlin Harriott was a Jamaican jazz musician and composer, whose principal instrument was the alto saxophone.",
+    "contradictingQuote": "shortDescription: Jamaican jazz musician and composer",
+    "skepticDecision": "The albumDNA is wholesale the Joe Harriott artist-page lead (birth, instrument, career-innovation framing) with zero album-level content; the evidence shortDescription confirms the described subject is a person, a different entity than this album.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Joseph Arthurlin Harriott was a Jamaican jazz musician and composer, whose principal instrument was the alto saxophone.",
+        "problem": "The entire albumDNA is a person's biography (the Joe Harriott wiki lead) on an album item; it says nothing about the album itself. Spec tell: content about 'a person when the item is an album'.",
+        "evidenceQuote": "shortDescription: Jamaican jazz musician and composer",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Softer variant of the disease: the bio is of the album's actual featured saxophonist, not an unrelated entity, but the prose still describes a person rather than the album. The album's own fields check out against the authoritative embedded-MBID release: Argo ZDA 26, GB, 1964, and both 'Poetry and Jazz' tracks match. MB credits five artists (Adrian Mitchell, Dannie Abse, The Michael Garrick Quintet, Joe Harriott, Shake Keane); the site's artist field lists only Harriott - a curatorial simplification worth review. The stored wiki link goes to the artist page, not an album page (possibly a deliberate fallback, but it is not about our entity). Repair: write album-specific prose about this poetry-and-jazz concert document.",
+    "ours": {
+      "title": "Poetry and Jazz in Concert (Record One)",
+      "artist": "Joe Harriott",
+      "year": 1964,
+      "label": "Argo",
+      "albumDNA": "Joseph Arthurlin Harriott was a Jamaican jazz musician and composer, whose principal instrument was the alto saxophone. According to George McKay in Circular Breathing: The Cultural Politics of Jazz in Britain, Harriott was 'responsible for a series of brilliant experiments in new music in Britain through the 1960s'. His work was 'crucial' in two areas of innovation: free music and then global music fusion.",
+      "keyTracks": [
+        "Poetry and Jazz",
+        "Poetry and Jazz"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "1294a3e0-9c63-4178-9b4c-937872326d8d",
+          "title": "Poetry and Jazz in Concert (Record One)",
+          "date": "1964",
+          "country": "GB",
+          "status": "Official",
+          "artists": [
+            "Adrian Mitchell",
+            "Dannie Abse",
+            "The Michael Garrick Quintet",
+            "Joe Harriott",
+            "Shake Keane"
+          ],
+          "labels": [
+            {
+              "name": "Argo",
+              "catalogNumber": "ZDA 26"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "5f2e585d-860b-44ff-a84d-29a0162fe10c",
+            "title": "Poetry and Jazz in Concert (Record One)",
+            "firstReleaseDate": "1964",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Poetry and Jazz",
+            "Poetry and Jazz"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Joe_Harriott",
+        "page": {
+          "requestedTitle": "Joe Harriott",
+          "resolvedTitle": "Joe Harriott",
+          "shortDescription": "Jamaican jazz musician and composer",
+          "extract": "Joseph Arthurlin Harriott (15 July 1928 – 2 January 1973) was a Jamaican jazz musician and composer, whose principal instrument was the alto saxophone. According to George McKay in Circular Breathing: The Cultural Politics of Jazz in Britain, Harriott was 'responsible for a series of brilliant experiments in new music in Britain through the 1960s'. His work was 'crucial' in two areas of innovation: free music and then global music fusion.\nInitially a bebopper, he became a pioneer of free-form jazz. Born in Kingston, Harriott moved to the United Kingdom as a working musician in 1951 and lived in the country for the rest of his life. He was part of a wave of Caribbean jazz musicians who arrived in Britain during the 1950s, including Dizzy Reece, Harold McNair, Harry Beckett and Wilton Gaynair.\n\n\n== Background ==\nBorn in Kingston, Jamaica, Harriott was educated at Alpha Boys School, an orphanage in the city.  At Alpha he learned to play the clarinet, the instrument that was assigned to him shortly before his tenth birthday. He took up the baritone and tenor saxophone while performing with local dance bands, before settling on the alto saxophone. Harriott arrived in London in the summer of 1951, aged 23, as a member of Ossie Da Costa's band. British subjects did not require work permits or immigration visas at that time. When the band had completed their tour, Harriott decided to stay in London. He caught the attention of London's jazz scene while sitting in at the Feldman Club on Oxford Street on 26 August 1951.\nLike the majority of alto players of his generation, he was deeply influenced by Charlie Parker. Harriott developed a style that fused Parker with his own Jamaican musical sensibility - most notably the mento and calypso music he grew up with. Even in his later experiments, Harriott's roots were always audible. However, it was his mastery of bebop that gained him immediate kudos within the British jazz scene upon his arrival in London.\n\n\n== Career ==\nDuring the 1950s, he had two long spells with drummer Tony Kinsey's band, punctuated by membership of Ronnie Scott's short-lived big band, occasional spells leading his own quartet and working in the quartets of drummers Phil Seamen and Allan Ganley. Harriott began recording under his own name in 1954, releasing a handful of EPs for Columbia, Pye/Nixa and Melodisc throughout the 1950s. However, the majority of his 1950s recordings were as a sideman with the musicians previously mentioned, also backing a diverse array of performers, from mainstream vocalist Lita Roza, to traditional trombonist George Chisholm, to the West African sounds of Buddy Pipp's Highlifers. Harriott also appeared alongside visiting American musicians during this period, including a \"guest artist\" slot on the Modern Jazz Quartet's 1959 UK tour. He formed his own quintet in 1958, and their style of hard-swinging bebop was noticed in the United States, leading to the release of the Southern Horizons and Free Form albums on the American Jazzland label.\nOn August 3, 1963, the Joe Harriott Quintet featuring Mike Falana was appearing at the Marquee in Oxford Street.\n\n\n== Free-form innovator ==\nBy now firmly established as a bebop soloist, in 1960 Harriott turned to what he termed \"abstract\" or \"free-form\" music. He had some loose free-form ideas by the mid-1950s, but finally settled upon his conception in 1959, after a protracted spell in hospital with tuberculosis. At first he struggled to recruit other like-minded musicians to his vision. Indeed, two of his core band members, Harry South and Hank Shaw, left when these ideas surfaced. He finally settled on a line-up of Shake Keane (trumpet, flugelhorn), Pat Smythe (piano), Coleridge Goode (bass) and Phil Seamen (drums). Les Condon temporarily replaced Keane on trumpet in 1961, while Seamen left permanently the same year, his place taken by the return of the quintet's previous drummer, Bobby Orr. Frank Holder toured with Harriott and contributed to recording projects during this period.\nHarriott's free-form music is often compared to Ornette Coleman's roughly contemporary breakthrough in the United States, but even cursory listening reveals deep divisions between their conceptions of \"free jazz\". In fact, there were several distinctive models of early free jazz, from Cecil Taylor to Sun Ra. Harriott's was another of these. His method demanded more complete group improvisation than displayed in Coleman's music, and often featured no particular soloist"
+        }
+      }
+    }
+  },
+  {
+    "id": "quintette-du-hot-club-de-france",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "The Quintette du Hot Club de France, often abbreviated \"QdHCdF\" or \"QHCF\", was a jazz group founded in France in 1934 by the guitarist Django Reinhardt and the violinist Stéphane Grappelli.",
+    "contradictingQuote": "French jazz group",
+    "skepticDecision": "The albumDNA is verbatim the wiki lead describing the musical group (a different kind of entity than an album), with zero album-level content; the evidence identifies the described entity as a jazz group.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "The Quintette du Hot Club de France, often abbreviated \"QdHCdF\" or \"QHCF\", was a jazz group founded in France in 1934 by the guitarist Django Reinhardt and the violinist Stéphane Grappelli.",
+        "problem": "Prose describes the band, not the album; the item is an album (embedded MBID: undated Rockin' Chair compilation credited to Django Reinhardt).",
+        "evidenceQuote": "shortDescription: \"French jazz group\"",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Prose is the group's wiki lead verbatim; both stated facts (founded 1934 by Reinhardt and Grappelli, active until 1948) are confirmed - about the group. Zero album-level content. All 6 keyTracks are on the embedded MB tracklist, so the underlying release reference is sound. Stored wiki URL is the group page (related entity, not a random collision). Repair: write album-level prose; the MB release has no date, so the 1934 year field is unverified era convention.",
+    "ours": {
+      "title": "Quintette du Hot Club de France",
+      "artist": "Django Reinhardt",
+      "year": 1934,
+      "label": "Unknown",
+      "albumDNA": "The Quintette du Hot Club de France, often abbreviated \"QdHCdF\" or \"QHCF\", was a jazz group founded in France in 1934 by the guitarist Django Reinhardt and the violinist Stéphane Grappelli. It was active in one form or another until 1948.",
+      "keyTracks": [
+        "Exactly Like You",
+        "Rose Room",
+        "Body and Soul",
+        "You're Driving Me Crazy",
+        "Chicago",
+        "A Little Love, a Little Kiss"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "67c6c97f-56f4-41ff-87f0-2e5898ef5e43",
+          "title": "Quintette du Hot Club de France",
+          "date": "",
+          "country": "ES",
+          "status": "Official",
+          "artists": [
+            "Django Reinhardt"
+          ],
+          "labels": [
+            {
+              "name": "Rockin' Chair",
+              "catalogNumber": null
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "3f3a403c-25de-3e5c-bf37-97e3c77c04db",
+            "title": "Quintette du Hot Club de France",
+            "firstReleaseDate": "",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Exactly Like You",
+            "Rose Room",
+            "Body and Soul",
+            "You're Driving Me Crazy",
+            "Chicago",
+            "A Little Love, a Little Kiss",
+            "The Sheik of Araby",
+            "Djangology",
+            "In a Sentimental Mood",
+            "Swinging' With Django",
+            "Tears",
+            "Sweet Sue",
+            "My Serenade",
+            "Runnin' Wild",
+            "Limehouse Blues",
+            "I Saw the Stars",
+            "Clouds",
+            "I Can't Give You Anything but Love",
+            "Sweet Chorus",
+            "Swingin' Guitars"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Quintette_du_Hot_Club_de_France",
+        "page": {
+          "requestedTitle": "Quintette du Hot Club de France",
+          "resolvedTitle": "Quintette du Hot Club de France",
+          "shortDescription": "French jazz group",
+          "extract": "The Quintette du Hot Club de France (\"The Quintet of the Hot Club of France\"), often abbreviated \"QdHCdF\" or \"QHCF\", was a jazz group founded in France in 1934 by the guitarist Django Reinhardt and the violinist Stéphane Grappelli. It was active in one form or another until 1948.\nOne of the earliest and most significant continental jazz groups in Europe, the Quintette was described by critic Thom Jurek as \"one of the most original bands in the history of recorded jazz.\" In contrast with the \"New Orleans Sound\" of groups like Louis Armstrong and His Hot Five and Hot Seven, the group (at least in its early incarnations) featured an (at that time, novel) \"all strings\" lineup with the lead parts taken by virtuoso acoustic guitar and violin, the bass part on double bass in place of tuba or sousaphone, and the rhythm and accompanying chords supplied by additional guitarists, with no drummer.\nTheir most famous lineup featured Reinhardt, Grappelli, bassist Louis Vola, and rhythm guitarists Roger Chaput and Joseph Reinhardt (Django's brother) although occupants of the latter roles varied from time to time. Later incarnations of the Quintette (and its successors playing in a similar style) sometimes incorporated reeds (clarinet) players in place of Grappelli's violin, and also sometimes added a drummer in place of one of the rhythm guitars.\n\n\n== History ==\nAccording to Grappelli, the group evolved from a series of backstage jams originated by Django Reinhardt, with Stephane Grappelli, at the Hôtel Claridge on the Champs-Élysées in Paris, where the two were engaged as members of a band led by bassist Louis Vola in the summer of 1934. After a series of informal jam sessions at the Hôtel Claridge, concert promoters Pierre Nourry and Charles Delaunay (leaders of the \"Hot Club de France\", a society chaired by Hugues Panassié devoted to the appreciation of jazz) urged the formation of a permanent group. With the addition of Reinhardt's brother Joseph on second rhythm guitar, the quintet popularized the gypsy jazz style. The group began its recording career in November 1934, releasing two titles on the Odeon label under the name \"Delaunay's Jazz\". A December 1934 session produced the first recordings released under the name \"Django Reinhardt et le Quintette du Hot Club de France, avec Stéphane Grappelly\" (with Django's name misspelled as \"Djungo\"). Throughout 1935, the group recorded both under this name and as \"Stéphane Grappelly and His Hot Four featuring Django Rheinhardt\". Grappelli and Reinhardt maintained active schedules as freelance musicians during the early years of the Quintette, recording and performing with French pop artists such as Jean Sablon, Le Petit Mirsha, and Nane Cholet, and with jazz artists such as Coleman Hawkins, Benny Carter, Rex Stewart, Larry Adler, Alix Combelle, and André Ekyan. Between 1934 and 1948, the Quintette du Hot Club de France recorded more than 130 titles in the studio for the Decca, Swing, HMV, Ultraphone, and Odeon labels. \nA series of European tours were very successful, with the group enjoying particular popularity in the UK. Several bassists and rhythm guitarists rotated in and out of the group, with Django and Grappelli remaining the sole constants. In 1937, the American jazz singer Adelaide Hall opened a nightclub in Montmartre along with her husband Bert Hicks and called it 'La Grosse Pomme'. She entertained there nightly and hired the Quintette du Hot Club de France as one of the house bands at the club. \nAs World War II broke out in September 1939, the Quintette was on a concert tour of England. Reinhardt, who spoke virtually no English, immediately returned to France, where he thought he would feel safer than in the UK.  Grappelli, meanwhile, stayed in England.   \nDjango continued using the Quintette name with a different group, featuring Hubert Rostaing as the first of several clarinetists backed by a more conventional rhythm section with drums, bass and a rhythm guitar played by Django's son Lousson Reinhardt, or his brother Joseph.  This version of the Quintette often featured six, not five, players, and was usually billed as \"Django et le Quintette du Hot Club de France\", or sometimes as Django's \"Nouveau Quintette\".  Due to wartime shortages of material, this version of the Quintette did not issue many recordings (some 70 titles were recorded between 1940 and 1948), although they did issue the first recording of the Django Reinhardt composition Nuages, later to become a jazz s"
+        }
+      }
+    }
+  },
+  {
+    "id": "ray-brown-milt-jackson",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Goodbye is an album by vibraphonist Milt Jackson recorded in 1973 and released on the CTI label.",
+    "contradictingQuote": "Goodbye is an album by vibraphonist Milt Jackson recorded in 1973 (with one track from 1972) and released on the CTI label.",
+    "skepticDecision": "The albumDNA's first sentence names and describes a different album (Goodbye, Milt Jackson, CTI, 1973) and the stored wiki extract is that 1973 album's article; the prose skeleton is lifted from a different release than this 1965 Verve LP.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Goodbye is an album by vibraphonist Milt Jackson recorded in 1973 and released on the CTI label.",
+        "problem": "This sentence describes a different album entirely (Goodbye, Milt Jackson, CTI, 1973). Our item is the 1965 Verve LP 'Ray Brown / Milt Jackson' (embedded MBID, authoritative: title 'Ray Brown / Milt Jackson', date 1965, label Verve V6-8615).",
+        "evidenceQuote": "title: \"Ray Brown / Milt Jackson\"; date: \"1965\"; labels: Verve, V6-8615",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Classic disambiguation-collision case. The structured fields (title, year 1965, label Verve) and all 5 keyTracks match the authoritative embedded-MBID release exactly, so the catalog entry itself is the real 1965 Verve album. But the albumDNA's factual skeleton is imported from 'Goodbye' (Milt Jackson, CTI, 1973), and the stored wikipediaUrl points to that wrong album's page (Goodbye (Milt Jackson album) - confirmed by the wiki evidence to be about the 1973 CTI record). Repair: rewrite albumDNA for the actual Ray Brown / Milt Jackson LP and replace or drop the wikipediaUrl. Minor: artist field credits only 'Milt Jackson' while MB credits 'Ray Brown, Milt Jackson' jointly (site convention for co-led dates, cf. the Ella/Duke duplicate entries). The second prose sentence's 'big band sensibility... hard bop era' is generic template text, unverifiable.",
+    "ours": {
+      "title": "Ray Brown / Milt Jackson",
+      "artist": "Milt Jackson",
+      "year": 1965,
+      "label": "Verve",
+      "albumDNA": "Goodbye is an album by vibraphonist Milt Jackson recorded in 1973 and released on the CTI label. Musician player Milt Jackson's big band sensibility is on display in this 1965 session, a document of the hard bop era.",
+      "keyTracks": [
+        "Lined With a Groove",
+        "For Someone I Love",
+        "Dew and Mud",
+        "I Just Can't Fool Myself",
+        "Lazy Theme"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "12b74f07-4ef3-4f99-abfd-23ab6e3c4ca4",
+          "title": "Ray Brown / Milt Jackson",
+          "date": "1965",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Ray Brown",
+            "Milt Jackson"
+          ],
+          "labels": [
+            {
+              "name": "Verve",
+              "catalogNumber": "V6-8615"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "041fd0a9-2ded-468b-bb35-55e4e2383fcf",
+            "title": "Ray Brown / Milt Jackson",
+            "firstReleaseDate": "1965",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Lined With a Groove",
+            "For Someone I Love",
+            "Dew and Mud",
+            "I Just Can't Fool Myself",
+            "Lazy Theme",
+            "Now Hear My Meaning",
+            "In a Crowd",
+            "Monterey Mist"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Goodbye_(Milt_Jackson_album)",
+        "page": {
+          "requestedTitle": "Goodbye (Milt Jackson album)",
+          "resolvedTitle": "Goodbye (Milt Jackson album)",
+          "shortDescription": "Milt Jackson album",
+          "extract": "Goodbye is an album by vibraphonist Milt Jackson recorded in 1973 (with one track from 1972) and released on the CTI label.\n\n\n== Reception ==\nThe Allmusic review by Thom Jurek awarded the album 3 stars stating \" Milt Jackson's second entry on the CTI label is also one of its highlights. This is one of Creed Taylor's finest productions both in terms of material and sidemen\".  \n\n\n== Track listing ==\nAll compositions by Milt Jackson except as indicated\n\"Detour Ahead\" (Lou Carter, Herb Ellis, Johnny Frigo) - 8:00\n\"Goodbye\" (Gordon Jenkins) - 9:21\n\"Old Devil Moon\" (E. Y. Harburg, Burton Lane) - 5:50\n\"S.K.J.\" - 6:47\n\"Opus de Funk\" (Horace Silver) - 6:46\nRecorded at Rudy Van Gelder Studio in Englewood Cliffs, New Jersey on December 12, 1972 (track 4) and December, 1973 (tracks 1, 2, 3 & 5)\n\n\n== Personnel ==\nMilt Jackson – vibes\nRon Carter - bass\nFreddie Hubbard (track 4) - trumpet\nHubert Laws (tracks 1, 2, 3 & 5) - flute\nCedar Walton (tracks 1, 2, 3 & 5); Herbie Hancock (track 4) - piano\nSteve Gadd (tracks 1, 2, 3 & 5); Billy Cobham (track 4) - drums\n\n\n== References ° =="
+        }
+      }
+    }
+  },
+  {
+    "id": "russell-malone",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Austin Richard Post, known professionally as Post Malone, is an American singer, rapper, songwriter, record producer, and actor.",
+    "contradictingQuote": "Austin Richard Post (born July 4, 1995), known professionally as Post Malone, is an American singer, rapper, songwriter, record producer, and actor.",
+    "skepticDecision": "Fails: the prose is the biography of Post Malone (pop/hip-hop, born 1995), a completely different person from the jazz guitarist Russell Malone whose 1992 Columbia album MB confirms. Wholesale about a different person.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Austin Richard Post, known professionally as Post Malone, is an American singer, rapper, songwriter, record producer, and actor. His music blends various genres including pop, hip-hop, trap, country, R&B, and rock.",
+        "problem": "The entire albumDNA is the biography of Post Malone (the pop/hip-hop artist born 1995), a completely different person from Russell Malone, the jazz guitarist who made this 1992 Columbia album. Classic disambiguation-collision corruption.",
+        "evidenceQuote": "Austin Richard Post (born July 4, 1995), known professionally as Post Malone, is an American singer, rapper, songwriter, record producer, and actor.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "MB search sim 1.0 confirms the real album (Russell Malone, self-titled, 1992-10-06, Columbia 52825) and all 5 keyTracks match its tracklist. But the albumDNA and the stored wikipediaUrl are about Post Malone — a different human entirely. Textbook entity_mismatch; wiki link wrong_entity.",
+    "ours": {
+      "title": "Russell Malone",
+      "artist": "Russell Malone",
+      "year": 1992,
+      "label": "Columbia",
+      "albumDNA": "Austin Richard Post, known professionally as Post Malone, is an American singer, rapper, songwriter, record producer, and actor. His music blends various genres including pop, hip-hop, trap, country, R&B, and rock.",
+      "keyTracks": [
+        "Wives and Lovers",
+        "Invisible Colors",
+        "When I Take My Sugar to Tea",
+        "It's the Talk of the Town",
+        "St. Louis Blues"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "681249b4-2eaa-4438-b2a6-f5cd057bd53d",
+          "title": "Russell Malone",
+          "date": "1992-10-06",
+          "country": null,
+          "status": "Official",
+          "artists": [
+            "Russell Malone"
+          ],
+          "labels": [
+            {
+              "name": "Columbia",
+              "catalogNumber": "52825"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "3dcc4e36-4610-4cdb-bf1e-37afb28fda6f",
+            "title": "Russell Malone",
+            "firstReleaseDate": "1992-10-06",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Wives and Lovers",
+            "Invisible Colors",
+            "When I Take My Sugar to Tea",
+            "It's the Talk of the Town",
+            "St. Louis Blues",
+            "I Don't Know Enough About You",
+            "Close Your Eyes",
+            "London by Night",
+            "I Can't Believe That You're in Love With Me",
+            "Moonlight Serenade",
+            "Flowers for Emmett Till",
+            "Precious Lord"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Post_Malone",
+        "page": {
+          "requestedTitle": "Post Malone",
+          "resolvedTitle": "Post Malone",
+          "shortDescription": "American singer and rapper (born 1995)",
+          "extract": "Austin Richard Post (born July 4, 1995), known professionally as Post Malone, is an American singer, rapper, songwriter, record producer, and actor. His music blends various genres including pop, hip-hop, trap, country, R&B, and rock. \nMalone began his musical career in 2011, and earned mainstream recognition with his 2015 cloud rap debut single, \"White Iverson\". The song led him to sign with Republic Records, and served as lead single for his debut studio album, Stoney (2016), which spawned the Diamond-certified single \"Congratulations\" (featuring Quavo). His second album, Beerbongs & Bentleys (2018), debuted atop the US Billboard 200 and set numerous streaming records. It contained the US Billboard Hot 100 number-one singles \"Rockstar\" (featuring 21 Savage) and \"Psycho\" (featuring Ty Dolla Sign), and was nominated for Album of the Year at the 61st Grammy Awards. His third Hot 100 number-one single, \"Sunflower\", a duet with Swae Lee, was released for the accompanying soundtrack to the 2018 animated film Spider-Man: Into the Spider-Verse; it became the highest-certified song in RIAA history and was the first to receive a 2× Diamond certification. \nMalone's third album, Hollywood's Bleeding (2019), became his second project to both debut atop the Billboard 200 and receive Grammy Award nomination for Album of the Year. It spawned the single \"Circles\", which spent 61 weeks on the Hot 100, becoming Malone's biggest hit single to date. Malone's fourth and fifth albums, Twelve Carat Toothache (2022) and Austin (2023), both peaked at number two on the Billboard 200. In 2024, he topped the Billboard Hot 100 twice more with his guest appearance on Taylor Swift's \"Fortnight\" and his first country pop song, \"I Had Some Help\" (featuring Morgan Wallen). The latter served as the lead single for Malone's sixth album and country music debut, F-1 Trillion (2024), which became his third number-one album on the Billboard 200.\nMalone is among the best-selling music artists, with over 150 million records sold in the US alone according to the RIAA. His accolades include eleven Billboard Music Awards, five American Music Awards, six MTV Video Music Awards, and eighteen Grammy Award nominations. He holds several Billboard chart records: He is the first solo lead artist to top both the Rap Airplay and Adult Contemporary charts, while \"Circles\" set the record for longest climb to number one (41 weeks) on the Adult Contemporary chart by a solo artist. As of 2025, Malone is second only to Drake for artists with the most diamond-certified songs, with nine to his name.\n\n\n== Early life ==\nAustin Richard Post was born on July 4, 1995, in Syracuse, New York. He was raised by his father, Richard Post, and his stepmother, Jodie. His father had been a DJ in his youth and introduced Malone to many genres of music including hip-hop, country, and rock. When Malone was nine years old, he and his family moved to Grapevine, Texas, after his father became the manager of concessions for the Dallas Cowboys football team. According to Malone, his first foray into professional music began when he played guitar in a local metalcore band. His interest in the genre persisted past this endeavor as he also auditioned as a guitarist for the Texas-based metalcore group Crown the Empire in 2010, but was rejected after his guitar strings broke during the audition. He credited his initial interest in learning guitar to the video game series Guitar Hero.\nMalone has expressed his affinity for alternative rock music, and appeared for a DJ set at Emo Nite in Los Angeles, California, in June 2017, playing songs by My Chemical Romance at the event.  He says soon afterwards he transitioned to softer rock as well as hip-hop, before beginning to experiment on FL Studio.\n\n\n== Career ==\n\n\n=== 2011–2016: Career beginnings and Stoney ===\n\nAccording to Malone, he chose \"Post Malone\" as his stage name when he was \"14 or 15\". The name was rumored to be a reference to the professional basketball player Karl Malone, but Malone later explained that \"Post\" is his last name, and he used a \"rap name generator\" to get \"Malone\". \nAt age 17, Malone, along with his friend Jazzy Eff, released a parody synth-pop ballad song called \"Why Don't You Love Me\" under the alias Leon DeChino, intended for a school project. The song reappeared online in 2016. Malone later referred to the DeChino alias on his song \"Psycho\".\nAt the age of 18, using audio editor Audacity, Malone released his first mixtape, Y.A.T."
+        }
+      }
+    }
+  },
+  {
+    "id": "satchmo",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Louis Daniel Armstrong, nicknamed \"Satchmo\", \"Satch\", and \"Pops\", was an American jazz and blues trumpeter and vocalist.",
+    "contradictingQuote": "Louis Daniel Armstrong (August 4, 1901 – July 6, 1971), nicknamed \"Satchmo\", \"Satch\", and \"Pops\", was an American jazz and blues trumpeter and vocalist.",
+    "skepticDecision": "Fails: the prose is wholesale a person-biography of Louis Armstrong (lifespan, nicknames, career-spanning accolades) copied from his artist page, not a description of the album 'Satchmo'. Per the distinguishing rule, prose wholesale about a person while the item is an album is an entity_mismatch.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Louis Daniel Armstrong, nicknamed \"Satchmo\", \"Satch\", and \"Pops\", was an American jazz and blues trumpeter and vocalist. He was among the most influential figures in jazz...",
+        "problem": "The albumDNA is a biography of the PERSON Louis Armstrong (copied from his artist Wikipedia page), not a description of the album 'Satchmo'. Wrong kind of content for an album item.",
+        "evidenceQuote": "Louis Daniel Armstrong (August 4, 1901 – July 6, 1971), nicknamed \"Satchmo\", \"Satch\", and \"Pops\", was an American jazz and blues trumpeter and vocalist.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Album fields are correct (MB embedded_mbid: Satchmo, 1987, Pickwick Compact Discs PWK 009, Compilation, Louis Armstrong). The bio facts are accurate to Armstrong and the stored wiki link is Armstrong's own (correct) artist page, so wikiLinkVerdict=correct and entityMatch.wikipedia=yes — but the page is the artist bio, not the album, and the prose is a person-bio dump (entity_mismatch tell: 'a person when the item is an album'). SEPARATE problem: the keyTracks (Mi va di cantare, We Have All the Time in the World, Hello Dolly, You Go to My Head, Summertime) do NOT match this Pickwick compilation's tracklist; only 'Bye n Bye' ~ 'Bye and Bye'. The keyTracks were evidently scraped from a different 'Satchmo' release. Repair: rewrite DNA to describe THIS album and re-derive keyTracks from the Pickwick tracklist.",
+    "ours": {
+      "title": "Satchmo",
+      "artist": "Louis Armstrong",
+      "year": 1987,
+      "label": "Pickwick Compact Discs",
+      "albumDNA": "Louis Daniel Armstrong, nicknamed \"Satchmo\", \"Satch\", and \"Pops\", was an American jazz and blues trumpeter and vocalist. He was among the most influential figures in jazz. His career spanned five decades and several eras in the history of jazz. Armstrong received numerous accolades including the Grammy Award for Best Male Vocal Performance for Hello, Dolly! in 1965, as well as a posthumous win for the Grammy Lifetime Achievement Award in 1972.",
+      "keyTracks": [
+        "Back o' Town Blues",
+        "I Want a Big Butter and Egg Man",
+        "(Back Home In) Indiana",
+        "Tiger Rag",
+        "(What Did I Have to do to Get) Black and Blue",
+        "C'est Si Bon"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "aab18034-4d5f-43b5-a8a6-9ba247ceb239",
+          "title": "Satchmo",
+          "date": "1987",
+          "country": null,
+          "status": "Official",
+          "artists": [
+            "Louis Armstrong"
+          ],
+          "labels": [
+            {
+              "name": "Pickwick Compact Discs",
+              "catalogNumber": "PWK 009"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0f76238e-efdb-3f60-af83-367fe8571198",
+            "title": "Satchmo",
+            "firstReleaseDate": "1987",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Back o' Town Blues",
+            "I Want a Big Butter and Egg Man",
+            "(Back Home In) Indiana",
+            "Tiger Rag",
+            "(What Did I Have to do to Get) Black and Blue",
+            "C'est Si Bon",
+            "St. James Infirmary",
+            "When the Saints Go Marching In",
+            "Someday You'll Be Sorry",
+            "Sweethearts on Parade",
+            "Jelly Roll Blues",
+            "Chimes Blues",
+            "Dipper Mouth Blues",
+            "Snake Rag",
+            "New Orleans Stomp",
+            "Bye and Bye"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Louis_Armstrong",
+        "page": {
+          "requestedTitle": "Louis Armstrong",
+          "resolvedTitle": "Louis Armstrong",
+          "shortDescription": "American jazz trumpeter and singer (1901–1971)",
+          "extract": "Louis Daniel Armstrong (August 4, 1901 – July 6, 1971), nicknamed \"Satchmo\", \"Satch\", and \"Pops\", was an American jazz and blues trumpeter and vocalist. Among the most influential figures in jazz, his career spanned five decades and several eras in the history of the genre. Armstrong received numerous accolades including the Grammy Award for Best Male Vocal Performance for Hello, Dolly! in 1965, as well as a posthumous win for the Grammy Lifetime Achievement Award in 1972. His influence crossed musical genres, with inductions into the DownBeat Jazz Hall of Fame, the Rock and Roll Hall of Fame, and the National Rhythm & Blues Hall of Fame, among others.\nArmstrong was born and raised in New Orleans. Coming to prominence in the 1920s as an inventive trumpet and cornet player, he was a foundational influence in jazz, shifting the focus of the music from collective improvisation to solo performance. Around 1922, Armstrong followed his mentor, Joe \"King\" Oliver, to Chicago to play in Oliver's Creole Jazz Band. Armstrong earned a reputation at \"cutting contests\", and his fame reached band leader Fletcher Henderson. Armstrong moved to New York City, where he became a featured and musically influential band soloist and recording artist. By the 1950s, Armstrong was an international musical icon, appearing regularly in radio and television broadcasts and on film. Apart from his music, he was also beloved as an entertainer, often joking with the audience and keeping a joyful public image at all times.\nArmstrong's best known songs include \"What a Wonderful World\", \"La Vie en Rose\", \"Hello, Dolly!\", \"On the Sunny Side of the Street\", \"Dream a Little Dream of Me\", \"When You're Smiling\" and \"When the Saints Go Marching In\". He collaborated with Ella Fitzgerald, producing three records together: Ella and Louis (1956), Ella and Louis Again (1957), and Porgy and Bess (1959). He also appeared in films such as A Rhapsody in Black and Blue (1932), Cabin in the Sky (1943), High Society (1956), Paris Blues (1961), A Man Called Adam (1966), and Hello, Dolly! (1969).\nWith his instantly recognizable, rich, gravelly voice, Armstrong was also an influential singer and skillful improviser. He was also skilled at scat singing. By the end of Armstrong's life, his influence had spread to popular music. He was one of the first popular African-American entertainers to \"cross over\" to wide popularity with white and international audiences. Armstrong rarely publicly discussed racial issues, sometimes to the dismay of fellow black Americans, but took a well-publicized stand for desegregation in the Little Rock Crisis. He could access the upper echelons of American society at a time when this was difficult for black men. His recording of “Melancholy Blues” is included on the Voyager Golden Record, a sample of the sights and sounds of Earth sent into space.\n\n\n== Early life ==\nArmstrong is believed to have been born in New Orleans on August 4, 1901, but the accuracy of this date has been heavily debated. Armstrong himself often claimed he was born on July 4, 1900. His parents were Mary Estelle \"Mayann\" Albert and William Armstrong. Mary Albert was from Boutte, Louisiana, and gave birth at home when she was about 16. Less than a year and a half later, they had a daughter, Beatrice \"Mama Lucy\" Armstrong (1903–1987), whom Albert raised. William Armstrong abandoned the family shortly after that.\nLouis Armstrong was raised by his grandmother until the age of five, when he was returned to his mother. Armstrong spent his youth in poverty in a rough neighborhood known as The Battlefield, on the southern section of Rampart Street. At the age of six, Armstrong started attending the Fisk School for Boys, a school that accepted black children in the racially segregated school system of New Orleans.\nArmstrong lived with his mother and sister during this time and worked for the Karnoffskys, a family of Lithuanian Jews, at their home. Armstrong helped their sons Morris and Alex collect \"rags and bones\" and deliver coal. In 1969, while recovering from heart and kidney problems at Beth Israel Hospital in New York City, Armstrong wrote a memoir called Louis Armstrong + the Jewish Family in New Orleans, LA., the Year of 1907, describing his time working for the Karnoffsky family.\nArmstrong writes about singing \"Russian Lullaby\" with the Karnoffsky family when their baby son David was put to bed and credits the family with teaching him to sing \"from the heart.\" Curiously, Arms"
+        }
+      }
+    }
+  },
+  {
+    "id": "school",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Pool is an album by John Zorn featuring his early \"game piece\" composition of the same name which was first released on vinyl on Parachute Records in 1980 as a double album including the composition \"Hockey\".",
+    "contradictingQuote": "The album was the first released solely under Zorn's name following his collaboration with Eugene Chadbourne, School (1978).",
+    "skepticDecision": "The albumDNA names and describes a different album (Pool, 1980 Parachute double LP) and the stored wiki extract is that album's article, which itself distinguishes it from School (1978); the embedded MB release for this item is School, 1978, so the prose is a different work.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Pool is an album by John Zorn featuring his early \"game piece\" composition of the same name which was first released on vinyl on Parachute Records in 1980 as a double album including the composition \"Hockey\".",
+        "problem": "The entire albumDNA describes a DIFFERENT John Zorn album -- 'Pool' (1980) -- not our album 'School' (1978). Classic wrong-wikipedia-page substitution. The wikipediaUrl also points to the Pool page.",
+        "evidenceQuote": "Pool is an album by John Zorn ... first released on vinyl on Parachute Records in 1980 ... The album was the first released solely under Zorn's name following his collaboration with Eugene Chadbourne, School (1978).",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Disease case. The CATALOG FIELDS are correct for School: MB embedded_mbid confirms title 'School', 1978, Parachute P004/6, credited Eugene Chadbourne + John Zorn, and all 5 keyTracks (Solitude/Duet/The Return of Romance/The Shreeve/The Fling) match the MB tracklist. BUT the albumDNA prose and the stored wikipediaUrl are entirely about Zorn's later album 'Pool' (1980) -- the prose's factual skeleton (Pool, 1980 double LP, 'Hockey', Tzadik CD reissue, Parachute Years Box Set) belongs to a different entity. Repair-writer: rewrite DNA from School's facts and replace the wiki link (current page is 'Pool (John Zorn album)').",
+    "ours": {
+      "title": "School",
+      "artist": "John Zorn",
+      "year": 1978,
+      "label": "Parachute",
+      "albumDNA": "Pool is an album by John Zorn featuring his early \"game piece\" composition of the same name which was first released on vinyl on Parachute Records in 1980 as a double album including the composition \"Hockey\". The album was released on CD on Tzadik Records with an additional bonus track featuring a test recording of Archery as part of The Parachute Years Box Set in 1997 and as a single CD in 2000. The album was the first released solely under Zorn's name following his collaboration with Eugene Chadbourne, School (1978). Rolling Stone noted that \"[alt]hough Zorn has operated almost entirely outside the mainstream, he's gradually asserted himself as one of the most influential musicians of our time\".",
+      "keyTracks": [
+        "Solitude",
+        "Duet",
+        "The Return of Romance",
+        "The Shreeve",
+        "The Fling"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "225bca01-12b3-4ce4-8333-e11f8810ac93",
+          "title": "School",
+          "date": "1978",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Eugene Chadbourne",
+            "John Zorn"
+          ],
+          "labels": [
+            {
+              "name": "Parachute",
+              "catalogNumber": "P004/6"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0cb3cdea-75ad-419e-b271-02a38a3d9fa0",
+            "title": "School",
+            "firstReleaseDate": "1978",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Solitude",
+            "Duet",
+            "The Return of Romance",
+            "The Shreeve",
+            "The Fling",
+            "Missing Persons",
+            "Welcome West",
+            "Lacrosse (Take 3)",
+            "Lacrosse (Take 4)",
+            "Lacrosse (Take 6)"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Pool_(John_Zorn_album)",
+        "page": {
+          "requestedTitle": "Pool (John Zorn album)",
+          "resolvedTitle": "Pool (John Zorn album)",
+          "shortDescription": "1980 studio album by John Zorn",
+          "extract": "Pool is an album by John Zorn featuring his early \"game piece\" composition of the same name which was first released on vinyl on Parachute Records in 1980 as a double album including the composition \"Hockey\". The album was released on CD on Tzadik Records with an additional bonus track featuring a test recording of Archery as part of The Parachute Years Box Set in 1997 and as a single CD in 2000. The album was the first released solely under Zorn's name following his collaboration with Eugene Chadbourne, School (1978).\n\n\n== Reception ==\nThe AllMusic review by Joclyn Layne stated: \"Dedicated fans should check this out, as it is part of the early annals of Zorn. Listeners with less patience for music theory -- and Zorn skeptics -- should save Pool for later, because it will not win anyone over; nor will the compositional theories become more clear upon listening. Essentially, Pool has more historical value than listening interest.\"  \n\n\n== Track listing ==\nAll compositions by John Zorn\nOriginal Vinyl Release\n\n    \n\nCD Release\n\n\"Pool\" - 50:45\n\"Archery (test and false start)\" - 3:30  Bonus track on CD release\nRecorded at Sorcerer Sound Studio, New York City on March 1, 1980\n\n\n== Personnel ==\nPolly Bradfield - Violin\nMark E. Miller - Percussion, Contact Microphones, Vibraphone\nCharles K. Noyes - Percussion, Saw, Knene\nBob Ostertag - Electronics\nJohn Zorn - Alto and Soprano Saxophones, Bb Clarinet, Game Calls, E-flat Clarinet\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "singin-the-blues-beiderbecke",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "\"Singing the Blues\" is a popular song composed by Melvin Endsley and published in 1956. The highest-charting version was by Guy Mitchell and the first recording of the song was by Marty Robbins.",
+    "contradictingQuote": "It is not related to the 1920 jazz song \"Singin' the Blues\" recorded by Frank Trumbauer and Bix Beiderbecke in 1927.",
+    "skepticDecision": "The prose opens by describing the 1956 Melvin Endsley / Guy Mitchell pop song, and the evidence extract explicitly disclaims that this is the same entity as the Beiderbecke recording, so the prose skeleton is wholesale a different work.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "\"Singing the Blues\" is a popular song composed by Melvin Endsley and published in 1956. The highest-charting version was by Guy Mitchell and the first recording of the song was by Marty Robbins.",
+        "problem": "Prose skeleton is the 1956 pop song, an unrelated entity; our item is Bix Beiderbecke's recording/compilation. The pasted text itself disclaims the connection.",
+        "evidenceQuote": "It is not related to the 1920 jazz song \"Singin' the Blues\" recorded by Frank Trumbauer and Bix Beiderbecke in 1927.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "This is the documented disease case. Stored wiki URL (Singing_the_Blues) is the Guy Mitchell 1956 pop song page - wrong entity. The real album exists: MB (sim 1.0) matches a 1995 Drive Archive Bix compilation 'Singin' the Blues' whose tracklist contains all 6 keyTracks. Appended Bix bio sentences are accurate of the artist (and truncated mid-word: 'at a bel.'). Repair: rewrite prose around the Beiderbecke/Trumbauer material, repoint or drop the wiki link.",
+    "ours": {
+      "title": "Singin' the Blues",
+      "artist": "Bix Beiderbecke",
+      "year": 1927,
+      "label": "Unknown",
+      "albumDNA": "\"Singing the Blues\" is a popular song composed by Melvin Endsley and published in 1956. The highest-charting version was by Guy Mitchell and the first recording of the song was by Marty Robbins. It is not related to the 1920 jazz song \"Singin' the Blues\" recorded by Frank Trumbauer and Bix Beiderbecke in 1927. Beiderbecke was one of the most influential jazz soloists of the 1920s, a cornet player noted for an inventive lyrical approach and purity of tone, with such clarity of sound that one contemporary famously described it like \"shooting bullets at a bel.",
+      "keyTracks": [
+        "Singin' the Blues",
+        "Way Down Yonder in New Orleans",
+        "I'm Comin' Virginia",
+        "Ostrich Walk",
+        "Riverboat Shuffle",
+        "Three Blind Mice"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "89724786-c96d-4153-89f6-0683bb5d364c",
+          "title": "Singin' the Blues",
+          "date": "1995-??-07",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Bix Beiderbecke"
+          ],
+          "labels": [
+            {
+              "name": "Drive Archive",
+              "catalogNumber": "DE2=41065"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "f2927c6a-9803-4306-939f-03cef1d730a4",
+            "title": "Singin' the Blues",
+            "firstReleaseDate": "1995-??-07",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Singin' the Blues",
+            "Way Down Yonder in New Orleans",
+            "I'm Comin' Virginia",
+            "Ostrich Walk",
+            "Riverboat Shuffle",
+            "Three Blind Mice",
+            "Sorry",
+            "Sugar",
+            "Royal Garden Blues",
+            "Tiger Rag",
+            "Davenport Blues",
+            "Ol' Man River",
+            "Coquette",
+            "Georgia on My Mind"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Singing_the_Blues",
+        "page": {
+          "requestedTitle": "Singing the Blues",
+          "resolvedTitle": "Singing the Blues",
+          "shortDescription": "1956 song performed by Guy Mitchell",
+          "extract": "\"Singing the Blues\" is a popular song composed by Melvin Endsley and published in 1956. The highest-charting version was by Guy Mitchell and the first recording of the song was by Marty Robbins. It is not related to the 1920 jazz song \"Singin' the Blues\" recorded by Frank Trumbauer and Bix Beiderbecke in 1927.\n\n\n== Guy Mitchell ==\nThe best-known recording was released in October 1956 by Guy Mitchell and spent ten weeks at No. 1 on the U.S. Billboard chart from 8 December 1956, to 2 February 1957. It was Mitchell's second and last hit in Italy, on national Musica e Dischi Hit Parade, after \"My Heart Cries For You\" in 1951. An example of the U.S. recording is on Columbia #40769, dated 1956, with the Ray Conniff Orchestra. Mitchell's version was also No. 1 in the UK Singles Chart for three (non-consecutive) weeks in early 1957, one of only four singles to rise to No. 1 on the chart on three occasions, with the other three being \"I Believe\" by Frankie Laine, \"Happy\" by Pharrell Williams and \"What Do You Mean?\" by Justin Bieber. Mitchell's version prominently features whistling in the intro and solo sections.\n\n\n== Marty Robbins and Tommy Steele versions ==\nTwo other charting versions of the song were released almost simultaneously with Mitchell's, one by the English singer Tommy Steele (with the Steelmen) and the other (recorded before Mitchell covered it) by US country singer Marty Robbins.\nTommy Steele's version of \"Singing the Blues\" made number 1 in the UK Singles Chart for one week on 11 January 1957, sandwiched by two of the weeks that Guy Mitchell's version of the same song topped the charts. Steele's recording of the song was not a chart success in the US.\nThe Marty Robbins version, recorded at the Bradley Studios in Nashville, Tennessee, made it to number one on the Billboard C&W Best Sellers chart for 13 weeks in late 1956 and early 1957 and peaked at number seventeen on the US pop chart. In 1983, Gail Davies recorded a cover version, taking her version into the top 20 of the Hot Country Singles chart in the spring of 1983.\n\n\n== Other cover versions ==\nThe song is often revived, and on four occasions new recordings of \"Singing the Blues\" have become UK Top 40 hits. These latter-day hit versions were by Dave Edmunds (1980), Gail Davies (1983), Daniel O'Donnell (1994), and Cliff Richard & the Shadows (2009).\n\n\n== Charting versions ==\n\n\n== More cover versions ==\nTrumpeter Bob Scobey and banjoist/vocalist Clancy Hayes recorded a trad jazz version in 1958 for the LP \"Scobey and Clancy raid the Jukebox\" on the Good Time Jazz label. Other notable cover versions include a 1960 recording by Bill Haley & His Comets, a 1963 version by Dean Martin, and a 1971 version by Black Oak Arkansas. It was recorded by Marie Osmond for her 1975 album In My Little Corner of the World, by Gene Summers on his 1981 French album Gene Summers in Nashville, by Randy Travis on his 1989 album No Holdin' Back, and by The Kentucky Headhunters for their album Stompin' Grounds (1997). A version by Bert Jansch appears on his 2000 release Crimson Moon. Frank Ifield, Max Bygraves and Slim Whitman also recorded the song.\n\"Singing the Blues\" was performed live by Paul McCartney on the MTV show Unplugged in 1991 and included on the subsequent soundtrack, Unplugged (The Official Bootleg).\nHank Snow did it on his 1969 album on RCA \"I Went To Your Wedding\".\nThe song was also performed by Albert Lee.\nThe tune was also sung by Vivian Vance and William Frawley (Ethel and Fred of I Love Lucy fame) for a Ford Motor Company television commercial promoting the Edsel.\nThe Californian pop punk band Groovie Ghoulies covered the song on their third album World Contact Day in 1996.\nThe first line of this song is famously the last line of \"London Calling\" by the Clash, cut short and echoed in the final mix of the song (\"I never felt so much a-like, a-like, a-like...\").\nHugues Aufray and his Skiffle Group recorded a French version of the song, \"Tout le long du chemin\", in 1964.\n\n\n== Use in English football ==\nBirmingham City-supporting radio presenters Tom Ross and Ian Danter released a version to celebrate the club's promotion to the Premier League.  It has been sung since at least the 1969 season by fans of the Midlands club.  Blackburn Rovers fans have been known to sing a version of the song: \"Never felt more like singing the blues, the Rovers win and Burnley lose, oh Rovers, you've got me singing the blues.\"  Everton fans sing a version of this song; \"I've never fe"
+        }
+      }
+    }
+  },
+  {
+    "id": "solo-piano-portraits",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Trilogy is a 2013 live album by Chick Corea and his trio, featuring Corea on piano with Christian McBride on double bass and Brian Blade on drums.",
+    "contradictingQuote": "Trilogy is a 2013 live album by Chick Corea and his trio, featuring Corea on piano with  Christian McBride on double bass and Brian Blade on drums.",
+    "skepticDecision": "The albumDNA is verbatim the Wikipedia extract for 'Trilogy (Chick Corea album)' — a 2013 three-disc live TRIO album with McBride and Blade — whereas our entity is the 2014 solo-piano 'Solo Piano - Portraits'. The prose's whole factual skeleton belongs to a different release.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Trilogy is a 2013 live album by Chick Corea and his trio, featuring Corea on piano with Christian McBride on double bass and Brian Blade on drums.",
+        "problem": "The albumDNA describes a different Chick Corea album ('Trilogy', a 2013 three-disc live trio album), not our item 'Solo Piano - Portraits' (2014, Concord Jazz, solo piano). The MB release for our item is the solo-piano album with no McBride/Blade and a solo tracklist.",
+        "evidenceQuote": "Trilogy is a 2013 live album by Chick Corea and his trio, featuring Corea on piano with Christian McBride on double bass and Brian Blade on drums.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "The catalog fields are correct — MB embedded release 'Chick Corea Solo Piano - Portraits' / release-group 'Solo Piano - Portraits' (Chick Corea, Concord Jazz, 2014) matches title/artist/year/label. But the albumDNA is wholesale about 'Trilogy' (different album), quoted verbatim from the stored wiki page 'Trilogy (Chick Corea album)', and the stored wikipediaUrl points to that wrong Trilogy page. Also keyTracks: 'Improv #1 / How Deep Is the Ocean?' and 'Waltz for Debby' are in the MB tracklist, but the three 'Chick Talks:' spoken-intro keyTracks are not. Verdict entity_mismatch driven by the prose describing a different entity; a repair-writer must rewrite the DNA for the actual Solo Piano - Portraits release and fix the wiki link.",
+    "ours": {
+      "title": "Solo Piano - Portraits",
+      "artist": "Chick Corea",
+      "year": 2014,
+      "label": "Concord Jazz",
+      "albumDNA": "Trilogy is a 2013 live album by Chick Corea and his trio, featuring Corea on piano with Christian McBride on double bass and Brian Blade on drums. The three-disc album was recorded live in Washington, D.C., and Oakland, California, and in Spain, Switzerland, Austria, Slovenia, Turkey, and Japan. The album peaked at number nine on the Billboard Jazz Albums chart in 2014. It won the 2014 Grammy Award for Best Jazz Instrumental Album.",
+      "keyTracks": [
+        "Improv #1 / How Deep Is the Ocean?",
+        "Waltz for Debby",
+        "Pastime Paradise",
+        "'round Midnight",
+        "Pannonica"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "d73ed2cb-2b46-4b72-a184-230c54cac574",
+          "title": "Chick Corea Solo Piano - Portraits",
+          "date": "2014",
+          "country": "XE",
+          "status": "Official",
+          "artists": [
+            "Chick Corea"
+          ],
+          "labels": [
+            {
+              "name": "Concord Jazz",
+              "catalogNumber": "0888072356030"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0022b3cb-5325-4900-8f35-85bdd7428aab",
+            "title": "Solo Piano - Portraits",
+            "firstReleaseDate": "2014-05-02",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Improv #1 / How Deep Is the Ocean?",
+            "Waltz for Debby",
+            "Pastime Paradise",
+            "'round Midnight",
+            "Pannonica",
+            "Blue Monk",
+            "Dusk in Sandi",
+            "Oblivion",
+            "The Yellow Nimbus",
+            "Prelude #2 (Op. 11)",
+            "Prelude #4 (Op. 11)",
+            "Bagatelle #1",
+            "Bagatelle #2",
+            "Bagatelle #3",
+            "Bagatelle #4",
+            "Children's Song #1",
+            "Children's Song #2",
+            "Children's Song #3",
+            "Children's Song #4",
+            "Children's Song #5",
+            "Children's Song #6",
+            "Children's Song #7",
+            "Children's Song #8",
+            "Children's Song #9",
+            "Children's Song #10",
+            "Children's Song #11",
+            "Children's Song #12",
+            "Portrait #1 - Krakow",
+            "Portrait #2 - Krakow",
+            "Portrait #1 - Casablanca",
+            "Portrait #2 - Casablanca",
+            "Portrait #1 - Easton, Maryland",
+            "Portrait #2 - Easton, Maryland",
+            "Portrait #3 - Easton, Maryland",
+            "Portrait #4 - Easton, Maryland",
+            "Portrait #1 - Vilnius",
+            "Portrait #2 - Vilnius"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Trilogy_(Chick_Corea_album)",
+        "page": {
+          "requestedTitle": "Trilogy (Chick Corea album)",
+          "resolvedTitle": "Trilogy (Chick Corea album)",
+          "shortDescription": "2013 live album by Chick Corea",
+          "extract": "Trilogy is a 2013 live album by Chick Corea and his trio, featuring Corea on piano with  Christian McBride on double bass and Brian Blade on drums. The three-disc album was recorded live in Washington, D.C., and Oakland, California, and in Spain, Switzerland, Austria, Slovenia, Turkey, and Japan. The album peaked at number nine on the Billboard Jazz Albums chart in 2014. It won the 2014 Grammy Award for Best Jazz Instrumental Album.\nA follow-up of this album, entitled Trilogy 2 and featuring recordings from the same tour, was issued in 2018. Recordings from the trio's brief tour in 2020, Chick Corea's final tour before his death in 2021, were published in 2025 as Trilogy 3.  \n\n\n== Critical reception ==\n\nJohn Kelman of All About Jazz summarizes his review with the statement: \"It's hard to believe that Corea is now 73 years old but, if anything, he's never been more active—and, with albums as superb as Trilogy, in the company of the equally outstanding McBride and Blade, clearly at the top of his game.\"\nSteve Leggett wrote in his AllMusic review: \"This expansive live release finds Corea working with bassist Christian McBride and drummer Brian Blade, and the three have an uncanny connection, filling space with gorgeous and subtle phrasings, gliding through all manner of styles with a seemingly effortless elegance, grace, and freshness.\" and concludes \"Not exactly a holding pattern, and not exactly a career summation, Trilogy will surely please and delight Corea's many fans.\"\nJohn Fordham of the Guardian wrote: \"Chick Corea, now 73, has shown that his curiosity as well as his playing remain undimmed with genre-bending recent ventures such as his Vigil group. But plenty of Corea fans want nothing more than for him to cut loose with a classic acoustic-jazz trio, and that’s precisely the deal for this three-CD set, recorded live around the world between 2010 and 2012.(..) For Corea admirers, and jazz-piano fans of all kinds, it’s a must.\"\n\n\n== Track listing ==\nDisc one\n\n\"You're My Everything\" (Mort Dixon, Harry Warren, Joseph Young) – 12:00\n\"Recorda Me\" (Joe Henderson) – 7:29\n\"The Song Is You\" (Oscar Hammerstein II, Jerome Kern) – 13:55\n\"Work\" (Thelonious Monk) – 5:14\n\"My Foolish Heart\" (Ned Washington, Victor Young) – 9:20\n\"Fingerprints\" (Chick Corea) – 10:22\n\"Spain\" (Corea) – 18:29\nDisc two\n\n\"This Is New\" (Ira Gershwin, Kurt Weill) – 12:42\n\"Alice in Wonderland\" (Sammy Fain, Bob Hilliard) – 9:04\n\"It Could Happen to You\" (Johnny Burke, Jimmy Van Heusen) – 12:00\n\"Blue Monk\" (Monk) – 10:01\n\"Armando's Rhumba\" (Corea) – 9:13\n\"Op. 11, No. 9\" (Alexander Scriabin) – 10:43\n\"How Deep Is the Ocean?\" (Irving Berlin) – 13:48\nDisc three\n\n\"Homage\" (Corea) – 10:02\n\"Piano Sonata: The Moon\" (Corea) – 29:58\n\"Someday My Prince Will Come\" (Frank Churchill, Larry Morey) – 10:22\n\n\n== Personnel ==\nChick Corea – piano\nChristian McBride – double bass\nBrian Blade – drums\nGuest musicians\n\nJorge Pardo – flute on \"My Foolish Heart\" and \"Spain\"\nNiño Josele – guitar on \"My Foolish Heart\" and \"Spain\"\nGayle Moran Corea – vocals on \"Someday My Prince Will Come\"\n\n\n== Charts ==\n\n\n== References ==\n\n\n== External links ==\nChick Corea Trio – Trilogy (2013) album review by Steve Leggett, credits & releases at AllMusic\nChick Corea Trio – Trilogy (2013) album releases & credits at Discogs\nChick Corea Trio – Trilogy (2013) album to be listened as stream on Spotify"
+        }
+      }
+    }
+  }
+]

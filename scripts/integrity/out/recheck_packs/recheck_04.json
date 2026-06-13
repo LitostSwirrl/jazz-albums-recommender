@@ -1,0 +1,1590 @@
+[
+  {
+    "id": "ryo-kawasaki",
+    "kind": "artist",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.95,
+      "entityMatch": {
+        "musicbrainz": "n/a",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "n/a",
+      "fieldIssues": [
+        {
+          "field": "deathYear",
+          "ours": null,
+          "evidence": 2020,
+          "evidenceQuote": "Ryo Kawasaki (川崎 燎, Kawasaki Ryō; February 25, 1947 – April 13, 2020) was a Japanese jazz fusion guitarist, composer and band leader",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Ryo Kawasaki is a Japanese guitarist and electronic music pioneer",
+          "problem": "Present tense / deathYear null treats him as living; the evidence says he died April 13, 2020",
+          "evidenceQuote": "Japanese jazz guitarist (1947–2020)",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Right entity. birthYear 1947, guitar, guitar-synthesizer pioneering (Roland and Korg collaboration, Kawasaki Synthesizer for the Commodore 64) and fusion-pioneer framing all confirmed. The only error is the missing death (2020); 'cult classics' and 'anticipated later electronic jazz' are editorial."
+    },
+    "ours": {
+      "name": "Ryo Kawasaki",
+      "birthYear": 1947,
+      "deathYear": null,
+      "instruments": [
+        "guitar",
+        "synthesizer"
+      ],
+      "bio": "Ryo Kawasaki is a Japanese guitarist and electronic music pioneer whose jazz-funk fusion albums became cult classics. His guitar synthesizer explorations anticipated later electronic jazz.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ryo_Kawasaki"
+    },
+    "evidence": {
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Ryo_Kawasaki",
+        "page": {
+          "requestedTitle": "Ryo Kawasaki",
+          "resolvedTitle": "Ryo Kawasaki",
+          "shortDescription": "Japanese jazz guitarist (1947–2020)",
+          "extract": "Ryo Kawasaki (川崎 燎, Kawasaki Ryō; February 25, 1947 – April 13, 2020) was a Japanese jazz fusion guitarist, composer and band leader, best known as one of the first musicians to develop and popularise the fusion genre and for helping to develop the guitar synthesizer in collaboration with Roland Corporation and Korg. His album Ryo Kawasaki and the Golden Dragon Live was one of the first all-digital recordings and he created the Kawasaki Synthesizer for the Commodore 64. During the 1960s, he played with various Japanese jazz groups and also formed his own bands. In the early 1970s, he moved to New York City, where he settled and worked with Gil Evans, Elvin Jones, Chico Hamilton, Ted Curson, Joanne Brackeen amongst others. In the mid-1980s, Kawasaki drifted out of performing music in favour of writing music software for computers. He also produced several techno dance singles, formed his own record company called Satellites Records, and later returned to jazz-fusion in 1991.\n\n\n== Life ==\n\n\n=== Early life (1947–1968) ===\nRyo Kawasaki was born on February 25, 1947, in Kōenji, Tokyo, while Japan was still struggling and recovering from the early post World War II period. His father, Torao Kawasaki, was a Japanese diplomat who had worked for The Japanese Ministry of Foreign Affairs since 1919. Torao worked at several Japanese consulates and embassies, including San Francisco, Honolulu, Fengtian (then capital of Manchuria, now Shenyang in China), Shanghai, and Beijing while active as an English teacher and translator for official diplomatic conferences. Ryo's mother, Hiroko, was also multilingual, and spoke German, Russian, English, and Chinese aside from her native tongue Japanese. Hiroko grew up in Manchuria and then met Torao in Shanghai. Torao was already 58 years old when Ryo was born as an only child.\nKawasaki's mother encouraged him to take piano and ballet lessons, and he took voice lessons and solfege at age four and violin lessons at five, and he was reading music before elementary school. As a grade scholar, he began a lifelong fascination with astronomy and electronics (he built his own radios, TVs and audio systems including amplifiers and speakers as well as telescopes). When Ryo was 10, he bought a ukulele and, at 14, he got his first acoustic guitar. The album Midnight Blue by Kenny Burrell and Stanley Turrentine inspired Ryo to study jazz.\nIn high school, he began hanging out at coffee-houses that featured live music, formed a jazz ensemble and built an electronic organ that served as a primitive synthesizer. By the time he was 16, his band was playing professionally in cabarets and strip joints. Although he continued to play music regularly, he attended Nippon University, majored in physics and earned his Bachelor of Science Degree. He also did some teaching and contest judging at the Yamaha musical instrument manufacturer's jazz school. Additionally, he worked as a sound engineer for Japanese Victor Records and BGM/TBS Music, where he learned mixing and editing.\n\n\n=== Early career in Japan (1969–1973) ===\nHe recorded his first solo album for Polydor Records when he was 22. Although he continued to perform with his jazz group, and at a young age was voted the No. 3 jazz guitarist in a Japanese jazz poll, Kawasaki spent most of the next three years working as studio musician on everything from advertising jingles to pop songs including countless radio and TV appearances. He recorded his second album for Toshiba when he was 24. He played with B.B. King at a blues festival and also met George Benson (they jammed for five hours at Kawasaki's house).\nHe also has recorded and worked with notable Japanese jazz musicians such as drummer Takeshi Inomata and Sound limits, saxophonist Jiro Inagaki and His Soul Media, saxophonist Keiichiro Ebisawa, saxophonist Seiichi Nakamura, pianist Masahiko Sato (佐藤允彦), saxophonist Hidehiko Matsumoto (松本英彦) and many others.\n\n\n=== Developments in New York City (1973–2002) ===\n\n\n==== 1973–1979 (as guitarist) ====\n\nIn 1973, Kawasaki arrived in New York. A friend picked him up at the airport and offered him an immediate gig with Joe Lee Wilson playing at the Lincoln Center as part of the Newport Jazz Festival. Soon Kawasaki was jamming regularly as part of the jazz community's \"loft scene\", and was invited to play with Bobbi Humphrey. A few months later, Kawasaki walked up to his apartment and found a stranger waiting for him at his front door. It was Gil Evans and he invited Kawasaki to join The Gil Evans Orchestra (David Sanborn, Howard Johnson, Tom Malone, Lew Soloff) which was then working on a jazz recording of Jimi Hendrix compositions, The Gil Evans Orchestra Plays the Music of Jimi Hendrix. Hendrix had dreamed up the concept with Evans, but Jimi died a week before the project started in 1970. Kawasaki also played on another Gil Evans album on RCA, There Comes a Time, with Tony Williams on drums. Kawasaki rehearsed for a month with the third edition of Tony Williams' Lifetime with trio format with bassist Doug Rauch working with Carlos Santana at that time, but Tony left to spend a year in Europe before the band got the chance to perform in public.\nKawasaki followed in the footsteps of Jim Hall, Gábor Szabó and Larry Coryell by becoming the guitarist in the Chico Hamilton Band, playing on a U.S. tour and working on various film scores that Chico recorded in Hollywood. Kawasaki made his debut U.S. album, Juice, in 1976 for RCA and was one of the first Japanese jazz artists to sign with a major label in the States. Sidemen on the project included Tom Coster (Carlos Santana) and Sam Morrison (Miles Davis). Kawasaki followed that recording with two more albums, Prism and Eight Mile Road, for the Japanese label East Wind. He also joined the Elvin Jones Band for a year-long tour of North and South America and Europe. By 1978, Kawasaki was tired of touring with other bands and returned to his own projects.\nHe explored Music of India, learned ragas and recorded an Audio Fidelity album, Ring Toss, that combined eastern and western music. With Dave Liebman he recorded Nature's Revenge for the German MPS label and they toured Europe. Ryo also toured European jazz festivals with Joanne Brackeen as piano – guitar duo, and they recorded a pair of albums—AFT and Trinkets and Things—for Timeless Records in the Netherlands. In Japan, Sony's Open Sky label signed Ryo for three albums—Mirror of my Mind, Little Tree and Live—the latter, recorded in a Tokyo club, was one of the first all-digital recordings. Notable musicians who participated on those recordings include Michael Brecker, Harvey Mason, Leon Pendarvis, Azar Lawrence, Anthony Jackson, Lincoln Goines, Barbara Morillo aka Ilana, Badal Roy, Nana Vasconcelos, Buddy Williams, Larry Willis, and Alex Blake. He also recorded an album called Sapporo for the Swiss label America Sound in 1980 while touring Switzerland and Germany.\n\n\n==== 1979–1990 (as inventor and programmer) ====\nKawasaki invente"
+        }
+      }
+    }
+  },
+  {
+    "id": "sonny-rollins",
+    "kind": "artist",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.9,
+      "entityMatch": {
+        "musicbrainz": "n/a",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "n/a",
+      "fieldIssues": [
+        {
+          "field": "deathYear",
+          "ours": null,
+          "evidence": 2026,
+          "evidenceQuote": "Walter Theodore \"Sonny\" Rollins (September 7, 1930 – May 25, 2026) was an American jazz tenor saxophonist",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "jazz's greatest living legend",
+          "problem": "Rollins is deceased per the evidence (died May 25, 2026)",
+          "evidenceQuote": "American jazz saxophonist and composer (1930–2026)",
+          "source": "wiki"
+        },
+        {
+          "ourClaim": "Now in his 90s, Rollins remains revered as a musician who never stopped challenging himself",
+          "problem": "Present tense; he died May 25, 2026 per the evidence",
+          "evidenceQuote": "Walter Theodore \"Sonny\" Rollins (September 7, 1930 – May 25, 2026) was an American jazz tenor saxophonist",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Right entity; the death is very recent (2026-05-25, weeks before this audit), so the dataset is stale rather than corrupted. Everything else checks: born 1930, tenor sax, Saxophone Colossus 1956, 'St. Thomas' calypso as best-known composition, Coleman Hawkins lineage (his idol per evidence), 60+ albums as leader. The Williamsburg Bridge sabbatical is not covered by the truncated extract (unverified here, not contradicted); 'Coltrane's equal' is editorial. Judge note: my training memory predates this death; per spec I follow the pack evidence."
+    },
+    "ours": {
+      "name": "Sonny Rollins",
+      "birthYear": 1930,
+      "deathYear": null,
+      "instruments": [
+        "tenor saxophone"
+      ],
+      "bio": "Sonny Rollins is a tenor saxophonist whose massive sound, thematic improvisation, and uncompromising artistic standards have made him jazz's greatest living legend. His 1956 album 'Saxophone Colossus' established him as Coltrane's equal, featuring the calypso 'St. Thomas' which became his signature tune. Famous for his sabbaticals—including a period practicing on the Williamsburg Bridge walkway to avoid disturbing neighbors—Rollins has repeatedly withdrawn from the scene to reassess his music. His improvisations are architectural marvels, building on motifs and developing themes with a logic that connects him to Coleman Hawkins and the saxophone's deepest traditions. Now in his 90s, Rollins remains revered as a musician who never stopped challenging himself.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sonny_Rollins"
+    },
+    "evidence": {
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Sonny_Rollins",
+        "page": {
+          "requestedTitle": "Sonny Rollins",
+          "resolvedTitle": "Sonny Rollins",
+          "shortDescription": "American jazz saxophonist and composer (1930–2026)",
+          "extract": "Walter Theodore \"Sonny\" Rollins (September 7, 1930 – May 25, 2026) was an American jazz tenor saxophonist who is widely recognized as one of the most important and influential jazz musicians.\nIn a seven-decade career, Rollins recorded more than 60 albums as a leader. His 1956 album Saxophone Colossus was selected for preservation by the National Recording Registry of the Library of Congress in 2016. A number of his compositions, including \"St. Thomas\", \"Oleo\", \"Doxy\", and \"Airegin\", have become jazz standards. Rollins was often called \"the greatest living improviser\". He was the last survivor of the 57 jazz musicians depicted in the 1958 photograph A Great Day in Harlem.\nSometimes known as \"saxophone colossus\", Rollins was awarded a lifetime Grammy Award and was honored with the Kennedy Center Honors in 2011. He was credited as a defining figure of the jazz genre.\n\n\n== Early life ==\nWalter Theodore Rollins was born on September 7, 1930, at a tenement house on 137th Street between Lenox Avenue and Seventh Avenue, in Harlem, New York City, to parents – Walter, a naval steward, and Valborg (née Solomon) – who were from what was then the Danish Virgin Islands: his father was born in Saint Croix, his mother in Saint Thomas. The youngest of three siblings, Rollins grew up in central Harlem and its Sugar Hill district in a musical family: his father played the clarinet, his sister played piano, and his older brother played violin. As an infant, Rollins was nicknamed Sonny by his activist grandmother Miriam Solomon, who looked after him while his mother worked. Describing the Harlem of his childhood, Rollins said: \"It was an extraordinary environment. We were surrounded by giants of the black community. You know the writer WEB Du Bois? He lived on our block. ...There were other key people in the civil rights movement. Paul Robeson, Duke Ellington, Coleman Hawkins, Don Redman. All pillars of the black community.\" One of Rollins's mentors was jazz pianist Thelonious Monk.\nRollins attended Edward W. Stitt Junior High School and graduated from Benjamin Franklin High School in East Harlem. Rollins began taking piano lessons at the age of nine but switched to the alto saxophone at age eleven after being inspired by Louis Jordan. In 1946, influenced by his idol Coleman Hawkins, he switched to the tenor saxophone, which ultimately became his signature instrument. \nLargely self-taught, Rollins played in a neighborhood band during his high school years alongside other future jazz legends, including Jackie McLean, Kenny Drew, and Art Taylor.\n\n\n== Career ==\n\n\n=== 1949–1956 ===\nAfter graduating from high school in 1948, Rollins began performing professionally; he made his first recordings in early 1949 as a sideman with the bebop singer Babs Gonzales (a group of which trombonist J. J. Johnson was the arranger). Within the next few months, Rollins began to make a name for himself, recording with Johnson and appearing under the leadership of pianist Bud Powell – alongside trumpeter Fats Navarro and drummer Roy Haynes – on a seminal hard bop session, the basis for recordings of Powell's compositions \"Bouncing with Bud\" and \"Dance of the Infidels\".\nIn early 1950, Rollins was arrested for armed robbery and spent ten months in Rikers Island jail before being released on parole; in 1952, he was re-arrested for violating the terms of his parole by using heroin. Between 1951 and 1953, he recorded with Miles Davis, the Modern Jazz Quartet, Charlie Parker, and Thelonious Monk. A breakthrough arrived in 1954, when Rollins recorded his famous compositions \"Oleo\", \"Airegin\", and \"Doxy\" with a quintet led by Davis that also featured pianist Horace Silver, bassist Percy Heath, and drummer Kenny Clarke. These recordings appear on the album Miles Davis with Sonny Rollins. In Sonny Rollins: The Definitive Musical Guide, Peter Niklas Wilson notes of the recording, \"This probably represents a singular achievement for a musician officially hired as a sideman: he [Rollins] brings three compositions to a colleague's recording session, all three are recorded, and all three immediately become jazz standards.\"\nIn 1955, Rollins entered the Federal Medical Center, Lexington. While there, he volunteered for then-experimental methadone therapy and was able to break his heroin habit, after which he lived for a time in Chicago, briefly rooming with the trumpeter Booker Little. Rollins initially feared sobriety would impair his musicianship, but then went on to greater success.\nRollins briefly joined the Miles Davis Quintet in the summer of 1955. Later that year, he joined the Clifford Brown–Max Roach quintet. The studio albums Clifford Brown and Max Roach at Basin Street and Sonny Rollins Plus 4 document his time in that band. After the deaths of Brown and band pianist Richie Powell in a June 1956 automobile accident, Rollins continued playing with Roach and began releasing albums under his own name on Prestige Records, Blue Note, Riverside, and the Los Angeles label Contemporary.\nHis widely acclaimed album Saxophone Colossus was recorded on June 22, 1956, at Rudy Van Gelder's studio in New Jersey, with Tommy Flanagan on piano, former Jazz Messengers bassist Doug Watkins, and his favorite drummer, Roach. This was Rollins's sixth recording as a leader and it included his best-known composition \"St. Thomas\" – a Caribbean calypso based on \"Sponger Money\", a tune sung to him by his mother in his childhood – as well as the fast bebop number \"Strode Rode\", and \"Moritat\" (the Kurt Weill composition also known as \"Mack the Knife\"). A long blues solo on Saxophone Colossus, \"Blue 7\", was analyzed in depth by the composer and critic Gunther Schuller in a 1958 article in The Jazz Review.\n\nIn the solo for \"St. Thomas\", Rollins used repetition of a rhythmic pattern, and variations of that pattern, covering only a few tones in a tight range, and employing staccato and semi-detached notes. This was interrupted by a sudden flourish, utilizing a much wider range before returning to the former pattern. (Listen to the music sample.) In his book The Jazz Style of Sonny Rollins, David N. Baker explains that Rollins \"very often uses rhythm for its own sake. He will sometimes improvise on a rhythmic pattern instead of on the melody or changes.\"\nFrom his recording of \"St. Thomas\" onwards, Rollins's use of calypso rhythms was one of his signature contributions to jazz; he often performed traditional Caribbean tunes such as \"Hold 'Em Joe\" and \"Don't Stop the Carnival\" and wrote many original calypso-influenced compositions, among them \"Duke of Iron\", \"The Everywhere Calypso\", and \"Global Warming\". The album Saxophone Colossus was selected for preservation by the National Recording Registry of the Library of Congress in 2016.\nIn 1956, Rollins recorded Tenor Madness, using Davis's group – pianist Red Garland, bassist Paul Chambers, and drummer Philly Joe Jones. The title track is the only recording of Rollins with John Coltrane, who was also a membe"
+        }
+      }
+    }
+  },
+  {
+    "id": "sons-of-kemet",
+    "kind": "artist",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.88,
+      "entityMatch": {
+        "musicbrainz": "n/a",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "n/a",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "The group disbanded in 2023 at the height of their influence.",
+          "problem": "Evidence dates the disbanding to 2022 (announced 1 June 2022; short description gives 2011-2022)",
+          "evidenceQuote": "They disbanded in 2022.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Right entity. Formed 2011 (short description 'British jazz band (2011–2022)'), Shabaka Hutchings on saxophone and clarinet, tuba (Marshall then Cross), two drummers, Caribbean folk and African music mix all confirmed. 'Politically charged albums addressed... immigration to colonialism' is not directly evidenced (themes not glossed in extract) -- minor. deathYear is null although the band is defunct per evidence; flag for the data owner if the group schema means dissolution year."
+    },
+    "ours": {
+      "name": "Sons of Kemet",
+      "birthYear": 2011,
+      "deathYear": null,
+      "instruments": [
+        "saxophone",
+        "tuba",
+        "drums"
+      ],
+      "bio": "Sons of Kemet was a British jazz group led by saxophonist and clarinetist Shabaka Hutchings, featuring tuba and two drummers in a lineup that drew on Caribbean carnival traditions and African diasporic music. Their politically charged albums addressed topics from immigration to colonialism, and their explosive live performances made them figureheads of the 2010s London jazz renaissance. The group disbanded in 2023 at the height of their influence.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sons_of_Kemet"
+    },
+    "evidence": {
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Sons_of_Kemet",
+        "page": {
+          "requestedTitle": "Sons of Kemet",
+          "resolvedTitle": "Sons of Kemet",
+          "shortDescription": "British jazz band (2011–2022)",
+          "extract": "Sons of Kemet were a British jazz band formed by Shabaka Hutchings, Oren Marshall, Seb Rochford, and Tom Skinner. Theon Cross replaced Marshall on tuba after the first album, and Eddie Hick replaced Rochford on drums after the third. They disbanded in 2022.\n\n\n== Career ==\nThe band used saxophone and clarinet (Hutchings), tuba (Cross), and two drummers (Skinner, Hick) to make their music and played a mixture of jazz, rock, Caribbean folk, and African music.\nOn 9 September 2013, Sons of Kemet released their debut album Burn, which received the Arts Desk Album of the Year 2013 and a nomination for Gilles Peterson's Album of the Year. Their next album Lest We Forget What We Came Here to Do received the same nomination for the year 2015. The band won Best Jazz Act at the 2013 MOBO Awards.\nOn 30 March 2018, Impulse! released the band's third album, Your Queen Is a Reptile. It was nominated for the 2018 Mercury Prize.\nOn 14 May 2021, the fourth album by Sons of Kemet, Black to the Future, was released. Hubert Adjei-Kontoh, writing for Pitchfork, described the album as a \"propulsive mind- and body-moving record\", while Kitty Empire writing for The Observer described it as \"an eloquent dance between anger and joy\" and praised the lyric writing and instrumentals of the album.\nOn 1 June 2022, they posted that after the current run of shows, \"we will be closing this chapter of the band's life for the foreseeable future.\"\n\n\n== Band members ==\nFinal\n\nShabaka Hutchings – saxophone, clarinet\nTom Skinner – drums\nTheon Cross – tuba\nEddie Hick – drums\nPast\n\nSeb Rochford – drums\nOren Marshall – tuba\n\n\n== Discography ==\nBurn (Naim, 2013)\nLest We Forget What We Came Here to Do (Naim, 2015)\nYour Queen Is a Reptile (Impulse!, 2018)\nBlack to the Future (Impulse!, 2021)\n\n\n== Videography ==\n\n\n== Awards ==\n2013 MOBO Awards – Best Jazz Act (Winner)\n\n\n== References ==\n\n\n== External links ==\nSons of Kemet's channel on YouTube"
+        }
+      }
+    }
+  },
+  {
+    "id": "sun-ra",
+    "kind": "artist",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.6,
+      "entityMatch": {
+        "musicbrainz": "n/a",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "n/a",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "led his Arkestra for over 40 years",
+          "problem": "Evidence has him leading the Arkestra from the mid-1950s until his death in 1993 (he retired in 1992) -- at most about 38-39 years, under 40 on any reading of 'mid-1950s'",
+          "evidenceQuote": "From the mid-1950s until his death, Ra led the musical collective The Arkestra",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Right entity; this is a small-magnitude numeric inflation, not an entity problem -- suggested repair: 'nearly four decades'. Everything else confirmed: 1914-1993, claimed to be an alien from Saturn, pioneer of Afrofuturism, range from swing to electronic to free jazz, Egyptian-inspired costumes, piano and synthesizer. 'Organ' in instruments is not explicitly named by the evidence (lead says piano and synthesizer; 'electronic keyboards') -- unconfirmed, not contradicted. Confidence reflects the fuzzy 'mid-1950s' anchor."
+    },
+    "ours": {
+      "name": "Sun Ra",
+      "birthYear": 1914,
+      "deathYear": 1993,
+      "instruments": [
+        "piano",
+        "synthesizer",
+        "organ"
+      ],
+      "bio": "Sun Ra claimed to be from Saturn and led his Arkestra for over 40 years, pioneering Afrofuturism and space jazz. His cosmic philosophy and experimental music challenged every convention. From swing to electronic music to free jazz, Sun Ra explored it all while wearing Egyptian regalia and preaching interplanetary consciousness.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sun_Ra"
+    },
+    "evidence": {
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Sun_Ra",
+        "page": {
+          "requestedTitle": "Sun Ra",
+          "resolvedTitle": "Sun Ra",
+          "shortDescription": "American jazz composer and bandleader (1914–1993)",
+          "extract": "Le Sony'r Ra (born Herman Poole Blount, May 22, 1914 – May 30, 1993), better known as Sun Ra, was an American jazz composer, bandleader, piano and synthesizer player, and poet known for his experimental music, \"cosmic\" philosophy, prolific output, and theatrical performances. For much of his career, Ra led The Arkestra, an ensemble with an ever-changing name and flexible line-up.\nBorn and raised in Alabama, Blount became involved in the Chicago jazz scene during the late 1940s. He soon abandoned his birth name, taking the name Le Sony'r Ra, shortened to Sun Ra (after Ra, the Egyptian god of the Sun). Claiming to be an alien from Saturn on a mission to preach peace, he developed a mythical persona and an idiosyncratic credo that made him a pioneer of Afrofuturism. Throughout his life he denied ties to his prior identity saying, \"Any name that I use other than Ra is a pseudonym.\" His widely eclectic and avant-garde music echoed the entire history of jazz, from ragtime and early New Orleans hot jazz, to swing music, bebop, free jazz and fusion. His compositions ranged from keyboard solos to works for big bands of over 30 musicians, along with electronic excursions, songs, chants, percussion pieces, and anthems.\nFrom the mid-1950s until his death, Ra led the musical collective The Arkestra, which featured artists such as Marshall Allen, John Gilmore and June Tyson throughout its various iterations. Its performances often included dancers and musicians dressed in elaborate, futuristic costumes inspired by ancient Egyptian attire and the Space Age. Following Ra's retirement in 1992 due to illness, the band remained active as The Sun Ra Arkestra, and, as of 2026, continues performing under the leadership of veteran Ra sideman Marshall Allen.\nThough his mainstream success was limited, Ra was a prolific recording artist and frequent live performer, and remained influential throughout his life for his music and persona. He is now widely considered an innovator; among his distinctions are his pioneering work in free improvisation and modal jazz and his early use of electronic keyboards and synthesizers. Over his career, he recorded dozens of singles and over 100 full-length albums, comprising well over 1,000 songs, making him one of the most prolific recording artists of the 20th century.\n\n\n== Biography ==\n\n\n=== Early life ===\nHe was born Herman Blount on May 22, 1914, in Birmingham, Alabama, as discovered by his biographer, John F. Szwed, and published in his 1997 book, Space Is the Place: The Lives and Times of Sun Ra. He was named after the popular vaudeville stage magician Black Herman, who had deeply impressed his mother. He was nicknamed \"Sonny\" from his childhood, had an older sister and half-brother, and was doted upon by his mother and grandmother.\nFor decades, very little was known about Sun Ra's early life, and he contributed to its mystique. As a self-invented person, he routinely gave evasive, contradictory or seemingly nonsensical answers to personal questions, and denied his birth name. He speculated, only half in jest, that he was distantly related to Elijah Poole, later known as Elijah Muhammad, leader of the Nation of Islam. His birthday for years remained unknown, as his claims ranged from 1910 to 1918. Only a few years before his death, the date of Sun Ra's birth was still a mystery. Jim Macnie's notes for Blue Delight (1989) said that Sun Ra was believed to be about 75 years old. This turned out to be correct; Szwed was able to uncover a wealth of information about his early life, and confirmed a birth date of May 22, 1914.\nAs a child, Blount was a skilled pianist. By the age of 11 or 12, he was composing and sight reading music. Birmingham was an important stop for touring musicians and he saw prominent musicians such as Fletcher Henderson, Duke Ellington, and Fats Waller, and other less well known performers. Sun Ra once said, \"The world let down a lot of good musicians\".\nIn his teenage years, Blount demonstrated prodigious musical talent: many times, according to acquaintances, he went to big band performances and then produced full transcriptions of the bands' songs from memory. By his mid-teens, Blount was performing semi-professionally as a solo pianist, or as a member of various ad hoc jazz and R&B groups. He attended Birmingham's segregated Industrial High School (now known as Parker High School), where he studied under music teacher John T. \"Fess\" Whatley, a demanding disciplinarian who was widely respected and whose classes produced many professional musicians.\nThough deeply religious, his family was not formally associated with any Christian church or sect. Blount had few or no close friends in high school but was remembered as kind-natured and quiet, an honor roll student, and a voracious reader. He took advantage of the Black Masonic Lodge as one of the few places in Birmingham where African Americans had unlimited access to books. Its collection on Freemasonry and other esoteric concepts made a strong impression on him.\nBy his teens, Blount suffered from cryptorchidism. It left him with a nearly constant discomfort that sometimes flared into severe pain. Szwed suggests that Blount felt shame about it and the condition contributed to his isolation.\n\n\n=== Early professional career and college ===\nIn 1934, Blount was offered his first full-time musical job by Ethel Harper, his biology teacher from the high school, who had organized a band to pursue a career as a singer. Blount joined a musicians' trade union and toured with Harper's group through the US Southeast and Midwest. When Harper left the group mid-tour to move to New York (she later was a member of the modestly successful singing group the Ginger Snaps), Blount took over leadership of the group, renaming it the Sonny Blount Orchestra. They continued touring for several months before dissolving as unprofitable. Though the first edition of the Sonny Blount Orchestra was not financially successful, they earned positive notice from fans and other musicians. Blount afterward found steady employment as a musician in Birmingham.\nBirmingham clubs often featured exotic trappings, such as vivid lighting and murals with tropical or oasis scenes. Some believe these influenced the elements Sun Ra incorporated in his later stage shows. Playing for the big bands gave black musicians a sense of pride and togetherness, and they were highly regarded in the black community. They were expected to be disciplined and presentable, and in the segregated South, black musicians had wide acceptance in white society. They often played for elite white society audiences (though they were typically forbidden from associating with the audience).\nIn 1936, Whatley's intercession led to Blount's being awarded a scholarship at Alabama Agricultural and Mechanical University. He was a music education major, studying composition, orchestration, and music theory. He dropped out after a year.\n\n\n=== Trip to Saturn ===\nBlount left"
+        }
+      }
+    }
+  },
+  {
+    "id": "terence-blanchard",
+    "kind": "artist",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.6,
+      "entityMatch": {
+        "musicbrainz": "n/a",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "n/a",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Taking over Art Blakey's trumpet chair alongside fellow New Orleans native Wynton Marsalis",
+          "problem": "Per the evidence Blanchard REPLACED Marsalis in the Jazz Messengers (Marsalis recommended him as his own replacement); they were not in the band together -- 'alongside' misstates the membership relationship (his Messengers partner was Donald Harrison)",
+          "evidenceQuote": "In 1982, Wynton Marsalis recommended Blanchard as his replacement in Art Blakey's Jazz Messengers and Blakey would appoint Blanchard the band's musical director.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Right entity; likely sloppy phrasing for 'succeeding Wynton Marsalis' -- repair is a rewording. Everything else checks: born 1962, New Orleans, Spike Lee collaboration (per-Lee count 'over 20 film scores' not verifiable -- evidence gives 80+ total film/TV scores and 'most of Spike Lee's films'), A Tale of God's Will as Katrina requiem, Fire Shut Up in My Bones as first opera by a Black composer at the Metropolitan Opera opening the 2021-22 season, ongoing mentorship roles. 'composer' appears in the instruments array -- true fact, wrong field semantics; flag for data owner."
+    },
+    "ours": {
+      "name": "Terence Blanchard",
+      "birthYear": 1962,
+      "deathYear": null,
+      "instruments": [
+        "trumpet",
+        "composer"
+      ],
+      "bio": "Terence Blanchard is a trumpeter and composer who has extended the Jazz Messengers tradition while becoming one of Hollywood's most respected film composers. Taking over Art Blakey's trumpet chair alongside fellow New Orleans native Wynton Marsalis, he developed a warm, singing tone and dramatic sensibility that transferred naturally to cinema. His collaboration with Spike Lee has produced over 20 film scores, while his concert works like 'A Tale of God's Will' documented Hurricane Katrina's devastation. In 2021, his opera 'Fire Shut Up in My Bones' became the first by a Black composer staged at the Metropolitan Opera. Blanchard continues to lead powerful groups, mentor young musicians, and compose music that addresses social justice.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Terence_Blanchard"
+    },
+    "evidence": {
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Terence_Blanchard",
+        "page": {
+          "requestedTitle": "Terence Blanchard",
+          "resolvedTitle": "Terence Blanchard",
+          "shortDescription": "American trumpeter and composer (born 1962)",
+          "extract": "Terence Oliver Blanchard (born March 13, 1962) is an American jazz trumpeter and composer. He has also written two operas and more than 80 film and television scores. Blanchard has been nominated for two Academy Awards for Original Score for BlacKkKlansman (2018) and Da 5 Bloods (2020), both directed by Spike Lee, a frequent collaborator.\nBlanchard started his career in 1980 playing in the Lionel Hampton Orchestra while studying jazz at Rutgers University. In 1982, just before he turned 20, he dropped out of Rutgers to join The Jazz Messengers, launching a professional career now in its fifth decade. The Metropolitan Opera in New York staged Blanchard's opera Fire Shut Up in My Bones in its 2021–2022 season, the first opera by an African American composer in the organization's history.\nBlanchard is also a passionate educational mentor. From 2000 to 2011, Blanchard served as artistic director of the Thelonious Monk Institute of Jazz. In 2011, he was named artistic director of the Henry Mancini Institute at the University of Miami, and in 2015, he became a visiting scholar in jazz composition at the Berklee College of Music. In 2019, the University of California, Los Angeles (UCLA), named Blanchard to its Endowed Chair in Jazz Studies, where he remained until 2023. In 2023, SFJAZZ announced the appointment of Blanchard as Executive Artistic Director. He leads the organization's artistic programming and guides its overall creative direction.\nBlanchard was selected as the 2024 National Endowment for the Arts Jazz Masters.\n\n\n== Early life ==\nBlanchard was born in New Orleans, Louisiana, the only child of Wilhelmina and Joseph Oliver Blanchard. His father was a manager at an insurance company and an amateur opera singer.\nBlanchard began playing piano at the age of five, and then at age eight, he switched to the trumpet after hearing Alvin Alcorn perform at his school. Blanchard played trumpet in summer music camps alongside his childhood friends, Wynton Marsalis and Branford Marsalis.\nBlanchard attended St. Augustine High School until transferring to John F. Kennedy High School so he could attend the prestigious New Orleans Center for Creative Arts where he studied under Roger Dickerson and Ellis Marsalis. From 1980 to 1982, Blanchard studied under jazz saxophonist Paul Jeffrey and trumpeter Bill Fielder at Rutgers University.\n\n\n== Career ==\n\nWhile at Rutgers University, Blanchard began touring with the Lionel Hampton Orchestra. In 1982, Wynton Marsalis recommended Blanchard as his replacement in Art Blakey's Jazz Messengers and Blakey would appoint Blanchard the band's musical director. Along with his New Orleans homeboy, Donald Harrison, Blanchard toured extensively and recorded five albums with the legendary band.\nIn 1986, Blanchard and Harrison left the Jazz Messengers to form their own quintet, featuring a rhythm section of young lions, Cyrus Chestnut, Rodney Whitaker, and drummer Carl Allen. The band influenced a new generation of young jazz musicians like Christian McBride, Nicholas Payton, Geoff Keezer, and Roy Hargrove.\nIn 1989, Blanchard stepped away from performance to correct his embouchure, and then a year later launched his solo career. Columbia Records released his self-titled debut, which reached No. 3 on the Billboard Jazz chart.\nAfter performing on soundtracks for Spike Lee movies, including Do the Right Thing (1989) and Mo' Better Blues (1990), Lee hired Blanchard to compose the score for Jungle Fever (1991). Since then, Blanchard has composed the original score for most of Spike Lee's films, including Malcolm X (1992), Clockers (1995), Summer of Sam (1999), 25th Hour (2002), Inside Man (2006), BlacKkKlansman (2018), and Da 5 Bloods (2020).\nIn addition to composing the score for Spike Lee's four-hour Hurricane Katrina documentary for HBO entitled, When the Levees Broke: A Requiem in Four Acts (2006), Blanchard appeared onscreen with his mother to document their search for her destroyed home. A year later, Blue Note Records released Blanchard's A Tale of God's Will (A Requiem for Katrina). The album features Blanchard's rearrangements of his score along with new compositions, providing listeners with his most personal and deeply affecting music to date. The recording won a 2008 Grammy Award for Best Large Jazz Ensemble Album.\nBlanchard has also composed for other directors, including Gina Prince-Bythewood, Regina King, Taylor Hackford, Ron Shelton, and Kasi Lemmons. Entertainment Weekly proclaimed Blanchard \"central to a general resurgence of jazz composition for film.\"\nBlanchard recorded several award-winning albums for Columbia Records, including Simply Stated (1992), The Malcolm X Jazz Suite (1993), In My Solitude: The Billie Holiday Songbook (1994), Romantic Defiance (1995), and The Heart Speaks (1996) featuring Ivan Lins, which was nominated for a Best Latin Jazz Performance Grammy Award.\nIn 1999, producer Peter Gelb signed Blanchard to the Sony Classical label and released Jazz In Film, which reunited Blanchard with Donald Harrison on three tracks. It also featured jazz legends Joe Henderson and Kenny Kirkland, both of whom died soon after the recording.\nBlanchard's next album entitled, Wandering Moon (2000), scored him another Grammy nomination and the prestigious honor of Downbeat Magazine's Artist of the Year.\nIn 2001, Blanchard released his third and final album for Sony Classical entitled, Let's Get Lost. It featured arrangements of classic songs written by Jimmy McHugh performed by his quintet with guest vocalists Diana Krall, Jane Monheit, Dianne Reeves, and Cassandra Wilson. However, it was his instrumental only version of \"Lost In A Fog\" that got Blanchard another Grammy nomination for Best Jazz Instrumental Solo.\nIn 2003, Blanchard signed with Blue Note Records and released Bounce produced by Michael Cuscuna. Two years later, legendary pianist Herbie Hancock produced Flow, garnering two more Grammy Award nominations.\nIn between the two Blue Note recordings, Blanchard was featured on McCoy Tyner's Illuminations with Gary Bartz, Christian McBride and Lewis Nash. The ensemble won the Grammy Award for Best Jazz Instrumental Album.\nBlanchard was a judge for the fifth annual Independent Music Awards to support independent artists' careers.\nIn Disney's 2009 film The Princess and the Frog, Blanchard performed all of the trumpet parts for the alligator character Louis. Blanchard also voiced the role of Earl the bandleader in the riverboat band.\nFifteen years later, Blanchard was invited to produce music for the theme park attraction Tiana's Bayou Adventure, which is inspired by The Princess and the Frog.\nBlanchard made history when his Fire Shut Up in My Bones became the first opera by a Black composer to be presented by the Metropolitan Opera in New York City, opening the company's 2021–22 season.\nA year later, the Met premiered another Blanchard opera entitled, Champion, marking the first time since Richard Strauss that a living composer had two o"
+        }
+      }
+    }
+  },
+  {
+    "id": "world-saxophone-quartet",
+    "kind": "artist",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.85,
+      "entityMatch": {
+        "musicbrainz": "n/a",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "n/a",
+      "fieldIssues": [
+        {
+          "field": "birthYear",
+          "ours": "1976",
+          "evidence": "1977",
+          "evidenceQuote": "The World Saxophone Quartet was an American jazz ensemble founded in 1977",
+          "source": "wiki"
+        },
+        {
+          "field": "deathYear",
+          "ours": "null (implies still active)",
+          "evidence": "disbanded 2016",
+          "evidenceQuote": "The ensemble had split up in 2016.",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Founded in 1976, the group proved that four saxophones could generate the full range of jazz expression",
+          "problem": "Founding year contradicts the entity-matched Wikipedia page, which dates the founding to 1977",
+          "evidenceQuote": "The World Saxophone Quartet was an American jazz ensemble founded in 1977",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Right entity: original membership (Julius Hemphill, Oliver Lake, David Murray, Hamiet Bluiett) confirmed exactly. 'Performing without a rhythm section' is consistent with 'principally recorded and performed as a saxophone quartet' (later sometimes joined by drummers/bassists). The 'Revue' album is unverifiable - the discography is not in the extract. Caveat for human review: founding is sometimes dated late 1976 (first concerts) vs 1977 elsewhere, so the 1976-vs-1977 discrepancy may be a genuine source ambiguity rather than corruption; the evidence as given says 1977. Bio's present tense ('is a groundbreaking ensemble') also conflicts with the 2016 split and 'was' in evidence."
+    },
+    "ours": {
+      "name": "World Saxophone Quartet",
+      "birthYear": 1976,
+      "deathYear": null,
+      "instruments": [
+        "alto saxophone",
+        "tenor saxophone",
+        "baritone saxophone",
+        "soprano saxophone"
+      ],
+      "bio": "The World Saxophone Quartet is a groundbreaking ensemble consisting of four saxophonists—originally Julius Hemphill, Oliver Lake, David Murray, and Hamiet Bluiett—performing without a rhythm section. Founded in 1976, the group proved that four saxophones could generate the full range of jazz expression, from funky grooves to free improvisation to lush harmonies. Their 'Revue' album is a landmark of collective improvisation and composition.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/World_Saxophone_Quartet"
+    },
+    "evidence": {
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/World_Saxophone_Quartet",
+        "page": {
+          "requestedTitle": "World Saxophone Quartet",
+          "resolvedTitle": "World Saxophone Quartet",
+          "shortDescription": "American jazz ensemble",
+          "extract": "The World Saxophone Quartet was an American jazz ensemble founded in 1977, incorporating elements of free jazz, R&B, funk and South African jazz into their music.\nThe original members were Julius Hemphill (alto and soprano saxophone, flute), Oliver Lake (alto and soprano saxophone), Hamiet Bluiett (baritone saxophone, alto clarinet), and David Murray (tenor saxophone, bass clarinet). The first three had worked together as members of the Black Artists' Group in St. Louis, Missouri, and had appeared together on Anthony Braxton's album New York, Fall 1974. In 1991, Hemphill left the group due to illness, and was replaced by Arthur Blythe, although several saxophonists have filled his chair in the years since.  Hemphill died on April 2, 1995. Beginning in the early 1980s, the quartet used Bluiett's composition \"Hattie Wall\" (released on W.S.Q., Live in Zurich, Dances and Ballads, Steppenwolf and Yes We Can) as a signature theme for the group. The group principally recorded and performed as a saxophone quartet, usually with a line-up of two altos, tenor, and baritone (reflecting the composition of a classical string quartet), but were also joined later in their career by drummers, bassists, and other musicians. Occasionally other saxophonists would sit in or substitute for a tour. These guests have included Sam Rivers, Tony Kofi, Steve Potts, Branford Marsalis, James Spaulding and Jorge Sylvester. Hamiet Bluiett died on October 4, 2018, after an extended illness. The ensemble had split up in 2016.\n\n\n== Discography ==\n\n\n=== Predecessor Tack ===\nComposition No. 37 from \"New York, Fall 1974\" (Arista, AL 4032) [Anthony Braxton, Oliver Lake, Julius Hemphill, Hamiet Bluiett]\n\n\n=== Albums ===\n\n\n== References ==\n\n\n== External links ==\nReview of 2009's Yes We Can"
+        }
+      }
+    }
+  },
+  {
+    "id": "tito-puente",
+    "kind": "artist",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.85,
+      "entityMatch": {
+        "musicbrainz": "n/a",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "n/a",
+      "fieldIssues": [
+        {
+          "field": "birthYear",
+          "ours": 0,
+          "evidence": "1923",
+          "evidenceQuote": "Ernest Anthony Puente Jr. (April 20, 1923 – May 31, 2000), commonly known as Tito Puente, was an American musician, songwriter, bandleader, timbalero, vibraphonist and record producer.",
+          "source": "wiki"
+        },
+        {
+          "field": "deathYear",
+          "ours": null,
+          "evidence": "2000",
+          "evidenceQuote": "Ernest Anthony Puente Jr. (April 20, 1923 – May 31, 2000), commonly known as Tito Puente, was an American musician, songwriter, bandleader, timbalero, vibraphonist and record producer.",
+          "source": "wiki"
+        },
+        {
+          "field": "instruments",
+          "ours": [],
+          "evidence": "timbales, vibraphone",
+          "evidenceQuote": "was an American musician, songwriter, bandleader, timbalero, vibraphonist and record producer",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "one of the defining figures of Swing",
+          "problem": "Evidence positively characterizes Puente's idiom as mambo and Latin jazz, not swing; the page's short description is 'American Latin jazz and mambo musician (1923–2000)'.",
+          "evidenceQuote": "He composed dance-oriented mambo and Latin jazz music.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Entity match solid — this is the right Tito Puente, so not an entity_mismatch; but the template bio's one substantive tag (Swing) conflicts with the evidence's positive genre characterization (mambo/Latin jazz). Possible benign explanation: the site's era taxonomy may bucket him by period (1940s big-band/Machito era — evidence notes he replaced the drummer in Machito's band) rather than idiom; still misleading as shipped. Fields are missing-data placeholders; birthYear 0 contradicts documented 1923. deathYear/instruments entries are missing-not-wrong, included as fill values."
+    },
+    "ours": {
+      "name": "Tito Puente",
+      "birthYear": 0,
+      "deathYear": null,
+      "instruments": [],
+      "bio": "Tito Puente was one of the defining figures of Swing, whose recordings remain essential listening for anyone exploring the tradition.",
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Tito Puente",
+          "resolvedTitle": "Tito Puente",
+          "shortDescription": "American Latin jazz and mambo musician (1923–2000)",
+          "extract": "Ernest Anthony Puente Jr. (April 20, 1923 – May 31, 2000), commonly known as Tito Puente, was an American musician, songwriter, bandleader, timbalero, vibraphonist and record producer. He composed dance-oriented mambo and Latin jazz music. He was also known as “El Rey de los Timbales,” or “The King of the Timbales.”\nPuente and his music have appeared in films including The Mambo Kings and Fernando Trueba's Calle 54. He guest-starred on television shows, including Sesame Street and The Simpsons episode \"Who Shot Mr. Burns?\".\n\n\n== Early life ==\nPuente was born on April 20, 1923, at Harlem Hospital Center in the New York borough of Manhattan, the son of Ernest and Felicia Puente, Puerto Ricans living in New York City's Spanish Harlem. His family moved frequently, but he spent the majority of his childhood in Spanish Harlem. Puente's father was the foreman at a razor blade factory. His family called him Ernestito (Spanish diminutive for 'Ernest'), and this became shortened to \"Tito\".\nPuente was first introduced to music through the radio. Described as a hyperactive child, neighbors complained hearing seven-year-old Puente beating on pots and window frames, so his mother sent him to 25-cent piano lessons.  He switched to percussion by the age of 10, drawing influence from jazz drummer Gene Krupa. He later created a song-and-dance duo with his sister Anna in the 1930s and intended to become a dancer, but an ankle tendon injury prevented him from pursuing dance as a career.  Puente also learned from the trios and bambas that played at Plaza San Jose in old San Juan. He heard mambo (now called salsa) music and was influenced by its Afro-Cuban roots. By 13, Puente was considered a prodigy. When he was 16, he played with Ramon Oliver’s band. When the drummer in Machito's band was drafted to the army, Puente subsequently took his place.\n\n\n== Career ==\n\n\n=== Styles and Influences ===\nPuente had distinct Asian influences in his composition and arranging style, all of which came after his service during World War II. After finishing his time in the Navy, Puente attended the Juilliard School of Music to study conducting and orchestration. His conducting teacher was Japanese, further influencing the Asian elements in his compositions. Throughout the rest of his career, Puente traveled to Japan many times while on tour. He said that if it was not for war, he would have never been exposed to their music and culture. “Even in war, [the power of] music, art, dancing, food… always eventually wins.”Puente's introduction to music was jazz drumming with an African American show drummer he remembers as Mr. Williams. During this time, he also learned acrobatic tap and ballroom dancing. Puente introduced new techniques to some percussion instruments that would help redefine how they were used in music. For example, while learning vibraphone and marimba, he introduced piano techniques. He also applied his jazz training to timbales, which was unlike anything that had been before. This helped redefine the timbales as a solo instrument.\n\n\n=== Time in the Navy ===\nPuente served in the Navy for three years during World War II after being drafted in 1942. He was discharged with a Presidential Unit Citation for serving in nine battles on the escort aircraft carrier USS Santee (CVE-29) where his duties included playing alto saxophone and clarinet in the ship's big band as well as occasionally drum set, piano during mess hall, acting as the ship's bugler, and serving as a machine gunner in the battles of Leyte and Midway. The G.I. Bill allowed him to study music at Juilliard School of Music, where he completed his formal education in conducting, orchestration, and theory after three years. Puente described his time in the Navy as, “What you normally study in a four-year music conservatory, but in three months… And it was all done with military discipline… it was intense.”\nPuente was the ship's bugler. Whenever warming up he would play general quarters. One day he forgot to turn off the microphone, leading everyone to believe there was an attack. He hid below deck for a few days due to the anger from crew members for the false alarm. Puente said his worst time in the Navy was every time he had to play taps for someone who was killed.\nWhile aboard the Santee, Puente expanded his compositional skills by learning how to arrange for big bands given the extra time he had. He was coached by Lieutenant Sweeney who he came to be friends with. Sweeney referred to Puente as “Lil’ Ernie” because of his height. The first chart Puente arranged was ‘El Botellero’ which he sent to Machito and Mario Bauza in New York City.\n\n\n=== Post-Navy ===\nPuente was offered a delayed return to the ship so he could go to different parts of the Orient (LINK). He was given several months to stop in each port city to learn about music, food, and customs. During this time he learned a lot about Asian music, experienced the culture, and learned how they apply music theory in their compositions. He learned that they use chord voicings in fourths, wrote melodies based on scales, and more. This influenced pieces such as \"Hong Kong Mambo,\" “Mambo Buddha,\" and \"Picadillo.\" After finishing his time in the Navy, Puente attended the Juilliard School of Music to study orchestration and conducting.\n\nBands wanted Puente playing up front rather than in the back like most big bands. Not only did he play in a unique and revolutionary way, he also put on a show for the audiences. Sometimes he was the show. Puente was also a popular arranger given his background and the influence of past mentors. By 1948, Puente started his own group.\nDuring the 1950s, Puente was at the height of his popularity and helped to bring Cuban and Caribbean sounds like mambo, son, and cha-cha-chá, to mainstream audiences. His album Dance Mania was released in 1958.\nAmong his compositions is the cha-cha-chá song \"Oye Cómo Va\" (1963), popularized by Latin rock musician Carlos Santana and later interpreted, among others, by Julio Iglesias, Irakere and Celia Cruz. In 1969, he received the key to the City of New York from former Mayor John Lindsay. In 1992, he was inducted into the National Congressional Record and in 1993, he received the James Smithson Bicentennial Medal from the Smithsonian Institution.\n\n\n=== The Palladium Era ===\nPuente is one of the subjects of La Época – The Palladium Era, a documentary about the Palladium era in New York, Cuban music and rhythms, mambo and salsa as dances and music and much more. The documentary discusses many of Puente's, as well as Arsenio Rodríguez's, contributions and features interviews with some of the musicians Puente recorded with.\nBeginning in the 1950s, Americans fell in love with mambo. In New York City, the Palladium Ballroom was the “Home of the Mambo.” It had been converted from the Alma Dance Studio into a nightclub by Tommy Morton in 1946.\nMachito, who was popular and sold lots of records, was hired along with musicians to play"
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Tito Puente",
+            "shortDescription": "American Latin jazz and mambo musician (1923–2000)",
+            "extractHead": "Ernest Anthony Puente Jr. (April 20, 1923 – May 31, 2000), commonly known as Tito Puente, was an American musician, songwriter, bandleader, timbalero, vibraphonist and record producer. He composed dance-oriented mambo and Latin jazz music. He was also known as “El Rey de los Timbales,” or “The King of the Timbales.”\nPuente and his music have appeared in films including The Mambo Kings and Fernando Trueba's Calle 54. He guest-starred on television shows, including Sesame Street and The Simpsons e"
+          },
+          {
+            "resolvedTitle": "Tito Puente Amphitheatre",
+            "shortDescription": "Concert venue in San Juan, Puerto Rico",
+            "extractHead": "The Tito Puente Amphitheatre (or Anfiteatro Tito Puente in Spanish) is a concert amphitheater in San Juan, Puerto Rico, named after late mambo musician and percussionist, Tito Puente. It was previously named the Luis Muñoz Marín Amphitheatre (or Anfiteatro Luis Muñoz Marín).\nWith a maximum capacity of just 3,000 people, the Tito Puente Amphitheatre is a frequent spot for smaller, more \"intimate\" concert events, and hosts  numerous artists performing many styles of music. The venue is home of the"
+          },
+          {
+            "resolvedTitle": "Tito Puente Swings, The Exciting Lupe Sings",
+            "shortDescription": "1965 studio album by La Lupe, Tito Puente",
+            "extractHead": "Tito Puente Swings, The Exciting Lupe Sings, also known as La exitante Lupe canta con el maestro Tito Puente is an album by La Lupe and Tito Puente. It was released by Tico Records in 1965. AllMusic gave the album a rating of two-and-a-half stars.\n\n\n== Track listing ==\nSide A\n\n\"Todo\" (A. Alguerod) [2:00]\n\"Yo No Lloro Mas\" (Myrta Silva) [2:58]\n\"Bomba Na' Ma'\" (Rafael Davila) [2:44]\n\"Adios\" (A. Alguerod) [2:50]\n\"Menealo (Tiene La Azucar Abajo)\" (Luis Kalaff) [3:04]\n\"Homenaje a Juan Vicente\" (Billo"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "solo-flight",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.85,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "It was first recorded in 1956 with Mitch Miller and his orchestra, and played a prominent part in the 1971 motion picture Play Misty for Me.",
+          "problem": "Sentence lifted from Erroll Garner's bio where 'It' refers to his composition 'Misty'; pasted here it falsely asserts the 1952 album Solo Flight was first recorded in 1956 (MB: released 1952, Columbia CL 6209).",
+          "evidenceQuote": "His instrumental ballad \"Misty\", his best-known composition, has become a jazz standard. It was first recorded in 1956 with Mitch Miller and his orchestra, and played a prominent part in the 1971 motion picture Play Misty for Me.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Album entity is right: embedded MB release confirms title, Erroll Garner, 1952, Columbia CL 6209, the two named standouts, and all 5 keyTracks. The Misty sentence is the corruption. Also questionable but editorial: 'delivers a bebop program' - the Garner wiki page says he was 'not a bebop musician per se'; not flagged as a wrongClaim (genre framing), but a repair-writer should reword. Stored wiki URL is the artist page, not an album page (fallback, not a collision)."
+    },
+    "ours": {
+      "title": "Solo Flight",
+      "artist": "Erroll Garner",
+      "year": 1952,
+      "label": "Columbia",
+      "albumDNA": "With Solo Flight (1952), pianist Erroll Garner delivers a bebop program for the Columbia label. Standouts include \"Cocktails for Two\" and \"It Don't Mean a Thing (If It Ain't Got That Swing)\". Columbia Records gave jazz wide exposure, releasing landmark albums by Miles Davis, Thelonious Monk, and Dave Brubeck. It was first recorded in 1956 with Mitch Miller and his orchestra, and played a prominent part in the 1971 motion picture Play Misty for Me.",
+      "keyTracks": [
+        "Cocktails for Two",
+        "It Don't Mean a Thing (If It Ain't Got That Swing)",
+        "Chopin Impressions",
+        "Love Me or Leave Me",
+        "With Every Breath I Take"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Erroll_Garner"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "26430f09-d9b1-4c76-961a-0b9896b203b3",
+          "title": "Solo Flight",
+          "date": "1952",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Erroll Garner"
+          ],
+          "labels": [
+            {
+              "name": "Columbia",
+              "catalogNumber": "CL 6209"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "04e67b35-b608-4c60-9eff-af65c708dec1",
+            "title": "Solo Flight",
+            "firstReleaseDate": "1952",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Cocktails for Two",
+            "It Don't Mean a Thing (If It Ain't Got That Swing)",
+            "Chopin Impressions",
+            "Love Me or Leave Me",
+            "With Every Breath I Take",
+            "How Come You Do Me Like You Do",
+            "Willow Me",
+            "Dancing in the Dark"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Erroll_Garner",
+        "page": {
+          "requestedTitle": "Erroll Garner",
+          "resolvedTitle": "Erroll Garner",
+          "shortDescription": "American jazz pianist and composer (1921–1977)",
+          "extract": "Erroll Louis Garner (June 15, 1921 – January 2, 1977) was an American jazz pianist and composer known for his swing playing and ballads. His instrumental ballad \"Misty\", his best-known composition, has become a jazz standard. It was first recorded in 1956 with Mitch Miller and his orchestra, and played a prominent part in the 1971 motion picture Play Misty for Me.\nScott Yanow of AllMusic calls him \"one of the most distinctive of all pianists\" and a \"brilliant virtuoso\". Garner received a star on the Hollywood Walk of Fame at 6363 Hollywood Boulevard. His live album Concert by the Sea, first released in 1955, sold more than 1 million copies by 1958, and Yanow's opinion of the album is that it \"made such a strong impression that Garner was considered immortal from then on.\"\n\n\n== Life and career ==\nGarner was born, along with twin brother Ernest in Pittsburgh, Pennsylvania, on June 15, 1921, the youngest of six children. He attended George Westinghouse High School (as did fellow pianists Billy Strayhorn and Ahmad Jamal). Interviews with his family, music teachers, other musicians, and a detailed family tree can be found in Erroll Garner: The Most Happy Piano by James M. Doran.\n\n\n=== Piano career ===\n\nGarner began playing piano at the age of three. His elder siblings were taught piano by a \"Miss Bowman\". From an early age, Erroll would sit down and play anything she had demonstrated, \"just like Miss Bowman\", his eldest sister Martha said. Garner was self-taught and remained an \"ear player\" all his life, never learning to read music. At the age of seven, he began appearing on the radio station KDKA in Pittsburgh with a group named the Candy Kids. By the age of 11, he was playing on the Allegheny riverboats. In 1937, he joined local saxophonist Leroy Brown.\nGarner played locally in the shadow of his older brother Linton, also a pianist.\nGarner moved to New York City in 1944. He briefly worked with the bassist Slam Stewart, and although not a bebop musician per se, in 1947 played with Charlie Parker on the \"Cool Blues\" session. Although Garner's admission to the Pittsburgh music union initially was refused because of his inability to read music, the union relented in 1956 and made him an honorary member. He is credited with having had a superb musical memory. After attending a concert by Russian classical pianist Emil Gilels, Garner returned to his apartment and was able to play a large portion of the performed music by heart.\n\n\n=== Columbia Records Lawsuit ===\nGarner sued Columbia Records in 1960 for breach of contract after they released several recordings without his consent. He had signed a five-year deal with Columbia in 1956, which contained an unprecedented clause (negotiated with the aid of manager Martha Glaser) giving Garner the right to approve the release of any of his recorded music. After three years of litigation, during which time Columbia continued to release Garner recordings against his will, the New York State Supreme Court ruled in Garner's favor in a landmark decision with regard to artists' rights, and Columbia paid Garner a substantial settlement and recalled all of the unauthorized records from its distributors.\n\n\n== Personal life ==\n\n\n=== Death ===\nGarner died of cardiac arrest related to emphysema on January 2, 1977, aged 55. He is buried in Pittsburgh's Homewood Cemetery.\n\n\n=== Management, estate and heirs ===\nGarner's career was supervised by music manager Martha Glaser from 1950 until his death in 1977; he was her only client.\nNeither Garner's partner Rosalyn Noisette nor his daughter Kim Garner were able to be his heirs. Glaser became his estate executor. After Glaser's death, her niece Susan Rosenberg inherited the charge to deal with Garner's cultural legacy.\n\n\n== Playing style ==\n\nShort in stature (5 feet 2 inches [157 cm]), Garner performed sitting on multiple telephone directories. He was also known for his vocalizations while playing, which can be heard on many of his recordings. He helped to bridge the gap for jazz musicians between nightclubs and the concert hall.\nCalled \"one of the most distinctive of all pianists\" by Scott Yanow, Garner showed that a \"creative jazz musician can be very popular without watering down his music\" or changing his personal style. He has been described as a \"brilliant virtuoso who sounded unlike anyone else\", using an \"orchestral approach straight from the swing era but...open to the innovations of bop.\" His distinctive style could swing like no other, but "
+        }
+      }
+    }
+  },
+  {
+    "id": "horace-silver-and-the-jazz-messengers",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.6,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "released on Blue Note in October 1956",
+          "problem": "The embedded MB release (Blue Note BLP 1518) and its release group date the album 1955, contradicting an October 1956 release; the site's own year field (1955) agrees with MB and contradicts the prose, so one of the two must be wrong either way.",
+          "evidenceQuote": "date: \"1955\"; releaseGroup.firstReleaseDate: \"1955\"",
+          "source": "mb"
+        }
+      ],
+      "notes": "Caution for repair: embedded MBID is authoritative per spec, but the 'October 1956' wording reads like Wikipedia prose about the 12-inch issue, while MB's 1955 may reflect the 10-inch era; verify externally before rewriting either the prose or the year. Unverified claims (no wiki evidence in pack): the two 1955 10-inch LPs (Horace Silver Quintet Vol. 3 / Vol. 4), session dates November 13, 1954 and February 6, 1955, 'Silver's debut 12\"', and the personnel (Mobley, Dorham, Watkins, Blakey). Label Blue Note and year field 1955 match MB; all 5 keyTracks on the MB tracklist."
+    },
+    "ours": {
+      "title": "Horace Silver and the Jazz Messengers",
+      "artist": "The Jazz Messengers",
+      "year": 1955,
+      "label": "Blue Note",
+      "albumDNA": "Horace Silver and the Jazz Messengers is an album by Horace Silver and the Jazz Messengers compiling two 1955 10\" LPs—Horace Silver Quintet, Vol. 3 and Horace Silver Quintet, Vol. 4 —recorded on November 13, 1954, and February 6, 1955, respectively, and released on Blue Note in October 1956—Silver’s debut 12\". The quintet features horn section Hank Mobley and Kenny Dorham and rhythm section Doug Watkins and Art Blakey.",
+      "keyTracks": [
+        "Room 608",
+        "Creepin' In",
+        "Stop Time",
+        "To Whom It May Concern",
+        "Hippy"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "41f3eb80-e632-4e1e-8c21-8bb1c6ce5d28",
+          "title": "Horace Silver and the Jazz Messengers",
+          "date": "1955",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Horace Silver",
+            "The Jazz Messengers"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": "BLP 1518"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "ea8ca1bb-5a93-40d8-aa99-dec4fe715af1",
+            "title": "Horace Silver and the Jazz Messengers",
+            "firstReleaseDate": "1955",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Room 608",
+            "Creepin' In",
+            "Stop Time",
+            "To Whom It May Concern",
+            "Hippy",
+            "The Preacher",
+            "Hankerin'",
+            "Doodlin'"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "louis-armstrong-meets-oscar-peterson",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.6,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "year",
+          "ours": "1957",
+          "evidence": "1959",
+          "evidenceQuote": "Louis Armstrong Meets Oscar Peterson is a 1959 studio album (recorded in 1957) by Louis Armstrong, accompanied by Oscar Peterson.",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Louis Armstrong Meets Oscar Peterson is a 1959 studio album",
+          "problem": "Contradicts the item's own year field (1957) and the MB release-group first release date; the item is internally inconsistent - whichever source is right, either the prose year or the year field is wrong",
+          "evidenceQuote": "releaseGroup firstReleaseDate: \"1957\"",
+          "source": "mb"
+        }
+      ],
+      "notes": "Internal inconsistency: year field says 1957, prose says '1959 studio album'. The two entity-matched evidence sources disagree with each other: MB release group gives firstReleaseDate 1957 (embedded method, though the embedded release itself is a 1985 German Verve CD reissue), while Wikipedia says 1959 release recorded in 1957. Judge's background knowledge (not citable) leans toward 1959 release / 1957 recording, which would make the year field the error - needs external confirmation before repair. 'That Old Feeling' and all other keyTracks are on the MB tracklist ('Blues in the Night' matches 'Blues in the Night (My Mama Done Tol' Me)'); 'vocal jazz output from 1957' is consistent with the recorded-in-1957 evidence."
+    },
+    "ours": {
+      "title": "Louis Armstrong Meets Oscar Peterson",
+      "artist": "Louis Armstrong",
+      "year": 1957,
+      "label": "Verve",
+      "albumDNA": "Louis Armstrong Meets Oscar Peterson is a 1959 studio album by Louis Armstrong, accompanied by Oscar Peterson. This Verve date features \"That Old Feeling\" as part of Louis Armstrong's vocal jazz output from 1957.",
+      "keyTracks": [
+        "That Old Feeling",
+        "Let's Fall in Love",
+        "I'll Never Be the Same",
+        "Blues in the Night",
+        "How Long Has This Been Going On?"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Louis_Armstrong_Meets_Oscar_Peterson"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "c6736765-9d4d-4ff8-8411-bd62523a6dba",
+          "title": "Louis Armstrong meets Oscar Peterson",
+          "date": "1985",
+          "country": "DE",
+          "status": "Official",
+          "artists": [
+            "Louis Armstrong",
+            "Oscar Peterson"
+          ],
+          "labels": [
+            {
+              "name": "Verve",
+              "catalogNumber": "825 713-2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "2cd03f5b-d935-326f-9368-f34583f46570",
+            "title": "Louis Armstrong Meets Oscar Peterson",
+            "firstReleaseDate": "1957",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "That Old Feeling",
+            "Let's Fall in Love",
+            "I'll Never Be the Same",
+            "Blues in the Night (My Mama Done Tol' Me)",
+            "How Long Has This Been Going On?",
+            "I Was Doing All Right",
+            "What's New",
+            "Moon Song",
+            "Just One of Those Things",
+            "There's No You",
+            "You Go to My Head",
+            "Sweet Lorraine",
+            "I Get a Kick Out of You",
+            "Makin' Whoopee",
+            "Willow Weep for Me",
+            "Let's Do It (Let's Fall in Love)"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Louis_Armstrong_Meets_Oscar_Peterson",
+        "page": {
+          "requestedTitle": "Louis Armstrong Meets Oscar Peterson",
+          "resolvedTitle": "Louis Armstrong Meets Oscar Peterson",
+          "shortDescription": "1959 studio album by Louis Armstrong and Oscar Peterson",
+          "extract": "Louis Armstrong Meets Oscar Peterson is a 1959 studio album (recorded in 1957) by Louis Armstrong, accompanied by Oscar Peterson.\nThe album was reissued in 1997 on CD with four bonus tracks, recorded at the sessions that produced Ella and Louis Again.\n\n\n== Track listing ==\n\"That Old Feeling\" (Lew Brown, Sammy Fain) – 2:42\n\"Let's Fall in Love\" (Harold Arlen, Ted Koehler) – 3:14\n\"I'll Never Be the Same\" (Matty Malneck, Frank Signorelli, Gus Kahn) – 3:29\n\"Blues in the Night\" (Arlen, Johnny Mercer) – 5:10\n\"How Long Has This Been Going On?\" (George Gershwin, Ira Gershwin) – 5:56\n\"I Was Doing All Right\" (G. Gershwin, I. Gershwin) – 3:20\n\"What's New?\" (Sonny Burke, Bob Haggart) – 2:40\n\"Moon Song\" (Sam Coslow, Arthur Johnston) – 4:31\n\"Just One of Those Things\" (Cole Porter) – 4:02\n\"There's No You\" (Tom Adair, Hal Hopper) – 2:14\n\"You Go to My Head\" (J. Fred Coots, Haven Gillespie) – 6:24\n\"Sweet Lorraine\" (Cliff Burwell, Mitchell Parish) – 5:11\n\n\n=== Bonus tracks ===\n\"I Get a Kick out of You\" (Porter) – 4:16\n\"Makin' Whoopee\" (Walter Donaldson, Kahn) – 3:55\n\"Willow Weep for Me\" (Ann Ronell) – 4:16\n\"Let's Do It (Let's Fall in Love)\" (Porter) – 8:42\n\n\n== Personnel ==\n\n\n=== Performance ===\nLouis Armstrong – trumpet, vocals\nOscar Peterson – piano\nHerb Ellis – guitar\nRay Brown – double bass\nLouie Bellson – drums\n\n\n=== Production ===\nLeonard Feather – liner notes\nVal Valentin \t– engineer\nNorman Granz – producer\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "the-most-happy-piano",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.85,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "no"
+      },
+      "wikiLinkVerdict": "wrong_entity",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "It was first recorded in 1956 with Mitch Miller and his orchestra, and played a prominent part in the 1971 motion picture Play Misty for Me.",
+          "problem": "Sentence is lifted verbatim from the Erroll Garner biography page, where 'It' refers to Garner's composition 'Misty', not to this album; as written it misattributes the song's facts (1956 Mitch Miller recording, Play Misty for Me) to The Most Happy Piano. 'Misty' is not even on this album's MB tracklist.",
+          "evidenceQuote": "His instrumental ballad \"Misty\", his best-known composition, has become a jazz standard. It was first recorded in 1956 with Mitch Miller and his orchestra, and played a prominent part in the 1971 motion picture Play Misty for Me.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "MB (search, similarity 1.0) confirms the album itself: Columbia CL 939, 1957, Erroll Garner, and all 5 keyTracks. First two prose sentences are fine ('cool jazz program' is editorial). The final sentence is a referent-swapped graft from the artist bio about the song 'Misty' - delete or rewrite it. Stored wikipediaUrl points to the Erroll Garner artist page, not an album article, so it is counted wrong_entity for this album item; if no album article exists, drop the link rather than keep the artist page."
+    },
+    "ours": {
+      "title": "The Most Happy Piano",
+      "artist": "Erroll Garner",
+      "year": 1957,
+      "label": "Columbia",
+      "albumDNA": "With The Most Happy Piano (1957), pianist Erroll Garner delivers a cool jazz program for the Columbia label. Among the tracks are \"Girl of My Dreams\" and \"But Not for Me\". It was first recorded in 1956 with Mitch Miller and his orchestra, and played a prominent part in the 1971 motion picture Play Misty for Me.",
+      "keyTracks": [
+        "Girl of My Dreams",
+        "But Not for Me",
+        "Passing Through",
+        "Time on My Hands",
+        "Alexander's Ragtime Band"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Erroll_Garner"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "45d8ab9a-b7cf-4054-a38f-ad7d1ceec39a",
+          "title": "The Most Happy Piano",
+          "date": "1957",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Erroll Garner"
+          ],
+          "labels": [
+            {
+              "name": "Columbia",
+              "catalogNumber": "CL 939"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0b150035-acbe-4510-b43c-5c3ac78724ba",
+            "title": "The Most Happy Piano",
+            "firstReleaseDate": "1957",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Girl of My Dreams",
+            "But Not for Me",
+            "Passing Through",
+            "Time on My Hands",
+            "Alexander's Ragtime Band",
+            "Full Moon and Empty Arms",
+            "Mambo 207",
+            "The Way Back Blues",
+            "Ol' Man River"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Erroll_Garner",
+        "page": {
+          "requestedTitle": "Erroll Garner",
+          "resolvedTitle": "Erroll Garner",
+          "shortDescription": "American jazz pianist and composer (1921–1977)",
+          "extract": "Erroll Louis Garner (June 15, 1921 – January 2, 1977) was an American jazz pianist and composer known for his swing playing and ballads. His instrumental ballad \"Misty\", his best-known composition, has become a jazz standard. It was first recorded in 1956 with Mitch Miller and his orchestra, and played a prominent part in the 1971 motion picture Play Misty for Me.\nScott Yanow of AllMusic calls him \"one of the most distinctive of all pianists\" and a \"brilliant virtuoso\". Garner received a star on the Hollywood Walk of Fame at 6363 Hollywood Boulevard. His live album Concert by the Sea, first released in 1955, sold more than 1 million copies by 1958, and Yanow's opinion of the album is that it \"made such a strong impression that Garner was considered immortal from then on.\"\n\n\n== Life and career ==\nGarner was born, along with twin brother Ernest in Pittsburgh, Pennsylvania, on June 15, 1921, the youngest of six children. He attended George Westinghouse High School (as did fellow pianists Billy Strayhorn and Ahmad Jamal). Interviews with his family, music teachers, other musicians, and a detailed family tree can be found in Erroll Garner: The Most Happy Piano by James M. Doran.\n\n\n=== Piano career ===\n\nGarner began playing piano at the age of three. His elder siblings were taught piano by a \"Miss Bowman\". From an early age, Erroll would sit down and play anything she had demonstrated, \"just like Miss Bowman\", his eldest sister Martha said. Garner was self-taught and remained an \"ear player\" all his life, never learning to read music. At the age of seven, he began appearing on the radio station KDKA in Pittsburgh with a group named the Candy Kids. By the age of 11, he was playing on the Allegheny riverboats. In 1937, he joined local saxophonist Leroy Brown.\nGarner played locally in the shadow of his older brother Linton, also a pianist.\nGarner moved to New York City in 1944. He briefly worked with the bassist Slam Stewart, and although not a bebop musician per se, in 1947 played with Charlie Parker on the \"Cool Blues\" session. Although Garner's admission to the Pittsburgh music union initially was refused because of his inability to read music, the union relented in 1956 and made him an honorary member. He is credited with having had a superb musical memory. After attending a concert by Russian classical pianist Emil Gilels, Garner returned to his apartment and was able to play a large portion of the performed music by heart.\n\n\n=== Columbia Records Lawsuit ===\nGarner sued Columbia Records in 1960 for breach of contract after they released several recordings without his consent. He had signed a five-year deal with Columbia in 1956, which contained an unprecedented clause (negotiated with the aid of manager Martha Glaser) giving Garner the right to approve the release of any of his recorded music. After three years of litigation, during which time Columbia continued to release Garner recordings against his will, the New York State Supreme Court ruled in Garner's favor in a landmark decision with regard to artists' rights, and Columbia paid Garner a substantial settlement and recalled all of the unauthorized records from its distributors.\n\n\n== Personal life ==\n\n\n=== Death ===\nGarner died of cardiac arrest related to emphysema on January 2, 1977, aged 55. He is buried in Pittsburgh's Homewood Cemetery.\n\n\n=== Management, estate and heirs ===\nGarner's career was supervised by music manager Martha Glaser from 1950 until his death in 1977; he was her only client.\nNeither Garner's partner Rosalyn Noisette nor his daughter Kim Garner were able to be his heirs. Glaser became his estate executor. After Glaser's death, her niece Susan Rosenberg inherited the charge to deal with Garner's cultural legacy.\n\n\n== Playing style ==\n\nShort in stature (5 feet 2 inches [157 cm]), Garner performed sitting on multiple telephone directories. He was also known for his vocalizations while playing, which can be heard on many of his recordings. He helped to bridge the gap for jazz musicians between nightclubs and the concert hall.\nCalled \"one of the most distinctive of all pianists\" by Scott Yanow, Garner showed that a \"creative jazz musician can be very popular without watering down his music\" or changing his personal style. He has been described as a \"brilliant virtuoso who sounded unlike anyone else\", using an \"orchestral approach straight from the swing era but...open to the innovations of bop.\" His distinctive style could swing like no other, but "
+        }
+      }
+    }
+  },
+  {
+    "id": "little-girl-blue",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.5,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "year",
+          "ours": "1958",
+          "evidence": "February 1959 per Wikipedia (MusicBrainz says 1958-06-24)",
+          "evidenceQuote": "It was released by Bethlehem Records in February 1959.",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "It was released by Bethlehem Records in February 1959.",
+          "problem": "Contradicts the embedded MusicBrainz release date (authoritative per evidence rules) and is internally inconsistent with our own year field (1958).",
+          "evidenceQuote": "date: 1958-06-24; releaseGroup.firstReleaseDate: 1958-06-24",
+          "source": "mb"
+        }
+      ],
+      "notes": "Right entity throughout (artist, label, tracklist all match both sources; all 5 keyTracks on MB tracklist). The problem is the release date: our year field says 1958, our prose says February 1959, and the two evidence sources contradict each other (MB embedded: 1958-06-24; Wikipedia: February 1959, shortDescription '1959 debut studio album', with a detailed sourced narrative — announced in Billboard December 1958, released February 1959). At least one of our two stated dates is wrong whichever source is right. Wikipedia's account is detailed and cited while the MB date is a bare field, so the Feb 1959 / year=1959 reading looks more likely correct, but a human must pick the canonical year and make field and prose agree."
+    },
+    "ours": {
+      "title": "Little Girl Blue",
+      "artist": "Nina Simone",
+      "year": 1958,
+      "label": "Bethlehem Records",
+      "albumDNA": "Little Girl Blue: Jazz as Played in an Exclusive Side Street Club is the debut album by the jazz pianist and singer Nina Simone. It was released by Bethlehem Records in February 1959. It was recorded in late 1957 but its release was held up by the label. Due to the delay and the lack of any promotional single either immediately before or alongside the album, Simone was dissatisfied with Bethlehem and signed with Colpix Records in April 1959. She recorded the tracks for her second album – what would become The Amazing Nina Simone – the same month.",
+      "keyTracks": [
+        "Mood Indigo",
+        "Don’t Smoke in Bed",
+        "He Needs Me",
+        "Little Girl Blue",
+        "Love Me or Leave Me"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Little_Girl_Blue_(album)"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "8f663ff6-b63f-4501-86ae-40b3cc41448b",
+          "title": "Little Girl Blue",
+          "date": "1958-06-24",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Nina Simone"
+          ],
+          "labels": [
+            {
+              "name": "Bethlehem Records",
+              "catalogNumber": "BCP-6028"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "19ca48c1-af98-3000-bc9a-97ef5fa3e3be",
+            "title": "Little Girl Blue",
+            "firstReleaseDate": "1958-06-24",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Mood Indigo",
+            "Don’t Smoke in Bed",
+            "He Needs Me",
+            "Little Girl Blue",
+            "Love Me or Leave Me",
+            "My Baby Just Cares for Me",
+            "Good Bait",
+            "Plain Gold Ring",
+            "You’ll Never Walk Alone",
+            "Porgy",
+            "Central Park Blues"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Little_Girl_Blue_(album)",
+        "page": {
+          "requestedTitle": "Little Girl Blue (album)",
+          "resolvedTitle": "Little Girl Blue (album)",
+          "shortDescription": "1959 debut studio album by Nina Simone",
+          "extract": "Little Girl Blue: Jazz as Played in an Exclusive Side Street Club is the debut album by the jazz pianist and singer Nina Simone. It was released by Bethlehem Records in February 1959. It was recorded in late 1957 but its release was held up by the label. Due to the delay and the lack of any promotional single either immediately before or alongside the album, Simone was dissatisfied with Bethlehem and signed with Colpix Records in April 1959. She recorded the tracks for her second album – what would become The Amazing Nina Simone – the same month. In May, however, Bethlehem finally released a single, \"I Loves You, Porgy\", and gave Simone her first hit later that year, peaking at number 18 on the pop charts, and number 2 on the R&B charts. Helped by the profile of the single, the album too went on to become a chart success.\nIn 1987, the track \"My Baby Just Cares for Me\" became a massive UK and European hit. The album was reissued, now with the title of single, and with a new cover and the tracks in a different order. This release eventually became subject to a legal dispute. Later releases of the album include bonus tracks from the same recording session.\n\n\n== Overview ==\n\n\n=== Recording ===\nIn spring 1957, while playing gigs in Philadelphia, Simone recorded a demo (which is believed to be the basis of the unofficial Simone album Gifted & Black, released in 1970). A few months later, as Alan Light tells it in What Happened, Miss Simone? – A Biography (2011), someone at Bethlehem Records in New York heard the demo recordings and became \"interested in signing her to the label\". Nadine Cohodas, in Princess Noire: The Tumultuous Reign of Nina Simone (2010), writes: Bethlehem \"employed Lee Kraft as an occasional talent scout. He brought musical prospects to Gus Wildi, Bethlehem’s founder, and then Wildi and his associates decided if they wanted to make a record. Kraft had heard Nina at a club in Philadelphia and thought Bethlehem should record her.\" However, continues Cohodas, there is another version to the story. \"Vivian Bailey, a Philadelphia businessman who first heard Nina at the Rittenhouse, said he had arranged for her to make a demo [...] He took the tape to New York and played it for Wildi. 'Her beautiful and unique vocal quality caused us to sign her immediately to a recording contract,' Wildi recalled.\"\nIn December 1957, writes Light, Simone \"went to New York and recorded thirteen songs backed by bassist Jimmy Bond and drummer Tootie Heath [...] The selections were essentially the songs she played as her set at the time but, given the time restraints of a studio recording, without her extended improvisations.\" Mauro Boscarol (of the Nina Simone Timeline) writes that the album was recorded in late 1957, possibly December, but the precise date is not known; and that the session lasted 13 hours and 14 songs were recorded. Cohodas agrees with the problem about designating the correct date, and corroborates 14 as the number of tracks recorded. Given that the session was the only one Simone ever recorded for Bethlehem, the songs eventually released show that there were, as Boscarol and Cohodas claim, 14 tracks recorded at the session.\nAt the time of the recording session, Simone was in her mid-20s and still aspiring to be a classical concert pianist, so she immediately sold the rights for the album to Bethlehem for $3,000 (equal to US$33,478 in 2025). According to Simone's later account, she did not really enjoy the session, no more than her gigs at the time, as she \"still considered herself on a musical detour dictated by financial necessity\"; upon returning to Philadelphia, she \"immersed herself in Beethoven for three days straight\". The Bethlehem deal would eventually cost her royalty profits of more than a million dollars.\n\n\n=== Release ===\nSimone was also dissatisfied by the time it took for Bethlehem to release the album and the lack of effort the record company took in promoting her. However, unbeknownst to Simone, Bethlehem was in financial trouble. \"Wildi found himself in a cash crunch, and in the middle of 1958 he sold a half interest in Bethlehem to Syd Nathan, who ran King Records out of Cincinnati\"; furthermore, there were to be \"professional differences between Wildi and Nathan\". All these factors led to disruption at Bethlehem, and affected the release of Simone's album significantly.\nThe album was first announced around a year after it had been recorded in Billboard magazine in December 1958. But nothin"
+        }
+      }
+    }
+  },
+  {
+    "id": "kind-of-blue",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.55,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "most tracks were first takes with minimal rehearsal",
+          "problem": "The 'first takes' half is contradicted: Wikipedia debunks the one-pass legend and says only one track ('Flamenco Sketches') yielded a complete take on the first attempt. The 'minimal rehearsal' half IS supported ('Davis... called for almost no rehearsal').",
+          "evidenceQuote": "the persistent legend that the entire album was recorded in one pass is untrue. Only \"Flamenco Sketches\" yielded a complete take on",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Entity solid in both sources; year/label confirmed (Columbia, release group firstReleaseDate 1959-08-17; Wikipedia 'released on August 17, 1959, by Columbia Records'). Verified prose: 30th Street Studio, sessions March 2 and April 22, 1959; sextet Coltrane/Adderley/Evans with Wynton Kelly on 'Freddie Freeloader', Chambers, Cobb; Evans-Russell modal lineage; five million US copies (5x Platinum). The flagged claim's evidence quote is truncated mid-sentence in the pack extract ('...complete take on'), which is why confidence is moderate — the surrounding sentence explicitly debunks the first-take legend. 'Best-selling jazz album of all time' is not directly checkable from the evidence (only 5x Platinum is stated) — uncontradicted, left as a note. keyTracks: the MB search hit is an odd 3-track pressing (catalog GCB 60) listing only 'So What', 'Blue in Green', 'All Blues'; the other two keyTracks ('Freddie Freeloader', 'Flamenco Sketches') are explicitly confirmed as album tracks by the Wikipedia page, so keyTracksVerdict is ok."
+    },
+    "ours": {
+      "title": "Kind of Blue",
+      "artist": "Miles Davis",
+      "year": 1959,
+      "label": "Columbia",
+      "albumDNA": "The best-selling jazz album of all time, Kind of Blue introduced modal jazz to the world. Recorded at Columbia's 30th Street Studio in New York on March 2 and April 22, 1959, the album captures spontaneous creativity at its peak—most tracks were first takes with minimal rehearsal. The legendary sextet featured John Coltrane and Cannonball Adderley on saxophones, pianist Bill Evans (Wynton Kelly on 'Freddie Freeloader'), bassist Paul Chambers, and drummer Jimmy Cobb. Evans contributed the album's modal framework, drawing from impressionist composers like Ravel and his studies with theorist George Russell. Revolutionized jazz by moving away from bebop's complex chord changes to modal improvisation based on scales, opening new harmonic possibilities that influenced countless musicians across genres from rock to hip-hop. It remains the quintessential introduction to jazz, selling over five million copies and consistently ranking among the greatest albums ever recorded in any genre.",
+      "keyTracks": [
+        "So What",
+        "Freddie Freeloader",
+        "Blue in Green",
+        "All Blues",
+        "Flamenco Sketches"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kind_of_Blue"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "49234de2-790c-46e5-b780-3cd6be79a2db",
+          "title": "Kind of Blue",
+          "date": "1959",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Miles Davis"
+          ],
+          "labels": [
+            {
+              "name": "Columbia",
+              "catalogNumber": "GCB 60"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "8e8a594f-2175-38c7-a871-abb68ec363e7",
+            "title": "Kind of Blue",
+            "firstReleaseDate": "1959-08-17",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "So What",
+            "Blue in Green",
+            "All Blues"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Kind_of_Blue",
+        "page": {
+          "requestedTitle": "Kind of Blue",
+          "resolvedTitle": "Kind of Blue",
+          "shortDescription": "1959 studio album by Miles Davis",
+          "extract": "Kind of Blue is a studio album by American jazz musician Miles Davis, released on August 17, 1959, by Columbia Records. For this album, Davis led a sextet featuring saxophonists John Coltrane and Julian \"Cannonball\" Adderley, pianist Bill Evans, bassist Paul Chambers, and drummer Jimmy Cobb, with new band pianist Wynton Kelly replacing Evans on \"Freddie Freeloader\". The album was recorded at Columbia's 30th Street Studio in New York City in two sessions on March 2 and April 22, 1959.\nInfluenced in part by Evans, who had been a member of the ensemble in 1958 and was called back for this album, Davis departed further from his early hard bop style in favor of greater experimentation with musical modes, as on the title track of his previous album, Milestones (1958). Basing Kind of Blue entirely on modality, Davis gave each performer a set of scales that encompassed the parameters of their improvisation and style and consequently more creative freedom with melodies; Coltrane later expanded on this modal approach in his own solo career.\nKind of Blue is regarded by many critics as Davis's masterpiece, the greatest jazz album ever recorded, and one of the greatest albums of all time. Its impact on music, including jazz, rock, and classical music, has led writers to also deem it one of the most influential albums ever made. The album was one of fifty recordings chosen in 2002 by the Library of Congress for the inaugural year of the National Recording Registry, being deemed \"culturally, historically, or aesthetically significant\". In 2003, it was ranked number 12 on Rolling Stone magazine's list of the \"500 Greatest Albums of All Time\",  repositioned to number 31 in the 2020 revision. In 2019, Kind of Blue was certified 5× Platinum by the Recording Industry Association of America (RIAA) for shipments of at least five million copies in the United States.\n\n\n== Background ==\n\nBy late 1958, trumpeter Miles Davis employed one of the most acclaimed and profitable hard bop bands in the business. Bassist Paul Chambers had been with the group from its beginning in 1955, alto saxophonist Julian \"Cannonball\" Adderley joined in late 1957, and tenor saxophonist John Coltrane returned in early 1958. Drummer Jimmy Cobb replaced Philly Joe Jones in May 1958, and pianist Wynton Kelly replaced Bill Evans in November 1958.\nThe Davis band played a mixture of pop standards, blues, and bebop originals by composers such as Charlie Parker, Thelonious Monk, Dizzy Gillespie, Tadd Dameron, and Davis himself. As with all bebop-based jazz, Davis's groups improvised on the chord changes of a given song. Davis was one of many jazz musicians growing dissatisfied with bebop, however, and saw its increasingly complex chord changes as hindering creativity.\nIn 1953, the composer and theorist George Russell published his Lydian Chromatic Concept of Tonal Organization, which offered an alternative to improvisation based on chords. Abandoning the traditional major and minor key relationships, his concept introduced the idea of chord/scale unity and was the first theory to explore the vertical relationship between chords and scales. These insights helped lead the way to modal jazz. Influenced by Russell's ideas, Davis implemented his first modal composition with the title track of his studio album Milestones (1958). Satisfied with the results, Davis prepared an entire album based on modality. Evans, who had studied and recorded with Russell but had left the Davis group to pursue his own career, was drafted back into the project.\n\n\n== Recording ==\nKind of Blue was recorded on three-track tape in two sessions at Columbia Records' 30th Street Studio in New York City. On March 2, 1959, the tracks \"So What\", \"Freddie Freeloader\", and \"Blue in Green\" were recorded for side one of the original LP, and on April 22 the tracks \"All Blues\" and \"Flamenco Sketches\" were recorded, making up side two.\nAs was Davis's penchant, he called for almost no rehearsal and the musicians had little idea what they were to record. As described in the original liner notes by pianist Bill Evans, Davis had only given the band sketches of scales and melody lines on which to improvise. Once the musicians were assembled, Davis gave brief instructions for each piece and then set to taping the sextet in studio. While the results were impressive with so little preparation, the persistent legend that the entire album was recorded in one pass is untrue. Only \"Flamenco Sketches\" yielded a complete take on"
+        }
+      }
+    }
+  },
+  {
+    "id": "how-time-passes",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.65,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Trumpeter Don Ellis's hard bop sensibility is on display in this 1961 session",
+          "problem": "Calls the session 1961; the recording was made in 1960 (1961 is the release year). The prose's own first sentence states this correctly, so the appended template sentence contradicts both the evidence and itself",
+          "evidenceQuote": "How Time Passes is the debut album by trumpeter Don Ellis recorded in 1960 and released on the Candid label.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Entity solid: MB embedded MBID (Candid CJS 9004, 1961) and stored wiki page agree; all five keyTracks match; first prose sentence is verbatim the wiki lede; year field 1961 matches the release. The 'hard bop sensibility ... document of the hard bop era' framing sits oddly against the evidence (Yanow: 'stretching the boundaries of bop-based jazz and experimenting a bit with time and tempo') but genre labels are editorial -- only the '1961 session' date claim is flagged."
+    },
+    "ours": {
+      "title": "... How Time Passes...",
+      "artist": "Don Ellis",
+      "year": 1961,
+      "label": "Candid",
+      "albumDNA": "How Time Passes is the debut album by trumpeter Don Ellis recorded in 1960 and released on the Candid label. Trumpeter Don Ellis's hard bop sensibility is on display in this 1961 session, a document of the hard bop era.",
+      "keyTracks": [
+        "How Time Passes",
+        "Sallie",
+        "A Simplex One",
+        "Waste",
+        "Improvisational Suite #1"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/How_Time_Passes"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "58b89421-a605-436d-a05f-fa77415a7edb",
+          "title": "How Time Passes",
+          "date": "1961",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Don Ellis"
+          ],
+          "labels": [
+            {
+              "name": "Candid",
+              "catalogNumber": "CJS 9004"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "378acdd4-6a08-3dd3-b7e6-995e5a459075",
+            "title": "... How Time Passes...",
+            "firstReleaseDate": "1961",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "How Time Passes",
+            "Sallie",
+            "A Simplex One",
+            "Waste",
+            "Improvisational Suite #1"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/How_Time_Passes",
+        "page": {
+          "requestedTitle": "How Time Passes",
+          "resolvedTitle": "How Time Passes",
+          "shortDescription": "1960 studio album by Don Ellis",
+          "extract": "How Time Passes is the debut album by trumpeter Don Ellis recorded in 1960 and released on the Candid label. \n\n\n== Reception ==\n\nScott Yanow of Allmusic states, \"Trumpeter Don Ellis' initial recording as a leader (and first of four small group dates from the 1960-1962 period) found him stretching the boundaries of bop-based jazz and experimenting a bit with time and tempo... Although these musical experiments failed to be influential (Ellis himself went in a different direction a few years later), the unpredictable music is still quite interesting to hear\". The Penguin Guide to Jazz award the album 3 stars.\n\n\n== Track listing ==\nAll compositions by Don Ellis except as indicated\n\n\"How Time Passes\" - 6:30\n\"Sallie\" - 4:38\n\"A Simplex One\" - 4:17\n\"Waste\" (Jaki Byard) - 8:15\n\"Improvisational Suite #1\" - 22:18\n\n\n== Personnel ==\nDon Ellis - trumpet\nJaki Byard - piano, alto saxophone\nRon Carter - bass\nCharlie Persip - drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "jazz-pictures-at-an-exibition",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.65,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "artist",
+          "ours": "Kenny Clarke",
+          "evidence": "Pim Jacobs, Rita Reys, Kenny Clarke (MB embedded-MBID artist credit, authoritative)",
+          "evidenceQuote": "artists: [\"Pim Jacobs\", \"Rita Reys\", \"Kenny Clarke\"]",
+          "source": "mb"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "drummer Kenny Clarke leads a hard bop session recorded for Philips in 1961",
+          "problem": "Presents Clarke as the leader; the authoritative artist credit lists Pim Jacobs first and Rita Reys second, with Clarke third -- nothing in the evidence supports Clarke as leader",
+          "evidenceQuote": "artists: [\"Pim Jacobs\", \"Rita Reys\", \"Kenny Clarke\"]",
+          "source": "mb"
+        }
+      ],
+      "notes": "Embedded-MBID release is the same album as ours (same sic spelling 'Exibition', Philips, release group first release 1961; the fetched pressing is a 1989 Japan reissue) and all five keyTracks match the tracklist. But the credit makes this a Pim Jacobs / Rita Reys date with Clarke as the third-billed name; our artist field and 'Clarke leads' sentence overstate his role. Background knowledge, not citable: Rita Reys was a vocalist and Pim Jacobs a pianist, which would make 'hard bop session' framing doubly questionable -- pack evidence cannot confirm, so genre framing stays unflagged. Year and label fields are consistent with the evidence."
+    },
+    "ours": {
+      "title": "Jazz Pictures at an Exibition",
+      "artist": "Kenny Clarke",
+      "year": 1961,
+      "label": "Philips",
+      "albumDNA": "On Jazz Pictures at an Exibition, drummer Kenny Clarke leads a hard bop session recorded for Philips in 1961. The date includes \"I'm Gonna Sit Right Down and Write Myself a Letter\" and \"Autumn Leaves\".",
+      "keyTracks": [
+        "I'm Gonna Sit Right Down and Write Myself a Letter",
+        "Autumn Leaves",
+        "Cherokee",
+        "Poor Butterfly",
+        "Can't We Be Friends"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "f36d7674-a2c1-4a6d-ac89-1a4720861040",
+          "title": "Jazz Pictures at an Exibition",
+          "date": "1989",
+          "country": "JP",
+          "status": "Official",
+          "artists": [
+            "Pim Jacobs",
+            "Rita Reys",
+            "Kenny Clarke"
+          ],
+          "labels": [
+            {
+              "name": "Philips",
+              "catalogNumber": "EJD-1008"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0f39f48a-229f-4cd9-9e7d-c42ddb0fae22",
+            "title": "Jazz Pictures at an Exibition",
+            "firstReleaseDate": "1961",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "I'm Gonna Sit Right Down and Write Myself a Letter",
+            "Autumn Leaves",
+            "Cherokee",
+            "Poor Butterfly",
+            "Can't We Be Friends",
+            "I Get a Kick Out of You",
+            "I Remember Clifford",
+            "Tangerine",
+            "Speak Low",
+            "What's New"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "rights-of-swing",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.75,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "Captures clarinetist Phil Woods during the hard bop period",
+          "problem": "Wrong instrument for Woods on this album: the wiki lead calls him a saxophonist and the personnel list credits him on alto saxophone only; our own first sentence also says 'saxophonist Phil Woods'",
+          "evidenceQuote": "Rights of Swing is an album led by saxophonist Phil Woods ... Personnel: Phil Woods - alto saxophone",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Everything else checks out: MB embedded (Candid CJS 9016, 1961) and wiki match, and all 5 keyTracks match exactly. 'Clarinetist' looks like a template fill-in error. Woods may have played clarinet elsewhere in his career (background knowledge, not pack evidence), but the evidence for this album shows alto saxophone only."
+    },
+    "ours": {
+      "title": "Rights of Swing",
+      "artist": "Phil Woods",
+      "year": 1961,
+      "label": "Candid",
+      "albumDNA": "Rights of Swing is an album led by saxophonist Phil Woods featuring performances recorded in early 1961 and originally released on the Candid label. Captures clarinetist Phil Woods during the hard bop period, reconnecting jazz with blues and gospel while keeping bebop's sophistication.",
+      "keyTracks": [
+        "Prelude and Part I",
+        "Part II (Ballad)",
+        "Part III (Waltz)",
+        "Part IV (Scherzo)",
+        "Part V (Presto)"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Rights_of_Swing"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "dc4949be-1e95-4da1-ab2e-c947b13060d2",
+          "title": "Rights of Swing",
+          "date": "1961",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Phil Woods"
+          ],
+          "labels": [
+            {
+              "name": "Candid",
+              "catalogNumber": "CJS 9016"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "038258b2-db17-4480-a9bd-9279bdd03ada",
+            "title": "Rights of Swing",
+            "firstReleaseDate": "1961",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Prelude and Part I",
+            "Part II (Ballad)",
+            "Part III (Waltz)",
+            "Part IV (Scherzo)",
+            "Part V (Presto)"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Rights_of_Swing",
+        "page": {
+          "requestedTitle": "Rights of Swing",
+          "resolvedTitle": "Rights of Swing",
+          "shortDescription": "1961 studio album by Phil Woods",
+          "extract": "Rights of Swing is an album led by saxophonist Phil Woods featuring performances recorded in early 1961 and originally released on the Candid label.\n\n\n== Reception ==\n\nThe contemporaneous DownBeat reviewer, Ira Gitler, mentioned the influence of Igor Stravinsky on the album and wrote that: \"Woods' virile alto shows the way, but all the soloists and supporting rhythm men are of consistently high quality.\" Scott Yanow of AllMusic says, \"The colorful arrangements use the distinctive horns in inventive fashion and the music (which leaves room for many concise solos) holds one's interest throughout. One of Phil Woods' finest recordings, it's a true gem\".\n\n\n== Track listing ==\nAll compositions by Phil Woods.\n\n\"Prelude and Part I\" - 7:00\n\"Part II (Ballad)\" - 7:38\n\"Part III (Waltz)\" - 5:39\n\"Part IV (Scherzo)\" - 11:19\n\"Part V (Presto)\" - 7:17\n\n\n== Personnel ==\nPhil Woods - alto saxophone\nBenny Bailey - trumpet\nJulius Watkins - French horn\nWillie Dennis (track 5), Curtis Fuller (tracks 1–4) - trombone\nSahib Shihab - baritone saxophone\nTommy Flanagan - piano\nBuddy Catlett - bass\nOsie Johnson (tracks 1–4), Mickey Roker (track 5) - drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "screamin-the-blues",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.85,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "artist",
+          "ours": "Eric Dolphy",
+          "evidence": "Oliver Nelson (leader); Dolphy is a featured sideman",
+          "evidenceQuote": "Screamin' the Blues is an album by American saxophonist Oliver Nelson, originally released in 1961 on New Jazz Records.",
+          "source": "wiki"
+        },
+        {
+          "field": "label",
+          "ours": "Prestige",
+          "evidence": "New Jazz",
+          "evidenceQuote": "originally released in 1961 on New Jazz Records",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "Screamin' the Blues is an album by Eric Dolphy, released in 1961 on Prestige",
+          "problem": "Leader is Oliver Nelson, not Dolphy (MB bills 'Oliver Nelson Sextet' first, with Dolphy and Richard Williams as featured artists; wiki personnel has Nelson on tenor/alto, Dolphy as sideman on bass clarinet/alto); original label was New Jazz, not Prestige",
+          "evidenceQuote": "Screamin' the Blues is an album by American saxophonist Oliver Nelson, originally released in 1961 on New Jazz Records.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "Same album, wrong leader: prose and the artist field attribute the album to Eric Dolphy, but both sources show it as an Oliver Nelson date with Dolphy as sideman. MB embedded doc is the 1991 OJC reissue (OJCCD-080-2) crediting Oliver Nelson Sextet / Eric Dolphy / Richard Williams; release-group first release 1961-01, so year 1961 is fine. All 5 keyTracks match the tracklist. On label: New Jazz was a Prestige-family imprint (the Far Cry wiki lead in this same pack calls New Jazz 'a subsidiary of the Prestige label'), but the dataset elsewhere uses 'New Jazz' as its own label value (the Where? item), so this field should read New Jazz. Stored wiki link does point to the correct album page."
+    },
+    "ours": {
+      "title": "Screamin' the Blues",
+      "artist": "Eric Dolphy",
+      "year": 1961,
+      "label": "Prestige",
+      "albumDNA": "Screamin' the Blues is an album by Eric Dolphy, released in 1961 on Prestige. The record sits in the hard bop / free jazz tradition. Notable tracks include \"Screamin' the Blues\" and \"March on, March On\".",
+      "keyTracks": [
+        "Screamin' the Blues",
+        "March on, March On",
+        "The Drive",
+        "The Meetin'",
+        "Three Seconds"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Screamin'_the_Blues"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "635f03c6-5b34-47e0-9098-f2882bb1ef3e",
+          "title": "Screamin' the Blues",
+          "date": "1991-07-01",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Oliver Nelson Sextet",
+            "Eric Dolphy",
+            "Richard Williams"
+          ],
+          "labels": [
+            {
+              "name": "Original Jazz Classics",
+              "catalogNumber": "OJCCD-080-2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "1f9d29a6-1c84-3d69-84ea-eef1692cdc83",
+            "title": "Screamin' the Blues",
+            "firstReleaseDate": "1961-01",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Screamin' the Blues",
+            "March On, March On",
+            "The Drive",
+            "The Meetin'",
+            "Three Seconds",
+            "Alto-itis"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Screamin'_the_Blues",
+        "page": {
+          "requestedTitle": "Screamin' the Blues",
+          "resolvedTitle": "Screamin' the Blues",
+          "shortDescription": "1961 studio album by Oliver Nelson",
+          "extract": "Screamin' the Blues is an album by American saxophonist Oliver Nelson, originally released in 1961 on New Jazz Records.\n\n\n== Reception ==\nLeonard Feather gave the album 4 stars in his DownBeat review. Feather called the album Neslon's best record to date.\n\n\n== Track listing ==\n\n\n== Personnel ==\nOliver Nelson – tenor saxophone, alto saxophone\nEric Dolphy – bass clarinet, alto saxophone\nRichard Williams – trumpet\nRichard Wyands – piano\nGeorge Duvivier – bass\nRoy Haynes – drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "money-jungle-mingus",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.6,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [
+        {
+          "field": "year",
+          "ours": "1962",
+          "evidence": "February 1963 (wiki) vs 1962 (MB embedded)",
+          "evidenceQuote": "It was recorded on September 17, 1962, and released in February 1963 by United Artists Jazz.",
+          "source": "wiki"
+        }
+      ],
+      "wrongClaims": [
+        {
+          "ourClaim": "released in February 1963 by United Artists Jazz",
+          "problem": "Contradicts the embedded-MBID MB release date, which the pipeline treats as authoritative for date; note this prose sentence is itself verbatim from the entity-matched wiki page, so the two evidence sources conflict with each other",
+          "evidenceQuote": "date: \"1962\"; releaseGroup.firstReleaseDate: \"1962\" (United Artists Jazz UAJS 15017)",
+          "source": "mb"
+        }
+      ],
+      "notes": "Right album; the evidence sources split on release date (MB embedded: 1962; wiki: recorded September 17 1962, released February 1963). Ours is internally inconsistent - year field 1962 but prose says 'released in February 1963' - so one of the two is wrong whichever source is right; repair must reconcile (fieldIssues documents year-vs-wiki, wrongClaims documents prose-vs-MB). Everything else checks: Ellington/Mingus/Roach trio, United Artists Jazz, all 5 keyTracks on both tracklists, stored wiki link correct. Also: the artist field lists only Charles Mingus while both sources bill Duke Ellington first (with Mingus and Roach co-credited; MB has 'Charlie Mingus'); the prose attributes the album correctly to Ellington, so this is selective credit of a co-billed artist rather than a contradiction - flag for editorial review."
+    },
+    "ours": {
+      "title": "Money Jungle",
+      "artist": "Charles Mingus",
+      "year": 1962,
+      "label": "United Artists Jazz",
+      "albumDNA": "Money Jungle is a studio album by the pianist Duke Ellington with the double bassist Charles Mingus and the drummer Max Roach. It was recorded on September 17, 1962, and released in February 1963 by United Artists Jazz. All but one of the compositions were written by Ellington, with four of the seven on the original LP being recorded for the first time on this album. Later releases on CD added eight tracks from the same recording session.",
+      "keyTracks": [
+        "Money Jungle",
+        "Les Fleurs Africaines (African Flower)",
+        "Very Special",
+        "Warm Valley",
+        "Wig Wise"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Money_Jungle"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "6a3d8dfe-bc72-4010-861e-a3f51723a4b7",
+          "title": "Money Jungle",
+          "date": "1962",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Duke Ellington",
+            "Charlie Mingus",
+            "Max Roach"
+          ],
+          "labels": [
+            {
+              "name": "United Artists Jazz",
+              "catalogNumber": "UAJS 15017"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "1c18538e-e9be-3449-8be1-f3cdc7b493e0",
+            "title": "Money Jungle",
+            "firstReleaseDate": "1962",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Money Jungle",
+            "Les Fleurs Africaines (African Flower)",
+            "Very Special",
+            "Warm Valley",
+            "Wig Wise",
+            "Caravan",
+            "Solitude"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Money_Jungle",
+        "page": {
+          "requestedTitle": "Money Jungle",
+          "resolvedTitle": "Money Jungle",
+          "shortDescription": "1963 studio album by Duke Ellington with Charles Mingus and Max Roach",
+          "extract": "Money Jungle is a studio album by the pianist Duke Ellington with the double bassist Charles Mingus and the drummer Max Roach. It was recorded on September 17, 1962, and released in February 1963 by United Artists Jazz. All but one of the compositions were written by Ellington, with four of the seven on the original LP being recorded for the first time on this album. Later releases on CD added eight tracks from the same recording session.\nThe album was reviewed positively at the time of its release and subsequent reviews have remained highly favorable. Negative comments have concentrated on differences in playing style among the three musicians, brought about by the generational gap between Ellington and the others, and an argument that led to Mingus leaving the studio mid-session. Hundreds of musicians have been influenced by the recording, in particular by the freedom of individual expression within a small-group setting.\n\n\n== Background ==\nProducer Alan Douglas had helped Duke Ellington with errands when they were both working in Paris in the early 1960s. Later, after Douglas had joined United Artists and moved to New York, he received, according to his own account, a surprise visit from Ellington, who suggested recording a piano-based album (Ellington was known as a big band leader). Douglas suggested Charles Mingus as double bassist, who then insisted on having Max Roach as drummer. Mingus had played with Ellington before, deputising for the regular bassist in the leader's orchestra in 1953, but was fired after four days, following a fight with another musician, Juan Tizol.\nAt the time of the 1962 recording, Ellington was 63 years old, while Mingus was 40 and Roach 38. The generational difference was strengthened by Ellington being a guiding figure for the other two, who were born when Ellington was becoming an influence on music. In 1962, Ellington did not have a recording contract, while Mingus was signed to United Artists. According to Roach, the three musicians met the day before the recording, and Ellington told them to \"Think of me as the poor man's Bud Powell\" and that he would not like to play only his own material.\n\n\n== Recording and music ==\nThe recording was made on Monday, September 17, 1962, at Sound Makers Studios in New York City, on 57th Street, between Sixth Avenue and Seventh. The session was due to begin at 1 pm. Roach arrived at midday to set up his drums and found that Ellington was already there, writing out some material. Despite his suggestion the previous day, all of the compositions used were brought by Ellington. For each piece, according to Roach, he and Mingus were given \"a lead sheet that just gave the basic melody and harmony\", plus a visual image described by the pianist: one example was, \"crawling around on the streets are serpents who have their heads up; these are agents and people who have exploited artists. Play that along with the music\". The musicians had declined the chance to rehearse, so the recording, which was made on three-track tape, was of their first experience playing together.\nMoney Jungle is a post-bop album. The original LP contained seven tracks – six composed by Ellington, and one, \"Caravan\" by Juan Tizol, strongly associated with him. The title track is a 12-bar blues that opens with strongly played notes from Mingus, then Ellington joins in with dissonant chords; Roach supports using ride cymbal, snare and bass drum. In the final minute, Down Beat magazine observed, Mingus bends the \"strings with such force that he makes the instrument sound like a cross between a berimbau and a Delta blues guitar\". \"Fleurette Africaine\" is a ballad developed from a simple melody stated on the piano, and features \"Mingus's floating bassline and Roach's understated drumming\". \"Very Special\" is another 12-bar blues, possibly improvised. These three compositions, plus \"Wig Wise\", with its \"angular, descending line\", were written specifically for this album. On \"Caravan\", Ellington plays the melody in low octaves, adding \"Webern-like notes on the top\", imitating an orchestral sound. \"Warm Valley\" and \"Solitude\" are ballads, the latter being a piano solo piece until Mingus and Roach enter in the final minute.\nThe CD releases feature four more compositions: \"Switch Blade\", \"Backward Country Boy Blues\", \"REM  Blues\", and \"A Little Max (Parfait)\". The last of these is a Latin-influenced track that features Roach. \"Switch Blade\" is \"a slow blues that showcases Mingus's virtuosity wi"
+        }
+      }
+    }
+  },
+  {
+    "id": "stop-and-listen",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.7,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "n/a"
+      },
+      "wikiLinkVerdict": "none_stored",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "featuring performances recorded and released on the Blue Note label in 1961",
+          "problem": "Release year contradicts MB: the release-group's first release is 1962 (which also matches our own year field, 1962); recording in 1961 may well be right, but 'released ... in 1961' conflicts with the authoritative embedded-MBID evidence",
+          "evidenceQuote": "releaseGroup.firstReleaseDate: \"1962\"",
+          "source": "mb"
+        }
+      ],
+      "notes": "MB embedded doc is a 1999 Japanese reissue (Blue Note TOCJ-9143) of our album; its release-group gives first release 1962, agreeing with our year field but contradicting the prose's 'recorded and released... in 1961' - the prose contradicts our own year field too. All 5 keyTracks are on the reissue tracklist. Unverifiable from pack: 'second album', the '1941 Harry Warren song' attribution for 'At Last', and the Etta James R&B/Hot 100 chart-timing claim. No wikipedia evidence (no stored URL; opensearch empty)."
+    },
+    "ours": {
+      "title": "Stop and Listen",
+      "artist": "Baby Face Willette",
+      "year": 1962,
+      "label": "Blue Note",
+      "albumDNA": "Stop and Listen is the second album by American jazz organist Baby Face Willette featuring performances recorded and released on the Blue Note label in 1961. It features a version of the 1941 Harry Warren song \"At Last,\" which at the time of the Stop and Listen recording sessions was on the R&B and Billboard Hot 100 record charts through Etta James' hit recording of the song.",
+      "keyTracks": [
+        "Willow Weep for Me",
+        "Chances Are Few",
+        "Jumpin' Jupiter",
+        "Stop and Listen",
+        "At Last"
+      ],
+      "wikipediaUrl": null
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "76f4a3b1-3ff6-4e23-889f-8301c593aaa8",
+          "title": "Stop and Listen",
+          "date": "1999",
+          "country": "JP",
+          "status": "Official",
+          "artists": [
+            "Baby Face Willette"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": "TOCJ-9143"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "8ae2f059-e140-37d6-9ca1-7bd22409229e",
+            "title": "Stop and Listen",
+            "firstReleaseDate": "1962",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Willow Weep for Me",
+            "Chances Are Few",
+            "Jumpin' Jupiter",
+            "Stop and Listen",
+            "At Last",
+            "Soul Walk",
+            "Work Song"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "takin-off",
+    "kind": "album",
+    "originalVerdict": {
+      "verdict": "factual_error",
+      "confidence": 0.9,
+      "entityMatch": {
+        "musicbrainz": "yes",
+        "wikipedia": "yes"
+      },
+      "wikiLinkVerdict": "correct",
+      "keyTracksVerdict": "ok",
+      "fieldIssues": [],
+      "wrongClaims": [
+        {
+          "ourClaim": "The bluesy track \"Watermelon Man\" made it to the Top 100 of the singles charts",
+          "problem": "Ours drops the word 'almost', flipping the claim: per the evidence the track did NOT reach the Top 100, it only came close.",
+          "evidenceQuote": "The bluesy track \"Watermelon Man\" almost made it into the Top 100 of the singles charts, and went on to become a jazz standard.",
+          "source": "wiki"
+        }
+      ],
+      "notes": "All other claims (1962 debut on Blue Note; Dexter Gordon, Freddie Hubbard, Butch Warren, Billy Higgins; hard bop; 1973 Head Hunters funk remake of Watermelon Man) match the entity-matched Wikipedia page verbatim, and MB (search, similarity 1.0) confirms year, label, and all four keyTracks. Prose is a near-copy of the Wikipedia lead with 'almost' lost in editing. Repair: restore 'almost' or rephrase the chart sentence. Closing sentences are editorial."
+    },
+    "ours": {
+      "title": "Takin' Off",
+      "artist": "Herbie Hancock",
+      "year": 1962,
+      "label": "Blue Note",
+      "albumDNA": "Takin' Off is the debut album by jazz pianist Herbie Hancock released in 1962 by Blue Note Records. The album features veteran tenor saxophonist Dexter Gordon, trumpeter Freddie Hubbard, bassist Butch Warren and drummer Billy Higgins. The album is a creative example of music in the hard bop idiom. The bluesy track \"Watermelon Man\" made it to the Top 100 of the singles charts, and went on to become a jazz standard. Hancock released a funk arrangement of “Watermelon Man” on his 1973 album Head Hunters. Launched Hancock's extraordinary career. 'Watermelon Man' proved jazz could be funky and accessible.",
+      "keyTracks": [
+        "Watermelon Man",
+        "Three Bags Full",
+        "Empty Pockets",
+        "Driftin'"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Takin'_Off"
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "a4de06d8-ec13-3d7e-abf0-42509a1c31f6",
+          "title": "Takin’ Off",
+          "date": "1962",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Herbie Hancock"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": "BLP 4109"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "b481d115-5b42-316b-a525-c669c762c73b",
+            "title": "Takin’ Off",
+            "firstReleaseDate": "1962",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Watermelon Man",
+            "Three Bags Full",
+            "Empty Pockets",
+            "The Maze",
+            "Driftin’",
+            "Alone and I"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Takin'_Off",
+        "page": {
+          "requestedTitle": "Takin' Off",
+          "resolvedTitle": "Takin' Off",
+          "shortDescription": "1962 debut album by jazz pianist Herbie Hancock",
+          "extract": "Takin' Off is the debut album by jazz pianist Herbie Hancock released in 1962 by Blue Note Records. The album features veteran tenor saxophonist Dexter Gordon, trumpeter Freddie Hubbard, bassist Butch Warren and drummer Billy Higgins. The album is a creative example of music in the hard bop idiom. The bluesy track \"Watermelon Man\" almost made it into the Top 100 of the singles charts, and went on to become a jazz standard. Hancock released a funk arrangement of “Watermelon Man” on his 1973 album Head Hunters. Takin' Off was initially released on CD in 1996 and then again in remastered form in 2007 by Rudy Van Gelder.\n\n\n== Track listing ==\nAll compositions by Herbie Hancock.\nSide one\n\nSide two\n\nBonus tracks on CD reissue\n\n\n== Personnel ==\nHerbie Hancock – piano\nFreddie Hubbard – trumpet\nDexter Gordon – tenor saxophone\nButch Warren – double bass\nBilly Higgins – drums\n\n\n== References =="
+        }
+      }
+    }
+  }
+]

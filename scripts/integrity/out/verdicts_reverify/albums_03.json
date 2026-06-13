@@ -1,0 +1,312 @@
+[
+ {
+  "id": "the-new-don-ellis-band-goes-underground",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no", "websearch": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid resolves title/artist (The New Don Ellis Band = Don Ellis)/year 1969/label Columbia CS 9889; all match. albumDNA tracks (House in the Country, Bulgarian Bulge, Eli's Comin', It's Your Thing) and all 5 keyTracks are on the MB tracklist. The evidence.wikipedia storedUrl points to a DIFFERENT album (Don Ellis at Fillmore, 1970), but ours.wikipediaUrl is null, so nothing wrong is shipped to users."
+ },
+ {
+  "id": "alive-grant-green",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes", "websearch": "n/a"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (sim 1.0) and stored wiki both confirm Alive! by Grant Green, 1970, Blue Note BST-84360, live at Cliche Lounge Newark. albumDNA's Cliche Lounge / Newark / organ-combo / funk claims are all corroborated by the wiki extract. All 4 keyTracks (Let The Music Take Your Mind, Sookie Sookie, Down Here on the Ground, Time to Remember) are on the tracklist."
+ },
+ {
+  "id": "les-stances-a-sophie",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes", "websearch": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+    {"field": "label", "ours": "Pathé", "evidence": "Nessa Records", "evidenceQuote": "labels: name 'Nessa Records', catalogNumber 'N- 4'", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "Right entity: MB (sim 1.0) and the Art Ensemble of Chicago wiki page both confirm Les Stances a Sophie, 1970 soundtrack by the Art Ensemble of Chicago; all 6 keyTracks match the MB tracklist. albumDNA states no label, so the prose is clean. The label FIELD says Pathé while MB resolved a US Nessa Records pressing (same release-group). This is the original-French (Pathe) vs reissue (Nessa) pressing distinction; no pack evidence confirms Pathe, so the label field is unverifiable rather than a clean contradiction."
+ },
+ {
+  "id": "harlem-river-drive",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a", "websearch": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB found no release; websearch resolved=true confirms the self-titled 1971 album on Roulette (cat. SR 3004) by the supergroup Harlem River Drive led by Eddie Palmieri. Year 1971 and label Roulette match. All 5 keyTracks (Harlem River Drive, If (We Had Peace Today), Idle Hands, Broken Home, Seeds of Life) exactly match the verified websearch tracklist. The prior 'Azucar' hallucinated keyTrack flagged in the websearch note is NOT present in the current keyTracks, so the repair held. Attribution to Eddie Palmieri (band leader) is reasonable. No wiki article exists for the album; ours.wikipediaUrl null."
+ },
+ {
+  "id": "on-with-it",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes", "websearch": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms On With It! by Brother Jack McDuff, 1971, Prestige PRST 7851; albumDNA's label/catalog/year all match. DNA tracks (Hey Lawdy Mama, Drown in My Own Tears, Groanin') and all 5 keyTracks are on the MB tracklist. The Jack McDuff artist wiki (correct entity) lists 'On With It! (Prestige, 1961 [rel. 1971])' -- recorded 1961, released 1971; ours year 1971 = release year, consistent with MB. ours.wikipediaUrl null."
+ },
+ {
+  "id": "weather-report",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no", "websearch": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid resolves a 1985 European CBS reissue, but the release-group firstReleaseDate is 1971-05, confirming ours year 1971. Label field 'Columbia' is correct for the original US release; MB's 'CBS' is the European pressing label (same company), not a contradiction. albumDNA opening tracks (Milky Way, Umbrellas) and named tracks (Seventh Arrow, Orange Lady) plus all 5 keyTracks match the MB tracklist. The evidence.wikipedia storedUrl points to a DIFFERENT entity (the song Birdland, from 1977 Heavy Weather), but ours.wikipediaUrl is null."
+ },
+ {
+  "id": "art-blakey-his-jazz-messengers",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes", "websearch": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms Art Blakey & His Jazz Messengers, Art Blakey, 1972, impulse! A-7 / ABC AS-7; DNA's label/year and tracks (Alamode, Invitation) match. All 5 keyTracks are on the MB tracklist. The DNA discography sentence ('76 albums... 10 studio albums, 3 live albums and 4 compilation sessions') is quoted verbatim from the Art Blakey discography wiki page (correct entity). ours.wikipediaUrl null."
+ },
+ {
+  "id": "ella-loves-cole",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no", "websearch": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms Ella Loves Cole, Ella Fitzgerald, 1972, Atlantic SD 1631; DNA's label/year match. DNA tracks (I Get a Kick Out of You, I've Got You Under My Skin, Love for Sale) and all 5 keyTracks are on the MB tracklist. The evidence.wikipedia storedUrl points to a DIFFERENT album (Ella Fitzgerald Sings the Cole Porter Song Book, 1956 Verve), but ours.wikipediaUrl is null."
+ },
+ {
+  "id": "mystic-brew",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes", "websearch": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+    {"field": "title", "ours": "Mystic Brew", "evidence": "Two Headed Freap", "evidenceQuote": "TITLE MISMATCH: 'Mystic Brew' is a TRACK (track 7), not an album. The album is 'Two Headed Freap', Ronnie Foster's 1972 Blue Note debut", "source": "websearch"}
+  ],
+  "wrongClaims": [
+    {"ourClaim": "Organist Ronnie Foster's 1972 album Mystic Brew", "problem": "Mystic Brew is a track (track 7), not the album title; the album is titled Two Headed Freap", "evidenceQuote": "'Mystic Brew' is a TRACK (track 7), not an album. The album is 'Two Headed Freap', Ronnie Foster's 1972 Blue Note debut", "source": "websearch"}
+  ],
+  "notes": "Right entity (Ronnie Foster's 1972 Blue Note debut): year 1972 and label Blue Note are CORRECT, and all 3 keyTracks (Mystic Brew, Summer Song, Chunky) are genuine tracks on the album per websearch (resolved=true). The wikipediaUrl was repaired to Two_Headed_Freap, the correct album page (confirmed by websearch and the Ronnie Foster artist wiki). REMAINING error: the title field and albumDNA still name the album 'Mystic Brew' (a track title), contradicting the actual album title 'Two Headed Freap'. The title field is out of the allowed repair scope, so the contradiction persists -- flagging as factual_error."
+ },
+ {
+  "id": "shades-of-green",
+  "verdict": "clean",
+  "confidence": 0.96,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes", "websearch": "n/a"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms Shades of Green, Grant Green, 1972-04, Blue Note BST-84413. albumDNA first sentence is verbatim from the stored wiki (correct entity, 1972 Grant Green): recorded 1971, released on Blue Note. All 5 keyTracks (including the I Don't Want Nobody.../Cold Sweat medley) match the MB tracklist exactly. wikipediaUrl Shades_of_Green_(album) is correct."
+ },
+ {
+  "id": "world-galaxy",
+  "verdict": "clean",
+  "confidence": 0.93,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a", "websearch": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (sim 1.0) confirms World Galaxy, Alice Coltrane, 1972, impulse! AS-9218. The MB tracklist is exactly the 5 tracks the albumDNA describes (opens with My Favorite Things, closes with A Love Supreme, plus Galaxy in Satchidananda and Galaxy in Turiya). All 4 keyTracks match. Wiki opensearch returned no candidate; ours.wikipediaUrl null."
+ },
+ {
+  "id": "capra-black",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes", "websearch": "n/a"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (sim 1.0) confirms Capra Black, Billy Harper, 1973, Strata-East SES-19739. albumDNA first two sentences are verbatim from the stored wiki (correct entity): debut album, recorded 1973, released on Strata-East. The wiki shortDescription says '1974 studio album' but its extract and MB both give 1973 (recording/release); ours year 1973 matches MB. All 3 keyTracks (Capra Black, Cry of Hunger, Sir Galahad) are on the MB tracklist. wikipediaUrl Capra_Black correct."
+ },
+ {
+  "id": "afrodisia",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes", "websearch": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Item id 'afrodisia' but the catalogued title is Soul Makossa. MB (sim 1.0) confirms a Soul Makossa album by Manu Dibango, 1973 (primaryType Album, 7 tracks); MB label is the US Atlantic pressing (SD 7267). albumDNA names New Bell, Dangwa, Hibiscus, Lily -- all on the MB tracklist; all 3 keyTracks match. Label field 'Fiesta' is positively supported by the stored Manu Dibango/Soul Makossa wiki: 'Atlantic Records licensed the original Manu Dibango version from French record label Fiesta' -- so Fiesta is the original French label and Atlantic the US licensee. No contradiction; ours.wikipediaUrl null."
+ },
+ {
+  "id": "space-is-the-place",
+  "verdict": "clean",
+  "confidence": 0.93,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes", "websearch": "n/a"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (sim 1.0) and stored wiki (correct entity, 1973 Sun Ra) both confirm Space Is the Place, Sun Ra, 1973, Blue Thumb (BTS 41). All 4 keyTracks (Space Is the Place, Images, Sea of Sounds, Discipline 33) are on the MB tracklist. The albumDNA's Afrofuturist/film-soundtrack framing is editorial; the film of the same title exists and the wiki labels the release a studio album -- no verbatim contradiction. wikipediaUrl Space_Is_the_Place_(Sun_Ra_album) correct."
+ },
+ {
+  "id": "mannenberg",
+  "verdict": "unverifiable",
+  "confidence": 0.72,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes", "websearch": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Right artist confirmed: the stored Abdullah Ibrahim wiki page is the correct entity and states he is 'known especially for Mannenberg, a jazz piece that became a notable anti-apartheid anthem.' But MB found no release, and the artist page does not document this album's label (Sun), exact year (1974), or tracklist. So the album-specific claims and the keyTracks (Mannenberg, Soweto Is Where It's At, Cape Town Fringe, The Pilgrim) cannot be verified against the available evidence. No contradiction; substantive facts unverifiable. ours.wikipediaUrl null."
+ },
+ {
+  "id": "sadao-watanabe-mbali",
+  "verdict": "unverifiable",
+  "confidence": 0.72,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes", "websearch": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+    {"field": "label", "ours": "Flying Disk", "evidence": "CBS/Sony", "evidenceQuote": "labels: name 'CBS/Sony', catalogNumber '28AH 1572'", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "MB (sim 1.0) confirms Mbali Africa, Sadao Watanabe, 1974, and the stored Sadao Watanabe wiki is the correct artist. All 6 keyTracks (Ita, Bahari Pwani, Jambo Bwana, Afro Talk, Hip Walk, Tanzania Yako) match the MB tracklist exactly. The only discrepancy is the label: ours 'Flying Disk' vs MB 'CBS/Sony' (reissue catalogs 28AH 1572 / SOPW 27~28). Flying Disk was a CBS/Sony imprint, so this is plausibly an imprint-vs-parent distinction rather than a contradiction; no pack evidence confirms Flying Disk for the original 1974 release, so the label claim is unverifiable. The albumDNA is otherwise editorial."
+ },
+ {
+  "id": "summit-reunin-cumbre",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no", "websearch": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB embedded_mbid confirms Summit (Reunion cumbre), Gerry Mulligan + Astor Piazzolla, 1974, Erre T.V. RTV 25046 -- label matches exactly. albumDNA correctly names the Mulligan/Piazzolla collaboration and tracks 20 Years Ago, Years of Solitude, Close Your Eyes and Listen, 20 Years After; all 5 keyTracks are on the MB tracklist. The evidence.wikipedia storedUrl points to a DIFFERENT album (Night Lights, 1963 Gerry Mulligan), but ours.wikipediaUrl is null."
+ },
+ {
+  "id": "air-song",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no", "websearch": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (sim 1.0) confirms Air Song by Air, 1975, Whynot/Trio (PA-7120) -- title/artist/year/label all match. All 4 keyTracks (Great Body of the Riddle..., Dance of the Beast, Air Song, Untitled Tango) are on the MB tracklist. The albumDNA's personnel (Henry Threadgill, Fred Hopkins, Steve McCall) is editorial and not contradicted by any evidence. Wiki opensearch returned a wholly unrelated entity (Airton Garcia, a Brazilian politician), correctly discarded; ours.wikipediaUrl null."
+ },
+ {
+  "id": "eastern-rebellion",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a", "websearch": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (sim 1.0) confirms Eastern Rebellion, Cedar Walton, 1975-12-10, Timeless Records SJP 101. All 4 keyTracks (Mode for Joe, 5/4 Thing, Bolivia, Naima) are on the MB tracklist. The albumDNA's personnel (Bob Berg, Sam Jones, Billy Higgins) is editorial and not contradicted. Wiki opensearch null; ours.wikipediaUrl null."
+ },
+ {
+  "id": "saxophone-solos",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a", "websearch": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+    {"field": "year", "ours": "1975", "evidence": "1976", "evidenceQuote": "date '1976'; releaseGroup firstReleaseDate '1976'", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "MB (sim 1.0) confirms Saxophone Solos by Evan Parker, Incus Records (Incus 19); all 3 keyTracks (Aerobatics 1, 2, 4) are on the MB tracklist. Entity is solid. Discrepancy: ours year 1975 vs MB release date and release-group firstReleaseDate both 1976. This is the recording-year (1975) vs release-year (1976) ambiguity rather than the disambiguation-collision disease; MB shows a release date and ours may reflect the recording year, so the year is unverifiable rather than a clean contradiction. Recording the fieldIssue. albumDNA is editorial (circular breathing, multiphonics) and states no year."
+ },
+ {
+  "id": "real-book",
+  "verdict": "clean",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "no", "wikipedia": "no", "websearch": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB resolved a wrong entity (The Real Book, Vol. 1, a 2019 EP by Bishop Nehru & Brady Watt) and the stored wiki resolved another wrong entity (Various Positions, 1984 Leonard Cohen) -- both discarded. websearch resolved=true confirms the catalogued entity: The Real Book, the c.1975 illegal Berklee bootleg fake book. Year 1975 and label 'Bootleg' are accurate descriptors per websearch. wikipediaUrl was repaired to Real_Book, which websearch confirms is the correct page (wikiLinkVerdict correct). It is a book of lead sheets, not a recorded album, so there is no tracklist (websearch tracklist=null -> keyTracksVerdict no_evidence); websearch explicitly vouches the keyTracks (All The Things You Are, Autumn Leaves, Blue Bossa) as representative standards and accepts the Various Artists / Bootleg / 1975 framing. The DNA's 'album/record/tracks' phrasing is a known imprecision the evidence itself accepts; no contradiction."
+ },
+ {
+  "id": "a-ghetto-lullaby",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes", "websearch": "n/a"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (sim 1.0) confirms A Ghetto Lullaby, Jackie McLean, 1976, Inner City Records IC 2013. albumDNA is verbatim from the stored wiki (correct entity): live album recorded at Jazzhus Montmartre 1973, released on SteepleChase. The DNA's 'SteepleChase' and the field's 'Inner City Records' are both correct (SteepleChase = Europe, Inner City = US distributor); ours year 1976 = release year (recorded 1973) matches MB. All 5 keyTracks match the MB and wiki tracklists exactly. wikipediaUrl A_Ghetto_Lullaby correct."
+ },
+ {
+  "id": "shakti",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes", "websearch": "n/a"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (sim 1.0) confirms Shakti with John McLaughlin, artist Shakti, 1976, Columbia PC 34162 (Live). albumDNA opening sentence is verbatim from the stored wiki (correct entity): 'first album by Shakti, described as another brain blowing achievement by Agha Yasir.' All 3 keyTracks (Joy, Lotus Feet, the long What Need Have I... medley) match the MB and wiki tracklists exactly. wikipediaUrl Shakti_(Shakti_album) correct."
+ },
+ {
+  "id": "the-peoples-republic",
+  "verdict": "clean",
+  "confidence": 0.94,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes", "websearch": "n/a"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (sim 0.92) confirms The People's Republic by The Revolutionary Ensemble, 1976, Horizon (SP-708). The stored wiki (correct entity) confirms the personnel named in the albumDNA -- violinist Leroy Jenkins, bassist Sirone, drummer Jerome Cooper -- and the A&M/Horizon label, released 1976. All 3 keyTracks (The People's Republic, New York, Trio for Trio) match the MB and wiki tracklists. wikipediaUrl The_People's_Republic_(album) correct."
+ },
+ {
+  "id": "dinner-music",
+  "verdict": "clean",
+  "confidence": 0.96,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes", "websearch": "n/a"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (sim 1.0) confirms Dinner Music, Carla Bley, 1977, ECM Records / WATT (WATT/6). albumDNA is verbatim from the stored wiki (correct entity): recorded 1976, released on Watt/ECM in 1977. Label field 'Watt' is consistent with MB (WATT) and the DNA's 'Watt/ECM'. All 4 keyTracks (Ida Lupino, Dining Alone, Sing Me Softly of the Blues, Dreams So Real) match the MB and wiki tracklists. wikipediaUrl Dinner_Music correct."
+ }
+]

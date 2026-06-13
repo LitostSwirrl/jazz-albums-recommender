@@ -1,0 +1,320 @@
+[
+ {
+  "id": "first-impressions",
+  "verdict": "clean",
+  "confidence": 0.55,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release confirms title, Fletcher Henderson, 1921-12-17 date, Black Swan label, and both tracks named in prose; all 5 keyTracks on tracklist. Opensearch wiki page is the 1974 Olivia Newton-John album - discarded, no URL is shipped. CAUTION for human review: the MB release itself looks unreliable - a 39-track set dated 1921 containing swing-era titles ('Sing, Sing, Sing', 'Christopher Columbus') plus a 'Universal Digital Enterprises' label suggests a digital compilation with a seeded date; 'Sing You Sinners' and 'Hop Off' existing on a 1921 date is suspect, but no pack evidence shows the contradiction, so per spec this stays clean rather than factual_error."
+ },
+ {
+  "id": "hot-fives-sevens",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is the wiki lead verbatim and fully supported (JSP box set, recordings 1925-1930, Penguin Guide crown/core collection, Definitive reissue 2001). All 6 keyTracks on MB tracklist. Unverifiable parts: label field 'Okeh' - no pack evidence names Okeh (MB lists JSP Records for the box); year field 1925 follows the recording-era convention for this Compilation-tagged release (MB/wiki give release as 1999-10-26 / 22 Aug 2000 - note those two evidence sources disagree with each other by ~10 months). Fields likely refer to the original Hot Five recordings, not the box set the prose describes; repair-writer should reconcile year/label convention with prose."
+ },
+ {
+  "id": "bix-beiderbecke-and-the-chicago-cornets",
+  "verdict": "unverifiable",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (search, sim 1.0) matches title/artist: a 1974 Milestone archival LP, secondaryTypes empty but plainly a reissue of 1920s material. All 6 keyTracks match ('Susie (2nd take)' matches 'Susie (Take A/B)' under the take-suffix rule). 'from 1926' cannot be verified: MB dates the release 1974 and no evidence dates the recordings; wiki bio says Bix first recorded with the Wolverines in 1924, so even as a recording-era year 1926 deserves review. Bio claims in prose (most influential 1920s soloist, lyrical cornet, 'shooting bullets at a bell') are confirmed verbatim by the Bix wiki page, but that page is about the artist, not this album - stored album link points to the artist page (deliberate fallback, not a disambiguation collision; flagged wrong_entity because it is not the album's page). Data glitch: prose quote is truncated mid-word ('at a bel.'). 'contemporary jazz album' boilerplate misdescribes archival material."
+ },
+ {
+  "id": "singin-the-blues-beiderbecke",
+  "verdict": "entity_mismatch",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "\"Singing the Blues\" is a popular song composed by Melvin Endsley and published in 1956. The highest-charting version was by Guy Mitchell and the first recording of the song was by Marty Robbins.", "problem": "Prose skeleton is the 1956 pop song, an unrelated entity; our item is Bix Beiderbecke's recording/compilation. The pasted text itself disclaims the connection.", "evidenceQuote": "It is not related to the 1920 jazz song \"Singin' the Blues\" recorded by Frank Trumbauer and Bix Beiderbecke in 1927.", "source": "wiki"}
+  ],
+  "notes": "This is the documented disease case. Stored wiki URL (Singing_the_Blues) is the Guy Mitchell 1956 pop song page - wrong entity. The real album exists: MB (sim 1.0) matches a 1995 Drive Archive Bix compilation 'Singin' the Blues' whose tracklist contains all 6 keyTracks. Appended Bix bio sentences are accurate of the artist (and truncated mid-word: 'at a bel.'). Repair: rewrite prose around the Beiderbecke/Trumbauer material, repoint or drop the wiki link."
+ },
+ {
+  "id": "aint-misbehavin-waller",
+  "verdict": "entity_mismatch",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Until the Real Thing Comes Along", "I'm Gonna Sit Right Down and Write Myself a Letter", "Tea for Two", "I Can't Give You Anything but Love, Baby"],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "\"Ain't Misbehavin'\" is a 1929 stride jazz/early swing song. Andy Razaf wrote the lyrics to a score by Thomas \"Fats\" Waller and Harry Brooks for the Broadway musical comedy play Connie's Hot Chocolates.", "problem": "Prose describes the song composition (wiki page 'Ain't Misbehavin' (song)'), not the album this item represents; the embedded-MBID release is a 2001 Castle Pulse Fats Waller compilation.", "evidenceQuote": "shortDescription: \"1929 song\"; MB release: title \"Ain’t Misbehavin’\", date \"2001\", secondaryTypes [\"Compilation\"]", "source": "wiki"}
+  ],
+  "notes": "Kind-level mismatch: song prose on an album item. Mitigation: it is the album's own title song by the same artist, and every stated song fact is confirmed by the song wiki page - so the facts are true, just not about an album. keyTracks check against the authoritative embedded tracklist: only 'Ain't Misbehavin'' and 'Two Sleepy People' match; the other 4 look like a generic Waller hits list. Stored wiki URL is the song page, not an album page. Year 1929 matches the song, not the 2001 release (recording-era convention)."
+ },
+ {
+  "id": "quintette-du-hot-club-de-france",
+  "verdict": "entity_mismatch",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "The Quintette du Hot Club de France, often abbreviated \"QdHCdF\" or \"QHCF\", was a jazz group founded in France in 1934 by the guitarist Django Reinhardt and the violinist Stéphane Grappelli.", "problem": "Prose describes the band, not the album; the item is an album (embedded MBID: undated Rockin' Chair compilation credited to Django Reinhardt).", "evidenceQuote": "shortDescription: \"French jazz group\"", "source": "wiki"}
+  ],
+  "notes": "Prose is the group's wiki lead verbatim; both stated facts (founded 1934 by Reinhardt and Grappelli, active until 1948) are confirmed - about the group. Zero album-level content. All 6 keyTracks are on the embedded MB tracklist, so the underlying release reference is sound. Stored wiki URL is the group page (related entity, not a random collision). Repair: write album-level prose; the MB release has no date, so the 1934 year field is unverified era convention."
+ },
+ {
+  "id": "rhythm-is-our-business",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MB release confirms title/artist and all 6 keyTracks (1994 Past Perfect archival release). Prose is boilerplate with no checkable specifics beyond title/artist/year; 'from 1934' is the recording-era convention (MB release is 1994; no evidence dates the recordings). Stored wiki URL is a disambiguation collision: the page is Jordan Sandke's 1985 Stash album of the same name (it merely covers the Lunceford tune) - the exact disease pattern; repoint or drop. Discarded that page for fact-checking."
+ },
+ {
+  "id": "for-dancers-only-lunceford",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MB release (2010 US compilation) confirms title/artist and all 6 keyTracks. Stored wiki URL is a collision: 'For Dancers Only' page is the 1983 Junior Mance / Martin Rivera Sackville album - wrong entity, discarded; repoint or drop. With it discarded, 'bandleader, alto saxophone player' and the 1937 dating are unverifiable in this item's evidence (the Lunceford artist page attached to the lunceford-special item elsewhere in this pack does confirm alto sax + bandleader, for the repair-writer's reference). Year 1937 = recording-era convention vs 2010 MB compilation."
+ },
+ {
+  "id": "the-joint-is-jumpin",
+  "verdict": "entity_mismatch",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "A Handful of Keys is an album of live performances by jazz pianist Fats Waller & His Rhythm, the only authorized live performances of the musician. It features previously unreleased live radio transcriptions originally broadcast in 1938.", "problem": "Prose describes a different Fats Waller album ('A Handful of Keys', live 1938 radio transcriptions, per the linked wiki page) - not our item 'The Joint Is Jumpin'', which per embedded MBID is a 1987 Bluebird/RCA studio-recordings compilation.", "evidenceQuote": "MB release: title \"The Joint Is Jumpin'\", date \"1987\", labels Bluebird/RCA 6288-2-RB, secondaryTypes [\"Compilation\"]", "source": "mb"}
+  ],
+  "notes": "Same-artist, wrong-album substitution. The stored wiki URL (Handful_of_Keys_(album)) matches the prose but not the item - both prose and link belong to the other album. Meanwhile all 6 keyTracks DO sit on the embedded Joint Is Jumpin' tracklist, so the catalog reference is correct and only prose+link need repair. Year 1937 matches the title song era, not the 1987 compilation (convention)."
+ },
+ {
+  "id": "lunceford-special",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (search, sim 1.0) matches: 2001 Columbia/Legacy compilation, all 6 keyTracks present, including title track. Wiki stored URL is the Jimmie Lunceford artist page, not an album page (deliberate fallback, not a collision; flagged wrong_entity because it is not about the album). That page does confirm prose claims 'bandleader, alto saxophone player' ('American jazz alto saxophonist and bandleader in the swing era'). '1940 album' is unverifiable: MB release is 2001; wiki narrative places the Columbia/Vocalion material 1938-1940 but does not date this set's recordings. No contradictions."
+ },
+ {
+  "id": "django-reinhardt-et-son-quintette",
+  "verdict": "entity_mismatch",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "\"Nuages\" is one of the best-known compositions by Django Reinhardt. He recorded at least thirteen versions of the tune, which is a jazz standard and a mainstay of the gypsy swing repertoire.", "problem": "Prose describes the composition 'Nuages', not the album; the embedded-MBID release is a 1988 Vogue (FR) compilation titled Nuages.", "evidenceQuote": "shortDescription: \"Composition by Django Reinhardt\"; MB release: date \"1988\", label Vogue, secondaryTypes [\"Compilation\"]", "source": "wiki"}
+  ],
+  "notes": "Composition prose on an album item (title-track page substitution). All composition facts are confirmed verbatim by the Nuages wiki page; nothing describes the album. All 6 keyTracks are on the embedded MB tracklist, so the release reference is sound. Year 1940 matches the famous recordings of the tune (wiki: two 1940 recordings), not the 1988 release - era convention. Stored URL is the composition page; for an album entry that is not the album's page."
+ },
+ {
+  "id": "zodiac-suite",
+  "verdict": "clean",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No MB match (empty candidates). Wiki page covers the suite AND its 1945 Asch trio recording, which is what this album entry represents - unlike the composition-for-album substitutions elsewhere, the prose facts here describe this album's actual content. Confirmed: 12 pieces, first performed 1945, classical+jazz, modernism, astrological signs with musicians born under them, written 1942-1945, Asch label. All 4 keyTracks are named as movements in the wiki text but no formal tracklist evidence exists, hence no_evidence. Unverified editorial-leaning tails: 'One of the first extended jazz compositions' (wiki offers 'early instance'/'breakthroughs' but also notes Ellington's earlier Black, Brown and Beige) and 'bridged the swing era and bebop'."
+ },
+ {
+  "id": "django",
+  "verdict": "entity_mismatch",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Jean Reinhardt, known by his Romani nickname Django, was a Belgian-born Romani jazz guitarist and composer who lived most of his life in France.", "problem": "Prose is an artist biography (person), but the item is the album 'Djangology'; per MB the matched release is a 1974 Jazz Vogue compilation.", "evidenceQuote": "MB release: title \"Djangology\", date \"1974\", label \"Jazz Vogue\" VJD502, secondaryTypes [\"Compilation\"]", "source": "mb"}
+  ],
+  "notes": "Person-bio prose on an album item. Bio facts are confirmed verbatim by the Django Reinhardt wiki page (the stored link - artist page, not an album page). 'Invented European jazz' is editorial. All 4 keyTracks are on the MB tracklist. Fields year=1949/label=Vogue cannot be confirmed from this evidence (MB match is a 1974 Jazz Vogue comp); if the site means the 1949 Rome 'Djangology' sessions, neither evidence document covers that. Repair: album-level prose needed."
+ },
+ {
+  "id": "genius-of-modern-music-vol-1",
+  "verdict": "factual_error",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Evonce", "Suburban Eyes", "Evonce (alternate take)", "Suburban Eyes (alternate take)"],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity solid: embedded MBID is Blue Note BLP 1510 (1956 12\"), release-group 'Genius of Modern Music, Volume 1' with firstReleaseDate 1951 matching ours.year; label Blue Note matches; prose is the wiki lead verbatim and confirmed. The error is keyTracks: 4 of 6 entries ('Evonce' and 'Suburban Eyes' plus their alternate takes) are not on the authoritative embedded tracklist - only 'Humph' and 'Thelonious' match. Those titles come from the October 15, 1947 session and appear on other editions (wiki: CD reissues add session material not on the original LPs), not on the shipped release. Verdict capped at factual_error per keyTracks rule."
+ },
+ {
+  "id": "lover-man",
+  "verdict": "entity_mismatch",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "\"Lover Man \" is a 1941 popular song written by Jimmy Davis, Roger (\"Ram\") Ramirez, and James Sherman.", "problem": "Prose describes the song, not the album; the embedded-MBID release is the 1951 Decca LP (DL5345) by Billie Holiday.", "evidenceQuote": "\"Lover Man\", or \"Lover Man (Oh, Where Can You Be?)\", is a 1941 song made popular by Billie Holiday.", "source": "wiki"}
+  ],
+  "notes": "Song prose on an album item. The opensearch wiki hit is only a disambiguation page; it confirms the song is from 1941 and associated with Holiday, but the writers' names and the 1989 Grammy Hall of Fame claim are unverifiable here. The album reference itself is excellent: embedded MB release confirms year 1951, label Decca Records, and all 5 keyTracks. Only the prose needs an album-level rewrite. No wiki URL shipped."
+ },
+ {
+  "id": "masterpieces-by-ellington",
+  "verdict": "clean",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "unsure", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No confident MB match (candidates only; top candidate title/artist/1951 align). Stored wiki page is about our album and confirms the prose verbatim: first Ellington LP, recorded for Columbia 1950, early 12-inch LP, four tracks, three concert arrangements plus 'The Tattooed Bride'; 1951 release year confirmed. Label field is 'Unknown' (no claim) - evidence says Columbia, available for repair. keyTracks: no MB tracklist; wiki names Mood Indigo / Sophisticated Lady / Solitude / The Tattooed Bride (4 of ours 6); 'Vagabonds' and 'Smada' are not in the extract - wiki says the album 'consisted of four tracks' with unnamed bonus tracks on the 2004 CD reissue, so those two are likely CD bonus material; reviewer should confirm before shipping them as keyTracks."
+ },
+ {
+  "id": "in-walked-bud",
+  "verdict": "clean",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No MB evidence (empty search). Stored wiki page (The Amazing Bud Powell) is about our album and confirms the prose verbatim: sessions Aug 8 1949 and May 1 1951, Blue Note, April 1952 release, the quintet (Navarro/Rollins/Potter/Haynes) and trio/solo lineups. Fields: label Blue Note confirmed; year 1951 is the second session's recording year - wiki gives release as April 1952 (10\") and the 'Volume 1' recompile as 1956 (BLP 1503), so the year field follows recording-date convention rather than release date; not flagged, but reviewer should note. keyTracks: no MB tracklist; wiki mentions Un Poco Loco, A Night in Tunisia, Bouncing with Bud (not Parisian Thoroughfare). Item id 'in-walked-bud' oddly differs from title; out of scope but worth a look."
+ },
+ {
+  "id": "ambiance-bechet",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MB release confirms everything checkable: Disques Vogue (LD 049), 1952, France, and both tracks named in the prose; all 5 keyTracks on the tracklist. MB credits 'Sidney Bechet All Stars' - same leader, band credit, not a mismatch. 'clarinetist' descriptor and 'dixieland vein' have no evidence either way (Bechet is usually identified with soprano sax as well; no instrument data in pack). No wiki evidence; no URL shipped."
+ },
+ {
+  "id": "bird-and-diz",
+  "verdict": "unverifiable",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MB release (1952 FR pressing) confirms year 1952, label Blue Star (also Mercury MGC-512), artists Bird/Diz, and that 'Passport' and 'Visa' are on the album. All keyTracks match after stripping take suffixes ('My Melancholy Baby' ~ MB 'Melancholy Baby'). Unverifiable from this item's evidence: recording dates (June 6 1950; March/May 1949), 'without Gillespie and with different personnel', and the 'originally issued ... on the Verve subsidiary label Clef Records' claim (MB shows Blue Star/Mercury for this pressing; no Clef). The twin item bird-and-diz-gillespie carries the album's wiki page, which confirms all of these verbatim - repair-writer can rely on that; per-item evidence here cannot."
+ },
+ {
+  "id": "bird-and-diz-gillespie",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Stored wiki page is our album and confirms the prose verbatim (recorded primarily June 6 1950 NYC; Passport/Visa recorded 1949 by Parker without Gillespie; issued 1952 in 10\" format on Clef). Embedded MB release confirms year 1952 and label Blue Star (FR pressing, with Mercury MGC-512), and all keyTracks match after take-suffix stripping (wiki CD listing also shows Bloomdido, My Melancholy Baby, An Oscar for Treadwell, Mohawk). Listing the duo album under 'Dizzy Gillespie' is the site's per-artist convention, consistent with MB credit 'Bird, Diz'."
+ },
+ {
+  "id": "on-parade",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MB release confirms 1952, Disques Vogue (LD 048), and both tracks named in prose; all 5 keyTracks on tracklist. MB credits Sidney Bechet AND Claude Luter - ours lists Bechet alone; Luter's band backed Bechet on these Vogue dates, so this reads as credit-style variance, but repair-writer may want the co-credit. Stored wiki URL is a hard collision: 'On Parade' resolves to a 1964 Canadian TV variety series - wrong entity, discarded; repoint or drop. Unverifiable prose claims: 'clarinetist', and 'first recorded several months before trumpeter Louis Armstrong' (no supporting evidence in pack). Typo: 'A early jazz outing'."
+ },
+ {
+  "id": "solo-flight",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "It was first recorded in 1956 with Mitch Miller and his orchestra, and played a prominent part in the 1971 motion picture Play Misty for Me.", "problem": "Sentence lifted from Erroll Garner's bio where 'It' refers to his composition 'Misty'; pasted here it falsely asserts the 1952 album Solo Flight was first recorded in 1956 (MB: released 1952, Columbia CL 6209).", "evidenceQuote": "His instrumental ballad \"Misty\", his best-known composition, has become a jazz standard. It was first recorded in 1956 with Mitch Miller and his orchestra, and played a prominent part in the 1971 motion picture Play Misty for Me.", "source": "wiki"}
+  ],
+  "notes": "Album entity is right: embedded MB release confirms title, Erroll Garner, 1952, Columbia CL 6209, the two named standouts, and all 5 keyTracks. The Misty sentence is the corruption. Also questionable but editorial: 'delivers a bebop program' - the Garner wiki page says he was 'not a bebop musician per se'; not flagged as a wrongClaim (genre framing), but a repair-writer should reword. Stored wiki URL is the artist page, not an album page (fallback, not a collision)."
+ },
+ {
+  "id": "holiday-in-piano",
+  "verdict": "factual_error",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "artist", "ours": "Lennie Tristano", "evidence": "Lennie Tristano, Arnold Ross", "evidenceQuote": "artists: [\"Lennie Tristano\", \"Arnold Ross\"]", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "MB (search, sim 1.0) confirms title, 1953, Mercury Records (MG 26029), and all 5 keyTracks - but credits the release jointly to Lennie Tristano AND Arnold Ross (likely a split 10\" with sides by each pianist). Ours credits Tristano alone and the prose presents the whole program as his; which tracks are whose is not in evidence. MB search is strong-not-infallible, hence moderate confidence. Background note (not flagged): 'bebop program' is odd framing for Tristano, usually filed under cool/Tristano school; no pack evidence either way."
+ },
+ {
+  "id": "jazz-at-massey-hall",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Stored wiki page is our album and confirms the prose verbatim: released December 1953 on Debut, recorded 15 May 1953 at Massey Hall, Toronto; the Quintet = Gillespie, Parker, Powell, Mingus, Roach; only time the five recorded as a unit; last recorded meeting of Parker and Gillespie. MB (sim 1.0) confirms The Quintet / Debut DEB-124 and all 4 keyTracks; MB's 1956 date is the 12\" edition (wiki shows the original came out as two 10\" LPs in Dec 1953), so ours.year 1953 stands. 'Greatest bebop performance ever recorded' is editorial; wiki supports the legend framing ('the greatest jazz concert ever' tag)."
+ },
+ {
+  "id": "king-of-the-tenors",
+  "verdict": "unverifiable",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MBID resolves to the original Norgran LP 'The Consummate Artistry of Ben Webster' (1954, MGN 1001) whose release-group is titled 'King of the Tenors' with firstReleaseDate 1953 - confirming ours.year 1953, the Norgran claim, and the original-title claim; all 5 keyTracks on tracklist. Unverifiable from pack evidence: the 1957 Verve reissue claim (consistent with the RG title but not shown), the personnel claim (Oscar Peterson Trio; Benny Carter and Harry 'Sweets' Edison on several tracks), and the label field 'Verve' (MB shows Norgran for the embedded release; 'Verve' matches the reissue convention the prose describes). No contradictions; no wiki evidence; no URL shipped."
+ }
+]

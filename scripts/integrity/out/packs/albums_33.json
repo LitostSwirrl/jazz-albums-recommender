@@ -1,0 +1,1792 @@
+[
+ {
+  "id": "it-happened-again",
+  "kind": "album",
+  "ours": {
+   "title": "It Happened Again",
+   "artist": "Bill Frisell",
+   "year": 2025,
+   "label": "Arkadia Records",
+   "albumDNA": "Recorded for Arkadia Records in 2025, 'It Happened Again' features Bill Frisell exploring jazz fusion. Key tracks include 'Only Now' and 'Home On the Range, Pt. 1'.",
+   "keyTracks": [
+    "Only Now",
+    "Home On the Range, Pt. 1",
+    "Home On the Range, Pt. 2",
+    "Red River Valley",
+    "Reciprocity"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "ddf2cc10-e974-414d-a163-e5180391c3d2",
+     "title": "It Happened Again",
+     "date": "2025-03-14",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "Bill Frisell",
+      "Gary Peacock"
+     ],
+     "labels": [
+      {
+       "name": "Arkadia Records",
+       "catalogNumber": "71034"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "06b796bd-1128-45bb-b102-0ce20f3d5fb6",
+      "title": "It Happened Again",
+      "firstReleaseDate": "2025-03-14",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Only Now",
+      "Home On the Range, Pt. 1",
+      "Home On the Range, Pt. 2",
+      "Red River Valley",
+      "Reciprocity",
+      "Good Morning Heartache",
+      "N.O.M.B.",
+      "Just So Happens"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "listen-ship",
+  "kind": "album",
+  "ours": {
+   "title": "Listen Ship",
+   "artist": "Henry Threadgill",
+   "year": 2025,
+   "label": "Pi Recordings",
+   "albumDNA": "Recorded for Pi Recordings in 2025, 'Listen Ship' features Henry Threadgill exploring free jazz and avant-garde jazz. Key tracks include 'A' and 'B'. Released by Pi Recordings during the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond, this set captures Henry Threadgill in characteristic form.",
+   "keyTracks": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "204a9a34-8642-4213-aa30-3bd8baa9406e",
+     "title": "Listen Ship",
+     "date": "2025-09-26",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Henry Threadgill"
+     ],
+     "labels": [
+      {
+       "name": "Pi Recordings",
+       "catalogNumber": "PI110"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "140ee276-2ec4-492c-9937-b49289e41807",
+      "title": "Listen Ship",
+      "firstReleaseDate": "2025-09-26",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "IJ",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "more-than-you-know",
+  "kind": "album",
+  "ours": {
+   "title": "More Than You Know",
+   "artist": "Dexter Gordon",
+   "year": 2025,
+   "label": "GleAM Records",
+   "albumDNA": "More Than You Know is an album by saxophonist Dexter Gordon with an Orchestra arranged and conducted by Palle Mikkelborg recorded in 1975 and released on the Danish SteepleChase label. Captures tenor saxophonist Dexter Gordon during the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond.",
+   "keyTracks": [
+    "It’s You or No One",
+    "Hi Fly",
+    "Back Stairs",
+    "LTD & Intro",
+    "More Than You Know"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/More_Than_You_Know_(Dexter_Gordon_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "09df958c-4411-40bc-b5a3-3ca086ded57c",
+     "title": "More Than You Know",
+     "date": "2025-11-07",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "Dexter Gordon"
+     ],
+     "labels": [
+      {
+       "name": "GleAM Records",
+       "catalogNumber": "AM7040"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "1a27df3d-09ac-402b-a1c6-e19c7fd2f76d",
+      "title": "More Than You Know",
+      "firstReleaseDate": "2025-11-07",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "It’s You or No One",
+      "Hi Fly",
+      "Back Stairs",
+      "LTD & Intro",
+      "More Than You Know"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/More_Than_You_Know_(Dexter_Gordon_album)",
+    "page": {
+     "requestedTitle": "More Than You Know (Dexter Gordon album)",
+     "resolvedTitle": "More Than You Know (Dexter Gordon album)",
+     "shortDescription": "1975 studio album by Dexter Gordon & Orchestra",
+     "extract": "More Than You Know is an album by saxophonist Dexter Gordon with an Orchestra arranged and conducted by Palle Mikkelborg recorded in 1975 and released on the Danish SteepleChase label.\n\n\n== Reception ==\n\nIn his review for AllMusic, Scott Yanow said \"This set does not quite live up to its potential although Dexter Gordon fans will still find moments to enjoy\".\n\n\n== Track listing ==\nAll compositions by Dexter Gordon except where noted.\n\n\"Naima\" (John Coltrane) – 6:45\n\"Good Morning Sun\" (Palle Mikkelborg) – 11:38\n\"The Girl With the Purple Eyes\" – 5:59\n\"This Happy Madness\" (Antônio Carlos Jobim, Vinícius de Moraes) – 6:33 Bonus track on CD release\n\"Ernie's Tune\" – 9:47\n\"Tivoli\" – 7:03\n\"More Than You Know\" (Vincent Youmans, Edward Eliscu, Billy Rose) – 7:35\n\n\n== Personnel ==\nDexter Gordon – tenor saxophone, soprano saxophone, vocals\nAllan Botschinsky (tracks 1, 2 & 4–7), Benny Rosenfeld (tracks 1, 2 & 4–7), Idrees Sulieman – trumpet\nRichard Boone (tracks 1, 2 & 4–7), Vincent Nilsson – trombone\nAxel Windfeld – bass trombone (tracks 1, 2 & 4–7)\nPreben Garnov – French horn (tracks 1, 2 & 4–7)\nBent Larsen – alto saxophone, bass flute (tracks 1, 2 & 4–7)\nErwin Jacobsen – English horn, oboe (tracks 1, 2 & 4–7)\nAge Knudsen, Mogens Holm Larsen, Per Walther – violin (tracks 1, 2 & 4–7)\nBjarne Boie Rasmussen – viola (tracks 1, 2 & 4–7)\nErling Christensen – cello (tracks 1, 2 & 4–7)\nLuba Boschenko – harp (tracks 1, 2 & 4–7)\nThomas Clausen – piano, electric piano\nKenneth Knudsen – synthesizer\nOle Molin – guitar\nNiels-Henning Ørsted Pedersen – bass\nAlex Riel (track 3), Ed Thigpen (tracks 1, 2 & 4–7) – drums\nKlaus Nordsoe – congas, percussion\nSanne Salomonsen – vocals (track 2)\nPalle Mikkelborg – arranger, conductor, trumpet, vocals\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "sleeping-beauty",
+  "kind": "album",
+  "ours": {
+   "title": "Sleeping Beauty",
+   "artist": "Sun Ra",
+   "year": 2025,
+   "label": "Strut",
+   "albumDNA": "Sleeping Beauty is an album by jazz composer, bandleader and keyboardist Sun Ra and his Intergalactic Myth Science Solar Arkestra, recorded in 1979 and originally released on Ra's Saturn label and rereleased on CD on Art Yard in 2008. Captures pianist Sun Ra in a 2025 swing setting, adding to the recorded documentation of the contemporary era.",
+   "keyTracks": [
+    "Springtime Again",
+    "Door Of The Cosmos",
+    "Sleeping Beauty"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Sleeping_Beauty_(Sun_Ra_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "59d5ac42-388b-4e2e-9499-ae6aac5ab199",
+     "title": "Sleeping Beauty",
+     "date": "2025-07-18",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "Sun Ra"
+     ],
+     "labels": [
+      {
+       "name": "Strut",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "035223cc-8510-4c18-94df-6049bcd0a986",
+      "title": "Sleeping Beauty",
+      "firstReleaseDate": "2025-07-18",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Springtime Again",
+      "Door Of The Cosmos",
+      "Sleeping Beauty"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Sleeping_Beauty_(Sun_Ra_album)",
+    "page": {
+     "requestedTitle": "Sleeping Beauty (Sun Ra album)",
+     "resolvedTitle": "Sleeping Beauty (Sun Ra album)",
+     "shortDescription": "1979 studio album by Sun Ra and His Intergalactic Myth Science Solar Arkestra",
+     "extract": "Sleeping Beauty is an album by jazz composer, bandleader and keyboardist Sun Ra and his Intergalactic Myth Science Solar Arkestra, recorded in 1979 and originally released on Ra's Saturn label and rereleased on CD on Art Yard in 2008.\n\n\n== Reception ==\nThe AllMusic review by Sean Westergaard stated, \"This is the great late-night Sun Ra chillout album you never knew about. The band had been working in a more groove-oriented setting off and on for over a year, as evidenced by the albums Lanquidity and On Jupiter, with both featuring prominent electric bass and electric guitar\".\n\n\n== Track listing ==\nAll compositions by Sun Ra\n\n\"Springtime Again\" – 9:12\n\"Door of the Cosmos\" – 8:53\n\"Sleeping Beauty\" – 11:48\n\n\n== Personnel ==\nSun Ra – piano, electric piano, organ\nMichael Ray  – trumpet, flugelhorn\nWalter Miller – trumpet\nTony Bethel, Craig Harris – trombone\nVincent Chancey – French horn\nMarshall Allen – alto saxophone, flute\nJohn Gilmore – tenor saxophone, percussion\nDanny Ray Thompson – baritone saxophone, flute\nEloe Omoe – bass clarinet, flute\nJames Jacson – bassoon, flute, percussion\nDisco Kid – electric guitar\nRichard Williams – electric bass\nHarry Wilson – vibraphone\nAtakatune – percussion\nLuqman Ali – drums\nJune Tyson and the band – vocals\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "the-copenhagen-session-vol-2",
+  "kind": "album",
+  "ours": {
+   "title": "The Copenhagen Session Vol. 2",
+   "artist": "Tomasz Stańko",
+   "year": 2025,
+   "label": "April Records",
+   "albumDNA": "Recorded for April Records in 2025, 'The Copenhagen Session Vol. 2' features Tomasz Stańko exploring contemporary jazz. Key tracks include 'So Nice' and 'Morning Ballad'.",
+   "keyTracks": [
+    "So Nice",
+    "Morning Ballad",
+    "3rd for Eruption",
+    "April Moon",
+    "Anti-Freeze"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "667a92ec-5914-468a-a4b9-c76c3769cdeb",
+     "title": "The Copenhagen Session Vol. 2",
+     "date": "2025-11-07",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "Scandinavian Art ensemble",
+      "Tomasz Stańko"
+     ],
+     "labels": [
+      {
+       "name": "April Records",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "04ca9606-b3c7-4d39-9132-cafd6e82a99f",
+      "title": "The Copenhagen Session Vol. 2",
+      "firstReleaseDate": "2025-11-07",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "So Nice",
+      "Morning Ballad",
+      "3rd for Eruption",
+      "April Moon",
+      "Anti-Freeze",
+      "Sunrise"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "the-lore",
+  "kind": "album",
+  "ours": {
+   "title": "The Lore",
+   "artist": "Pat Metheny",
+   "year": 2025,
+   "label": "FP",
+   "albumDNA": "The Lore (2025) captures Pat Metheny exploring jazz fusion territory on the FP label. Highlights of the session include \"Bright Size Life\", \"Are You Going With Me?\", and \"Goin’ Ahead\". As of 2024, he had been nominated for 4 Grammy Awards, including Best Jazz Instrumental Album for Guided Tour in 2014 and Still Dreaming in 2019.",
+   "keyTracks": [
+    "Bright Size Life",
+    "Are You Going With Me?",
+    "Goin’ Ahead",
+    "Unity Village",
+    "September Fifteenth"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Scott_Colley"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "4017b23f-b6ac-4339-bf1a-6af37043c616",
+     "title": "The Lore",
+     "date": "2025-03-27",
+     "country": null,
+     "status": "Official",
+     "artists": [
+      "Pat Metheny",
+      "Pat Metheny Group"
+     ],
+     "labels": [
+      {
+       "name": "FP",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "26bd7b67-c301-49a5-b030-52bb299eecb2",
+      "title": "The Lore",
+      "firstReleaseDate": "2025-03-27",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "Bright Size Life",
+      "Are You Going With Me?",
+      "Goin’ Ahead",
+      "Unity Village",
+      "September Fifteenth",
+      "James",
+      "Au lait",
+      "Sueño con Mexico",
+      "Jaco",
+      "Phase Dance",
+      "It’s for You",
+      "Aprilwind",
+      "San Lorenzo",
+      "Midwestern Nights Dream",
+      "The First Circle",
+      "Travels (live)",
+      "Sirabhorn",
+      "The Search",
+      "If I Could",
+      "Ozark",
+      "April Joy",
+      "Eighteen",
+      "Lakes",
+      "River Quay",
+      "Suite: II. Legend of the Fountain",
+      "Oasis",
+      "Barcarole",
+      "(Cross the) Heartland",
+      "As Falls Wichita, So Falls Wichita Falls",
+      "Unquity Road",
+      "Country Poem",
+      "Lonely Woman",
+      "Omaha Celebration",
+      "The Bat, Pt.2",
+      "Missouri Uncompromised",
+      "Farmer’s Trust (live)",
+      "Tears of Rain",
+      "New Chautauqua",
+      "Airstream",
+      "Lone Jack"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Scott_Colley",
+    "page": {
+     "requestedTitle": "Scott Colley",
+     "resolvedTitle": "Scott Colley",
+     "shortDescription": "American jazz double bassist and composer",
+     "extract": "Scott Colley (born November 24, 1963) is an American jazz double bassist and composer. As of 2024, he had been nominated for 4 Grammy Awards, including Best Jazz Instrumental Album for Guided Tour in 2014 and Still Dreaming in 2019. During his career, he has toured, recorded, and played with musicians such as Herbie Hancock, Jim Hall, Carmen McRae, Chris Potter, Julian Lage, Brian Blade, and Pat Metheny.\n\n\n== Early life and education ==\nColley was born on November 24, 1963 in Pasadena, California. He began studying bass at age 11 after his older brother Jim, a drummer, said he \"thought it would be cool to have another rhythm section instrument in the family.\" At 13, he began studying with bassist Monty Budwig and played twice a week at a club in Pasadena, where he spent three years being mentored by musicians such as Jimmy Rowles. At Eagle Rock High School, he studied under John Rinaldo. He auditioned at California Institute of the Arts after learning that Charlie Haden taught there and was granted a full-ride scholarship. He studied with Haden and Fred Tinsley, and began touring and recording with jazz singer Carmen McRae prior to graduating in 1988. He then moved to New York City.\n\n\n== Career ==\n\nIn 1988 and 1989, he accompanied McRae on a tour across the US and in Tokyo. He also performed with musicians including Dizzy Gillespie and Clifford Jordan. In the 1990s, members of his touring groups included Jim Hall, John Scofield, Joe Henderson, Art Farmer, Joe Lovano, Toots Thielemans, Bobby Hutcherson, and Bob Berg. He also played extensively with Andrew Hill's Another Point of Departure sextet. In 1996, he released his debut album, Portable Universe, which featured Chris Potter and David Binney. He recorded Subliminal... (1998) with a quartet, while This Place (1997) and The Magic Line (2000) were both recorded with a trio including Potter and Bill Stewart.\nColley toured extensively as a member of Herbie Hancock's working trio for five years in the early 2000s, periodically performing alongside other music groups such as the Chicago Symphony Orchestra. He performed with two separate quartets, one with Gary Thomas and the other with Bobby Hutcherson, as well as with Andrew Hill's trio and sextet and Chris Potter's quartet. Initial Wisdom, his 2003 album release, featured Ravi Coltrane, Adam Rogers, and Bill Stewart. In 2005, he worked on the Directions in Music tour with Michael Brecker, Herbie Hancock, Roy Hargrove, and Terri Lyne Carrington. He continued performing with Jim Hall and joined a trio with Pat Metheny. Around this time, he began taking residencies at institutions including the Banff Centre, Virginia Commonwealth University, and Vallekilde Folk High School. In 2007, he toured internationally with Chris Potter and Antonio Sánchez.\nIn the mid-2000s, Colley recorded projects with Chris Potter, Abbey Lincoln, Luciana Souza, Kenny Werner, Adam Rogers, and Donny McCaslin. In 2007, he joined Billy Childs' Jazz-Chamber Ensemble with Brian Blade and taught a workshop at Berklee with Antonio Sánchez and Chris Potter. He also released his fourth album, Architect of the Silent Moment, in 2007. It was composed entirely by him with the exception of \"Smoke Stack,\" which was written by Andrew Hill. The album was recorded with a quartet including Ralph Alessi, Craig Taborn, and Brian Blade with appearances by David Binney, Jason Moran, Adam Rogers, Gregoire Maret, and Antonio Sánchez. He and the core quartet began touring prior to the album being fully finished. In the late 2000s, he performed in the US, Europe, and South America with Mark Turner and Antonio Sánchez; Chris Potter's Underground; Edward Simon; the Antonio Sánchez Quartet with Sánchez, Miguel Zenón, and David Sánchez; Magic Circle with Dave Douglas and Mark Feldman; the David Binney Quartet with Binney, Craig Taborn and Brian Blade; and the Kenny Werner Quintet with Werner, Randy Brecker, David Sánchez, and Ari Hoenig. During the summer of 2010, he released Empire, an album entirely of original compositions, on CAM Jazz with longtime collaborators Bill Frisell, Alessi, Blade, and Taborn. He continued touring with Jim Hall and Joey Baron; Chris Potter; the Kenny Werner Quintet; and Michel Portal and Gary Burton and spent the summer doing a teaching residency at the Siena Summer Workshop in Siena, Italy.\nBetween 2011 and 2015, Colley's group lineups included a trio with Chris Potter and Antonio Sánchez; the Koppel Colley Blade Collective with Benjamin Koppel "
+    }
+   }
+  }
+ },
+ {
+  "id": "honey-from-a-winter-stone",
+  "kind": "album",
+  "ours": {
+   "title": "honey from a winter stone",
+   "artist": "Ambrose Akinmusire",
+   "year": 2025,
+   "label": "Nonesuch",
+   "albumDNA": "Recorded for Nonesuch in 2025, 'honey from a winter stone' features Ambrose Akinmusire exploring jazz. Key tracks include 'muffled screams' and 'Bloomed (the ongoing processional of nighas in hoodies)'.",
+   "keyTracks": [
+    "muffled screams",
+    "Bloomed (the ongoing processional of nighas in hoodies)",
+    "MYanx.",
+    "Owled",
+    "s-/Kinfolks"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "158cd9fc-225e-4b32-9e87-567da6c14354",
+     "title": "Honey From a Winter Stone",
+     "date": "2025-01-31",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Ambrose Akinmusire"
+     ],
+     "labels": [
+      {
+       "name": "Nonesuch",
+       "catalogNumber": "075597905984"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0cd2ed9f-6732-49b0-a5fb-ff82b2fb845e",
+      "title": "honey from a winter stone",
+      "firstReleaseDate": "2025-01-31",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "muffled screams",
+      "Bloomed (the ongoing processional of nighas in hoodies)",
+      "MYanx.",
+      "Owled",
+      "s-/Kinfolks"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "malene-christian",
+  "kind": "album",
+  "ours": {
+   "title": "Malene & Christian",
+   "artist": "Christian Sands",
+   "year": 2026,
+   "label": "Stunt Records",
+   "albumDNA": "Recorded for Stunt Records in 2026, 'Malene & Christian' features Christian Sands exploring contemporary jazz. Key tracks include 'Weight and Sea' and 'Forever'. A contemporary jazz entry from 2026 by Christian Sands, documenting the breadth of the contemporary period.",
+   "keyTracks": [
+    "Weight and Sea",
+    "Forever",
+    "Go Away Little Boy",
+    "I Didn't Know What Time it Was",
+    "Life Is Okay"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "6ec9675e-3a4f-4345-b161-ab2bf7ed615d",
+     "title": "Malene & Christian",
+     "date": "2026-02-06",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "Malene Mortensen",
+      "Christian Sands"
+     ],
+     "labels": [
+      {
+       "name": "Stunt Records",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "04ebbcc2-5497-4d72-bc07-3a37f0fb34f2",
+      "title": "Malene & Christian",
+      "firstReleaseDate": "2026-02-06",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Weight and Sea",
+      "Forever",
+      "Go Away Little Boy",
+      "I Didn't Know What Time it Was",
+      "Life Is Okay",
+      "Last Night I Had the Strangest Dream",
+      "Transient Dreams",
+      "Reaching for the Sun",
+      "If You Want the Rainbow"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "birdland-53",
+  "kind": "album",
+  "ours": {
+   "title": "Birdland 53'",
+   "artist": "Bud Powell",
+   "year": null,
+   "label": "Unknown",
+   "albumDNA": "'Birdland 53'' features Bud Powell exploring bebop. Key tracks include 'I've got you under my skyn' and 'Autum in NY'.",
+   "keyTracks": [
+    "I've got you under my skyn",
+    "Autum in NY",
+    "I want to be happy",
+    "Budo",
+    "My heart stood still"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "8b5cb1dd-44b8-444e-9fd9-77fcab33d0ad",
+     "title": "Birdland 53'",
+     "date": null,
+     "country": null,
+     "status": null,
+     "artists": [
+      "Bud Powell"
+     ],
+     "labels": [],
+     "releaseGroup": {
+      "mbid": "02aacca2-792f-4654-8313-d9771b96033d",
+      "title": "Birdland 53'",
+      "firstReleaseDate": "",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "I've got you under my skyn",
+      "Autum in NY",
+      "I want to be happy",
+      "Budo",
+      "My heart stood still",
+      "Dance of the infidels",
+      "Dance of the infidels",
+      "My heart stood still",
+      "Un poco loco",
+      "Parisian thoughfare",
+      "Dance of the infidels",
+      "Glass enclosure",
+      "Parisian thoughfare",
+      "Dance of the infidels",
+      "Un poco loco",
+      "Oblivion",
+      "Parisian thoughfare",
+      "Dance of the infidels",
+      "Embracable you",
+      "Un poco loco",
+      "Oblivion"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Birdland (album)",
+     "resolvedTitle": "Birdland",
+     "shortDescription": "Topics referred to by the same term",
+     "extract": "Birdland may refer to:\n\n\n== Places and attractions ==\nBirdland Park and Gardens, a bird park at Bourton-on-the-Water, Gloucestershire, England\nTropical Birdland, Leicestershire, a bird zoo\nBirdland, San Diego, a community\nOriole Park at Camden Yards, nicknamed Birdland, an American baseball stadium\nBirdland (New York jazz club), a club in New York City\nBirdland (Hamburg jazz club), a jazz club in Hamburg\nBirdland, a jazz club in Vienna founded by Joe Zawinul\nMarie Byrd Land, a region of Antarctica\n\n\n== Created works ==\nDrawing Blood, originally titled Birdland, a novel by Poppy Z. Brite\nBirdland, an erotic comic book by Gilbert Hernandez, published by Eros Comix\nBirdland (TV series), an American series produced by Walter F. Parkes\nGibson Byrdland, an electric guitar made by Gibson\nMusic\nBirdland (Birdland album), the debut album by Birdland\nBirdland (The Yardbirds album), a 2003 album by the Yardbirds\nBirdland, a posthumously released 2015 album by Buddy Rich\n\"Birdland\" (Chubby Checker song), single by Chubby Checker, 1963\n\"Birdland\", song by the Psychedelic Furs\n\"Birdland\" (Weather Report song), composed by Joe Zawinul, originally recorded by his band Weather Report, covered as a single by the Manhattan Transfer in 1980\n\"Birdland\", a song by Patti Smith from Horses\n\"Lullaby of Birdland\", a 1952 popular song written by George Shearing and George David Weiss\nThe Birdland Big Band, 16-piece jazz orchestra in residence at Birdland Jazz Club in New York City\nBirdland (band), a 1980s English indie band\nBirdland, an American band co-founded by Lester Bangs\n\n\n== See also ==\nLive at Birdland (disambiguation)"
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Birdland",
+      "shortDescription": "Topics referred to by the same term",
+      "extractHead": "Birdland may refer to:\n\n\n== Places and attractions ==\nBirdland Park and Gardens, a bird park at Bourton-on-the-Water, Gloucestershire, England\nTropical Birdland, Leicestershire, a bird zoo\nBirdland, San Diego, a community\nOriole Park at Camden Yards, nicknamed Birdland, an American baseball stadium\nBirdland (New York jazz club), a club in New York City\nBirdland (Hamburg jazz club), a jazz club in Hamburg\nBirdland, a jazz club in Vienna founded by Joe Zawinul\nMarie Byrd Land, a region of Antarcti"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "blue-hodge",
+  "kind": "album",
+  "ours": {
+   "title": "Blue Hodge",
+   "artist": "Johnny Hodges",
+   "year": null,
+   "label": "Verve",
+   "albumDNA": "Blue Hodge is an album recorded by American jazz saxophonist Johnny Hodges featuring performances recorded in 1961 and released on the Verve label. A early jazz entry from None by Johnny Hodges, documenting the breadth of the early jazz period.",
+   "keyTracks": [
+    "And Then Some",
+    "I Wonder Why",
+    "Azure Te",
+    "Blue Hodge",
+    "Hodge Podge"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "da74356f-717a-4793-b5b8-79c77c5d574e",
+     "title": "Blue Hodge",
+     "date": null,
+     "country": null,
+     "status": "Official",
+     "artists": [
+      "Johnny Hodges"
+     ],
+     "labels": [
+      {
+       "name": "Verve",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0960817d-d09c-4788-b5dd-d36119aebdf8",
+      "title": "Blue Hodge",
+      "firstReleaseDate": "",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "And Then Some",
+      "I Wonder Why",
+      "Azure Te",
+      "Blue Hodge",
+      "Hodge Podge",
+      "It Shouldn't Happen to a Dream",
+      "Why Are You Blue?",
+      "Knuckles",
+      "Stand By Blues",
+      "There Is No Greater Love"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Blue Horse (album)",
+     "resolvedTitle": "Blue Horse (album)",
+     "shortDescription": "2000 studio album by the Be Good Tanyas",
+     "extract": "Blue Horse is the debut album by the Be Good Tanyas. It was released in 2000 in Canada, and in 2001 in the U.S.\n\n\n== Production ==\nThe album was produced by Garth Futcher, and was recorded in a Vancouver-area wooden shack. The last verse of \"The Littlest Birds\" references Syd Barrett's song \"Jugband Blues\", from the Pink Floyd album A Saucerful of Secrets.\n\n\n== Critical reception ==\nExclaim! deemed the album \"spooky, drowsy gothic folk performed by three western women with voices like junkie angels.\" The Independent wrote: \"A low-key album made on an impossibly low budget, Blue Horse is one of the most beguiling debuts to be heard this year.\"\n\n\n== Track listing ==\n\n\n== References =="
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Blue Horse (album)",
+      "shortDescription": "2000 studio album by the Be Good Tanyas",
+      "extractHead": "Blue Horse is the debut album by the Be Good Tanyas. It was released in 2000 in Canada, and in 2001 in the U.S.\n\n\n== Production ==\nThe album was produced by Garth Futcher, and was recorded in a Vancouver-area wooden shack. The last verse of \"The Littlest Birds\" references Syd Barrett's song \"Jugband Blues\", from the Pink Floyd album A Saucerful of Secrets.\n\n\n== Critical reception ==\nExclaim! deemed the album \"spooky, drowsy gothic folk performed by three western women with voices like junkie ang"
+     },
+     {
+      "resolvedTitle": "Blue House (album)",
+      "shortDescription": "1994 studio album by Marcia Ball",
+      "extractHead": "Blue House is a blues album by Marcia Ball. It is her seventh studio album and was released in 1994 by Rounder Records.\n\n\n== Track listing ==\n\n\n== Personnel ==\nMarcia Ball - piano and vocals, Hammond B3 on track 8 and 10, accordion on track 6, background vocals on tracks 3 and 7\nDon Bennett - bass, background vocals on track 5\nRodney Craig - drums, background vocals on track 3, 5 and 7\nSteve Williams - guitar\nPaul Klemperer - saxophone\nMark Kazanoff - first saxophone solo on track 4 and tenor sa"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "dial-masters-roost-sessions",
+  "kind": "album",
+  "ours": {
+   "title": "Dial Masters & Roost Sessions",
+   "artist": "Charlie Parker",
+   "year": null,
+   "label": "Unknown",
+   "albumDNA": "'Dial Masters & Roost Sessions' features Charlie Parker exploring bebop. Key tracks include 'Yardbird Suite - Charlie Parker Featuring Miles Davis' and 'A Night In Tunnisia - Charlie Parker Featuring Miles Davis'.",
+   "keyTracks": [
+    "Yardbird Suite - Charlie Parker Featuring Miles Davis",
+    "A Night In Tunnisia - Charlie Parker Featuring Miles Davis",
+    "Embraceable You - Charlie Parker Featuring Miles Davis",
+    "Bird Of Paradise - Charlie Parker Featuring Miles Davis",
+    "Ornithology - Charlie Parker Featuring Miles Davis"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "c88a71d1-461d-40a6-854c-48aa456c2aa1",
+     "title": "Dial Masters & Roost Sessions",
+     "date": null,
+     "country": null,
+     "status": null,
+     "artists": [
+      "Charlie Parker"
+     ],
+     "labels": [],
+     "releaseGroup": {
+      "mbid": "148144d6-2987-4e27-9da4-8dafc523a524",
+      "title": "Dial Masters & Roost Sessions",
+      "firstReleaseDate": "",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Yardbird Suite - Charlie Parker Featuring Miles Davis",
+      "A Night In Tunnisia - Charlie Parker Featuring Miles Davis",
+      "Embraceable You - Charlie Parker Featuring Miles Davis",
+      "Bird Of Paradise - Charlie Parker Featuring Miles Davis",
+      "Ornithology - Charlie Parker Featuring Miles Davis",
+      "Parker's Mood - Charlie Parker Featuring Miles Davis",
+      "Out Of Nowhere - Charlie Parker Featuring Miles Davis",
+      "Moose The Mooche - Charlie Parker Featuring Miles Davis",
+      "Don't Blame Me - Charlie Parker Featuring Miles Davis",
+      "Scrapple From The Apple - Charlie Parker Featuring Miles Davis",
+      "My Old Flame - Charlie Parker Featuring Miles Davis",
+      "Now's The Time",
+      "Scrapple From The Apple",
+      "Bird Of Paradise",
+      "Jumpin' With Symphony Sid",
+      "Be-Bop",
+      "How High The Moon",
+      "Ornithology",
+      "Dizzy Atmosphere",
+      "Groovin' High",
+      "Cheryl",
+      "All The Things You Are",
+      "Groovin' High",
+      "Hot House"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "forest",
+  "kind": "album",
+  "ours": {
+   "title": "Forest",
+   "artist": "Yuki Arimasa",
+   "year": null,
+   "label": "Unknown",
+   "albumDNA": "'Forest' features Yuki Arimasa exploring contemporary jazz. Key tracks include 'Forest' and 'In the Mist of Spring'.",
+   "keyTracks": [
+    "Forest",
+    "In the Mist of Spring",
+    "Liberty Changes",
+    "Spaces",
+    "Sutra"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "41f39764-f857-4174-bd03-7e4d41a6da0a",
+     "title": "Forest",
+     "date": "",
+     "country": "JP",
+     "status": null,
+     "artists": [
+      "Yuki Arimasa"
+     ],
+     "labels": [],
+     "releaseGroup": {
+      "mbid": "5baedc57-8a34-4981-985e-843907fe965f",
+      "title": "Forest",
+      "firstReleaseDate": "",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Forest",
+      "In the Mist of Spring",
+      "Liberty Changes",
+      "Spaces",
+      "Sutra",
+      "Two Autums",
+      "Winter Waltz",
+      "So I love you"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Forest (album)",
+     "resolvedTitle": "Forest (disambiguation)",
+     "shortDescription": "Topics referred to by the same term",
+     "extract": "A forest is a large area covered by trees.\nForest may also refer to:\n\n\n== Businesses and organisations ==\nFOREST (\"Freedom Organisation for the Right to Enjoy Smoking Tobacco\"), a British smokers' rights organisation\nForest Institute, a private American university\nForest Laboratories, an American pharmaceutical company\nForest School (disambiguation)\n\n\n== Computing ==\nForest (application), a productivity app\nForest (data structure), a set of zero or more disjoint tree data structures\nForest, a collection structure in Active Directory\n\n\n== Film and television ==\nForest (1980 film) (Russian: Лес), a Soviet comedy film\nForest (2003 film), a Bulgarian film\nForest (TV series), a 2020 South Korean drama\nForest (2025 film), an Indian film\n\n\n== Music ==\nForest (band), a 1960s UK psych-folk band\nForest (George Winston album), 1994\nForest (Lee Seung-gi EP), 2012\nForest (Seirom EP), 2011\nForest, a 2004 album by Circle\n\"A Forest\", a 1980 song by The Cure\n\"Forest\", a song by System of a Down on their second album Toxicity\n\"Forest\", a song by Twenty One Pilots from their album Regional at Best\n\n\n== People ==\nForest (name), a list of people with the given name or surname\nf0rest, pseudonym for Patrik Lindberg (born 1988), Swedish Counter-Strike player\n\n\n== Places ==\n\n\n=== United States ===\nForest, Alabama, an unincorporated community\nForest, California, an unincorporated community\nForest, Indiana, an unincorporated community\nForest, Louisiana, a village\nForest, Mississippi, a city\nForest, Ohio, a village\nForest, Texas, community in Cherokee County\nForest, Virginia, a census-designated place\nForest, Washington, an unincorporated community\nForest (community), Wisconsin, unincorporated community\nForest, Fond du Lac County, Wisconsin, a town\nForest, Richland County, Wisconsin, a town\nForest, St. Croix County, Wisconsin, a town\nForest, Vernon County, Wisconsin, a town\nForest County (disambiguation)\n\n\n=== Elsewhere ===\nForest, Tasmania, Australia, a township near Smithton\nForest, Belgium, a municipality\nForest, Ontario, Canada, a community\nForest, North Yorkshire, England, a hamlet\nForest, Guernsey, a parish\nForest (Mbeya ward), Tanzania, an administrative ward\nForest (Waltham Forest ward), England, an administrative ward\n\n\n== Sports ==\nNottingham Forest F.C., a football club based in Nottingham, England\nWanderers F.C. or Forest F.C., a pioneer football team\n\n\n== Other uses ==\nForest (graph theory), an undirected graph all of whose connected components are trees\nForest (name), a given name and surname\nForest (novel), a 2001 novel by Australian author Sonya Hartnett\nForest (painting), an oil painting by Paul Cézanne\nForest (skyscraper), a building in Warsaw, Poland\nForest Café, a community café and arts venue in central Edinburgh\nForest Theater, a theater in Carmel-by-the-Sea, California\nNew Forest coven, an alleged group of witches\nRoyal forest, a hunting reserve for exclusive royal use\n\n\n== See also ==\nThe Forest (disambiguation)\nForest City (disambiguation)\nForest District (disambiguation)\nForest Hill (disambiguation)\nForest Hills (disambiguation)\nForest Lake (disambiguation)\nForest Park (disambiguation)\nForest Preserve (disambiguation)\nForest River (disambiguation)\nForest Township (disambiguation)\nForester (disambiguation)\nForestville (disambiguation)\nForrest (disambiguation)\nLake Forest (disambiguation)\nAll pages with titles containing Forest"
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Forest (disambiguation)",
+      "shortDescription": "Topics referred to by the same term",
+      "extractHead": "A forest is a large area covered by trees.\nForest may also refer to:\n\n\n== Businesses and organisations ==\nFOREST (\"Freedom Organisation for the Right to Enjoy Smoking Tobacco\"), a British smokers' rights organisation\nForest Institute, a private American university\nForest Laboratories, an American pharmaceutical company\nForest School (disambiguation)\n\n\n== Computing ==\nForest (application), a productivity app\nForest (data structure), a set of zero or more disjoint tree data structures\nForest, a co"
+     },
+     {
+      "resolvedTitle": "The Forest (album)",
+      "shortDescription": "1991 soundtrack album by David Byrne",
+      "extractHead": "The Forest is a mostly instrumental album by the American musician David Byrne, released in June 1991, inspired by the Epic of Gilgamesh and set during the later Industrial Revolution.  Some of the music from this orchestral album was originally used in a Robert Wilson directed theatre piece with the same name. The Forest premiered at the Theater der Freien Volksbühne, West Berlin in 1988.\n\n\n== Track listing ==\nAll tracks composed by David Byrne\n\n\n== Release history ==\n\n\n== \"Forestry\" ==\n\"Forest"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "grand-piano-duets",
+  "kind": "album",
+  "ours": {
+   "title": "Grand Piano Duets",
+   "artist": "Willie \"the Lion\" Smith",
+   "year": null,
+   "label": "Sackville",
+   "albumDNA": "'Grand Piano Duets' features Willie \"the Lion\" Smith exploring early jazz. Key tracks include 'I've Found A New Baby' and 'A Porter's Love Song To A Chambermaid'.",
+   "keyTracks": [
+    "I've Found A New Baby",
+    "A Porter's Love Song To A Chambermaid",
+    "I Would Do Anything For You",
+    "Some Of These Days",
+    "Just You, Just Me"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "b1ab56b0-d487-4064-a89c-81fe2fa8a761",
+     "title": "Grand Piano Duets",
+     "date": null,
+     "country": null,
+     "status": "Official",
+     "artists": [
+      "Willie “The Lion” Smith",
+      "Don Ewell"
+     ],
+     "labels": [
+      {
+       "name": "Sackville",
+       "catalogNumber": "SK 2004"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "96bce256-328e-4150-bb38-3ac529de7abb",
+      "title": "Grand Piano Duets",
+      "firstReleaseDate": "",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "I've Found A New Baby",
+      "A Porter's Love Song To A Chambermaid",
+      "I Would Do Anything For You",
+      "Some Of These Days",
+      "Just You, Just Me",
+      "Everybody Loves My Baby",
+      "Can't We Be Friends",
+      "You Took Advantage Of Me",
+      "Keepin' Out Of Mischief Now",
+      "Sweet Georgia Brown"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "hawkins-alive-at-the-village-gate",
+  "kind": "album",
+  "ours": {
+   "title": "Hawkins! Alive! At the Village Gate",
+   "artist": "Coleman Hawkins",
+   "year": null,
+   "label": "Unknown",
+   "albumDNA": "Hawkins! Alive! At the Village Gate is a live album by saxophonist Coleman Hawkins which was recorded at the Village Gate in 1962 and released on the Verve label.",
+   "keyTracks": [
+    "All The Things You Are",
+    "Joshua Fit The Battle Of Jericho",
+    "Mack The Knife",
+    "Talk Of The Town",
+    "Bean And The Boys"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Hawkins!_Alive!_At_the_Village_Gate"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "3e48ea0e-91cc-4a54-ae5b-8fb0b89a597b",
+     "title": "Hawkins! Alive! At the Village Gate",
+     "date": "",
+     "country": "JP",
+     "status": null,
+     "artists": [
+      "Coleman Hawkins"
+     ],
+     "labels": [],
+     "releaseGroup": {
+      "mbid": "0b0f3a43-d456-48b6-83a1-a52a570cf6a8",
+      "title": "Hawkins! Alive! At the Village Gate",
+      "firstReleaseDate": "",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "All The Things You Are",
+      "Joshua Fit The Battle Of Jericho",
+      "Mack The Knife",
+      "Talk Of The Town",
+      "Bean And The Boys",
+      "If I Had You"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Hawkins!_Alive!_At_the_Village_Gate",
+    "page": {
+     "requestedTitle": "Hawkins! Alive! At the Village Gate",
+     "resolvedTitle": "Hawkins! Alive! At the Village Gate",
+     "shortDescription": "1963 live album by Coleman Hawkins",
+     "extract": "Hawkins! Alive! At the Village Gate is a live album by saxophonist Coleman Hawkins which was recorded at the Village Gate in 1962 and released on the Verve label.\n\n\n== Reception ==\n\nAllMusic stated \"The great Hawkins (who debuted on records 40 years earlier) gets to stretch out on this live outing by his 1962 quartet ... Coleman Hawkins in his late 50s was still a powerful force.\n\n\n== Track listing ==\n\"All the Things You Are\" (Jerome Kern, Oscar Hammerstein II) – 8:16\n\"Joshua Fit the Battle of Jericho\" (Traditional) – 10:43\n\"Mack the Knife\" (Kurt Weill, Bertolt Brecht) – 8:50\n\"It's the Talk of the Town\" (Jerry Livingston, Al J. Neiburg, Marty Symes) – 9:28\n\"Bean and the Boys\" (Coleman Hawkins) – 7:02 Additional track on CD release\n\"If I Had You\" (Ted Shapiro, Irving King) – 8:35 Additional track on CD release\n\n\n== Personnel ==\nColeman Hawkins – tenor saxophone\nTommy Flanagan – piano\nMajor Holley – bass\nEddie Locke – drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "heart-to-heart",
+  "kind": "album",
+  "ours": {
+   "title": "Heart to Heart",
+   "artist": "David Sanborn",
+   "year": null,
+   "label": "Warner Bros. Records",
+   "albumDNA": "'Heart to Heart' features David Sanborn exploring jazz. Key tracks include 'Solo' and 'Short Visit'. Part of Warner Bros. Records's hard bop catalog. Warner Bros. gave jazz artists commercial reach and creative freedom.",
+   "keyTracks": [
+    "Solo",
+    "Short Visit",
+    "Theme from 'Love Is Not Enough'",
+    "Lotus Blossom",
+    "Heba"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "83102900-a619-496e-ae88-4fef3cf641f1",
+     "title": "Heart to Heart",
+     "date": "",
+     "country": "DE",
+     "status": "Official",
+     "artists": [
+      "David Sanborn"
+     ],
+     "labels": [
+      {
+       "name": "Warner Bros. Records",
+       "catalogNumber": "927 353-2"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0e4902b1-33c4-3ec0-81d9-d4fd1b729e96",
+      "title": "Heart to Heart",
+      "firstReleaseDate": "",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Solo",
+      "Short Visit",
+      "Theme from 'Love Is Not Enough'",
+      "Lotus Blossom",
+      "Heba",
+      "Sunrise Gospel",
+      "Anywhere I Wander"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Heart to Heart (album)",
+     "resolvedTitle": "Heart to Heart",
+     "shortDescription": "Topics referred to by the same term",
+     "extract": "Heart to Heart or Heart 2 Heart may also refer to:\n\n\n== Film and TV ==\nHeart to Heart (1928 film), a 1928 silent film\nHeart to Heart (1949 film), a 1949 documentary film\nHeart to Heart (1962 television film), a 1962 BBC television film\nHeart 2 Heart (film), a 2010 Indonesian film\nHeart to Heart (Norwegian TV series)\nHeart to Heart (South Korean TV series)\nDil Se Dil Tak (lit. 'Heart To Heart'), an Indian TV series\nHeart to Heart, a novel in the High School Musical book series\n\n\n== Music ==\nHeart 2 Heart (band), a short-lived Icelandic band that was active in 1992\n\n\n=== Albums ===\nHeart to Heart (Jean Shepard album), 1968\nHeart to Heart (Reba McEntire album), 1981\nHeart to Heart (Elvin Jones album), 1980\nHeart to Heart (Merle Haggard and Leona Williams album), 1983\nHeart to Heart (Diane Schuur and B. B. King album), 1994\nHeart to Heart (Alan Broadbent album), 2012\nHeart 2 Heart (Kyla album), an album by Filipino singer Kyla\nHeart 2 Heart with Super Junior, a compilation album by Super Junior\nHeart to Heart (Raisa album), an album by Indonesian singer Raisa Andriana\n\n\n=== Songs ===\n\"Heart to Heart\" (James Blunt song), 2014\n\"Heart to Heart\" (The Pointer Sisters song), June 1982\n\"Heart to Heart\" (Kenny Loggins song), November 1982\n\"Heart to Heart\", from the album 4Minutes Left, by 4Minute\n\"Heart to Heart\", from the album Here Comes the Cowboy, by Mac DeMarco\n\"Heart to Heart\", from the album Seasons of the Heart, by John Denver\n\"Heart to Heart\", from the album Aldo Nova, by Aldo Nova\n\"Heart to Heart\", from the album What About Me?, by Kenny Rogers\n\n\n== Other uses ==\nHeart to Heart International, a humanitarian organization\nHerz zu Herz, a German patience game whose name means \"Heart to Heart\"\nHeart to Heart (horse), a racehorse\n\n\n== See also ==\nHeart (disambiguation)\nDil Ki Baat (disambiguation) (lit. 'Heart to Heart')\nHart to Hart, an American TV series starring Robert Wagner and Stefanie Powers\n\"Heart by Heart\", a song from the film The Mortal Instruments: City of Bones by Demi Lovato"
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Heart to Heart",
+      "shortDescription": "Topics referred to by the same term",
+      "extractHead": "Heart to Heart or Heart 2 Heart may also refer to:\n\n\n== Film and TV ==\nHeart to Heart (1928 film), a 1928 silent film\nHeart to Heart (1949 film), a 1949 documentary film\nHeart to Heart (1962 television film), a 1962 BBC television film\nHeart 2 Heart (film), a 2010 Indonesian film\nHeart to Heart (Norwegian TV series)\nHeart to Heart (South Korean TV series)\nDil Se Dil Tak (lit. 'Heart To Heart'), an Indian TV series\nHeart to Heart, a novel in the High School Musical book series\n\n\n== Music ==\nHeart"
+     },
+     {
+      "resolvedTitle": "Heart (Heart album)",
+      "shortDescription": "1985 studio album by Heart",
+      "extractHead": "Heart is the eighth studio album by American rock band Heart, released on June 21, 1985, by Capitol Records. The album continued the band's transition into mainstream rock, a genre that yielded the band its greatest commercial success. Marking the band's Capitol Records debut, it became Heart's only album to top the US Billboard 200 to date. The album was eventually certified quintuple platinum by the Recording Industry Association of America (RIAA)—in contrast to Heart's previous two releases, "
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "in-the-spirit-of-blues",
+  "kind": "album",
+  "ours": {
+   "title": "In The Spirit of Blues",
+   "artist": "Yuki Arimasa",
+   "year": null,
+   "label": "Unamas",
+   "albumDNA": "'In The Spirit of Blues' features Yuki Arimasa exploring contemporary jazz. Key tracks include 'Solitary Morning Rain' and 'Be-Dookie'.",
+   "keyTracks": [
+    "Solitary Morning Rain",
+    "Be-Dookie",
+    "Soulful Bill",
+    "MS.A-Blues",
+    "50 Ways to Leave Your Lover"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "ed4e0f3b-dcd8-43fb-a11f-068fa842dc74",
+     "title": "In The Spirit of Blues (Dolby Atmos)",
+     "date": null,
+     "country": null,
+     "status": null,
+     "artists": [
+      "Yuki Arimasa"
+     ],
+     "labels": [
+      {
+       "name": "Unamas",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "9f060ec0-e652-461d-ada0-7809e268acdd",
+      "title": "In The Spirit of Blues",
+      "firstReleaseDate": "",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Solitary Morning Rain",
+      "Be-Dookie",
+      "Soulful Bill",
+      "MS.A-Blues",
+      "50 Ways to Leave Your Lover",
+      "Cubana Chant",
+      "Georgia On My Mind",
+      "It's Subtle Without Tea"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "lady-piano",
+  "kind": "album",
+  "ours": {
+   "title": "Lady Piano",
+   "artist": "Mary Lou Williams",
+   "year": null,
+   "label": "Black Bird",
+   "albumDNA": "'Lady Piano' features Mary Lou Williams exploring swing and big band. Key tracks include 'Fandangle' and 'Mama, Pin a Rose on Me'.",
+   "keyTracks": [
+    "Fandangle",
+    "Mama, Pin a Rose on Me",
+    "Roll'em",
+    "Sweet Sue",
+    "Lullaby of the Leaves"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "f3a8c50f-e2c0-4fe5-b2e7-40ab656e4f27",
+     "title": "Lady Piano",
+     "date": "",
+     "country": "ES",
+     "status": "Official",
+     "artists": [
+      "Mary Lou Williams"
+     ],
+     "labels": [
+      {
+       "name": "Black Bird",
+       "catalogNumber": "[none]"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "18405ed9-03e8-41e1-9da4-72f8bc2e1783",
+      "title": "Lady Piano",
+      "firstReleaseDate": "",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Fandangle",
+      "Mama, Pin a Rose on Me",
+      "Roll'em",
+      "Sweet Sue",
+      "Lullaby of the Leaves",
+      "Taurus",
+      "Jericho",
+      "I Love Him",
+      "Amy",
+      "Talk of the Tawn",
+      "I Love You",
+      "Easy Blue"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Lady Pank (album)",
+     "resolvedTitle": "Lady Pank (album)",
+     "shortDescription": "1983 studio album by Lady Pank",
+     "extract": "Lady Pank is the debut studio album by Polish pop rock band Lady Pank. It was released on June 20, 1983 in Poland through Tonpress (LP version), and been re-released by different record labels.\nLady Pank is considered to be one of the most important albums in the history of Polish rock.\n\n\n== Track listing ==\n\n\n=== Bonus Tracks ===\n\n\n== Personnel ==\nJan Borysewicz – lead guitar, guitar, vocal, music\nJanusz Panasewicz – vocal\nEdmund Stasiak – guitar\nPaweł Mścisławski – bass guitar\nJarosław Szlagowski – drums\nAndrzej Mogielnicki – lyrics\nMariusz Zabrodzki – co-producer, Moog syntheziser\nCezary Szlazak – saxophone\nAleksander Januszewski – artwork\nAndrzej Karczewski – photography\n\n\n== Release history ==\n\n\n== References =="
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Lady Pank (album)",
+      "shortDescription": "1983 studio album by Lady Pank",
+      "extractHead": "Lady Pank is the debut studio album by Polish pop rock band Lady Pank. It was released on June 20, 1983 in Poland through Tonpress (LP version), and been re-released by different record labels.\nLady Pank is considered to be one of the most important albums in the history of Polish rock.\n\n\n== Track listing ==\n\n\n=== Bonus Tracks ===\n\n\n== Personnel ==\nJan Borysewicz – lead guitar, guitar, vocal, music\nJanusz Panasewicz – vocal\nEdmund Stasiak – guitar\nPaweł Mścisławski – bass guitar\nJarosław Szlagow"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "lullaby-of-birdland",
+  "kind": "album",
+  "ours": {
+   "title": "Lullaby of Birdland",
+   "artist": "Duke Ellington",
+   "year": null,
+   "label": "Intermedia Records",
+   "albumDNA": "Ella and Duke at the Cote D'Azur is a 1967 live album by Ella Fitzgerald, accompanied by the big band of Duke Ellington. Captures pianist Duke Ellington in a None swing setting, adding to the recorded documentation of the swing era.",
+   "keyTracks": [
+    "Lullaby of Birdland",
+    "Change My Ways",
+    "Don't Worry 'Bout Me",
+    "Please Be Kind",
+    "Time On My Hands"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Lullaby_of_Birdland_(album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "6a677ef2-bd39-4b79-a644-f0b8b3125615",
+     "title": "Lullaby of Birdland",
+     "date": "2006-01-01",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Lee Konitz",
+      "Barry Harris"
+     ],
+     "labels": [
+      {
+       "name": "Candid",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "2afc8fb2-357b-45c8-9f3a-892ff20bf6a2",
+      "title": "Lullaby of Birdland",
+      "firstReleaseDate": "2006-01-01",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Lullaby of Birdland",
+      "This Is Always",
+      "Anthropology",
+      "Ask Me Now",
+      "East of the Sun",
+      "Cherokee",
+      "’round Midnight",
+      "The Song Is You"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Lullaby_of_Birdland_(album)",
+    "page": {
+     "requestedTitle": "Lullaby of Birdland (album)",
+     "resolvedTitle": "Lullaby of Birdland (album)",
+     "shortDescription": "1994 live album by Lee Konitz featuring Barry Harris",
+     "extract": "Lullaby of Birdland is a live album by saxophonist Lee Konitz featuring pianist Barry Harris which was recorded at Birdland in 1991 and released on the Candid label.\n\n\n== Critical reception ==\n\nThe Allmusic review stated \"Konitz and Harris have not crossed paths all that often through the years but they joined forces for an engagement at Birdland in 1991. ... The two stylists mix together just fine. Konitz's sweet/sour tone and melancholy moods are joyfully uplifted by Harris' mastery of bebop\".\n\n\n== Track listing ==\n\"Lullaby of Birdland\" (George Shearing) – 9:05\n\"This Is Always\" (Harry Warren, Mack Gordon) – 7:44\n\"Anthropology\" (Dizzy Gillespie, Charlie Parker) – 7:53\n\"Ask Me Now\" (Thelonious Monk) – 9:54\n\"East of the Sun\" (Brooks Bowman) – 6:23\n\"Cherokee\" (Ray Noble) – 7:28\n\"'Round Midnight\" (Monk) – 8:38\n\"The Song Is You\" (Jerome Kern, Oscar Hammerstein II) – 5:56\n\n\n== Personnel ==\nLee Konitz – alto saxophone\nBarry Harris – piano\nCalvin Hill – bass\nLeroy Williams – drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "messidors-finest-volume-1",
+  "kind": "album",
+  "ours": {
+   "title": "Messidor's Finest Volume 1",
+   "artist": "Mario Bauzá",
+   "year": null,
+   "label": "Unknown",
+   "albumDNA": "'Messidor's Finest Volume 1' features Mario Bauzá exploring swing and big band. Key tracks include 'Jack The Knife' and 'Zambia'. A swing entry from None by Mario Bauzá, documenting the breadth of the swing period.",
+   "keyTracks": [
+    "Jack The Knife",
+    "Zambia",
+    "Son Cubano (Yo Soy El Son Cubano)",
+    "Cachondo",
+    "Biri Bi Kum Bi"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "d6f172df-317c-4b18-ad15-1da8f6c2bb7c",
+     "title": "Messidor's Finest Volume 1",
+     "date": null,
+     "country": null,
+     "status": null,
+     "artists": [
+      "Mario Bauza"
+     ],
+     "labels": [],
+     "releaseGroup": {
+      "mbid": "89271d68-43ea-4d18-b984-c92f4ac94926",
+      "title": "Messidor's Finest Volume 1",
+      "firstReleaseDate": "",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Jack The Knife",
+      "Zambia",
+      "Son Cubano (Yo Soy El Son Cubano)",
+      "Cachondo",
+      "Biri Bi Kum Bi",
+      "El Manisero",
+      "Azulito",
+      "Mambo Rincon",
+      "Al Fin"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "mingus-by-five",
+  "kind": "album",
+  "ours": {
+   "title": "Mingus By Five",
+   "artist": "Bobo Stenson",
+   "year": null,
+   "label": "Unknown",
+   "albumDNA": "'Mingus By Five' features Bobo Stenson exploring contemporary jazz. Key tracks include 'Dizzy Moods' and 'Peggy's Blue Skylight'.",
+   "keyTracks": [
+    "Dizzy Moods",
+    "Peggy's Blue Skylight",
+    "Smooch",
+    "What Love",
+    "Goodbye Pork Pie Hat"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "2bcfc5a8-a137-4d9b-88d3-e52d39046cd6",
+     "title": "Mingus By Five",
+     "date": null,
+     "country": null,
+     "status": "Official",
+     "artists": [
+      "Ulf Adåker",
+      "Joakim Milder",
+      "Bobo Stenson",
+      "Palle Danielsson",
+      "Jonas Holgersson"
+     ],
+     "labels": [],
+     "releaseGroup": {
+      "mbid": "135e5ec4-ed08-3b0c-b8b5-757269cae8cd",
+      "title": "Mingus By Five",
+      "firstReleaseDate": "",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Dizzy Moods",
+      "Peggy's Blue Skylight",
+      "Smooch",
+      "What Love",
+      "Goodbye Pork Pie Hat",
+      "Orange Was the Color of Her Dress",
+      "Self-Portrait in Three Colors",
+      "Reincarnation of a Lovebird"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "nat-king-cole-golden-treasury-unforgettable",
+  "kind": "album",
+  "ours": {
+   "title": "Nat King Cole Golden Treasury \"Unforgettable\"",
+   "artist": "Nat King Cole",
+   "year": null,
+   "label": "Longines Symphonette Society",
+   "albumDNA": "'Nat King Cole Golden Treasury \"Unforgettable\"' features Nat King Cole exploring swing and big band. Key tracks include 'When My Sugar Walks Down The Street' and 'Mona Lisa'.",
+   "keyTracks": [
+    "When My Sugar Walks Down The Street",
+    "Mona Lisa",
+    "Ain't Misbehavin'",
+    "These Foolish Things",
+    "Who's Sorry Now"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "c2e10ff4-53d1-4142-8322-9afded97a0ae",
+     "title": "Nat King Cole Golden Treasury \"Unforgettable\"",
+     "date": "",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Nat King Cole"
+     ],
+     "labels": [
+      {
+       "name": "Longines Symphonette Society",
+       "catalogNumber": "LS117A"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0cc07553-fb3f-4502-b67b-6408b682ef64",
+      "title": "Nat King Cole Golden Treasury \"Unforgettable\"",
+      "firstReleaseDate": "",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "When My Sugar Walks Down The Street",
+      "Mona Lisa",
+      "Ain't Misbehavin'",
+      "These Foolish Things",
+      "Who's Sorry Now",
+      "When I Take My Sugar To Tea",
+      "Sweet Lorraine",
+      "Oh Mary, Don't You Weep",
+      "Smile",
+      "Ramblin' Rose",
+      "Because You're Mine",
+      "Again",
+      "As Far As I'm Concerned",
+      "Song For Delilah",
+      "At Last",
+      "If I Give My Heart To You",
+      "Never Let Me Go",
+      "Tell Me All About Yoursel",
+      "Lights Out",
+      "You Stepped Out Of A Dream",
+      "Unforgettable",
+      "Little Child",
+      "I Promise You",
+      "The Christmas Song",
+      "Once In A While",
+      "What Can I Say After I Say I'm Sorry",
+      "You Are Looking At Me",
+      "Alone Too Long",
+      "Just You Just Me",
+      "The Ruby And The Pearl",
+      "Funny",
+      "Those Lazy Hazy Crazy Days Of Summer",
+      "Only Yesterday",
+      "A Nightingale Sang In Berkeley Square",
+      "Tenderly",
+      "It's A Lonesome Old Town",
+      "Route 66",
+      "Don't Get Around Much Anymore",
+      "Red Sails In The Sunset",
+      "Straighten Up And Fly Right"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "smack",
+  "kind": "album",
+  "ours": {
+   "title": "Smack",
+   "artist": "Fletcher Henderson",
+   "year": null,
+   "label": "De Agostini",
+   "albumDNA": "'Smack' features Fletcher Henderson exploring early jazz. Key tracks include 'Down Hearted Blues' and 'Copenhagen'.",
+   "keyTracks": [
+    "Down Hearted Blues",
+    "Copenhagen",
+    "Sugar foot stomp",
+    "TNT",
+    "The stampede"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "cd0d437c-1f88-47e9-bb67-b675e1825be5",
+     "title": "Les Génies du Jazz (Tome 1, No. 10): Fletcher \"Smack\" Henderson",
+     "date": "",
+     "country": "FR",
+     "status": "Promotion",
+     "artists": [
+      "Fletcher Henderson"
+     ],
+     "labels": [
+      {
+       "name": "Éditions Atlas",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "c6e487a6-a6fd-416f-96a9-ef93653526ea",
+      "title": "Les Génies du Jazz (Tome 1, No. 10): Fletcher \"Smack\" Henderson",
+      "firstReleaseDate": "",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "Teapot Dome Blues",
+      "Sugar Foot Stomp",
+      "What-Cha-Call-'em Blues",
+      "The Stampede",
+      "Henderson Stomp",
+      "I'm Coming Virginia",
+      "King Porter Stomp",
+      "Oh Baby",
+      "Wang Wang Blues",
+      "Clarinet Marmelade",
+      "Yeah Man",
+      "Christopher Columbus",
+      "Rhythm of the Tambourine",
+      "Back in Your Own Backyard",
+      "Sing Your Sinners",
+      "Moten Stomp (Moten Swing)",
+      "Honeysuckle Rose",
+      "Wrappin' It Up"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Smak (album)",
+     "resolvedTitle": "Smak (album)",
+     "shortDescription": "1975 studio album by Smak",
+     "extract": "Smak is the eponymous debut studio album by the Serbian  band Smak, released in 1975 by ZKP RTLJ.\n\n\n== Track listing ==\n\n\n== Personnel ==\nSmak\n\nBoris Aranđelović — vocals\nRadomir Mihajlović \"Točak\" — acoustic guitar, electric guitar, backing vocals\nLaza Ristovski — keyboards, organ, electric piano, synthesizer, mellotron\nZoran Milanović — bass guitar\nSlobodan Stojanović \"Kepa\" — drums, congas, gong\nAdditional personnel\n\nLjubomir Milojević — design\nDrago Hribovšek — engineer\nPeter Čanžek — assistant engineer\nIvo Umek — production\n\n\n== References ==\n\n\n== External links ==\nSmak (album) at Discogs"
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Smak (album)",
+      "shortDescription": "1975 studio album by Smak",
+      "extractHead": "Smak is the eponymous debut studio album by the Serbian  band Smak, released in 1975 by ZKP RTLJ.\n\n\n== Track listing ==\n\n\n== Personnel ==\nSmak\n\nBoris Aranđelović — vocals\nRadomir Mihajlović \"Točak\" — acoustic guitar, electric guitar, backing vocals\nLaza Ristovski — keyboards, organ, electric piano, synthesizer, mellotron\nZoran Milanović — bass guitar\nSlobodan Stojanović \"Kepa\" — drums, congas, gong\nAdditional personnel\n\nLjubomir Milojević — design\nDrago Hribovšek — engineer\nPeter Čanžek — assist"
+     },
+     {
+      "resolvedTitle": "Stock (album)",
+      "shortDescription": "1988 studio album by Akina Nakamori",
+      "extractHead": "Stock is the twelfth studio album by Japanese singer Akina Nakamori, released on March 3, 1988. Unlike her previous albums, it has a rock influence, much like Nakamori's idol, Momoe Yamaguchi's latter albums. The main music producer is Kenji Kitajima from the rock band Fence of Defense.\n\n\n== Background ==\nIn January 1988, inside the single \"Al-Mauj\" was included an inquiry letter with information about the prototype title of the upcoming studio album, Fire Water, with \"Fire Starter\" being a cand"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "terrible-animals",
+  "kind": "album",
+  "ours": {
+   "title": "Terrible Animals",
+   "artist": "Lage Lund",
+   "year": null,
+   "label": "Criss Cross Jazz",
+   "albumDNA": "'Terrible Animals' features Lage Lund exploring contemporary jazz. Key tracks include 'Hard Eights' and 'Aquanaut'. Released by Criss Cross Jazz during the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond, this set captures Lage Lund in characteristic form.",
+   "keyTracks": [
+    "Hard Eights",
+    "Aquanaut",
+    "Suppressions",
+    "Haitian Ballad",
+    "Ray Ray"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "a6b1f18c-3e77-4a9a-91f4-8434f5c2ef71",
+     "title": "Terrible Animals",
+     "date": null,
+     "country": null,
+     "status": "Official",
+     "artists": [
+      "Lage Lund"
+     ],
+     "labels": [
+      {
+       "name": "Criss Cross Jazz",
+       "catalogNumber": "1402"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0070ddee-e12a-401c-af09-3616332022ae",
+      "title": "Terrible Animals",
+      "firstReleaseDate": "",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Hard Eights",
+      "Aquanaut",
+      "Suppressions",
+      "Haitian Ballad",
+      "Ray Ray",
+      "Octoberry",
+      "Brasilia",
+      "Take It Eas",
+      "Terrible People",
+      "We Are There Yet"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "the-art-of-the-trio-volume-3-songs",
+  "kind": "album",
+  "ours": {
+   "title": "The Art of the Trio, Volume 3: Songs",
+   "artist": "Brad Mehldau",
+   "year": null,
+   "label": "Unknown",
+   "albumDNA": "The Art of the Trio, Volume 3: Songs is pianist Brad Mehldau's third installment in his acclaimed trio series, recorded with bassist Larry Grenadier and drummer Jorge Rossy. The album deepens Mehldau's exploration of both jazz standards and pop-influenced material, showcasing his distinctive lyrical approach and harmonic sophistication.",
+   "keyTracks": [
+    "Song-Song",
+    "Unrequited",
+    "Bewitched, Bothered and Bewildered",
+    "Exit Music (for a Film)",
+    "At a Loss",
+    "Convalescent"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": null,
+    "searchCandidates": [
+     {
+      "mbid": "2f36f8b8-f8a9-3a52-a5c8-ee5da3944c31",
+      "title": "The Art of the Trio, Volume 3: Songs",
+      "score": 100,
+      "artists": [
+       "Brad Mehldau"
+      ],
+      "firstReleaseDate": null,
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     {
+      "mbid": "0763bce6-20f7-4ce3-a3d9-e9ea201f1b3c",
+      "title": "The Art of the Trio, Volume 3: Songs",
+      "score": 92,
+      "artists": [
+       "Brad Mehldau Trio"
+      ],
+      "firstReleaseDate": "1998-09-15",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Live"
+      ]
+     }
+    ]
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "vibes-a-la-red",
+  "kind": "album",
+  "ours": {
+   "title": "Vibes a la Red",
+   "artist": "Red Norvo",
+   "year": null,
+   "label": "2xHD",
+   "albumDNA": "'Vibes a la Red' features Red Norvo exploring early jazz. Key tracks include 'The One I Love (Belongs to Somebody Else)' and 'Tea for Two (From No, No, Nanette)'.",
+   "keyTracks": [
+    "The One I Love (Belongs to Somebody Else)",
+    "Tea for Two (From No, No, Nanette)",
+    "I'll Be Around",
+    "A Short One for Santa Monica",
+    "Don't Blame Me"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "e397bb60-457d-4072-ae31-ab678a415a6e",
+     "title": "Vibes a la Red",
+     "date": null,
+     "country": null,
+     "status": "Official",
+     "artists": [
+      "Red Norvo"
+     ],
+     "labels": [
+      {
+       "name": "2xHD",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "27775fb4-3517-47fd-a756-db0a8e4c2c7b",
+      "title": "Vibes a la Red",
+      "firstReleaseDate": "",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "The One I Love (Belongs to Somebody Else)",
+      "Tea for Two (From No, No, Nanette)",
+      "I'll Be Around",
+      "A Short One for Santa Monica",
+      "Don't Blame Me",
+      "Blues for WRVR",
+      "On Green Dolphin Street",
+      "Running Wild"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ }
+]

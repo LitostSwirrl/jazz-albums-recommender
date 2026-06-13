@@ -1,0 +1,172 @@
+[
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "king-olivers-jazz-band-1923-king-oliver",
+    "field": "year",
+    "before": null,
+    "after": 1923,
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Dippermouth_Blues", "https://convocations.purdue.edu/king-olivers-creole-jazz-band-recording-of-dippermouth-blues-celebrates-100th-anniversary/"],
+    "evidence": "King Oliver's Creole Jazz Band recorded its 37 sides in a dozen sessions between April 5 and October 16, 1923."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "king-olivers-jazz-band-1923-king-oliver",
+    "field": "keyTracks",
+    "before": null,
+    "after": ["Dippermouth Blues", "Snake Rag", "Weather Bird Rag", "Froggie Moore", "Chimes Blues"],
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Dippermouth_Blues", "https://veritenews.org/2023/04/25/jazz-fest-celebrates-king-olivers-recordings/"],
+    "evidence": "Famous 1923 sides include Dippermouth Blues, Snake Rag, Weather Bird Rag and Froggie Moore from the April 1923 Gennett sessions; Chimes Blues was Louis Armstrong's first recorded solo."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "king-olivers-jazz-band-1923-king-oliver",
+    "field": "albumDNA",
+    "before": "King Oliver's Jazz Band 1923 stands among King Oliver's most celebrated works, capturing the essential spirit of Early Jazz. King Oliver's Jazz Band 1923 remains a landmark of Early Jazz, cementing King Oliver's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Documents the 37 sides King Oliver's Creole Jazz Band cut in 1923 for Gennett, OKeh, Columbia and Paramount, the first major recordings of New Orleans collective-improvisation jazz. The band paired Oliver with 21-year-old second cornetist Louis Armstrong, clarinetist Johnny Dodds and pianist Lil Hardin. Dippermouth Blues, Snake Rag and Froggie Moore are among the era's defining tracks.",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Dippermouth_Blues", "https://veritenews.org/2023/04/25/jazz-fest-celebrates-king-olivers-recordings/"],
+    "evidence": "Wikipedia and Verite News confirm the 1923 sessions, multiple labels, the personnel (Oliver, Armstrong, Dodds, Lil Hardin) and the landmark tracks."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "jelly-roll-morton-the-piano-rolls-jelly-roll-morton",
+    "field": "year",
+    "before": null,
+    "after": 1997,
+    "sourceUrl": ["https://www.discogs.com/Jelly-Roll-Morton-Realized-By-Artis-Wodehouse-The-Piano-Rolls/release/4114842", "https://www.academia.edu/51455693/How_Jelly_Roll_Morton_The_Piano_Rolls_1997_Nonesuch_recording_was_realized"],
+    "evidence": "Discogs release title and the Academia.edu paper title both date the Nonesuch release to 1997."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "jelly-roll-morton-the-piano-rolls-jelly-roll-morton",
+    "field": "label",
+    "before": "Various",
+    "after": "Nonesuch",
+    "sourceUrl": ["https://www.academia.edu/51455693/How_Jelly_Roll_Morton_The_Piano_Rolls_1997_Nonesuch_recording_was_realized", "https://jellyrollmorton.bandcamp.com/album/the-piano-rolls"],
+    "evidence": "Released on Nonesuch Records in 1997; Artis Wodehouse realized Morton's 1920s piano rolls on a Yamaha Disklavier."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "jelly-roll-morton-the-piano-rolls-jelly-roll-morton",
+    "field": "keyTracks",
+    "before": null,
+    "after": ["Midnight Mama", "Shreveport Stomp", "Stratford Hunch", "Dead Man Blues", "Grandpa's Spells"],
+    "sourceUrl": ["https://jellyrollmorton.bandcamp.com/album/the-piano-rolls"],
+    "evidence": "Bandcamp tracklist opens Midnight Mama, Shreveport Stomp, Stratford Hunch, Dead Man Blues, Grandpa's Spells (12 tracks total)."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "jelly-roll-morton-the-piano-rolls-jelly-roll-morton",
+    "field": "albumDNA",
+    "before": "Jelly Roll Morton: The Piano Rolls stands among Jelly Roll Morton's most celebrated works, capturing the essential spirit of Early Jazz. Jelly Roll Morton: The Piano Rolls remains a landmark of Early Jazz, cementing Jelly Roll Morton's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "A 1997 Nonesuch release of twelve piano rolls Jelly Roll Morton cut in the 1920s, realized by piano-roll scholar Artis Wodehouse on a Yamaha Disklavier and recorded in modern digital sound. It lets listeners hear Morton compositions such as King Porter Stomp, Dead Man Blues and Grandpa's Spells as the rolls reproduce them.",
+    "sourceUrl": ["https://www.academia.edu/51455693/How_Jelly_Roll_Morton_The_Piano_Rolls_1997_Nonesuch_recording_was_realized", "https://jellyrollmorton.bandcamp.com/album/the-piano-rolls"],
+    "evidence": "Sources confirm 1997 Nonesuch release, Artis Wodehouse's Disklavier realization of 12 Morton piano rolls, and the tracklist."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "the-blue-note-sessions-sidney-bechet",
+    "field": "label",
+    "before": "Various",
+    "after": "Blue Note",
+    "sourceUrl": ["https://www.bluenote.com/artist/sidney-bechet/", "https://www.jazzdisco.org/blue-note-records/discography-1945-1950/"],
+    "evidence": "Sidney Bechet recorded for Blue Note Records (1939-1953); Blue Note's own artist page and the Blue Note discography list his sessions."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "the-blue-note-sessions-sidney-bechet",
+    "field": "keyTracks",
+    "before": null,
+    "after": ["Summertime", "Blue Horizon", "Dear Old Southland", "Muskrat Ramble", "China Boy"],
+    "sourceUrl": ["https://www.discogs.com/master/754107-Sidney-Bechet-The-Complete-Blue-Note-Recordings-Of-Sidney-Bechet", "https://www.bluenote.com/artist/sidney-bechet/"],
+    "evidence": "Bechet's Blue Note recordings include Summertime (his June 1939 Blue Note debut) and the slow blues Blue Horizon, plus Dear Old Southland and Muskrat Ramble per the Complete Blue Note Recordings tracklist."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "tatum-group-masterpieces-vol-1-art-tatum",
+    "field": "year",
+    "before": 2006,
+    "after": 1975,
+    "sourceUrl": ["https://www.discogs.com/release/9362375-Art-Tatum-Benny-Carter-Louis-Bellson-The-Tatum-Group-Masterpieces-Vol-1", "https://en.wikipedia.org/wiki/The_Tatum_Group_Masterpieces,_Volume_Eight"],
+    "evidence": "Recorded June 25, 1954; released 1975 on Pablo by Norman Granz as Vol. 1 of the eight-volume Tatum Group Masterpieces series. Stored 2006 is a reissue-era error."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "tatum-group-masterpieces-vol-1-art-tatum",
+    "field": "label",
+    "before": "Various",
+    "after": "Pablo",
+    "sourceUrl": ["https://www.discogs.com/release/9362375-Art-Tatum-Benny-Carter-Louis-Bellson-The-Tatum-Group-Masterpieces-Vol-1", "https://www.prestomusic.com/jazz/products/8499077--the-tatum-group-masterpieces-vol-1"],
+    "evidence": "Released on Pablo Records (Norman Granz's label)."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "tatum-group-masterpieces-vol-1-art-tatum",
+    "field": "albumDNA",
+    "before": "Recorded in 2006, Tatum Group Masterpieces Vol. 1 showcases Art Tatum at the height of their creative powers, offering one of the finest expressions of Swing. Tatum Group Masterpieces Vol. 1 remains a landmark of Swing, cementing Art Tatum's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "The first of Norman Granz's eight Tatum Group Masterpieces sessions, recorded June 25, 1954 and released on Pablo in 1975. It pairs pianist Art Tatum with altoist Benny Carter and drummer Louis Bellson on standards including A Foggy Day, Street of Dreams and 'S Wonderful.",
+    "sourceUrl": ["https://www.prestomusic.com/jazz/products/8499077--the-tatum-group-masterpieces-vol-1", "https://www.discogs.com/release/9362375-Art-Tatum-Benny-Carter-Louis-Bellson-The-Tatum-Group-Masterpieces-Vol-1"],
+    "evidence": "Recording date 1954, Pablo 1975 release, trio of Tatum/Carter/Bellson and the standards repertoire are all source-confirmed; the prior text's '2006' date is false."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "mary-lou-williams-presents-black-christ-of-the-andes-mary-lou-williams",
+    "field": "year",
+    "before": null,
+    "after": 1964,
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Mary_Lou_Williams_(album)"],
+    "evidence": "Released in 1964 by Folkways Records (English Wikipedia)."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "mary-lou-williams-presents-black-christ-of-the-andes-mary-lou-williams",
+    "field": "label",
+    "before": "Various",
+    "after": "Folkways",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Mary_Lou_Williams_(album)", "https://folkways.si.edu/mary-lou-williams/presents-black-christ-of-the-andes/blues-jazz-ragtime/music/album/smithsonian"],
+    "evidence": "Released by Folkways Records in 1964; reissued by Smithsonian Folkways."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "mary-lou-williams-presents-black-christ-of-the-andes-mary-lou-williams",
+    "field": "keyTracks",
+    "before": null,
+    "after": ["St. Martin de Porres", "It Ain't Necessarily So", "Miss D.D.", "Anima Christi", "A Grand Night for Swinging"],
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Mary_Lou_Williams_(album)"],
+    "evidence": "Wikipedia tracklist opens St. Martin de Porres, It Ain't Necessarily So, The Devil, Miss D.D., Anima Christi, A Grand Night for Swinging (14 tracks total)."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "mary-lou-williams-presents-black-christ-of-the-andes-mary-lou-williams",
+    "field": "wikipedia",
+    "before": null,
+    "after": "https://en.wikipedia.org/wiki/Mary_Lou_Williams_(album)",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Mary_Lou_Williams_(album)"],
+    "evidence": "English Wikipedia article for this album (alternatively titled Black Christ of the Andes)."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "mary-lou-williams-presents-black-christ-of-the-andes-mary-lou-williams",
+    "field": "albumDNA",
+    "before": "Mary Lou Williams Presents Black Christ of the Andes stands among Mary Lou Williams's most celebrated works, capturing the essential spirit of Swing. Mary Lou Williams Presents Black Christ of the Andes remains a landmark of Swing, cementing Mary Lou Williams's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+    "after": "Mary Lou Williams's 1964 Folkways album, recorded after her conversion to Catholicism and blending spirituals, blues and modern jazz. The title track, St. Martin de Porres, is a choral mass hymn honoring the Afro-Peruvian saint; the program also includes It Ain't Necessarily So and originals like Miss D.D. and Anima Christi.",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Mary_Lou_Williams_(album)"],
+    "evidence": "Wikipedia confirms the 1964 Folkways release, the Catholic-conversion context, the stylistic mix and the St. Martin de Porres mass hymn title track."
+  }
+]

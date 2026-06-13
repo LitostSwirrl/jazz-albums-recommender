@@ -1,0 +1,238 @@
+[
+ {
+  "id": "clifford-jordan",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1931", "evidenceQuote": "Clifford Laconia Jordan (September 2, 1931 – March 27, 1993) was an American jazz tenor saxophone player and composer.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1993", "evidenceQuote": "Clifford Laconia Jordan (September 2, 1931 – March 27, 1993) was an American jazz tenor saxophone player and composer.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "tenor saxophone", "evidenceQuote": "was an American jazz tenor saxophone player and composer", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Entity match solid (opensearch top hit, American jazz saxophonist 1931-1993). Bio is a one-line generic template with no entity-specific prose, so no entity-collision signal is even possible; its only factual content, the Hard Bop association, is supported by the evidence ('playing hard bop with a group that included Norman Simmons, Victor Sproles, and Cy Touff'). Verdict driven by fields: birthYear 0 as shipped contradicts the documented 1931 (spec lists wrong birth year under factual_error). birthYear 0 / deathYear null / instruments [] read as missing-data placeholders, not collision artifacts; deathYear and instruments entries are missing-not-wrong, included with fill values for the repair-writer."
+ },
+ {
+  "id": "jazz-composers-orchestra",
+  "verdict": "factual_error",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1965 (group founded)", "evidenceQuote": "The Jazz Composer's Orchestra was an American jazz group, founded by Carla Bley and Michael Mantler in 1965, to perform orchestral avant-garde jazz.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Entity match solid (the Bley/Mantler ensemble; our name matches exactly). Template-stub bio; calling it 'one of the defining figures of Free Jazz' is editorial framing whose genre tag the evidence neither states nor contradicts — evidence says 'orchestral avant-garde jazz' with free-jazz-circle soloists (Cecil Taylor, Don Cherry, Pharoah Sanders), an allied but not identical label; per absence-is-not-contradiction this stays a note, not a wrongClaim. For a group, birthYear presumably means founding year; shipped 0 contradicts the documented 1965 founding. deathYear null: evidence gives 'The group's last performance was in 1975' if the schema wants an end year for groups. instruments [] is arguably correct for an orchestra, so not listed as an issue."
+ },
+ {
+  "id": "tito-puente",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1923", "evidenceQuote": "Ernest Anthony Puente Jr. (April 20, 1923 – May 31, 2000), commonly known as Tito Puente, was an American musician, songwriter, bandleader, timbalero, vibraphonist and record producer.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "2000", "evidenceQuote": "Ernest Anthony Puente Jr. (April 20, 1923 – May 31, 2000), commonly known as Tito Puente, was an American musician, songwriter, bandleader, timbalero, vibraphonist and record producer.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "timbales, vibraphone", "evidenceQuote": "was an American musician, songwriter, bandleader, timbalero, vibraphonist and record producer", "source": "wiki"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "one of the defining figures of Swing", "problem": "Evidence positively characterizes Puente's idiom as mambo and Latin jazz, not swing; the page's short description is 'American Latin jazz and mambo musician (1923–2000)'.", "evidenceQuote": "He composed dance-oriented mambo and Latin jazz music.", "source": "wiki"}
+  ],
+  "notes": "Entity match solid — this is the right Tito Puente, so not an entity_mismatch; but the template bio's one substantive tag (Swing) conflicts with the evidence's positive genre characterization (mambo/Latin jazz). Possible benign explanation: the site's era taxonomy may bucket him by period (1940s big-band/Machito era — evidence notes he replaced the drummer in Machito's band) rather than idiom; still misleading as shipped. Fields are missing-data placeholders; birthYear 0 contradicts documented 1923. deathYear/instruments entries are missing-not-wrong, included as fill values."
+ },
+ {
+  "id": "george-shearing",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1919", "evidenceQuote": "Sir George Albert Shearing (13 August 1919 – 14 February 2011) was a British jazz pianist who for many years led a popular jazz group that recorded for Discovery Records, MGM Records and Capitol Records.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "2011", "evidenceQuote": "Sir George Albert Shearing (13 August 1919 – 14 February 2011) was a British jazz pianist who for many years led a popular jazz group that recorded for Discovery Records, MGM Records and Capitol Records.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "piano", "evidenceQuote": "was a British jazz pianist", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Entity match solid (British jazz pianist 1919-2011). Template-stub bio; the Cool Jazz tag is unverified rather than wrong: evidence describes 'his harmonically complex style mixing swing, bop and modern classical influences' and never uses the genre label (Kerouac's 'before he became cool and commercial' is not a genre statement). Uncontradicted, so it stays in notes. Verdict driven by birthYear 0 vs documented 1919; deathYear/instruments are missing-not-wrong placeholder fields, included as fill values."
+ },
+ {
+  "id": "barney-kessel",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1923", "evidenceQuote": "Barney Kessel (October 17, 1923 – May 6, 2004) was an American jazz guitarist.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "2004", "evidenceQuote": "Barney Kessel (October 17, 1923 – May 6, 2004) was an American jazz guitarist.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "guitar", "evidenceQuote": "was an American jazz guitarist", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Entity match solid (American jazz guitarist 1923-2004). Template-stub bio; the Cool Jazz tag is unverified, not contradicted: evidence roots his style in swing and bebop ('rooted in 1930s and 1940s jazz, and were influenced by the swing and bebop styles') and lists post-bop/hard bop/free jazz influences, never naming cool jazz; his Contemporary Records / Los Angeles studio context is at least era-compatible. Verdict driven by birthYear 0 vs documented 1923; deathYear/instruments are missing-not-wrong placeholders with fill values."
+ },
+ {
+  "id": "bob-brookmeyer",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1929", "evidenceQuote": "Robert Edward \"Bob\" Brookmeyer (December 19, 1929 – December 15, 2011) was an American jazz valve trombonist, pianist, arranger, and composer.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "2011", "evidenceQuote": "Robert Edward \"Bob\" Brookmeyer (December 19, 1929 – December 15, 2011) was an American jazz valve trombonist, pianist, arranger, and composer.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "valve trombone, piano", "evidenceQuote": "was an American jazz valve trombonist, pianist, arranger, and composer", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Entity match solid (American jazz valve trombonist 1929-2011). Template-stub bio; the Cool Jazz tag is consistent with but not stated by the evidence (Gerry Mulligan quartet 1954-57, Stan Getz, Jimmy Giuffre — the genre word itself never appears), so it stays unverified in notes. Verdict driven by birthYear 0 vs documented 1929; deathYear/instruments are missing-not-wrong placeholders with fill values."
+ },
+ {
+  "id": "james-moody",
+  "verdict": "factual_error",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "unsure"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1925", "evidenceQuote": "James Moody (March 26, 1925 – December 9, 2010) was an American jazz saxophone and flute player and very occasional vocalist, playing predominantly in the bebop and hard bop styles.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "2010", "evidenceQuote": "James Moody (March 26, 1925 – December 9, 2010) was an American jazz saxophone and flute player and very occasional vocalist, playing predominantly in the bebop and hard bop styles.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "saxophone, flute", "evidenceQuote": "was an American jazz saxophone and flute player and very occasional vocalist", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Opensearch resolved to a DISAMBIGUATION page ('Topics referred to by the same term'), not a biography — hence entityMatch unsure for the primary page. The candidate 'James Moody (saxophonist)' is confidently our artist (American jazz musician 1925-2010, 'playing predominantly in the bebop and hard bop styles'), corroborated by the disambiguation page's own line 'James Moody (saxophonist) (1925–2010), jazz saxophone and flute player'; fact-checks above use that candidate extract. Bebop tag in our template bio is supported by it. Verdict driven by birthYear 0 vs documented 1925; deathYear/instruments are missing-not-wrong placeholders with fill values. Any future auto-stored wikipedia link must target the disambiguated title James Moody (saxophonist), not the base title."
+ },
+ {
+  "id": "roy-haynes",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1925", "evidenceQuote": "Roy Owen Haynes (March 13, 1925 – November 12, 2024) was an American jazz drummer.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "2024", "evidenceQuote": "Roy Owen Haynes (March 13, 1925 – November 12, 2024) was an American jazz drummer.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "drums", "evidenceQuote": "was an American jazz drummer", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Entity match solid (American jazz drummer 1925-2024; the 'Roy Haynes (designer)' candidate is a different person and was discarded). Template-stub bio; the Hard Bop tag is unverified, not contradicted: evidence's genre list is 'he played swing, bebop, jazz fusion and avant-garde jazz' (Charlie Parker quintet, Coltrane Quartet) — hard bop is absent but the list is not exclusive, and absence is not contradiction. Verdict driven by birthYear 0 vs documented 1925; deathYear/instruments are missing-not-wrong placeholders with fill values. Note deathYear: he died November 2024, so a null here may simply predate his death — still stale as shipped."
+ },
+ {
+  "id": "kenny-drew",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1928", "evidenceQuote": "Kenneth Sidney \"Kenny\" Drew (August 28, 1928 – August 4, 1993) was an American-Danish jazz pianist.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1993", "evidenceQuote": "Kenneth Sidney \"Kenny\" Drew (August 28, 1928 – August 4, 1993) was an American-Danish jazz pianist.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "piano", "evidenceQuote": "was an American-Danish jazz pianist", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Entity match: the resolved page is the elder Kenny Drew (1928-1993), which fits our Bebop tag — evidence has him in bands led by Charlie Parker and describes 'bebop-influenced melodic improvisation'. Disambiguation hazard to flag for repair: his son Kenny Drew Jr. (1958-2014) is also a jazz pianist (candidate 2); our record carries no distinguishing data except the genre tag, so any future link/bio enrichment must lock onto the father. Verdict driven by birthYear 0 vs documented 1928; deathYear/instruments are missing-not-wrong placeholders with fill values."
+ },
+ {
+  "id": "thad-jones",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1923", "evidenceQuote": "Thaddeus Joseph Jones (March 28, 1923 – August 20, 1986) was an American jazz trumpeter, composer and bandleader who has been called \"one of the all-time greatest jazz trumpet soloists\".", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1986", "evidenceQuote": "Thaddeus Joseph Jones (March 28, 1923 – August 20, 1986) was an American jazz trumpeter, composer and bandleader who has been called \"one of the all-time greatest jazz trumpet soloists\".", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "trumpet (also cornet, valve trombone)", "evidenceQuote": "was an American jazz trumpeter, composer and bandleader", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Entity match solid (American jazz trumpeter 1923-1986, brother of Hank and Elvin Jones). Template-stub bio; the Hard Bop tag is unverified, not contradicted: the extract centers on the Count Basie Orchestra, the Thad Jones/Mel Lewis Orchestra and big-band writing, and lists mid-1950s Blue Note dates (Detroit-New York Junction, The Magnificent Thad Jones) without using the genre term. Verdict driven by birthYear 0 vs documented 1923; deathYear/instruments are missing-not-wrong placeholders with fill values (evidence also notes he played cornet on 5 by Monk by 5 and took up valve trombone)."
+ },
+ {
+  "id": "benny-carter",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1907", "evidenceQuote": "Bennett Lester Carter (August 8, 1907 – July 12, 2003) was an American jazz saxophonist, clarinetist, trumpeter, composer, arranger, and bandleader.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "2003", "evidenceQuote": "Bennett Lester Carter (August 8, 1907 – July 12, 2003) was an American jazz saxophonist, clarinetist, trumpeter, composer, arranger, and bandleader.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "alto saxophone, clarinet, trumpet", "evidenceQuote": "was an American jazz saxophonist, clarinetist, trumpeter, composer, arranger, and bandleader", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Entity match solid (American jazz musician 1907-2003; the painter candidate is a different person, discarded). Template-stub bio whose Swing tag is directly supported: 'writing charts for Fletcher Henderson's big band that shaped the swing style'. Verdict driven by birthYear 0 vs documented 1907; deathYear/instruments are missing-not-wrong placeholders with fill values (evidence also credits soprano/tenor saxophone, trombone, piano in passing)."
+ },
+ {
+  "id": "woody-herman",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1913", "evidenceQuote": "Woodrow Charles Herman (May 16, 1913 – October 29, 1987) was an American jazz clarinetist, saxophonist, singer, and big band leader.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1987", "evidenceQuote": "Woodrow Charles Herman (May 16, 1913 – October 29, 1987) was an American jazz clarinetist, saxophonist, singer, and big band leader.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "clarinet, saxophone, vocals", "evidenceQuote": "was an American jazz clarinetist, saxophonist, singer, and big band leader", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Entity match solid (American jazz clarinetist/big-band leader 1913-1987). Template-stub bio whose Swing tag is supported by the evidence: big-band leader who 'came to prominence in the late 1930s', swing-era hits ('Woodchopper's Ball', 1939), 'lively, swinging arrangements, combining bop themes with swing rhythm parts'. Verdict driven by birthYear 0 vs documented 1913; deathYear/instruments are missing-not-wrong placeholders with fill values."
+ },
+ {
+  "id": "latin-jazz-quintet",
+  "verdict": "no_evidence",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Opensearch returned no page and zero candidates — no evidence document at all, nothing checkable. Ours is the same one-line generic template (Cool Jazz tag) with placeholder fields (birthYear 0, deathYear null, instruments []), so there is also no entity-specific prose to mismatch. The name is highly generic; any future title-search resolution carries exactly the disambiguation-collision risk this audit exists for — evidence-gathering for this record should anchor on its recordings/associated artists (e.g., via MusicBrainz credits) rather than a bare title search. The Cool Jazz tag is also the kind of value worth human review once evidence exists, since a Latin jazz group filed under Cool Jazz is at least surprising on its face."
+ },
+ {
+  "id": "clarence-williams",
+  "verdict": "factual_error",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "unsure"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1898 or 1893 (evidence itself is uncertain)", "evidenceQuote": "Clarence Williams (October 8, 1898 or October 6, 1893 – November 6, 1965) was an American jazz pianist, composer, promoter, vocalist, theatrical producer, and publisher.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1965", "evidenceQuote": "Clarence Williams (October 8, 1898 or October 6, 1893 – November 6, 1965) was an American jazz pianist, composer, promoter, vocalist, theatrical producer, and publisher.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "piano (also vocals)", "evidenceQuote": "was an American jazz pianist, composer, promoter, vocalist, theatrical producer, and publisher", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Opensearch resolved to a DISAMBIGUATION page (mostly American-football players plus the actor Clarence Williams III) — hence entityMatch unsure for the primary page. The candidate 'Clarence Williams (musician)' is confidently our artist for an Early Jazz record: 'American jazz pianist, composer, producer, and publisher (1898 or 1893–1965)', born Plaquemine, Louisiana, moved to New Orleans; fact-checks above use that candidate extract. The Early Jazz tag is consistent (jazz pianist of that birth cohort and New Orleans milieu) though the truncated extract never states a genre label. Verdict driven by birthYear 0 vs the documented value; NOTE for repair: the evidence itself gives two birth years (1898 or 1893) — the repair-writer must not silently pick one. deathYear/instruments are missing-not-wrong placeholders with fill values. Any future stored link must target Clarence Williams (musician), not the base title."
+ },
+ {
+  "id": "mamie-smith",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "birthYear", "ours": 0, "evidence": "1891", "evidenceQuote": "Mamie Smith (née Robinson; May 26, 1891 – August or September 16, 1946) was an American singer.", "source": "wiki"},
+   {"field": "deathYear", "ours": null, "evidence": "1946", "evidenceQuote": "Mamie Smith (née Robinson; May 26, 1891 – August or September 16, 1946) was an American singer.", "source": "wiki"},
+   {"field": "instruments", "ours": [], "evidence": "vocals", "evidenceQuote": "was an American singer. As a vaudeville singer, she performed in multiple styles, including jazz and blues.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Entity match solid (American vaudeville singer 1891-1946). Template-stub bio; the Early Jazz tag is supported in period and substance — 'she performed in multiple styles, including jazz and blues', toured with 'Mamie Smith & Her Jazz Hounds' (lineups included Coleman Hawkins and Bubber Miley), recordings from 1920 — though the evidence frames her primarily as a blues pioneer ('the first African-American artist to make vocal blues recordings'), worth reflecting in any rewritten bio. Verdict driven by birthYear 0 vs documented 1891. Repair caution on birth year: older sources said 1883 (her first headstone even read 1883-1946) but the evidence states a 2018-discovered birth certificate gives 1891 — use 1891. deathYear/instruments are missing-not-wrong placeholders with fill values."
+ }
+]

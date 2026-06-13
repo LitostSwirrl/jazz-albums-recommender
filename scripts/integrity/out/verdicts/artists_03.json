@@ -1,0 +1,324 @@
+[
+ {
+  "id": "david-murray",
+  "verdict": "no_evidence",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "unsure",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Stored wikipedia URL returned page: null — no evidence document available, nothing could be checked. All bio claims (birthYear 1955, 1970s loft-jazz scene, co-founded World Saxophone Quartet, 100+ albums as leader, Gonsalves/Ayler lineage) remain unchecked. Nothing suggests an entity mismatch; the stored URL targets the disambiguated title David_Murray_(musician). Needs re-fetch or alternate source."
+ },
+ {
+  "id": "david-s-ware",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is near-verbatim the Wikipedia lede/biography opening. All claims confirmed: dates (November 7, 1949 – October 18, 2012 -> 1949/2012), Plainfield NJ birth, Scotch Plains upbringing, UConn music camp taught by Ron Carter, Charlie Mariano, and Alan Dawson, school bands and New Jersey All-State band."
+ },
+ {
+  "id": "david-sanborn",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim the Wikipedia lede. Dates confirmed (July 30, 1945 – May 12, 2024 -> 1945/2024), alto saxophonist, jazz/pop/R&B blend, saxophone at age 11, first solo album Taking Off (1975) all confirmed."
+ },
+ {
+  "id": "dennis-chambers",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim the Wikipedia lede. Born May 9, 1959 (birthYear 1959 ok, living per evidence), jazz fusion/funk drummer, Modern Drummer Hall of Fame 2001 confirmed."
+ },
+ {
+  "id": "derek-bailey",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Dates 1930/2005 confirmed (29 January 1930 – 25 December 2005). 'British' consistent with evidence 'English'. Non-idiomatic free improvisation confirmed verbatim concept. 'He founded Incus Records' — evidence: 'Bailey founded the record label Incus with Tony Oxley, Evan Parker, and Michael Walters', 'the first musician-owned independent label in the UK'; ours' 'one of the first musician-owned labels' compatible, though co-founders are omitted (legitimate editorial compression, not error). Book title rendered as 'Improvisation: Its Nature and Practice in Music' vs evidence's shorter 'Improvisation: Its Nature and Practice' — no contradiction, evidence appears to abbreviate."
+ },
+ {
+  "id": "dexter-gordon",
+  "verdict": "unverifiable",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Right entity, no contradictions. Confirmed: dates 1923/1990 (February 27, 1923 – April 25, 1990), tenor saxophone, large sound and behind-the-beat phrasing ('characterized as being \"large\"... tendency to play behind the beat'), early bebop influence ('among the most influential early bebop musicians', early influence on Coltrane and Rollins), Round Midnight Oscar nomination ('nominated for the Academy Award for Best Actor... Round Midnight'). Unverifiable: 'spent years in European exile before a triumphant comeback' — the extract truncates at his 1959 Folsom release and never reaches the 1960s-70s; zero coverage of the European period. Background knowledge (Copenhagen/Paris 1962-76, 1976 US comeback) supports the claim but is not citable. Re-check against the full article."
+ },
+ {
+  "id": "dizzy-gillespie",
+  "verdict": "factual_error",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {
+    "ourClaim": "collaborating with Cuban percussionist Chano Pozo to create groundbreaking fusions like 'Manteca' and 'A Night in Tunisia.'",
+    "problem": "Ours presents 'A Night in Tunisia' as created through the Chano Pozo collaboration. Evidence dates the song's creation to 1942 in the Earl Hines band context and never associates Pozo with it — the song predates and is independent of the Afro-Cuban collaboration.",
+    "evidenceQuote": "\"A Night in Tunisia\", written in 1942 while Dizzy was with Earl Hines's band, is noted for its syncopated bass line - a feature common in today's music.",
+    "source": "wiki"
+   }
+  ],
+  "notes": "Right entity; everything else checkable is confirmed: dates 1917/1993 (October 21, 1917 – January 6, 1993), trumpet virtuoso, bebop development with Charlie Parker, harmonic/rhythmic innovation, bent horn / pouched cheeks / light-hearted personality, taught and influenced many musicians. Unverifiable from the truncated extract (ends early 1945): 'Manteca' as a Pozo collaboration and the State Department-sponsored tours — both consistent with common knowledge but uncovered here. Repair suggestion: attach Pozo to 'Manteca' only and treat 'A Night in Tunisia' as a separate 1942 Gillespie composition."
+ },
+ {
+  "id": "django-reinhardt",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Dates 1910/1953 confirmed (23 January 1910 – 16 May 1953). Romani guitarist, caravan (wagon) fire, Grappelli partnership, gypsy jazz all confirmed. Two near-superlatives kept as editorial, not flagged: 'the first major jazz voice to emerge from Europe' vs evidence 'one of the first major jazz talents to emerge in Europe'; 'only two functioning fingers on his fretting hand' is the standard simplification — evidence says fourth and fifth fingers of the left hand were badly burned, he played primarily with index and middle, and used the two injured fingers 'only for chord work' (so they retained partial function)."
+ },
+ {
+  "id": "don-cherry",
+  "verdict": "clean",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Stored URL 'Don Cherry (musician)' resolved to 'Don Cherry (trumpeter)' — same entity (the jazz trumpeter, not the hockey commentator), link fine. Confirmed: dates 1936/1995 (November 18, 1936 – October 19, 1995), long tenure in Ornette Coleman's bands, world-music direction ('pioneer in world fusion'), piano (acted as pianist in Art Farmer's group). 'Pocket trumpet' specifically and 'percussion' in the instruments field are not named in the extract — only generically supported by 'trumpeter' and 'multi-instrumentalist'; no contradiction."
+ },
+ {
+  "id": "don-ellis",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim the Wikipedia lede. Dates 1934/1978 confirmed (July 25, 1934 – December 17, 1978), trumpeter/drummer/composer/bandleader, time-signature experimentation, The French Connection (1971) and The Seven-Ups (1973) scores all confirmed."
+ },
+ {
+  "id": "donald-byrd",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Right entity, no contradictions, almost everything confirmed: dates 1932/2013 (December 9, 1932 – February 4, 2013), hard bop to funk/soul transition, Herbie Hancock's Blue Note debut on Byrd's Royal Flush plus the mentor relationship, Black Byrd / Places and Spaces with the Mizell Brothers, commercial success ('Blue Note's best-selling album'), Howard University teaching and law degree (J.D. 1976), mentoring (the Blackbyrds). Unverifiable: 'Wayne Shorter' as a future star featured on Byrd's Blue Note sessions — Shorter appears nowhere in the evidence, and background knowledge does not recall Shorter as a Byrd sideman (not citable; flag for source check, possible personnel error). Also '1990s hip-hop sampling' vs evidence 'samples for acid jazz artists such as Us3' — close, not contradicted."
+ },
+ {
+  "id": "donald-harrison",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim the Wikipedia lede. Born June 23, 1960 (birthYear 1960 ok); living per evidence (2026 Grammy nomination mentioned). Saxophonist and Big Chief of The Congo Square Nation Afro-New Orleans Cultural Group confirmed word for word."
+ },
+ {
+  "id": "dorothy-ashby",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Dates 1932/1986 confirmed (August 6, 1932 – April 13, 1986), harp confirmed. 'Proved the harp could swing / pioneering jazz harp in the 1950s and 1960s' matches 'established the harp as an improvising jazz instrument... proving the harp could play bebop' and the 1957-1970 session run. Soul/Afrocentric range supported ('not just bop, but soul, Brazilian, African, Middle Eastern'); sampling by crate-digging producers confirmed (Pete Rock, Rahzel, Ugly Duckling; continued high-profile sampling)."
+ },
+ {
+  "id": "dudu-pukwana",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Dates 1938/1990 confirmed (18 July 1938 – 30 June 1990), alto saxophone confirmed (switched in 1956). Blue Notes membership, exile/emigration with the band in 1964 and settling in London (he died in London), township-rhythm-meets-free-improvisation groups (Spear's In the Townships; free sessions with Mengelberg/Bennink and John Stevens), and British-scene presence (Brotherhood of Breath, Ronnie Scott's) all confirmed."
+ },
+ {
+  "id": "duke-ellington",
+  "verdict": "clean",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Skeleton comprehensively confirmed: dates 1899/1974 (April 29, 1899 – May 24, 1974), led his orchestra 1924 to death (~50 years), 1000+ compositions ('wrote or collaborated on more than one thousand compositions'), mastery of the three-minute 78-rpm miniature, multiple extended suites, Cotton Club fame, 'America's most important composer' reputation, posthumous Pulitzer. Unchecked illustrative details (extract truncates before naming them): 'Mood Indigo', 'Black, Brown and Beige', and writing for sidemen Johnny Hodges / Harry Carney / Cootie Williams — the extract names Tizol, Strayhorn, Blanton, Webster instead. No contradictions; the general claims these examples illustrate (miniatures, suites, orchestra-as-instrument) are confirmed."
+ },
+ {
+  "id": "eddie-lang",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim the Wikipedia lede. Dates 1902/1933 confirmed (October 25, 1902 – March 26, 1933). Father-of-jazz-guitar credit, duets with Lonnie Johnson / Carl Kress / Joe Venuti, Paul Whiteman Orchestra rhythm guitar, favoured Bing Crosby accompanist all confirmed word for word."
+ },
+ {
+  "id": "eddie-palmieri",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {
+    "field": "deathYear",
+    "ours": null,
+    "evidence": "2025 (died August 6, 2025)",
+    "evidenceQuote": "Eduardo Palmieri (December 15, 1936 – August 6, 2025) was an musician, bandleader, and composer of Puerto Rican heritage.",
+    "source": "wiki"
+   }
+  ],
+  "wrongClaims": [
+   {
+    "ourClaim": "A ten-time Grammy winner",
+    "problem": "Evidence states nine Grammy Awards total, not ten.",
+    "evidenceQuote": "Palmieri has won a total of 9 Grammy Awards during his career, most recently for his 2006 album Simpático.",
+    "source": "wiki"
+   }
+  ],
+  "notes": "Right entity throughout. Stale living-status: ours has deathYear null and present-tense bio ('is a pianist'); evidence records death on August 6, 2025 — primary repair is deathYear 2025 plus past-tensing the bio. Grammy count: ours 'ten-time' vs evidence '9 Grammy Awards' (counts elsewhere vary depending on Latin Grammy inclusion, but the pack evidence says 9). Confirmed: birthYear 1936 (December 15, 1936), Monk and McCoy Tyner influences ('Influenced by Thelonious Monk and McCoy Tyner'; Tyner 'a mentor and inspiration'), Latin jazz/salsa stature. 'Harlem River Drive' appears in evidence as a band he founded (1970); ours calls it an album — the eponymous album is not covered by the extract (not contradicted)."
+ },
+ {
+  "id": "egberto-gismonti",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Born 5 December 1947 (birthYear 1947 ok, living per evidence). Brazilian composer/guitarist/pianist confirmed; classical training (Boulanger/Barraqué) plus Brazilian traditions confirmed; extensive ECM catalog confirmed; Amazon evocation directly supported ('sojourn in the Xingu region of the Amazon basin... documented musically')."
+ },
+ {
+  "id": "ella-fitzgerald",
+  "verdict": "unverifiable",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Right entity; bio is the Wikipedia lede nearly verbatim EXCEPT ours inserts 'absolute pitch' into the attribute list — the current extract reads 'purity of tone, impeccable diction, phrasing, timing, intonation, and a horn-like improvisational ability' with no absolute pitch. Absence is not contradiction, so the claim is unverifiable (likely scraped from an older revision). Dates 1917/1996 (April 25, 1917 – June 15, 1996) and the sobriquets First Lady of Song / Queen of Jazz / Lady Ella confirmed. Data-quality flag for repair: instruments field is [\"composer\"] only — composer is supported ('singer, songwriter and composer') but vocals, her primary instrument, is missing."
+ },
+ {
+  "id": "elvin-jones",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim the Wikipedia lede: Coltrane quartet late 1960 to late 1965, My Favorite Things / A Love Supreme / Ascension / Live at Birdland, post-1966 trio and Jazz Machine, brothers Hank and Thad — all confirmed. Dates 1927/2004 confirmed (September 9, 1927 – May 18, 2004). Data-quality flag for repair: instruments field is [\"musician\"] — not contradicted but malformed; evidence says 'American jazz drummer of the post-bop era', should be [\"drums\"]."
+ },
+ {
+  "id": "enrico-pieranunzi",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim the Wikipedia opening (born 5 December 1949, Italian jazz pianist, classical-jazz blend, parents Renata Brillantini and Alvaro Pieranunzi, father a jazz guitarist). birthYear 1949 ok, living per evidence."
+ },
+ {
+  "id": "enrico-rava",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim the Wikipedia lede (Italian jazz trumpeter; started on trombone, switched to trumpet after hearing Miles Davis). Born 20 August 1939 (birthYear 1939 ok, living per evidence)."
+ },
+ {
+  "id": "eric-dolphy",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Right entity, no contradictions. Confirmed: dates 1928/1964 (June 20, 1928 – June 29, 1964; death at 36 consistent with those dates), alto sax / bass clarinet / flute, wide intervals and register leaps ('dramatic leaps from the lower to the upper register'), bass clarinet establishment in jazz, deep Mingus and Coltrane partnerships, initial critical hostility ('anti-jazz' branding). Unverifiable (extract truncates mid Booker Little section): 'Out to Lunch!' and its stature; 'worked extensively with... Ornette Coleman'; death in Berlin from undiagnosed diabetes. Background knowledge is consistent with all three (not citable); note 'extensively' may overstate the Ornette association even so — flag for source check."
+ },
+ {
+  "id": "erroll-garner",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Bio is verbatim the Wikipedia lede, including 'first recorded in 1956 with Mitch Miller and his orchestra' and Play Misty for Me (1971). Dates 1921/1977 confirmed (June 15, 1921 – January 2, 1977). Caution for any future rewrite: later in the same extract a truncated sentence begins 'In 1954, Garner composed \"Misty\", first recordin...' — the source may internally place the first recording in 1954; ours matches the lede verbatim so no contradiction is chargeable here, but verify the Misty recording date against the full article before editing that sentence."
+ },
+ {
+  "id": "esperanza-spalding",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Right entity, no contradictions. Confirmed: born October 18, 1984, bassist/singer/composer, Berklee instructor beginning at age 20, Best New Artist Grammy as her first Grammy (evidence ties it to Chamber Music Society, 2010), Emily's D+Evolution as a funk-rock concept project (alter-ego framing consistent with her middle name Emily). Unverifiable: the '2011... upset Justin Bieber' framing (neither the year nor Bieber appears in the extract) and the entire 'Songwrights Apothecary Lab' claim including the music-therapy-principles angle (extract coverage ends around 2019's 12 Little Spells / Harvard). Background knowledge is consistent with both (not citable)."
+ }
+]

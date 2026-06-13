@@ -1,0 +1,1713 @@
+[
+ {
+  "id": "afro-dizzy-gillespie",
+  "kind": "album",
+  "ours": {
+   "title": "Afro",
+   "artist": "Dizzy Gillespie",
+   "year": 2022,
+   "label": "Various",
+   "albumDNA": "Released in 1954, Afro showcases Dizzy Gillespie at the height of their creative powers, offering one of the finest expressions of Bebop. Afro remains a landmark of Bebop, cementing Dizzy Gillespie's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "Manteca Theme",
+    "Contraste",
+    "Jungla",
+    "Rhumba-Finale",
+    "Night in Tunisia",
+    "Con Alma"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "af2b3689-8a0a-4093-bbc9-036ab6f6adeb",
+     "title": "Afro-Paris / I Cover the Waterfront",
+     "date": "1953-02",
+     "country": "SE",
+     "status": "Official",
+     "artists": [
+      "Dizzy Gillespie"
+     ],
+     "labels": [
+      {
+       "name": "Jazz Selection",
+       "catalogNumber": "J.S. 4019"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "e9a6937b-5190-48e5-ada4-e66a053b9e3c",
+      "title": "Afro-Paris / I Cover the Waterfront",
+      "firstReleaseDate": "1953-02",
+      "primaryType": "Single",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Afro-Paris",
+      "I Cover the Waterfront"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Afro (album)",
+     "resolvedTitle": "Afro (album)",
+     "shortDescription": "1954 studio album by Dizzy Gillespie",
+     "extract": "Afro is a studio album by the jazz trumpeter Dizzy Gillespie. It was released in November 1954 through Norgran Records. Gillespie worked with many Cuban musicians on the album.\n\n\n== Reception ==\nThe AllMusic review states: \"Pairing Dizzy Gillespie with Cuban arranger/composer Chico O'Farrill produced a stunning session which originally made up the first half of a Norgran LP... A later small-group session features the trumpeter with an all-Latin rhythm section and flutist Gilberto Valdes... it is well worth acquiring.\"\n\n\n== Track listing ==\n\"Manteca Theme\" (Gil Fuller, Dizzy Gillespie, Chano Pozo) – 4:10\n\"Contraste\" (Gillespie, Chico O'Farrill, Pozo) – 2:45\n\"Jungla\" (Gillespie, O'Farrill, Pozo) – 4:44\n\"Rhumba Finale\" (Gillespie, O'Farrill, Pozo) – 4:43\n\"A Night in Tunisia\" (Gillespie, Frank Paparelli) – 4:19\n\"Con Alma\" (Gillespie) – 5:05\n\"Caravan\" (Duke Ellington, Irving Mills, Juan Tizol) – 7:19\n\n\n== Personnel ==\nDizzy Gillespie – trumpet\nGilbert Valdez – flute (tracks 5–7)\nQuincy Jones, Jimmy Nottingham, Ernie Royal – trumpet (tracks 1–4)\nLeon Comegys, J. J. Johnson, George Matthews – trombone (tracks 1–4)\nGeorge Dorsey, Hilton Jefferson – alto saxophone (tracks 1–4)\nHank Mobley, Lucky Thompson – tenor saxophone (tracks 1–4)\nDanny Bank – baritone saxophone (tracks 1–4)\nRéne Hernandez (tracks 5–7), Wade Legge (tracks 1–4) – piano\nLou Hackney (tracks 1–4), Roberto Rodríguez – bass\nCharlie Persip – drums (tracks 1–4)\nCándido Camero – congas, percussion\nMongo Santamaria – congas (tracks 1–4)\nJosé Mangual – bongos\nUbaldo Nieto – timbales\nRalph Miranda – percussion (tracks 5–7)\nChico O'Farrill – arranger (tracks 1–4)\n\n\n== References =="
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Afro (album)",
+      "shortDescription": "1954 studio album by Dizzy Gillespie",
+      "extractHead": "Afro is a studio album by the jazz trumpeter Dizzy Gillespie. It was released in November 1954 through Norgran Records. Gillespie worked with many Cuban musicians on the album.\n\n\n== Reception ==\nThe AllMusic review states: \"Pairing Dizzy Gillespie with Cuban arranger/composer Chico O'Farrill produced a stunning session which originally made up the first half of a Norgran LP... A later small-group session features the trumpeter with an all-Latin rhythm section and flutist Gilberto Valdes... it is"
+     },
+     {
+      "resolvedTitle": "Afar (album)",
+      "shortDescription": "2012 studio album by Ice Choir",
+      "extractHead": "Afar is the debut studio album of Ice Choir, the project of former the Pains of Being Pure at Heart drummer and the Depreciation Guild lead Kurt Feldman. It was released on July 31, 2012, by Underwater Peoples. It received mostly positive reviews from critics, with positive reviews highlighting Feldman's use of the 1980s influences and more varied responses criticizing the cheesiness.\n\n\n== Production ==\n\nTowards the end of the Depreciation Guild, Kurt Feldman began writing music without any of t"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "genius-of-modern-music-vol-1-thelonious-monk",
+  "kind": "album",
+  "ours": {
+   "title": "Genius of Modern Music Vol. 1",
+   "artist": "Thelonious Monk",
+   "year": 1956,
+   "label": "Blue Note",
+   "albumDNA": "Genius of Modern Music, Volume 1 is a Blue Note compilation, released in 1956, of Thelonious Monk's first recordings as a leader, cut over sessions from 1947 to 1952 and produced by Alfred Lion. It gathers early statements of Monk originals including \"'Round Midnight,\" \"Ruby My Dear,\" \"Epistrophy,\" and \"Well You Needn't.\"",
+   "keyTracks": [
+    "'round Midnight",
+    "Off Minor",
+    "Ruby My Dear",
+    "I Mean You",
+    "April in Paris",
+    "In Walked Bud"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Genius_of_Modern_Music:_Volume_1"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   },
+   "websearch": {
+    "resolved": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Genius_of_Modern_Music:_Volume_1",
+     "https://en.wikipedia.org/wiki/Genius_of_Modern_Music,_Vols._One_%26_Two"
+    ],
+    "findings": {
+     "year": 1956,
+     "label": "Blue Note",
+     "tracklist": [
+      "'Round Midnight",
+      "Off Minor",
+      "Ruby My Dear",
+      "I Mean You",
+      "April in Paris",
+      "In Walked Bud",
+      "Thelonious",
+      "Epistrophy",
+      "Misterioso",
+      "Well You Needn't",
+      "Introspection",
+      "Humph"
+     ],
+     "wikipedia": "https://en.wikipedia.org/wiki/Genius_of_Modern_Music:_Volume_1"
+    },
+    "note": "English Wikipedia article confirms artist = Thelonious Monk, this is the 12-inch BLP 1510 compilation released on Blue Note in 1956, compiled from 1947-1952 sessions, produced by Alfred Lion. The catalog's year of 2013 and label 'Various' are wrong; albumDNA falsely says 'Recorded in 2013'."
+   }
+  }
+ },
+ {
+  "id": "the-amazing-bud-powell-vol-2-bud-powell",
+  "kind": "album",
+  "ours": {
+   "title": "The Amazing Bud Powell Vol. 2",
+   "artist": "Bud Powell",
+   "year": 1954,
+   "label": "Blue Note",
+   "albumDNA": "The Amazing Bud Powell, Vol. 2 is a bebop piano session that pianist Bud Powell recorded for Blue Note at WOR Studios in New York on August 14, 1953, with George Duvivier on bass and Art Taylor on drums, issued on a ten-inch LP in 1954. It includes Powell's own \"Glass Enclosure\" alongside standards such as \"Autumn in New York\" and \"I Want to Be Happy.\"",
+   "keyTracks": [
+    "Autumn in New York",
+    "Reets and I",
+    "Glass Enclosure",
+    "Collard Greens and Black-Eyed Peas",
+    "Polka Dots and Moonbeams"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Amazing_Bud_Powell,_Vol._2"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   },
+   "websearch": {
+    "resolved": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/The_Amazing_Bud_Powell,_Vol._2"
+    ],
+    "findings": {
+     "year": 1954,
+     "label": "Blue Note",
+     "tracklist": [
+      "Autumn in New York",
+      "Reets and I",
+      "Sure Thing",
+      "Collard Greens and Black-Eyed Peas",
+      "Polka Dots and Moonbeams",
+      "I Want to Be Happy",
+      "Audrey",
+      "Glass Enclosure"
+     ],
+     "wikipedia": "https://en.wikipedia.org/wiki/The_Amazing_Bud_Powell,_Vol._2"
+    },
+    "note": "Wikipedia infobox: artist = pianist Bud Powell; ten-inch LP, Blue Note BLP 5041, recorded at WOR Studios NYC on August 14, 1953, released 1954. Catalog year was null; label 'Various' is wrong (Blue Note). keyTracks was null. Used the 8-track original 10-inch tracklist."
+   }
+  }
+ },
+ {
+  "id": "fontainebleau-tadd-dameron",
+  "kind": "album",
+  "ours": {
+   "title": "Fontainebleau",
+   "artist": "Tadd Dameron",
+   "year": 1987,
+   "label": "Various",
+   "albumDNA": "Recorded March 9, 1956, Fontainebleau is a Tadd Dameron album. The title track is a through-composed piece with no solos, and \"Flossie Lou\" is a contrafact of \"Jeepers Creepers\"; the program also includes \"Delirium\" and \"The Scene Is Clean.\"",
+   "keyTracks": [
+    "Fontainebleau",
+    "Delirium",
+    "The Scene Is Clean",
+    "Flossie Lou",
+    "Bula-Beige"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "a2385b86-61cc-48b7-9374-6c8e2c43b415",
+     "title": "Fontainebleau",
+     "date": "1987",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Tadd Dameron"
+     ],
+     "labels": [
+      {
+       "name": "Original Jazz Classics",
+       "catalogNumber": "OJCCD-055-2"
+      },
+      {
+       "name": "Prestige",
+       "catalogNumber": "P-7037"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "bacd60ee-98bd-3404-beff-99f490938426",
+      "title": "Fontainebleau",
+      "firstReleaseDate": "1987",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Fontainebleau",
+      "Delirium",
+      "The Scene Is Clean",
+      "Flossie Lou",
+      "Bula-Beige"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Fontainebleau (album)",
+     "resolvedTitle": "Fontainebleau (album)",
+     "shortDescription": "1956 studio album by Tadd Dameron",
+     "extract": "Fontainebleau is a 1956 album by jazz musician Tadd Dameron. The title track, inspired by a trip to the French palace of the same name, is a through-composed composition with no solos, while \"Flossie Lou\" is a contrafact of \"Jeepers Creepers\".\n\n\n== Reception ==\n\nIn a review for AllMusic, Scott Yanow wrote: \"As is usual with most Dameron dates, the emphasis is on his inventive arrangements although there is space... for individual solos. Recommended.\"\nMarc Myers of JazzWax called Fontainebleau \"one of the prettiest octet albums of the 1950s,\" and commented: \"The players on the album come together well, as if carefully selected for their tones... For me, the album is as perfect as a panoramic landscape painting... The music is delicate and cohesive, and the solos celebrate the vistas that dazzle the eye.\"\n\n\n== Track listing ==\nAll tracks composed by Tadd Dameron.\n\n\"Fontainebleau\" – 4:48\n\"Delirium\" –  5:00\n\"The Scene Is Clean\" – 5:00\n\"Flossie Lou\" – 4:50\n\"Bula-Beige\" – 11:20\nRecorded March 9, 1956, at Van Gelder Studio, Hackensack, New Jersey.\n\n\n== Personnel ==\nKenny Dorham – trumpet\nHenry Coker  – trombone\nCecil Payne - baritone saxophone\nSahib Shihab – alto saxophone\nJoe Alexander – tenor saxophone\nTadd Dameron – piano\nJohn Simmons – bass\nShadow Wilson – drums\n\n\n== References =="
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Fontainebleau (album)",
+      "shortDescription": "1956 studio album by Tadd Dameron",
+      "extractHead": "Fontainebleau is a 1956 album by jazz musician Tadd Dameron. The title track, inspired by a trip to the French palace of the same name, is a through-composed composition with no solos, while \"Flossie Lou\" is a contrafact of \"Jeepers Creepers\".\n\n\n== Reception ==\n\nIn a review for AllMusic, Scott Yanow wrote: \"As is usual with most Dameron dates, the emphasis is on his inventive arrangements although there is space... for individual solos. Recommended.\"\nMarc Myers of JazzWax called Fontainebleau \"o"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "concert-by-the-sea-erroll-garner",
+  "kind": "album",
+  "ours": {
+   "title": "Concert by the Sea",
+   "artist": "Erroll Garner",
+   "year": 2008,
+   "label": "Various",
+   "albumDNA": "Recorded in 2008, Concert by the Sea showcases Erroll Garner at the height of their creative powers, offering one of the finest expressions of Bebop. Concert by the Sea remains a landmark of Bebop, cementing Erroll Garner's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "I’ll Remember April",
+    "Autumn Leaves",
+    "Where or When"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "1072f5a2-9465-4cd6-b912-bce378d41530",
+     "title": "Concert by the Sea",
+     "date": "",
+     "country": "NL",
+     "status": "Official",
+     "artists": [
+      "Erroll Garner"
+     ],
+     "labels": [
+      {
+       "name": "Philips",
+       "catalogNumber": "429 394 BE"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "3a3f2c58-b896-44d5-84bb-1793387a7bef",
+      "title": "Concert by the Sea",
+      "firstReleaseDate": "",
+      "primaryType": "EP",
+      "secondaryTypes": [
+       "Live"
+      ]
+     },
+     "tracks": [
+      "Where or When",
+      "I’ll Remember April",
+      "Autumn Leaves"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "we-insist-freedom-now-suite-max-roach",
+  "kind": "album",
+  "ours": {
+   "title": "We Insist! Freedom Now Suite",
+   "artist": "Max Roach",
+   "year": 1961,
+   "label": "Candid",
+   "albumDNA": "We Insist! Max Roach's Freedom Now Suite is a 1961 Candid album of a suite by drummer Max Roach and lyricist Oscar Brown Jr., recorded in 1960 with Abbey Lincoln on vocals and produced by Nat Hentoff. Tied to the civil rights movement and the centennial of emancipation, it was added to the U.S. National Recording Registry in 2022.",
+   "keyTracks": [
+    "Driva' Man",
+    "Freedom Day",
+    "Triptych: Prayer / Protest / Peace",
+    "All Africa",
+    "Tears For Johannesburg",
+    "Oh Yeah, Oh Yeah"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/We_Insist!"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   },
+   "websearch": {
+    "resolved": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/We_Insist!"
+    ],
+    "findings": {
+     "year": 1961,
+     "label": "Candid",
+     "tracklist": [
+      "Driva Man",
+      "Freedom Day",
+      "Triptych: Prayer/Protest/Peace",
+      "All Africa",
+      "Tears for Johannesburg"
+     ],
+     "wikipedia": "https://en.wikipedia.org/wiki/We_Insist!"
+    },
+    "note": "Wikipedia confirms artist = drummer/composer Max Roach; subtitle 'Max Roach's Freedom Now Suite'; recorded Aug 31 & Sep 6, 1960; released January 1961 on Candid Records; produced by Nat Hentoff; Abbey Lincoln vocals. Catalog year 2011 and label 'Various' are wrong; albumDNA falsely says 'Recorded in 2011'. Only 5 tracks (the suite), not the 6 in ours.keyTracks; 'Oh Yeah, Oh Yeah' is not on this album."
+   }
+  }
+ },
+ {
+  "id": "night-train-oscar-peterson",
+  "kind": "album",
+  "ours": {
+   "title": "Night Train",
+   "artist": "Oscar Peterson",
+   "year": 2011,
+   "label": "Various",
+   "albumDNA": "Recorded in 1963, Night Train showcases Oscar Peterson at the height of their creative powers, offering one of the finest expressions of Bebop. Night Train remains a landmark of Bebop, cementing Oscar Peterson's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "Night Train",
+    "C‐Jam Blues",
+    "Georgia on My Mind",
+    "Bags’ Groove",
+    "Moten Swing",
+    "Easy Does It"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 0.76,
+    "release": {
+     "mbid": "ceb28103-20f0-4124-a2f6-25df53b9b31e",
+     "title": "Night Train",
+     "date": "1963",
+     "country": "DE",
+     "status": "Official",
+     "artists": [
+      "The Oscar Peterson Trio"
+     ],
+     "labels": [
+      {
+       "name": "Verve",
+       "catalogNumber": "V6-8538"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "9ce4b9ee-9ad4-3deb-95a4-4cb4e68c145e",
+      "title": "Night Train",
+      "firstReleaseDate": "1963",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Night Train",
+      "C Jam Blues",
+      "Georgia on My Mind",
+      "Bags’ Groove",
+      "Moten Swing",
+      "Easy Does It",
+      "Honey Dripper",
+      "Things Ain’t What They Used to Be",
+      "I Got It Bad and That Ain’t Good",
+      "Band Call",
+      "Hymn to Freedom"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Night Train (Oscar Peterson album)",
+     "resolvedTitle": "Night Train (Oscar Peterson album)",
+     "shortDescription": "1963 studio album by the Oscar Peterson Trio",
+     "extract": "Night Train is an album by the Oscar Peterson Trio, released in 1963 by Verve Records. The album includes jazz, blues and R&B standards, as well as \"Hymn to Freedom\", one of Peterson's best known original compositions.\n\n\n== Background ==\nAlbum producer Norman Granz had sold the record label Verve, but remained Peterson's manager, and so supervised the Night Train recording session. The brief duration of many of the tracks has been attributed to a desire to have them played on commercial radio, which was reluctant to play any tracks longer than a few minutes.\nThe cover art photograph is by Pete Turner and original sleeve notes were by Benny Green.\nThe album was dedicated to Peterson's father, who worked as a sleeping-car attendant for Canadian Pacific Railways.\n\n\n== Music and recording ==\nA Jazz.com review notes that the title track, \"Night Train,\" is evidence of Peterson's ability to balance musical innovation with popular appeal, as demonstrated throughout the album: \"By using the basic elements of crescendo and diminuendo, and arranged sections to set off the parts, Peterson turns what could have been a throwaway into a minor masterpiece.\"\nNight Train’s only original Oscar Peterson composition, \"Hymn to Freedom,\" was written on the spot in the studio to close the album, following Norman Granz's suggestion that the band include a song with a \"definitive early-blues feel.\" Peterson named the new song \"Hymn to Freedom\" in honor of Martin Luther King Jr., and after Harriette Hamilton wrote accompanying lyrics a year later, it became an unofficial anthem of the Civil Rights Movement. \"Hymn to Freedom\" is featured prominently in the 2021 documentary Oscar Peterson: Black + White as part of Peterson's enduring legacy.\nHymn to Freedom has been reinterpreted, in a jazz version, by Oliver Jones (piano), who is considered a disciple of Oscar Peterson; he described it as \"A class act\" album with changes to tempo, rhythm and structure and notable piano virtuosity. They played live together on 2004. Ben Webster (tenor sax) played it in \"At ease\" album hereby in an intimate version with extensive use of subtone.\nOn the 1997 CD reissue, an alternate take of \"Night Train\" is titled \"Happy Go Lucky Local,\" the name of the 1946 Duke Ellington composition that is the basis of Jimmy Forrest's \"Night Train.\" The alternate take features the same arrangement as the master take.\nEd Thigpen's rivet cymbal, recorded at very close range, is prominent on all issues of the album.\n\n\n== Critical reception ==\n\nFor AllMusic, critic John Bush wrote that the release \"includes stately covers of blues and R&B standards\". The Penguin Guide to Jazz included it in its core collection, calling it “one of the best-constructed long-players of the period\" and saying that Peterson's playing is \"tight and uncharacteristically emotional\".\nIn 2019, the album was named as the jury winner of the Polaris Heritage Prize.\n\n\n== Influence ==\nDiana Krall reported that listening to the album made being a jazz pianist her ambition. Linda May Han Oh reported that listening to the album inspired her to start playing upright bass.\n\n\n== Track listing ==\n\n(Tracks 12 through 17 are CD bonus tracks, not included on the original vinyl LP)\n\n\n== Personnel ==\nOscar Peterson - piano\nRay Brown - double bass\nEd Thigpen - drums\nTechnical personnel\n\nNorman Granz – production\nVal Valentin – recording engineering\nPete Turner – cover photography\nBenny Green - sleeve notes\n\n\n== References ==\n\n\n== Links ==\nNight Train at Discogs (list of releases)"
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Night Train (Oscar Peterson album)",
+      "shortDescription": "1963 studio album by the Oscar Peterson Trio",
+      "extractHead": "Night Train is an album by the Oscar Peterson Trio, released in 1963 by Verve Records. The album includes jazz, blues and R&B standards, as well as \"Hymn to Freedom\", one of Peterson's best known original compositions.\n\n\n== Background ==\nAlbum producer Norman Granz had sold the record label Verve, but remained Peterson's manager, and so supervised the Night Train recording session. The brief duration of many of the tracks has been attributed to a desire to have them played on commercial radio, w"
+     },
+     {
+      "resolvedTitle": "Night Train",
+      "shortDescription": "Topics referred to by the same term",
+      "extractHead": "Night Train or Nightrain may refer to:\n\n\n== Art ==\nNight Train (painting), a 1947 painting by Paul Delvaux\nNight Train, a 1995 mural by Blue Sky\n\n\n== Film, television and radio ==\nNight Train (1959 film), a Polish film directed by Jerzy Kawalerowicz\nNight Train (1998 film), an Irish romantic thriller directed by John Lynch\nNight Train (1999 film), an American film directed by Les Bernstien\nNight Train (2007 film), a Chinese film directed by Diao Yi'nan\nNight Train (2009 film), an American thrill"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "at-the-stratford-shakespearean-festival-oscar-peterson",
+  "kind": "album",
+  "ours": {
+   "title": "At the Stratford Shakespearean Festival",
+   "artist": "Oscar Peterson",
+   "year": 1957,
+   "label": "Various",
+   "albumDNA": "Recorded in 1957, At the Stratford Shakespearean Festival showcases Oscar Peterson at the height of their creative powers, offering one of the finest expressions of Bebop. At the Stratford Shakespearean Festival remains a landmark of Bebop, cementing Oscar Peterson's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "Falling in Love With Love",
+    "How About You?",
+    "Flamingo",
+    "Swinging on a Star",
+    "Noreen’s Nocturne",
+    "Gypsy in My Soul"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "71c8b874-e88e-4361-8856-81ce23b49c5a",
+     "title": "At the Stratford Shakespearean Festival",
+     "date": "1993-04-20",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "The Oscar Peterson Trio"
+     ],
+     "labels": [
+      {
+       "name": "Verve",
+       "catalogNumber": "3145137522"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "48e9313a-96d9-3b00-9485-125d8a96a7ae",
+      "title": "At the Stratford Shakespearean Festival",
+      "firstReleaseDate": "1957-07",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Live"
+      ]
+     },
+     "tracks": [
+      "Falling in Love With Love",
+      "How About You?",
+      "Flamingo",
+      "Swinging on a Star",
+      "Noreen’s Nocturne",
+      "Gypsy in My Soul",
+      "Nuages",
+      "How High the Moon",
+      "Love You Madly",
+      "52nd Street Theme",
+      "Daisy’s Dream"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "joe-pass-at-the-montreux-jazz-festival-joe-pass",
+  "kind": "album",
+  "ours": {
+   "title": "Joe Pass at the Montreux Jazz Festival",
+   "artist": "Joe Pass",
+   "year": 1975,
+   "label": "Various",
+   "albumDNA": "Recorded live at the Montreux Jazz Festival in 1975, Joe Pass at the Montreux Jazz Festival showcases Joe Pass at the height of their creative powers, offering one of the finest expressions of Bebop. Joe Pass at the Montreux Jazz Festival remains a landmark of Bebop, cementing Joe Pass's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "You Are the Sunshine of My Life",
+    "The Very Thought of You",
+    "Nobs",
+    "Li'l Darlin'",
+    "Blues for Nina",
+    "How Long Has This Been Going On?"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "84817565-77b2-4a99-8deb-d62f7a615a6f",
+     "title": "Joe Pass at the Montreux Jazz Festival 1975",
+     "date": "1997-05-16",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Joe Pass"
+     ],
+     "labels": [
+      {
+       "name": "Original Jazz Classics",
+       "catalogNumber": "OJCCD-934-25"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "75790731-24a8-36a8-93b5-c3b7da3eee81",
+      "title": "Joe Pass at the Montreux Jazz Festival 1975",
+      "firstReleaseDate": "1975",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Live"
+      ]
+     },
+     "tracks": [
+      "You Are the Sunshine of My Life",
+      "The Very Thought of You",
+      "Nobs",
+      "Li'l Darlin'",
+      "Blues for Nina",
+      "How Long Has This Been Going On?",
+      "More Than You Know",
+      "Grete",
+      "Nuages",
+      "I'm Glad There Is You",
+      "Willow Weep for Me"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "chet-baker-and-crew-chet-baker",
+  "kind": "album",
+  "ours": {
+   "title": "Chet Baker and Crew",
+   "artist": "Chet Baker",
+   "year": 1993,
+   "label": "Various",
+   "albumDNA": "Recorded in 1956, Chet Baker and Crew showcases Chet Baker at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Chet Baker and Crew remains a landmark of Cool Jazz, cementing Chet Baker's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "To Mickey's Memory",
+    "Slightly Above Moderate",
+    "Halema",
+    "Revelation",
+    "Something for Lisa",
+    "Lucius Lu"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 0.77,
+    "release": {
+     "mbid": "dbb02c72-d77e-44ed-bab1-df24b1a11114",
+     "title": "Chet Baker & Crew",
+     "date": "1956",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Chet Baker & Crew"
+     ],
+     "labels": [
+      {
+       "name": "Pacific Jazz",
+       "catalogNumber": "PJ-1224"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "dde96c0e-4af1-44d8-b3c9-fcd09239bf31",
+      "title": "Chet Baker & Crew",
+      "firstReleaseDate": "1956",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "To Mickey’s Memory",
+      "Slightly Above Moderate",
+      "Halema",
+      "Revelation",
+      "Something for Liza",
+      "Lucius Lu",
+      "Worrying the Life Out of Me",
+      "Medium Rock"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "art-pepper-meets-the-rhythm-section-art-pepper",
+  "kind": "album",
+  "ours": {
+   "title": "Art Pepper Meets the Rhythm Section",
+   "artist": "Art Pepper",
+   "year": 1957,
+   "label": "Various",
+   "albumDNA": "Recorded in 1957, Art Pepper Meets the Rhythm Section showcases Art Pepper at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Art Pepper Meets the Rhythm Section remains a landmark of Cool Jazz, cementing Art Pepper's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "You'd Be So Nice to Come Home To",
+    "Red Pepper Blues",
+    "Imagination",
+    "Waltz Me Blues",
+    "Straight Life",
+    "Jazz Me Blues"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "bc18d7d7-dd2e-4347-ae50-6639a4060928",
+     "title": "Art Pepper Meets the Rhythm Section",
+     "date": "2000",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Art Pepper"
+     ],
+     "labels": [
+      {
+       "name": "Contemporary Records",
+       "catalogNumber": "CCD-7532-2"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "5dc7981a-c20f-361b-8365-ad677ba41b7a",
+      "title": "Art Pepper Meets the Rhythm Section",
+      "firstReleaseDate": "1957-01-01",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "You'd Be So Nice to Come Home To",
+      "Red Pepper Blues",
+      "Imagination",
+      "Waltz Me Blues",
+      "Straight Life",
+      "Jazz Me Blues",
+      "Tin Tin Deo",
+      "Star Eyes",
+      "Birks' Works",
+      "The Man I Love"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "desmond-blue-paul-desmond",
+  "kind": "album",
+  "ours": {
+   "title": "Desmond Blue",
+   "artist": "Paul Desmond",
+   "year": 1962,
+   "label": "Various",
+   "albumDNA": "Recorded in 1962, Desmond Blue showcases Paul Desmond at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Desmond Blue remains a landmark of Cool Jazz, cementing Paul Desmond's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "My Funny Valentine",
+    "Desmond Blue",
+    "Then I'll Be Tired of You",
+    "I've Got You Under My Skin",
+    "Late Lament",
+    "I Should Care"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "ca8804ba-5c26-4285-af39-9100d57402d6",
+     "title": "Desmond Blue",
+     "date": "1962",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Paul Desmond"
+     ],
+     "labels": [
+      {
+       "name": "RCA Victor",
+       "catalogNumber": "LPM-2438"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0d6dcd26-9b31-32c8-8d8a-cd3c326b7c95",
+      "title": "Desmond Blue",
+      "firstReleaseDate": "1962",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "My Funny Valentine",
+      "Desmond Blue",
+      "Then I’ll Be Tired of You",
+      "I’ve Got You Under My Skin",
+      "Late Lament",
+      "I Should Care",
+      "Like Someone in Love",
+      "Ill Wind",
+      "Body and Soul"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "inside-hi-fi-lee-konitz",
+  "kind": "album",
+  "ours": {
+   "title": "Inside Hi-Fi",
+   "artist": "Lee Konitz",
+   "year": 1957,
+   "label": "Various",
+   "albumDNA": "Recorded in 1956, Inside Hi-Fi showcases Lee Konitz at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Inside Hi-Fi remains a landmark of Cool Jazz, cementing Lee Konitz's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "Kary's Trance",
+    "Everything Happens to Me",
+    "Sweet and Lovely",
+    "Cork 'n' Bib",
+    "All of Me",
+    "Star Eyes"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "2c90ef6f-040b-47f6-b3f9-0b66a291f1cb",
+     "title": "Inside Hi-Fi",
+     "date": "1956",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Lee Konitz"
+     ],
+     "labels": [
+      {
+       "name": "Atlantic",
+       "catalogNumber": "1258"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "6c8973d4-d0d8-3814-9b15-3158d42c9722",
+      "title": "Inside Hi-Fi",
+      "firstReleaseDate": "1956",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Kary’s Trance",
+      "Everything Happens to Me",
+      "Sweet and Lovely",
+      "Cork ’n’ Bib",
+      "All of Me",
+      "Star Eyes",
+      "Nesuhi’s Instant",
+      "(Back Home Again in) Indiana"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "the-jimmy-giuffre-three-jimmy-giuffre",
+  "kind": "album",
+  "ours": {
+   "title": "The Jimmy Giuffre Three",
+   "artist": "Jimmy Giuffre",
+   "year": 1957,
+   "label": "Atlantic",
+   "albumDNA": "The Jimmy Giuffre 3 is a 1957 Atlantic album by reedman Jimmy Giuffre's drummerless trio with Jim Hall on guitar and Ralph Pena on bass. Most pieces are Giuffre originals, and the set is best known for the folk-tinged \"The Train and the River,\" by which the album is sometimes titled.",
+   "keyTracks": [
+    "The Train and the River",
+    "Gotta Dance",
+    "Two Kinds of Blues",
+    "The Song Is You",
+    "Crawdad Suite"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Jimmy_Giuffre_3"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   },
+   "websearch": {
+    "resolved": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/The_Jimmy_Giuffre_3"
+    ],
+    "findings": {
+     "year": 1957,
+     "label": "Atlantic",
+     "tracklist": [
+      "Gotta Dance",
+      "Two Kinds of Blues",
+      "The Song Is You",
+      "Crazy She Calls Me",
+      "Voodoo",
+      "My All",
+      "That's the Way It Is",
+      "Crawdad Suite",
+      "The Train and the River"
+     ],
+     "wikipedia": "https://en.wikipedia.org/wiki/The_Jimmy_Giuffre_3"
+    },
+    "note": "Wikipedia infobox: 'Released 1957', 'Label: Atlantic'. Leader = clarinetist/saxophonist Jimmy Giuffre; trio with Jim Hall (guitar) and Ralph Pena (bass); the album is also known as 'The Train and the River'. Our title 'The Jimmy Giuffre Three' = this album 'The Jimmy Giuffre 3'. Catalog year was null; label 'Various' is wrong (Atlantic). keyTracks was null."
+   }
+  }
+ },
+ {
+  "id": "full-house-wes-montgomery",
+  "kind": "album",
+  "ours": {
+   "title": "Full House",
+   "artist": "Wes Montgomery",
+   "year": 2007,
+   "label": "Various",
+   "albumDNA": "Full House is a live album by jazz guitarist Wes Montgomery, recorded at Tsubo in Berkeley, California, on June 25, 1962, and released on Riverside. The quintet featured Wynton Kelly, Johnny Griffin, Paul Chambers, and Jimmy Cobb, working through the title track, \"Blue 'n' Boogie,\" and \"Cariba.\"",
+   "keyTracks": [
+    "Full House",
+    "I’ve Grown Accustomed to Her Face",
+    "Blue ’n’ Boogie",
+    "Cariba (take 2)",
+    "Come Rain or Come Shine (take 2)",
+    "S.O.S. (take 3)"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "49d4471e-fa5c-4caa-ba81-63d8356200a5",
+     "title": "Full House",
+     "date": "1962",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Wes Montgomery"
+     ],
+     "labels": [
+      {
+       "name": "Riverside",
+       "catalogNumber": "RLP 434"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "c37bda62-c73d-3492-aa80-2de4204f67b1",
+      "title": "Full House",
+      "firstReleaseDate": "1962",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Live"
+      ]
+     },
+     "tracks": [
+      "Full House",
+      "I've Grown Accustomed to Her Face",
+      "Blue 'n' Boogie",
+      "Cariba",
+      "Come Rain or Come Shine",
+      "S.O.S."
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Full House (Wes Montgomery album)",
+     "resolvedTitle": "Full House (Wes Montgomery album)",
+     "shortDescription": "1962 live album by Wes Montgomery",
+     "extract": "Full House is an album by the jazz guitarist Wes Montgomery, released in 1962.\n\n\n== History ==\nThe performance was recorded live at Tsubo in Berkeley, California, on June 25, 1962.  The session featured a quintet that included Wynton Kelly on piano, Johnny Griffin on tenor saxophone, Paul Chambers on bass, and Jimmy Cobb on drums.\nThe album was released on the Riverside Records label. A 1987 CD reissue in the Original Jazz Classics series was followed by a later reissue in 2007 featuring additional bonus tracks.\n\n\n== Track listing ==\n\n\n=== Original issue ===\n\"Full House\" (Wes Montgomery) – 9:14\n\"I've Grown Accustomed to Her Face\" (Alan Jay Lerner, Frederick Loewe) – 3:18\n\"Blue 'n' Boogie\" (Dizzy Gillespie, Frank Paparelli) – 9:31\n\"Cariba\" (Wes Montgomery) - 9:35\n\"Come Rain or Come Shine\" (Johnny Mercer, Harold Arlen) – 6:49\n\"S.O.S.\" (Montgomery) – 4:57\n\n\n=== 1987 CD ===\n\"Full House\" (Wes Montgomery) - 9:16\n\"I've Grown Accustomed to Her Face\" (Lerner, Loewe) - 3:29\n\"Blue 'N' Boogie\" (Gillespie, Paparelli) - 9:38\n\"Cariba\" (Wes Montgomery) - 9:41\n\"Come Rain or Come Shine [Take 2]\" (Arlen, Mercer) - 6:57\n\"Come Rain or Come Shine [Take 1]\" (Arlen, Mercer) - 7:18\n\"S.O.S. (Take 3)\" (Wes Montgomery) - 5:03\n\"S.O.S. (Take 2)\" (Wes Montgomery) - 4:49\n\"Born to Be Blue\" (Tormé, Wells) - 7:27\n\n\n=== 2007 reissue by Riverside ===\n\"Full House\" (Wes Montgomery) - 9:16\n\"I've Grown Accustomed to Her Face\" (Lerner, Loewe) - 3:29\n\"Blue 'N' Boogie\" (Gillespie, Paparelli) - 9:38\n\"Cariba (Take 2)\" (Wes Montgomery) - 9:41\n\"Come Rain or Come Shine [Take 2]\" (Arlen, Mercer) - 6:57\n\"S.O.S. (Take 3)\" (Wes Montgomery) - 5:03\n\"Cariba\" (Wes Montgomery) - 8:28\n\"Come Rain or Come Shine\" (Arlen, Mercer) - 7:21\n\"S.O.S.\" (Wes Montgomery) - 4:49\n\"Born to Be Blue\" (Tormé, Wells) - 7:27\n\"Born to Be Blue (alternate take)\" (Tormé, Wells) - 7:35\n\n\n== Personnel ==\nWes Montgomery – guitar\nJohnny Griffin – tenor sax\nWynton Kelly – piano\nPaul Chambers – bass\nJimmy Cobb – drums\n\n\n== References =="
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Full House (Wes Montgomery album)",
+      "shortDescription": "1962 live album by Wes Montgomery",
+      "extractHead": "Full House is an album by the jazz guitarist Wes Montgomery, released in 1962.\n\n\n== History ==\nThe performance was recorded live at Tsubo in Berkeley, California, on June 25, 1962.  The session featured a quintet that included Wynton Kelly on piano, Johnny Griffin on tenor saxophone, Paul Chambers on bass, and Jimmy Cobb on drums.\nThe album was released on the Riverside Records label. A 1987 CD reissue in the Original Jazz Classics series was followed by a later reissue in 2007 featuring additio"
+     },
+     {
+      "resolvedTitle": "Full house",
+      "shortDescription": "Topics referred to by the same term",
+      "extractHead": "Full house or Fullhouse may refer to:\n\n\n== Film and television ==\nA Full House, a 1920 American silent comedy film\nFull House, a 1987–1995 American TV sitcom\nFull House (Armenian TV series), a 2014–2019 sitcom\nFull House (British TV series), a 1985–1986 sitcom\nFull House (South Korean TV series), a 2004 romantic comedy series\nFull House (Philippine TV series), a 2009–2010 adaptation of the South Korean series\nFull House (Thai TV series), a 2014 romantic comedy series\n\"Full House\" (The Upper Hand"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "fontessa-modern-jazz-quartet",
+  "kind": "album",
+  "ours": {
+   "title": "Fontessa",
+   "artist": "Modern Jazz Quartet",
+   "year": 1956,
+   "label": "Various",
+   "albumDNA": "First released in 1956, Fontessa is a Modern Jazz Quartet album in the cool-jazz vein. It includes \"Versailles (Porte de Versailles),\" \"Angel Eyes,\" the multi-part title piece \"Fontessa,\" and \"Willow Weep for Me.\"",
+   "keyTracks": [
+    "Versailles (Porte de Versailles)",
+    "Angel Eyes",
+    "Fontessa, Parts 1 & 2",
+    "Over the Rainbow",
+    "Bluesology",
+    "Willow Weep for Me"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "90412d62-e9dd-3d3f-9b11-d9500b211ab2",
+     "title": "Fontessa",
+     "date": "1990-01-31",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "The Modern Jazz Quartet"
+     ],
+     "labels": [],
+     "releaseGroup": {
+      "mbid": "59404ca7-e67f-3adc-8123-fc03b9777f15",
+      "title": "Fontessa",
+      "firstReleaseDate": "1956",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Versailles (Porte de Versailles)",
+      "Angel Eyes",
+      "Fontessa, Parts 1 & 2",
+      "Over the Rainbow",
+      "Bluesology",
+      "Willow Weep for Me",
+      "Woody 'n' You"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "plenty-plenty-soul-milt-jackson",
+  "kind": "album",
+  "ours": {
+   "title": "Plenty, Plenty Soul",
+   "artist": "Milt Jackson",
+   "year": 1957,
+   "label": "Various",
+   "albumDNA": "Recorded in 1957, Plenty, Plenty Soul showcases Milt Jackson at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Plenty, Plenty Soul remains a landmark of Cool Jazz, cementing Milt Jackson's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "Plenty, Plenty Soul",
+    "Boogity Boogity",
+    "Heartstrings",
+    "Sermonette",
+    "The Spirit-Feel",
+    "Ignunt Oil"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "237f9952-4bf0-4104-b704-eb9f9bcda38f",
+     "title": "Plenty, Plenty Soul",
+     "date": "1957",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Milt Jackson"
+     ],
+     "labels": [
+      {
+       "name": "Atlantic",
+       "catalogNumber": "1269"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "481ec238-b5db-37cc-a564-a6ac7f811b5d",
+      "title": "Plenty, Plenty Soul",
+      "firstReleaseDate": "1957",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Plenty, Plenty Soul",
+      "Boogity Boogity",
+      "Heartstrings",
+      "Sermonette",
+      "The Spirit-Feel",
+      "Ignunt Oil",
+      "Blues at Twilight"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "undercurrent-bill-evans",
+  "kind": "album",
+  "ours": {
+   "title": "Undercurrent",
+   "artist": "Bill Evans",
+   "year": 2013,
+   "label": "Various",
+   "albumDNA": "Undercurrent is a 1962 album by pianist Bill Evans and guitarist Jim Hall, recorded in the spring of 1962. The duo opens with an up-tempo reading of \"My Funny Valentine\" and includes Hall's \"Romain\" and John Lewis's \"Skating in Central Park.\"",
+   "keyTracks": [
+    "My Funny Valentine",
+    "I Hear a Rhapsody",
+    "Dream Gypsy",
+    "Romain",
+    "Skating in Central Park",
+    "Darn That Dream"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "2ab758b2-9543-479d-a03b-9755a18ec98a",
+     "title": "Undercurrent",
+     "date": "2013",
+     "country": "GB",
+     "status": "Official",
+     "artists": [
+      "Bill Evans"
+     ],
+     "labels": [
+      {
+       "name": "Not Now Music",
+       "catalogNumber": "NOT2CD478"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "433faa64-af7c-45d4-ba55-7ab342551bde",
+      "title": "Undercurrent",
+      "firstReleaseDate": "2013",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "My Funny Valentine",
+      "I Hear a Rhapsody",
+      "Dream Gypsy",
+      "Romain",
+      "Skating in Central Park",
+      "Darn That Dream",
+      "The Washington Twist",
+      "Danny Boy",
+      "Let's Go Back to the Waltz",
+      "With a Song in My Heart",
+      "Goodbye",
+      "I Believe in You"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Undercurrent (Bill Evans and Jim Hall album)",
+     "resolvedTitle": "Undercurrent (Bill Evans and Jim Hall album)",
+     "shortDescription": "1962 studio album by Bill Evans and Jim Hall",
+     "extract": "Undercurrent is a 1962 jazz album by the pianist Bill Evans and the guitarist Jim Hall. The two artists collaborated again in 1966 on the album Intermodulation.\n\n\n== Background ==\nReeling from the death of Scott LaFaro in early July 1961, Evans did not record or even play the piano for several months. When he did start recording again in October, it was as a sideman in projects with Mark Murphy, Herbie Mann, Dave Pike, and Tadd Dameron. Only with this album, recorded in the spring of 1962, did he emerge again as a leader.\nHis collaborator, Jim Hall, recalled:\n\nThe circle that George Russell would have over to his place included Jimmy Giuffre, Bob Brookmeyer, Gil Evans, Zoot Sims, Bill and others. It didn't seem strange to me to do records together. Somebody always had a record date. I mean, that is what we did. It was very exciting in those sessions. We weren't thinking about \"jazz history.\"\nLater in 1962, Evans and Hall would record together with larger ensembles on the albums Interplay, Loose Blues (which was released only after Evans's death), and The Gary McFarland Orchestra.\n\n\n== Repertoire ==\nThe album opens with a cover of a favorite jazz vehicle, \"My Funny Valentine\" by Richard Rodgers, which as Keith Shadwick notes is \"normally performed by jazz musicians as a moody ballad\" but here is \"the single up-tempo romp on the album\"; it was also actually \"the last-recorded piece on the date\". The program includes other jazz standards along with John Lewis's \"Skating in Central Park\" from his jazz soundtrack for the film Odds Against Tomorrow (1959), on which both Evans and Hall had played. No Evans originals are included on the album, but the duo performs Hall's \"Romain\", which had previously been recorded by Lewis's Modern Jazz Quartet for the album Pyramid (1960).\n\n\n== Performance ==\nEvans biographer Peter Pettinger notes: \"There is a hazard attached to combining piano and guitar, both essentially chordal instruments. Although jazz musicians use alternative chords with ease, the simultaneous choice of two valid but different chords may well not work. Evans and Hall had the intelligence and mutual awareness to escape this snare. And to avoid textural overcrowding, both were conscious of the value of space, every note being made to count in their joint tapestry.\"\n\n\n== Cover and releases ==\nThe front cover image for Undercurrent is Toni Frissell's photograph \"Weeki Wachee Spring, Florida\", which Shadwick describes as \"stunning\". The album was originally released on United Artists, then reissued by Solid State in 1968. Later, the album was reissued on the Blue Note label; both Blue Note and United Artists Records have been part of the same catalog for many decades. The original LP and the first CD reissue in 1988 featured a cropped, blue-tinted version, overlaid with the title and the Blue Note logo in white; but for the 2002 24-bit remastered CD reissue, the image was restored to its original black-and-white coloration and size, without lettering. The CD reissues also include four bonus tracks, including alternate takes of \"My Funny Valentine\" and \"Romain.\"\n\n\n== Reception ==\n\nIn his November 26, 1962, review for DownBeat magazine jazz critic Pete Welding states: \"This collaboration between Evans and Hall has resulted in some of the most beautiful, thoroughly ingratiating music it has been my pleasure to hear.\"\nAllMusic critic Scott Yanow notes: \"Both Evans and Hall had introspective and harmonically advanced styles along with roots in hard-swinging bebop. There is more variety than expected on the fine set with some cookers, ballads, waltzes, and even some hints at classical music. Recommended.\"\nPettinger comments: \"One of the mysteries of music that defies analysis is the ability of two musicians to play especially well together, to feel and instinctively adapt to what the other is doing. [This album] exemplified the secret. In this sublime meeting, the artists shared a common ground of musical values, Hall confessing to having long been influenced by Evans. Both, too, had a strong feeling for chamber music.\"\nShadwick adds: \"Each musician's special skills at improvisatory counterpoint and sensitive accompaniment are prominent throughout this mostly ruminative date. Their equal but differing abilities in caressing a melodic line through gradations of touch and tiny rhythmic displacements keep the listener fascinated at each new unfolding of a song's deeper levels of meaning.\" He also singled out the performance of \"D"
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Undercurrent (Bill Evans and Jim Hall album)",
+      "shortDescription": "1962 studio album by Bill Evans and Jim Hall",
+      "extractHead": "Undercurrent is a 1962 jazz album by the pianist Bill Evans and the guitarist Jim Hall. The two artists collaborated again in 1966 on the album Intermodulation.\n\n\n== Background ==\nReeling from the death of Scott LaFaro in early July 1961, Evans did not record or even play the piano for several months. When he did start recording again in October, it was as a sideman in projects with Mark Murphy, Herbie Mann, Dave Pike, and Tadd Dameron. Only with this album, recorded in the spring of 1962, did h"
+     },
+     {
+      "resolvedTitle": "Undercurrent",
+      "shortDescription": "Topics referred to by the same term",
+      "extractHead": "Undercurrent is a flow of water below the surface:\n\nIn an ocean, a subsurface current, a water current which flows beneath and usually independently of surface currents.\nIn a river, a subsurface current (see whitewater)\nIt may also refer to:\n\n\n== Books ==\nUndercurrent (newspaper), a Canadian newspaper\nUndercurrent (manga), a 2004 manga series by Tetsuya Toyoda\nThe Undercurrent (novel), by Robert Grant (writer)\n\n\n== Film and TV ==\nThe Undercurrent (1919 film), a 1919 American drama film directed "
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "sidney-bechet-at-storyville-sidney-bechet",
+  "kind": "album",
+  "ours": {
+   "title": "Sidney Bechet at Storyville",
+   "artist": "Sidney Bechet",
+   "year": 1954,
+   "label": "Storyville",
+   "albumDNA": "Sidney Bechet at Storyville is a live set recorded at George Wein's Storyville club in Boston on October 25, 1953, with trombonist Vic Dickenson and Wein on piano, and released on Storyville Records. Built from standards such as \"Basin Street Blues\" and \"Honeysuckle Rose,\" it is among Bechet's last American recordings before he settled in France.",
+   "keyTracks": [
+    "Bugle Call Blues",
+    "Indiana",
+    "Basin Street Blues",
+    "Crazy Rhythm",
+    "Honeysuckle Rose"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   },
+   "websearch": {
+    "resolved": true,
+    "sources": [
+     "https://www.discogs.com/release/8489825-Sidney-Bechet-Sidney-Bechet-At-Storyville",
+     "https://eil.com/shop/moreinfo.asp?catalogid=448173",
+     "https://www.allmusic.com/album/sidney-bechet-at-storyville-storyville-mw0000870971"
+    ],
+    "findings": {
+     "year": 1954,
+     "label": "Storyville",
+     "tracklist": [
+      "Bugle Call Blues",
+      "Indiana",
+      "Basin Street Blues",
+      "Jazz Me Blues",
+      "'C' Jam Blues",
+      "On the Sunny Side of the Street",
+      "Crazy Rhythm",
+      "Oh! Lady Be Good",
+      "Honeysuckle Rose"
+     ],
+     "wikipedia": null
+    },
+    "note": "No standalone Wikipedia article. AllMusic/Discogs/eil.com all confirm artist = Sidney Bechet (soprano sax), recorded at Storyville Club / Copley Square Hotel, Boston, October 25, 1953, with Vic Dickenson (trombone) and George Wein (piano); these are Bechet's final American recordings. Original LP on George Wein's Storyville Records (1954; companion 'At Storyville Vol. 2' is documented Storyville STLP-306, US 1954). Tracklist identical across Discogs and the eil.com French Vogue reissue. Catalog year was null; label 'Various' is wrong (Storyville). keyTracks was null. No Wikipedia repair (page does not exist)."
+   }
+  }
+ },
+ {
+  "id": "a-study-in-frustration-fletcher-henderson",
+  "kind": "album",
+  "ours": {
+   "title": "A Study in Frustration",
+   "artist": "Fletcher Henderson",
+   "year": 1994,
+   "label": "Various",
+   "albumDNA": "A Study in Frustration showcases Fletcher Henderson at the height of their creative powers, offering one of the finest expressions of Early Jazz. A Study in Frustration remains a landmark of Early Jazz, cementing Fletcher Henderson's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "The Dicty Blues",
+    "Teapot Dome Blues",
+    "Go 'long Mule",
+    "Shanghai Shuffle",
+    "Copenhagen",
+    "Everybody Loves My Baby"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "8f016d61-6145-49c2-ac71-6cd85fc3077d",
+     "title": "The Fletcher Henderson Story: A Study in Frustration",
+     "date": "2011",
+     "country": null,
+     "status": "Official",
+     "artists": [
+      "Fletcher Henderson"
+     ],
+     "labels": [
+      {
+       "name": "Essential Jazz Classics",
+       "catalogNumber": "ejc55511"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "a648ac99-3772-3406-9f3d-7b9f588dfc1e",
+      "title": "A Study in Frustration: The Fletcher Henderson Story",
+      "firstReleaseDate": "1994-06-14",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Compilation"
+      ]
+     },
+     "tracks": [
+      "The Dicty Blues",
+      "Teapot Dome Blues",
+      "Go 'long Mule",
+      "Shanghai Shuffle",
+      "Copenhagen",
+      "Everybody Loves My Baby",
+      "How Come You Do Me Like You Do",
+      "Alabamy Bound",
+      "Sugar Foot Stomp",
+      "What-Cha-Call-'em Blues",
+      "T.N.T.",
+      "The Stampede",
+      "Jackass Blues",
+      "Henderson Stomp",
+      "The Chant",
+      "Snag It",
+      "Rocky Mountain Blues",
+      "Tozo!",
+      "St. Louis Shuffle",
+      "Whiteman Stomp",
+      "I'm Coming Virginia",
+      "Variety Stomp",
+      "St. Louis Blues",
+      "Goose Pimples",
+      "Hop Off",
+      "King Porter Stomp",
+      "D Natural Blues",
+      "Oh Baby",
+      "Feeling Good",
+      "I'm Feeling Devilish",
+      "Old Black Joe Blues",
+      "Easy Money",
+      "Come on Baby",
+      "Freeze and Melt",
+      "Raisin' the Roof",
+      "Blazin'",
+      "Wang Wang Blues",
+      "Chinatown, My Chinatown",
+      "Somebody Loves Me",
+      "Keep a Song in Your Soul"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "stan-getz-and-the-oscar-peterson-trio-stan-getz",
+  "kind": "album",
+  "ours": {
+   "title": "Stan Getz and the Oscar Peterson Trio",
+   "artist": "Stan Getz",
+   "year": 2020,
+   "label": "Various",
+   "albumDNA": "Stan Getz and the Oscar Peterson Trio is a 1957 album pairing tenor saxophonist Stan Getz with pianist Oscar Peterson. The Cool Jazz session includes \"I Want to Be Happy\", \"Pennies From Heaven\", and \"I'm Glad There Is You\".",
+   "keyTracks": [
+    "I Want to Be Happy",
+    "Pennies From Heaven",
+    "Ballad Medley",
+    "I'm Glad There Is You",
+    "Tour's End",
+    "I Was Doing All Right"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "ba6baee0-4f3c-4ada-9e37-796a07877904",
+     "title": "Stan Getz And The Oscar Peterson Trio",
+     "date": "2020-01-17",
+     "country": "XW",
+     "status": "Official",
+     "artists": [
+      "Stan Getz",
+      "Oscar Peterson"
+     ],
+     "labels": [
+      {
+       "name": "Verve Reissues",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "dd46e67f-6a0f-3a16-9455-ed3d614de89a",
+      "title": "Stan Getz and The Oscar Peterson Trio",
+      "firstReleaseDate": "1957",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "I Want to Be Happy",
+      "Pennies From Heaven",
+      "Ballad Medley",
+      "I'm Glad There Is You",
+      "Tour's End",
+      "I Was Doing All Right",
+      "Bronx Blues"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "open-sesame-freddie-hubbard",
+  "kind": "album",
+  "ours": {
+   "title": "Open Sesame",
+   "artist": "Freddie Hubbard",
+   "year": 2002,
+   "label": "Various",
+   "albumDNA": "Recorded on June 19, 1960, Open Sesame showcases Freddie Hubbard at the height of their creative powers, offering one of the finest expressions of Hard Bop. Open Sesame remains a landmark of Hard Bop, cementing Freddie Hubbard's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "Open Sesame",
+    "But Beautiful",
+    "Gypsy Blue",
+    "All or Nothing at All",
+    "One Mint Julep",
+    "Hub's Nub"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "3e5f8b5e-13ad-40de-8127-93c3c23713ae",
+     "title": "Open Sesame",
+     "date": "2002",
+     "country": "XE",
+     "status": "Official",
+     "artists": [
+      "Freddie Hubbard"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "7243 4 95341 2 4"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "4953ba3d-e831-32d4-990d-fc01bc89f4a3",
+      "title": "Open Sesame",
+      "firstReleaseDate": "1960",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Open Sesame",
+      "But Beautiful",
+      "Gypsy Blue",
+      "All or Nothing at All",
+      "One Mint Julep",
+      "Hub's Nub",
+      "Open Sesame [alternate take]",
+      "Gypsy Blue [alternate take]"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "Open Sesame (Freddie Hubbard album)",
+     "resolvedTitle": "Open Sesame (Freddie Hubbard album)",
+     "shortDescription": "1960 studio album by Freddie Hubbard",
+     "extract": "Open Sesame is the debut album by then 22 years old jazz trumpeter Freddie Hubbard, recorded on June 19, 1960, by Rudy Van Gelder at his studio in Englewood Cliffs, New Jersey, and released on the Blue Note label in 1960 in mono as BLP 4040 and in stereo as BST 84040. It features performances by Hubbard, Tina Brooks, McCoy Tyner, Sam Jones and Clifford Jarvis. In 1988, Capitol Records issued it on compact disc with Michael Cuscuna as reissue producer and in 2001, they released a version remastered by Rudy Van Gelder.\n\n\n== Critical reception ==\n\nThe Penguin Guide to Jazz included Open Sesame as part of a selected  \"Core Collection,\" and has summarized the album as \"a great Blue Note set.\"\nDownBeat reviewer John A. Tynan wrote, \"There’s a youthful virility and aggressiveness in this initial album of young (22) trumpeter Hubbard and cohorts that speaks well for the future of small-group jazz\".\n\n\n== Track listing ==\n\"Open Sesame\" (Tina Brooks) - 7:11\n\"But Beautiful\" (Johnny Burke, Jimmy Van Heusen) - 6:26\n\"Gypsy Blue\" (Brooks) - 6:28\n\"All or Nothing at All\" (Arthur Altman, Jack Lawrence) - 5:36\n\"One Mint Julep\" (Rudy Toombs) - 6:04\n\"Hub's Nub\" (Hubbard) - 6:51\n\"Open Sesame\" [alternate take] (Brooks) - 7:16 Bonus track on CD\n\"Gypsy Blue\" [alternate take] (Brooks) - 7:35 Bonus track on CD\n\n\n== Personnel ==\nFreddie Hubbard - trumpet\nTina Brooks - tenor saxophone\nMcCoy Tyner - piano\nSam Jones - bass\nClifford Jarvis - drums\n\n\n== References =="
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "Open Sesame (Freddie Hubbard album)",
+      "shortDescription": "1960 studio album by Freddie Hubbard",
+      "extractHead": "Open Sesame is the debut album by then 22 years old jazz trumpeter Freddie Hubbard, recorded on June 19, 1960, by Rudy Van Gelder at his studio in Englewood Cliffs, New Jersey, and released on the Blue Note label in 1960 in mono as BLP 4040 and in stereo as BST 84040. It features performances by Hubbard, Tina Brooks, McCoy Tyner, Sam Jones and Clifford Jarvis. In 1988, Capitol Records issued it on compact disc with Michael Cuscuna as reissue producer and in 2001, they released a version remaster"
+     },
+     {
+      "resolvedTitle": "Open Sesame (disambiguation)",
+      "shortDescription": "Topics referred to by the same term",
+      "extractHead": "Open sesame is a magical phrase in the story of Ali Baba.\nOpen Sesame may also refer to:\n\nOpen Sesame (TV series), a children's television series based on Sesame Street\nIftah Ya Simsim, an Arabic language children's TV series also based on Sesame Street whose name translates as \"Open Sesame\"\nOpen Sesame (Freddie Hubbard album), 1960\nOpen Sesame (Kool & the Gang album), 1976\n\"Open Sesame\" (Kool & the Gang song), the title track\nOpen Sesame (Shaft album)\nOpen Sesame (Whodini album), 1987\n\"Open Ses"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "the-freedom-book-booker-ervin",
+  "kind": "album",
+  "ours": {
+   "title": "The Freedom Book",
+   "artist": "Booker Ervin",
+   "year": 1997,
+   "label": "Various",
+   "albumDNA": "Released in 1963, The Freedom Book is a hard-bop date led by saxophonist Booker Ervin. It came out on Prestige (PR 7295). Tracks include \"A Lunar Tune,\" \"Cry Me Not,\" and \"Grant's Stand.\"",
+   "keyTracks": [
+    "A Lunar Tune",
+    "Cry Me Not",
+    "Grant's Stand",
+    "A Day to Mourn",
+    "Al's In"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "d0d68fff-7555-4352-9147-1f23dd9dd480",
+     "title": "The Freedom Book",
+     "date": "1963",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Booker Ervin"
+     ],
+     "labels": [
+      {
+       "name": "Prestige",
+       "catalogNumber": "PR 7295"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "4d4f1f22-0d8e-3247-8c8a-43345a4a7efc",
+      "title": "The Freedom Book",
+      "firstReleaseDate": "1963",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "A Lunar Tune",
+      "Cry Me Not",
+      "Grant's Stand",
+      "A Day to Mourn",
+      "Al's In"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "a-garland-of-red-red-garland",
+  "kind": "album",
+  "ours": {
+   "title": "A Garland of Red",
+   "artist": "Red Garland",
+   "year": 2006,
+   "label": "Various",
+   "albumDNA": "Recorded in 1956, A Garland of Red showcases Red Garland at the height of their creative powers, offering one of the finest expressions of Bebop. A Garland of Red remains a landmark of Bebop, cementing Red Garland's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+   "keyTracks": [
+    "A Foggy Day",
+    "My Romance",
+    "What Is This Thing Called Love?",
+    "Makin' Whoopee",
+    "September in the Rain",
+    "Little Girl Blue"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "bf5b1a2f-11a0-48c6-b31e-f36dd6619f50",
+     "title": "A Garland of Red",
+     "date": "2006-06-21",
+     "country": "JP",
+     "status": "Official",
+     "artists": [
+      "Red Garland Trio"
+     ],
+     "labels": [
+      {
+       "name": "Prestige",
+       "catalogNumber": "VICJ-41538"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "b7e49639-b3fa-309a-92f5-1db5c333f7b8",
+      "title": "A Garland of Red",
+      "firstReleaseDate": "1956",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "A Foggy Day",
+      "My Romance",
+      "What Is This Thing Called Love?",
+      "Makin' Whoopee",
+      "September in the Rain",
+      "Little Girl Blue",
+      "Constallation",
+      "Blue Red"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "we-free-kings-rahsaan-roland-kirk",
+  "kind": "album",
+  "ours": {
+   "title": "We Free Kings",
+   "artist": "Rahsaan Roland Kirk",
+   "year": 1962,
+   "label": "Mercury",
+   "albumDNA": "Studio album by multi-instrumentalist Roland Kirk, recorded August 1961 and released by Mercury in January 1962. Kirk plays tenor saxophone, manzello, stritch, flute and siren, often several at once. The program mixes originals like the title track with the Charlie Parker line 'Blues for Alice'.",
+   "keyTracks": [
+    "Three for the Festival",
+    "Moon Song",
+    "A Sack Full of Soul",
+    "The Haunted Melody",
+    "Blues for Alice",
+    "We Free Kings"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/We_Free_Kings"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": {
+     "requestedTitle": "We Three Kings (album)",
+     "resolvedTitle": "We Three Kings (disambiguation)",
+     "shortDescription": "Topics referred to by the same term",
+     "extract": "\"We Three Kings\" is a Christmas carol written by the Reverend John Henry Hopkins, Jr.\nWe Three Kings may also refer to:\n\nWe Three Kings (The Reverend Horton Heat album)\nWe Three Kings (The Roches album)\nWe Three Kings (The Bob and Tom Show album)\n\n\n== See also ==\nWe the Kings, an American rock band"
+    },
+    "candidates": [
+     {
+      "resolvedTitle": "We Three Kings (disambiguation)",
+      "shortDescription": "Topics referred to by the same term",
+      "extractHead": "\"We Three Kings\" is a Christmas carol written by the Reverend John Henry Hopkins, Jr.\nWe Three Kings may also refer to:\n\nWe Three Kings (The Reverend Horton Heat album)\nWe Three Kings (The Roches album)\nWe Three Kings (The Bob and Tom Show album)\n\n\n== See also ==\nWe the Kings, an American rock band"
+     }
+    ]
+   },
+   "websearch": {
+    "resolved": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/We_Free_Kings",
+     "https://www.allmusic.com/album/we-free-kings-mw0000649599"
+    ],
+    "findings": {
+     "year": 1962,
+     "label": "Mercury",
+     "tracklist": [
+      "Three for the Festival",
+      "Moon Song",
+      "A Sack Full of Soul",
+      "The Haunted Melody",
+      "Blues for Alice",
+      "We Free Kings",
+      "You Did It, You Did It",
+      "Some Kind of Love",
+      "My Delight"
+     ],
+     "wikipedia": "https://en.wikipedia.org/wiki/We_Free_Kings"
+    },
+    "note": "Confirmed: studio album by jazz multi-instrumentalist Rahsaan/Roland Kirk on Mercury Records, recorded Aug 16-17 1961, released January 1962. Wikipedia 'Released' field = 1962; label = Mercury (not 'Various'). Tracklist from Wikipedia. albumDNA is generic boilerplate; rewriting from sources."
+   }
+  }
+ }
+]

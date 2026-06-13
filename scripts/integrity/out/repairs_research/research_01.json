@@ -1,0 +1,124 @@
+[
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "harlem-river-drive",
+    "field": "keyTracks",
+    "before": ["Harlem River Drive", "Idle Hands", "Seeds of Life", "Azucar"],
+    "after": ["Harlem River Drive", "If (We Had Peace Today)", "Idle Hands", "Broken Home", "Seeds of Life"],
+    "sourceUrl": [
+      "https://www.discogs.com/master/207260-Harlem-River-Drive-Harlem-River-Drive",
+      "https://soulbrother.com/feature/album-of-the-day-harlem-river-drive-harlem-river-drive/"
+    ],
+    "evidence": "Verified Roulette 1971 tracklist is the 5 tracks listed in after; 'Azucar' is not on this album (it is an Eddie Palmieri solo track from Azucar Pa' Ti)."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "mystic-brew",
+    "field": "wikipedia",
+    "before": null,
+    "after": "https://en.wikipedia.org/wiki/Two_Headed_Freap",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Two_Headed_Freap"],
+    "evidence": "'Mystic Brew' is track 7 of Ronnie Foster's 1972 Blue Note album 'Two Headed Freap'; this is the Wikipedia article for the actual album (title field still says 'Mystic Brew' -- flagged for separate title fix)."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "real-book",
+    "field": "wikipedia",
+    "before": null,
+    "after": "https://en.wikipedia.org/wiki/Real_Book",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Real_Book"],
+    "evidence": "English Wikipedia article for The Real Book, the c.1975 bootleg Berklee jazz fake book of lead sheets for standards."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "kosmos",
+    "field": "year",
+    "before": 1977,
+    "after": 1976,
+    "sourceUrl": [
+      "https://archive.org/details/ryo-kawasaki-juice-1976",
+      "https://www.discogs.com/release/601988-Ryo-Kawasaki-Juice"
+    ],
+    "evidence": "Juice was recorded at RCA NYC May 5-7 1976 and originally released in 1976 (RCA Victor APL1-1855), not 1977."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "kosmos",
+    "field": "label",
+    "before": "RVC",
+    "after": "RCA Victor",
+    "sourceUrl": [
+      "https://www.discogs.com/release/601988-Ryo-Kawasaki-Juice",
+      "https://www.plaidroomrecords.com/products/ryo-kawasaki-juice-601988"
+    ],
+    "evidence": "Original 1976 US release was on RCA Victor (cat. APL1-1855); 'RVC' was the later Japanese distributor RVC Corp, not the original label."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "kosmos",
+    "field": "keyTracks",
+    "before": ["Juice", "Raisins", "Bamboo Child", "Little Tree"],
+    "after": ["Raisins", "Sometime", "The Breeze And I", "El Toro", "Bamboo Child", "Andes"],
+    "sourceUrl": [
+      "https://archive.org/details/ryo-kawasaki-juice-1976",
+      "https://www.discogs.com/release/601988-Ryo-Kawasaki-Juice"
+    ],
+    "evidence": "Verified 7-track Juice tracklist (Raisins/Sometime/The Breeze And I/East Side Boogie/El Toro/Bamboo Child/Andes); 'Juice' is the album title not a track, and 'Little Tree' is not on the album -- both removed."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "kosmos",
+    "field": "albumDNA",
+    "before": "A jazz-funk outing from 1977, Juice features guitarist Ryo Kawasaki recording for RVC. The program includes \"Juice\", \"Raisins\", and \"Bamboo Child\". A cult classic of Japanese jazz-funk. Kawasaki's guitar synthesizer pioneering influenced later electronic jazz.",
+    "after": "Guitarist Ryo Kawasaki recorded Juice at RCA in New York in May 1976; it was his first album for an American label, RCA Victor. The jazz-funk program ranges across originals like \"Raisins\" and \"El Toro\" and a reading of \"The Breeze and I.\" Kawasaki was an early adopter of the guitar synthesizer, and the record became a sought-after title among crate-diggers and jazz-funk listeners.",
+    "sourceUrl": [
+      "https://archive.org/details/ryo-kawasaki-juice-1976",
+      "https://www.discogs.com/release/601988-Ryo-Kawasaki-Juice",
+      "https://www.plaidroomrecords.com/products/ryo-kawasaki-juice-601988"
+    ],
+    "evidence": "Corrects the prior DNA's errors: wrong year (1977), wrong label (RVC), and a nonexistent track ('Juice'). New text uses only sourced facts -- 1976, RCA Victor, recorded NYC, first US-label release, guitar synth, real tracks."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "mellow-dream",
+    "field": "wikipedia",
+    "before": null,
+    "after": "https://en.wikipedia.org/wiki/Mellow_Dream",
+    "sourceUrl": ["https://en.wikipedia.org/wiki/Mellow_Dream"],
+    "evidence": "English Wikipedia article for Ryo Fukui's 1977 Trio Records album Mellow Dream (artist, year, label and tracklist all confirmed against current data)."
+  },
+  {
+    "action": "research",
+    "file": "albumsDetail",
+    "id": "tetterettet",
+    "field": "keyTracks",
+    "before": ["Tetterettet", "Brozziman", "Two Hoedown"],
+    "after": ["Tetterettet V + VI", "Tetterettet IX", "Alexander's Marschbefehl", "Rumboon", "Kwik Kwek Kwak", "Ludwig's Blue Note"],
+    "sourceUrl": [
+      "https://corbettvsdempsey.bandcamp.com/album/tetterettet",
+      "https://www.discogs.com/master/1560705-ICP-Tentet-Tetterettet"
+    ],
+    "evidence": "Verified 11-track Tetterettet tracklist (ICP 020, 1977); 'Brozziman' and 'Two Hoedown' are not on this album. The after-list gives 6 real tracks from the verified tracklist."
+  },
+  {
+    "action": "research",
+    "file": "albums",
+    "id": "chet-baker-live-in-rosenheim",
+    "field": "label",
+    "before": "Unknown",
+    "after": "Timeless",
+    "sourceUrl": [
+      "https://www.jazzdisco.org/chet-baker/catalog/album-index/",
+      "https://www.jazzmessengers.com/en/99020/chet-baker/liveinrosenheim-17thapril1988-"
+    ],
+    "evidence": "Chet Baker 'Live in Rosenheim' (rec. 17 Apr 1988) was released 1989 on Timeless Records (Du), cat. SJP 233."
+  }
+]

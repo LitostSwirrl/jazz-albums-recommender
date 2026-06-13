@@ -1,0 +1,1404 @@
+[
+  {
+    "id": "motion-lee-konitz",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 1998, Motion showcases Lee Konitz at the height of their creative powers",
+    "contradictingQuote": "recorded in 1961 for Verve Records",
+    "skepticDecision": "Wikipedia states the album was recorded in 1961 for Verve and that the 1998 issue was an expansion, so 'Recorded in 1998' is contradicted as a recording-year claim.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 1998, Motion",
+        "problem": "1998 is an expanded reissue; the album was recorded in 1961",
+        "evidenceQuote": "Motion is an album by jazz saxophonist Lee Konitz, recorded in 1961 for Verve Records.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Entity confirmed (embedded MBID + matching Wikipedia). Wikipedia: 'a 1998 release then expanded this to 38' tracks — 1998 is the expanded reissue, recording was 1961, contradicting albumDNA 'Recorded in 1998'. The MB release used here is the 1998 38-track expanded edition; all 6 keyTracks appear in that tracklist (the 5 original standards plus 'You Don't Know What Love Is').",
+    "ours": {
+      "title": "Motion",
+      "artist": "Lee Konitz",
+      "year": 1998,
+      "label": "Verve",
+      "albumDNA": "Recorded in 1998, Motion showcases Lee Konitz at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Motion remains a landmark of Cool Jazz, cementing Lee Konitz's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "I Remember You",
+        "All Of Me",
+        "Foolin' Myself",
+        "You'd Be So Nice to Come Home To",
+        "I'll Remember April",
+        "You Don't Know What Love Is"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "4e5fcd7f-66af-45de-982a-0cc4b15aa6f6",
+          "title": "Motion",
+          "date": "1998",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Lee Konitz"
+          ],
+          "labels": [
+            {
+              "name": "Verve",
+              "catalogNumber": "314 557 107-2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "c0033e4f-db63-32e1-9602-2329247839d0",
+            "title": "Motion",
+            "firstReleaseDate": "1998",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "I Remember You",
+            "All Of Me",
+            "Foolin' Myself",
+            "You'd Be So Nice to Come Home To",
+            "I'll Remember April",
+            "You Don't Know What Love Is",
+            "These Foolish Things",
+            "Out Of Nowhere",
+            "It's You Or No One",
+            "I Remember You (rehearsal take)",
+            "I Remember You (rehearsal take)",
+            "I Remember You",
+            "I Remember You",
+            "I Remember You",
+            "You Don't Know What Love Is",
+            "It's Alright With Me",
+            "Foolin' Myself",
+            "Just Friends",
+            "It's You or No One",
+            "Out of Nowhere",
+            "My Melancholy Baby",
+            "Imagination",
+            "That Old Feeling",
+            "All the Things You Are",
+            "(Back Home Again In) Indiana",
+            "Alone Together",
+            "Embraceable You",
+            "I'm Gettin' Sentimental Over You",
+            "I'm Gettin' Sentimental Over You (v2)",
+            "Pennies From Heaven",
+            "I'll Remember April",
+            "There Will Never Be Another You",
+            "What's New?",
+            "Everything Happens To Me",
+            "Sweet and Lovely",
+            "You'd Be So Nice To Come Home To",
+            "Lullaby of the Leaves",
+            "I'm Gettin' Sentimental Over You (overdub)"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Motion (Lee Konitz album)",
+          "resolvedTitle": "Motion (Lee Konitz album)",
+          "shortDescription": "1961 studio album by Lee Konitz",
+          "extract": "Motion is an album by jazz saxophonist Lee Konitz, recorded in 1961 for Verve Records. It features drummer Elvin Jones and bassist Sonny Dallas. It is regarded by many as Konitz's finest album. The 1990 CD issue expanded the number of tracks from five to eight; a 1998 release then expanded this to 38, although most of the additional tracks were from different recording sessions with drummer Nick Stabulas instead of Elvin Jones.\n\n\n== Music ==\nThe album consists of performances of five standards, although \"the heads when they are stated at all are for the most part fragmentary and more alluded to than stated\". On the first track, \"I Remember You\", Dallas' bass lines provide the song's structure, while Konitz' phrasing, across bar lines and behind the beat, and Jones' drumming are subtly phrased. \"Foolin' Myself\" has some role-reversal, with Konitz providing harmonic support for Dallas' soloing.\n\n\n== Critical reception ==\n\nThe Penguin Guide to Jazz gives the album a four-star rating plus a special \"crown\" accolade and includes it as part of a selected \"Core Collection\", stating that it is \"one of the great modern jazz records\".\n\n\n== Track listing ==\n\"I Remember You\" (Victor Schertzinger, Johnny Mercer) – 4:30\n\"All of Me\" (Gerald Marks, Seymour Simons) – 7:41\n\"Foolin' Myself\" (Jack Lawrence, Peter Tinturin) – 7:01\n\"You'd Be So Nice to Come Home To\" (Cole Porter) – 10:45\n\"I'll Remember April\" (Gene DePaul, Patricia Johnston, Don Raye) – 8:01\n\n\n== Personnel ==\nLee Konitz – alto saxophone\nSonny Dallas – bass\nElvin Jones – drums\nTechnical\nPete Turner – photography\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Motion (Lee Konitz album)",
+            "shortDescription": "1961 studio album by Lee Konitz",
+            "extractHead": "Motion is an album by jazz saxophonist Lee Konitz, recorded in 1961 for Verve Records. It features drummer Elvin Jones and bassist Sonny Dallas. It is regarded by many as Konitz's finest album. The 1990 CD issue expanded the number of tracks from five to eight; a 1998 release then expanded this to 38, although most of the additional tracks were from different recording sessions with drummer Nick Stabulas instead of Elvin Jones.\n\n\n== Music ==\nThe album consists of performances of five standards, "
+          },
+          {
+            "resolvedTitle": "Motion (disambiguation)",
+            "shortDescription": "Topics referred to by the same term",
+            "extractHead": "Motion is a change in position of an object over time.\nMotion(s) or The Motion(s) may also refer to:\n\n\n== Law and government ==\nMotion (legal), a procedural device in law\nMotion (parliamentary procedure), a formal proposal by a member of a deliberative assembly\n\n\n== Mathematics, science and technology ==\nMotion (geometry), a type of transformation in various geometrical studies\nMotion graphics, animation or digital footage that creates the illusion of motion\nMotion (software), a motion graphics "
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "night-train-oscar-peterson",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 2011, Night Train",
+    "contradictingQuote": "released in 1963 by Verve Records",
+    "skepticDecision": "Both MB and the entity-matched Wikipedia page (all six keyTracks match) date the album to 1963 on Verve; Wikipedia names only a 1997 CD reissue, not 2011. 'Recorded in 2011' contradicts the 1963 release/recording and has no evidence support -> factual_error on the year.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 2011, Night Train showcases Oscar Peterson",
+        "problem": "Year is wrong; the album was recorded/released 1963, not 2011 (2011 appears to be a CD-reissue year).",
+        "evidenceQuote": "1963 studio album by the Oscar Peterson Trio",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Entity confirmed by MB (search, sim 0.76) and the entity-matched Wikipedia page (Night Train, Oscar Peterson Trio, 1963, Verve). All 6 keyTracks match the MB tracklist (C‐Jam Blues = MB 'C Jam Blues'). Only error is the year (2011 vs 1963). Label 'Various' is the dataset-wide placeholder; MB/wiki show Verve. albumDNA is generic editorial boilerplate (no other checkable facts).",
+    "ours": {
+      "title": "Night Train",
+      "artist": "Oscar Peterson",
+      "year": 2011,
+      "label": "Various",
+      "albumDNA": "Recorded in 2011, Night Train showcases Oscar Peterson at the height of their creative powers, offering one of the finest expressions of Bebop. Night Train remains a landmark of Bebop, cementing Oscar Peterson's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Night Train",
+        "C‐Jam Blues",
+        "Georgia on My Mind",
+        "Bags’ Groove",
+        "Moten Swing",
+        "Easy Does It"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 0.76,
+        "release": {
+          "mbid": "ceb28103-20f0-4124-a2f6-25df53b9b31e",
+          "title": "Night Train",
+          "date": "1963",
+          "country": "DE",
+          "status": "Official",
+          "artists": [
+            "The Oscar Peterson Trio"
+          ],
+          "labels": [
+            {
+              "name": "Verve",
+              "catalogNumber": "V6-8538"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "9ce4b9ee-9ad4-3deb-95a4-4cb4e68c145e",
+            "title": "Night Train",
+            "firstReleaseDate": "1963",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Night Train",
+            "C Jam Blues",
+            "Georgia on My Mind",
+            "Bags’ Groove",
+            "Moten Swing",
+            "Easy Does It",
+            "Honey Dripper",
+            "Things Ain’t What They Used to Be",
+            "I Got It Bad and That Ain’t Good",
+            "Band Call",
+            "Hymn to Freedom"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Night Train (Oscar Peterson album)",
+          "resolvedTitle": "Night Train (Oscar Peterson album)",
+          "shortDescription": "1963 studio album by the Oscar Peterson Trio",
+          "extract": "Night Train is an album by the Oscar Peterson Trio, released in 1963 by Verve Records. The album includes jazz, blues and R&B standards, as well as \"Hymn to Freedom\", one of Peterson's best known original compositions.\n\n\n== Background ==\nAlbum producer Norman Granz had sold the record label Verve, but remained Peterson's manager, and so supervised the Night Train recording session. The brief duration of many of the tracks has been attributed to a desire to have them played on commercial radio, which was reluctant to play any tracks longer than a few minutes.\nThe cover art photograph is by Pete Turner and original sleeve notes were by Benny Green.\nThe album was dedicated to Peterson's father, who worked as a sleeping-car attendant for Canadian Pacific Railways.\n\n\n== Music and recording ==\nA Jazz.com review notes that the title track, \"Night Train,\" is evidence of Peterson's ability to balance musical innovation with popular appeal, as demonstrated throughout the album: \"By using the basic elements of crescendo and diminuendo, and arranged sections to set off the parts, Peterson turns what could have been a throwaway into a minor masterpiece.\"\nNight Train’s only original Oscar Peterson composition, \"Hymn to Freedom,\" was written on the spot in the studio to close the album, following Norman Granz's suggestion that the band include a song with a \"definitive early-blues feel.\" Peterson named the new song \"Hymn to Freedom\" in honor of Martin Luther King Jr., and after Harriette Hamilton wrote accompanying lyrics a year later, it became an unofficial anthem of the Civil Rights Movement. \"Hymn to Freedom\" is featured prominently in the 2021 documentary Oscar Peterson: Black + White as part of Peterson's enduring legacy.\nHymn to Freedom has been reinterpreted, in a jazz version, by Oliver Jones (piano), who is considered a disciple of Oscar Peterson; he described it as \"A class act\" album with changes to tempo, rhythm and structure and notable piano virtuosity. They played live together on 2004. Ben Webster (tenor sax) played it in \"At ease\" album hereby in an intimate version with extensive use of subtone.\nOn the 1997 CD reissue, an alternate take of \"Night Train\" is titled \"Happy Go Lucky Local,\" the name of the 1946 Duke Ellington composition that is the basis of Jimmy Forrest's \"Night Train.\" The alternate take features the same arrangement as the master take.\nEd Thigpen's rivet cymbal, recorded at very close range, is prominent on all issues of the album.\n\n\n== Critical reception ==\n\nFor AllMusic, critic John Bush wrote that the release \"includes stately covers of blues and R&B standards\". The Penguin Guide to Jazz included it in its core collection, calling it “one of the best-constructed long-players of the period\" and saying that Peterson's playing is \"tight and uncharacteristically emotional\".\nIn 2019, the album was named as the jury winner of the Polaris Heritage Prize.\n\n\n== Influence ==\nDiana Krall reported that listening to the album made being a jazz pianist her ambition. Linda May Han Oh reported that listening to the album inspired her to start playing upright bass.\n\n\n== Track listing ==\n\n(Tracks 12 through 17 are CD bonus tracks, not included on the original vinyl LP)\n\n\n== Personnel ==\nOscar Peterson - piano\nRay Brown - double bass\nEd Thigpen - drums\nTechnical personnel\n\nNorman Granz – production\nVal Valentin – recording engineering\nPete Turner – cover photography\nBenny Green - sleeve notes\n\n\n== References ==\n\n\n== Links ==\nNight Train at Discogs (list of releases)"
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Night Train (Oscar Peterson album)",
+            "shortDescription": "1963 studio album by the Oscar Peterson Trio",
+            "extractHead": "Night Train is an album by the Oscar Peterson Trio, released in 1963 by Verve Records. The album includes jazz, blues and R&B standards, as well as \"Hymn to Freedom\", one of Peterson's best known original compositions.\n\n\n== Background ==\nAlbum producer Norman Granz had sold the record label Verve, but remained Peterson's manager, and so supervised the Night Train recording session. The brief duration of many of the tracks has been attributed to a desire to have them played on commercial radio, w"
+          },
+          {
+            "resolvedTitle": "Night Train",
+            "shortDescription": "Topics referred to by the same term",
+            "extractHead": "Night Train or Nightrain may refer to:\n\n\n== Art ==\nNight Train (painting), a 1947 painting by Paul Delvaux\nNight Train, a 1995 mural by Blue Sky\n\n\n== Film, television and radio ==\nNight Train (1959 film), a Polish film directed by Jerzy Kawalerowicz\nNight Train (1998 film), an Irish romantic thriller directed by John Lynch\nNight Train (1999 film), an American film directed by Les Bernstien\nNight Train (2007 film), a Chinese film directed by Diao Yi'nan\nNight Train (2009 film), an American thrill"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "nows-the-time-charlie-parker",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "A Night in Tunisia",
+    "contradictingQuote": "[\"The Song Is You\", \"Laird Baird\", \"Kim\", \"Kim [alt tk]\", \"Cosmic Rays\", \"Cosmic Rays [alt tk]\", \"Chi Chi\", \"Chi Chi [alt tk1]\", \"Chi Chi [alt tk2]\", \"Chi Chi [alt tk3]\", \"I Remember You\", \"Now's The Time\", \"Confirmation\", \"I'm in the Mood for Love*\", \"Star Eyes*\", \"Blues [Fast]*\", \"Celebrity*\", \"Ballade*\", \"Si Si*\", \"Swedish Schnapps*\", \"Swedish Schnapps [alt tk]*\", \"Back Home Blues*\", \"Back Home Blues [alt tk]*\", \"Lover Man*\", \"Blues for Alice*\"]",
+    "skepticDecision": "Embedded-MBID (authoritative, same release; year 2020 matches) gives a 25-track listing containing 'Now's The Time' but none of the other five keyTracks (A Night in Tunisia, Ornithology, Parker's Mood, Relaxin' at Camarillo, Bird of Paradise). On the confirmed same release, five of six claimed keyTracks are absent.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "keyTracks: A Night in Tunisia, Ornithology, Parker's Mood, Now's the Time, Relaxin' at Camarillo, Bird of Paradise",
+        "problem": "Only 'Now's the Time' is on the matched (embedded, authoritative) 2020 release; the other 5 keyTracks are absent from its tracklist — ours describes a different Charlie Parker 'Now's the Time' compilation",
+        "evidenceQuote": "The Song Is You, Laird Baird, Kim, Cosmic Rays, Chi Chi, I Remember You, Now's The Time, Confirmation ...",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "MB embedded_mbid (authoritative): Charlie Parker, 'Now's The Time', date 2020 = our year. Right entity (artist), but 5 of 6 keyTracks are not on this release's tracklist (only 'Now's the Time' matches) -> keyTracks mismatch -> factual_error. The opensearch Wikipedia resolved to 'Now's the Time (composition)' — a song, not the album — discarded; not stored so no link harm. Label placeholder 'Various' (MB: Bird's Nest).",
+    "ours": {
+      "title": "Now's the Time",
+      "artist": "Charlie Parker",
+      "year": 2020,
+      "label": "Various",
+      "albumDNA": "Recorded in 2020, Now's the Time showcases Charlie Parker at the height of their creative powers, offering one of the finest expressions of Bebop. Now's the Time remains a landmark of Bebop, cementing Charlie Parker's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Now's The Time",
+        "The Song Is You",
+        "Laird Baird",
+        "Kim",
+        "Kim [alt tk]",
+        "Cosmic Rays"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "dce6a0dd-5097-455d-bb52-59eb84adcda7",
+          "title": "Now's The Time",
+          "date": "2020",
+          "country": "XE",
+          "status": "Official",
+          "artists": [
+            "Charlie Parker"
+          ],
+          "labels": [
+            {
+              "name": "Bird's Nest",
+              "catalogNumber": "BN 244105"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "cd78c4a2-85ae-48b0-89cd-a347d3393c66",
+            "title": "Now's The Time",
+            "firstReleaseDate": "2020",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "The Song Is You",
+            "Laird Baird",
+            "Kim",
+            "Kim [alt tk]",
+            "Cosmic Rays",
+            "Cosmic Rays [alt tk]",
+            "Chi Chi",
+            "Chi Chi [alt tk1]",
+            "Chi Chi [alt tk2]",
+            "Chi Chi [alt tk3]",
+            "I Remember You",
+            "Now's The Time",
+            "Confirmation",
+            "I'm in the Mood for Love*",
+            "Star Eyes*",
+            "Blues [Fast]*",
+            "Celebrity*",
+            "Ballade*",
+            "Si Si*",
+            "Swedish Schnapps*",
+            "Swedish Schnapps [alt tk]*",
+            "Back Home Blues*",
+            "Back Home Blues [alt tk]*",
+            "Lover Man*",
+            "Blues for Alice*"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Now's the Time (Charlie Parker song)",
+          "resolvedTitle": "Now's the Time (composition)",
+          "shortDescription": "Song by Charlie Parker",
+          "extract": "\"Now's the Time\" is a composition by Charlie Parker. He led the first recording of it, on November 26, 1945.\n\n\n== Background and composition ==\n\"Although Parker was capable of writing intricate bebop melody lines, he sometimes stepped back from his more progressive leanings and drew on his Kansas City jazz roots in crafting simpler, bluesier compositions – of which 'Now's the Time' is a case in point.\" It is a riff-based blues, with typical bebop phrase endings at the end of bars 5 and 6.\n\n\n== Original recording ==\n\"Now's the Time\" was first recorded on November 26, 1945, by Charlie Parker's Reboppers: Parker (alto sax), Miles Davis (trumpet), Dizzy Gillespie or Sadik Hakim (piano), Curley Russell (bass), and Max Roach (drums). Multiple takes were made; The Penguin Guide to Jazz suggests that \"Parker's solo on the third take is superior in its slashing self-confidence to that on the fourth, which is slightly duller; Miles Davis plays without conviction on both.\" The fourth take was the original official release.\n\n\n== Influence ==\nThe melody of \"Now's the Time\" was used for \"The  Hucklebuck\", a hit for saxophonist Paul Williams four years after Parker's original recording. Despite being released by the same record label with the same producer, Parker was not credited; instead, the composition was attributed to Andy Gibson, who had been a songwriter for Lucky Millinder, who recorded it as \"D-Natural Blues\".\n\n\n== References ==\n\nBibliography"
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Now's the Time (composition)",
+            "shortDescription": "Song by Charlie Parker",
+            "extractHead": "\"Now's the Time\" is a composition by Charlie Parker. He led the first recording of it, on November 26, 1945.\n\n\n== Background and composition ==\n\"Although Parker was capable of writing intricate bebop melody lines, he sometimes stepped back from his more progressive leanings and drew on his Kansas City jazz roots in crafting simpler, bluesier compositions – of which 'Now's the Time' is a case in point.\" It is a riff-based blues, with typical bebop phrase endings at the end of bars 5 and 6.\n\n\n== O"
+          },
+          {
+            "resolvedTitle": "Now's the Time",
+            "shortDescription": "Topics referred to by the same term",
+            "extractHead": "Now's the Time may refer to:\n\n\"Now's the Time\" (composition), by Charlie Parker\nNow's the Time (Sonny Rollins album), 1964\nNow's the Time (Shirley Scott album), 1967\nNow's the Time (New York Unit album), 1992\nNow's the Time (4 P.M. album), 1995\nNow's the Time (Billy Mitchell album), 1976\nNow's the Time (Houston Person and Ron Carter album), a1990\nNow's the Time!, a 2011 album by Tony Christie\nNow's the Time (Francissca Peter album), a 1989 album by Francissca Peter\nNow's the Time (film), a 1932 "
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "one-flight-up",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "recorded on June 2, 1964, in Paris and released on Blue Note the following year",
+    "contradictingQuote": "\"firstReleaseDate\": \"1967\"",
+    "skepticDecision": "Even granting that, the release-group firstReleaseDate is the canonical first-release year for the work and is 1967. Ours states recorded June 2, 1964 and released 'the following year' (i.e. 1965); 1967 is two years off and directly contradicts a 1965 first release, also matching ours' own year field of 1967.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "recorded on June 2, 1964, in Paris and released on Blue Note the following year",
+        "problem": "'the following year' means a 1965 release, contradicting the MB release-group first release date of 1967 and our own year field (1967) — an internal field-vs-prose inconsistency",
+        "evidenceQuote": "firstReleaseDate: 1967",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "The certain defect: prose implies a 1965 release while the year field says 1967 — one is wrong. Pack evidence (embedded MBID) supports 1967 via the release-group first release date, but the matched release itself is a 2004 digital reissue and MB first-release dates can lag reality; the prose reads like it was lifted from a wikipedia article, so repair should re-source the original Blue Note release year externally. All three keyTracks match the MB tracklist ('Coppin' the Haven' matches up to apostrophe style). Unchecked claims (no personnel or session data in evidence): June 2, 1964 Paris recording; Donald Byrd, Kenny Drew, Niels-Henning Orsted Pedersen, Art Taylor.",
+    "ours": {
+      "title": "One Flight Up",
+      "artist": "Dexter Gordon",
+      "year": 1967,
+      "label": "Blue Note",
+      "albumDNA": "One Flight Up is an album by American jazz saxophonist Dexter Gordon recorded on June 2, 1964, in Paris and released on Blue Note the following year. The session featured Donald Byrd on trumpet, pianist Kenny Drew, bassist Niels-Henning Ørsted Pedersen, and drummer Art Taylor.",
+      "keyTracks": [
+        "Tanya",
+        "Coppin' the Haven",
+        "Darn That Dream"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "42feabb5-2f94-4377-ba96-b9cd3acc8d7f",
+          "title": "One Flight Up",
+          "date": "2004-08-10",
+          "country": "XW",
+          "status": "Official",
+          "artists": [
+            "Dexter Gordon"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": null
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "02db33cf-dfcd-383b-baca-27d4217b98c9",
+            "title": "One Flight Up",
+            "firstReleaseDate": "1967",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Tanya",
+            "Coppin’ the Haven",
+            "Darn That Dream",
+            "Kong Neptune A.K.A. King Neptune"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "open-sesame-freddie-hubbard",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 2002, Open Sesame",
+    "contradictingQuote": "recorded on June 19, 1960",
+    "skepticDecision": "Upheld: the entity-matched Wikipedia page states the album was recorded on June 19, 1960, directly contradicting a 2002 recording.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 2002, Open Sesame showcases Freddie Hubbard at the height of their creative powers",
+        "problem": "Recorded June 19, 1960, not 2002; 2002 is a Blue Note reissue year",
+        "evidenceQuote": "Open Sesame is the debut album by then 22 years old jazz trumpeter Freddie Hubbard, recorded on June 19, 1960, by Rudy Van Gelder",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Wiki page 'Open Sesame (Freddie Hubbard album)' is our entity (yes). MB embedded release is a 2002 reissue (country XE); release-group firstReleaseDate 1960. All 6 keyTracks match. Only 'Recorded in 2002' is wrong (reissue year vs 1960 recording). ours.wikipediaUrl is null so wikiLinkVerdict=none_stored even though a correct page exists.",
+    "ours": {
+      "title": "Open Sesame",
+      "artist": "Freddie Hubbard",
+      "year": 2002,
+      "label": "Various",
+      "albumDNA": "Recorded in 2002, Open Sesame showcases Freddie Hubbard at the height of their creative powers, offering one of the finest expressions of Hard Bop. Open Sesame remains a landmark of Hard Bop, cementing Freddie Hubbard's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Open Sesame",
+        "But Beautiful",
+        "Gypsy Blue",
+        "All or Nothing at All",
+        "One Mint Julep",
+        "Hub's Nub"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "3e5f8b5e-13ad-40de-8127-93c3c23713ae",
+          "title": "Open Sesame",
+          "date": "2002",
+          "country": "XE",
+          "status": "Official",
+          "artists": [
+            "Freddie Hubbard"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": "7243 4 95341 2 4"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "4953ba3d-e831-32d4-990d-fc01bc89f4a3",
+            "title": "Open Sesame",
+            "firstReleaseDate": "1960",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Open Sesame",
+            "But Beautiful",
+            "Gypsy Blue",
+            "All or Nothing at All",
+            "One Mint Julep",
+            "Hub's Nub",
+            "Open Sesame [alternate take]",
+            "Gypsy Blue [alternate take]"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Open Sesame (Freddie Hubbard album)",
+          "resolvedTitle": "Open Sesame (Freddie Hubbard album)",
+          "shortDescription": "1960 studio album by Freddie Hubbard",
+          "extract": "Open Sesame is the debut album by then 22 years old jazz trumpeter Freddie Hubbard, recorded on June 19, 1960, by Rudy Van Gelder at his studio in Englewood Cliffs, New Jersey, and released on the Blue Note label in 1960 in mono as BLP 4040 and in stereo as BST 84040. It features performances by Hubbard, Tina Brooks, McCoy Tyner, Sam Jones and Clifford Jarvis. In 1988, Capitol Records issued it on compact disc with Michael Cuscuna as reissue producer and in 2001, they released a version remastered by Rudy Van Gelder.\n\n\n== Critical reception ==\n\nThe Penguin Guide to Jazz included Open Sesame as part of a selected  \"Core Collection,\" and has summarized the album as \"a great Blue Note set.\"\nDownBeat reviewer John A. Tynan wrote, \"There’s a youthful virility and aggressiveness in this initial album of young (22) trumpeter Hubbard and cohorts that speaks well for the future of small-group jazz\".\n\n\n== Track listing ==\n\"Open Sesame\" (Tina Brooks) - 7:11\n\"But Beautiful\" (Johnny Burke, Jimmy Van Heusen) - 6:26\n\"Gypsy Blue\" (Brooks) - 6:28\n\"All or Nothing at All\" (Arthur Altman, Jack Lawrence) - 5:36\n\"One Mint Julep\" (Rudy Toombs) - 6:04\n\"Hub's Nub\" (Hubbard) - 6:51\n\"Open Sesame\" [alternate take] (Brooks) - 7:16 Bonus track on CD\n\"Gypsy Blue\" [alternate take] (Brooks) - 7:35 Bonus track on CD\n\n\n== Personnel ==\nFreddie Hubbard - trumpet\nTina Brooks - tenor saxophone\nMcCoy Tyner - piano\nSam Jones - bass\nClifford Jarvis - drums\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Open Sesame (Freddie Hubbard album)",
+            "shortDescription": "1960 studio album by Freddie Hubbard",
+            "extractHead": "Open Sesame is the debut album by then 22 years old jazz trumpeter Freddie Hubbard, recorded on June 19, 1960, by Rudy Van Gelder at his studio in Englewood Cliffs, New Jersey, and released on the Blue Note label in 1960 in mono as BLP 4040 and in stereo as BST 84040. It features performances by Hubbard, Tina Brooks, McCoy Tyner, Sam Jones and Clifford Jarvis. In 1988, Capitol Records issued it on compact disc with Michael Cuscuna as reissue producer and in 2001, they released a version remaster"
+          },
+          {
+            "resolvedTitle": "Open Sesame (disambiguation)",
+            "shortDescription": "Topics referred to by the same term",
+            "extractHead": "Open sesame is a magical phrase in the story of Ali Baba.\nOpen Sesame may also refer to:\n\nOpen Sesame (TV series), a children's television series based on Sesame Street\nIftah Ya Simsim, an Arabic language children's TV series also based on Sesame Street whose name translates as \"Open Sesame\"\nOpen Sesame (Freddie Hubbard album), 1960\nOpen Sesame (Kool & the Gang album), 1976\n\"Open Sesame\" (Kool & the Gang song), the title track\nOpen Sesame (Shaft album)\nOpen Sesame (Whodini album), 1987\n\"Open Ses"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "pdron-rubalcaba",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "guitarist Jorge Pedrón",
+    "contradictingQuote": "Pierrick Pédron",
+    "skepticDecision": "Embedded-MBID release credits 'Pierrick Pedron' (corroborated by the stored Rubalcaba Wikipedia discography line 'Pedron Rubalcaba with Pierrick Pedron'); the prose invents the name 'Jorge Pedron'. The first-name contradiction alone is a factual error on the same album.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "a collaborative album by Cuban pianist Gonzalo Rubalcaba and guitarist Jorge Pedrón",
+        "problem": "The collaborator's name and instrument are wrong. The album is a duo with Pierrick Pedron (an alto saxophonist), not a guitarist named 'Jorge Pedron'. The name 'Jorge Pedron' is fabricated.",
+        "evidenceQuote": "Pierrick Pédron",
+        "source": "mb"
+      },
+      {
+        "ourClaim": "Pedrón's guitar work in an intimate chamber setting",
+        "problem": "Attributes guitar to the collaborator; the credited partner is Pierrick Pedron, listed in our entity's own discography simply as the Pedron Rubalcaba co-leader.",
+        "evidenceQuote": "Pédron Rubalcaba with Pierrick Pédron (mars 2023)",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Right album (embedded_mbid: title 'Pédron Rubalcaba', GAZEBO GAZ 217, 2023-06-09; Gonzalo Rubalcaba is a credited artist and 'Cuban pianist' matches the stored Rubalcaba Wikipedia page). All five keyTracks match the MB tracklist. The error is the collaborator: MB credits 'Pierrick Pédron' and the Rubalcaba discography lists 'Pédron Rubalcaba with Pierrick Pédron', but ours invents 'guitarist Jorge Pedrón'. Wrong first name and wrong instrument. Evidence does not state Pierrick Pedron's instrument explicitly, so the 'guitarist' descriptor is technically unverifiable from the pack, but the NAME contradiction alone is a clear factual_error. wikiLink (Gonzalo Rubalcaba page) is about our entity = correct.",
+    "ours": {
+      "title": "Pédron Rubalcaba",
+      "artist": "Gonzalo Rubalcaba",
+      "year": 2023,
+      "label": "GAZEBO",
+      "albumDNA": "Pedrón/Rubalcaba is a collaborative album by Cuban pianist Gonzalo Rubalcaba and guitarist Jorge Pedrón. The duo combines Rubalcaba's virtuosic post-bop pianism with Pedrón's guitar work in an intimate chamber setting, drawing on Latin jazz, contemporary jazz, and classical influences. This GAZEBO date features \"The Song Is You\" as part of Gonzalo Rubalcaba's contemporary jazz output from 2023.",
+      "keyTracks": [
+        "The Song Is You",
+        "Ezz-Thetic",
+        "Lawns",
+        "Si Tu Vois Ma Mère",
+        "Dreamsville"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "d950b510-025b-4943-981d-cef3af15cddc",
+          "title": "Pédron Rubalcaba",
+          "date": "2023-06-09",
+          "country": "XW",
+          "status": "Official",
+          "artists": [
+            "Pierrick Pédron",
+            "Gonzalo Rubalcaba"
+          ],
+          "labels": [
+            {
+              "name": "GAZEBO",
+              "catalogNumber": "GAZ 217"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "20b2208e-22b8-490e-b84d-0f3c06b66bcb",
+            "title": "Pédron Rubalcaba",
+            "firstReleaseDate": "2023-06-09",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "The Song Is You",
+            "Ezz-Thetic",
+            "Lawns",
+            "Si Tu Vois Ma Mère",
+            "Dreamsville",
+            "Five Will Get You Ten",
+            "The Folks Who Live On The Hill",
+            "Pretty Girl"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Gonzalo_Rubalcaba",
+        "page": {
+          "requestedTitle": "Gonzalo Rubalcaba",
+          "resolvedTitle": "Gonzalo Rubalcaba",
+          "shortDescription": "Afro-Cuban jazz pianist and composer",
+          "extract": "Gonzalo Rubalcaba (born May 27, 1963) is a Cuban jazz pianist and composer. \n\n\n== Early life ==\nRubalcaba was born Gonzalo Julio González Fonseca in Havana, Cuba into a musical family. He adopted his great-grandmother's name for professional use, just as did his father, Guillermo Rubalcaba (born Guillermo González Camejo) and his grandfather, Jacobo Rubalcaba (born Jacobo González Rubalcaba).\n\n\n== Later life and career ==\nWith Orquesta Aragón, Rubalcaba toured France and Africa in 1983. He formed his own Grupo Projecto in 1985. \nHe has won three Grammy Awards and received twelve nominations. \n\n\n== Discography ==\n\n\n=== As leader/co-leader ===\nMi Gran Pasion (Connector/Timba, 1987)\nLive in Havana (Pimienta, 1989)\nGiraldilla (Pimienta, 1990)\nDiscovery: Live at Montreux (Blue Note, 1990)\nGonzalo Rubalcaba Trio at Montreux (Somethin' Else, 1990)\nThe Blessing (Blue Note, 1991)\nImages (Blue Note, 1992)\nAt Montreux (Artex, 1993)\nSuite 4 Y 20 (Blue Note, 1993)\nDiz (Blue Note, 1993)\nRapsodia (Blue Note, 1994)\nImagine: Live in America (Blue Note, 1994)\nConcatenacion (Egrem, 1995)\nConcierto Negro (Egrem, 1995)\nFlying Colors (Blue Note, 1997)\nRomantic (EMI, 1998)\nGonzalo Rubalcaba (Max, 1998)\nAntiguo (Blue Note, 1998)\nInner Voyage (Blue Note/EMI, 1999)\nInicio (Egrem, 2001)\nSupernova  (Blue Note, 2001)\nStraight Ahead (Yemaya, 2003)\nSoneros de Verdad Present Rubalcaba Pasado y Presente (Universal Music Latino/Pimienta, 2003)\nPaseo (Blue Note, 2004)\nThe Trio (Angel, 2005)\nSolo  (Blue Note, 2005)\nAvatar (Angel, 2008)\nFaith (5Passion, 2010)\nXXI Century (5Passion, 2011)\nLive Faith (5Passion, 2014)\nSuite Caminos (5Passion, 2015)\nTokyo Adagio with Charlie Haden (Impulse!, 2015) - Recorded in 2005\nCharlie (5Passion, 2015)\nSkyline with Ron Carter, Jack DeJohnette (5Passion, 2021)\nPédron Rubalcaba with Pierrick Pédron (mars 2023)\nBorrowed Roses (Top Stop, 2023)\nA Tribute to Benny Moré and Nat King Cole with Yainer Horta, Joey Calveiro  (Calveiro Entertainment, 2025)\n\n\n=== As sideman ===\nWith Ignacio Berroa\n\nCodes (Blue Note, 2006)\nWith Ron Carter\n\nMr. Bow-tie (Somethin' Else, 1995)\nWith Juan Luis Guerra\n\nBachata Rosa (Karen, 1990)\nWith Francisco Céspedes\n\nCon el Permiso de Bola (Warner Music Mexico, 2006)\nWith Chick Corea\n\nRendezvous in New York (Stretch, 2003)\nWith Dave Holland\n\nThe Monterey Quartet: Live at the 2007 Monterey Jazz Festival (Monterey Jazz Festival, 2009)\nWith Al Di Meola\n\nPursuit of Radical Rhapsody (Concord, 2011)\nFlesh on Flesh (Telarc, 2022)\nWith Richard Galliano\n\nLove Day (Milan, 2008)\nWith Charlie Haden\n\n1989: The Montreal Tapes: with Gonzalo Rubalcaba and Paul Motian (Verve, 1997)\n2000: Nocturne (Verve, 2001)\n2003: Land of the Sun (Verve, 2004)\n2005: Tokyo Adagio (Impulse!, 2015) – live at The Blue Note, Tokyo, Japan\nWith Katia Labèque\n\nShape of My Heart (KML, 2009)\nWith Tony Martinez\n\nHabana Vive\nMafarefun\nWith Pat Martino\n\nThink Tank\nWith Strat Andriotis \n\nNight Manager (2018) Song 21\nWith Melissa Aldana \n\nFilin (Blue Note, 2026)\n\n\n== Awards ==\n\n\n=== Grammy Awards ===\n\n\n=== Billboard Music Awards ===\n\n\n=== Latin Grammy Awards ===\n\n\n== References ==\n\n\n== External links ==\nOfficial website"
+        }
+      }
+    }
+  },
+  {
+    "id": "pimp-master",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Tokyo's most explosive jazz collective delivers a riotous debut",
+    "contradictingQuote": "Pimp Master is the second studio album by pioneering jazz group Soil & \"Pimp\" Sessions, from Japan.",
+    "skepticDecision": "Wikipedia (correct entity, stored URL) calls Pimp Master the second studio album, directly contradicting the prose's claim that it is a 'debut'.",
+    "entityMatch": {
+      "musicbrainz": "n/a",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Tokyo's most explosive jazz collective delivers a riotous debut",
+        "problem": "Wikipedia identifies Pimp Master as their SECOND studio album, not a debut",
+        "evidenceQuote": "Pimp Master is the second studio album by pioneering jazz group Soil & \"Pimp\" Sessions, from Japan.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "No MB evidence (method=search, release null, no candidates). Wiki stored_url entity-matches (the Pimp Master album by Soil & 'Pimp' Sessions). Two contradictions vs the Wiki extract: (1) year ours=2004 vs Wiki 'released on June 23, 2005'; (2) DNA calls it a 'debut' but Wiki says 'second studio album'. Label 'Victor' is consistent (Wiki credits list Victor executive producers). Wiki track listing section is empty and MB is null, so keyTracks cannot be checked -> no_evidence.",
+    "ours": {
+      "title": "Pimp Master",
+      "artist": "Soil & \"Pimp\" Sessions",
+      "year": 2004,
+      "label": "Victor",
+      "albumDNA": "Tokyo's most explosive jazz collective delivers a riotous debut of what they call 'death jazz'—a high-energy collision of hard bop, punk attitude, and club-music intensity. The sextet plays with reckless abandon while maintaining serious improvisational chops. Proved that jazz could compete with rock and electronic music for sheer visceral excitement. Their club-oriented approach brought young Japanese audiences back to jazz in unprecedented numbers.",
+      "keyTracks": [
+        "My Foolish Heart",
+        "Waltz for Debby",
+        "Pimp Master",
+        "Rumba Azul"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": null,
+        "release": null,
+        "searchCandidates": []
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Pimp_Master",
+        "page": {
+          "requestedTitle": "Pimp Master",
+          "resolvedTitle": "Pimp Master",
+          "shortDescription": "2005 studio album by Soil & \"Pimp\" Sessions",
+          "extract": "Pimp Master is the second studio album by pioneering jazz group Soil & \"Pimp\" Sessions, from Japan. It was released on June 23, 2005.\n\n\n== Track listing ==\n\n\n== Credits ==\nPerformed and arranged by Soil & \"Pimp\" Sessions\nToasting [Agitator] – Shacho\nSaxophone – Motoharu\nTrumpet – Tabu Zombie\nPiano – Josei\nBass – Akita Goldman\nDrums – Midorin\nMastered by Yasuji Maeda\nRecorded and mixed by Shinjiro Ikeda\nExecutive Producer – Akira Sekiguchi (Victor), Katsunori Ueda (Victor)\nAssistant Engineers – Yoshiyuki Watanabe (Victor Studio), Yasuhiro Shirai (Sound city), Kanako Hayashi (INNIG), Naoya Tokunou (Heart beat), Seiji Toda (Heart Beat)\nA&R, Director – Yuichi Sorita (Victor)\nArtist Promotion – Toyonobu Hatayama (Victor)\nSales Promotion – Yasuhiro Kanabo (Victor)\nPhotography – Keisuke Sanada\nArtwork By [Art Direction] – Schnabel Effects\nStyling – Kenji Koizumi (SCREAMING MIMI'S)\nLayout – Hiroshi Yano (VDC)\nVisual Direction – Tomoro Watanabe (VDC)\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "plays-and-plays-and-plays",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Brubeck Plays Brubeck is a jazz album by pianist Dave Brubeck. The cover features design by S. Neil Fujita.",
+    "contradictingQuote": "Brubeck Plays Brubeck is a jazz album by pianist Dave Brubeck. The cover features design by S. Neil Fujita.",
+    "skepticDecision": "The lead sentence and the Fujita cover claim appear verbatim on the Wikipedia page for 'Brubeck Plays Brubeck', whose tracklist (Swing Bells, In Your Own Sweet Way, The Duke...) differs entirely from our album; the opening misnames our album and grafts a borrowed cover fact. The track-level prose is otherwise about our album, so this is a factual error on the right entity, not a wholesale entity mismatch.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Brubeck Plays Brubeck is a jazz album by pianist Dave Brubeck. The cover features design by S. Neil Fujita.",
+        "problem": "Wrong album title and a borrowed cover-design fact. Our item is 'Plays and Plays and Plays' (MB embedded_mbid, OJCCD 716-2, 1992), not 'Brubeck Plays Brubeck' (a different 1956 album with a different tracklist: Swing Bells, In Your Own Sweet Way, The Duke...). The opening sentence and the S. Neil Fujita cover claim are lifted from the wiki page for that other album.",
+        "evidenceQuote": "Brubeck Plays Brubeck is a jazz album by pianist Dave Brubeck. The cover features design by S. Neil Fujita.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Hybrid prose: the lead sentence misnames the album as 'Brubeck Plays Brubeck' (1956) and borrows that record's Fujita cover fact, but then correctly cites 'Sweet Cleo Brown' and 'I'm Old Fashioned', which ARE on OUR album (and are NOT on Brubeck Plays Brubeck). All 5 keyTracks match the MB tracklist for 'Plays and Plays and Plays'. Catalog data is right; only the prose lead and the stored wiki link are mis-sourced to the 1956 album → wrong_entity wiki link. Not full entity_mismatch because the track-level content describes ours correctly.",
+    "ours": {
+      "title": "Plays and Plays and Plays",
+      "artist": "Dave Brubeck",
+      "year": 1992,
+      "label": "Original Jazz Classics",
+      "albumDNA": "Brubeck Plays Brubeck is a jazz album by pianist Dave Brubeck. The cover features design by S. Neil Fujita. Features \"Sweet Cleo Brown\" and \"I’m Old Fashioned\" in a cool jazz context, highlighting Dave Brubeck's interpretive range.",
+      "keyTracks": [
+        "Sweet Cleo Brown",
+        "I’m Old Fashioned",
+        "Love Is Here to Stay",
+        "Indian Summer",
+        "In Search of a Theme"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "5241d778-53fb-4352-8ea3-fe5f1f360296",
+          "title": "Plays and Plays and Plays",
+          "date": "1992-06-22",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Dave Brubeck"
+          ],
+          "labels": [
+            {
+              "name": "Original Jazz Classics",
+              "catalogNumber": "OJCCD 716-2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "242077f0-5487-313f-8887-8ef3f991e20a",
+            "title": "Plays and Plays and Plays",
+            "firstReleaseDate": "1992-06-22",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Sweet Cleo Brown",
+            "I’m Old Fashioned",
+            "Love Is Here to Stay",
+            "Indian Summer",
+            "In Search of a Theme",
+            "You’d Be So Nice to Come Home To",
+            "I See Your Face Before Me",
+            "They Say It’s Wonderful",
+            "Imagination",
+            "Two Sleepy People"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Brubeck_Plays_Brubeck",
+        "page": {
+          "requestedTitle": "Brubeck Plays Brubeck",
+          "resolvedTitle": "Brubeck Plays Brubeck",
+          "shortDescription": "1956 studio album by Dave Brubeck",
+          "extract": "Brubeck Plays Brubeck is a jazz album by pianist Dave Brubeck. The cover features design by S. Neil Fujita.\n\n\n== Track listing ==\nAll compositions by Brubeck.\n\n\"Swing Bells\" 3:39\n\"Walkin' Line\" 2:47\n\"In Your Own Sweet Way\" 5:01\n\"Two-Part Contention\" 5:39\n\"Weep No More\" 3:59\n\"The Duke\" 2:54\n\"When I Was Young\" 3:19\n\"One Moment Worth Years\" 4:55\n\"The Waltz\" 3:49\nTracks 1, 2, 3, 5, 7, 8 and 9 recorded on April 18, 1956; tracks 4 and 6 recorded on April 19.\n\n\n== Personnel ==\nDave Brubeck - piano\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "plenty-plenty-soul-milt-jackson",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 2007, Plenty, Plenty Soul",
+    "contradictingQuote": "\"date\": \"1957\"",
+    "skepticDecision": "Upheld: MB dates the release and release group to 1957, contradicting a 2007 recording (recording cannot postdate the 1957 original release).",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 2007, Plenty, Plenty Soul",
+        "problem": "Year is wrong; 'Plenty, Plenty Soul' (Milt Jackson) was recorded/released 1957 on Atlantic (2007 is a CD-reissue year).",
+        "evidenceQuote": "date: 1957",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "MB search (sim 1.0): Milt Jackson, 'Plenty, Plenty Soul', 1957, Atlantic — entity matches. All 6 keyTracks match the MB tracklist. Year is the only error (2007 vs 1957). Label 'Various' placeholder; MB shows Atlantic.",
+    "ours": {
+      "title": "Plenty, Plenty Soul",
+      "artist": "Milt Jackson",
+      "year": 1957,
+      "label": "Various",
+      "albumDNA": "Recorded in 2007, Plenty, Plenty Soul showcases Milt Jackson at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Plenty, Plenty Soul remains a landmark of Cool Jazz, cementing Milt Jackson's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Plenty, Plenty Soul",
+        "Boogity Boogity",
+        "Heartstrings",
+        "Sermonette",
+        "The Spirit-Feel",
+        "Ignunt Oil"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "237f9952-4bf0-4104-b704-eb9f9bcda38f",
+          "title": "Plenty, Plenty Soul",
+          "date": "1957",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Milt Jackson"
+          ],
+          "labels": [
+            {
+              "name": "Atlantic",
+              "catalogNumber": "1269"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "481ec238-b5db-37cc-a564-a6ac7f811b5d",
+            "title": "Plenty, Plenty Soul",
+            "firstReleaseDate": "1957",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Plenty, Plenty Soul",
+            "Boogity Boogity",
+            "Heartstrings",
+            "Sermonette",
+            "The Spirit-Feel",
+            "Ignunt Oil",
+            "Blues at Twilight"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "prayer-meetin",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "The album was rereleased on CD with two bonus tracks from the same session.",
+    "contradictingQuote": "NOTE: \"Lonesome Road\" and \"Smith Walk\" are bonus tracks on a CD reissue that were recorded on June 13, 1960, featuring the same lineup plus Sam Jones on bass.",
+    "skepticDecision": "The dated track-listing NOTE explicitly states the two bonus tracks were recorded on a different date (June 13, 1960) from the 1963 album session, corroborated by the personnel crediting Sam Jones on tracks 7-8 only. A specific, dated quote beats the lead's vague phrasing, so 'from the same session' is contradicted.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "The album was rereleased on CD with two bonus tracks from the same session.",
+        "problem": "The page's track-listing note (corroborated by the personnel section crediting Sam Jones on tracks 7-8 only) says the two CD bonus tracks were recorded June 13, 1960 - a different session three years before the 1963 album session.",
+        "evidenceQuote": "NOTE: \"Lonesome Road\" and \"Smith Walk\" are bonus tracks on a CD reissue that were recorded on June 13, 1960, featuring the same lineup plus Sam Jones on bass.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Everything else checks out: recorded 1963, Blue Note, year 1964 (MB embedded BLP 4164, 1964-06), 5/5 keyTracks match. Caveat on the flagged claim: the wiki page is internally inconsistent - its own lead contains the identical 'two bonus tracks from the same session' sentence our prose copied, while its dated, personnel-corroborated note contradicts it; the specific note is the better evidence. Repair: drop or correct 'from the same session'. MB and wiki credit Stanley Turrentine alongside Smith; ours lists Smith alone, consistent with the wiki shortDescription's primary credit ('by Jimmy Smith with Stanley Turrentine').",
+    "ours": {
+      "title": "Prayer Meetin’",
+      "artist": "Jimmy Smith",
+      "year": 1964,
+      "label": "Blue Note",
+      "albumDNA": "Prayer Meetin' is an album by the American jazz organist Jimmy Smith, recorded in 1963 and released on the Blue Note label. The album was rereleased on CD with two bonus tracks from the same session.",
+      "keyTracks": [
+        "Prayer Meetin'",
+        "I Almost Lost My Mind",
+        "Stone Cold Dead in the Market",
+        "When the Saints Go Marching In",
+        "Red Top"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "a31a5bcf-2959-4531-b0ec-0ab8d6eb809c",
+          "title": "Prayer Meetin'",
+          "date": "1964-06",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Jimmy Smith",
+            "Stanley Turrentine"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": "BLP 4164"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "00d4d88e-b4c3-3a4e-a244-c1e9e9c3505a",
+            "title": "Prayer Meetin’",
+            "firstReleaseDate": "1964-06",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Prayer Meetin'",
+            "I Almost Lost My Mind",
+            "Stone Cold Dead in the Market",
+            "When the Saints Go Marching In",
+            "Red Top",
+            "Picnickin'"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Prayer_Meetin'",
+        "page": {
+          "requestedTitle": "Prayer Meetin'",
+          "resolvedTitle": "Prayer Meetin'",
+          "shortDescription": "1964 studio album by Jimmy Smith with Stanley Turrentine",
+          "extract": "Prayer Meetin' is an album by the American jazz organist Jimmy Smith, recorded in 1963 and released on the Blue Note label. The album was rereleased on CD with two bonus tracks from the same session.\n\n\n== Reception ==\nThe AllMusic review by Steve Leggett stated: \"Prayer Meetin' is a delight from start to finish\".  \n\n\n== Track listing ==\n\"Prayer Meeting\" (Jimmy Smith) – 5:45\n\"I Almost Lost My Mind\" (Ivory Joe Hunter) – 9:25\n\"Stone Cold Dead in the Market\" (Wilmoth Houdini) – 3:43\n\"When the Saints Go Marching In\" (Traditional) – 6:15\n\"Red Top\" (Gene Ammons) – 7:38\n\"Picnickin'\" (Smith) – 6:30\n\"Lonesome Road\" (Gene Austin, Nathaniel Shilkret) – 8:55 Bonus track on CD reissue\n\"Smith Walk\" (Smith) – 7:12 Bonus track on CD reissue\nNOTE: \"Lonesome Road\" and \"Smith Walk\" are bonus tracks on a CD reissue that were recorded on June 13, 1960, featuring the same lineup plus Sam Jones on bass.\n\n\n== Personnel ==\nMusicians\n\nJimmy Smith – organ\nStanley Turrentine – tenor saxophone\nQuentin Warren – guitar\nDonald Bailey – drums\nSam Jones – bass (tracks 7–8)\nTechnical\n\nAlfred Lion – producer\nRudy Van Gelder – engineer\nReid Miles – design\nFrancis Wolff – photography\nJoe Goldberg – liner notes\n\n\n== Chart performance ==\n\n\n=== Album ===\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "reunion-with-chet-baker-gerry-mulligan",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 2018, Reunion with Chet Baker showcases Gerry Mulligan at the height of their creative powers",
+    "contradictingQuote": "\"firstReleaseDate\": \"1988\"",
+    "skepticDecision": "Even the matched release-group first appeared in 1988, so the album cannot have been recorded in 2018; nothing in the evidence supports a 2018 recording date.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 2018, Reunion with Chet Baker",
+        "problem": "2018 is a Japanese CD reissue date; the album long predates it (MB first release 1988, and it is in fact a 1957 Gerry Mulligan Quartet date)",
+        "evidenceQuote": "releaseGroup.firstReleaseDate: 1988",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Entity confirmed via embedded MBID: 'Reunion With Chet Baker' (Gerry Mulligan Quartet, Pacific Jazz). The MB release is a 2018-10-17 Japan reissue; release-group firstReleaseDate is 1988, which already contradicts albumDNA 'Recorded in 2018' (the actual original is 1957, but that is not in the pack evidence). All 6 keyTracks match the MB tracklist exactly.",
+    "ours": {
+      "title": "Reunion with Chet Baker",
+      "artist": "Gerry Mulligan",
+      "year": 2018,
+      "label": "Pacific Jazz",
+      "albumDNA": "Recorded in 2018, Reunion with Chet Baker showcases Gerry Mulligan at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Reunion with Chet Baker remains a landmark of Cool Jazz, cementing Gerry Mulligan's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Reunion",
+        "When Your Lover Has Gone",
+        "Stardust",
+        "My Heart Belongs to Daddy",
+        "Jersey Bounce",
+        "The Surrey With the Fringe on Top"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "1da66aea-4bac-4a4c-bca5-5d31db8a589a",
+          "title": "Reunion With Chet Baker",
+          "date": "2018-10-17",
+          "country": "JP",
+          "status": "Official",
+          "artists": [
+            "Gerry Mulligan Quartet"
+          ],
+          "labels": [
+            {
+              "name": "Pacific Jazz",
+              "catalogNumber": "UCCQ-9394"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "c54f0c72-7e5c-4cdf-956b-3528558ca932",
+            "title": "Reunion With Chet Baker",
+            "firstReleaseDate": "1988",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Reunion",
+            "When Your Lover Has Gone",
+            "Stardust",
+            "My Heart Belongs to Daddy",
+            "Jersey Bounce",
+            "The Surrey With the Fringe on Top",
+            "Trav'Lin' Light",
+            "Trav'Lin' Light (alternate take)",
+            "Ornithology",
+            "People Will Say We're in Love",
+            "The Song Is You",
+            "Gee Baby, Ain't I Good to You",
+            "Gee Baby, Ain't I Good to You (alternate take)",
+            "I Got Rhythm",
+            "All the Things You Are"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "rights-of-swing",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Captures clarinetist Phil Woods during the hard bop period",
+    "contradictingQuote": "Phil Woods - alto saxophone",
+    "skepticDecision": "Both the lead ('saxophonist Phil Woods') and the personnel list ('Phil Woods - alto saxophone') give his instrument on this album as alto saxophone; 'clarinetist' is directly contradicted (and the prose's own first sentence says saxophonist).",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Captures clarinetist Phil Woods during the hard bop period",
+        "problem": "Wrong instrument for Woods on this album: the wiki lead calls him a saxophonist and the personnel list credits him on alto saxophone only; our own first sentence also says 'saxophonist Phil Woods'",
+        "evidenceQuote": "Rights of Swing is an album led by saxophonist Phil Woods ... Personnel: Phil Woods - alto saxophone",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Everything else checks out: MB embedded (Candid CJS 9016, 1961) and wiki match, and all 5 keyTracks match exactly. 'Clarinetist' looks like a template fill-in error. Woods may have played clarinet elsewhere in his career (background knowledge, not pack evidence), but the evidence for this album shows alto saxophone only.",
+    "ours": {
+      "title": "Rights of Swing",
+      "artist": "Phil Woods",
+      "year": 1961,
+      "label": "Candid",
+      "albumDNA": "Rights of Swing is an album led by saxophonist Phil Woods featuring performances recorded in early 1961 and originally released on the Candid label. Captures clarinetist Phil Woods during the hard bop period, reconnecting jazz with blues and gospel while keeping bebop's sophistication.",
+      "keyTracks": [
+        "Prelude and Part I",
+        "Part II (Ballad)",
+        "Part III (Waltz)",
+        "Part IV (Scherzo)",
+        "Part V (Presto)"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "dc4949be-1e95-4da1-ab2e-c947b13060d2",
+          "title": "Rights of Swing",
+          "date": "1961",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Phil Woods"
+          ],
+          "labels": [
+            {
+              "name": "Candid",
+              "catalogNumber": "CJS 9016"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "038258b2-db17-4480-a9bd-9279bdd03ada",
+            "title": "Rights of Swing",
+            "firstReleaseDate": "1961",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Prelude and Part I",
+            "Part II (Ballad)",
+            "Part III (Waltz)",
+            "Part IV (Scherzo)",
+            "Part V (Presto)"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Rights_of_Swing",
+        "page": {
+          "requestedTitle": "Rights of Swing",
+          "resolvedTitle": "Rights of Swing",
+          "shortDescription": "1961 studio album by Phil Woods",
+          "extract": "Rights of Swing is an album led by saxophonist Phil Woods featuring performances recorded in early 1961 and originally released on the Candid label.\n\n\n== Reception ==\n\nThe contemporaneous DownBeat reviewer, Ira Gitler, mentioned the influence of Igor Stravinsky on the album and wrote that: \"Woods' virile alto shows the way, but all the soloists and supporting rhythm men are of consistently high quality.\" Scott Yanow of AllMusic says, \"The colorful arrangements use the distinctive horns in inventive fashion and the music (which leaves room for many concise solos) holds one's interest throughout. One of Phil Woods' finest recordings, it's a true gem\".\n\n\n== Track listing ==\nAll compositions by Phil Woods.\n\n\"Prelude and Part I\" - 7:00\n\"Part II (Ballad)\" - 7:38\n\"Part III (Waltz)\" - 5:39\n\"Part IV (Scherzo)\" - 11:19\n\"Part V (Presto)\" - 7:17\n\n\n== Personnel ==\nPhil Woods - alto saxophone\nBenny Bailey - trumpet\nJulius Watkins - French horn\nWillie Dennis (track 5), Curtis Fuller (tracks 1–4) - trombone\nSahib Shihab - baritone saxophone\nTommy Flanagan - piano\nBuddy Catlett - bass\nOsie Johnson (tracks 1–4), Mickey Roker (track 5) - drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "rising-son",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Tell Me a Bedtime Story",
+    "contradictingQuote": "[\"Rising Son\", \"Afro Blues\", \"Piri Piri\", \"Mala\", \"Everybody Loves the Sunshine\", \"Green and Gold\", \"Sometime, Somewhere, Somehow\", \"Call\", \"Unchain\", \"Promise in Love\"]",
+    "skepticDecision": "Search match (sim 1.0) on title/artist/year/label with a complete-looking 10-track listing; three of four keyTracks are present in that list while 'Tell Me a Bedtime Story' is absent, so the same release demonstrably lacks the claimed track.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "keyTrack \"Tell Me a Bedtime Story\"",
+        "problem": "Listed as a key track but not present in the MB tracklist for this release.",
+        "evidenceQuote": "\"tracks\": [ \"Rising Son\", \"Afro Blues\", \"Piri Piri\", \"Mala\", \"Everybody Loves the Sunshine\", \"Green and Gold\", \"Sometime, Somewhere, Somehow\", \"Call\", \"Unchain\", \"Promise in Love\" ]",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Entity is correct: MB search match (topArtistSimilarity 1.0) confirms Takuya Kuroda, Blue Note, 2014-02-12, title Rising Son. Three of four keyTracks match (Rising Son, Afro Blues, Everybody Loves the Sunshine) but 'Tell Me a Bedtime Story' is absent from the tracklist -> factual_error at the keyTracks tier (evidence is a strong search match, not embedded MBID, so confidence moderate). The producer claim 'Produced by DJ Premier collaborator Jose James' is unverifiable (no producer credit in MB). Wikipedia opensearch landed on the 'Rising Sun' disambiguation page (different title) — discarded; ours.wikipediaUrl null.",
+    "ours": {
+      "title": "Rising Son",
+      "artist": "Takuya Kuroda",
+      "year": 2014,
+      "label": "Blue Note",
+      "albumDNA": "Japanese trumpeter Takuya Kuroda's Blue Note debut bridges jazz tradition with contemporary hip-hop and funk sensibilities. Produced by DJ Premier collaborator Jose James, the album grooves hard while showcasing Kuroda's warm, lyrical trumpet tone. Represented a new wave of young jazz musicians comfortable moving between straight-ahead playing and beat-driven production. Kuroda's success opened doors for more Japanese artists on major American jazz labels.",
+      "keyTracks": [
+        "Rising Son",
+        "Afro Blues",
+        "Everybody Loves the Sunshine",
+        "Piri Piri"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "fa25e2bc-fb99-4362-b636-52ffe25fb6bd",
+          "title": "Rising Son",
+          "date": "2014-02-12",
+          "country": "JP",
+          "status": "Official",
+          "artists": [
+            "Takuya Kuroda"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": "TYCJ-60050"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "539ecd10-fa19-4fd5-b343-4bd2ec32007c",
+            "title": "Rising Son",
+            "firstReleaseDate": "2014-02-12",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Rising Son",
+            "Afro Blues",
+            "Piri Piri",
+            "Mala",
+            "Everybody Loves the Sunshine",
+            "Green and Gold",
+            "Sometime, Somewhere, Somehow",
+            "Call",
+            "Unchain",
+            "Promise in Love"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Rising Sun (album)",
+          "resolvedTitle": "Rising Sun",
+          "shortDescription": "Topics referred to by the same term",
+          "extract": "Rising sun may refer to sunrise.  \nRising Sun or The Rising Sun may also refer to:\n\n\n== Books ==\nRising Sun (Crichton novel), a 1992 Michael Crichton novel\nThe Rising Sun, Pulitzer Prize winning account by John Toland\nRising Sun (Conroy novel), a 2012 alternate history war novel by Robert Conroy\nRising Sun (manga), a 2012 manga series by Satoshi Fujiwara\n\n\n== Film and television ==\n\n\n=== Film titles ===\nRising Sun (1993 film), a film based on the Michael Crichton novel\nRising Sun (1980 film), a Hong Kong documentary film\n\n\n=== Others ===\nRising Sun Films, an Indian production company based in Mumbai\nRising Sun International Film Festival, an annual film festival held in Kitakyushu, Japan\nRising Sun Pictures, an Australian visual effects company\nToonami Rising Sun, a Saturday version of Toonami, a former action cartoon block on Cartoon Network (2000-2001)\n\n\n== Games ==\nRising Sun (board game), a miniature wargame\nRising Sun (video game), a 2000 World War II computer wargame by TalonSoft\nMedal of Honor: Rising Sun, a 2003 World War II video game by EA Games\n\n\n== Music ==\nRising Sun Rock Festival, an annual festival in Otaru, Japan\n\n\n=== Albums ===\nRising Sun (Aly & Fila album) (2010)\nRising Sun (Augustus Pablo album) (1986)\nRising Sun (Stray from the Path album) (2011)\nRising Sun (TVXQ album) (2005)\n\n\n=== Songs ===\n\"Rising Sun\", charting single for Medicine Head Number 11 – 1973\n\"Rising Sun\" (Fats Domino song)\n\"Rising Sun\", a song from the album Brainwashed by George Harrison\n\"Rising Sun\", a song from the album East by Cold Chisel\n\n\n== Places ==\n\n\n=== United States ===\nRising Sun-Lebanon, Delaware\nRising Sun, Pope County, Illinois, an unincorporated community\nRising Sun, White County, Illinois, an unincorporated community\nRising Sun, Indiana, a city\nRising Sun, Maryland, a town\nRising Sun, Mississippi, an unincorporated community\nRising Sun (Montana), a wayside area\nRising Sun, Wisconsin, an unincorporated community\nRising Sun Auto Camp, Glacier National Park, Montana, on the National Register of Historic Places\n\n\n=== United Kingdom ===\nRising Sun, Cornwall, a hamlet\n\n\n== Pubs ==\n\n\n=== Australia ===\nThe Rising Sun, historic pub in Kensington, Adelaide, South Australia\nRising Sun Inn, Millfield, a heritage-listed former post office, inn, general store and residence, Millfield, New South Wales\n\n\n=== UK ===\nRising Sun, Carter Lane, London, a Grade II listed public house\nRising Sun, Cloth Fair, London, a historic pub\nRising Sun, Euston, London, a Grade II listed public house\nRising Sun, Fitzrovia, London, a Grade II listed public house\nRising Sun, Mill Hill, London, a Grade II listed public house\n\n\n=== US ===\nRising Sun Inn, Anne Arundel County, Maryland\nRising Sun Tavern: Various taverns so named (which see)\n\n\n== Schools ==\nRising Sun High School (Maryland), North East, Maryland\nRising Sun High School (Indiana), Rising Sun, Indiana\n\n\n== Other uses ==\nRising Sun badge, Australian Army badge\nRising Sun (character), a comic book character and Japanese superhero from DC Comics\nRising Sun (sculpture), a work by Adolph Alexander Weinman for the 1915 international exposition of San Francisco\nRising Sun (yacht), owned by David Geffen\nOperation Rising Sun, a 1970s Cold War military intelligence program run by the Pakistani Directorate of Inter-Services Intelligence\nOrder of the Rising Sun, a Japanese honor\nCagayan Rising Suns, a Philippines Basketball Association Developmental League team\n\n\n== See also ==\nCamp Rising Sun (New York), an international summer scholarship programme\nCamp Rising Sun (Connecticut), a camp for students with cancer\nThe House of the Rising Sun (disambiguation)\nLand of the Rising Sun (disambiguation), primarily referring to Japan\nRising Son (disambiguation)\nPS Rising Star, a 1818 ship\nRising Sun Flag, a Japanese flag\nRisingsun, Ohio, a village\nSun-rising (hieroglyph), of Ancient Egyptian\nRising sun lemma"
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Rising Sun",
+            "shortDescription": "Topics referred to by the same term",
+            "extractHead": "Rising sun may refer to sunrise.  \nRising Sun or The Rising Sun may also refer to:\n\n\n== Books ==\nRising Sun (Crichton novel), a 1992 Michael Crichton novel\nThe Rising Sun, Pulitzer Prize winning account by John Toland\nRising Sun (Conroy novel), a 2012 alternate history war novel by Robert Conroy\nRising Sun (manga), a 2012 manga series by Satoshi Fujiwara\n\n\n== Film and television ==\n\n\n=== Film titles ===\nRising Sun (1993 film), a film based on the Michael Crichton novel\nRising Sun (1980 film), a "
+          },
+          {
+            "resolvedTitle": "The Rising of the Moon (album)",
+            "shortDescription": "1956 studio album by The Clancy Brothers and Tommy Makem",
+            "extractHead": "The Rising of the Moon: Irish Songs of Rebellion is a collection of traditional Irish folk songs performed by The Clancy Brothers and Tommy Makem. It was the group's first album and was initially recorded in 1956. For the original recording, the only instrument used was Paddy Clancy's harmonica, since Tommy Makem had damaged his hand and Liam Clancy was still learning how to play the guitar. The group had yet to develop its distinctive musical sound, so there was little ensemble singing.\nIn 1959"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "round-about-midnight-at-the-cafe-bohemia-volume-i",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "trumpeter Kenny Dorham leads a contemporary jazz session recorded for Blue Note in 1987",
+    "contradictingQuote": "recorded a live album, 'Round About Midnight at the Cafe Bohemia, in 1956 for Blue Note.",
+    "skepticDecision": "The Kenny Dorham Wikipedia page (correct entity, discusses this very album) states the live album was recorded in 1956 for Blue Note, directly contradicting 'recorded for Blue Note in 1987'. 1987 is only the CD-reissue year.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "trumpeter Kenny Dorham leads a contemporary jazz session recorded for Blue Note in 1987",
+        "problem": "Wrong recording year and recording context. The album was recorded LIVE at the Cafe Bohemia in 1956, not 'recorded ... in 1987' (1987 is the CD-reissue year). MB releaseGroup secondaryTypes is ['Live']; the Wikipedia artist page states the recording year as 1956.",
+        "evidenceQuote": "recorded a live album, 'Round About Midnight at the Cafe Bohemia, in 1956 for Blue Note.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "MB search (topArtistSimilarity 1.0) confirms title, artist Kenny Dorham, label Blue Note, release year 1987, secondaryTypes ['Live'], and all 5 keyTracks. The catalog year 1987 is fine as a RELEASE year, but the albumDNA's claim that it was 'recorded ... in 1987' contradicts the (correct-entity) Wikipedia Kenny Dorham page, which dates the recording to 1956. Also 'contemporary jazz session' understates that this is a 1956 LIVE date (MB 'Live'). Wikipedia stored_url is the Kenny Dorham artist page (correct entity, and it discusses this very album) -> wikiLinkVerdict correct.",
+    "ours": {
+      "title": "'Round About Midnight at the Cafe Bohemia, Volume I",
+      "artist": "Kenny Dorham",
+      "year": 1987,
+      "label": "Blue Note",
+      "albumDNA": "On 'Round About Midnight at the Cafe Bohemia, Volume I, trumpeter Kenny Dorham leads a contemporary jazz session recorded for Blue Note in 1987. The set features \"Monaco\", \"'Round About Midnight\", and \"Mexico City\" among its selections. For this reason, writer Gary Giddins said that Dorham's name has become \"virtually synonymous with 'underrated'.\"",
+      "keyTracks": [
+        "Monaco",
+        "'Round About Midnight",
+        "Mexico City",
+        "A Night in Tunisia",
+        "Autumn in New York"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "3154072b-bc74-4354-8a75-ad8751b6a9d8",
+          "title": "'Round About Midnight at the Cafe Bohemia, Volume I",
+          "date": "1987",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Kenny Dorham"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": "CDP 7 46541 2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0c3e5b7d-3399-3369-9786-f98b177cf279",
+            "title": "'Round About Midnight at the Cafe Bohemia, Volume I",
+            "firstReleaseDate": "1987",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Live"
+            ]
+          },
+          "tracks": [
+            "Monaco",
+            "'Round About Midnight",
+            "Mexico City",
+            "A Night in Tunisia",
+            "Autumn in New York",
+            "Hill's Edge",
+            "K.D.'s Blues",
+            "Who Cares? (alternate take)",
+            "Mexico City (alternate take)"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Kenny_Dorham",
+        "page": {
+          "requestedTitle": "Kenny Dorham",
+          "resolvedTitle": "Kenny Dorham",
+          "shortDescription": "American jazz trumpeter (1924–1972)",
+          "extract": "McKinley Howard \"Kenny\" Dorham (August 30, 1924 – December 5, 1972) was an American jazz trumpeter, composer, and occasional singer. Dorham's talent is frequently lauded by critics and other musicians, but he never received the kind of attention or public recognition from the jazz establishment that many of his peers did. For this reason, writer Gary Giddins said that Dorham's name has become \"virtually synonymous with 'underrated'.\"\nDorham also composed the bossa nova jazz standard \"Blue Bossa\", which was first recorded by his associate Joe Henderson.\n\n\n== Biography ==\nDorham was born in Fairfield, Texas. He began learning piano as a child. Attending L.C. Anderson High School in Austin, Texas, he learned saxophone and trumpet. He studied chemistry and physics at Wiley College before joining the United States Army. He moved to Los Angeles to pursue music after his discharge.\nDuring his final years, Dorham suffered from kidney disease, from which he died on December 5, 1972, aged 48.\n\n\n== Career ==\nDorham was one of the most active bebop trumpeters. Early in his career, he played in the big bands of Lionel Hampton, Billy Eckstine, Dizzy Gillespie, and Mercer Ellington, and in Charlie Parker's quintet. He joined Parker's band in December 1948. He was a charter member of the original cooperative the Jazz Messengers. He also recorded as a sideman with Thelonious Monk and Sonny Rollins, and he replaced Clifford Brown in the Max Roach Quintet after Brown's death in 1956. In addition to sideman work, Dorham led his own groups, including the Jazz Prophets (formed shortly after Art Blakey took over the Jazz Messengers name). The Jazz Prophets, featuring a young Bobby Timmons on piano, bassist Sam Jones, and tenorman J. R. Monterose, with guest Kenny Burrell on guitar, recorded a live album, 'Round About Midnight at the Cafe Bohemia, in 1956 for Blue Note.\nDorham shared a stage with Miles Davis in 1956. According to Davis's biography, after the performance, Jackie McLean \"looked me straight in the eye and said, 'Miles, tonight Kenny is playing so beautiful, you sound like an imitation of yourself.'\"\n\nIn 1963, Dorham added the 26-year-old tenor saxophonist Joe Henderson to his group, which later recorded the album Una Mas. The friendship between the two musicians led to a number of other albums, such as Henderson's Page One, Our Thing, and In 'n Out. Dorham recorded frequently throughout the 1960s for Blue Note and Prestige Records, as leader and as sideman for Henderson, Jackie McLean, Cedar Walton, Andrew Hill, Milt Jackson, and others.\n\nDorham's later quartet consisted of some well-known jazz musicians: Tommy Flanagan (piano), Paul Chambers (double bass), and Art Taylor (drums). Their recording debut was Quiet Kenny for Prestige's New Jazz label, an album which featured mostly ballads. An earlier quartet featuring Dorham as co-leader with alto saxophone player Ernie Henry had released an album together under the name \"Kenny Dorham/Ernie Henry Quartet.\" They produced the album 2 Horns / 2 Rhythm for Riverside Records in 1957, with double bassist Eddie Mathias and drummer G.T. Hogan. In 1990, the album was re-released on CD under the name \"Kenny Dorham Quartet featuring Ernie Henry\".\n\n\n=== Other work ===\nFrom 1958-59, Dorham taught at the Lenox School of Jazz. He composed music for the scores for Les Liaisons Dangereuses and Un Témoin dans la Ville. Dorham wrote music criticism for Downbeat in the mid-1960s and early 1970s. \n\n\n== Legacy ==\nRon Wynn wrote of Dorham, \"A legendary jazz trumpeter, [he] had a deeply moving, pure tone on trumpet; his sound was clear, sharp, and piercing, especially during ballads. He could spin out phrases and lines, but when he slowly and sweetly played the melody, it was an evocative event.\"\nIn 2019, Dorham was honored in Austin, Texas, where he attended L.C. Anderson High School, with a public mural created by artist Jonathan “Chaka” Mahone as part of the City of Austin's TEMPO 2D public art program. Located in East Austin, the mural depicts Dorham with a large sunflower and was described by the project as celebrating the history of Austin and the neighborhood's role as \"a beacon for culture\".\nAll five daughters of Dorham attended a tribute concert at the University of Georgia in 2023. A Kenny Dorham Centennial Celebration took place at Jazz at Lincoln Center in 2024. Performers included Bruce Harris, Joe Magnarelli, Jeremy Pelt, Jimmy Owens, Tim Hagans, David Wong, Noriko Ueda, Kenny Washington,"
+        }
+      }
+    }
+  },
+  {
+    "id": "savoy-sessions-charlie-parker",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 2016, Savoy Sessions showcases Charlie Parker at the height of their creative powers",
+    "contradictingQuote": "\"firstReleaseDate\": \"2004\"",
+    "skepticDecision": "The matched compilation first appeared in 2004, so a 2016 recording claim is contradicted; nothing in the evidence supports a 2016 date.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 2016, Savoy Sessions",
+        "problem": "this is a compilation of Charlie Parker's 1940s Savoy recordings; the matched compilation first released 2004, and ours-year 2016 matches neither the recordings nor the compilation",
+        "evidenceQuote": "title: Complete Savoy Sessions; releaseGroup.firstReleaseDate: 2004; secondaryTypes: Compilation",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "MB search (similarity 1.0) resolves to 'Complete Savoy Sessions' (Charlie Parker, Definitive Records, 2004; secondaryType Compilation). The 6 keyTracks all match the MB tracklist under take-suffix tolerance (alternate take 1/2/master = take 1/2/3). The underlying Savoy material is 1940s; 'Recorded in 2016' is anachronistic and also mismatches the compilation's 2004 first-release date. ours title 'Savoy Sessions' vs MB 'Complete Savoy Sessions' is a near-variant of the same Savoy series.",
+    "ours": {
+      "title": "Savoy Sessions",
+      "artist": "Charlie Parker",
+      "year": 2016,
+      "label": "Definitive Records",
+      "albumDNA": "Recorded in 2016, Savoy Sessions showcases Charlie Parker at the height of their creative powers, offering one of the finest expressions of Bebop. Savoy Sessions remains a landmark of Bebop, cementing Charlie Parker's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Tiny’s Tempo (alternate take 1)",
+        "Tiny’s Tempo (alternate take 2)",
+        "Tiny’s Tempo (master take)",
+        "I’ll Always Love You Just the Same (alternate take)",
+        "I’ll Always Love You Just the Same (master take)",
+        "Romance Without Finance (alternate take 1)"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "024604ff-91dc-43a1-802f-613b54508be5",
+          "title": "Complete Savoy Sessions",
+          "date": "2004",
+          "country": "ES",
+          "status": "Official",
+          "artists": [
+            "Charlie Parker"
+          ],
+          "labels": [
+            {
+              "name": "Definitive Records",
+              "catalogNumber": "DRCD 11148"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "da1205b9-1d3a-33de-a973-03e14e625af7",
+            "title": "Complete Savoy Sessions",
+            "firstReleaseDate": "2004",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Tiny's Tempo (take 1)",
+            "Tiny's Tempo (take 2)",
+            "Tiny's Tempo (take 3)",
+            "I'll Always Love You Just the Same (take 1)",
+            "I'll Always Love You Just the Same (take 2)",
+            "Romance Without Finance (take 1)",
+            "Romance Without Finance (take 2)",
+            "Romance Without Finance (take 3)",
+            "Romance Without Finance (take 4)",
+            "Romance Without Finance (take 5)",
+            "Red Cross (take 1)",
+            "Red Cross (take 2)",
+            "Warming Up a Riff",
+            "Billie's Bounce (take 1)",
+            "Billie's Bounce (take 2)",
+            "Billie's Bounce (take 3)",
+            "Billie's Bounce (take 4)",
+            "Billie's Bounce (take 5)",
+            "Now's the Time (take 1)",
+            "Now's the Time (take 2)",
+            "Now's the Time (take 3)",
+            "Now's the Time (take 4)",
+            "Thriving on a Riff (take 1)",
+            "Thriving on a Riff (take 2)",
+            "Thriving on a Riff (take 3)",
+            "Meandering",
+            "Koko",
+            "Koko",
+            "Donna Lee (take 1)",
+            "Donna Lee (take 2)",
+            "Donna Lee (take 3)",
+            "Donna Lee (take 4)",
+            "Donna Lee (take 5)",
+            "Chasin' the Bird (take 1)",
+            "Chasin' the Bird (take 2)",
+            "Chasin' the Bird (take 3)",
+            "Chasin' the Bird (take 4)",
+            "Cheryl (take 1)",
+            "Cheryl (take 2)",
+            "Buzzy (take 1)"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  }
+]

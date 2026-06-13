@@ -1,0 +1,475 @@
+[
+  {
+    "id": "undercurrent-kenny-drew",
+    "verdict": "clean",
+    "confidence": 0.95,
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB (search, sim 1.0) and Wikipedia ('Undercurrent (Kenny Drew album)', '1961 studio album by Kenny Drew') both confirm the entity; all 6 keyTracks match the MB tracklist exactly. ours.year is null so no recording-year claim; albumDNA is generic editorial (genre 'Bebop' is editorial). ours.label 'Various' is a placeholder, not a claim (MB: Blue Note BLP 4059)."
+  },
+  {
+    "id": "detroitnew-york-junction-thad-jones",
+    "verdict": "factual_error",
+    "confidence": 0.9,
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [
+      {
+        "field": "year",
+        "ours": "1999",
+        "evidence": "1956",
+        "evidenceQuote": "\"date\": \"1956\"  /  releaseGroup firstReleaseDate \"1956\"",
+        "source": "mb"
+      }
+    ],
+    "wrongClaims": [
+      {
+        "ourClaim": "Recorded in 1999, Detroit/New York Junction showcases Thad Jones at the height of their creative powers",
+        "problem": "Year is wrong: MB release date and releaseGroup first-release date are both 1956, not 1999; the album cannot have been recorded in 1999.",
+        "evidenceQuote": "\"date\": \"1956\" ... \"firstReleaseDate\": \"1956\"",
+        "source": "mb"
+      }
+    ],
+    "notes": "Entity confirmed (MB search sim 1.0, Blue Note BLP 1513, exact tracklist match; MB title 'Detroit-New York Junction' = ours with slash vs hyphen). Only error is the 1999 year/recording claim; no 1999 reissue appears in evidence. No Wikipedia."
+  },
+  {
+    "id": "jazz-giant-benny-carter",
+    "verdict": "factual_error",
+    "confidence": 0.92,
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [
+      {
+        "ourClaim": "Recorded in 1987, Jazz Giant showcases Benny Carter at the height of their creative powers",
+        "problem": "Recording year is wrong: the album was recorded in 1957-58. 1987 is the Original Jazz Classics CD reissue date (MB release date 1987, cat OJCCD-167-2; releaseGroup first release 1958).",
+        "evidenceQuote": "Jazz Giant is an album by saxophonist Benny Carter, recorded in 1957 and 1958 and released by Contemporary Records.",
+        "source": "wiki"
+      }
+    ],
+    "notes": "Entity confirmed by Wikipedia ('Jazz Giant (Benny Carter album)') and MB (embedded_mbid). ours.year 1987 is itself a valid reissue year (matches MB release date 1987), so the year FIELD is defensible; the albumDNA verb 'Recorded in 1987' is the error -> a repair could say 'Released in 1958 / reissued 1987'. All 6 keyTracks match (MB has one extra track 'Blues My Naughty Sweety Gives to Me'). Wikipedia gives genre as 'beyond swing or bop'; ours 'Swing' is editorial."
+  },
+  {
+    "id": "clifford-brown-memorial-album-clifford-brown",
+    "verdict": "factual_error",
+    "confidence": 0.85,
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [
+      {
+        "ourClaim": "Recorded in 2001, Clifford Brown Memorial Album showcases Clifford Brown at the height of their creative powers",
+        "problem": "Recording year wrong: the releaseGroup first release is 1956 (a Compilation), so the album cannot have been recorded in 2001. 2001 is the Blue Note CD reissue date (MB release date 2001, cat 7243 5 32141 2 8).",
+        "evidenceQuote": "\"title\": \"Memorial Album\", \"firstReleaseDate\": \"1956\", ... \"secondaryTypes\": [\"Compilation\"]",
+        "source": "mb"
+      }
+    ],
+    "notes": "Entity confirmed (MB embedded_mbid, exact artist, first 6 keyTracks match this 18-track compilation). It is a compilation of mid-1950s recordings; the original sessions predate 1956 but the pack evidence only cites the 1956 first-release, which already contradicts the 2001 'recorded in' claim. No Wikipedia."
+  },
+  {
+    "id": "bird-feathers-phil-woods",
+    "verdict": "clean",
+    "confidence": 0.85,
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB (embedded_mbid) confirms entity: title 'Bird Feathers', Prestige PRLP 8204, all 6 keyTracks match exactly, releaseGroup first release 1958 = ours.year 1958. MB credits five artists (Phil Woods, Gene Quill, Jackie McLean, John Jenkins, Hal McKusick) — a Prestige multi-leader date; ours naming only Phil Woods is acceptable editorial. The opensearch Wikipedia hit is the unrelated 'Birds of a Feather' disambiguation page (wrong entity) — discarded for fact-checking; no stored URL so no wiki-link issue. Genre 'Bebop' is editorial."
+  },
+  {
+    "id": "a-smooth-one-woody-herman",
+    "verdict": "no_evidence",
+    "confidence": 0.9,
+    "entityMatch": {
+      "musicbrainz": "n/a",
+      "wikipedia": "n/a"
+    },
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "n/a",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "No MB release (search returned no candidates) and no Wikipedia page survived. Nothing to verify. ours.year null, keyTracks null. albumDNA is generic editorial template."
+  },
+  {
+    "id": "road-band-woody-herman",
+    "verdict": "unverifiable",
+    "confidence": 0.7,
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB (search sim 1.0) confirms title 'Road Band!' / Woody Herman and first 6 keyTracks match. BUT the matched MB release is a 2005 budget issue on the 'Documents' label (cat 222972-203, DE) and MB does NOT flag it Compilation, so the only citable dates (release 2005, releaseGroup first 2005) do not contradict 'Recorded in 2005'. The recording-year claim is therefore unverifiable against evidence, not provably wrong. Concern (uncitable): the original 'Road Band!' is a 1950s Woody Herman album and this is plainly a later reissue, so 'Recorded in 2005' is very likely a release/reissue date — a repair-writer should verify the true recording date externally. The opensearch Wikipedia hit is 'Road to Bali (album)' (Bing Crosby/Bob Hope/Peggy Lee) — wrong entity, discarded; no stored URL."
+  },
+  {
+    "id": "latin-jazz-quintet-latin-jazz-quintet",
+    "verdict": "factual_error",
+    "confidence": 0.85,
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [
+      {
+        "ourClaim": "Recorded in 2004, Latin Jazz Quintet showcases Latin Jazz Quintet at the height of their creative powers",
+        "problem": "Recording year wrong: releaseGroup first release is 1961, so the album cannot have been recorded in 2004. 2004-11-16 is a reissue date (MB release date).",
+        "evidenceQuote": "\"firstReleaseDate\": \"1961\"",
+        "source": "mb"
+      }
+    ],
+    "notes": "Entity confirmed (MB embedded_mbid; MB artist 'The Latin Jazz Quintet' = ours 'Latin Jazz Quintet'; first 6 keyTracks match this 10-track album). Genre 'Cool Jazz' is editorial. No label in MB; ours 'Various' is a placeholder."
+  },
+  {
+    "id": "coltrane-jazz-john-coltrane",
+    "verdict": "factual_error",
+    "confidence": 0.6,
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [
+      {
+        "ourClaim": "Recorded in 1961, Coltrane Jazz showcases John Coltrane at the height of their creative powers",
+        "problem": "Recording year wrong: Wikipedia states the album was recorded in two sessions in November and December 1959 (with one 1960 track) and released in early 1961. 1961 is the release year, not the recording year.",
+        "evidenceQuote": "It was released in early 1961 on Atlantic Records. Most of the album features Coltrane playing with his former Miles Davis bandmates, pianist Wynton Kelly, bassist Paul Chambers and drummer Jimmy Cobb during two sessions in November and December, 1959.",
+        "source": "wiki"
+      }
+    ],
+    "notes": "Entity confirmed by both MB (embedded_mbid, Atlantic SD 1354) and Wikipedia ('Coltrane Jazz', 1961 studio album by John Coltrane); all 6 keyTracks match. ours.year 1961 is correct as the RELEASE year (Wikipedia agrees), so only the albumDNA verb 'Recorded in 1961' is the error — repair could change to 'Released in 1961'. Borderline (release-vs-recording wording); flagged because Wikipedia gives an explicit contradicting recording date. Genre 'Hard Bop' is editorial."
+  },
+  {
+    "id": "what-a-wonderful-world-louis-armstrong",
+    "verdict": "unverifiable",
+    "confidence": 0.7,
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB (embedded_mbid) confirms entity: title 'What a Wonderful World' / Louis Armstrong, Platinum Music PLAT 304, secondaryType Compilation, all 6 keyTracks match. The 'Recorded in 1988' claim cannot be verified: MB gives 1988 only as the COMPILATION release/first date, not a recording date, so there is no citable recording date to confirm or contradict. Concern (uncitable, do not treat as evidence): this is a compilation of much older Armstrong recordings, so 'Recorded in 1988' is almost certainly a compilation-release date — a repair should reframe the year. The opensearch Wikipedia hit is the 'Wonderful World' disambiguation page (lists the real Armstrong album among others) — not usable as content; no stored URL. Genre 'Early Jazz' is editorial."
+  },
+  {
+    "id": "the-essential-bessie-smith-bessie-smith",
+    "verdict": "unverifiable",
+    "confidence": 0.72,
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB (embedded_mbid) confirms entity: 'The Essential Bessie Smith', Legacy C2K 64922, secondaryType Compilation, first 6 keyTracks match this 36-track compilation. 'Recorded in 1997' is unverifiable: MB's 1997-09-23 is the compilation release date, not a recording date, and no recording date is in evidence to contradict it. Concern (uncitable): Bessie Smith's recordings are from the 1920s-30s, so 1997 is a compilation date, not a recording date — repair should reframe. No Wikipedia. Genre 'Early Jazz' editorial."
+  },
+  {
+    "id": "petite-fleur-sidney-bechet",
+    "verdict": "unverifiable",
+    "confidence": 0.72,
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB (embedded_mbid) confirms entity: 'Petite Fleur' / Sidney Bechet, secondaryType Compilation, first 6 keyTracks match this 26-track compilation. 'Recorded in 2011' is unverifiable: MB gives 2011 only as the compilation first-release date; no recording date in evidence. Concern (uncitable): Bechet's recordings predate his 1959 death, so 2011 is a compilation/reissue date — repair should reframe. No label in MB; ours 'Various' is a placeholder. No Wikipedia. Genre 'Early Jazz' editorial."
+  },
+  {
+    "id": "the-very-best-of-fats-waller-fats-waller",
+    "verdict": "clean",
+    "confidence": 0.85,
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB (search sim 1.0) confirms entity: 'The Very Best of Fats Waller', RCA Victor 09026-63731-2, secondaryType Compilation; all 6 keyTracks match. ours.year is null so there is NO recording-year claim; albumDNA uses the year-less template (genre 'Early Jazz' is editorial). Entity clearly confirmed and every checkable field consistent. Note: it is a 2000 compilation of vintage recordings (no year shown to users)."
+  },
+  {
+    "id": "sugar-foot-stomp-king-oliver",
+    "verdict": "clean",
+    "confidence": 0.85,
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB (search sim 1.0) confirms entity: 'Sugar Foot Stomp' / King Oliver, Frog Records DGF34, secondaryType Compilation; all 6 keyTracks (incl. the matrix-number-suffixed takes) match. ours.year is null so no recording-year claim is made (year-less template; genre 'Early Jazz' editorial). Entity confirmed, all checkable fields consistent. Note: 2000 compilation of 1920s recordings (no year shown to users)."
+  },
+  {
+    "id": "doctor-jazz-jelly-roll-morton",
+    "verdict": "unverifiable",
+    "confidence": 0.72,
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB (search sim 1.0) confirms entity: 'Doctor Jazz' / Jelly Roll Morton, Camden, secondaryType Compilation; first 6 keyTracks match this 23-track compilation. 'Recorded in 1997' is unverifiable: MB gives 1997 only as the compilation first-release date, no recording date in evidence. Concern (uncitable): Morton died 1941, so 1997 is a compilation/reissue date — repair should reframe. No Wikipedia. Genre 'Early Jazz' editorial."
+  },
+  {
+    "id": "at-the-jazz-band-ball-bix-beiderbecke",
+    "verdict": "unverifiable",
+    "confidence": 0.72,
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB (search sim 1.0) confirms entity: 'At the Jazz Band Ball' / Bix Beiderbecke, Living Era CD AJA 5080, secondaryType Compilation; first 6 keyTracks match this 22-track compilation. 'Recorded in 1999' is unverifiable: MB gives 1999 only as the compilation first-release date; no recording date in evidence. Concern (uncitable): Beiderbecke died 1931, so 1999 is the compilation date — repair should reframe. (The compilation also contains 'Singin' the Blues', the genuine 1927 Beiderbecke/Trumbauer recording — unrelated to the known 1956 pop-song collision noted in the brief.) No Wikipedia. Genre 'Early Jazz' editorial."
+  },
+  {
+    "id": "song-of-the-wanderer-kid-ory",
+    "verdict": "no_evidence",
+    "confidence": 0.9,
+    "entityMatch": {
+      "musicbrainz": "n/a",
+      "wikipedia": "n/a"
+    },
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "n/a",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "No MB release (search returned no candidates) and no Wikipedia page. Nothing to verify. ours.year null, keyTracks null. albumDNA is generic editorial template."
+  },
+  {
+    "id": "dance-of-the-octopus-red-norvo",
+    "verdict": "unverifiable",
+    "confidence": 0.72,
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB (search sim 1.0) confirms entity: 'Dance of the Octopus' / Red Norvo, HEP Records HEP CD 1044, secondaryType Compilation; first 6 keyTracks match this 26-track compilation. 'Recorded in 1995' is unverifiable: MB gives 1995 only as the compilation first-release date; no recording date in evidence. Concern (uncitable): the title track is a 1933 Norvo recording, so 1995 is the compilation date — repair should reframe. No Wikipedia. Genre 'Early Jazz' editorial."
+  },
+  {
+    "id": "wild-cat-blues-clarence-williams",
+    "verdict": "no_evidence",
+    "confidence": 0.9,
+    "entityMatch": {
+      "musicbrainz": "n/a",
+      "wikipedia": "n/a"
+    },
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "n/a",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "No MB release (search returned no candidates) and no Wikipedia page. Nothing to verify. ours.year null, keyTracks null. albumDNA is generic editorial template."
+  },
+  {
+    "id": "crazy-blues-mamie-smith",
+    "verdict": "unverifiable",
+    "confidence": 0.72,
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB (embedded_mbid) confirms entity: Mamie Smith, MB title 'Crazy Blues: The Best Of' (ours short-titles it 'Crazy Blues' after the lead track), Legacy CK 65712, secondaryType Compilation; first 6 keyTracks match this 25-track compilation. 'Recorded in 2004' is unverifiable: MB gives 2004-05-04 only as the compilation release date; no recording date in evidence. Concern (uncitable): Mamie Smith's 'Crazy Blues' is a 1920 recording, so 2004 is the compilation date — repair should reframe. No Wikipedia. Genre 'Early Jazz' editorial."
+  },
+  {
+    "id": "far-east-suite-duke-ellington",
+    "verdict": "factual_error",
+    "confidence": 0.85,
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [
+      {
+        "field": "year",
+        "ours": "2016",
+        "evidence": "1967",
+        "evidenceQuote": "\"date\": \"1967\"  /  releaseGroup firstReleaseDate \"1967\"",
+        "source": "mb"
+      }
+    ],
+    "wrongClaims": [
+      {
+        "ourClaim": "Recorded in 2016, Far East Suite showcases Duke Ellington at the height of their creative powers",
+        "problem": "Year wrong: MB release date and releaseGroup first release are both 1967 (RCA Victor LSP-3782); the album cannot have been recorded in 2016.",
+        "evidenceQuote": "\"date\": \"1967\" ... \"firstReleaseDate\": \"1967\"",
+        "source": "mb"
+      }
+    ],
+    "notes": "Entity confirmed (MB search sim 1.0; MB title 'The Far East Suite' = ours minus leading 'The'; all 6 keyTracks match). ours.year 2016 is unsupported by evidence (possibly a later vinyl reissue, but none is in the pack) and contradicts the 1967 release. Genre 'Swing' editorial."
+  },
+  {
+    "id": "ella-fitzgerald-sings-the-cole-porter-song-book-ella-fitzgerald",
+    "verdict": "factual_error",
+    "confidence": 0.85,
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [
+      {
+        "field": "year",
+        "ours": "2014",
+        "evidence": "1956",
+        "evidenceQuote": "\"date\": \"1956\"  /  releaseGroup firstReleaseDate \"1956-09\"",
+        "source": "mb"
+      }
+    ],
+    "wrongClaims": [
+      {
+        "ourClaim": "Recorded in 2014, Ella Fitzgerald Sings the Cole Porter Song Book showcases Ella Fitzgerald at the height of their creative powers",
+        "problem": "Year wrong: MB release date 1956 and releaseGroup first release 1956-09 (Verve MG V-4001-2); the album cannot have been recorded in 2014.",
+        "evidenceQuote": "\"date\": \"1956\" ... \"firstReleaseDate\": \"1956-09\"",
+        "source": "mb"
+      }
+    ],
+    "notes": "Entity confirmed (MB search sim 1.0, exact title/artist, all 6 keyTracks match this 32-track set). ours.year 2014 is unsupported by evidence and contradicts the 1956 release. Genre 'Swing' editorial."
+  },
+  {
+    "id": "the-hawk-flies-high-coleman-hawkins",
+    "verdict": "factual_error",
+    "confidence": 0.8,
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [
+      {
+        "ourClaim": "Recorded in 2006, The Hawk Flies High showcases Coleman Hawkins at the height of their creative powers",
+        "problem": "Recording year wrong: releaseGroup first release is 1957, so the album cannot have been recorded in 2006. 2006 is the Mobile Fidelity Sound Lab SACD reissue (MB release date 2006, cat UDSACD 2030).",
+        "evidenceQuote": "\"firstReleaseDate\": \"1957\"",
+        "source": "mb"
+      }
+    ],
+    "notes": "Entity confirmed (MB embedded_mbid; all 6 keyTracks match — MB lists the 6 tracks twice, a hybrid-SACD layer duplication). ours.year 2006 is defensible as a reissue year (matches MB release date 2006); the albumDNA verb 'Recorded in 2006' is the error. Genre 'Swing' editorial."
+  },
+  {
+    "id": "ben-webster-meets-oscar-peterson-ben-webster",
+    "verdict": "factual_error",
+    "confidence": 0.8,
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [
+      {
+        "ourClaim": "Recorded in 2011, Ben Webster Meets Oscar Peterson showcases Ben Webster at the height of their creative powers",
+        "problem": "Recording year wrong: releaseGroup first release is 1959, so the album cannot have been recorded in 2011. 2011 is the Analogue Productions reissue (MB release date 2011, cat CVRJ 6114 SA).",
+        "evidenceQuote": "\"firstReleaseDate\": \"1959\"",
+        "source": "mb"
+      }
+    ],
+    "notes": "Entity confirmed (MB embedded_mbid; first 6 keyTracks match this 7-track album). ours.year 2011 is defensible as a reissue year (matches MB release date 2011); the albumDNA verb 'Recorded in 2011' is the error. Genre 'Swing' editorial."
+  },
+  {
+    "id": "swing-de-paris-django-reinhardt",
+    "verdict": "factual_error",
+    "confidence": 0.75,
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "wikiLinkVerdict": "none_stored",
+    "keyTracksVerdict": "mismatch",
+    "keyTracksUnmatched": [
+      "I'm Confessin'",
+      "Oh Lady Be Good",
+      "Blue Drag"
+    ],
+    "fieldIssues": [],
+    "wrongClaims": [
+      {
+        "ourClaim": "keyTracks: \"I'm Confessin'\", \"Oh Lady Be Good\", \"Blue Drag\"",
+        "problem": "Three of the six listed keyTracks are not on the matched MB release: 'I'm Confessin'', 'Oh Lady Be Good', and 'Blue Drag' do not appear in this 40-track 'Swing de Paris' compilation (which does contain Dinah, Tiger Rag, and I Saw Stars).",
+        "evidenceQuote": "MB tracklist (40 tracks): Dinah [Akst] | Tiger Rag [La Rocca] | I Saw Stars [...] | ... | Honeysuckle Rose [Waller-Razaf] | ... (no 'I'm Confessin'', no 'Lady Be Good', no 'Blue Drag')",
+        "source": "mb"
+      }
+    ],
+    "notes": "Right entity (MB search sim 1.0; exact title 'Swing de Paris' / Django Reinhardt; 1995 Charly Records compilation). Three keyTracks match, three do not — our keyTracks were evidently drawn from a different/smaller Django 'Swing de Paris' issue than the 40-track compilation MB matched, so this is a tracklist mismatch, not an entity mismatch. ours.year null (no recording-year claim). Genre 'Swing' editorial. The three unmatched titles are plausibly genuine Django recordings on other compilations, but they are not on THIS release's tracklist."
+  }
+]

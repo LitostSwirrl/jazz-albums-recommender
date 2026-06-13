@@ -1,0 +1,318 @@
+[
+ {
+  "id": "latin-kick",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MBID is authoritative and matches fully: Cal Tjader, Fantasy 3250, 1958; all 5 keyTracks on MB tracklist. The two prose track names also check out. wikiLinkVerdict: stored URL is the ARTIST page (Cal Tjader), not an album page — page is verified to be about the album's own artist, so this is likely an intentional fallback rather than a disambiguation collision; human should decide if acceptable. Prose quality: the final sentence ('was an American Latin Jazz musician, often described as the most successful non-Latino Latin musician.') is a subject-less fragment pasted verbatim from the artist's Wikipedia lede — factually correct per that page, but broken prose that needs a rewrite. 'Hard bop period' framing is era boilerplate / editorial, not flagged."
+ },
+ {
+  "id": "little-girl-blue",
+  "verdict": "factual_error",
+  "confidence": 0.5,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "1958", "evidence": "February 1959 per Wikipedia (MusicBrainz says 1958-06-24)", "evidenceQuote": "It was released by Bethlehem Records in February 1959.", "source": "wiki"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "It was released by Bethlehem Records in February 1959.", "problem": "Contradicts the embedded MusicBrainz release date (authoritative per evidence rules) and is internally inconsistent with our own year field (1958).", "evidenceQuote": "date: 1958-06-24; releaseGroup.firstReleaseDate: 1958-06-24", "source": "mb"}
+  ],
+  "notes": "Right entity throughout (artist, label, tracklist all match both sources; all 5 keyTracks on MB tracklist). The problem is the release date: our year field says 1958, our prose says February 1959, and the two evidence sources contradict each other (MB embedded: 1958-06-24; Wikipedia: February 1959, shortDescription '1959 debut studio album', with a detailed sourced narrative — announced in Billboard December 1958, released February 1959). At least one of our two stated dates is wrong whichever source is right. Wikipedia's account is detailed and cited while the MB date is a bare field, so the Feb 1959 / year=1959 reading looks more likely correct, but a human must pick the canonical year and make field and prose agree."
+ },
+ {
+  "id": "little-niles",
+  "verdict": "unverifiable",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MBID confirms title, artist Randy Weston, United Artists (UAL-4011), 1958-11; all 5 keyTracks on the MB tracklist, including 'Little Niles' and 'Pam's Waltz' named in the prose. No contradictions. Unverifiable substantive claims (no evidence available): Langston Hughes wrote the liner notes; album inspired by Weston's children Niles and Pamela who appear in the cover photo; all tracks are Weston originals; later reissued as part of a Blue Note compilation of the same title."
+ },
+ {
+  "id": "lou-takes-off",
+  "verdict": "unverifiable",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MBID confirms title, Lou Donaldson, Blue Note BLP 1591, 1958; all 4 keyTracks match the MB tracklist exactly. No contradictions. Unverifiable substantive claims (no evidence available): recorded December 15, 1957; sextet personnel Donald Byrd, Curtis Fuller, Sonny Clark, Jamil Nasser, Art Taylor."
+ },
+ {
+  "id": "milestones",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is the Wikipedia lede (minus the sextet parenthetical) and checks out: September 1958, Columbia, 'first great quintet'. All 5 keyTracks on the MB tracklist. Caveat on label: the embedded MBID resolves to the UK Fontana pressing (TFL 5035, country GB), so MB's label field reads Fontana — this does NOT contradict ours.label='Columbia' because the entity-matched Wikipedia page states 'released in September 1958 by Columbia Records' (original US release). Not flagged; just note the embedded MBID points at a non-US pressing. Minor: prose says 'recorded with his first great quintet' without Wikipedia's clarification that it was augmented to a sextet with Cannonball Adderley — an omission, not a contradiction."
+ },
+ {
+  "id": "minor-move",
+  "verdict": "clean",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is verbatim from the entity-matched Wikipedia page and fully consistent (recorded March 16, 1958; first leader date for Blue Note; unreleased until Japan 1980; 2000 CD; the Cuscuna 'Nutville' quote — note our prose truncates mid-quote, dropping the closing 'Curtis Fuller also confirms...' sentence and the closing quote mark). All 5 keyTracks on MB tracklist. Field caveats for editorial review (not errors under the evidence rules): the embedded MBID is a modern digital 'Expanded Edition' (country XW) on Capitol Records, which is where ours.label='Capitol Records' comes from — historically the album is a Blue Note recording first issued 1980 in Japan as Blue Note GXF 3072 per Wikipedia, so showing 'Capitol Records' is technically evidence-backed but historically misleading. Similarly year=1958 is the recording date (MB uses 1958-03-16 as release-group date) while Wikipedia's shortDescription calls it a '1980 studio album'. An archival-release labeling convention decision is needed; no claim contradicts its evidence source."
+ },
+ {
+  "id": "moanin",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search hit (similarity 0.95) is the original self-titled Blue Note BLP 4003 release whose release group is titled 'Moanin'' (1958) — solid entity match; year and label confirmed; all 4 keyTracks on the MB tracklist; prose mentions of 'Along Came Betty' and 'Blues March' also on tracklist. The opensearch Wikipedia page is 'Moaning (album)', a 2018 Sub Pop rock album — different entity, discarded (no stored URL, so no link penalty). Unverifiable substantive claims (no surviving evidence covers them): recorded October 30, 1958 at Rudy Van Gelder's studio; lineup Lee Morgan, Benny Golson, Bobby Timmons, Jymie Merritt; Golson composing credits; Timmons composing the title track. Remaining prose ('definitive hard bop album', gospel/call-and-response framing) is editorial."
+ },
+ {
+  "id": "somethin-else",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "no", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search resolved to a 2010 Not Now Music (FR) 12-track COMPILATION named 'Somethin' Else' (release-group firstReleaseDate 2010-04-15, secondaryTypes Compilation) — not the 1958 Blue Note album; discarded for fact-checking. All checking done against the entity-matched stored Wikipedia page ('1958 studio album by Cannonball Adderley'), which our prose quotes verbatim and which confirms: recorded March 9, 1958; released on Blue Note in August 1958; his only Blue Note album; Miles Davis on the session; Adderley then a member of Davis's group; recorded shortly after Milestones. Year and label fields consistent. keyTracks: no entity-matched MB tracklist, but the Wikipedia page's prose names all four ('Autumn Leaves', 'Love for Sale', the 'bluesy title track', 'One for Daddy-O') as album/session content — marked ok on that basis. Closing two sentences are editorial."
+ },
+ {
+  "id": "songs-for-distingu-lovers",
+  "verdict": "unverifiable",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MBID confirms title, Billie Holiday, Verve MG V-8257, 1958; all 5 keyTracks on the MB tracklist (including the full 'One for My Baby (and One More for the Road)'). No contradictions. Unverifiable substantive claims (no evidence available): originally issued in both mono and stereo; recorded at Capitol Studios, Los Angeles, January 3-9, 1957; produced by Norman Granz."
+ },
+ {
+  "id": "sonny-rollins-and-the-big-brass",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MBID confirms title, Sonny Rollins, MetroJazz, 1958; all 5 keyTracks on MB tracklist. Stored Wikipedia page is the right album and confirms the prose verbatim: MetroJazz session, later reissued on Verve as 'Sonny Rollins/Brass - Sonny Rollins/Trio'; Rollins on tenor saxophone. The 'hard bop vocabulary of the hard bop period' sentence is clumsy era boilerplate (editorial), not a factual claim — note for prose cleanup only."
+ },
+ {
+  "id": "the-atomic-mr-basie",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MBID (original release titled 'Basie', Roulette R 52003, 1958-03; release group 'The Atomic Mr. Basie') and stored Wikipedia page both match. Prose is the Wikipedia lede verbatim and every claim checks: original title 'Basie', aka E=MC2, 1994 reissue 'The Complete Atomic Basie', 1958, Neal Hefti arrangements, 1001 Albums inclusion with the Will Fulford-Jones quote, number 411 in Larkin's All Time Top 1000 Albums (2000). All 5 keyTracks on MB tracklist."
+ },
+ {
+  "id": "the-oscar-peterson-trio-at-newport",
+  "verdict": "entity_mismatch",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "artist", "ours": "Roy Eldridge", "evidence": "The Oscar Peterson Trio, Roy Eldridge, Sonny Stitt, Jo Jones", "evidenceQuote": "artists: [\"The Oscar Peterson Trio\", \"Roy Eldridge\", \"Sonny Stitt\", \"Jo Jones\"]", "source": "mb"},
+   {"field": "label", "ours": "Columbia", "evidence": "Verve", "evidenceQuote": "labels: [{\"name\": \"Verve\", \"catalogNumber\": \"UMV-2618\"}]", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Oscar Peterson and Roy Eldridge is an album by Oscar Peterson, on which he is accompanied by Roy Eldridge.", "problem": "This sentence is the Wikipedia lede of a DIFFERENT album — the 1975 duo studio album 'Oscar Peterson and Roy Eldridge' — not the 1958 live album 'The Oscar Peterson Trio at Newport' that this item is titled after.", "evidenceQuote": "shortDescription: \"1975 studio album by Oscar Peterson & Roy Eldridge\"", "source": "wiki"}
+  ],
+  "notes": "Classic instance of the disambiguation disease, in mixed form. The embedded MBID matches the titled entity (The Oscar Peterson Trio at Newport, 1958, Verve UMV-2618 reissue catalog; credited to The Oscar Peterson Trio with Roy Eldridge, Sonny Stitt, Jo Jones) and all 5 keyTracks are on that MB tracklist — so title, year, and keyTracks belong to the real 1958 Newport album. But the prose lede and the stored Wikipedia URL belong to the 1975 'Oscar Peterson and Roy Eldridge' duo album, the artist field miscredits the album to 'Roy Eldridge' alone (MB primary credit is The Oscar Peterson Trio), and the label field 'Columbia' contradicts MB's Verve. Repair needs: rewrite prose for the 1958 Newport album, fix wikipediaUrl, set artist to The Oscar Peterson Trio (or Trio + guests), set label to Verve. The 'hard bop sensibility / cool jazz era' tail is editorial boilerplate."
+ },
+ {
+  "id": "abbey-is-blue",
+  "verdict": "clean",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 1.0) confirms the album: Abbey Lincoln, Riverside RLP 1153, 1959; all 4 keyTracks on MB tracklist (Afro-Blue hyphen variant). No checkable claim contradicts evidence: the albumDNA's factual sentences are the Abbey Lincoln ARTIST Wikipedia lede verbatim (Anna Marie Wooldridge; vocalist/songwriter/actress; civil-rights activist from the 1960s) and verify against that page; the rest is editorial. Two issues for repair, neither a factual error: (1) the albumDNA contains zero album-specific content — it is artist-bio boilerplate pasted into an album slot and should be rewritten about the record itself; (2) wikiLinkVerdict: stored URL is the artist page, not an album page — verified to be the album's own artist, so likely an intentional fallback rather than a collision; human should decide if acceptable."
+ },
+ {
+  "id": "bags-flutes",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MBID confirms Atlantic SD 1294, 1959 release; stored Wikipedia page is the right album and confirms the prose verbatim ('recorded in 1957 and released on the Atlantic label'). All 5 keyTracks on MB tracklist. ours.year=1959 is the release year per authoritative MB; Wikipedia's shortDescription says '1957 studio album' (recording year) — not a contradiction of our field, but flag if the site wants consistent year semantics. MB credits the release jointly to Milt Jackson, Frank Wess, Bobby Jaspar while Wikipedia calls it an album by Milt Jackson — ours.artist='Milt Jackson' is supported by the entity-matched Wikipedia page, not flagged. 'Cool jazz movement/conversation' sentence is editorial era boilerplate."
+ },
+ {
+  "id": "ella-fitzgerald-sings-the-george-and-ira-gershwin-song-book",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MBID confirms Verve MG V-4025, 1959; stored Wikipedia page matches and the prose is its lede verbatim: box set, Nelson Riddle arrangements, produced by Norman Granz (Fitzgerald's manager and Verve founder), fifty-nine songs recorded over eight months in 1959. All 5 keyTracks on MB tracklist ('(I've Got) Beginner's Luck' matches MB's 'Beginner's Luck' under the substring rule and appears in full on the Wikipedia track list)."
+ },
+ {
+  "id": "go-chambers",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MBID confirms Vee-Jay LP 1014, 1959; stored Wikipedia page matches and the prose is its lede verbatim: recorded in Chicago 1959, Vee-Jay; featured musicians Freddie Hubbard, Cannonball Adderley, Wynton Kelly, Philly Joe Jones (Wikipedia personnel confirms, with Jimmy Cobb on some tracks — the lede itself names Philly Joe, so no contradiction); 1997 double-CD reissue; 2000 Mosaic box 'The Complete Vee Jay Paul Chambers/Wynton Kelly Sessions 1959-61'. All 5 keyTracks on MB tracklist."
+ },
+ {
+  "id": "kind-of-blue",
+  "verdict": "factual_error",
+  "confidence": 0.55,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "most tracks were first takes with minimal rehearsal", "problem": "The 'first takes' half is contradicted: Wikipedia debunks the one-pass legend and says only one track ('Flamenco Sketches') yielded a complete take on the first attempt. The 'minimal rehearsal' half IS supported ('Davis... called for almost no rehearsal').", "evidenceQuote": "the persistent legend that the entire album was recorded in one pass is untrue. Only \"Flamenco Sketches\" yielded a complete take on", "source": "wiki"}
+  ],
+  "notes": "Entity solid in both sources; year/label confirmed (Columbia, release group firstReleaseDate 1959-08-17; Wikipedia 'released on August 17, 1959, by Columbia Records'). Verified prose: 30th Street Studio, sessions March 2 and April 22, 1959; sextet Coltrane/Adderley/Evans with Wynton Kelly on 'Freddie Freeloader', Chambers, Cobb; Evans-Russell modal lineage; five million US copies (5x Platinum). The flagged claim's evidence quote is truncated mid-sentence in the pack extract ('...complete take on'), which is why confidence is moderate — the surrounding sentence explicitly debunks the first-take legend. 'Best-selling jazz album of all time' is not directly checkable from the evidence (only 5x Platinum is stated) — uncontradicted, left as a note. keyTracks: the MB search hit is an odd 3-track pressing (catalog GCB 60) listing only 'So What', 'Blue in Green', 'All Blues'; the other two keyTracks ('Freddie Freeloader', 'Flamenco Sketches') are explicitly confirmed as album tracks by the Wikipedia page, so keyTracksVerdict is ok."
+ },
+ {
+  "id": "looking-ahead",
+  "verdict": "factual_error",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "unsure", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Looking Ahead"],
+  "fieldIssues": [
+   {"field": "keyTracks", "ours": "Looking Ahead", "evidence": "No such track on the album; the complete Wikipedia track listing has six tracks and none is titled 'Looking Ahead'", "evidenceQuote": "\"Luyah! The Glorious Step\" - 6:25 \"African Violets\" (Earl Griffith, Taylor) - 5:12 \"Of What\" - 8:18 \"Wallering\" - 5:22 \"Toll\" - 7:38 \"Excursion on a Wobbly Rail\" - 9:04", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Stored Wikipedia page is the right album and the prose is its lede verbatim — all verified: second studio album, recorded for Contemporary in June 1958 (June 9, 1958), released the following year (1959), personnel Buell Neidlinger, Denis Charles, Earl Griffith. Year and label fields consistent. The one error: keyTrack 'Looking Ahead' does not exist on the album per the complete entity-matched Wikipedia track listing — the album title was apparently mistaken for a track title. Other three keyTracks (African Violets, Excursion on a Wobbly Rail, Toll) all confirmed. MB gave no confident release (searchCandidates only, similarity 0.67 — candidate 'Looking Ahead!' by The Cecil Taylor Quartet, 1959, is consistent but weak), hence mb entityMatch 'unsure'; the keyTracks check rests on the Wikipedia tracklist."
+ },
+ {
+  "id": "mingus-ah-um",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 1.0) confirms Columbia CL 1370, 1959; stored Wikipedia page matches. Verified prose: released October 1959 by Columbia ('recorded in May 1959 and released that October'); first album for Columbia; the Latin-declension title explanation (verbatim); Grammy Hall of Fame 2013; ranked 380 on Rolling Stone's 500 Greatest Albums (2020 edition — our prose omits the edition, not a contradiction). All 4 keyTracks on MB tracklist. Prose-corruption note for repair: 'The cover features a painting by S.' is truncated mid-name — Wikipedia reads 'a painting by S. Neil Fujita'. Not factually contradicting (the initial is right), but the sentence is broken and should be completed. Final two sentences are editorial."
+ },
+ {
+  "id": "nina-at-town-hall",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 1.0) confirms Colpix CP 409, 1959, Live; stored Wikipedia page matches and the prose is its lede verbatim: first live album, released December 1959, third album of that year, second for Colpix, based on the September 12, 1959 Town Hall (New York) performance, with three tracks replaced by studio versions cut the following month. All 4 keyTracks on MB tracklist. Closing sentence is editorial."
+ },
+ {
+  "id": "sonny-side-up",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Columbia Records", "evidence": "Verve", "evidenceQuote": "labels: [{\"name\": \"Verve\", \"catalogNumber\": \"MG V-8262\"}]", "source": "mb"},
+   {"field": "artist", "ours": "Sonny Rollins", "evidence": "Dizzy Gillespie, Sonny Stitt, Sonny Rollins", "evidenceQuote": "artists: [\"Dizzy Gillespie\", \"Sonny Stitt\", \"Sonny Rollins\"]", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "Right entity — title, year 1959, and all 4 keyTracks confirmed by the authoritative embedded MBID; stored Wikipedia page matches ('1959 album by Dizzy Gillespie, Sonny Stitt and Sonny Rollins') and the prose is its lede verbatim (recorded December 1957 in NYC; released 1959 on Norman Granz's newly launched Verve label; rhythm section Ray Bryant, Tommy Bryant, Charlie Persip). Two field errors: (1) label 'Columbia Records' contradicts MB (Verve MG V-8262), the Wikipedia page ('released in 1959 on... Verve label'), and our own prose; (2) artist credited solely to 'Sonny Rollins' while both sources credit Dizzy Gillespie (first-listed leader), Sonny Stitt, and Sonny Rollins jointly. Repair: label -> Verve; artist -> Dizzy Gillespie / Sonny Stitt / Sonny Rollins (or at minimum lead with Gillespie)."
+ },
+ {
+  "id": "the-shape-of-jazz-to-come",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 1.0) confirms Ornette Coleman, Atlantic 1317, 1959 (release group 1959-10); all 4 keyTracks on the MB tracklist. No contradictions. Unverifiable substantive claims (no Wikipedia evidence; MB carries no personnel/recording detail): recorded May 1959 at Radio Recorders in Hollywood; quartet personnel Don Cherry (cornet), Charlie Haden (bass), Billy Higgins (drums); pianoless-quartet framing; 'harmolodic' terminology. Influence/legacy sentences are editorial."
+ },
+ {
+  "id": "thelonious-alone-in-san-francisco",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MBID confirms Riverside RLP 12-312, 1959; stored Wikipedia page matches and confirms the factual prose verbatim ('third solo album, recorded in 1959'). All 5 keyTracks on MB tracklist. Editorial caveat for prose review (not a factual claim): describing a solo-piano record as 'a 1959 hard bop setting... of the hard bop era' is era-bucket boilerplate that fits this album poorly — Wikipedia documents an unaccompanied solo session at Fugazi Hall, October 21-22, 1959."
+ },
+ {
+  "id": "time-out",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity solid: MB search (0.91) confirms The Dave Brubeck Quartet, Columbia, 1959, with all 4 keyTracks on the tracklist; stored Wikipedia page matches. Verified: unusual time signatures; 9/8 'Blue Rondo a la Turk'; 5/4 'Take Five' composed by Desmond (the only track not by Brubeck); cool/West Coast character ('a subtle fusion of cool and West Coast influences'); Joe Morello on drums (Take Five 'was supposed to be a Joe Morello drum solo'); first jazz album to sell one million copies. Unverifiable substantive claims, no contradictions: Eugene Wright on bass (not in the extract); album cover by Neil Fujita (not mentioned on this page — the pack's Mingus Ah Um page credits Fujita for THAT cover only, not usable here); recording year 1959 as such (page gives studio and release year, recording date not explicit in extract)."
+ },
+ {
+  "id": "blues-and-roots",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search (similarity 1.0) confirms Charles Mingus, Atlantic 1305, released 1960-04-04; stored Wikipedia page matches and confirms the prose verbatim: recorded 1959 (February 4, 1959 per the page), released on Atlantic in 1960, reissued on CD by both Atlantic and Rhino. All 4 keyTracks on both MB and Wikipedia tracklists. Closing two sentences are editorial."
+ }
+]

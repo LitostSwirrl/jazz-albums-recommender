@@ -1,0 +1,107 @@
+[
+  {
+    "id": "king-olivers-jazz-band-1923-king-oliver",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "King Oliver's Jazz Band 1923",
+      "artist": "King Oliver",
+      "year": null,
+      "label": "Various",
+      "albumDNA": "King Oliver's Jazz Band 1923 stands among King Oliver's most celebrated works, capturing the essential spirit of Early Jazz. King Oliver's Jazz Band 1923 remains a landmark of Early Jazz, cementing King Oliver's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": null,
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "jelly-roll-morton-the-piano-rolls-jelly-roll-morton",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "Jelly Roll Morton: The Piano Rolls",
+      "artist": "Jelly Roll Morton",
+      "year": null,
+      "label": "Various",
+      "albumDNA": "Jelly Roll Morton: The Piano Rolls stands among Jelly Roll Morton's most celebrated works, capturing the essential spirit of Early Jazz. Jelly Roll Morton: The Piano Rolls remains a landmark of Early Jazz, cementing Jelly Roll Morton's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": null,
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "his-eye-is-on-the-sparrow-ethel-waters",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "His Eye Is on the Sparrow",
+      "artist": "Ethel Waters",
+      "year": null,
+      "label": "Various",
+      "albumDNA": "His Eye Is on the Sparrow stands among Ethel Waters's most celebrated works, capturing the essential spirit of Early Jazz. His Eye Is on the Sparrow remains a landmark of Early Jazz, cementing Ethel Waters's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": null,
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "the-blue-note-sessions-sidney-bechet",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "The Blue Note Sessions",
+      "artist": "Sidney Bechet",
+      "year": null,
+      "label": "Various",
+      "albumDNA": "The Blue Note Sessions stands among Sidney Bechet's most celebrated works, capturing the essential spirit of Early Jazz. The Blue Note Sessions remains a landmark of Early Jazz, cementing Sidney Bechet's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": null,
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "tatum-group-masterpieces-vol-1-art-tatum",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "Tatum Group Masterpieces Vol. 1",
+      "artist": "Art Tatum",
+      "year": 2006,
+      "label": "Various",
+      "albumDNA": "Recorded in 2006, Tatum Group Masterpieces Vol. 1 showcases Art Tatum at the height of their creative powers, offering one of the finest expressions of Swing. Tatum Group Masterpieces Vol. 1 remains a landmark of Swing, cementing Art Tatum's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Blues in C",
+        "Undecided",
+        "Under a Blanket of Blue",
+        "Blues in B Flat",
+        "A Foggy Day",
+        "Street of Dreams"
+      ],
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "mary-lou-williams-presents-black-christ-of-the-andes-mary-lou-williams",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "Mary Lou Williams Presents Black Christ of the Andes",
+      "artist": "Mary Lou Williams",
+      "year": null,
+      "label": "Various",
+      "albumDNA": "Mary Lou Williams Presents Black Christ of the Andes stands among Mary Lou Williams's most celebrated works, capturing the essential spirit of Swing. Mary Lou Williams Presents Black Christ of the Andes remains a landmark of Swing, cementing Mary Lou Williams's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": null,
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "the-art-of-the-trio-vol-4-nat-king-cole",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "The Art of the Trio Vol. 4",
+      "artist": "Nat King Cole",
+      "year": null,
+      "label": "Various",
+      "albumDNA": "The Art of the Trio Vol. 4 stands among Nat King Cole's most celebrated works, capturing the essential spirit of Swing. The Art of the Trio Vol. 4 remains a landmark of Swing, cementing Nat King Cole's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": null,
+      "wikipedia": null
+    }
+  }
+]

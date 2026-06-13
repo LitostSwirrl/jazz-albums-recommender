@@ -1,0 +1,409 @@
+[
+ {
+  "id": "street-of-dreams",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search release (Blue Note BST-84253, 1967, Grant Green) matches title/artist/year/label and all four keyTracks. Prose is the Wikipedia lead verbatim (recorded 1964, North Beach street-sign cover, Larry Young/Bobby Hutcherson/Elvin Jones) plus editorial; the wiki personnel section confirms the lineup. Stored wiki page is about this exact album."
+ },
+ {
+  "id": "tauhid",
+  "verdict": "factual_error",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {
+    "ourClaim": "Pharoah Sanders' debut as a leader after his transformative work with John Coltrane",
+    "problem": "Evidence says Tauhid was the SECOND album under Sanders' name (his first on Impulse!), not his debut as a leader; it was also recorded (Nov 15, 1966) while he was still playing with Coltrane, not after that association ended",
+    "evidenceQuote": "It was the second album released under his name, and his first album on the Impulse! label.",
+    "source": "wiki"
+   }
+  ],
+  "notes": "Year/label verified (MB impulse! AS-9138, 1967; wiki 'released in 1967'). keyTracks ok: 'Aum' and 'Venus' fall inside MB's medley track 'Aum / Venus / Capricorn Rising' (wiki tracklist concurs). 'Tauhid (the Islamic concept of divine unity)' is not checkable in pack evidence (plausible, unverified). A wiki-supported repair would be 'his first Impulse! album' or 'second album as a leader'. Wiki also notes recording was four days after the Coltrane Offering: Live at Temple University concert and release came after Coltrane's death."
+ },
+ {
+  "id": "the-far-east-suite",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is the Wikipedia lead verbatim (1967, inspired by the Asia tour, Ellington/Strayhorn compositions). Embedded MBID (authoritative) confirms 1967 and label Victor; note it resolves to the Japanese Victor promo pressing (SHP-5641), so 'Victor' reflects that pressing rather than the canonical US issue, but per pack rules the embedded release is authoritative for label. All five keyTracks on the MB tracklist."
+ },
+ {
+  "id": "the-magic-of-juju",
+  "verdict": "factual_error",
+  "confidence": 0.5,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {
+    "field": "year",
+    "ours": "1967",
+    "evidence": "May 1968",
+    "evidenceQuote": "The Magic of Ju-Ju is an album by Archie Shepp released on Impulse! Records in May 1968.",
+    "source": "wiki"
+   }
+  ],
+  "wrongClaims": [],
+  "notes": "Evidence conflicts on release year: MB (search) release date 1967 / RG firstReleaseDate 1967-01-01 supports ours.year, but wiki says released May 1968 and that the music was recorded April 1967 - an RG first-release of 1967-01-01 would predate the recording session per wiki, so the MB date looks unreliable. Ours is also internally inconsistent: the year field says 1967 while ours' own prose (verbatim wiki) says May 1968; one of the two must be wrong under a release-year reading. If the dataset's year field means recording year, 1967 is wiki-consistent. Repair needs a convention decision plus an external date check. All three keyTracks match MB (apostrophe variants only). Afrocentric-influence sentences are editorial."
+ },
+ {
+  "id": "the-olatunji-concert",
+  "verdict": "factual_error",
+  "confidence": 0.55,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {
+    "field": "year",
+    "ours": "1967",
+    "evidence": "2001 (first release)",
+    "evidenceQuote": "releaseGroup.firstReleaseDate: 2001-09-25",
+    "source": "mb"
+   }
+  ],
+  "wrongClaims": [],
+  "notes": "1967 is the recording date, which the evidence and ours' own prose both confirm ('recorded April 23, 1967, at the Olatunji Center of African Culture'); the album itself first appeared in 2001 (MB RG 2001-09-25; wiki short-description '2001 live album by John Coltrane'; wiki 'released on Compact Disc in 2001'). Only the year field uses the recording year - whether that is an error depends on the dataset's year convention for archival/posthumous releases; flagging for a convention decision, not a prose repair. All other prose claims are wiki-verbatim-confirmed (Ogunde also on Expression; free-form My Favorite Things performed live since 1960; recorded for broadcast on Billy Taylor's WLIB). 'Inspired the punk rock ethos' is editorial. Both keyTracks on MB tracklist (MB adds an 'Introduction' track)."
+ },
+ {
+  "id": "the-real-mccoy",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is the Wikipedia lead verbatim (seventh album, first on Blue Note, recorded April 21, 1967, cab-driver anecdote, Henderson/Carter/Jones personnel, Alfred Lion 'pure jazz session' quote). MB search release confirms 1967, Blue Note BLP 4264, and all four keyTracks. 'Two years after Tyner's departure' is wiki's own wording, so consistent with evidence."
+ },
+ {
+  "id": "afro-harping",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search release (Cadet Records LPS 809, 1968) and wiki (recorded February 1968, Cadet label) confirm all fields; all four keyTracks on the MB tracklist. 'Created an Afrocentric soul jazz sound that predated similar experiments by decades' and 'rediscovered by crate diggers and sampled extensively' are legacy/editorial color, not checkable in pack evidence; left unflagged as editorial."
+ },
+ {
+  "id": "clarinet-concertos-nos-1-and-2",
+  "verdict": "factual_error",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": [
+   "Konzert Für Klarinette Und Orchester Nr. 1 F-moll Op. 73: Allegro",
+   "Konzert Für Klarinette Und Orchester Nr. 1 F-moll Op. 73: Adagio Ma Non Troppo",
+   "Konzert Für Klarinette Und Orchester Nr. 1 F-moll Op. 73: Rondo: Allegretto",
+   "Konzert Für Klarinette Und Orchester Nr. 2 Es-dur, Op. 74: Allegro",
+   "Konzert Für Klarinette Und Orchester Nr. 2 Es-dur, Op. 74: Andante Con Moto",
+   "Konzert Für Klarinette Und Orchester Nr. 2 Es-dur, Op. 74: Alla Polacca"
+  ],
+  "fieldIssues": [
+   {
+    "field": "artist",
+    "ours": "Benny Goodman",
+    "evidence": "Weber; Benny Goodman; Chicago Symphony; Jean Martinon",
+    "evidenceQuote": "artists: [\"Weber\", \"Benny Goodman\", \"Chicago Symphony\", \"Jean Martinon\"]",
+    "source": "mb"
+   }
+  ],
+  "wrongClaims": [
+   {
+    "ourClaim": "stands as a distinguished entry in the swing canon",
+    "problem": "The release is a classical recording - Weber's clarinet concertos performed with the Chicago Symphony under conductor Jean Martinon - not swing or jazz; the prose misdescribes what the album is",
+    "evidenceQuote": "Concerto for Clarinet and Orchestra no. 1 in F minor, op. 73: I. Allegro",
+    "source": "mb"
+   }
+  ],
+  "notes": "Embedded MBID (authoritative) verifies title, year (1968-10), and label (RCA Red Seal LSC-3052). The keyTracks are German-language titles of exactly the same six Weber movements as the MB tracklist (op. 73 / op. 74, identical movement markings: Allegro, Adagio ma non troppo, Rondo/Allegretto, Andante con moto, Alla Polacca) - likely sourced from a German pressing of the same release group; not wrong works, but they do not match the resolved release's English titles, so listed as unmatched. The artist fieldIssue is low severity (cataloging the album under Goodman alone is a site convention, but embedded MB credit includes composer, orchestra, and conductor). Repair: rewrite DNA to describe Goodman's classical concerto recording, not 'swing'."
+ },
+ {
+  "id": "grazin-in-the-grass",
+  "verdict": "entity_mismatch",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {
+    "ourClaim": "Released in the United States as a single in 1968, it followed United States trumpeter Herb Alpert's vocal performance of \"This Guy's in Love with You\" to the top spot on the Hot 100 chart",
+    "problem": "The entire DNA describes the composition/single 'Grazing in the Grass' (chart placings, later compilation appearances), not the album this item represents",
+    "evidenceQuote": "1968 composition by Philemon Hou",
+    "source": "wiki"
+   }
+  ],
+  "notes": "Item is an album ('Hugh Masekela's Grazin'', Uni, 1968) but the prose and the stored Wikipedia link are about the SONG 'Grazing in the Grass' (wiki short-description: '1968 composition by Philemon Hou') - the exact disambiguation disease (content about a single, not an album). MusicBrainz search returned no release and no candidates for this album title, so the title itself is unverified and there is no tracklist evidence for the keyTracks. Background knowledge (not citable evidence): Masekela's 1968 Uni LP containing 'Grazing in the Grass' and 'Bajabula Bonke' was 'The Promise of a Future'; the stored title looks suspect and needs external verification along with fresh album prose."
+ },
+ {
+  "id": "levels-and-degrees-of-light",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search release matches title/artist/year/label (Delmark Records DS-413, 1968) and all three keyTracks ('My Thoughts Are My Future' is a truncation of MB's 'My Thoughts Are My Future - Now and Forever'). No Wikipedia evidence (opensearch returned nothing). Substantive prose claims cannot be checked in this pack: personnel (Anthony Braxton, Leroy Jenkins), 'the AACM's founding father', poetry/vocal-chant content, and the 'Great Black Music - Ancient to the Future' motto. No contradictions found."
+ },
+ {
+  "id": "machine-gun",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose opening is the Wikipedia lead verbatim ('second album... originally released on his BRÖ label in 1968'); MB search release confirms 1968 DE issue with catalog 'BRÖ 2' and all five keyTracks match the MB tracklist exactly. MB artist credit 'Peter Brötzmann Octet' vs ours 'Peter Brötzmann' is a leader-vs-group credit difference also present on the wiki page itself (short-description credits the Octet, prose credits Brötzmann); not an error. Remaining sentences are editorial."
+ },
+ {
+  "id": "mexican-green",
+  "verdict": "unverifiable",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "unsure", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Only evidence is a weak MB search candidate (no confident release): 'Mexican Green', Tubby Hayes Quartet, 1968, score 100 - consistent with ours' title/year but with no label, tracklist, or personnel data; no Wikipedia evidence. Caution flags for human review: ours says 'a quintet featuring vibraphonist Mike Pyne' while the lone MB candidate credits the Tubby Hayes QUARTET; and background knowledge (not citable evidence) says Mike Pyne was the group's pianist, not a vibraphonist - both suggest the personnel sentence is wrong, but the pack evidence cannot demonstrate it. 'Death at 38' and 'label Fontana' are also unverifiable here. KeyTracks have no tracklist evidence."
+ },
+ {
+  "id": "now-he-sings",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": [
+   "Windows"
+  ],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is the Wikipedia lead verbatim (second studio album, December 1968, Solid State, Vitous/Haynes trio, 1988 Blue Note CD reissue with eight bonus tracks); MB search release confirms 1968 Solid State SS 18039. keyTracks: three match the MB original-LP tracklist ('Now He Sings - Now He Sobs' punctuation variant); 'Windows' is NOT on the original LP but IS on the 1988 Blue Note CD reissue tracklist per the wiki page, and ours' prose explicitly cites that reissue - an edition difference, not corruption. Do not treat 'Windows' as a fabricated track."
+ },
+ {
+  "id": "piano-starts-here",
+  "verdict": "clean",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MBID (authoritative) verifies title/artist/year/label (Columbia CS 9655, 1968) and all five keyTracks. The stored Wikipedia URL is the Art Tatum ARTIST page, not an album page - possibly an intentional fallback (the page is about the right artist, and the prose's final sentence about reharmonization/voicing/bitonality is verbatim from it and supported), but it is not about this entity, hence wrong_entity. Caution for repair-writers: Tatum died November 5, 1956 per the wiki page, so this 1968 Columbia LP is necessarily a posthumous archival release of earlier recordings; the 'comes from the big band era... driven by dancing and radio' framing is loose template prose about the music's era, and no pack evidence gives recording dates, so it is not flagged as an evidence-contradicted claim. MB release group shows no Compilation secondary type."
+ },
+ {
+  "id": "selflessness-featuring-my-favorite-things",
+  "verdict": "factual_error",
+  "confidence": 0.5,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": [
+   "I Want To Talk About You"
+  ],
+  "fieldIssues": [
+   {
+    "field": "year",
+    "ours": "1968",
+    "evidence": "1969",
+    "evidenceQuote": "Selflessness Featuring My Favorite Things is a posthumous album by jazz musician John Coltrane, released in 1969.",
+    "source": "wiki"
+   }
+  ],
+  "wrongClaims": [
+   {
+    "ourClaim": "released in 1969",
+    "problem": "The embedded-MBID release group (authoritative for date per pack rules) puts first release at 1968, contradicting the prose; ours simultaneously states year=1968 (field) and 1969 (prose), so one of the two is necessarily wrong",
+    "evidenceQuote": "releaseGroup.firstReleaseDate: 1968",
+    "source": "mb"
+   }
+  ],
+  "notes": "Release-year evidence conflicts: MB embedded RG says 1968, Wikipedia says 1969 ('1969 studio album / Live album'). Ours asserts both values in different places, so the item contains a wrong claim whichever source is right; recommend an external check of the original Impulse AS-9161 LP date before repair. keyTracks: 'My Favorite Things' and 'Selflessness' match MB; 'I Want To Talk About You' does not match MB's track 'I Want to Know About You', BUT the wiki tracklisting confirms 'I Want to Talk About You' (Billy Eckstine) verbatim - the MB 1987 CD track title is the likely data error; do NOT rename ours to match MB. Newport 1963 (Roy Haynes subbing) and 1965 Los Angeles studio details in the prose are wiki-confirmed."
+ },
+ {
+  "id": "speak-like-a-child",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "First sentence is the Wikipedia lead verbatim (sixth album, 1968 Blue Note, Thad Jones's uncredited arrangements, Dodgion alto flute / Phillips bass trombone / Jones flugelhorn front line) - all wiki-confirmed; embedded MBID confirms 1968, Blue Note BST 84279, and all five keyTracks. The closing sentence ('From the free jazz era... positions Herbie Hancock within the hard bop conversation') is generic template era-framing - an awkward editorial fit for this lyrical session (and internally muddled: free jazz era vs hard bop), but not an evidence-contradicted factual claim; a repair-writer may want to rewrite it for quality."
+ },
+ {
+  "id": "the-piano-soul-of-nat-king-cole",
+  "verdict": "entity_mismatch",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {
+    "ourClaim": "Nathaniel Adams Coles, known professionally as Nat King Cole, was an American singer, jazz pianist, and actor.",
+    "problem": "The entire albumDNA is the artist's biography (verbatim Wikipedia lead about the person), with zero content about this album - the item is an album, the prose is about a person",
+    "evidenceQuote": "American singer and jazz pianist (1919-1965)",
+    "source": "wiki"
+   }
+  ],
+  "notes": "Catalog fields are solid: embedded MBID (authoritative) verifies title/artist/year/label (Pickwick/33 SPC-3187, 1968) and all five keyTracks (MB tracks 1-5). The corruption is the prose: it is the Nat King Cole biography lead verbatim - the spec's 'a person when the item is an album' case - and the stored wiki link is likewise the artist page, not an album page. The bio facts are true of Cole but say nothing about the album. Repair: write actual album prose. Note for the writer: Cole died in 1965 (wiki), so this 1968 Pickwick/33 release is posthumous; likely budget-label reissue material (background inference - verify externally; MB RG carries no Compilation secondary type)."
+ },
+ {
+  "id": "time-for-tyner",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is the Wikipedia lead verbatim (ninth album as leader, third on Blue Note, recorded May 1968, Hutcherson/Lewis/Waits personnel) - all wiki-confirmed. Embedded MBID resolves to the 2005 RVG CD whose release group (authoritative) dates first release 1968, matching ours.year; the wiki short-description says '1969 studio album', so the two sources conflict on release year - ours follows the authoritative MB value and is not flagged, but a human may want to double-check the original BST issue date. All five keyTracks on the MB tracklist (curly-apostrophe variants only)."
+ },
+ {
+  "id": "total-eclipse",
+  "verdict": "factual_error",
+  "confidence": 0.5,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {
+    "field": "year",
+    "ours": "1968",
+    "evidence": "1969",
+    "evidenceQuote": "Total Eclipse is an album by jazz vibraphonist Bobby Hutcherson, released on the Blue Note label in 1969.",
+    "source": "wiki"
+   }
+  ],
+  "wrongClaims": [
+   {
+    "ourClaim": "released on the Blue Note label in 1969",
+    "problem": "MB (search, strong) dates this release and its release group 1968, contradicting the prose; ours simultaneously states year=1968 (field) and 1969 (prose), so one of the two is necessarily wrong",
+    "evidenceQuote": "date: 1968; releaseGroup.firstReleaseDate: 1968",
+    "source": "mb"
+   }
+  ],
+  "notes": "MB and Wikipedia conflict on release year (1968 vs 1969; wiki short-description also says '1969 studio album'); ours asserts both values, so the record is internally inconsistent whichever source is right. No recording date appears in pack evidence, so a recorded-vs-released convention cannot reconcile both. Everything else checks out: first recordings with Harold Land and his early-1970s collaboration, four of five tracks Hutcherson originals with Chick Corea's 'Matrix' the exception (wiki), Blue Note BST 84291, and all four keyTracks on the MB tracklist."
+ },
+ {
+  "id": "black-woman",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": [
+   "Blind Willie"
+  ],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is the Wikipedia lead verbatim (debut album, recorded 1969, Vortex label, 2000 Collectables reissue paired with Wayne Henderson's People Get Ready); MB search release confirms Vortex Records 2014, 1969. keyTracks: 'Blind Willie' is a one-letter spelling variant - both the MB tracklist and the wiki tracklisting spell the track 'Blind Willy' (wiki notes it is 'ostensibly a tribute to Blind Willie Johnson', which explains the confusion). Same track; trivial title fix, not corruption, so the verdict stays clean. 'Portrait of Linda in Three Colors' matches as a truncation of 'Portrait of Linda in Three Colors, All Black'. Influence claims (no wave, hardcore punk, metal) are editorial."
+ },
+ {
+  "id": "for-alto",
+  "verdict": "factual_error",
+  "confidence": 0.65,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": [
+   "To Composer Kenneth McKIntyre"
+  ],
+  "fieldIssues": [
+   {
+    "field": "year",
+    "ours": "1969",
+    "evidence": "1971",
+    "evidenceQuote": "date: 1971; releaseGroup.firstReleaseDate: 1971",
+    "source": "mb"
+   }
+  ],
+  "wrongClaims": [],
+  "notes": "MB search release (Delmark Records DS-420/421, double LP) matches title/artist/label but dates the release 1971; nothing in the pack supports 1969 - plausibly the recording year (background knowledge, not citable; no recording date appears in evidence). Wikipedia opensearch resolved to 'For altid', a 2011 Danish electropop album by Medina - a different entity, discarded for fact-checking; ours stores no URL, so wikiLinkVerdict is none_stored. keyTracks: 'To Composer John Cage' and 'To Pianist Cecil Taylor' match; 'To Artist Murray DePillars' matches MB's 'To Artist Murray De Pillars' (spacing variant); 'To Composer Kenneth McKIntyre' matches nothing - the closest MB title is 'To My Friend Kenny McKenny', possibly the same piece under a variant dedication title (needs external check; also note the stray capital I typo). Prose gloss 'Each piece is dedicated to a different musician' overreaches: MB titles include dedications to an artist (Murray De Pillars) and to friends (Ann and Peter Allen; Susan Axelrod). 'The first full-length solo saxophone recording in jazz history' is not checkable in pack evidence."
+ },
+ {
+  "id": "free-at-last-waldron",
+  "verdict": "factual_error",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": [
+   "Free at Last"
+  ],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Entity confirmed: MB search release is ECM 1001 (ECM Records, 1969, DE, Mal Waldron Trio) and the wiki page is about this album. The error: keyTrack 'Free at Last' does not exist on the album - MB's full six-track listing is Rat Now / Balladina / 1-3-234 / Rock My Soul / Willow Weep for Me / Boo; there is no title track ('track not on the album'). 'Balladina' and 'Rat Now' match. 'One of ECM's very first releases' is supported - wiki says it was THE first release on the label, corroborated by catalog number ECM 1001. Year: ours 1969 matches MB (release and RG both 1969); the wiki short-description says '1970 studio album' - sources conflict, ours follows MB, not flagged but worth a glance. The nervous-breakdown / memory-loss biographical claim and 'European-based trio' cannot be checked against pack evidence (no contradiction; background knowledge considers the breakdown story plausible but that is not citable). 'Anticipated minimalism' is editorial."
+ },
+ {
+  "id": "gin-and-orange",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose first sentence is the Wikipedia lead verbatim (1969, recorded both live and in the studio, third release on Cadet); wiki details corroborate (Ter Mar Studios + The London House, April 1969). Embedded MBID (authoritative) confirms 1969, Cadet Records LPS-831, and all five keyTracks (MB tracks 1-5). 'Jazz-funk date' is editorial genre framing, consistent with the wiki review's description."
+ },
+ {
+  "id": "in-a-silent-way",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is the Wikipedia lead verbatim and fully confirmed: released July 30, 1969 on Columbia (MB: 1969-07-30, Columbia CS 9875), produced by Teo Macero, recorded in one session on February 18, 1969 at CBS 30th Street Studio, start of the electric period, regarded as Davis's first fusion recording. Both keyTracks ('Shhh / Peaceful', 'In a Silent Way / It's About That Time') match the MB tracklist exactly. Closing sentences (new aesthetic, paved the way for Bitches Brew) are editorial."
+ },
+ {
+  "id": "jewels-of-thought",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose opening is the Wikipedia lead verbatim and confirmed: recorded at Plaza Sound Studios, New York, October 20, 1969; released on Impulse! the same year (MB: impulse! AS-9190, 1969); the 1998 reissue merged 'Sun In Aquarius' into one 27-minute track. keyTracks: 'Hum-Allah-Hum-Allah-Hum Allah' matches MB's 'Hum-Allah-Hum-Allah-Hum-Allah' (hyphen variant); 'Sun in Aquarius' matches MB's 'Sun in Aquarius, Part 1/Part 2' as a substring. Remaining sentences (full range of the spiritual jazz vision, touchstone for the revival) are editorial."
+ }
+]

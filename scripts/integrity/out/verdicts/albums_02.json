@@ -1,0 +1,317 @@
+[
+ {
+  "id": "birth-of-the-cool",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose lead is verbatim the Wikipedia lead. MB (search, similarity 1.0) confirms Capitol Records, 1957-02, release-group secondaryType Compilation, and an 11-track listing including all 4 keyTracks; 'compiles eleven tracks ... three sessions during 1949 and 1950' matches both sources. 'Named and defined the cool jazz movement' and the West Coast/Third Stream influence sentence are editorial; wiki's 'considered seminal in the history of cool jazz' is consistent."
+ },
+ {
+  "id": "blues-and-vanilla",
+  "verdict": "unverifiable",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (search, similarity 1.0) confirms title, RCA Victor, 1957, the Jack Montrose + Red Norvo credit, and all 6 keyTracks (exact tracklist match). Unverifiable: 'recorded in 1956' (no recording date in evidence) and Montrose being a saxophonist leading a quintet. Nothing contradicts. Site's artist field shows only Red Norvo while MB credits 'Jack Montrose, Red Norvo' (Montrose first); the prose states the co-credit, so not flagged. No wikipedia evidence found."
+ },
+ {
+  "id": "brilliant-corners",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB (search, similarity 1.0) confirms title/artist/year/label (Riverside RLP 12-226, 1957) and all 4 keyTracks. The detailed prose claims are uncheckable against pack evidence: recorded 1956, Sonny Rollins and Max Roach personnel, 25 takes with the title track spliced from multiple attempts, celeste on the session, 'Pannonica' dedicated to Baroness Pannonica de Koenigswarter, Time magazine cover. No contradictions; no wikipedia evidence. Judge's background knowledge (not citable) finds these claims consistent with this album's standard history, so likely repair-low-priority."
+ },
+ {
+  "id": "dizzy-atmosphere",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MB and the stored wiki page agree: Specialty label, 1957 (RG first release 1957-02-01), Lee Morgan. Wiki personnel confirm Al Grey (trombone) and Billy Mitchell (tenor saxophone); 'members of Dizzy Gillespie's Orchestra' is verbatim from the wiki lead. All 6 keyTracks match the MB tracklist exactly (take-suffixes included). MB also credits Wynton Kelly as co-artist; ours lists Morgan alone, but Morgan is a credited artist, so not flagged."
+ },
+ {
+  "id": "ella-and-her-fellas",
+  "verdict": "entity_mismatch",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Flying Home", "Sing Me a Swing Song", "Benny’s Coming Home on Saturday", "Big Boy Blues", "And Her Tears Flowed Like Wine"],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Like Someone in Love is a 1957 studio album by the American jazz singer Ella Fitzgerald, with a studio orchestra arranged and conducted by Frank DeVol", "problem": "The entire albumDNA describes a different album (Like Someone in Love, a Verve-era LP arranged by Frank DeVol), not Ella and Her Fellas, which the authoritative embedded MB release shows is a 1957 Decca LP", "evidenceQuote": "title: \"Ella and Her Fellas\"; labels: Decca Records, DL 8477; date: 1957", "source": "mb"},
+   {"ourClaim": "recorded at the same time as her albums with Louis Armstrong", "problem": "Sentence is lifted verbatim from the Wikipedia lead of Like Someone in Love (Ella Fitzgerald album); the fact belongs to that album, not this one", "evidenceQuote": "Like Someone in Love is a 1957 studio album by the American jazz singer Ella Fitzgerald, with a studio orchestra arranged and conducted by Frank DeVol. This album represents a fine example of Ella's singing from this period, recorded at the same time as her albums with Louis Armstrong.", "source": "wiki"}
+  ],
+  "notes": "Classic disambiguation substitution: prose and stored wikipedia link are both for Like Someone in Love (Ella Fitzgerald album); the item is Ella and Her Fellas (Decca DL 8477, 1957, per embedded MB). Title/artist/year/label fields are correct; the prose needs a full rewrite and the link must be replaced or dropped. 5 of 6 keyTracks are not on the authoritative MB tracklist (only 'Stone Cold Dead in the Market (He Had It Coming)' matches) - the keyTracks appear to come from yet another source and need rebuilding from the MB tracklist."
+ },
+ {
+  "id": "four-trombones",
+  "verdict": "entity_mismatch",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Mingus is an album by the jazz bassist and composer Charles Mingus. The album was recorded in October and November 1960 in New York and released in late 1961 on Nat Hentoff's Candid label.", "problem": "The entire albumDNA is the Wikipedia lead of the 1961 Candid album 'Mingus', a different record; the item is Four Trombones (Debut, 1957), and the 1960/1961/Candid facts contradict the embedded MB release", "evidenceQuote": "title: \"Four Trombones\"; labels: Debut, DEB-126; date: 1957; artists: Kai Winding, J.J. Johnson, Bennie Green, Willie Dennis, John Lewis, Charlie Mingus", "source": "mb"}
+  ],
+  "notes": "Prose and stored wikipedia link both belong to 'Mingus (Charles Mingus album)' (Candid, recorded Oct-Nov 1960, released 1961) - wrong entity. The real Four Trombones is the 1957 Debut LP; year and label fields are correct and all 4 keyTracks match the embedded MB tracklist exactly. Note the site files this multi-leader album (Winding/Johnson/Green/Dennis with Lewis and Mingus) under Charles Mingus alone; Mingus is credited ('Charlie Mingus') so not flagged. Prose rewrite + link replacement needed."
+ },
+ {
+  "id": "jay-and-kai",
+  "verdict": "factual_error",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "n/a",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Unknown", "evidence": "Columbia", "evidenceQuote": "Jay and Kai is an album by American jazz trombonists J. J. Johnson and Kai Winding featuring performances recorded in 1955 and 1956 for the Columbia label.", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Label field ships as the placeholder 'Unknown' while both our prose and the entity-matched wiki page say Columbia - a straightforward field fix; the prose itself is fine (it is the wiki lead verbatim). Year field 1957 matches wiki's '1957 studio album' description. No MusicBrainz evidence at all (search returned no candidates). Minor wrinkle a reviewer should know: the wiki session list includes one track recorded January 27, 1957, although the page's own lead (and our prose, copied from it) says 'recorded in 1955 and 1956' - the wiki is internally inconsistent, so not flagged against ours. keyTracks not stored (null)."
+ },
+ {
+  "id": "jazz-by-sun-ra",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is a condensed verbatim copy of the wiki lead; every claim confirmed: debut album, first-pressing label reading '07-12-56', Tom Wilson's Transition Records (MB: Transition, trlp 10, 1957), Delmark owner Bob Koester purchase in the mid-1960s, 1967 reissue. All 5 keyTracks on the embedded MB tracklist."
+ },
+ {
+  "id": "louis-armstrong-meets-oscar-peterson",
+  "verdict": "factual_error",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "year", "ours": "1957", "evidence": "1959", "evidenceQuote": "Louis Armstrong Meets Oscar Peterson is a 1959 studio album (recorded in 1957) by Louis Armstrong, accompanied by Oscar Peterson.", "source": "wiki"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Louis Armstrong Meets Oscar Peterson is a 1959 studio album", "problem": "Contradicts the item's own year field (1957) and the MB release-group first release date; the item is internally inconsistent - whichever source is right, either the prose year or the year field is wrong", "evidenceQuote": "releaseGroup firstReleaseDate: \"1957\"", "source": "mb"}
+  ],
+  "notes": "Internal inconsistency: year field says 1957, prose says '1959 studio album'. The two entity-matched evidence sources disagree with each other: MB release group gives firstReleaseDate 1957 (embedded method, though the embedded release itself is a 1985 German Verve CD reissue), while Wikipedia says 1959 release recorded in 1957. Judge's background knowledge (not citable) leans toward 1959 release / 1957 recording, which would make the year field the error - needs external confirmation before repair. 'That Old Feeling' and all other keyTracks are on the MB tracklist ('Blues in the Night' matches 'Blues in the Night (My Mama Done Tol' Me)'); 'vocal jazz output from 1957' is consistent with the recorded-in-1957 evidence."
+ },
+ {
+  "id": "mulligan-meets-monk",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is the wiki lead verbatim; wiki confirms Riverside 1957 original, numerous reissues, and the 1987 CD remaster with three additional alternate takes. Embedded MBID resolves to a 1982 Milestone reissue titled ''Round Midnight' (M-47067) but it sits in the Mulligan Meets Monk release group (first release 1957-10), so entity match holds at release-group level; ours.label Riverside refers to the original issue and is wiki-confirmed. All 5 keyTracks present on the reissue tracklist (case-insensitive). Duplicate of item 'mulligan-meets-monk-monk' filed under the other co-leader."
+ },
+ {
+  "id": "mulligan-meets-monk-monk",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Same album as item 'mulligan-meets-monk', filed under Thelonious Monk. Here the embedded MB release is the original Riverside RLP 1106 (US, 1957); all 5 keyTracks match its tracklist exactly, and the wiki page confirms every prose claim (Riverside 1957, 1987 CD remaster with three added alternate takes)."
+ },
+ {
+  "id": "sonny-rollins-volume-2",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Thin prose, but everything checkable is confirmed by the embedded MB release: Blue Note BLP 1558, 1957, Sonny Rollins, and all 5 keyTracks including the two named in the prose ('Why Don't I', 'Wail March'). 'Hard bop' characterization is editorial. No wikipedia evidence; no URL stored."
+ },
+ {
+  "id": "such-sweet-thunder",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "unsure", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Wiki page (stored link) confirms both prose claims - released 1957, 'a twelve-part suite based on the works of William Shakespeare' - and all 4 keyTracks appear in its track listing. The one claim no evidence covers is the label field 'Columbia': MB returned only release-group searchCandidates with no release/label data (weak evidence; candidates do look like this album by 'Duke Ellington & His Orchestra'), and the wiki extract never names the original label. Nothing contradicts; only the label needs external confirmation."
+ },
+ {
+  "id": "the-clown",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is the wiki lead verbatim; wiki confirms Atlantic release, recording dates February 13 and March 12, 1957, and Jean Shepherd's improvised narration on the title track. All 4 keyTracks equal the embedded MB tracklist exactly. One month-level wrinkle: prose and wiki say 'released in September 1957' while the embedded MB release and release group say 1957-08; the two entity-matched sources disagree by one month, the displayed year field (1957) is right either way - recorded as a note, not flagged."
+ },
+ {
+  "id": "the-most-happy-piano",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "It was first recorded in 1956 with Mitch Miller and his orchestra, and played a prominent part in the 1971 motion picture Play Misty for Me.", "problem": "Sentence is lifted verbatim from the Erroll Garner biography page, where 'It' refers to Garner's composition 'Misty', not to this album; as written it misattributes the song's facts (1956 Mitch Miller recording, Play Misty for Me) to The Most Happy Piano. 'Misty' is not even on this album's MB tracklist.", "evidenceQuote": "His instrumental ballad \"Misty\", his best-known composition, has become a jazz standard. It was first recorded in 1956 with Mitch Miller and his orchestra, and played a prominent part in the 1971 motion picture Play Misty for Me.", "source": "wiki"}
+  ],
+  "notes": "MB (search, similarity 1.0) confirms the album itself: Columbia CL 939, 1957, Erroll Garner, and all 5 keyTracks. First two prose sentences are fine ('cool jazz program' is editorial). The final sentence is a referent-swapped graft from the artist bio about the song 'Misty' - delete or rewrite it. Stored wikipediaUrl points to the Erroll Garner artist page, not an album article, so it is counted wrong_entity for this album item; if no album article exists, drop the link rather than keep the artist page."
+ },
+ {
+  "id": "thelonious-himself",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is the wiki lead verbatim and fully confirmed: 1957 Riverside release, Monk's fourth album for the label, solo piano except 'Monk's Mood' with John Coltrane (tenor sax) and Wilbur Ware (bass), second solo piano studio album and first made by an American label and distributed in the US. Embedded MB confirms Riverside RLP 12-235, 1957; all 5 keyTracks on the tracklist."
+ },
+ {
+  "id": "round-about-midnight",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MB confirms Columbia CL 949, released 1957-03-18, and all 5 keyTracks (punctuation-insensitive: 'Ah-Leu-Cha' = 'Ah‐Leu‐Cha', 'Tadd's Delight' = 'Tadd’s Delight'). Wikipedia (opensearch; no URL stored on the item) resolves to the correct album page and corroborates Columbia/March 1957 and both named tracks. Prose's 'A 1957 Columbia session' reads as loose dating of the release; actual recording sessions were Oct 1955 - Sept 1956 per wiki - phrasing, not flagged. Genre talk ('hard bop territory', 'cool jazz school') is editorial."
+ },
+ {
+  "id": "at-the-pershing",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose lead is verbatim from the stored wiki page and fully confirmed: January 16, 1958 at the Pershing Lounge of Chicago's Pershing Hotel, 43 tracks recorded / 8 selected, Argo LP-628, first release recorded for Argo, first live album. MB search (similarity 0.81) matched the fuller-titled 'Ahmad Jamal at the Pershing: But Not for Me' (Argo LP-628, 1958, Live) - same album; all 4 keyTracks on its tracklist. 'Influenced Miles Davis's conception of space in music' is supported in spirit by the wiki's 'influence on other jazz musicians such as Miles Davis'; the closing sentence is editorial."
+ },
+ {
+  "id": "blue-train",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "no", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search hit is a 2008 German 'Documents' 40-track compilation that merely shares the title (different release group, none of Blue Train's actual tracks) - discarded after entity-matching; it is not counter-evidence. All checking done against the entity-matched wiki article, which confirms every hard claim: Coltrane's only session as leader for Blue Note, recorded September 15, 1957 at Van Gelder's Hackensack NJ studio, the full sextet personnel (Lee Morgan, Curtis Fuller, Kenny Drew, Paul Chambers, Philly Joe Jones), January 1958 Blue Note release (year field 1958 ok), Francis Wolff cover photography, and 'Blue Train' (the single keyTrack) plus 'Moment's Notice' on the track listing. The 'would later evolve into Giant Steps' / 'Coltrane changes' sentences are critical interpretation, not flagged."
+ },
+ {
+  "id": "branching-out",
+  "verdict": "unverifiable",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "All album facts verified: embedded MB gives Riverside RLP 12-285, 1958, artists Nat Adderley / Johnny Griffin / The Three Sounds; wiki page (stored link resolves directly to the album article) confirms cornetist, Riverside, and the same lineup; all 5 keyTracks on the MB tracklist. The appended bio sentence - 'He was the younger brother of saxophonist Julian \"Cannonball\" Adderley, with whom he played for many years' - is covered by no pack evidence: unverifiable, not contradicted."
+ },
+ {
+  "id": "carmen-for-cool-ones",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MB (Decca DL 8738, 1958) and the stored wiki page both confirm; 'arranged and directed by cellist Fred Katz' is verbatim in the wiki lead and personnel (arranger, conductor, cello). All 5 keyTracks on the MB tracklist. The second sentence about McRae being 'considered one of the most influential jazz vocalists' with 'behind-the-beat phrasing' is reception/characterization in bio register - treated as editorial, not a checkable factual claim."
+ },
+ {
+  "id": "ella-fitzgerald-sings-the-irving-berlin-song-book",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "His Master’s Voice", "evidence": "Verve", "evidenceQuote": "labels: Verve, MG VS-6005-2", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "Label field is wrong per both evidence sources: the embedded US MB release is on Verve (MG VS-6005-2) and Wikipedia says 'originally released on the Verve label in 1958: Verve MGV 4019-2'. 'His Master's Voice' may stem from a UK/EMI distribution pressing, but it is not the album's label. Everything else is verified: 1958, Paul Weston arranger/conductor, Irving Berlin songs, Songbook series, Grammy context on the wiki page; all 5 keyTracks on the MB tracklist (RG first release 1958-07-04)."
+ },
+ {
+  "id": "ellington-indigos-expanded-edition",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No MB evidence at all (search returned nothing). The stored wiki page is entity-matched and confirms 1958, Duke Ellington, and Columbia (original mono LP 'Columbia CL 1085'). But the wiki extract's track-listing sections are empty, so there is no complete tracklist: keyTracksVerdict no_evidence. Wiki prose does reference 'Mood Indigo', 'Autumn Leaves', and 'The Sky Fell Down' (mono-LP-only, omitted from CD) as album tracks - consistent with three of the five keyTracks, including the 'Mono Version' suffix on The Sky Fell Down. 'Solitude' and 'Where or When' (and the 'definitive readings of Solitude' claim) are uncheckable. The '(Expanded Edition)' title qualifier matches no evidence; the page documents multiple variant editions, so the exact edition/tracklist needs external confirmation."
+ },
+ {
+  "id": "going-for-myself",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is the wiki lead verbatim; both claims confirmed ('an album by Harry \"Sweets\" Edison and Lester Young, accompanied by Oscar Peterson'; 'one of Young's last studio recordings'). Embedded MB: Verve, RG first release 1958, credit Harry 'Sweets' Edison + Lester Young; all 5 keyTracks on the tracklist. Site's artist field shows Lester Young only while MB credits Edison first - the prose states the co-credit, so not flagged (same pattern as blues-and-vanilla). Detail a reviewer may care about: wiki personnel show Oscar Peterson only on the July 1957 Hollywood session; the Feb 1958 NY session has Lou Stein on piano - the wiki's own lead elides this, so ours is not flagged."
+ },
+ {
+  "id": "lady-in-satin",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is the wiki lead verbatim and fully confirmed: 1958 Columbia release, catalogue CL 1157 mono / CS 8048 stereo, penultimate completed album and last released in her lifetime, Last Recording recorded March 1959 and released just after her death, produced by Irving Townsend, engineered by Fred Plaut. Embedded MBID resolves to a 1980 Soviet Melodiya pressing of the Lady in Satin release group (RG first release 1958-06) with bilingual track titles; all 5 keyTracks match as substrings of the dual-language titles."
+ }
+]

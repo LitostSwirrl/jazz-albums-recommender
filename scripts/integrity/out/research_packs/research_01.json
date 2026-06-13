@@ -1,0 +1,133 @@
+[
+  {
+    "id": "harlem-river-drive",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "Harlem River Drive",
+      "artist": "Eddie Palmieri",
+      "year": 1971,
+      "label": "Roulette",
+      "albumDNA": "Puerto Rican piano legend Eddie Palmieri's genre-shattering album fuses salsa, soul, funk, and jazz into a revolutionary Nuyorican sound. The extended jams build hypnotic grooves that blend clave rhythms with wah-wah guitar and horn arrangements of breathtaking power. A milestone in Latin music that broke down the walls between salsa and jazz-funk. Palmieri's visionary fusion of Afro-Caribbean and African-American musical traditions anticipated decades of cross-cultural experimentation.",
+      "keyTracks": [
+        "Harlem River Drive",
+        "Idle Hands",
+        "Seeds of Life",
+        "Azucar"
+      ],
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "mystic-brew",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "Mystic Brew",
+      "artist": "Ronnie Foster",
+      "year": 1972,
+      "label": "Blue Note",
+      "albumDNA": "Organist Ronnie Foster's 1972 album Mystic Brew draws from the soul jazz tradition, released on Blue Note. The music draws on soul jazz and jazz-funk influences. Blue Note, under Alfred Lion and Francis Wolff, was the definitive hard bop label, with Rudy Van Gelder engineering many of its classic sessions. Bridged soul jazz and the emerging funk movement. Its influence on hip-hop cannot be overstated.",
+      "keyTracks": [
+        "Mystic Brew",
+        "Summer Song",
+        "Chunky"
+      ],
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "real-book",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "The Real Book",
+      "artist": "Various Artists",
+      "year": 1975,
+      "label": "Bootleg",
+      "albumDNA": "The Real Book is an album by Various Artists, released in 1975 on Bootleg. The record sits in the bebop / contemporary jazz tradition. Notable tracks include \"All The Things You Are\" and \"Autumn Leaves\".",
+      "keyTracks": [
+        "All The Things You Are",
+        "Autumn Leaves",
+        "Blue Bossa"
+      ],
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "kosmos",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "Juice",
+      "artist": "Ryo Kawasaki",
+      "year": 1977,
+      "label": "RVC",
+      "albumDNA": "A jazz-funk outing from 1977, Juice features guitarist Ryo Kawasaki recording for RVC. The program includes \"Juice\", \"Raisins\", and \"Bamboo Child\". A cult classic of Japanese jazz-funk. Kawasaki's guitar synthesizer pioneering influenced later electronic jazz.",
+      "keyTracks": [
+        "Juice",
+        "Raisins",
+        "Bamboo Child",
+        "Little Tree"
+      ],
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "mellow-dream",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "Mellow Dream",
+      "artist": "Ryo Fukui",
+      "year": 1977,
+      "label": "Trio Records",
+      "albumDNA": "The follow-up to Scenery finds Fukui in an even more confident and exploratory mood. The trio swings hard through originals and standards, with Fukui's rapid-fire runs and delicate ballad work revealing the full range of his artistry. Confirmed Fukui's debut was no fluke. Along with Scenery, it documented one of Japan's most gifted pianists at his creative peak in Sapporo's intimate jazz scene.",
+      "keyTracks": [
+        "Mellow Dream",
+        "My Funny Valentine",
+        "What's New",
+        "Baron Potato Blues"
+      ],
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "tetterettet",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "Tetterettet",
+      "artist": "ICP Orchestra",
+      "year": 1977,
+      "label": "ICP",
+      "albumDNA": "The Instant Composers Pool Orchestra, led by Dutch drummer Han Bennink and pianist Misha Mengelberg, brings Dadaist humor and theatrical absurdity to free jazz. The music careens between composed passages, free improvisation, and outright chaos with gleeful abandon. Defined the Dutch approach to free improvisation, which embraced humor, theatricality, and Monk-influenced composition alongside total freedom. The ICP's playful spirit was a counterweight to the earnestness of much European free music.",
+      "keyTracks": [
+        "Tetterettet",
+        "Brozziman",
+        "Two Hoedown"
+      ],
+      "wikipedia": null
+    }
+  },
+  {
+    "id": "chet-baker-live-in-rosenheim",
+    "kind": "album",
+    "researchGoal": "no_evidence: find an authoritative source (MusicBrainz/Discogs/AllMusic/Wikipedia). Verify or correct year + label, fill keyTracks if null, confirm or rewrite albumDNA from sources, set wikipedia URL if a correct page exists. Else mark unresolved.",
+    "ours": {
+      "title": "Chet Baker live in Rosenheim",
+      "artist": "Chet Baker",
+      "year": 1989,
+      "label": "Unknown",
+      "albumDNA": "Chet Baker live in Rosenheim is a cool jazz album by Chet Baker from 1989. Among the tracks are \"Funk in deep freeze\" and \"I'm a fool to want you\".",
+      "keyTracks": [
+        "Funk in deep freeze",
+        "I'm a fool to want you",
+        "Portrait in black and white",
+        "In a sentimental mood",
+        "If I should lose you"
+      ],
+      "wikipedia": null
+    }
+  }
+]

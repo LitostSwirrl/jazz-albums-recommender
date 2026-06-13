@@ -1,0 +1,786 @@
+[
+  {
+    "id": "ella-and-her-fellas",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Like Someone in Love is a 1957 studio album by the American jazz singer Ella Fitzgerald, with a studio orchestra arranged and conducted by Frank DeVol",
+    "contradictingQuote": "Ella and Her Fellas",
+    "skepticDecision": "The albumDNA is the wiki lead of 'Like Someone in Love' (a different Fitzgerald album), while the embedded release for this item is titled 'Ella and Her Fellas'.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Like Someone in Love is a 1957 studio album by the American jazz singer Ella Fitzgerald, with a studio orchestra arranged and conducted by Frank DeVol",
+        "problem": "The entire albumDNA describes a different album (Like Someone in Love, a Verve-era LP arranged by Frank DeVol), not Ella and Her Fellas, which the authoritative embedded MB release shows is a 1957 Decca LP",
+        "evidenceQuote": "title: \"Ella and Her Fellas\"; labels: Decca Records, DL 8477; date: 1957",
+        "source": "mb"
+      },
+      {
+        "ourClaim": "recorded at the same time as her albums with Louis Armstrong",
+        "problem": "Sentence is lifted verbatim from the Wikipedia lead of Like Someone in Love (Ella Fitzgerald album); the fact belongs to that album, not this one",
+        "evidenceQuote": "Like Someone in Love is a 1957 studio album by the American jazz singer Ella Fitzgerald, with a studio orchestra arranged and conducted by Frank DeVol. This album represents a fine example of Ella's singing from this period, recorded at the same time as her albums with Louis Armstrong.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Classic disambiguation substitution: prose and stored wikipedia link are both for Like Someone in Love (Ella Fitzgerald album); the item is Ella and Her Fellas (Decca DL 8477, 1957, per embedded MB). Title/artist/year/label fields are correct; the prose needs a full rewrite and the link must be replaced or dropped. 5 of 6 keyTracks are not on the authoritative MB tracklist (only 'Stone Cold Dead in the Market (He Had It Coming)' matches) - the keyTracks appear to come from yet another source and need rebuilding from the MB tracklist.",
+    "ours": {
+      "title": "Ella and Her Fellas",
+      "artist": "Ella Fitzgerald",
+      "year": 1957,
+      "label": "Decca Records",
+      "albumDNA": "Like Someone in Love is a 1957 studio album by the American jazz singer Ella Fitzgerald, with a studio orchestra arranged and conducted by Frank DeVol. This album represents a fine example of Ella's singing from this period, recorded at the same time as her albums with Louis Armstrong.",
+      "keyTracks": [
+        "Stone Cold Dead in the Market (He Had It Coming)",
+        "You Won’t Be Satisfied (Until You Break My Heart)",
+        "That’s the Way It Is",
+        "I Gotta Have My Baby Back",
+        "Sentimental Journey",
+        "The Frim Fram Sauce"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "0d275bc5-65eb-42d7-8364-bcd1ec121ac0",
+          "title": "Ella and Her Fellas",
+          "date": "1957",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Ella Fitzgerald"
+          ],
+          "labels": [
+            {
+              "name": "Decca Records",
+              "catalogNumber": "DL 8477"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "14f06581-a479-4f5c-bcf7-6a6ec98f7dad",
+            "title": "Ella and Her Fellas",
+            "firstReleaseDate": "1957",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "You Won’t Be Satisfied (Until You Break My Heart)",
+            "That’s the Way It Is",
+            "Stone Cold Dead in the Market (He Had It Coming)",
+            "I Gotta Have My Baby Back",
+            "Sentimental Journey",
+            "The Frim Fram Sauce",
+            "It’s Only a Paper Moon",
+            "Dream a Little Dream of Me",
+            "Baby, It’s Cold Outside",
+            "A‐Tisket A‐Tasket",
+            "Would You Like to Take a Walk (Sump’n Good’ll Come From That)",
+            "Don’cha Go ’way Mad"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Like_Someone_in_Love_(Ella_Fitzgerald_album)",
+        "page": {
+          "requestedTitle": "Like Someone in Love (Ella Fitzgerald album)",
+          "resolvedTitle": "Like Someone in Love (Ella Fitzgerald album)",
+          "shortDescription": "1957 studio album by Ella Fitzgerald",
+          "extract": "Like Someone in Love is a 1957 studio album by the American jazz singer Ella Fitzgerald, with a studio orchestra arranged and conducted by Frank DeVol. This album represents a fine example of Ella's singing from this period, recorded at the same time as her albums with Louis Armstrong.\n\n\n== History ==\nThe album was also recorded in the midst of her epic 'Songbooks' project, celebrating the composers of the 'Great American Songbook' and Broadway. The album features only four songs written by the composers featured in her 'Songbooks', instead concentrating on very famous ballads by lesser known writers. Some songs on the album were also recorded with Armstrong on the albums that they collaborated on from this period. Stan Getz is featured on tenor sax on four tracks, including \"Midnight Sun\" and \"You're Blasé\".  Ted Nash plays the alto sax and solos.  The cover photos are by Phil Stern.\n\n\n== Reception ==\n\nWriting for AllMusic, music critic Scott Yanow wrote of the album: \"Most of the songs are veteran standards... her voice was so strong and appealing during this era that all of her recordings from the mid- to late '50s are enjoyable and easily recommended\".\n\n\n== Track listing ==\nFor the 1957 Verve album Someone in Love, Verve MGV-4004\nSide one:\n\n\"There's a Lull in My Life\" (Mack Gordon, Harry Revel)  – 3:23\n\"More Than You Know\" (Edward Eliscu, Billy Rose, Vincent Youmans)  – 3:14\n\"What Will I Tell My Heart?\" (Irving Gordon, Jack Lawrence, Peter Tinturin)  – 3:27\n\"I Never Had A Chance\" (Irving Berlin)  – 2:44\n\"Close Your Eyes\" (Bernice Petkere)  – 2:54\n\"We'll Be Together Again\" (Carl T. Fischer, Frankie Laine)  – 3:18\n\"Then I'll Be Tired Of You\" (Yip Harburg, Arthur Schwartz)  – 3:10\n\"Like Someone in Love\" (Johnny Burke, Jimmy Van Heusen)  – 3:07\nSide two:\n\n\"Midnight Sun\" (Sonny Burke, Lionel Hampton, Johnny Mercer)  – 3:54\n\"I Thought About You\" (Mercer, Van Heusen)  – 2:51\n\"You're Blasé\" (Ord Hamilton, Bruce Sievier)  – 3:55\n\"Night Wind\" (Lew Pollack, Bob Rothberg)  – 3:16\n\"What's New?\" (Johnny Burke, Bob Haggart)  – 3:04\n\"Hurry Home\" (Buddy Bernier, Bob Emmerich, Joseph Meyer)  – 4:37\n\"How Long Has This Been Going On?\" (George Gershwin, Ira Gershwin)  – 5:48\nBonus Tracks; Issued on the 1991 Verve CD re-issue Like Someone in Love, Verve 314-511 524-2\n\n16. \"I'll Never Be The Same\" (Gus Kahn, Matty Malneck, Frank Signorelli)  – 4:23 \n17. \"Lost in a Fog\" (Dorothy Fields, Jimmy McHugh)  – 3:59 \n18. \"Everything Happens to Me\" (Tom Adair, Matt Dennis)  – 3:51 \n19. \"So Rare\" (Jerry Herst, Jack Sharpe)  – 3:34\nTracks 1–11 recorded October 15, 1957, in Hollywood, Los Angeles\nTracks 12–19 recorded October 28, 1957, in Hollywood, Los Angeles\n\n\n== Personnel ==\nElla Fitzgerald – vocals\nFrank DeVol – arranger, conductor\nStan Getz – saxophone\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "the-oscar-peterson-trio-at-newport",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Oscar Peterson and Roy Eldridge is an album by Oscar Peterson, on which he is accompanied by Roy Eldridge.",
+    "contradictingQuote": "1975 studio album by Oscar Peterson & Roy Eldridge",
+    "skepticDecision": "The albumDNA and stored link describe 'Oscar Peterson and Roy Eldridge', a 1975 studio duo album per the evidence short description, while this item is the 1958 live album 'The Oscar Peterson Trio at Newport'.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Oscar Peterson and Roy Eldridge is an album by Oscar Peterson, on which he is accompanied by Roy Eldridge.",
+        "problem": "This sentence is the Wikipedia lede of a DIFFERENT album — the 1975 duo studio album 'Oscar Peterson and Roy Eldridge' — not the 1958 live album 'The Oscar Peterson Trio at Newport' that this item is titled after.",
+        "evidenceQuote": "shortDescription: \"1975 studio album by Oscar Peterson & Roy Eldridge\"",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Classic instance of the disambiguation disease, in mixed form. The embedded MBID matches the titled entity (The Oscar Peterson Trio at Newport, 1958, Verve UMV-2618 reissue catalog; credited to The Oscar Peterson Trio with Roy Eldridge, Sonny Stitt, Jo Jones) and all 5 keyTracks are on that MB tracklist — so title, year, and keyTracks belong to the real 1958 Newport album. But the prose lede and the stored Wikipedia URL belong to the 1975 'Oscar Peterson and Roy Eldridge' duo album, the artist field miscredits the album to 'Roy Eldridge' alone (MB primary credit is The Oscar Peterson Trio), and the label field 'Columbia' contradicts MB's Verve. Repair needs: rewrite prose for the 1958 Newport album, fix wikipediaUrl, set artist to The Oscar Peterson Trio (or Trio + guests), set label to Verve. The 'hard bop sensibility / cool jazz era' tail is editorial boilerplate.",
+    "ours": {
+      "title": "The Oscar Peterson Trio at Newport",
+      "artist": "Roy Eldridge",
+      "year": 1958,
+      "label": "Columbia",
+      "albumDNA": "Oscar Peterson and Roy Eldridge is an album by Oscar Peterson, on which he is accompanied by Roy Eldridge. Trumpeter Roy Eldridge's hard bop sensibility is on display in this 1958 session, a document of the cool jazz era.",
+      "keyTracks": [
+        "Will You Still Be Mine?",
+        "Joy Spring",
+        "Gal In Calico",
+        "52nd Street Theme",
+        "Monitor Blues"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "7cb25011-3d06-3491-bcfb-00f51e0ad2bc",
+          "title": "The Oscar Peterson Trio at Newport",
+          "date": "1958",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "The Oscar Peterson Trio",
+            "Roy Eldridge",
+            "Sonny Stitt",
+            "Jo Jones"
+          ],
+          "labels": [
+            {
+              "name": "Verve",
+              "catalogNumber": "UMV-2618"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0328e27c-7072-4ac5-b37f-35df77b02031",
+            "title": "The Oscar Peterson Trio at Newport",
+            "firstReleaseDate": "1958",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Will You Still Be Mine",
+            "Joy Spring",
+            "Gal in Calico",
+            "52nd Street Theme",
+            "[Jo Jones introduction]",
+            "Monitor Blues",
+            "Willow Weep for Me",
+            "Autumn in New York",
+            "Roy's Son"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Oscar_Peterson_and_Roy_Eldridge",
+        "page": {
+          "requestedTitle": "Oscar Peterson and Roy Eldridge",
+          "resolvedTitle": "Oscar Peterson and Roy Eldridge",
+          "shortDescription": "1975 studio album by Oscar Peterson & Roy Eldridge",
+          "extract": "Oscar Peterson and Roy Eldridge is an album by Oscar Peterson, on which he is accompanied by Roy Eldridge.\n\n\n== Track listing ==\n\"Little Jazz\" (Roy Eldridge, Buster Harding) – 4:45\n\"She's Funny That Way\" (Neil Moret, Richard Whiting) – 7:34\n\"The Way You Look Tonight\" (Dorothy Fields, Jerome Kern) – 6:22\n\"Sunday\" (Chester Conn, Benny Krueger, Nathan \"Ned\" Miller, Jule Styne) – 5:48\n\"Bad Hat Blues\" (Eldridge, Oscar Peterson) – 7:34\n\"Between the Devil and the Deep Blue Sea\" (Harold Arlen, Ted Koehler) – 5:16\n\"Blues for Chu\" (Eldridge, Peterson) – 5:46\n\n\n== Personnel ==\nPerformance\n\nRoy Eldridge – trumpet\nOscar Peterson – piano and organ\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "louie-and-the-dukes-of-dixieland",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "I've Got the World on a String is a 1960 album by Louis Armstrong, arranged by Russell Garcia. It was recorded on the same day as Armstrong's 1958 album Louis Under the Stars; the previous day he had finished recording Ella and Louis Again with Ella Fitzgerald.",
+    "contradictingQuote": "Louie and the Dukes of Dixieland",
+    "skepticDecision": "The albumDNA is the wiki lead of 'I've Got the World on a String' (the Russell Garcia orchestral date), while the embedded release for this item is titled 'Louie and the Dukes of Dixieland', Armstrong's collaboration with The Dukes of Dixieland.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "I've Got the World on a String is a 1960 album by Louis Armstrong, arranged by Russell Garcia. It was recorded on the same day as Armstrong's 1958 album Louis Under the Stars; the previous day he had finished recording Ella and Louis Again with Ella Fitzgerald.",
+        "problem": "The entire albumDNA describes a different Armstrong album (I've Got the World on a String, the Russell Garcia orchestral date) -- not Louie and the Dukes of Dixieland, the Dukes of Dixieland collaboration this item actually is",
+        "evidenceQuote": "title: \"Louie and the Dukes of Dixieland\"; artists: [\"Louis Armstrong\", \"The Dukes of Dixieland\"]; releaseGroup firstReleaseDate: \"1960\"",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Classic disambiguation disease. Embedded-MBID MB release confirms the real album (Armstrong with The Dukes of Dixieland, RG first release 1960) and all five keyTracks match its tracklist, so title/artist/year/keyTracks fields are fine. But the prose and the stored Wikipedia link both belong to I've Got the World on a String (whose wiki personnel shows a Russell Garcia orchestra, no Dukes of Dixieland). Label field 'Audio Fidelity' is unverifiable from the pack (MB shows only a High Definition Tape Transfers reissue) -- plausible for the 1960 original but needs sourcing during repair. Prose and wikipediaUrl both need replacement.",
+    "ours": {
+      "title": "Louie and the Dukes of Dixieland",
+      "artist": "Louis Armstrong",
+      "year": 1960,
+      "label": "Audio Fidelity",
+      "albumDNA": "I've Got the World on a String is a 1960 album by Louis Armstrong, arranged by Russell Garcia. It was recorded on the same day as Armstrong's 1958 album Louis Under the Stars; the previous day he had finished recording Ella and Louis Again with Ella Fitzgerald.",
+      "keyTracks": [
+        "Bourbon Street Parade",
+        "South",
+        "Washington and Lee Swing",
+        "Avalon",
+        "New Orleans"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "a4d633d9-4da7-4add-b724-fcee869fd434",
+          "title": "Louie and the Dukes of Dixieland",
+          "date": "",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Louis Armstrong",
+            "The Dukes of Dixieland"
+          ],
+          "labels": [
+            {
+              "name": "High Definition Tape Transfers",
+              "catalogNumber": "HDTT2584"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "399a036d-da20-4ab1-b64d-f873569652e5",
+            "title": "Louie and the Dukes of Dixieland",
+            "firstReleaseDate": "1960",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Bourbon Street Parade",
+            "South",
+            "Washington and Lee Swing",
+            "Avalon",
+            "New Orleans",
+            "That's a' Plenty",
+            "Just a Closer Walk With Thee",
+            "Dixie",
+            "Sheik of Araby",
+            "Wolverine Blues",
+            "Sweet Georgia Brown",
+            "Limehouse Blues"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/I've_Got_the_World_on_a_String_(album)",
+        "page": {
+          "requestedTitle": "I've Got the World on a String (album)",
+          "resolvedTitle": "I've Got the World on a String (album)",
+          "shortDescription": "1960 studio album by Louis Armstrong",
+          "extract": "I've Got the World on a String is a 1960 album by Louis Armstrong, arranged by Russell Garcia. It was recorded on the same day as Armstrong's 1958 album Louis Under the Stars; the previous day he had finished recording Ella and Louis Again with Ella Fitzgerald.\nIn 1999, I've Got the World on a String was reissued with Louis Under the Stars alongside bonus material and outtakes.\n\n\n== Reception ==\n\nBillboard magazine reviewed the album in their March 14, 1960, issue and wrote that \"Satchmo plays it soft and romantic on this listenable collection of standards...Prime jockey wax\".\nRichard S. Ginell reviewed the reissue of the album for AllMusic and wrote that these \"once-overlooked albums...are finally being appreciated as prime samplings from the autumn of Armstrong's recording career\" and that \"Even in the pressure cooker of a marathon session, even when confronted with standards not often associated with him, Armstrong finds the essence of each tune, bending and projecting them with his patented joie de vivre and gravel-voiced warmth every time\". Ginell described Armstrong's trumpet playing as \"pithy, soulful, [and] belonging to no one else\" and praised Russell Garcia's arrangements for big band or strings as \"...among the most atmospheric ever accorded to Armstrong. In particular, 'When Your Lover Is Gone' is sublime, with its signature riff of blasé, sighing horns and responding, rising string tremolos, and Garcia frames 'Body and Soul' with a lovely string chart whose penultimate stroke is a perfectly placed blue note\".\n\n\n== Track listing ==\n\"When Your Lover Has Gone\" (Einar Aaron Swan) – 4:42\n\"You're the Top\" (Cole Porter) – 2:33\n\"You Turned the Tables on Me\" (Louis Alter, Sidney Mitchell) – 2:38\n\"Don't Get Around Much Anymore\" (Duke Ellington, Bob Russell) – 3:41\n\"Little Girl Blue\" (Richard Rodgers, Lorenz Hart) – 5:45\n\"Nobody Knows the Trouble I've Seen\" (Traditional) – 4:56\n\"We'll Be Together Again\" (Carl T. Fischer) – 4:07\n\"I've Got the World on a String\" (Harold Arlen, Ted Koehler) – 2:52\n\"Do Nothing 'Til You Hear From Me\" (Ellington, Russell) – 4:16\n\"I Gotta Right to Sing the Blues\" (Arlen, Koehler) – 4:05\n\n\n== Personnel ==\nLouis Armstrong – trumpet\nRussell Garcia – arranger, conductor\nNorman Granz – producer\nJohn Altoon – cover art\n\n\n=== Orchestra ===\nVictor Arno, Robert Barene, Jacques Gasselin, Joseph Livoti, Dan Lube, Amerigo Marino, Erno Neufeld, Marshall Sosson, Robert Sushel, Gerald Vinci, Tibor Zelig - violins\nMyron Bacon, Abraham Hochstein, Raymond Menhennick, Myron Sandler - violas\nJustin DiTullio, Kurt Reher, William Van Den Burg - cellos\nFrank Beach, Buddy Childers, Cappy Lewis - trumpets\nMilt Bernhart, Marshall Cram, James Henderson, Lloyd Ulyate - trombones\nVincent DeRosa - French horn\nBill Miller, Paul Smith - piano\nTony Rizzi - guitar\nJoe Mondragon - double bass\nAlvin Stoller - drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "the-piano-soul-of-nat-king-cole",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Nathaniel Adams Coles, known professionally as Nat King Cole, was an American singer, jazz pianist, and actor.",
+    "contradictingQuote": "shortDescription: American singer and jazz pianist (1919–1965)",
+    "skepticDecision": "The albumDNA is wholesale the verbatim Nat King Cole artist-page lead with no album-level content; the evidence shortDescription confirms the described subject is the person, a different entity than this 1968 Pickwick album.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Nathaniel Adams Coles, known professionally as Nat King Cole, was an American singer, jazz pianist, and actor.",
+        "problem": "The entire albumDNA is the artist's biography (verbatim Wikipedia lead about the person), with zero content about this album - the item is an album, the prose is about a person",
+        "evidenceQuote": "American singer and jazz pianist (1919-1965)",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Catalog fields are solid: embedded MBID (authoritative) verifies title/artist/year/label (Pickwick/33 SPC-3187, 1968) and all five keyTracks (MB tracks 1-5). The corruption is the prose: it is the Nat King Cole biography lead verbatim - the spec's 'a person when the item is an album' case - and the stored wiki link is likewise the artist page, not an album page. The bio facts are true of Cole but say nothing about the album. Repair: write actual album prose. Note for the writer: Cole died in 1965 (wiki), so this 1968 Pickwick/33 release is posthumous; likely budget-label reissue material (background inference - verify externally; MB RG carries no Compilation secondary type).",
+    "ours": {
+      "title": "The Piano Soul of Nat King Cole",
+      "artist": "Nat King Cole",
+      "year": 1968,
+      "label": "Pickwick/33 Records",
+      "albumDNA": "Nathaniel Adams Coles, known professionally as Nat King Cole, was an American singer, jazz pianist, and actor. Cole's career as a jazz and pop vocalist started in the late 1930s and spanned almost three decades where he found success and recorded over 100 songs that became hits on the pop charts.",
+      "keyTracks": [
+        "Hear The Music",
+        "April In Paris",
+        "My Heart Stood Still",
+        "Love Walked In",
+        "I Want To Be Happy"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "02fabc89-5eeb-40d8-8a9a-12e7ff4b218d",
+          "title": "The Piano Soul of Nat King Cole",
+          "date": "1968",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Nat King Cole"
+          ],
+          "labels": [
+            {
+              "name": "Pickwick/33 Records",
+              "catalogNumber": "SPC-3187"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0657477d-32e2-4956-909f-472628eb2b3f",
+            "title": "The Piano Soul of Nat King Cole",
+            "firstReleaseDate": "1968",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Hear The Music",
+            "April In Paris",
+            "My Heart Stood Still",
+            "Love Walked In",
+            "I Want To Be Happy",
+            "Tea For Two",
+            "I Get A Kick Out of You",
+            "Just One Of Those Things",
+            "Stella By Starlight"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Nat_King_Cole",
+        "page": {
+          "requestedTitle": "Nat King Cole",
+          "resolvedTitle": "Nat King Cole",
+          "shortDescription": "American singer and jazz pianist (1919–1965)",
+          "extract": "Nathaniel Adams Coles (March 17, 1919 – February 15, 1965), known professionally as Nat King Cole, was an American singer, jazz pianist, and actor. Cole's career as a jazz and pop vocalist started in the late 1930s and spanned almost three decades where he found success and recorded over 100 songs that became hits on the pop charts.\nCole began his career as a jazz pianist in the late 1930s, when he formed the King Cole Trio, which became the top-selling group (and the only black act) on Capitol Records in the 1940s. Cole's trio was the model for small jazz ensembles that followed. Starting in 1950, he transitioned to become a solo singer billed as Nat King Cole. Despite achieving mainstream success, Cole faced intense racial discrimination during his career. While not a major vocal public figure in the civil rights movement, Cole was a member of his local NAACP branch and participated in the 1963 March on Washington. He regularly performed for civil rights organizations. From 1956 to 1957, Cole hosted the NBC variety series The Nat King Cole Show, which became the first nationally broadcast television show hosted by a Black American.\nSome of Cole's most notable singles include \"Unforgettable\", \"Smile\", \"A Blossom Fell\", \"Nature Boy\", \"When I Fall in Love\", \"Let There Be Love\", \"Mona Lisa\", \"Autumn Leaves\", \"Stardust\", \"Straighten Up and Fly Right\", \"The Very Thought of You\", \"For Sentimental Reasons\", \"Embraceable You\" and \"Almost Like Being in Love\". His 1960 Christmas album The Magic of Christmas (also known as The Christmas Song), was the best-selling Christmas album released in the 1960s; and was ranked as one of the 40 essential Christmas albums (2019) by Rolling Stone. In 2022, Cole's recording of \"The Christmas Song\", broke the record for the longest journey to the top ten on the Billboard Hot 100, when it peaked at number nine, 62 years after it debuted on the chart; and was selected by the Library of Congress for preservation in the United States National Recording Registry.\nCole received numerous accolades including a star on the Hollywood Walk of Fame (1960) and a Special Achievement Golden Globe Award. Posthumously, Cole has received the Grammy Lifetime Achievement Award (1990), along with the Sammy Cahn Lifetime Achievement Award (1992) and has been inducted into the DownBeat Jazz Hall of Fame  (1997), Rock and Roll Hall of Fame (2000), and the National Rhythm & Blues Hall of Fame (2020). NPR named him one of the 50 Great Voices. Cole was the father of singer Natalie Cole (1950–2015), who covered her father's songs in the 1991 album Unforgettable... with Love.\n\n\n== Early life ==\nNathaniel Adams Coles was born in Montgomery, Alabama, on March 17, 1919. He had three brothers: Eddie (1910–1970), Ike (1927–2001), and Freddy (1931–2020), and a half-sister, Joyce. Each of the Coles brothers pursued careers in music. When Cole was four years old, the family moved to Chicago, Illinois, where his father, Edward, became a Baptist minister. Cole learned to play the organ from his mother, Perlina (Adams) Coles, the church organist. His first performance was \"Yes! We Have No Bananas\" at the age of four. Cole began formal piano lessons at the age of 12, learning jazz, gospel, and classical music \"from Johann Sebastian Bach to Sergei Rachmaninoff\". As a youth, Cole joined the news delivery boys' \"Bud Billiken Club\" band for The Chicago Defender.\nCole and his family moved to the Bronzeville neighborhood of Chicago, where Cole attended Wendell Phillips Academy High School, the school Sam Cooke attended a few years later. Cole participated in Walter Dyett's music program at DuSable High School. He would sneak out of the house to visit clubs, sitting outside to hear Louis Armstrong, Earl Hines, and Jimmie Noone.\n\n\n== Career ==\n\n\n=== Early career ===\n\nWhen he was 15, Cole dropped out of high school to pursue a music career. After his brother Eddie, a bassist, came home from touring with Noble Sissle, they formed a sextet and recorded two singles for Decca in 1936 as Eddie Cole's Swingsters. They performed in a revival of the musical Shuffle Along. Nat Cole went on tour with the musical. In 1937, he married Nadine Robinson, who was a member of the cast. After the show ended in Los Angeles, Cole and Nadine settled there while he looked for work.\nOne day in 1938, as he was relaxing in his hotel room, Bing Crosby heard the Nat Cole Trio for the first time from Jim Otto's Steak House, and then took Johnny Mercer to hear them. Cr"
+        }
+      }
+    }
+  },
+  {
+    "id": "malphas-book-of-angels-volume-3",
+    "kind": "album",
+    "repairClass": "entity_mismatch",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Orobas: Book of Angels Volume 4 is an album by Koby Israelite performing compositions from John Zorn's second Masada book, \"The Book of Angels\".",
+    "contradictingQuote": "Orobas: Book of Angels Volume 4 is an album by Koby Israelite performing compositions from John Zorn's second Masada book, \"The Book of Angels\".",
+    "skepticDecision": "Fails: the prose is the verbatim lede of 'Orobas: Book of Angels Volume 4' by Koby Israelite, a different volume and a different performing artist, while MB confirms the item is 'Malphas: Book of Angels, Volume 3' (Mark Feldman & Sylvie Courvoisier). Wholesale about another work.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Orobas: Book of Angels Volume 4 is an album by Koby Israelite performing compositions from John Zorn's second Masada book, \"The Book of Angels\".",
+        "problem": "The item is 'Malphas: Book of Angels, Volume 3' (performed by Mark Feldman & Sylvie Courvoisier per MB), but the albumDNA describes a DIFFERENT volume, 'Orobas: Book of Angels Volume 4' by Koby Israelite. Wrong album in the series.",
+        "evidenceQuote": "Orobas: Book of Angels Volume 4 is an album by Koby Israelite performing compositions from John Zorn's second Masada book, \"The Book of Angels\".",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "MB embedded_mbid confirms OUR album is Malphas Vol 3 (Tzadik, 2006-01-24, performers Mark Feldman & Sylvie Courvoisier; Zorn is composer). But the albumDNA and the stored_url are both about Orobas Vol 4 (Koby Israelite) - a different release. keyTracks Azriel/Basus/Rigal/Kafziel match MB; 'Labariel' does not match (MB has 'Lahariel' - almost certainly a one-letter typo). Note: our artist field 'John Zorn' is the composer, not the performing artist MB lists, but that is conventional for the Book of Angels series and not the basis for this verdict; the verdict is driven by the swapped prose.",
+    "ours": {
+      "title": "Malphas: Book of Angels, Volume 3",
+      "artist": "John Zorn",
+      "year": 2006,
+      "label": "Tzadik",
+      "albumDNA": "Orobas: Book of Angels Volume 4 is an album by Koby Israelite performing compositions from John Zorn's second Masada book, \"The Book of Angels\". Part of Tzadik's jazz fusion catalog. John Zorn's Tzadik label spans the avant-garde from jazz to experimental music.",
+      "keyTracks": [
+        "Azriel",
+        "Basus",
+        "Rigal",
+        "Kafziel",
+        "Lahariel"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "4a570475-8e6b-43a6-a023-cfd5eff0821d",
+          "title": "Malphas: Book of Angels, Volume 3",
+          "date": "2006-01-24",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Mark Feldman",
+            "Sylvie Courvoisier"
+          ],
+          "labels": [
+            {
+              "name": "Tzadik",
+              "catalogNumber": "TZ 7354"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0460e9af-9300-3ade-884d-e31be068b533",
+            "title": "Malphas: Book of Angels, Volume 3",
+            "firstReleaseDate": "2006-01-24",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Azriel",
+            "Basus",
+            "Rigal",
+            "Kafziel",
+            "Lahariel",
+            "Zethar",
+            "Paschal",
+            "Boel",
+            "Sammael",
+            "Padiel",
+            "Vretil"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Orobas%3A_Book_of_Angels_Volume_4",
+        "page": {
+          "requestedTitle": "Orobas: Book of Angels Volume 4",
+          "resolvedTitle": "Orobas: Book of Angels Volume 4",
+          "shortDescription": "2006 studio album by Koby Israelite",
+          "extract": "Orobas: Book of Angels Volume 4 is an album by Koby Israelite performing compositions from John Zorn's second Masada book, \"The Book of Angels\".\n\n\n== Reception ==\nThe Allmusic review by Thom Jurek awarded the album 4 stars stating \"Orobas: Book of Angels, Vol. 4 is another essential Four-for-four and counting. This is the most exhilarating set of recordings Tzadik has offered in quite some time. For those who haven't yet checkout Israelite, this is a fantastic opportunity\". \n\n\n== Track listing ==\nAll compositions by John Zorn.\n\"Rampel\" - 6:31\n\"Zafiel\" - 4:40\n\"Ezgadi\" - 5:16\n\"Nisroc\" - 4:56\n\"Negef\" - 5:54\n\"Khabiel\" - 6:28\n\"Chayo\" - 6:27\n\"Rachmiel\" - 8:08\nRecorded in London, UK in November–December 2005\n\n\n== Personnel ==\nKoby Israelite – drums, percussion, accordion, keyboards, guitar, bouzouki, Indian banjo, vocals, flute, electric bass, cajón, arrangements\nSid Gauld – trumpet\nYaron Stavi – basses, vocals\nStewart Curtis – recorder, piccolo, clarinet\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "bheki-mseleku",
+    "kind": "artist",
+    "repairClass": "factual_error",
+    "field": "bio",
+    "targetFile": "artistsDetail",
+    "specificBadClaim": "His 1992 album 'Celebration' on Verve Records featured Joe Henderson and Pharoah Sanders",
+    "contradictingQuote": "Celebration (World Circuit, 1991)",
+    "skepticDecision": "Evidence: 'Celebration (World Circuit, 1991)' and it featured Courtney Pine / British players; Joe Henderson appeared on the LATER Verve album. The prose's '1992 ... Verve ... Joe Henderson' conflates two different releases. Multiple directly-contradicted facts.",
+    "entityMatch": {
+      "musicbrainz": "n/a",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "His 1992 album 'Celebration' on Verve Records",
+        "problem": "Celebration was released in 1991 on World Circuit, not 1992 on Verve; Verve signed him only after Celebration",
+        "evidenceQuote": "His 1991 album Celebration, which featured Courtney Pine among a number of British players as guests, was nominated for a Mercury Music Prize. After this, Mseleku was taken up by Verve Records for several albums.",
+        "source": "wiki"
+      },
+      {
+        "ourClaim": "His 1992 album 'Celebration' on Verve Records",
+        "problem": "discography confirms label and year: World Circuit, 1991",
+        "evidenceQuote": "Celebration (World Circuit, 1991)",
+        "source": "wiki"
+      },
+      {
+        "ourClaim": "featured Joe Henderson and Pharoah Sanders",
+        "problem": "per evidence, Celebration's guests were Courtney Pine and British players; Joe Henderson appeared on the first of the later Verve albums, not on Celebration; Pharoah Sanders is not mentioned anywhere in the evidence",
+        "evidenceQuote": "The first of these featured a number of American players, including Joe Henderson, Abbey Lincoln and Elvin Jones.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Right entity (1955-2008, South African, pianist/saxophonist, self-taught, spiritual themes all match), but the album sentence conflates Celebration (World Circuit, 1991, Courtney Pine) with his subsequent Verve recordings (Joe Henderson et al.). 'Struggles with health and addiction': health supported (diabetic, bipolar diagnosis); addiction not mentioned in evidence. Repair should rewrite the Celebration sentence.",
+    "ours": {
+      "name": "Bheki Mseleku",
+      "bio": "Bheki Mseleku was a South African pianist, saxophonist, and composer of extraordinary gifts who blended jazz with Zulu musical traditions and deep spirituality. His 1992 album 'Celebration' on Verve Records featured Joe Henderson and Pharoah Sanders and introduced his unique vision to an international audience. Despite struggles with health and addiction, Mseleku's music achieved a transcendent beauty that drew comparisons to John Coltrane's spiritual explorations."
+    },
+    "evidence": {
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Bheki_Mseleku",
+        "page": {
+          "requestedTitle": "Bheki Mseleku",
+          "resolvedTitle": "Bheki Mseleku",
+          "shortDescription": "South African jazz musician (1955–2008)",
+          "extract": "Bhekumuzi Hyacinth Mseleku (3 March 1955 – 9 September 2008), commonly known as Bheki Mseleku, was a South African jazz musician. He was a pianist, saxophonist, guitarist, composer, and arranger who was entirely self-taught.\n\n\n== Biography ==\nMseleku's father was a musician and teacher, and a Cambridge University music graduate, who had religious beliefs that prevented his children from ready access to the family's upright piano in case any of them should pursue something as \"devilish\" as music. His mother gave him the keys while his father was away, but the piano ended up as firewood one winter's evening. During his childhood, Mseleku suffered the loss of the upper joints of two fingers in his right hand from a go-karting accident. He explained in a 1994 South Bank Show dedicated to him that this was wholly due to the restricted health care available to Black South Africans under apartheid.\nMseleku started his musical career in Johannesburg in 1975 as an electric organ player for an R&B band, Spirits Rejoice. After performing at the Newport Jazz Festival in 1977, Mseleku settled in Botswana for a time, moved to London, England, in the late 1970s, and made an attempt to settle into the jazz scene in Stockholm, Sweden, from 1980 to 1983, but then returned to London. It was not until 1987 that Mseleku made his debut at Ronnie Scott's Jazz Club, playing piano unaccompanied by other musicians, with a tenor saxophone in his lap.\n\nHis 1991 album Celebration, which featured Courtney Pine among a number of British players as guests, was nominated for a Mercury Music Prize. After this, Mseleku was taken up by Verve Records for several albums. The first of these featured a number of American players, including Joe Henderson, Abbey Lincoln and Elvin Jones. In 1996, Mseleku won a KORA All Africa Music Award in the category \"Best Instrumentalist (Southern Afrika)\".\nWith Home at Last (2003), the last record released during his lifetime, Mseleku, \"a self-confessed 'Citizen of the World'\", explored \"home\" as being \"a spiritual construct made up of special people and relationships, those that came along on the long hard road, those that were left behind to be re-visited later\".\nIn 2021, the solo piano recording Beyond the Stars was released posthumously. This album was recorded on 28 November 2003, though none of the six songs were released during Mseleku's lifetime. Beyond The Stars provided what pianist Nduduzo Makhathini described in his liner notes as \"a divine summary\" of Mseleku's life story: \"a sonic pilgrimage from the beautiful and organic landscapes of Durban, to the vibrant energy of London and ultimately toward the inner dimensions of one's being.\" \nMseleku was diabetic and at one time had been diagnosed as bipolar. He was the father of nine children: Sizwe Mseleku, Duma Mseleku, Maria Mbalentle Mseleku, Victoria Nokuwela Ogunsaya (née Mseleku), Teresa Milewski, Brenda Mseleku, Michael Mseleku, Noel Goldenbaum, and Nirvana Nokwe-Mseleku who was the youngest—Mseleku's departure left a devastating mark on his family. He died in his London flat, having spent most of his last years back in South Africa, but without finding an outlet for his skills there. His home was burgled in 1994, which affected him deeply, due to the loss of the mouthpiece that John Coltrane had used for the recording of A Love Supreme, given to him by Alice Coltrane at Newport.\nOver the two years prior to his death, Mseleku had established a new band in London and had made several well received appearances around the country.\n\n\n== Discography ==\n\n\n=== As leader ===\nCelebration (World Circuit, 1991)\nMeditations (Verve, 1992)\nTimelessness (Verve, 1994)\nStar Seeding (PolyGram, 1995)\nBeauty of Sunrise (PolyGram, 1997)\nHome at Last (Sheer Sound, 2003)\nBeyond the Stars (Tapestry Works, 2021)\n\n\n=== As contributing artist ===\nHugh Masekela, Waiting for the Rain (1985)\nThe Rough Guide to the Music of South Africa (World Music Network, 1998)\nVaughan Hawthorne-Nelson, See You There (TML Records, 1999)\n\n\n== References ==\n\n\n== External links ==\nBheki Mseleku at AllMusic"
+        }
+      }
+    }
+  },
+  {
+    "id": "world-saxophone-quartet",
+    "kind": "artist",
+    "repairClass": "factual_error",
+    "field": "bio",
+    "targetFile": "artistsDetail",
+    "specificBadClaim": "Founded in 1976, the group proved that four saxophones could generate the full range of jazz expression",
+    "contradictingQuote": "The World Saxophone Quartet was an American jazz ensemble founded in 1977",
+    "skepticDecision": "The entity-matched Wikipedia lead states a specific founding year of 1977, directly contradicting the bio's '1976'. Whatever the ambiguity elsewhere, the provided evidence affirmatively says 1977.",
+    "entityMatch": {
+      "musicbrainz": "n/a",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Founded in 1976, the group proved that four saxophones could generate the full range of jazz expression",
+        "problem": "Founding year contradicts the entity-matched Wikipedia page, which dates the founding to 1977",
+        "evidenceQuote": "The World Saxophone Quartet was an American jazz ensemble founded in 1977",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Right entity: original membership (Julius Hemphill, Oliver Lake, David Murray, Hamiet Bluiett) confirmed exactly. 'Performing without a rhythm section' is consistent with 'principally recorded and performed as a saxophone quartet' (later sometimes joined by drummers/bassists). The 'Revue' album is unverifiable - the discography is not in the extract. Caveat for human review: founding is sometimes dated late 1976 (first concerts) vs 1977 elsewhere, so the 1976-vs-1977 discrepancy may be a genuine source ambiguity rather than corruption; the evidence as given says 1977. Bio's present tense ('is a groundbreaking ensemble') also conflicts with the 2016 split and 'was' in evidence.",
+    "ours": {
+      "name": "World Saxophone Quartet",
+      "bio": "The World Saxophone Quartet is a groundbreaking ensemble consisting of four saxophonists—originally Julius Hemphill, Oliver Lake, David Murray, and Hamiet Bluiett—performing without a rhythm section. Founded in 1976, the group proved that four saxophones could generate the full range of jazz expression, from funky grooves to free improvisation to lush harmonies. Their 'Revue' album is a landmark of collective improvisation and composition."
+    },
+    "evidence": {
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/World_Saxophone_Quartet",
+        "page": {
+          "requestedTitle": "World Saxophone Quartet",
+          "resolvedTitle": "World Saxophone Quartet",
+          "shortDescription": "American jazz ensemble",
+          "extract": "The World Saxophone Quartet was an American jazz ensemble founded in 1977, incorporating elements of free jazz, R&B, funk and South African jazz into their music.\nThe original members were Julius Hemphill (alto and soprano saxophone, flute), Oliver Lake (alto and soprano saxophone), Hamiet Bluiett (baritone saxophone, alto clarinet), and David Murray (tenor saxophone, bass clarinet). The first three had worked together as members of the Black Artists' Group in St. Louis, Missouri, and had appeared together on Anthony Braxton's album New York, Fall 1974. In 1991, Hemphill left the group due to illness, and was replaced by Arthur Blythe, although several saxophonists have filled his chair in the years since.  Hemphill died on April 2, 1995. Beginning in the early 1980s, the quartet used Bluiett's composition \"Hattie Wall\" (released on W.S.Q., Live in Zurich, Dances and Ballads, Steppenwolf and Yes We Can) as a signature theme for the group. The group principally recorded and performed as a saxophone quartet, usually with a line-up of two altos, tenor, and baritone (reflecting the composition of a classical string quartet), but were also joined later in their career by drummers, bassists, and other musicians. Occasionally other saxophonists would sit in or substitute for a tour. These guests have included Sam Rivers, Tony Kofi, Steve Potts, Branford Marsalis, James Spaulding and Jorge Sylvester. Hamiet Bluiett died on October 4, 2018, after an extended illness. The ensemble had split up in 2016.\n\n\n== Discography ==\n\n\n=== Predecessor Tack ===\nComposition No. 37 from \"New York, Fall 1974\" (Arista, AL 4032) [Anthony Braxton, Oliver Lake, Julius Hemphill, Hamiet Bluiett]\n\n\n=== Albums ===\n\n\n== References ==\n\n\n== External links ==\nReview of 2009's Yes We Can"
+        }
+      }
+    }
+  },
+  {
+    "id": "tito-puente",
+    "kind": "artist",
+    "repairClass": "factual_error",
+    "field": "bio",
+    "targetFile": "artistsDetail",
+    "specificBadClaim": "Tito Puente was one of the defining figures of Swing",
+    "contradictingQuote": "He composed dance-oriented mambo and Latin jazz music.",
+    "skepticDecision": "The evidence affirmatively assigns his idiom — 'dance-oriented mambo and Latin jazz music' (short description: 'Latin jazz and mambo musician') — a different primary genre. Calling him 'one of the defining figures of Swing' is the bio's single substantive tag and is contradicted by an affirmative, sourced genre, not merely unmentioned.",
+    "entityMatch": {
+      "musicbrainz": "n/a",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "one of the defining figures of Swing",
+        "problem": "Evidence positively characterizes Puente's idiom as mambo and Latin jazz, not swing; the page's short description is 'American Latin jazz and mambo musician (1923–2000)'.",
+        "evidenceQuote": "He composed dance-oriented mambo and Latin jazz music.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Entity match solid — this is the right Tito Puente, so not an entity_mismatch; but the template bio's one substantive tag (Swing) conflicts with the evidence's positive genre characterization (mambo/Latin jazz). Possible benign explanation: the site's era taxonomy may bucket him by period (1940s big-band/Machito era — evidence notes he replaced the drummer in Machito's band) rather than idiom; still misleading as shipped. Fields are missing-data placeholders; birthYear 0 contradicts documented 1923. deathYear/instruments entries are missing-not-wrong, included as fill values.",
+    "ours": {
+      "name": "Tito Puente",
+      "bio": "Tito Puente was one of the defining figures of Swing, whose recordings remain essential listening for anyone exploring the tradition."
+    },
+    "evidence": {
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Tito Puente",
+          "resolvedTitle": "Tito Puente",
+          "shortDescription": "American Latin jazz and mambo musician (1923–2000)",
+          "extract": "Ernest Anthony Puente Jr. (April 20, 1923 – May 31, 2000), commonly known as Tito Puente, was an American musician, songwriter, bandleader, timbalero, vibraphonist and record producer. He composed dance-oriented mambo and Latin jazz music. He was also known as “El Rey de los Timbales,” or “The King of the Timbales.”\nPuente and his music have appeared in films including The Mambo Kings and Fernando Trueba's Calle 54. He guest-starred on television shows, including Sesame Street and The Simpsons episode \"Who Shot Mr. Burns?\".\n\n\n== Early life ==\nPuente was born on April 20, 1923, at Harlem Hospital Center in the New York borough of Manhattan, the son of Ernest and Felicia Puente, Puerto Ricans living in New York City's Spanish Harlem. His family moved frequently, but he spent the majority of his childhood in Spanish Harlem. Puente's father was the foreman at a razor blade factory. His family called him Ernestito (Spanish diminutive for 'Ernest'), and this became shortened to \"Tito\".\nPuente was first introduced to music through the radio. Described as a hyperactive child, neighbors complained hearing seven-year-old Puente beating on pots and window frames, so his mother sent him to 25-cent piano lessons.  He switched to percussion by the age of 10, drawing influence from jazz drummer Gene Krupa. He later created a song-and-dance duo with his sister Anna in the 1930s and intended to become a dancer, but an ankle tendon injury prevented him from pursuing dance as a career.  Puente also learned from the trios and bambas that played at Plaza San Jose in old San Juan. He heard mambo (now called salsa) music and was influenced by its Afro-Cuban roots. By 13, Puente was considered a prodigy. When he was 16, he played with Ramon Oliver’s band. When the drummer in Machito's band was drafted to the army, Puente subsequently took his place.\n\n\n== Career ==\n\n\n=== Styles and Influences ===\nPuente had distinct Asian influences in his composition and arranging style, all of which came after his service during World War II. After finishing his time in the Navy, Puente attended the Juilliard School of Music to study conducting and orchestration. His conducting teacher was Japanese, further influencing the Asian elements in his compositions. Throughout the rest of his career, Puente traveled to Japan many times while on tour. He said that if it was not for war, he would have never been exposed to their music and culture. “Even in war, [the power of] music, art, dancing, food… always eventually wins.”Puente's introduction to music was jazz drumming with an African American show drummer he remembers as Mr. Williams. During this time, he also learned acrobatic tap and ballroom dancing. Puente introduced new techniques to some percussion instruments that would help redefine how they were used in music. For example, while learning vibraphone and marimba, he introduced piano techniques. He also applied his jazz training to timbales, which was unlike anything that had been before. This helped redefine the timbales as a solo instrument.\n\n\n=== Time in the Navy ===\nPuente served in the Navy for three years during World War II after being drafted in 1942. He was discharged with a Presidential Unit Citation for serving in nine battles on the escort aircraft carrier USS Santee (CVE-29) where his duties included playing alto saxophone and clarinet in the ship's big band as well as occasionally drum set, piano during mess hall, acting as the ship's bugler, and serving as a machine gunner in the battles of Leyte and Midway. The G.I. Bill allowed him to study music at Juilliard School of Music, where he completed his formal education in conducting, orchestration, and theory after three years. Puente described his time in the Navy as, “What you normally study in a four-year music conservatory, but in three months… And it was all done with military discipline… it was intense.”\nPuente was the ship's bugler. Whenever warming up he would play general quarters. One day he forgot to turn off the microphone, leading everyone to believe there was an attack. He hid below deck for a few days due to the anger from crew members for the false alarm. Puente said his worst time in the Navy was every time he had to play taps for someone who was killed.\nWhile aboard the Santee, Puente expanded his compositional skills by learning how to arrange for big bands given the extra time he had. He was coached by Lieutenant Sweeney who he came to be friends with. Sweeney referred to Puente as “Lil’ Ernie” because of his height. The first chart Puente arranged was ‘El Botellero’ which he sent to Machito and Mario Bauza in New York City.\n\n\n=== Post-Navy ===\nPuente was offered a delayed return to the ship so he could go to different parts of the Orient (LINK). He was given several months to stop in each port city to learn about music, food, and customs. During this time he learned a lot about Asian music, experienced the culture, and learned how they apply music theory in their compositions. He learned that they use chord voicings in fourths, wrote melodies based on scales, and more. This influenced pieces such as \"Hong Kong Mambo,\" “Mambo Buddha,\" and \"Picadillo.\" After finishing his time in the Navy, Puente attended the Juilliard School of Music to study orchestration and conducting.\n\nBands wanted Puente playing up front rather than in the back like most big bands. Not only did he play in a unique and revolutionary way, he also put on a show for the audiences. Sometimes he was the show. Puente was also a popular arranger given his background and the influence of past mentors. By 1948, Puente started his own group.\nDuring the 1950s, Puente was at the height of his popularity and helped to bring Cuban and Caribbean sounds like mambo, son, and cha-cha-chá, to mainstream audiences. His album Dance Mania was released in 1958.\nAmong his compositions is the cha-cha-chá song \"Oye Cómo Va\" (1963), popularized by Latin rock musician Carlos Santana and later interpreted, among others, by Julio Iglesias, Irakere and Celia Cruz. In 1969, he received the key to the City of New York from former Mayor John Lindsay. In 1992, he was inducted into the National Congressional Record and in 1993, he received the James Smithson Bicentennial Medal from the Smithsonian Institution.\n\n\n=== The Palladium Era ===\nPuente is one of the subjects of La Época – The Palladium Era, a documentary about the Palladium era in New York, Cuban music and rhythms, mambo and salsa as dances and music and much more. The documentary discusses many of Puente's, as well as Arsenio Rodríguez's, contributions and features interviews with some of the musicians Puente recorded with.\nBeginning in the 1950s, Americans fell in love with mambo. In New York City, the Palladium Ballroom was the “Home of the Mambo.” It had been converted from the Alma Dance Studio into a nightclub by Tommy Morton in 1946.\nMachito, who was popular and sold lots of records, was hired along with musicians to play"
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Tito Puente",
+            "shortDescription": "American Latin jazz and mambo musician (1923–2000)",
+            "extractHead": "Ernest Anthony Puente Jr. (April 20, 1923 – May 31, 2000), commonly known as Tito Puente, was an American musician, songwriter, bandleader, timbalero, vibraphonist and record producer. He composed dance-oriented mambo and Latin jazz music. He was also known as “El Rey de los Timbales,” or “The King of the Timbales.”\nPuente and his music have appeared in films including The Mambo Kings and Fernando Trueba's Calle 54. He guest-starred on television shows, including Sesame Street and The Simpsons e"
+          },
+          {
+            "resolvedTitle": "Tito Puente Amphitheatre",
+            "shortDescription": "Concert venue in San Juan, Puerto Rico",
+            "extractHead": "The Tito Puente Amphitheatre (or Anfiteatro Tito Puente in Spanish) is a concert amphitheater in San Juan, Puerto Rico, named after late mambo musician and percussionist, Tito Puente. It was previously named the Luis Muñoz Marín Amphitheatre (or Anfiteatro Luis Muñoz Marín).\nWith a maximum capacity of just 3,000 people, the Tito Puente Amphitheatre is a frequent spot for smaller, more \"intimate\" concert events, and hosts  numerous artists performing many styles of music. The venue is home of the"
+          },
+          {
+            "resolvedTitle": "Tito Puente Swings, The Exciting Lupe Sings",
+            "shortDescription": "1965 studio album by La Lupe, Tito Puente",
+            "extractHead": "Tito Puente Swings, The Exciting Lupe Sings, also known as La exitante Lupe canta con el maestro Tito Puente is an album by La Lupe and Tito Puente. It was released by Tico Records in 1965. AllMusic gave the album a rating of two-and-a-half stars.\n\n\n== Track listing ==\nSide A\n\n\"Todo\" (A. Alguerod) [2:00]\n\"Yo No Lloro Mas\" (Myrta Silva) [2:58]\n\"Bomba Na' Ma'\" (Rafael Davila) [2:44]\n\"Adios\" (A. Alguerod) [2:50]\n\"Menealo (Tiene La Azucar Abajo)\" (Luis Kalaff) [3:04]\n\"Homenaje a Juan Vicente\" (Billo"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "tenor-titans",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Awarded Magister of Music at Fryderyk Chopin University of Music, Warsaw.",
+    "contradictingQuote": "Awarded Magister of Music (Master of Arts) at Fryderyk Chopin University of Music, Warsaw.",
+    "skepticDecision": "The closing credential is lifted from the Tomasz Szukalski page and grafted onto the Ben Webster album; only that sentence is foreign, so it is a factual error on the right album rather than a full entity mismatch.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "no"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Awarded Magister of Music at Fryderyk Chopin University of Music, Warsaw.",
+        "problem": "This biographical credential does not belong to Ben Webster (American tenor saxophonist, d. 1973) or to this album. It is lifted from the wrong-entity wiki page stored for this item — Tomasz Szukalski, a Polish saxophonist — where the identical sentence appears. A disambiguation-collision contaminant injected into the Ben Webster blurb.",
+        "evidenceQuote": "Awarded Magister of Music (Master of Arts) at Fryderyk Chopin University of Music, Warsaw.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Album core is clean: embedded-MBID release confirms Tenor Titans, Dexter Gordon & Ben Webster, 1997, Storyville Records; all 5 keyTracks on the tracklist; the two tracks named in prose match. BUT the stored wiki URL is WRONG ENTITY ('Tomasz Szukalski', a Polish saxophonist, d. 2012, not Ben Webster), and the final sentence of our albumDNA is a verbatim contaminant from that Szukalski page (his Warsaw conservatory degree) wrongly attached to the Ben Webster album. Flagged factual_error for that injected false credential and wrong_entity for the wiki link; a repair-writer must delete the Magister-of-Music sentence and fix the link.",
+    "ours": {
+      "title": "Tenor Titans",
+      "artist": "Ben Webster",
+      "year": 1997,
+      "label": "Storyville Records",
+      "albumDNA": "Recorded for Storyville Records in 1997, Tenor Titans presents tenor saxophonist Ben Webster working in a swing vein. The date includes \"Stickey Wicket\" and \"Do Nothing Till You Here From Me\". The album comes from the contemporary era's stylistic eclecticism, drawing on the full history of jazz and beyond. Awarded Magister of Music at Fryderyk Chopin University of Music, Warsaw.",
+      "keyTracks": [
+        "Stickey Wicket",
+        "Do Nothing Till You Here From Me",
+        "Our Love Is Here To Stay",
+        "Medley: How Long Has This Been Going On / Sophisticated Lady",
+        "Perdido"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "cf4672bc-0201-45e2-8fdd-2c3817af3b9b",
+          "title": "Tenor Titans",
+          "date": "1997",
+          "country": "DK",
+          "status": "Official",
+          "artists": [
+            "Dexter Gordon",
+            "Ben Webster"
+          ],
+          "labels": [
+            {
+              "name": "Storyville Records",
+              "catalogNumber": "STCD 8288"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "03d9e3b3-32d3-426b-a173-44b7a94341f3",
+            "title": "Tenor Titans",
+            "firstReleaseDate": "1997",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Stickey Wicket",
+            "Do Nothing Till You Here From Me",
+            "Our Love Is Here To Stay",
+            "Medley: How Long Has This Been Going On / Sophisticated Lady",
+            "Perdido",
+            "In A Mellow Tone",
+            "C-Jam Blues"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Tomasz_Szukalski",
+        "page": {
+          "requestedTitle": "Tomasz Szukalski",
+          "resolvedTitle": "Tomasz Szukalski",
+          "shortDescription": "Polish musical artist",
+          "extract": "Tomasz Szukalski (25 December 1947 in Warsaw, Polish People's Republic, registered by Soviet authorities 8 January 1948 – 2 August 2012 in Piaseczno, Poland) was a Polish jazz saxophonist, composer and improviser. Szukalski worked with Tomasz Stańko, Edward Vesala and Zbigniew Namysłowski. Awarded Magister of Music (Master of Arts) at Fryderyk Chopin University of Music, Warsaw. Szukalski was a revered master of tenor saxophone and his style was often compared to that of John Coltrane and Ben Webster.\n\n\n== Life and career ==\n\n\n=== Early years ===\nSzukalski studied clarinet but preferred to perform on tenor saxophone, soprano saxophone and on special occasions on bass clarinet or baritone saxophone. Being experiment friendly, he once tried a chainsaw.\nSzukalski began his career in the jazz orchestras of Zbigniew Namysłowski and Jan Ptaszyn Wróblewski. Other members of the bands included Tomasz Stańko, Zbigniew Seifert, Adam Makowicz, Włodzimierz Nahorny, Janusz Muniak, Michał Urbaniak and Tomasz's lifelong mate Wojciech Karolak.\n\n\n=== Tomasz Stańko, ECM and SBB ===\nIn the 1970s, Szukalski's performances became more avant-garde and free. While he continued to perform with  Tomasz Stańko, he also worked with Peter Warren and Edward Vesala as well as Arild Andersen, Dave Holland, Palle Danielsson, Palle Mikkelborg, Terje Rypdal, Juhani Aaltonen and Antti Hytti.\nDuring this period, in 1975, he recorded with Stańko on the trumpeter's album entitled \"Balladyna\" for ECM. Parallel to touring Scandinavia and West Europe with other jazz musicians, Szukalski performed in Poland with the Silesian rockband SBB.\n\n\n=== The Quartet and Józef Skrzek ===\nIn 1977, Szukalski consolidated his own band The Quartet, which soon gained high reputation. His bandmates were Sławomir Kulpowicz, Paweł Jarzębski and Janusz Stefański. Some of the last concerts of this famous constellation were performed according to various sources in 1979 or 1980 at Village Vanguard in New York. In the years 1980-1981 Szukalski continued a duo cooperation with SBB's leader Józef Skrzek. The planned bookings for autumn 1981 joint performance of SBB and his own The Quartet at the Jazz Jamboree festival, due to the tense political situation in Poland, were not finalized. The duo realized the album \"Ambitus Extended\" and Szukalski also performed with Józef Skrzek and his short living project Józef Skrzek Formation. They toured across Polish People's Republic and Czechoslovakia and performed the soundtrack for the science-fiction movie \"The War of the Worlds: Next Century\" (1981).\nJust weeks before the onset of martial law in Poland Tomasz performed with Józef Skrzek, Andrzej Ryszka, Sławomir Piwowar, Andrzej Urny, Dean Brown and Gil Goldstein in Warsaw and with his The Quartet mates at a workshop in memory of John Coltrane \"We'll Remember Coltrane\" (New Jazz Meeting), organised by Joachim-Ernst Berendt at Südwestfunk in Baden-Baden, where also Tomasz Stańko, Albert Mangelsdorff and John Coltrane's drummer Rashied Ali were present. During his stay in Vienna, following December 1981 Czechoslovakia tour (performing \"Ambitus Extended\" with Józef Skrzek), martial law was imposed and Szukalski returned home.\n\n\n=== Martial law - Time killers ===\nTo survive the martial law in Poland Szukalski re-joined the orchestra of Jan Ptaszyn Wróblewski playing known American standards. In 1984, he recorded with his old mates Wojciech Karolak and Czesław Bartkowski the groovy \"Time Killers\", which instantly became a hit. In 1985, Tomasz consolidated his new quartet with Piotr Biskupski, Andrzej Cudzich and Andrzej Jagodziński and eventually his friend and neighbour, the drummer Marek Stach, but the new quartet did not survive due lack of performances and the atmosphere of martial law. Tomasz's custom made Henri Selmer Paris tenor saxophone and Julius Keilwerth soprano saxophone have been stolen in Warsaw a couple of months before he moved to his cabin outside Warsaw.\n\n\n=== Artur, Alain, Antti, Apostolis, Arild ===\nAfter 1990, Szukalski performed in various constellations, recorded as sideman and special guest, and started a long lasting cooperation with the young pianist Artur Dutkiewicz. \nDuring the last decade of the 20th century and the first of the 21st century, Tomasz performed with Artur Dutkiewicz, Wojciech Karolak, Alain Brunet (the French jazz trumpeter and vice minister of culture), Tadeusz Nalepa, Piotr Wojtasik, Wojciech Majewski, Tomasz Stańko, Palle Danielsson, Janusz Skowro"
+        }
+      }
+    }
+  },
+  {
+    "id": "hi-de-ho-man-cab-calloway",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 2008, Hi De Ho Man",
+    "contradictingQuote": "\"date\": \"1974\"",
+    "skepticDecision": "All six keyTracks match the matched release's tracklist, so it is unambiguously the same release; both the release and release-group are dated 1974. A 1974 Columbia compilation cannot be 'Recorded in 2008', and no 2008 release appears anywhere in the evidence -> factual_error on the year.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 2008, Hi De Ho Man showcases Cab Calloway",
+        "problem": "Our year 2008 contradicts the matched release date of 1974 (a Columbia compilation); no later 2008 release is shown in evidence",
+        "evidenceQuote": "\"title\": \"Hi De Ho Man\", \"date\": \"1974\"",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Same entity (Cab Calloway, Hi De Ho Man, Columbia compilation). Year field is wrong: MB release and release-group both date 1974, ours says 2008. keyTracks all match the MB tracklist (ours 'Fifteen Minutes Itermission' is a typo for MB 'Fifteen Minutes Intermission'; 'Jumpin Jive' and 'A Chicken Ain't Nothing but a Bird' match). Label placeholder 'Various' (MB: Columbia).",
+    "ours": {
+      "title": "Hi De Ho Man",
+      "artist": "Cab Calloway",
+      "year": 1974,
+      "label": "Various",
+      "albumDNA": "Recorded in 2008, Hi De Ho Man showcases Cab Calloway at the height of their creative powers, offering one of the finest expressions of Swing. Hi De Ho Man remains a landmark of Swing, cementing Cab Calloway's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Nagasaki",
+        "Hoy Hoy",
+        "Jumpin Jive",
+        "Abi Gezunt",
+        "Fifteen Minutes Itermission",
+        "A Chicken Ain't Nothing but a Bird"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "37b96b34-eb82-4c1c-b90c-3a65a9437a46",
+          "title": "Hi De Ho Man",
+          "date": "1974",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Cab Calloway"
+          ],
+          "labels": [
+            {
+              "name": "Columbia",
+              "catalogNumber": "G 32593"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "ee15cddc-2488-3f6c-ba84-b58d58b9a633",
+            "title": "Hi De Ho Man",
+            "firstReleaseDate": "1974",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Nagasaki",
+            "Hoy Hoy",
+            "Jumpin Jive",
+            "Abi Gezunt",
+            "Fifteen Minutes Intermission",
+            "A Chicken Ain’t Nothing but a Bird",
+            "My Gal",
+            "St. James Infirmary",
+            "I Want to Rock",
+            "I’ll Be Around",
+            "Minnie the Moocher",
+            "Honey Dripper",
+            "Hey Now–Hey Now",
+            "Hi De Ho Man",
+            "Oh Grandpa",
+            "Jungle King",
+            "Two Blocks Down, Turn to the Left",
+            "San Francisco Fan",
+            "The Calloway Boogie",
+            "Everybody Eats When They Come to My House"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  }
+]

@@ -1,0 +1,1427 @@
+{
+  "count": 105,
+  "repairs": [
+    {
+      "action": "research",
+      "file": "artistsDetail",
+      "id": "david-murray",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/David_Murray_(musician)",
+      "after": "https://en.wikipedia.org/wiki/David_Murray_(saxophonist)",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/David_Murray_(saxophonist)"
+      ],
+      "evidence": "Article 'David Murray (saxophonist)' is the live page: 'David Keith Murray (born February 19, 1955) is an American jazz saxophonist and composer who performs mostly on tenor and bass clarinet.'"
+    },
+    {
+      "action": "research",
+      "file": "artists",
+      "id": "jiro-inagaki",
+      "field": "deathYear",
+      "before": 2016,
+      "after": 2024,
+      "sourceUrl": [
+        "https://ja.wikipedia.org/wiki/%E7%A8%B2%E5%9E%A3%E6%AC%A1%E9%83%8E",
+        "https://www.wikidata.org/wiki/Q105576139"
+      ],
+      "evidence": "Japanese Wikipedia lead gives life dates 1933年10月3日 - 2024年1月18日; Wikidata Q105576139 records date of death 2024-01-18. Ours said 2016."
+    },
+    {
+      "action": "research",
+      "file": "artistsDetail",
+      "id": "jiro-inagaki",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Jiro_Inagaki",
+      "after": "https://ja.wikipedia.org/wiki/%E7%A8%B2%E5%9E%A3%E6%AC%A1%E9%83%8E",
+      "sourceUrl": [
+        "https://ja.wikipedia.org/wiki/%E7%A8%B2%E5%9E%A3%E6%AC%A1%E9%83%8E"
+      ],
+      "evidence": "No English Wikipedia article exists (en.wikipedia.org/wiki/Jiro_Inagaki returns 404). The live primary article is the Japanese one, linked from Wikidata Q105576139."
+    },
+    {
+      "action": "research",
+      "file": "artists",
+      "id": "jiro-inagaki",
+      "field": "instruments",
+      "before": [
+        "saxophone"
+      ],
+      "after": [
+        "tenor saxophone",
+        "soprano saxophone",
+        "flute"
+      ],
+      "sourceUrl": [
+        "https://ja.wikipedia.org/wiki/%E7%A8%B2%E5%9E%A3%E6%AC%A1%E9%83%8E"
+      ],
+      "evidence": "Japanese Wikipedia describes him as a saxophonist playing tenor and soprano saxophone and flute."
+    },
+    {
+      "action": "research",
+      "file": "artistsDetail",
+      "id": "leon-thomas",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Leon_Thomas_(musician)",
+      "after": "https://en.wikipedia.org/wiki/Leon_Thomas_(jazz_singer)",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Leon_Thomas_(jazz_singer)"
+      ],
+      "evidence": "Live article 'Leon Thomas (jazz singer)': 'Amos Leon Thomas Jr. (October 4, 1937 - May 8, 1999) ... was an American jazz and blues vocalist.' The _(musician) slug is a 404."
+    },
+    {
+      "action": "research",
+      "file": "artists",
+      "id": "yuki-arimasa",
+      "field": "birthYear",
+      "before": 1965,
+      "after": 1961,
+      "sourceUrl": [
+        "https://www.highresaudio.com/en/artist/view/9c994377-a082-4755-924d-3248f5a19348/yuki-arimasa"
+      ],
+      "evidence": "HighResAudio artist bio states 'Born in 1961 in Tokyo.' Ours said 1965."
+    },
+    {
+      "action": "research",
+      "file": "artistsDetail",
+      "id": "yuki-arimasa",
+      "field": "wikipedia",
+      "before": "https://ja.wikipedia.org/wiki/有馬祐輝",
+      "after": null,
+      "sourceUrl": [
+        "https://ja.wikipedia.org/wiki/有馬祐輝"
+      ],
+      "evidence": "The Japanese Wikipedia URL in ours returns 404; no Wikipedia article exists for this pianist in any language. Dead link set to null."
+    },
+    {
+      "action": "research",
+      "file": "artistsDetail",
+      "id": "latin-jazz-quintet",
+      "field": "bio",
+      "before": "Latin Jazz Quintet was one of the defining figures of Cool Jazz, whose recordings remain essential listening for anyone exploring the tradition.",
+      "after": "The Latin Jazz Quintet was a Latin jazz ensemble led by conga player Juan Amalbert. It is best known for the 1960 album Caribe, recorded with Eric Dolphy and released on New Jazz in 1961, featuring Gene Casey (piano), Charlie Simons (vibraphone), Bill Ellington (bass), and Manny Ramos (drums and timbales). The group also recorded Latin Soul in 1965.",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Carib%C3%A9"
+      ],
+      "evidence": "Wikipedia (Caribe) identifies a Latin jazz group led by Juan Amalbert; ours wrongly called them a Cool Jazz figure. Members and the Dolphy/New Jazz 1961 Caribe recording confirmed."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "the-newest-sound-around",
+      "field": "wikipedia",
+      "before": null,
+      "after": "https://en.wikipedia.org/wiki/The_Newest_Sound_Around",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/The_Newest_Sound_Around"
+      ],
+      "evidence": "Live Wikipedia article: 'The Newest Sound Around is an album by singer Jeanne Lee and pianist Ran Blake', released 1962 on RCA Victor; the debut for both. Matches ours.artist."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "harlem-river-drive",
+      "field": "keyTracks",
+      "before": [
+        "Harlem River Drive",
+        "Idle Hands",
+        "Seeds of Life",
+        "Azucar"
+      ],
+      "after": [
+        "Harlem River Drive",
+        "If (We Had Peace Today)",
+        "Idle Hands",
+        "Broken Home",
+        "Seeds of Life"
+      ],
+      "sourceUrl": [
+        "https://www.discogs.com/master/207260-Harlem-River-Drive-Harlem-River-Drive",
+        "https://soulbrother.com/feature/album-of-the-day-harlem-river-drive-harlem-river-drive/"
+      ],
+      "evidence": "Verified Roulette 1971 tracklist is the 5 tracks listed in after; 'Azucar' is not on this album (it is an Eddie Palmieri solo track from Azucar Pa' Ti)."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "mystic-brew",
+      "field": "wikipedia",
+      "before": null,
+      "after": "https://en.wikipedia.org/wiki/Two_Headed_Freap",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Two_Headed_Freap"
+      ],
+      "evidence": "'Mystic Brew' is track 7 of Ronnie Foster's 1972 Blue Note album 'Two Headed Freap'; this is the Wikipedia article for the actual album (title field still says 'Mystic Brew' -- flagged for separate title fix)."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "real-book",
+      "field": "wikipedia",
+      "before": null,
+      "after": "https://en.wikipedia.org/wiki/Real_Book",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Real_Book"
+      ],
+      "evidence": "English Wikipedia article for The Real Book, the c.1975 bootleg Berklee jazz fake book of lead sheets for standards."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "kosmos",
+      "field": "year",
+      "before": 1977,
+      "after": 1976,
+      "sourceUrl": [
+        "https://archive.org/details/ryo-kawasaki-juice-1976",
+        "https://www.discogs.com/release/601988-Ryo-Kawasaki-Juice"
+      ],
+      "evidence": "Juice was recorded at RCA NYC May 5-7 1976 and originally released in 1976 (RCA Victor APL1-1855), not 1977."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "kosmos",
+      "field": "label",
+      "before": "RVC",
+      "after": "RCA Victor",
+      "sourceUrl": [
+        "https://www.discogs.com/release/601988-Ryo-Kawasaki-Juice",
+        "https://www.plaidroomrecords.com/products/ryo-kawasaki-juice-601988"
+      ],
+      "evidence": "Original 1976 US release was on RCA Victor (cat. APL1-1855); 'RVC' was the later Japanese distributor RVC Corp, not the original label."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "kosmos",
+      "field": "keyTracks",
+      "before": [
+        "Juice",
+        "Raisins",
+        "Bamboo Child",
+        "Little Tree"
+      ],
+      "after": [
+        "Raisins",
+        "Sometime",
+        "The Breeze And I",
+        "El Toro",
+        "Bamboo Child",
+        "Andes"
+      ],
+      "sourceUrl": [
+        "https://archive.org/details/ryo-kawasaki-juice-1976",
+        "https://www.discogs.com/release/601988-Ryo-Kawasaki-Juice"
+      ],
+      "evidence": "Verified 7-track Juice tracklist (Raisins/Sometime/The Breeze And I/East Side Boogie/El Toro/Bamboo Child/Andes); 'Juice' is the album title not a track, and 'Little Tree' is not on the album -- both removed."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "kosmos",
+      "field": "albumDNA",
+      "before": "A jazz-funk outing from 1977, Juice features guitarist Ryo Kawasaki recording for RVC. The program includes \"Juice\", \"Raisins\", and \"Bamboo Child\". A cult classic of Japanese jazz-funk. Kawasaki's guitar synthesizer pioneering influenced later electronic jazz.",
+      "after": "Guitarist Ryo Kawasaki recorded Juice at RCA in New York in May 1976; it was his first album for an American label, RCA Victor. The jazz-funk program ranges across originals like \"Raisins\" and \"El Toro\" and a reading of \"The Breeze and I.\" Kawasaki was an early adopter of the guitar synthesizer, and the record became a sought-after title among crate-diggers and jazz-funk listeners.",
+      "sourceUrl": [
+        "https://archive.org/details/ryo-kawasaki-juice-1976",
+        "https://www.discogs.com/release/601988-Ryo-Kawasaki-Juice",
+        "https://www.plaidroomrecords.com/products/ryo-kawasaki-juice-601988"
+      ],
+      "evidence": "Corrects the prior DNA's errors: wrong year (1977), wrong label (RVC), and a nonexistent track ('Juice'). New text uses only sourced facts -- 1976, RCA Victor, recorded NYC, first US-label release, guitar synth, real tracks."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "mellow-dream",
+      "field": "wikipedia",
+      "before": null,
+      "after": "https://en.wikipedia.org/wiki/Mellow_Dream",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Mellow_Dream"
+      ],
+      "evidence": "English Wikipedia article for Ryo Fukui's 1977 Trio Records album Mellow Dream (artist, year, label and tracklist all confirmed against current data)."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "tetterettet",
+      "field": "keyTracks",
+      "before": [
+        "Tetterettet",
+        "Brozziman",
+        "Two Hoedown"
+      ],
+      "after": [
+        "Tetterettet V + VI",
+        "Tetterettet IX",
+        "Alexander's Marschbefehl",
+        "Rumboon",
+        "Kwik Kwek Kwak",
+        "Ludwig's Blue Note"
+      ],
+      "sourceUrl": [
+        "https://corbettvsdempsey.bandcamp.com/album/tetterettet",
+        "https://www.discogs.com/master/1560705-ICP-Tentet-Tetterettet"
+      ],
+      "evidence": "Verified 11-track Tetterettet tracklist (ICP 020, 1977); 'Brozziman' and 'Two Hoedown' are not on this album. The after-list gives 6 real tracks from the verified tracklist."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "chet-baker-live-in-rosenheim",
+      "field": "label",
+      "before": "Unknown",
+      "after": "Timeless",
+      "sourceUrl": [
+        "https://www.jazzdisco.org/chet-baker/catalog/album-index/",
+        "https://www.jazzmessengers.com/en/99020/chet-baker/liveinrosenheim-17thapril1988-"
+      ],
+      "evidence": "Chet Baker 'Live in Rosenheim' (rec. 17 Apr 1988) was released 1989 on Timeless Records (Du), cat. SJP 233."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "no-parking-tow-away-zone",
+      "field": "label",
+      "before": "Unknown",
+      "after": "West Wind",
+      "sourceUrl": [
+        "https://www.prestomusic.com/jazz/products/8049694--no-parking-tow-away-zone"
+      ],
+      "evidence": "Presto Music lists the album on the West Wind label, catalogue WW2120, released 7 Oct 2014."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "amaryllis-belladonna",
+      "field": "albumDNA",
+      "before": "Guitarist Mary Halvorson's Nonesuch debut is a ravishing double album pairing her octet with string arrangements by Robert Moody. Her signature bent notes and fractured melodies are set against lush orchestral textures, creating a sound world both disorienting and deeply beautiful. Marked Halvorson's arrival as a major composer working at the intersection of jazz, rock, and contemporary classical music. The album earned a Pulitzer Prize finalist nomination and widespread critical acclaim.",
+      "after": "Guitarist Mary Halvorson's Nonesuch label debut, released in 2022 as two paired suites. Amaryllis is a six-part suite for her sextet (vibraphone, trombone, trumpet, bass, drums), with the Mivos Quartet added on three tracks. Belladonna sets Halvorson's solo guitar against that same string quartet across five through-composed pieces. Produced by John Dieterich.",
+      "sourceUrl": [
+        "https://www.freejazzblog.org/2022/07/mary-halvorson-amaryllis-and-belladonna.html",
+        "https://www.nonesuch.com/albums/amaryllis-belladonna"
+      ],
+      "evidence": "Sources confirm a sextet (Halvorson, Brennan, Dunston, Fujiwara, Garchik, O'Farrill) plus the Mivos Quartet, produced by John Dieterich; the old text's 'octet', 'Robert Moody' and 'Pulitzer Prize finalist' are unsupported/false."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "father-of-stride-piano-james-p-johnson",
+      "field": "year",
+      "before": null,
+      "after": 1962,
+      "sourceUrl": [
+        "https://www.discogs.com/release/5136094-James-P-Johnson-Father-Of-The-Stride-Piano",
+        "https://www.dustygroove.com/item/588174/James-P-Johnson:Father-Of-The-Stride-Piano"
+      ],
+      "evidence": "Discogs and Dusty Groove date the Columbia LP 'Father of the Stride Piano' (CL-1780, six-eye label) to 1962."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "father-of-stride-piano-james-p-johnson",
+      "field": "label",
+      "before": "Various",
+      "after": "Columbia",
+      "sourceUrl": [
+        "https://www.discogs.com/release/5136094-James-P-Johnson-Father-Of-The-Stride-Piano"
+      ],
+      "evidence": "Discogs lists 'Father of the Stride Piano' as a Columbia release, catalogue CL-1780."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "father-of-stride-piano-james-p-johnson",
+      "field": "keyTracks",
+      "before": null,
+      "after": [
+        "Carolina Shout",
+        "Snowy Morning Blues",
+        "The Mule Walk",
+        "Blueberry Rhyme",
+        "If Dreams Come True",
+        "Old-Fashioned Love"
+      ],
+      "sourceUrl": [
+        "https://www.discogs.com/release/5136094-James-P-Johnson-Father-Of-The-Stride-Piano",
+        "https://www.dustygroove.com/item/588174/James-P-Johnson:Father-Of-The-Stride-Piano"
+      ],
+      "evidence": "All six titles appear on the album's 16-track listing per Discogs/Dusty Groove; Carolina Shout is Johnson's signature stride solo."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "king-olivers-jazz-band-1923-king-oliver",
+      "field": "year",
+      "before": null,
+      "after": 1923,
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Dippermouth_Blues",
+        "https://convocations.purdue.edu/king-olivers-creole-jazz-band-recording-of-dippermouth-blues-celebrates-100th-anniversary/"
+      ],
+      "evidence": "King Oliver's Creole Jazz Band recorded its 37 sides in a dozen sessions between April 5 and October 16, 1923."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "king-olivers-jazz-band-1923-king-oliver",
+      "field": "keyTracks",
+      "before": null,
+      "after": [
+        "Dippermouth Blues",
+        "Snake Rag",
+        "Weather Bird Rag",
+        "Froggie Moore",
+        "Chimes Blues"
+      ],
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Dippermouth_Blues",
+        "https://veritenews.org/2023/04/25/jazz-fest-celebrates-king-olivers-recordings/"
+      ],
+      "evidence": "Famous 1923 sides include Dippermouth Blues, Snake Rag, Weather Bird Rag and Froggie Moore from the April 1923 Gennett sessions; Chimes Blues was Louis Armstrong's first recorded solo."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "king-olivers-jazz-band-1923-king-oliver",
+      "field": "albumDNA",
+      "before": "King Oliver's Jazz Band 1923 stands among King Oliver's most celebrated works, capturing the essential spirit of Early Jazz. King Oliver's Jazz Band 1923 remains a landmark of Early Jazz, cementing King Oliver's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "after": "Documents the 37 sides King Oliver's Creole Jazz Band cut in 1923 for Gennett, OKeh, Columbia and Paramount, the first major recordings of New Orleans collective-improvisation jazz. The band paired Oliver with 21-year-old second cornetist Louis Armstrong, clarinetist Johnny Dodds and pianist Lil Hardin. Dippermouth Blues, Snake Rag and Froggie Moore are among the era's defining tracks.",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Dippermouth_Blues",
+        "https://veritenews.org/2023/04/25/jazz-fest-celebrates-king-olivers-recordings/"
+      ],
+      "evidence": "Wikipedia and Verite News confirm the 1923 sessions, multiple labels, the personnel (Oliver, Armstrong, Dodds, Lil Hardin) and the landmark tracks."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "jelly-roll-morton-the-piano-rolls-jelly-roll-morton",
+      "field": "year",
+      "before": null,
+      "after": 1997,
+      "sourceUrl": [
+        "https://www.discogs.com/Jelly-Roll-Morton-Realized-By-Artis-Wodehouse-The-Piano-Rolls/release/4114842",
+        "https://www.academia.edu/51455693/How_Jelly_Roll_Morton_The_Piano_Rolls_1997_Nonesuch_recording_was_realized"
+      ],
+      "evidence": "Discogs release title and the Academia.edu paper title both date the Nonesuch release to 1997."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "jelly-roll-morton-the-piano-rolls-jelly-roll-morton",
+      "field": "label",
+      "before": "Various",
+      "after": "Nonesuch",
+      "sourceUrl": [
+        "https://www.academia.edu/51455693/How_Jelly_Roll_Morton_The_Piano_Rolls_1997_Nonesuch_recording_was_realized",
+        "https://jellyrollmorton.bandcamp.com/album/the-piano-rolls"
+      ],
+      "evidence": "Released on Nonesuch Records in 1997; Artis Wodehouse realized Morton's 1920s piano rolls on a Yamaha Disklavier."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "jelly-roll-morton-the-piano-rolls-jelly-roll-morton",
+      "field": "keyTracks",
+      "before": null,
+      "after": [
+        "Midnight Mama",
+        "Shreveport Stomp",
+        "Stratford Hunch",
+        "Dead Man Blues",
+        "Grandpa's Spells"
+      ],
+      "sourceUrl": [
+        "https://jellyrollmorton.bandcamp.com/album/the-piano-rolls"
+      ],
+      "evidence": "Bandcamp tracklist opens Midnight Mama, Shreveport Stomp, Stratford Hunch, Dead Man Blues, Grandpa's Spells (12 tracks total)."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "jelly-roll-morton-the-piano-rolls-jelly-roll-morton",
+      "field": "albumDNA",
+      "before": "Jelly Roll Morton: The Piano Rolls stands among Jelly Roll Morton's most celebrated works, capturing the essential spirit of Early Jazz. Jelly Roll Morton: The Piano Rolls remains a landmark of Early Jazz, cementing Jelly Roll Morton's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "after": "A 1997 Nonesuch release of twelve piano rolls Jelly Roll Morton cut in the 1920s, realized by piano-roll scholar Artis Wodehouse on a Yamaha Disklavier and recorded in modern digital sound. It lets listeners hear Morton compositions such as King Porter Stomp, Dead Man Blues and Grandpa's Spells as the rolls reproduce them.",
+      "sourceUrl": [
+        "https://www.academia.edu/51455693/How_Jelly_Roll_Morton_The_Piano_Rolls_1997_Nonesuch_recording_was_realized",
+        "https://jellyrollmorton.bandcamp.com/album/the-piano-rolls"
+      ],
+      "evidence": "Sources confirm 1997 Nonesuch release, Artis Wodehouse's Disklavier realization of 12 Morton piano rolls, and the tracklist."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "the-blue-note-sessions-sidney-bechet",
+      "field": "label",
+      "before": "Various",
+      "after": "Blue Note",
+      "sourceUrl": [
+        "https://www.bluenote.com/artist/sidney-bechet/",
+        "https://www.jazzdisco.org/blue-note-records/discography-1945-1950/"
+      ],
+      "evidence": "Sidney Bechet recorded for Blue Note Records (1939-1953); Blue Note's own artist page and the Blue Note discography list his sessions."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "the-blue-note-sessions-sidney-bechet",
+      "field": "keyTracks",
+      "before": null,
+      "after": [
+        "Summertime",
+        "Blue Horizon",
+        "Dear Old Southland",
+        "Muskrat Ramble",
+        "China Boy"
+      ],
+      "sourceUrl": [
+        "https://www.discogs.com/master/754107-Sidney-Bechet-The-Complete-Blue-Note-Recordings-Of-Sidney-Bechet",
+        "https://www.bluenote.com/artist/sidney-bechet/"
+      ],
+      "evidence": "Bechet's Blue Note recordings include Summertime (his June 1939 Blue Note debut) and the slow blues Blue Horizon, plus Dear Old Southland and Muskrat Ramble per the Complete Blue Note Recordings tracklist."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "tatum-group-masterpieces-vol-1-art-tatum",
+      "field": "year",
+      "before": 2006,
+      "after": 1975,
+      "sourceUrl": [
+        "https://www.discogs.com/release/9362375-Art-Tatum-Benny-Carter-Louis-Bellson-The-Tatum-Group-Masterpieces-Vol-1",
+        "https://en.wikipedia.org/wiki/The_Tatum_Group_Masterpieces,_Volume_Eight"
+      ],
+      "evidence": "Recorded June 25, 1954; released 1975 on Pablo by Norman Granz as Vol. 1 of the eight-volume Tatum Group Masterpieces series. Stored 2006 is a reissue-era error."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "tatum-group-masterpieces-vol-1-art-tatum",
+      "field": "label",
+      "before": "Various",
+      "after": "Pablo",
+      "sourceUrl": [
+        "https://www.discogs.com/release/9362375-Art-Tatum-Benny-Carter-Louis-Bellson-The-Tatum-Group-Masterpieces-Vol-1",
+        "https://www.prestomusic.com/jazz/products/8499077--the-tatum-group-masterpieces-vol-1"
+      ],
+      "evidence": "Released on Pablo Records (Norman Granz's label)."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "tatum-group-masterpieces-vol-1-art-tatum",
+      "field": "albumDNA",
+      "before": "Recorded in 2006, Tatum Group Masterpieces Vol. 1 showcases Art Tatum at the height of their creative powers, offering one of the finest expressions of Swing. Tatum Group Masterpieces Vol. 1 remains a landmark of Swing, cementing Art Tatum's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "after": "The first of Norman Granz's eight Tatum Group Masterpieces sessions, recorded June 25, 1954 and released on Pablo in 1975. It pairs pianist Art Tatum with altoist Benny Carter and drummer Louis Bellson on standards including A Foggy Day, Street of Dreams and 'S Wonderful.",
+      "sourceUrl": [
+        "https://www.prestomusic.com/jazz/products/8499077--the-tatum-group-masterpieces-vol-1",
+        "https://www.discogs.com/release/9362375-Art-Tatum-Benny-Carter-Louis-Bellson-The-Tatum-Group-Masterpieces-Vol-1"
+      ],
+      "evidence": "Recording date 1954, Pablo 1975 release, trio of Tatum/Carter/Bellson and the standards repertoire are all source-confirmed; the prior text's '2006' date is false."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "mary-lou-williams-presents-black-christ-of-the-andes-mary-lou-williams",
+      "field": "year",
+      "before": null,
+      "after": 1964,
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Mary_Lou_Williams_(album)"
+      ],
+      "evidence": "Released in 1964 by Folkways Records (English Wikipedia)."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "mary-lou-williams-presents-black-christ-of-the-andes-mary-lou-williams",
+      "field": "label",
+      "before": "Various",
+      "after": "Folkways",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Mary_Lou_Williams_(album)",
+        "https://folkways.si.edu/mary-lou-williams/presents-black-christ-of-the-andes/blues-jazz-ragtime/music/album/smithsonian"
+      ],
+      "evidence": "Released by Folkways Records in 1964; reissued by Smithsonian Folkways."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "mary-lou-williams-presents-black-christ-of-the-andes-mary-lou-williams",
+      "field": "keyTracks",
+      "before": null,
+      "after": [
+        "St. Martin de Porres",
+        "It Ain't Necessarily So",
+        "Miss D.D.",
+        "Anima Christi",
+        "A Grand Night for Swinging"
+      ],
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Mary_Lou_Williams_(album)"
+      ],
+      "evidence": "Wikipedia tracklist opens St. Martin de Porres, It Ain't Necessarily So, The Devil, Miss D.D., Anima Christi, A Grand Night for Swinging (14 tracks total)."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "mary-lou-williams-presents-black-christ-of-the-andes-mary-lou-williams",
+      "field": "wikipedia",
+      "before": null,
+      "after": "https://en.wikipedia.org/wiki/Mary_Lou_Williams_(album)",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Mary_Lou_Williams_(album)"
+      ],
+      "evidence": "English Wikipedia article for this album (alternatively titled Black Christ of the Andes)."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "mary-lou-williams-presents-black-christ-of-the-andes-mary-lou-williams",
+      "field": "albumDNA",
+      "before": "Mary Lou Williams Presents Black Christ of the Andes stands among Mary Lou Williams's most celebrated works, capturing the essential spirit of Swing. Mary Lou Williams Presents Black Christ of the Andes remains a landmark of Swing, cementing Mary Lou Williams's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "after": "Mary Lou Williams's 1964 Folkways album, recorded after her conversion to Catholicism and blending spirituals, blues and modern jazz. The title track, St. Martin de Porres, is a choral mass hymn honoring the Afro-Peruvian saint; the program also includes It Ain't Necessarily So and originals like Miss D.D. and Anima Christi.",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Mary_Lou_Williams_(album)"
+      ],
+      "evidence": "Wikipedia confirms the 1964 Folkways release, the Catholic-conversion context, the stylistic mix and the St. Martin de Porres mass hymn title track."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "genius-of-modern-music-vol-1-thelonious-monk",
+      "field": "year",
+      "before": 2013,
+      "after": 1956,
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Genius_of_Modern_Music:_Volume_1"
+      ],
+      "evidence": "Wikipedia: 1956 compilation album by Thelonious Monk on Blue Note (BLP 1510)."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "genius-of-modern-music-vol-1-thelonious-monk",
+      "field": "label",
+      "before": "Various",
+      "after": "Blue Note",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Genius_of_Modern_Music:_Volume_1"
+      ],
+      "evidence": "Wikipedia infobox: label Blue Note Records, produced by Alfred Lion."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "genius-of-modern-music-vol-1-thelonious-monk",
+      "field": "wikipedia",
+      "before": null,
+      "after": "https://en.wikipedia.org/wiki/Genius_of_Modern_Music:_Volume_1",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Genius_of_Modern_Music:_Volume_1"
+      ],
+      "evidence": "Correct English Wikipedia article for this Thelonious Monk album."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "genius-of-modern-music-vol-1-thelonious-monk",
+      "field": "albumDNA",
+      "before": "Recorded in 2013, Genius of Modern Music Vol. 1 showcases Thelonious Monk at the height of their creative powers, offering one of the finest expressions of Bebop. Genius of Modern Music Vol. 1 remains a landmark of Bebop, cementing Thelonious Monk's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "after": "Genius of Modern Music, Volume 1 is a Blue Note compilation, released in 1956, of Thelonious Monk's first recordings as a leader, cut over sessions from 1947 to 1952 and produced by Alfred Lion. It gathers early statements of Monk originals including \"'Round Midnight,\" \"Ruby My Dear,\" \"Epistrophy,\" and \"Well You Needn't.\"",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Genius_of_Modern_Music:_Volume_1"
+      ],
+      "evidence": "Wikipedia: Monk's first leader sessions (1947-1952), assembled on Blue Note in 1956; track list includes the named Monk compositions. Replaces DNA that falsely claimed a 2013 recording date."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "the-amazing-bud-powell-vol-2-bud-powell",
+      "field": "year",
+      "before": null,
+      "after": 1954,
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/The_Amazing_Bud_Powell,_Vol._2"
+      ],
+      "evidence": "Wikipedia infobox: released 1954 (recorded Aug 14, 1953), Blue Note BLP 5041, ten-inch LP."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "the-amazing-bud-powell-vol-2-bud-powell",
+      "field": "label",
+      "before": "Various",
+      "after": "Blue Note",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/The_Amazing_Bud_Powell,_Vol._2"
+      ],
+      "evidence": "Wikipedia infobox: Blue Note Records (BLP 5041)."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "the-amazing-bud-powell-vol-2-bud-powell",
+      "field": "keyTracks",
+      "before": null,
+      "after": [
+        "Autumn in New York",
+        "Reets and I",
+        "Glass Enclosure",
+        "Collard Greens and Black-Eyed Peas",
+        "Polka Dots and Moonbeams"
+      ],
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/The_Amazing_Bud_Powell,_Vol._2"
+      ],
+      "evidence": "Tracks from the Wikipedia track listing for the original 10-inch BLP 5041; 'Glass Enclosure' is the album's noted Powell composition."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "the-amazing-bud-powell-vol-2-bud-powell",
+      "field": "wikipedia",
+      "before": null,
+      "after": "https://en.wikipedia.org/wiki/The_Amazing_Bud_Powell,_Vol._2",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/The_Amazing_Bud_Powell,_Vol._2"
+      ],
+      "evidence": "Correct English Wikipedia article for this Bud Powell album."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "the-amazing-bud-powell-vol-2-bud-powell",
+      "field": "albumDNA",
+      "before": "The Amazing Bud Powell Vol. 2 stands among Bud Powell's most celebrated works, capturing the essential spirit of Bebop. The Amazing Bud Powell Vol. 2 remains a landmark of Bebop, cementing Bud Powell's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "after": "The Amazing Bud Powell, Vol. 2 is a bebop piano session that pianist Bud Powell recorded for Blue Note at WOR Studios in New York on August 14, 1953, with George Duvivier on bass and Art Taylor on drums, issued on a ten-inch LP in 1954. It includes Powell's own \"Glass Enclosure\" alongside standards such as \"Autumn in New York\" and \"I Want to Be Happy.\"",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/The_Amazing_Bud_Powell,_Vol._2"
+      ],
+      "evidence": "Wikipedia: recording date, personnel, label and 1954 release; 'Glass Enclosure' and the named standards are on the track listing. Replaces generic boilerplate."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "we-insist-freedom-now-suite-max-roach",
+      "field": "year",
+      "before": 2011,
+      "after": 1961,
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/We_Insist!"
+      ],
+      "evidence": "Wikipedia: released January 1961 on Candid (recorded Aug 31 & Sep 6, 1960)."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "we-insist-freedom-now-suite-max-roach",
+      "field": "label",
+      "before": "Various",
+      "after": "Candid",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/We_Insist!"
+      ],
+      "evidence": "Wikipedia: Candid Records, produced by Nat Hentoff."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "we-insist-freedom-now-suite-max-roach",
+      "field": "wikipedia",
+      "before": null,
+      "after": "https://en.wikipedia.org/wiki/We_Insist!",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/We_Insist!"
+      ],
+      "evidence": "Correct English Wikipedia article for Max Roach's We Insist! Freedom Now Suite."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "we-insist-freedom-now-suite-max-roach",
+      "field": "albumDNA",
+      "before": "Recorded in 2011, We Insist! Freedom Now Suite showcases Max Roach at the height of their creative powers, offering one of the finest expressions of Bebop. We Insist! Freedom Now Suite remains a landmark of Bebop, cementing Max Roach's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "after": "We Insist! Max Roach's Freedom Now Suite is a 1961 Candid album of a suite by drummer Max Roach and lyricist Oscar Brown Jr., recorded in 1960 with Abbey Lincoln on vocals and produced by Nat Hentoff. Tied to the civil rights movement and the centennial of emancipation, it was added to the U.S. National Recording Registry in 2022.",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/We_Insist!"
+      ],
+      "evidence": "Wikipedia: Roach/Brown suite, 1960 recording, 1961 Candid release, Abbey Lincoln, civil-rights theme, 2022 National Recording Registry. Replaces DNA that falsely claimed a 2011 recording date."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "the-jimmy-giuffre-three-jimmy-giuffre",
+      "field": "year",
+      "before": null,
+      "after": 1957,
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/The_Jimmy_Giuffre_3"
+      ],
+      "evidence": "Wikipedia infobox: 'Released 1957'."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "the-jimmy-giuffre-three-jimmy-giuffre",
+      "field": "label",
+      "before": "Various",
+      "after": "Atlantic",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/The_Jimmy_Giuffre_3"
+      ],
+      "evidence": "Wikipedia infobox: 'Label: Atlantic'."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "the-jimmy-giuffre-three-jimmy-giuffre",
+      "field": "keyTracks",
+      "before": null,
+      "after": [
+        "The Train and the River",
+        "Gotta Dance",
+        "Two Kinds of Blues",
+        "The Song Is You",
+        "Crawdad Suite"
+      ],
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/The_Jimmy_Giuffre_3"
+      ],
+      "evidence": "Tracks from the Wikipedia track listing; 'The Train and the River' is the album's signature piece (the LP is also known by that title)."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "the-jimmy-giuffre-three-jimmy-giuffre",
+      "field": "wikipedia",
+      "before": null,
+      "after": "https://en.wikipedia.org/wiki/The_Jimmy_Giuffre_3",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/The_Jimmy_Giuffre_3"
+      ],
+      "evidence": "Correct English Wikipedia article for this Jimmy Giuffre album."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "the-jimmy-giuffre-three-jimmy-giuffre",
+      "field": "albumDNA",
+      "before": "The Jimmy Giuffre Three stands among Jimmy Giuffre's most celebrated works, capturing the essential spirit of Cool Jazz. The Jimmy Giuffre Three remains a landmark of Cool Jazz, cementing Jimmy Giuffre's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "after": "The Jimmy Giuffre 3 is a 1957 Atlantic album by reedman Jimmy Giuffre's drummerless trio with Jim Hall on guitar and Ralph Pena on bass. Most pieces are Giuffre originals, and the set is best known for the folk-tinged \"The Train and the River,\" by which the album is sometimes titled.",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/The_Jimmy_Giuffre_3"
+      ],
+      "evidence": "Wikipedia: 1957 Atlantic trio (Giuffre, Hall, Pena), Giuffre compositions, 'The Train and the River' as the signature track. Replaces generic boilerplate."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "sidney-bechet-at-storyville-sidney-bechet",
+      "field": "year",
+      "before": null,
+      "after": 1954,
+      "sourceUrl": [
+        "https://www.discogs.com/release/8489825-Sidney-Bechet-Sidney-Bechet-At-Storyville",
+        "https://eil.com/shop/moreinfo.asp?catalogid=448173"
+      ],
+      "evidence": "Recorded Oct 25, 1953 in Boston; original LP on George Wein's Storyville Records, 1954 (companion 'At Storyville Vol. 2' documented as Storyville STLP-306, US 1954)."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "sidney-bechet-at-storyville-sidney-bechet",
+      "field": "label",
+      "before": "Various",
+      "after": "Storyville",
+      "sourceUrl": [
+        "https://www.discogs.com/release/8489825-Sidney-Bechet-Sidney-Bechet-At-Storyville",
+        "https://www.allmusic.com/album/sidney-bechet-at-storyville-storyville-mw0000870971"
+      ],
+      "evidence": "AllMusic/Discogs list the album on George Wein's Storyville Records."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "sidney-bechet-at-storyville-sidney-bechet",
+      "field": "keyTracks",
+      "before": null,
+      "after": [
+        "Bugle Call Blues",
+        "Indiana",
+        "Basin Street Blues",
+        "Crazy Rhythm",
+        "Honeysuckle Rose"
+      ],
+      "sourceUrl": [
+        "https://www.discogs.com/release/8489825-Sidney-Bechet-Sidney-Bechet-At-Storyville",
+        "https://eil.com/shop/moreinfo.asp?catalogid=448173"
+      ],
+      "evidence": "Tracks from the Discogs and eil.com track listings (identical across both); 'Bugle Call Blues' is the opener."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "sidney-bechet-at-storyville-sidney-bechet",
+      "field": "albumDNA",
+      "before": "Sidney Bechet at Storyville stands among Sidney Bechet's most celebrated works, capturing the essential spirit of Early Jazz. Sidney Bechet at Storyville remains a landmark of Early Jazz, cementing Sidney Bechet's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "after": "Sidney Bechet at Storyville is a live set recorded at George Wein's Storyville club in Boston on October 25, 1953, with trombonist Vic Dickenson and Wein on piano, and released on Storyville Records. Built from standards such as \"Basin Street Blues\" and \"Honeysuckle Rose,\" it is among Bechet's last American recordings before he settled in France.",
+      "sourceUrl": [
+        "https://www.allmusic.com/album/sidney-bechet-at-storyville-storyville-mw0000870971",
+        "https://eil.com/shop/moreinfo.asp?catalogid=448173"
+      ],
+      "evidence": "AllMusic/Discogs: live Boston date Oct 25, 1953 with Vic Dickenson and George Wein on Storyville; final American recordings; standards-based program. Replaces generic boilerplate."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "we-free-kings-rahsaan-roland-kirk",
+      "field": "year",
+      "before": null,
+      "after": 1962,
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/We_Free_Kings"
+      ],
+      "evidence": "Wikipedia: recorded Aug 16-17 1961, released January 1962 on Mercury; 'Released' field = 1962."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "we-free-kings-rahsaan-roland-kirk",
+      "field": "label",
+      "before": "Various",
+      "after": "Mercury",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/We_Free_Kings"
+      ],
+      "evidence": "Wikipedia and AllMusic: released on Mercury Records."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "we-free-kings-rahsaan-roland-kirk",
+      "field": "keyTracks",
+      "before": null,
+      "after": [
+        "Three for the Festival",
+        "Moon Song",
+        "A Sack Full of Soul",
+        "The Haunted Melody",
+        "Blues for Alice",
+        "We Free Kings"
+      ],
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/We_Free_Kings"
+      ],
+      "evidence": "Wikipedia track listing; openers plus the title track and Charlie Parker's 'Blues for Alice'."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "we-free-kings-rahsaan-roland-kirk",
+      "field": "albumDNA",
+      "before": "We Free Kings stands among Rahsaan Roland Kirk's most celebrated works, capturing the essential spirit of Hard Bop. We Free Kings remains a landmark of Hard Bop, cementing Rahsaan Roland Kirk's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "after": "Studio album by multi-instrumentalist Roland Kirk, recorded August 1961 and released by Mercury in January 1962. Kirk plays tenor saxophone, manzello, stritch, flute and siren, often several at once. The program mixes originals like the title track with the Charlie Parker line 'Blues for Alice'.",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/We_Free_Kings",
+        "https://www.allmusic.com/album/we-free-kings-mw0000649599"
+      ],
+      "evidence": "Wikipedia: Mercury studio album, recorded 1961 / released Jan 1962; Kirk's multi-horn approach; tracklist includes title track and 'Blues for Alice'."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "we-free-kings-rahsaan-roland-kirk",
+      "field": "wikipedia",
+      "before": null,
+      "after": "https://en.wikipedia.org/wiki/We_Free_Kings",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/We_Free_Kings"
+      ],
+      "evidence": "Dedicated English Wikipedia article for the Roland Kirk album."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "wayne-shorter-juju-wayne-shorter",
+      "field": "year",
+      "before": null,
+      "after": 1965,
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/JuJu_(album)"
+      ],
+      "evidence": "Wikipedia: recorded Aug 3 1964, released July 1965 by Blue Note; 'Released' field = July 1965."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "wayne-shorter-juju-wayne-shorter",
+      "field": "label",
+      "before": "Various",
+      "after": "Blue Note",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/JuJu_(album)"
+      ],
+      "evidence": "Wikipedia and Blue Note store: released on Blue Note Records."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "wayne-shorter-juju-wayne-shorter",
+      "field": "keyTracks",
+      "before": null,
+      "after": [
+        "JuJu",
+        "Deluge",
+        "House of Jade",
+        "Mahjong",
+        "Yes or No",
+        "Twelve More Bars to Go"
+      ],
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/JuJu_(album)"
+      ],
+      "evidence": "Wikipedia track listing: six Shorter originals."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "wayne-shorter-juju-wayne-shorter",
+      "field": "albumDNA",
+      "before": "Wayne Shorter: Juju stands among Wayne Shorter's most celebrated works, capturing the essential spirit of Hard Bop. Wayne Shorter: Juju remains a landmark of Hard Bop, cementing Wayne Shorter's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "after": "Saxophonist Wayne Shorter's second Blue Note album, recorded August 1964 and released in 1965. He is backed by the John Coltrane rhythm section of McCoy Tyner on piano, Reggie Workman on bass and Elvin Jones on drums. All six pieces are Shorter originals, including the title track and 'Yes or No'.",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/JuJu_(album)",
+        "https://www.udiscovermusic.com/stories/wayne-shorter-juju-feature/"
+      ],
+      "evidence": "Wikipedia: Blue Note, recorded 1964 / released 1965; rhythm section Tyner/Workman/Jones (Coltrane's); six Shorter originals."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "wayne-shorter-juju-wayne-shorter",
+      "field": "wikipedia",
+      "before": null,
+      "after": "https://en.wikipedia.org/wiki/JuJu_(album)",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/JuJu_(album)"
+      ],
+      "evidence": "Dedicated English Wikipedia article for the Wayne Shorter album."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "the-poll-winners-ride-again-barney-kessel",
+      "field": "year",
+      "before": null,
+      "after": 1958,
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/The_Poll_Winners_Ride_Again!"
+      ],
+      "evidence": "Wikipedia: recorded Aug 19 & 21 1958, released 1958 on Contemporary."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "the-poll-winners-ride-again-barney-kessel",
+      "field": "label",
+      "before": "Various",
+      "after": "Contemporary",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/The_Poll_Winners_Ride_Again!"
+      ],
+      "evidence": "Wikipedia: released on Contemporary (C3556/S7556)."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "the-poll-winners-ride-again-barney-kessel",
+      "field": "keyTracks",
+      "before": null,
+      "after": [
+        "Be Deedle Dee Do",
+        "Volare",
+        "Spring Is Here",
+        "The Surrey with the Fringe on Top",
+        "Custard Puff",
+        "Angel Eyes"
+      ],
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/The_Poll_Winners_Ride_Again!"
+      ],
+      "evidence": "Wikipedia track listing; opener 'Be Deedle Dee Do' plus notable standards and Kessel originals."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "the-poll-winners-ride-again-barney-kessel",
+      "field": "albumDNA",
+      "before": "The Poll Winners Ride Again! stands among Barney Kessel's most celebrated works, capturing the essential spirit of Cool Jazz. The Poll Winners Ride Again! remains a landmark of Cool Jazz, cementing Barney Kessel's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "after": "Second of the five Poll Winners albums by the trio of guitarist Barney Kessel, bassist Ray Brown and drummer Shelly Manne, named for their wins in jazz magazine readers' polls. Recorded August 1958 and released that year on Contemporary, it pairs standards such as 'Volare' and 'Angel Eyes' with Kessel originals.",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/The_Poll_Winners_Ride_Again!"
+      ],
+      "evidence": "Wikipedia: trio of Kessel/Brown/Manne, second of five, Contemporary, recorded and released 1958; tracklist includes 'Volare' and 'Angel Eyes'."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "the-poll-winners-ride-again-barney-kessel",
+      "field": "wikipedia",
+      "before": null,
+      "after": "https://en.wikipedia.org/wiki/The_Poll_Winners_Ride_Again!",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/The_Poll_Winners_Ride_Again!"
+      ],
+      "evidence": "Dedicated English Wikipedia article for the album."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "solo-masterpieces-vol-1-art-tatum",
+      "field": "year",
+      "before": null,
+      "after": 1975,
+      "sourceUrl": [
+        "https://www.discogs.com/release/2517766-Art-Tatum-The-Tatum-Solo-Masterpieces-Vol-1",
+        "https://www.discogs.com/release/4460752-Art-Tatum-The-Tatum-Solo-Masterpieces-Vol-1"
+      ],
+      "evidence": "Discogs: original Pablo LP (catalog 2310-723) released 1975; multiple 1975 pressings listed."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "solo-masterpieces-vol-1-art-tatum",
+      "field": "label",
+      "before": "Various",
+      "after": "Pablo",
+      "sourceUrl": [
+        "https://www.discogs.com/release/2517766-Art-Tatum-The-Tatum-Solo-Masterpieces-Vol-1"
+      ],
+      "evidence": "Discogs: released on Pablo Records (catalog 2310-723)."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "solo-masterpieces-vol-1-art-tatum",
+      "field": "keyTracks",
+      "before": null,
+      "after": [
+        "Moonglow",
+        "Love for Sale",
+        "Body and Soul",
+        "It's Only a Paper Moon",
+        "Have You Met Miss Jones",
+        "Willow Weep for Me"
+      ],
+      "sourceUrl": [
+        "https://www.discogs.com/release/2517766-Art-Tatum-The-Tatum-Solo-Masterpieces-Vol-1"
+      ],
+      "evidence": "Discogs/Pablo tracklist of solo piano standards: Moonglow, Love for Sale, Body and Soul, It's Only a Paper Moon, Have You Met Miss Jones, Willow Weep for Me."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "solo-masterpieces-vol-1-art-tatum",
+      "field": "albumDNA",
+      "before": "Solo Masterpieces Vol. 1 stands among Art Tatum's most celebrated works, capturing the essential spirit of Swing. Solo Masterpieces Vol. 1 remains a landmark of Swing, cementing Art Tatum's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "after": "First volume of Art Tatum's solo piano recordings made for Norman Granz between 1953 and 1955, issued on Pablo in 1975. Tatum plays standards including 'Body and Soul', 'Love for Sale' and 'Willow Weep for Me', showcasing the dense reharmonizations and rapid runs that defined his solo style.",
+      "sourceUrl": [
+        "https://www.discogs.com/release/2517766-Art-Tatum-The-Tatum-Solo-Masterpieces-Vol-1",
+        "https://en.wikipedia.org/wiki/Art_Tatum_discography"
+      ],
+      "evidence": "Discogs: solo piano sessions for Granz, recorded 1953-55, Pablo 1975; standards 'Body and Soul', 'Love for Sale', 'Willow Weep for Me'."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "song-of-the-wanderer-kid-ory",
+      "field": "year",
+      "before": null,
+      "after": 1958,
+      "sourceUrl": [
+        "https://www.jazzdisco.org/kid-ory/catalog/album-index/"
+      ],
+      "evidence": "jazzdisco.org catalog: 'Song of the Wanderer', Verve MGV-1014, released 1958 (recorded 1957)."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "song-of-the-wanderer-kid-ory",
+      "field": "label",
+      "before": "Various",
+      "after": "Verve",
+      "sourceUrl": [
+        "https://www.jazzdisco.org/kid-ory/catalog/album-index/"
+      ],
+      "evidence": "jazzdisco.org catalog: released on Verve, catalog MGV-1014."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "song-of-the-wanderer-kid-ory",
+      "field": "albumDNA",
+      "before": "Song of the Wanderer stands among Kid Ory's most celebrated works, capturing the essential spirit of Early Jazz. Song of the Wanderer remains a landmark of Early Jazz, cementing Kid Ory's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "after": "New Orleans trombonist Kid Ory recorded this set for Norman Granz's Verve label in 1957, released in 1958 (Verve MGV-1014). It captures his later-career band, with Marty Marsala on trumpet, Darnell Howard on clarinet and Cedric Haywood on piano, playing traditional jazz in a relaxed style.",
+      "sourceUrl": [
+        "https://www.jazzdisco.org/kid-ory/catalog/album-index/"
+      ],
+      "evidence": "jazzdisco.org: Verve MGV-1014, recorded 1957 / released 1958; band with Marsala, Howard, Haywood; later-career traditional jazz."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "wild-cat-blues-clarence-williams",
+      "field": "year",
+      "before": null,
+      "after": 1923,
+      "sourceUrl": [
+        "https://americanhistory.si.edu/collections/object/nmah_1061240",
+        "https://en.wikipedia.org/wiki/1923_in_jazz"
+      ],
+      "evidence": "Smithsonian / LoC: recorded NYC July 30 1923, released November 1923 on OKeh."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "wild-cat-blues-clarence-williams",
+      "field": "label",
+      "before": "Various",
+      "after": "OKeh",
+      "sourceUrl": [
+        "https://americanhistory.si.edu/collections/object/nmah_1061240"
+      ],
+      "evidence": "Smithsonian NMAH and RateYourMusic: released on OKeh, catalog 4925."
+    },
+    {
+      "action": "research",
+      "file": "albumsDetail",
+      "id": "wild-cat-blues-clarence-williams",
+      "field": "keyTracks",
+      "before": null,
+      "after": [
+        "Wild Cat Blues",
+        "Kansas City Man Blues"
+      ],
+      "sourceUrl": [
+        "https://americanhistory.si.edu/collections/object/nmah_1061240"
+      ],
+      "evidence": "OKeh 4925 is a 78rpm single; the two sides are 'Wild Cat Blues' and 'Kansas City Man Blues'."
+    },
+    {
+      "action": "research",
+      "file": "albums",
+      "id": "wild-cat-blues-clarence-williams",
+      "field": "albumDNA",
+      "before": "Wild Cat Blues stands among Clarence Williams's most celebrated works, capturing the essential spirit of Early Jazz. Wild Cat Blues remains a landmark of Early Jazz, cementing Clarence Williams's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "after": "A 1923 OKeh recording by Clarence Williams' Blue Five, written by Williams and Fats Waller. It features one of Sidney Bechet's earliest recorded solos on soprano saxophone and is cited as an early example of a New Orleans group spotlighting a soloist rather than collective ensemble play. Added to the Library of Congress National Recording Registry.",
+      "sourceUrl": [
+        "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/WildCatBlues.pdf",
+        "https://americanhistory.si.edu/collections/object/nmah_1061240"
+      ],
+      "evidence": "LoC essay: 1923 OKeh recording by Clarence Williams' Blue Five, Waller/Williams composition, early featured Bechet solo, National Recording Registry."
+    },
+    {
+      "action": "research",
+      "file": "artistsDetail",
+      "id": "andrew-hill",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Andrew_Hill",
+      "after": "https://en.wikipedia.org/wiki/Andrew_Hill_(jazz_musician)",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Andrew_Hill_(jazz_musician)"
+      ],
+      "evidence": "Lead: 'Andrew Hill (June 30, 1931 - April 20, 2007) was an American jazz pianist and composer.' Dates match ours (1931/2007); disambiguated page replaces the bare-name link."
+    },
+    {
+      "action": "research",
+      "file": "artistsDetail",
+      "id": "dave-holland",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Dave_Holland",
+      "after": "https://en.wikipedia.org/wiki/Dave_Holland_(bassist)",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Dave_Holland_(bassist)"
+      ],
+      "evidence": "Lead: 'David Holland (born 1 October 1946) is an English double bassist...'. Birth 1946 matches ours; Miles Davis / ECM bassist. Disambiguated page replaces the bare-name link."
+    },
+    {
+      "action": "research",
+      "file": "artistsDetail",
+      "id": "sadao-watanabe",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Sadao_Watanabe",
+      "after": "https://en.wikipedia.org/wiki/Sadao_Watanabe_(musician)",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Sadao_Watanabe_(musician)"
+      ],
+      "evidence": "Lead: 'Sadao Watanabe (born 1 February 1933) is a Japanese jazz musician who plays alto saxophone and sopranino saxophone.' Birth 1933 matches ours. Disambiguated page replaces the bare-name link."
+    },
+    {
+      "action": "research",
+      "file": "artistsDetail",
+      "id": "sam-rivers",
+      "field": "wikipedia",
+      "before": "https://en.wikipedia.org/wiki/Sam_Rivers",
+      "after": "https://en.wikipedia.org/wiki/Sam_Rivers_(jazz_musician)",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Sam_Rivers_(jazz_musician)"
+      ],
+      "evidence": "Bare 'Sam Rivers' is a disambiguation page. Correct article lead: 'Samuel Carthorne Rivers (September 25, 1923 - December 26, 2011) was an American jazz musician and composer.' Dates match ours (1923/2011); founder of Studio Rivbea."
+    },
+    {
+      "action": "research",
+      "file": "artistsDetail",
+      "id": "tommy-flanagan",
+      "field": "wikipedia",
+      "before": null,
+      "after": "https://en.wikipedia.org/wiki/Tommy_Flanagan_(musician)",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Tommy_Flanagan_(musician)"
+      ],
+      "evidence": "Lead: 'Thomas Lee Flanagan (March 16, 1930 - November 16, 2001) was an American jazz pianist and composer.' Correct jazz subject (not the actor)."
+    },
+    {
+      "action": "research",
+      "file": "artists",
+      "id": "tommy-flanagan",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1930,
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Tommy_Flanagan_(musician)"
+      ],
+      "evidence": "Lead: 'Thomas Lee Flanagan (March 16, 1930 - November 16, 2001)...'."
+    },
+    {
+      "action": "research",
+      "file": "artists",
+      "id": "tommy-flanagan",
+      "field": "deathYear",
+      "before": null,
+      "after": 2001,
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Tommy_Flanagan_(musician)"
+      ],
+      "evidence": "Lead: 'Thomas Lee Flanagan (March 16, 1930 - November 16, 2001)...'."
+    },
+    {
+      "action": "research",
+      "file": "artists",
+      "id": "tommy-flanagan",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "piano"
+      ],
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Tommy_Flanagan_(musician)"
+      ],
+      "evidence": "Lead describes him as 'an American jazz pianist and composer.'"
+    },
+    {
+      "action": "research",
+      "file": "artistsDetail",
+      "id": "james-moody",
+      "field": "wikipedia",
+      "before": null,
+      "after": "https://en.wikipedia.org/wiki/James_Moody_(saxophonist)",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/James_Moody_(saxophonist)"
+      ],
+      "evidence": "Lead: 'James Moody (March 26, 1925 - December 9, 2010) was an American jazz saxophone and flute player...'. Correct jazz subject (not a judge)."
+    },
+    {
+      "action": "research",
+      "file": "artists",
+      "id": "james-moody",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1925,
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/James_Moody_(saxophonist)"
+      ],
+      "evidence": "Lead: 'James Moody (March 26, 1925 - December 9, 2010)...'."
+    },
+    {
+      "action": "research",
+      "file": "artists",
+      "id": "james-moody",
+      "field": "deathYear",
+      "before": null,
+      "after": 2010,
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/James_Moody_(saxophonist)"
+      ],
+      "evidence": "Lead: 'James Moody (March 26, 1925 - December 9, 2010)...'."
+    },
+    {
+      "action": "research",
+      "file": "artists",
+      "id": "james-moody",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "tenor saxophone",
+        "alto saxophone",
+        "flute"
+      ],
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/James_Moody_(saxophonist)"
+      ],
+      "evidence": "Lead: 'an American jazz saxophone and flute player'; infobox/article lists alto and tenor saxophone plus flute."
+    },
+    {
+      "action": "research",
+      "file": "artistsDetail",
+      "id": "clarence-williams",
+      "field": "wikipedia",
+      "before": null,
+      "after": "https://en.wikipedia.org/wiki/Clarence_Williams_(musician)",
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Clarence_Williams_(musician)"
+      ],
+      "evidence": "Lead: 'Clarence Williams (October 8, 1898 or October 6, 1893 - November 6, 1965) was an American jazz pianist, composer...'. Correct early-jazz subject (not the actor Clarence Williams III)."
+    },
+    {
+      "action": "research",
+      "file": "artists",
+      "id": "clarence-williams",
+      "field": "birthYear",
+      "before": 0,
+      "after": 1898,
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Clarence_Williams_(musician)"
+      ],
+      "evidence": "Lead gives '1898 or 1893' (sources conflict); used 1898, the first-listed value in the article lead."
+    },
+    {
+      "action": "research",
+      "file": "artists",
+      "id": "clarence-williams",
+      "field": "deathYear",
+      "before": null,
+      "after": 1965,
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Clarence_Williams_(musician)"
+      ],
+      "evidence": "Lead: '... - November 6, 1965)'."
+    },
+    {
+      "action": "research",
+      "file": "artists",
+      "id": "clarence-williams",
+      "field": "instruments",
+      "before": [],
+      "after": [
+        "piano"
+      ],
+      "sourceUrl": [
+        "https://en.wikipedia.org/wiki/Clarence_Williams_(musician)"
+      ],
+      "evidence": "Lead describes him as 'an American jazz pianist, composer, promoter, vocalist...'; primary instrument piano."
+    }
+  ]
+}

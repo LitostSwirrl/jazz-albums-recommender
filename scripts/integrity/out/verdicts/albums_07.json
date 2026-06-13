@@ -1,0 +1,324 @@
+[
+ {
+  "id": "blue-flames",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "All prose claims confirmed by the stored wiki page (Turrentine collaboration, recorded 1964, Prestige; shortDescription '1964 studio album by Shirley Scott and Stanley Turrentine'). MB match is a 1995 German OJC CD reissue that carries the original Prestige PR 7338 catalog number; its 1995 release/release-group dates are reissue artifacts, not counter-evidence on the 1964 year. Tracklist matches 5/5. MB credits Scott and Turrentine jointly; site artist field lists Scott alone (first-credited; the prose names both)."
+ },
+ {
+  "id": "blue-notes-legacy",
+  "verdict": "entity_mismatch",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Harold Melvin & the Blue Notes were an American soul and R&B vocal group. One of the most popular Philadelphia soul groups of the 1970s", "problem": "Our item is a 1964 South African jazz album credited to The Blue Notes on Gallo; this sentence and the bulk of the blurb describe the American Philadelphia soul group, a different identifiable entity.", "evidenceQuote": "Harold Melvin & the Blue Notes were an American soul and R&B vocal group. One of the most popular Philadelphia soul groups of the 1970s, the group's repertoire included soul, R&B, doo-wop, and disco.", "source": "wiki"},
+   {"ourClaim": "the group is most noted for several hits on Gamble and Huff's Philadelphia International label between 1972 and 1976, although they performed and recorded until Melvin's death in 1997", "problem": "These facts (Philadelphia International 1972-1976, Teddy Pendergrass, Melvin's death 1997) belong to the American soul group, not to the South African jazz group behind a 1964 Gallo LP.", "evidenceQuote": "the group is most noted for several hits on Gamble and Huff's Philadelphia International label between 1972 and 1976, although they performed and recorded until Melvin's death in 1997", "source": "wiki"}
+  ],
+  "notes": "Classic title-search disambiguation collision: most of the albumDNA is the Wikipedia lead for Harold Melvin & the Blue Notes, and the stored wiki link also points to that page. The intended entity is evidently the South African jazz group The Blue Notes (Gallo label, keyTracks like Kippie / Township Bop / Ke Tla Moya, closing sentences about apartheid exile and the London jazz scene) - no evidence for them in the pack (MB search returned nothing), so those closing claims and the keyTracks are unverifiable. Repair needs sources on the South African Blue Notes and the 'Blue Notes in Concert' Gallo release."
+ },
+ {
+  "id": "crescent",
+  "verdict": "clean",
+  "confidence": 0.98,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "All prose claims and fields confirmed by both sources: July 1964 release on Impulse!, Tyner/Garrison/Jones personnel, original Coltrane compositions (wiki); impulse! label and RG first release 1964 (embedded MBID; the specific MB release entry is a 1987 reissue). MB credit 'John Coltrane Quartet' vs ours 'John Coltrane' is a credit variant, not an error. 5/5 keyTracks match."
+ },
+ {
+  "id": "destination-out",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose confirmed by wiki (recorded 1963, Blue Note, second McLean album with Hutcherson and Moncur, Ridley/Haynes rhythm section). Year and label confirmed by MB (1964-10, Blue Note BLP 4165). 4/4 keyTracks match. Closing sentences about McLean's transition are editorial."
+ },
+ {
+  "id": "empyrean-isles",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Core facts confirmed by wiki (fourth studio album, Blue Note November 1964, Hubbard/Carter/Williams) and MB (1964, BST 84175); 4/4 keyTracks on MB list. Wiki's body notes Hubbard played cornet on this session while the wiki lead (like our prose) still calls him 'trumpeter' - not a contradiction. ''Cantaloupe Island' became a hip-hop staple decades later' is legacy color not checkable against this evidence."
+ },
+ {
+  "id": "evolution",
+  "verdict": "unverifiable",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose verbatim-matches the wiki lead (debut as leader, recorded 1963, full personnel, the two related McLean albums) and 4/4 keyTracks match. The year field is disputed between the evidence sources: ours says 1964 and the wiki shortDescription says '1964 studio album by Grachan Moncur III', but the MB search match (original US Blue Note BST 84153 entry) dates both the release and the release group 1963. Recorded-1963 is agreed by everyone; only the original release year is split, so flagged for human review rather than asserted as error. 'Influenced Roswell Rudd and later avant-garde trombonists' is uncheckable legacy color. Minor typo in prose: 'A overlooked masterpiece'."
+ },
+ {
+  "id": "getz-gilberto",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB found no matching release (candidates are the different live albums Getz/Gilberto #2 and Getz/Gilberto '76), so corroboration is wiki-only - and the DNA is nearly verbatim the stored wiki lead, so verification is partly circular. The page is solidly about our entity (title, both artists, 1964, Verve) and confirms Jobim's involvement, March 1964 release, Astrud on 'Garota de Ipanema' and 'Corcovado', Olga Albizu artwork, and the Record of the Year Grammy. No MB tracklist to check keyTracks; wiki text does mention Desafinado, Corcovado and Garota de Ipanema as tracks. Genre-fusion and world-music sentences are editorial."
+ },
+ {
+  "id": "hello-dolly",
+  "verdict": "factual_error",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": [
+   "Mack the Knife",
+   "On the Sunny Side of the Street",
+   "When the Saints Go Marching In",
+   "Ain't Misbehavin'",
+   "Cut Off My Legs and Call Me Shorty"
+  ],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose is the wiki lead verbatim and fully confirmed (All Stars lineup, recording dates Dec 3 1963 / Apr 18 1964 in NYC, Kapp 1964, topped Billboard Top LPs with 74-week stay). The error is in keyTracks: 5 of 6 are not on the album per the authoritative embedded-MBID tracklist (Hello, Dolly! / It's Been a Long, Long Time / A Lot of Livin' to Do / A Kiss to Build a Dream On / Someday / Hey, Look Me Over / I Still Get Jealous / Moon River / Be My Life's Companion / Blueberry Hill / You Are Woman, I Am Man / Jeepers Creepers). Only 'Hello Dolly' matches; the rest look like generic Armstrong-repertoire filler. Repair: replace keyTracks with actual album tracks."
+ },
+ {
+  "id": "judgment",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose matches the wiki lead (recorded and released 1964 on Blue Note; Elvin Jones, Richard Davis, Bobby Hutcherson). MB confirms 1964-09, Blue Note BST 84159. 4/4 keyTracks match. Closing sentences are editorial."
+ },
+ {
+  "id": "mingus-mingus-mingus-mingus-mingus",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Release date January 9, 1964 confirmed by wiki; impulse! (AS 54), 1964, US confirmed by embedded MBID. 5/5 keyTracks match (apostrophe variant in 'Better Get Hit in Yo' Soul'). 'From the hard bop period...' framing is editorial, not a factual claim."
+ },
+ {
+  "id": "night-dreamer",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "All claims confirmed by wiki (fourth album, released November 1964 by Blue Note, quintet with Morgan/Tyner/Workman/Jones, six Shorter originals); MB confirms 1964, BST 84173. 4/4 keyTracks match. 'His compositions became jazz standards' is legacy color."
+ },
+ {
+  "id": "out-to-lunch",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "All claims confirmed: only Blue Note recording as leader, BLP 4163 / BST 84163 (MB shows BLP 4163, 1964-08), quintet personnel (Hubbard/Hutcherson/Davis/Williams), Reid Miles cover with the seven-handed-clock 'Will Be Back' sign. Ours omits that the issue was posthumous - an omission, not an error. 4/4 keyTracks match."
+ },
+ {
+  "id": "poetry-and-jazz-in-concert-record-one",
+  "verdict": "entity_mismatch",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Joseph Arthurlin Harriott was a Jamaican jazz musician and composer, whose principal instrument was the alto saxophone.", "problem": "The entire albumDNA is a person's biography (the Joe Harriott wiki lead) on an album item; it says nothing about the album itself. Spec tell: content about 'a person when the item is an album'.", "evidenceQuote": "shortDescription: Jamaican jazz musician and composer", "source": "wiki"}
+  ],
+  "notes": "Softer variant of the disease: the bio is of the album's actual featured saxophonist, not an unrelated entity, but the prose still describes a person rather than the album. The album's own fields check out against the authoritative embedded-MBID release: Argo ZDA 26, GB, 1964, and both 'Poetry and Jazz' tracks match. MB credits five artists (Adrian Mitchell, Dannie Abse, The Michael Garrick Quintet, Joe Harriott, Shake Keane); the site's artist field lists only Harriott - a curatorial simplification worth review. The stored wiki link goes to the artist page, not an album page (possibly a deliberate fallback, but it is not about our entity). Repair: write album-specific prose about this poetry-and-jazz concert document."
+ },
+ {
+  "id": "prayer-meetin",
+  "verdict": "factual_error",
+  "confidence": 0.65,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "The album was rereleased on CD with two bonus tracks from the same session.", "problem": "The page's track-listing note (corroborated by the personnel section crediting Sam Jones on tracks 7-8 only) says the two CD bonus tracks were recorded June 13, 1960 - a different session three years before the 1963 album session.", "evidenceQuote": "NOTE: \"Lonesome Road\" and \"Smith Walk\" are bonus tracks on a CD reissue that were recorded on June 13, 1960, featuring the same lineup plus Sam Jones on bass.", "source": "wiki"}
+  ],
+  "notes": "Everything else checks out: recorded 1963, Blue Note, year 1964 (MB embedded BLP 4164, 1964-06), 5/5 keyTracks match. Caveat on the flagged claim: the wiki page is internally inconsistent - its own lead contains the identical 'two bonus tracks from the same session' sentence our prose copied, while its dated, personnel-corroborated note contradicts it; the specific note is the better evidence. Repair: drop or correct 'from the same session'. MB and wiki credit Stanley Turrentine alongside Smith; ours lists Smith alone, consistent with the wiki shortDescription's primary credit ('by Jimmy Smith with Stanley Turrentine')."
+ },
+ {
+  "id": "search-for-the-new-land",
+  "verdict": "unverifiable",
+  "confidence": 0.55,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Prose verbatim-matches the wiki lead and is internally consistent (recorded 1964, shelved two years, issued as 84169 - i.e., a 1966 release). The year field says 1964: contradicted by the wiki shortDescription ('1966 studio album by Lee Morgan') and by the shelved-two-years account in both wiki and our own prose, but supported by the pack's MB search match (release date and RG firstReleaseDate both 1964 - possibly erroneous MB data). The catalog's convention elsewhere is release year, which would make 1964 wrong; since the pack evidence is split, flagged for human review rather than asserted as error. 4/4 keyTracks match."
+ },
+ {
+  "id": "the-most-important-jazz-album-of-196465",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Recorded 1964 and Colpix label confirmed by wiki; release group first release 1964 per embedded MBID (the MB release entry itself is a 2003 reissue with an empty label list - artifact, not contradiction). 5/5 keyTracks on the MB list (ours 'Walking' = MB 'Walking'; wiki spells it 'Walkin''). 'A cool jazz entry... documenting the breadth of the free jazz period' is era-grouping editorial. Wiki personnel has Baker on flugelhorn for this date while the lead (like ours) says 'trumpeter/vocalist' - no contradiction."
+ },
+ {
+  "id": "the-sidewinder",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "All claims confirmed: 1964, Van Gelder Studio Englewood Cliffs, BLP 4157 (mono) / BST 84157 (stereo) - MB shows BLP 4157, 1964-07. 4/4 keyTracks match. Legacy sentences ('influenced countless soul jazz recordings') are editorial color."
+ },
+ {
+  "id": "witches-devils",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MBID confirms the title history the prose describes: original Danish Debut release titled 'Spirits' (DEB 146, DK, 1964) inside release group 'Witches & Devils'. 4/4 keyTracks match. Unchecked substantive claims: recorded in New York City, and the later Freedom-label reissue (the RG title is consistent with the alias but no Freedom release appears in evidence). Nothing is contradicted. No wiki URL stored and none found."
+ },
+ {
+  "id": "a-caddy-for-daddy",
+  "verdict": "factual_error",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": [
+   "Carl's Ballade"
+  ],
+  "fieldIssues": [
+   {"field": "year", "ours": "1965", "evidence": "1966", "evidenceQuote": "date: 1966; releaseGroup.firstReleaseDate: 1966", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "MB (search method, exact artist match) dates both the release and the release group 1966 vs site year 1965; nothing in evidence supports 1965. If the site intended the recording year the field may be deliberate, but no recording date is in evidence and the catalog's convention elsewhere is release year. keyTrack 'Carl's Ballade' is not on the MB tracklist (A Caddy for Daddy / The Morning After / Venus Di Mildew / Ace Duece Trey / 3rd Time Around); 'Third Time Around' was accepted as a spelling variant of '3rd Time Around'. Personnel claims (Lee Morgan, Curtis Fuller) are unverifiable - no personnel evidence. Title track and 'The Morning After' are confirmed real tracks. No wiki evidence."
+ },
+ {
+  "id": "a-love-supreme",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Nearly everything is confirmed by wiki: single-session recording December 9, 1964 at Van Gelder Studio (Englewood Cliffs, NJ), classic quartet personnel, four-part suite, the 'a love supreme' chant in Acknowledgement, Coltrane 'playing' the liner-notes poem on 'Psalm'; year/label confirmed by MB (impulse! A 77, RG first release 1965-01). keyTracks all match as substrings of the MB side titles. The unverified substantive claim: 'selling over one million copies' - wiki says about 500,000 by 1970 and 'ranks among Coltrane's best-selling albums'; not contradicted (later sales could exceed 1M) but not supported by the pack evidence. 'Inspiring musicians from Carlos Santana to Kendrick Lamar' is likewise uncheckable legacy color."
+ },
+ {
+  "id": "behind-the-8-ball",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MBID confirms artist (hyphen variant 'Baby-Face Willette'), Argo 749, June 1965; 5/5 keyTracks match. Unchecked substantive claims: 'final album', 'recorded in late 1964', 'cut in Chicago' - no evidence either way. The stored wiki link points to 'Face to Face (Baby Face Willette album)', his 1961 Blue Note debut - a different album, so the site ships a wrong link on this page; per entity-matching rules that page was discarded for fact-checking (it incidentally corroborates that Willette recorded for Blue Note earlier, but cannot verify claims about this album). Repair: fix or remove the wikipediaUrl."
+ },
+ {
+  "id": "blue-note-4000",
+  "verdict": "no_evidence",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "n/a", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "No MB release or search candidates, no wiki page - nothing checkable. Red flags for human review (background knowledge, not citable evidence): 'Blue Note 4000' resembles the label's BLP 4000 catalog-number series rather than an album title, and the three named 'selections' (Open Sesame, Hub-Tones, Ready for Freddie) are the titles of three separate Hubbard albums from 1960-62, not tracks. The entry looks fabricated or synthetic; recommend a manual source hunt or removal from the catalog."
+ },
+ {
+  "id": "dippin",
+  "verdict": "factual_error",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": [
+   "Dippin'"
+  ],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "built around the irresistible groove of the title track, which became a Blue Note classic", "problem": "The album has no track titled 'Dippin'' per the MB tracklist; the opener is 'The Dip'. The prose's 'title track' does not exist on the record.", "evidenceQuote": "tracks: The Dip, Recado Bossa Nova, The Break Through, The Vamp, I See Your Face Before Me, Ballin'", "source": "mb"},
+   {"ourClaim": "Contains Mobley's most recognizable composition in the title track, a boogaloo-tinged burner", "problem": "Same issue: no title track exists; the claim presumably intends 'The Dip'.", "evidenceQuote": "tracks: The Dip, Recado Bossa Nova, The Break Through, The Vamp, I See Your Face Before Me, Ballin'", "source": "mb"}
+  ],
+  "notes": "MB (search, exact artist match) confirms year (1965-06-18) and Blue Note BLP 4209. keyTrack 'Dippin'' matches nothing on the tracklist (ours also lists 'The Dip' separately, which does match, along with Recado Bossa Nova and The Break Through). Personnel claims (Lee Morgan, Harold Mabern Jr.) are unverifiable - no personnel evidence. Repair: retitle the 'title track' references to 'The Dip' and fix keyTracks. No wiki evidence."
+ },
+ {
+  "id": "duke-ellington-fletcher-henderson-artie-shaw-and-their-orchestras",
+  "verdict": "unverifiable",
+  "confidence": 0.6,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded MBID confirms title, Society SOC 982, GB, 1965, and all 5 keyTracks. Two concerns for human review: (1) the authoritative credit is three co-equal artists (Duke Ellington, Fletcher Henderson, Artie Shaw) while the site's artist field picks Henderson alone - curatorial simplification; (2) 'A big band outing from 1965... features pianist Fletcher Henderson recording for Society' implies 1965 recordings, but this is almost certainly a budget-label compilation of older swing-era material - background knowledge says Henderson died in 1952 and could not have recorded in 1965, but the release group carries no Compilation secondaryType and no recording dates are in evidence, so per the rules this stays unverifiable rather than a proven anachronism. Recommend reframing the prose as a compilation."
+ },
+ {
+  "id": "esp",
+  "verdict": "clean",
+  "confidence": 0.96,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "All prose confirmed verbatim by wiki: recorded January 20-22, 1965, released August 16, 1965 by Columbia, first release of the second great quintet (Davis/Shorter/Hancock/Carter/Williams), named after Shorter's tune, telepathy quote. The embedded-MBID release is a 1972 Japanese CBS/Sony reissue (RG first release 1965) - its label does not contradict Columbia as the original label, which wiki confirms. 5/5 keyTracks match."
+ }
+]

@@ -1,0 +1,346 @@
+{
+  "field_artist": [
+    {
+      "id": "holiday-in-piano",
+      "ours_artist": "Lennie Tristano",
+      "mb_artists": [
+        "Lennie Tristano",
+        "Arnold Ross"
+      ],
+      "mb_title": "Holiday in Piano",
+      "sourceUrl": "https://musicbrainz.org/release/6bc5db10-0482-497b-9340-faca4299b49e"
+    },
+    {
+      "id": "sonny-side-up",
+      "ours_artist": "Sonny Rollins",
+      "mb_artists": [
+        "Dizzy Gillespie",
+        "Sonny Stitt",
+        "Sonny Rollins"
+      ],
+      "mb_title": "Sonny Side Up",
+      "sourceUrl": "https://musicbrainz.org/release/9d4b4979-9b75-47cd-a40b-ba84b3712a57"
+    },
+    {
+      "id": "cannonball-adderley-and-the-poll-winners",
+      "ours_artist": "Wes Montgomery",
+      "mb_artists": [
+        "Cannonball Adderley",
+        "Ray Brown",
+        "Wes Montgomery"
+      ],
+      "mb_title": "Cannonball Adderley and the Poll-Winners",
+      "sourceUrl": "https://musicbrainz.org/release/e59ff189-ad0b-4936-be64-a413ef36fe50"
+    },
+    {
+      "id": "soul-junction",
+      "ours_artist": "Donald Byrd",
+      "mb_artists": [
+        "The Red Garland Quintet",
+        "John Coltrane",
+        "Donald Byrd"
+      ],
+      "mb_title": "Soul Junction",
+      "sourceUrl": "https://musicbrainz.org/release/0f3c8db2-f276-4c8a-ae95-28f9375038f4"
+    },
+    {
+      "id": "jazz-pictures-at-an-exibition",
+      "ours_artist": "Kenny Clarke",
+      "mb_artists": [
+        "Pim Jacobs",
+        "Rita Reys",
+        "Kenny Clarke"
+      ],
+      "mb_title": "Jazz Pictures at an Exibition",
+      "sourceUrl": "https://musicbrainz.org/release/f36d7674-a2c1-4a6d-ac89-1a4720861040"
+    },
+    {
+      "id": "screamin-the-blues",
+      "ours_artist": "Eric Dolphy",
+      "mb_artists": [
+        "Oliver Nelson Sextet",
+        "Eric Dolphy",
+        "Richard Williams"
+      ],
+      "mb_title": "Screamin' the Blues",
+      "sourceUrl": "https://musicbrainz.org/release/635f03c6-5b34-47e0-9098-f2882bb1ef3e"
+    },
+    {
+      "id": "clarinet-concertos-nos-1-and-2",
+      "ours_artist": "Benny Goodman",
+      "mb_artists": [
+        "Weber",
+        "Benny Goodman",
+        "Chicago Symphony",
+        "Jean Martinon"
+      ],
+      "mb_title": "Clarinet Concertos Nos. 1 And 2",
+      "sourceUrl": "https://musicbrainz.org/release/aa920ce1-ebae-4c95-8cf5-50de194ad9fa"
+    },
+    {
+      "id": "breakthrough",
+      "ours_artist": "Cedar Walton",
+      "mb_artists": [
+        "Cedar Walton",
+        "Hank Mobley Quintet"
+      ],
+      "mb_title": "Breakthrough!",
+      "sourceUrl": "https://musicbrainz.org/release/cafd43f6-2fe3-42cb-a9b2-c2ff41b82c4d"
+    },
+    {
+      "id": "illuminations",
+      "ours_artist": "Alice Coltrane",
+      "mb_artists": [
+        "Devadip Carlos Santana",
+        "Turiya Alice Coltrane"
+      ],
+      "mb_title": "Illuminations",
+      "sourceUrl": "https://musicbrainz.org/release/debbb9a3-40ec-4ac8-97f4-c8b969fea56d"
+    },
+    {
+      "id": "third-plane",
+      "ours_artist": "Tony Williams",
+      "mb_artists": [
+        "Ron Carter"
+      ],
+      "mb_title": "Third Plane",
+      "sourceUrl": "https://musicbrainz.org/release/114a07f8-bd59-4f84-9020-8127d28b6ca9"
+    },
+    {
+      "id": "third-plane-hancock",
+      "ours_artist": "Herbie Hancock",
+      "mb_artists": [
+        "Ron Carter"
+      ],
+      "mb_title": "Third Plane",
+      "sourceUrl": "https://musicbrainz.org/release/114a07f8-bd59-4f84-9020-8127d28b6ca9"
+    },
+    {
+      "id": "concept-of-freedom",
+      "ours_artist": "Duke Ellington",
+      "mb_artists": [
+        "Anthony Braxton",
+        "Duke Ellington"
+      ],
+      "mb_title": "Concept of Freedom",
+      "sourceUrl": "https://musicbrainz.org/release/d3316ce5-4427-4e4e-9a16-64b847bbf209"
+    },
+    {
+      "id": "secrets-are-the-best-stories",
+      "ours_artist": "Danilo Pérez",
+      "mb_artists": [
+        "Kurt Elling"
+      ],
+      "mb_title": "Secrets Are The Best Stories",
+      "sourceUrl": "https://musicbrainz.org/release/db6fffd0-4040-465c-8052-4f93503b9acd"
+    }
+  ],
+  "year_disputed": [
+    "let-freedom-ring: ours=1962 MB=1963 wiki_mentions_ours=False (search sim=1.0 title-match)",
+    "a-caddy-for-daddy: ours=1965 MB=1966 wiki_mentions_ours=False (search sim=1.0 title-match)",
+    "inner-urge: ours=1965 MB=1964 wiki_mentions_ours=False (search sim=1.0 title-match)",
+    "globe-unity: ours=1966 MB=1967 wiki_mentions_ours=False (search sim=1.0 title-match)",
+    "happenings: ours=1966 MB=1967 wiki_mentions_ours=False (search sim=1.0 title-match)",
+    "the-olatunji-concert: ours=1967 MB=2001 wiki_mentions_ours=True (search sim=1.0 title-match)",
+    "for-alto: ours=1969 MB=1971 wiki_mentions_ours=False (search sim=1.0 title-match)",
+    "extensions: ours=1970 MB=1972 wiki_mentions_ours=True (search sim=1.0 title-match)",
+    "live-at-the-lighthouse: ours=1970 MB=1971 wiki_mentions_ours=True (search sim=1.0 title-match)",
+    "saxophone-solos: ours=1975 MB=1976 wiki_mentions_ours=False (search sim=1.0 title-match)",
+    "emerald-tears: ours=1977 MB=1978 wiki_mentions_ours=False (search sim=1.0 title-match)",
+    "betty-carter-album: ours=1979 MB=1988 wiki_mentions_ours=True (search sim=1.0 title-match)",
+    "revue-wsq: ours=1980 MB=1982 wiki_mentions_ours=False (search sim=1.0 title-match)",
+    "tribal-tech: ours=1985 MB=1991 wiki_mentions_ours=False (search sim=1.0 title-match)",
+    "capricorn-rising: ours=1993 MB=1976 wiki_mentions_ours=True (search sim=1.0 title-match)",
+    "inside-hi-fi-lee-konitz: ours=1957 MB=1956 wiki_mentions_ours=False (search sim=1.0 title-match)",
+    "full-house-wes-montgomery: ours=2007 MB=1962 wiki_mentions_ours=True (search sim=1.0 title-match)"
+  ],
+  "weak_mb_match": [
+    "jay-and-kai (label; no MB release)",
+    "black-christ-of-the-andes (label; no MB release)",
+    "breakthrough (label; MB has no named label)",
+    "music-matador (year; no MB release)",
+    "mercy-mercy-mercy (year; search sim=0.93 title='Mercy, Mercy, Mercy! Live at “The Club”' vs 'Mercy, Mercy, Mercy!')",
+    "in-the-townships (year; search sim=0.77 title='In the Townships' vs 'In the Townships')",
+    "pimp-master (year; no MB release)",
+    "afro-dizzy-gillespie (year; search sim=1.0 title='Afro-Paris / I Cover the Waterfront' vs 'Afro')",
+    "night-train-oscar-peterson (year; search sim=0.76 title='Night Train' vs 'Night Train')",
+    "chet-baker-and-crew-chet-baker (year; search sim=0.77 title='Chet Baker & Crew' vs 'Chet Baker and Crew')"
+  ],
+  "instrument_review": [
+    "james-carter: ours=['bass clarinetsaxophonesflutes'] derived=['saxophone']",
+    "jazz-epistles: ours=['piano', 'trumpet', 'saxophone', 'bass', 'drums'] derived=['alto saxophone', 'trumpet', 'trombone', 'piano', 'drums', 'bass']",
+    "louis-moholo-moholo: ours=['drums', 'percussion'] derived=['drums']",
+    "ryo-kawasaki: ours=['guitar', 'synthesizer'] derived=['guitar']",
+    "world-saxophone-quartet: ours=['alto saxophone', 'tenor saxophone', 'baritone saxophone', 'soprano saxophone'] derived=['tenor saxophone', 'baritone saxophone', 'soprano saxophone', 'clarinet', 'bass', 'flute']"
+  ],
+  "missing_lead": [],
+  "wiki_link_dropped_albums": [
+    "bix-beiderbecke-and-the-chicago-cornets",
+    "singin-the-blues-beiderbecke",
+    "aint-misbehavin-waller",
+    "quintette-du-hot-club-de-france",
+    "rhythm-is-our-business",
+    "for-dancers-only-lunceford",
+    "the-joint-is-jumpin",
+    "lunceford-special",
+    "django-reinhardt-et-son-quintette",
+    "django",
+    "on-parade",
+    "solo-flight",
+    "oscar-peterson-plays-george-gershwin",
+    "the-great-artistry-of-django-reinhardt",
+    "tatum-carter-bellson",
+    "the-president",
+    "kenny-burrell",
+    "the-trio-volume-3-everybody-likes-hampton-hawes",
+    "ella-and-her-fellas",
+    "four-trombones",
+    "the-most-happy-piano",
+    "latin-kick",
+    "the-oscar-peterson-trio-at-newport",
+    "abbey-is-blue",
+    "louie-and-the-dukes-of-dixieland",
+    "soul-time",
+    "waltz-for-debby",
+    "nancy-wilson-cannonball-adderley",
+    "whats-new",
+    "caravan",
+    "blue-notes-legacy",
+    "poetry-and-jazz-in-concert-record-one",
+    "behind-the-8-ball",
+    "ray-brown-milt-jackson",
+    "music-on-my-mind",
+    "ella-fitzgeralds-christmas",
+    "grazin-in-the-grass",
+    "piano-starts-here",
+    "the-piano-soul-of-nat-king-cole",
+    "monks-blues",
+    "the-new-don-ellis-band-goes-underground",
+    "les-stances-a-sophie",
+    "on-with-it",
+    "weather-report",
+    "art-blakey-his-jazz-messengers",
+    "ella-loves-cole",
+    "mystic-brew",
+    "afrodisia",
+    "mannenberg",
+    "sadao-watanabe-mbali",
+    "summit-reunin-cumbre",
+    "real-book",
+    "school",
+    "african-marketplace",
+    "the-believer",
+    "herbie-hancock-trio-with-ron-carter-tony-williams",
+    "turi",
+    "baroque-music-for-trumpets",
+    "straight-life-the-savoy-sessions",
+    "hearts-and-numbers",
+    "crystal-stair-blanchard",
+    "stories",
+    "jazz-street",
+    "jam-session",
+    "hipmotism",
+    "a-jazz-hour-with-dizzy-gillespie",
+    "plays-and-plays-and-plays",
+    "russell-malone",
+    "love-notes",
+    "forever-love",
+    "tenor-titans",
+    "jazz-in-film",
+    "sweet-release-ghost-story",
+    "joey-calderazzo",
+    "vento",
+    "armstrong-alumni-allstars",
+    "jing-chi",
+    "little-jazz-the-jimmy-ryan-all-stars",
+    "np3",
+    "play-morricone",
+    "round-and-round",
+    "swings",
+    "congo-square",
+    "malphas-book-of-angels-volume-3",
+    "the-library-of-congress-recordings-by-alan-lomax",
+    "standards",
+    "the-man-i-love",
+    "pithecanthropus-erectus-the-clown",
+    "volume-1-1923-1929",
+    "blue-note-jazz-inspiration",
+    "is-that-so",
+    "solo-piano-portraits",
+    "all-things-are",
+    "morning-with-swing-jazz-guitar-trumpet-saxophone-more-melodies-of-piano-instrumental-smooth-jazz-music",
+    "solo-piano-at-wkcr-1977",
+    "the-legend-of-king-oliver-remastered",
+    "who-are-you",
+    "christmas-stories",
+    "the-lore",
+    "lullaby-of-birdland"
+  ],
+  "wiki_link_artists_to_research": [
+    "andrew-hill",
+    "dave-holland",
+    "sadao-watanabe",
+    "sam-rivers"
+  ],
+  "no_change": [
+    "gateway (keytracks already match)",
+    "begin-the-beguine-artie-shaw (keytracks already match)",
+    "earth-jones (label ok: Quicksilver)",
+    "louis-armstrong-meets-oscar-peterson (year ok: 1957)",
+    "little-girl-blue (year ok: 1958)",
+    "money-jungle-mingus (year ok: 1962)",
+    "conquistador (year ok: 1967)",
+    "the-magic-of-juju (year ok: 1967)",
+    "selflessness-featuring-my-favorite-things (year ok: 1968)",
+    "total-eclipse (year ok: 1968)",
+    "get-together (year ok: 1986)",
+    "undercurrent-bill-evans (year ok: 2013)",
+    "james-carter (stub: nothing to fill)",
+    "jazz-epistles (stub: nothing to fill)",
+    "marcus-miller (stub: nothing to fill)",
+    "world-saxophone-quartet (stub: nothing to fill)"
+  ],
+  "keytracks_no_tracklist": [
+    "looking-ahead",
+    "live-at-the-five-spot",
+    "the-honeydripper",
+    "modern-sounds",
+    "music-matador",
+    "great-american-songbook",
+    "witchi-tai-to",
+    "scenery-ryo-fukui",
+    "saudades"
+  ],
+  "keytracks_uncertain": [
+    "free-form-harriott (search sim=0.75 title='Free Form' vs 'Free Form')",
+    "free-at-last-waldron (search sim=0.81 title='Free at Last' vs 'Free at Last')",
+    "in-the-townships (search sim=0.77 title='In the Townships' vs 'In the Townships')",
+    "the-popular-duke-ellington (search sim=1.0 title='The Eternal Ellington' vs 'Duke Ellington')",
+    "concert-in-the-garden (search sim=0.75 title='Concert in the Garden' vs 'Concert in the Garden')",
+    "django-and-his-american-friends-django-reinhardt (search sim=1.0 title='Django And His American Friends, Vol. 2' vs 'Django and His American Friends')",
+    "chet-baker-and-crew-chet-baker (search sim=0.77 title='Chet Baker & Crew' vs 'Chet Baker and Crew')"
+  ],
+  "label_review": [
+    "ella-fitzgerald-sings-the-irving-berlin-song-book: ours='His Master’s Voice' MB labels=['Verve'] url=https://musicbrainz.org/release/333eacea-46b7-4204-b85d-193ffa3662dc",
+    "sonny-side-up: ours='Columbia Records' MB labels=['Verve'] url=https://musicbrainz.org/release/9d4b4979-9b75-47cd-a40b-ba84b3712a57",
+    "screamin-the-blues: ours='Prestige' MB labels=['Original Jazz Classics'] url=https://musicbrainz.org/release/635f03c6-5b34-47e0-9098-f2882bb1ef3e",
+    "sadao-watanabe-mbali: ours='Flying Disk' MB labels=['CBS/Sony', 'CBS/Sony'] url=https://musicbrainz.org/release/b7dbeee4-3e81-433f-807b-9591dee96b71",
+    "domino-theory: ours='CBS/Sony' MB labels=['Columbia'] url=https://musicbrainz.org/release/d2d21a05-6a05-4bea-8570-bd9434aa22a7",
+    "tribal-tech: ours='Passport' MB labels=['Relativity Records'] url=https://musicbrainz.org/release/6dffe946-41b4-40a6-805c-41b13e104fa5",
+    "here-today-tomorrow: ours='Verve' MB labels=['PolyGram Records, Inc.'] url=https://musicbrainz.org/release/0e86a678-892a-423c-bd68-5da98b52648a",
+    "the-man-i-love: ours='AVM Music' MB labels=['Dreyfus Jazz'] url=https://musicbrainz.org/release/93e4b4ce-d864-44fd-b140-71308162d45b",
+    "baboon-moon: ours='Columbia' MB labels=['Sula Records'] url=https://musicbrainz.org/release/a2880b75-ecf6-4e48-b761-218a66caf861",
+    "fearless-movement: ours='Shoto Mas Inc.' MB labels=['Young'] url=https://musicbrainz.org/release/3b76a10d-1fd7-4eab-a537-eb04636a703b",
+    "moondial: ours='BMG' MB labels=['Modern Recordings'] url=https://musicbrainz.org/release/c1742941-0a5e-4edd-b8b1-e6fe68f22c67",
+    "remembrance: ours='Thirty Tigers' MB labels=['Béla Fleck Productions Inc.'] url=https://musicbrainz.org/release/9278ad39-5b50-4d77-871e-8d1650c341b0",
+    "smack: ours='De Agostini' MB labels=['Éditions Atlas'] url=https://musicbrainz.org/release/cd0d437c-1f88-47e9-bb67-b675e1825be5",
+    "bumpin-wes-montgomery: ours='Various' MB labels=['PolyGram Records, Inc.'] url=https://musicbrainz.org/release/e349d209-f2f3-4ffb-b8ba-8286da54262f",
+    "tales-of-captain-black: ours='DIW' MB labels=['Artists House'] url=https://musicbrainz.org/release/553b2d9a-2ab0-38cd-a313-da640294b62c",
+    "snowy-morning-blues: ours='GRP' MB labels=['Verve Reissues'] url=https://musicbrainz.org/release/e274efe0-ddbf-4dbb-ba5d-cefd68215170"
+  ],
+  "stub_unresolved": [
+    "tommy-flanagan: cached page is a disambiguation page (resolvedTitle='Thomas Flanagan'); current birthYear=0 -> research correct page",
+    "james-moody: cached page is a disambiguation page (resolvedTitle='James Moody'); current birthYear=0 -> research correct page",
+    "clarence-williams: cached page is a disambiguation page (resolvedTitle='Clarence Williams'); current birthYear=0 -> research correct page"
+  ]
+}

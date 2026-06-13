@@ -1,0 +1,316 @@
+[
+ {
+  "id": "everythings-beautiful",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release matches (title, 2016-05-27, Blue Note among labels, credited artists Miles Davis + Robert Glasper). All 5 keyTracks present in MB tracklist. Prose's only biographical claim 'won five Grammy Awards from 11 nominations' is verbatim in the Robert Glasper wiki extract. The album is jointly credited to Miles Davis (a remix/reimagining of Davis material); our prose credits only Glasper, who is a genuine co-credited artist, so this is acceptable editorial framing, not a mismatch. Stored wikiUrl is the Glasper artist page (correct artist) though not an album-specific page."
+ },
+ {
+  "id": "in-movement",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release matches (title, 2016-05-06, ECM Records, credited artists Jack DeJohnette + Ravi Coltrane + Matthew Garrison). All 5 keyTracks present in MB tracklist. Bio sentence 'Co-owner of the record label RKM Music, he has produced music for pianist Luis Perdomo, guitarist David Gilmore, and trumpeter Ralph Alessi' is verbatim from the Ravi Coltrane wiki extract. Album is a co-led DeJohnette/Coltrane/Garrison trio; prose foregrounds Coltrane, who is a genuine co-credit."
+ },
+ {
+  "id": "inner-spectrum-of-variables",
+  "verdict": "unverifiable",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match (sim 1.0) to 'The Inner Spectrum of Variables' (our title drops the leading 'The'), 2016-06-03, Pi Recordings, Tyshawn Sorey. All 3 keyTracks present. Entity is clearly correct. No wikipedia. The substantive biographical claim 'earned him a MacArthur Fellowship' cannot be verified against the pack evidence (no wiki); not contradicted. 'triple album' also not confirmable from MB (MB lists 6 tracks but that does not preclude a 3-disc set). Rest of prose is editorial characterization."
+ },
+ {
+  "id": "live-under-the-sky-tokyo-84",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release matches (title, 2016, Hi-Hat, status Bootleg, credited artists Gil Evans + Jaco Pastorius). All 5 keyTracks present in MB tracklist. The albumDNA is actually Gil Evans artist-bio prose copied verbatim from the Gil Evans wiki extract ('Ian Ernest Gilmore Evans was a Canadian-American jazz pianist... best known for his acclaimed collaborations with Miles Davis') rather than album-specific content, but Gil Evans is a genuine credited artist on this release and every bio claim matches the wiki, so no factual problem. Repair note: prose describes the artist, not this live/bootleg album."
+ },
+ {
+  "id": "live-under-the-sky-tokyo-84-pastorius",
+  "verdict": "clean",
+  "confidence": 0.88,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Same embedded-MBID release as the Gil Evans entry (credited Gil Evans + Jaco Pastorius, 2016, Hi-Hat, Bootleg). Jaco Pastorius is a genuine co-credit. All 5 keyTracks present in MB tracklist. Prose is thin; 'big band recording' is a defensible characterization of the Gil Evans Orchestra context and is not contradicted by MB. No wikipedia. Everything checkable is consistent."
+ },
+ {
+  "id": "the-mezzo-sax-encounter",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release matches (title, 2016, Cowbell Music, credited artists Benjamin Koppel + Joe Lovano + Kenny Werner + Scott Colley + Johnathan Blake). All 5 keyTracks present in MB tracklist. Bio claim 'earned a Grammy Award and several mentions in Down Beat magazine's critics' & readers' polls' is verbatim from the Joe Lovano wiki extract. Lovano is a genuine co-credit; prose foregrounds him."
+ },
+ {
+  "id": "the-unity-sessions",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Unknown", "evidence": "Nonesuch", "evidenceQuote": "Nonesuch", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release matches (title, 2016-05-06, Nonesuch, Pat Metheny, secondaryType Live). Stored wiki is the correct album page 'The Unity Sessions' and the entire albumDNA is verbatim from it; personnel named (Chris Potter, Ben Williams, Giulio Carmassi, Antonio Sanchez) all confirmed in the wiki personnel section. All 6 keyTracks present in MB tracklist. Label FIELD says 'Unknown' while MB has 'Nonesuch' — recorded as a fillable gap, not a contradiction (Unknown is not a false claim), so verdict stays clean; repair can set label to Nonesuch."
+ },
+ {
+  "id": "beyond-mobius",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match (sim 1.0): 'Beyond Mobius', 2017-11-29, Sony Records International (JP), Cedar Walton. All 5 keyTracks present in MB tracklist. The jazz-standards list ('Mosaic', 'Bolivia', 'Holy Land', 'Mode for Joe' and 'Ugetsu/Fantasy in D') is verbatim from the lead sentence of the Cedar Walton wiki extract. 'jazz fusion tradition' is an editorial/style characterization (Walton is normally tagged hard bop) and is not a citable factual claim, so not flagged per the editorial-opinion rule."
+ },
+ {
+  "id": "chris-thile-brad-mehldau",
+  "verdict": "unverifiable",
+  "confidence": 0.78,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release matches (title, 2017-01-20, Nonesuch, credited artists Chris Thile + Brad Mehldau). All 5 keyTracks present in MB tracklist. Stored wiki is the Brad Mehldau artist page (correct artist). The cover-songwriter attributions 'reimagining songs by Elliott Smith, Gillian Welch, and Bob Dylan' are only partly checkable: Bob Dylan is supported by MB tracks ('Don't Think Twice It's Alright', 'Scarlet Town'), but Elliott Smith and Gillian Welch as covered composers cannot be confirmed from the MB track titles and there is no album-specific wiki. No contradiction; marked unverifiable for those composer claims."
+ },
+ {
+  "id": "golden-striker-live-at-theaterstbchen-kassel",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release matches (title, 2017-04-28, In+Out Records, credited artists Ron Carter + Donald Vega + Russell Malone). All 6 keyTracks present in MB tracklist; the 3 named in prose (Laverne Walk, Candle Light, Golden Striker) all present. Russell Malone is a genuine co-credit (Ron Carter Golden Striker Trio). 'hard bop tradition' is editorial. No wikipedia. Everything checkable is consistent."
+ },
+ {
+  "id": "liberation-narratives",
+  "verdict": "unverifiable",
+  "confidence": 0.72,
+  "entityMatch": {"musicbrainz": "no", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "The embedded MBID resolved to the WRONG release: MB returns 'Narratives' (2013) by Nathaniel Johnstone with an unrelated tracklist (Gepetto's Lament, Baba Yaga, ...), NOT Nicole Mitchell's 'Liberation Narratives'. MB is therefore discarded for fact-checking and cannot validate our title/year/label/tracks (keyTracksVerdict no_evidence). The stored wiki IS the correct ARTIST page (Nicole Mitchell) and confirms the one bio claim 'a former chairwoman of the Association for the Advancement of Creative Musicians (AACM)' verbatim. Album-specific claims (Black Earth Music label, 2017, the keyTracks) cannot be verified from the surviving evidence. Right artist, no contradiction, album facts uncheckable -> unverifiable. Repair: the album MBID is mismatched and needs re-resolution."
+ },
+ {
+  "id": "mandorla-awakening-ii",
+  "verdict": "factual_error",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Mandorla Awakening", "Ceremony of Infinite Projection"],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Mandorla Awakening", "problem": "Listed as a key track but absent from the MB tracklist for this release (closest is 'Mandorla Island', a different track).", "evidenceQuote": "Egoes War, Sub-Mission, The Chalice, Dance of Many Hands, Listening Embrace, Forestwall Timewalk, Staircase Struggle, Shiny Divider, Mandorla Island, Timewrap", "source": "mb"},
+   {"ourClaim": "Ceremony of Infinite Projection", "problem": "Listed as a key track but absent from the MB tracklist for this release.", "evidenceQuote": "Egoes War, Sub-Mission, The Chalice, Dance of Many Hands, Listening Embrace, Forestwall Timewalk, Staircase Struggle, Shiny Divider, Mandorla Island, Timewrap", "source": "mb"}
+  ],
+  "notes": "MB search match (sim 1.0): title/artist/label/year all match (Mandorla Awakening II: Emerging Worlds, 2017, FPE Records, Nicole Mitchell) so the entity is correct. Of 4 keyTracks, only 'Egoes War' and 'Listening Embrace' appear in the MB tracklist; 'Mandorla Awakening' and 'Ceremony of Infinite Projection' do not. Flagged factual_error on the two absent keyTracks. Caveat: evidence is a search (strong but not infallible) match, not an embedded MBID; if MB's tracklisting is incomplete these could be valid. Prose itself (Afrofuturist, Black Earth Ensemble, etc.) is editorial and not flagged."
+ },
+ {
+  "id": "mount-royal",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release matches (title, 2017-02-25, Free Dirt Records, credited artists Julian Lage + Chris Eldridge). All 5 keyTracks present in MB tracklist. Stored wiki is the correct album page 'Mount Royal (album)' and the albumDNA is verbatim from it, including the Grammy nomination for Best Contemporary Instrumental Album. Fully verified."
+ },
+ {
+  "id": "trypnotyx",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release matches (TRYPNOTYX, 2017-09-08, Vix Records, credited artists Victor Wooten + Dennis Chambers + Bob Franceschini). All 5 keyTracks present in MB tracklist. Dennis Chambers is a genuine co-credit. Prose is thin and fully consistent with MB. No wikipedia."
+ },
+ {
+  "id": "trypnotyx-wooten",
+  "verdict": "unverifiable",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Same embedded-MBID release as the Dennis Chambers entry (Victor Wooten + Dennis Chambers + Bob Franceschini, 2017, Vix Records). Wooten is the lead credited artist. All 5 keyTracks present. No wikipedia, so the substantive bio claims 'bassist for Bela Fleck and the Flecktones since the group's formation in 1988' and 'member of the band SMV with two other bassists, Stanley Clarke and Marcus Miller' cannot be verified against pack evidence; not contradicted. Marked unverifiable for those bio claims."
+ },
+ {
+  "id": "12-little-spells",
+  "verdict": "unverifiable",
+  "confidence": 0.8,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Concord Jazz", "evidence": "Concord Records", "evidenceQuote": "Concord Records", "source": "mb"}
+  ],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release matches (12 Little Spells, 2018-10-19, Concord Records, Esperanza Spalding, status Withdrawn). All 5 keyTracks present in MB tracklist. Label field 'Concord Jazz' vs MB 'Concord Records' is an imprint variant, not a contradiction (recorded for completeness only). No wikipedia, so the specific claims 'seventh studio album', 'each song released individually from October 7-18, 2018', and 'each track also contains a music video' cannot be verified; none contradicted by MB. Marked unverifiable for those claims."
+ },
+ {
+  "id": "christmas-at-notre-dame",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release matches (Christmas at Notre Dame, 2018, Universal Music Latino, Arturo Sandoval). All 5 keyTracks present in MB tracklist. Prose is thin and fully consistent with MB. No wikipedia."
+ },
+ {
+  "id": "flight",
+  "verdict": "clean",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "label", "ours": "Unknown", "evidence": "Blue Note Records", "evidenceQuote": "his first album as leader was released by Blue Note Records in 2018", "source": "wiki"}
+  ],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release matches (Flight, 2018, James Francies; MB has no label). All 5 keyTracks present in MB tracklist. Stored wiki is the correct James Francies artist page and confirms 'his first album as leader was released by Blue Note Records in 2018' verbatim — so the prose's claim is verified and the label FIELD 'Unknown' is a fillable gap (repair can set Blue Note Records). 'Unknown' is not a false claim, so verdict stays clean."
+ },
+ {
+  "id": "hollywood-africans",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release matches (Hollywood Africans, 2018-09-18, Verve, Jon Batiste). All 5 keyTracks present in MB tracklist. Bio claim 'appeared nightly with his band, Stay Human, as bandleader and musical director on The Late Show with Stephen Colbert from 2015 to 2022' is verbatim from the Jon Batiste wiki extract, which also confirms 'Hollywood Africans, was released by Verve Records in September 2018'. Fully verified."
+ },
+ {
+  "id": "origami-harvest",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release matches (Origami Harvest, 2018-10-12, Blue Note, Ambrose Akinmusire). All 5 keyTracks present in MB tracklist. Stored wiki is the correct album page 'Origami Harvest' and the albumDNA is verbatim from it. Fully verified."
+ },
+ {
+  "id": "songs-along-the-way",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release matches (Songs Along the Way, 2018-08-09, Babel, credited artists Raymond MacDonald + Marilyn Crispell). All 5 keyTracks present in MB tracklist. Stored wiki is the correct album page and the albumDNA is verbatim from it ('album by saxophonist Raymond MacDonald and pianist Marilyn Crispell ... released in 2018 by Babel Records'). Crispell is a genuine co-credit. Fully verified."
+ },
+ {
+  "id": "tokyo-1981",
+  "verdict": "no_evidence",
+  "confidence": 0.75,
+  "entityMatch": {"musicbrainz": "no", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "The embedded MBID resolved to the WRONG release: MB returns 'Live in Tokyo 1981' credited to Herbie Hancock + Carlos Santana (1981), with an unrelated tracklist (Watermelon Man, Round Midnight, Parade, The Sorcerer, Europa, ...), NOT Woody Shaw's 'Tokyo 1981'. MB does not entity-match and is discarded. No wikipedia. No evidence document survives entity-matching, so nothing about our Woody Shaw item (Elemental Music, 2018, keyTracks Rosewood/'Round Midnight/Apex/...) can be verified or contradicted -> no_evidence. (Background knowledge that Woody Shaw recorded in Tokyo is not citable and was not used.) Repair: album MBID is mismatched and needs re-resolution."
+ },
+ {
+  "id": "your-queen-is-a-reptile",
+  "verdict": "clean",
+  "confidence": 0.82,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match (sim 1.0): 'Your Queen Is a Reptile', 2018-03-30, impulse!, Sons of Kemet. All 4 keyTracks present in the MB tracklist (Ada Eastman, Angela Davis, Harriet Tubman, Doreen Lawrence), and the album-defining claim that each track is named after a Black woman is directly supported by the tracklist (every title is 'My Queen Is [name]'). Artist/year/label all match. The remaining content is editorial; the only uncheckable specifics are leader attribution ('Shabaka Hutchings' ensemble') and instrumentation ('two drummers and a tuba'), which are descriptive and not contradicted — noted for a reviewer but not enough to downgrade given the central claims verify."
+ },
+ {
+  "id": "all-things-are",
+  "verdict": "entity_mismatch",
+  "confidence": 0.93,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Aquarius is an album by American jazz flautist Nicole Mitchell, which was recorded in 2012 and released on Delmark. It was the debut of her ensemble Ice Crystal, a quartet with vibraphonist Jason Adasiewicz, bassist Josh Abrams and drummer Frank Rosaly.", "problem": "The entire albumDNA describes a DIFFERENT Nicole Mitchell album ('Aquarius', 2012, Delmark, Ice Crystal quartet), not this item 'All Things Are' (2019, RogueArt, Matthew Shipp Trio + Nicole Mitchell). Wrong year and wrong label vs the MB release.", "evidenceQuote": "title: All Things Are; date: 2019-01-28; labels: RogueArt; artists: Matthew Shipp Trio, Nicole Mitchell", "source": "mb"}
+  ],
+  "notes": "Disambiguation-collision case. The FIELDS are correct for 'All Things Are' — embedded-MBID release matches (2019-01-28, RogueArt, Matthew Shipp Trio + Nicole Mitchell) and all 5 keyTracks (Elements, Well Spring, It, Hidden Essence, Void of Ground) are present in the MB tracklist. But the albumDNA prose is lifted wholesale from the wrong album: it is verbatim the Wikipedia extract for 'Aquarius (Nicole Mitchell album)' (2012, Delmark, ensemble Ice Crystal, tribute to Fred Anderson) — the stored wikiUrl is that Aquarius page. Same artist, but the prose's factual skeleton (2012, Delmark, Ice Crystal, Adasiewicz/Abrams/Rosaly) belongs to a different release, contradicting MB's 2019/RogueArt. Verdict entity_mismatch for the prose; repair must rewrite the albumDNA to describe 'All Things Are' and replace the wikiUrl."
+ },
+ {
+  "id": "chesed-the-book-beriah-volume-4",
+  "verdict": "factual_error",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "features his Masada ensemble", "problem": "The prose attributes the performance to John Zorn's Masada ensemble, but the MB release credits the performers as Julian Lage and Gyan Riley (a guitar duo). Zorn composed the Book Beri'ah series, but he does not perform this volume.", "evidenceQuote": "artists: Julian Lage, Gyan Riley", "source": "mb"},
+   {"ourClaim": "Chesed (The Book Beriah Volume 4) is a 2018 album", "problem": "Prose dates the album to 2018; the MB release date is 2019-04 (and the item's own year field is 2019).", "evidenceQuote": "date: 2019-04", "source": "mb"}
+  ],
+  "notes": "Right album entity — embedded-MBID matches (Chesed: The Book Beri'ah, Volume 4, 2019-04, Tzadik, credited artists Julian Lage + Gyan Riley) and all 5 keyTracks (Katanot, Zeir Anpin, Sachel, Tohu, Hekhalot Zutari) are present in the MB tracklist — but the prose contains two contradicted claims: (1) the year '2018' vs MB 2019-04, and (2) 'features his Masada ensemble' vs the actual performers Lage + Gyan Riley. The framing 'part of Zorn's Book Beri'ah series' is itself defensible (Zorn composed the series), and the closing sentence does correctly tie the album to Julian Lage. Stored wiki is the Julian Lage artist page (correct co-artist). Verdict factual_error (right entity, specific contradicted claims). Repair: fix year to 2019 and replace 'his Masada ensemble' with the Julian Lage / Gyan Riley duo."
+ }
+]

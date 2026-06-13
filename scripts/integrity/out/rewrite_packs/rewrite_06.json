@@ -1,0 +1,1317 @@
+[
+  {
+    "id": "detroitnew-york-junction-thad-jones",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 1999, Detroit/New York Junction",
+    "contradictingQuote": "\"firstReleaseDate\": \"1956\"",
+    "skepticDecision": "Upheld: MB release date and release-group first release are both 1956, contradicting a 1999 recording.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 1999, Detroit/New York Junction showcases Thad Jones at the height of their creative powers",
+        "problem": "Year is wrong: MB release date and releaseGroup first-release date are both 1956, not 1999; the album cannot have been recorded in 1999.",
+        "evidenceQuote": "\"date\": \"1956\" ... \"firstReleaseDate\": \"1956\"",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Entity confirmed (MB search sim 1.0, Blue Note BLP 1513, exact tracklist match; MB title 'Detroit-New York Junction' = ours with slash vs hyphen). Only error is the 1999 year/recording claim; no 1999 reissue appears in evidence. No Wikipedia.",
+    "ours": {
+      "title": "Detroit/New York Junction",
+      "artist": "Thad Jones",
+      "year": 1956,
+      "label": "Various",
+      "albumDNA": "Recorded in 1999, Detroit/New York Junction showcases Thad Jones at the height of their creative powers, offering one of the finest expressions of Hard Bop. Detroit/New York Junction remains a landmark of Hard Bop, cementing Thad Jones's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Blue Room",
+        "Tarriff",
+        "Little Girl Blue",
+        "Scratch",
+        "Zec"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "17cb431d-3fe2-43a0-a02d-2b2169258543",
+          "title": "Detroit-New York Junction",
+          "date": "1956",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Thad Jones"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": "BLP 1513"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "4b643ca6-f317-3bd7-bc9d-cd28b1a561fa",
+            "title": "Detroit-New York Junction",
+            "firstReleaseDate": "1956",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Blue Room",
+            "Tarriff",
+            "Little Girl Blue",
+            "Scratch",
+            "Zec"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "dexter-calling-dexter-gordon",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 1987, Dexter Calling showcases Dexter Gordon at the height of their creative powers",
+    "contradictingQuote": "\"firstReleaseDate\": \"1961-05-09\"",
+    "skepticDecision": "The releaseGroup first release is 1961-05-09, so the album cannot have been recorded in 1987.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 1987, Dexter Calling",
+        "problem": "1987 is the CD reissue year; the album was first released in 1961",
+        "evidenceQuote": "releaseGroup.firstReleaseDate: 1961-05-09",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Entity confirmed via embedded MBID: 'Dexter Calling…' (Dexter Gordon, Blue Note). The 1987 release is a CD reissue; release-group firstReleaseDate is 1961-05-09, contradicting albumDNA 'Recorded in 1987'. All 6 keyTracks match the MB tracklist (which also adds Smile, Landslide).",
+    "ours": {
+      "title": "Dexter Calling",
+      "artist": "Dexter Gordon",
+      "year": 1987,
+      "label": "Blue Note",
+      "albumDNA": "Recorded in 1987, Dexter Calling showcases Dexter Gordon at the height of their creative powers, offering one of the finest expressions of Bebop. Dexter Calling remains a landmark of Bebop, cementing Dexter Gordon's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Soul Sister",
+        "Modal Mood",
+        "I Want More",
+        "End of a Love Affair",
+        "Clear the Dex",
+        "Ernie’s Tune"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "a344a268-c378-465a-a8f7-33512672f78c",
+          "title": "Dexter Calling…",
+          "date": "1987",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Dexter Gordon"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": "CDP 7 46544 2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "773727e9-dfaa-3d6b-95d2-d1ec05ab8566",
+            "title": "Dexter Calling…",
+            "firstReleaseDate": "1961-05-09",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Soul Sister",
+            "Modal Mood",
+            "I Want More",
+            "End of a Love Affair",
+            "Clear the Dex",
+            "Ernie’s Tune",
+            "Smile",
+            "Landslide"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "dippin",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "built around the irresistible groove of the title track, which became a Blue Note classic",
+    "contradictingQuote": "tracks: The Dip, Recado Bossa Nova, The Break Through, The Vamp, I See Your Face Before Me, Ballin'",
+    "skepticDecision": "The MB tracklist has no track named 'Dippin''; the prose twice asserts a 'title track' (Mobley's 'most recognizable composition', a 'boogaloo-tinged burner') that does not exist on the record, and ours even lists a phantom 'Dippin'' keyTrack alongside the real 'The Dip'. The named title track is factually absent.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "built around the irresistible groove of the title track, which became a Blue Note classic",
+        "problem": "The album has no track titled 'Dippin'' per the MB tracklist; the opener is 'The Dip'. The prose's 'title track' does not exist on the record.",
+        "evidenceQuote": "tracks: The Dip, Recado Bossa Nova, The Break Through, The Vamp, I See Your Face Before Me, Ballin'",
+        "source": "mb"
+      },
+      {
+        "ourClaim": "Contains Mobley's most recognizable composition in the title track, a boogaloo-tinged burner",
+        "problem": "Same issue: no title track exists; the claim presumably intends 'The Dip'.",
+        "evidenceQuote": "tracks: The Dip, Recado Bossa Nova, The Break Through, The Vamp, I See Your Face Before Me, Ballin'",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "MB (search, exact artist match) confirms year (1965-06-18) and Blue Note BLP 4209. keyTrack 'Dippin'' matches nothing on the tracklist (ours also lists 'The Dip' separately, which does match, along with Recado Bossa Nova and The Break Through). Personnel claims (Lee Morgan, Harold Mabern Jr.) are unverifiable - no personnel evidence. Repair: retitle the 'title track' references to 'The Dip' and fix keyTracks. No wiki evidence.",
+    "ours": {
+      "title": "Dippin'",
+      "artist": "Hank Mobley",
+      "year": 1965,
+      "label": "Blue Note",
+      "albumDNA": "One of Mobley's most soulful outings, built around the irresistible groove of the title track, which became a Blue Note classic. The quintet with Lee Morgan and Harold Mabern Jr. swings with infectious joy throughout. Contains Mobley's most recognizable composition in the title track, a boogaloo-tinged burner that became a staple of jazz DJs and rare groove collectors worldwide.",
+      "keyTracks": [
+        "Recado Bossa Nova",
+        "The Break Through",
+        "The Dip",
+        "The Vamp"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "2dbe191d-60bf-4213-b284-3d9b49ce1b21",
+          "title": "Dippin'",
+          "date": "1965-06-18",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Hank Mobley"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": "BLP 4209"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "4be4cbd9-cf58-3586-bc9f-0cc9db58f5c7",
+            "title": "Dippin’",
+            "firstReleaseDate": "1965-06-18",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "The Dip",
+            "Recado Bossa Nova",
+            "The Break Through",
+            "The Vamp",
+            "I See Your Face Before Me",
+            "Ballin'"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "drums-unlimited-max-roach",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 2004, Drums Unlimited showcases Max Roach at the height of their creative powers",
+    "contradictingQuote": "\"firstReleaseDate\": \"1966\"",
+    "skepticDecision": "Both the release date and releaseGroup first release are 1966 (studio album, no reissue in the pack), so a 2004 recording claim is contradicted.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 2004, Drums Unlimited",
+        "problem": "the album dates to 1966, not 2004",
+        "evidenceQuote": "date: 1966; releaseGroup.firstReleaseDate: 1966",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "MB search (similarity 1.0) resolves to 'Drums Unlimited' (Max Roach, Atlantic, 1966; studio album, no secondaryTypes). Both the release date and the release-group firstReleaseDate are 1966, contradicting albumDNA 'Recorded in 2004'. All 6 keyTracks match the MB tracklist exactly.",
+    "ours": {
+      "title": "Drums Unlimited",
+      "artist": "Max Roach",
+      "year": 2004,
+      "label": "Atlantic",
+      "albumDNA": "Recorded in 2004, Drums Unlimited showcases Max Roach at the height of their creative powers, offering one of the finest expressions of Bebop. Drums Unlimited remains a landmark of Bebop, cementing Max Roach's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "The Drum Also Waltzes",
+        "Nommo",
+        "Drums Unlimited",
+        "St. Louis Blues",
+        "For Big Sid",
+        "In the Red (A Xmas Carol)"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "5a30a988-4d77-4dc2-bfa0-b5217d557cd6",
+          "title": "Drums Unlimited",
+          "date": "1966",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Max Roach"
+          ],
+          "labels": [
+            {
+              "name": "Atlantic",
+              "catalogNumber": "1467"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "84cd00ad-e50d-3885-a865-868476463877",
+            "title": "Drums Unlimited",
+            "firstReleaseDate": "1966",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "The Drum Also Waltzes",
+            "Nommo",
+            "Drums Unlimited",
+            "St. Louis Blues",
+            "For Big Sid",
+            "In the Red (A Xmas Carol)"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "duke-ellington-meets-coleman-hawkins",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "A 1963 big band date for impulse! that documents Duke Ellington's ongoing work in the idiom.",
+    "contradictingQuote": "Duke Ellington – piano\nColeman Hawkins – tenor saxophone\nJohnny Hodges – alto saxophone\nHarry Carney – baritone saxophone, bass clarinet\nLawrence Brown – trombone\nRay Nance – cornet, violin\nAaron Bell – double bass\nSam Woodyard – drums",
+    "skepticDecision": "The phrase 'big band date' is a factual descriptor of the ensemble, and the Personnel section enumerates exactly eight musicians (an octet), which directly contradicts a big band. The contradiction is by explicit roster, not inference.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "A 1963 big band date for impulse! that documents Duke Ellington's ongoing work in the idiom.",
+        "problem": "The session is an eight-piece small group, not a big band: the Wikipedia personnel section enumerates exactly eight musicians.",
+        "evidenceQuote": "Duke Ellington – piano\nColeman Hawkins – tenor saxophone\nJohnny Hodges – alto saxophone\nHarry Carney – baritone saxophone, bass clarinet\nLawrence Brown – trombone\nRay Nance – cornet, violin\nAaron Bell – double bass\nSam Woodyard – drums",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "First sentence (recorded August 18, 1962; released February 1963 by Impulse!) matches the Wikipedia lead verbatim; embedded MBID confirms 1963-02, impulse! AS 26, and all five keyTracks. Caveat on the flag: the contradiction is by enumeration (an octet is not a big band), not an explicit statement -- a human reviewer may judge the template sentence's wording differently, hence the lowered confidence. Artist field lists only Ellington while the authoritative credit is Ellington + Hawkins; site files dual credits per leader (paired -hawkins item exists), noted only.",
+    "ours": {
+      "title": "Duke Ellington Meets Coleman Hawkins",
+      "artist": "Duke Ellington",
+      "year": 1963,
+      "label": "impulse!",
+      "albumDNA": "Duke Ellington Meets Coleman Hawkins is a jazz album by Duke Ellington and Coleman Hawkins that was recorded on August 18, 1962, and released in February 1963 by Impulse! Records. A 1963 big band date for impulse! that documents Duke Ellington's ongoing work in the idiom.",
+      "keyTracks": [
+        "Limbo Jazz",
+        "Mood Indigo",
+        "Ray Charles' Place",
+        "Wanderlust",
+        "You Dirty Dog"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "43c55c3a-c3e8-33c7-ae87-73387cbf3bdd",
+          "title": "Duke Ellington Meets Coleman Hawkins",
+          "date": "1963-02",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Duke Ellington",
+            "Coleman Hawkins"
+          ],
+          "labels": [
+            {
+              "name": "impulse!",
+              "catalogNumber": "AS 26"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0bbc462f-554b-3cc3-b4c5-a78c6a313d5a",
+            "title": "Duke Ellington Meets Coleman Hawkins",
+            "firstReleaseDate": "1963-02",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Limbo Jazz",
+            "Mood Indigo",
+            "Ray Charles' Place",
+            "Wanderlust",
+            "You Dirty Dog",
+            "Self Portrait (of the Bean)",
+            "The Jeep Is Jumpin'",
+            "The Ricitic"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Duke_Ellington_Meets_Coleman_Hawkins",
+        "page": {
+          "requestedTitle": "Duke Ellington Meets Coleman Hawkins",
+          "resolvedTitle": "Duke Ellington Meets Coleman Hawkins",
+          "shortDescription": "1963 album by Duke Ellington",
+          "extract": "Duke Ellington Meets Coleman Hawkins is a jazz album by Duke Ellington and Coleman Hawkins that was recorded on August 18, 1962, and released in February 1963 by Impulse! Records.\nIn 1995, The New York Times called it \"one of the great Ellington albums, one of the great Hawkins albums and one of the great albums of the 1960s.\"\n\n\n== Track listing ==\nAll tracks composed by Duke Ellington, except where noted.\n\n\"Limbo Jazz\" – 5:14\n\"Mood Indigo\" (Duke Ellington, Barney Bigard) – 5:56\n\"Ray Charles' Place\" – 4:04\n\"Wanderlust\" (Duke Ellington, Johnny Hodges) – 5:00\n\"You Dirty Dog\" – 4:19\n\"Self-Portrait (of the Bean)\" (Duke Ellington, Billy Strayhorn) – 3:52\n\"The Jeep Is Jumpin'\" (Duke Ellington, Johnny Hodges) – 4:49\n\"The Ricitic\" – 5:51\n\"Solitude\" (Duke Ellington, Eddie DeLange) (1995 CD bonus track)  – 5:51\n\n\n== Personnel ==\nDuke Ellington – piano\nColeman Hawkins – tenor saxophone\nJohnny Hodges – alto saxophone\nHarry Carney – baritone saxophone, bass clarinet\nLawrence Brown – trombone\nRay Nance – cornet, violin\nAaron Bell – double bass\nSam Woodyard – drums\nProduction\n\nBob Thiele – producer\nRudy Van Gelder – engineer\nJoe Alper – photography\nJason Claiborne – graphic design\nStanley Dance – liner notes\nHollis King – art direction\nReissue\n\nMichael Cuscuna – liner notes, reissue producer\nErick Labson – digital remastering\n\n\n== Charts ==\n\n\n== Notes =="
+        }
+      }
+    }
+  },
+  {
+    "id": "duke-ellington-meets-coleman-hawkins-hawkins",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "A big band recording from the hard bop period",
+    "contradictingQuote": "Duke Ellington – piano\nColeman Hawkins – tenor saxophone\nJohnny Hodges – alto saxophone\nHarry Carney – baritone saxophone, bass clarinet\nLawrence Brown – trombone\nRay Nance – cornet, violin\nAaron Bell – double bass\nSam Woodyard – drums",
+    "skepticDecision": "'Big band recording' is a concrete ensemble claim contradicted by the eight-name Personnel list (an octet). 'Hard bop period' and the blues/gospel framing are left as editorial and not part of the upheld error.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "A big band recording from the hard bop period",
+        "problem": "The session is an eight-piece small group, not a big band: the Wikipedia personnel section enumerates exactly eight musicians.",
+        "evidenceQuote": "Duke Ellington – piano\nColeman Hawkins – tenor saxophone\nJohnny Hodges – alto saxophone\nHarry Carney – baritone saxophone, bass clarinet\nLawrence Brown – trombone\nRay Nance – cornet, violin\nAaron Bell – double bass\nSam Woodyard – drums",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Twin entry filed under Coleman Hawkins (authoritative MB credit includes both leaders). First sentence matches the Wikipedia lead verbatim; MB confirms date, label, and all five keyTracks. Same caveat as the Ellington twin: 'big band' is contradicted by the enumerated octet personnel, an inference a human may wish to confirm. 'Hard bop period' read as era framing and 'reconnecting jazz with blues and gospel' as genre boilerplate -- not flagged.",
+    "ours": {
+      "title": "Duke Ellington Meets Coleman Hawkins",
+      "artist": "Coleman Hawkins",
+      "year": 1963,
+      "label": "impulse!",
+      "albumDNA": "Duke Ellington Meets Coleman Hawkins is a jazz album by Duke Ellington and Coleman Hawkins that was recorded on August 18, 1962, and released in February 1963 by Impulse! Records. A big band recording from the hard bop period, reconnecting jazz with blues and gospel while keeping bebop's sophistication. Coleman Hawkins adds a personal voice to the idiom.",
+      "keyTracks": [
+        "Limbo Jazz",
+        "Mood Indigo",
+        "Ray Charles' Place",
+        "Wanderlust",
+        "You Dirty Dog"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "43c55c3a-c3e8-33c7-ae87-73387cbf3bdd",
+          "title": "Duke Ellington Meets Coleman Hawkins",
+          "date": "1963-02",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Duke Ellington",
+            "Coleman Hawkins"
+          ],
+          "labels": [
+            {
+              "name": "impulse!",
+              "catalogNumber": "AS 26"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "0bbc462f-554b-3cc3-b4c5-a78c6a313d5a",
+            "title": "Duke Ellington Meets Coleman Hawkins",
+            "firstReleaseDate": "1963-02",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Limbo Jazz",
+            "Mood Indigo",
+            "Ray Charles' Place",
+            "Wanderlust",
+            "You Dirty Dog",
+            "Self Portrait (of the Bean)",
+            "The Jeep Is Jumpin'",
+            "The Ricitic"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Duke_Ellington_Meets_Coleman_Hawkins",
+        "page": {
+          "requestedTitle": "Duke Ellington Meets Coleman Hawkins",
+          "resolvedTitle": "Duke Ellington Meets Coleman Hawkins",
+          "shortDescription": "1963 album by Duke Ellington",
+          "extract": "Duke Ellington Meets Coleman Hawkins is a jazz album by Duke Ellington and Coleman Hawkins that was recorded on August 18, 1962, and released in February 1963 by Impulse! Records.\nIn 1995, The New York Times called it \"one of the great Ellington albums, one of the great Hawkins albums and one of the great albums of the 1960s.\"\n\n\n== Track listing ==\nAll tracks composed by Duke Ellington, except where noted.\n\n\"Limbo Jazz\" – 5:14\n\"Mood Indigo\" (Duke Ellington, Barney Bigard) – 5:56\n\"Ray Charles' Place\" – 4:04\n\"Wanderlust\" (Duke Ellington, Johnny Hodges) – 5:00\n\"You Dirty Dog\" – 4:19\n\"Self-Portrait (of the Bean)\" (Duke Ellington, Billy Strayhorn) – 3:52\n\"The Jeep Is Jumpin'\" (Duke Ellington, Johnny Hodges) – 4:49\n\"The Ricitic\" – 5:51\n\"Solitude\" (Duke Ellington, Eddie DeLange) (1995 CD bonus track)  – 5:51\n\n\n== Personnel ==\nDuke Ellington – piano\nColeman Hawkins – tenor saxophone\nJohnny Hodges – alto saxophone\nHarry Carney – baritone saxophone, bass clarinet\nLawrence Brown – trombone\nRay Nance – cornet, violin\nAaron Bell – double bass\nSam Woodyard – drums\nProduction\n\nBob Thiele – producer\nRudy Van Gelder – engineer\nJoe Alper – photography\nJason Claiborne – graphic design\nStanley Dance – liner notes\nHollis King – art direction\nReissue\n\nMichael Cuscuna – liner notes, reissue producer\nErick Labson – digital remastering\n\n\n== Charts ==\n\n\n== Notes =="
+        }
+      }
+    }
+  },
+  {
+    "id": "eastern-rebellion",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Fantasy in D",
+    "contradictingQuote": "\"tracks\": [\"Bolivia\", \"Naima\", \"5/4 Thing\", \"Bittersweet\", \"Mode for Joe\"]",
+    "skepticDecision": "The keyTracks field lists 'Fantasy in D', which is definitively absent from the five-track MB list (Bolivia, Naima, 5/4 Thing, Bittersweet, Mode for Joe), and 'Naima's Love Song', whose added words make it a different title from the album's 'Naima'. The keyTracks assert tracks that are not on this album.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Walton's compositional brilliance—heard in classics like 'Naima's Love Song'—established him as one of jazz's most important composer-pianists",
+        "problem": "no track titled 'Naima's Love Song' on this album per the MB tracklist; the album's track is 'Naima'",
+        "evidenceQuote": "\"tracks\": [\"Bolivia\", \"Naima\", \"5/4 Thing\", \"Bittersweet\", \"Mode for Joe\"]",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "MB search match is strong (exact title/artist, 1975-12-10, Timeless Records SJP 101 - ours' Timeless and 1975 confirmed). 'Fantasy in D' is definitively absent from the 5-track list. Lenient substring matching could let 'Naima' match 'Naima's Love Song', but the added words change the work's identity (background memory, not citable: 'Naima' is the Coltrane ballad, 'Naima's Love Song' a different Walton composition on a later album). Quartet personnel claim (Bob Berg, Sam Jones, Billy Higgins) is unverifiable - no personnel in evidence; background memory suggests George Coleman, not Berg, played tenor on this 1975 date (Berg joined for Eastern Rebellion 2) - verify externally before repair. 'Mode for Joe' and '5/4 Thing' matched.",
+    "ours": {
+      "title": "Eastern Rebellion",
+      "artist": "Cedar Walton",
+      "year": 1975,
+      "label": "Timeless",
+      "albumDNA": "Pianist Cedar Walton leads a powerhouse quartet with Bob Berg, Sam Jones, and Billy Higgins through a program of his finest compositions. Walton's sophisticated harmonic sense and effortless swing make this one of the greatest straight-ahead jazz piano albums of the 1970s. Proved that hard bop was alive and well during the fusion era. Walton's compositional brilliance—heard in classics like 'Naima's Love Song'—established him as one of jazz's most important composer-pianists.",
+      "keyTracks": [
+        "Mode for Joe",
+        "5/4 Thing",
+        "Bolivia",
+        "Naima"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "bd7f4780-3a6e-4f12-a14d-769f9ccc8d13",
+          "title": "Eastern Rebellion",
+          "date": "1975-12-10",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Cedar Walton"
+          ],
+          "labels": [
+            {
+              "name": "Timeless Records",
+              "catalogNumber": "SJP 101"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "1cc06e11-e528-3ae5-83ea-cd6a33f6a2eb",
+            "title": "Eastern Rebellion",
+            "firstReleaseDate": "1975-12-10",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Bolivia",
+            "Naima",
+            "5/4 Thing",
+            "Bittersweet",
+            "Mode for Joe"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "ella-fitzgerald-sings-the-cole-porter-song-book-ella-fitzgerald",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 2014, Ella Fitzgerald Sings the Cole Porter Song Book showcases Ella Fitzgerald at the height of their creative powers",
+    "contradictingQuote": "\"firstReleaseDate\": \"1956-09\"",
+    "skepticDecision": "The release date is 1956 and the releaseGroup first release is 1956-09, so the work cannot have been recorded in 2014.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 2014, Ella Fitzgerald Sings the Cole Porter Song Book showcases Ella Fitzgerald at the height of their creative powers",
+        "problem": "Year wrong: MB release date 1956 and releaseGroup first release 1956-09 (Verve MG V-4001-2); the album cannot have been recorded in 2014.",
+        "evidenceQuote": "\"date\": \"1956\" ... \"firstReleaseDate\": \"1956-09\"",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Entity confirmed (MB search sim 1.0, exact title/artist, all 6 keyTracks match this 32-track set). ours.year 2014 is unsupported by evidence and contradicts the 1956 release. Genre 'Swing' editorial.",
+    "ours": {
+      "title": "Ella Fitzgerald Sings the Cole Porter Song Book",
+      "artist": "Ella Fitzgerald",
+      "year": 1956,
+      "label": "Various",
+      "albumDNA": "Recorded in 2014, Ella Fitzgerald Sings the Cole Porter Song Book showcases Ella Fitzgerald at the height of their creative powers, offering one of the finest expressions of Swing. Ella Fitzgerald Sings the Cole Porter Song Book remains a landmark of Swing, cementing Ella Fitzgerald's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "All Through the Night",
+        "Anything Goes",
+        "Miss Otis Regrets (She’s Unable to Lunch Today)",
+        "Too Darn Hot",
+        "In the Still of the Night",
+        "I Get a Kick Out of You"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "617fe930-78f2-4b41-9e7d-db0a5f4f6023",
+          "title": "Ella Fitzgerald Sings the Cole Porter Song Book",
+          "date": "1956",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Ella Fitzgerald"
+          ],
+          "labels": [
+            {
+              "name": "Verve",
+              "catalogNumber": "MG V-4001-2"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "dcc0d723-e27f-36e8-8438-dbbde7eb9a67",
+            "title": "Ella Fitzgerald Sings the Cole Porter Song Book",
+            "firstReleaseDate": "1956-09",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "All Through the Night",
+            "Anything Goes",
+            "Miss Otis Regrets (She’s Unable to Lunch Today)",
+            "Too Darn Hot",
+            "In the Still of the Night",
+            "I Get a Kick Out of You",
+            "Do I Love You?",
+            "I’m Always True to You in My Fashion",
+            "Let’s Do It (Let’s Fall in Love)",
+            "Just One of Those Things",
+            "Ev’ry Time We Say Goodbye",
+            "All of You",
+            "Begin the Beguine",
+            "Get Out of Town",
+            "I Am in Love",
+            "From This Moment On",
+            "I Love Paris",
+            "You Do Something to Me",
+            "Ridin’ High",
+            "Easy to Love",
+            "It’s All Right With Me",
+            "Why Can’t You Behave?",
+            "What Is This Thing Called Love?",
+            "You’re the Top",
+            "Love for Sale",
+            "It’s Delovely",
+            "Night and Day",
+            "Ace in the Hole",
+            "So in Love",
+            "I’ve Got You Under My Skin",
+            "I Concentrate on You",
+            "Don’t Fence Me In"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "far-east-suite-duke-ellington",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 2016, Far East Suite showcases Duke Ellington at the height of their creative powers",
+    "contradictingQuote": "\"firstReleaseDate\": \"1967\"",
+    "skepticDecision": "No 2016 reissue is in the evidence; both the release date and releaseGroup first release are 1967, so a 2016 recording claim is contradicted.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 2016, Far East Suite showcases Duke Ellington at the height of their creative powers",
+        "problem": "Year wrong: MB release date and releaseGroup first release are both 1967 (RCA Victor LSP-3782); the album cannot have been recorded in 2016.",
+        "evidenceQuote": "\"date\": \"1967\" ... \"firstReleaseDate\": \"1967\"",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Entity confirmed (MB search sim 1.0; MB title 'The Far East Suite' = ours minus leading 'The'; all 6 keyTracks match). ours.year 2016 is unsupported by evidence (possibly a later vinyl reissue, but none is in the pack) and contradicts the 1967 release. Genre 'Swing' editorial.",
+    "ours": {
+      "title": "Far East Suite",
+      "artist": "Duke Ellington",
+      "year": 1967,
+      "label": "Various",
+      "albumDNA": "Recorded in 2016, Far East Suite showcases Duke Ellington at the height of their creative powers, offering one of the finest expressions of Swing. Far East Suite remains a landmark of Swing, cementing Duke Ellington's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Tourist Point of View",
+        "Bluebird of Delhi (Mynah)",
+        "Isfahan",
+        "Depk",
+        "Mount Harissa",
+        "Blue Pepper (Far East of the Blues)"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "2a7d0078-25b9-41c8-b03b-263498a7ed75",
+          "title": "The Far East Suite",
+          "date": "1967",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Duke Ellington"
+          ],
+          "labels": [
+            {
+              "name": "RCA Victor",
+              "catalogNumber": "LSP-3782"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "c5176862-2fc7-4410-ba2b-46a6c440ede3",
+            "title": "The Far East Suite",
+            "firstReleaseDate": "1967",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Tourist Point of View",
+            "Bluebird of Delhi (Mynah)",
+            "Isfahan",
+            "Depk",
+            "Mount Harissa",
+            "Blue Pepper (Far East of the Blues)",
+            "Agra",
+            "Amad",
+            "Ad Lib on Nippon"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "fontainebleau-tadd-dameron",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 1996, Fontainebleau",
+    "contradictingQuote": "Recorded March 9, 1956",
+    "skepticDecision": "The entity-matched Wikipedia page (all five keyTracks match) gives a recording date of March 9, 1956 and calls it a 1956 album; the matched MB release is 1987. 'Recorded in 1996' contradicts the documented 1956 recording date and is supported by nothing in the evidence -> factual_error on the year.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 1996, Fontainebleau showcases Tadd Dameron",
+        "problem": "Wikipedia (entity-matched) states the album is from 1956, recorded March 9, 1956; the matched MB release dates 1987. Our year 1996 matches neither and is unsupported by any evidence document",
+        "evidenceQuote": "Fontainebleau is a 1956 album by jazz musician Tadd Dameron.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Right entity: MB search match and Wikipedia 'Fontainebleau (album)' both Tadd Dameron, and all 5 keyTracks match exactly (Fontainebleau, Delirium, The Scene Is Clean, Flossie Lou, Bula-Beige). Year is the issue: ours 1996 vs MB release 1987 vs Wikipedia original 1956/recorded 1956 — 1996 is supported by nothing here. Flagged factual_error on year; a 1996 CD reissue is conceivable but no evidence shows it, hence moderate confidence. Label placeholder 'Various' (MB: Original Jazz Classics / Prestige).",
+    "ours": {
+      "title": "Fontainebleau",
+      "artist": "Tadd Dameron",
+      "year": 1987,
+      "label": "Various",
+      "albumDNA": "Recorded in 1996, Fontainebleau showcases Tadd Dameron at the height of their creative powers, offering one of the finest expressions of Bebop. Fontainebleau remains a landmark of Bebop, cementing Tadd Dameron's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Fontainebleau",
+        "Delirium",
+        "The Scene Is Clean",
+        "Flossie Lou",
+        "Bula-Beige"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "a2385b86-61cc-48b7-9374-6c8e2c43b415",
+          "title": "Fontainebleau",
+          "date": "1987",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Tadd Dameron"
+          ],
+          "labels": [
+            {
+              "name": "Original Jazz Classics",
+              "catalogNumber": "OJCCD-055-2"
+            },
+            {
+              "name": "Prestige",
+              "catalogNumber": "P-7037"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "bacd60ee-98bd-3404-beff-99f490938426",
+            "title": "Fontainebleau",
+            "firstReleaseDate": "1987",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Fontainebleau",
+            "Delirium",
+            "The Scene Is Clean",
+            "Flossie Lou",
+            "Bula-Beige"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Fontainebleau (album)",
+          "resolvedTitle": "Fontainebleau (album)",
+          "shortDescription": "1956 studio album by Tadd Dameron",
+          "extract": "Fontainebleau is a 1956 album by jazz musician Tadd Dameron. The title track, inspired by a trip to the French palace of the same name, is a through-composed composition with no solos, while \"Flossie Lou\" is a contrafact of \"Jeepers Creepers\".\n\n\n== Reception ==\n\nIn a review for AllMusic, Scott Yanow wrote: \"As is usual with most Dameron dates, the emphasis is on his inventive arrangements although there is space... for individual solos. Recommended.\"\nMarc Myers of JazzWax called Fontainebleau \"one of the prettiest octet albums of the 1950s,\" and commented: \"The players on the album come together well, as if carefully selected for their tones... For me, the album is as perfect as a panoramic landscape painting... The music is delicate and cohesive, and the solos celebrate the vistas that dazzle the eye.\"\n\n\n== Track listing ==\nAll tracks composed by Tadd Dameron.\n\n\"Fontainebleau\" – 4:48\n\"Delirium\" –  5:00\n\"The Scene Is Clean\" – 5:00\n\"Flossie Lou\" – 4:50\n\"Bula-Beige\" – 11:20\nRecorded March 9, 1956, at Van Gelder Studio, Hackensack, New Jersey.\n\n\n== Personnel ==\nKenny Dorham – trumpet\nHenry Coker  – trombone\nCecil Payne - baritone saxophone\nSahib Shihab – alto saxophone\nJoe Alexander – tenor saxophone\nTadd Dameron – piano\nJohn Simmons – bass\nShadow Wilson – drums\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Fontainebleau (album)",
+            "shortDescription": "1956 studio album by Tadd Dameron",
+            "extractHead": "Fontainebleau is a 1956 album by jazz musician Tadd Dameron. The title track, inspired by a trip to the French palace of the same name, is a through-composed composition with no solos, while \"Flossie Lou\" is a contrafact of \"Jeepers Creepers\".\n\n\n== Reception ==\n\nIn a review for AllMusic, Scott Yanow wrote: \"As is usual with most Dameron dates, the emphasis is on his inventive arrangements although there is space... for individual solos. Recommended.\"\nMarc Myers of JazzWax called Fontainebleau \"o"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fontessa-modern-jazz-quartet",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 1990, Fontessa",
+    "contradictingQuote": "\"firstReleaseDate\": \"1956\"",
+    "skepticDecision": "Upheld: MB release-group first release is 1956; the album cannot have been recorded in 1990 when it first appeared in 1956.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 1990, Fontessa",
+        "problem": "Year is wrong; 'Fontessa' (Modern Jazz Quartet) first appeared in 1956 (the MB release dated 1990-01-31 is a CD reissue). It cannot have been recorded in 1990.",
+        "evidenceQuote": "firstReleaseDate: 1956",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "MB embedded_mbid: The Modern Jazz Quartet, 'Fontessa', releaseGroup first release 1956; matched release (1990-01-31) is a CD reissue. All 6 keyTracks match the MB tracklist. Year is the only error; '1990' is the reissue date. Label 'Various' placeholder (MB labels empty for this release).",
+    "ours": {
+      "title": "Fontessa",
+      "artist": "Modern Jazz Quartet",
+      "year": 1956,
+      "label": "Various",
+      "albumDNA": "Recorded in 1990, Fontessa showcases Modern Jazz Quartet at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Fontessa remains a landmark of Cool Jazz, cementing Modern Jazz Quartet's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Versailles (Porte de Versailles)",
+        "Angel Eyes",
+        "Fontessa, Parts 1 & 2",
+        "Over the Rainbow",
+        "Bluesology",
+        "Willow Weep for Me"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "90412d62-e9dd-3d3f-9b11-d9500b211ab2",
+          "title": "Fontessa",
+          "date": "1990-01-31",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "The Modern Jazz Quartet"
+          ],
+          "labels": [],
+          "releaseGroup": {
+            "mbid": "59404ca7-e67f-3adc-8123-fc03b9777f15",
+            "title": "Fontessa",
+            "firstReleaseDate": "1956",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Versailles (Porte de Versailles)",
+            "Angel Eyes",
+            "Fontessa, Parts 1 & 2",
+            "Over the Rainbow",
+            "Bluesology",
+            "Willow Weep for Me",
+            "Woody 'n' You"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  },
+  {
+    "id": "free-for-all-art-blakey",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 2012, Free for All showcases Art Blakey at the height of their creative powers",
+    "contradictingQuote": "recorded on February 10, 1964, and released on Blue Note Records in July 1965",
+    "skepticDecision": "Wikipedia gives an explicit recording date of February 10, 1964 (released July 1965), directly contradicting 'Recorded in 2012'.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 2012, Free for All",
+        "problem": "2012 is a reissue year; recorded February 1964, released July 1965",
+        "evidenceQuote": "Free for All is a studio album by Art Blakey and the Jazz Messengers, recorded on February 10, 1964, and released on Blue Note Records in July 1965.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Entity confirmed (embedded MBID; Wikipedia matches Art Blakey & the Jazz Messengers). MB release is a 2012 reissue but release-group firstReleaseDate is 1964; Wikipedia gives recording date Feb 10 1964 / release July 1965 — both contradict albumDNA 'Recorded in 2012'. All 4 keyTracks (Free for All, Hammer Head, The Core, Pensativa) match.",
+    "ours": {
+      "title": "Free for All",
+      "artist": "Art Blakey",
+      "year": 2012,
+      "label": "Blue Note",
+      "albumDNA": "Recorded in 2012, Free for All showcases Art Blakey at the height of their creative powers, offering one of the finest expressions of Bebop. Free for All remains a landmark of Bebop, cementing Art Blakey's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Free for All",
+        "Hammer Head",
+        "The Core",
+        "Pensativa"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "5f596081-e5c7-4354-ab92-913a4f207ded",
+          "title": "Free for All",
+          "date": "2012",
+          "country": "XW",
+          "status": "Official",
+          "artists": [
+            "Art Blakey & The Jazz Messengers"
+          ],
+          "labels": [
+            {
+              "name": "Blue Note",
+              "catalogNumber": null
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "605de14e-dcca-3328-b16d-64cc62cecfe0",
+            "title": "Free for All",
+            "firstReleaseDate": "1964",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Free for All",
+            "Hammer Head",
+            "The Core",
+            "Pensativa"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Free for All (album)",
+          "resolvedTitle": "Free for All (album)",
+          "shortDescription": "1965 studio album by Art Blakey and the Jazz Messengers",
+          "extract": "Free for All is a studio album by Art Blakey and the Jazz Messengers, recorded on February 10, 1964, and released on Blue Note Records in July 1965. It was originally titled Free Fall.\nThe Allmusic review by Al Campbell awards the album 4 stars and states, \"This edition of the Jazz Messengers had been together since 1961 with a lineup that would be hard to beat: Freddie Hubbard on trumpet... Wayne Shorter on tenor sax, Curtis Fuller on trombone, Cedar Walton on piano, and Reggie Workman on bass. Shorter's title track is one of the finest moments in the Jazz Messengers' history.\"\n\n\n== Composition ==\nFreddie Hubbard's composition \"The Core\" is dedicated to the Congress of Racial Equality (CORE) and expresses \"Hubbard's admiration of that organization's persistence and resourcefulness in its work for total, meaningful equality.\" He explained: \"They're getting at the core, at the center of the kinds of change that have to take place before this society is really open to everyone. And more than any other group, CORE is getting to youth, and that's where the center of change is.\" Hubbard also felt that the band \"got at some of the core of jazz – the basic feelings and rhythms that are at the foundation of music\" on the track.\nClare Fischer's \"Pensativa\" was arranged by Hubbard for the occasion: \"I was playing a gig in Long Island and the pianist started playing it. The mood got me, this feeling of a pensive woman. And the melody was so beautiful that, after I'd gotten home, I couldn't get it out of my mind.\"\nThe album was intended to have featured Wayne Shorter's composition \"Eva\" and two tracks with vocals by Wellington Blakey, bandleader Art Blakey's cousin. These were attempted, but no valid takes were recorded. Additionally, the musicians tried a second take of \"Free for All\", an attempt that producer Alfred Lion had to stop because Blakey's drums broke. This alternate take, first released on the limited 2014 Japanese SHM-CD remaster of the album, is three minutes shorter.\n\n\n== Track listing ==\n\n\n=== Original vinyl ===\n\n\n=== 2014 Blue Note SHM-CD Remaster Edition (Japan Release) ===\n\n\n== Personnel ==\nArt Blakey – drums\nFreddie Hubbard – trumpet\nCurtis Fuller – trombone\nWayne Shorter – tenor saxophone\nCedar Walton – piano\nReggie Workman – double bass\n\n\n== Charts ==\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Free for All (album)",
+            "shortDescription": "1965 studio album by Art Blakey and the Jazz Messengers",
+            "extractHead": "Free for All is a studio album by Art Blakey and the Jazz Messengers, recorded on February 10, 1964, and released on Blue Note Records in July 1965. It was originally titled Free Fall.\nThe Allmusic review by Al Campbell awards the album 4 stars and states, \"This edition of the Jazz Messengers had been together since 1961 with a lineup that would be hard to beat: Freddie Hubbard on trumpet... Wayne Shorter on tenor sax, Curtis Fuller on trombone, Cedar Walton on piano, and Reggie Workman on bass."
+          },
+          {
+            "resolvedTitle": "Free for All",
+            "shortDescription": "Topics referred to by the same term",
+            "extractHead": "Free for All may refer to: \n\nFree for All (film), a 1949 American comedy film\n\"Free for All\" (The Prisoner), a 1967 episode of the British television series The Prisoner\nFree-for-All (Ted Nugent album), 1976, or the title track\nFree-for-All (Michael Penn album) 1989\nFree for All (TV series), an American animated series created by Brett Merhar\nFree For All link page, a search engine optimization technique\nDeathmatch (video games), a video game mode, sometimes referred to as \"free for all\"\nFree fo"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "full-house-wes-montgomery",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 2007, Full House",
+    "contradictingQuote": "Full House is an album by the jazz guitarist Wes Montgomery, released in 1962.",
+    "skepticDecision": "Upheld: the entity-matched Wikipedia page states the album was released in 1962 and recorded live June 25, 1962, directly contradicting a 2007 recording.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 2007, Full House",
+        "problem": "Year is wrong; the album was recorded live in 1962 (Tsubo, Berkeley, June 25, 1962) and released 1962. '2007' is the year of a bonus-track reissue, not the recording.",
+        "evidenceQuote": "A 1987 CD reissue in the Original Jazz Classics series was followed by a later reissue in 2007 featuring additional bonus tracks.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Entity confirmed by MB (search, sim 1.0, 1962, Riverside, Live) and the entity-matched Wikipedia page (Full House, Wes Montgomery, 1962 live album). All 6 keyTracks match (take-suffixes stripped; ours lists the 2007-reissue take labels e.g. 'Cariba (take 2)', all present in the MB/wiki tracklists). The year (2007) tracks the bonus-track reissue, hence the error. Label 'Various' placeholder; MB shows Riverside. wikipediaUrl is null in ours, so wikiLink = none_stored even though the page is about our entity.",
+    "ours": {
+      "title": "Full House",
+      "artist": "Wes Montgomery",
+      "year": 2007,
+      "label": "Various",
+      "albumDNA": "Recorded in 2007, Full House showcases Wes Montgomery at the height of their creative powers, offering one of the finest expressions of Cool Jazz. Full House remains a landmark of Cool Jazz, cementing Wes Montgomery's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Full House",
+        "I’ve Grown Accustomed to Her Face",
+        "Blue ’n’ Boogie",
+        "Cariba (take 2)",
+        "Come Rain or Come Shine (take 2)",
+        "S.O.S. (take 3)"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "49d4471e-fa5c-4caa-ba81-63d8356200a5",
+          "title": "Full House",
+          "date": "1962",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Wes Montgomery"
+          ],
+          "labels": [
+            {
+              "name": "Riverside",
+              "catalogNumber": "RLP 434"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "c37bda62-c73d-3492-aa80-2de4204f67b1",
+            "title": "Full House",
+            "firstReleaseDate": "1962",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Live"
+            ]
+          },
+          "tracks": [
+            "Full House",
+            "I've Grown Accustomed to Her Face",
+            "Blue 'n' Boogie",
+            "Cariba",
+            "Come Rain or Come Shine",
+            "S.O.S."
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": {
+          "requestedTitle": "Full House (Wes Montgomery album)",
+          "resolvedTitle": "Full House (Wes Montgomery album)",
+          "shortDescription": "1962 live album by Wes Montgomery",
+          "extract": "Full House is an album by the jazz guitarist Wes Montgomery, released in 1962.\n\n\n== History ==\nThe performance was recorded live at Tsubo in Berkeley, California, on June 25, 1962.  The session featured a quintet that included Wynton Kelly on piano, Johnny Griffin on tenor saxophone, Paul Chambers on bass, and Jimmy Cobb on drums.\nThe album was released on the Riverside Records label. A 1987 CD reissue in the Original Jazz Classics series was followed by a later reissue in 2007 featuring additional bonus tracks.\n\n\n== Track listing ==\n\n\n=== Original issue ===\n\"Full House\" (Wes Montgomery) – 9:14\n\"I've Grown Accustomed to Her Face\" (Alan Jay Lerner, Frederick Loewe) – 3:18\n\"Blue 'n' Boogie\" (Dizzy Gillespie, Frank Paparelli) – 9:31\n\"Cariba\" (Wes Montgomery) - 9:35\n\"Come Rain or Come Shine\" (Johnny Mercer, Harold Arlen) – 6:49\n\"S.O.S.\" (Montgomery) – 4:57\n\n\n=== 1987 CD ===\n\"Full House\" (Wes Montgomery) - 9:16\n\"I've Grown Accustomed to Her Face\" (Lerner, Loewe) - 3:29\n\"Blue 'N' Boogie\" (Gillespie, Paparelli) - 9:38\n\"Cariba\" (Wes Montgomery) - 9:41\n\"Come Rain or Come Shine [Take 2]\" (Arlen, Mercer) - 6:57\n\"Come Rain or Come Shine [Take 1]\" (Arlen, Mercer) - 7:18\n\"S.O.S. (Take 3)\" (Wes Montgomery) - 5:03\n\"S.O.S. (Take 2)\" (Wes Montgomery) - 4:49\n\"Born to Be Blue\" (Tormé, Wells) - 7:27\n\n\n=== 2007 reissue by Riverside ===\n\"Full House\" (Wes Montgomery) - 9:16\n\"I've Grown Accustomed to Her Face\" (Lerner, Loewe) - 3:29\n\"Blue 'N' Boogie\" (Gillespie, Paparelli) - 9:38\n\"Cariba (Take 2)\" (Wes Montgomery) - 9:41\n\"Come Rain or Come Shine [Take 2]\" (Arlen, Mercer) - 6:57\n\"S.O.S. (Take 3)\" (Wes Montgomery) - 5:03\n\"Cariba\" (Wes Montgomery) - 8:28\n\"Come Rain or Come Shine\" (Arlen, Mercer) - 7:21\n\"S.O.S.\" (Wes Montgomery) - 4:49\n\"Born to Be Blue\" (Tormé, Wells) - 7:27\n\"Born to Be Blue (alternate take)\" (Tormé, Wells) - 7:35\n\n\n== Personnel ==\nWes Montgomery – guitar\nJohnny Griffin – tenor sax\nWynton Kelly – piano\nPaul Chambers – bass\nJimmy Cobb – drums\n\n\n== References =="
+        },
+        "candidates": [
+          {
+            "resolvedTitle": "Full House (Wes Montgomery album)",
+            "shortDescription": "1962 live album by Wes Montgomery",
+            "extractHead": "Full House is an album by the jazz guitarist Wes Montgomery, released in 1962.\n\n\n== History ==\nThe performance was recorded live at Tsubo in Berkeley, California, on June 25, 1962.  The session featured a quintet that included Wynton Kelly on piano, Johnny Griffin on tenor saxophone, Paul Chambers on bass, and Jimmy Cobb on drums.\nThe album was released on the Riverside Records label. A 1987 CD reissue in the Original Jazz Classics series was followed by a later reissue in 2007 featuring additio"
+          },
+          {
+            "resolvedTitle": "Full house",
+            "shortDescription": "Topics referred to by the same term",
+            "extractHead": "Full house or Fullhouse may refer to:\n\n\n== Film and television ==\nA Full House, a 1920 American silent comedy film\nFull House, a 1987–1995 American TV sitcom\nFull House (Armenian TV series), a 2014–2019 sitcom\nFull House (British TV series), a 1985–1986 sitcom\nFull House (South Korean TV series), a 2004 romantic comedy series\nFull House (Philippine TV series), a 2009–2010 adaptation of the South Korean series\nFull House (Thai TV series), a 2014 romantic comedy series\n\"Full House\" (The Upper Hand"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "get-together",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Pianist Count Basie's post-bop sensibility is on display in this 1986 session",
+    "contradictingQuote": "Kansas City 8: Get Together is a 1979 studio album by Count Basie.",
+    "skepticDecision": "The Wikipedia page shares the exact tracklist (same album, confirmed entity) and states it is a 1979 studio album, directly contradicting the prose's '1986 session'. 1986 is at most a reissue year.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "yes"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Pianist Count Basie's post-bop sensibility is on display in this 1986 session",
+        "problem": "The album is a 1979 studio album per Wikipedia (which has the identical tracklist), so framing it as 'this 1986 session' (i.e. recorded 1986) is wrong; 1986 is at most a reissue year (the MB release here is a Pablo CD, cat CD 2310-924, with an empty release date).",
+        "evidenceQuote": "Kansas City 8: Get Together is a 1979 studio album by Count Basie.",
+        "source": "wiki"
+      }
+    ],
+    "originalNotes": "Right entity confirmed: MB embedded_mbid (releaseGroup 'Get Together', artist Count Basie, label Pablo) and the Wikipedia 'Kansas City 8: Get Together' page share the exact tracklist; all 5 keyTracks match. Year conflict between sources: MB releaseGroup firstReleaseDate is 1986 but its release date is empty and it is a CD reissue (CD catalog number); Wikipedia plainly states '1979 studio album'. The DNA's '1986 session' is contradicted by the 1979 recording date. Repair note: 1986 is the Pablo CD reissue year; the original Kansas City 8 album is 1979. Our short title 'Get Together' = the page's 'Kansas City 8: Get Together' (same album), so wikiLink is correct. The octet/'small-group'/'spare economical style' descriptions are editorial and consistent.",
+    "ours": {
+      "title": "Get Together",
+      "artist": "Count Basie",
+      "year": 1986,
+      "label": "Pablo",
+      "albumDNA": "Kansas City 8: Get Together is a small-group studio album by Count Basie, released on Pablo Records. Paring down from his famous big band, Basie leads an octet through a relaxed program of swing-rooted originals including \"Ode to Pres\" and \"Basie's Bag,\" capturing the pianist's spare, economical style in an intimate setting. Pianist Count Basie's post-bop sensibility is on display in this 1986 session, a document of the contemporary era.",
+      "keyTracks": [
+        "Ode to Pres",
+        "Basie's Bag",
+        "Swinging on the Cusp",
+        "Like It Used to Be",
+        "My Main Men"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "embedded_mbid",
+        "topArtistSimilarity": null,
+        "release": {
+          "mbid": "d651522b-2c16-48ee-a8ad-ca8d2fc33459",
+          "title": "Count Basie Get Together",
+          "date": "",
+          "country": "DE",
+          "status": "Official",
+          "artists": [
+            "Count Basie"
+          ],
+          "labels": [
+            {
+              "name": "Pablo",
+              "catalogNumber": "CD 2310-924"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "056d7680-a20b-48a2-bf03-3e6ce5c48e8f",
+            "title": "Get Together",
+            "firstReleaseDate": "1986",
+            "primaryType": "Album",
+            "secondaryTypes": []
+          },
+          "tracks": [
+            "Ode to Pres",
+            "Basie's Bag",
+            "Swinging on the Cusp",
+            "Like It Used to Be",
+            "My Main Men",
+            "Pretty Time: I Can't Get Started / What Will I Tell My Heart / Talk of the Town / I Can't Give You Anything but Love / I'm Confessin' That I Love You"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "stored_url",
+        "storedUrl": "https://en.wikipedia.org/wiki/Kansas_City_8%3A_Get_Together",
+        "page": {
+          "requestedTitle": "Kansas City 8: Get Together",
+          "resolvedTitle": "Kansas City 8: Get Together",
+          "shortDescription": "1979 studio album by Count Basie",
+          "extract": "Kansas City 8: Get Together is a 1979 studio album by Count Basie.\n\n\n== Track listing ==\n\"Ode to Pres\" (Clark Terry) – 4:07\n\"Basie's Bag\" (Count Basie, Ernie Wilkins) – 9:45\n\"Swinging on the Cusp\" (Terry) – 5:41\n\"Like It Used to Be\" (Basie) – 8:29\n\"My Main Men\" (Basie) – 6:10\n\"Pretty Time: \"I Can't Get Started\"/\"What Will I Tell My Heart\"/\"Talk of the Town\"/\"I Can't Give You Anything But Love\"/\"I'm Confessin' (That I Love You)\" (Ira Gershwin, Vernon Duke)/(Irving Gordon, Jack Lawrence, Peter Tinturin)/(Jimmy McHugh, Dorothy Fields)(Doc Daugherty, Al J. Neiburg, Ellis Reynolds) – 9:35\n\n\n== Personnel ==\nCount Basie - piano\nBudd Johnson - baritone saxophone, tenor saxophone\nEddie \"Lockjaw\" Davis - tenor saxophone\nClark Terry - trumpet, flugelhorn\nHarry \"Sweets\" Edison - trumpet\nFreddie Green - guitar\nJohn Clayton - double bass\nGus Johnson - drums\n\n\n== References =="
+        }
+      }
+    }
+  },
+  {
+    "id": "hi-de-ho-man-cab-calloway",
+    "kind": "album",
+    "repairClass": "factual_error",
+    "field": "albumDNA",
+    "targetFile": "albums",
+    "specificBadClaim": "Recorded in 2008, Hi De Ho Man",
+    "contradictingQuote": "\"date\": \"1974\"",
+    "skepticDecision": "All six keyTracks match the matched release's tracklist, so it is unambiguously the same release; both the release and release-group are dated 1974. A 1974 Columbia compilation cannot be 'Recorded in 2008', and no 2008 release appears anywhere in the evidence -> factual_error on the year.",
+    "entityMatch": {
+      "musicbrainz": "yes",
+      "wikipedia": "n/a"
+    },
+    "originalWrongClaims": [
+      {
+        "ourClaim": "Recorded in 2008, Hi De Ho Man showcases Cab Calloway",
+        "problem": "Our year 2008 contradicts the matched release date of 1974 (a Columbia compilation); no later 2008 release is shown in evidence",
+        "evidenceQuote": "\"title\": \"Hi De Ho Man\", \"date\": \"1974\"",
+        "source": "mb"
+      }
+    ],
+    "originalNotes": "Same entity (Cab Calloway, Hi De Ho Man, Columbia compilation). Year field is wrong: MB release and release-group both date 1974, ours says 2008. keyTracks all match the MB tracklist (ours 'Fifteen Minutes Itermission' is a typo for MB 'Fifteen Minutes Intermission'; 'Jumpin Jive' and 'A Chicken Ain't Nothing but a Bird' match). Label placeholder 'Various' (MB: Columbia).",
+    "ours": {
+      "title": "Hi De Ho Man",
+      "artist": "Cab Calloway",
+      "year": 1974,
+      "label": "Various",
+      "albumDNA": "Recorded in 2008, Hi De Ho Man showcases Cab Calloway at the height of their creative powers, offering one of the finest expressions of Swing. Hi De Ho Man remains a landmark of Swing, cementing Cab Calloway's reputation as one of the defining voices of the era and earning consistent praise from critics worldwide.",
+      "keyTracks": [
+        "Nagasaki",
+        "Hoy Hoy",
+        "Jumpin Jive",
+        "Abi Gezunt",
+        "Fifteen Minutes Itermission",
+        "A Chicken Ain't Nothing but a Bird"
+      ]
+    },
+    "evidence": {
+      "musicbrainz": {
+        "method": "search",
+        "topArtistSimilarity": 1.0,
+        "release": {
+          "mbid": "37b96b34-eb82-4c1c-b90c-3a65a9437a46",
+          "title": "Hi De Ho Man",
+          "date": "1974",
+          "country": "US",
+          "status": "Official",
+          "artists": [
+            "Cab Calloway"
+          ],
+          "labels": [
+            {
+              "name": "Columbia",
+              "catalogNumber": "G 32593"
+            }
+          ],
+          "releaseGroup": {
+            "mbid": "ee15cddc-2488-3f6c-ba84-b58d58b9a633",
+            "title": "Hi De Ho Man",
+            "firstReleaseDate": "1974",
+            "primaryType": "Album",
+            "secondaryTypes": [
+              "Compilation"
+            ]
+          },
+          "tracks": [
+            "Nagasaki",
+            "Hoy Hoy",
+            "Jumpin Jive",
+            "Abi Gezunt",
+            "Fifteen Minutes Intermission",
+            "A Chicken Ain’t Nothing but a Bird",
+            "My Gal",
+            "St. James Infirmary",
+            "I Want to Rock",
+            "I’ll Be Around",
+            "Minnie the Moocher",
+            "Honey Dripper",
+            "Hey Now–Hey Now",
+            "Hi De Ho Man",
+            "Oh Grandpa",
+            "Jungle King",
+            "Two Blocks Down, Turn to the Left",
+            "San Francisco Fan",
+            "The Calloway Boogie",
+            "Everybody Eats When They Come to My House"
+          ]
+        }
+      },
+      "wikipedia": {
+        "resolution": "opensearch",
+        "storedUrl": null,
+        "page": null,
+        "candidates": []
+      }
+    }
+  }
+]

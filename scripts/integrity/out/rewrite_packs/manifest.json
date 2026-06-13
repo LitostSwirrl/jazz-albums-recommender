@@ -1,0 +1,258 @@
+{
+  "total": 180,
+  "errors": [],
+  "packs": [
+    {
+      "file": "rewrite_00.json",
+      "count": 15,
+      "ids": [
+        "en:a-jazz-hour-with-dizzy-gillespie",
+        "en:afrodisia",
+        "en:aint-misbehavin-waller",
+        "en:all-things-are",
+        "en:baroque-music-for-trumpets",
+        "en:blue-notes-legacy",
+        "en:blue-rondo",
+        "en:blue-rondo-brubeck",
+        "en:caravan",
+        "en:congo-square",
+        "en:crystal-stair-blanchard",
+        "en:david-sanborn",
+        "en:django",
+        "en:django-reinhardt-et-son-quintette",
+        "en:ella-and-her-fellas"
+      ]
+    },
+    {
+      "file": "rewrite_01.json",
+      "count": 15,
+      "ids": [
+        "en:ella-loves-cole",
+        "en:four-trombones",
+        "en:grazin-in-the-grass",
+        "en:hearts-and-numbers",
+        "en:herbie-hancock-trio-with-ron-carter-tony-williams",
+        "en:hipmotism",
+        "en:is-that-so",
+        "en:jazz-in-film",
+        "en:joey-calderazzo",
+        "en:kenny-burrell",
+        "en:les-stances-a-sophie",
+        "en:louie-and-the-dukes-of-dixieland",
+        "en:lover-man",
+        "en:lullaby-of-birdland",
+        "en:malphas-book-of-angels-volume-3"
+      ]
+    },
+    {
+      "file": "rewrite_02.json",
+      "count": 15,
+      "ids": [
+        "en:mannenberg",
+        "en:monks-blues",
+        "en:morning-with-swing-jazz-guitar-trumpet-saxophone-more-melodies-of-piano-instrumental-smooth-jazz-music",
+        "en:on-with-it",
+        "en:oscar-peterson-plays-george-gershwin",
+        "en:pink-elephants-on-parade",
+        "en:pithecanthropus-erectus-the-clown",
+        "en:poetry-and-jazz-in-concert-record-one",
+        "en:quintette-du-hot-club-de-france",
+        "en:ray-brown-milt-jackson",
+        "en:russell-malone",
+        "en:satchmo",
+        "en:school",
+        "en:singin-the-blues-beiderbecke",
+        "en:solo-piano-portraits"
+      ]
+    },
+    {
+      "file": "rewrite_03.json",
+      "count": 15,
+      "ids": [
+        "en:soul-junction-coltrane",
+        "en:soul-time",
+        "en:standards",
+        "en:stories",
+        "en:straight-life-the-savoy-sessions",
+        "en:summit-reunin-cumbre",
+        "en:tatum-carter-bellson",
+        "en:that-certain-feeling",
+        "en:the-great-artistry-of-django-reinhardt",
+        "en:the-joint-is-jumpin",
+        "en:the-library-of-congress-recordings-by-alan-lomax",
+        "en:the-new-don-ellis-band-goes-underground",
+        "en:the-oscar-peterson-trio-at-newport",
+        "en:the-piano-soul-of-nat-king-cole",
+        "en:the-trio-volume-3-everybody-likes-hampton-hawes"
+      ]
+    },
+    {
+      "file": "rewrite_04.json",
+      "count": 15,
+      "ids": [
+        "en:waltz-for-debby",
+        "en:weather-report",
+        "en:whats-new",
+        "en:xxi-century",
+        "fa:a-garland-of-red-red-garland",
+        "fa:a-ghetto-lullaby",
+        "fa:a-study-in-frustration-fletcher-henderson",
+        "fa:a-swingin-affair-dexter-gordon",
+        "fa:afro-dizzy-gillespie",
+        "fa:art-pepper-meets-the-rhythm-section-art-pepper",
+        "fa:at-the-stratford-shakespearean-festival-oscar-peterson",
+        "fa:begin-the-beguine-artie-shaw",
+        "fa:ben-webster-meets-oscar-peterson-ben-webster",
+        "fa:black-action-figure",
+        "fa:blue-note-jazz-inspiration"
+      ]
+    },
+    {
+      "file": "rewrite_05.json",
+      "count": 15,
+      "ids": [
+        "fa:bumpin-wes-montgomery",
+        "fa:bunk-bechet-in-boston",
+        "fa:capricorn-rising",
+        "fa:carolina-shout-james-p-johnson",
+        "fa:celebration-mseleku",
+        "fa:chesed-the-book-beriah-volume-4",
+        "fa:chet-baker-and-crew-chet-baker",
+        "fa:clarinet-concertos-nos-1-and-2",
+        "fa:clifford-brown-memorial-album-clifford-brown",
+        "fa:coltrane-jazz-john-coltrane",
+        "fa:cornbread-lee-morgan",
+        "fa:dance-mania-tito-puente",
+        "fa:deliverance",
+        "fa:desmond-blue-paul-desmond",
+        "fa:destination-out-jackie-mclean"
+      ]
+    },
+    {
+      "file": "rewrite_06.json",
+      "count": 15,
+      "ids": [
+        "fa:detroitnew-york-junction-thad-jones",
+        "fa:dexter-calling-dexter-gordon",
+        "fa:dippin",
+        "fa:drums-unlimited-max-roach",
+        "fa:duke-ellington-meets-coleman-hawkins",
+        "fa:duke-ellington-meets-coleman-hawkins-hawkins",
+        "fa:eastern-rebellion",
+        "fa:ella-fitzgerald-sings-the-cole-porter-song-book-ella-fitzgerald",
+        "fa:far-east-suite-duke-ellington",
+        "fa:fontainebleau-tadd-dameron",
+        "fa:fontessa-modern-jazz-quartet",
+        "fa:free-for-all-art-blakey",
+        "fa:full-house-wes-montgomery",
+        "fa:get-together",
+        "fa:hi-de-ho-man-cab-calloway"
+      ]
+    },
+    {
+      "file": "rewrite_07.json",
+      "count": 15,
+      "ids": [
+        "fa:how-time-passes",
+        "fa:in-the-tradition",
+        "fa:in-their-own-sweet-way",
+        "fa:inside-hi-fi-lee-konitz",
+        "fa:it-could-happen-to-you-chet-baker",
+        "fa:jazz-giant-benny-carter",
+        "fa:jazz-pictures-at-an-exibition",
+        "fa:joe-pass-at-the-montreux-jazz-festival-joe-pass",
+        "fa:kansas-city-7",
+        "fa:kind-of-blue",
+        "fa:latin-jazz-quintet-latin-jazz-quintet",
+        "fa:lenox-avenue-breakdown",
+        "fa:look-what-i-got",
+        "fa:love-notes",
+        "fa:mandorla-awakening-ii"
+      ]
+    },
+    {
+      "file": "rewrite_08.json",
+      "count": 15,
+      "ids": [
+        "fa:motion-lee-konitz",
+        "fa:night-train-oscar-peterson",
+        "fa:nows-the-time-charlie-parker",
+        "fa:one-flight-up",
+        "fa:open-sesame-freddie-hubbard",
+        "fa:pdron-rubalcaba",
+        "fa:pimp-master",
+        "fa:plays-and-plays-and-plays",
+        "fa:plenty-plenty-soul-milt-jackson",
+        "fa:prayer-meetin",
+        "fa:reunion-with-chet-baker-gerry-mulligan",
+        "fa:rights-of-swing",
+        "fa:rising-son",
+        "fa:round-about-midnight-at-the-cafe-bohemia-volume-i",
+        "fa:savoy-sessions-charlie-parker"
+      ]
+    },
+    {
+      "file": "rewrite_09.json",
+      "count": 15,
+      "ids": [
+        "fa:screamin-the-blues",
+        "fa:secrets-are-the-best-stories",
+        "fa:shades-of-green",
+        "fa:smack-up-art-pepper",
+        "fa:solo-flight",
+        "fa:spellbound-clifford-jordan",
+        "fa:spihumonesty",
+        "fa:stan-getz-and-the-oscar-peterson-trio-stan-getz",
+        "fa:stop-and-listen",
+        "fa:sweet-release-ghost-story",
+        "fa:takin-off",
+        "fa:tauhid",
+        "fa:tenor-titans",
+        "fa:the-awakening-ahmad-jamal",
+        "fa:the-complete-billie-holiday-on-verve-billie-holiday"
+      ]
+    },
+    {
+      "file": "rewrite_10.json",
+      "count": 15,
+      "ids": [
+        "fa:the-dual-role-of-bob-brookmeyer-bob-brookmeyer",
+        "fa:the-freedom-book-booker-ervin",
+        "fa:the-gigolo-lee-morgan",
+        "fa:the-hawk-flies-high-coleman-hawkins",
+        "fa:the-lore",
+        "fa:the-most-happy-piano",
+        "fa:the-sermon-jimmy-smith",
+        "fa:tidal-wave",
+        "fa:undercurrent-bill-evans",
+        "fa:way-out-west-sonny-rollins",
+        "fa:world-galaxy",
+        "fa:abdullah-ibrahim",
+        "fa:andy-bey",
+        "fa:baby-face-willette",
+        "fa:bheki-mseleku"
+      ]
+    },
+    {
+      "file": "rewrite_11.json",
+      "count": 15,
+      "ids": [
+        "fa:dizzy-gillespie",
+        "fa:eddie-palmieri",
+        "fa:flora-purim",
+        "fa:louis-moholo-moholo",
+        "fa:matana-roberts",
+        "fa:ornette-coleman",
+        "fa:pat-martino",
+        "fa:roy-ayers",
+        "fa:ryo-kawasaki",
+        "fa:sonny-rollins",
+        "fa:sons-of-kemet",
+        "fa:sun-ra",
+        "fa:terence-blanchard",
+        "fa:tito-puente",
+        "fa:world-saxophone-quartet"
+      ]
+    }
+  ]
+}

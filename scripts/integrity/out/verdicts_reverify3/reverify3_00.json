@@ -1,0 +1,38 @@
+[
+  {
+    "id": "gateway",
+    "verdict": "clean",
+    "confidence": 0.97,
+    "entityMatch": {"musicbrainz": "no", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "MB resolved a WRONG same-name 2015 release (releaseGroup firstReleaseDate 2015-07-23; tracks 'Prolegomenon (intro)', 'Vox Occultus', 'Kha'laam', 'Impaled' etc. — a different work). Discarded for fact-checking per entity-match. Wikipedia (stored_url, 'Gateway (Gateway album)', shortDescription '1976 studio album by Gateway') matches our album: debut by jazz trio Gateway, recorded March 1975, released on ECM the following year, trio = John Abercrombie (guitar), Dave Holland (bass), Jack DeJohnette (drums) — all verbatim in extract. albumDNA factual claims all confirmed; remaining sentences are editorial opinion. year 1976 and label ECM confirmed. keyTracks matched against websearch findings.tracklist (resolved=true, source = album Wikipedia page): all six ('Back-Woods Song', 'Waiting', 'May Dance', 'Unshielded Desire', 'Jamala', 'Sorcery I') match exactly. Repair confirmed clean."
+  },
+  {
+    "id": "earth-jones",
+    "verdict": "clean",
+    "confidence": 0.95,
+    "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "ok",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "Both evidence docs entity-match (Elvin Jones, 'Earth Jones', 1982). Our label 'Palo Alto' is CONFIRMED verbatim by the entity-matched Wikipedia page: 'Earth Jones is a jazz album by drummer Elvin Jones, recorded in 1982 and released on the Palo Alto label.' MB lists label 'Quicksilver' (catalog QSCD4015) — this is a later CD reissue label, not a contradiction of the original 1982 Palo Alto release; the entity-matched narrative source agrees with ours, so no factual_error (hard rule: a verbatim contradicting passage is required, and Wikipedia instead confirms Palo Alto). year 1982 confirmed (MB date 1982-02-12). albumDNA factual content matches Wikipedia verbatim; 'bebop entry... breadth of the contemporary period' is editorial. keyTracks: all 5 present in MB tracklist (MB has a 6th, 'Day and Night', not listed — omission, not error)."
+  },
+  {
+    "id": "marcus-miller",
+    "verdict": "clean",
+    "confidence": 0.98,
+    "entityMatch": {"musicbrainz": "n/a", "wikipedia": "yes"},
+    "wikiLinkVerdict": "correct",
+    "keyTracksVerdict": "n/a",
+    "keyTracksUnmatched": [],
+    "fieldIssues": [],
+    "wrongClaims": [],
+    "notes": "Wikipedia (stored_url, 'Marcus Miller', shortDescription 'American musician, composer and producer (born 1959)') is the bassist Marcus Miller — entity-match yes. birthYear 1959 confirmed ('born June 14, 1959'); deathYear null consistent (living). instruments [bass, clarinet, keyboards] all confirmed: 'classically trained as a clarinetist and later learned to play keyboards, saxophone, and guitar in addition to bass' (ours is a subset; no contradiction). bio matches extract near-verbatim, incl. Miles Davis / Herbie Hancock / Luther Vandross / Wayne Shorter / David Sanborn collaborations and the three Davis albums Tutu (1986), Music from Siesta (1987), Amandla (1989). All checkable claims consistent."
+  }
+]

@@ -1,0 +1,865 @@
+{
+  "blue-note-4000": {
+    "categories": [
+      "catalog_error"
+    ],
+    "dims": [
+      "catalog_error"
+    ]
+  },
+  "investigations": {
+    "categories": [
+      "catalog_error"
+    ],
+    "dims": [
+      "catalog_error"
+    ]
+  },
+  "new-orleans-joys-kid-ory": {
+    "categories": [
+      "catalog_error"
+    ],
+    "dims": [
+      "catalog_error"
+    ]
+  },
+  "the-art-of-the-trio-vol-4-nat-king-cole": {
+    "categories": [
+      "catalog_error"
+    ],
+    "dims": [
+      "catalog_error"
+    ]
+  },
+  "a-smooth-one-woody-herman": {
+    "categories": [
+      "catalog_error"
+    ],
+    "dims": [
+      "catalog_error"
+    ]
+  },
+  "lullaby-of-birdland": {
+    "categories": [
+      "catalog_error",
+      "thin_prose"
+    ],
+    "dims": [
+      "catalog_error",
+      "thin_prose",
+      "field:artist"
+    ]
+  },
+  "holiday-in-piano": {
+    "categories": [
+      "field_artist"
+    ],
+    "dims": [
+      "field:artist"
+    ]
+  },
+  "sonny-side-up": {
+    "categories": [
+      "field_artist",
+      "label_review"
+    ],
+    "dims": [
+      "field:artist",
+      "field:label"
+    ]
+  },
+  "cannonball-adderley-and-the-poll-winners": {
+    "categories": [
+      "field_artist"
+    ],
+    "dims": [
+      "field:artist"
+    ]
+  },
+  "soul-junction": {
+    "categories": [
+      "field_artist"
+    ],
+    "dims": [
+      "field:artist"
+    ]
+  },
+  "jazz-pictures-at-an-exibition": {
+    "categories": [
+      "field_artist"
+    ],
+    "dims": [
+      "field:artist"
+    ]
+  },
+  "screamin-the-blues": {
+    "categories": [
+      "field_artist",
+      "label_review"
+    ],
+    "dims": [
+      "field:artist",
+      "field:label"
+    ]
+  },
+  "clarinet-concertos-nos-1-and-2": {
+    "categories": [
+      "field_artist"
+    ],
+    "dims": [
+      "field:artist"
+    ]
+  },
+  "breakthrough": {
+    "categories": [
+      "field_artist",
+      "weak_mb_match"
+    ],
+    "dims": [
+      "field:artist",
+      "field:label",
+      "weak_match"
+    ]
+  },
+  "illuminations": {
+    "categories": [
+      "field_artist"
+    ],
+    "dims": [
+      "field:artist"
+    ]
+  },
+  "third-plane": {
+    "categories": [
+      "field_artist"
+    ],
+    "dims": [
+      "field:artist"
+    ]
+  },
+  "third-plane-hancock": {
+    "categories": [
+      "field_artist"
+    ],
+    "dims": [
+      "field:artist"
+    ]
+  },
+  "concept-of-freedom": {
+    "categories": [
+      "field_artist"
+    ],
+    "dims": [
+      "field:artist"
+    ]
+  },
+  "secrets-are-the-best-stories": {
+    "categories": [
+      "field_artist"
+    ],
+    "dims": [
+      "field:artist"
+    ]
+  },
+  "let-freedom-ring": {
+    "categories": [
+      "year_disputed"
+    ],
+    "dims": [
+      "field:year"
+    ]
+  },
+  "a-caddy-for-daddy": {
+    "categories": [
+      "year_disputed"
+    ],
+    "dims": [
+      "field:year"
+    ]
+  },
+  "inner-urge": {
+    "categories": [
+      "year_disputed"
+    ],
+    "dims": [
+      "field:year"
+    ]
+  },
+  "globe-unity": {
+    "categories": [
+      "year_disputed"
+    ],
+    "dims": [
+      "field:year"
+    ]
+  },
+  "happenings": {
+    "categories": [
+      "year_disputed"
+    ],
+    "dims": [
+      "field:year"
+    ]
+  },
+  "the-olatunji-concert": {
+    "categories": [
+      "year_disputed"
+    ],
+    "dims": [
+      "field:year"
+    ]
+  },
+  "for-alto": {
+    "categories": [
+      "year_disputed"
+    ],
+    "dims": [
+      "field:year"
+    ]
+  },
+  "extensions": {
+    "categories": [
+      "year_disputed"
+    ],
+    "dims": [
+      "field:year"
+    ]
+  },
+  "live-at-the-lighthouse": {
+    "categories": [
+      "year_disputed"
+    ],
+    "dims": [
+      "field:year"
+    ]
+  },
+  "saxophone-solos": {
+    "categories": [
+      "year_disputed"
+    ],
+    "dims": [
+      "field:year"
+    ]
+  },
+  "emerald-tears": {
+    "categories": [
+      "year_disputed"
+    ],
+    "dims": [
+      "field:year"
+    ]
+  },
+  "betty-carter-album": {
+    "categories": [
+      "year_disputed"
+    ],
+    "dims": [
+      "field:year"
+    ]
+  },
+  "revue-wsq": {
+    "categories": [
+      "year_disputed"
+    ],
+    "dims": [
+      "field:year"
+    ]
+  },
+  "tribal-tech": {
+    "categories": [
+      "year_disputed",
+      "label_review"
+    ],
+    "dims": [
+      "field:year",
+      "field:label"
+    ]
+  },
+  "capricorn-rising": {
+    "categories": [
+      "year_disputed"
+    ],
+    "dims": [
+      "field:year"
+    ]
+  },
+  "inside-hi-fi-lee-konitz": {
+    "categories": [
+      "year_disputed",
+      "p4_year_recorded_released"
+    ],
+    "dims": [
+      "field:year"
+    ]
+  },
+  "full-house-wes-montgomery": {
+    "categories": [
+      "year_disputed"
+    ],
+    "dims": [
+      "field:year"
+    ]
+  },
+  "ella-fitzgerald-sings-the-irving-berlin-song-book": {
+    "categories": [
+      "label_review"
+    ],
+    "dims": [
+      "field:label"
+    ]
+  },
+  "sadao-watanabe-mbali": {
+    "categories": [
+      "label_review"
+    ],
+    "dims": [
+      "field:label"
+    ]
+  },
+  "domino-theory": {
+    "categories": [
+      "label_review"
+    ],
+    "dims": [
+      "field:label"
+    ]
+  },
+  "here-today-tomorrow": {
+    "categories": [
+      "label_review"
+    ],
+    "dims": [
+      "field:label"
+    ]
+  },
+  "the-man-i-love": {
+    "categories": [
+      "label_review"
+    ],
+    "dims": [
+      "field:label"
+    ]
+  },
+  "baboon-moon": {
+    "categories": [
+      "label_review"
+    ],
+    "dims": [
+      "field:label"
+    ]
+  },
+  "fearless-movement": {
+    "categories": [
+      "label_review"
+    ],
+    "dims": [
+      "field:label"
+    ]
+  },
+  "moondial": {
+    "categories": [
+      "label_review"
+    ],
+    "dims": [
+      "field:label"
+    ]
+  },
+  "remembrance": {
+    "categories": [
+      "label_review"
+    ],
+    "dims": [
+      "field:label"
+    ]
+  },
+  "smack": {
+    "categories": [
+      "label_review"
+    ],
+    "dims": [
+      "field:label"
+    ]
+  },
+  "bumpin-wes-montgomery": {
+    "categories": [
+      "label_review"
+    ],
+    "dims": [
+      "field:label"
+    ]
+  },
+  "tales-of-captain-black": {
+    "categories": [
+      "label_review"
+    ],
+    "dims": [
+      "field:label"
+    ]
+  },
+  "snowy-morning-blues": {
+    "categories": [
+      "label_review"
+    ],
+    "dims": [
+      "field:label"
+    ]
+  },
+  "jay-and-kai": {
+    "categories": [
+      "weak_mb_match"
+    ],
+    "dims": [
+      "field:label",
+      "weak_match"
+    ]
+  },
+  "black-christ-of-the-andes": {
+    "categories": [
+      "weak_mb_match"
+    ],
+    "dims": [
+      "field:label",
+      "weak_match"
+    ]
+  },
+  "music-matador": {
+    "categories": [
+      "weak_mb_match",
+      "keytracks_no_tracklist"
+    ],
+    "dims": [
+      "field:year",
+      "weak_match",
+      "keytracks"
+    ]
+  },
+  "mercy-mercy-mercy": {
+    "categories": [
+      "weak_mb_match"
+    ],
+    "dims": [
+      "field:year",
+      "weak_match"
+    ]
+  },
+  "in-the-townships": {
+    "categories": [
+      "weak_mb_match",
+      "keytracks_uncertain"
+    ],
+    "dims": [
+      "field:year",
+      "weak_match",
+      "keytracks"
+    ]
+  },
+  "pimp-master": {
+    "categories": [
+      "weak_mb_match"
+    ],
+    "dims": [
+      "field:year",
+      "weak_match"
+    ]
+  },
+  "afro-dizzy-gillespie": {
+    "categories": [
+      "weak_mb_match"
+    ],
+    "dims": [
+      "field:year",
+      "weak_match"
+    ]
+  },
+  "night-train-oscar-peterson": {
+    "categories": [
+      "weak_mb_match"
+    ],
+    "dims": [
+      "field:year",
+      "weak_match"
+    ]
+  },
+  "chet-baker-and-crew-chet-baker": {
+    "categories": [
+      "weak_mb_match",
+      "keytracks_uncertain"
+    ],
+    "dims": [
+      "field:year",
+      "weak_match",
+      "keytracks"
+    ]
+  },
+  "looking-ahead": {
+    "categories": [
+      "keytracks_no_tracklist"
+    ],
+    "dims": [
+      "keytracks"
+    ]
+  },
+  "live-at-the-five-spot": {
+    "categories": [
+      "keytracks_no_tracklist"
+    ],
+    "dims": [
+      "keytracks"
+    ]
+  },
+  "the-honeydripper": {
+    "categories": [
+      "keytracks_no_tracklist"
+    ],
+    "dims": [
+      "keytracks"
+    ]
+  },
+  "modern-sounds": {
+    "categories": [
+      "keytracks_no_tracklist"
+    ],
+    "dims": [
+      "keytracks"
+    ]
+  },
+  "great-american-songbook": {
+    "categories": [
+      "keytracks_no_tracklist"
+    ],
+    "dims": [
+      "keytracks"
+    ]
+  },
+  "witchi-tai-to": {
+    "categories": [
+      "keytracks_no_tracklist"
+    ],
+    "dims": [
+      "keytracks"
+    ]
+  },
+  "scenery-ryo-fukui": {
+    "categories": [
+      "keytracks_no_tracklist"
+    ],
+    "dims": [
+      "keytracks"
+    ]
+  },
+  "saudades": {
+    "categories": [
+      "keytracks_no_tracklist"
+    ],
+    "dims": [
+      "keytracks"
+    ]
+  },
+  "free-form-harriott": {
+    "categories": [
+      "keytracks_uncertain"
+    ],
+    "dims": [
+      "keytracks"
+    ]
+  },
+  "free-at-last-waldron": {
+    "categories": [
+      "keytracks_uncertain"
+    ],
+    "dims": [
+      "keytracks"
+    ]
+  },
+  "the-popular-duke-ellington": {
+    "categories": [
+      "keytracks_uncertain"
+    ],
+    "dims": [
+      "keytracks"
+    ]
+  },
+  "concert-in-the-garden": {
+    "categories": [
+      "keytracks_uncertain"
+    ],
+    "dims": [
+      "keytracks"
+    ]
+  },
+  "django-and-his-american-friends-django-reinhardt": {
+    "categories": [
+      "keytracks_uncertain"
+    ],
+    "dims": [
+      "keytracks"
+    ]
+  },
+  "james-carter": {
+    "categories": [
+      "instrument_review"
+    ],
+    "dims": [
+      "field:instruments"
+    ]
+  },
+  "jazz-epistles": {
+    "categories": [
+      "instrument_review"
+    ],
+    "dims": [
+      "field:instruments"
+    ]
+  },
+  "louis-moholo-moholo": {
+    "categories": [
+      "instrument_review"
+    ],
+    "dims": [
+      "field:instruments"
+    ]
+  },
+  "ryo-kawasaki": {
+    "categories": [
+      "instrument_review"
+    ],
+    "dims": [
+      "field:instruments"
+    ]
+  },
+  "world-saxophone-quartet": {
+    "categories": [
+      "instrument_review"
+    ],
+    "dims": [
+      "field:instruments"
+    ]
+  },
+  "blue-notes-legacy": {
+    "categories": [
+      "thin_prose"
+    ],
+    "dims": [
+      "thin_prose"
+    ]
+  },
+  "congo-square": {
+    "categories": [
+      "thin_prose"
+    ],
+    "dims": [
+      "thin_prose"
+    ]
+  },
+  "grazin-in-the-grass": {
+    "categories": [
+      "thin_prose"
+    ],
+    "dims": [
+      "thin_prose"
+    ]
+  },
+  "is-that-so": {
+    "categories": [
+      "thin_prose",
+      "p4_attribution"
+    ],
+    "dims": [
+      "thin_prose",
+      "field:artist"
+    ]
+  },
+  "mannenberg": {
+    "categories": [
+      "thin_prose"
+    ],
+    "dims": [
+      "thin_prose"
+    ]
+  },
+  "oscar-peterson-plays-george-gershwin": {
+    "categories": [
+      "thin_prose"
+    ],
+    "dims": [
+      "thin_prose"
+    ]
+  },
+  "his-eye-is-on-the-sparrow-ethel-waters": {
+    "categories": [
+      "unverifiable_comp"
+    ],
+    "dims": [
+      "unverifiable_comp"
+    ]
+  },
+  "johnny-dodds-vol-1-johnny-dodds": {
+    "categories": [
+      "unverifiable_comp"
+    ],
+    "dims": [
+      "unverifiable_comp"
+    ]
+  },
+  "ma-rainey-vol-1-ma-rainey": {
+    "categories": [
+      "unverifiable_comp"
+    ],
+    "dims": [
+      "unverifiable_comp"
+    ]
+  },
+  "the-empress-of-the-blues-bessie-smith": {
+    "categories": [
+      "unverifiable_comp"
+    ],
+    "dims": [
+      "unverifiable_comp"
+    ]
+  },
+  "a-study-in-frustration-fletcher-henderson": {
+    "categories": [
+      "p4_label_reissue"
+    ],
+    "dims": [
+      "field:label"
+    ]
+  },
+  "ben-webster-meets-oscar-peterson-ben-webster": {
+    "categories": [
+      "p4_label_reissue"
+    ],
+    "dims": [
+      "field:label",
+      "field:year"
+    ]
+  },
+  "the-hawk-flies-high-coleman-hawkins": {
+    "categories": [
+      "p4_label_reissue"
+    ],
+    "dims": [
+      "field:label"
+    ]
+  },
+  "joe-pass-at-the-montreux-jazz-festival-joe-pass": {
+    "categories": [
+      "p4_label_reissue"
+    ],
+    "dims": [
+      "field:label"
+    ]
+  },
+  "undercurrent-bill-evans": {
+    "categories": [
+      "p4_label_reissue"
+    ],
+    "dims": [
+      "field:label"
+    ]
+  },
+  "swing-de-paris-django-reinhardt": {
+    "categories": [
+      "p4_label_reissue"
+    ],
+    "dims": [
+      "field:label",
+      "field:year"
+    ]
+  },
+  "concert-by-the-sea-erroll-garner": {
+    "categories": [
+      "p4_label_reissue"
+    ],
+    "dims": [
+      "field:label",
+      "field:year"
+    ]
+  },
+  "blue-rondo": {
+    "categories": [
+      "p4_attribution"
+    ],
+    "dims": [
+      "field:artist",
+      "prose"
+    ]
+  },
+  "blue-rondo-brubeck": {
+    "categories": [
+      "p4_attribution"
+    ],
+    "dims": [
+      "field:artist",
+      "prose"
+    ]
+  },
+  "mystic-brew": {
+    "categories": [
+      "p4_catalog_title"
+    ],
+    "dims": [
+      "field:title",
+      "prose"
+    ]
+  },
+  "savoy-sessions-charlie-parker": {
+    "categories": [
+      "p4_catalog_title"
+    ],
+    "dims": [
+      "field:title",
+      "field:year"
+    ]
+  },
+  "les-stances-a-sophie": {
+    "categories": [
+      "p4_label_region"
+    ],
+    "dims": [
+      "field:label"
+    ]
+  },
+  "caravan": {
+    "categories": [
+      "p4_year_recorded_released"
+    ],
+    "dims": [
+      "field:year",
+      "prose"
+    ]
+  },
+  "waltz-for-debby": {
+    "categories": [
+      "p4_year_recorded_released"
+    ],
+    "dims": [
+      "field:year",
+      "prose"
+    ]
+  },
+  "begin-the-beguine-artie-shaw": {
+    "categories": [
+      "p4_suspect_mb_release"
+    ],
+    "dims": [
+      "keytracks"
+    ]
+  },
+  "the-magic-of-juju": {
+    "categories": [
+      "p4_year_recorded_released"
+    ],
+    "dims": [
+      "field:year"
+    ]
+  },
+  "township-jive": {
+    "categories": [
+      "p4_catalog_title"
+    ],
+    "dims": [
+      "field:title"
+    ]
+  }
+}

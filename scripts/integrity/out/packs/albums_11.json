@@ -1,0 +1,1609 @@
+[
+ {
+  "id": "karma",
+  "kind": "album",
+  "ours": {
+   "title": "Karma",
+   "artist": "Pharoah Sanders",
+   "year": 1969,
+   "label": "Impulse!",
+   "albumDNA": "Karma is a jazz recording by the American tenor saxophonist Pharoah Sanders, released in May 1969 on the Impulse! label, with catalog number AS 9181. A pioneering work of the spiritual jazz style, it has become Sanders' most popular and critically acclaimed album, with Pitchfork ranking it number 53 on its list of the greatest albums of the 1960s. The most commercially successful spiritual jazz album, proving that challenging music could move mainstream audiences. Its message of peace and unity resonated during the tumultuous late 1960s.",
+   "keyTracks": [
+    "The Creator Has a Master Plan",
+    "Colors"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Karma_(Pharoah_Sanders_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "df151c91-79cf-49a6-9bab-374dec6a1812",
+     "title": "Karma",
+     "date": "1969",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Pharoah Sanders"
+     ],
+     "labels": [
+      {
+       "name": "impulse!",
+       "catalogNumber": "AS-9181"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "22f978cb-26e6-3757-a13a-347970574eec",
+      "title": "Karma",
+      "firstReleaseDate": "1969",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "The Creator Has a Master Plan, Part I",
+      "The Creator Has a Master Plan, Part II",
+      "Colors"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Karma_(Pharoah_Sanders_album)",
+    "page": {
+     "requestedTitle": "Karma (Pharoah Sanders album)",
+     "resolvedTitle": "Karma (Pharoah Sanders album)",
+     "shortDescription": "1969 studio album by Pharoah Sanders",
+     "extract": "Karma is a jazz recording by the American tenor saxophonist Pharoah Sanders, released in May 1969 on the Impulse! label, with catalog number AS 9181. A pioneering work of the spiritual jazz style, it has become Sanders' most popular and critically acclaimed album, with Pitchfork ranking it number 53 on its list of the greatest albums of the 1960s.\n\n\n== Background ==\nThe social and political upheavals of the 1960s have been cited as a major factor in the emergence of a new stylistic trend in jazz, with a very different emphasis to the forms of the music which emerged earlier. Many of the artists involved in the making of this new music, variously called \"free jazz\", \"the new thing\", or \"energy music\", recorded for the Impulse! label. Ashley Kahn writes that several musicians, often those who had either played with or been influenced by John Coltrane, such as his widow Alice Coltrane, Archie Shepp, Pharoah Sanders, and Leon Thomas, began exploring new thematic and musical ideas, often associated with non-western religious and musical traditions. Although the ideological strain was much more obvious in Shepp's music than Sanders', the musical influence was just as pronounced: virtually all of his recordings as a leader from this late 1960s/early 1970s period contain some kind of African percussion, and other non-western features such as Leon Thomas' distinctive yodelling, apparently learnt from African pygmies.\n\n\n== Album information ==\nKarma is Sanders' third recording as a leader, and is among a number of spiritually themed albums the Impulse! record label released in the late 1960s/early 1970s. Although it is followed by the brief \"Colors\", the album's main piece is the 32-minute-long \"The Creator Has a Master Plan\", co-composed by Sanders with vocalist Leon Thomas. Some see this piece as a kind of sequel to Sanders' mentor John Coltrane's legendary 1965 recording A Love Supreme (whose opening it echoes in a muscular yet lyrical opening \"prelude\", with Sanders playing over a suspended, non-rhythmic backdrop, before the entrance of a bass figure which underpins much of the piece). It features Sanders on tenor sax, along with two of his most important collaborators, the aforementioned Leon Thomas and pianist Lonnie Liston Smith, as well as a supporting cast of musicians who were major musicians in their own right: flautist James Spaulding; French-horn player Julius Watkins; bassist Reggie Workman, who had played with Coltrane earlier in the 1960s; second bassist Richard Davis; drummer Billy Hart, and percussionist Nathaniel Bettis. While later recorded versions of the tune, some of which featured Sanders and Thomas, became shorter and more lyrical, this original contains extended free instrumental sections, particularly the third section, where the saxophonist demonstrates some of the techniques which build his distinctive sound, including a split-reed technique, overblowing, and multiphonics, which give a screeching sound.\nOn the whole, however, this was quite laid-back and accessible for a free-jazz record (compared to, say, Coltrane's 1966 album Ascension), with its mantra-like chant/melody, accessible, loping groove (which has since been sampled and covered by other artists—Sanders himself re-uses it on \"Heart Is a Melody of Time (Hikoro's Song)\" from his album Heart is a Melody) and optimistic, spiritual lyrics. The unusual textures also give an impression of the exotic, with the employment of a French horn and flute, adding an almost orchestral tinge not often found in jazz, as well as Leon Thomas' characteristic yodelling and a variety of percussion instruments. Despite its length, it achieved mainstream FM radio airplay, surely the closest the avant-garde movement came to a \"hit\", apart from the cult classic A Love Supreme, and its popularity with acid jazz and hip hop artists attests to its continuing popular status. The influence of the \"spiritual jazz\" movement, and Sanders' involvement in particular, can be seen in Sarah Webster Fabio's 1976 lyrics to \"Jujus: Alchemy of the Blues\":\n\n\n== Legacy ==\nPitchfork ranked Karma number 53 on its list of the greatest albums of the 1960s. Jazzwise listed it as one of the \"100 Jazz Albums That Shook The World\". The New Yorker put the album on its list of the \"100 essential Jazz Albums\".\n\n\n== Track listing ==\nFor the 1995 compact disc reissue, \"The Creator Has a Master Plan\" was re-edited back to a single track with a running time of 32:46.\n\n\n== Personnel ==\nPharoah Sand"
+    }
+   }
+  }
+ },
+ {
+  "id": "key-for-two",
+  "kind": "album",
+  "ours": {
+   "title": "Key for Two",
+   "artist": "Hampton Hawes",
+   "year": 1969,
+   "label": "BYG Records",
+   "albumDNA": "Released on BYG Records in 1969, Key for Two is a compelling contemporary jazz statement by Hampton Hawes. Among its key performances are 'Key for Two' and 'Stella by Starlight'.",
+   "keyTracks": [
+    "Key for Two",
+    "Stella by Starlight",
+    "Spring Can Really Hang You Up the Most",
+    "Bag's Groove",
+    "Lover Comes Back to Me"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "19a28983-fc05-41bc-b2e8-2eb5b6c807d1",
+     "title": "Key for Two",
+     "date": "1969",
+     "country": "FR",
+     "status": "Official",
+     "artists": [
+      "Hampton Hawes",
+      "Martial Solal"
+     ],
+     "labels": [
+      {
+       "name": "BYG Records",
+       "catalogNumber": "BYG 529 116"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "02b19909-e1b8-4e21-a9c4-b1c99c32a098",
+      "title": "Key for Two",
+      "firstReleaseDate": "1969",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Key for Two",
+      "Stella by Starlight",
+      "Spring Can Really Hang You Up the Most",
+      "Bag's Groove",
+      "Lover Comes Back to Me",
+      "Fly Me to the Moon",
+      "The Theme",
+      "Godchild",
+      "Three for Two"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "monks-blues",
+  "kind": "album",
+  "ours": {
+   "title": "Monk’s Blues",
+   "artist": "Thelonious Monk",
+   "year": 1969,
+   "label": "CBS",
+   "albumDNA": "Monk's Dream is an album by jazz pianist Thelonious Monk, released by Columbia Records in January 1963. It was Monk's first album for Columbia following his five-year recording period with Riverside Records.",
+   "keyTracks": [
+    "Let's Cool One",
+    "Reflections",
+    "Rootie Tootie",
+    "Just a Glance at Love",
+    "Brilliant Corners"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Monk's_Dream_(Thelonious_Monk_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "cd54baa6-186c-4052-ada7-71cb93ff220b",
+     "title": "Monk's Blues",
+     "date": "1990",
+     "country": "FR",
+     "status": "Official",
+     "artists": [
+      "Thelonious Monk"
+     ],
+     "labels": [
+      {
+       "name": "CBS",
+       "catalogNumber": "CBS 467178 2"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "13de8458-1f64-38fa-bcd4-fa2750f2861b",
+      "title": "Monk’s Blues",
+      "firstReleaseDate": "1969",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Blue Monk",
+      "Let's Cool One",
+      "Reflections",
+      "Rootie Tootie",
+      "Just a Glance at Love",
+      "Brilliant Corners",
+      "Consecutive Seconds",
+      "Monk's Point",
+      "Trinkle Tinkle",
+      "Straight No Chaser",
+      "'Round Midnight"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Monk's_Dream_(Thelonious_Monk_album)",
+    "page": {
+     "requestedTitle": "Monk's Dream (Thelonious Monk album)",
+     "resolvedTitle": "Monk's Dream (Thelonious Monk album)",
+     "shortDescription": "1963 studio album by Thelonious Monk",
+     "extract": "Monk's Dream is an album by jazz pianist Thelonious Monk, released by Columbia Records in January 1963. It was Monk's first album for Columbia following his five-year recording period with Riverside Records.\n\n\n== Recording and music ==\n\"Bye-Ya\" and \"Bolivar Blues\" were recorded on October 31, 1962; \"Body and Soul\" and \"Bright Mississippi\" on November 1; \"Sweet and Lovely\", \"Just a Gigolo\" and \"Monk's Dream\" on November 2; and \"Five Spot Blues\" on November 6.\n\"Bright Mississippi\" is the only composition on the album that Monk had not previously recorded. \"Bolivar Blues\" was originally titled \"Ba-lue Bolivar Ba-lues-are\" and had been on Monk's 1957 Riverside album, Brilliant Corners. \"Five Spot Blues\" was called \"Blues Five Spot\" and first appeared on the album Misterioso, which was recorded in concert at the Five Spot Cafe in New York in 1958 and released by Riverside. \"Monk's Dream\", \"Bye-Ya\", and \"Sweet and Lovely\" were recorded for Prestige at a session ten years earlier.\n\n\n== Critical reception ==\n\nIn DownBeat, jazz critic Pete Welding gave the album five stars and called it \"a stunning reaffirmation of his powers as a performer and composer.\"\n\n\n== Track listing ==\n\n\n== Personnel ==\nThelonious Monk – piano\nCharlie Rouse – tenor saxophone\nJohn Ore – bass\nFrankie Dunlop – drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "power-to-the-people",
+  "kind": "album",
+  "ours": {
+   "title": "Power to the People",
+   "artist": "Joe Henderson",
+   "year": 1969,
+   "label": "Milestone",
+   "albumDNA": "Henderson's socially conscious masterwork captures the revolutionary spirit of the late 1960s. Featuring Herbie Hancock, Ron Carter, and Jack DeJohnette, the album balances political urgency with Henderson's characteristically sophisticated harmonic language. Demonstrated that hard bop could engage with the political moment without abandoning musical sophistication. Henderson's warm yet adventurous tone bridged the gap between mainstream and avant-garde jazz.",
+   "keyTracks": [
+    "Power to the People",
+    "Black Narcissus",
+    "Afro-Centric",
+    "Opus One Point Five"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Power_to_the_People_(Joe_Henderson_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "def521b5-ac3c-4b74-8c61-ec7fc5d883c8",
+     "title": "Power to the People",
+     "date": "1969",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Joe Henderson"
+     ],
+     "labels": [
+      {
+       "name": "Milestone",
+       "catalogNumber": "MSP 9024"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "7f698111-ff1b-32ee-88b6-d1dac454d413",
+      "title": "Power to the People",
+      "firstReleaseDate": "1969",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Black Narcissus",
+      "Afro-Centric",
+      "Opus One-Point-Five",
+      "Isotope",
+      "Power to the People",
+      "Lazy Afternoon",
+      "Foresight and Afterthought (An Impromptu Suite in Three Movements)"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Power_to_the_People_(Joe_Henderson_album)",
+    "page": {
+     "requestedTitle": "Power to the People (Joe Henderson album)",
+     "resolvedTitle": "Power to the People (Joe Henderson album)",
+     "shortDescription": "1969 studio album by Joe Henderson",
+     "extract": "Power to the People is an album by jazz saxophonist Joe Henderson, released on Milestone in 1969. Featuring Henderson with trumpeter Mike Lawrence (on two tracks), pianist Herbie Hancock, bassist Ron Carter and drummer Jack DeJohnette. Hancock's electric piano and Carter's bass guitar are the first electric instruments to appear on a Henderson album.\n\n\n== Track listing ==\nAll compositions by Joe Henderson, except where noted.\n\n\"Black Narcissus\" – 4:50\n\"Afro-Centric\" – 7:00\n\"Opus One-Point-Five\" (Ron Carter) – 4:56\n\"Isotope\" – 4:53\n\"Power to the People\" – 8:42\n\"Lazy Afternoon\" (Moross, Latouche) – 4:33\n\"Foresight and Afterthought (An Impromptu Suite in Three Movements)\" – 7:33\nRecorded on May 23 (tracks 2, 5) and May 29 (all others), 1969.\n\n\n== Personnel ==\nJoe Henderson – tenor saxophone\nMike Lawrence – trumpet (2, 5)\nHerbie Hancock – piano (3, 4, 6), Fender Rhodes (1, 2, 5)\nRon Carter – double bass (1, 3, 4, 6, 7),  electric bass (2, 5)\nJack DeJohnette – drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "spirits-known-and-unknown",
+  "kind": "album",
+  "ours": {
+   "title": "Spirits Known and Unknown",
+   "artist": "Leon Thomas",
+   "year": 1969,
+   "label": "Flying Dutchman",
+   "albumDNA": "Leon Thomas' extraordinary debut showcases his unique yodeling vocal technique alongside Pharoah Sanders and a stellar band. The album bridges African vocal traditions, free jazz, and soul music in ways that had never been attempted before. Introduced Thomas' revolutionary vocal approach to a wide audience. His technique of channeling pygmy yodeling through jazz singing created an entirely new vocabulary for vocal improvisation.",
+   "keyTracks": [
+    "Spirits Known and Unknown",
+    "The Creator Has a Master Plan",
+    "One",
+    "Damn Nam (Ain't Goin' to Vietnam)"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "e75d1d5f-ec44-4573-a3ee-f4588f6c80ec",
+     "title": "Spirits Known and Unknown",
+     "date": "1969",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Leon Thomas"
+     ],
+     "labels": [
+      {
+       "name": "Flying Dutchman",
+       "catalogNumber": "FD-10115"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "d887e7cf-2288-3a08-853e-74591c85e556",
+      "title": "Spirits Known and Unknown",
+      "firstReleaseDate": "1969",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "The Creator Has a Master Plan (Peace)",
+      "One",
+      "Echoes",
+      "Song for My Father",
+      "Damn Nam (Ain't Goin' to Vietnam)",
+      "Malcolm's Gone",
+      "Let the Rain Fall on Me"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "super-nova",
+  "kind": "album",
+  "ours": {
+   "title": "Super Nova",
+   "artist": "Wayne Shorter",
+   "year": 1969,
+   "label": "Blue Note",
+   "albumDNA": "Super Nova is the twelfth album by Wayne Shorter, recorded in 1969 and released on the Blue Note label. The album features five originals by Shorter and an arrangement of \"Dindi\" by Antônio Carlos Jobim. \"Water Babies\", \"Capricorn\" and \"Sweet Pea\" were originally recorded in 1967 during sessions with Miles Davis that would eventually be released in 1976 as the album Water Babies. Bridged Shorter's Blue Note work with his later Weather Report direction. Its textural approach anticipated ambient and world music fusions.",
+   "keyTracks": [
+    "Super Nova",
+    "Swee-Pea",
+    "Capricorn",
+    "Water Babies"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Super_Nova_(Wayne_Shorter_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "715fabd3-6c4b-457a-8246-fbca20e3f60b",
+     "title": "Super Nova",
+     "date": "1970-03",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Wayne Shorter"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "BST 84332"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "d64ca083-f2d9-3c3e-9746-0b4b57a60dec",
+      "title": "Super Nova",
+      "firstReleaseDate": "1970-03",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Super Nova",
+      "Swee‐Pea",
+      "Dindi",
+      "Water Babies",
+      "Capricorn",
+      "More Than Human"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Super_Nova_(Wayne_Shorter_album)",
+    "page": {
+     "requestedTitle": "Super Nova (Wayne Shorter album)",
+     "resolvedTitle": "Super Nova (Wayne Shorter album)",
+     "shortDescription": "1969 studio album by Wayne Shorter",
+     "extract": "Super Nova is the twelfth album by Wayne Shorter, recorded in 1969 and released on the Blue Note label. The album features five originals by Shorter and an arrangement of \"Dindi\"  by Antônio Carlos Jobim. \"Water Babies\", \"Capricorn\" and \"Sweet Pea\" were originally recorded in 1967 during sessions with Miles Davis that would eventually be released in 1976 as the album Water Babies.\nKeyboardist Chick Corea appears on drums rather than his typical role, and bassist Walter Booker plays acoustic guitar on “Dindi”.\n\n\n== Reception ==\n\nThe AllMusic review by Scott Yanow stated: \"The influence of Miles Davis' early fusion period is felt throughout the music but there is nothing derivative about the often-surprising results. As with Wayne Shorter's best albums, this set rewards repeated listenings.\".\n\n\n== Track listing ==\nAll compositions by Wayne Shorter except where noted.\n\n\"Supernova\" – 4:52\n\"Swee-Pea\" – 4:36\n\"Dindi\" (Antônio Carlos Jobim) – 9:35\n\"Water Babies\" – 4:53\n\"Capricorn\" – 7:47\n\"More Than Human\" – 6:12\nRecorded August 29 (1–2, 4–5) and September 2 (3 & 6), 1969.\n\n\n== Personnel ==\nWayne Shorter – soprano saxophone\nJohn McLaughlin – acoustic and electric guitar (tracks 1–2, 4–5)\nSonny Sharrock – electric guitar\nChick Corea – drums, vibes\nMiroslav Vitouš – bass\nJack DeJohnette – drums, kalimba\nAirto Moreira – percussion\nWalter Booker – acoustic guitar (track 3)\nMaria Booker – vocals (track 3)\nNiels Jakobsen – claves\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "the-new-don-ellis-band-goes-underground",
+  "kind": "album",
+  "ours": {
+   "title": "The New Don Ellis Band Goes Underground",
+   "artist": "Don Ellis",
+   "year": 1969,
+   "label": "Columbia",
+   "albumDNA": "Don Ellis at Fillmore is a live double-LP by big band leader Don Ellis which was released in 1970. Later in his life he worked as a film composer, contributing a score to 1971's The French Connection and 1973's The Seven-Ups.",
+   "keyTracks": [
+    "House in the Country",
+    "Don't Leave Me",
+    "Higher",
+    "Bulgarian Bulge",
+    "Eli's Comin'"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Don_Ellis_at_Fillmore"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "7ce206ea-963a-422a-b9a3-0eebaaf0bbec",
+     "title": "The New Don Ellis Band Goes Underground",
+     "date": "1969",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "The New Don Ellis Band",
+      "Patti Allen"
+     ],
+     "labels": [
+      {
+       "name": "Columbia",
+       "catalogNumber": "CS 9889"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "3a78186c-1df8-4eb9-b9ae-a2ef5709e0fd",
+      "title": "The New Don Ellis Band Goes Underground",
+      "firstReleaseDate": "1969",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "House in the Country",
+      "Don't Leave Me",
+      "Higher",
+      "Bulgarian Bulge",
+      "Eli's Comin'",
+      "Acoustical Lass",
+      "Good Feelin'",
+      "Send My Baby Back",
+      "Love for Rent",
+      "It's Your Thing",
+      "Ferris Wheel",
+      "Black Baby"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Don_Ellis_at_Fillmore",
+    "page": {
+     "requestedTitle": "Don Ellis at Fillmore",
+     "resolvedTitle": "Don Ellis at Fillmore",
+     "shortDescription": "1970 live album by Don Ellis",
+     "extract": "Don Ellis at Fillmore is a live double-LP by big band leader Don Ellis which was released in 1970.\n\n\n== Reception ==\n\nAl Campbell of Allmusic said \"This is a crazy and consistently riotous two-disc set that features the Don Ellis Orchestra at its height\". On All About Jazz, Jim Santella observed \"Don Ellis takes you off on a whirlwind ride, using electronic trumpet, complex meters, superb big band arrangements, and a cast of experienced sidemen who blow the walls down\"\n\n\n== Track listing ==\n\n\n=== Side A ===\n\"Final Analysis\" (Don Ellis) – 13:59\n\"Excursion #2\"  (John Klemmer) – 5:44\n\"The Magic Bus Ate My Doughnut\"  (Fred Selden) – 2:29\n\n\n=== Side B ===\n\"The Blues\"  (Ellis) – 7:25\n\"Salvatore Sam\"  (Ellis) – 5:06\n\"Rock Odyssey\"  (Hank Levy) – 9:48\n\n\n=== Side C ===\n\"Hey Jude\"  (Lennon–McCartney) – 10:38\n\"Antea\"  (Levy) – 5:59\n\"Old Man's Tear\"  (Klemmer) – 4:53\n\n\n=== Side D ===\n\"Great Divide\"  (Ellis) – 8:42\n\"Pussy Wiggle Stomp\"  (Ellis) – 11:54\n\n\n== Personnel ==\nDon Ellis - trumpet, drums\nJohn Klemmer - tenor saxophone\nJay Graydon - guitar\nJohn Rosenberg, Stuart Blumberg, Glenn Stuart, Jack Coan - trumpets\nErnie Carlson, Glenn Ferris - trombone\nDon Switzer - bass trombone\nLonnie Shetter, Fred Selden, Jon Clarke, Sam Falzone - woodwinds\nDoug Bixby - contrabass trombone, tuba\nTom Garvin - piano\nDennis F. Parker - bass\nRalph Humphrey - drums\nRon Dunn - drums\nLee Pastora - congas\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "to-love-somebody",
+  "kind": "album",
+  "ours": {
+   "title": "To Love Somebody",
+   "artist": "Nina Simone",
+   "year": 1969,
+   "label": "RCA",
+   "albumDNA": "To Love Somebody is an album by jazz singer-songwriter/pianist Nina Simone. Primarily a covers album, it was released as quickly as possible to prolong the unexpected success of 'Nuff Said! The title is taken from the Bee Gees song \"To Love Somebody\"; her cover of the song became her second British hit single after \"Ain't Got No, I Got Life\".",
+   "keyTracks": [
+    "Suzanne",
+    "Turn! Turn! Turn! (To Everything There Is a Season)",
+    "Revolution, Parts 1 & 2",
+    "To Love Somebody",
+    "I Shall Be Released"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/To_Love_Somebody_(album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "bf7b629c-2a81-4519-bafb-fc0e15629108",
+     "title": "To Love Somebody",
+     "date": "1969",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Nina Simone"
+     ],
+     "labels": [
+      {
+       "name": "RCA Victor",
+       "catalogNumber": "LSP 4152"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "15445b78-ec7e-3d22-b8fc-cfc92590d8f0",
+      "title": "To Love Somebody",
+      "firstReleaseDate": "1969",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Suzanne",
+      "Turn! Turn! Turn! (To Everything There Is a Season)",
+      "Revolution, Part 1",
+      "Revolution, Part 2",
+      "To Love Somebody",
+      "I Shall Be Released",
+      "I Can’t See Nobody",
+      "Just Like Tom Thumb’s Blues",
+      "The Times They Are A‐Changin’"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/To_Love_Somebody_(album)",
+    "page": {
+     "requestedTitle": "To Love Somebody (album)",
+     "resolvedTitle": "To Love Somebody (album)",
+     "shortDescription": "1969 studio album by Nina Simone",
+     "extract": "To Love Somebody is an album by jazz singer-songwriter/pianist Nina Simone. Primarily a covers album, it was released as quickly as possible to prolong the unexpected success of 'Nuff Said! The title is taken from the Bee Gees song \"To Love Somebody\"; her cover of the song became her second British hit single after \"Ain't Got No, I Got Life\".\n\n\n== Tracks ==\n\"Revolution\" is the only original song written for the album. It was Simone's third subsequent single released in the UK after \"Ain't Got No, I Got Life\" and \"To Love Somebody\" both became hits. The song was released around the time of the same titled song by the Beatles and, although it has a similar hook (\"Don't you know it's gonna be – all right\") and structure, most of the lyrics differ. The song also uses a guitar lick similar to \"Old Brown Shoe,\" which had been recorded by the Beatles the same year. John Lennon commented on the similarities in a 1971 interview with Rolling Stone:I thought it was interesting that Nina Simone did a sort of answer to \"Revolution.\" That was very good–it was sort of like \"Revolution,\" but not quite. That I sort of enjoyed, somebody who reacted immediately to what I had said.\nThe song is split into two parts as a result of the single release. \"Revolution\" didn't do well in the UK charts, and only had a mild success in the United States R&B charts. Simone was surprised by this and said to Sylvia Hampton, author of the biography Break Down and Let It All Out about this:\n\nI don't get it. It's about a revolution, man: not just colour, but everything! It's about barriers being broken down, and they sure as hell need getting rid of. [...] We need a revolution to sort it all out and get back to God. You know how lost we are, man – it's sad.Simone also recorded an alternate version of \"Turn! Turn! Turn!\" that was (previously) unreleased.\n\n\n== Track listing ==\n\n\n== Personnel ==\nNina Simone – vocals, piano, arrangements\nDon Alias – drums\nWeldon J. Irvine – organ\nAl Schackman – guitar\nGene A. Perla – Fender bass\nDoris Willingham – vocals\nVirdia Crawford – vocals\nJimmy Wisner – arrangements, conductor on \"To Love Somebody\" and \"I Can't See Nobody\"\nTechnical\nMike Moran, Ray Hall – recording engineers\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "alive-grant-green",
+  "kind": "album",
+  "ours": {
+   "title": "Alive!",
+   "artist": "Grant Green",
+   "year": 1970,
+   "label": "Blue Note",
+   "albumDNA": "Guitarist Grant Green's electrifying live album captures him at the Cliche Lounge in Newark with a smoking organ combo. His single-note lines dance over funky grooves with a rhythmic intensity that bridges jazz and R&B. The extended takes allow Green to build to ecstatic peaks. Captured Green at his most soulful and funky, proving him one of the greatest rhythm guitarists in jazz. The album became hugely popular with DJs and hip-hop producers, making Green a posthumous icon.",
+   "keyTracks": [
+    "Let the Music Take Your Mind",
+    "Sookie Sookie",
+    "Let's Stay Together",
+    "Down Here on the Ground"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Alive!_(Grant_Green_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "2b00e28e-de06-3918-aae3-e0e82db56423",
+     "title": "Alive!",
+     "date": "1970",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Grant Green"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "BST-84360"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "69773be3-26b2-33e6-8277-777fb6a0f7e2",
+      "title": "Alive!",
+      "firstReleaseDate": "1970",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Live"
+      ]
+     },
+     "tracks": [
+      "Let The Music Take Your Mind",
+      "Time to Remember",
+      "Sookie, Sookie",
+      "Down Here on the Ground"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Alive!_(Grant_Green_album)",
+    "page": {
+     "requestedTitle": "Alive! (Grant Green album)",
+     "resolvedTitle": "Alive! (Grant Green album)",
+     "shortDescription": "1970 live album by Grant Green",
+     "extract": "Alive! is an album by American jazz guitarist Grant Green featuring a performance recorded at the Cliche Lounge in Newark, New Jersey in 1970 and released on the Blue Note label. The album was Green's first official live recording. The CD reissue in 1993 added three bonus tracks.\n\n\n== Reception ==\n\nThe Allmusic review by Steve Huey awarded the album 4 stars and stated \"Alive! is the hardest funk LP Grant Green recorded during the later phase of his career... this is the most convincing and consistent Green had been as a funkster and, while nearly all of his albums from the early '70s feature at least some worthwhile material for acid jazz and beat-sampling junkies, Alive! is probably the best place to start\".\n\"The Penguin Guide to Jazz\" review by Richard Cook and Brian Morton stated:  \"It seems remarkable that Blue Note weren't more enthusiastic sooner about recording Green in his natural setting. This, from the Cliché Lounge in Newark, is almost his best recording for the label, a burning, sweaty club that might rely a bit on the very commodity it was named for, but none the worse of that.\"\n\n\n== Track listing ==\n\"Let the Music Take Your Mind\" (Kool & the Gang, Gene Redd) - 8:42\n\"Time To Remember\" (Neal Creque) - 11:19\nBand introduction by Buddy Green - 0:32\n\"Sookie, Sookie\" (Don Covay, Steve Cropper) - 11:10\n\"Down Here on the Ground\" (Gale Garnett, Lalo Schifrin) - 6:45\nBonus tracks on CD reissue:\n\n\"Hey, Western Union Man\" (Jerry Butler, Kenny Gamble, Leon Huff) - 7:46\n\"It's Your Thing\" (Ronald Isley, O'Kelly Isley, Jr., Rudolph Isley) - 9:17\n\"Maiden Voyage\" (Herbie Hancock) - 10:58\n\n\n== Personnel ==\nGrant Green - guitar\nClaude Bartee - tenor saxophone\nWillie Bivens - vibes\nNeal Creque (tracks 2 & 5), Ronnie Foster (tracks 1, 4 & 6–8) - organ\nIdris Muhammad - drums\nJoseph Armstrong - congas\nBuddy Green - announcer\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "bitches-brew",
+  "kind": "album",
+  "ours": {
+   "title": "Bitches Brew",
+   "artist": "Miles Davis",
+   "year": 1970,
+   "label": "Columbia",
+   "albumDNA": "A double album that shattered the boundaries between jazz and rock, recorded in August 1969 with an extraordinary ensemble including Wayne Shorter, Chick Corea, Joe Zawinul, John McLaughlin, Dave Holland, and multiple drummers. Producer Teo Macero's revolutionary editing techniques spliced and layered performances into a dense, otherworldly soundscape. The sessions were largely improvised around sketches Miles provided, creating an organic yet alien sonic world. Mati Klarwein's striking Afrofuturist cover art perfectly captured the album's revolutionary spirit. Launched the jazz fusion movement and became Miles Davis's first gold record (RIAA Gold 1976, Platinum 2003), selling roughly 400,000 copies in its first year. Its studio-as-instrument approach pioneered production techniques still used today. The album influenced not just fusion but progressive rock, ambient music, and electronic music. Musicians from Santana to Radiohead cite it as foundational.",
+   "keyTracks": [
+    "Pharaoh's Dance",
+    "Bitches Brew",
+    "Spanish Key",
+    "Miles Runs the Voodoo Down"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "6dc111e0-c557-4065-b0c5-30f4d2b4a202",
+     "title": "Bitches Brew",
+     "date": "1970",
+     "country": "CA",
+     "status": "Official",
+     "artists": [
+      "Miles Davis"
+     ],
+     "labels": [
+      {
+       "name": "Columbia",
+       "catalogNumber": "GP 26"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "a9e30282-5b37-3f92-b897-b9659a1a312b",
+      "title": "Bitches Brew",
+      "firstReleaseDate": "1970",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Pharaoh’s Dance",
+      "Bitches Brew",
+      "Spanish Key",
+      "John McLaughlin",
+      "Miles Runs the Voodoo Down",
+      "Sanctuary"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "deaf-dumb-blind-summun-bukmun-umyun",
+  "kind": "album",
+  "ours": {
+   "title": "Deaf, Dumb, Blind: Summun, Bukmun, Umyun",
+   "artist": "Pharoah Sanders",
+   "year": 1970,
+   "label": "impulse!",
+   "albumDNA": "Deaf Dumb Blind (Summun Bukmun Umyun) is an album by the American jazz saxophonist Pharoah Sanders. It was recorded at A & R Studios in New York City on July 1, 1970, and released on Impulse! Records in the same year. The album's title is bilingual: \"Summun Bukmun Umyun\" is Arabic for \"Deaf Dumb Blind\".",
+   "keyTracks": [
+    "Summun, Bukmun, Umyun",
+    "Let Us Go Into the House of the Lord"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Deaf_Dumb_Blind_(Summun_Bukmun_Umyun)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "eab49e48-e9f4-3528-b778-73275dbddef4",
+     "title": "Deaf, Dumb, Blind: Summun, Bukmun, Umyun",
+     "date": "1970",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Pharoah Sanders"
+     ],
+     "labels": [
+      {
+       "name": "impulse!",
+       "catalogNumber": "AS 9199"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0b1387d3-170c-3219-8ddb-9e88c238c7c9",
+      "title": "Deaf, Dumb, Blind: Summun, Bukmun, Umyun",
+      "firstReleaseDate": "1970",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Summun, Bukmun, Umyun",
+      "Let Us Go Into the House of the Lord"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Deaf_Dumb_Blind_(Summun_Bukmun_Umyun)",
+    "page": {
+     "requestedTitle": "Deaf Dumb Blind (Summun Bukmun Umyun)",
+     "resolvedTitle": "Deaf Dumb Blind (Summun Bukmun Umyun)",
+     "shortDescription": "1970 studio album by Pharoah Sanders",
+     "extract": "Deaf Dumb Blind (Summun Bukmun Umyun) is an album by the American jazz saxophonist Pharoah Sanders.  It was recorded at A & R Studios in New York City on July 1, 1970, and released on Impulse! Records in the same year. The album's title is bilingual: \"Summun Bukmun Umyun\" is Arabic for \"Deaf Dumb Blind\".\nThe phrase صُمٌّ بُكْمٌ عُمْيٌ ṣummun, bukmun, ʻumyun is taken from verse 18 of Surat al-Baqarah in the Qur'an.  According to the liner notes, the album is \"predicated on spiritual truths and to the future enlightenment of El Kafirun or The Rejectors of Faith (non-believers).\"\nThe performances on the album are strongly influenced by the music of Africa.\n\n\n== Reception ==\n\nRegarding the title track, Thom Jurek, writing for AllMusic, stated: \"Sanders brings in the whole of his obsession with rhythm and R&B. Using African percussion, bylophones, shakers, cowbells, and all manner of percussion... Here the Latin and African polyrhythms collide and place the horns, as large and varied as they are, in almost a supplementary role. The horns check counterpoint in striated harmony, calling and responding over the wash of bass and drums and drums and drums! It evolves into a percussion orgy before the scary otherworldly multiphonic solos begin... And no matter how out it gets, those rhythms keep it rooted in the soul.\" Jurek called \"Let Us Go Into The House Of The Lord\" \"a stunningly beautiful and contemplative work that showcases how intrinsic melodic phrasing and drones were to Sanders at the time -- and still are today. This piece, and this album, is a joyful noise made in the direction of the divine, and we can feel it through the speakers, down in the place that scares us.\"\nDaniel Martin-McCormick, in a review for Pitchfork, commented: \"Deaf Dumb Blind (Summun Bukmun Umyun) may be Sanders' finest work from this era... the group... breathes as one like never before. Coming off of a busy touring schedule, the players were locked in, often building songs out of loose ideas or hints of an arrangement. If the title track finds the players in a joyous, near-telepathic groove, 'Let Us Go Into the House of the Lord' is simply spiritual jazz of the highest order. Aching with emotion, it stands alongside Alice Coltrane’s 'Prema' and Albert Ayler's 'Our Prayer' as a devotional masterpiece and a fulfillment of free jazz's promise... The song's title couldn’t be more apt; the music exudes so much sorrow, hope, compassion, joy, and humanity it seems to truly reach for a home beyond our world.\"\n\n\n== Track listing ==\n\"Summun, Bukmun, Umyun\" (Sanders) – 21:16\n\"Let Us Go into the House of the Lord\" (arr. by Lonnie Liston Smith) – 17:46\n\n\n== Personnel ==\nPharoah Sanders – soprano saxophone, cow horn, bells, tritone whistle, cowbells, wood flute, thumb piano, percussion\nWoody Shaw – trumpet, maracas, yodeling, percussion\nGary Bartz – alto saxophone, bells, cowbell, shakers, percussion\nLonnie Liston Smith – piano, cowbell, thumb piano, percussion\nCecil McBee – bass\nClifford Jarvis – drums\nNat Bettis – xylophone, yodeling, African percussion\nAnthony Wiles – conga drum and African percussion\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "extensions",
+  "kind": "album",
+  "ours": {
+   "title": "Extensions",
+   "artist": "McCoy Tyner",
+   "year": 1970,
+   "label": "Blue Note",
+   "albumDNA": "Extensions is the eleventh album by jazz pianist McCoy Tyner released on the Blue Note label. It was recorded on February 9, 1970, but not released until January 1973. It has performances by Tyner with alto saxophonist Gary Bartz, tenor saxophonist Wayne Shorter, bassist Ron Carter, drummer Elvin Jones, and features Alice Coltrane playing harp on three of the four tracks. Showed Tyner's growth beyond his Coltrane Quartet years. His percussive left hand technique influenced generations.",
+   "keyTracks": [
+    "Message from the Nile",
+    "The Wanderer",
+    "Survival Blues",
+    "His Blessings"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Extensions_(McCoy_Tyner_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "9a2f8c51-2321-4bdd-8d5b-2984a121f967",
+     "title": "Extensions",
+     "date": "1972",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "McCoy Tyner"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "BN-LA 006-F"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "18c5a0bc-0663-3066-8f74-66be69ee1a30",
+      "title": "Extensions",
+      "firstReleaseDate": "1972",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Message From the Nile",
+      "The Wanderer",
+      "Survival Blues",
+      "His Blessings"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Extensions_(McCoy_Tyner_album)",
+    "page": {
+     "requestedTitle": "Extensions (McCoy Tyner album)",
+     "resolvedTitle": "Extensions (McCoy Tyner album)",
+     "shortDescription": "1973 studio album by McCoy Tyner",
+     "extract": "Extensions is the eleventh album by jazz pianist McCoy Tyner released on the Blue Note label. It was recorded on February 9, 1970, but not released until January 1973. It has performances by Tyner with alto saxophonist Gary Bartz, tenor saxophonist Wayne Shorter, bassist Ron Carter, drummer Elvin Jones, and features Alice Coltrane playing harp on three of the four tracks.\n\n\n== Reception ==\nIn his AllMusic review Scott Yanow says, \"The all-star sextet stretches out on lengthy renditions of four of Tyner's modal originals, and there is strong solo space for the leader and the two saxophonists... Stimulating music\".\nReviewing the album for jazz.com, Jared Pauley says, \"McCoy Tyner finds himself among elite company on Extensions. Recorded as jazz was entering the fusion period, this is a great example of just how good straight-ahead swing can sound...  This performance matches the superb quality of previous Shorter and Tyner albums where members of the Davis and Coltrane groups recorded together.\"\n\n\n== Track listing ==\n\"Message from the Nile\" - 12:22\n\"The Wanderer\" - 7:43\n\"Survival Blues\" - 13:15\n\"His Blessings\" - 6:50\nAll compositions written by McCoy Tyner.\n\n\n== Personnel ==\n\n\n=== Musicians ===\nMcCoy Tyner – piano\nGary Bartz – alto saxophone\nWayne Shorter – tenor saxophone, soprano saxophone\nRon Carter – bass\nElvin Jones – drums\nAlice Coltrane – harp (tracks 1, 3 & 4)\n\n\n=== Production ===\nProducer – Duke Pearson\nRecorded by – Rudy Van Gelder\nLiner notes – André Perry\nCover photography – Clifford Janoff\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "jazz-in-africa",
+  "kind": "album",
+  "ours": {
+   "title": "Jazz in Africa",
+   "artist": "Chris McGregor's Brotherhood of Breath",
+   "year": 1970,
+   "label": "RCA",
+   "albumDNA": "Chris McGregor's Brotherhood of Breath is the debut album by South African pianist and composer Chris McGregor's big band of the same name. Produced by Joe Boyd, it was recorded in 1970, and was issued on LP by the short-lived Neon imprint of RCA Records in 1971 as the label's second release. In 2007, it was reissued on CD by Fledg'ling Records. Documented the South African jazz diaspora. McGregor's multi-racial band was both musical statement and political act against apartheid.",
+   "keyTracks": [
+    "Davashe's Dream",
+    "MRA",
+    "Andromeda",
+    "Kongi's Theme"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Chris_McGregor's_Brotherhood_of_Breath"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": null,
+    "release": null,
+    "searchCandidates": []
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Chris_McGregor's_Brotherhood_of_Breath",
+    "page": {
+     "requestedTitle": "Chris McGregor's Brotherhood of Breath",
+     "resolvedTitle": "Chris McGregor's Brotherhood of Breath",
+     "shortDescription": "1971 studio album by Chris McGregor's Brotherhood of Breath",
+     "extract": "Chris McGregor's Brotherhood of Breath is the debut album by South African pianist and composer Chris McGregor's big band of the same name. Produced by Joe Boyd, it was recorded in 1970, and was issued on LP by the short-lived Neon imprint of RCA Records in 1971 as the label's second release. In 2007, it was reissued on CD by Fledg'ling Records.\nThe music reflects the influences of both jazz and traditional African music. Regarding his arrangements, McGregor stated: \"You get a feeling for areas you want to explore... It was to do with African polyrhythm. I started hearing the possibilities of things happening on a lot of different levels rhythmically. There was a wheel turning then, things flowing together...\" Author W. C. Bamberger described the music as \"simple, rhythmic, with the parts entering one by one and interlocking, with the sections, line after line, increasing the torque of syncopated complexity until the ear can barely keep up, then backing off and, most often, starting again.\"\n\n\n== Reception ==\n\nIn a review for AllMusic, Dean McFarlane called the band \"a group of extraordinary musicians from the free jazz, progressive rock, and improvisation scenes,\" and wrote: \"Brotherhood of Breath created one of the defining recordings of ethno-jazz with this album... [it] is driven by the organic pulse of the rhythm section -- bassist Harry Miller and drummer Louis Moholo, no less -- who will be names familiar to fans of British free jazz. This album comes highly recommended to fans of Don Cherry, Afro-beat sounds, and the Sun Ra Arkestra.\"\nCritic Tom Hull awarded the album a grade of \"A−\", and described the music as \"Township jive with avant drive and distortions, a marvelous formula McGregor sustained for two decades.\"\nWriting for Point of Departure, Bill Shoemaker called the recording \"an album that flowed effortlessly from beginning to end,\" with \"MRA\" as \"an ideal, exhilarating opening track.\" He stated that the 21-minute \"Night Poem\" \"signaled a new direction,\" and remarked: \"There is an organic quality in how 'Night Poem' unfolds that would present with increasingly frequency in Brotherhood performances into the mid-'70s.\"\nW. C. Bamberger stated: \"What caught jazz and even pop fans' ears and imaginations was the feeling that the band was barely under control, a raging giant rhythm and sound generator that might take them anywhere. A reputation well-deserved - with the Keith Moon-meets-Roy Tyner drumming of Moholo, Pukwana's crosscut alto and Feza's shape-shifting pocket trumpet together carrying the standard of 'freedom above all.'\"\n\n\n== Track listing ==\n\"MRA\" (Dudu Pukwana) – 5:02\n\"Davashe's Dream\" (Mackay Davashe) – 7:30\n\"The Bride\" (Dudu Pukwana) – 7:41\n\"Andromeda\" (Chris McGregor) – 4:07\n\"Night Poem\" (Chris McGregor) – 20:46\n\"Union Special\" (Chris McGregor) – 1:42\n\n\n== Personnel ==\nChris McGregor – leader, piano, African xylophone\nDudu Pukwana – alto saxophone\nMike Osborne – alto saxophone, clarinet, flute\nRonnie Beer – tenor saxophone, flute\nAlan Skidmore – tenor saxophone, soprano saxophone\nJohn Surman – baritone saxophone, soprano saxophone\nHarry Beckett – trumpet\nMongezi Feza – trumpet, flute\nMarc Charig – cornet\nMalcolm Griffiths – trombone\nNick Evans – trombone\nHarry Miller – bass\nLouis Moholo – drums, percussion\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "les-stances-a-sophie",
+  "kind": "album",
+  "ours": {
+   "title": "Les Stances à Sophie",
+   "artist": "Art Ensemble of Chicago",
+   "year": 1970,
+   "label": "Pathé",
+   "albumDNA": "The Art Ensemble of Chicago is an avant-garde jazz group that grew out of the Association for the Advancement of Creative Musicians (AACM) in the late 1960s. The ensemble integrates many jazz styles and plays many instruments, including \"little instruments\": bells, bicycle horns, birthday party noisemakers, wind chimes, and various forms of percussion. The musicians would wear costumes and face paint while performing. These characteristics combined to make the ensemble's performances both aural and visual. While playing in Europe in 1969, five hundred instruments were used. Showed the Art Ensemble's range and their ability to work in commercial contexts without compromising. 'Theme de Yoyo' became a rare avant-garde dance floor hit.",
+   "keyTracks": [
+    "Thème de Yoyo",
+    "Thème de Céline",
+    "Variations sur un thème de Monteverdi (i)",
+    "Variations sur un thème de Monteverdi (ii)",
+    "Proverbes (i)",
+    "Thème amour universal"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Art_Ensemble_of_Chicago"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "183e641f-1a83-3fe4-924f-de79fb116d07",
+     "title": "Les Stances à Sophie",
+     "date": "1970",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Art Ensemble of Chicago"
+     ],
+     "labels": [
+      {
+       "name": "Nessa Records",
+       "catalogNumber": "N- 4"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0207ab9d-fe11-3884-8bd2-2aed7731efc9",
+      "title": "Les Stances à Sophie",
+      "firstReleaseDate": "1970",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Soundtrack"
+      ]
+     },
+     "tracks": [
+      "Thème de Yoyo",
+      "Thème de Céline",
+      "Variations sur un thème de Monteverdi (i)",
+      "Variations sur un thème de Monteverdi (ii)",
+      "Proverbes (i)",
+      "Thème amour universal",
+      "Thème Libre",
+      "Proverbes (ii)"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Art_Ensemble_of_Chicago",
+    "page": {
+     "requestedTitle": "Art Ensemble of Chicago",
+     "resolvedTitle": "Art Ensemble of Chicago",
+     "shortDescription": "American avant-garde jazz group",
+     "extract": "The Art Ensemble of Chicago is an avant-garde jazz group that grew out of the Association for the Advancement of Creative Musicians (AACM) in the late 1960s. The ensemble integrates many jazz styles and plays many instruments, including \"little instruments\": bells, bicycle horns, birthday party noisemakers, wind chimes, and various forms of percussion. The musicians would wear costumes and face paint while performing. These characteristics combined to make the ensemble's performances both aural and visual. While playing in Europe in 1969, five hundred instruments were used.\n\n\n== History ==\nMembers of what was to become the Art Ensemble performed together under various band names in the mid-sixties, as members of the Association for the Advancement of Creative Musicians (AACM). They performed on the 1966 album Sound, as the Roscoe Mitchell Sextet. The Sextet included saxophonist Roscoe Mitchell, trumpeter Lester Bowie, and bassist Malachi Favors. For the next year, they played as the Roscoe Mitchell Art Ensemble. In 1967, they were joined by fellow AACM members Joseph Jarman (saxophone) and Phillip Wilson (drums) and recorded for Nessa Records.\nAll of the musicians were multi-instrumentalists. Jarman and Mitchell's primary instruments were alto and tenor saxophone, respectively. Additionally, they both played other saxophones ranging from the small sopranino to the large bass saxophone, as well as the flute and clarinet. In addition to trumpet, Bowie played flugelhorn, cornet, shofar, and conch shells. Favors added touches of banjo and bass guitar. Most of them dabbled in piano, synthesizer, and other keyboards, and they all played percussion instruments.\n\nThey were known for wearing costumes and makeup on stage. Member Joseph Jarman  described part of their style: So what we were doing with that face painting was representing everyone throughout the universe, and that was expressed in the music as well. That's why the music was so interesting. It wasn't limited to Western instruments, African instruments, or Asian instruments, or South American instruments, or anybody's instruments.\nIn 1967, Wilson left the group to join Paul Butterfield's band, and for a period the group was a quartet without a full-time drummer. Jarman and Mitchell served as artistic directors at the cooperative summer camp Circle Pines Center in Delton, Michigan, in August 1968, during the same week that the Democratic Convention was in Chicago.  After a farewell concert at the Unitarian Church in Evanston, Illinois, in fall, 1968, the remaining group traveled to Paris. In Paris, the ensemble was based at the Théâtre du Vieux Colombier.\n In France, they became known as the Art Ensemble of Chicago. The impetus for the name change came from a French promoter who added \"of Chicago\" to their name for descriptive purposes. The new name stuck because band members felt that it better reflected the cooperative nature of the group. In Paris, the ensemble was based at the Théâtre du Vieux Colombier  and they recorded for the Freedom and BYG labels. They also recorded Comme à la radio with Brigitte Fontaine and Areski Belkacem but without a drummer until percussionist Don Moye became a member of the group in 1970. During that year, they recorded the albums Art Ensemble of Chicago with Fontella Bass and Les Stances a Sophie with singer Fontella Bass, who was Lester Bowie's wife. The latter was the soundtrack to the French movie of the same title.\n\n\n=== Fifty years on ===\nLester Bowie died of liver cancer in 1999. Malachi Favors died in 2004 of pancreatic cancer. Joseph Jarman died on January 9, 2019, of respiratory failure.\nAs of 2017-2019 Mitchell and Moye remained active, with new and previous collaborators as guest under the name Art Ensemble of Chicago - 50th Anniversary Large Ensemble. They released an album in 2019:\n\nRoscoe Mitchell – saxophones;\nFamoudou Don Moye – drums, congas and percussion.\nGuests:\n\nBabu Atiba – african drums and djembe\nFred Berry – trumpet, flugelhorn\nSilvia Bolognesi– double bass\nBrett Carson – piano\nJean Cook – violin\nSteed Cowart – conductor\nRodolfo Cordova-Lebron – voice\nDudu Kouaté – African percussion\nyuniya edi kwon – viola/violin\nWilliam Lang - trombone\nNicole Mitchell – flutes\nMoor Mother – spoken word\nErina Newkirk – soprano vocals\nJunius Paul – double bass and objects\nHugh Ragin – trumpet, flugelhorn and piccolo trumpet\nTomeka Reid – cello\nStephen Rush - conductor\nJaribu Shahid – double bass\nAbel Selaocoe – cello\nSimon "
+    }
+   }
+  }
+ },
+ {
+  "id": "liberation-music-orchestra",
+  "kind": "album",
+  "ours": {
+   "title": "Liberation Music Orchestra",
+   "artist": "Charlie Haden",
+   "year": 1970,
+   "label": "Impulse!",
+   "albumDNA": "Bassist Charlie Haden assembled an extraordinary ensemble including Don Cherry, Dewey Redman, and Carla Bley to create politically engaged jazz that drew on Spanish Civil War songs and protest music. Bley's arrangements transform folk melodies into sprawling free jazz odysseys. One of the most powerful political statements in jazz history. Haden's concept of the Liberation Music Orchestra—music as a weapon against injustice—has been revived repeatedly and remains a model for politically committed jazz.",
+   "keyTracks": [
+    "Song for Ché",
+    "El Quinto Regimiento/Los Cuatro Generales",
+    "We Shall Overcome",
+    "Circus '68 '69"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Liberation_Music_Orchestra_(album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "292729eb-ed58-4e15-8a96-b4d944876689",
+     "title": "Liberation Music Orchestra",
+     "date": "1970",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Charlie Haden"
+     ],
+     "labels": [
+      {
+       "name": "impulse!",
+       "catalogNumber": "AS-9183"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "3e342e47-e33e-38cc-8ccd-6d8e17265ddd",
+      "title": "Liberation Music Orchestra",
+      "firstReleaseDate": "1970",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "The Introduction / Song of the United Front",
+      "El quinto regimento (The Fifth Regiment) / Los cuatro generales (The Four Generals) / Viva la quince brigada (Long Live the Fifteenth Brigade)",
+      "The Ending to the First Side",
+      "Song for Chè",
+      "War Orphans",
+      "The Interlude (Drinking Music)",
+      "Circus '68 '69",
+      "We Shall Overcome"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Liberation_Music_Orchestra_(album)",
+    "page": {
+     "requestedTitle": "Liberation Music Orchestra (album)",
+     "resolvedTitle": "Liberation Music Orchestra (album)",
+     "shortDescription": "1970 studio album by Charlie Haden",
+     "extract": "Liberation Music Orchestra is a band and  jazz album by Charlie Haden released in 1970, Haden's first as a band leader.\n\n\n== Background ==\nThe inspiration for the album came when Haden heard songs from the Spanish Civil War.  He included three of those songs on the album (the trilogy \"El Quinto Regimiento\", \"Los Cuatro Generales\", and \"Viva la Quince Brigada\", which are old Spanish folk songs given new words during the war, in that order \"El Vito\", previously adapted by John Coltrane as “Olé\", \"Los Cuatro Muleros\", for which Federico García Lorca also wrote lyrics, and \"Ay Carmela\").\nOther tracks on the album include Ornette Coleman's \"War Orphans\", which Haden had played with Coleman in 1967, three pieces by Carla Bley, who also contributed much of the arranging, two of Haden's own compositions, one dedicated to Che Guevara and one inspired by the 1968 National Convention of the U.S. Democratic Party:\n\n\"After the minority plank on Vietnam was defeated in a vote taken on the convention floor, the California and New York delegations spontaneously began to sing 'We Shall Overcome' [the last track on the album] in protest.  Unable to gain control of the floor, the rostrum instructed the convention orchestra to drown out the singing.  'You're a Grand Old Flag' and 'Happy Days Are Here Again' could then be heard trying to stifle 'We Shall Overcome'.  To me this told the story, in music, of what was happening in our country politically.\" (Charlie Haden, original liner notes)\nIn \"Circus '68 '69\" the musicians are thus divided into two bands in recreation of the events on the convention floor.\nThe Liberation Music Orchestra's next album, The Ballad of the Fallen, didn't appear until 1983.\n\n\n== Critical reception ==\nLester Bangs' Rolling Stone review stated, \"The arrangements by Carla Bley are miracles of dynamics, rising and falling in volume and velocity and the awe-inspiring balance of collective ensembles improvising freely through swellings and contractions of individual voices entering and leaving the mysterious swirling circle of simultaneous songs as diverse as the number of performers yet never lacking in the kind of transporting telepathic unity that makes this multiplicity of musical lines such a far cry from the chaos of the charlatans in other sections of the avant-garde hiding under the mantle of these geniuses. An extremely tight, moving substantial record.\" Robert Christgau was less impressed in The Village Voice, regarding the album as merely \"competent Jazz Composer’s Orchestra style ensemble jazz, full of nice dissonances and not much more\".\n\n\n== Track listing ==\nLP side A:\n\n\"The Introduction\" (Bley) / \"Song of the United Front\" (Bertolt Brecht, Hanns Eisler) – 3:07\n\"El Quinto Regimiento\" (\"The Fifth Regiment\") (Traditional; arranged by Bley)\"Los Cuatro Generales\" (\"The Four Generals\") (Traditional; arranged by Bley)\"Viva la Quince Brigada\" (\"Long Live the Fifteenth Brigade\") (Traditional melody; words by Bart Van Derschelling) – 20:58\n\"The Ending to the First Side\" (Bley) – 2:07\nLP side B:\n\n\"Song for Ché\" (Haden) – 9:29\n\"War Orphans\" (Ornette Coleman) – 6:42\n\"The Interlude (Drinking Music)\" (Bley) – 1:24\n\"Circus '68 '69\" (Haden) – 6:10\n\"We Shall Overcome\" (Zilphia Horton, Frank Hamilton, Guy Carawan, Pete Seeger) 1:19\n\n\n== Personnel ==\nPerry Robinson — clarinet\nGato Barbieri — tenor saxophone, clarinet\nDewey Redman — alto saxophone, tenor saxophone\nDon Cherry — cornet, flute, Indian wood & bamboo flutes (3,5)\nMichael Mantler — trumpet\nRoswell Rudd — trombone\nBob Northern — French horn, hand wood blocks, crow call, bells, military whistle\nHoward Johnson — tuba\nSam Brown — guitar, Tanganyikan guitar, thumb piano\nCarla Bley — piano, tambourine\nCharlie Haden — bass\nPaul Motian — drums, percussion\nAndrew Cyrille — drums, percussion (8)\n\n\n== External links ==\nImpulse! AS-9183, IMP 11882\nMcDonald, Steven, Allmusic.com review.  Accessed 2008 September 24.\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "live-at-the-lighthouse",
+  "kind": "album",
+  "ours": {
+   "title": "Live at the Lighthouse",
+   "artist": "Lee Morgan",
+   "year": 1970,
+   "label": "Blue Note",
+   "albumDNA": "Live at the Lighthouse is a live album by jazz trumpeter Lee Morgan, released on the Blue Note label in 1971. The album features a quintet of Morgan, Bennie Maupin, Harold Mabern, Jymie Merritt, and Mickey Roker, recorded at The Lighthouse in Hermosa Beach, California in July 1970. Originally released as a double LP comprising four side-long recordings, the 1996 CD reissue expanded the track list with over one-hundred minutes of additional material from the Lighthouse gigs. Documents Morgan's evolution beyond soul jazz into more adventurous territory. Tragically, he would be killed two years later.",
+   "keyTracks": [
+    "Absolutions",
+    "The Beehive"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Live_at_the_Lighthouse_(Lee_Morgan_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "e0bb8019-1ad5-4a66-bb8b-a4a28c380d7b",
+     "title": "Live at the Lighthouse",
+     "date": "1971-04",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Lee Morgan"
+     ],
+     "labels": [
+      {
+       "name": "Blue Note",
+       "catalogNumber": "BST 89906"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "f04f5b4c-8afe-318b-b054-1af013c0880e",
+      "title": "Live at the Lighthouse",
+      "firstReleaseDate": "1971-04",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Live"
+      ]
+     },
+     "tracks": [
+      "Absolutions",
+      "The Beehive",
+      "Neophilia",
+      "Nommo"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Live_at_the_Lighthouse_(Lee_Morgan_album)",
+    "page": {
+     "requestedTitle": "Live at the Lighthouse (Lee Morgan album)",
+     "resolvedTitle": "Live at the Lighthouse (Lee Morgan album)",
+     "shortDescription": "1971 live album by Lee Morgan",
+     "extract": "Live at the Lighthouse is a live album by jazz trumpeter Lee Morgan, released on the Blue Note label in 1971. The album features a quintet of Morgan, Bennie Maupin, Harold Mabern, Jymie Merritt, and Mickey Roker, recorded at The Lighthouse in Hermosa Beach, California in July 1970. (Jack DeJohnette replaces Roker on drums on \"Speedball\".) Originally released as a double LP comprising four side-long recordings, the 1996 CD reissue expanded the track list with over one-hundred minutes of additional material from the Lighthouse gigs. In 2021, Blue Note released an 8-CD/12-LP box set featuring the complete recordings of Morgan's three-night stint to commemorate the original album's fiftieth anniversary.\nRecording of the album began on Morgan's 32nd birthday (July 10, 1970). This would be the final album and only live recording released by Morgan during his lifetime; his final album, the studio recording The Last Session, was released in May 1972, after his death in February that year.\n\n\n== Reception ==\nThe AllMusic review by Scott Yanow awarded the album 4.5 stars, stating: \"Stimulating and frequently exciting music from late in Lee Morgan's short life.\"\n\n\n== Track listings ==\nThe original 1971 2-LP release consisted of four sides, one track per side:\n\n\"Absolutions\" (Jymie Merritt) – 19:40\n\"The Beehive\" (Harold Mabern) – 16:23\n\"Neophilia\" (Bennie Maupin) – 19:05\n\"Nommo\" (Jymie Merritt) – 18:00\nThe 1996 3-CD box-set release included 13 bonus tracks, which are also all available as part of the current download package:\n\nIntroduction by Lee Morgan – 2:00\n\"The Beehive\" (Harold Mabern) – 15:17\n\"Absolutions\" (Jymie Merritt) – 22:43\n\"Peyote\" (Bennie Maupin) – 11:23\n\"Speedball\" (Lee Morgan) – 11:54\n\"Nommo\" (Jymie Merritt) – 17:50\n\"Neophilia\" (Bennie Maupin) – 18:59\n\"Something Like This\" (Bennie Maupin) – 13:01\n\"I Remember Britt\" (Harold Mabern) – 14:55\n\"Aon\" (Harold Mabern) – 13:47\n\"Yunjana\" (Bennie Maupin) – 16:07\n\"416 East 10th Street\" (Bennie Maupin) – 12:11\n\"The Sidewinder\" (Lee Morgan) – 13:40\nA 12-LP/8-CD box-set of the entire engagement over the three evenings was released in August 2021.\n\n\n== Personnel ==\nLee Morgan – trumpet, flugelhorn\nBennie Maupin – tenor saxophone, flute, bass clarinet\nHarold Mabern – piano\nJymie Merritt – electric upright bass\nMickey Roker – drums (except on track 5)\nJack DeJohnette – drums (track 5 only)\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "at-fillmore",
+  "kind": "album",
+  "ours": {
+   "title": "Miles Davis at Fillmore",
+   "artist": "Miles Davis",
+   "year": 1970,
+   "label": "Columbia",
+   "albumDNA": "Miles Davis at Fillmore is a 1970 live album by the jazz trumpeter Miles Davis and band, recorded at the Fillmore East, New York City on four consecutive days, June 17 through June 20, 1970, originally released as a double vinyl LP. The performances featured the double keyboard set-up Davis toured with for a few months, with Keith Jarrett and Chick Corea playing electronic organ and Fender Rhodes electric piano, respectively. The group opened for Laura Nyro at these performances. Documented Miles's successful crossover to rock audiences. The band's energy and volume influenced both jazz and rock musicians.",
+   "keyTracks": [
+    "Wednesday Miles",
+    "Thursday Miles",
+    "Friday Miles",
+    "Saturday Miles"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Miles_Davis_at_Fillmore"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "ab0a7ebb-7aa6-4c6a-8179-a6a2d973e812",
+     "title": "Miles Davis at Fillmore",
+     "date": "1970",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Miles Davis"
+     ],
+     "labels": [
+      {
+       "name": "Columbia",
+       "catalogNumber": "G 30038"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "faa7a279-e174-37b6-aeb5-22cc6e16d5a6",
+      "title": "Miles Davis at Fillmore",
+      "firstReleaseDate": "1970",
+      "primaryType": "Album",
+      "secondaryTypes": [
+       "Live"
+      ]
+     },
+     "tracks": [
+      "Wednesday Miles",
+      "Thursday Miles",
+      "Friday Miles",
+      "Saturday Miles"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Miles_Davis_at_Fillmore",
+    "page": {
+     "requestedTitle": "Miles Davis at Fillmore",
+     "resolvedTitle": "Miles Davis at Fillmore",
+     "shortDescription": "1970 live album by Miles Davis",
+     "extract": "Miles Davis at Fillmore is a 1970 live album by the jazz trumpeter Miles Davis and band, recorded at the Fillmore East, New York City on four consecutive days, June 17 through June 20, 1970, originally released as a double vinyl LP. The performances featured the double keyboard set-up Davis toured with for a few months, with Keith Jarrett and Chick Corea playing electronic organ and Fender Rhodes electric piano, respectively. The group opened for Laura Nyro at these performances.\nCompositions include, besides the standard \"I Fall in Love Too Easily\", tracks from his fusion studio albums Bitches Brew and In A Silent Way. The live performances were heavily edited by producer Teo Macero, and the results were named for the day of the week the band performed; only on the 1997 Columbia CD reissue were the compositions and composers identified and indexed. Promotional LP copies divided the sides into short individually titled pieces, but still did not identify the original compositions and composers.\nOn March 25, 2014, the full recordings of the performances were issued as Miles at the Fillmore - Miles Davis 1970: The Bootleg Series Vol. 3.\n\n\n== Release history ==\nMiles Davis at Fillmore was released on vinyl as a double album, with liner notes written by Morgan Ames of High Fidelity, and Mort Goode. It was released on CD in Japan in 1987, but not made available on CD in the States until 1997, when Columbia released it as one of five live albums from the same period (the others being Live-Evil, In Concert: Live at Philharmonic Hall, Dark Magus, and Black Beauty: Live at the Fillmore West). This reissue featured additional liner notes by drummer Jack DeJohnette. Columbia aimed the release for the jazz market but also for college and alternative radio stations.\nMarguerite Eskridge, Davis' girlfriend at the time, appeared in the album cover's photo collage.\n\n\n== Critical reception ==\n\nIn Christgau's Record Guide: Rock Albums of the Seventies (1981), Robert Christgau found Miles Davis at Fillmore to be less focused than Bitches Brew because the music meandered \"unforgivably\", particularly Chick Corea and Keith Jarrett's keyboard playing on \"Wednesday\". He said the tracks should have been edited down together to highlight the \"treasures\" they each offer, including \"the cool atmospherics that lead off Wednesday, the hard bop in extremis toward the end of Thursday, the way Miles blows sharply lyrical over Jack DeJohnette's rock march and Airto Moreira's jungle sci-fi for the last few minutes of Friday, all the activity surrounding Steve Grossman's solo on Saturday\". In The Rolling Stone Album Guide (2004), J. D. Considine said At Fillmore had  \"a frenzied, clangorous approach\", less lyrical than the contemporaneous Black Beauty (which was released a few years later).\n\n\n== Track listing ==\n\n\n=== 1970 double LP ===\nColumbia – G 30038, C 30241, C 30242:\n\n\n=== 1997 CD Reissue ===\nColumbia – C2K 65139:\n\n\n== Personnel ==\nMusicians\n\nMiles Davis – trumpet with Harmon mute\nSteve Grossman – tenor saxophone, soprano saxophone\nChick Corea – Fender Rhodes electric piano with delay/fuzz pedals and ring modulator\nKeith Jarrett – Fender Contempo Organ with delay/fuzz pedals + tambourine\nDave Holland – acoustic and electric bass guitar with wah-wah pedal\nJack DeJohnette – drums\nAirto Moreira – cuica, transverse flute, whistle, kazoo, shakers, bells, woodblock, tambourine\nProduction\n\nTeo Macero – producer\nStan Tonkel – recording engineer\nRuss Payne – mixing engineer\nNick Fasciano – original cover design\nJim Marshall – cover photography\nDon Hunstein – original liner photography\n\n\n== See also ==\nBlack Beauty: Miles Davis at Fillmore West\nMiles Davis discography\n\n\n== References ==\n\n\n== Bibliography ==\nChristgau, Robert (October 13, 1981). Christgau's Record Guide: Rock Albums of the Seventies. Ticknor & Fields. ISBN 0899190251.\nConsidine, J. D.; et al. (November 2, 2004). Brackett, Nathan; Hoard, Christian (eds.). The New Rolling Stone Album Guide: Completely Revised and Updated 4th Edition. Simon & Schuster. ISBN 0-7432-0169-8.\n\n\n== External links ==\nMiles Davis at Fillmore at Discogs (list of releases)\n\"Miles Davis's '70s: The Excitement! The Terror!\" by Robert Christgau"
+    }
+   }
+  }
+ },
+ {
+  "id": "ptah-the-el-daoud",
+  "kind": "album",
+  "ours": {
+   "title": "Ptah, the El Daoud",
+   "artist": "Alice Coltrane",
+   "year": 1970,
+   "label": "Impulse!",
+   "albumDNA": "Ptah, the El Daoud is the third solo album by American jazz pianist and harpist Alice Coltrane, released on Impulse! Records in September 1970. The album was recorded in the basement of her home in Dix Hills, New York, in a session on January 26, 1970. Showed Alice developing her own compositional voice. The combination of two contrasting tenor saxophonists creates a unique sound.",
+   "keyTracks": [
+    "Ptah, the El Daoud",
+    "Turiya & Ramakrishna",
+    "Blue Nile",
+    "Mantra"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Ptah%2C_the_El_Daoud"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "2680af96-0043-404b-8502-565194d55fed",
+     "title": "Ptah, the El Daoud",
+     "date": "1970-07",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Alice Coltrane"
+     ],
+     "labels": [
+      {
+       "name": "impulse!",
+       "catalogNumber": "AS-9196"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "fff2cc9b-1747-321d-8dff-6addb7c3ce96",
+      "title": "Ptah, the El Daoud",
+      "firstReleaseDate": "1970-07",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Ptah, the El Daoud",
+      "Turiya and Ramakrishna",
+      "Blue Nile",
+      "Mantra"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Ptah%2C_the_El_Daoud",
+    "page": {
+     "requestedTitle": "Ptah, the El Daoud",
+     "resolvedTitle": "Ptah, the El Daoud",
+     "shortDescription": "1970 studio album by Alice Coltrane",
+     "extract": "Ptah, the El Daoud is the third solo album by American jazz pianist and harpist Alice Coltrane, released on Impulse! Records in September 1970. The album was recorded in the basement of her home in Dix Hills, New York, in a session on January 26, 1970.\nWhile Pharoah Sanders had played bass clarinet on one track on 1968's A Monastic Trio, this was Coltrane's first album to feature wind players more extensively, with Sanders and Joe Henderson playing tenor saxophone on two tracks and alto flute on \"Blue Nile\" (on which Coltrane also switches from piano to harp). Sanders is recorded on the right channel and Henderson on the left channel throughout. Coltrane noted that \"Joe Henderson is more on the intellectual side, while Pharoah is more abstract, more transcendental.\"\nAll of the compositions were written by Coltrane. The title track is named the Egyptian god Ptah, \"El Daoud\" meaning \"the beloved\" in Arabic. Turiya was defined by Coltrane as \"a state of consciousness — the high state of Nirvana, the goal of human life\", while Ramakrishna was a 19th-century Bengali Hindu mystic; the name also denotes a movement founded by his disciples.\nJim Evans designed the album's artwork.\n\n\n== Reception ==\n\nIn a review for AllMusic, Stacia Proefrock called Ptah, the El Daoud \"a truly great album\", writing: \"listeners who surrender themselves to it emerge on the other side of its 46 minutes transformed. From the purifying catharsis of the first moments of the title track to the last moments of 'Mantra,' with its disjointed piano dance and passionate ribbons of tenor cast out into the universe, the album resonates with beauty, clarity, and emotion... Overlooked and buried for years in obscurity, this album deserves to be embraced for the gem it is.\" Mark Richardson of Pitchfork commented: \"Coltrane is tremendously versatile on this record, at some points hunkering down in gauzy mysticism while elsewhere concentrating on logical, disciplined soloing. Echoes of her grounding in post-bop jazz are still present, though less so than on her 1968 debut A Monastic Trio.\" He described the track \"Turiya and Ramakrishna\" as featuring \"some of [Coltrane's] greatest piano playing on record\".\nMatt Micucci of JazzIz included the album in his list \"Five Essential Albums of 1970\", calling it \"the culmination of [Coltrane's] 'first period,' marked by music reminiscent of her collaborations with her late husband John and her explorations of the concert harp as an improvising vehicle.\" In a retrospective review for the album's fiftieth anniversary, Morgan Enos called it \"otherworldly yet drenched in the blues\", and stated that it \"contains abundant hypnotic power and emotional import\". His article also contained tributes from a number of musicians, including ESP-Disk manager and producer Steve Holtje, who noted: \"I have a certain fondness of placing this album in the lineage of DIY recording... It's a Black female artist taking control of her music\"; and Melvin Gibbs, who commented: \"It's homey. It has that Sunday-afternoon-after-church vibe... it feels like your relatives were playing for you. That's evocative for me\". Regarding the fact that the album was recorded during a period of grief following the death of John Coltrane, pianist Cat Toren noted: \"She had four young kids, and she had lost the love of her life. I think that's huge. It speaks to her power as a woman, to go forth no matter the adversity of what else is going on in her life. I would be interested to know her support network and how she was able to produce this incredible work under such challenging conditions.\"\nThe authors of the Penguin Guide to Jazz gave the album three out of four stars, writing: \"Ptah is the highest avatar of God in Egyptian religion, and the title-piece is a rippling essay in transcendence, the paired horns coming from quite different directions... Their doubling on alto flute on 'Blue Nile' is magnificent, a perfect complement to piano and harp.\"\n\n\n== Track listing ==\nAll music is composed by Alice Coltrane.\n\n\"Ptah, the El Daoud\" – 13:58\n\"Turiya and Ramakrishna\" – 8:19\n\"Blue Nile\" – 6:58\n\"Mantra\" – 16:33\n\n\n== Personnel ==\nAlice Coltrane – piano (1, 2, 4), harp (3)\nPharoah Sanders – tenor saxophone (1, 4), alto flute (3), bells\nJoe Henderson – tenor saxophone (1, 4), alto flute (3)\nRon Carter – double bass\nBen Riley – drums\n\n\n== References ==\n\n\n== External links ==\nPtah, the El Daoud at Alice Coltrane website album page"
+    }
+   }
+  }
+ },
+ {
+  "id": "red-clay",
+  "kind": "album",
+  "ours": {
+   "title": "Red Clay",
+   "artist": "Freddie Hubbard",
+   "year": 1970,
+   "label": "CTI",
+   "albumDNA": "Red Clay is an album recorded in 1970 by jazz trumpeter Freddie Hubbard. It was his first album on Creed Taylor's CTI label and marked a shift toward the soul-jazz fusion sounds that would dominate his recordings in the later part of the decade. It entered at number 20 on Billboard’s Top 20 Best Selling Jazz LPs, on June 20, 1970. Bridged hard bop and fusion without losing artistic credibility. CTI's lush production was influential.",
+   "keyTracks": [
+    "Red Clay",
+    "Delphia",
+    "Suite Sioux",
+    "The Intrepid Fox"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Red_Clay"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "4db6cbfc-a5c7-476b-a146-b1ec30c64107",
+     "title": "Red Clay",
+     "date": "1970",
+     "country": "JP",
+     "status": "Official",
+     "artists": [
+      "Freddie Hubbard"
+     ],
+     "labels": [
+      {
+       "name": "CTI",
+       "catalogNumber": "SR 3303"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "2c39394e-b9e4-352b-b339-8e61df67479e",
+      "title": "Red Clay",
+      "firstReleaseDate": "1970",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Red Clay",
+      "Delphia",
+      "Suite Sioux",
+      "The Intrepid Fox"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Red_Clay",
+    "page": {
+     "requestedTitle": "Red Clay",
+     "resolvedTitle": "Red Clay",
+     "shortDescription": "1970 studio album by Freddie Hubbard",
+     "extract": "Red Clay is an album recorded in 1970 by jazz trumpeter Freddie Hubbard. It was his first album on Creed Taylor's CTI label and marked a shift toward the soul-jazz fusion sounds that would dominate his recordings in the later part of the decade. It entered at number 20 on Billboard’s Top 20 Best Selling Jazz LPs, on June 20, 1970.\n\n\n== Reception ==\n\nBill Milkowski of JazzTimes commented: \"...Red Clay, an album that would not only define Hubbard's direction over the next decade while setting the template for all future CTI recordings, but would also have a dramatic impact on a generation of trumpet players coming up in the ’70s. ’Red Clay’ would become Hubbard's signature tune throughout his career.\" Thom Jurek of AllMusic stated: \"This may be Freddie Hubbard's finest moment as a leader, in that it embodies and utilizes all of his strengths as a composer, soloist, and frontman. On Red Clay, Hubbard combines hard bop's glorious blues-out past with the soulful innovations of mainstream jazz in the 1960s, and reads them through the chunky groove innovations of '70s jazz fusion... This is a classic, hands down.\" Tom Moon, in 1,000 Recordings to Hear Before You Die, wrote that \"Red Clay is one of those records that mucks up the neat evolution narrative of jazz.\"\n\n\n== Track listing ==\nAll compositions by Freddie Hubbard except where noted\n\n\"Red Clay\" – 12:11\n\"Delphia\" – 7:23\n\"Suite Sioux\" – 8:38\n\"The Intrepid Fox\" – 10:45\n\"Cold Turkey\" (John Lennon) – 10:27 (recorded at original session; not released until CD issue)\n\"Red Clay\" [Live] – 18:44 Bonus track on the 2001 and 2010 CD releases\nRecorded at Van Gelder Studio, Englewood Cliffs, New Jersey, January 27–29, 1970 except track 6 recorded live at the Southgate Palace in Los Angeles on July 19, 1971.\n\n\n== Personnel ==\nFreddie Hubbard – trumpet\nJoe Henderson – tenor saxophone, flute (tracks 1–5)\nHerbie Hancock – electric piano, Hammond organ (tracks 1–5)\nRon Carter – bass\nLenny White – drums (tracks 1–5)\n\n\n=== Track 6 additional personnel ===\nStanley Turrentine – tenor saxophone\nJohnny \"Hammond\" Smith – electric piano\nGeorge Benson – guitar\nBilly Cobham – drums\nAirto Moreira – percussion\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "superimposition",
+  "kind": "album",
+  "ours": {
+   "title": "Superimposition",
+   "artist": "Eddie Palmieri",
+   "year": 1970,
+   "label": "Tico",
+   "albumDNA": "Superimposition is the twelfth studio album by American pianist Eddie Palmieri. It was released by Tico Records in 1970. The album combines modern salsa renditions of Cuban standards on side A with experimental descargas on side B. Since its release, the album has been praised by critics such as John Storm Roberts for its innovative approach.",
+   "keyTracks": [
+    "La malanga",
+    "Pa' huele",
+    "Bilongo",
+    "Que lindo eso, eh! / Isn't It Pretty",
+    "Cholocate Ice Cream"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Superimposition_(album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "e30f02db-4bdb-4fef-9e09-d5f95a448346",
+     "title": "Superimposition",
+     "date": "2006-09-26",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Eddie Palmieri"
+     ],
+     "labels": [
+      {
+       "name": "Fania",
+       "catalogNumber": null
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "11087ccc-b06f-35ea-b64b-2713e6cb8ae3",
+      "title": "Superimposition",
+      "firstReleaseDate": "1970",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Se acabo la malanga",
+      "Pa' huele",
+      "Bilongo",
+      "Que lindo eso, eh! / Isn't It Pretty",
+      "Cholocate Ice Cream",
+      "17.1"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Superimposition_(album)",
+    "page": {
+     "requestedTitle": "Superimposition (album)",
+     "resolvedTitle": "Superimposition (album)",
+     "shortDescription": "1970 studio album by Eddie Palmieri",
+     "extract": "Superimposition is the twelfth studio album by American pianist Eddie Palmieri. It was released by Tico Records in 1970. The album combines modern salsa renditions of Cuban standards on side A with experimental descargas (jam sessions) on side B. Since its release, the album has been praised by critics such as John Storm Roberts for its innovative approach.\n\n\n== Background and recording ==\nThroughout the 1960s, pianist Eddie Palmieri played an important role in the development of salsa with his conjunto La Perfecta. La Perfecta was one of the first Latin ensembles to feature multiple trombones, one of salsa's distinctive characteristics. The band's repertoire was inspired by Cuban and Puerto Rican dance-oriented styles such as guaracha, son, pachanga and bomba. In 1968, Palmieri disbanded La Perfecta in order to seek a more experimental approach incorporating funk and soul elements into his music. Palmieri and his new ensemble (still similar to La Perfecta, with Barry Rogers being replaced by Lewis Kahn) recorded a series of four albums for Tico that have been said to contain his \"best sounding\" work. These four albums were Champagne (1968), Justicia (1969), Superimposition (1970) and Vámonos pa'l monte (1971).\nDespite his experimental approach, most of his recordings remained largely based on the basic structures of son montuno, as exemplified by \"(Se acabó) la malanga\" and \"(Dame un cachito) pa' huele\" on Superimposition. The former was written by Rudy Calzado specifically for this album, whereas the latter is an Arsenio Rodríguez composition from 1946. A rendition of Guillermo Rodríguez Fiffe's \"Bilongo\" (a guaracha written in 1937) closes side A, and is considered together with \"La malanga\" as one of the \"most representative [tracks] of the hard-core Palmieri salsa style\". In addition, \"Bilongo\" has been described as \"one of the most important salsa-era recordings to feature the soloing of Armenteros\".\nThe recordings present in side B are instrumental descargas (Latin jam sessions). Particularly important is the presence of Alfredo \"Chocolate\" Armenteros, who had also taken part in the recording of 1950s descarga sessions with artists such as Tojo and Chico O'Farrill's All-Stars Cubano. Unlike older descargas, Palmieri combines modal phrases and montuno patterns, and adds \"harmonically advanced chord voicings, substitutions and alterations\" to his guajeos. The title of the last track on the album, \"17.1\", corresponds to the average age of the percussion section.\nFania Records (owner of the Tico Records catalogue) re-issued the album on CD in 2006.\n\n\n== Reception ==\n\nJohn Storm Roberts wrote a laudatory review in which he praised Palmieri's improvisatory and innovative style, particularly the way in which he \"mixes offbeat montunos with unconventional chords, expressionism, and straight jazz, in blends different from any other jazz or Latin pianist\". AllMusic awarded the album 4.5 starts out of 5.\nThe album's artwork by Ely Besalel has been described as a \"layered, abstract collage work\" and has received positive reviews.\n\n\n== Track listing ==\n\n\n== Personnel ==\nAccording to original album sleeve.\n\nEddie Palmieri & His Orchestra\nEddie Palmieri – piano\nIsmael Quintana – vocals\nArturo Campa – chorus\nJusto Betancourt – chorus\nElliot Romero – chorus\nJosé Rodrigues – trombone\nLewis Kahn – trombone\nAlfredo \"Chocolate\" Armenteros – trumpet\nNicky Marrero – timbales\nEladio Pérez – conga drums\nTommy \"Choki\" López – bongo drums\nManny Oquendo – timbales, bongo drums (invited guest)\nRoberto Franquiz – bell\nRudy Calzado – percussion\nTechnical\nMiguel Estivill – producer, coordinator\nFred Weinberg – engineer\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "the-diverse-yusef-lateef",
+  "kind": "album",
+  "ours": {
+   "title": "The Diverse Yusef Lateef",
+   "artist": "Yusef Lateef",
+   "year": 1970,
+   "label": "Atlantic",
+   "albumDNA": "The Diverse Yusef Lateef is a jazz album by saxophonist Yusef Lateef released in 1970. In it are mixed influences from rhythm and blues and soul music and world music.",
+   "keyTracks": [
+    "Live Humble",
+    "A Long Time Ago",
+    "Eboness",
+    "Chandra"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Diverse_Yusef_Lateef"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "84576858-75f3-41e0-b437-7f73d6b4f9d2",
+     "title": "The Diverse Yusef Lateef",
+     "date": "1970",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Yusef Lateef"
+     ],
+     "labels": [
+      {
+       "name": "Atlantic",
+       "catalogNumber": "SD 1548"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "101aaa76-b8a9-4149-be0e-94bd5b642ec4",
+      "title": "The Diverse Yusef Lateef",
+      "firstReleaseDate": "1970",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Live Humble",
+      "A Long Time Ago",
+      "Eboness",
+      "Chandra"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/The_Diverse_Yusef_Lateef",
+    "page": {
+     "requestedTitle": "The Diverse Yusef Lateef",
+     "resolvedTitle": "The Diverse Yusef Lateef",
+     "shortDescription": "1970 studio album by Yusef Lateef",
+     "extract": "The Diverse Yusef Lateef is a jazz album by saxophonist Yusef Lateef released in 1970. In it are mixed influences from rhythm and blues and soul music (particularly on \"Live Humble\") and world music (notably on \"A Long Time Ago\" or \"Chandra\").\n\n\n== Track listing ==\nAll compositions by Yusef Lateef except as indicated.\n\n\"Live Humble\" – 6:48\n\"A Long Time Ago\" – 6:37\n\"Eboness\" (Roy Brooks) – 4:44\n\"Chandra\" – 9:37\n\n\n== Personnel ==\nYusef Lateef – tenor saxophone, track 1 - flute, 2–4 - bamboo flute, Chinese globular flute, Chinese Buddhist flute, kulintang, -track 2 Chinese cymbals, tambura, string arrangement\nRichard Tee – piano - track 1\nChuck Rainey – Fender bass\nCecil McBee – acoustic bass\nRay Baretto – congas - track 1\nBernard Purdie – drums, timbales\nHugh Lawson – piano, 3 and 4 Indian bells - track 2\nRoy Brooks – drums, shofar, Chinese gong, large conga drum\nSelwart Clarke, Jesse Tryon, Alfred Brown, Kermit Moore – string quartet - track 4\nThe Sweet Inspirations – vocal backgrounds - tracks 1 and 2\nJoel Dorn – producer\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "the-leon-thomas-album",
+  "kind": "album",
+  "ours": {
+   "title": "The Leon Thomas Album",
+   "artist": "Leon Thomas",
+   "year": 1970,
+   "label": "Flying Dutchman",
+   "albumDNA": "The Leon Thomas Album is the second album by American jazz vocalist and percussionist Leon Thomas recorded in 1970 and released by the Flying Dutchman label. A free jazz entry from 1970 by Leon Thomas, documenting the breadth of the free jazz period.",
+   "keyTracks": [
+    "Come Along",
+    "I Am",
+    "Bag's Groove",
+    "Um, Um, Um",
+    "Pharoah's Tune (the Journey)"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "25708b9f-7710-4faf-83f4-c3cb9d4c7ecb",
+     "title": "The Leon Thomas Album",
+     "date": "1970",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "Leon Thomas"
+     ],
+     "labels": [
+      {
+       "name": "Flying Dutchman",
+       "catalogNumber": "FDS-132"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "0857417d-4a92-435b-9fa7-b546976dd00d",
+      "title": "The Leon Thomas Album",
+      "firstReleaseDate": "1970",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Come Along",
+      "I Am",
+      "Bag's Groove",
+      "Um, Um, Um",
+      "Pharoah's Tune (the Journey)"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ },
+ {
+  "id": "transition",
+  "kind": "album",
+  "ours": {
+   "title": "Transition",
+   "artist": "John Coltrane",
+   "year": 1970,
+   "label": "impulse!",
+   "albumDNA": "Transition is an album of music by jazz saxophonist John Coltrane, recorded in 1965 but released posthumously only in 1970. As its title indicates, Transition was a bridge between classic quartet recordings like A Love Supreme and the more experimental works of Coltrane's last years.",
+   "keyTracks": [
+    "Transition",
+    "Dear Lord",
+    "Suite: Prayer and Meditation: Day / Peace and After / Prayer and Meditation: Evening / Affirmation / Prayer and Meditation: 4 A.M."
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Transition_(John_Coltrane_album)"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "embedded_mbid",
+    "topArtistSimilarity": null,
+    "release": {
+     "mbid": "d5076d7c-5425-439a-82de-df9c7a0f6f9b",
+     "title": "Transition",
+     "date": "1970-07",
+     "country": "US",
+     "status": "Official",
+     "artists": [
+      "John Coltrane"
+     ],
+     "labels": [
+      {
+       "name": "impulse!",
+       "catalogNumber": "AS-9195"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "11d5b547-502d-3431-8671-6777b65e7cc3",
+      "title": "Transition",
+      "firstReleaseDate": "1970-07",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Transition",
+      "Dear Lord",
+      "Suite: Prayer and Meditation: Day / Peace and After / Prayer and Meditation: Evening / Affirmation / Prayer and Meditation: 4 A.M."
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Transition_(John_Coltrane_album)",
+    "page": {
+     "requestedTitle": "Transition (John Coltrane album)",
+     "resolvedTitle": "Transition (John Coltrane album)",
+     "shortDescription": "1970 studio album by John Coltrane",
+     "extract": "Transition is an album of music by jazz saxophonist John Coltrane, recorded in 1965 but released posthumously only in 1970. As its title indicates, Transition was a bridge between classic quartet recordings like A Love Supreme and the more experimental works of Coltrane's last years.\nColtrane's playing alternates between blues idioms and the free jazz that would dominate his final work. Of the four musicians on this album, pianist McCoy Tyner was still the most grounded in traditional jazz. Bassist Jimmy Garrison and drummer Elvin Jones were finding new ways to approach their instruments, while Coltrane took the lead with a newfound musical freedom.\nTransition's title track is a fifteen-minute modified blues, whilst \"Dear Lord\" is a ballad featuring Roy Haynes substituting for Jones on drums. \"Welcome,\" which replaces \"Dear Lord\" on the album's compact disc release, is a five-minute ballad with a theme pitched high in the tenor saxophone's altissimo register and making extensive use of multiphonics. The closing \"Suite\" is a twenty-minute performance, covering a variety of moods. \"Vigil\", which concludes the CD release of the album, is a fiery duet between Coltrane and Jones.\nThree months after this recording, Coltrane's quartet moved further into experimental territory with the album Sun Ship.\n\n\n== Reissues ==\nThe Impulse! label altered the album's track listing on the first CD edition, removing \"Dear Lord\" and adding \"Welcome\" and \"Vigil\" (both of which had previously appeared on Kulu Sé Mama). However, the 2001 Japanese edition restored the original track listing. \"Dear Lord\" would later appear on the compilation Dear Old Stockholm.\n\n\n== Reception ==\n\nIn his AllMusic review, Fred Thomas awarded the album four stars and wrote: \"Transition acts as a neat perforation mark between Coltrane's classic quartet and the cosmic explorations that would follow until Trane's passing in 1967... Spiritually reaching and burningly intense, the quartet is playing at full steam, but still shy of the total free exploration that would follow mere months later on records like Sun Ship and the mystical atonal darkness that came in the fall of that same year with Om.\"\nThe authors of The Penguin Guide to Jazz Recordings commented: \"Coltrane is plunging into something new, and leaving behind some of the ideas and some of the people who have gone this far on the journey with him... there is an endless quality to the music, a sense that there is no final destination.\"\n\n\n== Other versions of tunes ==\nThe tune \"Transition\" appears on the album Directions in Music: Live at Massey Hall by Herbie Hancock, Michael Brecker, and Roy Hargrove. \"Dear Lord\" was recorded by Gary Bartz on the album Coltrane Rules: Tao Music Warrior. A version of \"Welcome\" appears on the 1973 Santana album titled Welcome.\n\n\n== Track listing ==\n\"Transition\" – 15:31\n\"Dear Lord\" – 5:32\n\"Suite\" (Prayer and Meditation: Day, Peace and After, Prayer and Meditation: Evening, Affirmation, Prayer and Meditation: 4 A.M.) – 21:20\nRecorded on May 26 (#2) and June 10 (#1, 3), 1965.\n\"Dear Lord\" would be moved to the CD issue of Dear Old Stockholm with the rest of the sessions from that LP.\n\n\n=== 1993 CD ===\n\"Transition\" – 15:31\n\"Welcome\" – 5:34\n\"Suite\" (Prayer and Meditation: Day, Peace and After, Prayer and Meditation: Evening, Affirmation, Prayer and Meditation: 4 A.M.) – 21:20\n\"Vigil\" – 9:51\nCD track 2 and 4 not part of original LP.\n\n\n== Personnel ==\nJohn Coltrane – tenor saxophone\nMcCoy Tyner – piano\nJimmy Garrison – double bass\nElvin Jones – drums\n\n\n== References =="
+    }
+   }
+  }
+ },
+ {
+  "id": "escalator-over-the-hill",
+  "kind": "album",
+  "ours": {
+   "title": "Escalator over the Hill",
+   "artist": "Carla Bley",
+   "year": 1971,
+   "label": "JCOA",
+   "albumDNA": "Escalator over the Hill is mostly referred to as a jazz opera, but it was released as a \"chronotransduction\", with \"words by Paul Haines, adaptation and music by Carla Bley, production and coordination by Michael Mantler\", performed by the Jazz Composer's Orchestra. The most ambitious jazz composition of its era. Bley's vision created a work that remains unmatched in scope and eclecticism.",
+   "keyTracks": [
+    "Hotel Overture",
+    "This is Here",
+    "Like Animals",
+    "Escalator Over the Hill",
+    "Stay Awake",
+    "Ginger and David"
+   ],
+   "wikipediaUrl": "https://en.wikipedia.org/wiki/Escalator_over_the_Hill"
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 1.0,
+    "release": {
+     "mbid": "1eb54676-e618-412e-a148-73571f3a60c4",
+     "title": "Escalator Over the Hill",
+     "date": "1971",
+     "country": "DE",
+     "status": "Official",
+     "artists": [
+      "Carla Bley",
+      "Paul Haines"
+     ],
+     "labels": [
+      {
+       "name": "JCOA Records",
+       "catalogNumber": "JCOA 3LP-EOTH"
+      },
+      {
+       "name": "JCOA Records",
+       "catalogNumber": "JCOA-3LP-EOTH"
+      }
+     ],
+     "releaseGroup": {
+      "mbid": "9ead7ee2-e0ed-3b2e-94e9-09b379102b84",
+      "title": "Escalator Over the Hill",
+      "firstReleaseDate": "1971",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     "tracks": [
+      "Hotel Overture",
+      "... This Is Here",
+      "Like Animals",
+      "Escalator Over the Hill",
+      "Stay Awake",
+      "Ginger and David",
+      "Song to Anything That Moves",
+      "EOTH Theme",
+      "Businessmen",
+      "Ginger and David Theme",
+      "Why",
+      "It’s Not What You Do",
+      "Detective Writer Daughter",
+      "Doctor Why",
+      "Slow Dance (Transductory Music)",
+      "Smalltown Agonist",
+      "End of Head",
+      "Over Her Head",
+      "Little Pony Soldier",
+      "Oh Say Can You Do?",
+      "Holiday in Risk",
+      "Holiday in Risk Theme",
+      "A.I.R. (All India Radio)",
+      "Rawalpindi Blues",
+      "End of Rawalpindi",
+      "End of Animals",
+      "... And It’s Again"
+     ]
+    }
+   },
+   "wikipedia": {
+    "resolution": "stored_url",
+    "storedUrl": "https://en.wikipedia.org/wiki/Escalator_over_the_Hill",
+    "page": {
+     "requestedTitle": "Escalator over the Hill",
+     "resolvedTitle": "Escalator over the Hill",
+     "shortDescription": "1971 studio album by Carla Bley and Paul Haines",
+     "extract": "Escalator over the Hill (or EOTH) is mostly referred to as a jazz opera, but it was released as a \"chronotransduction\", with \"words by Paul Haines, adaptation and music by Carla Bley, production and coordination by Michael Mantler\", performed by the Jazz Composer's Orchestra.\n\n\n== History ==\nEscalator over the Hill is more than an hour and a half long and was recorded over three years (1968 to 1971). It was originally released as a triple LP box which also contained a booklet with lyrics, photos and profiles of the musicians. Side six of the original LPs ended in a locked groove, the final track \"...And It's Again\" continuing infinitely on manual record players. (For the CD reissue, the hum is allowed to play for 18 minutes before slowly fading out.)\nIn 1997, a live version of Escalator over the Hill, re-orchestrated by Jeff Friedman, was performed for the first time in Cologne, Germany. In 1998, \"Escalator\" toured Europe. Another live performance took place in May 2006 in Essen, Germany.\nThe musicians involved in the original recording play in various combinations, covering a wide range of musical genres, from Kurt Weill's theater music, to free jazz, rock and Indian music. Writer Stuart Broomer considers this to be a summing up \"much of the creative energy that was loose between 1968 and 1972\".\nViva acts as narrator. Jack Bruce also appears on bass and vocals. Among the vocalists is an early career Linda Ronstadt, in addition to Jeanne Lee, Paul Jones, Carla Bley, Don Preston, Sheila Jordan, and Bley's and Mantler's then-4-year-old daughter Karen Mantler.\n\n\n== Reception ==\nJonathon Cott's Rolling Stone article stated: \"Like an electric transformer, Escalator Over the Hill synthesizes and draws on an enormous range of musical materials – raga, jazz, rock, ring modulated piano sounds, all brought together through Carla Bley's extraordinary formal sense and ability to unify individual but diverse musical sections by means of the editing of the record medium... The opera is an international musical encounter of the first order.\"\nMarcello Carlin, writing for Stylus Magazine, considers the album to be \"the greatest record ever made.\" He said: \"No protest, no social commentary. No expression of love, of grief, of hope, of despair. It is literally whatever you want to make of it. It is devoid of every quality which you might assume would qualify it to be the greatest of all records. And yet it is that tabula rasa in its heart, the blank space which may well exist at the very heart of all music, revealing the hard truth that we have to fill in the blanks, we have to interpret what is being played and sung, and our interpretation is the only one which can possibly be valid, as we cannot discern any perspective other than our own.\"\n\n\n== Track listing ==\n\nThe CD release has sides one to three on CD 1, and sides four to six on CD 2.\n\"... And It's Again\" runs for 27:17 on the CD release, with the locked groove at the end of the original LP playing for 18 minutes. This is followed by a hidden track (starting at 27:02) consisting of calliope music and Bill Leonard saying “Oh say can you do?”, followed by faint laughter.\n\n\n== Personnel ==\n\n\n=== Principal cast ===\nJack, Parrot: Jack Bruce\nLeader, Mutant, Voice, Desert Women: Carla Bley\nSand Shepherd: Don Cherry\nGinger: Linda Ronstadt\nGinger II: Jeanne Lee\nDavid: Paul Jones\nDoctor, Lion: Don Preston\nViva: Viva\nCecil Clark: Tod Papageorge\nHis Friends: Charlie Haden, Steve Ferguson\nCalliope Bill: Bill Leonard\nRoomer: Bob Stewart\nAncient Roomer: Karen Mantler\nLoudspeaker: Roswell Rudd\nUsed Woman: Sheila Jordan\nOperasinger: Rosalind Hupp\nNurse: Jane Blackstone\nYodelling Ventriloquist: Howard Johnson\nTherapist: Timothy Marquand\nDad: Perry Robinson\nPhantoms, Multiple Public Members, Hotelpeople, Women, Men, Flies, Bullfrogs, Mindsweepers, Speakers, Blindman:\n\n\n=== Musicians (alphabetical) ===\nGato Barbieri – tenor saxophone\nSouren Baronian – clarinet\nKarl Berger – vibraphone\nCarla Bley – organ, celeste, chimes, calliope, piano\nSam Brown – guitar\nJack Bruce – bass, vocal\nJohn Buckingham – tuba\nSam Burtis – trombone\nBob Carlisle – French horn\nDon Cherry – trumpet\nRoger Dawson – congas, xylophone\nSharon Freeman – French horn\nCharlie Haden – bass\nPeggy Imig – clarinet\nJack Jeffers – bass trombone\nLeroy Jenkins – violin\nHoward Johnson – tuba\nSheila Jordan – vocal\nJimmy Knepper – trombone\nJeanne Lee – vocal\nJimmy Lyons – alto saxophone\nMichael Mantler – prepared piano, trumpet, valve trombone\nRo"
+    }
+   }
+  }
+ },
+ {
+  "id": "harlem-bush-music-taifa",
+  "kind": "album",
+  "ours": {
+   "title": "Harlem Bush Music: Taifa",
+   "artist": "Gary Bartz",
+   "year": 1971,
+   "label": "Milestone",
+   "albumDNA": "Bartz's NTU Troop delivers one of the most powerful spiritual jazz statements of the early 1970s. The album channels African rhythms, free improvisation, and Black consciousness into a urgent, uncompromising whole that pulses with communal energy. A landmark of politically engaged spiritual jazz that captured the cultural ferment of early-70s Harlem. Bartz's alto saxophone work here ranks among the most passionate of the era.",
+   "keyTracks": [
+    "Taifa",
+    "Rise",
+    "Celestial Blues",
+    "Uhuru Sasa"
+   ],
+   "wikipediaUrl": null
+  },
+  "evidence": {
+   "musicbrainz": {
+    "method": "search",
+    "topArtistSimilarity": 0.67,
+    "release": null,
+    "searchCandidates": [
+     {
+      "mbid": "2c6c3f85-3ba5-478b-9ae0-788266fb2e38",
+      "title": "Harlem Bush Music: Taifa",
+      "score": 100,
+      "artists": [
+       "Gary Bartz NTU Troop"
+      ],
+      "firstReleaseDate": "1971",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     },
+     {
+      "mbid": "4d5eaf13-c82b-3bb3-addc-f2816aad0050",
+      "title": "Harlem Bush Music: Taifa & Uhuru",
+      "score": 98,
+      "artists": [
+       "Gary Bartz"
+      ],
+      "firstReleaseDate": "2008-09-24",
+      "primaryType": "Album",
+      "secondaryTypes": []
+     }
+    ]
+   },
+   "wikipedia": {
+    "resolution": "opensearch",
+    "storedUrl": null,
+    "page": null,
+    "candidates": []
+   }
+  }
+ }
+]

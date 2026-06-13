@@ -1,0 +1,311 @@
+[
+ {
+  "id": "mouvements",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release matches on artist, year (2012), label (Universal Music Classics & Jazz France) and full tracklist. keyTracks Jay/Mouvements/Maybe Tomorrow/Alpha 01-10-10/Oleo all present. Wiki stored_url is the Biréli Lagrène artist page (correct entity); the prose sentence 'He often performs in swing, jazz fusion, and post-bop styles' is verbatim from that page."
+ },
+ {
+  "id": "renaissance",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Right entity (Marcus Miller, Renaissance, 2012). Our label field 'Victor' matches the MB Japanese release (cat VICJ-61665); the albumDNA's 'Concord Jazz' / 'May 28, 2012' is the US release and is quoted verbatim from the matching wiki page. Both labels are genuine for this album, so no contradiction. All keyTracks present in MB tracklist; personnel names (Dr. John, Kris Bowers, etc.) verbatim from wiki."
+ },
+ {
+  "id": "sunrise",
+  "verdict": "clean",
+  "confidence": 0.96,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release credited to 'Masabumi Kikuchi Trio' on ECM (ECM 2096), 2012, tracklist matches; all keyTracks present. Wiki stored_url is the Masabumi Kikuchi artist page (correct entity); the sidemen sentence (Sonny Rollins, Miles Davis, McCoy Tyner, Elvin Jones, Gary Peacock, Paul Motian, Gil Evans, Toru Takemitsu) is verbatim from that page."
+ },
+ {
+  "id": "the-nows",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release (Clean Feed, 2012-09) credits Ken Vandermark with Paul Lytton, Nate Wooley, Ikue Mori; all five keyTracks present in tracklist. Wiki stored_url is the Ken Vandermark discography page (correct entity); albumDNA is the generic discography-page description quoted verbatim, no specific factual claim about this album beyond what evidence supports."
+ },
+ {
+  "id": "burn",
+  "verdict": "clean",
+  "confidence": 0.96,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Right entity (Sons of Kemet, Burn, 2013, Naim Records). MB date 2013-09-08 vs prose '9 September 2013' consistent; all keyTracks present. albumDNA incl. the 2013 MOBO 'Best Jazz Act' claim is verbatim from the matching wiki album page."
+ },
+ {
+  "id": "coin-coin-chapter-two",
+  "verdict": "clean",
+  "confidence": 0.86,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "MB search match (topArtistSimilarity 1.0) confirms artist Matana Roberts, exact title and label Constellation; all six keyTracks present in tracklist. No wikipedia evidence (opensearch returned nothing; ours.wikipediaUrl null). The albumDNA is overwhelmingly editorial (panoramic sound quilting, family Mississippi roots) — opinion, not flaggable; the checkable skeleton (Matana Roberts, Coin Coin Chapter Two, alto saxophonist, second installment) is consistent with evidence."
+ },
+ {
+  "id": "for-the-love-of-abbey",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release (Marc Cary, Motema, 2013-06-11) matches; all keyTracks present. Wiki stored_url is the matching album page; albumDNA ('solo piano album by Marc Cary ... recorded in 2012 ... released by Motema Music') is verbatim from it."
+ },
+ {
+  "id": "hagars-song",
+  "verdict": "clean",
+  "confidence": 0.96,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Co-led album; MB credits Charles Lloyd + Jason Moran (ECM, 2013-02), our artist field lists only Jason Moran which is acceptable editorial framing. All keyTracks present. Wiki stored_url is the matching album page; albumDNA recorded-April-2012 / released-Feb-2013 detail is verbatim from it."
+ },
+ {
+  "id": "money-jungle-provocative-in-blue",
+  "verdict": "unverifiable",
+  "confidence": 0.72,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Album-level content is solidly correct: Terri Lyne Carrington, Concord Jazz, 2013-02-25, all keyTracks present, and the 2013 Grammy (Best Jazz Instrumental Album) claim is verbatim in the matching album wiki. The only issue is the trailing biographical sentence 'She toured with each of Hancock's musical configurations between 1997 and 2007', a specific dated claim absent from both the album wiki and MB — unverifiable against the pack evidence (not contradicted)."
+ },
+ {
+  "id": "winter-morning-walks",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release confirms artist Maria Schneider, title, label ArtistShare (AS0121), 2013-03-01, and all five keyTracks. No wikipedia evidence (opensearch empty; ours.wikipediaUrl null). The substantive prose claims cannot be checked against the available evidence: the co-credit 'and Dawn Upshaw' (MB credits only Maria Schneider) and the two 2014 Grammy wins (Best Classical Contemporary Composition; Best Engineered Album, Classical) — neither appears in MB and there is no wiki. Not contradicted, just unverifiable."
+ },
+ {
+  "id": "alloy",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release (Tyshawn Sorey, Pi Recordings, 2014-10-27) matches exactly; all four keyTracks are the complete tracklist. Wiki stored_url is the Tyshawn Sorey artist page (correct entity), which itself states 'The first of these, Alloy, was released on Pi Recordings in 2014', confirming label and year."
+ },
+ {
+  "id": "conversations-ii",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release credits Roscoe Mitchell, Craig Taborn, Kikanju Baku (Wide Hive, 2014-04-15); all keyTracks present. Wiki stored_url is the matching album page; albumDNA ('recorded in 2013 and released on Wide Hive') is verbatim from it."
+ },
+ {
+  "id": "is-that-so",
+  "verdict": "entity_mismatch",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "unsure", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [
+   {"field": "artist", "ours": "Tom Harrell", "evidence": "Niels Vincentz", "evidenceQuote": "\"artists\": [ \"Niels Vincentz\" ]", "source": "mb"}
+  ],
+  "wrongClaims": [
+   {"ourClaim": "Infinity is a studio album by jazz trumpeter Tom Harrell, released by HighNote Records in March 2019.", "problem": "The albumDNA describes a completely different album (Tom Harrell's 'Infinity', 2019, HighNote), not our item 'Is That So?' (2014, Stunt Records). Title, year and label in the prose all belong to another entity.", "evidenceQuote": "Infinity is a studio album by jazz trumpeter Tom Harrell, released by HighNote Records in March 2019.", "source": "wiki"},
+   {"ourClaim": "Features \"Jericho\" and \"Haiku\" in a contemporary jazz context", "problem": "Prose attributes Jericho/Haiku to 'Infinity', but the Infinity wiki tracklist is The Fast/Dublin/Hope/Coronation/etc.; Jericho and Haiku are actually tracks on the MB 'Is That So?' release (credited to Niels Vincentz), so the prose conflates a third source.", "evidenceQuote": "\"The Fast\" – 6:38 \"Dublin\" – 9:40 \"Hope\" – 7:30 \"Coronation\" – 6:56", "source": "wiki"}
+  ],
+  "notes": "Three-way collision. (1) MB embedded release 'Is That So?' (Stunt, 2014) is credited to Niels Vincentz, not Tom Harrell — its tracklist (Jericho, Haiku, Hot House, Cecilie, Modal Dancer) is exactly our keyTracks, so keyTracks 'match' the release but the release artist is not ours. (2) The albumDNA is wholesale about Tom Harrell's 'Infinity' (2019, HighNote), quoted verbatim from the stored wiki page 'Infinity (Tom Harrell album)' — a different album. (3) The stored wikipediaUrl points to that wrong Infinity page. Verdict entity_mismatch because the prose's factual skeleton belongs to a different entity; a repair-writer must rewrite the DNA for the actual 2014 'Is That So?' release and confirm the correct artist credit."
+ },
+ {
+  "id": "legacy",
+  "verdict": "clean",
+  "confidence": 0.84,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release credits Gael Horellou + Abraham Burton (2014-02-11, DE, no label in MB); all five keyTracks (Clifford Jordan, Jackie McLean, Berchida's Song, Saint Leu, Palace Specia) are the complete tracklist. Abraham Burton is a genuine co-credit, so naming him is correct. Label field 'Unknown' cannot be contradicted (MB lists no label). Wiki resolution was opensearch and landed on the 'Legacy' disambiguation page (not our album) — discarded for fact-checking; ours.wikipediaUrl is null so wikiLinkVerdict is none_stored. albumDNA is editorial plus the two verified track names."
+ },
+ {
+  "id": "no-parking-tow-away-zone",
+  "verdict": "no_evidence",
+  "confidence": 0.88,
+  "entityMatch": {"musicbrainz": "no", "wikipedia": "n/a"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "no_evidence",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "The embedded MBID resolved to the wrong release entirely: MB returns 'No Parking' by 'Origami Button' (2021-03-26, [no label], tracks Rot/Transient/Helix/Feel/Peach/Nervous/Stag) — different title, artist, year and tracklist from our 'No Parking Tow Away Zone' by Kenny Garrett (2014). None of our keyTracks (Old Folks, Wanderlust, True Blue, Airegin, Signs and Wonders) appear. So the MB document fails entity-matching and is discarded. Wikipedia opensearch returned nothing. No evidence survives to verify or refute anything; the embedded MBID is broken and needs re-resolution."
+ },
+ {
+  "id": "pages-from-an-imaginary-life",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release (Andy Bey, HighNote Records Inc., 2014) matches; all five keyTracks present. Wiki stored_url is the Andy Bey artist page (correct entity), whose discography lists '2014: Pages from an Imaginary Life (HighNote)', confirming year and label. 'jazz fusion territory' is a loose editorial genre tag, not a flaggable factual claim."
+ },
+ {
+  "id": "parallel-moments",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release credits Raymond MacDonald + Marilyn Crispell (Babel, 2014-02-24); our artist field names only Crispell, acceptable editorial framing. All keyTracks present. Wiki stored_url is the Marilyn Crispell artist page (correct entity); the two quoted sentences ('She is one of a very few pianists who rise to the challenge of free jazz' and the Braxton-quartet-1980s/90s membership) are verbatim from it."
+ },
+ {
+  "id": "rising-son",
+  "verdict": "factual_error",
+  "confidence": 0.78,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "none_stored",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Tell Me a Bedtime Story"],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "keyTrack \"Tell Me a Bedtime Story\"", "problem": "Listed as a key track but not present in the MB tracklist for this release.", "evidenceQuote": "\"tracks\": [ \"Rising Son\", \"Afro Blues\", \"Piri Piri\", \"Mala\", \"Everybody Loves the Sunshine\", \"Green and Gold\", \"Sometime, Somewhere, Somehow\", \"Call\", \"Unchain\", \"Promise in Love\" ]", "source": "mb"}
+  ],
+  "notes": "Entity is correct: MB search match (topArtistSimilarity 1.0) confirms Takuya Kuroda, Blue Note, 2014-02-12, title Rising Son. Three of four keyTracks match (Rising Son, Afro Blues, Everybody Loves the Sunshine) but 'Tell Me a Bedtime Story' is absent from the tracklist -> factual_error at the keyTracks tier (evidence is a strong search match, not embedded MBID, so confidence moderate). The producer claim 'Produced by DJ Premier collaborator Jose James' is unverifiable (no producer credit in MB). Wikipedia opensearch landed on the 'Rising Sun' disambiguation page (different title) — discarded; ours.wikipediaUrl null."
+ },
+ {
+  "id": "solo-piano-portraits",
+  "verdict": "entity_mismatch",
+  "confidence": 0.9,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "no"},
+  "wikiLinkVerdict": "wrong_entity",
+  "keyTracksVerdict": "mismatch",
+  "keyTracksUnmatched": ["Chick Talks: About Solo Piano", "Chick Talks: About Bill Evans", "Chick Talks: About Stevie Wonder"],
+  "fieldIssues": [],
+  "wrongClaims": [
+   {"ourClaim": "Trilogy is a 2013 live album by Chick Corea and his trio, featuring Corea on piano with Christian McBride on double bass and Brian Blade on drums.", "problem": "The albumDNA describes a different Chick Corea album ('Trilogy', a 2013 three-disc live trio album), not our item 'Solo Piano - Portraits' (2014, Concord Jazz, solo piano). The MB release for our item is the solo-piano album with no McBride/Blade and a solo tracklist.", "evidenceQuote": "Trilogy is a 2013 live album by Chick Corea and his trio, featuring Corea on piano with Christian McBride on double bass and Brian Blade on drums.", "source": "wiki"}
+  ],
+  "notes": "The catalog fields are correct — MB embedded release 'Chick Corea Solo Piano - Portraits' / release-group 'Solo Piano - Portraits' (Chick Corea, Concord Jazz, 2014) matches title/artist/year/label. But the albumDNA is wholesale about 'Trilogy' (different album), quoted verbatim from the stored wiki page 'Trilogy (Chick Corea album)', and the stored wikipediaUrl points to that wrong Trilogy page. Also keyTracks: 'Improv #1 / How Deep Is the Ocean?' and 'Waltz for Debby' are in the MB tracklist, but the three 'Chick Talks:' spoken-intro keyTracks are not. Verdict entity_mismatch driven by the prose describing a different entity; a repair-writer must rewrite the DNA for the actual Solo Piano - Portraits release and fix the wiki link."
+ },
+ {
+  "id": "sophisticated-swing",
+  "verdict": "clean",
+  "confidence": 0.92,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Reissue case: our year 2014 matches the MB Cheesecake Records reissue (search match, topArtistSimilarity 1.0); the underlying album is Cannonball Adderley's 1957 EmArcy LP. All five keyTracks present in the MB tracklist. Wiki stored_url is the matching Sophisticated Swing album page; the entire albumDNA (fifth album, fourth on EmArcy, Nat Adderley/Junior Mance/Sam Jones/Jimmy Cobb, Chuck Stewart cover photo at the Ulysses S. Grant Monument) is verbatim from it. The 1957-vs-2014 gap is a reissue, not an error."
+ },
+ {
+  "id": "afrodeezia",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release (Marcus Miller, Blue Note, 2015-03-16) matches; all five keyTracks present. Wiki stored_url is the matching album page; albumDNA ('studio album by American bass-guitarist Marcus Miller ... released on March 16, 2015 by Blue Note Records. This is his debut release for Blue Note.') is verbatim from it."
+ },
+ {
+  "id": "in-out-and-around",
+  "verdict": "clean",
+  "confidence": 0.85,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Album is correctly identified: MB embedded release 'In Out and Around' (Timeless Records, 2015-06-17) with all five keyTracks present. MB credits 'Mike Nock Quartet, Michael Brecker, George Mraz, Al Foster' — i.e. this is a Mike Nock-led date featuring Brecker; our catalog/DNA frame it as a Michael Brecker album. Brecker is a genuine credited performer, so the per-spec leniency on leader/sideman naming applies (not flagged), but a reviewer should note the leader is Mike Nock. The Brecker biography (15 Grammys, DownBeat Hall of Fame 2007, Berklee honorary doctorate 2004) is verbatim from the entity-matched Michael Brecker wiki page and concerns the right person, so it is verified, not unverifiable."
+ },
+ {
+  "id": "the-epic",
+  "verdict": "unverifiable",
+  "confidence": 0.7,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Core album facts are confirmed and clean: MB search match (topArtistSimilarity 1.0) for Kamasi Washington, Brainfeeder, 2015-05-05; all four keyTracks present; and 'third studio album ... first to be released on a record label ... released on May 5, 2015, by the Brainfeeder record label' is verbatim from the matching album wiki. The only uncheckable substantive claim is 'Brought jazz to a new audience through collaborations with Kendrick Lamar and Flying Lotus' — those named collaborations are not in the pack evidence (album wiki does not mention them; MB has none). Not contradicted, so unverifiable rather than a flag; the remaining 'sparked renewed interest in spiritual jazz' is editorial."
+ },
+ {
+  "id": "the-syndicate-live-at-the-hopbine-1968-vol1",
+  "verdict": "clean",
+  "confidence": 0.95,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release matches exactly: Tubby Hayes, Gearbox Records, 2015-08-14, with all four keyTracks the complete tracklist. 2015 is the archival-release date of 1968 live material (the title itself states 1968), so no anachronism. Wiki stored_url is the Tubby Hayes artist page (correct entity); the sentence 'He is widely considered to be one of the finest jazz saxophonists to have emerged from Britain' is verbatim from it."
+ },
+ {
+  "id": "arclight",
+  "verdict": "clean",
+  "confidence": 0.97,
+  "entityMatch": {"musicbrainz": "yes", "wikipedia": "yes"},
+  "wikiLinkVerdict": "correct",
+  "keyTracksVerdict": "ok",
+  "keyTracksUnmatched": [],
+  "fieldIssues": [],
+  "wrongClaims": [],
+  "notes": "Embedded-MBID release (Julian Lage, Mack Avenue Records, 2016-03-11) matches; all five keyTracks present. Wiki stored_url is the matching album page; albumDNA ('fourth solo album by American jazz guitarist Julian Lage, released by Mack Avenue Records on March 11, 2016. Two tracks were given a pre-release: \"Nocturne\" and \"Harlem Blues\".') is verbatim from it."
+ }
+]
