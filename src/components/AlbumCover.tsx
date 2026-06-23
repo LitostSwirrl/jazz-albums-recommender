@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { getProxiedUrl } from '../utils/imageProxy';
+import { useState, useMemo } from 'react';
+import { getCoverCandidates } from '../utils/coverUrl';
 import { hashColor } from '../utils/colors';
 
 interface AlbumCoverProps {
@@ -48,8 +48,9 @@ const UUID_FRONT_PATTERN = /coverartarchive\.org\/release\/[0-9a-f]{8}-[0-9a-f]{
 const ANY_FRONT_PATTERN = /coverartarchive\.org\/release\/[^/]+\/front$/;
 
 export function AlbumCover({ coverUrl, title, size = 'md', pixelWidth, priority, className = '', eraColor }: AlbumCoverProps) {
-  const [imageError, setImageError] = useState(false);
+  const [srcIndex, setSrcIndex] = useState(0);
   const [imageLoading, setImageLoading] = useState(true);
+  const [loadedKey, setLoadedKey] = useState(coverUrl);
 
   // Only try to load if we have a URL that looks valid
   // Reject fake coverartarchive URLs:
@@ -62,11 +63,27 @@ export function AlbumCover({ coverUrl, title, size = 'md', pixelWidth, priority,
     coverUrl.startsWith('http') &&
     !isTextSlugFront &&
     !coverUrl.includes('-39f8-4c5e-9e5c-1f9c2d8b8d8d');
-  const showFallback = !hasValidUrl || imageError;
 
   const color = eraColor || getTitleColor(title);
   const initials = getInitials(title);
   const width = pixelWidth ?? defaultWidths[size];
+
+  // Best-first URLs to try (proxy -> direct source). Each onError advances the
+  // index; when it runs past the end we show the initials fallback.
+  const candidates = useMemo(
+    () => (hasValidUrl && coverUrl ? getCoverCandidates(coverUrl, width) : []),
+    [hasValidUrl, coverUrl, width]
+  );
+
+  // Reset the retry ladder when the album changes (adjust state during render —
+  // React's recommended alternative to a state-resetting effect).
+  if (coverUrl !== loadedKey) {
+    setLoadedKey(coverUrl);
+    setSrcIndex(0);
+    setImageLoading(true);
+  }
+
+  const showFallback = candidates.length === 0 || srcIndex >= candidates.length;
 
   return (
     <div
@@ -75,19 +92,22 @@ export function AlbumCover({ coverUrl, title, size = 'md', pixelWidth, priority,
         backgroundColor: showFallback ? `${color}15` : undefined,
       }}
     >
-      {!showFallback && coverUrl && (
+      {!showFallback && (
         <img
+          key={candidates[srcIndex]}
           loading={priority ? 'eager' : 'lazy'}
           fetchPriority={priority ? 'high' : 'auto'}
           decoding="async"
-          src={getProxiedUrl(coverUrl, width)}
+          src={candidates[srcIndex]}
           alt={`${title} album cover`}
-          crossOrigin="anonymous"
           referrerPolicy="no-referrer"
           className={`w-full h-full object-cover transition-opacity duration-300 ${
             imageLoading ? 'opacity-0' : 'opacity-100'
           }`}
-          onError={() => setImageError(true)}
+          onError={() => {
+            setImageLoading(true);
+            setSrcIndex((i) => i + 1);
+          }}
           onLoad={() => setImageLoading(false)}
         />
       )}
