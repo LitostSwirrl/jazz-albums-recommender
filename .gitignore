@@ -36,3 +36,5 @@ scripts/integrity/cache/
 # recs pipeline
 scripts/recs/cache/
 scripts/recs/.spotify_token.json
+__pycache__/
+*.py[cod]

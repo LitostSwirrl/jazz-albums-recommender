@@ -28,3 +28,35 @@ def test_spotify_album_id():
         == "2e2E6QiOO95idJELO2MnKb"
     )
     assert common.spotify_album_id("") is None
+
+
+def test_cached_get_json_params_in_key(monkeypatch, tmp_path):
+    import json as json_module
+
+    calls = []
+
+    class FakeResp:
+        status_code = 200
+        headers = {}
+
+        def __init__(self, payload):
+            self._payload = payload
+            self.text = json_module.dumps(payload)
+
+        def json(self):
+            return self._payload
+
+    def fake_get(url, params=None, headers=None):
+        calls.append(params)
+        return FakeResp({"echo": params})
+
+    monkeypatch.setattr(common, "CACHE", tmp_path)
+    monkeypatch.setattr(common.requests, "get", fake_get)
+    a = common.cached_get_json(
+        "b", "https://x/search", params={"q": "kind of blue"}, min_interval=0
+    )
+    b = common.cached_get_json(
+        "b", "https://x/search", params={"q": "giant steps"}, min_interval=0
+    )
+    assert len(calls) == 2
+    assert a != b

@@ -130,7 +130,9 @@ def cached_get_json(
     cache_dir.mkdir(parents=True, exist_ok=True)
 
     # Check cache first
-    url_hash = hashlib.sha1(url.encode()).hexdigest()
+    url_hash = hashlib.sha1(
+        f"{url}?{json.dumps(params or {}, sort_keys=True)}".encode()
+    ).hexdigest()
     cache_file = cache_dir / f"{url_hash}.json"
 
     if cache_file.exists():
