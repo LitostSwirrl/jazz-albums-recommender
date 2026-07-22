@@ -19,7 +19,7 @@
 - **Project root**: `/Users/jinsoon/Work/Projects/personal/jazz_albums_recommends`
 - **Read order (new session)**: CLAUDE.md -> spec `docs/superpowers/specs/2026-07-22-taste-recommendation-engine-design.md` -> plan `docs/superpowers/plans/2026-07-22-recs-pipeline.md` (only the tasks for this phase) -> this file's Status + Log
 - **Run from repo root**: `python3 -m scripts.recs.<module>`; tests: `python3 -m pytest scripts/recs/tests -q`
-- **Commits**: Conventional Commits on `main`, `Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>`
+- **Commits**: Conventional Commits on branch `feat/recs-pipeline` (merge to main at Phase F via finishing-a-development-branch), `Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>`
 - **Secrets**: tokens in `.env` (gitignored); never print values; `scripts/recs/cache/` + `.spotify_token.json` stay untracked
 - **User setup gate**: table at top of the plan -- confirm the phase's gate items exist in `.env` before starting; if missing, stop and ask, don't stub
 - **Zero-hallucination**: reasons must trace to cache records; integrity check failure = build failure, never soften it
