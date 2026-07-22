@@ -1,10 +1,44 @@
 import base64
 import hashlib
+import json
 import re
+import time
+
+import pytest
+import requests
 
 from scripts.recs import sync_spotify
 
 UNRESERVED_RE = re.compile(r"^[A-Za-z0-9\-._~]+$")
+
+
+@pytest.fixture(autouse=True)
+def _reset_auth_state():
+    """sync_spotify._auth is module-level state mutated by authorize()/_refresh_auth();
+    clear it before and after every test so tests can't leak tokens into each other."""
+    sync_spotify._auth.clear()
+    yield
+    sync_spotify._auth.clear()
+
+
+class FakeResp:
+    """Fake requests.Response, modeled on the fake-response pattern in
+    test_common.py::test_cached_get_json_params_in_key -- hoisted to module scope
+    here since several api_get tests share it."""
+
+    def __init__(self, status_code, payload=None, headers=None):
+        self.status_code = status_code
+        self._payload = {} if payload is None else payload
+        self.headers = headers or {}
+        self.text = json.dumps(self._payload)
+
+    def json(self):
+        return self._payload
+
+    def raise_for_status(self):
+        if self.status_code >= 400:
+            raise requests.HTTPError(f"{self.status_code} error", response=self)
+
 
 # --- Fixtures modeled on real Spotify Web API response shapes ---
 
@@ -255,3 +289,199 @@ def test_paginate_cursor_empty():
 
     result = sync_spotify._paginate_cursor(fetch)
     assert result == []
+
+
+# --- (d) callback path routing + capture loop (Finding 1) ---
+
+
+def test_parse_callback_request_stray_path_is_not_callback():
+    is_callback, code, error = sync_spotify._parse_callback_request("/favicon.ico?x=1")
+    assert is_callback is False
+    assert code is None
+    assert error is None
+
+
+def test_parse_callback_request_extracts_code():
+    is_callback, code, error = sync_spotify._parse_callback_request(
+        "/callback?code=abc123&state=xyz"
+    )
+    assert is_callback is True
+    assert code == "abc123"
+    assert error is None
+
+
+def test_parse_callback_request_extracts_error():
+    is_callback, code, error = sync_spotify._parse_callback_request(
+        "/callback?error=access_denied"
+    )
+    assert is_callback is True
+    assert code is None
+    assert error == "access_denied"
+
+
+def test_capture_loop_stops_once_receive_one_succeeds():
+    results = iter([False, False, True])
+    calls = []
+
+    def receive_one():
+        calls.append(1)
+        return next(results)
+
+    found = sync_spotify._capture_loop(receive_one, max_requests=50)
+    assert found is True
+    assert len(calls) == 3
+
+
+def test_capture_loop_gives_up_after_max_requests_no_infinite_loop():
+    calls = []
+
+    def receive_one():
+        calls.append(1)
+        return False
+
+    found = sync_spotify._capture_loop(receive_one, max_requests=5)
+    assert found is False
+    assert len(calls) == 5
+
+
+def test_capture_loop_stray_request_then_real_callback():
+    """A stray GET (browser prefetch/extension probe) must not consume the
+    one-shot slot -- the loop keeps going until the real /callback request, using
+    the real path-parsing logic (_parse_callback_request), not a re-implementation
+    of it."""
+    incoming = ["/favicon.ico", "/robots.txt", "/callback?code=xyz789"]
+    captured = {"code": None, "error": None}
+
+    def receive_one():
+        path = incoming.pop(0)
+        is_callback, code, error = sync_spotify._parse_callback_request(path)
+        if not is_callback:
+            return False
+        captured["code"] = code
+        captured["error"] = error
+        return True
+
+    found = sync_spotify._capture_loop(receive_one, max_requests=50)
+    assert found is True
+    assert captured == {"code": "xyz789", "error": None}
+    assert incoming == []  # exactly 3 requests consumed -- no extras, no shortfall
+
+
+# --- (e) api_get retry paths (Finding 2) ---
+
+
+def test_api_get_401_refreshes_once_and_retries_with_new_token(monkeypatch):
+    sync_spotify._auth.update(
+        {
+            "client_id": "test-client",
+            "access_token": "old-access-token",
+            "refresh_token": "old-refresh-token",
+            "expires_at": time.time() + 3600,
+        }
+    )
+
+    get_calls = []
+    post_calls = []
+    saved_tokens = []
+
+    def fake_get(url, params=None, headers=None, timeout=None):
+        get_calls.append(headers["Authorization"])
+        if headers["Authorization"] == "Bearer old-access-token":
+            return FakeResp(401)
+        return FakeResp(200, {"items": [], "total": 0})
+
+    def fake_post(url, data=None, timeout=None):
+        post_calls.append(data)
+        return FakeResp(
+            200,
+            {
+                "access_token": "new-access-token",
+                "refresh_token": "new-refresh-token",
+                "expires_in": 3600,
+            },
+        )
+
+    def fake_save_token(token):
+        saved_tokens.append(token)
+
+    monkeypatch.setattr(sync_spotify.requests, "get", fake_get)
+    monkeypatch.setattr(sync_spotify.requests, "post", fake_post)
+    monkeypatch.setattr(sync_spotify, "_save_token", fake_save_token)
+
+    result = sync_spotify.api_get("/me/albums", {"limit": 50, "offset": 0})
+
+    assert result == {"items": [], "total": 0}
+    # retried request used the refreshed bearer token, not the stale one
+    assert get_calls == ["Bearer old-access-token", "Bearer new-access-token"]
+    # refresh happened exactly once
+    assert len(post_calls) == 1
+    assert post_calls[0]["refresh_token"] == "old-refresh-token"
+    # rotated tokens landed in module auth state
+    assert sync_spotify._auth["access_token"] == "new-access-token"
+    assert sync_spotify._auth["refresh_token"] == "new-refresh-token"
+    # ... and were persisted (rotated refresh token included, per Spotify's rotation)
+    assert len(saved_tokens) == 1
+    assert saved_tokens[0]["access_token"] == "new-access-token"
+    assert saved_tokens[0]["refresh_token"] == "new-refresh-token"
+
+
+def test_api_get_401_then_refresh_then_second_401_raises_no_infinite_loop(
+    monkeypatch,
+):
+    sync_spotify._auth.update(
+        {
+            "client_id": "test-client",
+            "access_token": "old-access-token",
+            "refresh_token": "old-refresh-token",
+            "expires_at": time.time() + 3600,
+        }
+    )
+
+    get_calls = []
+
+    def fake_get(url, params=None, headers=None, timeout=None):
+        get_calls.append(headers["Authorization"])
+        return FakeResp(401)
+
+    def fake_post(url, data=None, timeout=None):
+        return FakeResp(
+            200,
+            {
+                "access_token": "new-access-token",
+                "refresh_token": "new-refresh-token",
+                "expires_in": 3600,
+            },
+        )
+
+    monkeypatch.setattr(sync_spotify.requests, "get", fake_get)
+    monkeypatch.setattr(sync_spotify.requests, "post", fake_post)
+    monkeypatch.setattr(sync_spotify, "_save_token", lambda token: None)
+
+    with pytest.raises(requests.HTTPError):
+        sync_spotify.api_get("/me/albums")
+
+    # exactly two attempts -- the retry after refresh does not itself retry
+    assert len(get_calls) == 2
+    assert get_calls == ["Bearer old-access-token", "Bearer new-access-token"]
+
+
+def test_api_get_429_sleeps_retry_after_seconds_then_retries(monkeypatch):
+    sync_spotify._auth.update({"access_token": "tok"})
+
+    call_count = {"n": 0}
+
+    def fake_get(url, params=None, headers=None, timeout=None):
+        call_count["n"] += 1
+        if call_count["n"] == 1:
+            return FakeResp(429, headers={"Retry-After": "3"})
+        return FakeResp(200, {"ok": True})
+
+    sleeps = []
+    monkeypatch.setattr(sync_spotify.requests, "get", fake_get)
+    monkeypatch.setattr(sync_spotify.time, "sleep", lambda s: sleeps.append(s))
+
+    result = sync_spotify.api_get("/me/tracks")
+
+    assert result == {"ok": True}
+    assert sleeps == [3]  # slept for exactly the Retry-After value, not the default
+    assert call_count["n"] == 2

@@ -71,14 +71,37 @@ def _authorize_url(client_id: str, code_challenge: str) -> str:
     return f"{AUTH_URL}?{urllib.parse.urlencode(params)}"
 
 
+# Stray (non-/callback) requests to tolerate -- browser prefetch, extension probes --
+# before _capture_auth_code gives up.
+_MAX_CALLBACK_REQUESTS = 50
+
+
+def _parse_callback_request(path: str) -> tuple[bool, str | None, str | None]:
+    """Parse a raw request path+query. Returns (is_callback, code, error) -- only
+    paths starting with /callback are the OAuth redirect; anything else is a stray
+    request that must not be mistaken for one."""
+    parsed = urllib.parse.urlparse(path)
+    if not parsed.path.startswith("/callback"):
+        return False, None, None
+    params = urllib.parse.parse_qs(parsed.query)
+    return True, params.get("code", [None])[0], params.get("error", [None])[0]
+
+
 class _CallbackHandler(http.server.BaseHTTPRequestHandler):
-    """One-shot handler for the PKCE redirect; stashes ?code=/?error= on the server."""
+    """Handler for the PKCE redirect; stashes ?code=/?error= on the server once a
+    /callback request arrives. Non-callback requests get a 404 and don't consume
+    the one-shot auth slot."""
 
     def do_GET(self) -> None:
-        query = urllib.parse.urlparse(self.path).query
-        params = urllib.parse.parse_qs(query)
-        self.server.auth_code = params.get("code", [None])[0]
-        self.server.auth_error = params.get("error", [None])[0]
+        is_callback, code, error = _parse_callback_request(self.path)
+        if not is_callback:
+            self.send_response(404)
+            self.end_headers()
+            return
+
+        self.server.auth_code = code
+        self.server.auth_error = error
+        self.server.callback_received = True
         self.send_response(200)
         self.send_header("Content-Type", "text/html; charset=utf-8")
         self.end_headers()
@@ -90,12 +113,32 @@ class _CallbackHandler(http.server.BaseHTTPRequestHandler):
         pass
 
 
+def _capture_loop(
+    receive_one: Callable[[], bool], max_requests: int = _MAX_CALLBACK_REQUESTS
+) -> bool:
+    """Call `receive_one()` (handles one inbound request, returns whether it was the
+    real /callback request) until it succeeds or `max_requests` attempts are spent.
+    Returns whether the callback was received."""
+    for _ in range(max_requests):
+        if receive_one():
+            return True
+    return False
+
+
 def _capture_auth_code(port: int = 8888) -> str:
-    """Block for one request on 127.0.0.1:<port>/callback and return its ?code=."""
+    """Block for requests on 127.0.0.1:<port> until one hits /callback and return its
+    ?code=. Stray requests (browser prefetch, extension probe) get a 404 and the
+    server keeps listening; gives up after _MAX_CALLBACK_REQUESTS of them."""
     server = http.server.HTTPServer(("127.0.0.1", port), _CallbackHandler)
     server.auth_code = None
     server.auth_error = None
-    server.handle_request()
+    server.callback_received = False
+
+    def receive_one() -> bool:
+        server.handle_request()
+        return server.callback_received
+
+    _capture_loop(receive_one)
     server.server_close()
 
     if server.auth_error:
@@ -113,7 +156,7 @@ def _exchange_code(client_id: str, code: str, verifier: str) -> dict:
         "client_id": client_id,
         "code_verifier": verifier,
     }
-    resp = requests.post(TOKEN_URL, data=data)
+    resp = requests.post(TOKEN_URL, data=data, timeout=30)
     resp.raise_for_status()
     return resp.json()
 
@@ -124,7 +167,7 @@ def _refresh_token_request(client_id: str, refresh_token: str) -> dict:
         "refresh_token": refresh_token,
         "client_id": client_id,
     }
-    resp = requests.post(TOKEN_URL, data=data)
+    resp = requests.post(TOKEN_URL, data=data, timeout=30)
     resp.raise_for_status()
     return resp.json()
 
@@ -190,7 +233,7 @@ def api_get(path: str, params: dict | None = None) -> dict:
 
     def _do_request():
         headers = {"Authorization": f"Bearer {_auth['access_token']}"}
-        return requests.get(url, params=params, headers=headers)
+        return requests.get(url, params=params, headers=headers, timeout=30)
 
     resp = _do_request()
 
