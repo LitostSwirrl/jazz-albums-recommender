@@ -28,7 +28,7 @@
 | Spotify dashboard: add redirect URI `http://127.0.0.1:8888/callback` | Task 2 |
 | `DISCOGS_TOKEN` in `.env` (free personal token) | Task 4 |
 | `LASTFM_API_KEY` in `.env` (free API key) | Task 5 |
-| `REDDIT_CLIENT_ID` + `REDDIT_CLIENT_SECRET` in `.env` (script app) | Task 7 |
+| ~~`REDDIT_CLIENT_ID` + `REDDIT_CLIENT_SECRET`~~ OBSOLETE 2026-07-23: Reddit closed self-service API; Task 7 amended to RSS-based fetch, no creds needed (see checkpoints Log) | Task 7 |
 | Joseph present with RYM-logged-in Chrome | Task 8 |
 
 Tasks 1, 3 (after 2), 9, 10 need no user setup.
@@ -256,7 +256,18 @@ def test_unmatched_reported():
 
 ---
 
-### Task 7: Reddit fetcher (`fetch_reddit.py`) — GATE: REDDIT creds
+### Task 7: Reddit fetcher (`fetch_reddit.py`) — AMENDED 2026-07-23: RSS-based, no creds gate
+
+> **Amendment (2026-07-23):** Reddit closed self-service API access; OAuth flow below is
+> obsolete. Replace transport with Reddit's public RSS feeds, verified live 2026-07-23:
+> `https://www.reddit.com/r/jazz/top.rss?t=year` (and `t=all`), same for r/jazzguitar,
+> `https://www.reddit.com/r/jazz/search.rss?q=best+albums&restrict_sr=1&sort=top`, and
+> per-thread comments via `https://www.reddit.com/comments/<id>/.rss`. Parse Atom
+> (stdlib xml.etree), browser UA, min_interval >= 10s, cache every feed via
+> common.cached_get_json(as_text=True). Comment depth is shallow (RSS cap) — accepted:
+> the signal is mention frequency across threads, not deep trees. LLM extraction step and
+> aggregate output schema below are unchanged. If RSS starts returning 403s, STOP and
+> surface to Joseph — do not escalate to JSON scraping or Redlib-style spoofing.
 
 **Files:** Create: `scripts/recs/fetch_reddit.py`
 
