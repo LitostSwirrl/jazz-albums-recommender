@@ -179,3 +179,87 @@ def test_main_exits_when_library_missing(monkeypatch, tmp_path, capsys):
         tp.main()
     assert exc_info.value.code == 1
     assert "sync_spotify" in capsys.readouterr().err
+
+
+# --- _build_styles: zero coverage per review (Task 3 finding) ---
+
+
+def test_build_styles_catalog_only_no_lastfm(monkeypatch, tmp_path):
+    """No cache/lastfm.json -> source stays 'catalog' and tag_weight is a
+    plain count of genres across matched catalog albums, normalized to a
+    share of the total. CACHE is monkeypatched to an empty tmp_path (same
+    pattern as test_main_exits_when_library_missing) so the branch decision
+    is driven explicitly, not by the absence of a real cache/ dir.
+
+    Derived by hand from 3 albums with overlapping genres:
+      hard bop appears in all 3 albums   -> count 3
+      soul jazz appears in 2 of them     -> count 2
+      latin jazz appears in 1            -> count 1
+      total = 6 -> weights 3/6=0.5, 2/6=0.3333->0.33, 1/6=0.1667->0.17
+    """
+    monkeypatch.setattr(tp.common, "CACHE", tmp_path)
+    matched_albums = [
+        {"id": "a", "artist": "X", "title": "A", "genres": ["hard bop", "soul jazz"]},
+        {"id": "b", "artist": "X", "title": "B", "genres": ["hard bop"]},
+        {
+            "id": "c",
+            "artist": "X",
+            "title": "C",
+            "genres": ["hard bop", "soul jazz", "latin jazz"],
+        },
+    ]
+
+    styles, source = tp._build_styles(matched_albums, scores={})
+
+    assert source == "catalog"
+    assert styles == [
+        {"tag": "hard bop", "weight": 0.5},
+        {"tag": "soul jazz", "weight": 0.33},
+        {"tag": "latin jazz", "weight": 0.17},
+    ]
+
+
+def test_build_styles_lastfm_merge_weighted_by_affinity(monkeypatch, tmp_path):
+    """cache/lastfm.json present -> source flips to 'catalog+lastfm' and each
+    artist's Last.fm tags are added in at scores[norm]['score'] / max_score
+    (that artist's affinity relative to the top scorer in the whole
+    profile) -- so a higher-affinity artist's tags weigh more than a
+    lower-affinity artist's, and catalog-derived tags still contribute
+    alongside them.
+
+    Derived by hand:
+      catalog: 2 albums both tagged 'hard bop' -> count 2
+      grant green score 80.0 == max_score      -> weight 80/80 = 1.0
+        -> tag_weight['soul jazz'] += 1.0
+      duke ellington score 20.0 (lower affinity) -> weight 20/80 = 0.25
+        -> tag_weight['big band'] += 0.25
+      tag_weight = {hard bop: 2, soul jazz: 1.0, big band: 0.25}, total 3.25
+      weights: 2/3.25=0.6154->0.62, 1/3.25=0.3077->0.31, 0.25/3.25=0.0769->0.08
+    """
+    monkeypatch.setattr(tp.common, "CACHE", tmp_path)
+    tp.common.save_json(
+        tmp_path / "lastfm.json",
+        {
+            "artist_tags": {
+                "grant green": ["soul jazz"],
+                "duke ellington": ["big band"],
+            }
+        },
+    )
+    matched_albums = [{"genres": ["hard bop"]}, {"genres": ["hard bop"]}]
+    scores = {
+        "grant green": {"score": 80.0},
+        "duke ellington": {"score": 20.0},
+    }
+
+    styles, source = tp._build_styles(matched_albums, scores)
+
+    assert source == "catalog+lastfm"
+    assert styles == [
+        {"tag": "hard bop", "weight": 0.62},  # catalog genres still contribute
+        {"tag": "soul jazz", "weight": 0.31},  # grant green: affinity weight 1.0
+        {"tag": "big band", "weight": 0.08},  # duke ellington: affinity weight 0.25
+    ]
+    soul_jazz_weight = next(s["weight"] for s in styles if s["tag"] == "soul jazz")
+    big_band_weight = next(s["weight"] for s in styles if s["tag"] == "big band")
+    assert soul_jazz_weight > big_band_weight  # higher-affinity artist weighs more
