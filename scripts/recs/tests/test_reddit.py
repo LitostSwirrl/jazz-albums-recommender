@@ -554,7 +554,7 @@ def test_fetch_rss_passes_params_none_and_headers(monkeypatch):
     assert captured["bucket"] == "reddit"
     assert captured["url"] == "https://www.reddit.com/r/jazz/top.rss?t=year&limit=100"
     assert captured["kwargs"]["as_text"] is True
-    assert captured["kwargs"]["min_interval"] == 10.0
+    assert captured["kwargs"]["min_interval"] == 90.0
     assert "params" not in captured["kwargs"]
 
 

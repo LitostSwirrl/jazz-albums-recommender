@@ -53,7 +53,7 @@ from scripts.recs import common
 
 ATOM_NS = "{http://www.w3.org/2005/Atom}"
 BUCKET = "reddit"
-MIN_INTERVAL = 10.0
+MIN_INTERVAL = 90.0
 RATE_LIMIT_COOLDOWN = 60
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
