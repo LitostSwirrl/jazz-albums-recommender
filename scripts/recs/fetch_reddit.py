@@ -322,17 +322,38 @@ def _run_claude(prompt: str, text: str) -> subprocess.CompletedProcess | None:
 
 
 def _parse_llm_output(result: subprocess.CompletedProcess | None):
-    """None (timeout) / nonzero exit / invalid JSON / a JSON value that
-    isn't a top-level array -> None, signalling the caller to retry (or
-    give up). A top-level array is returned as-is, unvalidated -- item
-    shape validation is a separate, later step (validate_items)."""
+    """None (timeout) / nonzero exit / no decodable JSON array in stdout ->
+    None, signalling the caller to retry (or give up). Otherwise the first
+    top-level JSON array found in stdout, returned as-is and unvalidated --
+    item shape validation is a separate, later step (validate_items)."""
     if result is None or result.returncode != 0:
         return None
-    try:
-        parsed = json.loads(strip_code_fence(result.stdout))
-    except json.JSONDecodeError:
-        return None
-    return parsed if isinstance(parsed, list) else None
+    return _first_json_array(result.stdout)
+
+
+def _first_json_array(stdout: str):
+    """First decodable JSON array in `stdout`, ignoring prose or code fences
+    before or after it. Haiku is asked for a bare array but, on empty or
+    ambiguous threads, wraps it in a ```json fence and/or appends an
+    explanation -- e.g. '```json\\n[]\\n```\\n\\nThe thread names artists but
+    no album titles.' A whole-string json.loads rejected that valid output
+    and cached it as {"error": "unparseable"}, dropping the (often empty but
+    legitimate) result. Brackets that do not begin a JSON array (Reddit's
+    '[link]' / '[comments]' comment boilerplate) fail to decode and are
+    skipped. None if no array is present."""
+    text = strip_code_fence(stdout)
+    decoder = json.JSONDecoder()
+    idx = text.find("[")
+    while idx != -1:
+        try:
+            value, _ = decoder.raw_decode(text, idx)
+        except json.JSONDecodeError:
+            idx = text.find("[", idx + 1)
+            continue
+        if isinstance(value, list):
+            return value
+        idx = text.find("[", idx + 1)
+    return None
 
 
 def get_or_extract(post_id: str, text: str, stats: Counter) -> list | dict:

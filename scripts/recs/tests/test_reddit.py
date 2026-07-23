@@ -708,6 +708,42 @@ def test_parse_llm_output_none_for_none_result():
     assert fr._parse_llm_output(None) is None
 
 
+def test_parse_llm_output_empty_array_with_trailing_prose():
+    # Real Haiku output on a thread that names artists but no album titles:
+    # a valid (empty) array, then an unsolicited explanation despite the
+    # prompt's "no prose" rule. Regression for posts wrongly cached as
+    # {"error": "unparseable"} (e.g. reddit post 150bv5).
+    result = FakeResult(
+        returncode=0,
+        stdout="```json\n[]\n```\n\nThe thread mentions several artists "
+        "(Vijay Iyer, Billy Hart) but does not specify album titles.",
+    )
+    assert fr._parse_llm_output(result) == []
+
+
+def test_parse_llm_output_nonempty_array_with_trailing_prose():
+    result = FakeResult(
+        returncode=0,
+        stdout='[{"artist": "A", "album": "B"}]\n\nThese are the albums found.',
+    )
+    assert fr._parse_llm_output(result) == [{"artist": "A", "album": "B"}]
+
+
+def test_parse_llm_output_array_after_leading_prose():
+    result = FakeResult(
+        returncode=0,
+        stdout='Here are the albums:\n[{"artist": "A", "album": "B"}]',
+    )
+    assert fr._parse_llm_output(result) == [{"artist": "A", "album": "B"}]
+
+
+def test_parse_llm_output_none_when_only_non_json_brackets():
+    # Reddit comment boilerplate ([link], [comments]) is not a JSON array;
+    # extraction must fail rather than false-match a stray bracket.
+    result = FakeResult(returncode=0, stdout="No albums here. [link] [comments]")
+    assert fr._parse_llm_output(result) is None
+
+
 # --- get_or_extract: cache-first, one retry, error record, llm_calls accounting ---
 
 
