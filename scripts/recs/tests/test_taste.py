@@ -263,3 +263,42 @@ def test_build_styles_lastfm_merge_weighted_by_affinity(monkeypatch, tmp_path):
     soul_jazz_weight = next(s["weight"] for s in styles if s["tag"] == "soul jazz")
     big_band_weight = next(s["weight"] for s in styles if s["tag"] == "big band")
     assert soul_jazz_weight > big_band_weight  # higher-affinity artist weighs more
+
+
+# --- stop-list: compilation artifacts must not enter affinity ---
+
+
+def test_affinity_excludes_various_artists():
+    """Compilations credit 'Various Artists' as an artist; it must never enter
+    affinity scores (Task 4's Discogs sweep consumes top-40 affinity artists).
+    Co-credited real artists on the same album still count."""
+    lib = {
+        "saved_albums": [
+            {
+                "spotify_id": "VA1",
+                "title": "Blue Note Trip",
+                "artists": ["Various Artists", "Grant Green"],
+                "year": 2004,
+                "added_at": "",
+            }
+        ],
+        "saved_tracks": [],
+        "top_artists": {"short_term": [], "medium_term": [], "long_term": []},
+        "top_tracks": {"short_term": [], "medium_term": [], "long_term": []},
+        "followed_artists": [],
+    }
+    scores = tp.affinity_scores(lib)
+    assert "various artists" not in scores
+    assert scores["grant green"]["saved_albums"] == 1
+
+
+def test_build_labels_excludes_various_and_unknown():
+    """Catalog placeholder labels 'Various' and 'Unknown' are compilation
+    artifacts, not real labels -- excluded from label affinity."""
+    matched_albums = [
+        {"label": "Blue Note"},
+        {"label": "Blue Note"},
+        {"label": "Various"},
+        {"label": "Unknown"},
+    ]
+    assert tp._build_labels(matched_albums) == [{"name": "Blue Note", "count": 2}]

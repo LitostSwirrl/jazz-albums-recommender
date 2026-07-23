@@ -21,6 +21,10 @@ W_SAVED_TRACK = 1.0
 W_FOLLOWED = 2.0
 RANGE_WEIGHT = {"short_term": 1.5, "medium_term": 1.25, "long_term": 1.0}
 FUZZY_TITLE_THRESHOLD = 0.92
+# Compilation artifacts, not taste signals: downstream fetchers sweep top
+# affinity artists/labels and must not spend call budget on these.
+ARTIST_STOPLIST = {"various artists"}  # compared against common.norm(name)
+LABEL_STOPLIST = {"Various", "Unknown"}  # exact catalog label strings
 
 
 # --- affinity ---
@@ -30,7 +34,7 @@ def affinity_scores(lib: dict) -> dict[str, dict]:
     """Per-artist affinity, keyed by common.norm(artist name). Saved albums and
     saved tracks credit EVERY listed artist. Top-artist entries add rank points
     ((51-rank)/50*10*RANGE_WEIGHT[range]) per listening range they appear in.
-    Followed artists get a flat bonus."""
+    Followed artists get a flat bonus. ARTIST_STOPLIST entries are dropped."""
     scores: dict[str, dict] = {}
 
     def entry(name: str) -> dict:
@@ -70,7 +74,7 @@ def affinity_scores(lib: dict) -> dict[str, dict]:
     for e in scores.values():
         e["score"] = round(e["score"], 2)
 
-    return scores
+    return {key: e for key, e in scores.items() if key not in ARTIST_STOPLIST}
 
 
 # --- ownership matching ---
@@ -180,7 +184,9 @@ def _matched_catalog_entries(catalog_ids: list, catalog: list) -> list:
 
 
 def _build_labels(matched_albums: list) -> list:
-    counts = Counter(a["label"] for a in matched_albums)
+    counts = Counter(
+        a["label"] for a in matched_albums if a["label"] not in LABEL_STOPLIST
+    )
     return [
         {"name": name, "count": count}
         for name, count in sorted(counts.items(), key=lambda kv: (-kv[1], kv[0]))
