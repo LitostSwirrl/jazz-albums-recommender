@@ -4,6 +4,7 @@ import os
 import re
 import time
 import unicodedata
+from collections import Counter
 from pathlib import Path
 
 import requests
@@ -13,6 +14,11 @@ CACHE = ROOT / "scripts" / "recs" / "cache"
 
 # Per-bucket throttle tracking (bucket -> last_ts)
 _bucket_last_ts = {}
+
+# HTTP call/cache-hit counters, shared by every cached_get_json caller in the
+# process. Fetchers read http_stats['api_calls'] / ['cache_hits'] to report
+# cost in their own run summaries.
+http_stats: Counter = Counter()
 
 
 def load_env() -> None:
@@ -136,11 +142,15 @@ def cached_get_json(
     cache_file = cache_dir / f"{url_hash}.json"
 
     if cache_file.exists():
+        http_stats["cache_hits"] += 1
         with open(cache_file, "r", encoding="utf-8") as f:
             content = f.read()
             if as_text:
                 return content
             return json.loads(content)
+
+    # Cache miss -> exactly one API call, even if a 429 forces a retry below.
+    http_stats["api_calls"] += 1
 
     # Throttle: honor min_interval per bucket
     if bucket in _bucket_last_ts:
