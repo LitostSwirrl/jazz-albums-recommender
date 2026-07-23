@@ -45,6 +45,26 @@ LISTING_PAGE_ALL_PRE_2018 = (
 )
 
 
+def _hed_link_only(slug: str) -> str:
+    """Hed-link anchor with no matching publish-date time tag -- used to
+    build a mismatched-count listing fixture (Finding 3)."""
+    return (
+        '<a class="summary-item-tracking__hed-link summary-item__hed-link" '
+        f'href="/reviews/albums/{slug}/" target="_self"><h3>T</h3></a>'
+    )
+
+
+LISTING_PAGE_MISMATCHED_COUNTS = (
+    "<html><body>"
+    + _hed_link_only("album-x")
+    + _hed_link_only("album-y")
+    + _hed_link_only("album-z")
+    + '<time class="summary-item__publish-date">July 8, 2026</time>'
+    + '<time class="summary-item__publish-date">June 25, 2026</time>'
+    + "</body></html>"
+)
+
+
 def _review_html(
     *, date_published: str, artists: list[dict], items: list[dict], extra: str = ""
 ) -> str:
@@ -97,6 +117,12 @@ def test_parse_listing_extracts_absolute_urls_and_dates_in_order():
 
 def test_parse_listing_empty_page_returns_empty():
     assert fp.parse_listing("<html><body>nothing here</body></html>") == []
+
+
+def test_parse_listing_returns_none_on_href_date_count_mismatch():
+    """Finding 3: 3 hed-links but 2 publish-dates -- a bare zip() would
+    silently mispair/truncate; must signal the mismatch instead of guessing."""
+    assert fp.parse_listing(LISTING_PAGE_MISMATCHED_COUNTS) is None
 
 
 # --- dedupe_new: sticky/featured item repeat across pages ---
@@ -195,6 +221,28 @@ def test_collect_review_urls_respects_max_pages_cap(monkeypatch):
     assert len(pairs) == 2
 
 
+def test_collect_review_urls_fails_loud_on_listing_href_date_mismatch(
+    monkeypatch, tmp_path
+):
+    """Finding 3, orchestration level: a listing page with mismatched
+    href/date counts must terminate the crawl via _fail_loud (dumping the
+    LISTING page's HTML), not silently continue with mispaired or missing
+    dates."""
+    monkeypatch.setattr(
+        fp, "_fetch_listing_page", lambda page: LISTING_PAGE_MISMATCHED_COUNTS
+    )
+    monkeypatch.setattr(fp, "PARSE_FAIL_PATH", tmp_path / "fail.html")
+    stats: Counter = Counter()
+
+    with pytest.raises(SystemExit) as exc_info:
+        fp.collect_review_urls(stats, max_pages=5)
+
+    assert exc_info.value.code == 1
+    assert (tmp_path / "fail.html").read_text(
+        encoding="utf-8"
+    ) == LISTING_PAGE_MISMATCHED_COUNTS
+
+
 # --- extract_items_reviewed / extract_artist_names: embedded-state parsing ---
 
 
@@ -237,8 +285,24 @@ def test_extract_artist_names_preserves_order_for_multiple_artists():
     assert fp.extract_artist_names(html) == ["Ambrose Akinmusire", "Mary Halvorson"]
 
 
-def test_extract_artist_names_empty_when_key_absent():
-    assert fp.extract_artist_names("<html>nothing here</html>") == []
+def test_extract_artist_names_none_when_key_wholly_absent():
+    """Finding 2: the "artists" key occurs exactly once on every real page
+    (inside headerProps) -- wholly absent means markup drift, so this must
+    signal a parse failure (None), not read the same as a valid-but-empty
+    artists array."""
+    assert fp.extract_artist_names("<html>nothing here</html>") is None
+
+
+def test_extract_artist_names_empty_list_when_key_present_but_empty():
+    """Contrast case: "artists":[] IS present (just credits nobody) -- this
+    stays the pre-existing behavior, an empty list the caller counts as an
+    empty-norm skip, not a fail-loud."""
+    html = _review_html(
+        date_published="2026-01-01T00:00:00.000-04:00",
+        artists=[],
+        items=[{"dangerousHed": "T"}],
+    )
+    assert fp.extract_artist_names(html) == []
 
 
 def test_extract_items_reviewed_and_artists_handle_shabaka_fixture_with_escaped_slash():
@@ -262,6 +326,17 @@ def test_extract_score_fallback_regex_when_musicrating_missing():
     item = {"dangerousHed": "Test", "publisher": "Label"}
     html = 'blah blah "score": 6.5 more blah'
     assert fp.extract_score(item, html) == 6.5
+
+
+def test_extract_score_fallback_disabled_on_multi_item_page():
+    """Finding 1: on a multi-item page the whole-page fallback regex can't
+    tell which item's score it's looking at (reproduced: item 2 silently
+    inheriting item 1's 6.0) -- it must not fire even though a "score"
+    string exists elsewhere on the page; the item resolves to None instead,
+    for the caller's completeness gate to catch."""
+    item = {"dangerousHed": "Test", "publisher": "Label"}
+    html = 'blah blah "score": 6.5 more blah'
+    assert fp.extract_score(item, html, total_items=2) is None
 
 
 def test_extract_score_none_when_nothing_found():
@@ -474,6 +549,30 @@ def test_parse_review_page_multi_item_ambiguous_fallback_counted():
     assert stats["multi_item_ambiguous"] == 2
 
 
+def test_parse_review_page_multi_item_missing_musicrating_does_not_copy_score():
+    """Finding 1 (reviewer-reproduced): multi-item page where item two lacks
+    musicRating and item one's "score": 6.0 text sits elsewhere on the page.
+    Item two must resolve to score=None, never silently inherit item one's
+    6.0 via the whole-page fallback regex."""
+    html = _review_html(
+        date_published="2026-01-01T00:00:00.000-04:00",
+        artists=[{"name": "Artist One"}, {"name": "Artist Two"}],
+        items=[
+            {
+                "dangerousHed": "Album One",
+                "musicRating": {"isBestNewMusic": False, "score": 6.0},
+            },
+            {"dangerousHed": "Album Two", "publisher": "Label"},
+        ],
+    )
+    stats: Counter = Counter()
+    records = fp.parse_review_page(
+        html, "https://pitchfork.com/reviews/albums/roundup3/", stats
+    )
+
+    assert [r["score"] for r in records] == [6.0, None]
+
+
 def test_parse_review_page_fallback_score_regex_when_musicrating_absent():
     state = json.dumps(
         {
@@ -528,6 +627,50 @@ def test_parse_review_page_returns_none_when_items_reviewed_missing():
     assert (
         fp.parse_review_page("<html>nothing here</html>", "https://x/", stats) is None
     )
+
+
+def test_parse_review_page_returns_none_when_artists_key_missing():
+    """Finding 2 (reviewer-reproduced): itemsReviewed intact, but the
+    "artists" key is wholly absent from the page -- must signal a parse
+    failure (None), not silently degrade into an empty-norm skip."""
+    html = (
+        '<script type="application/ld+json">'
+        '{"@type":"Review","datePublished":"2026-01-01T00:00:00.000-04:00"}'
+        "</script>"
+        "<script>window.__PRELOADED_STATE__ = "
+        '{"itemsReviewed":[{"dangerousHed":"Test Album",'
+        '"musicRating":{"isBestNewMusic":false,"score":5.0}}]};'
+        "</script>"
+    )
+    stats: Counter = Counter()
+    records = fp.parse_review_page(
+        html, "https://pitchfork.com/reviews/albums/x/", stats
+    )
+
+    assert records is None
+    assert stats["empty_norm"] == 0
+
+
+def test_parse_review_page_artists_key_present_but_empty_counts_empty_norm():
+    """Contrast case: "artists":[] IS present -- stays the pre-existing
+    per-record empty-norm skip, counted, no exit."""
+    html = _review_html(
+        date_published="2026-01-01T00:00:00.000-04:00",
+        artists=[],
+        items=[
+            {
+                "dangerousHed": "Test Album",
+                "musicRating": {"isBestNewMusic": False, "score": 5.0},
+            }
+        ],
+    )
+    stats: Counter = Counter()
+    records = fp.parse_review_page(
+        html, "https://pitchfork.com/reviews/albums/x/", stats
+    )
+
+    assert records == []
+    assert stats["empty_norm"] == 1
 
 
 # --- _page_is_complete: completeness gate (score=0.0 must not read as missing) ---
@@ -650,3 +793,60 @@ def test_fetch_reviews_fails_loud_on_score_less_record(monkeypatch, tmp_path):
 
     assert exc_info.value.code == 1
     assert (tmp_path / "fail.html").exists()
+
+
+def test_fetch_reviews_fails_loud_multi_item_page_score_not_misattributed(
+    monkeypatch, tmp_path
+):
+    """Finding 1, fetch_reviews/fail-loud layer: item two's score=None must
+    trip the completeness gate (exit 1) rather than get silently backfilled
+    with item one's score by the whole-page fallback regex."""
+    html = _review_html(
+        date_published="2026-01-01T00:00:00.000-04:00",
+        artists=[{"name": "Artist One"}, {"name": "Artist Two"}],
+        items=[
+            {
+                "dangerousHed": "Album One",
+                "musicRating": {"isBestNewMusic": False, "score": 6.0},
+            },
+            {"dangerousHed": "Album Two", "publisher": "Label"},
+        ],
+    )
+    monkeypatch.setattr(fp, "_fetch_review_page", lambda url: html)
+    monkeypatch.setattr(fp, "PARSE_FAIL_PATH", tmp_path / "fail.html")
+    stats: Counter = Counter()
+
+    with pytest.raises(SystemExit) as exc_info:
+        fp.fetch_reviews(
+            [("https://pitchfork.com/reviews/albums/roundup3/", date(2026, 1, 1))],
+            stats,
+        )
+
+    assert exc_info.value.code == 1
+    assert (tmp_path / "fail.html").exists()
+
+
+def test_fetch_reviews_fails_loud_when_artists_key_missing(monkeypatch, tmp_path):
+    """Finding 2 (reviewer-reproduced): intact itemsReviewed, but the
+    "artists" key is wholly absent -- must fail loud (exit 1), not silently
+    emit stats={'empty_norm': 1} with exit 0."""
+    html = (
+        '<script type="application/ld+json">'
+        '{"@type":"Review","datePublished":"2026-01-01T00:00:00.000-04:00"}'
+        "</script>"
+        "<script>window.__PRELOADED_STATE__ = "
+        '{"itemsReviewed":[{"dangerousHed":"Test Album",'
+        '"musicRating":{"isBestNewMusic":false,"score":5.0}}]};'
+        "</script>"
+    )
+    monkeypatch.setattr(fp, "_fetch_review_page", lambda url: html)
+    monkeypatch.setattr(fp, "PARSE_FAIL_PATH", tmp_path / "fail.html")
+    stats: Counter = Counter()
+
+    with pytest.raises(SystemExit) as exc_info:
+        fp.fetch_reviews(
+            [("https://pitchfork.com/reviews/albums/x/", date(2026, 1, 1))], stats
+        )
+
+    assert exc_info.value.code == 1
+    assert (tmp_path / "fail.html").read_text(encoding="utf-8") == html

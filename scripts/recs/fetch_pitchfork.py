@@ -63,14 +63,22 @@ PARSE_FAIL_PATH = common.CACHE / "pitchfork_parse_fail.html"
 # --- pure helpers: listing page ---
 
 
-def parse_listing(html: str) -> list[tuple[str, date]]:
+def parse_listing(html: str) -> list[tuple[str, date]] | None:
     """Extract (absolute review url, publish date) pairs from a genre/jazz
     listing page, in document order -- verified live: each item's hed-link
     href precedes its own summary-item__publish-date time tag, one pair per
-    summary item, so the two regex passes zip together positionally."""
+    summary item, so the two regex passes zip together positionally.
+
+    Returns None if the two passes disagree on count. Dates are load-bearing
+    for the pre-2018 stop rule, so a mismatch means the listing markup
+    changed -- zipping positionally anyway would silently mispair or
+    silently truncate the crawl. The caller routes None to _fail_loud rather
+    than guessing."""
     hrefs = [f"{BASE_URL}{m.group(1)}" for m in _HED_LINK_RE.finditer(html)]
     raw_dates = [m.group(1) for m in _PUBLISH_DATE_RE.finditer(html)]
     dates = [datetime.strptime(d.strip(), LISTING_DATE_FMT).date() for d in raw_dates]
+    if len(hrefs) != len(dates):
+        return None
     return list(zip(hrefs, dates))
 
 
@@ -118,26 +126,47 @@ def extract_items_reviewed(html: str) -> list[dict] | None:
     return value if isinstance(value, list) else None
 
 
-def extract_artist_names(html: str) -> list[str]:
+def extract_artist_names(html: str) -> list[str] | None:
     """Locate and JSON-parse the top-level artists array embedded in
     window.__PRELOADED_STATE__ -- returns each artist's `name`, stripped of
-    the leading space Pitchfork's markup adds, in document order. Returns []
-    if the key can't be found/parsed (caller pairs against an empty list,
-    yielding empty-norm skips rather than a crash)."""
+    the leading space Pitchfork's markup adds, in document order.
+
+    Returns None if the "artists" key is wholly ABSENT from the page: on
+    every real Pitchfork review page it occurs exactly once, inside
+    headerProps, so absence means the page structure changed -- same
+    contract as extract_items_reviewed, and the caller routes None to
+    _fail_loud rather than a silent skip. Returns [] if the key IS present
+    but its value isn't a usable list (e.g. "artists":[] on a page with no
+    credited artist) -- caller pairs against an empty list, yielding a
+    counted empty-norm skip rather than a crash."""
+    if '"artists":' not in html:
+        return None
     value = _find_json_value(html, '"artists":')
     if not isinstance(value, list):
         return []
     return [str(a.get("name", "")).strip() for a in value if isinstance(a, dict)]
 
 
-def extract_score(item: dict, html: str) -> float | None:
+def extract_score(item: dict, html: str, total_items: int = 1) -> float | None:
     """Primary: item['musicRating']['score']. Fallback (musicRating missing
     or malformed on this item): regex-search the raw page text for the
     first "score": N.N occurrence -- verified to still match the embedded
-    state today even when an item's own musicRating key is gone."""
+    state today even when an item's own musicRating key is gone.
+
+    The fallback scans the WHOLE page, so it only fires when `total_items`
+    (the page's itemsReviewed count) is 1 -- on a multi-item roundup page it
+    can't tell which item's score it found (reproduced: item 2 silently
+    inheriting item 1's score). `total_items` defaults to 1 so single-item
+    call sites/tests don't need to pass it explicitly. On a multi-item page
+    a missing musicRating falls straight through to None, which the
+    caller's completeness gate then routes to fail-loud -- a multi-item page
+    missing musicRating is markup drift, not a case for the grace path."""
     rating = item.get("musicRating")
     if isinstance(rating, dict) and isinstance(rating.get("score"), (int, float)):
         return float(rating["score"])
+
+    if total_items != 1:
+        return None
 
     match = _SCORE_FALLBACK_RE.search(html)
     return float(match.group(1)) if match else None
@@ -204,14 +233,17 @@ def parse_review_page(html: str, url: str, stats: Counter) -> list[dict] | None:
     """Parse one fetched review page into zero or more review records (one
     per itemsReviewed entry -- a multi-album roundup shares one url across
     several records, each with its own score). Returns None if the
-    itemsReviewed block itself can't be located/parsed -- the caller treats
-    that as an immediate fail-loud parse failure."""
+    itemsReviewed block itself can't be located/parsed, OR if the "artists"
+    key is wholly absent from the page -- the caller treats either as an
+    immediate fail-loud parse failure."""
     items = extract_items_reviewed(html)
     if items is None:
         return None
 
     year = extract_publish_year(html)
     artist_names = extract_artist_names(html)
+    if artist_names is None:
+        return None
     paired_artists = pair_artists_to_items(items, artist_names, stats)
 
     records = []
@@ -228,7 +260,7 @@ def parse_review_page(html: str, url: str, stats: Counter) -> list[dict] | None:
                 "norm_key": key,
                 "artist": artist,
                 "title": title,
-                "score": extract_score(item, html),
+                "score": extract_score(item, html, len(items)),
                 "bnm": extract_bnm(item),
                 "year": year,
                 "url": url,
@@ -286,7 +318,12 @@ def collect_review_urls(
     dated before MIN_YEAR -- both cheaper than fetching every one of the
     capped pages. Returns the collected pairs plus page 1's raw HTML, kept
     only as the dump sample if the run-level review-count assertion in
-    main() later fails."""
+    main() later fails.
+
+    A listing page whose href/date counts don't match (parse_listing
+    returns None) fails loud immediately -- dates decide the stop rule, so a
+    silently mispaired or truncated page could stop the crawl early or
+    misfile years."""
     seen: set[str] = set()
     collected: list[tuple[str, date]] = []
     first_html = ""
@@ -296,7 +333,13 @@ def collect_review_urls(
         if page == 1:
             first_html = html
 
-        new_pairs = dedupe_new(parse_listing(html), seen)
+        pairs = parse_listing(html)
+        if pairs is None:
+            _fail_loud(
+                html, f"{LISTING_URL}?page={page}", "listing href/date count mismatch"
+            )
+
+        new_pairs = dedupe_new(pairs, seen)
         if not new_pairs:
             stats["listing_stopped_no_new_links"] += 1
             break
@@ -356,7 +399,7 @@ def fetch_reviews(pairs: list[tuple[str, date]], stats: Counter) -> list[dict]:
 
         records = parse_review_page(html, url, stats)
         if records is None:
-            _fail_loud(html, url, "itemsReviewed block not found")
+            _fail_loud(html, url, "itemsReviewed block or artists key not found")
         if not _page_is_complete(records):
             _fail_loud(
                 html, url, "incomplete review record (missing artist/title/score/year)"
