@@ -127,6 +127,23 @@ def test_sweep_similar_counts_http_error_and_continues(monkeypatch):
     assert stats["similar_skipped_error"] == 1
 
 
+def test_sweep_similar_counts_connection_error_and_continues(monkeypatch):
+    """Not just requests.HTTPError -- a lower-level requests.RequestException
+    (e.g. ConnectionError/Timeout) must be caught too. Left uncaught, its
+    default str() embeds the full attempted URL, and the api_key travels as
+    a query param -- an uncaught exception here would print the key."""
+
+    def fake_get(params):
+        raise requests.ConnectionError("boom")
+
+    monkeypatch.setattr(fl, "_get", fake_get)
+    stats: Counter = Counter()
+    result = fl.sweep_similar([{"name": "Grant Green"}], stats)
+
+    assert result == {}
+    assert stats["similar_skipped_error"] == 1
+
+
 def test_sweep_similar_stores_coerced_match_floats(monkeypatch):
     def fake_get(params):
         assert params["method"] == "artist.getsimilar"
@@ -159,6 +176,19 @@ def test_sweep_tag_albums_all_twelve_keys_present_even_on_error(monkeypatch):
     assert stats["tag_albums_skipped_error"] == 1
 
 
+def test_sweep_tag_albums_counts_connection_error_and_continues(monkeypatch):
+    def fake_get(params):
+        raise requests.ConnectionError("boom")
+
+    monkeypatch.setattr(fl, "_get", fake_get)
+    stats: Counter = Counter()
+    result = fl.sweep_tag_albums(stats)
+
+    assert set(result.keys()) == set(fl.TAGS)
+    assert all(v == [] for v in result.values())
+    assert stats["tag_albums_skipped_error"] == len(fl.TAGS)
+
+
 # --- sweep_artist_tags orchestration ---
 
 
@@ -178,6 +208,18 @@ def test_sweep_artist_tags_stores_lowercased_capped_tags(monkeypatch):
 def test_sweep_artist_tags_counts_http_error_and_continues(monkeypatch):
     def fake_get(params):
         raise requests.HTTPError("boom")
+
+    monkeypatch.setattr(fl, "_get", fake_get)
+    stats: Counter = Counter()
+    result = fl.sweep_artist_tags(["Ghost Artist"], stats)
+
+    assert result == {}
+    assert stats["artist_tags_skipped_error"] == 1
+
+
+def test_sweep_artist_tags_counts_connection_error_and_continues(monkeypatch):
+    def fake_get(params):
+        raise requests.ConnectionError("boom")
 
     monkeypatch.setattr(fl, "_get", fake_get)
     stats: Counter = Counter()

@@ -125,7 +125,7 @@ def sweep_similar(artists: list[dict], stats: Counter) -> dict[str, list[dict]]:
             data = _get(
                 {"method": "artist.getsimilar", "artist": name, "limit": SIMILAR_LIMIT}
             )
-        except requests.HTTPError:
+        except requests.RequestException:
             stats["similar_skipped_error"] += 1
             print(f"skip similar (HTTP error): {name}")
             continue
@@ -154,7 +154,7 @@ def sweep_tag_albums(stats: Counter) -> dict[str, list[dict]]:
             data = _get(
                 {"method": "tag.gettopalbums", "tag": tag, "limit": TOPALBUMS_LIMIT}
             )
-        except requests.HTTPError:
+        except requests.RequestException:
             stats["tag_albums_skipped_error"] += 1
             print(f"skip tag_albums (HTTP error): {tag}")
             tag_albums[tag] = []
@@ -192,7 +192,7 @@ def sweep_artist_tags(names: list[str], stats: Counter) -> dict[str, list[str]]:
         _bump_progress(stats)
         try:
             data = _get({"method": "artist.gettoptags", "artist": name})
-        except requests.HTTPError:
+        except requests.RequestException:
             stats["artist_tags_skipped_error"] += 1
             print(f"skip artist_tags (HTTP error): {name}")
             continue
