@@ -230,6 +230,128 @@ def test_collect_posts_keys_sort_deterministically(monkeypatch):
     assert sorted(posts.keys()) == ["aaa", "mmm", "zzz"]
 
 
+# --- collect_posts: 429 cooldown-retry, listing hard-abort on repeat failure ---
+
+
+def test_collect_posts_listing_429_then_retry_succeeds_run_proceeds(
+    monkeypatch, capsys
+):
+    xml_text = _wrap_feed(
+        _entry_xml(
+            "t3_ok", "OK Post", "https://x/ok", "2026-01-01T00:00:00+00:00", "<p>X</p>"
+        )
+    )
+    calls = []
+
+    def fake_fetch_rss(url):
+        calls.append(url)
+        if len(calls) == 1:
+            raise requests.HTTPError("429", response=FakeHTTPResponse(429))
+        return xml_text
+
+    sleep_calls = []
+    monkeypatch.setattr(fr, "_fetch_rss", fake_fetch_rss)
+    monkeypatch.setattr(fr.time, "sleep", lambda s: sleep_calls.append(s))
+    monkeypatch.setattr(fr, "LISTING_FEEDS", [("only_label", "URL")])
+
+    posts = fr.collect_posts()
+
+    assert posts["ok"]["title"] == "OK Post"
+    assert len(calls) == 2  # exactly one retry -- api accounting unaffected
+    assert sleep_calls == [fr.RATE_LIMIT_COOLDOWN]
+    assert "rate limited, cooling down 60s: only_label" in capsys.readouterr().out
+
+
+def test_collect_posts_listing_429_twice_raises_systemexit(monkeypatch):
+    def fake_fetch_rss(url):
+        raise requests.HTTPError("429", response=FakeHTTPResponse(429))
+
+    monkeypatch.setattr(fr, "_fetch_rss", fake_fetch_rss)
+    monkeypatch.setattr(fr.time, "sleep", lambda s: None)
+    monkeypatch.setattr(fr, "LISTING_FEEDS", [("only_label", "URL")])
+
+    with pytest.raises(SystemExit) as exc_info:
+        fr.collect_posts()
+
+    assert exc_info.value.code == 1
+
+
+def test_collect_posts_listing_403_hard_stop_no_retry_single_attempt(monkeypatch):
+    """A 403 is raised as SystemExit from inside the real _fetch_rss --
+    simulated directly here (as the existing hard-stop tests do), since
+    _fetch_rss's own 403 detection is covered separately."""
+    calls = []
+
+    def fake_fetch_rss(url):
+        calls.append(url)
+        raise SystemExit(1)
+
+    sleep_calls = []
+    monkeypatch.setattr(fr, "_fetch_rss", fake_fetch_rss)
+    monkeypatch.setattr(fr.time, "sleep", lambda s: sleep_calls.append(s))
+    monkeypatch.setattr(fr, "LISTING_FEEDS", [("only_label", "URL")])
+
+    with pytest.raises(SystemExit) as exc_info:
+        fr.collect_posts()
+
+    assert exc_info.value.code == 1
+    assert sleep_calls == []
+    assert len(calls) == 1  # no retry attempted
+
+
+def test_collect_posts_listing_network_error_raises_systemexit_with_message(
+    monkeypatch, capsys
+):
+    def fake_fetch_rss(url):
+        raise requests.ConnectionError("boom")
+
+    monkeypatch.setattr(fr, "_fetch_rss", fake_fetch_rss)
+    monkeypatch.setattr(fr, "LISTING_FEEDS", [("only_label", "URL")])
+
+    with pytest.raises(SystemExit) as exc_info:
+        fr.collect_posts()
+
+    assert exc_info.value.code == 1
+    out = capsys.readouterr().out
+    assert "only_label" in out
+    assert "aborting" in out
+
+
+def test_collect_posts_listing_http_error_response_none_raises_systemexit(
+    monkeypatch,
+):
+    """An HTTPError with no real response (e.g. a lower-level transport
+    quirk) must be treated like a network error (rule 5), not crash with an
+    AttributeError trying to read .status_code off None."""
+
+    def fake_fetch_rss(url):
+        raise requests.HTTPError("boom")  # no response kwarg -> response is None
+
+    monkeypatch.setattr(fr, "_fetch_rss", fake_fetch_rss)
+    monkeypatch.setattr(fr, "LISTING_FEEDS", [("only_label", "URL")])
+
+    with pytest.raises(SystemExit) as exc_info:
+        fr.collect_posts()
+
+    assert exc_info.value.code == 1
+
+
+def test_collect_posts_listing_non_429_http_error_raises_systemexit(
+    monkeypatch, capsys
+):
+    def fake_fetch_rss(url):
+        raise requests.HTTPError("500", response=FakeHTTPResponse(500))
+
+    monkeypatch.setattr(fr, "_fetch_rss", fake_fetch_rss)
+    monkeypatch.setattr(fr, "LISTING_FEEDS", [("only_label", "URL")])
+
+    with pytest.raises(SystemExit) as exc_info:
+        fr.collect_posts()
+
+    assert exc_info.value.code == 1
+    assert "only_label" in capsys.readouterr().out
+
+
 # --- parse_thread_comments: exclude the post's own re-appearing entry ---
 
 
@@ -325,6 +447,73 @@ def test_fetch_thread_comments_text_hard_stop_propagates_not_swallowed(monkeypat
     assert exc_info.value.code == 1
 
 
+# --- fetch_thread_comments_text: 429 cooldown-retry, rate_limited counter ---
+
+
+def test_fetch_thread_comments_text_429_then_retry_succeeds(monkeypatch):
+    calls = []
+
+    def fake_fetch_rss(url):
+        calls.append(url)
+        if len(calls) == 1:
+            raise requests.HTTPError("429", response=FakeHTTPResponse(429))
+        return COMMENT_FEED_XML
+
+    sleep_calls = []
+    monkeypatch.setattr(fr, "_fetch_rss", fake_fetch_rss)
+    monkeypatch.setattr(fr.time, "sleep", lambda s: sleep_calls.append(s))
+    stats: Counter = Counter()
+
+    result = fr.fetch_thread_comments_text("abc123", stats)
+
+    assert result == ["Comment one & more.", "Comment two."]
+    assert stats["rate_limited"] == 0
+    assert stats["comments_fetch_failed"] == 0
+    assert sleep_calls == [fr.RATE_LIMIT_COOLDOWN]
+    assert len(calls) == 2
+
+
+def test_fetch_thread_comments_text_429_twice_counts_rate_limited_run_continues(
+    monkeypatch,
+):
+    def fake_fetch_rss(url):
+        raise requests.HTTPError("429", response=FakeHTTPResponse(429))
+
+    sleep_calls = []
+    monkeypatch.setattr(fr, "_fetch_rss", fake_fetch_rss)
+    monkeypatch.setattr(fr.time, "sleep", lambda s: sleep_calls.append(s))
+    stats: Counter = Counter()
+
+    result = fr.fetch_thread_comments_text("abc123", stats)
+
+    assert result == []
+    assert stats["rate_limited"] == 1
+    assert stats["comments_fetch_failed"] == 0
+    assert sleep_calls == [fr.RATE_LIMIT_COOLDOWN]
+
+
+def test_fetch_thread_comments_text_403_hard_stop_no_retry_single_attempt(
+    monkeypatch,
+):
+    calls = []
+
+    def fake_fetch_rss(url):
+        calls.append(url)
+        raise SystemExit(1)
+
+    sleep_calls = []
+    monkeypatch.setattr(fr, "_fetch_rss", fake_fetch_rss)
+    monkeypatch.setattr(fr.time, "sleep", lambda s: sleep_calls.append(s))
+    stats: Counter = Counter()
+
+    with pytest.raises(SystemExit) as exc_info:
+        fr.fetch_thread_comments_text("abc123", stats)
+
+    assert exc_info.value.code == 1
+    assert sleep_calls == []
+    assert len(calls) == 1
+
+
 # --- _fetch_rss: 403 hard stop vs ordinary HTTP error propagation ---
 
 
@@ -367,6 +556,108 @@ def test_fetch_rss_passes_params_none_and_headers(monkeypatch):
     assert captured["kwargs"]["as_text"] is True
     assert captured["kwargs"]["min_interval"] == 10.0
     assert "params" not in captured["kwargs"]
+
+
+# --- _is_rate_limited: 429 detection, None-response guard (rule 5) ---
+
+
+def test_is_rate_limited_true_for_429():
+    exc = requests.HTTPError("429 Too Many Requests", response=FakeHTTPResponse(429))
+    assert fr._is_rate_limited(exc) is True
+
+
+def test_is_rate_limited_false_for_other_status():
+    exc = requests.HTTPError("500 Server Error", response=FakeHTTPResponse(500))
+    assert fr._is_rate_limited(exc) is False
+
+
+def test_is_rate_limited_false_when_response_is_none():
+    """A network-layer HTTPError (no real response) must never be treated
+    as a 429 -- guard against exc.response being None (rule 5)."""
+    exc = requests.HTTPError("boom")
+    assert fr._is_rate_limited(exc) is False
+
+
+# --- _fetch_rss_retrying_429: 429 cooldown-retry-once; 403 precedence unchanged ---
+
+
+def test_fetch_rss_retrying_429_cooldown_then_retry_succeeds(monkeypatch, capsys):
+    calls = []
+
+    def fake_cached_get_json(*args, **kwargs):
+        calls.append(1)
+        if len(calls) == 1:
+            raise requests.HTTPError(
+                "429 Too Many Requests", response=FakeHTTPResponse(429)
+            )
+        return "<feed></feed>"
+
+    sleep_calls = []
+    monkeypatch.setattr(fr.common, "cached_get_json", fake_cached_get_json)
+    monkeypatch.setattr(fr.time, "sleep", lambda s: sleep_calls.append(s))
+
+    result = fr._fetch_rss_retrying_429("https://x/feed", "my_label")
+
+    assert result == "<feed></feed>"
+    assert len(calls) == 2  # original attempt + exactly one retry
+    assert sleep_calls == [fr.RATE_LIMIT_COOLDOWN]
+    out = capsys.readouterr().out
+    assert f"rate limited, cooling down {fr.RATE_LIMIT_COOLDOWN}s: my_label" in out
+
+
+def test_fetch_rss_retrying_429_second_429_propagates_after_one_retry(monkeypatch):
+    calls = []
+
+    def fake_cached_get_json(*args, **kwargs):
+        calls.append(1)
+        raise requests.HTTPError("429", response=FakeHTTPResponse(429))
+
+    sleep_calls = []
+    monkeypatch.setattr(fr.common, "cached_get_json", fake_cached_get_json)
+    monkeypatch.setattr(fr.time, "sleep", lambda s: sleep_calls.append(s))
+
+    with pytest.raises(requests.HTTPError):
+        fr._fetch_rss_retrying_429("https://x/feed", "my_label")
+
+    assert len(calls) == 2  # no infinite retry loop -- exactly once
+    assert sleep_calls == [fr.RATE_LIMIT_COOLDOWN]  # cooled down once, not twice
+
+
+def test_fetch_rss_retrying_429_non_429_http_error_no_cooldown_no_retry(monkeypatch):
+    calls = []
+
+    def fake_cached_get_json(*args, **kwargs):
+        calls.append(1)
+        raise requests.HTTPError("500 Server Error", response=FakeHTTPResponse(500))
+
+    sleep_calls = []
+    monkeypatch.setattr(fr.common, "cached_get_json", fake_cached_get_json)
+    monkeypatch.setattr(fr.time, "sleep", lambda s: sleep_calls.append(s))
+
+    with pytest.raises(requests.HTTPError):
+        fr._fetch_rss_retrying_429("https://x/feed", "my_label")
+
+    assert len(calls) == 1
+    assert sleep_calls == []
+
+
+def test_fetch_rss_retrying_429_403_takes_precedence_no_cooldown(monkeypatch):
+    calls = []
+
+    def fake_cached_get_json(*args, **kwargs):
+        calls.append(1)
+        raise requests.HTTPError("403 Forbidden", response=FakeHTTPResponse(403))
+
+    sleep_calls = []
+    monkeypatch.setattr(fr.common, "cached_get_json", fake_cached_get_json)
+    monkeypatch.setattr(fr.time, "sleep", lambda s: sleep_calls.append(s))
+
+    with pytest.raises(SystemExit) as exc_info:
+        fr._fetch_rss_retrying_429("https://x/feed", "my_label")
+
+    assert exc_info.value.code == 1
+    assert len(calls) == 1  # no retry attempted
+    assert sleep_calls == []
 
 
 # --- strip_code_fence + _parse_llm_output: clean / fenced / invalid stdout ---
@@ -693,3 +984,21 @@ def test_aggregate_empty_norm_partial_side_also_skipped_and_counted():
 def test_aggregate_empty_posts_items_returns_empty_list():
     stats: Counter = Counter()
     assert fr.aggregate_mentions([], stats) == []
+
+
+# --- _print_summary: rate_limited joins the existing skip-counter line ---
+
+
+def test_print_summary_includes_rate_limited_in_skip_line(capsys):
+    stats: Counter = Counter(
+        {
+            "comments_fetch_failed": 2,
+            "rate_limited": 3,
+            "malformed_items": 1,
+            "empty_norm": 0,
+        }
+    )
+    fr._print_summary(5, [], stats)
+
+    out = capsys.readouterr().out
+    assert "rate_limited=3" in out

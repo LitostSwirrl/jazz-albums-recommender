@@ -11,6 +11,15 @@ print one line, exit 1 -- never escalated to JSON scraping, other
 endpoints, mobile/app spoofing, or third-party mirrors. Other per-thread
 HTTP failures (404, 5xx, timeouts) are ordinary skip+count events.
 
+A 429 (rate limited) is retried once: print one line, sleep
+RATE_LIMIT_COOLDOWN seconds, refetch (Reddit's anonymous RSS 429s carry no
+usable Retry-After, so this cooldown is fixed rather than header-driven).
+If that retry ALSO 429s -- or any other non-403 listing-feed fetch fails
+outright -- the whole run hard-stops (print one line, exit 1): a listing
+is a quarter of the post universe and the run is resumable from cache. A
+per-thread comments fetch that exhausts its 429 retry, or fails for any
+other non-403 reason, stays an ordinary skip+count instead.
+
 Four fixed listing feeds (r/jazz top/year, r/jazz top/all, r/jazzguitar
 top/all, r/jazz search "best albums") are deduped by post id -- a post can
 appear in more than one -- and processed in sorted-id order for
@@ -34,6 +43,7 @@ import json
 import re
 import subprocess
 import sys
+import time
 import xml.etree.ElementTree as ET
 from collections import Counter
 
@@ -44,6 +54,7 @@ from scripts.recs import common
 ATOM_NS = "{http://www.w3.org/2005/Atom}"
 BUCKET = "reddit"
 MIN_INTERVAL = 10.0
+RATE_LIMIT_COOLDOWN = 60
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
@@ -172,6 +183,46 @@ def _fetch_rss(url: str) -> str:
         raise
 
 
+def _is_rate_limited(exc: requests.HTTPError) -> bool:
+    """True only for an actual HTTP 429 response. exc.response can be None
+    (a network-layer HTTPError, not a real response) -- that case must NOT
+    be treated as a 429; it falls through to the plain-failure path
+    (rule 4/5), same as any other non-403 error."""
+    return exc.response is not None and exc.response.status_code == 429
+
+
+def _fetch_rss_retrying_429(url: str, label: str) -> str:
+    """Reddit's anonymous RSS 429s carry no usable Retry-After (quota-window
+    "x-ratelimit-remaining: 0.0" style, confirmed live) -- common.py's own
+    built-in single short retry is largely ineffective against it. On a
+    first-attempt 429 (only): print one cooldown line naming `label`, sleep
+    RATE_LIMIT_COOLDOWN seconds, then refetch exactly once (the failed
+    attempt was never cached, so this is a genuine second network call, not
+    a cache hit). A 403 still hard-stops first, unretried, inside
+    _fetch_rss above -- unchanged, and unaffected by any of this since it
+    exits the process before returning here. Anything else -- the retry
+    also 429ing, or a non-429/non-403 error on the first attempt --
+    propagates to the caller, which decides listing-hard-abort vs.
+    thread-skip+count."""
+    try:
+        return _fetch_rss(url)
+    except requests.HTTPError as exc:
+        if not _is_rate_limited(exc):
+            raise
+        print(f"rate limited, cooling down {RATE_LIMIT_COOLDOWN}s: {label}")
+        time.sleep(RATE_LIMIT_COOLDOWN)
+        return _fetch_rss(url)
+
+
+def _hard_stop_listing(label: str, reason: str) -> None:
+    """A listing feed is a quarter of the post universe -- unlike a
+    per-thread failure, a gap here is never silently acceptable. Print one
+    clear line and exit 1; the run is resumable, since every fetch that
+    already succeeded (listings and threads alike) stayed cached."""
+    print(f"reddit RSS listing feed failed ({reason}), aborting: {label}")
+    sys.exit(1)
+
+
 # --- listing sweep: fetch the four fixed feeds, dedup posts across them ---
 
 
@@ -180,10 +231,27 @@ def collect_posts() -> dict[str, dict]:
     {post_id: {"id", "title", "url", "published", "feeds", "selftext"}}
     deduped across feeds -- a post appearing in more than one keeps its
     first-seen title/url/published/selftext, with every feed it appeared in
-    recorded (first-seen order) in "feeds"."""
+    recorded (first-seen order) in "feeds".
+
+    A listing fetch gets the same one-shot 429 cooldown-retry as a thread
+    fetch (_fetch_rss_retrying_429). Anything that survives that -- a
+    repeat 429, some other non-403 HTTP error, or a network error -- hard
+    stops the whole run (_hard_stop_listing) instead of silently skipping a
+    quarter of the post universe. A 403 hard-stops immediately, as always,
+    inside _fetch_rss."""
     posts: dict[str, dict] = {}
     for label, url in LISTING_FEEDS:
-        xml_text = _fetch_rss(url)
+        try:
+            xml_text = _fetch_rss_retrying_429(url, label)
+        except requests.HTTPError as exc:
+            if _is_rate_limited(exc):
+                _hard_stop_listing(label, "rate limited twice")
+            elif exc.response is not None:
+                _hard_stop_listing(label, f"HTTP {exc.response.status_code}")
+            else:
+                _hard_stop_listing(label, "network error")
+        except requests.RequestException:
+            _hard_stop_listing(label, "network error")
         for entry in parse_feed(xml_text):
             post_id = strip_post_prefix(entry["id"])
             if post_id not in posts:
@@ -205,15 +273,23 @@ def collect_posts() -> dict[str, dict]:
 
 def fetch_thread_comments_text(post_id: str, stats: Counter) -> list[str]:
     """Fetch and parse a thread's comments .rss. A 403 is the hard stop
-    (raised inside _fetch_rss). Any other requests.RequestException is a
-    per-thread skip: counted, logged by post id only -- the raw thread file
+    (raised inside _fetch_rss). A 429 gets one cooldown-retry
+    (_fetch_rss_retrying_429); if that retry ALSO 429s, it's a per-thread
+    skip counted separately (rate_limited) from other transport failures.
+    Any other requests.RequestException (including a non-403, non-429
+    HTTPError) is the existing per-thread skip: counted
+    (comments_fetch_failed), logged by post id only -- the raw thread file
     still gets written by the caller, with comments=[]."""
     url = COMMENTS_URL_TMPL.format(post_id=post_id)
     try:
-        xml_text = _fetch_rss(url)
-    except requests.RequestException:
-        stats["comments_fetch_failed"] += 1
-        print(f"skip comments (HTTP error): {post_id}")
+        xml_text = _fetch_rss_retrying_429(url, post_id)
+    except requests.RequestException as exc:
+        if isinstance(exc, requests.HTTPError) and _is_rate_limited(exc):
+            stats["rate_limited"] += 1
+            print(f"skip comments (rate limited twice): {post_id}")
+        else:
+            stats["comments_fetch_failed"] += 1
+            print(f"skip comments (HTTP error): {post_id}")
         return []
     return parse_thread_comments(xml_text, post_id)
 
@@ -394,6 +470,7 @@ def _print_summary(post_count: int, mentions: list[dict], stats: Counter) -> Non
     print(
         "skipped -- "
         f"comments_fetch_failed={stats['comments_fetch_failed']} "
+        f"rate_limited={stats['rate_limited']} "
         f"malformed_items={stats['malformed_items']} "
         f"empty_norm={stats['empty_norm']}"
     )
