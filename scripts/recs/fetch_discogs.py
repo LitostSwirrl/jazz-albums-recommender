@@ -46,6 +46,21 @@ FIXED_SCENE_LABELS = [
 OUTPUT_PATH = common.CACHE / "discogs.json"
 PROGRESS_EVERY = 10
 
+# A profile/fixed-list label name can exact-norm-match an unrelated Discogs
+# homonym instead of the intended canonical label -- verified for this one
+# case: Discogs label 34094 "Riverside Records" is the real 1950s-60s
+# American jazz label (its /releases sample includes Wes Montgomery, Bill
+# Evans Trio, Thelonious Monk Quartet, Chet Baker); plain q="Riverside" has
+# no cleanup-free exact match against "Riverside Records", so the homonym
+# "Riverside (2)" -- a Polish progressive-rock band's own label imprint --
+# won instead after clean_discogs_name's marker-stripping. Contamination was
+# verified isolated to this one case (all other 17 labels + 37 matched
+# artists resolved via a clean, unmarked exact match), so a single alias is
+# the whole fix -- not a general homonym-preference heuristic.
+LABEL_QUERY_ALIASES = {
+    "Riverside": "Riverside Records",
+}
+
 # Discogs disambiguation markers on entity names (artists, labels, credits):
 # a trailing homonym index "(2)" (this is the 2nd profile with this exact
 # name) and/or a trailing name-variant marker "*" (this credit line is a
@@ -152,14 +167,22 @@ def _find_artist(name: str) -> tuple[int, str] | None:
     return None
 
 
+def _label_query(name: str) -> str:
+    """Map a label name to its Discogs search query via LABEL_QUERY_ALIASES,
+    passing through unchanged when no alias applies."""
+    return LABEL_QUERY_ALIASES.get(name, name)
+
+
 def _find_label(name: str) -> tuple[int, str] | None:
     """Same exact-norm-match contract as _find_artist, for labels. Discogs
     uses the identical '(2)'/'*' disambiguation convention on label names
     (e.g. a hypothetical 'ECM (2)') -- left uncleaned, common.norm() keeps
     the digit ('ecm 2') and a real match would be missed, so the same
-    cleanup applies here too."""
-    norm_target = common.norm(name)
-    data = _get(f"{API_BASE}/database/search", {"q": name, "type": "label"})
+    cleanup applies here too. Searches and matches against _label_query(name)
+    (see LABEL_QUERY_ALIASES), not the raw name."""
+    query_name = _label_query(name)
+    norm_target = common.norm(query_name)
+    data = _get(f"{API_BASE}/database/search", {"q": query_name, "type": "label"})
     for result in data.get("results", []):
         candidate = clean_discogs_name(result.get("title", ""))
         if common.norm(candidate) == norm_target:
@@ -200,9 +223,24 @@ def _extract_credits(release: dict) -> list[str]:
     return credits
 
 
-def _build_release_entry(release: dict, artist_name: str, via: str) -> dict:
+def _release_primary_artist(release: dict) -> str:
+    """Discogs primary credit order: artists[0].name, cleaned. norm_key is
+    the cross-source join key downstream (Task 9 merges rym/discogs/lastfm
+    candidates by it; ownership matching uses it), so the emitted artist
+    must reflect the release's own real primary credit -- not whichever
+    artist's/label's sweep happened to surface it (a co-credited album can
+    be swept via a secondary artist's discography, e.g. Pharoah Sanders'
+    sweep surfacing a release Discogs credits primarily to Alice Coltrane)."""
+    artists = release.get("artists", [])
+    if not artists:
+        return ""
+    return clean_discogs_name(artists[0].get("name", ""))
+
+
+def _build_release_entry(release: dict, via: str) -> dict:
     community = release.get("community", {})
     rating = community.get("rating", {})
+    artist_name = _release_primary_artist(release)
     return {
         "norm_key": common.norm_key(artist_name, release.get("title", "")),
         "artist": artist_name,
@@ -225,6 +263,11 @@ def _build_release_entry(release: dict, artist_name: str, via: str) -> dict:
 def _fetch_artist_release(
     candidate: dict, artist_name: str, owned_keys: set[str], stats: Counter[str]
 ) -> dict | None:
+    """Two owned gates, not one: the cheap pre-detail check below (swept
+    artist's name + listing title) catches most owned releases without a
+    fetch; it can miss when Discogs' real primary credit (only known once
+    release detail is in hand) differs from the swept artist -- so the
+    entry's actual norm_key is rechecked after _build_release_entry too."""
     title = candidate.get("title", "")
     if common.norm_key(artist_name, title) in owned_keys:
         stats["owned_skipped"] += 1
@@ -243,7 +286,11 @@ def _fetch_artist_release(
         print(f"skip release (HTTP error): {artist_name} -- {title}")
         return None
 
-    return _build_release_entry(release, artist_name, f"artist:{artist_name}")
+    entry = _build_release_entry(release, f"artist:{artist_name}")
+    if entry["norm_key"] in owned_keys:
+        stats["owned_skipped"] += 1
+        return None
+    return entry
 
 
 def sweep_artists(
@@ -327,6 +374,7 @@ def _resolve_labels(
 def _fetch_label_release(
     candidate: dict, label_name: str, owned_keys: set[str], stats: Counter[str]
 ) -> dict | None:
+    """Same two-gate contract as _fetch_artist_release -- see its docstring."""
     artist_name = clean_discogs_name(candidate.get("artist", ""))
     title = candidate.get("title", "")
     if common.norm_key(artist_name, title) in owned_keys:
@@ -340,7 +388,11 @@ def _fetch_label_release(
         print(f"skip release (HTTP error): {artist_name} -- {title}")
         return None
 
-    return _build_release_entry(release, artist_name, f"label:{label_name}")
+    entry = _build_release_entry(release, f"label:{label_name}")
+    if entry["norm_key"] in owned_keys:
+        stats["owned_skipped"] += 1
+        return None
+    return entry
 
 
 def sweep_labels(

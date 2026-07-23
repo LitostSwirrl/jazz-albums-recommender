@@ -1,3 +1,5 @@
+from collections import Counter
+
 from scripts.recs import fetch_discogs as fd
 
 
@@ -90,3 +92,127 @@ def test_filter_main_role_keeps_main_and_missing_role():
     ]
     result = fd._filter_main_role(entries)
     assert {e["id"] for e in result} == {1, 3}
+
+
+# --- fix round 1: _label_query alias (Riverside -> Riverside Records) ---
+
+
+def test_label_query_applies_riverside_alias():
+    assert fd._label_query("Riverside") == "Riverside Records"
+
+
+def test_label_query_passthrough_for_unaliased_names():
+    assert fd._label_query("Blue Note") == "Blue Note"
+
+
+# --- fix round 1: _build_release_entry derives artist from primary credit ---
+
+
+def _fake_release(release_id, title, artists, **extra):
+    base = {
+        "id": release_id,
+        "title": title,
+        "artists": [{"name": n} for n in artists],
+        "year": 1971,
+        "community": {"have": 1, "want": 1, "rating": {"average": 4.5, "count": 10}},
+        "labels": [],
+        "extraartists": [],
+        "tracklist": [],
+    }
+    base.update(extra)
+    return base
+
+
+def test_build_release_entry_uses_primary_credit_artist_not_via():
+    """norm_key is the cross-source join key downstream -- artist/norm_key
+    must come from the release's own primary credit (artists[0]), not
+    whichever artist's/label's sweep happened to surface the release. `via`
+    stays untouched, since it records provenance, not attribution."""
+    release = _fake_release(
+        549847, "Journey In Satchidananda", ["Alice Coltrane", "Pharoah Sanders"]
+    )
+    entry = fd._build_release_entry(release, "artist:Pharoah Sanders")
+    assert entry["artist"] == "Alice Coltrane"
+    assert entry["norm_key"] == "alice coltrane::journey in satchidananda"
+    assert entry["via"] == "artist:Pharoah Sanders"
+
+
+def test_build_release_entry_cleans_primary_artist_name():
+    release = _fake_release(1, "Some Album", ["Bob James (2)"])
+    entry = fd._build_release_entry(release, "artist:X")
+    assert entry["artist"] == "Bob James"
+
+
+# --- fix round 1: post-detail owned re-check (second gate, not a replacement) ---
+
+
+def test_fetch_artist_release_post_detail_owned_recheck_drops_and_counts(monkeypatch):
+    """Pre-detail check uses the swept artist's name + listing title, so it
+    cannot see that Discogs actually credits this release primarily to
+    Alice Coltrane -- confirmed below the pre-check legitimately misses it
+    (owned_keys only has the Alice Coltrane key). The post-detail recheck,
+    using the corrected norm_key, must catch it: drop the record, count
+    owned_skipped."""
+    candidate = {"id": 999, "title": "Journey In Satchidananda"}
+    owned_keys = {"alice coltrane::journey in satchidananda"}
+    stats: Counter[str] = Counter()
+    pre_check_key = fd.common.norm_key("Pharoah Sanders", candidate["title"])
+    assert pre_check_key not in owned_keys  # pre-check alone would not catch this
+
+    def fake_get(url, params=None):
+        if "/masters/" in url:
+            return {"main_release": 549847}
+        return _fake_release(
+            549847, "Journey In Satchidananda", ["Alice Coltrane", "Pharoah Sanders"]
+        )
+
+    monkeypatch.setattr(fd, "_get", fake_get)
+    result = fd._fetch_artist_release(candidate, "Pharoah Sanders", owned_keys, stats)
+
+    assert result is None
+    assert stats["owned_skipped"] == 1
+
+
+def test_fetch_artist_release_keeps_corrected_artist_when_not_owned(monkeypatch):
+    candidate = {"id": 999, "title": "Journey In Satchidananda"}
+    owned_keys: set[str] = set()
+    stats: Counter[str] = Counter()
+
+    def fake_get(url, params=None):
+        if "/masters/" in url:
+            return {"main_release": 549847}
+        return _fake_release(
+            549847, "Journey In Satchidananda", ["Alice Coltrane", "Pharoah Sanders"]
+        )
+
+    monkeypatch.setattr(fd, "_get", fake_get)
+    result = fd._fetch_artist_release(candidate, "Pharoah Sanders", owned_keys, stats)
+
+    assert result is not None
+    assert result["artist"] == "Alice Coltrane"
+    assert result["norm_key"] == "alice coltrane::journey in satchidananda"
+    assert result["via"] == "artist:Pharoah Sanders"
+    assert stats["owned_skipped"] == 0
+
+
+def test_fetch_label_release_post_detail_owned_recheck_drops_and_counts(monkeypatch):
+    """Same second-gate wiring, label-sweep path: the listing's `artist`
+    field can also diverge from the release detail's real primary credit."""
+    candidate = {
+        "id": 999,
+        "title": "Journey In Satchidananda",
+        "artist": "Pharoah Sanders",
+    }
+    owned_keys = {"alice coltrane::journey in satchidananda"}
+    stats: Counter[str] = Counter()
+
+    def fake_get(url, params=None):
+        return _fake_release(
+            549847, "Journey In Satchidananda", ["Alice Coltrane", "Pharoah Sanders"]
+        )
+
+    monkeypatch.setattr(fd, "_get", fake_get)
+    result = fd._fetch_label_release(candidate, "Impulse!", owned_keys, stats)
+
+    assert result is None
+    assert stats["owned_skipped"] == 1
