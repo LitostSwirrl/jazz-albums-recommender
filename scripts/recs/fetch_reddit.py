@@ -77,7 +77,12 @@ COMMENTS_URL_TMPL = "https://www.reddit.com/comments/{post_id}/.rss?limit=100"
 
 TEXT_CAP = 12000
 CLAUDE_MODEL = "haiku"
-LLM_TIMEOUT = 120
+# 300s not 120s: album-rich threads make Haiku generate 100+ items, which
+# takes time. A 12000-char thread (post 178in0e) measured 250s producing 118
+# items; the old 120s cut it off and cached it as a false "unparseable".
+# Unattended extraction runs faster than one competing with a live session,
+# so most of this is headroom.
+LLM_TIMEOUT = 300
 PROMPT = (
     "Extract every specific music album recommendation from this Reddit "
     "thread text. Return ONLY a JSON array, no prose, no code fences: "
