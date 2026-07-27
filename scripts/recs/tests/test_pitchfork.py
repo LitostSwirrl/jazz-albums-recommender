@@ -1,3 +1,4 @@
+import argparse
 import json
 from collections import Counter
 from datetime import date
@@ -850,3 +851,97 @@ def test_fetch_reviews_fails_loud_when_artists_key_missing(monkeypatch, tmp_path
 
     assert exc_info.value.code == 1
     assert (tmp_path / "fail.html").read_text(encoding="utf-8") == html
+
+
+# --- Finding 2: the zero-review floor is unconditional, scaled by --max-pages ---
+
+
+def test_min_reviews_for_scales_with_max_pages():
+    """--max-pages used to switch the floor OFF, i.e. on exactly the staged
+    production runs it was built for. It now scales instead."""
+    assert fp._min_reviews_for(None) == fp.MIN_REVIEWS
+    assert fp._min_reviews_for(fp.MAX_PAGES) == fp.MIN_REVIEWS
+    assert fp._min_reviews_for(fp.MAX_PAGES * 2) == fp.MIN_REVIEWS
+    assert fp._min_reviews_for(8) == 10
+    assert fp._min_reviews_for(1) == 1
+
+
+def _stub_main(monkeypatch, tmp_path, max_pages, reviews):
+    monkeypatch.setattr(fp, "OUTPUT_PATH", tmp_path / "pitchfork.json")
+    monkeypatch.setattr(fp, "PARSE_FAIL_PATH", tmp_path / "fail.html")
+    monkeypatch.setattr(fp.common, "CACHE", tmp_path)
+    monkeypatch.setattr(
+        fp, "_parse_args", lambda: argparse.Namespace(max_pages=max_pages)
+    )
+    monkeypatch.setattr(
+        fp, "collect_review_urls", lambda stats, pages: ([], "<html></html>")
+    )
+    monkeypatch.setattr(fp, "fetch_reviews", lambda pairs, stats: reviews)
+
+
+def test_main_fails_loud_on_zero_reviews_even_with_max_pages(monkeypatch, tmp_path):
+    """A soft 404 or markup change during a staged run used to overwrite the
+    good 99KB pitchfork.json with {"reviews": []} and exit 0."""
+    _stub_main(monkeypatch, tmp_path, max_pages=8, reviews=[])
+
+    with pytest.raises(SystemExit) as exc_info:
+        fp.main()
+
+    assert exc_info.value.code == 1
+    assert not (tmp_path / "pitchfork.json").exists()
+
+
+def test_main_staged_run_above_scaled_floor_still_writes_output(monkeypatch, tmp_path):
+    """The floor must not be so strict that a legitimate small staged run
+    fails: one page expects one review."""
+    review = {
+        "norm_key": "a::b",
+        "artist": "A",
+        "title": "B",
+        "score": 8.0,
+        "bnm": False,
+        "year": 2026,
+        "url": "https://pitchfork.com/reviews/albums/b/",
+    }
+    _stub_main(monkeypatch, tmp_path, max_pages=1, reviews=[review])
+
+    fp.main()
+
+    assert json.loads((tmp_path / "pitchfork.json").read_text(encoding="utf-8")) == {
+        "reviews": [review]
+    }
+
+
+def test_collect_review_urls_fails_loud_when_page_one_has_zero_links(
+    monkeypatch, tmp_path
+):
+    """parse_listing returns [] (not None) for a page with no links, because
+    0 hrefs == 0 dates -- so fail-loud never fired and the crawl recorded a
+    tidy "stopped_no_new_links". A real jazz listing page always has links."""
+    monkeypatch.setattr(
+        fp, "_fetch_listing_page", lambda page: "<html><body>nothing</body></html>"
+    )
+    monkeypatch.setattr(fp, "PARSE_FAIL_PATH", tmp_path / "fail.html")
+    monkeypatch.setattr(fp.common, "CACHE", tmp_path)
+    stats: Counter = Counter()
+
+    with pytest.raises(SystemExit) as exc_info:
+        fp.collect_review_urls(stats, max_pages=5)
+
+    assert exc_info.value.code == 1
+    assert stats["listing_stopped_no_new_links"] == 0
+
+
+def test_collect_review_urls_later_empty_page_still_stops_normally(monkeypatch):
+    """Only page 1 is treated as a parse failure -- running off the end of
+    the listing on a later page is the ordinary stop condition."""
+
+    def fake_fetch(page):
+        return LISTING_PAGE_1 if page == 1 else "<html><body>nothing</body></html>"
+
+    monkeypatch.setattr(fp, "_fetch_listing_page", fake_fetch)
+    stats: Counter = Counter()
+    pairs, _first_html = fp.collect_review_urls(stats, max_pages=5)
+
+    assert len(pairs) == 2
+    assert stats["listing_stopped_no_new_links"] == 1

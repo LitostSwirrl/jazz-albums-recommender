@@ -1,3 +1,4 @@
+import argparse
 import subprocess
 from collections import Counter
 
@@ -815,23 +816,8 @@ def test_get_or_extract_second_attempt_succeeds_no_error_record(monkeypatch, tmp
     assert stats["unparseable"] == 0
 
 
-def test_get_or_extract_timeout_expired_treated_as_parse_failure_then_retries(
-    monkeypatch, tmp_path
-):
-    monkeypatch.setattr(fr, "EXTRACTED_CACHE", tmp_path)
-    calls = []
-
-    def fake_run(cmd, **kwargs):
-        calls.append(cmd)
-        raise subprocess.TimeoutExpired(cmd=cmd, timeout=120)
-
-    monkeypatch.setattr(fr.subprocess, "run", fake_run)
-    stats: Counter = Counter()
-    result = fr.get_or_extract("post4", "text", stats)
-
-    assert result == {"error": "unparseable"}
-    assert len(calls) == 2
-    assert stats["unparseable"] == 1
+# A TimeoutExpired now counts as a subprocess failure rather than a permanent
+# error record -- see test_get_or_extract_timeout_is_not_persisted below.
 
 
 def test_get_or_extract_existing_valid_cache_never_invokes_subprocess(
@@ -1038,3 +1024,201 @@ def test_print_summary_includes_rate_limited_in_skip_line(capsys):
 
     out = capsys.readouterr().out
     assert "rate_limited=3" in out
+
+
+# --- Finding 7: a successful-but-empty listing feed is a hard stop ---
+
+
+def test_collect_posts_hard_stops_on_empty_feed(monkeypatch, capsys):
+    """jazz_search_best_albums is a search feed and the flakiest of the four.
+    An HTTP 200 with zero entries used to pass through in silence -- a quarter
+    of the post universe gone, and the empty 200 cached permanently."""
+    monkeypatch.setattr(fr, "_fetch_rss", lambda url: _wrap_feed(""))
+    monkeypatch.setattr(
+        fr, "LISTING_FEEDS", [("jazz_search_best_albums", "URL_SEARCH")]
+    )
+
+    with pytest.raises(SystemExit) as exc_info:
+        fr.collect_posts()
+
+    assert exc_info.value.code == 1
+    assert "jazz_search_best_albums" in capsys.readouterr().out
+
+
+def test_collect_posts_hard_stops_on_empty_feed_after_a_good_one(monkeypatch, capsys):
+    """The check is per feed, not on the run total -- three good feeds must
+    not mask the fourth coming back empty."""
+    good = _wrap_feed(
+        _entry_xml(
+            "t3_p1", "P1", "https://x/p1", "2026-01-01T00:00:00+00:00", "<p>S</p>"
+        )
+    )
+
+    monkeypatch.setattr(
+        fr, "_fetch_rss", lambda url: good if url == "URL_A" else _wrap_feed("")
+    )
+    monkeypatch.setattr(
+        fr, "LISTING_FEEDS", [("label_a", "URL_A"), ("label_b", "URL_B")]
+    )
+
+    with pytest.raises(SystemExit) as exc_info:
+        fr.collect_posts()
+
+    assert exc_info.value.code == 1
+    assert "label_b" in capsys.readouterr().out
+
+
+# --- Finding 6: subprocess failure is not a permanent "unparseable" record ---
+
+
+def test_get_or_extract_nonzero_exit_prints_stderr_and_is_not_persisted(
+    monkeypatch, tmp_path, capsys
+):
+    """Not authenticated / API 429 / quota exhausted must stay retryable: the
+    old code wrote {"error": "unparseable"} and by design never retried, so a
+    blip 100 posts into a ~380-post run became 100 permanent holes."""
+    monkeypatch.setattr(fr, "EXTRACTED_CACHE", tmp_path)
+
+    def fake_run(cmd, **kwargs):
+        return FakeResult(
+            returncode=1, stderr="Invalid API key -- run /login\nstack frame two"
+        )
+
+    monkeypatch.setattr(fr.subprocess, "run", fake_run)
+    stats: Counter = Counter()
+    result = fr.get_or_extract("post_fail", "text", stats)
+
+    assert not (tmp_path / "post_fail.json").exists()
+    assert stats["llm_failed"] == 1
+    assert stats["unparseable"] == 0
+    assert fr.validate_items(result, stats) == []
+
+    out = capsys.readouterr().out
+    assert "Invalid API key -- run /login" in out
+    assert "stack frame two" not in out  # first stderr line only
+
+
+def test_get_or_extract_timeout_is_not_persisted(monkeypatch, tmp_path):
+    """A timeout is the subprocess not succeeding, not a thread with nothing
+    extractable -- and the module already records one false "unparseable"
+    caused by a too-short timeout."""
+    monkeypatch.setattr(fr, "EXTRACTED_CACHE", tmp_path)
+    calls = []
+
+    def fake_run(cmd, **kwargs):
+        calls.append(cmd)
+        raise subprocess.TimeoutExpired(cmd=cmd, timeout=fr.LLM_TIMEOUT)
+
+    monkeypatch.setattr(fr.subprocess, "run", fake_run)
+    stats: Counter = Counter()
+    result = fr.get_or_extract("post_timeout", "text", stats)
+
+    assert len(calls) == 2
+    assert not (tmp_path / "post_timeout.json").exists()
+    assert stats["llm_failed"] == 1
+    assert stats["unparseable"] == 0
+    assert fr.validate_items(result, stats) == []
+
+
+def test_get_or_extract_clean_exit_unparseable_output_still_persisted(
+    monkeypatch, tmp_path
+):
+    """The other half of the finding: a junk thread the extractor genuinely
+    could not parse keeps its permanent error record."""
+    monkeypatch.setattr(fr, "EXTRACTED_CACHE", tmp_path)
+    monkeypatch.setattr(
+        fr.subprocess,
+        "run",
+        lambda cmd, **kwargs: FakeResult(returncode=0, stdout="no array here"),
+    )
+    stats: Counter = Counter()
+    result = fr.get_or_extract("post_junk", "text", stats)
+
+    assert result == {"error": "unparseable"}
+    assert common.load_json(tmp_path / "post_junk.json") == {"error": "unparseable"}
+    assert stats["unparseable"] == 1
+    assert stats["llm_failed"] == 0
+
+
+# --- Finding 6: abort when extraction is failing across the run ---
+
+
+def test_abort_if_extraction_failing_hard_stops_above_share(capsys):
+    stats: Counter = Counter({"llm_failed": 30, "unparseable": 0})
+
+    with pytest.raises(SystemExit) as exc_info:
+        fr._abort_if_extraction_failing(100, stats)
+
+    assert exc_info.value.code == 1
+    assert "30/100" in capsys.readouterr().out
+
+
+def test_abort_if_extraction_failing_counts_both_failure_kinds():
+    stats: Counter = Counter({"llm_failed": 11, "unparseable": 10})
+
+    with pytest.raises(SystemExit):
+        fr._abort_if_extraction_failing(100, stats)
+
+
+def test_abort_if_extraction_failing_allows_share_below_threshold():
+    stats: Counter = Counter({"llm_failed": 5, "unparseable": 10})
+    fr._abort_if_extraction_failing(100, stats)  # 15% -- no abort
+
+
+def test_abort_if_extraction_failing_ignores_small_sample():
+    """One bad thread out of the first two is not evidence of an outage."""
+    stats: Counter = Counter({"unparseable": 1})
+    fr._abort_if_extraction_failing(2, stats)
+
+
+def test_main_aborts_without_overwriting_output_when_extraction_fails(
+    monkeypatch, tmp_path
+):
+    """End-to-end wiring: a systemic outage must not leave reddit.json
+    overwritten with a thinned mention set at exit 0."""
+    out_path = tmp_path / "reddit.json"
+    common.save_json(out_path, {"mentions": [{"norm_key": "a::b", "count": 9}]})
+
+    monkeypatch.setattr(fr, "OUTPUT_PATH", out_path)
+    monkeypatch.setattr(fr, "THREADS_CACHE", tmp_path / "threads")
+    monkeypatch.setattr(fr, "EXTRACTED_CACHE", tmp_path / "extracted")
+    monkeypatch.setattr(fr.common, "CACHE", tmp_path)
+    monkeypatch.setattr(fr, "_parse_args", lambda: argparse.Namespace(max_posts=None))
+    monkeypatch.setattr(
+        fr,
+        "collect_posts",
+        lambda: {
+            f"post{i:02d}": {
+                "id": f"post{i:02d}",
+                "title": "T",
+                "url": "https://x",
+                "published": "2026-01-01T00:00:00+00:00",
+                "feeds": ["jazz_top_all"],
+                "selftext": "S",
+            }
+            for i in range(20)
+        },
+    )
+    monkeypatch.setattr(fr, "fetch_thread_comments_text", lambda post_id, stats: [])
+    monkeypatch.setattr(
+        fr.subprocess,
+        "run",
+        lambda cmd, **kwargs: FakeResult(returncode=1, stderr="API error 529"),
+    )
+
+    with pytest.raises(SystemExit) as exc_info:
+        fr.main()
+
+    assert exc_info.value.code == 1
+    assert common.load_json(out_path) == {
+        "mentions": [{"norm_key": "a::b", "count": 9}]
+    }
+
+
+def test_print_summary_reports_llm_failed(capsys):
+    stats: Counter = Counter({"unparseable": 2, "llm_failed": 3})
+    fr._print_summary(10, [], stats)
+
+    out = capsys.readouterr().out
+    assert "llm_failed=3" in out
+    assert "extracted: 5" in out

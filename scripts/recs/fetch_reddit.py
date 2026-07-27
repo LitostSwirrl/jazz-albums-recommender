@@ -20,6 +20,10 @@ is a quarter of the post universe and the run is resumable from cache. A
 per-thread comments fetch that exhausts its 429 retry, or fails for any
 other non-403 reason, stays an ordinary skip+count instead.
 
+A listing feed that returns HTTP 200 with zero entries hard-stops the same
+way: a successful-but-empty feed is still a quarter of the post universe
+gone, and the empty 200 would be cached permanently.
+
 Four fixed listing feeds (r/jazz top/year, r/jazz top/all, r/jazzguitar
 top/all, r/jazz search "best albums") are deduped by post id -- a post can
 appear in more than one -- and processed in sorted-id order for
@@ -27,8 +31,12 @@ determinism. For each post: fetch its comments .rss, cache the raw thread
 (selftext + comment bodies, HTML converted to plain text), then extract
 album mentions via a cached `claude -p --model haiku` subprocess call
 (never re-invoked once a post has an extraction file on disk, including a
-stored error record -- a human deletes the file to force a retry). The LLM
-is used for extraction only; all counting/aggregation is plain code.
+stored error record -- a human deletes the file to force a retry). Only a
+subprocess that RAN and returned unparseable output earns that permanent
+record; one that failed outright (timeout, nonzero exit) is printed with its
+first stderr line, left uncached so the next run retries it, and hard-stops
+the run once such failures exceed EXTRACTION_FAIL_SHARE of posts processed.
+The LLM is used for extraction only; all counting/aggregation is plain code.
 
 Every HTTP call goes through common.cached_get_json (disk-cached,
 rate-limited) -- a rerun after the cache is warm costs zero API calls and
@@ -92,6 +100,10 @@ PROMPT = (
 )
 RETRY_SUFFIX = " Return valid JSON only."
 PROGRESS_EVERY = 10
+# Share of processed posts that may yield no extraction before the run aborts,
+# and the sample size below which the share is too noisy to act on.
+EXTRACTION_FAIL_SHARE = 0.2
+EXTRACTION_MIN_SAMPLE = 10
 
 _TAG_RE = re.compile(r"<[^>]+>")
 _WS_RE = re.compile(r"\s+")
@@ -257,7 +269,17 @@ def collect_posts() -> dict[str, dict]:
                 _hard_stop_listing(label, "network error")
         except requests.RequestException:
             _hard_stop_listing(label, "network error")
-        for entry in parse_feed(xml_text):
+
+        entries = parse_feed(xml_text)
+        if not entries:
+            # HTTP 200 with zero entries used to pass through in silence:
+            # nothing added, no counter moved, nothing printed -- and the empty
+            # 200 cached permanently, so every rerun reproduced it. Same
+            # hard-stop path as a transport failure; a feed is a quarter of the
+            # post universe either way.
+            _hard_stop_listing(label, "zero entries")
+
+        for entry in entries:
             post_id = strip_post_prefix(entry["id"])
             if post_id not in posts:
                 posts[post_id] = {
@@ -361,6 +383,27 @@ def _first_json_array(stdout: str):
     return None
 
 
+def _subprocess_failed(
+    result: subprocess.CompletedProcess | None, post_id: str
+) -> bool:
+    """True when the extraction subprocess itself did not succeed: a timeout,
+    or a nonzero exit (not authenticated, API 429 or 5xx, quota exhausted).
+    stderr was discarded entirely before, which made a systemic outage
+    indistinguishable from a thread that genuinely had nothing extractable --
+    the first stderr line is printed so it is not."""
+    if result is None:
+        print(f"llm extraction failed (timeout after {LLM_TIMEOUT}s): {post_id}")
+        return True
+    if result.returncode != 0:
+        lines = (result.stderr or "").strip().splitlines()
+        detail = lines[0] if lines else "(no stderr)"
+        print(
+            f"llm extraction failed (exit {result.returncode}): {post_id} -- {detail}"
+        )
+        return True
+    return False
+
+
 def get_or_extract(post_id: str, text: str, stats: Counter) -> list | dict:
     """Return the cached extraction for post_id, or call the Haiku
     subprocess (original prompt, then one retry with "Return valid JSON
@@ -369,7 +412,10 @@ def get_or_extract(post_id: str, text: str, stats: Counter) -> list | dict:
     never called again for this post; a human deletes the file to force a
     retry. stats["unparseable"] reflects every post whose final value is an
     error record, whether written just now or reloaded from a prior run --
-    that keeps the run summary's "unparseable: N" honest across reruns."""
+    that keeps the run summary's "unparseable: N" honest across reruns.
+
+    A subprocess that never succeeded (timeout, nonzero exit) is counted
+    separately as stats["llm_failed"] and is NOT cached -- see below."""
     cache_path = EXTRACTED_CACHE / f"{post_id}.json"
     if cache_path.exists():
         cached = common.load_json(cache_path)
@@ -378,9 +424,20 @@ def get_or_extract(post_id: str, text: str, stats: Counter) -> list | dict:
         return cached
 
     stats["llm_calls"] += 1
-    parsed = _parse_llm_output(_run_claude(PROMPT, text))
+    result = _run_claude(PROMPT, text)
+    parsed = _parse_llm_output(result)
     if parsed is None:
-        parsed = _parse_llm_output(_run_claude(PROMPT + RETRY_SUFFIX, text))
+        result = _run_claude(PROMPT + RETRY_SUFFIX, text)
+        parsed = _parse_llm_output(result)
+
+    # A permanent error record is right for a junk thread and wrong for a
+    # systemic outage, so only a subprocess that RAN and produced unparseable
+    # output earns one. A failed subprocess caches nothing: the post is
+    # retried on the next run instead of becoming a permanent hole that every
+    # rerun reproduces from cache at zero cost and zero noise.
+    if parsed is None and _subprocess_failed(result, post_id):
+        stats["llm_failed"] += 1
+        return {"error": "llm_call_failed"}
 
     if parsed is None:
         parsed = {"error": "unparseable"}
@@ -483,9 +540,28 @@ def _bump_progress(stats: Counter) -> None:
         print(f"... {stats['posts_processed']} posts processed")
 
 
+def _abort_if_extraction_failing(processed: int, stats: Counter) -> None:
+    """Hard stop once too large a share of processed posts yielded no
+    extraction. A blip 100 posts into a ~380-post run otherwise thins the
+    mention set, overwrites reddit.json and exits 0, with a one-line summary
+    as the only signal. Below EXTRACTION_MIN_SAMPLE posts the share is too
+    noisy to act on. Nothing is lost by stopping: every successful fetch and
+    extraction stayed cached, so the rerun resumes."""
+    failed = stats["unparseable"] + stats["llm_failed"]
+    if processed < EXTRACTION_MIN_SAMPLE or failed <= processed * EXTRACTION_FAIL_SHARE:
+        return
+    print(
+        f"extraction failing on {failed}/{processed} posts "
+        f"(over {int(EXTRACTION_FAIL_SHARE * 100)}%), aborting -- "
+        "fix the extractor and rerun (cached work is kept)"
+    )
+    sys.exit(1)
+
+
 def _print_summary(post_count: int, mentions: list[dict], stats: Counter) -> None:
     unparseable_n = stats["unparseable"]
-    extracted_n = post_count - unparseable_n
+    llm_failed_n = stats["llm_failed"]
+    extracted_n = post_count - unparseable_n - llm_failed_n
     print(
         f"posts: {post_count} | extracted: {extracted_n} | "
         f"unparseable: {unparseable_n} | distinct albums: {len(mentions)} | "
@@ -497,6 +573,7 @@ def _print_summary(post_count: int, mentions: list[dict], stats: Counter) -> Non
         "skipped -- "
         f"comments_fetch_failed={stats['comments_fetch_failed']} "
         f"rate_limited={stats['rate_limited']} "
+        f"llm_failed={stats['llm_failed']} "
         f"malformed_items={stats['malformed_items']} "
         f"empty_norm={stats['empty_norm']}"
     )
@@ -557,6 +634,7 @@ def main() -> None:
         posts_items.append((post_id, items))
 
         _bump_progress(stats)
+        _abort_if_extraction_failing(stats["posts_processed"], stats)
 
     mentions = aggregate_mentions(posts_items, stats)
 

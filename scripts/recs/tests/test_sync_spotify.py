@@ -1,7 +1,9 @@
 import base64
 import hashlib
 import json
+import os
 import re
+import stat
 import time
 
 import pytest
@@ -485,3 +487,57 @@ def test_api_get_429_sleeps_retry_after_seconds_then_retries(monkeypatch):
     assert result == {"ok": True}
     assert sleeps == [3]  # slept for exactly the Retry-After value, not the default
     assert call_count["n"] == 2
+
+
+# --- Finding 5: the token file is never world-readable, not even briefly ---
+
+
+def test_save_token_is_created_restricted_never_world_readable(monkeypatch, tmp_path):
+    """_save_token used to call common.save_json (creating the file at
+    0o666 & ~umask, i.e. 0644 by default) and only then chmod 0600 -- a
+    window, on every single token refresh, where any local user or process
+    could read the refresh token."""
+    token_path = tmp_path / ".spotify_token.json"
+    monkeypatch.setattr(sync_spotify, "TOKEN_PATH", token_path)
+
+    modes_before_chmod = []
+    real_chmod = os.chmod
+
+    def spy_chmod(path, mode, *args, **kwargs):
+        modes_before_chmod.append(stat.S_IMODE(os.stat(path).st_mode))
+        return real_chmod(path, mode, *args, **kwargs)
+
+    monkeypatch.setattr(os, "chmod", spy_chmod)
+
+    previous_umask = os.umask(0o022)
+    try:
+        sync_spotify._save_token(
+            {"access_token": "a", "refresh_token": "r", "expires_at": 1.0}
+        )
+    finally:
+        os.umask(previous_umask)
+
+    assert stat.S_IMODE(os.stat(token_path).st_mode) == 0o600
+    assert all(mode == 0o600 for mode in modes_before_chmod)
+    assert json.loads(token_path.read_text(encoding="utf-8"))["refresh_token"] == "r"
+
+
+def test_save_token_interrupted_write_keeps_previous_token(monkeypatch, tmp_path):
+    """Finding 4 applies here too: a truncated token file makes the next run
+    crash in json.load, with the refresh token gone."""
+    token_path = tmp_path / ".spotify_token.json"
+    monkeypatch.setattr(sync_spotify, "TOKEN_PATH", token_path)
+    sync_spotify._save_token(
+        {"access_token": "old", "refresh_token": "r", "expires_at": 1.0}
+    )
+
+    def interrupt(*_args, **_kwargs):
+        raise KeyboardInterrupt
+
+    monkeypatch.setattr(sync_spotify.os, "replace", interrupt)
+    with pytest.raises(KeyboardInterrupt):
+        sync_spotify._save_token(
+            {"access_token": "new", "refresh_token": "r2", "expires_at": 2.0}
+        )
+
+    assert json.loads(token_path.read_text(encoding="utf-8"))["access_token"] == "old"

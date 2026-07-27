@@ -102,6 +102,10 @@ def _dedupe_target_names(name_lists: list[list[str]], stats: Counter) -> list[st
 
 
 def _get(params: dict) -> dict:
+    # Invariant: every _get call site must catch requests.RequestException --
+    # the api_key rides in `query`, and raise_for_status() builds its message
+    # from the full url INCLUDING the query string, so an uncaught one prints
+    # the key in the traceback.
     query = {"format": "json", "api_key": os.environ["LASTFM_API_KEY"], **params}
     return common.cached_get_json(
         BUCKET, API_BASE, params=query, min_interval=MIN_INTERVAL

@@ -12,6 +12,7 @@ import argparse
 import base64
 import hashlib
 import http.server
+import json
 import os
 import re
 import secrets
@@ -188,8 +189,17 @@ def _load_token() -> dict | None:
 
 
 def _save_token(token: dict) -> None:
-    common.save_json(TOKEN_PATH, token)
-    TOKEN_PATH.chmod(0o600)
+    """Create the file 0600 from the start. common.save_json + chmod created
+    it at 0o666 & ~umask (0644 by default) and only then tightened it, leaving
+    the refresh token readable by any local user or process in between -- on
+    every token refresh, not just the first. Written via a .tmp sibling +
+    os.replace (which carries the 0600 mode over) so an interrupt mid-write
+    can't leave a truncated file that the next run crashes on in json.load."""
+    tmp_path = TOKEN_PATH.with_name(TOKEN_PATH.name + ".tmp")
+    fd = os.open(tmp_path, os.O_WRONLY | os.O_CREAT | os.O_TRUNC, 0o600)
+    with os.fdopen(fd, "w", encoding="utf-8") as f:
+        json.dump(token, f, ensure_ascii=False, indent=1)
+    os.replace(tmp_path, TOKEN_PATH)
 
 
 def _refresh_auth() -> None:

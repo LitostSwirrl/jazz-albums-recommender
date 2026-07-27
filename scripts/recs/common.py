@@ -6,8 +6,16 @@ import time
 import unicodedata
 from collections import Counter
 from pathlib import Path
+from urllib.parse import urlsplit
 
 import requests
+
+# Connect / read timeout on every request. requests has no default: a server
+# that accepts the connection and never answers would hang an unattended
+# multi-hour run (Reddit's is ~380 posts spaced 90s apart) with no output and
+# no exit. requests.Timeout is a RequestException, so it lands in the
+# skip-and-count handlers the fetchers already have.
+TIMEOUT = (10, 30)
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 CACHE = ROOT / "scripts" / "recs" / "cache"
@@ -161,27 +169,58 @@ def cached_get_json(
     _bucket_last_ts[bucket] = time.time()
 
     # Make request
-    response = requests.get(url, params=params, headers=headers)
+    response = requests.get(url, params=params, headers=headers, timeout=TIMEOUT)
 
     # Handle 429 with Retry-After
     if response.status_code == 429:
         retry_after = int(response.headers.get("Retry-After", 1))
         time.sleep(retry_after)
-        response = requests.get(url, params=params, headers=headers)
+        response = requests.get(url, params=params, headers=headers, timeout=TIMEOUT)
 
-    # Raise on error
+    # Raise on error. Print scheme+host+path only, never the query string:
+    # api keys ride in query params on some buckets and fetch_reddit builds
+    # urls with inline query strings, so this line must be structurally
+    # incapable of carrying a secret. (raise_for_status' own message DOES
+    # include the full url -- callers must catch it, never let it print.)
     if response.status_code >= 400:
-        print(url)
+        parts = urlsplit(url)
+        print(
+            f"{bucket}: HTTP {response.status_code} {parts.scheme}://{parts.netloc}{parts.path}"
+        )
         response.raise_for_status()
 
-    # Cache and return
+    # Cache only AFTER the body proves to be what the caller asked for.
+    # Caching first put two kinds of junk in a permanent cache: a JSON error
+    # body served as HTTP 200 (Last.fm answers rate limits and outages that
+    # way), which would make the resulting skip permanent and unhealable by a
+    # rerun; and a non-JSON page (proxy interstitial, captive portal), which
+    # would make every later run raise on the same poisoned file.
     content = response.text
-    with open(cache_file, "w", encoding="utf-8") as f:
-        f.write(content)
-
     if as_text:
+        _atomic_write_text(cache_file, content)
         return content
-    return response.json()
+
+    parsed = response.json()
+    if isinstance(parsed, dict) and "error" in parsed:
+        return parsed
+
+    _atomic_write_text(cache_file, content)
+    return parsed
+
+
+def _atomic_write_text(path, text: str) -> None:
+    """Write via a .tmp sibling + os.replace (atomic within a filesystem).
+    Opening the destination with "w" truncates it immediately, so a Ctrl-C --
+    the natural way to stop a multi-hour run -- could leave either a
+    half-written cache file that the next run reads as a valid hit (a
+    truncated HTML/RSS page parses as a short but perfectly good page and
+    silently truncates the crawl) or a destroyed 868KB cache/discogs.json
+    with no backup."""
+    path = Path(path)
+    tmp_path = path.with_name(path.name + ".tmp")
+    with open(tmp_path, "w", encoding="utf-8") as f:
+        f.write(text)
+    os.replace(tmp_path, path)
 
 
 def load_json(path):
@@ -191,6 +230,5 @@ def load_json(path):
 
 
 def save_json(path, obj):
-    """Save JSON to file (UTF-8, ensure_ascii=False, indent=1)."""
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(obj, f, ensure_ascii=False, indent=1)
+    """Save JSON to file (UTF-8, ensure_ascii=False, indent=1), atomically."""
+    _atomic_write_text(path, json.dumps(obj, ensure_ascii=False, indent=1))

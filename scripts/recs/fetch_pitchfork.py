@@ -338,6 +338,15 @@ def collect_review_urls(
             _fail_loud(
                 html, f"{LISTING_URL}?page={page}", "listing href/date count mismatch"
             )
+        if page == 1 and not pairs:
+            # A real jazz listing page always carries links. Zero of them means
+            # markup drift or a soft 404 (HTTP 200 with an error page -- the
+            # previous URL scheme did exactly that), and parse_listing can't
+            # tell: 0 hrefs == 0 dates, so it returns [] rather than None and
+            # the crawl would record a tidy "stopped_no_new_links" instead.
+            _fail_loud(
+                html, f"{LISTING_URL}?page={page}", "listing page 1 yielded zero links"
+            )
 
         new_pairs = dedupe_new(pairs, seen)
         if not new_pairs:
@@ -459,18 +468,32 @@ def _parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     return parser.parse_args(argv)
 
 
+def _min_reviews_for(max_pages: int | None) -> int:
+    """The zero-review floor SCALES with --max-pages rather than switching
+    off. Gating it on `max_pages is None` disabled it on exactly the staged
+    production runs the flag was built for -- so a markup change or soft 404
+    could overwrite a good cache/pitchfork.json with {"reviews": []} at exit
+    0. A capped run is held to the same per-page rate as a full crawl, and
+    never to less than one review."""
+    if max_pages is None or max_pages >= MAX_PAGES:
+        return MIN_REVIEWS
+    return max(1, MIN_REVIEWS * max_pages // MAX_PAGES)
+
+
 def main() -> None:
     args = _parse_args()
     stats: Counter = Counter()
 
-    pairs, first_listing_html = collect_review_urls(stats, args.max_pages or MAX_PAGES)
+    max_pages = args.max_pages or MAX_PAGES
+    pairs, first_listing_html = collect_review_urls(stats, max_pages)
     reviews = fetch_reviews(pairs, stats)
 
-    if args.max_pages is None and len(reviews) < MIN_REVIEWS:
+    min_reviews = _min_reviews_for(max_pages)
+    if len(reviews) < min_reviews:
         _fail_loud(
             first_listing_html,
             LISTING_URL,
-            f"only {len(reviews)} reviews found (expected >= {MIN_REVIEWS})",
+            f"only {len(reviews)} reviews found (expected >= {min_reviews})",
         )
 
     common.CACHE.mkdir(parents=True, exist_ok=True)
