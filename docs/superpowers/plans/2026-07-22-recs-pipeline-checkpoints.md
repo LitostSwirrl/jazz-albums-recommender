@@ -387,3 +387,60 @@ Output: Task 11 tuned constants + baked recommendations.json + library.json comm
 
 Post-completion checklist (branch close): update Status + append What/Why/Next to the Log here; update .superpowers/sdd/progress.md; this is the last phase of Plan 1, so the next handoff is into Plan 2 (UI) -- generate that resume prompt, pbcopy it silently, append it here.
 ```
+
+## Task 11b Resume Prompt (Phase F mid-phase)
+
+(2026-07-27 generated the moment Joseph returned his taste-gate round-2 verdict "do 1,2,4,5,6,7,10,11 as one task"; committed BEFORE any execution per the mid-flow scope-decision rule; also in clipboard)
+
+```
+Continue Phase F of the recs pipeline: implement Task 11b (taste-gate round 2 build changes), then rerun and present round-3 tables to Joseph. Phases A-E are COMPLETE and Task 11a is CLOSED.
+
+Working directory: /Users/jinsoon/Work/Projects/personal/jazz_albums_recommends (branch feat/recs-pipeline)
+
+State:
+- Task 11a COMPLETE (commits 899c348..8b50632, task review Needs-fixes on 2 Important -> fix round 1 -> scoped re-review "all findings addressed"). 243 tests green (python3 -m pytest scripts/recs/tests -q), build exits 0 with integrity PASS, all nine shelves at 12, determinism byte-identical after masking "generated".
+- Current real run: candidates 4684 (catalog 205 / external 4479) | emitted 300 | excluded_comps 166 | albums 351 (51 shelf-only) | sources per emitted {1:186, 2:59, 3:41, 4:13, 5:1}.
+- Baked src/data/{recommendations,library}.json are ON DISK, integrity PASS, INTENTIONALLY UNCOMMITTED. Only empty-shape stubs are committed. They get committed at Task 11 Step 3 after Joseph signs off -- that is the plan's design, do not commit them early.
+- Ledger: .superpowers/sdd/progress.md (flat path, from the earlier skill version). Task briefs/reports for Tasks 1-11a are also at that flat path. superpowers 6.2.0's review-package script writes to the per-plan subdir .superpowers/sdd/2026-07-22-recs-pipeline/. BOTH paths are live -- do not "clean up" either.
+
+Joseph's taste-gate round-2 verdict (2026-07-27): implement items 1, 2, 4, 5, 6, 7, 10, 11 as ONE task. Item 3 (year/era accuracy) is DEFERRED -- fixing it properly needs a Discogs master-year refetch, out of scope. Item 8 folds into item 10. Item 9 (library topArtists shows Jacqueline du Pre and Barenboim) is LEFT AS IS deliberately -- it is truthful about his listening.
+
+Task 11b scope, all in scripts/recs/build_recommendations.py + scripts/recs/shelves.json + scripts/recs/tests/test_scoring.py:
+
+1. PER-ARTIST CAP ON THE EMITTED LIST. Miles Davis is currently 51 of 300 emitted and 19 of the top 50. Apply a greedy cap of 4 per artist when selecting the emitted 300, same pattern as the existing SHELF_PER_ARTIST / TOP_PICKS_PER_ARTIST caps, new constant EMIT_PER_ARTIST = 4.
+2. EDITION-DUPLICATE MERGE. 18 near-duplicate pairs survive norm_key: "Live Evil"/"Live-Evil", "Head Hunters"/"Headhunters", "Relaxin'"/"Relaxin' with the Miles Davis Quintet", three spellings of Jack Johnson, "In New York"/"Chet Baker In New York", "We Insist"/"We Insist! Max Roach's Freedom Now Suite" (both on one shelf). Merge CONSERVATIVELY: same artist AND equal titles after stripping punctuation/whitespace, leading articles, and a leading copy of the artist name. Keep the higher-scored record, union its source badges and reasons. DO NOT use substring containment -- it would wrongly merge Joe Pass "Virtuoso" with "Virtuoso #3", and "Go!" with "The History Of Wes Montgomery" (the substring "go" appears in "montgomery").
+4. ORGAN GREASE SHELF. Currently matched on soul-jazz tags and contains almost no organ (Somethin' Else, Green Street which is a guitar trio, two Kamasi Washington). Switch it to the `leaders` matcher with an organist list: Jimmy Smith, Jack McDuff, Larry Young, Big John Patton, Baby Face Willette, Lonnie Smith, Charles Earland, Shirley Scott, Richard "Groove" Holmes.
+5. CAP-KEY CANONICALIZATION. All three per-artist caps currently key on the raw display string, so variants each get a full allowance: the ECM shelf holds five Metheny records ("Pat Metheny" x3 + "Pat Metheny Group" x2) and four Jarrett. The pool also holds "Miles Davis" and "Davis, Miles" as separate spellings (the task reviewer flagged this independently as Minor 7). Canonicalize the cap key: convert "Last, First" to "First Last", and strip trailing ensemble words (Group, Trio, Quartet, Quintet, Sextet, Septet, Octet, Band, Orchestra, Ensemble). Use it for all three caps.
+6. SHELF ORDERING. "Guitar After Wes" opens with a Chet Baker record and a Paul Desmond record -- correct by the rules (Kenny Burrell plays on Chet, Jim Hall on Easy Living) and genuinely part of the lineage, but it reads wrong. Within a shelf, sort leader-matches ahead of credit-matches, then by score. Do not exclude the credit-matches.
+7. SINGLES FILTER. The pool contains 78-rpm singles, e.g. Louis Armstrong "Blueberry Hill / Baby, Won't You Say You Love Me" on the After Midnight shelf. Drop candidates whose title contains " / " (A-side/B-side form). Note this also catches the multi-disc box "Jazz in Detroit / Strata Concert Gallery / 46 Selden", which is a correct drop under item 10 anyway. Print every dropped title so the exclusion is auditable -- completeness over silent drops.
+10. COMP FILTER RECALIBRATION, BOTH DIRECTIONS. It currently drops real LPs while missing box sets.
+   (a) FALSE POSITIVES to allowlist by exact norm_key: Don Cherry "Complete Communion" (1966 Blue Note, and in the site catalog), Chet Baker "Plays the Best of Lerner & Loewe" AND "Chet Baker Plays the Best of Lerner and Loewe" (both pool entries -- the title means the best songs OF Lerner and Loewe), George Russell "Ezz-thetics (Keepnews Collection) [Bonus Track Version]" (caught by "collection" from the reissue-series name), Rashied Ali "Duo Exchange: Complete Sessions".
+   (b) MISSES -- six box sets currently in the emitted list: Miles Davis "The Final Tour: The Bootleg Series, Vol. 6" (#21), Charles Mingus "Jazz in Detroit / Strata Concert Gallery / 46 Selden" (#57), Bill Evans "Treasures: Solo, Trio & Orchestra Recordings From Denmark (1965-1969)" (#95), Eric Dolphy "Musical Prophet: The Expanded 1963 New York Studio Sessions" (#107), Sonny Rollins "Go West!: The Contemporary Records Albums" (#120), Ornette Coleman "Round Trip: Ornette Coleman on Blue Note" (#158). Add narrow title patterns ("bootleg series", "box set", "the <label> recordings/albums", "the expanded ... sessions") and, where no safe pattern exists, an explicit denylist by norm_key. Prefer a denylist entry over a broad pattern -- a pattern that also kills real LPs is worse than a missed box.
+   Print the full exclusion list grouped by reason (comp-artist / comp-title / allowlisted / denylisted / single) to stderr.
+11. PITCHFORK BOX-SCORE PROPAGATION. One Pitchfork review of the box "Chet Baker: The Legendary Riverside Albums" (8.3) is the sole quality signal behind two separately emitted albums -- "Chet Baker Sings - It Could Happen to You" (#11) and "Chet" (#39 on the guitar shelf). The box itself is correctly dropped as a comp, then its score is inherited by its contents as if each had been reviewed. Deterministic rule: when a single review URL maps to MORE THAN ONE album record AND all of those records carry the SAME score, treat it as a box review and do not use it as a quality signal for any of them. If the scores differ it is a genuine multi-album review -- keep it. Report how many reviews and albums this affects. Note that dropping the pitchfork signal also drops that album's pitchfork-derived year; falling back to another source or to null is correct, not a regression.
+
+NOT in scope, do not do: item 3 (year/era accuracy -- deferred, needs a refetch), item 9 (library topArtists -- left as is), any change to the scoring weights W_AFFINITY/W_QUALITY/W_NOVELTY, the AF dict, or existing thresholds unless one of the eight items above requires it.
+
+Execution mode: superpowers:subagent-driven-development. Fresh implementer subagent + task-reviewer subagent + fix loop. Record BASE (git rev-parse HEAD) before dispatching. Use the flat-path ledger .superpowers/sdd/progress.md. Minors -> ledger, fixed only at the final whole-branch review. Never dispatch parallel implementers.
+
+Hard invariants the implementer must not break:
+- The zero-hallucination integrity gate: every emitted reason is re-derived by reloading the referenced cache record FRESH and re-rendering through the SAME render_reason() + derivation helpers used at generation, sys.exit(1) on any mismatch. NEVER soften it. It now covers emitted u shelf-only albums.
+- Deterministic build, constants at top of file, no LLM anywhere in scoring, no network.
+- Completeness over silent drops: every exclusion category counted and printed.
+- ruff-clean (auto-format hook), flat code, early returns.
+- Commit ONLY the script/shelves/test files. src/data/{recommendations,library}.json stay modified-but-uncommitted until Joseph signs off.
+
+After the task review comes back clean:
+1. Rerun python3 -m scripts.recs.build_recommendations; confirm integrity PASS, note the new emitted/shelf counts and every exclusion count.
+2. Build round-3 review tables for Joseph (top 20 with score + reasons + badges; the nine shelves with items). A working probe pattern is at scratchpad/tables.py: the albums dict is ordered emitted-first (first EMIT_LIMIT keys, score-descending) then shelf-only.
+3. Present them and get his sign-off. Expect a round 4 -- do not assume this converges in one pass.
+4. On sign-off: commit tuned constants + shelves + baked src/data/recommendations.json + src/data/library.json as `feat(recs): first baked recommendations`.
+5. Then the SDD FINAL WHOLE-BRANCH REVIEW: scripts/review-package on $(git merge-base main HEAD)..HEAD, dispatch the final code-reviewer on the MOST CAPABLE model, hand it the FULL deferred-Minors list from the ledger (Tasks 1-11b) to triage. Known merge cleanup: the two Task-8 commits (2f88c50 + a07b2d5) may want squashing, and the Co-Authored-By trailer is mixed across the branch (Fable 5 Tasks 1-7, Sonnet 5 Task 8 fix + 11a fix, Opus 4.8 Tasks 9-10, Opus 5 Phase F docs) -- Joseph's call whether to normalize.
+6. Then superpowers:finishing-a-development-branch (merge to main). Plan 2 (the /discover UI) is written only after this branch merges with real baked data.
+
+Already closed, do NOT re-open: reddit grounding (verified 2026-07-27 -- across all 100 emitted albums with a reddit reason, 560 cited posts, the album title appears verbatim 560/560 and the artist name 546/560; the 14 exceptions were read individually and are contextual, not misattributions).
+
+Conventions: all cross-cutting contracts in docs/superpowers/plans/2026-07-22-recs-pipeline-checkpoints.md apply (branch feat/recs-pipeline, Conventional Commits, secrets never printed, caches untracked, completeness over silent drops, phase-gate checklist). Co-Authored-By names the model that actually authors each commit. No emojis anywhere.
+
+Post-completion checklist (every phase gate): update Status + append a What/Why/Next entry to the Log in the checkpoints file; update .superpowers/sdd/progress.md; generate the next resume prompt, pbcopy it silently, append it to the checkpoints file, and tell Joseph it is safe to /clear only when the window is worth shedding or he is stopping for the session; a mid-flow scope decision commits its resume prompt immediately, before any execution, regardless of context level.
+```
