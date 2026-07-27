@@ -42,3 +42,6 @@ __pycache__/
 # Stale Spotify OAuth token from the removed playlist feature (2026-03-23).
 # Never commit token stores. See docs/workflow-notes.md.
 .cache
+
+# Atomic-write siblings (common.py _atomic_write_text)
+*.tmp
