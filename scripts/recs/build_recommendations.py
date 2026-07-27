@@ -16,6 +16,7 @@ Run from repo root: python3 -m scripts.recs.build_recommendations
 
 import math
 import random
+import re
 import sys
 import urllib.parse
 from collections import Counter, defaultdict
@@ -31,9 +32,21 @@ CORROBORATION_BONUS = 0.05  # per quality source beyond the first, cap +0.15
 MEGA_CANON_HAVES = 25000  # discogs haves above this -> novelty halved
 NEW_TO_SITE_BONUS = 0.1
 SHELF_SIZE = 12
+SHELF_PER_ARTIST = 3  # max albums per artist within one shelf
 TOP_PICKS = 8
+TOP_PICKS_PER_ARTIST = 2  # max albums per artist among the 8 hero picks
 EMIT_LIMIT = 300
 SAMPLE_SEED = 1972  # fixed seed for the reproducible eyeball-sample print
+
+# compilations / box-sets / "various" are poor picks for a players' guide --
+# dropped from the pool after scoring (never in topPicks, shelves, or albums).
+COMP_ARTISTS = {"various", "various artists", "unknown", "unknown artist"}
+COMP_TITLE_RE = re.compile(
+    r"\b(complete|anthology|best of|greatest hits|collection|compilation|"
+    r"outtakes|alternates|box set|the prestige recordings|"
+    r"legendary .{0,40} albums|essential|retrospective|rarities)\b",
+    re.IGNORECASE,
+)
 
 # reason-ordering tie-break: fixed type priority after contribution
 TYPE_PRIORITY = {
@@ -83,10 +96,27 @@ def render_reason(rtype: str, data: dict) -> str:
 # ======================================================================
 
 
+def usable_artists(profile: dict) -> list[dict]:
+    """Profile artists with a non-empty norm, re-ranked 1-based in their existing
+    rank order (already score-desc). This is the SAME set assemble_library
+    displays, so a reason's #N equals the artist's topArtists position and the
+    affinity ceiling is a real (matchable) artist, not an empty-norm CJK name.
+    Keeps name/norm/score plus the fresh rank; the stored rank is discarded."""
+    ordered = sorted(
+        (a for a in profile["artists"] if a["norm"]),
+        key=lambda a: (a["rank"], a["norm"]),
+    )
+    return [
+        {"name": a["name"], "norm": a["norm"], "score": a["score"], "rank": i}
+        for i, a in enumerate(ordered, start=1)
+    ]
+
+
 def profile_by_norm(profile: dict) -> dict:
-    """{artist norm -> profile entry}, skipping empty norms (CJK names that
-    can never match a candidate). Last-wins on duplicate norm, deterministically."""
-    return {a["norm"]: a for a in profile["artists"] if a["norm"]}
+    """{artist norm -> re-ranked usable entry}, skipping empty norms (CJK names
+    that can never match a candidate). Last-wins on duplicate norm, matching the
+    rank order. Ranks are the fresh 1-based ranks from usable_artists."""
+    return {a["norm"]: a for a in usable_artists(profile)}
 
 
 def label_count_map(profile: dict) -> dict:
@@ -155,8 +185,8 @@ def shared_sidemen(release: dict | None, profile: dict) -> list[tuple[str, int]]
     credit_norms = {common.norm(c) for c in release.get("credits", [])}
     out = [
         (a["name"], a["rank"])
-        for a in profile["artists"]
-        if a["norm"] and a["norm"] in credit_norms and a["rank"] <= 50
+        for a in usable_artists(profile)
+        if a["norm"] in credit_norms and a["rank"] <= 50
     ]
     out.sort(key=lambda t: (t[1], common.norm(t[0])))
     return out
@@ -300,6 +330,7 @@ class Context:
 def build_context(
     profile: dict, lastfm: dict, catalog_index: dict, rym: dict
 ) -> Context:
+    usable = usable_artists(profile)
     return Context(
         profile=profile,
         lastfm=lastfm,
@@ -307,11 +338,9 @@ def build_context(
         catalog_index=catalog_index,
         by_norm=profile_by_norm(profile),
         label_map=label_count_map(profile),
-        top50_norms={
-            a["norm"] for a in profile["artists"] if a["norm"] and a["rank"] <= 50
-        },
+        top50_norms={a["norm"] for a in usable if a["rank"] <= 50},
         top15_tags={s["tag"] for s in profile["styles"][:15]},
-        max_affinity=max((a["score"] for a in profile["artists"]), default=1.0),
+        max_affinity=usable[0]["score"] if usable else 1.0,
     )
 
 
@@ -573,6 +602,30 @@ def select_top(scored: list[dict], limit: int) -> list[dict]:
     return sorted(scored, key=lambda c: (-c["score"], c["norm_key"]))[:limit]
 
 
+def _is_comp(cand: dict) -> bool:
+    """A scored candidate is a compilation / box-set / various-artists record:
+    its resolved artist is a compilation credit, or its resolved title matches
+    COMP_TITLE_RE. Judged on the resolved display fields."""
+    if cand["artist"].strip().lower() in COMP_ARTISTS:
+        return True
+    return bool(COMP_TITLE_RE.search(cand["title"]))
+
+
+def select_top_picks(emitted: list[dict]) -> list[str]:
+    """The TOP_PICKS hero ids, greedily from emitted (already score-ordered)
+    with at most TOP_PICKS_PER_ARTIST per artist so the hero row is not one name."""
+    picks = []
+    per_artist = Counter()
+    for cand in emitted:
+        if per_artist[cand["artist"]] >= TOP_PICKS_PER_ARTIST:
+            continue
+        picks.append(cand["id"])
+        per_artist[cand["artist"]] += 1
+        if len(picks) >= TOP_PICKS:
+            break
+    return picks
+
+
 # ======================================================================
 # shelves
 # ======================================================================
@@ -589,16 +642,30 @@ def _shelf_match(cand: dict, matcher: dict) -> bool:
         players = set(matcher["players"])
         if cand["artist"] in players or (set(cand["_credits"]) & players):
             return True
+    if "leaders" in matcher and cand["artist"] in set(matcher["leaders"]):
+        return True
     return False
 
 
-def build_shelves(emitted: list[dict], shelf_defs: list[dict]) -> list[dict]:
+def build_shelves(pool: list[dict], shelf_defs: list[dict]) -> list[dict]:
+    """Match each shelf over the FULL scored+comp-filtered pool (not just the
+    top-300 emitted), so niche scenes below the cut still fill. Greedily take up
+    to SHELF_SIZE in score order with at most SHELF_PER_ARTIST per artist so a
+    popular shelf cannot collapse onto one name."""
     shelves = []
     for shelf in shelf_defs:
         matcher = shelf.get("matcher", {})
-        matches = [c for c in emitted if _shelf_match(c, matcher)]
+        matches = [c for c in pool if _shelf_match(c, matcher)]
         matches.sort(key=lambda c: (-c["score"], c["norm_key"]))
-        items = [c["id"] for c in matches[:SHELF_SIZE]]
+        items = []
+        per_artist = Counter()
+        for cand in matches:
+            if per_artist[cand["artist"]] >= SHELF_PER_ARTIST:
+                continue
+            items.append(cand["id"])
+            per_artist[cand["artist"]] += 1
+            if len(items) >= SHELF_SIZE:
+                break
         if len(items) < 5:
             print(
                 f"WARNING: shelf '{shelf['id']}' has only {len(items)} items (<5)",
@@ -670,11 +737,12 @@ def reconstruct_data(reason: dict, album: dict, norm_key: str, fresh) -> dict | 
     return None
 
 
-def run_integrity_check(emitted: list[dict]) -> None:
-    """For every emitted reason, reconstruct it from a FRESH reload of its cache
-    record and assert it re-renders to the exact same string. Any mismatch ->
-    print the offending album+reason and sys.exit(1). Caches are loaded from
-    disk once per run (independent of the build's in-memory dicts)."""
+def run_integrity_check(albums: list[dict]) -> None:
+    """For every reason on every album in the output set (emitted ∪ shelf items),
+    reconstruct it from a FRESH reload of its cache record and assert it
+    re-renders to the exact same string. Any mismatch -> print the offending
+    album+reason and sys.exit(1). Caches are loaded from disk once per run
+    (independent of the build's in-memory dicts)."""
     loaded = {}
 
     def fresh(name: str) -> dict:
@@ -682,7 +750,7 @@ def run_integrity_check(emitted: list[dict]) -> None:
             loaded[name] = common.load_json(common.CACHE / f"{name}.json")
         return loaded[name]
 
-    for album in emitted:
+    for album in albums:
         norm_key = common.norm_key(album["artist"], album["title"])
         for reason in album["reasons"]:
             data = reconstruct_data(reason, album, norm_key, fresh)
@@ -715,14 +783,32 @@ def _public(cand: dict) -> dict:
     }
 
 
+def collect_output_albums(
+    emitted: list[dict], shelves: list[dict], pool: list[dict]
+) -> list[dict]:
+    """The output album set: emitted ∪ every candidate referenced by a shelf,
+    de-duped by id. Deterministic order: emitted (score order) first, then any
+    shelf-only items in shelf-then-item order. Shelf items resolve against the
+    full pool so sub-emit picks still land in the albums map."""
+    by_id = {c["id"]: c for c in pool}
+    seen = {c["id"] for c in emitted}
+    out = list(emitted)
+    for shelf in shelves:
+        for item_id in shelf["items"]:
+            if item_id not in seen:
+                seen.add(item_id)
+                out.append(by_id[item_id])
+    return out
+
+
 def assemble_recommendations(
-    emitted: list[dict], shelves: list[dict], generated: str
+    emitted: list[dict], shelves: list[dict], album_cands: list[dict], generated: str
 ) -> dict:
     return {
         "generated": generated,
-        "topPicks": [c["id"] for c in emitted[:TOP_PICKS]],
+        "topPicks": select_top_picks(emitted),
         "shelves": shelves,
-        "albums": {c["id"]: _public(c) for c in emitted},
+        "albums": {c["id"]: _public(c) for c in album_cands},
     }
 
 
@@ -731,9 +817,9 @@ def assemble_library(
 ) -> dict:
     artist_id_map = {common.norm(a["name"]): a["id"] for a in artists}
     top_artists = []
-    for entry in sorted(profile["artists"], key=lambda a: a["rank"]):
-        if not entry["norm"]:
-            continue
+    # same re-ranked usable view scoring/reasons use, so a reason's #N matches
+    # the artist's position here (they cannot drift).
+    for entry in usable_artists(profile):
         top_artists.append(
             {
                 "name": entry["name"],
@@ -761,18 +847,35 @@ def assemble_library(
 # ======================================================================
 
 
+def _print_comp_exclusions(comps: list[dict]) -> None:
+    """List every dropped compilation to stderr so a human can eyeball the drops
+    (completeness over silent removal). Sorted by artist then title."""
+    print(
+        f"--- excluded {len(comps)} compilations / box-sets / various ---",
+        file=sys.stderr,
+    )
+    for cand in sorted(comps, key=lambda c: (c["artist"].lower(), c["title"].lower())):
+        print(f"  {cand['artist']} - {cand['title']}", file=sys.stderr)
+
+
 def _print_summary(
-    scored: list[dict], emitted: list[dict], shelves: list[dict]
+    scored: list[dict],
+    emitted: list[dict],
+    shelves: list[dict],
+    comps: list[dict],
+    album_cands: list[dict],
 ) -> None:
     total = len(scored)
     catalog = sum(1 for c in scored if c["inCatalog"])
     external = total - catalog
     hist = dict(sorted(Counter(c["_source_count"] for c in emitted).items()))
     shelf_counts = ", ".join(f"{s['id']}→{len(s['items'])}" for s in shelves)
+    shelf_only = len(album_cands) - len(emitted)
     print(
         f"candidates: {total} (catalog: {catalog}, external: {external}) | "
-        f"emitted: {len(emitted)} | sources per emitted: {hist} | "
-        f"shelves: {shelf_counts} | integrity: PASS"
+        f"emitted: {len(emitted)} | excluded_comps: {len(comps)} | "
+        f"sources per emitted: {hist} | shelves: {shelf_counts} | "
+        f"albums: {len(album_cands)} ({shelf_only} shelf-only) | integrity: PASS"
     )
 
 
@@ -807,25 +910,32 @@ def main() -> None:
     ctx = build_context(profile, lastfm, catalog_index, rym)
 
     raw = assemble_candidates(discogs, rym, lastfm, pitchfork, reddit, owned)
-    scored = [score_candidate(raw[norm_key], ctx) for norm_key in sorted(raw)]
+    scored_all = [score_candidate(raw[norm_key], ctx) for norm_key in sorted(raw)]
+    # drop compilations / box-sets / various BEFORE emit and shelves, so they
+    # never surface in topPicks, shelves, or the albums map.
+    comps = [c for c in scored_all if _is_comp(c)]
+    scored = [c for c in scored_all if not _is_comp(c)]
+
     emitted = select_top(scored, EMIT_LIMIT)
-    shelves = build_shelves(emitted, shelf_defs)
+    shelves = build_shelves(scored, shelf_defs)
+    album_cands = collect_output_albums(emitted, shelves, scored)
 
     # integrity gate runs BEFORE anything is written -- a hallucinated reason
-    # must never reach disk.
-    run_integrity_check(emitted)
+    # must never reach disk. It covers the FULL output set (emitted ∪ shelves).
+    run_integrity_check(album_cands)
 
     generated = datetime.now().astimezone().isoformat()
     common.save_json(
         common.ROOT / "src" / "data" / "recommendations.json",
-        assemble_recommendations(emitted, shelves, generated),
+        assemble_recommendations(emitted, shelves, album_cands, generated),
     )
     common.save_json(
         common.ROOT / "src" / "data" / "library.json",
         assemble_library(spotify, profile, artists, generated),
     )
 
-    _print_summary(scored, emitted, shelves)
+    _print_comp_exclusions(comps)
+    _print_summary(scored, emitted, shelves, comps, album_cands)
     _print_samples(emitted)
 
 

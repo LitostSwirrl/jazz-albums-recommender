@@ -70,7 +70,7 @@
   "blurb": "Records led from behind the kit, where the groove is the composition. Listen for where the drummer leaves the hole and how the band fills it.",
   "type": "players",
   "matcher": {
-   "players": ["Art Blakey", "Max Roach", "Elvin Jones", "Tony Williams", "Roy Haynes", "Philly Joe Jones", "Jack DeJohnette", "Billy Higgins", "Ed Blackwell", "Paul Motian", "Jimmy Cobb", "Chico Hamilton", "Idris Muhammad", "Brian Blade", "Andrew Cyrille", "Milford Graves"]
+   "leaders": ["Art Blakey", "Max Roach", "Elvin Jones", "Tony Williams", "Roy Haynes", "Philly Joe Jones", "Jack DeJohnette", "Billy Higgins", "Ed Blackwell", "Paul Motian", "Jimmy Cobb", "Chico Hamilton", "Idris Muhammad", "Brian Blade", "Andrew Cyrille", "Milford Graves"]
   }
  },
  {
