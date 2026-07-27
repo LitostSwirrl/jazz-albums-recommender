@@ -11,6 +11,13 @@ false claim about a record, which is exactly what this project does not do.
 
 Idempotent: per-album results are cached, so a rerun costs no API calls.
 
+The manifest and the cache are both append-only -- a rerun merges into them and
+never removes an entry. That means CHANGING THE MATCH RULE DOES NOT EVICT
+ANYTHING IT PREVIOUSLY ACCEPTED: a cover accepted under the old rule survives
+the tightening. After any change to is_match, wanted_title or core_title,
+delete both src/data/recCoverManifest.json and scripts/cache/rec_covers.json
+and run the full pass again, or the wrong cover stays live.
+
     python3 scripts/fetch_rec_covers.py
     python3 scripts/fetch_rec_covers.py --limit 10   # smoke test
 """
@@ -38,6 +45,7 @@ TIMEOUT = (10, 30)
 LIMIT_PER_QUERY = 5
 
 _PAREN = re.compile(r"[\(\[].*?[\)\]]")
+_PAREN_INNER = re.compile(r"[\(\[](.*?)[\)\]]")
 _NONWORD = re.compile(r"[^a-z0-9]+")
 
 
@@ -50,23 +58,48 @@ def core_title(s: str) -> str:
     return normalize(_PAREN.sub(" ", s or ""))
 
 
+def wanted_title(want_artist: str, want_title: str) -> str:
+    """The normalized title we are actually asking for.
+
+    Normally that is the whole title, parentheticals included: ours is the side
+    that says which record we mean. One exception -- a title that is just the
+    artist name with the album in brackets ("Art Blakey and The Jazz Messengers
+    [Moanin']"). Stripping the bracket there leaves nothing but the artist, so
+    the bracket holds the album name and it is what we compare.
+    """
+    core = core_title(want_title)
+    if core and core == normalize(want_artist):
+        inner = normalize(" ".join(_PAREN_INNER.findall(want_title or "")))
+        if inner:
+            return inner
+    return normalize(want_title)
+
+
 def is_match(
     want_artist: str, want_title: str, got_artist: str, got_title: str
 ) -> bool:
-    """Accept only when artist AND core title agree.
+    """Accept only when artist AND title agree.
 
     Artists compare by containment because the API returns ensemble forms
-    ("Bill Evans Trio" for "Bill Evans"). Titles must match exactly once
-    edition suffixes are stripped -- containment on titles is what lets
-    "Black Jazz Signature" wrongly match "First Floor".
+    ("Bill Evans Trio" for "Bill Evans").
+
+    Titles never lose a token from OUR side. The API is the side that appends
+    edition suffixes, so its title may equal ours either verbatim or once its
+    own parentheticals are stripped -- but ours stays whole, because the
+    parenthetical is often the token that names the record: "... Ocean Club
+    (Volume 1)" is a different sleeve from "... Ocean Club", and stripping it
+    from both sides made them identical. Containment is never used on titles;
+    that is what let "Black Jazz Signature" wrongly match "First Floor".
     """
     wa, ga = normalize(want_artist), normalize(got_artist)
     if not wa or not ga:
         return False
     if wa not in ga and ga not in wa:
         return False
-    wt, gt = core_title(want_title), core_title(got_title)
-    return bool(wt) and wt == gt
+    wt = wanted_title(want_artist, want_title)
+    if not wt:
+        return False
+    return wt in (normalize(got_title), core_title(got_title))
 
 
 def artwork_url(url100: str) -> str:
@@ -94,14 +127,21 @@ def search(artist: str, title: str) -> list[dict]:
     return resp.json().get("results") or []
 
 
-def resolve(album: dict) -> tuple[str | None, str]:
-    """Return (cover_url, status). status is one of: ok, no_result, mismatch."""
+def resolve(album: dict) -> tuple[str | None, str, str]:
+    """Return (cover_url, status, matched).
+
+    status is one of: ok, no_result, mismatch, fetch_failed. Only ok carries a
+    URL and a matched title. Recording the title we accepted is what makes a
+    cover auditable afterwards -- the manifest alone cannot show that a wrong
+    record was accepted. fetch_failed means the request never landed, which is
+    not an answer about the album -- see should_cache.
+    """
     try:
         results = search(album["artist"], album["title"])
     except requests.RequestException:
-        return None, "fetch_failed"
+        return None, "fetch_failed", ""
     if not results:
-        return None, "no_result"
+        return None, "no_result", ""
     for got in results:
         if is_match(
             album["artist"],
@@ -111,8 +151,11 @@ def resolve(album: dict) -> tuple[str | None, str]:
         ):
             art = got.get("artworkUrl100")
             if art:
-                return artwork_url(art), "ok"
-    return None, "mismatch"
+                matched = (
+                    f"{got.get('artistName', '')} - {got.get('collectionName', '')}"
+                )
+                return artwork_url(art), "ok", matched
+    return None, "mismatch", ""
 
 
 def should_cache(status: str) -> bool:
@@ -135,12 +178,15 @@ def main() -> None:
         sys.exit(1)
 
     albums = [a for a in recs["albums"].values() if not a.get("coverUrl")]
-    if args.limit:
+    if args.limit is not None:
         albums = albums[: args.limit]
 
     cache = _load(CACHE_PATH, {})
     manifest = _load(MANIFEST_PATH, {})
-    failures: dict[str, str] = {}
+    # Merged, not rebuilt: a --limit run would otherwise truncate the failures
+    # file to the albums it happened to touch, and the file has to name every
+    # album that got no cover.
+    failures: dict[str, str] = _load(FAILURES_PATH, {})
     counts = {"ok": 0, "no_result": 0, "mismatch": 0, "fetch_failed": 0, "cached": 0}
     samples: list[str] = []
 
@@ -150,8 +196,8 @@ def main() -> None:
             counts["cached"] += 1
             entry = cache[aid]
         else:
-            url, status = resolve(album)
-            entry = {"url": url, "status": status}
+            url, status, matched = resolve(album)
+            entry = {"url": url, "status": status, "matched": matched}
             if should_cache(status):
                 cache[aid] = entry
                 _save(CACHE_PATH, cache)
@@ -159,8 +205,12 @@ def main() -> None:
         counts[entry["status"]] = counts.get(entry["status"], 0) + 1
         if entry["url"]:
             manifest[aid] = entry["url"]
+            failures.pop(aid, None)
             if len(samples) < 10:
-                samples.append(f"  {album['artist']} - {album['title']}")
+                samples.append(
+                    f"  {album['artist']} - {album['title']}"
+                    f"\n      matched: {entry.get('matched') or '(not recorded)'}"
+                )
         else:
             failures[aid] = f"{entry['status']}: {album['artist']} - {album['title']}"
 
