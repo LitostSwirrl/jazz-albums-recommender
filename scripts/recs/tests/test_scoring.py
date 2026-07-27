@@ -1161,3 +1161,174 @@ def test_integrity_reconstruction_applies_the_same_box_suppression(
         ],
     }
     br.run_integrity_check([kept_album])
+
+
+# ======================================================================
+# Task 11c -- taste-gate round 2 follow-up (two hand corrections)
+# ======================================================================
+
+
+# --- Change A: singles-filter allowlist ---
+
+
+def test_singles_allowlist_contains_exact_norm_keys():
+    assert br.SINGLES_ALLOWLIST == {
+        "john coltrane quartet::africa brass",
+        "gerry mulligan::gerry mulligan paul desmond",
+    }
+
+
+def test_singles_allowlist_rescues_real_albums_from_the_marker():
+    rescued = [
+        ("The John Coltrane Quartet", "Africa / Brass"),
+        ("Gerry Mulligan", "Gerry Mulligan / Paul Desmond"),
+    ]
+    for artist, title in rescued:
+        cand = _cand(artist, title)
+        assert cand["norm_key"] in br.SINGLES_ALLOWLIST
+        # the marker still matches, but the allowlist wins
+        assert br.SINGLE_MARKER in cand["title"]
+        assert not br._is_comp(cand)
+        assert br.exclusion_reason(cand) is None
+
+
+def test_singles_allowlist_does_not_rescue_the_compilation_edition():
+    # "Complete Africa / Brass" is a different norm_key from "Africa / Brass"
+    # -- it is the 1991 compilation reissue, not the studio LP, and must stay
+    # excluded even though it sits right next to the real album in the pool.
+    pool = [
+        _cand("The John Coltrane Quartet", "Africa / Brass"),
+        _cand("The John Coltrane Quartet", "Complete Africa / Brass"),
+        _cand("Louis Armstrong", "Blueberry Hill / Baby, Won't You Say You Love Me"),
+    ]
+    by_reason = {}
+    for cand in pool:
+        by_reason.setdefault(br.exclusion_reason(cand), []).append(cand["title"])
+    assert by_reason[None] == ["Africa / Brass"]
+    assert "john coltrane quartet::complete africa brass" not in br.SINGLES_ALLOWLIST
+    assert by_reason["single"] == [
+        "Complete Africa / Brass",
+        "Blueberry Hill / Baby, Won't You Say You Love Me",
+    ]
+
+
+# --- Change B: hand-merge pair for "We Insist" ---
+
+
+def test_hand_merges_contains_exactly_the_we_insist_pair():
+    assert br.HAND_MERGES == {
+        "max roach::we insist": "max roach::we insist max roachs freedom now suite",
+    }
+
+
+def test_merge_key_routes_the_hand_merged_absorbed_key_to_the_keeper():
+    absorbed_key = common.norm_key("Max Roach", "We Insist")
+    keeper_key = common.norm_key(
+        "Max Roach", "We Insist! Max Roach's Freedom Now Suite"
+    )
+    assert br.merge_key(absorbed_key) == br.merge_key(keeper_key)
+
+
+def test_we_insist_pair_merges_keeper_wins_badges_and_reasons_union():
+    keeper = _merge_cand(
+        "Max Roach",
+        "We Insist! Max Roach's Freedom Now Suite",
+        54.8,
+        badges={"rym": {"chart": "avant-garde-jazz"}},
+        reasons=[
+            _reason(
+                "chart",
+                "#27 in RYM avant-garde-jazz chart (3.88 from 6000 ratings)",
+                "avant-garde-jazz",
+                0.9,
+            ),
+            _reason(
+                "similar", "Last.fm: similar to Charles Mingus (your #27)", "x", 0.2
+            ),
+        ],
+    )
+    absorbed = _merge_cand(
+        "Max Roach",
+        "We Insist",
+        34.6,
+        badges={"reddit": {"mentions": 2}},
+        reasons=[
+            _reason(
+                "similar", "Last.fm: similar to Charles Mingus (your #27)", "x", 0.2
+            )
+        ],
+    )
+    merged, log = br.merge_editions([keeper, absorbed])
+
+    assert len(merged) == 1
+    rec = merged[0]
+    # identity/score comes from the higher-scored record
+    assert (rec["title"], rec["score"]) == (
+        "We Insist! Max Roach's Freedom Now Suite",
+        54.8,
+    )
+    # badges union: the absorbed record's reddit badge is folded in
+    assert set(rec["badges"]) == {"rym", "reddit"}
+    # the identical similar reason de-dupes rather than doubling up
+    assert [r["type"] for r in rec["reasons"]] == ["chart", "similar"]
+    assert [entry["key"] for entry in log] == [
+        "max roach::weinsistmaxroachsfreedomnowsuite"
+    ]
+
+
+def test_we_insist_absorbed_chart_reason_does_not_transfer_via_hand_merge():
+    """Mirrors the generic-merge NORM_KEY_BOUND_REASONS test, but for the
+    hand-merge path -- a chart reason on the record being ABSORBED must not
+    ride along to the keeper either."""
+    keeper = _merge_cand(
+        "Max Roach",
+        "We Insist! Max Roach's Freedom Now Suite",
+        54.8,
+        reasons=[
+            _reason(
+                "similar", "Last.fm: similar to Charles Mingus (your #27)", "x", 0.2
+            )
+        ],
+    )
+    absorbed = _merge_cand(
+        "Max Roach",
+        "We Insist",
+        34.6,
+        reasons=[
+            _reason(
+                "chart",
+                "#9 in RYM protest-jazz chart (4.0 from 50 ratings)",
+                "protest-jazz",
+                0.9,
+            )
+        ],
+    )
+    merged, _log = br.merge_editions([keeper, absorbed])
+    # the pair actually merged (not two untouched records that merely happen
+    # to each carry one reason) -- and the chart reason did not ride along
+    assert len(merged) == 1
+    assert [r["type"] for r in merged[0]["reasons"]] == ["similar"]
+
+
+def test_hand_merge_does_not_affect_other_near_duplicate_pairs():
+    """The generic subtitle-extension rule stays untouched for every OTHER
+    pair; only the one named hand-merge pair collapses, and it therefore
+    drops out of the unmerged near-duplicate report."""
+    albums = [
+        _merge_cand("Miles Davis", "Relaxin'", 50.7),
+        _merge_cand("Miles Davis", "Relaxin' with the Miles Davis Quintet", 60.7),
+        _merge_cand("Max Roach", "We Insist", 34.6),
+        _merge_cand("Max Roach", "We Insist! Max Roach's Freedom Now Suite", 54.8),
+    ]
+    merged, _log = br.merge_editions(albums)
+    # the hand-merged pair collapses to one record...
+    assert {c["title"] for c in merged} == {
+        "Relaxin'",
+        "Relaxin' with the Miles Davis Quintet",
+        "We Insist! Max Roach's Freedom Now Suite",
+    }
+    # ...and the generic rule still leaves the Relaxin' pair alone
+    pairs = {(a["title"], b["title"]) for a, b in br.near_duplicate_pairs(albums)}
+    assert ("Relaxin'", "Relaxin' with the Miles Davis Quintet") in pairs
+    # the We Insist pair is no longer reported as an unmerged near-pair
+    assert not any("We Insist" in a or "We Insist" in b for a, b in pairs)

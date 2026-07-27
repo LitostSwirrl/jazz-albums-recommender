@@ -67,6 +67,11 @@ BOX_DENYLIST = {
     "ornette coleman::round trip ornette coleman on blue note",
 }
 SINGLE_MARKER = " / "  # 78-rpm A-side/B-side titles, not albums
+# real albums whose titles trip SINGLE_MARKER -- the allowlist always wins.
+SINGLES_ALLOWLIST = {
+    "john coltrane quartet::africa brass",
+    "gerry mulligan::gerry mulligan paul desmond",
+}
 
 # cap-key canonicalization: "Last, First" -> "First Last", then a trailing
 # ensemble word goes, so spelling variants share one per-artist allowance.
@@ -78,6 +83,13 @@ ENSEMBLE_SUFFIX_RE = re.compile(
 # edition-duplicate merge: leading article, then artist-name prefix, then all
 # spaces come off the title so punctuation variants land on one key.
 ARTICLE_RE = re.compile(r"^(the |a |an )")
+# one explicit hand-merge for a pair the generic rule above deliberately
+# leaves apart (a subtitle-extension shape identical to genuinely distinct
+# albums, e.g. Joe Pass "Virtuoso" vs "Virtuoso #3") -- maps an absorbed
+# norm_key to its keeper norm_key.
+HAND_MERGES = {
+    "max roach::we insist": "max roach::we insist max roachs freedom now suite",
+}
 
 # reason-ordering tie-break: fixed type priority after contribution
 TYPE_PRIORITY = {
@@ -700,7 +712,10 @@ def merge_key(norm_key: str) -> str:
     """The key that unifies edition variants norm_key leaves apart: drop a
     leading article, drop a leading copy of the artist name, then drop every
     space in the title. Deliberately NOT substring containment -- that wrongly
-    merges "Virtuoso" with "Virtuoso #3"."""
+    merges "Virtuoso" with "Virtuoso #3". An absorbed key named in HAND_MERGES
+    is redirected to its keeper's norm_key BEFORE this transform, so both land
+    on the exact same group without loosening the transform itself."""
+    norm_key = HAND_MERGES.get(norm_key, norm_key)
     artist, _, title = norm_key.partition("::")
     title = ARTICLE_RE.sub("", title)
     if title.startswith(artist + " "):
@@ -788,10 +803,13 @@ def near_duplicate_pairs(albums: list[dict]) -> list[tuple[dict, dict]]:
 def exclusion_reason(cand: dict) -> str | None:
     """Which exclusion category drops this scored candidate, or None to keep it.
     Fixed order, so every drop lands in exactly one printed category and the
-    counts add up. The allowlist outranks COMP_TITLE_RE; the denylist outranks
-    everything, since it names boxes no safe pattern catches."""
+    counts add up. The singles allowlist outranks SINGLE_MARKER; the comp
+    allowlist outranks COMP_TITLE_RE; the denylist outranks everything, since
+    it names boxes no safe pattern catches."""
     if cand["norm_key"] in BOX_DENYLIST:
         return "denylisted"
+    if cand["norm_key"] in SINGLES_ALLOWLIST:
+        return None
     if SINGLE_MARKER in cand["title"]:
         return "single"
     if cand["norm_key"] in COMP_ALLOWLIST:
