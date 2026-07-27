@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-27T23:40:31.199970+08:00",
+ "generated": "2026-07-28T00:24:35.026622+08:00",
  "topPicks": [
   "miles-smiles",
   "on-the-corner",
@@ -18,15 +18,15 @@
    "type": "label",
    "items": [
     "maiden-voyage",
-    "ext-miles-davis-volume-2",
     "juju",
     "somethin-else",
+    "ext-miles-davis-volume-2",
     "night-dreamer",
-    "ext-miles-davis-vol-3",
     "ext-grant-green-nigeria",
-    "ext-grant-green-green-street",
+    "ext-miles-davis-vol-3",
     "ext-grant-green-live-at-the-lighthouse",
     "the-gigolo-lee-morgan",
+    "ext-grant-green-green-street",
     "point-of-departure",
     "on-the-tender-spot"
    ]
@@ -42,13 +42,13 @@
     "ext-pat-metheny-new-chautauqua",
     "ext-keith-jarrett-the-survivors-suite",
     "ext-chick-corea-childrens-songs",
-    "ext-keith-jarrett-my-foolish-heart-live-at-montreux",
     "ext-keith-jarrett-arbour-zena",
     "ext-chick-corea-arc",
-    "ext-john-abercrombie-the-third-quartet",
+    "ext-keith-jarrett-jasmine",
     "ext-steve-reich-octet-music-for-a-large-ensemble-violin-phase",
     "ext-john-abercrombie-getting-there",
-    "nice-guys"
+    "nice-guys",
+    "ext-wolfgang-muthspiel-where-the-river-goes"
    ]
   },
   {
@@ -78,17 +78,17 @@
    "type": "label",
    "items": [
     "izipho-zam-my-gifts",
-    "ext-doug-carn-revelation",
     "ext-theo-parrish-theo-parrishs-black-jazz-signature",
     "ext-chico-freeman-spirit-sensitive",
     "ext-chico-freeman-kings-of-mali",
+    "ext-doug-carn-revelation",
     "ext-chico-freeman-chico",
     "ext-doug-carn-adams-apple",
     "ext-david-murray-live-at-the-lower-manhattan-ocean-club-volume-1",
-    "ext-kellee-patterson-maiden-voyage",
     "ext-arthur-blythe-metamorphosis",
     "ext-david-murray-live-volume-2",
-    "flowers-for-albert"
+    "flowers-for-albert",
+    "capra-black"
    ]
   },
   {
@@ -104,11 +104,11 @@
     "mellow-dream",
     "ext-casiopea-casiopea",
     "ext-tsuyoshi-yamamoto-trio-misty",
-    "ext-kosuke-mine-quintet-mine",
     "ext-isao-suzuki-quartet-blue-city",
     "ext-terumasa-hino-quintet-live",
     "ext-motohiko-hino-quartet-ryuhyo-sailing-ice-recorded-live-in-nemuro",
-    "ext-masaru-imada-masaru-imada-piano"
+    "ext-masaru-imada-masaru-imada-piano",
+    "ext-tsuyoshi-yamamoto-trio-midnight-sugar"
    ]
   },
   {
@@ -118,17 +118,17 @@
    "type": "lineage",
    "items": [
     "ext-grant-green-nigeria",
-    "ext-grant-green-green-street",
     "ext-grant-green-live-at-the-lighthouse",
     "ext-george-benson-give-me-the-night",
     "ext-george-benson-benson-burner",
     "ext-pat-metheny-watercolors",
+    "ext-grant-green-green-street",
     "ext-pat-metheny-new-chautauqua",
     "ext-pat-metheny-rejoicing",
     "ext-george-benson-white-rabbit",
-    "ext-wes-montgomery-pretty-blue",
     "ext-jim-hall-by-arrangement",
-    "ext-bill-frisell-in-my-dreams"
+    "ext-bill-frisell-in-my-dreams",
+    "ext-jim-hall-jim-hall-pat-metheny"
    ]
   },
   {
@@ -160,8 +160,8 @@
     "we-insist",
     "ext-art-blakey-moanin",
     "ext-idris-muhammad-power-of-soul",
-    "ext-paul-motian-i-have-the-room-above-her",
     "ext-paul-motian-tribute",
+    "ext-paul-motian-i-have-the-room-above-her",
     "ext-max-roach-members-dont-git-weary",
     "free-for-all-art-blakey",
     "ext-jack-dejohnette-dejohnette-hancock-holland-metheny-in-concert",
@@ -985,22 +985,12 @@
      "detail": "Last.fm: similar to Stan Getz (your #17)",
      "src": "lastfm",
      "ref": "stan getz"
-    },
-    {
-     "type": "sideman",
-     "detail": "Chet Baker and Miles Davis appear on albums you saved",
-     "src": "discogs",
-     "ref": "release:3469846"
     }
    ],
    "badges": {
     "pitchfork": {
      "score": 7.1,
      "bnm": false
-    },
-    "discogs": {
-     "rating": 4.51,
-     "haves": 277
     }
    }
   },
@@ -1502,51 +1492,6 @@
     }
    }
   },
-  "ext-grant-green-green-street": {
-   "id": "ext-grant-green-green-street",
-   "title": "Green Street",
-   "artist": "Grant Green",
-   "year": 1961,
-   "coverUrl": null,
-   "inCatalog": false,
-   "catalogId": null,
-   "spotifyUrl": "https://open.spotify.com/search/Grant%20Green%20Green%20Street",
-   "score": 60.6,
-   "reasons": [
-    {
-     "type": "chart",
-     "detail": "#15 in RYM soul-jazz chart (3.69 from 1000 ratings)",
-     "src": "rym",
-     "ref": "soul-jazz"
-    },
-    {
-     "type": "similar",
-     "detail": "Last.fm: similar to Jim Hall (your #8)",
-     "src": "lastfm",
-     "ref": "jim hall"
-    },
-    {
-     "type": "label",
-     "detail": "On Blue Note — you have 19 albums from this label",
-     "src": "taste_profile",
-     "ref": "Blue Note"
-    }
-   ],
-   "badges": {
-    "rym": {
-     "chart": "soul-jazz",
-     "rank": 15,
-     "rating": 3.69
-    },
-    "discogs": {
-     "rating": 4.56,
-     "haves": 343
-    },
-    "reddit": {
-     "mentions": 2
-    }
-   }
-  },
   "ext-grant-green-live-at-the-lighthouse": {
    "id": "ext-grant-green-live-at-the-lighthouse",
    "title": "Live At The Lighthouse",
@@ -1815,6 +1760,51 @@
     "discogs": {
      "rating": 4.32,
      "haves": 4618
+    }
+   }
+  },
+  "ext-grant-green-green-street": {
+   "id": "ext-grant-green-green-street",
+   "title": "Green Street",
+   "artist": "Grant Green",
+   "year": 1961,
+   "coverUrl": null,
+   "inCatalog": false,
+   "catalogId": null,
+   "spotifyUrl": "https://open.spotify.com/search/Grant%20Green%20Green%20Street",
+   "score": 58.8,
+   "reasons": [
+    {
+     "type": "chart",
+     "detail": "#15 in RYM soul-jazz chart (3.69 from 1000 ratings)",
+     "src": "rym",
+     "ref": "soul-jazz"
+    },
+    {
+     "type": "similar",
+     "detail": "Last.fm: similar to Jim Hall (your #8)",
+     "src": "lastfm",
+     "ref": "jim hall"
+    },
+    {
+     "type": "label",
+     "detail": "On Blue Note — you have 19 albums from this label",
+     "src": "taste_profile",
+     "ref": "Blue Note"
+    }
+   ],
+   "badges": {
+    "rym": {
+     "chart": "soul-jazz",
+     "rank": 15,
+     "rating": 3.69
+    },
+    "discogs": {
+     "rating": 4.56,
+     "haves": 343
+    },
+    "reddit": {
+     "mentions": 2
     }
    }
   },
@@ -2338,37 +2328,6 @@
     }
    }
   },
-  "ext-wes-montgomery-pretty-blue": {
-   "id": "ext-wes-montgomery-pretty-blue",
-   "title": "Pretty Blue",
-   "artist": "Wes Montgomery",
-   "year": 1975,
-   "coverUrl": null,
-   "inCatalog": false,
-   "catalogId": null,
-   "spotifyUrl": "https://open.spotify.com/search/Wes%20Montgomery%20Pretty%20Blue",
-   "score": 55.7,
-   "reasons": [
-    {
-     "type": "similar",
-     "detail": "Last.fm: similar to Grant Green (your #29)",
-     "src": "lastfm",
-     "ref": "grant green"
-    },
-    {
-     "type": "sideman",
-     "detail": "Miles Davis and Wes Montgomery appear on albums you saved",
-     "src": "discogs",
-     "ref": "release:3166290"
-    }
-   ],
-   "badges": {
-    "discogs": {
-     "rating": 3.82,
-     "haves": 558
-    }
-   }
-  },
   "jewels-of-thought": {
    "id": "jewels-of-thought",
    "title": "Jewels of Thought",
@@ -2490,37 +2449,6 @@
     }
    }
   },
-  "ext-emily-remler-cookin-at-the-queens-live-in-las-vegas-1984-1988": {
-   "id": "ext-emily-remler-cookin-at-the-queens-live-in-las-vegas-1984-1988",
-   "title": "Cookin’ At The Queens Live In Las Vegas 1984 & 1988 ",
-   "artist": "Emily Remler",
-   "year": 2024,
-   "coverUrl": null,
-   "inCatalog": false,
-   "catalogId": null,
-   "spotifyUrl": "https://open.spotify.com/search/Emily%20Remler%20Cookin%E2%80%99%20At%20The%20Queens%20Live%20In%20Las%20Vegas%201984%20%26%201988%20",
-   "score": 55.5,
-   "reasons": [
-    {
-     "type": "sideman",
-     "detail": "Miles Davis and Emily Remler appear on albums you saved",
-     "src": "discogs",
-     "ref": "release:32432670"
-    },
-    {
-     "type": "artist",
-     "detail": "Emily Remler is your #22 artist",
-     "src": "taste_profile",
-     "ref": "emily remler"
-    }
-   ],
-   "badges": {
-    "discogs": {
-     "rating": 4.89,
-     "haves": 329
-    }
-   }
-  },
   "ext-bill-evans-portrait-in-jazz": {
    "id": "ext-bill-evans-portrait-in-jazz",
    "title": "Portrait in Jazz",
@@ -2585,51 +2513,6 @@
     "discogs": {
      "rating": 4.44,
      "haves": 155
-    }
-   }
-  },
-  "ext-eric-dolphy-out-there": {
-   "id": "ext-eric-dolphy-out-there",
-   "title": "Out There",
-   "artist": "Eric Dolphy",
-   "year": 1982,
-   "coverUrl": null,
-   "inCatalog": false,
-   "catalogId": null,
-   "spotifyUrl": "https://open.spotify.com/search/Eric%20Dolphy%20Out%20There",
-   "score": 55.2,
-   "reasons": [
-    {
-     "type": "chart",
-     "detail": "#56 in RYM post-bop chart (3.8 from 4000 ratings)",
-     "src": "rym",
-     "ref": "post-bop"
-    },
-    {
-     "type": "reddit",
-     "detail": "Mentioned in 3 r/jazz threads",
-     "src": "reddit",
-     "ref": "eric dolphy::out there"
-    },
-    {
-     "type": "similar",
-     "detail": "Last.fm: similar to Charles Mingus (your #27)",
-     "src": "lastfm",
-     "ref": "charles mingus"
-    }
-   ],
-   "badges": {
-    "rym": {
-     "chart": "post-bop",
-     "rank": 56,
-     "rating": 3.8
-    },
-    "discogs": {
-     "rating": 4.64,
-     "haves": 1170
-    },
-    "reddit": {
-     "mentions": 3
     }
    }
   },
@@ -3008,48 +2891,6 @@
     }
    }
   },
-  "portrait-in-jazz": {
-   "id": "portrait-in-jazz",
-   "title": "Portrait in Jazz",
-   "artist": "Bill Evans Trio",
-   "year": 1960,
-   "coverUrl": "https://ia803207.us.archive.org/30/items/mbid-2540a282-7cad-402d-9e92-ae50aa316671/mbid-2540a282-7cad-402d-9e92-ae50aa316671-15299228841.jpg",
-   "inCatalog": true,
-   "catalogId": "portrait-in-jazz",
-   "spotifyUrl": "https://open.spotify.com/album/093nLQ4H81HusNsFdGS4Or",
-   "score": 54.2,
-   "reasons": [
-    {
-     "type": "chart",
-     "detail": "#44 in RYM hard-bop chart (3.78 from 5000 ratings)",
-     "src": "rym",
-     "ref": "hard-bop"
-    },
-    {
-     "type": "similar",
-     "detail": "Last.fm: similar to Stan Getz (your #17)",
-     "src": "lastfm",
-     "ref": "stan getz"
-    },
-    {
-     "type": "sideman",
-     "detail": "Miles Davis and Bill Evans appear on albums you saved",
-     "src": "discogs",
-     "ref": "release:2612477"
-    }
-   ],
-   "badges": {
-    "rym": {
-     "chart": "hard-bop",
-     "rank": 44,
-     "rating": 3.78
-    },
-    "discogs": {
-     "rating": 4.38,
-     "haves": 117
-    }
-   }
-  },
   "ext-jim-hall-jim-hall-pat-metheny": {
    "id": "ext-jim-hall-jim-hall-pat-metheny",
    "title": "Jim Hall & Pat Metheny",
@@ -3244,31 +3085,6 @@
     }
    }
   },
-  "ext-deep-purple-who-do-we-think-we-are": {
-   "id": "ext-deep-purple-who-do-we-think-we-are",
-   "title": "Who Do We Think We Are",
-   "artist": "Deep Purple",
-   "year": 1973,
-   "coverUrl": null,
-   "inCatalog": false,
-   "catalogId": null,
-   "spotifyUrl": "https://open.spotify.com/search/Deep%20Purple%20Who%20Do%20We%20Think%20We%20Are",
-   "score": 53.7,
-   "reasons": [
-    {
-     "type": "artist",
-     "detail": "Deep Purple is your #20 artist",
-     "src": "taste_profile",
-     "ref": "deep purple"
-    }
-   ],
-   "badges": {
-    "discogs": {
-     "rating": 4.13,
-     "haves": 6882
-    }
-   }
-  },
   "ext-floating-points-crush": {
    "id": "ext-floating-points-crush",
    "title": "Crush",
@@ -3428,6 +3244,51 @@
     }
    }
   },
+  "ext-eric-dolphy-out-there": {
+   "id": "ext-eric-dolphy-out-there",
+   "title": "Out There",
+   "artist": "Eric Dolphy",
+   "year": 1982,
+   "coverUrl": null,
+   "inCatalog": false,
+   "catalogId": null,
+   "spotifyUrl": "https://open.spotify.com/search/Eric%20Dolphy%20Out%20There",
+   "score": 53.4,
+   "reasons": [
+    {
+     "type": "chart",
+     "detail": "#56 in RYM post-bop chart (3.8 from 4000 ratings)",
+     "src": "rym",
+     "ref": "post-bop"
+    },
+    {
+     "type": "reddit",
+     "detail": "Mentioned in 3 r/jazz threads",
+     "src": "reddit",
+     "ref": "eric dolphy::out there"
+    },
+    {
+     "type": "similar",
+     "detail": "Last.fm: similar to Charles Mingus (your #27)",
+     "src": "lastfm",
+     "ref": "charles mingus"
+    }
+   ],
+   "badges": {
+    "rym": {
+     "chart": "post-bop",
+     "rank": 56,
+     "rating": 3.8
+    },
+    "discogs": {
+     "rating": 4.64,
+     "haves": 1170
+    },
+    "reddit": {
+     "mentions": 3
+    }
+   }
+  },
   "empyrean-isles": {
    "id": "empyrean-isles",
    "title": "Empyrean Isles",
@@ -3466,31 +3327,6 @@
     },
     "reddit": {
      "mentions": 2
-    }
-   }
-  },
-  "ext-wes-montgomery-march-6-1925june-15-1968": {
-   "id": "ext-wes-montgomery-march-6-1925june-15-1968",
-   "title": "March 6, 1925-June 15, 1968",
-   "artist": "Wes Montgomery",
-   "year": 1968,
-   "coverUrl": null,
-   "inCatalog": false,
-   "catalogId": null,
-   "spotifyUrl": "https://open.spotify.com/search/Wes%20Montgomery%20March%206%2C%201925-June%2015%2C%201968",
-   "score": 53.4,
-   "reasons": [
-    {
-     "type": "similar",
-     "detail": "Last.fm: similar to Grant Green (your #29)",
-     "src": "lastfm",
-     "ref": "grant green"
-    }
-   ],
-   "badges": {
-    "discogs": {
-     "rating": 3.97,
-     "haves": 820
     }
    }
   },
@@ -3786,53 +3622,39 @@
     }
    }
   },
-  "ext-bohren-der-club-of-gore-patchouli-blue": {
-   "id": "ext-bohren-der-club-of-gore-patchouli-blue",
-   "title": "Patchouli Blue",
-   "artist": "Bohren & Der Club Of Gore",
-   "year": 2020,
-   "coverUrl": null,
-   "inCatalog": false,
-   "catalogId": null,
-   "spotifyUrl": "https://open.spotify.com/search/Bohren%20%26%20Der%20Club%20Of%20Gore%20Patchouli%20Blue",
-   "score": 52.5,
-   "reasons": [
-    {
-     "type": "artist",
-     "detail": "Bohren & Der Club Of Gore is your #26 artist",
-     "src": "taste_profile",
-     "ref": "bohren der club of gore"
-    }
-   ],
-   "badges": {
-    "discogs": {
-     "rating": 4.63,
-     "haves": 2225
-    }
-   }
-  },
-  "ext-deep-purple-come-taste-the-band": {
-   "id": "ext-deep-purple-come-taste-the-band",
-   "title": "Come Taste The Band",
-   "artist": "Deep Purple",
-   "year": 1975,
-   "coverUrl": null,
-   "inCatalog": false,
-   "catalogId": null,
-   "spotifyUrl": "https://open.spotify.com/search/Deep%20Purple%20Come%20Taste%20The%20Band",
+  "portrait-in-jazz": {
+   "id": "portrait-in-jazz",
+   "title": "Portrait in Jazz",
+   "artist": "Bill Evans Trio",
+   "year": 1960,
+   "coverUrl": "https://ia803207.us.archive.org/30/items/mbid-2540a282-7cad-402d-9e92-ae50aa316671/mbid-2540a282-7cad-402d-9e92-ae50aa316671-15299228841.jpg",
+   "inCatalog": true,
+   "catalogId": "portrait-in-jazz",
+   "spotifyUrl": "https://open.spotify.com/album/093nLQ4H81HusNsFdGS4Or",
    "score": 52.4,
    "reasons": [
     {
-     "type": "artist",
-     "detail": "Deep Purple is your #20 artist",
-     "src": "taste_profile",
-     "ref": "deep purple"
+     "type": "chart",
+     "detail": "#44 in RYM hard-bop chart (3.78 from 5000 ratings)",
+     "src": "rym",
+     "ref": "hard-bop"
+    },
+    {
+     "type": "similar",
+     "detail": "Last.fm: similar to Stan Getz (your #17)",
+     "src": "lastfm",
+     "ref": "stan getz"
     }
    ],
    "badges": {
+    "rym": {
+     "chart": "hard-bop",
+     "rank": 44,
+     "rating": 3.78
+    },
     "discogs": {
-     "rating": 4.07,
-     "haves": 5409
+     "rating": 4.38,
+     "haves": 117
     }
    }
   },
@@ -4036,6 +3858,31 @@
     }
    }
   },
+  "ext-wes-montgomery-pretty-blue": {
+   "id": "ext-wes-montgomery-pretty-blue",
+   "title": "Pretty Blue",
+   "artist": "Wes Montgomery",
+   "year": 1975,
+   "coverUrl": null,
+   "inCatalog": false,
+   "catalogId": null,
+   "spotifyUrl": "https://open.spotify.com/search/Wes%20Montgomery%20Pretty%20Blue",
+   "score": 52.1,
+   "reasons": [
+    {
+     "type": "similar",
+     "detail": "Last.fm: similar to Grant Green (your #29)",
+     "src": "lastfm",
+     "ref": "grant green"
+    }
+   ],
+   "badges": {
+    "discogs": {
+     "rating": 3.82,
+     "haves": 558
+    }
+   }
+  },
   "ext-joe-pass-virtuoso": {
    "id": "ext-joe-pass-virtuoso",
    "title": "Virtuoso",
@@ -4129,6 +3976,31 @@
     }
    }
   },
+  "ext-deep-purple-who-do-we-think-we-are": {
+   "id": "ext-deep-purple-who-do-we-think-we-are",
+   "title": "Who Do We Think We Are",
+   "artist": "Deep Purple",
+   "year": 1973,
+   "coverUrl": null,
+   "inCatalog": false,
+   "catalogId": null,
+   "spotifyUrl": "https://open.spotify.com/search/Deep%20Purple%20Who%20Do%20We%20Think%20We%20Are",
+   "score": 51.9,
+   "reasons": [
+    {
+     "type": "artist",
+     "detail": "Deep Purple is your #20 artist",
+     "src": "taste_profile",
+     "ref": "deep purple"
+    }
+   ],
+   "badges": {
+    "discogs": {
+     "rating": 4.13,
+     "haves": 6882
+    }
+   }
+  },
   "ext-jeff-parker-mondays-at-the-enfield-tennis-academy": {
    "id": "ext-jeff-parker-mondays-at-the-enfield-tennis-academy",
    "title": "Mondays at the Enfield Tennis Academy",
@@ -4182,43 +4054,6 @@
     "pitchfork": {
      "score": 7.8,
      "bnm": false
-    }
-   }
-  },
-  "ext-bireli-lagrene-inferno": {
-   "id": "ext-bireli-lagrene-inferno",
-   "title": "Inferno",
-   "artist": "Biréli Lagrène",
-   "year": 1987,
-   "coverUrl": null,
-   "inCatalog": false,
-   "catalogId": null,
-   "spotifyUrl": "https://open.spotify.com/search/Bir%C3%A9li%20Lagr%C3%A8ne%20Inferno",
-   "score": 51.8,
-   "reasons": [
-    {
-     "type": "label",
-     "detail": "On Blue Note — you have 19 albums from this label",
-     "src": "taste_profile",
-     "ref": "Blue Note"
-    },
-    {
-     "type": "artist",
-     "detail": "Biréli Lagrène is your #12 artist",
-     "src": "taste_profile",
-     "ref": "bireli lagrene"
-    },
-    {
-     "type": "sideman",
-     "detail": "Biréli Lagrène and Bill Evans appear on albums you saved",
-     "src": "discogs",
-     "ref": "release:1452620"
-    }
-   ],
-   "badges": {
-    "discogs": {
-     "rating": 3.75,
-     "haves": 123
     }
    }
   },
@@ -4360,6 +4195,31 @@
     "discogs": {
      "rating": 4.48,
      "haves": 398
+    }
+   }
+  },
+  "ext-wes-montgomery-march-6-1925june-15-1968": {
+   "id": "ext-wes-montgomery-march-6-1925june-15-1968",
+   "title": "March 6, 1925-June 15, 1968",
+   "artist": "Wes Montgomery",
+   "year": 1968,
+   "coverUrl": null,
+   "inCatalog": false,
+   "catalogId": null,
+   "spotifyUrl": "https://open.spotify.com/search/Wes%20Montgomery%20March%206%2C%201925-June%2015%2C%201968",
+   "score": 51.6,
+   "reasons": [
+    {
+     "type": "similar",
+     "detail": "Last.fm: similar to Grant Green (your #29)",
+     "src": "lastfm",
+     "ref": "grant green"
+    }
+   ],
+   "badges": {
+    "discogs": {
+     "rating": 3.97,
+     "haves": 820
     }
    }
   },
@@ -4866,37 +4726,6 @@
     }
    }
   },
-  "ext-larry-coryell-together": {
-   "id": "ext-larry-coryell-together",
-   "title": "Together",
-   "artist": "Larry Coryell",
-   "year": 1985,
-   "coverUrl": null,
-   "inCatalog": false,
-   "catalogId": null,
-   "spotifyUrl": "https://open.spotify.com/search/Larry%20Coryell%20Together",
-   "score": 50.9,
-   "reasons": [
-    {
-     "type": "similar",
-     "detail": "Last.fm: similar to Philip Catherine (your #25)",
-     "src": "lastfm",
-     "ref": "philip catherine"
-    },
-    {
-     "type": "sideman",
-     "detail": "Emily Remler and Pat Martino appear on albums you saved",
-     "src": "discogs",
-     "ref": "release:4564128"
-    }
-   ],
-   "badges": {
-    "discogs": {
-     "rating": 5.0,
-     "haves": 74
-    }
-   }
-  },
   "ext-chick-corea-childrens-songs": {
    "id": "ext-chick-corea-childrens-songs",
    "title": "Children's Songs",
@@ -4988,6 +4817,31 @@
     }
    }
   },
+  "ext-bohren-der-club-of-gore-patchouli-blue": {
+   "id": "ext-bohren-der-club-of-gore-patchouli-blue",
+   "title": "Patchouli Blue",
+   "artist": "Bohren & Der Club Of Gore",
+   "year": 2020,
+   "coverUrl": null,
+   "inCatalog": false,
+   "catalogId": null,
+   "spotifyUrl": "https://open.spotify.com/search/Bohren%20%26%20Der%20Club%20Of%20Gore%20Patchouli%20Blue",
+   "score": 50.7,
+   "reasons": [
+    {
+     "type": "artist",
+     "detail": "Bohren & Der Club Of Gore is your #26 artist",
+     "src": "taste_profile",
+     "ref": "bohren der club of gore"
+    }
+   ],
+   "badges": {
+    "discogs": {
+     "rating": 4.63,
+     "haves": 2225
+    }
+   }
+  },
   "ext-emily-remler-catwalk": {
    "id": "ext-emily-remler-catwalk",
    "title": "Catwalk",
@@ -5042,6 +4896,31 @@
      "chart": "spiritual-jazz",
      "rank": 20,
      "rating": 3.88
+    }
+   }
+  },
+  "ext-deep-purple-come-taste-the-band": {
+   "id": "ext-deep-purple-come-taste-the-band",
+   "title": "Come Taste The Band",
+   "artist": "Deep Purple",
+   "year": 1975,
+   "coverUrl": null,
+   "inCatalog": false,
+   "catalogId": null,
+   "spotifyUrl": "https://open.spotify.com/search/Deep%20Purple%20Come%20Taste%20The%20Band",
+   "score": 50.6,
+   "reasons": [
+    {
+     "type": "artist",
+     "detail": "Deep Purple is your #20 artist",
+     "src": "taste_profile",
+     "ref": "deep purple"
+    }
+   ],
+   "badges": {
+    "discogs": {
+     "rating": 4.07,
+     "haves": 5409
     }
    }
   },
@@ -5241,37 +5120,6 @@
     }
    }
   },
-  "ext-keith-jarrett-my-foolish-heart-live-at-montreux": {
-   "id": "ext-keith-jarrett-my-foolish-heart-live-at-montreux",
-   "title": "My Foolish Heart (Live At Montreux)",
-   "artist": "Keith Jarrett",
-   "year": 2007,
-   "coverUrl": null,
-   "inCatalog": false,
-   "catalogId": null,
-   "spotifyUrl": "https://open.spotify.com/search/Keith%20Jarrett%20My%20Foolish%20Heart%20%28Live%20At%20Montreux%29",
-   "score": 50.2,
-   "reasons": [
-    {
-     "type": "similar",
-     "detail": "Last.fm: similar to Chick Corea (your #11)",
-     "src": "lastfm",
-     "ref": "chick corea"
-    },
-    {
-     "type": "sideman",
-     "detail": "Miles Davis and Thelonious Monk appear on albums you saved",
-     "src": "discogs",
-     "ref": "release:1606754"
-    }
-   ],
-   "badges": {
-    "discogs": {
-     "rating": 4.36,
-     "haves": 896
-    }
-   }
-  },
   "ext-dave-brubeck-quartet-buried-treasures-recorded-live-in-mexico-city": {
    "id": "ext-dave-brubeck-quartet-buried-treasures-recorded-live-in-mexico-city",
    "title": "Buried Treasures (Recorded Live In Mexico City)",
@@ -5303,6 +5151,31 @@
     }
    }
   },
+  "ext-emily-remler-cookin-at-the-queens-live-in-las-vegas-1984-1988": {
+   "id": "ext-emily-remler-cookin-at-the-queens-live-in-las-vegas-1984-1988",
+   "title": "Cookin’ At The Queens Live In Las Vegas 1984 & 1988 ",
+   "artist": "Emily Remler",
+   "year": 2024,
+   "coverUrl": null,
+   "inCatalog": false,
+   "catalogId": null,
+   "spotifyUrl": "https://open.spotify.com/search/Emily%20Remler%20Cookin%E2%80%99%20At%20The%20Queens%20Live%20In%20Las%20Vegas%201984%20%26%201988%20",
+   "score": 50.1,
+   "reasons": [
+    {
+     "type": "artist",
+     "detail": "Emily Remler is your #22 artist",
+     "src": "taste_profile",
+     "ref": "emily remler"
+    }
+   ],
+   "badges": {
+    "discogs": {
+     "rating": 4.89,
+     "haves": 329
+    }
+   }
+  },
   "ext-stan-getz-for-musicians-only": {
    "id": "ext-stan-getz-for-musicians-only",
    "title": "For Musicians Only",
@@ -5331,6 +5204,37 @@
     "discogs": {
      "rating": 4.2,
      "haves": 237
+    }
+   }
+  },
+  "ext-bireli-lagrene-inferno": {
+   "id": "ext-bireli-lagrene-inferno",
+   "title": "Inferno",
+   "artist": "Biréli Lagrène",
+   "year": 1987,
+   "coverUrl": null,
+   "inCatalog": false,
+   "catalogId": null,
+   "spotifyUrl": "https://open.spotify.com/search/Bir%C3%A9li%20Lagr%C3%A8ne%20Inferno",
+   "score": 50.0,
+   "reasons": [
+    {
+     "type": "label",
+     "detail": "On Blue Note — you have 19 albums from this label",
+     "src": "taste_profile",
+     "ref": "Blue Note"
+    },
+    {
+     "type": "artist",
+     "detail": "Biréli Lagrène is your #12 artist",
+     "src": "taste_profile",
+     "ref": "bireli lagrene"
+    }
+   ],
+   "badges": {
+    "discogs": {
+     "rating": 3.75,
+     "haves": 123
     }
    }
   },
@@ -5647,37 +5551,6 @@
     }
    }
   },
-  "ext-charlie-haden-charlie-haden-jim-hall": {
-   "id": "ext-charlie-haden-charlie-haden-jim-hall",
-   "title": "Charlie Haden - Jim Hall",
-   "artist": "Charlie Haden",
-   "year": 2014,
-   "coverUrl": null,
-   "inCatalog": false,
-   "catalogId": null,
-   "spotifyUrl": "https://open.spotify.com/search/Charlie%20Haden%20Charlie%20Haden%20-%20Jim%20Hall",
-   "score": 49.5,
-   "reasons": [
-    {
-     "type": "label",
-     "detail": "On Impulse! — you have 5 albums from this label",
-     "src": "taste_profile",
-     "ref": "Impulse!"
-    },
-    {
-     "type": "sideman",
-     "detail": "Jim Hall and Thelonious Monk appear on albums you saved",
-     "src": "discogs",
-     "ref": "release:6141604"
-    }
-   ],
-   "badges": {
-    "discogs": {
-     "rating": 4.22,
-     "haves": 319
-    }
-   }
-  },
   "go": {
    "id": "go",
    "title": "Go!",
@@ -5716,6 +5589,31 @@
     },
     "reddit": {
      "mentions": 2
+    }
+   }
+  },
+  "ext-keith-jarrett-arbour-zena": {
+   "id": "ext-keith-jarrett-arbour-zena",
+   "title": "Arbour Zena",
+   "artist": "Keith Jarrett",
+   "year": 1976,
+   "coverUrl": null,
+   "inCatalog": false,
+   "catalogId": null,
+   "spotifyUrl": "https://open.spotify.com/search/Keith%20Jarrett%20Arbour%20Zena",
+   "score": 49.5,
+   "reasons": [
+    {
+     "type": "similar",
+     "detail": "Last.fm: similar to Chick Corea (your #11)",
+     "src": "lastfm",
+     "ref": "chick corea"
+    }
+   ],
+   "badges": {
+    "discogs": {
+     "rating": 4.12,
+     "haves": 2970
     }
    }
   },
@@ -5986,6 +5884,31 @@
     }
    }
   },
+  "ext-larry-coryell-together": {
+   "id": "ext-larry-coryell-together",
+   "title": "Together",
+   "artist": "Larry Coryell",
+   "year": 1985,
+   "coverUrl": null,
+   "inCatalog": false,
+   "catalogId": null,
+   "spotifyUrl": "https://open.spotify.com/search/Larry%20Coryell%20Together",
+   "score": 49.1,
+   "reasons": [
+    {
+     "type": "similar",
+     "detail": "Last.fm: similar to Philip Catherine (your #25)",
+     "src": "lastfm",
+     "ref": "philip catherine"
+    }
+   ],
+   "badges": {
+    "discogs": {
+     "rating": 5.0,
+     "haves": 74
+    }
+   }
+  },
   "coin-coin-chapter-four-memphis": {
    "id": "coin-coin-chapter-four-memphis",
    "title": "Coin Coin Chapter Four: Memphis",
@@ -6136,31 +6059,6 @@
     }
    }
   },
-  "ext-ulver-nattens-madrigal-aatte-hymne-til-ulven-i-manden": {
-   "id": "ext-ulver-nattens-madrigal-aatte-hymne-til-ulven-i-manden",
-   "title": "Nattens Madrigal - Aatte Hymne Til Ulven I Manden",
-   "artist": "Ulver",
-   "year": 1997,
-   "coverUrl": null,
-   "inCatalog": false,
-   "catalogId": null,
-   "spotifyUrl": "https://open.spotify.com/search/Ulver%20Nattens%20Madrigal%20-%20Aatte%20Hymne%20Til%20Ulven%20I%20Manden",
-   "score": 48.6,
-   "reasons": [
-    {
-     "type": "artist",
-     "detail": "Ulver is your #24 artist",
-     "src": "taste_profile",
-     "ref": "ulver"
-    }
-   ],
-   "badges": {
-    "discogs": {
-     "rating": 4.43,
-     "haves": 1106
-    }
-   }
-  },
   "ext-comet-is-coming-the-afterlife": {
    "id": "ext-comet-is-coming-the-afterlife",
    "title": "The Afterlife",
@@ -6251,62 +6149,6 @@
     "pitchfork": {
      "score": 7.9,
      "bnm": false
-    }
-   }
-  },
-  "ext-sylvain-luc-duet": {
-   "id": "ext-sylvain-luc-duet",
-   "title": "Duet",
-   "artist": "Sylvain Luc",
-   "year": 1999,
-   "coverUrl": null,
-   "inCatalog": false,
-   "catalogId": null,
-   "spotifyUrl": "https://open.spotify.com/search/Sylvain%20Luc%20Duet",
-   "score": 48.4,
-   "reasons": [
-    {
-     "type": "similar",
-     "detail": "Last.fm: similar to Biréli Lagrène (your #12)",
-     "src": "lastfm",
-     "ref": "bireli lagrene"
-    },
-    {
-     "type": "sideman",
-     "detail": "Biréli Lagrène and Wes Montgomery appear on albums you saved",
-     "src": "discogs",
-     "ref": "release:5426864"
-    }
-   ],
-   "badges": {
-    "discogs": {
-     "rating": 4.39,
-     "haves": 223
-    }
-   }
-  },
-  "ext-deep-purple-fireball": {
-   "id": "ext-deep-purple-fireball",
-   "title": "Fireball",
-   "artist": "Deep Purple",
-   "year": 1971,
-   "coverUrl": null,
-   "inCatalog": false,
-   "catalogId": null,
-   "spotifyUrl": "https://open.spotify.com/search/Deep%20Purple%20Fireball",
-   "score": 48.3,
-   "reasons": [
-    {
-     "type": "artist",
-     "detail": "Deep Purple is your #20 artist",
-     "src": "taste_profile",
-     "ref": "deep purple"
-    }
-   ],
-   "badges": {
-    "discogs": {
-     "rating": 4.38,
-     "haves": 1011
     }
    }
   },
@@ -6570,6 +6412,31 @@
     "discogs": {
      "rating": 3.92,
      "haves": 1416
+    }
+   }
+  },
+  "ext-charlie-haden-charlie-haden-jim-hall": {
+   "id": "ext-charlie-haden-charlie-haden-jim-hall",
+   "title": "Charlie Haden - Jim Hall",
+   "artist": "Charlie Haden",
+   "year": 2014,
+   "coverUrl": null,
+   "inCatalog": false,
+   "catalogId": null,
+   "spotifyUrl": "https://open.spotify.com/search/Charlie%20Haden%20Charlie%20Haden%20-%20Jim%20Hall",
+   "score": 47.7,
+   "reasons": [
+    {
+     "type": "label",
+     "detail": "On Impulse! — you have 5 albums from this label",
+     "src": "taste_profile",
+     "ref": "Impulse!"
+    }
+   ],
+   "badges": {
+    "discogs": {
+     "rating": 4.22,
+     "haves": 319
     }
    }
   },
@@ -7249,31 +7116,6 @@
     "pitchfork": {
      "score": 7.6,
      "bnm": false
-    }
-   }
-  },
-  "ext-ulver-the-norwegian-national-opera": {
-   "id": "ext-ulver-the-norwegian-national-opera",
-   "title": "The Norwegian National Opera",
-   "artist": "Ulver",
-   "year": 2011,
-   "coverUrl": null,
-   "inCatalog": false,
-   "catalogId": null,
-   "spotifyUrl": "https://open.spotify.com/search/Ulver%20The%20Norwegian%20National%20Opera",
-   "score": 47.2,
-   "reasons": [
-    {
-     "type": "artist",
-     "detail": "Ulver is your #24 artist",
-     "src": "taste_profile",
-     "ref": "ulver"
-    }
-   ],
-   "badges": {
-    "discogs": {
-     "rating": 4.45,
-     "haves": 751
     }
    }
   },
@@ -8209,6 +8051,31 @@
     }
    }
   },
+  "ext-ulver-nattens-madrigal-aatte-hymne-til-ulven-i-manden": {
+   "id": "ext-ulver-nattens-madrigal-aatte-hymne-til-ulven-i-manden",
+   "title": "Nattens Madrigal - Aatte Hymne Til Ulven I Manden",
+   "artist": "Ulver",
+   "year": 1997,
+   "coverUrl": null,
+   "inCatalog": false,
+   "catalogId": null,
+   "spotifyUrl": "https://open.spotify.com/search/Ulver%20Nattens%20Madrigal%20-%20Aatte%20Hymne%20Til%20Ulven%20I%20Manden",
+   "score": 46.8,
+   "reasons": [
+    {
+     "type": "artist",
+     "detail": "Ulver is your #24 artist",
+     "src": "taste_profile",
+     "ref": "ulver"
+    }
+   ],
+   "badges": {
+    "discogs": {
+     "rating": 4.43,
+     "haves": 1106
+    }
+   }
+  },
   "ext-wadada-leo-smith-pacifica-koral-reef": {
    "id": "ext-wadada-leo-smith-pacifica-koral-reef",
    "title": "Pacifica Koral Reef",
@@ -8231,37 +8098,6 @@
     "pitchfork": {
      "score": 7.8,
      "bnm": false
-    }
-   }
-  },
-  "ext-art-farmer-quartet-live-at-the-halfnote": {
-   "id": "ext-art-farmer-quartet-live-at-the-halfnote",
-   "title": "\"Live\" At The Half-Note",
-   "artist": "Art Farmer Quartet",
-   "year": 1964,
-   "coverUrl": null,
-   "inCatalog": false,
-   "catalogId": null,
-   "spotifyUrl": "https://open.spotify.com/search/Art%20Farmer%20Quartet%20%22Live%22%20At%20The%20Half-Note",
-   "score": 46.7,
-   "reasons": [
-    {
-     "type": "label",
-     "detail": "On Atlantic — you have 8 albums from this label",
-     "src": "taste_profile",
-     "ref": "Atlantic"
-    },
-    {
-     "type": "sideman",
-     "detail": "Miles Davis and Jim Hall appear on albums you saved",
-     "src": "discogs",
-     "ref": "release:4251890"
-    }
-   ],
-   "badges": {
-    "discogs": {
-     "rating": 4.2,
-     "haves": 347
     }
    }
   },
@@ -8549,28 +8385,28 @@
     }
    }
   },
-  "ext-bohren-der-club-of-gore-bohren-for-beginners": {
-   "id": "ext-bohren-der-club-of-gore-bohren-for-beginners",
-   "title": "Bohren For Beginners",
-   "artist": "Bohren & Der Club Of Gore",
-   "year": 2016,
+  "ext-deep-purple-fireball": {
+   "id": "ext-deep-purple-fireball",
+   "title": "Fireball",
+   "artist": "Deep Purple",
+   "year": 1971,
    "coverUrl": null,
    "inCatalog": false,
    "catalogId": null,
-   "spotifyUrl": "https://open.spotify.com/search/Bohren%20%26%20Der%20Club%20Of%20Gore%20Bohren%20For%20Beginners",
+   "spotifyUrl": "https://open.spotify.com/search/Deep%20Purple%20Fireball",
    "score": 46.5,
    "reasons": [
     {
      "type": "artist",
-     "detail": "Bohren & Der Club Of Gore is your #26 artist",
+     "detail": "Deep Purple is your #20 artist",
      "src": "taste_profile",
-     "ref": "bohren der club of gore"
+     "ref": "deep purple"
     }
    ],
    "badges": {
     "discogs": {
-     "rating": 4.63,
-     "haves": 506
+     "rating": 4.38,
+     "haves": 1011
     }
    }
   },
@@ -8816,24 +8652,6 @@
     "pitchfork": {
      "score": 7.5,
      "bnm": false
-    }
-   }
-  },
-  "ext-yussef-dayes-love-is-the-message-live-at-abbey-road-studios": {
-   "id": "ext-yussef-dayes-love-is-the-message-live-at-abbey-road-studios",
-   "title": "Love Is The Message (Live At Abbey Road Studios)",
-   "artist": "Yussef Dayes",
-   "year": 2018,
-   "coverUrl": null,
-   "inCatalog": false,
-   "catalogId": null,
-   "spotifyUrl": "https://open.spotify.com/search/Yussef%20Dayes%20Love%20Is%20The%20Message%20%28Live%20At%20Abbey%20Road%20Studios%29",
-   "score": 46.4,
-   "reasons": [],
-   "badges": {
-    "discogs": {
-     "rating": 4.82,
-     "haves": 488
     }
    }
   },
@@ -9228,6 +9046,138 @@
     }
    }
   },
+  "ext-patrice-rushen-remind-me-the-classic-elektra-recordings-19781984": {
+   "id": "ext-patrice-rushen-remind-me-the-classic-elektra-recordings-19781984",
+   "title": "Remind Me: The Classic Elektra Recordings 1978-1984",
+   "artist": "Patrice Rushen",
+   "year": 2019,
+   "coverUrl": null,
+   "inCatalog": false,
+   "catalogId": null,
+   "spotifyUrl": "https://open.spotify.com/search/Patrice%20Rushen%20Remind%20Me%3A%20The%20Classic%20Elektra%20Recordings%201978-1984",
+   "score": 46.2,
+   "reasons": [
+    {
+     "type": "pitchfork",
+     "detail": "Pitchfork 7.8 (2019)",
+     "src": "pitchfork",
+     "ref": "patrice rushen::remind me the classic elektra recordings 19781984"
+    }
+   ],
+   "badges": {
+    "pitchfork": {
+     "score": 7.8,
+     "bnm": false
+    }
+   }
+  },
+  "ext-spaza-uprize": {
+   "id": "ext-spaza-uprize",
+   "title": "UPRIZE!",
+   "artist": "SPAZA",
+   "year": 2020,
+   "coverUrl": null,
+   "inCatalog": false,
+   "catalogId": null,
+   "spotifyUrl": "https://open.spotify.com/search/SPAZA%20UPRIZE%21",
+   "score": 46.2,
+   "reasons": [
+    {
+     "type": "pitchfork",
+     "detail": "Pitchfork 7.8 (2020)",
+     "src": "pitchfork",
+     "ref": "spaza::uprize"
+    }
+   ],
+   "badges": {
+    "pitchfork": {
+     "score": 7.8,
+     "bnm": false
+    }
+   }
+  },
+  "ext-thandi-ntuli-rainbow-revisited": {
+   "id": "ext-thandi-ntuli-rainbow-revisited",
+   "title": "Rainbow Revisited",
+   "artist": "Thandi Ntuli",
+   "year": 2023,
+   "coverUrl": null,
+   "inCatalog": false,
+   "catalogId": null,
+   "spotifyUrl": "https://open.spotify.com/search/Thandi%20Ntuli%20Rainbow%20Revisited",
+   "score": 46.2,
+   "reasons": [
+    {
+     "type": "pitchfork",
+     "detail": "Pitchfork 7.8 (2023)",
+     "src": "pitchfork",
+     "ref": "thandi ntuli::rainbow revisited"
+    }
+   ],
+   "badges": {
+    "pitchfork": {
+     "score": 7.8,
+     "bnm": false
+    }
+   }
+  },
+  "ext-alabaster-deplume-come-with-fierce-grace": {
+   "id": "ext-alabaster-deplume-come-with-fierce-grace",
+   "title": "Come With Fierce Grace",
+   "artist": "Alabaster DePlume",
+   "year": 2023,
+   "coverUrl": null,
+   "inCatalog": false,
+   "catalogId": null,
+   "spotifyUrl": "https://open.spotify.com/search/Alabaster%20DePlume%20Come%20With%20Fierce%20Grace",
+   "score": 46.1,
+   "reasons": [
+    {
+     "type": "pitchfork",
+     "detail": "Pitchfork 7.5 (2023)",
+     "src": "pitchfork",
+     "ref": "alabaster deplume::come with fierce grace"
+    }
+   ],
+   "badges": {
+    "pitchfork": {
+     "score": 7.5,
+     "bnm": false
+    }
+   }
+  },
+  "ext-andrew-hill-compulsion": {
+   "id": "ext-andrew-hill-compulsion",
+   "title": "Compulsion",
+   "artist": "Andrew Hill",
+   "year": 1967,
+   "coverUrl": null,
+   "inCatalog": false,
+   "catalogId": null,
+   "spotifyUrl": "https://open.spotify.com/search/Andrew%20Hill%20Compulsion",
+   "score": 46.1,
+   "reasons": [
+    {
+     "type": "chart",
+     "detail": "#31 in RYM post-bop chart (3.84 from 2000 ratings)",
+     "src": "rym",
+     "ref": "post-bop"
+    },
+    {
+     "type": "similar",
+     "detail": "Last.fm: similar to Charles Mingus (your #27)",
+     "src": "lastfm",
+     "ref": "charles mingus"
+    }
+   ],
+   "badges": {
+    "rym": {
+     "chart": "post-bop",
+     "rank": 31,
+     "rating": 3.84
+    }
+   }
+  },
   "ext-miles-davis-volume-2": {
    "id": "ext-miles-davis-volume-2",
    "title": "Volume 2",
@@ -9237,7 +9187,7 @@
    "inCatalog": false,
    "catalogId": null,
    "spotifyUrl": "https://open.spotify.com/search/Miles%20Davis%20Volume%202",
-   "score": 68.9,
+   "score": 67.1,
    "reasons": [
     {
      "type": "artist",
@@ -9274,7 +9224,7 @@
    "inCatalog": false,
    "catalogId": null,
    "spotifyUrl": "https://open.spotify.com/search/Miles%20Davis%20Vol.%203",
-   "score": 63.2,
+   "score": 61.4,
    "reasons": [
     {
      "type": "artist",
@@ -9302,16 +9252,16 @@
     }
    }
   },
-  "ext-keith-jarrett-arbour-zena": {
-   "id": "ext-keith-jarrett-arbour-zena",
-   "title": "Arbour Zena",
+  "ext-keith-jarrett-jasmine": {
+   "id": "ext-keith-jarrett-jasmine",
+   "title": "Jasmine",
    "artist": "Keith Jarrett",
-   "year": 1976,
+   "year": 2010,
    "coverUrl": null,
    "inCatalog": false,
    "catalogId": null,
-   "spotifyUrl": "https://open.spotify.com/search/Keith%20Jarrett%20Arbour%20Zena",
-   "score": 49.5,
+   "spotifyUrl": "https://open.spotify.com/search/Keith%20Jarrett%20Jasmine",
+   "score": 48.1,
    "reasons": [
     {
      "type": "similar",
@@ -9322,33 +9272,8 @@
    ],
    "badges": {
     "discogs": {
-     "rating": 4.12,
-     "haves": 2970
-    }
-   }
-  },
-  "ext-john-abercrombie-the-third-quartet": {
-   "id": "ext-john-abercrombie-the-third-quartet",
-   "title": "The Third Quartet",
-   "artist": "John Abercrombie",
-   "year": 2007,
-   "coverUrl": null,
-   "inCatalog": false,
-   "catalogId": null,
-   "spotifyUrl": "https://open.spotify.com/search/John%20Abercrombie%20The%20Third%20Quartet",
-   "score": 45.4,
-   "reasons": [
-    {
-     "type": "similar",
-     "detail": "Last.fm: similar to Philip Catherine (your #25)",
-     "src": "lastfm",
-     "ref": "philip catherine"
-    }
-   ],
-   "badges": {
-    "discogs": {
-     "rating": 4.3,
-     "haves": 306
+     "rating": 4.34,
+     "haves": 1384
     }
    }
   },
@@ -9427,6 +9352,31 @@
     }
    }
   },
+  "ext-wolfgang-muthspiel-where-the-river-goes": {
+   "id": "ext-wolfgang-muthspiel-where-the-river-goes",
+   "title": "Where The River Goes",
+   "artist": "Wolfgang Muthspiel",
+   "year": 2018,
+   "coverUrl": null,
+   "inCatalog": false,
+   "catalogId": null,
+   "spotifyUrl": "https://open.spotify.com/search/Wolfgang%20Muthspiel%20Where%20The%20River%20Goes",
+   "score": 44.4,
+   "reasons": [
+    {
+     "type": "similar",
+     "detail": "Last.fm: similar to Philip Catherine (your #25)",
+     "src": "lastfm",
+     "ref": "philip catherine"
+    }
+   ],
+   "badges": {
+    "discogs": {
+     "rating": 4.51,
+     "haves": 554
+    }
+   }
+  },
   "izipho-zam-my-gifts": {
    "id": "izipho-zam-my-gifts",
    "title": "Izipho Zam (My Gifts)",
@@ -9466,24 +9416,6 @@
     "discogs": {
      "rating": 4.38,
      "haves": 692
-    }
-   }
-  },
-  "ext-doug-carn-revelation": {
-   "id": "ext-doug-carn-revelation",
-   "title": "Revelation",
-   "artist": "Doug Carn",
-   "year": 1998,
-   "coverUrl": null,
-   "inCatalog": false,
-   "catalogId": null,
-   "spotifyUrl": "https://open.spotify.com/search/Doug%20Carn%20Revelation",
-   "score": 43.6,
-   "reasons": [],
-   "badges": {
-    "discogs": {
-     "rating": 4.6,
-     "haves": 822
     }
    }
   },
@@ -9541,6 +9473,24 @@
     }
    }
   },
+  "ext-doug-carn-revelation": {
+   "id": "ext-doug-carn-revelation",
+   "title": "Revelation",
+   "artist": "Doug Carn",
+   "year": 1998,
+   "coverUrl": null,
+   "inCatalog": false,
+   "catalogId": null,
+   "spotifyUrl": "https://open.spotify.com/search/Doug%20Carn%20Revelation",
+   "score": 41.8,
+   "reasons": [],
+   "badges": {
+    "discogs": {
+     "rating": 4.6,
+     "haves": 822
+    }
+   }
+  },
   "ext-chico-freeman-chico": {
    "id": "ext-chico-freeman-chico",
    "title": "Chico",
@@ -9595,24 +9545,6 @@
     }
    }
   },
-  "ext-kellee-patterson-maiden-voyage": {
-   "id": "ext-kellee-patterson-maiden-voyage",
-   "title": "Maiden Voyage",
-   "artist": "Kellee Patterson",
-   "year": 1998,
-   "coverUrl": null,
-   "inCatalog": false,
-   "catalogId": null,
-   "spotifyUrl": "https://open.spotify.com/search/Kellee%20Patterson%20Maiden%20Voyage",
-   "score": 39.5,
-   "reasons": [],
-   "badges": {
-    "discogs": {
-     "rating": 4.11,
-     "haves": 578
-    }
-   }
-  },
   "ext-arthur-blythe-metamorphosis": {
    "id": "ext-arthur-blythe-metamorphosis",
    "title": "Metamorphosis",
@@ -9664,6 +9596,36 @@
     "discogs": {
      "rating": 4.57,
      "haves": 321
+    }
+   }
+  },
+  "capra-black": {
+   "id": "capra-black",
+   "title": "Capra Black",
+   "artist": "Billy Harper",
+   "year": 1973,
+   "coverUrl": "https://dn711003.ca.archive.org/0/items/mbid-543f7657-c7d5-4713-82cd-20fa92fb1e4c/mbid-543f7657-c7d5-4713-82cd-20fa92fb1e4c-41178940957_thumb500.jpg",
+   "inCatalog": true,
+   "catalogId": "capra-black",
+   "spotifyUrl": "https://open.spotify.com/album/6FzoGnBlKsDqlKa4xdzqdZ",
+   "score": 37.8,
+   "reasons": [
+    {
+     "type": "chart",
+     "detail": "#30 in RYM spiritual-jazz chart (3.84 from 617 ratings)",
+     "src": "rym",
+     "ref": "spiritual-jazz"
+    }
+   ],
+   "badges": {
+    "rym": {
+     "chart": "spiritual-jazz",
+     "rank": 30,
+     "rating": 3.84
+    },
+    "discogs": {
+     "rating": 4.5,
+     "haves": 81
     }
    }
   },
@@ -9823,24 +9785,6 @@
     }
    }
   },
-  "ext-kosuke-mine-quintet-mine": {
-   "id": "ext-kosuke-mine-quintet-mine",
-   "title": "Mine",
-   "artist": "Kosuke Mine Quintet",
-   "year": 1979,
-   "coverUrl": null,
-   "inCatalog": false,
-   "catalogId": null,
-   "spotifyUrl": "https://open.spotify.com/search/Kosuke%20Mine%20Quintet%20Mine",
-   "score": 34.8,
-   "reasons": [],
-   "badges": {
-    "discogs": {
-     "rating": 4.52,
-     "haves": 98
-    }
-   }
-  },
   "ext-isao-suzuki-quartet-blue-city": {
    "id": "ext-isao-suzuki-quartet-blue-city",
    "title": "Blue City = ブルー・シティ",
@@ -9910,6 +9854,24 @@
     "discogs": {
      "rating": 4.63,
      "haves": 97
+    }
+   }
+  },
+  "ext-tsuyoshi-yamamoto-trio-midnight-sugar": {
+   "id": "ext-tsuyoshi-yamamoto-trio-midnight-sugar",
+   "title": "Midnight Sugar",
+   "artist": "Tsuyoshi Yamamoto Trio",
+   "year": 2025,
+   "coverUrl": null,
+   "inCatalog": false,
+   "catalogId": null,
+   "spotifyUrl": "https://open.spotify.com/search/Tsuyoshi%20Yamamoto%20Trio%20Midnight%20Sugar",
+   "score": 33.4,
+   "reasons": [],
+   "badges": {
+    "discogs": {
+     "rating": 4.83,
+     "haves": 80
     }
    }
   },
@@ -10325,24 +10287,6 @@
     }
    }
   },
-  "ext-paul-motian-i-have-the-room-above-her": {
-   "id": "ext-paul-motian-i-have-the-room-above-her",
-   "title": "I Have The Room Above Her",
-   "artist": "Paul Motian",
-   "year": 2005,
-   "coverUrl": null,
-   "inCatalog": false,
-   "catalogId": null,
-   "spotifyUrl": "https://open.spotify.com/search/Paul%20Motian%20I%20Have%20The%20Room%20Above%20Her",
-   "score": 43.9,
-   "reasons": [],
-   "badges": {
-    "discogs": {
-     "rating": 4.3,
-     "haves": 459
-    }
-   }
-  },
   "ext-paul-motian-tribute": {
    "id": "ext-paul-motian-tribute",
    "title": "Tribute",
@@ -10358,6 +10302,24 @@
     "discogs": {
      "rating": 4.26,
      "haves": 575
+    }
+   }
+  },
+  "ext-paul-motian-i-have-the-room-above-her": {
+   "id": "ext-paul-motian-i-have-the-room-above-her",
+   "title": "I Have The Room Above Her",
+   "artist": "Paul Motian",
+   "year": 2005,
+   "coverUrl": null,
+   "inCatalog": false,
+   "catalogId": null,
+   "spotifyUrl": "https://open.spotify.com/search/Paul%20Motian%20I%20Have%20The%20Room%20Above%20Her",
+   "score": 42.1,
+   "reasons": [],
+   "badges": {
+    "discogs": {
+     "rating": 4.3,
+     "haves": 459
     }
    }
   },
