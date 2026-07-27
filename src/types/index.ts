@@ -124,3 +124,39 @@ export interface PathsData {
   agenda: string;
   paths: CuratedPath[];
 }
+
+// Output of the recommendations pipeline. See src/data/recommendations.json.
+export interface RecReason {
+  type: string;
+  detail: string;
+  src: string;
+  ref: string;
+}
+
+export interface RecAlbum {
+  id: string;
+  title: string;
+  artist: string;
+  year?: number | null;
+  coverUrl?: string;
+  inCatalog: boolean;
+  catalogId?: string;
+  spotifyUrl?: string;
+  score: number;
+  reasons: RecReason[];
+}
+
+export interface RecShelf {
+  id: string;
+  title: string;
+  blurb: string;
+  type: string;
+  items: string[];
+}
+
+export interface RecommendationsData {
+  generated: string;
+  topPicks: string[];
+  shelves: RecShelf[];
+  albums: Record<string, RecAlbum>;
+}

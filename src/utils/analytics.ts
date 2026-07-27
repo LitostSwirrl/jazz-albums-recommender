@@ -7,7 +7,9 @@ export type AlbumClickSource =
   | 'todays_pick'
   | 'search'
   | 'artist_page'
-  | 'random';
+  | 'random'
+  | 'discover'
+  | 'discover_spotify';
 
 export function track(event: string, props?: AnalyticsProps): void {
   if (typeof window === 'undefined' || !window.umami) return;

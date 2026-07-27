@@ -72,9 +72,17 @@ export function Header() {
                   className="absolute right-0 mt-3 w-52 rounded-lg bg-surface border border-border shadow-elevated z-50"
                 >
                   <Link
-                    to="/timeline"
+                    to="/discover"
                     role="menuitem"
                     className="block px-4 py-3 text-charcoal hover:text-coral hover:bg-border/30 transition-colors rounded-t-lg focus:outline-none focus:bg-border/30"
+                  >
+                    <div className="font-medium text-sm">Discover</div>
+                    <div className="text-xs text-warm-gray mt-0.5">Picked for your ears</div>
+                  </Link>
+                  <Link
+                    to="/timeline"
+                    role="menuitem"
+                    className="block px-4 py-3 text-charcoal hover:text-coral hover:bg-border/30 transition-colors focus:outline-none focus:bg-border/30"
                   >
                     <div className="font-medium text-sm">Timeline</div>
                     <div className="text-xs text-warm-gray mt-0.5">Jazz through the ages</div>
@@ -150,6 +158,7 @@ export function Header() {
               <div className="pt-4 mt-2">
                 <p className="text-xs text-warm-gray uppercase tracking-widest mb-3 font-mono">Explore</p>
                 {[
+                  { to: '/discover', label: 'Discover' },
                   { to: '/timeline', label: 'Timeline' },
                   { to: '/influence', label: 'Connection Finder' },
                   { to: '/context', label: 'Jazz & Society' },
