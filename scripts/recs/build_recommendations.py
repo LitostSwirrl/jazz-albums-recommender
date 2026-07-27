@@ -340,7 +340,7 @@ def build_context(
         label_map=label_count_map(profile),
         top50_norms={a["norm"] for a in usable if a["rank"] <= 50},
         top15_tags={s["tag"] for s in profile["styles"][:15]},
-        max_affinity=usable[0]["score"] if usable else 1.0,
+        max_affinity=max((a["score"] for a in usable), default=1.0),
     )
 
 

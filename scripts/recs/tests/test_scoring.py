@@ -266,6 +266,28 @@ def test_affinity_ceiling_is_top_non_empty_norm_score():
     assert ctx.max_affinity == pytest.approx(137.45)
 
 
+def test_max_affinity_is_true_max_when_stored_ranks_not_score_desc():
+    """Review fix: max_affinity must be the true max over usable artists, not
+    usable[0]["score"] (positional). usable_artists sorts by stored rank, so
+    if a cache's stored rank were ever NOT score-descending, the first entry
+    would not be the max -- this profile deliberately violates that."""
+    profile = {
+        "artists": [
+            {"name": "Obscure", "norm": "obscure", "score": 10.0, "rank": 1},
+            {"name": "Mid", "norm": "mid", "score": 50.0, "rank": 2},
+            {"name": "Chet Baker", "norm": "chet baker", "score": 137.45, "rank": 3},
+        ],
+        "labels": [],
+        "styles": [],
+        "owned": {"norm_keys": [], "catalog_ids": []},
+    }
+    empty_lastfm = {"similar": {}, "tag_albums": {}, "artist_tags": {}}
+    ctx = br.build_context(profile, empty_lastfm, {}, {"charts": {}})
+    # true max is Chet Baker's 137.45 (stored rank 3), NOT the first-ranked
+    # entry's score (Obscure, stored rank 1, score 10.0)
+    assert ctx.max_affinity == pytest.approx(137.45)
+
+
 def test_artist_reason_rank_matches_library_display():
     profile = _profile_with_empty_norm_top()
     empty_lastfm = {"similar": {}, "tag_albums": {}, "artist_tags": {}}
@@ -416,7 +438,18 @@ def test_shelf_only_item_in_output_union_and_integrity_covers_it(monkeypatch, tm
     common.save_json(
         tmp_path / "taste_profile.json",
         {
-            "artists": [],
+            # empty-norm artist ranked ABOVE a real one (the real taste_profile
+            # shape) -- proves an artist reason's rank reconstructs through the
+            # re-ranked usable view, not the raw stored rank.
+            "artists": [
+                {"name": "以莉.高露", "norm": "", "score": 171.0, "rank": 1},
+                {
+                    "name": "Chet Baker",
+                    "norm": "chet baker",
+                    "score": 137.45,
+                    "rank": 2,
+                },
+            ],
             "labels": [{"name": "Strata-East", "count": 6}],
             "styles": [],
             "owned": {"norm_keys": []},
@@ -433,7 +466,8 @@ def test_shelf_only_item_in_output_union_and_integrity_covers_it(monkeypatch, tm
         "_tags": set(),
         "_credits": [],
     }
-    # a sub-emit shelf-only item carrying a label reason that must reconstruct
+    # a sub-emit shelf-only item carrying a label reason AND a rank-bearing
+    # artist reason -- both must reconstruct through the integrity gate.
     shelf_item = {
         "id": "shelf-1",
         "artist": "Charles Tolliver",
@@ -446,7 +480,13 @@ def test_shelf_only_item_in_output_union_and_integrity_covers_it(monkeypatch, tm
                 "detail": "On Strata-East — you have 6 albums from this label",
                 "src": "taste_profile",
                 "ref": "Strata-East",
-            }
+            },
+            {
+                "type": "artist",
+                "detail": "Chet Baker is your #1 artist",
+                "src": "taste_profile",
+                "ref": "chet baker",
+            },
         ],
         "_labels": ["Strata-East"],
         "_tags": set(),
@@ -470,8 +510,19 @@ def test_shelf_only_item_in_output_union_and_integrity_covers_it(monkeypatch, tm
     # the sub-emit shelf item is in the output union...
     assert "shelf-1" in {c["id"] for c in album_cands}
 
-    # ...and the integrity gate visits it: faithful passes, tampered exits
+    # ...and the integrity gate visits it: faithful passes -- including the
+    # artist reason, whose rank is 1 (the re-ranked usable position), NOT the
+    # stored rank 2, since the empty-norm artist above it is skipped.
     br.run_integrity_check(album_cands)
+
+    # flipping the artist reason's rank alone must be caught -- this is the
+    # rank-bearing reason type the change-1 re-ranking fix exists to lock.
+    shelf_item["reasons"][1]["detail"] = "Chet Baker is your #2 artist"
+    with pytest.raises(SystemExit) as exc_info:
+        br.run_integrity_check(album_cands)
+    assert exc_info.value.code == 1
+    shelf_item["reasons"][1]["detail"] = "Chet Baker is your #1 artist"  # restore
+
     shelf_item["reasons"][0]["detail"] = (
         "On Strata-East — you have 99 albums from this label"
     )
