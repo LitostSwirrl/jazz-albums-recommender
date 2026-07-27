@@ -1,0 +1,20 @@
+[
+ {
+  "id": "blue-note-sound",
+  "title": "The Blue Note Sound",
+  "blurb": "Hard bop's house style — the label that turned a rhythm section loose and taught a generation how to swing.",
+  "type": "label",
+  "matcher": {
+   "labels": ["Blue Note"]
+  }
+ },
+ {
+  "id": "spiritual-jazz",
+  "title": "Spiritual Jazz",
+  "blurb": "Modal, searching, post-Coltrane — players reaching past the changes for something transcendent.",
+  "type": "scene",
+  "matcher": {
+   "tags": ["spiritual jazz", "astral jazz"]
+  }
+ }
+]
