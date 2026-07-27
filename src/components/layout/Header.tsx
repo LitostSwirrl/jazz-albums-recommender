@@ -34,7 +34,7 @@ export function Header() {
           </Link>
 
           {/* Desktop nav */}
-          <div className="hidden md:flex gap-8 items-center">
+          <div className="hidden lg:flex gap-8 items-center">
             {[
               { to: '/', label: 'Home' },
               { to: '/discover', label: 'Discover' },
@@ -103,10 +103,10 @@ export function Header() {
           </div>
 
           {/* Search (mobile) + hamburger */}
-          <div className="flex md:hidden items-center gap-2">
+          <div className="flex lg:hidden items-center gap-2">
             <SearchBar onOpenChange={handleSearchOpenChange} forceClose={mobileMenuOpen} />
             <button
-              className="md:hidden p-2 text-warm-gray hover:text-coral focus:outline-none focus:ring-2 focus:ring-coral rounded"
+              className="lg:hidden p-2 text-warm-gray hover:text-coral focus:outline-none focus:ring-2 focus:ring-coral rounded"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               aria-expanded={mobileMenuOpen}
               aria-controls="mobile-menu"
@@ -129,11 +129,12 @@ export function Header() {
         {mobileMenuOpen && (
           <div
             id="mobile-menu"
-            className="md:hidden fixed inset-0 top-[65px] bg-cream z-50 px-6 py-8"
+            className="lg:hidden fixed inset-0 top-[65px] bg-cream z-50 px-6 py-8"
           >
             <div className="flex flex-col space-y-1">
               {[
                 { to: '/', label: 'Home' },
+                { to: '/discover', label: 'Discover' },
                 { to: '/paths', label: 'Paths' },
                 { to: '/eras', label: 'Eras' },
                 { to: '/artists', label: 'Artists' },
@@ -151,7 +152,6 @@ export function Header() {
               <div className="pt-4 mt-2">
                 <p className="text-xs text-warm-gray uppercase tracking-widest mb-3 font-mono">Explore</p>
                 {[
-                  { to: '/discover', label: 'Discover' },
                   { to: '/timeline', label: 'Timeline' },
                   { to: '/influence', label: 'Connection Finder' },
                   { to: '/context', label: 'Jazz & Society' },
