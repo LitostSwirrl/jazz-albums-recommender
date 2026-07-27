@@ -12,7 +12,7 @@
 - **Phase D -- RYM assisted import (Task 8)**: COMPLETE 2026-07-27. Validator committed (2f88c50 feat + a07b2d5 contract fixes; task-review APPROVED, 0 Critical/Important, 4 Minors -> ledger; 225 tests). Assisted capture done via claude-in-chrome in Joseph's real Chrome (not logged in -- he chose to proceed on public chart data): 6 of 7 charts captured to cache/rym_charts/ (untracked) -- spiritual-jazz, hard-bop, post-bop, avant-garde-jazz, jazz-fusion, soul-jazz, 80 each = 480 entries, 0 nulls. validate_rym passed on real data (480, exit 0); rym.json written (norm_key + edition-strip verified). jazz-guitar DROPPED: not a real RYM slug (silently serves the global chart), Joseph chose to close at 6. Capture = no commit (cache gitignored).
 - **Phase E -- Scoring + shelves (Tasks 9-10)**: COMPLETE 2026-07-27. Task 9 `build_recommendations.py` (deterministic scoring + <=3 cache-traceable reasons + zero-hallucination integrity gate) -- task-review APPROVED (0 Critical/0 Important, 2 Minors -> ledger), controller re-verified first-hand: 231 tests green, real build deterministic, integrity PASS; 4850 candidates -> 300 emitted (catalog 206 / external 4644), sources/emitted {1:186,2:60,3:40,4:13,5:1}. Task 10 `shelves.json` -- nine authored shelves in the Paths voice; 7/9 healthy (all 12 except ECM 9), 2 starved (strata-east-independents 1, j-jazz 0 -- under-owned scenes not in the emitted top-300, matcher-loosening can't fix, flagged for the taste gate). Commits 0961e94 + 14440b0 + a05bbc5. Baked `src/data/{recommendations,library}.json` are on disk + integrity PASS but INTENTIONALLY UNCOMMITTED (Task 11 commits after tuning). Final whole-branch review deferred to Phase F (after the taste gate, before merge).
 - **Phase F -- End-to-end + taste gate (Task 11)**: IN PROGRESS. Step 1 (autonomous verify + review tables) done. Taste gate ROUND 1 done -- Joseph's verdicts on the four Phase-E flags became **Task 11a** (six build changes: affinity-ceiling/rank fix, comp filter, leaders matcher, full-pool shelves + per-artist cap, albums = emitted u shelf-only with the integrity gate covering the union, topPicks cap). Task 11a is COMPLETE (commits 899c348..8b50632; task-review NEEDS-FIXES -> fix round 1 -> scoped re-review "all findings addressed"); 243 tests green, integrity PASS, all 9 shelves now 12. Taste gate ROUND 2 tables presented; **awaiting Joseph's verdicts on 11 items** -> those become Task 11b. Baked src/data/*.json still uncommitted (Step 3 commits after sign-off).
-- **Plan 2 -- UI (/discover, Home row, badges)**: written only after Phase F emits real data
+- **Plan 2 -- UI**: SCOPE DECIDED 2026-07-27 by Joseph -- **minimal /discover FIRST**, not the full (/discover + Home row + badges) plan. Rationale: get the recs in front of his eyes sooner, because two rounds of terminal-table taste-gating showed that seeing the output changes what he wants from it. Badges + Home row are a later iteration. Starts only after Plan 1 merges with baked data committed. Resume prompt at the bottom of this file.
 
 ## Cross-cutting contracts (shared by every session)
 
@@ -443,4 +443,47 @@ Already closed, do NOT re-open: reddit grounding (verified 2026-07-27 -- across 
 Conventions: all cross-cutting contracts in docs/superpowers/plans/2026-07-22-recs-pipeline-checkpoints.md apply (branch feat/recs-pipeline, Conventional Commits, secrets never printed, caches untracked, completeness over silent drops, phase-gate checklist). Co-Authored-By names the model that actually authors each commit. No emojis anywhere.
 
 Post-completion checklist (every phase gate): update Status + append a What/Why/Next entry to the Log in the checkpoints file; update .superpowers/sdd/progress.md; generate the next resume prompt, pbcopy it silently, append it to the checkpoints file, and tell Joseph it is safe to /clear only when the window is worth shedding or he is stopping for the session; a mid-flow scope decision commits its resume prompt immediately, before any execution, regardless of context level.
+```
+
+## Plan 2 Resume Prompt (minimal /discover)
+
+(2026-07-27 generated the moment Joseph answered "minimal /discover first"; committed before any execution per the mid-flow scope-decision rule. Plan 1 was still finishing Task 11b when this was written -- the prompt therefore points at the committed data rather than hardcoding counts that Task 11b may still change; also in clipboard)
+
+```
+Start Plan 2 (minimal): ship a /discover page on the Smack Cats site backed by the baked recommendations data, then deploy. Plan 1 (the recs data pipeline) is COMPLETE and merged.
+
+Working directory: /Users/jinsoon/Work/Projects/personal/jazz_albums_recommends
+
+PREREQUISITE — verify before starting: Plan 1 must be merged to main with the baked data committed. Check `git log --oneline -5` for the `feat(recs): first baked recommendations` commit and confirm `src/data/recommendations.json` is large (~290KB), not the 71-byte empty stub. If it is still the stub, STOP — Plan 1 did not finish; read docs/superpowers/plans/2026-07-22-recs-pipeline-checkpoints.md (Status + Log) to find where it stopped.
+
+Scope decision (Joseph, 2026-07-27): MINIMAL /discover FIRST, not the full Plan 2. He chose this over the full UI plan (/discover + Home row + per-source badges) explicitly to get the recommendations in front of his eyes sooner, because two rounds of terminal-table taste-gating showed that seeing the output changes what he wants from it. Badges and the Home row are a LATER iteration -- do not build them now.
+
+What to build:
+- One new route `/discover` (HashRouter, lazy-loaded chunk like the other routes in src/pages/).
+- Data: `src/data/recommendations.json` is ~290KB. It MUST be lazy-loaded (dynamic import inside the route chunk), never added to the eager bundle. The project's perf architecture is slim-catalog-eager + detail-lazy; this file is detail-class. `src/data/library.json` (~5KB) is small enough to load with the route.
+- Render from that file: `topPicks` (8 album ids) and `shelves` (9 shelves, each {id, title, blurb, type, items:[albumId]}). Album records live in the file's `albums` dict keyed by id: {id, title, artist, year, coverUrl, inCatalog, catalogId, spotifyUrl, score, reasons:[{type, detail, src, ref}]}.
+- Reuse the existing card and carousel components rather than writing new ones. Match the site's existing shelf/carousel layout.
+- Show each album's `reasons` (up to 3, human-readable strings in `detail`) -- they are the point of the feature and they are all traceable to real source records. Do NOT show `score`.
+- Add a nav entry to the header.
+
+Data facts that shape the UI (verified 2026-07-27):
+- ~235 of the 300 recommended albums are NOT in the site's 1000-album catalog (`inCatalog: false`). They have NO album detail page to link to and NO self-hosted /covers/*.webp. Decide deliberately: catalog albums link to /album/:catalogId; external albums link to their `spotifyUrl` or are non-navigable. Do not create dead links to /album/<ext-slug>.
+- External covers come from remote URLs through AlbumCover's proxy->direct ladder. There is a known history of wsrv.nl negatively caching archive.org throttle 404s (fixed for catalog albums by self-hosting; external recs cannot benefit). EXPECT a visible miss rate. Design the coverless card state deliberately -- do not discover it in production.
+- `year` is null on ~53 of the albums and is unreliable on others (it mixes original-release, pressing, and reissue-review years -- a known deferred issue). Render a missing year gracefully; do not present year as authoritative era information.
+
+Non-negotiables (project standards, see CLAUDE.md):
+- TypeScript strict, no `any`; `interface` over `type` (except unions); early returns, flat code; Tailwind for all styling.
+- Handle ALL FOUR UI states: loading (skeleton), error, empty, success. Never swallow errors.
+- Dark monochrome editorial aesthetic, warm-gray palette. Space Grotesk + Inter. NO serifs. NO emojis anywhere.
+- Hover-prefetch the route chunk via the existing src/utils/prefetch.ts pattern.
+
+Verify before deploying:
+- `npm run build` clean, and confirm the recommendations JSON landed in a SEPARATE chunk, not the main bundle (check the build output's chunk sizes).
+- Run the app and look at /discover: all nine shelves render, topPicks renders, reasons show, coverless cards look intentional, no dead links, no console errors.
+
+Deploy: `npm run deploy` (build + Firebase Hosting, project smack-cats-jazz, live at smack-cats-jazz.web.app). Confirm the live URL after deploying.
+
+Execution mode: superpowers:brainstorming FIRST (this is creative UI work and the layout is not specified here), then superpowers:writing-plans if the work needs more than one sitting, then implement. Conventional Commits on a feature branch, not main. Co-Authored-By names the model that authors the commit.
+
+Post-completion checklist: append a What/Why/Next entry to the Log in docs/superpowers/plans/2026-07-22-recs-pipeline-checkpoints.md (or a new Plan 2 checkpoints file if this grows past one session); tell Joseph the live URL; only then discuss the next iteration (per-source badges, Home row).
 ```
