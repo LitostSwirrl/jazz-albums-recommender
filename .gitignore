@@ -38,3 +38,7 @@ scripts/recs/cache/
 scripts/recs/.spotify_token.json
 __pycache__/
 *.py[cod]
+
+# Stale Spotify OAuth token from the removed playlist feature (2026-03-23).
+# Never commit token stores. See docs/workflow-notes.md.
+.cache
