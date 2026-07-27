@@ -45,3 +45,7 @@ __pycache__/
 
 # Atomic-write siblings (common.py _atomic_write_text)
 *.tmp
+
+# Cover-resolver cache (regenerable)
+scripts/cache/
+scripts/rec_covers_failures.json
