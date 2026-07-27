@@ -1,6 +1,249 @@
 {
- "generated": null,
- "counts": {},
- "topArtists": [],
- "ownedCatalogIds": []
+ "generated": "2026-07-27T23:40:31.199970+08:00",
+ "counts": {
+  "savedAlbums": 1531,
+  "savedTracks": 572,
+  "matchedCatalog": 137
+ },
+ "topArtists": [
+  {
+   "name": "Chet Baker",
+   "artistId": "chet-baker",
+   "score": 137.45
+  },
+  {
+   "name": "Paul Desmond",
+   "artistId": "paul-desmond",
+   "score": 91.2
+  },
+  {
+   "name": "John Coltrane",
+   "artistId": "john-coltrane",
+   "score": 89.9
+  },
+  {
+   "name": "Miles Davis",
+   "artistId": "miles-davis",
+   "score": 87.0
+  },
+  {
+   "name": "Jacqueline du Pré",
+   "artistId": null,
+   "score": 81.05
+  },
+  {
+   "name": "Daniel Barenboim",
+   "artistId": null,
+   "score": 78.65
+  },
+  {
+   "name": "George Benson",
+   "artistId": null,
+   "score": 70.2
+  },
+  {
+   "name": "Jim Hall",
+   "artistId": "jim-hall",
+   "score": 65.5
+  },
+  {
+   "name": "Ella Fitzgerald",
+   "artistId": "ella-fitzgerald",
+   "score": 63.4
+  },
+  {
+   "name": "Joe Pass",
+   "artistId": "joe-pass",
+   "score": 62.6
+  },
+  {
+   "name": "Chick Corea",
+   "artistId": "chick-corea",
+   "score": 59.0
+  },
+  {
+   "name": "Biréli Lagrène",
+   "artistId": "bireli-lagrene",
+   "score": 58.5
+  },
+  {
+   "name": "Floating Points",
+   "artistId": null,
+   "score": 57.0
+  },
+  {
+   "name": "Pasquale Grasso",
+   "artistId": null,
+   "score": 54.75
+  },
+  {
+   "name": "Pat Metheny",
+   "artistId": "pat-metheny",
+   "score": 54.5
+  },
+  {
+   "name": "Ichiko Aoba",
+   "artistId": null,
+   "score": 52.4
+  },
+  {
+   "name": "Stan Getz",
+   "artistId": "stan-getz",
+   "score": 49.65
+  },
+  {
+   "name": "King Gizzard & The Lizard Wizard",
+   "artistId": null,
+   "score": 49.0
+  },
+  {
+   "name": "Christian Scott aTunde Adjuah",
+   "artistId": null,
+   "score": 46.4
+  },
+  {
+   "name": "Deep Purple",
+   "artistId": null,
+   "score": 45.5
+  }
+ ],
+ "ownedCatalogIds": [
+  "clifford-brown-and-max-roach-clifford-brown",
+  "agharta",
+  "full-house-wes-montgomery",
+  "afro-cuban-jazz",
+  "red-clay",
+  "rhodes-ahead-vol-1",
+  "it-could-happen-to-you-chet-baker",
+  "balladyna",
+  "piano-starts-here",
+  "now-he-sings",
+  "legacy-faddis",
+  "waltz-for-debby",
+  "early-songs",
+  "solo-flight",
+  "vibes-a-la-red",
+  "think-well-of-me",
+  "harmolodic-guitar-with-strings",
+  "kind-of-blue",
+  "in-private",
+  "question-and-answer",
+  "dippin",
+  "the-epic",
+  "concierto-jim-hall",
+  "crescent",
+  "fat-jazz",
+  "chet-baker-sings",
+  "superimposition",
+  "poetry-and-jazz-in-concert-record-one",
+  "ella-loves-cole",
+  "getzgilberto-stan-getz",
+  "the-freedom-book-booker-ervin",
+  "reunion-with-chet-baker-gerry-mulligan",
+  "the-lore",
+  "african-violet",
+  "getzgilberto-stan-getz",
+  "django",
+  "slaves-mass",
+  "cool-cat",
+  "ascension",
+  "my-favorite-things",
+  "the-centaur-and-the-phoenix",
+  "saudades",
+  "open-your-eyes-you-can-fly",
+  "a-sign-of-the-times",
+  "thelonious-himself",
+  "blues-and-roots",
+  "the-genius-of-art-tatum-9",
+  "ella-fitzgerald-sings-the-george-and-ira-gershwin-song-book",
+  "mingus-ah-um",
+  "bone-bells",
+  "amaryllis-belladonna",
+  "swingin-with-bud",
+  "terrible-animals",
+  "the-most-important-jazz-album-of-196465",
+  "genius-of-modern-music-vol-1",
+  "solo-piano-portraits",
+  "hello-dolly",
+  "at-the-pershing",
+  "ella-and-her-fellas",
+  "total-eclipse",
+  "none-too-soon",
+  "the-art-of-the-trio-volume-3-songs",
+  "lover-man",
+  "a-caddy-for-daddy",
+  "officium",
+  "jazz-at-massey-hall",
+  "kind-of-blue",
+  "bright-size-life",
+  "the-shape-of-jazz-to-come",
+  "return-to-forever",
+  "out-to-lunch",
+  "moanin",
+  "a-love-supreme",
+  "free-jazz",
+  "we-insist-freedom-now-suite-max-roach",
+  "brilliant-corners",
+  "mode-for-joe",
+  "a-night-at-birdland",
+  "illuminations",
+  "straight-no-chaser",
+  "search-for-the-new-land",
+  "jim-hall-basses",
+  "undercurrent-kenny-drew",
+  "milestones",
+  "motion-lee-konitz",
+  "the-awakening-ahmad-jamal",
+  "solo-monk",
+  "waltz-for-debby",
+  "giant-steps",
+  "monks-blues",
+  "well-be-together-again",
+  "percussion-bitter-sweet",
+  "birth-of-the-cool",
+  "funky-stuff",
+  "blue-note-jazz-inspiration",
+  "lenox-avenue-breakdown",
+  "afro-harping",
+  "you-must-believe-in-spring",
+  "roy-hargrove-with-strings-moment-to-moment",
+  "future-shock",
+  "a-love-supreme",
+  "drums-unlimited-max-roach",
+  "far-east-suite-duke-ellington",
+  "saxophone-colossus",
+  "study-in-brown",
+  "afro-dizzy-gillespie",
+  "bird-and-diz",
+  "smokin-at-the-half-note-wes-montgomery",
+  "eastern-sounds",
+  "wayne-shorter-juju-wayne-shorter",
+  "sketches-of-spain",
+  "scenery-ryo-fukui",
+  "expansions",
+  "getzgilberto-stan-getz",
+  "the-koln-concert",
+  "desmond-blue-paul-desmond",
+  "your-queen-is-a-reptile",
+  "terrible-animals",
+  "time-out",
+  "question-and-answer",
+  "the-sidewinder",
+  "speak-no-evil",
+  "sonny-side-up",
+  "the-bridge",
+  "song-for-my-father",
+  "my-favorite-things",
+  "in-a-silent-way",
+  "midnight-blue",
+  "idle-moments",
+  "mingus-ah-um",
+  "moanin",
+  "bitches-brew",
+  "boss-guitar",
+  "blue-train",
+  "afro-cuban-kenny-dorham",
+  "the-unity-sessions",
+  "rising-son"
+ ]
 }
