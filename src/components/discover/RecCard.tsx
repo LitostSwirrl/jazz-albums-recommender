@@ -11,23 +11,30 @@ interface RecCardProps {
   priority?: boolean;
 }
 
-const widths = { md: 'w-44', lg: 'w-56' };
+// md is the fixed carousel width the shelves scroll horizontally. lg sits in the
+// Tonight grid instead, so it fills its track and caps at the same 224px rather
+// than forcing a fixed width into a track that may be narrower than it.
+const widths = { md: 'w-44', lg: 'w-full max-w-56 mx-auto' };
 const pixels = { md: 352, lg: 448 };
 
 export function RecCard({ album, coverUrl, size = 'md', showReasons = false, priority = false }: RecCardProps) {
-  const cover = coverUrl ?? album.coverUrl;
+  const cover = coverUrl ?? album.coverUrl ?? undefined;
   const reasons = showReasons ? album.reasons.slice(0, 2) : [];
 
   const body = (
     <>
-      <AlbumCover
-        coverUrl={cover}
-        title={album.title}
-        size={size === 'lg' ? 'md' : 'sm'}
-        pixelWidth={pixels[size]}
-        priority={priority}
-      />
-      <h3 className="mt-2 text-sm font-heading text-charcoal leading-snug line-clamp-2">
+      <div className="relative rounded-sm overflow-hidden shadow-card group-hover:shadow-card-hover transition-all duration-300 group-hover:scale-[1.03] aspect-square">
+        <div className="absolute inset-0">
+          <AlbumCover
+            coverUrl={cover}
+            title={album.title}
+            size={size === 'lg' ? 'md' : 'sm'}
+            pixelWidth={pixels[size]}
+            priority={priority}
+          />
+        </div>
+      </div>
+      <h3 className="mt-2 text-sm font-heading text-charcoal leading-snug line-clamp-2 group-hover:text-coral transition-colors">
         {album.title}
       </h3>
       <p className="text-xs text-warm-gray line-clamp-1">{album.artist}</p>
@@ -43,7 +50,9 @@ export function RecCard({ album, coverUrl, size = 'md', showReasons = false, pri
     </>
   );
 
-  const className = `${widths[size]} flex-shrink-0 group`;
+  // `block` is required, not cosmetic: as an inline box the anchor would ignore
+  // its own width entirely and draw a separate focus outline per line box.
+  const className = `block ${widths[size]} flex-shrink-0 group`;
 
   if (album.inCatalog && album.catalogId) {
     return (
@@ -57,13 +66,12 @@ export function RecCard({ album, coverUrl, size = 'md', showReasons = false, pri
     );
   }
 
-  if (!album.spotifyUrl) return <div className={className}>{body}</div>;
-
   return (
     <a
       href={album.spotifyUrl}
       target="_blank"
       rel="noopener noreferrer"
+      aria-label={`${album.title} by ${album.artist}, opens on Spotify in a new tab`}
       className={className}
       onClick={() => track('album_click', { album_id: album.id, source: 'discover_spotify' })}
     >

@@ -133,15 +133,22 @@ export interface RecReason {
   ref: string;
 }
 
+// Every field below is always present in the baked JSON. Where the pipeline has
+// no value it writes null, never omits the key -- so these are `| null`, not
+// optional. Declaring them optional invites `if (album.catalogId !== undefined)`,
+// which TypeScript accepts and which is true for null, giving a /album/null link.
+// The JSON also carries a `badges` object; it is deliberately not declared,
+// because the /discover spec puts per-source badges out of scope and nothing may
+// render them yet.
 export interface RecAlbum {
   id: string;
   title: string;
   artist: string;
-  year?: number | null;
-  coverUrl?: string;
+  year: number | null;
+  coverUrl: string | null;
   inCatalog: boolean;
-  catalogId?: string;
-  spotifyUrl?: string;
+  catalogId: string | null;
+  spotifyUrl: string;
   score: number;
   reasons: RecReason[];
 }
