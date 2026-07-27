@@ -36,6 +36,7 @@ SHELF_PER_ARTIST = 3  # max albums per artist within one shelf
 TOP_PICKS = 8
 TOP_PICKS_PER_ARTIST = 2  # max albums per artist among the 8 hero picks
 EMIT_LIMIT = 300
+EMIT_PER_ARTIST = 4  # max albums per artist in the emitted list
 SAMPLE_SEED = 1972  # fixed seed for the reproducible eyeball-sample print
 
 # compilations / box-sets / "various" are poor picks for a players' guide --
@@ -43,10 +44,40 @@ SAMPLE_SEED = 1972  # fixed seed for the reproducible eyeball-sample print
 COMP_ARTISTS = {"various", "various artists", "unknown", "unknown artist"}
 COMP_TITLE_RE = re.compile(
     r"\b(complete|anthology|best of|greatest hits|collection|compilation|"
-    r"outtakes|alternates|box set|the prestige recordings|"
+    r"outtakes|alternates|box set|bootleg series|the prestige recordings|"
     r"legendary .{0,40} albums|essential|retrospective|rarities)\b",
     re.IGNORECASE,
 )
+# real LPs whose titles trip COMP_TITLE_RE -- the allowlist always wins.
+COMP_ALLOWLIST = {
+    "don cherry::complete communion",
+    "chet baker::plays the best of lerner loewe",
+    "chet baker::chet baker plays the best of lerner and loewe",
+    "george russell::ezzthetics keepnews collection",
+    "rashied ali::duo exchange complete sessions",
+}
+# box sets no safe title pattern catches -- a denylist entry beats a broad
+# pattern, because a pattern that also kills real LPs is worse than a missed box.
+BOX_DENYLIST = {
+    "miles davis::final tour the bootleg series vol 6",
+    "charles mingus::jazz in detroit strata concert gallery 46 selden",
+    "bill evans::treasures solo trio orchestra recordings from denmark 19651969",
+    "eric dolphy::musical prophet the expanded 1963 new york studio sessions",
+    "sonny rollins::go west the contemporary records albums",
+    "ornette coleman::round trip ornette coleman on blue note",
+}
+SINGLE_MARKER = " / "  # 78-rpm A-side/B-side titles, not albums
+
+# cap-key canonicalization: "Last, First" -> "First Last", then a trailing
+# ensemble word goes, so spelling variants share one per-artist allowance.
+LAST_FIRST_RE = re.compile(r"^([^,]+),\s*([^,]+)$")
+ENSEMBLE_SUFFIX_RE = re.compile(
+    r"\s+(group|trio|quartet|quintet|sextet|septet|octet|band|orchestra|ensemble)$"
+)
+
+# edition-duplicate merge: leading article, then artist-name prefix, then all
+# spaces come off the title so punctuation variants land on one key.
+ARTICLE_RE = re.compile(r"^(the |a |an )")
 
 # reason-ordering tie-break: fixed type priority after contribution
 TYPE_PRIORITY = {
@@ -58,6 +89,10 @@ TYPE_PRIORITY = {
     "pitchfork": 5,
     "reddit": 6,
 }
+# chart reasons reconstruct against the album's OWN norm_key (every other type
+# reconstructs from its stored ref), so they cannot ride an edition merge over
+# to the kept record without breaking the integrity gate.
+NORM_KEY_BOUND_REASONS = {"chart"}
 
 
 # ======================================================================
@@ -131,6 +166,26 @@ def discogs_representative(releases: list[dict]) -> dict:
         releases,
         key=lambda r: (r["haves"], r["rating_count"], -r["discogs_release_id"]),
     )
+
+
+def usable_reviews(pitchfork: dict) -> list[dict]:
+    """Pitchfork reviews minus box reviews. A URL carrying more than one album
+    record where every record shares one score is a single review of a box set:
+    that score is evidence about the box, not about each album inside it, so it
+    is neither a quality signal nor a year source. Differing scores mean the
+    reviewer graded each album -- a genuine multi-album review, kept.
+    Generation AND the integrity gate both read reviews through here."""
+    by_url = defaultdict(list)
+    for review in pitchfork["reviews"]:
+        by_url[review["url"]].append(review)
+    return [
+        review
+        for review in pitchfork["reviews"]
+        if not (
+            len(by_url[review["url"]]) > 1
+            and len({r["score"] for r in by_url[review["url"]]}) == 1
+        )
+    ]
 
 
 def pitchfork_pick(reviews: list[dict]) -> dict | None:
@@ -272,7 +327,7 @@ def assemble_candidates(
         rel_groups[release["norm_key"]].append(release)
 
     pf_groups = defaultdict(list)
-    for review in pitchfork["reviews"]:
+    for review in usable_reviews(pitchfork):
         pf_groups[review["norm_key"]].append(review)
 
     rd_groups = defaultdict(list)
@@ -406,6 +461,13 @@ def build_badges(raw: dict, rym: dict) -> dict:
     if raw["reddit"]:
         badges["reddit"] = {"mentions": raw["reddit"]["count"]}
     return badges
+
+
+def _reason_rank(reason: dict) -> tuple:
+    """The reason ordering: contribution desc, then fixed type priority, then
+    detail. Generation and the edition merge both sort by this, so a merged
+    record's reasons rank exactly as an unmerged one's do."""
+    return (-reason["_contribution"], TYPE_PRIORITY[reason["type"]], reason["detail"])
 
 
 def _mk_reason(rtype: str, data: dict, src: str, ref: str, contribution: float) -> dict:
@@ -565,12 +627,10 @@ def score_candidate(raw: dict, ctx: Context) -> dict:
             )
         )
 
-    reasons.sort(
-        key=lambda r: (-r["_contribution"], TYPE_PRIORITY[r["type"]], r["detail"])
-    )
+    # _contribution stays on the reason through the edition merge (which re-sorts
+    # a union of two records' reasons by this SAME key); _public strips it.
+    reasons.sort(key=_reason_rank)
     reasons = reasons[:3]
-    for reason in reasons:
-        del reason["_contribution"]
 
     return {
         "norm_key": norm_key,
@@ -602,13 +662,154 @@ def select_top(scored: list[dict], limit: int) -> list[dict]:
     return sorted(scored, key=lambda c: (-c["score"], c["norm_key"]))[:limit]
 
 
-def _is_comp(cand: dict) -> bool:
-    """A scored candidate is a compilation / box-set / various-artists record:
-    its resolved artist is a compilation credit, or its resolved title matches
-    COMP_TITLE_RE. Judged on the resolved display fields."""
+def cap_key(artist: str) -> str:
+    """The per-artist cap key: one allowance per person, however the sources
+    spell them. "Davis, Miles" -> "Miles Davis"; a trailing ensemble word comes
+    off, so "Pat Metheny Group" and "Pat Metheny" share one. Cap key ONLY --
+    displayed artist names are never rewritten."""
+    name = " ".join(artist.split())
+    match = LAST_FIRST_RE.match(name)
+    if match:
+        name = f"{match.group(2)} {match.group(1)}"
+    return ENSEMBLE_SUFFIX_RE.sub("", common.norm(name))
+
+
+def select_emitted(pool: list[dict], limit: int) -> list[dict]:
+    """The emitted list: walk the pool in score order and take a candidate only
+    while its artist is under EMIT_PER_ARTIST, until `limit` is reached. Without
+    the cap one name can hold a sixth of the list."""
+    emitted = []
+    per_artist = Counter()
+    for cand in select_top(pool, len(pool)):
+        key = cap_key(cand["artist"])
+        if per_artist[key] >= EMIT_PER_ARTIST:
+            continue
+        emitted.append(cand)
+        per_artist[key] += 1
+        if len(emitted) >= limit:
+            break
+    return emitted
+
+
+# ======================================================================
+# edition-duplicate merge
+# ======================================================================
+
+
+def merge_key(norm_key: str) -> str:
+    """The key that unifies edition variants norm_key leaves apart: drop a
+    leading article, drop a leading copy of the artist name, then drop every
+    space in the title. Deliberately NOT substring containment -- that wrongly
+    merges "Virtuoso" with "Virtuoso #3"."""
+    artist, _, title = norm_key.partition("::")
+    title = ARTICLE_RE.sub("", title)
+    if title.startswith(artist + " "):
+        title = title[len(artist) + 1 :]
+    return f"{artist}::{title.replace(' ', '')}"
+
+
+def merge_editions(pool: list[dict]) -> tuple[list[dict], list[dict]]:
+    """Collapse edition duplicates. Each merge-key group keeps its highest-scored
+    record (ties by norm_key) and absorbs the others' source badges and reasons;
+    reasons re-sort by the same contribution ordering generation uses and keep
+    the <=3 cap. Returns (pool, merge log) in the input's order."""
+    groups = defaultdict(list)
+    for cand in pool:
+        groups[merge_key(cand["norm_key"])].append(cand)
+
+    keepers, log = {}, []
+    for key, group in groups.items():
+        group = sorted(group, key=lambda c: (-c["score"], c["norm_key"]))
+        keeper, absorbed = group[0], group[1:]
+        if not absorbed:
+            keepers[keeper["norm_key"]] = keeper
+            continue
+
+        badges = dict(keeper["badges"])
+        for cand in absorbed:
+            for name, badge in cand["badges"].items():
+                badges.setdefault(name, badge)
+
+        # one reason per type, strongest first: both spellings carry their own
+        # reddit count, and generation never emits two reasons of one type.
+        by_type = {}
+        transferable = list(keeper["reasons"]) + [
+            reason
+            for cand in absorbed
+            for reason in cand["reasons"]
+            if reason["type"] not in NORM_KEY_BOUND_REASONS
+        ]
+        for reason in transferable:
+            best = by_type.get(reason["type"])
+            if best is None or _reason_rank(reason) < _reason_rank(best):
+                by_type[reason["type"]] = reason
+        reasons = sorted(by_type.values(), key=_reason_rank)[:3]
+
+        keepers[keeper["norm_key"]] = {**keeper, "badges": badges, "reasons": reasons}
+        log.append({"key": key, "keeper": keeper, "absorbed": absorbed})
+
+    merged = [keepers[c["norm_key"]] for c in pool if c["norm_key"] in keepers]
+    log.sort(key=lambda entry: entry["key"])
+    return merged, log
+
+
+def near_duplicate_pairs(albums: list[dict]) -> list[tuple[dict, dict]]:
+    """Same-artist pairs where one title extends the other at a word boundary
+    ("Relaxin'" / "Relaxin' with the Miles Davis Quintet"). merge_editions
+    deliberately leaves these alone -- the shape is identical to genuinely
+    distinct albums -- so they are reported for the human gate instead."""
+    by_artist = defaultdict(list)
+    for album in albums:
+        artist_norm, _, title_norm = album["norm_key"].partition("::")
+        by_artist[artist_norm].append((title_norm, album))
+
+    pairs = []
+    for artist_norm in sorted(by_artist):
+        entries = sorted(by_artist[artist_norm], key=lambda e: e[0])
+        for i, first in enumerate(entries):
+            for second in entries[i + 1 :]:
+                short, long = sorted([first, second], key=lambda e: len(e[0]))
+                if short[0] == long[0]:
+                    continue
+                if merge_key(short[1]["norm_key"]) == merge_key(long[1]["norm_key"]):
+                    continue
+                if long[0].startswith(short[0] + " ") or long[0].endswith(
+                    " " + short[0]
+                ):
+                    pairs.append((short[1], long[1]))
+    return pairs
+
+
+# ======================================================================
+# exclusions
+# ======================================================================
+
+
+def exclusion_reason(cand: dict) -> str | None:
+    """Which exclusion category drops this scored candidate, or None to keep it.
+    Fixed order, so every drop lands in exactly one printed category and the
+    counts add up. The allowlist outranks COMP_TITLE_RE; the denylist outranks
+    everything, since it names boxes no safe pattern catches."""
+    if cand["norm_key"] in BOX_DENYLIST:
+        return "denylisted"
+    if SINGLE_MARKER in cand["title"]:
+        return "single"
+    if cand["norm_key"] in COMP_ALLOWLIST:
+        return None
     if cand["artist"].strip().lower() in COMP_ARTISTS:
-        return True
-    return bool(COMP_TITLE_RE.search(cand["title"]))
+        return "comp-artist"
+    if COMP_TITLE_RE.search(cand["title"]):
+        return "comp-title"
+    return None
+
+
+COMP_CATEGORIES = ("comp-artist", "comp-title", "denylisted")
+
+
+def _is_comp(cand: dict) -> bool:
+    """A scored candidate is a compilation / box-set / various-artists record.
+    Singles are excluded too but counted separately (their own category)."""
+    return exclusion_reason(cand) in COMP_CATEGORIES
 
 
 def select_top_picks(emitted: list[dict]) -> list[str]:
@@ -617,10 +818,11 @@ def select_top_picks(emitted: list[dict]) -> list[str]:
     picks = []
     per_artist = Counter()
     for cand in emitted:
-        if per_artist[cand["artist"]] >= TOP_PICKS_PER_ARTIST:
+        key = cap_key(cand["artist"])
+        if per_artist[key] >= TOP_PICKS_PER_ARTIST:
             continue
         picks.append(cand["id"])
-        per_artist[cand["artist"]] += 1
+        per_artist[key] += 1
         if len(picks) >= TOP_PICKS:
             break
     return picks
@@ -647,23 +849,40 @@ def _shelf_match(cand: dict, matcher: dict) -> bool:
     return False
 
 
+def _is_leader_match(cand: dict, matcher: dict) -> bool:
+    """The shelf's named players hit the candidate's OWN artist, not its credits.
+    Sideman work belongs on a lineage shelf, it just should not lead it. Pure
+    label/tag shelves name nobody, so every match scores the same and their
+    order is untouched."""
+    named = set(matcher.get("players", [])) | set(matcher.get("leaders", []))
+    return cand["artist"] in named
+
+
 def build_shelves(pool: list[dict], shelf_defs: list[dict]) -> list[dict]:
     """Match each shelf over the FULL scored+comp-filtered pool (not just the
     top-300 emitted), so niche scenes below the cut still fill. Greedily take up
-    to SHELF_SIZE in score order with at most SHELF_PER_ARTIST per artist so a
-    popular shelf cannot collapse onto one name."""
+    to SHELF_SIZE with at most SHELF_PER_ARTIST per artist so a popular shelf
+    cannot collapse onto one name; leader-matches come before credit-matches,
+    each group by score desc then norm_key."""
     shelves = []
     for shelf in shelf_defs:
         matcher = shelf.get("matcher", {})
         matches = [c for c in pool if _shelf_match(c, matcher)]
-        matches.sort(key=lambda c: (-c["score"], c["norm_key"]))
+        matches.sort(
+            key=lambda c: (
+                0 if _is_leader_match(c, matcher) else 1,
+                -c["score"],
+                c["norm_key"],
+            )
+        )
         items = []
         per_artist = Counter()
         for cand in matches:
-            if per_artist[cand["artist"]] >= SHELF_PER_ARTIST:
+            key = cap_key(cand["artist"])
+            if per_artist[key] >= SHELF_PER_ARTIST:
                 continue
             items.append(cand["id"])
-            per_artist[cand["artist"]] += 1
+            per_artist[key] += 1
             if len(items) >= SHELF_SIZE:
                 break
         if len(items) < 5:
@@ -700,7 +919,7 @@ def reconstruct_data(reason: dict, album: dict, norm_key: str, fresh) -> dict | 
         return chart_data_for(norm_key, ref, rym)
     if rtype == "pitchfork":
         pf = fresh("pitchfork")
-        review = pitchfork_pick([r for r in pf["reviews"] if r["norm_key"] == ref])
+        review = pitchfork_pick([r for r in usable_reviews(pf) if r["norm_key"] == ref])
         if not review:
             return None
         return {"score": review["score"], "bnm": review["bnm"], "year": review["year"]}
@@ -765,7 +984,7 @@ def run_integrity_check(albums: list[dict]) -> None:
 
 
 def _public(cand: dict) -> dict:
-    return {
+    out = {
         k: cand[k]
         for k in (
             "id",
@@ -781,6 +1000,12 @@ def _public(cand: dict) -> dict:
             "badges",
         )
     }
+    # _contribution is build-internal (it orders reasons through the merge)
+    out["reasons"] = [
+        {k: v for k, v in reason.items() if not k.startswith("_")}
+        for reason in cand["reasons"]
+    ]
+    return out
 
 
 def collect_output_albums(
@@ -847,22 +1072,57 @@ def assemble_library(
 # ======================================================================
 
 
-def _print_comp_exclusions(comps: list[dict]) -> None:
-    """List every dropped compilation to stderr so a human can eyeball the drops
-    (completeness over silent removal). Sorted by artist then title."""
+def _print_exclusions(dropped: dict, rescued: list[dict]) -> None:
+    """List every dropped candidate to stderr grouped by category, plus the
+    candidates the allowlist rescued -- both directions of the filter stay
+    auditable (completeness over silent removal)."""
+    for category in ("comp-artist", "comp-title", "denylisted", "single"):
+        cands = dropped.get(category, [])
+        print(f"--- excluded {len(cands)}: {category} ---", file=sys.stderr)
+        for cand in sorted(
+            cands, key=lambda c: (c["artist"].lower(), c["title"].lower())
+        ):
+            print(f"  {cand['artist']} - {cand['title']}", file=sys.stderr)
+    print(f"--- allowlist rescued {len(rescued)} ---", file=sys.stderr)
+    for cand in sorted(
+        rescued, key=lambda c: (c["artist"].lower(), c["title"].lower())
+    ):
+        print(f"  {cand['artist']} - {cand['title']}", file=sys.stderr)
+
+
+def _print_merges(log: list[dict]) -> None:
+    """Every edition merge: what was kept and what folded into it."""
+    print(f"--- merged {len(log)} edition-duplicate groups ---", file=sys.stderr)
+    for entry in log:
+        keeper = entry["keeper"]
+        print(
+            f"  {entry['key']}: kept '{keeper['title']}' ({keeper['score']})",
+            file=sys.stderr,
+        )
+        for cand in entry["absorbed"]:
+            print(f"      + '{cand['title']}' ({cand['score']})", file=sys.stderr)
+
+
+def _print_near_duplicates(pairs: list[tuple[dict, dict]]) -> None:
+    """Subtitle-extension pairs in the output that the merge rule leaves alone
+    -- the human gate rules on these individually."""
     print(
-        f"--- excluded {len(comps)} compilations / box-sets / various ---",
+        f"--- {len(pairs)} unmerged near-duplicate pairs in the output ---",
         file=sys.stderr,
     )
-    for cand in sorted(comps, key=lambda c: (c["artist"].lower(), c["title"].lower())):
-        print(f"  {cand['artist']} - {cand['title']}", file=sys.stderr)
+    for short, long in pairs:
+        print(
+            f"  {short['artist']}: '{short['title']}' ({short['score']}) vs "
+            f"'{long['title']}' ({long['score']})",
+            file=sys.stderr,
+        )
 
 
 def _print_summary(
     scored: list[dict],
     emitted: list[dict],
     shelves: list[dict],
-    comps: list[dict],
+    dropped: dict,
     album_cands: list[dict],
 ) -> None:
     total = len(scored)
@@ -871,9 +1131,11 @@ def _print_summary(
     hist = dict(sorted(Counter(c["_source_count"] for c in emitted).items()))
     shelf_counts = ", ".join(f"{s['id']}→{len(s['items'])}" for s in shelves)
     shelf_only = len(album_cands) - len(emitted)
+    comps = sum(len(dropped.get(c, [])) for c in COMP_CATEGORIES)
     print(
         f"candidates: {total} (catalog: {catalog}, external: {external}) | "
-        f"emitted: {len(emitted)} | excluded_comps: {len(comps)} | "
+        f"emitted: {len(emitted)} | excluded_comps: {comps} | "
+        f"excluded_singles: {len(dropped.get('single', []))} | "
         f"sources per emitted: {hist} | shelves: {shelf_counts} | "
         f"albums: {len(album_cands)} ({shelf_only} shelf-only) | integrity: PASS"
     )
@@ -911,12 +1173,21 @@ def main() -> None:
 
     raw = assemble_candidates(discogs, rym, lastfm, pitchfork, reddit, owned)
     scored_all = [score_candidate(raw[norm_key], ctx) for norm_key in sorted(raw)]
-    # drop compilations / box-sets / various BEFORE emit and shelves, so they
-    # never surface in topPicks, shelves, or the albums map.
-    comps = [c for c in scored_all if _is_comp(c)]
-    scored = [c for c in scored_all if not _is_comp(c)]
+    # drop compilations / box-sets / various / singles BEFORE emit and shelves,
+    # so they never surface in topPicks, shelves, or the albums map.
+    dropped = defaultdict(list)
+    kept = []
+    for cand in scored_all:
+        category = exclusion_reason(cand)
+        if category:
+            dropped[category].append(cand)
+        else:
+            kept.append(cand)
+    rescued = [c for c in kept if c["norm_key"] in COMP_ALLOWLIST]
+    # then collapse edition duplicates, so one album cannot hold two slots.
+    scored, merge_log = merge_editions(kept)
 
-    emitted = select_top(scored, EMIT_LIMIT)
+    emitted = select_emitted(scored, EMIT_LIMIT)
     shelves = build_shelves(scored, shelf_defs)
     album_cands = collect_output_albums(emitted, shelves, scored)
 
@@ -934,8 +1205,10 @@ def main() -> None:
         assemble_library(spotify, profile, artists, generated),
     )
 
-    _print_comp_exclusions(comps)
-    _print_summary(scored, emitted, shelves, comps, album_cands)
+    _print_exclusions(dropped, rescued)
+    _print_merges(merge_log)
+    _print_near_duplicates(near_duplicate_pairs(album_cands))
+    _print_summary(scored, emitted, shelves, dropped, album_cands)
     _print_samples(emitted)
 
 

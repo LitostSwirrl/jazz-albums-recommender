@@ -559,3 +559,605 @@ def test_top_picks_per_artist_cap():
     miles = [p for p in picks if p.startswith(common.slugify("Miles Davis"))]
     assert len(miles) == br.TOP_PICKS_PER_ARTIST
     assert len(picks) - len(miles) == 6
+
+
+# ======================================================================
+# Task 11b — taste-gate round 2 changes
+# ======================================================================
+
+
+def _sel_cand(artist, title, score):
+    """Minimal candidate for the selection helpers (score + cap key + id)."""
+    return {
+        "id": common.slugify(f"{artist} {title}"),
+        "artist": artist,
+        "title": title,
+        "score": score,
+        "norm_key": common.norm_key(artist, title),
+    }
+
+
+# --- Change 1: per-artist cap on the emitted list ---
+
+
+def test_emit_per_artist_cap_admits_lower_scored_others():
+    # one artist holds the top 10 scores
+    pool = [_sel_cand("Miles Davis", f"M{i}", 100 - i) for i in range(10)]
+    pool += [
+        _sel_cand("Bill Evans", "Waltz for Debby", 50),
+        _sel_cand("John Coltrane", "Giant Steps", 49),
+        _sel_cand("Chet Baker", "Chet", 48),
+    ]
+    emitted = br.select_emitted(pool, br.EMIT_LIMIT)
+    miles = [c for c in emitted if c["artist"] == "Miles Davis"]
+    # at most EMIT_PER_ARTIST of them survive...
+    assert len(miles) == br.EMIT_PER_ARTIST
+    assert [c["title"] for c in miles] == [f"M{i}" for i in range(br.EMIT_PER_ARTIST)]
+    # ...and the lower-scored other artists are admitted in their place
+    assert {c["artist"] for c in emitted} == {
+        "Miles Davis",
+        "Bill Evans",
+        "John Coltrane",
+        "Chet Baker",
+    }
+
+
+def test_select_emitted_respects_the_emit_limit():
+    pool = [_sel_cand(f"Artist {i}", "X", 100 - i) for i in range(20)]
+    emitted = br.select_emitted(pool, 5)
+    assert len(emitted) == 5
+    assert [c["artist"] for c in emitted] == [f"Artist {i}" for i in range(5)]
+
+
+# --- Change 2: edition-duplicate merge ---
+
+
+def _merge_cand(artist, title, score, badges=None, reasons=None):
+    return {
+        "id": common.slugify(f"{artist} {title}"),
+        "norm_key": common.norm_key(artist, title),
+        "artist": artist,
+        "title": title,
+        "score": score,
+        "badges": badges or {},
+        "reasons": reasons or [],
+    }
+
+
+def _reason(rtype, detail, ref, contribution):
+    return {
+        "type": rtype,
+        "detail": detail,
+        "src": "src",
+        "ref": ref,
+        "_contribution": contribution,
+    }
+
+
+def test_merge_key_unifies_the_four_edition_variants():
+    pairs = [
+        (
+            "Herbie Hancock",
+            "Head Hunters",
+            "Headhunters",
+            "herbie hancock::headhunters",
+        ),
+        (
+            "Chet Baker",
+            "In New York",
+            "Chet Baker In New York",
+            "chet baker::innewyork",
+        ),
+        ("Miles Davis", "Live Evil", "Live-Evil", "miles davis::liveevil"),
+        (
+            "Miles Davis",
+            "A Tribute to Jack Johnson",
+            "The Tribute To Jack Johnson",
+            "miles davis::tributetojackjohnson",
+        ),
+    ]
+    for artist, title_a, title_b, expected in pairs:
+        assert br.merge_key(common.norm_key(artist, title_a)) == expected
+        assert br.merge_key(common.norm_key(artist, title_b)) == expected
+
+
+def test_merge_key_keeps_distinct_albums_apart():
+    # the substring-containment trap: these must NOT collapse
+    assert br.merge_key(common.norm_key("Joe Pass", "Virtuoso")) != br.merge_key(
+        common.norm_key("Joe Pass", "Virtuoso #3")
+    )
+    assert br.merge_key(common.norm_key("Wes Montgomery", "Go!")) != br.merge_key(
+        common.norm_key("Wes Montgomery", "The History Of Wes Montgomery")
+    )
+
+
+def test_merge_editions_keeps_higher_scored_and_unions_badges_and_reasons():
+    high = _merge_cand(
+        "Herbie Hancock",
+        "Head Hunters",
+        69.6,
+        badges={"rym": {"chart": "jazz-fusion"}},
+        reasons=[_reason("reddit", "Mentioned in 9 r/jazz threads", "hh::hh", 0.30)],
+    )
+    low = _merge_cand(
+        "Herbie Hancock",
+        "Headhunters",
+        59.6,
+        badges={"reddit": {"mentions": 4}},
+        reasons=[_reason("similar", "Last.fm: similar to X (your #2)", "x", 0.20)],
+    )
+    merged, log = br.merge_editions([high, low])
+
+    assert len(merged) == 1
+    rec = merged[0]
+    # identity comes from the higher-scored record
+    assert (rec["id"], rec["title"], rec["score"]) == (high["id"], "Head Hunters", 69.6)
+    # badges union
+    assert set(rec["badges"]) == {"rym", "reddit"}
+    # reasons union, ordered by the file's existing contribution ordering
+    assert [r["type"] for r in rec["reasons"]] == ["reddit", "similar"]
+    assert [entry["key"] for entry in log] == ["herbie hancock::headhunters"]
+
+
+def test_merge_editions_respects_the_three_reason_cap():
+    high = _merge_cand(
+        "Miles Davis",
+        "A Tribute to Jack Johnson",
+        50.7,
+        reasons=[
+            _reason("reddit", "Mentioned in 9 r/jazz threads", "a", 0.30),
+            _reason("artist", "Miles Davis is your #1 artist", "miles davis", 0.28),
+        ],
+    )
+    low = _merge_cand(
+        "Miles Davis",
+        "The Tribute To Jack Johnson",
+        50.7,
+        reasons=[
+            _reason(
+                "label", "On Columbia — you have 9 albums from this label", "c", 0.29
+            ),
+            _reason("similar", "Last.fm: similar to X (your #2)", "x", 0.01),
+        ],
+    )
+    merged, _log = br.merge_editions([high, low])
+    reasons = merged[0]["reasons"]
+    assert len(reasons) == 3
+    # top three by contribution, the 0.01 similar is dropped
+    assert [r["type"] for r in reasons] == ["reddit", "label", "artist"]
+
+
+def test_merge_keeps_one_reason_per_type():
+    """Both spellings carry their own reddit count. Generation never emits two
+    reasons of one type, so the merge must not be the one place it happens --
+    the higher-contribution one wins."""
+    high = _merge_cand(
+        "Herbie Hancock",
+        "Head Hunters",
+        69.6,
+        reasons=[
+            _reason(
+                "reddit", "Mentioned in 10 r/jazz threads", "hh::head hunters", 0.30
+            )
+        ],
+    )
+    low = _merge_cand(
+        "Herbie Hancock",
+        "Headhunters",
+        59.6,
+        reasons=[
+            _reason("reddit", "Mentioned in 7 r/jazz threads", "hh::headhunters", 0.21),
+            _reason("similar", "Last.fm: similar to X (your #2)", "x", 0.05),
+        ],
+    )
+    reasons = br.merge_editions([high, low])[0][0]["reasons"]
+    assert [r["type"] for r in reasons] == ["reddit", "similar"]
+    assert reasons[0]["detail"] == "Mentioned in 10 r/jazz threads"
+
+
+def test_merge_does_not_transfer_a_norm_key_bound_chart_reason():
+    """A chart reason reconstructs against the album's OWN norm_key, so it
+    cannot ride along to the kept record -- the integrity gate would fail."""
+    high = _merge_cand(
+        "Miles Davis",
+        "Live Evil",
+        65.7,
+        reasons=[
+            _reason("artist", "Miles Davis is your #1 artist", "miles davis", 0.4)
+        ],
+    )
+    low = _merge_cand(
+        "Miles Davis",
+        "Live-Evil",
+        65.7,
+        reasons=[
+            _reason(
+                "chart", "#3 in RYM fusion chart (4.0 from 100 ratings)", "fusion", 0.9
+            )
+        ],
+    )
+    merged, _log = br.merge_editions([high, low])
+    assert [r["type"] for r in merged[0]["reasons"]] == ["artist"]
+
+
+def test_merge_ties_break_deterministically_on_norm_key():
+    a = _merge_cand("Miles Davis", "Live Evil", 65.7)
+    b = _merge_cand("Miles Davis", "Live-Evil", 65.7)
+    # input order must not decide the winner
+    assert br.merge_editions([a, b])[0][0]["title"] == "Live Evil"
+    assert br.merge_editions([b, a])[0][0]["title"] == "Live Evil"
+
+
+def test_virtuoso_variants_survive_the_merge_separately():
+    pool = [
+        _merge_cand("Joe Pass", "Virtuoso", 52.0),
+        _merge_cand("Joe Pass", "Virtuoso #3", 57.9),
+    ]
+    merged, log = br.merge_editions(pool)
+    assert {c["title"] for c in merged} == {"Virtuoso", "Virtuoso #3"}
+    assert log == []
+
+
+def test_near_duplicate_pairs_reports_subtitle_extensions_without_merging():
+    albums = [
+        _merge_cand("Miles Davis", "Relaxin'", 50.7),
+        _merge_cand("Miles Davis", "Relaxin' with the Miles Davis Quintet", 60.7),
+        _merge_cand("John Coltrane", "Live In Seattle", 51.4),
+        _merge_cand("John Coltrane", "A Love Supreme: Live in Seattle", 59.7),
+        _merge_cand("Wes Montgomery", "Go!", 40.0),
+        _merge_cand("Wes Montgomery", "The History Of Wes Montgomery", 30.0),
+    ]
+    pairs = {(a["title"], b["title"]) for a, b in br.near_duplicate_pairs(albums)}
+    # word-boundary extensions in both directions are reported
+    assert ("Relaxin'", "Relaxin' with the Miles Davis Quintet") in pairs
+    assert ("Live In Seattle", "A Love Supreme: Live in Seattle") in pairs
+    # the substring trap ("go" inside "montgomery") is not a near pair
+    assert not any("Go!" in pair for pair in pairs)
+    # reporting them does not merge them
+    assert len(br.merge_editions(albums)[0]) == len(albums)
+
+
+# --- Change 5: cap-key canonicalization ---
+
+
+def test_cap_key_canonicalizes_ensemble_suffix_and_last_first():
+    assert br.cap_key("Pat Metheny Group") == br.cap_key("Pat Metheny")
+    assert br.cap_key("Keith Jarrett Trio") == br.cap_key("Keith Jarrett")
+    assert br.cap_key("Davis, Miles") == br.cap_key("Miles Davis")
+    assert br.cap_key("The Miles Davis Sextet") == br.cap_key("Miles Davis")
+    # a name with no ensemble suffix is unaffected beyond case/whitespace
+    assert br.cap_key("Sonny Rollins") == "sonny rollins"
+    assert br.cap_key("  Bill   Evans ") == "bill evans"
+    # an ensemble word that is not trailing stays put
+    assert br.cap_key("Art Ensemble of Chicago") == "art ensemble of chicago"
+
+
+def test_emit_cap_key_shares_one_allowance_across_name_variants():
+    pool = [
+        _sel_cand("Pat Metheny", "Watercolors", 90),
+        _sel_cand("Pat Metheny Group", "Offramp", 89),
+        _sel_cand("Pat Metheny", "Rejoicing", 88),
+        _sel_cand("Pat Metheny Group", "Still Life", 87),
+        _sel_cand("Pat Metheny", "New Chautauqua", 86),
+        _sel_cand("Bill Evans", "Undercurrent", 10),
+    ]
+    emitted = br.select_emitted(pool, br.EMIT_LIMIT)
+    metheny = [c for c in emitted if c["artist"].startswith("Pat Metheny")]
+    assert len(metheny) == br.EMIT_PER_ARTIST
+    assert "Bill Evans" in {c["artist"] for c in emitted}
+
+
+def test_top_picks_cap_key_shares_one_allowance_across_name_variants():
+    emitted = [
+        _sel_cand("Pat Metheny", "Watercolors", 99),
+        _sel_cand("Pat Metheny Group", "Offramp", 98),
+        _sel_cand("Pat Metheny", "Rejoicing", 97),
+        _sel_cand("Davis, Miles", "Big Fun", 96),
+        _sel_cand("Miles Davis", "Live Evil", 95),
+        _sel_cand("Miles Davis Quintet", "Relaxin'", 94),
+        _sel_cand("Bill Evans", "Undercurrent", 93),
+        _sel_cand("John Coltrane", "Giant Steps", 92),
+        _sel_cand("Chet Baker", "Chet", 91),
+        _sel_cand("Sonny Rollins", "Way Out West", 90),
+        _sel_cand("Grant Green", "Idle Moments", 89),
+    ]
+    picks = br.select_top_picks(emitted)
+    assert len(picks) == br.TOP_PICKS
+    metheny = [p for p in picks if p.startswith(common.slugify("Pat Metheny"))]
+    assert len(metheny) == br.TOP_PICKS_PER_ARTIST
+    miles = [p for p in picks if "davis" in p or "miles" in p]
+    assert len(miles) == br.TOP_PICKS_PER_ARTIST
+
+
+def test_shelf_cap_key_shares_one_allowance_across_name_variants():
+    pool = [
+        _shelf_cand("Pat Metheny", "Watercolors", 90, ["jazz guitar"]),
+        _shelf_cand("Pat Metheny Group", "Offramp", 89, ["jazz guitar"]),
+        _shelf_cand("Pat Metheny", "Rejoicing", 88, ["jazz guitar"]),
+        _shelf_cand("Pat Metheny Group", "Still Life", 87, ["jazz guitar"]),
+        _shelf_cand("Jim Hall", "Concierto", 10, ["jazz guitar"]),
+    ]
+    shelf_defs = [
+        {
+            "id": "g",
+            "title": "G",
+            "blurb": "b",
+            "type": "lineage",
+            "matcher": {"tags": ["jazz guitar"]},
+        }
+    ]
+    items = br.build_shelves(pool, shelf_defs)[0]["items"]
+    metheny = [i for i in items if i.startswith(common.slugify("Pat Metheny"))]
+    assert len(metheny) == br.SHELF_PER_ARTIST
+    assert common.slugify("Jim Hall Concierto") in items
+
+
+# --- Change 6: shelf ordering, leaders before credits ---
+
+
+def test_shelf_lists_leader_matches_before_credit_matches():
+    def cand(artist, title, score, credits):
+        return {
+            "id": common.slugify(f"{artist} {title}"),
+            "artist": artist,
+            "title": title,
+            "score": score,
+            "norm_key": common.norm_key(artist, title),
+            "_labels": [],
+            "_tags": set(),
+            "_credits": credits,
+        }
+
+    pool = [
+        # a credit-match with the HIGHEST score
+        cand("Chet Baker", "Chet", 99.0, ["Kenny Burrell"]),
+        cand("Paul Desmond", "Easy Living", 98.0, ["Jim Hall"]),
+        # leader-matches, lower scored
+        cand("Grant Green", "Nigeria", 61.6, []),
+        cand("Wes Montgomery", "Pretty Blue", 55.7, []),
+    ]
+    shelf_defs = [
+        {
+            "id": "guitar",
+            "title": "G",
+            "blurb": "b",
+            "type": "lineage",
+            "matcher": {
+                "players": [
+                    "Grant Green",
+                    "Wes Montgomery",
+                    "Kenny Burrell",
+                    "Jim Hall",
+                ]
+            },
+        }
+    ]
+    items = br.build_shelves(pool, shelf_defs)[0]["items"]
+    assert items[:2] == [
+        common.slugify("Grant Green Nigeria"),
+        common.slugify("Wes Montgomery Pretty Blue"),
+    ]
+    # the credit-matches stay on the shelf, just not at the front
+    assert items[2:] == [
+        common.slugify("Chet Baker Chet"),
+        common.slugify("Paul Desmond Easy Living"),
+    ]
+
+
+def test_tag_only_shelf_ordering_is_unchanged_by_the_leader_rule():
+    pool = [
+        _shelf_cand("Pharoah Sanders", "Karma", 90, ["spiritual jazz"]),
+        _shelf_cand("Alice Coltrane", "Journey", 80, ["spiritual jazz"]),
+        _shelf_cand("Sun Ra", "Space", 70, ["spiritual jazz"]),
+    ]
+    shelf_defs = [
+        {
+            "id": "sj",
+            "title": "SJ",
+            "blurb": "b",
+            "type": "scene",
+            "matcher": {"tags": ["spiritual jazz"]},
+        }
+    ]
+    items = br.build_shelves(pool, shelf_defs)[0]["items"]
+    assert items == [
+        common.slugify("Pharoah Sanders Karma"),
+        common.slugify("Alice Coltrane Journey"),
+        common.slugify("Sun Ra Space"),
+    ]
+
+
+# --- Change 7: singles filter ---
+
+
+def test_single_excluded_by_the_a_side_b_side_marker():
+    single = _cand(
+        "Louis Armstrong", "Blueberry Hill / Baby, Won't You Say You Love Me"
+    )
+    assert br.exclusion_reason(single) == "single"
+    # a slash without surrounding spaces is not the A-side/B-side form
+    assert br.exclusion_reason(_cand("John Coltrane", "Africa/Brass")) is None
+    assert br.exclusion_reason(_cand("Grant Green", "Idle Moments")) is None
+    # a single is NOT counted as a compilation
+    assert not br._is_comp(single)
+
+
+# --- Change 10: comp filter recalibration, both directions ---
+
+
+def test_comp_allowlist_rescues_real_albums_from_the_regex():
+    rescued = [
+        ("Don Cherry", "Complete Communion"),
+        ("Chet Baker", "Plays the Best of Lerner & Loewe"),
+        ("Chet Baker", "Chet Baker Plays the Best of Lerner and Loewe"),
+        ("George Russell", "Ezz-thetics (Keepnews Collection) [Bonus Track Version]"),
+        ("Rashied Ali", "Duo Exchange: Complete Sessions"),
+    ]
+    for artist, title in rescued:
+        cand = _cand(artist, title)
+        assert cand["norm_key"] in br.COMP_ALLOWLIST
+        # the regex still matches, but the allowlist wins
+        assert br.COMP_TITLE_RE.search(cand["title"])
+        assert not br._is_comp(cand)
+        assert br.exclusion_reason(cand) is None
+
+
+def test_box_denylist_excludes_box_sets_the_regex_misses():
+    for artist, title in [
+        ("Sonny Rollins", "Go West!: The Contemporary Records Albums"),
+        ("Ornette Coleman", "Round Trip: Ornette Coleman on Blue Note"),
+        ("Eric Dolphy", "Musical Prophet: The Expanded 1963 New York Studio Sessions"),
+    ]:
+        cand = _cand(artist, title)
+        assert cand["norm_key"] in br.BOX_DENYLIST
+        assert br.exclusion_reason(cand) == "denylisted"
+        assert br._is_comp(cand)
+
+
+def test_bootleg_series_pattern_catches_the_archival_boxes():
+    assert br._is_comp(_cand("Miles Davis", "The Bootleg Series Vol. 1"))
+    assert br._is_comp(
+        _cand(
+            "Miles Davis", "That's What Happened 1982-1985: The Bootleg Series Vol. 7"
+        )
+    )
+
+
+def test_exclusion_categories_partition_the_pool():
+    pool = [
+        _cand("Grant Green", "Idle Moments"),
+        _cand("Various", "Some Sampler"),
+        _cand("Grant Green", "The Best Of Grant Green Vol. 1"),
+        _cand("Sonny Rollins", "Go West!: The Contemporary Records Albums"),
+        _cand("Louis Armstrong", "Blueberry Hill / Baby, Won't You Say You Love Me"),
+        _cand("Don Cherry", "Complete Communion"),
+    ]
+    by_reason = {}
+    for cand in pool:
+        by_reason.setdefault(br.exclusion_reason(cand), []).append(cand["title"])
+    assert by_reason[None] == ["Idle Moments", "Complete Communion"]
+    assert by_reason["comp-artist"] == ["Some Sampler"]
+    assert by_reason["comp-title"] == ["The Best Of Grant Green Vol. 1"]
+    assert by_reason["denylisted"] == ["Go West!: The Contemporary Records Albums"]
+    assert by_reason["single"] == ["Blueberry Hill / Baby, Won't You Say You Love Me"]
+
+
+# --- Change 11: Pitchfork box-score propagation ---
+
+
+def _review(norm_key, title, score, url, artist="A", year=2020):
+    return {
+        "norm_key": norm_key,
+        "artist": artist,
+        "title": title,
+        "score": score,
+        "bnm": False,
+        "year": year,
+        "url": url,
+    }
+
+
+def test_pitchfork_box_url_suppressed_only_when_every_score_matches():
+    pitchfork = {
+        "reviews": [
+            # one URL, two albums, ONE score -> a box review, both suppressed
+            _review("a::poet", "The Poet", 7.5, "u-box"),
+            _review("a::poet ii", "The Poet II", 7.5, "u-box"),
+            # one URL, two albums, DIFFERENT scores -> genuine multi-album review
+            _review("b::amaryllis", "Amaryllis", 7.5, "u-multi"),
+            _review("b::belladonna", "Belladonna", 7.7, "u-multi"),
+            # a plain single-album review
+            _review("c::solo", "Solo", 8.0, "u-solo"),
+        ]
+    }
+    kept = {r["norm_key"] for r in br.usable_reviews(pitchfork)}
+    assert kept == {"b::amaryllis", "b::belladonna", "c::solo"}
+
+
+def test_box_suppressed_review_is_no_quality_or_year_source():
+    key = common.norm_key("Bobby Womack", "The Poet")
+    pitchfork = {
+        "reviews": [
+            _review(key, "The Poet", 7.5, "u-box", artist="Bobby Womack", year=2021),
+            _review(
+                common.norm_key("Bobby Womack", "The Poet II"),
+                "The Poet II",
+                7.5,
+                "u-box",
+                artist="Bobby Womack",
+                year=2021,
+            ),
+        ]
+    }
+    empty_lastfm = {"similar": {}, "tag_albums": {}, "artist_tags": {}}
+    raw = br.assemble_candidates(
+        {"releases": []},
+        {"charts": {}},
+        empty_lastfm,
+        pitchfork,
+        {"mentions": []},
+        set(),
+    )
+    # the box-suppressed review does not create a candidate at all
+    assert raw == {}
+
+
+def test_integrity_reconstruction_applies_the_same_box_suppression(
+    monkeypatch, tmp_path
+):
+    """Generation and reconstruction must share one derivation path: a reason
+    referencing a box-suppressed review must not reconstruct."""
+    monkeypatch.setattr(br.common, "CACHE", tmp_path)
+    common.save_json(
+        tmp_path / "pitchfork.json",
+        {
+            "reviews": [
+                _review("bobby womack::poet", "The Poet", 7.5, "u-box", year=2021),
+                _review(
+                    "bobby womack::poet ii", "The Poet II", 7.5, "u-box", year=2021
+                ),
+                _review(
+                    "mary halvorson::amaryllis", "Amaryllis", 7.5, "u-multi", year=2022
+                ),
+                _review(
+                    "mary halvorson::belladonna",
+                    "Belladonna",
+                    7.7,
+                    "u-multi",
+                    year=2022,
+                ),
+            ]
+        },
+    )
+    box_album = {
+        "id": "ext-box",
+        "artist": "Bobby Womack",
+        "title": "The Poet",
+        "reasons": [
+            {
+                "type": "pitchfork",
+                "detail": "Pitchfork 7.5 (2021)",
+                "src": "pitchfork",
+                "ref": "bobby womack::poet",
+            }
+        ],
+    }
+    with pytest.raises(SystemExit) as exc_info:
+        br.run_integrity_check([box_album])
+    assert exc_info.value.code == 1
+
+    # a genuine multi-album review still reconstructs
+    kept_album = {
+        "id": "ext-kept",
+        "artist": "Mary Halvorson",
+        "title": "Belladonna",
+        "reasons": [
+            {
+                "type": "pitchfork",
+                "detail": "Pitchfork 7.7 (2022)",
+                "src": "pitchfork",
+                "ref": "mary halvorson::belladonna",
+            }
+        ],
+    }
+    br.run_integrity_check([kept_album])
