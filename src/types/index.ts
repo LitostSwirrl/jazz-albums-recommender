@@ -35,7 +35,7 @@ export interface Artist {
 // Heavy, detail-page-only fields. Loaded lazily via artistsDetail.json (Artist route only).
 export interface ArtistDetail {
   bio: string;
-  wikipedia?: string;
+  wikipedia?: string | null;
 }
 
 export type ConnectionSourceType = 'wikipedia' | 'allmusic' | 'book' | 'interview' | 'liner-notes';
@@ -84,7 +84,7 @@ export interface Album {
 // Heavy, detail-page-only fields. Loaded lazily via albumsDetail.json (Album route only).
 export interface AlbumDetail {
   keyTracks?: string[];
-  wikipedia?: string;
+  wikipedia?: string | null;
   reviews?: CriticReview[];
 }
 
