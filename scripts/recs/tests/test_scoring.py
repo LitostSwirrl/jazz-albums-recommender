@@ -348,18 +348,6 @@ def test_real_album_not_excluded_as_comp():
     assert not br._is_comp(_cand("Grant Green", "Idle Moments"))
 
 
-def test_comp_partition_reports_count():
-    scored = [
-        _cand("Grant Green", "The Best Of Grant Green Vol. 1"),
-        _cand("Grant Green", "Idle Moments"),
-        _cand("Various", "Some Sampler"),
-    ]
-    comps = [c for c in scored if br._is_comp(c)]
-    kept = [c for c in scored if not br._is_comp(c)]
-    assert len(comps) == 2
-    assert {c["title"] for c in kept} == {"Idle Moments"}
-
-
 # --- Change 3: leaders matcher (artist-only) ---
 
 
@@ -714,9 +702,7 @@ def test_merge_editions_respects_the_three_reason_cap():
         "The Tribute To Jack Johnson",
         50.7,
         reasons=[
-            _reason(
-                "label", "On Columbia — you have 9 albums from this label", "c", 0.29
-            ),
+            _reason("sideman", "A and B appear on albums you saved", "release:1", 0.29),
             _reason("similar", "Last.fm: similar to X (your #2)", "x", 0.01),
         ],
     )
@@ -724,7 +710,7 @@ def test_merge_editions_respects_the_three_reason_cap():
     reasons = merged[0]["reasons"]
     assert len(reasons) == 3
     # top three by contribution, the 0.01 similar is dropped
-    assert [r["type"] for r in reasons] == ["reddit", "label", "artist"]
+    assert [r["type"] for r in reasons] == ["reddit", "sideman", "artist"]
 
 
 def test_merge_keeps_one_reason_per_type():
@@ -1332,3 +1318,732 @@ def test_hand_merge_does_not_affect_other_near_duplicate_pairs():
     assert ("Relaxin'", "Relaxin' with the Miles Davis Quintet") in pairs
     # the We Insist pair is no longer reported as an unmerged near-pair
     assert not any("We Insist" in a or "We Insist" in b for a, b in pairs)
+
+
+# ======================================================================
+# Fix round 2 -- final pre-merge review findings
+# ======================================================================
+
+
+def _profile(*ranked, labels=None):
+    """Profile from (name, score) pairs already in rank order."""
+    return {
+        "artists": [
+            {"name": name, "norm": common.norm(name), "score": score, "rank": i}
+            for i, (name, score) in enumerate(ranked, start=1)
+        ],
+        "labels": labels or [],
+        "styles": [],
+        "owned": {"norm_keys": [], "catalog_ids": []},
+    }
+
+
+def _credit(name, role):
+    return {"name": name, "role": role}
+
+
+# The real Discogs release 3469846 credit pool, verbatim from the HTTP cache.
+# Miles Davis is on it as a COMPOSER, not a player.
+_IN_NEW_YORK_CREDITS = [
+    _credit("Paul Chambers (3)", "Bass"),
+    _credit("Paul Bacon (2)", "Design [Cover]"),
+    _credit('"Philly" Joe Jones', "Drums"),
+    _credit("Jack Higgins", "Engineer"),
+    _credit("Paul Weller (3)", "Photography By [Cover]"),
+    _credit("Al Haig", "Piano"),
+    _credit("Orrin Keepnews", "Producer, Liner Notes"),
+    _credit("Johnny Griffin", "Tenor Saxophone"),
+    _credit("Chet Baker", "Trumpet"),
+    _credit("Miles Davis", "Written-By"),
+]
+
+
+# --- Critical 1: HAND_MERGES may never cross artists ---
+
+
+def test_hand_merges_preserve_the_artist():
+    """The live constant satisfies the invariant the merge relies on."""
+    br.check_hand_merges(br.HAND_MERGES)
+
+
+def test_check_hand_merges_rejects_a_cross_artist_pair():
+    """The escape hatch a maintainer reaches for on a co-led duplicate. Left
+    unguarded it produces a record displayed as Bill Evans -- Undercurrent
+    carrying "Jim Hall is your #12 artist": `artist` is not in the
+    non-transferable set, reconstruct_data resolves the stored ref against the
+    taste profile without consulting album["artist"], so the integrity gate
+    passes and a false attribution reaches disk."""
+    with pytest.raises(AssertionError):
+        br.check_hand_merges({"jim hall::undercurrent": "bill evans::undercurrent"})
+
+
+def test_similar_reason_is_identity_bound_to_the_albums_own_artist(
+    monkeypatch, tmp_path
+):
+    """The comment used to claim chart was the only identity-bound type. It is
+    not: `similar` re-derives from album["artist"] at reconstruction, so a
+    cross-artist merge would fail the gate loud rather than lie -- same class,
+    different failure mode. This pins that behavior."""
+    monkeypatch.setattr(br.common, "CACHE", tmp_path)
+    common.save_json(tmp_path / "taste_profile.json", _profile(("Stan Getz", 100.0)))
+    common.save_json(
+        tmp_path / "lastfm.json",
+        {
+            "similar": {"stan getz": [{"name": "Chet Baker", "match": 0.9}]},
+            "tag_albums": {},
+            "artist_tags": {},
+        },
+    )
+    reason = {
+        "type": "similar",
+        "detail": "Last.fm: similar to Stan Getz (your #1)",
+        "src": "lastfm",
+        "ref": "stan getz",
+    }
+    br.run_integrity_check(
+        [{"id": "a", "artist": "Chet Baker", "title": "Chet", "reasons": [reason]}]
+    )
+    # the SAME reason on a different artist's record no longer reconstructs
+    with pytest.raises(SystemExit) as exc_info:
+        br.run_integrity_check(
+            [
+                {
+                    "id": "b",
+                    "artist": "Jim Hall",
+                    "title": "Concierto",
+                    "reasons": [reason],
+                }
+            ]
+        )
+    assert exc_info.value.code == 1
+
+
+# --- Important 2: badges must not cross a merge unless a reason may ---
+
+
+def test_merge_does_not_transfer_an_rym_badge_to_a_chartless_keeper():
+    """The latent case: an absorbed record's chart badge landing on a keeper
+    that charts nowhere makes exactly the claim NON_TRANSFERABLE_REASONS
+    refuses to let a chart REASON make."""
+    keeper = _merge_cand("Bill Evans", "Waltz for Debby", 70.0, badges={})
+    absorbed = _merge_cand(
+        "Bill Evans",
+        "Waltzfor Debby",
+        60.0,
+        badges={"rym": {"chart": "cool-jazz", "rank": 3, "rating": 4.31}},
+    )
+    merged, log = br.merge_editions([keeper, absorbed])
+    assert len(merged) == 1 and log  # the pair really merged
+    assert merged[0]["badges"] == {}
+
+
+def test_merge_does_not_transfer_a_discogs_badge_from_another_pressing():
+    """The live case: Chet Baker -- In New York displayed
+    discogs {rating 4.51, haves 277} absorbed from a different pressing, while
+    its own candidate record has no Discogs release at all -- so its score was
+    computed with no discogs quality term and no mega-canon novelty penalty.
+    The card showed evidence that played no part in its own score."""
+    keeper = _merge_cand("Chet Baker", "In New York", 66.5, badges={})
+    absorbed = _merge_cand(
+        "Chet Baker",
+        "Chet Baker In New York",
+        60.0,
+        badges={"discogs": {"rating": 4.51, "haves": 277}},
+    )
+    merged, _log = br.merge_editions([keeper, absorbed])
+    assert merged[0]["badges"] == {}
+
+
+def test_merge_still_transfers_reddit_and_pitchfork_badges():
+    """A badge crosses a merge exactly when a reason from the same source may.
+    reddit/pitchfork key on artist+title -- the very identity the merge asserts
+    the two records share -- and their reasons already transfer, so suppressing
+    their badges would leave a card whose prose states what its badge row
+    withholds."""
+    keeper = _merge_cand("Max Roach", "We Insist Freedom Now", 54.8, badges={})
+    absorbed = _merge_cand(
+        "Max Roach",
+        "WeInsist Freedom Now",
+        34.6,
+        badges={"reddit": {"mentions": 2}, "pitchfork": {"score": 8.4, "bnm": True}},
+    )
+    merged, _log = br.merge_editions([keeper, absorbed])
+    assert set(merged[0]["badges"]) == {"reddit", "pitchfork"}
+
+
+def test_merge_never_overwrites_a_badge_the_keeper_already_owns():
+    keeper = _merge_cand(
+        "Herbie Hancock", "Head Hunters", 69.6, badges={"reddit": {"mentions": 9}}
+    )
+    absorbed = _merge_cand(
+        "Herbie Hancock", "Headhunters", 59.6, badges={"reddit": {"mentions": 4}}
+    )
+    merged, _log = br.merge_editions([keeper, absorbed])
+    assert merged[0]["badges"] == {"reddit": {"mentions": 9}}
+
+
+# --- Important 3: the sideman reason must be about performers ---
+
+
+def test_is_performer_credit_rejects_the_non_performing_roles():
+    for role in (
+        "Written-By",
+        "Producer",
+        "Engineer",
+        "Design",
+        "Photography By",
+        "Liner Notes",
+        "Mastered By",
+        "Mixed By",
+        "Art Direction",
+        "Composed By",
+        "Arranged By",
+    ):
+        assert not br.is_performer_credit(_credit("X", role)), role
+
+
+def test_is_performer_credit_accepts_performing_roles():
+    for role in ("Bass", "Trumpet", "Tenor Saxophone", "Vocals", "Conductor", "Sitar"):
+        assert br.is_performer_credit(_credit("X", role)), role
+
+
+def test_is_performer_credit_keeps_a_credit_with_one_performing_role():
+    """A compound role is performing if ANY of its parts is."""
+    assert br.is_performer_credit(_credit("X", "Bass, Producer"))
+    assert not br.is_performer_credit(_credit("X", "Producer, Liner Notes"))
+
+
+def test_is_performer_credit_strips_bracket_qualifiers_before_splitting():
+    """A qualifier can itself contain a comma, so brackets come off BEFORE the
+    role is split -- otherwise "Technician [Technical Crew For Da Capo, Het
+    Energiehuis]" yields the unknown part "Het Energiehuis]" and reads as a
+    performer."""
+    assert not br.is_performer_credit(_credit("X", "Design [Cover]"))
+    assert not br.is_performer_credit(_credit("X", "Photography By [Booklet Pg 2, 19]"))
+    assert not br.is_performer_credit(
+        _credit("X", "Technician [Technical Crew For Da Capo, Het Energiehuis]")
+    )
+    assert br.is_performer_credit(_credit("X", "Saxophone [Tenor, Soprano]"))
+
+
+def test_is_performer_credit_rejects_an_empty_role():
+    assert not br.is_performer_credit(_credit("X", ""))
+
+
+def test_performer_credits_filters_and_dedupes_by_name():
+    release = {
+        "credits": [
+            _credit("Chet Baker", "Trumpet"),
+            _credit("Chet Baker", "Written-By"),
+            _credit("Orrin Keepnews", "Producer, Liner Notes"),
+            _credit("Al Haig", "Piano"),
+        ]
+    }
+    assert br.performer_credits(release) == ["Chet Baker", "Al Haig"]
+    assert br.performer_credits(None) == []
+
+
+def test_shared_sidemen_drops_a_composer_only_credit():
+    """The live inaccuracy: Chet Baker -- In New York displayed "Chet Baker and
+    Miles Davis appear on albums you saved". Miles composed; he did not play."""
+    release = {"credits": _IN_NEW_YORK_CREDITS}
+    profile = _profile(("Chet Baker", 137.0), ("Miles Davis", 120.0))
+    assert br.shared_sidemen(release, profile) == [("Chet Baker", 1)]
+
+
+def test_shared_sidemen_orders_by_profile_rank():
+    release = {
+        "credits": [
+            _credit("Lee Morgan", "Trumpet"),
+            _credit("Grant Green", "Guitar"),
+            _credit("Chet Baker", "Trumpet"),
+        ]
+    }
+    profile = _profile(
+        ("Chet Baker", 130.0), ("Grant Green", 90.0), ("Lee Morgan", 50.0)
+    )
+    assert br.shared_sidemen(release, profile) == [
+        ("Chet Baker", 1),
+        ("Grant Green", 2),
+        ("Lee Morgan", 3),
+    ]
+
+
+def test_shared_sidemen_ignores_artists_ranked_below_50():
+    ranked = [(f"Artist {i:02d}", 100.0 - i) for i in range(60)]
+    profile = _profile(*ranked)
+    release = {
+        "credits": [_credit("Artist 00", "Piano"), _credit("Artist 55", "Drums")]
+    }
+    assert br.shared_sidemen(release, profile) == [("Artist 00", 1)]
+
+
+def test_shared_sidemen_refuses_a_homonym_indexed_credit_name():
+    """ "(3)" is Discogs' entity disambiguator: "Paul Weller (3)" is a different
+    person. The suffix must survive into the comparison, so a profile artist
+    never matches an unrelated homonym -- even one holding a performing role."""
+    release = {"credits": [_credit("Grant Green (2)", "Guitar")]}
+    profile = _profile(("Grant Green", 90.0))
+    assert br.shared_sidemen(release, profile) == []
+
+
+def test_shared_sidemen_handles_a_missing_release():
+    assert br.shared_sidemen(None, _profile(("Chet Baker", 1.0))) == []
+
+
+def test_in_new_york_no_longer_earns_a_sideman_reason():
+    """End to end on the real release: only one top-50 profile artist actually
+    plays on it, and the reason needs two."""
+    key = common.norm_key("Chet Baker", "In New York")
+    raw = {
+        "norm_key": key,
+        "discogs": {
+            "norm_key": key,
+            "artist": "Chet Baker",
+            "title": "In New York",
+            "year": 1958,
+            "labels": ["Riverside Records"],
+            "rating": 4.51,
+            "rating_count": 35,
+            "haves": 277,
+            "wants": 523,
+            "credits": _IN_NEW_YORK_CREDITS,
+            "discogs_release_id": 3469846,
+        },
+        "pitchfork": None,
+        "reddit": None,
+        "tag_album": None,
+        "in_rym": False,
+    }
+    profile = _profile(("Chet Baker", 137.0), ("Miles Davis", 120.0))
+    empty_lastfm = {"similar": {}, "tag_albums": {}, "artist_tags": {}}
+    ctx = br.build_context(profile, empty_lastfm, {}, {"charts": {}})
+    scored = br.score_candidate(raw, ctx)
+    assert [r["type"] for r in scored["reasons"]] == ["artist"]
+    # ...and the shelf matcher sees only the performers, not the photographer
+    assert "Paul Weller (3)" not in scored["_credits"]
+    assert "Chet Baker" in scored["_credits"]
+
+
+# --- Important 4: the label reason may not ride a merge ---
+
+
+def test_label_is_non_transferable():
+    assert br.NON_TRANSFERABLE_REASONS == {"chart", "label"}
+
+
+def test_merge_does_not_transfer_a_label_reason():
+    """ "On Blue Note -- you have 5 albums from this label" makes two claims and
+    reconstruction re-checks only the second (the owned count). An absorbed
+    record's representative pressing can sit on a different label than the
+    keeper's -- an original Riverside vs an OJC reissue is the ordinary case --
+    so the album-to-label half would pass the gate while naming a label the
+    keeper is not on."""
+    keeper = _merge_cand(
+        "Bill Evans",
+        "Waltz for Debby",
+        70.0,
+        reasons=[_reason("artist", "Bill Evans is your #1 artist", "bill evans", 0.4)],
+    )
+    absorbed = _merge_cand(
+        "Bill Evans",
+        "Waltzfor Debby",
+        60.0,
+        reasons=[
+            _reason(
+                "label",
+                "On Original Jazz Classics — you have 5 albums from this label",
+                "Original Jazz Classics",
+                0.9,
+            )
+        ],
+    )
+    merged, log = br.merge_editions([keeper, absorbed])
+    assert len(merged) == 1 and log  # the pair really merged
+    assert [r["type"] for r in merged[0]["reasons"]] == ["artist"]
+
+
+# --- Minor 6: one selection key for both chart pickers ---
+
+
+def _chart_entry(norm_key, rank, rating, count, title="T", artist="A"):
+    return {
+        "rank": rank,
+        "norm_key": norm_key,
+        "artist": artist,
+        "title": title,
+        "year": 1965,
+        "rating": rating,
+        "rating_count": count,
+    }
+
+
+def test_chart_data_for_picks_the_best_duplicate_row_not_file_order():
+    """Real duplicate data exists: john coltrane::ascension appears twice in
+    one chart ("[Edition I]"/"[Edition II]" collapsed by norm_title).
+    best_chart_appearance picks by (rating, -rank); chart_data_for used to
+    return whichever row came first in the file, so a re-scrape where the
+    better-rated edition sits at a worse rank would make the displayed rank and
+    the score come from different rows."""
+    rym = {
+        "charts": {
+            "free-jazz": [
+                _chart_entry("john coltrane::ascension", 12, 3.90, 5000),
+                _chart_entry("john coltrane::ascension", 40, 4.10, 9000),
+            ]
+        }
+    }
+    data = br.chart_data_for("john coltrane::ascension", "free-jazz", rym)
+    assert (data["rank"], data["rating"], data["count"]) == (40, 4.10, 9000)
+
+
+def test_best_chart_appearance_returns_the_row_chart_data_for_renders():
+    rym = {
+        "charts": {
+            "free-jazz": [
+                _chart_entry("john coltrane::ascension", 12, 3.90, 5000),
+                _chart_entry("john coltrane::ascension", 40, 4.10, 9000),
+            ],
+            "avant-garde-jazz": [
+                _chart_entry("john coltrane::ascension", 3, 3.50, 100),
+            ],
+        }
+    }
+    slug, entry = br.best_chart_appearance("john coltrane::ascension", rym)
+    data = br.chart_data_for("john coltrane::ascension", slug, rym)
+    assert slug == "free-jazz"
+    assert (entry["rank"], entry["rating"], entry["rating_count"]) == (
+        data["rank"],
+        data["rating"],
+        data["count"],
+    )
+
+
+def test_best_chart_appearance_none_when_the_album_charts_nowhere():
+    assert br.best_chart_appearance("x::y", {"charts": {}}) is None
+    assert br.chart_data_for("x::y", "free-jazz", {"charts": {}}) is None
+
+
+# --- Minor 7: output ids must be unique ---
+
+
+def test_collect_output_albums_rejects_an_id_collision():
+    """An external id is "ext-" + slugify(artist + " " + title), which discards
+    the artist/title boundary, so two different norm_keys can collide into one
+    id and by_id would last-win -- a shelf slot rendering a different album
+    than it matched."""
+    a = _sel_cand("Ron Carter", "Blues Farm", 50.0)
+    b = _sel_cand("Ron", "Carter Blues Farm", 40.0)
+    assert a["id"] == b["id"]  # the collision is real, not contrived
+    with pytest.raises(AssertionError):
+        br.collect_output_albums([], [], [a, b])
+
+
+def test_collect_output_albums_accepts_a_clean_pool():
+    a = _sel_cand("Ron Carter", "Blues Farm", 50.0)
+    b = _sel_cand("Grant Green", "Idle Moments", 40.0)
+    assert br.collect_output_albums([a], [], [a, b]) == [a]
+
+
+# --- best_similar_seed: direct coverage ---
+
+
+def _lastfm(similar):
+    return {"similar": similar, "tag_albums": {}, "artist_tags": {}}
+
+
+def test_best_similar_seed_picks_the_strongest_match():
+    profile = _profile(("Chet Baker", 130.0), ("Stan Getz", 90.0))
+    lastfm = _lastfm(
+        {
+            "chet baker": [{"name": "Jim Hall", "match": 0.42}],
+            "stan getz": [{"name": "Jim Hall", "match": 0.77}],
+        }
+    )
+    match, seed_key, name, rank = br.best_similar_seed("Jim Hall", lastfm, profile)
+    assert (match, seed_key, name, rank) == (0.77, "stan getz", "Stan Getz", 2)
+
+
+def test_best_similar_seed_ignores_seeds_ranked_below_30():
+    ranked = [(f"Artist {i:02d}", 100.0 - i) for i in range(40)]
+    profile = _profile(*ranked)
+    lastfm = _lastfm(
+        {
+            "artist 35": [{"name": "Jim Hall", "match": 0.99}],
+            "artist 05": [{"name": "Jim Hall", "match": 0.30}],
+        }
+    )
+    match, seed_key, _name, rank = br.best_similar_seed("Jim Hall", lastfm, profile)
+    assert (match, seed_key, rank) == (0.30, "artist 05", 6)
+
+
+def test_best_similar_seed_ties_break_on_seed_rank_then_key():
+    profile = _profile(("Chet Baker", 130.0), ("Stan Getz", 90.0), ("Joe Pass", 80.0))
+    lastfm = _lastfm(
+        {
+            "stan getz": [{"name": "Jim Hall", "match": 0.6}],
+            "joe pass": [{"name": "Jim Hall", "match": 0.6}],
+        }
+    )
+    # equal match -> the better-ranked seed wins, whatever the dict order
+    assert br.best_similar_seed("Jim Hall", lastfm, profile)[1] == "stan getz"
+
+
+def test_best_similar_seed_none_when_nothing_matches():
+    profile = _profile(("Chet Baker", 130.0))
+    lastfm = _lastfm({"chet baker": [{"name": "Stan Getz", "match": 0.9}]})
+    assert br.best_similar_seed("Jim Hall", lastfm, profile) is None
+    # an empty norm can never match a candidate
+    assert br.best_similar_seed("", lastfm, profile) is None
+
+
+# ======================================================================
+# integrity gate: the four reason types no test drove through it
+# ======================================================================
+
+
+def _gate_caches(tmp_path, **caches):
+    for name, payload in caches.items():
+        common.save_json(tmp_path / f"{name}.json", payload)
+
+
+def test_gate_catches_a_tampered_sideman_reason(monkeypatch, tmp_path):
+    """The only reason type whose sentence is a claim about the LIBRARY rather
+    than about the album, so it is true wherever it lands. Reconstruction
+    re-derives it through the same shared_sidemen -- which is exactly why the
+    performer-role filter has to live in that shared helper: revert the filter
+    and this faithful case starts naming Miles Davis again."""
+    monkeypatch.setattr(br.common, "CACHE", tmp_path)
+    _gate_caches(
+        tmp_path,
+        taste_profile=_profile(
+            ("Chet Baker", 137.0), ("Miles Davis", 120.0), ("Al Haig", 60.0)
+        ),
+        discogs={
+            "releases": [
+                {"discogs_release_id": 3469846, "credits": _IN_NEW_YORK_CREDITS}
+            ]
+        },
+    )
+    album = {
+        "id": "ext-chet-baker-in-new-york",
+        "artist": "Chet Baker",
+        "title": "In New York",
+        "reasons": [
+            {
+                "type": "sideman",
+                "detail": "Chet Baker and Al Haig appear on albums you saved",
+                "src": "discogs",
+                "ref": "release:3469846",
+            }
+        ],
+    }
+    br.run_integrity_check([album])
+
+    # the pre-fix sentence -- Miles is on this release as Written-By only
+    album["reasons"][0]["detail"] = (
+        "Chet Baker and Miles Davis appear on albums you saved"
+    )
+    with pytest.raises(SystemExit) as exc_info:
+        br.run_integrity_check([album])
+    assert exc_info.value.code == 1
+
+
+def test_gate_catches_a_sideman_reason_whose_release_vanished(monkeypatch, tmp_path):
+    monkeypatch.setattr(br.common, "CACHE", tmp_path)
+    _gate_caches(
+        tmp_path,
+        taste_profile=_profile(("Chet Baker", 137.0)),
+        discogs={"releases": []},
+    )
+    album = {
+        "id": "x",
+        "artist": "Chet Baker",
+        "title": "In New York",
+        "reasons": [
+            {
+                "type": "sideman",
+                "detail": "Chet Baker and Al Haig appear on albums you saved",
+                "src": "discogs",
+                "ref": "release:3469846",
+            }
+        ],
+    }
+    with pytest.raises(SystemExit):
+        br.run_integrity_check([album])
+
+
+def test_gate_catches_a_tampered_similar_reason(monkeypatch, tmp_path):
+    monkeypatch.setattr(br.common, "CACHE", tmp_path)
+    _gate_caches(
+        tmp_path,
+        taste_profile=_profile(("Chet Baker", 137.0), ("Stan Getz", 90.0)),
+        lastfm=_lastfm({"stan getz": [{"name": "Jim Hall", "match": 0.77}]}),
+    )
+    album = {
+        "id": "ext-jim-hall-concierto",
+        "artist": "Jim Hall",
+        "title": "Concierto",
+        "reasons": [
+            {
+                "type": "similar",
+                "detail": "Last.fm: similar to Stan Getz (your #2)",
+                "src": "lastfm",
+                "ref": "stan getz",
+            }
+        ],
+    }
+    br.run_integrity_check([album])
+
+    album["reasons"][0]["detail"] = "Last.fm: similar to Stan Getz (your #1)"
+    with pytest.raises(SystemExit) as exc_info:
+        br.run_integrity_check([album])
+    assert exc_info.value.code == 1
+
+
+def test_gate_catches_a_similar_reason_below_the_emit_threshold(monkeypatch, tmp_path):
+    """Generation only emits a similar reason at match >= 0.4, so
+    reconstruction must apply the same floor -- otherwise a weakened Last.fm
+    similarity would keep re-rendering the old sentence."""
+    monkeypatch.setattr(br.common, "CACHE", tmp_path)
+    _gate_caches(
+        tmp_path,
+        taste_profile=_profile(("Chet Baker", 137.0), ("Stan Getz", 90.0)),
+        lastfm=_lastfm({"stan getz": [{"name": "Jim Hall", "match": 0.2}]}),
+    )
+    album = {
+        "id": "x",
+        "artist": "Jim Hall",
+        "title": "Concierto",
+        "reasons": [
+            {
+                "type": "similar",
+                "detail": "Last.fm: similar to Stan Getz (your #2)",
+                "src": "lastfm",
+                "ref": "stan getz",
+            }
+        ],
+    }
+    with pytest.raises(SystemExit):
+        br.run_integrity_check([album])
+
+
+def test_gate_catches_a_tampered_reddit_reason(monkeypatch, tmp_path):
+    monkeypatch.setattr(br.common, "CACHE", tmp_path)
+    _gate_caches(
+        tmp_path,
+        reddit={
+            "mentions": [
+                {
+                    "norm_key": "herbie hancock::head hunters",
+                    "artist": "Herbie Hancock",
+                    "title": "Head Hunters",
+                    "count": 9,
+                }
+            ]
+        },
+    )
+    album = {
+        "id": "ext-herbie-hancock-head-hunters",
+        "artist": "Herbie Hancock",
+        "title": "Head Hunters",
+        "reasons": [
+            {
+                "type": "reddit",
+                "detail": "Mentioned in 9 r/jazz threads",
+                "src": "reddit",
+                "ref": "herbie hancock::head hunters",
+            }
+        ],
+    }
+    br.run_integrity_check([album])
+
+    album["reasons"][0]["detail"] = "Mentioned in 99 r/jazz threads"
+    with pytest.raises(SystemExit) as exc_info:
+        br.run_integrity_check([album])
+    assert exc_info.value.code == 1
+
+
+def test_gate_catches_a_tampered_chart_reason(monkeypatch, tmp_path):
+    monkeypatch.setattr(br.common, "CACHE", tmp_path)
+    _gate_caches(
+        tmp_path,
+        rym={
+            "charts": {
+                "jazz-fusion": [
+                    _chart_entry(
+                        "herbie hancock::head hunters", 4, 3.96, 26000, "Head Hunters"
+                    )
+                ]
+            }
+        },
+    )
+    album = {
+        "id": "ext-herbie-hancock-head-hunters",
+        "artist": "Herbie Hancock",
+        "title": "Head Hunters",
+        "reasons": [
+            {
+                "type": "chart",
+                "detail": "#4 in RYM jazz-fusion chart (3.96 from 26000 ratings)",
+                "src": "rym",
+                "ref": "jazz-fusion",
+            }
+        ],
+    }
+    br.run_integrity_check([album])
+
+    album["reasons"][0]["detail"] = (
+        "#1 in RYM jazz-fusion chart (3.96 from 26000 ratings)"
+    )
+    with pytest.raises(SystemExit) as exc_info:
+        br.run_integrity_check([album])
+    assert exc_info.value.code == 1
+
+
+def test_a_reason_transferred_by_a_merge_still_reconstructs(monkeypatch, tmp_path):
+    """NON_TRANSFERABLE_REASONS is the single guard between a future merge
+    change and a gate failure. This drives a real merge -- absorbed record
+    carries the reddit reason, keeper does not -- through the real gate, so a
+    change that let the wrong type ride along would fail here rather than only
+    in the live build."""
+    monkeypatch.setattr(br.common, "CACHE", tmp_path)
+    _gate_caches(
+        tmp_path,
+        reddit={
+            "mentions": [
+                {
+                    "norm_key": "herbie hancock::headhunters",
+                    "artist": "Herbie Hancock",
+                    "title": "Headhunters",
+                    "count": 7,
+                }
+            ]
+        },
+    )
+    keeper = _merge_cand("Herbie Hancock", "Head Hunters", 69.6)
+    absorbed = _merge_cand(
+        "Herbie Hancock",
+        "Headhunters",
+        59.6,
+        reasons=[
+            _reason(
+                "reddit",
+                "Mentioned in 7 r/jazz threads",
+                "herbie hancock::headhunters",
+                0.21,
+            )
+        ],
+    )
+    merged, log = br.merge_editions([keeper, absorbed])
+    assert log  # the pair really merged
+    assert merged[0]["title"] == "Head Hunters"
+    assert [r["type"] for r in merged[0]["reasons"]] == ["reddit"]
+
+    # the transferred reason reconstructs against its OWN stored ref, which is
+    # the absorbed record's norm_key -- not the keeper's
+    br.run_integrity_check(merged)
+
+    merged[0]["reasons"][0]["detail"] = "Mentioned in 70 r/jazz threads"
+    with pytest.raises(SystemExit):
+        br.run_integrity_check(merged)

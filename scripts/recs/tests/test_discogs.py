@@ -1,5 +1,7 @@
 from collections import Counter
 
+import requests
+
 from scripts.recs import fetch_discogs as fd
 
 
@@ -216,3 +218,131 @@ def test_fetch_label_release_post_detail_owned_recheck_drops_and_counts(monkeypa
 
     assert result is None
     assert stats["owned_skipped"] == 1
+
+
+# ======================================================================
+# fix round 2 -- finding 3: credits carry their role
+# ======================================================================
+
+
+def test_extract_credits_carries_role_alongside_name():
+    """A bare name cannot tell a bassist from a cover photographer, so the
+    downstream 'appear on albums you saved' claim cannot be checked. Each
+    credit is a record: the Discogs name plus its raw role string."""
+    release = _fake_release(
+        3469846,
+        "Chet Baker In New York",
+        ["Chet Baker"],
+        extraartists=[
+            {"name": "Paul Chambers (3)", "role": "Bass"},
+            {"name": "Orrin Keepnews", "role": "Producer, Liner Notes"},
+            {"name": "Paul Bacon (2)", "role": "Design [Cover]"},
+        ],
+        tracklist=[{"extraartists": [{"name": "Miles Davis", "role": "Written-By"}]}],
+    )
+    assert fd._extract_credits(release) == [
+        {"name": "Paul Chambers (3)", "role": "Bass"},
+        {"name": "Orrin Keepnews", "role": "Producer, Liner Notes"},
+        {"name": "Paul Bacon (2)", "role": "Design [Cover]"},
+        {"name": "Miles Davis", "role": "Written-By"},
+    ]
+
+
+def test_extract_credits_keeps_the_homonym_index_on_the_stored_name():
+    """'(3)' is Discogs' ENTITY disambiguator -- 'Paul Weller (3)' is a
+    different person from 'Paul Weller'. Stripping it before an identity
+    comparison makes any profile artist match an unrelated homonym, so the
+    stored name keeps it; clean_discogs_name stays display-only."""
+    release = _fake_release(
+        1,
+        "X",
+        ["Y"],
+        extraartists=[{"name": "Paul Weller (3)", "role": "Photography By [Cover]"}],
+    )
+    credits = fd._extract_credits(release)
+    assert credits == [{"name": "Paul Weller (3)", "role": "Photography By [Cover]"}]
+    # the display cleaner still exists and still strips it -- for DISPLAY
+    assert fd.clean_discogs_name(credits[0]["name"]) == "Paul Weller"
+
+
+def test_extract_credits_dedupes_on_name_and_role_not_name_alone():
+    """One person can hold a performing role AND a writing credit on the same
+    release (Chet Baker plays trumpet and is credited Written-By). Deduping on
+    the name alone would keep whichever came first and lose the other, so the
+    performer test would depend on Discogs' field order."""
+    release = _fake_release(
+        1,
+        "X",
+        ["Chet Baker"],
+        extraartists=[{"name": "Chet Baker", "role": "Trumpet"}],
+        tracklist=[
+            {"extraartists": [{"name": "Chet Baker", "role": "Written-By"}]},
+            {"extraartists": [{"name": "Chet Baker", "role": "Trumpet"}]},
+        ],
+    )
+    assert fd._extract_credits(release) == [
+        {"name": "Chet Baker", "role": "Trumpet"},
+        {"name": "Chet Baker", "role": "Written-By"},
+    ]
+
+
+def test_extract_credits_drops_nameless_entries():
+    release = _fake_release(
+        1, "X", ["Y"], extraartists=[{"name": "", "role": "Bass"}, {"role": "Drums"}]
+    )
+    assert fd._extract_credits(release) == []
+
+
+# ======================================================================
+# fix round 2 -- finding 5: catch RequestException, not just HTTPError
+# ======================================================================
+
+
+def _raise_connection_error(*_args, **_kwargs):
+    """A mid-sweep connection reset -- a RequestException that is NOT an
+    HTTPError, so the old narrow catch let it escape and kill the process
+    before cache/discogs.json was ever written."""
+    raise requests.ConnectionError("connection reset by peer")
+
+
+def test_fetch_artist_release_survives_a_connection_error(monkeypatch):
+    monkeypatch.setattr(fd, "_get", _raise_connection_error)
+    stats: Counter[str] = Counter()
+    result = fd._fetch_artist_release({"id": 1, "title": "T"}, "A", set(), stats)
+    assert result is None
+    assert stats["release_errors"] == 1
+
+
+def test_fetch_label_release_survives_a_connection_error(monkeypatch):
+    monkeypatch.setattr(fd, "_get", _raise_connection_error)
+    stats: Counter[str] = Counter()
+    result = fd._fetch_label_release(
+        {"id": 1, "title": "T", "artist": "A"}, "Impulse!", set(), stats
+    )
+    assert result is None
+    assert stats["release_errors"] == 1
+
+
+def test_sweep_artists_survives_a_connection_error(monkeypatch):
+    """The whole point of the widening: a reset mid-artist-sweep must not
+    propagate out of sweep_artists, because main() would then never reach the
+    label sweep and never write the cache for that run."""
+    monkeypatch.setattr(fd, "_get", _raise_connection_error)
+    stats: Counter[str] = Counter()
+    releases = fd.sweep_artists([{"name": "Chet Baker"}], set(), stats)
+    assert releases == []
+    assert stats["artists_skipped_error"] == 1
+
+
+def test_resolve_labels_survives_a_connection_error(monkeypatch):
+    monkeypatch.setattr(fd, "_get", _raise_connection_error)
+    stats: Counter[str] = Counter()
+    assert fd._resolve_labels([], stats) == []
+    assert stats["labels_skipped_error"] == len(fd.FIXED_SCENE_LABELS)
+
+
+def test_sweep_labels_survives_a_connection_error(monkeypatch):
+    monkeypatch.setattr(fd, "_get", _raise_connection_error)
+    stats: Counter[str] = Counter()
+    assert fd.sweep_labels([(1, "Blue Note")], set(), stats) == []
+    assert stats["labels_skipped_error"] == 1

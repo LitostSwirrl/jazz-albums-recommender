@@ -25,6 +25,10 @@ from datetime import datetime
 
 from scripts.recs import common
 
+# the DISPLAY-only Discogs name cleaner, used by credit_audit to report how
+# many identity matches the homonym-suffix rule deliberately refuses.
+from scripts.recs.fetch_discogs import clean_discogs_name
+
 # --- scoring constants (tuned at Task 11) ---
 W_AFFINITY, W_QUALITY, W_NOVELTY = 0.45, 0.40, 0.15
 AF = {"artist": 0.35, "sideman": 0.20, "label": 0.15, "similar": 0.20, "tags": 0.10}
@@ -91,6 +95,30 @@ HAND_MERGES = {
     "max roach::we insist": "max roach::we insist max roachs freedom now suite",
 }
 
+
+def check_hand_merges(hand_merges: dict) -> None:
+    """A hand-merge may only unite two spellings of ONE artist's album.
+
+    The generic merge_key guarantees this structurally -- it keeps the
+    norm_key's artist half -- but HAND_MERGES bypasses it, and the merge moves
+    every reason outside NON_TRANSFERABLE_REASONS from the absorbed record to
+    the keeper. Two of those types are claims about a PERSON: `artist` names
+    them outright and `similar` re-derives from album["artist"]. Let a
+    hand-merge cross artists (the escape hatch a maintainer reaches for on a
+    co-led or leader-credit duplicate, the commonest real edition duplicate)
+    and a record displayed as "Bill Evans -- Undercurrent" can carry "Jim Hall
+    is your #12 artist": reconstruct_data resolves the stored ref against the
+    taste profile without consulting album["artist"], so the gate passes and a
+    false attribution reaches disk. This invariant is what makes transferring
+    `artist` and `similar` safe."""
+    for absorbed, keeper in sorted(hand_merges.items()):
+        assert absorbed.partition("::")[0] == keeper.partition("::")[0], (
+            f"HAND_MERGES must preserve the artist: {absorbed} -> {keeper}"
+        )
+
+
+check_hand_merges(HAND_MERGES)
+
 # reason-ordering tie-break: fixed type priority after contribution
 TYPE_PRIORITY = {
     "artist": 0,
@@ -101,10 +129,163 @@ TYPE_PRIORITY = {
     "pitchfork": 5,
     "reddit": 6,
 }
-# chart reasons reconstruct against the album's OWN norm_key (every other type
-# reconstructs from its stored ref), so they cannot ride an edition merge over
-# to the kept record without breaking the integrity gate.
-NORM_KEY_BOUND_REASONS = {"chart"}
+# Reasons an edition merge must NOT move from an absorbed record to its keeper,
+# because their claim is bound to something the keeper does not necessarily
+# share:
+#   chart -- reconstructs against the album's OWN norm_key, so a transferred
+#            one cannot re-render and would fail the integrity gate.
+#   label -- asserts the album is ON that label, but reconstruction re-checks
+#            only the owned-count half in the taste profile. An absorbed
+#            record's representative pressing can sit on a different label than
+#            the keeper's (an original Riverside vs an OJC reissue), so the
+#            album-to-label half would pass the gate while naming a label the
+#            keeper is not on.
+# `artist` and `similar` are identity-bound too -- `similar` re-derives from
+# album["artist"] at reconstruction and fails loud rather than lying, `artist`
+# names a person and would lie silently -- but a merge only ever unites two
+# spellings of one artist's album. merge_key enforces that structurally and
+# check_hand_merges enforces it for the hand-merge escape hatch, which is what
+# makes moving those two safe.
+NON_TRANSFERABLE_REASONS = {"chart", "label"}
+# Badges follow the same policy their source's reason does: a badge may cross a
+# merge exactly when a reason from that source may.
+#   rym     -- the badge form of the chart reason, bound to one norm_key's row.
+#   discogs -- one specific pressing's rating/haves, and the same numbers that
+#              fed the keeper's own quality and novelty terms; transferring it
+#              shows evidence that played no part in the record's own score.
+# reddit and pitchfork key on artist+title -- the very identity the merge
+# asserts the two records share -- and their reasons already transfer, so
+# suppressing their badges would leave a card whose prose states what its badge
+# row withholds.
+NON_TRANSFERABLE_BADGES = {"rym", "discogs"}
+
+# Discogs credit roles that are NOT a performance. The sideman reason claims
+# two people "appear on albums you saved", which is only true of someone
+# audible on the record -- a composer, producer, engineer, sleeve designer or
+# cover photographer is not. Enumerated from the full role vocabulary of the
+# cached release responses (353 distinct role parts) rather than guessed, and
+# stated as an exclusion list: an unrecognized role is assumed to be one of the
+# long tail of instruments and is KEPT, so a new instrument never silently
+# drops a real sideman. Roles are compared lowercased, with bracketed
+# qualifiers removed.
+NON_PERFORMER_ROLES = frozenset(
+    {
+        # writing, composition, arrangement
+        "adapted by",
+        "arranged by",
+        "author",
+        "composed by",
+        "concept by",
+        "created by",
+        "lyrics by",
+        "music by",
+        "orchestrated by",
+        "score",
+        "score editor",
+        "songwriter",
+        "text by",
+        "transcription by",
+        "translated by",
+        "words by",
+        "written by",
+        "written-by",
+        # production and supervision
+        "co-producer",
+        "compilation producer",
+        "compiled by",
+        "executive producer",
+        "executive-producer",
+        "film producer",
+        "post production",
+        "producer",
+        "recording supervisor",
+        "reissue producer",
+        "supervised by",
+        # studio engineering and mastering
+        "authoring",
+        "direct metal mastering by",
+        "edited by",
+        "editor",
+        "engineer",
+        "field recording",
+        "film technician",
+        "lacquer cut by",
+        "mastered by",
+        "mixed by",
+        "plated by",
+        "recorded by",
+        "remastered by",
+        "remix",
+        "restoration",
+        "technician",
+        "tracking by",
+        "transferred by",
+        # packaging, artwork, film
+        "art direction",
+        "artwork",
+        "artwork by",
+        "assemblage",
+        "calligraphy",
+        "camera operator",
+        "cameraman",
+        "costume designer",
+        "cover",
+        "design",
+        "design concept",
+        "director of photography",
+        "drawing",
+        "film director",
+        "film editor",
+        "graphic design",
+        "graphics",
+        "hair",
+        "illustration",
+        "layout",
+        "lighting",
+        "lighting director",
+        "lithography",
+        "make-up",
+        "painting",
+        "photography",
+        "photography by",
+        "set designer",
+        "sleeve",
+        "stylist",
+        "typography",
+        # notes, text, research
+        "booklet editor",
+        "liner notes",
+        "research",
+        "sleeve notes",
+        # business, admin, crew
+        "a&r",
+        "administrator",
+        "advisor",
+        "booking",
+        "consultant",
+        "contractor",
+        "coordinator",
+        "creative director",
+        "crew",
+        "directed by",
+        "legal",
+        "management",
+        "marketing",
+        "music consultant",
+        "music director",
+        "musical assistance",
+        "other",
+        "product manager",
+        "production manager",
+        "project manager",
+        "promotion",
+        "stage manager",
+        "tour manager",
+    }
+)
+# a bracketed qualifier ("Design [Cover]") can itself contain a comma, so it
+# comes off before the role string is split on commas.
+ROLE_QUALIFIER_RE = re.compile(r"\[[^\]]*\]")
 
 
 # ======================================================================
@@ -214,17 +395,28 @@ def reddit_pick(mentions: list[dict]) -> dict | None:
     return max(mentions, key=lambda m: m["count"])
 
 
+def _chart_entry_key(entry: dict) -> tuple:
+    """The single ordering both chart pickers use: max rating, tie -> min rank,
+    tie -> max rating_count. One album really does appear twice in one chart in
+    the live data (an "[Edition I]"/"[Edition II]" pair that norm_title
+    collapses), so neither picker may fall back on file order -- otherwise the
+    displayed rank and the scored rating can come from different rows."""
+    return (entry["rating"], -entry["rank"], entry["rating_count"])
+
+
 def best_chart_appearance(norm_key: str, rym: dict):
-    """The candidate's best RYM chart appearance as (slug, entry): max rating,
-    tie -> min rank, then slug ascending. Returns None if it charts nowhere."""
+    """The candidate's best RYM chart appearance as (slug, entry), by
+    _chart_entry_key, then slug ascending. The entry is the same row
+    chart_data_for(norm_key, slug, rym) renders. None if it charts nowhere."""
     best = None
     for slug in sorted(rym["charts"]):
-        for entry in rym["charts"][slug]:
-            if entry["norm_key"] != norm_key:
-                continue
-            key = (entry["rating"], -entry["rank"])
-            if best is None or key > best[0]:
-                best = (key, slug, entry)
+        entries = [e for e in rym["charts"][slug] if e["norm_key"] == norm_key]
+        if not entries:
+            continue
+        entry = max(entries, key=_chart_entry_key)
+        key = _chart_entry_key(entry)
+        if best is None or key > best[0]:
+            best = (key, slug, entry)
     if best is None:
         return None
     return best[1], best[2]
@@ -233,23 +425,63 @@ def best_chart_appearance(norm_key: str, rym: dict):
 def chart_data_for(norm_key: str, slug: str, rym: dict) -> dict | None:
     """The render-data dict for a candidate's appearance in one named chart.
     Both generation and reconstruction derive chart reason data from here."""
-    for entry in rym["charts"].get(slug, []):
-        if entry["norm_key"] == norm_key:
-            return {
-                "rank": entry["rank"],
-                "chart": slug,
-                "rating": entry["rating"],
-                "count": entry["rating_count"],
-            }
-    return None
+    entries = [e for e in rym["charts"].get(slug, []) if e["norm_key"] == norm_key]
+    if not entries:
+        return None
+    entry = max(entries, key=_chart_entry_key)
+    return {
+        "rank": entry["rank"],
+        "chart": slug,
+        "rating": entry["rating"],
+        "count": entry["rating_count"],
+    }
+
+
+def is_performer_credit(credit: dict) -> bool:
+    """True when at least one of a credit's roles is a performing role. A
+    Discogs role can name several ("Producer, Liner Notes"), so one performing
+    part is enough to make the person audible on the record; a credit with no
+    role at all makes no performance claim and is dropped."""
+    role = ROLE_QUALIFIER_RE.sub("", credit.get("role") or "")
+    return any(
+        part.strip().lower() not in NON_PERFORMER_ROLES
+        for part in role.split(",")
+        if part.strip()
+    )
+
+
+def performer_credits(release: dict | None) -> list[str]:
+    """The release's credit names that carry at least one performing role,
+    deduped, in first-appearance order.
+
+    Names keep their Discogs homonym index: "(3)" marks a DIFFERENT entity that
+    happens to share a name, so "Paul Weller (3)" -- the cover photographer on
+    Chet Baker In New York -- must never match the profile's Paul Weller.
+    fetch_discogs.clean_discogs_name strips that index for DISPLAY only."""
+    if not release:
+        return []
+    seen: set[str] = set()
+    names = []
+    for credit in release.get("credits", []):
+        name = credit["name"]
+        if name in seen or not is_performer_credit(credit):
+            continue
+        seen.add(name)
+        names.append(name)
+    return names
 
 
 def shared_sidemen(release: dict | None, profile: dict) -> list[tuple[str, int]]:
-    """Profile artists (rank <= 50) whose norm appears in the release credits,
-    ordered by rank asc then norm asc. Names are the profile display names."""
-    if not release:
-        return []
-    credit_norms = {common.norm(c) for c in release.get("credits", [])}
+    """Profile artists (rank <= 50) who PLAY on the release, ordered by rank asc
+    then norm asc. Names are the profile display names.
+
+    The rendered sentence ("X and Y appear on albums you saved") is a claim
+    about the library, so it is true wherever it lands and the integrity gate --
+    which re-derives it through this same function -- can only confirm
+    self-consistency. Whether the two people are on the record at all is
+    decided here and nowhere else, which is why non-performing credits are
+    filtered out at this exact point."""
+    credit_norms = {common.norm(n) for n in performer_credits(release)}
     out = [
         (a["name"], a["rank"])
         for a in usable_artists(profile)
@@ -503,11 +735,9 @@ def score_candidate(raw: dict, ctx: Context) -> dict:
     pa = ctx.by_norm.get(art_norm)
     artist_c = (pa["score"] / ctx.max_affinity) if pa else 0.0
 
-    if repr_release:
-        credit_norms = {common.norm(c) for c in repr_release["credits"]}
-        sideman_c = min(1.0, len(credit_norms & ctx.top50_norms) / 5)
-    else:
-        sideman_c = 0.0
+    perf_credits = performer_credits(repr_release)
+    credit_norms = {common.norm(n) for n in perf_credits}
+    sideman_c = min(1.0, len(credit_norms & ctx.top50_norms) / 5)
     shared_list = shared_sidemen(repr_release, ctx.profile)
 
     if repr_release:
@@ -661,7 +891,7 @@ def score_candidate(raw: dict, ctx: Context) -> dict:
         "badges": build_badges(raw, ctx.rym),
         "_labels": cand_labels,
         "_tags": cand_tags,
-        "_credits": repr_release["credits"] if repr_release else [],
+        "_credits": perf_credits,
         "_source_count": sum(
             1 for k in ("discogs", "pitchfork", "reddit", "tag_album") if raw[k]
         )
@@ -740,10 +970,13 @@ def merge_editions(pool: list[dict]) -> tuple[list[dict], list[dict]]:
             keepers[keeper["norm_key"]] = keeper
             continue
 
+        # badges are outside the integrity gate (it iterates reasons only), so
+        # the transfer rule is enforced here: see NON_TRANSFERABLE_BADGES.
         badges = dict(keeper["badges"])
         for cand in absorbed:
             for name, badge in cand["badges"].items():
-                badges.setdefault(name, badge)
+                if name not in NON_TRANSFERABLE_BADGES:
+                    badges.setdefault(name, badge)
 
         # one reason per type, strongest first: both spellings carry their own
         # reddit count, and generation never emits two reasons of one type.
@@ -752,7 +985,7 @@ def merge_editions(pool: list[dict]) -> tuple[list[dict], list[dict]]:
             reason
             for cand in absorbed
             for reason in cand["reasons"]
-            if reason["type"] not in NORM_KEY_BOUND_REASONS
+            if reason["type"] not in NON_TRANSFERABLE_REASONS
         ]
         for reason in transferable:
             best = by_type.get(reason["type"])
@@ -1032,7 +1265,15 @@ def collect_output_albums(
     """The output album set: emitted ∪ every candidate referenced by a shelf,
     de-duped by id. Deterministic order: emitted (score order) first, then any
     shelf-only items in shelf-then-item order. Shelf items resolve against the
-    full pool so sub-emit picks still land in the albums map."""
+    full pool so sub-emit picks still land in the albums map.
+
+    An external id is "ext-" + slugify(artist + " " + title), which discards
+    the artist/title boundary, so two different norm_keys CAN collide into one
+    id -- and by_id would then last-win, making a shelf slot render a different
+    album than it matched. Zero collisions in the live pool; the assertion is
+    what keeps it that way."""
+    dupes = sorted(cid for cid, n in Counter(c["id"] for c in pool).items() if n > 1)
+    assert not dupes, f"id collision in the output pool: {dupes}"
     by_id = {c["id"]: c for c in pool}
     seen = {c["id"] for c in emitted}
     out = list(emitted)
@@ -1106,6 +1347,41 @@ def _print_exclusions(dropped: dict, rescued: list[dict]) -> None:
         rescued, key=lambda c: (c["artist"].lower(), c["title"].lower())
     ):
         print(f"  {cand['artist']} - {cand['title']}", file=sys.stderr)
+
+
+def credit_audit(discogs: dict, profile: dict) -> Counter:
+    """Count what the two credit filters remove from the Discogs credit pool,
+    so neither exclusion is silent. `non_performer` is credit lines with no
+    performing role; `homonym_refused` is performing credit lines whose name
+    carries a Discogs homonym index and would have matched a top-50 profile
+    artist had that index been stripped -- exactly the false attributions the
+    display-only cleaner used to wave through."""
+    top50 = {a["norm"] for a in usable_artists(profile) if a["rank"] <= 50}
+    stats: Counter = Counter()
+    for release in discogs["releases"]:
+        for credit in release["credits"]:
+            stats["credits"] += 1
+            if not is_performer_credit(credit):
+                stats["non_performer"] += 1
+                continue
+            stats["performer"] += 1
+            name = credit["name"]
+            if common.norm(name) in top50:
+                stats["profile_match"] += 1
+            elif common.norm(clean_discogs_name(name)) in top50:
+                stats["homonym_refused"] += 1
+    return stats
+
+
+def _print_credit_audit(stats: Counter) -> None:
+    print(
+        f"--- discogs credits: {stats['credits']} lines | "
+        f"dropped non-performing {stats['non_performer']} | "
+        f"performing {stats['performer']} "
+        f"(top-50 profile matches {stats['profile_match']}, "
+        f"homonym-suffix refused {stats['homonym_refused']}) ---",
+        file=sys.stderr,
+    )
 
 
 def _print_merges(log: list[dict]) -> None:
@@ -1224,6 +1500,7 @@ def main() -> None:
     )
 
     _print_exclusions(dropped, rescued)
+    _print_credit_audit(credit_audit(discogs, profile))
     _print_merges(merge_log)
     _print_near_duplicates(near_duplicate_pairs(album_cands))
     _print_summary(scored, emitted, shelves, dropped, album_cands)

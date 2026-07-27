@@ -68,6 +68,7 @@ LABEL_QUERY_ALIASES = {
 # the homonym marker -- a real descriptive parenthetical like "Tribe
 # (Chicago)" must survive.
 _HOMONYM_SUFFIX_RE = re.compile(r"\s*\(\d+\)\s*$")
+_VARIANT_SUFFIX_RE = re.compile(r"\s*\*+\s*$")
 
 
 def clean_discogs_name(name: str) -> str:
@@ -85,6 +86,17 @@ def clean_discogs_name(name: str) -> str:
         if next_cleaned == cleaned:
             return cleaned
         cleaned = next_cleaned
+
+
+def credit_identity_name(name: str) -> str:
+    """The name a credit is stored -- and therefore compared -- BY. Strips
+    only the '*' variant marker: that marks a variant SPELLING of one linked
+    canonical entity, so removing it preserves identity. The '(n)' homonym
+    index is deliberately kept, because it marks a DIFFERENT entity that
+    happens to share a name ("Paul Weller (3)" is not Paul Weller) -- strip it
+    before an identity comparison and every profile artist matches its
+    homonyms. clean_discogs_name, which strips both, is display-only."""
+    return _VARIANT_SUFFIX_RE.sub("", (name or "").strip()).strip()
 
 
 # --- pure helpers ---
@@ -204,22 +216,30 @@ def _extract_labels(release: dict) -> list[str]:
     return names
 
 
-def _extract_credits(release: dict) -> list[str]:
-    """Union of release-level extraartists and every track's extraartists,
-    cleaned + deduped, order = first appearance. Uses the canonical `name`
-    field (not `anv`, the release-specific credited spelling) so the same
-    person matches consistently across releases."""
-    raw_names = [c.get("name", "") for c in release.get("extraartists", [])]
-    for track in release.get("tracklist", []):
-        raw_names.extend(c.get("name", "") for c in track.get("extraartists", []))
+def _extract_credits(release: dict) -> list[dict]:
+    """Union of release-level extraartists and every track's extraartists as
+    {name, role} records, deduped on the PAIR, order = first appearance. Uses
+    the canonical `name` field (not `anv`, the release-specific credited
+    spelling) so the same person matches consistently across releases.
 
-    seen: set[str] = set()
+    The role travels with the name because a bare name cannot distinguish a
+    bassist from a cover photographer, and the downstream sideman claim ("X
+    and Y appear on albums you saved") is only true of performers. Deduping on
+    (name, role) rather than name keeps both lines when one person plays AND
+    writes, so the performer test never depends on Discogs' field order."""
+    raw = list(release.get("extraartists", []))
+    for track in release.get("tracklist", []):
+        raw.extend(track.get("extraartists", []))
+
+    seen: set[tuple[str, str]] = set()
     credits = []
-    for raw in raw_names:
-        cleaned = clean_discogs_name(raw)
-        if cleaned and cleaned not in seen:
-            seen.add(cleaned)
-            credits.append(cleaned)
+    for entry in raw:
+        name = credit_identity_name(entry.get("name", ""))
+        role = (entry.get("role") or "").strip()
+        if not name or (name, role) in seen:
+            continue
+        seen.add((name, role))
+        credits.append({"name": name, "role": role})
     return credits
 
 
@@ -281,9 +301,9 @@ def _fetch_artist_release(
             print(f"skip release (no main_release): {artist_name} -- {title}")
             return None
         release = _get(f"{API_BASE}/releases/{release_id}")
-    except requests.HTTPError:
+    except requests.RequestException:
         stats["release_errors"] += 1
-        print(f"skip release (HTTP error): {artist_name} -- {title}")
+        print(f"skip release (request error): {artist_name} -- {title}")
         return None
 
     entry = _build_release_entry(release, f"artist:{artist_name}")
@@ -316,9 +336,9 @@ def sweep_artists(
                 f"{API_BASE}/artists/{artist_id}/releases",
                 {"sort": "year", "per_page": 100},
             )
-        except requests.HTTPError:
+        except requests.RequestException:
             stats["artists_skipped_error"] += 1
-            print(f"skip artist (HTTP error): {name}")
+            print(f"skip artist (request error): {name}")
             continue
 
         masters = [r for r in listing.get("releases", []) if r.get("type") == "master"]
@@ -357,9 +377,9 @@ def _resolve_labels(
     for name in sorted(names):
         try:
             found = _find_label(name)
-        except requests.HTTPError:
+        except requests.RequestException:
             stats["labels_skipped_error"] += 1
-            print(f"skip label (HTTP error): {name}")
+            print(f"skip label (request error): {name}")
             continue
         if found is None:
             stats["labels_skipped_no_match"] += 1
@@ -383,9 +403,9 @@ def _fetch_label_release(
 
     try:
         release = _get(f"{API_BASE}/releases/{candidate['id']}")
-    except requests.HTTPError:
+    except requests.RequestException:
         stats["release_errors"] += 1
-        print(f"skip release (HTTP error): {artist_name} -- {title}")
+        print(f"skip release (request error): {artist_name} -- {title}")
         return None
 
     entry = _build_release_entry(release, f"label:{label_name}")
@@ -402,9 +422,9 @@ def sweep_labels(
     for label_id, label_name in resolved_labels:
         try:
             listing = _get(f"{API_BASE}/labels/{label_id}/releases", {"per_page": 100})
-        except requests.HTTPError:
+        except requests.RequestException:
             stats["labels_skipped_error"] += 1
-            print(f"skip label (HTTP error): {label_name}")
+            print(f"skip label (request error): {label_name}")
             continue
 
         picked = year_spread(
