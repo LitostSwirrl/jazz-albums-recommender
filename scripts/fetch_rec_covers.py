@@ -115,6 +115,15 @@ def resolve(album: dict) -> tuple[str | None, str]:
     return None, "mismatch"
 
 
+def should_cache(status: str) -> bool:
+    """Cache only outcomes that are answers about the album.
+
+    A fetch failure is transient, not an answer -- caching it would turn a
+    one-off network error into a permanent block on ever retrying the album.
+    """
+    return status != "fetch_failed"
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--limit", type=int, default=None)
@@ -143,8 +152,9 @@ def main() -> None:
         else:
             url, status = resolve(album)
             entry = {"url": url, "status": status}
-            cache[aid] = entry
-            _save(CACHE_PATH, cache)
+            if should_cache(status):
+                cache[aid] = entry
+                _save(CACHE_PATH, cache)
             time.sleep(MIN_INTERVAL)
         counts[entry["status"]] = counts.get(entry["status"], 0) + 1
         if entry["url"]:
@@ -163,8 +173,9 @@ def main() -> None:
     print(
         f"albums considered: {len(albums)} | resolved: {counts['ok']} | "
         f"no result: {counts['no_result']} | rejected as mismatch: {counts['mismatch']} | "
-        f"fetch failed: {counts['fetch_failed']} | from cache: {counts['cached']}"
+        f"fetch failed: {counts['fetch_failed']}"
     )
+    print(f"of the above, answered from cache (no request made): {counts['cached']}")
     print(f"manifest entries: {len(manifest)} | failures recorded: {len(failures)}")
 
 

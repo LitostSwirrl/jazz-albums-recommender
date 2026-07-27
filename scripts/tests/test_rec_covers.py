@@ -36,3 +36,15 @@ def test_artwork_url_upgrades_the_size_segment():
         rc.artwork_url("https://is1-ssl.mzstatic.com/image/thumb/a/b/100x100bb.jpg")
         == "https://is1-ssl.mzstatic.com/image/thumb/a/b/600x600bb.jpg"
     )
+
+
+def test_should_cache_rejects_fetch_failed():
+    # A transient network error must not become a permanent cache entry --
+    # that would block every future retry for the album.
+    assert not rc.should_cache("fetch_failed")
+
+
+def test_should_cache_accepts_answers_about_the_album():
+    assert rc.should_cache("ok")
+    assert rc.should_cache("no_result")
+    assert rc.should_cache("mismatch")
