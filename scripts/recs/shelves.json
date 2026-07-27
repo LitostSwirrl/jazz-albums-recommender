@@ -2,19 +2,84 @@
  {
   "id": "blue-note-sound",
   "title": "The Blue Note Sound",
-  "blurb": "Hard bop's house style — the label that turned a rhythm section loose and taught a generation how to swing.",
+  "blurb": "The house sound of hard bop: Rudy Van Gelder's room, a blues underneath everything, and horn lines you can sing back. Steal the comping and the swagger.",
   "type": "label",
   "matcher": {
-   "labels": ["Blue Note"]
+   "labels": ["Blue Note", "Blue Note Classic"]
+  }
+ },
+ {
+  "id": "ecm-world",
+  "title": "The ECM World",
+  "blurb": "Manfred Eicher's other direction, all space and reverb and northern chill. Records that teach you what silence does to a phrase.",
+  "type": "label",
+  "matcher": {
+   "labels": ["ECM Records", "ECM New Series", "ECM"]
   }
  },
  {
   "id": "spiritual-jazz",
   "title": "Spiritual Jazz",
-  "blurb": "Modal, searching, post-Coltrane — players reaching past the changes for something transcendent.",
+  "blurb": "Post-Coltrane searching music, modal vamps and incantation stacked over the changes. Learn the drone-and-build before you learn the licks.",
   "type": "scene",
   "matcher": {
    "tags": ["spiritual jazz", "astral jazz"]
+  }
+ },
+ {
+  "id": "strata-east-independents",
+  "title": "Strata-East & the Independents",
+  "blurb": "When the players owned the masters. The 1970s artist-run labels where the music got freer, the budgets got smaller, and the grooves got deeper for it.",
+  "type": "label",
+  "matcher": {
+   "labels": ["Strata-East", "Black Jazz Records", "India Navigation", "Tribe"]
+  }
+ },
+ {
+  "id": "j-jazz",
+  "title": "J-Jazz",
+  "blurb": "Japan took hard bop and modal jazz and cut them sharper than anyone. Three Blind Mice pressings and a rhythm section that never rushes.",
+  "type": "scene",
+  "matcher": {
+   "tags": ["japanese jazz", "japanese"],
+   "labels": ["Three Blind Mice"]
+  }
+ },
+ {
+  "id": "guitar-after-wes",
+  "title": "Guitar After Wes",
+  "blurb": "The line out of Wes Montgomery's octaves: Grant Green's economy, Jim Hall's restraint, the moderns bending the whole harmony. Copy the phrasing before the notes.",
+  "type": "lineage",
+  "matcher": {
+   "players": ["Wes Montgomery", "Grant Green", "Kenny Burrell", "Jim Hall", "George Benson", "Pat Metheny", "Pat Martino", "John Scofield", "Bill Frisell", "John Abercrombie", "Kurt Rosenwinkel", "Julian Lage", "Pasquale Grasso", "Mary Halvorson"],
+   "tags": ["jazz guitar"]
+  }
+ },
+ {
+  "id": "organ-grease",
+  "title": "Organ Grease",
+  "blurb": "The Hammond B-3 and the backbeat, church and the dancefloor in the same bar. Steal the chord stabs and the discipline of a riff repeated until it hypnotizes.",
+  "type": "scene",
+  "matcher": {
+   "tags": ["soul jazz", "soul-jazz", "jazz organ", "hammond organ", "organ"]
+  }
+ },
+ {
+  "id": "drummers-table",
+  "title": "The Drummer's Table",
+  "blurb": "Records led from behind the kit, where the groove is the composition. Listen for where the drummer leaves the hole and how the band fills it.",
+  "type": "players",
+  "matcher": {
+   "players": ["Art Blakey", "Max Roach", "Elvin Jones", "Tony Williams", "Roy Haynes", "Philly Joe Jones", "Jack DeJohnette", "Billy Higgins", "Ed Blackwell", "Paul Motian", "Jimmy Cobb", "Chico Hamilton", "Idris Muhammad", "Brian Blade", "Andrew Cyrille", "Milford Graves"]
+  }
+ },
+ {
+  "id": "after-midnight",
+  "title": "After Midnight, Continued",
+  "blurb": "Ballad tone and late-night restraint, the sound of a held note with nowhere to hide. Steal the vibrato and the note placement, not the licks.",
+  "type": "mood",
+  "matcher": {
+   "tags": ["vocal jazz", "ballad", "ballads", "jazz after midnight"]
   }
  }
 ]
