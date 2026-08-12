@@ -1,5 +1,5 @@
 import { lazy, Suspense, useEffect } from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Layout } from './components/layout';
 import { LoadingSkeleton } from './components/LoadingSkeleton';
 import { ErrorBoundary } from './components/ErrorBoundary';
@@ -19,7 +19,6 @@ const Album = lazy(() => import('./pages/Album').then(m => ({ default: m.Album }
 const Timeline = lazy(() => import('./pages/Timeline').then(m => ({ default: m.Timeline })));
 const InfluenceGraph = lazy(() => import('./pages/InfluenceGraph').then(m => ({ default: m.InfluenceGraph })));
 const ParallelTimeline = lazy(() => import('./pages/ParallelTimeline').then(m => ({ default: m.ParallelTimeline })));
-const Discover = lazy(() => import('./pages/Discover').then(m => ({ default: m.Discover })));
 const Paths = lazy(() => import('./pages/Paths').then(m => ({ default: m.Paths })));
 const Path = lazy(() => import('./pages/Path').then(m => ({ default: m.Path })));
 
@@ -43,7 +42,7 @@ function App() {
               <Route path="/artist/:id" element={<Artist />} />
               <Route path="/albums" element={<Albums />} />
               <Route path="/album/:id" element={<Album />} />
-              <Route path="/discover" element={<Discover />} />
+              <Route path="/discover" element={<Navigate to="/" replace />} />
               <Route path="/paths" element={<Paths />} />
               <Route path="/path/:id" element={<Path />} />
               <Route path="/timeline" element={<Timeline />} />

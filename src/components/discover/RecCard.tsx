@@ -8,7 +8,6 @@ interface RecCardProps {
   coverUrl?: string;
   size?: 'md' | 'lg';
   showReasons?: boolean;
-  priority?: boolean;
 }
 
 // md is the fixed carousel width the shelves scroll horizontally. lg sits in the
@@ -17,7 +16,7 @@ interface RecCardProps {
 const widths = { md: 'w-44', lg: 'w-full max-w-56 mx-auto' };
 const pixels = { md: 352, lg: 448 };
 
-export function RecCard({ album, coverUrl, size = 'md', showReasons = false, priority = false }: RecCardProps) {
+export function RecCard({ album, coverUrl, size = 'md', showReasons = false }: RecCardProps) {
   const cover = coverUrl ?? album.coverUrl ?? undefined;
   const reasons = showReasons ? album.reasons.slice(0, 2) : [];
 
@@ -30,7 +29,6 @@ export function RecCard({ album, coverUrl, size = 'md', showReasons = false, pri
             title={album.title}
             size={size === 'lg' ? 'md' : 'sm'}
             pixelWidth={pixels[size]}
-            priority={priority}
           />
         </div>
       </div>

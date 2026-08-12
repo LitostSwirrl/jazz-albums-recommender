@@ -85,10 +85,7 @@ All 4 phases complete: foundation, core content (1000 albums, 315 artists), visu
 - **Today's Pick**: 8 albums that rotate daily by date (seeded — no location, no weather, no permission prompt)
 - **Paths**: opinionated curated listening routes — the site's editorial "agenda" (a guide for players), including a jazz-guitar lineage. Lives at /paths and /path/:id
 - **Random Album Picker**: "Vinyl Reveal" spin animation with era filter chips
-- **Era Carousels**: One scrollable row per era (8 rows)
-- **Genre Collections**: 6 curated groupings (Deep Grooves, For the Bold, Cool & Calm, etc.)
-- **Artist Spotlight**: Daily featured artist with discography carousel
-- **Quick Links Grid**: Navigation to all major sections
+- **Discover Section**: the former /discover page merged into Home (2026-08-12) — "Tonight" grid of 8 recommendation picks with reasons, plus 9 themed shelves from recommendations.json. Lazy code-split chunk (DiscoverSection.tsx) so the ~300KB rec JSON stays out of the initial bundle. /discover redirects to /. Era carousels, genre collections, artist spotlight, and quick-links grid were dropped in the same merge
 
 ## Content Stats
 - **Albums**: 1000 curated albums across all eras

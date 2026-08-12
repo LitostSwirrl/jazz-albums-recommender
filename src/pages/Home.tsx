@@ -1,41 +1,27 @@
-import { useMemo } from 'react';
+import { lazy, Suspense, useMemo } from 'react';
 import erasData from '../data/eras.json';
 import albumsData from '../data/albums.json';
-import artistsData from '../data/artists.json';
 import { SEO } from '../components/SEO';
+import { ErrorBoundary } from '../components/ErrorBoundary';
 import { HeroFeature } from '../components/home/HeroFeature';
 import { TodaysPick } from '../components/home/TodaysPick';
 import { RandomAlbumPicker } from '../components/home/RandomAlbumPicker';
-import { CarouselSection } from '../components/home/CarouselSection';
-import { AlbumCarousel } from '../components/home/AlbumCarousel';
 import { LazySection } from '../components/home/LazySection';
-import { GenreRows } from '../components/home/GenreRow';
-import { ArtistSpotlight } from '../components/home/ArtistSpotlight';
-import { QuickLinksGrid } from '../components/home/QuickLinksGrid';
-import { seededShuffle, seededPick, DAY_SEED } from '../utils/random';
+import { seededPick, DAY_SEED } from '../utils/random';
 import { getDailyPicks } from '../utils/discovery';
 import { usePreloadImages } from '../hooks/usePreloadImages';
-import type { Era, Album, Artist } from '../types';
+import type { Era, Album } from '../types';
 
 const eras = erasData as Era[];
 const albums = albumsData as Album[];
-const artists = artistsData as Artist[];
+
+// Own chunk: DiscoverSection is the sole importer of the ~300KB
+// recommendations JSON, which must stay out of the initial bundle.
+const DiscoverSection = lazy(() =>
+  import('../components/home/DiscoverSection').then((m) => ({ default: m.DiscoverSection }))
+);
 
 export function Home() {
-  const eraCarousels = useMemo(() => {
-    return eras.map((era, idx) => {
-      const eraAlbums = albums.filter((a) => a.era === era.id && a.coverUrl);
-      const shuffled = seededShuffle(eraAlbums, DAY_SEED + idx + 100);
-      const seen = new Set<string>();
-      const unique = shuffled.filter((a) => {
-        if (seen.has(a.title)) return false;
-        seen.add(a.title);
-        return true;
-      });
-      return { era, albums: unique.slice(0, 20) };
-    }).filter((c) => c.albums.length > 0);
-  }, []);
-
   // Compute above-the-fold cover URLs for preloading
   const preloadUrls = useMemo(() => {
     const urls: (string | undefined)[] = [];
@@ -82,33 +68,15 @@ export function Home() {
           <RandomAlbumPicker albums={albums} eras={eras} />
         </LazySection>
 
-        {eraCarousels.map(({ era, albums: eraAlbums }, idx) => (
-          <LazySection key={era.id}>
-            <CarouselSection
-              title={era.name}
-              linkTo={`/era/${era.id}`}
-            >
-              <AlbumCarousel
-                albums={eraAlbums}
-                cardSize="sm"
-                showYear
-                eagerCount={idx === 0 ? 5 : 0}
-                trackSource="home_carousel"
-              />
-            </CarouselSection>
-          </LazySection>
-        ))}
-
         <LazySection>
-          <GenreRows albums={albums} />
-        </LazySection>
-
-        <LazySection>
-          <ArtistSpotlight artists={artists} albums={albums} />
-        </LazySection>
-
-        <LazySection>
-          <QuickLinksGrid />
+          {/* A failed chunk load (stale index.html after a deploy) rejects the
+              lazy import; without this boundary the root one would blank the
+              whole landing page. fallback must be truthy — null falls through. */}
+          <ErrorBoundary fallback={<div />}>
+            <Suspense fallback={<div className="h-48" />}>
+              <DiscoverSection />
+            </Suspense>
+          </ErrorBoundary>
         </LazySection>
       </div>
     </div>

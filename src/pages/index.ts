@@ -5,7 +5,6 @@ export { Artists } from './Artists';
 export { Artist } from './Artist';
 export { Albums } from './Albums';
 export { Album } from './Album';
-export { Discover } from './Discover';
 export { Paths } from './Paths';
 export { Path } from './Path';
 export { NotFound } from './NotFound';
