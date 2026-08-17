@@ -12,8 +12,8 @@ from pathlib import Path
 import cairosvg
 
 ROOT = Path(__file__).resolve().parent.parent
-SRC = ROOT / "public" / "favicon.svg"
-OUT = ROOT / "public"
+SRC = ROOT / "src" / "sites" / "jazz" / "public" / "favicon.svg"
+OUT = ROOT / "src" / "sites" / "jazz" / "public"
 
 TARGETS = [
     ("icon-192.png", 192),

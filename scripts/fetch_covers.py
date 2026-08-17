@@ -42,7 +42,7 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
 ALBUMS_PATH = ROOT / "src" / "data" / "albums.json"
-COVERS_DIR = ROOT / "public" / "covers"
+COVERS_DIR = ROOT / "src" / "sites" / "jazz" / "public" / "covers"
 MANIFEST_PATH = ROOT / "src" / "data" / "coverManifest.json"
 FAILURES_PATH = ROOT / "scripts" / "fetch_covers_failures.json"
 

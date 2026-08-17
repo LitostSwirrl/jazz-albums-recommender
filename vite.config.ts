@@ -1,3 +1,4 @@
+import { copyFileSync, mkdirSync, readdirSync } from 'node:fs'
 import path from 'node:path'
 import { defineConfig, type Plugin } from 'vite'
 import react from '@vitejs/plugin-react'
@@ -29,10 +30,22 @@ function siteHtml(config: SiteConfig): Plugin {
   }
 }
 
+function sharedPublic(): Plugin {
+  return {
+    name: 'shared-public',
+    closeBundle() {
+      mkdirSync('dist', { recursive: true })
+      for (const f of readdirSync('public-shared'))
+        copyFileSync(`public-shared/${f}`, `dist/${f}`)
+    },
+  }
+}
+
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss(), siteHtml(activeConfig)],
+  plugins: [react(), tailwindcss(), siteHtml(activeConfig), sharedPublic()],
   base: '/',
+  publicDir: `src/sites/${site}/public`,
   resolve: {
     alias: { '@site': path.resolve(__dirname, `src/sites/${site}`) },
   },
