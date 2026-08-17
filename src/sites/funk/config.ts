@@ -4,7 +4,7 @@ export const siteConfig: SiteConfig = {
   id: 'funk',
   name: 'Fatback',
   tagline: 'An Instrumental Funk & Soul Guide',
-  url: 'https://fatback.web.app',
+  url: 'https://fatback-funk.web.app',
   seoDescription:
     'A curated guide to instrumental funk and soul — from soul-jazz roots to the new pocket. Built for the groove, safe for the party.',
   fallbackColors: [
