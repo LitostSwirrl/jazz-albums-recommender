@@ -13,6 +13,7 @@ import type { Node } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
 import artistsData from '@site/data/artists.json';
 import erasData from '@site/data/eras.json';
+import { siteConfig } from '@site/config';
 import { SEO } from '../components/SEO';
 import type { Artist, Era } from '../types';
 import { getVerificationStats } from '../utils/connections';
@@ -216,7 +217,7 @@ function InfluenceGraphInner() {
     <div className="max-w-7xl mx-auto px-4 py-8 page-enter">
       <SEO
         title="Connection Finder"
-        description="Trace influence paths between jazz musicians. Discover how artists shaped each other across generations."
+        description={siteConfig.copy.influenceDescription}
       />
 
       {/* Header */}
@@ -286,8 +287,8 @@ function InfluenceGraphInner() {
         {fromArtist && toArtist && !currentPath && (
           <div className="mt-4 p-4 bg-surface border border-border rounded-lg">
             <p className="text-warm-gray text-sm">
-              No documented influence path between <span className="text-charcoal font-medium">{fromArtist.name}</span> and <span className="text-charcoal font-medium">{toArtist.name}</span>.
-              They may be from unrelated jazz traditions.
+              No documented influence path between <span className="text-charcoal font-medium">{fromArtist.name}</span> and <span className="text-charcoal font-medium">{toArtist.name}</span>.{' '}
+              {siteConfig.copy.noPathNote}
             </p>
           </div>
         )}

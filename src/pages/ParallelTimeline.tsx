@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import erasData from '@site/data/eras.json';
 import artistsData from '@site/data/artists.json';
+import { siteConfig } from '@site/config';
 import { SEO } from '../components/SEO';
 import { AlbumCover } from '../components/AlbumCover';
 import { CategoryBadge, CategoryFilter } from '../components/context';
@@ -65,14 +66,14 @@ export function ParallelTimeline() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-12 page-enter">
       <SEO
-        title="Jazz & Society"
-        description="Explore the interweaving of jazz music with civil rights, politics, economics, technology, and globalization. A parallel timeline of music and history."
+        title={siteConfig.copy.contextPageTitle}
+        description={siteConfig.copy.contextDescription}
       />
 
       {/* Header */}
       <header className="text-center mb-12">
         <h1 className="text-4xl font-bold mb-3 font-display text-charcoal">
-          Jazz & Society
+          {siteConfig.copy.contextPageTitle}
         </h1>
         <p className="text-sm text-warm-gray">
           {allEvents.length} events &middot; {totalAlbums} albums in context

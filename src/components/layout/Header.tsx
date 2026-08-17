@@ -82,7 +82,7 @@ export function Header() {
                     className="block px-4 py-3 text-charcoal hover:text-coral hover:bg-border/30 transition-colors rounded-t-lg focus:outline-none focus:bg-border/30"
                   >
                     <div className="font-medium text-sm">Timeline</div>
-                    <div className="text-xs text-warm-gray mt-0.5">Jazz through the ages</div>
+                    <div className="text-xs text-warm-gray mt-0.5">{siteConfig.copy.timelineNavSubtitle}</div>
                   </Link>
                   <Link
                     to="/influence"
@@ -97,7 +97,7 @@ export function Header() {
                     role="menuitem"
                     className="block px-4 py-3 text-charcoal hover:text-coral hover:bg-border/30 transition-colors rounded-b-lg focus:outline-none focus:bg-border/30"
                   >
-                    <div className="font-medium text-sm">Jazz & Society</div>
+                    <div className="font-medium text-sm">{siteConfig.copy.contextPageTitle}</div>
                     <div className="text-xs text-warm-gray mt-0.5">History & context</div>
                   </Link>
                 </div>
@@ -157,7 +157,7 @@ export function Header() {
                 {[
                   { to: '/timeline', label: 'Timeline' },
                   { to: '/influence', label: 'Connection Finder' },
-                  { to: '/context', label: 'Jazz & Society' },
+                  { to: '/context', label: siteConfig.copy.contextPageTitle },
                 ].map((link) => (
                   <Link
                     key={link.to}

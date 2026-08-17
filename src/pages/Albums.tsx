@@ -2,6 +2,7 @@ import { useState, useMemo, useEffect, useCallback, useRef } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import albumsData from '@site/data/albums.json';
 import erasData from '@site/data/eras.json';
+import { siteConfig } from '@site/config';
 import { AlbumCover } from '../components/AlbumCover';
 import { SEO } from '../components/SEO';
 import { Pagination } from '../components/Pagination';
@@ -203,8 +204,8 @@ export function Albums() {
   return (
     <div ref={topRef} className="max-w-6xl mx-auto px-4 py-12 page-enter">
       <SEO
-        title="Essential Jazz Albums"
-        description={`${albums.length} jazz albums across 8 eras.`}
+        title={siteConfig.copy.albumsPageTitle}
+        description={`${albums.length} ${siteConfig.copy.albumsDescriptionSuffix}`}
       />
 
       <div className="mb-8">

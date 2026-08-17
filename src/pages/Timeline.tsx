@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import erasData from '@site/data/eras.json';
 import albumsData from '@site/data/albums.json';
 import artistsData from '@site/data/artists.json';
+import { siteConfig } from '@site/config';
 import { SEO } from '../components/SEO';
 import { AlbumCover } from '../components/AlbumCover';
 import { track } from '../utils/analytics';
@@ -44,11 +45,11 @@ export function Timeline() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-12 page-enter">
       <SEO
-        title="Jazz Timeline"
-        description="Explore a century of jazz evolution from New Orleans to the present day. Discover how each era built on what came before while pushing music into new territory."
+        title={siteConfig.copy.timelinePageTitle}
+        description={siteConfig.copy.timelineDescription}
       />
       <div className="mb-12 text-center">
-        <h1 className="text-4xl font-bold mb-4 font-display text-charcoal">Jazz Through Time</h1>
+        <h1 className="text-4xl font-bold mb-4 font-display text-charcoal">{siteConfig.copy.timelineHeading}</h1>
       </div>
 
       {/* Visual Timeline */}
@@ -188,30 +189,14 @@ export function Timeline() {
       <div className="mt-16 p-8 rounded-xl bg-surface border border-border shadow-card">
         <h2 className="text-2xl font-bold mb-6 text-center font-heading text-charcoal">How Eras Connect</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-          <div className="p-4 rounded-lg bg-surface border border-border">
-            <div className="text-coral font-semibold mb-2">Early Jazz &rarr; Swing</div>
-            <p className="text-sm text-warm-gray">
-              New Orleans pioneers created the vocabulary; big bands scaled it up for dance halls.
-            </p>
-          </div>
-          <div className="p-4 rounded-lg bg-surface border border-border">
-            <div className="text-teal font-semibold mb-2">Swing &rarr; Bebop</div>
-            <p className="text-sm text-warm-gray">
-              Young rebels turned dance music into art music, emphasizing virtuosity and complexity.
-            </p>
-          </div>
-          <div className="p-4 rounded-lg bg-surface border border-border">
-            <div className="text-teal font-semibold mb-2">Bebop &rarr; Cool/Hard Bop</div>
-            <p className="text-sm text-warm-gray">
-              Two paths diverged: West Coast cool sophistication vs. East Coast blues-drenched intensity.
-            </p>
-          </div>
-          <div className="p-4 rounded-lg bg-surface border border-border">
-            <div className="text-coral font-semibold mb-2">Hard Bop &rarr; Free Jazz</div>
-            <p className="text-sm text-warm-gray">
-              The ultimate rebellion: abandoning chord changes entirely for pure expression.
-            </p>
-          </div>
+          {siteConfig.copy.eraTransitions.map((transition) => (
+            <div key={transition.label} className="p-4 rounded-lg bg-surface border border-border">
+              <div className={`${transition.accent === 'coral' ? 'text-coral' : 'text-teal'} font-semibold mb-2`}>
+                {transition.label}
+              </div>
+              <p className="text-sm text-warm-gray">{transition.note}</p>
+            </div>
+          ))}
         </div>
       </div>
 
@@ -221,7 +206,7 @@ export function Timeline() {
           to="/context"
           className="px-6 py-3 rounded-xl bg-coral text-white font-semibold hover:bg-coral/90 transition-colors"
         >
-          Jazz & Society &rarr;
+          {siteConfig.copy.contextPageTitle} &rarr;
         </Link>
         <Link
           to="/influence"

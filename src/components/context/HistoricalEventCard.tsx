@@ -4,6 +4,7 @@ import { getCategoryConfig, formatEventYear } from '../../utils/historicalContex
 import { CategoryBadge } from './CategoryBadge';
 import albumsData from '@site/data/albums.json';
 import artistsData from '@site/data/artists.json';
+import { siteConfig } from '@site/config';
 
 const albums = albumsData as Album[];
 const artists = artistsData as Artist[];
@@ -54,7 +55,7 @@ export function HistoricalEventCard({ event, compact = false }: HistoricalEventC
 
       <div className="p-3 rounded-md bg-border mb-3">
         <p className="text-sm font-medium text-charcoal mb-1" style={{ color: config.color }}>
-          Jazz Connection
+          {siteConfig.copy.eventConnectionLabel}
         </p>
         <p className="text-charcoal text-sm leading-relaxed">{event.jazzConnection}</p>
       </div>

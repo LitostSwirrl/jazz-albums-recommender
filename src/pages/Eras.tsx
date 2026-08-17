@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import erasData from '@site/data/eras.json';
+import { siteConfig } from '@site/config';
 import { SEO } from '../components/SEO';
 import { track } from '../utils/analytics';
 import type { Era } from '../types';
@@ -10,10 +11,10 @@ export function Eras() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-12 page-enter">
       <SEO
-        title="Jazz Eras"
-        description="8 jazz eras from the 1900s to present."
+        title={siteConfig.copy.erasPageTitle}
+        description={siteConfig.copy.erasDescription}
       />
-      <h1 className="text-4xl font-bold mb-8 font-display text-charcoal">Jazz Eras</h1>
+      <h1 className="text-4xl font-bold mb-8 font-display text-charcoal">{siteConfig.copy.erasPageTitle}</h1>
 
       {/* Timeline */}
       <div className="relative">

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import pathsData from '@site/data/paths.json';
+import { siteConfig } from '@site/config';
 import { SEO } from '../components/SEO';
 import { track } from '../utils/analytics';
 import type { PathsData } from '../types';
@@ -11,7 +12,7 @@ export function Paths() {
     <div className="max-w-6xl mx-auto px-4 py-12 page-enter">
       <SEO
         title="Paths"
-        description="Opinionated listening routes through jazz, built for players: a guitar lineage, the records that broke the language, late-night tone, groove, the avant-garde leap, and where to start tonight."
+        description={siteConfig.copy.pathsDescription}
       />
 
       <header className="mb-12 max-w-3xl">

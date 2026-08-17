@@ -3,6 +3,7 @@ import type { Album, Artist } from '../../types';
 import { AlbumCover } from '../AlbumCover';
 import { getRelatedAlbums } from '../../utils/discovery';
 import { track } from '../../utils/analytics';
+import { siteConfig } from '@site/config';
 
 interface RelatedAlbumsProps {
   currentAlbum: Album;
@@ -39,7 +40,7 @@ export function RelatedAlbums({ currentAlbum, allAlbums, allArtists }: RelatedAl
 
   // Genre and label sections (up to 8)
   if (related.genre.length > 0) {
-    sections.push({ title: `More ${currentAlbum.genres[0] || 'Jazz'}`, albums: related.genre, limit: 8 });
+    sections.push({ title: `More ${currentAlbum.genres[0] || siteConfig.copy.defaultGenreLabel}`, albums: related.genre, limit: 8 });
   }
   if (related.label.length > 0) {
     sections.push({ title: `More from ${currentAlbum.label}`, albums: related.label, limit: 8 });

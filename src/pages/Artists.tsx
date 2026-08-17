@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import artistsData from '@site/data/artists.json';
 import erasData from '@site/data/eras.json';
+import { siteConfig } from '@site/config';
 import type { Artist, Era } from '../types';
 import { ArtistPhoto } from '../components/ArtistPhoto';
 import { SEO } from '../components/SEO';
@@ -86,10 +87,10 @@ export function Artists() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-12 page-enter">
       <SEO
-        title="Jazz Artists"
-        description={`${artists.length} jazz artists across all eras.`}
+        title={siteConfig.copy.artistsPageTitle}
+        description={`${artists.length} ${siteConfig.copy.artistsDescriptionSuffix}`}
       />
-      <h1 className="text-4xl mb-2 font-display text-charcoal">Jazz Artists</h1>
+      <h1 className="text-4xl mb-2 font-display text-charcoal">{siteConfig.copy.artistsPageTitle}</h1>
       {hasActiveFilters && (
         <p className="text-warm-gray mb-6">
           {filteredArtists.length} artists matching your filters
