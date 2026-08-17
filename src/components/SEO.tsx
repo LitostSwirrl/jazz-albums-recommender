@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async';
+import { siteConfig } from '@site/config';
 
 interface SEOProps {
   title: string;
@@ -8,8 +9,8 @@ interface SEOProps {
 }
 
 export function SEO({ title, description, image, type = 'website' }: SEOProps) {
-  const fullTitle = `${title} | Smack Cats`;
-  const siteUrl = 'https://smack-cats-jazz.web.app';
+  const fullTitle = `${title} | ${siteConfig.name}`;
+  const siteUrl = siteConfig.url;
 
   return (
     <Helmet>

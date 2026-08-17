@@ -1,6 +1,7 @@
 import { lazy, Suspense, useMemo } from 'react';
 import erasData from '@site/data/eras.json';
 import albumsData from '@site/data/albums.json';
+import { siteConfig } from '@site/config';
 import { SEO } from '../components/SEO';
 import { ErrorBoundary } from '../components/ErrorBoundary';
 import { HeroFeature } from '../components/home/HeroFeature';
@@ -53,8 +54,8 @@ export function Home() {
   return (
     <div className="page-enter">
       <SEO
-        title="Your Jazz Library"
-        description="1000 jazz albums, 275 artists, 8 eras."
+        title={siteConfig.copy.homeTitle}
+        description={siteConfig.copy.homeDescription}
       />
 
       <div className="max-w-7xl mx-auto px-4">
