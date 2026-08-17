@@ -1,0 +1,108 @@
+[
+  {
+    "id": "booker-t-and-the-mgs",
+    "name": "Booker T. & the M.G.'s",
+    "birthYear": 1962,
+    "deathYear": 2012,
+    "instruments": ["band"],
+    "eras": ["soul-jazz-roots"],
+    "influences": [],
+    "influencedBy": [],
+    "keyAlbums": ["green-onions"]
+  },
+  {
+    "id": "jimmy-smith",
+    "name": "Jimmy Smith",
+    "birthYear": 1928,
+    "deathYear": 2005,
+    "instruments": ["organ"],
+    "eras": ["soul-jazz-roots"],
+    "influences": [],
+    "influencedBy": [],
+    "keyAlbums": ["back-at-the-chicken-shack"]
+  },
+  {
+    "id": "the-meters",
+    "name": "The Meters",
+    "birthYear": 1965,
+    "instruments": ["band"],
+    "eras": ["classic-funk"],
+    "influences": [],
+    "influencedBy": [],
+    "keyAlbums": ["the-meters"]
+  },
+  {
+    "id": "james-brown",
+    "name": "James Brown",
+    "birthYear": 1933,
+    "deathYear": 2006,
+    "instruments": ["vocals", "organ", "piano"],
+    "eras": ["classic-funk"],
+    "influences": [],
+    "influencedBy": [],
+    "keyAlbums": ["sex-machine"]
+  },
+  {
+    "id": "sly-and-the-family-stone",
+    "name": "Sly and the Family Stone",
+    "birthYear": 1966,
+    "deathYear": 1983,
+    "instruments": ["band"],
+    "eras": ["classic-funk"],
+    "influences": [],
+    "influencedBy": [],
+    "keyAlbums": ["theres-a-riot-goin-on"]
+  },
+  {
+    "id": "the-jbs",
+    "name": "The J.B.'s",
+    "birthYear": 1970,
+    "deathYear": 2006,
+    "instruments": ["band"],
+    "eras": ["classic-funk"],
+    "influences": [],
+    "influencedBy": [],
+    "keyAlbums": ["doing-it-to-death"]
+  },
+  {
+    "id": "herbie-hancock",
+    "name": "Herbie Hancock",
+    "birthYear": 1940,
+    "instruments": ["keyboards", "synthesizer"],
+    "eras": ["jazz-funk"],
+    "influences": [],
+    "influencedBy": [],
+    "keyAlbums": ["head-hunters"]
+  },
+  {
+    "id": "parliament",
+    "name": "Parliament",
+    "birthYear": 1968,
+    "deathYear": 2018,
+    "instruments": ["band"],
+    "eras": ["pfunk-boogie"],
+    "influences": [],
+    "influencedBy": [],
+    "keyAlbums": ["mothership-connection"]
+  },
+  {
+    "id": "el-michels-affair",
+    "name": "El Michels Affair",
+    "birthYear": 2000,
+    "instruments": ["band"],
+    "eras": ["rare-groove-revival"],
+    "influences": [],
+    "influencedBy": [],
+    "keyAlbums": ["sounding-out-the-city"]
+  },
+  {
+    "id": "vulfpeck",
+    "name": "Vulfpeck",
+    "birthYear": 2011,
+    "instruments": ["band"],
+    "eras": ["new-pocket"],
+    "influences": [],
+    "influencedBy": [],
+    "keyAlbums": ["thrill-of-the-arts"]
+  }
+]

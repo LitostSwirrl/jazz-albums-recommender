@@ -4,11 +4,12 @@ import { defineConfig, type Plugin } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { siteConfig as jazzConfig } from './src/sites/jazz/config'
+import { siteConfig as funkConfig } from './src/sites/funk/config'
 import type { SiteConfig } from './src/types/site'
 
 const site = process.env.VITE_SITE ?? 'jazz'
 
-const configs: Record<string, SiteConfig> = { jazz: jazzConfig }
+const configs: Record<string, SiteConfig> = { jazz: jazzConfig, funk: funkConfig }
 const activeConfig = configs[site]
 if (!activeConfig) throw new Error(`unknown VITE_SITE: ${site}`)
 
@@ -26,7 +27,7 @@ function siteHtml(config: SiteConfig): Plugin {
   return {
     name: 'site-html',
     transformIndexHtml: html =>
-      Object.entries(tokens).reduce((h, [k, v]) => h.replaceAll(k, v), html),
+      Object.entries(tokens).reduce((h, [k, v]) => h.replaceAll(k, () => v), html),
   }
 }
 

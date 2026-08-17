@@ -1,0 +1,98 @@
+[
+  {
+    "id": "soul-jazz-roots",
+    "name": "Soul-Jazz Roots",
+    "period": "Late 1950s - Mid 1960s",
+    "years": [1956, 1966],
+    "description": "Soul jazz blended hard bop with blues, gospel and rhythm and blues, most often in small combos and organ trios built around the Hammond organ. Jimmy Smith did more than anyone to establish the Hammond B-3 as a jazz and soul instrument, and Blue Note was the style's central label. In Memphis over the same years, the Stax house band was cutting all-instrumental soul singles that worked the same earthy, blues-based feel.",
+    "characteristics": [
+      "Hammond organ trios",
+      "Blues and gospel phrasing",
+      "Repetitive dance rhythms",
+      "Tenor sax and guitar front lines",
+      "Instrumental soul singles"
+    ],
+    "keyArtists": ["jimmy-smith", "booker-t-and-the-mgs"],
+    "color": "#5c3a21"
+  },
+  {
+    "id": "classic-funk",
+    "name": "Classic Funk",
+    "period": "1965 - 1974",
+    "years": [1965, 1974],
+    "description": "James Brown's run of records from \"Papa's Got a Brand New Bag\" (1965) through \"Cold Sweat\" (1967) and \"Sex Machine\" (1970) is what pulled funk out of soul and made it its own form: a static one- or two-chord vamp, heavy emphasis on the first beat, syncopated basslines and guitar riffs, melody pushed to the back. New Orleans arrived at its own version through the Meters. The 1970s were the decade of funk's highest mainstream visibility.",
+    "characteristics": [
+      "One- and two-chord vamps",
+      "Emphasis on the first beat",
+      "Syncopated bass and guitar riffs",
+      "Tight horn sections",
+      "Drums and bass locked as one part"
+    ],
+    "keyArtists": ["james-brown", "the-meters", "the-jbs", "sly-and-the-family-stone"],
+    "color": "#7a4a24"
+  },
+  {
+    "id": "jazz-funk",
+    "name": "Jazz-Funk",
+    "period": "Late 1960s - 1970s",
+    "years": [1969, 1979],
+    "description": "Jazz musicians took up the funk backbeat along with electric keyboards, bass guitar and analog synthesizers, keeping improvisation in the arrangement. Miles Davis's On the Corner and Jimmy Smith's Root Down, both 1972, are cited as early landmarks; Herbie Hancock played ARP Odyssey and clavinet on Head Hunters in 1973. The range ran from open jazz improvisation to soul, funk and disco played with jazz arrangements.",
+    "characteristics": [
+      "Strong back beat",
+      "Fender Rhodes and clavinet",
+      "Analog synthesizers",
+      "Extended improvisation over vamps",
+      "Electric bass in the lead role"
+    ],
+    "keyArtists": ["herbie-hancock"],
+    "color": "#985a26"
+  },
+  {
+    "id": "pfunk-boogie",
+    "name": "P-Funk & Boogie",
+    "period": "1975 - 1984",
+    "years": [1975, 1984],
+    "description": "George Clinton's Parliament produced a funk heavily coloured by jazz and psychedelic rock, and Mothership Connection (1975) became the band's first gold and later platinum record. Bernie Worrell's keyboards and Bootsy Collins's bass defined the sound, with Maceo Parker and Fred Wesley bringing the James Brown horn language across. From the late 1970s into the mid 1980s, boogie carried the same lineage into electronic dance music, built on mid-tempo grooves, slap bass, synthesizers and an accent on the second and fourth beats.",
+    "characteristics": [
+      "Synthesizer bass and keyboard leads",
+      "Concept records and stage mythology",
+      "Massed vocal chants",
+      "Slap bass",
+      "Drum machines and electronics"
+    ],
+    "keyArtists": ["parliament"],
+    "color": "#b56d28"
+  },
+  {
+    "id": "rare-groove-revival",
+    "name": "Rare Groove Revival",
+    "period": "1985 - 2009",
+    "years": [1985, 2009],
+    "description": "\"Rare groove\" was coined by the British DJ Norman Jay, whose Original Rare Groove Show on pirate station Kiss FM in the 1980s traded in obscure American funk, R&B and jazz-funk records. The same records fed hip-hop production through sampling. In Brooklyn the revival turned into new recordings: Daptone Records, founded in 2001 by Gabriel Roth and Neal Sugarman, kept computers out of the studio in favour of analog tape, and Truth & Soul followed in 2004.",
+    "characteristics": [
+      "Crate-digging and reissue culture",
+      "Analog tape, no digital editing",
+      "45 rpm singles as the primary format",
+      "Instrumental soul house bands",
+      "Breaks reused by hip-hop producers"
+    ],
+    "keyArtists": ["el-michels-affair"],
+    "color": "#c98634"
+  },
+  {
+    "id": "new-pocket",
+    "name": "The New Pocket",
+    "period": "2010 - present",
+    "years": [2010, 2026],
+    "description": "Funk-soul bands formed in the 2010s built their audiences online and released through their own labels rather than through the industry. Vulfpeck, formed in Ann Arbor in 2011, put out four EPs before its debut album and has issued everything on its own Vulf Records. The playing is deliberately spare, with the rhythm section treated as the whole point of the record.",
+    "characteristics": [
+      "Self-released and independent",
+      "Audience built online",
+      "Minimal, exposed arrangements",
+      "Bass and drums as the lead voice",
+      "Live-in-the-room recording"
+    ],
+    "keyArtists": ["vulfpeck"],
+    "color": "#d9a04a"
+  }
+]

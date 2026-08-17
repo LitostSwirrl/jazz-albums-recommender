@@ -1,0 +1,112 @@
+[
+  {
+    "id": "green-onions",
+    "title": "Green Onions",
+    "artist": "Booker T. & the M.G.'s",
+    "artistId": "booker-t-and-the-mgs",
+    "year": 1962,
+    "label": "Stax",
+    "era": "soul-jazz-roots",
+    "genres": ["instrumental soul", "memphis soul", "r&b"],
+    "albumDNA": "Green Onions (October 1962) was Booker T. & the M.G.'s debut and the first album Stax ever released, played by Booker T. Jones on Hammond M3 organ, Steve Cropper on guitar, Lewie Steinberg on bass and Al Jackson Jr. on drums. The all-instrumental set became Stax's first charting album at number 33 on the Billboard 200, and the title track, a twelve-bar blues Jones wrote at 17, reached number 3 pop and number 1 R&B. The Library of Congress added the album to the National Recording Registry in 2012."
+  },
+  {
+    "id": "back-at-the-chicken-shack",
+    "title": "Back at the Chicken Shack",
+    "artist": "Jimmy Smith",
+    "artistId": "jimmy-smith",
+    "year": 1963,
+    "label": "Blue Note",
+    "era": "soul-jazz-roots",
+    "genres": ["soul jazz", "organ trio", "hard bop"],
+    "albumDNA": "Recorded on 25 April 1960 and held back until 1963, Back at the Chicken Shack sets Jimmy Smith's Hammond organ against Stanley Turrentine's tenor saxophone, with Kenny Burrell on guitar and Donald Bailey on drums. It came out of the same session as Midnight Special, and the eight-minute title blues opens the record."
+  },
+  {
+    "id": "the-meters",
+    "title": "The Meters",
+    "artist": "The Meters",
+    "artistId": "the-meters",
+    "year": 1969,
+    "label": "Josie",
+    "era": "classic-funk",
+    "genres": ["new orleans funk", "instrumental funk", "r&b"],
+    "albumDNA": "The Meters (May 1969, Josie) is the New Orleans quartet's instrumental debut: Art Neville on organ, Leo Nocentelli on guitar, George Porter Jr. on bass and Ziggy Modeliste on drums. \"Cissy Strut\" reached number 23 on the Hot 100 and number 4 R&B, with \"Sophisticated Cissy\" and \"Ease Back\" charting behind it. The album itself peaked at number 108 on the Billboard 200."
+  },
+  {
+    "id": "sex-machine",
+    "title": "Sex Machine",
+    "artist": "James Brown",
+    "artistId": "james-brown",
+    "year": 1970,
+    "label": "King",
+    "era": "classic-funk",
+    "genres": ["funk", "soul", "live"],
+    "albumDNA": "Sex Machine (1970, King) is a double album that puts studio tracks, dressed with added reverberation and overdubbed applause, next to material recorded live in Brown's hometown of Augusta, Georgia. The band is the young J.B.'s: Bootsy Collins on bass, Catfish Collins on guitar, Bobby Byrd on organ and vocals, Clyde Stubblefield and Jabo Starks on drums, Maceo Parker and Fred Wesley in the horns. The eleven-minute title track differs from the two-part single version."
+  },
+  {
+    "id": "theres-a-riot-goin-on",
+    "title": "There's a Riot Goin' On",
+    "artist": "Sly and the Family Stone",
+    "artistId": "sly-and-the-family-stone",
+    "year": 1971,
+    "label": "Epic",
+    "era": "classic-funk",
+    "genres": ["funk", "psychedelic soul", "r&b"],
+    "albumDNA": "Released on 1 November 1971, There's a Riot Goin' On topped both the Billboard pop and soul album charts and carried \"Family Affair\" to number 1 on the pop singles chart. Sly Stone recorded most of it alone, layering overdubs over a Maestro Rhythm King drum machine, which is where the album's murky, dense sound comes from. It marked a turn away from the band's earlier optimism, and the RIAA certified it platinum in 2001."
+  },
+  {
+    "id": "doing-it-to-death",
+    "title": "Doing It to Death",
+    "artist": "The J.B.'s",
+    "artistId": "the-jbs",
+    "year": 1973,
+    "label": "People",
+    "era": "classic-funk",
+    "genres": ["funk", "instrumental funk", "horn funk"],
+    "albumDNA": "Doing It to Death (1973, People) is credited to the J.B.'s and produced by James Brown, who also sings and plays organ on it. The centre of the record is the ten-minute \"Doing It to Death Parts 1 & 2\", a number 1 R&B hit as a single, played by Fred Wesley on trombone, Maceo Parker on alto saxophone and flute, Jimmy Nolen on guitar, Fred Thomas on bass and John \"Jabo\" Starks on drums. It was the first J.B.'s recording to feature Parker after his return to Brown's organization."
+  },
+  {
+    "id": "head-hunters",
+    "title": "Head Hunters",
+    "artist": "Herbie Hancock",
+    "artistId": "herbie-hancock",
+    "year": 1973,
+    "label": "Columbia",
+    "era": "jazz-funk",
+    "genres": ["jazz-funk", "fusion", "instrumental funk"],
+    "albumDNA": "Head Hunters (26 October 1973, Columbia) cut Herbie Hancock's group to four players around him: Bennie Maupin on woodwinds, Paul Jackson on bass, Harvey Mason on drums and Bill Summers on percussion. Hancock worked across Fender Rhodes, clavinet and ARP synthesizers on \"Chameleon\", a rebuilt \"Watermelon Man\", \"Sly\" and \"Vein Melter\". The album reached number 13 on the Billboard 200 and number 2 on the R&B chart, and entered the National Recording Registry in 2008."
+  },
+  {
+    "id": "mothership-connection",
+    "title": "Mothership Connection",
+    "artist": "Parliament",
+    "artistId": "parliament",
+    "year": 1975,
+    "label": "Casablanca",
+    "era": "pfunk-boogie",
+    "genres": ["p-funk", "funk", "psychedelic funk"],
+    "albumDNA": "Mothership Connection (15 December 1975, Casablanca) was Parliament's first album with the former James Brown horn players Maceo Parker and Fred Wesley, alongside Bootsy Collins on bass and Bernie Worrell on keyboards. Three singles came off it in 1976, among them \"Tear the Roof Off the Sucker (Give Up the Funk)\". It was Parliament's first record certified gold, later went platinum, peaked at number 13 on the Billboard 200, and was added to the National Recording Registry in 2011."
+  },
+  {
+    "id": "sounding-out-the-city",
+    "title": "Sounding Out the City",
+    "artist": "El Michels Affair",
+    "artistId": "el-michels-affair",
+    "year": 2005,
+    "label": "Truth & Soul",
+    "era": "rare-groove-revival",
+    "genres": ["instrumental soul", "cinematic soul", "funk"],
+    "albumDNA": "Sounding Out the City, released on 23 August 2005, was El Michels Affair's first full-length, issued by Truth & Soul, the Brooklyn label the group's bandleader Leon Michels co-founded the year before. The instrumental soul on it draws on library music and afrobeat."
+  },
+  {
+    "id": "thrill-of-the-arts",
+    "title": "Thrill of the Arts",
+    "artist": "Vulfpeck",
+    "artistId": "vulfpeck",
+    "year": 2015,
+    "label": "Vulf Records",
+    "era": "new-pocket",
+    "genres": ["funk", "funk-soul", "instrumental funk"],
+    "albumDNA": "Thrill of the Arts, released on 9 October 2015, is Vulfpeck's debut studio album, self-issued on the band's own Vulf Records after four EPs. The Ann Arbor group is Jack Stratton, Theo Katzman, Woody Goss and Joe Dart."
+  }
+]
