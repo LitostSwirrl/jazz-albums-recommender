@@ -195,18 +195,22 @@ export function Timeline() {
 
       {/* Navigation */}
       <div className="mt-12 flex flex-wrap justify-center gap-4">
-        <Link
-          to="/context"
-          className="px-6 py-3 rounded-xl bg-coral text-white font-semibold hover:bg-coral/90 transition-colors"
-        >
-          {siteConfig.copy.contextPageTitle} &rarr;
-        </Link>
-        <Link
-          to="/influence"
-          className="px-6 py-3 rounded-xl border border-border text-charcoal hover:border-charcoal transition-colors"
-        >
-          Influence Network &rarr;
-        </Link>
+        {siteConfig.features.historicalEvents && (
+          <Link
+            to="/context"
+            className="px-6 py-3 rounded-xl bg-coral text-white font-semibold hover:bg-coral/90 transition-colors"
+          >
+            {siteConfig.copy.contextPageTitle} &rarr;
+          </Link>
+        )}
+        {siteConfig.features.connections && (
+          <Link
+            to="/influence"
+            className="px-6 py-3 rounded-xl border border-border text-charcoal hover:border-charcoal transition-colors"
+          >
+            Influence Network &rarr;
+          </Link>
+        )}
         <Link
           to="/albums"
           className="px-6 py-3 rounded-xl border border-border text-charcoal hover:border-charcoal transition-colors"

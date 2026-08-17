@@ -4,6 +4,7 @@ import artistsData from '@site/data/artists.json';
 import artistsDetailData from '@site/data/artistsDetail.json';
 import albumsData from '@site/data/albums.json';
 import erasData from '@site/data/eras.json';
+import { siteConfig } from '@site/config';
 import type { Artist as ArtistType, ArtistDetail, Album, Era, ArtistConnection } from '../types';
 import { MiniInfluenceNetwork } from '../components/graph';
 import { ArtistPhoto } from '../components/ArtistPhoto';
@@ -195,26 +196,28 @@ export function Artist() {
       </section>
 
       {/* Influence Network Visual */}
-      <section className="mb-12">
-        <div className="flex items-center justify-between mb-4">
-          <h2 className="text-2xl font-heading text-charcoal">Influence Network</h2>
-          <Link
-            to="/influence"
-            className="text-coral hover:text-coral/80 text-sm flex items-center gap-1 transition-colors"
-          >
-            Explore full network
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-            </svg>
-          </Link>
-        </div>
-        <p className="text-warm-gray text-sm mb-4">
-          {influencedByArtists.length > 0 && `Influenced by ${influencedByArtists.length} artist${influencedByArtists.length > 1 ? 's' : ''}`}
-          {influencedByArtists.length > 0 && influencedArtists.length > 0 && ' \u00b7 '}
-          {influencedArtists.length > 0 && `Influenced ${influencedArtists.length} artist${influencedArtists.length > 1 ? 's' : ''}`}
-        </p>
-        <MiniInfluenceNetwork artist={artist} allArtists={artists} eras={eras} />
-      </section>
+      {siteConfig.features.connections && (
+        <section className="mb-12">
+          <div className="flex items-center justify-between mb-4">
+            <h2 className="text-2xl font-heading text-charcoal">Influence Network</h2>
+            <Link
+              to="/influence"
+              className="text-coral hover:text-coral/80 text-sm flex items-center gap-1 transition-colors"
+            >
+              Explore full network
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </Link>
+          </div>
+          <p className="text-warm-gray text-sm mb-4">
+            {influencedByArtists.length > 0 && `Influenced by ${influencedByArtists.length} artist${influencedByArtists.length > 1 ? 's' : ''}`}
+            {influencedByArtists.length > 0 && influencedArtists.length > 0 && ' \u00b7 '}
+            {influencedArtists.length > 0 && `Influenced ${influencedArtists.length} artist${influencedArtists.length > 1 ? 's' : ''}`}
+          </p>
+          <MiniInfluenceNetwork artist={artist} allArtists={artists} eras={eras} />
+        </section>
+      )}
 
       {/* Influence Lists */}
       <section className="mb-12">

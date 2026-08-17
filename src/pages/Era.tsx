@@ -3,6 +3,7 @@ import { useState, useMemo } from 'react';
 import erasData from '@site/data/eras.json';
 import artistsData from '@site/data/artists.json';
 import albumsData from '@site/data/albums.json';
+import { siteConfig } from '@site/config';
 import { AlbumCover } from '../components/AlbumCover';
 import { HistoricalEventCard } from '../components/context/HistoricalEventCard';
 import { SEO } from '../components/SEO';
@@ -190,12 +191,14 @@ function EraHistoricalContext({ eraId }: { eraId: EraId }) {
     <section className="mb-12">
       <div className="flex items-center justify-between mb-6">
         <h2 className="text-2xl font-heading text-charcoal">Historical Context</h2>
-        <Link
-          to="/context"
-          className="text-coral hover:text-coral/80 text-sm"
-        >
-          Full Timeline &rarr;
-        </Link>
+        {siteConfig.features.historicalEvents && (
+          <Link
+            to="/context"
+            className="text-coral hover:text-coral/80 text-sm"
+          >
+            Full Timeline &rarr;
+          </Link>
+        )}
       </div>
       <div className="space-y-4">
         {visible.map((event) => (
