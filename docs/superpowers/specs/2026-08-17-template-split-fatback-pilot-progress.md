@@ -30,6 +30,17 @@ One codebase serving per-site packs; Fatback (instrumental-leaning funk/soul, ~2
 
 None. Open items tracked in spec §Open items (Umami id, typography pass, slug availability).
 
+## Phase 3 preconditions and carry-notes (from execution ledger, 2026-08-17)
+
+- Step 0 of Phase 3: fix the data-pipeline scripts. `scripts/fetch_covers.py` is internally inconsistent (COVERS_DIR updated, ALBUMS_PATH/MANIFEST_PATH still point at deleted src/data/ — crashes on launch); ~15 other scripts still hard-code src/data/. Add a site argument rather than re-hardcoding.
+- Funk era year ranges (classic-funk 1965-1974, rare-groove 1985-2009, new-pocket 2010-) deliberately deviate from spec §4 and are RATIFIED — do not re-derive from the spec; album placements depend on them.
+- Funk artist birth/death years use band formation/disband semantics and were not entity-verified (albums were) — verify in the artist pass. Parliament 1968-2018 will render oddly as a lifespan.
+- Funk Home stays visually bare until covers land: HeroFeature/getDailyPicks/picker all gate on coverUrl.
+- Copy contract: `albumsDescriptionSuffix`/`artistsDescriptionSuffix` follow an interpolated "{count} " prefix; eraTransitions renders a 4-column grid — keep exactly 4 entries.
+- new-pocket era description over-generalizes from Vulfpeck's story — tighten when real catalog lands.
+- Phase 4 owns: empty-state fixes in shared code (/paths empty grid, empty Biography heading), real funk sitemap routes, per-site outDir consideration (bare `firebase deploy` would ship one dist to both targets), Fatback design pass (theme-color, loading colors #1a1917/#9a9590 still jazz's, typography).
+- Template-quality debt (non-blocking): EraId union is jazz-typed (funk data never typechecked — validator is the funk gate); ERA_DISPLAY_NAMES + genre-era heuristic provably inert on funk data.
+
 ## Notes
 
 - 19 src files import from `src/data/` — the alias migration surface.
