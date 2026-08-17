@@ -13,30 +13,42 @@ This is a static reference site to explore jazz history, discover 1000 curated a
 - **Styling**: Tailwind CSS
 - **Routing**: React Router DOM (HashRouter)
 - **Data Viz**: React Flow (@xyflow/react) for artist connection graphs
-- **PWA**: hand-rolled service worker (`public/sw.js`) — offline + instant repeat visits
-- **Deployment**: Firebase Hosting (smack-cats-jazz.web.app)
+- **PWA**: hand-rolled service worker (`public-shared/sw.js`) — offline + instant repeat visits
+- **Deployment**: Firebase Hosting — jazz → smack-cats-jazz.web.app, funk → fatback-funk.web.app
 
 ## Project Structure
 
 ```
+public-shared/               # Static files copied into every site's dist/
+├── sw.js                    #   Service worker
+└── 404.html
 src/
 ├── components/
 │   ├── home/        # Landing page: hero, carousels, picker, today's pick
 │   ├── layout/      # Header, navigation, search
 │   ├── discovery/   # Related albums, surprise button
+│   ├── discover/    # Recommendation card used by the Discover section
 │   ├── context/     # Historical-context cards (jazz & society)
 │   ├── icons/       # Streaming + UI icons
-│   ├── timeline/    # Era timeline components
 │   └── graph/       # Artist influence graph (React Flow)
-├── data/
-│   ├── eras.json            # Jazz era definitions (8 eras)
-│   ├── artists.json         # Artist profiles (315) — slim; bios split out
-│   ├── artistsDetail.json   # Per-artist bio/wikipedia (lazy, Artist page only)
-│   ├── albums.json          # Album catalog (1000) — slim; heavy fields split out
-│   ├── albumsDetail.json    # Per-album keyTracks/wikipedia/reviews (lazy, Album page)
-│   ├── connections.json     # 377 source-verified artist connections
-│   ├── historicalEvents.json# Jazz & society timeline events
-│   └── paths.json           # Curated "Paths" agenda + 6 listening routes
+├── sites/                           # One pack per site; VITE_SITE picks it, @site resolves to it
+│   ├── jazz/
+│   │   ├── config.ts                # SiteConfig: name, URL, palette, feature flags, all UI copy
+│   │   ├── public/                  # favicon, PWA icons, manifest, robots.txt, sitemap.xml, covers/
+│   │   └── data/
+│   │       ├── eras.json            # Jazz era definitions (8 eras)
+│   │       ├── artists.json         # Artist profiles (315) — slim; bios split out
+│   │       ├── artistsDetail.json   # Per-artist bio/wikipedia (lazy, Artist page only)
+│   │       ├── albums.json          # Album catalog (1000) — slim; heavy fields split out
+│   │       ├── albumsDetail.json    # Per-album keyTracks/wikipedia/reviews (lazy, Album page)
+│   │       ├── connections.json     # 377 source-verified artist connections
+│   │       ├── historicalEvents.json# Jazz & society timeline events
+│   │       ├── paths.json           # Curated "Paths" agenda + 6 listening routes
+│   │       ├── recommendations.json # Discover shelves + "Tonight" picks (lazy)
+│   │       ├── coverManifest.json   # Album id → self-hosted /covers/*.webp
+│   │       ├── recCoverManifest.json# Same, for recommendation covers
+│   │       └── library.json         # Owned-catalog snapshot
+│   └── funk/                        # Same three-part shape: config.ts + data/ + public/
 ├── hooks/
 │   └── usePreloadImages.ts  # Preload above-the-fold cover images
 ├── pages/                   # Home, Albums, Album, Artists, Artist, Eras, Era,
@@ -61,11 +73,28 @@ src/
 ## Common Commands
 
 ```bash
-npm run dev          # Start dev server
-npm run build        # Production build
-npm run preview      # Preview production build
-npm run deploy       # Build + deploy to Firebase Hosting (project: smack-cats-jazz)
+npm run dev:jazz     # Start dev server for the jazz site
+npm run dev:funk     # Start dev server for the funk site
+npm run build:jazz   # Validate the jazz pack, then production build
+npm run build:funk   # Validate the funk pack, then production build
+npm run preview      # Preview the last production build
+npm run deploy:jazz  # build:jazz + firebase deploy --only hosting:jazz
+npm run deploy:funk  # build:funk + firebase deploy --only hosting:funk
+npm run typecheck    # tsc -b
+npm run lint         # eslint .
 ```
+
+Bare `dev`, `build`, and `deploy` alias the jazz versions. Both builds write to the same `dist/`, so always build the site you are about to deploy.
+
+## Multi-site template
+
+One codebase, two sites. A site pack (`src/sites/<id>/`) holds everything site-specific — `config.ts`, `data/`, `public/` — and nothing else in `src/` names a site.
+
+- **Selection**: `VITE_SITE=jazz|funk` at build/dev time. `vite.config.ts` reads it to point the `@site` alias and `publicDir` at that pack, and to fill `%SITE_*%` tokens in `index.html`. Shared code imports data as `@site/data/albums.json` and config as `@site/config` — never a hard-coded path.
+- **Feature flags**: `siteConfig.features` (`connections`, `historicalEvents`, `discover`) gate routes, nav items, and page sections. Jazz has all three on; funk has all three off.
+- **Copy**: every user-facing string that mentions a genre lives in `siteConfig.copy` (see `src/types/site.ts`), so shared components stay genre-neutral.
+- **Validation**: `scripts/validate_site_pack.mjs <id>` runs before each build — checks required fields on albums/artists/eras, presence of the detail and manifest files, and that every album's era exists.
+- **Sites**: jazz = **Smack Cats** (smack-cats-jazz.web.app), the full 1000-album guide. funk = **Fatback** (fatback-funk.web.app), an instrumental-lean funk & soul guide, currently a 10-album placeholder scaffold.
 
 ## Data Sources
 
