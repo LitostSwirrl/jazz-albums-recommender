@@ -7,12 +7,12 @@
 ## 狀態
 
 - **Spec + scope decisions**: done (2026-08-17), commit cb9a9ff
-- **User spec review**: pending
-- **Implementation plan (writing-plans)**: pending
-- **Phase 1 -- Template extraction**: pending
-- **Phase 2 -- Fatback scaffold**: pending
-- **Phase 3 -- Content production**: pending (multi-session)
-- **Phase 4 -- Paths + launch polish**: pending
+- **User spec review**: done (2026-08-17, approved)
+- **Implementation plan (writing-plans)**: done (2026-08-17), commit cb80bd7
+- **Phase 1 -- Template extraction**: done (2026-08-17), commits 7770dff..5e2d25f, jazz live-verified on template architecture
+- **Phase 2 -- Fatback scaffold**: done (2026-08-17), commits a300365..caae22a, live at https://fatback-funk.web.app (slug `fatback` reserved → fallback). Final whole-branch review + merge to main in progress
+- **Phase 3 -- Content production**: pending (multi-session; ~200 albums, 60-80 artists, covers, verification)
+- **Phase 4 -- Paths + launch polish**: pending (incl. deferred empty-state fixes in shared code)
 
 ## Cross-cutting contracts (shared by every session)
 

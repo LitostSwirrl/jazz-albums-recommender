@@ -21,8 +21,8 @@ One codebase serving per-site packs; Fatback (instrumental-leaning funk/soul, ~2
 - [x] Spec written
 - [ ] User reviews spec
 - [ ] Implementation plan (writing-plans)
-- [ ] Phase 1: template extraction (gate: jazz regression-free, deployed)
-- [ ] Phase 2: Fatback scaffold (gate: live at slug with placeholder pack)
+- [x] Phase 1: template extraction — DONE + deployed live (2026-08-17, commits 7770dff..5e2d25f on feat/template-split-fatback). Firebase note: ck991004@gmail.com added as project Owner (was GCAA-account only); org-parent check pending (user follow-up).
+- [x] Phase 2: Fatback scaffold — DONE + live at https://fatback-funk.web.app (2026-08-17; slug `fatback` was reserved, fallback per spec). 10 verified placeholder albums, 6 eras, PWA assets, flags off, no analytics. Awaiting final whole-branch review + merge.
 - [ ] Phase 3: content production (gate: validation + entity checks pass)
 - [ ] Phase 4: paths + launch polish
 
