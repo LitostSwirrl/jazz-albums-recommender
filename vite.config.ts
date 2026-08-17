@@ -1,11 +1,17 @@
+import path from 'node:path'
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
+
+const site = process.env.VITE_SITE ?? 'jazz'
 
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   base: '/',
+  resolve: {
+    alias: { '@site': path.resolve(__dirname, `src/sites/${site}`) },
+  },
   optimizeDeps: {
     include: ['dagre'],
   },

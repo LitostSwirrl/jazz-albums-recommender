@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import erasData from '../data/eras.json';
+import erasData from '@site/data/eras.json';
 import { SEO } from '../components/SEO';
 import { track } from '../utils/analytics';
 import type { Era } from '../types';

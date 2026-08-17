@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import albumsData from '../../data/albums.json';
-import artistsData from '../../data/artists.json';
+import albumsData from '@site/data/albums.json';
+import artistsData from '@site/data/artists.json';
 import { track } from '../../utils/analytics';
 import type { Album, Artist } from '../../types';
 

@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
-import artistsData from '../data/artists.json';
-import erasData from '../data/eras.json';
+import artistsData from '@site/data/artists.json';
+import erasData from '@site/data/eras.json';
 import type { Artist, Era } from '../types';
 import { ArtistPhoto } from '../components/ArtistPhoto';
 import { SEO } from '../components/SEO';

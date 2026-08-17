@@ -1,6 +1,6 @@
 import { lazy, Suspense, useMemo } from 'react';
-import erasData from '../data/eras.json';
-import albumsData from '../data/albums.json';
+import erasData from '@site/data/eras.json';
+import albumsData from '@site/data/albums.json';
 import { SEO } from '../components/SEO';
 import { ErrorBoundary } from '../components/ErrorBoundary';
 import { HeroFeature } from '../components/home/HeroFeature';

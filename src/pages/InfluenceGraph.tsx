@@ -11,8 +11,8 @@ import {
 } from '@xyflow/react';
 import type { Node } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
-import artistsData from '../data/artists.json';
-import erasData from '../data/eras.json';
+import artistsData from '@site/data/artists.json';
+import erasData from '@site/data/eras.json';
 import { SEO } from '../components/SEO';
 import type { Artist, Era } from '../types';
 import { getVerificationStats } from '../utils/connections';

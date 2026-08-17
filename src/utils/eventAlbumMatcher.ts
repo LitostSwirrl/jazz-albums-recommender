@@ -1,5 +1,5 @@
 import type { HistoricalEvent, HistoricalEventCategory, Album } from '../types';
-import albumsData from '../data/albums.json';
+import albumsData from '@site/data/albums.json';
 import { getAllEvents } from './historicalContext';
 
 const albums = albumsData as Album[];

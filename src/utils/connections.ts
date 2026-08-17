@@ -1,5 +1,5 @@
 import type { ArtistConnection } from '../types';
-import connectionsData from '../data/connections.json';
+import connectionsData from '@site/data/connections.json';
 
 const connections = connectionsData as ArtistConnection[];
 

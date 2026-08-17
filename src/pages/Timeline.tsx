@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import erasData from '../data/eras.json';
-import albumsData from '../data/albums.json';
-import artistsData from '../data/artists.json';
+import erasData from '@site/data/eras.json';
+import albumsData from '@site/data/albums.json';
+import artistsData from '@site/data/artists.json';
 import { SEO } from '../components/SEO';
 import { AlbumCover } from '../components/AlbumCover';
 import { track } from '../utils/analytics';

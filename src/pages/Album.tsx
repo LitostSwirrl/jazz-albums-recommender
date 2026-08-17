@@ -1,8 +1,8 @@
 import { useParams, Link } from 'react-router-dom';
-import albumsData from '../data/albums.json';
-import albumsDetailData from '../data/albumsDetail.json';
-import artistsData from '../data/artists.json';
-import erasData from '../data/eras.json';
+import albumsData from '@site/data/albums.json';
+import albumsDetailData from '@site/data/albumsDetail.json';
+import artistsData from '@site/data/artists.json';
+import erasData from '@site/data/eras.json';
 import { AlbumCover } from '../components/AlbumCover';
 import { ArtistPhoto } from '../components/ArtistPhoto';
 import { RelatedAlbums } from '../components/discovery/RelatedAlbums';

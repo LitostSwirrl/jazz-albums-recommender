@@ -1,5 +1,5 @@
-import recsData from '../../data/recommendations.json';
-import coverManifest from '../../data/recCoverManifest.json';
+import recsData from '@site/data/recommendations.json';
+import coverManifest from '@site/data/recCoverManifest.json';
 import { CarouselSection } from './CarouselSection';
 import { RecCard } from '../discover/RecCard';
 import type { RecommendationsData, RecAlbum } from '../../types';

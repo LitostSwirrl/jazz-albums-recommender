@@ -1,5 +1,5 @@
 import { getProxiedUrl } from './imageProxy';
-import coverManifest from '../data/coverManifest.json';
+import coverManifest from '@site/data/coverManifest.json';
 
 // Original coverUrl -> self-hosted "/covers/<id>.webp", for the 808 unique
 // archive-backed covers fetched by scripts/fetch_covers.py. Built offline so the

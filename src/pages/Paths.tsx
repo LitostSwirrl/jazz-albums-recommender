@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import pathsData from '../data/paths.json';
+import pathsData from '@site/data/paths.json';
 import { SEO } from '../components/SEO';
 import { track } from '../utils/analytics';
 import type { PathsData } from '../types';

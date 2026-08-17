@@ -1,5 +1,5 @@
 import type { HistoricalEvent, HistoricalEventCategory, EraId } from '../types';
-import eventsData from '../data/historicalEvents.json';
+import eventsData from '@site/data/historicalEvents.json';
 
 const events = eventsData as HistoricalEvent[];
 

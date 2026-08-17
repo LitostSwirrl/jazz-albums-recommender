@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import artistsData from '../data/artists.json';
-import artistsDetailData from '../data/artistsDetail.json';
-import albumsData from '../data/albums.json';
-import erasData from '../data/eras.json';
+import artistsData from '@site/data/artists.json';
+import artistsDetailData from '@site/data/artistsDetail.json';
+import albumsData from '@site/data/albums.json';
+import erasData from '@site/data/eras.json';
 import type { Artist as ArtistType, ArtistDetail, Album, Era, ArtistConnection } from '../types';
 import { MiniInfluenceNetwork } from '../components/graph';
 import { ArtistPhoto } from '../components/ArtistPhoto';

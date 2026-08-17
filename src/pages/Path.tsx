@@ -1,6 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
-import pathsData from '../data/paths.json';
-import albumsData from '../data/albums.json';
+import pathsData from '@site/data/paths.json';
+import albumsData from '@site/data/albums.json';
 import { AlbumCover } from '../components/AlbumCover';
 import { SEO } from '../components/SEO';
 import { track } from '../utils/analytics';

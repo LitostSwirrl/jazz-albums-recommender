@@ -1,7 +1,7 @@
 import { useState, useMemo, useEffect, useCallback, useRef } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
-import albumsData from '../data/albums.json';
-import erasData from '../data/eras.json';
+import albumsData from '@site/data/albums.json';
+import erasData from '@site/data/eras.json';
 import { AlbumCover } from '../components/AlbumCover';
 import { SEO } from '../components/SEO';
 import { Pagination } from '../components/Pagination';

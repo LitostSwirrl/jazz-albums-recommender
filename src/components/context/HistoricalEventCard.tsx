@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom';
 import type { HistoricalEvent, Album, Artist } from '../../types';
 import { getCategoryConfig, formatEventYear } from '../../utils/historicalContext';
 import { CategoryBadge } from './CategoryBadge';
-import albumsData from '../../data/albums.json';
-import artistsData from '../../data/artists.json';
+import albumsData from '@site/data/albums.json';
+import artistsData from '@site/data/artists.json';
 
 const albums = albumsData as Album[];
 const artists = artistsData as Artist[];
