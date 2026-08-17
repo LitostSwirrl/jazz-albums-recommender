@@ -4,13 +4,18 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "npm run dev:jazz",
+    "dev:jazz": "VITE_SITE=jazz vite",
+    "dev:funk": "VITE_SITE=funk vite",
     "typecheck": "tsc -b",
-    "build": "vite build",
+    "build": "npm run build:jazz",
+    "build:jazz": "node scripts/validate_site_pack.mjs jazz && VITE_SITE=jazz vite build",
+    "build:funk": "node scripts/validate_site_pack.mjs funk && VITE_SITE=funk vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "firebase deploy --only hosting --project smack-cats-jazz"
+    "deploy": "npm run deploy:jazz",
+    "deploy:jazz": "npm run build:jazz && firebase deploy --only hosting:jazz --project smack-cats-jazz",
+    "deploy:funk": "npm run build:funk && firebase deploy --only hosting:funk --project smack-cats-jazz"
   },
   "homepage": "https://smack-cats-jazz.web.app",
   "dependencies": {

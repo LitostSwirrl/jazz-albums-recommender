@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "smack-cats-jazz"
-  }
+  },
+  "targets": {
+    "smack-cats-jazz": {
+      "hosting": {
+        "jazz": [
+          "smack-cats-jazz"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
