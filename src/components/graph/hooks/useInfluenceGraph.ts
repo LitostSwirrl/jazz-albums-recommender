@@ -1,6 +1,7 @@
 import { useMemo } from 'react';
 import { MarkerType } from '@xyflow/react';
 import type { Node, Edge } from '@xyflow/react';
+import erasData from '@site/data/eras.json';
 import type { Artist, Era } from '../../../types';
 import { getConnection } from '../../../utils/connections';
 
@@ -19,16 +20,9 @@ export interface GraphData {
   artistMap: Map<string, Artist>;
 }
 
-export const eraColors: Record<string, string> = {
-  'early-jazz': '#6b6358',
-  'swing': '#7a7168',
-  'bebop': '#897f75',
-  'cool-jazz': '#988d83',
-  'hard-bop': '#a79b90',
-  'free-jazz': '#b6a99d',
-  'fusion': '#c5b8ab',
-  'contemporary': '#d4c7b9',
-};
+export const eraColors: Record<string, string> = Object.fromEntries(
+  (erasData as Era[]).map((e) => [e.id, e.color])
+);
 
 function getNodeSize(influenceCount: number): 'sm' | 'md' | 'lg' | 'xl' {
   if (influenceCount >= 10) return 'xl';

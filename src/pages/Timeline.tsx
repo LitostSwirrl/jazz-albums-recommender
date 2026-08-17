@@ -12,16 +12,9 @@ const eras = erasData as Era[];
 const albums = albumsData as Album[];
 const artists = artistsData as Artist[];
 
-const eraColors: Record<string, string> = {
-  'early-jazz': '#6b6358',
-  'swing': '#7a7168',
-  'bebop': '#897f75',
-  'cool-jazz': '#988d83',
-  'hard-bop': '#a79b90',
-  'free-jazz': '#b6a99d',
-  'fusion': '#c5b8ab',
-  'contemporary': '#d4c7b9',
-};
+const eraColors: Record<string, string> = Object.fromEntries(
+  eras.map((e) => [e.id, e.color])
+);
 
 function getEraStats(eraId: EraId) {
   const eraAlbums = albums.filter((a) => a.era === eraId);
