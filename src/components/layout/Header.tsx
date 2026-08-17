@@ -74,32 +74,36 @@ export function Header() {
                 <div
                   id="explore-menu"
                   role="menu"
-                  className="absolute right-0 mt-3 w-52 rounded-lg bg-surface border border-border shadow-elevated z-50"
+                  className="absolute right-0 mt-3 w-52 rounded-lg overflow-hidden bg-surface border border-border shadow-elevated z-50"
                 >
                   <Link
                     to="/timeline"
                     role="menuitem"
-                    className="block px-4 py-3 text-charcoal hover:text-coral hover:bg-border/30 transition-colors rounded-t-lg focus:outline-none focus:bg-border/30"
+                    className="block px-4 py-3 text-charcoal hover:text-coral hover:bg-border/30 transition-colors focus:outline-none focus:bg-border/30"
                   >
                     <div className="font-medium text-sm">Timeline</div>
                     <div className="text-xs text-warm-gray mt-0.5">{siteConfig.copy.timelineNavSubtitle}</div>
                   </Link>
-                  <Link
-                    to="/influence"
-                    role="menuitem"
-                    className="block px-4 py-3 text-charcoal hover:text-coral hover:bg-border/30 transition-colors focus:outline-none focus:bg-border/30"
-                  >
-                    <div className="font-medium text-sm">Connection Finder</div>
-                    <div className="text-xs text-warm-gray mt-0.5">Trace artist influence</div>
-                  </Link>
-                  <Link
-                    to="/context"
-                    role="menuitem"
-                    className="block px-4 py-3 text-charcoal hover:text-coral hover:bg-border/30 transition-colors rounded-b-lg focus:outline-none focus:bg-border/30"
-                  >
-                    <div className="font-medium text-sm">{siteConfig.copy.contextPageTitle}</div>
-                    <div className="text-xs text-warm-gray mt-0.5">History & context</div>
-                  </Link>
+                  {siteConfig.features.connections && (
+                    <Link
+                      to="/influence"
+                      role="menuitem"
+                      className="block px-4 py-3 text-charcoal hover:text-coral hover:bg-border/30 transition-colors focus:outline-none focus:bg-border/30"
+                    >
+                      <div className="font-medium text-sm">Connection Finder</div>
+                      <div className="text-xs text-warm-gray mt-0.5">Trace artist influence</div>
+                    </Link>
+                  )}
+                  {siteConfig.features.historicalEvents && (
+                    <Link
+                      to="/context"
+                      role="menuitem"
+                      className="block px-4 py-3 text-charcoal hover:text-coral hover:bg-border/30 transition-colors focus:outline-none focus:bg-border/30"
+                    >
+                      <div className="font-medium text-sm">{siteConfig.copy.contextPageTitle}</div>
+                      <div className="text-xs text-warm-gray mt-0.5">History & context</div>
+                    </Link>
+                  )}
                 </div>
               )}
             </div>
@@ -155,10 +159,10 @@ export function Header() {
               <div className="pt-4 mt-2">
                 <p className="text-xs text-warm-gray uppercase tracking-widest mb-3 font-mono">Explore</p>
                 {[
-                  { to: '/timeline', label: 'Timeline' },
-                  { to: '/influence', label: 'Connection Finder' },
-                  { to: '/context', label: siteConfig.copy.contextPageTitle },
-                ].map((link) => (
+                  { to: '/timeline', label: 'Timeline', enabled: true },
+                  { to: '/influence', label: 'Connection Finder', enabled: siteConfig.features.connections },
+                  { to: '/context', label: siteConfig.copy.contextPageTitle, enabled: siteConfig.features.historicalEvents },
+                ].filter((link) => link.enabled).map((link) => (
                   <Link
                     key={link.to}
                     to={link.to}

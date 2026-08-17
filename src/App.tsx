@@ -4,6 +4,7 @@ import { Layout } from './components/layout';
 import { LoadingSkeleton } from './components/LoadingSkeleton';
 import { ErrorBoundary } from './components/ErrorBoundary';
 import { track } from './utils/analytics';
+import { siteConfig } from '@site/config';
 
 // Eager load main pages for fast initial navigation
 import { Home } from './pages/Home';
@@ -46,8 +47,12 @@ function App() {
               <Route path="/paths" element={<Paths />} />
               <Route path="/path/:id" element={<Path />} />
               <Route path="/timeline" element={<Timeline />} />
-              <Route path="/influence" element={<InfluenceGraph />} />
-              <Route path="/context" element={<ParallelTimeline />} />
+              {siteConfig.features.connections && (
+                <Route path="/influence" element={<InfluenceGraph />} />
+              )}
+              {siteConfig.features.historicalEvents && (
+                <Route path="/context" element={<ParallelTimeline />} />
+              )}
               <Route path="*" element={<NotFound />} />
             </Route>
           </Routes>

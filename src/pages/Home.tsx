@@ -69,16 +69,18 @@ export function Home() {
           <RandomAlbumPicker albums={albums} eras={eras} />
         </LazySection>
 
-        <LazySection>
-          {/* A failed chunk load (stale index.html after a deploy) rejects the
-              lazy import; without this boundary the root one would blank the
-              whole landing page. fallback must be truthy — null falls through. */}
-          <ErrorBoundary fallback={<div />}>
-            <Suspense fallback={<div className="h-48" />}>
-              <DiscoverSection />
-            </Suspense>
-          </ErrorBoundary>
-        </LazySection>
+        {siteConfig.features.discover && (
+          <LazySection>
+            {/* A failed chunk load (stale index.html after a deploy) rejects the
+                lazy import; without this boundary the root one would blank the
+                whole landing page. fallback must be truthy — null falls through. */}
+            <ErrorBoundary fallback={<div />}>
+              <Suspense fallback={<div className="h-48" />}>
+                <DiscoverSection />
+              </Suspense>
+            </ErrorBoundary>
+          </LazySection>
+        )}
       </div>
     </div>
   );
